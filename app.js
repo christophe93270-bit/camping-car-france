@@ -119,6 +119,13 @@ async function initAires(){
       selector.append(option);
     });
     const query=document.getElementById("aire-search");
+    const mapStatus=document.getElementById("aire-map-status");
+    const map=typeof L!=="undefined"?L.map("aire-map").setView([48.75,2.9],8):null;
+    const markerLayer=map?L.layerGroup().addTo(map):null;
+    if(map)L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
+      maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributeurs'
+    }).addTo(map);
+    else mapStatus.textContent="Carte indisponible. Les fiches restent consultables ci-dessous.";
     function display(){
       const q=query.value.trim().toLocaleLowerCase("fr");
       const filtered=aires.filter(a=>(!selector.value||a.department===selector.value)&&[a.name,a.city,a.type,a.department].join(" ").toLocaleLowerCase("fr").includes(q));
@@ -131,6 +138,26 @@ async function initAires(){
         <p><strong>À vérifier :</strong> ${escapeHTML(a.status)}</p>
         <a href="${escapeHTML(a.source)}" target="_blank" rel="noopener noreferrer">Consulter la source ↗</a>
       </article>`).join("");
+      if(map){
+        markerLayer.clearLayers();
+        const points=[];
+        filtered.forEach(a=>{
+          if(!Number.isFinite(a.latitude)||!Number.isFinite(a.longitude))return;
+          const marker=L.marker([a.latitude,a.longitude]).addTo(markerLayer);
+          const title=document.createElement("strong");title.textContent=a.name;
+          const place=document.createElement("p");place.textContent=a.city+" ("+a.department+")";
+          const link=document.createElement("a");
+          link.href="https://www.openstreetmap.org/?mlat="+encodeURIComponent(a.latitude)+"&mlon="+encodeURIComponent(a.longitude)+"#map=16/"+encodeURIComponent(a.latitude)+"/"+encodeURIComponent(a.longitude);
+          link.target="_blank";link.rel="noopener noreferrer";link.textContent="Voir sur OpenStreetMap";
+          const popup=document.createElement("div");popup.append(title,place,link);marker.bindPopup(popup);
+          points.push([a.latitude,a.longitude]);
+        });
+        if(points.length===1)map.setView(points[0],12);
+        else if(points.length>1)map.fitBounds(points,{padding:[25,25],maxZoom:12});
+        else map.setView([48.75,2.9],8);
+        mapStatus.textContent=points.length+" lieu"+(points.length>1?"x":"")+" géolocalisé"+(points.length>1?"s":"")+" sur "+filtered.length+" affiché"+(filtered.length>1?"s":"")+". Seules les coordonnées vérifiées sont placées sur la carte.";
+        setTimeout(()=>map.invalidateSize(),0);
+      }
       document.getElementById("aire-count").textContent=filtered.length+" lieu"+(filtered.length>1?"x":"");
       const empty=document.getElementById("aire-empty");
       empty.hidden=filtered.length>0;
