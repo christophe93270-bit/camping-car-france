@@ -109,10 +109,14 @@ async function initAires(){
     if(!response.ok)throw new Error("Données indisponibles");
     const aires=await response.json();
     const selector=document.getElementById("aire-department");
-    const names={"77":"Seine-et-Marne","93":"Seine-Saint-Denis","95":"Val-d'Oise"};
-    [...new Set(aires.map(a=>a.department))].sort().forEach(code=>{
+    const depResponse=await fetch("departements.json");
+    if(!depResponse.ok)throw new Error("Liste des départements indisponible");
+    const allDepartments=await depResponse.json();
+    allDepartments.slice().sort((a,b)=>String(a.code).localeCompare(String(b.code),"fr",{numeric:true})).forEach(d=>{
       const option=document.createElement("option");
-      option.value=code;option.textContent=code+" — "+(names[code]||code);selector.append(option);
+      option.value=d.code;
+      option.textContent=d.code+" — "+d.name;
+      selector.append(option);
     });
     const query=document.getElementById("aire-search");
     function display(){
@@ -128,7 +132,11 @@ async function initAires(){
         <a href="${escapeHTML(a.source)}" target="_blank" rel="noopener noreferrer">Consulter la source ↗</a>
       </article>`).join("");
       document.getElementById("aire-count").textContent=filtered.length+" lieu"+(filtered.length>1?"x":"");
-      document.getElementById("aire-empty").hidden=filtered.length>0;
+      const empty=document.getElementById("aire-empty");
+      empty.hidden=filtered.length>0;
+      empty.textContent=selector.value && !q
+        ? "Aucune aire encore recensée pour ce département. Notre base est en cours de construction."
+        : "Aucun lieu ne correspond à votre recherche.";
     }
     selector.addEventListener("change",display);query.addEventListener("input",display);display();
   }catch(e){target.textContent="Le répertoire des aires est temporairement indisponible.";}
