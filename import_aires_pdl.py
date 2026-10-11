@@ -73,17 +73,23 @@ def main():
         key=(dep,slug(name),slug(city))
         if key in seen: continue
         seen.add(key)
-        proposed.append({"department":dep,"name":name,"city":city,"type":"Aire de camping-car (donnée ouverte)",
-          "services":["Services non renseignés"],"price":"Non confirmé",
+        proposed.append({"department":dep,"name":name,"city":city,"type":pick(row,"type") or "Aire de camping-car (donnée ouverte)",
+          "services":[{"Eau":"Eau potable (source ouverte)","Electricité":"Électricité (source ouverte)"}.get(str(v),str(v)) for v in (row.get("equipements") or []) if isinstance(v,str)] or ["Services non renseignés"],"price":"Non confirmé",
           "status":"Donnée ouverte : services, accès et tarifs à confirmer",
           "source":SOURCE,"latitude":lat,"longitude":lon,
           "gpsSource":SOURCE,"dataLicense":"ODbL","dataAttribution":"Région Pays de la Loire / e-SPRIT",
-          "importReview":"À contrôler avant publication"})
+          "importReview":"À contrôler avant publication","sourceId":pick(row,"syndicobjectid")})
     output={"source":SOURCE,"licence":"ODbL","attribution":"Région Pays de la Loire / e-SPRIT",
       "recordsDownloaded":len(rows),"proposedCount":len(proposed),"rejectedCount":len(rejected),
       "proposed":proposed}
     (ROOT/"aires-import-propositions.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Propositions: {len(proposed)}; à examiner: {len(rejected)}")
+    print("Par département:",{dep:sum(x["department"]==dep for x in proposed) for dep in sorted(DEPS)})
+    gps_counts={}
+    for x in proposed:
+        key=(x["latitude"],x["longitude"])
+        gps_counts[key]=gps_counts.get(key,0)+1
+    print("Positions GPS partagées:",sum(n>1 for n in gps_counts.values()))
     if rows and not proposed:
         raise SystemExit("Aucun candidat : vérifier aires-import-champs.json et adapter les noms de champs.")
     print("Fichier créé: aires-import-propositions.json (NON publié dans aires.json)")
