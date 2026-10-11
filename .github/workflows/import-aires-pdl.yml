@@ -1,0 +1,37 @@
+name: Tester l'import des aires Pays de la Loire
+on:
+  workflow_dispatch:
+jobs:
+  prepare-import:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Télécharger et préparer les propositions
+        run: python import_aires_pdl.py
+      - name: Vérifier le résultat sans publication
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path=Path("aires-import-propositions.json")
+          data=json.loads(path.read_text(encoding="utf-8"))
+          print("Téléchargées :", data["recordsDownloaded"])
+          print("Propositions :", data["proposedCount"])
+          print("Rejetées :", data["rejectedCount"])
+          assert data["recordsDownloaded"] > 0, "La source n'a renvoyé aucun enregistrement"
+          PY
+      - name: Conserver le diagnostic et les propositions
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic-import-aires-pdl
+          path: |
+            aires-import-propositions.json
+            aires-import-champs.json
+          if-no-files-found: warn
+          retention-days: 14
