@@ -23,7 +23,10 @@ def slug(x):
 def coordinates(d):
     for key in ("geo_point_2d","geo_point","geolocalisation","coordonnees","coordinates","localisation"):
         value=d.get(key)
-        if isinstance(value,(list,tuple)) and len(value)==2:\n            try: return float(value[0]),float(value[1])\n            except (ValueError,TypeError): pass\n        if isinstance(value,dict):
+        if isinstance(value,(list,tuple)) and len(value)==2:
+            try: return float(value[0]),float(value[1])
+            except (ValueError,TypeError): pass
+        if isinstance(value,dict):
             lat=value.get("lat",value.get("latitude"))
             lon=value.get("lon",value.get("lng",value.get("longitude")))
             if lat is not None and lon is not None:
@@ -36,13 +39,18 @@ def main():
     while True:
         url=f"{API}?limit=100&offset={offset}"
         req=urllib.request.Request(url,headers={"User-Agent":"CampingCarFrance/1.0 (open data research)"})
-        try:\n            with urllib.request.urlopen(req,timeout=30) as resp: payload=json.load(resp)\n        except urllib.error.HTTPError as exc:\n            raise SystemExit(f"Erreur API {exc.code} : {url}") from exc
+        try:
+            with urllib.request.urlopen(req,timeout=30) as resp: payload=json.load(resp)
+        except urllib.error.HTTPError as exc:
+            raise SystemExit(f"Erreur API {exc.code} : {url}") from exc
         batch=payload.get("results",[])
         rows+=batch
         offset+=len(batch)
         if not batch or offset>=payload.get("total_count",0): break
     print(f"Source: {len(rows)} enregistrements")
-    if rows:\n        print("Champs disponibles:",", ".join(sorted(rows[0])))\n        (ROOT/"aires-import-champs.json").write_text(json.dumps({"keys":sorted(rows[0]),"sample":rows[0]},ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    if rows:
+        print("Champs disponibles:",", ".join(sorted(rows[0])))
+        (ROOT/"aires-import-champs.json").write_text(json.dumps({"keys":sorted(rows[0]),"sample":rows[0]},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     existing=json.loads((ROOT/"aires.json").read_text(encoding="utf-8"))
     seen={(x["department"],slug(x["name"]),slug(x["city"])) for x in existing}
     proposed=[]; rejected=[]
@@ -72,6 +80,7 @@ def main():
       "recordsDownloaded":len(rows),"proposedCount":len(proposed),"rejectedCount":len(rejected),
       "proposed":proposed}
     (ROOT/"aires-import-propositions.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(f"Propositions: {len(proposed)}; à examiner: {len(rejected)}")\n    if rows and not proposed:\n        print("ATTENTION : aucun candidat. Vérifier aires-import-champs.json et adapter les noms de champs.")
+    print(f"Propositions: {len(proposed)}; à examiner: {len(rejected)}")\n    if rows and not proposed:
+        print("ATTENTION : aucun candidat. Vérifier aires-import-champs.json et adapter les noms de champs.")
     print("Fichier créé: aires-import-propositions.json (NON publié dans aires.json)")
 if __name__=="__main__":main()
