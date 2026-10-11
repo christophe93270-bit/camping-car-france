@@ -1,0 +1,51 @@
+name: Publier les aires Pays de la Loire
+on:
+  workflow_dispatch:
+jobs:
+  publication:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Préparer les données régionales
+        run: python import_aires_pdl.py
+      - name: Contrôler et créer le catalogue
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          src=json.loads(Path("aires-import-propositions.json").read_text(encoding="utf-8"))
+          records=src["proposed"]
+          assert src["recordsDownloaded"] >= 300, "Source incomplète"
+          assert 300 <= len(records) <= 600, "Volume inhabituel : publication bloquée"
+          allowed={"44","49","53","72","85"}
+          assert all(r["department"] in allowed for r in records)
+          assert all(r.get("latitude") is not None and r.get("longitude") is not None for r in records)
+          assert all(r.get("dataLicense")=="ODbL" and r.get("dataAttribution") for r in records)
+          # Éviter les positions GPS strictement identiques sans supprimer définitivement les données.
+          unique=[]
+          seen=set()
+          for r in records:
+              key=(round(r["latitude"],6),round(r["longitude"],6))
+              if key in seen:
+                  print("Position GPS commune, à revoir :",r["name"],r["city"])
+                  continue
+              seen.add(key)
+              unique.append(r)
+          Path("aires-pdl.json").write_text(json.dumps(unique,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          print("À publier :",len(unique),"Répartition :",dict(Counter(r["department"] for r in unique)))
+          PY
+      - name: Enregistrer la base sur GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add aires-pdl.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publier les aires ouvertes Pays de la Loire avec attribution ODbL"
+            git push
+          fi
