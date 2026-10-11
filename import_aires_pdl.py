@@ -21,6 +21,9 @@ def slug(x):
     s=unicodedata.normalize("NFKD",x).encode("ascii","ignore").decode().lower()
     return re.sub(r"[^a-z0-9]+","-",s).strip("-")
 def coordinates(d):
+    if d.get("latitude") is not None and d.get("longitude") is not None:
+        try: return float(d["latitude"]),float(d["longitude"])
+        except (ValueError,TypeError): pass
     for key in ("geo_point_2d","geo_point","geolocalisation","coordonnees","coordinates","localisation"):
         value=d.get(key)
         if isinstance(value,(list,tuple)) and len(value)==2:
@@ -55,10 +58,10 @@ def main():
     seen={(x["department"],slug(x["name"]),slug(x["city"])) for x in existing}
     proposed=[]; rejected=[]
     for row in rows:
-        name=pick(row,"nom_offre","nom","nom_du_site","nom_du_poi","nom_du_prestataire","titre","libelle","name","nom_de_l_offre","nom_commercial")
+        name=pick(row,"nomoffre","nom_offre","nom","nom_du_site","nom_du_poi","nom_du_prestataire","titre","libelle","name","nom_de_l_offre","nom_commercial")
         city=pick(row,"commune","nom_commune","ville","localite","city","commune_de_l_offre")
-        postal=pick(row,"code_postal","codepostal","cp","postal_code")
-        dep=pick(row,"code_departement","departement","departement_code")[:2] or postal[:2]
+        postal=pick(row,"codepostal","code_postal","cp","postal_code")
+        dep=postal[:2] or pick(row,"code_departement","departement","departement_code")[:2]
         gps=coordinates(row)
         if not name or not city or dep not in DEPS or not gps:
             rejected.append({"raison":"Nom, commune, département ou GPS manquant/non reconnu","champs":row})
