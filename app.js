@@ -120,6 +120,8 @@ async function initAires(){
     });
     const query=document.getElementById("aire-search");
     const service=document.getElementById("aire-service");
+    const kind=document.getElementById("aire-kind");
+    const progress=document.getElementById("aire-progress");
     const gpsOnly=document.getElementById("aire-gps-only");
     const reset=document.getElementById("aire-reset");
     const servicePatterns={
@@ -137,9 +139,13 @@ async function initAires(){
     else mapStatus.textContent="Carte indisponible. Les fiches restent consultables ci-dessous.";
     function display(){
       const q=query.value.trim().toLocaleLowerCase("fr");
+      const subset=selector.value?aires.filter(a=>a.department===selector.value):aires;
+      const gpsCount=subset.filter(a=>Number.isFinite(a.latitude)&&Number.isFinite(a.longitude)).length;
+      progress.textContent=subset.length+" lieu"+(subset.length>1?"x":"")+" recensé"+(subset.length>1?"s":"")+" "+(selector.value?"dans ce département":"dans "+new Set(aires.map(a=>a.department)).size+" départements sur 101")+", dont "+gpsCount+" avec coordonnées GPS. Base non exhaustive.";
       const filtered=aires.filter(a=>
         (!selector.value||a.department===selector.value)
         &&[a.name,a.city,a.type,a.department].join(" ").toLocaleLowerCase("fr").includes(q)
+        &&(!kind.value||(kind.value==="camping"?/camping/i.test(a.type):!/camping/i.test(a.type)))
         &&(!service.value||(a.services||[]).some(v=>servicePatterns[service.value].test(v)))
         &&(!gpsOnly.checked||(Number.isFinite(a.latitude)&&Number.isFinite(a.longitude)))
       );
@@ -181,10 +187,11 @@ async function initAires(){
     }
     selector.addEventListener("change",display);
     query.addEventListener("input",display);
+    kind.addEventListener("change",display);
     service.addEventListener("change",display);
     gpsOnly.addEventListener("change",display);
     reset.addEventListener("click",()=>{
-      selector.value="";query.value="";service.value="";gpsOnly.checked=false;display();
+      selector.value="";query.value="";kind.value="";service.value="";gpsOnly.checked=false;display();
     });
     display();
   }catch(e){target.textContent="Le répertoire des aires est temporairement indisponible.";}
