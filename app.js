@@ -119,6 +119,15 @@ async function initAires(){
       selector.append(option);
     });
     const query=document.getElementById("aire-search");
+    const service=document.getElementById("aire-service");
+    const gpsOnly=document.getElementById("aire-gps-only");
+    const reset=document.getElementById("aire-reset");
+    const servicePatterns={
+      water:/eau potable/i,
+      drain:/vidange/i,
+      electric:/électricit/i,
+      parking:/stationnement/i
+    };
     const mapStatus=document.getElementById("aire-map-status");
     const map=typeof L!=="undefined"?L.map("aire-map").setView([48.75,2.9],8):null;
     const markerLayer=map?L.layerGroup().addTo(map):null;
@@ -128,7 +137,12 @@ async function initAires(){
     else mapStatus.textContent="Carte indisponible. Les fiches restent consultables ci-dessous.";
     function display(){
       const q=query.value.trim().toLocaleLowerCase("fr");
-      const filtered=aires.filter(a=>(!selector.value||a.department===selector.value)&&[a.name,a.city,a.type,a.department].join(" ").toLocaleLowerCase("fr").includes(q));
+      const filtered=aires.filter(a=>
+        (!selector.value||a.department===selector.value)
+        &&[a.name,a.city,a.type,a.department].join(" ").toLocaleLowerCase("fr").includes(q)
+        &&(!service.value||(a.services||[]).some(v=>servicePatterns[service.value].test(v)))
+        &&(!gpsOnly.checked||(Number.isFinite(a.latitude)&&Number.isFinite(a.longitude)))
+      );
       target.innerHTML=filtered.map(a=>`<article class="department-card" style="cursor:default;text-align:left">
         <span class="card-top"><span class="department-code">${escapeHTML(a.department)}</span><span class="card-score" style="font-size:.85rem">${escapeHTML(a.type)}</span></span>
         <span class="card-name">${escapeHTML(a.name)}</span>
@@ -165,7 +179,14 @@ async function initAires(){
         ? "Aucune aire encore recensée pour ce département. Notre base est en cours de construction."
         : "Aucun lieu ne correspond à votre recherche.";
     }
-    selector.addEventListener("change",display);query.addEventListener("input",display);display();
+    selector.addEventListener("change",display);
+    query.addEventListener("input",display);
+    service.addEventListener("change",display);
+    gpsOnly.addEventListener("change",display);
+    reset.addEventListener("click",()=>{
+      selector.value="";query.value="";service.value="";gpsOnly.checked=false;display();
+    });
+    display();
   }catch(e){target.textContent="Le répertoire des aires est temporairement indisponible.";}
 }
 initAires();
