@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Camping-Car France : comparez les départements selon l'accueil, les prix, les services et le tourisme.">
+<title>Camping-Car France — Classement des départements</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#" aria-label="Camping-Car France, accueil"><span class="brand-mark">CC</span><span>Camping-Car <b>France</b><small>Le guide des départements</small></span></a>
+  <nav><a href="#classement">Classement</a><a href="#methode">Méthode</a><a href="#contribuer">Donner un avis</a></nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">LE GUIDE INDÉPENDANT DES CAMPING-CARISTES</p>
+      <h1>La France se découvre<br><em>en camping-car.</em></h1>
+      <p>Comparez les départements selon l'accueil, le budget, les services et les découvertes touristiques.</p>
+      <a class="button button-light" href="#classement">Explorer les départements <span>↓</span></a>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="sun"></div><div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
+      <div class="road"></div><div class="van"><div class="van-window"></div><div class="wheel wheel-one"></div><div class="wheel wheel-two"></div></div>
+      <div class="hero-caption">Prendre la route, autrement.</div>
+    </div>
+  </section>
+
+  <section class="stats" aria-label="À propos du classement">
+    <div><strong>101</strong><span>départements à explorer</span></div>
+    <div><strong>8</strong><span>critères transparents</span></div>
+    <div><strong>100</strong><span>points maximum</span></div>
+    <div><strong>0</strong><span>note inventée</span></div>
+  </section>
+
+  <section class="section" id="classement">
+    <div class="section-heading">
+      <div><p class="eyebrow">TROUVEZ VOTRE PROCHAINE ÉTAPE</p><h2>Le classement des départements</h2></div>
+      <span class="status-pill"><i></i> Première version</span>
+    </div>
+    <div class="notice"><strong>Transparence :</strong> les notes officielles ne sont pas encore publiées. Les départements ci-dessous sont à documenter ; aucun score fictif n'est affiché.</div>
+    <div class="toolbar">
+      <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Rechercher un département…" autocomplete="off"></label>
+      <select id="sort" aria-label="Trier les départements"><option value="name">Ordre alphabétique</option><option value="code">Code département</option><option value="score">Meilleure note (données vérifiées)</option></select>
+      <span class="result-count" id="result-count">101 départements</span>
+    </div>
+    <div class="department-grid" id="department-grid" aria-live="polite"></div>
+    <div class="empty-state" id="empty-state" hidden>Aucun département ne correspond à cette recherche.</div>
+  </section>
+
+  <section class="method-section" id="methode">
+    <div class="method-intro"><p class="eyebrow">UN CLASSEMENT EXPLICABLE</p><h2>Comment sont calculées les notes ?</h2><p>Chaque critère reçoit une note de 0 à 100. Elle est ensuite pondérée. Une donnée absente ne vaut jamais zéro : elle doit être vérifiée avant la publication d'une note.</p></div>
+    <div class="criteria">
+      <div class="criterion"><span class="criterion-icon">⌂</span><div><b>Accueil et qualité des aires</b><small>Propreté, confort, emplacement, facilité d'accès</small></div><strong>25%</strong></div>
+      <div class="criterion"><span class="criterion-icon">€</span><div><b>Prix du séjour</b><small>Nuitée, stationnement et rapport qualité-prix</small></div><strong>20%</strong></div>
+      <div class="criterion"><span class="criterion-icon">✦</span><div><b>Tourisme et paysages</b><small>Nature, patrimoine, villages et activités</small></div><strong>20%</strong></div>
+      <div class="criterion"><span class="criterion-icon">P</span><div><b>Stationnement et réglementation</b><small>Possibilités légales et restrictions connues</small></div><strong>10%</strong></div>
+      <div class="criterion"><span class="criterion-icon">↻</span><div><b>Services techniques</b><small>Eau, vidange, électricité et déchets</small></div><strong>10%</strong></div>
+      <div class="criterion"><span class="criterion-icon">✓</span><div><b>Sécurité et tranquillité</b><small>Retours documentés et informations disponibles</small></div><strong>5%</strong></div>
+      <div class="criterion"><span class="criterion-icon">⌖</span><div><b>Commerces et vie pratique</b><small>Marchés, alimentation et services proches</small></div><strong>5%</strong></div>
+      <div class="criterion"><span class="criterion-icon">↗</span><div><b>Accessibilité routière</b><small>Routes, gabarits et accès aux sites</small></div><strong>5%</strong></div>
+    </div>
+    <div class="formula"><span>Formule de calcul</span><code>Note finale = Σ (note du critère × poids) ÷ 100</code></div>
+  </section>
+
+  <section class="contribute-section" id="contribuer">
+    <div class="contribute-copy"><p class="eyebrow">VOTRE EXPÉRIENCE COMPTE</p><h2>Partagez votre expérience</h2><p>Les avis aideront à améliorer le guide. Dans cette version de démonstration, les avis sont enregistrés uniquement dans ce navigateur et restent en attente de modération. Ils ne sont pas envoyés sur un serveur.</p><ul><li>Indiquez la date de votre séjour.</li><li>Décrivez une expérience utile et factuelle.</li><li>Évitez les données personnelles.</li></ul></div>
+    <form id="review-form" class="review-form">
+      <label>Département<select id="review-department" required></select></label>
+      <label>Date du séjour<input id="review-date" type="date" required></label>
+      <label>Votre note globale<select id="review-rating" required><option value="">Choisir une note</option><option value="5">5 — Excellent</option><option value="4">4 — Très bien</option><option value="3">3 — Correct</option><option value="2">2 — Décevant</option><option value="1">1 — Mauvais</option></select></label>
+      <label>Votre avis<textarea id="review-text" rows="4" minlength="20" maxlength="1000" placeholder="Décrivez ce qui peut aider les autres camping-caristes (20 caractères minimum)." required></textarea></label>
+      <label class="checkbox-line"><input id="review-consent" type="checkbox" required> Je confirme que cet avis est sincère et ne contient pas de données personnelles.</label>
+      <button class="button button-dark" type="submit">Envoyer pour modération</button>
+      <p class="form-message" id="review-message" role="status"></p>
+    </form>
+  </section>
+  <section class="source-section">
+    <div><p class="eyebrow">DONNÉES ET SOURCES</p><h2>Un guide à construire ensemble</h2><p>Les données seront ajoutées au fur et à mesure, avec leur source et leur date de vérification. Avant la mise en production, il faudra intégrer des sources fiables, vérifier les licences et mettre en place un stockage partagé pour les avis.</p></div>
+    <div class="source-links"><a href="https://www.data.gouv.fr/" target="_blank" rel="noopener">Données publiques françaises ↗</a><a href="https://www.openstreetmap.org/" target="_blank" rel="noopener">OpenStreetMap ↗</a><a href="https://www.cnil.fr/" target="_blank" rel="noopener">Informations CNIL ↗</a></div>
+  </section>
+</main>
+<footer><a class="brand brand-footer" href="#"><span class="brand-mark">CC</span><span>Camping-Car <b>France</b><small>Le guide des départements</small></span></a><p>Projet indépendant en cours de préparation. Les notes et informations doivent être vérifiées avant publication.</p><span>© <span id="year"></span> Camping-Car France</span></footer>
+
+<dialog id="department-dialog" class="department-dialog">
+  <button class="dialog-close" id="dialog-close" aria-label="Fermer">×</button>
+  <div id="dialog-content"></div>
+</dialog>
+<script src="app.js"></script>
+</body>
+</html>

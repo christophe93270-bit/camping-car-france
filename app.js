@@ -1,0 +1,102 @@
+const weights = [
+  {key:"welcome",name:"Accueil et qualité des aires",weight:25},
+  {key:"price",name:"Prix du séjour",weight:20},
+  {key:"tourism",name:"Tourisme et paysages",weight:20},
+  {key:"parking",name:"Stationnement et réglementation",weight:10},
+  {key:"services",name:"Services techniques",weight:10},
+  {key:"safety",name:"Sécurité et tranquillité",weight:5},
+  {key:"shops",name:"Commerces et vie pratique",weight:5},
+  {key:"access",name:"Accessibilité routière",weight:5}
+];
+let departments = [];
+let reviews = safeRead("ccf-reviews", []);
+const grid = document.getElementById("department-grid");
+const search = document.getElementById("search");
+const sort = document.getElementById("sort");
+const dialog = document.getElementById("department-dialog");
+
+function safeRead(key, fallback){ try { const v=localStorage.getItem(key); return v?JSON.parse(v):fallback; } catch(e){ return fallback; } }
+function safeWrite(key, value){ try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch(e){ return false; } }
+function escapeHTML(value){ return String(value ?? "").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function calcScore(scores){
+  if(!scores || weights.some(w=>!Number.isFinite(Number(scores[w.key])) || Number(scores[w.key])<0 || Number(scores[w.key])>100)) return null;
+  return Math.round(weights.reduce((sum,w)=>sum+Number(scores[w.key])*w.weight,0))/100;
+}
+function codeOrder(code){ return /^\d+$/.test(code)?Number(code):code==="2A"?20.1:20.2; }
+function render(){
+  const q=search.value.trim().toLocaleLowerCase("fr");
+  let items=departments.filter(d=>(d.name+" "+d.code).toLocaleLowerCase("fr").includes(q));
+  if(sort.value==="code") items.sort((a,b)=>String(a.code).localeCompare(String(b.code),"fr",{numeric:true}));
+  else if(sort.value==="score") items.sort((a,b)=>(calcScore(b.scores)??-1)-(calcScore(a.scores)??-1) || a.name.localeCompare(b.name,"fr"));
+  else items.sort((a,b)=>a.name.localeCompare(b.name,"fr"));
+  grid.innerHTML=items.map(d=>{
+    const score=calcScore(d.scores);
+    return `<button class="department-card" data-code="${escapeHTML(d.code)}" aria-label="Voir la fiche ${escapeHTML(d.name)}">
+      <span class="card-top"><span class="department-code">${escapeHTML(d.code)}</span><span class="card-score">${score===null?"À documenter":`${score}/100`}</span></span>
+      <span class="card-name">${escapeHTML(d.name)}</span>
+      <span class="card-foot"><span>${d.verified?"Données vérifiées":"Fiche à compléter"}</span><span class="card-arrow">↗</span></span>
+    </button>`;
+  }).join("");
+  document.getElementById("result-count").textContent=`${items.length} département${items.length>1?"s":""}`;
+  document.getElementById("empty-state").hidden=items.length!==0;
+  grid.querySelectorAll("[data-code]").forEach(el=>el.addEventListener("click",()=>openDepartment(el.dataset.code)));
+}
+function openDepartment(code){
+  const d=departments.find(x=>x.code===code); if(!d)return;
+  const score=calcScore(d.scores);
+  const detail=weights.map(w=>{
+    const value=d.scores?.[w.key];
+    return `<div class="dialog-criterion"><span>${escapeHTML(w.name)} <small>· ${w.weight}%</small></span><strong>${value===undefined||value===null?"Non renseigné":`${value}/100`}</strong></div>`;
+  }).join("");
+  const localReviews=reviews.filter(r=>r.code===code);
+  document.getElementById("dialog-content").innerHTML=`
+    <div class="dialog-kicker">FICHE DÉPARTEMENT · ${escapeHTML(d.code)}</div>
+    <h2 class="dialog-title">${escapeHTML(d.name)}</h2>
+    <div class="dialog-subtitle">${d.region?escapeHTML(d.region):"France"} · Dernière vérification : ${d.lastChecked?escapeHTML(d.lastChecked):"pas encore renseignée"}</div>
+    <div class="dialog-score"><strong>${score===null?"Note non disponible":`${score}/100`}</strong><p>${score===null?"La note sera publiée lorsque les huit critères auront été documentés.":"Note calculée à partir des huit critères."}</p></div>
+    <h3>Les critères de notation</h3><div class="dialog-criteria">${detail}</div>
+    <div class="dialog-note">${escapeHTML(d.notes||"Les données doivent être vérifiées avant de publier une note. Aucune donnée absente n'est assimilée à zéro.")}</div>
+    <div class="dialog-links"><a href="https://www.data.gouv.fr/" target="_blank" rel="noopener">Rechercher des données publiques ↗</a><a href="https://www.openstreetmap.org/" target="_blank" rel="noopener">Voir la carte ↗</a></div>
+    <div class="review-list"><h3>Avis de démonstration enregistrés dans ce navigateur</h3>${localReviews.length?localReviews.map(r=>`<div class="review-item"><strong>${"★".repeat(Number(r.rating))}${"☆".repeat(5-Number(r.rating))} · En attente de modération</strong><p>${escapeHTML(r.text)}</p><small>Séjour : ${escapeHTML(r.date)}</small></div>`).join(""):'<p class="dialog-subtitle">Aucun avis local pour cette fiche.</p>'}</div>`;
+  dialog.showModal();
+}
+function populateSelect(){
+  const select=document.getElementById("review-department");
+  select.innerHTML='<option value="">Choisir un département</option>'+departments.slice().sort((a,b)=>a.name.localeCompare(b.name,"fr")).map(d=>`<option value="${escapeHTML(d.code)}">${escapeHTML(d.name)} (${escapeHTML(d.code)})</option>`).join("");
+}
+async function init(){
+  try{
+    const response=await fetch("departements.json");
+    if(!response.ok) throw new Error("Fichier de données introuvable");
+    departments=await response.json();
+  }catch(e){
+    grid.innerHTML='<div class="notice">Impossible de charger departements.json. Ouvrez le site via un hébergement web ou suivez les instructions du fichier README.</div>';
+    return;
+  }
+  render(); populateSelect();
+}
+search.addEventListener("input",render);
+sort.addEventListener("change",render);
+document.getElementById("dialog-close").addEventListener("click",()=>dialog.close());
+dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+document.getElementById("review-form").addEventListener("submit",e=>{
+  e.preventDefault();
+  const review={
+    id:`local-${Date.now()}`,
+    code:document.getElementById("review-department").value,
+    date:document.getElementById("review-date").value,
+    rating:Number(document.getElementById("review-rating").value),
+    text:document.getElementById("review-text").value.trim(),
+    status:"pending",
+    createdAt:new Date().toISOString()
+  };
+  if(review.text.length<20){document.getElementById("review-message").textContent="Merci de saisir au moins 20 caractères.";return;}
+  reviews.push(review);
+  const saved=safeWrite("ccf-reviews",reviews);
+  document.getElementById("review-message").textContent=saved
+    ?"Avis enregistré dans ce navigateur, en attente de modération. Il n'est pas transmis au site public."
+    :"Impossible d'enregistrer cet avis dans le navigateur. Copiez son contenu avant de fermer la page.";
+  if(saved)e.target.reset();
+});
+document.getElementById("year").textContent=new Date().getFullYear();
+init();
