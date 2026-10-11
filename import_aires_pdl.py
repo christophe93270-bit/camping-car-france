@@ -2,7 +2,7 @@
 """Prépare un import des aires Pays de la Loire sans modifier la base publique.
 Source : Région Pays de la Loire / e-SPRIT, licence ODbL.
 """
-import json, re, unicodedata, urllib.request
+import json, re, unicodedata, urllib.request, urllib.error
 from pathlib import Path
 
 DATASET="234400034_070-001_offre-touristique-aires-de-camping-car-rpdl"
@@ -21,9 +21,9 @@ def slug(x):
     s=unicodedata.normalize("NFKD",x).encode("ascii","ignore").decode().lower()
     return re.sub(r"[^a-z0-9]+","-",s).strip("-")
 def coordinates(d):
-    for key in ("geo_point_2d","geolocalisation","coordonnees","coordinates","localisation"):
+    for key in ("geo_point_2d","geo_point","geolocalisation","coordonnees","coordinates","localisation"):
         value=d.get(key)
-        if isinstance(value,dict):
+        if isinstance(value,(list,tuple)) and len(value)==2:\n            try: return float(value[0]),float(value[1])\n            except (ValueError,TypeError): pass\n        if isinstance(value,dict):
             lat=value.get("lat",value.get("latitude"))
             lon=value.get("lon",value.get("lng",value.get("longitude")))
             if lat is not None and lon is not None:
@@ -36,19 +36,19 @@ def main():
     while True:
         url=f"{API}?limit=100&offset={offset}"
         req=urllib.request.Request(url,headers={"User-Agent":"CampingCarFrance/1.0 (open data research)"})
-        with urllib.request.urlopen(req,timeout=30) as resp: payload=json.load(resp)
+        try:\n            with urllib.request.urlopen(req,timeout=30) as resp: payload=json.load(resp)\n        except urllib.error.HTTPError as exc:\n            raise SystemExit(f"Erreur API {exc.code} : {url}") from exc
         batch=payload.get("results",[])
         rows+=batch
         offset+=len(batch)
         if not batch or offset>=payload.get("total_count",0): break
     print(f"Source: {len(rows)} enregistrements")
-    if rows: print("Champs disponibles:",", ".join(sorted(rows[0])))
+    if rows:\n        print("Champs disponibles:",", ".join(sorted(rows[0])))\n        (ROOT/"aires-import-champs.json").write_text(json.dumps({"keys":sorted(rows[0]),"sample":rows[0]},ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
     existing=json.loads((ROOT/"aires.json").read_text(encoding="utf-8"))
     seen={(x["department"],slug(x["name"]),slug(x["city"])) for x in existing}
     proposed=[]; rejected=[]
     for row in rows:
-        name=pick(row,"nom_offre","nom","nom_du_site","nom_du_poi","nom_du_prestataire","titre","libelle","name")
-        city=pick(row,"commune","nom_commune","ville","localite","city")
+        name=pick(row,"nom_offre","nom","nom_du_site","nom_du_poi","nom_du_prestataire","titre","libelle","name","nom_de_l_offre","nom_commercial")
+        city=pick(row,"commune","nom_commune","ville","localite","city","commune_de_l_offre")
         postal=pick(row,"code_postal","codepostal","cp","postal_code")
         dep=pick(row,"code_departement","departement","departement_code")[:2] or postal[:2]
         gps=coordinates(row)
@@ -72,6 +72,6 @@ def main():
       "recordsDownloaded":len(rows),"proposedCount":len(proposed),"rejectedCount":len(rejected),
       "proposed":proposed}
     (ROOT/"aires-import-propositions.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(f"Propositions: {len(proposed)}; à examiner: {len(rejected)}")
+    print(f"Propositions: {len(proposed)}; à examiner: {len(rejected)}")\n    if rows and not proposed:\n        print("ATTENTION : aucun candidat. Vérifier aires-import-champs.json et adapter les noms de champs.")
     print("Fichier créé: aires-import-propositions.json (NON publié dans aires.json)")
 if __name__=="__main__":main()
