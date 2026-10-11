@@ -19,7 +19,7 @@ function safeRead(key, fallback){ try { const v=localStorage.getItem(key); retur
 function safeWrite(key, value){ try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch(e){ return false; } }
 function escapeHTML(value){ return String(value ?? "").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 function calcScore(scores){
-  if(!scores || weights.some(w=>!Number.isFinite(Number(scores[w.key])) || Number(scores[w.key])<0 || Number(scores[w.key])>100)) return null;
+  if(!scores || weights.some(w=>scores[w.key]===null || scores[w.key]===undefined || scores[w.key]==="" || !Number.isFinite(Number(scores[w.key])) || Number(scores[w.key])<0 || Number(scores[w.key])>100)) return null;
   return Math.round(weights.reduce((sum,w)=>sum+Number(scores[w.key])*w.weight,0))/100;
 }
 function codeOrder(code){ return /^\d+$/.test(code)?Number(code):code==="2A"?20.1:20.2; }
@@ -27,14 +27,14 @@ function render(){
   const q=search.value.trim().toLocaleLowerCase("fr");
   let items=departments.filter(d=>(d.name+" "+d.code).toLocaleLowerCase("fr").includes(q));
   if(sort.value==="code") items.sort((a,b)=>String(a.code).localeCompare(String(b.code),"fr",{numeric:true}));
-  else if(sort.value==="score") items.sort((a,b)=>(calcScore(b.scores)??-1)-(calcScore(a.scores)??-1) || a.name.localeCompare(b.name,"fr"));
+  else if(sort.value==="score") items.sort((a,b)=>((b.verified?calcScore(b.scores):null)??-1)-((a.verified?calcScore(a.scores):null)??-1) || a.name.localeCompare(b.name,"fr"));
   else items.sort((a,b)=>a.name.localeCompare(b.name,"fr"));
   grid.innerHTML=items.map(d=>{
-    const score=calcScore(d.scores);
+    const score=d.verified?calcScore(d.scores):null;
     return `<button class="department-card" data-code="${escapeHTML(d.code)}" aria-label="Voir la fiche ${escapeHTML(d.name)}">
       <span class="card-top"><span class="department-code">${escapeHTML(d.code)}</span><span class="card-score">${score===null?"À documenter":`${score}/100`}</span></span>
       <span class="card-name">${escapeHTML(d.name)}</span>
-      <span class="card-foot"><span>${d.verified?"Données vérifiées":"Fiche à compléter"}</span><span class="card-arrow">↗</span></span>
+      <span class="card-foot"><span>${d.verified&&score!==null?"Données vérifiées":"Fiche à compléter"}</span><span class="card-arrow">↗</span></span>
     </button>`;
   }).join("");
   document.getElementById("result-count").textContent=`${items.length} département${items.length>1?"s":""}`;
@@ -43,10 +43,10 @@ function render(){
 }
 function openDepartment(code){
   const d=departments.find(x=>x.code===code); if(!d)return;
-  const score=calcScore(d.scores);
+  const score=d.verified?calcScore(d.scores):null;
   const detail=weights.map(w=>{
     const value=d.scores?.[w.key];
-    return `<div class="dialog-criterion"><span>${escapeHTML(w.name)} <small>· ${w.weight}%</small></span><strong>${value===undefined||value===null?"Non renseigné":`${value}/100`}</strong></div>`;
+    return `<div class="dialog-criterion"><span>${escapeHTML(w.name)} <small>· ${w.weight}%</small></span><strong>${value===undefined||value===null||value===""?"Non renseigné":`${value}/100`}</strong></div>`;
   }).join("");
   const localReviews=reviews.filter(r=>r.code===code);
   document.getElementById("dialog-content").innerHTML=`
