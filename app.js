@@ -107,7 +107,13 @@ async function initAires(){
   try{
     const response=await fetch("aires.json");
     if(!response.ok)throw new Error("Données indisponibles");
-    const aires=await response.json();
+    const existingAires=await response.json();
+    let importedAires=[];
+    try {
+      const importedResponse=await fetch("aires-pdl.json");
+      if(importedResponse.ok) importedAires=await importedResponse.json();
+    } catch (_) { /* Le répertoire initial reste disponible. */ }
+    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[]);
     const selector=document.getElementById("aire-department");
     const depResponse=await fetch("departements.json");
     if(!depResponse.ok)throw new Error("Liste des départements indisponible");
@@ -156,6 +162,7 @@ async function initAires(){
         <p><strong>Services :</strong> ${escapeHTML(a.services.join(", "))}</p>
         <p><strong>Tarif :</strong> ${escapeHTML(a.price)}</p>
         <p><strong>À vérifier :</strong> ${escapeHTML(a.status)}</p>
+        ${a.dataAttribution?`<p><small>Données : ${escapeHTML(a.dataAttribution)} — ${escapeHTML(a.dataLicense||"Licence non indiquée")}</small></p>`:""}
         <a href="${escapeHTML(a.source)}" target="_blank" rel="noopener noreferrer">Consulter la source ↗</a>
       </article>`).join("");
       if(map){
@@ -175,7 +182,7 @@ async function initAires(){
         if(points.length===1)map.setView(points[0],12);
         else if(points.length>1)map.fitBounds(points,{padding:[25,25],maxZoom:12});
         else map.setView([48.75,2.9],8);
-        mapStatus.textContent=points.length+" lieu"+(points.length>1?"x":"")+" géolocalisé"+(points.length>1?"s":"")+" sur "+filtered.length+" affiché"+(filtered.length>1?"s":"")+". Seules les coordonnées vérifiées sont placées sur la carte.";
+        mapStatus.textContent=points.length+" lieu"+(points.length>1?"x":"")+" géolocalisé"+(points.length>1?"s":"")+" sur "+filtered.length+" affiché"+(filtered.length>1?"s":"")+". Les positions issues des données ouvertes sont indicatives et restent à vérifier avant déplacement.";
         setTimeout(()=>map.invalidateSize(),0);
       }
       document.getElementById("aire-count").textContent=filtered.length+" lieu"+(filtered.length>1?"x":"");
