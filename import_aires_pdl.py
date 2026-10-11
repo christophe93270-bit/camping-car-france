@@ -80,7 +80,8 @@ def main():
       "recordsDownloaded":len(rows),"proposedCount":len(proposed),"rejectedCount":len(rejected),
       "proposed":proposed}
     (ROOT/"aires-import-propositions.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(f"Propositions: {len(proposed)}; à examiner: {len(rejected)}")\n    if rows and not proposed:
-        print("ATTENTION : aucun candidat. Vérifier aires-import-champs.json et adapter les noms de champs.")
+    print(f"Propositions: {len(proposed)}; à examiner: {len(rejected)}")
+    if rows and not proposed:
+        raise SystemExit("Aucun candidat : vérifier aires-import-champs.json et adapter les noms de champs.")
     print("Fichier créé: aires-import-propositions.json (NON publié dans aires.json)")
 if __name__=="__main__":main()
