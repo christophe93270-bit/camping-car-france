@@ -100,3 +100,37 @@ document.getElementById("review-form").addEventListener("submit",e=>{
 });
 document.getElementById("year").textContent=new Date().getFullYear();
 init();
+
+async function initAires(){
+  const target=document.getElementById("aire-grid");
+  if(!target)return;
+  try{
+    const response=await fetch("aires.json");
+    if(!response.ok)throw new Error("Données indisponibles");
+    const aires=await response.json();
+    const selector=document.getElementById("aire-department");
+    const names={"77":"Seine-et-Marne","93":"Seine-Saint-Denis","95":"Val-d'Oise"};
+    [...new Set(aires.map(a=>a.department))].sort().forEach(code=>{
+      const option=document.createElement("option");
+      option.value=code;option.textContent=code+" — "+(names[code]||code);selector.append(option);
+    });
+    const query=document.getElementById("aire-search");
+    function display(){
+      const q=query.value.trim().toLocaleLowerCase("fr");
+      const filtered=aires.filter(a=>(!selector.value||a.department===selector.value)&&[a.name,a.city,a.type,a.department].join(" ").toLocaleLowerCase("fr").includes(q));
+      target.innerHTML=filtered.map(a=>`<article class="department-card" style="cursor:default;text-align:left">
+        <span class="card-top"><span class="department-code">${escapeHTML(a.department)}</span><span class="card-score" style="font-size:.85rem">${escapeHTML(a.type)}</span></span>
+        <span class="card-name">${escapeHTML(a.name)}</span>
+        <span class="card-foot">${escapeHTML(a.city)}</span>
+        <p><strong>Services :</strong> ${escapeHTML(a.services.join(", "))}</p>
+        <p><strong>Tarif :</strong> ${escapeHTML(a.price)}</p>
+        <p><strong>À vérifier :</strong> ${escapeHTML(a.status)}</p>
+        <a href="${escapeHTML(a.source)}" target="_blank" rel="noopener noreferrer">Consulter la source ↗</a>
+      </article>`).join("");
+      document.getElementById("aire-count").textContent=filtered.length+" lieu"+(filtered.length>1?"x":"");
+      document.getElementById("aire-empty").hidden=filtered.length>0;
+    }
+    selector.addEventListener("change",display);query.addEventListener("input",display);display();
+  }catch(e){target.textContent="Le répertoire des aires est temporairement indisponible.";}
+}
+initAires();
