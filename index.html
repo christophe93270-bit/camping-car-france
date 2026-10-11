@@ -10,7 +10,7 @@
 <body>
 <header class="site-header">
   <a class="brand" href="#" aria-label="Camping-Car France, accueil"><span class="brand-mark">CC</span><span>Camping-Car <b>France</b><small>Le guide des départements</small></span></a>
-  <nav><a href="#classement">Classement</a><a href="#methode">Méthode</a><a href="#contribuer">Donner un avis</a><a href="admin.html">Saisie des notes</a></nav>
+  <nav><a href="#classement">Classement</a><a href="#aires">Aires</a><a href="#methode">Méthode</a><a href="#contribuer">Donner un avis</a><a href="admin.html">Saisie des notes</a></nav>
 </header>
 <main>
   <section class="hero">
@@ -49,6 +49,13 @@
     <div class="empty-state" id="empty-state" hidden>Aucun département ne correspond à cette recherche.</div>
   </section>
 
+  <section class="section" id="aires">
+    <div class="section-heading"><div><p class="eyebrow">STATIONNEMENT ET SERVICES</p><h2>Les aires de camping-car</h2></div><span class="status-pill">Répertoire en construction</span></div>
+    <p>Retrouvez les premiers lieux recensés, leurs services et les sources utilisées. Les tarifs et l'accès doivent être confirmés avant le déplacement. Ce répertoire n'est pas encore exhaustif.</p>
+    <div class="toolbar"><label class="search-box"><span>⌕</span><input id="aire-search" type="search" placeholder="Rechercher une commune ou une aire…" autocomplete="off"></label><select id="aire-department" aria-label="Filtrer par département"><option value="">Tous les départements disponibles</option></select><span id="aire-count" class="result-count"></span></div>
+    <div id="aire-grid" class="department-grid" aria-live="polite"></div>
+    <p id="aire-empty" class="notice" hidden>Aucun lieu ne correspond à votre recherche.</p>
+  </section>
   <section class="method-section" id="methode">
     <div class="method-intro"><p class="eyebrow">UN CLASSEMENT EXPLICABLE</p><h2>Comment sont calculées les notes ?</h2><p>Chaque critère reçoit une note de 0 à 100. Elle est ensuite pondérée. Une donnée absente ne vaut jamais zéro : elle doit être vérifiée avant la publication d'une note.</p></div>
     <div class="criteria">
