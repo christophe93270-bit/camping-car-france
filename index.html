@@ -54,7 +54,9 @@
     <div class="section-heading"><div><p class="eyebrow">STATIONNEMENT ET SERVICES</p><h2>Les aires de camping-car</h2></div><span class="status-pill">Répertoire en construction</span></div>
     <p>Retrouvez les premiers lieux recensés, leurs services et les sources utilisées. Les tarifs et l'accès doivent être confirmés avant le déplacement. Ce répertoire n'est pas encore exhaustif.</p>
     <div class="toolbar"><label class="search-box"><span>⌕</span><input id="aire-search" type="search" placeholder="Rechercher une commune ou une aire…" autocomplete="off"></label><select id="aire-department" aria-label="Filtrer par département"><option value="">Tous les départements disponibles</option></select><span id="aire-count" class="result-count"></span></div>
+    <p id="aire-progress" class="notice" aria-live="polite">Chargement du répertoire…</p>
     <div class="toolbar" aria-label="Filtrer les services des aires">
+      <label for="aire-kind">Type de lieu</label><select id="aire-kind"><option value="">Tous les types</option><option value="aire">Aires et bornes</option><option value="camping">Campings</option></select>
       <label for="aire-service">Service recherché</label>
       <select id="aire-service"><option value="">Tous les services</option><option value="water">Eau potable</option><option value="drain">Vidange</option><option value="electric">Électricité</option><option value="parking">Stationnement mentionné</option></select>
       <label><input type="checkbox" id="aire-gps-only"> Uniquement avec coordonnées GPS</label>
