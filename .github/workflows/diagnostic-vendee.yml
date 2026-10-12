@@ -1,0 +1,46 @@
+name: Diagnostic des aires de Vendée
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspecter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Télécharger et inspecter les données Vendée Expansion
+        env:
+          SOURCE_URL: https://wcf.tourinsoft.com/Syndication/3.0/cdt85/ce2f1f33-fbe9-44fe-9365-9e83938525ae/Objects
+        run: |
+          python - <<'PY'
+          import json, os, urllib.request
+          url=os.environ["SOURCE_URL"]
+          req=urllib.request.Request(url,headers={"User-Agent":"CampingCarFrance/1.0","Accept":"application/json, application/xml, text/xml"})
+          with urllib.request.urlopen(req,timeout=90) as response:
+              body=response.read(15000000)
+              kind=response.headers.get("Content-Type","")
+          with open("diagnostic-vendee.txt","w",encoding="utf-8") as out:
+              out.write("Source: Vendée Expansion / Tourinsoft\nLicence: Licence Ouverte 2.0 (data.gouv.fr)\n")
+              out.write(f"Content-Type: {kind}\nTaille: {len(body)} octets\n")
+              try:
+                  data=json.loads(body)
+                  out.write("Format: JSON\n")
+                  out.write("Structure: "+str(type(data).__name__)+"\n")
+                  records=data if isinstance(data,list) else next((v for v in data.values() if isinstance(v,list)),[])
+                  out.write(f"Nombre de fiches dans la première liste: {len(records)}\n")
+                  if records:
+                      out.write("Champs disponibles: "+", ".join(map(str,records[0].keys()))+"\n")
+                      types={}
+                      for rec in records:
+                          for key,value in rec.items():
+                              if "type" in key.lower() or "categorie" in key.lower():
+                                  if isinstance(value,(str,int,float)):
+                                      types[str(value)]=types.get(str(value),0)+1
+                      out.write("Types observés (échantillon): "+json.dumps(dict(list(types.items())[:40]),ensure_ascii=False)+"\n")
+              except Exception as exc:
+                  out.write("JSON non disponible: "+str(exc)+"\n")
+                  out.write("Début du flux: "+body[:600].decode("utf-8","replace")+"\n")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic-vendee
+          path: diagnostic-vendee.txt
