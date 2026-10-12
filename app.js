@@ -125,7 +125,7 @@ async function initAires(){
     } catch (_) { /* Les autres départements restent disponibles. */ }
     let landesAires=[];
     try {
-      const response40=await fetch("aires-landes.json");
+      const response40=await fetch("aires-landes.json?v=20261012-2", {cache:"no-store"});
       if(response40.ok) landesAires=await response40.json();
     } catch (_) { /* Les autres départements restent disponibles. */ }
     let girondeAires=[];
