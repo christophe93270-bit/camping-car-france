@@ -118,7 +118,12 @@ async function initAires(){
       const vendeeResponse=await fetch("aires-vendee.json");
       if(vendeeResponse.ok) vendeeAires=await vendeeResponse.json();
     } catch (_) { /* Les autres départements restent disponibles. */ }
-    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[],Array.isArray(vendeeAires)?vendeeAires:[]);
+    let charenteMaritimeAires=[];
+    try {
+      const response17=await fetch("aires-charente-maritime.json");
+      if(response17.ok) charenteMaritimeAires=await response17.json();
+    } catch (_) { /* Les autres départements restent disponibles. */ }
+    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[],Array.isArray(vendeeAires)?vendeeAires:[],Array.isArray(charenteMaritimeAires)?charenteMaritimeAires:[]);
     const selector=document.getElementById("aire-department");
     const depResponse=await fetch("departements.json");
     if(!depResponse.ok)throw new Error("Liste des départements indisponible");
