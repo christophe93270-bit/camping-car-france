@@ -143,7 +143,11 @@ async function initAires(){
       maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributeurs'
     }).addTo(map);
     else mapStatus.textContent="Carte indisponible. Les fiches restent consultables ci-dessous.";
-    function display(){
+    const pageSize=24;
+    let visibleCount=pageSize;
+    const more=document.getElementById("aire-more");
+    function display(resetPage=true){
+      if(resetPage)visibleCount=pageSize;
       const q=query.value.trim().toLocaleLowerCase("fr");
       const subset=selector.value?aires.filter(a=>a.department===selector.value):aires;
       const gpsCount=subset.filter(a=>Number.isFinite(a.latitude)&&Number.isFinite(a.longitude)).length;
@@ -151,20 +155,22 @@ async function initAires(){
       const filtered=aires.filter(a=>
         (!selector.value||a.department===selector.value)
         &&[a.name,a.city,a.type,a.department].join(" ").toLocaleLowerCase("fr").includes(q)
-        &&(!kind.value||(kind.value==="camping"?/camping/i.test(a.type):!/camping/i.test(a.type)))
+        &&(!kind.value||(kind.value==="camping"?/^camping\b/i.test(a.type):!/^camping\b/i.test(a.type)))
         &&(!service.value||(a.services||[]).some(v=>servicePatterns[service.value].test(v)))
         &&(!gpsOnly.checked||(Number.isFinite(a.latitude)&&Number.isFinite(a.longitude)))
       );
-      target.innerHTML=filtered.map(a=>`<article class="department-card" style="cursor:default;text-align:left">
+      target.innerHTML=filtered.slice(0,visibleCount).map(a=>`<article class="department-card" style="cursor:default;text-align:left">
         <span class="card-top"><span class="department-code">${escapeHTML(a.department)}</span><span class="card-score" style="font-size:.85rem">${escapeHTML(a.type)}</span></span>
         <span class="card-name">${escapeHTML(a.name)}</span>
         <span class="card-foot">${escapeHTML(a.city)}</span>
-        <p><strong>Services :</strong> ${escapeHTML(a.services.join(", "))}</p>
+        <p><strong>Services :</strong> ${escapeHTML((Array.isArray(a.services)?a.services:[]).join(", "))}</p>
         <p><strong>Tarif :</strong> ${escapeHTML(a.price)}</p>
         <p><strong>À vérifier :</strong> ${escapeHTML(a.status)}</p>
         ${a.dataAttribution?`<p><small>Données : ${escapeHTML(a.dataAttribution)} — ${escapeHTML(a.dataLicense||"Licence non indiquée")}</small></p>`:""}
         <a href="${escapeHTML(a.source)}" target="_blank" rel="noopener noreferrer">Consulter la source ↗</a>
       </article>`).join("");
+      more.hidden=filtered.length<=visibleCount;
+      more.textContent="Voir plus de fiches ("+Math.min(pageSize,Math.max(0,filtered.length-visibleCount))+" suivantes)";
       if(map){
         markerLayer.clearLayers();
         const points=[];
@@ -192,11 +198,12 @@ async function initAires(){
         ? "Aucune aire encore recensée pour ce département. Notre base est en cours de construction."
         : "Aucun lieu ne correspond à votre recherche.";
     }
-    selector.addEventListener("change",display);
-    query.addEventListener("input",display);
-    kind.addEventListener("change",display);
-    service.addEventListener("change",display);
-    gpsOnly.addEventListener("change",display);
+    more.addEventListener("click",()=>{visibleCount+=pageSize;display(false);});
+    selector.addEventListener("change",()=>display());
+    query.addEventListener("input",()=>display());
+    kind.addEventListener("change",()=>display());
+    service.addEventListener("change",()=>display());
+    gpsOnly.addEventListener("change",()=>display());
     reset.addEventListener("click",()=>{
       selector.value="";query.value="";kind.value="";service.value="";gpsOnly.checked=false;display();
     });
