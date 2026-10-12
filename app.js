@@ -138,7 +138,7 @@ async function initAires(){
     };
     const mapStatus=document.getElementById("aire-map-status");
     const map=typeof L!=="undefined"?L.map("aire-map").setView([48.75,2.9],8):null;
-    const markerLayer=map?(L.markerClusterGroup?L.markerClusterGroup({chunkedLoading:true,maxClusterRadius:55}):L.layerGroup()).addTo(map):null;
+    const markerLayer=map?L.layerGroup().addTo(map):null;
     if(map)L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
       maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributeurs'
     }).addTo(map);
@@ -208,6 +208,6 @@ async function initAires(){
       selector.value="";query.value="";kind.value="";service.value="";gpsOnly.checked=false;display();
     });
     display();
-  }catch(e){target.textContent="Le répertoire des aires est temporairement indisponible.";}
+  }catch(e){console.error("Erreur du répertoire des aires :",e);target.textContent="Le répertoire des aires est temporairement indisponible. Détail : "+(e&&e.message?e.message:"erreur inconnue");}
 }
 initAires();
