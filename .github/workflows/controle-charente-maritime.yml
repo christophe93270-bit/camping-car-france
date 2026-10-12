@@ -3,11 +3,20 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
 jobs:
   controler:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Recuperer le diagnostic precedent
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUN_ID=$(gh run list --workflow diagnostic-charente-maritime.yml --status success --limit 1 --json databaseId --jq ".[0].databaseId")
+          test -n "$RUN_ID" && test "$RUN_ID" != null
+          gh run download "$RUN_ID" -n diagnostic-charente-maritime
+          test -s diagnostic-charente-maritime.json
       - name: Verifier le departement et les candidats
         run: |
           python - <<'PY'
@@ -37,7 +46,7 @@ jobs:
                   la=y.get("latitude");lo=y.get("longitude")
                   if isinstance(la,(int,float)) and isinstance(lo,(int,float)) and abs(x["latitude"]-la)<0.0005 and abs(x["longitude"]-lo)<0.0007:return True
               return False
-          with urllib.request.urlopen("https://raw.githubusercontent.com/christophe93270-bit/camping-car-france/main/diagnostic-charente-maritime.json",timeout=30) as response:
+          with open("diagnostic-charente-maritime.json",encoding="utf-8") as response:
               diagnostic=json.load(response)
           elements=[]
           for rec in diagnostic["records"]:
