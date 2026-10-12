@@ -7,44 +7,47 @@ jobs:
   diagnostic:
     runs-on: ubuntu-latest
     steps:
-      - name: Rechercher les aires en Gironde
+      - name: Collecter les donnees OSM depuis Geofabrik
         run: |
+          python -m pip install --quiet osmium shapely requests
           python - <<'PY'
-          import json, urllib.parse, urllib.request, time
-          # Zone englobante: verification du departement indispensable avant publication.
-          bbox=(44.18,-1.32,45.62,0.35)
-          queries=[
-            '[out:json][timeout:75];(nwr["tourism"="caravan_site"](%s););out center tags;'%(','.join(map(str,bbox))),
-            '[out:json][timeout:75];(nwr["amenity"="sanitary_dump_station"](%s););out center tags;'%(','.join(map(str,bbox)))
-          ]
-          endpoints=("https://overpass-api.de/api/interpreter","https://overpass.nchc.org.tw/api/interpreter","https://overpass.kumi.systems/api/interpreter")
-          records={};errors=[]
-          for index,query in enumerate(queries):
-              elements=None
-              for endpoint in endpoints:
+          import requests,os,json,osmium
+          from shapely.geometry import shape,Point
+          url="https://download.geofabrik.de/europe/france/aquitaine-latest.osm.pbf"
+          dest="aquitaine.osm.pbf"
+          with requests.get(url,stream=True,timeout=(20,150),headers={"User-Agent":"CampingCarFrance-data-study/1.0"}) as r:
+              r.raise_for_status()
+              with open(dest,"wb") as f:
+                  for chunk in r.iter_content(chunk_size=1024*1024):
+                      if chunk:f.write(chunk)
+          print("Downloaded OSM PBF bytes:",os.stat(dest).st_size,flush=True)
+          geo=requests.get("https://etalab-datasets.geo.data.gouv.fr/contours-administratifs/2026/geojson/departements-1000m.geojson",timeout=90).json()
+          items=geo.get("features",[])
+          dep=next((x for x in items if str(x.get("properties",{}).get("code"))=="33"),None)
+          if dep is None:raise RuntimeError("Contour administratif Gironde introuvable")
+          area=shape(dep["geometry"])
+          found={}
+          class Handler(osmium.SimpleHandler):
+              def accept(self,item,kind):
+                  tags=dict(item.tags)
+                  t=tags.get("tourism") if tags.get("tourism")=="caravan_site" else tags.get("amenity")
+                  if t not in ("caravan_site","sanitary_dump_station"):return
                   try:
-                      data=urllib.parse.urlencode({"data":query}).encode()
-                      request=urllib.request.Request(endpoint,data=data,headers={"User-Agent":"CampingCarFrance/1.0","Accept":"application/json"})
-                      with urllib.request.urlopen(request,timeout=45) as response:elements=json.load(response)["elements"]
-                      print("Recherche",index+1,"source",endpoint,"elements",len(elements))
-                      break
-                  except Exception as exc:
-                      errors.append(str(index+1)+" "+endpoint+": "+str(exc))
-                      print("Source indisponible:",endpoint,str(exc),flush=True)
-              if elements is None:
-                  print("Recherche",index+1,"indisponible; fichier de diagnostic partiel",flush=True)
-                  continue
-              for item in elements:
-                  tags=item.get("tags",{});p=item.get("center",item)
-                  lat=p.get("lat");lon=p.get("lon")
-                  if not isinstance(lat,(float,int)) or not isinstance(lon,(float,int)):continue
-                  key=item["type"]+"/"+str(item["id"])
-                  records[key]={"id":key,"name":tags.get("name",""),"city":tags.get("addr:city",""),"postcode":tags.get("addr:postcode",""),"type":tags.get("amenity") or tags.get("tourism"),"latitude":lat,"longitude":lon,"website":tags.get("website",""),"source":"https://www.openstreetmap.org/"+key}
-          if not records:
-              raise RuntimeError("Aucun resultat recupere des serveurs Overpass : diagnostic annule, pas de publication")
-          result={"department":"33","note":"Candidats OSM non verifies; zone englobante pouvant inclure d'autres departements; ne pas publier sans controle","attribution":"© OpenStreetMap contributors","license":"ODbL","count":len(records),"complete":len(errors)==0,"errors":errors,"records":list(records.values())}
+                      if kind=="node":p=item.location;lat=float(p.lat);lon=float(p.lon)
+                      else:
+                          p=item.nodes[0].location;lat=float(p.lat);lon=float(p.lon)
+                  except (ValueError,IndexError,RuntimeError):return
+                  if not area.covers(Point(lon,lat)):return
+                  key=kind+"/"+str(item.id)
+                  found[key]={"id":key,"name":tags.get("name",""),"city":tags.get("addr:city",""),"postcode":tags.get("addr:postcode",""),"type":t,"latitude":lat,"longitude":lon,"website":tags.get("website",""),"source":"https://www.openstreetmap.org/"+key}
+              def node(self,n):self.accept(n,"node")
+              def way(self,w):self.accept(w,"way")
+          h=Handler()
+          h.apply_file(dest,locations=True)
+          if not found:raise RuntimeError("Aucun candidat camping-car en Gironde dans les donnees OSM")
+          result={"department":"33","note":"Candidats OSM a verifier individuellement avant publication; les positions des voies sont approximatives","attribution":"© OpenStreetMap contributors","license":"ODbL","count":len(found),"complete":True,"records":list(found.values())}
           with open("diagnostic-gironde.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
-          print("RESULTAT:",len(records),"candidats, erreurs:",len(errors))
+          print("Candidats girondins:",len(found),flush=True)
           PY
       - uses: actions/upload-artifact@v4
         with:
