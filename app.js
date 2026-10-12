@@ -123,7 +123,12 @@ async function initAires(){
       const response17=await fetch("aires-charente-maritime.json");
       if(response17.ok) charenteMaritimeAires=await response17.json();
     } catch (_) { /* Les autres départements restent disponibles. */ }
-    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[],Array.isArray(vendeeAires)?vendeeAires:[],Array.isArray(charenteMaritimeAires)?charenteMaritimeAires:[]);
+    let girondeAires=[];
+    try {
+      const response33=await fetch("aires-gironde.json");
+      if(response33.ok) girondeAires=await response33.json();
+    } catch (_) { /* Le site reste accessible si le fichier Gironde est absent. */ }
+    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[],Array.isArray(vendeeAires)?vendeeAires:[],Array.isArray(charenteMaritimeAires)?charenteMaritimeAires:[],Array.isArray(girondeAires)?girondeAires:[]);
     const selector=document.getElementById("aire-department");
     const depResponse=await fetch("departements.json");
     if(!depResponse.ok)throw new Error("Liste des départements indisponible");
