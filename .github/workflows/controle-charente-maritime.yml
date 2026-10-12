@@ -16,6 +16,9 @@ jobs:
               geo=json.load(response)
           if geo.get("type")=="FeatureCollection": geo=geo["features"][0]
           geometry=geo.get("geometry",geo)
+          if "type" not in geometry:
+              print("Reponse inattendue de geo.api.gouv.fr:",str(geo)[:800])
+              raise RuntimeError("API du contour non compatible : verifier la source GeoJSON")
           assert geometry["type"] in ("Polygon","MultiPolygon"), "Contour du departement indisponible"
           polygons=[geometry["coordinates"]] if geometry["type"]=="Polygon" else geometry["coordinates"]
           def ring_contains(lon,lat,ring):
