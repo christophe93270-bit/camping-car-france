@@ -13,8 +13,8 @@ jobs:
           python - <<'PY'
           import requests,os,json,osmium
           from shapely.geometry import shape,Point
-          url="https://download.geofabrik.de/europe/france/aquitaine-latest.osm.pbf"
-          dest="aquitaine.osm.pbf"
+          url="https://download.geofabrik.de/europe/france/limousin-latest.osm.pbf"
+          dest="limousin.osm.pbf"
           with requests.get(url,stream=True,timeout=(20,150),headers={"User-Agent":"CampingCarFrance-data-study/1.0"}) as r:
               r.raise_for_status()
               with open(dest,"wb") as f:
@@ -47,7 +47,7 @@ jobs:
           if not found:raise RuntimeError("Aucun candidat camping-car en Corrèze dans les donnees OSM")
           result={"department":"19","note":"Candidats OSM a verifier individuellement avant publication; les positions des voies sont approximatives","attribution":"© OpenStreetMap contributors","license":"ODbL","count":len(found),"complete":True,"records":list(found.values())}
           with open("diagnostic-correze.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
-          print("Candidats Pyrenees-Atlantiques:",len(found),flush=True)
+          print("Candidats Corrèze:",len(found),flush=True)
           PY
       - uses: actions/upload-artifact@v4
         with:
