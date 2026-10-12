@@ -1,0 +1,43 @@
+name: Publier les aires Charente-Maritime
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recuperer le controle valide
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUN_ID=$(gh run list --workflow controle-charente-maritime.yml --status success --limit 1 --json databaseId --jq '.[0].databaseId')
+          test -n "$RUN_ID" && test "$RUN_ID" != null
+          gh run download "$RUN_ID" -n controle-charente-maritime
+          test -s controle-charente-maritime.json
+      - name: Construire et verifier les fiches
+        run: |
+          python - <<'PY'
+          import json
+          with open("controle-charente-maritime.json",encoding="utf-8") as f: source=json.load(f)
+          items=[x for x in source["selected"] if x.get("category")=="Aire camping-car potentielle" and x.get("name") and x.get("type")=="caravan_site"]
+          if len(items)!=46:raise RuntimeError(f"Nombre inattendu de fiches: {len(items)} au lieu de 46; publication annulee")
+          seen=set();result=[]
+          for x in items:
+              oid=x["osmId"]
+              if oid in seen:raise RuntimeError("Doublon OSM "+oid)
+              seen.add(oid)
+              lat=x["latitude"];lon=x["longitude"]
+              if not (45.0<lat<46.6 and -1.7<lon<0):raise RuntimeError("Coordonnees anormales")
+              result.append({"department":"17","name":x["name"],"city":x.get("city") or "Commune à confirmer","type":"Aire de camping-car (à vérifier)","services":[],"price":"Non confirmé","status":"Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer","source":x["source"],"latitude":lat,"longitude":lon,"gpsSource":x["source"],"dataLicense":"ODbL","dataAttribution":"© OpenStreetMap contributors","importReview":"À contrôler avant déplacement","sourceId":oid})
+          with open("aires-charente-maritime.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
+          print("Aires préparées:",len(result))
+          PY
+      - name: Publier les donnees
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add aires-charente-maritime.json
+          if git diff --cached --quiet; then echo "Aucun changement"; else git commit -m "Publish 46 screened Charente-Maritime motorhome areas"; git push; fi
