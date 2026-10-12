@@ -37,17 +37,16 @@ jobs:
                   la=y.get("latitude");lo=y.get("longitude")
                   if isinstance(la,(int,float)) and isinstance(lo,(int,float)) and abs(x["latitude"]-la)<0.0005 and abs(x["longitude"]-lo)<0.0007:return True
               return False
-          query='''[out:json][timeout:90];(nwr["tourism"="caravan_site"](45.05,-1.60,46.42,-0.05);nwr["amenity"="sanitary_dump_station"](45.05,-1.60,46.42,-0.05););out center tags;'''
-          import urllib.parse
-          payload=urllib.parse.urlencode({"data":query}).encode()
-          elements=None
-          for url in ("https://overpass.kumi.systems/api/interpreter","https://overpass.private.coffee/api/interpreter"):
-              try:
-                  req=urllib.request.Request(url,data=payload,headers={"User-Agent":"CampingCarFrance/1.0"})
-                  with urllib.request.urlopen(req,timeout=120) as r:elements=json.load(r)["elements"]
-                  break
-              except Exception as exc:print("Overpass:",str(exc))
-          if elements is None:raise RuntimeError("Impossible de recuperer les candidats OpenStreetMap")
+          with open("diagnostic-charente-maritime.json",encoding="utf-8") as f:
+              diagnostic=json.load(f)
+          elements=[]
+          for rec in diagnostic["records"]:
+              kind,osm_id=rec["id"].split("/",1)
+              tags={"name":rec.get("name",""),"addr:city":rec.get("city",""),"addr:postcode":rec.get("postcode","")}
+              if rec.get("type")=="sanitary_dump_station":tags["amenity"]="sanitary_dump_station"
+              else:tags["tourism"]=rec.get("type","")
+              elements.append({"type":kind,"id":osm_id,"lat":rec.get("latitude"),"lon":rec.get("longitude"),"tags":tags})
+          print("Candidats charges depuis le diagnostic enregistre:",len(elements))
           accepted=[];rejected=[];uncertain=[];seen=set()
           for e in elements:
               tags=e.get("tags",{});p=e.get("center",e)
