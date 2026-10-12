@@ -1,0 +1,49 @@
+name: Publier les aires de Vienne
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recuperer le controle et creer le fichier Vienne
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          RUN_ID=$(gh run list --workflow controle-vienne.yml --status success --limit 1 --json databaseId --jq '.[0].databaseId')
+          if [ -z "$RUN_ID" ]; then echo "Aucun controle valide"; exit 1; fi
+          gh run download "$RUN_ID" -n controle-vienne
+          python - <<'PY'
+          import json,math
+          from pathlib import Path
+          report=json.loads(Path("controle-vienne.json").read_text(encoding="utf-8"))
+          assert report["department"]=="86"
+          rows=report["selected"]
+          assert len(rows)==23 and report["counts"]["selected"]==23, "La selection a change; publication annulee"
+          output=[];seen=set()
+          for row in rows:
+              key=row["id"]
+              assert key not in seen
+              seen.add(key)
+              assert row["type"]=="caravan_site" and row["name"].strip()
+              lat=float(row["latitude"]);lon=float(row["longitude"])
+              assert math.isfinite(lat) and math.isfinite(lon) and 45.9<lat<47.3 and -0.1<lon<1.4
+              source="https://www.openstreetmap.org/"+key
+              output.append({"department":"86","name":row["name"].strip(),"city":row.get("city") or "Commune à confirmer","type":"Aire de camping-car (à vérifier)","services":[],"price":"Non confirmé","status":"Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer","source":source,"latitude":lat,"longitude":lon,"gpsSource":source,"dataLicense":"ODbL","dataAttribution":"© OpenStreetMap contributors","importReview":"À contrôler avant déplacement","sourceId":key})
+          Path("aires-vienne.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          print("23 aires potentielles de Vienne preparees")
+          PY
+      - name: Publier les aires
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add aires-vienne.json
+          if git diff --cached --quiet; then echo "Aucun changement"; exit 0; fi
+          git commit -m "Publier 23 aires potentielles de Vienne"
+          git push
