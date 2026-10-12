@@ -123,6 +123,11 @@ async function initAires(){
       const response17=await fetch("aires-charente-maritime.json");
       if(response17.ok) charenteMaritimeAires=await response17.json();
     } catch (_) { /* Les autres départements restent disponibles. */ }
+    let pyreneesAires=[];
+    try {
+      const response64=await fetch("aires-pyrenees-atlantiques.json?v=20261012-1", {cache:"no-store"});
+      if(response64.ok) pyreneesAires=await response64.json();
+    } catch (_) { /* Autres departements inchanges. */ }
     let landesAires=[];
     try {
       const response40=await fetch("aires-landes.json?v=20261012-2", {cache:"no-store"});
@@ -133,7 +138,7 @@ async function initAires(){
       const response33=await fetch("aires-gironde.json");
       if(response33.ok) girondeAires=await response33.json();
     } catch (_) { /* Le site reste accessible si le fichier Gironde est absent. */ }
-    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[],Array.isArray(vendeeAires)?vendeeAires:[],Array.isArray(charenteMaritimeAires)?charenteMaritimeAires:[],Array.isArray(girondeAires)?girondeAires:[],Array.isArray(landesAires)?landesAires:[]);
+    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[],Array.isArray(vendeeAires)?vendeeAires:[],Array.isArray(charenteMaritimeAires)?charenteMaritimeAires:[],Array.isArray(girondeAires)?girondeAires:[],Array.isArray(landesAires)?landesAires:[],Array.isArray(pyreneesAires)?pyreneesAires:[]);
     const selector=document.getElementById("aire-department");
     const depResponse=await fetch("departements.json");
     if(!depResponse.ok)throw new Error("Liste des départements indisponible");
