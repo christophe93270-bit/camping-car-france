@@ -138,7 +138,7 @@ async function initAires(){
     };
     const mapStatus=document.getElementById("aire-map-status");
     const map=typeof L!=="undefined"?L.map("aire-map").setView([48.75,2.9],8):null;
-    const markerLayer=map?L.layerGroup().addTo(map):null;
+    const markerLayer=map?(L.markerClusterGroup?L.markerClusterGroup({chunkedLoading:true,maxClusterRadius:55}):L.layerGroup()).addTo(map):null;
     if(map)L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
       maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributeurs'
     }).addTo(map);
