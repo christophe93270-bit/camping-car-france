@@ -14,8 +14,18 @@ jobs:
           query='''[out:json][timeout:90];(nwr["tourism"="caravan_site"](45.05,-1.60,46.42,-0.05);nwr["amenity"="sanitary_dump_station"](45.05,-1.60,46.42,-0.05););out center tags;'''
           data=urllib.parse.urlencode({"data":query}).encode()
           request=urllib.request.Request("https://overpass.kumi.systems/api/interpreter",data=data,headers={"User-Agent":"CampingCarFrance/1.0 (open-data diagnostic)"})
-          with urllib.request.urlopen(request,timeout=130) as response:
-              items=json.load(response)["elements"]
+          items=None
+          for endpoint in ("https://overpass.kumi.systems/api/interpreter","https://overpass.private.coffee/api/interpreter"):
+              try:
+                  request=urllib.request.Request(endpoint,data=data,headers={"User-Agent":"CampingCarFrance/1.0"})
+                  with urllib.request.urlopen(request,timeout=115) as response:
+                      items=json.load(response)["elements"]
+                  break
+              except Exception as exc:
+                  print("Source indisponible:",endpoint,str(exc))
+          if items is None:
+              items=[]
+              print("Aucun serveur accessible, diagnostic vide.")
           records=[]
           for item in items:
               tags=item.get("tags",{})
