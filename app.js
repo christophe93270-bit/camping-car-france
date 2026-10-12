@@ -113,7 +113,12 @@ async function initAires(){
       const importedResponse=await fetch("aires-pdl.json");
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
-    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[]);
+    let vendeeAires=[];
+    try {
+      const vendeeResponse=await fetch("aires-vendee.json");
+      if(vendeeResponse.ok) vendeeAires=await vendeeResponse.json();
+    } catch (_) { /* Les autres départements restent disponibles. */ }
+    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[],Array.isArray(vendeeAires)?vendeeAires:[]);
     const selector=document.getElementById("aire-department");
     const depResponse=await fetch("departements.json");
     if(!depResponse.ok)throw new Error("Liste des départements indisponible");
