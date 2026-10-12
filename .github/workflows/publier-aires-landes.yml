@@ -35,7 +35,7 @@ jobs:
               assert math.isfinite(lat) and math.isfinite(lon) and 43.3<lat<44.6 and -1.8<lon<0.4
               source="https://www.openstreetmap.org/"+key
               output.append({"department":"40","name":row["name"].strip(),"city":row.get("city") or "Commune à confirmer","type":"Aire de camping-car (à vérifier)","services":[],"price":"Non confirmé","status":"Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer","source":source,"latitude":lat,"longitude":lon,"gpsSource":source,"dataLicense":"ODbL","dataAttribution":"© OpenStreetMap contributors","importReview":"À contrôler avant déplacement","sourceId":key})
-          Path("aires-landes.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          Path("aires-landes.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
           print("34 aires potentielles de Landes preparees")
           PY
       - name: Publier les aires
