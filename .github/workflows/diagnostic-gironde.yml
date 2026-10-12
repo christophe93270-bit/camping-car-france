@@ -1,0 +1,50 @@
+name: Diagnostic des aires Gironde
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Rechercher les aires en Gironde
+        run: |
+          python - <<'PY'
+          import json, urllib.parse, urllib.request, time
+          # Zone englobante: verification du departement indispensable avant publication.
+          bbox=(44.18,-1.32,45.62,0.35)
+          queries=[
+            '[out:json][timeout:75];(nwr["tourism"="caravan_site"](%s););out center tags;'%(','.join(map(str,bbox))),
+            '[out:json][timeout:75];(nwr["amenity"="sanitary_dump_station"](%s););out center tags;'%(','.join(map(str,bbox)))
+          ]
+          endpoints=("https://overpass.kumi.systems/api/interpreter","https://overpass.private.coffee/api/interpreter","https://overpass.nchc.org.tw/api/interpreter")
+          records={};errors=[]
+          for index,query in enumerate(queries):
+              elements=None
+              for endpoint in endpoints:
+                  try:
+                      data=urllib.parse.urlencode({"data":query}).encode()
+                      request=urllib.request.Request(endpoint,data=data,headers={"User-Agent":"CampingCarFrance/1.0","Accept":"application/json"})
+                      with urllib.request.urlopen(request,timeout=105) as response:elements=json.load(response)["elements"]
+                      print("Recherche",index+1,"source",endpoint,"elements",len(elements))
+                      break
+                  except Exception as exc:
+                      errors.append(str(index+1)+" "+endpoint+": "+str(exc))
+                      print("Source indisponible:",endpoint,str(exc),flush=True)
+              if elements is None:
+                  print("Recherche",index+1,"indisponible; fichier de diagnostic partiel",flush=True)
+                  continue
+              for item in elements:
+                  tags=item.get("tags",{});p=item.get("center",item)
+                  lat=p.get("lat");lon=p.get("lon")
+                  if not isinstance(lat,(float,int)) or not isinstance(lon,(float,int)):continue
+                  key=item["type"]+"/"+str(item["id"])
+                  records[key]={"id":key,"name":tags.get("name",""),"city":tags.get("addr:city",""),"postcode":tags.get("addr:postcode",""),"type":tags.get("amenity") or tags.get("tourism"),"latitude":lat,"longitude":lon,"website":tags.get("website",""),"source":"https://www.openstreetmap.org/"+key}
+          result={"department":"33","note":"Candidats OSM non verifies; zone englobante pouvant inclure d'autres departements; ne pas publier sans controle","attribution":"© OpenStreetMap contributors","license":"ODbL","count":len(records),"complete":len(errors)==0,"errors":errors,"records":list(records.values())}
+          with open("diagnostic-gironde.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
+          print("RESULTAT:",len(records),"candidats, erreurs:",len(errors))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic-gironde
+          path: diagnostic-gironde.json
