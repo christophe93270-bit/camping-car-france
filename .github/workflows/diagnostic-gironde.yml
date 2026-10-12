@@ -17,7 +17,7 @@ jobs:
             '[out:json][timeout:75];(nwr["tourism"="caravan_site"](%s););out center tags;'%(','.join(map(str,bbox))),
             '[out:json][timeout:75];(nwr["amenity"="sanitary_dump_station"](%s););out center tags;'%(','.join(map(str,bbox)))
           ]
-          endpoints=("https://overpass.kumi.systems/api/interpreter","https://overpass.private.coffee/api/interpreter","https://overpass.nchc.org.tw/api/interpreter")
+          endpoints=("https://overpass-api.de/api/interpreter","https://overpass.nchc.org.tw/api/interpreter","https://overpass.kumi.systems/api/interpreter")
           records={};errors=[]
           for index,query in enumerate(queries):
               elements=None
@@ -25,7 +25,7 @@ jobs:
                   try:
                       data=urllib.parse.urlencode({"data":query}).encode()
                       request=urllib.request.Request(endpoint,data=data,headers={"User-Agent":"CampingCarFrance/1.0","Accept":"application/json"})
-                      with urllib.request.urlopen(request,timeout=105) as response:elements=json.load(response)["elements"]
+                      with urllib.request.urlopen(request,timeout=45) as response:elements=json.load(response)["elements"]
                       print("Recherche",index+1,"source",endpoint,"elements",len(elements))
                       break
                   except Exception as exc:
@@ -40,6 +40,8 @@ jobs:
                   if not isinstance(lat,(float,int)) or not isinstance(lon,(float,int)):continue
                   key=item["type"]+"/"+str(item["id"])
                   records[key]={"id":key,"name":tags.get("name",""),"city":tags.get("addr:city",""),"postcode":tags.get("addr:postcode",""),"type":tags.get("amenity") or tags.get("tourism"),"latitude":lat,"longitude":lon,"website":tags.get("website",""),"source":"https://www.openstreetmap.org/"+key}
+          if not records:
+              raise RuntimeError("Aucun resultat recupere des serveurs Overpass : diagnostic annule, pas de publication")
           result={"department":"33","note":"Candidats OSM non verifies; zone englobante pouvant inclure d'autres departements; ne pas publier sans controle","attribution":"© OpenStreetMap contributors","license":"ODbL","count":len(records),"complete":len(errors)==0,"errors":errors,"records":list(records.values())}
           with open("diagnostic-gironde.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
           print("RESULTAT:",len(records),"candidats, erreurs:",len(errors))
