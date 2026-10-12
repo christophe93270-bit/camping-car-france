@@ -37,8 +37,8 @@ jobs:
                   la=y.get("latitude");lo=y.get("longitude")
                   if isinstance(la,(int,float)) and isinstance(lo,(int,float)) and abs(x["latitude"]-la)<0.0005 and abs(x["longitude"]-lo)<0.0007:return True
               return False
-          with open("diagnostic-charente-maritime.json",encoding="utf-8") as f:
-              diagnostic=json.load(f)
+          with urllib.request.urlopen("https://raw.githubusercontent.com/christophe93270-bit/camping-car-france/main/diagnostic-charente-maritime.json",timeout=30) as response:
+              diagnostic=json.load(response)
           elements=[]
           for rec in diagnostic["records"]:
               kind,osm_id=rec["id"].split("/",1)
