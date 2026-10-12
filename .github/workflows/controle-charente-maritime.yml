@@ -1,0 +1,74 @@
+name: Controle geographique Charente-Maritime
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  controler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verifier le departement et les candidats
+        run: |
+          python - <<'PY'
+          import json, urllib.request, urllib.error, unicodedata, re, math
+          with urllib.request.urlopen("https://geo.api.gouv.fr/departements/17?format=geojson&geometry=contour",timeout=60) as response:
+              geo=json.load(response)
+          if geo.get("type")=="FeatureCollection": geo=geo["features"][0]
+          geometry=geo.get("geometry",geo)
+          assert geometry["type"] in ("Polygon","MultiPolygon"), "Contour du departement indisponible"
+          polygons=[geometry["coordinates"]] if geometry["type"]=="Polygon" else geometry["coordinates"]
+          def ring_contains(lon,lat,ring):
+              inside=False
+              for a,b in zip(ring,ring[1:]+ring[:1]):
+                  x1,y1=a[:2];x2,y2=b[:2]
+                  if (y1>lat)!=(y2>lat) and lon < (x2-x1)*(lat-y1)/(y2-y1)+x1:inside=not inside
+              return inside
+          def inside(lon,lat):
+              return any(ring_contains(lon,lat,p[0]) and not any(ring_contains(lon,lat,hole) for hole in p[1:]) for p in polygons)
+          with urllib.request.urlopen("https://raw.githubusercontent.com/christophe93270-bit/camping-car-france/main/aires.json",timeout=30) as r: existing=json.load(r)
+          with urllib.request.urlopen("https://raw.githubusercontent.com/christophe93270-bit/camping-car-france/main/aires-pdl.json",timeout=30) as r: existing+=json.load(r)
+          with urllib.request.urlopen("https://raw.githubusercontent.com/christophe93270-bit/camping-car-france/main/aires-vendee.json",timeout=30) as r: existing+=json.load(r)
+          def norm(s):
+              return ''.join(c for c in unicodedata.normalize("NFKD",s.lower()) if not unicodedata.combining(c))
+          def close_to_existing(x):
+              for y in existing:
+                  la=y.get("latitude");lo=y.get("longitude")
+                  if isinstance(la,(int,float)) and isinstance(lo,(int,float)) and abs(x["latitude"]-la)<0.0005 and abs(x["longitude"]-lo)<0.0007:return True
+              return False
+          query='''[out:json][timeout:90];(nwr["tourism"="caravan_site"](45.05,-1.60,46.42,-0.05);nwr["amenity"="sanitary_dump_station"](45.05,-1.60,46.42,-0.05););out center tags;'''
+          import urllib.parse
+          payload=urllib.parse.urlencode({"data":query}).encode()
+          elements=None
+          for url in ("https://overpass.kumi.systems/api/interpreter","https://overpass.private.coffee/api/interpreter"):
+              try:
+                  req=urllib.request.Request(url,data=payload,headers={"User-Agent":"CampingCarFrance/1.0"})
+                  with urllib.request.urlopen(req,timeout=120) as r:elements=json.load(r)["elements"]
+                  break
+              except Exception as exc:print("Overpass:",str(exc))
+          if elements is None:raise RuntimeError("Impossible de recuperer les candidats OpenStreetMap")
+          accepted=[];rejected=[];uncertain=[];seen=set()
+          for e in elements:
+              tags=e.get("tags",{});p=e.get("center",e)
+              lat=p.get("lat");lon=p.get("lon")
+              if not isinstance(lat,(int,float)) or not isinstance(lon,(int,float)):continue
+              name=tags.get("name","").strip();typ=tags.get("amenity") or tags.get("tourism")
+              record={"osmId":e["type"]+"/"+str(e["id"]),"name":name,"city":tags.get("addr:city",""),"postcode":tags.get("addr:postcode",""),"type":typ,"latitude":lat,"longitude":lon,"source":"https://www.openstreetmap.org/"+e["type"]+"/"+str(e["id"])}
+              if not inside(lon,lat):record["reason"]="Hors du departement 17";rejected.append(record);continue
+              if close_to_existing(record):record["reason"]="Proche d'une fiche existante";rejected.append(record);continue
+              if typ=="sanitary_dump_station":record["category"]="Point de vidange";accepted.append(record);continue
+              n=norm(name)
+              if re.search(r"camping.car|camping cars|aire de service|aire de stationnement|aire d.accueil",n):
+                  record["category"]="Aire camping-car potentielle"
+                  if (round(lat,5),round(lon,5)) in seen:record["reason"]="Coordonnees dupliquees";rejected.append(record)
+                  else:accepted.append(record);seen.add((round(lat,5),round(lon,5)))
+              else:
+                  record["reason"]="Camping ou lieu non clairement identifie comme aire camping-car";uncertain.append(record)
+          result={"method":"Contour officiel Geo API 17 + classification prudente des tags OSM; aucune verification sur place","source":"OpenStreetMap contributors, ODbL","counts":{"raw":len(elements),"selected":len(accepted),"excluded":len(rejected),"uncertain":len(uncertain)},"selected":accepted,"excluded":rejected,"uncertain":uncertain}
+          with open("controle-charente-maritime.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
+          print("RESULTATS:",result["counts"])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: controle-charente-maritime
+          path: controle-charente-maritime.json
