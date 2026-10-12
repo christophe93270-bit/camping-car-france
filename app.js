@@ -123,6 +123,11 @@ async function initAires(){
       const response17=await fetch("aires-charente-maritime.json");
       if(response17.ok) charenteMaritimeAires=await response17.json();
     } catch (_) { /* Les autres départements restent disponibles. */ }
+    let hauteVienneAires=[];
+    try {
+      const response87=await fetch("aires-haute-vienne.json?v=20261012-1", {cache:"no-store"});
+      if(response87.ok) hauteVienneAires=await response87.json();
+    } catch (_) { /* Les autres departements restent disponibles. */ }
     let correzeAires=[];
     try {
       const response19=await fetch("aires-correze.json?v=20261012-1", {cache:"no-store"});
@@ -153,7 +158,7 @@ async function initAires(){
       const response33=await fetch("aires-gironde.json");
       if(response33.ok) girondeAires=await response33.json();
     } catch (_) { /* Le site reste accessible si le fichier Gironde est absent. */ }
-    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[],Array.isArray(vendeeAires)?vendeeAires:[],Array.isArray(charenteMaritimeAires)?charenteMaritimeAires:[],Array.isArray(girondeAires)?girondeAires:[],Array.isArray(landesAires)?landesAires:[],Array.isArray(pyreneesAires)?pyreneesAires:[],Array.isArray(lotGaronneAires)?lotGaronneAires:[],Array.isArray(dordogneAires)?dordogneAires:[],Array.isArray(correzeAires)?correzeAires:[]);
+    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[],Array.isArray(vendeeAires)?vendeeAires:[],Array.isArray(charenteMaritimeAires)?charenteMaritimeAires:[],Array.isArray(girondeAires)?girondeAires:[],Array.isArray(landesAires)?landesAires:[],Array.isArray(pyreneesAires)?pyreneesAires:[],Array.isArray(lotGaronneAires)?lotGaronneAires:[],Array.isArray(dordogneAires)?dordogneAires:[],Array.isArray(correzeAires)?correzeAires:[],Array.isArray(hauteVienneAires)?hauteVienneAires:[]);
     const selector=document.getElementById("aire-department");
     const depResponse=await fetch("departements.json");
     if(!depResponse.ok)throw new Error("Liste des départements indisponible");
