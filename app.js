@@ -123,6 +123,11 @@ async function initAires(){
       const response17=await fetch("aires-charente-maritime.json");
       if(response17.ok) charenteMaritimeAires=await response17.json();
     } catch (_) { /* Les autres départements restent disponibles. */ }
+    let lotAires=[];
+    try {
+      const response46=await fetch("aires-lot.json?v=20261012-1", {cache:"no-store"});
+      if(response46.ok) lotAires=await response46.json();
+    } catch (_) { /* Les autres departements restent disponibles. */ }
     let tarnGaronneAires=[];
     try {
       const response82=await fetch("aires-tarn-et-garonne.json?v=20261012-1", {cache:"no-store"});
@@ -188,7 +193,7 @@ async function initAires(){
       const response33=await fetch("aires-gironde.json");
       if(response33.ok) girondeAires=await response33.json();
     } catch (_) { /* Le site reste accessible si le fichier Gironde est absent. */ }
-    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[],Array.isArray(vendeeAires)?vendeeAires:[],Array.isArray(charenteMaritimeAires)?charenteMaritimeAires:[],Array.isArray(girondeAires)?girondeAires:[],Array.isArray(landesAires)?landesAires:[],Array.isArray(pyreneesAires)?pyreneesAires:[],Array.isArray(lotGaronneAires)?lotGaronneAires:[],Array.isArray(dordogneAires)?dordogneAires:[],Array.isArray(correzeAires)?correzeAires:[],Array.isArray(hauteVienneAires)?hauteVienneAires:[],Array.isArray(creuseAires)?creuseAires:[],Array.isArray(charenteAires)?charenteAires:[],Array.isArray(deuxSevresAires)?deuxSevresAires:[],Array.isArray(vienneAires)?vienneAires:[],Array.isArray(gersAires)?gersAires:[],Array.isArray(tarnGaronneAires)?tarnGaronneAires:[]);
+    const aires=existingAires.concat(Array.isArray(importedAires)?importedAires:[],Array.isArray(vendeeAires)?vendeeAires:[],Array.isArray(charenteMaritimeAires)?charenteMaritimeAires:[],Array.isArray(girondeAires)?girondeAires:[],Array.isArray(landesAires)?landesAires:[],Array.isArray(pyreneesAires)?pyreneesAires:[],Array.isArray(lotGaronneAires)?lotGaronneAires:[],Array.isArray(dordogneAires)?dordogneAires:[],Array.isArray(correzeAires)?correzeAires:[],Array.isArray(hauteVienneAires)?hauteVienneAires:[],Array.isArray(creuseAires)?creuseAires:[],Array.isArray(charenteAires)?charenteAires:[],Array.isArray(deuxSevresAires)?deuxSevresAires:[],Array.isArray(vienneAires)?vienneAires:[],Array.isArray(gersAires)?gersAires:[],Array.isArray(tarnGaronneAires)?tarnGaronneAires:[],Array.isArray(lotAires)?lotAires:[]);
     const selector=document.getElementById("aire-department");
     const depResponse=await fetch("departements.json");
     if(!depResponse.ok)throw new Error("Liste des départements indisponible");
