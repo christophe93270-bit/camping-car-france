@@ -12,13 +12,11 @@ jobs:
         run: |
           python - <<'PY'
           import json, urllib.request, urllib.error, unicodedata, re, math
-          with urllib.request.urlopen("https://geo.api.gouv.fr/departements/17?format=geojson&geometry=contour",timeout=60) as response:
-              geo=json.load(response)
-          if geo.get("type")=="FeatureCollection": geo=geo["features"][0]
-          geometry=geo.get("geometry",geo)
-          if "type" not in geometry:
-              print("Reponse inattendue de geo.api.gouv.fr:",str(geo)[:800])
-              raise RuntimeError("API du contour non compatible : verifier la source GeoJSON")
+          with urllib.request.urlopen("https://etalab-datasets.geo.data.gouv.fr/contours-administratifs/2026/geojson/departements-1000m.geojson",timeout=60) as response:
+              collection=json.load(response)
+          geo=next((feature for feature in collection["features"] if str(feature.get("properties",{}).get("code",""))=="17"),None)
+          if not geo:raise RuntimeError("Contour du departement 17 absent du referentiel Etalab")
+          geometry=geo["geometry"]
           assert geometry["type"] in ("Polygon","MultiPolygon"), "Contour du departement indisponible"
           polygons=[geometry["coordinates"]] if geometry["type"]=="Polygon" else geometry["coordinates"]
           def ring_contains(lon,lat,ring):
