@@ -24,7 +24,7 @@ jobs:
           report=json.loads(Path("controle-puy-de-dome.json").read_text(encoding="utf-8"))
           assert report["department"]=="63"
           rows=report["selected"]
-          assert len(rows)==25 and report["counts"]["selected"]==25, "La selection a change; publication annulee"
+          assert len(rows)==33 and report["counts"]["selected"]==33, "La selection a change; publication annulee"
           output=[];seen=set()
           for row in rows:
               key=row["id"]
@@ -36,7 +36,7 @@ jobs:
               source="https://www.openstreetmap.org/"+key
               output.append({"department":"63","name":row["name"].strip(),"city":row.get("city") or "Commune à confirmer","type":"Aire de camping-car (à vérifier)","services":[],"price":"Non confirmé","status":"Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer","source":source,"latitude":lat,"longitude":lon,"gpsSource":source,"dataLicense":"ODbL","dataAttribution":"© OpenStreetMap contributors","importReview":"À contrôler avant déplacement","sourceId":key})
           Path("aires-puy-de-dome.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-          print("25 aires potentielles de Puy-de-Dôme preparees")
+          print("33 aires potentielles de Puy-de-Dôme preparees")
           PY
       - name: Publier les aires
         run: |
@@ -45,5 +45,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add aires-puy-de-dome.json
           if git diff --cached --quiet; then echo "Aucun changement"; exit 0; fi
-          git commit -m "Publier 25 aires potentielles de Puy-de-Dôme"
+          git commit -m "Publier 33 aires potentielles de Puy-de-Dôme"
           git push
