@@ -195,7 +195,7 @@ async function initAires(){
     } catch (_) { /* Les autres departements restent disponibles. */ }
     let dordogneAires=[];
     try {
-      const response24=await fetch("aires-dordogne.json?v=20261012-1", {cache:"no-store"});
+      const response24=await fetch("aires-dordogne.json?v=20261013-1", {cache:"no-store"});
       if(response24.ok) dordogneAires=await response24.json();
     } catch (_) { /* Les autres departements restent disponibles. */ }
     let lotGaronneAires=[];
