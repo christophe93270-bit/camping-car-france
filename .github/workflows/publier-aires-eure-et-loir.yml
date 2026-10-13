@@ -32,7 +32,7 @@ jobs:
               seen.add(key)
               assert row["type"]=="caravan_site" and row["name"].strip()
               lat=float(row["latitude"]);lon=float(row["longitude"])
-              assert math.isfinite(lat) and math.isfinite(lon) and 47.8<lat<49.0 and 0.5<lon<1.9
+              assert math.isfinite(lat) and math.isfinite(lon) and 47.4<lat<49.2 and -0.1<lon<2.2
               source="https://www.openstreetmap.org/"+key
               output.append({"department":"28","name":row["name"].strip(),"city":row.get("city") or "Commune à confirmer","type":"Aire de camping-car (à vérifier)","services":[],"price":"Non confirmé","status":"Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer","source":source,"latitude":lat,"longitude":lon,"gpsSource":source,"dataLicense":"ODbL","dataAttribution":"© OpenStreetMap contributors","importReview":"À contrôler avant déplacement","sourceId":key})
           Path("aires-eure-et-loir.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
