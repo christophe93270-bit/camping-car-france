@@ -1,0 +1,55 @@
+name: Diagnostic des aires Haute-Loire
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Collecter les donnees OSM depuis Geofabrik
+        run: |
+          python -m pip install --quiet osmium shapely requests
+          python - <<'PY'
+          import requests,os,json,osmium
+          from shapely.geometry import shape,Point
+          url="https://download.geofabrik.de/europe/france/auvergne-latest.osm.pbf"
+          dest="centre.osm.pbf"
+          with requests.get(url,stream=True,timeout=(20,150),headers={"User-Agent":"CampingCarFrance-data-study/1.0"}) as r:
+              r.raise_for_status()
+              with open(dest,"wb") as f:
+                  for chunk in r.iter_content(chunk_size=1024*1024):
+                      if chunk:f.write(chunk)
+          print("Downloaded OSM PBF bytes:",os.stat(dest).st_size,flush=True)
+          geo=requests.get("https://etalab-datasets.geo.data.gouv.fr/contours-administratifs/2026/geojson/departements-1000m.geojson",timeout=90).json()
+          items=geo.get("features",[])
+          dep=next((x for x in items if str(x.get("properties",{}).get("code"))=="43"),None)
+          if dep is None:raise RuntimeError("Contour administratif Haute-Loire introuvable")
+          area=shape(dep["geometry"])
+          found={}
+          class Handler(osmium.SimpleHandler):
+              def accept(self,item,kind):
+                  tags=dict(item.tags)
+                  t=tags.get("tourism") if tags.get("tourism")=="caravan_site" else tags.get("amenity")
+                  if t not in ("caravan_site","sanitary_dump_station"):return
+                  try:
+                      if kind=="node":p=item.location;lat=float(p.lat);lon=float(p.lon)
+                      else:
+                          p=item.nodes[0].location;lat=float(p.lat);lon=float(p.lon)
+                  except (ValueError,IndexError,RuntimeError):return
+                  if not area.covers(Point(lon,lat)):return
+                  key=kind+"/"+str(item.id)
+                  found[key]={"id":key,"name":tags.get("name",""),"city":tags.get("addr:city",""),"postcode":tags.get("addr:postcode",""),"type":t,"latitude":lat,"longitude":lon,"website":tags.get("website",""),"source":"https://www.openstreetmap.org/"+key}
+              def node(self,n):self.accept(n,"node")
+              def way(self,w):self.accept(w,"way")
+          h=Handler()
+          h.apply_file(dest,locations=True)
+          if not found:raise RuntimeError("Aucun candidat camping-car en Haute-Loire dans les donnees OSM")
+          result={"department":"43","note":"Candidats OSM a verifier individuellement avant publication; les positions des voies sont approximatives","attribution":"© OpenStreetMap contributors","license":"ODbL","count":len(found),"complete":True,"records":list(found.values())}
+          with open("diagnostic-haute-loire.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
+          print("Candidats Haute-Loire:",len(found),flush=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic-haute-loire
+          path: diagnostic-haute-loire.json
