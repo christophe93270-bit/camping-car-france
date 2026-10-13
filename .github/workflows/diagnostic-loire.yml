@@ -13,7 +13,7 @@ jobs:
           python - <<'PY'
           import requests,os,json,osmium
           from shapely.geometry import shape,Point
-          url="https://download.geofabrik.de/europe/france/auvergne-latest.osm.pbf"
+          url="https://download.geofabrik.de/europe/france/rhone-alpes-latest.osm.pbf"
           dest="centre.osm.pbf"
           with requests.get(url,stream=True,timeout=(20,150),headers={"User-Agent":"CampingCarFrance-data-study/1.0"}) as r:
               r.raise_for_status()
