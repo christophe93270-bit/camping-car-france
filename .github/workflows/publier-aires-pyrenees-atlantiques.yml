@@ -24,7 +24,7 @@ jobs:
           report=json.loads(Path("controle-pyrenees-atlantiques.json").read_text(encoding="utf-8"))
           assert report["department"]=="64"
           rows=report["selected"]
-          assert len(rows)==31 and report["counts"]["selected"]==31, "La selection a change; publication annulee"
+          assert len(rows)==33 and report["counts"]["selected"]==33, "La selection a change; publication annulee"
           output=[];seen=set()
           for row in rows:
               key=row["id"]
@@ -32,11 +32,11 @@ jobs:
               seen.add(key)
               assert row["type"]=="caravan_site" and row["name"].strip()
               lat=float(row["latitude"]);lon=float(row["longitude"])
-              assert math.isfinite(lat) and math.isfinite(lon) and 42.8<lat<43.7 and -1.9<lon<0.1
+              assert math.isfinite(lat) and math.isfinite(lon) and 42.7<lat<43.7 and -1.9<lon<0.0
               source="https://www.openstreetmap.org/"+key
               output.append({"department":"64","name":row["name"].strip(),"city":row.get("city") or "Commune à confirmer","type":"Aire de camping-car (à vérifier)","services":[],"price":"Non confirmé","status":"Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer","source":source,"latitude":lat,"longitude":lon,"gpsSource":source,"dataLicense":"ODbL","dataAttribution":"© OpenStreetMap contributors","importReview":"À contrôler avant déplacement","sourceId":key})
           Path("aires-pyrenees-atlantiques.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-          print("31 aires potentielles de Pyrénées-Atlantiques preparees")
+          print("33 aires potentielles de Pyrénées-Atlantiques preparees")
           PY
       - name: Publier les aires
         run: |
@@ -45,5 +45,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add aires-pyrenees-atlantiques.json
           if git diff --cached --quiet; then echo "Aucun changement"; exit 0; fi
-          git commit -m "Publier 31 aires potentielles de Pyrénées-Atlantiques"
+          git commit -m "Publier 33 aires potentielles de Pyrénées-Atlantiques"
           git push
