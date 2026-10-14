@@ -22,7 +22,7 @@ jobs:
           from pathlib import Path
           src=json.loads(Path("diagnostic-haute-savoie.json").read_text(encoding="utf-8"))
           assert src["department"]=="74" and src["complete"] and src["count"]==len(src["records"])
-          unique=set();selected=[];uncerthaute-savoie=[];excluded=[]
+          unique=set();selected=[];uncertain=[];excluded=[]
           for row in src["records"]:
               key=row["id"]
               if key in unique:continue
@@ -39,10 +39,10 @@ jobs:
                   if any(s in text for s in signals) and not any(text.startswith(n) for n in negatives):
                       selected.append(dict(row,category="Aire camping-car potentielle"))
                   else:
-                      uncerthaute-savoie.append(dict(row,reason="Camping ou lieu de caravaning; statut aire camping-car non etabli"))
+                      uncertain.append(dict(row,reason="Camping ou lieu de caravaning; statut aire camping-car non etabli"))
               else:
-                  uncerthaute-savoie.append(dict(row,reason="Nom absent ou categorie indeterminee"))
-          report={"department":"74","sourceRun":src["count"],"counts":{"raw":len(src["records"]),"selected":len(selected),"uncerthaute-savoie":len(uncerthaute-savoie),"excluded":len(excluded)},"selected":selected,"uncerthaute-savoie":uncerthaute-savoie,"excluded":excluded,"note":"Selection prudente sur mots-clefs du nom; verification terrhaute-savoie necessaire avant publication"}
+                  uncertain.append(dict(row,reason="Nom absent ou categorie indeterminee"))
+          report={"department":"74","sourceRun":src["count"],"counts":{"raw":len(src["records"]),"selected":len(selected),"uncertain":len(uncertain),"excluded":len(excluded)},"selected":selected,"uncertain":uncertain,"excluded":excluded,"note":"Selection prudente sur mots-clefs du nom; verification terrhaute-savoie necessaire avant publication"}
           Path("controle-haute-savoie.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
           print("Selection:",report["counts"])
           PY
