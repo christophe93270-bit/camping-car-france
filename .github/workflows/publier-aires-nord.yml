@@ -32,7 +32,7 @@ jobs:
               seen.add(key)
               assert row["type"]=="caravan_site" and row["name"].strip()
               lat=float(row["latitude"]);lon=float(row["longitude"])
-              assert math.isfinite(lat) and math.isfinite(lon) and 49.8<lat<51.2 and 2.3<lon<4.4
+              assert math.isfinite(lat) and math.isfinite(lon) and 49.5<lat<51.3 and 2.0<lon<4.5
               source="https://www.openstreetmap.org/"+key
               output.append({"department":"59","name":row["name"].strip(),"city":row.get("city") or "Commune à confirmer","type":"Aire de camping-car (à vérifier)","services":[],"price":"Non confirmé","status":"Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer","source":source,"latitude":lat,"longitude":lon,"gpsSource":source,"dataLicense":"ODbL","dataAttribution":"© OpenStreetMap contributors","importReview":"À contrôler avant déplacement","sourceId":key})
           Path("aires-nord.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
