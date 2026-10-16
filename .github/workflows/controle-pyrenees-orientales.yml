@@ -1,0 +1,52 @@
+name: Controler les aires Pyrénées-Orientales
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  controle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer et controler le diagnostic Pyrénées-Orientales
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          RUN_ID=$(gh run list --workflow diagnostic-pyrenees-orientales.yml --status success --limit 1 --json databaseId --jq '.[0].databaseId')
+          if [ -z "$RUN_ID" ]; then echo "Aucun diagnostic valide"; exit 1; fi
+          gh run download "$RUN_ID" -n diagnostic-pyrenees-orientales
+          python - <<'PY'
+          import json,re,collections
+          from pathlib import Path
+          src=json.loads(Path("diagnostic-pyrenees-orientales.json").read_text(encoding="utf-8"))
+          assert src["department"]=="66" and src["complete"] and src["count"]==len(src["records"])
+          unique=set();selected=[];uncertain=[];excluded=[]
+          for row in src["records"]:
+              key=row["id"]
+              if key in unique:continue
+              unique.add(key)
+              name=(row.get("name") or "").strip()
+              kind=row.get("type")
+              if kind=="sanitary_dump_station":
+                  excluded.append(dict(row,reason="Point de vidange, pas une aire de stationnement"))
+              elif kind=="caravan_site" and name:
+                  text=name.lower()
+                  # Un caravan_site OSM ne signifie pas necessairement une aire camping-car.
+                  signals=("camping-car","camping car","campingcars","motorhome","aire de camping","aire d'accueil","aire de stationnement","aire municipale","campingcarpark","camping-car park")
+                  negatives=("camping ", "camping de ", "camping du ", "camping les ", "camping le ", "domaine ", "château ", "chateau ")
+                  if any(s in text for s in signals) and not any(text.startswith(n) for n in negatives):
+                      selected.append(dict(row,category="Aire camping-car potentielle"))
+                  else:
+                      uncertain.append(dict(row,reason="Camping ou lieu de caravaning; statut aire camping-car non etabli"))
+              else:
+                  uncertain.append(dict(row,reason="Nom absent ou categorie indeterminee"))
+          report={"department":"66","sourceRun":src["count"],"counts":{"raw":len(src["records"]),"selected":len(selected),"uncertain":len(uncertain),"excluded":len(excluded)},"selected":selected,"uncertain":uncertain,"excluded":excluded,"note":"Selection prudente sur mots-clefs du nom; verification terrain necessaire avant publication"}
+          Path("controle-pyrenees-orientales.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
+          print("Selection:",report["counts"])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: controle-pyrenees-orientales
+          path: controle-pyrenees-orientales.json
