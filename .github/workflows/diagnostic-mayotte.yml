@@ -1,0 +1,60 @@
+name: Diagnostic des aires Mayotte
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Rechercher les lieux OSM en Mayotte
+        run: |
+          python -m pip install --quiet shapely requests osmium
+          python - <<'PY'
+          import json,requests
+          from shapely.geometry import shape,Point
+          session=requests.Session()
+          session.headers.update({"User-Agent":"CampingCarFrance-data-study/1.0"})
+          geo=session.get("https://etalab-datasets.geo.data.gouv.fr/contours-administratifs/2026/geojson/departements-1000m.geojson",timeout=90)
+          geo.raise_for_status()
+          features=geo.json().get("features",[])
+          dep=next((x for x in features if str(x.get("properties",{}).get("code"))=="976"),None)
+          if dep is None:raise RuntimeError("Contour administratif Mayotte (972) introuvable")
+          area=shape(dep["geometry"])
+          url="https://download.geofabrik.de/europe/france/mayotte-latest.osm.pbf"
+          dest="mayotte-source.osm.pbf"
+          with session.get(url,stream=True,timeout=(20,180)) as response:
+              response.raise_for_status()
+              with open(dest,"wb") as output:
+                  for chunk in response.iter_content(chunk_size=1024*1024):
+                      if chunk:output.write(chunk)
+          print("Downloaded OSM PBF bytes:",__import__("os").stat(dest).st_size,flush=True)
+          import osmium
+          found={}
+          class Handler(osmium.SimpleHandler):
+              def accept(self,item,kind):
+                  tags=dict(item.tags)
+                  t=tags.get("tourism") if tags.get("tourism") in ("caravan_site","camp_site") else tags.get("amenity")
+                  if t not in ("caravan_site","camp_site","sanitary_dump_station","parking"):return
+                  if t=="parking" and not any(word in " ".join(str(v).lower() for v in tags.values()) for word in ("camping-car","camping car","motorhome","caravan")):return
+                  try:
+                      p=item.location if kind=="node" else next((n.location for n in item.nodes if n.location.valid()),None)
+                      if p is None: return
+                      lat=float(p.lat);lon=float(p.lon)
+                  except (ValueError,IndexError,RuntimeError):return
+                  if not area.covers(Point(lon,lat)):return
+                  key=kind+"/"+str(item.id)
+                  found[key]={"id":key,"name":tags.get("name",""),"city":tags.get("addr:city",""),"postcode":tags.get("addr:postcode",""),"type":t,"latitude":lat,"longitude":lon,"website":tags.get("website",""),"source":"https://www.openstreetmap.org/"+key}
+              def node(self,n):self.accept(n,"node")
+              def way(self,w):self.accept(w,"way")
+          h=Handler()
+          h.apply_file(dest,locations=True)
+          result={"department":"976","note":"Candidats OSM a verifier individuellement avant publication; les centres des voies peuvent etre approximatifs","attribution":"© OpenStreetMap contributors","license":"ODbL","count":len(found),"complete":True,"records":list(found.values())}
+          with open("diagnostic-mayotte.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
+          print("Candidats Mayotte:",len(found),flush=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic-mayotte
+          path: diagnostic-mayotte.json
