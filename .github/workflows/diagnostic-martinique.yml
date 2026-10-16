@@ -35,10 +35,12 @@ jobs:
           class Handler(osmium.SimpleHandler):
               def accept(self,item,kind):
                   tags=dict(item.tags)
-                  t=tags.get("tourism") if tags.get("tourism")=="caravan_site" else tags.get("amenity")
-                  if t not in ("caravan_site","sanitary_dump_station"):return
+                  t=tags.get("tourism") if tags.get("tourism") in ("caravan_site","camp_site") else tags.get("amenity")
+                  if t not in ("caravan_site","camp_site","sanitary_dump_station","parking"):return
+                  if t=="parking" and not any(word in " ".join(str(v).lower() for v in tags.values()) for word in ("camping-car","camping car","motorhome","caravan")):return
                   try:
-                      p=item.location if kind=="node" else item.nodes[0].location
+                      p=item.location if kind=="node" else next((n.location for n in item.nodes if n.location.valid()),None)
+                      if p is None: return
                       lat=float(p.lat);lon=float(p.lon)
                   except (ValueError,IndexError,RuntimeError):return
                   if not area.covers(Point(lon,lat)):return
