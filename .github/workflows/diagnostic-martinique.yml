@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Rechercher les lieux OSM en Martinique
         run: |
-          python -m pip install --quiet shapely requests
+          python -m pip install --quiet shapely requests osmium
           python - <<'PY'
           import json,requests
           from shapely.geometry import shape,Point
@@ -22,28 +22,34 @@ jobs:
           dep=next((x for x in features if str(x.get("properties",{}).get("code"))=="972"),None)
           if dep is None:raise RuntimeError("Contour administratif Martinique (972) introuvable")
           area=shape(dep["geometry"])
-          # Bounding box englobant les la Martinique.
-          query='[out:json][timeout:60];(nwr["tourism"="caravan_site"](14.3,-61.3,14.95,-60.7);nwr["amenity"="sanitary_dump_station"](14.3,-61.3,14.95,-60.7););out center;'
-          response=None
-          for endpoint in ("https://overpass.kumi.systems/api/interpreter","https://overpass-api.de/api/interpreter","https://overpass.nchc.org.tw/api/interpreter","https://overpass.private.coffee/api/interpreter"):
-              try:
-                  response=session.post(endpoint,data={"data":query},timeout=230)
-                  response.raise_for_status()
-                  data=response.json()
-                  break
-              except (requests.RequestException,ValueError) as error:
-                  print("Source Overpass indisponible:",endpoint,str(error),flush=True)
-          else:raise RuntimeError("Impossible de contacter les serveurs Overpass")
+          url="https://download.geofabrik.de/central-america-latest.osm.pbf"
+          # Martinique est disponible dans l'extrait des Antilles de Geofabrik.
+          url="https://download.geofabrik.de/central-america/caribbean-latest.osm.pbf"
+          dest="martinique-source.osm.pbf"
+          with session.get(url,stream=True,timeout=(20,180)) as response:
+              response.raise_for_status()
+              with open(dest,"wb") as output:
+                  for chunk in response.iter_content(chunk_size=1024*1024):
+                      if chunk:output.write(chunk)
+          print("Downloaded OSM PBF bytes:",__import__("os").stat(dest).st_size,flush=True)
+          import osmium
           found={}
-          for item in data.get("elements",[]):
-              tags=item.get("tags",{})
-              t="caravan_site" if tags.get("tourism")=="caravan_site" else tags.get("amenity")
-              if t not in ("caravan_site","sanitary_dump_station"):continue
-              pos=item.get("center",item)
-              lat=pos.get("lat");lon=pos.get("lon")
-              if lat is None or lon is None or not area.covers(Point(float(lon),float(lat))):continue
-              key=str(item["type"])+"/"+str(item["id"])
-              found[key]={"id":key,"name":tags.get("name",""),"city":tags.get("addr:city",""),"postcode":tags.get("addr:postcode",""),"type":t,"latitude":float(lat),"longitude":float(lon),"website":tags.get("website",""),"source":"https://www.openstreetmap.org/"+key}
+          class Handler(osmium.SimpleHandler):
+              def accept(self,item,kind):
+                  tags=dict(item.tags)
+                  t=tags.get("tourism") if tags.get("tourism")=="caravan_site" else tags.get("amenity")
+                  if t not in ("caravan_site","sanitary_dump_station"):return
+                  try:
+                      p=item.location if kind=="node" else item.nodes[0].location
+                      lat=float(p.lat);lon=float(p.lon)
+                  except (ValueError,IndexError,RuntimeError):return
+                  if not area.covers(Point(lon,lat)):return
+                  key=kind+"/"+str(item.id)
+                  found[key]={"id":key,"name":tags.get("name",""),"city":tags.get("addr:city",""),"postcode":tags.get("addr:postcode",""),"type":t,"latitude":lat,"longitude":lon,"website":tags.get("website",""),"source":"https://www.openstreetmap.org/"+key}
+              def node(self,n):self.accept(n,"node")
+              def way(self,w):self.accept(w,"way")
+          h=Handler()
+          h.apply_file(dest,locations=True)
           result={"department":"972","note":"Candidats OSM a verifier individuellement avant publication; les centres des voies peuvent etre approximatifs","attribution":"© OpenStreetMap contributors","license":"ODbL","count":len(found),"complete":True,"records":list(found.values())}
           with open("diagnostic-martinique.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
           print("Candidats Martinique:",len(found),flush=True)
