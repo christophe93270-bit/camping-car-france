@@ -1,0 +1,54 @@
+name: Diagnostic des aires Guadeloupe
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Rechercher les lieux OSM en Guadeloupe
+        run: |
+          python -m pip install --quiet shapely requests
+          python - <<'PY'
+          import json,requests
+          from shapely.geometry import shape,Point
+          session=requests.Session()
+          session.headers.update({"User-Agent":"CampingCarFrance-data-study/1.0"})
+          geo=session.get("https://etalab-datasets.geo.data.gouv.fr/contours-administratifs/2026/geojson/departements-1000m.geojson",timeout=90)
+          geo.raise_for_status()
+          features=geo.json().get("features",[])
+          dep=next((x for x in features if str(x.get("properties",{}).get("code"))=="971"),None)
+          if dep is None:raise RuntimeError("Contour administratif Guadeloupe (971) introuvable")
+          area=shape(dep["geometry"])
+          # Bounding box englobant les iles de Guadeloupe, Saintes, Marie-Galante et Desirade.
+          query='[out:json][timeout:180];(nwr["tourism"="caravan_site"](15.7,-61.9,16.6,-60.9);nwr["amenity"="sanitary_dump_station"](15.7,-61.9,16.6,-60.9););out center;'
+          response=None
+          for endpoint in ("https://overpass.kumi.systems/api/interpreter","https://overpass-api.de/api/interpreter"):
+              try:
+                  response=session.post(endpoint,data={"data":query},timeout=230)
+                  response.raise_for_status()
+                  data=response.json()
+                  break
+              except (requests.RequestException,ValueError) as error:
+                  print("Source Overpass indisponible:",endpoint,str(error),flush=True)
+          else:raise RuntimeError("Impossible de contacter les serveurs Overpass")
+          found={}
+          for item in data.get("elements",[]):
+              tags=item.get("tags",{})
+              t="caravan_site" if tags.get("tourism")=="caravan_site" else tags.get("amenity")
+              if t not in ("caravan_site","sanitary_dump_station"):continue
+              pos=item.get("center",item)
+              lat=pos.get("lat");lon=pos.get("lon")
+              if lat is None or lon is None or not area.covers(Point(float(lon),float(lat))):continue
+              key=str(item["type"])+"/"+str(item["id"])
+              found[key]={"id":key,"name":tags.get("name",""),"city":tags.get("addr:city",""),"postcode":tags.get("addr:postcode",""),"type":t,"latitude":float(lat),"longitude":float(lon),"website":tags.get("website",""),"source":"https://www.openstreetmap.org/"+key}
+          result={"department":"971","note":"Candidats OSM a verifier individuellement avant publication; les centres des voies peuvent etre approximatifs","attribution":"© OpenStreetMap contributors","license":"ODbL","count":len(found),"complete":True,"records":list(found.values())}
+          with open("diagnostic-guadeloupe.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
+          print("Candidats Guadeloupe:",len(found),flush=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic-guadeloupe
+          path: diagnostic-guadeloupe.json
