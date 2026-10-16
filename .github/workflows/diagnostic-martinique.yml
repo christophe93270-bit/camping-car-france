@@ -20,12 +20,12 @@ jobs:
           geo.raise_for_status()
           features=geo.json().get("features",[])
           dep=next((x for x in features if str(x.get("properties",{}).get("code"))=="972"),None)
-          if dep is None:raise RuntimeError("Contour administratif Martinique (971) introuvable")
+          if dep is None:raise RuntimeError("Contour administratif Martinique (972) introuvable")
           area=shape(dep["geometry"])
           # Bounding box englobant les la Martinique.
-          query='[out:json][timeout:180];(nwr["tourism"="caravan_site"](14.3,-61.3,14.95,-60.7);nwr["amenity"="sanitary_dump_station"](14.3,-61.3,14.95,-60.7););out center;'
+          query='[out:json][timeout:60];(nwr["tourism"="caravan_site"](14.3,-61.3,14.95,-60.7);nwr["amenity"="sanitary_dump_station"](14.3,-61.3,14.95,-60.7););out center;'
           response=None
-          for endpoint in ("https://overpass.kumi.systems/api/interpreter","https://overpass-api.de/api/interpreter"):
+          for endpoint in ("https://overpass.kumi.systems/api/interpreter","https://overpass-api.de/api/interpreter","https://overpass.nchc.org.tw/api/interpreter","https://overpass.private.coffee/api/interpreter"):
               try:
                   response=session.post(endpoint,data={"data":query},timeout=230)
                   response.raise_for_status()
