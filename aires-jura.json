@@ -424,9 +424,11 @@
     "name": "Aire de camping-car de Plainoiseau",
     "city": "Plainoiseau",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Poubelles"
+    ],
+    "price": "Stationnement gratuit selon Park4night ; aucun service camping-car",
+    "status": "Parking de la médiathèque, 350 rue Georges Trouillot, stationnement de jour et de nuit selon Park4night.",
     "source": "https://www.openstreetmap.org/way/1316470124",
     "latitude": 46.7309295,
     "longitude": 5.5546886,
@@ -435,7 +437,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1316470124",
-    "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre."
+    "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
+    "priceSource": "https://park4night.com/fr/place/109886",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source communautaire avec avis récent d'octobre 2026 ; pente signalée et nombre de places discuté (1 à 2). Vérifier la signalisation sur place.",
+    "servicesSource": "https://park4night.com/fr/place/109886"
   },
   {
     "department": "39",
@@ -783,5 +789,26 @@
     "priceVerifiedOn": "2026-10-17",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-cars-les-3-ours/",
     "importReview": "28 rue du Pont, GPS recoupé Camping-car.com. Capacité 90 : celle du camping, pas nécessairement 90 places de service."
+  },
+  {
+    "department": "39",
+    "name": "Aire du camping de la Toupe – Baume-les-Messieurs",
+    "city": "Baume-les-Messieurs",
+    "type": "Aire de camping-car dans un camping",
+    "services": [
+      "Eau",
+      "Vidange eaux usées"
+    ],
+    "price": "3 € pour l'aire surveillée selon Jura Tourisme ; vérifier si ce montant couvre le stationnement ou les services",
+    "status": "6 emplacements ; ouverture du 1er avril au 30 septembre pendant l'ouverture du camping de la Toupe",
+    "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-6/",
+    "latitude": 46.712544,
+    "longitude": 5.6365519,
+    "gpsSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-6/",
+    "sourceId": "jura-tourism/HPABFC039320000946",
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-6/",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-6/",
+    "importReview": "Coordonnées GPS fournies explicitement par Jura Tourisme ; 3 € sans indication précise de la prestation, ne pas présenter comme prix de nuitée."
   }
 ]
