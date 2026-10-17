@@ -49,8 +49,12 @@
       "capacity": 6,
       "sourceId": "HPABFC039320000922",
       "opening": "Ouvert toute l'année selon Jura Tourisme",
-      "duplicateCheck": "Nouveau stationnement publié à Granges-sur-Baume D210, GPS 46.7097,5.6556 (Park4night #25868), annoncé 8 places. La fiche officielle Hauteroche D210 annonce 6 places ; possible même emplacement avec variation du comptage. Ne pas publier Hauteroche avant confirmation d'un autre emplacement.",
-      "possibleDuplicateOf": "park4night/25868"
+      "duplicateCheck": "Risque de doublon avec l'aire publiée de Granges-sur-Baume, D210, GPS 46.7097,5.6556. Park4night et Le Campeur annoncent 8 places, alors que Jura Tourisme annonce 6 places pour Hauteroche D210. Aucune preuve de deux parkings distincts : ne pas publier Hauteroche sans localisation propre.",
+      "possibleDuplicateOf": "park4night/25868",
+      "duplicateSources": [
+        "https://park4night.com/fr/place/25868",
+        "https://www.lecampeur.fr/aire/d210-granges-sur-baume-ph5eah"
+      ]
     },
     {
       "city": "Parcey",
@@ -87,7 +91,7 @@
   "reviewSummary": {
     "publishedAires": 45,
     "pendingSites": 6,
-    "priority": "Comparer Hauteroche D210 (6 places, Jura Tourisme) et Granges-sur-Baume D210 (8 places, Park4night) pour exclure un doublon ; chercher GPS exact Mantry, Ménétru-le-Vignoble, Arlay.",
+    "priority": "GPS à confirmer : Mantry rue de Recanoz (5 places), Ménétru-le-Vignoble rue Traversière (1 place), Arlay rue de la Gravière. Hauteroche D210 : doublon potentiel de Granges-sur-Baume. Dole Aquaparc : existence contestée. Parcey : vérifier aire distincte du camping.",
     "warning": "Ne pas publier de points GPS non vérifiés.",
     "newDiscovery": "La Louve (Champagne-sur-Loue) ajoutée au fichier public, GPS recoupé Camping-car.com et i-campingcar.",
     "arlayAdditionalLead": {
@@ -98,6 +102,7 @@
       ],
       "source": "https://park4night.com/fr/place/686391",
       "note": "Annonce communautaire datée juin 2026 : 10 places gratuites, terrain privé. Ne pas confondre avec les deux aires communales d'Arlay ; vérifier l'autorisation et la pérennité avant publication."
-    }
+    },
+    "lastChecked": "2026-10-17"
   }
 }
