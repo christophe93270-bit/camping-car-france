@@ -111,7 +111,7 @@
     "gpsSource": "https://www.openstreetmap.org/node/12151455073",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Jura Tourisme distingue le parking gratuit Duparchy/place Voltaire (sans services) de la borne Moulin Lacroix ; ne pas attribuer la gratuité du parking à la borne.",
+    "importReview": "Jura Tourisme indique 3 emplacements à la borne de services (13 bis rue du Moulin Lacroix), ouverte hors gel. Parking gratuit Duparchy distinct.",
     "sourceId": "node/12151455073",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-daccueil-et-de-service-camping-car-saint-claude/",
@@ -736,12 +736,12 @@
     "city": "Menétrux-en-Joux",
     "type": "Aire privée de stationnement camping-car",
     "services": [
-      "Eau",
-      "WC",
-      "Poubelles"
+      "Poubelles",
+      "Tri sélectif",
+      "Coin barbecue"
     ],
     "price": "À partir de 14 € / nuit selon Campercontact ; tarif exact selon occupants et dates à vérifier",
-    "status": "35 emplacements selon Jura Tourisme ; 7 rue des Tilleuls, accueil sur terrain privé",
+    "status": "Terrain privé, 35 emplacements selon Jura Tourisme ; autonomie demandée ; accès au terrain fermé la nuit.",
     "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-scierie-des-lacs/",
     "latitude": 46.62684,
     "longitude": 5.8292,
@@ -749,8 +749,8 @@
     "sourceId": "node/5884774973",
     "priceSource": "https://www.campercontact.com/fr/france/bourgogne-franche-comte/menetrux-en-joux/197206/scierie-des-lacs",
     "priceVerifiedOn": "2026-10-17",
-    "servicesSource": "https://www.campercontact.com/fr/france/bourgogne-franche-comte/menetrux-en-joux/197206/scierie-des-lacs",
-    "importReview": "Position issue d'OSM via Mapcarta, corroborée par Pitchup ; prix indicatif d'un annuaire, non tarif officiel."
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-scierie-des-lacs/",
+    "importReview": "Services limités aux équipements explicitement publiés par Jura Tourisme. Le site demande aux voyageurs d'être autonomes ; eau et WC retirés faute de confirmation officielle. GPS à contrôler."
   },
   {
     "department": "39",
