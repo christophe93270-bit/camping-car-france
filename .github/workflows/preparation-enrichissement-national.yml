@@ -1,0 +1,18 @@
+name: Preparation enrichissement national des aires
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preparation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inventorier toutes les fiches et leurs lacunes
+        run: python scripts/preparer-enrichissement-national.py
+      - name: Publier le rapport telechargeable
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-enrichissement-national
+          path: rapports-enrichissement/
+          retention-days: 30
