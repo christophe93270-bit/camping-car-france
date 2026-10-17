@@ -71,10 +71,12 @@
   {
     "department": "16",
     "name": "Aire de Camping-car Domaine de Chez Maillard",
-    "city": "Commune à confirmer",
+    "city": "Val des Vignes",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Stationnement camping-car autorisé sur prairie du domaine"
+    ],
+    "price": "Emplacement gratuit ; visite du domaine facultative payante",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/11872186787",
     "latitude": 45.5349723,
@@ -82,16 +84,20 @@
     "gpsSource": "https://www.openstreetmap.org/node/11872186787",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/11872186787"
+    "importReview": "Informations d'office de tourisme ; vérifier les conditions avant déplacement",
+    "sourceId": "node/11872186787",
+    "servicesSource": "https://www.sudcharentetourisme.fr/fiche-sit/aire-de-camping-car-6353546/",
+    "priceSource": "https://www.sudcharentetourisme.fr/fiche-sit/aire-de-camping-car-6353546/"
   },
   {
     "department": "16",
     "name": "Aire de camping-car du château de la Mercerie",
-    "city": "Commune à confirmer",
+    "city": "Magnac-Lavalette-Villars",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Stationnement de nuit autorisé sous condition de visite du château"
+    ],
+    "price": "Stationnement gratuit, limité à une nuit avec visite du château",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/11872187396",
     "latitude": 45.503279,
@@ -99,8 +105,10 @@
     "gpsSource": "https://www.openstreetmap.org/node/11872187396",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/11872187396"
+    "importReview": "Informations d'office de tourisme ; vérifier les conditions avant déplacement",
+    "sourceId": "node/11872187396",
+    "servicesSource": "https://www.sudcharentetourisme.fr/fiche-sit/aire-de-camping-car-du-chateau-de-la-mercerie-5707791/",
+    "priceSource": "https://www.sudcharentetourisme.fr/fiche-sit/aire-de-camping-car-du-chateau-de-la-mercerie-5707791/"
   },
   {
     "department": "16",
@@ -527,8 +535,13 @@
     "name": "Aire Municipale Londigny",
     "city": "Londigny",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Électricité",
+      "Point d'eau",
+      "Vidange des eaux grises",
+      "Vidange des eaux noires"
+    ],
+    "price": "Gratuit ; ouverture du 15 avril au 31 octobre",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/972598495",
     "latitude": 46.0838012,
@@ -536,8 +549,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/972598495",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/972598495"
+    "importReview": "Informations d'office de tourisme ; vérifier les conditions avant déplacement",
+    "sourceId": "way/972598495",
+    "servicesSource": "https://www.destination-nordcharente.com/hebergements/campings-et-aires-de-camping-cars/5699891_aire-de-services-camping-cars/",
+    "priceSource": "https://www.destination-nordcharente.com/hebergements/campings-et-aires-de-camping-cars/5699891_aire-de-services-camping-cars/"
   },
   {
     "department": "16",
@@ -808,10 +823,13 @@
   {
     "department": "16",
     "name": "Aire Camping-car Salles-de-Villefagnan",
-    "city": "Commune à confirmer",
+    "city": "Salles-de-Villefagnan",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Ravitaillement en eau",
+      "Branchements électriques"
+    ],
+    "price": "Eau 3 € le jeton (10 minutes) ; électricité 3 € le jeton (12 heures)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1316248840",
     "latitude": 45.9591072,
@@ -819,8 +837,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/1316248840",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1316248840"
+    "importReview": "Informations d'office de tourisme ; vérifier les conditions avant déplacement",
+    "sourceId": "way/1316248840",
+    "servicesSource": "https://www.destination-nordcharente.com/hebergements/campings-et-aires-de-camping-cars/5699921_aire-de-camping-cars/",
+    "priceSource": "https://www.destination-nordcharente.com/hebergements/campings-et-aires-de-camping-cars/5699921_aire-de-camping-cars/"
   },
   {
     "department": "16",
@@ -859,10 +879,13 @@
   {
     "department": "16",
     "name": "Aire Camping-car Villognon La Fontaine",
-    "city": "Commune à confirmer",
+    "city": "Villognon",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Ravitaillement en eau",
+      "Branchements électriques"
+    ],
+    "price": "Eau 3 € les 10 minutes ; électricité 5 € les 12 heures (application Isipay)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1316260462",
     "latitude": 45.8616639,
@@ -870,8 +893,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/1316260462",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1316260462"
+    "importReview": "Informations d'office de tourisme ; vérifier les conditions avant déplacement",
+    "sourceId": "way/1316260462",
+    "servicesSource": "https://www.destination-nordcharente.com/hebergements/campings-et-aires-de-camping-cars/7028512_aire-de-camping-cars-la-fontaine/",
+    "priceSource": "https://www.destination-nordcharente.com/hebergements/campings-et-aires-de-camping-cars/7028512_aire-de-camping-cars-la-fontaine/"
   },
   {
     "department": "16",
