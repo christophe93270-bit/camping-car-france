@@ -1,0 +1,50 @@
+name: Controle automatique Vendee
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 7 * * 1'
+  push:
+    paths:
+      - 'aires-vendee.json'
+      - '.github/workflows/qualite-vendee.yml'
+permissions:
+  contents: read
+jobs:
+  controle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rapport qualite Vendee sans modification
+        run: |
+          python - <<'PY'
+          import json, math, os, unicodedata, re
+          from pathlib import Path
+          rows=json.loads(Path("aires-vendee.json").read_text(encoding="utf-8"))
+          def gps(x):
+              try:
+                  lat,lon=float(x["latitude"]),float(x["longitude"])
+                  return (lat,lon) if math.isfinite(lat) and math.isfinite(lon) and -90<=lat<=90 and -180<=lon<=180 else None
+              except (ValueError,TypeError,KeyError): return None
+          def distance(a,b):
+              p1,l1=map(math.radians,a);p2,l2=map(math.radians,b)
+              h=math.sin((p2-p1)/2)**2+math.cos(p1)*math.cos(p2)*math.sin((l2-l1)/2)**2
+              return 12742000*math.asin(min(1,math.sqrt(h)))
+          missing_city=sum(not x.get("city") or "confirmer" in str(x.get("city")).lower() for x in rows)
+          missing_services=sum(not x.get("services") for x in rows)
+          unknown_price=sum(not x.get("price") or "confirm" in str(x.get("price")).lower() for x in rows)
+          bad_gps=sum(gps(x) is None for x in rows)
+          pairs=[]
+          for i,a in enumerate(rows):
+              if gps(a) is None: continue
+              for b in rows[i+1:]:
+                  if gps(b) is None: continue
+                  d=distance(gps(a),gps(b))
+                  if d<=150: pairs.append((a,b,round(d)))
+          lines=["# Audit automatique Vendée (85)","","Aucune donnée n'est modifiée. Les proximités GPS sont des indices, pas des doublons prouvés.","",f"- Fiches : **{len(rows)}**",f"- Communes manquantes : **{missing_city}**",f"- Services non renseignés : **{missing_services}**",f"- Tarifs non confirmés : **{unknown_price}**",f"- GPS invalides : **{bad_gps}**",f"- Paires de fiches à 150 m ou moins : **{len(pairs)}**","","| Fiche A | Fiche B | Distance |","|---|---|---:|"]
+          for a,b,d in pairs:
+              clean=lambda s:str(s).replace("|","/").replace("\n"," ")
+              lines.append(f"| {clean(a.get('name'))} | {clean(b.get('name'))} | {d} m |")
+          report="\n".join(lines)+"\n"
+          print(report)
+          if os.getenv("GITHUB_STEP_SUMMARY"):Path(os.environ["GITHUB_STEP_SUMMARY"]).write_text(report,encoding="utf-8")
+          PY
