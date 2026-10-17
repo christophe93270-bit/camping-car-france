@@ -2,7 +2,7 @@
   {
     "department": "15",
     "name": "Aire camping-car Marchal",
-    "city": "Commune à confirmer",
+    "city": "Marchal",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -14,12 +14,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12115926366"
+    "sourceId": "node/12115926366",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
     "name": "Aire pour camping-cars de Montmurat",
-    "city": "Commune à confirmer",
+    "city": "Montmurat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -31,7 +32,8 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12171164357"
+    "sourceId": "node/12171164357",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
@@ -58,7 +60,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "13 à 14 € / 24 h selon la période, hors taxe de séjour",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/13165323114",
     "latitude": 45.0501584,
@@ -68,15 +70,18 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/13165323114",
-    "servicesSource": "https://www.openstreetmap.org/node/13165323114"
+    "servicesSource": "https://www.openstreetmap.org/node/13165323114",
+    "priceSource": "https://www.cantal-destination.com/fiche/camping-roche-murat-camping-car-park/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
   },
   {
     "department": "15",
     "name": "Accueil camping-cars Salers",
-    "city": "Commune à confirmer",
+    "city": "Salers",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "14 € / nuit au camping municipal, taxe de séjour 0,22 € / personne en supplément ; électricité +6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/125496876",
     "latitude": 45.1480726,
@@ -85,12 +90,16 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/125496876"
+    "sourceId": "way/125496876",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
+    "priceSource": "https://www.salers.fr/stationnement-camping-cars-salers",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
   },
   {
     "department": "15",
     "name": "Aire camping-car Chaudes Aigues",
-    "city": "Commune à confirmer",
+    "city": "Chaudes-Aigues",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -102,12 +111,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/143748191"
+    "sourceId": "way/143748191",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
     "name": "Aire camping car Velzic",
-    "city": "Commune à confirmer",
+    "city": "Velzic",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -119,12 +129,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/358259003"
+    "sourceId": "way/358259003",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
     "name": "Aire camping-cars de Pierrefort",
-    "city": "Commune à confirmer",
+    "city": "Pierrefort",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -136,18 +147,19 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/703143465"
+    "sourceId": "way/703143465",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
     "name": "Aire municipale d’Allanche",
-    "city": "Commune à confirmer",
+    "city": "Allanche",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "10 € / 24 h ; électricité +3 € ; taxe de séjour 0,77 € / personne en supplément",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/802445715",
     "latitude": 45.2295234,
@@ -157,18 +169,22 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/802445715",
-    "servicesSource": "https://www.openstreetmap.org/way/802445715"
+    "servicesSource": "https://www.openstreetmap.org/way/802445715",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
+    "priceSource": "https://allanche.fr/aire-de-camping-car/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
   },
   {
     "department": "15",
     "name": "Aire pour camping-cars de Montsalvy",
-    "city": "Commune à confirmer",
+    "city": "Montsalvy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Douches",
       "Toilettes"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; services à partir de 2 € ; douche 1 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/802813219",
     "latitude": 44.7078749,
@@ -178,17 +194,21 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/802813219",
-    "servicesSource": "https://www.openstreetmap.org/way/802813219"
+    "servicesSource": "https://www.openstreetmap.org/way/802813219",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
+    "priceSource": "https://www.cantal-destination.com/fiche/aire-pour-camping-cars-de-montsalvy/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
   },
   {
     "department": "15",
     "name": "Aire Municipale Riom-ès-Montagnes",
-    "city": "Commune à confirmer",
+    "city": "Riom-ès-Montagnes",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement : non confirmé ; jeton de services 3 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/816348013",
     "latitude": 45.2847155,
@@ -198,7 +218,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/816348013",
-    "servicesSource": "https://www.openstreetmap.org/way/816348013"
+    "servicesSource": "https://www.openstreetmap.org/way/816348013",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
+    "priceSource": "https://www.cantal-destination.com/fiche/aire-de-service-de-riom-es-montagnes/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
   },
   {
     "department": "15",
@@ -223,7 +247,7 @@
   {
     "department": "15",
     "name": "Aire Municipale La Chapelle-Laurent",
-    "city": "Commune à confirmer",
+    "city": "La Chapelle-Laurent",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes"
@@ -238,7 +262,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1002726140",
-    "servicesSource": "https://www.openstreetmap.org/way/1002726140"
+    "servicesSource": "https://www.openstreetmap.org/way/1002726140",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
@@ -248,7 +273,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,02 € / 24 h, dont 1,32 € de taxe de séjour (octobre 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1219043548",
     "latitude": 45.1570111,
@@ -258,7 +283,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1219043548",
-    "servicesSource": "https://www.openstreetmap.org/way/1219043548"
+    "servicesSource": "https://www.openstreetmap.org/way/1219043548",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/dienne",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
   },
   {
     "department": "15",
@@ -268,7 +296,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "12,92 € / 24 h, dont 1,32 € de taxe de séjour (octobre 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1219074698",
     "latitude": 45.2109918,
@@ -278,12 +306,15 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1219074698",
-    "servicesSource": "https://www.openstreetmap.org/way/1219074698"
+    "servicesSource": "https://www.openstreetmap.org/way/1219074698",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/mauriac",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
   },
   {
     "department": "15",
     "name": "Aire CAMPING-CAR PARK de Saint-Gérons, Plage d'Espinet",
-    "city": "Commune à confirmer",
+    "city": "Saint-Gérons",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -298,7 +329,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1219078720",
-    "servicesSource": "https://www.openstreetmap.org/way/1219078720"
+    "servicesSource": "https://www.openstreetmap.org/way/1219078720",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
@@ -310,7 +342,7 @@
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "17,18 € / 24 h, dont 1,32 € de taxe de séjour (jusqu'au 31/10/2026) ; 15,06 € dès le 01/11/2026",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1284208593",
     "latitude": 44.9358625,
@@ -320,17 +352,20 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1284208593",
-    "servicesSource": "https://www.openstreetmap.org/way/1284208593"
+    "servicesSource": "https://www.openstreetmap.org/way/1284208593",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/aurillac",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
   },
   {
     "department": "15",
     "name": "Aire de camping-car de Coltines",
-    "city": "Commune à confirmer",
+    "city": "Coltines",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; eau et électricité par jetons, montant non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1306922736",
     "latitude": 45.0959569,
@@ -340,12 +375,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1306922736",
-    "servicesSource": "https://www.openstreetmap.org/way/1306922736"
+    "servicesSource": "https://www.openstreetmap.org/way/1306922736",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
+    "priceSource": "https://www.cantal-destination.com/fiche/aire-de-camping-car-de-coltines/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
   },
   {
     "department": "15",
     "name": "Aire municipale de Ségur-les-Villas",
-    "city": "Commune à confirmer",
+    "city": "Ségur-les-Villas",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -357,12 +396,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1306933223"
+    "sourceId": "way/1306933223",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
     "name": "Aire camping-car communale de Neussargues en Pinatelle",
-    "city": "Commune à confirmer",
+    "city": "Neussargues en Pinatelle",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes",
@@ -378,12 +418,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1307547319",
-    "servicesSource": "https://www.openstreetmap.org/way/1307547319"
+    "servicesSource": "https://www.openstreetmap.org/way/1307547319",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
     "name": "Aire de stationnement du Lioran",
-    "city": "Commune à confirmer",
+    "city": "Laveissière",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -395,12 +436,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1307579652"
+    "sourceId": "way/1307579652",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
     "name": "Aire de camping-car Lacapelle-Viescamp",
-    "city": "Commune à confirmer",
+    "city": "Lacapelle-Viescamp",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -412,12 +454,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1308905496"
+    "sourceId": "way/1308905496",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
     "name": "Aire de camping-cars de Mandailles",
-    "city": "Commune à confirmer",
+    "city": "Mandailles-Saint-Julien",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -429,12 +472,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1308908588"
+    "sourceId": "way/1308908588",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
     "name": "Accuil Camping-Cars Saint-Cernin",
-    "city": "Commune à confirmer",
+    "city": "Saint-Cernin",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -446,7 +490,8 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1315450950"
+    "sourceId": "way/1315450950",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
   },
   {
     "department": "15",
