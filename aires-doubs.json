@@ -19,7 +19,7 @@
   {
     "department": "25",
     "name": "Aire de stationnement Ougney-Douvot.",
-    "city": "Commune à confirmer",
+    "city": "Ougney-Douvot",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -31,12 +31,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/6139099289"
+    "sourceId": "node/6139099289",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire d'accueil - La Coupe",
-    "city": "Commune à confirmer",
+    "city": "Les Fourgs",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Eau potable",
@@ -53,12 +54,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12012802146",
-    "servicesSource": "https://www.openstreetmap.org/node/12012802146"
+    "servicesSource": "https://www.openstreetmap.org/node/12012802146",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-car de Fourbanne",
-    "city": "Commune à confirmer",
+    "city": "Fourbanne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -70,12 +72,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12089179606"
+    "sourceId": "node/12089179606",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire Camping-Cars Chapelle-des-Bois",
-    "city": "Commune à confirmer",
+    "city": "Chapelle-des-Bois",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -90,12 +93,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12151128499",
-    "servicesSource": "https://www.openstreetmap.org/node/12151128499"
+    "servicesSource": "https://www.openstreetmap.org/node/12151128499",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-cars Vandoncourt",
-    "city": "Commune à confirmer",
+    "city": "Vandoncourt",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -107,17 +111,18 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12151167789"
+    "sourceId": "node/12151167789",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-cars Plage d'Osselle",
-    "city": "Commune à confirmer",
+    "city": "Osselle-Routelle",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "8 € / 24 h en basse saison (01/10–31/05), 10 € en haute saison (01/06–30/09) ; électricité +2 € / 24 h ; taxe de séjour +0,44 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12151209450",
     "latitude": 47.1390681,
@@ -127,7 +132,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12151209450",
-    "servicesSource": "https://www.openstreetmap.org/node/12151209450"
+    "servicesSource": "https://www.openstreetmap.org/node/12151209450",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "priceSource": "https://www.grandbesancon.fr/infos-pratiques/sports-loisirs/les-aires-daccueil-camping-car/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement."
   },
   {
     "department": "25",
@@ -149,10 +158,10 @@
   {
     "department": "25",
     "name": "Nancray aire de camping-car",
-    "city": "Commune à confirmer",
+    "city": "Nancray",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement non tarifé sur la page officielle ; eau potable : jeton 2 € (du 01/03 au 14/11)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12151347769",
     "latitude": 47.2393404,
@@ -161,15 +170,19 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12151347769"
+    "sourceId": "node/12151347769",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "priceSource": "https://www.grandbesancon.fr/infos-pratiques/sports-loisirs/les-aires-daccueil-camping-car/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement."
   },
   {
     "department": "25",
     "name": "Aire de camping-car de Saint-Point-Lac",
-    "city": "Commune à confirmer",
+    "city": "Saint-Point-Lac",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement 11 € / 24 h ; eau potable 2 € / 10 min ; vidanges gratuites",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/176473783",
     "latitude": 46.812504,
@@ -178,12 +191,16 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/176473783"
+    "sourceId": "way/176473783",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "priceSource": "https://www.destination-haut-doubs.com/aire-d-accueil-1.html",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement."
   },
   {
     "department": "25",
     "name": "Aire de camping-cars Le Larmont",
-    "city": "Commune à confirmer",
+    "city": "Pontarlier",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -198,12 +215,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/228841884",
-    "servicesSource": "https://www.openstreetmap.org/way/228841884"
+    "servicesSource": "https://www.openstreetmap.org/way/228841884",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aires de camping-cars - Sancey",
-    "city": "Commune à confirmer",
+    "city": "Sancey",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -215,12 +233,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/299672982"
+    "sourceId": "way/299672982",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping car Mouthe",
-    "city": "Commune à confirmer",
+    "city": "Mouthe",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -232,17 +251,18 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/442089037"
+    "sourceId": "way/442089037",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-car de Ornans",
-    "city": "Commune à confirmer",
+    "city": "Ornans",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "16,32 € / 24 h, taxe comprise (jusqu'au 30/10/2026) ; 14,32 € dès le 31/10/2026",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/702120433",
     "latitude": 47.1077564,
@@ -252,12 +272,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/702120433",
-    "servicesSource": "https://www.openstreetmap.org/way/702120433"
+    "servicesSource": "https://www.openstreetmap.org/way/702120433",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/doubs/ornans",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement."
   },
   {
     "department": "25",
     "name": "Aire de camping-car de Nans-sous-Sainte-Anne",
-    "city": "Commune à confirmer",
+    "city": "Nans-sous-Sainte-Anne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -269,12 +293,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/702121804"
+    "sourceId": "way/702121804",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-car Pont-de-Roide",
-    "city": "Commune à confirmer",
+    "city": "Pont-de-Roide-Vermondans",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -289,12 +314,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/747430296",
-    "servicesSource": "https://www.openstreetmap.org/way/747430296"
+    "servicesSource": "https://www.openstreetmap.org/way/747430296",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-cars d'Arc-et-Senans",
-    "city": "Commune à confirmer",
+    "city": "Arc-et-Senans",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -306,12 +332,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/984829151"
+    "sourceId": "way/984829151",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-cars - Belvoir",
-    "city": "Commune à confirmer",
+    "city": "Belvoir",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -323,12 +350,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/998770463"
+    "sourceId": "way/998770463",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-cars - Le Russey",
-    "city": "Commune à confirmer",
+    "city": "Le Russey",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -343,12 +371,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1036346693",
-    "servicesSource": "https://www.openstreetmap.org/way/1036346693"
+    "servicesSource": "https://www.openstreetmap.org/way/1036346693",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire d'accueil camping-car à La Rivière-Drugeon",
-    "city": "Commune à confirmer",
+    "city": "La Rivière-Drugeon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -363,12 +392,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1159250288",
-    "servicesSource": "https://www.openstreetmap.org/way/1159250288"
+    "servicesSource": "https://www.openstreetmap.org/way/1159250288",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de stationnement - Renédale",
-    "city": "Commune à confirmer",
+    "city": "Renédale",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -380,12 +410,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1193860871"
+    "sourceId": "way/1193860871",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-cars Montbéliard - Port de plaisance",
-    "city": "Commune à confirmer",
+    "city": "Montbéliard",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -400,12 +431,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1259726625",
-    "servicesSource": "https://www.openstreetmap.org/way/1259726625"
+    "servicesSource": "https://www.openstreetmap.org/way/1259726625",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-cars Sancey-le-Long",
-    "city": "Commune à confirmer",
+    "city": "Sancey",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -420,15 +452,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1263298121",
-    "servicesSource": "https://www.openstreetmap.org/way/1263298121"
+    "servicesSource": "https://www.openstreetmap.org/way/1263298121",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-cars de Besançon",
-    "city": "Commune à confirmer",
+    "city": "Besançon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement payant à l'horodateur (montant non publié) ; eau et vidange sur place, sans électricité",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1288024196",
     "latitude": 47.2371953,
@@ -437,17 +470,21 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1288024196"
+    "sourceId": "way/1288024196",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "priceSource": "https://www.grandbesancon.fr/infos-pratiques/sports-loisirs/les-aires-daccueil-camping-car/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement."
   },
   {
     "department": "25",
     "name": "Camping-Cars du Montbéliard - Champ de foire",
-    "city": "Commune à confirmer",
+    "city": "Montbéliard",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Électricité : 2 € / 1 h, 5 € / 8 h, 10 € / 16 h ; eau 5 € / 10 min ; stationnement non tarifé dans la source",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1288032567",
     "latitude": 47.5066532,
@@ -457,12 +494,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1288032567",
-    "servicesSource": "https://www.openstreetmap.org/way/1288032567"
+    "servicesSource": "https://www.openstreetmap.org/way/1288032567",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "priceSource": "https://www.paysdemontbeliard-tourisme.com/aires-de-camping-car/decibelles/detail/hpabfc025303000204/aire-de-camping-cars-champ-de-foire",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement."
   },
   {
     "department": "25",
     "name": "Aire de camping-cars - Vellevans",
-    "city": "Commune à confirmer",
+    "city": "Vellevans",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -474,12 +515,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1296418039"
+    "sourceId": "way/1296418039",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de stationnement pour Camping car de Valonne",
-    "city": "Commune à confirmer",
+    "city": "Valonne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -494,17 +536,18 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1302837296",
-    "servicesSource": "https://www.openstreetmap.org/way/1302837296"
+    "servicesSource": "https://www.openstreetmap.org/way/1302837296",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-car de Baume-les-Dames",
-    "city": "Commune à confirmer",
+    "city": "Baume-les-Dames",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14 à 15 € / jour, forfait véhicule et 2 adultes ; vidange + eau sans stationnement : 3 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1305626953",
     "latitude": 47.3399014,
@@ -514,7 +557,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1305626953",
-    "servicesSource": "https://www.openstreetmap.org/way/1305626953"
+    "servicesSource": "https://www.openstreetmap.org/way/1305626953",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "priceSource": "https://www.ot-doubsbaumois.fr/offres/aires-de-camping-car/aire-pour-camping-car-a-baume-les-dames/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement."
   },
   {
     "department": "25",
@@ -553,7 +600,7 @@
   {
     "department": "25",
     "name": "Aire de camping-cars - Randevillers",
-    "city": "Commune à confirmer",
+    "city": "Randevillers",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -565,12 +612,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1312754118"
+    "sourceId": "way/1312754118",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-cars - Saint-Hippolyte",
-    "city": "Commune à confirmer",
+    "city": "Saint-Hippolyte",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -582,12 +630,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1312766611"
+    "sourceId": "way/1312766611",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire camping-cars à Laissey - Vallée du Doubs",
-    "city": "Commune à confirmer",
+    "city": "Laissey",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -599,12 +648,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1312772718"
+    "sourceId": "way/1312772718",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de stationnement - Château de Joux",
-    "city": "Commune à confirmer",
+    "city": "La Cluse-et-Mijoux",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -616,12 +666,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1313021854"
+    "sourceId": "way/1313021854",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-car de Vaufrey",
-    "city": "Commune à confirmer",
+    "city": "Vaufrey",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -633,12 +684,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1313259343"
+    "sourceId": "way/1313259343",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de stationnnement camping-cars Laissey",
-    "city": "Commune à confirmer",
+    "city": "Laissey",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -650,12 +702,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1357831491"
+    "sourceId": "way/1357831491",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   },
   {
     "department": "25",
     "name": "Aire de camping-car Damprichard",
-    "city": "Commune à confirmer",
+    "city": "Damprichard",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -667,6 +720,7 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1385852042"
+    "sourceId": "way/1385852042",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
   }
 ]
