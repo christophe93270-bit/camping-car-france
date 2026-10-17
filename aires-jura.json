@@ -292,18 +292,25 @@
     "name": "Aire de camping-car Conliege",
     "city": "Conliège",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau",
+      "Vidange des eaux usées",
+      "WC",
+      "Sanitaires chauffés",
+      "Aire de pique-nique"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "6 emplacements rue du Saugeois, ouverts toute l'année selon Jura Tourisme ; tarif non publié",
     "source": "https://www.openstreetmap.org/way/1296418825",
     "latitude": 46.6526885,
     "longitude": 5.5994932,
     "gpsSource": "https://www.openstreetmap.org/way/1296418825",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "GPS concordant avec fiche Jura Tourisme (écart inférieur à 30 m). Services confirmés ; tarif à confirmer.",
     "sourceId": "way/1296418825",
-    "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre."
+    "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-12/"
   },
   {
     "department": "39",
