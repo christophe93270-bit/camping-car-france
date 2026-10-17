@@ -113,7 +113,7 @@
       "Eau",
       "Vidange des eaux usées"
     ],
-    "price": "Non confirmé",
+    "price": "Tarif indicatif ancien : 6 € la nuit, 2 € pour l'aire de services ; tarif 2026 non confirmé",
     "status": "Aire répertoriée par Jura Tourisme ; stationnement limité à 24 h ; tarif non publié dans la fiche consultée",
     "source": "https://www.openstreetmap.org/node/12153481234",
     "latitude": 46.4673931,
@@ -124,7 +124,10 @@
     "importReview": "10 emplacements, paiement par carte indiqué par Jura Tourisme. Aucun montant de tarif confirmé.",
     "sourceId": "node/12153481234",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
-    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-la-mercantine/"
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-la-mercantine/",
+    "priceSource": "https://www.campingcar76.fr/Site%20P08%2039%20Aires%20services%20Jura%20%28Franche%20Comte%29.htm",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Annuaire tiers sans date de tarif fiable ; montant à reconfirmer auprès de la mairie de Maisod."
   },
   {
     "department": "39",
@@ -430,5 +433,48 @@
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/thoirette-coisia",
     "priceVerifiedOn": "2026-10-17"
+  },
+  {
+    "department": "39",
+    "name": "Aire de services de Boÿse – Champagnole",
+    "city": "Champagnole",
+    "type": "Aire de stationnement et de services camping-car",
+    "services": [
+      "Eau",
+      "Vidange eaux usées"
+    ],
+    "price": "8 € / nuit du 4 mai au 15 septembre, services inclus ; gratuit hors saison sans eau ; services seuls : 5 €",
+    "status": "Aire documentée par Jura Tourisme et AireServices ; 5 places, sans électricité",
+    "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-services-de-boyse/",
+    "latitude": 46.74666,
+    "longitude": 5.89916,
+    "gpsSource": "https://www.aireparkreservation.com/aires-camping-car/jura",
+    "sourceId": "jura-tourism/HPABFC039332000243",
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-services-de-boyse/",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-services-de-boyse/",
+    "importReview": "20 rue Georges Vallerey ; position fournie par le gestionnaire AireServices ; ne pas confondre avec les emplacements du camping Boÿse."
+  },
+  {
+    "department": "39",
+    "name": "Aire de services Le Champ de Mars – Saint-Laurent-en-Grandvaux",
+    "city": "Saint-Laurent-en-Grandvaux",
+    "type": "Aire de services en camping",
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées"
+    ],
+    "price": "Forfait services (vidange, eau, électricité) : 6 € ; emplacement camping en supplément (15,80 à 25,30 € pour 2 personnes selon saison et électricité, tarifs 2025-26)",
+    "status": "Aire de services au camping Le Champ de Mars ; ouverture annoncée du 15 décembre au 30 septembre",
+    "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-services-le-champ-de-mars/",
+    "latitude": 46.576075,
+    "longitude": 5.9628062,
+    "gpsSource": "https://www.camping-car.com/aires/1897-le-champs-de-mars/",
+    "sourceId": "jura-tourism/HPABFC039339001248",
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-services-le-champ-de-mars/",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-services-le-champ-de-mars/",
+    "importReview": "8 rue du Camping ; coordonnées corroborées par Camping-car.com. Ne pas présenter le forfait services comme prix de nuitée."
   }
 ]
