@@ -56,6 +56,18 @@ for kind, entries in candidates.items():
         charge = (tags.get("charge") or "").strip() if price_missing else ""
         if not proposed_city and not fee and not charge:
             continue
+        # Classement indicatif uniquement : aucun tarif ni commune n'est publié.
+        fee_norm = fee.casefold()
+        if proposed_city and (fee or charge):
+            decision = "COMMUNE_ET_TARIF_A_VERIFIER"
+        elif proposed_city:
+            decision = "COMMUNE_A_VERIFIER"
+        elif charge:
+            decision = "MONTANT_BRUT_A_INTERPRETER"
+        elif fee_norm in ("yes", "no"):
+            decision = "PAIEMENT_SANS_MONTANT"
+        else:
+            decision = "INDICATION_OSM_A_VERIFIER"
         rows.append({
             "fichier": filename, "index": index, "nom": item.get("name", ""),
             "source_osm": f"https://www.openstreetmap.org/{kind}/{sid}",
@@ -64,7 +76,7 @@ for kind, entries in candidates.items():
             "tarif_actuel": item.get("price", ""),
             "indication_fee_osm": fee,
             "montant_charge_osm_brut": charge,
-            "decision": "A_VERIFIER_MANUELLEMENT",
+            "decision": decision,
         })
 out = Path("rapports-enrichissement")
 out.mkdir(exist_ok=True)
@@ -73,4 +85,5 @@ with (out / "propositions-communes-tarifs-osm.csv").open("w", encoding="utf-8-si
     writer = csv.DictWriter(stream, fieldnames=fields)
     writer.writeheader()
     writer.writerows(rows)
-print("BILAN_COMMUNES_TARIFS", json.dumps({"fiches_candidates": sum(map(len,candidates.values())), "propositions_a_verifier": len(rows), "publication_automatique": False}, ensure_ascii=False))
+bilan_decisions = {decision: sum(row["decision"] == decision for row in rows) for decision in sorted({row["decision"] for row in rows})}
+print("BILAN_COMMUNES_TARIFS", json.dumps({"fiches_candidates": sum(map(len,candidates.values())), "propositions_a_verifier": len(rows), "categories": bilan_decisions, "publication_automatique": False}, ensure_ascii=False))
