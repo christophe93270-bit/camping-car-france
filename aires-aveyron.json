@@ -496,8 +496,14 @@
     "name": "Aire CAMPING-CAR PARK de Saint-Affrique, Pays de Roquefort",
     "city": "Saint-Affrique",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Stationnement camping-car (30 emplacements)",
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Wi-Fi"
+    ],
+    "price": "À partir de 15 € par jour, taxe de séjour comprise (tarif 2026 publié)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/622676040",
     "latitude": 43.9514747,
@@ -505,9 +511,11 @@
     "gpsSource": "https://www.openstreetmap.org/way/622676040",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Informations issues de Tourisme Aveyron ; vérifier avant déplacement",
     "sourceId": "way/622676040",
-    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à vérifier indépendamment"
+    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à vérifier indépendamment",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-park-saint-affrique_TFO12208-HPA-20250422152626893",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-park-saint-affrique_TFO12208-HPA-20250422152626893"
   },
   {
     "department": "12",
@@ -824,8 +832,14 @@
     "name": "Aire de camping-cars municipale Vabres-l'Abbaye",
     "city": "Vabres-l'Abbaye",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Stationnement camping-car (25 emplacements, 48 h maximum)",
+      "Eau potable",
+      "Vidange des eaux usées",
+      "Poubelles",
+      "Pas d'électricité"
+    ],
+    "price": "Stationnement, eau et vidange gratuits (tarif publié 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/904442949",
     "latitude": 43.945985,
@@ -833,8 +847,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/904442949",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/904442949"
+    "importReview": "Informations issues de Tourisme Aveyron ; vérifier avant déplacement",
+    "sourceId": "way/904442949",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-cars-municipale-vabres-l-abbaye_TFO12286-HPA-20250422153043786",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-cars-municipale-vabres-l-abbaye_TFO12286-HPA-20250422153043786"
   },
   {
     "department": "12",
@@ -927,8 +943,15 @@
     "name": "Aire de camping-car de Salles-Curan",
     "city": "Salles-Curan",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Stationnement camping-car (73 emplacements)",
+      "Eau potable",
+      "Électricité 6 A",
+      "Vidange des eaux usées",
+      "Toilettes",
+      "Douche"
+    ],
+    "price": "14 € pour 24 h en 2026 (eau, électricité et vidange comprises), taxe de séjour 0,66 € en sus ; vidange seule 5 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1278089974",
     "latitude": 44.2003387,
@@ -936,9 +959,11 @@
     "gpsSource": "https://www.openstreetmap.org/way/1278089974",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Informations issues de Tourisme Aveyron ; vérifier avant déplacement",
     "sourceId": "way/1278089974",
-    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à vérifier indépendamment"
+    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à vérifier indépendamment",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-municipale-de-salles-curan-salles-curan_TFO12253-HPA-20241203141858193",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-municipale-de-salles-curan-salles-curan_TFO12253-HPA-20241203141858193"
   },
   {
     "department": "12",
