@@ -52,16 +52,21 @@
       "city": "Lamoura",
       "name": "Parking de la Serra",
       "capacity": 20,
-      "source": "https://www.jura-tourism.com/reserver-mes-vacances/aires-de-camping-car/page/2/",
-      "gpsStatus": "À vérifier",
-      "note": "Vérifier s'il s'agit d'un stationnement camping-car autorisé et non d'un parking de station de ski."
+      "source": "https://www.jura-tourism.com/aire-camping-car/parking-de-la-serra/",
+      "gpsStatus": "À vérifier avant publication",
+      "note": "Stationnement camping-car gratuit confirmé par Jura Tourisme, selon disponibilité. Déplacer le véhicule pour le déneigement en hiver. GPS exact encore à contrôler.",
+      "address": "Parking de la Serra, D25, 39310 Lamoura",
+      "price": "Gratuit selon Jura Tourisme",
+      "sourceId": "HPABFC000V51NZRP"
     },
     {
       "city": "Château-Chalon",
       "name": "Aire de camping-car",
       "capacity": 6,
-      "source": "https://www.jura-tourism.com/reserver-mes-vacances/aires-de-camping-car/page/2/",
-      "gpsStatus": "À vérifier"
+      "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-8/",
+      "gpsStatus": "À vérifier avant publication",
+      "address": "Route de Champagnole, 39210 Château-Chalon",
+      "sourceId": "HPABFC039320001091"
     },
     {
       "city": "Parcey",
@@ -73,9 +78,18 @@
     {
       "city": "Dole",
       "name": "Aire de services Aquaparc",
-      "source": "https://www.jura-tourism.com/reserver-mes-vacances/aires-de-camping-car/page/2/",
-      "gpsStatus": "À vérifier",
-      "note": "Vérifier GPS et distance avec l'aire avenue de Lahr avant ajout."
+      "source": "https://www.jura-tourism.com/aire-camping-car/camping-car-aire-de-services-aquaparc/",
+      "gpsStatus": "À vérifier avant publication",
+      "note": "Aire de services distincte du stationnement gratuit avenue de Lahr, selon Jura Tourisme. GPS à vérifier avant publication.",
+      "address": "Allée des Prés Buffard, 39100 Dole",
+      "sourceId": "HPABFC039318003891",
+      "services": [
+        "Eau",
+        "Électricité",
+        "Vidange eaux usées",
+        "Parking",
+        "Poubelles"
+      ]
     }
   ]
 }
