@@ -245,9 +245,12 @@
   {
     "department": "16",
     "name": "Aire de services camping-cars de Criteuil-la-Magdeleine",
-    "city": "Commune à confirmer",
+    "city": "Criteuil-la-Magdeleine",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau potable",
+      "Vidange des eaux usées"
+    ],
     "price": "Non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12202448995",
@@ -256,8 +259,10 @@
     "gpsSource": "https://www.openstreetmap.org/node/12202448995",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12202448995"
+    "importReview": "Référence de vérification à confirmer avant déplacement",
+    "sourceId": "node/12202448995",
+    "servicesSource": "https://www.destination-cognac.com/aires-camping-car/aire-de-services-camping-cars-de-criteuil-la-magdeleine/",
+    "priceSource": "https://www.destination-cognac.com/aires-camping-car/aire-de-services-camping-cars-de-criteuil-la-magdeleine/"
   },
   {
     "department": "16",
@@ -303,7 +308,10 @@
     "name": "Aire de camping-car de Jarnac",
     "city": "Jarnac",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau potable",
+      "Vidange des eaux usées"
+    ],
     "price": "Non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/13417485101",
@@ -312,8 +320,10 @@
     "gpsSource": "https://www.openstreetmap.org/node/13417485101",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/13417485101"
+    "importReview": "Référence de vérification à confirmer avant déplacement",
+    "sourceId": "node/13417485101",
+    "servicesSource": "https://www.destination-cognac.com/aires-camping-car/aire-de-camping-car-de-jarnac/",
+    "priceSource": "https://www.destination-cognac.com/aires-camping-car/aire-de-camping-car-de-jarnac/"
   },
   {
     "department": "16",
@@ -443,9 +453,12 @@
   {
     "department": "16",
     "name": "Aire de services camping-cars Touvre",
-    "city": "Commune à confirmer",
+    "city": "Touvre",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau potable",
+      "Vidange des eaux usées"
+    ],
     "price": "Non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/683344859",
@@ -454,8 +467,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/683344859",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/683344859"
+    "importReview": "Référence de vérification à confirmer avant déplacement",
+    "sourceId": "way/683344859",
+    "servicesSource": "https://www.infiniment-charentes.com/fiche-sit/aire-de-services-camping-cars-touvre/",
+    "priceSource": "https://www.infiniment-charentes.com/fiche-sit/aire-de-services-camping-cars-touvre/"
   },
   {
     "department": "16",
@@ -494,10 +509,16 @@
   {
     "department": "16",
     "name": "Camping-car Park Cognac",
-    "city": "Commune à confirmer",
+    "city": "Cognac",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux grises",
+      "Vidange des eaux noires",
+      "Wi-Fi"
+    ],
+    "price": "Tarif variable, à vérifier sur le site officiel",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1092036271",
     "latitude": 45.6933162,
@@ -505,8 +526,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/1092036271",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1092036271"
+    "importReview": "Référence de vérification à confirmer avant déplacement",
+    "sourceId": "way/1092036271",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/sejour/aire-etape-camping-car/nouvelle-aquitaine/16-charente/cognac",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/sejour/aire-etape-camping-car/nouvelle-aquitaine/16-charente/cognac"
   },
   {
     "department": "16",
@@ -568,10 +591,15 @@
   {
     "department": "16",
     "name": "Camping-car Park Rouillac",
-    "city": "Commune à confirmer",
+    "city": "Rouillac",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux grises",
+      "Vidange des eaux noires"
+    ],
+    "price": "Tarif variable, à vérifier sur le site officiel",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1255779987",
     "latitude": 45.7805527,
@@ -579,8 +607,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/1255779987",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1255779987"
+    "importReview": "Référence de vérification à confirmer avant déplacement",
+    "sourceId": "way/1255779987",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/sejour/aire-etape-camping-car/nouvelle-aquitaine/16-charente/rouillac",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/sejour/aire-etape-camping-car/nouvelle-aquitaine/16-charente/rouillac"
   },
   {
     "department": "16",
