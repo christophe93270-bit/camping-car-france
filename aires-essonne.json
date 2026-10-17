@@ -21,7 +21,9 @@
     "name": "Aire Camping Car Le Vauvert",
     "city": "Commune à confirmer",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Électricité"
+    ],
     "price": "Non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1284862260",
@@ -30,7 +32,8 @@
     "gpsSource": "https://www.openstreetmap.org/way/1284862260",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1284862260"
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "sourceId": "way/1284862260",
+    "servicesSource": "https://www.openstreetmap.org/way/1284862260"
   }
 ]
