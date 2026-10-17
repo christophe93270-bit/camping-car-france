@@ -1,0 +1,19 @@
+name: Propositions enrichissement national OSM
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  propositions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rechercher les services declares dans OpenStreetMap
+        run: python scripts/proposer-enrichissement-national.py
+      - name: Publier les propositions a verifier
+        uses: actions/upload-artifact@v4
+        with:
+          name: propositions-nationales-osm
+          path: rapports-enrichissement/
+          retention-days: 30
