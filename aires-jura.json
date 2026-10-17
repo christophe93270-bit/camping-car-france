@@ -54,7 +54,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Gratuit (stationnement) ; aucune aire de services sur place",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Stationnement gratuit avenue de Lahr, sans aire de services ; information confirmée par Jura Tourisme",
     "source": "https://www.openstreetmap.org/node/7575088042",
     "latitude": 47.0913938,
     "longitude": 5.4983695,
@@ -66,47 +66,57 @@
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://www.jura-tourism.com/aire-camping-car/camping-car-aire-de-stationnement-avenue-de-lahr/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Gratuité explicitement indiquée par Jura Tourisme."
+    "priceNote": "Gratuité explicitement indiquée par Jura Tourisme.",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/camping-car-aire-de-stationnement-avenue-de-lahr/"
   },
   {
     "department": "39",
     "name": "Aire de camping-car - La Pesse",
     "city": "La Pesse",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau",
+      "Vidange eaux usées"
+    ],
     "price": "Stationnement gratuit ; services 2 € ; électricité 2 € (annuaire spécialisé, à reconfirmer)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "10 emplacements derrière la supérette, ouvert toute l'année ; borne Flot-Bleu avec jetons au Point-Info et commerces",
     "source": "https://www.openstreetmap.org/node/12151427182",
     "latitude": 46.2837419,
     "longitude": 5.8485273,
     "gpsSource": "https://www.openstreetmap.org/node/12151427182",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Une autre borne existe au parking Musher : ne pas la confondre avec le stationnement derrière la supérette.",
     "sourceId": "node/12151427182",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://i-campingcar.fr/aires.php?ville=LA+PESSE",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-daccueil-et-de-service-camping-car-la-pesse/",
+    "priceNote": "Prix indicatif 2 € issu d'un annuaire ; Jura Tourisme confirme l'usage de jetons, sans publier leur prix."
   },
   {
     "department": "39",
     "name": "Aire camping-car Saint-Claude Moulin Lacroix",
     "city": "Saint-Claude",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Vidange eaux usées",
+      "Poubelles"
+    ],
     "price": "Parking gratuit près de la place Voltaire ; services de la borne Moulin Lacroix : tarif non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Borne de services au 13 bis rue du Moulin Lacroix ; fonctionnement hors gel, fermeture possible en hiver",
     "source": "https://www.openstreetmap.org/node/12151455073",
     "latitude": 46.3966743,
     "longitude": 5.8670801,
     "gpsSource": "https://www.openstreetmap.org/node/12151455073",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Jura Tourisme distingue le parking gratuit Duparchy/place Voltaire (sans services) de la borne Moulin Lacroix ; ne pas attribuer la gratuité du parking à la borne.",
     "sourceId": "node/12151455073",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-daccueil-et-de-service-camping-car-saint-claude/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-daccueil-et-de-service-camping-car-saint-claude/"
   },
   {
     "department": "39",
