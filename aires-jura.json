@@ -580,5 +580,73 @@
     "priceVerifiedOn": "2026-10-17",
     "importReview": "GPS issu d'un annuaire géolocalisé ; à recouper sur carte. Absence de tarif publié ne prouve pas la gratuité.",
     "priceNote": "Ne pas confondre « accès libre à la borne de recharge électrique » avec stationnement gratuit ou électricité camping-car."
+  },
+  {
+    "department": "39",
+    "name": "Camping-Car Park de Saint-Amour",
+    "city": "Saint-Amour",
+    "type": "Aire Camping-Car Park",
+    "services": [
+      "Électricité",
+      "Eau",
+      "Vidange eaux usées",
+      "Vidange WC",
+      "Sanitaires saisonniers"
+    ],
+    "price": "14,44 € / 24 h, taxe de séjour de 0,44 € comprise (tarif affiché par l'exploitant lors de la consultation ; susceptible d'évoluer)",
+    "status": "Camping de mon village, 8 avenue des Sports ; sanitaires du 1er avril au 31 octobre 2026",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/saint-amour",
+    "latitude": 46.43145,
+    "longitude": 5.339832,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/saint-amour",
+    "sourceId": "ccp/saint-amour-jura",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/saint-amour",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/saint-amour",
+    "importReview": "Coordonnées GPS de l'exploitant ; divergence de capacité entre Jura Tourisme (8) et exploitant (24) : capacité non reprise."
+  },
+  {
+    "department": "39",
+    "name": "Aire de services de Foncine-le-Haut",
+    "city": "Foncine-le-Haut",
+    "type": "Aire de services et de stationnement",
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées"
+    ],
+    "price": "Emplacement électrifié avec assainissement : 5 à 20 € / jour selon Jura Tourisme ; conditions précises à confirmer",
+    "status": "10 emplacements ; aire annoncée ouverte toute l'année",
+    "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-services-de-foncine-le-haut/",
+    "latitude": 46.65669,
+    "longitude": 6.06817,
+    "gpsSource": "https://mapcarta.com/W663467712",
+    "sourceId": "jura-tourism/HPABFC039332001501",
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-services-de-foncine-le-haut/",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-services-de-foncine-le-haut/",
+    "importReview": "Position recoupée avec Mapcarta/OSM ; la fourchette touristique ne précise pas les critères du tarif."
+  },
+  {
+    "department": "39",
+    "name": "Aire de camping-cars de Surchauffant",
+    "city": "La Tour-du-Meix",
+    "type": "Aire de stationnement et de services",
+    "services": [
+      "Eau",
+      "Vidange eaux usées",
+      "Vidange WC"
+    ],
+    "price": "11 € / nuit à l'horodateur ; services : 2 € selon Jura Tourisme",
+    "status": "15 emplacements annoncés ; ouverture mai à septembre",
+    "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-de-surchauffant/",
+    "latitude": 46.5209,
+    "longitude": 5.671,
+    "gpsSource": "https://park4night.com/fr/place/4590",
+    "sourceId": "jura-tourism/HPABFC039319000686",
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-de-surchauffant/",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-de-surchauffant/",
+    "importReview": "GPS du parking recoupé avec Park4night ; distinguer de l'entrée du camping du Surchauffant située plus à l'est."
   }
 ]
