@@ -1,0 +1,45 @@
+name: Controle automatique Maine-et-Loire
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 7 * * 1'
+  push:
+    paths:
+      - 'aires-pdl.json'
+      - '.github/workflows/qualite-maine-et-loire.yml'
+permissions:
+  contents: read
+jobs:
+  controle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit en lecture seule
+        run: |
+          python - <<'PY'
+          import json,math,os
+          from pathlib import Path
+          a=[x for x in json.loads(Path("aires-pdl.json").read_text(encoding="utf-8")) if str(x.get("department"))=="49"]
+          def gps(x):
+              try:
+                  lat,lon=float(x["latitude"]),float(x["longitude"])
+                  return (lat,lon) if math.isfinite(lat) and math.isfinite(lon) and -90<=lat<=90 and -180<=lon<=180 else None
+              except (ValueError,TypeError,KeyError): return None
+          def dist(a,b):
+              lat1,lon1=map(math.radians,a);lat2,lon2=map(math.radians,b)
+              h=math.sin((lat2-lat1)/2)**2+math.cos(lat1)*math.cos(lat2)*math.sin((lon2-lon1)/2)**2
+              return 12742000*math.asin(min(1,math.sqrt(h)))
+          pairs=[]
+          for i,x in enumerate(a):
+              for y in a[i+1:]:
+                  if gps(x) and gps(y) and dist(gps(x),gps(y))<=80:
+                      pairs.append((x,y,round(dist(gps(x),gps(y)))))
+          missing_services=sum(not x.get("services") or all("non renseign" in str(v).lower() for v in x.get("services",[])) for x in a)
+          lines=["# Audit Maine-et-Loire (49)","","Rapport en lecture seule. Deux installations proches ne sont pas necessairement des doublons.","",f"- Fiches : **{len(a)}**",f"- Communes manquantes : **{sum(not x.get('city') for x in a)}**",f"- GPS invalides : **{sum(gps(x) is None for x in a)}**",f"- Services non renseignes : **{missing_services}**",f"- Tarifs non confirmes : **{sum(not x.get('price') or 'confirm' in str(x.get('price')).lower() for x in a)}**",f"- Paires a 80 m ou moins : **{len(pairs)}**","","| Fiche 1 | Fiche 2 | Distance |","|---|---|---:|"]
+          for x,y,d in pairs:
+              clean=lambda s:str(s).replace("|","/").replace("\n"," ")
+              lines.append(f"| {clean(x.get('name'))} | {clean(y.get('name'))} | {d} m |")
+          report="\n".join(lines)+"\n"
+          print(report)
+          if os.getenv("GITHUB_STEP_SUMMARY"):Path(os.environ["GITHUB_STEP_SUMMARY"]).write_text(report,encoding="utf-8")
+          PY
