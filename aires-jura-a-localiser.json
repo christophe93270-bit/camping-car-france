@@ -11,7 +11,9 @@
       "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-15/",
       "sourceId": "HPABFC039320002197",
       "gpsStatus": "À vérifier",
-      "note": "Fiche distincte de rue de la Gravière. Animaux non admis selon Jura Tourisme."
+      "note": "Fiche distincte de rue de la Gravière. Animaux non admis selon Jura Tourisme.",
+      "publicationPriority": "haute",
+      "duplicateCheck": "Comparer les deux adresses d'Arlay avant création : rue Saint-Vincent et rue de la Gravière."
     },
     {
       "city": "Arlay",
@@ -21,7 +23,9 @@
       "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-car/",
       "sourceId": "HPABFC039320000912",
       "gpsStatus": "À vérifier",
-      "note": "Vérifier la distance avec l'aire de la rue Saint-Vincent avant ajout."
+      "note": "Vérifier la distance avec l'aire de la rue Saint-Vincent avant ajout.",
+      "publicationPriority": "haute",
+      "duplicateCheck": "Comparer les deux adresses d'Arlay avant création : rue Saint-Vincent et rue de la Gravière."
     },
     {
       "city": "Mantry",
@@ -57,7 +61,9 @@
       "note": "Stationnement camping-car gratuit confirmé par Jura Tourisme, selon disponibilité. Déplacer le véhicule pour le déneigement en hiver. GPS exact encore à contrôler.",
       "address": "Parking de la Serra, D25, 39310 Lamoura",
       "price": "Gratuit selon Jura Tourisme",
-      "sourceId": "HPABFC000V51NZRP"
+      "sourceId": "HPABFC000V51NZRP",
+      "publicationPriority": "haute",
+      "seasonalCaution": "Déneigement hivernal : vérifier les restrictions temporaires de stationnement."
     },
     {
       "city": "Château-Chalon",
@@ -73,7 +79,9 @@
       "name": "Camping les Bords de Loue – accueil camping-car",
       "source": "https://www.jura-tourism.com/reserver-mes-vacances/aires-de-camping-car/page/2/",
       "gpsStatus": "À vérifier",
-      "note": "Aire potentiellement située dans un camping ; ne pas compter comme aire publique autonome."
+      "note": "Aire potentiellement située dans un camping ; ne pas compter comme aire publique autonome.",
+      "publicationPriority": "basse",
+      "categoryCheck": "Accueil en camping privé : vérifier si accessible aux camping-cars hors réservation d'emplacement."
     },
     {
       "city": "Dole",
@@ -89,7 +97,15 @@
         "Vidange eaux usées",
         "Parking",
         "Poubelles"
-      ]
+      ],
+      "duplicateCheck": "Distinct de l'aire avenue de Lahr déjà publiée : adresse allée des Prés Buffard contre avenue de Lahr. À vérifier par GPS avant ajout.",
+      "publicationPriority": "haute"
     }
-  ]
+  ],
+  "reviewSummary": {
+    "publishedAires": 39,
+    "pendingSites": 9,
+    "priority": "Obtenir des coordonnées GPS recoupées pour Arlay, Dole Aquaparc et Lamoura ; vérifier les autres sites avant publication.",
+    "warning": "Les sites en attente ne doivent pas apparaître comme points de carte et ne sont pas comptés dans les 39 aires publiées."
+  }
 }
