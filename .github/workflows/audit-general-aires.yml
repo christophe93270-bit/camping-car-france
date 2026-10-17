@@ -71,6 +71,7 @@ jobs:
           unknown_price=sum(not row.get("price") or "confirm" in str(row.get("price")).lower() for _,_,row in data)
           print("AUDIT_COMMUNES_MANQUANTES",missing_city)
           print("AUDIT_GPS_INVALIDES",invalid_gps)
+          print("AUDIT_DETAILS_GPS_INVALIDES",json.dumps([{"fichier":path,"ligne":i+1,"departement":row.get("department"),"nom":row.get("name"),"commune":row.get("city"),"latitude":row.get("latitude"),"longitude":row.get("longitude"),"sourceId":row.get("sourceId")} for path,i,row in data if coord(row) is None or not (-90<=coord(row)[0]<=90 and -180<=coord(row)[1]<=180)],ensure_ascii=False))
           print("AUDIT_SERVICES_NON_RENSEIGNES",missing_services)
           print("AUDIT_TARIFS_NON_CONFIRMES",unknown_price)
           if os.getenv("GITHUB_STEP_SUMMARY"):
