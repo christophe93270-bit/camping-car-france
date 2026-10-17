@@ -2,13 +2,13 @@
   {
     "department": "02",
     "name": "Aire de camping-car de Braine",
-    "city": "Commune à confirmer",
+    "city": "Braine",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "À confirmer : 9 € / nuit selon l'office de tourisme, 12,12 € / 24 h taxe comprise selon Qipeo",
+    "status": "Commune vérifiée; prix divergent entre sources, à confirmer auprès de l'exploitant",
     "source": "https://www.openstreetmap.org/node/11978957643",
     "latitude": 49.3445605,
     "longitude": 3.537143,
@@ -17,7 +17,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/11978957643",
-    "servicesSource": "https://www.openstreetmap.org/node/11978957643"
+    "servicesSource": "https://www.openstreetmap.org/node/11978957643",
+    "priceSource": "https://www.qipeo.com/detail/257d41e5-70bc-442d-9eba-63e971fd5920",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Sources divergentes : tourisme 9 € la nuit, Qipeo 12,12 € /24h dont 1,32 € de taxe. Ne pas présenter de montant unique comme confirmé."
   },
   {
     "department": "02",
@@ -63,11 +66,11 @@
   {
     "department": "02",
     "name": "Aire de camping-cars Laon - Rue du Maréchal Alphonse Juin",
-    "city": "Commune à confirmer",
+    "city": "Laon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit (accès libre 24 h/24, 7 j/7)",
+    "status": "Stationnement et commune confirmés par l'office de tourisme; services à confirmer",
     "source": "https://www.openstreetmap.org/way/233569567",
     "latitude": 49.5566758,
     "longitude": 3.6137733,
@@ -75,7 +78,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/233569567"
+    "sourceId": "way/233569567",
+    "priceSource": "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-daccueil-de-laon-rue-du-marechal-alphonse-juin-ville-haute/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Gratuité du stationnement indiquée par l'office de tourisme; services éventuels à vérifier."
   },
   {
     "department": "02",
