@@ -28,7 +28,7 @@
     "city": "Voiteur",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit (4 places estimées) ; services non confirmés",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/4857890587",
     "latitude": 46.7550008,
@@ -38,7 +38,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/4857890587",
-    "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre."
+    "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
+    "priceSource": "https://www.aire-service-camping-car-panoramique.fr/jura/39-voiteur",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Parking rue du Cimetière, gratuit selon un répertoire avec visite photographique ; vérifier la signalisation sur place."
   },
   {
     "department": "39",
@@ -238,8 +241,12 @@
     "name": "Aire de camping-car de Domblans",
     "city": "Domblans",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Eau potable",
+      "Vidange eaux grises",
+      "Vidange WC"
+    ],
+    "price": "Stationnement, eau potable et vidanges gratuits ; électricité indisponible",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/983158095",
     "latitude": 46.7603449,
@@ -248,7 +255,11 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/983158095"
+    "sourceId": "way/983158095",
+    "priceSource": "https://www.domblans.fr/decouvrir-domblans/aire-de-camping-car/",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.domblans.fr/decouvrir-domblans/aire-de-camping-car/",
+    "priceNote": "Source officielle de la mairie ; borne d'eau susceptible d'être neutralisée en hiver."
   },
   {
     "department": "39",
