@@ -68,6 +68,11 @@ for kind, entries in candidates.items():
             decision = "PAIEMENT_SANS_MONTANT"
         else:
             decision = "INDICATION_OSM_A_VERIFIER"
+        # Le champ charge peut mélanger stationnement, eau, électricité et durée.
+        # Ne proposer un montant exploitable qu'après validation humaine.
+        charge_normalise = charge.strip().replace(",", ".")
+        montant_simple = bool(re.fullmatch(r"\\d+(?:\\.\\d{1,2})?\\s*(?:€|EUR)", charge_normalise, flags=re.I))
+        nature_montant = "MONTANT_SIMPLE_A_CONFIRMER" if montant_simple else ("MONTANT_COMPLEXE_A_INTERPRETER" if charge else "")
         rows.append({
             "fichier": filename, "index": index, "nom": item.get("name", ""),
             "source_osm": f"https://www.openstreetmap.org/{kind}/{sid}",
@@ -76,14 +81,16 @@ for kind, entries in candidates.items():
             "tarif_actuel": item.get("price", ""),
             "indication_fee_osm": fee,
             "montant_charge_osm_brut": charge,
+            "nature_montant": nature_montant,
             "decision": decision,
         })
 out = Path("rapports-enrichissement")
 out.mkdir(exist_ok=True)
-fields = ["fichier","index","nom","source_osm","commune_actuelle","commune_proposee_addr_city","tarif_actuel","indication_fee_osm","montant_charge_osm_brut","decision"]
+fields = ["fichier","index","nom","source_osm","commune_actuelle","commune_proposee_addr_city","tarif_actuel","indication_fee_osm","montant_charge_osm_brut","nature_montant","decision"]
 with (out / "propositions-communes-tarifs-osm.csv").open("w", encoding="utf-8-sig", newline="") as stream:
     writer = csv.DictWriter(stream, fieldnames=fields)
     writer.writeheader()
     writer.writerows(rows)
+bilan_montants = {nature: sum(row["nature_montant"] == nature for row in rows) for nature in ("MONTANT_SIMPLE_A_CONFIRMER", "MONTANT_COMPLEXE_A_INTERPRETER")}
 bilan_decisions = {decision: sum(row["decision"] == decision for row in rows) for decision in sorted({row["decision"] for row in rows})}
-print("BILAN_COMMUNES_TARIFS", json.dumps({"fiches_candidates": sum(map(len,candidates.values())), "propositions_a_verifier": len(rows), "categories": bilan_decisions, "publication_automatique": False}, ensure_ascii=False))
+print("BILAN_COMMUNES_TARIFS", json.dumps({"fiches_candidates": sum(map(len,candidates.values())), "propositions_a_verifier": len(rows), "categories": bilan_decisions, "montants": bilan_montants, "publication_automatique": False}, ensure_ascii=False))
