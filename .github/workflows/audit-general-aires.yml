@@ -61,6 +61,10 @@ jobs:
           print("AUDIT_DEPARTEMENTS_REPRESENTES",len(set(departments)&set(codes)))
           print("AUDIT_DEPARTEMENTS_SANS_DONNEES",[(k,v) for k,v in codes.items() if not departments[k]])
           print("AUDIT_GROUPES_MEME_ID",len(sameid))
+          def detail(group):
+              return [{"fichier":path,"index":i,"nom":data_lookup[(path,i)].get("name"),"commune":data_lookup[(path,i)].get("city"),"sourceId":data_lookup[(path,i)].get("sourceId"),"latitude":data_lookup[(path,i)].get("latitude"),"longitude":data_lookup[(path,i)].get("longitude")} for path,i in group]
+          data_lookup={(path,i):row for path,i,row in data}
+          print("AUDIT_DETAILS_NOMS_IDENTIQUES",json.dumps([detail(g) for g in samename],ensure_ascii=False))
           print("AUDIT_GROUPES_MEME_NOM_VILLE",len(samename))
           print("AUDIT_GROUPES_MEMES_COORDONNEES",len(samecoord))
           print("AUDIT_EXEMPLES_DOUBLONS",json.dumps({"id":sameid[:12],"nom":samename[:12],"gps":samecoord[:12]},ensure_ascii=False))
