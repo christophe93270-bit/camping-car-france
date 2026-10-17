@@ -2,7 +2,7 @@
   {
     "department": "03",
     "name": "Aire de Camping-Cars de Billy",
-    "city": "Commune à confirmer",
+    "city": "Billy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -14,7 +14,8 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/11479095183"
+    "sourceId": "node/11479095183",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
@@ -36,7 +37,7 @@
   {
     "department": "03",
     "name": "Aire d'accueil - Le Montet",
-    "city": "Commune à confirmer",
+    "city": "Le Montet",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes"
@@ -51,16 +52,17 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12088845350",
-    "servicesSource": "https://www.openstreetmap.org/node/12088845350"
+    "servicesSource": "https://www.openstreetmap.org/node/12088845350",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Emplacements camping-cars de Charroux",
-    "city": "Commune à confirmer",
+    "city": "Charroux",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; pas de branchement électrique ni de vidange",
+    "status": "Tarif ou gratuité documenté par une source citée; autres informations à confirmer",
     "source": "https://www.openstreetmap.org/node/12089262587",
     "latitude": 46.1882352,
     "longitude": 3.1687564,
@@ -68,12 +70,16 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12089262587"
+    "sourceId": "node/12089262587",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus.",
+    "priceSource": "https://www.valdesioule.com/campings/aire-de-stationnement/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Office de tourisme Val de Sioule : 40 places, accès libre en 2026."
   },
   {
     "department": "03",
     "name": "Aire d'accueil Saint-Marcel-en-Murat",
-    "city": "Commune à confirmer",
+    "city": "Saint-Marcel-en-Murat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes",
@@ -89,12 +95,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12089619493",
-    "servicesSource": "https://www.openstreetmap.org/node/12089619493"
+    "servicesSource": "https://www.openstreetmap.org/node/12089619493",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Aire camping-car centre-bourg Varennes-sur-Allier",
-    "city": "Commune à confirmer",
+    "city": "Varennes-sur-Allier",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -109,12 +116,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12228089385",
-    "servicesSource": "https://www.openstreetmap.org/node/12228089385"
+    "servicesSource": "https://www.openstreetmap.org/node/12228089385",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Aire d'accueil Villefranche-d'Allier",
-    "city": "Commune à confirmer",
+    "city": "Villefranche-d'Allier",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -129,20 +137,21 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/46848947",
-    "servicesSource": "https://www.openstreetmap.org/way/46848947"
+    "servicesSource": "https://www.openstreetmap.org/way/46848947",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Aire camping-Cars de Moulins",
-    "city": "Commune à confirmer",
+    "city": "Moulins",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Douches",
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "6,40 € / 24 h + taxe de séjour 0,51 € / jour ; services 2 € / jeton",
+    "status": "Tarif ou gratuité documenté par une source citée; autres informations à confirmer",
     "source": "https://www.openstreetmap.org/way/91744134",
     "latitude": 46.5557115,
     "longitude": 3.3254838,
@@ -151,18 +160,22 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/91744134",
-    "servicesSource": "https://www.openstreetmap.org/way/91744134"
+    "servicesSource": "https://www.openstreetmap.org/way/91744134",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus.",
+    "priceSource": "https://www.ville-moulins.fr/patrimoine/votre-sejour-a-moulins.html",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Mairie : droit d'entrée 4 € + 0,10 €/heure, taxe de séjour 0,51 €/jour; jeton 2 €."
   },
   {
     "department": "03",
     "name": "Aire camping-car Saint-Pourçain-sur-Sioule",
-    "city": "Commune à confirmer",
+    "city": "Saint-Pourçain-sur-Sioule",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; eau et électricité payantes (montants à confirmer)",
+    "status": "Tarif ou gratuité documenté par une source citée; autres informations à confirmer",
     "source": "https://www.openstreetmap.org/way/193164851",
     "latitude": 46.3122253,
     "longitude": 3.2968269,
@@ -171,12 +184,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/193164851",
-    "servicesSource": "https://www.openstreetmap.org/way/193164851"
+    "servicesSource": "https://www.openstreetmap.org/way/193164851",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus.",
+    "priceSource": "https://www.travelinauvergne.fr/guides/auvergne-en-camping-car",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source touristique secondaire pour la gratuité; montants de services à reconfirmer."
   },
   {
     "department": "03",
     "name": "Aire camping-cars Montmarault",
-    "city": "Commune à confirmer",
+    "city": "Montmarault",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -191,7 +208,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/761366446",
-    "servicesSource": "https://www.openstreetmap.org/way/761366446"
+    "servicesSource": "https://www.openstreetmap.org/way/761366446",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
@@ -236,7 +254,7 @@
   {
     "department": "03",
     "name": "Aire de Stationnement de Camping Cars Prémilhat",
-    "city": "Commune à confirmer",
+    "city": "Prémilhat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -248,12 +266,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1232524033"
+    "sourceId": "way/1232524033",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Diou Aire pour camping-cars",
-    "city": "Commune à confirmer",
+    "city": "Diou",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -268,18 +287,19 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1274451313",
-    "servicesSource": "https://www.openstreetmap.org/way/1274451313"
+    "servicesSource": "https://www.openstreetmap.org/way/1274451313",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Aire de camping-car de Néris-les-Bains",
-    "city": "Commune à confirmer",
+    "city": "Néris-les-Bains",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "14,85 € / 24 h, taxe de séjour comprise (13,75 € + 1,10 €)",
+    "status": "Tarif ou gratuité documenté par une source citée; autres informations à confirmer",
     "source": "https://www.openstreetmap.org/way/1284739794",
     "latitude": 46.281182,
     "longitude": 2.6721159,
@@ -288,18 +308,22 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1284739794",
-    "servicesSource": "https://www.openstreetmap.org/way/1284739794"
+    "servicesSource": "https://www.openstreetmap.org/way/1284739794",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/allier/neris-les-bains",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Grille de stationnement du 03/10/2026 au 31/12/2027; taxe de séjour affichée pour 2026."
   },
   {
     "department": "03",
     "name": "Aire de camping-car de Reugny",
-    "city": "Commune à confirmer",
+    "city": "Reugny",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "14,10 € / 24 h, taxe de séjour comprise (13 € + 1,10 €)",
+    "status": "Tarif ou gratuité documenté par une source citée; autres informations à confirmer",
     "source": "https://www.openstreetmap.org/way/1284740575",
     "latitude": 46.448111,
     "longitude": 2.6021692,
@@ -308,12 +332,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1284740575",
-    "servicesSource": "https://www.openstreetmap.org/way/1284740575"
+    "servicesSource": "https://www.openstreetmap.org/way/1284740575",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/allier/reugny?areaType=aire-etape-camping-car",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Grille de stationnement du 16/10/2026 au 31/12/2027; taxe de séjour affichée pour 2026."
   },
   {
     "department": "03",
     "name": "Aire de camping-cars Beaulon",
-    "city": "Commune à confirmer",
+    "city": "Beaulon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -328,12 +356,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1293070726",
-    "servicesSource": "https://www.openstreetmap.org/way/1293070726"
+    "servicesSource": "https://www.openstreetmap.org/way/1293070726",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Aire de camping-car Sorbier",
-    "city": "Commune à confirmer",
+    "city": "Sorbier",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes",
@@ -349,12 +378,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1305271008",
-    "servicesSource": "https://www.openstreetmap.org/way/1305271008"
+    "servicesSource": "https://www.openstreetmap.org/way/1305271008",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Aire d'accueil Souvigny",
-    "city": "Commune à confirmer",
+    "city": "Souvigny",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -366,7 +396,8 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1305271758"
+    "sourceId": "way/1305271758",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
@@ -391,7 +422,7 @@
   {
     "department": "03",
     "name": "Aire de stationnement Verneuil-en-Bourbonnais",
-    "city": "Commune à confirmer",
+    "city": "Verneuil-en-Bourbonnais",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -403,12 +434,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1305277041"
+    "sourceId": "way/1305277041",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Aire d'accueil Paray-le-Frésil",
-    "city": "Commune à confirmer",
+    "city": "Paray-le-Frésil",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -420,16 +452,17 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1305278905"
+    "sourceId": "way/1305278905",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Aire d'accueil Château-sur-Allier",
-    "city": "Commune à confirmer",
+    "city": "Château-sur-Allier",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; tarifs des services non précisés",
+    "status": "Tarif ou gratuité documenté par une source citée; autres informations à confirmer",
     "source": "https://www.openstreetmap.org/way/1305282973",
     "latitude": 46.7641279,
     "longitude": 3.0303088,
@@ -437,12 +470,16 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1305282973"
+    "sourceId": "way/1305282973",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus.",
+    "priceSource": "https://www.moulins-tourisme.com/camping/aire-daccueil-et-de-services-4/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Office de tourisme : stationnement gratuit 24 h/24, 4 emplacements, eau et vidange."
   },
   {
     "department": "03",
     "name": "Aire d'accueil Treteau",
-    "city": "Commune à confirmer",
+    "city": "Treteau",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes"
@@ -457,12 +494,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1305296297",
-    "servicesSource": "https://www.openstreetmap.org/way/1305296297"
+    "servicesSource": "https://www.openstreetmap.org/way/1305296297",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Aire d'accueil Saint-Gérand-de-Vaux",
-    "city": "Commune à confirmer",
+    "city": "Saint-Gérand-de-Vaux",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes",
@@ -478,12 +516,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1305317436",
-    "servicesSource": "https://www.openstreetmap.org/way/1305317436"
+    "servicesSource": "https://www.openstreetmap.org/way/1305317436",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Aire de camping-car de Lapalisse",
-    "city": "Commune à confirmer",
+    "city": "Lapalisse",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Douches",
@@ -500,12 +539,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1320133867",
-    "servicesSource": "https://www.openstreetmap.org/way/1320133867"
+    "servicesSource": "https://www.openstreetmap.org/way/1320133867",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   },
   {
     "department": "03",
     "name": "Aire de stationnement Saint-Bonnet-Tronçais",
-    "city": "Commune à confirmer",
+    "city": "Saint-Bonnet-Tronçais",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -517,6 +557,7 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1425589197"
+    "sourceId": "way/1425589197",
+    "cityVerificationNote": "Commune déduite du nom de l'aire; rattachement géographique à confirmer pour les cas ambigus."
   }
 ]
