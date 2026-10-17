@@ -10,10 +10,10 @@
       "capacity": 2,
       "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-15/",
       "sourceId": "HPABFC039320002197",
-      "gpsStatus": "À vérifier",
+      "gpsStatus": "À vérifier avant publication",
       "note": "Fiche distincte de rue de la Gravière. Animaux non admis selon Jura Tourisme.",
       "publicationPriority": "haute",
-      "duplicateCheck": "Comparer les deux adresses d'Arlay avant création : rue Saint-Vincent et rue de la Gravière."
+      "duplicateCheck": "Deux références et adresses différentes dans Jura Tourisme ; vérifier l'emplacement précis de chaque site avant de les compter comme deux aires distinctes."
     },
     {
       "city": "Arlay",
@@ -22,10 +22,10 @@
       "capacity": 2,
       "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-car/",
       "sourceId": "HPABFC039320000912",
-      "gpsStatus": "À vérifier",
+      "gpsStatus": "À vérifier avant publication",
       "note": "Vérifier la distance avec l'aire de la rue Saint-Vincent avant ajout.",
       "publicationPriority": "haute",
-      "duplicateCheck": "Comparer les deux adresses d'Arlay avant création : rue Saint-Vincent et rue de la Gravière."
+      "duplicateCheck": "Deux références et adresses différentes dans Jura Tourisme ; vérifier l'emplacement précis de chaque site avant de les compter comme deux aires distinctes."
     },
     {
       "city": "Mantry",
@@ -48,9 +48,13 @@
     {
       "city": "Hauteroche",
       "name": "Aire de camping-car",
-      "source": "https://www.jura-tourism.com/reserver-mes-vacances/aires-de-camping-car/page/2/",
-      "gpsStatus": "À vérifier",
-      "note": "Répertoriée dans la liste officielle, vérifier adresse, GPS et doublons avant publication."
+      "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-5/",
+      "gpsStatus": "À vérifier avant publication",
+      "note": "6 emplacements et ouverture toute l'année officiellement répertoriés ; ne pas placer au centre de la commune de Hauteroche.",
+      "address": "D210, 39210 Hauteroche",
+      "capacity": 6,
+      "sourceId": "HPABFC039320000922",
+      "opening": "Ouvert toute l'année selon Jura Tourisme"
     },
     {
       "city": "Château-Chalon",
@@ -96,7 +100,7 @@
   "reviewSummary": {
     "publishedAires": 40,
     "pendingSites": 8,
-    "priority": "Dole Aquaparc bloquée (signalement disparition 2023) ; chercher GPS et statut Arlay, Mantry, Ménétru-le-Vignoble, Château-Chalon, Hauteroche, Parcey.",
+    "priority": "Localiser précisément Hauteroche (D210), les deux références Arlay, Mantry et Château-Chalon ; Dole Aquaparc reste bloquée.",
     "warning": "Ne pas publier de points GPS non vérifiés."
   }
 }
