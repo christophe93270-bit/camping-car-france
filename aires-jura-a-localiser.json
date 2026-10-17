@@ -87,7 +87,7 @@
   "reviewSummary": {
     "publishedAires": 48,
     "pendingSites": 5,
-    "priority": "5 sites officiels en attente : Mantry, Ménétru-le-Vignoble, Arlay rue de la Gravière (GPS exact introuvable), Hauteroche (doublon possible Granges-sur-Baume), Dole Aquaparc (existence contestée).",
+    "priority": "Reprise uniquement sur preuve GPS fiable pour Arlay, Mantry, Ménétru-le-Vignoble ; confirmation de non-doublon Hauteroche et existence Aquaparc Dole. Ne pas bloquer la finalisation du Jura sur ces cinq fiches.",
     "warning": "Ne pas publier de points GPS non vérifiés.",
     "newDiscovery": "Camping Au Cœur des Vignes à Arbois, accueil camping-car, publié avec GPS recoupé.",
     "arlayAdditionalLead": {
@@ -100,6 +100,42 @@
       ],
       "note": "10 places, distincte des aires communales d'Arlay ; sourceId park4night/43485."
     },
-    "lastChecked": "2026-10-17"
+    "lastChecked": "2026-10-17",
+    "reviewStatus": "Contrôle de publication terminé avec réserves : 48 lieux avec GPS et source, 5 fiches exclues de la carte faute de validation suffisante.",
+    "qualityControl": {
+      "publishedRecords": 48,
+      "invalidOrOutOfBoundsGPS": 0,
+      "nearDuplicatePairsWithin120m": 0,
+      "missingSource": 0,
+      "method": "Vérification automatique des coordonnées dans l'emprise du Jura, doublons GPS à moins de 120 m et présence d'une source ; cela ne remplace pas une vérification terrain.",
+      "checkedOn": "2026-10-17"
+    },
+    "unresolvedDecisions": [
+      {
+        "city": "Arlay",
+        "decision": "Non publiée",
+        "reason": "Aire rue de la Gravière, GPS exact non vérifié"
+      },
+      {
+        "city": "Mantry",
+        "decision": "Non publiée",
+        "reason": "5 places rue de Recanoz confirmées par Jura Tourisme, GPS exact non vérifié"
+      },
+      {
+        "city": "Ménétru-le-Vignoble",
+        "decision": "Non publiée",
+        "reason": "1 place rue Traversière confirmée par Jura Tourisme, GPS exact non vérifié"
+      },
+      {
+        "city": "Hauteroche",
+        "decision": "Non publiée",
+        "reason": "6 places D210 référencées, doublon potentiel avec Granges-sur-Baume à lever"
+      },
+      {
+        "city": "Dole",
+        "decision": "Non publiée",
+        "reason": "Aquaparc référencé par Jura Tourisme mais existence actuelle contestée"
+      }
+    ]
   }
 }
