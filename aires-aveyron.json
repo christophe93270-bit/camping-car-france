@@ -335,8 +335,13 @@
     "name": "Aire de camping-car à Campagnac",
     "city": "Campagnac",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "5 emplacements",
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux usées"
+    ],
+    "price": "Stationnement payant du 15 juin au 15 septembre ; montant à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/183005471",
     "latitude": 44.4196633,
@@ -344,9 +349,11 @@
     "gpsSource": "https://www.openstreetmap.org/way/183005471",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
     "sourceId": "way/183005471",
-    "cityVerification": "Commune déduite du nom de l'aire ; vérification géographique indépendante à effectuer"
+    "cityVerification": "Commune déduite du nom de l'aire ; vérification géographique indépendante à effectuer",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/020122/aire-de-services-municipale-de-camping-car-a-campagnac-campagnac_TFO021138060595",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/020122/aire-de-services-municipale-de-camping-car-a-campagnac-campagnac_TFO021138060595"
   },
   {
     "department": "12",
@@ -377,8 +384,14 @@
     "name": "Camping-car Park Villeneuve d'Aveyron",
     "city": "Villeneuve",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "20 emplacements",
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Animaux acceptés"
+    ],
+    "price": "Tarif à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/298488753",
     "latitude": 44.4408324,
@@ -386,9 +399,11 @@
     "gpsSource": "https://www.openstreetmap.org/way/298488753",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
     "sourceId": "way/298488753",
-    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à confirmer indépendamment"
+    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à confirmer indépendamment",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-la-coustoune-camping-car-park-villeneuve_TFO18207473375",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-la-coustoune-camping-car-park-villeneuve_TFO18207473375"
   },
   {
     "department": "12",
@@ -602,8 +617,16 @@
     "name": "Aire Camping-car Lanuéjouls",
     "city": "Lanuéjouls",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "12 emplacements",
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Toilettes",
+      "Salle d'eau privée",
+      "Accès par carte magnétique à retirer dans les commerces"
+    ],
+    "price": "Tarif à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/667039822",
     "latitude": 44.426817,
@@ -611,9 +634,11 @@
     "gpsSource": "https://www.openstreetmap.org/way/667039822",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
     "sourceId": "way/667039822",
-    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à confirmer indépendamment"
+    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à confirmer indépendamment",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/020122/aire-de-camping-cars-lanuejouls_TFO022590010760",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/020122/aire-de-camping-cars-lanuejouls_TFO022590010760"
   },
   {
     "department": "12",
@@ -689,8 +714,13 @@
     "name": "Aire camping-cars Marcillac-Vallon",
     "city": "Marcillac-Vallon",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "15 emplacements",
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux usées"
+    ],
+    "price": "Stationnement gratuit ; eau/vidange 2 € pour 10 min ; électricité 4 € pour 12 h (2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/858652144",
     "latitude": 44.4789843,
@@ -698,17 +728,24 @@
     "gpsSource": "https://www.openstreetmap.org/way/858652144",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
     "sourceId": "way/858652144",
-    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à vérifier indépendamment"
+    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à vérifier indépendamment",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/020122/aire-de-services-pour-camping-cars-marcillac-vallon_TFO339349976810",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/020122/aire-de-services-pour-camping-cars-marcillac-vallon_TFO339349976810"
   },
   {
     "department": "12",
     "name": "Aire municipale de Bouillac",
     "city": "Bouillac",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "12 emplacements",
+      "Eau potable",
+      "Vidange des eaux usées",
+      "Toilettes"
+    ],
+    "price": "Tarif à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/904376314",
     "latitude": 44.5732727,
@@ -716,8 +753,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/904376314",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/904376314"
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
+    "sourceId": "way/904376314",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/020122/aire-de-camping-car-bouillac_TFO021136718634",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/020122/aire-de-camping-car-bouillac_TFO021136718634"
   },
   {
     "department": "12",
@@ -775,8 +814,12 @@
     "name": "Aire municipale de camping-car de Sévérac-le-Château",
     "city": "Sévérac-le-Château",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "10 emplacements",
+      "Eau potable",
+      "Vidange des eaux usées"
+    ],
+    "price": "Stationnement gratuit (2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/904413299",
     "latitude": 44.3239961,
@@ -784,8 +827,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/904413299",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/904413299"
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
+    "sourceId": "way/904413299",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-municipale-de-camping-car-severac-d-aveyron_TFO12270-HPA-20250212153720887",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-municipale-de-camping-car-severac-d-aveyron_TFO12270-HPA-20250212153720887"
   },
   {
     "department": "12",
@@ -860,8 +905,12 @@
     "name": "Aire de Camping-Car Municipale Montclar",
     "city": "Montclar",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "10 emplacements",
+      "Eau potable",
+      "Vidange des eaux usées"
+    ],
+    "price": "Tarif à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/904435461",
     "latitude": 43.9674671,
@@ -869,16 +918,23 @@
     "gpsSource": "https://www.openstreetmap.org/way/904435461",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/904435461"
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
+    "sourceId": "way/904435461",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/020122/aire-municipale-pour-camping-cars-montclar_TFO240076256391",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/020122/aire-municipale-pour-camping-cars-montclar_TFO240076256391"
   },
   {
     "department": "12",
     "name": "Aire de camping-cars municipale Coupiac",
     "city": "Coupiac",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "10 emplacements",
+      "Eau potable",
+      "Vidange des eaux usées",
+      "Pas d'électricité"
+    ],
+    "price": "Gratuit (2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/904437900",
     "latitude": 43.951841,
@@ -886,8 +942,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/904437900",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/904437900"
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
+    "sourceId": "way/904437900",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-cars-municipale-coupiac_TFO12080-HPA-20250422153316820",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-cars-municipale-coupiac_TFO12080-HPA-20250422153316820"
   },
   {
     "department": "12",
@@ -919,8 +977,14 @@
     "name": "Aire de Camping-Car Municipale Roquefort-sur-Soulzon",
     "city": "Roquefort-sur-Soulzon",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "10 emplacements",
+      "Eau potable",
+      "Toilettes publiques",
+      "Wi-Fi",
+      "Pas d'électricité"
+    ],
+    "price": "Stationnement gratuit (2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/904446121",
     "latitude": 43.9813119,
@@ -928,16 +992,22 @@
     "gpsSource": "https://www.openstreetmap.org/way/904446121",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/904446121"
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
+    "sourceId": "way/904446121",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-stationnement-de-camping-cars-municipale-roquefort-sur-soulzon_TFO12203-HPA-20250505114333822",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-stationnement-de-camping-cars-municipale-roquefort-sur-soulzon_TFO12203-HPA-20250505114333822"
   },
   {
     "department": "12",
     "name": "Aire de camping-car municipale de Cénomes",
     "city": "Cénomes",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "6 emplacements",
+      "Eau potable",
+      "Vidange des eaux usées"
+    ],
+    "price": "Stationnement gratuit (2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/904451010",
     "latitude": 43.8096353,
@@ -945,16 +1015,23 @@
     "gpsSource": "https://www.openstreetmap.org/way/904451010",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/904451010"
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
+    "sourceId": "way/904451010",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-municipale-de-cenomes-montagnol_TFO12147-HPA-20250519115508834",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-municipale-de-cenomes-montagnol_TFO12147-HPA-20250519115508834"
   },
   {
     "department": "12",
     "name": "Aire de Camping-Car de Lacroix-Barrez",
     "city": "lacroix barrez",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "20 emplacements",
+      "Aire de services camping-car",
+      "Stationnement ombragé",
+      "Limite de 72 h en été"
+    ],
+    "price": "Gratuit hors saison, sans eau ni électricité ; tarif en saison à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/963781009",
     "latitude": 44.7782689,
@@ -962,16 +1039,22 @@
     "gpsSource": "https://www.openstreetmap.org/way/963781009",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/963781009"
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
+    "sourceId": "way/963781009",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-de-lacroix-barrez-lacroix-barrez_TFO470508126891",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-de-lacroix-barrez-lacroix-barrez_TFO470508126891"
   },
   {
     "department": "12",
     "name": "Aire de Camping-Car Saint-Côme d'Olt",
     "city": "Saint-Côme-d'Olt",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "8 emplacements",
+      "Eau potable",
+      "Vidange des eaux usées"
+    ],
+    "price": "Gratuit (2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/971900912",
     "latitude": 44.5165455,
@@ -979,8 +1062,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/971900912",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/971900912"
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
+    "sourceId": "way/971900912",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-de-saint-come-d-olt-saint-come-d-olt_TFO12216-HPA-2024112916023023",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-de-saint-come-d-olt-saint-come-d-olt_TFO12216-HPA-2024112916023023"
   },
   {
     "department": "12",
@@ -1038,8 +1123,14 @@
     "name": "Aire de camping-car de Mostuéjouls, Gorges du Tarn",
     "city": "Mostuéjouls",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "24 emplacements",
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Wi-Fi"
+    ],
+    "price": "15,27 € l'emplacement ; moins de 5 h : 6 € (2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1304921640",
     "latitude": 44.2017558,
@@ -1047,9 +1138,11 @@
     "gpsSource": "https://www.openstreetmap.org/way/1304921640",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
     "sourceId": "way/1304921640",
-    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à vérifier indépendamment"
+    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à vérifier indépendamment",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-services-camping-car-park-mostuejouls-gorges-du-tarn-mostuejouls_TFO525610561343",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-services-camping-car-park-mostuejouls-gorges-du-tarn-mostuejouls_TFO525610561343"
   },
   {
     "department": "12",
@@ -1260,8 +1353,15 @@
     "name": "Aire de camping-car de Thérondels",
     "city": "Thérondels",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "10 emplacements",
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Toilettes",
+      "Aire de pique-nique"
+    ],
+    "price": "Tarif à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1308463205",
     "latitude": 44.8983277,
@@ -1269,9 +1369,11 @@
     "gpsSource": "https://www.openstreetmap.org/way/1308463205",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Source : Tourisme Aveyron, consultation octobre 2026 ; tarifs et disponibilités à vérifier avant déplacement",
     "sourceId": "way/1308463205",
-    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à vérifier indépendamment"
+    "cityVerification": "Commune indiquée dans le nom de l'aire ; correspondance GPS à vérifier indépendamment",
+    "servicesSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-de-therondels-therondels_TFO470508197216",
+    "priceSource": "https://www.tourisme-aveyron.com/fr/diffusio/campings/aire-de-camping-car-de-therondels-therondels_TFO470508197216"
   },
   {
     "department": "12",
