@@ -181,10 +181,18 @@
   {
     "department": "16",
     "name": "Aire de camping car chez l'habitant - Massa Anne",
-    "city": "Commune à confirmer",
+    "city": "Blanzaguet-Saint-Cybard",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "6 emplacements",
+      "Ravitaillement en eau",
+      "Toilettes sèches",
+      "Dépôt des déchets ménagers",
+      "Aire de pique-nique",
+      "Animaux acceptés",
+      "Réservation obligatoire"
+    ],
+    "price": "Stationnement gratuit ; forfait à partir de 15 € ; services à partir de 10 € (à clarifier avec le propriétaire)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/11872376313",
     "latitude": 45.4903327,
@@ -192,8 +200,10 @@
     "gpsSource": "https://www.openstreetmap.org/node/11872376313",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/11872376313"
+    "importReview": "Office de tourisme : prestations documentées ; confirmer prix et accès avant déplacement",
+    "sourceId": "node/11872376313",
+    "servicesSource": "https://www.sudcharentetourisme.fr/fiche-sit/aire-de-camping-car-chez-lhabitant-massa-anne-5826788/",
+    "priceSource": "https://www.sudcharentetourisme.fr/fiche-sit/aire-de-camping-car-chez-lhabitant-massa-anne-5826788/"
   },
   {
     "department": "16",
@@ -896,9 +906,13 @@
   {
     "department": "16",
     "name": "Aire de services camping-cars de Genté",
-    "city": "Commune à confirmer",
+    "city": "Genté",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Ravitaillement en eau",
+      "Vidange des eaux grises",
+      "Vidange des eaux noires"
+    ],
     "price": "Non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1318500714",
@@ -907,8 +921,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/1318500714",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1318500714"
+    "importReview": "Office de tourisme : prestations documentées ; confirmer prix et accès avant déplacement",
+    "sourceId": "way/1318500714",
+    "servicesSource": "https://www.destination-cognac.com/en/area-camping-car/camper-van-service-area-of-gente/",
+    "priceSource": "https://www.destination-cognac.com/en/area-camping-car/camper-van-service-area-of-gente/"
   },
   {
     "department": "16",
