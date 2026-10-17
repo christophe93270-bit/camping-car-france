@@ -27,7 +27,10 @@
     "name": "La ferme du Gazenas - Aire de camping cars",
     "city": "Flavin",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Douches",
+      "Électricité"
+    ],
     "price": "Non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/9337458407",
@@ -36,8 +39,9 @@
     "gpsSource": "https://www.openstreetmap.org/node/9337458407",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/9337458407"
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "sourceId": "node/9337458407",
+    "servicesSource": "https://www.openstreetmap.org/node/9337458407"
   },
   {
     "department": "12",
@@ -253,7 +257,10 @@
     "name": "Aire camping-car Boisse-Penchot",
     "city": "Boisse-Penchot",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Toilettes",
+      "Électricité"
+    ],
     "price": "Non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/115085822",
@@ -262,9 +269,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/115085822",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/115085822",
-    "cityVerification": "Commune déduite du nom de l'aire ; vérification géographique indépendante à effectuer"
+    "cityVerification": "Commune déduite du nom de l'aire ; vérification géographique indépendante à effectuer",
+    "servicesSource": "https://www.openstreetmap.org/way/115085822"
   },
   {
     "department": "12",
