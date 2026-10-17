@@ -37,16 +37,19 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/718107172",
-    "servicesSource": "https://www.openstreetmap.org/way/718107172"
+    "servicesSource": "https://www.openstreetmap.org/way/718107172",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-maritimes",
+    "verificationDate": "2026-10-17",
+    "verificationNote": "Exploitant identifié comme Camping-Car Park, tarif départemental indicatif 22,60 €/24h ; vérifier la grille saisonnière détaillée avant publication."
   },
   {
     "department": "06",
     "name": "Aire d'accueil de camping car de Roubion",
-    "city": "Commune à confirmer",
+    "city": "Roubion",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit (12 véhicules)",
+    "status": "Gratuité et services confirmés par la mairie.",
     "source": "https://www.openstreetmap.org/way/971968830",
     "latitude": 44.0839803,
     "longitude": 7.0425269,
@@ -54,16 +57,19 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/971968830"
+    "sourceId": "way/971968830",
+    "priceSource": "https://www.roubion.com/les-services/camping-car/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Mairie de Roubion : accès gratuit, eau et vidange des eaux grises disponibles à la station des Buisses."
   },
   {
     "department": "06",
     "name": "Aire camping-cars le Lagopède Valberg",
-    "city": "Commune à confirmer",
+    "city": "Péone",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif 2026 non confirmé",
+    "status": "Localisation et services documentés; tarif actuel à confirmer.",
     "source": "https://www.openstreetmap.org/way/1190500862",
     "latitude": 44.0963406,
     "longitude": 6.9372681,
@@ -71,7 +77,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1190500862"
+    "sourceId": "way/1190500862",
+    "verificationSource": "https://www.valberg.com/camping/aire-daccueil-de-camping-cars-de-valberg/",
+    "verificationDate": "2026-10-17",
+    "verificationNote": "Aire Le Lagopède à Valberg (commune de Péone), 16 emplacements selon l'office de tourisme. Une ancienne brochure 2023-2024 indiquait 10 €/24 h, tarif non retenu pour 2026."
   },
   {
     "department": "06",
@@ -83,8 +92,8 @@
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "16,38 € / 24 h (15,04 € + 1,34 € de taxe de séjour)",
+    "status": "Tarif daté vérifié auprès de l'exploitant.",
     "source": "https://www.openstreetmap.org/way/1194856576",
     "latitude": 43.8788543,
     "longitude": 7.4435895,
@@ -93,6 +102,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1194856576",
-    "servicesSource": "https://www.openstreetmap.org/way/1194856576"
+    "servicesSource": "https://www.openstreetmap.org/way/1194856576",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-maritimes/sospel?areaType=aire-etape-camping-car",
+    "priceVerifiedOn": "2026-10-17",
+    "priceValidUntil": "2026-12-31",
+    "priceNote": "Stationnement 15,04 € jusqu'au 31/12/2027 et taxe de séjour 1,34 € jusqu'au 31/12/2026, selon Camping-Car Park."
   }
 ]
