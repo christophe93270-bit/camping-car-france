@@ -1,6 +1,13 @@
-name: Controle qualite Loire-Atlantique
+name: Controle automatique Loire-Atlantique
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '20 7 * * 1'
+  push:
+    paths:
+      - 'aires-loire-atlantique.json'
+      - 'aires-pdl.json'
+      - '.github/workflows/qualite-loire-atlantique.yml'
 permissions:
   contents: read
 jobs:
@@ -8,28 +15,73 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Bilan des informations a verifier
+      - name: Verifier les fiches sans les modifier
+        shell: bash
         run: |
           python - <<'PY'
-          import json,math
+          import json, math, unicodedata, re, os
           from pathlib import Path
-          p=Path("aires-loire-atlantique.json")
-          rows=json.loads(p.read_text(encoding="utf-8"))
-          regional=json.loads(Path("aires-pdl.json").read_text(encoding="utf-8"))
-          regional=[r for r in regional if str(r.get("department"))=="44"]
-          print("FICHES_OSM",len(rows),"FICHES_REGIONALES",len(regional))
-          for i,r in enumerate(rows):
-              name=r.get("name","")
-              city=r.get("city","")
-              services=r.get("services") or []
-              price=r.get("price","")
-              try: gps=math.isfinite(float(r["latitude"])) and math.isfinite(float(r["longitude"]))
-              except (KeyError,ValueError,TypeError):gps=False
-              flags=[]
-              if not city or "confirmer" in city.lower():flags.append("commune")
-              if not services:flags.append("services")
-              if not price or "confirm" in price.lower():flags.append("tarif")
-              if not gps:flags.append("gps")
-              if flags:print("A_VERIFIER",i,r.get("sourceId",""),name,"|",",".join(flags))
-          print("CONTROLE_TERMINE aucune modification des donnees")
+
+          osm=json.loads(Path("aires-loire-atlantique.json").read_text(encoding="utf-8"))
+          regional=[x for x in json.loads(Path("aires-pdl.json").read_text(encoding="utf-8")) if str(x.get("department"))=="44"]
+          def norm(s):
+              s=unicodedata.normalize("NFD",str(s or "").lower())
+              return re.sub(r"[^a-z0-9]","", "".join(c for c in s if unicodedata.category(c)!="Mn"))
+          def coords(x):
+              try:
+                  lat,lon=float(x["latitude"]),float(x["longitude"])
+                  return (lat,lon) if math.isfinite(lat) and math.isfinite(lon) and -90<=lat<=90 and -180<=lon<=180 else None
+              except (ValueError,TypeError,KeyError): return None
+          def distance(a,b):
+              # Haversine distance in metres
+              lat1,lon1=map(math.radians,a);lat2,lon2=map(math.radians,b)
+              dlat=lat2-lat1;dlon=lon2-lon1
+              h=math.sin(dlat/2)**2+math.cos(lat1)*math.cos(lat2)*math.sin(dlon/2)**2
+              return 6371000*2*math.asin(min(1,math.sqrt(h)))
+          missing_city=missing_services=unknown_price=bad_gps=0
+          candidates=[]
+          for x in osm:
+              name=x.get("name","")
+              if not x.get("city") or "confirmer" in str(x.get("city")).lower(): missing_city+=1
+              if not x.get("services"): missing_services+=1
+              if not x.get("price") or "confirm" in str(x.get("price")).lower(): unknown_price+=1
+              a=coords(x)
+              if a is None:
+                  bad_gps+=1
+                  continue
+              near=[]
+              for y in regional:
+                  b=coords(y)
+                  if b is None: continue
+                  d=distance(a,b)
+                  if d<=350:
+                      near.append((round(d),y))
+              near.sort(key=lambda t:t[0])
+              if near:
+                  best=near[0]
+                  confidence="nom_identique" if norm(name)==norm(best[1].get("name")) else ("proche_30m" if best[0]<=30 else "a_verifier")
+                  candidates.append((name,x.get("sourceId",""),best[1].get("name",""),best[1].get("sourceId",""),best[0],len(near),confidence))
+          lines=[
+              "# Contrôle automatique des aires — Loire-Atlantique (44)",
+              "",
+              "Ce rapport est indicatif : la proximité ne prouve pas un doublon. Aucune donnée n'est modifiée.",
+              "",
+              f"- Fiches OSM : **{len(osm)}**",
+              f"- Fiches régionales : **{len(regional)}**",
+              f"- Communes à vérifier : **{missing_city}**",
+              f"- Services absents des fiches OSM : **{missing_services}**",
+              f"- Tarifs non confirmés : **{unknown_price}**",
+              f"- Coordonnées GPS invalides : **{bad_gps}**",
+              f"- Fiches OSM avec une correspondance régionale à 350 m ou moins : **{len(candidates)}**",
+              "",
+              "| Fiche OSM | Fiche régionale la plus proche | Distance | Autres fiches dans 350 m | Indice |",
+              "|---|---|---:|---:|---|"
+          ]
+          for name,oid,rname,rid,metres,n,confidence in candidates:
+              clean=lambda s:str(s).replace("|","/").replace("\n"," ")
+              lines.append(f"| {clean(name)} (`{oid}`) | {clean(rname)} (`{rid}`) | {metres} m | {n-1} | {confidence} |")
+          report="\n".join(lines)+"\n"
+          print(report)
+          summary=os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary: Path(summary).write_text(report,encoding="utf-8")
           PY
