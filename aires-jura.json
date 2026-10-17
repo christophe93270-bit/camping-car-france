@@ -341,24 +341,29 @@
   },
   {
     "department": "39",
-    "name": "Aire camping-cars Le Tilleul",
+    "name": "Aire camping-car Les Tilleuls – Clairvaux-les-Lacs",
     "city": "Clairvaux-les-Lacs",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées",
+      "Vidange WC"
     ],
-    "price": "Non confirmé",
-    "status": "Aire Le Tilleul / stationnement P1 à Clairvaux-les-Lacs : rapprochement avec la fiche touristique à confirmer",
+    "price": "Environ 11,30 à 13,30 € / 24 h selon saison (annuaire spécialisé) ; tarif 2026 à vérifier sur borne",
+    "status": "45 emplacements chemin des Tilleuls ; ouverture saisonnière indiquée du 15 avril au 15 octobre selon annuaire",
     "source": "https://www.openstreetmap.org/way/1296429078",
     "latitude": 46.5758754,
     "longitude": 5.7393123,
     "gpsSource": "https://www.openstreetmap.org/way/1296429078",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Correction de commune ; vérifier correspondance exacte avec P1 chemin des Tilleuls avant de reprendre sa capacité ou ses tarifs.",
+    "importReview": "Correspondance géographique avec P1 et Le Tilleul ; ne pas créer une seconde fiche P1 sans preuve d'un site distinct.",
     "sourceId": "way/1296429078",
-    "servicesSource": "https://www.openstreetmap.org/way/1296429078",
-    "cityVerificationNote": "Coordonnées 46.5758754, 5.7393123 confirmées dans Clairvaux-les-Lacs, et non Le Frasnois (référence OSM way/1296429078, Mapcarta)."
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-car-p1/",
+    "cityVerificationNote": "Coordonnées 46.5758754, 5.7393123 confirmées dans Clairvaux-les-Lacs, et non Le Frasnois (référence OSM way/1296429078, Mapcarta).",
+    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=CLAIRVAUX+LES+LACS",
+    "priceVerifiedOn": "2026-10-17"
   },
   {
     "department": "39",
@@ -553,5 +558,22 @@
     "priceVerifiedOn": "2026-10-17",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-orgelet/",
     "importReview": "Gratuité confirmée par Jura Tourisme et i-campingcar ; GPS recoupé avec Camping-car.com."
+  },
+  {
+    "department": "39",
+    "name": "Aire de stationnement camping-cars – Moirans-en-Montagne",
+    "city": "Moirans-en-Montagne",
+    "type": "Parking autorisé camping-car",
+    "services": [],
+    "price": "Stationnement : tarif non publié ; ne pas confondre la borne de recharge des véhicules électriques avec un branchement camping-car",
+    "status": "10 emplacements sur parking partagé place du Marché ; interdit vendredi de 6 h à 13 h (marché)",
+    "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-moirans-en-montagne/",
+    "latitude": 46.42869,
+    "longitude": 5.72517,
+    "gpsSource": "https://tofromfrance.com/lieu/aire-de-stationnement-camping-cars-moirans-en-montagne",
+    "sourceId": "jura-tourism/HPABFC039350000776",
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-moirans-en-montagne/",
+    "priceVerifiedOn": "2026-10-17",
+    "importReview": "GPS issu d'un annuaire géolocalisé ; à recouper sur carte. Absence de tarif publié ne prouve pas la gratuité."
   }
 ]
