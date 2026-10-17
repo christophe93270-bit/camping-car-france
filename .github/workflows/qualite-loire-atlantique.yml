@@ -1,0 +1,35 @@
+name: Controle qualite Loire-Atlantique
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  controle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bilan des informations a verifier
+        run: |
+          python - <<'PY'
+          import json,math
+          from pathlib import Path
+          p=Path("aires-loire-atlantique.json")
+          rows=json.loads(p.read_text(encoding="utf-8"))
+          regional=json.loads(Path("aires-pdl.json").read_text(encoding="utf-8"))
+          regional=[r for r in regional if str(r.get("department"))=="44"]
+          print("FICHES_OSM",len(rows),"FICHES_REGIONALES",len(regional))
+          for i,r in enumerate(rows):
+              name=r.get("name","")
+              city=r.get("city","")
+              services=r.get("services") or []
+              price=r.get("price","")
+              try: gps=math.isfinite(float(r["latitude"])) and math.isfinite(float(r["longitude"]))
+              except (KeyError,ValueError,TypeError):gps=False
+              flags=[]
+              if not city or "confirmer" in city.lower():flags.append("commune")
+              if not services:flags.append("services")
+              if not price or "confirm" in price.lower():flags.append("tarif")
+              if not gps:flags.append("gps")
+              if flags:print("A_VERIFIER",i,r.get("sourceId",""),name,"|",",".join(flags))
+          print("CONTROLE_TERMINE aucune modification des donnees")
+          PY
