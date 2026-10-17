@@ -10,15 +10,20 @@
       "capacity": 2,
       "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-car/",
       "sourceId": "HPABFC039320000912",
-      "gpsStatus": "Localisation ambiguë, ne pas publier",
+      "gpsStatus": "GPS exact non trouvé : publication suspendue",
       "note": "Vérifier la distance avec l'aire de la rue Saint-Vincent avant ajout.",
       "publicationPriority": "bloquée : GPS spécifique de l'aire à confirmer",
       "duplicateCheck": "Deux références et adresses différentes dans Jura Tourisme ; vérifier l'emplacement précis de chaque site avant de les compter comme deux aires distinctes.",
-      "locationConflict": "Jura Tourisme et JurAbsolu indiquent rue de la Gravière, tandis qu'un annuaire territorial recense la fiche « Aire de stationnement camping-car » à Saint-Germain-lès-Arlay, chemin de Quintigny. Les coordonnées 46.75998, 5.53245 concernent la chambre d'hôtes Jardin de Misette au 2 rue de la Gravière, et NON l'aire : ne pas les réutiliser.",
+      "locationConflict": "La fiche officielle Jura Tourisme et plusieurs annuaires confirment rue de la Gravière, 39140 Arlay, 2 places, mais aucun GPS précis de l'aire n'a été trouvé. Les coordonnées de l'aire de la Gravière à Orcières (44.68105,6.31909) appartiennent aux Hautes-Alpes et doivent être exclues. Ne pas confondre non plus avec l'aire de 10 places près de la station Eni à Arlay.",
       "conflictSources": [
         "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-car/",
         "https://www.webvilles.net/villes/arlay-39140.php",
         "https://tofromfrance.com/en/lieu/chambres-d-hotes-le-jardin-de-misette"
+      ],
+      "verificationSources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-car/",
+        "https://campings.my-tourisme.fr/camping/aire-de-stationnement-camping-car-arlay-39140/",
+        "https://www.camping-car.com/tourisme/actus-des-aires/29034-une-aire-de-camping-cars-100-gratuite-ideale-pour-visiter-arlay-39/"
       ]
     },
     {
@@ -91,7 +96,7 @@
   "reviewSummary": {
     "publishedAires": 45,
     "pendingSites": 6,
-    "priority": "GPS à confirmer : Mantry rue de Recanoz (5 places), Ménétru-le-Vignoble rue Traversière (1 place), Arlay rue de la Gravière. Hauteroche D210 : doublon potentiel de Granges-sur-Baume. Dole Aquaparc : existence contestée. Parcey : vérifier aire distincte du camping.",
+    "priority": "Localiser les 6 sites sans extrapoler les coordonnées des lieux voisins. Arlay Gravière : 2 places confirmées, GPS manquant ; station Eni : aire distincte de 10 places à rechercher. Mantry et Ménétru-le-Vignoble : adresses officielles, GPS manquant.",
     "warning": "Ne pas publier de points GPS non vérifiés.",
     "newDiscovery": "La Louve (Champagne-sur-Loue) ajoutée au fichier public, GPS recoupé Camping-car.com et i-campingcar.",
     "arlayAdditionalLead": {
