@@ -5,10 +5,13 @@
     "city": "Jeurre",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange eaux grises",
+      "Vidange WC"
     ],
-    "price": "5 € / nuit + services (supplément à confirmer)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement : 5 € ; eau : 2 € ; électricité : 3 €",
+    "status": "15 emplacements au 4 rue Principale ; ouverture du 1er avril au 31 octobre selon Jura Tourisme",
     "source": "https://www.openstreetmap.org/node/3068775340",
     "latitude": 46.3659673,
     "longitude": 5.7061007,
@@ -17,10 +20,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/3068775340",
-    "servicesSource": "https://www.openstreetmap.org/node/3068775340",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-chez-m-benoit/",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
-    "priceSource": "https://www.lecampeur.fr/aire/aire-de-camping-car-sur-herbe-jeurre-ph5p6n",
-    "priceVerifiedOn": "2026-10-17"
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-chez-m-benoit/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarifs affichés par Jura Tourisme ; stationnement et consommations facturés séparément."
   },
   {
     "department": "39",
@@ -231,7 +235,7 @@
       "Vidange WC"
     ],
     "price": "Forfait services : 7 € (eau, électricité, vidange eaux usées et WC) selon Jura Tourisme ; nuitée non comprise",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "12 emplacements selon Jura Tourisme ; forfait services 7 €, site référencé CAMPING-CAR PARK ; relation avec l'autre aire à vérifier",
     "source": "https://www.openstreetmap.org/way/972189733",
     "latitude": 46.2692849,
     "longitude": 5.5349354,
@@ -565,8 +569,8 @@
     "city": "Moirans-en-Montagne",
     "type": "Parking autorisé camping-car",
     "services": [],
-    "price": "Stationnement : tarif non publié ; ne pas confondre la borne de recharge des véhicules électriques avec un branchement camping-car",
-    "status": "10 emplacements sur parking partagé place du Marché ; interdit vendredi de 6 h à 13 h (marché)",
+    "price": "Stationnement autorisé de jour comme de nuit ; tarif non communiqué par Jura Tourisme",
+    "status": "10 places partagées place du Marché ; stationnement interdit le vendredi de 6 h à 13 h",
     "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-moirans-en-montagne/",
     "latitude": 46.42869,
     "longitude": 5.72517,
@@ -574,6 +578,7 @@
     "sourceId": "jura-tourism/HPABFC039350000776",
     "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-moirans-en-montagne/",
     "priceVerifiedOn": "2026-10-17",
-    "importReview": "GPS issu d'un annuaire géolocalisé ; à recouper sur carte. Absence de tarif publié ne prouve pas la gratuité."
+    "importReview": "GPS issu d'un annuaire géolocalisé ; à recouper sur carte. Absence de tarif publié ne prouve pas la gratuité.",
+    "priceNote": "Ne pas confondre « accès libre à la borne de recharge électrique » avec stationnement gratuit ou électricité camping-car."
   }
 ]
