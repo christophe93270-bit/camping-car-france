@@ -225,9 +225,12 @@
     "city": "Thoirette-Coisia",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées",
+      "Vidange WC"
     ],
-    "price": "Non confirmé",
+    "price": "Forfait services : 7 € (eau, électricité, vidange eaux usées et WC) selon Jura Tourisme ; nuitée non comprise",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/972189733",
     "latitude": 46.2692849,
@@ -237,9 +240,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Contrôler sur place si cette borne est indépendante ou liée à l'aire CAMPING-CAR PARK avant toute fusion.",
     "sourceId": "way/972189733",
-    "servicesSource": "https://www.openstreetmap.org/way/972189733",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-thoirette/",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
-    "priceNote": "Borne de services distincte dans les données OSM, à environ 355 m de l'aire CAMPING-CAR PARK. Tarif de cette borne non confirmé ; ne pas lui attribuer le tarif de l'aire voisine."
+    "priceNote": "Jura Tourisme rattache cette aire à CAMPING-CAR PARK ; possible doublon fonctionnel avec l'aire voisine, à vérifier avant fusion.",
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-thoirette/",
+    "priceVerifiedOn": "2026-10-17"
   },
   {
     "department": "39",
@@ -337,23 +342,23 @@
   {
     "department": "39",
     "name": "Aire camping-cars Le Tilleul",
-    "city": "Le Frasnois",
+    "city": "Clairvaux-les-Lacs",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire Le Tilleul / stationnement P1 à Clairvaux-les-Lacs : rapprochement avec la fiche touristique à confirmer",
     "source": "https://www.openstreetmap.org/way/1296429078",
     "latitude": 46.5758754,
     "longitude": 5.7393123,
     "gpsSource": "https://www.openstreetmap.org/way/1296429078",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Correction de commune ; vérifier correspondance exacte avec P1 chemin des Tilleuls avant de reprendre sa capacité ou ses tarifs.",
     "sourceId": "way/1296429078",
     "servicesSource": "https://www.openstreetmap.org/way/1296429078",
-    "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre."
+    "cityVerificationNote": "Coordonnées 46.5758754, 5.7393123 confirmées dans Clairvaux-les-Lacs, et non Le Frasnois (référence OSM way/1296429078, Mapcarta)."
   },
   {
     "department": "39",
@@ -505,5 +510,48 @@
     "priceVerifiedOn": "2026-10-17",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/au-refuge-du-camping-car/",
     "importReview": "75 rue René Maire ; coordonnées corroborées par Park4night ; ne pas confondre avec Camping La Marjorie."
+  },
+  {
+    "department": "39",
+    "name": "Aire de camping-car de Bois-d'Amont",
+    "city": "Bois-d'Amont",
+    "type": "Aire de stationnement et de services",
+    "services": [
+      "Eau",
+      "Vidange eaux usées"
+    ],
+    "price": "Stationnement, eau et vidange gratuits",
+    "status": "6 emplacements, impasse de l'Églantine, ouvert toute l'année selon Jura Tourisme",
+    "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-bois-damont/",
+    "latitude": 46.537927,
+    "longitude": 6.1391656,
+    "gpsSource": "https://www.camping-car.com/aires/16229-aire-communale/",
+    "sourceId": "jura-tourism/HPABFC000V51NZPE",
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-bois-damont/",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-bois-damont/",
+    "importReview": "Stationnement libre selon disponibilité ; GPS recoupé avec Camping-car.com. Électricité non garantie."
+  },
+  {
+    "department": "39",
+    "name": "Aire communale de camping-car d'Orgelet",
+    "city": "Orgelet",
+    "type": "Aire de stationnement et de services",
+    "services": [
+      "Eau",
+      "Vidange eaux usées",
+      "WC publics"
+    ],
+    "price": "Stationnement et services gratuits ; électricité indisponible",
+    "status": "10 emplacements place de l'Ancien Champ de Foire ; borne susceptible de ne pas fonctionner toute l'année",
+    "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-orgelet/",
+    "latitude": 46.5225913,
+    "longitude": 5.6082868,
+    "gpsSource": "https://www.camping-car.com/aires/15504-aire-communale/",
+    "sourceId": "jura-tourism/HPABFC039319000687",
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-orgelet/",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-orgelet/",
+    "importReview": "Gratuité confirmée par Jura Tourisme et i-campingcar ; GPS recoupé avec Camping-car.com."
   }
 ]
