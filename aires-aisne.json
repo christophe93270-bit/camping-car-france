@@ -49,11 +49,11 @@
   {
     "department": "02",
     "name": "Aire de camping-cars Bruyères-et-Montbérault",
-    "city": "Commune à confirmer",
+    "city": "Bruyères-et-Montbérault",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Commune identifiée auprès d'une source touristique; tarif à confirmer",
     "source": "https://www.openstreetmap.org/way/190433781",
     "latitude": 49.525304,
     "longitude": 3.6606743,
@@ -61,7 +61,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/190433781"
+    "sourceId": "way/190433781",
+    "verificationSource": "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-daccueil-de-bruyeres-et-montberault/",
+    "verificationDate": "2026-10-17",
+    "verificationNote": "Aire identifiée par l'office de tourisme du Pays de Laon; aucun tarif officiel trouvé dans cette fiche."
   },
   {
     "department": "02",
@@ -127,14 +130,14 @@
   {
     "department": "02",
     "name": "Aire de Camping-Cars Coucy-le-Château",
-    "city": "Commune à confirmer",
+    "city": "Coucy-le-Château-Auffrique",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif à confirmer : grille touristique ancienne (2024) différente des indications 2026",
+    "status": "Commune identifiée auprès d'une source touristique; tarif à confirmer",
     "source": "https://www.openstreetmap.org/way/487957203",
     "latitude": 49.5201075,
     "longitude": 3.3139996,
@@ -143,7 +146,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/487957203",
-    "servicesSource": "https://www.openstreetmap.org/way/487957203"
+    "servicesSource": "https://www.openstreetmap.org/way/487957203",
+    "verificationSource": "https://www.coucylechateau.com/h%C3%A9bergements-restauration-aire-camping-car-salles-de-r%C3%A9ception/aire-de-camping-cars/",
+    "verificationDate": "2026-10-17",
+    "verificationNote": "L'office de tourisme publie 7 € de services hors taxe (2024); une source de septembre 2026 indique 8 € pour l'emplacement et 2 € de services. Montants non réconciliés."
   },
   {
     "department": "02",
@@ -222,13 +228,13 @@
   {
     "department": "02",
     "name": "L'aire de camping-cars et de services de Riqueval",
-    "city": "Commune à confirmer",
+    "city": "Bellicourt",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement : tarif à confirmer ; eau 3 € / 10 min ; électricité 2 € / 4 h ou 4 € / 8 h",
+    "status": "Commune identifiée auprès d'une source touristique; tarif à confirmer",
     "source": "https://www.openstreetmap.org/way/1312459206",
     "latitude": 49.9515721,
     "longitude": 3.2352119,
@@ -237,6 +243,9 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1312459206",
-    "servicesSource": "https://www.openstreetmap.org/way/1312459206"
+    "servicesSource": "https://www.openstreetmap.org/way/1312459206",
+    "verificationSource": "https://ot-vermandois.com/laire-de-camping-cars-et-de-services-de-riqueval",
+    "verificationDate": "2026-10-17",
+    "verificationNote": "Les montants indiqués par l'office de tourisme concernent l'eau et l'électricité, pas un forfait de stationnement."
   }
 ]
