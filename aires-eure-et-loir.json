@@ -7,7 +7,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "8 € / nuit + taxe de séjour de 0,40 € par personne",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/10815178172",
     "latitude": 48.3250088,
@@ -17,15 +17,18 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/10815178172",
-    "servicesSource": "https://www.openstreetmap.org/node/10815178172"
+    "servicesSource": "https://www.openstreetmap.org/node/10815178172",
+    "priceSource": "https://www.valdeloire-france.com/aire-camping-car/aire-de-camping-car-des-viennes/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé dans la source indiquée ; distinguer stationnement et services, et vérifier avant séjour."
   },
   {
     "department": "28",
     "name": "Aire camping-car Chartres",
-    "city": "Commune à confirmer",
+    "city": "Chartres",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit, sans services ; services payants disponibles au camping voisin",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/10858192385",
     "latitude": 48.4325656,
@@ -34,17 +37,21 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/10858192385"
+    "sourceId": "node/10858192385",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation.",
+    "priceSource": "https://www.valdeloire-france.com/aire-camping-car/aire-de-camping-car-de-chartres/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé dans la source indiquée ; distinguer stationnement et services, et vérifier avant séjour."
   },
   {
     "department": "28",
     "name": "Camping-car Park Toury",
-    "city": "Commune à confirmer",
+    "city": "Toury",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,62 € / 24 h, dont 0,88 € de taxe de séjour (tarif 2026) ; 5 h + services : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/182258428",
     "latitude": 48.1937514,
@@ -54,12 +61,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/182258428",
-    "servicesSource": "https://www.openstreetmap.org/way/182258428"
+    "servicesSource": "https://www.openstreetmap.org/way/182258428",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/eure-et-loir/toury?areaType=stopover-site-motorhome",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé dans la source indiquée ; distinguer stationnement et services, et vérifier avant séjour."
   },
   {
     "department": "28",
     "name": "Aire de camping-car de Saint-Denis-Lanneray",
-    "city": "Commune à confirmer",
+    "city": "Saint-Denis-Lanneray",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -71,17 +82,18 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1203071677"
+    "sourceId": "way/1203071677",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation."
   },
   {
     "department": "28",
     "name": "Aire Camping-Car Park Dreux",
-    "city": "Commune à confirmer",
+    "city": "Dreux",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,42 € / 24 h, dont 1,32 € de taxe de séjour (tarif 2026) ; 5 h + services : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1284844269",
     "latitude": 48.7395826,
@@ -91,12 +103,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1284844269",
-    "servicesSource": "https://www.openstreetmap.org/way/1284844269"
+    "servicesSource": "https://www.openstreetmap.org/way/1284844269",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/eure-et-loir/dreux?areaType=area-de-etapa-autocaravanas",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé dans la source indiquée ; distinguer stationnement et services, et vérifier avant séjour."
   },
   {
     "department": "28",
     "name": "Aire de camping-car de Cloyes-sur-le-Loir",
-    "city": "Commune à confirmer",
+    "city": "Cloyes-les-Trois-Rivières",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -111,17 +127,18 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1286334355",
-    "servicesSource": "https://www.openstreetmap.org/way/1286334355"
+    "servicesSource": "https://www.openstreetmap.org/way/1286334355",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation."
   },
   {
     "department": "28",
     "name": "Aire de camping-car de Marboué",
-    "city": "Commune à confirmer",
+    "city": "Marboué",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; services signalés gratuits par des usagers en août 2026, à confirmer auprès de la mairie",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1286340369",
     "latitude": 48.1121691,
@@ -131,15 +148,19 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1286340369",
-    "servicesSource": "https://www.openstreetmap.org/way/1286340369"
+    "servicesSource": "https://www.openstreetmap.org/way/1286340369",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation.",
+    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=MARBOUE",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé dans la source indiquée ; distinguer stationnement et services, et vérifier avant séjour."
   },
   {
     "department": "28",
     "name": "Aire de camping-car de Thiron-Gardais",
-    "city": "Commune à confirmer",
+    "city": "Thiron-Gardais",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement et services signalés gratuits (source communautaire, validité à confirmer)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1286405295",
     "latitude": 48.3120544,
@@ -148,17 +169,21 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1286405295"
+    "sourceId": "way/1286405295",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation.",
+    "priceSource": "https://www.i-campingcar.fr/aires/pdf/28.pdf",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé dans la source indiquée ; distinguer stationnement et services, et vérifier avant séjour."
   },
   {
     "department": "28",
     "name": "Aire de Camping-Car Courville",
-    "city": "Commune à confirmer",
+    "city": "Courville-sur-Eure",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; services par jetons, prix non confirmé par la mairie",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1286407395",
     "latitude": 48.4455504,
@@ -168,15 +193,19 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1286407395",
-    "servicesSource": "https://www.openstreetmap.org/way/1286407395"
+    "servicesSource": "https://www.openstreetmap.org/way/1286407395",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation.",
+    "priceSource": "https://www.courville-sur-eure.fr/aire-de-camping-car",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé dans la source indiquée ; distinguer stationnement et services, et vérifier avant séjour."
   },
   {
     "department": "28",
     "name": "Aire de camping-cars à Fontaine-Simon",
-    "city": "Commune à confirmer",
+    "city": "Fontaine-Simon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "18 € / nuit pour 2 adultes avec électricité ; taxe de séjour 0,55 € et écoparticipation 0,48 € en supplément ; vidange + plein 3,50 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1286411654",
     "latitude": 48.5124458,
@@ -185,17 +214,21 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1286411654"
+    "sourceId": "way/1286411654",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation.",
+    "priceSource": "https://www.valdeloire-france.com/aire-camping-car/aire-de-camping-cars-a-fontaine-simon/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé dans la source indiquée ; distinguer stationnement et services, et vérifier avant séjour."
   },
   {
     "department": "28",
     "name": "Aire de Camping-car de Nogent-le-Roi",
-    "city": "Commune à confirmer",
+    "city": "Nogent-le-Roi",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement et eau gratuits (aire rue du Pont des Demoiselles)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1286412002",
     "latitude": 48.6506038,
@@ -205,12 +238,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1286412002",
-    "servicesSource": "https://www.openstreetmap.org/way/1286412002"
+    "servicesSource": "https://www.openstreetmap.org/way/1286412002",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation.",
+    "priceSource": "https://www.valdeloire-france.com/aire-camping-car/aire-de-camping-car-de-nogent-le-roi/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé dans la source indiquée ; distinguer stationnement et services, et vérifier avant séjour."
   },
   {
     "department": "28",
     "name": "Aire de camping-car de la Goguerie - Authon-du-Perche",
-    "city": "Commune à confirmer",
+    "city": "Authon-du-Perche",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -225,12 +262,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1286413502",
-    "servicesSource": "https://www.openstreetmap.org/way/1286413502"
+    "servicesSource": "https://www.openstreetmap.org/way/1286413502",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation."
   },
   {
     "department": "28",
     "name": "Aire Camping-car Cormainville",
-    "city": "Commune à confirmer",
+    "city": "Cormainville",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -242,15 +280,16 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1286414705"
+    "sourceId": "way/1286414705",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation."
   },
   {
     "department": "28",
     "name": "Aire de Camping-car de Bonneval",
-    "city": "Commune à confirmer",
+    "city": "Bonneval",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit (20 emplacements) ; vidange disponible",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1286416344",
     "latitude": 48.1795161,
@@ -259,17 +298,21 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1286416344"
+    "sourceId": "way/1286416344",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation.",
+    "priceSource": "https://www.valdeloire-france.com/aire-camping-car/aire-de-camping-car-de-bonneval/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé dans la source indiquée ; distinguer stationnement et services, et vérifier avant séjour."
   },
   {
     "department": "28",
     "name": "Aire de camping-cars intercommunal de Senonches - Senonches",
-    "city": "Commune à confirmer",
+    "city": "Senonches",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Forfait services à partir de 8 € ; tarif du stationnement non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1286419236",
     "latitude": 48.5561269,
@@ -279,17 +322,21 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1286419236",
-    "servicesSource": "https://www.openstreetmap.org/way/1286419236"
+    "servicesSource": "https://www.openstreetmap.org/way/1286419236",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation.",
+    "priceSource": "https://www.parc-naturel-perche.fr/ou-dormir-0/campings/aire-de-camping-cars-intercommunale-de-senonches-3352946",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé dans la source indiquée ; distinguer stationnement et services, et vérifier avant séjour."
   },
   {
     "department": "28",
     "name": "Aire de camping-car de Châteauneuf-en-Thymerais",
-    "city": "Commune à confirmer",
+    "city": "Châteauneuf-en-Thymerais",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,32 € / 24 h dont 1,32 € de taxe de séjour (Camping-Car Park, 2026) ; office de tourisme indique un tarif différent de 10 €/jour : à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1286419672",
     "latitude": 48.5792814,
@@ -299,6 +346,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1286419672",
-    "servicesSource": "https://www.openstreetmap.org/way/1286419672"
+    "servicesSource": "https://www.openstreetmap.org/way/1286419672",
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire et sa localisation.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/eure-et-loir/chateauneuf-en-thymerais",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé dans la source indiquée ; distinguer stationnement et services, et vérifier avant séjour."
   }
 ]
