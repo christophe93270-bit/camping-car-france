@@ -360,9 +360,12 @@
     "name": "Aire de camping-cars Les Crozets",
     "city": "Les Crozets",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Tables de pique-nique",
+      "Poubelles"
+    ],
+    "price": "Stationnement gratuit selon annuaire OSM ; gratuité à confirmer auprès de la mairie",
+    "status": "3 places, place du Pré du Frêne ; services de camping-car (eau/vidange/électricité) non indiqués par Jura Tourisme",
     "source": "https://www.openstreetmap.org/way/1312770954",
     "latitude": 46.4619836,
     "longitude": 5.7954101,
@@ -371,7 +374,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1312770954",
-    "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre."
+    "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
+    "priceSource": "https://airescampingcar.com/aires/france/les-crozets.html",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-les-crozets/",
+    "priceNote": "Gratuité issue d'un site reprenant OSM, non d'une confirmation municipale."
   },
   {
     "department": "39",
@@ -476,5 +483,27 @@
     "priceVerifiedOn": "2026-10-17",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-services-le-champ-de-mars/",
     "importReview": "8 rue du Camping ; coordonnées corroborées par Camping-car.com. Ne pas présenter le forfait services comme prix de nuitée."
+  },
+  {
+    "department": "39",
+    "name": "Au Refuge du Camping-Car – Lons-le-Saunier",
+    "city": "Lons-le-Saunier",
+    "type": "Aire de stationnement et services camping-car",
+    "services": [
+      "Eau",
+      "Vidange",
+      "Électricité"
+    ],
+    "price": "10 € / jour sans électricité ; forfait vidange, eau et électricité : 5 € selon Jura Tourisme (conditions à vérifier)",
+    "status": "10 emplacements ; accueil aux horaires indiqués par Jura Tourisme",
+    "source": "https://www.jura-tourism.com/aire-camping-car/au-refuge-du-camping-car/",
+    "latitude": 46.684,
+    "longitude": 5.5802,
+    "gpsSource": "https://park4night.com/en/place/669658",
+    "sourceId": "jura-tourism/HPABFC000V53WK3R",
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/au-refuge-du-camping-car/",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/au-refuge-du-camping-car/",
+    "importReview": "75 rue René Maire ; coordonnées corroborées par Park4night ; ne pas confondre avec Camping La Marjorie."
   }
 ]
