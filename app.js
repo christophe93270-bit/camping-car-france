@@ -540,7 +540,7 @@ async function initAires(){
     for(const aire of aires){
       const label=String(aire.name||"");
       const operator=String(aire.operator||aire.brand||"");
-      if(!/camping[\\s-]*car[\\s-]*park/i.test(label+" "+operator))continue;
+      if(!/camping[\s-]*car[\s-]*park/i.test(label+" "+operator))continue;
       const lat=Number(aire.latitude),lon=Number(aire.longitude);
       const key=Number.isFinite(lat)&&Number.isFinite(lon)&&lat!==0&&lon!==0
         ? String(aire.department||"")+"|"+lat.toFixed(3)+"|"+lon.toFixed(3)
