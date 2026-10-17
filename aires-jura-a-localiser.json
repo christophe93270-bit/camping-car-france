@@ -74,8 +74,8 @@
       "city": "Dole",
       "name": "Aire de services Aquaparc",
       "source": "https://www.jura-tourism.com/aire-camping-car/camping-car-aire-de-services-aquaparc/",
-      "gpsStatus": "À vérifier avant publication",
-      "note": "Aire de services distincte du stationnement gratuit avenue de Lahr, selon Jura Tourisme. GPS à vérifier avant publication.",
+      "gpsStatus": "Point historique identifié mais EXISTENCE ACTUELLE CONTESTÉE — ne pas publier",
+      "note": "Ne pas ajouter à la carte sur la seule base du référencement Jura Tourisme. Vérifier auprès de la ville de Dole (03 84 79 79 79) ou sur imagerie récente. GPS historiques non utilisables comme preuve d'exploitation en 2026.",
       "address": "Allée des Prés Buffard, 39100 Dole",
       "sourceId": "HPABFC039318003891",
       "services": [
@@ -86,13 +86,17 @@
         "Poubelles"
       ],
       "duplicateCheck": "Distinct de l'aire avenue de Lahr déjà publiée : adresse allée des Prés Buffard contre avenue de Lahr. À vérifier par GPS avant ajout.",
-      "publicationPriority": "haute"
+      "publicationPriority": "bloquée jusqu'à confirmation de l'existence actuelle",
+      "latitudeHistorical": 47.07338,
+      "longitudeHistorical": 5.4867,
+      "gpsSourceHistorical": "https://www.aire-service-camping-car-panoramique.fr/jura/39-dole",
+      "status": "Un avis daté du 12 avril 2023 indique que l'aire n'existe plus, le parking ayant été transformé en zone de panneaux solaires. Jura Tourisme conserve pourtant la fiche en ligne : fermeture non confirmée officiellement."
     }
   ],
   "reviewSummary": {
     "publishedAires": 40,
     "pendingSites": 8,
-    "priority": "Localiser Arlay, Dole Aquaparc, Mantry et les autres sites restants.",
+    "priority": "Dole Aquaparc bloquée (signalement disparition 2023) ; chercher GPS et statut Arlay, Mantry, Ménétru-le-Vignoble, Château-Chalon, Hauteroche, Parcey.",
     "warning": "Ne pas publier de points GPS non vérifiés."
   }
 }
