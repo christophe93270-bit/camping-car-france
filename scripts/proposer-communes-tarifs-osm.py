@@ -71,7 +71,7 @@ for kind, entries in candidates.items():
         # Le champ charge peut mélanger stationnement, eau, électricité et durée.
         # Ne proposer un montant exploitable qu'après validation humaine.
         charge_normalise = charge.strip().replace(",", ".")
-        montant_simple = bool(re.fullmatch(r"\\d+(?:\\.\\d{1,2})?\\s*(?:€|EUR)", charge_normalise, flags=re.I))
+        montant_simple = bool(re.fullmatch(r"\s*\d+(?:\.\d{1,2})?\s*(?:€|EUR|euros?)(?:\s*/\s*(?:nuit|jour|24\s*h|night|day))?\s*", charge_normalise, flags=re.I))
         nature_montant = "MONTANT_SIMPLE_A_CONFIRMER" if montant_simple else ("MONTANT_COMPLEXE_A_INTERPRETER" if charge else "")
         rows.append({
             "fichier": filename, "index": index, "nom": item.get("name", ""),
