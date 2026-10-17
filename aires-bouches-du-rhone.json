@@ -19,7 +19,7 @@
   {
     "department": "13",
     "name": "Aire de camping-car de Cuges les pins - Les Espèces",
-    "city": "Commune à confirmer",
+    "city": "Cuges-les-Pins",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -34,12 +34,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/14283561425",
-    "servicesSource": "https://www.openstreetmap.org/node/14283561425"
+    "servicesSource": "https://www.openstreetmap.org/node/14283561425",
+    "cityVerificationNote": "Commune déterminée d'après le nom et la localisation décrite de l'aire; contrôle cartographique à effectuer."
   },
   {
     "department": "13",
     "name": "Aire Municipale Saintes-Maries-de-la-Mer (Centre)",
-    "city": "Commune à confirmer",
+    "city": "Saintes-Maries-de-la-Mer",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -51,17 +52,20 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/35269162"
+    "sourceId": "way/35269162",
+    "cityVerificationNote": "Commune déterminée d'après le nom et la localisation décrite de l'aire; contrôle cartographique à effectuer.",
+    "priceNote": "L'office de tourisme annonce 16 € la nuit à Plage Ouest, mais cette fiche est intitulée 'Centre' : correspondance non prouvée, tarif non appliqué.",
+    "verificationSource": "https://www.saintesmaries.com/annuaire/aire-de-camping-cars-plage-ouest"
   },
   {
     "department": "13",
     "name": "Aire d'accueil Pélissanne",
-    "city": "Commune à confirmer",
+    "city": "Pélissanne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement : tarif non précisé ; eau 4 € / 100 L (10 min)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/274279279",
     "latitude": 43.6283512,
@@ -71,7 +75,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/274279279",
-    "servicesSource": "https://www.openstreetmap.org/way/274279279"
+    "servicesSource": "https://www.openstreetmap.org/way/274279279",
+    "cityVerificationNote": "Commune déterminée d'après le nom et la localisation décrite de l'aire; contrôle cartographique à effectuer.",
+    "priceSource": "https://www.massifdescostestourisme.com/hotellerie-plein-air/aire-de-stationnement-pour-camping-cars/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source exploitant ou organisme touristique ; vérifier avant séjour. Les services seuls ne constituent pas un prix de stationnement."
   },
   {
     "department": "13",
@@ -93,7 +101,7 @@
   {
     "department": "13",
     "name": "Aire de camping-car Jouques",
-    "city": "Commune à confirmer",
+    "city": "Jouques",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -105,17 +113,18 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/772735487"
+    "sourceId": "way/772735487",
+    "cityVerificationNote": "Commune déterminée d'après le nom et la localisation décrite de l'aire; contrôle cartographique à effectuer."
   },
   {
     "department": "13",
     "name": "Istres Aire de stationnement pour campings-cars",
-    "city": "Commune à confirmer",
+    "city": "Istres",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Eau potable"
     ],
-    "price": "Non confirmé",
+    "price": "8,90 € / 24 h, taxe de séjour comprise ; 2 h + services : 3,10 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/992325380",
     "latitude": 43.5155564,
@@ -125,17 +134,21 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/992325380",
-    "servicesSource": "https://www.openstreetmap.org/way/992325380"
+    "servicesSource": "https://www.openstreetmap.org/way/992325380",
+    "cityVerificationNote": "Commune déterminée d'après le nom et la localisation décrite de l'aire; contrôle cartographique à effectuer.",
+    "priceSource": "https://www.myprovence.fr/les-guides/hebergements/campings/istres/aire-de-stationnement-pour-campings-cars",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source exploitant ou organisme touristique ; vérifier avant séjour. Les services seuls ne constituent pas un prix de stationnement."
   },
   {
     "department": "13",
     "name": "Aire CAMPING-CAR PARK de Sausset-Les-Pins, Côte Bleue",
-    "city": "Commune à confirmer",
+    "city": "Sausset-les-Pins",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "16,58 € / 24 h (14,86 € + 1,72 € taxe de séjour) ; bandeau du site différent",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1191425096",
     "latitude": 43.3383296,
@@ -145,12 +158,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1191425096",
-    "servicesSource": "https://www.openstreetmap.org/way/1191425096"
+    "servicesSource": "https://www.openstreetmap.org/way/1191425096",
+    "cityVerificationNote": "Commune déterminée d'après le nom et la localisation décrite de l'aire; contrôle cartographique à effectuer.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/bouches-du-rhone/sausset-les-pins",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source exploitant ou organisme touristique ; vérifier avant séjour. Les services seuls ne constituent pas un prix de stationnement."
   },
   {
     "department": "13",
     "name": "Aire Camping-car Salon-de-Provence",
-    "city": "Commune à confirmer",
+    "city": "Salon-de-Provence",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -165,17 +182,18 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1222676364",
-    "servicesSource": "https://www.openstreetmap.org/way/1222676364"
+    "servicesSource": "https://www.openstreetmap.org/way/1222676364",
+    "cityVerificationNote": "Commune déterminée d'après le nom et la localisation décrite de l'aire; contrôle cartographique à effectuer."
   },
   {
     "department": "13",
     "name": "Aire de camping-cars publique Saint-Martin-de-Crau",
-    "city": "Commune à confirmer",
+    "city": "Saint-Martin-de-Crau",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit, 48 h maximum",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1287096962",
     "latitude": 43.6384882,
@@ -185,12 +203,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1287096962",
-    "servicesSource": "https://www.openstreetmap.org/way/1287096962"
+    "servicesSource": "https://www.openstreetmap.org/way/1287096962",
+    "cityVerificationNote": "Commune déterminée d'après le nom et la localisation décrite de l'aire; contrôle cartographique à effectuer.",
+    "priceSource": "https://www.lecoeurdelaprovence.fr/sejour-vacances-sud/6583824_aire-de-camping-cars-publique/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source exploitant ou organisme touristique ; vérifier avant séjour. Les services seuls ne constituent pas un prix de stationnement."
   },
   {
     "department": "13",
     "name": "Aire de camping-cars Saint-Paul-lès-Durance",
-    "city": "Commune à confirmer",
+    "city": "Saint-Paul-lès-Durance",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -205,12 +227,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1288002260",
-    "servicesSource": "https://www.openstreetmap.org/way/1288002260"
+    "servicesSource": "https://www.openstreetmap.org/way/1288002260",
+    "cityVerificationNote": "Commune déterminée d'après le nom et la localisation décrite de l'aire; contrôle cartographique à effectuer."
   },
   {
     "department": "13",
     "name": "Aire de camping-cars Peyrolles-en-Provence",
-    "city": "Commune à confirmer",
+    "city": "Peyrolles-en-Provence",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -225,6 +248,9 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1288009724",
-    "servicesSource": "https://www.openstreetmap.org/way/1288009724"
+    "servicesSource": "https://www.openstreetmap.org/way/1288009724",
+    "cityVerificationNote": "Commune déterminée d'après le nom et la localisation décrite de l'aire; contrôle cartographique à effectuer.",
+    "priceNote": "Un site tiers annonce environ 8,72 €/nuit, mais l'office de tourisme ne donne pas de prix : tarif laissé non confirmé.",
+    "verificationSource": "https://www.myprovence.fr/les-guides/hebergements/campings/peyrolles-en-provence/aire-daccueil-peyrolles-en-provence"
   }
 ]
