@@ -2,7 +2,7 @@
   {
     "department": "09",
     "name": "Mirepoix Aire Municipale",
-    "city": "Commune à confirmer",
+    "city": "Mirepoix",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -14,12 +14,15 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/6010970986"
+    "sourceId": "node/6010970986",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
+    "verificationNote": "Attention : l'office de tourisme indique en 2026 que l'ancienne aire de Mirepoix est réservée aux services, sans stationnement nocturne autorisé. Vérifier la correspondance exacte avant de proposer une nuitée.",
+    "verificationSource": "https://www.ariegepyrenees.com/agenda/le-grand-marche-de-mirepoix/"
   },
   {
     "department": "09",
     "name": "Aire pour camping-cars station Ax 3 Domaines",
-    "city": "Commune à confirmer",
+    "city": "Ax-les-Thermes",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -34,12 +37,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12157489119",
-    "servicesSource": "https://www.openstreetmap.org/node/12157489119"
+    "servicesSource": "https://www.openstreetmap.org/node/12157489119",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler."
   },
   {
     "department": "09",
     "name": "Commune d'Aulus Aire POUR camping-cars",
-    "city": "Commune à confirmer",
+    "city": "Aulus-les-Bains",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -51,18 +55,19 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/361038462"
+    "sourceId": "way/361038462",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler."
   },
   {
     "department": "09",
     "name": "Aire camping-cars L' Hospitalet-près-l'Andorre",
-    "city": "Commune à confirmer",
+    "city": "L'Hospitalet-près-l'Andorre",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit / 24 h ; eau 2 € / 100 L ; électricité 6 € / 12 h",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/487041265",
     "latitude": 42.5885958,
@@ -72,19 +77,23 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/487041265",
-    "servicesSource": "https://www.openstreetmap.org/way/487041265"
+    "servicesSource": "https://www.openstreetmap.org/way/487041265",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
+    "priceSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-2/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé auprès de l'office de tourisme, de la commune ou de l'exploitant; vérifier la saison et les suppléments."
   },
   {
     "department": "09",
     "name": "Aire de camping-car du Fossat",
-    "city": "Commune à confirmer",
+    "city": "Le Fossat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Douches",
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "13 à 15 € / emplacement camping-car pour 1 ou 2 personnes, électricité comprise (2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/624248297",
     "latitude": 43.1726092,
@@ -94,15 +103,19 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/624248297",
-    "servicesSource": "https://www.openstreetmap.org/way/624248297"
+    "servicesSource": "https://www.openstreetmap.org/way/624248297",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
+    "priceSource": "https://www.ariegepyrenees.com/camping/camping-et-aire-de-camping-car-du-fossat/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé auprès de l'office de tourisme, de la commune ou de l'exploitant; vérifier la saison et les suppléments."
   },
   {
     "department": "09",
     "name": "Aire Camping-cars Parc d'Espagne - Ax-les-Thermes",
-    "city": "Commune à confirmer",
+    "city": "Ax-les-Thermes",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "9 € / jour (tarif affiché pour la saison 2027 ; tarif 2026 non confirmé)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/680216140",
     "latitude": 42.7148294,
@@ -111,12 +124,16 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/680216140"
+    "sourceId": "way/680216140",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
+    "priceSource": "https://www.pyrenees-ariegeoises.com/preparer-mon-sejour/dormir/campings-et-aires-de-camping-cars/aire-de-stationnement-pour-camping-cars-ax-les-thermes-fr-4240146/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Le tarif de 9 € provient de la saison 2027 et ne doit pas être présenté comme un prix confirmé pour 2026."
   },
   {
     "department": "09",
     "name": "Aire d’accueil camping-cars de Sainte-Croix-Volvestre",
-    "city": "Commune à confirmer",
+    "city": "Sainte-Croix-Volvestre",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -128,12 +145,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/891447174"
+    "sourceId": "way/891447174",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler."
   },
   {
     "department": "09",
     "name": "Aire d’accueil camping-cars de Castelnau-Durban",
-    "city": "Commune à confirmer",
+    "city": "Castelnau-Durban",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -145,7 +163,8 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/891450634"
+    "sourceId": "way/891450634",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler."
   },
   {
     "department": "09",
@@ -155,7 +174,7 @@
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
+    "price": "10 € / 24 h ; eau 2 € / plein (2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1225530897",
     "latitude": 42.7844283,
@@ -165,12 +184,15 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1225530897",
-    "servicesSource": "https://www.openstreetmap.org/way/1225530897"
+    "servicesSource": "https://www.openstreetmap.org/way/1225530897",
+    "priceSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-4/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé auprès de l'office de tourisme, de la commune ou de l'exploitant; vérifier la saison et les suppléments."
   },
   {
     "department": "09",
     "name": "Aire pour camping-cars Vicdessos",
-    "city": "Commune à confirmer",
+    "city": "Val-de-Sos",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Eau potable"
@@ -185,7 +207,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1233056173",
-    "servicesSource": "https://www.openstreetmap.org/way/1233056173"
+    "servicesSource": "https://www.openstreetmap.org/way/1233056173",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler."
   },
   {
     "department": "09",
@@ -213,12 +236,12 @@
   {
     "department": "09",
     "name": "A aire de camping cars commune de Bonac Irazein",
-    "city": "Commune à confirmer",
+    "city": "Bonac-Irazein",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "12 € / nuit + 0,60 € de taxe de séjour par adulte (2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1311010488",
     "latitude": 42.8755405,
@@ -228,17 +251,21 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1311010488",
-    "servicesSource": "https://www.openstreetmap.org/way/1311010488"
+    "servicesSource": "https://www.openstreetmap.org/way/1311010488",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
+    "priceSource": "https://commune-bonac-irazein.fr/aire-de-camping-cars/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé auprès de l'office de tourisme, de la commune ou de l'exploitant; vérifier la saison et les suppléments."
   },
   {
     "department": "09",
     "name": "Aire camping-cars Auzat",
-    "city": "Commune à confirmer",
+    "city": "Auzat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "8 € hors saison ; 10 € haute saison (2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1374532950",
     "latitude": 42.7628613,
@@ -248,17 +275,21 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1374532950",
-    "servicesSource": "https://www.openstreetmap.org/way/1374532950"
+    "servicesSource": "https://www.openstreetmap.org/way/1374532950",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
+    "priceSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-5/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé auprès de l'office de tourisme, de la commune ou de l'exploitant; vérifier la saison et les suppléments."
   },
   {
     "department": "09",
     "name": "Aire de camping-car de Bélesta",
-    "city": "Commune à confirmer",
+    "city": "Bélesta",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,72 € / 24 h (13,00 € + 1,72 € taxe de séjour)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1432357680",
     "latitude": 42.907556,
@@ -268,6 +299,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1432357680",
-    "servicesSource": "https://www.openstreetmap.org/way/1432357680"
+    "servicesSource": "https://www.openstreetmap.org/way/1432357680",
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/belesta",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif relevé auprès de l'office de tourisme, de la commune ou de l'exploitant; vérifier la saison et les suppléments."
   }
 ]
