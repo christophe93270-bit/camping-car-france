@@ -222,13 +222,13 @@
   },
   {
     "department": "38",
-    "name": "Aire de camping-car de Romagnieu",
+    "name": "Camping-Car Park Romagnieu",
     "city": "Romagnieu",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "15,80 € / 24 h, dont 0,80 € de taxe de séjour",
+    "price": "12,80 € / 24 h, dont 0,80 € de taxe de séjour (octobre-novembre 2026) ; 13,80 € / 24 h de décembre 2026 à avril 2027, taxe 2027 à reconfirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/14279683580",
     "latitude": 45.5807591,
@@ -240,7 +240,7 @@
     "sourceId": "node/14279683580",
     "servicesSource": "https://www.openstreetmap.org/node/14279683580",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/romagnieu?areaType=stopover-site-motorhome",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/romagnieu",
     "priceVerifiedOn": "2026-10-17"
   },
   {
@@ -647,5 +647,77 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.alpes-isere.com/sit/aire-de-bivouac-camping-car-de-lalpe-du-grand-serre-119106/",
     "priceVerifiedOn": "2026-10-17"
+  },
+  {
+    "department": "38",
+    "name": "Camping-Car Park Trept – Les 3 lacs du soleil",
+    "city": "Trept",
+    "type": "Aire d'étape Camping-Car Park",
+    "services": [
+      "Électricité",
+      "Eau",
+      "Vidange"
+    ],
+    "price": "15,57 € / 24 h, dont 1,32 € de taxe de séjour (tarif octobre 2026) ; services 5 h : 6 €",
+    "status": "Aire et tarifs publiés par l'exploitant ; vérifier avant départ",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/trept-les-3-lacs-du-soleil",
+    "latitude": 45.68927,
+    "longitude": 5.34925,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/trept-les-3-lacs-du-soleil",
+    "dataLicense": "Source officielle exploitant",
+    "dataAttribution": "CAMPING-CAR PARK",
+    "importReview": "Ajout manuel après contrôle des coordonnées et des doublons",
+    "sourceId": "ccp/trept-les-3-lacs-du-soleil",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/trept-les-3-lacs-du-soleil",
+    "priceVerifiedOn": "2026-10-17",
+    "address": "296 chemin du camping, 38460 Trept"
+  },
+  {
+    "department": "38",
+    "name": "Camping-Car Park Saint-Pierre-de-Chartreuse – Le Couzon",
+    "city": "Saint-Pierre-de-Chartreuse",
+    "type": "Aire d'étape Camping-Car Park",
+    "services": [
+      "Électricité",
+      "Eau",
+      "Vidange"
+    ],
+    "price": "14,75 € / 24 h, dont 0,50 € de taxe de séjour ; services 5 h : 6 €",
+    "status": "Aire et tarifs publiés par l'exploitant ; vérifier avant départ",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/st-pierre-de-chartreuse-le-couzon",
+    "latitude": 45.34329,
+    "longitude": 5.813124,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/st-pierre-de-chartreuse-le-couzon",
+    "dataLicense": "Source officielle exploitant",
+    "dataAttribution": "CAMPING-CAR PARK",
+    "importReview": "Ajout manuel après contrôle des coordonnées et des doublons",
+    "sourceId": "ccp/st-pierre-de-chartreuse-le-couzon",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/st-pierre-de-chartreuse-le-couzon",
+    "priceVerifiedOn": "2026-10-17",
+    "address": "Plan de Ville, 38380 Saint-Pierre-de-Chartreuse"
+  },
+  {
+    "department": "38",
+    "name": "Camping-Car Park Chamrousse",
+    "city": "Chamrousse",
+    "type": "Aire d'étape Camping-Car Park",
+    "services": [
+      "Électricité",
+      "Eau",
+      "Vidange"
+    ],
+    "price": "12,00 € / 24 h jusqu'au 30/11/2026 (taxe comprise) ; 20,00 € / 24 h en décembre 2026 (taxe 1,32 € comprise) ; services 5 h : 6 €",
+    "status": "Aire et tarifs publiés par l'exploitant ; vérifier avant départ",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/chamrousse",
+    "latitude": 45.126894,
+    "longitude": 5.873729,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/chamrousse",
+    "dataLicense": "Source officielle exploitant",
+    "dataAttribution": "CAMPING-CAR PARK",
+    "importReview": "Ajout manuel après contrôle des coordonnées et des doublons",
+    "sourceId": "ccp/chamrousse",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/chamrousse",
+    "priceVerifiedOn": "2026-10-17",
+    "address": "1 place des Niverolles, 38410 Chamrousse"
   }
 ]
