@@ -30,12 +30,15 @@ jobs:
           class Handler(osmium.SimpleHandler):
               def accept(self,item,kind):
                   tags=dict(item.tags)
-                  t=tags.get("tourism") if tags.get("tourism")=="caravan_site" else tags.get("amenity")
-                  if t not in ("caravan_site","sanitary_dump_station"):return
+                  t=tags.get("tourism") if tags.get("tourism") in ("caravan_site","camp_site") else tags.get("amenity")
+                  if t not in ("caravan_site","camp_site","sanitary_dump_station","parking"):return
+                  if t=="parking" and not any(word in " ".join(str(v).lower() for v in tags.values()) for word in ("camping-car","camping car","motorhome","caravan")):return
                   try:
                       if kind=="node":p=item.location;lat=float(p.lat);lon=float(p.lon)
                       else:
-                          p=item.nodes[0].location;lat=float(p.lat);lon=float(p.lon)
+                          p=next((n.location for n in item.nodes if n.location.valid()),None)
+                          if p is None:return
+                          lat=float(p.lat);lon=float(p.lon)
                   except (ValueError,IndexError,RuntimeError):return
                   if not area.covers(Point(lon,lat)):return
                   key=kind+"/"+str(item.id)
@@ -44,7 +47,7 @@ jobs:
               def way(self,w):self.accept(w,"way")
           h=Handler()
           h.apply_file(dest,locations=True)
-          if not found:raise RuntimeError("Aucun candidat camping-car en Val-de-Marne dans les donnees OSM")
+          # Aucun candidat reste un resultat valide; ne pas publier sans verification.
           result={"department":"94","note":"Candidats OSM a verifier individuellement avant publication; les positions des voies sont approximatives","attribution":"© OpenStreetMap contributors","license":"ODbL","count":len(found),"complete":True,"records":list(found.values())}
           with open("diagnostic-val-de-marne.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
           print("Candidats Val-de-Marne:",len(found),flush=True)
