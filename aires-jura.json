@@ -133,7 +133,7 @@
       "Toilettes",
       "Électricité"
     ],
-    "price": "12,96 € / 24 h, taxe de séjour comprise ; services 5 h : 6 €",
+    "price": "12,96 € / 24 h (12,52 € + taxe de séjour 0,44 €), du 01/10/2026 au 31/12/2027 ; services 5 h : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/453710230",
     "latitude": 46.3969692,
@@ -260,7 +260,7 @@
       "Toilettes",
       "Électricité"
     ],
-    "price": "12,37 € / 24 h, taxe de séjour comprise ; services 5 h : 6 €",
+    "price": "12,37 € / 24 h (11,71 € + taxe de séjour 0,66 €), du 01/10/2026 au 31/12/2027 ; services 5 h : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1052740620",
     "latitude": 46.5819879,
@@ -272,7 +272,7 @@
     "sourceId": "way/1052740620",
     "servicesSource": "https://www.openstreetmap.org/way/1052740620",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/beaufort-orbagna",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/beaufort-orbagna?areaType=aire-etape-camping-car",
     "priceVerifiedOn": "2026-10-17"
   },
   {
@@ -374,7 +374,7 @@
     "city": "Pont-de-Poitte",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; services 2 € selon annuaire spécialisé (à confirmer auprès de la mairie)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1433927556",
     "latitude": 46.5802022,
@@ -384,7 +384,9 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1433927556",
-    "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre."
+    "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
+    "priceSource": "https://i-campingcar.fr/aires.php?ville=PONT+DE+POITTE",
+    "priceVerifiedOn": "2026-10-17"
   },
   {
     "department": "39",
