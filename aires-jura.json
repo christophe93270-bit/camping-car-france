@@ -103,8 +103,8 @@
       "Vidange eaux usées",
       "Poubelles"
     ],
-    "price": "Parking gratuit près de la place Voltaire ; services de la borne Moulin Lacroix : tarif non confirmé",
-    "status": "Borne de services au 13 bis rue du Moulin Lacroix ; fonctionnement hors gel, fermeture possible en hiver",
+    "price": "Borne de services Moulin Lacroix : tarif non publié ; le parking Duparchy/place Voltaire est gratuit mais distinct et sans services",
+    "status": "Borne de vidange, ouverte hors période de gel ; stationnement gratuit distinct au parking Duparchy.",
     "source": "https://www.openstreetmap.org/node/12151455073",
     "latitude": 46.3966743,
     "longitude": 5.8670801,
@@ -116,7 +116,8 @@
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-daccueil-et-de-service-camping-car-saint-claude/",
     "priceVerifiedOn": "2026-10-17",
-    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-daccueil-et-de-service-camping-car-saint-claude/"
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-daccueil-et-de-service-camping-car-saint-claude/",
+    "priceNote": "Ne pas confondre le parking gratuit Duparchy avec la borne de services située rue du Moulin Lacroix."
   },
   {
     "department": "39",
@@ -837,5 +838,29 @@
     "priceVerifiedOn": "2026-10-17",
     "servicesSource": "https://www.lesrousses.com/fiche/aire-de-l-aube/",
     "importReview": "GPS directement publié par l'office de tourisme. Information travaux prioritaire sur la description historique de stationnement gratuit. Réouverture à vérifier."
+  },
+  {
+    "department": "39",
+    "name": "Aire de services du Camping La Marjorie – Lons-le-Saunier",
+    "city": "Lons-le-Saunier",
+    "type": "Aire de services camping-car dans un camping",
+    "services": [
+      "Eau",
+      "Vidange eaux usées",
+      "Toilettes",
+      "Douches",
+      "Wi-Fi"
+    ],
+    "price": "5 € pour les services camping-car sans nuitée (Jura Tourisme) ; hébergement au camping en supplément",
+    "status": "Aire surveillée au Camping La Marjorie, boulevard de l'Europe ; disponibilité et ouverture à confirmer auprès du camping",
+    "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-13/",
+    "latitude": 46.68473,
+    "longitude": 5.56867,
+    "gpsSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-13/",
+    "sourceId": "jura-tourism/HPABFC039320001511",
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-13/",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-13/",
+    "importReview": "GPS et tarif de services explicitement publiés par Jura Tourisme ; site distinct d'Au Refuge du Camping-Car à Lons-le-Saunier."
   }
 ]
