@@ -1,6 +1,14 @@
 name: Audit general des aires et doublons
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '20 8 * * 1'
+  push:
+    paths:
+      - 'aires-*.json'
+      - 'app.js'
+      - 'departements.json'
+      - '.github/workflows/audit-general-aires.yml'
 permissions:
   contents: read
 jobs:
@@ -11,7 +19,7 @@ jobs:
       - name: Analyser les donnees chargees par le site
         run: |
           python - <<'PY'
-          import json,re,unicodedata,collections,math
+          import json,re,unicodedata,collections,math,os
           from pathlib import Path
           js=Path("app.js").read_text(encoding="utf-8")
           paths=list(dict.fromkeys(re.findall(r'fetch\(["\'](aires(?:-[a-z-]+)?\.json)(?:\?[^"\']*)?["\']',js)))
@@ -57,5 +65,26 @@ jobs:
           print("AUDIT_GROUPES_MEMES_COORDONNEES",len(samecoord))
           print("AUDIT_EXEMPLES_DOUBLONS",json.dumps({"id":sameid[:12],"nom":samename[:12],"gps":samecoord[:12]},ensure_ascii=False))
           print("AUDIT_COMPTAGES_PAR_DEPARTEMENT",json.dumps(dict(sorted(departments.items())),ensure_ascii=False))
+          missing_city=sum(not str(row.get("city") or "").strip() for _,_,row in data)
+          invalid_gps=sum(coord(row) is None or not (-90<=coord(row)[0]<=90 and -180<=coord(row)[1]<=180) for _,_,row in data)
+          missing_services=sum(not row.get("services") for _,_,row in data)
+          unknown_price=sum(not row.get("price") or "confirm" in str(row.get("price")).lower() for _,_,row in data)
+          print("AUDIT_COMMUNES_MANQUANTES",missing_city)
+          print("AUDIT_GPS_INVALIDES",invalid_gps)
+          print("AUDIT_SERVICES_NON_RENSEIGNES",missing_services)
+          print("AUDIT_TARIFS_NON_CONFIRMES",unknown_price)
+          if os.getenv("GITHUB_STEP_SUMMARY"):
+              Path(os.environ["GITHUB_STEP_SUMMARY"]).write_text(
+                  "# Audit national des aires\\n\\n"
+                  +f"- Fichiers analyses : {len(perfile)}\\n"
+                  +f"- Fiches brutes : {len(data)}\\n"
+                  +f"- Communes manquantes : {missing_city}\\n"
+                  +f"- GPS invalides : {invalid_gps}\\n"
+                  +f"- Services non renseignes : {missing_services}\\n"
+                  +f"- Tarifs non confirmes : {unknown_price}\\n"
+                  +f"- Groupes de meme identifiant : {len(sameid)}\\n"
+                  +f"- Groupes de meme nom et commune : {len(samename)}\\n"
+                  +f"- Groupes de memes coordonnees : {len(samecoord)}\\n\\n"
+                  +"Lecture seule : aucune suppression automatique.\\n",encoding="utf-8")
           print("AUDIT_NOTE Les comptages sont bruts; app.js filtre certains doublons du 44 et aucun doublon potentiel ne doit etre supprime automatiquement.")
           PY
