@@ -94,19 +94,20 @@
     }
   ],
   "reviewSummary": {
-    "publishedAires": 45,
+    "publishedAires": 46,
     "pendingSites": 6,
-    "priority": "Localiser les 6 sites sans extrapoler les coordonnées des lieux voisins. Arlay Gravière : 2 places confirmées, GPS manquant ; station Eni : aire distincte de 10 places à rechercher. Mantry et Ménétru-le-Vignoble : adresses officielles, GPS manquant.",
+    "priority": "Mantry, Ménétru-le-Vignoble, Arlay rue de la Gravière : GPS exact manquant ; Hauteroche : doublon potentiel ; Parcey : aire distincte à confirmer ; Dole Aquaparc : existence contestée.",
     "warning": "Ne pas publier de points GPS non vérifiés.",
     "newDiscovery": "La Louve (Champagne-sur-Loue) ajoutée au fichier public, GPS recoupé Camping-car.com et i-campingcar.",
     "arlayAdditionalLead": {
-      "name": "Stationnement chez un domaine viticole – Chemin de la Plaine",
-      "coordinates": [
-        46.7632,
-        5.5639
+      "name": "Aire du Jura – station ENI A39",
+      "status": "Publiée",
+      "source": "https://park4night.com/fr/place/43485",
+      "gps": [
+        46.7757,
+        5.5227
       ],
-      "source": "https://park4night.com/fr/place/686391",
-      "note": "Annonce communautaire datée juin 2026 : 10 places gratuites, terrain privé. Ne pas confondre avec les deux aires communales d'Arlay ; vérifier l'autorisation et la pérennité avant publication."
+      "note": "10 places, distincte des aires communales d'Arlay ; sourceId park4night/43485."
     },
     "lastChecked": "2026-10-17"
   }
