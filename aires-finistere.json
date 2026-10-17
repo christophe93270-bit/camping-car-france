@@ -2,7 +2,7 @@
   {
     "department": "29",
     "name": "Plougastel-Daoulas Aire Municipale",
-    "city": "Commune à confirmer",
+    "city": "Plougastel-Daoulas",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -14,12 +14,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/5496885745"
+    "sourceId": "node/5496885745",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Aire de camping-cars Guengat",
-    "city": "Commune à confirmer",
+    "city": "Guengat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -34,12 +35,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/11881387945",
-    "servicesSource": "https://www.openstreetmap.org/node/11881387945"
+    "servicesSource": "https://www.openstreetmap.org/node/11881387945",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Aire camping cars de Spezet",
-    "city": "Commune à confirmer",
+    "city": "Spézet",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -54,12 +56,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/11986342956",
-    "servicesSource": "https://www.openstreetmap.org/node/11986342956"
+    "servicesSource": "https://www.openstreetmap.org/node/11986342956",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Aire de camping-car de Morlaix",
-    "city": "Commune à confirmer",
+    "city": "Morlaix",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -74,7 +77,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12098289618",
-    "servicesSource": "https://www.openstreetmap.org/node/12098289618"
+    "servicesSource": "https://www.openstreetmap.org/node/12098289618",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
@@ -96,14 +100,14 @@
   {
     "department": "29",
     "name": "Aire de camping-cars de Bertheaume-Plougonvelin",
-    "city": "Commune à confirmer",
+    "city": "Plougonvelin",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Douches",
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "12,50 € / 24 h emplacement + électricité + taxe de séjour (office de tourisme ; texte également 10,50 € hors précision)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/44150827",
     "latitude": 48.3367604,
@@ -113,12 +117,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/44150827",
-    "servicesSource": "https://www.openstreetmap.org/way/44150827"
+    "servicesSource": "https://www.openstreetmap.org/way/44150827",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire.",
+    "priceSource": "https://iroise.prep.faire-savoir.eu/hebergement/aire-de-camping-cars-de-bertheaume-plougonvelin/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif ou information issue de la source ; variations saisonnières et incertitudes précisées."
   },
   {
     "department": "29",
     "name": "Aire de camping-car du Porzou",
-    "city": "Commune à confirmer",
+    "city": "Concarneau",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes",
@@ -134,7 +142,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/51426851",
-    "servicesSource": "https://www.openstreetmap.org/way/51426851"
+    "servicesSource": "https://www.openstreetmap.org/way/51426851",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
@@ -180,14 +189,14 @@
   {
     "department": "29",
     "name": "Aire de camping-car de Sizun",
-    "city": "Commune à confirmer",
+    "city": "Sizun",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Eau potable",
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,44 € / 24 h (tarif affiché sur la liste de l'exploitant, taxes à vérifier)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/131889075",
     "latitude": 48.4007236,
@@ -197,7 +206,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/131889075",
-    "servicesSource": "https://www.openstreetmap.org/way/131889075"
+    "servicesSource": "https://www.openstreetmap.org/way/131889075",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/finistere",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif ou information issue de la source ; variations saisonnières et incertitudes précisées."
   },
   {
     "department": "29",
@@ -242,7 +255,7 @@
   {
     "department": "29",
     "name": "Aire Municipale de Plogoff",
-    "city": "Commune à confirmer",
+    "city": "Plogoff",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -254,12 +267,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/252495647"
+    "sourceId": "way/252495647",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Aire de services et stationnements camping-cars à Pempoul – Motorh",
-    "city": "Commune à confirmer",
+    "city": "Saint-Pol-de-Léon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -274,7 +288,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/255187772",
-    "servicesSource": "https://www.openstreetmap.org/way/255187772"
+    "servicesSource": "https://www.openstreetmap.org/way/255187772",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
@@ -296,7 +311,7 @@
   {
     "department": "29",
     "name": "Aire Camping Car Saint-Derrien",
-    "city": "Commune à confirmer",
+    "city": "Saint-Derrien",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -308,17 +323,18 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/295230526"
+    "sourceId": "way/295230526",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Aire Camping-Car Park Pont-Aven, Les Quatre Vents",
-    "city": "Commune à confirmer",
+    "city": "Pont-Aven",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "15,06 € / 24 h (13,74 € hors taxe de séjour + 1,32 €), du 15/10/2026 au 31/12/2027 ; 5 h + services : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/299419415",
     "latitude": 47.8538019,
@@ -328,7 +344,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/299419415",
-    "servicesSource": "https://www.openstreetmap.org/way/299419415"
+    "servicesSource": "https://www.openstreetmap.org/way/299419415",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/finistere/pont-aven-les-quatre-vents?areaType=stopover-site-motorhome",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif ou information issue de la source ; variations saisonnières et incertitudes précisées."
   },
   {
     "department": "29",
@@ -354,7 +374,7 @@
   {
     "department": "29",
     "name": "Aire Camping-car Port de Penzé",
-    "city": "Commune à confirmer",
+    "city": "Taulé",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -366,12 +386,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/359072688"
+    "sourceId": "way/359072688",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Saint Rivoal Aire pour camping-cars",
-    "city": "Commune à confirmer",
+    "city": "Saint-Rivoal",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Eau potable",
@@ -387,12 +408,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/370935848",
-    "servicesSource": "https://www.openstreetmap.org/way/370935848"
+    "servicesSource": "https://www.openstreetmap.org/way/370935848",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Parking Camping Cars Huelgoat",
-    "city": "Commune à confirmer",
+    "city": "Huelgoat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -407,17 +429,18 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/372721486",
-    "servicesSource": "https://www.openstreetmap.org/way/372721486"
+    "servicesSource": "https://www.openstreetmap.org/way/372721486",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Aire de Camping-Car Plage de Meneham Finistère nord",
-    "city": "Commune à confirmer",
+    "city": "Kerlouan",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "9 € / 24 h d'octobre à avril ; 11 € / 24 h de mai à septembre ; électricité et taxe de séjour en supplément (tarifs 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/376386213",
     "latitude": 48.6664144,
@@ -427,7 +450,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/376386213",
-    "servicesSource": "https://www.openstreetmap.org/way/376386213"
+    "servicesSource": "https://www.openstreetmap.org/way/376386213",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire.",
+    "priceSource": "https://www.campingplagedemeneham.com/88-aire-services-camping-car/251-aire-de-services-camping-car.html",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif ou information issue de la source ; variations saisonnières et incertitudes précisées."
   },
   {
     "department": "29",
@@ -449,7 +476,7 @@
   {
     "department": "29",
     "name": "Aire de stationnement de Guerlesquin",
-    "city": "Commune à confirmer",
+    "city": "Guerlesquin",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -461,7 +488,8 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/826219384"
+    "sourceId": "way/826219384",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
@@ -558,7 +586,7 @@
   {
     "department": "29",
     "name": "Aire Camping-car Rudoloc - Kerlouan",
-    "city": "Commune à confirmer",
+    "city": "Kerlouan",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -570,17 +598,18 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1046478310"
+    "sourceId": "way/1046478310",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Aire de Camping-cars Audierne",
-    "city": "Commune à confirmer",
+    "city": "Audierne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement payant ; sources divergentes : exploitant annonce 6 € sans durée précisée, sources communautaires 7 à 10 € / 24 h ; prix exact à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1091327911",
     "latitude": 48.027347,
@@ -590,17 +619,21 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1091327911",
-    "servicesSource": "https://www.openstreetmap.org/way/1091327911"
+    "servicesSource": "https://www.openstreetmap.org/way/1091327911",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire.",
+    "priceSource": "https://www.aireparkreservation.com/aires-camping-car/finistere",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif ou information issue de la source ; variations saisonnières et incertitudes précisées."
   },
   {
     "department": "29",
     "name": "Aire Camping-Car Park Loctudy",
-    "city": "Commune à confirmer",
+    "city": "Loctudy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "15,06 € / 24 h (13,74 € hors taxe de séjour + 1,32 €), du 01/10/2026 au 31/12/2027 ; 5 h + services : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1099686145",
     "latitude": 47.8283777,
@@ -610,12 +643,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1099686145",
-    "servicesSource": "https://www.openstreetmap.org/way/1099686145"
+    "servicesSource": "https://www.openstreetmap.org/way/1099686145",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/finistere/loctudy?areaType=stopover-site-motorhome",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif ou information issue de la source ; variations saisonnières et incertitudes précisées."
   },
   {
     "department": "29",
     "name": "Aire de Camping-Cars Elliant",
-    "city": "Commune à confirmer",
+    "city": "Elliant",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -627,12 +664,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1190814317"
+    "sourceId": "way/1190814317",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Aire de Camping-car Carantec",
-    "city": "Commune à confirmer",
+    "city": "Carantec",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -644,7 +682,8 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1214063238"
+    "sourceId": "way/1214063238",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
@@ -669,12 +708,12 @@
   {
     "department": "29",
     "name": "Aire de Camping-car de Quimperlé",
-    "city": "Commune à confirmer",
+    "city": "Quimperlé",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit (4 places) ; services 2 € et électricité 3 € / h selon relevé 2024, à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1282201220",
     "latitude": 47.8661991,
@@ -684,19 +723,23 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1282201220",
-    "servicesSource": "https://www.openstreetmap.org/way/1282201220"
+    "servicesSource": "https://www.openstreetmap.org/way/1282201220",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire.",
+    "priceSource": "https://www.campingcar76.fr/Site%20P08%2029%20Aires%20services%20Finistere%20%28Bretagne%29.htm",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif ou information issue de la source ; variations saisonnières et incertitudes précisées."
   },
   {
     "department": "29",
     "name": "Aire Camping-Car Faou, Park An Aod",
-    "city": "Commune à confirmer",
+    "city": "Le Faou",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Douches",
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,44 € / 24 h (tarif affiché sur la liste de l'exploitant, taxes à vérifier)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1284270701",
     "latitude": 48.2955173,
@@ -706,12 +749,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1284270701",
-    "servicesSource": "https://www.openstreetmap.org/way/1284270701"
+    "servicesSource": "https://www.openstreetmap.org/way/1284270701",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/finistere",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif ou information issue de la source ; variations saisonnières et incertitudes précisées."
   },
   {
     "department": "29",
     "name": "Aire Camping-car Park Douarnenez",
-    "city": "Commune à confirmer",
+    "city": "Douarnenez",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -723,17 +770,18 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1285601442"
+    "sourceId": "way/1285601442",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Aire municipale de Scaër",
-    "city": "Commune à confirmer",
+    "city": "Scaër",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement limité à 72 h ; borne de services 2 € selon relevé 2026 ; stationnement payant ou gratuit non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1292950934",
     "latitude": 48.0252278,
@@ -743,17 +791,21 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1292950934",
-    "servicesSource": "https://www.openstreetmap.org/way/1292950934"
+    "servicesSource": "https://www.openstreetmap.org/way/1292950934",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire.",
+    "priceSource": "https://www.campingcar76.fr/Site%20P08%2029%20Aires%20services%20Finistere%20%28Bretagne%29.htm",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif ou information issue de la source ; variations saisonnières et incertitudes précisées."
   },
   {
     "department": "29",
     "name": "Aire de camping-car de Pont l'Abbé",
-    "city": "Commune à confirmer",
+    "city": "Plonéour-Lanvern",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "15,57 € / 24 h dont 1,32 € de taxe de séjour (tarif affiché octobre 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1304889725",
     "latitude": 47.8683466,
@@ -763,12 +815,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1304889725",
-    "servicesSource": "https://www.openstreetmap.org/way/1304889725"
+    "servicesSource": "https://www.openstreetmap.org/way/1304889725",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/finistere/pont-l-abbe?areaType=aire-etape-camping-car",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif ou information issue de la source ; variations saisonnières et incertitudes précisées."
   },
   {
     "department": "29",
     "name": "Aire Camping-car Poullan-sur-Mer",
-    "city": "Commune à confirmer",
+    "city": "Poullan-sur-Mer",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -780,12 +836,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1317955969"
+    "sourceId": "way/1317955969",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Aire Camping-car Leclerc Tal ar Groas",
-    "city": "Commune à confirmer",
+    "city": "Crozon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes"
@@ -800,12 +857,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1317957871",
-    "servicesSource": "https://www.openstreetmap.org/way/1317957871"
+    "servicesSource": "https://www.openstreetmap.org/way/1317957871",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Aire Municipale Locmaria-Plouzané",
-    "city": "Commune à confirmer",
+    "city": "Locmaria-Plouzané",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -820,12 +878,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1317958902",
-    "servicesSource": "https://www.openstreetmap.org/way/1317958902"
+    "servicesSource": "https://www.openstreetmap.org/way/1317958902",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
     "name": "Aire de Stationnement de St Jean du Doigt",
-    "city": "Commune à confirmer",
+    "city": "Saint-Jean-du-Doigt",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -840,7 +899,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1318361399",
-    "servicesSource": "https://www.openstreetmap.org/way/1318361399"
+    "servicesSource": "https://www.openstreetmap.org/way/1318361399",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   },
   {
     "department": "29",
@@ -865,7 +925,7 @@
   {
     "department": "29",
     "name": "Aire de camping-car de Plozévet",
-    "city": "Commune à confirmer",
+    "city": "Plozévet",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -877,6 +937,7 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1421339938"
+    "sourceId": "way/1421339938",
+    "cityVerificationNote": "Commune déduite du nom ou de la localisation de l'aire ; à revérifier si nécessaire."
   }
 ]
