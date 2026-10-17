@@ -173,8 +173,12 @@
     "name": "Aire de camping-cars Cousance",
     "city": "Cousance",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Eau potable",
+      "Vidange eaux usées",
+      "Vidange WC"
+    ],
+    "price": "Stationnement et services gratuits (tarifs 2025 selon Camping-car.com ; confirmation 2026 à obtenir)",
     "status": "4 emplacements au Champ de Foire selon Jura Tourisme ; tarif non publié",
     "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-de-cousance/",
     "latitude": 46.5291701,
@@ -185,7 +189,10 @@
     "importReview": "4 emplacements confirmés par Jura Tourisme ; tarif et services non précisés. Ne pas déduire une gratuité.",
     "sourceId": "way/475882147",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
-    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-de-cousance/"
+    "servicesSource": "https://www.camping-car.com/aires/16403-aire-communale/",
+    "priceSource": "https://www.camping-car.com/aires/16403-aire-communale/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Capacité contradictoire : Jura Tourisme 4 places, Camping-car.com 10, i-campingcar 6 ; capacité non retenue comme certaine."
   },
   {
     "department": "39",
@@ -316,13 +323,11 @@
     "city": "Conliège",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Eau",
-      "Vidange des eaux usées",
-      "WC",
-      "Sanitaires chauffés",
-      "Aire de pique-nique"
+      "Eau potable",
+      "Vidange eaux usées",
+      "Vidange WC"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement et services gratuits selon i-campingcar (tarif 2026 à confirmer)",
     "status": "6 emplacements rue du Saugeois, ouverts toute l'année selon Jura Tourisme ; tarif non publié",
     "source": "https://www.openstreetmap.org/way/1296418825",
     "latitude": 46.6526885,
@@ -333,7 +338,10 @@
     "importReview": "GPS concordant avec fiche Jura Tourisme (écart inférieur à 30 m). Services confirmés ; tarif à confirmer.",
     "sourceId": "way/1296418825",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
-    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-12/"
+    "servicesSource": "https://www.i-campingcar.fr/aires/pdf/39.pdf",
+    "priceSource": "https://www.i-campingcar.fr/aires/pdf/39.pdf",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Jura Tourisme indique 6 emplacements, annuaire spécialisé 2 ; ne pas afficher une capacité certaine."
   },
   {
     "department": "39",
@@ -724,5 +732,49 @@
     "priceVerifiedOn": "2026-10-17",
     "servicesSource": "https://www.campercontact.com/fr/france/bourgogne-franche-comte/menetrux-en-joux/197206/scierie-des-lacs",
     "importReview": "Position issue d'OSM via Mapcarta, corroborée par Pitchup ; prix indicatif d'un annuaire, non tarif officiel."
+  },
+  {
+    "department": "39",
+    "name": "Aire de camping-car 39 – Frébuans",
+    "city": "Frébuans",
+    "type": "Aire privée de camping-car",
+    "services": [
+      "Électricité",
+      "Eau potable"
+    ],
+    "price": "9 € / nuit, électricité et eau comprises (annuaire Camping-car.com, date tarif non précisée)",
+    "status": "6 emplacements annoncés, ouvert toute l'année selon Camping-car.com",
+    "source": "https://www.camping-car.com/aires/46298-aire-camping-car-39/",
+    "latitude": 46.6516249,
+    "longitude": 5.4912519,
+    "gpsSource": "https://www.camping-car.com/aires/46298-aire-camping-car-39/",
+    "sourceId": "camping-car.com/46298",
+    "priceSource": "https://www.camping-car.com/aires/46298-aire-camping-car-39/",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.camping-car.com/aires/46298-aire-camping-car-39/",
+    "importReview": "227 rue des Bois de la Reine ; tarif indicatif annuaire sans date, à reconfirmer."
+  },
+  {
+    "department": "39",
+    "name": "Aire de services du Camping Les 3 Ours – Montbarrey",
+    "city": "Montbarrey",
+    "type": "Aire de services dans un camping",
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées",
+      "Wi-Fi"
+    ],
+    "price": "Tarif des services non communiqué ; séjour au camping payant",
+    "status": "90 emplacements au camping ; ouverture annoncée du 11 avril au 25 septembre 2026",
+    "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-cars-les-3-ours/",
+    "latitude": 47.011892,
+    "longitude": 5.6306924,
+    "gpsSource": "https://www.camping-car.com/aires/6679-les-trois-ours/",
+    "sourceId": "jura-tourism/HPABFC039318002803",
+    "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-cars-les-3-ours/",
+    "priceVerifiedOn": "2026-10-17",
+    "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-cars-les-3-ours/",
+    "importReview": "28 rue du Pont, GPS recoupé Camping-car.com. Capacité 90 : celle du camping, pas nécessairement 90 places de service."
   }
 ]
