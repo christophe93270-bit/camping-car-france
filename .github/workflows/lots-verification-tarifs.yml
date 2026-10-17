@@ -1,0 +1,23 @@
+name: Lots de vérification des tarifs
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preparer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Auditer les indications OSM
+        run: python scripts/proposer-communes-tarifs-osm.py
+      - name: Regrouper par exploitant et département
+        run: python scripts/regrouper-tarifs-a-verifier.py
+      - name: Archiver les rapports sans publier
+        uses: actions/upload-artifact@v4
+        with:
+          name: lots-tarifs-a-verifier
+          path: |
+            rapports-enrichissement/lots-tarifs-a-verifier.csv
+            rapports-enrichissement/synthese-lots-tarifs.csv
+          retention-days: 30
