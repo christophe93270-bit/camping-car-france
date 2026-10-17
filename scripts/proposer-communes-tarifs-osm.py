@@ -83,6 +83,20 @@ for kind, entries in candidates.items():
         verification_tarif = ("SOURCE_OSM_A_VERIFIER_SERVICE_ET_DATE" if montant_simple else
                               "CONDITIONS_A_INTERPRETER" if charge else
                               "AUCUN_MONTANT_EXPLICITE")
+        # Catégories descriptives : aucun prix n'est validé ni publié.
+        charge_lower = charge_normalise.casefold()
+        if not charge:
+            format_tarif = "SANS_MONTANT"
+        elif any(t in charge_lower for t in ("saison", "tax", "pax", "entrée", "entree")):
+            format_tarif = "CONDITIONS_OU_SUPPLEMENTS_A_VERIFIER"
+        elif re.search(r"(?:24\\s*h(?:ours?)?|48\\s*h(?:ours?)?|/\\s*(?:night|nuit|day|jour|d)\\b)", charge_lower):
+            format_tarif = "DUREE_EXPLICITE_A_VERIFIER"
+        elif re.fullmatch(r"\\d+(?:\\.\\d+)?", charge_lower):
+            format_tarif = "MONTANT_SANS_DEVISE_NI_DUREE"
+        elif montant_simple:
+            format_tarif = "MONTANT_SIMPLE_A_VERIFIER"
+        else:
+            format_tarif = "FORMAT_LIBRE_A_VERIFIER"
         rows.append({
             "fichier": filename, "index": index, "nom": item.get("name", ""),
             "source_osm": f"https://www.openstreetmap.org/{kind}/{sid}",
@@ -94,16 +108,18 @@ for kind, entries in candidates.items():
             "nature_montant": nature_montant,
             "priorite_controle": priorite,
             "verification_tarif": verification_tarif,
+            "format_tarif": format_tarif,
             "decision": decision,
         })
 out = Path("rapports-enrichissement")
 out.mkdir(exist_ok=True)
-fields = ["fichier","index","nom","source_osm","commune_actuelle","commune_proposee_addr_city","tarif_actuel","indication_fee_osm","montant_charge_osm_brut","nature_montant","priorite_controle","verification_tarif","decision"]
+fields = ["fichier","index","nom","source_osm","commune_actuelle","commune_proposee_addr_city","tarif_actuel","indication_fee_osm","montant_charge_osm_brut","nature_montant","priorite_controle","verification_tarif","format_tarif","decision"]
 with (out / "propositions-communes-tarifs-osm.csv").open("w", encoding="utf-8-sig", newline="") as stream:
     writer = csv.DictWriter(stream, fieldnames=fields)
     writer.writeheader()
     writer.writerows(rows)
+bilan_formats = {v: sum(row["format_tarif"] == v for row in rows) for v in sorted({row["format_tarif"] for row in rows})}
 bilan_priorites = {p: sum(row["priorite_controle"] == p for row in rows) for p in sorted({row["priorite_controle"] for row in rows})}
 bilan_montants = {nature: sum(row["nature_montant"] == nature for row in rows) for nature in ("MONTANT_SIMPLE_A_CONFIRMER", "MONTANT_COMPLEXE_A_INTERPRETER")}
 bilan_decisions = {decision: sum(row["decision"] == decision for row in rows) for decision in sorted({row["decision"] for row in rows})}
-print("BILAN_COMMUNES_TARIFS", json.dumps({"fiches_candidates": sum(map(len,candidates.values())), "propositions_a_verifier": len(rows), "categories": bilan_decisions, "montants": bilan_montants, "priorites": bilan_priorites, "publication_automatique": False}, ensure_ascii=False))
+print("BILAN_COMMUNES_TARIFS", json.dumps({"fiches_candidates": sum(map(len,candidates.values())), "propositions_a_verifier": len(rows), "categories": bilan_decisions, "montants": bilan_montants, "priorites": bilan_priorites, "formats_tarifs": bilan_formats, "publication_automatique": False}, ensure_ascii=False))
