@@ -2,7 +2,7 @@
   {
     "department": "33",
     "name": "Aire de Camping-car du Château du Payre",
-    "city": "Commune à confirmer",
+    "city": "Cardan",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -14,12 +14,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/11063796343"
+    "sourceId": "node/11063796343",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   },
   {
     "department": "33",
     "name": "Aire de camping-car Château Cassagne Haut-Canon",
-    "city": "Commune à confirmer",
+    "city": "Fronsac",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -31,12 +32,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12144773946"
+    "sourceId": "node/12144773946",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   },
   {
     "department": "33",
     "name": "Aire de camping-cars de Caroy à Bernos-Beaulac",
-    "city": "Commune à confirmer",
+    "city": "Bernos-Beaulac",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -51,15 +53,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12167420575",
-    "servicesSource": "https://www.openstreetmap.org/node/12167420575"
+    "servicesSource": "https://www.openstreetmap.org/node/12167420575",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   },
   {
     "department": "33",
     "name": "Aire de stationnement de Saint-Savin",
-    "city": "Commune à confirmer",
+    "city": "Saint-Savin",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; tarif des services non précisé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12168280617",
     "latitude": 45.13796,
@@ -68,12 +71,16 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12168280617"
+    "sourceId": "node/12168280617",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique.",
+    "priceSource": "https://www.gironde-tourisme.com/aires-camping-cars/aire-de-stationnement-de-saint-savin/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
     "name": "Accueil Camping-Cars à la Maison des Vins de Cadillac",
-    "city": "Commune à confirmer",
+    "city": "Cadillac-sur-Garonne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -85,17 +92,18 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12204861968"
+    "sourceId": "node/12204861968",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   },
   {
     "department": "33",
     "name": "Aire de camping-car du port ostréicole",
-    "city": "Commune à confirmer",
+    "city": "Andernos-les-Bains",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
+    "price": "18 € / nuit ; eau 5 € en supplément",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/99721050",
     "latitude": 44.7449058,
@@ -105,17 +113,21 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/99721050",
-    "servicesSource": "https://www.openstreetmap.org/way/99721050"
+    "servicesSource": "https://www.openstreetmap.org/way/99721050",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique.",
+    "priceSource": "https://bassin-arcachon.com/hebergement/aire-de-camping-cars-dandernos/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
     "name": "Aire de camping-cars d’Hourtin-Port",
-    "city": "Commune à confirmer",
+    "city": "Hourtin",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Environ 14 à 14,50 € / nuit, tarif indicatif 2025–2026, à confirmer auprès de l'aire",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/127254534",
     "latitude": 45.1808896,
@@ -125,7 +137,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/127254534",
-    "servicesSource": "https://www.openstreetmap.org/way/127254534"
+    "servicesSource": "https://www.openstreetmap.org/way/127254534",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique.",
+    "priceSource": "https://www.camping-car.com/aires/15559-aire-de-camping-car-hourtin-port/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
@@ -135,7 +151,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit, 5 jours maximum ; eau 3 € / 100 L ou électricité 3 € / 6 h",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/162096194",
     "latitude": 44.7765484,
@@ -145,7 +161,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/162096194",
-    "servicesSource": "https://www.openstreetmap.org/way/162096194"
+    "servicesSource": "https://www.openstreetmap.org/way/162096194",
+    "priceSource": "https://www.mairie-creon.fr/page/mobilites",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
@@ -155,7 +174,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,83 € / 24 h, dont 0,58 € de taxe de séjour (grille du 01/10/2026 au 31/12/2027) ; 5 h + services 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/228106902",
     "latitude": 44.6355498,
@@ -165,15 +184,18 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/228106902",
-    "servicesSource": "https://www.openstreetmap.org/way/228106902"
+    "servicesSource": "https://www.openstreetmap.org/way/228106902",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/gironde/cadillac-sur-garonne",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
     "name": "Aire de Camping-Cars de Cadillac",
-    "city": "Commune à confirmer",
+    "city": "Cadillac-sur-Garonne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Ancienne aire rue du Parc supprimée en 2025 : stationnement camping-car interdit ; ne pas utiliser",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/384039336",
     "latitude": 44.6387296,
@@ -182,17 +204,21 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/384039336"
+    "sourceId": "way/384039336",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique.",
+    "priceSource": "https://cadillacsurgaronne.fr/wp-content/uploads/2025/09/Cadillac-Infos-sept-oct-2025_light.pdf",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
     "name": "Aire de camping-car du Lac de Dagueys",
-    "city": "Commune à confirmer",
+    "city": "Libourne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "16,60 € / 24 h, dont 1,72 € de taxe de séjour ; 5 h + services 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/736536265",
     "latitude": 44.9476706,
@@ -202,17 +228,21 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/736536265",
-    "servicesSource": "https://www.openstreetmap.org/way/736536265"
+    "servicesSource": "https://www.openstreetmap.org/way/736536265",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/gironde/libourne?areaType=aire-etape-camping-car",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
     "name": "Aire de Camping-Cars du Lac Cazaux",
-    "city": "Commune à confirmer",
+    "city": "La Teste-de-Buch",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,50 à 17 € / 24 h selon la saison, eau et électricité incluses",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/839321940",
     "latitude": 44.5317005,
@@ -222,7 +252,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/839321940",
-    "servicesSource": "https://www.openstreetmap.org/way/839321940"
+    "servicesSource": "https://www.openstreetmap.org/way/839321940",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique.",
+    "priceSource": "https://tourisme-latestedebuch.com/hebergements/aire-de-camping-cars-du-lac/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
@@ -278,7 +312,7 @@
   {
     "department": "33",
     "name": "Aire de stationnement pour Campingcars",
-    "city": "Commune à confirmer",
+    "city": "Langoiran",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -293,7 +327,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/899413225",
-    "servicesSource": "https://www.openstreetmap.org/way/899413225"
+    "servicesSource": "https://www.openstreetmap.org/way/899413225",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   },
   {
     "department": "33",
@@ -303,7 +338,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement et services signalés gratuits (source communautaire 2026 ; mairie à confirmer)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/901869827",
     "latitude": 44.745171,
@@ -313,7 +348,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/901869827",
-    "servicesSource": "https://www.openstreetmap.org/way/901869827"
+    "servicesSource": "https://www.openstreetmap.org/way/901869827",
+    "priceSource": "https://park4night.com/fr/place/511561",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
@@ -323,7 +361,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement signalé à 12 € pour 48 h maximum ; services gratuits (source non officielle, à confirmer)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/901872961",
     "latitude": 44.6504747,
@@ -333,7 +371,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/901872961",
-    "servicesSource": "https://www.openstreetmap.org/way/901872961"
+    "servicesSource": "https://www.openstreetmap.org/way/901872961",
+    "priceSource": "https://www.campingcar76.fr/Site%20P08%2033%20Aires%20services%20Gironde%20%28Aquitaine%29.htm",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
@@ -379,7 +420,7 @@
   {
     "department": "33",
     "name": "Aire de camping-cars du Verdon",
-    "city": "Commune à confirmer",
+    "city": "Le Verdon-sur-Mer",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -394,12 +435,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/919596267",
-    "servicesSource": "https://www.openstreetmap.org/way/919596267"
+    "servicesSource": "https://www.openstreetmap.org/way/919596267",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   },
   {
     "department": "33",
     "name": "Aire de camping-car Saint-Laurent",
-    "city": "Commune à confirmer",
+    "city": "Saint-Laurent-Médoc",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -414,15 +456,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1236135698",
-    "servicesSource": "https://www.openstreetmap.org/way/1236135698"
+    "servicesSource": "https://www.openstreetmap.org/way/1236135698",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   },
   {
     "department": "33",
     "name": "Aire de Camping-Car de Coutras",
-    "city": "Commune à confirmer",
+    "city": "Coutras",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit jusqu'à 3 nuits (6 emplacements) ; eau et vidange disponibles",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1266629008",
     "latitude": 45.0413967,
@@ -431,12 +474,16 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1266629008"
+    "sourceId": "way/1266629008",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique.",
+    "priceSource": "https://www.tourisme-libournais.com/aire-camping-car/aire-de-camping-cars-de-coutras/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
     "name": "Aire de stationnement de Taussat",
-    "city": "Commune à confirmer",
+    "city": "Lanton",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -448,12 +495,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1268136238"
+    "sourceId": "way/1268136238",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   },
   {
     "department": "33",
     "name": "Aire de camping-cars de Saint-Paul",
-    "city": "Commune à confirmer",
+    "city": "Saint-Paul",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -465,12 +513,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1280191754"
+    "sourceId": "way/1280191754",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   },
   {
     "department": "33",
     "name": "Aire de camping-cars de Fontet",
-    "city": "Commune à confirmer",
+    "city": "Fontet",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -485,18 +534,19 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1281966335",
-    "servicesSource": "https://www.openstreetmap.org/way/1281966335"
+    "servicesSource": "https://www.openstreetmap.org/way/1281966335",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   },
   {
     "department": "33",
     "name": "Aire Camping-Car Lussac, Grand Saint-Emilionnais",
-    "city": "Commune à confirmer",
+    "city": "Lussac",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,64 € / 24 h, dont 1,64 € de taxe de séjour ; 5 h + services 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1284734672",
     "latitude": 44.9462086,
@@ -506,12 +556,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1284734672",
-    "servicesSource": "https://www.openstreetmap.org/way/1284734672"
+    "servicesSource": "https://www.openstreetmap.org/way/1284734672",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/gironde/lussac",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
     "name": "Aire Camping-Cars Saint-Vivien-de-Blaye",
-    "city": "Commune à confirmer",
+    "city": "Saint-Vivien-de-Blaye",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -523,17 +577,18 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1314656566"
+    "sourceId": "way/1314656566",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   },
   {
     "department": "33",
     "name": "Aire de camping-cars du Huga",
-    "city": "Commune à confirmer",
+    "city": "Lacanau",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "17,22 € / 24 h, dont 1,72 € de taxe de séjour ; 5 h + services 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1316022591",
     "latitude": 45.0059999,
@@ -543,15 +598,19 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1316022591",
-    "servicesSource": "https://www.openstreetmap.org/way/1316022591"
+    "servicesSource": "https://www.openstreetmap.org/way/1316022591",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/gironde/lacanau%20-%20grande%20aire?areaType=aire-etape-camping-car",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
     "name": "Camping-car Park Port Médoc",
-    "city": "Commune à confirmer",
+    "city": "Le Verdon-sur-Mer",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "15,72 € / 24 h, dont 1,72 € de taxe de séjour ; 5 h + services 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1316128616",
     "latitude": 45.553886,
@@ -560,15 +619,19 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1316128616"
+    "sourceId": "way/1316128616",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/gironde/port-medoc",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
     "name": "Aire de stationnement pour camping-cars de Bourg",
-    "city": "Commune à confirmer",
+    "city": "Bourg",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit sans eau ni électricité ; borne payante séparée au port (prix non publié)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1323505756",
     "latitude": 45.0399069,
@@ -577,12 +640,16 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1323505756"
+    "sourceId": "way/1323505756",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique.",
+    "priceSource": "https://bourg-gironde.fr/hebergement/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Tarif et limites selon source citée. Vérifier avant déplacement."
   },
   {
     "department": "33",
     "name": "Aire Camping Car de Gornac",
-    "city": "Commune à confirmer",
+    "city": "Gornac",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -594,12 +661,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1328384800"
+    "sourceId": "way/1328384800",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   },
   {
     "department": "33",
     "name": "Aire de camping car Saint-Ciers-sur-Gironde",
-    "city": "Commune à confirmer",
+    "city": "Saint-Ciers-sur-Gironde",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -611,6 +679,7 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1332688345"
+    "sourceId": "way/1332688345",
+    "cityVerificationNote": "Commune établie par le nom de l'aire, ses coordonnées ou une source touristique."
   }
 ]
