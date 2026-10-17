@@ -78,6 +78,11 @@ for kind, entries in candidates.items():
                     "P2_TARIF_COMPLEXE_A_CONTROLER" if charge else
                     "P3_COMMUNE_A_CONTROLER" if proposed_city else
                     "P4_INDICATION_PAIEMENT")
+        # La syntaxe seule ne prouve ni le tarif ni le service concerné.
+        # Un montant OSM reste une proposition et ne doit pas écraser un tarif.
+        verification_tarif = ("SOURCE_OSM_A_VERIFIER_SERVICE_ET_DATE" if montant_simple else
+                              "CONDITIONS_A_INTERPRETER" if charge else
+                              "AUCUN_MONTANT_EXPLICITE")
         rows.append({
             "fichier": filename, "index": index, "nom": item.get("name", ""),
             "source_osm": f"https://www.openstreetmap.org/{kind}/{sid}",
@@ -88,11 +93,12 @@ for kind, entries in candidates.items():
             "montant_charge_osm_brut": charge,
             "nature_montant": nature_montant,
             "priorite_controle": priorite,
+            "verification_tarif": verification_tarif,
             "decision": decision,
         })
 out = Path("rapports-enrichissement")
 out.mkdir(exist_ok=True)
-fields = ["fichier","index","nom","source_osm","commune_actuelle","commune_proposee_addr_city","tarif_actuel","indication_fee_osm","montant_charge_osm_brut","nature_montant","priorite_controle","decision"]
+fields = ["fichier","index","nom","source_osm","commune_actuelle","commune_proposee_addr_city","tarif_actuel","indication_fee_osm","montant_charge_osm_brut","nature_montant","priorite_controle","verification_tarif","decision"]
 with (out / "propositions-communes-tarifs-osm.csv").open("w", encoding="utf-8-sig", newline="") as stream:
     writer = csv.DictWriter(stream, fieldnames=fields)
     writer.writeheader()
