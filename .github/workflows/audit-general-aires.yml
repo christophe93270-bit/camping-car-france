@@ -1,0 +1,61 @@
+name: Audit general des aires et doublons
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Analyser les donnees chargees par le site
+        run: |
+          python - <<'PY'
+          import json,re,unicodedata,collections,math
+          from pathlib import Path
+          js=Path("app.js").read_text(encoding="utf-8")
+          paths=list(dict.fromkeys(re.findall(r'fetch\(["\'](aires(?:-[a-z-]+)?\.json)(?:\?[^"\']*)?["\']',js)))
+          data=[]; missing=[]; perfile={}
+          for path in paths:
+              f=Path(path)
+              if not f.exists():missing.append(path);continue
+              try:rows=json.loads(f.read_text(encoding="utf-8"))
+              except Exception as exc:print("JSON_INVALIDE",path,str(exc));continue
+              if not isinstance(rows,list):print("FORMAT_INVALIDE",path);continue
+              perfile[path]=len(rows)
+              for i,row in enumerate(rows):
+                  if isinstance(row,dict):data.append((path,i,row))
+          codes={str(x.get("code")):x.get("name") for x in json.loads(Path("departements.json").read_text(encoding="utf-8"))}
+          departments=collections.Counter(str(row.get("department","")) for _,_,row in data)
+          def norm(s):
+              s=unicodedata.normalize("NFKD",str(s or "").lower())
+              return re.sub(r"[^a-z0-9]","", "".join(c for c in s if not unicodedata.combining(c)))
+          def coord(row):
+              try:
+                  a,b=float(row.get("latitude")),float(row.get("longitude"))
+                  return (a,b) if math.isfinite(a) and math.isfinite(b) else None
+              except (ValueError,TypeError):return None
+          byid=collections.defaultdict(list);byname=collections.defaultdict(list);bycoord=collections.defaultdict(list)
+          for path,i,row in data:
+              dep=str(row.get("department",""))
+              sourceid=row.get("sourceId") or row.get("id")
+              if sourceid:byid[(dep,str(sourceid))].append((path,i))
+              name=norm(row.get("name"))
+              if name:byname[(dep,name,norm(row.get("city")))].append((path,i))
+              p=coord(row)
+              if p:bycoord[(dep,round(p[0],4),round(p[1],4))].append((path,i))
+          def groups(d):return [v for v in d.values() if len(v)>1]
+          sameid=groups(byid);samename=groups(byname);samecoord=groups(bycoord)
+          print("AUDIT_FICHIERS_CHARGES",len(paths))
+          print("AUDIT_FICHIERS_EXISTANTS",len(perfile))
+          print("AUDIT_FICHIERS_MANQUANTS",missing)
+          print("AUDIT_ENREGISTREMENTS_BRUTS",len(data))
+          print("AUDIT_DEPARTEMENTS_REPRESENTES",len(set(departments)&set(codes)))
+          print("AUDIT_DEPARTEMENTS_SANS_DONNEES",[(k,v) for k,v in codes.items() if not departments[k]])
+          print("AUDIT_GROUPES_MEME_ID",len(sameid))
+          print("AUDIT_GROUPES_MEME_NOM_VILLE",len(samename))
+          print("AUDIT_GROUPES_MEMES_COORDONNEES",len(samecoord))
+          print("AUDIT_EXEMPLES_DOUBLONS",json.dumps({"id":sameid[:12],"nom":samename[:12],"gps":samecoord[:12]},ensure_ascii=False))
+          print("AUDIT_COMPTAGES_PAR_DEPARTEMENT",json.dumps(dict(sorted(departments.items())),ensure_ascii=False))
+          print("AUDIT_NOTE Les comptages sont bruts; app.js filtre certains doublons du 44 et aucun doublon potentiel ne doit etre supprime automatiquement.")
+          PY
