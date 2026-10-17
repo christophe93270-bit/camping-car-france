@@ -2,7 +2,7 @@
   {
     "department": "18",
     "name": "Le Pondy Aire de camping-cars",
-    "city": "Commune à confirmer",
+    "city": "Le Pondy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -14,12 +14,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/5555895416"
+    "sourceId": "node/5555895416",
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement."
   },
   {
     "department": "18",
     "name": "Aire camping-car Beffes",
-    "city": "Commune à confirmer",
+    "city": "Beffes",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -31,7 +32,8 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/6684080597"
+    "sourceId": "node/6684080597",
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement."
   },
   {
     "department": "18",
@@ -53,7 +55,7 @@
   {
     "department": "18",
     "name": "Aire de Camping-car d'Aubigny-sur-Nère",
-    "city": "Commune à confirmer",
+    "city": "Aubigny-sur-Nère",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -68,17 +70,18 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/288198803",
-    "servicesSource": "https://www.openstreetmap.org/way/288198803"
+    "servicesSource": "https://www.openstreetmap.org/way/288198803",
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement."
   },
   {
     "department": "18",
     "name": "Camping-Car Park Bourges",
-    "city": "Commune à confirmer",
+    "city": "Bourges",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,45 € / 24 h, dont 1,22 € de taxe de séjour (tarif en cours au 17/10/2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/671375775",
     "latitude": 47.0848972,
@@ -88,19 +91,23 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/671375775",
-    "servicesSource": "https://www.openstreetmap.org/way/671375775"
+    "servicesSource": "https://www.openstreetmap.org/way/671375775",
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/Centre-Val%20de%20Loire/Cher/bourges",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; prix de services distingués du stationnement."
   },
   {
     "department": "18",
     "name": "Aire Camping-car Park Lunery",
-    "city": "Commune à confirmer",
+    "city": "Lunery",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Douches",
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "13,17 € / 24 h, dont 0,44 € de taxe de séjour (tarif en cours au 17/10/2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/834311205",
     "latitude": 46.9365253,
@@ -110,15 +117,19 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/834311205",
-    "servicesSource": "https://www.openstreetmap.org/way/834311205"
+    "servicesSource": "https://www.openstreetmap.org/way/834311205",
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/cher/lunery?areaType=camping",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; prix de services distingués du stationnement."
   },
   {
     "department": "18",
     "name": "Mehun-sur-Yèvre Aire de Camping-Car",
-    "city": "Commune à confirmer",
+    "city": "Mehun-sur-Yèvre",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "2,50 € pour le service de l'aire, paiement par carte ; prix du stationnement non précisé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/907760911",
     "latitude": 47.1441364,
@@ -127,7 +138,11 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/907760911"
+    "sourceId": "way/907760911",
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
+    "priceSource": "https://www.ville-mehun-sur-yevre.fr/tourisme/preparer-sa-visite/sejourner",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; prix de services distingués du stationnement."
   },
   {
     "department": "18",
@@ -149,7 +164,7 @@
   {
     "department": "18",
     "name": "Aire de camping-car de Dun-sur-Auron",
-    "city": "Commune à confirmer",
+    "city": "Dun-sur-Auron",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Douches",
@@ -165,17 +180,20 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/964240090",
-    "servicesSource": "https://www.openstreetmap.org/way/964240090"
+    "servicesSource": "https://www.openstreetmap.org/way/964240090",
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
+    "priceNote": "Deux lieux distincts à Dun-sur-Auron : camping Camping-Car Park payant quai du Canal (12,44 €/24 h) et parking gratuit rue du Bief. Correspondance avec ce point OSM à vérifier avant attribution d'un tarif.",
+    "verificationSource": "https://www.destination-sud-berry.com/aires-camping-cars/aire-de-service-dun-sur-auron/"
   },
   {
     "department": "18",
     "name": "Menetou-Salon Aire pour camping-cars",
-    "city": "Commune à confirmer",
+    "city": "Menetou-Salon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Gratuit (stationnement et aire de services annoncés gratuits)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1189615582",
     "latitude": 47.2317937,
@@ -185,15 +203,19 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1189615582",
-    "servicesSource": "https://www.openstreetmap.org/way/1189615582"
+    "servicesSource": "https://www.openstreetmap.org/way/1189615582",
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
+    "priceSource": "https://www.berryprovince.com/aires-camping-cars/aire-de-service-de-menetou-salon/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; prix de services distingués du stationnement."
   },
   {
     "department": "18",
     "name": "Aire de Camping-Car Vierzon",
-    "city": "Commune à confirmer",
+    "city": "Vierzon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement non confirmé ; eau 2 € / 100 L ; électricité 3 € / 2 h",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1232524036",
     "latitude": 47.219845,
@@ -202,12 +224,16 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1232524036"
+    "sourceId": "way/1232524036",
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
+    "priceSource": "https://www.berrysolognetourisme.com/aire-camping-car/aire-de-service-vierzon/",
+    "priceVerifiedOn": "2026-10-17",
+    "priceNote": "Source mairie, office de tourisme ou exploitant ; prix de services distingués du stationnement."
   },
   {
     "department": "18",
     "name": "Aire Camping-car Mareuil-sur-Arnon, la Grande Forge",
-    "city": "Commune à confirmer",
+    "city": "Mareuil-sur-Arnon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -222,7 +248,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1284597776",
-    "servicesSource": "https://www.openstreetmap.org/way/1284597776"
+    "servicesSource": "https://www.openstreetmap.org/way/1284597776",
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement."
   },
   {
     "department": "18",
@@ -266,7 +293,7 @@
   {
     "department": "18",
     "name": "Aire de Camping-Car Humbligny",
-    "city": "Commune à confirmer",
+    "city": "Humbligny",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -278,6 +305,7 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1290761614"
+    "sourceId": "way/1290761614",
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement."
   }
 ]
