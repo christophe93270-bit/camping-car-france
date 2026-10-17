@@ -73,6 +73,11 @@ for kind, entries in candidates.items():
         charge_normalise = charge.strip().replace(",", ".")
         montant_simple = bool(re.fullmatch(r"\s*\d+(?:\.\d{1,2})?\s*(?:€|EUR|euros?)(?:\s*/\s*(?:nuit|jour|24\s*h|night|day))?\s*", charge_normalise, flags=re.I))
         nature_montant = "MONTANT_SIMPLE_A_CONFIRMER" if montant_simple else ("MONTANT_COMPLEXE_A_INTERPRETER" if charge else "")
+        # Priorité de revue, sans aucune modification automatique des données.
+        priorite = ("P1_TARIF_SIMPLE_A_CONTROLER" if montant_simple else
+                    "P2_TARIF_COMPLEXE_A_CONTROLER" if charge else
+                    "P3_COMMUNE_A_CONTROLER" if proposed_city else
+                    "P4_INDICATION_PAIEMENT")
         rows.append({
             "fichier": filename, "index": index, "nom": item.get("name", ""),
             "source_osm": f"https://www.openstreetmap.org/{kind}/{sid}",
@@ -82,15 +87,17 @@ for kind, entries in candidates.items():
             "indication_fee_osm": fee,
             "montant_charge_osm_brut": charge,
             "nature_montant": nature_montant,
+            "priorite_controle": priorite,
             "decision": decision,
         })
 out = Path("rapports-enrichissement")
 out.mkdir(exist_ok=True)
-fields = ["fichier","index","nom","source_osm","commune_actuelle","commune_proposee_addr_city","tarif_actuel","indication_fee_osm","montant_charge_osm_brut","nature_montant","decision"]
+fields = ["fichier","index","nom","source_osm","commune_actuelle","commune_proposee_addr_city","tarif_actuel","indication_fee_osm","montant_charge_osm_brut","nature_montant","priorite_controle","decision"]
 with (out / "propositions-communes-tarifs-osm.csv").open("w", encoding="utf-8-sig", newline="") as stream:
     writer = csv.DictWriter(stream, fieldnames=fields)
     writer.writeheader()
     writer.writerows(rows)
+bilan_priorites = {p: sum(row["priorite_controle"] == p for row in rows) for p in sorted({row["priorite_controle"] for row in rows})}
 bilan_montants = {nature: sum(row["nature_montant"] == nature for row in rows) for nature in ("MONTANT_SIMPLE_A_CONFIRMER", "MONTANT_COMPLEXE_A_INTERPRETER")}
 bilan_decisions = {decision: sum(row["decision"] == decision for row in rows) for decision in sorted({row["decision"] for row in rows})}
-print("BILAN_COMMUNES_TARIFS", json.dumps({"fiches_candidates": sum(map(len,candidates.values())), "propositions_a_verifier": len(rows), "categories": bilan_decisions, "montants": bilan_montants, "publication_automatique": False}, ensure_ascii=False))
+print("BILAN_COMMUNES_TARIFS", json.dumps({"fiches_candidates": sum(map(len,candidates.values())), "propositions_a_verifier": len(rows), "categories": bilan_decisions, "montants": bilan_montants, "priorites": bilan_priorites, "publication_automatique": False}, ensure_ascii=False))
