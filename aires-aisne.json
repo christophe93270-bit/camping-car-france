@@ -5,10 +5,12 @@
     "city": "Braine",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Électricité 10 A",
+      "Eau potable",
+      "Vidange eaux usées"
     ],
     "price": "À confirmer : 9 € / nuit selon l'office de tourisme, 12,12 € / 24 h taxe comprise selon Qipeo",
-    "status": "Commune vérifiée; prix divergent entre sources, à confirmer auprès de l'exploitant",
+    "status": "6 emplacements ; borne d'accès 24h/24, tarif 2026 variable selon sources",
     "source": "https://www.openstreetmap.org/node/11978957643",
     "latitude": 49.3445605,
     "longitude": 3.537143,
@@ -20,7 +22,11 @@
     "servicesSource": "https://www.openstreetmap.org/node/11978957643",
     "priceSource": "https://www.qipeo.com/detail/257d41e5-70bc-442d-9eba-63e971fd5920",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Sources divergentes : tourisme 9 € la nuit, Qipeo 12,12 € /24h dont 1,32 € de taxe. Ne pas présenter de montant unique comme confirmé."
+    "priceNote": "Sources divergentes : tourisme 9 € la nuit, Qipeo 12,12 € /24h dont 1,32 € de taxe. Ne pas présenter de montant unique comme confirmé.",
+    "capacity": 6,
+    "address": "Chemin de la Chantereine, 02220 Braine",
+    "verificationNote": "Park4night mentionne 6 places et des avis 2026 signalant des montants variables (12,22 € sans électricité en juin, affichage 15 € /24h sur fiche). Conserver le prix Qipeo comme référence et ne pas affirmer de tarif unique.",
+    "verificationSource": "https://park4night.com/fr/place/13746"
   },
   {
     "department": "02",
@@ -137,13 +143,15 @@
     "department": "02",
     "name": "Aire de Camping-Cars Coucy-le-Château",
     "city": "Coucy-le-Château-Auffrique",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire communale de stationnement et de services",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Électricité 8 A",
+      "Eau potable",
+      "Vidange eaux usées",
+      "Toilettes"
     ],
-    "price": "Tarif à confirmer : grille touristique ancienne (2024) différente des indications 2026",
-    "status": "Commune identifiée auprès d'une source touristique; tarif à confirmer",
+    "price": "8 € le stationnement ; eau et électricité 2 € selon reportage de septembre 2026 ; taxe de séjour éventuelle à confirmer",
+    "status": "Ouverte toute l'année selon reportage septembre 2026 ; capacité et prix à confirmer auprès de la mairie en cas de changement",
     "source": "https://www.openstreetmap.org/way/487957203",
     "latitude": 49.5201075,
     "longitude": 3.3139996,
@@ -155,7 +163,10 @@
     "servicesSource": "https://www.openstreetmap.org/way/487957203",
     "verificationSource": "https://www.coucylechateau.com/h%C3%A9bergements-restauration-aire-camping-car-salles-de-r%C3%A9ception/aire-de-camping-cars/",
     "verificationDate": "2026-10-17",
-    "verificationNote": "L'office de tourisme publie 7 € de services hors taxe (2024); une source de septembre 2026 indique 8 € pour l'emplacement et 2 € de services. Montants non réconciliés."
+    "verificationNote": "Reportage du 24/09/2026 : 11 places, 8 € de stationnement, 2 € pour eau et électricité ; office de tourisme présente encore une grille 2024 avec 6 places. Divergence de capacité et de tarif conservée comme réserve.",
+    "capacity": 11,
+    "priceSource": "https://www.camping-car.com/tourisme/actus-des-aires/une-etape-avec-un-panorama-magnifique-bienvenue-sur-l-aire-de-camping-car-de-coucy-le-chateau-auffrique-02/",
+    "priceVerifiedOn": "2026-10-18"
   },
   {
     "department": "02",
