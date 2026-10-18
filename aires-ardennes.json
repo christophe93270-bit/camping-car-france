@@ -60,10 +60,13 @@
     "city": "Monthermé",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Douches et sanitaires",
+      "Lave-linge et sèche-linge"
     ],
     "price": "5 € / emplacement ; électricité 3,50 € / 24 h ; taxe de séjour 0,55 € par adulte",
-    "status": "Informations tarifaires documentées par une source publique ; autres données à vérifier.",
+    "status": "Services d'avril à octobre ; stationnement possible hors saison sans services",
     "source": "https://www.openstreetmap.org/way/353211068",
     "latitude": 49.8860926,
     "longitude": 4.7360326,
@@ -74,10 +77,10 @@
     "sourceId": "way/353211068",
     "servicesSource": "https://www.openstreetmap.org/way/353211068",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
-    "priceSource": "https://www.montherme.fr/tourisme/aire-de-camping-car/",
+    "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car-de-montherme/",
     "priceVerifiedOn": "2026-10-17",
     "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons.",
-    "sourceOfficial": "https://www.montherme.fr/tourisme/aire-de-camping-car/"
+    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-de-montherme/"
   },
   {
     "department": "08",
@@ -135,10 +138,13 @@
     "city": "Revin",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit",
+      "Vidange gratuite",
+      "Eau payante",
+      "Électricité payante"
     ],
     "price": "Stationnement gratuit ; eau 3 € / 100 L ; électricité 3 € / heure",
-    "status": "Informations tarifaires documentées par une source publique ; autres données à vérifier.",
+    "status": "Aire annexe ouverte du 1er avril au 31 octobre selon météo ; eau susceptible d'être coupée de novembre à mars ; tarifs affichés historiquement, à reconfirmer",
     "source": "https://www.openstreetmap.org/way/523063721",
     "latitude": 49.9396278,
     "longitude": 4.6383038,
@@ -149,19 +155,23 @@
     "sourceId": "way/523063721",
     "servicesSource": "https://www.openstreetmap.org/way/523063721",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
-    "priceSource": "https://www.revin.fr/tourisme/aire-de-camping-car",
+    "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car-revin/",
     "priceVerifiedOn": "2026-10-17",
     "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons.",
-    "sourceOfficial": "https://www.revin.fr/tourisme/aire-de-camping-car"
+    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-revin/",
+    "capacity": 17
   },
   {
     "department": "08",
     "name": "Aire de camping-car – Vireux-Molhain",
     "city": "Vireux-Molhain",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau",
+      "Vidange eaux usées"
+    ],
     "price": "11 € / jour + 0,22 € de taxe de séjour",
-    "status": "Informations tarifaires documentées par une source publique ; autres données à vérifier.",
+    "status": "Accès 24 h/24 par carte bancaire selon ADT ; horaires publiés jusqu'au 31 décembre 2027",
     "source": "https://www.openstreetmap.org/way/567561685",
     "latitude": 50.0791299,
     "longitude": 4.7267332,
@@ -174,7 +184,8 @@
     "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car-vireux-molhain/",
     "priceVerifiedOn": "2026-10-17",
     "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons.",
-    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-vireux-molhain/"
+    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-vireux-molhain/",
+    "capacity": 23
   },
   {
     "department": "08",
