@@ -2,41 +2,53 @@
   {
     "department": "90",
     "name": "Aire de camping-car de Giromagny",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Giromagny",
+    "type": "Aire de camping-car CAMPING-CAR PARK",
     "services": [
-      "Électricité"
+      "Électricité",
+      "Borne de services (détails à confirmer auprès de l'exploitant)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Consulter le tarif en vigueur auprès de CAMPING-CAR PARK",
+    "status": "Aire référencée par Belfort Tourisme et CAMPING-CAR PARK. Belfort Tourisme annonce un accès à partir du 1er juillet, sans préciser l'année sur la fiche consultée ; horaires et tarifs actuels à vérifier.",
     "source": "https://www.openstreetmap.org/node/14276425347",
     "latitude": 47.736421,
     "longitude": 6.8298952,
     "gpsSource": "https://www.openstreetmap.org/node/14276425347",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Belfort Tourisme et exploitant confirment l'adresse 5 rue de la Gare. Délibération municipale du 5 mars 2026 : achat d'un kit CAMPING-CAR PARK incluant contrôle d'accès, borne de services et bornes électriques. Ne pas déduire la disponibilité de tous les services de la seule délibération.",
     "sourceId": "node/14276425347",
-    "servicesSource": "https://www.openstreetmap.org/node/14276425347"
+    "servicesSource": "https://www.giromagny.fr/pv-5mars2026-vf.pdf",
+    "address": "5 rue de la Gare, 90200 Giromagny",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/territoire-de-belfort/giromagny",
+    "cityVerificationNote": "Commune et adresse confirmées par Belfort Tourisme ; coordonnées GPS OSM conservées."
   },
   {
     "department": "90",
     "name": "Aire de camping-car de Montreux-Château",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Montreux-Château",
+    "type": "Aire intercommunale de stationnement et services camping-car",
     "services": [
-      "Électricité"
+      "Électricité",
+      "Eau potable",
+      "Vidange eaux grises",
+      "Vidange eaux noires",
+      "WC"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif historique : 5 € par jour (délibération de 2005) ; tarif actuel à confirmer",
+    "status": "Aire aménagée par la communauté de communes, avec monnayeur à l'entrée du bâtiment des services techniques en face de l'aire. Ouverture saisonnière possible : vérifier les dates et tarifs actuels.",
     "source": "https://www.openstreetmap.org/way/224949694",
     "latitude": 47.6016133,
     "longitude": 7.0017057,
     "gpsSource": "https://www.openstreetmap.org/way/224949694",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Source communale confirme eau, électricité, vidange eaux grises/noires, WC, monnayeur. Prix 5 €/jour fondé sur une délibération du 26 mai 2005, non assimilé à un prix 2026. Annuaire spécialisé indique 7 places et ouverture 30/03-30/11, non repris comme garantie officielle.",
     "sourceId": "way/224949694",
-    "servicesSource": "https://www.openstreetmap.org/way/224949694"
+    "servicesSource": "https://montreux-chateau.jimdofree.com/tourisme/camping-cars/",
+    "address": "Rue de la Libération, 90130 Montreux-Château",
+    "sourceOfficial": "https://montreux-chateau.jimdofree.com/tourisme/camping-cars/",
+    "priceSource": "https://montreux-chateau.jimdofree.com/tourisme/camping-cars/",
+    "cityVerificationNote": "Commune et localisation confirmées par la mairie ; GPS OSM conservé."
   }
 ]
