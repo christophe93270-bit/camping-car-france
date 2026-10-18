@@ -49,10 +49,11 @@
     "city": "Aÿ-Champagne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement",
+      "Borne de services via QIPEO"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif non publié sur la fiche touristique, à confirmer",
+    "status": "Ouverture saisonnière du 1er avril au 31 octobre 2026 selon tourisme départemental",
     "source": "https://www.openstreetmap.org/way/358259441",
     "latitude": 49.0452938,
     "longitude": 4.0345679,
@@ -62,7 +63,10 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/358259441",
     "servicesSource": "https://www.openstreetmap.org/way/358259441",
-    "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire."
+    "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire.",
+    "sourceOfficial": "https://tourisme-en-champagne.com/hebergement/aire-de-service-et-de-stationnement-mareuil-sur-ay/",
+    "address": "Relais nautique, Mareuil-sur-Aÿ, 51160 Aÿ-Champagne",
+    "capacity": 7
   },
   {
     "department": "51",
@@ -108,8 +112,14 @@
     "name": "Aire de stationnement d'Esternay",
     "city": "Esternay",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Eau (fermée de novembre à avril)",
+      "WC publics",
+      "Poubelles"
+    ],
+    "price": "Stationnement et services gratuits selon annuaires 2025 ; gratuité 2026 à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/703382162",
     "latitude": 48.7325718,
@@ -119,7 +129,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/703382162",
-    "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire."
+    "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire.",
+    "sourceOfficial": "https://sezanne-tourisme.fr/logement/stationnement-camping-car-desternay/",
+    "address": "Place des Tilleuls, 51310 Esternay",
+    "priceSource": "https://www.camping-car.com/aires/15936-aire-communale/",
+    "capacity": 10
   },
   {
     "department": "51",
