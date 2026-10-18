@@ -142,36 +142,57 @@
     "city": "Favières",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (5 places)",
+      "Eau potable gratuite en saison",
+      "Vidange eaux grises gratuite en saison",
+      "Vidange eaux noires gratuite en saison",
+      "Électricité gratuite en saison",
+      "Accès PMR",
+      "Animaux acceptés"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et services gratuits selon l'office départemental ; entrée à la base de loisirs payante en été (3 €), prestation distincte.",
+    "status": "Aire intercommunale de 5 emplacements, accessible aux PMR, animaux acceptés. Services annoncés en accès libre de début mai à fin septembre ; hors saison, disponibilité à confirmer. Attention : un autre emplacement CAMPING-CAR PARK est répertorié à proximité de la base de loisirs ; ne pas assimiler les tarifs ou coordonnées sans vérification.",
     "source": "https://www.openstreetmap.org/way/578608784",
     "latitude": 48.4664681,
     "longitude": 5.9616192,
     "gpsSource": "https://www.openstreetmap.org/way/578608784",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : recoupement source officielle, réserves et éventuelles contradictions conservées.",
     "sourceId": "way/578608784",
-    "servicesSource": "https://www.openstreetmap.org/way/578608784"
+    "servicesSource": "https://www.openstreetmap.org/way/578608784",
+    "address": "Lieu-dit Vallon de Jolive, base de loisirs, 54115 Favières",
+    "sourceOfficial": "https://tourisme-meurtheetmoselle.fr/accueil/lessentiel/patrimoine/musees/798004071-aire-de-camping-car-intercommunale-a-favieres",
+    "priceSource": "https://tourisme-meurtheetmoselle.fr/accueil/lessentiel/patrimoine/musees/798004071-aire-de-camping-car-intercommunale-a-favieres"
   },
   {
     "department": "54",
     "name": "Aire de camping-cars - St Nicolas de Port",
     "city": "Saint-Nicolas-de-Port",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (2 places, 48 h maximum)",
+      "Eau potable (jeton)",
+      "Électricité (office de tourisme, disponibilité à confirmer)",
+      "Vidange eaux grises et noires (office de tourisme)",
+      "Accessibilité PMR (office de tourisme)"
+    ],
+    "price": "Stationnement gratuit pour 2 nuitées selon l'office départemental ; jeton Euro-relais 4,20 € selon la mairie (office départemental affiche 4 € : divergence).",
+    "status": "Aire de 2 places selon l'office départemental, stationnement limité à 48 h selon la mairie. Borne Euro-relais : environ 100 litres d'eau par jeton à 4,20 €, jetons en mairie ou au Musée Français de la Brasserie. L'office touristique mentionne également électricité et vidange ; vérifier leur fonctionnement. L'adresse « rue du Jeu de Paume » de l'office diffère de l'accès ruelle Montauban indiqué par la mairie.",
     "source": "https://www.openstreetmap.org/way/685294315",
     "latitude": 48.6351052,
     "longitude": 6.3006696,
     "gpsSource": "https://www.openstreetmap.org/way/685294315",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles.",
-    "sourceId": "way/685294315"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : recoupement source officielle, réserves et éventuelles contradictions conservées.",
+    "sourceId": "way/685294315",
+    "address": "Ruelle Montauban, derrière l'enclos à cigognes, rue de la Belhiesse, 54210 Saint-Nicolas-de-Port",
+    "sourceOfficial": "https://www.saintnicolasdeport.com/fr/rb/1023284/aire-de-camping-cars",
+    "priceSource": "https://www.saintnicolasdeport.com/fr/rb/1023284/aire-de-camping-cars",
+    "relatedOfficialSources": [
+      "https://tourisme-meurtheetmoselle.fr/nos-hebergements-2/campings/798001780-aire-de-camping-car-de-saint-nicolas-de-port"
+    ]
   },
   {
     "department": "54",
@@ -209,36 +230,58 @@
     "city": "Val-et-Châtillon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit (6 places)",
+      "Eau potable à borne",
+      "Vidange",
+      "Électricité à jeton",
+      "Collecte des déchets",
+      "Éclairage public (éteint 0 h–5 h)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit. Jeton à 3 € : électricité 55 min + eau 10 min, ou électricité seule 6 h. Tarif de la vidange indiqué sur la borne.",
+    "status": "Aire de 6 places, ouverte toute l'année sauf le 15 août ; séjour limité à 7 jours selon la communauté de communes. L'office de tourisme affiche encore 4 jours maximum : contradiction à vérifier dans le règlement intérieur. Éclairage public éteint de minuit à 5 h. Jetons en mairie.",
     "source": "https://www.openstreetmap.org/way/1197763196",
     "latitude": 48.560666,
     "longitude": 6.9641956,
     "gpsSource": "https://www.openstreetmap.org/way/1197763196",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : recoupement source officielle, réserves et éventuelles contradictions conservées.",
     "sourceId": "way/1197763196",
-    "servicesSource": "https://www.openstreetmap.org/way/1197763196"
+    "servicesSource": "https://www.openstreetmap.org/way/1197763196",
+    "address": "Grande Rue (D993a), entrée du parc communal, 54480 Val-et-Châtillon",
+    "sourceOfficial": "https://www.ccvp.fr/aire-de-camping-car/",
+    "priceSource": "https://www.ccvp.fr/aire-de-camping-car/",
+    "relatedOfficialSources": [
+      "https://tourisme-meurtheetmoselle.fr/nos-hebergements/campings/742001574-aire-de-camping-car"
+    ]
   },
   {
     "department": "54",
     "name": "Aire Municipale Longuyon",
     "city": "Longuyon",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (2 ou 4 places selon texte officiel contradictoire)",
+      "Eau potable",
+      "Vidange WC chimiques",
+      "Électricité",
+      "Wi-Fi",
+      "Éclairage public",
+      "Revêtement stabilisé",
+      "Animaux acceptés"
+    ],
+    "price": "Stationnement gratuit selon l'office départemental ; prix éventuel des services non précisé.",
+    "status": "Aire municipale à proximité de la Crusnes. Office départemental : texte contradictoire annonçant 2 emplacements de part et d'autre de l'office de tourisme puis 4 places gratuites. Stationnement limité à 7 jours consécutifs. Contact : 03 82 39 21 21.",
     "source": "https://www.openstreetmap.org/way/1298179937",
     "latitude": 49.4480156,
     "longitude": 5.6000017,
     "gpsSource": "https://www.openstreetmap.org/way/1298179937",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles.",
-    "sourceId": "way/1298179937"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : recoupement source officielle, réserves et éventuelles contradictions conservées.",
+    "sourceId": "way/1298179937",
+    "address": "Place Salvador-Allende, près de l'office de tourisme, 54260 Longuyon",
+    "sourceOfficial": "https://tourisme-meurtheetmoselle.fr/nos-hebergements/campings/1286000027-aire-de-camping-car-de-longuyon"
   },
   {
     "department": "54",
@@ -246,18 +289,25 @@
     "city": "Longwy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (7 places)",
+      "Eau potable à jeton",
+      "Vidange eaux usées à jeton",
+      "Électricité à jeton",
+      "Paiement CB pour les jetons"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Jeton à 2,50 € : eau et vidange pendant 20 min, ou électricité pendant 4 h ; 2 jetons = 8 h d'électricité, 3 jetons = 12 h. Tarif du stationnement non précisé sur la fiche de l'office.",
+    "status": "Aire de 7 emplacements. Distributeur de jetons payable par carte bancaire, borne d'eau et de vidange et borne d'électricité. Source : office de tourisme du Pays de Longwy.",
     "source": "https://www.openstreetmap.org/way/1319596547",
     "latitude": 49.5265176,
     "longitude": 5.7655022,
     "gpsSource": "https://www.openstreetmap.org/way/1319596547",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : recoupement source officielle, réserves et éventuelles contradictions conservées.",
     "sourceId": "way/1319596547",
-    "servicesSource": "https://www.openstreetmap.org/way/1319596547"
+    "servicesSource": "https://www.openstreetmap.org/way/1319596547",
+    "address": "Avenue du 8 Mai 1945, près du stade municipal, 54400 Longwy",
+    "sourceOfficial": "https://www.longwy-tourisme.com/index.php/fr/ou-dormir/aires-de-camping-cars",
+    "priceSource": "https://www.longwy-tourisme.com/index.php/fr/ou-dormir/aires-de-camping-cars"
   }
 ]
