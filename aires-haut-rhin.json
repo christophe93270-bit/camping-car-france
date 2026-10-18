@@ -257,19 +257,23 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Eau potable",
-      "Électricité"
+      "Électricité",
+      "Vidange des eaux usées",
+      "Vidange des toilettes à cassette"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; prix des services non confirmé (office de tourisme).",
+    "status": "Aire de 5 emplacements, ouverte toute l'année, avec table de pique-nique ; stationnement gratuit selon l'office de tourisme du Sundgau.",
     "source": "https://www.openstreetmap.org/way/308902801",
     "latitude": 47.4888985,
     "longitude": 7.3112231,
     "gpsSource": "https://www.openstreetmap.org/way/308902801",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : résultats cartographiques contradictoires Ferrette/Bendorf ; ne pas attribuer l'adresse chemin du Réservoir sans vérifier le point GPS.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : résultats cartographiques contradictoires Ferrette/Bendorf ; ne pas attribuer l'adresse chemin du Réservoir sans vérifier le point GPS. | 18/10/2026 : adresse, capacité et services corroborés par l'office de tourisme ; GPS OSM conservé, non certifié au mètre.",
     "sourceId": "way/308902801",
-    "servicesSource": "https://www.openstreetmap.org/way/308902801"
+    "servicesSource": "https://www.openstreetmap.org/way/308902801",
+    "sourceOfficial": "https://www.sundgau-sud-alsace.fr/detail/1145/2379/242010650/aire-daccueil-de-camping-cars-ferrette/",
+    "address": "12 rue de Lucelle, 68480 Ferrette"
   },
   {
     "department": "68",
@@ -339,17 +343,24 @@
     "name": "Aire de camping-cars Hartmannswiller",
     "city": "Hartmannswiller",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Vidange des toilettes à cassette"
+    ],
+    "price": "Non précisé par la mairie.",
+    "status": "Borne Flot Bleu et parking de 4 places près de la salle polyvalente ; branchement 220 V pendant 20 minutes selon la mairie.",
     "source": "https://www.openstreetmap.org/way/664705022",
     "latitude": 47.8633293,
     "longitude": 7.2140496,
     "gpsSource": "https://www.openstreetmap.org/way/664705022",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
-    "sourceId": "way/664705022"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : mairie : GPS borne 47.86322, 7.21446, légèrement différent du centroïde OSM conservé ; tarif non publié.",
+    "sourceId": "way/664705022",
+    "sourceOfficial": "https://www.hartmannswiller.fr/aire-de-camping-car/",
+    "address": "27 Grand'Rue, 68500 Hartmannswiller"
   },
   {
     "department": "68",
@@ -385,19 +396,24 @@
     "city": "Oltingue",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Vidange des toilettes à cassette"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit selon l'office de tourisme ; 2 € pour 55 min d'électricité et 10 min d'eau selon la mairie (tarif à reconfirmer).",
+    "status": "Aire municipale de 3 places, accès par la place Saint-Martin entre la mairie et le presbytère, stationnement sans durée maximale annoncée.",
     "source": "https://www.openstreetmap.org/way/815546375",
     "latitude": 47.4918737,
     "longitude": 7.3904671,
     "gpsSource": "https://www.openstreetmap.org/way/815546375",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : mairie et office de tourisme concordent sur la capacité ; point GPS OSM conservé, accès précisé.",
     "sourceId": "way/815546375",
-    "servicesSource": "https://www.openstreetmap.org/way/815546375"
+    "servicesSource": "https://www.openstreetmap.org/way/815546375",
+    "sourceOfficial": "https://www.oltingue.fr/h%C3%A9bergement-restaurant",
+    "address": "Place Saint-Martin, derrière l'église, 68480 Oltingue"
   },
   {
     "department": "68",
