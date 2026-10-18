@@ -77,18 +77,19 @@
       "Petit sanitaire (non vérifié par la mairie)"
     ],
     "price": "Gratuit selon cartographie secondaire ; à confirmer",
-    "status": "OpenAlfa distingue une aire publique gratuite chemin du Tunnel (sans électricité ni vidange selon OSM) du camping privé La Maison Imparfaite au numéro 5. Le guide officiel Doubs Baumois ne liste que le camping privé à Fourbanne ; aucune confirmation officielle de l'aire publique.",
+    "status": "Stationnement public gratuit chemin du Tunnel et petit sanitaire signalés par OpenAlfa (données OSM), sans confirmation municipale. La cartographie le situe à environ 176 m du camping privé La Maison Imparfaite (5 chemin du Tunnel), seul hébergement de Fourbanne listé dans le guide officiel Doubs Baumois 2024. Pas d'électricité ni de vidange selon source secondaire ; ne pas attribuer les équipements du camping privé au parking public.",
     "source": "https://www.openstreetmap.org/node/12089179606",
     "latitude": 47.3302024,
     "longitude": 6.3038807,
     "gpsSource": "https://www.openstreetmap.org/node/12089179606",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Audit 18/10/2026 : données secondaires OpenAlfa et guide officiel Doubs Baumois 2024. Ne pas fusionner les deux sites ; sourceOfficial absent.",
+    "importReview": "Audit 18/10/2026 : données secondaires OpenAlfa et guide officiel Doubs Baumois 2024. Ne pas fusionner les deux sites ; sourceOfficial absent. | 18/10/2026 : contrôle croisé guide officiel Doubs Baumois 2024 et page OpenAlfa Chemin du Tunnel : deux lieux distincts distants d'environ 176 m ; seul le camping privé est confirmé institutionnellement. Source officielle du guide conservée comme référence contextuelle, pas comme sourceOfficial du parking. Aucune preuve municipale d'autorisation de nuitée ou des sanitaires.",
     "sourceId": "node/12089179606",
     "cityVerificationNote": "Commune Fourbanne confirmée ; point GPS issu d'OpenStreetMap uniquement, statut et accès non certifiés.",
     "address": "Chemin du Tunnel, 25110 Fourbanne",
-    "servicesSource": "https://rues.openalfa.fr/rues/rue-du-doubs-25110-baume-les-dames-fourbanne-arrondissement-de-besancon"
+    "servicesSource": "https://france-streets.openalfa.com/streets/chemin-du-tunnel-25110-baume-les-dames-fourbanne-arrondissement-of-besancon",
+    "relatedOfficialSource": "https://www.ot-doubsbaumois.fr/wp-content/uploads/2024/10/BAUME-LES-DAMES_GT_2024.pdf"
   },
   {
     "department": "25",
