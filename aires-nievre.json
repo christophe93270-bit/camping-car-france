@@ -76,12 +76,16 @@
   {
     "department": "58",
     "name": "Aire de camping-car Pougues-les-Eaux",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Pougues-les-Eaux",
+    "type": "Aire de services camping-car",
     "services": [
-      "Électricité"
+      "Branchements électriques",
+      "Vidange eaux usées",
+      "Parking",
+      "Poubelles",
+      "Éclairage public"
     ],
-    "price": "Non confirmé",
+    "price": "Tarifs 2026 non confirmés ; fiche touristique 2025 : électricité 3,20–3,70 € pour 8–12 h, eau à partir de 3,60 €/10 min",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/970855045",
     "latitude": 47.0834225,
@@ -89,17 +93,24 @@
     "gpsSource": "https://www.openstreetmap.org/way/970855045",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Nièvre Tourisme : Zone des Chanternes, branchements, vidange, tarifs publiés pour 2025 seulement. GPS OSM conservé.",
     "sourceId": "way/970855045",
-    "servicesSource": "https://www.openstreetmap.org/way/970855045"
+    "servicesSource": "https://www.nievre-tourisme.com/camping-car/aire-de-service-de-camping-car",
+    "address": "Zone des Chanternes, 58320 Pougues-les-Eaux",
+    "sourceOfficial": "https://www.nievre-tourisme.com/camping-car/aire-de-service-de-camping-car"
   },
   {
     "department": "58",
     "name": "Aire camping-cars Châtillon-en-Bazois Rue du Canal",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "city": "Châtillon-en-Bazois",
+    "type": "Aire de services camping-car",
+    "services": [
+      "Stationnement (2 places)",
+      "Eau potable",
+      "Vidange eaux usées",
+      "Éclairage public"
+    ],
+    "price": "Gratuit selon fiche Nièvre Tourisme publiée pour 2025 ; conditions 2026 à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1232491033",
     "latitude": 47.0474877,
@@ -107,8 +118,11 @@
     "gpsSource": "https://www.openstreetmap.org/way/1232491033",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1232491033"
+    "importReview": "Nièvre Tourisme : Port, 2 places, eau et vidange. Texte mentionne électricité sans l'énumérer parmi les équipements ; non retenue comme service confirmé. GPS OSM conservé.",
+    "sourceId": "way/1232491033",
+    "address": "Le Port, 58110 Châtillon-en-Bazois",
+    "sourceOfficial": "https://www.nievre-tourisme.com/camping-car/aire-de-service-pour-camping-car",
+    "servicesSource": "https://www.nievre-tourisme.com/camping-car/aire-de-service-pour-camping-car"
   },
   {
     "department": "58",
