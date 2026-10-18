@@ -77,21 +77,27 @@
   },
   {
     "department": "70",
-    "name": "Aire de camping-car Longevelle",
-    "city": "Longevelle",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "name": "Aire France Passion de Longevelle (apiculteurs)",
+    "city": "Vantoux-et-Longevelle",
+    "type": "Accueil camping-car France Passion chez un producteur",
+    "services": [
+      "Stationnement camping-car chez un producteur",
+      "Branchement électrique possible"
+    ],
+    "price": "Accueil France Passion : conditions et éventuels frais à confirmer auprès de l'exploitant",
+    "status": "Accueil chez Jocelyne et Laurent, apiculteurs ; conditions d'accès et disponibilité à confirmer. Ne pas assimiler à une borne de vidange municipale.",
     "source": "https://www.openstreetmap.org/node/12172985791",
     "latitude": 47.4424656,
     "longitude": 5.8401936,
     "gpsSource": "https://www.openstreetmap.org/node/12172985791",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Contrôle initial groupé : nom et commune harmonisés ; GPS OSM conservé. Tarifs, accès et services non confirmés.",
+    "importReview": "Recoupement office de tourisme des Monts de Gy et Haute-Saône Tourisme : accueil France Passion d'apiculteurs au hameau de Longevelle, branchement électrique possible. GPS OSM conservé.",
     "sourceId": "node/12172985791",
-    "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment."
+    "cityVerificationNote": "Commune Vantoux-et-Longevelle confirmée par l'office de tourisme ; la fiche touristique Haute-Saône affiche parfois Gy comme localisation postale.",
+    "address": "Hameau de Longevelle, 70700 Vantoux-et-Longevelle",
+    "sourceOfficial": "https://ot-montsdegy.com/accueil-camping-caristes--1600089464.html",
+    "servicesSource": "https://ot-montsdegy.com/accueil-camping-caristes--1600089464.html"
   },
   {
     "department": "70",
@@ -402,14 +408,15 @@
       "Vidange eaux usées",
       "Vidange WC"
     ],
-    "status": "Aire de services ouverte toute l'année",
+    "status": "Borne de services rue des Grandes Bouteilles, sans stationnement directement sur la borne selon un répertoire spécialisé ; stationnement gratuit indiqué place du Gymnase. Ouverture et fonctionnement actuels à confirmer.",
     "source": "https://www.camping-car.com/aires/45907-aire-communale/",
     "type": "Aire de camping-car",
     "gpsSource": "https://www.camping-car.com/aires/45907-aire-communale/",
     "sourceId": "camping-car.com/45907",
     "priceSource": "https://www.camping-car.com/aires/45907-aire-communale/",
     "servicesSource": "https://www.camping-car.com/aires/45907-aire-communale/",
-    "importReview": "Fiche Camping-car.com ; coordonnées et informations publiées par l'annuaire, accès et tarifs à vérifier sur place."
+    "importReview": "Répertoire spécialisé distingue borne de services rue des Grandes Bouteilles et stationnement place du Gymnase ; indication de 2021, à confirmer. Prix 2025 conservés comme indicatifs.",
+    "relatedSource": "https://campingcar76.fr/Site%20P08%2070%20Aires%20services%20Haute%20Saone%20%28Franche%20Comte%29.htm"
   },
   {
     "department": "70",
