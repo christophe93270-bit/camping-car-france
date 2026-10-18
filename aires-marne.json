@@ -226,8 +226,8 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "20 € / 24 h (électricité, eau et vidange cassette comprises) + 0,66 € / nuit / adulte de taxe de séjour ; accès temporaire services 4 €",
+    "status": "Ouverte toute l'année, 24 h/24 et 7 j/7 selon la mairie",
     "source": "https://www.openstreetmap.org/way/1037296781",
     "latitude": 49.0321368,
     "longitude": 3.949785,
@@ -237,7 +237,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1037296781",
     "servicesSource": "https://www.openstreetmap.org/way/1037296781",
-    "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire."
+    "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire.",
+    "sourceOfficial": "https://epernay.fr/services-et-demarches/mobilite/camping-cars/aire-daccueil-camping-cars-avenue-paul-bert",
+    "priceSource": "https://epernay.fr/services-et-demarches/mobilite/camping-cars/aire-daccueil-camping-cars-avenue-paul-bert",
+    "address": "Avenue Paul-Bert, 51200 Épernay",
+    "capacity": 6
   },
   {
     "department": "51",
@@ -245,7 +249,7 @@
     "city": "Connantre",
     "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [],
-    "price": "11,50 € / 24 h hors taxe de séjour (1,10 € / 24 h en 2026), total indicatif 12,60 €",
+    "price": "Tarif à revérifier : le répertoire CAMPING-CAR PARK affiche 14,60 € / 24 h (consultation octobre 2026), différent du tarif précédemment saisi.",
     "status": "Ouverte selon la fiche de l'exploitant consultée le 18/10/2026 ; disponibilité à revérifier",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/connantre",
     "latitude": 48.730474,
@@ -256,7 +260,7 @@
     "importReview": "Ajout du 18/10/2026 ; coordonnées officielles, pas d'identifiant OSM attribué sans contrôle.",
     "address": "Allée Piétonne du Plan d'Eau, 51230 Connantre",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/connantre",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/connantre"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne"
   },
   {
     "department": "51",
