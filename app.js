@@ -365,7 +365,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Bas-Rhin indisponible",error); }
     let hautRhinAires=[];
     try {
-      const response68=await fetch("aires-haut-rhin.json?v=20261015-1", {cache:"no-store"});
+      const response68=await fetch("aires-haut-rhin.json?v=20261018-final", {cache:"no-store"});
       if(response68.ok) hautRhinAires=await response68.json();
     } catch(error) { console.warn("Chargement Haut-Rhin indisponible",error); }
     let hauteMarneAires=[];
