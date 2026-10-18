@@ -512,22 +512,25 @@
     "city": "Thoirette-Coisia",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (12 emplacements)",
+      "Électricité 6 A"
     ],
-    "price": "14,03 € / 24 h (12,73 € + 1,30 € de taxe de séjour) ; services 5 h : 6 €",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "14,03 €/24 h TTC (12,73 € stationnement + 1,30 € taxe de séjour) selon grille 01/10/2026–31/12/2027 ; vérifier le montant affiché à la réservation",
+    "status": "Aire d'étape CAMPING-CAR PARK La Gouille, 12 emplacements. Capacité et tarification confirmées par l'exploitant ; disponibilité variable.",
     "source": "https://www.openstreetmap.org/way/1533974795",
     "latitude": 46.2690464,
     "longitude": 5.5303243,
     "gpsSource": "https://www.openstreetmap.org/way/1533974795",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Exploitant CAMPING-CAR PARK : GPS de l'aire 46.2692, 5.53082 ; 12 places et électricité 6 A. La fiche OSM est distincte de la fiche d'aire de services de Thoirette déjà présente : doublon potentiel à contrôler par coordonnées, ne pas fusionner automatiquement.",
     "sourceId": "way/1533974795",
     "servicesSource": "https://www.openstreetmap.org/way/1533974795",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/thoirette-coisia",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/thoirette-coisia",
+    "address": "La Gouille, 39240 Thoirette-Coisia"
   },
   {
     "department": "39",
@@ -650,9 +653,11 @@
     "name": "Aire de stationnement camping-cars – Moirans-en-Montagne",
     "city": "Moirans-en-Montagne",
     "type": "Parking autorisé camping-car",
-    "services": [],
-    "price": "Stationnement autorisé de jour comme de nuit ; tarif non communiqué par Jura Tourisme",
-    "status": "10 places partagées place du Marché ; stationnement interdit le vendredi de 6 h à 13 h",
+    "services": [
+      "Stationnement (10 places partagées avec voitures)"
+    ],
+    "price": "Non précisé par Jura Tourisme",
+    "status": "Stationnement de jour et de nuit autorisé, sauf le vendredi de 6 h à 13 h (marché, arrêté municipal). Une borne de recharge pour véhicules électriques est mentionnée, sans confirmation de branchement camping-car.",
     "source": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-moirans-en-montagne/",
     "latitude": 46.42869,
     "longitude": 5.72517,
@@ -660,8 +665,10 @@
     "sourceId": "jura-tourism/HPABFC039350000776",
     "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-moirans-en-montagne/",
     "priceVerifiedOn": "2026-10-17",
-    "importReview": "GPS issu d'un annuaire géolocalisé ; à recouper sur carte. Absence de tarif publié ne prouve pas la gratuité.",
-    "priceNote": "Ne pas confondre « accès libre à la borne de recharge électrique » avec stationnement gratuit ou électricité camping-car."
+    "importReview": "Jura Tourisme : 10 emplacements partagés, place du Marché, restriction vendredi 6 h–13 h ; ne pas assimiler borne de recharge automobile à une prise camping-car.",
+    "priceNote": "Ne pas confondre « accès libre à la borne de recharge électrique » avec stationnement gratuit ou électricité camping-car.",
+    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-moirans-en-montagne/",
+    "address": "Place du Marché, 39260 Moirans-en-Montagne"
   },
   {
     "department": "39",
@@ -992,9 +999,11 @@
     "city": "Les Rousses",
     "address": "Route du Tabagnoz, 39220 Les Rousses",
     "type": "Parking autorisé aux camping-cars",
-    "services": [],
-    "price": "Stationnement gratuit selon l'office de tourisme ; borne Flot Bleu sur place signalée gratuite par le fournisseur (conditions à vérifier)",
-    "status": "20 places selon Jura Tourisme ; parking au départ des pistes. En hiver, déplacement requis pour le déneigement. Un avis d'août 2026 signale une interdiction de nuit en hiver : vérifier la signalisation.",
+    "services": [
+      "Stationnement (20 emplacements dédiés)"
+    ],
+    "price": "Gratuit selon l'office de tourisme, sous réserve de disponibilité",
+    "status": "Stationnement camping-car au parking du Balancier, à 5 km des Rousses, au départ des pistes ; 20 places dédiées. En hiver, déplacer le véhicule pour permettre le déneigement. Respecter les restrictions affichées sur place.",
     "source": "https://www.jura-tourism.com/aire-camping-car/parking-du-balancier/",
     "latitude": 46.4481512,
     "longitude": 6.07771959,
@@ -1003,7 +1012,8 @@
     "priceSource": "https://www.lesrousses.com/fiche/parking-du-balancier/",
     "priceVerifiedOn": "2026-10-17",
     "servicesSource": "https://flotbleu.com/jura/aire-de-service/221",
-    "importReview": "GPS officiel de l'office de tourisme recoupé par Flot Bleu (écart d'environ 12 m) et Campingcar-infos. Fournisseur Flot Bleu signale eau et vidanges mais horaires et fonctionnement à vérifier ; non comptés comme services garantis. Signalement communautaire d'interdiction de nuit en hiver."
+    "importReview": "Station des Rousses : stationnement gratuit selon disponibilité, 20 places dédiées, déplacement pour déneigement en hiver. Avis indépendant août 2026 évoquant restriction nocturne hivernale : réglementation sur place prioritaire.",
+    "sourceOfficial": "https://www.lesrousses.com/sejourner/hebergements-jura/campings/"
   },
   {
     "department": "39",
