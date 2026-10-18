@@ -4,28 +4,36 @@
     "name": "Aire de stationnement du Belvédère",
     "city": "Tannois",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit",
+      "Aire de pique-nique"
+    ],
+    "price": "Stationnement gratuit selon la fiche touristique SITLOR diffusée par Cirkwi (mise à jour février 2026).",
+    "status": "Stationnement au belvédère avec aire de pique-nique et panorama sur la vallée de l'Ornain ; ouvert toute l'année selon SITLOR. Aucun équipement de vidange, eau ou électricité confirmé. Attention : l'office de tourisme mentionne aussi un parking dans le centre-bourg pour accéder au belvédère ; ne pas les confondre.",
     "source": "https://www.openstreetmap.org/node/2502762860",
     "latitude": 48.7196534,
     "longitude": 5.2301485,
     "gpsSource": "https://www.openstreetmap.org/node/2502762860",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer.",
-    "sourceId": "node/2502762860"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : site belvédère confirmé par office tourisme ; gratuité issue fiche SITLOR, services non prouvés.",
+    "sourceId": "node/2502762860",
+    "address": "Belvédère de Tannois, D169, 55000 Tannois",
+    "sourceOfficial": "https://www.tourisme-barleducsudmeuse.fr/Randonnees-360?mb_id=314913&mb_page=poi&mb_parent_id_circuit=330923_0&mb_titre=aire-de-stationnement-du-belvedere",
+    "relatedOfficialSources": [
+      "https://www.cirkwi.com/fr/point-interet/2108621-aire-de-stationnement"
+    ]
   },
   {
     "department": "55",
     "name": "Aire de camping-car de Blercourt",
-    "city": "Blercourt",
+    "city": "Nixéville-Blercourt",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer | La commune administrative est Nixéville-Blercourt (hameau de Blercourt). Aucune source municipale/touristique confirmant le fonctionnement, les services ou le tarif n'a été trouvée dans cette passe.",
     "source": "https://www.openstreetmap.org/node/3539964268",
     "latitude": 49.111116,
     "longitude": 5.2408298,
@@ -63,24 +71,32 @@
   },
   {
     "department": "55",
-    "name": "Aire camping-car Nonsard",
+    "name": "Aire éco du lac de Madine — Nonsard-Lamarche",
     "city": "Nonsard-Lamarche",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Stationnement payant (40 places)",
+      "Tri sélectif",
+      "Borne de vidange Flot Bleu à proximité (jeton)",
+      "Animaux tenus en laisse"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarifs officiels 2026 : 8 € par nuit sur aire éco (eau et électricité non incluses) ; jeton Flot Bleu 4 € pour l'aire éco. Une aire confort distincte propose 23 places à 15 € la nuit, eau et électricité incluses.",
+    "status": "Aire éco de 40 places en deux secteurs, sans réservation, stationnement après 17 h compté comme nuitée. Saison 2026 indiquée du 30 mars au 15 novembre par Meuse Attractivité. Borne Flot Bleu à l'entrée du parking voitures. L'aire confort de 23 places est distincte ; la correspondance précise du point GPS OSM avec l'aire éco reste à vérifier.",
     "source": "https://www.openstreetmap.org/way/140650688",
     "latitude": 48.9249004,
     "longitude": 5.7581273,
     "gpsSource": "https://www.openstreetmap.org/way/140650688",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : tarif officiel PDF 2026 8 € éco / 15 € confort ; fiches distinctes, position précise OSM à confirmer.",
     "sourceId": "way/140650688",
-    "servicesSource": "https://www.openstreetmap.org/way/140650688"
+    "servicesSource": "https://www.openstreetmap.org/way/140650688",
+    "address": "Lac de Madine, 55210 Nonsard-Lamarche",
+    "sourceOfficial": "https://lacmadine.com/sorganiser/dormir/camping-cars/camping-car-a-nonsard/",
+    "priceSource": "https://lacmadine.com/app/uploads/lacmadine/2026/02/tarifs-2026-camping-car.pdf",
+    "relatedOfficialSources": [
+      "https://www.lameuse.fr/je-sejourne/hebergements-meuse/en-camping-car/p/aire-de-stationnement-camping-car-du-lac-de-madine-nonsard-nonsard-lamarche"
+    ]
   },
   {
     "department": "55",
@@ -239,7 +255,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer | Aucune source municipale ou touristique confirmant le fonctionnement actuel n'a été trouvée dans cette passe ; ne pas confondre avec l'aire de Laheycourt mentionnant Nettancourt comme visite à proximité.",
     "source": "https://www.openstreetmap.org/way/696183306",
     "latitude": 48.8778512,
     "longitude": 4.9406746,
