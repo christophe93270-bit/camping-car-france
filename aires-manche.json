@@ -250,7 +250,7 @@
   {
     "department": "50",
     "name": "Aire de camping-car Mont-Saint-Michel",
-    "city": "Commune à confirmer",
+    "city": "Le Mont-Saint-Michel",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -265,7 +265,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1068343637",
-    "servicesSource": "https://www.openstreetmap.org/way/1068343637"
+    "servicesSource": "https://www.openstreetmap.org/way/1068343637",
+    "cityVerificationNote": "Commune renseignée selon localisation OSM, à confirmer auprès du gestionnaire du parking."
   },
   {
     "department": "50",
@@ -473,12 +474,12 @@
   {
     "department": "50",
     "name": "Aire de camping-car Anse de Moidrey",
-    "city": "Commune à confirmer",
+    "city": "Pontorson",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "17 € / 24 h + 1,30 € de taxe de séjour = 18,30 € / 24 h (tarif affiché en octobre 2026) ; forfait 5 h avec services : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1327985887",
     "latitude": 48.5796332,
@@ -488,7 +489,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1327985887",
-    "servicesSource": "https://www.openstreetmap.org/way/1327985887"
+    "servicesSource": "https://www.openstreetmap.org/way/1327985887",
+    "address": "23 route de la Grève, 50170 Pontorson",
+    "capacity": 84,
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/mont%20saint%20michel%20-%20l%27anse%20de%20moidrey",
+    "verificationNote": "Exploitant CAMPING-CAR PARK : 84 places, ouverture confirmée en octobre 2026. Sa description ancienne évoque environ 72 emplacements, mais le compteur de capacité affiche 84 ; tarif susceptible de changer."
   },
   {
     "department": "50",
