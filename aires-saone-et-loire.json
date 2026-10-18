@@ -1,20 +1,26 @@
 [
   {
     "department": "71",
-    "name": "Aire de camping-car d'Anost",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "name": "Aire de camping-car d'Anost — Champ de Foire",
+    "city": "Anost",
+    "type": "Aire de stationnement et de vidange camping-car",
+    "services": [
+      "Stationnement libre sans réservation",
+      "Vidange"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire rénovée en 2020 selon l'office de tourisme ; au centre-bourg près des commerces. Tarifs et fonctionnement actuel à vérifier.",
     "source": "https://www.openstreetmap.org/node/3755588551",
     "latitude": 47.0772751,
     "longitude": 4.0981212,
     "gpsSource": "https://www.openstreetmap.org/node/3755588551",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/3755588551"
+    "importReview": "Office de tourisme Grand Autunois Morvan : aire Champ de Foire, emplacement libre, sans réservation, vidange ; rénovée en 2020. Électricité non confirmée.",
+    "sourceId": "node/3755588551",
+    "address": "Place du Champ de Foire, Le Bourg, 71550 Anost",
+    "sourceOfficial": "https://www.autun-tourisme.com/offres/aire-de-camping-car-anost-fr-3456538/",
+    "servicesSource": "https://www.autun-tourisme.com/offres/aire-de-camping-car-anost-fr-3456538/"
   },
   {
     "department": "71",
@@ -402,20 +408,28 @@
   },
   {
     "department": "71",
-    "name": "Aire de camping-car d\"Étang-sur-Arroux",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "name": "Aire de camping-car d'Étang-sur-Arroux — Camping des Deux Rives",
+    "city": "Étang-sur-Arroux",
+    "type": "Aire de services camping-car",
+    "services": [
+      "Vidange eaux usées",
+      "Vidange cassette WC",
+      "Eau potable",
+      "Stationnement"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire répertoriée auprès du Camping des Deux Rives par l'office de tourisme ; horaires et tarifs à vérifier.",
     "source": "https://www.openstreetmap.org/way/754349277",
     "latitude": 46.8664325,
     "longitude": 4.1896456,
     "gpsSource": "https://www.openstreetmap.org/way/754349277",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/754349277"
+    "importReview": "Office de tourisme Grand Autunois Morvan : vidange eaux usées et WC, eau potable, parking au camping des Deux Rives.",
+    "sourceId": "way/754349277",
+    "address": "Camping des Deux Rives, 71190 Étang-sur-Arroux",
+    "sourceOfficial": "https://www.autun-tourisme.com/offres/aire-de-camping-car-etang-sur-arroux-fr-3699898/",
+    "servicesSource": "https://www.autun-tourisme.com/offres/aire-de-camping-car-etang-sur-arroux-fr-3699898/"
   },
   {
     "department": "71",
@@ -511,20 +525,28 @@
   },
   {
     "department": "71",
-    "name": "Aire de campings-cars Autun",
+    "name": "Aire CAMPING-CAR PARK d'Autun — Plan d'eau du Vallon",
     "city": "Autun",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de stationnement CAMPING-CAR PARK",
+    "services": [
+      "Stationnement (39 emplacements)",
+      "Électricité",
+      "Eau potable",
+      "Vidange (borne à l'Espace Sport Nature, à environ 5 min du parking)"
+    ],
+    "price": "Payant, tarif actuel à vérifier auprès de CAMPING-CAR PARK",
+    "status": "Aire près du plan d'eau du Vallon et du théâtre antique ; borne de vidange et de recharge indiquée à l'Espace Sport Nature, distincte du parking.",
     "source": "https://www.openstreetmap.org/way/1117776001",
     "latitude": 46.9555379,
     "longitude": 4.3171468,
     "gpsSource": "https://www.openstreetmap.org/way/1117776001",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1117776001"
+    "importReview": "Office de tourisme : 39 emplacements, rue de la Maladière, électricité et eau, services de vidange/recharge à 5 minutes du parking. Ne pas attribuer la borne au parking lui-même.",
+    "sourceId": "way/1117776001",
+    "address": "Rue de la Maladière, 71400 Autun",
+    "sourceOfficial": "https://www.autun-tourisme.com/offres/camping-car-park-autun-fr-5906939/",
+    "servicesSource": "https://www.autun-tourisme.com/offres/camping-car-park-autun-fr-5906939/"
   },
   {
     "department": "71",
