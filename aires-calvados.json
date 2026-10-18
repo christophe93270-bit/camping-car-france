@@ -91,10 +91,11 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/12173079182",
     "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
-    "address": "Rue du Colonel Harivel, 14830 Langrune-sur-Mer",
-    "capacity": 3,
-    "sourceOfficial": "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-stationnement-de-langrune-sur-mer/",
-    "verificationNote": "Doublon potentiel avec fiche Colonel Harivel : même adresse et description ; ne pas supprimer sans vérification des identifiants GPS."
+    "address": "Parking rue du 48e Commando, 14830 Langrune-sur-Mer",
+    "capacity": 2,
+    "sourceOfficial": "https://www.explore-calvados.com/aires-camping-cars/aire-de-stationnement-pour-camping-car-langrune-sur-mer/",
+    "verificationNote": "Distincte de l'aire rue du Colonel Harivel : deux adresses et capacités officielles différentes.",
+    "capacitySource": "https://www.explore-calvados.com/aires-camping-cars/aire-de-stationnement-pour-camping-car-langrune-sur-mer/"
   },
   {
     "department": "14",
@@ -354,7 +355,8 @@
     "sourceId": "way/515919221",
     "address": "Rue du Colonel Harivel, 14830 Langrune-sur-Mer",
     "capacity": 3,
-    "sourceOfficial": "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-stationnement-de-langrune-sur-mer/"
+    "sourceOfficial": "https://www.explore-calvados.com/aires-camping-cars/aire-de-stationnement-de-langrune-sur-mer/",
+    "verificationNote": "Aire distincte du parking rue du 48e Commando, selon deux fiches Explore Calvados."
   },
   {
     "department": "14",
@@ -463,7 +465,7 @@
     "city": "Pont-d'Ouilly",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "2026 : 5,80 € / 2 h ; 14,50 € / 24 h ; 25 € / 48 h ; 34 € / 72 h, eau, vidange et électricité comprises",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/624386624",
     "latitude": 48.8789766,
@@ -473,7 +475,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/624386624",
-    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte."
+    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
+    "address": "Rue de la Libération, 14690 Pont-d'Ouilly",
+    "capacity": 45,
+    "sourceOfficial": "https://www.normandie-tourisme.fr/aires-camping-cars/camping-sauvage-aire-de-service-pour-camping-car/",
+    "capacitySource": "https://www.normandie-tourisme.fr/aires-camping-cars/camping-sauvage-aire-de-service-pour-camping-car/",
+    "tariffSource": "https://www.normandie-tourisme.fr/aires-camping-cars/camping-sauvage-aire-de-service-pour-camping-car/"
   },
   {
     "department": "14",
@@ -715,7 +722,7 @@
     "city": "Luc-sur-Mer",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; borne de services hors service (source touristique)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1217355856",
     "latitude": 49.3142731,
@@ -725,7 +732,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1217355856",
-    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte."
+    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
+    "address": "Route de Lion (D514), 14530 Luc-sur-Mer",
+    "capacity": 4,
+    "sourceOfficial": "https://www.explore-calvados.com/aires-camping-cars/aire-de-camping-car-communale-de-luc-sur-mer/",
+    "capacitySource": "https://www.explore-calvados.com/aires-camping-cars/aire-de-camping-car-communale-de-luc-sur-mer/",
+    "tariffSource": "https://www.explore-calvados.com/aires-camping-cars/aire-de-camping-car-communale-de-luc-sur-mer/"
   },
   {
     "department": "14",
