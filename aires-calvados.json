@@ -42,7 +42,7 @@
     "city": "Vire Normandie",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit (office de tourisme)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/5840059981",
     "latitude": 48.8407352,
@@ -52,7 +52,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/5840059981",
-    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte."
+    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
+    "address": "Place du Champ de Foire, 14500 Vire Normandie",
+    "sourceOfficial": "https://www.paysdevire-normandie-tourisme.fr/hebergement/aire-de-camping-car-de-vire/",
+    "verificationNote": "Stationnement interdit jeudi soir et vendredi pendant le marché ; retour possible vendredi dès 16 h.",
+    "tariffSource": "https://www.paysdevire-normandie-tourisme.fr/hebergement/aire-de-camping-car-de-vire/"
   },
   {
     "department": "14",
@@ -855,7 +859,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "12,08 € / 24 h du 1er octobre au 31 mars ; 14,11 € / 24 h du 1er avril au 30 septembre (taxe comprise)",
+    "price": "2026 : 11,20 € /24 h basse saison ; 13,23 € /24 h haute saison, hors taxe de séjour (0,88 € /24 h). Services 5 h : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1299815575",
     "latitude": 49.0785413,
@@ -869,7 +873,13 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
     "priceSource": "https://www.villersbocage14.fr/la-ville/tourisme/aire-de-camping-cars/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif publié par exploitant, mairie ou office de tourisme; vérifier avant départ."
+    "priceNote": "Tarif publié par exploitant, mairie ou office de tourisme; vérifier avant départ.",
+    "address": "1 bis rue de Vire, 14310 Villers-Bocage",
+    "capacity": 27,
+    "sourceOfficial": "https://www.villersbocage14.fr/la-ville/tourisme/aire-de-camping-cars/",
+    "verificationNote": "La mairie annonce 27 places en 2026, tandis que l'office de tourisme indique encore 26 places.",
+    "tariffSource": "https://www.villersbocage14.fr/la-ville/tourisme/aire-de-camping-cars/",
+    "capacitySource": "https://www.villersbocage14.fr/la-ville/tourisme/aire-de-camping-cars/"
   },
   {
     "department": "14",
@@ -988,7 +998,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,50 € /24 h hors taxe de séjour (1,32 € en 2026), soit 15,82 € /24 h ; services 5 h : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1541081122",
     "latitude": 49.2888483,
@@ -999,6 +1009,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1541081122",
     "servicesSource": "https://www.openstreetmap.org/way/1541081122",
-    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte."
+    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
+    "address": "24 avenue Albert Camus, 14880 Hermanville-sur-Mer",
+    "capacity": 24,
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/normandie/calvados/hermanville-sur-mer",
+    "tariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/normandie/calvados/hermanville-sur-mer",
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/normandie/calvados/hermanville-sur-mer"
   }
 ]
