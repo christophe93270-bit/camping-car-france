@@ -127,8 +127,8 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement 24 h : 10 € juillet-août, 7,50 € vacances de Pâques à Toussaint hors été, 5 € reste de l'année ; taxe de séjour en supplément. Eau : 4,50 € / 10 min ; électricité : 4,50 € / h.",
+    "status": "Accès sans réservation ; fermeture possible en hiver selon météo",
     "source": "https://www.openstreetmap.org/way/349629155",
     "latitude": 49.5640706,
     "longitude": -1.8451826,
@@ -138,7 +138,10 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/349629155",
     "servicesSource": "https://www.openstreetmap.org/way/349629155",
-    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer."
+    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer.",
+    "address": "Avenue des Peupliers, 50340 Siouville-Hague",
+    "capacity": 40,
+    "sourceOfficial": "https://siouville-hague.fr/visiter-siouville/hebergements-touristiques-municipaux/aire-de-camping-car/"
   },
   {
     "department": "50",
@@ -148,8 +151,8 @@
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement payant ; montant actuel non publié sur la page municipale (ancien annuaire : 9 € / 24 h, à confirmer)",
+    "status": "Ouverte toute l'année sauf les 13-14 juillet et l'avant-dernier week-end de juillet, selon mairie",
     "source": "https://www.openstreetmap.org/way/363634471",
     "latitude": 48.8172379,
     "longitude": -1.5699139,
@@ -159,7 +162,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/363634471",
     "servicesSource": "https://www.openstreetmap.org/way/363634471",
-    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer."
+    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer.",
+    "address": "Place des Loisirs, 50380 Saint-Pair-sur-Mer",
+    "capacity": 50,
+    "sourceOfficial": "https://saintpairsurmer.fr/cadre-de-vie/equipements-communaux/",
+    "verificationNote": "50 places estimées par annuaire tiers, non confirmées par la mairie. Tarif actuel communal disponible via document lié sur la page officielle, montant non vérifié."
   },
   {
     "department": "50",
@@ -297,7 +304,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement : 12 € / 24 h, taxe de séjour incluse selon mairie ; borne de services payante, tarif à vérifier",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1109059983",
     "latitude": 49.1654299,
@@ -308,7 +315,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1109059983",
     "servicesSource": "https://www.openstreetmap.org/way/1109059983",
-    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer."
+    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer.",
+    "address": "Chemin des Matelots, 50770 Pirou",
+    "capacity": 40,
+    "sourceOfficial": "https://www.ville-pirou.fr/la-commune.htm",
+    "verificationNote": "Attention : un ancien annuaire décrit un stationnement gratuit avec services à 3 €, mais la mairie et Normandie Tourisme annoncent 12 € / 24 h. Retenir tarif officiel. Une aire distincte au 14 rue des Hublots est référencée par Qipeo : emplacement GPS à recouper."
   },
   {
     "department": "50",
