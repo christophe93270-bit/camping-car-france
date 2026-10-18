@@ -29,7 +29,7 @@
     "city": "Giverny",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit signalé par Campercontact pour le parking des jardins de Monet (avril-octobre) ; vérifier qu'il s'agit bien de la même aire et les conditions sur place",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/104307511",
     "latitude": 49.0733157,
@@ -38,7 +38,9 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/104307511"
+    "sourceId": "way/104307511",
+    "tariffSource": "https://www.campercontact.com/fr/france/normandie/giverny/29390/parking-les-jardins-de-claude-monet",
+    "verificationNote": "Correspondance entre l'aire OSM et le parking Les Jardins de Claude Monet à confirmer avant d'assimiler le tarif gratuit à cette fiche."
   },
   {
     "department": "27",
@@ -94,7 +96,7 @@
     "city": "Campigny",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement et services gratuits ; don facultatif pour l'eau ; durée maximale 24 h (mairie)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/385875891",
     "latitude": 49.3115907,
@@ -104,7 +106,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/385875891",
-    "cityVerificationNote": "Commune identifiée par le nom de l'aire ; contrôler la position géographique."
+    "cityVerificationNote": "Commune identifiée par le nom de l'aire ; contrôler la position géographique.",
+    "address": "Place de la Pelouse, à proximité du terrain de boules, 27500 Campigny",
+    "capacity": 3,
+    "sourceOfficial": "https://www.campigny27.fr/aire-de-camping-car-et-parking-poids-lourd",
+    "tariffSource": "https://www.tourisme-pontaudemer-rislenormande.com/tourisme/les-hebergements/aire-de-camping-car-a-campigny-2/",
+    "verificationNote": "Mairie : trois emplacements maximum, halte limitée à 24 h. L'office de tourisme fournit l'adresse Chemin de la Motte ; la mairie situe l'aire près de la place de la Pelouse."
   },
   {
     "department": "27",
