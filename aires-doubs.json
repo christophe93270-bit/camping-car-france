@@ -202,24 +202,29 @@
   },
   {
     "department": "25",
-    "name": "Aire de camping-cars Le Larmont",
+    "name": "Aire de services — Camping Le Larmont",
     "city": "Pontarlier",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de services en camping",
     "services": [
-      "Électricité"
+      "Vidange",
+      "Remplissage en eau",
+      "Électricité (à confirmer pour l'offre Stop Accueil)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stop Accueil camping-car (4 personnes, vidange et remplissage inclus) : de 11 € à 15,70 € selon l'office de tourisme ; période et conditions à confirmer",
+    "status": "Aire surveillée et payante ; borne dans le camping, accès payant.",
     "source": "https://www.openstreetmap.org/way/228841884",
     "latitude": 46.9016338,
     "longitude": 6.3757572,
     "gpsSource": "https://www.openstreetmap.org/way/228841884",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "GPS OSM conservé ; GPS touristique officiel 46.900582, 6.374688 à comparer (écart ~140 m). Ne pas confondre services et camping.",
     "sourceId": "way/228841884",
-    "servicesSource": "https://www.openstreetmap.org/way/228841884",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "servicesSource": "https://www.destination-haut-doubs.com/aire-de-services-camping-le-larmont.html",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "7 rue Edwige Feuillère, 25300 Pontarlier",
+    "sourceOfficial": "https://www.destination-haut-doubs.com/aire-de-services-camping-le-larmont.html",
+    "priceSource": "https://www.destination-haut-doubs.com/aire-de-services-camping-le-larmont.html"
   },
   {
     "department": "25",
@@ -399,10 +404,11 @@
     "gpsSource": "https://www.openstreetmap.org/way/1159250288",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Office de tourisme confirme une aire d'accueil à La Rivière-Drugeon ; électricité issue d'OSM et non confirmée par la source officielle.",
     "sourceId": "way/1159250288",
     "servicesSource": "https://www.openstreetmap.org/way/1159250288",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "sourceOfficial": "https://www.destination-haut-doubs.com/aires-camping-cars-1.html"
   },
   {
     "department": "25",
@@ -472,24 +478,32 @@
   },
   {
     "department": "25",
-    "name": "Aire de camping-cars de Besançon",
+    "name": "Besançon — Aire de camping-cars Canot",
     "city": "Besançon",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement payant à l'horodateur (montant non publié) ; eau et vidange sur place, sans électricité",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de stationnement et services",
+    "services": [
+      "Vidange eaux usées",
+      "Eau potable",
+      "12 emplacements camping-cars",
+      "Pas de branchement électrique"
+    ],
+    "price": "Stationnement payant à l'horodateur ; tarif non publié sur la fiche touristique",
+    "status": "Ouvert toute l'année 24 h/24 ; 12 places réservées aux camping-cars, proche de l'arrêt de tram Canot.",
     "source": "https://www.openstreetmap.org/way/1288024196",
     "latitude": 47.2371953,
     "longitude": 6.0160874,
     "gpsSource": "https://www.openstreetmap.org/way/1288024196",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Office de tourisme confirme 12 emplacements, eau, vidange et absence d'électricité ; GPS OSM cohérent avec le point officiel.",
     "sourceId": "way/1288024196",
     "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
-    "priceSource": "https://www.grandbesancon.fr/infos-pratiques/sports-loisirs/les-aires-daccueil-camping-car/",
+    "priceSource": "https://www.besancon-tourisme.com/fr/fiche-sit/F312012057_besancon-aire-de-camping-car-besancon/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement."
+    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement.",
+    "address": "Rue d'Arènes, 25000 Besançon",
+    "sourceOfficial": "https://www.besancon-tourisme.com/fr/fiche-sit/F312012057_besancon-aire-de-camping-car-besancon/",
+    "servicesSource": "https://www.besancon-tourisme.com/fr/fiche-sit/F312012057_besancon-aire-de-camping-car-besancon/"
   },
   {
     "department": "25",
@@ -685,9 +699,10 @@
     "gpsSource": "https://www.openstreetmap.org/way/1313021854",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Office de tourisme confirme une aire de stationnement au Château de Joux à La Cluse-et-Mijoux ; services, prix et durée non confirmés.",
     "sourceId": "way/1313021854",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "sourceOfficial": "https://www.destination-haut-doubs.com/aires-camping-cars-1.html"
   },
   {
     "department": "25",
