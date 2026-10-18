@@ -286,18 +286,19 @@
     "city": "Les Salles-sur-Verdon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Non confirmé pour ce point GPS. L'aire de services Orapi Market, qui est une fiche distincte, affiche en 2026 5,50 €/24 h hors saison, 7,50 € en juin et septembre, 10,50 € en juillet-août ; électricité 4 €, vidange/remplissage 3,50 €. Ces tarifs ne sont pas attribués à ce point sans confirmation qu'il s'agit du même site.",
+    "status": "Point OSM identifié aux Salles-sur-Verdon, mais adresse, autorisation, services et tarif de ce point précis restent non confirmés. L'aire de services Orapi Market sur la RD 957 est une fiche distincte documentée par l'office de tourisme ; ne pas fusionner les emplacements sans vérifier leurs coordonnées.",
     "source": "https://www.openstreetmap.org/way/1163116295",
     "latitude": 43.777721,
     "longitude": 6.2137774,
     "gpsSource": "https://www.openstreetmap.org/way/1163116295",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune renseignée d'après le toponyme explicite du nom de fiche ; adresse précise, statut d'ouverture, services et tarif restent à confirmer par une source directe.",
+    "importReview": "18/10/2026 : comparaison avec la fiche officielle Orapi Market, RD 957, mise à jour le 10/04/2026. L'aire Orapi dispose de 10 places et d'une grille tarifaire, mais identité non prouvée avec way/1163116295 ; données gardées séparées.",
     "sourceId": "way/1163116295",
-    "address": "Adresse postale non confirmée — utiliser les coordonnées GPS de la fiche.",
-    "priceSource": "https://www.openstreetmap.org/way/1163116295"
+    "address": "Adresse précise non confirmée pour ce point GPS ; ne pas confondre avec l'aire de services Orapi Market, RD 957, 83630 Les Salles-sur-Verdon.",
+    "priceSource": "https://www.visitvar.fr/fiche/aire-de-service-pour-camping-cars-orapi-market-5536584",
+    "servicesSource": "https://www.openstreetmap.org/way/1163116295"
   },
   {
     "department": "83",
@@ -368,21 +369,21 @@
     "city": "Montauroux",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Électricité déclarée dans OpenStreetMap, non confirmée indépendamment"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Non confirmé pour ce point GPS. Deux établissements distincts sont recensés à Montauroux : CAMPING-CAR PARK avenue de Provence (tarif à partir de 15,06 €/24 h en 2026, taxe incluse) et le camping Le Lac, 915 avenue de la Plaine (24–45 €/nuit selon l'offre 2026). Ne pas transférer ces prix à cette fiche sans vérification de l'identité.",
+    "status": "Point OSM situé à Montauroux dans le secteur du lac de Saint-Cassien, mais identité de l'établissement non confirmée. Les sources touristiques recensent séparément CAMPING-CAR PARK avenue de Provence et le camping Le Lac, 915 avenue de la Plaine ; leurs services et tarifs ne sont pas attribués à ce point sans correspondance géographique vérifiée.",
     "source": "https://www.openstreetmap.org/way/1285678701",
     "latitude": 43.5987333,
     "longitude": 6.7824903,
     "gpsSource": "https://www.openstreetmap.org/way/1285678701",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune renseignée d'après le toponyme explicite du nom de fiche ; adresse précise, statut d'ouverture, services et tarif restent à confirmer par une source directe.",
+    "importReview": "18/10/2026 : contrôle croisé avec les fiches officielles touristiques de Montauroux. Deux établissements distincts trouvés ; point OSM way/1285678701 non fusionné avec l'un ou l'autre sans preuve d'identité.",
     "sourceId": "way/1285678701",
     "servicesSource": "https://www.openstreetmap.org/way/1285678701",
-    "address": "Adresse postale non confirmée — utiliser les coordonnées GPS de la fiche.",
-    "priceSource": "https://www.openstreetmap.org/way/1285678701"
+    "address": "Adresse exacte à confirmer ; ne pas assimiler automatiquement au CAMPING-CAR PARK avenue de Provence ni au camping Le Lac, 915 avenue de la Plaine.",
+    "priceSource": "https://www.visitvar.fr/fiche/aire-de-camping-car-park-5718867"
   },
   {
     "department": "83",
@@ -390,21 +391,26 @@
     "city": "Montmeyan",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "12 emplacements dont 8 avec branchement électrique 16 A",
+      "Eau",
+      "Vidange eaux grises et noires",
+      "Wi-Fi",
+      "Tri sélectif"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Emplacement : 12 € le premier jour puis 10 € les jours suivants ; services (eau + vidange) : 2 €. Attention : fiche Visit Var mise à jour le 10/09/2026 indique une fermeture temporaire ; ne pas considérer l'aire comme ouverte avant confirmation.",
+    "status": "Fiche Visit Var / Provence Verte & Verdon Tourisme : aire AireServices / AirePark, route des Lacs, 12 places dont 8 avec électricité. Fermeture temporaire signalée sur la fiche mise à jour le 10/09/2026 ; appeler le 04 94 69 60 80 avant déplacement. Tarifs publiés : 12 € le premier jour, 10 € les jours suivants, services 2 €.",
     "source": "https://www.openstreetmap.org/way/1288008263",
     "latitude": 43.6445567,
     "longitude": 6.0642098,
     "gpsSource": "https://www.openstreetmap.org/way/1288008263",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune renseignée d'après le toponyme explicite du nom de fiche ; adresse précise, statut d'ouverture, services et tarif restent à confirmer par une source directe.",
+    "importReview": "18/10/2026 : statut de fermeture temporaire prioritaire ; tarifs et équipements proviennent de Visit Var mis à jour le 10/09/2026. Vérifier la réouverture auprès de l'office de tourisme avant de publier comme opérationnelle.",
     "sourceId": "way/1288008263",
-    "servicesSource": "https://www.openstreetmap.org/way/1288008263",
-    "address": "Adresse postale non confirmée — utiliser les coordonnées GPS de la fiche.",
-    "priceSource": "https://www.openstreetmap.org/way/1288008263"
+    "servicesSource": "https://www.visitvar.fr/fiche/aireservices-aire-de-camping-car-5702891",
+    "address": "Route des Lacs, 83670 Montmeyan",
+    "priceSource": "https://www.visitvar.fr/fiche/aireservices-aire-de-camping-car-5702891",
+    "sourceOfficial": "https://www.visitvar.fr/fiche/aireservices-aire-de-camping-car-5702891"
   },
   {
     "department": "83",
