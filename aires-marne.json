@@ -95,13 +95,17 @@
   {
     "department": "51",
     "name": "Aire de camping-cars de l'Étang",
-    "city": "Épernay",
+    "city": "Mutigny",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "8 places",
+      "Eau",
+      "Électricité",
+      "Vidange",
+      "Déchets"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Accès libre ; coût des services via Altekip/Isipay à confirmer",
+    "status": "Stationnement limité à 72 heures",
     "source": "https://www.openstreetmap.org/way/510404286",
     "latitude": 49.0692117,
     "longitude": 4.0268542,
@@ -111,7 +115,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/510404286",
     "servicesSource": "https://www.openstreetmap.org/way/510404286",
-    "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire."
+    "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire.",
+    "address": "Route de Montflambert, 51160 Mutigny",
+    "sourceOfficial": "https://ccgvm.com/aires-de-camping-cars/",
+    "priceSource": "https://ccgvm.com/aires-de-camping-cars/",
+    "capacity": 8
   },
   {
     "department": "51",
@@ -147,10 +155,13 @@
     "city": "Saint-Imoges",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange",
+      "Déchets"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Accès libre ; borne Euro-relais fonctionnant avec pièces de 2 €",
+    "status": "Stationnement limité à 72 heures",
     "source": "https://www.openstreetmap.org/way/902059601",
     "latitude": 49.1053383,
     "longitude": 3.9786802,
@@ -159,7 +170,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/902059601",
-    "servicesSource": "https://www.openstreetmap.org/way/902059601"
+    "servicesSource": "https://www.openstreetmap.org/way/902059601",
+    "sourceOfficial": "https://ccgvm.com/aires-de-camping-cars/",
+    "address": "Rue de la Briqueterie, 51160 Saint-Imoges",
+    "capacity": 12,
+    "priceSource": "https://ccgvm.com/aires-de-camping-cars/"
   },
   {
     "department": "51",
@@ -214,9 +229,13 @@
     "city": "Villers-sous-Châtillon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Déchets"
     ],
-    "price": "Non confirmé",
+    "price": "Tarif non communiqué par le parc naturel régional",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/908423799",
     "latitude": 49.0961515,
@@ -226,7 +245,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/908423799",
-    "servicesSource": "https://www.openstreetmap.org/way/908423799"
+    "servicesSource": "https://www.openstreetmap.org/way/908423799",
+    "sourceOfficial": "https://www.parc-montagnedereims.fr/aires-camping-cars/aire-de-service-et-de-stationnement-de-villers-sous-chatillon/",
+    "address": "Rue du Parc, 51700 Cœur-de-la-Vallée (Villers-sous-Châtillon)",
+    "capacity": 2
   },
   {
     "department": "51",
