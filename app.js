@@ -435,7 +435,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Calvados indisponible",error); }
     let mancheAires=[];
     try {
-      const response50=await fetch("aires-manche.json?v=20261015-1", {cache:"no-store"});
+      const response50=await fetch("aires-manche.json?v=20261018-2", {cache:"no-store"});
       if(response50.ok) mancheAires=await response50.json();
     } catch(error) { console.warn("Chargement Manche indisponible",error); }
     let orneAires=[];
