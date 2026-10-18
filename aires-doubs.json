@@ -69,24 +69,23 @@
   },
   {
     "department": "25",
-    "name": "Aire de camping-car de Fourbanne",
+    "name": "Stationnement camping-car signalé à Fourbanne — à confirmer",
     "city": "Fourbanne",
-    "type": "Aire de stationnement camping-car",
+    "type": "Stationnement camping-car non confirmé officiellement",
     "services": [
-      "Stationnement",
-      "Petit sanitaire public (signalement OSM, à confirmer)"
+      "Stationnement signalé dans OpenStreetMap (à confirmer)"
     ],
-    "price": "Gratuit selon données OpenStreetMap, à confirmer auprès de la commune",
-    "status": "Parking signalé accessible 24 h/24 sur OpenStreetMap ; ni électricité ni vidange selon les données communautaires. Fonctionnement et réglementation locale non confirmés.",
+    "price": "Non confirmé par la commune",
+    "status": "Point référencé dans OpenStreetMap, à proximité du chemin du Tunnel. Autorisation de stationner la nuit, gratuité, horaires, sanitaires et services non confirmés. Ne pas confondre avec le camping privé La Maison Imparfaite au 5 chemin du Tunnel.",
     "source": "https://www.openstreetmap.org/node/12089179606",
     "latitude": 47.3302024,
     "longitude": 6.3038807,
     "gpsSource": "https://www.openstreetmap.org/node/12089179606",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Localisation chemin du Tunnel et absence de borne de vidange/électricité selon reprise des données OSM (OpenAlfa). Aucune source municipale retrouvée ; sourceOfficial volontairement absent.",
+    "importReview": "Audit final : OpenStreetMap node/12089179606 est distinct du camping chez l'habitant La Maison Imparfaite (office de tourisme, 5 chemin du Tunnel). Aucun document municipal ou touristique ne confirme que ce point est une aire publique officielle. Retrait des mentions non vérifiées de gratuité, ouverture 24 h/24, sanitaires et absence de services. Contact mairie : https://www.fourbanne.fr/municipalite (03 81 84 37 67).",
     "sourceId": "node/12089179606",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "cityVerificationNote": "Commune Fourbanne confirmée ; point GPS issu d'OpenStreetMap uniquement, statut et accès non certifiés.",
     "address": "Chemin du Tunnel, 25110 Fourbanne"
   },
   {
