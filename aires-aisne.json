@@ -123,10 +123,15 @@
     "department": "02",
     "name": "Aire de camping-car Rozoy-sur-Serre",
     "city": "Rozoy-sur-Serre",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "type": "Aire communale de stationnement et de services camping-car",
+    "services": [
+      "Stationnement gratuit",
+      "Vidange eaux usées",
+      "Vidange WC",
+      "Eau potable payante"
+    ],
     "price": "Stationnement gratuit ; eau payante (montant non précisé)",
-    "status": "Commune, gratuité du stationnement et services vérifiés auprès de la mairie; tarif de l'eau à confirmer",
+    "status": "5 emplacements gratuits ; stationnement sans durée maximale indiquée par la mairie",
     "source": "https://www.openstreetmap.org/way/305413192",
     "latitude": 49.7137175,
     "longitude": 4.1209924,
@@ -137,7 +142,10 @@
     "sourceId": "way/305413192",
     "priceSource": "https://www.rozoy-sur-serre.fr/tourisme/aire-de-camping-car.html",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Mairie : 5 emplacements gratuits, vidange des eaux usées et WC, eau payante, stationnement sans durée maximale. Office de tourisme : aire ouverte en 2026."
+    "priceNote": "Mairie : 5 emplacements gratuits, vidange des eaux usées et WC, eau payante, stationnement sans durée maximale. Office de tourisme : aire ouverte en 2026.",
+    "capacity": 5,
+    "verificationSource": "https://www.rozoy-sur-serre.fr/tourisme/aire-de-camping-car.html",
+    "verificationNote": "La mairie annonce cinq emplacements, stationnement gratuit, vidange des eaux usées et des WC, eau payante sans tarif affiché. Montant de l'eau non confirmé."
   },
   {
     "department": "02",
