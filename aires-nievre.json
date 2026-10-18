@@ -62,16 +62,20 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Aire signalée par OpenStreetMap, non confirmée par une fiche officielle identifiant ce point. Conditions de stationnement, nuitée et équipements inconnus ; vérification auprès de la mairie nécessaire.",
+    "status": "Point OSM route du Préneley, proche du bourg : annuaire secondaire le décrit comme aire gratuite avec vidange, sans vérification institutionnelle des équipements ni de l'autorisation. Attention : le parking devant l'église signalé en août 2026 (46.9560, 4.0319) est un lieu distinct, ne pas lui attribuer ses toilettes ou son eau.",
     "source": "https://www.openstreetmap.org/way/560708599",
     "latitude": 46.9575001,
     "longitude": 4.0277029,
     "gpsSource": "https://www.openstreetmap.org/way/560708599",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Audit final 18/10/2026 : site officiel communal https://www.mairie-glux-en-glenne.fr/ consulté, sans confirmation identifiable de l'aire OSM. Ne pas affecter sourceOfficial sur la seule base du site de la commune. Coordonnées OSM conservées.",
+    "importReview": "Audit final 18/10/2026 : site officiel communal https://www.mairie-glux-en-glenne.fr/ consulté, sans confirmation identifiable de l'aire OSM. Ne pas affecter sourceOfficial sur la seule base du site de la commune. Coordonnées OSM conservées. | 18/10/2026 : Bivouaquer recopie OpenStreetMap pour une aire gratuite avec vidange près de 46.95720,4.02802 ; ce n'est pas une vérification indépendante. Park4night signale depuis le 28/08/2026 un autre parking devant l'église (46.9560,4.0319), 1 place, eau/toilettes, sans lien établi avec l'aire OSM. Site communal consulté sans fiche d'aire : sourceOfficial reste absent.",
     "sourceId": "way/560708599",
-    "cityVerificationNote": "Commune Glux-en-Glenne confirmée par la mairie ; point d'aire et services non vérifiés."
+    "cityVerificationNote": "Commune Glux-en-Glenne confirmée par la mairie ; point d'aire et services non vérifiés.",
+    "relatedSecondarySources": [
+      "https://www.bivouaquer.com/nievre/glux-en-glenne/aire-de-camping-car-a-glux-en-glenne",
+      "https://park4night.com/fr/place/716201"
+    ]
   },
   {
     "department": "58",
