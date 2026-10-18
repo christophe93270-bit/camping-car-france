@@ -532,17 +532,23 @@
     "name": "Emplacement camping-car - Camping chez l'habitant Les Prairies de Pacouinay",
     "city": "RIVES-D'AUTISE",
     "type": "Emplacement équipé au sein du camping",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : tarifs, services, accès et position à confirmer",
+    "services": [
+      "Électricité"
+    ],
+    "price": "Tarif affiché par l'exploitant (date de validité 2026 non précisée) : 12 € pour 2 personnes, électricité et taxe de séjour comprises ; 8 € pour une personne seule, 10 € en juillet-août ; personne supplémentaire 6 €, enfant de moins de 13 ans 3 €.",
+    "status": "Camping chez l'habitant, 6 emplacements maximum pour tente, caravane ou camping-car. Séjours hivernaux étudiés au cas par cas. GPS exploitant 46.384482,-0.648277 très proche du point du jeu de données.",
     "source": "https://wcf.tourinsoft.com/Syndication/3.0/cdt85/ce2f1f33-fbe9-44fe-9365-9e83938525ae/Objects",
     "latitude": 46.38453,
     "longitude": -0.648365,
     "gpsSource": "https://wcf.tourinsoft.com/Syndication/3.0/cdt85/ce2f1f33-fbe9-44fe-9365-9e83938525ae/Objects",
     "dataLicense": "Licence Ouverte 2.0",
     "dataAttribution": "Vendée Expansion / Tourinsoft",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "ACCAMPDL085V51A0MC"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : site de l'exploitant et correspondance GPS directe ; tarifs affichés sans millésime explicite.",
+    "sourceId": "ACCAMPDL085V51A0MC",
+    "sourceOfficial": "https://www.lesprairiesdepacouinay-gite-campingchezlhabitant.com/",
+    "priceSource": "https://www.lesprairiesdepacouinay-gite-campingchezlhabitant.com/pages/visite-des-prairies/la-regle-du-jeu-et-les-tarifs.html",
+    "servicesSource": "https://www.lesprairiesdepacouinay-gite-campingchezlhabitant.com/",
+    "address": "8 allée de Pacouinay, Oulmes, 85420 Rives-d'Autise"
   },
   {
     "department": "85",
@@ -651,16 +657,17 @@
     "city": "RIVES-D'AUTISE",
     "type": "Aire de stationnement",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : tarifs, services, accès et position à confirmer",
+    "price": "Conditions France Passion et tarif 2026 non confirmés.",
+    "status": "L'exploitant confirme avoir aménagé une aire d'accueil France Passion pour camping-cars dans une publication relative au guide 2022. Participation et conditions d'accueil en 2026 non confirmées : contacter l'exploitant avant déplacement.",
     "source": "https://wcf.tourinsoft.com/Syndication/3.0/cdt85/ce2f1f33-fbe9-44fe-9365-9e83938525ae/Objects",
     "latitude": 46.40697,
     "longitude": -0.67812,
     "gpsSource": "https://wcf.tourinsoft.com/Syndication/3.0/cdt85/ce2f1f33-fbe9-44fe-9365-9e83938525ae/Objects",
     "dataLicense": "Licence Ouverte 2.0",
     "dataAttribution": "Vendée Expansion / Tourinsoft",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "ACCAMPDL085V51IMU6"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : source directe de l'exploitant mais annonce historique (guide 2022), ne pas supposer disponibilité 2026.",
+    "sourceId": "ACCAMPDL085V51IMU6",
+    "sourceOfficial": "https://lescasiersfermiers.fr/author/lwadm/"
   },
   {
     "department": "85",
@@ -694,16 +701,17 @@
     "city": "SAINT-LAURENT-DE-LA-SALLE",
     "type": "Aire de stationnement",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : tarifs, services, accès et position à confirmer",
+    "price": "Conditions réservées aux adhérents France Passion ; tarif individuel non confirmé.",
+    "status": "Étape France Passion annoncée avec 2 places par une fiche touristique mise à jour le 16/03/2026 ; accueil indiqué du 05/01 au 18/12/2026, fermeture du 19/12 au 03/01. Guide France Passion et vignette de l'année requis. Confirmation auprès de l'hôte recommandée.",
     "source": "https://wcf.tourinsoft.com/Syndication/3.0/cdt85/ce2f1f33-fbe9-44fe-9365-9e83938525ae/Objects",
     "latitude": 46.59748,
     "longitude": -0.927,
     "gpsSource": "https://wcf.tourinsoft.com/Syndication/3.0/cdt85/ce2f1f33-fbe9-44fe-9365-9e83938525ae/Objects",
     "dataLicense": "Licence Ouverte 2.0",
     "dataAttribution": "Vendée Expansion / Tourinsoft",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "ACCAMPDL085V51VZ2X"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : fiche institutionnelle relayée par Cirkwi https://www.cirkwi.com/fr/point-interet/3322111-etape-france-passion-aire-de-camping-car-melli-ouest ; pas de source directe attribuée.",
+    "sourceId": "ACCAMPDL085V51VZ2X",
+    "address": "20 lieu-dit La Poële Sèche, RD 938, 85410 Saint-Laurent-de-la-Salle"
   },
   {
     "department": "85",
