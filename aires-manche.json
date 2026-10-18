@@ -1,8 +1,8 @@
 [
   {
     "department": "50",
-    "name": "Aire De Camping Car",
-    "city": "Commune à confirmer",
+    "name": "Aire de camping-car de Cerisy-la-Forêt",
+    "city": "Cerisy-la-Forêt",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -14,7 +14,11 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/7041967413"
+    "sourceId": "node/7041967413",
+    "address": "Cerisy-la-Forêt, 50680 (adresse précise à confirmer)",
+    "cityVerificationNote": "Coordonnées OSM 49.1981591, -0.9322521 recoupées avec un référencement à 49.19835, -0.93222 à Cerisy-la-Forêt. Commune confirmée ; adresse et capacité à vérifier.",
+    "verificationNote": "Localisation dans la Manche confirmée par recoupement GPS ; ne pas supprimer comme doublon du Calvados.",
+    "sourceVerification": "https://spot2play.com/spot/aire-gratuite-de-service-ou-stationnement-cerisy-la-foret/"
   },
   {
     "department": "50",
@@ -528,7 +532,7 @@
     "city": "Les Pieux",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit, durée maximale 24 h selon relevé de terrain ; tarif et règlement à vérifier sur place",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1323136783",
     "latitude": 49.5050134,
@@ -538,7 +542,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1323136783",
-    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer."
+    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer.",
+    "address": "Route du Fort, Sciotot, 50340 Les Pieux",
+    "capacity": 4,
+    "verificationNote": "4 places estimées par l'annuaire terrain Aires Service 360 ; sol instable en cas de pluie. GPS annuaire 49.50721, -1.84731, légèrement différent de la géolocalisation OSM.",
+    "sourceVerification": "https://www.aire-service-camping-car-panoramique.fr/manche/50-les-pieux-sciotot"
   },
   {
     "department": "50",
@@ -572,7 +580,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "15,30 € / 24 h (14 € + 1,30 € taxe de séjour) selon grille du gestionnaire en octobre 2026 ; 5 h avec services : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1568091135",
     "latitude": 48.5738955,
@@ -583,6 +591,10 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1568091135",
     "servicesSource": "https://www.openstreetmap.org/way/1568091135",
-    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer."
+    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer.",
+    "address": "11 route de la Mazure, 50540 Isigny-le-Buat",
+    "capacity": 22,
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/isigny-le-buat?areaType=aire-etape-camping-car",
+    "verificationNote": "Gestionnaire CAMPING-CAR PARK : 22 places, GPS de référence 48.573435, -1.203525, proche de la coordonnée OSM enregistrée."
   }
 ]
