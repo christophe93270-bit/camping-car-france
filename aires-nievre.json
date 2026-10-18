@@ -80,16 +80,21 @@
     "type": "Stationnement camping-car signalé par OpenStreetMap — autorisation actuelle à vérifier",
     "services": [],
     "price": "Non confirmé",
-    "status": "Point OSM situé au quai de la Jonction. La ville confirme le port de plaisance et un camping municipal voisin, mais ne confirme pas sur ses pages actuelles une aire de camping-cars autonome à ce point. Les 60 places du port sont réservées à la navigation, et ses équipements ne doivent pas être attribués aux camping-cars. Vérifier les panneaux et la réglementation locale.",
+    "status": "Point camping-car OSM quai de la Jonction non confirmé comme aire autonome. La ville précise que le stationnement gratuit en zone blanche est limité à 7 jours et doit respecter les emplacements autorisés ; cette règle générale ne vaut pas autorisation spécifique au quai. Une aire de stationnement est référencée route des Saulaies, et une aire de services au camping rue de la Jonction : lieux distincts. Ne pas attribuer les 60 postes du port (bateaux) aux camping-cars.",
     "source": "https://www.openstreetmap.org/way/925901243",
     "latitude": 46.9771737,
     "longitude": 3.1670426,
     "gpsSource": "https://www.openstreetmap.org/way/925901243",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Audit final 18/10/2026 : https://www.nevers.fr/decouvrir-nevers/tourisme/le-port-de-plaisance décrit 60 places de bateaux, non des emplacements camping-cars ; https://www.nevers.fr/decouvrir-nevers/tourisme/le-camping confirme une aire de services au camping rue de la Jonction, établissement distinct. Délibérations municipales 2016-2018 mentionnent un projet/accueil provisoire, non une validation 2026. sourceOfficial absent ; GPS OSM conservé.",
+    "importReview": "Audit final 18/10/2026 : https://www.nevers.fr/decouvrir-nevers/tourisme/le-port-de-plaisance décrit 60 places de bateaux, non des emplacements camping-cars ; https://www.nevers.fr/decouvrir-nevers/tourisme/le-camping confirme une aire de services au camping rue de la Jonction, établissement distinct. Délibérations municipales 2016-2018 mentionnent un projet/accueil provisoire, non une validation 2026. sourceOfficial absent ; GPS OSM conservé. | 18/10/2026 : source officielle ville sur le stationnement (mise à jour 18/12/2025) : zones blanches gratuites avec limite de 7 jours, sous réserve de signalisation locale ; une fiche Culture Nevers situe une aire camping-car route des Saulaies, différente du quai de la Jonction. Ces sources ne valident pas le point OSM, donc sourceOfficial reste absent.",
     "sourceId": "way/925901243",
-    "cityVerificationNote": "Commune déduite du nom du point OpenStreetMap ; services et tarifs à vérifier indépendamment."
+    "cityVerificationNote": "Commune déduite du nom du point OpenStreetMap ; services et tarifs à vérifier indépendamment.",
+    "relatedOfficialSources": [
+      "https://www.nevers.fr/vivre-a-nevers/mobilites/stationnement",
+      "https://www.nevers.fr/decouvrir-nevers/tourisme/le-camping",
+      "https://culture.nevers.fr/lieux-culturels/aire-de-stationnement-de-camping-car_7976607/"
+    ]
   },
   {
     "department": "58",
