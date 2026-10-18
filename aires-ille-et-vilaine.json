@@ -46,8 +46,9 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
     "address": "Route de Saint-Malo, Le Puits Saliou, 35540 Plerguer",
     "sourceOfficial": "https://www.magasins-u.com/magasin/uexpress-plerguer",
-    "verificationNote": "Adresse du magasin confirmée par Magasins U ; présence de l'aire corroborée par annuaire de station-service. Capacité inconnue, fonctionnement des services et tarif non confirmés par l'exploitant.",
-    "priceSource": "https://www.lecampeur.fr/aire/aire-de-camping-car-station-u-express-plerguer-ph5ab7"
+    "verificationNote": "Le site i-campingcar indique 6 places pour une aire communale à Plerguer aux coordonnées 48.532951,-1.849287, distinctes de l'aire U Express OSM 48.530755,-1.8516667 : ne pas transférer la capacité. Le Campeur confirme une aire U Express gratuite rue de Saint-Malo, capacité non publiée.",
+    "priceSource": "https://www.lecampeur.fr/aire/aire-de-camping-car-station-u-express-plerguer-ph5ab7",
+    "relatedSource": "https://www.i-campingcar.fr/aires/pdf/35.pdf"
   },
   {
     "department": "35",
@@ -398,7 +399,7 @@
     "city": "Vitré",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit selon données OpenStreetMap reprises par plusieurs annuaires ; à confirmer sur place",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1316608521",
     "latitude": 48.1150628,
@@ -410,8 +411,10 @@
     "sourceId": "way/1316608521",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
     "address": "Rue Panaget, 35500 Vitré (adresse issue du référencement cartographique, à confirmer auprès du magasin)",
-    "verificationNote": "Aire de camping-car recensée rue Panaget par OnBouge d'après OpenStreetMap. Capacité, accès, horaires et tarifs non confirmés par E.Leclerc ; ne pas confondre avec l'aire municipale allée de Saint-Étienne.",
-    "addressSource": "https://onbouge.eu/france/bretagne/vitre/quotidien"
+    "verificationNote": "Deux emplacements selon Campercation et OnBouge, tous deux fondés sur des données cartographiques communautaires. Adresse de l'aire : rue Panaget, distincte de l'adresse commerciale du magasin rue du Mée. Exploitant, durée autorisée et services non confirmés.",
+    "addressSource": "https://onbouge.eu/france/bretagne/vitre/quotidien",
+    "capacity": 2,
+    "capacitySource": "https://www.campercation.com/place/28180/aire-camping-car-e-leclerc-vitr"
   },
   {
     "department": "35",
