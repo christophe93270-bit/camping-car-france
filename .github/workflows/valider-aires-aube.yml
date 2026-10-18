@@ -18,7 +18,7 @@ jobs:
           import json
           from pathlib import Path
           a=json.loads(Path('aires-aube.json').read_text(encoding='utf-8'))
-          assert isinstance(a,list) and len(a)>=18, 'Des fiches ont disparu'
+          assert isinstance(a,list) and len(a)>=19, 'Des fiches ont disparu'
           ids=set()
           for i,x in enumerate(a,1):
               assert x.get('department')=='10', f'Departement fiche {i}'
