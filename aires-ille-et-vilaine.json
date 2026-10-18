@@ -417,7 +417,7 @@
     "capacity": null,
     "sourceOfficial": "https://www.camping-car.com/aires/27551-aire-communale/",
     "capacitySource": "https://www.camping-car.com/aires/27551-aire-communale/",
-    "verificationNote": "Camping-car.com indique 4 places, durée 72 h et services gratuits (tarifs 2024) ; campingcar76 indique 8 places, 48 h et stationnement à 4 € (fiche modifiée en 2021). Les deux fiches ont des coordonnées différentes. Une confirmation de la mairie est indispensable avant de figer capacité, durée ou tarif."
+    "verificationNote": "Camping-car.com référence une aire place Herdorf avec 4 places et 72 h (données 2024). Park4night décrit une aire gratuite à 5 rue Docteur Pierre Guyot, près de la médiathèque, avec avis d'octobre 2026 ; les coordonnées sont proches mais les adresses diffèrent. Éviter de créer un doublon ou d'attribuer à Place Herdorf des conditions non vérifiées."
   },
   {
     "department": "35",
@@ -610,20 +610,21 @@
     "address": "Rue Surcouf, 35610 Pleine-Fougères",
     "latitude": 48.53018,
     "longitude": -1.56583,
-    "capacity": 9,
+    "capacity": null,
     "services": [
       "Eau",
       "Électricité",
       "Vidange des eaux usées",
       "Poubelles"
     ],
-    "price": "Tarif actuel non confirmé ; Camping-car.com indique 9 € pour les services en 2024",
-    "status": "Aire communale équipée, paiement par carte bancaire selon Ille-et-Vilaine Tourisme",
+    "price": "Qipeo affiche 10,20 € / 24 h pour 2 adultes, taxe de séjour comprise (tarif en ligne susceptible de changer) ; ancien tarif services 9 € daté de 2024",
+    "status": "Aire équipée rue Surcouf ; capacité contradictoire entre office de tourisme et exploitant Qipeo",
     "source": "https://www.openstreetmap.org/way/1281936451",
     "gpsSource": "https://www.openstreetmap.org/way/1281936451",
     "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-services-de-pleine-fougeres-pleine-fougeres-fr-2815600/",
     "capacitySource": "https://www.camping-car.com/aires/46225-aire-communale-pleine-fougeres/",
-    "verificationNote": "Office de tourisme : rue Surcouf, bornes eau et électricité, vidange, poubelles, animaux acceptés, carte bancaire. Montant 2026 non publié sur la fiche officielle ; conserver tarif non confirmé."
+    "verificationNote": "Données contradictoires : Saint-Malo Tourisme annonce 9 emplacements rue Surcouf, alors que l'exploitant Qipeo référence au 4 rue Surcouf une aire de 50 places, tarif 10,20 €/24 h pour 2 adultes taxe de séjour comprise. Il peut s'agir d'un aménagement récent ou de deux inventaires non synchronisés : ne pas publier une capacité certaine sans vérification municipale.",
+    "priceSource": "https://www.qipeo.com/detail/0787de77-2016-4433-9be7-32dfe49c6ff0?lang=en"
   },
   {
     "department": "35",
