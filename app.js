@@ -185,7 +185,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Territoire de Belfort indisponible",error); }
     let hauteSaoneAires=[];
     try {
-      const response70=await fetch("aires-haute-saone.json?v=20261014-1", {cache:"no-store"});
+      const response70=await fetch("aires-haute-saone.json?v=20261018-1", {cache:"no-store"});
       if(response70.ok) hauteSaoneAires=await response70.json();
     } catch(error) { console.warn("Chargement Haute-Saône indisponible",error); }
     let juraAires=[];
