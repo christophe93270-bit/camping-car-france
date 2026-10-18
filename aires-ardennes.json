@@ -5,11 +5,11 @@
     "city": "Signy-l'Abbaye",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Douches",
-      "Toilettes",
-      "Électricité"
+      "Électricité",
+      "Wi-Fi",
+      "Salle de bain"
     ],
-    "price": "Non confirmé",
+    "price": "15 € / nuit pour un emplacement ; réservation auprès de l'exploitant",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12582695770",
     "latitude": 49.7134125,
@@ -22,7 +22,10 @@
     "servicesSource": "https://www.openstreetmap.org/node/12582695770",
     "cityVerificationNote": "Commune identifiée par localisation de la Fosse Bleue ; adresse précise à confirmer",
     "address": "Chemin de la Fosse Bleue, 08460 Signy-l'Abbaye",
-    "addressSource": "https://www.campercontact.com/fr/france/grand-est/signy-labbaye/104758/la-fosse-bleue-librecy"
+    "addressSource": "https://www.campercontact.com/fr/france/grand-est/signy-labbaye/104758/la-fosse-bleue-librecy",
+    "priceSource": "https://www.ardennes.com/camping/camperplaats-aire-de-camping-car-la-fosse-bleue/",
+    "sourceOfficial": "https://www.ardennes.com/camping/camperplaats-aire-de-camping-car-la-fosse-bleue/",
+    "capacity": 2
   },
   {
     "department": "08",
@@ -104,8 +107,8 @@
     "city": "Haybes",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Camping municipal : emplacement 4 €, adulte 3 €/jour, véhicule 1 €, électricité 5 €/jour, taxe 0,22 €/personne/nuit ; vidange camping-car 3 € ; tarifs à combiner selon séjour",
+    "status": "Camping municipal ouvert du 1er mai au 25 octobre 2026 ; vérifier que le point GPS correspond bien à l'aire du camping",
     "source": "https://www.openstreetmap.org/way/497622295",
     "latitude": 50.0110011,
     "longitude": 4.7083234,
@@ -116,7 +119,9 @@
     "sourceId": "way/497622295",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
     "priceNote": "La mairie de Haybes publie des tarifs pour le camping municipal et des services camping-car ; il faut confirmer qu'ils concernent cette aire précise.",
-    "priceSource": "https://www.haybes.fr/tourisme/camping"
+    "priceSource": "https://www.ardennes.com/camping/camping-municipal-de-haybes/",
+    "sourceOfficial": "https://www.ardennes.com/camping/camping-municipal-de-haybes/",
+    "address": "23 rue du 24 Août, 08170 Haybes"
   },
   {
     "department": "08",
