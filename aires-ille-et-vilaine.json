@@ -1352,26 +1352,28 @@
     "type": "Aire de camping-car",
     "city": "Parigné",
     "name": "Aire de camping-car du Domaine de Passillé",
-    "address": "Domaine de Passillé, 35133 Parigné",
+    "address": "24 Passillé, 35133 Parigné",
     "services": [
       "Eau",
       "Électricité"
     ],
     "price": "Tarif non communiqué ; eau, électricité et salle d'eau en option",
-    "status": "Accueil hors juillet et août",
+    "status": "Accueil des camping-cars hors juillet et août selon Destination Fougères",
     "source": "https://www.destination-fougeres.bzh/aire-camping-car/aire-de-camping-car-le-domaine-de-passille/",
     "sourceOfficial": "https://www.destination-fougeres.bzh/aire-camping-car/aire-de-camping-car-le-domaine-de-passille/",
     "priceSource": "https://www.destination-fougeres.bzh/aire-camping-car/aire-de-camping-car-le-domaine-de-passille/",
-    "gpsSource": "Non vérifié",
-    "coordinateStatus": "Coordonnées GPS à vérifier avant géolocalisation sur la carte",
-    "verificationNote": "Source office de tourisme Destination Fougères ; GPS à confirmer."
+    "gpsSource": "https://skalf.fr/localisation-et-contact/",
+    "coordinateStatus": "GPS fourni par l'exploitant",
+    "verificationNote": "Coordonnées du domaine publiées par l'exploitant ; aire de stationnement sur la propriété, emplacement exact à confirmer.",
+    "latitude": 48.437078,
+    "longitude": -1.18778
   },
   {
     "department": "35",
     "type": "Aire de camping-car",
     "city": "Saint-Germain-en-Coglès",
     "name": "Accueil camping-car Entre Pierres et Collines",
-    "address": "Heussé, 35133 Saint-Germain-en-Coglès",
+    "address": "17 Heussé, 35133 Saint-Germain-en-Coglès",
     "services": [
       "Eau",
       "Électricité",
@@ -1381,14 +1383,16 @@
       "Lave-linge",
       "Poubelles"
     ],
-    "price": "Emplacement à partir de 5 € ; électricité à partir de 5 € ; tarifs par personne supplémentaires",
-    "status": "Accueil dans un camping à la ferme ; disponibilité à confirmer",
+    "price": "Tarifs publiés divergents : emplacement dès 5 €, électricité 4 à 5 € ; confirmer auprès de l'exploitant",
+    "status": "Camping saisonnier, ouvert du 20 avril au 30 septembre 2026 selon Ille-et-Vilaine Tourisme",
     "source": "https://www.destination-fougeres.bzh/aire-camping-car/accueil-camping-car-entre-pierres-et-collines/",
     "sourceOfficial": "https://www.destination-fougeres.bzh/aire-camping-car/accueil-camping-car-entre-pierres-et-collines/",
     "priceSource": "https://www.destination-fougeres.bzh/aire-camping-car/accueil-camping-car-entre-pierres-et-collines/",
-    "gpsSource": "Non vérifié",
-    "coordinateStatus": "Coordonnées GPS à vérifier avant géolocalisation sur la carte",
-    "verificationNote": "Source office de tourisme Destination Fougères ; GPS à confirmer."
+    "gpsSource": "https://www.bivouaquer.com/ille-et-vilaine/saint-germain-en-cogles/camping-entre-pierres-et-collines",
+    "coordinateStatus": "GPS issu d'une fiche cartographique OSM, à vérifier à l'entrée",
+    "verificationNote": "Ne pas utiliser les coordonnées Cirkwi 48.4112175,-1.2562588 sans confirmation : celles-ci sont proches mais point cartographique ambigu. Le tarif varie selon les sources touristiques.",
+    "latitude": 48.41236,
+    "longitude": -1.25613
   },
   {
     "department": "35",
