@@ -395,7 +395,7 @@
   },
   {
     "department": "35",
-    "name": "Aire de camping-cars de Retiers — Place Herdorf",
+    "name": "Aire de camping-cars de Retiers — Médiathèque",
     "city": "Retiers",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
@@ -403,8 +403,8 @@
       "Vidange des eaux usées",
       "Vidange WC"
     ],
-    "price": "Services gratuits selon fiche Camping-car.com (tarifs 2024) ; stationnement payant selon un autre annuaire, montant actuel à confirmer",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit selon park4night ; borne de services signalée gratuite (à vérifier sur place)",
+    "status": "Parking près de la médiathèque, stationnement de nuit signalé possible ; données communautaires",
     "source": "https://www.openstreetmap.org/way/1316046216",
     "latitude": 47.914384,
     "longitude": -1.3819896,
@@ -413,11 +413,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1316046216",
-    "address": "Rue du Maréchal Foch, place Herdorf, 35240 Retiers",
+    "address": "5 rue Docteur Pierre Guyot, 35240 Retiers",
     "capacity": null,
-    "sourceOfficial": "https://www.camping-car.com/aires/27551-aire-communale/",
+    "sourceOfficial": "",
     "capacitySource": "https://www.camping-car.com/aires/27551-aire-communale/",
-    "verificationNote": "ATTENTION GPS : coordonnées actuellement stockées 47.914384,-1.3819896 proches de l'aire gratuite rue Docteur Pierre Guyot (park4night 47.9145,-1.3820), mais ne correspondent pas à celles annoncées pour Place Herdorf par Campingcar76 (47.9133052,-1.3797676). Géolocalisation de cette fiche à corriger après confirmation sur carte ou auprès de la mairie ; ne pas présenter le GPS comme vérifié. Tarifs et capacité de Place Herdorf non confirmés."
+    "verificationNote": "Correction d'identification : le GPS 47.914384,-1.3819896 correspond au parking près de la médiathèque rue Docteur Pierre Guyot, confirmé par park4night (47.9145,-1.3820), et non à Place Herdorf. L'ancienne aire Place Herdorf mentionnée par campingcar76 possède d'autres coordonnées (47.9133052,-1.3797676), mais son existence et ses conditions actuelles restent à confirmer. Ne pas confondre les deux.",
+    "priceSource": "https://park4night.com/fr/place/17660"
   },
   {
     "department": "35",
@@ -623,7 +624,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/1281936451",
     "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-services-de-pleine-fougeres-pleine-fougeres-fr-2815600/",
     "capacitySource": "https://www.camping-car.com/aires/46225-aire-communale-pleine-fougeres/",
-    "verificationNote": "Aire Park Réservation référence rue Surcouf à 48.5302324,-1.5660305, 8 emplacements, 9,88 €/24 h sur sa page consultée en octobre 2026. Qipeo indique 50 places et 10,20 €/24 h pour 2 adultes à 4 rue Surcouf. Sources contradictoires sur capacité et tarif : demander confirmation à l'exploitant, ne pas annoncer de capacité fixe.",
+    "verificationNote": "L'aire actuelle est localisée rue Surcouf par l'office de tourisme et Qipeo (4 rue Surcouf, 50 emplacements, 10,20 €/24 h pour deux adultes). Park4night situe une aire Aire Park au 32 rue de Rennes à 48.5303,-1.5657 (8 places, 10,20 €/24 h) soit très proche du GPS enregistré (48.53018,-1.56583). Les adresses et capacités ne concordent pas ; GPS de la fiche à confirmer auprès de l'exploitant avant de l'annoncer comme vérifié.",
     "priceSource": "https://www.aireparkreservation.com/aires-camping-car/ile-et-vilaine"
   },
   {
