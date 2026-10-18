@@ -2,22 +2,28 @@
   {
     "department": "52",
     "name": "Aire de camping-cars de Juzennecourt",
-    "city": "Commune à confirmer",
+    "city": "Juzennecourt",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (4 emplacements)",
+      "Eau",
+      "Électricité",
+      "Vidange cassette WC",
+      "Vidange eaux usées"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire communale de stationnement nocturne place de la Mairie, 4 places, accueil 24 h/24 selon Haute-Marne Attractivité. Attention : dates affichées par la fiche touristique du 15 mars au 15 novembre 2025 ; ouverture et tarifs 2026 non confirmés.",
     "source": "https://www.openstreetmap.org/node/11841734864",
     "latitude": 48.1844852,
     "longitude": 4.978884,
     "gpsSource": "https://www.openstreetmap.org/node/11841734864",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : fiche institutionnelle Haute-Marne Attractivité confirme adresse, gestion communale, 4 places et équipements ; calendrier du site daté 2025, ne pas extrapoler l'ouverture 2026.",
     "sourceId": "node/11841734864",
-    "servicesSource": "https://www.openstreetmap.org/node/11841734864"
+    "servicesSource": "https://www.bienvenue-hautemarne.fr/sit/juzennecourt-aire-de-camping-cars-de-juzennecourt-acccha052v5007st/",
+    "address": "1 place de la Mairie, 52330 Juzennecourt",
+    "sourceOfficial": "https://www.bienvenue-hautemarne.fr/sit/juzennecourt-aire-de-camping-cars-de-juzennecourt-acccha052v5007st/"
   },
   {
     "department": "52",
@@ -254,19 +260,27 @@
   {
     "department": "52",
     "name": "Aire de camping-car des Caillotes",
-    "city": "Commune à confirmer",
+    "city": "Éclaron-Braucourt-Sainte-Livière",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire des Caillotes à Sainte-Livière, GPS OSM 48.601476,4.821251. Haute-Marne Attractivité recense une aire communale de 20 emplacements au 1 rue Sainte-Libaire : rapprochement probable mais identité exacte avec le point OSM non encore démontrée. Avis usagers 2026 : borne de paiement CB, eau, vidanges, électricité, Wi-Fi ; incidents ponctuels d'accès et plaintes sur l'eau. Tarifs constatés variables (environ 10–12 € / nuit), aucun tarif municipal 2026 vérifié.",
     "source": "https://www.openstreetmap.org/way/1252418751",
     "latitude": 48.601476,
     "longitude": 4.8212517,
     "gpsSource": "https://www.openstreetmap.org/way/1252418751",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1252418751"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : aire touristique communale Sainte-Livière (20 places) probablement les Caillotes, mais adresse rue Sainte-Libaire non encore recoupée avec OSM ; ne pas attribuer sourceOfficial avant vérification. Avis 2026 confirment usage et signalent incidents d'eau/code.",
+    "sourceId": "way/1252418751",
+    "address": "Sainte-Livière, 52290 Éclaron-Braucourt-Sainte-Livière (adresse postale touristique 1 rue Sainte-Libaire à vérifier contre point GPS)",
+    "relatedOfficialSources": [
+      "https://www.bienvenue-hautemarne.fr/sit/sainte-liviere-aire-de-stationnement-de-sainte-liviere-acccha051v50apyj/"
+    ],
+    "relatedSecondarySources": [
+      "https://park4night.com/fr/place/16287",
+      "https://www.campercontact.com/en/france/grand-est/%C3%A9claron-braucourt-sainte-livi%C3%A8re/46576/aire-de-camping-car-des-caillotes"
+    ]
   },
   {
     "department": "52",
