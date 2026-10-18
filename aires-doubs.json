@@ -38,24 +38,25 @@
     "department": "25",
     "name": "Aire d'accueil - La Coupe",
     "city": "Les Fourgs",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement camping-car",
     "services": [
-      "Eau potable",
-      "Toilettes",
-      "Électricité"
+      "Stationnement gratuit",
+      "Électricité (jetons payants)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; électricité par jetons (tarif non confirmé)",
+    "status": "Stationnement au parking de la Coupe ; jetons électriques disponibles auprès de commerces locaux et de la mairie. Eau et vidange aux ateliers municipaux, site distinct.",
     "source": "https://www.openstreetmap.org/node/12012802146",
     "latitude": 46.833313,
     "longitude": 6.4251577,
     "gpsSource": "https://www.openstreetmap.org/node/12012802146",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Office de tourisme : parking de la Coupe distinct de l'aire de vidange des ateliers municipaux.",
     "sourceId": "node/12012802146",
     "servicesSource": "https://www.openstreetmap.org/node/12012802146",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "Parking de la Coupe, 25300 Les Fourgs",
+    "sourceOfficial": "https://www.destination-haut-doubs.com/aire-d-accueil-la-coupe.html"
   },
   {
     "department": "25",
@@ -91,10 +92,11 @@
     "gpsSource": "https://www.openstreetmap.org/node/12151128499",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Office de tourisme Haut-Doubs confirme l'existence d'une aire camping-car à Chapelle-des-Bois ; services, tarif et accès à préciser.",
     "sourceId": "node/12151128499",
     "servicesSource": "https://www.openstreetmap.org/node/12151128499",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "sourceOfficial": "https://www.destination-haut-doubs.com/aires-camping-cars-1.html"
   },
   {
     "department": "25",
@@ -190,12 +192,13 @@
     "gpsSource": "https://www.openstreetmap.org/way/176473783",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Office de tourisme Haut-Doubs confirme une aire d'accueil à Saint-Point-Lac, distincte du camping municipal ; modalités non précisées.",
     "sourceId": "way/176473783",
     "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
     "priceSource": "https://www.destination-haut-doubs.com/aire-d-accueil-1.html",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement."
+    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement.",
+    "sourceOfficial": "https://www.destination-haut-doubs.com/aires-camping-cars-1.html"
   },
   {
     "department": "25",
@@ -240,19 +243,25 @@
     "department": "25",
     "name": "Aire de camping car Mouthe",
     "city": "Mouthe",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de services et stationnement camping-car",
+    "services": [
+      "Stationnement gratuit",
+      "Eau (borne Flot Bleu, jetons)",
+      "Électricité (borne Flot Bleu, jetons)"
+    ],
+    "price": "Stationnement gratuit ; jetons pour eau et électricité (montant non confirmé)",
+    "status": "Borne Flot Bleu ; jetons en vente à l'office de tourisme, mairie, supermarché ATAC et camping municipal.",
     "source": "https://www.openstreetmap.org/way/442089037",
     "latitude": 46.7104341,
     "longitude": 6.1954948,
     "gpsSource": "https://www.openstreetmap.org/way/442089037",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Source office de tourisme ; ne pas inventer prix des jetons ni vidange non explicitée.",
     "sourceId": "way/442089037",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "12 place de l'Église, 25240 Mouthe",
+    "sourceOfficial": "https://www.destination-haut-doubs.com/aire-de-services-et-stationnement-mouthe.html"
   },
   {
     "department": "25",
