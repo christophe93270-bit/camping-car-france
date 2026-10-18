@@ -498,7 +498,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/1316470124",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : photographie géolocalisée du 02/11/2024 (Wikimedia Commons, OSM way/1316470124) confirme l'existence physique de l'aire au point GPS ; ne prouve pas les conditions d'accueil en 2026. Aucune source municipale trouvée. | 18/10/2026 : Jura Tourisme annonce une activité à la médiathèque, 240 rue Georges Trouillot, tandis que Park4night situe le parking camping-car au 350 : adresses différentes ; la page institutionnelle valide la médiathèque mais non le stationnement camping-car. sourceOfficial maintenu absent.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : photographie géolocalisée du 02/11/2024 (Wikimedia Commons, OSM way/1316470124) confirme l'existence physique de l'aire au point GPS ; ne prouve pas les conditions d'accueil en 2026. Aucune source municipale trouvée. | 18/10/2026 : Jura Tourisme annonce une activité à la médiathèque, 240 rue Georges Trouillot, tandis que Park4night situe le parking camping-car au 350 : adresses différentes ; la page institutionnelle valide la médiathèque mais non le stationnement camping-car. sourceOfficial maintenu absent. | 18/10/2026 : rapport PLU communal mentionne le stationnement près de la médiathèque mais sans réserver explicitement une place camping-car ; Service-Public confirme la mairie au 350 rue Georges-Trouillot. La médiathèque est au 240 ; source officielle contextuelle, pas de sourceOfficial pour l'aire.",
     "sourceId": "way/1316470124",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://park4night.com/fr/place/109886",
@@ -506,7 +506,12 @@
     "priceNote": "Source communautaire avec avis récent d'octobre 2026 ; pente signalée et nombre de places discuté (1 à 2). Vérifier la signalisation sur place.",
     "servicesSource": "https://park4night.com/fr/place/109886",
     "evidenceSource": "https://commons.wikimedia.org/wiki/File:Aire_Camping-car_Plainoiseau.jpg",
-    "relatedOfficialSource": "https://www.jura-tourism.com/agenda/la-saison-des-histoires-novembre-2026/"
+    "relatedOfficialSource": "https://www.jura-tourism.com/agenda/la-saison-des-histoires-novembre-2026/",
+    "verificationContact": "Mairie de Plainoiseau : 03 84 25 32 39 ; mairie.plainoiseau@wanadoo.fr ; https://www.plainoiseau.fr",
+    "relatedOfficialSources": [
+      "https://plainoiseau.fr/images/documents/pdf/urbanisme/PLU2018/1_Plainoiseau_rapport%20de%20pr%C3%A9sentation_approbation.pdf",
+      "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/jura/b86f877b-9626-4968-85ba-882cd7c27b94"
+    ]
   },
   {
     "department": "39",
@@ -520,14 +525,14 @@
       "Électricité (jetons)"
     ],
     "price": "Stationnement gratuit ; services 2 € et électricité 2 € pour environ 55 min selon témoignages janvier-mai 2026, tarifs à confirmer",
-    "status": "Aire de camping-cars route de la Saisse, 5 places, stationnement gratuit selon Aire Park ; le réseau professionnel AireServices la référence également parmi les parkings gratuits. Eau, vidange et électricité à jetons indiquées par les annuaires, mais disponibilité saisonnière incertaine (borne signalée inaccessible en mars-avril 2026 puis fonctionnelle en mai-juin). Limite de 24 h selon Aire Park, à vérifier sur la signalisation. Attention : Aire Park publie des coordonnées (46.5797807, 5.7000888) différentes du point OSM de cette fiche (46.5802022, 5.6966002), écart d'environ 270 m ; identité exacte des points à vérifier avant attribution d'une source directe.",
+    "status": "Aire de stationnement et borne de services route de la Saisse. Deux sources indépendantes du catalogue Aire Park (i-Campingcar GPS 46.579911,5.69704 ; Mapcarta/OSM centroïde 46.57997,5.69685) situent l'aire au même endroit, proche du point OSM de la fiche ; Aire Park publie des coordonnées 46.5797807,5.7000888 environ 250 m à l'est, vraisemblablement imprécises. Stationnement gratuit, services à jetons (2 € selon avis 2026), fermeture saisonnière possible ; aucune validation municipale directe des tarifs, capacité et règles.",
     "source": "https://www.openstreetmap.org/way/1433927556",
     "latitude": 46.5802022,
     "longitude": 5.6966002,
     "gpsSource": "https://www.openstreetmap.org/way/1433927556",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Audit 18/10/2026 : répertoire Aire Park et avis utilisateurs janvier/mai 2026 concordants pour stationnement gratuit, 5 places, borne à jetons. Sources secondaires uniquement ; sourceOfficial absent. GPS OSM conservé. | 18/10/2026 : avis Park4night mars-avril 2026 : borne inaccessible/emballée ; mai-juin : services de nouveau opérationnels avec jetons. Le Campeur (juin 2026) indique 5 places, gratuit, fermeture des services en hiver. i-Campingcar (janvier-mai 2026) indique 2 € services, 2 € pour 55 min d'électricité. Pas de confirmation municipale, contact mairie ajouté. | 18/10/2026 : Réseau AireServices référence Pont-de-Poitte route de la Saisse parmi ses aires à parking gratuit ; Aire Park annonce 5 places, 24 h max, eau/vidange/électricité 2 € jetons. Mais Aire Park GPS 46.5797807,5.7000888 diffère de l'OSM 46.5802022,5.6966002 (~270 m) : ne pas attribuer une confirmation GPS directe ni sourceOfficial sans lever cette divergence.",
+    "importReview": "Audit 18/10/2026 : répertoire Aire Park et avis utilisateurs janvier/mai 2026 concordants pour stationnement gratuit, 5 places, borne à jetons. Sources secondaires uniquement ; sourceOfficial absent. GPS OSM conservé. | 18/10/2026 : avis Park4night mars-avril 2026 : borne inaccessible/emballée ; mai-juin : services de nouveau opérationnels avec jetons. Le Campeur (juin 2026) indique 5 places, gratuit, fermeture des services en hiver. i-Campingcar (janvier-mai 2026) indique 2 € services, 2 € pour 55 min d'électricité. Pas de confirmation municipale, contact mairie ajouté. | 18/10/2026 : Réseau AireServices référence Pont-de-Poitte route de la Saisse parmi ses aires à parking gratuit ; Aire Park annonce 5 places, 24 h max, eau/vidange/électricité 2 € jetons. Mais Aire Park GPS 46.5797807,5.7000888 diffère de l'OSM 46.5802022,5.6966002 (~270 m) : ne pas attribuer une confirmation GPS directe ni sourceOfficial sans lever cette divergence. | 18/10/2026 : vérification géographique supplémentaire : i-Campingcar fournit GPS 46.579911,5.69704, et Mapcarta donne le centroïde de la même way OSM 46.57997,5.69685 ; cohérents avec le point OSM enregistré. L'écart d'environ 250 m avec le GPS Aire Park paraît être une imprécision de l'annuaire, pas une preuve de deux aires. Conserver GPS OSM ; sourceOfficial toujours absente.",
     "sourceId": "way/1433927556",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://www.i-campingcar.fr/aires.php?ville=PONT+DE+POITTE",
@@ -536,7 +541,8 @@
     "servicesSource": "https://park4night.com/fr/place/507122",
     "relatedSecondarySources": [
       "https://www.lecampeur.fr/aire/aire-de-camping-car-avec-port-pont-de-poitte-phc487",
-      "https://www.i-campingcar.fr/aires.php?ville=PONT+DE+POITTE"
+      "https://www.i-campingcar.fr/aires.php?ville=PONT+DE+POITTE",
+      "https://mapcarta.com/fr/W1433927556"
     ],
     "verificationContact": "Mairie de Pont-de-Poitte : 03 84 48 30 01 ; mairie@pontdepoitte.com ; https://www.pontdepoitte.com/annuaire/contact/mairie",
     "relatedOperatorSource": "https://reseauaireservices.com/les-aires-daccueil-avec-parking-gratuit/"
