@@ -560,17 +560,24 @@
     "department": "70",
     "name": "Aire de stationnement Sainte-Marie-en-Chanois",
     "city": "Sainte-Marie-en-Chanois",
-    "address": "D6, 70310 Sainte-Marie-en-Chanois",
+    "address": "Rue de Saint-Colomban, 70310 Sainte-Marie-en-Chanois",
     "latitude": 47.8366075,
     "longitude": 6.5121087,
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "2 places, services et tarif non confirmés",
+    "services": [
+      "Stationnement camping-car",
+      "Tables de pique-nique",
+      "Poubelles"
+    ],
+    "price": "Gratuit selon Haute-Saône Tourisme",
+    "status": "Aire en bordure de forêt, route de la Chapelle Saint-Colomban. La fiche officielle indique 2 emplacements dans sa rubrique capacité mais 4 dans la description : capacité exacte à confirmer. Aucun service d'eau, d'électricité ou de vidange attesté.",
     "source": "https://www.camping-car.com/aires/35212-aire-de-stationnement/",
     "gpsSource": "https://www.camping-car.com/aires/35212-aire-de-stationnement/",
     "sourceId": "camping-car.com/35212",
-    "importReview": "Coordonnées publiées par Camping-car.com ; ouverture, services et prix à confirmer indépendamment."
+    "importReview": "Source touristique officielle consultée en octobre 2026 : gratuit, rue de Saint-Colomban, tables et poubelles. Contradiction interne 2/4 places, non résolue.",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-daccueil-de-camping-cars-sainte-marie-en-chanois-fr-4910901/",
+    "priceSource": "https://hautesaonetourisme.com/offres/aire-daccueil-de-camping-cars-sainte-marie-en-chanois-fr-4910901/",
+    "servicesSource": "https://hautesaonetourisme.com/offres/aire-daccueil-de-camping-cars-sainte-marie-en-chanois-fr-4910901/"
   },
   {
     "department": "70",
@@ -600,17 +607,24 @@
     "department": "70",
     "name": "Aire de stationnement D136 La Montagne",
     "city": "La Montagne",
-    "address": "D136, 70310 La Montagne",
+    "address": "Champ Menigoz, près de la chapelle de Beauregard, 70310 La Montagne",
     "latitude": 47.9258296,
     "longitude": 6.5869822,
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "2 places, point distinct de Bois de Rochalain à vérifier",
+    "services": [
+      "Stationnement camping-car",
+      "Table de pique-nique",
+      "Poubelles"
+    ],
+    "price": "Gratuit selon Haute-Saône Tourisme",
+    "status": "2 emplacements gratuits, annoncés ouverts toute l'année sans réservation. À proximité de la chapelle de Beauregard ; pas d'eau, d'électricité ni de vidange attestées.",
     "source": "https://www.camping-car.com/aires/35211-aire-de-stationnement/",
     "gpsSource": "https://www.camping-car.com/aires/35211-aire-de-stationnement/",
     "sourceId": "camping-car.com/35211",
-    "importReview": "Coordonnées publiées par Camping-car.com ; ouverture, services et prix à confirmer indépendamment."
+    "importReview": "Source touristique officielle : lieu-dit Champ Menigoz, 2 places gratuites. L'ancien libellé D136 était imprécis ; coordonnées GPS initiales conservées faute de relevé officiel.",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-de-stationnement-pour-camping-cars-la-montagne-fr-4914131/",
+    "priceSource": "https://hautesaonetourisme.com/offres/aire-de-stationnement-pour-camping-cars-la-montagne-fr-4914131/",
+    "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-stationnement-pour-camping-cars-la-montagne-fr-4914131/"
   },
   {
     "department": "70",
