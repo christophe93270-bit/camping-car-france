@@ -224,7 +224,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "14 € / 24 h en parc enclos ; 20 € / 24 h sur voirie (zones distinctes)",
+    "price": "20 € /24 h avec eau et électricité sous réserve de disponibilité ; 14 € /24 h sans services",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/263175821",
     "latitude": 49.418929,
@@ -238,7 +238,13 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
     "priceSource": "https://www.ville-honfleur.com/decouvrir-honfleur/honfleur-et-ses-visiteurs/camping-cars/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif publié par exploitant, mairie ou office de tourisme; vérifier avant départ."
+    "priceNote": "Tarif publié par exploitant, mairie ou office de tourisme; vérifier avant départ.",
+    "address": "Parking du Bassin Carnot, quai du Nord, 14600 Honfleur",
+    "capacity": 180,
+    "sourceOfficial": "https://www.ot-honfleur.fr/preparez-votre-sejour/pratique/aires-de-camping-car/",
+    "verificationNote": "Parking de 180 places et 140 prises électriques (5A max). Ne pas confondre avec le second parking sans services route du Bassin Carnot.",
+    "tariffSource": "https://www.ot-honfleur.fr/preparez-votre-sejour/pratique/aires-de-camping-car/",
+    "capacitySource": "https://www.ot-honfleur.fr/preparez-votre-sejour/pratique/aires-de-camping-car/"
   },
   {
     "department": "14",
@@ -387,7 +393,7 @@
     "city": "Honfleur",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "14 € /24 h, sans eau ni électricité",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/551093576",
     "latitude": 49.4163985,
@@ -396,7 +402,11 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/551093576"
+    "sourceId": "way/551093576",
+    "address": "Route du Bassin Carnot, 14600 Honfleur",
+    "sourceOfficial": "https://www.ot-honfleur.fr/preparez-votre-sejour/pratique/aires-de-camping-car/",
+    "verificationNote": "Second parking de Honfleur, sans services, distinct du parking en enclos du Bassin Carnot. Capacité non publiée.",
+    "tariffSource": "https://www.ot-honfleur.fr/preparez-votre-sejour/pratique/aires-de-camping-car/"
   },
   {
     "department": "14",
@@ -406,7 +416,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "11,70 € / 24 h hors taxe de séjour (1,32 € en 2026), soit 13,02 € / 24 h ; services 5 h : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/597934632",
     "latitude": 49.4086792,
@@ -416,7 +426,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/597934632",
-    "servicesSource": "https://www.openstreetmap.org/way/597934632"
+    "servicesSource": "https://www.openstreetmap.org/way/597934632",
+    "address": "54 route du Banc, 14600 La Rivière-Saint-Sauveur",
+    "capacity": 16,
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/normandie/calvados/la-riviere-saint-sauveur?areaType=area-de-etapa-autocaravanas",
+    "verificationNote": "L'office de tourisme mentionne 20 places ; l'exploitant CAMPING-CAR PARK indique 16 places. Capacité de l'exploitant retenue.",
+    "tariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/normandie/calvados/la-riviere-saint-sauveur?areaType=area-de-etapa-autocaravanas",
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/normandie/calvados/la-riviere-saint-sauveur?areaType=area-de-etapa-autocaravanas"
   },
   {
     "department": "14",
