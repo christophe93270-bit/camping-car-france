@@ -66,7 +66,7 @@
       "Wi-Fi gratuit",
       "Tables de pique-nique"
     ],
-    "price": "Tarif non confirmé",
+    "price": "Tarifs officiels 2025 : entrée parking 2 € ; eau 80 L : 2 € ; électricité 6 A : 10 € (avril-septembre) ou 11,50 € (octobre-mars). Tarifs 2026 à confirmer.",
     "status": "Ouverte toute l'année selon la mairie ; toilettes de l'aire fermées pour raisons de sécurité",
     "source": "https://www.openstreetmap.org/way/966645770",
     "latitude": 48.4878207,
@@ -78,7 +78,9 @@
     "sourceId": "way/966645770",
     "match": "Saint Fraimbault",
     "capacity": 12,
-    "sourceOfficial": "https://www.saint-fraimbault.com/saint-fraimbault_tourisme-et-hebergement_hebergement_aire-de-camping-car.phtml"
+    "sourceOfficial": "https://www.saint-fraimbault.com/saint-fraimbault_tourisme-et-hebergement_hebergement_aire-de-camping-car.phtml",
+    "tariffSource": "https://www.saint-fraimbault.com/loadDoc.php?id=6358",
+    "verificationNote": "Tarifs extraits d'une délibération municipale pour 2025 ; ne pas les présenter comme tarifs 2026."
   },
   {
     "department": "61",
@@ -469,11 +471,12 @@
       "Poubelles",
       "Aire de pique-nique"
     ],
-    "price": "Tarif 2026 non précisé par Normandie Tourisme",
+    "price": "Jeton de services 2 € selon l'exploitant Qipeo ; tarif de stationnement non confirmé",
     "status": "Ouverte du 01/01 au 31/12/2026 selon Orne Tourisme",
     "sourceOfficial": "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-la-roche-mabile/",
     "gpsSource": "https://www.cirkwi.com/fr/point-interet/3017014-aire-de-camping-car-la-roche-mabile",
-    "verificationNote": "GPS et période d'ouverture fournis par Orne Tourisme, mise à jour 13/08/2026."
+    "verificationNote": "Qipeo annonce 2 emplacements tandis que Normandie Tourisme en annonce 4 ; conserver la capacité de 4 avec réserve, vérifier sur place.",
+    "tariffSource": "https://www.qipeo.com/detail/2357b759-db94-46ee-87c8-c25151f632cb"
   },
   {
     "department": "61",
