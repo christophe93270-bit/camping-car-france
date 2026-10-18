@@ -1,23 +1,29 @@
 [
   {
     "department": "89",
-    "name": "Mailly-le-Château Aire de Camping Car",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Aire de camping-car de l'Espace naturel du Beauvais",
+    "city": "Mailly-le-Château",
+    "type": "Aire de stationnement et services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement camping-car",
+      "Électricité",
+      "Évacuation eaux usées",
+      "Wi-Fi",
+      "Poubelles et tri sélectif"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire confirmée par Yonne Attractivité (fiche mise à jour le 26/03/2026) et délibération municipale historique de 2020. Conditions et tarifs actuels à vérifier.",
     "source": "https://www.openstreetmap.org/node/4400783216",
     "latitude": 47.5935342,
     "longitude": 3.6320296,
     "gpsSource": "https://www.openstreetmap.org/node/4400783216",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Fiche institutionnelle proposée par Agence Yonne Attractivité, diffusée via Cirkwi, confirme équipements et adresse. Délibération communale du 05/06/2020 : https://www.maillylechateau.fr/userfile/fichier-telechargement/1687766102-CM05062020.pdf . GPS OSM conservé.",
     "sourceId": "node/4400783216",
-    "servicesSource": "https://www.openstreetmap.org/node/4400783216"
+    "servicesSource": "https://www.cirkwi.com/fr/point-interet/3551350-aire-de-camping-car-espace-naturel-du-beauvais",
+    "address": "17 rue du Beauvais, 89660 Mailly-le-Château",
+    "sourceOfficial": "https://www.cirkwi.com/fr/point-interet/3551350-aire-de-camping-car-espace-naturel-du-beauvais"
   },
   {
     "department": "89",
@@ -38,20 +44,28 @@
   },
   {
     "department": "89",
-    "name": "Aire de camping-car de Quarré-les-Tombes",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "name": "Aire municipale de camping-car de Quarré-les-Tombes",
+    "city": "Quarré-les-Tombes",
+    "type": "Aire de stationnement et services camping-car — sources secondaires",
+    "services": [
+      "Stationnement (environ 15 emplacements selon presse spécialisée)",
+      "Eau potable (fermeture possible en hiver)",
+      "Vidange eaux grises et noires",
+      "Poubelles"
+    ],
+    "price": "Gratuit selon presse spécialisée et avis de camping-caristes en 2026 ; à confirmer auprès de la mairie",
+    "status": "Sources secondaires indiquent une aire gratuite et fonctionnelle en 2026. Contradiction sur l'ouverture saisonnière (article : toute l'année ; annuaire : mai–octobre) ; vérifier avant déplacement.",
     "source": "https://www.openstreetmap.org/node/6333266887",
     "latitude": 47.3683123,
     "longitude": 3.9996297,
     "gpsSource": "https://www.openstreetmap.org/node/6333266887",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/6333266887"
+    "importReview": "Presse camping-car.com du 26/01/2025 et avis park4night 2026 : 15 places, gratuit, eau et vidange, pas d'électricité. Pas de source municipale identifiée : sourceOfficial absent.",
+    "sourceId": "node/6333266887",
+    "address": "1 rue des Écoles, 89630 Quarré-les-Tombes",
+    "servicesSource": "https://www.camping-car.com/tourisme/actus-des-aires/30283-une-etape-parfaite-pour-les-epicuriens-bienvenue-sur-laire-de-camping-car-de-quarre-les-tombes-89/",
+    "priceSource": "https://www.camping-car.com/tourisme/actus-des-aires/30283-une-etape-parfaite-pour-les-epicuriens-bienvenue-sur-laire-de-camping-car-de-quarre-les-tombes-89/"
   },
   {
     "department": "89",
@@ -75,23 +89,31 @@
   },
   {
     "department": "89",
-    "name": "Aire de camping-car de Tanlay",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Aire CAMPING-CAR PARK de Tanlay",
+    "city": "Tanlay",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
-      "Électricité"
+      "Stationnement (environ 11 emplacements)",
+      "Électricité 6 A",
+      "Eau potable",
+      "Vidange",
+      "Wi-Fi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "14 €/24 h dont 1 € de taxe de séjour (13 € + 1 €, période 19/09/2026–30/12/2026 ; à vérifier)",
+    "status": "Aire ouverte selon l'exploitant. La description contient encore une mention de gratuité incompatible avec sa grille tarifaire ; retenir la grille affichée, à revérifier.",
     "source": "https://www.openstreetmap.org/node/14277683719",
     "latitude": 47.8466366,
     "longitude": 4.0800162,
     "gpsSource": "https://www.openstreetmap.org/node/14277683719",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Exploitant confirme rue du Port, 11 places, 6 A, grille 13 € + 1 € taxe de séjour. Description textuelle contradictoire évoquant gratuité, ne pas la retenir.",
     "sourceId": "node/14277683719",
-    "servicesSource": "https://www.openstreetmap.org/node/14277683719"
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/yonne/tanlay",
+    "address": "Rue du Port, 89430 Tanlay",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/yonne/tanlay",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/yonne/tanlay",
+    "priceVerifiedOn": "2026-10-18"
   },
   {
     "department": "89",
@@ -203,19 +225,22 @@
   {
     "department": "89",
     "name": "Bléneau Camping Car site",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Bléneau",
+    "type": "Parking camping-car OpenStreetMap — site exact à confirmer",
+    "services": [
+      "Stationnement (source OpenStreetMap, non vérifié sur place)"
+    ],
+    "price": "Non confirmé pour ce point GPS",
+    "status": "Le guide touristique institutionnel référence un parking autorisé de camping-cars à l'Épalu. CAMPING-CAR PARK exploite aussi une aire payante rue du Lieutenant Travers, mais son GPS (47.70559, 2.94876) diffère nettement de ce point OSM (47.69765, 2.94327) : ne pas les confondre.",
     "source": "https://www.openstreetmap.org/way/1189492372",
     "latitude": 47.6976473,
     "longitude": 2.9432664,
     "gpsSource": "https://www.openstreetmap.org/way/1189492372",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1189492372"
+    "importReview": "Aucune source officielle associée avec certitude au point GPS OSM. Guide tourisme Puisaye mentionne parking de l'Épalu ; exploitant CAMPING-CAR PARK annonce aire rue du Lieutenant Travers, à environ 1 km. sourceOfficial laissé absent en attendant identification.",
+    "sourceId": "way/1189492372",
+    "cityVerificationNote": "Bléneau confirmé ; association de l'emplacement OSM à l'Épalu ou autre parking à vérifier."
   },
   {
     "department": "89",
