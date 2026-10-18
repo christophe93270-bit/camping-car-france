@@ -585,17 +585,20 @@
     "name": "Aire d'Accueil de Camping-Cars Hirtzbach",
     "city": "Hirtzbach",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Aire municipale de stationnement et de services mentionnée par des annuaires et avis cartographiques ; gratuité, capacité et fonctionnement de la borne non confirmés par une source municipale.",
+    "services": [
+      "Vidange des eaux usées"
+    ],
+    "price": "Stationnement gratuit (office de tourisme du Sundgau).",
+    "status": "Aire de 10 emplacements stabilisés, place de la Gare, au centre du village près de la piste cyclable. Ouverte toute l'année, gratuite. Seule la vidange des eaux usées est explicitement confirmée par l'office de tourisme.",
     "source": "https://www.openstreetmap.org/way/1319729706",
     "latitude": 47.6006628,
     "longitude": 7.2255881,
     "gpsSource": "https://www.openstreetmap.org/way/1319729706",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : présence corroborée par deux fiches cartographiques, mais coordonnées d'accès et tarifs non officiellement confirmés.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : présence corroborée par deux fiches cartographiques, mais coordonnées d'accès et tarifs non officiellement confirmés. | 18/10/2026 : fiche officielle OT Sundgau confirme place de la Gare, 10 emplacements, ouverture annuelle et gratuité ; FAQ OT précise vidange eaux usées uniquement. GPS OSM conservé sans précision métrique garantie.",
     "sourceId": "way/1319729706",
-    "address": "Secteur de l'ancienne gare, 68118 Hirtzbach (accès exact à confirmer)"
+    "address": "Place de la Gare, 68118 Hirtzbach",
+    "sourceOfficial": "https://www.sundgau-sud-alsace.fr/detail/1145/2379/242001510/aire-daccueil-de-camping-cars-hirtzbach/"
   }
 ]
