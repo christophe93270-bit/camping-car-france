@@ -330,18 +330,26 @@
     "name": "Aire De Camping Cars De Thaon-les-vosges",
     "city": "Thaon-les-Vosges",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement gratuit selon Camping-car.com (publication ancienne) ; tarif actuel des services à confirmer",
-    "status": "Aire de 15 emplacements en bordure du canal, décrite par Camping-car.com. Stationnement gratuit selon cette source ancienne, eau et vidange indiquées ; pas de source institutionnelle actuelle identifiée. Ne pas confondre avec l'aire d'accueil des gens du voyage.",
+    "services": [
+      "Stationnement gratuit (source secondaire)",
+      "Eau potable payante (source secondaire)",
+      "Vidange eaux grises (source secondaire)",
+      "Vidange cassette WC (source secondaire)"
+    ],
+    "price": "Stationnement gratuit ; eau ou services 4 € selon sources secondaires (tarif municipal actuel à confirmer)",
+    "status": "Existence et localisation rue du Coignot confirmées par un règlement municipal qui impose aux camping-cars de stationner sur cette aire. Les 15 places, la gratuité du stationnement et les 4 € de services proviennent de sources secondaires, et non d'un barème municipal à jour. Électricité non confirmée, signalée indisponible par une source secondaire.",
     "source": "https://www.openstreetmap.org/way/791631162",
     "latitude": 48.2506925,
     "longitude": 6.4250372,
     "gpsSource": "https://www.openstreetmap.org/way/791631162",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : source secondaire rapprochée de la géométrie OSM, tarifs actuels à confirmer.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : source secondaire rapprochée de la géométrie OSM, tarifs actuels à confirmer. | 18/10/2026 : règlement municipal confirme l'aire rue du Coignot ; tarifs et services issus de sources secondaires, non certifiés par la mairie.",
     "sourceId": "way/791631162",
-    "address": "Rue du Coignot, près du port fluvial, 88150 Thaon-les-Vosges"
+    "address": "Rue du Coignot, près du port fluvial, 88150 Thaon-les-Vosges",
+    "sourceOfficial": "https://cities.reseaudesvilles.fr/cities/296/documents/ecegevq0tdr9nq3.pdf",
+    "servicesSource": "https://www.i-campingcar.fr/aires.php?ville=THAON+LES+VOSGES",
+    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=THAON+LES+VOSGES"
   },
   {
     "department": "88",
