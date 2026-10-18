@@ -394,22 +394,26 @@
     "department": "25",
     "name": "Aire de camping-cars - Le Russey",
     "city": "Le Russey",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de services camping-car",
     "services": [
-      "Électricité"
+      "Vidange",
+      "Électricité",
+      "Eau potable"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de services au centre du village près de la salle des fêtes ; jetons en vente dans les commerces. Disponibilité actuelle à confirmer.",
     "source": "https://www.openstreetmap.org/way/1036346693",
     "latitude": 47.1620813,
     "longitude": 6.7229665,
     "gpsSource": "https://www.openstreetmap.org/way/1036346693",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Source Explore Doubs confirme vidange, eau potable, électricité et vente de jetons ; tarif non précisé.",
     "sourceId": "way/1036346693",
-    "servicesSource": "https://www.openstreetmap.org/way/1036346693",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "servicesSource": "https://explore.doubs.fr/service/789-Aire-de-camping-cars---Le-Russey",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "Rue Foch, 25210 Le Russey",
+    "sourceOfficial": "https://explore.doubs.fr/service/789-Aire-de-camping-cars---Le-Russey"
   },
   {
     "department": "25",
@@ -590,22 +594,28 @@
     "department": "25",
     "name": "Aire de stationnement pour Camping car de Valonne",
     "city": "Valonne",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement et services camping-car",
     "services": [
-      "Électricité"
+      "Électricité",
+      "Vidange eaux usées",
+      "Eau potable",
+      "WC publics",
+      "Lave-linge"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire en bordure du village ; électricité et vidange sur place selon la communauté de communes. Tarifs et fonctionnement à confirmer.",
     "source": "https://www.openstreetmap.org/way/1302837296",
     "latitude": 47.340092,
     "longitude": 6.6584778,
     "gpsSource": "https://www.openstreetmap.org/way/1302837296",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Adresse et équipements confirmés par la communauté de communes ; ne pas présumer de gratuité.",
     "sourceId": "way/1302837296",
-    "servicesSource": "https://www.openstreetmap.org/way/1302837296",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "servicesSource": "https://www.payssancey-belleherbe.fr/sejour-et-activites/ou-dormir/tous-les-hebergements/aire-de-stationnement-pour-camping-car/",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "4 rue des Carrières, 25190 Valonne",
+    "sourceOfficial": "https://www.payssancey-belleherbe.fr/sejour-et-activites/ou-dormir/tous-les-hebergements/aire-de-stationnement-pour-camping-car/"
   },
   {
     "department": "25",
@@ -688,19 +698,26 @@
     "department": "25",
     "name": "Aire de camping-cars - Saint-Hippolyte",
     "city": "Saint-Hippolyte",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "type": "Aire de stationnement camping-car",
+    "services": [
+      "Stationnement",
+      "Aire de pique-nique",
+      "Terrain de pétanque"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire d'accueil au parking du Clos Pascal ; borne de services municipale distincte rue de Montbéliard selon la documentation du Pays Horloger. Conditions de stationnement à confirmer.",
     "source": "https://www.openstreetmap.org/way/1312766611",
     "latitude": 47.3187295,
     "longitude": 6.8147555,
     "gpsSource": "https://www.openstreetmap.org/way/1312766611",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Explore Doubs référence l'aire ; documentation Pays Horloger (2020) situe la borne de services rue de Montbéliard, distincte du parking. Ne pas attribuer ses services au parking.",
     "sourceId": "way/1312766611",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "Parking du Clos Pascal, 25190 Saint-Hippolyte",
+    "sourceOfficial": "https://explore.doubs.fr/search?districts=4",
+    "servicesSource": "https://www.pays-horloger.com/wp-content/uploads/2020/07/Liste-presta-gites-etc2020.pdf"
   },
   {
     "department": "25",
