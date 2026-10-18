@@ -27,7 +27,7 @@
   {
     "department": "70",
     "name": "Aire de camping-cars du Bois de Rochalain",
-    "city": "La Montagne",
+    "city": "Commune à confirmer",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Table de pique-nique",
@@ -41,7 +41,7 @@
     "gpsSource": "https://www.openstreetmap.org/node/9937120217",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Recoupement groupé avec fiche Haute-Saône Tourisme ; coordonnées GPS d'origine non déplacées ; données sujettes à changement.",
+    "importReview": "Attention : GPS OSM 47.8215867,6.5903147 éloigné de l'aire D136 La Montagne (47.9258296,6.5869822). Commune exacte à vérifier, ne pas fusionner.",
     "sourceId": "node/9937120217",
     "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment.",
     "address": "Champ Menigoz, 70310 La Montagne",
@@ -448,21 +448,22 @@
     "address": "3 chemin de la Colombière, 70140 Pesmes",
     "latitude": 47.2767768,
     "longitude": 5.5661834,
-    "price": "Non confirmé",
+    "price": "Services eau/vidange/électricité : 9 à 13 € selon Haute-Saône Tourisme (à confirmer)",
     "services": [
       "Eau",
       "Électricité",
       "Vidange eaux usées",
       "Vidange WC"
     ],
-    "status": "Camping du 1er mai au 30 septembre ; borne de services annoncée toute l'année, accès à confirmer",
+    "status": "Borne Flot Bleu, 1 emplacement de services selon Haute-Saône Tourisme ; camping distinct à vérifier",
     "source": "https://www.camping-car.com/aires/4620-la-colombiere/",
     "type": "Camping accueillant les camping-cars",
     "gpsSource": "https://www.camping-car.com/aires/4620-la-colombiere/",
     "sourceId": "camping-car.com/4620",
-    "priceSource": "https://www.camping-car.com/aires/4620-la-colombiere/",
+    "priceSource": "https://hautesaonetourisme.com/offres/aire-de-camping-cars-flot-bleu-pesmes-fr-4909709/",
     "servicesSource": "https://www.camping-car.com/aires/4620-la-colombiere/",
-    "importReview": "Fiche Camping-car.com ; coordonnées et informations publiées par l'annuaire, accès et tarifs à vérifier sur place."
+    "importReview": "Fiche Camping-car.com ; coordonnées et informations publiées par l'annuaire, accès et tarifs à vérifier sur place.",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-de-camping-cars-flot-bleu-pesmes-fr-4909709/"
   },
   {
     "department": "70",
@@ -509,5 +510,53 @@
     "servicesSource": "https://www.camping-car.com/aires/44400-aire-intercommunale/",
     "status": "7 places, aire de services annoncée toute l'année",
     "importReview": "Source annuaire Camping-car.com ; GPS repris de la fiche ; tarifs anciens, à reconfirmer."
+  },
+  {
+    "department": "70",
+    "name": "Aire de stationnement Sainte-Marie-en-Chanois",
+    "city": "Sainte-Marie-en-Chanois",
+    "address": "D6, 70310 Sainte-Marie-en-Chanois",
+    "latitude": 47.8366075,
+    "longitude": 6.5121087,
+    "type": "Aire de camping-car (à vérifier)",
+    "services": [],
+    "price": "Non confirmé",
+    "status": "2 places, services et tarif non confirmés",
+    "source": "https://www.camping-car.com/aires/35212-aire-de-stationnement/",
+    "gpsSource": "https://www.camping-car.com/aires/35212-aire-de-stationnement/",
+    "sourceId": "camping-car.com/35212",
+    "importReview": "Coordonnées publiées par Camping-car.com ; ouverture, services et prix à confirmer indépendamment."
+  },
+  {
+    "department": "70",
+    "name": "Aire intercommunale de Mailley-et-Chazelot",
+    "city": "Mailley-et-Chazelot",
+    "address": "Rue de Chevaney, 70000 Mailley-et-Chazelot",
+    "latitude": 47.5347296,
+    "longitude": 6.0430057,
+    "type": "Aire de camping-car (à vérifier)",
+    "services": [],
+    "price": "Non confirmé",
+    "status": "4 places, borne Flot Bleu, tarif non confirmé",
+    "source": "https://www.camping-car.com/aires/45581-aire-intercommunale/",
+    "gpsSource": "https://www.camping-car.com/aires/45581-aire-intercommunale/",
+    "sourceId": "camping-car.com/45581",
+    "importReview": "Coordonnées publiées par Camping-car.com ; ouverture, services et prix à confirmer indépendamment."
+  },
+  {
+    "department": "70",
+    "name": "Aire de stationnement D136 La Montagne",
+    "city": "La Montagne",
+    "address": "D136, 70310 La Montagne",
+    "latitude": 47.9258296,
+    "longitude": 6.5869822,
+    "type": "Aire de camping-car (à vérifier)",
+    "services": [],
+    "price": "Non confirmé",
+    "status": "2 places, point distinct de Bois de Rochalain à vérifier",
+    "source": "https://www.camping-car.com/aires/35211-aire-de-stationnement/",
+    "gpsSource": "https://www.camping-car.com/aires/35211-aire-de-stationnement/",
+    "sourceId": "camping-car.com/35211",
+    "importReview": "Coordonnées publiées par Camping-car.com ; ouverture, services et prix à confirmer indépendamment."
   }
 ]
