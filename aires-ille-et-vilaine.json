@@ -345,12 +345,16 @@
     "department": "35",
     "name": "Aire de Camping-cars Muël",
     "city": "Muël",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de camping-cars communale",
     "services": [
-      "Électricité"
+      "Électricité",
+      "Eau potable",
+      "Vidange des eaux usées",
+      "Recharge vélo électrique",
+      "Aire de pique-nique"
     ],
     "price": "Nuitée gratuite ; électricité 8,50 € / 12 h ; eau 2,50 € / 150 L",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Ouverte toute l'année ; 6 places, stationnement gratuit selon brochure touristique 2026",
     "source": "https://www.openstreetmap.org/way/1282039908",
     "latitude": 48.1283736,
     "longitude": -2.1542658,
@@ -364,7 +368,8 @@
     "address": "Rue de Rennes, 35290 Muël",
     "capacity": 6,
     "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-car-de-muel-muel-fr-3811947/",
-    "verificationNote": "Ouverte toute l'année, borne de vidange, paiement par carte bancaire, recharge VAE."
+    "verificationNote": "Brochure Destination Brocéliande 2026 : 6 places rue de Rennes, stationnement gratuit. Fiche touristique actualisée février 2026 : électricité 8,50 €/12 h, eau 2,50 €/150 L, vidange et recharge VAE, CB. GPS OSM existant non recoupé précisément avec l'accès.",
+    "priceSource": "https://www.destination-broceliande.com/app/uploads/broceliande/2026/06/AIRES-CAMPING-CARS-DB-2026.pdf"
   },
   {
     "department": "35",
@@ -849,12 +854,13 @@
       "Vidange WC",
       "Tri sélectif"
     ],
-    "price": "Payant ; tarif actuel à confirmer",
+    "price": "8,30 € / 24 h en haute saison (1er mars au 31 octobre), tarif publié dans la brochure touristique 2024 ; tarif 2026 à confirmer",
     "status": "Aire municipale ouverte toute l'année ; accès 24 h/24 par automate CB et QR code",
     "source": "https://www.guipry-messac.fr/halte-camping-car/",
     "sourceOfficial": "https://www.guipry-messac.fr/halte-camping-car/",
     "gpsSource": "https://www.camping-car.com/aires/34575-aire-communale/",
-    "verificationNote": "Mairie : 26 emplacements, vidange, eau potable, électricité optionnelle, tri sélectif. Paiement par CB uniquement. Règlement municipal 2021 : stationnement limité à 30 jours consécutifs. Aucun tarif chiffré récent confirmé."
+    "verificationNote": "Mairie : 26 places rue de la Résistance, paiement CB par automate 24 h/24, accès eau et vidange possible sans nuitée, électricité optionnelle. Règlement municipal 2021 : séjour limité à 30 jours. Brochure Vallons en Bretagne 2024 : 8,30 €/24 h en haute saison du 1er mars au 31 octobre ; tarif non garanti en 2026.",
+    "priceSource": "https://www.vallonsenbretagne.fr/medias/sites/22/2024/03/camping-car-web.pdf"
   },
   {
     "department": "35",
