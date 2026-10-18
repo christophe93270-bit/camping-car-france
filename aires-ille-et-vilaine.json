@@ -29,11 +29,11 @@
   },
   {
     "department": "35",
-    "name": "Stationement Camping car U express Plerguer",
+    "name": "Aire de camping-car U Express Plerguer",
     "city": "Plerguer",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit selon annuaire Le Campeur ; eau annoncée à 2 € / 10 min, à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12029108895",
     "latitude": 48.530755,
@@ -43,7 +43,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/12029108895",
-    "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques."
+    "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
+    "address": "Route de Saint-Malo, Le Puits Saliou, 35540 Plerguer",
+    "sourceOfficial": "https://www.magasins-u.com/magasin/uexpress-plerguer",
+    "verificationNote": "Adresse du magasin confirmée par Magasins U ; présence de l'aire corroborée par annuaire de station-service. Capacité inconnue, fonctionnement des services et tarif non confirmés par l'exploitant.",
+    "priceSource": "https://www.lecampeur.fr/aire/aire-de-camping-car-station-u-express-plerguer-ph5ab7"
   },
   {
     "department": "35",
@@ -391,7 +395,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Environ 10,80 € la nuit selon annuaires communautaires ; tarif actuel à confirmer auprès du camping",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1318372118",
     "latitude": 48.6011471,
@@ -403,8 +407,13 @@
     "sourceId": "way/1318372118",
     "servicesSource": "https://www.openstreetmap.org/way/1318372118",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
-    "verificationNote": "Ne pas attribuer à cette aire OSM les tarifs, services ou adresses du camping Teñzor de la Baie (10 bis rue Théophile Blin) ou de la Ferme des Beaux Bois (15 Les Beaux Bois) : lieux distincts à vérifier.",
-    "relatedSource": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-services-du-camping-tenzor-de-la-baie-cherrueix-fr-2727646/"
+    "verificationNote": "Aire accolée au camping du Château de l'Aumône ; 20 places d'après Park4night et Le Campeur (non confirmées par l'exploitant). Ne pas confondre avec les 70 emplacements du camping ni avec le camping Teñzor de la Baie. Ouverture saisonnière à vérifier.",
+    "relatedSource": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-services-du-camping-tenzor-de-la-baie-cherrueix-fr-2727646/",
+    "address": "L'Aumône, 35120 Cherrueix (aire attenante au camping du Château de l'Aumône)",
+    "capacity": 20,
+    "sourceOfficial": "https://campingdelaumone.com/",
+    "capacitySource": "https://park4night.com/fr/place/88517",
+    "priceSource": "https://www.lecampeur.fr/aire/aire-de-camping-car-de-cherrueix-ph46s0"
   },
   {
     "department": "35",
