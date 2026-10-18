@@ -184,12 +184,17 @@
     "department": "02",
     "name": "Aire de camping-cars Beautor",
     "city": "Beautor",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire communale de stationnement et de services camping-car",
     "services": [
-      "Toilettes"
+      "Stationnement gratuit",
+      "Eau potable payante",
+      "Électricité payante",
+      "Vidange eaux grises",
+      "Vidange WC",
+      "Wi-Fi"
     ],
-    "price": "Non confirmé",
-    "status": "Commune et informations vérifiées auprès d'une source touristique; vérifier sur place les conditions actuelles",
+    "price": "Stationnement gratuit selon annuaires spécialisés ; services 2 € selon répertoire actualisé en août 2026 (à confirmer sur place)",
+    "status": "Aire de services confirmée par source touristique ; tarif et capacité à confirmer auprès de la mairie",
     "source": "https://www.openstreetmap.org/way/808808073",
     "latitude": 49.6607902,
     "longitude": 3.3491899,
@@ -201,7 +206,8 @@
     "servicesSource": "https://www.openstreetmap.org/way/808808073",
     "verificationSource": "https://www.cirkwi.com/fr/point-interet/1458969-aire-d-accueil-et-de-services-de-beautor",
     "verificationDate": "2026-10-17",
-    "verificationNote": "Office de tourisme Cœur de Picard confirme la localisation et les services, pas le prix."
+    "verificationNote": "Office de tourisme confirme eau, électricité et Wi-Fi ; un annuaire actualisé en août 2026 mentionne stationnement gratuit et services à 2 €. Les capacités publiées divergent (3 ou 4 places).",
+    "priceSource": "https://www.campingcar76.fr/Site%20P08%2002%20Aires%20services%20Aisne%20%28Picardie%29.htm"
   },
   {
     "department": "02",
@@ -247,12 +253,17 @@
     "department": "02",
     "name": "L'aire de camping-cars et de services de Riqueval",
     "city": "Bellicourt",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement et de services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement gratuit",
+      "Eau potable payante",
+      "Électricité payante",
+      "Vidange eaux grises",
+      "Vidange WC",
+      "Table de pique-nique"
     ],
-    "price": "Stationnement : tarif à confirmer ; eau 3 € / 10 min ; électricité 2 € / 4 h ou 4 € / 8 h",
-    "status": "Commune identifiée auprès d'une source touristique; tarif à confirmer",
+    "price": "Stationnement gratuit ; eau 3 € / 10 min ; électricité 2 € / 4 h ou 4 € / 8 h",
+    "status": "Quatre emplacements, stationnement gratuit et services confirmés par les offices de tourisme",
     "source": "https://www.openstreetmap.org/way/1312459206",
     "latitude": 49.9515721,
     "longitude": 3.2352119,
@@ -262,9 +273,10 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1312459206",
     "servicesSource": "https://www.openstreetmap.org/way/1312459206",
-    "verificationSource": "https://ot-vermandois.com/laire-de-camping-cars-et-de-services-de-riqueval",
+    "verificationSource": "https://www.destination-saintquentin.fr/aire-daccueil-et-de-service-de-riqueval/",
     "verificationDate": "2026-10-17",
-    "verificationNote": "Les montants indiqués par l'office de tourisme concernent l'eau et l'électricité, pas un forfait de stationnement."
+    "verificationNote": "Office de tourisme du Saint-Quentinois confirme explicitement parking gratuit ; office du Vermandois détaille les tarifs des services.",
+    "capacity": 4
   },
   {
     "department": "02",
