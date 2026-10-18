@@ -267,7 +267,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/308902801",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : résultats cartographiques contradictoires Ferrette/Bendorf ; ne pas attribuer l'adresse chemin du Réservoir sans vérifier le point GPS.",
     "sourceId": "way/308902801",
     "servicesSource": "https://www.openstreetmap.org/way/308902801"
   },
@@ -330,7 +330,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/451559780",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : ne pas confondre Bungert avec le parking du Centre (30 places, services) décrit sur Visit Alsace.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : ne pas confondre Bungert avec le parking du Centre (30 places, services) décrit sur Visit Alsace. | 18/10/2026 : fiche touristique officielle https://www.visit.alsace/239002498-aire-de-service-pour-camping-car-parking-du-centre/ concerne le parking du Centre, pas le Bungert. Aucune fusion.",
     "sourceId": "way/451559780",
     "address": "Place du Bungert, 68800 Thann"
   },
@@ -408,16 +408,17 @@
       "Électricité"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de stationnement et services située à proximité de la Cave de Ribeauvillé, route de Colmar ; existence corroborée par plusieurs annuaires cartographiques, mais capacité, tarif et équipements à vérifier auprès de l'exploitant.",
     "source": "https://www.openstreetmap.org/way/1144446733",
     "latitude": 48.1915447,
     "longitude": 7.3295468,
     "gpsSource": "https://www.openstreetmap.org/way/1144446733",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : aire localisée route de Colmar via annuaires cartographiques ; aucune source primaire tarifaire trouvée, sourceOfficial laissé vide.",
     "sourceId": "way/1144446733",
-    "servicesSource": "https://www.openstreetmap.org/way/1144446733"
+    "servicesSource": "https://www.openstreetmap.org/way/1144446733",
+    "address": "Route de Colmar (D416), 68150 Ribeauvillé, numéro à confirmer"
   },
   {
     "department": "68",
@@ -548,16 +549,17 @@
       "Eau potable"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Stationnement de repos signalé près de la D483G, sans services camping-car confirmés. Ne pas présenter comme aire équipée avant vérification municipale.",
     "source": "https://www.openstreetmap.org/way/1298670097",
     "latitude": 47.7399324,
     "longitude": 7.148226,
     "gpsSource": "https://www.openstreetmap.org/way/1298670097",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : référencement cartographique évoque parking de repos, pas une aire de services. Services non confirmés.",
     "sourceId": "way/1298670097",
-    "servicesSource": "https://www.openstreetmap.org/way/1298670097"
+    "servicesSource": "https://www.openstreetmap.org/way/1298670097",
+    "address": "D483G, secteur Pont d'Aspach, 68520 Burnhaupt-le-Haut"
   },
   {
     "department": "68",
@@ -566,14 +568,15 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire municipale de stationnement et de services mentionnée par des annuaires et avis cartographiques ; gratuité, capacité et fonctionnement de la borne non confirmés par une source municipale.",
     "source": "https://www.openstreetmap.org/way/1319729706",
     "latitude": 47.6006628,
     "longitude": 7.2255881,
     "gpsSource": "https://www.openstreetmap.org/way/1319729706",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
-    "sourceId": "way/1319729706"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : présence corroborée par deux fiches cartographiques, mais coordonnées d'accès et tarifs non officiellement confirmés.",
+    "sourceId": "way/1319729706",
+    "address": "Secteur de l'ancienne gare, 68118 Hirtzbach (accès exact à confirmer)"
   }
 ]
