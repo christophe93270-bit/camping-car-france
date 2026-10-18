@@ -17,7 +17,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/2475337525",
-    "servicesSource": "https://www.openstreetmap.org/node/2475337525"
+    "servicesSource": "https://www.openstreetmap.org/node/2475337525",
+    "address": "Boulevard du Fort Carabit, 80200 Péronne",
+    "capacity": 6,
+    "capacitySource": "https://www.camping-car.com/aires/45984-aire-communale/",
+    "verificationNote": "Capacité et adresse d'après répertoire spécialisé ; tarif actuel non confirmé."
   },
   {
     "department": "80",
@@ -89,7 +93,10 @@
     "servicesSource": "https://www.openstreetmap.org/node/11917670977",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/somme/bray-sur-somme",
     "tariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/somme/bray-sur-somme",
-    "verificationNote": "Informations documentées par la source officielle ou l'exploitant en octobre 2026 ; vérifier les tarifs variables avant le séjour."
+    "verificationNote": "Adresse et capacité de l'exploitant ; tarif variable, consulter la source avant séjour.",
+    "address": "Promenade du Wicquet, 80340 Bray-sur-Somme",
+    "capacity": 10,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/somme/bray-sur-somme?areaType=aire-etape-camping-car"
   },
   {
     "department": "80",
@@ -124,7 +131,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "10 € pour 1 à 24 h ; première heure gratuite ; 20 € jusqu'à 48 h, 30 € jusqu'à 72 h, puis 10 € par 24 h supplémentaires (mairie, 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/116080483",
     "latitude": 50.2181784,
@@ -134,7 +141,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/116080483",
-    "servicesSource": "https://www.openstreetmap.org/way/116080483"
+    "servicesSource": "https://www.openstreetmap.org/way/116080483",
+    "address": "Bassin des Chasses, près du port de plaisance, 80550 Le Crotoy",
+    "capacity": 190,
+    "sourceOfficial": "https://villeducrotoy.fr/tourisme/camping-car/",
+    "tariffSource": "https://villeducrotoy.fr/tourisme/camping-car/",
+    "capacitySource": "https://www.baiedesomme-ponthieumarquenterre.fr/circuit-camping-car-baie-de-somme.php?sim_var=AIRCCPIC0800000E"
   },
   {
     "department": "80",
@@ -142,7 +154,7 @@
     "city": "Le Crotoy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "10 € par 24 h (mairie, guide 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/116540519",
     "latitude": 50.2283749,
@@ -151,7 +163,12 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/116540519"
+    "sourceId": "way/116540519",
+    "address": "Chemin du Marais, 80550 Le Crotoy",
+    "capacity": 50,
+    "sourceOfficial": "https://villeducrotoy.fr/tourisme/camping-car/",
+    "tariffSource": "https://villeducrotoy.fr/tourisme/camping-car/",
+    "capacitySource": "https://www.baiedesomme-ponthieumarquenterre.fr/circuit-camping-car-baie-de-somme.php?sim_var=AIRCCPIC080V50E1FK"
   },
   {
     "department": "80",
