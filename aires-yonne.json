@@ -28,18 +28,20 @@
   {
     "department": "89",
     "name": "Avallon Camping Car parking",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "city": "Avallon",
+    "type": "Parking pour camping-cars — site à confirmer",
+    "services": [
+      "Stationnement (point OpenStreetMap non vérifié)"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Point de stationnement OpenStreetMap non rapproché de manière certaine d'une aire municipale. Le Camping Municipal Sous Roche, 1 rue Sous Roche, propose des services camping-cars, mais il s'agit d'un établissement distinct : ne pas lui attribuer ce point GPS.",
     "source": "https://www.openstreetmap.org/node/5650000890",
     "latitude": 47.4935012,
     "longitude": 3.9047894,
     "gpsSource": "https://www.openstreetmap.org/node/5650000890",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Tourisme Yonne confirme le camping Sous Roche, mais pas l'identité du parking OSM. Ne pas créer de fausse correspondance ni de sourceOfficial.",
     "sourceId": "node/5650000890"
   },
   {
@@ -69,23 +71,31 @@
   },
   {
     "department": "89",
-    "name": "Aire de camping-car de Cruzy-le-Châtel",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Aire CAMPING-CAR PARK de Cruzy-le-Châtel",
+    "city": "Cruzy-le-Châtel",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
-      "Électricité"
+      "Stationnement (12 emplacements)",
+      "Électricité (bornes 6 A)",
+      "Eau potable",
+      "Vidange eaux usées",
+      "Sanitaires (ouverture saisonnière indiquée par l'exploitant)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "13 €/24 h dont 1 € de taxe de séjour (12 € + 1 €), grille affichée du 16/10/2026 au 31/12/2026 ; à revérifier",
+    "status": "Aire ouverte selon l'exploitant. Sanitaires annoncés ouverts du 01/07/2026 au 31/07/2027 ; vérifier sur place.",
     "source": "https://www.openstreetmap.org/node/14276475812",
     "latitude": 47.8564931,
     "longitude": 4.2193454,
     "gpsSource": "https://www.openstreetmap.org/node/14276475812",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Exploitant confirme 12 places, adresse, prix 12 € + taxe de séjour 1 €, sanitaires et électricité 6 A. Article camping-car.com du 17/09/2026 confirme ouverture 21/08/2026 et eau/vidange/Wi-Fi. GPS OSM conservé.",
     "sourceId": "node/14276475812",
-    "servicesSource": "https://www.openstreetmap.org/node/14276475812"
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/yonne/cruzy-le-ch%C3%A2tel",
+    "address": "24 rue des Tilleuls, 89740 Cruzy-le-Châtel",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/yonne/cruzy-le-ch%C3%A2tel",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/yonne/cruzy-le-ch%C3%A2tel",
+    "priceVerifiedOn": "2026-10-18"
   },
   {
     "department": "89",
@@ -231,35 +241,37 @@
       "Stationnement (source OpenStreetMap, non vérifié sur place)"
     ],
     "price": "Non confirmé pour ce point GPS",
-    "status": "Le guide touristique institutionnel référence un parking autorisé de camping-cars à l'Épalu. CAMPING-CAR PARK exploite aussi une aire payante rue du Lieutenant Travers, mais son GPS (47.70559, 2.94876) diffère nettement de ce point OSM (47.69765, 2.94327) : ne pas les confondre.",
+    "status": "Point OpenStreetMap non rapproché de manière certaine de l'aire CAMPING-CAR PARK rue du Lieutenant Travers. L'aire exploitant et le point OSM sont à des coordonnées distinctes ; confirmer sur place avant fusion.",
     "source": "https://www.openstreetmap.org/way/1189492372",
     "latitude": 47.6976473,
     "longitude": 2.9432664,
     "gpsSource": "https://www.openstreetmap.org/way/1189492372",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Aucune source officielle associée avec certitude au point GPS OSM. Guide tourisme Puisaye mentionne parking de l'Épalu ; exploitant CAMPING-CAR PARK annonce aire rue du Lieutenant Travers, à environ 1 km. sourceOfficial laissé absent en attendant identification.",
+    "importReview": "Contrôle 18/10/2026 : maintien de la réserve géographique ; aucune sourceOfficial ajoutée faute de correspondance démontrée.",
     "sourceId": "way/1189492372",
     "cityVerificationNote": "Bléneau confirmé ; association de l'emplacement OSM à l'Épalu ou autre parking à vérifier."
   },
   {
     "department": "89",
     "name": "Aire de camping-car halte nautique de Ravières",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Ravières",
+    "type": "Aire de camping-car à proximité de la halte nautique — non confirmée officiellement",
     "services": [
-      "Toilettes"
+      "Toilettes (déclarées dans OpenStreetMap, non vérifiées)",
+      "Eau potable (déclarée dans un annuaire reprenant OpenStreetMap, non vérifiée)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit selon annuaire secondaire, à confirmer",
+    "status": "Point OpenStreetMap proche de la halte nautique de Ravières. Aucune fiche municipale ou touristique officielle retrouvée confirmant services, accès et conditions de nuitée.",
     "source": "https://www.openstreetmap.org/way/1270384861",
     "latitude": 47.7325147,
     "longitude": 4.2242385,
     "gpsSource": "https://www.openstreetmap.org/way/1270384861",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Campercation reprend OpenStreetMap : gratuit, eau, adresse 10 rue du Port ; aucune vérification indépendante. sourceOfficial laissé absent.",
     "sourceId": "way/1270384861",
-    "servicesSource": "https://www.openstreetmap.org/way/1270384861"
+    "servicesSource": "https://www.campercation.com/place/27916/aire-de-camping-car-halte-nautique-de-ravi-res",
+    "address": "10 rue du Port, 89390 Ravières (adresse d'annuaire secondaire, à vérifier)"
   }
 ]
