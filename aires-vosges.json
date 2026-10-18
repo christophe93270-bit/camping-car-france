@@ -561,14 +561,14 @@
       "Électricité"
     ],
     "price": "Tarif de 24 h à vérifier auprès de l'exploitant ; taxe de séjour indiquée : 1,10 €",
-    "status": "Aire identifiée sur le site de l'exploitant CAMPING-CAR PARK, 16 emplacements, coordonnées concordantes avec la fiche OSM. Tarifs et équipements à vérifier avant séjour.",
+    "status": "Aire identifiée sur le site de l'exploitant CAMPING-CAR PARK, 16 emplacements, coordonnées concordantes avec la fiche OSM. Tarifs et équipements à vérifier avant séjour. Source Tourisme Vosges affichant 13,83 € / 24 h taxe de séjour comprise : tarif différent de la page exploitant, à comparer avant affichage d'un prix ferme.",
     "source": "https://www.openstreetmap.org/way/1284613699",
     "latitude": 48.1808886,
     "longitude": 5.8846957,
     "gpsSource": "https://www.openstreetmap.org/way/1284613699",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : contrôle direct exploitant CAMPING-CAR PARK ; GPS, adresse et capacité (16 places) concordants. SourceOfficial directe.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : contrôle direct exploitant CAMPING-CAR PARK ; GPS, adresse et capacité (16 places) concordants. SourceOfficial directe. | 18/10/2026 : tarif Tourisme Vosges 13,83 € / 24 h TTC identifié, divergence de sources conservée.",
     "sourceId": "way/1284613699",
     "servicesSource": "https://www.campingcarpark.com/camping-car/grand-est/vosges/contrexeville",
     "address": "660 rue du Onze-Septembre-1944, 88140 Contrexéville",
@@ -630,14 +630,14 @@
   },
   {
     "department": "88",
-    "name": "Aire de camping-car Intermarché Thillot",
+    "name": "Aire de vidange Intermarché — Le Thillot",
     "city": "Le Thillot",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Aire de services mentionnée par l'office de tourisme"
+      "Vidange eaux grises"
     ],
-    "price": "Tarifs et fonctionnement non confirmés par la source touristique",
-    "status": "Source institutionnelle correspondant à l'aire nommée. Aire située derrière la station-service Intermarché distincte de l'aire rue de la Mouline ; équipement et conditions à confirmer auprès du site.",
+    "price": "Tarif non précisé par l'office de tourisme",
+    "status": "Aire de vidange derrière la station-service Intermarché, distincte de l'aire de stationnement rue de la Mouline. La source confirme uniquement la vidange des eaux grises ; ne pas présenter comme parking de nuit ni comme borne complète.",
     "source": "https://www.openstreetmap.org/way/1312866802",
     "latitude": 47.8890206,
     "longitude": 6.7737321,
@@ -646,10 +646,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement | 18/10/2026 : fiche touristique officielle consultée ; services et tarifs explicitement documentés, réserves consignées.",
     "sourceId": "way/1312866802",
-    "address": "Derrière la station-service Intermarché, 88160 Le Thillot",
-    "sourceOfficial": "https://www.ballons-hautes-vosges.com/aires-de-camping-car-de-la-vallee-de-la-moselle-vosges.html",
-    "servicesSource": "https://www.ballons-hautes-vosges.com/aires-de-camping-car-de-la-vallee-de-la-moselle-vosges.html",
-    "priceSource": "https://www.ballons-hautes-vosges.com/aires-de-camping-car-de-la-vallee-de-la-moselle-vosges.html"
+    "address": "Route du Ménil, lieu-dit Le Prey, 88160 Le Thillot",
+    "sourceOfficial": "https://www.ballons-hautes-vosges.com/aire-de-service-camping-car-au-thillot-le-thillot-vosges.html",
+    "servicesSource": "https://www.ballons-hautes-vosges.com/aire-de-service-camping-car-au-thillot-le-thillot-vosges.html",
+    "priceSource": "https://www.ballons-hautes-vosges.com/aire-de-service-camping-car-au-thillot-le-thillot-vosges.html"
   },
   {
     "department": "88",
@@ -704,20 +704,28 @@
   },
   {
     "department": "88",
-    "name": "Aires de camping-car de la vallée de la Moselle",
-    "city": "Bussang (localisation OSM à confirmer)",
+    "name": "Aire de stationnement camping-car de Bussang — Place de la Mouline",
+    "city": "Bussang",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non applicable : fiche touristique recensant plusieurs aires, pas une aire unique",
-    "status": "La source de l'office de tourisme décrit plusieurs aires distinctes (Rupt-sur-Moselle, Le Thillot, Saint-Maurice-sur-Moselle, Bussang) et non une aire unique. Géométrie OSM située vers Bussang, à contrôler : ne pas transférer les services des autres sites à ce point.",
+    "services": [
+      "Stationnement gratuit",
+      "10 places",
+      "Tables de pique-nique à proximité",
+      "Jeux pour enfants à proximité"
+    ],
+    "price": "Stationnement gratuit (10 places) selon l'office de tourisme",
+    "status": "Aire de stationnement de Bussang individualisée grâce à la concordance des coordonnées GPS OSM et office de tourisme. Aucun équipement eau, vidange ou électricité confirmé sur ce parking ; ne pas attribuer les services des autres aires de la vallée.",
     "source": "https://www.openstreetmap.org/way/1566869529",
     "latitude": 47.885343,
     "longitude": 6.8550194,
     "gpsSource": "https://www.openstreetmap.org/way/1566869529",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : source de synthèse trouvée mais entrée non individualisée ; à dédoublonner.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : source de synthèse trouvée mais entrée non individualisée ; à dédoublonner. | 18/10/2026 : point OSM rapproché de l'aire de Bussang, GPS et gratuité confirmés par l'office de tourisme.",
     "sourceId": "way/1566869529",
-    "sourceOfficial": "https://www.ballons-hautes-vosges.com/aires-de-camping-car-de-la-vallee-de-la-moselle-vosges.html"
+    "sourceOfficial": "https://www.ballons-hautes-vosges.com/aire-de-stationnement-camping-car-a-bussang-bussang-vosges.html",
+    "address": "Place de la Mouline, 8 rue du Stade, 88540 Bussang",
+    "servicesSource": "https://www.ballons-hautes-vosges.com/aire-de-stationnement-camping-car-a-bussang-bussang-vosges.html",
+    "priceSource": "https://www.ballons-hautes-vosges.com/aire-de-stationnement-camping-car-a-bussang-bussang-vosges.html"
   }
 ]
