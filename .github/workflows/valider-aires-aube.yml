@@ -1,0 +1,38 @@
+name: Valider les aires Aube
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'aires-aube.json'
+      - '.github/workflows/valider-aires-aube.yml'
+permissions:
+  contents: read
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verifier les fiches de l'Aube
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('aires-aube.json').read_text(encoding='utf-8'))
+          assert isinstance(a,list) and len(a)>=18, 'Des fiches ont disparu'
+          ids=set()
+          for i,x in enumerate(a,1):
+              assert x.get('department')=='10', f'Departement fiche {i}'
+              assert x.get('name') and x.get('city'), f'Identite fiche {i}'
+              assert isinstance(x.get('latitude'),(float,int)) and 47.5<x['latitude']<49, f'Latitude fiche {i}'
+              assert isinstance(x.get('longitude'),(float,int)) and 3<x['longitude']<5, f'Longitude fiche {i}'
+              assert isinstance(x.get('services'),list), f'Services fiche {i}'
+              sid=x.get('sourceId')
+              if sid:
+                  assert sid not in ids, f'Doublon OSM fiche {i}'
+                  ids.add(sid)
+                  assert x.get('source')==f'https://www.openstreetmap.org/{sid}', f'Source OSM fiche {i}'
+              else:
+                  assert x.get('sourceOfficial','').startswith('https://'), f'Source officielle fiche {i}'
+                  assert x.get('gpsSource','').startswith('https://'), f'Source GPS fiche {i}'
+          print(f'OK : {len(a)} fiches Aube')
+          PY
