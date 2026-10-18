@@ -296,12 +296,12 @@
   },
   {
     "department": "50",
-    "name": "Aire de camping-car Mont-Saint-Michel (près des parkings, à identifier)",
-    "city": "Le Mont-Saint-Michel",
-    "type": "Aire de camping-car (exploitant à confirmer)",
+    "name": "Aire de camping-car Mont-Saint-Michel — La Caserne (à confirmer)",
+    "city": "Pontorson",
+    "type": "Aire de camping-car — identité du gestionnaire à confirmer",
     "services": [],
     "price": "Non confirmé",
-    "status": "Aire cartographiée sur OSM ; identité, services, capacité et tarifs à confirmer avant publication comme aire vérifiée",
+    "status": "Aire cartographiée sur OpenStreetMap ; ne pas confondre avec CAMPING-CAR PARK Beauvoir, Anse de Moidrey ou le parking P8",
     "source": "https://www.openstreetmap.org/way/1068343637",
     "latitude": 48.6138703,
     "longitude": -1.5083167,
@@ -311,9 +311,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1068343637",
     "servicesSource": "https://www.openstreetmap.org/way/1068343637",
-    "cityVerificationNote": "Commune administrative à confirmer avec source officielle.",
-    "verificationNote": "Correction : ce point OSM est distinct du parking P8 (OSM way/154485052, à environ 560 m selon Mapcarta). Ne pas le présenter comme le parking P8 ni comme une troisième aire CAMPING-CAR PARK sans confirmation officielle.",
-    "sourceOfficial": "https://www.montsaintmichel.gouv.fr/acceder-au-mont-saint-michel/venir-au-mont-saint-michel"
+    "cityVerificationNote": "OpenStreetMap way/1068343637 est localisé sur la commune de Pontorson selon Mapcarta ; attribution cadastrale à confirmer.",
+    "verificationNote": "Le site Mapcarta identifie ce polygone OSM comme aire de camping-car à Pontorson, près du centre d'information touristique et du camping du Mont-Saint-Michel. Le camping voisin a une fiche indépendante ; ne pas lui attribuer ses 80 places sans vérification. Gestionnaire, accès et capacité restent inconnus.",
+    "sourceOfficial": "https://www.montsaintmichel.gouv.fr/acceder-au-mont-saint-michel/venir-au-mont-saint-michel",
+    "address": "Secteur de La Caserne, 50170 Pontorson (adresse exacte non confirmée)",
+    "sourceVerification": "https://mapcarta.com/W1068343637"
   },
   {
     "department": "50",
