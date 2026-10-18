@@ -247,22 +247,24 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Eau",
-      "Vidange eaux usées"
+      "Vidange eaux usées",
+      "Stationnement"
     ],
-    "price": "Stationnement gratuit ; services 2 € selon annuaire indépendant (tarifs à confirmer sur place)",
-    "status": "Aire de services aux Replats, route de la Chaux Mourant ; ouverte toute l'année selon Jura Tourisme ; tarif non publié",
+    "price": "Paiement en espèces ; montant non publié",
+    "status": "Mairie : aire de services et stationnement au lotissement Les Replats. Eau et évacuation des eaux usées confirmées ; électricité non confirmée.",
     "source": "https://www.openstreetmap.org/way/916902476",
     "latitude": 46.5597358,
     "longitude": 6.0688738,
     "gpsSource": "https://www.openstreetmap.org/way/916902476",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Source officielle touristique : eau et vidange confirmées, paiement en espèces mentionné ; aucun prix publié. Ne pas indiquer gratuit.",
+    "importReview": "Source municipale vérifiée le 18/10/2026 ; ne pas déduire de branchement électrique.",
     "sourceId": "way/916902476",
     "servicesSource": "https://www.bellefontaine-hautjura.fr/decouvrir-bellefontaine/hebergements-touristiques/",
     "priceSource": "https://www.i-campingcar.fr/aires.php?ville=BELLEFONTAINE",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "La mairie et Jura Tourisme confirment l'aire et les services mais ne publient pas de tarifs. L'annuaire indique aussi électricité 2 €, non confirmée par la mairie."
+    "priceNote": "La mairie et Jura Tourisme confirment l'aire et les services mais ne publient pas de tarifs. L'annuaire indique aussi électricité 2 €, non confirmée par la mairie.",
+    "sourceOfficial": "https://www.bellefontaine-hautjura.fr/decouvrir-bellefontaine/hebergements-touristiques/"
   },
   {
     "department": "39",
@@ -661,14 +663,13 @@
     "city": "Saint-Amour",
     "type": "Aire Camping-Car Park",
     "services": [
-      "Électricité",
-      "Eau",
+      "Stationnement (24 emplacements)",
+      "Électricité 6 A",
       "Vidange eaux usées",
-      "Vidange WC",
       "Sanitaires saisonniers"
     ],
-    "price": "14,44 € / 24 h, taxe de séjour de 0,44 € comprise (tarif affiché par l'exploitant lors de la consultation ; susceptible d'évoluer)",
-    "status": "Aire Camping-Car Park au Champ de foire ; 24 places selon l'exploitant (8 selon Jura Tourisme). Sanitaires saisonniers du 1er avril au 31 octobre 2026.",
+    "price": "14,44 €/24h TTC dont 0,44 € taxe de séjour du 12 au 30 octobre 2026 ; 12,44 €/24h TTC à partir du 31 octobre 2026 (tarifs publiés par l'exploitant)",
+    "status": "Sanitaires ouverts du 01/04 au 31/10/2026 ; 24 emplacements selon exploitant.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/saint-amour",
     "latitude": 46.43145,
     "longitude": 5.339832,
@@ -677,10 +678,11 @@
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/saint-amour",
     "priceVerifiedOn": "2026-10-17",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/saint-amour",
-    "importReview": "Recoupement : l'exploitant indique 8 avenue des Sports, GPS 46.43145, 5.339832, et décrit lui-même son aire comme située au Champ de foire face au lavoir. Jura Tourisme la désigne par Champ de foire. Il s'agit vraisemblablement de la même aire : ne pas créer de doublon. Capacité contradictoire (24 exploitant, 8 Jura Tourisme), retenir 24 selon exploitant en précisant la divergence.",
+    "importReview": "Exploitant CAMPING-CAR PARK consulté 18/10/2026 ; tarifs saisonniers et taxe additionnés, disponibilité en temps réel non enregistrée.",
     "locationDiscrepancySource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-de-saint-amour/",
     "priceNote": "Le tarif 14,44 € / 24 h comprend 0,44 € de taxe de séjour ; vérifier le tarif au moment du séjour.",
-    "address": "8 avenue des Sports (Champ de foire, face au lavoir), 39160 Saint-Amour"
+    "address": "8 avenue des Sports, 39160 Saint-Amour",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/saint-amour"
   },
   {
     "department": "39",
@@ -873,12 +875,12 @@
     "city": "Les Rousses",
     "type": "Aire de services camping-car (stationnement temporairement indisponible)",
     "services": [
-      "Eau potable",
-      "Électricité",
-      "Vidange eaux usées"
+      "Borne de vidange accessible",
+      "Eau potable (100 L pour 5 € selon fiche)",
+      "Électricité (1 h pour 5 € selon fiche)"
     ],
-    "price": "Stationnement habituellement gratuit, mais actuellement indisponible (travaux) ; borne : 5 € pour 100 litres d'eau OU 1 heure d'électricité",
-    "status": "TRAVAUX : stationnement indisponible à la date de consultation ; borne de services toujours accessible. Ne pas utiliser comme étape de nuit actuellement.",
+    "price": "Stationnement normalement gratuit, actuellement indisponible pour travaux ; eau 5 €/100 L ou électricité 5 €/h selon station des Rousses",
+    "status": "TRAVAUX : stationnement indisponible ; borne de services accessible. Ne pas proposer pour une nuitée.",
     "source": "https://www.lesrousses.com/fiche/aire-de-l-aube/",
     "latitude": 46.4882887,
     "longitude": 6.06715717,
@@ -887,7 +889,9 @@
     "priceSource": "https://www.lesrousses.com/fiche/aire-de-l-aube/",
     "priceVerifiedOn": "2026-10-17",
     "servicesSource": "https://www.lesrousses.com/fiche/aire-de-l-aube/",
-    "importReview": "GPS directement publié par l'office de tourisme. Information travaux prioritaire sur la description historique de stationnement gratuit. Réouverture à vérifier."
+    "importReview": "Site officiel Station des Rousses consulté 18/10/2026 ; état travaux confirmé. Informations de borne distinctes du stationnement.",
+    "sourceOfficial": "https://www.lesrousses.com/fiche/aire-de-l-aube/",
+    "address": "Route du Lac, 39220 Les Rousses"
   },
   {
     "department": "39",
@@ -1124,13 +1128,15 @@
     "address": "5 rue de la Piscine, 39600 Arbois",
     "type": "Camping privé accueillant les camping-cars (aire de services dans le camping)",
     "services": [
-      "Eau potable",
+      "Emplacements camping-car",
+      "Eau",
       "Électricité",
       "Vidange eaux usées",
-      "Vidange WC"
+      "Douches",
+      "Sanitaires"
     ],
     "price": "À partir de 14,50 € / jour sans électricité ou 17,50 € / jour avec électricité, selon Cœur du Jura Tourisme ; autres suppléments possibles.",
-    "status": "Camping privé accueillant les camping-cars ; saison 2026 du 4 avril au 27 septembre selon le site officiel. Fermé pour la saison au 17 octobre 2026. Les 93 emplacements du camping ne sont pas tous dédiés aux camping-cars.",
+    "status": "Camping municipal Au Cœur des Vignes, services confirmés par la ville. Calendrier 2026 enregistré précédemment ; ne pas présumer ouverture hors saison.",
     "source": "https://www.camping-car.com/aires/1863-au-coeur-des-vignes/",
     "latitude": 46.9037234,
     "longitude": 5.7867975,
@@ -1138,8 +1144,9 @@
     "sourceId": "camping-car.com/1863",
     "servicesSource": "https://www.arbois.fr/camping/",
     "priceSource": "https://www.coeurdujura-tourisme.com/camping/au-coeur-des-vignes/",
-    "importReview": "GPS recoupé Camping-car.com / PiNCAMP ; adresse et accueil camping-car confirmés par mairie d'Arbois. Saison 2026 du 04/04 au 27/09 confirmée par l'exploitant. Tarifs planchers 14,50 € sans électricité et 17,50 € avec électricité selon office de tourisme Cœur du Jura, hors éventuels suppléments.",
+    "importReview": "Page officielle ville d'Arbois consultée 18/10/2026 ; équipements camping-car et adresse confirmés.",
     "priceVerifiedOn": "2026-10-17",
-    "openingSource": "https://au-coeur-des-vignes.com/"
+    "openingSource": "https://au-coeur-des-vignes.com/",
+    "sourceOfficial": "https://www.arbois.fr/camping/"
   }
 ]
