@@ -298,19 +298,28 @@
   {
     "department": "71",
     "name": "Aire Camping-cars Saint-Gengoux-le-National",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Saint-Gengoux-le-National",
+    "type": "Aire de services pour camping-cars",
+    "services": [
+      "Stationnement (environ 15 emplacements non délimités)",
+      "Eau potable",
+      "Vidange eaux grises et noires",
+      "Électricité (borne signalée en panne par la source touristique)"
+    ],
+    "price": "4 € pour 100 L d'eau ou 55 minutes d'électricité selon fiche touristique ; électricité indiquée en panne, ne pas compter sur ce service",
+    "status": "Ouvert toute l'année selon Destination Saône-et-Loire ; électricité signalée en panne sur la fiche consultée. Vérifier sa remise en service.",
     "source": "https://www.openstreetmap.org/way/204317946",
     "latitude": 46.6061999,
     "longitude": 4.6682862,
     "gpsSource": "https://www.openstreetmap.org/way/204317946",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/204317946"
+    "importReview": "Tourisme départemental : 15 emplacements non délimités, eau, vidange, 4 €/100 L ou 55 min électricité. Électricité déclarée en panne, ne pas la présenter comme disponible.",
+    "sourceId": "way/204317946",
+    "address": "Aire de la Voie Verte, ancienne gare, 71460 Saint-Gengoux-le-National",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-camping-cars.html-0",
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-camping-cars.html-0",
+    "priceSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-camping-cars.html-0"
   },
   {
     "department": "71",
@@ -483,22 +492,27 @@
   {
     "department": "71",
     "name": "Aire de camping-car Saint-Léger-sur-Dheune",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Saint-Léger-sur-Dheune",
+    "type": "Aire de services intercommunale pour camping-cars",
     "services": [
-      "Électricité"
+      "Stationnement (12 emplacements)",
+      "Électricité",
+      "Vidange eaux usées",
+      "Eau potable"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de services communale référencée par Destination Saône-et-Loire ; tarifs à confirmer.",
     "source": "https://www.openstreetmap.org/way/858167938",
     "latitude": 46.8466128,
     "longitude": 4.6329796,
     "gpsSource": "https://www.openstreetmap.org/way/858167938",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Tourisme départemental : 12 emplacements, eau, électricité, vidange, parking ; GPS OSM conservé.",
     "sourceId": "way/858167938",
-    "servicesSource": "https://www.openstreetmap.org/way/858167938"
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-intercommunale-pour-camping-car.html",
+    "address": "Petite Rue de la Gare, 71510 Saint-Léger-sur-Dheune",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-intercommunale-pour-camping-car.html"
   },
   {
     "department": "71",
@@ -725,22 +739,27 @@
   {
     "department": "71",
     "name": "Aire de camping-cars de Sennecey-le-Grand",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Sennecey-le-Grand",
+    "type": "Aire de stationnement et services pour camping-cars",
     "services": [
-      "Électricité"
+      "Stationnement (6 emplacements)",
+      "Électricité",
+      "Vidange eaux usées",
+      "Eau potable"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de repos et services référencée par Destination Saône-et-Loire ; tarifs à confirmer.",
     "source": "https://www.openstreetmap.org/way/1296350421",
     "latitude": 46.6368452,
     "longitude": 4.8708251,
     "gpsSource": "https://www.openstreetmap.org/way/1296350421",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Tourisme départemental : 6 emplacements, eau, électricité, vidange, parking.",
     "sourceId": "way/1296350421",
-    "servicesSource": "https://www.openstreetmap.org/way/1296350421"
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-campings-cars.html",
+    "address": "Rue de la République, 71240 Sennecey-le-Grand",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-campings-cars.html"
   },
   {
     "department": "71",
