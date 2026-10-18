@@ -108,7 +108,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé pour le stationnement camping-car ; gratuité des visites de la cidrerie non applicable à l'aire",
+    "price": "À partir de 14,80 € (guide officiel Fécamp Tourisme 2025 ; tarif actuel à confirmer)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12242372008",
     "latitude": 49.7310834,
@@ -121,7 +121,10 @@
     "servicesSource": "https://www.openstreetmap.org/node/12242372008",
     "address": "3 route de Colleville, 76400 Contremoulins (adresse de la cidrerie, localisation exacte de l'aire à vérifier)",
     "sourceOfficial": "https://www.seine-maritime-tourisme.com/offres/cidrerie-des-hautes-falaises-contremoulins-fr-5133753/",
-    "verificationNote": "Commune et adresse de l'établissement confirmées ; ne pas confondre gratuité des visites avec tarif de l'aire."
+    "verificationNote": "Guide officiel 2025 : 6 places, ouvert du 1er avril au 15 octobre, eau/électricité/vidange. Tarif indicatif ancien, ne pas confondre avec visite gratuite de la cidrerie.",
+    "capacity": 6,
+    "capacitySource": "https://www.fecamptourisme.com/app/uploads/fecamp-tourisme/2025/04/Guide_Hebergements_OITF_2025_web.pdf",
+    "tariffSource": "https://www.fecamptourisme.com/app/uploads/fecamp-tourisme/2025/04/Guide_Hebergements_OITF_2025_web.pdf"
   },
   {
     "department": "76",
@@ -236,10 +239,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/220230937",
-    "verificationNote": "Identification par coordonnées GPS correspondant au parking rue Sainte-Amélie, distinct du port de plaisance. Capacité approximative 10 à 20 selon CamperOnLine, non retenue comme capacité confirmée.",
+    "verificationNote": "Capacité 30 selon annuaire Le Campeur (juin 2026), non confirmée par la mairie. Parking gratuit rue Sainte-Amélie, prudence pour le stationnement nocturne.",
     "sourceOfficial": "https://www.campercontact.com/fr/normandy/rouen/14071/parking",
     "address": "Rue Sainte-Amélie, 76100 Rouen (île Lacroix)",
-    "tariffSource": "https://www.campercontact.com/fr/normandy/rouen/14071/parking"
+    "tariffSource": "https://www.campercontact.com/fr/normandy/rouen/14071/parking",
+    "capacity": 30,
+    "capacitySource": "https://www.lecampeur.fr/aire/rue-sainte-amelie-rouen-ph8tcl"
   },
   {
     "department": "76",
@@ -336,7 +341,9 @@
     "address": "Côte du Mont Blanc, près du terrain de football, 76690 Clères",
     "sourceOfficial": "https://www.seine-maritime-tourisme.com/sejours/hebergements/les-campings/aire-de-camping-car-de-cleres-cleres-fr-5133955/",
     "tariffSource": "https://www.seine-maritime-tourisme.com/sejours/hebergements/les-campings/aire-de-camping-car-de-cleres-cleres-fr-5133955/",
-    "verificationNote": "Source contradictoire : description 18 places, rubrique capacité 15 ; capacité laissée inconnue."
+    "verificationNote": "Source tourisme : rubrique capacité 15 emplacements, description 18 ; 15 retenus avec divergence signalée. Aucun service en fonctionnement, travaux prévus.",
+    "capacity": 15,
+    "capacitySource": "https://www.seine-maritime-tourisme.com/sejours/hebergements/les-campings/aire-de-camping-car-de-cleres-cleres-fr-5133955/"
   },
   {
     "department": "76",
