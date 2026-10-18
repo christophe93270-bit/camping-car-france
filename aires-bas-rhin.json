@@ -13,8 +13,11 @@
     "gpsSource": "https://www.openstreetmap.org/node/4720603322",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : recherches ciblées sans source institutionnelle confirmant spécifiquement le stationnement piscine ; ne pas attribuer les prestations d'un autre camping.",
-    "sourceId": "node/4720603322"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : recherches ciblées sans source institutionnelle confirmant spécifiquement le stationnement piscine ; ne pas attribuer les prestations d'un autre camping. | 18/10/2026 : l'exploitant CAMPING-CAR PARK référence une aire de SERVICES Wissembourg (1 place, 6 € par service), mais le rapprochement avec le parking piscine de cette fiche reste non confirmé : ne pas lui attribuer le tarif ni le statut.",
+    "sourceId": "node/4720603322",
+    "relatedOfficialSources": [
+      "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin"
+    ]
   },
   {
     "department": "67",
@@ -211,15 +214,15 @@
       "Électricité 6 A",
       "Sanitaires saisonniers"
     ],
-    "price": "Tarif saisonnier indiqué : 13,20 € / 24 h hors taxe de séjour de 0,44 € (16/09–31/12/2026), soit 13,64 € ; bandeau affichant 16 € / 24 h : contradiction à vérifier avant réservation.",
-    "status": "Aire camping-car de 31 places à l'intérieur du camping du Lac de Schœnau ; correspondance établie entre exploitant et camping officiel. Aire camping-car annoncée ouverte toute l'année par le camping, sanitaires saisonniers du 2 avril au 30 octobre 2026 selon exploitant.",
+    "price": "Prix variable et contradictoire selon les pages de l'exploitant : 13,64 € ou 15,44 € /24 h TTC affichés pour octobre 2026 ; vérifier le prix lors de la réservation.",
+    "status": "Camping de mon village CAMPING-CAR PARK au 102 rue de la Digue. Les pages exploitant consultées présentent des capacités contradictoires (31 ou 65 places), et des grilles tarifaires différentes. Sanitaires saisonniers du 02/04/2026 au 30/10/2026. Capacité et tarif à reconfirmer directement auprès de l'exploitant.",
     "source": "https://www.openstreetmap.org/node/13164250815",
     "latitude": 48.2261,
     "longitude": 7.656135,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/Schoenau",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : Visit Alsace confirme un camping municipal au 102 rue de la Digue (30 places camping-car, 13–14 €, saison 01/04–31/10/2026), mais correspondance avec cette aire OSM NON établie : ne pas recopier ces tarifs ni ces services. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : Visit Alsace confirme un camping municipal au 102 rue de la Digue (30 places camping-car, 13–14 €, saison 01/04–31/10/2026), mais correspondance avec cette aire OSM NON établie : ne pas recopier ces tarifs ni ces services. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent. | 18/10/2026 : contradiction relevée entre deux pages CAMPING-CAR PARK (31 vs 65 places, 13,64 vs 15,44 €). Ne pas considérer l'ancien chiffre 31 comme définitivement vérifié.",
     "sourceId": "node/13164250815",
     "servicesSource": "https://www.openstreetmap.org/node/13164250815",
     "relatedOfficialSources": [
