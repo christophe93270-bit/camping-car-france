@@ -589,14 +589,18 @@
     "capacity": 5,
     "type": "Aire communale de stationnement et services",
     "services": [
-      "Stationnement gratuit",
+      "Stationnement gratuit (48 h maximum selon annuaire)",
       "Vidange WC",
-      "Vidange eaux usées"
+      "Vidange eaux usées",
+      "Eau potable via borne (disponibilité à vérifier)",
+      "Électricité indisponible selon relevé septembre 2026"
     ],
-    "price": "Stationnement gratuit ; services autour de 2–3 €, tarif exact à confirmer",
+    "price": "Stationnement gratuit ; services annoncés à 2 € par i-campingcar (ancien annuaire : 3 €), tarif à confirmer à la borne",
     "sourceOfficial": "https://www.i-campingcar.fr/aires.php?ville=NEUILLY+SAINT+FRONT",
     "gpsSource": "https://www.i-campingcar.fr/aires.php?ville=NEUILLY+SAINT+FRONT",
-    "verificationNote": "Avis 2026 signalent un entretien insuffisant et une borne parfois inaccessible ; électricité indisponible. Durée 48 h selon annuaire spécialisé."
+    "verificationNote": "i-campingcar : stationnement gratuit, services 2 €, électricité indisponible ; témoignage 02/09/2026 signalant défaut d'entretien. Qipeo confirme vidange, eau et paiement CB sans tarif public. Ancien annuaire mentionne 3 € ; prix à confirmer sur place.",
+    "priceSource": "https://i-campingcar.fr/aires.php?ville=NEUILLY+SAINT+FRONT",
+    "verificationSource": "https://www.qipeo.com/detail/1bd1597a-6af5-4553-80ff-22cb55c27989"
   },
   {
     "department": "02",
