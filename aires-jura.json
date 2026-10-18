@@ -401,22 +401,26 @@
     "name": "Aire de camping-cars Audelange",
     "city": "Audelange",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement gratuit selon Caraplace (à confirmer sur place)",
-    "status": "Point OSM nommé « Aire de camping-cars Audelange » mais certains annuaires le classent à Lavangeot, commune voisine. Attribution communale exacte et autorisation du stationnement nocturne à vérifier auprès des deux mairies. Le Campeur signale eau, vidanges et toilettes gratuites pour un parking à Audelange, mais l'identité GPS avec notre point OSM n'est pas démontrée : aucun équipement ajouté comme confirmé. Ne pas confondre avec l'aire d'autoroute A36 Dole-Audelange.",
+    "services": [
+      "Stationnement (3 places selon Park4night)",
+      "Toilettes publiques à proximité (avis juillet 2026, disponibilité à vérifier)",
+      "Poubelles (signalées par Park4night)"
+    ],
+    "price": "Gratuit selon Park4night ; à confirmer par la mairie",
+    "status": "Point OSM (47.1340968, 5.5895067) correspondant presque exactement au parking de l'aire de pique-nique du 20 rue du Moulin Rouge à Audelange (Park4night 47.1341, 5.5894). Park4night signale 3 places, stationnement gratuit et toilettes à proximité ; avis de juillet 2026 confirment les toilettes mais signalent le lavoir à sec. Aucun service technique camping-car (eau potable, électricité, vidange) vérifié. Autorisation de nuitée rapportée par usagers, non confirmée par arrêté municipal. Ne pas confondre avec les aires de vidange de Lavangeot, à plus de 1 km.",
     "source": "https://www.openstreetmap.org/way/1296422733",
     "latitude": 47.1340968,
     "longitude": 5.5895067,
     "gpsSource": "https://www.openstreetmap.org/way/1296422733",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : des annuaires situent cette aire près du hameau de Lavangeot ; la commune exacte, la légalité du stationnement nocturne et l'absence de services restent à confirmer par la mairie. Ne pas transformer les informations communautaires en source officielle. | 18/10/2026 : Bivouaquer classe le point « Aire de camping-cars Audelange » sous Lavangeot, tandis que Le Campeur décrit un parking gratuit à Audelange sans preuve de correspondance GPS. Annuaire officiel Service-Public : mairies d'Audelange et Lavangeot distinctes, contacts consignés. APRR exploite aussi une aire d'autoroute Dole-Audelange, sans rapport avec le point OSM. Aucun sourceOfficial attribué.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : des annuaires situent cette aire près du hameau de Lavangeot ; la commune exacte, la légalité du stationnement nocturne et l'absence de services restent à confirmer par la mairie. Ne pas transformer les informations communautaires en source officielle. | 18/10/2026 : Bivouaquer classe le point « Aire de camping-cars Audelange » sous Lavangeot, tandis que Le Campeur décrit un parking gratuit à Audelange sans preuve de correspondance GPS. Annuaire officiel Service-Public : mairies d'Audelange et Lavangeot distinctes, contacts consignés. APRR exploite aussi une aire d'autoroute Dole-Audelange, sans rapport avec le point OSM. Aucun sourceOfficial attribué. | 18/10/2026 : rapprochement géographique probant avec Park4night place/80, GPS 47.1341,5.5894 à environ 8 m du point OSM ; adresse 20 rue du Moulin Rouge à Audelange. Témoignages 19, 28 et 29/07/2026 : nuitée calme, WC/toilettes sèches accessibles, lavoir sans eau le 29/07. 3 places annoncées, aucune vidange/eau potable/électricité vérifiée. Les points de vidange à Lavangeot sont distincts et ne doivent pas être affectés à cette fiche. sourceOfficial absent.",
     "sourceId": "way/1296422733",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
-    "priceSource": "https://caraplace.ch/fr/placeme/aire-de-camping-cars-audelange-16290",
+    "priceSource": "https://park4night.com/fr/place/80",
     "priceVerifiedOn": "2026-10-17",
     "priceNote": "Source communautaire non vérifiée sur place ; 2 places, aucun service déclaré.",
-    "servicesSource": "https://caraplace.ch/fr/placeme/aire-de-camping-cars-audelange-16290",
+    "servicesSource": "https://park4night.com/fr/place/80",
     "verificationContacts": [
       "Mairie d'Audelange : 03 84 70 66 65 ; mairie@audelange.fr ; https://audelange.fr",
       "Mairie de Lavangeot : 03 84 81 23 32 ; mairiedelavangeot39@outlook.fr"
@@ -424,7 +428,8 @@
     "relatedSecondarySources": [
       "https://www.lecampeur.fr/parking/parking-services-gratuits-audelange-ph3b41",
       "https://www.bivouaquer.com/jura/audelange"
-    ]
+    ],
+    "address": "20 rue du Moulin Rouge, 39700 Audelange (adresse Park4night, à vérifier sur place)"
   },
   {
     "department": "39",
