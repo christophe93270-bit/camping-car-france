@@ -440,7 +440,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Manche indisponible",error); }
     let orneAires=[];
     try {
-      const response61=await fetch("aires-orne.json?v=20261015-1", {cache:"no-store"});
+      const response61=await fetch("aires-orne.json?v=20261018-final", {cache:"no-store"});
       if(response61.ok) orneAires=await response61.json();
     } catch(error) { console.warn("Chargement Orne indisponible",error); }
     let cotesDArmorAires=[];
