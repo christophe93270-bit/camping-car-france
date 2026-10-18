@@ -70,17 +70,24 @@
     "name": "Aire de Stationnement Wangen (Domaine Thierry Martin)",
     "city": "Wangen",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement France Passion (3 places annoncées)"
+    ],
+    "price": "Tarif 2026 non confirmé ; aire France Passion chez le Domaine Thierry-Martin, contacter le domaine avant arrivée.",
+    "status": "Aire de stationnement France Passion au Domaine Thierry-Martin, 3 emplacements selon le document touristique régional. Adresse et contact listés dans le document ; accueil à confirmer directement auprès du domaine.",
     "source": "https://www.openstreetmap.org/node/4721818473",
     "latitude": 48.6159542,
     "longitude": 7.4656337,
     "gpsSource": "https://www.openstreetmap.org/node/4721818473",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
-    "sourceId": "node/4721818473"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : source touristique régionale confirme 3 emplacements, 9 route de Westhoffen ; tarif/services non publiés.",
+    "sourceId": "node/4721818473",
+    "address": "9 route de Westhoffen, 67520 Wangen",
+    "sourceOfficial": "https://apps.tourisme-alsace.info/photos/argent/photos/228002182_d1.pdf",
+    "relatedOfficialSources": [
+      "https://www.thierry-martin.com/"
+    ]
   },
   {
     "department": "67",
@@ -88,19 +95,22 @@
     "city": "Blienschwiller",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement camping-car (6 places selon fiche spécialisée)",
+      "Accueil chez le viticulteur, prévenir à l'arrivée"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif non publié ; accueil sur le terrain attenant au domaine, s'annoncer à l'arrivée.",
+    "status": "Terrain pour camping-cars attenant au domaine viticole Spitz & Fils, au cœur du vignoble. La fiche spécialisée indique 6 places réservées aux camping-cars ; le domaine confirme l'accueil et demande aux visiteurs de s'annoncer. Eau et électricité éventuelles non confirmées par le domaine.",
     "source": "https://www.openstreetmap.org/node/4723660408",
-    "latitude": 48.3427401,
-    "longitude": 7.4223237,
-    "gpsSource": "https://www.openstreetmap.org/node/4723660408",
+    "latitude": 48.3427702,
+    "longitude": 7.4225594,
+    "gpsSource": "https://www.camping-car.com/aires/35214-aire-de-stationnement/",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : domaine confirme accueil camping-cars ; GPS ajusté au point de la fiche spécialisée, équipements techniques non ajoutés sans confirmation.",
     "sourceId": "node/4723660408",
-    "servicesSource": "https://www.openstreetmap.org/node/4723660408"
+    "servicesSource": "https://www.openstreetmap.org/node/4723660408",
+    "address": "4 route des Vins, 67650 Blienschwiller",
+    "sourceOfficial": "https://www.vinsspitz.com/fr/album-photo/camping-cars.html"
   },
   {
     "department": "67",
