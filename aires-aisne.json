@@ -338,9 +338,11 @@
     "price": "Stationnement gratuit ; eau 2 € / 10 min ; électricité payante (tarif à confirmer)",
     "sourceOfficial": "https://www.tourisme-thierache.fr/fiche/detail/4630/Sejourner~Hebergement/Aire-d-accueil-et-de-service-de-Montcornet",
     "gpsSource": "https://tofromfrance.com/lieu/aire-d-accueil-et-de-service-de-montcornet",
-    "status": "Ouvert toute l'année selon office de tourisme ; GPS issu d'un annuaire secondaire, à contrôler sur place",
+    "status": "Ouvert toute l'année en 2026 ; 3 places, stationnement gratuit selon office de tourisme",
     "dataAttribution": "Office de tourisme du Pays de Thiérache ; coordonnées To From France",
-    "importReview": "Coordonnées précises issues d'un annuaire secondaire, non corroborées par source cartographique indépendante."
+    "importReview": "Coordonnées précises issues d'un annuaire secondaire, non corroborées par source cartographique indépendante.",
+    "verificationSource": "https://www.tourisme-thierache.fr/fiche/detail/4630/Sejourner~Hebergement/Aire-d-accueil-et-de-service-de-Montcornet",
+    "verificationNote": "Office de tourisme confirme 3 emplacements, stationnement gratuit, eau 2 € / 10 min. Le tarif électrique apparaît incomplet sur la page consultée : non confirmé."
   },
   {
     "department": "02",
@@ -568,17 +570,20 @@
     "address": "Rue de la Prairie, 02700 Tergnier",
     "latitude": 49.64838,
     "longitude": 3.3122,
-    "capacity": 20,
-    "type": "Aire d'accueil camping-car dans un camping municipal",
+    "type": "Aire d'accueil camping-car de La Frette (distincte du camping saisonnier)",
     "services": [
       "Électricité",
       "Wi-Fi",
       "Services de vidange"
     ],
-    "price": "Tarif 2026 à confirmer auprès du camping ; anciens annuaires mentionnent 10 €",
+    "price": "Aire camping-car ouverte toute l'année : 11 € / 24 h ; forfait services 4,50 € (vidange + 100 L d'eau + 30 min d'électricité). Camping saisonnier : 9,50 € / nuit en basse saison et 12 € en haute saison, selon forfait affiché.",
     "sourceOfficial": "https://campinglafrette.tergnier.fr/",
     "gpsSource": "https://www.campingcar-infos.com/aire-tergnier/view.php?id=27975",
-    "verificationNote": "Site municipal : camping ouvert du 1er juin au 30 septembre, 20 emplacements camping-car. Ne pas confondre avec les horaires de la base de loisirs."
+    "verificationNote": "Site officiel distingue l'aire d'accueil des camping-cars ouverte toute l'année (11 € / 24 h) du camping saisonnier (20 emplacements camping-car). Les 20 emplacements correspondent au camping, pas nécessairement à l'aire annuelle.",
+    "status": "Aire camping-car accessible du 1er janvier au 31 décembre ; camping municipal ouvert du 1er juin au 30 septembre",
+    "priceSource": "https://campinglafrette.tergnier.fr/tarifs/",
+    "priceVerifiedOn": "2026-10-18",
+    "capacityNote": "20 emplacements indiqués pour le camping saisonnier ; capacité de l'aire annuelle non confirmée"
   },
   {
     "department": "02",
