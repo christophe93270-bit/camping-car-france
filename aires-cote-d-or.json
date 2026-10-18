@@ -2,43 +2,52 @@
   {
     "department": "21",
     "name": "Aire camping-car du Nymphéa",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Lamarche-sur-Saône",
+    "type": "Accueil camping-car privé — restaurant Le Nymphéa",
     "services": [
-      "Électricité"
+      "Stationnement à côté du restaurant",
+      "Raccordement possible à l'eau",
+      "Raccordement possible à l'électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Non confirmé auprès de l'établissement",
+    "status": "Accueil France Passion annoncé à côté du restaurant Le Nymphéa, au bord de Saône. Conditions d'adhésion, réservation et disponibilité à vérifier auprès de l'établissement ; distinct de l'aire communale de Lamarche-sur-Saône.",
     "source": "https://www.openstreetmap.org/node/11979281903",
     "latitude": 47.2761737,
     "longitude": 5.3872208,
     "gpsSource": "https://www.openstreetmap.org/node/11979281903",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Brochure touristique BFC hébergée sur site institutionnel SDIS 25 : 32 rue de Franche-Comté, accueil France Passion, eau et électricité possibles. Distinct de l'aire communale au bord de la Saône.",
     "sourceId": "node/11979281903",
-    "servicesSource": "https://www.openstreetmap.org/node/11979281903"
+    "servicesSource": "https://www.sdis25.fr/wp-content/uploads/2025/08/HEBERGEMENTS-TOURISTIQUES-BFC.pdf",
+    "address": "32 rue de Franche-Comté, 21760 Lamarche-sur-Saône",
+    "sourceOfficial": "https://www.sdis25.fr/wp-content/uploads/2025/08/HEBERGEMENTS-TOURISTIQUES-BFC.pdf"
   },
   {
     "department": "21",
     "name": "Aire pour camping-cars de Sombernon",
     "city": "Sombernon",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement et services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement nocturne",
+      "Électricité",
+      "Eau potable",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit selon Dijon Bourgogne Tourisme ; vérifier conditions sur place",
+    "status": "Aire indiquée sur la départementale 7 par Dijon Bourgogne Tourisme ; conditions de service et gratuité à reconfirmer.",
     "source": "https://www.openstreetmap.org/node/12018267906",
     "latitude": 47.3134843,
     "longitude": 4.7121289,
     "gpsSource": "https://www.openstreetmap.org/node/12018267906",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Dijon Bourgogne Tourisme confirme stationnement de nuit, eau, électricité, vidange et gratuité. Localisation départementale 7, coordonnées OSM conservées.",
     "sourceId": "node/12018267906",
-    "servicesSource": "https://www.openstreetmap.org/node/12018267906",
-    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée."
+    "servicesSource": "https://www.destinationdijon.com/venir-a-dijon-en-camping-car/",
+    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée.",
+    "sourceOfficial": "https://www.destinationdijon.com/venir-a-dijon-en-camping-car/",
+    "priceSource": "https://www.destinationdijon.com/venir-a-dijon-en-camping-car/"
   },
   {
     "department": "21",
@@ -135,25 +144,30 @@
     "department": "21",
     "name": "Aire de camping-car de Semur-en-Auxois",
     "city": "Semur-en-Auxois",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement et services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement",
+      "Eau potable",
+      "Vidange cassette WC",
+      "Poubelles"
     ],
-    "price": "Stationnement gratuit ; eau 2 € / 6 min ; électricité 3 € / 6 h ; vidange gratuite",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Non confirmé",
+    "status": "Brochure officielle de l'office de tourisme (2012) : 50 places, fermeture hivernale, eau et vidange. Informations historiques : capacité et fonctionnement actuels à confirmer.",
     "source": "https://www.openstreetmap.org/way/210631444",
     "latitude": 47.4954003,
     "longitude": 4.3489597,
     "gpsSource": "https://www.openstreetmap.org/way/210631444",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Brochure office de tourisme datée 2012 : avenue Pasteur, 50 places, fermeture hiver, eau potable, vidange cassettes, ordures. Aucune validation récente : données signalées comme historiques.",
     "sourceId": "way/210631444",
-    "servicesSource": "https://www.openstreetmap.org/way/210631444",
+    "servicesSource": "https://en.tourisme-semur.fr/IMG/pdf/BROCHURE_GROUPE_2012_SEMUR_EN_AUXOIS.pdf",
     "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée.",
     "priceSource": "https://www.ville-semur-en-auxois.fr/aires-de-camping-car/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif relevé auprès de la mairie, de l'exploitant ou d'un organisme touristique ; vérifier avant déplacement."
+    "priceNote": "Tarif relevé auprès de la mairie, de l'exploitant ou d'un organisme touristique ; vérifier avant déplacement.",
+    "address": "Avenue Pasteur, 21140 Semur-en-Auxois",
+    "sourceOfficial": "https://en.tourisme-semur.fr/IMG/pdf/BROCHURE_GROUPE_2012_SEMUR_EN_AUXOIS.pdf"
   },
   {
     "department": "21",
@@ -200,21 +214,25 @@
   },
   {
     "department": "21",
-    "name": "Aire pour camping-cars du camping du Lac de Pont",
-    "city": "Semur-en-Auxois",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "name": "Camping du Lac de Pont — Pont-et-Massène",
+    "city": "Pont-et-Massène",
+    "type": "Camping accueillant les camping-cars",
+    "services": [
+      "Emplacements pour camping-cars (services à confirmer)"
+    ],
+    "price": "Tarif actuel à demander au camping",
+    "status": "Camping du Lac de Pont référencé par l'office de tourisme dans une brochure historique (2012). Ouverture, accueil actuel et services à confirmer auprès du camping.",
     "source": "https://www.openstreetmap.org/way/315436503",
     "latitude": 47.4682832,
     "longitude": 4.3544845,
     "gpsSource": "https://www.openstreetmap.org/way/315436503",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Brochure office de tourisme 2012 : camping Lac de Pont, 16 rue du Lac, Pont-et-Massène, accepte camping-cars. Source ancienne, pas de confirmation de fonctionnement 2026.",
     "sourceId": "way/315436503",
-    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée."
+    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée.",
+    "address": "16 rue du Lac, 21140 Pont-et-Massène",
+    "sourceOfficial": "https://en.tourisme-semur.fr/IMG/pdf/BROCHURE_GROUPE_2012_SEMUR_EN_AUXOIS.pdf"
   },
   {
     "department": "21",
@@ -339,28 +357,31 @@
   },
   {
     "department": "21",
-    "name": "Aire de camping-cars Camping du Lac Kir",
+    "name": "Camping du Lac Kir — Dijon",
     "city": "Dijon",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Camping accueillant les camping-cars",
     "services": [
+      "Stationnement nocturne en camping",
+      "Électricité",
       "Eau potable",
-      "Toilettes",
-      "Électricité"
+      "Vidange"
     ],
-    "price": "11,30 € / 24 h (tarif affiché sur la plateforme de réservation, date de validité à vérifier)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Payant ; tarifs par emplacement et personnes à vérifier auprès du camping",
+    "status": "Camping saisonnier ouvert d'avril à fin octobre selon Dijon Bourgogne Tourisme ; ne pas confondre avec l'aire CAMPING-CAR PARK de Plombières-lès-Dijon.",
     "source": "https://www.openstreetmap.org/way/1288020698",
     "latitude": 47.3211623,
     "longitude": 5.0110139,
     "gpsSource": "https://www.openstreetmap.org/way/1288020698",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Office de tourisme : camping Lac Kir, 3 boulevard Chanoine Kir, 121 emplacements, ouvert avril-fin octobre. Page venir en camping-car confirme eau, électricité et vidange. Distinct de l'aire CAMPING-CAR PARK de Plombières-lès-Dijon.",
     "sourceId": "way/1288020698",
-    "servicesSource": "https://www.openstreetmap.org/way/1288020698",
+    "servicesSource": "https://www.destinationdijon.com/venir-a-dijon-en-camping-car/",
     "priceSource": "https://www.aireparkreservation.com/aires-camping-car/cote-or",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif relevé auprès de la mairie, de l'exploitant ou d'un organisme touristique ; vérifier avant déplacement."
+    "priceNote": "Tarif relevé auprès de la mairie, de l'exploitant ou d'un organisme touristique ; vérifier avant déplacement.",
+    "address": "3 boulevard Chanoine Kir, 21000 Dijon",
+    "sourceOfficial": "https://www.destinationdijon.com/campings/camping-du-lac-kir/"
   },
   {
     "department": "21",
@@ -396,21 +417,26 @@
     "department": "21",
     "name": "Aire de camping-car Savigny-le-Sec",
     "city": "Savigny-le-Sec",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire municipale de stationnement et services camping-car",
     "services": [
-      "Toilettes"
+      "Stationnement nocturne",
+      "Eau potable",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "7 € par nuit avec services selon Dijon Bourgogne Tourisme ; actualisation à vérifier",
+    "status": "Aire municipale signalée par Dijon Bourgogne Tourisme ; disponibilité et tarif actuel à vérifier.",
     "source": "https://www.openstreetmap.org/way/1320205742",
     "latitude": 47.4346809,
     "longitude": 5.0457904,
     "gpsSource": "https://www.openstreetmap.org/way/1320205742",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Dijon Bourgogne Tourisme confirme chemin de Saussy, eau, vidange, nuitée et tarif publié de 7 €. Pas d'électricité confirmée.",
     "sourceId": "way/1320205742",
-    "servicesSource": "https://www.openstreetmap.org/way/1320205742",
-    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée."
+    "servicesSource": "https://www.destinationdijon.com/venir-a-dijon-en-camping-car/",
+    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée.",
+    "address": "Chemin de Saussy, 21380 Savigny-le-Sec",
+    "sourceOfficial": "https://www.destinationdijon.com/venir-a-dijon-en-camping-car/",
+    "priceSource": "https://www.destinationdijon.com/venir-a-dijon-en-camping-car/"
   }
 ]
