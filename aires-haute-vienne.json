@@ -77,47 +77,56 @@
   {
     "department": "87",
     "name": "Camping-car Park Chalard",
-    "city": "Commune à confirmer",
+    "city": "Le Chalard",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Toilettes publiques à proximité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif de base 11,71 €/24 h du 01/10/2026 au 31/12/2027, plus taxe de séjour affichée 0,88 € en 2026 ; soit 12,59 € sur cette période si taxe inchangée.",
+    "status": "10 emplacements ; toilettes publiques à 50 m derrière la mairie. Aire ouverte, stationnement 5 h avec services 6 €.",
     "source": "https://www.openstreetmap.org/node/11891525556",
     "latitude": 45.5492213,
     "longitude": 1.1329651,
     "gpsSource": "https://www.openstreetmap.org/node/11891525556",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : source exploitant ou organisme touristique vérifiée.",
     "sourceId": "node/11891525556",
-    "servicesSource": "https://www.openstreetmap.org/node/11891525556"
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/le-chalard?areaType=aire-etape-camping-car",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/le-chalard?areaType=aire-etape-camping-car",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/le-chalard?areaType=aire-etape-camping-car",
+    "address": "17 bis rue du Château d'Eau, 87500 Le Chalard"
   },
   {
     "department": "87",
     "name": "Aire camping-car Sauviat-sur-Vige",
-    "city": "Commune à confirmer",
+    "city": "Sauviat-sur-Vige",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit.",
+    "status": "Environ 10 places, eau, électricité et vidanges ; ouvert toute l'année hors période de gel.",
     "source": "https://www.openstreetmap.org/node/12111638192",
     "latitude": 45.9089766,
     "longitude": 1.6152544,
     "gpsSource": "https://www.openstreetmap.org/node/12111638192",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : source exploitant ou organisme touristique vérifiée.",
     "sourceId": "node/12111638192",
-    "servicesSource": "https://www.openstreetmap.org/node/12111638192"
+    "servicesSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-sauviat-sur-vige-fr-4128700/",
+    "sourceOfficial": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-sauviat-sur-vige-fr-4128700/",
+    "priceSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-sauviat-sur-vige-fr-4128700/",
+    "address": "68 rue Émile Dourdet, 87400 Sauviat-sur-Vige"
   },
   {
     "department": "87",
     "name": "Aire d'accueil camping-car des Salles Lavauguyon",
-    "city": "Commune à confirmer",
+    "city": "Les Salles-Lavauguyon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -128,13 +137,13 @@
     "gpsSource": "https://www.openstreetmap.org/node/12112205198",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "node/12112205198"
   },
   {
     "department": "87",
     "name": "Aire d'accueil de Chateaucourt",
-    "city": "Commune à confirmer",
+    "city": "Eymoutiers",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Eau potable",
@@ -149,7 +158,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/233976493",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/233976493",
     "servicesSource": "https://www.openstreetmap.org/way/233976493"
   },
@@ -173,7 +182,7 @@
   {
     "department": "87",
     "name": "Aire de Camping-Car Javerdat",
-    "city": "Commune à confirmer",
+    "city": "Javerdat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -186,14 +195,14 @@
     "gpsSource": "https://www.openstreetmap.org/way/347874267",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/347874267",
     "servicesSource": "https://www.openstreetmap.org/way/347874267"
   },
   {
     "department": "87",
     "name": "Aire Camping-Car Oradour-sur-Glane",
-    "city": "Commune à confirmer",
+    "city": "Oradour-sur-Glane",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -206,14 +215,14 @@
     "gpsSource": "https://www.openstreetmap.org/way/772087109",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/772087109",
     "servicesSource": "https://www.openstreetmap.org/way/772087109"
   },
   {
     "department": "87",
     "name": "Aire de camping-car de Berneuil",
-    "city": "Commune à confirmer",
+    "city": "Berneuil",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -224,13 +233,13 @@
     "gpsSource": "https://www.openstreetmap.org/way/775588693",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/775588693"
   },
   {
     "department": "87",
     "name": "Aire Camping-cars Bujaleuf",
-    "city": "Commune à confirmer",
+    "city": "Bujaleuf",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -241,13 +250,13 @@
     "gpsSource": "https://www.openstreetmap.org/way/829572056",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/829572056"
   },
   {
     "department": "87",
     "name": "Aire de Camping-Car Sereilhac",
-    "city": "Commune à confirmer",
+    "city": "Séreilhac",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -260,14 +269,14 @@
     "gpsSource": "https://www.openstreetmap.org/way/840884580",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/840884580",
     "servicesSource": "https://www.openstreetmap.org/way/840884580"
   },
   {
     "department": "87",
     "name": "Aire de camping-car municipale de Saint-Priest-Taurion",
-    "city": "Commune à confirmer",
+    "city": "Saint-Priest-Taurion",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -278,13 +287,13 @@
     "gpsSource": "https://www.openstreetmap.org/way/1104580281",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/1104580281"
   },
   {
     "department": "87",
     "name": "Camping-Car Park Saint-Laurent-sur-Gorre",
-    "city": "Commune à confirmer",
+    "city": "Saint-Laurent-sur-Gorre",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Douches",
@@ -299,14 +308,14 @@
     "gpsSource": "https://www.openstreetmap.org/way/1167784675",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/1167784675",
     "servicesSource": "https://www.openstreetmap.org/way/1167784675"
   },
   {
     "department": "87",
     "name": "Aire camping-car Bussière-Poitevine",
-    "city": "Commune à confirmer",
+    "city": "Val-d'Oire-et-Gartempe",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Douches",
@@ -321,7 +330,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/1236135699",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/1236135699",
     "servicesSource": "https://www.openstreetmap.org/way/1236135699"
   },
@@ -348,7 +357,7 @@
   {
     "department": "87",
     "name": "Aire de camping-car Saint-Amand-Magnazeix",
-    "city": "Commune à confirmer",
+    "city": "Saint-Amand-Magnazeix",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -359,13 +368,13 @@
     "gpsSource": "https://www.openstreetmap.org/way/1293038653",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/1293038653"
   },
   {
     "department": "87",
     "name": "Camping-car Park Pierre-Buffière",
-    "city": "Commune à confirmer",
+    "city": "Pierre-Buffière",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Douches",
@@ -380,14 +389,14 @@
     "gpsSource": "https://www.openstreetmap.org/way/1304844808",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/1304844808",
     "servicesSource": "https://www.openstreetmap.org/way/1304844808"
   },
   {
     "department": "87",
     "name": "Aire d'accueil camping-car d'Auphelle",
-    "city": "Commune à confirmer",
+    "city": "Peyrat-le-Château",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -400,31 +409,38 @@
     "gpsSource": "https://www.openstreetmap.org/way/1306696390",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/1306696390",
     "servicesSource": "https://www.openstreetmap.org/way/1306696390"
   },
   {
     "department": "87",
     "name": "Aire camping-car Saint-Léonard-de-Noblat",
-    "city": "Commune à confirmer",
+    "city": "Saint-Léonard-de-Noblat",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Vidange eaux usées"
+    ],
+    "price": "Stationnement gratuit.",
+    "status": "Environ 8 places, eau et vidange ; à 100 m du centre historique ; ouverture toute l'année 2026. Ne pas confondre avec l'aire de Beaufort.",
     "source": "https://www.openstreetmap.org/way/1307962046",
     "latitude": 45.840324,
     "longitude": 1.4900731,
     "gpsSource": "https://www.openstreetmap.org/way/1307962046",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1307962046"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : source exploitant ou organisme touristique vérifiée.",
+    "sourceId": "way/1307962046",
+    "sourceOfficial": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-de-services-de-camping-car-saint-leonard-de-noblat-saint-leonard-de-noblat-fr-4128693/",
+    "priceSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-de-services-de-camping-car-saint-leonard-de-noblat-saint-leonard-de-noblat-fr-4128693/",
+    "servicesSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-de-services-de-camping-car-saint-leonard-de-noblat-saint-leonard-de-noblat-fr-4128693/",
+    "address": "Place de la Libération, 87400 Saint-Léonard-de-Noblat"
   },
   {
     "department": "87",
     "name": "Aire de camping-car de Chaptelat",
-    "city": "Commune à confirmer",
+    "city": "Chaptelat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Douches",
@@ -439,7 +455,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/1432322168",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
     "sourceId": "way/1432322168",
     "servicesSource": "https://www.openstreetmap.org/way/1432322168"
   }
