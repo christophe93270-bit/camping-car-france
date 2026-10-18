@@ -88,8 +88,8 @@
     "city": "Saint-Martin de Bréhal",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "8 € par nuitée, taxe de séjour comprise ; eau : jeton à 1 € (tarif municipal affiché, confirmé par délibération de mai 2025)",
+    "status": "Ouverte toute l'année ; point d'eau indisponible en période de gel",
     "source": "https://www.openstreetmap.org/way/123763654",
     "latitude": 48.8984736,
     "longitude": -1.5661509,
@@ -97,7 +97,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/123763654"
+    "sourceId": "way/123763654",
+    "address": "Avenue de l'Hippodrome, 50290 Saint-Martin-de-Bréhal",
+    "capacity": 23,
+    "sourceOfficial": "https://www.ville-brehal.fr/decouvrir/aire-de-camping-cars.html"
   },
   {
     "department": "50",
@@ -263,7 +266,7 @@
     "city": "Saint-Pierre-Église",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement et borne de services gratuits selon l'office de tourisme du Cotentin ; conditions actuelles à vérifier sur place",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1015904190",
     "latitude": 49.6719962,
@@ -273,7 +276,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1015904190",
-    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer."
+    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer.",
+    "address": "Rue du Maréchal Leclerc, 50330 Saint-Pierre-Église",
+    "capacity": 4,
+    "sourceOfficial": "https://www.encotentin.fr/aires-de-camping-cars/aire-de-stationnement-et-de-services-saint-pierre-eglise/"
   },
   {
     "department": "50",
@@ -488,7 +494,7 @@
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; borne eau et vidange : 2 € par jeton, disponible dans les commerces locaux",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1318428567",
     "latitude": 48.9125512,
@@ -499,7 +505,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1318428567",
     "servicesSource": "https://www.openstreetmap.org/way/1318428567",
-    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer."
+    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer.",
+    "address": "4 chemin de l'Hôtel au Roy, près du lavoir, 50510 Cérences",
+    "capacity": 6,
+    "sourceOfficial": "https://www.cerences.fr/decouvrir-cerences/hebergements/aire-de-camping-car.html",
+    "verificationNote": "Office de tourisme indique aussi Rue du Bocage ; la mairie donne 4 chemin de l'Hôtel au Roy. Vérifier l'accès exact si nécessaire."
   },
   {
     "department": "50",
