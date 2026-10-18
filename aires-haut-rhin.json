@@ -93,21 +93,23 @@
     "city": "Turckheim (Trois-Épis)",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Douches",
-      "Toilettes",
-      "Électricité"
+      "Stationnement gratuit",
+      "Borne eau ou électricité (6 €)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; borne d'eau ou d'électricité : 6 € (office de tourisme, consulté 18/10/2026).",
+    "status": "Aire en lisière de forêt, place des Antonins. Les modalités exactes de fonctionnement de la borne restent à vérifier.",
     "source": "https://www.openstreetmap.org/node/4730824975",
     "latitude": 48.1008918,
     "longitude": 7.2293199,
     "gpsSource": "https://www.openstreetmap.org/node/4730824975",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : source mairie/office de tourisme vérifiée ; distinction entre installations conservée pour Colmar.",
     "sourceId": "node/4730824975",
-    "servicesSource": "https://www.openstreetmap.org/node/4730824975"
+    "servicesSource": "https://www.openstreetmap.org/node/4730824975",
+    "address": "Place des Antonins, 68410 Trois-Épis",
+    "sourceOfficial": "https://www.tourisme-colmar.com/fr/toutes-les-fiches/F235017146_aire-de-service-et-de-stationnement-pour-camping-car-les-trois-epis",
+    "priceSource": "https://www.tourisme-colmar.com/fr/toutes-les-fiches/F235017146_aire-de-service-et-de-stationnement-pour-camping-car-les-trois-epis"
   },
   {
     "department": "68",
@@ -273,19 +275,24 @@
     "city": "Colmar",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Services selon installation choisie (à confirmer)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Port avec réservation : 22 à 25 €/nuit, services inclus. Aire automatique OnlyPark voisine : 13 à 20 €/24 h, services séparés. Correspondance exacte du point GPS avec l'une des deux offres à confirmer.",
+    "status": "Deux installations distinctes sont publiées au 6 rue du Canal : aire à l'intérieur du port (réservation obligatoire, arrivée 14 h–18 h, départ avant midi) et aire automatique OnlyPark (24 h/24, sans réservation). Le point GPS existant n'est pas attribué avec certitude à l'une des deux.",
     "source": "https://www.openstreetmap.org/way/438190329",
     "latitude": 48.080569,
     "longitude": 7.3738896,
     "gpsSource": "https://www.openstreetmap.org/way/438190329",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : source mairie/office de tourisme vérifiée ; distinction entre installations conservée pour Colmar.",
     "sourceId": "way/438190329",
-    "servicesSource": "https://www.openstreetmap.org/way/438190329"
+    "servicesSource": "https://www.openstreetmap.org/way/438190329",
+    "address": "6 rue du Canal, 68000 Colmar",
+    "sourceOfficial": "https://www.tourisme-colmar.com/fr/loisirs-fr/lieux-de-loisirs/parcs-a-themes/F235018221_aire-de-service-et-de-stationnement-de-camping-cars-port-de-plaisance-de-colmar-colmar",
+    "relatedOfficialSources": [
+      "https://tourisme-colmar.com/fr/toutes-les-fiches/F235013474_aire-de-service-et-de-stationnement-de-camping-cars-port-de-plaisance-de-colmar-colmar"
+    ]
   },
   {
     "department": "68",
@@ -327,19 +334,27 @@
     "city": "Munster",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (54 places)",
+      "Électricité 16 A ou 6 A",
+      "Eau potable",
+      "Vidange eaux grises et noires",
+      "Sanitaires et douches toute l'année",
+      "Wi-Fi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "16 € /24 h, taxe de séjour et services inclus selon mairie (consulté 18/10/2026).",
+    "status": "Aire municipale ouverte toute l'année, 49 places standards et 5 places grands véhicules. Paiement CB ou application Flowbird.",
     "source": "https://www.openstreetmap.org/way/763099797",
     "latitude": 48.0375976,
     "longitude": 7.1333774,
     "gpsSource": "https://www.openstreetmap.org/way/763099797",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : source mairie/office de tourisme vérifiée ; distinction entre installations conservée pour Colmar.",
     "sourceId": "way/763099797",
-    "servicesSource": "https://www.openstreetmap.org/way/763099797"
+    "servicesSource": "https://www.openstreetmap.org/way/763099797",
+    "address": "Rue du Docteur Heid, 68140 Munster",
+    "sourceOfficial": "https://www.munster.alsace/visiter-munster-et-sa-vallee/aire-de-camping-cars/",
+    "priceSource": "https://www.munster.alsace/visiter-munster-et-sa-vallee/aire-de-camping-cars/"
   },
   {
     "department": "68",
