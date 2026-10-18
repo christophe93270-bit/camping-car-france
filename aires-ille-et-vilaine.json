@@ -251,10 +251,15 @@
     "city": "Guichen",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange des eaux usées",
+      "WC",
+      "Poubelles",
+      "Aire de pique-nique"
     ],
     "price": "Non confirmé",
-    "status": "Stationnement limité à 48 h ; services hors gel selon saison",
+    "status": "20 places, stationnement limité à 48 h ; ouvert toute l'année hors période de mise hors gel selon Ille-et-Vilaine Tourisme",
     "source": "https://www.openstreetmap.org/way/1083025546",
     "latitude": 48.0015271,
     "longitude": -1.7731737,
@@ -268,7 +273,7 @@
     "address": "Cale de Pont-Réan, rue de Redon, 35580 Guichen",
     "capacity": 20,
     "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-stationnement-guichen-pont-rean-guichen-fr-2728315/",
-    "verificationNote": "20 emplacements confirmés par Ille-et-Vilaine Tourisme ; eau, électricité, vidange, WC. Prix du stationnement non confirmé."
+    "verificationNote": "Office de tourisme : 20 places, eau, électricité, vidange, WC, aire de pique-nique, paiement par carte. Montant non publié : prix maintenu non confirmé."
   },
   {
     "department": "35",
@@ -804,11 +809,13 @@
       "Eau",
       "Vidange des eaux usées"
     ],
-    "price": "Tarif actuel non confirmé",
-    "status": "Référencée dans un annuaire spécialisé ; conditions à confirmer",
+    "price": "Services et stationnement gratuits selon retours 2026 de park4night ; tarif municipal non publié",
+    "status": "Aire communale : 2 places, stationnement limité à 24 h selon Camping-car.com ; services gratuits signalés en 2026",
     "source": "https://www.camping-car.com/aires/15286-aire-communale/",
     "gpsSource": "https://www.camping-car.com/aires/15286-aire-communale/",
-    "verificationNote": "Deux places annoncées par annuaire. Distincte du camping municipal Le Bois Feuillet. Informations tarifaires anciennes : ne pas annoncer la gratuité comme certaine."
+    "verificationNote": "Camping-car.com indique 2 places et 24 h maximum, mais ses tarifs sont datés de 2018. Des avis park4night de 2026 confirment la gratuité des services ; ne pas confondre avec le camping municipal Le Bois Feuillet.",
+    "priceSource": "https://park4night.com/fr/place/40237",
+    "sourceOfficial": "https://www.camping-car.com/aires/15286-aire-communale/"
   },
   {
     "department": "35",
@@ -848,12 +855,13 @@
       "Vidange des eaux usées",
       "WC publics"
     ],
-    "price": "Tarifs des services à confirmer",
+    "price": "Stationnement gratuit place du Champ de Foire selon la mairie ; tarif des services non publié",
     "status": "Stationnement interdit le mardi matin (marché) selon Ille-et-Vilaine Tourisme",
     "source": "https://www.laguerchedebretagne.fr/stationnement-a-la-guerche-de-bretagne/",
     "sourceOfficial": "https://www.laguerchedebretagne.fr/stationnement-a-la-guerche-de-bretagne/",
     "gpsSource": "https://www.autoplus.fr/camping-car/bretagne-la-liste-des-aires-de-camping-cars-gratuites-1380504.html",
-    "verificationNote": "Office de tourisme : stationnement possible place du Champ de Foire, sauf le mardi matin, borne électrique face au garage Peugeot."
+    "verificationNote": "Mairie : stationnement gratuit place du Champ de Foire sauf le mardi matin (marché) ; eau, électricité, vidange et WC publics. La gratuité du stationnement ne prouve pas celle de l'eau ou de l'électricité.",
+    "priceSource": "https://www.laguerchedebretagne.fr/stationnement-a-la-guerche-de-bretagne/"
   },
   {
     "department": "35",
