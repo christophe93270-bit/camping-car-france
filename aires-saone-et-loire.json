@@ -315,39 +315,52 @@
   {
     "department": "71",
     "name": "Aire de Camping-Car Tournus Quai de la Marine",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Tournus",
+    "type": "Aire de services pour camping-cars",
     "services": [
-      "Électricité"
+      "Vidange eaux noires et grises",
+      "Branchement électrique",
+      "Eau potable",
+      "Parking"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de services répertoriée par Destination Saône-et-Loire ; stationnement nocturne et tarif à confirmer.",
     "source": "https://www.openstreetmap.org/way/220632397",
     "latitude": 46.5671587,
     "longitude": 4.9110691,
     "gpsSource": "https://www.openstreetmap.org/way/220632397",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Tourisme départemental confirme quai de la Marine, vidange, électricité, point d'eau et parking ; ne pas inférer nuitée autorisée.",
     "sourceId": "way/220632397",
-    "servicesSource": "https://www.openstreetmap.org/way/220632397"
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-11",
+    "address": "Quai de la Marine, 71700 Tournus",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-11"
   },
   {
     "department": "71",
     "name": "Aire Municipale Givry",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "city": "Givry",
+    "type": "Aire de services pour camping-cars",
+    "services": [
+      "Électricité",
+      "Vidange eaux usées",
+      "Eau potable",
+      "Parking"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de services à l'ancienne gare, sur la Voie Verte ; conditions de stationnement à vérifier.",
     "source": "https://www.openstreetmap.org/way/289331868",
     "latitude": 46.7799455,
     "longitude": 4.7486696,
     "gpsSource": "https://www.openstreetmap.org/way/289331868",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/289331868"
+    "importReview": "Source Destination Saône-et-Loire confirme adresse et équipements.",
+    "sourceId": "way/289331868",
+    "address": "Parking de l'ancienne gare, départ de la Voie Verte, 71640 Givry",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-camping-cars.html",
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-camping-cars.html"
   },
   {
     "department": "71",
@@ -374,40 +387,56 @@
   },
   {
     "department": "71",
-    "name": "Aire de camping-car de Louhans Châteaurenaud",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "name": "Aire de camping-cars Louhans le Port",
+    "city": "Louhans-Châteaurenaud",
+    "type": "Aire de stationnement et services camping-car",
+    "services": [
+      "Stationnement (21 emplacements)",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées",
+      "Poubelles"
+    ],
+    "price": "Payant ; tarif actuel à vérifier (fiche touristique publiée en 2025)",
+    "status": "Aire au port près de la halte nautique en bord de Seille ; tarifs à actualiser.",
     "source": "https://www.openstreetmap.org/way/528968593",
     "latitude": 46.6298738,
     "longitude": 5.2128954,
     "gpsSource": "https://www.openstreetmap.org/way/528968593",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/528968593"
+    "importReview": "Tourisme départemental : 21 places, rue du Port, eau, électricité, vidange ; fiche mise à jour juillet 2025.",
+    "sourceId": "way/528968593",
+    "address": "Rue du Port, 71500 Louhans-Châteaurenaud",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-cars-de-louhans-le-port.html?checkin=&checkout=",
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-cars-de-louhans-le-port.html?checkin=&checkout="
   },
   {
     "department": "71",
     "name": "Aire Camping-car Saint-Gengoux-de-Scissé",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Saint-Gengoux-de-Scissé",
+    "type": "Aire de services et stationnement camping-car",
     "services": [
-      "Électricité"
+      "Stationnement (4 emplacements, durée maximale 48 h)",
+      "Électricité",
+      "Vidange eaux usées",
+      "Eau potable",
+      "Poubelles",
+      "Tri sélectif"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Stationnement autorisé 48 heures maximum selon Destination Saône-et-Loire.",
     "source": "https://www.openstreetmap.org/way/591636772",
     "latitude": 46.4609246,
     "longitude": 4.7753472,
     "gpsSource": "https://www.openstreetmap.org/way/591636772",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Tourisme départemental confirme 4 emplacements et limite 48 h, face au cimetière.",
     "sourceId": "way/591636772",
-    "servicesSource": "https://www.openstreetmap.org/way/591636772"
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-0",
+    "address": "Le Bourg, face au cimetière, 71260 Saint-Gengoux-de-Scissé",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-0"
   },
   {
     "department": "71",
@@ -581,22 +610,29 @@
   {
     "department": "71",
     "name": "Aire de camping-cars Pierre de Bresse",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Pierre-de-Bresse",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
-      "Électricité"
+      "Stationnement (12 emplacements)",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées",
+      "Poubelles"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Entre 6 € et 13,50 € par jour selon la fiche touristique mise à jour le 11/05/2026 ; tarif exact à vérifier",
+    "status": "Ouvert toute l'année et accessible 24h/24 selon le tourisme départemental ; exploitation CAMPING-CAR PARK.",
     "source": "https://www.openstreetmap.org/way/1278305954",
     "latitude": 46.8826049,
     "longitude": 5.2679015,
     "gpsSource": "https://www.openstreetmap.org/way/1278305954",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Fiche tourisme départemental mise à jour le 11/05/2026, 12 places, ouverture annuelle, tarif indicatif 6–13,50 €.",
     "sourceId": "way/1278305954",
-    "servicesSource": "https://www.openstreetmap.org/way/1278305954"
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-les-campings-cars.html-0",
+    "address": "Place du Champ de Foire, 71270 Pierre-de-Bresse",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-les-campings-cars.html-0",
+    "priceSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-les-campings-cars.html-0"
   },
   {
     "department": "71",
