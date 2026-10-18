@@ -380,7 +380,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Aube indisponible",error); }
     let marneAires=[];
     try {
-      const response51=await fetch("aires-marne.json?v=20261015-1", {cache:"no-store"});
+      const response51=await fetch("aires-marne.json?v=20261018-1", {cache:"no-store"});
       if(response51.ok) marneAires=await response51.json();
     } catch(error) { console.warn("Chargement Marne indisponible",error); }
     let ardennesAires=[];
