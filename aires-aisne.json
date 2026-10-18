@@ -79,10 +79,10 @@
     "department": "02",
     "name": "Aire de camping-cars Laon - Rue du Maréchal Alphonse Juin",
     "city": "Laon",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire gratuite de stationnement pour camping-cars",
     "services": [],
     "price": "Stationnement gratuit (accès libre 24 h/24, 7 j/7)",
-    "status": "Stationnement et commune confirmés par l'office de tourisme; services à confirmer",
+    "status": "Stationnement gratuit accessible 24 h/24, 7 j/7 sans réservation ; services non confirmés",
     "source": "https://www.openstreetmap.org/way/233569567",
     "latitude": 49.5566758,
     "longitude": 3.6137733,
@@ -93,16 +93,22 @@
     "sourceId": "way/233569567",
     "priceSource": "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-daccueil-de-laon-rue-du-marechal-alphonse-juin-ville-haute/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Gratuité du stationnement indiquée par l'office de tourisme; services éventuels à vérifier."
+    "priceNote": "Gratuité du stationnement indiquée par l'office de tourisme; services éventuels à vérifier.",
+    "address": "Rue du Maréchal Alphonse Juin, 02000 Laon",
+    "verificationSource": "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-daccueil-de-laon-rue-du-marechal-alphonse-juin-ville-haute/"
   },
   {
     "department": "02",
     "name": "Aire de camping-car Château-Thierry",
     "city": "Château-Thierry",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire municipale d'accueil et de services camping-car",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Stationnement",
+      "Eau potable",
+      "Électricité payante",
+      "Vidange eaux grises et noires",
+      "Sanitaires",
+      "Collecte des déchets"
     ],
     "price": "7,50 € / jour (électricité en supplément : 4 € / 24 h)",
     "status": "Tarif relevé auprès de l'exploitant ou de la mairie; vérifier avant déplacement",
@@ -117,7 +123,11 @@
     "servicesSource": "https://www.openstreetmap.org/way/301808286",
     "priceSource": "https://www.chateau-thierry.fr/node/4245",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif municipal annoncé depuis le 01/01/2024, également indiqué par l'office de tourisme pour 2026. Taxe de séjour éventuelle à confirmer."
+    "priceNote": "Tarif municipal annoncé depuis le 01/01/2024, également indiqué par l'office de tourisme pour 2026. Taxe de séjour éventuelle à confirmer.",
+    "capacity": 13,
+    "address": "Avenue d'Essômes, 02400 Château-Thierry",
+    "verificationSource": "https://www.chateau-thierry.fr/node/4245",
+    "verificationNote": "Mairie : 13 emplacements dont un PMR, accès autonome par borne bancaire 24h/24, tarif municipal en vigueur depuis janvier 2024 de 7,50 €/jour et électricité 2 €/12h ou 4 €/24h."
   },
   {
     "department": "02",
@@ -257,10 +267,10 @@
     "department": "02",
     "name": "Aire de stationnement de Villers-Cotterêts",
     "city": "Villers-Cotterêts",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement camping-car (borne de services hors service)",
     "services": [],
     "price": "Stationnement gratuit ; borne de services hors service depuis le 06/08/2026",
-    "status": "Commune et informations vérifiées auprès d'une source touristique; vérifier sur place les conditions actuelles",
+    "status": "Stationnement gratuit ; borne de services hors service depuis le 6 août 2026 selon office de tourisme",
     "source": "https://www.openstreetmap.org/way/1089483319",
     "latitude": 49.2609419,
     "longitude": 3.0872656,
@@ -271,7 +281,7 @@
     "sourceId": "way/1089483319",
     "verificationSource": "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC0020004R_aire-de-services-de-villers-cotterets/",
     "verificationDate": "2026-10-17",
-    "verificationNote": "L'office de tourisme signale la borne de services hors service depuis le 06/08/2026; ne pas présenter les services comme disponibles."
+    "verificationNote": "Office de tourisme distingue stationnement près de la piscine et borne de services actuellement hors service ; ne pas promettre eau, électricité ni vidange."
   },
   {
     "department": "02",
