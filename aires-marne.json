@@ -78,8 +78,8 @@
       "Vidange eaux usées",
       "Pas d'électricité selon annuaires"
     ],
-    "price": "Gratuité signalée par des annuaires, non confirmée pour 2026",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif et accès camping-car non confirmés pour 2026",
+    "status": "Existence et conditions actuelles de l'aire camping-car à vérifier : le site officiel du CIS ne la mentionne pas et réserve son parking privé aux autocars des groupes hébergés.",
     "source": "https://www.openstreetmap.org/way/388120953",
     "latitude": 49.2500809,
     "longitude": 4.0218022,
@@ -89,8 +89,10 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/388120953",
     "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire.",
-    "address": "Chaussée Bocquaine, 51100 Reims",
-    "priceSource": "https://i-campingcar.fr/aires.php?ville=REIMS"
+    "address": "21 chaussée Bocquaine, 51100 Reims (repère CIS de Champagne)",
+    "priceSource": "https://i-campingcar.fr/aires.php?ville=REIMS",
+    "sourceVerificationNote": "Le site du CIS confirme uniquement l'adresse de l'établissement, pas l'exploitation de l'aire camping-car. Ne pas présenter le parking privé du CIS comme aire autorisée.",
+    "addressSource": "https://www.cis-reims.com/"
   },
   {
     "department": "51",
@@ -255,8 +257,13 @@
     "name": "Aire de stationnement Trépail",
     "city": "Trépail",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Stationnement",
+      "Borne de services",
+      "Eau",
+      "Vidange"
+    ],
+    "price": "Stationnement gratuit selon annuaire ; services annoncés à 2 € dans un annuaire, mais gratuité indiquée ailleurs pour 2023 : tarif 2026 à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/908427627",
     "latitude": 49.1097364,
@@ -265,7 +272,11 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/908427627"
+    "sourceId": "way/908427627",
+    "address": "Place des Goulots, 51380 Trépail",
+    "capacity": 4,
+    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=TREPAIL",
+    "sourceVerificationNote": "Sources secondaires contradictoires pour les services ; aucune source municipale vérifiée."
   },
   {
     "department": "51",
