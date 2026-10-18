@@ -270,7 +270,7 @@
     "city": "Conty",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; jeton d'eau 3 € pour 100 L selon mairie ; capacité 60 selon guide intercommunal 2022 (à revalider)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/640547956",
     "latitude": 49.744385,
@@ -279,7 +279,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/640547956"
+    "sourceId": "way/640547956",
+    "address": "1 rue du Marais, 80160 Conty",
+    "capacity": 60,
+    "sourceOfficial": "https://www.ville-conty.fr/decouvrir-et-entreprendre/tourisme/",
+    "tariffSource": "https://www.ville-conty.fr/decouvrir-et-entreprendre/tourisme/",
+    "capacitySource": "https://www.cc2so.fr/wp-content/uploads/2022/08/Guide_MOD0822_VF_L_2022.pdf",
+    "verificationNote": "Capacité de 60 issue du guide intercommunal 2022 ; une source commerciale plus récente annonce 70. Vérification actuelle requise."
   },
   {
     "department": "80",
@@ -422,7 +428,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1316356674",
-    "servicesSource": "https://www.openstreetmap.org/way/1316356674"
+    "servicesSource": "https://www.openstreetmap.org/way/1316356674",
+    "address": "16 rue du Grand Patis, 80460 Friaucourt",
+    "sourceOfficial": "https://www.friaucourt.fr/le-camping-municipal/",
+    "verificationNote": "Le camping municipal annonce 98 emplacements au total, mais ne distingue pas le nombre réservé aux camping-cars. Ne pas renseigner 98 comme capacité de l'aire. Ouvert du 1er avril au 31 octobre 2026."
   },
   {
     "department": "80",
@@ -432,7 +441,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "5 € pour la première heure, puis 15 € pour 24 h selon office de tourisme ; tarif à revalider avant séjour",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1361123763",
     "latitude": 50.3402992,
@@ -442,6 +451,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1361123763",
-    "servicesSource": "https://www.openstreetmap.org/way/1361123763"
+    "servicesSource": "https://www.openstreetmap.org/way/1361123763",
+    "address": "120 route de Berck, 80120 Fort-Mahon-Plage",
+    "capacity": 80,
+    "sourceOfficial": "https://www.fort-mahon-plage-tourisme.com/actualites/vielocale/stationnement",
+    "tariffSource": "https://www.fort-mahon-plage-tourisme.com/actualites/vielocale/stationnement",
+    "capacitySource": "https://www.fort-mahon-plage-tourisme.com/actualites/vielocale/stationnement",
+    "verificationNote": "Office de tourisme : 80 emplacements et 120 route de Berck ; certains annuaires indiquent 134 route de Berck ou 72 places. Source institutionnelle privilégiée."
   }
 ]
