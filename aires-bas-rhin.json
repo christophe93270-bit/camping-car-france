@@ -289,19 +289,21 @@
     "city": "Bischwiller",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement camping-car (capacité et services à confirmer)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit selon l'office de tourisme ; tarif des services non publié.",
+    "status": "Aire spécifique de stationnement pour camping-cars rue de l'Église. L'office de tourisme du Pays de Haguenau confirme le site ; capacité et équipements détaillés à confirmer auprès de la commune.",
     "source": "https://www.openstreetmap.org/way/206823455",
     "latitude": 48.7702885,
     "longitude": 7.8621898,
     "gpsSource": "https://www.openstreetmap.org/way/206823455",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : vérification source institutionnelle/exploitant ; champs non confirmés explicitement signalés.",
     "sourceId": "way/206823455",
-    "servicesSource": "https://www.openstreetmap.org/way/206823455"
+    "servicesSource": "https://www.openstreetmap.org/way/206823455",
+    "address": "Rue de l'Église, 67240 Bischwiller",
+    "sourceOfficial": "https://visithaguenau.alsace/fr/camping-et-aires-de-camping-car"
   },
   {
     "department": "67",
@@ -385,17 +387,25 @@
     "name": "Aire de stationnement Les Vignobles Ruhlmann-Schutz",
     "city": "Dambach-la-Ville",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement (3 places)",
+      "Borne de services (équipements exacts à confirmer)"
+    ],
+    "price": "Stationnement et borne annoncés gratuits dans le répertoire spécialisé ; à confirmer directement avec le domaine.",
+    "status": "Aire privée chez les Vignobles Ruhlmann-Schutz, 3 places selon le répertoire régional officiel des aires. Adresse et coordonnées GPS recoupées. Horaires du domaine : du lundi au samedi, 9 h–12 h et 14 h–18 h selon le répertoire spécialisé ; accueil à confirmer auprès du domaine.",
     "source": "https://www.openstreetmap.org/way/1055685770",
-    "latitude": 48.3254234,
-    "longitude": 7.4281056,
-    "gpsSource": "https://www.openstreetmap.org/way/1055685770",
+    "latitude": 48.3247126,
+    "longitude": 7.4267405,
+    "gpsSource": "https://www.camping-car.com/aires/46214-les-vignobles-ruhlmann-schutz/",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
-    "sourceId": "way/1055685770"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : vérification source institutionnelle/exploitant ; champs non confirmés explicitement signalés.",
+    "sourceId": "way/1055685770",
+    "address": "34 rue du Maréchal Foch, 67650 Dambach-la-Ville",
+    "sourceOfficial": "https://www.ruhlmann-schutz.fr/",
+    "relatedOfficialSources": [
+      "https://www.camping-car.com/aires/46214-les-vignobles-ruhlmann-schutz/"
+    ]
   },
   {
     "department": "67",
@@ -549,19 +559,22 @@
     "city": "Val-de-Moder",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit (7 places)",
+      "Aire de services camping-car (équipements détaillés à confirmer)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit selon l'office de tourisme ; tarif des services non publié.",
+    "status": "Aire de services de 7 emplacements gratuits au bord de l'eau à Pfaffenhoffen. Source : office de tourisme du Pays de Haguenau. Les équipements exacts doivent être confirmés sur place ou auprès de la commune.",
     "source": "https://www.openstreetmap.org/way/1298221007",
     "latitude": 48.8472802,
     "longitude": 7.612254,
     "gpsSource": "https://www.openstreetmap.org/way/1298221007",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : vérification source institutionnelle/exploitant ; champs non confirmés explicitement signalés.",
     "sourceId": "way/1298221007",
-    "servicesSource": "https://www.openstreetmap.org/way/1298221007"
+    "servicesSource": "https://www.openstreetmap.org/way/1298221007",
+    "address": "Rue de la Moder, 67350 Pfaffenhoffen (Val-de-Moder)",
+    "sourceOfficial": "https://visithaguenau.alsace/fr/camping-et-aires-de-camping-car"
   },
   {
     "department": "67",
@@ -569,20 +582,21 @@
     "city": "Soultz-sous-Forêts",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Aire de services camping-car (équipements à confirmer)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif non publié par l'office de tourisme.",
+    "status": "Aire de services municipale place du Général de Gaulle. L'office de tourisme confirme l'installation et les coordonnées de la mairie ; capacité, disponibilité actuelle des services et tarif à vérifier auprès de la commune.",
     "source": "https://www.openstreetmap.org/way/1298627305",
     "latitude": 48.9359628,
     "longitude": 7.8814938,
     "gpsSource": "https://www.openstreetmap.org/way/1298627305",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : vérification source institutionnelle/exploitant ; champs non confirmés explicitement signalés.",
     "sourceId": "way/1298627305",
-    "servicesSource": "https://www.openstreetmap.org/way/1298627305"
+    "servicesSource": "https://www.openstreetmap.org/way/1298627305",
+    "address": "Place du Général de Gaulle, 67250 Soultz-sous-Forêts",
+    "sourceOfficial": "https://www.alsace-verte.com/carnet-dadresses/hebergement/campings-et-aires-pour-camping-car/"
   },
   {
     "department": "67",
