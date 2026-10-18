@@ -370,7 +370,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Haut-Rhin indisponible",error); }
     let hauteMarneAires=[];
     try {
-      const response52=await fetch("aires-haute-marne.json?v=20261015-1", {cache:"no-store"});
+      const response52=await fetch("aires-haute-marne.json?v=20261018-1", {cache:"no-store"});
       if(response52.ok) hauteMarneAires=await response52.json();
     } catch(error) { console.warn("Chargement Haute-Marne indisponible",error); }
     let aubeAires=[];
