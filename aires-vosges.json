@@ -331,16 +331,17 @@
     "city": "Thaon-les-Vosges",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Aire référencée par OpenStreetMap près du port ; une source associative décrit une aire communale mais la localisation précise et les tarifs restent non confirmés officiellement.",
+    "price": "Stationnement gratuit selon Camping-car.com (publication ancienne) ; tarif actuel des services à confirmer",
+    "status": "Aire de 15 emplacements en bordure du canal, décrite par Camping-car.com. Stationnement gratuit selon cette source ancienne, eau et vidange indiquées ; pas de source institutionnelle actuelle identifiée. Ne pas confondre avec l'aire d'accueil des gens du voyage.",
     "source": "https://www.openstreetmap.org/way/791631162",
     "latitude": 48.2506925,
     "longitude": 6.4250372,
     "gpsSource": "https://www.openstreetmap.org/way/791631162",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/791631162"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : source secondaire rapprochée de la géométrie OSM, tarifs actuels à confirmer.",
+    "sourceId": "way/791631162",
+    "address": "Rue du Coignot, près du port fluvial, 88150 Thaon-les-Vosges"
   },
   {
     "department": "88",
@@ -648,19 +649,26 @@
     "city": "Senones",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Vidange eaux grises",
+      "Vidange eaux noires",
+      "Électricité",
+      "Wi-Fi"
     ],
-    "price": "Non confirmé",
-    "status": "Office départemental mentionne une aire de 13 places à Senones, mais la fiche individuelle et les tarifs ne sont pas encore vérifiés ; conserver les services OSM comme non confirmés.",
+    "price": "15 € / 24 h (taxe de séjour comprise) ; forfait services 2,50 € / 2 h",
+    "status": "Aire de 13 places confirmée par la Communauté d'agglomération de Saint-Dié-des-Vosges. Attention : une fiche touristique affiche 5 places dans le champ capacité, mais 13 dans sa description ; retenir la donnée de l'agglomération.",
     "source": "https://www.openstreetmap.org/way/1319364908",
     "latitude": 48.3938362,
     "longitude": 6.9738924,
     "gpsSource": "https://www.openstreetmap.org/way/1319364908",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune appuyée par la liste Tourisme Vosges, sans fiche détaillée.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune appuyée par la liste Tourisme Vosges, sans fiche détaillée. | 18/10/2026 : source directe agglomération, tarifs et équipements vérifiés.",
     "sourceId": "way/1319364908",
-    "servicesSource": "https://www.openstreetmap.org/way/1319364908"
+    "servicesSource": "https://agglo.saint-die-des-vosges.fr/vos-services/mobilites/aires-de-camping-car/",
+    "address": "Rue du Breuil, près du collège André-Malraux, 88210 Senones",
+    "sourceOfficial": "https://agglo.saint-die-des-vosges.fr/vos-services/mobilites/aires-de-camping-car/",
+    "priceSource": "https://agglo.saint-die-des-vosges.fr/vos-services/mobilites/aires-de-camping-car/"
   },
   {
     "department": "88",
