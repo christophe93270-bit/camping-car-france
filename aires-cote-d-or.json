@@ -299,24 +299,25 @@
   },
   {
     "department": "21",
-    "name": "L'aire de camping car Laignes",
+    "name": "Stationnement camping-car du Moulin Neuf — Laignes",
     "city": "Laignes",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Stationnement camping-car signalé par des annuaires spécialisés",
     "services": [
-      "Électricité"
+      "Stationnement (environ 6 à 8 places selon les sources, non confirmé)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit selon des annuaires spécialisés, à confirmer auprès de la mairie",
+    "status": "Stationnement signalé au Moulin Neuf. Sources secondaires anciennes divergentes sur la capacité (6 à 8 places). Eau, électricité et vidange non confirmées ; un avis de 2019 indique même l'absence d'eau et d'électricité. Conditions actuelles à confirmer auprès de la mairie.",
     "source": "https://www.openstreetmap.org/way/1190112884",
     "latitude": 47.848563,
     "longitude": 4.360884,
     "gpsSource": "https://www.openstreetmap.org/way/1190112884",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Audit final Côte-d'Or : annuaires secondaires Laignes (Aires Service 360 et campingcar76) localisent le parking au chemin du Moulin Neuf. Contradiction entre tag OSM électricité et avis de 2019 sans eau/électricité : suppression du service électrique non confirmé. Pas de source communale trouvée ; sourceOfficial volontairement absent. Mairie : https://www.laignes.fr ; 03 80 81 43 03.",
     "sourceId": "way/1190112884",
-    "servicesSource": "https://www.openstreetmap.org/way/1190112884",
-    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée."
+    "servicesSource": "https://www.aire-service-camping-car-panoramique.fr/cote-or/21-laignes",
+    "cityVerificationNote": "Commune Laignes confirmée par les annuaires ; coordonnées GPS OSM conservées, non validées par la mairie.",
+    "address": "Chemin du Moulin Neuf, 21330 Laignes"
   },
   {
     "department": "21",
