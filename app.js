@@ -425,7 +425,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Seine-Maritime indisponible",error); }
     let eureAires=[];
     try {
-      const response27=await fetch("aires-eure.json?v=20261015-1", {cache:"no-store"});
+      const response27=await fetch("aires-eure.json?v=20261018-2", {cache:"no-store"});
       if(response27.ok) eureAires=await response27.json();
     } catch(error) { console.warn("Chargement Eure indisponible",error); }
     let calvadosAires=[];
