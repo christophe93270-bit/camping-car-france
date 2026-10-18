@@ -54,7 +54,14 @@
     "name": "Aire de camping-cars d’Availles sur Seiche",
     "city": "Availles-sur-Seiche",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Vidange WC",
+      "WC",
+      "Aire de pique-nique"
+    ],
     "price": "Stationnement et services gratuits (source : Ille-et-Vilaine Tourisme)",
     "status": "Ouverte toute l'année ; places non délimitées",
     "source": "https://www.openstreetmap.org/node/12185597881",
@@ -70,8 +77,8 @@
     "priceVerifiedOn": "2026-10-17",
     "priceNote": "Tarif non vérifié auprès de la mairie.",
     "address": "Rue du Moulin, 35130 Availles-sur-Seiche",
-    "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-cars-davailles-sur-seiche-availles-sur-seiche-fr-2722632/",
-    "verificationNote": "Eau, vidange et WC gratuits. Parking stabilisé sans emplacements délimités : capacité numérique non publiée ; ne pas en inventer."
+    "sourceOfficial": "https://www.bretagne-vitre.com/aires-de-camping-cars/aire-de-camping-cars-davailles-sur-seiche/",
+    "verificationNote": "Vitré Tourisme confirme eau, électricité, vidange et WC, stationnement et services gratuits toute l'année. Parking stabilisé sans emplacements délimités : capacité non publiée, laisser inconnue."
   },
   {
     "department": "35",
@@ -91,8 +98,8 @@
     "sourceId": "node/12185672424",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
     "address": "Allée de Saint-Étienne, 35500 Vitré",
-    "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-stationnement-a-vitre-vitre-fr-4109810/",
-    "verificationNote": "Parking autorisant le stationnement de camping-cars, sans cales ni déploiement de matériel ; nombre de places et prix non confirmés."
+    "sourceOfficial": "https://www.bretagne-vitre.com/aires-de-camping-cars/aire-de-stationnement-a-vitre/",
+    "verificationNote": "Vitré Tourisme confirme uniquement parking autorisé aux camping-cars face au camping municipal, sans cales ni matériel extérieur. Aucune capacité publiée ; ne pas reprendre la capacité du camping municipal."
   },
   {
     "department": "35",
@@ -118,7 +125,8 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
     "address": "Lieu-dit La Marette, 35750 Saint-Malon-sur-Mel",
     "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-car-de-saint-malon-sur-mel-saint-malon-sur-mel-fr-4039124/",
-    "verificationNote": "Aire située sur le site du camping municipal La Marette. Les 16 emplacements et les tarifs à partir de 13,40 € publiés pour le camping ne sont pas attribués à cette aire sans confirmation spécifique ; ouverture de l'aire à vérifier indépendamment."
+    "verificationNote": "Camping municipal La Marette : saison 2026 du 13 juin au 31 août, 16 emplacements pour l'ensemble du camping, forfait camping-car 14 € hors douche et taxe de séjour selon gestionnaire. Ces chiffres ne sont PAS la capacité ni le tarif de l'aire de services OSM, qui restent non confirmés. Vérifier l'accès hors saison.",
+    "relatedSource": "https://mairiestmalonsurme.wixsite.com/campinglamarette"
   },
   {
     "department": "35",
