@@ -312,33 +312,50 @@
     "name": "Aire de Camping-Car Damvillers",
     "city": "Damvillers",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement nocturne",
+      "Éclairage public",
+      "Sol stabilisé"
+    ],
+    "price": "Non confirmé par la source touristique officielle.",
+    "status": "Stationnement pour camping-cars aux Ballastières, à la sortie de Damvillers en direction de Montmédy. La fiche de Meuse Attractivité confirme la possibilité d'y passer la nuit, l'éclairage public et un sol stabilisé. Les services de vidange, d'eau et d'électricité signalés dans un annuaire tiers pourraient correspondre à une borne distincte rue de l'Isle d'Envie : non confirmés à cet emplacement.",
     "source": "https://www.openstreetmap.org/way/1298173782",
     "latitude": 49.3381345,
     "longitude": 5.3974328,
     "gpsSource": "https://www.openstreetmap.org/way/1298173782",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer.",
-    "sourceId": "way/1298173782"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : stationnement aux Ballastières confirmé par Meuse Attractivité ; borne de services potentiellement distincte, ne pas fusionner.",
+    "sourceId": "way/1298173782",
+    "address": "Les Ballastières, 55150 Damvillers",
+    "sourceOfficial": "https://tourisme-meurtheetmoselle.fr/accueil/lessentiel/patrimoine/musees/834000108-aire-de-stationnement-camping-car"
   },
   {
     "department": "55",
-    "name": "Aire de camping-cars de Void-Vacon",
+    "name": "Aire communale Flot Bleu — Void-Vacon",
     "city": "Void-Vacon",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement",
+      "Eau potable à jeton",
+      "Vidange eaux grises",
+      "Vidange cassette WC"
+    ],
+    "price": "Tarif actuel non publié par Flot Bleu ; un annuaire donne 3 € de forfait services en 2023, montant non confirmé pour 2026.",
+    "status": "Borne Relais Flot Bleu exploitée par la mairie, annoncée ouverte toute l'année par le fabricant. Eau potable, vidange eaux grises et cassette WC. Stationnement annoncé par l'exploitant ; nombre de places non confirmé par lui (annuaire camping-car : 10). Paiement des services par jetons. Ne pas confondre avec l'accueil France Passion « Les Fous de Terroirs » également situé dans la commune.",
     "source": "https://www.openstreetmap.org/way/1344623520",
     "latitude": 48.6820873,
     "longitude": 5.6195351,
     "gpsSource": "https://www.openstreetmap.org/way/1344623520",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer.",
-    "sourceId": "way/1344623520"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : fabricant Flot Bleu confirme adresse, services, jetons et ouverture ; tarif 2023 non actualisé.",
+    "sourceId": "way/1344623520",
+    "address": "6 rue de la Gare, 55190 Void-Vacon",
+    "sourceOfficial": "https://flotbleu.com/meuse/aire-de-service/290",
+    "priceSource": "https://www.camping-car.com/aires/43402-aire-communale/",
+    "relatedOfficialSources": [
+      "https://tourisme-meurtheetmoselle.fr/accueil/lessentiel/patrimoine/musees/836000919-aire-de-stationnement"
+    ]
   }
 ]
