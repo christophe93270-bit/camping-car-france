@@ -41,17 +41,25 @@
     "name": "Aire de stationnement camping-car Montmédy Le Pigeonnier",
     "city": "Montmédy",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement (4 places)"
+    ],
+    "price": "Stationnement gratuit selon la liste municipale des aires (tarif à recontrôler sur place).",
+    "status": "Aire de stationnement de 4 places devant le gîte de randonnée Le Pigeonnier. Distincte de l'aire de services de vidange rue Vauban et du camping CAMPING-CAR PARK de 32 emplacements. Pas de services propres confirmés sur ce parking.",
     "source": "https://www.openstreetmap.org/node/12227081253",
     "latitude": 49.5186267,
     "longitude": 5.3593473,
     "gpsSource": "https://www.openstreetmap.org/node/12227081253",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer.",
-    "sourceId": "node/12227081253"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : parking du Pigeonnier (4 places) distingué de la borne de services et du camping (32 places).",
+    "sourceId": "node/12227081253",
+    "address": "11 rue Vauban, devant le gîte Le Pigeonnier, 55600 Montmédy",
+    "sourceOfficial": "https://camping-montmedy.jimdofree.com/aires-de-camping-car/",
+    "priceSource": "https://camping-montmedy.jimdofree.com/aires-de-camping-car/",
+    "relatedOfficialSources": [
+      "https://www.montmedy.fr/monsejour/ou-dormir/"
+    ]
   },
   {
     "department": "55",
@@ -177,26 +185,34 @@
   },
   {
     "department": "55",
-    "name": "Aire de camping-car de Montmédy",
+    "name": "Camping de mon village CAMPING-CAR PARK — Montmédy",
     "city": "Montmédy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Douches",
-      "Toilettes",
-      "Électricité"
+      "Stationnement payant (32 places)",
+      "Électricité 6 A (22 prises)",
+      "Point d'eau à proximité",
+      "Borne de vidange à proximité",
+      "Éclairage"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer | Office de tourisme : point de vidange rue Vauban près du camping de la citadelle ; stationnement distinct possible à l'entrée de la citadelle ou en ville basse.",
+    "price": "12 € / 24 h + taxe de séjour 0,44 € = 12,44 € / 24 h, grille exploitant valable du 06/10/2026 au 31/12/2027 ; forfait 5 h + services : 6 €.",
+    "status": "Camping de mon village de 32 emplacements, ouvert, au pied de la citadelle. 22 branchements électriques 6 A annoncés par l'exploitant. Attention : la fiche précédente de l'office décrivait une borne de vidange sans stationnement à proximité, distincte de ce camping ; correspondance du point OSM avec le camping à vérifier avant de modifier les coordonnées GPS.",
     "source": "https://www.openstreetmap.org/way/468359031",
     "latitude": 49.5218254,
     "longitude": 5.3615414,
     "gpsSource": "https://www.openstreetmap.org/way/468359031",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : exploitant 32 places et prix 12,44 € ; point GPS OSM original proche de borne de services, correspondance exacte à revoir.",
     "sourceId": "way/468359031",
     "servicesSource": "https://www.openstreetmap.org/way/468359031",
-    "sourceOfficial": "https://ardenne-meuse.fr/sejourner/?mb_id=2108826&mb_page=poi&mb_titre=aire-de-services-camping-car"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/montmedy",
+    "address": "11 rue Vauban, 55600 Montmédy",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/montmedy",
+    "relatedOfficialSources": [
+      "https://www.montmedy.fr/monsejour/ou-dormir/",
+      "https://www.montmedy.fr/points-d-interet/aire-services-sans-stationnement/"
+    ]
   },
   {
     "department": "55",
