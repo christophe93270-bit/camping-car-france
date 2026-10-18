@@ -2,10 +2,17 @@
   {
     "department": "61",
     "name": "Aire de campingcars Le Gué-de-la-Chaîne",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "city": "Belforêt-en-Perche",
+    "type": "Aire municipale de services et stationnement camping-car",
+    "services": [
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux grises",
+      "Vidange WC",
+      "Sanitaires",
+      "Poubelles"
+    ],
+    "price": "Tarif non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/9037249462",
     "latitude": 48.3755722,
@@ -14,17 +21,23 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/9037249462"
+    "sourceId": "node/9037249462",
+    "match": "Le Gué-de-la-Chaîne",
+    "address": "Route de Mamers, Le Gué-de-la-Chaîne, 61130 Belforêt-en-Perche",
+    "capacity": 2,
+    "sourceOfficial": "https://www.normandie-tourisme.fr/aires-camping-cars/aire-municipale-du-gue-de-la-chaine/"
   },
   {
     "department": "61",
     "name": "Camping-Car Juvigny Sous Andaine",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Juvigny Val d'Andaine",
+    "type": "Stationnement gratuit camping-car, borne de services séparée",
     "services": [
-      "Électricité"
+      "Stationnement gratuit",
+      "Eau potable à la borne du stade Clément Leroyer",
+      "Électricité à la borne du stade Clément Leroyer"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; borne : 2 € pour 10 min d'eau ou 2 heures d'électricité",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/11428399993",
     "latitude": 48.5506541,
@@ -34,16 +47,27 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/11428399993",
-    "servicesSource": "https://www.openstreetmap.org/node/11428399993"
+    "servicesSource": "https://www.openstreetmap.org/node/11428399993",
+    "match": "Juvigny Sous Andaine",
+    "address": "Avenue Léopold Barré, Juvigny-sous-Andaine, 61140 Juvigny Val d'Andaine",
+    "sourceOfficial": "https://juvignyvaldandaine.fr/loisirs-et-tourisme/tourisme/",
+    "verificationNote": "La mairie distingue le stationnement avenue Léopold Barré et la borne de services au stade Clément Leroyer, route de Bagnoles. Coordonnées OSM existantes à recouper avec le stationnement exact."
   },
   {
     "department": "61",
     "name": "Aire de camping car de Saint Fraimbault",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Saint-Fraimbault",
+    "type": "Aire municipale de stationnement et services camping-car",
+    "services": [
+      "Eau potable",
+      "Électricité 6 A",
+      "Vidange eaux grises",
+      "Vidange WC",
+      "Wi-Fi gratuit",
+      "Tables de pique-nique"
+    ],
+    "price": "Tarif non confirmé",
+    "status": "Ouverte toute l'année selon la mairie ; toilettes de l'aire fermées pour raisons de sécurité",
     "source": "https://www.openstreetmap.org/way/966645770",
     "latitude": 48.4878207,
     "longitude": -0.696099,
@@ -51,7 +75,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/966645770"
+    "sourceId": "way/966645770",
+    "match": "Saint Fraimbault",
+    "capacity": 12,
+    "sourceOfficial": "https://www.saint-fraimbault.com/saint-fraimbault_tourisme-et-hebergement_hebergement_aire-de-camping-car.phtml"
   },
   {
     "department": "61",
@@ -96,11 +123,17 @@
   {
     "department": "61",
     "name": "Aire de Camping Car de Saint Germain de la Coudre",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Saint-Germain-de-la-Coudre",
+    "type": "Aire municipale de stationnement et services camping-car",
+    "services": [
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux grises",
+      "Vidange WC",
+      "Poubelles"
+    ],
+    "price": "Stationnement gratuit ; eau 2 € et électricité 2 € selon tarif publié pour 2025, à confirmer pour 2026",
+    "status": "Ouverte toute l'année ; stationnement limité à 72 heures",
     "source": "https://www.openstreetmap.org/way/1286863276",
     "latitude": 48.2791179,
     "longitude": 0.6057487,
@@ -108,7 +141,11 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1286863276"
+    "sourceId": "way/1286863276",
+    "match": "Saint Germain de la Coudre",
+    "address": "Rue du Stade, 61130 Saint-Germain-de-la-Coudre",
+    "capacity": 5,
+    "sourceOfficial": "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-de-saint-germain-de-la-coudre/"
   },
   {
     "department": "61",
