@@ -203,5 +203,44 @@
     "gpsSource": "https://www.i-campingcar.fr/aires.php?ville=SAINT+GERMER+DE+FLY",
     "priceSource": "https://www.aireparkreservation.com/aires-camping-car/recherche/25132",
     "verificationNote": "L'office de tourisme confirme 6 places et les deux bornes ; l'opérateur Aire Park précise les jetons à 3 €."
+  },
+  {
+    "department": "60",
+    "name": "Aire de camping-cars de Hermes",
+    "city": "Hermes",
+    "address": "Place Denise et Maxime Boitel, 60370 Hermes",
+    "latitude": 49.35633,
+    "longitude": 2.24466,
+    "capacity": 2,
+    "type": "Aire municipale de stationnement camping-car sans services",
+    "services": [
+      "Stationnement gratuit"
+    ],
+    "price": "Gratuit",
+    "status": "Deux places dédiées ; disponibilité effective selon occupation du parking",
+    "sourceOfficial": "https://www.oisetourisme.com/hebergement/aire-de-camping-cars-de-hermes/",
+    "gpsSource": "https://www.tofromfrance.com/lieu/aire-de-camping-cars-de-hermes",
+    "verificationNote": "Oise Tourisme confirme deux places sans borne de services. Avis 2026 signalant parfois bruit et occupation par voitures."
+  },
+  {
+    "department": "60",
+    "name": "Borne de services camping-car de Noyon",
+    "city": "Noyon",
+    "address": "Avenue Jean Bouin, à côté de la piscine Paul Boutefeu, 60400 Noyon",
+    "latitude": 49.57736982169375,
+    "longitude": 2.995269624038093,
+    "type": "Borne de services camping-car avec stationnement séparé à proximité",
+    "services": [
+      "Vidange eaux grises",
+      "Vidange WC",
+      "Eau potable (fonctionnement à vérifier)",
+      "Électricité (fonctionnement à vérifier)"
+    ],
+    "price": "Services payants, tarif indicatif 5,30 € selon Park4night ; à confirmer",
+    "status": "Attention : borne signalée temporairement hors service par Park4night ; ne pas garantir eau ni électricité",
+    "sourceOfficial": "https://www.oisetourisme.com/hebergement/aire-de-camping-car-de-noyon/",
+    "gpsSource": "https://flotbleu.com/oise/aire-de-service/317",
+    "verificationSource": "https://park4night.com/fr/place/252089",
+    "verificationNote": "Oise Tourisme indique une borne avenue Jean Bouin et stationnement distinct place Saint-Jacques (~15 véhicules). GPS fourni par l'opérateur Flot Bleu. Signalement d'indisponibilité sur Park4night à recontrôler avant déplacement."
   }
 ]
