@@ -18,7 +18,7 @@ jobs:
           import json
           from pathlib import Path
           a=json.loads(Path('aires-haute-marne.json').read_text(encoding='utf-8'))
-          assert isinstance(a,list) and len(a)==13, 'Nombre de fiches inattendu'
+          assert isinstance(a,list) and len(a)==16, 'Nombre de fiches inattendu'
           seen=set()
           for i,x in enumerate(a,1):
               assert x.get('department')=='52', f'Departement fiche {i}'
@@ -27,9 +27,12 @@ jobs:
               assert isinstance(x.get('longitude'),(int,float)) and 4<x['longitude']<6, f'Longitude fiche {i}'
               assert isinstance(x.get('services'),list), f'Services fiche {i}'
               sid=x.get('sourceId')
-              assert sid and sid not in seen, f'Identifiant fiche {i}'
-              seen.add(sid)
-              assert x.get('source')==f'https://www.openstreetmap.org/{sid}', f'Source OSM fiche {i}'
+              if sid:
+                  assert sid not in seen, f'Identifiant dupliqué fiche {i}'
+                  seen.add(sid)
+                  assert x.get('source')==f'https://www.openstreetmap.org/{sid}', f'Source OSM fiche {i}'
+              else:
+                  assert x.get('source')==x.get('sourceOfficial') and x.get('gpsSource')==x.get('sourceOfficial'), f'Source officielle/GPS fiche {i}'
               assert x.get('sourceOfficial','').startswith('https://'), f'Source officielle fiche {i}'
-          print('OK : 13 fiches Haute-Marne valides')
+          print('OK : 16 fiches Haute-Marne valides')
           PY
