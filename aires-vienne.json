@@ -56,20 +56,19 @@
     "name": "Aire de Camping-car d'Archigny",
     "city": "Archigny",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [
-      "Électricité"
-    ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [],
+    "price": "Tarif actuel non confirmé par la source officielle.",
+    "status": "Aire dédiée aux camping-cars au lieu-dit Les Prés de la Fontaine confirmée par la mairie en septembre 2026. Fermeture temporaire du 10 au 15 septembre 2026 pour événement ; ne pas considérer cette restriction comme permanente. Tarif actuel et services non confirmés par cette source.",
     "source": "https://www.openstreetmap.org/node/7146534403",
     "latitude": 46.6755625,
     "longitude": 0.650006,
     "gpsSource": "https://www.openstreetmap.org/node/7146534403",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : vérification auprès de la mairie ; pas de tarif extrapolé.",
     "sourceId": "node/7146534403",
-    "servicesSource": "https://www.openstreetmap.org/node/7146534403"
+    "servicesSource": "https://www.openstreetmap.org/node/7146534403",
+    "sourceOfficial": "https://www.mairie-archigny.fr/actualites/982776"
   },
   {
     "department": "86",
@@ -175,17 +174,21 @@
     "name": "Aire de camping-car à Pleumartin",
     "city": "Pleumartin",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
+    ],
+    "price": "Tarif actuel non confirmé par la source officielle.",
+    "status": "Mairie : aire de services et stationnement avenue Jourde, parking du Champ de Foire. Vidange eaux usées et toilettes chimiques signalées par l'office de tourisme de Grand Châtellerault ; tarif non confirmé.",
     "source": "https://www.openstreetmap.org/node/12095781241",
     "latitude": 46.7377173,
     "longitude": 0.7652141,
     "gpsSource": "https://www.openstreetmap.org/node/12095781241",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom de l'aire ; position administrative précise à contrôler.",
-    "sourceId": "node/12095781241"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom de l'aire ; position administrative précise à contrôler. | 18/10/2026 : vérification auprès de la mairie ; pas de tarif extrapolé.",
+    "sourceId": "node/12095781241",
+    "sourceOfficial": "https://pleumartin.fr/transport/"
   },
   {
     "department": "86",
