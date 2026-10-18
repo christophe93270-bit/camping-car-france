@@ -122,14 +122,15 @@
     "gpsSource": "https://www.openstreetmap.org/node/12151455073",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "La fiche officielle indique aussi des coordonnées en degrés/minutes dont le format est ambigu ; conserver les coordonnées OSM existantes en attendant une vérification géographique indépendante. Ne pas confondre avec le parking gratuit Duparchy.",
+    "importReview": "La fiche officielle indique aussi des coordonnées en degrés/minutes dont le format est ambigu ; conserver les coordonnées OSM existantes en attendant une vérification géographique indépendante. Ne pas confondre avec le parking gratuit Duparchy. | Audit 18/10/2026 : source Jura Tourisme reconsultée, fiche et localisation confirmées ; conserver réserves existantes sur dates et tarifs.",
     "sourceId": "node/12151455073",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-daccueil-et-de-service-camping-car-saint-claude/",
     "priceVerifiedOn": "2026-10-17",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-daccueil-et-de-service-camping-car-saint-claude/",
     "priceNote": "Ne pas confondre le parking gratuit Duparchy avec la borne de services située rue du Moulin Lacroix.",
-    "address": "13 bis rue du Moulin Lacroix, 39200 Saint-Claude"
+    "address": "13 bis rue du Moulin Lacroix, 39200 Saint-Claude",
+    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-daccueil-et-de-service-camping-car-saint-claude/"
   },
   {
     "department": "39",
@@ -178,14 +179,15 @@
     "gpsSource": "https://www.openstreetmap.org/way/453710230",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Audit 18/10/2026 : source Jura Tourisme reconsultée, fiche et localisation confirmées ; conserver réserves existantes sur dates et tarifs.",
     "sourceId": "way/453710230",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-de-val-suran/",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/val-suran?areaType=camping",
     "priceVerifiedOn": "2026-10-17",
     "priceNote": "Attention : Jura Tourisme publie une grille saisonnière de 12,50 € en basse saison et 14,20 € en haute saison, hors taxe de séjour, différente du tarif daté de CAMPING-CAR PARK. Consulter le tarif de l'exploitant avant de payer.",
-    "tariffComparisonSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-de-val-suran/"
+    "tariffComparisonSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-de-val-suran/",
+    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-de-val-suran/"
   },
   {
     "department": "39",
@@ -281,13 +283,14 @@
     "gpsSource": "https://www.openstreetmap.org/way/972189733",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Contrôler sur place si cette borne est indépendante ou liée à l'aire CAMPING-CAR PARK avant toute fusion.",
+    "importReview": "Contrôler sur place si cette borne est indépendante ou liée à l'aire CAMPING-CAR PARK avant toute fusion. | Audit 18/10/2026 : source Jura Tourisme reconsultée, fiche et localisation confirmées ; conserver réserves existantes sur dates et tarifs.",
     "sourceId": "way/972189733",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-thoirette/",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceNote": "Jura Tourisme rattache cette aire à CAMPING-CAR PARK ; possible doublon fonctionnel avec l'aire voisine, à vérifier avant fusion.",
     "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-thoirette/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-thoirette/"
   },
   {
     "department": "39",
@@ -364,13 +367,14 @@
     "gpsSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-12/",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Coordonnées GPS remplacées par celles publiées par Jura Tourisme (écart d'environ 26 m avec OSM). 6 places, ouverture toute l'année. Tarif gratuit annoncé par un annuaire tiers, à confirmer.",
+    "importReview": "Coordonnées GPS remplacées par celles publiées par Jura Tourisme (écart d'environ 26 m avec OSM). 6 places, ouverture toute l'année. Tarif gratuit annoncé par un annuaire tiers, à confirmer. | Audit 18/10/2026 : source Jura Tourisme reconsultée, fiche et localisation confirmées ; conserver réserves existantes sur dates et tarifs.",
     "sourceId": "way/1296418825",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-12/",
     "priceSource": "https://www.i-campingcar.fr/aires/pdf/39.pdf",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Jura Tourisme indique 6 emplacements, annuaire spécialisé 2 ; ne pas afficher une capacité certaine."
+    "priceNote": "Jura Tourisme indique 6 emplacements, annuaire spécialisé 2 ; ne pas afficher une capacité certaine.",
+    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-12/"
   },
   {
     "department": "39",
@@ -534,8 +538,9 @@
     "priceSource": "https://www.aireparkreservation.com/aires-camping-car/jura",
     "priceVerifiedOn": "2026-10-17",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-services-de-boyse/",
-    "importReview": "Adresse 20 rue Georges Vallerey, GPS du gestionnaire AireServices. Tarif 8 €/nuit en saison, 5 € services selon Jura Tourisme. Hors saison, gratuité du stationnement confirmée par le gestionnaire, mais pas la disponibilité de l'eau.",
-    "priceNote": "Le gestionnaire AireServices indique début de saison payante le 8 mai ; l'ancienne fiche mentionnait le 4 mai. Les sources divergent également sur les conditions d'accès à l'eau hors saison : ne pas garantir sa disponibilité."
+    "importReview": "Adresse 20 rue Georges Vallerey, GPS du gestionnaire AireServices. Tarif 8 €/nuit en saison, 5 € services selon Jura Tourisme. Hors saison, gratuité du stationnement confirmée par le gestionnaire, mais pas la disponibilité de l'eau. | Audit 18/10/2026 : source Jura Tourisme reconsultée, fiche et localisation confirmées ; conserver réserves existantes sur dates et tarifs.",
+    "priceNote": "Le gestionnaire AireServices indique début de saison payante le 8 mai ; l'ancienne fiche mentionnait le 4 mai. Les sources divergent également sur les conditions d'accès à l'eau hors saison : ne pas garantir sa disponibilité.",
+    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-services-de-boyse/"
   },
   {
     "department": "39",
@@ -713,7 +718,8 @@
     "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-de-surchauffant/",
     "priceVerifiedOn": "2026-10-17",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-de-surchauffant/",
-    "importReview": "GPS du parking recoupé avec Park4night ; distinguer de l'entrée du camping du Surchauffant située plus à l'est."
+    "importReview": "GPS du parking recoupé avec Park4night ; distinguer de l'entrée du camping du Surchauffant située plus à l'est. | Audit 18/10/2026 : source Jura Tourisme reconsultée, fiche et localisation confirmées ; conserver réserves existantes sur dates et tarifs.",
+    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-de-surchauffant/"
   },
   {
     "department": "39",
