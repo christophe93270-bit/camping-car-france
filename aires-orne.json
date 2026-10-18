@@ -83,13 +83,15 @@
   {
     "department": "61",
     "name": "Aire de camping-cars de la Sablonière",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Tourouvre-au-Perche",
+    "type": "Aire de stationnement et services camping-car",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Stationnement"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "6 € pour 6 à 12 h ; 10 € / 24 h ; 18 € / 48 h ; 26 € / 72 h ; taxe de séjour 0,50 € par personne et par jour (office de tourisme, à vérifier avant séjour)",
+    "status": "Ouverte 24 h/24, 7 j/7",
     "source": "https://www.openstreetmap.org/way/1018529047",
     "latitude": 48.5925421,
     "longitude": 0.6442745,
@@ -98,18 +100,25 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1018529047",
-    "servicesSource": "https://www.openstreetmap.org/way/1018529047"
+    "servicesSource": "https://www.openstreetmap.org/way/1018529047",
+    "match": "Sablonière",
+    "address": "La Sablonnière, 61190 Tourouvre-au-Perche",
+    "capacity": 9,
+    "sourceOfficial": "https://www.tourismehautsduperche.fr/ou-dormir/aires-de-service/"
   },
   {
     "department": "61",
     "name": "Aire de Camping Cars L’Aigle",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "L'Aigle",
+    "type": "Aire communale de stationnement et services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement",
+      "Eau potable",
+      "Vidange eaux usées",
+      "Vidange WC"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif actuel à confirmer ; sources anciennes contradictoires (gratuité des services en 2025 contre stationnement payant signalé)",
+    "status": "Ouverte toute l'année selon l'annuaire 2025 ; disponibilité des bornes à vérifier",
     "source": "https://www.openstreetmap.org/way/1131599005",
     "latitude": 48.7605492,
     "longitude": 0.6145632,
@@ -118,7 +127,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1131599005",
-    "servicesSource": "https://www.openstreetmap.org/way/1131599005"
+    "servicesSource": "https://www.openstreetmap.org/way/1131599005",
+    "match": "L’Aigle",
+    "address": "15 bis avenue du Mont-Saint-Michel, 61300 L'Aigle",
+    "capacity": 12,
+    "sourceOfficial": "https://www.camping-car.com/aires/45855-aire-communale/",
+    "verificationNote": "Capacité de 12 places selon annuaire, tarif 2026 non vérifié ; signalements de panne de borne en 2025."
   },
   {
     "department": "61",
@@ -150,13 +164,16 @@
   {
     "department": "61",
     "name": "Aire de camping car de La Ferté Macé",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "La Ferté-Macé",
+    "type": "Aire municipale automatisée de camping-car",
     "services": [
-      "Électricité"
+      "Vidange",
+      "Électricité (5 bornes)",
+      "Wi-Fi",
+      "Eau potable"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "À partir de 5 € pour 2 heures selon la mairie ; tarif 24 h à confirmer",
+    "status": "Réservation en ligne proposée",
     "source": "https://www.openstreetmap.org/way/1292183256",
     "latitude": 48.5890553,
     "longitude": -0.3739147,
@@ -165,18 +182,26 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1292183256",
-    "servicesSource": "https://www.openstreetmap.org/way/1292183256"
+    "servicesSource": "https://www.openstreetmap.org/way/1292183256",
+    "match": "La Ferté Macé",
+    "address": "Lieu-dit La Lande, base de loisirs, accès D908, 61600 La Ferté-Macé",
+    "capacity": 16,
+    "sourceOfficial": "https://lafertemace.fr/aire-de-camping-cars-2-2/"
   },
   {
     "department": "61",
     "name": "Aire de camping-car de Bagnoles de l'Orne Normandie",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Bagnoles de l'Orne Normandie",
+    "type": "Aire de stationnement et services camping-car",
     "services": [
-      "Électricité"
+      "Électricité 10 A",
+      "Vidange",
+      "Eau potable",
+      "Wi-Fi",
+      "Vidéosurveillance"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "3 € / 2 h ; 12 € / 24 h ; 24 € / 48 h ; 36 € / 72 h (tarifs affichés pour 2026)",
+    "status": "Ouverte toute l'année 2026 selon l'office de tourisme",
     "source": "https://www.openstreetmap.org/way/1292185268",
     "latitude": 48.5468563,
     "longitude": -0.4171537,
@@ -185,18 +210,23 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1292185268",
-    "servicesSource": "https://www.openstreetmap.org/way/1292185268"
+    "servicesSource": "https://www.openstreetmap.org/way/1292185268",
+    "match": "Bagnoles de l'Orne",
+    "address": "16 avenue du Château de Couterne, 61140 Bagnoles de l'Orne Normandie",
+    "capacity": 30,
+    "sourceOfficial": "https://www.bagnolesdelorne.com/offres/aireservices-camping-car-bagnoles-de-lorne-normandie-fr-4589024/"
   },
   {
     "department": "61",
     "name": "Aire de camping-cars Rânes",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Rânes",
+    "type": "Aire de stationnement camping-car avec borne automatique",
     "services": [
-      "Électricité"
+      "Électricité incluse selon descriptif 2023",
+      "Borne automatique"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12 € / nuit + taxe de séjour 0,60 € par personne selon publication 2023 ; tarif 2026 à confirmer",
+    "status": "Ouverte toute l'année selon publication 2023 ; 7 nuits maximum",
     "source": "https://www.openstreetmap.org/way/1292194626",
     "latitude": 48.6426641,
     "longitude": -0.2132168,
@@ -205,7 +235,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1292194626",
-    "servicesSource": "https://www.openstreetmap.org/way/1292194626"
+    "servicesSource": "https://www.openstreetmap.org/way/1292194626",
+    "match": "Rânes",
+    "address": "Rue des Rainettes, 61150 Rânes",
+    "capacity": 8,
+    "sourceOfficial": "https://ranes.fr/tourisme/se-loger-se-restaurer/camping-car/",
+    "verificationNote": "Mairie confirme une page dédiée camping-car ; capacité, rue et tarifs proviennent d'un article de 2023, à revalider."
   },
   {
     "department": "61",
