@@ -325,18 +325,21 @@
     "name": "Parking Bungert (Camping Car)",
     "city": "Thann",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Parking du Bungert, distinct de l'aire de services du parking du Centre. Stationnement camping-car signalé ; limite de 48 h et interdiction de camper à confirmer auprès de la mairie.",
+    "services": [
+      "Toilettes à proximité"
+    ],
+    "price": "Stationnement gratuit (office de tourisme).",
+    "status": "Parking public de moins de 20 emplacements en bordure de la Thur, limité à 48 heures ; camping interdit. Ne pas confondre avec le parking du Centre, qui dispose d'une aire de vidange.",
     "source": "https://www.openstreetmap.org/way/451559780",
     "latitude": 47.8115903,
     "longitude": 7.1047493,
     "gpsSource": "https://www.openstreetmap.org/way/451559780",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : ne pas confondre Bungert avec le parking du Centre (30 places, services) décrit sur Visit Alsace. | 18/10/2026 : fiche touristique officielle https://www.visit.alsace/239002498-aire-de-service-pour-camping-car-parking-du-centre/ concerne le parking du Centre, pas le Bungert. Aucune fusion.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : ne pas confondre Bungert avec le parking du Centre (30 places, services) décrit sur Visit Alsace. | 18/10/2026 : fiche touristique officielle https://www.visit.alsace/239002498-aire-de-service-pour-camping-car-parking-du-centre/ concerne le parking du Centre, pas le Bungert. Aucune fusion. | 18/10/2026 : mairie de Thann et Massif des Vosges confirment Bungert, capacité, durée, toilettes et gratuité ; GPS OSM conservé.",
     "sourceId": "way/451559780",
-    "address": "Place du Bungert, 68800 Thann"
+    "address": "Place du Bungert, 68800 Thann",
+    "sourceOfficial": "https://www.ville-thann.fr/mon-quotidien/mobilite/en-camping-car/"
   },
   {
     "department": "68",
@@ -565,14 +568,14 @@
       "Eau potable"
     ],
     "price": "Non confirmé",
-    "status": "Stationnement de repos signalé près de la D483G, sans services camping-car confirmés. Ne pas présenter comme aire équipée avant vérification municipale.",
+    "status": "Aire de 4 places signalée gratuite par des annuaires secondaires au Pont d'Aspach, eau et vidange indiquées mais non confirmées par la mairie ; distincte de la borne payante près du Super U.",
     "source": "https://www.openstreetmap.org/way/1298670097",
     "latitude": 47.7399324,
     "longitude": 7.148226,
     "gpsSource": "https://www.openstreetmap.org/way/1298670097",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : référencement cartographique évoque parking de repos, pas une aire de services. Services non confirmés.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : référencement cartographique évoque parking de repos, pas une aire de services. Services non confirmés. | 18/10/2026 : airescampingcar.com et OnBouge concordent sur environ 47.7398, 7.1483 et 4 places ; autre borne Super U à 47.74101, 7.14799, ne pas fusionner. Gratuité et équipements non officiellement confirmés.",
     "sourceId": "way/1298670097",
     "servicesSource": "https://www.openstreetmap.org/way/1298670097",
     "address": "D483G, secteur Pont d'Aspach, 68520 Burnhaupt-le-Haut"
