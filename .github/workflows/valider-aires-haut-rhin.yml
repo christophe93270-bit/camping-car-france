@@ -1,0 +1,37 @@
+name: Valider les aires Haut-Rhin
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'aires-haut-rhin.json'
+      - '.github/workflows/valider-aires-haut-rhin.yml'
+permissions:
+  contents: read
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Valider le JSON et les 27 fiches
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          records=json.loads(Path("aires-haut-rhin.json").read_text(encoding="utf-8"))
+          assert isinstance(records,list) and len(records)==27, "Nombre de fiches inattendu"
+          ids=set()
+          for i,r in enumerate(records,1):
+              assert r.get("department")=="68", f"Fiche {i}: département"
+              assert r.get("name") and r.get("city"), f"Fiche {i}: nom ou commune"
+              lat,lon=r.get("latitude"),r.get("longitude")
+              assert isinstance(lat,(int,float)) and 47<=lat<=49, f"Fiche {i}: latitude"
+              assert isinstance(lon,(int,float)) and 6<=lon<=8, f"Fiche {i}: longitude"
+              assert isinstance(r.get("services"),list), f"Fiche {i}: services"
+              sid=r.get("sourceId")
+              assert sid and sid not in ids, f"Fiche {i}: identifiant OSM dupliqué ou absent"
+              ids.add(sid)
+              assert r.get("source")==f"https://www.openstreetmap.org/{sid}", f"Fiche {i}: source OSM"
+              for field in ("gpsSource","sourceOfficial"):
+                  if r.get(field): assert r[field].startswith("https://"), f"Fiche {i}: {field}"
+          print(f"OK : {len(records)} fiches, {sum(bool(r.get('sourceOfficial')) for r in records)} sources officielles")
+          PY
