@@ -236,19 +236,24 @@
     "city": "Linthal",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Vidange des toilettes à cassette"
     ],
-    "price": "Non confirmé",
-    "status": "Point camping-car référencé dans OpenStreetMap, mais existence d'une aire aménagée, accès, tarifs et services non confirmés par une fiche officielle spécifique ; ne pas assimiler aux installations du Markstein.",
+    "price": "Borne annoncée gratuite par Massif des Vosges ; modalités d'accès et paiement par carte à vérifier.",
+    "status": "Aire de services rue du Markstein confirmée par le site touristique Massif des Vosges. Eau, électricité, vidanges et table de pique-nique annoncées. Conditions de stationnement nocturne contradictoires selon les sources secondaires : à vérifier sur place.",
     "source": "https://www.openstreetmap.org/way/215652419",
     "latitude": 47.9449193,
     "longitude": 7.1277217,
     "gpsSource": "https://www.openstreetmap.org/way/215652419",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : contrôle documentaire Visit Alsace : les pages Route des Crêtes et aire de bivouac du Markstein décrivent des sites touristiques distincts, sans confirmer cette aire OSM ni ses tarifs et services. Aucune source officielle spécifique attribuée.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : contrôle documentaire Visit Alsace : les pages Route des Crêtes et aire de bivouac du Markstein décrivent des sites touristiques distincts, sans confirmer cette aire OSM ni ses tarifs et services. Aucune source officielle spécifique attribuée. | 18/10/2026 : fiche touristique https://www.massif-des-vosges.fr/sit/232006656-aire-de-services-pour-camping-cars/ confirme borne et services ; Campercontact signale un avis d'interdiction de nuitée (2022), non considéré comme règlement officiel.",
     "sourceId": "way/215652419",
-    "servicesSource": "https://www.openstreetmap.org/way/215652419"
+    "servicesSource": "https://www.openstreetmap.org/way/215652419",
+    "sourceOfficial": "https://www.massif-des-vosges.fr/sit/232006656-aire-de-services-pour-camping-cars/",
+    "address": "Rue du Markstein, 68610 Linthal"
   },
   {
     "department": "68",
@@ -568,14 +573,14 @@
       "Eau potable"
     ],
     "price": "Non confirmé",
-    "status": "Aire de 4 places signalée gratuite par des annuaires secondaires au Pont d'Aspach, eau et vidange indiquées mais non confirmées par la mairie ; distincte de la borne payante près du Super U.",
+    "status": "Aire de stationnement au Pont d'Aspach près de l'Hyper U, corroborée par l'office de tourisme ; correspondance exacte du point GPS OSM, capacité (4 ou 10 selon annuaires), tarifs et équipements à confirmer. Ne pas confondre avec l'autre borne du secteur.",
     "source": "https://www.openstreetmap.org/way/1298670097",
     "latitude": 47.7399324,
     "longitude": 7.148226,
     "gpsSource": "https://www.openstreetmap.org/way/1298670097",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : référencement cartographique évoque parking de repos, pas une aire de services. Services non confirmés. | 18/10/2026 : airescampingcar.com et OnBouge concordent sur environ 47.7398, 7.1483 et 4 places ; autre borne Super U à 47.74101, 7.14799, ne pas fusionner. Gratuité et équipements non officiellement confirmés.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : référencement cartographique évoque parking de repos, pas une aire de services. Services non confirmés. | 18/10/2026 : airescampingcar.com et OnBouge concordent sur environ 47.7398, 7.1483 et 4 places ; autre borne Super U à 47.74101, 7.14799, ne pas fusionner. Gratuité et équipements non officiellement confirmés. | 18/10/2026 : source institutionnelle https://tourisme.cc-vallee-doller.fr/fr/detail/202/1465/241007168/aire-de-stationnement-pour-camping-car-burnhaupt-le-haut/ localise une aire au parking Hyper U près de Poulaillon ; annuaire camping-car.com attribue à l'Hyper U GPS 47.7398302, 7.1484759 et 10 places, tandis que des agrégateurs indiquent 4 places au point OSM voisin. Correspondance probable mais capacité contradictoire : ne pas inscrire 4 ou 10 comme vérifié.",
     "sourceId": "way/1298670097",
     "servicesSource": "https://www.openstreetmap.org/way/1298670097",
     "address": "D483G, secteur Pont d'Aspach, 68520 Burnhaupt-le-Haut"
