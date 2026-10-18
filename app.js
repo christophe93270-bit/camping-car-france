@@ -405,7 +405,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Oise indisponible",error); }
     let sommeAires=[];
     try {
-      const response80=await fetch("aires-somme.json?v=20261015-1", {cache:"no-store"});
+      const response80=await fetch("aires-somme.json?v=20261018-2", {cache:"no-store"});
       if(response80.ok) sommeAires=await response80.json();
     } catch(error) { console.warn("Chargement Somme indisponible",error); }
     let nordAires=[];
