@@ -20,7 +20,9 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12582695770",
     "servicesSource": "https://www.openstreetmap.org/node/12582695770",
-    "cityVerificationNote": "Commune identifiée par localisation de la Fosse Bleue ; adresse précise à confirmer"
+    "cityVerificationNote": "Commune identifiée par localisation de la Fosse Bleue ; adresse précise à confirmer",
+    "address": "Chemin de la Fosse Bleue, 08460 Signy-l'Abbaye",
+    "addressSource": "https://www.campercontact.com/fr/france/grand-est/signy-labbaye/104758/la-fosse-bleue-librecy"
   },
   {
     "department": "08",
@@ -333,7 +335,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "14,44 € / 24 h (14,00 € + 0,44 € taxe de séjour), du 15 au 31/10/2026",
+    "price": "14,00 € / 24 h + 0,44 € taxe de séjour (14,44 € jusqu'au 31/10/2026) ; dès le 01/11/2026 : 12,22 € + 0,44 € de taxe, soit 12,66 €",
     "status": "Informations tarifaires documentées par une source publique ; autres données à vérifier.",
     "source": "https://www.openstreetmap.org/way/1482210991",
     "latitude": 49.504863,
@@ -347,6 +349,31 @@
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/rethel?areaType=stopover-site-motorhome",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons."
+    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/rethel?areaType=stopover-site-motorhome"
+  },
+  {
+    "department": "08",
+    "name": "Aire CAMPING-CAR PARK de Fumay",
+    "city": "Fumay",
+    "type": "Aire d'étape CAMPING-CAR PARK",
+    "address": "Quai des Carmélites, 08170 Fumay",
+    "latitude": 49.99711,
+    "longitude": 4.708748,
+    "services": [
+      "Stationnement",
+      "Électricité",
+      "Eau",
+      "Vidange"
+    ],
+    "capacity": 32,
+    "price": "12,73 € / 24 h + 0,44 € taxe de séjour en 2026, soit 13,17 € / 24 h (barème du 16/10/2026 au 31/12/2027)",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/fumay",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/fumay",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/fumay",
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/fumay",
+    "status": "Ouverte selon l'exploitant ; risque d'inondation (PPRI)",
+    "dataAttribution": "CAMPING-CAR PARK",
+    "importReview": "Ajout depuis source exploitant le 18/10/2026 ; pas d'identifiant OSM vérifié."
   }
 ]
