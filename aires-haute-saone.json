@@ -875,19 +875,20 @@
     "latitude": 47.672939,
     "longitude": 6.510419,
     "source": "https://www.camping-car.com/aires/43838-intermarche/",
-    "status": "Borne Euro-Relais annoncée toute l'année ; disponibilité actuelle à confirmer",
+    "status": "Borne Euro-Relais référencée mais signalée hors service dans des avis de juillet 2026 ; ne pas compter sur son fonctionnement sans confirmation préalable.",
     "services": [
       "Eau",
       "Vidange eaux usées",
       "Vidange WC"
     ],
-    "price": "Non confirmé (fiche tarifaire 2018)",
+    "price": "Non confirmé ; ancienne fiche tarifaire 2018 non fiable",
     "type": "Aire de services camping-car",
     "gpsSource": "https://www.camping-car.com/aires/43838-intermarche/",
     "priceSource": "https://www.camping-car.com/aires/43838-intermarche/",
     "servicesSource": "https://www.camping-car.com/aires/43838-intermarche/",
     "sourceId": "camping-car.com/43838",
-    "importReview": "Fiche annuaire avec GPS ; tarifs anciens, existence et accès actuel à reconfirmer."
+    "importReview": "Avis de juillet 2026 sur Campercontact et Aires Service 360 signalent la borne hors service ; fiche Intermarché du magasin ne confirme pas son fonctionnement. Avertissement prioritaire.",
+    "relatedSource": "https://www.campercontact.com/fr/borgogna-franca-contea/lure/88499/aire-de-services-intermarche-lure"
   },
   {
     "department": "70",
@@ -897,43 +898,48 @@
     "latitude": 47.756607,
     "longitude": 6.652724,
     "source": "https://www.camping-car.com/aires/8535-la-broche/",
-    "status": "Camping et services annoncés du 15 avril au 1er octobre ; vérifier l'ouverture actuelle",
+    "status": "Camping référencé par Haute-Saône Tourisme, 50 emplacements au total ; accueil camping-car confirmé. Dates d'ouverture et disponibilité de la borne à reconfirmer.",
     "services": [
       "Emplacements camping-car",
       "Électricité",
-      "Eau",
-      "Vidange eaux usées"
+      "Sanitaires",
+      "Douches",
+      "Wi-Fi",
+      "Laverie"
     ],
     "price": "Non confirmé (fiche tarifaire 2017)",
     "type": "Camping accueillant les camping-cars",
     "gpsSource": "https://www.camping-car.com/aires/8535-la-broche/",
     "priceSource": "https://www.camping-car.com/aires/8535-la-broche/",
-    "servicesSource": "https://www.camping-car.com/aires/8535-la-broche/",
+    "servicesSource": "https://hautesaonetourisme.com/offres/camping-de-la-broche-fresse-fr-4910784/",
     "sourceId": "camping-car.com/8535",
-    "importReview": "Fiche annuaire avec GPS ; tarifs anciens, existence et accès actuel à reconfirmer."
+    "importReview": "Office de tourisme : 50 emplacements, accueil camping-car et prestations de camping confirmés ; la vidange camping-car n'est pas explicitement attestée, retirée de la liste des services affirmés. Tarifs 2017 non réutilisés.",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/camping-de-la-broche-fresse-fr-4910784/"
   },
   {
     "department": "70",
     "city": "Mélisey",
     "name": "Camping La Pierre",
-    "address": "10 route de Melay, Les Granges Baverey, 70270 Mélisey",
+    "address": "14 Les Granges Baverey, 70270 Mélisey",
     "latitude": 47.7755542,
     "longitude": 6.5809958,
     "source": "https://www.camping-car.com/aires/6111-la-pierre/",
-    "status": "6 emplacements camping-car ; aire de services annoncée du 1er mai au 30 septembre",
+    "status": "Camping saisonnier, accueil camping-car confirmé par Haute-Saône Tourisme ; 52 emplacements au total selon la rubrique capacité (description : 53), nombre de places camping-car et horaires de borne à confirmer.",
     "services": [
       "Emplacements camping-car",
-      "Électricité",
-      "Eau",
-      "Vidange eaux usées"
+      "Sanitaires",
+      "Douches",
+      "Wi-Fi",
+      "Laverie"
     ],
-    "price": "Services 6 € (tarif 2023, à confirmer)",
+    "price": "Tarif camping-car et services non confirmé ; ancien tarif de services 6 € (2023), non garanti",
     "type": "Camping accueillant les camping-cars",
     "gpsSource": "https://www.camping-car.com/aires/6111-la-pierre/",
     "priceSource": "https://www.camping-car.com/aires/6111-la-pierre/",
-    "servicesSource": "https://www.camping-car.com/aires/6111-la-pierre/",
+    "servicesSource": "https://hautesaonetourisme.com/offres/camping-la-pierre-melisey-fr-4910884/",
     "sourceId": "camping-car.com/6111",
-    "importReview": "Fiche annuaire avec GPS ; tarifs anciens, existence et accès actuel à reconfirmer."
+    "importReview": "Fiche Haute-Saône Tourisme : accueil camping-car, sanitaires et équipements attestés ; services techniques de vidange et prix non confirmés. Divergence interne 52/53 emplacements totaux.",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/camping-la-pierre-melisey-fr-4910884/"
   },
   {
     "department": "70",
