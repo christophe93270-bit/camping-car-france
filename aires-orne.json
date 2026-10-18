@@ -210,13 +210,19 @@
   {
     "department": "61",
     "name": "Aire de Camping Car Square du Marais - Écouché",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Écouché-les-Vallées",
+    "type": "Aire municipale de stationnement et services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement gratuit",
+      "Eau potable payante",
+      "Électricité payante (16 A maximum)",
+      "Vidange eaux grises",
+      "Vidange WC",
+      "Tables de pique-nique",
+      "Poubelles"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; eau et électricité payantes, tarif 2026 non confirmé",
+    "status": "Ouverte toute l'année (2026)",
     "source": "https://www.openstreetmap.org/way/1316745319",
     "latitude": 48.7153243,
     "longitude": -0.1279119,
@@ -225,23 +231,35 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1316745319",
-    "servicesSource": "https://www.openstreetmap.org/way/1316745319"
+    "servicesSource": "https://www.openstreetmap.org/way/1316745319",
+    "match": "Square du Marais",
+    "address": "32 rue Pierre Pigot, Écouché, 61150 Écouché-les-Vallées",
+    "capacity": 3,
+    "sourceOfficial": "https://www.ecouchelesvallees.fr/aire_de_campingcar.html",
+    "verificationNote": "Mairie et office de tourisme : 3 emplacements ; borne eau/électricité payante, sans tarif 2026 confirmé."
   },
   {
     "department": "61",
     "name": "Aire de camping-car de l'École de Flers",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Flers",
+    "type": "Aire d'étape CAMPING-CAR PARK sur parking scolaire",
+    "services": [
+      "Stationnement sur réservation obligatoire",
+      "Aucun service sur place (ni eau, ni électricité, ni vidange)"
+    ],
+    "price": "12 € / 24 h au tarif affiché du 15/10/2026 au 31/12/2027 ; vérifier avant déplacement",
+    "status": "Accessible uniquement vacances scolaires, week-ends du vendredi 18 h au dimanche 18 h et jours fériés ; réservation obligatoire",
     "source": "https://www.openstreetmap.org/way/1567694026",
-    "latitude": 48.746525,
-    "longitude": -0.5606192,
+    "latitude": 48.747679,
+    "longitude": -0.560948,
     "gpsSource": "https://www.openstreetmap.org/way/1567694026",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1567694026"
+    "sourceId": "way/1567694026",
+    "match": "l'École de Flers",
+    "address": "12 rue du Champ de Foire, 61100 Flers",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/normandie/orne/flers",
+    "verificationNote": "Attention : pas de services malgré l'intitulé commercial parking 5 h + services affiché par l'opérateur."
   }
 ]
