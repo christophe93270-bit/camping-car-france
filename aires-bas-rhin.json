@@ -4,20 +4,25 @@
     "name": "Aire de Stationnement Piscine Wissembourg",
     "city": "Wissembourg",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (10 places)",
+      "Toilettes"
+    ],
+    "price": "Stationnement gratuit ; accès libre toute l'année 24 h/24 selon l'office de tourisme.",
+    "status": "Parking public de la piscine municipale, distinct de l'aire de services Pépinière rue de la Messagerie. 10 emplacements camping-cars annoncés ; toilettes mentionnées par la fiche touristique.",
     "source": "https://www.openstreetmap.org/node/4720603322",
     "latitude": 49.0377528,
     "longitude": 7.9350488,
     "gpsSource": "https://www.openstreetmap.org/node/4720603322",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : recherches ciblées sans source institutionnelle confirmant spécifiquement le stationnement piscine ; ne pas attribuer les prestations d'un autre camping. | 18/10/2026 : l'exploitant CAMPING-CAR PARK référence une aire de SERVICES Wissembourg (1 place, 6 € par service), mais le rapprochement avec le parking piscine de cette fiche reste non confirmé : ne pas lui attribuer le tarif ni le statut.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : recherches ciblées sans source institutionnelle confirmant spécifiquement le stationnement piscine ; ne pas attribuer les prestations d'un autre camping. | 18/10/2026 : l'exploitant CAMPING-CAR PARK référence une aire de SERVICES Wissembourg (1 place, 6 € par service), mais le rapprochement avec le parking piscine de cette fiche reste non confirmé : ne pas lui attribuer le tarif ni le statut. | 18/10/2026 : fiche Alsace Verte consultée ; capacité et stationnement confirmés, équipements non publiés laissés non confirmés.",
     "sourceId": "node/4720603322",
     "relatedOfficialSources": [
       "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin"
-    ]
+    ],
+    "address": "Boulevard Clémenceau, parking de la piscine municipale, 67160 Wissembourg",
+    "sourceOfficial": "https://www.alsace-verte.com/aires-camping-cars/aire-de-stationnement-pour-camping-car-piscine/"
   },
   {
     "department": "67",
@@ -168,17 +173,21 @@
     "name": "Aire de stationnement pour camping-car Cleebourg",
     "city": "Cleebourg",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement camping-car (2 places)"
+    ],
+    "price": "Non publié par l'office de tourisme.",
+    "status": "Aire publique de stationnement près du stade municipal, au cœur du vignoble. 2 emplacements camping-cars annoncés. Aucun service d'eau, électricité ou vidange confirmé dans la fiche consultée.",
     "source": "https://www.openstreetmap.org/node/12030033010",
     "latitude": 49.0023454,
     "longitude": 7.8897386,
     "gpsSource": "https://www.openstreetmap.org/node/12030033010",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
-    "sourceId": "node/12030033010"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : fiche Alsace Verte consultée ; capacité et stationnement confirmés, équipements non publiés laissés non confirmés.",
+    "sourceId": "node/12030033010",
+    "address": "Près du stade municipal, 67160 Cleebourg",
+    "sourceOfficial": "https://www.alsace-verte.com/aires-camping-cars/aire-de-stationnement-pour-camping-car/"
   },
   {
     "department": "67",
@@ -601,17 +610,21 @@
     "name": "Aire camping-car Thiergarten - Reichshoffen",
     "city": "Reichshoffen",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement camping-car (1 place)"
+    ],
+    "price": "Non publié.",
+    "status": "Aire de stationnement près du centre-ville, à côté de La Castine. 1 emplacement camping-car annoncé par l'office de tourisme ; services techniques non précisés.",
     "source": "https://www.openstreetmap.org/way/1298656678",
     "latitude": 48.9315868,
     "longitude": 7.6566889,
     "gpsSource": "https://www.openstreetmap.org/way/1298656678",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
-    "sourceId": "way/1298656678"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : fiche Alsace Verte consultée ; capacité et stationnement confirmés, équipements non publiés laissés non confirmés.",
+    "sourceId": "way/1298656678",
+    "address": "Rue de la Castine, 67110 Reichshoffen",
+    "sourceOfficial": "https://www.alsace-verte.com/aires-camping-cars/aire-de-stationnement-pour-camping-car-la-castine/"
   },
   {
     "department": "67",
