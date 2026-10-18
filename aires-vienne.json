@@ -170,19 +170,27 @@
   {
     "department": "86",
     "name": "Aire de Camping-Car de Crémault",
-    "city": "Vouneuil-sur-Vienne",
+    "city": "Bonneuil-Matours",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Sanitaires",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
+    ],
+    "price": "Tarif actuel non publié.",
+    "status": "Aire de services du camping du Crémault, parc de Crémault, allée du Stade, 86210 Bonneuil-Matours ; eau, sanitaires et vidanges.",
     "source": "https://www.openstreetmap.org/node/12095987394",
     "latitude": 46.6762282,
     "longitude": 0.5759253,
     "gpsSource": "https://www.openstreetmap.org/node/12095987394",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom de l'aire ; position administrative précise à contrôler.",
-    "sourceId": "node/12095987394"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom de l'aire ; position administrative précise à contrôler. | 18/10/2026 : commune contrôlée ; correction : Crémault se trouve à Bonneuil-Matours et non Vouneuil-sur-Vienne. | 18/10/2026 : source primaire ou office de tourisme consulté ; éventuelle incertitude GPS conservée.",
+    "sourceId": "node/12095987394",
+    "sourceOfficial": "https://www.tourisme-vienne.com/offres/camping-car/aire-de-camping-car-de-cremault/",
+    "priceSource": "https://www.tourisme-vienne.com/offres/camping-car/aire-de-camping-car-de-cremault/",
+    "servicesSource": "https://www.tourisme-vienne.com/offres/camping-car/aire-de-camping-car-de-cremault/"
   },
   {
     "department": "86",
@@ -190,20 +198,23 @@
     "city": "Lencloître",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Sanitaires",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et services gratuits.",
+    "status": "Aire place du Champ de Foire, interdite le premier lundi de chaque mois (foire) ; sanitaires et vidanges.",
     "source": "https://www.openstreetmap.org/node/12097258373",
     "latitude": 46.8173527,
     "longitude": 0.325482,
     "gpsSource": "https://www.openstreetmap.org/node/12097258373",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom de l'aire ; position administrative précise à contrôler.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom de l'aire ; position administrative précise à contrôler. | 18/10/2026 : source primaire ou office de tourisme consulté ; éventuelle incertitude GPS conservée.",
     "sourceId": "node/12097258373",
-    "servicesSource": "https://www.openstreetmap.org/node/12097258373"
+    "servicesSource": "https://www.tourisme-vienne.com/offres/camping-car/aire-municipale-de-camping-car-de-lencloitre/",
+    "sourceOfficial": "https://www.tourisme-vienne.com/offres/camping-car/aire-municipale-de-camping-car-de-lencloitre/",
+    "priceSource": "https://www.tourisme-vienne.com/offres/camping-car/aire-municipale-de-camping-car-de-lencloitre/"
   },
   {
     "department": "86",
@@ -287,7 +298,7 @@
   {
     "department": "86",
     "name": "Aire de camping car Mauprévoir",
-    "city": "Commune à confirmer",
+    "city": "Mauprévoir",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -300,14 +311,14 @@
     "gpsSource": "https://www.openstreetmap.org/way/794515520",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune contrôlée ; ",
     "sourceId": "way/794515520",
     "servicesSource": "https://www.openstreetmap.org/way/794515520"
   },
   {
     "department": "86",
     "name": "Aire de camping cars Thollet",
-    "city": "Commune à confirmer",
+    "city": "Thollet",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -318,70 +329,86 @@
     "gpsSource": "https://www.openstreetmap.org/way/1186876980",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune contrôlée ; ",
     "sourceId": "way/1186876980"
   },
   {
     "department": "86",
     "name": "ELS LOISIRS Camping-cars",
-    "city": "Commune à confirmer",
+    "city": "Migné-Auxances",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
+      "Eau",
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Nuit gratuite (sauf samedi soir) ; eau 3 €, électricité 220 V 5 € de 20 h à 8 h, selon le site de l'exploitant ; tarifs sans date de validité.",
+    "status": "Aire de repos et de services privée, annoncée sur le site de l'exploitant. Site mentionne Neuville-de-Poitou alors que le point OSM est situé à Migné-Auxances : confirmer l'adresse et l'exploitation actuelle.",
     "source": "https://www.openstreetmap.org/way/1236433826",
     "latitude": 46.6154216,
     "longitude": 0.3093164,
     "gpsSource": "https://www.openstreetmap.org/way/1236433826",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune contrôlée ;  | 18/10/2026 : source primaire ou office de tourisme consulté ; éventuelle incertitude GPS conservée.",
     "sourceId": "way/1236433826",
-    "servicesSource": "https://www.openstreetmap.org/way/1236433826"
+    "servicesSource": "https://els-loisirs.jimdofree.com/contact/",
+    "sourceOfficial": "https://els-loisirs.jimdofree.com/contact/",
+    "priceSource": "https://els-loisirs.jimdofree.com/contact/"
   },
   {
     "department": "86",
     "name": "Aire de stationnement l'Abbaye Charroux",
-    "city": "Commune à confirmer",
+    "city": "Charroux",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Sanitaires",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; services par jetons vendus chez les commerçants, montant actuel non confirmé.",
+    "status": "Aire près de l'abbaye, route de Limoges, avec eau, électricité, sanitaires et vidanges.",
     "source": "https://www.openstreetmap.org/way/1253965056",
     "latitude": 46.1427817,
     "longitude": 0.4069222,
     "gpsSource": "https://www.openstreetmap.org/way/1253965056",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune contrôlée ;  | 18/10/2026 : source primaire ou office de tourisme consulté ; éventuelle incertitude GPS conservée.",
     "sourceId": "way/1253965056",
-    "servicesSource": "https://www.openstreetmap.org/way/1253965056"
+    "servicesSource": "https://www.tourisme-vienne.com/offres/tous-les-hebergements/aire-de-camping-car-de-charroux/",
+    "sourceOfficial": "https://www.tourisme-vienne.com/offres/tous-les-hebergements/aire-de-camping-car-de-charroux/",
+    "priceSource": "https://www.tourisme-vienne.com/offres/tous-les-hebergements/aire-de-camping-car-de-charroux/"
   },
   {
     "department": "86",
     "name": "Aire de stationnement camping-car Route de Maire",
-    "city": "Commune à confirmer",
+    "city": "Mairé",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Sanitaires",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
+    ],
+    "price": "Tarif non indiqué par l'office de tourisme ; gratuité rapportée par un guide secondaire, non confirmée officiellement.",
+    "status": "Terrain de 4 500 m² avec places limitées, toilettes, vidanges, tables de pique-nique. Pas d'électricité. L'office de tourisme situe l'aire route de Leugny, à proximité du point OSM.",
     "source": "https://www.openstreetmap.org/way/1306185582",
     "latitude": 46.860258,
     "longitude": 0.7512854,
     "gpsSource": "https://www.openstreetmap.org/way/1306185582",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1306185582"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune contrôlée ;  | 18/10/2026 : source primaire ou office de tourisme consulté ; éventuelle incertitude GPS conservée.",
+    "sourceId": "way/1306185582",
+    "sourceOfficial": "https://www.tourisme-vienne.com/offres/camping-car/aire-de-services-de-camping-car-de-maire/",
+    "priceSource": "https://www.tourisme-vienne.com/offres/camping-car/aire-de-services-de-camping-car-de-maire/",
+    "servicesSource": "https://www.tourisme-vienne.com/offres/camping-car/aire-de-services-de-camping-car-de-maire/"
   },
   {
     "department": "86",
     "name": "Aire de Camping-car de la Grimaudière",
-    "city": "Commune à confirmer",
+    "city": "La Grimaudière",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes"
@@ -394,30 +421,29 @@
     "gpsSource": "https://www.openstreetmap.org/way/1308749490",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune contrôlée ; ",
     "sourceId": "way/1308749490",
     "servicesSource": "https://www.openstreetmap.org/way/1308749490"
   },
   {
     "department": "86",
     "name": "Aire de stationnement camping-car de Romagne",
-    "city": "Commune à confirmer",
+    "city": "Romagne",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [
-      "Toilettes",
-      "Électricité"
-    ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [],
+    "price": "Services gratuits selon l'office de tourisme.",
+    "status": "Parking de la Vallée des Singes, Le Gureau, 86700 Romagne. Attention : l'office de tourisme référence également une aire de camping-car route du Vigneau ; correspondance précise entre la fiche touristique et le point OSM à confirmer.",
     "source": "https://www.openstreetmap.org/way/1316047228",
     "latitude": 46.2688255,
     "longitude": 0.3036663,
     "gpsSource": "https://www.openstreetmap.org/way/1316047228",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune contrôlée ;  | 18/10/2026 : source primaire ou office de tourisme consulté ; éventuelle incertitude GPS conservée.",
     "sourceId": "way/1316047228",
-    "servicesSource": "https://www.openstreetmap.org/way/1316047228"
+    "servicesSource": "https://www.tourisme-vienne.com/offres/camping-car/aire-de-stationnement-de-camping-car-de-romagne/",
+    "sourceOfficial": "https://www.tourisme-vienne.com/offres/camping-car/aire-de-stationnement-de-camping-car-de-romagne/",
+    "priceSource": "https://www.tourisme-vienne.com/offres/camping-car/aire-de-stationnement-de-camping-car-de-romagne/"
   },
   {
     "department": "86",
@@ -443,7 +469,7 @@
   {
     "department": "86",
     "name": "Aire de camping-car Mirebeau",
-    "city": "Commune à confirmer",
+    "city": "Mirebeau",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -456,7 +482,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/1460736784",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune contrôlée ; ",
     "sourceId": "way/1460736784",
     "servicesSource": "https://www.openstreetmap.org/way/1460736784"
   }
