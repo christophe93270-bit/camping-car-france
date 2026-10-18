@@ -306,20 +306,20 @@
     "city": "Le Val",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Électricité (déclarée dans OpenStreetMap, fonctionnement actuel à confirmer)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif actuel à confirmer sur la fiche de l'exploitant ; ne pas publier de montant non vérifié.",
+    "status": "L'aire CAMPING-CAR PARK du Val est identifiée chemin de Correns. Le point OSM correspond au secteur de l'aire ; tarif exact, équipements actuellement opérationnels et conditions d'accès à confirmer sur la page de l'exploitant avant déplacement.",
     "source": "https://www.openstreetmap.org/way/1243859724",
     "latitude": 43.4417083,
     "longitude": 6.0734856,
     "gpsSource": "https://www.openstreetmap.org/way/1243859724",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune renseignée d'après le toponyme explicite du nom de fiche ; adresse précise, statut d'ouverture, services et tarif restent à confirmer par une source directe.",
+    "importReview": "18/10/2026 : adresse recoupée avec le résultat d'établissement local ; le tarif dynamique de l'exploitant n'a pas pu être confirmé par une source textuelle consultable. Conserver le tarif comme non confirmé.",
     "sourceId": "way/1243859724",
     "servicesSource": "https://www.openstreetmap.org/way/1243859724",
-    "address": "Adresse postale non confirmée — utiliser les coordonnées GPS de la fiche.",
+    "address": "Chemin de Correns, 83143 Le Val",
     "priceSource": "https://www.openstreetmap.org/way/1243859724"
   },
   {
@@ -328,20 +328,20 @@
     "city": "Vinon-sur-Verdon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Électricité (déclarée dans OpenStreetMap, fonctionnement actuel à confirmer)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif actuel à confirmer sur la fiche de l'exploitant ; aucun montant vérifié dans cette mise à jour.",
+    "status": "L'aire CAMPING-CAR PARK est recensée place du Moulin Saint-André, près du Verdon. L'électricité est déclarée dans OpenStreetMap, mais la disponibilité effective et le tarif actuel doivent être vérifiés auprès de l'exploitant. Ne pas confondre l'aire avec les parkings de loisirs voisins.",
     "source": "https://www.openstreetmap.org/way/1263780469",
     "latitude": 43.7285726,
     "longitude": 5.8138168,
     "gpsSource": "https://www.openstreetmap.org/way/1263780469",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune renseignée d'après le toponyme explicite du nom de fiche ; adresse précise, statut d'ouverture, services et tarif restent à confirmer par une source directe.",
+    "importReview": "18/10/2026 : adresse recoupée avec la fiche d'établissement locale ; tarifs dynamiques et fonctionnement actuel des prises non confirmés par une page tarifaire directement consultable.",
     "sourceId": "way/1263780469",
     "servicesSource": "https://www.openstreetmap.org/way/1263780469",
-    "address": "Adresse postale non confirmée — utiliser les coordonnées GPS de la fiche.",
+    "address": "Place du Moulin Saint-André, 83560 Vinon-sur-Verdon",
     "priceSource": "https://www.openstreetmap.org/way/1263780469"
   },
   {
@@ -350,18 +350,19 @@
     "city": "Fayence",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif exact non confirmé ; des sources locales décrivent une aire simple et gratuite, mais il faut confirmer la tarification des services avant de l'indiquer comme officielle.",
+    "status": "Aire municipale située rue du Grand Jardin selon la fiche d'établissement locale. Le stationnement est décrit par des sources secondaires comme gratuit, avec peu de places ; l'absence de branchement électrique est également rapportée. Ces détails ne sont pas encore confirmés par une page municipale directement consacrée à l'aire.",
     "source": "https://www.openstreetmap.org/way/1282138727",
     "latitude": 43.6229866,
     "longitude": 6.6901541,
     "gpsSource": "https://www.openstreetmap.org/way/1282138727",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune renseignée d'après le toponyme explicite du nom de fiche ; adresse précise, statut d'ouverture, services et tarif restent à confirmer par une source directe.",
+    "importReview": "18/10/2026 : adresse rue du Grand Jardin recoupée avec la fiche d'établissement locale. Aucun barème municipal officiel directement consultable ; ne pas déclarer la gratuité ni les services comme confirmés.",
     "sourceId": "way/1282138727",
-    "address": "Adresse postale non confirmée — utiliser les coordonnées GPS de la fiche.",
-    "priceSource": "https://www.openstreetmap.org/way/1282138727"
+    "address": "Rue du Grand Jardin, 83440 Fayence",
+    "priceSource": "https://www.openstreetmap.org/way/1282138727",
+    "servicesSource": "https://www.openstreetmap.org/way/1282138727"
   },
   {
     "department": "83",
