@@ -304,17 +304,25 @@
     "name": "Aire de camping-car municipale de Saint-Priest-Taurion",
     "city": "Saint-Priest-Taurion",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
+    ],
+    "price": "Stationnement gratuit.",
+    "status": "Aire municipale de 20 emplacements au bord du Taurion ; ouverte toute l'année 2026 selon l'organisme touristique ; eau, vidange eaux usées et toilettes chimiques.",
     "source": "https://www.openstreetmap.org/way/1104580281",
     "latitude": 45.8858919,
     "longitude": 1.3953377,
     "gpsSource": "https://www.openstreetmap.org/way/1104580281",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
-    "sourceId": "way/1104580281"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : source exploitant ou tourisme institutionnel vérifiée ; périodes tarifaires et saison d'ouverture précisées.",
+    "sourceId": "way/1104580281",
+    "sourceOfficial": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-de-camping-cars-saint-priest-taurion-fr-5276855/",
+    "priceSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-de-camping-cars-saint-priest-taurion-fr-5276855/",
+    "servicesSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-de-camping-cars-saint-priest-taurion-fr-5276855/",
+    "address": "Allée du Stade, 87480 Saint-Priest-Taurion"
   },
   {
     "department": "87",
@@ -367,19 +375,23 @@
     "city": "Razès",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "14,42 €/24 h taxe de séjour incluse du 1er octobre au 31 décembre 2026 (13,10 € + 1,32 €) ; 16,42 € en saison mai-septembre ; 5 h + services : 6 €.",
+    "status": "Aire d'étape CAMPING-CAR PARK au site de Santrop, 32 places. Réservation et accès via compte CAMPING-CAR PARK.",
     "source": "https://www.openstreetmap.org/way/1271100814",
     "latitude": 46.0322551,
     "longitude": 1.2936992,
     "gpsSource": "https://www.openstreetmap.org/way/1271100814",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : source exploitant ou tourisme institutionnel vérifiée ; périodes tarifaires et saison d'ouverture précisées.",
     "sourceId": "way/1271100814",
-    "servicesSource": "https://www.openstreetmap.org/way/1271100814"
+    "servicesSource": "https://www.lacsaintpardoux.com/sejourner/venir-en-camping-car/aire-de-services-camping-car-park/",
+    "sourceOfficial": "https://www.lacsaintpardoux.com/sejourner/venir-en-camping-car/aire-de-services-camping-car-park/",
+    "priceSource": "https://www.lacsaintpardoux.com/sejourner/venir-en-camping-car/aire-de-services-camping-car-park/",
+    "address": "7 site de Santrop, 87640 Razès"
   },
   {
     "department": "87",
@@ -404,21 +416,22 @@
     "city": "Pierre-Buffière",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Douches",
-      "Toilettes",
-      "Électricité"
+      "Stationnement"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12,94 €/24 h taxe comprise affichés par l'exploitant le 18/10/2026 (dont 0,44 € de taxe de séjour) ; tarif variable.",
+    "status": "Camping de mon village CAMPING-CAR PARK, 58 emplacements au total. La mairie confirme le camping intercommunal et les places dédiées aux camping-cars. Aire ouverte.",
     "source": "https://www.openstreetmap.org/way/1304844808",
     "latitude": 45.6891967,
     "longitude": 1.3712996,
     "gpsSource": "https://www.openstreetmap.org/way/1304844808",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : source exploitant ou tourisme institutionnel vérifiée ; périodes tarifaires et saison d'ouverture précisées.",
     "sourceId": "way/1304844808",
-    "servicesSource": "https://www.openstreetmap.org/way/1304844808"
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/pierre-buffiere",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/pierre-buffiere",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/pierre-buffiere",
+    "address": "405 route de Chabanas, 87260 Pierre-Buffière"
   },
   {
     "department": "87",
@@ -426,19 +439,26 @@
     "city": "Peyrat-le-Château",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Sanitaires",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Borne de services"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif non communiqué par l'office de tourisme ; paiement par carte mentionné.",
+    "status": "Aire de stationnement et services de 90 emplacements au bord du lac de Vassivière ; ouverture du 6 avril au 30 septembre 2026. Fermée hors saison selon cette fiche ; eau, sanitaires, vidanges et borne de services.",
     "source": "https://www.openstreetmap.org/way/1306696390",
     "latitude": 45.8065066,
     "longitude": 1.8417058,
     "gpsSource": "https://www.openstreetmap.org/way/1306696390",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : source exploitant ou tourisme institutionnel vérifiée ; périodes tarifaires et saison d'ouverture précisées.",
     "sourceId": "way/1306696390",
-    "servicesSource": "https://www.openstreetmap.org/way/1306696390"
+    "servicesSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-dauphelle-peyrat-le-chateau-peyrat-le-chateau-fr-4128690/",
+    "sourceOfficial": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-dauphelle-peyrat-le-chateau-peyrat-le-chateau-fr-4128690/",
+    "priceSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-dauphelle-peyrat-le-chateau-peyrat-le-chateau-fr-4128690/",
+    "address": "Auphelle, 87470 Peyrat-le-Château"
   },
   {
     "department": "87",
