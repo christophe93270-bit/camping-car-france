@@ -98,7 +98,7 @@
   },
   {
     "department": "55",
-    "name": "Aire de camping-car de Ligny en Barrois",
+    "name": "Camping Le Chartel — Ligny-en-Barrois (à confirmer)",
     "city": "Ligny-en-Barrois",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
@@ -106,57 +106,74 @@
       "Toilettes"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Point OSM distinct du relais nautique ; correspondance avec camping Le Chartel à confirmer sur plan. Ne pas fusionner sans vérification géographique. Camping CAMPING-CAR PARK cité par l'office de tourisme, avec eau, électricité et vidanges.",
     "source": "https://www.openstreetmap.org/way/238169980",
     "latitude": 48.6859295,
     "longitude": 5.3179518,
     "gpsSource": "https://www.openstreetmap.org/way/238169980",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : source institutionnelle consultée, distinction stationnement/camping et réserves documentées.",
     "sourceId": "way/238169980",
-    "servicesSource": "https://www.openstreetmap.org/way/238169980"
+    "servicesSource": "https://www.openstreetmap.org/way/238169980",
+    "sourceOfficial": "https://www.tourisme-barleducsudmeuse.fr/Aire_de_stationnement-754005537-38"
   },
   {
     "department": "55",
-    "name": "Relais Camping-car Ligny-en-Barrois",
+    "name": "Aire de stationnement du relais nautique — Ligny-en-Barrois",
     "city": "Ligny-en-Barrois",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit (8 places)",
+      "Aire de pique-nique",
+      "Éclairage public"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit (stationnement) ; pas de services sur l'aire selon l'office de tourisme.",
+    "status": "8 emplacements, accessibles toute l'année 24h/24, sans réservation. Aire de pique-nique et jeux. Le camping Le Chartel à environ 500 m offre des services distincts.",
     "source": "https://www.openstreetmap.org/way/273261511",
     "latitude": 48.6877689,
     "longitude": 5.3192233,
     "gpsSource": "https://www.openstreetmap.org/way/273261511",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : source institutionnelle consultée, distinction stationnement/camping et réserves documentées.",
     "sourceId": "way/273261511",
-    "servicesSource": "https://www.openstreetmap.org/way/273261511"
+    "servicesSource": "https://www.openstreetmap.org/way/273261511",
+    "address": "Rue Jean Willemart, relais nautique, 55500 Ligny-en-Barrois",
+    "sourceOfficial": "https://www.tourisme-barleducsudmeuse.fr/Aire_de_stationnement-754005537-38",
+    "priceSource": "https://www.tourisme-barleducsudmeuse.fr/Aire_de_stationnement-754005537-38"
   },
   {
     "department": "55",
-    "name": "Aire de camping-car de Bar Le Duc",
+    "name": "Camping du Château — CAMPING-CAR PARK Bar-le-Duc",
     "city": "Bar-le-Duc",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Douches",
-      "Toilettes"
+      "Stationnement payant (20 places)",
+      "Électricité",
+      "Eau potable",
+      "Vidange eaux grises et noires",
+      "Wi-Fi",
+      "Laverie",
+      "Sanitaires en saison"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Selon l'office de tourisme : 15 €/24 h de mai à septembre (taxe de séjour de 0,44 € indiquée séparément) ; 12,20 €/24 h d'octobre à avril taxe comprise ; 6 € / 5 h avec services. Vérifier le tarif effectif à la borne.",
+    "status": "Camping de 20 emplacements pour camping-cars, accès automatisé toute l'année 24h/24. Sanitaires accessibles de mai à septembre. Zone soumise à PPRI selon l'exploitant.",
     "source": "https://www.openstreetmap.org/way/322942461",
     "latitude": 48.7741629,
     "longitude": 5.174248,
     "gpsSource": "https://www.openstreetmap.org/way/322942461",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : source institutionnelle consultée, distinction stationnement/camping et réserves documentées.",
     "sourceId": "way/322942461",
-    "servicesSource": "https://www.openstreetmap.org/way/322942461"
+    "servicesSource": "https://www.openstreetmap.org/way/322942461",
+    "address": "Rue Jean Bernard, 55000 Bar-le-Duc",
+    "sourceOfficial": "https://www.tourisme-barleducsudmeuse.fr/CAMPING_DU_CHATEAU-754001624-38",
+    "priceSource": "https://www.tourisme-barleducsudmeuse.fr/CAMPING_DU_CHATEAU-754001624-38",
+    "relatedOfficialSources": [
+      "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/bar%20le%20duc"
+    ]
   },
   {
     "department": "55",
@@ -218,23 +235,31 @@
   },
   {
     "department": "55",
-    "name": "Aire de camping-car de Bar-le-Duc",
+    "name": "Aire de stationnement de la halte fluviale — Bar-le-Duc",
     "city": "Bar-le-Duc",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit (8 places)",
+      "Aire de pique-nique",
+      "Éclairage public"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; services signalés par l'intercommunalité (borne à jetons) mais office de tourisme indique « sans service » : disponibilité à confirmer.",
+    "status": "8 places, accès toute l'année 24h/24 sans réservation. Divergence officielle : l'office de tourisme décrit un stationnement sans services tandis que l'intercommunalité signale une borne Euro-relais eau, électricité et vidange rue du Débarcadère. Vérifier le fonctionnement de la borne.",
     "source": "https://www.openstreetmap.org/way/730650897",
     "latitude": 48.7753464,
     "longitude": 5.1663954,
     "gpsSource": "https://www.openstreetmap.org/way/730650897",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : source institutionnelle consultée, distinction stationnement/camping et réserves documentées.",
     "sourceId": "way/730650897",
-    "servicesSource": "https://www.openstreetmap.org/way/730650897"
+    "servicesSource": "https://www.openstreetmap.org/way/730650897",
+    "address": "Rue du Débarcadère, halte fluviale, 55000 Bar-le-Duc",
+    "sourceOfficial": "https://www.tourisme-barleducsudmeuse.fr/AIRE_DE_SERVICES_ET_DE_STATIONNEMENT-754005535-38",
+    "priceSource": "https://www.tourisme-barleducsudmeuse.fr/AIRE_DE_SERVICES_ET_DE_STATIONNEMENT-754005535-38",
+    "relatedOfficialSources": [
+      "https://www.meusegrandsud.fr/vivre/tourisme/equipements-touristiques/laire-de-service-pour-camping-cars-de-bar-le-duc"
+    ]
   },
   {
     "department": "55",
@@ -242,19 +267,29 @@
     "city": "Revigny-sur-Ornain",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (2 places)",
+      "Eau potable gratuite hors gel",
+      "Vidange eaux grises gratuite",
+      "Vidange WC gratuite",
+      "Électricité (office de tourisme)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et services gratuits jusqu'à 24 h maximum ; au-delà 20 € par tranche de 24 h selon la mairie. L'office précise une limite de 24 h gratuites par période de 6 mois.",
+    "status": "2 places, aire ouverte toute l'année. Eau coupée en cas de fortes gelées. La mairie indique stationnement 24 h maximum puis pénalité de 20 €/24 h ; contacter la mairie pour conditions exactes de prolongation.",
     "source": "https://www.openstreetmap.org/way/1219019997",
     "latitude": 48.8263608,
     "longitude": 4.9832907,
     "gpsSource": "https://www.openstreetmap.org/way/1219019997",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : source institutionnelle consultée, distinction stationnement/camping et réserves documentées.",
     "sourceId": "way/1219019997",
-    "servicesSource": "https://www.openstreetmap.org/way/1219019997"
+    "servicesSource": "https://www.openstreetmap.org/way/1219019997",
+    "address": "Rue du Stade, près du camping municipal, 55800 Revigny-sur-Ornain",
+    "sourceOfficial": "https://www.revigny-sur-ornain.fr/camping-aire-camping-car.php",
+    "priceSource": "https://www.revigny-sur-ornain.fr/camping-aire-camping-car.php",
+    "relatedOfficialSources": [
+      "https://www.tourisme-barleducsudmeuse.fr/Aire_de_services_et_de_stationnement-754005538-38"
+    ]
   },
   {
     "department": "55",
