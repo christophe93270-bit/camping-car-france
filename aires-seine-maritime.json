@@ -57,7 +57,7 @@
     "city": "Saint-Pierre-lès-Elbeuf",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit selon park4night (signalement août 2026) et campingcar76 ; pas de services sur le parking rue Galbois",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/11215921701",
     "latitude": 49.2710697,
@@ -70,7 +70,9 @@
     "address": "Rue Galbois, 76320 Saint-Pierre-lès-Elbeuf",
     "capacity": 5,
     "sourceOfficial": "https://www.seine-maritime-tourisme.com/sejours/hebergements/les-campings/aire-de-stationnement-de-saint-pierre-les-elbeuf-saint-pierre-les-elbeuf-fr-5135331/",
-    "capacitySource": "https://www.seine-maritime-tourisme.com/sejours/hebergements/les-campings/aire-de-stationnement-de-saint-pierre-les-elbeuf-saint-pierre-les-elbeuf-fr-5135331/"
+    "capacitySource": "https://www.seine-maritime-tourisme.com/sejours/hebergements/les-campings/aire-de-stationnement-de-saint-pierre-les-elbeuf-saint-pierre-les-elbeuf-fr-5135331/",
+    "tariffSource": "https://park4night.com/fr/place/709591",
+    "verificationNote": "Ne pas confondre avec la borne de services située avenue des Quatre-Âges. Capacité 5 places selon office de tourisme, 6 selon park4night."
   },
   {
     "department": "76",
@@ -224,7 +226,7 @@
     "city": "Rouen",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit selon Campercontact ; absence de services selon CamperOnLine (à vérifier sur place)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/220230937",
     "latitude": 49.4303734,
@@ -234,8 +236,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/220230937",
-    "verificationNote": "Commune de Rouen étayée par les coordonnées OSM et l'annuaire cartographique ; identité et adresse exacte de cette aire générique encore à vérifier pour éviter les doublons.",
-    "sourceOfficial": "https://airescampingcar.com/aires/france/rouen"
+    "verificationNote": "Identification par coordonnées GPS correspondant au parking rue Sainte-Amélie, distinct du port de plaisance. Capacité approximative 10 à 20 selon CamperOnLine, non retenue comme capacité confirmée.",
+    "sourceOfficial": "https://www.campercontact.com/fr/normandy/rouen/14071/parking",
+    "address": "Rue Sainte-Amélie, 76100 Rouen (île Lacroix)",
+    "tariffSource": "https://www.campercontact.com/fr/normandy/rouen/14071/parking"
   },
   {
     "department": "76",
@@ -462,7 +466,7 @@
     "city": "Arelaune-en-Seine",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "7,50 € / nuit selon i-CampingCar et Le Campeur (relevés 2026) ; services 3 € selon i-CampingCar",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/688649365",
     "latitude": 49.4847808,
@@ -475,7 +479,8 @@
     "address": "Quai Paul Girardeau, La Mailleraye-sur-Seine, 76940 Arelaune-en-Seine",
     "capacity": 34,
     "sourceOfficial": "https://www.seine-maritime-tourisme.com/sejours/hebergements/les-campings/aire-de-stationnement-et-de-service-de-la-mailleraye-sur-seine-arelaune-en-seine-fr-5134031/",
-    "capacitySource": "https://www.seine-maritime-tourisme.com/sejours/hebergements/les-campings/aire-de-stationnement-et-de-service-de-la-mailleraye-sur-seine-arelaune-en-seine-fr-5134031/"
+    "capacitySource": "https://www.seine-maritime-tourisme.com/sejours/hebergements/les-campings/aire-de-stationnement-et-de-service-de-la-mailleraye-sur-seine-arelaune-en-seine-fr-5134031/",
+    "tariffSource": "https://www.i-campingcar.fr/aires.php?ville=LA+MAILLERAYE+SUR+SEINE"
   },
   {
     "department": "76",
