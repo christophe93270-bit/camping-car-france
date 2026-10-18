@@ -291,7 +291,7 @@
       "Vidange WC"
     ],
     "price": "Forfait services 6 € selon Camping-car.com (tarif daté de 2024), à confirmer",
-    "status": "7 places, 1 jour maximum selon Camping-car.com ; aire de services ouverte toute l'année",
+    "status": "10 emplacements selon Haute-Saône Tourisme (annuaire tiers : 7) ; capacité à reconfirmer",
     "source": "https://www.openstreetmap.org/way/1272703803",
     "latitude": 47.6974452,
     "longitude": 6.2775374,
@@ -303,7 +303,7 @@
     "servicesSource": "https://www.camping-car.com/aires/16194-aire-communale/",
     "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment.",
     "address": "3 Voie des Halles, 70240 Saulx",
-    "sourceOfficial": "https://www.camping-car.com/aires/16194-aire-communale/",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-daccueil-de-camping-cars-saulx-fr-4912370/",
     "priceSource": "https://www.camping-car.com/aires/16194-aire-communale/"
   },
   {
@@ -423,8 +423,8 @@
     "city": "Corre",
     "name": "Aire privée Fluvial Loisirs",
     "address": "Fluvial Loisirs, 70500 Corre",
-    "latitude": 47.9136036,
-    "longitude": 5.9935909,
+    "latitude": 47.913130560934,
+    "longitude": 5.9933318922043,
     "price": "12 € selon Camping-car.com (tarif 2024), à confirmer",
     "services": [
       "Eau",
@@ -435,11 +435,11 @@
     "status": "32 places annoncées ; aire de services du 1er mars au 30 novembre",
     "source": "https://www.camping-car.com/aires/16316-aire-privee/",
     "type": "Aire de camping-car",
-    "gpsSource": "https://www.camping-car.com/aires/16316-aire-privee/",
+    "gpsSource": "https://www.camping-car.com/aires/16316-aire-privee",
     "sourceId": "camping-car.com/16316",
     "priceSource": "https://www.camping-car.com/aires/16316-aire-privee/",
     "servicesSource": "https://www.camping-car.com/aires/16316-aire-privee/",
-    "importReview": "Fiche Camping-car.com ; coordonnées et informations publiées par l'annuaire, accès et tarifs à vérifier sur place."
+    "importReview": "Coordonnées ajustées à la fiche Camping-car.com consultée ; services et prix 2024 à confirmer."
   },
   {
     "department": "70",
@@ -640,5 +640,100 @@
     "priceSource": "https://www.camping-car.com/aires/4618-camping-vert-lagon/",
     "servicesSource": "https://www.camping-car.com/aires/4618-camping-vert-lagon/",
     "importReview": "Informations issues de Camping-car.com ; coordonnées reprises de la fiche ; fonctionnement actuel et tarifs à confirmer."
+  },
+  {
+    "department": "70",
+    "name": "Camping municipal de Miellin",
+    "city": "Servance-Miellin",
+    "address": "2 rue de la Verrerie, 70440 Servance-Miellin",
+    "latitude": 47.8095523,
+    "longitude": 6.7365593,
+    "type": "Camping accueillant les camping-cars",
+    "services": [
+      "Emplacements camping-car",
+      "Borne de services (détails à confirmer)"
+    ],
+    "price": "Non confirmé",
+    "status": "6 emplacements camping-car, du 1er avril au 30 septembre",
+    "source": "https://www.camping-car.com/aires/392-camping-municipal/",
+    "gpsSource": "https://www.camping-car.com/aires/392-camping-municipal/",
+    "sourceId": "camping-car.com/392",
+    "importReview": "Fiche annuaire Camping-car.com ; GPS sourcé ; dates, ouverture actuelle et tarifs à reconfirmer."
+  },
+  {
+    "department": "70",
+    "name": "Camping Le Lac",
+    "city": "Preigney",
+    "address": "70120 Preigney",
+    "latitude": 47.7503779,
+    "longitude": 5.7735378,
+    "type": "Camping accueillant les camping-cars",
+    "services": [
+      "Emplacements camping-car",
+      "Borne de services (détails à confirmer)"
+    ],
+    "price": "Non confirmé",
+    "status": "10 emplacements camping-car, du 1er avril au 30 septembre",
+    "source": "https://www.camping-car.com/aires/5850-le-lac/",
+    "gpsSource": "https://www.camping-car.com/aires/5850-le-lac/",
+    "sourceId": "camping-car.com/5850",
+    "importReview": "Fiche annuaire Camping-car.com ; GPS sourcé ; dates, ouverture actuelle et tarifs à reconfirmer."
+  },
+  {
+    "department": "70",
+    "name": "Ferme Château Gaillard – accueil camping-car",
+    "city": "Genevreuille",
+    "address": "70240 Genevreuille",
+    "latitude": 47.688263,
+    "longitude": 6.38589,
+    "type": "Camping accueillant les camping-cars",
+    "services": [
+      "Emplacements camping-car",
+      "Borne de services (détails à confirmer)"
+    ],
+    "price": "Non confirmé",
+    "status": "6 places selon la fiche aire privée ; autre fiche camping au même GPS : non doublonnée",
+    "source": "https://www.camping-car.com/aires/20308-ferme-chateau-gaillard/",
+    "gpsSource": "https://www.camping-car.com/aires/20308-ferme-chateau-gaillard/",
+    "sourceId": "camping-car.com/20308",
+    "importReview": "Fiche annuaire Camping-car.com ; GPS sourcé ; dates, ouverture actuelle et tarifs à reconfirmer."
+  },
+  {
+    "department": "70",
+    "name": "Camping Le Chapeau Chinois",
+    "city": "Villersexel",
+    "address": "92 rue du Chapeau Chinois, 70110 Villersexel",
+    "latitude": 47.5577307,
+    "longitude": 6.4355891,
+    "type": "Camping accueillant les camping-cars",
+    "services": [
+      "Emplacements camping-car",
+      "Borne de services (détails à confirmer)"
+    ],
+    "price": "Non confirmé",
+    "status": "8 emplacements camping-car, du 7 avril au 24 septembre (dates à confirmer)",
+    "source": "https://www.camping-car.com/aires/5851-le-chapeau-chinois/",
+    "gpsSource": "https://www.camping-car.com/aires/5851-le-chapeau-chinois/",
+    "sourceId": "camping-car.com/5851",
+    "importReview": "Fiche annuaire Camping-car.com ; GPS sourcé ; dates, ouverture actuelle et tarifs à reconfirmer."
+  },
+  {
+    "department": "70",
+    "name": "Camping La Jonquille",
+    "city": "Hurecourt",
+    "address": "6 rue des Jonquilles, 70210 Hurecourt",
+    "latitude": 47.900502,
+    "longitude": 6.057596,
+    "type": "Camping accueillant les camping-cars",
+    "services": [
+      "Emplacements camping-car",
+      "Borne de services (détails à confirmer)"
+    ],
+    "price": "Non confirmé",
+    "status": "11 emplacements camping-car, du 1er avril au 25 septembre (dates à confirmer)",
+    "source": "https://www.camping-car.com/aires/10461-la-jonquille/",
+    "gpsSource": "https://www.camping-car.com/aires/10461-la-jonquille/",
+    "sourceId": "camping-car.com/10461",
+    "importReview": "Fiche annuaire Camping-car.com ; GPS sourcé ; dates, ouverture actuelle et tarifs à reconfirmer."
   }
 ]
