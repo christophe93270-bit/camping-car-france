@@ -853,19 +853,23 @@
     "latitude": 47.6390954,
     "longitude": 5.8938012,
     "source": "https://www.camping-car.com/aires/29145-dominique-arambourg/",
-    "status": "3 places, durée annoncée 24 h ; fonctionnement actuel à confirmer",
+    "status": "3 emplacements, eau, électricité, vidange et accès sanitaires selon l'office de tourisme ; fonctionnement actuel à confirmer auprès de l'exploitante.",
     "services": [
-      "Eau",
+      "Stationnement camping-car",
+      "Eau potable",
       "Électricité",
-      "Vidange eaux usées"
+      "Vidange eaux usées",
+      "Vidange sanitaires",
+      "Accès sanitaires"
     ],
-    "price": "Non confirmé (fiche tarifaire 2019)",
+    "price": "Tarif du stationnement non confirmé ; Haute-Saône Tourisme mentionne une borne à 2 €, montant et périmètre des prestations à reconfirmer.",
     "type": "Aire de services camping-car",
     "gpsSource": "https://www.camping-car.com/aires/29145-dominique-arambourg/",
-    "priceSource": "https://www.camping-car.com/aires/29145-dominique-arambourg/",
-    "servicesSource": "https://www.camping-car.com/aires/29145-dominique-arambourg/",
+    "priceSource": "https://hautesaonetourisme.com/offres/aire-de-services-vy-les-rupt-fr-4910836/",
+    "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-services-vy-les-rupt-fr-4910836/",
     "sourceId": "camping-car.com/29145",
-    "importReview": "Fiche annuaire avec GPS ; tarifs anciens, existence et accès actuel à reconfirmer."
+    "importReview": "Office de tourisme des Combes à la Saône et Haute-Saône Tourisme confirment l'accueil chez Mirette, 3 places et les services. Prix de 2 € mentionné pour la borne sans confirmation du prix du stationnement ; ne pas extrapoler.",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-de-services-vy-les-rupt-fr-4910836/"
   },
   {
     "department": "70",
@@ -1086,5 +1090,31 @@
     "sourceId": "destination70/4914614",
     "importReview": "Attention : coordonnées 47.816849,6.386585 publiées dans le descriptif touristique manifestement erronées (secteur Luxeuil-les-Bains). Coordonnées 47.4693062,6.24805315 recoupées avec annuaire local et To From France.",
     "dataAttribution": "Haute-Saône Tourisme ; GPS i-Campingcar"
+  },
+  {
+    "department": "70",
+    "name": "Aire de services de l'Écurie de Lyly",
+    "city": "Traves",
+    "type": "Aire privée de stationnement et de services camping-car",
+    "address": "62 route de Cubry, 70360 Traves",
+    "latitude": 47.61303,
+    "longitude": 5.96457,
+    "services": [
+      "Stationnement camping-car",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées",
+      "Vidange sanitaires"
+    ],
+    "price": "5 €/nuitée selon Haute-Saône Tourisme ; tarif actuel à confirmer",
+    "status": "Aire à l'Écurie de Lyly, existence confirmée par la commune et l'office de tourisme ; accès et ouverture à vérifier auprès de l'exploitant.",
+    "source": "https://hautesaonetourisme.com/offres/aire-de-services-traves-fr-4910775/",
+    "sourceOfficial": "https://traves.fr/portfolio-item/cours-dequitation-balade-en-poney/",
+    "gpsSource": "https://tofromfrance.com/en/lieu/aire-de-services-12",
+    "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-services-traves-fr-4910775/",
+    "priceSource": "https://hautesaonetourisme.com/offres/aire-de-services-traves-fr-4910775/",
+    "sourceId": "hautesaonetourisme/4910775",
+    "importReview": "Commune de Traves confirme l'aire à l'Écurie de Lyly ; adresse 62 route de Cubry attestée par document préfectoral, GPS tiers 47.61303,5.96457 à vérifier sur place. Une description erronée de Chez Mirette apparaît sur le site GPS tiers : ne pas reprendre cette description.",
+    "dataAttribution": "Commune de Traves / Haute-Saône Tourisme ; GPS To From France"
   }
 ]
