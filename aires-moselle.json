@@ -2,27 +2,29 @@
   {
     "department": "57",
     "name": "Aire de camping-car de Phalsbourg",
-    "city": "Commune à confirmer",
+    "city": "Phalsbourg",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (4 places)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire proche du centre-ville, 4 emplacements selon Moselle Attractivité.",
     "source": "https://www.openstreetmap.org/node/12151458473",
     "latitude": 48.7654962,
     "longitude": 7.2595771,
     "gpsSource": "https://www.openstreetmap.org/node/12151458473",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : recoupement avec Moselle Attractivité ; conditions à revérifier avant déplacement.",
     "sourceId": "node/12151458473",
-    "servicesSource": "https://www.openstreetmap.org/node/12151458473"
+    "servicesSource": "https://www.openstreetmap.org/node/12151458473",
+    "address": "Rue du Commandant Taillant, derrière la caserne Lobau, 57370 Phalsbourg",
+    "sourceOfficial": "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f847000033_aire-de-camping-cars-phalsbourg"
   },
   {
     "department": "57",
     "name": "Camping-car Park Sarreguemines",
-    "city": "Commune à confirmer",
+    "city": "Sarreguemines",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -42,7 +44,7 @@
   {
     "department": "57",
     "name": "Aire de service camping-cars de la Citadelle de Bitche",
-    "city": "Commune à confirmer",
+    "city": "Bitche",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes",
@@ -63,36 +65,48 @@
   {
     "department": "57",
     "name": "Aire de Camping-cars Rodemack",
-    "city": "Commune à confirmer",
+    "city": "Rodemack",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit",
+      "Eau potable (borne saisonnière)",
+      "Vidange WC chimiques (borne saisonnière)",
+      "Électricité (borne saisonnière)"
+    ],
+    "price": "Stationnement gratuit sans limite de durée selon Moselle Attractivité ; borne de services saisonnière du 1er avril au 30 septembre.",
+    "status": "Aire à l'entrée du village. La fiche touristique affiche une capacité de 220 places, chiffre probablement relatif au parking communautaire entier et non aux seules places camping-car : ne pas l'utiliser comme capacité dédiée sans confirmation.",
     "source": "https://www.openstreetmap.org/way/503250944",
     "latitude": 49.4673013,
     "longitude": 6.2324023,
     "gpsSource": "https://www.openstreetmap.org/way/503250944",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/503250944"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : recoupement avec Moselle Attractivité ; conditions à revérifier avant déplacement.",
+    "sourceId": "way/503250944",
+    "address": "Parking communautaire, route de Thionville, 57570 Rodemack",
+    "sourceOfficial": "https://www.mosl.fr/fr/decouvrir-la-moselle/experiences/moselle-nord/trouvez-lhebergement-ideal-pour-votre-sejour-en-moselle-nord/f1371000619_aire-de-camping-cars-rodemack"
   },
   {
     "department": "57",
     "name": "Aire d'accueil de Camping-Cars - Sarralbe",
-    "city": "Commune à confirmer",
+    "city": "Sarralbe",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (4 places, 48 h maximum)"
+    ],
+    "price": "Stationnement gratuit.",
+    "status": "4 places réservées aux camping-cars, accès libre 24h/24, stationnement limité à 48 h. Aucun service spécifique. Stationnement camping-car interdit dans le centre-ville selon la mairie.",
     "source": "https://www.openstreetmap.org/way/522139405",
     "latitude": 49.0014809,
     "longitude": 7.0324409,
     "gpsSource": "https://www.openstreetmap.org/way/522139405",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/522139405"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : recoupement avec Moselle Attractivité ; conditions à revérifier avant déplacement.",
+    "sourceId": "way/522139405",
+    "address": "15 rue de la Sarre, 57430 Sarralbe",
+    "sourceOfficial": "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f947002334_aire-daccueil-camping-cars-de-sarralbe-sarralbe",
+    "priceSource": "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f947002334_aire-daccueil-camping-cars-de-sarralbe-sarralbe"
   },
   {
     "department": "57",
@@ -117,28 +131,34 @@
   {
     "department": "57",
     "name": "Aire de Stationnement Mittersheim",
-    "city": "Commune à confirmer",
+    "city": "Mittersheim",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Stationnement (4 places)",
+      "Eau potable",
+      "Électricité selon emplacement",
+      "Sanitaires payants à proximité",
+      "Douches payantes à proximité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "9 € / nuit selon Moselle Attractivité ; vérifier suppléments électricité et sanitaires.",
+    "status": "Aire au port de plaisance, 4 places avec ou sans électricité. Enregistrement auprès du capitaine du port entre 18 h et 19 h 30 ; arrivée possible jusqu'à 19 h 30. Sanitaires et douche payants à proximité.",
     "source": "https://www.openstreetmap.org/way/575114553",
     "latitude": 48.8653325,
     "longitude": 6.9365558,
     "gpsSource": "https://www.openstreetmap.org/way/575114553",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : recoupement avec Moselle Attractivité ; conditions à revérifier avant déplacement.",
     "sourceId": "way/575114553",
-    "servicesSource": "https://www.openstreetmap.org/way/575114553"
+    "servicesSource": "https://www.openstreetmap.org/way/575114553",
+    "address": "Rue du Port, 57930 Mittersheim",
+    "sourceOfficial": "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f848151798_aire-de-camping-cars-au-port-de-plaisance-mittersheim",
+    "priceSource": "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f848151798_aire-de-camping-cars-au-port-de-plaisance-mittersheim"
   },
   {
     "department": "57",
     "name": "Aire de camping-car de Amnéville",
-    "city": "Commune à confirmer",
+    "city": "Amnéville",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -158,7 +178,7 @@
   {
     "department": "57",
     "name": "Aire de camping-cars de Hoste",
-    "city": "Commune à confirmer",
+    "city": "Hoste",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -178,19 +198,24 @@
   {
     "department": "57",
     "name": "Aire de camping-cars de Sarrebourg",
-    "city": "Commune à confirmer",
+    "city": "Sarrebourg",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (10 places)"
+    ],
+    "price": "Stationnement gratuit.",
+    "status": "10 places gratuites, sans borne de services ni vidange actuellement selon Moselle Attractivité.",
     "source": "https://www.openstreetmap.org/way/1213413944",
     "latitude": 48.7225978,
     "longitude": 7.0372675,
     "gpsSource": "https://www.openstreetmap.org/way/1213413944",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1213413944"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : recoupement avec Moselle Attractivité ; conditions à revérifier avant déplacement.",
+    "sourceId": "way/1213413944",
+    "address": "Zone de loisirs, rue du Tennis, 57400 Sarrebourg",
+    "sourceOfficial": "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f848147013_aire-d-accueil-camping-cars-sarrebourg",
+    "priceSource": "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f848147013_aire-d-accueil-camping-cars-sarrebourg"
   },
   {
     "department": "57",
@@ -198,18 +223,24 @@
     "city": "Hombourg-Haut",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (6 places)",
+      "Électricité (borne opérationnelle)",
+      "Eau potable (temporairement indisponible)",
+      "Vidange (temporairement indisponible)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Eau 2 € (actuellement indisponible) ; électricité 3 € selon Moselle Attractivité.",
+    "status": "6 places. Incident technique signalé par Moselle Attractivité en octobre 2026 : eau et vidange indisponibles, électricité et vente de jetons opérationnelles. Horaires de la fiche touristique variables selon le jour : vérifier avant visite.",
     "source": "https://www.openstreetmap.org/way/1280899809",
     "latitude": 49.1248383,
     "longitude": 6.7792982,
     "gpsSource": "https://www.openstreetmap.org/way/1280899809",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : recoupement avec Moselle Attractivité ; conditions à revérifier avant déplacement.",
     "sourceId": "way/1280899809",
-    "servicesSource": "https://www.openstreetmap.org/way/1280899809"
+    "servicesSource": "https://www.openstreetmap.org/way/1280899809",
+    "address": "Rue du Stade, 57470 Hombourg-Haut",
+    "sourceOfficial": "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f844000500_aire-de-camping-cars-de-hombourg-haut-hombourg-haut",
+    "priceSource": "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f844000500_aire-de-camping-cars-de-hombourg-haut-hombourg-haut"
   }
 ]
