@@ -104,17 +104,24 @@
     "name": "Aire de Stationnement Erstein",
     "city": "Erstein",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Aire de services camping-car (équipements actuels à confirmer)"
+    ],
+    "price": "Tarif actuel non confirmé. Une fiche spécialisée indique 15 € pour les camping-cars, sans date de validité claire.",
+    "status": "Aire de services municipale rue Jean-Georges Abry, place des Fêtes. Une fiche spécialisée indique une ouverture toute l'année et un contact mairie (police municipale : 03 88 64 66 70), mais la liste actuelle des équipements et les tarifs doivent être confirmés directement par la commune.",
     "source": "https://www.openstreetmap.org/node/4723822021",
-    "latitude": 48.4236101,
-    "longitude": 7.6646392,
-    "gpsSource": "https://www.openstreetmap.org/node/4723822021",
+    "latitude": 48.4235345,
+    "longitude": 7.6653399,
+    "gpsSource": "https://www.camping-car.com/aires/34733-aire-de-stationnement/",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
-    "sourceId": "node/4723822021"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : adresse/GPS rectifiés d'après fiche spécialisée ; mairie identifiée comme gestionnaire, équipements et prix non confirmés par publication municipale.",
+    "sourceId": "node/4723822021",
+    "address": "Rue Jean-Georges Abry, place des Fêtes, 67150 Erstein",
+    "sourceOfficial": "https://www.ville-erstein.fr/",
+    "relatedOfficialSources": [
+      "https://www.grandried.alsace/sejournez/se-loger/campings-et-aires-de-services/"
+    ]
   },
   {
     "department": "67",
