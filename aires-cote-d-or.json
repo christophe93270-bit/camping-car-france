@@ -44,64 +44,71 @@
     "department": "21",
     "name": "Aire de camping-car de Auxonne",
     "city": "Auxonne",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de camping-car d'Auxonne",
     "services": [
-      "Électricité"
+      "Services à confirmer"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire référencée par l'office de tourisme d'Auxonne et l'office Cap Val de Saône ; adresse, capacité, services et conditions d'accès à préciser.",
     "source": "https://www.openstreetmap.org/node/12085733820",
     "latitude": 47.19933,
     "longitude": 5.3922771,
     "gpsSource": "https://www.openstreetmap.org/node/12085733820",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "L'office de tourisme référence explicitement l'aire, mais sa page ne livre pas les équipements en texte consultable. Ne pas confondre avec le camping de l'Arquebuse route d'Athée.",
     "sourceId": "node/12085733820",
     "servicesSource": "https://www.openstreetmap.org/node/12085733820",
-    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée."
+    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée.",
+    "sourceOfficial": "https://auxonne-tourisme.fr/aire-camping-car-auxonne"
   },
   {
     "department": "21",
     "name": "Aire de camping-car de Flavigny-sur-Ozerain",
     "city": "Flavigny-sur-Ozerain",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire CAMPING-CAR PARK",
     "services": [
-      "Électricité"
+      "Stationnement et services (détails à vérifier auprès de l'exploitant)"
     ],
-    "price": "13,80 € / 24 h, dont 1,30 € de taxe de séjour (tarif affiché octobre 2026)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12,50 €/24 h pour la période 12/09/2026–31/12/2026 ; taxe de séjour 1,30 €/24 h selon l'exploitant",
+    "status": "Aire réservée aux camping-cars à l'entrée du village, gérée par CAMPING-CAR PARK. Paiement et carte d'accès à l'entrée ; stationnement intra-muros réglementé.",
     "source": "https://www.openstreetmap.org/node/14280315394",
     "latitude": 47.5050572,
     "longitude": 4.51827,
     "gpsSource": "https://www.openstreetmap.org/node/14280315394",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Mairie confirme la gestion CAMPING-CAR PARK et les restrictions de stationnement intra-muros. Exploitant annonce 12,50 €/24 h pour la fin 2026 ; ne pas extrapoler aux autres périodes.",
     "sourceId": "node/14280315394",
     "servicesSource": "https://www.openstreetmap.org/node/14280315394",
     "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée.",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/cote-dor/flavigny-sur-ozerain?areaType=aire-etape-camping-car",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/cote-dor/flavigny-sur-ozerain",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif relevé auprès de la mairie, de l'exploitant ou d'un organisme touristique ; vérifier avant déplacement."
+    "priceNote": "Tarif relevé auprès de la mairie, de l'exploitant ou d'un organisme touristique ; vérifier avant déplacement.",
+    "sourceOfficial": "https://flavigny-sur-ozerain.fr/fr/vivre/acces-stationnement"
   },
   {
     "department": "21",
     "name": "Aire camping-car Mirebeau sur Bèze",
     "city": "Mirebeau-sur-Bèze",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de services camping-car",
+    "services": [
+      "Borne de services (équipements exacts à confirmer)"
+    ],
+    "price": "2 € par utilisation selon carte touristique (date du document à vérifier)",
+    "status": "Aire indiquée ouverte toute l'année dans la carte touristique Val de Saône–Vingeanne ; fonctionnement actuel de la borne à vérifier.",
     "source": "https://www.openstreetmap.org/way/128176155",
     "latitude": 47.3997371,
     "longitude": 5.3128829,
     "gpsSource": "https://www.openstreetmap.org/way/128176155",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Carte touristique institutionnelle : rue de la Tour vers la gendarmerie, paiement pièce de 2 €, ouverture toute l'année ; équipement précis non détaillé.",
     "sourceId": "way/128176155",
-    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée."
+    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée.",
+    "address": "Rue de la Tour, près de la gendarmerie, 21310 Mirebeau-sur-Bèze",
+    "sourceOfficial": "https://www.capvaldesaone-tourisme.fr/images/Carte_VVDS_compressed.pdf",
+    "priceSource": "https://www.capvaldesaone-tourisme.fr/images/Carte_VVDS_compressed.pdf"
   },
   {
     "department": "21",
@@ -152,21 +159,23 @@
     "department": "21",
     "name": "Aire de camping-car Lamarche-sur-Saône",
     "city": "Lamarche-sur-Saône",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de camping-car près de la halte nautique",
     "services": [
-      "Électricité"
+      "Stationnement (équipements à confirmer)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire répertoriée à la halte nautique rue La Marchotte dans la carte touristique Val de Saône–Vingeanne ; conditions d'accès dépendantes de la météo pour la halte nautique, services camping-car non détaillés.",
     "source": "https://www.openstreetmap.org/way/227972904",
     "latitude": 47.2727665,
     "longitude": 5.3866988,
     "gpsSource": "https://www.openstreetmap.org/way/227972904",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Carte touristique institutionnelle mentionne l'emplacement camping-car à Lamarche-sur-Saône ; ne pas assimiler les branchements nautiques à des services camping-car.",
     "sourceId": "way/227972904",
-    "servicesSource": "https://www.openstreetmap.org/way/227972904"
+    "servicesSource": "https://www.openstreetmap.org/way/227972904",
+    "address": "Halte nautique, rue La Marchotte, 21760 Lamarche-sur-Saône",
+    "sourceOfficial": "https://www.capvaldesaone-tourisme.fr/images/Carte_VVDS_compressed.pdf"
   },
   {
     "department": "21",
@@ -209,26 +218,29 @@
   },
   {
     "department": "21",
-    "name": "Aire de camping-car de Seurre",
+    "name": "Aire CAMPING-CAR PARK de Seurre",
     "city": "Seurre",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
-      "Électricité"
+      "Stationnement (44 emplacements)",
+      "Services camping-car (détails à confirmer)"
     ],
-    "price": "16,02 € / 24 h, dont 0,72 € de taxe de séjour (octobre 2026)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif historique 2024 : 14,50 €/24 h ; tarif actuel à vérifier auprès de CAMPING-CAR PARK",
+    "status": "Aire d'étape signalée ouverte toute l'année dans la documentation touristique ; prix publié pour 2024 uniquement.",
     "source": "https://www.openstreetmap.org/way/629098787",
     "latitude": 47.0018595,
     "longitude": 5.1434132,
     "gpsSource": "https://www.openstreetmap.org/way/629098787",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Office de tourisme Rives de Saône : 44 places, rue de la Perche à l'Oiseau, tarif explicitement daté 2024. Ne pas présenter 14,50 € comme prix 2026.",
     "sourceId": "way/629098787",
     "servicesSource": "https://www.openstreetmap.org/way/629098787",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/cote-dor/seurre?areaType=aire-etape-camping-car",
+    "priceSource": "https://www.saone-tourisme.fr/manger-dormir/aires-de-camping-car/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif relevé auprès de la mairie, de l'exploitant ou d'un organisme touristique ; vérifier avant déplacement."
+    "priceNote": "Tarif relevé auprès de la mairie, de l'exploitant ou d'un organisme touristique ; vérifier avant déplacement.",
+    "address": "Rue de la Perche à l'Oiseau, 21250 Seurre",
+    "sourceOfficial": "https://www.saone-tourisme.fr/manger-dormir/aires-de-camping-car/"
   },
   {
     "department": "21",
@@ -301,21 +313,29 @@
   },
   {
     "department": "21",
-    "name": "Aire de camping-cars Saint-Jean-de-Losne",
+    "name": "Aire de services Flot Bleu — Saint-Jean-de-Losne",
     "city": "Saint-Jean-de-Losne",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de services camping-car",
+    "services": [
+      "Vidange",
+      "Eau potable",
+      "Électricité"
+    ],
+    "price": "4,60 € / 20 min selon Office de tourisme Rives de Saône (tarif à reconfirmer)",
+    "status": "Borne de services Flot Bleu au port de plaisance ; stationnement nocturne sur place non confirmé.",
     "source": "https://www.openstreetmap.org/way/1287995596",
     "latitude": 47.1045053,
     "longitude": 5.2674985,
     "gpsSource": "https://www.openstreetmap.org/way/1287995596",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Office de tourisme Rives de Saône et carte touristique Val de Saône confirment la borne Flot Bleu ; ne pas confondre avec un terrain de stationnement nocturne.",
     "sourceId": "way/1287995596",
-    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée."
+    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée.",
+    "address": "Promenade du Port, 21170 Saint-Jean-de-Losne",
+    "sourceOfficial": "https://www.saone-tourisme.fr/manger-dormir/aires-de-camping-car/",
+    "servicesSource": "https://www.saone-tourisme.fr/manger-dormir/aires-de-camping-car/",
+    "priceSource": "https://www.saone-tourisme.fr/manger-dormir/aires-de-camping-car/"
   },
   {
     "department": "21",
@@ -346,25 +366,31 @@
     "department": "21",
     "name": "aire de camping cars Arnay-le-Duc",
     "city": "Arnay-le-Duc",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire municipale sécurisée pour camping-cars",
     "services": [
-      "Électricité"
+      "Stationnement (11 places)",
+      "Électricité",
+      "Eau potable",
+      "Vidange WC portables",
+      "Vidange eaux usées"
     ],
-    "price": "14 € / 24 h avec une recharge électrique ; 25 € / 48 h ; 36 € / 72 h (tarifs affichés par l'office de tourisme, date de validité non précisée)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Mairie : 10 €/24 h d'octobre à mai ; 14 €/24 h de juin à septembre (tarifs affichés, actualisation à vérifier)",
+    "status": "Ouverte toute l'année selon la mairie ; accès sécurisé par barrières et code, paiement par carte bancaire.",
     "source": "https://www.openstreetmap.org/way/1293609628",
     "latitude": 47.1301907,
     "longitude": 4.4909607,
     "gpsSource": "https://www.openstreetmap.org/way/1293609628",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Mairie : 11 places, eau, électricité, vidange, accès annuel. Les tarifs saisonniers sont ceux affichés sur la page communale consultée ; actualisation à vérifier.",
     "sourceId": "way/1293609628",
-    "servicesSource": "https://www.openstreetmap.org/way/1293609628",
+    "servicesSource": "https://arnay-le-duc.com/aire-de-camping-cars/",
     "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée.",
-    "priceSource": "https://www.tourisme-arnayliernais.fr/en/eat-sleep/camping-car-area/",
+    "priceSource": "https://arnay-le-duc.com/aire-de-camping-cars/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif relevé auprès de la mairie, de l'exploitant ou d'un organisme touristique ; vérifier avant déplacement."
+    "priceNote": "Tarif relevé auprès de la mairie, de l'exploitant ou d'un organisme touristique ; vérifier avant déplacement.",
+    "address": "Rue de la Gare, 21230 Arnay-le-Duc",
+    "sourceOfficial": "https://arnay-le-duc.com/aire-de-camping-cars/"
   },
   {
     "department": "21",
