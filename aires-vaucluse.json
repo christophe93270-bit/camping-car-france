@@ -4,37 +4,51 @@
     "name": "Aire Camping car Malemort-du-Comtat",
     "city": "Malemort-du-Comtat",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau potable",
+      "Vidange des eaux usées"
+    ],
+    "price": "Stationnement, eau et vidange gratuits.",
+    "status": "Ouverte du 1er mars au 31 octobre, sauf fête votive du premier week-end d'août et événements ponctuels. Eau suspendue du 1er novembre à fin février ; fermeture hivernale annoncée. Coordonnées touristiques 44.022055,5.156901 proches du point OSM.",
     "source": "https://www.openstreetmap.org/node/11935721670",
     "latitude": 44.0216683,
     "longitude": 5.1569532,
     "gpsSource": "https://www.openstreetmap.org/node/11935721670",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom de la fiche OpenStreetMap ; localisation administrative à contrôler par coordonnées GPS avant validation définitive.",
-    "sourceId": "node/11935721670"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom de la fiche OpenStreetMap ; localisation administrative à contrôler par coordonnées GPS avant validation définitive. | 18/10/2026 : source exploitant ou tourisme vérifiée ; correspondance d'établissement étayée.",
+    "sourceId": "node/11935721670",
+    "sourceOfficial": "https://www.provence-a-velo.fr/campings/mont-ventoux/aire-de-stationnement-camping-car/provence-4598203-1.html",
+    "priceSource": "https://www.provence-a-velo.fr/campings/mont-ventoux/aire-de-stationnement-camping-car/provence-4598203-1.html",
+    "servicesSource": "https://www.provence-a-velo.fr/campings/mont-ventoux/aire-de-stationnement-camping-car/provence-4598203-1.html",
+    "address": "Parking de la Salle des Fêtes, place du 8 Mai 1945, 84570 Malemort-du-Comtat"
   },
   {
     "department": "84",
     "name": "Aire de stationnement camping-cars Domaine le Parandou",
     "city": "Sablet",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Tarif 2026 non confirmé ; ne pas reprendre les tarifs anciens de guides tiers.",
-    "status": "Accueil de camping-cars au Domaine du Parandou à Sablet, correspondance GPS avec guide spécialisé. Ouverture annuelle annoncée par le guide ; modalités, services et prix actuels à confirmer auprès du domaine.",
+    "services": [
+      "Électricité",
+      "Eau potable",
+      "Vidange",
+      "Sanitaires",
+      "Stationnement de nuit"
+    ],
+    "price": "Gratuit pour les adhérents France Passion selon le domaine. Tarif public 2026 non publié.",
+    "status": "Aire privée du Domaine du Parandou ; l'exploitant confirme stationnement nocturne, électricité, eau, sanitaires et vidange. Correspondance GPS étayée par guide spécialisé. Contacter le domaine pour disponibilité et tarif hors France Passion.",
     "source": "https://www.openstreetmap.org/node/11935740546",
     "latitude": 44.1935033,
     "longitude": 4.9953407,
     "gpsSource": "https://www.openstreetmap.org/node/11935740546",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune Sablet confirmée par proximité GPS avec guide camping-car.com (44.1934503,4.9947542). Source secondaire, pas de tarif officiel actuel.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune Sablet confirmée par proximité GPS avec guide camping-car.com (44.1934503,4.9947542). Source secondaire, pas de tarif officiel actuel. | 18/10/2026 : source exploitant ou tourisme vérifiée ; correspondance d'établissement étayée.",
     "sourceId": "node/11935740546",
-    "address": "134 route de l'Ouvèze, 84110 Sablet (adresse à confirmer auprès du domaine)",
-    "priceSource": "https://www.camping-car.com/aires/15950-domaine-du-parandou/",
-    "servicesSource": "https://www.camping-car.com/aires/15950-domaine-du-parandou/"
+    "address": "134 route de l'Ouvèze, 84110 Sablet",
+    "priceSource": "https://parandou.com/oenotourisme/",
+    "servicesSource": "https://parandou.com/oenotourisme/",
+    "sourceOfficial": "https://parandou.com/oenotourisme/"
   },
   {
     "department": "84",
@@ -42,19 +56,25 @@
     "city": "Lamotte-du-Rhône",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux grises",
+      "Vidange eaux noires"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Forfait 11,90 € ; taxe de séjour 0,33 €/adulte/nuit en supplément ; services seuls 5 €/jour.",
+    "status": "Ouverte toute l'année selon Vaucluse Tourisme ; 28 emplacements ; eau, électricité et vidange. Coordonnées touristiques 44.261355,4.661868 proches du point OSM.",
     "source": "https://www.openstreetmap.org/node/11944670086",
     "latitude": 44.2621222,
     "longitude": 4.6629157,
     "gpsSource": "https://www.openstreetmap.org/node/11944670086",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom de la fiche OpenStreetMap ; localisation administrative à contrôler par coordonnées GPS avant validation définitive.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom de la fiche OpenStreetMap ; localisation administrative à contrôler par coordonnées GPS avant validation définitive. | 18/10/2026 : source exploitant ou tourisme vérifiée ; correspondance d'établissement étayée.",
     "sourceId": "node/11944670086",
-    "servicesSource": "https://www.openstreetmap.org/node/11944670086"
+    "servicesSource": "https://www.provenceguide.com/campings/cote-rhone/aire-camping-car/provence-6826744-1.html",
+    "sourceOfficial": "https://www.provenceguide.com/campings/cote-rhone/aire-camping-car/provence-6826744-1.html",
+    "priceSource": "https://www.provenceguide.com/campings/cote-rhone/aire-camping-car/provence-6826744-1.html",
+    "address": "Aire du Pont Romain, 46 le Bout du Pont, 84840 Lamotte-du-Rhône"
   },
   {
     "department": "84",
@@ -481,16 +501,23 @@
     "name": "Aire camping cars de Gigondas",
     "city": "Gigondas",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement",
+      "Borne de services à proximité"
+    ],
+    "price": "Stationnement gratuit ; services 4 € (20 minutes de remplissage d'eau), jetons en vente localement.",
+    "status": "Aire municipale ouverte toute l'année ; 6 emplacements, stationnement 24 h ; services techniques disponibles à l'aire de services de la ville. Coordonnées touristiques 44.163379,5.002635 à environ 240 m du point OSM 44.1655109,5.0020598 : vérifier si le point OSM représente exactement le parking du tennis.",
     "source": "https://www.openstreetmap.org/way/1483477981",
     "latitude": 44.1655109,
     "longitude": 5.0020598,
     "gpsSource": "https://www.openstreetmap.org/way/1483477981",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1483477981"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : source exploitant ou tourisme vérifiée ; écart GPS d'environ 240 m, correspondance exacte à confirmer.",
+    "sourceId": "way/1483477981",
+    "sourceOfficial": "https://provencecoterhone-tourisme.com/apidae/aire-de-stationnement-pour-camping-car/",
+    "priceSource": "https://provencecoterhone-tourisme.com/apidae/aire-de-stationnement-pour-camping-car/",
+    "servicesSource": "https://provencecoterhone-tourisme.com/apidae/aire-de-stationnement-pour-camping-car/",
+    "address": "Parking du terrain de tennis, 84190 Gigondas"
   }
 ]
