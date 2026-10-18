@@ -35,9 +35,16 @@
     "name": "Aire de camping-car U Express Plerguer",
     "city": "Plerguer",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement gratuit selon annuaire Le Campeur ; eau annoncée à 2 € / 10 min, à confirmer",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit",
+      "Eau potable (borne payante)",
+      "Vidange des eaux grises",
+      "Vidange WC",
+      "Électricité (borne, disponibilité variable)",
+      "Laverie automatique"
+    ],
+    "price": "Stationnement gratuit ; eau 2 € / 10 min selon témoignages de mai 2026, tarif non confirmé par l'exploitant",
+    "status": "Ouverte toute l'année selon les annuaires ; fonctionnement des bornes variable, vérifier sur place",
     "source": "https://www.openstreetmap.org/node/12029108895",
     "latitude": 48.530755,
     "longitude": -1.8516667,
@@ -47,11 +54,12 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/12029108895",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
-    "address": "Route de Saint-Malo, Le Puits Saliou, 35540 Plerguer",
+    "address": "140 rue de Saint-Malo, 35540 Plerguer",
     "sourceOfficial": "https://www.magasins-u.com/magasin/uexpress-plerguer",
-    "verificationNote": "Le site i-campingcar indique 6 places pour une aire communale à Plerguer aux coordonnées 48.532951,-1.849287, distinctes de l'aire U Express OSM 48.530755,-1.8516667 : ne pas transférer la capacité. Le Campeur confirme une aire U Express gratuite rue de Saint-Malo, capacité non publiée.",
+    "verificationNote": "Aire sur parking U Express, distincte de l'aire communale répertoriée à 48.532951,-1.849287 (6 places). Témoignages park4night d'avril-mai 2026 : eau et vidanges à nouveau en service après pannes en hiver, eau 2 €/10 min. Ne pas garantir la disponibilité des bornes ni transférer les 6 places de l'autre aire.",
     "priceSource": "https://www.lecampeur.fr/aire/aire-de-camping-car-station-u-express-plerguer-ph5ab7",
-    "relatedSource": "https://www.i-campingcar.fr/aires/pdf/35.pdf"
+    "relatedSource": "https://www.i-campingcar.fr/aires/pdf/35.pdf",
+    "servicesSource": "https://park4night.com/fr/place/37350"
   },
   {
     "department": "35",
@@ -402,10 +410,10 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1316046216",
     "address": "Rue du Maréchal Foch, place Herdorf, 35240 Retiers",
-    "capacity": 4,
+    "capacity": null,
     "sourceOfficial": "https://www.camping-car.com/aires/27551-aire-communale/",
     "capacitySource": "https://www.camping-car.com/aires/27551-aire-communale/",
-    "verificationNote": "Correspondance géographique confirmée entre OSM way/1316046216 et l'aire communale place Herdorf à Retiers. 4 places et durée maximale 72 h selon Camping-car.com ; source alternative indique 8 places et 48 h : vérifier auprès de la mairie avant de figer ces limites. Tarifs de stationnement divergents."
+    "verificationNote": "Sources contradictoires : Camping-car.com annonce 4 places et 72 h ; campingcar76 (mise à jour 2021) annonce 8 places, 48 h et 4 € ; park4night référence un autre parking gratuit rue Docteur Pierre Guyot, à ne pas confondre avec Place Herdorf. Aucune confirmation municipale 2026 obtenue : capacité et durée à confirmer."
   },
   {
     "department": "35",
