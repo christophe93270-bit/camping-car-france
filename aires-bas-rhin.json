@@ -228,19 +228,22 @@
     "city": "Lembach",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
+      "Stationnement public (3 places)",
       "Toilettes"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer | Deux points OSM différents sont enregistrés à Lembach (environ 1,3 km l'un de l'autre) : conservés séparément en attendant de confirmer leur usage exact ; aucun doublon automatique.",
+    "status": "Parking public derrière la mairie, rue de Mattstall. L'office de tourisme confirme 3 emplacements camping-car et des toilettes. Aucun tarif ni service d'eau, électricité ou vidange confirmé.",
     "source": "https://www.openstreetmap.org/node/12209802237",
     "latitude": 49.0040698,
     "longitude": 7.789202,
     "gpsSource": "https://www.openstreetmap.org/node/12209802237",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : proximité des deux points vérifiée ; ne pas fusionner sans identification des emplacements.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : proximité des deux points vérifiée ; ne pas fusionner sans identification des emplacements. | 18/10/2026 : recoupement Alsace Verte ; ne pas confondre stationnement public, borne de services et camping voisin.",
     "sourceId": "node/12209802237",
-    "servicesSource": "https://www.openstreetmap.org/node/12209802237"
+    "servicesSource": "https://www.openstreetmap.org/node/12209802237",
+    "address": "Rue de Mattstall, 67510 Lembach",
+    "sourceOfficial": "https://www.alsace-verte.com/en/motorhome-areas/parking-area-for-motorhome-2/"
   },
   {
     "department": "67",
@@ -325,20 +328,21 @@
     "city": "Châtenois",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Stationnement camping-car (équipements non confirmés)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Point de stationnement camping-car identifié par OpenStreetMap. Les sources touristiques consultées ne confirment pas avec certitude la capacité, les équipements ou le tarif de ce point précis ; données conservées comme provisoires.",
     "source": "https://www.openstreetmap.org/way/302587070",
     "latitude": 48.2747654,
     "longitude": 7.3985281,
     "gpsSource": "https://www.openstreetmap.org/way/302587070",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : référence intercommunale ajoutée ; aucun tarif ni équipement non vérifié n'a été affirmé.",
     "sourceId": "way/302587070",
-    "servicesSource": "https://www.openstreetmap.org/way/302587070"
+    "servicesSource": "https://www.openstreetmap.org/way/302587070",
+    "address": "Adresse exacte à confirmer auprès de la commune de Châtenois",
+    "sourceOfficial": "https://www.selestat-haut-koenigsbourg.com/"
   },
   {
     "department": "67",
@@ -576,17 +580,21 @@
     "name": "Aire de stationnement pour camping-car Lembach",
     "city": "Lembach",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Stationnement camping-car (lieu exact à confirmer)"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer | Deux points OSM différents sont enregistrés à Lembach (environ 1,3 km l'un de l'autre) : conservés séparément en attendant de confirmer leur usage exact ; aucun doublon automatique.",
+    "status": "Second point OpenStreetMap à Lembach, distinct du parking public derrière la mairie. Les sources touristiques ne permettent pas d'identifier avec certitude ce point GPS. Ne pas lui attribuer les équipements du camping du Fleckenstein.",
     "source": "https://www.openstreetmap.org/way/1298631903",
     "latitude": 48.9930327,
     "longitude": 7.7936827,
     "gpsSource": "https://www.openstreetmap.org/way/1298631903",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : proximité des deux points vérifiée ; ne pas fusionner sans identification des emplacements.",
-    "sourceId": "way/1298631903"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : proximité des deux points vérifiée ; ne pas fusionner sans identification des emplacements. | 18/10/2026 : recoupement Alsace Verte ; ne pas confondre stationnement public, borne de services et camping voisin.",
+    "sourceId": "way/1298631903",
+    "address": "67510 Lembach — emplacement exact à confirmer",
+    "sourceOfficial": "https://www.alsace-verte.com/carnet-dadresses/hebergement/campings-et-aires-pour-camping-car/"
   },
   {
     "department": "67",
