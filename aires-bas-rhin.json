@@ -342,23 +342,30 @@
   },
   {
     "department": "67",
-    "name": "Aire de camping-car Les Cigognes",
+    "name": "Aire municipale de stationnement camping-cars — Sélestat",
     "city": "Sélestat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (15 places)",
+      "Électricité 16 A",
+      "Eau potable",
+      "Vidange eaux usées",
+      "Paiement par carte bancaire"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "5 € pour vidange et services seuls (stationnement limité à 2 h) ; stationnement 24 h : 10 €, 48 h : 20 €, 72 h : 30 €, puis 21 €/jour ; taxe de séjour 0,44 € par véhicule et par nuit. Tarifs officiels en vigueur à vérifier au paiement.",
+    "status": "Aire municipale ouverte toute l'année, 24 h/24, 15 emplacements stabilisés. Chaque emplacement dispose d'une alimentation électrique 16 A et d'un accès à la vidange et au remplissage d'eau sans supplément. Paiement par carte bancaire.",
     "source": "https://www.openstreetmap.org/way/734597434",
     "latitude": 48.2536872,
     "longitude": 7.4473039,
     "gpsSource": "https://www.openstreetmap.org/way/734597434",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : fiche officielle municipale confirme 15 places, ouverture 24/24, électricité 16 A, eau, vidange et tarifs publiés.",
     "sourceId": "way/734597434",
-    "servicesSource": "https://www.openstreetmap.org/way/734597434"
+    "servicesSource": "https://www.openstreetmap.org/way/734597434",
+    "address": "Rue de la 1ère D.F.L., 67600 Sélestat",
+    "sourceOfficial": "https://camping.selestat.fr/le-camping/aire-camping-cars",
+    "priceSource": "https://camping.selestat.fr/le-camping/aire-camping-cars"
   },
   {
     "department": "67",
@@ -472,9 +479,12 @@
     "gpsSource": "https://www.openstreetmap.org/way/1232553629",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : la mairie confirme des places de stationnement camping-cars avenue Clémenceau mais ne confirme pas dans cette page une aire de services dédiée ; tarif et équipements restent à confirmer.",
     "sourceId": "way/1232553629",
-    "servicesSource": "https://www.openstreetmap.org/way/1232553629"
+    "servicesSource": "https://www.openstreetmap.org/way/1232553629",
+    "relatedOfficialSources": [
+      "https://rosheim.com/environnement-et-cadre-de-vie/mobilite-et-transports/stationnement-bornes-de-recharge/"
+    ]
   },
   {
     "department": "67",
