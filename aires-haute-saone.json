@@ -117,24 +117,31 @@
   },
   {
     "department": "70",
-    "name": "Aire de camping-car de Luxeuil-les-Bains",
+    "name": "Aire CAMPING-CAR PARK de Luxeuil-les-Bains",
     "city": "Luxeuil-les-Bains",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement camping-car",
+      "Électricité",
+      "Eau potable",
+      "Vidange eaux usées",
+      "Wi-Fi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif indicatif affiché par l'exploitant en octobre 2026 : 15,37 €/24 h dont 1,32 € de taxe de séjour ; tarif variable, à vérifier avant arrivée",
+    "status": "45 emplacements ; aire exploitée par CAMPING-CAR PARK ; ouverture et disponibilité à vérifier auprès de l'exploitant",
     "source": "https://www.openstreetmap.org/way/699144454",
     "latitude": 47.8168079,
     "longitude": 6.3866501,
     "gpsSource": "https://www.openstreetmap.org/way/699144454",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Contrôle initial groupé : nom et commune harmonisés ; GPS OSM conservé. Tarifs, accès et services non confirmés.",
+    "importReview": "Recoupement avec l'exploitant et Haute-Saône Tourisme le 18/10/2026 ; tarif dynamique, ne pas présenter comme garanti.",
     "sourceId": "way/699144454",
-    "servicesSource": "https://www.openstreetmap.org/way/699144454",
-    "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment."
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/luxeuil-les-bains?areaType=aire-etape-camping-car",
+    "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment.",
+    "address": "17 rue Gambetta, 70300 Luxeuil-les-Bains",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/luxeuil-les-bains?areaType=aire-etape-camping-car",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/luxeuil-les-bains?areaType=aire-etape-camping-car"
   },
   {
     "department": "70",
@@ -168,10 +175,13 @@
     "city": "Bucey-lès-Gy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement camping-car",
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement : tarif non confirmé ; jeton Flot Bleu 2 € pour 4 h d'électricité ou 20 min d'eau ou de vidange (tarif publié, à confirmer)",
+    "status": "4 emplacements le long de la D474 selon Haute-Saône Tourisme ; fonctionnement actuel à vérifier",
     "source": "https://www.openstreetmap.org/way/889039486",
     "latitude": 47.424478,
     "longitude": 5.839912,
@@ -180,8 +190,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Contrôle initial groupé : nom et commune harmonisés ; GPS OSM conservé. Tarifs, accès et services non confirmés.",
     "sourceId": "way/889039486",
-    "servicesSource": "https://www.openstreetmap.org/way/889039486",
-    "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment."
+    "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-service-campings-cars-bucey-les-gy-fr-4915820/",
+    "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment.",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-de-service-campings-cars-bucey-les-gy-fr-4915820/",
+    "priceSource": "https://hautesaonetourisme.com/offres/aire-de-service-campings-cars-bucey-les-gy-fr-4915820/"
   },
   {
     "department": "70",
@@ -582,18 +594,20 @@
     "longitude": 5.901796,
     "type": "Aire de camping-car",
     "services": [
+      "Stationnement camping-car",
       "Eau",
       "Électricité",
       "Vidange eaux usées"
     ],
-    "price": "Stationnement gratuit (Haute-Saône Tourisme)",
+    "price": "Stationnement et bornes en libre-service gratuits selon Haute-Saône Tourisme ; conditions à reconfirmer",
     "status": "Aire de services annoncée toute l'année ; 2 places",
     "source": "https://www.camping-car.com/aires/46182-aire-communale/",
     "gpsSource": "https://www.camping-car.com/aires/46182-aire-communale/",
     "sourceId": "camping-car.com/46182",
     "priceSource": "https://hautesaonetourisme.com/offres/aire-de-camping-car-jussey-fr-4911072/",
     "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-camping-car-jussey-fr-4911072/",
-    "importReview": "Informations issues de Camping-car.com ; coordonnées reprises de la fiche ; fonctionnement actuel et tarifs à confirmer."
+    "importReview": "Informations issues de Camping-car.com ; coordonnées reprises de la fiche ; fonctionnement actuel et tarifs à confirmer.",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-de-camping-car-jussey-fr-4911072/"
   },
   {
     "department": "70",
@@ -902,5 +916,79 @@
     "servicesSource": "https://www.camping-car.com/aires/6111-la-pierre/",
     "sourceId": "camping-car.com/6111",
     "importReview": "Fiche annuaire avec GPS ; tarifs anciens, existence et accès actuel à reconfirmer."
+  },
+  {
+    "department": "70",
+    "name": "Camping des Grands Prés – aire pour camping-car",
+    "city": "Aboncourt-Gesincourt",
+    "type": "Camping et aire d'accueil camping-car",
+    "address": "1 impasse des Grands Prés, 70500 Aboncourt-Gesincourt",
+    "latitude": 47.77041,
+    "longitude": 5.98121,
+    "services": [
+      "Emplacements camping-car",
+      "Eau",
+      "Électricité",
+      "Sanitaires",
+      "Vidange"
+    ],
+    "price": "À partir de 18 € la nuitée selon Haute-Saône Tourisme ; tarif à reconfirmer",
+    "status": "6 emplacements selon Haute-Saône Tourisme ; ouverture annoncée à partir du 10 mars 2026, à reconfirmer",
+    "source": "https://hautesaonetourisme.com/offres/camping-des-grands-pres-aire-pour-camping-car-aboncourt-gesincourt-fr-6178627/",
+    "gpsSource": "https://www.cirkwi.com/fr/point-interet/4904692-camping-des-grands-pres-aire-pour-camping-car",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/camping-des-grands-pres-aire-pour-camping-car-aboncourt-gesincourt-fr-6178627/",
+    "priceSource": "https://hautesaonetourisme.com/offres/camping-des-grands-pres-aire-pour-camping-car-aboncourt-gesincourt-fr-6178627/",
+    "servicesSource": "https://hautesaonetourisme.com/offres/camping-des-grands-pres-aire-pour-camping-car-aboncourt-gesincourt-fr-6178627/",
+    "sourceId": "destination70/6178627",
+    "importReview": "Coordonnées diffusées par Destination70 sur Cirkwi, actualisées en août 2026 ; recoupement octobre 2026. Divergence de capacité avec certains annuaires : garder la valeur touristique et signaler la vérification.",
+    "dataAttribution": "Destination70 / Haute-Saône Tourisme ; coordonnées via Cirkwi"
+  },
+  {
+    "department": "70",
+    "name": "Aire municipale pour camping-cars d'Ainvelle",
+    "city": "Ainvelle",
+    "type": "Aire de stationnement et de services",
+    "address": "Rue du Château, 70800 Ainvelle",
+    "latitude": 47.84553,
+    "longitude": 6.24841,
+    "services": [
+      "Stationnement camping-car",
+      "Eau (saisonnalité à vérifier)",
+      "Vidange",
+      "Électricité (à confirmer)"
+    ],
+    "price": "Stationnement gratuit ; tarifs des services à reconfirmer",
+    "status": "2 places selon guide touristique 2026 ; eau annoncée de mars à octobre, fonctionnement à confirmer",
+    "source": "https://www.luxeuil-vosges-sud.fr/uploads/2026/03/guide-hebergements-2026.pdf",
+    "gpsSource": "https://spot2play.com/spot/aire-de-service-ainvelle/",
+    "sourceOfficial": "https://www.luxeuil-vosges-sud.fr/uploads/2026/03/guide-hebergements-2026.pdf",
+    "servicesSource": "https://www.luxeuil-vosges-sud.fr/uploads/2026/03/guide-hebergements-2026.pdf",
+    "sourceId": "office-tourisme-ainvelle-rue-du-chateau",
+    "importReview": "Aire attestée par guide touristique 2026 ; GPS recoupé avec annuaire géolocalisé et source tierce ; électricité et saisonnalité à confirmer.",
+    "dataAttribution": "Office de tourisme Luxeuil Vosges du Sud ; GPS Spot2play"
+  },
+  {
+    "department": "70",
+    "name": "Aire privée La Ravena",
+    "city": "Dampierre-lès-Conflans",
+    "type": "Aire privée camping-car",
+    "address": "1 bis Grande Rue, 70800 Dampierre-lès-Conflans",
+    "latitude": 47.80576,
+    "longitude": 6.16394,
+    "services": [
+      "3 emplacements camping-car",
+      "Eau",
+      "Électricité",
+      "Vidange"
+    ],
+    "price": "10 €/24 h avec services selon guide touristique 2026 ; à reconfirmer",
+    "status": "3 emplacements selon guide touristique 2026 ; accès et fonctionnement à confirmer",
+    "source": "https://www.luxeuil-vosges-sud.fr/uploads/2026/03/guide-hebergements-2026.pdf",
+    "gpsSource": "https://tofromfrance.com/en/lieu/aire-pour-camping-car-la-ravena",
+    "sourceOfficial": "https://www.luxeuil-vosges-sud.fr/uploads/2026/03/guide-hebergements-2026.pdf",
+    "priceSource": "https://www.luxeuil-vosges-sud.fr/uploads/2026/03/guide-hebergements-2026.pdf",
+    "sourceId": "office-tourisme-la-ravena",
+    "importReview": "Guide touristique 2026 et deux annuaires recoupés ; coordonnées de l'aire à contrôler sur place.",
+    "dataAttribution": "Office de tourisme Luxeuil Vosges du Sud ; GPS To From France"
   }
 ]
