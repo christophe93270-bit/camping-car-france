@@ -167,7 +167,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "12,22 € / 24 h hors taxe de séjour (0,88 € / 24 h en 2026), barème du 01/10/2026 au 31/12/2027",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/204019909",
     "latitude": 48.2283813,
@@ -180,8 +180,8 @@
     "servicesSource": "https://www.openstreetmap.org/way/204019909",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier.",
     "priceNote": "L'office de tourisme affiche des tarifs 2024 (11 à 12,50 € / 24 h) ; tarif 2026 non confirmé.",
-    "priceSource": "https://www.aube-champagne.com/fr/poi/aire-de-camping-car-2/",
-    "sourceOfficial": "https://www.aube-champagne.com/fr/poi/aire-de-camping-car-2/"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/bar-sur-aube",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/bar-sur-aube"
   },
   {
     "department": "10",
@@ -236,7 +236,7 @@
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Non confirmé — consulter le tarif en vigueur sur le site de l'exploitant",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/760723188",
     "latitude": 48.3475389,
@@ -244,10 +244,12 @@
     "gpsSource": "https://www.openstreetmap.org/way/760723188",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Exploitant CAMPING-CAR PARK confirmé le 18/10/2026.",
     "sourceId": "way/760723188",
     "servicesSource": "https://www.openstreetmap.org/way/760723188",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/marcilly-le-hayer",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/marcilly-le-hayer"
   },
   {
     "department": "10",
@@ -334,5 +336,62 @@
     "sourceId": "way/1274573629",
     "servicesSource": "https://www.openstreetmap.org/way/1274573629",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier."
+  },
+  {
+    "department": "10",
+    "name": "Camping de mon Village de Méry-sur-Seine",
+    "city": "Méry-sur-Seine",
+    "type": "Camping de mon Village",
+    "services": [],
+    "price": "Non confirmé — consulter le tarif en vigueur sur le site de l'exploitant",
+    "status": "Établissement CAMPING-CAR PARK confirmé par l'exploitant",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/mery-sur-seine",
+    "latitude": 48.51082,
+    "longitude": 3.885089,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/mery-sur-seine",
+    "dataAttribution": "CAMPING-CAR PARK",
+    "dataLicense": "Données factuelles issues de la fiche officielle",
+    "importReview": "Ajout du 18/10/2026 ; GPS et adresse issus de l'exploitant ; aucun identifiant OSM attribué sans vérification.",
+    "address": "23 rue des Grèves, 10170 Méry-sur-Seine",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/mery-sur-seine",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/mery-sur-seine"
+  },
+  {
+    "department": "10",
+    "name": "Camping de mon Village de Nogent-sur-Seine",
+    "city": "Nogent-sur-Seine",
+    "type": "Camping de mon Village",
+    "services": [],
+    "price": "Non confirmé — consulter le tarif en vigueur sur le site de l'exploitant",
+    "status": "Établissement CAMPING-CAR PARK confirmé par l'exploitant",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/nogent-sur-seine",
+    "latitude": 48.503435,
+    "longitude": 3.509546,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/nogent-sur-seine",
+    "dataAttribution": "CAMPING-CAR PARK",
+    "dataLicense": "Données factuelles issues de la fiche officielle",
+    "importReview": "Ajout du 18/10/2026 ; GPS et adresse issus de l'exploitant ; aucun identifiant OSM attribué sans vérification.",
+    "address": "1 rue du Camping, 10400 Nogent-sur-Seine",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/nogent-sur-seine",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/nogent-sur-seine"
+  },
+  {
+    "department": "10",
+    "name": "Aire CAMPING-CAR PARK La Halte Saint-Balsème",
+    "city": "Le Chêne",
+    "type": "Aire d'étape",
+    "services": [],
+    "price": "Non confirmé — consulter le tarif en vigueur sur le site de l'exploitant",
+    "status": "Établissement CAMPING-CAR PARK confirmé par l'exploitant",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/le-chene-la-halte-ste-balseme",
+    "latitude": 48.54793,
+    "longitude": 4.144442,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/le-chene-la-halte-ste-balseme",
+    "dataAttribution": "CAMPING-CAR PARK",
+    "dataLicense": "Données factuelles issues de la fiche officielle",
+    "importReview": "Ajout du 18/10/2026 ; GPS et adresse issus de l'exploitant ; aucun identifiant OSM attribué sans vérification.",
+    "address": "Rue de Châlons – Halte Sainte Balzème, 10700 Le Chêne",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/le-chene-la-halte-ste-balseme",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/le-chene-la-halte-ste-balseme"
   }
 ]
