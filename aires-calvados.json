@@ -63,8 +63,10 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
     "address": "Place du Champ de Foire, 14500 Vire Normandie",
     "sourceOfficial": "https://www.paysdevire-normandie-tourisme.fr/hebergement/aire-de-camping-car-de-vire/",
-    "verificationNote": "Stationnement interdit jeudi soir et vendredi pendant le marché ; retour possible vendredi dès 16 h.",
-    "tariffSource": "https://www.paysdevire-normandie-tourisme.fr/hebergement/aire-de-camping-car-de-vire/"
+    "verificationNote": "15 places selon camping-car.com ; nombre non précisé par l'office de tourisme. Capacité à confirmer auprès de la commune.",
+    "tariffSource": "https://www.paysdevire-normandie-tourisme.fr/hebergement/aire-de-camping-car-de-vire/",
+    "capacity": 15,
+    "capacitySource": "https://www.camping-car.com/aires/16347-aire-communale/"
   },
   {
     "department": "14",
@@ -547,7 +549,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Tarif 2026 office de tourisme : 14 € / nuit + 1,32 € taxe de séjour = 15,32 € / 24 h ; services jusqu'à 5 h : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/644524008",
     "latitude": 49.2706151,
@@ -563,7 +565,8 @@
     "capacity": 16,
     "sourceOfficial": "https://www.explore-calvados.com/aires-camping-cars/aire-de-camping-cars-de-colleville-montgomery/",
     "capacitySource": "https://www.explore-calvados.com/aires-camping-cars/aire-de-camping-cars-de-colleville-montgomery/",
-    "verificationNote": "Explore Calvados confirme 16 emplacements, eau, électricité, wifi et vidange ; tarif chiffré non publié sur cette source."
+    "verificationNote": "L'office de tourisme annonce 14 € + 1,32 € de taxe pour 2026 ; la page municipale présente encore les tarifs de la délibération 2024 (12 € + 1,20 €). Tarif 2026 touristique retenu.",
+    "tariffSource": "https://www.caenlamer-tourisme.fr/campings/aire-de-camping-cars-de-colleville-montgomery/"
   },
   {
     "department": "14",
