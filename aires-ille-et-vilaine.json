@@ -1075,13 +1075,16 @@
       "Douche",
       "Poubelles"
     ],
-    "price": "Électricité 3,50 € ; eau et vidange 5,50 € selon Ille-et-Vilaine Tourisme ; tarifs à reconfirmer",
+    "price": "Électricité 3,50 € ; borne eau/vidange 5,50 € (tarifs affichés sur la fiche touristique, à reconfirmer)",
     "status": "Aire de services intégrée au camping ; accès et ouverture saisonnière à vérifier",
     "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-du-camping-des-chevrets-saint-coulomb-fr-2727619/",
     "source": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-du-camping-des-chevrets-saint-coulomb-fr-2727619/",
-    "gpsSource": "Non vérifié",
-    "coordinateStatus": "Coordonnées GPS à vérifier avant géolocalisation sur la carte",
-    "verificationNote": "Borne de services dans le camping des Chevrets, distincte du camping Duguesclin. Conditions d'accès aux services pour non-résidents à confirmer."
+    "gpsSource": "https://www.cirkwi.com/fr/point-interet/4232343-aire-du-camping-des-chevrets",
+    "coordinateStatus": "GPS de l'aire de services publié par Destination Saint-Malo",
+    "verificationNote": "Coordonnées spécifiques à l'aire de services (différentes du centre du camping). Tarifs de la fiche tourisme datée de 2025.",
+    "latitude": 48.6881556,
+    "longitude": -1.9382051,
+    "priceSource": "https://www.cirkwi.com/fr/point-interet/4232343-aire-du-camping-des-chevrets"
   },
   {
     "department": "35",
@@ -1512,7 +1515,7 @@
     "type": "Aire de camping-car",
     "city": "Saint-Coulomb",
     "name": "Aire du camping Duguesclin",
-    "address": "Tannée, 35350 Saint-Coulomb",
+    "address": "Rue de Tannée, 35350 Saint-Coulomb",
     "services": [
       "Eau",
       "Électricité",
@@ -1524,13 +1527,15 @@
       "Wi-Fi"
     ],
     "price": "Forfait camping-car 2 adultes : 16,90 à 20,70 € (2026)",
-    "status": "Camping ouvert du 3 avril au 26 septembre 2026",
+    "status": "Camping fermé pour la saison 2026 ; prochaine ouverture annoncée le 3 avril 2027",
     "source": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-sur-le-camping-duguesclin-saint-coulomb-fr-2822010/",
     "priceSource": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/camping-duguesclin-saint-coulomb-fr-2726413/",
     "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-sur-le-camping-duguesclin-saint-coulomb-fr-2822010/",
-    "gpsSource": "Non vérifié",
-    "coordinateStatus": "Coordonnées GPS à vérifier avant géolocalisation sur la carte",
-    "verificationNote": "Aire intégrée au camping, pas un stationnement municipal indépendant. Coordonnées GPS à confirmer."
+    "gpsSource": "https://www.camping-duguesclin.com/infos-pratiques/comment-venir/",
+    "coordinateStatus": "GPS publié directement par l'exploitant",
+    "verificationNote": "GPS de l'établissement fourni par l'exploitant. Camping fermé en octobre 2026, malgré une ancienne fiche touristique indiquant le 26 septembre comme date de fermeture.",
+    "latitude": 48.6865554,
+    "longitude": -1.8898248
   },
   {
     "department": "35",
