@@ -139,19 +139,22 @@
   {
     "department": "71",
     "name": "Aire de Camping-car Flagy",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "city": "Flagy",
+    "type": "Parking communal pour camping-cars",
+    "services": [
+      "Stationnement sur terrain communal"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Vaste terrain communal, parfois en pente : cales éventuellement nécessaires. Services et tarifs non confirmés.",
     "source": "https://www.openstreetmap.org/node/11991750153",
     "latitude": 46.5009273,
     "longitude": 4.6349108,
     "gpsSource": "https://www.openstreetmap.org/node/11991750153",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/11991750153"
+    "importReview": "Guide institutionnel tourisme Saône Grosne : stationnement de courte ou longue durée sur terrain communal à Flagy ; aucun équipement spécifique confirmé.",
+    "sourceId": "node/11991750153",
+    "sourceOfficial": "https://www.tourisme-saonegrosne.fr/document/guide-parkings-voitures-et-camping-car.pdf"
   },
   {
     "department": "71",
@@ -190,19 +193,22 @@
   {
     "department": "71",
     "name": "Aire de Camping-car Massilly",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "city": "Massilly",
+    "type": "Parking pour camping-cars",
+    "services": [
+      "Stationnement de courte durée"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Parking plat près de l'ancienne gare et de la Voie Verte ; durée courte selon le guide touristique. Services non confirmés.",
     "source": "https://www.openstreetmap.org/node/11991786886",
     "latitude": 46.4918179,
     "longitude": 4.6820466,
     "gpsSource": "https://www.openstreetmap.org/node/11991786886",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/11991786886"
+    "importReview": "Guide tourisme Saône Grosne : parking plat à proximité de l'ancienne gare, courte durée ; ne pas inférer services.",
+    "sourceId": "node/11991786886",
+    "sourceOfficial": "https://www.tourisme-saonegrosne.fr/document/guide-parkings-voitures-et-camping-car.pdf"
   },
   {
     "department": "71",
@@ -224,19 +230,22 @@
   {
     "department": "71",
     "name": "Aire de stationnement pour camping-car Berzé-le-Châtel",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "city": "Berzé-le-Châtel",
+    "type": "Aire de stationnement pour camping-cars",
+    "services": [
+      "Stationnement (2 emplacements)"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Deux places plates, stationnement limité à 24 h. Suivre fléchage château, parking en contrebas de l'église. Eau, électricité et vidange non confirmées.",
     "source": "https://www.openstreetmap.org/node/11991849848",
     "latitude": 46.387664,
     "longitude": 4.6901442,
     "gpsSource": "https://www.openstreetmap.org/node/11991849848",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/11991849848"
+    "importReview": "Fiche tourisme départemental : 2 places, durée maximum 24 h, en contrebas de l'église.",
+    "sourceId": "node/11991849848",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/les-hebergements-en-saone-et-loire.html?f%5B0%5D=se_loger_accomodation_type%3ALes+aires+de+camping-car&page=2"
   },
   {
     "department": "71",
@@ -769,20 +778,25 @@
   },
   {
     "department": "71",
-    "name": "Aire de Camping-car Grotte de Blanot",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "name": "Aire de camping-car des Grottes de Blanot",
+    "city": "Blanot",
+    "type": "Parking pour camping-cars",
+    "services": [
+      "Stationnement (5 emplacements)"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Parking goudronné près de l'entrée des grottes ; partie droite plus plane, prévoir des cales. Eau, électricité et vidange non confirmées.",
     "source": "https://www.openstreetmap.org/way/1293632945",
     "latitude": 46.4842657,
     "longitude": 4.7460669,
     "gpsSource": "https://www.openstreetmap.org/way/1293632945",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1293632945"
+    "importReview": "Office de tourisme Cluny Sud Bourgogne confirme 5 emplacements, parking goudronné près des grottes. Services non confirmés.",
+    "sourceId": "way/1293632945",
+    "address": "Parking des Grottes de Blanot, 71250 Blanot",
+    "sourceOfficial": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-blanot/",
+    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-blanot/"
   },
   {
     "department": "71",
@@ -879,19 +893,22 @@
   {
     "department": "71",
     "name": "Aire pour camping-car Lournand",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "city": "Lournand",
+    "type": "Parking pour camping-cars",
+    "services": [
+      "Stationnement de courte ou longue durée"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Stationnement en bordure de rivière sur terrain plat selon le guide touristique ; services et conditions de nuitée à confirmer.",
     "source": "https://www.openstreetmap.org/way/1297471153",
     "latitude": 46.4743835,
     "longitude": 4.6734127,
     "gpsSource": "https://www.openstreetmap.org/way/1297471153",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1297471153"
+    "importReview": "Guide tourisme Saône Grosne : terrain plat en bordure de rivière, courte et longue durée ; pas de services détaillés.",
+    "sourceId": "way/1297471153",
+    "sourceOfficial": "https://www.tourisme-saonegrosne.fr/document/guide-parkings-voitures-et-camping-car.pdf"
   },
   {
     "department": "71",
