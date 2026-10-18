@@ -581,16 +581,20 @@
     "longitude": 6.0430057,
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Borne Flot Bleu",
-      "Eau (borne, modalités à confirmer)"
+      "Stationnement camping-car",
+      "Borne Flot Bleu (fonctionnement à confirmer)",
+      "Eau (disponibilité à confirmer)",
+      "Vidange WC (disponibilité à confirmer)"
     ],
-    "price": "Borne Flot Bleu : 2 € (office de tourisme, à reconfirmer)",
-    "status": "4 emplacements, borne annoncée 24 h/24 toute l'année selon office de tourisme",
+    "price": "Stationnement gratuit ; borne Flot Bleu 2 € selon l'office de tourisme. Fonctionnement de la borne à vérifier : signalement de panne dans un répertoire daté de mai 2026.",
+    "status": "4 emplacements, stationnement gratuit ; office de tourisme : aire annoncée ouverte toute l'année 24 h/24. Un répertoire spécialisé daté du 22 mai 2026 indique la borne hors service : ne pas compter sur les services sans confirmation.",
     "source": "https://www.camping-car.com/aires/45581-aire-intercommunale/",
     "gpsSource": "https://www.camping-car.com/aires/45581-aire-intercommunale/",
     "sourceId": "camping-car.com/45581",
-    "importReview": "Coordonnées publiées par Camping-car.com ; ouverture, services et prix à confirmer indépendamment.",
-    "priceSource": "https://www.tourisme-scey-valdesaone.fr/index.php?IdPage=132981557122"
+    "importReview": "Source officielle tourisme Scey-Val de Saône : 4 places, borne Flot Bleu 2 €, 24h/24. Répertoire campingcar76 daté 22/05/2026 : borne hors service. Contradiction signalée explicitement, stationnement distingué des services.",
+    "priceSource": "https://www.tourisme-scey-valdesaone.fr/index.php?IdPage=132981557122",
+    "sourceOfficial": "https://www.tourisme-scey-valdesaone.fr/index.php?IdPage=132981557122",
+    "servicesSource": "https://www.tourisme-scey-valdesaone.fr/index.php?IdPage=132981557122"
   },
   {
     "department": "70",
@@ -755,20 +759,22 @@
     "department": "70",
     "name": "Ferme Château Gaillard – accueil camping-car",
     "city": "Genevreuille",
-    "address": "70240 Genevreuille",
+    "address": "Lieu-dit Château-Gaillard, 70240 Genevreuille",
     "latitude": 47.688263,
     "longitude": 6.38589,
     "type": "Camping accueillant les camping-cars",
     "services": [
-      "Emplacements camping-car",
-      "Borne de services (détails à confirmer)"
+      "Camping à la ferme",
+      "Emplacements camping-car (annuaire spécialisé ; à confirmer)"
     ],
     "price": "Non confirmé",
-    "status": "6 places selon la fiche aire privée ; autre fiche camping au même GPS : non doublonnée",
+    "status": "Ferme d'accueil paysan L'bout d'chemin, camping à la ferme et accueil de camping-cars référencé par un annuaire spécialisé. Nombre de 6 places et fonctionnement de la borne à confirmer.",
     "source": "https://www.camping-car.com/aires/20308-ferme-chateau-gaillard/",
     "gpsSource": "https://www.camping-car.com/aires/20308-ferme-chateau-gaillard/",
     "sourceId": "camping-car.com/20308",
-    "importReview": "Fiche annuaire Camping-car.com ; GPS sourcé ; dates, ouverture actuelle et tarifs à reconfirmer."
+    "importReview": "Haute-Saône Tourisme confirme la ferme L'bout d'chemin au lieu-dit Château-Gaillard et l'activité camping ; l'office ne confirme pas une borne de vidange ni 6 emplacements camping-car. Retrait de la borne non attestée.",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/lbout-dchemin-genevreuille-fr-4910786/",
+    "servicesSource": "https://www.camping-car.com/aires/20308-ferme-chateau-gaillard/"
   },
   {
     "department": "70",
