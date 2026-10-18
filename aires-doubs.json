@@ -71,19 +71,23 @@
     "department": "25",
     "name": "Aire de camping-car de Fourbanne",
     "city": "Fourbanne",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de stationnement camping-car",
+    "services": [
+      "Stationnement",
+      "Petit sanitaire public (signalement OSM, à confirmer)"
+    ],
+    "price": "Gratuit selon données OpenStreetMap, à confirmer auprès de la commune",
+    "status": "Parking signalé accessible 24 h/24 sur OpenStreetMap ; ni électricité ni vidange selon les données communautaires. Fonctionnement et réglementation locale non confirmés.",
     "source": "https://www.openstreetmap.org/node/12089179606",
     "latitude": 47.3302024,
     "longitude": 6.3038807,
     "gpsSource": "https://www.openstreetmap.org/node/12089179606",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Localisation chemin du Tunnel et absence de borne de vidange/électricité selon reprise des données OSM (OpenAlfa). Aucune source municipale retrouvée ; sourceOfficial volontairement absent.",
     "sourceId": "node/12089179606",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "Chemin du Tunnel, 25110 Fourbanne"
   },
   {
     "department": "25",
@@ -254,21 +258,24 @@
   },
   {
     "department": "25",
-    "name": "Aires de camping-cars - Sancey",
+    "name": "Aire de stationnement de Sancey — sortie de village",
     "city": "Sancey",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "type": "Aire de stationnement camping-car",
+    "services": [
+      "Stationnement (services sur l'autre aire au parking Maximarché)"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "La documentation touristique distingue le stationnement en sortie de village de l'aire de services au parking Maximarché. Emplacement exact et conditions de stationnement à confirmer.",
     "source": "https://www.openstreetmap.org/way/299672982",
     "latitude": 47.2905098,
     "longitude": 6.5776939,
     "gpsSource": "https://www.openstreetmap.org/way/299672982",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "La fiche touristique de Sancey confirme deux implantations distinctes : parking Maximarché (services) et sortie de village (stationnement). Le point GPS OSM de cette fiche n'a pas été recoupé avec une localisation officielle ; ne pas y attribuer les services Euro-Relais.",
     "sourceId": "way/299672982",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "sourceOfficial": "https://www.doubs.travel/sit/aires-de-camping-cars-sancey"
   },
   {
     "department": "25",
