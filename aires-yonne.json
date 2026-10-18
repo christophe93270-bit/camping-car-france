@@ -234,23 +234,30 @@
   },
   {
     "department": "89",
-    "name": "Bléneau Camping Car site",
+    "name": "Aire communale de services camping-car de Bléneau — rue de l'Épalu",
     "city": "Bléneau",
-    "type": "Parking camping-car OpenStreetMap — site exact à confirmer",
+    "type": "Aire communale de services camping-car (distincte de CAMPING-CAR PARK)",
     "services": [
-      "Stationnement (source OpenStreetMap, non vérifié sur place)"
+      "Stationnement",
+      "Borne Euro-Relais",
+      "Électricité",
+      "Eau potable",
+      "Vidange eaux usées",
+      "Vidange WC"
     ],
-    "price": "Non confirmé pour ce point GPS",
-    "status": "Point OpenStreetMap non rapproché de manière certaine de l'aire CAMPING-CAR PARK rue du Lieutenant Travers. L'aire exploitant et le point OSM sont à des coordonnées distinctes ; confirmer sur place avant fusion.",
+    "price": "Non confirmé (tarifs de la fiche datant de 2019)",
+    "status": "Point OSM cohérent avec les coordonnées publiées pour l'aire communale (écart d'environ 15 m). Informations techniques issues d'un annuaire spécialisé, sans confirmation municipale récente. Ne pas confondre avec CAMPING-CAR PARK rue du Lieutenant Travers.",
     "source": "https://www.openstreetmap.org/way/1189492372",
     "latitude": 47.6976473,
     "longitude": 2.9432664,
     "gpsSource": "https://www.openstreetmap.org/way/1189492372",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Contrôle 18/10/2026 : maintien de la réserve géographique ; aucune sourceOfficial ajoutée faute de correspondance démontrée.",
+    "importReview": "Contrôle géographique : camping-car.com indique 47.697598, 2.9434079 pour l'aire communale, contre 47.6976473, 2.9432664 OSM (environ 12 m). L'aire CAMPING-CAR PARK est distincte à 47.70559, 2.94876. Source secondaire uniquement ; sourceOfficial absent.",
     "sourceId": "way/1189492372",
-    "cityVerificationNote": "Bléneau confirmé ; association de l'emplacement OSM à l'Épalu ou autre parking à vérifier."
+    "cityVerificationNote": "Bléneau confirmé ; association de l'emplacement OSM à l'Épalu ou autre parking à vérifier.",
+    "address": "6 rue de l'Épalu, 89220 Bléneau",
+    "servicesSource": "https://www.camping-car.com/aires/45744-aire-communale/"
   },
   {
     "department": "89",
