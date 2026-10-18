@@ -418,37 +418,51 @@
     "name": "Aire de stationnement des camping-cars à Seillans",
     "city": "Seillans",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau potable",
+      "Vidange eaux grises",
+      "Borne de services",
+      "Dépôt de déchets"
+    ],
+    "price": "Gratuit (fiche Visit Var, actualisée en 2026).",
+    "status": "Aire de services municipale chemin des Clos, près du parking et de la piscine, ouverte toute l'année selon Visit Var ; gratuité annoncée. Ne pas déduire que le stationnement prolongé est autorisé à la borne.",
     "source": "https://www.openstreetmap.org/way/1343876241",
     "latitude": 43.6359713,
     "longitude": 6.6483673,
     "gpsSource": "https://www.openstreetmap.org/way/1343876241",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune renseignée d'après le toponyme explicite du nom de fiche ; adresse précise, statut d'ouverture, services et tarif restent à confirmer par une source directe.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune renseignée d'après le toponyme explicite du nom de fiche ; adresse précise, statut d'ouverture, services et tarif restent à confirmer par une source directe. | 18/10/2026 : source Visit Var 2026 : chemin des Clos, eau, vidange, gratuit, toute l'année.",
     "sourceId": "way/1343876241",
-    "address": "Adresse postale non confirmée — utiliser les coordonnées GPS de la fiche.",
-    "priceSource": "https://www.openstreetmap.org/way/1343876241"
+    "address": "Chemin des Clos, 83440 Seillans",
+    "priceSource": "https://www.visitvar.fr/fiche/aire-de-services-camping-cars-de-seillans-5502645",
+    "sourceOfficial": "https://www.visitvar.fr/fiche/aire-de-services-camping-cars-de-seillans-5502645",
+    "servicesSource": "https://www.visitvar.fr/fiche/aire-de-services-camping-cars-de-seillans-5502645"
   },
   {
     "department": "83",
     "name": "Aire municipale CAMPING-CAR de Comps-sur-Artuby",
     "city": "Comps-sur-Artuby",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Vidange eaux grises",
+      "Vidange eaux noires",
+      "WC publics"
+    ],
+    "price": "Services à partir de 3 € par jeton, vendu chez les commerçants ; tarif stationnement non précisé par Visit Var.",
+    "status": "Visit Var indique ouverture toute l'année 2026 à la Grange de Roux, services dès 3 €. Une délibération municipale de 2024 mentionne une demande de fermeture ; la fiche touristique 2026 reste la source opérationnelle la plus récente consultée.",
     "source": "https://www.openstreetmap.org/way/1567185370",
     "latitude": 43.7064865,
     "longitude": 6.5069989,
     "gpsSource": "https://www.openstreetmap.org/way/1567185370",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune renseignée d'après le toponyme explicite du nom de fiche ; adresse précise, statut d'ouverture, services et tarif restent à confirmer par une source directe.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune renseignée d'après le toponyme explicite du nom de fiche ; adresse précise, statut d'ouverture, services et tarif restent à confirmer par une source directe. | 18/10/2026 : Visit Var mise à jour 28/01/2026, services 3 €, ouverture toute l'année ; existence de délibération 2024 sur demande de fermeture signalée.",
     "sourceId": "way/1567185370",
-    "address": "Adresse postale non confirmée — utiliser les coordonnées GPS de la fiche.",
-    "priceSource": "https://www.openstreetmap.org/way/1567185370"
+    "address": "La Grange de Roux, 83840 Comps-sur-Artuby",
+    "priceSource": "https://www.visitvar.fr/fiche/aire-de-camping-car-4854082",
+    "sourceOfficial": "https://www.visitvar.fr/fiche/aire-de-camping-car-4854082",
+    "servicesSource": "https://www.visitvar.fr/fiche/aire-de-camping-car-4854082"
   }
 ]
