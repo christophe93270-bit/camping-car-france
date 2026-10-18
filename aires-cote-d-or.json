@@ -124,24 +124,30 @@
   },
   {
     "department": "21",
-    "name": "Aire pour camping-cars de Nolay",
+    "name": "Aire municipale de camping-cars de Nolay",
     "city": "Nolay",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire municipale de stationnement et services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement (30 emplacements)",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées et WC"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; jeton 3 € pour 10 min d'eau ou 60 min d'électricité (tarif office de tourisme, à revérifier)",
+    "status": "Ouverte toute l'année selon l'office de tourisme. Borne de services accessible 24 h/24 ; jetons disponibles à l'office de tourisme, boulangerie Dervin et maison de la presse.",
     "source": "https://www.openstreetmap.org/way/186910144",
     "latitude": 46.9504036,
     "longitude": 4.6272488,
     "gpsSource": "https://www.openstreetmap.org/way/186910144",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Office de tourisme de Beaune et Agence de tourisme de Nolay confirment 30 emplacements, gratuité, borne eau/électricité/vidange et jetons. GPS OSM conservé (à ~80 m des coordonnées touristiques). Ne pas confondre avec projet Camping-Car Park La Bruyère, ouverture reportée selon nolay.com.",
     "sourceId": "way/186910144",
-    "servicesSource": "https://www.openstreetmap.org/way/186910144",
-    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée."
+    "servicesSource": "https://www.beaune-tourisme.fr/s-informer/venir-et-se-deplacer/campings-cars/aires-de-camping-cars-2/nolay-liberte/",
+    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée.",
+    "address": "4-6 avenue de la Liberté, 21340 Nolay",
+    "sourceOfficial": "https://www.beaune-tourisme.fr/s-informer/venir-et-se-deplacer/campings-cars/aires-de-camping-cars-2/nolay-liberte/",
+    "priceSource": "https://www.beaune-tourisme.fr/s-informer/venir-et-se-deplacer/campings-cars/aires-de-camping-cars-2/nolay-liberte/"
   },
   {
     "department": "21",
@@ -198,22 +204,23 @@
     "department": "21",
     "name": "Aire de camping-cars Velars-sur-Ouche",
     "city": "Velars-sur-Ouche",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Stationnement camping-car — statut et équipements à confirmer",
     "services": [
-      "Électricité"
+      "Stationnement camping-car (référencé dans un arrêté municipal de 2026)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "La mairie publie un arrêté de 2026 mentionnant une aire de stationnement camping-car allée du Souvenir et des Anciens Combattants, avec interdiction temporaire lors d'un tournoi. Ce document ne confirme ni services, ni capacité, ni accès permanent ; position GPS OpenStreetMap à recouper.",
     "source": "https://www.openstreetmap.org/way/311889278",
     "latitude": 47.3180397,
     "longitude": 4.9069171,
     "gpsSource": "https://www.openstreetmap.org/way/311889278",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Arrêté municipal 2026-VOIRIE-12 intitulé « Interdisant le stationnement Aire de stationnement Allée du Souvenir et des Anciens combattants (stationnement camping-car) pour le Tournois des Sages ». Preuve d'une aire de stationnement identifiée, pas de garantie d'ouverture actuelle ou d'électricité. Ancien tag OSM électricité non recoupé, retiré.",
     "sourceId": "way/311889278",
-    "servicesSource": "https://www.openstreetmap.org/way/311889278",
-    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée."
+    "servicesSource": "https://www.velars-sur-ouche.fr/les-arretes-municipaux/",
+    "cityVerificationNote": "Commune identifiée d'après le nom de l'aire ; vérification cartographique recommandée.",
+    "sourceOfficial": "https://www.velars-sur-ouche.fr/les-arretes-municipaux/"
   },
   {
     "department": "21",
