@@ -329,20 +329,19 @@
     "city": "Thaon-les-Vosges",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Stationnement gratuit (source secondaire)",
-      "Eau potable payante (source secondaire)",
-      "Vidange eaux grises (source secondaire)",
-      "Vidange cassette WC (source secondaire)"
+      "Stationnement sur aire dédiée (conditions nocturnes à confirmer)",
+      "Vidange eaux grises et cassette signalée par les usagers",
+      "Eau potable : borne signalée hors service en 2026"
     ],
-    "price": "Stationnement gratuit ; services : tarifs divergents (2,90 € eau selon publication 2022 ; 4 € selon annuaire), montant actuel non confirmé",
-    "status": "Existence et localisation rue du Coignot confirmées par un règlement municipal qui impose aux camping-cars de stationner sur cette aire. Les 15 places, la gratuité du stationnement et les 4 € de services proviennent de sources secondaires, et non d'un barème municipal à jour. Électricité non confirmée, signalée indisponible par une source secondaire.",
+    "price": "Stationnement annoncé gratuit par annuaires et usagers ; eau annoncée 4 € mais borne signalée hors service en 2026. Tarif et conditions actuels à confirmer.",
+    "status": "Aire rue du Coignot confirmée par règlement municipal. Attention : plusieurs avis de voyageurs datés de 2026 signalent la borne d'eau hors service ; un avis mentionne une restriction nocturne non corroborée par un arrêté municipal. Stationnement nocturne et eau à vérifier auprès de la mairie avant déplacement.",
     "source": "https://www.openstreetmap.org/way/791631162",
     "latitude": 48.2506925,
     "longitude": 6.4250372,
     "gpsSource": "https://www.openstreetmap.org/way/791631162",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : source secondaire rapprochée de la géométrie OSM, tarifs actuels à confirmer. | 18/10/2026 : règlement municipal confirme l'aire rue du Coignot ; tarifs et services issus de sources secondaires, non certifiés par la mairie. | 18/10/2026 : divergence 2,90 € / 4 € documentée, tarif municipal actuel non confirmé.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : source secondaire rapprochée de la géométrie OSM, tarifs actuels à confirmer. | 18/10/2026 : règlement municipal confirme l'aire rue du Coignot ; tarifs et services issus de sources secondaires, non certifiés par la mairie. | 18/10/2026 : divergence 2,90 € / 4 € documentée, tarif municipal actuel non confirmé. | 18/10/2026 : avis 2026 contradictoires sur interdiction nocturne et borne eau en panne ; ne pas garantir nuitée ni eau.",
     "sourceId": "way/791631162",
     "address": "Rue du Coignot, près du port fluvial, 88150 Thaon-les-Vosges",
     "sourceOfficial": "https://cities.reseaudesvilles.fr/cities/296/documents/ecegevq0tdr9nq3.pdf",
@@ -363,7 +362,7 @@
       "Lave-linge payant",
       "Sèche-linge payant"
     ],
-    "price": "Forfait payant : 7 € indiqué sur la version anglaise de Tourisme Vosges ; une autre source annonce à partir de 9 €. Tarif 2026 exact à confirmer auprès de la mairie.",
+    "price": "7 € selon SITLOR mis à jour le 11/10/2026 et ancienne plaquette municipale ; plusieurs voyageurs indiquent 9 € + taxe en septembre 2026. Tarif réel à confirmer.",
     "status": "Source institutionnelle correspondant à l'aire nommée. 5 places près du plan d'eau ; ne pas confondre avec l'aire de dépotage gratuite rue de la Vallée de l'Aître. La version anglaise de la fiche indique 7 €, montant absent de la version française : à confirmer.",
     "source": "https://www.openstreetmap.org/way/791663890",
     "latitude": 48.0472355,
@@ -371,12 +370,12 @@
     "gpsSource": "https://www.openstreetmap.org/way/791663890",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : fiche touristique officielle consultée ; services et tarifs explicitement documentés, réserves consignées. | 18/10/2026 : tarif à partir de 9 € selon SITLOR 2026, ancienne plaquette mairie à 7 € non retenue. | 18/10/2026 : contradiction vérifiée entre Tourisme Vosges anglais (7 €) et annonce à partir de 9 €, ne pas afficher 9 € comme prix certain.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : fiche touristique officielle consultée ; services et tarifs explicitement documentés, réserves consignées. | 18/10/2026 : tarif à partir de 9 € selon SITLOR 2026, ancienne plaquette mairie à 7 € non retenue. | 18/10/2026 : contradiction vérifiée entre Tourisme Vosges anglais (7 €) et annonce à partir de 9 €, ne pas afficher 9 € comme prix certain. | 18/10/2026 : fiche SITLOR mise à jour 11/10/2026 affiche 7 €, mais témoignage septembre 2026 indique 9 € + taxe.",
     "sourceId": "way/791663890",
     "servicesSource": "https://www.tourisme.vosges.fr/sejourner/hotels/778003782-aire-de-camping-car-de-xertigny-xertigny",
     "address": "Bord du plan d'eau, face aux Woodies, 88220 Xertigny",
     "sourceOfficial": "https://www.tourisme.vosges.fr/sejourner/hotels/778003782-aire-de-camping-car-de-xertigny-xertigny",
-    "priceSource": "https://www.tourisme.vosges.fr/en/open-air-hospitality/778003782-aire-de-camping-car-de-xertigny-xertigny"
+    "priceSource": "https://www.cirkwi.com/en/point-interet/2884532-aire-de-camping-car-de-xertigny"
   },
   {
     "department": "88",
