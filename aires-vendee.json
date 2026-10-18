@@ -283,17 +283,27 @@
     "name": "Aire de camping-car - La Vallée",
     "city": "POUZAUGES",
     "type": "Aire de service",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : tarifs, services, accès et position à confirmer",
+    "services": [
+      "Eau (hors gel)",
+      "Vidange eaux grises",
+      "Vidange eaux noires",
+      "Toilettes (saisonnières)",
+      "Déchets"
+    ],
+    "price": "Stationnement gratuit ; prix des éventuels services non précisé.",
+    "status": "5 emplacements partagés avec le covoiturage. Ouvert toute l'année 2026 ; équipements mis hors gel de mi-novembre à mi-mars, sanitaires accessibles de mi-mars à mi-novembre.",
     "source": "https://wcf.tourinsoft.com/Syndication/3.0/cdt85/ce2f1f33-fbe9-44fe-9365-9e83938525ae/Objects",
     "latitude": 46.7762775,
     "longitude": -0.8282196,
     "gpsSource": "https://wcf.tourinsoft.com/Syndication/3.0/cdt85/ce2f1f33-fbe9-44fe-9365-9e83938525ae/Objects",
     "dataLicense": "Licence Ouverte 2.0",
     "dataAttribution": "Vendée Expansion / Tourinsoft",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "ACCAMPDL085V503Q6J"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : informations publiées par l'organisme de destination Vendée Bocage. Adresse confirmée par la commune (guide pratique 2026).",
+    "sourceId": "ACCAMPDL085V503Q6J",
+    "sourceOfficial": "https://www.vendeebocage.fr/aire-camping-cars/aire-de-camping-car-la-vallee/",
+    "priceSource": "https://www.vendeebocage.fr/aire-camping-cars/aire-de-camping-car-la-vallee/",
+    "servicesSource": "https://www.vendeebocage.fr/aire-camping-cars/aire-de-camping-car-la-vallee/",
+    "address": "Rue du Pré de Foire, 85700 Pouzauges"
   },
   {
     "department": "85",
@@ -521,17 +531,25 @@
     "name": "Aire de camping-car - La Libaudière",
     "city": "POUZAUGES",
     "type": "Aire de stationnement",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : tarifs, services, accès et position à confirmer",
+    "services": [
+      "Eau potable",
+      "Électricité",
+      "Sanitaires",
+      "Douches"
+    ],
+    "price": "25 € pour 2 personnes, 5 € par personne supplémentaire (tarif affiché en 2026).",
+    "status": "Aire privée de 3 emplacements ; ouverte du 13 mars au 12 novembre 2026 selon Vendée Bocage ; eau, électricité, sanitaires et équipements de loisirs.",
     "source": "https://wcf.tourinsoft.com/Syndication/3.0/cdt85/ce2f1f33-fbe9-44fe-9365-9e83938525ae/Objects",
     "latitude": 46.7990616,
     "longitude": -0.7945409,
     "gpsSource": "https://wcf.tourinsoft.com/Syndication/3.0/cdt85/ce2f1f33-fbe9-44fe-9365-9e83938525ae/Objects",
     "dataLicense": "Licence Ouverte 2.0",
     "dataAttribution": "Vendée Expansion / Tourinsoft",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "ACCAMPDL085V51E43N"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : informations publiées par l'organisme de destination Vendée Bocage. Adresse précise et correspondance GPS à recontrôler.",
+    "sourceId": "ACCAMPDL085V51E43N",
+    "sourceOfficial": "https://www.vendeebocage.fr/aire-camping-cars/aire-de-camping-car-la-libaudiere/",
+    "priceSource": "https://www.vendeebocage.fr/aire-camping-cars/aire-de-camping-car-la-libaudiere/",
+    "servicesSource": "https://www.vendeebocage.fr/aire-camping-cars/aire-de-camping-car-la-libaudiere/"
   },
   {
     "department": "85",
