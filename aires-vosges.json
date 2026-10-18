@@ -320,22 +320,30 @@
   {
     "department": "88",
     "name": "Aire de services pour camping car - Port d'Epinal",
-    "city": "Commune à confirmer",
+    "city": "Épinal",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement de courte durée",
+      "Eau",
+      "Vidange eaux grises",
+      "Vidange cassette WC",
+      "Électricité",
+      "Wi-Fi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif non publié sur la fiche touristique ; à vérifier auprès de la capitainerie",
+    "status": "Source institutionnelle touristique correspondant à l'aire nommée. Attention : la fiche touristique indique 5 places dans sa description mais 6 dans son champ capacité, et limite le stationnement à 24 h ; d'autres pages plus anciennes évoquent 48 h. Retenir 24 h par prudence et faire confirmer à la capitainerie.",
     "source": "https://www.openstreetmap.org/way/837313923",
     "latitude": 48.1856962,
     "longitude": 6.445137,
     "gpsSource": "https://www.openstreetmap.org/way/837313923",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : fiche de l'office de tourisme ou Tourisme Vosges consultée, services et adresse contrôlés ; sourceOfficial institutionnelle attribuée.",
     "sourceId": "way/837313923",
-    "servicesSource": "https://www.openstreetmap.org/way/837313923"
+    "servicesSource": "https://www.epinal-touristoffice.com/stay/where-to-stay/camper-van-parking-area/camper-van-area-port-of-epinal-288037",
+    "address": "Quai de Dogneville, port d'Épinal, 88000 Épinal",
+    "sourceOfficial": "https://www.epinal-touristoffice.com/stay/where-to-stay/camper-van-parking-area/camper-van-area-port-of-epinal-288037",
+    "priceSource": "https://www.epinal-touristoffice.com/stay/where-to-stay/camper-van-parking-area/camper-van-area-port-of-epinal-288037"
   },
   {
     "department": "88",
@@ -441,19 +449,28 @@
   {
     "department": "88",
     "name": "Aire de camping-car de Monthureux-sur-Saône",
-    "city": "Commune à confirmer",
+    "city": "Monthureux-sur-Saône",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit",
+      "Eau potable gratuite",
+      "Vidange toilettes chimiques gratuite",
+      "Sanitaires"
+    ],
+    "price": "Stationnement et services gratuits selon Tourisme Vosges",
+    "status": "Source institutionnelle touristique correspondant à l'aire nommée. Vérifier sur place les conditions de fonctionnement des équipements.",
     "source": "https://www.openstreetmap.org/way/1280599902",
     "latitude": 48.031839,
     "longitude": 5.9733599,
     "gpsSource": "https://www.openstreetmap.org/way/1280599902",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1280599902"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : fiche de l'office de tourisme ou Tourisme Vosges consultée, services et adresse contrôlés ; sourceOfficial institutionnelle attribuée.",
+    "sourceId": "way/1280599902",
+    "address": "11 rue de la Croix de Mission, 88410 Monthureux-sur-Saône",
+    "sourceOfficial": "https://www.tourisme.vosges.fr/sejourner/hotels/753003585-aire-de-stationnement-de-camping-car-monthureux-sur-saone",
+    "servicesSource": "https://www.tourisme.vosges.fr/sejourner/hotels/753003585-aire-de-stationnement-de-camping-car-monthureux-sur-saone",
+    "priceSource": "https://www.tourisme.vosges.fr/sejourner/hotels/753003585-aire-de-stationnement-de-camping-car-monthureux-sur-saone"
   },
   {
     "department": "88",
@@ -507,22 +524,29 @@
   {
     "department": "88",
     "name": "Aire de stationnement camping-car au Thillot",
-    "city": "Commune à confirmer",
+    "city": "Le Thillot",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit",
+      "Eau potable gratuite",
+      "Vidange eaux grises gratuite",
+      "Vidange cassette WC gratuite",
+      "Électricité gratuite"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et services gratuits selon Tourisme Vosges",
+    "status": "Source institutionnelle touristique correspondant à l'aire nommée. Vérifier sur place les conditions de fonctionnement des équipements.",
     "source": "https://www.openstreetmap.org/way/1312865904",
     "latitude": 47.882451,
     "longitude": 6.7623391,
     "gpsSource": "https://www.openstreetmap.org/way/1312865904",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : fiche de l'office de tourisme ou Tourisme Vosges consultée, services et adresse contrôlés ; sourceOfficial institutionnelle attribuée.",
     "sourceId": "way/1312865904",
-    "servicesSource": "https://www.openstreetmap.org/way/1312865904"
+    "servicesSource": "https://www.tourisme.vosges.fr/sejourner/hotels/745005048-aire-de-stationnement-et-de-service-camping-car-au-thillot-le-thillot",
+    "address": "13 rue de la Mouline, 88160 Le Thillot (à l'est de la médiathèque)",
+    "sourceOfficial": "https://www.tourisme.vosges.fr/sejourner/hotels/745005048-aire-de-stationnement-et-de-service-camping-car-au-thillot-le-thillot",
+    "priceSource": "https://www.tourisme.vosges.fr/sejourner/hotels/745005048-aire-de-stationnement-et-de-service-camping-car-au-thillot-le-thillot"
   },
   {
     "department": "88",
