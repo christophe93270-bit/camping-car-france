@@ -126,22 +126,28 @@
   {
     "department": "52",
     "name": "Aire camping-car du Grand Langres",
-    "city": "Commune à confirmer",
+    "city": "Langres",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (29 emplacements, dont 3 grands gabarits)",
+      "Eau potable",
+      "Vidange eaux grises et noires",
+      "Électricité (16 emplacements desservis, 6 A)",
+      "Tri sélectif"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire d'accueil du Grand Langres confirmée par la communauté de communes : 29 emplacements dont 3 pour camping-cars de plus de 8,5 m ; ouverte 24 h/24 toute l'année ; durée maximale 72 h. Eau, vidange et électricité disponibles, paiement par carte bancaire uniquement. Tarifs non publiés dans la page consultée.",
     "source": "https://www.openstreetmap.org/way/620396155",
     "latitude": 47.8549569,
     "longitude": 5.3352465,
     "gpsSource": "https://www.openstreetmap.org/way/620396155",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : source directe Grand Langres, 5 rue Jean Favre, 29 places, 72 h max, équipements et CB confirmés ; sourceOfficial attribuée.",
     "sourceId": "way/620396155",
-    "servicesSource": "https://www.openstreetmap.org/way/620396155"
+    "servicesSource": "https://grand-langres.fr/infos-pratiques/transport/aire-de-camping-car-et-gens-du-voyage/",
+    "address": "5 rue Jean Favre, 52200 Langres",
+    "sourceOfficial": "https://grand-langres.fr/infos-pratiques/transport/aire-de-camping-car-et-gens-du-voyage/"
   },
   {
     "department": "52",
@@ -250,21 +256,27 @@
   {
     "department": "52",
     "name": "Aire de camping-cars de Colombey-les-Deux-Églises",
-    "city": "Commune à confirmer",
+    "city": "Colombey-les-Deux-Églises",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Stationnement (20 emplacements)",
+      "Eau",
+      "Vidange cassette WC",
+      "Vidange eaux usées"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Eau et vidanges gratuites selon Haute-Marne Attractivité ; tarif du stationnement non précisé",
+    "status": "Aire communale de 20 emplacements, stationnement nocturne autorisé, ouverture 24 h/24 et toute l'année 2026 selon Haute-Marne Attractivité. Eau et vidanges gratuites. Prix du stationnement non indiqué sur la fiche officielle.",
     "source": "https://www.openstreetmap.org/way/1275278400",
     "latitude": 48.223504,
     "longitude": 4.8863625,
     "gpsSource": "https://www.openstreetmap.org/way/1275278400",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : source institutionnelle Haute-Marne Attractivité, fiche 2026, 20 places, 68 rue du Général de Gaulle, services eau/vidange gratuits ; sourceOfficial attribuée.",
     "sourceId": "way/1275278400",
-    "servicesSource": "https://www.openstreetmap.org/way/1275278400"
+    "servicesSource": "https://www.bienvenue-hautemarne.fr/sit/colombey-les-deux-eglises-aire-de-camping-cars-de-colombey-les-deux-eglises-acccha052v5007jf/",
+    "address": "68 rue du Général de Gaulle, 52330 Colombey-les-Deux-Églises",
+    "sourceOfficial": "https://www.bienvenue-hautemarne.fr/sit/colombey-les-deux-eglises-aire-de-camping-cars-de-colombey-les-deux-eglises-acccha052v5007jf/",
+    "priceSource": "https://www.bienvenue-hautemarne.fr/sit/colombey-les-deux-eglises-aire-de-camping-cars-de-colombey-les-deux-eglises-acccha052v5007jf/"
   }
 ]
