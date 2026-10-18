@@ -244,17 +244,24 @@
     "name": "Aire de stationnement Les Trois-Moutiers",
     "city": "Les Trois-Moutiers",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange"
+    ],
+    "price": "Tarif non publié par l'office de tourisme.",
+    "status": "L'office de tourisme confirme des aires de camping-cars dans la commune, avec eau, électricité, vidange et emplacements ombragés. Correspondance exacte avec le point OSM à vérifier.",
     "source": "https://www.openstreetmap.org/node/12186099150",
     "latitude": 47.0633871,
     "longitude": 0.0178179,
     "gpsSource": "https://www.openstreetmap.org/node/12186099150",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom de l'aire ; position administrative précise à contrôler.",
-    "sourceId": "node/12186099150"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom de l'aire ; position administrative précise à contrôler. | 18/10/2026 : source communale ou office de tourisme vérifiée ; restrictions et incertitudes conservées.",
+    "sourceId": "node/12186099150",
+    "sourceOfficial": "https://tourisme-loudunais.com/destinations/les-trois-moutiers/hebergements/aires-camping-cars/",
+    "priceSource": "https://tourisme-loudunais.com/destinations/les-trois-moutiers/hebergements/aires-camping-cars/",
+    "servicesSource": "https://tourisme-loudunais.com/destinations/les-trois-moutiers/hebergements/aires-camping-cars/"
   },
   {
     "department": "86",
@@ -355,17 +362,25 @@
     "name": "Aire de camping cars Thollet",
     "city": "Thollet",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange",
+      "Toilettes publiques"
+    ],
+    "price": "Stationnement gratuit selon la mairie ; vérifier les éventuelles évolutions tarifaires.",
+    "status": "Aire communale près de la rivière, derrière la salle des fêtes, accès rue Henri de Laitre. Eau, électricité, vidange et toilettes publiques. Le règlement municipal de 2022 indique six emplacements, chiffre non reconfirmé en 2026.",
     "source": "https://www.openstreetmap.org/way/1186876980",
     "latitude": 46.4217273,
     "longitude": 1.1202339,
     "gpsSource": "https://www.openstreetmap.org/way/1186876980",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune contrôlée ; ",
-    "sourceId": "way/1186876980"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune contrôlée ;  | 18/10/2026 : source communale ou office de tourisme vérifiée ; restrictions et incertitudes conservées.",
+    "sourceId": "way/1186876980",
+    "sourceOfficial": "https://www.intramuros.org/thollet/page/camping-car",
+    "priceSource": "https://www.intramuros.org/thollet/page/camping-car",
+    "servicesSource": "https://www.intramuros.org/thollet/page/camping-car"
   },
   {
     "department": "86",
@@ -446,19 +461,23 @@
     "city": "La Grimaudière",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Eau",
+      "Sanitaires",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif non communiqué sur la fiche de l'office de tourisme.",
+    "status": "Rue des Lavoirs, 86330 La Grimaudière. Office de tourisme : 8 places ombragées au bord de la Dive, eau, sanitaires publics, vidange et jeux pour enfants.",
     "source": "https://www.openstreetmap.org/way/1308749490",
     "latitude": 46.808504,
     "longitude": 0.0157039,
     "gpsSource": "https://www.openstreetmap.org/way/1308749490",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune contrôlée ; ",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune contrôlée ;  | 18/10/2026 : source communale ou office de tourisme vérifiée ; restrictions et incertitudes conservées.",
     "sourceId": "way/1308749490",
-    "servicesSource": "https://www.openstreetmap.org/way/1308749490"
+    "servicesSource": "https://tourisme-loudunais.com/es/area-de-autocaravanas/la-grimaudiere-camping-car-park/",
+    "sourceOfficial": "https://tourisme-loudunais.com/es/area-de-autocaravanas/la-grimaudiere-camping-car-park/",
+    "priceSource": "https://tourisme-loudunais.com/es/area-de-autocaravanas/la-grimaudiere-camping-car-park/"
   },
   {
     "department": "86",
