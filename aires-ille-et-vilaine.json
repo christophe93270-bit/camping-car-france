@@ -5,10 +5,13 @@
     "city": "Bédée",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Eau",
+      "Vidange des eaux usées",
+      "WC",
+      "Aire de pique-nique"
     ],
-    "price": "Stationnement gratuit selon annuaire communautaire ; ouverture saisonnière à confirmer",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif du stationnement non confirmé",
+    "status": "Aire ouverte toute l'année selon Ille-et-Vilaine Tourisme",
     "source": "https://www.openstreetmap.org/node/11897389616",
     "latitude": 48.1808646,
     "longitude": -1.9439605,
@@ -21,11 +24,11 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
     "priceSource": "https://www.i-campingcar.fr/dept.php?dpt=35",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Ne pas confondre gratuité et ouverture de l'aire.",
+    "priceNote": "Ancienne indication de gratuité non confirmée par source officielle.",
     "address": "Parking du Marché (place du Marché), 35137 Bédée",
     "capacity": 6,
     "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-cars-bedee-fr-2727720/",
-    "verificationNote": "Office de tourisme : 6 emplacements, eau potable, vidange et WC ; tarif non confirmé."
+    "verificationNote": "Office de tourisme : 6 emplacements, eau potable, vidange, WC, pique-nique, ouverture toute l'année. Tarif du stationnement non confirmé."
   },
   {
     "department": "35",
@@ -272,9 +275,10 @@
     "city": "Bazouges-la-Pérouse",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Vidange des eaux usées"
     ],
-    "price": "Stationnement, eau et vidange gratuits ; eau indisponible en hiver",
+    "price": "Stationnement gratuit selon source touristique ; eau et vidange gratuites, indisponibles l'hiver",
     "status": "Aire communale référencée par Ille-et-Vilaine Tourisme ; borne à eau et vidange indisponibles du 1er décembre à fin février",
     "source": "https://www.openstreetmap.org/way/1110588171",
     "latitude": 48.4243519,
@@ -542,17 +546,18 @@
     "capacity": 90,
     "services": [
       "Eau",
-      "Électricité",
       "Vidange des eaux usées",
       "Wi-Fi",
-      "WC"
+      "WC",
+      "Poubelles",
+      "Aire de pique-nique"
     ],
     "price": "Tarif officiel non confirmé ; paiement par carte bancaire à la borne",
     "status": "Ouverte toute l'année, 24 h/24 selon la mairie",
     "source": "https://www.paimpont.bzh/contacts/aire-de-camping-car/",
     "sourceOfficial": "https://www.paimpont.bzh/contacts/aire-de-camping-car/",
     "gpsSource": "https://park4night.com/fr/place/350",
-    "verificationNote": "90 places indiquées par Ille-et-Vilaine Tourisme ; source communautaire Park4night indique 50 places : capacité à recontrôler auprès de la mairie.",
+    "verificationNote": "Ille-et-Vilaine Tourisme : 90 places, vidange, eau potable, Wi-Fi, sanitaires et conteneurs ; borne électricité non citée par cette source, à confirmer.",
     "capacitySource": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-services-de-paimpont-paimpont-fr-2727597/"
   },
   {
@@ -661,7 +666,8 @@
       "Électricité",
       "Eau",
       "Vidange des eaux usées",
-      "Vidange WC"
+      "Vidange WC",
+      "Wi-Fi"
     ],
     "price": "Tarif variable selon la saison : consulter l'exploitant",
     "status": "Référencé par l'exploitant CAMPING-CAR PARK",
@@ -842,11 +848,11 @@
       "WC publics"
     ],
     "price": "Tarifs des services à confirmer",
-    "status": "Aire municipale ; stationnement indisponible le mardi matin (marché)",
+    "status": "Stationnement interdit le mardi matin (marché) selon Ille-et-Vilaine Tourisme",
     "source": "https://www.laguerchedebretagne.fr/stationnement-a-la-guerche-de-bretagne/",
     "sourceOfficial": "https://www.laguerchedebretagne.fr/stationnement-a-la-guerche-de-bretagne/",
     "gpsSource": "https://www.autoplus.fr/camping-car/bretagne-la-liste-des-aires-de-camping-cars-gratuites-1380504.html",
-    "verificationNote": "GPS approximatif issu de coordonnées publiées par un annuaire ; vérifier la position exacte de la borne. La mairie ne confirme pas la capacité."
+    "verificationNote": "Office de tourisme : stationnement possible place du Champ de Foire, sauf le mardi matin, borne électrique face au garage Peugeot."
   },
   {
     "department": "35",
