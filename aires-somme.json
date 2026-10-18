@@ -7,7 +7,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit selon annuaires voyageurs ; services 2 € et électricité 2 € signalés par annuaire spécialisé, tarifs non confirmés par la mairie",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/2475337525",
     "latitude": 49.9261817,
@@ -21,7 +21,8 @@
     "address": "Boulevard du Fort Carabit, 80200 Péronne",
     "capacity": 6,
     "capacitySource": "https://www.camping-car.com/aires/45984-aire-communale/",
-    "verificationNote": "Capacité et adresse d'après répertoire spécialisé ; tarif actuel non confirmé."
+    "verificationNote": "Tarifs non officiels et services potentiellement indisponibles en hiver selon avis janvier 2026. Ne pas considérer les montants comme confirmés.",
+    "tariffSource": "https://www.i-campingcar.fr/aires.php?ville=PERONNE"
   },
   {
     "department": "80",
@@ -345,7 +346,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit (office de tourisme) ; eau et électricité par monnayeur, montants non confirmés",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1280937920",
     "latitude": 50.1539637,
@@ -358,8 +359,9 @@
     "servicesSource": "https://www.openstreetmap.org/way/1280937920",
     "address": "2 rue du Pont à l'Avoine, 80600 Doullens",
     "capacity": 4,
-    "sourceOfficial": "https://www.aireparkreservation.com/aires-camping-car/somme",
-    "verificationNote": "L'exploitant indique quatre emplacements, borne avec eau et vidange."
+    "sourceOfficial": "https://www.mairie-doullens.fr/aire-de-camping/",
+    "verificationNote": "L'office de tourisme confirme quatre places et le stationnement gratuit ; la mairie confirme le monnayeur pour eau et électricité, sans montant publié.",
+    "tariffSource": "https://www.tourisme-territoirenordpicardie.com/pr%C3%A9parer-son-s%C3%A9jour/h%C3%A9bergements/aires-camping-cars/"
   },
   {
     "department": "80",
@@ -420,7 +422,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Emplacement camping-car : 9,15 € à 13,50 € / nuit, services inclus, hors taxes de séjour et d'ordures (tarif touristique 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1316356674",
     "latitude": 50.0905124,
@@ -433,7 +435,8 @@
     "servicesSource": "https://www.openstreetmap.org/way/1316356674",
     "address": "16 rue du Grand Patis, 80460 Friaucourt",
     "sourceOfficial": "https://www.friaucourt.fr/le-camping-municipal/",
-    "verificationNote": "Le camping municipal annonce 98 emplacements au total, mais ne distingue pas le nombre réservé aux camping-cars. Ne pas renseigner 98 comme capacité de l'aire. Ouvert du 1er avril au 31 octobre 2026."
+    "verificationNote": "Tarif 2026 selon office de tourisme ; 98 emplacements au total pour le camping, sans capacité propre aux camping-cars. Ouverture du 1er avril au 31 octobre 2026.",
+    "tariffSource": "https://www.destination-letreport-mers.fr/offres/aux-chants-des-oiseaux-friaucourt-fr-2693645/"
   },
   {
     "department": "80",
