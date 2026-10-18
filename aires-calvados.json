@@ -80,7 +80,7 @@
     "city": "Langrune-sur-Mer",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12173079182",
     "latitude": 49.3203991,
@@ -90,7 +90,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/12173079182",
-    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte."
+    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
+    "address": "Rue du Colonel Harivel, 14830 Langrune-sur-Mer",
+    "capacity": 3,
+    "sourceOfficial": "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-stationnement-de-langrune-sur-mer/",
+    "verificationNote": "Doublon potentiel avec fiche Colonel Harivel : même adresse et description ; ne pas supprimer sans vérification des identifiants GPS."
   },
   {
     "department": "14",
@@ -137,10 +141,10 @@
   {
     "department": "14",
     "name": "Aire de camping-car privée Les Bruyères Carré",
-    "city": "Commune à confirmer",
+    "city": "Moyaux",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Gratuit (étape France Passion, conditions d'accueil à vérifier)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12242455735",
     "latitude": 49.205563,
@@ -149,7 +153,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12242455735"
+    "sourceId": "node/12242455735",
+    "address": "1909 route de Lieurey, 14590 Moyaux",
+    "capacity": 20,
+    "sourceOfficial": "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-privee-les-bruyeres-carre/"
   },
   {
     "department": "14",
@@ -309,10 +316,10 @@
   {
     "department": "14",
     "name": "Aire de stationnement camping-car – Colonel Harivel",
-    "city": "Commune à confirmer",
+    "city": "Langrune-sur-Mer",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/515919221",
     "latitude": 49.3247171,
@@ -321,7 +328,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/515919221"
+    "sourceId": "way/515919221",
+    "address": "Rue du Colonel Harivel, 14830 Langrune-sur-Mer",
+    "capacity": 3,
+    "sourceOfficial": "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-stationnement-de-langrune-sur-mer/"
   },
   {
     "department": "14",
@@ -537,10 +547,10 @@
   {
     "department": "14",
     "name": "Accueil camping-car du Clos Tassin",
-    "city": "Commune à confirmer",
+    "city": "Colleville-sur-Mer",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "8 à 10 € / nuit (tarifs 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1061082921",
     "latitude": 49.3488696,
@@ -549,7 +559,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1061082921"
+    "sourceId": "way/1061082921",
+    "address": "498 route d'Omaha Beach, 14710 Colleville-sur-Mer",
+    "capacity": 15,
+    "sourceOfficial": "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-privee-ferme-du-clos-tassin-a-colleville-sur-mer/"
   },
   {
     "department": "14",
@@ -737,12 +750,12 @@
   {
     "department": "14",
     "name": "Aire de camping-car privée Le Lieu Chéri",
-    "city": "Commune à confirmer",
+    "city": "Ouilly-le-Vicomte",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Tarif non publié ; accueil France Passion, conditions à vérifier",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1296299448",
     "latitude": 49.1841456,
@@ -752,7 +765,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1296299448",
-    "servicesSource": "https://www.openstreetmap.org/way/1296299448"
+    "servicesSource": "https://www.openstreetmap.org/way/1296299448",
+    "address": "20 route de Coquainvilliers, 14100 Ouilly-le-Vicomte",
+    "capacity": 4,
+    "sourceOfficial": "https://www.explore-calvados.com/aires-camping-cars/aire-de-camping-car-privee-le-lieu-cheri/"
   },
   {
     "department": "14",
