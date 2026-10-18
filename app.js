@@ -455,7 +455,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Finistère indisponible",error); }
     let illeEtVilaineAires=[];
     try {
-      const response35=await fetch("aires-ille-et-vilaine.json?v=20261018-6", {cache:"no-store"});
+      const response35=await fetch("aires-ille-et-vilaine.json?v=20261018-7", {cache:"no-store"});
       if(response35.ok) illeEtVilaineAires=await response35.json();
     } catch(error) { console.warn("Chargement Ille-et-Vilaine indisponible",error); }
     let morbihanAires=[];
