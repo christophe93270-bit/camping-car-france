@@ -2,12 +2,15 @@
   {
     "department": "60",
     "name": "Aire de camping-car de Grandvilliers",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Grandvilliers",
+    "type": "Aire municipale gratuite de stationnement et services camping-car",
     "services": [
-      "Électricité"
+      "Électricité",
+      "Eau potable",
+      "Vidange eaux grises",
+      "Vidange WC"
     ],
-    "price": "Non confirmé",
+    "price": "Gratuit selon Oise Tourisme",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/8612245422",
     "latitude": 49.6656538,
@@ -17,15 +20,23 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/8612245422",
-    "servicesSource": "https://www.openstreetmap.org/node/8612245422"
+    "servicesSource": "https://www.openstreetmap.org/node/8612245422",
+    "address": "Place de la Cense, 60210 Grandvilliers",
+    "capacity": 3,
+    "sourceOfficial": "https://www.oisetourisme.com/hebergement/aire-de-camping-car-de-grandvilliers/",
+    "verificationNote": "Commune, adresse, capacité et services vérifiés sur Oise Tourisme ; coordonnées GPS conservées de la source OpenStreetMap."
   },
   {
     "department": "60",
     "name": "Aire pour Camping-cars de Berneuil-sur-Aisne",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "city": "Berneuil-sur-Aisne",
+    "type": "Aire de stationnement et de services camping-car payante",
+    "services": [
+      "Eau potable",
+      "Vidange eaux grises",
+      "Vidange WC"
+    ],
+    "price": "Payant, montant non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/721236609",
     "latitude": 49.417565,
@@ -34,16 +45,25 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/721236609"
+    "sourceId": "way/721236609",
+    "address": "Rue Hippolyte Béranger / rue de la Groseillère, 60350 Berneuil-sur-Aisne",
+    "capacity": 10,
+    "sourceOfficial": "https://www.oisetourisme.com/hebergement/aire-pour-camping-cars-de-berneuil-sur-aisne/",
+    "verificationNote": "Commune, adresse, capacité et services vérifiés sur Oise Tourisme ; coordonnées GPS conservées de la source OpenStreetMap."
   },
   {
     "department": "60",
     "name": "Aire de Camping Car de Courcelles-Epayelles",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Courcelles-Epayelles",
+    "type": "Aire municipale gratuite de stationnement et de services camping-car",
+    "services": [
+      "Stationnement gratuit",
+      "Vidange eaux grises",
+      "Vidange WC",
+      "Eau potable par jeton"
+    ],
+    "price": "Stationnement et vidanges gratuits ; eau 2 € / 10 minutes (environ 150 L)",
+    "status": "Séjour limité à 4 nuits consécutives ; véhicule 7,5 tonnes maximum",
     "source": "https://www.openstreetmap.org/way/721285771",
     "latitude": 49.5707045,
     "longitude": 2.6248679,
@@ -51,13 +71,17 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/721285771"
+    "sourceId": "way/721285771",
+    "address": "Rue d'Enfer, 60420 Courcelles-Epayelles",
+    "capacity": 3,
+    "sourceOfficial": "https://www.oisetourisme.com/hebergement/aire-de-camping-car-de-courcelles-epayelles/",
+    "verificationNote": "Commune, adresse, capacité et services vérifiés sur Oise Tourisme ; coordonnées GPS conservées de la source OpenStreetMap."
   },
   {
     "department": "60",
     "name": "Aire de camping-car de Clermont",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Clermont",
+    "type": "Stationnement camping-car à confirmer",
     "services": [],
     "price": "Non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
@@ -68,17 +92,21 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1081617499"
+    "sourceId": "way/1081617499",
+    "verificationNote": "GPS OpenStreetMap conservé, mais aire de stationnement non recoupée sur Oise Tourisme ; accès et services non confirmés."
   },
   {
     "department": "60",
     "name": "Aire de camping-cars de Beauvais",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Beauvais",
+    "type": "Aire municipale gratuite de stationnement et de services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement gratuit",
+      "Eau potable gratuite",
+      "Vidange eaux grises",
+      "Vidange WC"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement et eau gratuits selon Oise Tourisme",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1328230306",
     "latitude": 49.4241341,
@@ -88,6 +116,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1328230306",
-    "servicesSource": "https://www.openstreetmap.org/way/1328230306"
+    "servicesSource": "https://www.openstreetmap.org/way/1328230306",
+    "address": "Rue Aldebert Bellier, 60000 Beauvais",
+    "capacity": 10,
+    "sourceOfficial": "https://www.oisetourisme.com/hebergement/aire-de-camping-cars-de-beauvais/",
+    "verificationNote": "Commune, adresse, capacité et services vérifiés sur Oise Tourisme ; coordonnées GPS conservées de la source OpenStreetMap."
   }
 ]
