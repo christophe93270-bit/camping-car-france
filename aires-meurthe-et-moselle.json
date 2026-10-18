@@ -65,19 +65,24 @@
     "city": "Blainville-sur-l'Eau",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (12 places)",
+      "Électricité 6 A",
+      "Services de l'aire (forfait 5 h)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "14,50 € TTC / 24 h (13,70 € + taxe de séjour 0,80 €), grille exploitant du 18/09/2026 au 31/12/2027 ; forfait 5 h + services : 6 €.",
+    "status": "Aire CAMPING-CAR PARK de 12 emplacements, ouverte, en bord de Meurthe. Branchements électriques 6 A. Zone soumise à un plan de prévention des risques d'inondation (PPRI) : respecter les alertes et consignes d'évacuation.",
     "source": "https://www.openstreetmap.org/way/369403516",
     "latitude": 48.557323,
     "longitude": 6.4058002,
     "gpsSource": "https://www.openstreetmap.org/way/369403516",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : vérification sur site exploitant / office de tourisme, équipements et réserves tarifaires documentés.",
     "sourceId": "way/369403516",
-    "servicesSource": "https://www.openstreetmap.org/way/369403516"
+    "servicesSource": "https://www.openstreetmap.org/way/369403516",
+    "address": "Rue de la Filature, 54360 Blainville-sur-l'Eau",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/blainville-sur-l-eau?areaType=aire-etape-camping-car",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/blainville-sur-l-eau?areaType=aire-etape-camping-car"
   },
   {
     "department": "54",
@@ -85,20 +90,32 @@
     "city": "Nancy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Stationnement payant (19 places)",
+      "Eau potable",
+      "Électricité",
+      "Vidange WC chimiques",
+      "Sanitaires PMR",
+      "Douches",
+      "Wi-Fi",
+      "Éclairage public",
+      "Animaux acceptés"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement payant (tarif non publié dans la fiche officielle consultée).",
+    "status": "Aire municipale de 19 emplacements. Accès à l'aire, à la capitainerie et aux sanitaires maintenu pendant les travaux du port commencés le 01/10/2026 ; coupure des fluides annoncée pour les bateaux, sans preuve de coupure sur l'aire de camping-car. Accueil capitainerie toute l'année sauf les 1er janvier et 25 décembre. Contact : 03 83 37 63 70.",
     "source": "https://www.openstreetmap.org/way/575288908",
     "latitude": 48.6927711,
     "longitude": 6.192937,
     "gpsSource": "https://www.openstreetmap.org/way/575288908",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : vérification sur site exploitant / office de tourisme, équipements et réserves tarifaires documentés.",
     "sourceId": "way/575288908",
-    "servicesSource": "https://www.openstreetmap.org/way/575288908"
+    "servicesSource": "https://www.openstreetmap.org/way/575288908",
+    "address": "Port de plaisance Saint-Georges, boulevard du 21e Régiment d'Aviation, 54000 Nancy",
+    "sourceOfficial": "https://www.destination-nancy.com/camping/aire-de-stationnement-de-camping-cars-de-nancy-port-de-plaisance/",
+    "relatedOfficialSources": [
+      "https://www.destination-nancy.com/travaux-au-port-de-plaisance-saint-georges/"
+    ]
   },
   {
     "department": "54",
@@ -143,19 +160,29 @@
     "city": "Lunéville",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (21 à 23 places selon sources touristiques)",
+      "Électricité",
+      "Eau potable",
+      "Vidange eaux grises",
+      "Vidange eaux noires",
+      "Wi-Fi gratuit",
+      "Sanitaires en saison",
+      "Animaux acceptés"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarifs 2025 publiés par l'office de tourisme : 14,55 €/24 h du 15 avril au 30 septembre ; 12 €/24 h du 1er octobre au 31 décembre ; taxe de séjour 0,44 €/24 h ; forfait 5 h + services 6 €. Tarifs 2026 à confirmer auprès de l'exploitant.",
+    "status": "Aire CAMPING-CAR PARK au camping des Bosquets, accessible toute l'année 24 h/24. L'office de tourisme indique 21 places dans son descriptif et 23 dans sa fiche de capacité : retenir une capacité de 21 à 23 places, à confirmer. Sanitaires accessibles uniquement pendant l'ouverture saisonnière du camping (fin avril à fin septembre). Animaux tenus en laisse. Contact : 01 83 64 69 21.",
     "source": "https://www.openstreetmap.org/way/1165376131",
     "latitude": 48.5968042,
     "longitude": 6.5010525,
     "gpsSource": "https://www.openstreetmap.org/way/1165376131",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : vérification sur site exploitant / office de tourisme, équipements et réserves tarifaires documentés.",
     "sourceId": "way/1165376131",
-    "servicesSource": "https://www.openstreetmap.org/way/1165376131"
+    "servicesSource": "https://www.openstreetmap.org/way/1165376131",
+    "address": "2 chemin de la Ménagerie, 54300 Lunéville",
+    "sourceOfficial": "https://www.tourisme-lunevillois.com/SITLOR/AIRE-DE-CAMPING-CAR.htm?ID=742000708&TYPE=4000009&langue=1",
+    "priceSource": "https://www.tourisme-lunevillois.com/SITLOR/AIRE-DE-CAMPING-CAR.htm?ID=742000708&TYPE=4000009&langue=1"
   },
   {
     "department": "54",
