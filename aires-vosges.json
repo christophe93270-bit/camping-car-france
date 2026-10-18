@@ -47,7 +47,7 @@
     "gpsSource": "https://www.openstreetmap.org/node/11836887662",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : fiche institutionnelle Tourisme Vosges confirmant l'aire précise, son adresse et ses services ; éviter toute attribution de services non publiés.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : fiche institutionnelle Tourisme Vosges confirmant l'aire précise, son adresse et ses services ; éviter toute attribution de services non publiés. | 18/10/2026 : complément de prestations confirmé par Tourisme Vosges ; tarifs inchangés.",
     "sourceId": "node/11836887662",
     "address": "2 rue des Tilleuls, 88560 Saint-Maurice-sur-Moselle",
     "sourceOfficial": "https://www.tourisme.vosges.fr/sejourner/hotels/745005049-aire-de-stationnement-camping-car-a-saint-maurice-sur-moselle-saint-maurice-sur-moselle",
@@ -636,7 +636,9 @@
       "Vidange eaux grises gratuite toute l'année",
       "Vidange eaux noires / WC chimiques gratuite toute l'année",
       "Électricité gratuite en saison printemps/été (dates à confirmer)",
-      "Toilettes publiques à proximité"
+      "Toilettes publiques à proximité",
+      "Emplacements semi-ombragés",
+      "Animaux acceptés"
     ],
     "price": "Stationnement et services disponibles gratuits selon la communauté de communes",
     "status": "Aire place de l'Église, près de la Maison du Patrimoine et de la Voie Verte des Hautes-Vosges. Stationnement, eau et vidanges gratuits toute l'année selon Tourisme Vosges. L'électricité est saisonnière selon la communauté de communes : ne pas la considérer disponible en hiver ; vérifier les dates de mise en service.",
@@ -646,7 +648,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/1294873595",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : vérification auprès de la communauté de communes gestionnaire, localisation et services confirmés ; Électricité saisonnière, interruption annoncée du 22/09/2025 au 25/03/2026. | 18/10/2026 : Tourisme Vosges confirme eaux grises/noires, eau et vidanges gratuites toute l'année, toilettes publiques proches ; précision sur électricité saisonnière.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : vérification auprès de la communauté de communes gestionnaire, localisation et services confirmés ; Électricité saisonnière, interruption annoncée du 22/09/2025 au 25/03/2026. | 18/10/2026 : Tourisme Vosges confirme eaux grises/noires, eau et vidanges gratuites toute l'année, toilettes publiques proches ; précision sur électricité saisonnière. | 18/10/2026 : complément de prestations confirmé par Tourisme Vosges ; tarifs inchangés.",
     "sourceId": "way/1294873595",
     "servicesSource": "https://www.tourisme.vosges.fr/sejourner/hotels/885002283-aire-de-stationnement-camping-cars-dommartin-les-remiremont-dommartin-les-remiremont",
     "address": "Place de l'Église, 88200 Dommartin-lès-Remiremont",
@@ -1255,7 +1257,7 @@
     "type": "Aire de services et stationnement camping-car",
     "source": "https://www.cirkwi.com/fr/point-interet/3592488-aire-de-stationnement-camping-car",
     "dataAttribution": "Office de tourisme / SITLOR / commune",
-    "importReview": "18/10/2026 : source touristique et GPS SITLOR vérifiés ; divergences tarifaires ou saisonnières explicitement signalées.",
+    "importReview": "18/10/2026 : source touristique et GPS SITLOR vérifiés ; divergences tarifaires ou saisonnières explicitement signalées. | 18/10/2026 : complément de prestations confirmé par Tourisme Vosges ; tarifs inchangés.",
     "city": "Mortagne",
     "name": "Aire de stationnement camping-car de Mortagne",
     "address": "34 rue du Bout du Dessous, 88600 Mortagne",
@@ -1264,14 +1266,15 @@
     "services": [
       "Stationnement gratuit",
       "Eau potable gratuite",
-      "Électricité gratuite"
+      "Électricité gratuite",
+      "Sanitaires"
     ],
     "price": "Stationnement, eau et électricité gratuits selon l'office de tourisme ; vidanges non confirmées.",
     "status": "Parking municipal près de l'église ; disponibilité des équipements à vérifier auprès de la mairie.",
     "sourceOfficial": "https://www.cirkwi.com/fr/point-interet/3592488-aire-de-stationnement-camping-car",
     "gpsSource": "https://www.cirkwi.com/fr/point-interet/3592488-aire-de-stationnement-camping-car",
     "priceSource": "https://www.cirkwi.com/fr/point-interet/3592488-aire-de-stationnement-camping-car",
-    "servicesSource": "https://www.cirkwi.com/fr/point-interet/3592488-aire-de-stationnement-camping-car",
+    "servicesSource": "https://www.tourisme.vosges.fr/sejourner/hotels/940011084-aire-de-stationnement-camping-car-mortagne",
     "sourceId": "sitlor-mortagne"
   },
   {
