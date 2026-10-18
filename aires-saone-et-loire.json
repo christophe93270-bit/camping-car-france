@@ -101,18 +101,19 @@
       "Électricité (déclarée dans OpenStreetMap, non vérifiée)"
     ],
     "price": "Payant selon annuaires ; montant non confirmé par l'exploitant",
-    "status": "Aire privée référencée par des annuaires de camping-cars ; services, prix et conditions d'accueil à confirmer auprès de l'exploitant.",
+    "status": "Aire privée payante selon annuaires. Une fiche touristique institutionnelle indique un stationnement gratuit au 24 rue des Querelles, mais il pourrait s'agir d'un aménagement distinct ; prix et services de l'aire Bertrand Chavanis non confirmés.",
     "source": "https://www.openstreetmap.org/node/6819662055",
     "latitude": 46.8352523,
     "longitude": 4.9901734,
     "gpsSource": "https://www.openstreetmap.org/node/6819662055",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Campercation et Caraplace placent l'aire à Damerey. Le Campeur donne 24 rue des Querelles, 3 places et prix indicatif 5-10 €, non repris comme tarif confirmé. Aucune source officielle trouvée.",
+    "importReview": "Campercation et Caraplace placent l'aire à Damerey. Le Campeur donne 24 rue des Querelles, 3 places et prix indicatif 5-10 €, non repris comme tarif confirmé. Aucune source officielle trouvée. | 18/10/2026 : Destination Saône-et-Loire référence au 24 rue des Querelles une aire de stationnement gratuite et ouverte toute l'année ; annuaires décrivent à proximité immédiate l'aire privée Bertrand Chavanis payante. Identité de l'aire non établie : ne pas attribuer le tarif gratuit à l'aire privée ni remplir sourceOfficial avant confirmation.",
     "sourceId": "node/6819662055",
     "servicesSource": "https://www.openstreetmap.org/node/6819662055",
     "address": "24 rue des Querelles, 71620 Damerey (adresse indiquée par annuaire secondaire, à vérifier)",
-    "cityVerificationNote": "Damerey corroboré par plusieurs annuaires, GPS OSM conservé."
+    "cityVerificationNote": "Damerey corroboré par plusieurs annuaires, GPS OSM conservé.",
+    "relatedOfficialSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-camping-car-damerey.html"
   },
   {
     "department": "71",
@@ -1014,17 +1015,25 @@
     "name": "Aire camping-cars La Chapelle-Thècle,",
     "city": "La Chapelle-Thècle",
     "type": "Aire de camping-car — non vérifiée",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Point cartographique OpenStreetMap non vérifié : stationnement, accès, tarifs et services à confirmer auprès de la commune.",
+    "services": [
+      "Stationnement (4 emplacements selon annuaire)",
+      "Eau potable (annuaire)",
+      "Vidange eaux usées (annuaire)",
+      "Vidange WC (annuaire)",
+      "Électricité (annuaire)"
+    ],
+    "price": "Gratuit selon tarifs 2024 de Camping-car.com ; reconfirmation nécessaire",
+    "status": "Aire communale décrite par Camping-car.com : 4 emplacements, borne artisanale, services gratuits selon grille 2024, ouverture annoncée toute l'année et durée maximale de 15 jours. Conditions actuelles non confirmées par la mairie.",
     "source": "https://www.openstreetmap.org/way/1354720928",
     "latitude": 46.5553045,
     "longitude": 5.1118353,
     "gpsSource": "https://www.openstreetmap.org/way/1354720928",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Aucune source officielle identifiant avec certitude ce point de La Chapelle-Thècle. Ne pas confondre avec La Chapelle-de-Guinchay (autre commune).",
+    "importReview": "Aucune source officielle identifiant avec certitude ce point de La Chapelle-Thècle. Ne pas confondre avec La Chapelle-de-Guinchay (autre commune). | 18/10/2026 : Camping-car.com fiche 46252 : D39, 4 places, services eau/électricité/vidanges, gratuit en 2024, 15 jours max, coordonnées proches OSM (~40 m). Source secondaire : sourceOfficial non renseigné.",
     "sourceId": "way/1354720928",
-    "cityVerificationNote": "Commune indiquée par nom OSM, GPS conservé."
+    "cityVerificationNote": "Commune indiquée par nom OSM, GPS conservé.",
+    "servicesSource": "https://www.camping-car.com/aires/46252-aire-communale/",
+    "address": "D39, 71470 La Chapelle-Thècle (emplacement exact à confirmer)"
   }
 ]
