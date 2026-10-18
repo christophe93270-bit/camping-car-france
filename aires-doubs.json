@@ -71,22 +71,24 @@
     "department": "25",
     "name": "Stationnement camping-car signalé à Fourbanne — à confirmer",
     "city": "Fourbanne",
-    "type": "Stationnement camping-car non confirmé officiellement",
+    "type": "Stationnement public signalé par cartographie secondaire — à confirmer",
     "services": [
-      "Stationnement signalé dans OpenStreetMap (à confirmer)"
+      "Stationnement (cartographie secondaire)",
+      "Petit sanitaire (non vérifié par la mairie)"
     ],
-    "price": "Non confirmé par la commune",
-    "status": "Point référencé dans OpenStreetMap, à proximité du chemin du Tunnel. Autorisation de stationner la nuit, gratuité, horaires, sanitaires et services non confirmés. Ne pas confondre avec le camping privé La Maison Imparfaite au 5 chemin du Tunnel.",
+    "price": "Gratuit selon cartographie secondaire ; à confirmer",
+    "status": "OpenAlfa distingue une aire publique gratuite chemin du Tunnel (sans électricité ni vidange selon OSM) du camping privé La Maison Imparfaite au numéro 5. Le guide officiel Doubs Baumois ne liste que le camping privé à Fourbanne ; aucune confirmation officielle de l'aire publique.",
     "source": "https://www.openstreetmap.org/node/12089179606",
     "latitude": 47.3302024,
     "longitude": 6.3038807,
     "gpsSource": "https://www.openstreetmap.org/node/12089179606",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Audit final : OpenStreetMap node/12089179606 est distinct du camping chez l'habitant La Maison Imparfaite (office de tourisme, 5 chemin du Tunnel). Aucun document municipal ou touristique ne confirme que ce point est une aire publique officielle. Retrait des mentions non vérifiées de gratuité, ouverture 24 h/24, sanitaires et absence de services. Contact mairie : https://www.fourbanne.fr/municipalite (03 81 84 37 67).",
+    "importReview": "Audit 18/10/2026 : données secondaires OpenAlfa et guide officiel Doubs Baumois 2024. Ne pas fusionner les deux sites ; sourceOfficial absent.",
     "sourceId": "node/12089179606",
     "cityVerificationNote": "Commune Fourbanne confirmée ; point GPS issu d'OpenStreetMap uniquement, statut et accès non certifiés.",
-    "address": "Chemin du Tunnel, 25110 Fourbanne"
+    "address": "Chemin du Tunnel, 25110 Fourbanne",
+    "servicesSource": "https://rues.openalfa.fr/rues/rue-du-doubs-25110-baume-les-dames-fourbanne-arrondissement-de-besancon"
   },
   {
     "department": "25",
