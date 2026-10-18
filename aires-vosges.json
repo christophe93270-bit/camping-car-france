@@ -1171,7 +1171,7 @@
     "type": "Aire de services et stationnement camping-car",
     "source": "https://www.labresse.fr/pages/41-camping-municipal",
     "dataAttribution": "Office de tourisme / SITLOR / commune",
-    "importReview": "18/10/2026 : source touristique et GPS SITLOR vérifiés ; divergences tarifaires ou saisonnières explicitement signalées. | 18/10/2026 : capacité 13 places selon mairie ; borne séparée à 100 m, forfait 2 € et durée des services selon Tourisme Vosges.",
+    "importReview": "18/10/2026 : source touristique et GPS SITLOR vérifiés ; divergences tarifaires ou saisonnières explicitement signalées. | 18/10/2026 : capacité 13 places selon mairie ; borne séparée à 100 m, forfait 2 € et durée des services selon Tourisme Vosges. | 18/10/2026 : sources Tourisme Vosges stationnement (776002267) et borne de services (776003443) recoupées : gratuité stationnement, caravaneige, ombrage, laverie, forfait borne à 2 € et interdiction de stationner à la borne.",
     "city": "La Bresse",
     "name": "Aire camping-cars du Domaine du Haut des Bluches",
     "address": "5 route des Planches, 88250 La Bresse",
@@ -1183,10 +1183,14 @@
       "Électricité",
       "Vidange eaux grises",
       "Vidange WC chimiques",
-      "Sanitaires et douches du camping"
+      "Sanitaires et douches du camping",
+      "Emplacements semi-ombragés",
+      "Revêtement stabilisé",
+      "Lave-linge et sèche-linge du camping",
+      "Accueil caravaneige"
     ],
-    "price": "Stationnement annoncé gratuit par Tourisme Vosges, mais tarifs de séjour à confirmer auprès du domaine ; borne de services distincte : 2 € pour vidange, 10 min d'eau et 1 h d'électricité.",
-    "status": "Aire de stationnement distincte de la borne de services située à environ 100 m. La mairie indique 13 emplacements camping-car sur zone spécifique du camping. Le domaine ferme annuellement de mi-novembre à mi-décembre ; vérifier les dates précises et l'accès hors saison.",
+    "price": "Stationnement gratuit selon Tourisme Vosges (modalités de séjour et accès aux prestations du camping à confirmer). Borne de services séparée à environ 100 m : forfait de 2 € pour vidange, 10 min d'eau et 1 h d'électricité ; stationnement interdit à la borne.",
+    "status": "Aire de stationnement dédiée, distincte de la borne technique située à environ 100 m où le stationnement est interdit. Tourisme Vosges signale stationnement gratuit, branchement électrique 13 A, services du camping, emplacements semi-ombragés et accueil caravaneige. La mairie indique 13 emplacements. Le domaine ferme annuellement de mi-novembre à mi-décembre ; vérifier dates précises, conditions d'accès aux équipements et éventuels frais de séjour.",
     "sourceOfficial": "https://www.labresse.fr/pages/41-camping-municipal",
     "gpsSource": "https://www.cirkwi.com/fr/point-interet/2108440-aire-de-stationnement-pour-camping-cars-du-domaine-du-haut-des-bluches",
     "priceSource": "https://www.tourisme.vosges.fr/sejourner/hotels/776003443-aire-de-service-pour-camping-cars-du-domaine-du-haut-des-bluches-la-bresse",
@@ -1267,7 +1271,7 @@
   {
     "department": "88",
     "dataAttribution": "SITLOR / offices de tourisme des Vosges",
-    "importReview": "18/10/2026 : source institutionnelle et coordonnées SITLOR recoupées ; tarifs non confirmés, ne pas afficher comme gratuit.",
+    "importReview": "18/10/2026 : source institutionnelle et coordonnées SITLOR recoupées ; tarifs non confirmés, ne pas afficher comme gratuit. | 18/10/2026 : Tourisme Vosges 940003656 confirme emplacements ombragés/semi-ombragés et revêtement stabilisé, dates saisonnières maintenues.",
     "name": "Aire du camping Au Clos de la Chaume",
     "city": "Corcieux",
     "type": "Aire de stationnement camping-car dans un camping",
@@ -1285,7 +1289,9 @@
       "Douches",
       "Wi-Fi",
       "Lave-linge",
-      "Sèche-linge"
+      "Sèche-linge",
+      "Emplacements semi-ombragés ou ombragés",
+      "Revêtement stabilisé"
     ],
     "price": "Tarif non publié sur la fiche touristique ; contacter le camping avant arrivée.",
     "status": "Aire au sein du camping Au Clos de la Chaume. Ouverture saison 2026 : du 17 avril au 20 septembre ; fermée hors saison selon horaires publiés. Ne pas confondre avec une aire municipale gratuite.",
