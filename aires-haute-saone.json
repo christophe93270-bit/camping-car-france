@@ -281,9 +281,9 @@
   },
   {
     "department": "70",
-    "name": "Faucogney-Et-La-Mer Aire pour camping-cars",
+    "name": "Aire de services de Faucogney-et-la-Mer – rue des Chars",
     "city": "Faucogney-et-la-Mer",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement et de services camping-car",
     "services": [
       "Eau",
       "Électricité",
@@ -298,7 +298,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/1232045366",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Attention : Haute-Saône Tourisme décrit une autre aire au Village face à l'étang Pellevin (6 places) et une aire nature D266 (4 places), distinctes de Rue des Chars ; GPS de ces autres sites non vérifiés.",
+    "importReview": "Aire du stade rue des Chars distincte de l'aire de l'étang Pellevin, déjà représentée par la fiche d'Écromagny ; aire nature D266 également distincte mais GPS précis non confirmé.",
     "sourceId": "way/1232045366",
     "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-services-pour-camping-cars-faucogney-et-la-mer-fr-4909775/",
     "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment.",
@@ -1011,13 +1011,14 @@
       "Vidange eaux usées"
     ],
     "price": "4 emplacements gratuits ; borne de services payante par carte bancaire, tarif non confirmé",
-    "status": "4 places selon Destination 70 ; disponibilité et fonctionnement actuel à vérifier",
+    "status": "4 emplacements selon Haute-Saône Tourisme ; la fiche du camping de Miellin indique une vidange chimique à Servance, 3 rue de Bourgagotte, derrière la salle polyvalente. Correspondance avec l'aire rue de l'Église à vérifier avant déplacement.",
     "source": "https://hautesaonetourisme.com/offres/aire-de-service-pour-camping-cars-servance-fr-4910118/",
     "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-de-service-pour-camping-cars-servance-fr-4910118/",
     "gpsSource": "https://www.cirkwi.com/fr/point-interet/3396062-aire-de-service-pour-camping-cars",
     "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-service-pour-camping-cars-servance-fr-4910118/",
     "sourceId": "destination70/4910118",
-    "importReview": "Fiche Destination 70 sur Cirkwi actualisée le 10/01/2026 ; GPS recoupé avec To From France. Site distinct du camping de Miellin (à environ 4 km).",
-    "dataAttribution": "Destination 70 / Haute-Saône Tourisme ; GPS Destination 70 via Cirkwi"
+    "importReview": "Deux fiches de Haute-Saône Tourisme mentionnent respectivement rue de l'Église (aire de services) et 3 rue de Bourgagotte (vidange chimique). Ne pas affirmer qu'il s'agit de la même borne sans vérification locale.",
+    "dataAttribution": "Destination 70 / Haute-Saône Tourisme ; GPS Destination 70 via Cirkwi",
+    "relatedSource": "https://hautesaonetourisme.com/offres/camping-de-miellin-servance-fr-4910888/"
   }
 ]
