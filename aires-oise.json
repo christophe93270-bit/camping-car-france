@@ -79,12 +79,16 @@
   },
   {
     "department": "60",
-    "name": "Aire de camping-car de Clermont",
+    "name": "Aire municipale de camping-cars de Clermont",
     "city": "Clermont",
-    "type": "Stationnement camping-car à confirmer",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire municipale gratuite de stationnement camping-car",
+    "services": [
+      "Stationnement gratuit",
+      "Poubelles",
+      "Borne de services séparée rue Wenceslas Coutellier (eau, vidange, électricité ; fonctionnement à vérifier)"
+    ],
+    "price": "Stationnement gratuit ; borne séparée : 3 € pour 100 L d'eau ou 60 min d'électricité selon la mairie",
+    "status": "Ouverte toute l'année, 4 nuits maximum ; fermetures ponctuelles possibles lors de manifestations",
     "source": "https://www.openstreetmap.org/way/1081617499",
     "latitude": 49.3792033,
     "longitude": 2.4208176,
@@ -93,7 +97,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1081617499",
-    "verificationNote": "GPS OpenStreetMap conservé, mais aire de stationnement non recoupée sur Oise Tourisme ; accès et services non confirmés."
+    "verificationNote": "La mairie distingue l'aire de 5 places rue du Général Moulin et la borne de services rue Wenceslas Coutellier. Les coordonnées GPS existantes correspondent au stationnement. Des avis 2026 signalent des pannes possibles d'eau et d'électricité à la borne.",
+    "address": "12 rue du Général Moulin, 60600 Clermont",
+    "capacity": 5,
+    "sourceOfficial": "https://www.clermont-oise.fr/ville/campingcar/",
+    "serviceSource": "https://www.aireparkreservation.com/aires-camping-car/oise"
   },
   {
     "department": "60",
