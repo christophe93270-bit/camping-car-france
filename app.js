@@ -385,7 +385,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Marne indisponible",error); }
     let ardennesAires=[];
     try {
-      const response08=await fetch("aires-ardennes.json?v=20261018-3", {cache:"no-store"});
+      const response08=await fetch("aires-ardennes.json?v=20261018-4", {cache:"no-store"});
       if(response08.ok) ardennesAires=await response08.json();
     } catch(error) { console.warn("Chargement Ardennes indisponible",error); }
     let meuseAires=[];
