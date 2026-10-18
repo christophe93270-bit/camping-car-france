@@ -811,21 +811,26 @@
   },
   {
     "department": "25",
-    "name": "Aire de camping-car de Vaufrey",
+    "name": "Aire de stationnement — Vaufrey",
     "city": "Vaufrey",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de stationnement camping-car",
+    "services": [
+      "Stationnement (2 emplacements)"
+    ],
+    "price": "Gratuit selon brochure touristique institutionnelle (édition 2025), à vérifier sur place",
+    "status": "Deux emplacements au bord du Doubs, stationnement annoncé gratuit dans une brochure touristique publiée sur le site du SDIS 25. Aucun service d'eau, d'électricité ou de vidange confirmé ; réglementation locale à vérifier.",
     "source": "https://www.openstreetmap.org/way/1313259343",
     "latitude": 47.3470913,
     "longitude": 6.9221458,
     "gpsSource": "https://www.openstreetmap.org/way/1313259343",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Brochure touristique BFC 2025 hébergée par le SDIS 25 : Vaufrey, 5 au Village, 2 emplacements, stationnement gratuit au bord du Doubs. Source institutionnellement hébergée, mais ne constitue pas une confirmation municipale de l'état actuel. GPS OSM conservé.",
     "sourceId": "way/1313259343",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "5 au Village, 25190 Vaufrey",
+    "sourceOfficial": "https://www.sdis25.fr/wp-content/uploads/2025/08/HEBERGEMENTS-TOURISTIQUES-BFC.pdf",
+    "priceSource": "https://www.sdis25.fr/wp-content/uploads/2025/08/HEBERGEMENTS-TOURISTIQUES-BFC.pdf"
   },
   {
     "department": "25",
