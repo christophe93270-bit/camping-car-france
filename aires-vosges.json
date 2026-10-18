@@ -485,19 +485,24 @@
     "name": "Aire de camping-cars de Contrexéville",
     "city": "Contrexéville",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement municipal gratuit jusqu'à 24 h selon l'office de tourisme ; conditions de ce point OSM non confirmées",
-    "status": "Règle générale communale de stationnement gratuit 24 h hors parking du Casino ; l'emplacement exact de cette géométrie OSM n'est pas individuellement confirmé par l'office de tourisme. Ne pas confondre avec CAMPING-CAR PARK.",
+    "services": [
+      "Stationnement gratuit",
+      "6 emplacements"
+    ],
+    "price": "Stationnement gratuit selon l'office de tourisme ; services et équipements techniques non confirmés",
+    "status": "Aire municipale distincte de CAMPING-CAR PARK : l'office de tourisme Destination Vittel confirme une aire gratuite de 6 emplacements rue Jean Moulin. Les coordonnées OSM sont cohérentes avec le secteur ; les services d'eau et de vidange ne sont pas ajoutés sans confirmation directe.",
     "source": "https://www.openstreetmap.org/way/1274629829",
     "latitude": 48.1810864,
     "longitude": 5.8980998,
     "gpsSource": "https://www.openstreetmap.org/way/1274629829",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : règle communale vérifiée, emplacement précis à confirmer.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : règle communale vérifiée, emplacement précis à confirmer. | 18/10/2026 : aire gratuite de 6 places individualisée par Destination Vittel, rue Jean Moulin ; distincte de CAMPING-CAR PARK rue du 11-Septembre-1944.",
     "sourceId": "way/1274629829",
-    "sourceOfficial": "https://www.contrextourisme.com/preparation-du-sejour/comment-venir/",
-    "priceSource": "https://www.contrextourisme.com/preparation-du-sejour/comment-venir/"
+    "sourceOfficial": "https://www.contrextourisme.com/offres/aire-de-stationnement-contrexeville-fr-3505453/",
+    "priceSource": "https://www.contrextourisme.com/offres/aire-de-stationnement-contrexeville-fr-3505453/",
+    "address": "Rue Jean Moulin, 88140 Contrexéville",
+    "servicesSource": "https://www.contrextourisme.com/offres/aire-de-stationnement-contrexeville-fr-3505453/"
   },
   {
     "department": "88",
