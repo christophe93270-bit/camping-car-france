@@ -106,13 +106,14 @@
     "gpsSource": "https://www.openstreetmap.org/way/538520415",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Recoupement groupé avec fiche Haute-Saône Tourisme ; coordonnées GPS d'origine non déplacées ; données sujettes à changement.",
+    "importReview": "L'aire et le camping Longue Rive figurent à moins de 15 m GPS selon Camping-car.com ; ne pas ajouter le camping comme nouvelle épingle sans preuve d'accès distinct.",
     "sourceId": "way/538520415",
     "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-camping-cars-gray-fr-4913178/",
     "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment.",
     "address": "Route de la Plage, 70100 Gray",
     "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-de-camping-cars-gray-fr-4913178/",
-    "priceSource": "https://hautesaonetourisme.com/offres/aire-de-camping-cars-gray-fr-4913178/"
+    "priceSource": "https://hautesaonetourisme.com/offres/aire-de-camping-cars-gray-fr-4913178/",
+    "relatedSource": "https://www.camping-car.com/aires/4616-longue-rive/"
   },
   {
     "department": "70",
@@ -214,9 +215,14 @@
     "name": "Aire de camping car de Fougerolles-Saint-Valbert",
     "city": "Fougerolles-Saint-Valbert",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées",
+      "Vidange WC"
+    ],
+    "price": "Services gratuits selon Camping-car.com (tarifs 2024, à confirmer)",
+    "status": "6 places ; durée maximale annoncée de 4 nuits ; services ouverts toute l'année selon annuaire",
     "source": "https://www.openstreetmap.org/way/1213000762",
     "latitude": 47.887189,
     "longitude": 6.4035273,
@@ -225,7 +231,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Contrôle initial groupé : nom et commune harmonisés ; GPS OSM conservé. Tarifs, accès et services non confirmés.",
     "sourceId": "way/1213000762",
-    "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment."
+    "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment.",
+    "address": "22 rue du Bas de Laval, 70220 Fougerolles-Saint-Valbert",
+    "sourceOfficial": "https://www.camping-car.com/aires/46423-aire-communale/",
+    "priceSource": "https://www.camping-car.com/aires/46423-aire-communale/",
+    "servicesSource": "https://www.camping-car.com/aires/46423-aire-communale/"
   },
   {
     "department": "70",
@@ -271,13 +281,14 @@
     "gpsSource": "https://www.openstreetmap.org/way/1232045366",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Informations d'annuaire ou d'office de tourisme recoupées en lot le 18 octobre 2026 ; GPS OSM d'origine conservé ; vérifier sur place.",
+    "importReview": "Attention : Haute-Saône Tourisme décrit une autre aire au Village face à l'étang Pellevin (6 places) et une aire nature D266 (4 places), distinctes de Rue des Chars ; GPS de ces autres sites non vérifiés.",
     "sourceId": "way/1232045366",
     "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-services-pour-camping-cars-faucogney-et-la-mer-fr-4909775/",
     "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment.",
     "address": "Rue des Chars, 70310 Faucogney-et-la-Mer",
     "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-de-services-pour-camping-cars-faucogney-et-la-mer-fr-4909775/",
-    "priceSource": "https://hautesaonetourisme.com/offres/aire-de-services-pour-camping-cars-faucogney-et-la-mer-fr-4909775/"
+    "priceSource": "https://hautesaonetourisme.com/offres/aire-de-services-pour-camping-cars-faucogney-et-la-mer-fr-4909775/",
+    "relatedSource": "https://hautesaonetourisme.com/offres/aire-de-services-pour-camping-cars-faucogney-et-la-mer-fr-4913776/"
   },
   {
     "department": "70",
