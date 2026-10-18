@@ -292,19 +292,28 @@
   {
     "department": "71",
     "name": "Aire de camping-cars de Chapelle-de-Guinchay",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "La Chapelle-de-Guinchay",
+    "type": "Aire de stationnement et services camping-car",
+    "services": [
+      "Stationnement camping-car",
+      "Vidange eaux usées",
+      "Eau potable (gratuite selon fiche touristique)",
+      "Poubelles"
+    ],
+    "price": "Eau gratuite selon fiche touristique ; stationnement et autres services : tarif non confirmé",
+    "status": "Stationnement limité à 48 h selon la fiche de services. Deux fiches touristiques décrivent respectivement 10 emplacements de services et 20 places de stationnement ; capacité exacte à recouper.",
     "source": "https://www.openstreetmap.org/way/143975424",
     "latitude": 46.2103638,
     "longitude": 4.7674016,
     "gpsSource": "https://www.openstreetmap.org/way/143975424",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/143975424"
+    "importReview": "Deux fiches du tourisme départemental pour la Maison de Pays au 2 Clos Méziat : 10 emplacements aire de services / 20 emplacements parking. Ne pas additionner les capacités. 48 h max, eau et vidange ; électricité non confirmée.",
+    "sourceId": "way/143975424",
+    "address": "Maison de Pays, 2 Le Clos Méziat, 71570 La Chapelle-de-Guinchay",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-7",
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-7",
+    "priceSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-camping-car.html"
   },
   {
     "department": "71",
@@ -582,20 +591,26 @@
   },
   {
     "department": "71",
-    "name": "Accueil des camping-cars Bibracte",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "name": "Parking camping-cars du site de Bibracte",
+    "city": "Saint-Léger-sous-Beuvray",
+    "type": "Parking d'accueil des visiteurs en camping-car",
+    "services": [
+      "Parking pour camping-cars et autocars",
+      "Toilettes à proximité",
+      "Tables de pique-nique à proximité"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Stationnement de visite sur le site archéologique de Bibracte ; nuitée, eau, électricité et vidange non confirmées.",
     "source": "https://www.openstreetmap.org/way/967919177",
     "latitude": 46.9315512,
     "longitude": 4.0493271,
     "gpsSource": "https://www.openstreetmap.org/way/967919177",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/967919177"
+    "importReview": "Tourisme départemental : Bibracte met à disposition un parking camping-cars/autocars et des toilettes. Ce n'est pas une aire de services ni une preuve d'autorisation de nuitée.",
+    "sourceId": "way/967919177",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/les-hebergements-en-saone-et-loire.html?f%5B0%5D=capacite%3A1&f%5B1%5D=se_loger_equipements%3AOmbrages+naturels&f%5B2%5D=se_loger_equipements%3AWC+Publics&f%5B3%5D=se_loger_equipements%3AWIFI&page=3",
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/les-hebergements-en-saone-et-loire.html?f%5B0%5D=capacite%3A1&f%5B1%5D=se_loger_equipements%3AOmbrages+naturels&f%5B2%5D=se_loger_equipements%3AWC+Publics&f%5B3%5D=se_loger_equipements%3AWIFI&page=3"
   },
   {
     "department": "71",
