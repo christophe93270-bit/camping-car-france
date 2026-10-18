@@ -5,7 +5,7 @@
     "city": "Cerisy-la-Forêt",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; borne de services environ 2 € selon relevé de terrain (tarif actuel à confirmer)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/7041967413",
     "latitude": 49.1981591,
@@ -15,10 +15,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/7041967413",
-    "address": "Cerisy-la-Forêt, 50680 (adresse précise à confirmer)",
+    "address": "Rue de l'Église, 50680 Cerisy-la-Forêt",
     "cityVerificationNote": "Coordonnées OSM 49.1981591, -0.9322521 recoupées avec un référencement à 49.19835, -0.93222 à Cerisy-la-Forêt. Commune confirmée ; adresse et capacité à vérifier.",
-    "verificationNote": "Localisation dans la Manche confirmée par recoupement GPS ; ne pas supprimer comme doublon du Calvados.",
-    "sourceVerification": "https://spot2play.com/spot/aire-gratuite-de-service-ou-stationnement-cerisy-la-foret/"
+    "verificationNote": "Aire municipale de la rue de l'Église, 1 place estimée par relevé terrain ; distincte du camping La Croisée des Chemins (Hamel es Telliers). Coordonnées du relevé proches du point OSM.",
+    "sourceVerification": "https://www.aire-service-camping-car-panoramique.fr/manche/50-cerisy-la-foret",
+    "capacity": 1
   },
   {
     "department": "50",
@@ -295,12 +296,12 @@
   },
   {
     "department": "50",
-    "name": "Stationnement camping-car du Mont-Saint-Michel (secteur P8, à confirmer)",
+    "name": "Aire de camping-car Mont-Saint-Michel (près des parkings, à identifier)",
     "city": "Le Mont-Saint-Michel",
-    "type": "Parking camping-car (identification à confirmer)",
+    "type": "Aire de camping-car (exploitant à confirmer)",
     "services": [],
-    "price": "Parking payant ; tarif à vérifier sur le site officiel du Mont-Saint-Michel",
-    "status": "Identification précise de la géométrie OSM à confirmer ; le parking officiel P8 autorise le stationnement nocturne, mais interdit le séjour et ne fournit ni eau ni électricité.",
+    "price": "Non confirmé",
+    "status": "Aire cartographiée sur OSM ; identité, services, capacité et tarifs à confirmer avant publication comme aire vérifiée",
     "source": "https://www.openstreetmap.org/way/1068343637",
     "latitude": 48.6138703,
     "longitude": -1.5083167,
@@ -310,8 +311,8 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1068343637",
     "servicesSource": "https://www.openstreetmap.org/way/1068343637",
-    "cityVerificationNote": "Localisation GPS à recouper avec les limites communales ; ne pas considérer la commune comme définitivement confirmée.",
-    "verificationNote": "La fiche OSM 1068343637 se situe près des parkings du Mont. Elle ne doit PAS être présentée comme une troisième aire CAMPING-CAR PARK. Le site officiel montsaintmichel.gouv.fr précise que le parking P8 est un stationnement sans hébergement, sans eau ni électricité. Attribution de la géométrie OSM au P8 restant à confirmer.",
+    "cityVerificationNote": "Commune administrative à confirmer avec source officielle.",
+    "verificationNote": "Correction : ce point OSM est distinct du parking P8 (OSM way/154485052, à environ 560 m selon Mapcarta). Ne pas le présenter comme le parking P8 ni comme une troisième aire CAMPING-CAR PARK sans confirmation officielle.",
     "sourceOfficial": "https://www.montsaintmichel.gouv.fr/acceder-au-mont-saint-michel/venir-au-mont-saint-michel"
   },
   {
