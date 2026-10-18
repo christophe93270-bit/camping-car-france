@@ -354,11 +354,15 @@
   },
   {
     "department": "35",
-    "name": "Aire camping-cars",
-    "city": "Commune à confirmer",
+    "name": "Aire de camping-cars de Retiers — Place Herdorf",
+    "city": "Retiers",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Eau",
+      "Vidange des eaux usées",
+      "Vidange WC"
+    ],
+    "price": "Services gratuits selon fiche Camping-car.com (tarifs 2024) ; stationnement payant selon un autre annuaire, montant actuel à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1316046216",
     "latitude": 47.914384,
@@ -367,7 +371,12 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1316046216"
+    "sourceId": "way/1316046216",
+    "address": "Rue du Maréchal Foch, place Herdorf, 35240 Retiers",
+    "capacity": 4,
+    "sourceOfficial": "https://www.camping-car.com/aires/27551-aire-communale/",
+    "capacitySource": "https://www.camping-car.com/aires/27551-aire-communale/",
+    "verificationNote": "Correspondance géographique confirmée entre OSM way/1316046216 et l'aire communale place Herdorf à Retiers. 4 places et durée maximale 72 h selon Camping-car.com ; source alternative indique 8 places et 48 h : vérifier auprès de la mairie avant de figer ces limites. Tarifs de stationnement divergents."
   },
   {
     "department": "35",
