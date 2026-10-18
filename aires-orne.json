@@ -1312,5 +1312,46 @@
     "capacity": 45,
     "sourceOfficial": "https://www.camping-sees.fr/",
     "verificationNote": "45 emplacements de camping pouvant accueillir les camping-cars, pas 45 places dédiées à une aire indépendante. GPS Camping-car.com. Prix 2026 publiés par UKCampsite, non confirmés par exploitant ; prospectus municipal 2023 ancien."
+  },
+  {
+    "department": "61",
+    "name": "Aire de services de Soligny-la-Trappe",
+    "city": "Soligny-la-Trappe",
+    "address": "D32, route de Tourouvre, 61380 Soligny-la-Trappe",
+    "latitude": 48.61735,
+    "longitude": 0.54357,
+    "type": "Aire de services et stationnement camping-car",
+    "capacity": 4,
+    "services": [
+      "Eau potable",
+      "Vidange eaux grises",
+      "Vidange WC",
+      "Électricité 220 V",
+      "Stationnement gratuit"
+    ],
+    "price": "Stationnement gratuit ; services environ 2 € par jeton selon annuaire spécialisé, tarif actuel à vérifier",
+    "status": "Ouverture annuelle annoncée ; fonctionnement de la borne à vérifier (signalement de panne ancien)",
+    "source": "https://www.aire-service-camping-car-panoramique.fr/orne/61-soligny-la-trappe",
+    "gpsSource": "https://www.aire-service-camping-car-panoramique.fr/orne/61-soligny-la-trappe",
+    "verificationNote": "Source photographique de terrain : 4 places estimées, borne Euro-Relais, eau/vidanges/220 V. Avis ancien 2018 signale borne hors service : ne pas garantir disponibilité des services."
+  },
+  {
+    "department": "61",
+    "name": "Parking camping-car de l'abbaye de la Trappe",
+    "city": "Soligny-la-Trappe",
+    "address": "Route de la Trappe, 61380 Soligny-la-Trappe",
+    "latitude": 48.636,
+    "longitude": 0.5745,
+    "type": "Parking de jour et de nuit pour camping-cars",
+    "capacity": 5,
+    "services": [
+      "Poubelles",
+      "Toilettes"
+    ],
+    "price": "Gratuit selon déclaration de visiteur d'août 2026",
+    "status": "Ouvert toute l'année selon Park4night ; autorisation municipale non confirmée",
+    "source": "https://park4night.com/fr/place/708601",
+    "gpsSource": "https://park4night.com/fr/place/708601",
+    "verificationNote": "Fiche créée en août 2026 par un usager ; parking près de l'abbaye, distinct de l'aire de services du centre-bourg (écart GPS ~2,6 km). Pas de services de vidange/eau annoncés."
   }
 ]
