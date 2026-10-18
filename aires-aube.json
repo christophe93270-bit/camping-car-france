@@ -99,19 +99,20 @@
       "Électricité"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Attention : fermeture temporaire signalée par Aube Champagne ; date de réouverture à confirmer",
     "source": "https://www.openstreetmap.org/node/12215050433",
     "latitude": 48.0548113,
     "longitude": 4.3926014,
     "gpsSource": "https://www.openstreetmap.org/node/12215050433",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Avertissement de fermeture temporaire relevé sur Aube Champagne le 18/10/2026.",
     "sourceId": "node/12215050433",
     "servicesSource": "https://www.openstreetmap.org/node/12215050433",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier.",
     "verificationNote": "L'office de tourisme signale une fermeture temporaire de l'aire ; vérifier la réouverture avant déplacement.",
-    "verificationSource": "https://www.aube-champagne.com/fr/aires-de-camping-car-de-l-aube-en-champagne/"
+    "verificationSource": "https://www.aube-champagne.com/fr/aires-de-camping-car-de-l-aube-en-champagne/",
+    "sourceOfficial": "https://www.aube-champagne.com/fr/aires-de-camping-car-de-l-aube-en-champagne/"
   },
   {
     "department": "10",
@@ -230,11 +231,13 @@
     "department": "10",
     "name": "Aire de camping-car de Marcilly-le-Hayer",
     "city": "Marcilly-le-Hayer",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Camping de mon Village CAMPING-CAR PARK",
     "services": [
-      "Douches",
-      "Toilettes",
-      "Électricité"
+      "Vidange",
+      "Eau potable",
+      "Électricité",
+      "Wifi",
+      "Sanitaires en haute saison"
     ],
     "price": "Non confirmé — consulter le tarif en vigueur sur le site de l'exploitant",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
@@ -244,12 +247,13 @@
     "gpsSource": "https://www.openstreetmap.org/way/760723188",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Exploitant CAMPING-CAR PARK confirmé le 18/10/2026.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Exploitant CAMPING-CAR PARK confirmé le 18/10/2026. | Type et services vérifiés sur le site de la commune le 18/10/2026.",
     "sourceId": "way/760723188",
-    "servicesSource": "https://www.openstreetmap.org/way/760723188",
+    "servicesSource": "https://marcillylehayer.fr/camping-municipal/",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/marcilly-le-hayer",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/marcilly-le-hayer"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/marcilly-le-hayer",
+    "address": "Rue des Dolmens, 10290 Marcilly-le-Hayer"
   },
   {
     "department": "10",
