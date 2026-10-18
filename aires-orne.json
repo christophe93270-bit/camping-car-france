@@ -12,20 +12,22 @@
       "Sanitaires",
       "Poubelles"
     ],
-    "price": "Tarif non confirmé",
+    "price": "Stationnement et vidanges gratuits ; eau et électricité payantes par jetons (prix du jeton non confirmé)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/9037249462",
-    "latitude": 48.3755722,
-    "longitude": 0.526611,
-    "gpsSource": "https://www.openstreetmap.org/node/9037249462",
+    "latitude": 48.3743471,
+    "longitude": 0.5230469,
+    "gpsSource": "https://www.cirkwi.com/fr/point-interet/3017015-aire-municipale-du-gue-de-la-chaine",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/9037249462",
     "match": "Le Gué-de-la-Chaîne",
-    "address": "Route de Mamers, Le Gué-de-la-Chaîne, 61130 Belforêt-en-Perche",
+    "address": "Parking du cimetière, route de Mamers, Le Gué-de-la-Chaîne, 61130 Belforêt-en-Perche",
     "capacity": 2,
-    "sourceOfficial": "https://www.normandie-tourisme.fr/aires-camping-cars/aire-municipale-du-gue-de-la-chaine/"
+    "sourceOfficial": "https://www.normandie-tourisme.fr/aires-camping-cars/aire-municipale-du-gue-de-la-chaine/",
+    "tariffSource": "https://www.perchenormand.fr/tourisme/se-loger/aire-de-service/",
+    "verificationNote": "Coordonnées publiées par Orne Tourisme, fiche mise à jour août 2026 ; la borne fonctionne avec jetons."
   },
   {
     "department": "61",
@@ -227,12 +229,12 @@
       "Électricité incluse selon descriptif 2023",
       "Borne automatique"
     ],
-    "price": "12 € / nuit + taxe de séjour 0,60 € par personne selon publication 2023 ; tarif 2026 à confirmer",
+    "price": "9,60 € / 24 h selon la plateforme de réservation Aire Park (tarif affiché lors de la vérification en octobre 2026 ; vérifier avant paiement)",
     "status": "Ouverte toute l'année selon publication 2023 ; 7 nuits maximum",
     "source": "https://www.openstreetmap.org/way/1292194626",
-    "latitude": 48.6426641,
-    "longitude": -0.2132168,
-    "gpsSource": "https://www.openstreetmap.org/way/1292194626",
+    "latitude": 48.6420250395,
+    "longitude": -0.212495945,
+    "gpsSource": "https://www.aireparkreservation.com/aires-camping-car/orne",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
@@ -242,7 +244,8 @@
     "address": "Rue des Rainettes, 61150 Rânes",
     "capacity": 8,
     "sourceOfficial": "https://ranes.fr/tourisme/se-loger-se-restaurer/camping-car/",
-    "verificationNote": "Mairie confirme une page dédiée camping-car ; capacité, rue et tarifs proviennent d'un article de 2023, à revalider."
+    "verificationNote": "8 emplacements ; coordonnées et tarif publiés par la plateforme de réservation. Remplace l'ancien tarif 2023.",
+    "tariffSource": "https://www.aireparkreservation.com/aires-camping-car/orne"
   },
   {
     "department": "61",
