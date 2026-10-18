@@ -196,7 +196,7 @@
     "city": "Bairon et ses environs",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit, sans services, ouvert toute l'année 24 h/24 selon Ardennes Tourisme",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/720024989",
     "latitude": 49.51544,
@@ -206,7 +206,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/720024989",
-    "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement."
+    "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
+    "address": "Rue du Pasquy, 08390 Le Chesne (Bairon et ses environs)",
+    "capacity": 6,
+    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-repos/",
+    "priceSource": "https://www.ardennes.com/camping/aire-de-repos/"
   },
   {
     "department": "08",
@@ -225,9 +229,11 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/825939877",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
-    "priceSource": "https://www.tourisme-valleesetplateaudardenne.com/organiser-mon-sejour/en-camping-car",
+    "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons."
+    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons.",
+    "address": "Rue du Tour de Ville, 08230 Rocroi",
+    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car/"
   },
   {
     "department": "08",
@@ -260,9 +266,11 @@
     "city": "Givet",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement",
+      "Eau",
+      "Vidange"
     ],
-    "price": "Stationnement gratuit ; prix des services non confirmé",
+    "price": "Stationnement gratuit ; eau et vidange disponibles, tarifs des services non communiqués",
     "status": "Informations tarifaires documentées par une source publique ; autres données à vérifier.",
     "source": "https://www.openstreetmap.org/way/885675882",
     "latitude": 50.1375199,
@@ -276,7 +284,10 @@
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
     "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car-givet/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons."
+    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons.",
+    "address": "12 quai Dervaux, 08600 Givet",
+    "capacity": 20,
+    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-givet/"
   },
   {
     "department": "08",
@@ -284,9 +295,12 @@
     "city": "Vouziers",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Vidange eaux usées",
+      "Vidange WC chimiques",
+      "Eau potable payante",
+      "Électricité payante"
     ],
-    "price": "Stationnement gratuit (48 h maximum) ; eau et électricité payantes, montants non confirmés",
+    "price": "Stationnement gratuit, 48 h maximum ; eau et électricité payantes par carte bancaire (montants non publiés)",
     "status": "Informations tarifaires documentées par une source publique ; autres données à vérifier.",
     "source": "https://www.openstreetmap.org/way/908633309",
     "latitude": 49.4004592,
@@ -297,9 +311,12 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/908633309",
     "servicesSource": "https://www.openstreetmap.org/way/908633309",
-    "priceSource": "https://www.sudardennes.fr/aire-camping-car/aire-de-services-pour-camping-cars-de-vouziers/",
+    "priceSource": "https://www.ardennes.com/camping/aire-de-services-pour-camping-cars-de-vouziers/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons."
+    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons.",
+    "address": "Parking du Champ de Foire, 35 rue de Condé, 08400 Vouziers",
+    "capacity": 9,
+    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-services-pour-camping-cars-de-vouziers/"
   },
   {
     "department": "08",
