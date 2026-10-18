@@ -1,9 +1,18 @@
-# Audit Calvados 14 - aires candidates
+# Audit Calvados 14 — nouvelles aires candidates
 
-Inventaire actuel : 45 aires. Ces trois communes sont absentes des noms et communes du fichier aires-calvados.json. Ne pas ajouter sur la carte sans GPS vérifié.
+Inventaire existant : 45 aires. Vérification documentaire le 18 octobre 2026. Les trois communes sont absentes du fichier `aires-calvados.json`.
 
-- Bayeux : rue Pierre Trébucien, 25 places, stationnement payant, prix non indiqué. https://www.explore-calvados.com/aires-camping-cars/aire-de-stationnement-bayeux/
-- Dives-sur-Mer : rue de l'Avenir, 6 places, prix non indiqué. https://www.explore-calvados.com/en/areas-camping-cars/aire-de-camping-car-intercommunale-de-dives-sur-mer/
-- Arromanches-les-Bains : avenue de Verdun, 80 places, prix non indiqué. https://www.explore-calvados.com/aires-camping-cars/aire-communale-darromanches-les-bains/
+| Commune | Adresse | Capacité | Conditions / services | Source officielle | État |
+|---|---|---:|---|---|---|
+| Bayeux | Rue Pierre Trébucien, 14400 Bayeux | 25 (dont 1 PMR) | Payant, barrière et lecture des plaques, accès 24 h/24, véhicules de moins de 8 m ; tarif chiffré non publié | https://www.explore-calvados.com/aires-camping-cars/aire-de-stationnement-bayeux/ | GPS précis non confirmé |
+| Dives-sur-Mer | Rue de l'Avenir, 14160 Dives-sur-Mer | 6 | Eau et vidange ; paiement par carte bancaire ; montant non publié | https://www.explore-calvados.com/en/areas-camping-cars/aire-de-camping-car-intercommunale-de-dives-sur-mer/ | GPS précis non confirmé |
+| Arromanches-les-Bains | Avenue de Verdun, 14117 Arromanches-les-Bains | 80 | Stationnement près du musée Arromanches 360 ; tarif non confirmé | https://www.explore-calvados.com/aires-camping-cars/aire-communale-darromanches-les-bains/ | GPS précis non confirmé |
 
-A faire : verifier les coordonnees et le dedoublonnage avant insertion, puis rechercher les tarifs.
+## Avant publication sur la carte
+
+1. Vérifier un point GPS au sein de chaque aire, à partir d'une source cartographique fiable.
+2. Comparer chaque point aux 45 entrées existantes pour écarter les doublons géographiques.
+3. Ajouter les entrées dans `aires-calvados.json` avec attribution des sources, sans inventer de tarif.
+4. Vérifier l'affichage sur le site après publication.
+
+**Statut : audit documentaire validé ; insertion géographique non effectuée.**
