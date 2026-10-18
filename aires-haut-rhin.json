@@ -55,20 +55,25 @@
   },
   {
     "department": "68",
-    "name": "Aire de Stationnement Saint-Mairie-aux-Mines",
+    "name": "Aire de stationnement Sainte-Marie-aux-Mines",
     "city": "Sainte-Marie-aux-Mines",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement public (20 places)",
+      "Pas de Wi-Fi gratuit"
+    ],
+    "price": "Tarif non précisé par l'office de tourisme.",
+    "status": "Parking public en centre-ville, 20 emplacements stabilisés. Indisponible chaque année de début juin à début juillet en raison du salon Mineral & Gem.",
     "source": "https://www.openstreetmap.org/node/4723822022",
     "latitude": 48.2476859,
     "longitude": 7.1839571,
     "gpsSource": "https://www.openstreetmap.org/node/4723822022",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
-    "sourceId": "node/4723822022"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : fiche touristique dédiée vérifiée, indisponibilité annuelle signalée.",
+    "sourceId": "node/4723822022",
+    "address": "Accès par rue Narbey ou rue des Jardins, 68160 Sainte-Marie-aux-Mines",
+    "sourceOfficial": "https://www.visit.alsace/228002181-aire-de-stationnement-pour-camping-car/"
   },
   {
     "department": "68",
@@ -318,15 +323,16 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Parking du Bungert, distinct de l'aire de services du parking du Centre. Stationnement camping-car signalé ; limite de 48 h et interdiction de camper à confirmer auprès de la mairie.",
     "source": "https://www.openstreetmap.org/way/451559780",
     "latitude": 47.8115903,
     "longitude": 7.1047493,
     "gpsSource": "https://www.openstreetmap.org/way/451559780",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
-    "sourceId": "way/451559780"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : ne pas confondre Bungert avec le parking du Centre (30 places, services) décrit sur Visit Alsace.",
+    "sourceId": "way/451559780",
+    "address": "Place du Bungert, 68800 Thann"
   },
   {
     "department": "68",
