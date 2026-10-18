@@ -95,12 +95,12 @@
   {
     "department": "76",
     "name": "Aire de stationnement et de service de la Cidrerie des Hautes Falaises",
-    "city": "Commune à confirmer",
+    "city": "Contremoulins",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Non confirmé pour le stationnement camping-car ; gratuité des visites de la cidrerie non applicable à l'aire",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12242372008",
     "latitude": 49.7310834,
@@ -110,7 +110,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12242372008",
-    "servicesSource": "https://www.openstreetmap.org/node/12242372008"
+    "servicesSource": "https://www.openstreetmap.org/node/12242372008",
+    "address": "3 route de Colleville, 76400 Contremoulins (adresse de la cidrerie, localisation exacte de l'aire à vérifier)",
+    "sourceOfficial": "https://www.seine-maritime-tourisme.com/offres/cidrerie-des-hautes-falaises-contremoulins-fr-5133753/",
+    "verificationNote": "Commune et adresse de l'établissement confirmées ; ne pas confondre gratuité des visites avec tarif de l'aire."
   },
   {
     "department": "76",
@@ -199,7 +202,7 @@
   {
     "department": "76",
     "name": "Aire de camping-car",
-    "city": "Commune à confirmer",
+    "city": "Rouen",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -211,7 +214,9 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/220230937"
+    "sourceId": "way/220230937",
+    "verificationNote": "Commune de Rouen étayée par les coordonnées OSM et l'annuaire cartographique ; identité et adresse exacte de cette aire générique encore à vérifier pour éviter les doublons.",
+    "sourceOfficial": "https://airescampingcar.com/aires/france/rouen"
   },
   {
     "department": "76",
@@ -267,12 +272,12 @@
   {
     "department": "76",
     "name": "Aire de camping Cars de Sainte-Claire",
-    "city": "Commune à confirmer",
+    "city": "Neufchâtel-en-Bray",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "À partir de 15 € / nuit selon Campercontact ; tarif exact selon période à confirmer auprès de l'exploitant",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/298309291",
     "latitude": 49.7371499,
@@ -282,7 +287,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/298309291",
-    "servicesSource": "https://www.openstreetmap.org/way/298309291"
+    "servicesSource": "https://www.openstreetmap.org/way/298309291",
+    "address": "Rue Grande Flandre, près du camping Sainte-Claire, 76270 Neufchâtel-en-Bray",
+    "capacity": 14,
+    "sourceOfficial": "https://www.seine-maritime-tourisme.com/sejours/hebergements/les-campings/aire-de-camping-car-sainte-claire-neufchatel-en-bray-fr-5136526/",
+    "capacitySource": "https://www.seine-maritime-tourisme.com/sejours/hebergements/les-campings/aire-de-camping-car-sainte-claire-neufchatel-en-bray-fr-5136526/",
+    "tariffSource": "https://www.campercontact.com/en/france/normandy/neufchatel-en-bray/21950/aire-camping-car-sainte-claire"
   },
   {
     "department": "76",
