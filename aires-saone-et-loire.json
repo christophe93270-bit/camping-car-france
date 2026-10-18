@@ -31,17 +31,18 @@
       "Toilettes (indiquées dans OpenStreetMap, non vérifiées)"
     ],
     "price": "Non confirmé",
-    "status": "Présence d'une aire signalée dans les annuaires de camping-cars ; absence de confirmation municipale des équipements, horaires et tarifs.",
+    "status": "Point camping-car OpenStreetMap non confirmé par la mairie. La fiche touristique de la Mère Boitier à Tramayes décrit une aire de pique-nique, pas une aire camping-car ; ne pas lui attribuer ses équipements.",
     "source": "https://www.openstreetmap.org/node/4376886164",
     "latitude": 46.3078411,
     "longitude": 4.6040442,
     "gpsSource": "https://www.openstreetmap.org/node/4376886164",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Commune corroborée par annuaire Campercation ; source officielle non trouvée. Toilettes issues d'OSM seulement.",
+    "importReview": "Commune corroborée par annuaire Campercation ; source officielle non trouvée. Toilettes issues d'OSM seulement. | 18/10/2026 : Destination Saône-et-Loire décrit à Tramayes l'aire de pique-nique de la Mère Boitier (parking et tables), pas une aire de services camping-car. Aucune correspondance certaine avec le point OSM ; sourceOfficial volontairement absent.",
     "sourceId": "node/4376886164",
     "servicesSource": "https://www.openstreetmap.org/node/4376886164",
-    "cityVerificationNote": "Commune identifiée par nom OSM et annuaire secondaire."
+    "cityVerificationNote": "Commune identifiée par nom OSM et annuaire secondaire.",
+    "relatedOfficialSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-pique-nique-de-la-mere-boitier.html"
   },
   {
     "department": "71",
@@ -769,16 +770,17 @@
       "Stationnement (10 places selon annuaire secondaire, non confirmé)"
     ],
     "price": "Gratuit selon annuaire secondaire, non confirmé par la ville",
-    "status": "Parking signalé promenade Sainte-Marie. Article événementiel 2025 mentionne le stationnement de camping-cars ; règles actuelles, capacité et services à confirmer auprès de la ville.",
+    "status": "Parking promenade Sainte-Marie signalé par annuaires, mais autorisation et capacité camping-car non confirmées en 2026. Ne pas confondre avec l'aire officielle de 24 places avenue Léon-Blum.",
     "source": "https://www.openstreetmap.org/way/1288052438",
     "latitude": 46.7844654,
     "longitude": 4.8617552,
     "gpsSource": "https://www.openstreetmap.org/way/1288052438",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Article Camping-car.com pour Chalon dans la Rue 2025 mentionne le stationnement sur la promenade Sainte-Marie ; Caraplace donne 10 places et gratuité d'après OSM. Pas de source municipale confirmant les conditions 2026.",
+    "importReview": "Article Camping-car.com pour Chalon dans la Rue 2025 mentionne le stationnement sur la promenade Sainte-Marie ; Caraplace donne 10 places et gratuité d'après OSM. Pas de source municipale confirmant les conditions 2026. | 18/10/2026 : Destination Saône-et-Loire confirme une aire de 24 places avenue Léon Blum, distincte de la promenade Sainte-Marie (GPS OSM). Ne pas transférer ses tarifs (14-15 €/24 h), équipements ou sa sourceOfficial vers cette fiche. La ville documente historiquement promenade Sainte-Marie comme parking de véhicules légers ; autorisation camping-car 2026 non établie.",
     "sourceId": "way/1288052438",
-    "cityVerificationNote": "Commune corroborée par article et annuaires."
+    "cityVerificationNote": "Commune corroborée par article et annuaires.",
+    "relatedOfficialSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-les-camping-cars.html-2"
   },
   {
     "department": "71",
