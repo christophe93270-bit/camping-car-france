@@ -139,17 +139,20 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Non publié.",
+    "status": "Domaine Xavier Schneider : deux places camping-car et une place poids lourd annoncées dans le descriptif, capacité de deux au tableau. Eau et électricité possibles. Arrivée avant 18 h.",
     "source": "https://www.openstreetmap.org/node/12030089516",
     "latitude": 48.0055959,
     "longitude": 7.2767928,
     "gpsSource": "https://www.openstreetmap.org/node/12030089516",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : vérification office de tourisme, divergences signalées.",
     "sourceId": "node/12030089516",
-    "servicesSource": "https://www.openstreetmap.org/node/12030089516"
+    "servicesSource": "https://www.openstreetmap.org/node/12030089516",
+    "address": "42 rue du Nord, 68420 Gueberschwihr",
+    "sourceOfficial": "https://www.tourisme-eguisheim-rouffach.com/FR/Aire-camping-cars-Domaine-Xavier-Schneider-f253004261.html",
+    "priceSource": "https://www.tourisme-eguisheim-rouffach.com/FR/Aire-camping-cars-Domaine-Xavier-Schneider-f253004261.html"
   },
   {
     "department": "68",
@@ -179,17 +182,19 @@
     "city": "Kaysersberg-Vignoble",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "10 € /24 h (2026).",
+    "status": "70 places, ouvert toute l'année, sans réservation. Du 1er janvier au 31 mars : stationnement et vidange seulement. Marchés de Noël : report temporaire au stade de football.",
     "source": "https://www.openstreetmap.org/way/82288504",
     "latitude": 48.1360815,
     "longitude": 7.2619567,
     "gpsSource": "https://www.openstreetmap.org/way/82288504",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. Référence institutionnelle territoriale ajoutée ; elle ne confirme pas à elle seule les tarifs ni équipements de cette fiche.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. Référence institutionnelle territoriale ajoutée ; elle ne confirme pas à elle seule les tarifs ni équipements de cette fiche. | 18/10/2026 : vérification office de tourisme, divergences signalées.",
     "sourceId": "way/82288504",
-    "sourceOfficial": "https://www.kaysersberg.com/"
+    "sourceOfficial": "https://www.kaysersberg.com/fr/detail/618/4484/230101208/aire-de-camping-car-kaysersberg-vignoble/",
+    "address": "Place de l'Erlenbad, 68240 Kaysersberg-Vignoble",
+    "priceSource": "https://www.kaysersberg.com/fr/detail/618/4484/230101208/aire-de-camping-car-kaysersberg-vignoble/"
   },
   {
     "department": "68",
@@ -258,16 +263,19 @@
     "city": "Turckheim",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "5 € /24 h (office de tourisme).",
+    "status": "Près du camping Le Médiéval, à dix minutes à pied du centre. Services non détaillés.",
     "source": "https://www.openstreetmap.org/way/432986716",
     "latitude": 48.0853242,
     "longitude": 7.2760122,
     "gpsSource": "https://www.openstreetmap.org/way/432986716",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
-    "sourceId": "way/432986716"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : vérification office de tourisme, divergences signalées.",
+    "sourceId": "way/432986716",
+    "address": "Quai de la Fecht, 68230 Turckheim",
+    "sourceOfficial": "https://tourisme-colmar.com/fr/toutes-les-fiches/F235015947_aire-de-stationnement-pour-camping-car-turckheim",
+    "priceSource": "https://tourisme-colmar.com/fr/toutes-les-fiches/F235015947_aire-de-stationnement-pour-camping-car-turckheim"
   },
   {
     "department": "68",
@@ -425,37 +433,42 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Dès 7,50 € la nuit, électricité 5 € ; taxe en sus.",
+    "status": "Terrasses du Lac Blanc : capacité contradictoire, neuf places dans le descriptif, douze dans le tableau ; huit branchements électriques annoncés.",
     "source": "https://www.openstreetmap.org/way/1238034521",
     "latitude": 48.1355651,
     "longitude": 7.0913281,
     "gpsSource": "https://www.openstreetmap.org/way/1238034521",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : vérification office de tourisme, divergences signalées.",
     "sourceId": "way/1238034521",
-    "servicesSource": "https://www.openstreetmap.org/way/1238034521"
+    "servicesSource": "https://www.openstreetmap.org/way/1238034521",
+    "address": "348 Lac Blanc, 68370 Orbey",
+    "sourceOfficial": "https://www.kaysersberg.com/fr/detail/618/4484/230103475/aire-de-camping-car-des-terrasses-du-lac-blanc-orbey/",
+    "priceSource": "https://www.kaysersberg.com/fr/detail/618/4484/230103475/aire-de-camping-car-des-terrasses-du-lac-blanc-orbey/"
   },
   {
     "department": "68",
     "name": "Aire de camping-cars du Bollenberg",
-    "city": "Orschwihr (Bollenberg)",
+    "city": "Westhalten",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Non publié.",
+    "status": "Colline du Bollenberg, huit places, eau et électricité possibles, aucune vidange.",
     "source": "https://www.openstreetmap.org/way/1238139330",
     "latitude": 47.9450734,
     "longitude": 7.2555038,
     "gpsSource": "https://www.openstreetmap.org/way/1238139330",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : vérification office de tourisme, divergences signalées.",
     "sourceId": "way/1238139330",
-    "servicesSource": "https://www.openstreetmap.org/way/1238139330"
+    "servicesSource": "https://www.openstreetmap.org/way/1238139330",
+    "sourceOfficial": "https://www.tourisme-eguisheim-rouffach.com/FR/Aire-camping-cars-Bollenberg-f253001408.html",
+    "priceSource": "https://www.tourisme-eguisheim-rouffach.com/FR/Aire-camping-cars-Bollenberg-f253001408.html"
   },
   {
     "department": "68",
@@ -480,22 +493,24 @@
   {
     "department": "68",
     "name": "Aire de camping-cars – Domaine Denis Meyer",
-    "city": "Eguisheim",
+    "city": "Voegtlinshoffen",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit contre achat de bouteilles.",
+    "status": "Domaine Denis Meyer, cinq places. Eau, électricité et Wi-Fi ; sans sanitaires. Réservation conseillée.",
     "source": "https://www.openstreetmap.org/way/1298669016",
     "latitude": 48.02277,
     "longitude": 7.2850328,
     "gpsSource": "https://www.openstreetmap.org/way/1298669016",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée à partir du nom et de la localisation OSM ; tarifs/services à confirmer avec source officielle. | 18/10/2026 : vérification office de tourisme, divergences signalées.",
     "sourceId": "way/1298669016",
-    "servicesSource": "https://www.openstreetmap.org/way/1298669016"
+    "servicesSource": "https://www.openstreetmap.org/way/1298669016",
+    "sourceOfficial": "https://www.tourisme-eguisheim-rouffach.com/FR/Aire-camping-cars-Domaine-Denis-MEYER-f253004229.html",
+    "priceSource": "https://www.tourisme-eguisheim-rouffach.com/FR/Aire-camping-cars-Domaine-Denis-MEYER-f253004229.html"
   },
   {
     "department": "68",
