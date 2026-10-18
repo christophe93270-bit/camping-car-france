@@ -185,21 +185,25 @@
     "city": "La Londe-les-Maures",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Eau potable"
+      "4 places de stationnement",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux grises et noires"
     ],
-    "price": "Non confirmé — consulter la commune avant déplacement",
-    "status": "Le nom et les coordonnées OSM situent le point à La Londe-les-Maures. Aucune grille tarifaire officielle ni confirmation directe des services de ce point précis n'a été identifiée ; vérifier l'autorisation de stationnement auprès de la commune.",
+    "price": "Stationnement gratuit (4 places, 48 h maximum) ; eau 2,50 €/10 min ; électricité 4 €/12 h (Visit Var, 16/09/2026).",
+    "status": "Aire ouverte 24 h/24 toute l'année, stationnement gratuit 48 h maximum. Paiement des services via application QIPEO (Réseau AireServices). Adresse 315 avenue Henri Matisse corroborée par l'office de tourisme Méditerranée Porte des Maures.",
     "source": "https://www.openstreetmap.org/way/588983241",
     "latitude": 43.1320614,
     "longitude": 6.2308799,
     "gpsSource": "https://www.openstreetmap.org/way/588983241",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "18/10/2026 : contrôle ciblé du point OSM avenue Henri Matisse. Commune identifiable, mais l'autorisation, l'adresse précise, l'eau annoncée et le tarif ne sont pas confirmés par une page officielle directement consacrée à cette aire. | Source technique conservée : fiche OpenStreetMap, non équivalente à une confirmation officielle.",
+    "importReview": "18/10/2026 : confirmation croisée Visit Var actualisée 16/09/2026 et brochure de l'office de tourisme local ; 315 avenue Henri Matisse.",
     "sourceId": "way/588983241",
-    "servicesSource": "https://www.openstreetmap.org/way/588983241",
-    "address": "Avenue Henri Matisse, 83250 La Londe-les-Maures — numéro et accès précis à confirmer",
-    "priceSource": "https://www.ville-lalondelesmaures.fr/"
+    "servicesSource": "https://www.visitvar.com/fiche/motor-home-parking-and-service-area-5358466",
+    "address": "315 avenue Henri Matisse, 83250 La Londe-les-Maures",
+    "priceSource": "https://www.visitvar.com/fiche/motor-home-parking-and-service-area-5358466",
+    "sourceOfficial": "https://www.visitvar.com/fiche/motor-home-parking-and-service-area-5358466"
   },
   {
     "department": "83",
@@ -335,39 +339,47 @@
     "services": [
       "Électricité (déclarée dans OpenStreetMap, fonctionnement actuel à confirmer)"
     ],
-    "price": "Tarif actuel à confirmer sur la fiche de l'exploitant ; aucun montant vérifié dans cette mise à jour.",
-    "status": "L'aire CAMPING-CAR PARK est recensée place du Moulin Saint-André, près du Verdon. L'électricité est déclarée dans OpenStreetMap, mais la disponibilité effective et le tarif actuel doivent être vérifiés auprès de l'exploitant. Ne pas confondre l'aire avec les parkings de loisirs voisins.",
+    "price": "15,47 €/24 h au 18/10/2026 (13,87 € stationnement + 1,60 € taxe de séjour) ; 5 h + services : 6 €. Tarif à revérifier avant arrivée.",
+    "status": "Aire CAMPING-CAR PARK place du Moulin Saint-André ; 38 places annoncées par l'exploitant, ouverte lors de la consultation. Secteur soumis à un PPRI. Coupure électrique annoncée le 28 octobre 2026 de 8 h à 12 h.",
     "source": "https://www.openstreetmap.org/way/1263780469",
     "latitude": 43.7285726,
     "longitude": 5.8138168,
     "gpsSource": "https://www.openstreetmap.org/way/1263780469",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "18/10/2026 : adresse recoupée avec la fiche d'établissement locale ; tarifs dynamiques et fonctionnement actuel des prises non confirmés par une page tarifaire directement consultable.",
+    "importReview": "18/10/2026 : identité confirmée par exploitant (GPS 43.72877,5.813068, proche du point OSM), prix saisonnier et taxe détaillés.",
     "sourceId": "way/1263780469",
-    "servicesSource": "https://www.openstreetmap.org/way/1263780469",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/var/vinon-sur-verdon",
     "address": "Place du Moulin Saint-André, 83560 Vinon-sur-Verdon",
-    "priceSource": "https://www.openstreetmap.org/way/1263780469"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/var/vinon-sur-verdon",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/var/vinon-sur-verdon"
   },
   {
     "department": "83",
     "name": "Aire municipales Camping Car- Fayence",
     "city": "Fayence",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Tarif exact non confirmé ; des sources locales décrivent une aire simple et gratuite, mais il faut confirmer la tarification des services avant de l'indiquer comme officielle.",
-    "status": "Aire municipale située rue du Grand Jardin selon la fiche d'établissement locale. Le stationnement est décrit par des sources secondaires comme gratuit, avec peu de places ; l'absence de branchement électrique est également rapportée. Ces détails ne sont pas encore confirmés par une page municipale directement consacrée à l'aire.",
+    "services": [
+      "2 emplacements",
+      "Vidange eaux grises et noires",
+      "Eau potable",
+      "Dépôt de déchets",
+      "WC"
+    ],
+    "price": "Stationnement gratuit 72 h maximum ; services 4 € (Visit Var, mise à jour du 19/06/2026).",
+    "status": "Aire municipale ouverte toute l'année selon l'office de tourisme. Deux emplacements, parking gratuit limité à 72 h, services payants 4 €. Borne avec paiement en monnaie ; prévoir embout mâle/mâle pour l'eau.",
     "source": "https://www.openstreetmap.org/way/1282138727",
     "latitude": 43.6229866,
     "longitude": 6.6901541,
     "gpsSource": "https://www.openstreetmap.org/way/1282138727",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "18/10/2026 : adresse rue du Grand Jardin recoupée avec la fiche d'établissement locale. Aucun barème municipal officiel directement consultable ; ne pas déclarer la gratuité ni les services comme confirmés.",
+    "importReview": "18/10/2026 : données directement sourcées auprès de Visit Var, actualisation 19/06/2026.",
     "sourceId": "way/1282138727",
-    "address": "Rue du Grand Jardin, 83440 Fayence",
-    "priceSource": "https://www.openstreetmap.org/way/1282138727",
-    "servicesSource": "https://www.openstreetmap.org/way/1282138727"
+    "address": "Allée du Grand Jardin (D19), 83440 Fayence",
+    "priceSource": "https://www.visitvar.fr/fiche/aire-de-services-municipales-camping-car-fayence-5502542",
+    "servicesSource": "https://www.visitvar.fr/fiche/aire-de-services-municipales-camping-car-fayence-5502542",
+    "sourceOfficial": "https://www.visitvar.fr/fiche/aire-de-services-municipales-camping-car-fayence-5502542"
   },
   {
     "department": "83",
