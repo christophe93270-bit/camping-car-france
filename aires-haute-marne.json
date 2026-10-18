@@ -122,19 +122,21 @@
   {
     "department": "52",
     "name": "Aire de camping-cars de Concourt",
-    "city": "Commune à confirmer",
+    "city": "Bourmont-entre-Meuse-et-Mouzon (Goncourt)",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit, services 3 € selon i-Campingcar (juillet 2026), à confirmer par la mairie",
+    "status": "Le nom importé « Concourt » semble erroné : les coordonnées OSM 48.2364337,5.6094476 correspondent à l'aire de Goncourt, commune déléguée de Bourmont-entre-Meuse-et-Mouzon. I-Campingcar fournit 48.236456,5.609402 (~4 m d'écart), stationnement gratuit limité à 48 h, services 3 €, électricité indisponible selon annuaire ; témoignage juillet 2026 : contribution 3 € à déposer dans une boîte. Pas de source municipale directe vérifiée.",
     "source": "https://www.openstreetmap.org/way/506723425",
     "latitude": 48.2364337,
     "longitude": 5.6094476,
     "gpsSource": "https://www.openstreetmap.org/way/506723425",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/506723425"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : rectification de toponymie Concourt → Goncourt (Bourmont-entre-Meuse-et-Mouzon) ; concordance GPS i-Campingcar à 4 m du point OSM. Source secondaire uniquement, sourceOfficial non attribuée.",
+    "sourceId": "way/506723425",
+    "address": "D74, bord de Meuse, Goncourt, 52150 Bourmont-entre-Meuse-et-Mouzon",
+    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=GONCOURT"
   },
   {
     "department": "52",
@@ -216,22 +218,27 @@
   {
     "department": "52",
     "name": "Aire de stationnement de Montier-en-Der",
-    "city": "Commune à confirmer",
+    "city": "La Porte du Der (Montier-en-Der)",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Borne Aire Services à jetons",
+      "Eau (borne, selon relevé terrain secondaire)",
+      "Vidange cassette et eaux usées (selon relevé terrain secondaire)",
+      "Électricité (borne, selon relevé terrain secondaire)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de services Montier-en-Der rue de l'Isle, borne Aire Services à jetons : emplacement identifié par guide officiel de l'office de tourisme Saint-Dizier Der et Blaise et GPS indépendant 48.47854,4.76894 concordant avec la fiche. Guide ancien, vérifier tarif et fonctionnement 2026.",
     "source": "https://www.openstreetmap.org/way/1231238311",
     "latitude": 48.4785888,
     "longitude": 4.768932,
     "gpsSource": "https://www.openstreetmap.org/way/1231238311",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : guide officiel de l'office de tourisme identifie 18 rue de l'Isle et borne à jetons ; relevé de terrain GPS 48.47854,4.76894 correspond au point OSM. Tarif 2026 non confirmé.",
     "sourceId": "way/1231238311",
-    "servicesSource": "https://www.openstreetmap.org/way/1231238311"
+    "servicesSource": "https://www.aire-service-camping-car-panoramique.fr/haute-marne/52-montier-en-der",
+    "address": "18 rue de l'Isle, 52220 Montier-en-Der",
+    "sourceOfficial": "https://www.photo-montier.org/wp-content/uploads/2017/08/Guide-h%C3%A9bergement-office-de-tourisme-Saint-Dizier-Der-et-Blaise.pdf"
   },
   {
     "department": "52",
@@ -262,25 +269,33 @@
     "name": "Aire de camping-car des Caillotes",
     "city": "Éclaron-Braucourt-Sainte-Livière",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Stationnement camping-car",
+      "Vidange",
+      "Électricité (formule 24 h indiquée par le guide touristique ancien)",
+      "Wi-Fi (annoncé gratuit par le guide touristique ancien)",
+      "Paiement par carte bancaire"
+    ],
     "price": "Non confirmé",
-    "status": "Aire des Caillotes à Sainte-Livière, GPS OSM 48.601476,4.821251. Haute-Marne Attractivité recense une aire communale de 20 emplacements au 1 rue Sainte-Libaire : rapprochement probable mais identité exacte avec le point OSM non encore démontrée. Avis usagers 2026 : borne de paiement CB, eau, vidanges, électricité, Wi-Fi ; incidents ponctuels d'accès et plaintes sur l'eau. Tarifs constatés variables (environ 10–12 € / nuit), aucun tarif municipal 2026 vérifié.",
+    "status": "Aire des Caillotes identifiée à Sainte-Livière, rue Sainte-Libaire : guide officiel de l'office de tourisme Saint-Dizier Der et Blaise décrivant l'aire de stationnement avec vidange, électricité 24 h, Wi-Fi et paiement par carte. Concordance avec la carte OSM de l'aire des Caillotes située près de la mairie annexe et la rue Sainte-Libaire. Guide ancien : disponibilité et tarifs 2026 à vérifier.",
     "source": "https://www.openstreetmap.org/way/1252418751",
     "latitude": 48.601476,
     "longitude": 4.8212517,
     "gpsSource": "https://www.openstreetmap.org/way/1252418751",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : aire touristique communale Sainte-Livière (20 places) probablement les Caillotes, mais adresse rue Sainte-Libaire non encore recoupée avec OSM ; ne pas attribuer sourceOfficial avant vérification. Avis 2026 confirment usage et signalent incidents d'eau/code.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : aire touristique communale Sainte-Livière (20 places) probablement les Caillotes, mais adresse rue Sainte-Libaire non encore recoupée avec OSM ; ne pas attribuer sourceOfficial avant vérification. Avis 2026 confirment usage et signalent incidents d'eau/code. | 18/10/2026 : rapprochement confirmé entre aire des Caillotes OSM à Sainte-Livière et aire de la rue Sainte-Libaire décrite par le guide de l'office de tourisme Saint-Dizier Der et Blaise (PDF p.19). Source institutionnelle historique, ne pas inférer prix ou état opérationnel 2026.",
     "sourceId": "way/1252418751",
-    "address": "Sainte-Livière, 52290 Éclaron-Braucourt-Sainte-Livière (adresse postale touristique 1 rue Sainte-Libaire à vérifier contre point GPS)",
+    "address": "1 rue Sainte-Libaire, Sainte-Livière, 52290 Éclaron-Braucourt-Sainte-Livière",
     "relatedOfficialSources": [
       "https://www.bienvenue-hautemarne.fr/sit/sainte-liviere-aire-de-stationnement-de-sainte-liviere-acccha051v50apyj/"
     ],
     "relatedSecondarySources": [
       "https://park4night.com/fr/place/16287",
       "https://www.campercontact.com/en/france/grand-est/%C3%A9claron-braucourt-sainte-livi%C3%A8re/46576/aire-de-camping-car-des-caillotes"
-    ]
+    ],
+    "sourceOfficial": "https://www.photo-montier.org/wp-content/uploads/2017/08/Guide-h%C3%A9bergement-office-de-tourisme-Saint-Dizier-Der-et-Blaise.pdf",
+    "servicesSource": "https://www.photo-montier.org/wp-content/uploads/2017/08/Guide-h%C3%A9bergement-office-de-tourisme-Saint-Dizier-Der-et-Blaise.pdf"
   },
   {
     "department": "52",
