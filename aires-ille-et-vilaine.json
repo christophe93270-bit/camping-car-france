@@ -206,9 +206,11 @@
     "city": "Le Minihic-sur-Rance",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Eau potable"
+      "Eau",
+      "Électricité",
+      "Vidange des eaux usées"
     ],
-    "price": "Stationnement gratuit ; prix de l'eau non confirmé",
+    "price": "Stationnement gratuit ; borne eau (10 min) et électricité (1 h) : 2 € en pièces",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1010925240",
     "latitude": 48.5758598,
@@ -221,8 +223,10 @@
     "servicesSource": "https://www.openstreetmap.org/way/1010925240",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
     "address": "Rue du Pron, 35870 Le Minihic-sur-Rance",
-    "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-service-le-minihic-sur-rance-fr-3663112/",
-    "verificationNote": "Aire de service rue du Pron, distincte du camping municipal Le Rivage rue Abbé Bedel. Eau, vidange et poubelles ; capacité non confirmée."
+    "sourceOfficial": "https://www.le-minihic-sur-rance.fr/accueil/tourisme/sejourner-au-minihic/",
+    "verificationNote": "Office de tourisme : 6 places, 24 h maximum ; mairie : borne eau et électricité à 2 € en pièces. Distinct du camping Le Rivage.",
+    "capacity": 6,
+    "capacitySource": "https://www.dinardemeraudetourisme.com/fiche/aire-de-service-5V5243NE/"
   },
   {
     "department": "35",
@@ -257,7 +261,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Services gratuits ; stationnement à confirmer",
+    "price": "Stationnement, eau et vidange gratuits ; eau indisponible en hiver",
     "status": "Aire communale référencée par Ille-et-Vilaine Tourisme ; borne à eau et vidange indisponibles du 1er décembre à fin février",
     "source": "https://www.openstreetmap.org/way/1110588171",
     "latitude": 48.4243519,
@@ -271,9 +275,11 @@
     "priceSource": "https://www.destination-fougeres.bzh/aire-camping-car/aire-de-camping-cars-de-bazouges-la-perouse/",
     "priceVerifiedOn": "2026-10-17",
     "priceNote": "L'office de tourisme confirme la gratuité des services, pas nécessairement la nuitée.",
-    "address": "Boulevard de Castel Marie, 35560 Bazouges-la-Pérouse",
-    "verificationNote": "Source touristique : terrain en pente, cales recommandées. Borne purgée en hiver ; ni approvisionnement en eau ni vidange possibles du 1er décembre à fin février. Capacité et tarif de stationnement non confirmés.",
-    "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-cars-de-bazouges-la-perouse-bazouges-la-perouse-fr-2727624/"
+    "address": "2 avenue de Castel Marie, 35560 Bazouges-la-Pérouse",
+    "verificationNote": "Mairie : 7 emplacements, pas d'électricité, eau de mars à fin novembre. Office de tourisme : services indisponibles du 1er décembre à fin février.",
+    "sourceOfficial": "https://bazougeslaperouse.fr/decouvrir-bazouges/tourisme/se-loger/",
+    "capacity": 7,
+    "capacitySource": "https://bazougeslaperouse.fr/decouvrir-bazouges/tourisme/se-loger/"
   },
   {
     "department": "35",
