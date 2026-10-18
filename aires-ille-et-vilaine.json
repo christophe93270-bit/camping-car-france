@@ -121,10 +121,8 @@
     "name": "Aire de camping-car Cesson-Sévigné",
     "city": "Cesson-Sévigné",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [
-      "Électricité"
-    ],
-    "price": "Stationnement gratuit, 6 emplacements ; pas de borne de services",
+    "services": [],
+    "price": "Stationnement gratuit, sans borne de services",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/24770971",
     "latitude": 48.1181087,
@@ -138,7 +136,10 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
     "priceSource": "https://www.tourisme-rennes.com/infos-pratiques/camping-car-stationnement/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Office de tourisme de Rennes."
+    "priceNote": "Office de tourisme de Rennes.",
+    "address": "Route de la Valette, 35510 Cesson-Sévigné",
+    "capacity": 6,
+    "sourceOfficial": "https://www.tourisme-rennes.com/infos-pratiques/camping-car-stationnement/"
   },
   {
     "department": "35",
@@ -173,8 +174,13 @@
     "name": "Aire de camping-cars de Mellé",
     "city": "Mellé",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Eau",
+      "Vidange des eaux usées",
+      "WC",
+      "Aire de pique-nique"
+    ],
+    "price": "Eau et vidange gratuites ; tarif du stationnement non confirmé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/429898926",
     "latitude": 48.4894659,
@@ -184,7 +190,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/429898926",
-    "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques."
+    "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
+    "address": "Rue Rouviel, 35420 Mellé (derrière l'église)",
+    "capacity": 4,
+    "sourceOfficial": "https://melle.bzh/vie-pratique-services/aire-de-camping-car/",
+    "capacitySource": "https://melle.bzh/vie-pratique-services/aire-de-camping-car/"
   },
   {
     "department": "35",
@@ -430,8 +440,12 @@
     "name": "Aire de camping-cars Tinténiac",
     "city": "Tinténiac",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "6,68 € / nuit indiqués sur le site municipal (page 2026 mentionnant aussi 2025 : tarif à reconfirmer)",
+    "services": [
+      "Eau",
+      "Vidange des eaux usées",
+      "Vidange WC"
+    ],
+    "price": "6,68 € la nuitée, tarif indiqué sur la page municipale 2026 avec mention 2025 ; à confirmer auprès de la commune",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1318379494",
     "latitude": 48.332215,
@@ -445,8 +459,12 @@
     "priceSource": "https://tinteniac.fr/visiter-tinteniac/hebergements/",
     "priceVerifiedOn": "2026-10-17",
     "priceNote": "La commune affiche un tarif ambigu sur l'année.",
-    "verificationNote": "Ne pas confondre l'aire OSM (way/1318379494) avec l'aire du camping Les Peupliers, située à La Besnelais. Adresse exacte, capacité et tarif 2026 de l'aire OSM non confirmés.",
-    "relatedSource": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-du-camping-les-peupliers-tinteniac-fr-2727626/"
+    "verificationNote": "Aire municipale quai de la Donac, distincte du camping Les Peupliers. Capacité 13 places selon Saint-Malo Tourisme. Aucun branchement électrique selon office. Tarif 4 € encore affiché par office, mais page municipale indique 6,68 € avec année ambiguë : tarif à reconfirmer.",
+    "relatedSource": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-du-camping-les-peupliers-tinteniac-fr-2727626/",
+    "address": "Quai de la Donac, 35190 Tinténiac",
+    "capacity": 13,
+    "sourceOfficial": "https://tinteniac.fr/visiter-tinteniac/hebergements/",
+    "capacitySource": "https://www.saint-malo-tourisme.com/poser-ses-valises/ou-dormir/campings/aire-de-services-tinteniac-fr-3711959/"
   },
   {
     "department": "35",
