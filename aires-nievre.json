@@ -1,24 +1,31 @@
 [
   {
     "department": "58",
-    "name": "Aire de Camping Car de Nevers",
+    "name": "Aire de camping-car de Nevers — Plateau de la Bonne Dame",
     "city": "Nevers",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement camping-car Onlypark",
     "services": [
-      "Électricité"
+      "Stationnement (10 emplacements)",
+      "Électricité (6 emplacements équipés)",
+      "Vidange eaux usées",
+      "Paiement par carte bancaire"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Emplacement électrifié à partir de 14 €/jour (fiche touristique mise à jour en juin 2026) ; autres tarifs à confirmer",
+    "status": "Ouvert toute l'année en 2026 selon l'office de tourisme. Aire distincte du camping municipal rue de la Jonction.",
     "source": "https://www.openstreetmap.org/node/12012374502",
     "latitude": 46.9811077,
     "longitude": 3.1580656,
     "gpsSource": "https://www.openstreetmap.org/node/12012374502",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Exploitant Onlypark confirme l'aire et son adresse, GPS 46.981448 3.158683 proche du point OSM. Office OT Cap Grand Nevers sur Cirkwi, fiche actualisée 22/06/2026 : 10 places ombragées, 6 raccordements électriques, vidange, à partir de 14 € électrifié.",
     "sourceId": "node/12012374502",
-    "servicesSource": "https://www.openstreetmap.org/node/12012374502",
-    "cityVerificationNote": "Commune déduite du nom du point OpenStreetMap ; services et tarifs à vérifier indépendamment."
+    "servicesSource": "https://www.cirkwi.com/fr/point-interet/2997323-aire-de-camping-car-de-nevers",
+    "cityVerificationNote": "Commune déduite du nom du point OpenStreetMap ; services et tarifs à vérifier indépendamment.",
+    "address": "Rue du Plateau de la Bonne Dame, 58000 Nevers",
+    "sourceOfficial": "https://www.onlypark.fr/aire-de-nevers/",
+    "priceSource": "https://www.cirkwi.com/fr/point-interet/2997323-aire-de-camping-car-de-nevers",
+    "priceVerifiedOn": "2026-10-18"
   },
   {
     "department": "58",
@@ -288,22 +295,28 @@
     "department": "58",
     "name": "Aire de Service pour Camping-Car de Chaumot",
     "city": "Chaumot",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de services et stationnement camping-car",
     "services": [
-      "Électricité"
+      "Stationnement camping-car",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées",
+      "Parking"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Fiche Nièvre Tourisme : ouverture saisonnière indiquée du 15 avril au 15 novembre 2025 ; calendrier 2026 non confirmé.",
     "source": "https://www.openstreetmap.org/way/1296329506",
     "latitude": 47.2591286,
     "longitude": 3.6481288,
     "gpsSource": "https://www.openstreetmap.org/way/1296329506",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Nièvre Tourisme confirme Port de Chitry-Chaumot, eau, électricité, vidange. Dates 2025 historiques, ne pas présenter comme dates 2026.",
     "sourceId": "way/1296329506",
-    "servicesSource": "https://www.openstreetmap.org/way/1296329506",
-    "cityVerificationNote": "Commune déduite du nom du point OpenStreetMap ; services et tarifs à vérifier indépendamment."
+    "servicesSource": "https://www.nievre-tourisme.com/camping-car/aire-de-service-pour-camping-car-de-chaumot",
+    "cityVerificationNote": "Commune déduite du nom du point OpenStreetMap ; services et tarifs à vérifier indépendamment.",
+    "address": "Port de Chitry-Chaumont, 58800 Chaumot",
+    "sourceOfficial": "https://www.nievre-tourisme.com/camping-car/aire-de-service-pour-camping-car-de-chaumot"
   },
   {
     "department": "58",
@@ -332,19 +345,20 @@
     "department": "58",
     "name": "Aire de service pour Camping-Car de Larochemillay",
     "city": "Larochemillay",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de services camping-car",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire référencée par Nièvre Tourisme dans son catalogue institutionnel d'hébergements ; équipement, adresse exacte, horaires et prix non confirmés par cette référence.",
     "source": "https://www.openstreetmap.org/way/1296354963",
     "latitude": 46.8778511,
     "longitude": 4.0007814,
     "gpsSource": "https://www.openstreetmap.org/way/1296354963",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Nièvre Tourisme liste explicitement « Aire de service pour Camping-Car de Larochemillay » à Larochemillay ; seule l'existence est vérifiée. GPS OSM conservé.",
     "sourceId": "way/1296354963",
-    "cityVerificationNote": "Commune déduite du nom du point OpenStreetMap ; services et tarifs à vérifier indépendamment."
+    "cityVerificationNote": "Commune déduite du nom du point OpenStreetMap ; services et tarifs à vérifier indépendamment.",
+    "sourceOfficial": "https://www.nievre-tourisme.com/sejourner/ou-dormir/hebergements-loire-en-bourgogne/page/42/"
   },
   {
     "department": "58",
