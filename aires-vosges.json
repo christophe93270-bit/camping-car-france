@@ -116,19 +116,19 @@
     "type": "Aire de stationnement camping-car",
     "services": [
       "Stationnement (100 places, sans électricité)",
-      "Vidange gratuite à une borne distincte à 200 m",
+      "Vidange à borne distincte à 200 m (tarif contesté entre mairie et office de tourisme)",
       "Eau potable 2 € / 100 L à la borne distincte à 200 m",
       "Animaux acceptés"
     ],
-    "price": "8 € par nuit ; vidange gratuite à la borne du boulevard d'Alsace, eau potable 2 € / 100 L",
-    "status": "Parking de la Prairie de 100 places sans électricité, 8 € la nuit. Services distincts boulevard d'Alsace à 200 m : vidange gratuite et eau 2 € / 100 L. Fermeture exceptionnelle du 16 au 31 août 2026 terminée ; ne pas confondre avec la nouvelle aire privée Le Pré Vert ouverte à l'été 2026. Attention : la mairie indique sur sa page actuelle que l'accès à la borne de vidange du boulevard d'Alsace est payant (jetons à l'office de tourisme), alors que l'office de tourisme indique la vidange gratuite et l'eau payante. Vérifier la facturation réelle de la vidange.",
+    "price": "8 € par nuit. Eau potable : 2 € / 100 L selon l'office de tourisme. Vidange : mairie indique accès payant par jeton, tandis que Tourisme Vosges indique gratuit ; tarif réel à confirmer.",
+    "status": "Parking de la Prairie de 100 places sans électricité, 8 € la nuit. Services distincts boulevard d'Alsace à 200 m : vidange gratuite et eau 2 € / 100 L. Fermeture exceptionnelle du 16 au 31 août 2026 terminée ; ne pas confondre avec la nouvelle aire privée Le Pré Vert ouverte à l'été 2026. Attention : la mairie indique sur sa page actuelle que l'accès à la borne de vidange du boulevard d'Alsace est payant (jetons à l'office de tourisme), alors que l'office de tourisme indique la vidange gratuite et l'eau payante. Vérifier la facturation réelle de la vidange. La mairie précise que le stationnement nocturne hors parkings autorisés est verbalisable et que la fête foraine de fin août/début septembre entraîne le report sur La Mauselaine.",
     "source": "https://www.openstreetmap.org/way/144823230",
     "latitude": 48.0722342,
     "longitude": 6.8728155,
     "gpsSource": "https://www.openstreetmap.org/way/144823230",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : sources directes mairie + tourisme, stationnement 100 places à 8 €, pas d'électricité, borne à 200 m. GPS touristique 48.0723298,6.8734288 proche OSM. | 18/10/2026 : contrôle grille tarifaire exploitant / office tourisme et distinction entre aires. | 18/10/2026 : animaux acceptés confirmés par Tourisme Vosges, fiche 777000676. | 18/10/2026 : divergence mairie/office de tourisme relevée sur la gratuité de la vidange ; prix de l'eau 2 €/100 L maintenu selon office.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : sources directes mairie + tourisme, stationnement 100 places à 8 €, pas d'électricité, borne à 200 m. GPS touristique 48.0723298,6.8734288 proche OSM. | 18/10/2026 : contrôle grille tarifaire exploitant / office tourisme et distinction entre aires. | 18/10/2026 : animaux acceptés confirmés par Tourisme Vosges, fiche 777000676. | 18/10/2026 : divergence mairie/office de tourisme relevée sur la gratuité de la vidange ; prix de l'eau 2 €/100 L maintenu selon office. | 18/10/2026 : correction du champ prix et du service vidange pour ne plus annoncer comme gratuit un accès déclaré payant par la mairie ; réglementation nocturne ajoutée.",
     "sourceId": "way/144823230",
     "address": "Parking de la Prairie, boulevard d'Alsace, 88400 Gérardmer",
     "sourceOfficial": "https://www.mairie-gerardmer.fr/tourisme/camping-cars",
@@ -1334,17 +1334,18 @@
     "gpsSource": "https://www.cirkwi.com/fr/point-interet/5684720-aire-de-camping-car-le-pre-vert",
     "services": [
       "Stationnement (107 emplacements)",
-      "Vidange camping-car (2 €)"
+      "Vidange camping-car (2 €)",
+      "Animaux acceptés"
     ],
     "price": "12 € par nuitée camping-car ; vidange 2 € (office de tourisme Gérardmer Hautes Vosges, fiche actualisée en août 2026).",
-    "status": "Aire Le Pré Vert rouverte à l'été 2026 après fermeture depuis 2008 ; site distinct du parking municipal de la Prairie déjà recensé à Gérardmer. Autres services non confirmés.",
+    "status": "Aire Le Pré Vert rouverte à l'été 2026 après fermeture depuis 2008 ; site distinct du parking municipal de la Prairie déjà recensé à Gérardmer. Autres services non confirmés. Selon l'office de tourisme Gérardmer Hautes Vosges, téléphone direct : 06 15 98 20 87. Aire dédiée exclusivement aux camping-cars ; ni tentes ni caravanes. Réservation non proposée selon une information locale d'ouverture d'août 2026.",
     "source": "https://gerardmer.net/hebergements-camping-cars.php",
     "sourceOfficial": "https://gerardmer.net/hebergements-camping-cars.php",
-    "servicesSource": "https://www.massif-des-vosges.fr/sit/777010583/",
+    "servicesSource": "https://gerardmer.net/hebergements-camping-cars.php",
     "priceSource": "https://www.massif-des-vosges.fr/sit/777010583/",
     "sourceId": "sitlor-777010583",
     "dataAttribution": "Office de tourisme Gérardmer Hautes Vosges / SITLOR",
-    "importReview": "18/10/2026 : nouvelle aire rouverte été 2026 ; coordonnées SITLOR et prix office de tourisme recoupés ; distincte de l'aire municipale de la Prairie."
+    "importReview": "18/10/2026 : nouvelle aire rouverte été 2026 ; coordonnées SITLOR et prix office de tourisme recoupés ; distincte de l'aire municipale de la Prairie. | 18/10/2026 : contact et animaux acceptés vérifiés sur l'office de tourisme ; information d'ouverture août 2026 confirme l'absence de réservation."
   },
   {
     "department": "88",
@@ -1449,7 +1450,7 @@
       "Pas de branchement électrique"
     ],
     "price": "8 € par nuit par véhicule ; vidange gratuite ; eau potable 2 € / 100 L (jeton à l'office de tourisme). Gratuité du stationnement pour titulaires d'une carte d'invalidité selon Tourisme Vosges.",
-    "status": "Aire n°2 de La Mauselaine, sous le centre ODCVL, à proximité du domaine skiable alpin ; distincte du parking de la Prairie et de l'aire privée Le Pré Vert. Accès par Chemin du Rond Faing ; équipement adapté conseillé en cas de neige. Paiement à l'horodateur (pièces, pas de rendu de monnaie) ou billet acheté à l'office de tourisme. Nombre de places déclaré par l'office ; vérifier avant déplacement.",
+    "status": "Aire n°2 de La Mauselaine, sous le centre ODCVL, à proximité du domaine skiable alpin ; distincte du parking de la Prairie et de l'aire privée Le Pré Vert. Accès par Chemin du Rond Faing ; équipement adapté conseillé en cas de neige. Paiement à l'horodateur (pièces, pas de rendu de monnaie) ou billet acheté à l'office de tourisme. Nombre de places déclaré par l'office ; vérifier avant déplacement. La mairie confirme que ce parking fait partie des deux zones municipales autorisées la nuit et sert de repli lors de la fête foraine de fin août / début septembre.",
     "source": "https://www.tourisme.vosges.fr/sejourner/hotels/777000677-aire-de-stationnement-camping-car-n2-gerardmer-gerardmer",
     "latitude": 48.0584632,
     "longitude": 6.8892968,
@@ -1459,7 +1460,7 @@
     "priceSource": "https://www.tourisme.vosges.fr/sejourner/hotels/777000677-aire-de-stationnement-camping-car-n2-gerardmer-gerardmer",
     "servicesSource": "https://www.tourisme.vosges.fr/sejourner/hotels/777000677-aire-de-stationnement-camping-car-n2-gerardmer-gerardmer",
     "address": "Chemin du Rond Faing, La Mauselaine, 88400 Gérardmer",
-    "importReview": "18/10/2026 : aire municipale distincte confirmée par Tourisme Vosges (SITLOR 777000677), point GPS issu de sa diffusion SITLOR sur Cirkwi, mise à jour 03/06/2026 ; prix, services, absence électricité et capacité recoupés. Ne pas fusionner avec parking de la Prairie ni Le Pré Vert."
+    "importReview": "18/10/2026 : aire municipale distincte confirmée par Tourisme Vosges (SITLOR 777000677), point GPS issu de sa diffusion SITLOR sur Cirkwi, mise à jour 03/06/2026 ; prix, services, absence électricité et capacité recoupés. Ne pas fusionner avec parking de la Prairie ni Le Pré Vert. | 18/10/2026 : réglementation et report saisonnier confirmés par la mairie de Gérardmer."
   },
   {
     "department": "88",
