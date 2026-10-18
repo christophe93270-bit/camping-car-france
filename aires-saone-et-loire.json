@@ -25,22 +25,23 @@
   {
     "department": "71",
     "name": "Aire de camping-car Tramayes",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Tramayes",
+    "type": "Aire de camping-car — équipements à confirmer",
     "services": [
-      "Toilettes"
+      "Toilettes (indiquées dans OpenStreetMap, non vérifiées)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Présence d'une aire signalée dans les annuaires de camping-cars ; absence de confirmation municipale des équipements, horaires et tarifs.",
     "source": "https://www.openstreetmap.org/node/4376886164",
     "latitude": 46.3078411,
     "longitude": 4.6040442,
     "gpsSource": "https://www.openstreetmap.org/node/4376886164",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Commune corroborée par annuaire Campercation ; source officielle non trouvée. Toilettes issues d'OSM seulement.",
     "sourceId": "node/4376886164",
-    "servicesSource": "https://www.openstreetmap.org/node/4376886164"
+    "servicesSource": "https://www.openstreetmap.org/node/4376886164",
+    "cityVerificationNote": "Commune identifiée par nom OSM et annuaire secondaire."
   },
   {
     "department": "71",
@@ -94,22 +95,24 @@
   {
     "department": "71",
     "name": "Aire de camping-car de Bertrand Chavanis",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Damerey",
+    "type": "Aire privée / accueil à la ferme — non confirmé par exploitant",
     "services": [
-      "Électricité"
+      "Électricité (déclarée dans OpenStreetMap, non vérifiée)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Payant selon annuaires ; montant non confirmé par l'exploitant",
+    "status": "Aire privée référencée par des annuaires de camping-cars ; services, prix et conditions d'accueil à confirmer auprès de l'exploitant.",
     "source": "https://www.openstreetmap.org/node/6819662055",
     "latitude": 46.8352523,
     "longitude": 4.9901734,
     "gpsSource": "https://www.openstreetmap.org/node/6819662055",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Campercation et Caraplace placent l'aire à Damerey. Le Campeur donne 24 rue des Querelles, 3 places et prix indicatif 5-10 €, non repris comme tarif confirmé. Aucune source officielle trouvée.",
     "sourceId": "node/6819662055",
-    "servicesSource": "https://www.openstreetmap.org/node/6819662055"
+    "servicesSource": "https://www.openstreetmap.org/node/6819662055",
+    "address": "24 rue des Querelles, 71620 Damerey (adresse indiquée par annuaire secondaire, à vérifier)",
+    "cityVerificationNote": "Damerey corroboré par plusieurs annuaires, GPS OSM conservé."
   },
   {
     "department": "71",
@@ -759,19 +762,22 @@
   {
     "department": "71",
     "name": "Aire de camping-cars Promenade Sainte-Marie - Chalon-sur-Saône",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Chalon-sur-Saône",
+    "type": "Aire de stationnement camping-car — conditions à vérifier",
+    "services": [
+      "Stationnement (10 places selon annuaire secondaire, non confirmé)"
+    ],
+    "price": "Gratuit selon annuaire secondaire, non confirmé par la ville",
+    "status": "Parking signalé promenade Sainte-Marie. Article événementiel 2025 mentionne le stationnement de camping-cars ; règles actuelles, capacité et services à confirmer auprès de la ville.",
     "source": "https://www.openstreetmap.org/way/1288052438",
     "latitude": 46.7844654,
     "longitude": 4.8617552,
     "gpsSource": "https://www.openstreetmap.org/way/1288052438",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1288052438"
+    "importReview": "Article Camping-car.com pour Chalon dans la Rue 2025 mentionne le stationnement sur la promenade Sainte-Marie ; Caraplace donne 10 places et gratuité d'après OSM. Pas de source municipale confirmant les conditions 2026.",
+    "sourceId": "way/1288052438",
+    "cityVerificationNote": "Commune corroborée par article et annuaires."
   },
   {
     "department": "71",
@@ -958,23 +964,28 @@
   },
   {
     "department": "71",
-    "name": "Camping-cars Park Autun",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Camping-cars Park Autun — rue de la Maladière (doublon possible)",
+    "city": "Autun",
+    "type": "Aire CAMPING-CAR PARK — doublon cartographique à vérifier",
     "services": [
-      "Électricité"
+      "Stationnement camping-car",
+      "Électricité",
+      "Eau potable",
+      "Vidange à l'Espace Sport Nature, à environ cinq minutes"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Payant ; tarif non confirmé",
+    "status": "Office de tourisme : aire CAMPING-CAR PARK de 39 emplacements. Cette entrée OSM pourrait désigner la même installation que la fiche « Aire CAMPING-CAR PARK d'Autun — Plan d'eau du Vallon » ; ne pas additionner les capacités.",
     "source": "https://www.openstreetmap.org/way/1313588472",
     "latitude": 46.9511457,
     "longitude": 4.3114532,
     "gpsSource": "https://www.openstreetmap.org/way/1313588472",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Source officielle commune aux deux points OSM d'Autun, rue de la Maladière. Doublon potentiel : garder les identifiants OSM distincts jusqu'à contrôle cartographique, ne pas compter 78 places.",
     "sourceId": "way/1313588472",
-    "servicesSource": "https://www.openstreetmap.org/way/1313588472"
+    "servicesSource": "https://www.autun-tourisme.com/offres/camping-car-park-autun-fr-5906939/",
+    "address": "Rue de la Maladière, 71400 Autun",
+    "sourceOfficial": "https://www.autun-tourisme.com/offres/camping-car-park-autun-fr-5906939/"
   },
   {
     "department": "71",
@@ -1001,18 +1012,19 @@
   {
     "department": "71",
     "name": "Aire camping-cars La Chapelle-Thècle,",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "La Chapelle-Thècle",
+    "type": "Aire de camping-car — non vérifiée",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Point cartographique OpenStreetMap non vérifié : stationnement, accès, tarifs et services à confirmer auprès de la commune.",
     "source": "https://www.openstreetmap.org/way/1354720928",
     "latitude": 46.5553045,
     "longitude": 5.1118353,
     "gpsSource": "https://www.openstreetmap.org/way/1354720928",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1354720928"
+    "importReview": "Aucune source officielle identifiant avec certitude ce point de La Chapelle-Thècle. Ne pas confondre avec La Chapelle-de-Guinchay (autre commune).",
+    "sourceId": "way/1354720928",
+    "cityVerificationNote": "Commune indiquée par nom OSM, GPS conservé."
   }
 ]
