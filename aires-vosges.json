@@ -84,19 +84,30 @@
   {
     "department": "88",
     "name": "Aire camping-car Gérardmer",
-    "city": "Commune à confirmer",
+    "city": "Gérardmer",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement (100 places, sans électricité)",
+      "Vidange gratuite à une borne distincte à 200 m",
+      "Eau potable 2 € / 100 L à la borne distincte à 200 m"
+    ],
+    "price": "8 € par nuit ; vidange gratuite à la borne du boulevard d'Alsace, eau potable 2 € / 100 L",
+    "status": "Parking de la Prairie confirmé par mairie et office de tourisme. Nuitée autorisée uniquement ici ou à la Mauselaine dans le périmètre réglementé de Gérardmer. Borne de services distincte boulevard d'Alsace, à environ 200 m : ne pas attribuer l'eau/vidange au parking lui-même. Fermeture exceptionnelle 16–31 août 2026 liée à la fête foraine, période terminée.",
     "source": "https://www.openstreetmap.org/way/144823230",
     "latitude": 48.0722342,
     "longitude": 6.8728155,
     "gpsSource": "https://www.openstreetmap.org/way/144823230",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/144823230"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : sources directes mairie + tourisme, stationnement 100 places à 8 €, pas d'électricité, borne à 200 m. GPS touristique 48.0723298,6.8734288 proche OSM.",
+    "sourceId": "way/144823230",
+    "address": "Parking de la Prairie, boulevard d'Alsace, 88400 Gérardmer",
+    "sourceOfficial": "https://www.mairie-gerardmer.fr/tourisme/camping-cars",
+    "relatedOfficialSources": [
+      "https://www.tourisme.vosges.fr/sejourner/hotels/777000676-aire-de-stationnement-camping-car-de-gerardmer-gerardmer"
+    ],
+    "priceSource": "https://www.tourisme.vosges.fr/sejourner/hotels/777000676-aire-de-stationnement-camping-car-de-gerardmer-gerardmer",
+    "servicesSource": "https://www.tourisme.vosges.fr/sejourner/hotels/777000676-aire-de-stationnement-camping-car-de-gerardmer-gerardmer"
   },
   {
     "department": "88",
@@ -244,22 +255,28 @@
   {
     "department": "88",
     "name": "Aire de camping-cars de Remiremont",
-    "city": "Commune à confirmer",
+    "city": "Remiremont",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (31 emplacements)",
+      "Eau potable gratuite",
+      "Vidange eaux grises gratuite",
+      "Électricité gratuite en saison printemps/été"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et services disponibles gratuits selon la communauté de communes",
+    "status": "Source directe Communauté de communes de la Porte des Vosges Méridionales. Ouverture toute l'année, pas de réservation. Électricité interrompue du 22/09/2025 au 25/03/2026 ; vérifier la disponibilité automnale 2026.",
     "source": "https://www.openstreetmap.org/way/624010558",
     "latitude": 48.0159718,
     "longitude": 6.6009767,
     "gpsSource": "https://www.openstreetmap.org/way/624010558",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : vérification auprès de la communauté de communes gestionnaire, localisation et services confirmés ; Électricité interrompue du 22/09/2025 au 25/03/2026 ; vérifier la disponibilité automnale 2026.",
     "sourceId": "way/624010558",
-    "servicesSource": "https://www.openstreetmap.org/way/624010558"
+    "servicesSource": "https://www.ccpvm.fr/tourisme/aire-de-camping-car/",
+    "address": "Rue du Lit d'Eau, site du Plan d'Eau, 88200 Remiremont",
+    "sourceOfficial": "https://www.ccpvm.fr/tourisme/aire-de-camping-car/",
+    "priceSource": "https://www.ccpvm.fr/tourisme/aire-de-camping-car/"
   },
   {
     "department": "88",
@@ -400,22 +417,26 @@
   {
     "department": "88",
     "name": "Aire de camping-car de Saint-Nabord",
-    "city": "Commune à confirmer",
+    "city": "Saint-Nabord",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et services disponibles gratuits selon la communauté de communes",
+    "status": "Source directe Communauté de communes de la Porte des Vosges Méridionales. Ouverture toute l'année, pas de réservation. Eau et électricité annoncées hors service par la communauté de communes ; ne pas afficher comme disponibles.",
     "source": "https://www.openstreetmap.org/way/1275393976",
     "latitude": 48.0453066,
     "longitude": 6.5817204,
     "gpsSource": "https://www.openstreetmap.org/way/1275393976",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : vérification auprès de la communauté de communes gestionnaire, localisation et services confirmés ; Eau et électricité annoncées hors service par la communauté de communes ; ne pas afficher comme disponibles.",
     "sourceId": "way/1275393976",
-    "servicesSource": "https://www.openstreetmap.org/way/1275393976"
+    "servicesSource": "https://www.ccpvm.fr/tourisme/aire-de-camping-car/",
+    "address": "Rue de la Croix Saint-Jacques, 88200 Saint-Nabord",
+    "sourceOfficial": "https://www.ccpvm.fr/tourisme/aire-de-camping-car/",
+    "priceSource": "https://www.ccpvm.fr/tourisme/aire-de-camping-car/"
   },
   {
     "department": "88",
@@ -460,22 +481,28 @@
   {
     "department": "88",
     "name": "Aire de camping-car de Dommartin-lès-Remiremont",
-    "city": "Commune à confirmer",
+    "city": "Dommartin-lès-Remiremont",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (6 emplacements)",
+      "Eau potable gratuite",
+      "Vidange",
+      "Électricité gratuite en saison printemps/été"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et services disponibles gratuits selon la communauté de communes",
+    "status": "Source directe Communauté de communes de la Porte des Vosges Méridionales. Ouverture toute l'année, pas de réservation. Électricité saisonnière, interruption annoncée du 22/09/2025 au 25/03/2026.",
     "source": "https://www.openstreetmap.org/way/1294873595",
     "latitude": 47.9999963,
     "longitude": 6.6428639,
     "gpsSource": "https://www.openstreetmap.org/way/1294873595",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : vérification auprès de la communauté de communes gestionnaire, localisation et services confirmés ; Électricité saisonnière, interruption annoncée du 22/09/2025 au 25/03/2026.",
     "sourceId": "way/1294873595",
-    "servicesSource": "https://www.openstreetmap.org/way/1294873595"
+    "servicesSource": "https://www.ccpvm.fr/tourisme/aire-de-camping-car/",
+    "address": "Place de l'Église, 88200 Dommartin-lès-Remiremont",
+    "sourceOfficial": "https://www.ccpvm.fr/tourisme/aire-de-camping-car/",
+    "priceSource": "https://www.ccpvm.fr/tourisme/aire-de-camping-car/"
   },
   {
     "department": "88",
