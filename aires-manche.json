@@ -183,12 +183,12 @@
     "department": "50",
     "name": "Camping-Car Park Mont Saint-Michel",
     "city": "Beauvoir",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
       "Électricité"
     ],
     "price": "18,10 € / 24 h dont 1,30 € de taxe de séjour (tarif affiché en octobre 2026, susceptible de varier) ; 5 h avec services : 6 €",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire référencée ouverte par l'exploitant en octobre 2026 ; vérifier avant déplacement",
     "source": "https://www.openstreetmap.org/way/367593913",
     "latitude": 48.594383,
     "longitude": -1.5122049,
@@ -295,14 +295,12 @@
   },
   {
     "department": "50",
-    "name": "Aire de camping-car Mont-Saint-Michel",
+    "name": "Stationnement camping-car du Mont-Saint-Michel (secteur P8, à confirmer)",
     "city": "Le Mont-Saint-Michel",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [
-      "Électricité"
-    ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Parking camping-car (identification à confirmer)",
+    "services": [],
+    "price": "Parking payant ; tarif à vérifier sur le site officiel du Mont-Saint-Michel",
+    "status": "Identification précise de la géométrie OSM à confirmer ; le parking officiel P8 autorise le stationnement nocturne, mais interdit le séjour et ne fournit ni eau ni électricité.",
     "source": "https://www.openstreetmap.org/way/1068343637",
     "latitude": 48.6138703,
     "longitude": -1.5083167,
@@ -312,7 +310,9 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1068343637",
     "servicesSource": "https://www.openstreetmap.org/way/1068343637",
-    "cityVerificationNote": "Commune renseignée selon localisation OSM, à confirmer auprès du gestionnaire du parking."
+    "cityVerificationNote": "Localisation GPS à recouper avec les limites communales ; ne pas considérer la commune comme définitivement confirmée.",
+    "verificationNote": "La fiche OSM 1068343637 se situe près des parkings du Mont. Elle ne doit PAS être présentée comme une troisième aire CAMPING-CAR PARK. Le site officiel montsaintmichel.gouv.fr précise que le parking P8 est un stationnement sans hébergement, sans eau ni électricité. Attribution de la géométrie OSM au P8 restant à confirmer.",
+    "sourceOfficial": "https://www.montsaintmichel.gouv.fr/acceder-au-mont-saint-michel/venir-au-mont-saint-michel"
   },
   {
     "department": "50",
@@ -556,12 +556,12 @@
     "department": "50",
     "name": "Aire de camping-car Anse de Moidrey",
     "city": "Pontorson",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
       "Électricité"
     ],
     "price": "17 € / 24 h + 1,30 € de taxe de séjour = 18,30 € / 24 h (tarif affiché en octobre 2026) ; forfait 5 h avec services : 6 €",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire référencée ouverte par l'exploitant en octobre 2026 ; vérifier avant déplacement",
     "source": "https://www.openstreetmap.org/way/1327985887",
     "latitude": 48.5796332,
     "longitude": -1.5151938,
