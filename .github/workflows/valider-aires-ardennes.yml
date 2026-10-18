@@ -1,0 +1,38 @@
+name: Valider les aires Ardennes
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'aires-ardennes.json'
+      - '.github/workflows/valider-aires-ardennes.yml'
+permissions:
+  contents: read
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verifier les fiches de la Ardennes
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('aires-ardennes.json').read_text(encoding='utf-8'))
+          assert isinstance(a,list) and len(a)>=17, 'Des fiches ont disparu'
+          ids=set()
+          for i,x in enumerate(a,1):
+              assert x.get('department')=='08', f'Departement fiche {i}'
+              assert x.get('name') and x.get('city') and x['city']!='Commune à confirmer', f'Identite fiche {i}'
+              assert isinstance(x.get('latitude'),(float,int)) and 49<x['latitude']<51, f'Latitude fiche {i}'
+              assert isinstance(x.get('longitude'),(float,int)) and 4<x['longitude']<5.5, f'Longitude fiche {i}'
+              assert isinstance(x.get('services'),list), f'Services fiche {i}'
+              sid=x.get('sourceId')
+              if sid:
+                  assert sid not in ids, f'Doublon OSM fiche {i}'
+                  ids.add(sid)
+                  assert x.get('source')==f'https://www.openstreetmap.org/{sid}', f'Source OSM fiche {i}'
+              else:
+                  assert x.get('sourceOfficial','').startswith('https://'), f'Source exploitant fiche {i}'
+                  assert x.get('gpsSource','').startswith('https://'), f'Source GPS fiche {i}'
+          print(f'OK : {len(a)} fiches Ardennes')
+          PY
