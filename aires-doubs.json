@@ -322,22 +322,25 @@
     "department": "25",
     "name": "Aire de camping-car Pont-de-Roide",
     "city": "Pont-de-Roide-Vermondans",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement et vidange camping-car",
     "services": [
-      "Électricité"
+      "Stationnement (4 emplacements)",
+      "Vidange"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "4 emplacements arborés en bordure du Doubs et aire de vidange confirmés par Explore Doubs ; électricité non confirmée, retirée de la liste des services.",
     "source": "https://www.openstreetmap.org/way/747430296",
     "latitude": 47.3854564,
     "longitude": 6.7728696,
     "gpsSource": "https://www.openstreetmap.org/way/747430296",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Explore Doubs / Décibelles Data confirme 4 places et vidange ; ne confirme pas l'électricité.",
     "sourceId": "way/747430296",
-    "servicesSource": "https://www.openstreetmap.org/way/747430296",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "servicesSource": "https://explore.doubs.fr/service/799-Aire-de-Camping-cars-",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "42 rue du Général Herr, 25150 Pont-de-Roide-Vermondans",
+    "sourceOfficial": "https://explore.doubs.fr/service/799-Aire-de-Camping-cars-"
   },
   {
     "department": "25",
@@ -367,19 +370,25 @@
     "department": "25",
     "name": "Aire de camping-cars - Belvoir",
     "city": "Belvoir",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "type": "Aire de stationnement camping-car",
+    "services": [
+      "Stationnement",
+      "Tables et bancs"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire à proximité du château de Belvoir, confirmée par la communauté de communes. Tarif et capacité non précisés.",
     "source": "https://www.openstreetmap.org/way/998770463",
     "latitude": 47.3214265,
     "longitude": 6.610935,
     "gpsSource": "https://www.openstreetmap.org/way/998770463",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Source intercommunale : lieu-dit de la Vierge et tables/bancs ; gratuité non attestée.",
     "sourceId": "way/998770463",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "Lieu-dit de la Vierge, 25430 Belvoir",
+    "sourceOfficial": "https://www.payssancey-belleherbe.fr/sejour-et-activites/ou-dormir/tous-les-hebergements/aire-de-camping-cars-belvoir/",
+    "servicesSource": "https://www.payssancey-belleherbe.fr/sejour-et-activites/ou-dormir/tous-les-hebergements/aire-de-camping-cars-belvoir/"
   },
   {
     "department": "25",
@@ -473,22 +482,27 @@
     "department": "25",
     "name": "Aire de camping-cars Sancey-le-Long",
     "city": "Sancey",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement (2 places selon annuaire spécialisé)",
+      "Borne Euro-Relais à jetons",
+      "Électricité (à confirmer)",
+      "Eau et vidange (à confirmer)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Borne Euro-Relais au parking Maximarché, jetons disponibles dans les commerces selon présentation touristique ; fonctionnement actuel à confirmer.",
     "source": "https://www.openstreetmap.org/way/1263298121",
     "latitude": 47.3053485,
     "longitude": 6.5947047,
     "gpsSource": "https://www.openstreetmap.org/way/1263298121",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Aire du parking Maximarché distincte du stationnement en sortie de village ; 2 places selon camping-car.com, source spécialisée. Services détaillés non vérifiés par la collectivité.",
     "sourceId": "way/1263298121",
-    "servicesSource": "https://www.openstreetmap.org/way/1263298121",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "servicesSource": "https://www.doubs.travel/sit/aires-de-camping-cars-sancey",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "Parking Maximarché, intersection D31/D464, 25430 Sancey",
+    "sourceOfficial": "https://www.doubs.travel/sit/aires-de-camping-cars-sancey"
   },
   {
     "department": "25",
@@ -552,19 +566,25 @@
     "department": "25",
     "name": "Aire de camping-cars - Vellevans",
     "city": "Vellevans",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de stationnement camping-car",
+    "services": [
+      "Stationnement gratuit"
+    ],
+    "price": "Gratuit",
+    "status": "Stationnement gratuit confirmé par la communauté de communes, en sortie de village sur la RD 464.",
     "source": "https://www.openstreetmap.org/way/1296418039",
     "latitude": 47.3105466,
     "longitude": 6.4914254,
     "gpsSource": "https://www.openstreetmap.org/way/1296418039",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Gratuité et localisation RD464 confirmées par la communauté de communes.",
     "sourceId": "way/1296418039",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "RD 464, sortie du village direction Besançon, 25430 Vellevans",
+    "sourceOfficial": "https://www.payssancey-belleherbe.fr/sejour-et-activites/ou-dormir/tous-les-hebergements/aire-de-camping-cars-vellevans/",
+    "servicesSource": "https://www.payssancey-belleherbe.fr/sejour-et-activites/ou-dormir/tous-les-hebergements/aire-de-camping-cars-vellevans/",
+    "priceSource": "https://www.payssancey-belleherbe.fr/sejour-et-activites/ou-dormir/tous-les-hebergements/aire-de-camping-cars-vellevans/"
   },
   {
     "department": "25",
@@ -589,27 +609,28 @@
   },
   {
     "department": "25",
-    "name": "Aire de camping-car de Baume-les-Dames",
+    "name": "Aire de camping-cars du Domaine d'Aucroix — Baume-les-Dames",
     "city": "Baume-les-Dames",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de camping-cars au complexe touristique",
     "services": [
       "Électricité"
     ],
-    "price": "14 à 15 € / jour, forfait véhicule et 2 adultes ; vidange + eau sans stationnement : 3 €",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Forfait 14 à 15 € / jour et services 3 € mentionnés dans les sources précédentes, tarifs actuels à confirmer",
+    "status": "Aire confirmée par la commune au Domaine d'Aucroix, le long du canal du Rhône au Rhin ; ouverte toute l'année selon le rapport communal 2025. Le document indique des capacités de 30 et 50 places selon les passages : capacité actuelle à confirmer.",
     "source": "https://www.openstreetmap.org/way/1305626953",
     "latitude": 47.3399014,
     "longitude": 6.3575985,
     "gpsSource": "https://www.openstreetmap.org/way/1305626953",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Rapport communal approuvé décembre 2025, p.122 : aire du Domaine d'Aucroix et ouverture annuelle ; capacité contradictoire (30/50) dans le même rapport. Ne pas figer une capacité.",
     "sourceId": "way/1305626953",
     "servicesSource": "https://www.openstreetmap.org/way/1305626953",
     "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
     "priceSource": "https://www.ot-doubsbaumois.fr/offres/aires-de-camping-car/aire-pour-camping-car-a-baume-les-dames/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement."
+    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement.",
+    "sourceOfficial": "https://www.baumelesdames.org/assets/files/2.1-rapport-approbation-compressed2-compressed.pdf"
   },
   {
     "department": "25",
