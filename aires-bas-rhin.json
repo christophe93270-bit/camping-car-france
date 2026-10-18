@@ -13,7 +13,7 @@
     "gpsSource": "https://www.openstreetmap.org/node/4720603322",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : recherches ciblées sans source institutionnelle confirmant spécifiquement le stationnement piscine ; ne pas attribuer les prestations d'un autre camping.",
     "sourceId": "node/4720603322"
   },
   {
@@ -219,9 +219,12 @@
     "gpsSource": "https://www.openstreetmap.org/node/13164250815",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : Visit Alsace confirme un camping municipal au 102 rue de la Digue (30 places camping-car, 13–14 €, saison 01/04–31/10/2026), mais correspondance avec cette aire OSM NON établie : ne pas recopier ces tarifs ni ces services.",
     "sourceId": "node/13164250815",
-    "servicesSource": "https://www.openstreetmap.org/node/13164250815"
+    "servicesSource": "https://www.openstreetmap.org/node/13164250815",
+    "relatedOfficialSources": [
+      "https://www.visit.alsace/en/261007133-camping-lake-schoenau/"
+    ]
   },
   {
     "department": "67",
@@ -261,7 +264,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/245544371",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : aucune fiche institutionnelle concordante trouvée pour ce point OSM ; vérification ultérieure nécessaire.",
     "sourceId": "way/245544371",
     "servicesSource": "https://www.openstreetmap.org/way/245544371"
   },
@@ -383,7 +386,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/1218156957",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : recherche Visit Alsace non concluante pour ce point OSM ; tarif, ouverture et services non confirmés.",
     "sourceId": "way/1218156957",
     "servicesSource": "https://www.openstreetmap.org/way/1218156957"
   },
