@@ -420,7 +420,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Pas-de-Calais indisponible",error); }
     let seineMaritimeAires=[];
     try {
-      const response76=await fetch("aires-seine-maritime.json?v=20261015-1", {cache:"no-store"});
+      const response76=await fetch("aires-seine-maritime.json?v=20261018-2", {cache:"no-store"});
       if(response76.ok) seineMaritimeAires=await response76.json();
     } catch(error) { console.warn("Chargement Seine-Maritime indisponible",error); }
     let eureAires=[];
