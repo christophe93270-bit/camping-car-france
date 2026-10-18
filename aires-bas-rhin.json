@@ -121,17 +121,27 @@
     "name": "Aire de camping-car de Niederbronn-les-Bains",
     "city": "Niederbronn-les-Bains",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement (6 places annoncées)",
+      "Eau potable (à confirmer)",
+      "Électricité (à confirmer)",
+      "Vidange eaux usées et WC (à confirmer)"
+    ],
+    "price": "Tarif des services non publié dans la fiche consultée ; à confirmer auprès de la mairie.",
+    "status": "Aire de stationnement près de la gare, annoncée ouverte toute l'année. La fiche spécialisée consultée indique 6 places réservées aux camping-cars et une durée maximale de stationnement de 7 jours. Eau, électricité et vidanges sont listées comme services possibles, mais les tarifs et leur disponibilité actuelle ne sont pas confirmés par une source municipale.",
     "source": "https://www.openstreetmap.org/node/6515243358",
-    "latitude": 48.9486777,
-    "longitude": 7.6464946,
-    "gpsSource": "https://www.openstreetmap.org/node/6515243358",
+    "latitude": 48.9486862,
+    "longitude": 7.6465908,
+    "gpsSource": "https://www.camping-car.com/aires/34730-aire-de-stationnement/",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
-    "sourceId": "node/6515243358"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : adresse et GPS recoupés avec fiche camping-car.com ; services listés mais fonctionnement/tarifs à confirmer auprès de la mairie.",
+    "sourceId": "node/6515243358",
+    "address": "Parking avenue Foch, place de la Gare, 67110 Niederbronn-les-Bains",
+    "sourceOfficial": "https://www.niederbronn-les-bains.fr/",
+    "relatedOfficialSources": [
+      "https://www.camping-car.com/aires/34730-aire-de-stationnement/"
+    ]
   },
   {
     "department": "67",
