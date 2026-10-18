@@ -534,13 +534,17 @@
     "latitude": 47.5347296,
     "longitude": 6.0430057,
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "4 places, borne Flot Bleu, tarif non confirmé",
+    "services": [
+      "Borne Flot Bleu",
+      "Eau (borne, modalités à confirmer)"
+    ],
+    "price": "Borne Flot Bleu : 2 € (office de tourisme, à reconfirmer)",
+    "status": "4 emplacements, borne annoncée 24 h/24 toute l'année selon office de tourisme",
     "source": "https://www.camping-car.com/aires/45581-aire-intercommunale/",
     "gpsSource": "https://www.camping-car.com/aires/45581-aire-intercommunale/",
     "sourceId": "camping-car.com/45581",
-    "importReview": "Coordonnées publiées par Camping-car.com ; ouverture, services et prix à confirmer indépendamment."
+    "importReview": "Coordonnées publiées par Camping-car.com ; ouverture, services et prix à confirmer indépendamment.",
+    "priceSource": "https://www.tourisme-scey-valdesaone.fr/index.php?IdPage=132981557122"
   },
   {
     "department": "70",
@@ -567,15 +571,17 @@
     "longitude": 5.901796,
     "type": "Aire de camping-car",
     "services": [
-      "Borne de services (détails à confirmer)"
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit (Haute-Saône Tourisme)",
     "status": "Aire de services annoncée toute l'année ; 2 places",
     "source": "https://www.camping-car.com/aires/46182-aire-communale/",
     "gpsSource": "https://www.camping-car.com/aires/46182-aire-communale/",
     "sourceId": "camping-car.com/46182",
-    "priceSource": "https://www.camping-car.com/aires/46182-aire-communale/",
-    "servicesSource": "https://www.camping-car.com/aires/46182-aire-communale/",
+    "priceSource": "https://hautesaonetourisme.com/offres/aire-de-camping-car-jussey-fr-4911072/",
+    "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-camping-car-jussey-fr-4911072/",
     "importReview": "Informations issues de Camping-car.com ; coordonnées reprises de la fiche ; fonctionnement actuel et tarifs à confirmer."
   },
   {
@@ -792,5 +798,95 @@
     "gpsSource": "https://www.camping-car.com/aires/4609-camping-intercommunal-le-patis/",
     "sourceId": "camping-car.com/4609",
     "importReview": "Source Camping-car.com ; GPS et période d'ouverture recopiés de la fiche ; vérifier avant déplacement."
+  },
+  {
+    "department": "70",
+    "city": "Vy-lès-Rupt",
+    "name": "Aire privée chez Mirette (Dominique Arambourg)",
+    "address": "9 Grande Rue, 70120 Vy-lès-Rupt",
+    "latitude": 47.6390954,
+    "longitude": 5.8938012,
+    "source": "https://www.camping-car.com/aires/29145-dominique-arambourg/",
+    "status": "3 places, durée annoncée 24 h ; fonctionnement actuel à confirmer",
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées"
+    ],
+    "price": "Non confirmé (fiche tarifaire 2019)",
+    "type": "Aire de services camping-car",
+    "gpsSource": "https://www.camping-car.com/aires/29145-dominique-arambourg/",
+    "priceSource": "https://www.camping-car.com/aires/29145-dominique-arambourg/",
+    "servicesSource": "https://www.camping-car.com/aires/29145-dominique-arambourg/",
+    "sourceId": "camping-car.com/29145",
+    "importReview": "Fiche annuaire avec GPS ; tarifs anciens, existence et accès actuel à reconfirmer."
+  },
+  {
+    "department": "70",
+    "city": "Lure",
+    "name": "Borne de services Intermarché Lure",
+    "address": "Route de Belfort, zone de la Saline, 70200 Lure",
+    "latitude": 47.672939,
+    "longitude": 6.510419,
+    "source": "https://www.camping-car.com/aires/43838-intermarche/",
+    "status": "Borne Euro-Relais annoncée toute l'année ; disponibilité actuelle à confirmer",
+    "services": [
+      "Eau",
+      "Vidange eaux usées",
+      "Vidange WC"
+    ],
+    "price": "Non confirmé (fiche tarifaire 2018)",
+    "type": "Aire de services camping-car",
+    "gpsSource": "https://www.camping-car.com/aires/43838-intermarche/",
+    "priceSource": "https://www.camping-car.com/aires/43838-intermarche/",
+    "servicesSource": "https://www.camping-car.com/aires/43838-intermarche/",
+    "sourceId": "camping-car.com/43838",
+    "importReview": "Fiche annuaire avec GPS ; tarifs anciens, existence et accès actuel à reconfirmer."
+  },
+  {
+    "department": "70",
+    "city": "Fresse",
+    "name": "Camping La Broche",
+    "address": "Route du Mont de Vanne, Le Volvet, 70270 Fresse",
+    "latitude": 47.756607,
+    "longitude": 6.652724,
+    "source": "https://www.camping-car.com/aires/8535-la-broche/",
+    "status": "Camping et services annoncés du 15 avril au 1er octobre ; vérifier l'ouverture actuelle",
+    "services": [
+      "Emplacements camping-car",
+      "Électricité",
+      "Eau",
+      "Vidange eaux usées"
+    ],
+    "price": "Non confirmé (fiche tarifaire 2017)",
+    "type": "Camping accueillant les camping-cars",
+    "gpsSource": "https://www.camping-car.com/aires/8535-la-broche/",
+    "priceSource": "https://www.camping-car.com/aires/8535-la-broche/",
+    "servicesSource": "https://www.camping-car.com/aires/8535-la-broche/",
+    "sourceId": "camping-car.com/8535",
+    "importReview": "Fiche annuaire avec GPS ; tarifs anciens, existence et accès actuel à reconfirmer."
+  },
+  {
+    "department": "70",
+    "city": "Mélisey",
+    "name": "Camping La Pierre",
+    "address": "10 route de Melay, Les Granges Baverey, 70270 Mélisey",
+    "latitude": 47.7755542,
+    "longitude": 6.5809958,
+    "source": "https://www.camping-car.com/aires/6111-la-pierre/",
+    "status": "6 emplacements camping-car ; aire de services annoncée du 1er mai au 30 septembre",
+    "services": [
+      "Emplacements camping-car",
+      "Électricité",
+      "Eau",
+      "Vidange eaux usées"
+    ],
+    "price": "Services 6 € (tarif 2023, à confirmer)",
+    "type": "Camping accueillant les camping-cars",
+    "gpsSource": "https://www.camping-car.com/aires/6111-la-pierre/",
+    "priceSource": "https://www.camping-car.com/aires/6111-la-pierre/",
+    "servicesSource": "https://www.camping-car.com/aires/6111-la-pierre/",
+    "sourceId": "camping-car.com/6111",
+    "importReview": "Fiche annuaire avec GPS ; tarifs anciens, existence et accès actuel à reconfirmer."
   }
 ]
