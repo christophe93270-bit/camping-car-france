@@ -401,7 +401,7 @@
     "city": "Caen",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; parking fermé de 21 h à 8 h 45 (site officiel du Mémorial de Caen)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/549376917",
     "latitude": 49.1995799,
@@ -411,7 +411,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/549376917",
-    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte."
+    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
+    "address": "14 avenue du Maréchal Montgomery, 14000 Caen",
+    "sourceOfficial": "https://www.memorial-caen.fr/votre-visite/acces/",
+    "tariffSource": "https://www.memorial-caen.fr/votre-visite/acces/",
+    "verificationNote": "Aire de Caen Nord distincte de CAMPING-CAR PARK rue des Roquemonts ; capacité non indiquée par le Mémorial."
   },
   {
     "department": "14",
@@ -686,7 +690,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "12 € stationnement, services et électricité (témoignage septembre 2026 ; à confirmer)",
+    "price": "15 € / nuit, services inclus (annuaire mis à jour juin 2026 ; à confirmer auprès du gestionnaire)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1061082967",
     "latitude": 49.3484519,
@@ -697,7 +701,12 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1061082967",
     "servicesSource": "https://www.openstreetmap.org/way/1061082967",
-    "tariffSource": "https://www.campingcar-infos.com/aire-aire-de-camping-car-privee-garage-vally/comments.php?id=5237"
+    "tariffSource": "https://www.lecampeur.fr/aire/aire-de-camping-car-privee-garage-vally-ph61b8",
+    "address": "40 route d'Omaha Beach, 14520 Aure sur Mer",
+    "capacity": 25,
+    "sourceOfficial": "https://www.lecampeur.fr/aire/aire-de-camping-car-privee-garage-vally-ph61b8",
+    "capacitySource": "https://www.lecampeur.fr/aire/aire-de-camping-car-privee-garage-vally-ph61b8",
+    "verificationNote": "Adresse 40 route d'Omaha Beach selon annuaire de l'aire ; siège du garage déclaré au 45, à ne pas confondre."
   },
   {
     "department": "14",
@@ -733,7 +742,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Services : 2 € par jeton, paiement CB à la borne ; tarif de stationnement non précisé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1138615017",
     "latitude": 48.9427299,
@@ -744,7 +753,12 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1138615017",
     "servicesSource": "https://www.openstreetmap.org/way/1138615017",
-    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte."
+    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
+    "address": "Rue de l'Orne, 14570 Saint-Rémy",
+    "capacity": 8,
+    "sourceOfficial": "https://saintremysurorne.wixsite.com/mairie/aire-camping-cars",
+    "capacitySource": "https://saintremysurorne.wixsite.com/mairie/aire-camping-cars",
+    "tariffSource": "https://saintremysurorne.wixsite.com/mairie/aire-camping-cars"
   },
   {
     "department": "14",
