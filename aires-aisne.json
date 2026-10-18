@@ -172,12 +172,16 @@
     "department": "02",
     "name": "Aire d'accueil et de service du Lac de Condé",
     "city": "Le Nouvion-en-Thiérache",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire communale de stationnement et de services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement gratuit",
+      "Eau potable (jeton)",
+      "Électricité (jeton)",
+      "Vidange eaux usées",
+      "Vidange WC"
     ],
-    "price": "5 emplacements gratuits ; tarifs des services à confirmer",
-    "status": "Commune et informations vérifiées auprès d'une source touristique; vérifier sur place les conditions actuelles",
+    "price": "Stationnement gratuit ; eau 4,50 € / 10 min et électricité 4,50 € / 1 h selon annuaire indépendant (tarif à confirmer sur place)",
+    "status": "Services indiqués comme opérationnels toute l'année par annuaire spécialisé ; stationnement partagé",
     "source": "https://www.openstreetmap.org/way/808099003",
     "latitude": 50.0054825,
     "longitude": 3.7807412,
@@ -187,9 +191,10 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/808099003",
     "servicesSource": "https://www.openstreetmap.org/way/808099003",
-    "verificationSource": "https://www.aireparkreservation.com/aires-camping-car/aisne",
+    "verificationSource": "https://www.i-campingcar.fr/aires.php?ville=LE+NOUVION+EN+THIERACHE",
     "verificationDate": "2026-10-17",
-    "verificationNote": "Aire du Lac de Condé, stationnement gratuit indiqué par Aire Park Réservation; jetons de services distincts."
+    "verificationNote": "Annuaire spécialisé indique six places et 4,50 € par jeton, tandis que source antérieure indiquait cinq emplacements. Capacité à confirmer ; ne pas confondre avec le camping payant du Domaine du Lac de Condé.",
+    "address": "Allée du S/L François d'Orléans, 02170 Le Nouvion-en-Thiérache"
   },
   {
     "department": "02",
