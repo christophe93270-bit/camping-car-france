@@ -128,39 +128,49 @@
     "name": "Aire d'accueil camping-car des Salles Lavauguyon",
     "city": "Les Salles-Lavauguyon",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées",
+      "Borne de services"
+    ],
+    "price": "Tarif 2026 non publié sur la fiche institutionnelle.",
+    "status": "6 places ; borne de services, eau, électricité et vidange ; stationnement nocturne attenant.",
     "source": "https://www.openstreetmap.org/node/12112205198",
     "latitude": 45.7403546,
     "longitude": 0.7005662,
     "gpsSource": "https://www.openstreetmap.org/node/12112205198",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
-    "sourceId": "node/12112205198"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : contrôle source institutionnelle ; tarifs non publiés non extrapolés.",
+    "sourceId": "node/12112205198",
+    "sourceOfficial": "https://www.pnr-perigord-limousin.fr/offres/aires-de-camping-car/aire-daccueil-camping-car-des-salles-lavauguyon/",
+    "priceSource": "https://www.pnr-perigord-limousin.fr/offres/aires-de-camping-car/aire-daccueil-camping-car-des-salles-lavauguyon/",
+    "servicesSource": "https://www.pnr-perigord-limousin.fr/offres/aires-de-camping-car/aire-daccueil-camping-car-des-salles-lavauguyon/",
+    "address": "Route de Saint-Mathieu, Le Tilleul D33, 87440 Les Salles-Lavauguyon"
   },
   {
     "department": "87",
     "name": "Aire d'accueil de Chateaucourt",
-    "city": "Eymoutiers",
+    "city": "Beaumont-du-Lac",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Eau potable",
-      "Toilettes",
-      "Électricité"
+      "Stationnement"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit en 2026.",
+    "status": "30 emplacements libres au bord du lac de Vassivière ; ouvert du 1er mai au 31 octobre 2026 ; aucun service technique confirmé sur cette fiche.",
     "source": "https://www.openstreetmap.org/way/233976493",
     "latitude": 45.7865022,
     "longitude": 1.8705697,
     "gpsSource": "https://www.openstreetmap.org/way/233976493",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : contrôle source institutionnelle ; tarifs non publiés non extrapolés.",
     "sourceId": "way/233976493",
-    "servicesSource": "https://www.openstreetmap.org/way/233976493"
+    "servicesSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-de-chateaucourt-beaumont-du-lac-fr-4328951/",
+    "sourceOfficial": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-de-chateaucourt-beaumont-du-lac-fr-4328951/",
+    "priceSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-de-chateaucourt-beaumont-du-lac-fr-4328951/",
+    "address": "Châteaucourt, 87120 Beaumont-du-Lac"
   },
   {
     "department": "87",
@@ -243,17 +253,25 @@
     "name": "Aire de camping-car de Berneuil",
     "city": "Berneuil",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau (hors hiver)",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
+    ],
+    "price": "Stationnement et services gratuits selon la fiche de l'office de tourisme actualisée le 30/06/2026.",
+    "status": "Aire municipale ouverte toute l'année ; eau potable et vidanges ; eau coupée en hiver. Coordonnées GPS OSM à comparer à la fiche de l'office de tourisme (écart d'environ 200 m).",
     "source": "https://www.openstreetmap.org/way/775588693",
     "latitude": 46.0708039,
     "longitude": 1.1071785,
     "gpsSource": "https://www.openstreetmap.org/way/775588693",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
-    "sourceId": "way/775588693"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : contrôle source institutionnelle ; tarifs non publiés non extrapolés.",
+    "sourceId": "way/775588693",
+    "sourceOfficial": "https://www.cirkwi.com/fr/point-interet/1665460-aire-d-accueil-de-camping-car",
+    "priceSource": "https://www.cirkwi.com/fr/point-interet/1665460-aire-d-accueil-de-camping-car",
+    "servicesSource": "https://www.cirkwi.com/fr/point-interet/1665460-aire-d-accueil-de-camping-car",
+    "address": "Rue du Pigeonnier, 87300 Berneuil"
   },
   {
     "department": "87",
@@ -285,19 +303,25 @@
     "city": "Séreilhac",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Sanitaires",
+      "Vidange eaux usées"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; services 2,50 € en 2026.",
+    "status": "10 places, eau, électricité, sanitaires et vidange ; ouvert toute l'année 2026.",
     "source": "https://www.openstreetmap.org/way/840884580",
     "latitude": 45.7677715,
     "longitude": 1.0788426,
     "gpsSource": "https://www.openstreetmap.org/way/840884580",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : contrôle source institutionnelle ; tarifs non publiés non extrapolés.",
     "sourceId": "way/840884580",
-    "servicesSource": "https://www.openstreetmap.org/way/840884580"
+    "servicesSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-cars-sereilhac-sereilhac-fr-4128706/",
+    "sourceOfficial": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-cars-sereilhac-sereilhac-fr-4128706/",
+    "priceSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-cars-sereilhac-sereilhac-fr-4128706/",
+    "address": "Allée Catherine Tabaraud, 87620 Séreilhac"
   },
   {
     "department": "87",
@@ -353,21 +377,25 @@
     "city": "Val-d'Oire-et-Gartempe",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Douches",
-      "Toilettes",
-      "Électricité"
+      "Eau",
+      "Borne de services",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif 2026 non publié sur la fiche institutionnelle (guide privé : 2,50 € en 2024, non confirmé).",
+    "status": "4 places ; borne de services, eau et vidange eaux usées et toilettes chimiques ; carte bancaire indiquée.",
     "source": "https://www.openstreetmap.org/way/1236135699",
     "latitude": 46.2371099,
     "longitude": 0.9009697,
     "gpsSource": "https://www.openstreetmap.org/way/1236135699",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : contrôle source institutionnelle ; tarifs non publiés non extrapolés.",
     "sourceId": "way/1236135699",
-    "servicesSource": "https://www.openstreetmap.org/way/1236135699"
+    "servicesSource": "https://en.visitlimousin.com/stay/where-to-sleep/campsites-in-haute-vienne/aire-daccueil-camping-car-val-doire-et-gartempe-en-4128708/",
+    "sourceOfficial": "https://en.visitlimousin.com/stay/where-to-sleep/campsites-in-haute-vienne/aire-daccueil-camping-car-val-doire-et-gartempe-en-4128708/",
+    "priceSource": "https://en.visitlimousin.com/stay/where-to-sleep/campsites-in-haute-vienne/aire-daccueil-camping-car-val-doire-et-gartempe-en-4128708/",
+    "address": "Rue du 4e Zouave, Bussière-Poitevine, 87320 Val-d'Oire-et-Gartempe"
   },
   {
     "department": "87",
@@ -398,17 +426,25 @@
     "name": "Aire de camping-car Saint-Amand-Magnazeix",
     "city": "Saint-Amand-Magnazeix",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées"
+    ],
+    "price": "Tarif 2026 non publié sur la fiche institutionnelle.",
+    "status": "10 places ; eau potable, électricité et vidange ; paiement en espèces mentionné sans montant.",
     "source": "https://www.openstreetmap.org/way/1293038653",
     "latitude": 46.1755882,
     "longitude": 1.353958,
     "gpsSource": "https://www.openstreetmap.org/way/1293038653",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
-    "sourceId": "way/1293038653"
+    "importReview": "À contrôler avant déplacement | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : contrôle source institutionnelle ; tarifs non publiés non extrapolés.",
+    "sourceId": "way/1293038653",
+    "sourceOfficial": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-de-services-camping-car-saint-amand-magnazeix-fr-4128696/",
+    "priceSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-de-services-camping-car-saint-amand-magnazeix-fr-4128696/",
+    "servicesSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-de-services-camping-car-saint-amand-magnazeix-fr-4128696/",
+    "address": "Le Bourg, 87290 Saint-Amand-Magnazeix"
   },
   {
     "department": "87",
@@ -490,20 +526,26 @@
     "city": "Chaptelat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Douches",
-      "Toilettes",
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Sanitaires",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Wi-Fi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif 2026 non publié sur la fiche institutionnelle.",
+    "status": "25 emplacements ouverts toute l'année 2026 ; accès par carte Camping-Car Park, eau, électricité, vidanges, WC toute l'année, douches en juillet et août seulement, Wi-Fi.",
     "source": "https://www.openstreetmap.org/way/1432322168",
     "latitude": 45.9317699,
     "longitude": 1.2663017,
     "gpsSource": "https://www.openstreetmap.org/way/1432322168",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite du nom ou du hameau, à vérifier pour les lieux-dits. | 18/10/2026 : contrôle source institutionnelle ; tarifs non publiés non extrapolés.",
     "sourceId": "way/1432322168",
-    "servicesSource": "https://www.openstreetmap.org/way/1432322168"
+    "servicesSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-de-camping-car-de-chaptelat-chaptelat-fr-6326046/",
+    "sourceOfficial": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-de-camping-car-de-chaptelat-chaptelat-fr-6326046/",
+    "priceSource": "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-de-camping-car-de-chaptelat-chaptelat-fr-6326046/",
+    "address": "Le Mas Éloi, 87270 Chaptelat"
   }
 ]
