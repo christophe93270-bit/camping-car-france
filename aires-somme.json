@@ -202,7 +202,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Barème municipal 2025 : emplacement aire camping-car 10 € / jour ; électricité 2 € / 24 h ; vidange 2 €. Tarif 2026 à confirmer.",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/206378959",
     "latitude": 50.0350338,
@@ -216,7 +216,8 @@
     "address": "Rue de la Chasse à Vaches, 80510 Long",
     "capacity": 8,
     "sourceOfficial": "https://www.baiedesomme-ponthieumarquenterre.fr/circuit-camping-car-baie-de-somme.php?language=gb&page=1&sim_var=AIRCCPIC0800000T",
-    "verificationNote": "8 emplacements pour l'aire extérieure, distincte des emplacements du camping ; tarif des services non chiffré par l'office de tourisme."
+    "verificationNote": "Barème municipal applicable au 01/01/2025, distinct des tarifs des emplacements à l'intérieur du camping. Pas de barème 2026 confirmé.",
+    "tariffSource": "https://www.campinglapeupleraie.fr/wp-content/uploads/2025/03/Tarifs-Camping-2025.pdf"
   },
   {
     "department": "80",
@@ -323,7 +324,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "À partir de 10 € / nuit selon Campercontact (tarif indicatif 2026, non confirmé par l'exploitant)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1280924625",
     "latitude": 50.3292944,
@@ -336,7 +337,10 @@
     "servicesSource": "https://www.openstreetmap.org/way/1280924625",
     "address": "La Grande Retz, 80120 Quend",
     "sourceOfficial": "https://www.baiedesomme-ponthieumarquenterre.fr/circuit-camping-car-baie-de-somme.php?language=fr&page=1",
-    "verificationNote": "L'office de tourisme annonce une capacité d'accueil de 10 personnes, non assimilée à 10 places de camping-car."
+    "verificationNote": "10 places selon Camping-car.com, répertoire ancien ; tarif indicatif 2026 selon Campercontact. À revalider auprès de l'exploitant.",
+    "tariffSource": "https://www.campercontact.com/fr/france/hauts-de-france/quend/13627/ferme-de-la-grande-retz",
+    "capacity": 10,
+    "capacitySource": "https://www.camping-car.com/aires/35036-ferme-de-la-grand-retz/"
   },
   {
     "department": "80",
