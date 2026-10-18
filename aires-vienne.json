@@ -346,16 +346,19 @@
       "Électricité"
     ],
     "price": "Tarif 2026 non confirmé auprès de l'exploitant ou de la commune.",
-    "status": "Aire communale rue de l'Église signalée par plusieurs guides (4 places, eau, électricité, vidange). Fonctionnement actuel et gratuité 2026 non confirmés par la mairie.",
+    "status": "Aire communale rue de l'Église signalée par un guide spécialisé (4 places, 4 prises électriques, eau et vidange). Le guide comporte des mentions contradictoires sur l'ouverture toute l'année. Existence, disponibilité des services et gratuité en 2026 non confirmées par la mairie.",
     "source": "https://www.openstreetmap.org/way/794515520",
     "latitude": 46.1739643,
     "longitude": 0.5176596,
     "gpsSource": "https://www.openstreetmap.org/way/794515520",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune contrôlée ;  | 18/10/2026 : recoupement guides secondaires ; source officielle absente, ne pas déclarer sourceOfficial. Guide i-campingcar mentionne 4 places gratuites, sans validation municipale.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune contrôlée ;  | 18/10/2026 : recoupement guides secondaires ; source officielle absente, ne pas déclarer sourceOfficial. Guide i-campingcar mentionne 4 places gratuites, sans validation municipale. | 18/10/2026 : source secondaire identifiée précisément ; coordonnées officielles de mairie ajoutées pour vérification, sans attribuer de sourceOfficial.",
     "sourceId": "way/794515520",
-    "servicesSource": "https://www.openstreetmap.org/way/794515520"
+    "servicesSource": "https://www.openstreetmap.org/way/794515520",
+    "address": "Rue de l'Église, 86460 Mauprévoir",
+    "sourceSecondary": "https://www.i-campingcar.fr/aires/pdf/86.pdf",
+    "municipalityContact": "Mairie de Mauprévoir, 05 49 87 52 12, contact@mauprevoir.fr, https://www.mauprevoir.fr/"
   },
   {
     "department": "86",
@@ -532,15 +535,19 @@
       "Électricité"
     ],
     "price": "Tarif 2026 non confirmé auprès de l'exploitant ou de la commune.",
-    "status": "Aire privée signalée au 12-14 rue du Passage Martin ; plusieurs guides confirment eau, électricité et vidange, mais divergent sur capacité (8 ou 12 places) et tarifs. Exploitation et prix 2026 non confirmés auprès du gestionnaire.",
+    "status": "Aire privée recensée rue du Pas Martin ; camping-car.com indique 8 places et tarifs datant de 2017, tandis qu'un guide mis à jour en juillet 2026 indique 12 places et 15 € avec services. Tarifs, capacité et activité à confirmer directement auprès du gestionnaire.",
     "source": "https://www.openstreetmap.org/way/1460736784",
     "latitude": 46.780541,
     "longitude": 0.1935723,
     "gpsSource": "https://www.openstreetmap.org/way/1460736784",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune contrôlée ;  | 18/10/2026 : recoupement guides secondaires ; source officielle absente, ne pas déclarer sourceOfficial. Guides contradictoires : 8 vs 12 places, tarif 10 vs 15 euros ; demander confirmation à l'exploitant.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune contrôlée ;  | 18/10/2026 : recoupement guides secondaires ; source officielle absente, ne pas déclarer sourceOfficial. Guides contradictoires : 8 vs 12 places, tarif 10 vs 15 euros ; demander confirmation à l'exploitant. | 18/10/2026 : références secondaires et téléphone du gestionnaire consignés ; correction du commentaire antérieur sur les tarifs, faute de source vérifiée pour 10 €.",
     "sourceId": "way/1460736784",
-    "servicesSource": "https://www.openstreetmap.org/way/1460736784"
+    "servicesSource": "https://www.openstreetmap.org/way/1460736784",
+    "address": "12–14 rue du Pas Martin, 86110 Mirebeau (adresse exacte 12 ou 14 à confirmer)",
+    "sourceSecondary": "https://www.camping-car.com/aires/34815-aire-privee/",
+    "sourceSecondaryAdditional": "https://campingcar76.fr/Site%20P08%2086%20Aires%20services%20dans%20la%20Vienne%20%28Poitou%20Charentes%29.htm",
+    "operatorContact": "Jean-Claude Cottencin, 05 49 36 38 95 (coordonnées publiées par camping-car.com, validité actuelle non vérifiée)"
   }
 ]
