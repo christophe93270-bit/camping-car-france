@@ -45,7 +45,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; eau 100 L ou électricité 55 min : 4 € selon guide touristique 2024 (tarif 2026 à confirmer)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/11987695117",
     "latitude": 48.8352837,
@@ -56,7 +56,10 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/11987695117",
     "servicesSource": "https://www.openstreetmap.org/node/11987695117",
-    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer."
+    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer.",
+    "address": "Parc de la Commanderie, rue Taillemache, 50800 Villedieu-les-Poêles-Rouffigny",
+    "capacity": 10,
+    "sourceOfficial": "https://www.villedieutourisme.com/offres/aire-de-services-et-de-stationnement-villedieu-les-poeles-fr-4845636/"
   },
   {
     "department": "50",
@@ -186,7 +189,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "14,05 € / 24 h taxe de séjour 2026 comprise (12,75 € + 1,30 €) selon grille saisonnière de l'exploitant, du 01/10/2026 au 31/12/2026 ; 5 h + services : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/513301824",
     "latitude": 49.3089925,
@@ -197,7 +200,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/513301824",
     "servicesSource": "https://www.openstreetmap.org/way/513301824",
-    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer."
+    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer.",
+    "address": "30 chemin du Grand Bas Pays, 50500 Carentan-les-Marais",
+    "capacity": 14,
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/carentan-le-port",
+    "verificationNote": "Capacité 14 selon exploitant, contre 12 dans une fiche touristique plus ancienne. Tarif retenu selon grille datée octobre 2026 ; le prix instantané affiché peut différer."
   },
   {
     "department": "50",
@@ -364,8 +371,8 @@
       "Eau potable",
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit selon annuaires ; prix des services non confirmé ; accès à l'eau potable et à la vidange actuellement fermé pour mise aux normes selon mairie",
+    "status": "Stationnement possible ; eau potable et vidange fermées en attente de mise aux normes (mairie, contrôle octobre 2026)",
     "source": "https://www.openstreetmap.org/way/1282438350",
     "latitude": 48.6865444,
     "longitude": -1.3684027,
@@ -375,7 +382,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1282438350",
     "servicesSource": "https://www.openstreetmap.org/way/1282438350",
-    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer."
+    "cityVerificationNote": "Commune déduite du nom du lieu ; localisation précise et adresse à confirmer.",
+    "address": "Chemin de la Boutonnière (également indiqué chemin de la Bourdonnière sur une page municipale), 50300 Avranches",
+    "capacity": 15,
+    "sourceOfficial": "https://www.avranches.fr/aire-etape-et-de-service/",
+    "verificationNote": "Alerte officielle : les services d'eau et vidange sont fermés, stationnement maintenu. Deux pages de la mairie donnent Boutonnière/Bourdonnière ; accès exact à vérifier. 15 places selon camping-car.com, à confirmer."
   },
   {
     "department": "50",
