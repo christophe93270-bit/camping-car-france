@@ -193,7 +193,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit, limité à 7 jours ; eau et électricité payantes par jetons (prix non publié)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/13061989001",
     "latitude": 49.1833834,
@@ -204,7 +204,13 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/13061989001",
     "servicesSource": "https://www.openstreetmap.org/node/13061989001",
-    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte."
+    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
+    "address": "Rue de la Vallée Verte, 14490 Balleroy-sur-Drôme",
+    "capacity": 3,
+    "sourceOfficial": "https://balleroy-sur-drome.fr/Camping-car.htm",
+    "capacitySource": "https://balleroy-sur-drome.fr/Camping-car.htm",
+    "tariffSource": "https://balleroy-sur-drome.fr/Camping-car.htm",
+    "verificationNote": "Mairie : 3 emplacements depuis 2024, véhicules de moins de 7,5 tonnes. Rue confirmée par park4night ; adresse à vérifier sur place."
   },
   {
     "department": "14",
@@ -363,7 +369,10 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/419714925",
     "servicesSource": "https://www.openstreetmap.org/way/419714925",
-    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte."
+    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
+    "address": "188 rue du Mont Pied, 14240 Caumont-sur-Aure",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/normandie/calvados/caumont-sur-aure",
+    "verificationNote": "Exploitant CAMPING-CAR PARK : aire annoncée 'À venir' lors du contrôle. Ne pas présenter l'aire comme ouverte sans confirmation ; capacité et tarif non publiés."
   },
   {
     "department": "14",
@@ -582,7 +591,7 @@
     "city": "Grainville-Langannerie",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; services et électricité : 2 € chacun selon annuaire, tarif à reconfirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/879045482",
     "latitude": 49.014276,
@@ -592,7 +601,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/879045482",
-    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte."
+    "cityVerificationNote": "Commune déduite du nom de l'aire, à vérifier sur carte.",
+    "address": "Rue de Lapford, près des terrains de sports, 14190 Grainville-Langannerie",
+    "capacity": 5,
+    "sourceOfficial": "https://www.i-campingcar.fr/aires.php?ville=GRAINVILLE+LANGANNERIE",
+    "capacitySource": "https://www.i-campingcar.fr/aires/pdf/14.pdf",
+    "tariffSource": "https://www.i-campingcar.fr/aires.php?ville=GRAINVILLE+LANGANNERIE",
+    "verificationNote": "Capacité indicative 5 places selon annuaire ; témoignage 2018 mentionne 10 places. À reconfirmer."
   },
   {
     "department": "14",
