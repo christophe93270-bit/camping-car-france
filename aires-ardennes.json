@@ -334,9 +334,14 @@
     "name": "Aire Camping-car Raucourt-et-Flaba",
     "city": "Raucourt-et-Flaba",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement",
+      "Eau potable",
+      "Vidange eaux usées",
+      "Vidange WC"
+    ],
+    "price": "Stationnement gratuit ; services gratuits selon fiche 2024, tarif 2026 à confirmer",
+    "status": "Services saisonniers annoncés du 1er mai au 31 octobre ; stationnement limité à 72 h ; conditions 2026 à confirmer",
     "source": "https://www.openstreetmap.org/way/1298171665",
     "latitude": 49.6074024,
     "longitude": 4.954724,
@@ -345,7 +350,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1298171665",
-    "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement."
+    "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
+    "address": "Zone artisanale, 08450 Raucourt-et-Flaba",
+    "capacity": 5,
+    "priceSource": "https://www.camping-car.com/aires/46277-aire-communale/",
+    "sourceVerificationNote": "Source annuaire camping-car.com, pas de confirmation municipale directe"
   },
   {
     "department": "08",
@@ -353,7 +362,7 @@
     "city": "Girondelle",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Tarif non confirmé ; gratuité mentionnée par agrégateur OSM sans validation municipale",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1314653074",
     "latitude": 49.8444276,
@@ -363,7 +372,9 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1314653074",
-    "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement."
+    "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
+    "priceSource": "https://www.oujemegare.fr/aire-camping-car/08-ardennes/",
+    "sourceVerificationNote": "Existence et localisation OSM confirmées, pas de source officielle ni de prix vérifié"
   },
   {
     "department": "08",
