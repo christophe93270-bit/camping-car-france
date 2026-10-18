@@ -207,24 +207,28 @@
     "city": "Schœnau",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Douches",
-      "Toilettes",
-      "Électricité"
+      "Stationnement (31 places)",
+      "Électricité 6 A",
+      "Sanitaires saisonniers"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif saisonnier indiqué : 13,20 € / 24 h hors taxe de séjour de 0,44 € (16/09–31/12/2026), soit 13,64 € ; bandeau affichant 16 € / 24 h : contradiction à vérifier avant réservation.",
+    "status": "Aire camping-car de 31 places à l'intérieur du camping du Lac de Schœnau ; correspondance établie entre exploitant et camping officiel. Aire camping-car annoncée ouverte toute l'année par le camping, sanitaires saisonniers du 2 avril au 30 octobre 2026 selon exploitant.",
     "source": "https://www.openstreetmap.org/node/13164250815",
-    "latitude": 48.2260026,
-    "longitude": 7.657114,
-    "gpsSource": "https://www.openstreetmap.org/node/13164250815",
+    "latitude": 48.2261,
+    "longitude": 7.656135,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/Schoenau",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : Visit Alsace confirme un camping municipal au 102 rue de la Digue (30 places camping-car, 13–14 €, saison 01/04–31/10/2026), mais correspondance avec cette aire OSM NON établie : ne pas recopier ces tarifs ni ces services.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : Visit Alsace confirme un camping municipal au 102 rue de la Digue (30 places camping-car, 13–14 €, saison 01/04–31/10/2026), mais correspondance avec cette aire OSM NON établie : ne pas recopier ces tarifs ni ces services. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent.",
     "sourceId": "node/13164250815",
     "servicesSource": "https://www.openstreetmap.org/node/13164250815",
     "relatedOfficialSources": [
-      "https://www.visit.alsace/en/261007133-camping-lake-schoenau/"
-    ]
+      "https://www.campinglacschoenau.com/",
+      "https://schoenau.fr/Tourisme/Lieux-hebergement.html"
+    ],
+    "address": "102 rue de la Digue, 67390 Schœnau",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/Schoenau",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/Schoenau"
   },
   {
     "department": "67",
@@ -252,21 +256,27 @@
     "city": "Saâles",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Douches",
-      "Eau potable",
-      "Électricité"
+      "Stationnement (20 places)",
+      "Électricité 6 A",
+      "Sanitaires saisonniers (dates à confirmer)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif affiché : 15,14 € / 24 h, dont 0,44 € de taxe de séjour (consultation 18/10/2026 ; à recontrôler).",
+    "status": "Camping municipal Le Rové géré via CAMPING-CAR PARK, 20 places camping-car ouvertes toute l'année selon la mairie. Sanitaires saisonniers ; mairie : du 1er mai au 15 octobre, exploitant : du 15 mai au 31 octobre 2026. Divergence conservée.",
     "source": "https://www.openstreetmap.org/way/245544371",
-    "latitude": 48.3490985,
-    "longitude": 7.0977062,
-    "gpsSource": "https://www.openstreetmap.org/way/245544371",
+    "latitude": 48.34866,
+    "longitude": 7.09977,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/sa%C3%A2les?areaType=campingplatzen",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : aucune fiche institutionnelle concordante trouvée pour ce point OSM ; vérification ultérieure nécessaire.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : aucune fiche institutionnelle concordante trouvée pour ce point OSM ; vérification ultérieure nécessaire. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent.",
     "sourceId": "way/245544371",
-    "servicesSource": "https://www.openstreetmap.org/way/245544371"
+    "servicesSource": "https://www.openstreetmap.org/way/245544371",
+    "address": "Camping municipal Le Rové, 67420 Saâles",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/sa%C3%A2les?areaType=campingplatzen",
+    "relatedOfficialSources": [
+      "https://saales.fr/hebergements/"
+    ],
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/sa%C3%A2les?areaType=campingplatzen"
   },
   {
     "department": "67",
@@ -332,19 +342,28 @@
     "city": "Lutzelhouse",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (capacité affichée : 12 places)",
+      "Électricité 6 A",
+      "Eau potable",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif saisonnier 11,50 € /24 h + 1,32 € de taxe de séjour = 12,82 € selon grille exploitant ; bandeau 14,32 € /24 h : divergence à vérifier. 5 h + services 6 €.",
+    "status": "Aire CAMPING-CAR PARK affichant 12 places. Description du même exploitant mentionnant seulement 4 emplacements et stationnement gratuit à jetons : informations contradictoires ; ne pas retenir cette gratuité sans vérification.",
     "source": "https://www.openstreetmap.org/way/1144573112",
-    "latitude": 48.521435,
-    "longitude": 7.2857578,
-    "gpsSource": "https://www.openstreetmap.org/way/1144573112",
+    "latitude": 48.521951,
+    "longitude": 7.285287,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/lutzelhouse",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent.",
     "sourceId": "way/1144573112",
-    "servicesSource": "https://www.openstreetmap.org/way/1144573112"
+    "servicesSource": "https://www.openstreetmap.org/way/1144573112",
+    "address": "6 rue du Séquoia, 67130 Lutzelhouse (office de tourisme : 8 rue du Séquoia)",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/lutzelhouse",
+    "relatedOfficialSources": [
+      "https://www.massif-des-vosges.fr/sit/215002575-aire-de-camping-cars/"
+    ],
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/lutzelhouse"
   },
   {
     "department": "67",
@@ -561,18 +580,23 @@
     "city": "Geudertheim",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (12 places)",
+      "Électricité 6 A",
+      "Services camping-car"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12 € /24 h + 1 € de taxe de séjour = 13 € /24 h, grille du 09/10/2026 au 31/12/2027 ; 5 h + services 6 €.",
+    "status": "Aire CAMPING-CAR PARK de 12 places, ouverte ; électricité 6 A. Zone soumise à un plan de prévention des risques d'inondation (PPRI).",
     "source": "https://www.openstreetmap.org/way/1567682218",
-    "latitude": 48.7113038,
-    "longitude": 7.7575493,
-    "gpsSource": "https://www.openstreetmap.org/way/1567682218",
+    "latitude": 48.71033,
+    "longitude": 7.757417,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/geudertheim?areaType=aire-etape-camping-car",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent.",
     "sourceId": "way/1567682218",
-    "servicesSource": "https://www.openstreetmap.org/way/1567682218"
+    "servicesSource": "https://www.openstreetmap.org/way/1567682218",
+    "address": "Route de Hoerdt, 67170 Geudertheim",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/geudertheim?areaType=aire-etape-camping-car",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/geudertheim?areaType=aire-etape-camping-car"
   }
 ]
