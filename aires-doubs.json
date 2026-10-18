@@ -832,18 +832,25 @@
     "department": "25",
     "name": "Aire de camping-car Damprichard",
     "city": "Damprichard",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de stationnement et de services camping-car",
+    "services": [
+      "Stationnement (2 emplacements)",
+      "Vidange eaux usées (fonctionnement actuel à vérifier)",
+      "Approvisionnement en eau potable (borne signalée en panne en 2025)"
+    ],
+    "price": "Stationnement annoncé gratuit par des annuaires spécialisés ; jetons de services à confirmer",
+    "status": "Délibération municipale de 2019 autorisant la création d'une aire de services avec deux places. Procès-verbal municipal de 2025 : borne de recharge signalée hors service, intervention attendue de la communauté de communes. Remise en service non confirmée : ne pas compter sur l'eau.",
     "source": "https://www.openstreetmap.org/way/1385852042",
     "latitude": 47.2452892,
     "longitude": 6.8786982,
     "gpsSource": "https://www.openstreetmap.org/way/1385852042",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Source primaire : délibération municipale 2019 reproduite sur Pappers, autorisant 2 places et aire de services. Procès-verbal municipal 2025 (https://politique.pappers.fr/commune/document/5bc15ec93501bd7ec1dc36dba07bedf0) signale la borne de recharge non fonctionnelle ; aucune réparation vérifiée. Tarif gratuit seulement selon sources secondaires.",
     "sourceId": "way/1385852042",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "Parking de la salle des fêtes, rue Louis-Pergaud, 25450 Damprichard",
+    "sourceOfficial": "https://politique.pappers.fr/commune/document/122d010635c74fa2608ea8f30a12f15e",
+    "servicesSource": "https://politique.pappers.fr/commune/document/122d010635c74fa2608ea8f30a12f15e"
   }
 ]
