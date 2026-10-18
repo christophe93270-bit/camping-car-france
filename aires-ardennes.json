@@ -162,7 +162,8 @@
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
     "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car-vireux-molhain/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons."
+    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons.",
+    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-vireux-molhain/"
   },
   {
     "department": "08",
@@ -172,8 +173,8 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Deux sites distincts signalés : 6 emplacements gratuits toute l'année ; 20 emplacements aux anciens Ateliers des Janves, saisonniers et payants selon les sources. Le point GPS actuel doit être associé au bon site avant d'attribuer un tarif.",
+    "status": "Attention : deux aires distinctes dans la commune, ne pas confondre les tarifs",
     "source": "https://www.openstreetmap.org/way/620303180",
     "latitude": 49.8588613,
     "longitude": 4.7442216,
@@ -185,7 +186,9 @@
     "servicesSource": "https://www.openstreetmap.org/way/620303180",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
     "priceNote": "Bogny-sur-Meuse possède une aire gratuite de 6 places et une autre payante de 20 places (5 € + suppléments). Correspondance exacte de cette fiche avec l'une des deux aires à vérifier.",
-    "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car-de-bogny-sur-meuse/"
+    "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car-de-bogny-sur-meuse/",
+    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-de-bogny-sur-meuse/",
+    "address": "Rue de la Meuse, 08120 Bogny-sur-Meuse"
   },
   {
     "department": "08",
@@ -231,9 +234,13 @@
     "name": "Aire de Camping-Car de Fromelennes",
     "city": "Fromelennes",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Stationnement",
+      "Vidange",
+      "Remplissage d'eau"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Ouverte toute l'année selon l'agence départementale du tourisme",
     "source": "https://www.openstreetmap.org/way/885675880",
     "latitude": 50.1232393,
     "longitude": 4.8631404,
@@ -242,7 +249,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/885675880",
-    "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement."
+    "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
+    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-fromelennes/",
+    "address": "23 rue Nichet, 08600 Fromelennes",
+    "capacity": 6
   },
   {
     "department": "08",
