@@ -73,8 +73,12 @@
     "name": "Aire de Camping-Cars Centre International de Séjour de Champagne",
     "city": "Reims",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Eau",
+      "Vidange eaux usées",
+      "Pas d'électricité selon annuaires"
+    ],
+    "price": "Gratuité signalée par des annuaires, non confirmée pour 2026",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/388120953",
     "latitude": 49.2500809,
@@ -84,7 +88,9 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/388120953",
-    "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire."
+    "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire.",
+    "address": "Chaussée Bocquaine, 51100 Reims",
+    "priceSource": "https://i-campingcar.fr/aires.php?ville=REIMS"
   },
   {
     "department": "51",
@@ -161,9 +167,10 @@
     "city": "Sézanne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Vidange eaux usées gratuite",
+      "Électricité gratuite"
     ],
-    "price": "Non confirmé",
+    "price": "Vidange et électricité gratuites selon le tourisme départemental ; tarif de stationnement non précisé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/908405792",
     "latitude": 48.7217741,
@@ -173,7 +180,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/908405792",
-    "servicesSource": "https://www.openstreetmap.org/way/908405792"
+    "servicesSource": "https://www.openstreetmap.org/way/908405792",
+    "sourceOfficial": "https://tourisme-en-champagne.com/hebergement/stationnement-camping-car-de-sezanne/",
+    "address": "Place du Champ Benoist, 51120 Sézanne",
+    "priceSource": "https://tourisme-en-champagne.com/hebergement/stationnement-camping-car-de-sezanne/"
   },
   {
     "department": "51",
@@ -181,9 +191,11 @@
     "city": "Fère-Champenoise",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Électricité",
+      "Eau",
+      "Vidange eaux usées"
     ],
-    "price": "Non confirmé",
+    "price": "Tarif non publié par l'office de tourisme ; à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/908411432",
     "latitude": 48.7527151,
@@ -193,7 +205,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/908411432",
-    "servicesSource": "https://www.openstreetmap.org/way/908411432"
+    "servicesSource": "https://www.openstreetmap.org/way/908411432",
+    "sourceOfficial": "https://www.epernay-tourisme.com/sejourner/se-deplacer-a-epernay-alentours/accueil-des-camping-cars/"
   },
   {
     "department": "51",
