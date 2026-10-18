@@ -51,24 +51,29 @@
   },
   {
     "department": "70",
-    "name": "Aire camping-cars d'Ecromagny",
+    "name": "Aire de services de l'étang Pellevin (Écromagny)",
     "city": "Écromagny",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement camping-car",
+      "Eau",
+      "Électricité",
+      "Vidange (à confirmer)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; borne eau et électricité par carte bancaire, tarif des services non confirmé",
+    "status": "6 emplacements selon Destination 70 ; ouvert toute l'année sans réservation selon l'office de tourisme ; à reconfirmer sur place",
     "source": "https://www.openstreetmap.org/node/11944872589",
     "latitude": 47.7906916,
     "longitude": 6.559135,
-    "gpsSource": "https://www.openstreetmap.org/node/11944872589",
+    "gpsSource": "https://www.cirkwi.com/fr/point-interet/1799851-aire-de-services-pour-camping-cars",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Contrôle initial groupé : nom et commune harmonisés ; GPS OSM conservé. Tarifs, accès et services non confirmés.",
+    "importReview": "Fiche Destination 70 Cirkwi localisée à Écromagny (47.7907564, 6.5591168), quasi identique au point OSM existant : même aire, aucun doublon ajouté. Haute-Saône Tourisme rattache cette fiche à Faucogney-et-la-Mer ; divergence de commune signalée.",
     "sourceId": "node/11944872589",
-    "servicesSource": "https://www.openstreetmap.org/node/11944872589",
-    "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment."
+    "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-services-pour-camping-cars-faucogney-et-la-mer-fr-4913776/",
+    "cityVerificationNote": "Cirkwi Destination 70 indique Écromagny ; fiche Haute-Saône Tourisme indique Faucogney-et-la-Mer. Point GPS OSM à Écromagny, rattachement administratif exact à confirmer.",
+    "address": "Le Village, près de l'étang Pellevin, 70270 Écromagny",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-de-services-pour-camping-cars-faucogney-et-la-mer-fr-4913776/"
   },
   {
     "department": "70",
@@ -990,5 +995,29 @@
     "sourceId": "office-tourisme-la-ravena",
     "importReview": "Guide touristique 2026 et deux annuaires recoupés ; coordonnées de l'aire à contrôler sur place.",
     "dataAttribution": "Office de tourisme Luxeuil Vosges du Sud ; GPS To From France"
+  },
+  {
+    "department": "70",
+    "name": "Aire de services de Servance – rue de l'Église",
+    "city": "Servance-Miellin",
+    "type": "Aire de stationnement et de services camping-car",
+    "address": "Rue de l'Église, derrière la salle des fêtes, 70440 Servance-Miellin",
+    "latitude": 47.8126068,
+    "longitude": 6.6810179,
+    "services": [
+      "Stationnement camping-car",
+      "Eau (borne payante)",
+      "Électricité (borne payante)",
+      "Vidange eaux usées"
+    ],
+    "price": "4 emplacements gratuits ; borne de services payante par carte bancaire, tarif non confirmé",
+    "status": "4 places selon Destination 70 ; disponibilité et fonctionnement actuel à vérifier",
+    "source": "https://hautesaonetourisme.com/offres/aire-de-service-pour-camping-cars-servance-fr-4910118/",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-de-service-pour-camping-cars-servance-fr-4910118/",
+    "gpsSource": "https://www.cirkwi.com/fr/point-interet/3396062-aire-de-service-pour-camping-cars",
+    "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-service-pour-camping-cars-servance-fr-4910118/",
+    "sourceId": "destination70/4910118",
+    "importReview": "Fiche Destination 70 sur Cirkwi actualisée le 10/01/2026 ; GPS recoupé avec To From France. Site distinct du camping de Miellin (à environ 4 km).",
+    "dataAttribution": "Destination 70 / Haute-Saône Tourisme ; GPS Destination 70 via Cirkwi"
   }
 ]
