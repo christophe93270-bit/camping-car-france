@@ -45,23 +45,24 @@
   {
     "department": "71",
     "name": "Aire de camping-car Marcigny",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Marcigny",
+    "type": "Aire de services camping-car",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Borne de services camping-car (équipements précis à confirmer)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de services répertoriée par le guide touristique institutionnel 2025 ; tarifs et horaires à vérifier auprès de la commune.",
     "source": "https://www.openstreetmap.org/node/5649839775",
     "latitude": 46.276154,
     "longitude": 4.038649,
     "gpsSource": "https://www.openstreetmap.org/node/5649839775",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Guide pratique Pays Charolais-Brionnais 2025 : aire de services place Irène Popard, Marcigny. Ne pas déduire de stationnement nocturne ni de services spécifiques non détaillés.",
     "sourceId": "node/5649839775",
-    "servicesSource": "https://www.openstreetmap.org/node/5649839775"
+    "servicesSource": "https://www.openstreetmap.org/node/5649839775",
+    "address": "Place Irène Popard, 71110 Marcigny",
+    "sourceOfficial": "https://www.tourisme-paraylemonial.fr/document/telechargement/pdf/guide-pratique-pcb-2025-web.pdf"
   },
   {
     "department": "71",
@@ -351,23 +352,25 @@
   {
     "department": "71",
     "name": "Aire camping-cars Saint-Christophe-en-Brionnais",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Saint-Christophe-en-Brionnais",
+    "type": "Aire de services camping-car",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Stationnement (8 emplacements selon guide 2025)",
+      "Aire de services (détails à confirmer)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de services de 8 emplacements référencée dans le guide touristique 2025 ; disponibilité et tarif à vérifier.",
     "source": "https://www.openstreetmap.org/way/358243797",
     "latitude": 46.2847545,
     "longitude": 4.1797882,
     "gpsSource": "https://www.openstreetmap.org/way/358243797",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Guide pratique Pays Charolais-Brionnais 2025 : 8 emplacements, 12 route de l'Allée. Pas de services détaillés dans le guide.",
     "sourceId": "way/358243797",
-    "servicesSource": "https://www.openstreetmap.org/way/358243797"
+    "servicesSource": "https://www.openstreetmap.org/way/358243797",
+    "address": "12 route de l'Allée, 71800 Saint-Christophe-en-Brionnais",
+    "sourceOfficial": "https://www.tourisme-paraylemonial.fr/document/telechargement/pdf/guide-pratique-pcb-2025-web.pdf"
   },
   {
     "department": "71",
@@ -489,22 +492,23 @@
     "department": "71",
     "name": "Gibles Aire de Camping-Car",
     "city": "Gibles",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de camping-car",
     "services": [
-      "Eau potable",
-      "Électricité"
+      "Aire de camping-car (services à confirmer)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire répertoriée place de l'ancienne gare dans le guide touristique 2025 ; accès et services à confirmer.",
     "source": "https://www.openstreetmap.org/way/963893300",
     "latitude": 46.3250283,
     "longitude": 4.3755361,
     "gpsSource": "https://www.openstreetmap.org/way/963893300",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Guide pratique Pays Charolais-Brionnais 2025 : aire de camping-car place de l'ancienne gare à Gibles.",
     "sourceId": "way/963893300",
-    "servicesSource": "https://www.openstreetmap.org/way/963893300"
+    "servicesSource": "https://www.openstreetmap.org/way/963893300",
+    "address": "Place de l'ancienne gare, 71800 Gibles",
+    "sourceOfficial": "https://www.tourisme-paraylemonial.fr/document/telechargement/pdf/guide-pratique-pcb-2025-web.pdf"
   },
   {
     "department": "71",
@@ -550,23 +554,29 @@
   },
   {
     "department": "71",
-    "name": "Aire pour camping-car - Paray-le-Monial",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Aire municipale de stationnement et services — Parc du Moulin Liron",
+    "city": "Paray-le-Monial",
+    "type": "Aire municipale de stationnement et services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement gratuit",
+      "Vidange eaux usées gratuite",
+      "Eau potable (borne payante)",
+      "Électricité (borne payante)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et vidange gratuits ; eau 2 € / 100 L ; électricité 5 € / 8 h (tarifs affichés par l'office de tourisme, à revérifier)",
+    "status": "Aire proche du centre-ville. L'office de tourisme affiche 27 emplacements au total, dont 16 stationnements gratuits dans sa description ; répartition exacte à confirmer.",
     "source": "https://www.openstreetmap.org/way/1274458667",
     "latitude": 46.4479206,
     "longitude": 4.1199124,
     "gpsSource": "https://www.openstreetmap.org/way/1274458667",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Office de tourisme : 27 emplacements annoncés en en-tête et 16 stationnements gratuits dans le descriptif ; ne pas assimiler ces nombres. Vidange et stationnement gratuits, eau 2 €/100 L, électricité 5 €/8 h.",
     "sourceId": "way/1274458667",
-    "servicesSource": "https://www.openstreetmap.org/way/1274458667"
+    "servicesSource": "https://www.tourisme-paraylemonial.fr/stationner.html",
+    "address": "Parking du Parc du Moulin Liron, 71600 Paray-le-Monial",
+    "sourceOfficial": "https://www.tourisme-paraylemonial.fr/campings-et-aire-de-camping-cars/aire-de-stationnement-et-de-service-pour-camping-car-ACCBOU071V500N6F.html",
+    "priceSource": "https://www.tourisme-paraylemonial.fr/stationner.html"
   },
   {
     "department": "71",
@@ -699,22 +709,25 @@
   {
     "department": "71",
     "name": "Aire Camping-cars Gueugnon",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Gueugnon",
+    "type": "Aire de services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement (3 emplacements selon guide 2025)",
+      "Aire de services (détails à confirmer)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de services à Chazey référencée par le guide touristique 2025 ; conditions d'accès à vérifier.",
     "source": "https://www.openstreetmap.org/way/1296351863",
     "latitude": 46.5705491,
     "longitude": 4.0538612,
     "gpsSource": "https://www.openstreetmap.org/way/1296351863",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Guide pratique Pays Charolais-Brionnais 2025 : 3 emplacements, Chazey, Gueugnon. Ne pas inventer eau/électricité/vidange sans description précise.",
     "sourceId": "way/1296351863",
-    "servicesSource": "https://www.openstreetmap.org/way/1296351863"
+    "servicesSource": "https://www.openstreetmap.org/way/1296351863",
+    "address": "Chazey, 71130 Gueugnon",
+    "sourceOfficial": "https://www.tourisme-paraylemonial.fr/document/telechargement/pdf/guide-pratique-pcb-2025-web.pdf"
   },
   {
     "department": "71",
@@ -790,19 +803,24 @@
   {
     "department": "71",
     "name": "Aire camping-car Digoin",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "city": "Digoin",
+    "type": "Aire de services et stationnement camping-car",
+    "services": [
+      "Stationnement (20 emplacements selon guide 2025)",
+      "Aire de services (détails à confirmer)"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de services de 20 emplacements place de la Grève dans le guide touristique 2025 ; horaires et prix à confirmer.",
     "source": "https://www.openstreetmap.org/way/1321507206",
     "latitude": 46.4804291,
     "longitude": 3.970585,
     "gpsSource": "https://www.openstreetmap.org/way/1321507206",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1321507206"
+    "importReview": "Guide pratique Pays Charolais-Brionnais 2025 : 20 emplacements, place de la Grève, Digoin. Distinct de l'aire du camping de la Chevrette.",
+    "sourceId": "way/1321507206",
+    "address": "Place de la Grève, 71160 Digoin",
+    "sourceOfficial": "https://www.tourisme-paraylemonial.fr/document/telechargement/pdf/guide-pratique-pcb-2025-web.pdf"
   },
   {
     "department": "71",
