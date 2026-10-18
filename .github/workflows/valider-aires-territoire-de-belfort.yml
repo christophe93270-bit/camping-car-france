@@ -1,0 +1,35 @@
+name: Valider les aires Territoire de Belfort
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'aires-territoire-de-belfort.json'
+      - '.github/workflows/valider-aires-territoire-de-belfort.yml'
+permissions:
+  contents: read
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Valider les fiches du Territoire de Belfort
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('aires-territoire-de-belfort.json').read_text(encoding='utf-8'))
+          assert isinstance(a,list) and len(a)==2, 'Nombre de fiches inattendu'
+          seen=set()
+          for i,x in enumerate(a,1):
+              assert x.get('department')=='90', f'Département fiche {i}'
+              assert x.get('name') and x.get('city'), f'Nom/commune fiche {i}'
+              assert isinstance(x.get('latitude'),(int,float)) and 47.3<x['latitude']<48.1, f'Latitude fiche {i}'
+              assert isinstance(x.get('longitude'),(int,float)) and 6.6<x['longitude']<7.3, f'Longitude fiche {i}'
+              assert isinstance(x.get('services'),list), f'Services fiche {i}'
+              sid=x.get('sourceId')
+              assert sid and sid not in seen, f'Identifiant fiche {i}'
+              seen.add(sid)
+              assert x.get('source')==f'https://www.openstreetmap.org/{sid}', f'Source OSM fiche {i}'
+              assert x.get('sourceOfficial','').startswith('https://'), f'Source officielle fiche {i}'
+          print('OK : 2 fiches valides et 2 sources officielles')
+          PY
