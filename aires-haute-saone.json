@@ -104,21 +104,21 @@
       "Vidange eaux usées"
     ],
     "price": "9 à 13 € (eau, vidange et électricité), tarif à reconfirmer",
-    "status": "25 emplacements ; ouverture annoncée du 13 mai au 13 septembre",
+    "status": "25 emplacements ; ouverture annoncée du 13 mai au 13 septembre selon Haute-Saône Tourisme ; à reconfirmer pour chaque saison",
     "source": "https://www.openstreetmap.org/way/538520415",
     "latitude": 47.4526458,
     "longitude": 5.6023491,
     "gpsSource": "https://www.openstreetmap.org/way/538520415",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "L'aire et le camping Longue Rive figurent à moins de 15 m GPS selon Camping-car.com ; ne pas ajouter le camping comme nouvelle épingle sans preuve d'accès distinct.",
+    "importReview": "Haute-Saône Tourisme distingue explicitement l'aire extérieure du camping OnlyCamp Longue Rive, situé à proximité. Ne pas fusionner ces deux établissements ; coordonnées et entrée précise du camping à vérifier avant création d'une fiche distincte.",
     "sourceId": "way/538520415",
     "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-camping-cars-gray-fr-4913178/",
     "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment.",
     "address": "Route de la Plage, 70100 Gray",
     "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-de-camping-cars-gray-fr-4913178/",
     "priceSource": "https://hautesaonetourisme.com/offres/aire-de-camping-cars-gray-fr-4913178/",
-    "relatedSource": "https://www.camping-car.com/aires/4616-longue-rive/"
+    "relatedSource": "https://hautesaonetourisme.com/offres/camping-onlycamp-longue-rive-gray-fr-4909960/"
   },
   {
     "department": "70",
@@ -347,14 +347,14 @@
       "Poubelles"
     ],
     "price": "Gratuit selon Haute-Saône Tourisme",
-    "status": "5 emplacements selon Haute-Saône Tourisme",
+    "status": "5 emplacements gratuits ; borne électrique 32 A, eau, vidange et WC publics selon Haute-Saône Tourisme ; disponibilité à vérifier sur place",
     "source": "https://www.openstreetmap.org/way/1296411564",
     "latitude": 47.4190995,
     "longitude": 5.7035127,
     "gpsSource": "https://www.openstreetmap.org/way/1296411564",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Recoupement groupé avec fiche Haute-Saône Tourisme ; coordonnées GPS d'origine non déplacées ; données sujettes à changement.",
+    "importReview": "Prestations et capacité recoupées sur la fiche Haute-Saône Tourisme ; stationnement gratuit annoncé, sans garantie de disponibilité actuelle.",
     "sourceId": "way/1296411564",
     "servicesSource": "https://hautesaonetourisme.com/offres/aire-de-camping-cars-velesmes-echevanne-fr-5316302/",
     "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment.",
@@ -665,17 +665,22 @@
     "longitude": 5.7757334,
     "type": "Camping accueillant les camping-cars",
     "services": [
-      "Électricité (emplacements)",
-      "Borne de services (détails à confirmer)"
+      "Emplacements camping-car",
+      "Électricité",
+      "Eau",
+      "Vidange eaux usées",
+      "Sanitaires",
+      "Wi-Fi"
     ],
     "price": "Non confirmé",
-    "status": "Camping et services annoncés du 2 mai au 30 septembre ; tarifs à confirmer",
+    "status": "Aire camping-car à l'intérieur du Camping Vert Lagon ; ouverture saisonnière annoncée du 1er mai à fin septembre, date exacte à confirmer (la source touristique indique un 31 septembre inexistant).",
     "source": "https://www.camping-car.com/aires/4618-camping-vert-lagon/",
     "gpsSource": "https://www.camping-car.com/aires/4618-camping-vert-lagon/",
     "sourceId": "camping-car.com/4618",
     "priceSource": "https://www.camping-car.com/aires/4618-camping-vert-lagon/",
-    "servicesSource": "https://www.camping-car.com/aires/4618-camping-vert-lagon/",
-    "importReview": "Informations issues de Camping-car.com ; coordonnées reprises de la fiche ; fonctionnement actuel et tarifs à confirmer."
+    "servicesSource": "https://hautesaonetourisme.com/offres/aire-camping-car-marnay-fr-4916480/",
+    "importReview": "La fiche Haute-Saône Tourisme décrit l'aire à l'intérieur du Camping Vert Lagon : ne pas ajouter de seconde épingle au même établissement. La date «31 septembre» publiée est invalide ; date de fermeture à confirmer.",
+    "sourceOfficial": "https://hautesaonetourisme.com/offres/aire-camping-car-marnay-fr-4916480/"
   },
   {
     "department": "70",
