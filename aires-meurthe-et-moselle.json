@@ -21,23 +21,28 @@
   },
   {
     "department": "54",
-    "name": "Aire de camping-car de Fontenoy-la-Joute",
+    "name": "Aire CAMPING-CAR PARK de Fontenoy-la-Joûte",
     "city": "Fontenoy-la-Joûte",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (12 places)",
+      "Branchements électriques 6 A",
+      "Services de l'aire (forfait 5 h)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Grille CAMPING-CAR PARK du 01/10/2026 au 31/12/2027 : 11 € / 24 h + taxe de séjour 1,32 € (2026) = 12,32 € / 24 h calculés. Le bandeau de la même page affiche toutefois 13,82 € TTC / 24 h : divergence interne, vérifier au paiement. Forfait 5 h + services : 6 €.",
+    "status": "Aire CAMPING-CAR PARK de 12 emplacements, ouverte depuis août 2026 au Village du Livre. Électricité 6 A. Le tarif affiché en bandeau et la grille saisonnière de l'exploitant ne concordent pas ; ne pas garantir un montant unique.",
     "source": "https://www.openstreetmap.org/node/14276432245",
-    "latitude": 48.456365,
-    "longitude": 6.6649957,
-    "gpsSource": "https://www.openstreetmap.org/node/14276432245",
+    "latitude": 48.45697,
+    "longitude": 6.66596,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/fontenoy-la-joute",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : ouverture août 2026, 12 places et branchements 6 A confirmés ; prix contradictoires sur page exploitant (12,32 € calculés / 13,82 € affichés).",
     "sourceId": "node/14276432245",
-    "servicesSource": "https://www.openstreetmap.org/node/14276432245"
+    "servicesSource": "https://www.openstreetmap.org/node/14276432245",
+    "address": "2 route de Glonville, 54122 Fontenoy-la-Joûte",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/fontenoy-la-joute",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/fontenoy-la-joute"
   },
   {
     "department": "54",
@@ -45,19 +50,33 @@
     "city": "Toul",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (12 places ; 72 h maximum)",
+      "Eau potable incluse",
+      "Électricité incluse, même en hiver",
+      "Vidange eaux grises",
+      "Vidange WC chimiques",
+      "Éclairage public",
+      "Tables de pique-nique",
+      "Douches et sanitaires sur demande à la capitainerie",
+      "Paiement par carte bancaire"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "9 € / 24 h selon l'office de tourisme Terres Touloises (fiche 2026) ; la page de la mairie affiche encore 7 € / 24 h : divergence à confirmer auprès de la capitainerie avant paiement.",
+    "status": "12 emplacements (8 enrobés et 4 stabilisés), stationnement 72 h maximum, ouvert toute l'année. Eau et électricité comprises dans le forfait, y compris en hiver ; vidange eaux grises et noires. Services complémentaires (douches, toilettes, laverie) sur demande à la capitainerie. Contact capitainerie : 06 65 09 22 04. Tarif 9 € sur fiche touristique 2026 contre 7 € sur site municipal et ancien dépliant 2023 : ne pas garantir le montant.",
     "source": "https://www.openstreetmap.org/way/104026646",
-    "latitude": 48.6765134,
-    "longitude": 5.8850324,
-    "gpsSource": "https://www.openstreetmap.org/way/104026646",
+    "latitude": 48.6766789,
+    "longitude": 5.88516488,
+    "gpsSource": "https://www.toul.fr/?aire-de-camping-car=&lang=fr",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : fiche touristique 2026 9 €/24 h, mairie 7 €/24 h, contradiction conservée ; GPS et 12 places vérifiés.",
     "sourceId": "way/104026646",
-    "servicesSource": "https://www.openstreetmap.org/way/104026646"
+    "servicesSource": "https://www.openstreetmap.org/way/104026646",
+    "address": "Chemin du Cimetière, accès avenue Victor Hugo, 54200 Toul",
+    "sourceOfficial": "https://tourisme-terrestouloises.com/detail/fr/523324/523417/995000771/aire-de-camping-car-de-toul-toul/",
+    "priceSource": "https://tourisme-terrestouloises.com/detail/fr/523324/523417/995000771/aire-de-camping-car-de-toul-toul/",
+    "relatedOfficialSources": [
+      "https://www.toul.fr/?aire-de-camping-car=&lang=fr"
+    ]
   },
   {
     "department": "54",
