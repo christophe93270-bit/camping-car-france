@@ -34,15 +34,16 @@
       "Stationnement (point OpenStreetMap non vérifié)"
     ],
     "price": "Non confirmé",
-    "status": "Point de stationnement OpenStreetMap non rapproché de manière certaine d'une aire municipale. Le Camping Municipal Sous Roche, 1 rue Sous Roche, propose des services camping-cars, mais il s'agit d'un établissement distinct : ne pas lui attribuer ce point GPS.",
+    "status": "Parking de camping-car signalé gratuit par Caraplace, services non confirmés. Distinct du camping municipal Sous Roche : ne pas attribuer au parking les équipements ou tarifs du camping.",
     "source": "https://www.openstreetmap.org/node/5650000890",
     "latitude": 47.4935012,
     "longitude": 3.9047894,
     "gpsSource": "https://www.openstreetmap.org/node/5650000890",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Tourisme Yonne confirme le camping Sous Roche, mais pas l'identité du parking OSM. Ne pas créer de fausse correspondance ni de sourceOfficial.",
-    "sourceId": "node/5650000890"
+    "importReview": "Tourisme Yonne confirme le camping Sous Roche, mais pas l'identité du parking OSM. Ne pas créer de fausse correspondance ni de sourceOfficial. | 18/10/2026 : comparaison avec la mairie d'Avallon et l'office de tourisme de l'Yonne : camping Sous Roche au 1 rue Sous Roche, distinct du point GPS OSM de ce parking. Ne pas lui attribuer les services du camping ni sa sourceOfficial. Source secondaire Caraplace signale parking gratuit, services inconnus.",
+    "sourceId": "node/5650000890",
+    "servicesSource": "https://caraplace.ch/fr/placeme/avallon-camping-car-parking-15606"
   },
   {
     "department": "89",
@@ -270,16 +271,16 @@
       "Eau potable (déclarée dans un annuaire reprenant OpenStreetMap, non vérifiée)"
     ],
     "price": "Gratuit selon annuaire secondaire, à confirmer",
-    "status": "Point OpenStreetMap proche de la halte nautique de Ravières. Aucune fiche municipale ou touristique officielle retrouvée confirmant services, accès et conditions de nuitée.",
+    "status": "Halte nautique rue du Port : parking signalé par des usagers. Eau, électricité et WC non garantis aux camping-cars (témoignages contradictoires). Vérifier signalisation et disponibilité sur place.",
     "source": "https://www.openstreetmap.org/way/1270384861",
     "latitude": 47.7325147,
     "longitude": 4.2242385,
     "gpsSource": "https://www.openstreetmap.org/way/1270384861",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Campercation reprend OpenStreetMap : gratuit, eau, adresse 10 rue du Port ; aucune vérification indépendante. sourceOfficial laissé absent.",
+    "importReview": "Campercation reprend OpenStreetMap : gratuit, eau, adresse 10 rue du Port ; aucune vérification indépendante. sourceOfficial laissé absent. | 18/10/2026 : Park4night rue du Port indique témoignages contradictoires sur eau, électricité et WC (2023-2024) ; en 2024, usager signale eau et électricité réservées aux bateaux. Pas de confirmation officielle du service aux camping-cars.",
     "sourceId": "way/1270384861",
-    "servicesSource": "https://www.campercation.com/place/27916/aire-de-camping-car-halte-nautique-de-ravi-res",
+    "servicesSource": "https://park4night.com/fr/place/2187",
     "address": "10 rue du Port, 89390 Ravières (adresse d'annuaire secondaire, à vérifier)"
   }
 ]
