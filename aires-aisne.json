@@ -3,7 +3,7 @@
     "department": "02",
     "name": "Aire de camping-car de Braine",
     "city": "Braine",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement et de services camping-car à accès contrôlé",
     "services": [
       "Électricité 10 A",
       "Eau potable",
@@ -30,11 +30,15 @@
   },
   {
     "department": "02",
-    "name": "Aire de camping-car de Vendeuil",
+    "name": "Aire CAMPING-CAR PARK de Vendeuil",
     "city": "Vendeuil",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
-      "Électricité"
+      "Électricité 6 A",
+      "Eau potable",
+      "Borne de services camping-car",
+      "Collecte des déchets",
+      "Tables de pique-nique"
     ],
     "price": "13,88 € / 24 h (13,00 € + 0,88 € de taxe de séjour)",
     "status": "Tarif relevé auprès de l'exploitant ou de la mairie; vérifier avant déplacement",
@@ -50,7 +54,12 @@
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/aisne/vendeuil?areaType=stopover-site-motorhome",
     "priceVerifiedOn": "2026-10-17",
     "priceNote": "Grille officielle : stationnement 02/10/2026–31/12/2027; taxe 05/08/2025–31/12/2027.",
-    "priceValidUntil": "2027-12-31"
+    "priceValidUntil": "2027-12-31",
+    "address": "9 avenue du Stade, 02800 Vendeuil",
+    "capacity": 22,
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/aisne/vendeuil?areaType=stopover-site-motorhome",
+    "verificationSource": "https://www.destination-saintquentin.fr/en/aire-de-camping-car-de-vendeuil/",
+    "verificationNote": "Exploitant et office de tourisme : 22 places, 9 avenue du Stade, accès avec compte Camping-Car Park ; tarif 13,88 €/24h taxe incluse."
   },
   {
     "department": "02",
@@ -247,10 +256,16 @@
     "department": "02",
     "name": "Aire de camping-car Blérancourt",
     "city": "Blérancourt",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "type": "Aire communale de stationnement et de services camping-car",
+    "services": [
+      "Stationnement gratuit",
+      "Point d'eau",
+      "Vidange eaux grises",
+      "Vidange WC",
+      "Électricité annoncée à 5 € / 24 h (disponibilité à confirmer)"
+    ],
     "price": "Stationnement gratuit ; électricité 5 € / 24 h",
-    "status": "Commune et informations vérifiées auprès d'une source touristique; vérifier sur place les conditions actuelles",
+    "status": "Ouverte 24 h/24 selon association touristique ; électricité potentiellement indisponible selon annuaire indépendant",
     "source": "https://www.openstreetmap.org/way/809217891",
     "latitude": 49.5128157,
     "longitude": 3.1501029,
@@ -261,7 +276,9 @@
     "sourceId": "way/809217891",
     "verificationSource": "https://www.ot-blerancourt.com/votre-s%C3%A9jour/campings-et-aires-pour-camping-cars/",
     "verificationDate": "2026-10-17",
-    "verificationNote": "Association locale de tourisme : stationnement gratuit, électricité payante; ouverture 24 h/24."
+    "verificationNote": "Association touristique : 6 à 8 véhicules, eau, vidange, électricité 5 €/24h. i-campingcar indique électricité indisponible : vérifier sur place avant de promettre ce service.",
+    "address": "Avenue de la Libération, 02300 Blérancourt",
+    "capacityNote": "6 à 8 véhicules selon l'association locale de tourisme"
   },
   {
     "department": "02",
