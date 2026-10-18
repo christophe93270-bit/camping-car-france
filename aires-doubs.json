@@ -415,24 +415,30 @@
   },
   {
     "department": "25",
-    "name": "Aire de camping-cars Montbéliard - Port de plaisance",
+    "name": "Aire de camping-cars — Port de plaisance de Montbéliard",
     "city": "Montbéliard",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement camping-car",
     "services": [
-      "Électricité"
+      "Électricité (14 emplacements)",
+      "WC",
+      "Douches",
+      "Laverie"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement payant par horodateur (forfaits 8 h ou 16 h) ; montant actuel à confirmer",
+    "status": "Ouvert toute l'année selon Pays de Montbéliard Tourisme. La fiche départementale indique une autorisation de stationnement de 6 h à 22 h : ne pas supposer que la nuitée est autorisée.",
     "source": "https://www.openstreetmap.org/way/1259726625",
     "latitude": 47.5053535,
     "longitude": 6.79327,
     "gpsSource": "https://www.openstreetmap.org/way/1259726625",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Site distinct du Champ de Foire : 14 emplacements avec électricité et sanitaires au port ; aire de vidange/remplissage à environ 300 m. Horaires et tarif à confirmer sur place.",
     "sourceId": "way/1259726625",
-    "servicesSource": "https://www.openstreetmap.org/way/1259726625",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte."
+    "servicesSource": "https://www.paysdemontbeliard-tourisme.com/node/16672",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
+    "address": "Impasse de la Presqu'île, 25200 Montbéliard",
+    "sourceOfficial": "https://www.paysdemontbeliard-tourisme.com/node/16672",
+    "priceSource": "https://www.paysdemontbeliard-tourisme.com/node/16672"
   },
   {
     "department": "25",
@@ -478,27 +484,32 @@
   },
   {
     "department": "25",
-    "name": "Camping-Cars du Montbéliard - Champ de foire",
+    "name": "Aire de camping-cars — Champ de Foire de Montbéliard",
     "city": "Montbéliard",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de services et de stationnement camping-car",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées",
+      "Stationnement (4 emplacements)"
     ],
-    "price": "Électricité : 2 € / 1 h, 5 € / 8 h, 10 € / 16 h ; eau 5 € / 10 min ; stationnement non tarifé dans la source",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; vidange gratuite ; eau à partir de 5 € / 10 min ; électricité à partir de 2 € / 1 h, 5 € / 8 h, 10 € / 16 h (tarifs touristiques à vérifier sur place)",
+    "status": "Ouvert toute l'année selon Doubs Tourisme. 4 emplacements annoncés ; borne Eurorelais.",
     "source": "https://www.openstreetmap.org/way/1288032567",
     "latitude": 47.5066532,
     "longitude": 6.7912542,
     "gpsSource": "https://www.openstreetmap.org/way/1288032567",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Site distinct du port de plaisance, confirmé par l'office de tourisme ; 4 emplacements, eau et vidange. Ne pas fusionner les deux fiches.",
     "sourceId": "way/1288032567",
-    "servicesSource": "https://www.openstreetmap.org/way/1288032567",
+    "servicesSource": "https://www.doubs.travel/aire-camping-car/aire-de-camping-cars-champ-de-foire",
     "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
-    "priceSource": "https://www.paysdemontbeliard-tourisme.com/aires-de-camping-car/decibelles/detail/hpabfc025303000204/aire-de-camping-cars-champ-de-foire",
+    "priceSource": "https://www.doubs.travel/aire-camping-car/aire-de-camping-cars-champ-de-foire",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement."
+    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement.",
+    "address": "Place du Champ de Foire, 25200 Montbéliard",
+    "sourceOfficial": "https://www.doubs.travel/aire-camping-car/aire-de-camping-cars-champ-de-foire"
   },
   {
     "department": "25",
