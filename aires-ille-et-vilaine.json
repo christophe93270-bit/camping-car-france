@@ -458,10 +458,10 @@
     "sourceId": "way/1318372118",
     "servicesSource": "https://www.openstreetmap.org/way/1318372118",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
-    "verificationNote": "Site officiel Camping de l'Aumône : établissement privé à Cherrueix, emplacements de camping, ouverture de Pâques à la Toussaint ; tarif camping-car 2026 non publié sur la page d'accueil. La capacité 20 issue de l'import n'est pas confirmée pour les seuls camping-cars.",
+    "verificationNote": "Camping privé de l'Aumône : site officiel confirme camping ouvert de Pâques à Toussaint, emplacements d'au moins 100 m², sanitaires, piscine et Wi-Fi. Capacité 20 issue de l'import non vérifiée pour l'aire camping-car : champ retiré. Prix indicatif 10,80 € non confirmé.",
     "relatedSource": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-services-du-camping-tenzor-de-la-baie-cherrueix-fr-2727646/",
     "address": "L'Aumône, 35120 Cherrueix (aire attenante au camping du Château de l'Aumône)",
-    "capacity": 20,
+    "capacity": null,
     "sourceOfficial": "https://campingdelaumone.com/",
     "capacitySource": "https://park4night.com/fr/place/88517",
     "priceSource": "https://www.lecampeur.fr/aire/aire-de-camping-car-de-cherrueix-ph46s0"
@@ -976,9 +976,9 @@
       "Aire de pique-nique"
     ],
     "price": "Tarif non confirmé",
-    "status": "Ouverte toute l'année selon Ille-et-Vilaine Tourisme",
+    "status": "Aire de services ouverte toute l'année, le long du camping municipal (source office de tourisme)",
     "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-services-de-montauban-de-bretagne-montauban-de-bretagne-fr-6180009/",
-    "verificationNote": "Aire de services identifiée par Ille-et-Vilaine Tourisme, rue de Dinan. Coordonnées GPS non identifiées ; ne pas afficher sur la carte comme point géolocalisé. GPS ajouté d'après une fiche géolocalisée spécialisée ; vérifier sur le terrain si nécessaire.",
+    "verificationNote": "Ille-et-Vilaine Tourisme confirme aire rue de Dinan longeant le camping municipal, accessible toute l'année, avec eau potable, électricité, vidanges eaux usées et WC, poubelles et aire de pique-nique. GPS issu de park4night : localisation précise de la borne à vérifier. Tarif non publié.",
     "source": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-services-de-montauban-de-bretagne-montauban-de-bretagne-fr-6180009/",
     "gpsSource": "https://park4night.com/fr/place/631162",
     "coordinateStatus": "Coordonnées GPS recoupées avec un répertoire spécialisé",
@@ -1106,10 +1106,10 @@
   },
   {
     "department": "35",
-    "type": "Aire de camping-car",
+    "type": "Aire de camping-car dans un camping municipal",
     "name": "Aire du camping municipal Les Cours",
     "city": "Saint-Suliac",
-    "address": "8 Les Cours, 35430 Saint-Suliac",
+    "address": "Route du Puits, 35430 Saint-Suliac",
     "services": [
       "Eau",
       "Électricité",
@@ -1126,7 +1126,7 @@
     "source": "https://www.saint-malo-tourisme.com/poser-ses-valises/ou-dormir/campings/aire-du-camping-municipal-les-cours-saint-suliac-fr-3646585/",
     "gpsSource": "https://park4night.com/fr/place/47243",
     "coordinateStatus": "Coordonnées GPS vérifiées sur une fiche géolocalisée",
-    "verificationNote": "Camping municipal Les Cours, distinct des parkings gratuits de Saint-Suliac. Office de tourisme confirme un parking camping-car près du cimetière limité à 24 h ; ne pas attribuer ce stationnement gratuit au camping payant. Tarifs actuels du camping non confirmés.",
+    "verificationNote": "Saint-Malo Tourisme : aire dans le camping municipal, avec eau, électricité, douche, WC, vidange, Wi-Fi et laverie ; forfait camping-car publié sans montant. Le camping totalise 120 emplacements, chiffre qui ne doit pas être attribué à l'aire camping-car. Parking gratuit séparé près du cimetière limité à 24 h.",
     "latitude": 48.574,
     "longitude": -1.974
   },
