@@ -273,16 +273,17 @@
       "Eau potable (déclarée dans un annuaire reprenant OpenStreetMap, non vérifiée)"
     ],
     "price": "Gratuit selon annuaire secondaire, à confirmer",
-    "status": "Halte nautique rue du Port : parking signalé par des usagers. Eau, électricité et WC non garantis aux camping-cars (témoignages contradictoires). Vérifier signalisation et disponibilité sur place.",
+    "status": "Point OpenStreetMap au 10 rue du Port (47.732515, 4.224239), gratuit et avec eau selon annuaire recopiant OSM : non confirmé indépendamment. Attention : les avis Park4night concernent le parking du 2 rue du Port (47.7309, 4.2244), environ 180 m plus au sud ; ils ne prouvent pas les équipements du point OSM. Sur ce parking voisin, un avis d'août 2024 indique qu'il faut être autonome, un autre de mai 2024 que l'eau et l'électricité sont réservées aux bateaux. Conditions à confirmer auprès de la mairie.",
     "source": "https://www.openstreetmap.org/way/1270384861",
     "latitude": 47.7325147,
     "longitude": 4.2242385,
     "gpsSource": "https://www.openstreetmap.org/way/1270384861",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Campercation reprend OpenStreetMap : gratuit, eau, adresse 10 rue du Port ; aucune vérification indépendante. sourceOfficial laissé absent. | 18/10/2026 : Park4night rue du Port indique témoignages contradictoires sur eau, électricité et WC (2023-2024) ; en 2024, usager signale eau et électricité réservées aux bateaux. Pas de confirmation officielle du service aux camping-cars.",
+    "importReview": "Campercation reprend OpenStreetMap : gratuit, eau, adresse 10 rue du Port ; aucune vérification indépendante. sourceOfficial laissé absent. | 18/10/2026 : Park4night rue du Port indique témoignages contradictoires sur eau, électricité et WC (2023-2024) ; en 2024, usager signale eau et électricité réservées aux bateaux. Pas de confirmation officielle du service aux camping-cars. | 18/10/2026 : contrôle géographique : point OSM 47.7325147,4.2242385 distinct du parking Park4night 47.7309,4.2244 (environ 180 m). Les avis Park4night ne valident pas les services au point OSM ; Campercation annonce eau/gratuité mais reprend explicitement OSM. Ne pas fusionner les lieux ni promouvoir une source secondaire en sourceOfficial.",
     "sourceId": "way/1270384861",
-    "servicesSource": "https://park4night.com/fr/place/2187",
-    "address": "10 rue du Port, 89390 Ravières (adresse d'annuaire secondaire, à vérifier)"
+    "servicesSource": "https://www.campercation.com/place/27916/aire-de-camping-car-halte-nautique-de-ravi-res",
+    "address": "10 rue du Port, 89390 Ravières (adresse d'annuaire secondaire, à vérifier)",
+    "relatedSecondarySource": "https://park4night.com/fr/place/2187"
   }
 ]
