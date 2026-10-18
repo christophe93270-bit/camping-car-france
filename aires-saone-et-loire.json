@@ -67,23 +67,29 @@
   {
     "department": "71",
     "name": "Aire de services pour camping-cars (Génelard)",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Génelard",
+    "type": "Aire de services et stationnement camping-car",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Stationnement gratuit",
+      "Vidange eaux usées et WC",
+      "Eau potable (coupée en hiver)",
+      "Branchement électrique",
+      "WC publics à proximité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit selon la fiche touristique ; eau coupée en hiver",
+    "status": "Accessible toute l'année selon Destination Saône-et-Loire, sauf eau coupée en hiver. Stationnement interdit sur les pelouses bordant le canal.",
     "source": "https://www.openstreetmap.org/node/5649863021",
     "latitude": 46.5776423,
     "longitude": 4.2351115,
     "gpsSource": "https://www.openstreetmap.org/node/5649863021",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Source touristique départementale : services gratuits, coupure eau hivernale, stationnement sur pelouses interdit. GPS OSM conservé.",
     "sourceId": "node/5649863021",
-    "servicesSource": "https://www.openstreetmap.org/node/5649863021"
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-0?checkin=&checkout=",
+    "address": "Place de la Résistance, Le Bassin, 71420 Génelard",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-0?checkin=&checkout=",
+    "priceSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-0?checkin=&checkout="
   },
   {
     "department": "71",
@@ -108,22 +114,27 @@
   {
     "department": "71",
     "name": "Aire de camping-cars Saint Sernin Du Bois",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Saint-Sernin-du-Bois",
+    "type": "Aire de services camping-car",
     "services": [
+      "Vidange eaux usées",
+      "Eau potable",
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Eau 2 € ; électricité 3 € (tarifs publiés dans une fiche mise à jour en juillet 2023, à revérifier)",
+    "status": "Accessible toute l'année selon la fiche touristique mise à jour en 2023. Stationnement nocturne non confirmé.",
     "source": "https://www.openstreetmap.org/node/11987521659",
     "latitude": 46.8467329,
     "longitude": 4.4322097,
     "gpsSource": "https://www.openstreetmap.org/node/11987521659",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Fiche tourisme départemental mise à jour le 10/07/2023 : eau 2 €, électricité 3 €, paiement par carte, vidange. Tarifs anciens à revérifier.",
     "sourceId": "node/11987521659",
-    "servicesSource": "https://www.openstreetmap.org/node/11987521659"
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-5",
+    "address": "Allée des Sapins, 71200 Saint-Sernin-du-Bois",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-5",
+    "priceSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-5"
   },
   {
     "department": "71",
@@ -809,19 +820,29 @@
   {
     "department": "71",
     "name": "Aire d'accueil des camping-cars Sainte-Croix-en-Bresse",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "city": "Sainte-Croix-en-Bresse",
+    "type": "Aire de services et stationnement camping-car",
+    "services": [
+      "Stationnement (5 emplacements)",
+      "Vidange eaux usées",
+      "Eau potable",
+      "WC publics",
+      "Poubelles",
+      "Tables et bancs"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de stationnement et services au centre du village près du Solnan ; conditions d'accès et tarifs à confirmer.",
     "source": "https://www.openstreetmap.org/way/1297180676",
     "latitude": 46.5728724,
     "longitude": 5.2465421,
     "gpsSource": "https://www.openstreetmap.org/way/1297180676",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1297180676"
+    "importReview": "Source touristique départementale : 5 emplacements, eau, vidange, toilettes, poubelles, tables. Électricité non confirmée, ne pas reprendre tag OSM sans validation.",
+    "sourceId": "way/1297180676",
+    "address": "Le Bourg, 71470 Sainte-Croix-en-Bresse",
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-les-campings-cars.html",
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-les-campings-cars.html"
   },
   {
     "department": "71",
