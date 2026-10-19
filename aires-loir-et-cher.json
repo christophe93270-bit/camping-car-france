@@ -2,11 +2,13 @@
   {
     "department": "41",
     "name": "Aire de stationnement pour camping-cars – Domaine de l’Aumonière – Cour-Cheverny",
-    "city": "Commune à confirmer",
+    "city": "Cour-Cheverny",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement (5 places), réseau France Passion"
+    ],
+    "price": "Étape France Passion gratuite jusqu'à 24 h pour les adhérents avec véhicule autonome ; accueil sous conditions, présence dans le guide 2026 à revérifier.",
+    "status": "Domaine de l'Aumonière, 20 voie de la Germonière, 41700 Cour-Cheverny. Office du tourisme : 5 places, étape de 24 h maximum, adhésion France Passion et macaron de l'année nécessaires ; aucun service technique confirmé.",
     "source": "https://www.openstreetmap.org/node/11922288632",
     "latitude": 47.5281735,
     "longitude": 1.4360708,
@@ -14,16 +16,22 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/11922288632"
+    "sourceId": "node/11922288632",
+    "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée.",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-domaine-de-laumoniere-cour-cheverny-acccen000v5000bm/"
   },
   {
     "department": "41",
     "name": "Aire de camping-cars Domaine de la Grange",
     "city": "Huisseau-sur-Cosson",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement chez viticulteur (5 à 6 places suivant les sources)",
+      "Eau potable (service payant)",
+      "Vidange eaux usées (service payant)"
+    ],
+    "price": "Stationnement gratuit 24 h sous conditions France Passion selon office de tourisme ; eau et vidange : 3 € selon site du domaine (tarifs à reconfirmer sur place).",
+    "status": "Domaine de la Grange, 41350 Huisseau-sur-Cosson. Le domaine annonce 6 places ombragées et eau/vidange à 3 €. L'office de tourisme précise adhésion France Passion et durée maximale 24 h, mais indique 5 places : divergence à vérifier.",
     "source": "https://www.openstreetmap.org/node/11922471878",
     "latitude": 47.5878931,
     "longitude": 1.460436,
@@ -31,12 +39,15 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/11922471878"
+    "sourceId": "node/11922471878",
+    "sourceOfficial": "https://www.vin-domaine-de-la-grange.com/camping-car/",
+    "priceSource": "https://www.vin-domaine-de-la-grange.com/camping-car/",
+    "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée."
   },
   {
     "department": "41",
     "name": "Aire camping-cars – Neuvy",
-    "city": "Commune à confirmer",
+    "city": "Neuvy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -48,12 +59,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/11922566373"
+    "sourceId": "node/11922566373",
+    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
   },
   {
     "department": "41",
     "name": "Aire de stationnement camping-cars Salbris",
-    "city": "Commune à confirmer",
+    "city": "Salbris",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -65,12 +77,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/11922676005"
+    "sourceId": "node/11922676005",
+    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
   },
   {
     "department": "41",
     "name": "Aire de stationnement Tour-en-Sologne",
-    "city": "Commune à confirmer",
+    "city": "Tour-en-Sologne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes",
@@ -86,12 +99,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/11922770603",
-    "servicesSource": "https://www.openstreetmap.org/node/11922770603"
+    "servicesSource": "https://www.openstreetmap.org/node/11922770603",
+    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
   },
   {
     "department": "41",
     "name": "Aire camping-cars Vernou-En-Sologne",
-    "city": "Commune à confirmer",
+    "city": "Vernou-en-Sologne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -106,7 +120,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/101809040",
-    "servicesSource": "https://www.openstreetmap.org/way/101809040"
+    "servicesSource": "https://www.openstreetmap.org/way/101809040",
+    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
   },
   {
     "department": "41",
@@ -128,7 +143,7 @@
   {
     "department": "41",
     "name": "Aire de stationnement et services - Montoire-sur-le-Loir",
-    "city": "Montoire sur le Loir",
+    "city": "Montoire-sur-le-Loir",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -147,32 +162,37 @@
   },
   {
     "department": "41",
-    "name": "Parking Camping-car Château de Chambord P3",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Parking P2 camping-cars du château de Chambord",
+    "city": "Chambord",
+    "type": "Parking pour camping-cars (sans services)",
     "services": [
-      "Électricité"
+      "Stationnement camping-car (aucun service technique)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
-    "source": "https://www.openstreetmap.org/way/550664126",
-    "latitude": 47.6191285,
-    "longitude": 1.5112279,
-    "gpsSource": "https://www.openstreetmap.org/way/550664126",
-    "dataLicense": "ODbL",
-    "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
-    "sourceId": "way/550664126",
-    "servicesSource": "https://www.openstreetmap.org/way/550664126"
+    "price": "15 € / 24 h en 2026, selon le Domaine national de Chambord.",
+    "status": "ATTENTION : la fiche d'origine désignait le P3, réservé aux voitures. Elle a été rectifiée en parking P2, seul parking dédié aux camping-cars au château, à 750 m à pied ; nuitée tolérée selon la page officielle anglaise, ce n'est pas un camping. Pas d'eau, d'électricité ni de vidange. Coordonnées P2 provenant d'un annuaire spécialisé : à recouper avec plan officiel.",
+    "source": "https://www.chambord.org/fr/preparer-ma-visite/comment-venir/",
+    "latitude": 47.61863,
+    "longitude": 1.50825,
+    "gpsSource": "https://www.camperonline.com/en/motorhome-stopovers/camper-stop/france/parking-p2-espace-campingcars/10928",
+    "importReview": "P3 corrigé en P2 : parking P3 interdit aux camping-cars ; source GPS tierce, position à contrôler.",
+    "servicesSource": "https://www.openstreetmap.org/way/550664126",
+    "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée.",
+    "sourceOfficial": "https://www.chambord.org/fr/preparer-ma-visite/horaires-et-tarifs/"
   },
   {
     "department": "41",
     "name": "Aire de stationnement Blois - Parc des expositions",
-    "city": "Commune à confirmer",
+    "city": "Blois",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement (20 places)",
+      "Eau (2 €)",
+      "Vidange eaux usées",
+      "Wifi gratuit",
+      "Vidéosurveillance"
+    ],
+    "price": "2 € jusqu'à 2 h ; 5 € jusqu'à 12 h ; 8 € jusqu'à 24 h (dont taxe de séjour 0,44 €), selon l'office de tourisme ; eau 2 €.",
+    "status": "Parc des expositions de Blois. 20 places, accès sécurisé, barrière et interphone, sans électricité. Tarifs et modalités indiqués par l'office de tourisme ; reconfirmation en cas de changement 2026.",
     "source": "https://www.openstreetmap.org/way/609006607",
     "latitude": 47.578536,
     "longitude": 1.3445708,
@@ -180,16 +200,20 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/609006607"
+    "sourceId": "way/609006607",
+    "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée.",
+    "sourceOfficial": "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-blois-parc-des-expositions-blois-fr-2075225/"
   },
   {
     "department": "41",
     "name": "Aire de service pour camping-car de Saint-Dyé-sur-Loire",
-    "city": "Commune à confirmer",
+    "city": "Saint-Dyé-sur-Loire",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (4 places selon office de tourisme)"
+    ],
+    "price": "Stationnement gratuit selon la mairie de Saint-Dyé-sur-Loire ; coûts éventuels de services à confirmer.",
+    "status": "Parking de la base nautique, bords de Loire, Saint-Dyé-sur-Loire. Aire de stationnement gratuite confirmée par la mairie, 4 emplacements indiqués par Blois-Chambord Tourisme ; ouverture annoncée toute l'année 2026.",
     "source": "https://www.openstreetmap.org/way/635395225",
     "latitude": 47.6544932,
     "longitude": 1.4782524,
@@ -197,18 +221,24 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/635395225"
+    "sourceId": "way/635395225",
+    "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée.",
+    "sourceOfficial": "https://www.saint-dye-sur-loire.fr/histoire-patrimoine-tourisme/accueil-camping-cars-et-velos/emplacement-autorise-et-gratuit-bornes-recharge-velo/"
   },
   {
     "department": "41",
-    "name": "Aire camping-car des Montils",
-    "city": "Commune à confirmer",
+    "name": "Aire CAMPING-CAR PARK des Montils, Châteaux de la Loire",
+    "city": "Les Montils",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (45 places)",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "13,70 € / 24 h hors taxe de séjour, + 1,22 € de taxe de séjour en 2026 (soit 14,92 € selon barème), tarif susceptible de changer ; 5 h + services : 6 €.",
+    "status": "Route de Seur, 41120 Les Montils. 45 emplacements sur l'ancien camping communal, à 500 m du bourg ; tarifs 2026 fournis par l'exploitant CAMPING-CAR PARK.",
     "source": "https://www.openstreetmap.org/way/779271113",
     "latitude": 47.4939678,
     "longitude": 1.3055114,
@@ -217,7 +247,9 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/779271113",
-    "servicesSource": "https://www.openstreetmap.org/way/779271113"
+    "servicesSource": "https://www.openstreetmap.org/way/779271113",
+    "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/les-montils?areaType=aire-etape-camping-car"
   },
   {
     "department": "41",
@@ -239,13 +271,14 @@
   {
     "department": "41",
     "name": "Camping-Car Park Pontlevoy",
-    "city": "Commune à confirmer",
+    "city": "Pontlevoy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (20 places)",
+      "Services inclus selon conditions de l'exploitant"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12,73 € / 24 h hors taxe de séjour, + 1,22 € de taxe de séjour en 2026 (soit 13,95 € selon barème) ; l'affichage ponctuel peut différer. 5 h + services : 6 €.",
+    "status": "CAMPING-CAR PARK, 38 rue du Petit Bois, 41400 Pontlevoy. 20 places près de l'abbaye ; tarif selon barème saisonnier de l'exploitant (octobre 2026), à revérifier lors du paiement.",
     "source": "https://www.openstreetmap.org/way/984574970",
     "latitude": 47.3868445,
     "longitude": 1.2595745,
@@ -254,12 +287,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/984574970",
-    "servicesSource": "https://www.openstreetmap.org/way/984574970"
+    "servicesSource": "https://www.openstreetmap.org/way/984574970",
+    "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/pontlevoy?areaType=aire-etape-camping-car"
   },
   {
     "department": "41",
     "name": "Aire de services pour camping-car Lamotte-Beuvron",
-    "city": "Commune à confirmer",
+    "city": "Lamotte-Beuvron",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -271,18 +306,20 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1232424286"
+    "sourceId": "way/1232424286",
+    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
   },
   {
     "department": "41",
-    "name": "Aire de Camping-Car \"Le Cosson\"",
-    "city": "Commune à confirmer",
+    "name": "Aire CAMPING-CAR PARK de Chailles – Le Cosson",
+    "city": "Chailles",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (20 places)",
+      "Services selon conditions CAMPING-CAR PARK"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12,73 € / 24 h hors taxe de séjour, + 1,22 € taxe de séjour en 2026 (13,95 € selon barème), 5 h + services : 6 € ; prix variable.",
+    "status": "384 Le Carroir, 41120 Chailles. Aire de 20 places en bordure du Cosson ; zone couverte par un plan de prévention des risques d'inondation. Coordonnées initiales OSM voisines de celles de l'exploitant ; tarif 2026 indiqué sur son site.",
     "source": "https://www.openstreetmap.org/way/1282029842",
     "latitude": 47.5437622,
     "longitude": 1.3111249,
@@ -291,12 +328,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1282029842",
-    "servicesSource": "https://www.openstreetmap.org/way/1282029842"
+    "servicesSource": "https://www.openstreetmap.org/way/1282029842",
+    "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/chailles?areaType=stellplatze-wohnmobilstellplatz"
   },
   {
     "department": "41",
     "name": "Aire de stationnement pour camping-cars - Cheverny",
-    "city": "Commune à confirmer",
+    "city": "Cheverny",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -308,12 +347,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1285203608"
+    "sourceId": "way/1285203608",
+    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
   },
   {
     "department": "41",
     "name": "Aire Camping-cars Bauzy - Étang",
-    "city": "Commune à confirmer",
+    "city": "Bauzy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Toilettes"
@@ -328,12 +368,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1285209146",
-    "servicesSource": "https://www.openstreetmap.org/way/1285209146"
+    "servicesSource": "https://www.openstreetmap.org/way/1285209146",
+    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
   },
   {
     "department": "41",
     "name": "Aire camping-cars Domaine de la Doltière - Chateauvieux",
-    "city": "Commune à confirmer",
+    "city": "Châteauvieux",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -348,18 +389,22 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1285210622",
-    "servicesSource": "https://www.openstreetmap.org/way/1285210622"
+    "servicesSource": "https://www.openstreetmap.org/way/1285210622",
+    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
   },
   {
     "department": "41",
-    "name": "Aire camping-cars - Langon",
-    "city": "Commune à confirmer",
+    "name": "Aire camping-cars du canal – Langon-sur-Cher",
+    "city": "Langon-sur-Cher",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (10 places)",
+      "Eau potable (borne à jetons)",
+      "Électricité (borne à jetons)",
+      "Vidange eaux usées (hors gel)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit (10 places) ; eau, vidange et électricité accessibles avec jetons payants, prix des jetons à vérifier.",
+    "status": "Langon-sur-Cher, aire du canal. 10 places gratuites ; services Euro Relais par jetons vendus au bureau de tabac de Langon et à Mennetou-sur-Cher. Borne indisponible en période de gel.",
     "source": "https://www.openstreetmap.org/way/1285219142",
     "latitude": 47.282939,
     "longitude": 1.8273454,
@@ -368,12 +413,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1285219142",
-    "servicesSource": "https://www.openstreetmap.org/way/1285219142"
+    "servicesSource": "https://www.openstreetmap.org/way/1285219142",
+    "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée.",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-camping-cars-du-canal-acccen000v5000bz/"
   },
   {
     "department": "41",
     "name": "Aire de camping-cars – Saint-Georges-sur-Cher",
-    "city": "Commune à confirmer",
+    "city": "Saint-Georges-sur-Cher",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -388,16 +435,24 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1285560337",
-    "servicesSource": "https://www.openstreetmap.org/way/1285560337"
+    "servicesSource": "https://www.openstreetmap.org/way/1285560337",
+    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
   },
   {
     "department": "41",
     "name": "Aire Camping car La Ferté Beauharnais",
-    "city": "Commune à confirmer",
+    "city": "La Ferté-Beauharnais",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement près de l'étang",
+      "Eau (jetons, hors gel)",
+      "Électricité (jetons, hors gel)",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Sanitaires"
+    ],
+    "price": "Stationnement gratuit selon guide spécialisé (à confirmer auprès de la mairie) ; eau, électricité et vidange accessibles par jetons payants, coût à confirmer.",
+    "status": "Route de Chaumont-sur-Tharonne, La Ferté-Beauharnais, près de l'étang communal. L'office de tourisme confirme environ 40 emplacements et des bornes de service à jetons vendus en mairie ou dans les commerces ; prix du jeton non publié.",
     "source": "https://www.openstreetmap.org/way/1293045443",
     "latitude": 47.5449634,
     "longitude": 1.8491185,
@@ -405,12 +460,14 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1293045443"
+    "sourceId": "way/1293045443",
+    "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée.",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-et-de-services-pour-camping-cars-la-ferte-beauharnais-acccen00000037/"
   },
   {
     "department": "41",
     "name": "Aire de camping-car Angé",
-    "city": "Commune à confirmer",
+    "city": "Angé",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -422,18 +479,23 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1296647776"
+    "sourceId": "way/1296647776",
+    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
   },
   {
     "department": "41",
     "name": "Aire communale de services camping-cars – Mennetou-sur-Cher",
-    "city": "Commune à confirmer",
+    "city": "Mennetou-sur-Cher",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau potable (jetons)",
+      "Électricité (jetons)",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Stationnement nocturne"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement autorisé ; tarif du stationnement non publié. Services eau et électricité par jetons payants, montant non confirmé.",
+    "status": "Place du 11 Novembre, 41320 Mennetou-sur-Cher. Aire de services Euro Relais, eau et électricité par jetons vendus en mairie, à l'office de tourisme ou chez les commerçants ; borne indisponible en période de gel.",
     "source": "https://www.openstreetmap.org/way/1315193175",
     "latitude": 47.2682877,
     "longitude": 1.8644059,
@@ -442,6 +504,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1315193175",
-    "servicesSource": "https://www.openstreetmap.org/way/1315193175"
+    "servicesSource": "https://www.openstreetmap.org/way/1315193175",
+    "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée.",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-services-camping-cars-acccen00000029/"
   }
 ]
