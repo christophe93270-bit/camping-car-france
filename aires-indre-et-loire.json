@@ -135,7 +135,8 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/253659162",
     "servicesSource": "https://www.openstreetmap.org/way/253659162",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "verificationNote": "Attention : l'aire de services du camping RD 751 est gratuite uniquement pour les clients du camping (source office de tourisme), et ne confirme pas le point OSM nommé Paul Destruel. Identification et tarifs de Paul Destruel toujours à vérifier."
   },
   {
     "department": "37",
@@ -593,7 +594,7 @@
       "Électricité"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire signalée par une source indépendante ; validation officielle et tarifaire en attente",
     "source": "https://www.openstreetmap.org/way/1298677231",
     "latitude": 47.4263946,
     "longitude": 0.9819852,
@@ -603,7 +604,10 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1298677231",
     "servicesSource": "https://www.openstreetmap.org/way/1298677231",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "address": "21 Route de la Gare, 37530 Pocé-sur-Cisse (adresse signalée, à confirmer)",
+    "sourceSecondary": "https://www.lecampeur.fr/aire/aire-de-campings-cars-poce-sur-cisse-ph7k7h",
+    "verificationNote": "Source indépendante Le Campeur (mise à jour juin 2026) : 4 places près d'Intermarché, stationnement annoncé gratuit, services signalés à 2 € / 20 min. Ni l'adresse précise, ni les tarifs, ni le point OSM n'ont été confirmés par la mairie ou l'exploitant."
   },
   {
     "department": "37",
