@@ -564,16 +564,16 @@
   },
   {
     "department": "42",
-    "name": "Aire de camping car Chalmazel - Jeansagnière",
+    "name": "Aire intercommunale du Bourg – Pont Ouest à Chalmazel",
     "city": "Chalmazel-Jeansagnière",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire intercommunale de stationnement et services",
     "services": [
       "Électricité",
       "Eau et électricité (jeton à 5 €)",
       "Vidange eaux usées et WC chimiques"
     ],
     "price": "Stationnement gratuit ; jeton de services à 5 € (4 h d'électricité, 20 minutes d'eau et de vidange), barème publié par Loire Forez Agglomération pour ses aires. Vérifier les modalités de paiement à la borne.",
-    "status": "Réseau des cinq aires gérées par Loire Forez Agglomération : Chalmazel-Jeansagnière. Stationnement gratuit ; services par jeton de 5 € selon l'exploitant. Le règlement et la disponibilité des bornes sont à consulter sur place. Le Bourg, Pont Ouest, huit places ; ne pas confondre avec l'aire payante de la station de ski.",
+    "status": "Aire intercommunale gratuite du Bourg / Le Pont Ouest, 8 places, 7 nuits consécutives maximum, jetons de services à 5 € selon Loire Forez Agglomération. Distincte de l'aire payante « Les Granges », au pied de la station de ski à environ 3,4 km. Ne pas utiliser le GPS erroné de certains annuaires qui mettent les deux points au même endroit.",
     "source": "https://www.openstreetmap.org/way/1306148909",
     "latitude": 45.7026362,
     "longitude": 3.8533513,
@@ -585,7 +585,7 @@
     "servicesSource": "https://www.openstreetmap.org/way/1306148909",
     "cityVerificationNote": "Commune et gestion par Loire Forez confirmées par l'exploitant public.",
     "priceSource": "https://www.loireforez.fr/services-au-quotidien/tourisme/aires-de-camping-car/",
-    "sourceOfficial": "https://www.loireforez.fr/services-au-quotidien/tourisme/aires-de-camping-car/"
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-camping-car-village-chalmazel-fr-3355738/"
   },
   {
     "department": "42",
@@ -941,7 +941,7 @@
       "Wifi",
       "Sanitaires ouverts en saison"
     ],
-    "price": "Tarif saisonnier 2026 de 12 à 14 € l'emplacement avec services selon Loire Tourisme, avec taxe de séjour annoncée à 0,35 € par nuit sur sa fiche. ATTENTION : CAMPING-CAR PARK affiche des tarifs TTC actualisés pouvant dépasser cette fourchette ; consulter le prix final de l'exploitant pour les dates du séjour.",
+    "price": "Prix affiché par CAMPING-CAR PARK lors de la consultation d'octobre 2026 : 15,80 € pour 24 h, dont 1,00 € de taxe de séjour. Tarif dynamique susceptible de varier selon la date et la saison : vérifier le montant au moment de réserver.",
     "status": "611 route de la Berchère, 42780 Violay. Aire PREMIUM de 20 places ouverte toute l'année, 24 h/24, confirmée par la mairie et l'exploitant. Sanitaires annoncés ouverts du 1er avril au 15 novembre 2026. Tarifs variables et taxes parfois différents selon les sites ; faire foi au tarif final publié par CAMPING-CAR PARK.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/loire/violay",
     "sourceOfficial": "https://violay.fr/camping-car-park/",
@@ -1740,5 +1740,71 @@
     "gpsSource": "https://www.pincamp.fr/campings/camping-le-soleillant",
     "importReview": "Office de tourisme : 5 places camping-car et 10-12 €/personne/nuit (2026) ; variations d'horaires signalées ; GPS PiNCAMP recoupé par Cirkwi.",
     "cityVerificationNote": "Nom, lieu-dit et commune confirmés par Loire Tourisme ; coordonnées camping fournies par ADAC/PiNCAMP."
+  },
+  {
+    "department": "42",
+    "name": "Aire des Granges – station de ski de Chalmazel",
+    "city": "Chalmazel-Jeansagnière",
+    "type": "Aire payante de stationnement et de services pour camping-cars",
+    "services": [
+      "Stationnement (8 places) avec digicode et réservation",
+      "Eau potable et vidanges",
+      "Électricité incluse dans le forfait 24h",
+      "Services sans nuitée possibles"
+    ],
+    "price": "Tarif officiel 2026 : 14 € pour 24 h avec eau, vidange et électricité ; 3 € pour eau et vidange seules sans stationnement. Taxe de séjour non comprise. Réservation demandée par Loire Tourisme.",
+    "status": "5896 route des Pistes, Bois de Couzan Est, au pied de la station de ski de Chalmazel, 42920 Chalmazel-Jeansagnière. Aire de 8 places, barrière à digicode, ouverte toute l'année 2026 sur réservation, sauf exception signalée par l'office. GPS de repérage terrain 45.67770, 3.82575, près de la station de ski ; emplacement précis de la barrière à vérifier à l'arrivée. Attention : distincte de l'aire intercommunale GRATUITE du Bourg/Pont Ouest, située à environ 3,4 km. Camping-car.com reprend pour les deux lieux le même GPS du village : erreur de géolocalisation dans cet annuaire, ne pas la reproduire.",
+    "source": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-camping-car-les-granges-chalmazel-fr-3351150/",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-camping-car-les-granges-chalmazel-fr-3351150/",
+    "priceSource": "https://www.rendezvousenforez.com/hotellerie-plein-air/aire-de-service-et-de-stationnement-camping-car-les-granges-chalmazel-jeansagniere/",
+    "latitude": 45.6777,
+    "longitude": 3.82575,
+    "gpsSource": "https://www.aire-service-camping-car-panoramique.fr/loire/42-chalmazel-station",
+    "importReview": "Site et tarifs officiels 2026, point GPS de terrain à l'entrée de station. Distinct de l'aire du Bourg malgré GPS erroné dans un annuaire.",
+    "cityVerificationNote": "Commune Chalmazel-Jeansagnière, au pied des pistes, altitude 1135 m, adresse confirmées par Loire Tourisme ; GPS de repérage terrain corroboré par station de ski."
+  },
+  {
+    "department": "42",
+    "name": "Camping municipal Les Vernières – Saint-Thurin",
+    "city": "Vêtre-sur-Anzon",
+    "type": "Camping municipal saisonnier avec services camping-car",
+    "services": [
+      "Camping-car accepté sur les 20 emplacements du camping",
+      "Une borne artisanale de services et vidange sur le terrain",
+      "8 raccordements eau et 8 électriques",
+      "Sanitaires du camping, douche payante"
+    ],
+    "price": "Barème 2026 officiel : camping-car 2,50 € par jour ; adulte 2 € par jour ; emplacement 1,50 € par jour ; électricité 2,50 € par jour ; douche 1,50 € ; taxe de séjour 0,20 € par adulte. Les différents postes se cumulent selon composition du séjour ; ne pas interpréter les 2,50 € comme prix complet de la nuit.",
+    "status": "Les Vernières, village de Saint-Thurin (ancienne commune), 42440 Vêtre-sur-Anzon. Camping municipal de 20 emplacements au bord de l'Anzon, ouvert du 1er mai au 30 septembre 2026 ; fermé le 19 octobre 2026. La fiche Camping-car.com appelle cet établissement « CAMPING ESSI », mais les coordonnées 45.8179278, 3.8695786 et l'adresse Les Vernières concordent : il s'agit du même camping, PAS de deux lieux distincts. Une nuit minimum selon guide spécialisé.",
+    "source": "https://www.loiretourisme.com/hebergements/camping/camping-municipal-les-vernieres-vetre-sur-anzon-fr-4233676/",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/camping-municipal-les-vernieres-vetre-sur-anzon-fr-4233676/",
+    "priceSource": "https://www.rendezvousenforez.com/hotellerie-plein-air/camping-municipal-les-vernieres-vetre-sur-anzon/",
+    "latitude": 45.8179278,
+    "longitude": 3.8695786,
+    "gpsSource": "https://www.camping-car.com/aires/2030-camping-essi/",
+    "importReview": "Camping, dates et prix 2026 vérifiés chez Loire Tourisme et Rendez-vous en Forez ; GPS confirmé indépendamment par deux guides ; alias CAMPING ESSI dédoublonné",
+    "cityVerificationNote": "La commune officielle depuis la fusion est Vêtre-sur-Anzon ; Saint-Thurin est le village, Les Vernières le lieu-dit."
+  },
+  {
+    "department": "42",
+    "name": "Station de services camping-car de Saint-Priest-en-Jarez – Ratarieux",
+    "city": "Saint-Priest-en-Jarez",
+    "type": "Point de services en station-service (nuitée non attestée)",
+    "services": [
+      "Vidange eaux usées selon inventaire de la station Intermarché",
+      "Ancienne borne Flot Bleu pour eau et vidange (existence actuelle à vérifier)",
+      "Station-service ouverte 24 h/24, disponibilité des équipements camping-car non garantie",
+      "Stationnement de nuit non confirmé"
+    ],
+    "price": "Aucun tarif actuel officiel de services camping-car publié pour octobre 2026. Un relevé de visite ancien indique 2 € par carte bancaire pour la borne Flot Bleu ; tarif et fonctionnement actuels à vérifier en station.",
+    "status": "Secteur Ratarieux, autour de l'avenue Pierre-Mendès-France et de l'avenue Albert-Raimond, 42270 Saint-Priest-en-Jarez. Une borne Flot Bleu a été photographiée dans l'ancienne station Casino ; la station actuelle Intermarché Ratarieux figure encore avec le service « aire de camping-car » dans les relevés de carburants d'octobre 2026, mais le remplacement de l'enseigne rend son fonctionnement effectif incertain. GPS 45.47875, 4.35856 relevé pour l'ancienne borne : repérage APPROXIMATIF, accès précis à valider. Point de vidange et non aire de nuit.",
+    "source": "https://www.aire-service-camping-car-panoramique.fr/loire/42-saint-priest-en-jarez",
+    "sourceOfficial": "https://carbu.com/france/index.php/station/casino/saint-priest-en-jarez/42270/7999",
+    "priceSource": "https://www.aire-service-camping-car-panoramique.fr/loire/42-saint-priest-en-jarez",
+    "latitude": 45.47875,
+    "longitude": 4.35856,
+    "gpsSource": "https://www.aire-service-camping-car-panoramique.fr/loire/42-saint-priest-en-jarez",
+    "importReview": "Service commercial toujours répertorié en octobre 2026, ancienne borne et tarif 2 € non revalidés sur place. Ne pas garantir fonctionnement actuel.",
+    "cityVerificationNote": "Saint-Priest-en-Jarez et quartier Ratarieux confirmés par la fiche 2026 de station, GPS provenant du relevé historique Flot Bleu."
   }
 ]
