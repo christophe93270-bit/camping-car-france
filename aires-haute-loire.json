@@ -1,21 +1,28 @@
 [
   {
     "department": "43",
-    "name": "Aire Camping-car Ally",
+    "name": "Aire communale de camping-cars d'Ally – Champ Petiot",
     "city": "Ally",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire communale de stationnement et de services camping-car",
+    "services": [
+      "Stationnement gratuit (capacité approximative : 3 à 5 places selon les répertoires)",
+      "Borne d'eau potable",
+      "Vidange eaux usées et cassette WC",
+      "Branchement électrique payant"
+    ],
+    "price": "Stationnement gratuit selon deux répertoires spécialisés. Services et électricité payants ; montant 2026 non confirmé (2 € indiqué par i-Camping Car en octobre 2026, contre 3 € pour les services dans un ancien relevé). Vérifier le tarif sur la borne.",
+    "status": "Champ Petiot, D22, 43380 Ally, près de la salle polyvalente. Stationnement possible sur le parking communal avec borne Euro-Relais. Période de fonctionnement des services incertaine : une source historique annonce du 1er avril au 1er novembre, tandis qu'un autre répertoire mentionne des limitations saisonnières. Vérifier sur place.",
     "source": "https://www.openstreetmap.org/node/8898564107",
     "latitude": 45.1611113,
     "longitude": 3.3133435,
     "gpsSource": "https://www.openstreetmap.org/node/8898564107",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Existence, localisation et équipements recoupés le 19 octobre 2026 dans deux répertoires indépendants ; aucune confirmation municipale des tarifs 2026 et de l'ouverture hivernale.",
     "sourceId": "node/8898564107",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire OpenStreetMap ; vérification cartographique/locale en cours."
+    "cityVerificationNote": "Ally (43380), lieu-dit Champ Petiot, concordance géographique avec les répertoires spécialisés.",
+    "servicesSource": "https://www.aire-service-camping-car-panoramique.fr/haute-loire/43-ally",
+    "priceSource": "https://www.i-campingcar.fr/aires/pdf/43.pdf"
   },
   {
     "department": "43",
@@ -227,21 +234,30 @@
   },
   {
     "department": "43",
-    "name": "Aire camping-car Tiranges",
+    "name": "Aire communale de services et stationnement – Tiranges",
     "city": "Tiranges",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire communale de stationnement et de services camping-car",
+    "services": [
+      "Stationnement camping-car autorisé",
+      "Borne de services",
+      "Eau potable (avril à novembre)",
+      "Vidange eaux grises",
+      "Vidange eaux noires"
+    ],
+    "price": "Tarif de stationnement et de services 2026 non publié sur la fiche de l'office de tourisme. Un répertoire ancien mentionne une borne à monnayeur, sans tarif à jour : vérifier sur place.",
+    "status": "La Nerceyre, près de la salle polyvalente et de la caserne des pompiers, 43530 Tiranges. Aire et stationnement ouverts toute l'année selon l'office de tourisme ; alimentation en eau annoncée d'avril à novembre. Bornes de vidange et parking confirmés.",
     "source": "https://www.openstreetmap.org/way/590793144",
     "latitude": 45.3073077,
     "longitude": 3.9909795,
     "gpsSource": "https://www.openstreetmap.org/way/590793144",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Localisation, eau, vidanges et ouverture recoupées avec l'office de tourisme Gorges de la Loire (fiche 2026), le 19 octobre 2026. Barème à confirmer sur place.",
     "sourceId": "way/590793144",
-    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire OpenStreetMap ; vérification cartographique/locale en cours."
+    "cityVerificationNote": "Localisation La Nerceyre à Tiranges (43530) confirmée par l'office de tourisme.",
+    "sourceOfficial": "https://www.gorgesdelaloire.fr/camping/aire-de-service-pour-camping-car-3/",
+    "servicesSource": "https://www.gorgesdelaloire.fr/camping/aire-de-service-pour-camping-car-3/",
+    "priceSource": "https://www.gorgesdelaloire.fr/camping/aire-de-service-pour-camping-car-3/"
   },
   {
     "department": "43",
