@@ -469,17 +469,17 @@
   },
   {
     "department": "38",
-    "name": "Aire Municipale Le Cheylas",
+    "name": "Aire de services camping-cars – Rue du Stade, Le Cheylas",
     "city": "Le Cheylas",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de services camping-cars (stationnement à confirmer)",
     "services": [
-      "Stationnement gratuit signalé",
-      "Vidange eaux grises gratuite signalée",
-      "Vidange eaux noires gratuite signalée",
-      "Électricité indisponible selon annuaire"
+      "Vidange eaux grises gratuite (signalée)",
+      "Vidange eaux noires gratuite (signalée)",
+      "Eau potable signalée par annuaire spécialisé, fonctionnement à confirmer",
+      "Pas de branchement électrique signalé"
     ],
-    "price": "Stationnement gratuit et vidange eaux grises/noires gratuite selon annuaires et signalement de septembre 2026 ; confirmation municipale à obtenir",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Vidanges eaux grises et noires gratuites selon signalement du 20/09/2026 ; stationnement gratuit signalé à proximité, autorisation de nuit à confirmer",
+    "status": "Services signalés par sources communautaires ; stationnement de nuit et tarifs officiels non confirmés",
     "source": "https://www.openstreetmap.org/way/441803370",
     "latitude": 45.3718604,
     "longitude": 5.9900526,
@@ -491,7 +491,8 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://park4night.com/fr/place/722471",
     "priceVerifiedOn": "2026-10-17",
-    "verificationNote": "Rue du Stade, 38570 Le Cheylas. Deux sources indépendantes (i-CampingCar et Park4night, septembre 2026) décrivent la gratuité du stationnement et de la vidange. Source municipale directe non trouvée : conserver comme information communautaire non officiellement confirmée."
+    "verificationNote": "Park4night #722471 classe explicitement ce lieu comme « aire de services sans stationnement » (création 20/09/2026), tout en décrivant un grand espace de stationnement gratuit à proximité. i-CampingCar liste 4 places, eau et vidanges gratuites mais signale une incohérence sur ouverture toute l'année. La mairie confirme l'existence de l'ensemble sportif rue du Stade, mais pas le statut de l'aire camping-car ni les nuitées. Ne pas présenter comme aire de nuit officiellement autorisée.",
+    "servicesSource": "https://www.i-campingcar.fr/aires/pdf/38.pdf"
   },
   {
     "department": "38",
