@@ -97,8 +97,8 @@
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Forfait 2026 emplacement et 2 adultes : 15 € hors juillet-août ; 24 € du 1er juillet au 31 août ; électricité +6 € ; taxe de séjour à confirmer",
+    "status": "Camping La Roseraie ouvert du 13 mai au 13 septembre 2026 ; aire de services dans l'enceinte du camping",
     "source": "https://www.openstreetmap.org/node/12202114284",
     "latitude": 46.968091,
     "longitude": 0.6968701,
@@ -108,7 +108,12 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12202114284",
     "servicesSource": "https://www.openstreetmap.org/node/12202114284",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "address": "Allée Léo Lagrange, 37160 Descartes",
+    "sourceOfficial": "https://www.camping-descartes.fr/emplacements/",
+    "priceSource": "https://www.camping-descartes.fr/emplacements/",
+    "priceVerifiedOn": "2026-10-19",
+    "verificationNote": "Tarif du camping pour emplacement, équipement et 2 adultes, non tarif d'une aire autonome. Services vidange et remplissage confirmés par l'exploitant."
   },
   {
     "department": "37",
@@ -164,9 +169,14 @@
     "name": "Aire Camping-Car Gizeux",
     "city": "Gizeux",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Stationnement de nuit"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de services et stationnement nocturne confirmés par Touraine Val de Loire ; tarif à confirmer",
     "source": "https://www.openstreetmap.org/way/318654213",
     "latitude": 47.3927716,
     "longitude": 0.197144,
@@ -174,7 +184,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/318654213"
+    "sourceId": "way/318654213",
+    "address": "Place de la Mairie, 37340 Gizeux",
+    "sourceOfficial": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-services-de-gizeux-gizeux-fr-5152792/",
+    "verificationNote": "Source touristique confirme les équipements et le stationnement nocturne ; prix non communiqué."
   },
   {
     "department": "37",
