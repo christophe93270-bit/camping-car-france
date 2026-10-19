@@ -429,20 +429,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping cars de Pont-Château",
+    "name": "Aire communale de l'allée du Brivet – Pontchâteau",
     "city": "Pontchâteau",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire communale de stationnement gratuit et borne d'eau payante",
+    "services": [
+      "Parking camping-car gratuit, 48 h maximum",
+      "Vidange eaux grises et noires",
+      "Eau potable à borne avec système Qipéo annoncé",
+      "Commerces et rivière du Brivet à proximité"
+    ],
+    "price": "Stationnement gratuit limité à 48 heures. Eau : facturation annoncée à 2,50 € par 100 L à compter de la mise en service du système Qipéo ; vérifier si la facturation est active sur place.",
+    "status": "Allée du Brivet, 44160 Pontchâteau. Aire ouverte toute l'année, mais fermeture possible autour du week-end de Pâques (fête foraine) et lors d'autres manifestations. Nuitées limitées à 48 heures.",
     "source": "https://www.openstreetmap.org/way/909637849",
     "latitude": 47.4402738,
     "longitude": -2.0901711,
     "gpsSource": "https://www.openstreetmap.org/way/909637849",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/909637849"
+    "importReview": "Même lieu que ACCAMEAIREDECAMPINGCARPONTCHATEAU. Source régionale recoupée, géolocalisation et crédit OSM conservés.",
+    "sourceId": "way/909637849",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau",
+    "priceSource": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau",
+    "duplicateOfSourceId": "ACCAMEAIREDECAMPINGCARPONTCHATEAU"
   },
   {
     "department": "44",
@@ -772,5 +781,27 @@
     "latitude": 47.46965,
     "longitude": -1.76195,
     "importReview": "Fiche opérateur CAMPING-CAR PARK vérifiée le 19 octobre 2026 ; emplacement absent des fichiers OSM et régional à cette date. Pas de données OSM revendiquées."
+  },
+  {
+    "department": "44",
+    "city": "Pornic",
+    "name": "CAMPING-CAR PARK Pornic – Bienvenue au siège",
+    "type": "Aire privée payante CAMPING-CAR PARK, uniquement sur réservation",
+    "services": [
+      "6 emplacements camping-car stabilisés, électricité 6 A",
+      "2 emplacements distincts pour remorques",
+      "Réservation préalable obligatoire",
+      "Pas de sanitaires annoncés sur l'aire"
+    ],
+    "price": "Tarif de base du 1er octobre 2026 au 31 décembre 2027 : 12,73 € par 24 h, taxe de séjour de 1,32 € en 2026 en sus, soit 14,05 € indicatifs ; tarif final variable affiché à la réservation. Forfait 5 h + services : 6 €.",
+    "status": "5 rue du Docteur-Ange-Guépin, 44210 Pornic. Aire au siège social de CAMPING-CAR PARK. Accueil surtout le week-end (horaires selon calendrier de réservation), réservation impérative. À ne pas confondre avec la borne de services du Val Saint-Martin.",
+    "latitude": 47.1098,
+    "longitude": -2.066734,
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic?areaType=aire-etape-camping-car",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic?areaType=aire-etape-camping-car",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic?areaType=aire-etape-camping-car",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic?areaType=aire-etape-camping-car",
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic?areaType=aire-etape-camping-car",
+    "importReview": "Source exploitant consultée le 19 octobre 2026 : 6 places, tarif de base, localisation et réservation obligatoires. Les disponibilités et horaires exacts nécessitent la réservation."
   }
 ]
