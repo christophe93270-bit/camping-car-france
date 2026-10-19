@@ -491,25 +491,31 @@
   },
   {
     "department": "44",
-    "name": "Aire Camping Car Le Welcome Frossay",
+    "name": "Accueil camping-car Le Welcome – La Morandais, Frossay",
     "city": "Frossay",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Accueil camping-car privé payant chez l'habitant",
     "services": [
-      "Douches",
-      "Toilettes",
-      "Électricité"
+      "4 emplacements aménagés, accueil toute l'année",
+      "Salle commune avec évier et barbecue",
+      "Douches et WC accessibles selon forfait",
+      "Électricité 2 € en supplément",
+      "Remplissage en eau 2 €",
+      "Aucune vidange possible sur place"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Forfait d'accueil : 10 € par nuitée/journée ; branchement électrique : +2 € ; remplissage d'eau : +2 €. Pas de vidange. Tarifs affichés par Saint-Brevin Tourisme en octobre 2026, à vérifier avant séjour.",
+    "status": "La Morandais, 44320 Frossay. Aire privée « Le Welcome », 4 emplacements. Accueil toute l'année, salle commune et sanitaires selon conditions ; ne pas présenter comme une aire technique avec vidange.",
     "source": "https://www.openstreetmap.org/way/1232804505",
     "latitude": 47.2437115,
     "longitude": -1.954456,
     "gpsSource": "https://www.openstreetmap.org/way/1232804505",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Site correspondant à l'enregistrement régional ACCAMEAIRECAMPINGCARWELCOMFROSSAY. Prix et services vérifiés avec l'office. GPS et licence OSM d'origine préservés.",
     "sourceId": "way/1232804505",
-    "servicesSource": "https://www.openstreetmap.org/way/1232804505"
+    "servicesSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
+    "sourceOfficial": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
+    "priceSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
+    "duplicateOfSourceId": "ACCAMEAIRECAMPINGCARWELCOMFROSSAY"
   },
   {
     "department": "44",
@@ -538,20 +544,30 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping cars de Guenrouet",
+    "name": "Aire communale du port – Guenrouët",
     "city": "Guenrouët",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Parking gratuit et borne de services payante",
+    "services": [
+      "Environ 2 places camping-car gratuites selon l'office",
+      "Eau potable : remplissage temporisé 10 min",
+      "Vidange cassette WC",
+      "Prise électrique 220 V : accès temporisé 120 min",
+      "Monnayeur, environ 2 € pour les services"
+    ],
+    "price": "Stationnement gratuit. Services d'eau / électricité par borne à monnaie : 2 € mentionnés par Loire-Atlantique Tourisme ; fonctionnement actuel à vérifier à l'automate.",
+    "status": "Rue des Hauts-du-Port, 44530 Guenrouët, proche du canal de Nantes à Brest, commerces à environ 650 m. Distinguer les deux places approximatives de l'accès aux services.",
     "source": "https://www.openstreetmap.org/way/1280869944",
     "latitude": 47.5219653,
     "longitude": -1.9498322,
     "gpsSource": "https://www.openstreetmap.org/way/1280869944",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1280869944"
+    "importReview": "Site correspondant à l'enregistrement régional ACCAMEGUENROUET. Prix et services vérifiés avec l'office. GPS et licence OSM d'origine préservés.",
+    "sourceId": "way/1280869944",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
+    "duplicateOfSourceId": "ACCAMEGUENROUET"
   },
   {
     "department": "44",
