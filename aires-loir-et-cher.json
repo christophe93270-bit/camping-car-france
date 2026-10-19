@@ -145,9 +145,11 @@
     "name": "Aire de repos camping-car Montoire-sur-le-Loir",
     "city": "Montoire-sur-le-Loir",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement (8 places selon Vendôme Tourisme)"
+    ],
+    "price": "Stationnement gratuit selon annuaire tiers ; tarif et conditions 2026 non confirmés par l'office de tourisme.",
+    "status": "Boulevard des Alliés, 41800 Montoire-sur-le-Loir, au bord du Loir, à 150 m du centre. Vendôme Tourisme décrit 8 emplacements (fiche datée 2020). Aire distincte du CAMPING-CAR PARK des Reclusages plus au sud et de la gare historique au nord ; tarif actuel à vérifier.",
     "source": "https://www.openstreetmap.org/way/361417455",
     "latitude": 47.7500283,
     "longitude": 0.8634125,
@@ -155,7 +157,9 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/361417455"
+    "sourceId": "way/361417455",
+    "sourceOfficial": "https://www.cirkwi.com/fr/point-interet/1153595-aire-de-stationnement-pour-campings-cars",
+    "cityVerificationNote": "Commune et lieu recoupés avec une fiche de l'office de tourisme ou une source directe."
   },
   {
     "department": "41",
@@ -163,10 +167,12 @@
     "city": "Montoire-sur-le-Loir",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (10 places selon Vendôme Tourisme)",
+      "Vidange signalée par OpenStreetMap",
+      "Électricité signalée par OpenStreetMap"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif du stationnement et de l'électricité non publié ; à confirmer en mairie (02 54 85 00 29).",
+    "status": "Parvis de la gare historique, 1 allée Lucie-et-Raymond-Aubrac, 41800 Montoire-sur-le-Loir. Vendôme Tourisme recense 10 emplacements ombragés, à environ 1 km du centre (mise à jour 07/10/2025). Ne pas confondre avec l'aire des Reclusages CAMPING-CAR PARK, dont le tarif n'est pas applicable ici.",
     "source": "https://www.openstreetmap.org/way/361504043",
     "latitude": 47.7579231,
     "longitude": 0.8698498,
@@ -175,7 +181,9 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/361504043",
-    "servicesSource": "https://www.openstreetmap.org/way/361504043"
+    "servicesSource": "https://www.openstreetmap.org/way/361504043",
+    "sourceOfficial": "https://www.cirkwi.com/fr/point-interet/1153604-aire-de-stationnement-et-services-pour-campings-cars",
+    "cityVerificationNote": "Commune et lieu recoupés avec une fiche de l'office de tourisme ou une source directe."
   },
   {
     "department": "41",
@@ -270,12 +278,15 @@
   },
   {
     "department": "41",
-    "name": "Theillay Aire de camping-car",
+    "name": "Aire de services pour camping-cars – Theillay",
     "city": "Theillay",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Point de services camping-cars (stationnement non attesté)",
+    "services": [
+      "Eau potable gratuite (hors gel)",
+      "Vidange eaux usées gratuite (hors gel)"
+    ],
+    "price": "Eau et vidange gratuites hors période de gel selon l'office de tourisme ; stationnement de nuit non confirmé.",
+    "status": "2-6 chemin du Rouaire, près du local technique municipal, 41300 Theillay. La source officielle ne décrit qu'un point de services gratuits et n'atteste aucun emplacement de nuit.",
     "source": "https://www.openstreetmap.org/way/907675160",
     "latitude": 47.3183972,
     "longitude": 2.0377318,
@@ -283,7 +294,9 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/907675160"
+    "sourceId": "way/907675160",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-services-pour-camping-cars-theillay-acccen000v5000gb/",
+    "cityVerificationNote": "Commune et lieu recoupés avec une fiche de l'office de tourisme ou une source directe."
   },
   {
     "department": "41",
@@ -358,9 +371,13 @@
     "name": "Aire de stationnement pour camping-cars - Cheverny",
     "city": "Cheverny",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement (5 emplacements)",
+      "Eau potable",
+      "Vidange eaux usées"
+    ],
+    "price": "Stationnement gratuit jusqu'à 24 h réservé aux adhérents France Passion (macaron 2026 requis) ; prix éventuels des services non précisés.",
+    "status": "5 voie de la Démalerie, 41700 Cheverny. Accueil France Passion limité à 24 h, 5 emplacements, eau et vidange selon l'office de tourisme. Véhicule autonome et adhésion France Passion en cours de validité obligatoires ; vérifier la participation de l'hôte dans l'application 2026.",
     "source": "https://www.openstreetmap.org/way/1285203608",
     "latitude": 47.4856402,
     "longitude": 1.4323134,
@@ -369,7 +386,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1285203608",
-    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
+    "cityVerificationNote": "Commune et lieu recoupés avec une fiche de l'office de tourisme ou une source directe.",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-cheverny-acccen000v5000bi/"
   },
   {
     "department": "41",
@@ -400,10 +418,11 @@
     "city": "Châteauvieux",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (4 emplacements)",
+      "Eau potable (coût éventuel à confirmer)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Étape gratuite jusqu'à 24 h uniquement pour les membres France Passion disposant du macaron de l'année ; coût de l'eau non précisé.",
+    "status": "Domaine de la Doltière, 1121 chemin de la Doltière, 41110 Châteauvieux. Office de tourisme : 4 places, séjour de 24 h maximum, branchement d'eau et adhésion France Passion obligatoire ; vérifier l'accueil de l'année avant déplacement.",
     "source": "https://www.openstreetmap.org/way/1285210622",
     "latitude": 47.23257,
     "longitude": 1.3820628,
@@ -413,7 +432,8 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1285210622",
     "servicesSource": "https://www.openstreetmap.org/way/1285210622",
-    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
+    "cityVerificationNote": "Commune et lieu recoupés avec une fiche de l'office de tourisme ou une source directe.",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-domaine-de-la-doltiere-chateauvieux-acccen000v5000be/"
   },
   {
     "department": "41",
@@ -446,10 +466,14 @@
     "city": "Saint-Georges-sur-Cher",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (12 places)",
+      "Électricité (prise par emplacement, tarif à contrôler)",
+      "Eau potable (5 € / 100 L)",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit selon guide indépendant 2026 ; eau 5 € / 100 litres selon La Loire à Vélo, à confirmer sur place. Électricité signalée gratuite par des visiteurs en 2026.",
+    "status": "Rue de Verdun, 41400 Saint-Georges-sur-Cher. La Loire à Vélo décrit 12 emplacements, prises électriques, borne Euro-Relais à jetons, vidanges et tarif de l'eau 5 €/100 L. Plusieurs visites de 2026 indiquent un stationnement gratuit et de l'électricité disponible sans supplément, mais il faut vérifier les règles et tarifs à la borne ; route passante à proximité.",
     "source": "https://www.openstreetmap.org/way/1285560337",
     "latitude": 47.3262903,
     "longitude": 1.125171,
@@ -459,7 +483,8 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1285560337",
     "servicesSource": "https://www.openstreetmap.org/way/1285560337",
-    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
+    "cityVerificationNote": "Commune et lieu recoupés avec une fiche de l'office de tourisme ou une source directe.",
+    "sourceOfficial": "https://www.loireavelo.fr/tsft/aire-de-camping-cars-de-saint-georges-sur-cher-saint-georges-sur-cher/"
   },
   {
     "department": "41",
@@ -489,12 +514,16 @@
   },
   {
     "department": "41",
-    "name": "Aire de camping-car Angé",
+    "name": "Aire communale camping-cars d'Angé",
     "city": "Angé",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement (toute l'année)",
+      "Eau potable (borne)",
+      "Vidange eaux usées"
+    ],
+    "price": "4 € la demi-journée ; 8 € la journée ; 50 € la semaine ; 200 € le mois, tarifs publiés par la mairie (date d'application 2026 non précisée).",
+    "status": "Aire communale près de la place de la mairie, 41400 Angé. La mairie confirme l'ouverture annuelle, la borne d'eau, les vidanges et les forfaits affichés. Capacités divergentes selon annuaires (15 ou 25 places) : non confirmées par la mairie.",
     "source": "https://www.openstreetmap.org/way/1296647776",
     "latitude": 47.3326851,
     "longitude": 1.2449788,
@@ -503,7 +532,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1296647776",
-    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
+    "cityVerificationNote": "Commune et lieu recoupés avec une fiche de l'office de tourisme ou une source directe.",
+    "sourceOfficial": "https://www.mairie-ange.com/tourisme/camping-cars/"
   },
   {
     "department": "41",
