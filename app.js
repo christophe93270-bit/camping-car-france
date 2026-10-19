@@ -602,7 +602,7 @@ async function initAires(){
         <p><strong>Tarif :</strong> ${escapeHTML(a.price)}</p>
         <p><strong>À vérifier :</strong> ${escapeHTML(a.status)}</p>
         ${a.dataAttribution?`<p><small>Données : ${escapeHTML(a.dataAttribution)} — ${escapeHTML(a.dataLicense||"Licence non indiquée")}</small></p>`:""}
-        <a href="${escapeHTML(a.source)}" target="_blank" rel="noopener noreferrer">Consulter la source ↗</a>
+        ${a.sourceOfficial&&a.sourceOfficial!==a.source&&/^https?:\/\//i.test(String(a.sourceOfficial))?`<a href="${escapeHTML(a.sourceOfficial)}" target="_blank" rel="noopener noreferrer">Source du lieu ↗</a> · `:""}<a href="${escapeHTML(a.source)}" target="_blank" rel="noopener noreferrer">Données d’origine ↗</a>
       </article>`).join("");
       more.hidden=filtered.length<=visibleCount;
       more.textContent="Voir plus de fiches ("+Math.min(pageSize,Math.max(0,filtered.length-visibleCount))+" suivantes)";
