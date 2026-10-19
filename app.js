@@ -260,7 +260,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Loire indisponible",error); }
     let hauteLoireAires=[];
     try {
-      const response43=await fetch("aires-haute-loire.json?v=20261019-2", {cache:"no-store"});
+      const response43=await fetch("aires-haute-loire.json?v=20261019-3", {cache:"no-store"});
       if(response43.ok) hauteLoireAires=await response43.json();
     } catch(error) { console.warn("Chargement Haute-Loire indisponible",error); }
     let cantalAires=[];
