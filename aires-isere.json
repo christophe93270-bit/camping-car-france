@@ -206,9 +206,12 @@
     "city": "Allemond",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Électricité : 55 min par jeton",
+      "Eau potable : 10 min par jeton",
+      "Vidange eaux usées",
+      "Parking au lac du Verney"
     ],
-    "price": "Services : 3 € (55 min électricité, 10 min eau, vidange) ; stationnement non confirmé ; prix de référence 2025",
+    "price": "Jeton services : 3 € (55 min d'électricité, 10 min d'eau potable et vidange) selon Oisans Tourisme ; tarif du stationnement non précisé",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12173548837",
     "latitude": 45.1325163,
@@ -220,7 +223,9 @@
     "sourceId": "node/12173548837",
     "servicesSource": "https://www.openstreetmap.org/node/12173548837",
     "priceSource": "https://www.oisans.com/camping/aire-de-camping-car-point-bleu/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.oisans.com/camping/aire-de-camping-car-point-bleu/",
+    "verificationNote": "Oisans Tourisme indique 3 € le jeton, en vente à l'office de tourisme d'Allemond ; aire ouverte 24h/24 toute l'année. Le prix du stationnement n'est pas indiqué."
   },
   {
     "department": "38",
@@ -653,9 +658,14 @@
     "city": "Chasselay",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "3 emplacements",
+      "Eau payante",
+      "3 branchements électriques",
+      "Vidange eaux grises",
+      "Vidange eaux noires",
+      "Dépôt des déchets"
     ],
-    "price": "Stationnement gratuit en 2026 ; eau et électricité payantes (montant à confirmer auprès de la mairie)",
+    "price": "Stationnement gratuit en 2026 (office de tourisme) ; borne d'eau payante et électricité disponible, tarifs des services non publiés",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1380067191",
     "latitude": 45.2565821,
@@ -669,7 +679,9 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.alpes-isere.com/sit/aire-de-service-accueil-camping-cars-5799270/",
     "priceNote": "Office de tourisme, fiche actualisée le 03/05/2026 ; 3 emplacements.",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.alpes-isere.com/sit/aire-de-service-accueil-camping-cars-5799270/",
+    "verificationNote": "39 chemin de l'Église, derrière le gîte/auberge ; ouvert toute l'année. Stationnement gratuit confirmé pour 2026 par l'office de tourisme (mise à jour 03/05/2026). Les prix de l'eau et de l'électricité ne sont pas publiés."
   },
   {
     "department": "38",
