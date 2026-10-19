@@ -1,20 +1,29 @@
 [
   {
     "department": "44",
-    "name": "Aire Camping-Car La Boissiere du Dore",
+    "name": "Aire communale – La Boissière-du-Doré",
     "city": "La Boissière-du-Doré",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Stationnement gratuit avec borne municipale payante",
+    "services": [
+      "Parking camping-car gratuit",
+      "Vidange eaux grises",
+      "Vidange cassette WC",
+      "Recharge d'eau par borne à carte bancaire"
+    ],
+    "price": "Stationnement gratuit ; utilisation de la borne eau/vidanges : 3 € par carte bancaire selon l'Office de tourisme du Vignoble de Nantes (tarif à confirmer sur la borne).",
+    "status": "Parc Hélène François Saint-Maur, 44430 La Boissière-du-Doré. Aire municipale entre le jardin et le commerce, distincte d'un camping à la ferme.",
     "source": "https://www.openstreetmap.org/node/9208189226",
     "latitude": 47.2313091,
     "longitude": -1.2190946,
     "gpsSource": "https://www.openstreetmap.org/node/9208189226",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/9208189226"
+    "importReview": "Même lieu que la fiche régionale ACCAMPDL044V50028O. Coordonnées GPS OSM, source et licence conservées. Prestations et prix recoupés avec tourisme/mairie en octobre 2026.",
+    "sourceId": "node/9208189226",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE",
+    "duplicateOfSourceId": "ACCAMPDL044V50028O"
   },
   {
     "department": "44",
@@ -59,20 +68,30 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping cars de Missillac",
+    "name": "Aire municipale de La Chinoise – Missillac",
     "city": "Missillac",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Stationnement gratuit et borne de services payante",
+    "services": [
+      "Parking camping-car gratuit",
+      "Eau potable",
+      "Vidange des eaux usées",
+      "Vidange des WC",
+      "Sanitaires et pique-nique à proximité"
+    ],
+    "price": "Stationnement gratuit ; utilisation de la borne de services : 2 € selon Loire-Atlantique Tourisme.",
+    "status": "La Chinoise, sortie de Missillac près du carrefour RN165/D2, 44780 Missillac. Borne et stationnement communal.",
     "source": "https://www.openstreetmap.org/way/128170879",
     "latitude": 47.4775819,
     "longitude": -2.1795992,
     "gpsSource": "https://www.openstreetmap.org/way/128170879",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/128170879"
+    "importReview": "Même lieu que la fiche régionale ACCAMACCAMEAIRECHINOISE. Coordonnées GPS OSM, source et licence conservées. Prestations et prix recoupés avec tourisme/mairie en octobre 2026.",
+    "sourceId": "way/128170879",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
+    "priceSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
+    "duplicateOfSourceId": "ACCAMACCAMEAIRECHINOISE"
   },
   {
     "department": "44",
@@ -124,20 +143,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping-car de la Bénate",
+    "name": "Aire communale de la Bénate – Riaillé",
     "city": "Riaillé",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire communale de stationnement et services camping-car",
+    "services": [
+      "7 emplacements camping-car réservés",
+      "Eau potable",
+      "Vidange eaux grises et WC",
+      "Électricité indiquée dans un guide spécialisé",
+      "Stationnement près de l'Erdre"
+    ],
+    "price": "Services et stationnement indiqués gratuits par Camping-car.com dans sa fiche tarifaire 2025. La gratuité et le fonctionnement en 2026 sont à confirmer auprès de la mairie.",
+    "status": "Rue de la Bénate, 44440 Riaillé, aire communale ouverte toute l'année selon le guide spécialisé. La fiche régionale intitulée « Aire de service La Benâte » semble liée, mais son GPS est sensiblement différent : ne pas fusionner sans vérification.",
     "source": "https://www.openstreetmap.org/way/317381326",
     "latitude": 47.5141353,
     "longitude": -1.2881713,
     "gpsSource": "https://www.openstreetmap.org/way/317381326",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/317381326"
+    "importReview": "Fiche de guide spécialisé 2025 et OSM recoupés ; tarif 2026 à confirmer, GPS OSM conservé.",
+    "sourceId": "way/317381326",
+    "sourceOfficial": "https://www.camping-car.com/aires/43375-aire-communale/",
+    "priceSource": "https://www.camping-car.com/aires/43375-aire-communale/",
+    "servicesSource": "https://www.camping-car.com/aires/43375-aire-communale/"
   },
   {
     "department": "44",
@@ -271,20 +299,30 @@
   },
   {
     "department": "44",
-    "name": "Aire Camping-car Vieillevigne",
+    "name": "Aire communale de Vieillevigne – route de Montaigu",
     "city": "Vieillevigne",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire municipale de stationnement et de services gratuite",
+    "services": [
+      "Stationnement camping-car gratuit",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux grises et cassette WC",
+      "Collecte des déchets"
+    ],
+    "price": "Stationnement et services annoncés gratuits par Loire-Atlantique Tourisme ; conditions d'utilisation à consulter sur place.",
+    "status": "Route de Montaigu, 44116 Vieillevigne. Aire de services et stationnement municipal.",
     "source": "https://www.openstreetmap.org/way/909580170",
     "latitude": 46.9714826,
     "longitude": -1.4287089,
     "gpsSource": "https://www.openstreetmap.org/way/909580170",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/909580170"
+    "importReview": "Même lieu que la fiche régionale ACCAMPDL044V50028L. Coordonnées GPS OSM, source et licence conservées. Prestations et prix recoupés avec tourisme/mairie en octobre 2026.",
+    "sourceId": "way/909580170",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE",
+    "duplicateOfSourceId": "ACCAMPDL044V50028L"
   },
   {
     "department": "44",
@@ -348,20 +386,29 @@
   },
   {
     "department": "44",
-    "name": "Aire camping-car Mouzillon",
+    "name": "Aire communale de Mouzillon – complexe sportif de la Prée",
     "city": "Mouzillon",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de stationnement avec borne municipale payante",
+    "services": [
+      "Parking camping-car",
+      "Eau potable via borne",
+      "Vidanges camping-car",
+      "Aire de pique-nique et jeux pour enfants"
+    ],
+    "price": "Accès aux services payant par carte bancaire d'après Loire-Atlantique Tourisme ; montant 2026 non indiqué. Tarif du stationnement non confirmé.",
+    "status": "Parking du complexe sportif de la Prée, complexe Raphaël Hardy, 44330 Mouzillon. Borne CB, tarif à relever sur l'automate.",
     "source": "https://www.openstreetmap.org/way/909620868",
     "latitude": 47.137689,
     "longitude": -1.2848783,
     "gpsSource": "https://www.openstreetmap.org/way/909620868",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/909620868"
+    "importReview": "Même lieu que la fiche régionale ACCAMPDL044V50028N. Coordonnées GPS OSM, source et licence conservées. Prestations et prix recoupés avec tourisme/mairie en octobre 2026.",
+    "sourceId": "way/909620868",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
+    "duplicateOfSourceId": "ACCAMPDL044V50028N"
   },
   {
     "department": "44",
@@ -419,23 +466,28 @@
   },
   {
     "department": "44",
-    "name": "Aire de stationnement Saint-Viaud",
+    "name": "Aire municipale du lac – Saint-Viaud",
     "city": "Saint-Viaud",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Stationnement camping-car gratuit sans borne de services sur place",
     "services": [
-      "Toilettes"
+      "Stationnement camping-car gratuit toute l'année",
+      "Base de loisirs et jeux à proximité",
+      "Borne d'eau, électricité et vidanges distincte rue de la Gare (6 €)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit toute l'année selon Loire-Atlantique Tourisme. Utilisation des services rue de la Gare non comprise : 6 € via carte PASS'ÉTAPES.",
+    "status": "Base de loisirs du lac, rue du Parc-des-Sports, 44320 Saint-Viaud. Stationnement distinct de la borne CAMPING-CAR PARK, rue de la Gare.",
     "source": "https://www.openstreetmap.org/way/993572341",
     "latitude": 47.2596925,
     "longitude": -2.0177984,
     "gpsSource": "https://www.openstreetmap.org/way/993572341",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Même lieu que la fiche régionale ACCAMPDL044V50054F. Coordonnées GPS OSM, source et licence conservées. Prestations et prix recoupés avec tourisme/mairie en octobre 2026.",
     "sourceId": "way/993572341",
-    "servicesSource": "https://www.openstreetmap.org/way/993572341"
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180245-AIRE-DE-STATIONNEMENT-SAINT-VIAUD",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180245-AIRE-DE-STATIONNEMENT-SAINT-VIAUD",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180245-AIRE-DE-STATIONNEMENT-SAINT-VIAUD",
+    "duplicateOfSourceId": "ACCAMPDL044V50054F"
   },
   {
     "department": "44",
@@ -461,20 +513,28 @@
   },
   {
     "department": "44",
-    "name": "Aire de stationnement Paimboeuf",
+    "name": "Stationnement camping-car du quai Edmond-Libert – Paimbœuf",
     "city": "Paimbœuf",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Parking municipal camping-car gratuit",
+    "services": [
+      "Stationnement camping-car gratuit toute l'année",
+      "Conteneurs à déchets mentionnés dans la base touristique",
+      "Eau et vidange non attestées à cette aire"
+    ],
+    "price": "Stationnement gratuit toute l'année selon Loire-Atlantique Tourisme. Aucun service de vidange ou d'eau attribué sans vérification.",
+    "status": "4 quai Edmond-Libert, 44560 Paimbœuf, rive de Loire, à proximité du Jardin étoilé.",
     "source": "https://www.openstreetmap.org/way/1233275292",
     "latitude": 47.2862225,
     "longitude": -2.0171727,
     "gpsSource": "https://www.openstreetmap.org/way/1233275292",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1233275292"
+    "importReview": "Même lieu que la fiche régionale ACCAMPDL044V50BKT9. Coordonnées GPS OSM, source et licence conservées. Prestations et prix recoupés avec tourisme/mairie en octobre 2026.",
+    "sourceId": "way/1233275292",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF",
+    "duplicateOfSourceId": "ACCAMPDL044V50BKT9"
   },
   {
     "department": "44",
@@ -580,20 +640,27 @@
   },
   {
     "department": "44",
-    "name": "Aire camping-car Pornichet",
+    "name": "Parking camping-car gratuit d'Ermur – Pornichet",
     "city": "Pornichet",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire municipale de stationnement gratuit sans borne de services",
+    "services": [
+      "Stationnement camping-car gratuit toute l'année",
+      "Aucune borne d'eau, vidange ou électricité sur l'aire",
+      "Proche parc paysager, hipppodrome et aire de jeux"
+    ],
+    "price": "Stationnement gratuit (0 €) selon Pornichet Tourisme, sans services techniques.",
+    "status": "7 chemin des Prés-de-l'Étang, 44380 Pornichet (derrière l'hippodrome). Aire de stationnement uniquement, pas de borne de services. Autorisée toute l'année selon Pornichet Tourisme.",
     "source": "https://www.openstreetmap.org/way/1317588157",
     "latitude": 47.2592142,
     "longitude": -2.3242468,
     "gpsSource": "https://www.openstreetmap.org/way/1317588157",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1317588157"
+    "importReview": "Parking gratuit et absence de service attestés par l'Office de tourisme de Pornichet en octobre 2026. GPS OSM conservé.",
+    "sourceId": "way/1317588157",
+    "sourceOfficial": "https://www.pornichet.fr/aire-daccueil-dermur",
+    "priceSource": "https://www.pornichet.fr/aire-daccueil-dermur",
+    "servicesSource": "https://www.pornichet.fr/sejourner/pratique/foire-aux-questions"
   },
   {
     "department": "44",
@@ -667,5 +734,27 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye"
+  },
+  {
+    "department": "44",
+    "city": "Blain",
+    "name": "CAMPING-CAR PARK Blain – La Petite Arche",
+    "type": "Aire d'étape payante CAMPING-CAR PARK",
+    "services": [
+      "17 emplacements camping-car",
+      "Bornes de services et vidanges selon équipement CAMPING-CAR PARK",
+      "Eau potable et électricité selon conditions de l'exploitant",
+      "À proximité du canal de Nantes à Brest"
+    ],
+    "price": "12,73 € / 24 h du 01/10/2026 au 31/12/2027, hors taxe de séjour 1,10 € en 2026, soit 13,83 € indicatifs. Forfait 5 h + services : 6 €. Montants soumis aux modifications de l'exploitant.",
+    "status": "43 rue de la Petite-Arche, 44130 Blain, près du canal et du château de la Groulais. Aire de 17 places, ouverte selon la page de l'exploitant. Coordonnées GPS publiées par CAMPING-CAR PARK.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/blain",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/blain",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/blain",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/blain",
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/blain",
+    "latitude": 47.46965,
+    "longitude": -1.76195,
+    "importReview": "Fiche opérateur CAMPING-CAR PARK vérifiée le 19 octobre 2026 ; emplacement absent des fichiers OSM et régional à cette date. Pas de données OSM revendiquées."
   }
 ]
