@@ -554,8 +554,13 @@
     "name": "Aire de camping-car Le Vivier",
     "city": "La Motte-Saint-Martin",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Gratuit : stationnement et services (eau, vidange, électricité) selon règlement municipal ; eau indisponible en hiver",
+    "services": [
+      "6 emplacements maximum",
+      "Eau potable gratuite",
+      "Vidange eaux grises et noires gratuite au Vivier",
+      "Électricité gratuite"
+    ],
+    "price": "Gratuit : stationnement, eau, vidange et électricité (règlement municipal de juin 2023 ; validité actuelle à reconfirmer)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/911873891",
     "latitude": 44.9567853,
@@ -567,7 +572,9 @@
     "sourceId": "way/911873891",
     "priceSource": "https://www.lamottesaintmartin.fr/wp-content/uploads/2023/06/2023-06-21-RI-AIRE-CAMPING-CAR.pdf",
     "priceNote": "Règlement municipal de juin 2023, stationnement maximum 7 nuits ; reconfirmation 2026 souhaitable.",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.lamottesaintmartin.fr/wp-content/uploads/2023/06/2023-06-21-RI-AIRE-CAMPING-CAR.pdf",
+    "verificationNote": "Règlement municipal de juin 2023 : 6 véhicules maximum, 7 nuits consécutives maximum, stationnement et services gratuits. Les vidanges et le remplissage sont au hameau Le Vivier, les branchements électriques sur l'aire. Conditions 2026 à reconfirmer auprès de la commune."
   },
   {
     "department": "38",
@@ -600,8 +607,14 @@
     "name": "Aire de Camping-Car La Mure",
     "city": "La Mure",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Gratuit (stationnement et eau), tarif 2026",
+    "services": [
+      "7 emplacements",
+      "Eau potable gratuite",
+      "Vidange eaux grises",
+      "Vidange WC chimiques",
+      "Toilettes publiques à proximité"
+    ],
+    "price": "Gratuit : stationnement et eau potable (tarif 2026 confirmé par Matheysine Tourisme)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1274875902",
     "latitude": 44.905839,
@@ -613,7 +626,9 @@
     "sourceId": "way/1274875902",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.alpes-isere.com/sit/aire-de-camping-car-a-la-mure-4810485/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.alpes-isere.com/sit/aire-de-camping-car-a-la-mure-4810485/",
+    "verificationNote": "450 boulevard Fréjus-Michon, bords de la Jonche. Aire réservée aux camping-cars, 7 places. Vidanges prévues sur place ; conteneurs à 30 m. Fiche touristique actualisée le 22/04/2026. GPS tourisme 44.907647,5.783047 à comparer à l'OSM."
   },
   {
     "department": "38",
