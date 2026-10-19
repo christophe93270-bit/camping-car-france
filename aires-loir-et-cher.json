@@ -30,7 +30,7 @@
       "Eau potable (service payant)",
       "Vidange eaux usées (service payant)"
     ],
-    "price": "Stationnement gratuit 24 h sous conditions France Passion selon office de tourisme ; eau et vidange : 3 € selon site du domaine (tarifs à reconfirmer sur place).",
+    "price": "Stationnement gratuit jusqu'à 24 h sous conditions France Passion selon l'office de tourisme ; ravitaillement en eau et vidange : 3 € au tarif affiché sur le site du domaine (consulté le 19/10/2026).",
     "status": "Domaine de la Grange, 41350 Huisseau-sur-Cosson. Le domaine annonce 6 places ombragées et eau/vidange à 3 €. L'office de tourisme précise adhésion France Passion et durée maximale 24 h, mais indique 5 places : divergence à vérifier.",
     "source": "https://www.openstreetmap.org/node/11922471878",
     "latitude": 47.5878931,
@@ -128,7 +128,7 @@
       "Sanitaires",
       "Wifi"
     ],
-    "price": "Stationnement gratuit et borne à jeton selon Sologne Tourisme (fiche consultée en octobre 2026). Montant de 2 € par jeton selon guide de 2023, non actualisé officiellement en 2026 : vérifier en mairie.",
+    "price": "Stationnement gratuit selon Sologne Tourisme. Borne à jeton pour certains services ; montant du jeton non publié par l'office de tourisme pour 2026 (2 € mentionnés dans un guide de 2023 uniquement).",
     "status": "24 rue de Beaugency, 41230 Vernou-en-Sologne. Sologne Tourisme confirme une aire gratuite ouverte 24 h/24, eau, électricité, vidanges, sanitaires, et paiement par jeton pour certaines prestations (« Gratuit (jeton) »). La même page ne précise pas le prix du jeton ; un guide de 2023 donne 2 €. Mairie : 02 54 98 20 22. Ne pas présenter le prix 2023 comme tarif 2026.",
     "source": "https://www.openstreetmap.org/way/101809040",
     "latitude": 47.5036952,
@@ -141,7 +141,7 @@
     "servicesSource": "https://www.openstreetmap.org/way/101809040",
     "cityVerificationNote": "Commune confirmée par la fiche officielle de l'office de tourisme.",
     "sourceOfficial": "https://www.sologne-tourisme.fr/aire-de-stationnement-et-ou-de-services-pour-camping-cars-vernou-en-sologne/",
-    "priceSource": "https://www.camping-car.com/aires/43350-aire-communale/"
+    "priceSource": "https://www.sologne-tourisme.fr/aire-de-stationnement-et-ou-de-services-pour-camping-cars-vernou-en-sologne/"
   },
   {
     "department": "41",
@@ -1149,7 +1149,7 @@
       "Stationnement gratuit (10 emplacements selon Vendôme Tourisme)",
       "Vidange des eaux noires (fonctionnement à contrôler)"
     ],
-    "price": "Stationnement gratuit selon Vendôme Tourisme, ouverture saisonnière du 1er avril au 31 octobre 2026. Prix des éventuels services non publié.",
+    "price": "Stationnement gratuit (10 emplacements) du 1er avril au 31 octobre 2026 selon Vendôme Tourisme ; vidange des eaux noires uniquement, sans remplissage d'eau. Aucun tarif spécifique de vidange publié.",
     "status": "Grande Rue, Les Roches-l'Évêque, 10 emplacements gratuits selon Vendôme Tourisme, aire ouverte du 1er avril au 31 octobre 2026 ; potentiellement FERMÉE hors saison à partir du 1er novembre. Vidange eaux noires signalée, fonctionnement non assuré ; ni alimentation en eau ni électricité confirmées. Respecter la saison d'ouverture et vérifier avant de se déplacer.",
     "source": "https://www.vendome-tourisme.fr/offres/aire-de-stationnement-les-roches-leveque-les-roches-leveque-fr-2593960/",
     "latitude": 47.7777,
@@ -1157,7 +1157,8 @@
     "gpsSource": "https://park4night.com/fr/place/6231",
     "sourceOfficial": "https://www.vendome-tourisme.fr/offres/aire-de-stationnement-les-roches-leveque-les-roches-leveque-fr-2593960/",
     "cityVerificationNote": "Commune et adresse vérifiées auprès de Vendôme Tourisme.",
-    "importReview": "Ajout le 19/10/2026 depuis office de tourisme ; GPS Park4night proche site OSM, différent du centre de commune de Cirkwi : à vérifier à l'entrée."
+    "importReview": "Ajout le 19/10/2026 depuis office de tourisme ; GPS Park4night proche site OSM, différent du centre de commune de Cirkwi : à vérifier à l'entrée.",
+    "priceSource": "https://www.vendome-tourisme.fr/offres/aire-de-stationnement-les-roches-leveque-les-roches-leveque-fr-2593960/"
   },
   {
     "department": "41",
@@ -1229,5 +1230,25 @@
     "priceSource": "https://www.val-de-loire-41.com/camping/camping-municipal-de-moree-hpa41aacam100013/",
     "importReview": "Ajout octobre 2026 : offre d'accueil camping-car et tarifs 2026 confirmés par le camping ou l'office de tourisme ; camping payant distinct des aires libres.",
     "cityVerificationNote": "Commune et adresse contrôlées auprès du camping ou de l'office de tourisme."
+  },
+  {
+    "department": "41",
+    "name": "Domaine de la Méchinière – accueil camping-cars à Mareuil-sur-Cher",
+    "city": "Mareuil-sur-Cher",
+    "type": "Aire de camping-car (accueil viticole sur rendez-vous)",
+    "services": [
+      "Stationnement de camping-cars autonomes (4 places signalées par Park4night)",
+      "Accueil sur rendez-vous dans le cadre d'une dégustation"
+    ],
+    "price": "Accueil des camping-cars autonomes sur rendez-vous dans le cadre d'une dégustation ou d'un achat au domaine ; dégustation à 10 € par adulte selon l'office de tourisme en 2026. Aucun tarif distinct de stationnement publié.",
+    "status": "Domaine de la Méchinière, 22 route de Saint-Aignan, 41110 Mareuil-sur-Cher. Accueil confirmé par le domaine pour les véhicules autonomes en eau, électricité et sanitaires. L'office de tourisme indique ouverture sur rendez-vous, du lundi au samedi en 2026. Park4night annonce 4 places et accueil avant 18 h (horaires précis à reconfirmer). Ne pas confondre avec l'aire municipale rue du Bas Guéret. Contact : 02 54 75 15 80.",
+    "source": "https://www.domaine-mechiniere.com/",
+    "sourceOfficial": "https://www.domaine-mechiniere.com/",
+    "priceSource": "https://www.val-de-loire-41.com/degustation/domaine-de-la-mechiniere-valerie-forgues-degcen041v500w11/",
+    "latitude": 47.2864,
+    "longitude": 1.3456,
+    "gpsSource": "https://park4night.com/fr/place/190437",
+    "importReview": "Accueil confirmé par le domaine et l'office de tourisme ; conditions de réservation et horaires à vérifier avant déplacement",
+    "cityVerificationNote": "Commune et adresse confirmées par le site officiel du domaine et l'office de tourisme. Coordonnées GPS issues de Park4night, approximatives à l'échelle de l'accès."
   }
 ]
