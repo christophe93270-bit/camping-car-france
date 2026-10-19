@@ -263,10 +263,12 @@
     "city": "Savonnières",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement",
+      "Wi-Fi",
+      "Eau et vidange à proximité (payants)"
     ],
-    "price": "10 € / 24 h hors juillet-août ; 16 € en juillet-août ; taxe de séjour 0,66 € / personne / nuit en supplément ; vidange et eau 2 €",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "9 € / 24 h de mai à septembre ; 7 € / 24 h d'octobre à avril ; services eau/vidange : 2 € en supplément",
+    "status": "Aire de stationnement confirmée par la mairie et l'office de tourisme ; distincte du camping",
     "source": "https://www.openstreetmap.org/way/717177233",
     "latitude": 47.3512166,
     "longitude": 0.5500385,
@@ -277,9 +279,12 @@
     "sourceId": "way/717177233",
     "servicesSource": "https://www.openstreetmap.org/way/717177233",
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
-    "priceSource": "https://www.onlypark.fr/aire-de-savonnieres/",
+    "priceSource": "https://www.tours-tourisme.fr/preparez-votre-sejour/campings-and-aires/camping-onlycamp-la-confluence/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Ouverture du 27 juillet au 15 novembre 2026 selon l'exploitant."
+    "priceNote": "Ouverture du 27 juillet au 15 novembre 2026 selon l'exploitant.",
+    "address": "Route du Bray, 37510 Savonnières",
+    "sourceOfficial": "https://www.savonnieres.fr/que-faire-a-savonnieres/hebergements/",
+    "verificationNote": "Aire à 200 m du camping de la Confluence. Tarifs de l'office de tourisme différents du tarif précédemment enregistré ; vérifier auprès de l'exploitant avant d'afficher un prix comme garanti."
   },
   {
     "department": "37",
@@ -554,14 +559,16 @@
   },
   {
     "department": "37",
-    "name": "Aire camping-car Villeloin Coulange",
+    "name": "Aire de camping-cars des Berges de l’Indrois",
     "city": "Villeloin-Coulangé",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
+      "Vidange",
+      "Eau",
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Services : 3 € / 10 minutes selon l'opérateur ; stationnement à confirmer",
+    "status": "Aire confirmée par la mairie et l'opérateur ; 10 emplacements ; ouverte toute l'année",
     "source": "https://www.openstreetmap.org/way/1293043215",
     "latitude": 47.1365459,
     "longitude": 1.2279418,
@@ -571,7 +578,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1293043215",
     "servicesSource": "https://www.openstreetmap.org/way/1293043215",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "address": "40 rue de Nouans, 37460 Villeloin-Coulangé",
+    "sourceOfficial": "https://villeloin-coulange.fr/2024/04/19/aire-de-camping-car-et-aire-de-loisirs-des-berges-de-lindrois/",
+    "sourceOperator": "https://www.aireparkreservation.com/aires-camping-car/indre-et-loire",
+    "verificationNote": "Coordonnées OSM proches des coordonnées exploitant (47.137065, 1.227919). Prix de 3 € concerne 10 minutes de services, pas le stationnement."
   },
   {
     "department": "37",
@@ -601,7 +612,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Stationnement confirmé par la mairie ; tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1325271948",
     "latitude": 47.3824995,
     "longitude": 0.4211618,
@@ -610,7 +621,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1325271948",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "address": "Rue du Stade, près de l'étang, 37130 Mazières-de-Touraine",
+    "sourceOfficial": "https://www.mazieresdetouraine.fr/culture-et-loisirs/camping-et-aires/",
+    "verificationNote": "La mairie confirme une aire de stationnement rue du Stade près de l'étang ; correspondance du point OSM exact à contrôler."
   },
   {
     "department": "37",
