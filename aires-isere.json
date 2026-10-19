@@ -4,8 +4,11 @@
     "name": "Aire de camping-cars Saint-Antoine l'Abbaye",
     "city": "Saint-Antoine-l'Abbaye",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Jeton services : 2 € ; stationnement non confirmé",
+    "services": [
+      "Parking",
+      "WC publics"
+    ],
+    "price": "Stationnement et services : tarif 2026 non publié par l'office de tourisme ; jeton 2 € selon source secondaire, à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/4215020337",
     "latitude": 45.1731513,
@@ -18,7 +21,9 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.alpes-isere.com/en/sit/aire-de-service-camping-car-de-saint-antoine-labbaye-128787/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif 2026 de la borne rue des Terreaux, position GPS concordante."
+    "priceNote": "Tarif 2026 de la borne rue des Terreaux, position GPS concordante.",
+    "sourceOfficial": "https://www.alpes-isere.com/sit/aire-de-service-camping-car-128787/",
+    "verificationNote": "Aire rue des Terreaux, bas du village, près du parking de la salle polyvalente ; ouverte toute l'année. Office de tourisme mise à jour le 28/04/2026 ; tarif non communiqué. Coordonnées tourisme 45.173122,5.217956, proches du point OSM existant."
   },
   {
     "department": "38",
@@ -26,9 +31,13 @@
     "city": "Saint-Jean-de-Bournay",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Stationnement 24 h maximum",
+      "Eau gratuite",
+      "Vidange eaux grises gratuite",
+      "Vidange WC chimiques gratuite",
+      "Toilettes publiques"
     ],
-    "price": "Gratuit : stationnement, eau et vidanges ; fermeture lundi matin (marché)",
+    "price": "Gratuit : stationnement, eau et vidanges (office de tourisme, mise à jour janvier 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/11886853534",
     "latitude": 45.5010607,
@@ -41,7 +50,9 @@
     "servicesSource": "https://www.openstreetmap.org/node/11886853534",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.alpes-isere.com/sit/aire-de-service-camping-car-72040/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.alpes-isere.com/sit/aire-de-service-camping-car-72040/",
+    "verificationNote": "Place François-Mitterrand, accès recommandé par RD502 boulevard Nelson-Mandela via Intermarché. Fermeture lundi matin (marché) et mi-juin à début juillet (fête foraine). Eau coupée en hiver pour gel ; vidange possible. Coordonnées de la fiche touristique 45.503532,5.139306, différentes du point OSM actuel 45.5010607,5.1386672 : géolocalisation à vérifier."
   },
   {
     "department": "38",
