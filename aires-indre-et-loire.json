@@ -120,14 +120,19 @@
   {
     "department": "37",
     "name": "Aire de camping-cars Paul Destruel",
-    "city": "Montlouis-sur-Loire",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Esvres-sur-Indre",
+    "type": "Aire de camping-car",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Eau potable",
+      "Vidange toilettes chimiques",
+      "Vidange eaux usées",
+      "Électricité",
+      "Wi-Fi",
+      "Sanitaires",
+      "Tables de pique-nique"
     ],
-    "price": "Non confirmé",
-    "status": "Localisation/commune à vérifier : coordonnées OSM éloignées des aires officielles de Montlouis-sur-Loire ; tarif non confirmé",
+    "price": "Payant (montant à confirmer auprès de Camping-Car Park)",
+    "status": "Aire confirmée par la mairie d'Esvres-sur-Indre ; 16 emplacements, gestion Camping-Car Park ; tarif exact à confirmer",
     "source": "https://www.openstreetmap.org/way/253659162",
     "latitude": 47.2828383,
     "longitude": 0.7844662,
@@ -138,8 +143,10 @@
     "sourceId": "way/253659162",
     "servicesSource": "https://www.openstreetmap.org/way/253659162",
     "cityVerificationNote": "Commune Montlouis-sur-Loire NON CONFIRMÉE ; coordonnées GPS 47.2828,0.7845 éloignées du centre et des aires documentées de Montlouis.",
-    "verificationNote": "Audit du 19/10/2026 : OSM (47.2828383, 0.7844662) et source secondaire OnBouge (47.28266, 0.78462) concordent, mais sont éloignés des aires de Montlouis-sur-Loire RD751 (47.3941985,0.8114219) et Super U avenue Victor Laloux (47.3831,0.8433). L'attribution de la commune Montlouis-sur-Loire est douteuse : contrôle géographique obligatoire avant publication comme aire confirmée. Aucun tarif officiel trouvé.",
-    "sourceSecondary": "https://onbouge.eu/france/centre-val-de-loire/azay-sur-cher/mobilite"
+    "verificationNote": "Commune corrigée de Montlouis-sur-Loire vers Esvres-sur-Indre. Délibération municipale du 16 mai 2019 nommant l'Espace Paul Destruel derrière la mairie : https://www.ville-esvres.fr/images/La_Mairie/PDF/2019.05.16CRaffichage.pdf. Source municipale confirme 16 emplacements et services. GPS OSM à contrôler indépendamment.",
+    "sourceSecondary": "https://onbouge.eu/france/centre-val-de-loire/azay-sur-cher/mobilite",
+    "address": "Espace Paul Destruel, derrière la mairie, 37320 Esvres-sur-Indre",
+    "sourceOfficial": "https://www.ville-esvres.fr/index.php/infos-pratiques/stationnements"
   },
   {
     "department": "37",
