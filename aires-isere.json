@@ -175,8 +175,11 @@
     "name": "Aire de stationnement Camping-cars du parking du Cimetière",
     "city": "La Bâtie-Montgascon",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Gratuit : stationnement nocturne autorisé, 10 véhicules",
+    "services": [
+      "Stationnement nocturne autorisé (10 véhicules)",
+      "Vidange et eau potable gratuites au Musée du Tisserand, 76 rue des Tisserands (site distinct, en journée uniquement)"
+    ],
+    "price": "Stationnement gratuit toute l'année, 10 véhicules maximum (office de tourisme des Vals du Dauphiné)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12135411948",
     "latitude": 45.5788472,
@@ -187,7 +190,9 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/12135411948",
     "priceSource": "https://tourisme-valsdudauphine.fr/on-a-teste-pour-vous-en-isere/venez-decouvrir-les-vals-de-dauphine-en-camping-cars/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://tourisme-valsdudauphine.fr/on-a-teste-pour-vous-en-isere/venez-decouvrir-les-vals-de-dauphine-en-camping-cars/",
+    "verificationNote": "Parking du cimetière, chemin du Courriou. L'office de tourisme distingue trois sites dans la commune : parking du cimetière (10 véhicules), stade Renodel (6 véhicules), et borne gratuite eau/vidange au Musée du Tisserand, ouverte en journée. Ne pas attribuer la borne au parking du cimetière."
   },
   {
     "department": "38",
