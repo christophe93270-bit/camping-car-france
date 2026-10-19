@@ -193,20 +193,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de stationnement à La Plaine-sur-Mer",
+    "name": "Parking camping-car du chemin de la Gare – La Plaine-sur-Mer",
     "city": "La Plaine-sur-Mer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Stationnement communal gratuit 48 h, borne de services hors service",
+    "services": [
+      "Stationnement camping-car gratuit, 48 heures maximum",
+      "Eau potable à proximité signalée hors service",
+      "Vidange à proximité signalée hors service",
+      "Aucun service opérationnel garanti sur le parking"
+    ],
+    "price": "Stationnement gratuit limité à 48 heures. Borne d'eau et de vidange à proximité hors service au moment de la fiche touristique consultée ; aucun tarif de borne utilisable à annoncer.",
+    "status": "Chemin de la Gare / boulevard des Nations-Unies, 44770 La Plaine-sur-Mer. IMPORTANT : l'office de tourisme indique une borne d'eau et de vidange voisine actuellement hors service ; vérifier sa remise en service avant déplacement.",
     "source": "https://www.openstreetmap.org/way/541732291",
     "latitude": 47.1384327,
     "longitude": -2.1925577,
     "gpsSource": "https://www.openstreetmap.org/way/541732291",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/541732291"
+    "importReview": "Fiche OSM correspondant au site régional ACCAMACCAMEELPAIRECAMPCAR ; source tourisme contrôlée le 19 octobre 2026. Identifiant, coordonnées et crédit OSM conservés.",
+    "sourceId": "way/541732291",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/186401-Aire-de-stationnement--a-La-Plaine-sur-Mer",
+    "priceSource": "https://rando.loire-atlantique.fr/service/186401-Aire-de-stationnement--a-La-Plaine-sur-Mer",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/186401-Aire-de-stationnement--a-La-Plaine-sur-Mer",
+    "duplicateOfSourceId": "ACCAMACCAMEELPAIRECAMPCAR"
   },
   {
     "department": "44",
@@ -412,20 +421,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping-car Mésanger",
+    "name": "Aire de camping-car de la Sébilière – Mésanger",
     "city": "Mésanger",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire communale camping-car avec eau gratuite",
+    "services": [
+      "Point d'eau gratuit",
+      "Plateforme de vidange camping-car",
+      "Toilettes à proximité",
+      "Plan d'eau et commerces à environ 600 m"
+    ],
+    "price": "Eau gratuite selon Loire-Atlantique Tourisme. Prix ou autorisation de nuitée non précisés dans la fiche ; à vérifier sur place.",
+    "status": "La Sébilière, 44522 Mésanger. La mairie peut tendre une chaîne pour interdire l'accès aux voitures tout en réservant l'aire aux camping-cars ; vérifier les modalités d'accès avant arrivée.",
     "source": "https://www.openstreetmap.org/way/909625355",
     "latitude": 47.438253,
     "longitude": -1.2277163,
     "gpsSource": "https://www.openstreetmap.org/way/909625355",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/909625355"
+    "importReview": "Fiche OSM correspondant au site régional ACCAMPDL044V519MNP ; source tourisme contrôlée le 19 octobre 2026. Identifiant, coordonnées et crédit OSM conservés.",
+    "sourceId": "way/909625355",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/186408-Aire-de-camping-car-La-Sebiliere",
+    "priceSource": "https://rando.loire-atlantique.fr/service/186408-Aire-de-camping-car-La-Sebiliere",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/186408-Aire-de-camping-car-La-Sebiliere",
+    "duplicateOfSourceId": "ACCAMPDL044V519MNP"
   },
   {
     "department": "44",
@@ -455,23 +473,30 @@
   },
   {
     "department": "44",
-    "name": "Aire camping-cars Saint-Michel-Chef-Chef",
+    "name": "Aire municipale de la mairie – Saint-Michel-Chef-Chef",
     "city": "Saint-Michel-Chef-Chef",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Stationnement camping-car gratuit avec vidange, sans eau ni électricité",
     "services": [
-      "Toilettes"
+      "Stationnement gratuit pour camping-cars de toutes tailles",
+      "Point de vidange disponible",
+      "Aucune borne d'eau potable",
+      "Pas de prise électrique",
+      "Pas d'horodateur"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit selon Loire-Atlantique Tourisme. Vidange présente ; aucun tarif spécifique de vidange communiqué.",
+    "status": "Parking de la mairie, rue du Chevecier, 44730 Saint-Michel-Chef-Chef. Distincte de CAMPING-CAR PARK Le Soleya à Tharon-Plage.",
     "source": "https://www.openstreetmap.org/way/972510486",
     "latitude": 47.1821667,
     "longitude": -2.1475236,
     "gpsSource": "https://www.openstreetmap.org/way/972510486",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Fiche OSM correspondant au site régional ACCAMPDL044V5003AG ; source tourisme contrôlée le 19 octobre 2026. Identifiant, coordonnées et crédit OSM conservés.",
     "sourceId": "way/972510486",
-    "servicesSource": "https://www.openstreetmap.org/way/972510486"
+    "servicesSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
+    "priceSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
+    "duplicateOfSourceId": "ACCAMPDL044V5003AG"
   },
   {
     "department": "44",
@@ -628,20 +653,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping-cars de Passay",
+    "name": "Parking camping-car de Passay – La Chevrolière",
     "city": "La Chevrolière",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Stationnement camping-car communal gratuit",
+    "services": [
+      "6 places camping-car gratuites",
+      "Trois tables de pique-nique",
+      "Proximité du village des pêcheurs et du lac de Grand-Lieu",
+      "Aucune borne technique attestée dans la fiche touristique"
+    ],
+    "price": "Stationnement gratuit, six places selon Loire-Atlantique Tourisme. Eau, vidange et électricité non confirmées sur ce site.",
+    "status": "Rue du Cheminet, 44118 La Chevrolière, village de Passay à environ 500 m du lac de Grand-Lieu. Même site que la fiche OSM « aire de camping-cars de Passay ».",
     "source": "https://www.openstreetmap.org/way/1314501152",
     "latitude": 47.0961967,
     "longitude": -1.6320567,
     "gpsSource": "https://www.openstreetmap.org/way/1314501152",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1314501152"
+    "importReview": "Fiche OSM correspondant au site régional ACCAMPDL044V51CFA7 ; source tourisme contrôlée le 19 octobre 2026. Identifiant, coordonnées et crédit OSM conservés.",
+    "sourceId": "way/1314501152",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/186410-AIRE-DE-STATIONNEMENT-DE-PASSAY",
+    "priceSource": "https://rando.loire-atlantique.fr/service/186410-AIRE-DE-STATIONNEMENT-DE-PASSAY",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/186410-AIRE-DE-STATIONNEMENT-DE-PASSAY",
+    "duplicateOfSourceId": "ACCAMPDL044V51CFA7"
   },
   {
     "department": "44",
