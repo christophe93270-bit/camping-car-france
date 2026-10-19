@@ -387,10 +387,13 @@
     "city": "Saint-Maximin",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Vidange eaux grises",
+      "Vidange eaux noires",
+      "Eau potable (fonctionnement variable)",
+      "Électricité non garantie"
     ],
-    "price": "Gratuit : stationnement et services, électricité incluse (source spécialisée ; confirmation municipale souhaitable)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement payant : tarif municipal 2025 de 7,78 € / 24 h hors taxe de séjour ; usagers signalent 8 € / nuit en 2026. Tarif officiel 2026 et taxe à confirmer.",
+    "status": "Existence et caractère payant confirmés par délibérations municipales ; tarif 2026 à reconfirmer",
     "source": "https://www.openstreetmap.org/way/210605348",
     "latitude": 45.4294964,
     "longitude": 6.0335366,
@@ -401,8 +404,10 @@
     "sourceId": "way/210605348",
     "servicesSource": "https://www.openstreetmap.org/way/210605348",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
-    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=SAINT+MAXIMIN",
-    "priceVerifiedOn": "2026-10-17"
+    "priceSource": "https://politique.pappers.fr/commune/document/05c35fbb2b9df7792c97c6934e523240",
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://politique.pappers.fr/commune/document/05c35fbb2b9df7792c97c6934e523240",
+    "verificationNote": "Aire communale place du Marais, Avalon, 38530 Saint-Maximin. Conseil municipal du 24/03/2025 : forfait 7,78 € HT taxe de séjour pour 24 h ; délibération du 07/07/2025 confirme aire payante et modifie règlement, en supprimant l'article relatif à la borne électrique. Avis 2026 indiquent environ 8 € payables par QR code et pannes ponctuelles d'eau/électricité. Ne plus présenter comme gratuite ni électricité garantie."
   },
   {
     "department": "38",
@@ -436,15 +441,17 @@
   },
   {
     "department": "38",
-    "name": "Aire de camping-car Pont-en-Royans",
+    "name": "Aire de stationnement « La Plage » – Pont-en-Royans",
     "city": "Pont-en-Royans",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Eau potable",
-      "Électricité"
+      "Vidange eaux grises",
+      "Vidange eaux noires",
+      "Barrière sécurisée"
     ],
-    "price": "À partir de 13 € / emplacement ; montant exact selon séjour à confirmer",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Emplacement à partir de 13 € (tarif exact selon séjour à confirmer) ; paiement par carte bancaire",
+    "status": "Fiche confirmée par l'office de tourisme ; tarifs variables à confirmer avant séjour",
     "source": "https://www.openstreetmap.org/way/421759299",
     "latitude": 45.062611,
     "longitude": 5.33454,
@@ -456,15 +463,22 @@
     "servicesSource": "https://www.openstreetmap.org/way/421759299",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://tourisme.saintmarcellin-vercors-isere.fr/sejourner/hebergements/aires-de-camping-cars/167807_aire-de-stationnement-la-plage/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://tourisme.saintmarcellin-vercors-isere.fr/sejourner/hebergements/aires-de-camping-cars/167807_aire-de-stationnement-la-plage/",
+    "verificationNote": "Camping municipal Les Seraines, 38680 Pont-en-Royans. Office de tourisme : aire ombragée avec point d'eau, vidanges eaux grises et noires, paiement CB et barrière. Bloc sanitaire commun fermé ; électricité non confirmée, retirée des services."
   },
   {
     "department": "38",
     "name": "Aire Municipale Le Cheylas",
     "city": "Le Cheylas",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Gratuit selon annuaire spécialisé ; à confirmer auprès de la mairie",
+    "services": [
+      "Stationnement gratuit signalé",
+      "Vidange eaux grises gratuite signalée",
+      "Vidange eaux noires gratuite signalée",
+      "Électricité indisponible selon annuaire"
+    ],
+    "price": "Stationnement gratuit et vidange eaux grises/noires gratuite selon annuaires et signalement de septembre 2026 ; confirmation municipale à obtenir",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/441803370",
     "latitude": 45.3718604,
@@ -475,8 +489,9 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/441803370",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
-    "priceSource": "https://www.lecampeur.fr/aire/camping-partage-pres-du-centre-le-cheylas-ph60u3",
-    "priceVerifiedOn": "2026-10-17"
+    "priceSource": "https://park4night.com/fr/place/722471",
+    "priceVerifiedOn": "2026-10-17",
+    "verificationNote": "Rue du Stade, 38570 Le Cheylas. Deux sources indépendantes (i-CampingCar et Park4night, septembre 2026) décrivent la gratuité du stationnement et de la vidange. Source municipale directe non trouvée : conserver comme information communautaire non officiellement confirmée."
   },
   {
     "department": "38",
