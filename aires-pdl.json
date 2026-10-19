@@ -1465,20 +1465,23 @@
     "department": "44",
     "name": "Aire de stationnement -  La Digue",
     "city": "SAINT-NICOLAS-DE-REDON",
-    "type": "Aire de stationnement",
+    "type": "Aire de stationnement camping-car répertoriée par l'office de tourisme",
     "services": [
       "Services non renseignés"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarif 2026 non communiqué sur la liste de l'Office de tourisme du Pays de Redon ; stationnement et services à confirmer avant déplacement.",
+    "status": "La Digue, 44460 Saint-Nicolas-de-Redon. Aire répertoriée par l'Office de tourisme du Pays de Redon. Conditions de nuitée, équipements et tarif non détaillés sur la liste consultée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.64722,
     "longitude": -2.08428,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V51OXTD"
+    "importReview": "Existence et commune recoupées avec l'Office de tourisme du Pays de Redon en octobre 2026 ; aucun tarif officiel publié sur la liste.",
+    "sourceId": "ACCAMPDL044V51OXTD",
+    "sourceOfficial": "https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/",
+    "priceSource": "https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/",
+    "servicesSource": "https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/"
   },
   {
     "department": "44",
@@ -1573,23 +1576,27 @@
   },
   {
     "department": "44",
-    "name": "Aire de service à coté de l'église",
+    "name": "Borne communale de services – place de l'Église, Le Pin",
     "city": "LE PIN",
-    "type": "Aire de service",
+    "type": "Aire de services avec stationnement de courte durée",
     "services": [
-      "Eau potable (source ouverte)",
-      "Vidange"
+      "Eau potable (signalée par guide indépendant)",
+      "Vidange des eaux grises et cassette WC",
+      "Stationnement de courte durée signalé, nuitée non confirmée"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Eau et vidanges indiquées gratuites par un recensement spécialisé daté d'avril 2026. Gratuité actuelle non confirmée officiellement ; contrôler l'affichage communal.",
+    "status": "Place de l'Église, 44540 Le Pin. Borne municipale et quelques emplacements de courte durée mentionnés par un guide spécialisé en avril 2026. La possibilité de passer la nuit n'est pas confirmée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.58896,
     "longitude": -1.15376,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V519OUQ"
+    "importReview": "Recensement spécialisé mis à jour le 22 avril 2026 : aire de services gratuite. Absence de vérification directe de l'arrêté municipal ou de la tarification actuelle.",
+    "sourceId": "ACCAMPDL044V519OUQ",
+    "sourceOfficial": "https://lepin.fr/",
+    "priceSource": "https://www.campingcar76.fr/Site%20P08%2044%20Aires%20services%20Loire%20Atlantique%20(Pays%20de%20Loire).htm",
+    "servicesSource": "https://www.campingcar76.fr/Site%20P08%2044%20Aires%20services%20Loire%20Atlantique%20(Pays%20de%20Loire).htm"
   },
   {
     "department": "49",
@@ -1614,19 +1621,19 @@
     "department": "44",
     "name": "Aire de pique-nique",
     "city": "SAINT-NICOLAS-DE-REDON",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire de pique-nique — accueil camping-car non établi",
     "services": [
       "Services non renseignés"
     ],
     "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.6321,
     "longitude": -2.0523,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
+    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
     "sourceId": "ACCAMPDL044V51HCGD"
   },
   {
@@ -2737,19 +2744,19 @@
     "department": "44",
     "name": "Aire de pique-nique",
     "city": "PIERRIC",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire de pique-nique — accueil camping-car non établi",
     "services": [
       "Services non renseignés"
     ],
     "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.70237,
     "longitude": -1.83513,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
+    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
     "sourceId": "ACCAMPDL044V51HCG7"
   },
   {
@@ -3704,38 +3711,47 @@
     "department": "44",
     "name": "Aire Camping-Car Camping de Beslé",
     "city": "GUEMENE-PENFAO",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire d'accueil camping-car dans le camping du Port de Beslé",
     "services": [
+      "Emplacements camping-car au sein du camping",
+      "Bornes électriques",
+      "Vidange des eaux usées",
+      "Sanitaires, douches et WC",
+      "Lave-linge et sèche-linge",
+      "Wi-Fi",
       "Aire de pique-nique"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "À partir de 9 € le forfait journalier selon les informations de l'Office de tourisme du Pays de Redon ; montant affiché dans une grille antérieure (2025). Tarif exact 2026 et supplément électricité à confirmer auprès du camping.",
+    "status": "Camping du Port de Beslé, 44290 Guémené-Penfao. Accueil saisonnier annoncé d'avril à septembre. Ce n'est pas une aire de stationnement autonome ; accès et tarifs gérés par le camping.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.70084,
     "longitude": -1.86722,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V51HCFY"
+    "importReview": "Recoupement octobre 2026 Office de tourisme Pays de Redon : structure, services et saisonnalité identifiés. Le 9 € est un prix d'appel sans validation de la grille 2026.",
+    "sourceId": "ACCAMPDL044V51HCFY",
+    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-camping-car-camping-de-besle/",
+    "priceSource": "https://tourisme-pays-redon.com/hebergement/aire-camping-car-camping-de-besle/",
+    "servicesSource": "https://tourisme-pays-redon.com/hebergement/aire-camping-car-camping-de-besle/"
   },
   {
     "department": "44",
     "name": "Aire de pique-nique",
     "city": "FEGREAC",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire de pique-nique — accueil camping-car non établi",
     "services": [
       "Services non renseignés"
     ],
     "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.59892,
     "longitude": -2.08918,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
+    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
     "sourceId": "ACCAMPDL044V51HCG2"
   },
   {
@@ -3934,39 +3950,44 @@
     "department": "44",
     "name": "Aire de service de Kerlagadec",
     "city": "MESQUER",
-    "type": "Aire de stationnement",
+    "type": "Borne de services uniquement — stationnement interdit",
     "services": [
-      "Déchets",
-      "Eau potable (source ouverte)"
+      "Ravitaillement en eau",
+      "Vidange des eaux usées",
+      "Paiement par carte bancaire sans contact",
+      "Poubelles"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Paiement des services par carte bancaire sans contact. Montant 2026 non publié sur la fiche régionale ; à vérifier à la borne. Stationnement interdit.",
+    "status": "Route de Kerlagadec, 44420 Mesquer. Borne de services uniquement ; aucun stationnement ou nuitée autorisés ici selon la Région Pays de la Loire. Pour stationner, utiliser la Bôle de Merquel ou le parc de la Lande.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.39628,
     "longitude": -2.46817,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMECCMESQUER"
+    "importReview": "Contrôle octobre 2026 : l'intitulé de classification e-SPRIT « aire de stationnement » est contredit par sa propre description indiquant expressément stationnement interdit. Corrigé selon la page touristique régionale.",
+    "sourceId": "ACCAMECCMESQUER",
+    "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec",
+    "priceSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec",
+    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec"
   },
   {
     "department": "44",
     "name": "Aire de pique-nique",
     "city": "PLESSE",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire de pique-nique — accueil camping-car non établi",
     "services": [
       "Services non renseignés"
     ],
     "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.55694,
     "longitude": -1.83597,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
+    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
     "sourceId": "ACCAMPDL044V51HCG9"
   },
   {
@@ -3998,19 +4019,19 @@
     "department": "44",
     "name": "Aire de pique-nique",
     "city": "AVESSAC",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire de pique-nique — accueil camping-car non établi",
     "services": [
       "Services non renseignés"
     ],
     "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.657,
     "longitude": -1.98766,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
+    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
     "sourceId": "ACCAMPDL044V51HCFZ"
   },
   {
@@ -4545,7 +4566,7 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE STATIONNEMENT",
+    "name": "Stationnement camping-car des étangs de la Madeleine – Fay-de-Bretagne",
     "city": "FAY-DE-BRETAGNE",
     "type": "Aire de stationnement",
     "services": [
@@ -4555,16 +4576,19 @@
       "Toilettes",
       "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement indiqué gratuit par les guides camping-car indépendants (2026). Aucun barème municipal 2026 vérifié ; contrôler la signalisation à l'entrée.",
+    "status": "Étangs de la Madeleine, Fay-de-Bretagne. Stationnement et borne de services séparés de quelques centaines de mètres : ne pas confondre la zone de nuitée avec la borne. Des avis récents évoquent une limite de 48 h ; vérifier l'affichage communal.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.4142222,
     "longitude": -1.785989,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V50ZKR0"
+    "importReview": "Sources croisées octobre 2026 : i-CampingCar et annuaires indépendants indiquent la gratuité ; absence de confirmation de la tarification par une page municipale actuelle.",
+    "sourceId": "ACCAMPDL044V50ZKR0",
+    "sourceOfficial": "https://www.fay-de-bretagne.fr/",
+    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE",
+    "servicesSource": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE"
   },
   {
     "department": "44",
@@ -4845,19 +4869,19 @@
     "department": "44",
     "name": "Aire de pique-nique",
     "city": "CONQUEREUIL",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire de pique-nique — accueil camping-car non établi",
     "services": [
       "Services non renseignés"
     ],
     "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.6247929,
     "longitude": -1.750375,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
+    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
     "sourceId": "ACCAMPDL044V51HCG0"
   },
   {
@@ -5435,23 +5459,28 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE STATIONNEMENT SITE DE LA FORGE NEUVE - MOISDON LA RIVIERE",
+    "name": "Halte de la Forge Neuve – Moisdon-la-Rivière",
     "city": "MOISDON-LA-RIVIERE",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire de stationnement touristique (nuitée à confirmer)",
     "services": [
-      "Aire de pique-nique",
-      "Toilettes"
+      "Stationnement au départ des sentiers",
+      "Transats / détente sur place selon l'office de tourisme",
+      "Pêche autorisée dans les conditions locales",
+      "Aucune borne eau, vidange ou électricité confirmée"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarif de nuitée non communiqué sur la fiche de l'Office de tourisme de Châteaubriant ; autorisation du stationnement nocturne à confirmer.",
+    "status": "Rue de la Halle du Fourneau, 44520 Moisdon-la-Rivière, près du site historique de la Forge Neuve et de l'étang. Halte touristique distincte de celle des Grées Brûlées à Grand-Auverné.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.604728,
     "longitude": -1.34863,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V51CY23"
+    "importReview": "Fiche officielle de l'office de tourisme consultée en octobre 2026 : site, localisation et équipements touristiques identifiés, pas de borne technique ni de tarif de nuitée documenté.",
+    "sourceId": "ACCAMPDL044V51CY23",
+    "sourceOfficial": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-site-de-la-forge-neuve-moisdon-la-riviere/",
+    "priceSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-site-de-la-forge-neuve-moisdon-la-riviere/",
+    "servicesSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-site-de-la-forge-neuve-moisdon-la-riviere/"
   },
   {
     "department": "44",
@@ -5629,19 +5658,19 @@
     "department": "44",
     "name": "Aire de pique-nique",
     "city": "GUEMENE-PENFAO",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire de pique-nique — accueil camping-car non établi",
     "services": [
       "Services non renseignés"
     ],
     "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.7012569,
     "longitude": -1.8661508,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
+    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
     "sourceId": "ACCAMPDL044V51HCG4"
   },
   {
@@ -7509,26 +7538,28 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE SERVICE",
+    "name": "Borne de services des étangs de la Madeleine – Fay-de-Bretagne",
     "city": "FAY-DE-BRETAGNE",
-    "type": "Aire de service",
+    "type": "Aire de services — stationnement camping-car à proximité",
     "services": [
-      "Aire de pique-nique",
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Toilettes",
-      "Vidange"
+      "Vidange des eaux usées",
+      "Vidange cassette WC",
+      "Point d'eau signalé par les guides indépendants",
+      "Pas de branchement électrique confirmé"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Services indiqués gratuits par les guides camping-car indépendants ; fonctionnement et gratuité 2026 à vérifier à la borne.",
+    "status": "Étangs de la Madeleine, Fay-de-Bretagne. Borne de vidange/eau distincte des emplacements de stationnement près du plan d'eau. Pas d'électricité confirmée ; certains relevés signalent des interruptions saisonnières.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.4149851,
     "longitude": -1.7885561,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V5001HL"
+    "importReview": "Sources indépendantes recoupées en octobre 2026 ; distinction explicite des deux espaces, prix et état en 2026 restant à confirmer auprès de la mairie.",
+    "sourceId": "ACCAMPDL044V5001HL",
+    "sourceOfficial": "https://www.fay-de-bretagne.fr/",
+    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE",
+    "servicesSource": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE"
   },
   {
     "department": "44",
