@@ -99,8 +99,11 @@
     "name": "Aire de stationnement Estrablin / La Tabourette",
     "city": "Estrablin",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Gratuit : stationnement de 7 camping-cars, sans services indiqués",
+    "services": [
+      "Stationnement camping-cars autorisé",
+      "Parking sans borne de services mentionnée"
+    ],
+    "price": "Gratuit (office de tourisme, ouverture annoncée toute l'année 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/11943242007",
     "latitude": 45.5160175,
@@ -113,7 +116,9 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.alpes-isere.com/en/sit/aire-de-stationnement-de-la-tabourette-94858/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Office de tourisme : ouverture 2026 et gratuité affichée ; source mise à jour en 2024."
+    "priceNote": "Office de tourisme : ouverture 2026 et gratuité affichée ; source mise à jour en 2024.",
+    "sourceOfficial": "https://www.alpes-isere.com/en/sit/aire-de-stationnement-de-la-tabourette-94858/",
+    "verificationNote": "502 route de la Tabourette, place de la Tabourette. Ouvert toute l'année sauf jours fériés selon fiche Alpes Isère. La fiche touristique donne 45.515895,4.936595 : comparer au point OSM avant toute correction GPS."
   },
   {
     "department": "38",
@@ -141,9 +146,11 @@
     "city": "Cessieu",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
+      "Stationnement camping-cars",
+      "Aire de pique-nique",
       "Toilettes"
     ],
-    "price": "Gratuit ; taxe de séjour non incluse selon l'office de tourisme",
+    "price": "Gratuit (office de tourisme des Vals du Dauphiné) ; taxe de séjour indiquée non incluse, sans montant",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12135409868",
     "latitude": 45.5669257,
@@ -155,7 +162,9 @@
     "sourceId": "node/12135409868",
     "servicesSource": "https://www.openstreetmap.org/node/12135409868",
     "priceSource": "https://tourisme-valsdudauphine.fr/je-prepare/hebergements/aires-de-camping-car/434519_aire-de-stationnement-campings-cars-du-pre-de-battoir/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://tourisme-valsdudauphine.fr/je-prepare/hebergements/aires-de-camping-car/434519_aire-de-stationnement-campings-cars-du-pre-de-battoir/",
+    "verificationNote": "Entrée de Cessieu, route de Lyon ; ouvert toute l'année. Fiche Alpes Isère mise à jour le 13/04/2026. Coordonnées touristiques 45.567945,5.357467 à comparer au point existant."
   },
   {
     "department": "38",
