@@ -309,7 +309,7 @@
     "services": [
       "Stationnement"
     ],
-    "price": "Stationnement gratuit selon Campercontact (à vérifier sur place)",
+    "price": "Tarif à confirmer (gratuité signalée par Campercontact, réglementation municipale à vérifier)",
     "status": "Point OSM recoupé par Campercontact et CamperOnLine ; stationnement sans services de vidange, tarif à vérifier sur place",
     "source": "https://www.openstreetmap.org/way/858627385",
     "latitude": 47.1700777,
@@ -321,7 +321,7 @@
     "sourceId": "way/858627385",
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
     "sourceMunicipalContext": "https://www.ville-chinon.com/fileadmin/contenu/documents/compte-rendu-cm/pv_du_conseil_municipal_du_01_10_2024.pdf",
-    "verificationNote": "Coordonnées Campercontact 47.17008,0.24167 concordantes avec OSM 47.1700777,0.2417931. Parking avenue François Mitterrand distinct de Camping-Car Park 2 route de Pontille (47.16438,0.231865), de Station U et de l'aire mentionnée par la mairie à l'Île Auger. Tarif gratuit signalé par communauté, non officiellement validé.",
+    "verificationNote": "Campercontact et CamperOnLine recoupent le point OSM avenue François Mitterrand. L'arrêté municipal de stationnement de juin 2018 réglemente certaines places de l'avenue en zone orange payante, sans démontrer qu'il s'agit du parking camping-car concerné : ne pas présenter la gratuité communautaire comme tarif municipal garanti. Source: https://www.ville-chinon.com/fileadmin/contenu/documents/voirie-domaine-public-publicite/arrete_prix_stationnement_juin_2018.pdf",
     "address": "Avenue François Mitterrand, 37500 Chinon",
     "sourceSecondary": "https://www.campercontact.com/en/france/centre-val-de-loire/chinon/71034/aire-de-camping-car-chinon",
     "sourceSecondary2": "https://www.camperonline.it/sosta-camper/aree-di-sosta/chinon/279"
@@ -557,10 +557,11 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1286326472",
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
-    "verificationNote": "Park4night GPS 47.2579,0.4642 proche d'OSM 47.2582193,0.4643755. Avis récents 2026 confirment usage camping-car ; gratuité, capacité et limite de 24 h communautaires, non vérifiées par mairie. Distinct de l'aire Interparking rue du Stade.",
+    "verificationNote": "L'office de tourisme confirme un parking camping-car rue de Chinon à Cheillé (8 places, gratuit, 24 h max, sans services), mais la correspondance GPS exacte avec OSM way/1286326472 (Le Moulin d'Azay) n'est pas démontrée. Ne pas transformer cette fiche en aire officiellement vérifiée sans géolocalisation.",
     "sourceSecondary": "https://park4night.com/fr/place/57178",
     "sourceSecondaryTourism": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-stationnement-camping-car-cheille-fr-5258813/",
-    "address": "590 Le Moulin d'Azay, 37190 Cheillé"
+    "address": "590 Le Moulin d'Azay, 37190 Cheillé",
+    "sourceTourismContext": "https://www.azay-chinon-valdeloire.com/en/fiches/aire-de-stationnement-camping-car/"
   },
   {
     "department": "37",
