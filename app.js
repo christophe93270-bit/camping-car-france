@@ -190,7 +190,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Haute-Saône indisponible",error); }
     let juraAires=[];
     try {
-      const response39=await fetch("aires-jura.json?v=20261014-1", {cache:"no-store"});
+      const response39=await fetch("aires-jura.json?v=20261019-2", {cache:"no-store"});
       if(response39.ok) juraAires=await response39.json();
     } catch(error) { console.warn("Chargement Jura indisponible",error); }
     let doubsAires=[];
