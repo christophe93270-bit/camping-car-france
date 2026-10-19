@@ -535,7 +535,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Tarif publié pour 2025 : à partir de 20 € / jour ou 90 € / semaine ; taxe de séjour 0,66 € / jour / personne ; tarif 2026 à confirmer",
+    "price": "Aire payante par automate CB ; tarif de séjour 2026 non publié sur la fiche officielle (référence 2025 : dès 20 €/jour ou 90 €/semaine) ; taxe de séjour camping-car : 0,66 € / nuit / personne",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/993968544",
     "latitude": 45.156824,
@@ -547,9 +547,11 @@
     "sourceId": "way/993968544",
     "servicesSource": "https://www.openstreetmap.org/way/993968544",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
-    "priceSource": "https://www.alpes-isere.com/sit/accueil-aire-de-camping-cars-439175/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Dernier tarif daté 2025 sur la fiche de l'office de tourisme, ne pas présenter comme tarif 2026."
+    "priceSource": "https://www.oisans.com/camping/accueil-aire-de-camping-cars/",
+    "priceVerifiedOn": "2026-10-19",
+    "priceNote": "Dernier tarif daté 2025 sur la fiche de l'office de tourisme, ne pas présenter comme tarif 2026.",
+    "sourceOfficial": "https://www.vaujany.com/fr/hebergements/accueil-aire-de-camping-cars/",
+    "verificationNote": "Office de tourisme Vaujany : 10 places, route des Combes, ouvert toute l'année, eau, vidanges, électricité, paiement CB par automate. La fiche Oisans actualisée le 08/10/2026 indique taxe de séjour 0,66 €/jour/personne, mais aucun tarif 2026 de stationnement. Le tarif de 20 €/jour et 90 €/semaine concerne 2025 seulement. La fiche Alpes-Isère géolocalise l'aire à 45.157146,6.081628, différente du point OSM enregistré : localisation exacte à vérifier avant modification GPS."
   },
   {
     "department": "38",
