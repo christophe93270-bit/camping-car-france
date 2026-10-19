@@ -73,8 +73,8 @@
     "services": [
       "Stationnement gratuit une nuit"
     ],
-    "price": "Stationnement gratuit pour une nuit selon l'office de tourisme. Services techniques au camping de Sologne, tarifs distincts non confirmés.",
-    "status": "Rue de l'Abreuvoir, au bord de la Sauldre, 41300 Salbris. Stationnement gratuit limité à une nuit ; la vidange et l'eau sont à rechercher sur l'aire du camping de Sologne, distincte de ce parking.",
+    "price": "Stationnement gratuit pour une nuit selon Sologne Tourisme ; tarifs d'éventuels services au camping de Sologne séparé, non applicables à ce parking.",
+    "status": "Rue de l'Abreuvoir, 41300 Salbris. Une nuit gratuite autorisée sur le parking près de la Sauldre selon l'office de tourisme. Pas de borne de services confirmée à cet emplacement : camping de Sologne distinct pour eau et vidanges.",
     "source": "https://www.openstreetmap.org/node/11922676005",
     "latitude": 47.4267508,
     "longitude": 2.0496952,
@@ -92,14 +92,15 @@
     "city": "Tour-en-Sologne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Stationnement",
-      "Eau potable (jetons)",
-      "Électricité (jetons)",
-      "Vidange eaux usées",
-      "Sanitaires publics"
+      "Stationnement gratuit (4 emplacements)",
+      "Eau potable (2,50 € / 100 L)",
+      "Électricité (2,50 € / 1 h)",
+      "Vidange eaux usées gratuite",
+      "Rinçage gratuit",
+      "Toilettes publiques"
     ],
-    "price": "Stationnement autorisé ; montant non publié par l'office de tourisme. Eau et électricité à jetons achetés en mairie ; prix des jetons à confirmer.",
-    "status": "Place Chéramy, face à l'église, 41250 Tour-en-Sologne. Aire communale avec toilettes, eau, électricité, vidange et aire de pique-nique ; jetons en vente à la mairie.",
+    "price": "Stationnement gratuit (4 places), confirmé pour 2026 par Blois-Chambord Tourisme. Jeton : 2,50 € pour 100 litres d'eau ou 1 heure d'électricité ; vidange et rinçage gratuits (mairie).",
+    "status": "Parking Pierre Chéramy, face à l'église : 4 emplacements, stationnement gratuit toute l'année 2026 selon Blois-Chambord Tourisme. Mairie : borne eau et électricité à jetons achetés en mairie ou à la boulangerie, 2,50 € le jeton ; vidange/rinçage gratuits ; eau susceptible d'être coupée hors gel.",
     "source": "https://www.openstreetmap.org/node/11922770603",
     "latitude": 47.5376045,
     "longitude": 1.499629,
@@ -110,7 +111,8 @@
     "sourceId": "node/11922770603",
     "servicesSource": "https://www.openstreetmap.org/node/11922770603",
     "cityVerificationNote": "Commune confirmée par la fiche officielle de l'office de tourisme.",
-    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-et-de-services-pour-camping-cars-tour-en-sologne-acccen000v5000gd/"
+    "sourceOfficial": "https://www.tourensologne.fr/mes-services-et-demarches/espaces-et-equipements-publics/aire-de-camping-cars/",
+    "priceSource": "https://www.tourensologne.fr/mes-services-et-demarches/espaces-et-equipements-publics/aire-de-camping-cars/"
   },
   {
     "department": "41",
@@ -148,8 +150,8 @@
     "services": [
       "Stationnement (8 places selon Vendôme Tourisme)"
     ],
-    "price": "Stationnement gratuit selon annuaire tiers ; tarif et conditions 2026 non confirmés par l'office de tourisme.",
-    "status": "Boulevard des Alliés, 41800 Montoire-sur-le-Loir, au bord du Loir, à 150 m du centre. Vendôme Tourisme décrit 8 emplacements (fiche datée 2020). Aire distincte du CAMPING-CAR PARK des Reclusages plus au sud et de la gare historique au nord ; tarif actuel à vérifier.",
+    "price": "Stationnement gratuit boulevard des Alliés selon l'office de tourisme de Vendôme (2026) ; vérifier les zones bleues et la durée autorisée pour un camping-car.",
+    "status": "Boulevard des Alliés, 41800 Montoire-sur-le-Loir, aire repérée en OpenStreetMap. Vendôme Tourisme confirme la gratuité des parkings du boulevard et distingue les zones bleues (2 h autorisées avec disque sur les plages réglementées). Les 8 places et l'autorisation de nuitées doivent être revalidées pour cette aire précise. Ne pas confondre avec le parvis de la gare historique ni l'aire CAMPING-CAR PARK des Reclusages.",
     "source": "https://www.openstreetmap.org/way/361417455",
     "latitude": 47.7500283,
     "longitude": 0.8634125,
@@ -158,8 +160,9 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/361417455",
-    "sourceOfficial": "https://www.cirkwi.com/fr/point-interet/1153595-aire-de-stationnement-pour-campings-cars",
-    "cityVerificationNote": "Commune et lieu recoupés avec une fiche de l'office de tourisme ou une source directe."
+    "sourceOfficial": "https://www.vendome-tourisme.fr/pratique/se-deplacer/sur-place/",
+    "cityVerificationNote": "Commune et lieu recoupés avec une fiche de l'office de tourisme ou une source directe.",
+    "priceSource": "https://www.vendome-tourisme.fr/pratique/se-deplacer/sur-place/"
   },
   {
     "department": "41",
@@ -235,10 +238,10 @@
     "city": "Saint-Dyé-sur-Loire",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Stationnement gratuit (4 places selon office de tourisme)"
+      "Stationnement gratuit (4 emplacements)"
     ],
-    "price": "Stationnement gratuit selon la mairie de Saint-Dyé-sur-Loire ; coûts éventuels de services à confirmer.",
-    "status": "Parking de la base nautique, bords de Loire, Saint-Dyé-sur-Loire. Aire de stationnement gratuite confirmée par la mairie, 4 emplacements indiqués par Blois-Chambord Tourisme ; ouverture annoncée toute l'année 2026.",
+    "price": "Stationnement gratuit (4 emplacements), confirmé par la mairie et Blois-Chambord Tourisme. Aucun coût de service applicable tant qu'aucune borne n'est attestée à ce parking.",
+    "status": "Parking de la base nautique, bords de Loire, 41500 Saint-Dyé-sur-Loire. 4 emplacements, stationnement gratuit et ouverture toute l'année 2026 selon Blois-Chambord Tourisme. Les fiches consultées ne confirment ni eau, ni électricité, ni vidange sur ce parking.",
     "source": "https://www.openstreetmap.org/way/635395225",
     "latitude": 47.6544932,
     "longitude": 1.4782524,
@@ -285,8 +288,8 @@
       "Eau potable gratuite (hors gel)",
       "Vidange eaux usées gratuite (hors gel)"
     ],
-    "price": "Eau et vidange gratuites hors période de gel selon l'office de tourisme ; stationnement de nuit non confirmé.",
-    "status": "2-6 chemin du Rouaire, près du local technique municipal, 41300 Theillay. La source officielle ne décrit qu'un point de services gratuits et n'atteste aucun emplacement de nuit.",
+    "price": "Services gratuits : ravitaillement en eau et vidange des eaux usées, hors période de gel (Sologne Tourisme). Ce point de services ne dispose pas de stationnement nocturne officiellement attesté.",
+    "status": "2-6 chemin du Rouaire, 41300 Theillay. Point de services gratuit (eau, vidange), sauf période de gel ; ouvert 24 h/24. Une nuit sur place n'est pas attestée : ne pas présenter ce point comme une aire de séjour.",
     "source": "https://www.openstreetmap.org/way/907675160",
     "latitude": 47.3183972,
     "longitude": 2.0377318,
@@ -376,7 +379,7 @@
       "Eau potable",
       "Vidange eaux usées"
     ],
-    "price": "Stationnement gratuit jusqu'à 24 h réservé aux adhérents France Passion (macaron 2026 requis) ; prix éventuels des services non précisés.",
+    "price": "Stationnement France Passion gratuit pour les adhérents, dans la limite de 24 h (office de tourisme) ; prix éventuel de l'eau et de la vidange non publié.",
     "status": "5 voie de la Démalerie, 41700 Cheverny. Accueil France Passion limité à 24 h, 5 emplacements, eau et vidange selon l'office de tourisme. Véhicule autonome et adhésion France Passion en cours de validité obligatoires ; vérifier la participation de l'hôte dans l'application 2026.",
     "source": "https://www.openstreetmap.org/way/1285203608",
     "latitude": 47.4856402,
@@ -398,8 +401,8 @@
       "Stationnement nocturne gratuit",
       "Sanitaires"
     ],
-    "price": "Stationnement gratuit selon l'office de tourisme ; services d'eau ou électricité non précisés.",
-    "status": "Route de Neuvy, près de l'étang communal, 41250 Bauzy. Aire de stationnement gratuite avec sanitaires ; durée maximale non précisée.",
+    "price": "Stationnement gratuit selon l'office de tourisme (étang communal).",
+    "status": "Route de Neuvy, près de l'étang communal, 41250 Bauzy. Stationnement gratuit avec sanitaires ; durée maximale et présence d'eau/électricité non précisées sur la fiche touristique.",
     "source": "https://www.openstreetmap.org/way/1285209146",
     "latitude": 47.5372672,
     "longitude": 1.6096205,
@@ -421,7 +424,7 @@
       "Stationnement (4 emplacements)",
       "Eau potable (coût éventuel à confirmer)"
     ],
-    "price": "Étape gratuite jusqu'à 24 h uniquement pour les membres France Passion disposant du macaron de l'année ; coût de l'eau non précisé.",
+    "price": "Stationnement France Passion gratuit pour les adhérents, dans la limite de 24 h (office de tourisme) ; prix éventuel du point d'eau non publié.",
     "status": "Domaine de la Doltière, 1121 chemin de la Doltière, 41110 Châteauvieux. Office de tourisme : 4 places, séjour de 24 h maximum, branchement d'eau et adhésion France Passion obligatoire ; vérifier l'accueil de l'année avant déplacement.",
     "source": "https://www.openstreetmap.org/way/1285210622",
     "latitude": 47.23257,
@@ -466,14 +469,14 @@
     "city": "Saint-Georges-sur-Cher",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Stationnement (12 places)",
-      "Électricité (prise par emplacement, tarif à contrôler)",
+      "Stationnement gratuit (12 emplacements)",
+      "Électricité gratuite à chaque emplacement",
       "Eau potable (5 € / 100 L)",
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "Stationnement gratuit selon guide indépendant 2026 ; eau 5 € / 100 litres selon La Loire à Vélo, à confirmer sur place. Électricité signalée gratuite par des visiteurs en 2026.",
-    "status": "Rue de Verdun, 41400 Saint-Georges-sur-Cher. La Loire à Vélo décrit 12 emplacements, prises électriques, borne Euro-Relais à jetons, vidanges et tarif de l'eau 5 €/100 L. Plusieurs visites de 2026 indiquent un stationnement gratuit et de l'électricité disponible sans supplément, mais il faut vérifier les règles et tarifs à la borne ; route passante à proximité.",
+    "price": "Stationnement et électricité gratuits en 2026 (tourisme régional). Eau : 5 € pour 100 litres (La Loire à Vélo). Vidange et autres prestations : vérifier les jetons auprès de la mairie.",
+    "status": "Rue de Verdun, 41400 Saint-Georges-sur-Cher. 12 emplacements plats avec une prise électrique par place ; stationnement et électricité gratuits, confirmés dans la fiche touristique 2026. Borne Euro-Relais à jetons en vente auprès des commerçants ou de la mairie. Eau : 5 €/100 L selon La Loire à Vélo ; ouvert toute l'année 2026.",
     "source": "https://www.openstreetmap.org/way/1285560337",
     "latitude": 47.3262903,
     "longitude": 1.125171,
@@ -484,7 +487,8 @@
     "sourceId": "way/1285560337",
     "servicesSource": "https://www.openstreetmap.org/way/1285560337",
     "cityVerificationNote": "Commune et lieu recoupés avec une fiche de l'office de tourisme ou une source directe.",
-    "sourceOfficial": "https://www.loireavelo.fr/tsft/aire-de-camping-cars-de-saint-georges-sur-cher-saint-georges-sur-cher/"
+    "sourceOfficial": "https://www.valdeloire-france.com/aire-camping-car/aire-de-camping-cars-saint-georges-sur-cher/",
+    "priceSource": "https://www.valdeloire-france.com/aire-camping-car/aire-de-camping-cars-saint-georges-sur-cher/"
   },
   {
     "department": "41",
@@ -499,8 +503,8 @@
       "Vidange toilettes chimiques",
       "Sanitaires"
     ],
-    "price": "Stationnement gratuit selon guide spécialisé (à confirmer auprès de la mairie) ; eau, électricité et vidange accessibles par jetons payants, coût à confirmer.",
-    "status": "Route de Chaumont-sur-Tharonne, La Ferté-Beauharnais, près de l'étang communal. L'office de tourisme confirme environ 40 emplacements et des bornes de service à jetons vendus en mairie ou dans les commerces ; prix du jeton non publié.",
+    "price": "Jeton de services eau/électricité : 2 € (tarif publié sur le site de la mairie). Stationnement gratuit d'après un guide spécialisé, sans confirmation tarifaire explicite par la mairie.",
+    "status": "Aire d'accueil en entrée du site de l'étang communal. Mairie : borne eau, électricité et vidanges eaux usées / WC chimiques, jetons à 2 € vendus à l'épicerie ou en mairie. Environ 40 emplacements selon l'office de tourisme ; gratuité et limite de stationnement à faire confirmer par la commune.",
     "source": "https://www.openstreetmap.org/way/1293045443",
     "latitude": 47.5449634,
     "longitude": 1.8491185,
@@ -510,7 +514,8 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1293045443",
     "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée.",
-    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-et-de-services-pour-camping-cars-la-ferte-beauharnais-acccen00000037/"
+    "sourceOfficial": "https://la-ferte-beauharnais.fr/index.php/decouvrir-la-ferte/",
+    "priceSource": "https://la-ferte-beauharnais.fr/index.php/decouvrir-la-ferte/"
   },
   {
     "department": "41",
@@ -547,8 +552,8 @@
       "Vidange toilettes chimiques",
       "Stationnement nocturne"
     ],
-    "price": "Stationnement autorisé ; tarif du stationnement non publié. Services eau et électricité par jetons payants, montant non confirmé.",
-    "status": "Place du 11 Novembre, 41320 Mennetou-sur-Cher. Aire de services Euro Relais, eau et électricité par jetons vendus en mairie, à l'office de tourisme ou chez les commerçants ; borne indisponible en période de gel.",
+    "price": "Stationnement gratuit selon des avis de visiteurs de juillet et septembre 2026 (non confirmé par la commune) ; borne à jetons, un visiteur indique 2 € le jeton en septembre 2026, à confirmer auprès de la mairie.",
+    "status": "Place du 11 Novembre, 41320 Mennetou-sur-Cher : aire près de la cité médiévale, borne Euro-Relais eau et électricité par jetons disponibles en mairie ou à l'office de tourisme ; services coupés en période de gel. Des avis de camping-caristes datés de septembre 2026 indiquent un parking gratuit et 2 € pour un jeton eau : information de terrain non officielle à vérifier.",
     "source": "https://www.openstreetmap.org/way/1315193175",
     "latitude": 47.2682877,
     "longitude": 1.8644059,
@@ -559,6 +564,7 @@
     "sourceId": "way/1315193175",
     "servicesSource": "https://www.openstreetmap.org/way/1315193175",
     "cityVerificationNote": "Commune confirmée par la source directe ou touristique citée.",
-    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-services-camping-cars-acccen00000029/"
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-services-camping-cars-acccen00000029/",
+    "priceSource": "https://www.campingcar-infos.com/comments.php?id=1822"
   }
 ]
