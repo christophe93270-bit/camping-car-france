@@ -35,7 +35,14 @@ jobs:
               assert math.isfinite(lat) and math.isfinite(lon) and 45.1<lat<46.4 and 3.6<lon<4.9
               source="https://www.openstreetmap.org/"+key
               output.append({"department":"42","name":row["name"].strip(),"city":row.get("city") or "Commune à confirmer","type":"Aire de camping-car (à vérifier)","services":[],"price":"Non confirmé","status":"Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer","source":source,"latitude":lat,"longitude":lon,"gpsSource":source,"dataLicense":"ODbL","dataAttribution":"© OpenStreetMap contributors","importReview":"À contrôler avant déplacement","sourceId":key})
-          Path("aires-loire.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          # Protection des enrichissements : ne pas restaurer le fichier brut depuis OSM.
+          target = Path("aires-loire.json")
+          if target.exists():
+              current = json.loads(target.read_text(encoding="utf-8"))
+              if isinstance(current,list) and len(current)>0:
+                  print(f"PROTECTION : {len(current)} fiches existantes conservees. Import brut OSM ignore.")
+                  raise SystemExit(0)
+          target.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
           print("36 aires potentielles de Loire preparees")
           PY
       - name: Publier les aires
