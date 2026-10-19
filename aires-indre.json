@@ -302,12 +302,18 @@
   },
   {
     "department": "36",
-    "name": "Aire de camping-car Le Champ Perrot - La Pérouille",
+    "name": "Aire du Champ Perrot — Étang de la Roche",
     "city": "La Pérouille",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Stationnement camping-car avec borne de vidange",
+    "services": [
+      "Vidange des eaux usées",
+      "Vidange WC",
+      "Toilettes publiques",
+      "Aire de pique-nique",
+      "Stationnement de nuit"
+    ],
+    "price": "Stationnement gratuit ; vidange gratuite selon Berry Province (2026). Eau et électricité de la borne signalées hors service par voyageurs.",
+    "status": "Borne de vidange officiellement ouverte du 1er avril au 31 octobre 2026 ; stationnement signalé temporairement fermé par annuaire, vérifier avant déplacement",
     "source": "https://www.openstreetmap.org/way/907665618",
     "latitude": 46.7057263,
     "longitude": 1.522723,
@@ -316,7 +322,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/907665618",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
+    "address": "Le Champ Perrot, étang de la Roche, 36350 La Pérouille",
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/borne-de-camping-car-de-la-perouille/",
+    "priceSource": "https://www.berryprovince.com/aires-camping-cars/borne-de-camping-car-de-la-perouille/",
+    "verificationNote": "Berry Province confirme uniquement vidanges gratuites (eaux usées et WC chimiques), 1 borne et non une place. Témoignage park4night septembre 2026 : borne eau/vidange hors service ; l'électricité semblerait fonctionner mais non confirmée. Le stationnement gratuit est rapporté par i-campingcar, mais l'annuaire Le Campeur signale fermeture temporaire. Vérifier accès et services avant déplacement.",
+    "relatedSource": "https://park4night.com/fr/place/3751"
   },
   {
     "department": "36",
@@ -340,12 +351,16 @@
   },
   {
     "department": "36",
-    "name": "Aire de camping car d'Orsennes",
+    "name": "Aire de services et stationnement du Pré du Jardin",
     "city": "Orsennes",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Services eau et vidange : 2 € ; tarif du stationnement non confirmé.",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de services et stationnement",
+    "services": [
+      "Eau potable",
+      "Vidange des eaux usées",
+      "Stationnement de nuit"
+    ],
+    "price": "Stationnement gratuit ; forfait eau et vidange 2 € (tarifs touristiques 2026)",
+    "status": "Ouverte 24 h/24 toute l'année en 2026",
     "source": "https://www.openstreetmap.org/way/1155117295",
     "latitude": 46.4740194,
     "longitude": 1.6826637,
@@ -357,7 +372,11 @@
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
     "priceSource": "https://www.pays-george-sand.com/wp-content/uploads/2026/03/Aires-et-bornes-pour-camping-cars_2026.pdf",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Guide touristique 2026, aire du Pré du Jardin à Orsennes."
+    "priceNote": "Guide touristique 2026, aire du Pré du Jardin à Orsennes.",
+    "address": "Pré du Jardin, 36190 Orsennes",
+    "capacity": 8,
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/aire-de-service-et-aire-de-stationnement-pour-camping-cars-2/",
+    "verificationNote": "Berry Province confirme 8 places, parking gratuit, eau et vidange à 2 €, ouvert toute l'année. Électricité non mentionnée par l'office, ne pas annoncer."
   },
   {
     "department": "36",
@@ -467,15 +486,17 @@
   },
   {
     "department": "36",
-    "name": "Ardentes Aire Camping Car",
+    "name": "Aire de services de l'ancien stade d'Ardentes",
     "city": "Ardentes",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de services et stationnement",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Stationnement de nuit"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Eau et vidange : 3 € / 10 min ; électricité : 3 € / 4 h ; stationnement non tarifé dans la source",
+    "status": "Ouverte 24 h/24 toute l'année en 2026",
     "source": "https://www.openstreetmap.org/way/1431825800",
     "latitude": 46.7468846,
     "longitude": 1.828541,
@@ -485,7 +506,12 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1431825800",
     "servicesSource": "https://www.openstreetmap.org/way/1431825800",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
+    "address": "Ancien stade, avenue de Verdun (RD943), 36120 Ardentes",
+    "capacity": 5,
+    "sourceOfficial": "https://www.mairie-ardentes.com/page/aire-de-service-pour-camping-cars",
+    "priceSource": "https://www.berryprovince.com/aires-camping-cars/aire-daccueil-pour-camping-cars/",
+    "verificationNote": "Mairie et Berry Province concordent sur tarifs et emplacement à l'ancien stade : 5 places selon office de tourisme. L'électricité est fournie par borne de service ; pas de preuve de branchement individuel pour les cinq emplacements."
   },
   {
     "department": "36",
