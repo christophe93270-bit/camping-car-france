@@ -87,7 +87,7 @@
       "Wifi 43 gratuit",
       "Stationnement camping-car nocturne soumis à tarification municipale"
     ],
-    "price": "Eau, vidanges et wifi gratuits sur l'esplanade de l'ancienne gare. Stationnement de nuit soumis au tarif décidé par le conseil municipal (21/01/2022) : 2 € par nuit et par adulte, 1,50 € par nuit et par enfant. Vérifier auprès de la mairie l'application du barème en 2026.",
+    "price": "Eau, vidanges et wifi gratuits. Nuitées payantes selon la mairie : tarif issu d'une délibération du 21/01/2022 (2 € / adulte, 1,50 € / enfant par nuit). Un message ultérieur de la mairie datant de 2024 mentionne 1,50 € / adulte et 1 € / enfant ; tarif 2026 exact à confirmer auprès de la commune. La fiche My Haute-Loire mentionne « gratuit » pour les services et ne détaille pas les nuitées.",
     "status": "Esplanade de l'ancienne gare, 43300 Chanteuges. Aire communale avec eau, vidanges et wifi gratuits. Attention : la gratuité des services ne signifie pas gratuité des nuitées ; la commune a instauré un tarif par personne depuis 2022. Barème actuel à confirmer avant paiement.",
     "source": "https://www.openstreetmap.org/way/302425377",
     "latitude": 45.072548,
@@ -95,12 +95,13 @@
     "gpsSource": "https://www.openstreetmap.org/way/302425377",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Correction à partir de la page officielle de la mairie de Chanteuges, délibération du 21 janvier 2022. Tarification des nuitées à revalider localement pour 2026.",
+    "importReview": "Services gratuits confirmés par la mairie. Nuitées payantes mais barèmes divergents entre délibération 2022 et intervention municipale 2024 ; montant 2026 à confirmer.",
     "sourceId": "way/302425377",
     "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
     "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-service-camping-car-13/",
     "priceSource": "https://www.chanteuges.fr/aire-de-camping-car-commune-chanteuges-haut-allier",
-    "servicesSource": "https://www.chanteuges.fr/aire-de-camping-car-commune-chanteuges-haut-allier"
+    "servicesSource": "https://www.chanteuges.fr/aire-de-camping-car-commune-chanteuges-haut-allier",
+    "priceAlternativeSource": "https://park4night.com/fr/place/212097"
   },
   {
     "department": "43",
@@ -1431,7 +1432,7 @@
       "Dépôt des déchets",
       "Stationnement camping-car autorisé"
     ],
-    "price": "Tarif publié par la mairie : 2 € par nuit et par adulte, 1,50 € par nuit et par enfant ; tarif camping-car spécifique et validité 2026 à confirmer auprès de la commune. Ne pas confondre avec la borne gratuite de l'ancienne gare.",
+    "price": "Nuitée payante. Deux sources institutionnelles divergent : site de la mairie de Chanteuges = 2 € / adulte et 1,50 € / enfant par nuit ; fiche touristique régionale mise à jour le 21/01/2026 = 1,50 € / adulte et 1 € / enfant, taxe de séjour indiquée incluse. Confirmer auprès de la mairie le barème appliqué avant l'arrivée. Ne pas confondre ce camping avec la borne gratuite de l'ancienne gare.",
     "status": "La Gravière, 43300 Chanteuges, au bord de l'Allier entre Chanteuges et Saint-Arcons-d'Allier. Ouverture du 1er mai au 15 octobre. Camping limité à la zone délimitée par arrêté municipal, camping sauvage interdit aux abords. GPS de repérage issu d'un ancien guide, à confirmer sur place.",
     "source": "https://www.chanteuges.fr/aire-de-camping-naturelle-la-graviere-chanteuges",
     "sourceOfficial": "https://www.chanteuges.fr/aire-de-camping-naturelle-la-graviere-chanteuges",
@@ -1439,7 +1440,8 @@
     "latitude": 45.073855,
     "longitude": 3.537504,
     "gpsSource": "https://www.campingcar76.fr/Site%20P08%2043%20Aires%20services%20Haute%20Loire%20%28Rhone%20Alpes%29.htm",
-    "importReview": "25 emplacements, prix municipal et règles d'usage confirmés par mairie de Chanteuges ; les dates 2026 sont recoupées avec My Haute-Loire."
+    "importReview": "Mairie de Chanteuges et fiche régionale datée du 21 janvier 2026 recoupées le 19 octobre 2026. Prix incompatibles ; aucun tarif 2026 unique affirmé. Ouverture du 1er mai au 15 octobre, 25 places.",
+    "priceAlternativeSource": "https://www.laregionduvelo.fr/service/133-Aire-Naturelle-de-Camping-%7C-La-Graviere"
   },
   {
     "department": "43",
@@ -1770,5 +1772,27 @@
     "longitude": 4.1316,
     "gpsSource": "https://www.myhauteloire.fr/camping/aire-de-service-lav-oto-yssingeaux/",
     "importReview": "Station de vidange et accès 24 h/24 annoncés par My Haute-Loire. Avertissement explicite sur l'absence d'aire de stationnement repris sans ambiguïté."
+  },
+  {
+    "department": "43",
+    "name": "Accueil camping-car du lac de Saint-Front",
+    "city": "Saint-Front",
+    "type": "Accueil camping-car payant au camping du lac (réservé aux clients du bar ou de la pêche)",
+    "services": [
+      "Stationnement pour camping-cars au bord du lac",
+      "Point d'eau potable à proximité",
+      "Aire de pique-nique",
+      "Aucune borne de vidange ou d'électricité confirmée"
+    ],
+    "price": "8 € par emplacement camping-car selon la grille 2026 de la Maison du tourisme de Haute-Loire (du 1er mai au 30 novembre). Accueil réservé à la clientèle du bar ou des activités de pêche. Prestations et éventuels suppléments à demander au gestionnaire.",
+    "status": "Camping du lac de Saint-Front, bord du lac, 43550 Saint-Front. Terrain aménagé pour camping-cars et tentes, accessible du 1er mai au 30 novembre 2026 selon My Haute-Loire. GPS du point de halte corroboré par un répertoire participatif ; ne pas confondre avec les autres parkings situés autour du lac.",
+    "source": "https://www.myhauteloire.fr/camping/camping-du-lac-de-st-front/",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/camping-du-lac-de-st-front/",
+    "priceSource": "https://www.myhauteloire.fr/camping/camping-du-lac-de-st-front/",
+    "servicesSource": "https://www.myhauteloire.fr/camping/camping-du-lac-de-st-front/",
+    "latitude": 44.9796,
+    "longitude": 4.1727,
+    "gpsSource": "https://park4night.com/fr/place/64801",
+    "importReview": "Tarif 8 €, période et conditions d'accès confirmés par My Haute-Loire et fiche touristique régionale mise à jour le 03/04/2026 ; GPS corroboré par des avis 2026, emplacement de stationnement à confirmer sur place."
   }
 ]
