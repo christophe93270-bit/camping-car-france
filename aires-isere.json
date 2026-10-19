@@ -59,8 +59,11 @@
     "name": "Aire de Stationnement camping-car du télésiège de la Combe de l'Ours",
     "city": "Saint-Pierre-de-Chartreuse",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Gratuit selon tarif publié pour 2023 ; gratuité 2026 à reconfirmer",
+    "services": [
+      "Stationnement camping-car autorisé",
+      "Aucune borne de services sur place"
+    ],
+    "price": "Tarif 2026 non publié ; gratuité documentée pour 2023 uniquement, à reconfirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/11899162017",
     "latitude": 45.3579467,
@@ -72,7 +75,9 @@
     "sourceId": "node/11899162017",
     "priceSource": "https://www.alpes-isere.com/sit/aire-de-stationnement-camping-car-du-telesiege-de-la-combe-de-lours-210670/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Office de tourisme : fiche mise à jour le 10/04/2026, mais rubrique tarif datée de 2023. Ouverture annoncée avril-novembre, sans borne de services."
+    "priceNote": "Office de tourisme : fiche mise à jour le 10/04/2026, mais rubrique tarif datée de 2023. Ouverture annoncée avril-novembre, sans borne de services.",
+    "sourceOfficial": "https://www.alpes-isere.com/sit/aire-de-stationnement-camping-car-du-telesiege-de-la-combe-de-lours-210670/",
+    "verificationNote": "Parking de la Combe de l'Ours, 38380 Saint-Pierre-de-Chartreuse, accessible du 01/04 au 30/11/2026. Office de tourisme Cœur de Chartreuse, mise à jour le 10/04/2026. Prix gratuit indiqué uniquement pour la saison 2023 ; ne pas présenter comme tarif actuel."
   },
   {
     "department": "38",
@@ -280,7 +285,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "12,80 € / 24 h, dont 0,80 € de taxe de séjour (octobre-novembre 2026) ; 13,80 € / 24 h de décembre 2026 à avril 2027, taxe 2027 à reconfirmer",
+    "price": "01/10–30/11/2026 : 12 € / 24 h + taxe de séjour 0,80 € (total 12,80 €) ; 01/12/2026–30/04/2027 : 13 € / 24 h + taxe de séjour applicable ; services 5 h : 6 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/14279683580",
     "latitude": 45.5807591,
@@ -293,7 +298,9 @@
     "servicesSource": "https://www.openstreetmap.org/node/14279683580",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/romagnieu",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-19",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/romagnieu",
+    "verificationNote": "Exploitant CAMPING-CAR PARK : 24 emplacements, 190 chemin du Lac, 38480 Romagnieu. La grille saisonnière détaille 12 € hors taxe d'octobre à novembre 2026 et 13 € hors taxe de décembre 2026 à avril 2027. La taxe de séjour publiée à 0,80 € couvre 2026 ; son montant 2027 reste à vérifier. L'encart 'en ce moment' de la page peut différer de la grille saisonnière, privilégier les dates de celle-ci."
   },
   {
     "department": "38",
