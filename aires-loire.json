@@ -431,10 +431,13 @@
     "city": "Saint-Étienne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement payant (42 places)",
+      "Vidange eaux grises",
+      "Wifi",
+      "Gestion déchets"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "CAMPING-CAR PARK de Saint-Étienne : fourchette 5 à 13 € suivant formule selon le tourisme régional (2026), taxe de séjour de 0,90 € par personne et par jour en supplément. Le tarif exact de 24 h doit être confirmé sur le site de l'exploitant avant paiement.",
+    "status": "12 allée Chantegrillet, 42000 Saint-Étienne, aire CAMPING-CAR PARK de 42 emplacements, vidéo-surveillée, ouverte toute l'année 2026. Véhicules autonomes équipés de sanitaires acceptés, tentes, caravanes et véhicules non autonomes exclus. Tarif touristique 5 à 13 € selon formule (2026), variable à vérifier ; ne pas confondre avec l'aire de Saint-Victor-sur-Loire gratuite.",
     "source": "https://www.openstreetmap.org/way/1205983983",
     "latitude": 45.4352393,
     "longitude": 4.3970781,
@@ -444,7 +447,9 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1205983983",
     "servicesSource": "https://www.openstreetmap.org/way/1205983983",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et adresse identifiées sur Loire Tourisme en 2026 ; GPS cartographique OSM à confirmer par comparaison de parcelle.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/camping-car-park-de-saint-etienne-saint-etienne-fr-4379378/",
+    "priceSource": "https://legrandtour.auvergnerhonealpes-tourisme.com/aires-camping-car/camping-car-park-de-saint-etienne/"
   },
   {
     "department": "42",
@@ -452,10 +457,13 @@
     "city": "Saint-Martin-la-Plaine",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement payant (20 emplacements)",
+      "Électricité (6 A annoncés par exploitant)",
+      "Vidange eaux grises et toilettes",
+      "Wifi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Du 15/10/2026 au 31/12/2027 : 12,70 € hors taxe de séjour de 1,00 € / 24 h, soit 13,70 € TTC selon CAMPING-CAR PARK. 5 heures + services : 6 € ; tarifs saisonniers variables.",
+    "status": "51 rue Antoine Seytre, 42800 Saint-Martin-la-Plaine. Aire CAMPING-CAR PARK de 20 emplacements, près du parc zoologique. Tarif de 12,70 € / 24 h avant taxe de séjour à compter du 15 octobre 2026 ; taxe publiée 1 €. Vérifier le tarif affiché à la réservation ou sur borne.",
     "source": "https://www.openstreetmap.org/way/1284377777",
     "latitude": 45.5489311,
     "longitude": 4.5852269,
@@ -465,7 +473,9 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1284377777",
     "servicesSource": "https://www.openstreetmap.org/way/1284377777",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Adresse et commune confirmées par la fiche officielle de l'exploitant avec GPS 45.54893, 4.585224.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/loire/saint-martin-la-plaine?areaType=stopover-site-motorhome",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/loire/saint-martin-la-plaine?areaType=stopover-site-motorhome"
   },
   {
     "department": "42",
