@@ -331,10 +331,11 @@
     "type": "Point de services camping-cars (stationnement non attesté)",
     "services": [
       "Eau potable gratuite (hors gel)",
-      "Vidange eaux usées gratuite (hors gel)"
+      "Vidange eaux usées gratuite (hors gel)",
+      "Stationnement nocturne à proximité (3 places selon brochure 2025 ; accès à confirmer)"
     ],
-    "price": "Eau et vidange gratuites hors période de gel selon l'office de tourisme. Aucun tarif de stationnement : le lieu est décrit comme point de services uniquement.",
-    "status": "Chemin de Maisonfort, 41600 Lamotte-Beuvron. Attention : la fiche touristique officielle décrit seulement une aire de services (eau, vidange) ; pas de stationnement nocturne confirmé à cet emplacement.",
+    "price": "Services gratuits (eau et vidange) hors période de gel selon l'office de tourisme. Stationnement nocturne à proximité, chemin de Maisonfort : 8 € la nuit selon la brochure officielle Sologne Tourisme 2025 (tarif 2026 à confirmer).",
+    "status": "Chemin de Maisonfort, 41600 Lamotte-Beuvron. La fiche tourisme décrivait uniquement eau et vidange gratuites hors gel ; la brochure officielle Sologne Tourisme 2025 mentionne en outre une zone de stationnement de 3 emplacements à 8 €/nuit, vers 47.5972974, 2.0282742. GPS de la borne OSM différent d'environ 330 m : accès exact de la zone de nuit à confirmer. Camping-Car France n'assimile pas automatiquement la borne au parking. Contact mairie : 02 54 88 84 84.",
     "source": "https://www.openstreetmap.org/way/1232424286",
     "latitude": 47.5982525,
     "longitude": 2.0240553,
@@ -344,7 +345,8 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1232424286",
     "cityVerificationNote": "Commune confirmée par la fiche officielle de l'office de tourisme.",
-    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-services-pour-camping-cars-lamotte-beuvron-acccen000v5000bx/"
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-services-pour-camping-cars-lamotte-beuvron-acccen000v5000bx/",
+    "priceSource": "https://www.coeurdesologne.com/wp-content/uploads/2025/04/Camping-et-camping-car-1.pdf"
   },
   {
     "department": "41",
@@ -1396,5 +1398,47 @@
     "gpsSource": "https://www.cirkwi.com/fr/point-interet/662603-aire-de-stationnement-pour-camping-cars-thoury",
     "importReview": "Tarif 6 €/nuit contrôlé sur site exploitant ; réservation et services à confirmer",
     "cityVerificationNote": "Adresse validée par site de l'exploitant et coordonnées GPS de l'agence de développement touristique."
+  },
+  {
+    "department": "41",
+    "name": "Aire de stationnement de Vouzon – Étang communal",
+    "city": "Vouzon",
+    "type": "Aire municipale de stationnement camping-cars",
+    "services": [
+      "Stationnement nocturne gratuit (6 places)",
+      "Services de vidange et eau non confirmés pour ce parking"
+    ],
+    "price": "Stationnement gratuit près de l'étang communal (6 emplacements), selon brochure officielle Sologne Tourisme 2025. Aucun service technique ou tarif additionnel attesté sur place.",
+    "status": "Rue de la Sainte, 41600 Vouzon, aux abords de l'étang communal. Sologne Tourisme recense 6 places gratuites pour camping-cars ; coordonnées GPS 47.6434097, 2.06086169. Attention : ne pas confondre ce stationnement avec l'aire naturelle de CAMPING de Vouzon, payante et ouverte seulement d'avril à octobre selon la mairie. Se renseigner au 02 54 88 44 16.",
+    "source": "https://www.coeurdesologne.com/wp-content/uploads/2025/04/Camping-et-camping-car-1.pdf",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-car-vouzon-acccen000v5000gk/",
+    "priceSource": "https://www.coeurdesologne.com/wp-content/uploads/2025/04/Camping-et-camping-car-1.pdf",
+    "latitude": 47.6434097,
+    "longitude": 2.06086169,
+    "gpsSource": "https://www.cirkwi.com/fr/point-interet/662609-aire-de-stationnement-pour-camping-car-vouzon",
+    "importReview": "Stationnement gratuit vérifié dans la brochure officielle 2025 ; disponibilité en 2026 à reconfirmer",
+    "cityVerificationNote": "Adresse, coordonnées et 6 emplacements publiés par Sologne Tourisme ; point également répertorié par l'agence départementale sur Cirkwi."
+  },
+  {
+    "department": "41",
+    "name": "Aire de stationnement de Nouan-le-Fuzelier – Avenue de Paris",
+    "city": "Nouan-le-Fuzelier",
+    "type": "Aire municipale camping-cars (services en travaux)",
+    "services": [
+      "Stationnement gratuit (8 emplacements selon tourisme)",
+      "Vidange possible mais borne et utilisation à vérifier",
+      "Pas d'eau de rinçage confirmée",
+      "Eau potable et électricité indisponibles selon plusieurs retours d'avril 2026"
+    ],
+    "price": "Stationnement gratuit (8 emplacements) selon brochure officielle Sologne Tourisme 2025 ; vidange annoncée gratuite. Pas de prix applicable pour eau/électricité tant que ces services ne sont pas confirmés opérationnels.",
+    "status": "62 avenue de Paris, 41600 Nouan-le-Fuzelier. La brochure de Sologne Tourisme annonce parking gratuit avec vidange, sans eau de rinçage. Des témoignages du printemps 2026 sur Park4night signalent des travaux terminés mais services d'eau/électricité inopérants et vidange à recontrôler ; la fiche du site affiche également « parking fermé » de façon ambiguë. Vérifier ouverture effective avant départ auprès de la mairie : 02 54 88 74 40.",
+    "source": "https://www.coeurdesologne.com/wp-content/uploads/2025/04/Camping-et-camping-car-1.pdf",
+    "sourceOfficial": "https://www.coeurdesologne.com/wp-content/uploads/2025/04/Camping-et-camping-car-1.pdf",
+    "priceSource": "https://www.coeurdesologne.com/wp-content/uploads/2025/04/Camping-et-camping-car-1.pdf",
+    "latitude": 47.54303,
+    "longitude": 2.03689,
+    "gpsSource": "https://www.coeurdesologne.com/wp-content/uploads/2025/04/Camping-et-camping-car-1.pdf",
+    "importReview": "Travaux et disponibilité des services signalés en 2026 ; vérifier la réouverture et les restrictions à la mairie",
+    "cityVerificationNote": "Adresse 62 avenue de Paris, GPS et capacité 8 places publiés par Sologne Tourisme. Park4night donne un autre point proche, localisation précise de l'accès à vérifier."
   }
 ]
