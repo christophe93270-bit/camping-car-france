@@ -1,14 +1,19 @@
 [
   {
     "department": "36",
-    "name": "Aire Camping-cars Oulches",
+    "name": "Borne de camping-car d'Oulches",
     "city": "Oulches",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Borne de services camping-car",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Vidange WC",
+      "Sanitaires",
+      "Stationnement de nuit"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Services par jeton à partir de 2 € (office de tourisme 2026) ; stationnement non tarifé sur la fiche",
+    "status": "Ouverte 24 h/24 toute l'année en 2026",
     "source": "https://www.openstreetmap.org/node/3263026728",
     "latitude": 46.613085,
     "longitude": 1.2953499,
@@ -18,16 +23,25 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/3263026728",
     "servicesSource": "https://www.openstreetmap.org/node/3263026728",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
+    "address": "Impasse de l'Étang, 36800 Oulches",
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/borne-de-camping-car-doulches/",
+    "priceSource": "https://www.berryprovince.com/aires-camping-cars/borne-de-camping-car-doulches/",
+    "verificationNote": "Borne Euro-Relais près de la salle des fêtes. L'office de tourisme indique capacité 1 : il s'agit d'une borne, pas d'une capacité de stationnement indépendante confirmée."
   },
   {
     "department": "36",
-    "name": "Aire Camping-cars Saint-Georges-sur-Arnon",
+    "name": "Aire de services de l'étang de la Presle",
     "city": "Saint-Georges-sur-Arnon",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de services et stationnement",
+    "services": [
+      "Eau",
+      "Vidange des eaux usées",
+      "Vidange WC",
+      "Stationnement de nuit"
+    ],
+    "price": "Gratuit selon Berry Province 2026",
+    "status": "Ouverte 24 h/24 toute l'année en 2026",
     "source": "https://www.openstreetmap.org/node/11931767798",
     "latitude": 46.9998355,
     "longitude": 2.098791,
@@ -36,7 +50,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/11931767798",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
+    "address": "Étang de la Presle, 36100 Saint-Georges-sur-Arnon",
+    "capacity": 4,
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/aire-de-service-camping-car/",
+    "priceSource": "https://www.berryprovince.com/aires-camping-cars/aire-de-service-camping-car/",
+    "verificationNote": "Borne artisanale au bord de l'étang de la Presle avec 4 emplacements ; office de tourisme confirme eau, vidanges, gratuité. Ne pas confondre avec Saint-Georges-sur-Moulon (Cher)."
   },
   {
     "department": "36",
@@ -208,15 +227,19 @@
   },
   {
     "department": "36",
-    "name": "Aire de camping-car de Bazaiges",
+    "name": "Aire de Bazaiges",
     "city": "Bazaiges",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de services et stationnement",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Vidange WC",
+      "Sanitaires",
+      "Stationnement de nuit"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit selon Berry Province 2026",
+    "status": "Ouverte toute l'année en 2026",
     "source": "https://www.openstreetmap.org/way/907035244",
     "latitude": 46.4981051,
     "longitude": 1.5425295,
@@ -226,7 +249,12 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/907035244",
     "servicesSource": "https://www.openstreetmap.org/way/907035244",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
+    "address": "Route de Baraize, 36270 Bazaiges",
+    "capacity": 4,
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/aire-de-bazaiges/",
+    "priceSource": "https://www.berryprovince.com/aires-camping-cars/aire-de-bazaiges/",
+    "verificationNote": "Parking ombragé près du plan d'eau, route de Baraize, 4 emplacements ; office de tourisme confirme services et gratuité."
   },
   {
     "department": "36",
@@ -411,14 +439,17 @@
   },
   {
     "department": "36",
-    "name": "Aire Camping-cars Azay-le-Ferron",
+    "name": "Aire de camping-car d'Azay-le-Ferron",
     "city": "Azay-le-Ferron",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement et vidange",
     "services": [
-      "Électricité"
+      "Eau",
+      "Vidange des eaux usées",
+      "Vidange WC",
+      "Stationnement de nuit"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit selon Berry Province 2026",
+    "status": "Ouverte 24 h/24 toute l'année en 2026",
     "source": "https://www.openstreetmap.org/way/1286851280",
     "latitude": 46.8521922,
     "longitude": 1.0735421,
@@ -428,7 +459,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1286851280",
     "servicesSource": "https://www.openstreetmap.org/way/1286851280",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
+    "address": "Rue Hersent-Luzarche, salle des fêtes, 36290 Azay-le-Ferron",
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/aire-de-camping-car-dazay-le-ferron/",
+    "priceSource": "https://www.berryprovince.com/aires-camping-cars/aire-de-camping-car-dazay-le-ferron/",
+    "verificationNote": "Office de tourisme annonce 7 places ; mairie indique 6 véhicules près de la salle des fêtes. Capacité non renseignée en raison de cette divergence. Aire de vidange à proximité immédiate. Électricité non confirmée par la fiche officielle, retirée des services."
   },
   {
     "department": "36",
