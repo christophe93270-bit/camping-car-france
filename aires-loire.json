@@ -289,27 +289,24 @@
   },
   {
     "department": "42",
-    "name": "Aire de camping-car de Pouilly sous Charlieu",
+    "name": "Borne communale de Pouilly-sous-Charlieu – Place du Marché",
     "city": "Pouilly-sous-Charlieu",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Point de services camping-car (stationnement de nuit non garanti)",
     "services": [
       "Eau potable gratuite",
       "Vidange eaux grises et WC chimiques gratuite",
-      "Stationnement possible sur la place (conditions à vérifier)"
+      "Parking à proximité (conditions de nuitée non publiées)"
     ],
-    "price": "Services d'eau potable et vidange gratuits (Place du Marché), selon l'office de tourisme. Stationnement possible sur la place ou sur l'aire distincte des Bords de Loire (4 places) ; ne pas appliquer les tarifs du CAMPING-CAR PARK des Îlots.",
-    "status": "Place du Marché, 42720 Pouilly-sous-Charlieu. Borne communale gratuite pour eau potable et vidange WC/eaux grises. À environ 1 km, parking des Bords de Loire avec 4 emplacements, et un terrain CAMPING-CAR PARK payant distinct route de Marcigny. Site ouvert toute l'année 2026 selon Loire Tourisme.",
-    "source": "https://www.openstreetmap.org/way/366200100",
-    "latitude": 46.149518,
-    "longitude": 4.1129098,
-    "gpsSource": "https://www.openstreetmap.org/way/366200100",
-    "dataLicense": "ODbL",
-    "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
-    "sourceId": "way/366200100",
+    "price": "Eau potable et vidange des eaux usées gratuites sur la borne municipale, selon Charlieu-Belmont Tourisme, ouverte toute l'année 2026. La nuitée n'est pas confirmée sur cet emplacement de services.",
+    "status": "Place du Marché, 42720 Pouilly-sous-Charlieu, borne de services communale (1 emplacement de service). Eau et vidange gratuites ; parking à proximité avec règles de stationnement à vérifier. Distinct du parking des Bords de Loire (environ 1 km) et de l'aire CAMPING-CAR PARK des Îlots route de Marcigny. Le GPS original OpenStreetMap se trouvait en réalité près de cette dernière aire : coordonnées corrigées avec le lien du tourisme.",
+    "source": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-de-camping-car-pouilly-sous-charlieu-fr-3351357/",
+    "latitude": 46.144637,
+    "longitude": 4.108801,
+    "gpsSource": "https://www.google.com/maps/dir/?api=1&destination=46.144637%2C4.108801",
+    "importReview": "Erreur GPS détectée et corrigée : cette borne n'est pas le CAMPING-CAR PARK des Îlots.",
     "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-de-camping-car-pouilly-sous-charlieu-fr-3351357/",
     "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-de-camping-car-pouilly-sous-charlieu-fr-3351357/",
-    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme."
+    "cityVerificationNote": "Adresse et coordonnées GPS du point de services corrigées grâce à Loire Tourisme."
   },
   {
     "department": "42",
@@ -1214,5 +1211,28 @@
     "gpsSource": "https://maps.google.fr/?daddr=46.009564%2C3.8882&saddr=",
     "importReview": "Position, 3 emplacements et gratuité sourcés Roannais Tourisme, conditions 2026",
     "cityVerificationNote": "Coordonnées GPS extraites du lien d'itinéraire de Roannais Tourisme."
+  },
+  {
+    "department": "42",
+    "name": "CAMPING-CAR PARK des Îlots – Pouilly-sous-Charlieu",
+    "city": "Pouilly-sous-Charlieu",
+    "type": "Aire CAMPING-CAR PARK – Camping de mon village",
+    "services": [
+      "Stationnement payant (47 places)",
+      "Électricité 6 A",
+      "Vidange eaux grises et noires",
+      "Wifi",
+      "Sanitaires et douches selon dates d'ouverture"
+    ],
+    "price": "Du 1er octobre 2026 au 31 mai 2027 : 13,00 € / 24 h hors taxe de séjour 0,44 €, soit 13,44 € TTC selon le barème CAMPING-CAR PARK. Services 5 h : 6 €. Tarif variable selon la saison.",
+    "status": "379 chemin des Îlots, route de Marcigny, 42720 Pouilly-sous-Charlieu. Aire CAMPING-CAR PARK (Camping de mon village) ouverte depuis le 30 juin 2026, 47 emplacements selon l'exploitant, avec accès contrôlé et wifi. Douches et sanitaires annoncés disponibles du 1er juin au 31 octobre 2026. Le site se situe à environ 700 m de la borne municipale gratuite Place du Marché ; ne pas les confondre. Attention au plan de prévention du risque d'inondation.",
+    "source": "https://www.campingcarpark.com/en_GB/motor-home/auvergne-rhone-alpes/42-loire/pouilly%20sous%20charlieu",
+    "sourceOfficial": "https://pouillysouscharlieu.fr/tourisme-culture/camping/",
+    "priceSource": "https://www.campingcarpark.com/en_GB/motor-home/auvergne-rhone-alpes/42-loire/pouilly%20sous%20charlieu",
+    "latitude": 46.149224,
+    "longitude": 4.112976,
+    "gpsSource": "https://www.campingcarpark.com/en_GB/motor-home/auvergne-rhone-alpes/42-loire/pouilly%20sous%20charlieu",
+    "importReview": "Existence confirmée par commune et exploitant ; capacité, GPS et tarifs 2026/27 provenant de CAMPING-CAR PARK",
+    "cityVerificationNote": "Adresse 379 chemin des Îlots et coordonnées fournies directement par l'exploitant."
   }
 ]
