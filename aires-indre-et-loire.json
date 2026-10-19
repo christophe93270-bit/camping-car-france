@@ -138,7 +138,8 @@
     "sourceId": "way/253659162",
     "servicesSource": "https://www.openstreetmap.org/way/253659162",
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
-    "verificationNote": "L'office de tourisme confirme une aire de services RD 751 gratuite seulement pour les clients du camping (source https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-services-du-camping-de-montlouis-sur-loire-montlouis-sur-loire-fr-5152502/). Cette installation ne correspond pas au point OSM Paul Destruel : ne pas transférer la gratuité ni les services."
+    "verificationNote": "Une source cartographique secondaire recense Paul Destruel à GPS 47.28266, 0.78462, 16 places, aire payante avec eau, vidange, électricité, toilettes ; proche du point OSM (47.2828383, 0.7844662). Source officielle et tarifs chiffrés non trouvés : ne pas valider le prix ni assimiler au camping RD751.",
+    "sourceSecondary": "https://onbouge.eu/france/centre-val-de-loire/azay-sur-cher/mobilite"
   },
   {
     "department": "37",
@@ -595,14 +596,18 @@
   },
   {
     "department": "37",
-    "name": "Aire de campings-cars Pocé-sur-Cisse",
+    "name": "Relais Flot Bleu – Intermarché Pocé-sur-Cisse",
     "city": "Pocé-sur-Cisse",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
+      "Stationnement",
+      "Eau",
+      "Vidange eaux grises",
+      "Vidange toilettes chimiques",
       "Électricité"
     ],
     "price": "Non confirmé",
-    "status": "Aire signalée par une source indépendante ; validation officielle et tarifaire en attente",
+    "status": "Aire de services et stationnement confirmée par le fabricant Flot Bleu ; tarifs signalés par utilisateurs, non garantis",
     "source": "https://www.openstreetmap.org/way/1298677231",
     "latitude": 47.4263946,
     "longitude": 0.9819852,
@@ -613,10 +618,12 @@
     "sourceId": "way/1298677231",
     "servicesSource": "https://www.openstreetmap.org/way/1298677231",
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
-    "address": "21 Route de la Gare, 37530 Pocé-sur-Cisse (adresse signalée, à confirmer)",
+    "address": "Lieu-dit La Ramée, boulevard du Sevrage, 37530 Pocé-sur-Cisse",
     "sourceSecondary": "https://www.lecampeur.fr/aire/aire-de-campings-cars-poce-sur-cisse-ph7k7h",
-    "verificationNote": "Deux sources communautaires (Le Campeur et Park4night place 196248) signalent une aire près de l'Intermarché route de la Gare, avec bornes eau/électricité. La correspondance du point OSM, les tarifs et la situation administrative restent non confirmés officiellement.",
-    "sourceSecondary2": "https://park4night.com/fr/place/196248"
+    "verificationNote": "Flot Bleu donne GPS 47.42587041055598, 0.982047298276814, proche du point OSM (47.4263946, 0.9819852), écart ~59 m. Stationnement gratuit et eau 2 €/20 min rapportés par Park4night, à confirmer auprès de l'exploitant. Adresse opérateur boulevard du Sevrage prévaut sur l'adresse communautaire route de la Gare.",
+    "sourceSecondary2": "https://park4night.com/fr/place/196248",
+    "sourceOfficial": "https://flotbleu.com/indre_et_loire/aire-de-service/647",
+    "sourceOperator": "https://flotbleu.com/indre_et_loire/aire-de-service/647"
   },
   {
     "department": "37",
