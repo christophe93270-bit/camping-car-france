@@ -60,13 +60,16 @@
     "department": "36",
     "name": "Aire camping-cars Sainte-Sévère-sur-Indre",
     "city": "Sainte-Sévère-sur-Indre",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Borne de services et stationnement camping-car",
     "services": [
       "Eau potable",
-      "Électricité"
+      "Électricité",
+      "Vidange des eaux usées",
+      "Wi-Fi",
+      "Stationnement de nuit"
     ],
-    "price": "Gratuit : aire de services (eau, vidange, électricité, Wi-Fi) ; stationnement gratuit indiqué par l'office de tourisme.",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit (borne et stationnement) selon Berry Province",
+    "status": "Ouverte 24 h/24 toute l'année selon Berry Province",
     "source": "https://www.openstreetmap.org/node/13142492123",
     "latitude": 46.4877311,
     "longitude": 2.0708818,
@@ -79,7 +82,10 @@
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
     "priceSource": "https://www.berryprovince.com/aires-camping-cars/borne-camping-car-2/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Borne place du Champ de Foire ; ne pas confondre avec le camping municipal payant."
+    "priceNote": "Borne place du Champ de Foire ; ne pas confondre avec le camping municipal payant.",
+    "address": "Place du Champ de Foire, 36160 Sainte-Sévère-sur-Indre",
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/borne-camping-car-2/",
+    "verificationNote": "Office Berry Province : une borne de services en accès libre place du Champ de Foire, gratuite, avec eau, électricité, vidange, Wi-Fi et stationnement nocturne. Capacité « 1 » sur la fiche = borne, pas nombre d'emplacements de stationnement."
   },
   {
     "department": "36",
@@ -131,7 +137,7 @@
       "Électricité"
     ],
     "price": "11 € / 24 h + taxe de séjour 0,40 € ; soit 11,40 € / 24 h. Services 5 h : 6 €.",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Ouverte toute l'année aux camping-cars ; sanitaires en haute saison ; aire située en zone de prévention des risques d'inondation",
     "source": "https://www.openstreetmap.org/way/541511664",
     "latitude": 47.0854475,
     "longitude": 2.0511476,
@@ -144,7 +150,12 @@
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre/reuilly",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif affiché du 13/10/2026 au 31/12/2027 ; aire Camping de mon Village."
+    "priceNote": "Tarif affiché du 13/10/2026 au 31/12/2027 ; aire Camping de mon Village.",
+    "address": "23 rue des Ponts, 36260 Reuilly",
+    "capacity": 33,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre/reuilly",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre/reuilly",
+    "verificationNote": "Exploitant Camping-Car Park : 33 emplacements, 23 rue des Ponts, 11 €/24 h + taxe 0,40 € (tarif 13/10/2026–31/12/2027), passage 5 h avec services 6 €. Coordonnées OSM conservées : le GPS officiel 47.08522,2.050609 correspond à l'entrée du site, non nécessairement au point OSM."
   },
   {
     "department": "36",
