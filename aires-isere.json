@@ -478,9 +478,14 @@
     "city": "Allevard",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux grises",
+      "Vidange eaux noires",
+      "Paiement par carte bancaire",
+      "Réservation en ligne"
     ],
-    "price": "6,10 € / nuit du 1er avril au 31 octobre 2026 ; 9,10 € / nuit du 1er janvier au 31 mars 2026 ; taxe de séjour 0,50 € en supplément",
+    "price": "Du 01/04 au 31/10/2026 : 6,10 € / nuit, 42,70 € / semaine, 115,30 € / forfait curiste 23 nuits ; du 01/01 au 31/03/2026 : 9,10 € / nuit, 63,70 € / semaine ; vidange seule 1,50 € ; taxe de séjour 0,50 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/528982835",
     "latitude": 45.3877099,
@@ -493,7 +498,9 @@
     "servicesSource": "https://www.openstreetmap.org/way/528982835",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.alpes-isere.com/sit/aire-de-service-camping-car-94297/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.alpes-isere.com/sit/aire-de-service-camping-car-94297/",
+    "verificationNote": "Le David, 38580 Allevard. Automate d'accueil et de paiement 24h/24 avec QR code ; réservation recommandée. Tarifs 2026 confirmés par l'office de tourisme de Belledonne Chartreuse, fiche mise à jour le 15/04/2026. Tarifs novembre-décembre 2026 non détaillés sur la fiche consultée."
   },
   {
     "department": "38",
@@ -501,11 +508,11 @@
     "city": "Chichilianne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Eau potable",
-      "Toilettes",
-      "Électricité"
+      "Stationnement camping-car",
+      "Eau par jeton",
+      "Électricité par jeton"
     ],
-    "price": "7 € / nuit ; jeton eau/électricité 3 € ; aire ouverte du 5 mai au 15 octobre",
+    "price": "7 € / nuitée ; jeton eau/électricité 3 € ; ouverture du 05/05 au 15/10 (office de tourisme du Trièves)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/704479293",
     "latitude": 44.8124745,
@@ -518,7 +525,9 @@
     "servicesSource": "https://www.openstreetmap.org/way/704479293",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.trieves-vercors.fr/bons-plans/hebergements-chichilianne-mont-aiguille/211600_les-aires-daccueil-camping-car-de-chichilianne/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.trieves-vercors.fr/bons-plans/hebergements-chichilianne-mont-aiguille/211600_les-aires-daccueil-camping-car-de-chichilianne/",
+    "verificationNote": "La commune dispose de deux aires distinctes : Passières (entrée du village) et La Richardière (hameau, face au foyer de ski). La fiche actuelle doit être géolocalisée à l'une des deux avant tout ajout d'une deuxième aire. Borne indisponible en hiver pour gel ; jetons en vente en mairie et commerces locaux."
   },
   {
     "department": "38",
