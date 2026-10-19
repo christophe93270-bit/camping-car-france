@@ -135,10 +135,15 @@
     "city": "Soustons",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (80 emplacements)",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux grises",
+      "Vidange toilettes chimiques",
+      "Wifi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12,16 € (1/11–31/03), 15,16 € (1/04–30/06 et 2/09–31/10), 15,66 € (1/07–1/09), taxe de séjour incluse ; à revérifier avant séjour.",
+    "status": "Aire du Lac confirmée par l'exploitant L'Airial : 80 emplacements, ouverte toute l'année, 7 jours maximum, électricité, eau, vidanges et wifi compris. Coordonnées OSM légèrement différentes de celles de l'exploitant : emplacement précis à vérifier.",
     "source": "https://www.openstreetmap.org/way/235159333",
     "latitude": 43.7553556,
     "longitude": -1.3536137,
@@ -148,7 +153,8 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/235159333",
     "servicesSource": "https://www.openstreetmap.org/way/235159333",
-    "cityVerificationNote": "Commune explicitement mentionnée dans le nom de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune explicitement mentionnée dans le nom de l'aire ; localisation exacte à contrôler.",
+    "sourceOfficial": "https://www.camping-airial.com/aire-de-camping-car/"
   },
   {
     "department": "40",
@@ -156,8 +162,8 @@
     "city": "Aire-sur-l'Adour",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "À confirmer auprès du gestionnaire",
+    "status": "Aire de camping-car rue des Graviers signalée par la mairie et gérée par le camping Les Ombrages de l'Adour ; tarifs, services et nombre de places à confirmer auprès du gestionnaire. Attention : ancienne documentation de l'aire communale Allées de l'Adour, vérifier qu'il s'agit bien du même site.",
     "source": "https://www.openstreetmap.org/way/276176558",
     "latitude": 43.7035091,
     "longitude": -0.2559377,
@@ -166,7 +172,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/276176558",
-    "cityVerificationNote": "Commune explicitement mentionnée dans le nom de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune explicitement mentionnée dans le nom de l'aire ; localisation exacte à contrôler.",
+    "sourceOfficial": "https://www.aire-sur-adour.fr/commerces-et-voies-vertes/hebergements/"
   },
   {
     "department": "40",
