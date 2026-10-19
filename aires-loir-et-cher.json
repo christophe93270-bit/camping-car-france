@@ -49,9 +49,11 @@
     "name": "Aire camping-cars – Neuvy",
     "city": "Neuvy",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement nocturne (2 places)"
+    ],
+    "price": "Stationnement gratuit (2 places) selon l'office de tourisme ; services non annoncés.",
+    "status": "Aire communale sur le parking du village de Neuvy, 41250. Deux emplacements gratuits ; aucun branchement ou service technique mentionné dans la fiche officielle.",
     "source": "https://www.openstreetmap.org/node/11922566373",
     "latitude": 47.5633817,
     "longitude": 1.6033126,
@@ -60,16 +62,19 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/11922566373",
-    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
+    "cityVerificationNote": "Commune confirmée par la fiche officielle de l'office de tourisme.",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-neuvy-acccen000v5000em/"
   },
   {
     "department": "41",
     "name": "Aire de stationnement camping-cars Salbris",
     "city": "Salbris",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit une nuit"
+    ],
+    "price": "Stationnement gratuit pour une nuit selon l'office de tourisme. Services techniques au camping de Sologne, tarifs distincts non confirmés.",
+    "status": "Rue de l'Abreuvoir, au bord de la Sauldre, 41300 Salbris. Stationnement gratuit limité à une nuit ; la vidange et l'eau sont à rechercher sur l'aire du camping de Sologne, distincte de ce parking.",
     "source": "https://www.openstreetmap.org/node/11922676005",
     "latitude": 47.4267508,
     "longitude": 2.0496952,
@@ -78,7 +83,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/11922676005",
-    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
+    "cityVerificationNote": "Commune confirmée par la fiche officielle de l'office de tourisme.",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-salbris-acccen000v5000g0/"
   },
   {
     "department": "41",
@@ -86,11 +92,14 @@
     "city": "Tour-en-Sologne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Stationnement",
+      "Eau potable (jetons)",
+      "Électricité (jetons)",
+      "Vidange eaux usées",
+      "Sanitaires publics"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement autorisé ; montant non publié par l'office de tourisme. Eau et électricité à jetons achetés en mairie ; prix des jetons à confirmer.",
+    "status": "Place Chéramy, face à l'église, 41250 Tour-en-Sologne. Aire communale avec toilettes, eau, électricité, vidange et aire de pique-nique ; jetons en vente à la mairie.",
     "source": "https://www.openstreetmap.org/node/11922770603",
     "latitude": 47.5376045,
     "longitude": 1.499629,
@@ -100,7 +109,8 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/11922770603",
     "servicesSource": "https://www.openstreetmap.org/node/11922770603",
-    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
+    "cityVerificationNote": "Commune confirmée par la fiche officielle de l'office de tourisme.",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-et-de-services-pour-camping-cars-tour-en-sologne-acccen000v5000gd/"
   },
   {
     "department": "41",
@@ -108,10 +118,16 @@
     "city": "Vernou-en-Sologne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Sanitaires",
+      "Wifi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit selon l'office de tourisme ; la mention « jeton » sur la fiche laisse incertaine la tarification des prestations, à confirmer auprès de la mairie.",
+    "status": "24 rue de Beaugency, 41230 Vernou-en-Sologne. Aire communale près d'un étang, équipements de vidange/recharge, sanitaires, espace de jeux. Office de tourisme : tarif « Gratuit (jeton) » ; modalités du jeton non détaillées.",
     "source": "https://www.openstreetmap.org/way/101809040",
     "latitude": 47.5036952,
     "longitude": 1.6791145,
@@ -121,7 +137,8 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/101809040",
     "servicesSource": "https://www.openstreetmap.org/way/101809040",
-    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
+    "cityVerificationNote": "Commune confirmée par la fiche officielle de l'office de tourisme.",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-et-ou-de-services-pour-camping-cars-vernou-en-sologne-acccen000v5000gh/"
   },
   {
     "department": "41",
@@ -293,12 +310,15 @@
   },
   {
     "department": "41",
-    "name": "Aire de services pour camping-car Lamotte-Beuvron",
+    "name": "Aire de services camping-cars – Lamotte-Beuvron",
     "city": "Lamotte-Beuvron",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Point de services camping-cars (stationnement non attesté)",
+    "services": [
+      "Eau potable gratuite (hors gel)",
+      "Vidange eaux usées gratuite (hors gel)"
+    ],
+    "price": "Eau et vidange gratuites hors période de gel selon l'office de tourisme. Aucun tarif de stationnement : le lieu est décrit comme point de services uniquement.",
+    "status": "Chemin de Maisonfort, 41600 Lamotte-Beuvron. Attention : la fiche touristique officielle décrit seulement une aire de services (eau, vidange) ; pas de stationnement nocturne confirmé à cet emplacement.",
     "source": "https://www.openstreetmap.org/way/1232424286",
     "latitude": 47.5982525,
     "longitude": 2.0240553,
@@ -307,7 +327,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1232424286",
-    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
+    "cityVerificationNote": "Commune confirmée par la fiche officielle de l'office de tourisme.",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-services-pour-camping-cars-lamotte-beuvron-acccen000v5000bx/"
   },
   {
     "department": "41",
@@ -356,10 +377,11 @@
     "city": "Bauzy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Stationnement nocturne gratuit",
+      "Sanitaires"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit selon l'office de tourisme ; services d'eau ou électricité non précisés.",
+    "status": "Route de Neuvy, près de l'étang communal, 41250 Bauzy. Aire de stationnement gratuite avec sanitaires ; durée maximale non précisée.",
     "source": "https://www.openstreetmap.org/way/1285209146",
     "latitude": 47.5372672,
     "longitude": 1.6096205,
@@ -369,7 +391,8 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1285209146",
     "servicesSource": "https://www.openstreetmap.org/way/1285209146",
-    "cityVerificationNote": "Commune identifiée par l'intitulé de l'aire ; adresse et coordonnées à confirmer auprès d'une source locale."
+    "cityVerificationNote": "Commune confirmée par la fiche officielle de l'office de tourisme.",
+    "sourceOfficial": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-et-de-service-camping-cars-bauzy-acccen0000003o/"
   },
   {
     "department": "41",
