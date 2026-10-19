@@ -416,10 +416,14 @@
     "city": "Genillé",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Stationnement de nuit"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit (selon fiche touristique ; détail des services payants éventuels à confirmer)",
+    "status": "Aire confirmée par Touraine Val de Loire",
     "source": "https://www.openstreetmap.org/way/1038044104",
     "latitude": 47.184488,
     "longitude": 1.0921035,
@@ -429,7 +433,12 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1038044104",
     "servicesSource": "https://www.openstreetmap.org/way/1038044104",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "address": "Rue de l'Huilerie, 37460 Genillé",
+    "sourceOfficial": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-service-et-de-stationnement-de-genille-genille-fr-5151622/",
+    "priceSource": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-service-et-de-stationnement-de-genille-genille-fr-5151622/",
+    "priceVerifiedOn": "2026-10-19",
+    "verificationNote": "Tarif gratuit indiqué par la source touristique ; conditions détaillées des services à confirmer."
   },
   {
     "department": "37",
@@ -463,9 +472,15 @@
     "name": "Aire de services camping-cars Vouvray",
     "city": "Vouvray",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Sanitaires",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Stationnement de nuit"
+    ],
+    "price": "Gratuit (selon fiche touristique ; détail des services payants éventuels à confirmer)",
+    "status": "Aire confirmée par Touraine Val de Loire",
     "source": "https://www.openstreetmap.org/way/1285373610",
     "latitude": 47.4091459,
     "longitude": 0.7973477,
@@ -474,7 +489,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1285373610",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "address": "Voie de la Cisse, 37210 Vouvray",
+    "sourceOfficial": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-services-camping-cars-vouvray-vouvray-fr-5153486/",
+    "priceSource": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-services-camping-cars-vouvray-vouvray-fr-5153486/",
+    "priceVerifiedOn": "2026-10-19",
+    "verificationNote": "Tarif gratuit indiqué par la source touristique ; conditions détaillées des services à confirmer."
   },
   {
     "department": "37",
