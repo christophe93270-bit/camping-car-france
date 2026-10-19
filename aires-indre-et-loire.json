@@ -316,12 +316,14 @@
   },
   {
     "department": "37",
-    "name": "Aire Camping-Cars Chinon",
+    "name": "Stationnement camping-cars avenue François-Mitterrand",
     "city": "Chinon",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Point OSM non vérifié ; document municipal attestant une aire à l'Ile Auger, correspondance à confirmer",
+    "services": [
+      "Stationnement"
+    ],
+    "price": "Stationnement gratuit selon Campercontact (à vérifier sur place)",
+    "status": "Point OSM recoupé par Campercontact et CamperOnLine ; stationnement sans services de vidange, tarif à vérifier sur place",
     "source": "https://www.openstreetmap.org/way/858627385",
     "latitude": 47.1700777,
     "longitude": 0.2417931,
@@ -332,7 +334,10 @@
     "sourceId": "way/858627385",
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
     "sourceMunicipalContext": "https://www.ville-chinon.com/fileadmin/contenu/documents/compte-rendu-cm/pv_du_conseil_municipal_du_01_10_2024.pdf",
-    "verificationNote": "PV du conseil municipal du 1er octobre 2024 : inauguration annoncée le 7 octobre 2024 d'une aire de camping-cars à l'Ile Auger, parcelle BZ 138. Ce document confirme une aire municipale à Chinon mais PAS la correspondance avec le point OSM way/858627385. Ne pas fusionner avec Camping-Car Park sans vérification GPS."
+    "verificationNote": "Coordonnées Campercontact 47.17008,0.24167 concordantes avec OSM 47.1700777,0.2417931. Parking avenue François Mitterrand distinct de Camping-Car Park 2 route de Pontille (47.16438,0.231865), de Station U et de l'aire mentionnée par la mairie à l'Île Auger. Tarif gratuit signalé par communauté, non officiellement validé.",
+    "address": "Avenue François Mitterrand, 37500 Chinon",
+    "sourceSecondary": "https://www.campercontact.com/en/france/centre-val-de-loire/chinon/71034/aire-de-camping-car-chinon",
+    "sourceSecondary2": "https://www.camperonline.it/sosta-camper/aree-di-sosta/chinon/279"
   },
   {
     "department": "37",
@@ -551,9 +556,11 @@
     "name": "Aire Camping-car Le Moulin d’Azay",
     "city": "Cheillé",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Point OSM localisé à Cheillé selon Mapcarta ; exploitation et tarifs à confirmer",
+    "services": [
+      "Stationnement"
+    ],
+    "price": "Stationnement gratuit selon Park4night (à vérifier sur place)",
+    "status": "Point OSM recoupé par Park4night ; stationnement gratuit signalé, sans services ; limite de 24 h rapportée",
     "source": "https://www.openstreetmap.org/way/1286326472",
     "latitude": 47.2582193,
     "longitude": 0.4643755,
@@ -563,9 +570,10 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1286326472",
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
-    "verificationNote": "Touraine Val de Loire confirme une aire gratuite rue de Chinon à Cheillé (24 h maximum, stationnement nocturne). Correspondance avec le point OSM Le Moulin d'Azay NON établie : ne pas transférer tarif, adresse ou source officielle sans vérification géographique.",
-    "sourceSecondary": "https://mapcarta.com/fr/W1286326472",
-    "sourceSecondaryTourism": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-stationnement-camping-car-cheille-fr-5258813/"
+    "verificationNote": "Park4night GPS 47.2579,0.4642 proche d'OSM 47.2582193,0.4643755. Avis récents 2026 confirment usage camping-car ; gratuité, capacité et limite de 24 h communautaires, non vérifiées par mairie. Distinct de l'aire Interparking rue du Stade.",
+    "sourceSecondary": "https://park4night.com/fr/place/57178",
+    "sourceSecondaryTourism": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-stationnement-camping-car-cheille-fr-5258813/",
+    "address": "590 Le Moulin d'Azay, 37190 Cheillé"
   },
   {
     "department": "37",
