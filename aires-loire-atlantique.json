@@ -206,24 +206,30 @@
   },
   {
     "department": "44",
-    "name": "Aire de Camping-Cars de Nozay",
+    "name": "Aire municipale des étangs Jean-Guyon – Nozay",
     "city": "Nozay",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape communale payante, avec stationnement et services",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "20 emplacements avec électricité 16 A",
+      "Eau potable et vidanges eaux grises et noires",
+      "Wifi et vidéosurveillance",
+      "Borne de paiement et éclairage",
+      "Local déchets"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement payant, services compris. Un tarif de 11,10 € / 24 h apparaît dans un répertoire touristique non daté ; le tarif effectivement en vigueur en octobre 2026 doit être vérifié sur l'automate ou chez Aire Park Réservation.",
+    "status": "Route de Rennes, étangs de loisirs Jean-Guyon, 44170 Nozay. 20 places, équipement électrique 16 A, eau, vidange, wifi. Ouvert toute l'année selon Aire Park Réservation. Coordonnées d'origine régionales conservées.",
     "source": "https://www.openstreetmap.org/way/688866322",
     "latitude": 47.5751623,
     "longitude": -1.6267302,
     "gpsSource": "https://www.openstreetmap.org/way/688866322",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Même site que l'entrée régionale ACCAMPDL044V500766. Les coordonnées GPS OSM et l'attribution initiale sont conservées ; services vérifiés avec la mairie / le tourisme.",
     "sourceId": "way/688866322",
-    "servicesSource": "https://www.openstreetmap.org/way/688866322"
+    "servicesSource": "https://www.nozay44.fr/aire-de-camping-cars/",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180251-AIRE-DE-STATIONNEMENT-ET-DE-SERVICES",
+    "sourceOfficial": "https://www.nozay44.fr/aire-de-camping-cars/",
+    "duplicateOfSourceId": "ACCAMPDL044V500766"
   },
   {
     "department": "44",
@@ -299,20 +305,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping-Cards du Chemin de la Plage",
+    "name": "Borne gratuite du chemin de la Plage – Saint-Philbert-de-Grand-Lieu",
     "city": "Saint-Philbert-de-Grand-Lieu",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Borne de services gratuite (stationnement de nuit non confirmé)",
+    "services": [
+      "Eau potable gratuite à la borne",
+      "Vidange eaux grises et noires gratuite",
+      "Aire de pique-nique ombragée à proximité",
+      "Stationnement de nuit non attesté par l'office de tourisme"
+    ],
+    "price": "Eau et vidanges gratuites selon l'office de tourisme de Grand Lieu. Aucun tarif de nuitée à attribuer à cette borne, qui est recensée comme point de services uniquement.",
+    "status": "Chemin de la Plage, Saint-Philbert-de-Grand-Lieu. Borne gratuite d'eau et vidange, avec aire de pique-nique, à proximité de la Boulogne. L'office présente ce lieu comme point de services ; ne pas promettre la nuitée.",
     "source": "https://www.openstreetmap.org/way/909616633",
     "latitude": 47.0449962,
     "longitude": -1.641963,
     "gpsSource": "https://www.openstreetmap.org/way/909616633",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/909616633"
+    "importReview": "Même site que l'entrée régionale ACCAMPDL044V5006FB. Les coordonnées GPS OSM et l'attribution initiale sont conservées ; services vérifiés avec la mairie / le tourisme.",
+    "sourceId": "way/909616633",
+    "priceSource": "https://www.grandlieu-tourisme.fr/en/node/330",
+    "servicesSource": "https://www.grandlieu-tourisme.fr/en/node/330",
+    "sourceOfficial": "https://www.grandlieu-tourisme.fr/ou-manger-ou-dormir/aires-de-camping-car",
+    "duplicateOfSourceId": "ACCAMPDL044V5006FB"
   },
   {
     "department": "44",
