@@ -258,14 +258,19 @@
   },
   {
     "department": "36",
-    "name": "Aire de camping-car Prissac",
+    "name": "Aire de l'étang Rémy Louveau — Prissac",
     "city": "Prissac",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement avec bornes de services",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Sanitaires",
+      "Stationnement de nuit",
+      "Aire de pique-nique"
     ],
-    "price": "Stationnement gratuit (5 places) ; jeton pour services : 3 €.",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; jeton pour bornes de vidange et d'électricité : 3 € (commerçants du village)",
+    "status": "Ouverte 24 h/24 toute l'année selon Berry Province 2026",
     "source": "https://www.openstreetmap.org/way/907464411",
     "latitude": 46.5046053,
     "longitude": 1.3081759,
@@ -277,7 +282,11 @@
     "servicesSource": "https://www.openstreetmap.org/way/907464411",
     "priceSource": "https://www.berryprovince.com/aires-camping-cars/espace-de-letang-remy-louveau/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Étang Rémy Louveau ; jetons disponibles chez les commerçants."
+    "priceNote": "Étang Rémy Louveau ; jetons disponibles chez les commerçants.",
+    "address": "Étang Rémy Louveau, route de Saint-Benoît-du-Sault, 36370 Prissac",
+    "capacity": 5,
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/espace-de-letang-remy-louveau/",
+    "verificationNote": "Office Berry Province : 5 places gratuites au bord de l'étang Rémy Louveau, 2 bornes vidange et électricité fonctionnant avec jetons à 3 € vendus chez les commerçants. Eau et électricité disponibles également sous la halle publique : ne pas les confondre avec branchements individuels gratuits aux emplacements."
   },
   {
     "department": "36",
@@ -434,14 +443,18 @@
   },
   {
     "department": "36",
-    "name": "Aire pour Camping Car Valençay",
+    "name": "Borne et stationnement camping-car de Valençay",
     "city": "Valençay",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Parking partagé et aire de vidange",
     "services": [
-      "Électricité"
+      "Vidange des eaux usées",
+      "Vidange WC",
+      "Stationnement de nuit",
+      "Poubelles",
+      "Sanitaires à l'office de tourisme"
     ],
-    "price": "Stationnement gratuit ; vidange disponible.",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit selon Berry Province 2026 ; coût des vidanges non précisé",
+    "status": "Ouvert 24 h/24 toute l'année ; durée de stationnement non limitée selon l'office de tourisme",
     "source": "https://www.openstreetmap.org/way/1286449672",
     "latitude": 47.1602268,
     "longitude": 1.5624573,
@@ -452,9 +465,13 @@
     "sourceId": "way/1286449672",
     "servicesSource": "https://www.openstreetmap.org/way/1286449672",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
-    "priceSource": "https://www.valencayberryvaldeloire.fr/aires-et-bornes-camping-cars/borne-pour-les-camping-cars-ACCCEN0360005W.html",
+    "priceSource": "https://www.berryprovince.com/aires-camping-cars/borne-pour-les-camping-cars/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Parking derrière l'office de tourisme, 2 avenue de la Résistance ; ne pas confondre avec une autre aire commerciale."
+    "priceNote": "Parking derrière l'office de tourisme, 2 avenue de la Résistance ; ne pas confondre avec une autre aire commerciale.",
+    "address": "2 avenue de la Résistance, parking derrière l'office de tourisme, 36600 Valençay",
+    "capacity": 16,
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/borne-pour-les-camping-cars/",
+    "verificationNote": "Parking partagé avec d'autres véhicules, capacité totale annoncée de 16 places ; le descriptif précise environ 15 camping-cars possibles, pas 16 emplacements dédiés. Accès D956 derrière l'office de tourisme ; vidanges eaux usées et WC chimiques, sanitaires dans l'office aux heures d'ouverture. Aucun branchement électrique confirmé."
   },
   {
     "department": "36",
