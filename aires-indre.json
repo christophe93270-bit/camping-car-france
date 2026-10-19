@@ -307,7 +307,8 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/907658652",
     "servicesSource": "https://www.openstreetmap.org/way/907658652",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
+    "verificationNote": "Fiche OSM non corroborée par une source officielle lors de ce contrôle. Coordonnées distinctes de l'aire communale de Neuillay-les-Bois : ne pas fusionner ni transférer les tarifs et services de celle-ci. Commune, accès et existence d'une aire autonome à confirmer."
   },
   {
     "department": "36",
@@ -396,7 +397,7 @@
       "Électricité"
     ],
     "price": "Gratuit : stationnement et aire de services.",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Ouverture saisonnière indiquée du 1er avril au 31 octobre 2026 par Berry Province ; équipements et accès à vérifier avant déplacement",
     "source": "https://www.openstreetmap.org/way/1281269006",
     "latitude": 46.8056838,
     "longitude": 1.0377266,
@@ -409,7 +410,10 @@
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
     "priceSource": "https://www.berryprovince.com/aires-camping-cars/borne-camping-car-de-martizay/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Aire rue de la Cornillère ; ouverture indiquée du 1er avril au 31 octobre 2026."
+    "priceNote": "Aire rue de la Cornillère ; ouverture indiquée du 1er avril au 31 octobre 2026.",
+    "address": "Rue de la Cornillère, 36220 Martizay",
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/borne-camping-car-de-martizay/",
+    "verificationNote": "Source touristique Berry Province déjà référencée pour la gratuité du stationnement et des services, et pour la période du 1er avril au 31 octobre 2026. Le détail des équipements (notamment l'électricité déclarée dans OpenStreetMap) n'a pas été revérifié indépendamment."
   },
   {
     "department": "36",
