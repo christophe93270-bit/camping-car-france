@@ -4099,27 +4099,29 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE STATIONNEMENT ET DE SERVICES",
+    "name": "Aire municipale des étangs Jean-Guyon – Nozay",
     "city": "NOZAY",
-    "type": "Aire de stationnement",
+    "type": "Aire d'étape communale payante, avec stationnement et services",
     "services": [
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Vidange eaux grises",
-      "Vidange eaux noires",
-      "WiFi"
+      "20 emplacements avec électricité 16 A",
+      "Eau potable et vidanges eaux grises et noires",
+      "Wifi et vidéosurveillance",
+      "Borne de paiement et éclairage",
+      "Local déchets"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement payant, services compris. Un tarif de 11,10 € / 24 h apparaît dans un répertoire touristique non daté ; le tarif effectivement en vigueur en octobre 2026 doit être vérifié sur l'automate ou chez Aire Park Réservation.",
+    "status": "Route de Rennes, étangs de loisirs Jean-Guyon, 44170 Nozay. 20 places, équipement électrique 16 A, eau, vidange, wifi. Ouvert toute l'année selon Aire Park Réservation. Coordonnées d'origine régionales conservées.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.5746049,
     "longitude": -1.6257856,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V500766"
+    "importReview": "Existence, 20 places et services recoupés avec le site officiel de la mairie et Loire-Atlantique Tourisme ; tarif 2026 non garanti.",
+    "sourceId": "ACCAMPDL044V500766",
+    "sourceOfficial": "https://www.nozay44.fr/aire-de-camping-cars/",
+    "servicesSource": "https://www.nozay44.fr/aire-de-camping-cars/",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180251-AIRE-DE-STATIONNEMENT-ET-DE-SERVICES"
   },
   {
     "department": "53",
@@ -7286,25 +7288,28 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE SERVICE DU CHEMIN DE LA PLAGE",
+    "name": "Borne gratuite du chemin de la Plage – Saint-Philbert-de-Grand-Lieu",
     "city": "SAINT-PHILBERT-DE-GRAND-LIEU",
-    "type": "Aire de service",
+    "type": "Borne de services gratuite (stationnement de nuit non confirmé)",
     "services": [
-      "Aire de pique-nique",
-      "Eau potable (source ouverte)",
-      "Vidange",
-      "Vidange eaux grises"
+      "Eau potable gratuite à la borne",
+      "Vidange eaux grises et noires gratuite",
+      "Aire de pique-nique ombragée à proximité",
+      "Stationnement de nuit non attesté par l'office de tourisme"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Eau et vidanges gratuites selon l'office de tourisme de Grand Lieu. Aucun tarif de nuitée à attribuer à cette borne, qui est recensée comme point de services uniquement.",
+    "status": "Chemin de la Plage, Saint-Philbert-de-Grand-Lieu. Borne gratuite d'eau et vidange, avec aire de pique-nique, à proximité de la Boulogne. L'office présente ce lieu comme point de services ; ne pas promettre la nuitée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.0449683,
     "longitude": -1.6409345,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V5006FB"
+    "importReview": "Tarif zéro et nature borne de services confirmés par Grand Lieu Tourisme ; pas de stationnement nocturne confirmé.",
+    "sourceId": "ACCAMPDL044V5006FB",
+    "sourceOfficial": "https://www.grandlieu-tourisme.fr/ou-manger-ou-dormir/aires-de-camping-car",
+    "priceSource": "https://www.grandlieu-tourisme.fr/en/node/330",
+    "servicesSource": "https://www.grandlieu-tourisme.fr/en/node/330"
   },
   {
     "department": "49",
