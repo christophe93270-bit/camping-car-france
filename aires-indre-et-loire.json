@@ -29,7 +29,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Existence et coordonnées confirmées par une fiche de l'office de tourisme Touraine Nature ; tarif et services à confirmer",
     "source": "https://www.openstreetmap.org/node/11923665064",
     "latitude": 47.3877851,
     "longitude": 0.2099955,
@@ -38,7 +38,9 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/11923665064",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "sourceOfficial": "https://www.cirkwi.com/fr/point-interet/4864459-aire-de-stationnement-de-camping-cars-de-continvoir",
+    "verificationNote": "Fiche diffusée par Cirkwi, auteur Office de tourisme Touraine Nature, coordonnées 47.3877526, 0.2100075 correspondant au point OSM."
   },
   {
     "department": "37",
@@ -542,11 +544,11 @@
   {
     "department": "37",
     "name": "Aire Camping-car Le Moulin d’Azay",
-    "city": "Azay-le-Rideau",
+    "city": "Cheillé",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Point OSM à vérifier ; ne pas confondre avec l'aire payante rue du Stade",
+    "status": "Point OSM localisé à Cheillé selon Mapcarta ; exploitation et tarifs à confirmer",
     "source": "https://www.openstreetmap.org/way/1286326472",
     "latitude": 47.2582193,
     "longitude": 0.4643755,
@@ -556,7 +558,8 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1286326472",
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
-    "verificationNote": "Le point OSM du Moulin d'Azay ne doit pas être confondu avec l'aire officielle rue du Stade (48 emplacements, Interparking). Correspondance géographique et gratuité à confirmer."
+    "verificationNote": "La source cartographique Mapcarta localise Le Moulin d'Azay sur la commune de Cheillé, près du château d'Azay-le-Rideau. Le site OSM est distinct de l'aire Interparking rue du Stade ; statut d'exploitation, tarifs et services à confirmer.",
+    "sourceSecondary": "https://mapcarta.com/fr/W1286326472"
   },
   {
     "department": "37",
