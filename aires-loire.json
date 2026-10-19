@@ -5,20 +5,23 @@
     "city": "Noailly",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Stationnement gratuit (3 places)",
+      "WC publics (disponibilité à vérifier)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit (3 camping-cars) selon Roannais Tourisme, ouvert toute l'année 2026. Équipements mis hors gel du 1er novembre au 31 mars.",
+    "status": "Parking Maison du Temps Libre, 42640 Noailly. Trois emplacements de stationnement seulement, sanitaires publics accessibles suivant conditions ; mise hors gel hivernale de certains équipements. Ouverture annoncée toute l'année 2026.",
     "source": "https://www.openstreetmap.org/node/7916862763",
     "latitude": 46.1361031,
     "longitude": 4.0110733,
     "gpsSource": "https://www.openstreetmap.org/node/7916862763",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "node/7916862763",
     "servicesSource": "https://www.openstreetmap.org/node/7916862763",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-stationnement-camping-cars-noailly-fr-3352631/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-stationnement-camping-cars-noailly-fr-3352631/"
   },
   {
     "department": "42",
@@ -26,20 +29,26 @@
     "city": "Montrond-les-Bains",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (30 emplacements)",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées",
+      "Wifi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Forfait CAMPING-CAR PARK de 24 h : 14,56 € taxe de séjour incluse selon Loire Tourisme, tarif 2026 (taxe de séjour mentionnée : 0,90 €, ne pas l'ajouter une deuxième fois).",
+    "status": "230 impasse des Bergères, 42210 Montrond-les-Bains. Aire gérée par CAMPING-CAR PARK avec 30 emplacements, eau, électricité, services et wifi. Réservation obligatoire pour les séjours d'au moins 3 jours selon Loire Tourisme. Attention, distincte du point de services de la promenade Marguerite d'Albon où la nuitée est interdite.",
     "source": "https://www.openstreetmap.org/node/11915786906",
     "latitude": 45.6522158,
     "longitude": 4.2330806,
     "gpsSource": "https://www.openstreetmap.org/node/11915786906",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "node/11915786906",
     "servicesSource": "https://www.openstreetmap.org/node/11915786906",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-stationnement-camping-cars-park-montrond-les-bains-fr-3902243/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-stationnement-camping-cars-park-montrond-les-bains-fr-3902243/"
   },
   {
     "department": "42",
@@ -65,8 +74,8 @@
     "city": "Pouilly-sous-Charlieu",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement de camping-cars répertorié pour 4 véhicules, mais prix éventuel non publié par Loire Tourisme (ouverture 2026 toute l'année). Ne pas y appliquer automatiquement les tarifs du CAMPING-CAR PARK situé ailleurs.",
+    "status": "Parking Abel Dupont, 42720 Pouilly-sous-Charlieu, 4 places de camping-car en bord de Loire selon l'office de tourisme. Distinct du point de services gratuit Place du Marché (environ 1 km) et du CAMPING-CAR PARK payant des Îlots. Prix précis pour la nuitée non communiqué sur la fiche touristique.",
     "source": "https://www.openstreetmap.org/node/12094252761",
     "latitude": 46.1472184,
     "longitude": 4.0998423,
@@ -75,25 +84,32 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/12094252761",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Localisation et capacité vérifiées auprès de Loire Tourisme ; adresse Parking Abel Dupont.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-daccueil-camping-car-des-bords-de-loire-pouilly-sous-charlieu-fr-3355672/"
   },
   {
     "department": "42",
     "name": "Aire Camping-car Belmont-de-la-Loire",
     "city": "Belmont-de-la-Loire",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (3 places)",
+      "Eau potable gratuite",
+      "Vidange eaux grises et WC chimiques gratuite"
+    ],
+    "price": "Aire de stationnement et services gratuits (3 emplacements) selon l'office de tourisme de Charlieu-Belmont. Ouverture indiquée toute l'année 2026.",
+    "status": "Place des Arcades, 42670 Belmont-de-la-Loire. Aire de services municipale gratuite, stationnement réservé à trois véhicules ; eau potable, vidange eaux grises et WC chimiques. À distinguer du camping Les Écureuils, payant.",
     "source": "https://www.openstreetmap.org/node/12094277904",
     "latitude": 46.1674279,
     "longitude": 4.3442606,
     "gpsSource": "https://www.openstreetmap.org/node/12094277904",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "node/12094277904",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-de-camping-car-belmont-de-la-loire-fr-3352690/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-de-camping-car-belmont-de-la-loire-fr-3352690/"
   },
   {
     "department": "42",
@@ -101,38 +117,46 @@
     "city": "Panissières",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Douches"
+      "Stationnement camping-car (2 emplacements)",
+      "Eau potable (borne payante)",
+      "Électricité (borne payante)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Emplacement et accès à la borne d'eau/électricité : 2 € selon Loire Tourisme (tarif 2026 ; paiement avec pièces). Taxe de séjour en sus : 0,45 € par adulte et par nuit.",
+    "status": "Rue des Lauriers, 42360 Panissières, à côté de la Ferme Seigne. Aire ouverte toute l'année selon Forez Est Tourisme, 2 emplacements camping-car. Tarif à la borne : 2 €, avec taxe de séjour distincte selon l'office. Ne pas confondre avec le camping municipal de la Ferme Seigne ouvert uniquement en saison.",
     "source": "https://www.openstreetmap.org/node/12096985840",
     "latitude": 45.788224,
     "longitude": 4.3439327,
     "gpsSource": "https://www.openstreetmap.org/node/12096985840",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "node/12096985840",
     "servicesSource": "https://www.openstreetmap.org/node/12096985840",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-et-de-stationnement-camping-cars-panissieres-fr-3350406/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-et-de-stationnement-camping-cars-panissieres-fr-3350406/"
   },
   {
     "department": "42",
     "name": "Aire de stationnement camping-car Sauvain",
     "city": "Sauvain",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (5 places)"
+    ],
+    "price": "Stationnement gratuit (5 places), ouvert toute l'année 2026 selon Loire Tourisme. Aucun service technique tarifé annoncé.",
+    "status": "Le Bourg, 42990 Sauvain. Parking en dessous de la salle des fêtes, 5 emplacements réservés au stationnement des camping-cars ; pas de borne eau/vidange attestée par la fiche du tourisme.",
     "source": "https://www.openstreetmap.org/node/12097941808",
     "latitude": 45.6723898,
     "longitude": 3.9048806,
     "gpsSource": "https://www.openstreetmap.org/node/12097941808",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "node/12097941808",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-stationnement-camping-car-sauvain-fr-4075316/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-stationnement-camping-car-sauvain-fr-4075316/"
   },
   {
     "department": "42",
@@ -183,38 +207,49 @@
     "city": "Le Bessat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit (4 places)",
+      "Eau potable et vidange : 2,50 €",
+      "Électricité : 3 € / 4 h"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit (4 emplacements). Borne eau/vidange : 2,50 € ; électricité : 3 € pour 4 heures, paiement par carte bancaire selon Loire Tourisme.",
+    "status": "La Croix de Chaubouret, 42660 Le Bessat. Quatre emplacements avec borne eau, vidange et électricité ; ouvert toute l'année 2026 selon le tourisme du Pilat. Vérifier disponibilité du service d'eau en période de gel.",
     "source": "https://www.openstreetmap.org/way/226047612",
     "latitude": 45.3686519,
     "longitude": 4.527507,
     "gpsSource": "https://www.openstreetmap.org/way/226047612",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "way/226047612",
     "servicesSource": "https://www.openstreetmap.org/way/226047612",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-et-de-stationnement-camping-car-le-bessat-fr-3354473/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-et-de-stationnement-camping-car-le-bessat-fr-3354473/"
   },
   {
     "department": "42",
     "name": "Aire de camping-car de Villerest",
     "city": "Villerest",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (25 places)",
+      "Eau potable",
+      "Vidange des eaux grises",
+      "WC publics"
+    ],
+    "price": "Stationnement et aire de services gratuits (25 places), selon Roannais Tourisme, mise à jour octobre 2026. Équipements mis hors gel du 1er novembre au 31 mars.",
+    "status": "Aire de Loisirs du Barrage, 42300 Villerest, au bord de la retenue de Loire. 25 emplacements selon Roannais Tourisme, eau et vidange eaux grises ; ouvert toute l'année 2026, hivernage des bornes du 1er novembre au 31 mars. Ne pas confondre avec le camping L'Orée du Lac.",
     "source": "https://www.openstreetmap.org/way/289465198",
     "latitude": 45.986358,
     "longitude": 4.0431731,
     "gpsSource": "https://www.openstreetmap.org/way/289465198",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "way/289465198",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnemement-camping-cars-villerest-fr-3352879/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnemement-camping-cars-villerest-fr-3352879/"
   },
   {
     "department": "42",
@@ -246,17 +281,24 @@
     "name": "Aire de camping-car de Pouilly sous Charlieu",
     "city": "Pouilly-sous-Charlieu",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau potable gratuite",
+      "Vidange eaux grises et WC chimiques gratuite",
+      "Stationnement possible sur la place (conditions à vérifier)"
+    ],
+    "price": "Services d'eau potable et vidange gratuits (Place du Marché), selon l'office de tourisme. Stationnement possible sur la place ou sur l'aire distincte des Bords de Loire (4 places) ; ne pas appliquer les tarifs du CAMPING-CAR PARK des Îlots.",
+    "status": "Place du Marché, 42720 Pouilly-sous-Charlieu. Borne communale gratuite pour eau potable et vidange WC/eaux grises. À environ 1 km, parking des Bords de Loire avec 4 emplacements, et un terrain CAMPING-CAR PARK payant distinct route de Marcigny. Site ouvert toute l'année 2026 selon Loire Tourisme.",
     "source": "https://www.openstreetmap.org/way/366200100",
     "latitude": 46.149518,
     "longitude": 4.1129098,
     "gpsSource": "https://www.openstreetmap.org/way/366200100",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/366200100"
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
+    "sourceId": "way/366200100",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-de-camping-car-pouilly-sous-charlieu-fr-3351357/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-de-camping-car-pouilly-sous-charlieu-fr-3351357/",
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme."
   },
   {
     "department": "42",
@@ -289,20 +331,24 @@
     "city": "Roanne",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (10 places)",
+      "Eau potable et vidange cassette : 2,50 €",
+      "Électricité : 2,50 € / 4 h"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement : 9 € entre le 1er mars et le 30 novembre 2026, 7 € du 1er décembre 2026 au 28 février 2027. Eau potable/vidange cassette : 2,50 € le jeton ; électricité : 2,50 € / 4 h selon Roannais Tourisme.",
+    "status": "22 quai Commandant Fourcauld, Port de Roanne, 42300 Roanne. Dix places gérées au port de plaisance, sans réservation. Eau, électricité et vidange via bornes Flot Bleu. Tarification saisonnière détaillée par Roannais Tourisme dans sa fiche 2026.",
     "source": "https://www.openstreetmap.org/way/449088766",
     "latitude": 46.0380827,
     "longitude": 4.0829519,
     "gpsSource": "https://www.openstreetmap.org/way/449088766",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "way/449088766",
     "servicesSource": "https://www.openstreetmap.org/way/449088766",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-et-de-stationnement-camping-cars-roanne-fr-3355688/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-et-de-stationnement-camping-cars-roanne-fr-3355688/"
   },
   {
     "department": "42",
@@ -335,36 +381,49 @@
     "name": "Aire de camping-car Charlieu",
     "city": "Charlieu",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (3 places)",
+      "Eau potable gratuite",
+      "Vidange eaux grises et WC chimiques gratuite"
+    ],
+    "price": "Stationnement (3 places) et aire de services gratuits selon l'office du Pays de Charlieu-Belmont, ouvert toute l'année 2026.",
+    "status": "Place d'Eningen, 42190 Charlieu. Trois places de camping-car réservées avec point d'eau, vidange eaux grises et WC chimiques ; tarifs indiqués gratuits par l'office de tourisme.",
     "source": "https://www.openstreetmap.org/way/677444483",
     "latitude": 46.1605582,
     "longitude": 4.1774658,
     "gpsSource": "https://www.openstreetmap.org/way/677444483",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "way/677444483",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-de-camping-car-charlieu-fr-3352894/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-de-camping-car-charlieu-fr-3352894/"
   },
   {
     "department": "42",
     "name": "Aire de service pour camping-car Marols",
     "city": "Marols",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (8 places, 48 h maximum)",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux grises et toilettes"
+    ],
+    "price": "Stationnement et services gratuits ; durée maximale de 48 heures selon Loire Tourisme (tarifs et ouverture 2026).",
+    "status": "Rue du Stade, lieu-dit Le Plat du Guet, 42560 Marols. Huit emplacements gratuits, eau potable, électricité, vidange eaux grises et noires ; 48 h maximum. Une participation volontaire au CCAS de la commune est suggérée, non obligatoire.",
     "source": "https://www.openstreetmap.org/way/965430705",
     "latitude": 45.4777779,
     "longitude": 4.0387203,
     "gpsSource": "https://www.openstreetmap.org/way/965430705",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "way/965430705",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-pour-camping-car-marols-fr-3354942/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-pour-camping-car-marols-fr-3354942/"
   },
   {
     "department": "42",
@@ -506,20 +565,24 @@
     "city": "Noirétable",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement (6 places, maximum 24 h)",
+      "Eau potable et vidange WC : 4 €",
+      "Électricité : 4 € / 4 h"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement sur aire 24 h maximum (prix du stationnement non indiqué). Eau potable/vidange cassette : 4 € les 140 litres d'eau avec vidange ; électricité : 4 € pour 4 heures selon Loire Tourisme, tarifs 2026.",
+    "status": "6 La Roche, au bord du plan d'eau, 42440 Noirétable, à proximité du camping municipal. Six places, limite de 24 h ; borne Flot Bleu payée par CB pour l'eau et la vidange et jetons d'électricité vendus à l'accueil du camping. Tarif de nuitée distinct non publié.",
     "source": "https://www.openstreetmap.org/way/1306254865",
     "latitude": 45.8063521,
     "longitude": 3.7688953,
     "gpsSource": "https://www.openstreetmap.org/way/1306254865",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "way/1306254865",
     "servicesSource": "https://www.openstreetmap.org/way/1306254865",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-et-de-stationnement-camping-car-noiretable-fr-3350287/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-et-de-stationnement-camping-car-noiretable-fr-3350287/"
   },
   {
     "department": "42",
@@ -590,18 +653,24 @@
     "name": "Aire camping-cars Saint-Rirand",
     "city": "Saint-Rirand",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (3 places)",
+      "Vidange des eaux grises (fonctionnement à vérifier)",
+      "Eau potable coupée (signalée en 2026)"
+    ],
+    "price": "Stationnement et point de services gratuits (3 places) selon Roannais Tourisme pour 2026. ATTENTION : l'eau a été coupée pour préserver la ressource et l'équipement est mis hors gel en hiver.",
+    "status": "Le Bourg, 42370 Saint-Rirand. Aire de 3 emplacements avec aire de pique-nique et vidange ; office de tourisme indique que l'alimentation en eau est coupée à la demande de Roannaise de l'eau. Ne pas annoncer l'eau potable disponible. Mise hors gel du 1er novembre au 31 mars.",
     "source": "https://www.openstreetmap.org/way/1307208573",
     "latitude": 46.0750011,
     "longitude": 3.8500696,
     "gpsSource": "https://www.openstreetmap.org/way/1307208573",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "way/1307208573",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-camping-cars-saint-rirand-fr-3351259/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-camping-cars-saint-rirand-fr-3351259/"
   },
   {
     "department": "42",
@@ -630,20 +699,23 @@
     "city": "Saint-Martin-d'Estréaux",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Stationnement gratuit (3 places)",
+      "WC publics"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et services gratuits (3 emplacements), selon Loire Tourisme, ouvert toute l'année 2026.",
+    "status": "Place des Gouttes, 42620 Saint-Martin-d'Estréaux, près de l'ancienne RN7. Trois emplacements avec WC publics et commerces à proximité ; gratuité attestée par Roannais Tourisme en 2026.",
     "source": "https://www.openstreetmap.org/way/1307209732",
     "latitude": 46.2071823,
     "longitude": 3.7985679,
     "gpsSource": "https://www.openstreetmap.org/way/1307209732",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "way/1307209732",
     "servicesSource": "https://www.openstreetmap.org/way/1307209732",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-camping-cars-saint-martin-destreaux-fr-3351895/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-camping-cars-saint-martin-destreaux-fr-3351895/"
   },
   {
     "department": "42",
@@ -671,18 +743,25 @@
     "name": "Aire camping-car Saint-Marcel-d'Urfé",
     "city": "Saint-Marcel-d'Urfé",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (2 places)",
+      "Eau potable gratuite",
+      "Vidange eaux grises gratuite",
+      "WC publics"
+    ],
+    "price": "Stationnement et services gratuits (2 emplacements), ouvert toute l'année 2026 selon Roannais Tourisme.",
+    "status": "Le Bourg, route de l'Aix, 42430 Saint-Marcel-d'Urfé, à côté du terrain de tennis. Deux emplacements, eau, WC publics et vidange eaux usées. Gratuité et année 2026 vérifiées par l'office de tourisme.",
     "source": "https://www.openstreetmap.org/way/1307216963",
     "latitude": 45.8737421,
     "longitude": 3.8834098,
     "gpsSource": "https://www.openstreetmap.org/way/1307216963",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "way/1307216963",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-et-de-stationnement-camping-car-saint-marcel-durfe-fr-3349953/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-et-de-stationnement-camping-car-saint-marcel-durfe-fr-3349953/"
   },
   {
     "department": "42",
@@ -725,17 +804,21 @@
     "name": "Aire camping-cars Saint-Jean-Saint-Maurice-sur-Loire",
     "city": "Saint-Jean-Saint-Maurice-sur-Loire",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (4 places)"
+    ],
+    "price": "Stationnement gratuit (4 places), toute l'année 2026 selon Roannais Tourisme ; aucun service technique payant annoncé.",
+    "status": "Route de Charizet, près du bourg médiéval de Saint-Maurice, 42155 Saint-Jean-Saint-Maurice-sur-Loire. Parking à 200 m du centre historique, quatre places. Aire de stationnement gratuite, sans vidange ou électricité mentionnée par le tourisme.",
     "source": "https://www.openstreetmap.org/way/1431738534",
     "latitude": 45.963394,
     "longitude": 4.006028,
     "gpsSource": "https://www.openstreetmap.org/way/1431738534",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Données recoupées avec Loire Tourisme pour 2026 ; vérifier l'état des bornes sur place",
     "sourceId": "way/1431738534",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et fiche de l'aire confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-stationnement-saint-jean-saint-maurice-sur-loire-fr-3354898/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-stationnement-saint-jean-saint-maurice-sur-loire-fr-3354898/"
   }
 ]
