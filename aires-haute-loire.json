@@ -2,7 +2,7 @@
   {
     "department": "43",
     "name": "Aire Camping-car Ally",
-    "city": "Commune à confirmer",
+    "city": "Ally",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -14,163 +14,221 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/8898564107"
+    "sourceId": "node/8898564107",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire OpenStreetMap ; vérification cartographique/locale en cours."
   },
   {
     "department": "43",
     "name": "Aire camping-cars Le Vernet",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Le Vernet",
+    "type": "Aire de stationnement et de services camping-car",
+    "services": [
+      "Stationnement camping-car",
+      "Eau potable et vidange (payantes en saison)",
+      "Électricité payante",
+      "Aire de jeux à proximité"
+    ],
+    "price": "Stationnement, eau, vidange et électricité payants, sans barème chiffré publié par My Haute-Loire ; tarifs à demander sur place. Hors saison, stationnement possible mais eau coupée selon l'office.",
+    "status": "Place de l'Étang, 43320 Le Vernet. Au bord de l'étang, fonctionnement annoncé du 1er mai au 30 octobre ; stationnement possible hors saison sans eau. Les prix exacts ne sont pas publiés.",
     "source": "https://www.openstreetmap.org/node/12104383322",
     "latitude": 45.0353014,
     "longitude": 3.6698051,
     "gpsSource": "https://www.openstreetmap.org/node/12104383322",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12104383322"
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
+    "sourceId": "node/12104383322",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-7/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-7/"
   },
   {
     "department": "43",
     "name": "Aire CAMPING-CAR PARK d'Auzon",
     "city": "Auzon",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire CAMPING-CAR PARK",
     "services": [
-      "Électricité"
+      "Stationnement payant (25 places)",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux grises et noires",
+      "Wifi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Grille touristique 2026 : 12,70 € l'emplacement, taxe de séjour indiquée incluse par My Haute-Loire ; CAMPING-CAR PARK affiche aussi des montants variables pour 24 h (par exemple 14,80 € lors d'une consultation récente). Vérifier le tarif final à la réservation.",
+    "status": "CAMPING-CAR PARK, 1 chemin des Moulins, 43390 Auzon, 25 places, à 10 minutes du bourg. Bornes eau, électricité et vidanges. Ouverture 24 h/24 toute l'année 2026. Attention : une anomalie de code postal (44390) est aussi présente dans la fiche de tourisme ; retenir 43390.",
     "source": "https://www.openstreetmap.org/way/138183546",
     "latitude": 45.3947866,
     "longitude": 3.3760236,
     "gpsSource": "https://www.openstreetmap.org/way/138183546",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
     "sourceId": "way/138183546",
-    "servicesSource": "https://www.openstreetmap.org/way/138183546"
+    "servicesSource": "https://www.openstreetmap.org/way/138183546",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-service-camping-car-2/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-service-camping-car-2/"
   },
   {
     "department": "43",
     "name": "L’accueil des Camping-cars Chanteuges",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Chanteuges",
+    "type": "Aire de stationnement et de services camping-car",
+    "services": [
+      "Stationnement gratuit",
+      "Eau potable",
+      "Vidange eaux grises et noires",
+      "Dépôt déchets",
+      "Wifi signalé"
+    ],
+    "price": "Stationnement et services gratuits selon My Haute-Loire. Pas de supplément publié pour eau ou vidanges ; vérifier les installations lors du gel.",
+    "status": "Esplanade de l'ancienne gare, 43300 Chanteuges. Aire de stationnement camping-car avec borne d'eau, vidanges et déchets, ouverte toute l'année d'après My Haute-Loire.",
     "source": "https://www.openstreetmap.org/way/302425377",
     "latitude": 45.072548,
     "longitude": 3.5296282,
     "gpsSource": "https://www.openstreetmap.org/way/302425377",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/302425377"
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
+    "sourceId": "way/302425377",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-service-camping-car-13/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-service-camping-car-13/"
   },
   {
     "department": "43",
     "name": "Aires de service pour camping-cars à Saint-Romain-Lachalm",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Saint-Romain-Lachalm",
+    "type": "Aire de stationnement et de services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement gratuit (4 places)",
+      "Vidange gratuite",
+      "Eau potable : 2 € / 20 min",
+      "Électricité : 2 € / 4 h",
+      "WC publics"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et vidange gratuits ; eau potable ou électricité : 2 € le jeton donnant droit à 20 min d'eau OU 4 h d'électricité. Barème My Haute-Loire 2026.",
+    "status": "Le Bourg, 43620 Saint-Romain-Lachalm. 4 emplacements, borne Flot Bleu ; jetons à acheter en boulangerie, au salon de coiffure ou en mairie. Ouvert toute l'année selon My Haute-Loire.",
     "source": "https://www.openstreetmap.org/way/360568385",
     "latitude": 45.2640597,
     "longitude": 4.3357923,
     "gpsSource": "https://www.openstreetmap.org/way/360568385",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
     "sourceId": "way/360568385",
-    "servicesSource": "https://www.openstreetmap.org/way/360568385"
+    "servicesSource": "https://www.openstreetmap.org/way/360568385",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-13/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-13/"
   },
   {
     "department": "43",
     "name": "Aire de camping-car Raucoules",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Raucoules",
+    "type": "Aire de stationnement et de services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement gratuit (4 places)",
+      "Vidange gratuite",
+      "Eau potable : 2 € / 20 min",
+      "Électricité : 2 € / 4 h",
+      "Wifi signalé"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et vidange gratuits ; eau potable OU électricité : 2 € par jeton, valable pour 20 min d'eau ou 4 h d'électricité. Tarifs My Haute-Loire du 01/01 au 31/12/2026.",
+    "status": "4 rue du Marché, 43290 Raucoules. Quatre places au centre du village, eau et électricité par jeton Flot Bleu (mairie, salaison Pichon, bar des Chasseurs). Ouvert toute l'année.",
     "source": "https://www.openstreetmap.org/way/362349719",
     "latitude": 45.1863469,
     "longitude": 4.2975781,
     "gpsSource": "https://www.openstreetmap.org/way/362349719",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
     "sourceId": "way/362349719",
-    "servicesSource": "https://www.openstreetmap.org/way/362349719"
+    "servicesSource": "https://www.openstreetmap.org/way/362349719",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-12/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-12/"
   },
   {
     "department": "43",
     "name": "Aire de camping-car Saint-Bonnet-le-Froid",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Saint-Bonnet-le-Froid",
+    "type": "Aire de stationnement et de services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement payant (6 places)",
+      "Eau et électricité incluses",
+      "Vidange incluse",
+      "Caution clé remboursable (10 €)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "10 € par nuit, eau, vidange et électricité incluses. Caution de 10 € pour la clé, restituée au retour ; tarif officiel 2026.",
+    "status": "Chemin de Brard, 43290 Saint-Bonnet-le-Froid, 6 places. Ouvert du 15 avril au 15 novembre 2026. Clé à retirer au bar Les Genêts d'Or, à la Maison de l'Ail ou à la Cave Marcon. Paiement en espèces ou chèque.",
     "source": "https://www.openstreetmap.org/way/366950128",
     "latitude": 45.1414681,
     "longitude": 4.4345043,
     "gpsSource": "https://www.openstreetmap.org/way/366950128",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
     "sourceId": "way/366950128",
-    "servicesSource": "https://www.openstreetmap.org/way/366950128"
+    "servicesSource": "https://www.openstreetmap.org/way/366950128",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-camping-car-3/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-camping-car-3/"
   },
   {
     "department": "43",
     "name": "Aire de camping-car à Solignac sur Loire",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Solignac-sur-Loire",
+    "type": "Aire de stationnement et de services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement avec services payants",
+      "Eau et électricité comprises dans forfait nuitée",
+      "Vidange eaux grises et noires"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Nuitée et services payants ensemble ; aucun montant 2026 renseigné par l'office. Eau et électricité ne peuvent pas être achetées séparément de la nuitée.",
+    "status": "18 rue de l'Iris, 43370 Solignac-sur-Loire. Aire avec eau, vidange et électricité, ouverte du 15 avril au 31 octobre selon My Haute-Loire. Paiement par carte bancaire.",
     "source": "https://www.openstreetmap.org/way/386949774",
     "latitude": 44.9651187,
     "longitude": 3.8790119,
     "gpsSource": "https://www.openstreetmap.org/way/386949774",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
     "sourceId": "way/386949774",
-    "servicesSource": "https://www.openstreetmap.org/way/386949774"
+    "servicesSource": "https://www.openstreetmap.org/way/386949774",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-15/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-15/"
   },
   {
     "department": "43",
     "name": "Aire de Camping Car Aiguilhe",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Aiguilhe",
+    "type": "Aire de stationnement et de services camping-car",
+    "services": [
+      "Stationnement limité à 24 h (6 places)",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux grises et noires"
+    ],
+    "price": "Tarif 2026 de nuitée et de services non publié par l'office de tourisme ; ne pas supposer la gratuité.",
+    "status": "Avenue de Bonneville, face à l'école primaire et à la salle polyvalente d'Aiguilhe (43000). Six places de camping-cars, stationnement limité à 24 h, toute l'année ; eau, vidange et électricité annoncées, prix non indiqués.",
     "source": "https://www.openstreetmap.org/way/488338295",
     "latitude": 45.0506835,
     "longitude": 3.8834924,
     "gpsSource": "https://www.openstreetmap.org/way/488338295",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/488338295"
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
+    "sourceId": "way/488338295",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-a-aiguilhe/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-a-aiguilhe/"
   },
   {
     "department": "43",
     "name": "Aire camping-car Tiranges",
-    "city": "Commune à confirmer",
+    "city": "Tiranges",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -182,12 +240,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/590793144"
+    "sourceId": "way/590793144",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire OpenStreetMap ; vérification cartographique/locale en cours."
   },
   {
     "department": "43",
     "name": "Aire de camping-car de Saint-Julien-Molhesabate",
-    "city": "Commune à confirmer",
+    "city": "Saint-Julien-Molhesabate",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -199,12 +258,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/860164327"
+    "sourceId": "way/860164327",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire OpenStreetMap ; vérification cartographique/locale en cours."
   },
   {
     "department": "43",
     "name": "Aire de camping-car du Puy-en-Velay",
-    "city": "Commune à confirmer",
+    "city": "Le Puy-en-Velay",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -219,66 +279,87 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/897507616",
-    "servicesSource": "https://www.openstreetmap.org/way/897507616"
+    "servicesSource": "https://www.openstreetmap.org/way/897507616",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire OpenStreetMap ; vérification cartographique/locale en cours."
   },
   {
     "department": "43",
     "name": "Aire de Camping-Cars de Dunières",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Dunières",
+    "type": "Aire de stationnement et de services camping-car",
+    "services": [
+      "Stationnement gratuit (3 places)",
+      "Vidange eaux grises et noires gratuite",
+      "Eau potable gratuite (hors gel)"
+    ],
+    "price": "Stationnement, eau potable et vidanges gratuits selon la Maison du tourisme de Haute-Loire. Eau coupée en hiver.",
+    "status": "Rue la Mutualité, 43220 Dunières. Trois emplacements gratuits au centre-bourg, ouverts toute l'année ; remplissage d'eau potable indisponible en hiver.",
     "source": "https://www.openstreetmap.org/way/1027466978",
     "latitude": 45.2147939,
     "longitude": 4.3427847,
     "gpsSource": "https://www.openstreetmap.org/way/1027466978",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1027466978"
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
+    "sourceId": "way/1027466978",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-14/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-14/"
   },
   {
     "department": "43",
     "name": "Aire camping-cars à Polignac",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Polignac",
+    "type": "Aire de stationnement et de services camping-car",
     "services": [
-      "Électricité"
+      "Stationnement camping-car (10 places)",
+      "Eau potable : 3 €",
+      "Électricité : 3 €",
+      "Vidanges eaux usées"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Vidange et stationnement : prix non publié. Recharge d'eau : 3 € et électricité : 3 € à compter du 1er mars 2025, toujours affichés sur la fiche My Haute-Loire consultée en 2026. Paiement CB uniquement.",
+    "status": "Rue du Midi, 43770 Polignac. 10 places. Bornes pour eau, électricité et vidanges ; ouverte toute l'année selon l'office de tourisme.",
     "source": "https://www.openstreetmap.org/way/1030211641",
     "latitude": 45.0691202,
     "longitude": 3.8562411,
     "gpsSource": "https://www.openstreetmap.org/way/1030211641",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
     "sourceId": "way/1030211641",
-    "servicesSource": "https://www.openstreetmap.org/way/1030211641"
+    "servicesSource": "https://www.openstreetmap.org/way/1030211641",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-17/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-17/"
   },
   {
     "department": "43",
     "name": "Aire camping-cars à Beauzac",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Beauzac",
+    "type": "Aire de stationnement et de services camping-car",
+    "services": [
+      "Stationnement gratuit",
+      "Vidange eaux grises et noires gratuite",
+      "Eau potable (coupée mi-octobre à avril)"
+    ],
+    "price": "Stationnement et aire de services gratuits selon My Haute-Loire ; l'eau est coupée de mi-octobre à avril.",
+    "status": "13 avenue Maréchal-Leclerc, espace La Dorlière, 43590 Beauzac. Borne de vidange et d'eau gratuite, disponible toute l'année mais sans eau potable de mi-octobre à avril.",
     "source": "https://www.openstreetmap.org/way/1192816586",
     "latitude": 45.2616378,
     "longitude": 4.1014701,
     "gpsSource": "https://www.openstreetmap.org/way/1192816586",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1192816586"
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
+    "sourceId": "way/1192816586",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-10/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-10/"
   },
   {
     "department": "43",
     "name": "Aire de Camping-car de Beaulieu",
-    "city": "Commune à confirmer",
+    "city": "Beaulieu",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -290,32 +371,39 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1211253525"
+    "sourceId": "way/1211253525",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire OpenStreetMap ; vérification cartographique/locale en cours."
   },
   {
     "department": "43",
     "name": "Aire de stationnement de camping-car Brioude",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Brioude",
+    "type": "Aire de stationnement et de services camping-car",
     "services": [
-      "Toilettes"
+      "Stationnement gratuit (24 h)",
+      "Eau potable par jetons",
+      "Électricité par jetons",
+      "Vidanges par jetons"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit, limité à 24 h ; eau, électricité et vidange payantes via jetons vendus par l'Office de tourisme Brioude Sud Auvergne. Montant des jetons non publié.",
+    "status": "Parking du Centre Historique, route de Lamothe, 43100 Brioude. Aire à proximité de la basilique Saint-Julien, ouverte toute l'année, jetons de service vendus à l'office de tourisme.",
     "source": "https://www.openstreetmap.org/way/1278080749",
     "latitude": 45.2946088,
     "longitude": 3.388062,
     "gpsSource": "https://www.openstreetmap.org/way/1278080749",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
     "sourceId": "way/1278080749",
-    "servicesSource": "https://www.openstreetmap.org/way/1278080749"
+    "servicesSource": "https://www.openstreetmap.org/way/1278080749",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-3/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-service-pour-camping-car-3/"
   },
   {
     "department": "43",
     "name": "Accueil camping-cars à La Chaise-Dieu",
-    "city": "Commune à confirmer",
+    "city": "La Chaise-Dieu",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
@@ -330,12 +418,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1306931496",
-    "servicesSource": "https://www.openstreetmap.org/way/1306931496"
+    "servicesSource": "https://www.openstreetmap.org/way/1306931496",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire OpenStreetMap ; vérification cartographique/locale en cours."
   },
   {
     "department": "43",
     "name": "Accueil camping-cars Saint-Christophe-sur-Dolaison",
-    "city": "Commune à confirmer",
+    "city": "Saint-Christophe-sur-Dolaison",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -347,12 +436,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1307051056"
+    "sourceId": "way/1307051056",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire OpenStreetMap ; vérification cartographique/locale en cours."
   },
   {
     "department": "43",
     "name": "Aire de camping-car Montregard",
-    "city": "Commune à confirmer",
+    "city": "Montregard",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -364,40 +454,54 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1307066493"
+    "sourceId": "way/1307066493",
+    "cityVerificationNote": "Commune renseignée d'après le nom de l'aire OpenStreetMap ; vérification cartographique/locale en cours."
   },
   {
     "department": "43",
     "name": "Aire de camping car Blesle",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Blesle",
+    "type": "Parking camping-car sans borne confirmée",
+    "services": [
+      "Stationnement gratuit (6 places)",
+      "Aucun service technique confirmé au parking"
+    ],
+    "price": "Stationnement gratuit sur le parking route du Basbory (6 emplacements) selon My Haute-Loire. Ne pas confondre avec l'aire CAMPING-CAR PARK de La Bessière, payante.",
+    "status": "Route du Basbory, 43450 Blesle. L'office de tourisme recense un parking de 6 places gratuites près du village. Attention : les coordonnées GPS historiques de la fiche OpenStreetMap doivent être recontrôlées pour s'assurer qu'elles représentent le parking gratuit et non le CAMPING-CAR PARK de La Bessière.",
     "source": "https://www.openstreetmap.org/way/1307539468",
     "latitude": 45.3170223,
     "longitude": 3.1742178,
     "gpsSource": "https://www.openstreetmap.org/way/1307539468",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1307539468"
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
+    "sourceId": "way/1307539468",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-de-stationnement-camping-car/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-de-stationnement-camping-car/"
   },
   {
     "department": "43",
     "name": "Aire camping-cars à Les Estables",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Les Estables",
+    "type": "Stationnement camping-car et services sur plusieurs points",
+    "services": [
+      "Stationnement gratuit",
+      "Borne de vidange : 2 €",
+      "Fontaine potable au bourg"
+    ],
+    "price": "Stationnement gratuit dans les parkings identifiés ; vidange des eaux usées à la borne du bourg contre 2 pièces de 1 € (soit 2 €), selon My Haute-Loire.",
+    "status": "Les Estables (43150) : stationnement au parking de la Maison Forestière au pied du mont Mézenc et sur la place du Foirail. Borne de vidange distincte, route du Gerbier à côté du terrain de pétanque. Les coordonnées OpenStreetMap de cette fiche ne représentent pas nécessairement chacun des trois points.",
     "source": "https://www.openstreetmap.org/way/1420275690",
     "latitude": 44.901827,
     "longitude": 4.156007,
     "gpsSource": "https://www.openstreetmap.org/way/1420275690",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1420275690"
+    "importReview": "Fiche recoupée avec la Maison du tourisme de Haute-Loire, informations consultées le 19 octobre 2026. État des équipements à vérifier sur place.",
+    "sourceId": "way/1420275690",
+    "cityVerificationNote": "Commune et emplacement décrits dans la fiche touristique officielle.",
+    "sourceOfficial": "https://www.myhauteloire.fr/camping/aire-camping-car-4/",
+    "priceSource": "https://www.myhauteloire.fr/camping/aire-camping-car-4/"
   }
 ]
