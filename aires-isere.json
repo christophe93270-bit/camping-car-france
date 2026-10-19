@@ -474,7 +474,7 @@
     "city": "Reventin-Vaugris",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Gratuit : 10 places réservées aux camping-cars",
+    "price": "Gratuit : 10 places réservées aux camping-cars (Vienne Condrieu Tourisme)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/475873188",
     "latitude": 45.4683274,
@@ -486,7 +486,9 @@
     "sourceId": "way/475873188",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.rhonetourisme.com/je-prepare/hebergements-pres-de-lyon/aires-de-services/167114_aire-de-stationnement-reventin-vaugris-centre-village/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.vienne-condrieu.com/sejourner/hebergement/aires-de-stationnement-pour-camping-car/",
+    "verificationNote": "L'office de tourisme confirme dix places gratuites au centre village. Aucun service d'eau ou d'électricité confirmé sur cette fiche."
   },
   {
     "department": "38",
@@ -687,8 +689,12 @@
     "name": "Aire de stationnement Eyzin-Pinet / Stade",
     "city": "Eyzin-Pinet",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Gratuit : stationnement et services d'eau/vidange (source spécialisée corroborée par office de tourisme)",
+    "services": [
+      "5 places de stationnement",
+      "Eau (tarif à confirmer)",
+      "Vidange (à confirmer)"
+    ],
+    "price": "Gratuit : 5 places réservées aux camping-cars (Vienne Condrieu Tourisme) ; coût de l'eau et de la vidange à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1287821366",
     "latitude": 45.4748862,
@@ -700,7 +706,9 @@
     "sourceId": "way/1287821366",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.i-campingcar.fr/aires.php?ville=EYZIN-PINET",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.vienne-condrieu.com/sejourner/hebergement/aires-de-stationnement-pour-camping-car/",
+    "verificationNote": "Vienne Condrieu Tourisme confirme cinq places gratuites au stade et mentionne l'eau. La gratuité des services n'est pas démontrée par cette liste : ancien tarif communautaire conservé uniquement comme piste, non comme confirmation officielle."
   },
   {
     "department": "38",
@@ -708,7 +716,7 @@
     "city": "Chasse-sur-Rhône",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Gratuit : 4 emplacements pour camping-cars ; taxe de séjour non incluse",
+    "price": "Gratuit : 4 emplacements pour camping-cars au complexe sportif (Vienne Condrieu Tourisme) ; taxe de séjour éventuelle à vérifier",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1287822832",
     "latitude": 45.5831978,
@@ -720,7 +728,9 @@
     "sourceId": "way/1287822832",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.vienne-condrieu.com/hotellerie-plein-air/aire-de-stationnement-chasse-sur-rhone-complexe-sportif-chasse-sur-rhone/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.vienne-condrieu.com/sejourner/hebergement/aires-de-stationnement-pour-camping-car/",
+    "verificationNote": "L'office de tourisme confirme quatre emplacements gratuits au complexe sportif. Le montant et l'applicabilité de la taxe de séjour ne sont pas précisés sur la liste touristique."
   },
   {
     "department": "38",
