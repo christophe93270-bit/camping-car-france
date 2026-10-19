@@ -429,10 +429,12 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Eau potable",
-      "Toilettes"
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Sanitaires"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif à confirmer",
+    "status": "Aire municipale confirmée par Landes Tourisme : 30 emplacements, eau potable, vidange eaux grises et WC chimiques, sanitaires ; montant du tarif à confirmer.",
     "source": "https://www.openstreetmap.org/way/905474286",
     "latitude": 44.3073459,
     "longitude": -1.1816141,
@@ -441,7 +443,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/905474286",
-    "servicesSource": "https://www.openstreetmap.org/way/905474286"
+    "servicesSource": "https://www.openstreetmap.org/way/905474286",
+    "sourceOfficial": "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-cars-du-lac-accaqu040010000j/"
   },
   {
     "department": "40",
@@ -449,10 +452,12 @@
     "city": "Sanguinet",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Eau potable",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Payant du 1er avril au 31 octobre (montant à confirmer) ; gratuit hors saison sans garantie de prestations.",
+    "status": "Aire municipale confirmée : 15 emplacements, 48 h maximum ; payante du 1er avril au 31 octobre, gratuite hors saison sans garantie de prestations ; montant à confirmer.",
     "source": "https://www.openstreetmap.org/way/906183362",
     "latitude": 44.4831534,
     "longitude": -1.0911574,
@@ -461,7 +466,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/906183362",
-    "servicesSource": "https://www.openstreetmap.org/way/906183362"
+    "servicesSource": "https://www.openstreetmap.org/way/906183362",
+    "sourceOfficial": "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-cars-des-bardets-accaqu040010000e/"
   },
   {
     "department": "40",
@@ -703,9 +709,12 @@
     "name": "Aire de camping car du Mounay",
     "city": "Sanguinet",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Sanitaires"
+    ],
+    "price": "Payant du 1er avril au 31 octobre (montant à confirmer) ; gratuit hors saison sans garantie de prestations.",
+    "status": "Aire confirmée : 30 emplacements, 24 h maximum ; stationnement au parking du Pavillon toléré lorsque l'aire des Bardets est complète ; payant du 1er avril au 31 octobre, gratuit hors saison sans garantie de prestations ; montant à confirmer.",
     "source": "https://www.openstreetmap.org/way/1363124914",
     "latitude": 44.484537,
     "longitude": -1.0851923,
@@ -713,6 +722,7 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1363124914"
+    "sourceId": "way/1363124914",
+    "sourceOfficial": "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-cars-du-mounay-accaqu040010000d/"
   }
 ]
