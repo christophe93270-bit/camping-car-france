@@ -320,9 +320,15 @@
     "name": "Aire camping car Chouzé-sur-Loire",
     "city": "Chouzé-sur-Loire",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Borne de services",
+      "Eau",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Stationnement de nuit"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire confirmée par Touraine Val de Loire ; tarif à confirmer",
     "source": "https://www.openstreetmap.org/way/860094574",
     "latitude": 47.2381115,
     "longitude": 0.1264323,
@@ -331,7 +337,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/860094574",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "address": "Rue de l'Église, 37140 Chouzé-sur-Loire",
+    "sourceOfficial": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-services-de-chouze-sur-loire-chouze-sur-loire-fr-5152487/",
+    "verificationNote": "Ne pas confondre avec le Camping des Bords de Loire, rue de l'Île Bourdon."
   },
   {
     "department": "37",
@@ -378,12 +387,14 @@
   },
   {
     "department": "37",
-    "name": "Aire de camping-cars de Bourgueil",
+    "name": "Aire de stationnement des Tanneries",
     "city": "Bourgueil",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement de nuit"
+    ],
+    "price": "Gratuit (stationnement)",
+    "status": "Stationnement gratuit confirmé par Touraine Val de Loire",
     "source": "https://www.openstreetmap.org/way/987312006",
     "latitude": 47.2797826,
     "longitude": 0.1705494,
@@ -392,7 +403,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/987312006",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "address": "Rue des Tanneries, 37140 Bourgueil",
+    "sourceOfficial": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-stationnement-des-tanneries-bourgueil-fr-5151772/",
+    "priceSource": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-stationnement-des-tanneries-bourgueil-fr-5151772/",
+    "priceVerifiedOn": "2026-10-19",
+    "verificationNote": "Aire des Tanneries distincte du camping municipal Parc Capitaine. Correspondance exacte avec le point OSM à contrôler."
   },
   {
     "department": "37",
