@@ -336,9 +336,10 @@
     "city": "Villard-de-Lans",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Eau potable"
+      "Stationnement gratuit sans borne de services",
+      "Navette gratuite à proximité en hiver et en été"
     ],
-    "price": "Gratuit : stationnement sans eau ni électricité",
+    "price": "Stationnement gratuit toute l'année 2026 (office de tourisme) ; pas d'eau ni d'électricité sur place",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/192543327",
     "latitude": 45.0662508,
@@ -350,7 +351,9 @@
     "sourceId": "way/192543327",
     "servicesSource": "https://www.openstreetmap.org/way/192543327",
     "priceSource": "https://www.villarddelans-correnconenvercors.com/offres/aire-de-camping-car-des-bartavelles-villard-de-lans-fr-3286680/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.villarddelans-correnconenvercors.com/offres/aire-de-camping-car-des-bartavelles-villard-de-lans-fr-3286680/",
+    "verificationNote": "Route des Bartavelles, à environ 300 m du centre de Villard-de-Lans. L'office municipal de tourisme confirme un parking gratuit pour véhicules autonomes, sans eau ni borne électrique ; navette gratuite devant le parking. Ne pas afficher 'eau potable' comme service sur place."
   },
   {
     "department": "38",
@@ -824,11 +827,12 @@
     "city": "Saint-Pierre-de-Chartreuse",
     "type": "Aire d'étape Camping-Car Park",
     "services": [
-      "Électricité",
+      "16 emplacements",
+      "Électricité 6 A",
       "Eau",
       "Vidange"
     ],
-    "price": "14,75 € / 24 h, dont 0,50 € de taxe de séjour ; services 5 h : 6 €",
+    "price": "14,25 € / 24 h + 0,50 € de taxe de séjour = 14,75 € / 24 h (grille exploitant jusqu'au 31/12/2027) ; services 5 h : 6 €",
     "status": "Aire et tarifs publiés par l'exploitant ; vérifier avant départ",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/st-pierre-de-chartreuse-le-couzon",
     "latitude": 45.34329,
@@ -839,8 +843,10 @@
     "importReview": "Ajout manuel après contrôle des coordonnées et des doublons",
     "sourceId": "ccp/st-pierre-de-chartreuse-le-couzon",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/st-pierre-de-chartreuse-le-couzon",
-    "priceVerifiedOn": "2026-10-17",
-    "address": "Plan de Ville, 38380 Saint-Pierre-de-Chartreuse"
+    "priceVerifiedOn": "2026-10-19",
+    "address": "Plan de Ville, 38380 Saint-Pierre-de-Chartreuse",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/st-pierre-de-chartreuse-le-couzon",
+    "verificationNote": "Aire CAMPING-CAR PARK au Plan de Ville, 38380 Saint-Pierre-de-Chartreuse. Tarif 14,25 € hors taxe de séjour 0,50 € publié jusqu'au 31/12/2027. Distinct du parking gratuit historique de la Combe de l'Ours ; aucune fusion des deux sites."
   },
   {
     "department": "38",
