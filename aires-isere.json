@@ -248,8 +248,10 @@
     "name": "Aire de stationnement camping cars Méaudre",
     "city": "Autrans-Méaudre en Vercors",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement gratuit, sans commodités",
+    "services": [
+      "Stationnement sans commodités"
+    ],
+    "price": "Stationnement gratuit, sans services sur place (office de tourisme, 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12236569654",
     "latitude": 45.1274109,
@@ -261,7 +263,9 @@
     "sourceId": "node/12236569654",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://rando.parc-du-vercors.fr/fr/service/694-Aire-de-stationnement-camping-cars",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.alpes-isere.com/sit/aire-de-stationnement-camping-cars-5507810/",
+    "verificationNote": "Parking de la Salle des Fêtes, village de Méaudre ; ouvert toute l'année. Eau et vidange possibles dans les campings de la commune, non sur ce parking. Source office de tourisme mise à jour le 29/04/2026 ; GPS tourisme 45.127494,5.525235 proche du point existant. Distinct du parking d'Autrans face au cimetière."
   },
   {
     "department": "38",
@@ -336,8 +340,12 @@
     "name": "Aire de stationnement camping car - Autrans",
     "city": "Autrans-Méaudre en Vercors",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement gratuit ; services eau et vidange : 2 €",
+    "services": [
+      "10 emplacements",
+      "Eau (Relais Flot Bleu)",
+      "Vidange eaux usées"
+    ],
+    "price": "Stationnement gratuit ; eau et vidange : 2 € (office de tourisme, tarif 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/199572192",
     "latitude": 45.1773589,
@@ -349,7 +357,9 @@
     "sourceId": "way/199572192",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.alpes-isere.com/sit/aire-de-stationnement-pour-les-camping-cars-5507804/",
-    "priceVerifiedOn": "2026-10-17"
+    "priceVerifiedOn": "2026-10-17",
+    "sourceOfficial": "https://www.alpes-isere.com/sit/aire-de-stationnement-pour-les-camping-cars-5507804/",
+    "verificationNote": "Parking face au cimetière d'Autrans ; office de tourisme mise à jour le 20/03/2026 ; ouvert tous les jours. GPS tourisme 45.177534,5.542329 proche du point existant."
   },
   {
     "department": "38",
