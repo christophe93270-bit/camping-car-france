@@ -306,24 +306,24 @@
     "city": "Chambles",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité",
-      "Eau et électricité (jeton à 5 €)",
-      "Vidange eaux usées et WC chimiques"
+      "Stationnement (3 places)",
+      "Électricité (4 heures avec jeton)",
+      "Eau potable et vidange (20 minutes avec jeton)"
     ],
-    "price": "Stationnement gratuit ; jeton de services à 5 € (4 h d'électricité, 20 minutes d'eau et de vidange), barème publié par Loire Forez Agglomération pour ses aires. Vérifier les modalités de paiement à la borne.",
-    "status": "Réseau des cinq aires gérées par Loire Forez Agglomération : Chambles. Stationnement gratuit ; services par jeton de 5 € selon l'exploitant. Le règlement et la disponibilité des bornes sont à consulter sur place. Le Bourg, trois places, selon l'agglomération.",
+    "price": "Emplacement + services : 5 € (4 heures d'électricité, 20 minutes d'eau et de vidange) selon Saint-Étienne Tourisme. Gratuité du seul stationnement non précisée. Jetons disponibles en mairie ou à l'office de tourisme Loire Forez.",
+    "status": "Le Bourg, 42170 Chambles. Aire de services de 3 emplacements, eau et électricité accessibles par jeton, tarif de 5 € détaillé par Saint-Étienne Tourisme. Ouverte toute l'année 2026 ; la source précise absence de mise hors gel hivernale.",
     "source": "https://www.openstreetmap.org/way/440947820",
     "latitude": 45.4421013,
     "longitude": 4.2391501,
     "gpsSource": "https://www.openstreetmap.org/way/440947820",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Tarifs et commune contrôlés auprès de Loire Forez Agglomération ; accès et borne à vérifier sur place",
+    "importReview": "Tarif 2026 sourcé auprès d'un organisme touristique ; état des bornes à contrôler sur place",
     "sourceId": "way/440947820",
     "servicesSource": "https://www.openstreetmap.org/way/440947820",
-    "cityVerificationNote": "Commune et gestion par Loire Forez confirmées par l'exploitant public.",
-    "priceSource": "https://www.loireforez.fr/services-au-quotidien/tourisme/aires-de-camping-car/",
-    "sourceOfficial": "https://www.loireforez.fr/services-au-quotidien/tourisme/aires-de-camping-car/"
+    "cityVerificationNote": "Commune et lieu confirmés par un office de tourisme local ou Loire Tourisme.",
+    "priceSource": "https://www.saint-etienne-hors-cadre.fr/congres-seminaires/hotellerie-plein-air/aire-de-service-de-camping-car-chambles/",
+    "sourceOfficial": "https://www.saint-etienne-hors-cadre.fr/congres-seminaires/hotellerie-plein-air/aire-de-service-de-camping-car-chambles/"
   },
   {
     "department": "42",
@@ -519,20 +519,26 @@
     "city": "Saint-Bonnet-le-Château",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Stationnement gratuit (30 places)",
+      "Eau potable",
+      "Vidange eaux grises et noires",
+      "WC publics",
+      "Collecte déchets"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et services gratuits (30 emplacements) selon Loire Tourisme en 2026, hors période de gel.",
+    "status": "Boulevard du Haut-Forez, ancien quai de gare en face de la gendarmerie, 42380 Saint-Bonnet-le-Château. Aire municipale de 30 places, eau, vidange eaux grises/noires, WC et déchets. Ouverte en 2026 hors gel.",
     "source": "https://www.openstreetmap.org/way/1306144007",
     "latitude": 45.4259372,
     "longitude": 4.0637918,
     "gpsSource": "https://www.openstreetmap.org/way/1306144007",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Tarif 2026 sourcé auprès d'un organisme touristique ; état des bornes à contrôler sur place",
     "sourceId": "way/1306144007",
     "servicesSource": "https://www.openstreetmap.org/way/1306144007",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et lieu confirmés par un office de tourisme local ou Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-pour-camping-car-saint-bonnet-le-chateau-fr-3352431/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-pour-camping-car-saint-bonnet-le-chateau-fr-3352431/"
   },
   {
     "department": "42",
@@ -590,20 +596,24 @@
     "city": "Soleymieux",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement camping-car (2 places)",
+      "Eau et électricité par jeton à 2 €",
+      "Vidange eaux grises et noires"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Emplacement et services : 2 € par jeton selon Loire Tourisme, barème du 1er mars au 31 octobre 2026. Jetons à acheter à la mairie ou au commerce Le Soleym ; conditions hors période à vérifier.",
+    "status": "Parking de l'école privée Sainte-Anne, route de Saint-Jean, 42560 Soleymieux. Deux places et une borne eau/électricité/vidange ; ouvert du 1er mars au 31 octobre 2026 selon l'office de tourisme.",
     "source": "https://www.openstreetmap.org/way/1306258860",
     "latitude": 45.5082915,
     "longitude": 4.0412344,
     "gpsSource": "https://www.openstreetmap.org/way/1306258860",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Tarif 2026 sourcé auprès d'un organisme touristique ; état des bornes à contrôler sur place",
     "sourceId": "way/1306258860",
     "servicesSource": "https://www.openstreetmap.org/way/1306258860",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et lieu confirmés par un office de tourisme local ou Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-camping-car-soleymieux-fr-3352688/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-service-et-de-stationnement-camping-car-soleymieux-fr-3352688/"
   },
   {
     "department": "42",
@@ -635,18 +645,24 @@
     "name": "Aire Camping-cars Saint-Haon-le-Châtel",
     "city": "Saint-Haon-le-Châtel",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (3 places)",
+      "Eau potable (hors gel)",
+      "Vidange eaux grises"
+    ],
+    "price": "Stationnement et services gratuits (3 places) selon Roannais Tourisme. Aire ouverte toute l'année 2026 ; équipements mis hors gel du 1er novembre au 31 mars.",
+    "status": "Centre-bourg de Saint-Haon-le-Châtel, aire de 3 places avec eau et vidange. Attention : manoeuvres et emplacements étroits signalés par des visiteurs ; eau non disponible pendant la mise hors gel hivernale.",
     "source": "https://www.openstreetmap.org/way/1307202797",
     "latitude": 46.063806,
     "longitude": 3.9129286,
     "gpsSource": "https://www.openstreetmap.org/way/1307202797",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Tarif 2026 sourcé auprès d'un organisme touristique ; état des bornes à contrôler sur place",
     "sourceId": "way/1307202797",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et lieu confirmés par un office de tourisme local ou Loire Tourisme.",
+    "sourceOfficial": "https://www.roannais-tourisme.com/campings/aire-de-service-et-de-stationnement-camping-cars-9/",
+    "priceSource": "https://www.roannais-tourisme.com/campings/aire-de-service-et-de-stationnement-camping-cars-9/"
   },
   {
     "department": "42",
@@ -723,20 +739,25 @@
     "city": "Champoly",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit (2 places)",
+      "Eau potable gratuite",
+      "Électricité gratuite",
+      "Vidange eaux grises et WC"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et services gratuits (2 places), eau, électricité et vidanges selon Roannais Tourisme, ouverture annoncée toute l'année 2026.",
+    "status": "Chemin de la Salle des Fêtes, lieu-dit La Péniche, 42430 Champoly. Deux emplacements, borne d'eau, électricité, vidange grises/noires ; wifi disponible au bourg, pas nécessairement sur les emplacements. Gratuité publiée par Roannais Tourisme en août 2026.",
     "source": "https://www.openstreetmap.org/way/1307211215",
     "latitude": 45.8558482,
     "longitude": 3.832276,
     "gpsSource": "https://www.openstreetmap.org/way/1307211215",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Tarif 2026 sourcé auprès d'un organisme touristique ; état des bornes à contrôler sur place",
     "sourceId": "way/1307211215",
     "servicesSource": "https://www.openstreetmap.org/way/1307211215",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et lieu confirmés par un office de tourisme local ou Loire Tourisme.",
+    "sourceOfficial": "https://www.roannais-tourisme.com/campings/aire-de-services-et-de-stationnement-camping-car/",
+    "priceSource": "https://www.roannais-tourisme.com/campings/aire-de-services-et-de-stationnement-camping-car/"
   },
   {
     "department": "42",
@@ -768,18 +789,25 @@
     "name": "Aire camping-cars Parigny",
     "city": "Parigny",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit (3 places)",
+      "Eau potable",
+      "Électricité",
+      "Table de pique-nique"
+    ],
+    "price": "Stationnement et services gratuits (3 places selon Loire Tourisme), ouvert toute l'année 2026.",
+    "status": "Intersection rue des Remparts et rue des Écureuils, 42120 Parigny. Aire récente proche commerces, trois emplacements selon Loire Tourisme, eau et électricité ; gratuité indiquée pour 2026.",
     "source": "https://www.openstreetmap.org/way/1307227015",
     "latitude": 45.9901321,
     "longitude": 4.0941976,
     "gpsSource": "https://www.openstreetmap.org/way/1307227015",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Tarif 2026 sourcé auprès d'un organisme touristique ; état des bornes à contrôler sur place",
     "sourceId": "way/1307227015",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et lieu confirmés par un office de tourisme local ou Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-et-de-stationnement-parigny-fr-3350764/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-services-et-de-stationnement-parigny-fr-3350764/"
   },
   {
     "department": "42",
