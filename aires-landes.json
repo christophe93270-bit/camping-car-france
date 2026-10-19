@@ -2,11 +2,11 @@
   {
     "department": "40",
     "name": "Aire de camping-car à la ferme du Vieux Bourg (réseau France Passion)",
-    "city": "Commune à confirmer",
+    "city": "Castel-Sarrazin",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Accueil France Passion confirmé par l'exploitation ; conditions d'adhésion et disponibilité à vérifier.",
     "source": "https://www.openstreetmap.org/node/6755781156",
     "latitude": 43.6261941,
     "longitude": -0.7792391,
@@ -14,16 +14,20 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/6755781156"
+    "sourceId": "node/6755781156",
+    "sourceOfficial": "https://fermevieuxbourg.com/porc-canard-chalosse-patrimoine-gastronomie-landes/",
+    "cityVerificationNote": "Commune confirmée par la source directe ou l'office de tourisme."
   },
   {
     "department": "40",
     "name": "Aire de camping-car - Ferme Larrey",
-    "city": "Commune à confirmer",
+    "city": "Nerbis",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Office de tourisme : 5 emplacements, durée 24 h, eau ; tarif à confirmer.",
     "source": "https://www.openstreetmap.org/node/9681907594",
     "latitude": 43.7498232,
     "longitude": -0.7161256,
@@ -31,7 +35,9 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/9681907594"
+    "sourceId": "node/9681907594",
+    "sourceOfficial": "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-a-la-ferme-larrey-accamaqu040v50sfvp/",
+    "cityVerificationNote": "Commune confirmée par la source directe ou l'office de tourisme."
   },
   {
     "department": "40",
@@ -522,11 +528,14 @@
   {
     "department": "40",
     "name": "Aire de camping-car à la ferme Comet-Tournier",
-    "city": "Commune à confirmer",
+    "city": "Toulouzette",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau",
+      "Électricité"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Office de tourisme : 4 emplacements, durée 24 h, eau et électricité ; accueil sous conditions France Passion, tarif à confirmer.",
     "source": "https://www.openstreetmap.org/way/1232720717",
     "latitude": 43.7602814,
     "longitude": -0.6608601,
@@ -534,7 +543,9 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1232720717"
+    "sourceId": "way/1232720717",
+    "sourceOfficial": "https://www.tourismelandes.com/aire-camping-car/france-passion-aire-de-camping-car-a-la-ferme-comet-tournier-accamaqu040v50shoe/",
+    "cityVerificationNote": "Commune confirmée par la source directe ou l'office de tourisme."
   },
   {
     "department": "40",
