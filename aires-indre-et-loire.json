@@ -138,7 +138,7 @@
     "sourceId": "way/253659162",
     "servicesSource": "https://www.openstreetmap.org/way/253659162",
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
-    "verificationNote": "Attention : l'aire de services du camping RD 751 est gratuite uniquement pour les clients du camping (source office de tourisme), et ne confirme pas le point OSM nommé Paul Destruel. Identification et tarifs de Paul Destruel toujours à vérifier."
+    "verificationNote": "L'office de tourisme confirme une aire de services RD 751 gratuite seulement pour les clients du camping (source https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-services-du-camping-de-montlouis-sur-loire-montlouis-sur-loire-fr-5152502/). Cette installation ne correspond pas au point OSM Paul Destruel : ne pas transférer la gratuité ni les services."
   },
   {
     "department": "37",
@@ -223,7 +223,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Point OSM non confirmé ; homonymie avec une aire officielle située à Reignac-sur-Indre",
     "source": "https://www.openstreetmap.org/way/493897620",
     "latitude": 47.2291806,
     "longitude": 0.9155036,
@@ -232,7 +232,9 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/493897620",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "verificationNote": "ALERTE HOMONYMIE : l'aire officielle La Guignardière publiée par Touraine Val de Loire se trouve rue Louis de Barberin à REIGNAC-SUR-INDRE (37310), et non à Azay-sur-Cher. Ne pas attribuer ses tarifs ou services au point OSM way/493897620 sans preuve de correspondance.",
+    "sourceComparison": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-daccueil-et-de-services-la-guignardiere-reignac-sur-indre-fr-5152743/"
   },
   {
     "department": "37",
@@ -613,7 +615,8 @@
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
     "address": "21 Route de la Gare, 37530 Pocé-sur-Cisse (adresse signalée, à confirmer)",
     "sourceSecondary": "https://www.lecampeur.fr/aire/aire-de-campings-cars-poce-sur-cisse-ph7k7h",
-    "verificationNote": "Source indépendante Le Campeur (mise à jour juin 2026) : 4 places près d'Intermarché, stationnement annoncé gratuit, services signalés à 2 € / 20 min. Ni l'adresse précise, ni les tarifs, ni le point OSM n'ont été confirmés par la mairie ou l'exploitant."
+    "verificationNote": "Deux sources communautaires (Le Campeur et Park4night place 196248) signalent une aire près de l'Intermarché route de la Gare, avec bornes eau/électricité. La correspondance du point OSM, les tarifs et la situation administrative restent non confirmés officiellement.",
+    "sourceSecondary2": "https://park4night.com/fr/place/196248"
   },
   {
     "department": "37",
