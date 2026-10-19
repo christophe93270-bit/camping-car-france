@@ -354,22 +354,27 @@
   },
   {
     "department": "44",
-    "name": "Aire de service à Fégréac",
+    "name": "Borne de vidange du Mottais – Fégréac",
     "city": "FEGREAC",
-    "type": "Aire de service",
+    "type": "Point de services camping-car uniquement, stationnement de nuit non attesté",
     "services": [
-      "Services non renseignés"
+      "Vidange camping-car toute l'année",
+      "Pas d'eau potable ni de prise électrique attestées dans la fiche de l'office",
+      "Aucune place de nuitée confirmée"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarif de la vidange non indiqué par Loire-Atlantique Tourisme ; ne pas présumer la gratuité.",
+    "status": "Rue du Mottais, 44460 Fégréac. Fiche touristique : point de vidange ouvert toute l'année, sans confirmation de stationnement nocturne.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.5867602,
     "longitude": -2.0468239,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V50HSVL"
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées.",
+    "sourceId": "ACCAMPDL044V50HSVL",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/6912-Aire-de-service-a-Fegreac",
+    "priceSource": "https://rando.loire-atlantique.fr/service/6912-Aire-de-service-a-Fegreac",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/6912-Aire-de-service-a-Fegreac"
   },
   {
     "department": "49",
@@ -2644,22 +2649,26 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE CAMPING-CARS LES BASSINS DE LAUNAY",
+    "name": "Accueil camping-car des Bassins de Launay – Châteaubriant",
     "city": "CHATEAUBRIANT",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire d'accueil camping-car payante à la nuitée",
     "services": [
-      "Services non renseignés"
+      "Stationnement de camping-car toute l'année",
+      "Services d'eau, vidange et électricité non détaillés par la mairie pour ce site"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "3 € par nuit pour un camping-car selon la mairie de Châteaubriant. Éventuelles prestations techniques à confirmer auprès du gestionnaire.",
+    "status": "Launay-Prieur, 44110 Châteaubriant. Aire des Bassins de Launay, ouverte toute l'année selon la mairie. Distincte de l'aire aménagée et automatisée de Choisel (12 €/24 h).",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.7070631,
     "longitude": -1.3639713,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V50MLLX"
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées.",
+    "sourceId": "ACCAMPDL044V50MLLX",
+    "sourceOfficial": "https://www.mairie-chateaubriant.fr/camping-cars/",
+    "priceSource": "https://www.mairie-chateaubriant.fr/camping-cars/",
+    "servicesSource": "https://www.mairie-chateaubriant.fr/camping-cars/"
   },
   {
     "department": "44",
@@ -4001,25 +4010,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de service et stationnement de Chaumes-en-Retz",
+    "name": "Aire de services du Super U – Chaumes-en-Retz (Arthon)",
     "city": "CHAUMES-EN-RETZ",
-    "type": "Aire de stationnement",
+    "type": "Aire de services et stationnement gratuit",
     "services": [
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Toilettes",
-      "Vidange"
+      "Stationnement gratuit sur le parking du Super U",
+      "Remplissage d'eau potable à la borne, 2 € pour 10 minutes",
+      "Vidange eaux usées",
+      "Raccordement électrique disponible, tarif à relever à la borne",
+      "Paiement en espèces selon la fiche touristique"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement gratuit ; eau : 2 € / 10 minutes selon Loire-Atlantique Tourisme. Tarif d'électricité non publié. Accessibilité annoncée 24 h/24.",
+    "status": "Super U, 41 rue du Butai, 44320 Chaumes-en-Retz (Arthon-en-Retz). Borne derrière la station-service, services ouverts 24 h/24 selon la fiche touristique. Le parking commercial n'est pas un camping ; réglementation locale de nuitée à vérifier.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.11501,
     "longitude": -1.95024,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V5003VR"
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées.",
+    "sourceId": "ACCAMPDL044V5003VR",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz",
+    "priceSource": "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz"
   },
   {
     "department": "53",
@@ -4390,22 +4403,27 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping cars de Pont-Mahé",
+    "name": "Parking camping-car gratuit de Pont-Mahé – Assérac",
     "city": "ASSERAC",
-    "type": "Aire de stationnement",
+    "type": "Parking camping-car gratuit sans borne technique attestée",
     "services": [
-      "Services non renseignés"
+      "Stationnement de camping-car gratuit",
+      "Proximité immédiate de la plage de Pont-Mahé",
+      "Aucune borne de vidange, d'eau ou d'électricité confirmée sur ce parking"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement gratuit selon Loire-Atlantique Tourisme et la mairie d'Assérac. Services techniques non confirmés.",
+    "status": "Route de Pont-Mahé (D82), face au camping Domaine de Pont-Mahé, 44410 Assérac. Parking en bord de route à quelques pas de la plage ; vérifier les restrictions saisonnières affichées.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.44753,
     "longitude": -2.45074,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMEAIREPONTMAHE"
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées.",
+    "sourceId": "ACCAMEAIREPONTMAHE",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180203-Aire-de-camping-cars-de-Pont-Mahe",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180203-Aire-de-camping-cars-de-Pont-Mahe",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180203-Aire-de-camping-cars-de-Pont-Mahe"
   },
   {
     "department": "49",
@@ -4495,44 +4513,54 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE SERVICE DE PRINQUIAU",
+    "name": "Aire communale de Prinquiau – rue du Champoulain",
     "city": "PRINQUIAU",
-    "type": "Aire de service",
+    "type": "Aire communale de stationnement et services gratuits",
     "services": [
-      "Eau potable (source ouverte)",
-      "Vidange"
+      "5 emplacements",
+      "Stationnement limité à 48 heures",
+      "Remplissage d'eau gratuit",
+      "Vidanges gratuites",
+      "Services saisonniers du 1er avril au 30 septembre"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement et services (eau et vidange) gratuits, selon Loire-Atlantique Tourisme. Services ouverts du 1er avril au 30 septembre ; pas de gratuité de l'eau assurée hors saison.",
+    "status": "Rue du Champoulain, 44260 Prinquiau. Cinq places, 48 heures maximum. Période du 1er avril au 30 septembre indiquée pour l'aire de services, à confirmer pour le stationnement hors saison.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.3670345,
     "longitude": -2.0124204,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V500B9A"
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées.",
+    "sourceId": "ACCAMPDL044V500B9A",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180254-AIRE-DE-SERVICE-DE-PRINQUIAU",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180254-AIRE-DE-SERVICE-DE-PRINQUIAU",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180254-AIRE-DE-SERVICE-DE-PRINQUIAU"
   },
   {
     "department": "44",
-    "name": "Aire de Camping Car Boussay",
+    "name": "Aire communale de Boussay – place des Marronniers",
     "city": "BOUSSAY",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire communale de stationnement et services camping-car",
     "services": [
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Vidange"
+      "Stationnement communal gratuit, limité à 48 heures",
+      "Eau et vidange à la borne",
+      "Électricité avec jetons",
+      "Jetons à 2 € en pharmacie, bureau de tabac et boulangerie"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement gratuit (48 h max.). L'office de tourisme décrit l'eau et les vidanges comme gratuites, mais indique aussi des jetons à 2 € pour les services : coût de l'électricité et nécessité d'un jeton pour l'eau à confirmer sur place.",
+    "status": "Place des Marronniers, 44190 Boussay. La fiche Loire-Atlantique Tourisme présente à la fois la gratuité de certains services et un système de jetons ; prix d'utilisation à confirmer.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.0424131,
     "longitude": -1.1867419,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V50028K"
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées.",
+    "sourceId": "ACCAMPDL044V50028K",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180231-Aire-de-Camping-Car-Boussay",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180231-Aire-de-Camping-Car-Boussay",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180231-Aire-de-Camping-Car-Boussay"
   },
   {
     "department": "44",
@@ -5114,28 +5142,30 @@
   },
   {
     "department": "44",
-    "name": "Aire de service du plan d'eau",
+    "name": "Aire camping-car du plan d'eau – Teillé",
     "city": "TEILLE",
-    "type": "Aire de service",
+    "type": "Aire d'étape avec stationnement payant et services",
     "services": [
-      "Aire de pique-nique",
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
+      "Stationnement payant par carte bancaire",
+      "Eau potable",
+      "Vidange camping-car",
+      "Électricité",
       "Toilettes",
-      "Vidange",
-      "Vidange eaux noires"
+      "Parc arboré, aire de pique-nique et plan d'eau"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarifs publiés par Loire-Atlantique Tourisme : du 1er novembre au 31 mars : 12 € / 24 h, 21 € / 48 h, 30 € / 72 h, 67,50 € / 7 nuits. Autre saison : 8 € / 24 h, 14 € / 48 h, 20 € / 72 h, 45 € / 7 nuits. Les dates de cette seconde période sont mal libellées dans la source : calendrier exact et tarifs en vigueur à vérifier sur l'automate.",
+    "status": "Route de Nantes, plan d'eau du Donneau, 44440 Teillé. Aire mise en service en juillet 2019, borne CB et services complets ; les périodes de tarification publiées par le tourisme comportent une incohérence de rédaction.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.4582739,
     "longitude": -1.2804955,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V50OH5Q"
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées.",
+    "sourceId": "ACCAMPDL044V50OH5Q",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180270-Aire-de-service-du-plan-d-eau",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180270-Aire-de-service-du-plan-d-eau",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180270-Aire-de-service-du-plan-d-eau"
   },
   {
     "department": "72",
@@ -6605,26 +6635,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping cars de Guenrouet",
+    "name": "Aire communale du port – Guenrouët",
     "city": "GUENROUET",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Parking gratuit et borne de services payante",
     "services": [
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Vidange",
-      "Vidange eaux grises",
-      "Vidange eaux noires"
+      "Environ 2 places camping-car gratuites selon l'office",
+      "Eau potable : remplissage temporisé 10 min",
+      "Vidange cassette WC",
+      "Prise électrique 220 V : accès temporisé 120 min",
+      "Monnayeur, environ 2 € pour les services"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement gratuit. Services d'eau / électricité par borne à monnaie : 2 € mentionnés par Loire-Atlantique Tourisme ; fonctionnement actuel à vérifier à l'automate.",
+    "status": "Rue des Hauts-du-Port, 44530 Guenrouët, proche du canal de Nantes à Brest, commerces à environ 650 m. Distinguer les deux places approximatives de l'accès aux services.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.52195,
     "longitude": -1.94953,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMEGUENROUET"
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées.",
+    "sourceId": "ACCAMEGUENROUET",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet"
   },
   {
     "department": "44",
@@ -6715,42 +6748,55 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE SERVICE CAMPING CAR SUPER U SAINT ETIENNE DE MONTLUC",
+    "name": "Borne camping-car du Super U – Saint-Étienne-de-Montluc",
     "city": "SAINT-ETIENNE-DE-MONTLUC",
-    "type": "Aire de stationnement",
+    "type": "Point de services en station de supermarché, stationnement nocturne non confirmé",
     "services": [
-      "Eau potable (source ouverte)",
-      "Vidange"
+      "Remplissage d'eau potable",
+      "Vidange camping-car",
+      "Parking du Super U",
+      "Nuitée autorisée non attestée par l'office"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarifs eau/vidange non publiés sur la fiche Loire-Atlantique Tourisme : à vérifier au Super U. Ne pas présenter comme stationnement gratuit pour la nuit.",
+    "status": "Super U, D17 route de Couëron, 44360 Saint-Étienne-de-Montluc. Aire technique dans le parking commercial, sans preuve d'autorisation pour la nuit.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.2718576,
     "longitude": -1.7762979,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V5002C9"
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées.",
+    "sourceId": "ACCAMPDL044V5002C9",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC"
   },
   {
     "department": "44",
-    "name": "AIRE CAMPING CAR LE WELCOME",
+    "name": "Accueil camping-car Le Welcome – La Morandais, Frossay",
     "city": "FROSSAY",
-    "type": "Aire de stationnement",
+    "type": "Accueil camping-car privé payant chez l'habitant",
     "services": [
-      "Services non renseignés"
+      "4 emplacements aménagés, accueil toute l'année",
+      "Salle commune avec évier et barbecue",
+      "Douches et WC accessibles selon forfait",
+      "Électricité 2 € en supplément",
+      "Remplissage en eau 2 €",
+      "Aucune vidange possible sur place"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Forfait d'accueil : 10 € par nuitée/journée ; branchement électrique : +2 € ; remplissage d'eau : +2 €. Pas de vidange. Tarifs affichés par Saint-Brevin Tourisme en octobre 2026, à vérifier avant séjour.",
+    "status": "La Morandais, 44320 Frossay. Aire privée « Le Welcome », 4 emplacements. Accueil toute l'année, salle commune et sanitaires selon conditions ; ne pas présenter comme une aire technique avec vidange.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.24333,
     "longitude": -1.95382,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMEAIRECAMPINGCARWELCOMFROSSAY"
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées.",
+    "sourceId": "ACCAMEAIRECAMPINGCARWELCOMFROSSAY",
+    "sourceOfficial": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
+    "priceSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
+    "servicesSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html"
   },
   {
     "department": "72",
@@ -8005,22 +8051,29 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE SERVICE HYPER U LA COLLERAYE",
+    "name": "Services camping-car Hyper U La Colleraye – Savenay",
     "city": "SAVENAY",
-    "type": "Aire de service",
+    "type": "Point de services sur parking commercial, stationnement à vérifier",
     "services": [
-      "Services non renseignés"
+      "Point de services camping-car à la station Hyper U",
+      "Eau et vidange annoncées par un guide camping-car spécialisé",
+      "Prise électrique indiquée par le guide spécialisé",
+      "Nuitée non confirmée sur le parking commercial"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarif 2026 non communiqué par Loire-Atlantique Tourisme ou la station. Un guide spécialisé indique 2 € pour les services et 2 € pour l'électricité ; montant indicatif non confirmé, à vérifier à la borne.",
+    "status": "Parc commercial de La Colleraye, Hyper U, 44260 Savenay. Existence du service camping-car corroborée par le site gouvernemental des stations carburant. Nuitée et modalités de paiement non confirmées.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.358852,
     "longitude": -1.944482,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V500B9O"
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées.",
+    "sourceId": "ACCAMPDL044V500B9O",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180255-AIRE-DE-SERVICE-HYPER-U-LA-COLLERAYE",
+    "priceSource": "https://i-campingcar.fr/aires.php?ville=SAVENAY",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180255-AIRE-DE-SERVICE-HYPER-U-LA-COLLERAYE",
+    "additionalSource": "https://www.prix-carburants.gouv.fr/station/44260005"
   },
   {
     "department": "49",
@@ -8049,28 +8102,30 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE CAMPING-CAR - SITE DE CHOISEL",
+    "name": "Aire de camping-car de Choisel – Châteaubriant",
     "city": "CHATEAUBRIANT",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire municipale de stationnement payant et services camping-car",
     "services": [
-      "Borne de recharge pour véhicules électriques",
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Vidange",
-      "Vidange eaux grises",
-      "Vidange eaux noires"
+      "20 emplacements camping-car",
+      "Borne d'accueil et de paiement 24 h/24",
+      "Barrière levante et réservation en ligne possible",
+      "Eau potable et vidange eaux grises/noires",
+      "Électricité sur emplacements",
+      "Tri sélectif"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarifs municipaux confirmés pour 2026 : 12 € TTC les 24 heures et 6 € TTC les 5 heures, par camping-car stationné. Services proposés sur l'aire ; suppléments éventuels à vérifier lors du paiement.",
+    "status": "Site de Choisel, près des étangs de Choisel, 44110 Châteaubriant. Aire municipale 20 places avec automate 24 h/24 et accès par barrière ; distincte de Launay (3 €/nuit).",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.7312135,
     "longitude": -1.3798974,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V5007YR"
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées.",
+    "sourceId": "ACCAMPDL044V5007YR",
+    "sourceOfficial": "https://www.mairie-chateaubriant.fr/camping-cars/",
+    "priceSource": "https://www.mairie-chateaubriant.fr/camping-cars/",
+    "servicesSource": "https://www.mairie-chateaubriant.fr/camping-cars/"
   },
   {
     "department": "44",
