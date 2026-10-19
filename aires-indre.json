@@ -40,12 +40,20 @@
   },
   {
     "department": "36",
-    "name": "Aire Camping-car Tournon-Saint-Martin",
+    "name": "Borne de camping-car Le Moulin — Tournon-Saint-Martin",
     "city": "Tournon-Saint-Martin",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Borne de services et stationnement",
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Vidange WC",
+      "Sanitaires",
+      "Wi-Fi",
+      "Stationnement de nuit"
+    ],
+    "price": "Gratuit selon Berry Province (2026)",
+    "status": "Ouvert 24 h/24 toute l'année en 2026",
     "source": "https://www.openstreetmap.org/node/11931894819",
     "latitude": 46.7310386,
     "longitude": 0.9521949,
@@ -54,7 +62,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/11931894819",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
+    "address": "Rue du Moulin, stade d'eau vive, 36220 Tournon-Saint-Martin",
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/borne-de-camping-car-le-moulin/",
+    "verificationNote": "Berry Province : borne Euro-Relais en face du stade d'eau vive, accès gratuit, services eau, électricité, vidange, sanitaires, Wi-Fi. Capacité « 1 » désigne la borne et non nécessairement une seule place de stationnement."
   },
   {
     "department": "36",
@@ -108,13 +119,17 @@
     "department": "36",
     "name": "Aire Camping car de Neuillay-les-Bois",
     "city": "Neuillay-les-Bois",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Borne de services et stationnement",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Vidange WC",
+      "Sanitaires",
+      "Stationnement de nuit"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit ; stationnement limité à 24 h (Berry Province 2026)",
+    "status": "Ouverte 24 h/24 du 1er avril au 31 octobre 2026",
     "source": "https://www.openstreetmap.org/way/292093943",
     "latitude": 46.7692034,
     "longitude": 1.4735585,
@@ -124,7 +139,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/292093943",
     "servicesSource": "https://www.openstreetmap.org/way/292093943",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
+    "address": "Place Mis et Thiennot, 36500 Neuillay-les-Bois",
+    "capacity": 10,
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/borne-de-camping-car-de-neuillay-les-bois/",
+    "verificationNote": "Berry Province : borne près de l'étang communal, 10 emplacements, eau et électricité gratuites, vidanges et sanitaires, durée 24 h maximum. Autre fiche OSM « Étang Duris » à des coordonnées différentes : ne pas fusionner sans vérification."
   },
   {
     "department": "36",
@@ -338,14 +357,19 @@
   },
   {
     "department": "36",
-    "name": "Aire camping-cars Saint-Hilaire Sur Benaize",
+    "name": "Aire d'accueil de camping-car Saint-Hilaire-sur-Benaize",
     "city": "Saint-Hilaire-sur-Benaize",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement avec services",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange des eaux grises",
+      "Vidange WC",
+      "Sanitaires",
+      "Stationnement de nuit"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "10 € / 24 h par jeton, comprenant électricité, eau et vidanges (Berry Province 2026)",
+    "status": "Ouverte 24 h/24 toute l'année en 2026 ; jetons vendus en mairie",
     "source": "https://www.openstreetmap.org/way/1285146055",
     "latitude": 46.5613344,
     "longitude": 1.0746016,
@@ -355,7 +379,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1285146055",
     "servicesSource": "https://www.openstreetmap.org/way/1285146055",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
+    "address": "1 rue du Point du Jour, 36370 Saint-Hilaire-sur-Benaize",
+    "capacity": 3,
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/aire-daccueil-de-camping-car/",
+    "verificationNote": "Office Berry Province : 3 emplacements, jeton 24 h à 10 € incluant eau, électricité, vidanges, achat en mairie. Paiement espèces indiqué."
   },
   {
     "department": "36",
