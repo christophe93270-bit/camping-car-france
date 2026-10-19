@@ -1594,7 +1594,6 @@
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
     "importReview": "Recensement spécialisé mis à jour le 22 avril 2026 : aire de services gratuite. Absence de vérification directe de l'arrêté municipal ou de la tarification actuelle.",
     "sourceId": "ACCAMPDL044V519OUQ",
-    "sourceOfficial": "https://lepin.fr/",
     "priceSource": "https://www.campingcar76.fr/Site%20P08%2044%20Aires%20services%20Loire%20Atlantique%20(Pays%20de%20Loire).htm",
     "servicesSource": "https://www.campingcar76.fr/Site%20P08%2044%20Aires%20services%20Loire%20Atlantique%20(Pays%20de%20Loire).htm"
   },
@@ -3138,29 +3137,30 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE SERVICE CAMPING-CAR, DOMAINE DES CROIX,  MAISDON SUR SEVRE",
+    "name": "Aire du Domaine des Croix – Maisdon-sur-Sèvre",
     "city": "MAISDON-SUR-SEVRE",
-    "type": "Aire de service",
+    "type": "Accueil chez vigneron et aire de services — 6 emplacements",
     "services": [
-      "Déchets",
-      "Douches",
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Toilettes",
-      "Vidange",
-      "Vidange eaux grises",
-      "Vidange eaux noires"
+      "6 emplacements camping-car",
+      "Eau potable",
+      "Vidange eaux grises et noires",
+      "Électricité",
+      "Douches et toilettes",
+      "Déchets / poubelles"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarif d'accueil et des services non affiché sur la fiche officielle régionale ; vérifier directement auprès du Domaine des Croix avant arrivée.",
+    "status": "23 Les Croix, 44690 Maisdon-sur-Sèvre. Grand parking stabilisé chez le vigneron, ouvert toute l'année selon Destination Vignoble Nantais. Accueil groupes et très grands camping-cars indiqué ; conditions tarifaires à demander au domaine.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.10714,
     "longitude": -1.38778,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V50028I"
+    "importReview": "Ouverture, capacité, localisation et services recoupés avec la Région Pays de la Loire et Destination Vignoble Nantais en octobre 2026 ; tarif non indiqué.",
+    "sourceId": "ACCAMPDL044V50028I",
+    "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre",
+    "priceSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre",
+    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre"
   },
   {
     "department": "72",
@@ -3448,23 +3448,27 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE STATIONNEMENT - GRAND-AUVERNE",
+    "name": "Aire de stationnement des Vorajoux – Grand-Auverné",
     "city": "GRAND-AUVERNE",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Stationnement touristique — accueil de nuit non confirmé",
     "services": [
-      "Aire de pique-nique",
-      "Toilettes"
+      "Parking vaste au nord-est du bourg",
+      "Terrain de pétanque à proximité",
+      "Aucune borne d'eau, de vidange ou d'électricité mentionnée par l'office"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarif et possibilité de nuitée non indiqués sur la fiche de l'Office de tourisme de Châteaubriant ; ne pas présumer la gratuité nocturne.",
+    "status": "Les Vorajoux, 44520 Grand-Auverné. Aire près du terrain de pétanque ; différente de la halte des Grées Brûlées sur la rive de l'étang de la Forge Neuve.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.5931614,
     "longitude": -1.3239426,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V51CXW1"
+    "importReview": "Localisation et nature du parking recoupées avec l'Office de tourisme de Châteaubriant en octobre 2026. Pas de borne ni de tarif nocturne indiqué.",
+    "sourceId": "ACCAMPDL044V51CXW1",
+    "sourceOfficial": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/",
+    "priceSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/",
+    "servicesSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/"
   },
   {
     "department": "53",
@@ -4586,7 +4590,6 @@
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
     "importReview": "Sources croisées octobre 2026 : i-CampingCar et annuaires indépendants indiquent la gratuité ; absence de confirmation de la tarification par une page municipale actuelle.",
     "sourceId": "ACCAMPDL044V50ZKR0",
-    "sourceOfficial": "https://www.fay-de-bretagne.fr/",
     "priceSource": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE",
     "servicesSource": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE"
   },
@@ -4905,22 +4908,28 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping cars du Parc de la Lande",
+    "name": "Aire de stationnement du parc de la Lande – Mesquer",
     "city": "MESQUER",
-    "type": "Aire de stationnement",
+    "type": "Aire de stationnement saisonnière sur herbe (20 places)",
     "services": [
-      "Services non renseignés"
+      "20 emplacements camping-car",
+      "Stationnement limité à 72 h / 3 nuits",
+      "Borne de services à environ 500 m (hors aire)",
+      "Terrain fermé en hiver, réouverture au printemps selon météo"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarif de stationnement non publié sur la fiche officielle de la Région Pays de la Loire ; tarif à vérifier sur place. Accès saisonnier.",
+    "status": "Route de Campzillon, Mesquer. Aire en herbe pouvant être temporairement fermée selon la météo, notamment en hiver. Ne pas confondre avec la borne de Kerlagadec où le stationnement est interdit.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.39309,
     "longitude": -2.46549,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMECCLALANDE"
+    "importReview": "Capacité, restriction 72 h et fermeture hivernale recoupées avec la Région Pays de la Loire en octobre 2026.",
+    "sourceId": "ACCAMECCLALANDE",
+    "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande",
+    "priceSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande",
+    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande"
   },
   {
     "department": "49",
@@ -6628,25 +6637,31 @@
   },
   {
     "department": "44",
-    "name": "Aire de stationnement et de services pour camping-cars de la Salorge",
+    "name": "Aire communale de la Salorge – Villeneuve-en-Retz",
     "city": "VILLENEUVE-EN-RETZ",
-    "type": "Aire de stationnement",
+    "type": "Stationnement gratuit avec borne d'eau payante",
     "services": [
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Toilettes",
-      "Vidange"
+      "8 à 12 emplacements camping-car selon Destination Pornic",
+      "Stationnement gratuit",
+      "Eau : forfait 100 litres à 2 €",
+      "Vidange",
+      "Toilettes automatiques",
+      "Déchets / tri",
+      "Wi-Fi gratuit"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement gratuit ; eau : 2 € les 100 litres à la borne selon l'Office de tourisme Destination Pornic (tarifs affichés consultés en octobre 2026).",
+    "status": "La Salorge, Villeneuve-en-Retz. Aire de stationnement et de services distincte d'un camping ; règlement et fonctionnement de la borne à vérifier sur place.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.04151,
     "longitude": -1.95627,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMEVERAIREDELASALORGE"
+    "importReview": "Forfait eau et gratuité du stationnement recoupés avec la grille tarifaire affichée par Destination Pornic en octobre 2026.",
+    "sourceId": "ACCAMEVERAIREDELASALORGE",
+    "sourceOfficial": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html",
+    "priceSource": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html",
+    "servicesSource": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html"
   },
   {
     "department": "44",
@@ -7557,7 +7572,6 @@
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
     "importReview": "Sources indépendantes recoupées en octobre 2026 ; distinction explicite des deux espaces, prix et état en 2026 restant à confirmer auprès de la mairie.",
     "sourceId": "ACCAMPDL044V5001HL",
-    "sourceOfficial": "https://www.fay-de-bretagne.fr/",
     "priceSource": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE",
     "servicesSource": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE"
   },
