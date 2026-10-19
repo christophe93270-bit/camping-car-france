@@ -255,7 +255,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Rhône indisponible",error); }
     let loireAires=[];
     try {
-      const response42=await fetch("aires-loire.json?v=20261019-17", {cache:"no-store"});
+      const response42=await fetch("aires-loire.json?v=20261019-18", {cache:"no-store"});
       if(response42.ok) loireAires=await response42.json();
     } catch(error) { console.warn("Chargement Loire indisponible",error); }
     let hauteLoireAires=[];
