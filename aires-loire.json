@@ -55,18 +55,22 @@
     "name": "Aire Camping Car Saint-Denis-de-Cabanne",
     "city": "Saint-Denis-de-Cabanne",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement camping-car (2 places)"
+    ],
+    "price": "Stationnement annoncé gratuit par un annuaire fondé sur OpenStreetMap ; l'office de tourisme confirme 2 places au parking de l'école, sans publier de tarif de nuitée. Gratuité municipale à confirmer sur place.",
+    "status": "Parking de l'école, route de Mars, 42750 Saint-Denis-de-Cabanne ; 2 places réservées selon Charlieu-Belmont Tourisme (fiche mise à jour le 18/03/2026). Le tarif n'est pas affiché par l'office ; aucun point d'eau, de vidange ou d'électricité n'est confirmé sur cette fiche.",
     "source": "https://www.openstreetmap.org/node/12094250483",
     "latitude": 46.1719174,
     "longitude": 4.2103453,
     "gpsSource": "https://www.openstreetmap.org/node/12094250483",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Aire et capacité confirmées par le tourisme en 2026 ; gratuité indiquée par un annuaire OSM, tarif officiel encore à vérifier",
     "sourceId": "node/12094250483",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune et adresse confirmées par Charlieu-Belmont Tourisme.",
+    "sourceOfficial": "https://www.charlieubelmont-tourisme.com/offres/sejourner/aire-daccueil-camping-car/",
+    "priceSource": "https://www.bivouaquer.com/loire/saint-denis-de-cabanne/aire-camping-car-saint-denis-de-cabanne"
   },
   {
     "department": "42",
@@ -163,18 +167,25 @@
     "name": "Aire de stationnement Camping cars Saint-Cyr-de-Valorges",
     "city": "Saint-Cyr-de-Valorges",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement",
+      "Vidange eaux grises et WC chimiques (Flot Bleu)",
+      "Eau potable (Flot Bleu)",
+      "Électricité (Flot Bleu)"
+    ],
+    "price": "Stationnement annoncé gratuit par un annuaire reprenant OpenStreetMap ; prix des services non communiqué par l'exploitant Flot Bleu ni par Loire Tourisme. Vérifier le paiement en espèces et l'affichage sur place.",
+    "status": "Le Bourg, 42114 Saint-Cyr-de-Valorges. Aire municipale recensée par Loire Tourisme en juillet 2026, avec relais Flot Bleu (eau, vidange eaux grises/noires, électricité et stationnement). Flot Bleu indique un paiement en espèces mais ne chiffre pas les services ; pas de prix officiel vérifié.",
     "source": "https://www.openstreetmap.org/node/12098006593",
     "latitude": 45.8914802,
     "longitude": 4.306929,
     "gpsSource": "https://www.openstreetmap.org/node/12098006593",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Aire et équipements confirmés par exploitant, gratuité non confirmée par un barème officiel",
     "sourceId": "node/12098006593",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune, centre-bourg et GPS confirmés par Flot Bleu et Loire Tourisme.",
+    "sourceOfficial": "https://flotbleu.com/loire/aire-de-service/244",
+    "priceSource": "https://www.bivouaquer.com/loire/saint-cyr-de-valorges/aire-de-stationnement-camping-cars-saint-cyr-de-valorges"
   },
   {
     "department": "42",
@@ -483,20 +494,24 @@
     "city": "Planfoy",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit (10 places)",
+      "Eau et vidange : borne à 2,50 € (fonctionnement à vérifier)",
+      "Électricité : 3 € / 4 h, disponibilité limitée"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit (10 emplacements) ; accès borne de services : 2,50 € ; branchement électrique : 3 € pour 4 heures, paiement CB, selon Loire Tourisme (fiche valable pour 2026).",
+    "status": "Le Vignolet, 42660 Planfoy. Dix emplacements goudronnés et herbeux ; équipements eau/électricité présents mais dysfonctionnements signalés sur la fiche du tourisme, avec une seule des deux bornes électriques en service lors de la dernière mise à jour. Vérifier avant le déplacement.",
     "source": "https://www.openstreetmap.org/way/1306042629",
     "latitude": 45.3745593,
     "longitude": 4.4492205,
     "gpsSource": "https://www.openstreetmap.org/way/1306042629",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Tarifs publiés par Loire Tourisme pour 2026 ; dysfonctionnement des bornes à signaler",
     "sourceId": "way/1306042629",
     "servicesSource": "https://www.openstreetmap.org/way/1306042629",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Adresse Le Vignolet et commune confirmées par Loire Tourisme.",
+    "sourceOfficial": "https://www.loiretourisme.com/hebergements/camping/aire-de-stationnement-camping-car-planfoy-fr-3351539/",
+    "priceSource": "https://www.loiretourisme.com/hebergements/camping/aire-de-stationnement-camping-car-planfoy-fr-3351539/"
   },
   {
     "department": "42",
@@ -704,20 +719,25 @@
     "city": "Le Crozet",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit (2 places)",
+      "Vidange",
+      "Eau potable (prix actuel à confirmer)",
+      "Électricité (prix actuel à confirmer)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit (2 places), selon Roannais Tourisme (ouverture toute l'année 2026). Les anciens prix de 2 € pour l'eau et l'électricité proviennent d'une fiche 2022 : tarifs actuels des branchements à confirmer sur la borne.",
+    "status": "Route de la Gare, 42310 Le Crozet. Deux emplacements pour camping-car avec borne de vidange, eau et branchements électriques ; Roannais Tourisme indique la gratuité, sans préciser si chaque branchement est compris. Ne pas présenter les tarifs techniques de 2022 comme valables en 2026.",
     "source": "https://www.openstreetmap.org/way/1307208935",
     "latitude": 46.1693249,
     "longitude": 3.8572171,
     "gpsSource": "https://www.openstreetmap.org/way/1307208935",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Gratuité du stationnement confirmée par l'office de tourisme ; tarifs individuels eau/électricité à vérifier",
     "sourceId": "way/1307208935",
     "servicesSource": "https://www.openstreetmap.org/way/1307208935",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Commune, route de la Gare et capacité 2 places confirmées par Roannais Tourisme.",
+    "sourceOfficial": "https://www.roannais-tourisme.com/campings/aire-de-service-et-de-stationnement-camping-cars/",
+    "priceSource": "https://www.roannais-tourisme.com/campings/aire-de-service-et-de-stationnement-camping-cars/"
   },
   {
     "department": "42",
@@ -824,18 +844,24 @@
     "name": "Aire Camping-cars Fontanes",
     "city": "Fontanès",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement en parking extérieur (3 places selon guide)",
+      "Vidange gratuite",
+      "Autres services non garantis"
+    ],
+    "price": "Service de vidange gratuit selon Saint-Étienne Hors-Cadre. Guide camping-car (tarifs datés de 2024) : forfait de services gratuit et stationnement jusqu'à 48 h, 3 places ; conditions municipales 2026 à confirmer.",
+    "status": "Zone de loisirs du Rio, 42140 Fontanès. Saint-Étienne Hors-Cadre confirme une borne de vidange et un stationnement en parking extérieur ; service gratuit. Le guide Camping-car.com mentionne 3 emplacements, une durée maximale de 48 h et une saison de borne du 1er mars au 31 octobre (tarifs datés 2024) : vérifier en mairie les conditions 2026.",
     "source": "https://www.openstreetmap.org/way/1320146269",
     "latitude": 45.5466988,
     "longitude": 4.4402878,
     "gpsSource": "https://www.openstreetmap.org/way/1320146269",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Service gratuit confirmé par office de tourisme ; durée et saison du stationnement issues d'un guide 2024 à reconfirmer",
     "sourceId": "way/1320146269",
-    "cityVerificationNote": "Commune déduite du nom OpenStreetMap de l'aire ; vérification communale par source officielle restant à compléter."
+    "cityVerificationNote": "Fontanès et zone de loisirs du Rio vérifiés auprès de Saint-Étienne Hors-Cadre.",
+    "sourceOfficial": "https://www.saint-etienne-hors-cadre.fr/hotellerie-plein-air/aire-de-services-camping-car-fontanes/",
+    "priceSource": "https://www.saint-etienne-hors-cadre.fr/hotellerie-plein-air/aire-de-services-camping-car-fontanes/"
   },
   {
     "department": "42",
