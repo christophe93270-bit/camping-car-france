@@ -219,26 +219,6 @@
   },
   {
     "department": "37",
-    "name": "Aire pour camping-cars la Guignardière",
-    "city": "Azay-sur-Cher",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Point OSM non confirmé ; homonymie avec une aire officielle située à Reignac-sur-Indre",
-    "source": "https://www.openstreetmap.org/way/493897620",
-    "latitude": 47.2291806,
-    "longitude": 0.9155036,
-    "gpsSource": "https://www.openstreetmap.org/way/493897620",
-    "dataLicense": "ODbL",
-    "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/493897620",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
-    "verificationNote": "ALERTE HOMONYMIE : l'aire officielle La Guignardière publiée par Touraine Val de Loire se trouve rue Louis de Barberin à REIGNAC-SUR-INDRE (37310), et non à Azay-sur-Cher. Ne pas attribuer ses tarifs ou services au point OSM way/493897620 sans preuve de correspondance.",
-    "sourceComparison": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-daccueil-et-de-services-la-guignardiere-reignac-sur-indre-fr-5152743/"
-  },
-  {
-    "department": "37",
     "name": "Aire de Camping-Cars Amboise",
     "city": "Amboise",
     "type": "Aire de camping-car (à vérifier)",
@@ -770,7 +750,10 @@
     "sourceOfficial": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-daccueil-et-de-services-la-guignardiere-reignac-sur-indre-fr-5152743/",
     "priceSource": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-daccueil-et-de-services-la-guignardiere-reignac-sur-indre-fr-5152743/",
     "priceVerifiedOn": "2026-10-19",
-    "verificationNote": "Distincte du point OSM homonyme à Azay-sur-Cher. Coordonnées GPS non ajoutées faute de source géographique vérifiée."
+    "verificationNote": "GPS officiel fourni par l'office de tourisme Loches Touraine (47.2305021, 0.9117076). Ancienne fiche OSM way/493897620, étiquetée Azay-sur-Cher (47.2291806, 0.9155036), retirée du décompte comme doublon probable (~320 m), à recontrôler si preuve d'un second site indépendant.",
+    "latitude": 47.2305021,
+    "longitude": 0.9117076,
+    "gpsSource": "https://loches-valdeloire.com/les-campings/aire-daccueil-et-de-services-la-guignardiere-acccen03700082/"
   },
   {
     "department": "37",
