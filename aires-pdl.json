@@ -254,28 +254,28 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping cars de Lérat",
+    "name": "CAMPING-CAR PARK Piriac – Lérat",
     "city": "PIRIAC-SUR-MER",
-    "type": "Aire de service",
+    "type": "Aire d'étape payante CAMPING-CAR PARK",
     "services": [
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Toilettes",
-      "Vidange",
-      "Vidange eaux grises",
-      "Vidange eaux noires",
-      "WiFi"
+      "30 emplacements dont 6 XXL",
+      "Eau potable et vidange via borne extérieure à l'aire",
+      "Électricité selon équipement de l'aire",
+      "Accès à la plage de Lérat à 100 m"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "13,74 € / 24 h du 16/09/2026 au 31/12/2027, hors taxe de séjour de 1,22 € en 2026 (total indicatif 14,96 €). Parking 5 h + services : 6 €.",
+    "status": "Piriac-sur-Mer, aire de Lérat, proche de la plage. Borne de services extérieure accessible selon les conditions de l'exploitant.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.36722,
     "longitude": -2.53256,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMEACCLERATPIRIAC"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMEACCLERATPIRIAC",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-lerat",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-lerat",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-lerat"
   },
   {
     "department": "44",
@@ -323,24 +323,28 @@
   },
   {
     "department": "44",
-    "name": "BORNE DE SERVICES CAMPING-CAR PARK",
+    "name": "Borne CAMPING-CAR PARK – Saint-Viaud rue de la Gare",
     "city": "SAINT-VIAUD",
-    "type": "Aire de stationnement",
+    "type": "Borne de services uniquement (stationnement interdit)",
     "services": [
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Vidange"
+      "Eau potable jusqu'à 100 litres",
+      "Vidanges camping-car",
+      "Électricité via carte PASS'ÉTAPES",
+      "Aucune nuitée ou stationnement d'étape sur la borne"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "6 € par utilisation de la borne avec carte PASS'ÉTAPES selon Loire-Atlantique Tourisme. Il ne s'agit pas d'un emplacement de nuit.",
+    "status": "Rue de la Gare, près des ateliers municipaux, 44320 Saint-Viaud. Services uniquement ; dormir sur l'aire de stationnement distincte de la base de loisirs.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.25498,
     "longitude": -2.02234,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMACCAMEBORNESERVICESCCPARKSTVIAUD"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMACCAMEBORNESERVICESCCPARKSTVIAUD",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/186399-BORNE-DE-SERVICES-CAMPING-CAR-PARK",
+    "priceSource": "https://rando.loire-atlantique.fr/service/186399-BORNE-DE-SERVICES-CAMPING-CAR-PARK",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/186399-BORNE-DE-SERVICES-CAMPING-CAR-PARK"
   },
   {
     "department": "44",
@@ -566,22 +570,28 @@
   },
   {
     "department": "44",
-    "name": "AIRE CAMPING-CAR LA BOISSIERE DU DORE",
+    "name": "Aire communale – La Boissière-du-Doré",
     "city": "LA BOISSIERE-DU-DORE",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Stationnement gratuit avec borne municipale payante",
     "services": [
-      "Services non renseignés"
+      "Parking camping-car gratuit",
+      "Vidange eaux grises",
+      "Vidange cassette WC",
+      "Recharge d'eau par borne à carte bancaire"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement gratuit ; utilisation de la borne eau/vidanges : 3 € par carte bancaire selon l'Office de tourisme du Vignoble de Nantes (tarif à confirmer sur la borne).",
+    "status": "Parc Hélène François Saint-Maur, 44430 La Boissière-du-Doré. Aire municipale entre le jardin et le commerce, distincte d'un camping à la ferme.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.2313913,
     "longitude": -1.2193855,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V50028O"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMPDL044V50028O",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE"
   },
   {
     "department": "72",
@@ -870,22 +880,27 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE STATIONNEMENT PAIMBOEUF",
+    "name": "Stationnement camping-car du quai Edmond-Libert – Paimbœuf",
     "city": "PAIMBOEUF",
-    "type": "Aire de stationnement",
+    "type": "Parking municipal camping-car gratuit",
     "services": [
-      "Déchets"
+      "Stationnement camping-car gratuit toute l'année",
+      "Conteneurs à déchets mentionnés dans la base touristique",
+      "Eau et vidange non attestées à cette aire"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement gratuit toute l'année selon Loire-Atlantique Tourisme. Aucun service de vidange ou d'eau attribué sans vérification.",
+    "status": "4 quai Edmond-Libert, 44560 Paimbœuf, rive de Loire, à proximité du Jardin étoilé.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.28633,
     "longitude": -2.01769,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V50BKT9"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMPDL044V50BKT9",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF"
   },
   {
     "department": "44",
@@ -2035,22 +2050,28 @@
   },
   {
     "department": "44",
-    "name": "AIRE D'ACCUEIL DE CAMPING-CAR DU DOMAINE FORGEAU",
+    "name": "Accueil camping-car du domaine Forgeau – Mouzillon",
     "city": "MOUZILLON",
-    "type": "Aire de stationnement",
+    "type": "Accueil privé à la propriété (sur rendez-vous)",
     "services": [
-      "Services non renseignés"
+      "Stationnement gratuit à la propriété",
+      "Arrivée sur rendez-vous, jusqu'à 18h30",
+      "Accueil au domaine viticole",
+      "Eau, électricité et vidange non attestées"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement gratuit sur rendez-vous selon Loire-Atlantique Tourisme. Les éventuelles prestations annexes ne sont pas chiffrées.",
+    "status": "222 rue des Caves, lieu-dit La Rouaudière, 44330 Mouzillon. Accueil privé, prévenir le propriétaire avant arrivée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.1616553,
     "longitude": -1.2709467,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V514N6Y"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMPDL044V514N6Y",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/186405-AIRE-D-ACCUEIL-DE-CAMPING-CAR-DU-DOMAINE-FORGEAU",
+    "priceSource": "https://rando.loire-atlantique.fr/service/186405-AIRE-D-ACCUEIL-DE-CAMPING-CAR-DU-DOMAINE-FORGEAU",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/186405-AIRE-D-ACCUEIL-DE-CAMPING-CAR-DU-DOMAINE-FORGEAU"
   },
   {
     "department": "44",
@@ -2435,22 +2456,28 @@
   },
   {
     "department": "44",
-    "name": "Aire de Camping-Car Ferme de la Piardière",
+    "name": "Accueil camping-car de la ferme de la Piardière – Plessé",
     "city": "PLESSE",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Accueil privé sur 4 emplacements",
     "services": [
-      "Services non renseignés"
+      "4 places pour camping-cars",
+      "Point d'eau",
+      "Électricité disponible",
+      "Pas de vidange camping-car sur place"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarif de stationnement non publié sur le site Loire-Atlantique Tourisme ; confirmer le coût auprès de la ferme. Les services comprennent eau et électricité, mais aucune vidange.",
+    "status": "41 rue de la Piardière, 44630 Plessé. Aire privée de 4 places, distincte du parking camping-car OSM proche du bourg.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.53229,
     "longitude": -1.85498,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V51HCFX"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMPDL044V51HCFX",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/187454-Aire-de-Camping-Car-Ferme-de-la-Piardiere",
+    "priceSource": "https://rando.loire-atlantique.fr/service/187454-Aire-de-Camping-Car-Ferme-de-la-Piardiere",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/187454-Aire-de-Camping-Car-Ferme-de-la-Piardiere"
   },
   {
     "department": "44",
@@ -2581,25 +2608,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping cars de Missillac",
+    "name": "Aire municipale de La Chinoise – Missillac",
     "city": "MISSILLAC",
-    "type": "Aire de service",
+    "type": "Stationnement gratuit et borne de services payante",
     "services": [
-      "Eau potable (source ouverte)",
-      "Toilettes",
-      "Vidange eaux grises",
-      "Vidange eaux noires"
+      "Parking camping-car gratuit",
+      "Eau potable",
+      "Vidange des eaux usées",
+      "Vidange des WC",
+      "Sanitaires et pique-nique à proximité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement gratuit ; utilisation de la borne de services : 2 € selon Loire-Atlantique Tourisme.",
+    "status": "La Chinoise, sortie de Missillac près du carrefour RN165/D2, 44780 Missillac. Borne et stationnement communal.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.47767,
     "longitude": -2.17928,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMACCAMEAIRECHINOISE"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMACCAMEAIRECHINOISE",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
+    "priceSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac"
   },
   {
     "department": "44",
@@ -3687,26 +3718,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping-cars de La Baule",
+    "name": "CAMPING-CAR PARK La Baule-Escoublac – boulevard Guy de Champsavin",
     "city": "LA BAULE-ESCOUBLAC",
-    "type": "Aire de service",
+    "type": "Aire d'étape payante CAMPING-CAR PARK",
     "services": [
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Vidange",
-      "Vidange eaux grises",
-      "Vidange eaux noires"
+      "24 emplacements stabilisés",
+      "Eau potable et vidanges",
+      "Électricité sur emplacement",
+      "Wifi et tri des déchets",
+      "Accès toute l'année"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "14,50 € / 24 h depuis le 15/10/2026 (contre 16,50 € du 12/09 au 14/10/2026), taxe de séjour 1,32 € en plus (total indicatif 15,82 €). Parking 5 h + services : 6 €.",
+    "status": "6 boulevard Guy de Champsavin, 44500 La Baule-Escoublac. Aire CAMPING-CAR PARK de 24 places, réservée aux camping-cars autonomes.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.28189,
     "longitude": -2.42523,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMEAIREDECAMPINGCARLABAULE"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMEAIREDECAMPINGCARLABAULE",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac"
   },
   {
     "department": "49",
@@ -4030,22 +4064,28 @@
   },
   {
     "department": "44",
-    "name": "AIRE CAMPING-CAR MOUZILLON",
+    "name": "Aire communale de Mouzillon – complexe sportif de la Prée",
     "city": "MOUZILLON",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire de stationnement avec borne municipale payante",
     "services": [
-      "Services non renseignés"
+      "Parking camping-car",
+      "Eau potable via borne",
+      "Vidanges camping-car",
+      "Aire de pique-nique et jeux pour enfants"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Accès aux services payant par carte bancaire d'après Loire-Atlantique Tourisme ; montant 2026 non indiqué. Tarif du stationnement non confirmé.",
+    "status": "Parking du complexe sportif de la Prée, complexe Raphaël Hardy, 44330 Mouzillon. Borne CB, tarif à relever sur l'automate.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.1378087,
     "longitude": -1.2848393,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V50028N"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMPDL044V50028N",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON"
   },
   {
     "department": "72",
@@ -4597,28 +4637,28 @@
   },
   {
     "department": "44",
-    "name": "Aire camping cars Park de la Grande Falaise",
+    "name": "CAMPING-CAR PARK La Turballe – Grande Falaise",
     "city": "LA TURBALLE",
-    "type": "Aire de stationnement",
+    "type": "Aire d'étape payante CAMPING-CAR PARK",
     "services": [
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Vidange",
-      "Vidange eaux grises",
-      "Vidange eaux noires",
-      "WiFi"
+      "20 emplacements avec électricité 6 A",
+      "Eau potable et vidanges",
+      "À 100 m de la plage de la Grande Falaise",
+      "Emprise soumise à plans de prévention des risques littoraux"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "14,05 € / 24 h du 18/09/2026 au 31/12/2027, hors taxe 1,32 € en 2026 (total indicatif 15,37 €). Parking 5 h + services : 6 €.",
+    "status": "54 boulevard de la Grande Falaise, La Turballe ; aire distincte du Clos Mora. Coordonnées corrigées d'après l'exploitant : 47.33147, -2.49935.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
-    "latitude": 47.32891,
-    "longitude": -2.49684,
+    "latitude": 47.33147,
+    "longitude": -2.49935,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMECCGRANDEFALAISE"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMECCGRANDEFALAISE",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise"
   },
   {
     "department": "44",
@@ -7117,25 +7157,29 @@
   },
   {
     "department": "44",
-    "name": "AIRE CAMPING-CAR VIEILLEVIGNE",
+    "name": "Aire communale de Vieillevigne – route de Montaigu",
     "city": "VIEILLEVIGNE",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire municipale de stationnement et de services gratuite",
     "services": [
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Vidange"
+      "Stationnement camping-car gratuit",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux grises et cassette WC",
+      "Collecte des déchets"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement et services annoncés gratuits par Loire-Atlantique Tourisme ; conditions d'utilisation à consulter sur place.",
+    "status": "Route de Montaigu, 44116 Vieillevigne. Aire de services et stationnement municipal.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 46.9718627,
     "longitude": -1.4291582,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V50028L"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMPDL044V50028L",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE"
   },
   {
     "department": "49",
@@ -7332,23 +7376,27 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE STATIONNEMENT SAINT-VIAUD",
+    "name": "Aire municipale du lac – Saint-Viaud",
     "city": "SAINT-VIAUD",
-    "type": "Aire de stationnement",
+    "type": "Stationnement camping-car gratuit sans borne de services sur place",
     "services": [
-      "Déchets",
-      "Toilettes"
+      "Stationnement camping-car gratuit toute l'année",
+      "Base de loisirs et jeux à proximité",
+      "Borne d'eau, électricité et vidanges distincte rue de la Gare (6 €)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement gratuit toute l'année selon Loire-Atlantique Tourisme. Utilisation des services rue de la Gare non comprise : 6 € via carte PASS'ÉTAPES.",
+    "status": "Base de loisirs du lac, rue du Parc-des-Sports, 44320 Saint-Viaud. Stationnement distinct de la borne CAMPING-CAR PARK, rue de la Gare.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.25945,
     "longitude": -2.01698,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V50054F"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMPDL044V50054F",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180245-AIRE-DE-STATIONNEMENT-SAINT-VIAUD",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180245-AIRE-DE-STATIONNEMENT-SAINT-VIAUD",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180245-AIRE-DE-STATIONNEMENT-SAINT-VIAUD"
   },
   {
     "department": "49",
@@ -7693,26 +7741,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de stationnement et de services pour camping-cars de Messan",
+    "name": "CAMPING-CAR PARK Rouans – Messan",
     "city": "ROUANS",
-    "type": "Aire de stationnement",
+    "type": "Aire d'étape payante CAMPING-CAR PARK",
     "services": [
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Toilettes",
-      "Vidange"
+      "20 emplacements camping-car annoncés sur l'aire",
+      "Électricité 6 A",
+      "Eau potable et vidanges",
+      "Sanitaires accessibles selon l'exploitant",
+      "Près du canal de Buzay"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "12,78 € / 24 h du 01/10/2026 au 31/12/2027, hors taxe 1,32 € en 2026 (total indicatif 14,10 €). Parking 5 h + services : 6 €.",
+    "status": "Messan, 44640 Rouans, au bord du canal de Buzay. Aire CAMPING-CAR PARK, distincte de la borne de ravitaillement de Rouans située ailleurs.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
-    "latitude": 47.19229,
-    "longitude": -1.853,
+    "latitude": 47.19275,
+    "longitude": -1.854207,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMEROASCCAR"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMEROASCCAR",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/rouans",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/rouans",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/rouans"
   },
   {
     "department": "44",
@@ -7782,27 +7833,28 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping cars de la Tranchée",
+    "name": "CAMPING-CAR PARK Piriac – La Tranchée",
     "city": "PIRIAC-SUR-MER",
-    "type": "Aire de service",
+    "type": "Aire d'étape payante CAMPING-CAR PARK",
     "services": [
-      "Déchets",
-      "Électricité (source ouverte)",
-      "Vidange",
-      "Vidange eaux grises",
-      "Vidange eaux noires",
-      "WiFi"
+      "18 emplacements camping-car",
+      "Eau et vidanges à la borne de services",
+      "Emplacements ombragés ou ensoleillés",
+      "À proximité des commerces de Piriac"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "13,95 € / 24 h du 11/09/2026 au 31/12/2027, hors taxe de séjour 1,22 € en 2026 (total indicatif 15,17 €). Parking 5 h + services : 6 €.",
+    "status": "La Tranchée, Piriac-sur-Mer ; 18 places près du centre. Distincte des aires de Brambell et Lérat.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.38116,
     "longitude": -2.5426,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMEACCTRANCHEEPIRIAC"
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "sourceId": "ACCAMEACCTRANCHEEPIRIAC",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee"
   },
   {
     "department": "49",
