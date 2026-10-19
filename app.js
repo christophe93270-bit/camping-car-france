@@ -290,7 +290,7 @@ async function initAires(){
     } catch (_) { /* Les autres departements restent disponibles. */ }
     let loirEtCherAires=[];
     try {
-      const response41=await fetch("aires-loir-et-cher.json?v=20261019-1", {cache:"no-store"});
+      const response41=await fetch("aires-loir-et-cher.json?v=20261019-2", {cache:"no-store"});
       if(response41.ok) loirEtCherAires=await response41.json();
     } catch (_) { /* Les autres departements restent disponibles. */ }
     let indreEtLoireAires=[];
