@@ -639,8 +639,10 @@
     "name": "Aire camping car Mazières-de-Touraine",
     "city": "Mazières-de-Touraine",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
+    "services": [
+      "Poubelles (selon Park4night)"
+    ],
+    "price": "Stationnement gratuit selon Park4night (2 rue du Stade, 3 emplacements) ; tarif municipal non publié",
     "status": "Stationnement confirmé par la mairie ; tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1325271948",
     "latitude": 47.3824995,
@@ -653,7 +655,9 @@
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
     "address": "Rue du Stade, près de l'étang, 37130 Mazières-de-Touraine",
     "sourceOfficial": "https://www.mazieresdetouraine.fr/culture-et-loisirs/camping-et-aires/",
-    "verificationNote": "La mairie confirme l'aire rue du Stade près de l'étang sans publier de tarif. Park4night #447452 signale un emplacement gratuit de 3 places au 6 rue du Stade (47.3834, 0.4217), distinct d'environ 100 m du point OSM enregistré (47.3824995, 0.4211618) ; un commentaire du 30/05/2025 évoque une nouvelle aire, l'ancienne ayant une barrière de hauteur. Ne pas attribuer la gratuité ou la limitation de hauteur à notre point OSM sans confirmation de correspondance."
+    "verificationNote": "La mairie confirme une aire rue du Stade près de l'étang. Park4night #512339 indique un parking camping-car gratuit de 3 places au 2 rue du Stade (47.3827, 0.4212), à environ 23 m du point OSM enregistré (47.3824995, 0.4211618), avec des avis récents jusqu'au 11/09/2026. Autre point Park4night #447452 au 6 rue du Stade (47.3834, 0.4217) : aire de pique-nique à hauteur limitée 2,2 m, à ne pas confondre. Gratuité issue d'une source communautaire, non d'une grille municipale.",
+    "priceSource": "https://park4night.com/fr/place/512339",
+    "priceVerifiedOn": "2026-10-19"
   },
   {
     "department": "37",
