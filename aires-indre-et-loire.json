@@ -194,9 +194,12 @@
     "name": "Aire de stationnement Avenue Léonard de Vinci",
     "city": "Amboise",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Stationnement de jour",
+      "Stationnement de nuit"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de stationnement confirmée par La Loire à Vélo ; 12 places, sans services",
     "source": "https://www.openstreetmap.org/way/446498467",
     "latitude": 47.4082746,
     "longitude": 0.9899357,
@@ -205,7 +208,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/446498467",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "address": "Avenue Léonard de Vinci, 37400 Amboise",
+    "sourceOfficial": "https://www.loireavelo.fr/tsft/aire-de-stationnement-amboise/",
+    "verificationNote": "Aire distincte de Camping-Car Park Amboise sur l'île d'Or. Coordonnées GPS OSM à rapprocher de l'adresse indiquée par la source touristique ; tarif non confirmé."
   },
   {
     "department": "37",
@@ -534,7 +540,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Point OSM à vérifier ; ne pas confondre avec l'aire payante rue du Stade",
     "source": "https://www.openstreetmap.org/way/1286326472",
     "latitude": 47.2582193,
     "longitude": 0.4643755,
@@ -543,7 +549,8 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1286326472",
-    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé."
+    "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
+    "verificationNote": "Le point OSM du Moulin d'Azay ne doit pas être confondu avec l'aire officielle rue du Stade (48 emplacements, Interparking). Correspondance géographique et gratuité à confirmer."
   },
   {
     "department": "37",
