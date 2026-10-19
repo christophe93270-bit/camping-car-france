@@ -35,7 +35,14 @@ jobs:
               assert math.isfinite(lat) and math.isfinite(lon) and 44.7<lat<45.6 and 3.0<lon<4.7
               source="https://www.openstreetmap.org/"+key
               output.append({"department":"43","name":row["name"].strip(),"city":row.get("city") or "Commune à confirmer","type":"Aire de camping-car (à vérifier)","services":[],"price":"Non confirmé","status":"Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer","source":source,"latitude":lat,"longitude":lon,"gpsSource":source,"dataLicense":"ODbL","dataAttribution":"© OpenStreetMap contributors","importReview":"À contrôler avant déplacement","sourceId":key})
-          Path("aires-haute-loire.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          # Préserver les fiches déjà corrigées et enrichies du département 43.
+          target = Path("aires-haute-loire.json")
+          if target.exists():
+              existing = json.loads(target.read_text(encoding="utf-8"))
+              if isinstance(existing, list) and len(existing) > 0:
+                  print(f"Protection des {len(existing)} fiches existantes : import initial OSM ignoré")
+                  raise SystemExit(0)
+          target.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
           print("22 aires potentielles de Haute-Loire preparees")
           PY
       - name: Publier les aires
