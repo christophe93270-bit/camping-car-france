@@ -161,14 +161,16 @@
     "department": "36",
     "name": "La Châtre - Aire Réservée Aux Camping-car",
     "city": "La Châtre",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire communale de stationnement et services",
     "services": [
       "Eau potable",
-      "Toilettes",
-      "Électricité"
+      "Vidange des eaux usées",
+      "Électricité",
+      "Sanitaires",
+      "Stationnement de nuit"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit selon conseil municipal (septembre 2025) ; forfait vidange et eau 2 € selon office de tourisme, tarif d'électricité non confirmé",
+    "status": "Ouverte 24 h/24 toute l'année selon Berry Province ; future aire Camping-Car Park avenue d'Auvergne annoncée mais pas encore ouverte",
     "source": "https://www.openstreetmap.org/way/816855022",
     "latitude": 46.5820703,
     "longitude": 1.9828959,
@@ -178,7 +180,12 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/816855022",
     "servicesSource": "https://www.openstreetmap.org/way/816855022",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
+    "address": "Place du Champ de Foire, 36400 La Châtre",
+    "capacity": 2,
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/aire-de-service-et-aire-de-stationnement-pour-camping-cars/",
+    "priceSource": "https://www.pays-george-sand.com/aire-de-service-et-aire-de-stationnement-pour-camping-cars-2/",
+    "verificationNote": "Berry Province confirme aire communale place du Champ de Foire avec 2 places, eau, vidange, électricité et sanitaires, ouverte 24h/24 en 2026. PV municipal 29/09/2025 : aire du Champ de Foire gratuite à cette date. Office Pays de George Sand : forfait vidange et eau 2 €. Projet distinct Camping-Car Park 4bis avenue d'Auvergne indiqué « à venir » sur le site opérateur : ne pas fusionner ni annoncer son ouverture."
   },
   {
     "department": "36",
@@ -280,7 +287,9 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/907668462",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
+    "verificationNote": "Emplacement OSM à proximité de la salle des fêtes, GPS 47.0732183,1.8044959. À ne pas confondre avec l'aire Camping-Car Park du 12 rue du Collège (GPS 47.07107,1.805496), qui propose 48 places et un tarif de 12,73 € hors taxe de séjour à partir du 16/10/2026. Le stationnement camping-car sur l'emplacement de la salle des fêtes n'est pas confirmé par la commune.",
+    "relatedSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre/vatan"
   },
   {
     "department": "36",
