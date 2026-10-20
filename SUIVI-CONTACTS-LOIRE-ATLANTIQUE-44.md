@@ -185,3 +185,10 @@ La [brochure officielle GCU 2026](https://www.gcu.asso.fr/wp-content/uploads/202
 ## Lot 59 — Le Gâvre (forfait indicatif, année et nature à confirmer)
 
 [Guide touristique](https://www.guide-campings.com/CAMPINGS/camping-foret--gavre-3432.htm) : forfait général deux personnes à **16,56 €**, non vérifié pour camping-car en 2026. [Site officiel](https://campinglegavre.fr/?page_id=95) : dates sans année précise, aucune grille tarifaire visible. Écrire, si nécessaire, à `campinglegavre@gmail.com` pour demander le **forfait 2026 (2 adultes + camping-car, électricité, taxes, vidange), ses dates d'application et ses conditions**. **Aucun courriel envoyé**. Total restant : **27** tarifs strictement non confirmés sur fiches visibles.
+
+
+## Lot tarifaire 60 — offre FFCC Les Bleuets (sans prix final garanti)
+
+[Portail des campings de Pornic](https://www.camping-pornic.com/camping-pornic-les-bleuets.html) : « Stop accueil camping-car » annoncé **à partir de 9 € la première nuit** sur une page qui présente la saison 2026. Cette valeur est **un minimum commercial publié**, non le prix contractuel 2026 d'un camping-car avec deux adultes. Année de validité de l'offre elle-même, horaires, suppléments, taxe et prix de deuxième nuit non précisés. La [FFCC](https://ffcc.fr/la-boutique-ffcc/publication-gratuite/) confirme le principe d'une étape accessible aux non-adhérents, mais non le montant individuel du camping. Le [tarif classique du camping](https://www.campinglesbleuets.com/emplacements-camping-pornic) reste à confirmer spécifiquement pour camping-car ; demander à `contact@campinglesbleuets.com` un devis officiel ou une confirmation de conditions avant toute certification de forfait. **Courriel non envoyé.**
+
+**26 prix encore strictement `Non confirmé` selon l'audit, auxquels s'ajoute ce tarif d'appel dont le montant exact n'est pas garanti.**
