@@ -79,7 +79,7 @@ jobs:
           expected_email_ids={"ACCAMPDL044V51I23X","ACCAMACCAMPDL044V50G1TE","ACCAMPDL044V5002ZN","ACCAMACCAMPDL044000049","ACCAMPDL044V50ZDO9","ACCAMEAIREDESTMOLF","node/11786823109","way/1317028497","ACCAMPDL044V50Y077","ACCAMACCAMPDL044000155","ACCAMACCAMPDL044000154"}
           assert expected_email_ids.issubset({str(x.get("sourceId")) for x in emails}), "44 : les 11 tarifs non confirmés doivent disposer d’un courriel public sourcé"
           unresolved_all=[x for x in visible_regional+visible_osm if x.get("price")=="Non confirmé"]
-          assert len(unresolved_all)==26 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 60 : 26 prix strictement non confirmés, offre Bleuets prudente et contacts sourcés"
+          assert len(unresolved_all)==24 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 61 : 24 prix strictement non confirmés et contacts sourcés"
           ranch=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000049")
           assert ranch.get("price")=="Non confirmé" and "point de vidange camping-car" in " ".join(ranch.get("services",[])).lower() and ranch.get("drainageFacilitySource")=="https://www.yellohvillage.fr/camping/le_ranch/nos_services", "Le Ranch : service vérifié ou réserve manquante"
           contacts_incomplete=[str(x.get("sourceId")) for x in visible_regional+visible_osm if x.get("contactPhone") and (not str(x.get("contactSource","")).startswith("https://") or not x.get("contactRole") and x.get("priceCheckedAt"))]
@@ -288,7 +288,7 @@ jobs:
           assert len(lot48)==2 and all(x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("contactPhone") and not x.get("overnightStatus") for x in lot48), "Lot 48 : coordonnées ou état nocturne incorrect"
           mc=next(x for x in lot48 if x.get("sourceId")=="CCF44-PIRIAC-DOMAINE-MON-CALME-2026")
           ps=next(x for x in lot48 if x.get("sourceId")=="CCF44-PIRIAC-AMIS-NATURE-PORS-STER-2026")
-          assert mc.get("price")=="Non confirmé" and mc.get("capacityCampingCarTourism")==14 and "11/10" in mc.get("seasonalDates2026","") and "12/10" in mc.get("seasonalDates2026",""), "Lot 48 Mon Calme : capacité, prix ou dates contradictoires non tracés"
+          assert mc.get("priceYear")==2026 and mc.get("capacityCampingCarTourism")==14 and "11/10" in mc.get("seasonalDates2026","") and "12/10" in mc.get("seasonalDates2026",""), "Lot 48/61 Mon Calme : capacité, tarif conditionnel ou dates contradictoires non tracés"
           assert ps.get("priceYear")==2026 and all(x in ps.get("price","") for x in ["5,90 €","4,90 €","2,90 €","23,54 €"]) and ps.get("priceIllustrativeCalculation",{}).get("exampleWithElectricityAndTax")==23.54, "Lot 48 Pors-er-Ster : grille de prix 2026 ou exemple mal calculé"
           assert ps.get("longitude")<0 and "6,80 m" in ps.get("operationalWarning","") and "vidange" in ps.get("operationalWarning","").lower(), "Lot 48 : géolocalisation et limite camping-car invalides"
           # Lot 49 : trois campings camping-car distincts, tarifs 2026 prudents et contacts sourcés.
@@ -358,7 +358,21 @@ jobs:
           assert len([x for x in visible_regional if "troischenes" in norm(x.get("name"))])==0, "Lot 53 : Les Trois Chênes non validé pour les camping-cars en 2026, ne pas ajouter"
           
           # Pause des ajouts de campings (lot 54) : ne pas accumuler de nouveaux tarifs inconnus.
-          assert len(unresolved_all)<=26, "44 : garde-fou tarifaire lot 60, hausse des prix strictement Non confirmé interdite pendant le rattrapage"
+          assert len(unresolved_all)<=24, "44 : garde-fou tarifaire lot 61, hausse des prix strictement Non confirmé interdite pendant le rattrapage"
+          # Lot 61 : deux CampingCard ACSI 2026 (aucun tarif public ordinaire sans carte garanti).
+          for sid,rate,source in (("CCF44-GUERANDE-DOMAINE-LEVENO-2026",25,"https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/guerande/camping-domaine-de-leveno-109840/"),("CCF44-PIRIAC-DOMAINE-MON-CALME-2026",21,"https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/piriac-sur-mer/domaine-mon-calme-116004/")):
+              matches=[x for x in visible_regional if x.get("sourceId")==sid]
+              assert len(matches)==1, f"Lot 61 : doublon ou absence {sid}"
+              itm=matches[0]
+              ca=itm.get("priceACSI2026",{})
+              assert itm.get("priceYear")==2026 and itm.get("priceType")=="tarif_2026_conditionnel_campingcard_acsi_basse_saison" and itm.get("priceSource")==source, f"Lot 61 : 2026 ou source ACSI manquante {sid}"
+              assert f"{rate} €/nuit" in itm.get("price","") and "carte" in itm.get("price","").lower() and "sans carte" in itm.get("price","").lower(), f"Lot 61 : cartes obligatoires ou tarif normal réservé {sid}"
+              assert ca.get("ratePerNightEUR")==rate and ca.get("requiredCard") is True and ca.get("ordinaryPriceConfirmed") is False and ca.get("cardCostIncluded") is False and ca.get("localTaxIncluded") is False and ca.get("programRulesUrl")=="https://www.acsi.eu/fr/informations-pour-les-campings/produits-pour-les-campings/campingcard-acsi/", f"Lot 61 : frais ou conditions carte ACSI perdus {sid}"
+              assert len(ca.get("validPeriods",[]))== (3 if rate==25 else 6), f"Lot 61 : périodes précises ACSI 2026 manquantes {sid}"
+          lev61=next(x for x in visible_regional if x.get("sourceId")=="CCF44-GUERANDE-DOMAINE-LEVENO-2026")
+          assert lev61.get("priceACSI2026",{}).get("operatorOpeningConflict") is True and "20/09" in lev61.get("operationalWarning",""), "Lot 61 : discordance ouverture Leveno masquée"
+          mc61=next(x for x in visible_regional if x.get("sourceId")=="CCF44-PIRIAC-DOMAINE-MON-CALME-2026")
+          assert mc61.get("priceACSI2026",{}).get("operatorCorroboration")=="https://www.goboony.fr/campings/france/pays-de-la-loire/loire-atlantique/piriac-sur-mer/287-domaine-mon-calme-camping-appart-hotel" and "sans séjour non démontrée" in mc61.get("operationalWarning",""), "Lot 61 : conditions de Mon Calme masquées"
           # Lot 60 : offre promotionnelle FFCC Bleuets annoncée sur une page de saison 2026 ; prix de séjour normal inconnu.
           bleu60=next(x for x in visible_regional if x.get("sourceId")=="CCF44-PORNIC-LES-BLEUETS-2026")
           assert bleu60.get("price")!="Non confirmé" and bleu60.get("priceType")=="offre_publiee_stop_accueil_camping_car_prix_appel_premiere_nuit_non_garanti", "Lot 60 : offre Bleuets non qualifiée"
@@ -404,7 +418,7 @@ jobs:
           assert bleu55.get("publishedTariff2026Source")=="https://www.campinglesbleuets.com/uploads/pdf/FR/tarifs.pdf" and "forfait normal" in bleu55.get("price","") and "NON un prix final garanti" in bleu55.get("price",""), "Les Bleuets : source 2026, prix normal inconnu ou réserve offre Stop Accueil manquante"
           assert all(k in bleu55.get("publishedTariff2026Note","") for k in ("20 €","22 €","30 €","36 €","26 €","6,20 €","0,22 €","23 €")), "Les Bleuets : tableau officiel 2026 incomplet"
           leveno55=next(x for x in visible_regional if x.get("sourceId")=="CCF44-GUERANDE-DOMAINE-LEVENO-2026")
-          assert leveno55.get("price")=="Non confirmé" and leveno55.get("fees2026Source")=="https://www.camping-leveno.com/pdf/leveno-contrat-conditions.pdf" and all(k in leveno55.get("fees2026","") for k in ("0,66 €","25 €","35 €")), "Leveno : contrat officiel 2026 de frais annexes non exploité"
+          assert leveno55.get("priceYear")==2026 and leveno55.get("fees2026Source")=="https://www.camping-leveno.com/pdf/leveno-contrat-conditions.pdf" and all(k in leveno55.get("fees2026","") for k in ("0,66 €","25 €","35 €")), "Leveno : contrat 2026, tarif ACSI conditionnel ou frais annexes manquants"
           clos55=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V5002ZN")
           assert clos55.get("price")=="Non confirmé" and clos55.get("fees2026Source")=="https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf" and all(k in clos55.get("fees2026","") for k in ("0,66 €","0,30 €","10 €","20 €","30 €")), "Clos Mer et Nature : contrat 2026 frais annexes ou prix nuitée incorrect"
           assert forges.get("price")=="Non confirmé" and "04/07/2026" in forges.get("seasonalDates2026","") and "04/04/2026" in forges.get("seasonalDates2026",""), "Les Forges : conflit de saison officiel/office masqué"

@@ -192,3 +192,11 @@ La [brochure officielle GCU 2026](https://www.gcu.asso.fr/wp-content/uploads/202
 [Portail des campings de Pornic](https://www.camping-pornic.com/camping-pornic-les-bleuets.html) : « Stop accueil camping-car » annoncé **à partir de 9 € la première nuit** sur une page qui présente la saison 2026. Cette valeur est **un minimum commercial publié**, non le prix contractuel 2026 d'un camping-car avec deux adultes. Année de validité de l'offre elle-même, horaires, suppléments, taxe et prix de deuxième nuit non précisés. La [FFCC](https://ffcc.fr/la-boutique-ffcc/publication-gratuite/) confirme le principe d'une étape accessible aux non-adhérents, mais non le montant individuel du camping. Le [tarif classique du camping](https://www.campinglesbleuets.com/emplacements-camping-pornic) reste à confirmer spécifiquement pour camping-car ; demander à `contact@campinglesbleuets.com` un devis officiel ou une confirmation de conditions avant toute certification de forfait. **Courriel non envoyé.**
 
 **26 prix encore strictement `Non confirmé` selon l'audit, auxquels s'ajoute ce tarif d'appel dont le montant exact n'est pas garanti.**
+
+
+## Lot tarifaire 61 — deux tarifs ACSI 2026 documentés
+
+- **Léveno** : [ACSI 2026](https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/guerande/camping-domaine-de-leveno-109840/) confirme **25 €/nuit avec carte** sur trois fenêtres, mais horaires d'ouverture opérateur divergents ; contacter `info@camping-leveno.com` seulement pour les nuits de début avril/fin septembre, le forfait public sans carte et les taxes exactes. **Aucun courriel envoyé**.
+- **Mon Calme** : [ACSI 2026](https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/piriac-sur-mer/domaine-mon-calme-116004/) confirme **21 €/nuit avec carte** sur six fenêtres ; [offre de réservation du camping](https://www.goboony.fr/campings/france/pays-de-la-loire/loire-atlantique/piriac-sur-mer/287-domaine-mon-calme-camping-appart-hotel) décrit explicitement le forfait camping-car pour deux personnes et électricité incluse. Demander à `contact@campingmoncalme.com` le prix normal sans ACSI, les taxes et la vidange sans séjour. **Aucun courriel envoyé**.
+
+**24 fiches visibles portent strictement `Non confirmé`.** Pour ces deux autres fiches, le prix sans carte reste lui aussi à documenter.
