@@ -110,7 +110,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261020-24", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261020-25", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -588,19 +588,21 @@ async function initAires(){
       const subset=selector.value?aires.filter(a=>a.department===selector.value):aires;
       const gpsCount=subset.filter(a=>Number.isFinite(a.latitude)&&Number.isFinite(a.longitude)).length;
       const nightUnverifiedCount=subset.filter(a=>a.overnightStatus==="not_established").length;
-      progress.textContent=subset.length+" lieu"+(subset.length>1?"x":"")+" recensé"+(subset.length>1?"s":"")+" "+(selector.value?"dans ce département":"dans "+new Set(aires.map(a=>a.department)).size+" départements sur 101") +", dont "+gpsCount+" avec coordonnées GPS et "+nightUnverifiedCount+" avec nuitée non établie. Base non exhaustive.";
+      const nightProhibitedCount=subset.filter(a=>a.overnightStatus==="prohibited").length;
+      progress.textContent=subset.length+" lieu"+(subset.length>1?"x":"")+" recensé"+(subset.length>1?"s":"")+" "+(selector.value?"dans ce département":"dans "+new Set(aires.map(a=>a.department)).size+" départements sur 101")  +", dont "+gpsCount+" avec coordonnées GPS, "+nightUnverifiedCount+" dont la nuitée n’est pas établie et "+nightProhibitedCount+" sans nuitée autorisée. Base non exhaustive.";
       const filtered=aires.filter(a=>
         (!selector.value||a.department===selector.value)
         &&[a.name,a.city,a.type,a.department].join(" ").toLocaleLowerCase("fr").includes(q)
         &&(!kind.value||(kind.value==="camping"?/^camping\b/i.test(a.type):!/^camping\b/i.test(a.type)))
         &&(!service.value||(a.services||[]).some(v=>servicePatterns[service.value].test(v)))
         &&(!gpsOnly.checked||(Number.isFinite(a.latitude)&&Number.isFinite(a.longitude)))
-        &&(!hideUnverifiedNight.checked||a.overnightStatus!=="not_established")
+        &&(!hideUnverifiedNight.checked||!(a.overnightStatus==="not_established"||a.overnightStatus==="prohibited"))
       );
       target.innerHTML=filtered.slice(0,visibleCount).map(a=>`<article class="department-card" style="cursor:default;text-align:left">
         <span class="card-top"><span class="department-code">${escapeHTML(a.department)}</span><span class="card-score" style="font-size:.85rem">${escapeHTML(a.type)}</span></span>
         <span class="card-name">${escapeHTML(a.name)}</span>
         <span class="card-foot">${escapeHTML(a.city)}</span>
+        ${a.overnightStatus==="prohibited" ? `<p><strong>Attention : nuitée non autorisée sur ce lieu.</strong> ${escapeHTML(a.overnightReason||"Point de services ou stationnement réservé à la journée.")} Consultez la source officielle avant tout déplacement.</p>` : ""}
         ${a.overnightStatus==="not_established" ? (/pique-nique/i.test(String(a.type||"")) ? `<p><strong>Attention : aire de pique-nique seulement.</strong> Nuitée camping-car non confirmée. Vérifier auprès de la mairie avant de s'y installer pour la nuit.</p>` : `<p><strong>Attention : nuitée camping-car non confirmée.</strong> Le lieu est signalé pour l'arrêt ou le stationnement, mais l'autorisation de nuitée n'a pas été établie. Vérifier la réglementation locale auprès de la mairie.</p>`) : ""}
         ${a.department==="44"&&a.sharedSiteWithSourceId ? `<p><strong>Site partagé :</strong> ce point se rapporte à un ensemble également décrit sur une autre fiche. Ne pas additionner automatiquement les capacités de stationnement.</p>` : ""}
         ${a.department==="44"&&a.potentialDuplicateOfSourceId ? `<p><strong>Doublon possible :</strong> ce point peut correspondre à un autre lieu déjà recensé.</p>` : ""}
@@ -632,6 +634,11 @@ async function initAires(){
           link.target="_blank";link.rel="noopener noreferrer";link.textContent="Voir sur OpenStreetMap";
           const popup=document.createElement("div");
            popup.append(title,place);
+           if(a.overnightStatus==="prohibited"){
+             const warning=document.createElement("p");
+             warning.textContent="Nuitée non autorisée ici : "+String(a.overnightReason||"aire technique ou stationnement réservé au jour");
+             popup.append(warning);
+           }
            if(a.overnightStatus==="not_established"){
              const warning=document.createElement("p");
              warning.textContent=/pique-nique/i.test(String(a.type||"")) ? "Aire de pique-nique : stationnement nocturne des camping-cars non confirmé." : "Point de halte ou stationnement : autorisation de nuitée camping-car non vérifiée auprès de la mairie.";

@@ -508,3 +508,17 @@ Références :
 Sources opérateurs :
 https://les-mouettes-camping.com/
 https://www.capfun.com/camping---l_eve-FR.html
+
+## Lot complémentaire 25 — 20 octobre 2026
+
+**Sécurité de l'information : cinq points techniques/diurnes déjà connus étaient détaillés dans le texte, mais non exclus par le filtre de préparation des nuitées.** Ce contrôle est distinct de la recherche des 11 prix encore non confirmés, qu'il ne modifie pas.
+
+- **Saint-Lyphard, aire centre-ville** (`ACCAMEAIREDESAINTLYPHARD`) : parking de jour gratuit 8–20 h, dix places, stationnement nocturne non autorisé explicitement par Pays de la Loire Tourisme. https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-et-de-stationnement-du-centre-ville
+- **Nort-sur-Erdre, quai Saint-Georges** (`ACCAMPDL044V50Y4UO`) : stationnement interdit de 20 h à 6 h selon Loire-Atlantique Tourisme. https://rando.loire-atlantique.fr/service/183919-AIRE-DE-STATIONNEMENT
+- **Mesquer, Kerlagadec** (`ACCAMECCMESQUER`) : remplissage/vidange par CB sans contact mais stationnement interdit selon la Région. https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec
+- **Clisson, devant le camping du Moulin** (`ACCAMPDL044V501OIH`) : service vidange et eau, sans stationnement autorisé devant la borne ; les nuitées relèvent de la capacité intérieure du camping. https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson
+- **Saint-Viaud, rue de la Gare** (`ACCAMACCAMEBORNESERVICESCCPARKSTVIAUD`) : borne CAMPING-CAR PARK de services uniquement (6 €), aucun séjour permis sur la borne ; aire de stationnement distincte à la base de loisirs. https://rando.loire-atlantique.fr/service/186399-BORNE-DE-SERVICES-CAMPING-CAR-PARK
+
+Pour ces cinq fiches, ajout de `overnightStatus="prohibited"`, `overnightReason`, `overnightEvidenceUrl` et `overnightCheckedAt`, sans changement des tarifs ni des emprises GPS. Le libellé précise « Nuitée non autorisée ici » dans la liste et sur la carte. Le filtre est renommé « Masquer les lieux à nuitée interdite ou non établie » et **masque désormais 15 fiches en Loire-Atlantique** : 10 qui n'avaient pas d'autorisation de nuitée prouvée, plus cinq dont la restriction est claire. **Il reste 150 fiches avec filtre, et 165 sans filtre.** Le filtrage ne garantit pas pour autant l'autorisation de nuitée de tous les autres points.
+
+La distinction est importante : ces cinq lieux doivent rester trouvables pour la vidange et/ou le stationnement de jour ; il serait incorrect de les supprimer du répertoire. **11 tarifs strictement inconnus parmi les fiches visibles**, inchangés. Les sources publiques consultées pour les campings Les Mouettes / Les Chênes Verts ne fournissent pas un barème de nuitée 2026 univoque.

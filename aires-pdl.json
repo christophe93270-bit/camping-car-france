@@ -368,11 +368,15 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ. Lot 25 20/10/2026 : règle documentée de nuitée interdite ou d'aire technique uniquement, l'absence de label dans les données précédentes conduisait à l'affichage sans avertissement dédié. Preuve : https://rando.loire-atlantique.fr/service/186399-BORNE-DE-SERVICES-CAMPING-CAR-PARK ; conserver la fiche pour services/arrêt autorisés mais l'exclure du filtre « nuitée interdite/non établie ».",
     "sourceId": "ACCAMACCAMEBORNESERVICESCCPARKSTVIAUD",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/186399-BORNE-DE-SERVICES-CAMPING-CAR-PARK",
     "priceSource": "https://rando.loire-atlantique.fr/service/186399-BORNE-DE-SERVICES-CAMPING-CAR-PARK",
-    "servicesSource": "https://rando.loire-atlantique.fr/service/186399-BORNE-DE-SERVICES-CAMPING-CAR-PARK"
+    "servicesSource": "https://rando.loire-atlantique.fr/service/186399-BORNE-DE-SERVICES-CAMPING-CAR-PARK",
+    "overnightStatus": "prohibited",
+    "overnightReason": "Borne CAMPING-CAR PARK à la rue de la Gare : services techniques uniquement, aucun séjour autorisé. L'aire de stationnement de la base de loisirs est distincte.",
+    "overnightEvidenceUrl": "https://rando.loire-atlantique.fr/service/186399-BORNE-DE-SERVICES-CAMPING-CAR-PARK",
+    "overnightCheckedAt": "2026-10-20"
   },
   {
     "department": "44",
@@ -2678,11 +2682,15 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Vérifié le 19 octobre 2026 avec la fiche de tourisme, la mairie ou l'exploitant mentionné ; distinction explicite entre nuitées, stationnement de jour et borne technique. Tarifs non confirmés conservés comme tels.",
+    "importReview": "Vérifié le 19 octobre 2026 avec la fiche de tourisme, la mairie ou l'exploitant mentionné ; distinction explicite entre nuitées, stationnement de jour et borne technique. Tarifs non confirmés conservés comme tels. Lot 25 20/10/2026 : règle documentée de nuitée interdite ou d'aire technique uniquement, l'absence de label dans les données précédentes conduisait à l'affichage sans avertissement dédié. Preuve : https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-et-de-stationnement-du-centre-ville ; conserver la fiche pour services/arrêt autorisés mais l'exclure du filtre « nuitée interdite/non établie ».",
     "sourceId": "ACCAMEAIREDESAINTLYPHARD",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville",
     "priceSource": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville",
-    "servicesSource": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville"
+    "servicesSource": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville",
+    "overnightStatus": "prohibited",
+    "overnightReason": "Stationnement municipal de jour gratuit de 8 h à 20 h ; stationnement de nuit expressément non autorisé.",
+    "overnightEvidenceUrl": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-et-de-stationnement-du-centre-ville",
+    "overnightCheckedAt": "2026-10-20"
   },
   {
     "department": "44",
@@ -3324,11 +3332,15 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle avec mairie, office de tourisme ou source spécialisée datée de 2026 le 19 octobre 2026 ; distinguer tarifs de nuitée, bornes de service et informations discordantes. Source régionale originale conservée.",
+    "importReview": "Contrôle avec mairie, office de tourisme ou source spécialisée datée de 2026 le 19 octobre 2026 ; distinguer tarifs de nuitée, bornes de service et informations discordantes. Source régionale originale conservée. Lot 25 20/10/2026 : règle documentée de nuitée interdite ou d'aire technique uniquement, l'absence de label dans les données précédentes conduisait à l'affichage sans avertissement dédié. Preuve : https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson ; conserver la fiche pour services/arrêt autorisés mais l'exclure du filtre « nuitée interdite/non établie ».",
     "sourceId": "ACCAMPDL044V501OIH",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
     "servicesSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
-    "priceSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson"
+    "priceSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
+    "overnightStatus": "prohibited",
+    "overnightReason": "Borne technique située devant le camping du Moulin : stationnement de camping-car expressément interdit devant le camping. Les nuitées relèvent du camping lui-même, avec tarification distincte.",
+    "overnightEvidenceUrl": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
+    "overnightCheckedAt": "2026-10-20"
   },
   {
     "department": "53",
@@ -4048,11 +4060,15 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle du 19 octobre 2026 auprès de Loire-Atlantique Tourisme : gratuité, services, capacité et restrictions de nuitée distingués ; montants non publiés explicitement signalés. Les coordonnées et l'identifiant régionaux d'origine sont conservés.",
+    "importReview": "Contrôle du 19 octobre 2026 auprès de Loire-Atlantique Tourisme : gratuité, services, capacité et restrictions de nuitée distingués ; montants non publiés explicitement signalés. Les coordonnées et l'identifiant régionaux d'origine sont conservés. Lot 25 20/10/2026 : règle documentée de nuitée interdite ou d'aire technique uniquement, l'absence de label dans les données précédentes conduisait à l'affichage sans avertissement dédié. Preuve : https://rando.loire-atlantique.fr/service/183919-AIRE-DE-STATIONNEMENT ; conserver la fiche pour services/arrêt autorisés mais l'exclure du filtre « nuitée interdite/non établie ».",
     "sourceId": "ACCAMPDL044V50Y4UO",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/183919-AIRE-DE-STATIONNEMENT",
     "priceSource": "https://rando.loire-atlantique.fr/service/183919-AIRE-DE-STATIONNEMENT",
-    "servicesSource": "https://rando.loire-atlantique.fr/service/183919-AIRE-DE-STATIONNEMENT"
+    "servicesSource": "https://rando.loire-atlantique.fr/service/183919-AIRE-DE-STATIONNEMENT",
+    "overnightStatus": "prohibited",
+    "overnightReason": "Parking de jour : stationnement explicitement interdit de 20 h à 6 h. Pour dormir, utiliser un camping/aire autorisée distincte.",
+    "overnightEvidenceUrl": "https://rando.loire-atlantique.fr/service/183919-AIRE-DE-STATIONNEMENT",
+    "overnightCheckedAt": "2026-10-20"
   },
   {
     "department": "44",
@@ -4097,11 +4113,15 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle octobre 2026 : l'intitulé de classification e-SPRIT « aire de stationnement » est contredit par sa propre description indiquant expressément stationnement interdit. Corrigé selon la page touristique régionale.",
+    "importReview": "Contrôle octobre 2026 : l'intitulé de classification e-SPRIT « aire de stationnement » est contredit par sa propre description indiquant expressément stationnement interdit. Corrigé selon la page touristique régionale. Lot 25 20/10/2026 : règle documentée de nuitée interdite ou d'aire technique uniquement, l'absence de label dans les données précédentes conduisait à l'affichage sans avertissement dédié. Preuve : https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec ; conserver la fiche pour services/arrêt autorisés mais l'exclure du filtre « nuitée interdite/non établie ».",
     "sourceId": "ACCAMECCMESQUER",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec",
     "priceSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec",
-    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec"
+    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec",
+    "overnightStatus": "prohibited",
+    "overnightReason": "Stationnement explicitement interdit à la borne de Kerlagadec : eau et vidange uniquement. Pour les emplacements, consulter la Bôle de Merquel ou le parc de la Lande.",
+    "overnightEvidenceUrl": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec",
+    "overnightCheckedAt": "2026-10-20"
   },
   {
     "department": "44",
