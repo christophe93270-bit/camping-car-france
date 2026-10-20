@@ -79,7 +79,7 @@ jobs:
           expected_email_ids={"ACCAMPDL044V51I23X","ACCAMACCAMPDL044V50G1TE","ACCAMPDL044V5002ZN","ACCAMACCAMPDL044000049","ACCAMPDL044V50ZDO9","ACCAMEAIREDESTMOLF","node/11786823109","way/1317028497","ACCAMPDL044V50Y077","ACCAMACCAMPDL044000155","ACCAMACCAMPDL044000154"}
           assert expected_email_ids.issubset({str(x.get("sourceId")) for x in emails}), "44 : les 11 tarifs non confirmés doivent disposer d’un courriel public sourcé"
           unresolved_all=[x for x in visible_regional+visible_osm if x.get("price")=="Non confirmé"]
-          assert len(unresolved_all)==31 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 54 : 31 prix strictement non confirmés, avec courriels sourcés obligatoires"
+          assert len(unresolved_all)==30 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 56 : 30 prix strictement non confirmés et courriels sourcés obligatoires"
           ranch=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000049")
           assert ranch.get("price")=="Non confirmé" and "point de vidange camping-car" in " ".join(ranch.get("services",[])).lower() and ranch.get("drainageFacilitySource")=="https://www.yellohvillage.fr/camping/le_ranch/nos_services", "Le Ranch : service vérifié ou réserve manquante"
           contacts_incomplete=[str(x.get("sourceId")) for x in visible_regional+visible_osm if x.get("contactPhone") and (not str(x.get("contactSource","")).startswith("https://") or not x.get("contactRole") and x.get("priceCheckedAt"))]
@@ -324,7 +324,7 @@ jobs:
           pal=next(x for x in lot51 if x["sourceId"]=="CCF44-BATZ-PALUDIERS-2026")
           eden=next(x for x in lot51 if x["sourceId"]=="CCF44-LA-BAULE-EDEN-2026")
           rose=next(x for x in lot51 if x["sourceId"]=="CCF44-LA-BAULE-ROSERAIE-2026")
-          assert pal["price"]=="Non confirmé" and pal["capacityCampingCarTourism"]==53 and "19–37" in pal.get("indicativeRate","") and "01/11/2026" in pal["seasonalDates2026"], "44 lot 51 : Les Paludiers, tarif 2026 générique non certifié camping-car"
+          assert pal.get("priceYear")==2026 and pal["capacityCampingCarTourism"]==53 and "19 €" in pal.get("price","") and "37 €" in pal.get("price","") and pal.get("priceOperatorCorroboration")=="https://www.camping-paludiers.com/votre-recherche-de-sejour/" and "01/11/2026" in pal["seasonalDates2026"], "44 lot 56 : Les Paludiers, fourchette 2026/accueil camping-car non recoupés"
           assert eden["priceYear"]==2026 and eden["capacityBarePitchesOperator"]==40 and all(v in eden["price"] for v in ["20 €","30 €","34 €","38 €","4,50","0,66 €","25 €"]) and eden.get("priceSource","").startswith("https://www.campingeden.com/"), "44 lot 51 : grille officielle L'Eden incorrecte"
           assert rose["price"]=="Non confirmé" and "28 €" in rose.get("indicativeRate","") and "04/04/2026" in rose.get("seasonalDates2026","") and "03/04/2026" in rose.get("seasonalDates2026",""), "44 lot 51 : La Roseraie prix non officiel ou saisons non documentés"
           assert all("camping" in x.get("type","").lower() and 46 < x.get("latitude",0) < 49 and -3 < x.get("longitude",0) < -1 for x in lot51), "44 lot 51 : département, GPS ou nature du lieu incohérents"
@@ -357,7 +357,15 @@ jobs:
           assert len([x for x in visible_regional if "troischenes" in norm(x.get("name"))])==0, "Lot 53 : Les Trois Chênes non validé pour les camping-cars en 2026, ne pas ajouter"
           
           # Pause des ajouts de campings (lot 54) : ne pas accumuler de nouveaux tarifs inconnus.
-          assert len(unresolved_all)<=31, "44 : garde-fou tarifaire, augmentation du nombre de prix Non confirmé interdite tant que le rattrapage n'est pas achevé"
+          assert len(unresolved_all)<=30, "44 : garde-fou tarifaire, hausse du nombre de prix Non confirmé interdite pendant le rattrapage tarifaire"
+          # Lot 56 : tarif camping-car 2026 Paludiers recoupé et nuitée du camping La Guichardière distinguée du service de vidange.
+          pal56=next(x for x in visible_regional if x.get("sourceId")=="CCF44-BATZ-PALUDIERS-2026")
+          assert pal56["price"]!="Non confirmé" and pal56.get("priceYear")==2026 and pal56.get("priceSource")=="https://www.ot-batzsurmer.fr/camping-flower-camping-les-paludiers.html" and pal56.get("priceOperatorCorroboration")=="https://www.camping-paludiers.com/votre-recherche-de-sejour/", "Lot 56 : tarif Paludiers manquant ou deux sources non recoupées"
+          assert all(part in pal56.get("price","") for part in ("19 €","37 €","électricité 10 A","camping-car","taxe de séjour")), "Lot 56 : réserve fourchette ou prestation Paludiers absente"
+          gui56=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000047")
+          assert "6 €" in gui56.get("price","") and gui56.get("publishedTariff2026Source")=="https://www.pornic.com/flower-camping-la-guichardiere.html" and all(k in gui56.get("publishedTariff2026Note","") for k in ("24 à 59 €","0,66 €","camping-cars")), "Lot 56 : borne 6 € confondue avec nuitée camping 2026"
+          assert len([x for x in visible_regional if x.get("sourceId") in {"ACCAMACCAMPDL044V507FD5","ACCAMACCAMPDL044000047"}])==1, "Lot 56 : la Guichardière est un seul ensemble, ne pas dupliquer"
+
           # Lot 55 : approfondissement des contrats/prix 2026, sans transformer des tarifs partiels en forfait camping-car confirmé.
           bleu55=next(x for x in visible_regional if x.get("sourceId")=="CCF44-PORNIC-LES-BLEUETS-2026")
           assert bleu55.get("price")=="Non confirmé" and bleu55.get("publishedTariff2026Source")=="https://www.campinglesbleuets.com/uploads/pdf/FR/tarifs.pdf", "Les Bleuets : prix camping-car doit rester à confirmer, PDF 2026 absent"
@@ -455,6 +463,7 @@ jobs:
               "- Lot 53 : deux campings Pornichet (Bugeau et GCU Sainte-Marguerite) ajoutés ; Bel Air enrichi sans doublon ; GCU adhésion requise et prix d’appel non garanti ; 215/187, 32 prix strictement Non confirmé.",
               "- Lot 54 (tarifs seuls, aucun ajout) : La Falaise La Turballe : grille officielle PDF 2026 camping-car 2 personnes 30,50/45,90/51,90 € standard et 32/48,90/56,90 € vue mer avec eau/électricité 10 A, taxe de séjour 2026 à confirmer. Total stable 215/187, 31 prix strictement Non confirmé. Garde-fou CI contre nouvelle hausse.",
               "- Lot 55 (tarifs uniquement) : 2026 Bleuets grille 20/22/30/36/26 € tente ou caravane et taxe 0,22 € vérifiées, camping-car non nommé donc reste Non confirmé ; Leveno et Clos Mer Nature frais annexes contrats 2026 vérifiés ; Les Forges dates officielles 04/07–30/08 en conflit avec office 04/04–20/09. 215/187, 31 prix strictement Non confirmé.",
+              "- Lot 56 (tarifs uniquement) : Les Paludiers Batz 19–37 € fourchette de camping 2026 institutionnelle recoupée avec formule Confort camping-car exploitant ; La Guichardière nuitée camping 24–59 € électricité incluse distinguée de la borne 6 €. 215/187, 30 prix strictement Non confirmé.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",

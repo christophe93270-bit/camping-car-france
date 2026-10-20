@@ -161,3 +161,11 @@ Le camping Le Briord est déjà présent et a seulement bénéficié d'un enrich
 | Les Forges, Pornichet | [Site de l'exploitant](https://campinglesforges.com/152-services/143-les-services-du-camping.html) : 04/07–30/08/2026 contre 04/04–20/09 dans l'office | Par `camping@campinglesforges.com` : quelles dates camping-car effectivement ouvertes en 2026 ? Barème deux personnes et suppléments ? |
 
 **31 tarifs strictement inconnus après lot 55.** Aucune demande envoyée. Prochaines démarches : demandes groupées aux exploitants, réponses à l'appui avant toute reclassification.
+
+## Lot tarifaire 56 — 20 octobre 2026
+
+- **Les Paludiers, Batz-sur-Mer** : fourchette institutionnelle de nuitée camping 2026 **19–37 €** électricité incluse, [source OT](https://www.ot-batzsurmer.fr/camping-flower-camping-les-paludiers.html) et [formule Confort 2 pers. camping-car exploitant](https://www.camping-paludiers.com/votre-recherche-de-sejour/). Demande de **grille pour chaque date, taxes et services isolés** toujours utile, mais la mention stricte `Non confirmé` a été remplacée par la fourchette recoupée. Aucun message envoyé.
+- **La Guichardière, La Plaine-sur-Mer** : fiche canonique, tarifs de **nuitée en camping 2026** documentés à **24–59 €/2 personnes** avec électricité et taxe de séjour **0,66 €/adulte/nuit**, [Destination Pornic](https://www.pornic.com/flower-camping-la-guichardiere.html) ; **borne 6 €** reste un service distinct. Pas de nouvelle fiche créée, ni de contact envoyé.
+- **Deux faux positifs tarifaires évités** : `campinglafontaine.fr` à Saint-Cast-le-Guildo (22) ≠ camping-lafontaine.com Guérande (44) ; `camping-lepetitbois.fr` Saint-Jean-de-Monts (85) ≠ Petit Bois Mesquer (44).
+
+**30 dossiers restant strictement `Non confirmé` selon l'audit de visibilité.** Aucun courriel envoyé aux exploitants.
