@@ -251,7 +251,7 @@ jobs:
           etang=next(x for x in lot45 if x["sourceId"]=="CCF44-GUERANDE-ETANG-PAYS-BLANC-2026")
           assert herm.get("capacityBarePitches2026Homepage")==44 and herm.get("capacityBarePitchesDetailPage")==45 and "23 rue" in herm.get("status","") and "25 rue" in herm.get("status",""), "Hermitage : contradictions adresse ou nombre d'emplacements non tracées"
           assert herm.get("priceYear")==2026 and herm.get("priceConditions2026",{}).get("ratePerNightEUR")==19 and herm.get("priceType")=="tarif_camping_car_conditionnel_campingcard_acsi_basse_saison", "Hermitage lot 57 : tarif spécial ACSI 2026 non confirmé, pas prix général"
-          assert "25 €" in lev.get("indicativeRate","") and "hors juillet-août" in lev.get("indicativeRate","") and lev.get("price")=="Non confirmé", "Léveno : prix adhérent non certifié ne doit pas devenir un tarif de nuitée 2026"
+          assert lev.get("priceYear")==2026 and lev.get("priceACSI2026",{}).get("ratePerNightEUR")==25 and lev.get("priceACSI2026",{}).get("requiredCard") is True and lev.get("priceACSI2026",{}).get("ordinaryPriceConfirmed") is False and lev.get("priceType")=="tarif_2026_conditionnel_campingcard_acsi_basse_saison", "Léveno : 25 € ACSI 2026 uniquement avec carte, prix normal non confirmé"
           assert etang.get("capacityBarePitchesTourism")==24 and "2027" in etang.get("status","") and etang.get("price")=="Non confirmé", "Étang Pays Blanc : saison actualisée ou prix indisponible mal traité"
 
           # Lot 46 : quatre campings distincts, 2 tarifs strictement non confirmés et 2 repères de prix non contractualisés.
