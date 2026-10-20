@@ -1708,18 +1708,22 @@
       "Stationnement de nuit et services camping-car non vérifiés"
     ],
     "price": "Tarif de nuitée sans objet : aire de pique-nique, accueil nocturne camping-car non établi",
-    "status": "L'office de tourisme référence aussi une aire de stationnement camping-car à La Digue dans la même commune, mais ce lieu de pique-nique générique n'est pas identifié comme l'aire de La Digue. Le point GPS provient des données régionales. Ne pas déduire du nom ni de la proximité d'une aire distincte que les camping-cars peuvent y stationner pour la nuit ; réglementation et tarifs de nuitée non documentés.",
+    "status": "L'office de tourisme référence aussi une aire de stationnement camping-car à La Digue dans la même commune, mais ce lieu de pique-nique générique n'est pas identifié comme l'aire de La Digue. Le point GPS provient des données régionales. Ne pas déduire du nom ni de la proximité d'une aire distincte que les camping-cars peuvent y stationner pour la nuit ; réglementation et tarifs de nuitée non documentés. Contrôle cartographique 20/10/2026 : fiche e-SPRIT de l'aire de pique-nique rue des Chênes aux mêmes coordonnées 47.6321, -2.0523. Bien distinguer de l'aire de stationnement de La Digue ; droit de nuitée non établi.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.6321,
     "longitude": -2.0523,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Tarif de nuitée non applicable sans accueil confirmé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car. Lot 17 du 20/10/2026 : catégorie « pause/pique-nique », et non tarif manquant d'une aire de nuitée. Statut prix séparé ; stationnement de nuit toujours non vérifié, GPS régional indicatif. Ne pas en conclure une gratuité du parking.",
+    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Tarif de nuitée non applicable sans accueil confirmé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car. Lot 17 du 20/10/2026 : catégorie « pause/pique-nique », et non tarif manquant d'une aire de nuitée. Statut prix séparé ; stationnement de nuit toujours non vérifié, GPS régional indicatif. Ne pas en conclure une gratuité du parking. Lot 31 : coordonnées et rue des Chênes recoupées à l'identique via https://www.cirkwi.com/fr/point-interet/3849227-aire-de-pique-nique ; nuitée non établie maintenue.",
     "sourceId": "ACCAMPDL044V51HCGD",
     "priceStatus": "not_applicable_for_night_stay",
     "sourceOfficial": "https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/",
-    "overnightStatus": "not_established"
+    "overnightStatus": "not_established",
+    "gpsIndependentEvidenceUrl": "https://www.cirkwi.com/fr/point-interet/3849227-aire-de-pique-nique",
+    "gpsSourceType": "regional_coordinates_recoupees_e-SPRIT_2026",
+    "gpsVerificationDate": "2026-10-20",
+    "gpsEvidenceNote": "Aire de pique-nique rue des Chênes : coordonnées 47.6321, -2.0523 publiées à l'identique par la fiche e-SPRIT consultée le 20/10/2026. Ce n'est pas l'aire de camping-car de La Digue, et aucune nuitée camping-car n'est attestée ici."
   },
   {
     "department": "44",
@@ -2863,18 +2867,36 @@
       "Eau, vidange, électricité et nuitée non confirmées"
     ],
     "price": "Tarif de nuitée sans objet : aire de pique-nique, accueil nocturne camping-car non établi",
-    "status": "Lieu classé « aire de pique-nique » dans les données touristiques, sans preuve d'emplacements de camping-car ni d'autorisation de nuitée. Une fiche touristique indique le lieu-dit La Chapulais, à Pierric. L'office de tourisme référence un espace de pause dans cette commune, mais l'identité exacte avec le point GPS régional n'est pas démontrée. Ne pas annoncer de stationnement nocturne, de vidange ou de tarif camping-car.",
+    "status": "Lieu classé « aire de pique-nique » dans les données touristiques, sans preuve d'emplacements de camping-car ni d'autorisation de nuitée. Une fiche touristique indique le lieu-dit La Chapulais, à Pierric. L'office de tourisme référence un espace de pause dans cette commune, mais l'identité exacte avec le point GPS régional n'est pas démontrée. Ne pas annoncer de stationnement nocturne, de vidange ou de tarif camping-car. Contrôle du 20/10/2026 : e-SPRIT recense deux autres points de pique-nique à Pierric (rue de Derval et un autre lieu), à plusieurs kilomètres de La Chapulais. Leur GPS ne doit pas être copié sur cette fiche et aucun stationnement nocturne n'est démontré.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.70237,
     "longitude": -1.83513,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Pierric). Identité exacte avec le GPS régional et accueil camping-car non établis. Tarif de nuitée non applicable sans accueil confirmé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car. Lot 17 du 20/10/2026 : catégorie « pause/pique-nique », et non tarif manquant d'une aire de nuitée. Statut prix séparé ; stationnement de nuit toujours non vérifié, GPS régional indicatif. Ne pas en conclure une gratuité du parking.",
+    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Pierric). Identité exacte avec le GPS régional et accueil camping-car non établis. Tarif de nuitée non applicable sans accueil confirmé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car. Lot 17 du 20/10/2026 : catégorie « pause/pique-nique », et non tarif manquant d'une aire de nuitée. Statut prix séparé ; stationnement de nuit toujours non vérifié, GPS régional indicatif. Ne pas en conclure une gratuité du parking. Lot 31 : identification de deux alternatives distinctes https://www.cirkwi.com/fr/point-interet/3849220-aire-de-pique-nique et https://www.cirkwi.com/fr/point-interet/3849219-aire-de-pique-nique ; GPS du lieu-dit La Chapulais inchangé faute de preuve contradictoire primaire.",
     "sourceId": "ACCAMPDL044V51HCG7",
     "priceStatus": "not_applicable_for_night_stay",
     "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/",
-    "overnightStatus": "not_established"
+    "overnightStatus": "not_established",
+    "gpsVerificationDate": "2026-10-20",
+    "gpsAlternativeSites": [
+      {
+        "source": "https://www.cirkwi.com/fr/point-interet/3849220-aire-de-pique-nique",
+        "latitude": 47.68707,
+        "longitude": -1.73423,
+        "address": "Rue de Derval",
+        "distanceMetres": 7741
+      },
+      {
+        "source": "https://www.cirkwi.com/fr/point-interet/3849219-aire-de-pique-nique",
+        "latitude": 47.68026,
+        "longitude": -1.73405,
+        "address": "Pierric, localisation distincte",
+        "distanceMetres": 7955
+      }
+    ],
+    "gpsEvidenceNote": "La source touristique situe cette aire au lieu-dit La Chapulais. Deux AUTRES aires de pique-nique e-SPRIT ont été identifiées en 2026 près du bourg de Pierric, à environ 7,7 et 8,0 km de ce GPS régional. Ce sont des fiches distinctes : ne pas remplacer les coordonnées de La Chapulais par celles des autres aires sans concordance d'identité. Nuitée non établie."
   },
   {
     "department": "53",
@@ -3891,18 +3913,21 @@
       "Stationnement de nuit et services camping-car non vérifiés"
     ],
     "price": "Tarif de nuitée sans objet : aire de pique-nique, accueil nocturne camping-car non établi",
-    "status": "Le Pays de Redon décrit des lieux de pique-nique à Fégréac autour de la Carrière et de l'écluse du Bellion ; le lien GPS exact avec cette fiche n'est pas prouvé. Le point GPS provient des données régionales. Ne pas déduire du nom ni de la proximité d'une aire distincte que les camping-cars peuvent y stationner pour la nuit ; réglementation et tarifs de nuitée non documentés.",
+    "status": "Le Pays de Redon décrit des lieux de pique-nique à Fégréac autour de la Carrière et de l'écluse du Bellion ; le lien GPS exact avec cette fiche n'est pas prouvé. Le point GPS provient des données régionales. Ne pas déduire du nom ni de la proximité d'une aire distincte que les camping-cars peuvent y stationner pour la nuit ; réglementation et tarifs de nuitée non documentés. Contrôle 20/10/2026 : Loire-Atlantique Tourisme répertorie expressément l'aire de pique-nique Le Bellion, Fégréac. Ne pas confondre cette pause avec la borne de vidange du Mottais ou un terrain de camping ; localisation précise et droit de nuitée non établis par la source.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.59892,
     "longitude": -2.08918,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Tarif de nuitée non applicable sans accueil confirmé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car. Lot 17 du 20/10/2026 : catégorie « pause/pique-nique », et non tarif manquant d'une aire de nuitée. Statut prix séparé ; stationnement de nuit toujours non vérifié, GPS régional indicatif. Ne pas en conclure une gratuité du parking.",
+    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Tarif de nuitée non applicable sans accueil confirmé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car. Lot 17 du 20/10/2026 : catégorie « pause/pique-nique », et non tarif manquant d'une aire de nuitée. Statut prix séparé ; stationnement de nuit toujours non vérifié, GPS régional indicatif. Ne pas en conclure une gratuité du parking. Lot 31 : provenance locale Le Bellion confirmée par https://rando.loire-atlantique.fr/service/187459-Aire-de-pique-nique ; statut pique-nique et GPS régional conservés.",
     "sourceId": "ACCAMPDL044V51HCG2",
     "priceStatus": "not_applicable_for_night_stay",
-    "sourceOfficial": "https://tourisme-pays-redon.com/visite/la-carriere/",
-    "overnightStatus": "not_established"
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/187459-Aire-de-pique-nique",
+    "overnightStatus": "not_established",
+    "localityEvidenceUrl": "https://rando.loire-atlantique.fr/service/187459-Aire-de-pique-nique",
+    "gpsVerificationDate": "2026-10-20",
+    "gpsEvidenceNote": "Le lieu-dit Le Bellion est confirmé par le répertoire de Loire-Atlantique Tourisme pour cette aire de pique-nique. Les coordonnées de la base régionale restent indicatives : la fiche source ne garantit pas ici l'emplacement précis du stationnement. La borne de services du Mottais est un site distinct ; nuitée non établie."
   },
   {
     "department": "53",
@@ -5100,18 +5125,23 @@
       "Stationnement de nuit et services camping-car non vérifiés"
     ],
     "price": "Tarif de nuitée sans objet : aire de pique-nique, accueil nocturne camping-car non établi",
-    "status": "Le Pays de Redon met en avant le site des Potinières, espace de pique-nique au bord du Don ; localisation exacte de la fiche régionale non recoupée. Le point GPS provient des données régionales. Ne pas déduire du nom ni de la proximité d'une aire distincte que les camping-cars peuvent y stationner pour la nuit ; réglementation et tarifs de nuitée non documentés.",
+    "status": "Le Pays de Redon met en avant le site des Potinières, espace de pique-nique au bord du Don ; localisation exacte de la fiche régionale non recoupée. Le point GPS provient des données régionales. Ne pas déduire du nom ni de la proximité d'une aire distincte que les camping-cars peuvent y stationner pour la nuit ; réglementation et tarifs de nuitée non documentés. Alerte GPS du 20/10/2026 : la coordonnée régionale correspond également à un repère administratif générique du centre de Conquereuil. Un point e-SPRIT « Akwa Nature » rue des Potinières est à environ 480 m mais n'identifie pas nécessairement l'aire de pique-nique. Cette fiche reste géographiquement indicative, sans nuitée attestée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.6247929,
     "longitude": -1.750375,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Tarif de nuitée non applicable sans accueil confirmé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car. Lot 17 du 20/10/2026 : catégorie « pause/pique-nique », et non tarif manquant d'une aire de nuitée. Statut prix séparé ; stationnement de nuit toujours non vérifié, GPS régional indicatif. Ne pas en conclure une gratuité du parking.",
+    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Tarif de nuitée non applicable sans accueil confirmé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car. Lot 17 du 20/10/2026 : catégorie « pause/pique-nique », et non tarif manquant d'une aire de nuitée. Statut prix séparé ; stationnement de nuit toujours non vérifié, GPS régional indicatif. Ne pas en conclure une gratuité du parking. Lot 31 : suspicion de coordonnées génériques https://demarchesadministratives.fr/bureau-de-vote/conquereuil-44290 ; lieu des Potinières distinct https://www.cirkwi.com/fr/point-interet/1369604-akwa-nature-canoe-kayak ; aucun repositionnement arbitraire.",
     "sourceId": "ACCAMPDL044V51HCG0",
     "priceStatus": "not_applicable_for_night_stay",
     "sourceOfficial": "https://tourisme-pays-redon.com/experiences/idees-descapades/pique-niquer-redon/",
-    "overnightStatus": "not_established"
+    "overnightStatus": "not_established",
+    "gpsVerificationDate": "2026-10-20",
+    "gpsLocationPrecision": "localisation_a_confirmer",
+    "gpsReferenceWarningSource": "https://demarchesadministratives.fr/bureau-de-vote/conquereuil-44290",
+    "nearbyLandmarkSource": "https://www.cirkwi.com/fr/point-interet/1369604-akwa-nature-canoe-kayak",
+    "gpsEvidenceNote": "Localisation précise à revoir : le GPS 47.6247929, -1.750375 sert aussi dans un annuaire générique à localiser la mairie/le bureau de vote de Conquereuil. Le site récréatif documenté rue des Potinières est à environ 480 m, mais aucune source ne prouve que cette activité soit exactement la présente aire de pique-nique. Ne pas déplacer automatiquement le repère ni autoriser la nuitée."
   },
   {
     "department": "49",

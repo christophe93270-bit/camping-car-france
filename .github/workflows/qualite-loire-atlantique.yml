@@ -120,6 +120,12 @@ jobs:
           assert abs(float(plesse_picnic.get("latitude"))-47.54056)<0.000001 and abs(float(plesse_picnic.get("longitude"))+1.88645)<0.000001 and plesse_picnic.get("gpsPreviousRegional")=={"latitude":47.55694,"longitude":-1.83597}, "Plessé : correction GPS e-SPRIT ou historique manquants"
           assert plesse_picnic.get("nearbyOsmSourceId")==plesse_osm.get("sourceId") and 50<plesse_picnic.get("nearbyOsmDistanceM",0)<350 and plesse_picnic.get("overnightStatus")=="not_established", "Plessé : OSM voisin sans autorisation nocturne, ne pas fusionner"
           assert avessac_picnic.get("gpsIndependentEvidenceUrl")=="https://www.cirkwi.com/fr/point-interet/3849213-aire-de-pique-nique" and avessac_picnic.get("overnightStatus")=="not_established", "Avessac : coordonnées e-SPRIT / réserve nuitée manquantes"
+          picnic_31={x.get("sourceId"):x for x in visible_regional if str(x.get("sourceId")) in {"ACCAMPDL044V51HCGD","ACCAMPDL044V51HCG2","ACCAMPDL044V51HCG7","ACCAMPDL044V51HCG0"}}
+          assert len(picnic_31)==4 and all(x.get("overnightStatus")=="not_established" and x.get("priceStatus")=="not_applicable_for_night_stay" for x in picnic_31.values()), "44 lot 31 : 4 pique-niques non établis manquants"
+          assert picnic_31["ACCAMPDL044V51HCGD"].get("gpsIndependentEvidenceUrl")=="https://www.cirkwi.com/fr/point-interet/3849227-aire-de-pique-nique", "Saint-Nicolas : GPS e-SPRIT absent"
+          assert picnic_31["ACCAMPDL044V51HCG2"].get("sourceOfficial")=="https://rando.loire-atlantique.fr/service/187459-Aire-de-pique-nique", "Fégréac : preuve Le Bellion manquante"
+          assert len(picnic_31["ACCAMPDL044V51HCG7"].get("gpsAlternativeSites",[]))==2 and abs(float(picnic_31["ACCAMPDL044V51HCG7"]["latitude"])-47.70237)<0.000001, "Pierric : confusion GPS des trois aires"
+          assert picnic_31["ACCAMPDL044V51HCG0"].get("gpsLocationPrecision")=="localisation_a_confirmer" and abs(float(picnic_31["ACCAMPDL044V51HCG0"]["latitude"])-47.6247929)<0.000001, "Conquereuil : GPS douteux déplacé sans preuve"
           piardiere=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V51HCFX")
           assert piardiere.get("contactPhone") and "commune-de-plesse.com" in piardiere.get("sourceOfficial",""), "44 : source communale La Piardière manquante"
           corcoue_parking=next(x for x in visible_osm if x.get("sourceId")=="way/909611149")
@@ -203,6 +209,7 @@ jobs:
               "- Corcoué Grotte Saint-Jean : 2 repères cartographiques d'un seul site comportant 4 places, à ne pas additionner.",
               "- Beslé : 32 emplacements nus camping-car/tente/caravane sur 40 au total ; pique-nique proche sans droit de nuitée attesté.",
               "- Plessé : GPS de l’aire de pique-nique place de l’Église rectifié depuis e-SPRIT juin 2026, point OSM à proximité non assimilé ; Avessac GPS recoupé indépendamment.",
+              "- Lot 31 : GPS confirmé à Saint-Nicolas-de-Redon ; lieu Le Bellion corroboré ; Pierric (3 aires distinctes) et Conquereuil (repère générique) signalés sans déplacement arbitraire.",
               "- Ces doublons potentiels ne sont pas fusionnés sans concordance suffisante des emprises.",
               f"- Coordonnées GPS invalides : **{bad_gps}**",
               f"- Fiches OSM avec une correspondance régionale à 350 m ou moins : **{len(candidates)}**",

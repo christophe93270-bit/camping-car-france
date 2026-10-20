@@ -600,3 +600,23 @@ Sources :
 - https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/ (Plessé, place de l'Église)
 - https://www.openstreetmap.org/node/11786823109 (repère de parking camping-car distinct)
 - https://www.cirkwi.com/fr/point-interet/3849213-aire-de-pique-nique (Avessac, 18 mai 2026)
+
+## Lot complémentaire 31 — 20 octobre 2026
+
+**Contrôle groupé des aires de pique-nique sans modifier les positions ou les droits nocturnes sans preuve.**
+
+- **Saint-Nicolas-de-Redon** (`ACCAMPDL044V51HCGD`) : la fiche e-SPRIT/Cirkwi `3849227` confirme **47.6321, -2.0523**, **rue des Chênes**. Ce point de pique-nique est distinct du stationnement camping-car de **La Digue** ; nuitée toujours non établie.
+- **Fégréac, Le Bellion** (`ACCAMPDL044V51HCG2`) : Loire-Atlantique Tourisme identifie expressément une aire de pique-nique au **Bellion**. Le repère GPS régional reste indicatif ; le droit de passer la nuit et les services de camping-car ne sont pas confirmés. Ne pas confondre avec la borne de vidange du Mottais.
+- **Pierric, La Chapulais** (`ACCAMPDL044V51HCG7`) : deux **autres** aires de pique-nique e-SPRIT, dont une **rue de Derval**, apparaissent aux coordonnées `47.68707,-1.73423` et `47.68026,-1.73405` (environ **7,7 et 8 km** du GPS régional de La Chapulais). Il s'agit de sites potentiellement distincts, pas d'un motif suffisant de remplacer le GPS La Chapulais ou d'ajouter deux nouvelles « aires de nuitée ».
+- **Conquereuil** (`ACCAMPDL044V51HCG0`) : les coordonnées actuelles `47.6247929,-1.750375` apparaissent aussi comme position d'un repère administratif général de la commune. La fiche e-SPRIT d'une activité **rue des Potinières** se situe à environ **480 m**, mais ne désigne pas nécessairement le lieu de pique-nique recherché. Le GPS est marqué **localisation à confirmer**, sans correction arbitraire ni interdiction/nocturne inventée.
+- Champs de preuve GPS ajoutés et audit automatique étendu pour conserver les **quatre fiches**, les coordonnées régionales, les prix de nuitée « sans objet » et `overnightStatus=not_established`.
+- **Totaux attendus inchangés : 165 fiches, 150 après filtre nocturne, 11 tarifs strictement Non confirmé.**
+
+Sources :
+- https://www.cirkwi.com/fr/point-interet/3849227-aire-de-pique-nique
+- https://rando.loire-atlantique.fr/service/187459-Aire-de-pique-nique
+- https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/
+- https://www.cirkwi.com/fr/point-interet/3849220-aire-de-pique-nique
+- https://www.cirkwi.com/fr/point-interet/3849219-aire-de-pique-nique
+- https://www.cirkwi.com/fr/point-interet/1369604-akwa-nature-canoe-kayak
+- https://demarchesadministratives.fr/bureau-de-vote/conquereuil-44290 (indice secondaire ancien, non preuve d'un GPS de pique-nique)
