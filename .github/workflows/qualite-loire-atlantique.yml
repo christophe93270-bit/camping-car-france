@@ -275,7 +275,7 @@ jobs:
           falaise=next(x for x in lot47 if x["sourceId"]=="CCF44-TURBALLE-CAMPING-LA-FALAISE-2026")
           beaupre=next(x for x in lot47 if x["sourceId"]=="CCF44-MESQUER-CAMPING-BEAUPRE-2026")
           soir=next(x for x in lot47 if x["sourceId"]=="CCF44-MESQUER-CAMPING-AU-SOIR-ETE-2026")
-          assert falaise.get("price")=="Non confirmé" and falaise.get("capacityBarePitchesPublished")==65 and "Morbihan" in falaise.get("status",""), "La Falaise La Turballe : confusion avec camping homonyme Morbihan ou tarif non documenté"
+          assert falaise.get("priceYear")==2026 and falaise.get("capacityBarePitchesPublished")==65 and "Morbihan" in falaise.get("status","") and "30,50 €" in falaise.get("price",""), "La Falaise La Turballe : tarif 2026 certifié manquant ou confusion avec homonyme Morbihan"
           assert beaupre.get("price")=="Non confirmé" and beaupre.get("capacityBarePitchesPublished")==25 and beaupre.get("sourceOfficial")=="https://www.lebeaupre.com/fr/", "Le Beaupré : capacité ou absence de tarif 2026 non respectées"
           assert soir.get("price")!="Non confirmé" and "21 €" in soir.get("price","") and "126 €" in soir.get("indicative2026Offer","") and soir.get("priceYear") is None and "prix_appel" in soir.get("priceVerification","") and "dates exploitant" in soir.get("operationalWarning",""), "Au Soir d'Eté : prix d'appel, offre ponctuelle, année ou saison insuffisamment prudents"
 
