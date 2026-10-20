@@ -845,3 +845,23 @@ Sources :
 - https://camping-pauseloire.com/en/holiday-rentals-near-nantes/pitches-for-camping-and-caravanning-nantes/
 - https://www.camping-car.com/aires/230-pause-loire-belle-riviere/
 - https://www.labaule-guerande.com/offres/aire-de-camping-cars-le-veridet-piriac-sur-mer-fr-6046448/
+
+## Lot complémentaire 44 — 20 octobre 2026
+
+**Trois campings absents ajoutés après contrôle des identifiants, coordonnées, capacités et preuves de séjour. Les trois tarifs ne présentent pas le même degré de certitude.**
+
+- **Camping Les Chalands Fleuris — Saint-André-des-Eaux**, sourceId `CCF44-CHALANDS-FLEURIS-2026`, GPS `47.321051,-2.307439` directement annoncé par le camping. Source officielle La Baule-Guérande : **46 emplacements nus** permettant des séjours en camping-car, parmi 164 emplacements tous types, saison 03/04–20/09/2026. La page affiche **18–35 € sans électricité** ou **22–41 € avec électricité**, mais **ne date pas expressément le barème tarifaire de 2026** : confirmation exploitant nécessaire. Ce camping est fermé pour la saison au 20 octobre.
+- **Camping Les Prairies de l’Étang — Assérac**, sourceId `CCF44-PRAIRIES-ETANG-2026`, GPS e-SPRIT `47.42883,-2.39724`, 20 rue du Pont aux Pages : **38 emplacements nus** sur 142 emplacements au total. L’office de tourisme indique explicitement **35–52 €/nuit pour deux personnes, véhicule et électricité du 04/04 au 03/10/2026**. Camping privé distinct du parking municipal d’Assérac distant d’environ 480 m ; aucune fusion. Saison terminée.
+- **Camping Le Praderoi — Mesquer / Quimiac**, sourceId `CCF44-MESQUER-PRADEROI-2026`, GPS e-SPRIT `47.40506,-2.48923`, 14 allée des Barges : **25 emplacements nus** sur 32 tous types ; ouverture officielle 24/04–31/10/2026. Un annuaire spécialisé Campercontact présente **20,20 € en avril-juin et septembre ; 26,70 € en juillet-août**, base deux personnes et taxes annoncées incluses. Ce prix **n’est pas une grille officielle de l’exploitant**, ne certifie pas l’automne et diffère de l’adresse fournie par l’office ; l’adresse e-SPRIT est conservée. Nuitées à confirmer à la réservation.
+- Tarifs techniques de vidange hors séjour et accès des non-clients non présumés. Les 11 prix valant **exactement** `Non confirmé` dans les fiches visibles préexistantes sont inchangés ; les deux réserves supplémentaires ci-dessus ne doivent pas être comptabilisées comme des prix officiels confirmés.
+- **Compteurs attendus : 189 sans filtre, 161 avec filtre nocturne (28 masqués), 11 prix strictement égaux à `Non confirmé`.** Audit supplémentaire des trois fiches, contacts, GPS, années tarifaires et prudence de classification.
+
+Sources :
+- https://www.labaule-guerande.com/offres/camping-les-chalands-fleuris-saint-andre-des-eaux-fr-6100091/
+- https://www.leschalandsfleuris.com/mentions-legales.php
+- https://www.cirkwi.com/fr/point-interet/452885-camping-les-chalands-fleuris
+- https://www.labaule-guerande.com/offres/camping-les-prairies-de-letang-asserac-fr-6011392/
+- https://data.loire-atlantique.fr/explore/dataset/793866443_hotelleries-de-plein-air-camping-en-loire-atlantique/
+- https://www.labaule-guerande.com/offres/camping-le-praderoi-mesquer-fr-6011372/
+- https://www.cirkwi.com/fr/point-interet/453104-camping-le-praderoi
+- https://www.campercontact.com/fr/france/pays-de-la-loire/mesquer/115286/camping-le-praderoi

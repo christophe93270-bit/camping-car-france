@@ -169,7 +169,7 @@ jobs:
           assert all(x.get("priceYear")==2026 and x.get("priceEvidenceDocument","").endswith("2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf") and "18,95 €" in x.get("price","") and "20,70 €" in x.get("price","") and "27,30 €" in x.get("price","") and x.get("contactEmailSource","").startswith("https://") for x in municipal_sites), "44 : tarif 2026 ou contact municipal manquant"
           aire_pouliguen=next(x for x in visible_regional if x.get("sourceId")=="ACCAMECCLEPOULIGUEN")
           assert "4,40 €" in aire_pouliguen.get("price","") and "4,20 €" not in aire_pouliguen.get("price","") and aire_pouliguen.get("priceSource")==municipal_sites[0]["priceSource"], "44 : tarif 2026 borne du Pouliguen non rectifié"
-          assert len(regional)==179 and len(visible_regional)==177 and total_visible==186, "44 : total attendu 186 après ajout camping Pause Loire au lot 43"
+          assert len(regional)==182 and len(visible_regional)==180 and total_visible==189, "44 : total attendu 189 après trois campings du lot 44"
           pree=next(x for x in visible_regional if x.get("sourceId")=="HPAPDL044V507V64")
           eleo=next(x for x in visible_regional if x.get("sourceId")=="HPAPDL044000113")
           assert pree.get("priceYear")==2026 and pree.get("capacityBarePitchesPublished")==22 and pree.get("minimumNights2026")==2 and all(v in pree.get("price","") for v in ("16 €","20 €","25 €","32 €","4,90 €")) and pree.get("priceSource")=="https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements", "La Prée : prix millésimés et capacité manquants"
@@ -227,9 +227,22 @@ jobs:
           pause_loire=next(x for x in visible_regional if x.get("sourceId")=="CCF44-STE-LUCE-PAUSE-LOIRE-2026")
           assert pause_loire.get("priceYear")==2026 and all(a in pause_loire.get("price","") for a in ("20 €","23 €","26 €","+5 €","0,60 €","0,06 €")) and pause_loire.get("priceSource","").endswith("Tarifs-emplacements-2026-1.png"), "44 lot 43 : grille officielle Pause Loire 2026 ou taxes manquantes"
           assert pause_loire.get("contactPhone")=="02 40 25 85 81" and pause_loire.get("contactSource","").startswith("https://") and pause_loire.get("capacityMixedPitchesPublished")==110 and "ancien" in pause_loire.get("name","").lower() and "hors ouverture" in pause_loire.get("operationalWarning","").lower() and not pause_loire.get("overnightStatus"), "44 lot 43 : identification Belle Rivière, saison, accueil camping-car non sécurisés"
+
+          # Lot 44 : trois campings distincts et trois niveaux de fiabilité tarifaire explicités.
+          lot44_ids={"CCF44-CHALANDS-FLEURIS-2026","CCF44-PRAIRIES-ETANG-2026","CCF44-MESQUER-PRADEROI-2026"}
+          lot44=[x for x in visible_regional if x.get("sourceId") in lot44_ids]
+          assert len(lot44)==3, "44 lot 44 : trois campings introuvables"
+          assert all(x.get("priceCheckedAt")=="2026-10-20" and x.get("priceEvidenceDocument","").startswith("https://") and x.get("gpsSource","").startswith("https://") and x.get("contactSource","").startswith("https://") and x.get("contactEmailSource","").startswith("https://") and x.get("capacityBarePitchesPublished",0)>0 for x in lot44), "44 lot 44 : tarif, GPS, courriel ou capacités non documentés"
+          chalands=next(x for x in lot44 if x["sourceId"]=="CCF44-CHALANDS-FLEURIS-2026")
+          prairies=next(x for x in lot44 if x["sourceId"]=="CCF44-PRAIRIES-ETANG-2026")
+          praderoi=next(x for x in lot44 if x["sourceId"]=="CCF44-MESQUER-PRADEROI-2026")
+          assert "22 à 41 €" in chalands.get("price","") and chalands.get("priceYear") is None and "non_millesime" in chalands.get("priceVerification",""), "44 lot 44 : année tarifaire Chalands Fleuris affirmée sans preuve"
+          assert "35 à 52 €" in prairies.get("price","") and prairies.get("priceYear")==2026 and "04/04/2026" in prairies.get("seasonalDates2026",""), "44 lot 44 : grille 2026 des Prairies de l'Etang manquante"
+          assert "20,20 €" in praderoi.get("price","") and "26,70 €" in praderoi.get("price","") and "non_contractuel" in praderoi.get("priceVerification","") and praderoi.get("priceYear") is None, "44 lot 44 : repère tiers Praderoi confondu avec un prix officiel"
+          assert all(not x.get("overnightStatus") for x in lot44), "44 lot 44 : nuitée en camping privé ne doit pas être filtrée sans preuve"
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
-          assert night_flags_total==28 and night_filter_visible==158, f"44 : 28 lieux écartés du filtre nocturne (158 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
+          assert night_flags_total==28 and night_filter_visible==161, f"44 : 28 lieux écartés du filtre nocturne (161 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -279,7 +292,7 @@ jobs:
               f"- Fiches régionales masquées par doublon déclaré : **{len(regional)-len(visible_regional)}**",
               f"- Compléments OSM masqués par le filtre transversal : **{len(osm)-len(visible_osm)}**",
               f"- **Total de fiches visibles attendu (mêmes filtres que app.js) : {total_visible}** ({len(visible_regional)} régionales + {len(visible_osm)} complémentaires)",
-              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 186 lieux attendus après vingt-et-un ajouts distincts (lots 35, 37, 39, 40, 41, 42 et 43)",
+              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 189 lieux attendus après vingt-quatre ajouts distincts (lots 35, 37, 39, 40, 41, 42, 43 et 44)",
               f"- Aires de pique-nique régionales avec nuitée non établie : **{overnight_pending}**",
               f"- Autres haltes régionales avec nuitée non établie : **{overnight_other_regional}**",
               f"- Compléments visibles avec nuitée non établie : **{overnight_extra}**",
@@ -296,6 +309,7 @@ jobs:
               "- Lot 41 : cinq campings 2026 manquants ajoutés (La Goëlette, Les Écureuils, Le Bel Essor, Domaine de la Baie Dorée, La Morinière) ; 181 lieux et 153 avec filtre, 11 prix strictement non confirmés.",
               "- Lot 42 : aire municipale La Chapelle-sur-Erdre (max. 3 nuits, fermeture vacances d’automne) + campings La Baie, Île de Kernodet, Domaine de Pont-Mahé ; parking public Pont-Mahé à 45 m maintenu distinct du camping privé. Totaux 185/157. 11 prix strictement Non confirmé, tarif municipal gratuit indicatif 2026 sourcé tiers.",
               "- Lot 43 : Véridet tarif office de tourisme 13,50–16,50 € plus taxe 1,10 € (sans millésime tarif autonome) ; Camping Pause Loire ex Belle Rivière avec grille officielle 2026 de 20/23/26 € pour un adulte et électricité, taxes et ouverture à vérifier. Totaux 186/158, onze prix exactement Non confirmé.",
+              "- Lot 44 : trois campings ajoutés (Chalands Fleuris, Prairies de l’Étang et Praderoi) ; tarif 2026 officiel seulement pour Prairies, fourchette touristique sans millésime propre pour Chalands, prix indicatifs tiers pour Praderoi. Comptes 189/161, onze tarifs exactement Non confirmé conservés.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",
