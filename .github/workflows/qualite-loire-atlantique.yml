@@ -79,7 +79,7 @@ jobs:
           expected_email_ids={"ACCAMPDL044V51I23X","ACCAMACCAMPDL044V50G1TE","ACCAMPDL044V5002ZN","ACCAMACCAMPDL044000049","ACCAMPDL044V50ZDO9","ACCAMEAIREDESTMOLF","node/11786823109","way/1317028497","ACCAMPDL044V50Y077","ACCAMACCAMPDL044000155","ACCAMACCAMPDL044000154"}
           assert expected_email_ids.issubset({str(x.get("sourceId")) for x in emails}), "44 : les 11 tarifs non confirmés doivent disposer d’un courriel public sourcé"
           unresolved_all=[x for x in visible_regional+visible_osm if x.get("price")=="Non confirmé"]
-          assert len(unresolved_all)==30 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 56 : 30 prix strictement non confirmés et courriels sourcés obligatoires"
+          assert len(unresolved_all)==28 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 57 : 28 prix strictement non confirmés et contacts courriel sourcés obligatoires"
           ranch=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000049")
           assert ranch.get("price")=="Non confirmé" and "point de vidange camping-car" in " ".join(ranch.get("services",[])).lower() and ranch.get("drainageFacilitySource")=="https://www.yellohvillage.fr/camping/le_ranch/nos_services", "Le Ranch : service vérifié ou réserve manquante"
           contacts_incomplete=[str(x.get("sourceId")) for x in visible_regional+visible_osm if x.get("contactPhone") and (not str(x.get("contactSource","")).startswith("https://") or not x.get("contactRole") and x.get("priceCheckedAt"))]
@@ -357,7 +357,21 @@ jobs:
           assert len([x for x in visible_regional if "troischenes" in norm(x.get("name"))])==0, "Lot 53 : Les Trois Chênes non validé pour les camping-cars en 2026, ne pas ajouter"
           
           # Pause des ajouts de campings (lot 54) : ne pas accumuler de nouveaux tarifs inconnus.
-          assert len(unresolved_all)<=30, "44 : garde-fou tarifaire, hausse du nombre de prix Non confirmé interdite pendant le rattrapage tarifaire"
+          assert len(unresolved_all)<=28, "44 : garde-fou tarifaire lot 57, hausse des prix strictement Non confirmé interdite pendant le rattrapage"
+          # Lot 57 : vérification de deux tarifs conditionnels CampingCard ACSI 2026 (jamais tarif public normal).
+          acsi57={
+            "CCF44-MOUTIERS-HERMITAGE-DUNES-2026": (19, ["04/04/2026–30/06/2026","01/09/2026–31/10/2026"]),
+            "CCF44-CROISIC-PIERRE-LONGUE-2026": (21, ["03/04/2026–12/05/2026","17/05/2026–21/05/2026","25/05/2026–03/07/2026","29/08/2026–31/10/2026"])
+          }
+          for sid,(rate,periods) in acsi57.items():
+              matches=[x for x in visible_regional if x.get("sourceId")==sid]
+              assert len(matches)==1, f"Lot 57 : camping ACSI non unique {sid}"
+              item=matches[0]
+              c=item.get("priceConditions2026",{})
+              assert item.get("priceYear")==2026 and item.get("priceType")=="tarif_camping_car_conditionnel_campingcard_acsi_basse_saison" and c.get("ratePerNightEUR")==rate and c.get("validPeriods")==periods and c.get("requiredCard") is True, f"Lot 57 : tarif, dates ou carte ACSI non documentés {sid}"
+              assert str(item.get("priceSource","")).startswith("https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/") and c.get("programRulesUrl")=="https://www.acsi.eu/fr/informations-pour-les-campings/produits-pour-les-campings/campingcard-acsi/", f"Lot 57 : sources tarifaires de l'offre ACSI non vérifiées {sid}"
+              assert f"{rate} €" in item.get("price","") and "sur présentation" in item.get("price","") and "prix public normal" in item.get("price","") and "Taxes locales" in item.get("price",""), f"Lot 57 : conditions de prix ACSI masquées {sid}"
+
           # Lot 56 : tarif camping-car 2026 Paludiers recoupé et nuitée du camping La Guichardière distinguée du service de vidange.
           pal56=next(x for x in visible_regional if x.get("sourceId")=="CCF44-BATZ-PALUDIERS-2026")
           assert pal56["price"]!="Non confirmé" and pal56.get("priceYear")==2026 and pal56.get("priceSource")=="https://www.ot-batzsurmer.fr/camping-flower-camping-les-paludiers.html" and pal56.get("priceOperatorCorroboration")=="https://www.camping-paludiers.com/votre-recherche-de-sejour/", "Lot 56 : tarif Paludiers manquant ou deux sources non recoupées"
@@ -464,6 +478,7 @@ jobs:
               "- Lot 54 (tarifs seuls, aucun ajout) : La Falaise La Turballe : grille officielle PDF 2026 camping-car 2 personnes 30,50/45,90/51,90 € standard et 32/48,90/56,90 € vue mer avec eau/électricité 10 A, taxe de séjour 2026 à confirmer. Total stable 215/187, 31 prix strictement Non confirmé. Garde-fou CI contre nouvelle hausse.",
               "- Lot 55 (tarifs uniquement) : 2026 Bleuets grille 20/22/30/36/26 € tente ou caravane et taxe 0,22 € vérifiées, camping-car non nommé donc reste Non confirmé ; Leveno et Clos Mer Nature frais annexes contrats 2026 vérifiés ; Les Forges dates officielles 04/07–30/08 en conflit avec office 04/04–20/09. 215/187, 31 prix strictement Non confirmé.",
               "- Lot 56 (tarifs uniquement) : Les Paludiers Batz 19–37 € fourchette de camping 2026 institutionnelle recoupée avec formule Confort camping-car exploitant ; La Guichardière nuitée camping 24–59 € électricité incluse distinguée de la borne 6 €. 215/187, 30 prix strictement Non confirmé.",
+              "- Lot 57 (tarifs uniquement) : offres CampingCard ACSI 2026 explicitement conditionnelles 19 € à L’Hermitage des Dunes et 21 € à La Pierre Longue ; dates, carte et prestations comprises contrôlées ; tarifs publics normaux toujours inconnus. 215/187, 28 prix strictement Non confirmé.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",

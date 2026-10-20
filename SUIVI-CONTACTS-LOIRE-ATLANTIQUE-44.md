@@ -169,3 +169,9 @@ Le camping Le Briord est déjà présent et a seulement bénéficié d'un enrich
 - **Deux faux positifs tarifaires évités** : `campinglafontaine.fr` à Saint-Cast-le-Guildo (22) ≠ camping-lafontaine.com Guérande (44) ; `camping-lepetitbois.fr` Saint-Jean-de-Monts (85) ≠ Petit Bois Mesquer (44).
 
 **30 dossiers restant strictement `Non confirmé` selon l'audit de visibilité.** Aucun courriel envoyé aux exploitants.
+
+## Lot tarifaire 57 — 20 octobre 2026 : suivi après vérification ACSI
+
+- **L'Hermitage des Dunes** (`CCF44-MOUTIERS-HERMITAGE-DUNES-2026`) : tarif **CampingCard ACSI 2026 de 19 €/nuit** confirmé par [le partenaire officiel ACSI](https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/les-moutiers-en-retz/camping-lhermitage-des-dunes-125296/) aux dates déclarées. Demander à `hermitagedesdunes@gmail.com` seulement le **barème normal 2026 sans carte, taxes et conditions d'emplacement**. **Aucun envoi**.
+- **Camping La Pierre Longue** (`CCF44-CROISIC-PIERRE-LONGUE-2026`) : tarif **CampingCard ACSI 2026 de 21 €/nuit** confirmé par [la fiche officielle ACSI](https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/le-croisic/camping-la-pierre-longue-110206/) pour les périodes 2026 listées. Demander à `lapierrelongue@orange.fr` le **tarif normal 2026 sans carte et taxes locales**, ainsi que l'accès à la vidange sans nuitée. **Aucun envoi**.
+- Ces **deux prix conditionnels** font passer le compteur exact de `Non confirmé` de 30 à **28**, mais les **deux tarifs standards sans carte restent non documentés**. Ne pas assimiler diminution technique du compteur et certification de tous les frais pour les camping-caristes.

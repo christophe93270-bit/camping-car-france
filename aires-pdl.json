@@ -10469,11 +10469,11 @@
       "Vidange de cassette camping-car à l'intérieur du camping ; ouverture aux non-résidents et prix non établis",
       "Sanitaires du camping, piscine et accès à la plage pour les résidents"
     ],
-    "price": "Non confirmé",
-    "priceVerification": "tarif_2026_camping_car_devis_exploitant_requis",
+    "price": "Offre conditionnelle CAMPINGCARD ACSI 2026 : 19 € / nuit sur présentation d'une CampingCard ACSI 2026 valide, uniquement aux dates d'acceptation indiquées par ACSI : 04/04/2026–30/06/2026 ; 01/09/2026–31/10/2026. Comprend un emplacement et 2 adultes avec camping-car, électricité dans la limite de 6 A ou 4 kWh/jour, douche chaude et TVA selon les règles ACSI. Taxes locales, surconsommation électrique et autres extras potentiellement en supplément ; prix public normal en dehors de l'offre non confirmé. Le coût d'acquisition de la carte n'est pas inclus.",
+    "priceVerification": "tarif_campingcard_acsi_2026_verifie_sous_conditions_carte_et_periode_prix_general_inconnu",
     "priceCheckedAt": "2026-10-20",
-    "priceEvidenceNote": "Le site de l'exploitant confirme les emplacements camping-car et la saison 2026 sans publier une grille journalière datée; une réservation tierce indiquait 136,33–143,50 € pour un séjour de sept nuits sur certaines dates de septembre 2026, sans constituer un tarif par nuit ni un prix universel.",
-    "priceEvidenceDocument": "https://hermitagedesdunes.com/",
+    "priceEvidenceNote": "La fiche du camping publiée directement par CampingCard ACSI affiche le tarif 19 € et les périodes 2026 exactes, et la documentation officielle ACSI confirme que le forfait comprend deux adultes et un camping-car ainsi que l'électricité limitée. Ce n'est en aucun cas un prix général pour les clients sans carte ni toute l'année. Pas de total taxes locales incluses attesté.",
+    "priceEvidenceDocument": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/les-moutiers-en-retz/camping-lhermitage-des-dunes-125296/",
     "status": "25 rue du Bois-Millet selon la page « Emplacements » de l'exploitant, 44760 Les Moutiers-en-Retz ; l'annuaire communal donne 23 rue du Bois Millet : vérifier la numérotation sans fusion ou déplacement GPS arbitraire. Saison annoncée du 4 avril au 31 octobre 2026. La page d'accueil 2026 mentionne 44 emplacements nus, la page secondaire 45 et une autre fiche historique 60 : ne pas les additionner ni présumer des places réservées exclusivement aux camping-cars. Le tarif 2026 exact de nuitée est à confirmer par devis. Distinct du centre ANAS (environ 800 m) et des autres campings communaux.",
     "contactPhone": "02 40 64 64 00",
     "contactEmail": "hermitagedesdunes@gmail.com",
@@ -10485,7 +10485,25 @@
     "capacityBarePitchesDetailPage": 45,
     "capacityTotalClassified2026": 88,
     "dataAttribution": "Camping Hermitage des Dunes, Mairie Les Moutiers-en-Retz et PiNCAMP (coordonnées)",
-    "importReview": "Lot 45 du 20/10/2026 : camping-car explicitement accepté par l'exploitant ; 44 places nues dans accueil 2026 et 45 dans page des emplacements (différence signalée), prix journalier 2026 absent. GPS PiNCAMP 47.06528,-2.013628. Adresse 23/25 rue du Bois Millet discordante entre mairie et page exploitant. Nuitée conditionnée par l'accueil du camping."
+    "importReview": "Lot 45 du 20/10/2026 : camping-car explicitement accepté par l'exploitant ; 44 places nues dans accueil 2026 et 45 dans page des emplacements (différence signalée), prix journalier 2026 absent. GPS PiNCAMP 47.06528,-2.013628. Adresse 23/25 rue du Bois Millet discordante entre mairie et page exploitant. Nuitée conditionnée par l'accueil du camping. Lot 57 (20/10/2026) : prix conditionnel ACSI 19 €/nuit pour 2 adultes en camping-car et dates de validité 2026 établis par CampingCard ACSI et règles du programme ; tarif normal toujours inconnu.",
+    "priceYear": 2026,
+    "priceType": "tarif_camping_car_conditionnel_campingcard_acsi_basse_saison",
+    "priceSource": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/les-moutiers-en-retz/camping-lhermitage-des-dunes-125296/",
+    "priceConditions2026": {
+      "program": "CampingCard ACSI",
+      "requiredCard": true,
+      "ratePerNightEUR": 19,
+      "validPeriods": [
+        "04/04/2026–30/06/2026",
+        "01/09/2026–31/10/2026"
+      ],
+      "includes": "2 adultes, emplacement et camping-car, électricité plafonnée à 6 A ou 4 kWh/jour, douche chaude, TVA",
+      "excludesOrRequiresConfirmation": "carte ACSI valide à acheter séparément, taxes locales, électricité au-delà du plafond, frais et suppléments éventuels ; tarif sans carte non confirmé",
+      "programRulesUrl": "https://www.acsi.eu/fr/informations-pour-les-campings/produits-pour-les-campings/campingcard-acsi/",
+      "sourceUrl": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/les-moutiers-en-retz/camping-lhermitage-des-dunes-125296/"
+    },
+    "operationalWarning": "Attention : réduction CampingCard ACSI uniquement aux dates 2026 citées et avec une carte valide. Tarif public sans carte et taxes locales non vérifiés ; offre sous réserve des conditions et disponibilités du camping.",
+    "operationalWarningSource": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/les-moutiers-en-retz/camping-lhermitage-des-dunes-125296/"
   },
   {
     "department": "44",
@@ -11317,14 +11335,14 @@
       "Aire à l'entrée du camping pour vidange des eaux grises et remplissage d'eau propre ; point de vidange de toilettes chimiques au bloc sanitaire",
       "Accès et prix de la vidange pour non-résidents : non confirmés"
     ],
-    "price": "Non confirmé",
+    "price": "Offre conditionnelle CAMPINGCARD ACSI 2026 : 21 € / nuit sur présentation d'une CampingCard ACSI 2026 valide, uniquement aux dates d'acceptation indiquées par ACSI : 03/04/2026–12/05/2026 ; 17/05/2026–21/05/2026 ; 25/05/2026–03/07/2026 ; 29/08/2026–31/10/2026. Comprend un emplacement et 2 adultes avec camping-car, électricité dans la limite de 6 A ou 4 kWh/jour, douche chaude et TVA selon les règles ACSI. Taxes locales, surconsommation électrique et autres extras potentiellement en supplément ; prix public normal en dehors de l'offre non confirmé. Le coût d'acquisition de la carte n'est pas inclus.",
     "priceCheckedAt": "2026-10-20",
-    "priceVerification": "forfait_emplacement_camping_car_2_adultes_2026_non_disponible_publiquement",
-    "priceEvidenceDocument": "https://www.campinglapierrelongue.com/emplacements.htm",
-    "priceEvidenceNote": "Le camping 2026 et ses emplacements sont confirmés, mais aucune grille complète de nuitée 2026 deux adultes, électricité et taxe de séjour validée n'a été relevée.",
+    "priceVerification": "tarif_campingcard_acsi_2026_verifie_sous_conditions_carte_et_periode_prix_general_inconnu",
+    "priceEvidenceDocument": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/le-croisic/camping-la-pierre-longue-110206/",
+    "priceEvidenceNote": "La fiche du camping publiée directement par CampingCard ACSI affiche le tarif 21 € et les périodes 2026 exactes, et la documentation officielle ACSI confirme que le forfait comprend deux adultes et un camping-car ainsi que l'électricité limitée. Ce n'est en aucun cas un prix général pour les clients sans carte ni toute l'année. Pas de total taxes locales incluses attesté.",
     "status": "27 rue Henri Dunant, 44490 Le Croisic. Exploitant et office de tourisme : saison du 03/04 au 01/11/2026, théoriquement en cours au 20 octobre sous réserve de disponibilité. Repère PiNCAMP 47.29244,-2.52923, contre repère e-SPRIT du 06/07/2026 47.29223,-2.52309 à environ 460 m : localisation de l'entrée à revalider, ne pas déplacer arbitrairement la borne. Camping distinct du camping L'Océan à environ 700 m et des aires municipales (La Vigie, Kerdavid, Lingorzé).",
-    "operationalWarning": "Le prix 2026 camping-car est non confirmé ; l'aire de services se trouve à l'intérieur ou à l'entrée du camping, son accès pour non-résidents n'est pas garanti. GPS divergents entre annuaires.",
-    "operationalWarningSource": "https://www.campinglapierrelongue.com/emplacements.htm",
+    "operationalWarning": "Le prix 2026 camping-car est non confirmé ; l'aire de services se trouve à l'intérieur ou à l'entrée du camping, son accès pour non-résidents n'est pas garanti. GPS divergents entre annuaires. Attention : réduction CampingCard ACSI uniquement aux dates 2026 citées et avec une carte valide. Tarif public sans carte et taxes locales non vérifiés ; offre sous réserve des conditions et disponibilités du camping.",
+    "operationalWarningSource": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/le-croisic/camping-la-pierre-longue-110206/",
     "contactPhone": "02 40 23 13 44",
     "contactEmail": "lapierrelongue@orange.fr",
     "contactEmailSource": "https://www.campinglapierrelongue.com/contact.htm",
@@ -11338,7 +11356,25 @@
       "source": "https://www.cirkwi.com/fr/point-interet/453261-camping-la-pierre-longue"
     },
     "dataAttribution": "Camping La Pierre Longue (site et contact), office de tourisme du Croisic (ouverture 2026), PiNCAMP (GPS), e-SPRIT",
-    "importReview": "Lot 52 du 20/10/2026 : 158 emplacements mixtes et aire de services confirmés sur site exploitant ; saison 2026 attestée, tarif de nuitée 2026 non confirmé. Divergence de GPS documentée ; ne pas fusionner avec La Vigie ni L'Océan."
+    "importReview": "Lot 52 du 20/10/2026 : 158 emplacements mixtes et aire de services confirmés sur site exploitant ; saison 2026 attestée, tarif de nuitée 2026 non confirmé. Divergence de GPS documentée ; ne pas fusionner avec La Vigie ni L'Océan. Lot 57 (20/10/2026) : prix conditionnel ACSI 21 €/nuit pour 2 adultes en camping-car et dates de validité 2026 établis par CampingCard ACSI et règles du programme ; tarif normal toujours inconnu.",
+    "priceYear": 2026,
+    "priceType": "tarif_camping_car_conditionnel_campingcard_acsi_basse_saison",
+    "priceSource": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/le-croisic/camping-la-pierre-longue-110206/",
+    "priceConditions2026": {
+      "program": "CampingCard ACSI",
+      "requiredCard": true,
+      "ratePerNightEUR": 21,
+      "validPeriods": [
+        "03/04/2026–12/05/2026",
+        "17/05/2026–21/05/2026",
+        "25/05/2026–03/07/2026",
+        "29/08/2026–31/10/2026"
+      ],
+      "includes": "2 adultes, emplacement et camping-car, électricité plafonnée à 6 A ou 4 kWh/jour, douche chaude, TVA",
+      "excludesOrRequiresConfirmation": "carte ACSI valide à acheter séparément, taxes locales, électricité au-delà du plafond, frais et suppléments éventuels ; tarif sans carte non confirmé",
+      "programRulesUrl": "https://www.acsi.eu/fr/informations-pour-les-campings/produits-pour-les-campings/campingcard-acsi/",
+      "sourceUrl": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/le-croisic/camping-la-pierre-longue-110206/"
+    }
   },
   {
     "department": "44",
