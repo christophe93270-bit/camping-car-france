@@ -889,3 +889,25 @@ Sources :
 - https://www.labaule-guerande.com/offres/camping-letang-du-pays-blanc-guerande-fr-6011351/
 - https://www.pincamp.ch/fr/campings/camping-l-etang-du-pays-blanc
 - https://park4night.com/fr/place/353393
+
+## Lot complémentaire 46 — 20 octobre 2026
+
+**Quatre nouveaux établissements accueillant des camping-cars, absence de doublon d'identité confirmée par nom, adresse et GPS. Deux nouveaux tarifs strictement `Non confirmé`, deux autres tarifs ne disposent que d'un prix d'appel non contractuel.**
+
+- **Camping naturel de Gruellau / L'Émue (Treffieux)** — `CCF44-TREFFIEUX-GRUELLAU-2026`, Le Haut Rocher, GPS `47.60424,-1.5265827` d'e-SPRIT (juin 2026). Le camping communal comprend 20 emplacements de camping et 3 mobil-homes (région), avec 17 emplacements signalés pour camping-cars mais non garantis exclusivement. L'exploitant affiche **8 € dès la première nuit pour un emplacement avec électricité**, **4 € en nature sans électricité** et une **option « camping-car » dès 2,50 €** ; ces montants ne sont pas un forfait confirmé pour deux adultes en 2026. **Saison contradictoire : exploitant 01/05–30/09/2026, e-SPRIT annonce 20/04–01/11 et précise 01/04–30/09 dans sa description.** Ne pas présumer d'ouverture le 20 octobre ; confirmation directe requise. `cynthia@lemue.fr`, 06 16 07 87 58.
+- **Camping Cévéo Château de Tréambert (Mesquer)** — `CCF44-MESQUER-TREAMBERT-2026`, 1900 route de Kerlagadec, GPS `47.3977,-2.47468`. **15 emplacements camping-car spécifiques** et 29 emplacements campeurs libres selon l'office de tourisme, sur un village vacances classé 207 emplacements tout usage. Saison 03/04–26/09/2026, terminée. **Tarif 2026 camping-car strictement Non confirmé.** `reservation@ceveo.com`, 02 40 42 51 18.
+- **Camping du Petit Bois (Mesquer)** — `CCF44-MESQUER-PETIT-BOIS-2026`, 1820 route de Kerlagadec, GPS `47.39724,-2.47218` e-SPRIT (09/10/2026). **16 emplacements nus** acceptant notamment les camping-cars, plus 96 emplacements locatifs annoncés ; 231 classés tous types (ne pas additionner les chiffres). Saison 03/04–13/09/2026, achevée. **Tarif nuitée camping-car 2026 strictement Non confirmé.** `info@campingdupetitbois.com`, 02 40 42 68 77. **Ce camping est distinct de Tréambert**, situé au 1900 de la même route (~195 m).
+- **Camping associatif GCU Mesquer / Sorloc'h** — `CCF44-MESQUER-GCU-SORLOC-H-2026`, GPS opérateur 47°24'56 N, 2°28'14 O converti en `47.41555556,-2.47055556`. Association GCU : 77 emplacements mixtes tentes/caravanes/camping-cars, 7 locations, ouverture 03/04–01/11/2026. Site officiel affiche **« emplacement dès 14,45 €/nuit »** en très basse saison, **sans millésime propre ni tarif complet 2026 pour deux personnes**. Accès associatif participatif, éventuelle adhésion, prix non-adhérent et réservation à confirmer ; ce n'est pas un parking public libre. Le stationnement de la Bôle de Merquel (~225 m) est distinct. Contact GCU Mesquer 02 52 56 77 22.
+- Les quatre fiches sont des terrains de camping : le filtre nocturne ne certifie ni leur ouverture aujourd'hui, ni la disponibilité d'une place. Vidange pour voyageurs non-résidents non présumée.
+- **Compteurs attendus : 196 fiches au total, 168 après filtre nocturne (28 masquées), 16 tarifs strictement `Non confirmé` (14 historiques + Tréambert et Petit Bois).** Audit renforcé pour capacités, tarifs prudents, dates et distinction des deux campings voisins.
+
+Sources :
+- https://www.lemue.fr/camping
+- https://campinggruellau.lemue.fr/
+- https://www.enpaysdelaloire.com/hebergements/campings/aire-naturelle-de-camping-etang-de-gruellau
+- https://www.cirkwi.com/fr/point-interet/453467-aire-naturelle-de-camping-etang-de-gruellau
+- https://www.labaule-guerande.com/offres/camping-village-vacances-ceveo-chateau-de-treambert-mesquer-fr-6011354/
+- https://www.cirkwi.com/fr/point-interet/3200555-camping-village-vacances-ceveo-chateau-de-treambert
+- https://www.labaule-guerande.com/offres/camping-du-petit-bois-mesquer-fr-6011340/
+- https://www.cirkwi.com/fr/point-interet/1624761-camping-du-petit-bois
+- https://www.gcu.asso.fr/campings/camping-mesquer/

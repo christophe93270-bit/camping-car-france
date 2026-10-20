@@ -1,4 +1,4 @@
-# Loire-Atlantique (44) — suivi de confirmation des 14 tarifs
+# Loire-Atlantique (44) — suivi de confirmation des 16 tarifs
 
 Contrôle documentaire du **20 octobre 2026**. Ce suivi est un dossier interne au projet Camping-Car France.
 
@@ -63,3 +63,14 @@ Trois hébergements nouveaux de l'année 2026 ont été ajoutés au répertoire 
 | L'Étang du Pays Blanc — Guérande (`CCF44-GUERANDE-ETANG-PAYS-BLANC-2026`) | `resa@camping-guerande.com` · [source](https://www.pincamp.ch/fr/campings/camping-l-etang-du-pays-blanc) | [Préparer le courriel](mailto:resa%40camping-guerande.com?subject=Camping-Car%20France%20%E2%80%94%20V%C3%A9rification%20tarif%202026%20%E2%80%94%20L'%C3%89tang%20du%20Pays%20Blanc%20%E2%80%94%20Gu%C3%A9rande&body=Bonjour%2C%0A%0ADans%20le%20cadre%20de%20la%20mise%20%C3%A0%20jour%20du%20guide%20Camping-Car%20France%20pour%20la%20Loire-Atlantique%2C%20Merci%20d'indiquer%20le%20tarif%202026%20d'un%20emplacement%20pour%20camping-car%20avec%20deux%20adultes%20et%20%C3%A9lectricit%C3%A9%2C%20les%20taxes%20et%20services%20inclus%2C%20la%20saison%20exacte%202026%20et%20la%20possibilit%C3%A9%20d'une%20vidange%20sans%20s%C3%A9jour.%20La%20fiche%20de%20l'office%20a%20%C3%A9t%C3%A9%20actualis%C3%A9e%20avec%20des%20dates%202027%20et%20aucun%20tarif%202026%20n'est%20attest%C3%A9.%0A%0AMerci%20de%20votre%20aide.%0ACamping-Car%20France) | **Non envoyé** |
 
 **État total au lot 45 : 14 tarifs strictement non confirmés, 14 dossiers joignables par courriel sourcé, aucun courriel envoyé, aucune réponse d'exploitant reçue.**
+
+## Lot 46 — deux nouvelles demandes de confirmation (non envoyées)
+
+Les quatorze demandes précédentes demeurent ouvertes et non envoyées. Deux nouveaux dossiers concernent les tarifs de camping-car non publiés pour 2026. Les prix d'appel de Gruellau et du GCU Mesquer font l'objet de réserves dans les fiches, sans devenir des tarifs complets certifiés.
+
+| Fiche | Contact sourcé | Demande préparée | État |
+|---|---|---|---|
+| Cévéo Château de Tréambert — Mesquer (`CCF44-MESQUER-TREAMBERT-2026`) | `reservation@ceveo.com` ([source](https://www.cirkwi.com/fr/point-interet/3200555-camping-village-vacances-ceveo-chateau-de-treambert)) | [Préparer un courriel](mailto:reservation@ceveo.com?subject=Camping-Car%20France%20%E2%80%94%20V%C3%A9rification%20du%20tarif%202026%20%E2%80%94%20C%C3%A9v%C3%A9o%20Ch%C3%A2teau%20de%20Tr%C3%A9ambert%20%E2%80%94%20Mesquer&body=Bonjour%2C%0A%0ANous%20mettons%20%C3%A0%20jour%20les%20fiches%20de%20Loire-Atlantique%20du%20guide%20Camping-Car%20France.%20Quel%20%C3%A9tait%20le%20tarif%202026%20d'une%20nuit%C3%A9e%20sur%20l'un%20des%2015%20emplacements%20camping-car%2C%20pour%20deux%20adultes%20avec%20ou%20sans%20%C3%A9lectricit%C3%A9%2C%20taxes%20en%20sus%20%3F%20Quels%20services%20(eau%2C%20vidange)%20sont%20compris%20%3F%0A%0ANous%20ne%20publions%20pas%20de%20montant%20non%20v%C3%A9rifi%C3%A9.%20Merci%20de%20votre%20aide.%0A%0ACamping-Car%20France.) | **Non envoyé** |
+| Camping du Petit Bois — Mesquer (`CCF44-MESQUER-PETIT-BOIS-2026`) | `info@campingdupetitbois.com` ([source](https://www.cirkwi.com/fr/point-interet/1624761-camping-du-petit-bois)) | [Préparer un courriel](mailto:info@campingdupetitbois.com?subject=Camping-Car%20France%20%E2%80%94%20V%C3%A9rification%20du%20tarif%202026%20%E2%80%94%20Camping%20du%20Petit%20Bois%20%E2%80%94%20Mesquer&body=Bonjour%2C%0A%0ANous%20mettons%20%C3%A0%20jour%20les%20fiches%20de%20Loire-Atlantique%20du%20guide%20Camping-Car%20France.%20Quel%20%C3%A9tait%20le%20tarif%202026%20d'un%20emplacement%20camping-car%20pour%20deux%20adultes%20avec%20%C3%A9lectricit%C3%A9%2C%20taxes%20et%20suppl%C3%A9ments%20%3F%20La%20vidange%20est-elle%20possible%20pour%20un%20camping-car%20ext%C3%A9rieur%20au%20camping%20et%20%C3%A0%20quel%20co%C3%BBt%20%3F%0A%0ANous%20ne%20publions%20pas%20de%20montant%20non%20v%C3%A9rifi%C3%A9.%20Merci%20de%20votre%20aide.%0A%0ACamping-Car%20France.) | **Non envoyé** |
+
+**Au terme du lot 46 : 16 dossiers dont le champ prix vaut exactement « Non confirmé » ; 16 contacts sourcés. Aucun courriel ni appel transmis, aucune réponse reçue.**
