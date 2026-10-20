@@ -65,7 +65,7 @@ jobs:
           visible_regional_unknown=sum(x.get("price")=="Non confirmé" for x in visible_regional)
           osm_unknown=sum(x.get("price")=="Non confirmé" for x in osm)
           visible_osm_unknown=sum(x.get("price")=="Non confirmé" for x in visible_osm)
-          overnight_pending=sum(x.get("overnightStatus")=="not_established" for x in visible_regional)
+          overnight_pending=sum(x.get("overnightStatus")=="not_established" and "pique-nique" in str(x.get("type","")).lower() for x in visible_regional)
           total_visible=len(visible_regional)+len(visible_osm)
           overnight_other_regional=sum(x.get("overnightStatus")=="not_established" and "pique-nique" not in str(x.get("type","")).lower() for x in visible_regional)
           overnight_extra=sum(x.get("overnightStatus")=="not_established" for x in visible_osm)
