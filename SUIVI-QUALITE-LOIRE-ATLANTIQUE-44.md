@@ -829,3 +829,19 @@ Sources :
 - https://www.labaule-guerande.com/offres/camping-le-domaine-de-pont-mahe-asserac-fr-6011338/
 - https://www.cirkwi.com/fr/point-interet/452932-camping-le-domaine-de-pont-mahe
 - https://www.cirkwi.com/fr/point-interet/441562-aire-de-camping-cars-de-pont-mahe
+
+## Lot complémentaire 43 — 20 octobre 2026
+
+**Un camping manquant intégré avec tarifs 2026 officiels ; une fiche existante corrigée à partir du tarif publié par l'office du tourisme. Aucun tarif historique n'est inventé.**
+
+- **Camping Pause Loire (ex Belle Rivière), 45 route des Perrières, Sainte-Luce-sur-Loire** (`CCF44-STE-LUCE-PAUSE-LOIRE-2026` ; GPS `47.2507827,-1.4528046`) : la Métropole de Nantes (mise à jour 04/09/2026) recense le camping sous son ancien nom ; le site de l'exploitant présente le changement d'enseigne en 2026. Il accueille les camping-cars sur des emplacements mixtes, avec 110 emplacements pour tentes/caravanes/camping-cars au total, électricité 5 ou 10 A, eau et vidange sur place. **Barème exploitant 2026** : 20 € (octobre-mars), 23 € (avril-juin/septembre), 26 € (juillet-août) pour un emplacement avec 1 adulte et électricité. Adulte additionnel +5 €/nuit. Taxe de séjour 0,60 €/adulte/nuit et taxe additionnelle départementale 0,06 €/adulte/nuit. Le prix rando à 13 € ne concerne pas l'emplacement camping-car. **Réserve sur l'ouverture :** la page d'accueil mentionne une saison de mars à octobre mais la grille a une tranche octobre-mars ; vérifier la disponibilité hivernale directement. Ne pas confondre ce camping avec Belle Rivière à Chaniers (17) ; ne pas créer deux fiches pour ancien et nouveau nom.
+- **Aire Le Véridet, Piriac-sur-Mer** (`ACCAMACCAMEAIREDUVERIDET`) : le site La Baule-Guérande Tourisme affiche désormais **13,50–16,50 €/nuit** et **1,10 € de taxe de séjour**, avec une ouverture annoncée toute l'année 2026. Contrairement à l'ancienne fiche régionale, un barème existe donc publiquement. La page ne date pas distinctement le barème : le prix appliqué au paiement reste à vérifier à l'automate. 44 places avec prises 16 A et vidange conservées, sans créer de nouveau lieu.
+- **État attendu : 186 fiches visibles sans filtre, 158 avec le filtre nocturne (28 masquées), 11 tarifs portant exactement `Non confirmé`.** Contrôle qualité renforcé : nouveau lieu, prénom/date de grille, prix Véridet, taxes et réserves de saison.
+
+Sources :
+- https://metropole.nantes.fr/mes-services-mon-quotidien/stationner-en-camping-car-ou-en-caravane-a-nantes-et-dans-la-metropole
+- https://camping-pauseloire.com/en/camping-pause-loire-english/
+- https://camping-pauseloire.com/wp-content/uploads/2026/07/Tarifs-emplacements-2026-1.png
+- https://camping-pauseloire.com/en/holiday-rentals-near-nantes/pitches-for-camping-and-caravanning-nantes/
+- https://www.camping-car.com/aires/230-pause-loire-belle-riviere/
+- https://www.labaule-guerande.com/offres/aire-de-camping-cars-le-veridet-piriac-sur-mer-fr-6046448/
