@@ -110,7 +110,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261020-33", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261020-34", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -611,6 +611,7 @@ async function initAires(){
         ${a.receptionHoursNote?`<p><strong>Accueil :</strong> ${escapeHTML(a.receptionHoursNote)}</p>`:""}
         <p><strong>${a.priceStatus==="not_applicable_for_night_stay"?"Tarif de nuitée :":"Tarif :"}</strong> ${escapeHTML(a.price)}</p>
         ${a.fees2026?`<p><strong>Frais annexes 2026 :</strong> ${escapeHTML(a.fees2026)}</p>`:""}
+        ${a.indicative2026RateLabel&&a.indicative2026RateYear===2026&&/^https:\/\//.test(String(a.indicative2026RateSource||""))?`<p><strong>Repère indicatif 2026 (non confirmé par le camping) :</strong> ${escapeHTML(a.indicative2026RateLabel)} <a href="${escapeHTML(a.indicative2026RateSource)}" target="_blank" rel="noopener noreferrer">Source CampingFrance ↗</a></p>`:""}
         ${a.operationalWarning?`<p><strong>Horaires ou conditions à vérifier :</strong> ${escapeHTML(a.operationalWarning)}</p>`:""}
         ${a.priceYear===2026&&a.priceEvidenceDocument&&/^https:\/\//.test(String(a.priceEvidenceDocument))?`<p><a href="${escapeHTML(a.priceEvidenceDocument)}" target="_blank" rel="noopener noreferrer">Consulter la grille tarifaire 2026 ↗</a> <small>(les conditions d’accès et le tarif appliqué peuvent dépendre du statut du voyageur)</small></p>`:""}
         ${a.accessNote?`<p><strong>Conditions d’accès :</strong> ${escapeHTML(a.accessNote)}</p>`:""}

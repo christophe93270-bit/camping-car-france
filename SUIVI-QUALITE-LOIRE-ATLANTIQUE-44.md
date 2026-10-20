@@ -659,3 +659,18 @@ Sources :
 - https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-a-cote-de-l-eglise
 - https://rando.loire-atlantique.fr/service/180264-AIRE-DE-STATIONNEMENT
 - https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT
+
+## Lot complémentaire 34 — 20 octobre 2026
+
+**Deux enrichissements tarifaires/pratiques distincts ; aucun tarif opérateur 2026 n'est fabriqué.**
+
+- **Yelloh! Village Le Ranch à La Plaine-sur-Mer** (`ACCAMACCAMPDL044000049`) : CampingFrance publie dans la version anglophone de la fiche exacte, rubrique **2026 rates**, un forfait emplacement de tourisme de **74 €/nuit**, **deux adultes et électricité compris**. Il ne précise pas les dates/saisons exactes du tarif. Ce montant diffère d'une mention communautaire antérieure d'environ **29 €/nuit non millésimée** : aucun rapprochement arbitraire. Le prix de base de la fiche publique reste **`Non confirmé`** tant que l'exploitant n'a pas confirmé la période, le type de parcelle et les suppléments. L'interface affiche ce prix **uniquement dans un encadré textuel secondaire « repère indicatif 2026 (non confirmé par le camping) » avec lien direct vers CampingFrance**, distinct du tarif principal.
+- **Camping Les Chênes Verts (Villeneuve-en-Retz)** (`ACCAMACCAMPDL044V50G1TE`) : la FAQ de l'exploitant confirme l'accès à l'emplacement **à partir de 14 h** et sa libération **à 12 h**, plus la fermeture de la saison 2026 le **13 septembre**. Ces horaires et leur source sont affichés dans le champ d'accueil, sans déduire le tarif variable de la nuitée ni les conditions de vidange pour non-résidents.
+- Le tableau de contacts conserve les deux demandes prêtes à envoyer sans déclarer un envoi. Un complément y liste la divergence **74 €/nuit (référence CampingFrance 2026)** et **29 €/nuit (estimation communautaire non datée)** à éclaircir par Le Ranch.
+- Audit automatique : vérification de la source, de l'année, de la distinction entre tarif indicatif et prix confirmé, et des horaires officiels. **Compteurs : 165 fiches générales, 143 avec filtre nocturne, 11 tarifs strictement non confirmés.**
+
+Sources :
+- https://www.campingfrance.com/uk/find-your-campsite/pays-de-la-loire/loire-atlantique/la-plaine-sur-mer/le-ranch3
+- https://www.camping-le-ranch.com/fr/emplacements/78629
+- https://www.leschenesverts.info/location-emplacements-villeneuve-en-retz/
+- https://www.leschenesverts.info/hebergement/emplacement/

@@ -148,6 +148,9 @@ jobs:
           night_unestablished_records=[x for x in visible_regional if str(x.get("sourceId")) in night_unestablished_new]
           assert len(night_unestablished_records)==7 and all(x.get("overnightStatus")=="not_established" and x.get("overnightClassification")=="not_established_not_prohibited" and str(x.get("overnightEvidenceUrl","")).startswith("https://") for x in night_unestablished_records), "44 lot 33 : qualification prudentielle des 7 points sans preuve de nuitée incomplète"
           assert all(x.get("overnightVerificationNote") for x in night_unestablished_records), "44 lot 33 : justification d’incertitude manquante"
+          chenes=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044V50G1TE")
+          assert ranch.get("indicative2026RateYear")==2026 and "74 €" in ranch.get("indicative2026RateLabel","") and ranch.get("indicative2026RateSource")=="https://www.campingfrance.com/uk/find-your-campsite/pays-de-la-loire/loire-atlantique/la-plaine-sur-mer/le-ranch3" and ranch.get("price")=="Non confirmé", "Le Ranch : repère CampingFrance 2026 ne doit pas être confondu avec un tarif exploitant"
+          assert "14 h" in chenes.get("receptionHoursNote","") and "12 h" in chenes.get("receptionHoursNote","") and chenes.get("receptionHoursSource")=="https://www.leschenesverts.info/location-emplacements-villeneuve-en-retz/" and chenes.get("price")=="Non confirmé", "Les Chenes Verts : heures opérateur et tarif à confirmer manquants"
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
           assert night_flags_total==22 and night_filter_visible==143, f"44 : attendu 17 nuitées non établies + 5 interdictions (143 points filtrés), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
@@ -207,6 +210,7 @@ jobs:
               f"- Fiches régionales avec nuitée explicitement non autorisée (jour seulement ou services uniquement) : **{len(overnight_prohibited_regional)}**",
               f"- **Filtre nuitée interdite OU non établie : {night_filter_visible} lieux / {total_visible}**",
               "- Lot 33 : 7 fiches auparavant non filtrées requalifiées nuitée NON ÉTABLIE (sans prétendre une interdiction) ; 143 visibles avec filtre.",
+              "- Lot 34 : Le Ranch dispose d’un prix de référence tiers 2026 (74 €/nuit, non contractuel) distinct du champ tarif non confirmé ; Chênes Verts horaires d’emplacement 14h/12h sourcés.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",

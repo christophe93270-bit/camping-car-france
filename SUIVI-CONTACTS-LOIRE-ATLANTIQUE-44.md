@@ -37,3 +37,10 @@ Ces onze liens préparent des demandes différenciées : mairies pour les droits
 - Aucun contact sortant n'a été effectué ; l'état reste « Non envoyé » pour les onze lignes.
 - Les prix restent `Non confirmé` : 9 fiches régionales visibles et 2 complémentaires.
 - Déploiement du lot précédent `5395a4a5` et audits : réussis.
+
+## Éléments tarifaires à confronter aux réponses — lot 34
+
+- **Le Ranch, La Plaine-sur-Mer** : CampingFrance (édition anglophone, rubrique tarifs 2026) publie **74 €/nuit** pour un emplacement de tourisme avec **deux adultes et électricité**. Une source communautaire plus ancienne et sans date certifiée indiquait à partir de **29 €/nuit** ; aucune de ces indications ne garantit un devis pour une date choisie. Lors d'une réponse de l'exploitant, demander l'**année**, les **dates/saisons**, la **catégorie d'emplacement** (nu, eaux usées ou sanitaire privatif), les **suppléments** et le **tarif de vidange sans séjour**. Référence CampingFrance : https://www.campingfrance.com/uk/find-your-campsite/pays-de-la-loire/loire-atlantique/la-plaine-sur-mer/le-ranch3
+- **Les Chênes Verts, Villeneuve-en-Retz** : horaires d'arrivée **14 h** et de départ **12 h** établis par https://www.leschenesverts.info/location-emplacements-villeneuve-en-retz/ ; tarif d'emplacement selon dates et possibilité de vidange extérieure encore inconnus.
+
+**Statut de la correspondance : les onze demandes restent non envoyées ; aucune réponse reçue.**
