@@ -1540,14 +1540,14 @@
       "Borne dédiée de vidange camping-car non confirmée"
     ],
     "price": "Non confirmé",
-    "status": "La Tansorais, 44320 Saint-Père-en-Retz. Le site du camping affiche 19,50 €/nuit pour 2 personnes sur un emplacement camping-car en « basse saison », électricité +6,50 €/jour. MAIS la grille PDF téléchargeable est datée du 1er janvier 2024 : ne pas présenter ces tarifs comme validés pour 2026 sans confirmation auprès du gestionnaire. Ouverture affichée du 1er avril au 31 octobre.",
+    "status": "Camping Les Mouettes, La Tansorais, Saint-Père-en-Retz. Un ancien site de l'établissement présente des prix, mais aucun tarif 2026 directement attribuable à cet établissement n'a été certifié au 20/10/2026. Le PDF « Les Mouettes 2026 » publié par camping-les-mouettes.com concerne Agon-Coutainville dans la Manche : ne pas réutiliser ces montants pour la Loire-Atlantique.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.21919,
     "longitude": -2.13753,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : site exploitant affiche 19,50 €/nuit et +6,50 € électricité, mais la dernière grille PDF vérifiable est datée de 2024 : tarif 2026 maintenu « Non confirmé » ; information historique explicitement signalée.",
+    "importReview": "Audit d'homonymes 20/10/2026 : camping-les-mouettes.com = Agon-Coutainville (50), sans rapport avec Les Mouettes de Saint-Père-en-Retz (44). Prix 2026 maintenu non confirmé.",
     "sourceId": "ACCAMACCAMPDL044000155",
     "sourceOfficial": "https://www.les-mouettes-camping.com/",
     "servicesSource": "https://www.les-mouettes-camping.com/",
@@ -2791,22 +2791,24 @@
   },
   {
     "department": "44",
-    "name": "Aire de pique-nique",
+    "name": "Aire de pique-nique – Pierric",
     "city": "PIERRIC",
     "type": "Aire de pique-nique — accueil camping-car non établi",
     "services": [
-      "Services non renseignés"
+      "Aire de pique-nique (usage de pause uniquement documenté)",
+      "Eau, vidange, électricité et nuitée non confirmées"
     ],
     "price": "Non confirmé",
-    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
+    "status": "Lieu classé « aire de pique-nique » dans les données touristiques, sans preuve d'emplacements de camping-car ni d'autorisation de nuitée. Une fiche touristique indique le lieu-dit La Chapulais, à Pierric. L'office de tourisme référence un espace de pause dans cette commune, mais l'identité exacte avec le point GPS régional n'est pas démontrée. Ne pas annoncer de stationnement nocturne, de vidange ou de tarif camping-car.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.70237,
     "longitude": -1.83513,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
-    "sourceId": "ACCAMPDL044V51HCG7"
+    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Pierric). Identité exacte avec le GPS régional et accueil camping-car non établis. Prix Non confirmé conservé.",
+    "sourceId": "ACCAMPDL044V51HCG7",
+    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/"
   },
   {
     "department": "53",
@@ -4043,22 +4045,24 @@
   },
   {
     "department": "44",
-    "name": "Aire de pique-nique",
+    "name": "Aire de pique-nique – Plessé",
     "city": "PLESSE",
     "type": "Aire de pique-nique — accueil camping-car non établi",
     "services": [
-      "Services non renseignés"
+      "Aire de pique-nique (usage de pause uniquement documenté)",
+      "Eau, vidange, électricité et nuitée non confirmées"
     ],
     "price": "Non confirmé",
-    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
+    "status": "Lieu classé « aire de pique-nique » dans les données touristiques, sans preuve d'emplacements de camping-car ni d'autorisation de nuitée. Une fiche touristique indique place de l'Église à Plessé. L'office de tourisme référence un espace de pause dans cette commune, mais l'identité exacte avec le point GPS régional n'est pas démontrée. Ne pas annoncer de stationnement nocturne, de vidange ou de tarif camping-car.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.55694,
     "longitude": -1.83597,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
-    "sourceId": "ACCAMPDL044V51HCG9"
+    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Plessé). Identité exacte avec le GPS régional et accueil camping-car non établis. Prix Non confirmé conservé.",
+    "sourceId": "ACCAMPDL044V51HCG9",
+    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/"
   },
   {
     "department": "44",
@@ -4087,22 +4091,24 @@
   },
   {
     "department": "44",
-    "name": "Aire de pique-nique",
+    "name": "Aire de pique-nique – Avessac",
     "city": "AVESSAC",
     "type": "Aire de pique-nique — accueil camping-car non établi",
     "services": [
-      "Services non renseignés"
+      "Aire de pique-nique (usage de pause uniquement documenté)",
+      "Eau, vidange, électricité et nuitée non confirmées"
     ],
     "price": "Non confirmé",
-    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
+    "status": "Lieu classé « aire de pique-nique » dans les données touristiques, sans preuve d'emplacements de camping-car ni d'autorisation de nuitée. Une fiche touristique situe une aire rue de Sainte-Marie à Avessac. L'office de tourisme référence un espace de pause dans cette commune, mais l'identité exacte avec le point GPS régional n'est pas démontrée. Ne pas annoncer de stationnement nocturne, de vidange ou de tarif camping-car.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.657,
     "longitude": -1.98766,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
-    "sourceId": "ACCAMPDL044V51HCFZ"
+    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Avessac). Identité exacte avec le GPS régional et accueil camping-car non établis. Prix Non confirmé conservé.",
+    "sourceId": "ACCAMPDL044V51HCFZ",
+    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-2/"
   },
   {
     "department": "53",
@@ -4885,23 +4891,24 @@
     "city": "SAINT-BREVIN-LES-PINS",
     "type": "Camping-village privé 5 étoiles accueillant les camping-cars",
     "services": [
-      "Emplacements de camping-car standard ou Luxe avec sanitaires privés",
-      "Sanitaires et électricité selon formule",
-      "Parc aquatique et services du camping",
-      "Séjour de 2 nuits minimum selon la fiche régionale, hors périodes spécifiques"
+      "Emplacements camping-car au camping, 15 emplacements nus recensés en plus de 22 emplacements tente avec sanitaires privés",
+      "Électricité incluse dans la fourchette de forfait affichée",
+      "Point eau et ravitaillement camping-car dans le camping",
+      "Sanitaires et installations de loisirs de l'établissement"
     ],
-    "price": "Non confirmé",
-    "status": "57 chemin du Fief, 44250 Saint-Brevin-les-Pins. Camping-village 5 étoiles ouvert du 3 avril au 4 octobre 2026 ; saison camping 2026 terminée au 20 octobre. L'hébergement camping-car est réservé aux clients du camping. Aucun tarif de camping-car 2026 fixe confirmé dans la fiche institutionnelle.",
+    "price": "Fourchette de forfait 2 personnes et électricité de 35 à 66 € / nuit selon saison sur l'office de tourisme de Saint-Brevin, consulté le 20/10/2026. Taxe de séjour 0,66 €/adulte/nuit et éco-participation 0,40 € mineur / 0,80 € adulte par nuit en supplément. Millésime propre du prix non écrit séparément sur la fiche ; confirmer avant réservation.",
+    "status": "57 chemin du Fief, 44250 Saint-Brevin-les-Pins. Camping Sandaya Le Fief ouvert du 3 avril au 4 octobre 2026 selon l'office de tourisme ; saison terminée le 20 octobre. Les prix 35–66 € correspondent au forfait emplacement pour 2 personnes avec électricité, pas au seul service de vidange ni à un hébergement mobil-home.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.23506,
     "longitude": -2.16678,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : période 2026, classement 5 étoiles et emplacements nus tentes/caravanes/camping-cars vérifiés sur la Région ; tarif non confirmé maintenu.",
+    "importReview": "20/10/2026 : capacité, ouverture 2026 et forfait 2 personnes + électricité 35–66 € relevés auprès de l'office de tourisme Saint-Brevin. Année spécifique du tarif non étiquetée séparément, à confirmer à la réservation.",
     "sourceId": "ACCAMACCAMPDL044000118",
-    "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/sandaya-le-fief",
-    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/sandaya-le-fief"
+    "sourceOfficial": "https://www.saint-brevin.com/sandaya-le-fief.html",
+    "servicesSource": "https://www.saint-brevin.com/sandaya-le-fief.html",
+    "priceSource": "https://www.saint-brevin.com/sandaya-le-fief.html"
   },
   {
     "department": "44",
@@ -5753,22 +5760,24 @@
   },
   {
     "department": "44",
-    "name": "Aire de pique-nique",
+    "name": "Aire de pique-nique – Guémené-Penfao",
     "city": "GUEMENE-PENFAO",
     "type": "Aire de pique-nique — accueil camping-car non établi",
     "services": [
-      "Services non renseignés"
+      "Aire de pique-nique (usage de pause uniquement documenté)",
+      "Eau, vidange, électricité et nuitée non confirmées"
     ],
     "price": "Non confirmé",
-    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
+    "status": "Lieu classé « aire de pique-nique » dans les données touristiques, sans preuve d'emplacements de camping-car ni d'autorisation de nuitée. Une fiche touristique référence une aire de pique-nique dans la commune de Guémené-Penfao. L'office de tourisme référence un espace de pause dans cette commune, mais l'identité exacte avec le point GPS régional n'est pas démontrée. Ne pas annoncer de stationnement nocturne, de vidange ou de tarif camping-car.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.7012569,
     "longitude": -1.8661508,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
-    "sourceId": "ACCAMPDL044V51HCG4"
+    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Guémené-Penfao). Identité exacte avec le GPS régional et accueil camping-car non établis. Prix Non confirmé conservé.",
+    "sourceId": "ACCAMPDL044V51HCG4",
+    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/"
   },
   {
     "department": "44",
@@ -5858,18 +5867,19 @@
       "Vidange eaux grises/noires signalée par la source régionale, accès aux visiteurs extérieurs non confirmé",
       "Wi-Fi du camping"
     ],
-    "price": "Non confirmé",
-    "status": "165 avenue de Bonne Source, 44380 Pornichet. Camping 4 étoiles ouvert du 27 mars au 1er novembre 2026 selon Pays de la Loire Tourisme ; 7 emplacements de camping-car déclarés. Tarif nuitée camping-car et forfait vidange seule non publiés. Ne pas assimiler à une borne publique.",
+    "price": "Référence ADAC/PiNCAMP pour ce camping de Pornichet en 2026 : tarif de comparaison pour un couple à partir de 34 € / nuit en basse saison et de 66 € / nuit en haute saison. Électricité et taxe de séjour non incluses selon ADAC ; ce sont des tarifs indicatifs de comparaison, pas un devis officiel ni un forfait borne seule.",
+    "status": "Camping Le Bel Air, 165 avenue de Bonne Source, Pornichet. Pornichet Tourisme confirme la localisation, l'aire de services et une ouverture du 1er avril au 6 novembre 2026. ADAC/PiNCAMP publie des prix comparatifs pour couple en 2026 (34–66 €, taxe et électricité en sus). Les 7 places camping-car de la fiche régionale ne sont pas confirmées comme disponibles toute l'année.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.24831,
     "longitude": -2.32372,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : 7 emplacements, coordonnées du camping et calendrier 2026 confirmés par la fiche institutionnelle ; prix inconnu conservé.",
+    "importReview": "20/10/2026 : identité camping Pornichet vérifiée sur office municipal, tarifs comparatifs 2026 (couple 34–66 €) sur ADAC/PiNCAMP. Ne pas utiliser le PDF de campingbelair.fr : il concerne Saint-Ours-les-Roches (63), un homonyme.",
     "sourceId": "ACCAMEBELAIR",
-    "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/campings/le-bel-air",
-    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/campings/le-bel-air"
+    "sourceOfficial": "https://www.pornichet.fr/camping-bel-air",
+    "servicesSource": "https://www.pornichet.fr/camping-bel-air",
+    "priceSource": "https://www.pincamp.fr/campings/camping-bel-air-pornichet"
   },
   {
     "department": "44",
@@ -7180,23 +7190,24 @@
     "city": "SAINT-MICHEL-CHEF-CHEF",
     "type": "Camping 3 étoiles accueillant les camping-cars",
     "services": [
-      "Emplacements camping-car dans le camping",
-      "Eau potable (source régionale)",
-      "Vidange signalée dans la base touristique, conditions à confirmer",
-      "Sanitaires et activités du camping"
+      "Emplacements camping-car de 80 m² minimum",
+      "Accès aux sanitaires du camping",
+      "Services internes du camping ; vidange des camping-cars à demander à l'accueil",
+      "Frais de réservation et taxes 2026 précisés, nuitée de base encore inconnue"
     ],
     "price": "Non confirmé",
-    "status": "103 route de Tharon, 44730 Saint-Michel-Chef-Chef. Emplacements de camping et prestations au sein du camping 3 étoiles ; aucun forfait 2026 pour camping-car ni tarif de vidange seule confirmé sur le site du camping. Même établissement que la fiche « Clos Mer et Nature », conservée uniquement pour traçabilité.",
+    "status": "103 route de Tharon, 44730 Saint-Michel-Chef-Chef. Emplacement camping-car confirmé dans le camping Clos Mer et Nature ; contrat officiel 2026 : frais de dossier de 10 € pour réservation jusqu'à 3 nuits et 20 € au-delà, taxe de séjour 0,66 €/adulte/nuit et éco-participation 0,30 €/personne/nuit. Prix de base de la nuitée camping-car non publié dans ce document : il reste non confirmé. Même établissement que la deuxième fiche Clos Mer et Nature déjà masquée pour doublon.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.17283,
     "longitude": -2.15836,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Adresse et établissement 3 étoiles vérifiés le 20/10/2026 avec site du camping et Loire-Atlantique Tourisme. Fiche canonique d'un doublon régional géolocalisé à 11 m.",
+    "importReview": "20/10/2026 : contrat 2026 officiel : réservation 10/20 €, taxes 0,66 €/adulte + 0,30 €/personne/nuit. Aucun prix de nuitée de base retrouvé ; champ « Non confirmé » maintenu.",
     "sourceId": "ACCAMPDL044V5002ZN",
     "sourceOfficial": "https://www.camping-clos-mer-nature.fr/",
-    "servicesSource": "https://www.camping-clos-mer-nature.fr/"
+    "servicesSource": "https://www.camping-clos-mer-nature.fr/",
+    "priceSource": "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf"
   },
   {
     "department": "44",
@@ -7204,23 +7215,24 @@
     "city": "SAINT-PHILBERT-DE-GRAND-LIEU",
     "type": "Aire privée de 16 emplacements dans le camping",
     "services": [
-      "16 emplacements pour camping-cars dans le camping",
-      "Eau, douches et toilettes",
-      "Électricité selon formule",
-      "Wi-Fi"
+      "Aire privée de 16 places camping-car mentionnée par Pays de la Loire Tourisme",
+      "Village des campeurs du camping : 120 parcelles pour tentes, caravanes et camping-cars",
+      "Eau, toilettes, douches et évacuation eaux usées dans le camping",
+      "Électricité +4 € / nuit selon grille générale 2026"
     ],
-    "price": "Non confirmé",
-    "status": "1 avenue de Nantes, 44310 Saint-Philbert-de-Grand-Lieu. Aire privée de 16 places au sein du camping. Tarif 2026 inconnu sur la fiche touristique. Ne pas confondre avec la borne communale du chemin de la Plage.",
+    "price": "Grille d'emplacements du camping publiée pour 2026 par Les Rives de Grand Lieu : 16 € / nuit en basse saison, 18 € / nuit en haute saison pour 1 à 2 personnes. Branchement électrique +4 € / nuit. Le prix exact de l'aire dédiée camping-car de 16 places n'est pas identifié séparément ; demander au camping avant arrivée.",
+    "status": "1 avenue de Nantes, Saint-Philbert-de-Grand-Lieu. Le camping indique 120 parcelles de camping au total sur son site et publie les tarifs 2026 16–18 €/nuit pour 1 à 2 personnes, électricité +4 €. Une fiche touristique mentionne 16 places d'aire camping-car : ne pas confondre ces deux capacités ni supposer que le tarif général est forcément celui de l'aire dédiée. Le tarif ACSI présent sur la page fait référence à des périodes 2024, ne pas le présenter comme actif en 2026.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.0420158,
     "longitude": -1.6406832,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle du 20/10/2026 : Aire du Camping Village des Rives de Grand Lieu ; source tourisme ou annuaire cité dans sourceOfficial. Tarifs laissés inconnus lorsqu’aucun montant applicable n’est publié.",
+    "importReview": "20/10/2026 : 16–18 € emplacement camping général 2026 et électricité +4 € vérifiés sur la page de l'exploitant. Mention ACSI datée 2024 écartée pour 2026 ; prix spécifique de l'aire de 16 places à reconfirmer.",
     "sourceId": "ACCAMPDL044V50LCQJ",
-    "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-du-village-des-rives-de-grand-lieu",
-    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-du-village-des-rives-de-grand-lieu"
+    "sourceOfficial": "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu",
+    "servicesSource": "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu",
+    "priceSource": "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu"
   },
   {
     "department": "49",

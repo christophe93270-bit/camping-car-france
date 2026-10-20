@@ -162,3 +162,29 @@ Sources de ce lot :
 - https://ushuaia-villages.com/fr-fr/ushuaia-villages-camping-l-estuaire_1511093.html
 - https://www.les-mouettes-camping.com/
 - https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf
+
+## Lot complémentaire 8 — 20 octobre 2026
+
+**9 fiches régionales contrôlées, aucun emplacement ajouté, retiré ou fusionné.**
+
+- **Les Rives de Grand Lieu (Saint-Philbert-de-Grand-Lieu)** : camping propriétaire donne 16 € basse saison, 18 € haute saison 2026 pour 1–2 personnes, électricité +4 €/nuit. Ce barème est celui du village campeurs général (120 emplacements) : la tarification spécifique de l'aire touristique de 16 places n'est pas individualisée. Forfait ACSI imprimé avec dates 2024, non revendiqué 2026.
+- **Sandaya Le Fief (Saint-Brevin-les-Pins)** : forfait 2 personnes + électricité 35–66 €/nuit selon la fiche actuelle de l'office de tourisme, laquelle présente l'ouverture 2026 mais ne millésime pas isolément les prix. Taxes séparées.
+- **Le Bel Air (Pornichet)** : PiNCAMP/ADAC tarif de comparaison couple 2026 : à partir de 34 € en basse saison et 66 € en haute saison, hors taxe et électricité ; ce n'est pas une grille officielle détaillée du camping. Commune et ouverture 2026 recoupées auprès de Pornichet Tourisme.
+- **Clos Mer et Nature** : contrat de réservation officiel 2026 confirmant dossier 10 ou 20 € selon la durée, taxe 0,66 €/adulte/nuit et éco-participation 0,30 €/personne/nuit. Le prix **de base** d'une nuitée camping-car reste `Non confirmé`.
+- **Quatre aires de pique-nique** à Pierric, Plessé, Avessac et Guémené-Penfao : fiches de l'office de tourisme indiquant l'usage de pique-nique dans chaque commune, sans prouver que les points GPS régionaux sont les mêmes ni qu'une nuitée camping-car est autorisée. Ces champs `price` restent `Non confirmé`.
+- **Les Mouettes de Saint-Père-en-Retz** : tarif 2026 encore `Non confirmé`. Ne **pas** utiliser la grille 2026 de camping-les-mouettes.com, qui concerne **Agon-Coutainville (Manche, 50)**. Le PDF 2026 de campingbelair.fr concerne **Saint-Ours-les-Roches (Puy-de-Dôme, 63)**, pas Le Bel Air de Pornichet.
+
+**Total régional** : 158 fiches brutes, 156 affichables après deux doublons. **Prix exactement `Non confirmé` : 21 fiches régionales**, dont 2 doublons masqués (19 visibles) ; 3 complémentaires conservent aussi ce champ. Le compteur attendu du département reste **165 lieux**, déjà confirmé par l'utilisateur.
+
+### Sources lot 8
+- https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu
+- https://www.saint-brevin.com/sandaya-le-fief.html
+- https://www.pincamp.fr/campings/camping-bel-air-pornichet
+- https://www.pornichet.fr/camping-bel-air
+- https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf
+- https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/
+- https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/
+- https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-2/
+- https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/
+- https://www.camping-les-mouettes.com/
+- https://campingbelair.fr/contacts-acces/
