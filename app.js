@@ -110,7 +110,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261020-17", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261020-18", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -465,7 +465,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Morbihan indisponible",error); }
     let loireAtlantiqueAires=[];
     try {
-      const response44=await fetch("aires-loire-atlantique.json?v=20261020-15", {cache:"no-store"});
+      const response44=await fetch("aires-loire-atlantique.json?v=20261020-18", {cache:"no-store"});
       if(response44.ok) loireAtlantiqueAires=await response44.json();
     } catch(error) { console.warn("Chargement Loire-Atlantique indisponible",error); }
     let essonneAires=[];
@@ -603,7 +603,7 @@ async function initAires(){
         ${a.department==="44"&&a.potentialDuplicateOfSourceId ? `<p><strong>Doublon possible :</strong> ce point peut correspondre à un autre lieu déjà recensé.</p>` : ""}
         <p><strong>Services :</strong> ${escapeHTML((Array.isArray(a.services)?a.services:[]).join(", "))}</p>
         <p><strong>${a.priceStatus==="not_applicable_for_night_stay"?"Tarif de nuitée :":"Tarif :"}</strong> ${escapeHTML(a.price)}</p>
-        ${a.contactPhone&&/^[+0-9 ().-]{10,25}$/.test(String(a.contactPhone))?`<p><strong>Contact tarif :</strong> <a href="tel:${String(a.contactPhone).replace(/[^+0-9]/g,"")}">${escapeHTML(a.contactPhone)}</a> <small>(numéro public indiqué par la source ; tarif à confirmer)</small></p>`:""}
+        ${a.contactPhone&&/^[+0-9 ().-]{10,25}$/.test(String(a.contactPhone))?`<p><strong>${a.contactRole==="mairie"?"Mairie — accès et tarifs :":a.contactRole==="ferme"?"Contacter la ferme :":a.contactRole==="site_proche"?"Renseignements sur le site proche :":a.contactRole==="camping"?"Contacter le camping :":"Contact tarif :"}</strong> <a href="tel:${String(a.contactPhone).replace(/[^+0-9]/g,"")}">${escapeHTML(a.contactPhone)}</a> <small>(contact public sourcé ; prix et conditions de nuitée non certifiés par un appel)</small></p>`:""}
         <p><strong>À vérifier :</strong> ${escapeHTML(a.status)}</p>
         ${a.dataAttribution?`<p><small>Données : ${escapeHTML(a.dataAttribution)} — ${escapeHTML(a.dataLicense||"Licence non indiquée")}</small></p>`:""}
         ${a.sourceOfficial&&a.sourceOfficial!==a.source&&/^https?:\/\//i.test(String(a.sourceOfficial))?`<a href="${escapeHTML(a.sourceOfficial)}" target="_blank" rel="noopener noreferrer">Source du lieu ↗</a> · `:""}<a href="${escapeHTML(a.source)}" target="_blank" rel="noopener noreferrer">Données d’origine ↗</a>
@@ -633,7 +633,14 @@ async function initAires(){
              warning.textContent="Doublon possible ou plusieurs offres sur un même site : vérifiez avant de compter ce point comme une aire distincte.";
              popup.append(warning);
            }
-           popup.append(link);marker.bindPopup(popup);
+           popup.append(link);
+           if(a.contactPhone&&/^[+0-9 ().-]{10,25}$/.test(String(a.contactPhone))){
+             const phone=document.createElement("a");
+             phone.href="tel:"+String(a.contactPhone).replace(/[^+0-9]/g,"");
+             phone.textContent=" · Contact : "+String(a.contactPhone);
+             popup.append(phone);
+           }
+           marker.bindPopup(popup);
           points.push([a.latitude,a.longitude]);
         });
         if(points.length===1)map.setView(points[0],12);

@@ -72,7 +72,10 @@ jobs:
           overnight_pending=sum(x.get("overnightStatus")=="not_established" and "pique-nique" in str(x.get("type","")).lower() for x in visible_regional)
           total_visible=len(visible_regional)+len(visible_osm)
           unresolved_with_contact=[x for x in visible_regional if x.get("price")=="Non confirmé" and x.get("contactPhone")]
-          phones_invalid=[x.get("sourceId") for x in visible_regional if x.get("contactPhone") and not re.fullmatch(r"[+0-9 ().-]{10,25}",str(x.get("contactPhone")))]
+          unresolved_osm_with_contact=[x for x in visible_osm if x.get("price")=="Non confirmé" and x.get("contactPhone")]
+          contacts_incomplete=[str(x.get("sourceId")) for x in visible_regional+visible_osm if x.get("contactPhone") and (not str(x.get("contactSource","")).startswith("https://") or not x.get("contactRole") and x.get("priceCheckedAt"))]
+          assert not contacts_incomplete, "Contact sourcé incomplet : "+str(contacts_incomplete)
+          phones_invalid=[x.get("sourceId") for x in visible_regional+visible_osm if x.get("contactPhone") and not re.fullmatch(r"[+0-9 ().-]{10,25}",str(x.get("contactPhone")))]
           assert not phones_invalid, "Contacts téléphoniques invalides : "+str(phones_invalid)
           extra_potential_duplicates=[x for x in visible_osm if x.get("potentialDuplicateOfSourceId")]
           overnight_other_regional=sum(x.get("overnightStatus")=="not_established" and "pique-nique" not in str(x.get("type","")).lower() for x in visible_regional)
@@ -114,7 +117,10 @@ jobs:
               f"- Fiches régionales visibles au prix exactement 'Non confirmé' : **{visible_regional_unknown}**",
               f"- Simples aires de pique-nique au tarif de nuitée non applicable, sans nuitée validée : **{len(excluded_picnic)}**",
               "- La baisse du nombre de prix inconnus provient d'une **requalification**, pas d'une confirmation de tarif.",
-              f"- Parmi celles-ci, contacts téléphoniques directs vérifiés en ligne : **{len(unresolved_with_contact)}**",
+              f"- Parmi celles-ci, fiches disposant d'un contact public sourcé (camping, ferme ou mairie) : **{len(unresolved_with_contact)}**",
+              f"- Compléments visibles au prix non confirmé avec un contact public sourcé : **{len(unresolved_osm_with_contact)}**",
+              f"- **Total fiches visibles au prix strictement Non confirmé avec un contact : {len(unresolved_with_contact)+len(unresolved_osm_with_contact)} / {visible_regional_unknown+visible_osm_unknown}**",
+              "- Aucun contact n'a été appelé : un téléphone sourcé ne remplace pas une confirmation de tarif.",
               f"- Fiches complémentaires brutes au prix exactement 'Non confirmé' : **{osm_unknown}**",
               f"- Fiches complémentaires visibles au prix exactement 'Non confirmé' : **{visible_osm_unknown}**",
               f"- **Total des tarifs strictement non confirmés parmi les fiches visibles : {visible_regional_unknown+visible_osm_unknown}**",

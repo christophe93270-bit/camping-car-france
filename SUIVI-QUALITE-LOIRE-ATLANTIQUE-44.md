@@ -376,3 +376,29 @@ https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/
 https://tourisme-pays-redon.com/sorganiser/savourer/aires-de-pique-nique/
 https://tourisme-pays-redon.com/visite/la-carriere/
 https://tourisme-pays-redon.com/experiences/idees-descapades/pique-niquer-redon/
+
+## Lot complémentaire 18 — 20 octobre 2026
+
+**Sept fiches supplémentaires documentées : quatre régionales et trois complémentaires, pour couvrir les treize prix encore strictement non confirmés avec un contact public.** Aucun appel, aucune modification artificielle des prix, aucune fusion ni ajout d'aire.
+
+- **Legé, ferme des Cochons d'Antan** : contact de l'exploitant `06 63 22 27 70` publié par son propre site et par Sud Retz Atlantique Tourisme. L'annuaire touristique la référence sous « Aire de stationnement », mais ne valide pas son éventuelle inscription au guide France Passion **2026**.
+- **Nort-sur-Erdre, ferme du Biau Chemin** : `02 40 29 53 20` et activité d'accueil pédagogique confirmés par le site officiel du réseau Accueil Paysan. Cela ne constitue pas une attestation d'accueil camping-car France Passion 2026.
+- **Camping Les Mouettes, Saint-Père-en-Retz** : téléphone direct `09 81 81 11 20`. Le site officiel affiche deux tarifs divergents selon la variante de domaine (15 € sans www, 19,50 € avec www) et son PDF contient une date de 2024 ; ne pas certifier ces montants pour 2026.
+- **Saint-Molf, Pont de Clin** : contact officiel de la mairie `02 40 62 50 77`. Nuitée et tarif à confirmer par la commune.
+- **Plessé, parking OSM près de l'église** : contact mairie `02 40 79 60 14`; nuitée et prix non validés.
+- **Corcoué-sur-Logne, géométrie OSM rue de la Poste** : contact `02 40 05 86 90` figurant sur l'aire officielle voisine Grotte Saint-Jean dans le répertoire de l'office de tourisme ; le contact n'atteste PAS une seconde aire indépendante. Le point de stationnement officiel comprend quatre places gratuites selon le tourisme, mais l'identité exacte du polygone OSM reste à clarifier.
+- **Ancenis-Saint-Géréon, Barrière Saint-Pierre** : mairie `02 40 83 87 00` (site municipal actuel). Deux places dans le guide 2024, trois et limite 48 h dans un annuaire sans millésime : aucun nombre actuel certifié.
+
+**Interface et audits** : liens téléphone dans les cartes et marqueurs, avec distinction entre exploitant, ferme, mairie et contact d'un site proche. Champs `contactRole`, `contactSource`, `priceVerification` et `priceCheckedAt` ajoutés. L'audit contrôle aussi les coordonnées des compléments et signale combien de fiches à prix strictement non confirmé possèdent un contact sourcé.
+
+**Bilan attendu** : 165 fiches affichables (156 régionales + 9 compléments) ; 13 tarifs strictement « Non confirmé » parmi les fiches visibles, désormais **13 contacts recensés** : 10 parmi les fiches régionales et 3 parmi les compléments. Les tarifs ne sont pas confirmés, et les sept pique-niques demeurent hors champ des nuitées.
+
+Sources :
+- https://lafermedescochonsdantan.fr/mentions-legales/
+- https://www.sudretzatlantique-tourisme.fr/sejourner-2/hebergements/aires-de-camping-car/
+- https://www.accueil-paysan.com/fr/structure/2003/
+- https://www.les-mouettes-camping.com/
+- https://les-mouettes-camping.com/
+- https://www.mairie-saint-molf.fr/pratique/contact-et-demarches-en-ligne/
+- https://www.commune-de-plesse.com/les-services-municipaux
+- https://ancenis-saint-gereon.fr/publications/
