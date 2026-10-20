@@ -559,3 +559,13 @@ Sources :
 - https://lafermedescochonsdantan.fr/
 - https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf (document 2024)
 - https://rando.loire-atlantique.fr/service/182149-Camping-Eden-Villages-La-Pointe-Saint-Gildas
+
+## Lot complémentaire 28 — 20 octobre 2026
+
+**Préparation, sans envoi, de 11 demandes de confirmation individualisées.** Le précédent tableau avait une ambiguïté de navigation : cliquer sur l'adresse e-mail affichée ouvrait la page source et ne préparait pas de message. Désormais les preuves et les liens d'action sont séparés dans `SUIVI-CONTACTS-LOIRE-ATLANTIQUE-44.md` : `[source]` pour contrôler la provenance et `Ouvrir un courriel préparé` pour remplir destinataire, objet et corps du message dans le logiciel de messagerie.
+
+- Les deux accueils France Passion sont questionnés sur l'activité réelle en 2026, et non sur un forfait public présumé.
+- Les trois interlocuteurs municipaux (Saint-Molf, Plessé, Ancenis-Saint-Géréon) sont interrogés sur le règlement nocturne, les capacités et tarifs éventuels.
+- Les six campings sont interrogés sur le prix de base 2026, les suppléments, l'électricité et les services sans séjour.
+- **Aucun courriel ni appel envoyé ; aucun tarif ni droit de nuitée supplémentaire confirmé.** Les documents déjà consultés, y compris un PDF Les Mouettes millésimé 2024, ne sont pas transformés en grille 2026.
+- **165 fiches au total, 150 après filtre nocturne, 11 tarifs strictement non confirmés** ; les changements du lot 28 sont internes au suivi administratif et n'altèrent pas les données du site.
