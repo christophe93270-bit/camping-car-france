@@ -103,6 +103,11 @@ jobs:
           mouettes=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000155")
           assert clos.get("price")=="Non confirmé" and "4,50" in clos.get("fees2026","") and "15 h" in clos.get("operationalWarning","") and clos.get("feeEvidenceUrl","").startswith("https://"), "Clos Mer et Nature : frais 2026/horaire non sourcés ou tarif de base prétendument confirmé"
           assert mouettes.get("price")=="Non confirmé" and "2024" in mouettes.get("historicPriceEvidence","") and "22 h 30" in mouettes.get("operationalWarning",""), "Les Mouettes : année tarifaire ou restriction nocturne non tracée"
+          saint_molf=next(x for x in visible_regional if x.get("sourceId")=="ACCAMEAIREDESTMOLF")
+          assert mouettes.get("businessRegistrationSiret2026")=="84393721000014" and mouettes.get("historicBrochureSiret")=="38369180500022" and mouettes.get("businessRegistrationSource")=="https://annuaire-entreprises.data.gouv.fr/etablissement/84393721000014" and mouettes.get("price")=="Non confirmé", "44 : état juridique actuel/ancien SIRET des Mouettes ou réserve tarif manquants"
+          assert mouettes.get("receptionHoursSource")=="https://www.les-mouettes-camping.com/conditions-generales-de-vente" and "avant 11 h" in mouettes.get("receptionHoursNote",""), "44 : CGV horaires Les Mouettes non sourcées"
+          assert saint_molf.get("animalAcceptancePublished") is True and saint_molf.get("animalAcceptanceSource")=="https://www.cirkwi.com/fr/point-interet/1157462-aire-de-camping-cars-de-saint-molf" and saint_molf.get("overnightStatus")=="not_established" and saint_molf.get("price")=="Non confirmé", "44 : Saint-Molf doit conserver ses réserves nuitée et prix"
+          assert abs(float(saint_molf.get("latitude"))-47.3834)<0.000001 and abs(float(saint_molf.get("longitude"))+2.4303)<0.000001 and saint_molf.get("overnightRegulationSource","").startswith("https://www.mairie-saint-molf.fr/"), "44 : GPS/Règlements Saint-Molf manquants"
           gps_operator={"ACCAMACCAMPDL044000155": (47.22038,-2.13734), "ACCAMPDL044V51I23X": (47.241931,-2.267936)}
           for target_id,(lat,lon) in gps_operator.items():
               item=next(x for x in visible_regional if x.get("sourceId")==target_id)
@@ -160,7 +165,7 @@ jobs:
           assert len(regional)==160 and len(visible_regional)==158 and total_visible==167, "44 : après deux ajouts le compteur attendu est 167"
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
-          assert night_flags_total==22 and night_filter_visible==145, f"44 : attendu 17 nuitées non établies + 5 interdictions (143 points filtrés), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
+          assert night_flags_total==22 and night_filter_visible==145, f"44 : attendu 17 nuitées non établies + 5 interdictions (145 points affichés après filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -219,6 +224,7 @@ jobs:
               "- Lot 33 : 7 fiches auparavant non filtrées requalifiées nuitée NON ÉTABLIE (sans prétendre une interdiction) ; 143 visibles avec filtre.",
               "- Lot 34 : Le Ranch dispose d’un prix de référence tiers 2026 (74 €/nuit, non contractuel) distinct du champ tarif non confirmé ; Chênes Verts horaires d’emplacement 14h/12h sourcés.",
               "- Lot 35 : deux campings municipaux au Pouliguen, Le Cléin et Les Mouettes, 109/200 emplacements nus ; grille communale 2026 18,95/20,70/27,30 €, et borne distincte 4,40 € / 100 L.",
+              "- Lot 36 : Les Mouettes de Saint-Père-en-Retz — établissement 2026 administrativement actif, discordance avec SIRET des anciens documents et horaires CGV non millésimés ; Saint-Molf — GPS et animaux e-SPRIT 2026 confirmés, nuitée et prix toujours à vérifier.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",

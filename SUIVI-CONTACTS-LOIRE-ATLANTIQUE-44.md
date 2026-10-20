@@ -44,3 +44,10 @@ Ces onze liens préparent des demandes différenciées : mairies pour les droits
 - **Les Chênes Verts, Villeneuve-en-Retz** : horaires d'arrivée **14 h** et de départ **12 h** établis par https://www.leschenesverts.info/location-emplacements-villeneuve-en-retz/ ; tarif d'emplacement selon dates et possibilité de vidange extérieure encore inconnus.
 
 **Statut de la correspondance : les onze demandes restent non envoyées ; aucune réponse reçue.**
+
+## Vérifications complémentaires — lot 36
+
+- **Les Mouettes, Saint-Père-en-Retz** : l'établissement est administrativement **actif en 2026** au SIRET `84393721000014` selon https://annuaire-entreprises.data.gouv.fr/etablissement/84393721000014, mais l'ancien PDF des tarifs 2024 et les CGV non millésimées affichent un autre SIRET (`38369180500022`). **Ne pas conclure à la validité du tarif ni à la continuité d'exploitant à partir du seul statut administratif.** Confirmer la grille applicable à 2026, l'adresse de contact active et le sens de la restriction « 22 h 30–8 h ». Les CGV présentent 14 h/11 h pour les emplacements et 22 h–9 h pour les visiteurs, à distinguer de la nuitée camping-car : https://www.les-mouettes-camping.com/conditions-generales-de-vente.
+- **Saint-Molf, Pont de Clin** : e-SPRIT a actualisé les données (GPS et animaux acceptés) le 09/03/2026, https://www.cirkwi.com/fr/point-interet/1157462-aire-de-camping-cars-de-saint-molf. Aucune preuve publique de prix ou de nuitée autorisée n'a été trouvée sur les pages consultées ; la question prévue à la mairie reste ouverte.
+
+**Aucune des 11 demandes préparées n'a été envoyée ; aucune réponse reçue.**

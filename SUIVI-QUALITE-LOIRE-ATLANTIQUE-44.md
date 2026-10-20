@@ -693,3 +693,20 @@ Sources :
 - https://campings.lepouliguen.fr/wp-content/uploads/2026/03/Depliant_france-2026.pdf
 - https://www.cirkwi.com/fr/point-interet/453069-camping-municipal-le-clein
 - https://www.cirkwi.com/fr/point-interet/453156-camping-municipal-les-mouettes
+
+## Lot complémentaire 36 — 20 octobre 2026
+
+**Contrôle administratif d'un camping à prix non confirmé, recoupement e-SPRIT d'une halte sans droit de nuitée établi ; zéro nouveau tarif prétendu certain.**
+
+- **Camping Les Mouettes à Saint-Père-en-Retz** (identifiant `ACCAMACCAMPDL044000155`) : l'**Annuaire des entreprises** mis à jour en octobre 2026 classe comme **en activité** la société/établissement LE CAMPING LES MOUETTES, SIRET `84393721000014`, à La Tansorais. La grille tarifaire officielle diffusée **au 1er janvier 2024** et les CGV sans millésime portent un **autre SIRET `38369180500022`**, attribué à une documentation historique. Cette divergence est enregistrée comme point de vigilance documentaire ; **ne prouve ni un changement de gérant ni un prix 2026**.
+- Les **CGV du site** annoncent, pour les emplacements de camping, arrivée **à partir de 14 h** et départ **avant 11 h** ; elles restreignent l'accès des **visiteurs** de **22 h à 9 h**. Ces conditions non millésimées ne permettent pas de conclure que l'indication distincte « camping-cars 22 h 30–8 h » vaut interdiction de dormir. Les horaires exacts d'entrée/sortie en 2026 restent à confirmer. Le champ tarif principal reste **`Non confirmé`** (pages à 15 / 19,50 € contradictoires, PDF 2024).
+- **Saint-Molf, Pont de Clin** (identifiant `ACCAMEAIREDESTMOLF`) : fiche **e-SPRIT mise à jour le 9 mars 2026** confirmant les coordonnées `47.3834,-2.4303`, les tables/poubelles et l'acceptation des animaux. Les pages municipales de réglementation examinées ne renseignent pas directement le droit de nuitée au Pont de Clin ; **`overnightStatus=not_established` et `price=Non confirmé` inchangés**.
+- Audit GitHub renforcé sur les SIRET distincts, les références 2026, les CGV historiques, le GPS et le statut prudent de Saint-Molf ; correction mineure du libellé de compteur dans l'audit.
+- **Bilan attendu inchangé : 167 fiches visibles, 145 avec filtre nocturne, 11 tarifs strictement `Non confirmé`.**
+
+Sources :
+- https://annuaire-entreprises.data.gouv.fr/etablissement/84393721000014
+- https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf
+- https://www.les-mouettes-camping.com/conditions-generales-de-vente
+- https://www.cirkwi.com/fr/point-interet/1157462-aire-de-camping-cars-de-saint-molf
+- https://www.mairie-saint-molf.fr/pratique/police-municipale/reglementations/
