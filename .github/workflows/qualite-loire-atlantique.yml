@@ -61,6 +61,10 @@ jobs:
                       if other and abs(point[0]-other[0])<0.001 and abs(point[1]-other[1])<0.001 and norm(a.get("name"))==norm(b.get("name")): return False
               return True
           visible_osm=[x for x in osm if visible_extra(x)]
+          # Prix de nuitée sans objet : ces espaces de pique-nique ne sont pas des haltes
+          # nocturnes vérifiées, ils ne doivent pas gonfler le compteur des tarifs manquants.
+          excluded_picnic=[x for x in visible_regional if x.get("priceStatus")=="not_applicable_for_night_stay"]
+          assert all(x.get("overnightStatus")=="not_established" and "pique-nique" in str(x.get("type","")).lower() for x in excluded_picnic), "Classement pique-nique incohérent"
           regional_unknown=sum(x.get("price")=="Non confirmé" for x in regional)
           visible_regional_unknown=sum(x.get("price")=="Non confirmé" for x in visible_regional)
           osm_unknown=sum(x.get("price")=="Non confirmé" for x in osm)
@@ -108,6 +112,8 @@ jobs:
               f"- Compléments OSM bruts dont le prix est absent, partiel ou contient 'confirm' : **{unknown_price}** (ne couvre pas les fiches régionales)",
               f"- Fiches régionales brutes dont le prix vaut exactement 'Non confirmé' : **{regional_unknown}**",
               f"- Fiches régionales visibles au prix exactement 'Non confirmé' : **{visible_regional_unknown}**",
+              f"- Simples aires de pique-nique au tarif de nuitée non applicable, sans nuitée validée : **{len(excluded_picnic)}**",
+              "- La baisse du nombre de prix inconnus provient d'une **requalification**, pas d'une confirmation de tarif.",
               f"- Parmi celles-ci, contacts téléphoniques directs vérifiés en ligne : **{len(unresolved_with_contact)}**",
               f"- Fiches complémentaires brutes au prix exactement 'Non confirmé' : **{osm_unknown}**",
               f"- Fiches complémentaires visibles au prix exactement 'Non confirmé' : **{visible_osm_unknown}**",

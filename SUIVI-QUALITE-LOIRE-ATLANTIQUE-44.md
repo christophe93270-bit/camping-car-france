@@ -356,3 +356,23 @@ Sources :
 - https://www.camping-clos-mer-nature.fr/contact-camping-loire-atlantique/
 - https://www.anas.asso.fr/moutiers-en-retz
 - https://park4night.com/fr/place/317535
+
+## Lot complémentaire 17 — 20 octobre 2026
+
+**Sept fiches de pique-nique reclassées, sans suppression et sans certification de tarifs de nuitée.**
+
+- **Pierric** (ACCAMPDL044V51HCG7), **Plessé** (ACCAMPDL044V51HCG9), **Avessac** (ACCAMPDL044V51HCFZ) et **Guémené-Penfao** (ACCAMPDL044V51HCG4) : le site officiel du tourisme du Pays de Redon les classe « Aire de pique-nique ». Rien n'y démontre le droit au stationnement nocturne des camping-cars.
+- **Saint-Nicolas-de-Redon** (ACCAMPDL044V51HCGD), **Fégréac** (ACCAMPDL044V51HCG2) et **Conquereuil** (ACCAMPDL044V51HCG0) : les données régionales classent les lieux parmi les espaces de pique-nique. Le lieu précis et le droit de nuitée n'ont pas été établis par arrêté ou mairie ; le classement reste prudent.
+- Pour les **sept** fiches, `price` passe de « Non confirmé » à « Tarif de nuitée sans objet : aire de pique-nique, accueil nocturne camping-car non établi » ; `priceStatus = not_applicable_for_night_stay` est ajouté. Cela ne certifie PAS que le stationnement de jour est gratuit, ni qu'une nuitée est interdite ou permise. Le marqueur `overnightStatus = not_established` est maintenu.
+- **Contrôle tarifaire** : la baisse de **20 à 13** tarifs strictement inconnus parmi les fiches visibles ne résulte **d'aucune enquête de prix réussie** : sept simples haltes de pique-nique sortent à juste titre du périmètre des tarifs camping-car de nuitée. En régional : 12 fiches brutes encore exactement « Non confirmé », dont deux doublons masqués (10 visibles) ; en compléments : 3 visibles, soit 13 au total. Sept autres fiches, à tarif de nuitée sans objet, sont toujours affichées et explicitement signalées.
+- **Affichage et audit** : le site distingue le champ « Tarif de nuitée » pour les pique-niques et conserve le message d'alerte ; le contrôle automatique compte distinctement les sept fiches à nuitée non établie.
+- **Effectif** : 165 fiches affichables inchangées (156 régionales + 9 complémentaires). Ne pas assimiler ces 165 entrées à 165 aires de stationnement nocturne confirmées.
+
+Sources tourisme :
+https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/
+https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/
+https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-2/
+https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/
+https://tourisme-pays-redon.com/sorganiser/savourer/aires-de-pique-nique/
+https://tourisme-pays-redon.com/visite/la-carriere/
+https://tourisme-pays-redon.com/experiences/idees-descapades/pique-niquer-redon/
