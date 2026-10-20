@@ -110,7 +110,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261020-22", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261020-23", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -465,7 +465,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Morbihan indisponible",error); }
     let loireAtlantiqueAires=[];
     try {
-      const response44=await fetch("aires-loire-atlantique.json?v=20261020-21", {cache:"no-store"});
+      const response44=await fetch("aires-loire-atlantique.json?v=20261020-23", {cache:"no-store"});
       if(response44.ok) loireAtlantiqueAires=await response44.json();
     } catch(error) { console.warn("Chargement Loire-Atlantique indisponible",error); }
     let essonneAires=[];
@@ -606,6 +606,8 @@ async function initAires(){
         ${a.department==="44"&&a.potentialDuplicateOfSourceId ? `<p><strong>Doublon possible :</strong> ce point peut correspondre à un autre lieu déjà recensé.</p>` : ""}
         <p><strong>Services :</strong> ${escapeHTML((Array.isArray(a.services)?a.services:[]).join(", "))}</p>
         <p><strong>${a.priceStatus==="not_applicable_for_night_stay"?"Tarif de nuitée :":"Tarif :"}</strong> ${escapeHTML(a.price)}</p>
+        ${a.fees2026?`<p><strong>Frais annexes 2026 :</strong> ${escapeHTML(a.fees2026)}</p>`:""}
+        ${a.operationalWarning?`<p><strong>Horaires ou conditions à vérifier :</strong> ${escapeHTML(a.operationalWarning)}</p>`:""}
         ${a.priceYear===2026&&a.priceEvidenceDocument&&/^https:\/\//.test(String(a.priceEvidenceDocument))?`<p><a href="${escapeHTML(a.priceEvidenceDocument)}" target="_blank" rel="noopener noreferrer">Consulter la grille tarifaire 2026 ↗</a> <small>(les conditions d’accès et le tarif appliqué peuvent dépendre du statut du voyageur)</small></p>`:""}
         ${a.accessNote?`<p><strong>Conditions d’accès :</strong> ${escapeHTML(a.accessNote)}</p>`:""}
         ${a.contactPhone&&/^[+0-9 ().-]{10,25}$/.test(String(a.contactPhone))?`<p><strong>${a.contactRole==="mairie"?"Mairie — accès et tarifs :":a.contactRole==="ferme"?"Contacter la ferme :":a.contactRole==="site_proche"?"Renseignements sur le site proche :":a.contactRole==="camping"?"Contacter le camping :":a.contactRole==="centre"?"Contacter le gestionnaire :":"Contact tarif :"}</strong> <a href="tel:${String(a.contactPhone).replace(/[^+0-9]/g,"")}">${escapeHTML(a.contactPhone)}</a> <small>(contact public sourcé ; prix et conditions de nuitée non certifiés par un appel)</small></p>`:""}

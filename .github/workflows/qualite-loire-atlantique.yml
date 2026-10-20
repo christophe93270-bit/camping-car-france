@@ -90,6 +90,10 @@ jobs:
           assert len(france_passion)==2 and all(x.get("price")=="Non confirmé" for x in france_passion), "France Passion : adhésion 2026 des hôtes encore non confirmée"
           anas=next(x for x in conditional_access if x.get("sourceId")=="ACCAMACCAMEELMANAS")
           assert anas.get("priceYear")==2026 and "21 €/nuit" in anas.get("price","") and "16 €/nuit" in anas.get("price","") and anas.get("priceEvidenceDocument","").startswith("https://") and anas.get("accessVerification")=="adhesion_village_requise_aire_autonome_a_verifier", "ANAS 2026 : grille documentée ou réserve d'accès manquante"
+          clos=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V5002ZN")
+          mouettes=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000155")
+          assert clos.get("price")=="Non confirmé" and "4,50" in clos.get("fees2026","") and "15 h" in clos.get("operationalWarning","") and clos.get("feeEvidenceUrl","").startswith("https://"), "Clos Mer et Nature : frais 2026/horaire non sourcés ou tarif de base prétendument confirmé"
+          assert mouettes.get("price")=="Non confirmé" and "2024" in mouettes.get("historicPriceEvidence","") and "22 h 30" in mouettes.get("operationalWarning",""), "Les Mouettes : année tarifaire ou restriction nocturne non tracée"
           piardiere=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V51HCFX")
           assert piardiere.get("contactPhone") and "commune-de-plesse.com" in piardiere.get("sourceOfficial",""), "44 : source communale La Piardière manquante"
           corcoue_parking=next(x for x in visible_osm if x.get("sourceId")=="way/909611149")
@@ -158,6 +162,8 @@ jobs:
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",
               f"- Fiches avec conditions d'accès spécifiques documentées (France Passion / ANAS) : **{len(conditional_access)}**",
               "- ANAS Les Moutiers : prix publiés dans le VAC'ANAS 2026 (16/21 €/nuit, adhérents 12/17 €), accès et capacité actuelle à confirmer.",
+              "- Clos Mer et Nature : seuls les frais annexes 2026 sont documentés ; contrat et FAQ divergent sur les heures d'arrivée/départ.",
+              "- Les Mouettes (Saint-Père-en-Retz) : grille 2024, prix affichés contradictoires et restriction horaire à clarifier.",
               "- La mention d'une adhésion ne vaut pas preuve de disponibilité d'une étape en 2026.",
               "- Corcoué Grotte Saint-Jean : 2 repères cartographiques d'un seul site comportant 4 places, à ne pas additionner.",
               "- Ces doublons potentiels ne sont pas fusionnés sans concordance suffisante des emprises.",

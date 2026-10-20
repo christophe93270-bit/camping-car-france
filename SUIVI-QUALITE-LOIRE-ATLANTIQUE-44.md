@@ -475,3 +475,23 @@ Sources et preuve de lecture :
 - PDF de la brochure 2026 relayé sur FO Justice : https://fojustice.fr/web/wp-content/uploads/2026/06/VAC-ANAS-2026-FO.pdf (p. 21 imprimée ; 10e page du fichier).
 - Page actuelle du centre pour différence 35/42 : https://www.anas.asso.fr/moutiers-en-retz .
 - Emplacement Ranch : https://www.camping-le-ranch.com/fr/emplacements/78629 .
+
+## Lot complémentaire 23 — 20 octobre 2026
+
+**Trois fiches régionales et un complément OSM ont bénéficié d'un audit documentaire, sans hausse fictive des tarifs renseignés.**
+
+- **Clos Mer et Nature — Saint-Michel-Chef-Chef :** contrôle visuel du contrat officiel `LOCATIF / EMPLACEMENT 2026` (https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf), pages 1 et 2 : 10 € de dossier pour 3 nuits au plus, 20 € au-delà ; 0,66 €/adulte/nuit de taxe de séjour ; 0,30 €/personne/nuit d'éco-participation ; option chien 4,50 €/jour. Le **forfait de base camping-car n'y figure pas** : maintien de `price = "Non confirmé"`. **Contradiction horaire vérifiée :** formulaire 2026 arrivée à 15 h, départ 10 h pour séjour emplacement/locatif ; FAQ du camping (https://www.camping-clos-mer-nature.fr/faq/) spécifie 14 h/12 h pour les emplacements. Les deux sources sont signalées pour éviter de promettre des horaires erronés. Champs `fees2026`, `feeEvidenceUrl`, `operationalWarning`.
+- **Les Mouettes, La Tansorais, Saint-Père-en-Retz :** confirmation de nuitées en camping-car sur le site du gestionnaire ; avertissement particulier sur la restriction non explicitée « 22 h 30–8 h ». Le site parle de 29 emplacements destinés à tente/caravane/camping-car et de 101 emplacements tous types, sans conclure à 101 places camping-car. Le PDF officiel de grille **2024** confirme 19,50 € pour 2 personnes et +6,50 € pour électricité 6 A ; une autre variante du même site affiche 15 €. **Aucun n'est un barème 2026 confirmé**. Les établissements homonymes du Pouliguen, de Plérin ou d'autres communes sont exclus des sources applicables à Saint-Père-en-Retz. Champ `historicPriceEvidence` distinct de `price`, `operationalWarning` pour les horaires.
+- **Capfun L'Ève, Saint-Nazaire :** page officielle de l'exploitant indique 274 emplacements au **total toutes catégories**, alors que la base touristique régionale décrit 50 places camping-car. Les catégories sont maintenues distinctes. Le forfait promotionnel Capfun Pass Camping 15 € ne s'applique pas à cet établissement et aucun prix standard 2026 n'est prouvé.
+- **Barrière Saint-Pierre, Ancenis-Saint-Géréon :** une fiche touristique départementale publiée avec une date juillet 2026 recoupe le parking face à la halte nautique et les équipements WC/eau/tables de pique-nique. Elle **ne fournit ni tarif, ni autorisation de nuitée, ni capacité 2026**. La ressource PDF peut ponctuellement renvoyer une erreur HTTP : la source touristique Cirkwi et l'annuaire municipal restent référencés comme points d'accès plus stables.
+- **Interface :** affichage explicite des frais 2026 vérifiés et des avertissements d'horaires sur les fiches concernées. Contrôles automatiques supplémentaires empêchant de remplacer un prix de base inconnu par un montant de frais annexes ou par un prix de 2024.
+
+**Bilan : 165 fiches affichables attendues ; 155 si le filtre « nuitée non établie » est activé ; 11 prix strictement « Non confirmé » parmi les fiches visibles (9 régionales, 2 complémentaires).** Les nouvelles validations portent sur les frais/horaire/source, pas sur un nouveau forfait de nuitée certifié.
+
+Références :
+- https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf
+- https://www.camping-clos-mer-nature.fr/faq/
+- https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf (grille 2024)
+- https://les-mouettes-camping.com/
+- https://www.capfun.com/camping---l_eve-FR.html
+- https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/3136/aire-de-stationnement-barriere-st-pierre-ancenis.pdf
