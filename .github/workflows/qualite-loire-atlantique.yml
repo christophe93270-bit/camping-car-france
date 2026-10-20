@@ -334,7 +334,7 @@ jobs:
           lot52_ids={"CCF44-PORNICHET-CAMPING-LES-FORGES-2026","CCF44-CROISIC-PIERRE-LONGUE-2026","CCF44-CROISIC-CAMPING-OCEAN-2026"}
           lot52=[x for x in visible_regional if x.get("sourceId") in lot52_ids]
           assert len(lot52)==3 and len({x.get("sourceId") for x in lot52})==3, "Lot 52 : trois campings distincts"
-          assert all(x.get("price")=="Non confirmé" and x.get("priceCheckedAt")=="2026-10-20" and x.get("contactEmail") and str(x.get("contactEmailSource","")).startswith("https://") and x.get("contactPhone") and str(x.get("contactSource","")).startswith("https://") and str(x.get("gpsSource","")).startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot52), "Lot 52 : sources GPS, contacts, prix ou statut non conformes"
+          assert all(x.get("priceCheckedAt")=="2026-10-20" and x.get("contactEmail") and str(x.get("contactEmailSource","")).startswith("https://") and x.get("contactPhone") and str(x.get("contactSource","")).startswith("https://") and str(x.get("gpsSource","")).startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot52), "Lot 52/57 : sources GPS, contacts ou statut non conformes"
           forges=next(x for x in lot52 if x["sourceId"]=="CCF44-PORNICHET-CAMPING-LES-FORGES-2026")
           pierre=next(x for x in lot52 if x["sourceId"]=="CCF44-CROISIC-PIERRE-LONGUE-2026")
           ocean=next(x for x in lot52 if x["sourceId"]=="CCF44-CROISIC-CAMPING-OCEAN-2026")
