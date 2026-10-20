@@ -47,20 +47,22 @@
     "services": [
       "Accueil de camping-cars à la ferme signalé par Pays de la Loire Tourisme",
       "Vente directe de produits fermiers",
-      "Borne eau, électricité et vidanges non confirmées"
+      "Borne eau, électricité et vidanges non confirmées",
+      "Réseau France Passion : 24 h normalement offertes aux adhérents en cours de validité",
+      "Services supplémentaires non garantis ; véhicule autonome impératif"
     ],
     "price": "Non confirmé",
-    "status": "16 lieu-dit La Bézellière, 44650 Legé. Accueil camping-car France Passion recensé par la Région, exploitation d’élevage et vente directe. Conditions d'accès et éventuelle adhésion au réseau à vérifier avant l'arrivée ; ne pas assimiler cet accueil à un parking public libre.",
+    "status": "16 lieu-dit La Bézellière, 44650 Legé. Accueil camping-car France Passion recensé par la Région, exploitation d’élevage et vente directe. Conditions d'accès et éventuelle adhésion au réseau à vérifier avant l'arrivée ; ne pas assimiler cet accueil à un parking public libre. RÈGLE FRANCE PASSION : pour un adhérent à jour, accueil normalement gratuit pendant 24 heures (et non parking public gratuit) ; véhicule entièrement autonome requis. La fiche touristique régionale recense l'exploitation comme étape France Passion, mais son inscription dans le guide actif 2026 doit être vérifiée. L'accès effectif au site pour les adhérents 2026, les horaires et les services sont à confirmer dans le guide France Passion.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 46.88129,
     "longitude": -1.51453,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : ferme et accueil de camping-car France Passion confirmés sur Pays de la Loire Tourisme ; coût, modalités de la nuitée et équipements techniques restent à confirmer.",
+    "importReview": "20/10/2026 : conditions générales officielles France Passion (accueil gratuit max 24 h, adhésion à jour, autonomie, sans réservation préalable) recoupées ; statut individuel de cet hôte dans le guide 2026 non confirmé, champ tarif maintenu « Non confirmé ».",
     "sourceId": "ACCAMPDL044V50Y077",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/la-ferme-des-cochons-d-antan",
-    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/la-ferme-des-cochons-d-antan"
+    "servicesSource": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
   },
   {
     "department": "44",
@@ -1647,22 +1649,24 @@
   },
   {
     "department": "44",
-    "name": "Aire de pique-nique",
+    "name": "Aire de pique-nique – Saint-Nicolas-de-Redon (nuitée non confirmée)",
     "city": "SAINT-NICOLAS-DE-REDON",
-    "type": "Aire de pique-nique — accueil camping-car non établi",
+    "type": "Espace de pique-nique — ni aire de nuitée ni services camping-car confirmés",
     "services": [
-      "Services non renseignés"
+      "Espace de pause/pique-nique uniquement selon les sources touristiques",
+      "Stationnement de nuit et services camping-car non vérifiés"
     ],
     "price": "Non confirmé",
-    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
+    "status": "L'office de tourisme référence aussi une aire de stationnement camping-car à La Digue dans la même commune, mais ce lieu de pique-nique générique n'est pas identifié comme l'aire de La Digue. Le point GPS provient des données régionales. Ne pas déduire du nom ni de la proximité d'une aire distincte que les camping-cars peuvent y stationner pour la nuit ; réglementation et tarifs de nuitée non documentés.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.6321,
     "longitude": -2.0523,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
-    "sourceId": "ACCAMPDL044V51HCGD"
+    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Maintenir « Non confirmé ».",
+    "sourceId": "ACCAMPDL044V51HCGD",
+    "sourceOfficial": "https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/"
   },
   {
     "department": "44",
@@ -3332,26 +3336,27 @@
     "department": "44",
     "name": "Camping rural Le Relais des Garennes – Montbert",
     "city": "MONTBERT",
-    "type": "Camping rural privé avec emplacements camping-car",
+    "type": "Camping rural labellisé 4 épis – six emplacements",
     "services": [
-      "Emplacements ombragés ou ensoleillés pour camping-cars",
-      "Eau potable dans le camping",
-      "Branchement électrique",
-      "Douches et WC",
-      "Salle commune avec documentation touristique"
+      "6 emplacements de camping dans une ancienne ferme",
+      "Branchement électrique +4 € la nuit",
+      "3 douches, 3 WC, lavabos et point de vidange",
+      "Wi-Fi inclus, animaux acceptés",
+      "Accueil de 15 h à 20 h"
     ],
-    "price": "Non confirmé",
-    "status": "La Bauche Coiffée, 44140 Montbert. Camping rural Pré Vert / Gîtes de France proposant des emplacements camping-cars du 1er juin au 30 septembre. Saison 2026 terminée au 20 octobre ; prix de nuitée et prix d'accès à la vidange non publiés sur la fiche officielle.",
+    "price": "Tarif 2026 Gîtes de France : camping-car avec 2 personnes à 17 € par nuit ; branchement électrique +4 €, soit 21 € avec électricité. Enfant de moins de 10 ans : 3 €. Tarif réservé au camping, pas au seul service de vidange.",
+    "status": "La Bauche Coiffée, 44140 Montbert. Gîtes de France (descriptif millésimé 2026) : camping-car 2 personnes 17 €, électricité +4 €. Ouvert du 15 juin au 15 septembre : saison 2026 terminée. La mairie publie une plage indicative plus large (1er juin–30 septembre) ; les dates de l'exploitant et de Gîtes de France sont retenues. Réservation et arrivée à confirmer.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.0520081,
     "longitude": -1.4784701,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : accueil camping-cars, équipements et saison 1er juin-30 septembre vérifiés auprès de Pays de la Loire Tourisme ; tarif non confirmé maintenu.",
+    "importReview": "Contrôle 20/10/2026 : tarif 17 € camping-car 2 pers +4 € électricité publié explicitement dans descriptif Gîtes de France 2026 ; 6 emplacements et saison du 15/06 au 15/09 selon annonce propriétaire et camping officiel.",
     "sourceId": "ACCAMPDL044V50I1AR",
-    "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-du-camping-rural-le-relais-des-garennes",
-    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-du-camping-rural-le-relais-des-garennes"
+    "sourceOfficial": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606",
+    "servicesSource": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606",
+    "priceSource": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606"
   },
   {
     "department": "72",
@@ -3801,22 +3806,24 @@
   },
   {
     "department": "44",
-    "name": "Aire de pique-nique",
+    "name": "Aire de pique-nique – Fégréac (nuitée non confirmée)",
     "city": "FEGREAC",
-    "type": "Aire de pique-nique — accueil camping-car non établi",
+    "type": "Espace de pique-nique — ni aire de nuitée ni services camping-car confirmés",
     "services": [
-      "Services non renseignés"
+      "Espace de pause/pique-nique uniquement selon les sources touristiques",
+      "Stationnement de nuit et services camping-car non vérifiés"
     ],
     "price": "Non confirmé",
-    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
+    "status": "Le Pays de Redon décrit des lieux de pique-nique à Fégréac autour de la Carrière et de l'écluse du Bellion ; le lien GPS exact avec cette fiche n'est pas prouvé. Le point GPS provient des données régionales. Ne pas déduire du nom ni de la proximité d'une aire distincte que les camping-cars peuvent y stationner pour la nuit ; réglementation et tarifs de nuitée non documentés.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.59892,
     "longitude": -2.08918,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
-    "sourceId": "ACCAMPDL044V51HCG2"
+    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Maintenir « Non confirmé ».",
+    "sourceId": "ACCAMPDL044V51HCG2",
+    "sourceOfficial": "https://tourisme-pays-redon.com/visite/la-carriere/"
   },
   {
     "department": "53",
@@ -4946,36 +4953,38 @@
       "Piscine et services du camping en saison"
     ],
     "price": "Non confirmé",
-    "status": "Chemin du Port aux Ânes, Préfailles. Camping ouvert du 10 avril au 20 septembre 2026 : fermé au 20 octobre. Le tourisme régional signale 49 emplacements camping-car, capacité également présentée pour l'aire CAMPING-CAR PARK « La Pointe » voisine : chevauchement d'inventaire possible, à vérifier ; aucune fusion sans preuve.",
+    "status": "Chemin du Port aux Ânes, 44770 Préfailles. Camping Eden Villages La Pointe Saint-Gildas : saison 2026 du 10/04 au 20/09, camping fermé en octobre. L'opérateur CAMPING-CAR PARK confirme dans un témoignage professionnel que son aire « Préfailles – La Pointe » de 49 emplacements est exploitée en collaboration avec ce camping et que ses services sont accessibles selon saison. Il est donc possible que certains chiffres/capacités soient repris pour les deux offres. Même site touristique, mais modalités de réservation et de stationnement distinctes ; recouvrement exact des 49 emplacements à confirmer avant toute fusion de fiches.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.13792,
     "longitude": -2.22222,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle du 20/10/2026 : Camping Eden Villages La Pointe Saint-Gildas – Préfailles ; source tourisme ou annuaire cité dans sourceOfficial. Tarifs laissés inconnus lorsqu’aucun montant applicable n’est publié.",
+    "importReview": "20/10/2026 : témoignage professionnel CAMPING-CAR PARK confirme aire de 49 places en partenariat avec le camping Eden Villages ; lien étroit confirmé, chevauchement d'inventaire à vérifier. Aucune suppression de point sans preuve.",
     "sourceId": "ACCAMACCAMPDL044000154",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/campings/camping-eden-villages-la-pointe-saint-gildas",
-    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/campings/camping-eden-villages-la-pointe-saint-gildas"
+    "servicesSource": "https://pro.campingcarpark.com/temoignages/temoignage-aire-camping-car-prefailles/"
   },
   {
     "department": "44",
-    "name": "Aire de pique-nique",
+    "name": "Aire de pique-nique – Conquereuil (nuitée non confirmée)",
     "city": "CONQUEREUIL",
-    "type": "Aire de pique-nique — accueil camping-car non établi",
+    "type": "Espace de pique-nique — ni aire de nuitée ni services camping-car confirmés",
     "services": [
-      "Services non renseignés"
+      "Espace de pause/pique-nique uniquement selon les sources touristiques",
+      "Stationnement de nuit et services camping-car non vérifiés"
     ],
     "price": "Non confirmé",
-    "status": "Lieu répertorié dans le jeu de données régional des aires, mais seule la dénomination « aire de pique-nique » est connue : stationnement des camping-cars, nuitée et services non vérifiés. Ne pas considérer comme une aire de nuitée confirmée.",
+    "status": "Le Pays de Redon met en avant le site des Potinières, espace de pique-nique au bord du Don ; localisation exacte de la fiche régionale non recoupée. Le point GPS provient des données régionales. Ne pas déduire du nom ni de la proximité d'une aire distincte que les camping-cars peuvent y stationner pour la nuit ; réglementation et tarifs de nuitée non documentés.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.6247929,
     "longitude": -1.750375,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle de cohérence octobre 2026 : nom uniquement « aire de pique-nique ». La classification générique importée ne prouve ni l'accès camping-car ni l'autorisation de nuitée.",
-    "sourceId": "ACCAMPDL044V51HCG0"
+    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Maintenir « Non confirmé ».",
+    "sourceId": "ACCAMPDL044V51HCG0",
+    "sourceOfficial": "https://tourisme-pays-redon.com/experiences/idees-descapades/pique-niquer-redon/"
   },
   {
     "department": "49",
@@ -5138,22 +5147,23 @@
     "type": "Accueil à la ferme via le réseau France Passion",
     "services": [
       "2 emplacements de camping-cars à la ferme",
-      "2 nuits maximum",
       "Équipements eau, vidange et électricité non publiés",
-      "Accueil selon conditions France Passion et de l'exploitation"
+      "Accueil selon conditions France Passion et de l'exploitation",
+      "Réseau France Passion : 24 h normalement offertes aux adhérents en cours de validité",
+      "Services supplémentaires non garantis ; véhicule autonome impératif"
     ],
     "price": "Non confirmé",
-    "status": "GAEC du Biau Chemin, 5 Les Vigneaux, 44390 Nort-sur-Erdre. Accueil à la campagne chez des agriculteurs adhérents au réseau France Passion : 2 camping-cars maximum, durée de séjour limitée à deux nuits. Conditions d'adhésion, services, prix et disponibilités à vérifier avant arrivée.",
+    "status": "GAEC du Biau Chemin, 5 Les Vigneaux, 44390 Nort-sur-Erdre. Accueil à la campagne chez des agriculteurs adhérents au réseau France Passion : 2 camping-cars maximum, durée de séjour limitée à deux nuits. Conditions d'adhésion, services, prix et disponibilités à vérifier avant arrivée. RÈGLE FRANCE PASSION : pour un adhérent à jour, accueil normalement gratuit pendant 24 heures (et non parking public gratuit) ; véhicule entièrement autonome requis. L'annonce touristique évoque 2 camping-cars et 2 nuits, alors que la formule réseau autorise normalement 24 heures seulement : une deuxième nuit nécessite l'accord explicite de l'hôte. L'accès effectif au site pour les adhérents 2026, les horaires et les services sont à confirmer dans le guide France Passion.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.4789085,
     "longitude": -1.5117636,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : ferme, réseau France Passion, 2 places et 2 nuits max. confirmés par la Région ; gratuité éventuelle non affirmée sans source officielle.",
+    "importReview": "20/10/2026 : conditions générales officielles France Passion (accueil gratuit max 24 h, adhésion à jour, autonomie, sans réservation préalable) recoupées ; statut individuel de cet hôte dans le guide 2026 non confirmé, champ tarif maintenu « Non confirmé ».",
     "sourceId": "ACCAMPDL044V50ZDO9",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion",
-    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion"
+    "servicesSource": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
   },
   {
     "department": "72",
@@ -6048,26 +6058,29 @@
   },
   {
     "department": "44",
-    "name": "Accueil camping-car à la Ferme de l’Arfaut – Herbignac",
+    "name": "Ferme de l’Arfaut – accueil camping-car à Herbignac",
     "city": "HERBIGNAC",
-    "type": "Accueil agricole privé avec quatre emplacements",
+    "type": "Aire privée à la ferme avec stationnement et services payants",
     "services": [
-      "4 emplacements dédiés aux camping-cars",
-      "Animaux acceptés selon fiche régionale",
-      "Eau, vidange et électricité non précisés"
+      "Stationnement camping-car sur la ferme",
+      "Eau potable et électricité d'après observations de voyageurs",
+      "Vidange eaux grises et eaux noires décrite sur Park4Night",
+      "Animaux acceptés",
+      "Capacité affichée par Park4Night : 30, contre 4 dans la fiche touristique régionale ; capacité réelle à vérifier"
     ],
-    "price": "Non confirmé",
-    "status": "Lieu-dit L'Arfaut, Herbignac, 44410. Accueil aménagé sur une exploitation agricole avec quatre places selon tourisme régional. Coût, réservation et durée autorisée à confirmer. La gratuité n'est pas établie.",
+    "price": "Tarifs indicatifs Park4Night consultés en octobre 2026 : rubrique « stationnement » à 9 € / nuit et rubrique « services » à 12 € (eau + électricité). Des avis de voyageurs de 2025 signalent plutôt un forfait tout compris de 12 € / nuit (stationnement, eau, électricité et vidanges). Barème 2026 exact NON CONFIRMÉ par le propriétaire ; vérifier sur place.",
+    "status": "L'Arfaut, 44410 Herbignac. Parking privé recensé par le tourisme régional avec 4 places ; Park4Night annonce 30 places sur un vaste terrain, discrepancy non tranchée. Tarifs Park4Night : stationnement 9 €, services 12 € ; retours voyageurs 2025 évoquant 12 € tous services inclus. Affichage tarifaire et capacité à confirmer directement avec les exploitants avant publication comme tarif ferme 2026.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.42509,
     "longitude": -2.34527,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle du 20/10/2026 : Accueil camping-car à la Ferme de l’Arfaut – Herbignac ; source tourisme ou annuaire cité dans sourceOfficial. Tarifs laissés inconnus lorsqu’aucun montant applicable n’est publié.",
+    "importReview": "20/10/2026 : données communautaires Park4Night (9 € parking, 12 € eau/électricité, 30 places) comparées à la région (4 places), et témoignages 2025 de 12 € tout compris. Tarif 2026 pas validé auprès du propriétaire, information présentée explicitement comme indicative.",
     "sourceId": "ACCAMEAIREDELAFERMEDELARFAUT",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-campings-cars-de-la-ferme-de-l-arfaut",
-    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-campings-cars-de-la-ferme-de-l-arfaut"
+    "servicesSource": "https://park4night.com/fr/place/116282",
+    "priceSource": "https://park4night.com/fr/place/116282"
   },
   {
     "department": "44",
@@ -8134,25 +8147,25 @@
     "department": "44",
     "name": "Yelloh! Village Le Ranch – La Plaine-sur-Mer",
     "city": "LA PLAINE-SUR-MER",
-    "type": "Camping privé avec 58 places pour camping-cars",
+    "type": "Camping privé avec emplacements nus acceptant les camping-cars",
     "services": [
-      "58 emplacements camping-car",
-      "Eau et vidange au camping",
-      "Branchement électrique selon formule",
-      "Sanitaires et Wi-Fi selon conditions"
+      "75 emplacements de camping au total, dont 51 emplacements nus, selon l'exploitant",
+      "6 emplacements avec évacuations et 18 avec sanitaires privatifs parmi l'offre d'emplacements",
+      "Camping-cars acceptés sur les emplacements nus",
+      "Branchements électriques et sanitaires selon catégorie"
     ],
     "price": "Non confirmé",
-    "status": "Chemin des Hautes Raillères, 44770 La Plaine-sur-Mer. Camping Yelloh! Village Le Ranch. 58 emplacements camping-car selon Pays de la Loire Tourisme ; tarif 2026 non publié. Site officiel de ce camping : camping-le-ranch.com/fr. Ne pas confondre avec les campings homonymes du Médoc ou de Normandie.",
+    "status": "Chemin des Hautes Raillères, 44770 La Plaine-sur-Mer. L'exploitant officiel recense 179 unités au total dont 62 locatifs, 75 emplacements de camping (51 nus, 6 avec évacuations, 18 sanitaires individuels) et 42 loisirs/résidents. La précédente indication « 58 places dédiées aux camping-cars » provenait d'une fiche régionale mais n'est pas corroborée par le gestionnaire : ne pas la présenter comme capacité exclusive. Site officiel annonce saison 2027 du 30 avril au 12 septembre ; prix camping-car 2026 non confirmé.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.15449,
     "longitude": -2.16498,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle du 20/10/2026 : Yelloh! Village Le Ranch – La Plaine-sur-Mer ; source tourisme ou annuaire cité dans sourceOfficial. Tarifs laissés inconnus lorsqu’aucun montant applicable n’est publié.",
+    "importReview": "Contrôle 20/10/2026 auprès de l'exploitant : 75 emplacements de camping dont 51 nus, 6 avec évacuation, 18 sanitaires individuels ; catégories touristiques non équivalentes à 58 places exclusivement camping-car. Saison 2027 annoncée, tarif 2026 maintenu inconnu.",
     "sourceId": "ACCAMACCAMPDL044000049",
-    "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/yelloh-village-le-ranch",
-    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/yelloh-village-le-ranch"
+    "sourceOfficial": "https://www.camping-le-ranch.com/fr",
+    "servicesSource": "https://www.camping-le-ranch.com/fr"
   },
   {
     "department": "49",

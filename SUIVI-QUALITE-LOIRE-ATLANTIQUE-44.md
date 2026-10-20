@@ -188,3 +188,26 @@ Sources de ce lot :
 - https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/
 - https://www.camping-les-mouettes.com/
 - https://campingbelair.fr/contacts-acces/
+
+## Lot complémentaire 9 — 20 octobre 2026
+
+**9 fiches vérifiées, aucun ajout, retrait ni fusion de lieux.** Dernier compteur public confirmé par l'utilisateur : 165. Le lot comprend un tarif 2026 directement documenté, un tarif seulement communautaire marqué indicatif, et 7 améliorations de qualité.
+
+- **Relais des Garennes (Montbert)** : Gîtes de France indique dans un descriptif millésimé 2026 **17 € / nuit pour camping-car avec 2 personnes**, électricité **+4 €**, 6 emplacements et saison du 15 juin au 15 septembre. Rectifie l'ancienne plage 1 juin–30 septembre moins précise de la fiche communale.
+- **Ferme de l'Arfaut (Herbignac)** : Park4Night affiche **9 €/nuit stationnement** et **12 € eau/électricité**, tandis que des avis 2025 évoquent un forfait tout compris de 12 € ; **prix exact 2026 non confirmé** par le propriétaire. Capacité contradictoire : 4 places recensées par la Région contre 30 par Park4Night. À contrôler.
+- **Yelloh Le Ranch (La Plaine-sur-Mer)** : source directe gestionnaire **75 emplacements de camping**, dont 51 nus (6 avec évacuations et 18 sanitaires individuels), sans attribuer 58 places exclusivement camping-car. Saison 2027 publiée sur le site officiel, mais tarif camping-car 2026 non confirmé.
+- **France Passion, Legé et Nort-sur-Erdre** : réseau impose adhésion à jour et véhicule autonome, accueil gratuit **24 h maximum** au titre de la formule. Une prolongation n'est pas automatiquement offerte. **Activité de chaque hôte dans le guide 2026 non vérifiée**, les deux champs tarif restent `Non confirmé`.
+- **Préfailles La Pointe Saint-Gildas** : opérateur CAMPING-CAR PARK confirme collaboration avec le camping et **49 places** sur l'aire autonome ; chevauchement avec l'offre du camping à contrôler, deux fiches conservées sans suppression.
+- **Aires de pique-nique Conquereuil, Fégréac et Saint-Nicolas-de-Redon** : sources touristiques de la commune et usage pique-nique documentés, **identité exacte GPS et nuitée camping-car non démontrées**. Le stationnement de La Digue à Saint-Nicolas-de-Redon est une fiche distincte déjà enregistrée.
+
+**Situation après lot** : 158 régionales en source, 156 visibles (2 doublons masqués), 9 complémentaires visibles, soit **165 lieux attendus**. **19 champs de prix exactement `Non confirmé` en régional, dont 2 doublons masqués, soit 17 parmi les régionales affichées.** Trois compléments restent inconnus. Certains champs non vides comportent des fourchettes, données communautaires, réserves de validation ou tarifs saisonniers : ne pas les considérer comme tous certifiés.
+
+### Sources du lot 9
+- https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606
+- https://www.camping-le-ranch.com/fr
+- https://park4night.com/fr/place/116282
+- https://www.france-passion.com/camping-caristes/faq-camping-cariste/
+- https://pro.campingcarpark.com/temoignages/temoignage-aire-camping-car-prefailles/
+- https://tourisme-pays-redon.com/experiences/idees-descapades/pique-niquer-redon/
+- https://tourisme-pays-redon.com/visite/la-carriere/
+- https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/
