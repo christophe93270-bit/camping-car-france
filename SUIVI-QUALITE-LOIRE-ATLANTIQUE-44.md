@@ -240,3 +240,31 @@ Sources de ce lot :
 - https://park4night.com/fr/place/14223
 - https://www.camping-car.com/aires/34622-aire-de-stationnement/
 - https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf
+
+## Lot complémentaire 11 — 20 octobre 2026
+
+**5 fiches régionales contrôlées**, aucun changement d'effectif. Des sources directes et annuaires ont permis de préciser les conditions sans surévaluer le degré de certitude des prix :
+
+- **Clos Mer et Nature (Saint-Michel-Chef-Chef)** : FAQ propriétaire, ouvert du 1er avril au 31 octobre, arrivée emplacement dès 14 h / départ avant midi. Contrat 2026 : frais de dossier 10 € (1–3 nuits) ou 20 € au-delà, taxe de séjour 0,66 €/adulte/nuit et écoparticipation 0,30 €/personne/nuit. **Prix de base camping-car toujours inconnu**.
+- **Yelloh! Le Ranch (La Plaine-sur-Mer)** : exploitant 75 parcelles camping dont 51 nues (aucune capacité exclusive camping-car prétendue). CampingFrance indique FFCC -10 % sur emplacements du 30/04 au 30/06 et 01/09 au 13/09 en 2026 ; Campercontact donne un prix de référence estival « dès 29 € » non daté précisément. **Pas de barème 2026 du camping certifié**.
+- **Eden Villages La Pointe Saint-Gildas** : CampingDirect affiche trois catégories Access, XL, Privilège, avec prix d'appel hebdomadaires non datés (148/176/267 €). Ce ne sont **pas** des forfaits 2026 fermes ; partenariat avec aire CAMPING-CAR PARK sur une partie des 49 places toujours à contrôler.
+- **Centre ANAS Moutiers-en-Retz** : source exploitant 35 places camping-car et 40 places camping-caravaning ; séjours du village vacances réservés aux adhérents ANAS et agents du ministère, dispositif communal de stationnement possiblement différent. Park4Night juin 2026 rapporte 42,88 € pour 2 nuits mais **pas un tarif officiel applicable à toutes saisons**.
+- **Camping Les Chênes Verts (44)** : 80–100 m², rallonge électrique de 20 m conseillée, location réfrigérateur selon stocks, emplacements fermés depuis le 13 septembre 2026. Forfait 2026 encore inconnu.
+
+**Information utilisateur améliorée sur la page d'accueil** : le compteur représente des **fiches** (dont des campings, aires de services et simples pique-niques), pas nécessairement autant de terrains indépendants ni autorisés pour une nuitée. Cela corrige une ambiguïté constatée au site La Pointe, sans modifier le décompte 165.
+
+**Tarifs exactement `Non confirmé` inchangés : 19 en régional brut, dont 2 doublons masqués, soit 17 fiches régionales visibles** ; 3 fiches complémentaires toujours inconnues. Les 17 fiches se répartissent en 7 aires de pique-nique, 2 étapes France Passion, 15 campings ou fiches contenant « camping » et 0 autres haltes/services (classes disjointes).
+
+**Prochaines validations demandant contact terrain ou exploitant** : tarifs et conditions de réservation ANAS ; forfaits Camping Le Ranch, Clos Mer et Nature, Chênes Verts et Eden ; autorisations de nuitée et identité GPS des sept aires de pique-nique ; éventuel recouvrement d'emplacements Préfailles et Corcoué.
+
+### Sources lot 11
+- https://www.camping-clos-mer-nature.fr/faq/
+- https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf
+- https://www.camping-le-ranch.com/fr
+- https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/la-plaine-sur-mer/le-ranch3
+- https://www.campercontact.com/fr/france/pays-de-la-loire/la-plaine-sur-mer/58531/camping-le-ranch
+- https://www.campingdirect.com/fr/reservation-emplacement-mobil-home/loire-atlantique/camping-prefailles/camping-eden-villages-la-pointe-saint-gildas
+- https://pro.campingcarpark.com/temoignages/temoignage-aire-camping-car-prefailles/
+- https://www.anas.asso.fr/moutiers-en-retz
+- https://park4night.com/fr/place/317535
+- https://www.leschenesverts.info/hebergement/emplacement/
