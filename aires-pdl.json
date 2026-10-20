@@ -230,27 +230,25 @@
   },
   {
     "department": "44",
-    "name": "Camping - Fleur de Brière",
+    "name": "Camping Fleur de Brière – borne à l'intérieur du camping",
     "city": "SAINT-LYPHARD",
-    "type": "Aire de service",
+    "type": "Camping avec aire de services à l'intérieur du terrain",
     "services": [
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Vidange",
-      "Vidange eaux grises",
-      "Vidange eaux noires",
-      "WiFi"
+      "Borne Sanistation à l'intérieur du camping",
+      "Eau et vidanges signalées par l'annuaire camping",
+      "Stationnement soumis au séjour dans le camping (au moins 1 nuit)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "status": "Camping Fleur de Brière, route d'Herbignac à Saint-Lyphard. Borne Sanistation à l'intérieur du camping, une nuit minimum requise selon CampingFrance. Ne pas confondre avec l'aire de services municipale extérieure, gratuite en journée de 8 h à 20 h et interdite la nuit.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.397,
     "longitude": -2.30198,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMEFLEURDEBRIERE"
+    "importReview": "Structure distincte de l'aire municipale de jour face au camping ; vérifié le 20/10/2026 avec CampingFrance et la fiche tourisme de l'aire municipale.",
+    "sourceId": "ACCAMEFLEURDEBRIERE",
+    "servicesSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/saint-lyphard/fleur-de-briere"
   },
   {
     "department": "44",
@@ -3795,15 +3793,19 @@
       "Vidange"
     ],
     "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "status": "Même établissement que la fiche Flower Camping La Guichardière (id ACCAMACCAMPDL044000047). Coordonnées distantes de 4 m, services au camping, borne accessible à tous. Fiche d'origine conservée uniquement pour traçabilité, masquée dans le répertoire public.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.15248,
     "longitude": -2.20806,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMACCAMPDL044V507FD5"
+    "importReview": "Doublon du même camping confirmé par la dénomination, la position et les sources camping/tourisme le 20/10/2026. Référence canonique : ACCAMACCAMPDL044000047.",
+    "sourceId": "ACCAMACCAMPDL044V507FD5",
+    "duplicateOfSourceId": "ACCAMACCAMPDL044000047",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/184066-Flower-Camping-La-Guichardiere",
+    "priceSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/",
+    "servicesSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/"
   },
   {
     "department": "44",
@@ -5820,25 +5822,27 @@
   },
   {
     "department": "44",
-    "name": "Camping Le Soleya",
+    "name": "Camping Le Soleya – emplacements de camping",
     "city": "SAINT-MICHEL-CHEF-CHEF",
-    "type": "Aire de stationnement",
+    "type": "Camping 3 étoiles avec emplacements pour camping-cars",
     "services": [
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Vidange"
+      "Emplacements camping-car au sein du camping",
+      "Électricité selon emplacement",
+      "Eau et vidanges indiquées par le jeu de données régional",
+      "Sanitaires, laverie et piscine du camping"
     ],
     "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "status": "43 avenue du Cormier, Saint-Michel-Chef-Chef. Camping familial avec emplacements touristiques et prestations propres au camping, distinct de l'aire d'étape CAMPING-CAR PARK le Soleya à la même adresse. Tarifs des emplacements selon dates de réservation, non confondre avec le forfait fixe de l'aire CAMPING-CAR PARK.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.15995,
     "longitude": -2.16814,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMACCAMPDL044000131"
+    "importReview": "Comparaison le 20/10/2026 des pages officielles du camping et de CAMPING-CAR PARK : deux types de séjour distincts à la même adresse ; aucune fusion automatique par proximité.",
+    "sourceId": "ACCAMACCAMPDL044000131",
+    "sourceOfficial": "https://www.campinglesoleya.com/tarifs-camping-tharon-plage.html",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/182140-Camping-Le-Soleya"
   },
   {
     "department": "72",
@@ -6672,15 +6676,17 @@
       "Eau potable (source ouverte)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "status": "Même camping Clos Mer et Nature, 103 route de Tharon. Doublon à 11 mètres de la fiche régionale ACCAMPDL044V5002ZN ; conservé en base pour traçabilité mais masqué dans le répertoire public.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.17293,
     "longitude": -2.15833,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMACCAMPDL044000128"
+    "importReview": "Doublon du Camping Clos Mer et Nature confirmé par adresse et sources touristiques le 20/10/2026. Référence canonique : ACCAMPDL044V5002ZN.",
+    "sourceId": "ACCAMACCAMPDL044000128",
+    "duplicateOfSourceId": "ACCAMPDL044V5002ZN",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/184069-Clos-Mer-et-Nature"
   },
   {
     "department": "44",
@@ -6709,26 +6715,29 @@
   },
   {
     "department": "44",
-    "name": "Flower Camping La Guichardière",
+    "name": "Flower Camping La Guichardière – emplacements et borne de services",
     "city": "LA PLAINE-SUR-MER",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Camping 4 étoiles accueillant des camping-cars (borne accessible à tous)",
     "services": [
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Toilettes",
-      "Vidange"
+      "Emplacements au camping pour camping-cars",
+      "Borne vidange des eaux et remplissage d'eau ouverte à tous (6 €)",
+      "Électricité pour les emplacements équipés",
+      "Sanitaires du camping",
+      "Déchets"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Borne de vidange et remplissage d'eau : 6 € selon la FAQ du camping consultée le 20/10/2026. Prix d'une nuitée en emplacement non confirmé : variable selon la réservation.",
+    "status": "2 rue de Mouton, La Plaine-sur-Mer. Ouverture du camping annoncée du 18/04 au 20/09/2026. L'aire de services et l'accueil camping-car sont rattachés au même camping, déjà inscrit une autre fois dans la base régionale. Horaires de borne hors saison à vérifier.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.15251,
     "longitude": -2.20804,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMACCAMPDL044000047"
+    "importReview": "Vérifié le 20/10/2026 sur la FAQ du camping et Loire-Atlantique Tourisme. Tarif de services 6 €, tarif de séjour non confirmé ; consolidation de la fiche régionale en doublon de ce camping.",
+    "sourceId": "ACCAMACCAMPDL044000047",
+    "sourceOfficial": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/",
+    "priceSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/",
+    "servicesSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/"
   },
   {
     "department": "49",
@@ -7038,23 +7047,27 @@
   },
   {
     "department": "44",
-    "name": "Camping Clos Mer et Nature",
+    "name": "Camping Clos Mer et Nature – Saint-Michel-Chef-Chef",
     "city": "SAINT-MICHEL-CHEF-CHEF",
-    "type": "Aire de stationnement",
+    "type": "Camping 3 étoiles accueillant les camping-cars",
     "services": [
-      "Eau potable (source ouverte)",
-      "Vidange"
+      "Emplacements camping-car dans le camping",
+      "Eau potable (source régionale)",
+      "Vidange signalée dans la base touristique, conditions à confirmer",
+      "Sanitaires et activités du camping"
     ],
     "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "status": "103 route de Tharon, 44730 Saint-Michel-Chef-Chef. Emplacements de camping et prestations au sein du camping 3 étoiles ; aucun forfait 2026 pour camping-car ni tarif de vidange seule confirmé sur le site du camping. Même établissement que la fiche « Clos Mer et Nature », conservée uniquement pour traçabilité.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.17283,
     "longitude": -2.15836,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V5002ZN"
+    "importReview": "Adresse et établissement 3 étoiles vérifiés le 20/10/2026 avec site du camping et Loire-Atlantique Tourisme. Fiche canonique d'un doublon régional géolocalisé à 11 m.",
+    "sourceId": "ACCAMPDL044V5002ZN",
+    "sourceOfficial": "https://www.camping-clos-mer-nature.fr/",
+    "servicesSource": "https://www.camping-clos-mer-nature.fr/"
   },
   {
     "department": "44",
@@ -8957,22 +8970,28 @@
   },
   {
     "department": "44",
-    "name": "AIRE PRIVEE DU DOMAINE DU GRAND POIRIER",
+    "name": "Aire privée du Domaine du Grand Poirier – La Limouzinière",
     "city": "LA LIMOUZINIERE",
-    "type": "Aire de stationnement",
+    "type": "Accueil privé gratuit chez un viticulteur (2 emplacements)",
     "services": [
-      "Services non renseignés"
+      "2 emplacements camping-car gratuits",
+      "Stationnement maximum 2 nuits",
+      "Accueil au domaine viticole",
+      "Services techniques eau, vidange et électricité non confirmés"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement gratuit, 2 emplacements, durée maximale 2 nuits selon Loire-Atlantique Tourisme. Tarifs de prestations complémentaires, si proposées, non publiés.",
+    "status": "Le Grand Poirier, 44310 La Limouzinière. Accueil au sein d'une exploitation viticole avec jardin clos. 2 emplacements camping-car gratuits pendant 2 nuits au maximum ; contacter le domaine pour confirmer les modalités d'arrivée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 46.982066,
     "longitude": -1.613353,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V5006F7"
+    "importReview": "Gratuité, capacité et durée de stationnement vérifiées le 20/10/2026 avec Loire-Atlantique Tourisme. Ne pas supposer l'existence d'une borne d'eau, de vidange ou d'électricité.",
+    "sourceId": "ACCAMPDL044V5006F7",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER",
+    "priceSource": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER"
   },
   {
     "department": "44",
