@@ -620,3 +620,18 @@ Sources :
 - https://www.cirkwi.com/fr/point-interet/3849219-aire-de-pique-nique
 - https://www.cirkwi.com/fr/point-interet/1369604-akwa-nature-canoe-kayak
 - https://demarchesadministratives.fr/bureau-de-vote/conquereuil-44290 (indice secondaire ancien, non preuve d'un GPS de pique-nique)
+
+## Lot complémentaire 32 — 20 octobre 2026
+
+**Deux précisions de localisation avec sources distinctes ; zéro modification de GPS ou de droit de nuitée.**
+
+- **Guémené-Penfao, Prairies de la Vilaine :** les portails touristiques du Département et de la Région recensent une aire de pique-nique à cet endroit. Une fiche plus ancienne d'Itinérail (8 mars 2022, « Halte de Langon », 1 Le Port de Beslé) indique des tables, dont une couverte, au point `47.7015887,-1.8661737`, à **37 m** environ du repère régional `47.7012569,-1.8661508`. Ce voisinage est un indice, **pas une preuve d'identité** ; pas de fusion, de déplacement, de tarif de nuitée ou de nouveau service affirmé. Le camping municipal du Port reste une fiche distincte.
+- **Conquereuil, Étang de Coisma :** le répertoire départemental référence expressément une aire de pique-nique à cet étang. Cette information s'ajoute aux sites des Potinières ; aucune source ne relie avec certitude le GPS régional générique `47.6247929,-1.750375` à l'un ou l'autre. La localisation reste **à confirmer**, et aucune nuitée camping-car n'est démontrée.
+- Audit automatique renforcé : vérification des sources et conservation des positions/réserves pour les deux fiches.
+- **Aucun compteur modifié : 165 fiches générales, 150 après filtre nocturne, 11 tarifs strictement non confirmés.**
+
+Sources :
+- https://rando.loire-atlantique.fr/service/187461-Aire-de-pique-nique
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-pique-nique-13
+- https://www.cirkwi.com/fr/point-interet/1708463-aire-de-pique-nique (itinéraire ancien et provenance secondaire)
+- https://rando.loire-atlantique.fr/service/187457-Aire-de-pique-nique
