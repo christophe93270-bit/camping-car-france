@@ -1542,18 +1542,18 @@
       "Borne dédiée de vidange camping-car non confirmée"
     ],
     "price": "Non confirmé",
-    "status": "La Tansorais, 44320 Saint-Père-en-Retz. Le PDF officiel de CE camping intitulé « CAMPING LES MOUETTES – tarifs » est explicitement daté du 1er janvier 2024 : forfait historique 19,50 €/jour pour 1 emplacement camping-car, 2 personnes et 1 véhicule, électricité +6,50 €. Ce n'est PAS un prix 2026 confirmé. Attention aux homonymes Les Mouettes situés dans d'autres départements. Demander le tarif 2026 à l'exploitant.",
+    "status": "Camping Les Mouettes, La Tansorais, 44320 Saint-Père-en-Retz. Tarifs en ligne contradictoires et non millésimés : un rendu du site officiel sans « www » affiche 15 € / nuit pour un emplacement camping-car 2 personnes, tandis que la variante « www » affiche 19,50 €. La grille PDF de cet établissement est datée du 1er janvier 2024 et fixe 19,50 €, électricité 6 A +6,50 €. Aucun document ne démontre quel forfait s'applique à 2026 : tarif conservé « Non confirmé », contacter directement le camping. Attention aux campings homonymes d'autres communes.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.21919,
     "longitude": -2.13753,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : document PDF original du camping de Saint-Père-en-Retz daté 01/01/2024, historicité établie. 19,50 € base et 6,50 € électricité ne sont pas présentés comme prix actuels ; champ prix non confirmé conservé.",
+    "importReview": "20/10/2026 : incohérence constatée entre variantes officielles du même site (15 €/nuit sans www, 19,50 € avec www), PDF daté 2024. Ne pas homologuer l'un de ces montants pour 2026.",
     "sourceId": "ACCAMACCAMPDL044000155",
     "sourceOfficial": "https://www.les-mouettes-camping.com/",
     "servicesSource": "https://www.les-mouettes-camping.com/",
-    "priceSource": "https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf"
+    "priceSource": "https://les-mouettes-camping.com/"
   },
   {
     "department": "44",
@@ -1664,9 +1664,10 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Maintenir « Non confirmé ».",
+    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Maintenir « Non confirmé ». [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car.",
     "sourceId": "ACCAMPDL044V51HCGD",
-    "sourceOfficial": "https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/"
+    "sourceOfficial": "https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/",
+    "overnightStatus": "not_established"
   },
   {
     "department": "44",
@@ -2810,9 +2811,10 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Pierric). Identité exacte avec le GPS régional et accueil camping-car non établis. Prix Non confirmé conservé.",
+    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Pierric). Identité exacte avec le GPS régional et accueil camping-car non établis. Prix Non confirmé conservé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car.",
     "sourceId": "ACCAMPDL044V51HCG7",
-    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/"
+    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/",
+    "overnightStatus": "not_established"
   },
   {
     "department": "53",
@@ -3821,9 +3823,10 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Maintenir « Non confirmé ».",
+    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Maintenir « Non confirmé ». [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car.",
     "sourceId": "ACCAMPDL044V51HCG2",
-    "sourceOfficial": "https://tourisme-pays-redon.com/visite/la-carriere/"
+    "sourceOfficial": "https://tourisme-pays-redon.com/visite/la-carriere/",
+    "overnightStatus": "not_established"
   },
   {
     "department": "53",
@@ -3889,17 +3892,18 @@
       "Aire de vidange signalée par la source touristique régionale : prix et accès ponctuel non confirmés"
     ],
     "price": "Non confirmé",
-    "status": "215 rue des Prés Morin, Bourgneuf-en-Retz, Villeneuve-en-Retz. Le camping Les Chênes Verts confirme les emplacements de 80 à 100 m² pour tentes, caravanes et camping-cars, avec ouverture du 4 avril au 13 septembre 2026. Saison 2026 des emplacements terminée au 20 octobre. Pour l'électricité le camping conseille de prévoir une rallonge de 20 mètres ; location d'un réfrigérateur possible sous réserve des stocks. Aucun tarif de nuitée 2026 ni montant de vidange séparée trouvé sur le site direct ; ne pas utiliser les tarifs d'homonymes d'autres départements.",
+    "status": "215 rue des Prés Morin, Bourgneuf-en-Retz, Villeneuve-en-Retz. Le camping Les Chênes Verts est ouvert pour les emplacements du 4 avril au 13 septembre 2026 ; fermé à la date du contrôle. La plateforme Pitchup diffusait pendant la saison 2026 un prix d'appel à partir de 18,52 € pour une nuit et deux adultes, avec supplément électricité 6 A à 5 € / nuit ou 10 A à 8 €. ATTENTION : sa page consultée le 20 octobre porte déjà le calendrier de la saison 2027 ; ce montant N'EST PAS validé comme barème officiel 2026. Contacter le camping pour toute confirmation.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.05199,
     "longitude": -1.96605,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : camping propriétaire confirme 80-100m², saison 04/04–13/09, rallonge 20m et location réfrigérateur ; aucun forfait camping-car 2026 publiquement chiffré.",
+    "importReview": "20/10/2026 : source Pitchup pour Les Chênes Verts, Bourgneuf-en-Retz, remonte une annonce publiée en saison 2026 dès 18,52 € / 2 adultes, branchement 5/8 €, mais site bascule déjà vers réservations 2027. Prix officiel millésimé 2026 non garanti et conservé Non confirmé.",
     "sourceId": "ACCAMACCAMPDL044V50G1TE",
     "sourceOfficial": "https://www.leschenesverts.info/hebergement/emplacement/",
-    "servicesSource": "https://www.leschenesverts.info/hebergement/emplacement/"
+    "servicesSource": "https://www.leschenesverts.info/hebergement/emplacement/",
+    "priceSource": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/bourgneuf_en_retz/camping_les_chenes_verts/?type=3"
   },
   {
     "department": "44",
@@ -4068,9 +4072,10 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Plessé). Identité exacte avec le GPS régional et accueil camping-car non établis. Prix Non confirmé conservé.",
+    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Plessé). Identité exacte avec le GPS régional et accueil camping-car non établis. Prix Non confirmé conservé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car.",
     "sourceId": "ACCAMPDL044V51HCG9",
-    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/"
+    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/",
+    "overnightStatus": "not_established"
   },
   {
     "department": "44",
@@ -4114,9 +4119,10 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Avessac). Identité exacte avec le GPS régional et accueil camping-car non établis. Prix Non confirmé conservé.",
+    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Avessac). Identité exacte avec le GPS régional et accueil camping-car non établis. Prix Non confirmé conservé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car.",
     "sourceId": "ACCAMPDL044V51HCFZ",
-    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-2/"
+    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-2/",
+    "overnightStatus": "not_established"
   },
   {
     "department": "53",
@@ -4954,18 +4960,19 @@
       "Aire CAMPING-CAR PARK La Pointe exploitée en partenariat sur une partie des emplacements du camping"
     ],
     "price": "Non confirmé",
-    "status": "Chemin du Port aux Ânes, 44770 Préfailles. Saison camping 2026 du 10 avril au 20 septembre, terminée au 20 octobre. La centrale CampingDirect affiche des prix d'appel pour une semaine à partir de 148 € (Access), 176 € (Access XL) et 267 € (Privilège), SANS dater les séjours concernés : ne pas les interpréter comme tarifs 2026 disponibles ou comme prix au jour. CAMPING-CAR PARK exploite 49 places en partenariat avec le camping, d'où un chevauchement physique possible des offres. Tarif exact du camping pour un camping-car en 2026 non confirmé.",
+    "status": "Chemin du Port aux Ânes, 44770 Préfailles. Camping Eden Villages La Pointe Saint-Gildas, ouvert du 10 avril au 20 septembre 2026 (fermé au 20 octobre). Campingnavigator publie à titre INDICATIF un prix de base de 15 € en basse saison et 24 € en haute saison pour deux personnes, une place de tente/caravane/camping-car et une voiture, hors taxes ; la grille n'est pas explicitement millésimée 2026 et la haute saison est réservable par semaine. Ne pas confondre ce barème du camping avec celui de l'aire CAMPING-CAR PARK La Pointe, exploitée en partenariat sur une partie des places. Prix officiel 2026 des emplacements du camping non confirmé.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.13792,
     "longitude": -2.22222,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : CampingDirect confirme trois types d'emplacements et prix de départ hebdomadaires sans période; tarifs 2026 non retenus comme certifiés. Partenariat CAPMING-CAR PARK déjà source, pas de fusion sans vérifier l'emprise.",
+    "importReview": "20/10/2026 : Campingnavigator fournit prix indicatif de base 15/24 € (2 personnes + voiture, hors taxes), sans année certifiée. Tarif officiel 2026 non confirmé. Coopération CAMPING-CAR PARK sur 49 places signalée séparément, doublon saisonnier possible.",
     "sourceId": "ACCAMACCAMPDL044000154",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/campings/camping-eden-villages-la-pointe-saint-gildas",
     "servicesSource": "https://www.campingdirect.com/fr/reservation-emplacement-mobil-home/loire-atlantique/camping-prefailles/camping-eden-villages-la-pointe-saint-gildas",
-    "sharedSiteWithSourceId": "ACCAMEPRFCCARPARK"
+    "sharedSiteWithSourceId": "ACCAMEPRFCCARPARK",
+    "priceSource": "https://campingnavigator.com/fr/campings-france/pays-de-la-loire/eden-villages-la-pointe-saint-gildas"
   },
   {
     "department": "44",
@@ -4984,9 +4991,10 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Maintenir « Non confirmé ».",
+    "importReview": "20/10/2026 : catégorie ou lieux de pique-nique observés sur l'office de tourisme du Pays de Redon, mais identité exacte du GPS et stationnement nocturne camping-car non établis. Maintenir « Non confirmé ». [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car.",
     "sourceId": "ACCAMPDL044V51HCG0",
-    "sourceOfficial": "https://tourisme-pays-redon.com/experiences/idees-descapades/pique-niquer-redon/"
+    "sourceOfficial": "https://tourisme-pays-redon.com/experiences/idees-descapades/pique-niquer-redon/",
+    "overnightStatus": "not_established"
   },
   {
     "department": "49",
@@ -5787,9 +5795,10 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Guémené-Penfao). Identité exacte avec le GPS régional et accueil camping-car non établis. Prix Non confirmé conservé.",
+    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Guémené-Penfao). Identité exacte avec le GPS régional et accueil camping-car non établis. Prix Non confirmé conservé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car.",
     "sourceId": "ACCAMPDL044V51HCG4",
-    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/"
+    "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/",
+    "overnightStatus": "not_established"
   },
   {
     "department": "44",

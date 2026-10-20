@@ -268,3 +268,23 @@ Sources de ce lot :
 - https://www.anas.asso.fr/moutiers-en-retz
 - https://park4night.com/fr/place/317535
 - https://www.leschenesverts.info/hebergement/emplacement/
+
+## Lot complémentaire 12 — 20 octobre 2026
+
+**10 fiches du département 44 contrôlées : 7 aires de pique-nique et 3 campings, sans ajout, suppression ou fusion.**
+
+- **Sept aires de pique-nique** (Saint-Nicolas-de-Redon, Pierric, Fégréac, Plessé, Avessac, Conquereuil, Guémené-Penfao) portent maintenant un attribut `overnightStatus = not_established`. Le site affiche un avertissement explicite sur leur carte et dans leur fenêtre géographique : nuitée non établie, consulter la mairie. Absence d'autorisation confirmée ne signifie PAS interdiction certaine.
+- **Camping Les Chênes Verts, Bourgneuf-en-Retz** : Pitchup a diffusé un prix d'appel indicatif dès 18,52 € pour 2 adultes sur un emplacement pendant la saison 2026, électricité 6 A +5 € / nuit ou 10 A +8 €. Sa page active est déjà passée aux réservations 2027. On ne peut donc pas présenter 18,52 € comme une grille officielle garantie pour 2026.
+- **Eden Villages La Pointe Saint-Gildas, Préfailles** : Campingnavigator indique un forfait de base purement indicatif 15 € basse saison et 24 € haute saison, 2 adultes + voiture hors taxe, non millésimé 2026, et haute saison par semaine ; ce n'est pas le tarif CAMPING-CAR PARK ni une cotation officielle de 2026.
+- **Camping Les Mouettes, Saint-Père-en-Retz** : le site accessible sous deux variantes d'URL affiche 15 € et 19,50 € / nuit, sans millésime ; le PDF officiel est daté de 2024 et indique 19,50 €, électricité 6 A +6,50 €. Tarifs divergents : ne pas les classer comme « prix 2026 confirmé ».
+- **Amélioration de l'interface du répertoire** : les fiches de pique-nique affichent désormais un avertissement visible « nuitée camping-car non confirmée » et le même avertissement se retrouve dans les popups de la carte ; les offres se chevauchant ou suspectées doublons affichent une réserve sans retrait automatique d'une entrée.
+
+**Bilan : 165 entrées attendues, dont 156 régionales et 9 complémentaires ; 19 prix strictement Non confirmé en régional brut, dont deux doublons masqués (17 visibles), et 3 complémentaires strictement non confirmés.** Aucun prix dont l'année 2026 est incertaine n'a été artificiellement « certifié ». Les sept aires pique-nique ne sont pas validées pour la nuitée.
+
+### Sources lot 12
+- https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/bourgneuf_en_retz/camping_les_chenes_verts/?type=3
+- https://www.leschenesverts.info/hebergement/emplacement/
+- https://campingnavigator.com/fr/campings-france/pays-de-la-loire/eden-villages-la-pointe-saint-gildas
+- https://les-mouettes-camping.com/
+- https://www.les-mouettes-camping.com/
+- https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf

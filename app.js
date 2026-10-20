@@ -110,7 +110,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261020-11", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261020-12", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -598,6 +598,9 @@ async function initAires(){
         <span class="card-top"><span class="department-code">${escapeHTML(a.department)}</span><span class="card-score" style="font-size:.85rem">${escapeHTML(a.type)}</span></span>
         <span class="card-name">${escapeHTML(a.name)}</span>
         <span class="card-foot">${escapeHTML(a.city)}</span>
+        ${a.overnightStatus==="not_established" ? `<p><strong>Attention : aire de pique-nique seulement.</strong> La nuitée en camping-car n'est pas autorisée ou interdite de façon certaine : elle n'a pas été vérifiée. Ne pas l'utiliser comme étape de nuit sans confirmation auprès de la mairie.</p>` : ""}
+        ${a.department==="44"&&a.sharedSiteWithSourceId ? `<p><strong>Site partagé :</strong> cette offre peut concerner des emplacements également recensés sous une autre fiche.</p>` : ""}
+        ${a.department==="44"&&a.potentialDuplicateOfSourceId ? `<p><strong>Doublon possible :</strong> ce point peut correspondre à un autre lieu déjà recensé.</p>` : ""}
         <p><strong>Services :</strong> ${escapeHTML((Array.isArray(a.services)?a.services:[]).join(", "))}</p>
         <p><strong>Tarif :</strong> ${escapeHTML(a.price)}</p>
         <p><strong>À vérifier :</strong> ${escapeHTML(a.status)}</p>
@@ -617,7 +620,19 @@ async function initAires(){
           const link=document.createElement("a");
           link.href="https://www.openstreetmap.org/?mlat="+encodeURIComponent(a.latitude)+"&mlon="+encodeURIComponent(a.longitude)+"#map=16/"+encodeURIComponent(a.latitude)+"/"+encodeURIComponent(a.longitude);
           link.target="_blank";link.rel="noopener noreferrer";link.textContent="Voir sur OpenStreetMap";
-          const popup=document.createElement("div");popup.append(title,place,link);marker.bindPopup(popup);
+          const popup=document.createElement("div");
+           popup.append(title,place);
+           if(a.overnightStatus==="not_established"){
+             const warning=document.createElement("p");
+             warning.textContent="Aire de pique-nique : stationnement nocturne des camping-cars non confirmé.";
+             popup.append(warning);
+           }
+           if(a.department==="44"&&(a.potentialDuplicateOfSourceId||a.sharedSiteWithSourceId)){
+             const warning=document.createElement("p");
+             warning.textContent="Doublon possible ou plusieurs offres sur un même site : vérifiez avant de compter ce point comme une aire distincte.";
+             popup.append(warning);
+           }
+           popup.append(link);marker.bindPopup(popup);
           points.push([a.latitude,a.longitude]);
         });
         if(points.length===1)map.setView(points[0],12);
