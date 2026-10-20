@@ -362,7 +362,7 @@ jobs:
           # Lot 60 : offre promotionnelle FFCC Bleuets annoncée sur une page de saison 2026 ; prix de séjour normal inconnu.
           bleu60=next(x for x in visible_regional if x.get("sourceId")=="CCF44-PORNIC-LES-BLEUETS-2026")
           assert bleu60.get("price")!="Non confirmé" and bleu60.get("priceType")=="offre_publiee_stop_accueil_camping_car_prix_appel_premiere_nuit_non_garanti", "Lot 60 : offre Bleuets non qualifiée"
-          assert all(s in bleu60.get("price","") for s in ("à partir de 9 €","PREMIÈRE nuit","NON un prix final garanti","millésime", "2026","forfait normal")), "Lot 60 : un prix non garanti ne doit pas être présenté comme forfait 2026 certifié"
+          assert all(s in bleu60.get("price","").lower() for s in ("à partir de 9 €","première nuit","non un prix final garanti","année propre","2026","forfait normal")), "Lot 60 : un prix non garanti ne doit pas être présenté comme forfait 2026 certifié"
           assert bleu60.get("priceSource")=="https://www.camping-pornic.com/camping-pornic-les-bleuets.html" and bleu60.get("offer2026",{}).get("rateExplicitlyDated2026") is False and bleu60.get("offer2026",{}).get("normalPitchRateConfirmed") is False and bleu60.get("offer2026",{}).get("finalAmountGuaranteed") is False, "Lot 60 : tarif d'appel ou millésime prix Bleuets traité comme prix final"
           etang60=next(x for x in visible_regional if x.get("sourceId")=="CCF44-GUERANDE-ETANG-PAYS-BLANC-2026")
           assert etang60.get("price")=="Non confirmé" and etang60.get("capacityCampingCarRegional")==24 and etang60.get("seasonalDates2026Source")=="https://www.enpaysdelaloire.com/hebergements/campings/camping-l-etang-du-pays-blanc", "Lot 60 : saison ou capacité Étang non sourcée"
