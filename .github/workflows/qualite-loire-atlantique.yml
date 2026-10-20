@@ -80,6 +80,9 @@ jobs:
           extra_potential_duplicates=[x for x in visible_osm if x.get("potentialDuplicateOfSourceId")]
           overnight_other_regional=sum(x.get("overnightStatus")=="not_established" and "pique-nique" not in str(x.get("type","")).lower() for x in visible_regional)
           overnight_extra=sum(x.get("overnightStatus")=="not_established" for x in visible_osm)
+          night_flags_total=overnight_pending+overnight_other_regional+overnight_extra
+          night_filter_visible=total_visible-night_flags_total
+          assert night_flags_total==10, f"44 : attendu 10 fiches à nuitée non établie ; obtenu {night_flags_total}"
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -131,6 +134,8 @@ jobs:
               f"- Aires de pique-nique régionales avec nuitée non établie : **{overnight_pending}**",
               f"- Autres haltes régionales avec nuitée non établie : **{overnight_other_regional}**",
               f"- Compléments visibles avec nuitée non établie : **{overnight_extra}**",
+              f"- **Filtre nuitée non établie : {night_filter_visible} lieux / {total_visible}**",
+              "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               "- Ces doublons potentiels ne sont pas fusionnés sans concordance suffisante des emprises.",
               f"- Coordonnées GPS invalides : **{bad_gps}**",

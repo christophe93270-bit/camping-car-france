@@ -406,3 +406,13 @@ Sources :
 ### Complément du lot 18 — cohérence des contacts
 
 Le nouvel audit des coordonnées publiques requiert un rôle de contact pour les fiches enrichies. Six contacts préexistants du lot 16 avaient bien un téléphone sourcé, mais pas le champ `contactRole`. Les cinq campings sont maintenant étiquetés « camping » et le site ANAS est étiqueté « centre ». Cette correction ne change ni leurs numéros ni leurs tarifs ; elle permet de distinguer « contacter le camping » de « contacter le gestionnaire » et rend la nouvelle règle de contrôle cohérente avec l'historique.
+
+## Lot complémentaire 19 — 20 octobre 2026
+
+- **Camping Les Chênes Verts (Villeneuve-en-Retz)** : la page officielle https://www.leschenesverts.info/location-emplacements-villeneuve-en-retz/ confirme une borne de vidange et le remplissage en eau potable pour les camping-cars. Les services sont enrichis sur cette source officielle. L'accès sans séjour, le prix des services et le prix de nuitée 2026 restent non confirmés.
+- **Nouveau filtre de prudence** : « Masquer les lieux dont la nuitée n'est pas établie », décoché par défaut et réinitialisable. Dans le 44, il écarte sept aires de pique-nique, une halte régionale et deux points complémentaires, soit **10 fiches** : **165 avant filtrage, 155 après filtrage**. Cette diminution n'est pas une suppression de lieux.
+- **Avertissement** : les 155 autres lieux ne sont pas pour autant tous autorisés pour la nuitée ; seuls les dix lieux avec le champ overnightStatus=not_established sont masqués.
+- **Audit** : compte des dix lieux signalés et des 155 fiches attendues avec le filtre actif. Les **13 tarifs strictement non confirmés** restent inchangés, faute d'un forfait camping-car 2026 officiellement prouvé.
+- **Traçabilité** : aucun ajout ni fusion d'une aire, compteur par défaut conservé à 165.
+
+Sources : https://www.leschenesverts.info/location-emplacements-villeneuve-en-retz/ ; https://www.anas.asso.fr/moutiers-en-retz ; https://www.capfun.com/camping---l_eve-FR.html ; https://www.les-mouettes-camping.com/

@@ -61,9 +61,10 @@
       <label for="aire-service">Service recherché</label>
       <select id="aire-service"><option value="">Tous les services</option><option value="water">Eau potable</option><option value="drain">Vidange</option><option value="electric">Électricité</option><option value="parking">Stationnement mentionné</option></select>
       <label><input type="checkbox" id="aire-gps-only"> Uniquement avec coordonnées GPS</label>
+      <label><input type="checkbox" id="aire-hide-unverified-night"> Masquer les lieux dont la nuitée n’est pas établie</label>
       <button type="button" id="aire-reset" class="button button-dark">Effacer les filtres</button>
     </div>
-    <p class="notice">Les filtres portent sur les services <strong>mentionnés</strong> dans les fiches, pas sur leur disponibilité en temps réel. Vérifiez les conditions avant votre déplacement.</p>
+    <p class="notice">Les filtres portent sur les services <strong>mentionnés</strong> dans les fiches, pas sur leur disponibilité en temps réel. Masquer les lieux à nuitée non établie ne garantit pas l'autorisation nocturne pour les autres lieux. Vérifiez toujours les conditions avant votre déplacement.</p>
     <details class="notice"><summary><strong>Origine des données et fiabilité</strong></summary>
       <p>Les lieux recensés proviennent de recherches documentaires avec un lien vers leur source. Les informations peuvent évoluer : tarifs, accès, disponibilité et services doivent être confirmés auprès de l'exploitant avant le départ.</p>
       <p>Pour étendre le répertoire, nous étudions les données ouvertes <a href="https://www.datatourisme.fr/utiliser-les-donnees/" target="_blank" rel="noopener noreferrer">DATAtourisme (Licence Ouverte)</a> et les <a href="https://www.data.gouv.fr/datasets/offre-touristique-aires-de-camping-car-en-pays-de-la-loire" target="_blank" rel="noopener noreferrer">aires de camping-car des Pays de la Loire (ODbL)</a>. Les données des Pays de la Loire ont été partiellement importées avec attribution et licence ODbL ; la Vendée reste à compléter. D’autres sources sont à l’étude.</p>
@@ -118,6 +119,6 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-<script src="app.js?v=20261020-44-18b"></script>
+<script src="app.js?v=20261020-44-19"></script>
 </body>
 </html>

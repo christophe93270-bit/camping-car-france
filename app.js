@@ -110,7 +110,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261020-18b", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261020-19", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -564,6 +564,7 @@ async function initAires(){
     const kind=document.getElementById("aire-kind");
     const progress=document.getElementById("aire-progress");
     const gpsOnly=document.getElementById("aire-gps-only");
+    const hideUnverifiedNight=document.getElementById("aire-hide-unverified-night");
     const reset=document.getElementById("aire-reset");
     const servicePatterns={
       water:/eau potable/i,
@@ -586,13 +587,15 @@ async function initAires(){
       const q=query.value.trim().toLocaleLowerCase("fr");
       const subset=selector.value?aires.filter(a=>a.department===selector.value):aires;
       const gpsCount=subset.filter(a=>Number.isFinite(a.latitude)&&Number.isFinite(a.longitude)).length;
-      progress.textContent=subset.length+" lieu"+(subset.length>1?"x":"")+" recensé"+(subset.length>1?"s":"")+" "+(selector.value?"dans ce département":"dans "+new Set(aires.map(a=>a.department)).size+" départements sur 101")+", dont "+gpsCount+" avec coordonnées GPS. Base non exhaustive.";
+      const nightUnverifiedCount=subset.filter(a=>a.overnightStatus==="not_established").length;
+      progress.textContent=subset.length+" lieu"+(subset.length>1?"x":"")+" recensé"+(subset.length>1?"s":"")+" "+(selector.value?"dans ce département":"dans "+new Set(aires.map(a=>a.department)).size+" départements sur 101") +", dont "+gpsCount+" avec coordonnées GPS et "+nightUnverifiedCount+" avec nuitée non établie. Base non exhaustive.";
       const filtered=aires.filter(a=>
         (!selector.value||a.department===selector.value)
         &&[a.name,a.city,a.type,a.department].join(" ").toLocaleLowerCase("fr").includes(q)
         &&(!kind.value||(kind.value==="camping"?/^camping\b/i.test(a.type):!/^camping\b/i.test(a.type)))
         &&(!service.value||(a.services||[]).some(v=>servicePatterns[service.value].test(v)))
         &&(!gpsOnly.checked||(Number.isFinite(a.latitude)&&Number.isFinite(a.longitude)))
+        &&(!hideUnverifiedNight.checked||a.overnightStatus!=="not_established")
       );
       target.innerHTML=filtered.slice(0,visibleCount).map(a=>`<article class="department-card" style="cursor:default;text-align:left">
         <span class="card-top"><span class="department-code">${escapeHTML(a.department)}</span><span class="card-score" style="font-size:.85rem">${escapeHTML(a.type)}</span></span>
@@ -662,8 +665,9 @@ async function initAires(){
     kind.addEventListener("change",()=>display());
     service.addEventListener("change",()=>display());
     gpsOnly.addEventListener("change",()=>display());
+    hideUnverifiedNight.addEventListener("change",()=>display());
     reset.addEventListener("click",()=>{
-      selector.value="";query.value="";kind.value="";service.value="";gpsOnly.checked=false;display();
+      selector.value="";query.value="";kind.value="";service.value="";gpsOnly.checked=false;hideUnverifiedNight.checked=false;display();
     });
     display();
   }catch(e){console.error("Erreur du répertoire des aires :",e);target.textContent="Le répertoire des aires est temporairement indisponible. Détail : "+(e&&e.message?e.message:"erreur inconnue");}
