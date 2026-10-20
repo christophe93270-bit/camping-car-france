@@ -59,7 +59,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : conditions générales officielles France Passion (accueil gratuit max 24 h, adhésion à jour, autonomie, sans réservation préalable) recoupées ; statut individuel de cet hôte dans le guide 2026 non confirmé, champ tarif maintenu « Non confirmé ». Ferme ouverte en 2026 selon https://www.sudretzatlantique-tourisme.fr/offres/la-ferme-des-cochons-dantan-lege-fr-3121272/ ; activité d'accueil France Passion 2026 non démontrée.",
+    "importReview": "20/10/2026 : conditions générales officielles France Passion (accueil gratuit max 24 h, adhésion à jour, autonomie, sans réservation préalable) recoupées ; statut individuel de cet hôte dans le guide 2026 non confirmé, champ tarif maintenu « Non confirmé ». Ferme ouverte en 2026 selon https://www.sudretzatlantique-tourisme.fr/offres/la-ferme-des-cochons-dantan-lege-fr-3121272/ ; activité d'accueil France Passion 2026 non démontrée. Lot 21, 20/10/2026 : la FAQ officielle France Passion 2026 indique véhicule 100% autonome, guide/adhésion actif et stationnement gratuit 24 heures au maximum chez les hôtes encore répertoriés. Source https://www.france-passion.com/camping-caristes/faq-camping-cariste/formule-france-passion/ ; le statut d'hôte pour 2026 n'est pas confirmé pour cette exploitation.",
     "sourceId": "ACCAMPDL044V50Y077",
     "contactPhone": "06 63 22 27 70",
     "contactSource": "https://lafermedescochonsdantan.fr/mentions-legales/",
@@ -67,7 +67,10 @@
     "priceVerification": "confirmation_contact_requise",
     "priceCheckedAt": "2026-10-20",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/la-ferme-des-cochons-d-antan",
-    "servicesSource": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
+    "servicesSource": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/",
+    "accessNote": "Étape France Passion conditionnelle : guide/adhésion en cours de validité et véhicule entièrement autonome. Le réseau prévoit un stationnement gratuit jusqu'à 24 h chez les hôtes inscrits ; la présence de cette ferme au guide actif 2026 n'a pas été vérifiée. Contacter la ferme avant l'arrivée.",
+    "accessSource": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/formule-france-passion/",
+    "accessVerification": "hote_2026_non_verifie"
   },
   {
     "department": "44",
@@ -2595,18 +2598,21 @@
       "Pas de vidange camping-car sur place"
     ],
     "price": "Tarif de stationnement non publié sur le site Loire-Atlantique Tourisme ; confirmer le coût auprès de la ferme. Les services comprennent eau et électricité, mais aucune vidange.",
-    "status": "41 rue de la Piardière, 44630 Plessé. Aire privée de 4 places, distincte du parking camping-car OSM proche du bourg.",
+    "status": "41 rue de la Piardière, 44630 Plessé. Aire privée de 4 places, distincte du parking camping-car OSM proche du bourg. Le site officiel de la mairie de Plessé référence expressément cet hébergement comme « aire de camping-car » sur son annuaire communal. Quatre emplacements avec point d'eau et électricité, aucune vidange selon Loire-Atlantique Tourisme. Contact direct de la ferme : 06 74 65 28 85. L'aire privée se distingue du point OSM près de l'église, non validé pour la nuitée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.53229,
     "longitude": -1.85498,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ.",
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ. Lot 21 : annuaire officiel mairie https://www.commune-de-plesse.com/herbergement ; accueil camping-car de la ferme et téléphone recoupés. Services : https://rando.loire-atlantique.fr/service/187454-Aire-de-Camping-Car-Ferme-de-la-Piardiere ; 4 places/eau/électricité, pas de vidange. Pas de tarif 2026 certifié.",
     "sourceId": "ACCAMPDL044V51HCFX",
-    "sourceOfficial": "https://rando.loire-atlantique.fr/service/187454-Aire-de-Camping-Car-Ferme-de-la-Piardiere",
+    "sourceOfficial": "https://www.commune-de-plesse.com/herbergement",
     "priceSource": "https://rando.loire-atlantique.fr/service/187454-Aire-de-Camping-Car-Ferme-de-la-Piardiere",
-    "servicesSource": "https://rando.loire-atlantique.fr/service/187454-Aire-de-Camping-Car-Ferme-de-la-Piardiere"
+    "servicesSource": "https://rando.loire-atlantique.fr/service/187454-Aire-de-Camping-Car-Ferme-de-la-Piardiere",
+    "contactPhone": "06 74 65 28 85",
+    "contactSource": "https://www.commune-de-plesse.com/herbergement",
+    "contactRole": "ferme"
   },
   {
     "department": "44",
@@ -5202,7 +5208,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : conditions générales officielles France Passion (accueil gratuit max 24 h, adhésion à jour, autonomie, sans réservation préalable) recoupées ; statut individuel de cet hôte dans le guide 2026 non confirmé, champ tarif maintenu « Non confirmé ». Recoupement activité ferme : https://www.nort-sur-erdre.fr/informations-transversales/annuaires/annuaire-des-structures/ferme-du-biau-chemin-des-landes et https://www.accueil-paysan.com/fr/structure/2003/ ; France Passion 2026 non confirmé.",
+    "importReview": "20/10/2026 : conditions générales officielles France Passion (accueil gratuit max 24 h, adhésion à jour, autonomie, sans réservation préalable) recoupées ; statut individuel de cet hôte dans le guide 2026 non confirmé, champ tarif maintenu « Non confirmé ». Recoupement activité ferme : https://www.nort-sur-erdre.fr/informations-transversales/annuaires/annuaire-des-structures/ferme-du-biau-chemin-des-landes et https://www.accueil-paysan.com/fr/structure/2003/ ; France Passion 2026 non confirmé. Lot 21, 20/10/2026 : la FAQ officielle France Passion 2026 indique véhicule 100% autonome, guide/adhésion actif et stationnement gratuit 24 heures au maximum chez les hôtes encore répertoriés. Source https://www.france-passion.com/camping-caristes/faq-camping-cariste/formule-france-passion/ ; le statut d'hôte pour 2026 n'est pas confirmé pour cette exploitation.",
     "sourceId": "ACCAMPDL044V50ZDO9",
     "contactPhone": "02 40 29 53 20",
     "contactSource": "https://www.accueil-paysan.com/fr/structure/2003/",
@@ -5210,7 +5216,10 @@
     "priceVerification": "confirmation_contact_requise",
     "priceCheckedAt": "2026-10-20",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion",
-    "servicesSource": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
+    "servicesSource": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/",
+    "accessNote": "Étape France Passion conditionnelle : guide/adhésion en cours de validité et véhicule entièrement autonome. Le réseau prévoit un stationnement gratuit jusqu'à 24 h chez les hôtes inscrits ; la présence de cette ferme au guide actif 2026 n'a pas été vérifiée. Contacter la ferme avant l'arrivée.",
+    "accessSource": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/formule-france-passion/",
+    "accessVerification": "hote_2026_non_verifie"
   },
   {
     "department": "72",
@@ -6217,14 +6226,14 @@
       "Sanitaires chauffés, piscine couverte saisonnière, restaurant et animations selon ouverture"
     ],
     "price": "Non confirmé",
-    "status": "Route du Bois des Tréans, 44760 Les Moutiers-en-Retz. Le gestionnaire ANAS confirme 35 emplacements spécifiques camping-car, une borne de vidange et 40 places camping-caravaning distinctes. ATTENTION : pour les séjours du village vacances, ANAS indique un accès réservé aux adhérents et aux agents du Ministère de l'Intérieur, justificatif requis. Une offre camping-car avec accès autonome est décrite séparément dans un partenariat communal ; les conditions réelles d'accès sans affiliation ANAS doivent donc être vérifiées avant toute réservation. Des voyageurs ont rapporté en juin 2026 environ 42,88 € pour deux nuits, tandis qu'un prospectus communal évoque d'autres tarifs saisonniers ; ce montant est un témoignage, pas une grille officielle 2026 universelle. Le tarif et les possibilités d'accès restent Non confirmés. Contrôle du 20/10/2026 : plusieurs témoignages de voyageurs en août et septembre 2026 évoquent un règlement de 21 € pour 24 h sur une borne dédiée ; d'autres signalent 42 € affichés ou 42,88 € pour deux nuitées. Ce sont des observations, pas un tarif officiel généralisable. Le gestionnaire confirme 35 places camping-car, séparées des hébergements ANAS soumis à adhésion. Vérifier le tarif à la borne et les conditions d'accès avant déplacement.",
+    "status": "Route du Bois des Tréans, 44760 Les Moutiers-en-Retz. Le gestionnaire ANAS confirme 35 emplacements spécifiques camping-car, une borne de vidange et 40 places camping-caravaning distinctes. ATTENTION : pour les séjours du village vacances, ANAS indique un accès réservé aux adhérents et aux agents du Ministère de l'Intérieur, justificatif requis. Une offre camping-car avec accès autonome est décrite séparément dans un partenariat communal ; les conditions réelles d'accès sans affiliation ANAS doivent donc être vérifiées avant toute réservation. Des voyageurs ont rapporté en juin 2026 environ 42,88 € pour deux nuits, tandis qu'un prospectus communal évoque d'autres tarifs saisonniers ; ce montant est un témoignage, pas une grille officielle 2026 universelle. Le tarif et les possibilités d'accès restent Non confirmés. Contrôle du 20/10/2026 : plusieurs témoignages de voyageurs en août et septembre 2026 évoquent un règlement de 21 € pour 24 h sur une borne dédiée ; d'autres signalent 42 € affichés ou 42,88 € pour deux nuitées. Ce sont des observations, pas un tarif officiel généralisable. Le gestionnaire confirme 35 places camping-car, séparées des hébergements ANAS soumis à adhésion. Vérifier le tarif à la borne et les conditions d'accès avant déplacement. Complément documenté le 20/10/2026 : la page officielle « Adhérer » de l'ANAS prévoit la catégorie bienfaiteur pour les camping-caristes qui ne relèvent pas du ministère de l'Intérieur. Cette adhésion donne accès aux centres ANAS, mais ne prouve ni un tarif de nuitée 2026 ni la libre entrée de tous les camping-cars dans la zone de passage.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.07146,
     "longitude": -2.00807,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : page officielle ANAS, 35 places camping-car dédiées +40 camping, réservations de village vacances limitées aux adhérents; signalements Park4Night juin-août 2026 de prix différents, ne pas extrapoler un forfait fixe ni l'accès pour tous.",
+    "importReview": "20/10/2026 : page officielle ANAS, 35 places camping-car dédiées +40 camping, réservations de village vacances limitées aux adhérents; signalements Park4Night juin-août 2026 de prix différents, ne pas extrapoler un forfait fixe ni l'accès pour tous. Lot 21 : https://www.anas.asso.fr/adherer distingue adhésion bienfaiteur camping-car de l'adhésion agent MI. Les séjours village vacances restent soumis à une adhésion/justificatif ; conditions séparées de l'aire technique non publiées.",
     "sourceId": "ACCAMACCAMEELMANAS",
     "contactRole": "centre",
     "contactPhone": "02 40 82 72 43",
@@ -6233,7 +6242,10 @@
     "priceCheckedAt": "2026-10-20",
     "sourceOfficial": "https://www.anas.asso.fr/moutiers-en-retz",
     "servicesSource": "https://www.anas.asso.fr/moutiers-en-retz",
-    "priceSource": "https://park4night.com/fr/place/317535"
+    "priceSource": "https://park4night.com/fr/place/317535",
+    "accessNote": "Le village vacances ANAS réserve les séjours aux adhérents ANAS ou agents du ministère de l'Intérieur. L'association propose aussi une adhésion « bienfaiteur », notamment pour les camping-caristes extérieurs au ministère. Cette possibilité d'adhésion ne certifie pas un accès libre à l'aire de passage : vérifier auprès de l'ANAS l'éligibilité, la cotisation et le prix de la nuitée.",
+    "accessSource": "https://www.anas.asso.fr/adherer",
+    "accessVerification": "adhesion_village_requise_aire_autonome_a_verifier"
   },
   {
     "department": "72",

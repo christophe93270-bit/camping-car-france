@@ -432,3 +432,25 @@ Sources :
 - https://www.stellplatzfuehrer.de/fr/parcs-de-vr/listes/all/17565-corcoue-sur-logne
 - https://www.les-mouettes-camping.com/
 - https://les-mouettes-camping.com/
+
+## Lot complémentaire 21 — 20 octobre 2026
+
+**Trois conditions d'accès au premier plan, et trois fiches locales à source plus solide ; aucune modification artificielle du compteur ni des tarifs.**
+
+- **France Passion — La Ferme des Cochons d'Antan à Legé et Le Biau Chemin à Nort-sur-Erdre** : le réseau France Passion indique officiellement que les véhicules doivent être totalement autonomes et le stationnement de 24 heures est gratuit chez les hôtes inscrits, à condition de disposer de l'adhésion/guide valable. La participation **effective des deux fermes au guide 2026 n'a pas été prouvée** et doit être demandée directement. Un champ `accessNote` rend désormais ce prérequis visible sans promettre une nuitée.
+- **ANAS Les Moutiers-en-Retz** : l'ANAS confirme l'existence d'une catégorie d'adhésion « bienfaiteur » destinée notamment aux camping-caristes extérieurs au ministère de l'Intérieur. Les séjours dans le village vacances exigent un statut d'adhérent ; ce constat ne démontre ni l'accès libre à une zone de passage camping-car ni un tarif de nuitée 2026. La fiche affiche la distinction et un lien vers les modalités de l'adhésion.
+- **La Piardière, Plessé** : l'annuaire de la commune référence directement l'aire privée de camping-car, et fournit le numéro 06 74 65 28 85. La source départementale identifie 4 places avec eau et électricité mais sans vidange. Le tarif reste partiel/non confirmé. Champ contact ajouté.
+- **Parking OSM près de l'église de Plessé** : ne pas assimiler l'étiquette OpenStreetMap à une aire municipale reconnue ; la mairie recense l'aire privée distincte à la Piardière, mais ne publie pas d'autorisation de nuitée pour l'objet OSM. L'interdiction de camping au plan d'eau de Buhel concerne un site **distinct** et n'est pas étendue arbitrairement au bourg. Nuitée non établie conservée.
+- **Barrière Saint-Pierre, Ancenis-Saint-Géréon** : e-SPRIT confirme WC/eau et tables, La Loire à Vélo répertorie aussi une catégorie « évacuation des eaux usées » dont les modalités 2026 demeurent non établies. La fiche précise cette incertitude et cite en priorité la source e-SPRIT plutôt que de laisser le seul PDF général COMPA 2024. La capacité actuelle, la durée autorisée et le tarif restent à confirmer.
+- **Affichage et audit** : section « Conditions d'accès » visible sur les trois fiches concernées, nouvelles assertions automatiques de présence de source et de réserve. Compteurs prévus : **165 fiches** sans filtre, **155** avec le filtre « nuitée non établie », **12** tarifs strictement « Non confirmé » (les 7 pique-niques restent hors de ces prix), aucun tarif 2026 supplémentaire inventé.
+
+Sources :
+- https://www.france-passion.com/camping-caristes/faq-camping-cariste/formule-france-passion/
+- https://www.france-passion.com/camping-caristes/faq-camping-cariste/
+- https://www.anas.asso.fr/adherer
+- https://www.anas.asso.fr/moutiers-en-retz
+- https://www.commune-de-plesse.com/herbergement
+- https://www.commune-de-plesse.com/environnement
+- https://rando.loire-atlantique.fr/service/187454-Aire-de-Camping-Car-Ferme-de-la-Piardiere
+- https://www.cirkwi.com/fr/point-interet/441669-aire-de-stationnement-barriere-st-pierre-ancenis
+- https://www.loire-radweg.org/tsft/aire-de-stationnement-barriere-st-pierre-ancenis-ancenis-de/

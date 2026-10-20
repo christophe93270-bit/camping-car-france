@@ -83,6 +83,11 @@ jobs:
           linked_zones=[x for x in combined_visible if x.get("sharedSiteWithSourceId")]
           unresolved_shared=[str(x.get("sourceId")) for x in linked_zones if str(x["sharedSiteWithSourceId"]) not in combined_ids]
           assert not unresolved_shared, "Zones partagées sans fiche associée visible : "+str(unresolved_shared)
+          conditional_access_ids={"ACCAMPDL044V50Y077","ACCAMPDL044V50ZDO9","ACCAMACCAMEELMANAS"}
+          conditional_access=[x for x in visible_regional if str(x.get("sourceId")) in conditional_access_ids]
+          assert len(conditional_access)==3 and all(x.get("accessNote") and str(x.get("accessSource","")).startswith("https://") and x.get("price")=="Non confirmé" for x in conditional_access), "44 : réserves d'accès ferme/ANAS absentes"
+          piardiere=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V51HCFX")
+          assert piardiere.get("contactPhone") and "commune-de-plesse.com" in piardiere.get("sourceOfficial",""), "44 : source communale La Piardière manquante"
           corcoue_parking=next(x for x in visible_osm if x.get("sourceId")=="way/909611149")
           corcoue_services=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V5006F5")
           assert corcoue_parking.get("sharedSiteWithSourceId")==corcoue_services.get("sourceId") and corcoue_services.get("sharedSiteWithSourceId")==corcoue_parking.get("sourceId"), "Corcoué : liaison bidirectionnelle des zones manquante"
@@ -147,6 +152,8 @@ jobs:
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",
+              f"- Fiches avec conditions d'accès spécifiques documentées (France Passion / ANAS) : **{len(conditional_access)}**",
+              "- La mention d'une adhésion ne vaut pas preuve de disponibilité d'une étape en 2026.",
               "- Corcoué Grotte Saint-Jean : 2 repères cartographiques d'un seul site comportant 4 places, à ne pas additionner.",
               "- Ces doublons potentiels ne sont pas fusionnés sans concordance suffisante des emprises.",
               f"- Coordonnées GPS invalides : **{bad_gps}**",
