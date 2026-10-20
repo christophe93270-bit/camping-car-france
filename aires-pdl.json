@@ -4156,18 +4156,28 @@
       "Eau, vidange, électricité et nuitée non confirmées"
     ],
     "price": "Tarif de nuitée sans objet : aire de pique-nique, accueil nocturne camping-car non établi",
-    "status": "Lieu classé « aire de pique-nique » dans les données touristiques, sans preuve d'emplacements de camping-car ni d'autorisation de nuitée. Une fiche touristique indique place de l'Église à Plessé. L'office de tourisme référence un espace de pause dans cette commune, mais l'identité exacte avec le point GPS régional n'est pas démontrée. Ne pas annoncer de stationnement nocturne, de vidange ou de tarif camping-car.",
+    "status": "Lieu classé « aire de pique-nique » dans les données touristiques, sans preuve d'emplacements de camping-car ni d'autorisation de nuitée. Une fiche touristique indique place de l'Église à Plessé. L'office de tourisme référence un espace de pause dans cette commune, mais l'identité exacte avec le point GPS régional n'est pas démontrée. Ne pas annoncer de stationnement nocturne, de vidange ou de tarif camping-car. Vérification cartographique supplémentaire du 20/10/2026 : fiche e-SPRIT publiée en juin 2026 avec le GPS précis de la place de l'Église, soit environ 4204 m de différence avec le point régional initial (archivé). Un repère OpenStreetMap camping-car se trouve à environ 203 m du nouvel emplacement, sans preuve qu'il désigne exactement l'espace de pique-nique ou un stationnement autorisé la nuit.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
-    "latitude": 47.55694,
-    "longitude": -1.83597,
-    "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
+    "latitude": 47.54056,
+    "longitude": -1.88645,
+    "gpsSource": "https://www.cirkwi.com/fr/point-interet/3849222-aire-de-pique-nique",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Plessé). Identité exacte avec le GPS régional et accueil camping-car non établis. Tarif de nuitée non applicable sans accueil confirmé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car. Lot 17 du 20/10/2026 : catégorie « pause/pique-nique », et non tarif manquant d'une aire de nuitée. Statut prix séparé ; stationnement de nuit toujours non vérifié, GPS régional indicatif. Ne pas en conclure une gratuité du parking.",
+    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Plessé). Identité exacte avec le GPS régional et accueil camping-car non établis. Tarif de nuitée non applicable sans accueil confirmé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car. Lot 17 du 20/10/2026 : catégorie « pause/pique-nique », et non tarif manquant d'une aire de nuitée. Statut prix séparé ; stationnement de nuit toujours non vérifié, GPS régional indicatif. Ne pas en conclure une gratuité du parking. Lot 30 : correction cartographique fondée sur e-SPRIT/Cirkwi (15/06/2026) https://www.cirkwi.com/fr/point-interet/3849222-aire-de-pique-nique ; ancien GPS conservé. Point OSM voisin node/11786823109 non fusionné (203 m).",
     "sourceId": "ACCAMPDL044V51HCG9",
     "priceStatus": "not_applicable_for_night_stay",
     "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/",
-    "overnightStatus": "not_established"
+    "overnightStatus": "not_established",
+    "gpsPreviousRegional": {
+      "latitude": 47.55694,
+      "longitude": -1.83597
+    },
+    "gpsSourceType": "e-SPRIT_2026_fiche_lieu_precise",
+    "gpsVerificationDate": "2026-10-20",
+    "gpsEvidenceNote": "Point de la place de l'Église à Plessé publié sur la fiche e-SPRIT mise à jour le 15 juin 2026 (47.54056, -1.88645). L'ancien repère régional était distant d'environ 4204 m et reste archivé. Ce GPS ne vaut pas autorisation de nuitée pour un camping-car.",
+    "nearbyOsmSourceId": "node/11786823109",
+    "nearbyOsmDistanceM": 203,
+    "nearbyOsmNote": "Un point OSM signalé comme parking camping-car est situé à environ 203 m, mais ni les installations ni l'identité des deux lieux ne sont prouvées identiques. Pas de fusion automatique et nuitée non établie sur les deux fiches."
   },
   {
     "department": "44",
@@ -4204,18 +4214,22 @@
       "Eau, vidange, électricité et nuitée non confirmées"
     ],
     "price": "Tarif de nuitée sans objet : aire de pique-nique, accueil nocturne camping-car non établi",
-    "status": "Lieu classé « aire de pique-nique » dans les données touristiques, sans preuve d'emplacements de camping-car ni d'autorisation de nuitée. Une fiche touristique situe une aire rue de Sainte-Marie à Avessac. L'office de tourisme référence un espace de pause dans cette commune, mais l'identité exacte avec le point GPS régional n'est pas démontrée. Ne pas annoncer de stationnement nocturne, de vidange ou de tarif camping-car.",
+    "status": "Lieu classé « aire de pique-nique » dans les données touristiques, sans preuve d'emplacements de camping-car ni d'autorisation de nuitée. Une fiche touristique situe une aire rue de Sainte-Marie à Avessac. L'office de tourisme référence un espace de pause dans cette commune, mais l'identité exacte avec le point GPS régional n'est pas démontrée. Ne pas annoncer de stationnement nocturne, de vidange ou de tarif camping-car. Localisation recoupée le 20/10/2026 avec e-SPRIT/Cirkwi, fiche mise à jour le 18/05/2026 : 47.657, -1.98766, rue de Sainte-Marie. Cette précision n'établit pas le droit de dormir sur place.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.657,
     "longitude": -1.98766,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Avessac). Identité exacte avec le GPS régional et accueil camping-car non établis. Tarif de nuitée non applicable sans accueil confirmé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car. Lot 17 du 20/10/2026 : catégorie « pause/pique-nique », et non tarif manquant d'une aire de nuitée. Statut prix séparé ; stationnement de nuit toujours non vérifié, GPS régional indicatif. Ne pas en conclure une gratuité du parking.",
+    "importReview": "20/10/2026 : catégorie pique-nique confirmée dans l'office du tourisme du Pays de Redon (commune Avessac). Identité exacte avec le GPS régional et accueil camping-car non établis. Tarif de nuitée non applicable sans accueil confirmé. [20/10/2026] Marquage de sécurité overnightStatus=not_established pour afficher un avertissement sur la fiche et le marqueur cartographique ; ne confirme ni stationnement de nuit ni services camping-car. Lot 17 du 20/10/2026 : catégorie « pause/pique-nique », et non tarif manquant d'une aire de nuitée. Statut prix séparé ; stationnement de nuit toujours non vérifié, GPS régional indicatif. Ne pas en conclure une gratuité du parking. Lot 30 : GPS régional recoupé exactement par https://www.cirkwi.com/fr/point-interet/3849213-aire-de-pique-nique (18/05/2026). Nuitée camping-car non validée.",
     "sourceId": "ACCAMPDL044V51HCFZ",
     "priceStatus": "not_applicable_for_night_stay",
     "sourceOfficial": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-2/",
-    "overnightStatus": "not_established"
+    "overnightStatus": "not_established",
+    "gpsSourceType": "regional_coordinates_corroborees_par_e-SPRIT_2026",
+    "gpsVerificationDate": "2026-10-20",
+    "gpsIndependentEvidenceUrl": "https://www.cirkwi.com/fr/point-interet/3849213-aire-de-pique-nique",
+    "gpsEvidenceNote": "Le point GPS 47.657, -1.98766 et l'adresse rue de Sainte-Marie sont confirmés sans écart par une fiche e-SPRIT publiée le 18 mai 2026. Il s'agit d'une aire de pique-nique et non d'une nuitée camping-car autorisée."
   },
   {
     "department": "53",

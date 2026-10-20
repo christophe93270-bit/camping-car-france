@@ -585,3 +585,18 @@ Sources :
 - https://www.mairie-guemene-penfao.fr/contacts/camping-municipal/
 - https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/
 - https://tourisme-pays-redon.com/hebergement/aire-camping-car-camping-de-besle/
+
+## Lot complémentaire 30 — 20 octobre 2026
+
+**Sécurité GPS : un repositionnement fondé sur une fiche e-SPRIT géolocalisée en 2026, une seconde coordonnée recoupée et aucune fusion abusive.**
+
+- **Aire de pique-nique de Plessé (place de l'Église)** : la fiche touristique e-SPRIT, reprise sur Cirkwi et mise à jour le **15 juin 2026**, publie `47.54056, -1.88645`. L'ancienne position régionale `47.55694, -1.83597` était éloignée d'environ **4204 m**. Le nouveau GPS de l'espace de pique-nique est repris avec champs `gpsPreviousRegional`, `gpsSourceType`, `gpsEvidenceNote` et `gpsVerificationDate` ; la provenance historique reste conservée. La nuitée reste **non établie**.
+- **OSM parking camping-car de Plessé** (`node/11786823109`) : à **203 m** environ du nouveau repère de l'aire de pique-nique. La proximité n'établit ni un doublon exact ni un droit nocturne ; les deux fiches restent visibles et séparées, sans suppression ni addition de capacités.
+- **Aire de pique-nique d'Avessac (rue de Sainte-Marie)** : point régional `47.657, -1.98766` confirmé à l'identique par une fiche e-SPRIT du **18 mai 2026**. Le lien de preuve indépendant est ajouté ; la fiche demeure sans nuitée camping-car attestée.
+- **Audit automatique** : assertions ajoutées sur coordonnées, coordonnées historiques, référence OSM voisine et maintien de la prudence nocturne. Les totaux attendus restent **165 fiches générales**, **150 avec filtre nocturne** et **11 prix de nuitée strictement non confirmés**.
+
+Sources :
+- https://www.cirkwi.com/fr/point-interet/3849222-aire-de-pique-nique (Plessé, coordonnées publiées, 15 juin 2026)
+- https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/ (Plessé, place de l'Église)
+- https://www.openstreetmap.org/node/11786823109 (repère de parking camping-car distinct)
+- https://www.cirkwi.com/fr/point-interet/3849213-aire-de-pique-nique (Avessac, 18 mai 2026)
