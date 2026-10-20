@@ -211,3 +211,32 @@ Sources de ce lot :
 - https://tourisme-pays-redon.com/experiences/idees-descapades/pique-niquer-redon/
 - https://tourisme-pays-redon.com/visite/la-carriere/
 - https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/
+
+## Lot complémentaire 10 — 20 octobre 2026
+
+**7 fiches corrigées** (4 régionales + 3 complémentaires), sans ajout, retrait ni fusion. Contrôle des sources d'accès, de tarification et de localisations.
+
+- **CAPFUN L'Ève** : ATTENTION, établissement nommé explicitement dans les exclusions du PASS CAMPING 15 € 2026. L'Ève ne bénéficie pas du tarif à 15 € : prix propre non confirmé. Saison 11/04–26/09 et 50 places dans les sources officielles.
+- **Centre ANAS Les Moutiers** : capacité exploitant 35 places spécifiques camping-car et 40 camping-caravaning, contre 20 dans l'ancien répertoire régional. L'accès standard annoncé réservé aux adhérents ANAS/agents du Ministère, mais un partenariat municipal de La Bernerie (mise à jour avril 2026) propose une formule camping-car via adhésion. Dépliant municipal 14/18 € (11/14 € adhérents), tandis que voyageurs d'août 2026 signalent parfois 21 €/nuit ou 42 €/2 nuits : **pas de tarif 2026 définitif certifié** ; téléphoner ou vérifier sur place.
+- **Camping Eden Villages La Pointe Saint-Gildas** : CAMPING-CAR PARK Pro confirme que ses 49 emplacements sont prélevés sur une partie des emplacements du camping ; deux canaux d'accueil pour des emplacements physiques possiblement communs, selon saison. Le compteur 165 exprime un nombre de fiches affichées et pas forcément de terrains physiques distincts. Suppression ou fusion automatique prématurée.
+- **Les Mouettes (Saint-Père-en-Retz)** : document du site officiel identifié, mais grille effectivement datée de **2024** (19,50 €/nuit + 6,50 € électricité à titre historique seulement), donc prix 2026 laissé `Non confirmé`.
+- **Plessé OSM** : repère OpenStreetMap node/11786823109 près place de l'Église, non assimilé au parking du plan d'eau de Buhel ; aucune source municipale pour tarif, services et nuitée.
+- **Corcoué-sur-Logne OSM** : le site touristique Grotte Saint-Jean / rue de la Poste propose 4 places gratuites, recoupé avec Park4Night. Très forte suspicion de doublon avec le way OSM proche, mais différentiel de géolocalisation de ~300 m avec la fiche régionale non levé. Ne pas doubler une gratuité sans preuve.
+- **Ancenis Barrière Saint-Pierre** : repère et GPS recoupés avec camping-car.com ; tarif 2026 toujours absent.
+
+**Bilan après lot 10** : 158 fiches régionales brutes, 156 visibles, plus 9 complémentaires visibles = **165 fiches/lieux affichés attendus**. 19 prix régionaux exactement `Non confirmé` dont 2 doublons masqués, 3 prix complémentaires exactement `Non confirmé`. Des tarifs non vides sont parfois indicatifs ; indicateur à ne pas assimiler au nombre de fiches totalement vérifiées.
+
+### Sources lot 10
+- https://www.capfun.com/pass-camping.html
+- https://www.capfun.com/camping---l_eve-FR.html
+- https://www.anas.asso.fr/moutiers-en-retz
+- https://mairie-labernerie.fr/votre-commune/vie-economique/annuaire-des-hebergements/
+- https://docs.mairie-labernerie.fr/divers/Affiche%20c-car%20-%20La%20Bernerie-Centre%20Anas.pdf
+- https://park4night.com/fr/place/317535
+- https://pro.campingcarpark.com/temoignages/temoignage-aire-camping-car-prefailles/
+- https://www.campingdirect.com/fr/reservation-emplacement-mobil-home/loire-atlantique/camping-prefailles/camping-eden-villages-la-pointe-saint-gildas
+- https://mapcarta.com/N11786823109
+- https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/
+- https://park4night.com/fr/place/14223
+- https://www.camping-car.com/aires/34622-aire-de-stationnement/
+- https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf
