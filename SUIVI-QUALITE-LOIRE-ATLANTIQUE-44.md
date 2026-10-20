@@ -770,3 +770,20 @@ Sources :
 - https://www.enpaysdelaloire.com/hebergements/campings/camping-le-domaine-du-collet
 - https://www.pornic.com/camping-du-vieux-chateau.html
 - https://www.enpaysdelaloire.com/hebergements/campings/camping-du-vieux-chateau
+
+## Lot complémentaire 40 — 20 octobre 2026
+
+**Quatre campings distincts avec emplacements camping-car et grilles 2026 vérifiés dans les fiches de Destination Pornic et intégrés au 44.**
+
+- **Cybèle Vacances Les Brillas, Les Moutiers-en-Retz** — `CCF44-LESBRILLAS-2026`, Le Bois des Tréans, GPS `47.07491,-2.00709`. 10 emplacements camping-car et une aire de services annoncés (sans assimiler les 189 places classées à des camping-cars). Saison 04/04–20/09/2026 ; forfait 2 personnes et 1 voiture **19–29 €/nuit**, taxe de séjour **0,66 €/adulte/nuit**. Terrain distinct de l'aire ANAS voisine à près de 390 m.
+- **Camping de Prigny, Les Moutiers-en-Retz** — `CCF44-PRIGNY-2026`, 1 route de Moraudeau, GPS `47.06374,-1.98410`. Séjour camping-car et aire de services attestés ; barème **17–33 €/nuit** pour 2 personnes et 1 voiture, taxe de séjour **0,66 €/adulte/nuit**. Période d'ouverture 04/04–04/10/2026, grille tarifaire publiée seulement jusqu'au 30/09/2026 (écart explicité).
+- **Camping du Golf, Pornic** — `CCF44-PORNIC-GOLF-2026`, 40 rue de la Renaissance, GPS `47.11883,-2.12987`. Étape camping-car explicitement référencée, **17–39 €/nuit** du 24/04 au 13/09/2026 ; électricité 6 A **5 €/nuit** en supplément, taxe **0,66 €/adulte/nuit**.
+- **Camping Le Port Meleu, Préfailles** — `CCF44-PREFAILLES-PORT-MELEU-2026`, Corniche de Port-Meleu, GPS `47.12547,-2.20339`. Camping accueillant les camping-cars sur ses emplacements, **20–47 €/nuit** pour 2 personnes et 1 voiture du 03/04 au 27/09/2026, taxe **0,66 €/adulte/nuit**. Les 90 emplacements classés ne sont pas des places camping-car réservées exclusivement.
+- Les quatre fiches sont distinctes de la base régionale précédente (identifiants, coordonnées, adresses et exploitants recoupés). Les quatre établissements ont des saisons clôturées au 20 octobre 2026 ; aucun n'est présenté comme une aire publique gratuite ou une borne accessible à tous. Les tarifs 2026 ne remplacent aucun des onze prix auparavant non confirmés.
+- **Compteurs attendus : 176 sans filtre, 148 avec filtre de prudence nocturne (28 écartés), 11 tarifs strictement `Non confirmé`.** Contrôle automatique enrichi des quatre identifiants, tarifs et contacts.
+
+Sources :
+- https://www.pornic.com/camping-cybele-vacances-les-brillas.html
+- https://www.pornic.com/camping-de-prigny.html
+- https://www.pornic.com/camping-du-golf.html
+- https://www.pornic.com/camping-le-port-meleu.html
