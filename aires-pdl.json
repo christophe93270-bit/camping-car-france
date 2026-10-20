@@ -1395,26 +1395,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping-car du camping du Chêne",
+    "name": "Aire d'étape du camping du Chêne – Saint-Julien-de-Concelles",
     "city": "SAINT-JULIEN-DE-CONCELLES",
-    "type": "Aire de camping-car (donnée ouverte)",
+    "type": "Aire d'étape camping-car sécurisée indépendante du camping",
     "services": [
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Vidange",
-      "Vidange eaux grises"
+      "21 emplacements sécurisés",
+      "Entrée indépendante du camping",
+      "Eau potable et vidanges",
+      "Électricité sur emplacements équipés",
+      "Déchets"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Aire payante ; un annuaire de voyageurs (Park4night) indique 13,10 € le stationnement et 3,50 € l'eau, sans garantie que ces montants correspondent au tarif officiel 2026. Vérifier le montant à l'entrée ou auprès du camping.",
+    "status": "1 route du Lac, 44450 Saint-Julien-de-Concelles. Aire sécurisée de 21 places à l'entrée du camping du Chêne, accès indépendant. La capacité et le caractère distinct du camping sont confirmés par Destination Vignoble Nantais et Loire-Atlantique Tourisme.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.2525,
     "longitude": -1.36902,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMPDL044V51ICOZ"
+    "importReview": "2026-10-20 : 21 places et services sur tourisme départemental ; tarifs 13,10 € et eau 3,50 € extraits d'un annuaire communautaire, non homologués par l'exploitant.",
+    "sourceId": "ACCAMPDL044V51ICOZ",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/187566-Aire-de-camping-car-du-camping-du-Chene",
+    "priceSource": "https://park4night.com/fr/place/579241",
+    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-car-du-camping-du-chene"
   },
   {
     "department": "72",
@@ -1531,28 +1534,30 @@
   },
   {
     "department": "44",
-    "name": "Camping Le Deffay",
+    "name": "Camping Le Deffay – accueil camping-car",
     "city": "SAINTE-REINE-DE-BRETAGNE",
-    "type": "Aire de service",
+    "type": "Emplacements dans camping trois étoiles (pas une aire publique de services)",
     "services": [
-      "Déchets",
-      "Eau potable (source ouverte)",
-      "Électricité (source ouverte)",
-      "Toilettes",
-      "Vidange",
-      "Vidange eaux grises",
-      "Vidange eaux noires"
+      "Emplacements camping-car dans le camping",
+      "Branchement électrique selon formule",
+      "Branchement eau possible selon formule",
+      "Sanitaires",
+      "Vidange eaux grises et cassette WC",
+      "Déchets"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarifs annoncés pour 2026 en basse saison par Loire-Atlantique Tourisme : emplacement caravane ou camping-car avec électricité à partir de 25 € / nuit, avec eau et électricité à partir de 30 € / nuit. Tarifs variables selon la saison et la réservation ; prix d'une vidange seule non communiqué.",
+    "status": "Camping Le Deffay, Sainte-Reine-de-Bretagne, 44160. Saison camping annoncée du 1er mai au 30 septembre 2026, locations jusqu'au 31 octobre. Camping privé : ne pas présenter comme une aire municipale ouverte toute l'année.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.44111,
     "longitude": -2.15975,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMELEDEFFAY"
+    "importReview": "2026-10-20 : barème minimum 2026, services camping-car et saison vérifiés sur fiche touristique e-SPRIT et site du gestionnaire.",
+    "sourceId": "ACCAMELEDEFFAY",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/180220-Camping-Le-Deffay",
+    "priceSource": "https://rando.loire-atlantique.fr/service/180220-Camping-Le-Deffay",
+    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/camping-le-deffay"
   },
   {
     "department": "53",
@@ -5734,9 +5739,9 @@
   },
   {
     "department": "44",
-    "name": "Les Flots Bleus",
+    "name": "Camping Les Flots Bleus – Piriac-sur-Mer",
     "city": "PIRIAC-SUR-MER",
-    "type": "Aire de service",
+    "type": "Emplacements dans camping (services réservés selon conditions du camping)",
     "services": [
       "Déchets",
       "Eau potable (source ouverte)",
@@ -5746,16 +5751,19 @@
       "Vidange eaux noires",
       "WiFi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Tarif 2026 des emplacements camping-car et de la vidange seule non communiqué sur la fiche officielle de Loire-Atlantique Tourisme ; vérifier auprès du camping.",
+    "status": "16 rue du Mané, 44420 Piriac-sur-Mer. Camping privé à environ 150 m de la mer et 500 m du bourg. La classification importée « aire de service » ne signifie pas l'accès libre à une borne de vidange pour les véhicules extérieurs. Accès et forfait de service à confirmer avec l'établissement.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.37691,
     "longitude": -2.55069,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMACCAMELESFLOTSBLEUS"
+    "importReview": "2026-10-20 : reclassement selon Loire-Atlantique Tourisme pour éviter de présenter les services du camping comme une borne publique, sans inventer un tarif.",
+    "sourceId": "ACCAMACCAMELESFLOTSBLEUS",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/183589-Les-Flots-Bleus",
+    "priceSource": "https://rando.loire-atlantique.fr/service/183589-Les-Flots-Bleus",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/183589-Les-Flots-Bleus"
   },
   {
     "department": "44",
@@ -7891,22 +7899,27 @@
   },
   {
     "department": "44",
-    "name": "Aire camping-cars La Nouvelle Imprimerie",
+    "name": "Parking La Nouvelle Imprimerie – Guérande (EasyPark)",
     "city": "GUERANDE",
-    "type": "Aire de stationnement",
+    "type": "Parking camping-car payant sans services (12 places)",
     "services": [
-      "Services non renseignés"
+      "12 emplacements camping-car",
+      "Stationnement uniquement : pas de borne d'eau, vidange ou électricité",
+      "Paiement via l'application EasyPark"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Parking payant par application EasyPark. Tarifs indicatifs affichés dans des avis Park4night : 5 € pour 5 heures, 10 € pour 24 heures. Ces montants ne sont pas confirmés comme barème officiel au 20/10/2026 ; vérifier dans EasyPark.",
+    "status": "37 avenue de la Brière, 44350 Guérande, juste à côté de l'aire CAMPING-CAR PARK du 39 avenue de la Brière. Bien que les GPS soient distants de moins de 100 m, ce sont deux stationnements distincts : le parking EasyPark de 12 places est sans services, l'aire CAMPING-CAR PARK a ses équipements et son propre tarif.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.33327,
     "longitude": -2.42098,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMACCAMEAIRECAMPINGCAREASYPARK"
+    "importReview": "2026-10-20 : 12 places, paiement EasyPark, absence de services et statut distinct confirmés par office de tourisme et Park4night ; 5 €/5 h et 10 €/24 h indicatifs uniquement, non validés auprès de l'exploitant.",
+    "sourceId": "ACCAMACCAMEAIRECAMPINGCAREASYPARK",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/186395-Aire-camping-cars-La-Nouvelle-Imprimerie",
+    "priceSource": "https://park4night.com/fr/place/439548",
+    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-camping-cars-la-nouvelle-imprimerie"
   },
   {
     "department": "44",
@@ -8103,23 +8116,28 @@
   },
   {
     "department": "44",
-    "name": "AIRE DE STATIONNEMENT CORSEPT",
-    "city": "PAIMBOEUF",
-    "type": "Aire de stationnement",
+    "name": "Aire municipale du port de la Maison Verte – Corsept",
+    "city": "CORSEPT",
+    "type": "Stationnement camping-car municipal gratuit",
     "services": [
-      "Déchets",
-      "Toilettes"
+      "Stationnement camping-car gratuit",
+      "Toilettes à proximité",
+      "Poubelles / déchets",
+      "Accès promenade de la Loire à Vélo"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement camping-car gratuit selon Loire-Atlantique Tourisme et La Loire à Vélo, confirmé pour l'année 2026 ; aucun coût de service spécifique indiqué.",
+    "status": "Port de la Maison Verte, commune de Corsept (44560, secteur de Paimbœuf). Aire communale près de la Loire et de la digue. Le jeu de données indiquait PAIMBŒUF comme commune, rectifié en CORSEPT selon la fiche de tourisme et l'emplacement.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.28041,
     "longitude": -2.06336,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMACCAMEAIRESTATIONNEMENTCORSEPT"
+    "importReview": "2026-10-20 : gratuité et localisation Corsept recoupées avec Loire-Atlantique Tourisme, e-SPRIT et La Loire à Vélo.",
+    "sourceId": "ACCAMACCAMEAIRESTATIONNEMENTCORSEPT",
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
+    "priceSource": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
+    "servicesSource": "https://www.loireavelo.fr/tsft/aire-de-stationnement-corsept-paimboeuf/"
   },
   {
     "department": "49",
@@ -8464,23 +8482,28 @@
   },
   {
     "department": "44",
-    "name": "AIRE DU STADE",
+    "name": "Aire communale du Stade – Donges",
     "city": "DONGES",
-    "type": "Aire de service",
+    "type": "Stationnement gratuit, borne de services à jetons",
     "services": [
-      "Vidange",
-      "Vidange eaux grises"
+      "Stationnement camping-car gratuit",
+      "Vidange des eaux grises gratuite",
+      "Jeton à 3,50 € : 100 litres d'eau potable",
+      "Jeton à 3,50 € : une heure d'électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée ouverte : services, accès et tarifs à confirmer",
+    "price": "Stationnement et vidange des eaux usées gratuits. Depuis le 1er janvier 2026 : jeton eau (100 L) ou électricité (1 h) à 3,50 € suivant la délibération municipale du 11 décembre 2025.",
+    "status": "Rue du Stade, en face du stade municipal, 44480 Donges. Borne communale de services. La délibération du conseil municipal 2026 établit le prix du jeton, tandis que La Loire à Vélo précise la gratuité du parking et de la vidange.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.31891,
     "longitude": -2.08024,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "À contrôler avant publication",
-    "sourceId": "ACCAMEAIRESTADE"
+    "importReview": "2026-10-20 : tarif de jeton vérifié sur la délibération municipale 2026 (p. 2), stationnement et vidange gratuits sur la fiche La Loire à Vélo.",
+    "sourceId": "ACCAMEAIRESTADE",
+    "sourceOfficial": "https://www.loireavelo.fr/tsft/aire-du-stade-donges/",
+    "priceSource": "https://ville-donges.fr/wp-content/uploads/2025/12/DELIB4_TARIFS_2026.pdf",
+    "servicesSource": "https://www.loireavelo.fr/tsft/aire-du-stade-donges/"
   },
   {
     "department": "72",
