@@ -110,7 +110,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261020-19", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261020-20", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -465,7 +465,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Morbihan indisponible",error); }
     let loireAtlantiqueAires=[];
     try {
-      const response44=await fetch("aires-loire-atlantique.json?v=20261020-18", {cache:"no-store"});
+      const response44=await fetch("aires-loire-atlantique.json?v=20261020-20", {cache:"no-store"});
       if(response44.ok) loireAtlantiqueAires=await response44.json();
     } catch(error) { console.warn("Chargement Loire-Atlantique indisponible",error); }
     let essonneAires=[];
@@ -602,7 +602,7 @@ async function initAires(){
         <span class="card-name">${escapeHTML(a.name)}</span>
         <span class="card-foot">${escapeHTML(a.city)}</span>
         ${a.overnightStatus==="not_established" ? (/pique-nique/i.test(String(a.type||"")) ? `<p><strong>Attention : aire de pique-nique seulement.</strong> Nuitée camping-car non confirmée. Vérifier auprès de la mairie avant de s'y installer pour la nuit.</p>` : `<p><strong>Attention : nuitée camping-car non confirmée.</strong> Le lieu est signalé pour l'arrêt ou le stationnement, mais l'autorisation de nuitée n'a pas été établie. Vérifier la réglementation locale auprès de la mairie.</p>`) : ""}
-        ${a.department==="44"&&a.sharedSiteWithSourceId ? `<p><strong>Site partagé :</strong> cette offre peut concerner des emplacements également recensés sous une autre fiche.</p>` : ""}
+        ${a.department==="44"&&a.sharedSiteWithSourceId ? `<p><strong>Site partagé :</strong> ce point se rapporte à un ensemble également décrit sur une autre fiche. Ne pas additionner automatiquement les capacités de stationnement.</p>` : ""}
         ${a.department==="44"&&a.potentialDuplicateOfSourceId ? `<p><strong>Doublon possible :</strong> ce point peut correspondre à un autre lieu déjà recensé.</p>` : ""}
         <p><strong>Services :</strong> ${escapeHTML((Array.isArray(a.services)?a.services:[]).join(", "))}</p>
         <p><strong>${a.priceStatus==="not_applicable_for_night_stay"?"Tarif de nuitée :":"Tarif :"}</strong> ${escapeHTML(a.price)}</p>

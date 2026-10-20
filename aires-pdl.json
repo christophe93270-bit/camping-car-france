@@ -1124,28 +1124,29 @@
   },
   {
     "department": "44",
-    "name": "Aire communale de la Grotte Saint-Jean – Corcoué-sur-Logne",
+    "name": "Services de la Grotte Saint-Jean – Corcoué-sur-Logne (même aire, zone technique)",
     "city": "CORCOUE-SUR-LOGNE",
-    "type": "Stationnement camping-car gratuit avec borne de services",
+    "type": "Zone de services associée aux quatre places gratuites de la Grotte Saint-Jean",
     "services": [
-      "4 emplacements gratuits",
-      "Vidange eaux usées",
+      "Quatre places de stationnement gratuites en bord de Logne, sur le même ensemble (voir fiche parking associée)",
+      "Vidange des eaux usées et des WC dans le secteur rue de la Poste",
       "WC à proximité",
-      "Eau potable par borne à carte bancaire (montant non précisé)"
+      "Eau potable à la borne, paiement par carte bancaire (prix non publié)"
     ],
     "price": "Stationnement gratuit pour 4 camping-cars, confirmé par Sud Retz Atlantique Tourisme (2026). Eau disponible par carte bancaire, prix du service non publié ; WC et vidange recensés sans barème détaillé confirmé pour 2026.",
-    "status": "Rue de la Poste, Grotte Saint-Jean, 44650 Corcoué-sur-Logne. Stationnement annoncé toute l'année 2026. Un autre point OSM générique « Aire de camping-car Corcoué-sur-Logne » est situé à environ 300 m : possible doublon, non fusionné en attendant vérification du GPS. Recoupement du 20/10/2026 : l'office touristique ne signale qu'une aire de quatre places à la Grotte Saint-Jean ; les positions régionales et OSM distantes d'environ 300 m pourraient représenter respectivement la zone de services et le stationnement. Une géométrie supplémentaire ne suffit pas à prouver une deuxième aire indépendante.",
+    "status": "Rue de la Poste, Corcoué-sur-Logne. Fiche du pôle technique de l'aire municipale Grotte Saint-Jean, répertoriée par Sud Retz Atlantique Tourisme en 2026 comme UN ensemble de 4 places de stationnement gratuites, ouvertes toute l'année 24h/24, avec WC, vidange et eau payable par carte bancaire (montant inconnu). La zone de stationnement se trouve en contrebas au bord de la Logne vers 46.9618, -1.5814, et la zone de vidange est signalée plus haut vers 46.962929, -1.582165 par les voyageurs. Coordonnées régionales du pôle de services approximatives. La seconde fiche OSM de ce même ensemble situe le parking ; ne pas additionner les quatre places une seconde fois.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 46.96365,
     "longitude": -1.58346,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Office de tourisme Sud Retz Atlantique contrôlé le 20/10/2026 : 4 places gratuites, services eau/WC/vidange. Coordonnées régionales d'origine conservées en attendant d'élucider l'écart avec la géolocalisation du point OSM. Mise au point tarifaire : stationnement gratuit en 2026 selon https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/ ; eau par CB sans prix publié. La distinction parking/vidange n'est pas un doublement de capacité attesté.",
+    "importReview": "Office de tourisme Sud Retz Atlantique contrôlé le 20/10/2026 : 4 places gratuites, services eau/WC/vidange. Coordonnées régionales d'origine conservées en attendant d'élucider l'écart avec la géolocalisation du point OSM. Mise au point tarifaire : stationnement gratuit en 2026 selon https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/ ; eau par CB sans prix publié. La distinction parking/vidange n'est pas un doublement de capacité attesté. Lot 20, sources officielles 2026 et voyageurs de 2026 recoupés : https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/ et https://park4night.com/fr/place/14223 . Une seule capacité officielle : 4 stationnements gratuits. Zone technique distincte du parking en contrebas. Fiche conservée comme point de services du même site, pas comme deuxième aire autonome.",
     "sourceId": "ACCAMPDL044V5006F5",
     "sourceOfficial": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
     "priceSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
-    "servicesSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/"
+    "servicesSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
+    "sharedSiteWithSourceId": "way/909611149"
   },
   {
     "department": "44",
@@ -1549,17 +1550,17 @@
       "Emplacements camping-car avec sanitaires au camping",
       "Électricité 6 A en option, tarif vitrine +6,50 €/jour",
       "Eau chaude comprise dans les forfaits historiques",
-      "Borne dédiée de vidange camping-car non confirmée"
+      "Espace de vidange pour camping-cars annoncé par le site officiel ; accueil des véhicules hors séjour et coût non publiés"
     ],
     "price": "Non confirmé",
-    "status": "Camping Les Mouettes, La Tansorais, 44320 Saint-Père-en-Retz. Tarifs en ligne contradictoires et non millésimés : un rendu du site officiel sans « www » affiche 15 € / nuit pour un emplacement camping-car 2 personnes, tandis que la variante « www » affiche 19,50 €. La grille PDF de cet établissement est datée du 1er janvier 2024 et fixe 19,50 €, électricité 6 A +6,50 €. Aucun document ne démontre quel forfait s'applique à 2026 : tarif conservé « Non confirmé », contacter directement le camping. Attention aux campings homonymes d'autres communes. Le site du camping affiche ce contact et une vitrine de 19,50 € par nuit pour 2 personnes, mais une autre variante de son domaine indique 15 €, tandis que le PDF de 19,50 € est daté de 2024 : année et montant applicables en 2026 non certifiés.",
+    "status": "Camping Les Mouettes, La Tansorais, 44320 Saint-Père-en-Retz. Tarifs en ligne contradictoires et non millésimés : un rendu du site officiel sans « www » affiche 15 € / nuit pour un emplacement camping-car 2 personnes, tandis que la variante « www » affiche 19,50 €. La grille PDF de cet établissement est datée du 1er janvier 2024 et fixe 19,50 €, électricité 6 A +6,50 €. Aucun document ne démontre quel forfait s'applique à 2026 : tarif conservé « Non confirmé », contacter directement le camping. Attention aux campings homonymes d'autres communes. Le site du camping affiche ce contact et une vitrine de 19,50 € par nuit pour 2 personnes, mais une autre variante de son domaine indique 15 €, tandis que le PDF de 19,50 € est daté de 2024 : année et montant applicables en 2026 non certifiés. Confirmation documentaire du 20/10/2026 : le site officiel du camping annonce un espace de vidange disponible pour les camping-cars. Il ne dit pas qu'une borne de vidange serait ouverte aux passants. Les deux variantes du site continuent de publier des prix contradictoires (15 € / 19,50 €) sans date 2026 ; tarif nuitée inchangé Non confirmé.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.21919,
     "longitude": -2.13753,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : incohérence constatée entre variantes officielles du même site (15 €/nuit sans www, 19,50 € avec www), PDF daté 2024. Ne pas homologuer l'un de ces montants pour 2026.",
+    "importReview": "20/10/2026 : incohérence constatée entre variantes officielles du même site (15 €/nuit sans www, 19,50 € avec www), PDF daté 2024. Ne pas homologuer l'un de ces montants pour 2026. Lot 20 : service vidange explicitement décrit par le gestionnaire à https://www.les-mouettes-camping.com/ ; ne pas déduire un tarif service ni un accès hors séjour. Grille PDF tarification camping de 2024, pas preuve de prix 2026.",
     "sourceId": "ACCAMACCAMPDL044000155",
     "contactPhone": "09 81 81 11 20",
     "contactSource": "https://www.les-mouettes-camping.com/",

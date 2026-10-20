@@ -416,3 +416,19 @@ Le nouvel audit des coordonnées publiques requiert un rôle de contact pour les
 - **Traçabilité** : aucun ajout ni fusion d'une aire, compteur par défaut conservé à 165.
 
 Sources : https://www.leschenesverts.info/location-emplacements-villeneuve-en-retz/ ; https://www.anas.asso.fr/moutiers-en-retz ; https://www.capfun.com/camping---l_eve-FR.html ; https://www.les-mouettes-camping.com/
+
+## Lot complémentaire 20 — 20 octobre 2026
+
+**Trois fiches enrichies, dont deux points du même site de Corcoué-sur-Logne, sur recoupement de source touristique officielle 2026 et localisation des services.**
+
+- **Grotte Saint-Jean, Corcoué-sur-Logne** : Sud Retz Atlantique Tourisme mentionne UNE seule aire municipale de quatre places gratuites, ouverte 24h/24 toute l'année 2026. Park4Night y situe le parking près de la rivière autour de 46.9618,-1.5814 ; plusieurs voyageurs de 2024–2026 indiquent que la vidange se trouve à une autre hauteur de la rue de la Poste (vers 46.962929,-1.582165). Le point régional ACCAMPDL044V5006F5 est requalifié en zone de services rattachée aux quatre places, avec GPS régional indicatif ; le point OSM way/909611149 devient explicitement le parking de quatre places, avec tarif gratuit 2026 documenté. Les deux fiches sont reliées réciproquement par sharedSiteWithSourceId. Cela **n'est pas huit emplacements ni deux aires de stationnement autonomes**. Le prix de l'eau reste non publié ; sa mise à disposition nécessite une carte bancaire. Les deux points sont conservés pour permettre la localisation du stationnement et des services.
+- **Camping Les Mouettes, Saint-Père-en-Retz** : la page officielle annonce clairement un espace de vidange camping-car ; information ajoutée aux services, mais sans certifier l'accès hors séjour ni un tarif de service. Le prix de nuitée 2026 reste Non confirmé, car les variantes officielles de la page annoncent 15 € et 19,50 € sans millésime fiable et un PDF concerne 2024.
+- **Interface et audit** : message de prudence renforcé pour les deux zones d'un site partagé ; audit des références réciproques de Corcoué et du total de points partagés. Le caractère uniquement *potentiel* du doublon OSM Corcoué est remplacé par l'identification vérifiée d'un **ensemble commun** comportant deux fonctions distinctes.
+- **Compteurs prévus** : 165 fiches affichables, dont 2 repères de Corcoué correspondant à 1 site physique ; 12 tarifs au champ « Non confirmé » (10 régionaux visibles + 2 compléments OSM), contre 13 auparavant. Cette baisse d'un tarif est due à la confirmation du stationnement GRATUIT de l'aire municipale et non à la vérification du coût de l'eau ; le filtre nuitée conserve 155 fiches. La fiabilité des autres 165 fiches ne s'en déduit pas.
+
+Sources :
+- https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/
+- https://park4night.com/fr/place/14223
+- https://www.stellplatzfuehrer.de/fr/parcs-de-vr/listes/all/17565-corcoue-sur-logne
+- https://www.les-mouettes-camping.com/
+- https://les-mouettes-camping.com/

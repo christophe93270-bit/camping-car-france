@@ -78,6 +78,15 @@ jobs:
           phones_invalid=[x.get("sourceId") for x in visible_regional+visible_osm if x.get("contactPhone") and not re.fullmatch(r"[+0-9 ().-]{10,25}",str(x.get("contactPhone")))]
           assert not phones_invalid, "Contacts téléphoniques invalides : "+str(phones_invalid)
           extra_potential_duplicates=[x for x in visible_osm if x.get("potentialDuplicateOfSourceId")]
+          combined_visible=visible_regional+visible_osm
+          combined_ids={str(x.get("sourceId","")) for x in combined_visible}
+          linked_zones=[x for x in combined_visible if x.get("sharedSiteWithSourceId")]
+          unresolved_shared=[str(x.get("sourceId")) for x in linked_zones if str(x["sharedSiteWithSourceId"]) not in combined_ids]
+          assert not unresolved_shared, "Zones partagées sans fiche associée visible : "+str(unresolved_shared)
+          corcoue_parking=next(x for x in visible_osm if x.get("sourceId")=="way/909611149")
+          corcoue_services=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V5006F5")
+          assert corcoue_parking.get("sharedSiteWithSourceId")==corcoue_services.get("sourceId") and corcoue_services.get("sharedSiteWithSourceId")==corcoue_parking.get("sourceId"), "Corcoué : liaison bidirectionnelle des zones manquante"
+          assert "gratuit" in str(corcoue_parking.get("price","")).lower() and "4" in str(corcoue_parking.get("price","")), "Corcoué : tarif de stationnement 2026 non reporté"
           overnight_other_regional=sum(x.get("overnightStatus")=="not_established" and "pique-nique" not in str(x.get("type","")).lower() for x in visible_regional)
           overnight_extra=sum(x.get("overnightStatus")=="not_established" for x in visible_osm)
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra
@@ -137,6 +146,8 @@ jobs:
               f"- **Filtre nuitée non établie : {night_filter_visible} lieux / {total_visible}**",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
+              f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",
+              "- Corcoué Grotte Saint-Jean : 2 repères cartographiques d'un seul site comportant 4 places, à ne pas additionner.",
               "- Ces doublons potentiels ne sont pas fusionnés sans concordance suffisante des emprises.",
               f"- Coordonnées GPS invalides : **{bad_gps}**",
               f"- Fiches OSM avec une correspondance régionale à 350 m ou moins : **{len(candidates)}**",
