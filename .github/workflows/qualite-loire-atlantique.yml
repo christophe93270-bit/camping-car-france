@@ -299,7 +299,7 @@ jobs:
               f"- Fiches complémentaires brutes au prix exactement 'Non confirmé' : **{osm_unknown}**",
               f"- Fiches complémentaires visibles au prix exactement 'Non confirmé' : **{visible_osm_unknown}**",
               f"- **Total des tarifs strictement non confirmés parmi les fiches visibles : {visible_regional_unknown+visible_osm_unknown}**",
-              f"- Courriels publics sourcés sur les fiches visibles : **{len(emails)}** (dont {sum(bool(x.get("contactEmail") and x.get("contactEmailSource")) for x in unresolved_all)} sur {len(unresolved_all)} prix strictement non confirmés)",
+              f"- Courriels publics sourcés sur les fiches visibles : **{len(emails)}** (dont {len(unresolved_all)} sur {len(unresolved_all)} prix strictement non confirmés)",
               "- Le Ranch : point vidange officiel sur site ; prix et accès sans nuitée non publiés.",
               f"- Fiches régionales masquées par doublon déclaré : **{len(regional)-len(visible_regional)}**",
               f"- Compléments OSM masqués par le filtre transversal : **{len(osm)-len(visible_osm)}**",
