@@ -1101,3 +1101,5 @@ Sources :
 4. **Camping Les Forges, Pornichet** — son [site exploitant actualisé 2026](https://campinglesforges.com/152-services/143-les-services-du-camping.html) indique **ouverture du 04/07 au 30/08/2026**, alors que [Pornichet Tourisme](https://www.pornichet.fr/hotellerie-de-plein-air/camping-les-forges) mentionne **04/04–20/09/2026**. Source officielle priorisée et désaccord affiché. Site exploitant recense 20 emplacements camping/caravaning et 39 locatifs. Le tarif de nuitée pour deux personnes demeure `Non confirmé`.
 
 **Bilan du lot 55 :** aucune aire ajoutée, aucune grille ancienne/homonyme recopiée, **31 tarifs inconnus** (ni amélioration simulée ni augmentation). Les montants vérifiés et distincts du prix de nuitée sont accessibles aux utilisateurs via la carte. Obtenir ensuite confirmation par les exploitants pour les forfaits globaux.
+
+Précision d'audit lot 55 : le contrat Clos Mer et Nature 2026 mentionne aussi le supplément chien **4,50 €/jour**. Ce montant n'est pas le prix de la nuitée camping-car ; conservation du contrôle historique sur les frais annexes.
