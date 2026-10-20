@@ -674,3 +674,22 @@ Sources :
 - https://www.camping-le-ranch.com/fr/emplacements/78629
 - https://www.leschenesverts.info/location-emplacements-villeneuve-en-retz/
 - https://www.leschenesverts.info/hebergement/emplacement/
+
+## Lot complémentaire 35 — 20 octobre 2026
+
+**Deux campings municipaux ajoutés au Pouliguen et un prix de borne rectifié par arrêté officiel 2026.**
+
+- **Le Cléin**, 22 avenue de Kerdun, 44510 Le Pouliguen. 109 emplacements nus pouvant accueillir les camping-cars (pas 109 places exclusivement camping-car). Ouvert du **28 mars au 9 novembre 2026**. Contact 02 40 42 43 99, leclein@mairie-lepouliguen.fr. GPS e-SPRIT **47.27121, -2.43039**.
+- **Les Mouettes au Pouliguen**, 45 boulevard de l'Atlantique, 44510 Le Pouliguen. 200 emplacements nus, ouverts du **28 mars au 3 novembre 2026**. Contact 02 40 42 43 98, lesmouettes@mairie-lepouliguen.fr. GPS e-SPRIT **47.26382, -2.44905**. Ne pas confondre avec le camping Les Mouettes de Saint-Père-en-Retz dont le tarif 2026 reste non confirmé.
+- Pour chacun : forfait municipal **2026 camping-car + 2 personnes + véhicule + électricité 6 A** à **18,95 €** en basse saison (28/03–03/05, 28/09 jusqu'à fermeture), **20,70 €** en saison (04/05–28/06, 31/08–27/09) et **27,30 €** en haute saison (29/06–30/08), plus **0,22 €/adulte/nuit** de taxe de séjour. Le Cléin : électricité 10 A en supplément **0,95 €** selon arrêté.
+- **Aire de l'avenue de l'Océan, Le Pouliguen**, déjà recensée avec **26 places** : borne d'eau indépendante au 20–22 boulevard de l'Atlantique rectifiée de **4,20 €** à **4,40 € / 100 litres d'eau**, d'après décision municipale. Les forfaits 13,60/15,10/17,40 € de l'aire d'étape sont inchangés.
+- Les trois points sont distincts et ne sont pas des doublons. Dates et frais fixés dans la décision municipale du 12 décembre 2025 pour l'exercice 2026 et brochure officielle de mars 2026.
+- Audits enrichis. **167 lieux attendus sans filtre ; 145 après filtre nocturne (22 masqués) ; 11 tarifs strictement Non confirmé inchangés.**
+
+Sources :
+- https://campings.lepouliguen.fr/les-campings/le-clein/
+- https://campings.lepouliguen.fr/les-campings/les-mouettes/
+- https://campings.lepouliguen.fr/wp-content/uploads/2026/03/2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf
+- https://campings.lepouliguen.fr/wp-content/uploads/2026/03/Depliant_france-2026.pdf
+- https://www.cirkwi.com/fr/point-interet/453069-camping-municipal-le-clein
+- https://www.cirkwi.com/fr/point-interet/453156-camping-municipal-les-mouettes

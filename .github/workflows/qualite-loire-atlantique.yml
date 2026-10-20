@@ -151,9 +151,16 @@ jobs:
           chenes=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044V50G1TE")
           assert ranch.get("indicative2026RateYear")==2026 and "74 €" in ranch.get("indicative2026RateLabel","") and ranch.get("indicative2026RateSource")=="https://www.campingfrance.com/uk/find-your-campsite/pays-de-la-loire/loire-atlantique/la-plaine-sur-mer/le-ranch3" and ranch.get("price")=="Non confirmé", "Le Ranch : repère CampingFrance 2026 ne doit pas être confondu avec un tarif exploitant"
           assert "14 h" in chenes.get("receptionHoursNote","") and "12 h" in chenes.get("receptionHoursNote","") and chenes.get("receptionHoursSource")=="https://www.leschenesverts.info/location-emplacements-villeneuve-en-retz/" and chenes.get("price")=="Non confirmé", "Les Chenes Verts : heures opérateur et tarif à confirmer manquants"
+          municipal_ids={"HPAELECLEIN","MUNICIPAL44LEPOULIGUENLESMOUETTES2026"}
+          municipal_sites=[x for x in visible_regional if x.get("sourceId") in municipal_ids]
+          assert len(municipal_sites)==2 and {x.get("capacityTotalNakedPitches") for x in municipal_sites}=={109,200}, "44 : deux campings municipaux du Pouliguen / capacités manquants"
+          assert all(x.get("priceYear")==2026 and x.get("priceEvidenceDocument","").endswith("2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf") and "18,95 €" in x.get("price","") and "20,70 €" in x.get("price","") and "27,30 €" in x.get("price","") and x.get("contactEmailSource","").startswith("https://") for x in municipal_sites), "44 : tarif 2026 ou contact municipal manquant"
+          aire_pouliguen=next(x for x in visible_regional if x.get("sourceId")=="ACCAMECCLEPOULIGUEN")
+          assert "4,40 €" in aire_pouliguen.get("price","") and "4,20 €" not in aire_pouliguen.get("price","") and aire_pouliguen.get("priceSource")==municipal_sites[0]["priceSource"], "44 : tarif 2026 borne du Pouliguen non rectifié"
+          assert len(regional)==160 and len(visible_regional)==158 and total_visible==167, "44 : après deux ajouts le compteur attendu est 167"
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
-          assert night_flags_total==22 and night_filter_visible==143, f"44 : attendu 17 nuitées non établies + 5 interdictions (143 points filtrés), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
+          assert night_flags_total==22 and night_filter_visible==145, f"44 : attendu 17 nuitées non établies + 5 interdictions (143 points filtrés), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -203,7 +210,7 @@ jobs:
               f"- Fiches régionales masquées par doublon déclaré : **{len(regional)-len(visible_regional)}**",
               f"- Compléments OSM masqués par le filtre transversal : **{len(osm)-len(visible_osm)}**",
               f"- **Total de fiches visibles attendu (mêmes filtres que app.js) : {total_visible}** ({len(visible_regional)} régionales + {len(visible_osm)} complémentaires)",
-              f"- Écart avec le dernier compteur utilisateur confirmé (165) : **{total_visible-165:+d}** ; tout changement volontaire devra être revalidé",
+              f"- Variation depuis 165 fiches avant lot 35 : **{total_visible-165:+d}** ; 167 lieux attendus après ajout de deux campings municipaux distincts",
               f"- Aires de pique-nique régionales avec nuitée non établie : **{overnight_pending}**",
               f"- Autres haltes régionales avec nuitée non établie : **{overnight_other_regional}**",
               f"- Compléments visibles avec nuitée non établie : **{overnight_extra}**",
@@ -211,6 +218,7 @@ jobs:
               f"- **Filtre nuitée interdite OU non établie : {night_filter_visible} lieux / {total_visible}**",
               "- Lot 33 : 7 fiches auparavant non filtrées requalifiées nuitée NON ÉTABLIE (sans prétendre une interdiction) ; 143 visibles avec filtre.",
               "- Lot 34 : Le Ranch dispose d’un prix de référence tiers 2026 (74 €/nuit, non contractuel) distinct du champ tarif non confirmé ; Chênes Verts horaires d’emplacement 14h/12h sourcés.",
+              "- Lot 35 : deux campings municipaux au Pouliguen, Le Cléin et Les Mouettes, 109/200 emplacements nus ; grille communale 2026 18,95/20,70/27,30 €, et borne distincte 4,40 € / 100 L.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",
