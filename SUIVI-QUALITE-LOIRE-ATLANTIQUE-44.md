@@ -85,3 +85,31 @@ Sources du lot :
 - https://www.enpaysdelaloire.com/hebergements/campings/la-cale-sauvage
 - https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-de-saint-molf
 - https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/la-ferme-des-cochons-d-antan
+
+## Lot complémentaire 5 — 20 octobre 2026
+
+**12 fiches mises à jour, sans ajout ni retrait d'emplacement.** Six champs tarifaires régionaux auparavant exactement « Non confirmé » ont été précisés à partir de sources institutionnelles ou de la grille officielle du camping. État : **33 fiches régionales brutes marquées exactement « Non confirmé », dont 2 masquées par dédoublonnage ; 31 parmi les fiches régionales visibles**.
+
+- Le Soleya : grille officielle 2026 camping standard 18–45 €/nuit, électricité et taxe en supplément, ouverture emplacements 29 mai–14 septembre ; bien distinct du PARK voisin.
+- Dune de Jade : prix 2026 pour deux adultes, emplacement, voiture 25,60–45,20 € (Tourisme Bretagne).
+- Le Pas du Gû : 12,80–19,50 € forfait emplacement camping 2026, saison terminée le 15 septembre.
+- Malabrit, Pont-Saint-Martin : dix places gratuites ouvertes jour/nuit, eau et WC, sans vidange.
+- Mirabel La Renaudière : 21–48 €/nuit pour forfait emplacement en 2026, électricité et taxe en plus.
+- Slow Village Pornic : forfait emplacement dès 24 € en 2026, taxe en plus.
+- Les Mouettes, Le Relais des Garennes, Sandaya Le Fief, ferme du Biau Chemin France Passion, camping de l'Hermitage et Le Bel Air : classement et conditions d'accueil précisés ; **tarif non confirmé conservé**.
+
+Le total théorique reste **165 lieux** : 156 fiches régionales (158 moins 2 doublons internes) et 9 fiches complémentaires visibles. Le compteur a été confirmé par l'utilisateur après le lot précédent.
+
+### Sources du lot 5
+- https://www.campinglesoleya.com/pdf/tarifs_emplacements.pdf
+- https://www.tourismebretagne.com/preparer-mon-sejour/ou-dormir/tous-les-hebergements/camping-la-dune-de-jade-saint-brevin-les-pins-fr-2033332/
+- https://www.enpaysdelaloire.com/hebergements/campings/le-pas-du-gu
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-privee-de-malabrit
+- https://www.enpaysdelaloire.com/hebergements/campings/mirabel-la-renaudiere
+- https://www.enpaysdelaloire.com/hebergements/campings/camping-slow-village-pornic
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/sandaya-le-fief
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/les-mouettes-2
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-du-camping-rural-le-relais-des-garennes
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-car-camping-de-l-hermitage
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion
+- https://www.enpaysdelaloire.com/hebergements/campings/le-bel-air
