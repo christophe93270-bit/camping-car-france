@@ -402,3 +402,7 @@ Sources :
 - https://www.mairie-saint-molf.fr/pratique/contact-et-demarches-en-ligne/
 - https://www.commune-de-plesse.com/les-services-municipaux
 - https://ancenis-saint-gereon.fr/publications/
+
+### Complément du lot 18 — cohérence des contacts
+
+Le nouvel audit des coordonnées publiques requiert un rôle de contact pour les fiches enrichies. Six contacts préexistants du lot 16 avaient bien un téléphone sourcé, mais pas le champ `contactRole`. Les cinq campings sont maintenant étiquetés « camping » et le site ANAS est étiqueté « centre ». Cette correction ne change ni leurs numéros ni leurs tarifs ; elle permet de distinguer « contacter le camping » de « contacter le gestionnaire » et rend la nouvelle règle de contrôle cohérente avec l'historique.
