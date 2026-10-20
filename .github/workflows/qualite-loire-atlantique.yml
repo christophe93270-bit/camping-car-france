@@ -79,7 +79,7 @@ jobs:
           expected_email_ids={"ACCAMPDL044V51I23X","ACCAMACCAMPDL044V50G1TE","ACCAMPDL044V5002ZN","ACCAMACCAMPDL044000049","ACCAMPDL044V50ZDO9","ACCAMEAIREDESTMOLF","node/11786823109","way/1317028497","ACCAMPDL044V50Y077","ACCAMACCAMPDL044000155","ACCAMACCAMPDL044000154"}
           assert expected_email_ids.issubset({str(x.get("sourceId")) for x in emails}), "44 : les 11 tarifs non confirmés doivent disposer d’un courriel public sourcé"
           unresolved_all=[x for x in visible_regional+visible_osm if x.get("price")=="Non confirmé"]
-          assert len(unresolved_all)==18 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 : suivi des 18 prix strictement non confirmés ou des courriels incomplet"
+          assert len(unresolved_all)==19 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 : suivi des 19 prix strictement non confirmés ou des courriels incomplet"
           ranch=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000049")
           assert ranch.get("price")=="Non confirmé" and "point de vidange camping-car" in " ".join(ranch.get("services",[])).lower() and ranch.get("drainageFacilitySource")=="https://www.yellohvillage.fr/camping/le_ranch/nos_services", "Le Ranch : service vérifié ou réserve manquante"
           contacts_incomplete=[str(x.get("sourceId")) for x in visible_regional+visible_osm if x.get("contactPhone") and (not str(x.get("contactSource","")).startswith("https://") or not x.get("contactRole") and x.get("priceCheckedAt"))]
@@ -169,7 +169,7 @@ jobs:
           assert all(x.get("priceYear")==2026 and x.get("priceEvidenceDocument","").endswith("2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf") and "18,95 €" in x.get("price","") and "20,70 €" in x.get("price","") and "27,30 €" in x.get("price","") and x.get("contactEmailSource","").startswith("https://") for x in municipal_sites), "44 : tarif 2026 ou contact municipal manquant"
           aire_pouliguen=next(x for x in visible_regional if x.get("sourceId")=="ACCAMECCLEPOULIGUEN")
           assert "4,40 €" in aire_pouliguen.get("price","") and "4,20 €" not in aire_pouliguen.get("price","") and aire_pouliguen.get("priceSource")==municipal_sites[0]["priceSource"], "44 : tarif 2026 borne du Pouliguen non rectifié"
-          assert len(regional)==192 and len(visible_regional)==190 and total_visible==199, "44 : total attendu 199 après les trois campings du lot 47"
+          assert len(regional)==194 and len(visible_regional)==192 and total_visible==201, "44 : total attendu 201 après deux campings au lot 48 et Briord sans doublon"
           pree=next(x for x in visible_regional if x.get("sourceId")=="HPAPDL044V507V64")
           eleo=next(x for x in visible_regional if x.get("sourceId")=="HPAPDL044000113")
           assert pree.get("priceYear")==2026 and pree.get("capacityBarePitchesPublished")==22 and pree.get("minimumNights2026")==2 and all(v in pree.get("price","") for v in ("16 €","20 €","25 €","32 €","4,90 €")) and pree.get("priceSource")=="https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements", "La Prée : prix millésimés et capacité manquants"
@@ -278,9 +278,21 @@ jobs:
           assert falaise.get("price")=="Non confirmé" and falaise.get("capacityBarePitchesPublished")==65 and "Morbihan" in falaise.get("status",""), "La Falaise La Turballe : confusion avec camping homonyme Morbihan ou tarif non documenté"
           assert beaupre.get("price")=="Non confirmé" and beaupre.get("capacityBarePitchesPublished")==25 and beaupre.get("sourceOfficial")=="https://www.lebeaupre.com/fr/", "Le Beaupré : capacité ou absence de tarif 2026 non respectées"
           assert soir.get("price")!="Non confirmé" and "21 €" in soir.get("price","") and "126 €" in soir.get("indicative2026Offer","") and soir.get("priceYear") is None and "prix_appel" in soir.get("priceVerification","") and "dates exploitant" in soir.get("operationalWarning",""), "Au Soir d'Eté : prix d'appel, offre ponctuelle, année ou saison insuffisamment prudents"
+
+          # Lot 48 : Briord unique ; Mon Calme sans prix 2026 ; Amis de la Nature Pors-er-Ster, grille 2026 et restrictions.
+          briord48=[x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMEAIREDECAMPINGLEBRIORD"]
+          assert len(briord48)==1 and briord48[0].get("contactEmail")=="campinglebriord44@gmail.com" and "0 m" in briord48[0].get("importReview",""), "Lot 48 : Briord déjà présent, pas de doublon"
+          lot48_ids={"CCF44-PIRIAC-DOMAINE-MON-CALME-2026","CCF44-PIRIAC-AMIS-NATURE-PORS-STER-2026"}
+          lot48=[x for x in visible_regional if x.get("sourceId") in lot48_ids]
+          assert len(lot48)==2 and all(x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("contactPhone") and not x.get("overnightStatus") for x in lot48), "Lot 48 : coordonnées ou état nocturne incorrect"
+          mc=next(x for x in lot48 if x.get("sourceId")=="CCF44-PIRIAC-DOMAINE-MON-CALME-2026")
+          ps=next(x for x in lot48 if x.get("sourceId")=="CCF44-PIRIAC-AMIS-NATURE-PORS-STER-2026")
+          assert mc.get("price")=="Non confirmé" and mc.get("capacityCampingCarTourism")==14 and "11/10" in mc.get("seasonalDates2026","") and "12/10" in mc.get("seasonalDates2026",""), "Lot 48 Mon Calme : capacité, prix ou dates contradictoires non tracés"
+          assert ps.get("priceYear")==2026 and all(x in ps.get("price","") for x in ["5,90 €","4,90 €","2,90 €","23,54 €"]) and ps.get("priceIllustrativeCalculation",{}).get("exampleWithElectricityAndTax")==23.54, "Lot 48 Pors-er-Ster : grille de prix 2026 ou exemple mal calculé"
+          assert ps.get("longitude")<0 and "6,80 m" in ps.get("operationalWarning","") and "vidange" in ps.get("operationalWarning","").lower(), "Lot 48 : géolocalisation et limite camping-car invalides"
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
-          assert night_flags_total==28 and night_filter_visible==171, f"44 : 28 lieux écartés du filtre nocturne (171 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
+          assert night_flags_total==28 and night_filter_visible==173, f"44 : 28 lieux écartés du filtre nocturne (173 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -330,7 +342,7 @@ jobs:
               f"- Fiches régionales masquées par doublon déclaré : **{len(regional)-len(visible_regional)}**",
               f"- Compléments OSM masqués par le filtre transversal : **{len(osm)-len(visible_osm)}**",
               f"- **Total de fiches visibles attendu (mêmes filtres que app.js) : {total_visible}** ({len(visible_regional)} régionales + {len(visible_osm)} complémentaires)",
-              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 199 lieux attendus après trente-quatre ajouts distincts (lots 35, 37, 39, 40, 41, 42, 43, 44, 45, 46 et 47)",
+              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 201 lieux attendus après trente-six ajouts distincts (lots 35, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47 et 48)",
               f"- Aires de pique-nique régionales avec nuitée non établie : **{overnight_pending}**",
               f"- Autres haltes régionales avec nuitée non établie : **{overnight_other_regional}**",
               f"- Compléments visibles avec nuitée non établie : **{overnight_extra}**",
@@ -351,6 +363,7 @@ jobs:
               "- Lot 45 : Hermitage des Dunes, Domaine de Léveno, Étang du Pays Blanc ajoutés en camping privé, avec prix de nuitée 2026 strictement Non confirmé ; promotion Léveno 25 € non millésimée, capacités/adresses contradictoires Hermitage et dates Pays Blanc 2027 signalées. 192 lieux, 164 avec filtre, 14 prix strictement non confirmés (11 historiques + 3 nouveaux).",
               "- Lot 46 : quatre lieux supplémentaires (Gruellau, Tréambert, Petit Bois, GCU Mesquer). Total 196, filtre 168, tarifs strictement Non confirmé 16. Gruellau et GCU disposent seulement de prix d’appel non assimilables à forfait 2026 complet ; divergences d’ouverture Gruellau, caractère associatif GCU, voisinage Tréambert/Petit Bois documentés.",
               "- Lot 47 : trois campings supplémentaires (La Falaise La Turballe, Le Beaupré Mesquer, Au Soir d’Eté Mesquer). 199 fiches, 171 avec filtre, 18 prix strictement Non confirmé (16 anciens + 2 nouveaux). Au Soir d’Eté : prix d’appel de 21 € sur page exploitant présentant 2026, offre ponctuelle 126 € / 7 nuits et divergence de saison signalées ; aucun prix garanti pour toute date.",
+              "- Lot 48 : deux campings Piriac (Domaine Mon Calme, Les Amis de la Nature Pors-er-Ster) ajoutés ; Le Briord déjà présent enrichi sans doublon. Mon Calme prix Non confirmé ; Pors-er-Ster barème exploitant 2026 avec camping-car 6,80 m maxi sans eau/vidange grise. Totaux 201/173, 19 prix Non confirmé.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",

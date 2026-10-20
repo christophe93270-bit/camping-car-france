@@ -934,3 +934,24 @@ Sources :
 - https://www.camping-soirdete.com/emplacement-camping-loire-atlantique/
 - https://www.cirkwi.com/fr/point-interet/453289-camping-au-soir-d-ete
 - https://www.campings.com/fr/camping/camping-au-soir-dete-84109
+
+## Lot complémentaire 48 — 20 octobre 2026
+
+**Deux nouveaux campings à Piriac-sur-Mer, plus enrichissement de la fiche préexistante du Briord sans création d'un doublon.**
+
+- **Le Briord, Saint-Brevin-les-Pins :** déjà enregistré sous `ACCAMACCAMEAIREDECAMPINGLEBRIORD`. Localisation e-SPRIT identique au mètre. Contacts sourcés dans la fiche Cirkwi actualisée 2026 : `campinglebriord44@gmail.com`, 06 79 47 04 18, numéro secondaire 06 38 63 29 34. Site saisonnier (week-ends de mai et 15/06–15/09/2026), six emplacements mixtes, tarif « à partir de 14 € » pour deux personnes (non nécessairement le coût final camping-car), paiement en espèces. Pas de nouvelle fiche.
+- **Domaine Mon Calme, Piriac-sur-Mer :** `CCF44-PIRIAC-DOMAINE-MON-CALME-2026`, GPS e-SPRIT `47.37224,-2.54933` ; rue de Norvoret. La Région dénombre **14 emplacements camping-car**, l'office local **86 emplacements tous types** et le camping évoque ailleurs 28 places d'une catégorie différente. **Tarif nuitée camping-car 2026 exactement `Non confirmé`**, aucune grille générale publiée retrouvée. Fin de saison selon exploitant **12/10/2026**, selon office **11/10/2026**. À environ 230 m de l'aire Le Véridet, établissement différent par nom, adresse et mode d'exploitation ; ne pas fusionner. Téléphone 02 40 23 60 77, `contact@campingmoncalme.com`.
+- **Les Amis de la Nature / Pors-er-Ster, Piriac-sur-Mer :** `CCF44-PIRIAC-AMIS-NATURE-PORS-STER-2026`, GPS `47.38771,-2.52105` OUEST validé e-SPRIT (corrige longitude EST erronée d'un texte associatif), route de la Noë Malade. Camping associatif **97 emplacements nus mixtes**, saison 29/06–06/09/2026, ouvert aux adhérents et non-adhérents. **Véhicules camping-car jusqu'à 6,80 m**, **sans eau de remplissage camping-car ni vidange des eaux grises**. Grille officielle **2026** : adulte 5,90 €, parcelle 4,90 €, véhicule camping-car 2,90 €, branchement électrique optionnel 3,50 €, taxe adulte 0,22 €. Exemple calculé pour deux adultes avec électricité et les deux taxes : **23,54 €/nuit**, sous réserve des conditions de réservation. Courriel `contact@campinglesamisdelanaturepiriac.fr`, téléphone 02 40 23 61 79.
+- **Compteurs attendus : 201 lieux publics, 173 avec filtre nocturne (28 exclus), 19 tarifs exactement `Non confirmé` (18 historiques et Mon Calme).** Tests qualité renforcés pour Briord, montant associatif 2026, longitude, capacité et dates de Mon Calme.
+
+Sources :
+- https://www.cirkwi.com/fr/point-interet/3322094-aire-de-camping-le-briord
+- https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord
+- https://www.labaule-guerande.com/offres/domaine-mon-calme-piriac-sur-mer-fr-6011385/
+- https://campingmoncalme.com/
+- https://www.cirkwi.com/fr/point-interet/453211-domaine-mon-calme
+- https://www.pincamp.ch/fr/campings/camping-mon-calme
+- https://campinglesamisdelanaturepiriac.fr/
+- https://campinglesamisdelanaturepiriac.fr/tarifs-reservations-avis/
+- https://www.cirkwi.com/fr/point-interet/453146-les-amis-de-la-nature
+- https://amis-nature.fr/hebergements/pors-er-ster/

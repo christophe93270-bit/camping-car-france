@@ -1,4 +1,4 @@
-# Loire-Atlantique (44) — suivi de confirmation des 18 tarifs
+# Loire-Atlantique (44) — suivi de confirmation des 19 tarifs
 
 Contrôle documentaire du **20 octobre 2026**. Ce suivi est un dossier interne au projet Camping-Car France.
 
@@ -85,3 +85,13 @@ Les 16 demandes précédentes demeurent ouvertes ; aucun gestionnaire n'a été 
 | Camping Le Beaupré — Mesquer (`CCF44-MESQUER-CAMPING-BEAUPRE-2026`) | `info@lebeaupre.com` · [source](https://www.cirkwi.com/fr/point-interet/453064-camping-le-beaupre) | [Préparer le courriel](mailto:info@lebeaupre.com?subject=Camping-Car%20France%20%E2%80%93%20confirmation%20tarif%20camping-car%202026%20%E2%80%93%20Camping%20Le%20Beaupr%C3%A9%20%E2%80%94%20Mesquer&body=Bonjour%2C%0A%0APour%20mettre%20%C3%A0%20jour%20le%20r%C3%A9pertoire%20Camping-Car%20France%20en%20Loire-Atlantique%2C%20Merci%20de%20nous%20confirmer%20le%20tarif%202026%20d'un%20emplacement%20camping-car%20pour%20deux%20adultes%20avec%20%C3%A9lectricit%C3%A9%2C%20taxes%2C%20options%20et%20conditions%20d'acc%C3%A8s%20%C3%A9ventuelles%20%C3%A0%20la%20vidange%20sans%20nuit%C3%A9e.%20Le%20site%20mentionne%2025%20emplacements%20nus%20%3A%20cette%20capacit%C3%A9%20est-elle%20encore%20%C3%A0%20jour%20%3F%0A%0AMerci%20de%20votre%20aide.%0ACamping-Car%20France) | **Non envoyé** |
 
 **Bilan au lot 47 : 18 tarifs exactement « Non confirmé », 18 contacts publics sourcés, aucun envoi effectué ni réponse reçue.**
+
+## Lot 48 — une demande complémentaire non envoyée
+
+Le camping Le Briord est déjà présent et a seulement bénéficié d'un enrichissement des contacts. Pors-er-Ster publie une grille officielle 2026 ; le seul nouveau prix strictement inconnu est celui du Domaine Mon Calme.
+
+| Fiche | Contact sourcé | Demande prête à envoyer | État |
+|---|---|---|---|
+| Domaine Mon Calme, Piriac (`CCF44-PIRIAC-DOMAINE-MON-CALME-2026`) | `contact@campingmoncalme.com` [source](https://www.pincamp.ch/fr/campings/camping-mon-calme) | [Préparer le courriel](mailto:contact@campingmoncalme.com?subject=Camping-Car%20France%20%3A%20demande%20de%20tarif%202026%20camping-car%20%E2%80%94%20Domaine%20Mon%20Calme&body=Bonjour%2C%0A%0ANous%20v%C3%A9rifions%20les%20informations%20des%20aires%20et%20campings%20en%20Loire-Atlantique.%20Pourriez-vous%20confirmer%20le%20forfait%20nuit%C3%A9e%20camping-car%202026%20pour%20deux%20adultes%2C%20%C3%A9lectricit%C3%A9%20%C3%A9ventuelle%2C%20taxe%20de%20s%C3%A9jour%20et%20frais%20de%20r%C3%A9servation%2C%20ainsi%20que%20la%20possibilit%C3%A9%20de%20vidange%20pour%20un%20non-r%C3%A9sident%20%3F%20Pourriez-vous%20aussi%20pr%C3%A9ciser%20si%20le%20camping%20fermait%20le%2011%20ou%20le%2012%20octobre%202026%20%3F%0A%0AMerci%20de%20votre%20aide.%0ACamping-Car%20France.) | Non envoyé |
+
+**État après lot 48 : 19 prix strictement non confirmés, 19 courriels publics sourcés, aucun message envoyé ni réponse reçue.**
