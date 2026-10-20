@@ -138,3 +138,27 @@ Le total théorique reste **165 lieux** : 156 fiches régionales (158 moins 2 do
 - https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-campings-cars-de-la-ferme-de-l-arfaut
 - https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/centre-anas-1
 - https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/camping-fleur-de-briere
+
+## Lot complémentaire 7 — 20 octobre 2026
+
+Six fiches revues : cinq nouvelles informations tarifaires avec niveau de certitude explicitement marqué, une fiche historique dont le tarif 2026 reste non confirmé. Aucune fiche supprimée, ajoutée ou fusionnée. Le compteur **165 lieux** a été confirmé par l'utilisateur après le lot précédent.
+
+- **Fleur de Brière, Saint-Lyphard** : source touristique officielle 2026, forfait camping-car avec électricité **11 à 14 €**, selon saison. Borne seule non tarifée.
+- **Camping La Rabine, Machecoul-Saint-Même** : CampingFrance 2026 : forfait emplacement **19 €/jour**, électricité **4,50 €** en supplément ; borne intérieure et nuit minimum, fermeture le 30 septembre.
+- **La Cale Sauvage, Frossay** : CampingFrance 2026 : forfait **22 €/jour**, détail options à confirmer ; site exploitant : **37 emplacements nus**, saison terminée le 4 octobre.
+- **Camping de l’Hermitage, Guémené-Penfao** : tarif **dès 16 €/nuit** sur le site de l'exploitant **sans millésime explicite** ; vidange gratuite pour les clients, passage possible sur présentation à l'accueil, frais de passage non publiés.
+- **Ushuaïa Villages L’Estuaire, Paimbœuf** : offre datée **140 € pour sept nuits du 12 au 19 septembre 2026** pour aire camping-car et électricité ; montant non généralisable aux autres périodes.
+- **Les Mouettes, Saint-Père-en-Retz** : site exploitant affiche **19,50 €/nuit** et électricité **+6,50 €** mais grille PDF datée **2024** ; prix 2026 reste **Non confirmé** pour éviter une fausse actualisation.
+
+**Contrôle tarifs : 24 champs régionaux exactement `Non confirmé`**, dont deux fiches masquées comme doublons, soit 22 fiches régionales visibles sans tarif confirmé. Attention : certaines des 134 autres ont des prix partiellement documentés ou des offres datées, et sept lieux nommés « Aire de pique-nique » ne sont toujours pas des nuitées confirmées. Trois fiches complémentaires restent marquées `Non confirmé`.
+
+Sources de ce lot :
+- https://www.labaule-guerande.com/offres/camping-fleur-de-briere-saint-lyphard-fr-6011358/
+- https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne
+- https://www.mairie-guemene-penfao.fr/contacts/camping-de-lhermitage/
+- https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/machecoul-saint-meme/camping-municipal-la-rabine
+- https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/frossay/camping-municipal144
+- https://www.la-cale-sauvage.com/nos-emplacements/
+- https://ushuaia-villages.com/fr-fr/ushuaia-villages-camping-l-estuaire_1511093.html
+- https://www.les-mouettes-camping.com/
+- https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf
