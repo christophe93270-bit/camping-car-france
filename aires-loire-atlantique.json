@@ -356,15 +356,16 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Parking camping-car repéré dans OpenStreetMap à Corcoué-sur-Logne, à environ 300 m de la fiche Grotte Saint-Jean (ACCAMPDL044V5006F5). Même commune et usage similaire : possible doublon, mais l'équivalence précise n'est pas confirmée. Stationnement, services et tarif de ce point particulier restent à vérifier.",
     "source": "https://www.openstreetmap.org/way/909611149",
     "latitude": 46.9612969,
     "longitude": -1.5814451,
     "gpsSource": "https://www.openstreetmap.org/way/909611149",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/909611149"
+    "importReview": "Candidat doublon signalé le 20/10/2026 sans fusion automatique : OSM à environ 300 m de la fiche régionale, GPS ou emplacement possiblement différent.",
+    "sourceId": "way/909611149",
+    "potentialDuplicateOfSourceId": "ACCAMPDL044V5006F5"
   },
   {
     "department": "44",
@@ -394,20 +395,29 @@
   },
   {
     "department": "44",
-    "name": "Aire de camping-car Sorinières",
+    "name": "Aire municipale rue des Papillons – Les Sorinières",
     "city": "Les Sorinières",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire municipale avec services gratuits et stationnement à proximité",
+    "services": [
+      "Vidange gratuite des eaux grises",
+      "Vidange gratuite cassette WC",
+      "Approvisionnement gratuit en eau potable",
+      "Places de stationnement à proximité",
+      "Tables de pique-nique à proximité"
+    ],
+    "price": "Eau potable et vidanges gratuites selon la mairie des Sorinières. Tarif du stationnement de nuit et durée autorisée non précisés par la mairie : vérifier la signalisation locale.",
+    "status": "Rue des Papillons, Les Sorinières. La mairie confirme les services gratuits et plusieurs places de stationnement, sans publier de conditions de nuitée. Gratuité des services ne signifie pas automatiquement nuitée gratuite ou autorisée.",
     "source": "https://www.openstreetmap.org/way/909618351",
     "latitude": 47.1482792,
     "longitude": -1.5217502,
     "gpsSource": "https://www.openstreetmap.org/way/909618351",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/909618351"
+    "importReview": "Vérifié le 20/10/2026 sur le site de la mairie : gratuits : eaux grises, WC, eau potable. Stationnement/nuitée à confirmer.",
+    "sourceId": "way/909618351",
+    "sourceOfficial": "https://www.ville-sorinieres.fr/contacts/aire-de-camping-car/",
+    "priceSource": "https://www.ville-sorinieres.fr/contacts/aire-de-camping-car/",
+    "servicesSource": "https://www.ville-sorinieres.fr/contacts/aire-de-camping-car/"
   },
   {
     "department": "44",
@@ -695,23 +705,26 @@
   },
   {
     "department": "44",
-    "name": "Aire de stationnement Barriere St Pierre - Ancenis",
+    "name": "Aire de stationnement Barrière Saint-Pierre – Ancenis",
     "city": "Ancenis-Saint-Géréon",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de stationnement près de la halte nautique",
     "services": [
-      "Toilettes"
+      "Stationnement de camping-cars près de la halte nautique",
+      "Eau à disposition selon le réseau touristique e-SPRIT",
+      "Toilettes à disposition",
+      "Tables de pique-nique à proximité"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Barrière Saint-Pierre, Ancenis-Saint-Géréon, face à la halte nautique. 2 emplacements recensés par Pays d'Ancenis (guide 2024) ; tarif, durée maximale et fonctionnement des équipements en octobre 2026 non confirmés officiellement.",
     "source": "https://www.openstreetmap.org/way/1317028497",
     "latitude": 47.367137,
     "longitude": -1.1739513,
     "gpsSource": "https://www.openstreetmap.org/way/1317028497",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Fiche e-SPRIT diffusée par Cirkwi et guide Pays d'Ancenis recoupés le 20/10/2026 : lieu, eau, WC et proximité halte nautique. Absence de tarif confirmé, ne pas présumer la gratuité.",
     "sourceId": "way/1317028497",
-    "servicesSource": "https://www.openstreetmap.org/way/1317028497"
+    "servicesSource": "https://www.cirkwi.com/fr/point-interet/441669-aire-de-stationnement-barriere-st-pierre-ancenis"
   },
   {
     "department": "44",
