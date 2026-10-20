@@ -135,3 +135,12 @@ Le camping Le Briord est déjà présent et a seulement bénéficié d'un enrich
 | L'Océan, Le Croisic (`CCF44-CROISIC-CAMPING-OCEAN-2026`) | `info@camping-ocean.com` · [répertoire institutionnel](https://rando.loire-atlantique.fr/service/182074-Camping---L-Ocean) | Barème 2026 Confort/Grand Confort pour deux adultes et un camping-car, taxes, jour d'arrivée et possibilité de vidange sans séjour, confirmez l'adresse email de la centrale de réservation | Non envoyé |
 
 **Après lot 52 : 30 prix strictement non confirmés sur les fiches visibles, tous avec coordonnées de contact publiques sourcées.** Aucun envoi effectué.
+
+## Compléments de contacts — lot 53 (20 octobre 2026)
+
+| Lieu | Contact et preuve | À confirmer | État |
+|---|---|---|---|
+| Camping du Bugeau, Pornichet (`CCF44-PORNICHET-BUGEAU-2026`) | `campingdubugeau@wanadoo.fr` ([PiNCAMP](https://www.pincamp.fr/campings/camping-bugeau)), 02 40 61 02 02 | Forfait nuitée camping-car 2 personnes 2026, électricité, taxes, accès et prix vidange seule sans nuitée | Non envoyé |
+| GCU Pornichet, Sainte-Marguerite (`CCF44-PORNICHET-GCU-2026`) | `gcu@gcuf.fr` ([siège officiel](https://www.gcu.asso.fr/contact/)), téléphone terrain 02 40 61 25 75 | Montant complet camping-car deux adultes (prix d'appel 13,14 €), charges et taxes 2026, adhésion requise et conditions d'accès borne non-résidents | Non envoyé |
+
+**Lot 53 : 32 fiches visibles au tarif strictement non confirmé, toutes avec contacts courriel sourcés.** Bel Air : coordonnées téléphoniques opérateur documentées, sa fiche tarifaire antérieure ne devient pas « prix non confirmé ». Aucun message envoyé.

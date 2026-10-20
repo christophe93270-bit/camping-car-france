@@ -1054,3 +1054,26 @@ Sources :
 - https://www.camping-ocean.com/foire-aux-questions.html
 - https://rando.loire-atlantique.fr/service/182074-Camping---L-Ocean
 - https://www.cirkwi.com/fr/point-interet/453192-camping-l-ocean
+
+## Lot complémentaire 53 — 20 octobre 2026
+
+**Deux nouveaux campings accueillant explicitement les camping-cars à Pornichet, plus enrichissement du Camping Bel Air déjà présent.** Le catalogue des cinq campings de Pornichet de l'office de tourisme a été recoupé avec les exploitants. **Camping Les Trois Chênes Clicochic exclu de cet ajout :** la page officielle 2026 met en avant ses locatifs mais ne permet pas de confirmer un emplacement nu pour camping-car réservable en 2026 ; ne pas le publier uniquement sur la mention générique « camping » de l'office.
+
+- **Camping du Bugeau — Pornichet** (`CCF44-PORNICHET-BUGEAU-2026`) : 33 avenue des Loriettes ; GPS PiNCAMP `47.252827,-2.319172`, cohérent avec plusieurs annuaires, mais autre repère CampingDispo différent : point indicatif de camping, pas localisation d'une borne. Exploitant : **emplacements camping-car/tentes/caravanes ≥80 m², électricité 10 A**, saison **10/04–04/10/2026**. Pornichet Tourisme recense borne et vidanges eaux grises/noires ; service non-résidents non garanti. **Prix de nuitée camping-car complet 2026 « Non confirmé »**, la fiche Bretagne laisse le champ de prix 2026 vide et le site officiel utilise un moteur de réservation. Office : 110 hébergements, Bretagne : 112 emplacements, nombres non additionnés. Contact **02 40 61 02 02**, `campingdubugeau@wanadoo.fr` (PiNCAMP). Camping distinct du Bel Air à environ 610 m.
+- **Camping associatif GCU Pornichet — Sainte-Marguerite** (`CCF44-PORNICHET-GCU-2026`) : 38 avenue des Bleuets, GPS officiel DMS `47°14'53 N / 02°18'48 O` converti en `47.24805556,-2.31333333`. GCU : **72 emplacements pour camping-car/tente/caravane** et quatre locations, saison **12/06–30/08/2026**. L'office annonce eau, électricité, vidanges (accès non-résidents non prouvé). **Adhésion obligatoire**, tarif GCU **29 € par adulte >26 ans** en 2026 distinct du prix d'emplacement. Prix d'appel d'emplacement **13,14 €/nuit** en très basse saison ne désigne pas le forfait complet camping-car deux adultes : **prix « Non confirmé »** ; conditions de réservation et d'adhésion à vérifier. `gcu@gcuf.fr` (siège), **02 40 61 25 75** (site). Le GCU Pornichet est distinct du GCU Mesquer déjà enregistré.
+- **Camping Bel Air Pornichet** (`ACCAMEBELAIR`) : fiche existante **enrichie sans ajout de site**. Site exploitant : boxes camping-car **35 m²** avec eau et évacuation eaux usées sur l'emplacement, branchement électrique supplémentaire ; les emplacements classiques du camping peuvent aussi recevoir les camping-cars. La présentation antérieure dénombre sept boxes spécifiques sans garantir leur capacité libre. Pornichet Tourisme : **01/04–06/11/2026**. Contact exploitant **02 40 61 10 78**. Tarifs comparatifs existants conservés, sans les présenter comme forfait officiel de réservation.
+
+**Compteurs attendus lot 53 : 215 fiches sans filtre, 187 avec filtre nocturne, 28 écartées, 32 prix strictement `Non confirmé`.** Deux nouveaux dossiers tarifaires, aucun message envoyé et aucune disponibilité affirmée hors saison.
+
+Sources :
+- https://www.pornichet.fr/sejourner/bien-dormir/campings
+- https://www.pornichet.fr/camping-du-bugeau
+- https://www.campingdubugeau.com/fr/hebergements/emplacement-tentes-camping-car-caravanes-10a-1
+- https://www.pincamp.fr/campings/camping-bugeau
+- https://www.gcu.asso.fr/campings/camping-pornichet/
+- https://www.gcu.asso.fr/devenir-adherent/
+- https://www.gcu.asso.fr/contact/
+- https://www.pornichet.fr/camping-gcu
+- https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars
+- https://www.belairpornichet.fr/camping-4-etoiles-proche-la-baule/terrain-de-6-hectares
+- https://www.clicochic.com/camping-loire-atlantique/trois-chenes
