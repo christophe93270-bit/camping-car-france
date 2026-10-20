@@ -569,3 +569,19 @@ Sources :
 - Les six campings sont interrogés sur le prix de base 2026, les suppléments, l'électricité et les services sans séjour.
 - **Aucun courriel ni appel envoyé ; aucun tarif ni droit de nuitée supplémentaire confirmé.** Les documents déjà consultés, y compris un PDF Les Mouettes millésimé 2024, ne sont pas transformés en grille 2026.
 - **165 fiches au total, 150 après filtre nocturne, 11 tarifs strictement non confirmés** ; les changements du lot 28 sont internes au suivi administratif et n'altèrent pas les données du site.
+
+## Lot complémentaire 29 — 20 octobre 2026
+
+**Beslé-sur-Vilaine : correction documentaire vérifiée auprès de la municipalité.**
+
+- Camping municipal du Port : **32 emplacements nus** accueillant tentes, caravanes et camping-cars sur **40 emplacements au total**. Les 40 ne sont pas exclusivement des emplacements camping-car. Coordonnées officielles ajoutées : `02 40 87 73 72`, `campingduportdebesle@orange.fr`.
+- Les pages municipales divergent sur la saison : avril–septembre sur la présentation du camping, avril–octobre dans l'annuaire de contacts. Les deux indications sont présentées, sans affirmer une ouverture le 20 octobre.
+- Aire de pique-nique à **92 m environ** entre les coordonnées GPS de la base régionale : point conservé séparément avec `overnightStatus=not_established`. La proximité n'autorise pas à attribuer à ce parking les possibilités de nuitée du camping.
+- L'interface affiche une solution de camping voisin sur la fiche pique-nique avec un lien vers la mairie. Prix de nuitée 2026 toujours à confirmer (ancienne indication touristique 9 € non réutilisée comme grille certifiée).
+- Audit automatique ajouté. Compteurs attendus conservés : 165 sans filtre, 150 avec filtre nocturne, 11 tarifs strictement non confirmés.
+
+Sources :
+- https://www.mairie-guemene-penfao.fr/camping-municipal/
+- https://www.mairie-guemene-penfao.fr/contacts/camping-municipal/
+- https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/
+- https://tourisme-pays-redon.com/hebergement/aire-camping-car-camping-de-besle/
