@@ -125,3 +125,13 @@ Le camping Le Briord est déjà présent et a seulement bénéficié d'un enrich
 | Camping La Roseraie, La Baule (`CCF44-LA-BAULE-ROSERAIE-2026`) | `camping@laroseraie.com` · [exploitant](https://www.laroseraie.com/emplacement-de-camping-a-la-baule/) | Vérifier prix camping-car complet et conditions 2026, éventuel tarif d'appel 28 € cité par guide tiers, frais de réservation, date du début de saison | Non envoyé |
 
 **Lot 51 : 27 tarifs strictement non confirmés dans l'ensemble des fiches visibles du 44.** Trois nouvelles fiches, dont L'Eden avec prix 2026 vérifié. Aucun courrier envoyé.
+
+## Demandes complémentaires — lot 52 (20 octobre 2026)
+
+| Lieu | Contact public et source | Questions à poser | État |
+|---|---|---|---|
+| Les Forges, Pornichet (`CCF44-PORNICHET-CAMPING-LES-FORGES-2026`) | `camping@campinglesforges.com` · [exploitant](https://campinglesforges.com/81-tarifs.html) | Forfait camping-car deux adultes 2026, électricité/taxes et coût de la vidange ou eau sans séjour ; entrée GPS exacte compte tenu de la différence entre exploitant et e-SPRIT | Non envoyé |
+| La Pierre Longue, Le Croisic (`CCF44-CROISIC-PIERRE-LONGUE-2026`) | `lapierrelongue@orange.fr` · [exploitant](https://www.campinglapierrelongue.com/contact.htm) | Forfait 2026 emplacement camping-car deux adultes, électricité et taxes, horaires et conditions de vidange sans séjour, entrée GPS exacte (écart ~460 m des annuaires) | Non envoyé |
+| L'Océan, Le Croisic (`CCF44-CROISIC-CAMPING-OCEAN-2026`) | `info@camping-ocean.com` · [répertoire institutionnel](https://rando.loire-atlantique.fr/service/182074-Camping---L-Ocean) | Barème 2026 Confort/Grand Confort pour deux adultes et un camping-car, taxes, jour d'arrivée et possibilité de vidange sans séjour, confirmez l'adresse email de la centrale de réservation | Non envoyé |
+
+**Après lot 52 : 30 prix strictement non confirmés sur les fiches visibles, tous avec coordonnées de contact publiques sourcées.** Aucun envoi effectué.

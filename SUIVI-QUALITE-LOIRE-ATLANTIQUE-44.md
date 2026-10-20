@@ -1025,3 +1025,32 @@ Sources :
 - https://www.cirkwi.com/fr/point-interet/453059-camping-la-roseraie
 - https://bcbaulois.fr/la-baule-2026-solutions-dhebergements
 - https://www.lesollivaud.com/hebergements/
+
+## Lot complémentaire 52 — 20 octobre 2026
+
+**Trois campings supplémentaires accueillant explicitement les camping-cars** ont été recoupés avec les exploitants ou offices de tourisme. Aucun de ces lieux n'est une aire de services publique libre de nuitée. Pour chacun, forfait de nuitée camping-car 2026 pour deux personnes **strictement `Non confirmé`** faute de grille fiable de l'année, sans substituer des prix d'options, tarifs anciens, ou tarifs dynamiques non accessibles.
+
+- **Les Forges, Pornichet** — `CCF44-PORNICHET-CAMPING-LES-FORGES-2026`, 98 route de la Villès-Blais. **20 emplacements camping-car** sur 150 emplacements tous types selon la Région. Pornichet Tourisme confirme emplacements nus, camping-cars autorisés, borne de service, eau, vidanges eaux grises et noires ; **saison d'hébergement 04/04–20/09/2026**, terminée. GPS exploitant en degrés/minutes décimales `47.2699667,-2.2929667` cohérent avec PiNCAMP `47.269878,-2.29284`, mais repère e-SPRIT `47.26719,-2.29614` à ~390 m, divergence documentée. Contact `camping@campinglesforges.com`, 02 40 61 18 84.
+- **La Pierre Longue, Le Croisic** — `CCF44-CROISIC-PIERRE-LONGUE-2026`, 27 rue Henri Dunant. L'exploitant propose **158 emplacements de camping traditionnel** pour tentes, caravanes et camping-cars, 80–150 m², électricité 10A ; aire de vidange eaux grises et eau propre à l'entrée, WC chimiques dans le bloc sanitaire. **Saison officielle 03/04–01/11/2026**, théoriquement en cours le 20 octobre sous réserve de disponibilité. GPS PiNCAMP `47.29244,-2.52923` ; e-SPRIT `47.29223,-2.52309` à ~460 m ; repère utilisé et désaccord signalés sans présumer de l'accès exact. Contact `lapierrelongue@orange.fr`, 02 40 23 13 44.
+- **L'Océan, Le Croisic** — `CCF44-CROISIC-CAMPING-OCEAN-2026`, 15 route de la Maison Rouge. L'exploitant accueille les camping-cars sur emplacements **Confort** (électricité 10A) et **Grand Confort** (en plus branchement eau et évacuation eaux usées). Maximum **8,50 m**, doubles essieux exclus, **7 nuits minimum en juillet-août** avec jours d'arrivée déterminés. **Saison 11/04–20/09/2026** selon opérateur/FAQ, contre fin 21/09 mentionnée sans année claire par office. L'opérateur indique 374 emplacements au total, l'office 383, e-SPRIT 400 : chiffres contradictoires, aucun compte de places camping-car exclusives supposé. GPS e-SPRIT `47.29602,-2.53573`. La page Tarifs 2026 utilise un moteur dynamique sans barème exploitable ; **Pack Exclusif 15 €/jour est un supplément**, pas un prix de nuitée. Email `info@camping-ocean.com` publié dans e-SPRIT, téléphone central de réservation **02 99 90 35 09** publié par l'exploitant.
+
+**Dé-doublonnage :** Les Forges ne correspond à aucun parking de Pornichet déjà enregistré ; La Pierre Longue et L'Océan sont deux campings différents, à ~700 m l'un de l'autre et distincts des trois aires municipales du Croisic. Leurs emplacements ne sont pas additionnés aux places des aires publiques.
+
+**Compteurs attendus après lot 52 : 213 fiches sans filtre, 185 avec filtre nocturne (28 masquées), 30 prix exactement `Non confirmé` sur les fiches visibles.** Documents de tarifs complémentaires à obtenir par contact ; aucun courriel envoyé.
+
+Sources :
+- https://www.pornichet.fr/hotellerie-de-plein-air/camping-les-forges
+- https://www.enpaysdelaloire.com/hebergements/campings/les-forges
+- https://campinglesforges.com/22-access.html
+- https://campinglesforges.com/81-tarifs.html
+- https://www.cirkwi.com/fr/point-interet/453015-les-forges
+- https://www.campinglapierrelongue.com/
+- https://www.campinglapierrelongue.com/emplacements.htm
+- https://www.campinglapierrelongue.com/contact.htm
+- https://www.pincamp.fr/campings/camping-la-pierre-longue
+- https://www.cirkwi.com/fr/point-interet/453261-camping-la-pierre-longue
+- https://www.camping-ocean.com/emplacement-camping-croisic.html
+- https://www.camping-ocean.com/tarifs-ocean
+- https://www.camping-ocean.com/foire-aux-questions.html
+- https://rando.loire-atlantique.fr/service/182074-Camping---L-Ocean
+- https://www.cirkwi.com/fr/point-interet/453192-camping-l-ocean
