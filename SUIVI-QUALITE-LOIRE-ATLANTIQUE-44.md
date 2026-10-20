@@ -999,3 +999,29 @@ Sources :
 - https://www.aloa-vacances.com/la-riviera/espace-aquatique-loire-atlantique/
 - https://www.aloa-vacances.com/la-riviera/mentions-legales/
 - https://www.pornic.com/camping-la-riviera.html
+
+## Lot complémentaire 51 — 20 octobre 2026
+
+Trois **campings distincts** supplémentaires avec accueils camping-car vérifiés, sans confusion avec aires publiques ni établissements homonymes.
+
+- **Flower Camping Les Paludiers, Batz-sur-Mer** — `CCF44-BATZ-PALUDIERS-2026`, Rue Appert, GPS OT Batz `47.27806,-2.49003`. **53 emplacements pour camping-cars** recensés par Pays de la Loire Tourisme sur **286 emplacements toutes catégories**. Vidange sur place pour résidents confirmée par exploitant (accès non-résidents non prouvé). Ouvert **03/04–01/11/2026**. Prix institutionnel d'emplacement **2 pers. + 1 voiture + électricité 19–37 €** pour 2026, mais applicability exacte au camping-car, taxes et frais **non vérifiés** : `price=Non confirmé`, montant conservé comme indication séparée. `paludiers@flowercampings.com`, 02 40 60 17 28.
+- **Camping L'Eden, La Baule-Escoublac** — `CCF44-LA-BAULE-EDEN-2026`, 13–15 route de Ker Rivaud, **GPS 47.3030018,-2.3736533 de la FAQ officielle 2026**. 40 emplacements nus mixtes, camping-car explicitement admis, vidange eaux grises et eau potable dans le camping (service pour voyageurs non-résidents non assuré). **Grille exploitant 2026 confirmée pour un emplacement + 2 pers. + véhicule : 20/30/34/38 €** selon saisons ; électricité 10 A **+4,50/4,80/5,30/5,80 €**, taxe **0,66 €/adulte/nuit** en sus, frais de réservation **25 €**. Ouvert **03/04–30/09/2026**, saison terminée. `info@campingeden.com`, 02 40 60 03 23.
+- **Camping Airotel La Roseraie, La Baule-Escoublac** — `CCF44-LA-BAULE-ROSERAIE-2026`, 20 avenue Jean Sohier, **GPS e-SPRIT 47.29836,-2.35764**. Exploitant : plus de 100 emplacements mixtes acceptant explicitement les camping-cars, aire de vidange cassette/eaux usées et eau intérieure, électricité 10A. **Prix de nuitée camping-car officiel 2026 = Non confirmé** ; guide événementiel 2026 mentionne *à partir de 28 €* sans barème exhaustif. Séjour **7 nuits minimum en juillet-août**, frais de dossier **30 €** pour ces mois selon exploitant. Dates **03/04–20/09 (e-SPRIT) / 04/04–20/09/2026 (exploitant)**, divergent d'un jour à l'ouverture. Ne pas confondre avec camping La Roseraie à Descartes (37). `camping@laroseraie.com`, 02 40 60 46 66.
+
+**Candidat volontairement exclu :** Les Ollivaud (La Baule) ; annuaire régional indique 100 places camping-car, mais l'exploitant précise expressément sur sa page Hébergements ne plus accueillir ni tentes ni camping-cars par manque de place. Ne pas publier tant qu'il n'a pas confirmé un changement de situation.
+
+**Compteurs attendus après lot 51 : 210 fiches sans filtre, 182 avec filtre nocturne (28 masquées), 27 prix strictement `Non confirmé`.** Trois nouveaux campings, mais un seul avec barème 2026 directement applicable publié ; le nombre des prix non confirmés augmente seulement de deux. Courriels répertoriés, non envoyés.
+
+Sources :
+- https://www.camping-paludiers.com/location-emplacement-batz-sur-mer/
+- https://www.camping-paludiers.com/contact-acces/
+- https://www.ot-batzsurmer.fr/camping-flower-camping-les-paludiers.html
+- https://www.enpaysdelaloire.com/hebergements/campings/camping-flower-camping-les-paludiers
+- https://www.campingeden.com/emplacements/
+- https://www.campingeden.com/formulaire-de-contact/
+- https://www.campingeden.com/wp-content/uploads/2026/03/FAQ-2026-.pdf
+- https://www.laroseraie.com/emplacement-de-camping-a-la-baule/
+- https://www.laroseraie.com/
+- https://www.cirkwi.com/fr/point-interet/453059-camping-la-roseraie
+- https://bcbaulois.fr/la-baule-2026-solutions-dhebergements
+- https://www.lesollivaud.com/hebergements/

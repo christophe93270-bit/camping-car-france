@@ -115,3 +115,13 @@ Le camping Le Briord est déjà présent et a seulement bénéficié d'un enrich
 | La Riviera, Saint-Michel-Chef-Chef (`CCF44-ST-MICHEL-RIVIERA-2026`) | `info.riviera@aloa-vacances.com` · [exploitant](https://www.aloa-vacances.com/la-riviera/mentions-legales/) | Forfait camping-car 2 personnes 2026, électricité, taxe, capacité de vrais emplacements nus et services de vidange | Non envoyé |
 
 **Après lot 50 : 25 tarifs strictement non confirmés, 25 contacts par courriel sourcés. Aucun courriel envoyé, aucune réponse obtenue.**
+
+## Suivi des nouvelles fiches — lot 51 (20 octobre 2026)
+
+| Site | Courriel public sourcé | Demande complémentaire à préparer | État |
+|---|---|---|---|
+| Flower Camping Les Paludiers, Batz-sur-Mer (`CCF44-BATZ-PALUDIERS-2026`) | `paludiers@flowercampings.com` · [contact exploitant](https://www.camping-paludiers.com/contact-acces/) | Confirmer l'application du tarif 2026 standard 19–37 € aux camping-cars (2 pers., électricité et taxes), et vidange accessible aux non-résidents | Non envoyé |
+| Camping L'Eden, La Baule (`CCF44-LA-BAULE-EDEN-2026`) | `info@campingeden.com` · [contact exploitant](https://www.campingeden.com/formulaire-de-contact/) | Tarif emplacement 2026 publié : 20/30/34/38 € validé ; demander uniquement accès vidange non-résidents et coût si nécessaire | Non envoyé |
+| Camping La Roseraie, La Baule (`CCF44-LA-BAULE-ROSERAIE-2026`) | `camping@laroseraie.com` · [exploitant](https://www.laroseraie.com/emplacement-de-camping-a-la-baule/) | Vérifier prix camping-car complet et conditions 2026, éventuel tarif d'appel 28 € cité par guide tiers, frais de réservation, date du début de saison | Non envoyé |
+
+**Lot 51 : 27 tarifs strictement non confirmés dans l'ensemble des fiches visibles du 44.** Trois nouvelles fiches, dont L'Eden avec prix 2026 vérifié. Aucun courrier envoyé.
