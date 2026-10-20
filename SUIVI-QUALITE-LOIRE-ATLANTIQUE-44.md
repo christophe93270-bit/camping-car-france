@@ -911,3 +911,26 @@ Sources :
 - https://www.labaule-guerande.com/offres/camping-du-petit-bois-mesquer-fr-6011340/
 - https://www.cirkwi.com/fr/point-interet/1624761-camping-du-petit-bois
 - https://www.gcu.asso.fr/campings/camping-mesquer/
+
+## Lot complémentaire 47 — 20 octobre 2026
+
+**Trois campings accueillant explicitement les camping-cars, identifiés, géolocalisés et contrôlés dans le département 44 ; deux tarifs restent strictement `Non confirmé`, un tarif est un prix d'appel officiel non garanti.**
+
+- **Camping La Falaise, La Turballe** (`CCF44-TURBALLE-CAMPING-LA-FALAISE-2026`), 1 bd de Belmont, GPS e-SPRIT `47.35313,-2.51772` (septembre 2026). Camping 4 étoiles : le site exploitant accepte explicitement les camping-cars sur les emplacements nus (catégorie avec eau et électricité 10 A, option vue mer ou sanitaires privés). 65 emplacements nus pour tous types de campeurs selon l'office, 150 classés tout type de séjour. Saison **01/04–24/10/2026** : ouverte théoriquement le 20 octobre, sous réserve de place. **Nuitée 2026 pour deux personnes : `Non confirmé`**. Avertissement : ne pas utiliser les tarifs 2026 du camping municipal *La Falaise* situé dans le Morbihan, qui est un autre lieu. Camping distinct du CAMPING-CAR PARK Clos Mora (~965 m), ainsi que de l'aire de la Grande Falaise. Contact `info@camping-de-la-falaise.com`, 02 40 23 32 53.
+- **Camping Le Beaupré, Mesquer** (`CCF44-MESQUER-CAMPING-BEAUPRE-2026`), 141 route de Kervarin / Kercabellec, GPS e-SPRIT `47.40931,-2.4626` (août 2026). Le site officiel 2026 affirme l'accueil de camping-cars sur ses emplacements, dont 25 emplacements nus pour tous campeurs sur un terrain de 43 emplacements classés d'après La Baule-Guérande. Saison **01/04–30/09/2026**, terminée. Grille camping-car de l'exploitant non lisible de manière fiable dans les pages publiques consultées : **`Non confirmé`**. Distinct du parking Bôle de Merquel (~706 m) et de GCU Sorloc'h (~918 m). `info@lebeaupre.com`, 02 40 42 64 16.
+- **Camping Au Soir d'Été, Quimiac-Mesquer** (`CCF44-MESQUER-CAMPING-AU-SOIR-ETE-2026`), 401 route de Bel-Air, GPS e-SPRIT `47.4066,-2.47591`. Le site exploitant publie **« emplacement camping-car avec électricité, 1–2 pers., à partir de 21 €/nuit »**, sur sa page présentant la saison 2026 : **prix d'appel**, pas un forfait garanti avec toutes les taxes pour toutes les dates. Camping 4 étoiles proposant une catégorie dédiée de 35 m² avec électricité 6 A ; 92 emplacements de tout type recensés sur plateforme, capacité exclusivement camping-car à confirmer. Campings.com affiche une offre **126 € pour 7 nuits du 16 au 23/09/2026**, prix ponctuel tiers conservé séparément et non transformé en un prix journalier permanent. **Saisons contradictoires : exploitant 03/04–27/09/2026, plateformes 04/04–29/09/2026** ; retenir la référence de l'exploitant. Distinct de Tréambert et du Praderoi (~1 km). `info@camping-soirdete.com`, 02 40 42 57 26.
+- Les trois hébergements sont privés ; leur affichage dans le filtre nuitée n'atteste ni ouverture aujourd'hui, ni disponibilité ni accès à une vidange sans nuitée. Les GPS sont distincts de tous les sites précédemment publiés et des campings voisins.
+- **Compteurs attendus : 199 sans filtre, 171 avec filtre de prudence nocturne (28 masquées), 18 tarifs strictement `Non confirmé` (16 précédents + La Falaise + Le Beaupré).** Trois assertions de qualité supplémentaires, documentation des prix d'appel et actualisation du cache de chargement.
+
+Sources :
+- https://www.labaule-guerande.com/offres/camping-la-falaise-la-turballe-fr-6011363/
+- https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/
+- https://www.cirkwi.com/fr/point-interet/453040-camping-la-falaise
+- https://www.camping-de-la-falaise.com/contact-acces-la-turballe/
+- https://www.lebeaupre.com/fr/
+- https://www.labaule-guerande.com/offres/camping-le-beaupre-mesquer-fr-6011366/
+- https://www.cirkwi.com/fr/point-interet/453064-camping-le-beaupre
+- https://www.camping-soirdete.com/
+- https://www.camping-soirdete.com/emplacement-camping-loire-atlantique/
+- https://www.cirkwi.com/fr/point-interet/453289-camping-au-soir-d-ete
+- https://www.campings.com/fr/camping/camping-au-soir-dete-84109

@@ -1,4 +1,4 @@
-# Loire-Atlantique (44) — suivi de confirmation des 16 tarifs
+# Loire-Atlantique (44) — suivi de confirmation des 18 tarifs
 
 Contrôle documentaire du **20 octobre 2026**. Ce suivi est un dossier interne au projet Camping-Car France.
 
@@ -74,3 +74,14 @@ Les quatorze demandes précédentes demeurent ouvertes et non envoyées. Deux no
 | Camping du Petit Bois — Mesquer (`CCF44-MESQUER-PETIT-BOIS-2026`) | `info@campingdupetitbois.com` ([source](https://www.cirkwi.com/fr/point-interet/1624761-camping-du-petit-bois)) | [Préparer un courriel](mailto:info@campingdupetitbois.com?subject=Camping-Car%20France%20%E2%80%94%20V%C3%A9rification%20du%20tarif%202026%20%E2%80%94%20Camping%20du%20Petit%20Bois%20%E2%80%94%20Mesquer&body=Bonjour%2C%0A%0ANous%20mettons%20%C3%A0%20jour%20les%20fiches%20de%20Loire-Atlantique%20du%20guide%20Camping-Car%20France.%20Quel%20%C3%A9tait%20le%20tarif%202026%20d'un%20emplacement%20camping-car%20pour%20deux%20adultes%20avec%20%C3%A9lectricit%C3%A9%2C%20taxes%20et%20suppl%C3%A9ments%20%3F%20La%20vidange%20est-elle%20possible%20pour%20un%20camping-car%20ext%C3%A9rieur%20au%20camping%20et%20%C3%A0%20quel%20co%C3%BBt%20%3F%0A%0ANous%20ne%20publions%20pas%20de%20montant%20non%20v%C3%A9rifi%C3%A9.%20Merci%20de%20votre%20aide.%0A%0ACamping-Car%20France.) | **Non envoyé** |
 
 **Au terme du lot 46 : 16 dossiers dont le champ prix vaut exactement « Non confirmé » ; 16 contacts sourcés. Aucun courriel ni appel transmis, aucune réponse reçue.**
+
+## Lot 47 — deux nouveaux tarifs strictement non confirmés (courriels non envoyés)
+
+Les 16 demandes précédentes demeurent ouvertes ; aucun gestionnaire n'a été contacté ni répondu. Deux fiches supplémentaires ont un prix égal exactement à `Non confirmé`. Au Soir d'Été publie seulement un prix **à partir de 21 €**, qui ne garantit aucun devis précis : son contrôle complet pourra être demandé ultérieurement si nécessaire.
+
+| Fiche | Contact public sourcé | Demande préremplie | État |
+|---|---|---|---|
+| Camping La Falaise — La Turballe (`CCF44-TURBALLE-CAMPING-LA-FALAISE-2026`) | `info@camping-de-la-falaise.com` · [source](https://www.camping-de-la-falaise.com/contact-acces-la-turballe/) | [Préparer le courriel](mailto:info@camping-de-la-falaise.com?subject=Camping-Car%20France%20%E2%80%93%20confirmation%20tarif%20camping-car%202026%20%E2%80%93%20Camping%20La%20Falaise%20%E2%80%94%20La%20Turballe&body=Bonjour%2C%0A%0APour%20mettre%20%C3%A0%20jour%20le%20r%C3%A9pertoire%20Camping-Car%20France%20en%20Loire-Atlantique%2C%20Merci%20de%20nous%20indiquer%20le%20tarif%202026%20de%20la%20nuit%C3%A9e%20camping-car%20sur%20emplacement%20nu%20avec%20deux%20adultes%2C%20%C3%A9lectricit%C3%A9%2010%20A%20et%20eau%2C%20ainsi%20que%20la%20taxe%20de%20s%C3%A9jour%2C%20les%20suppl%C3%A9ments%20et%20les%20tarifs%20hors%20saison.%20Le%20co%C3%BBt%20d'une%20vidange%20seule%20pour%20les%20camping-cars%20de%20passage%20est-il%20publi%C3%A9%20%3F%0A%0AMerci%20de%20votre%20aide.%0ACamping-Car%20France) | **Non envoyé** |
+| Camping Le Beaupré — Mesquer (`CCF44-MESQUER-CAMPING-BEAUPRE-2026`) | `info@lebeaupre.com` · [source](https://www.cirkwi.com/fr/point-interet/453064-camping-le-beaupre) | [Préparer le courriel](mailto:info@lebeaupre.com?subject=Camping-Car%20France%20%E2%80%93%20confirmation%20tarif%20camping-car%202026%20%E2%80%93%20Camping%20Le%20Beaupr%C3%A9%20%E2%80%94%20Mesquer&body=Bonjour%2C%0A%0APour%20mettre%20%C3%A0%20jour%20le%20r%C3%A9pertoire%20Camping-Car%20France%20en%20Loire-Atlantique%2C%20Merci%20de%20nous%20confirmer%20le%20tarif%202026%20d'un%20emplacement%20camping-car%20pour%20deux%20adultes%20avec%20%C3%A9lectricit%C3%A9%2C%20taxes%2C%20options%20et%20conditions%20d'acc%C3%A8s%20%C3%A9ventuelles%20%C3%A0%20la%20vidange%20sans%20nuit%C3%A9e.%20Le%20site%20mentionne%2025%20emplacements%20nus%20%3A%20cette%20capacit%C3%A9%20est-elle%20encore%20%C3%A0%20jour%20%3F%0A%0AMerci%20de%20votre%20aide.%0ACamping-Car%20France) | **Non envoyé** |
+
+**Bilan au lot 47 : 18 tarifs exactement « Non confirmé », 18 contacts publics sourcés, aucun envoi effectué ni réponse reçue.**
