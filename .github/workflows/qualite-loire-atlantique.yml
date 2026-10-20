@@ -67,6 +67,9 @@ jobs:
           visible_osm_unknown=sum(x.get("price")=="Non confirmé" for x in visible_osm)
           overnight_pending=sum(x.get("overnightStatus")=="not_established" and "pique-nique" in str(x.get("type","")).lower() for x in visible_regional)
           total_visible=len(visible_regional)+len(visible_osm)
+          unresolved_with_contact=[x for x in visible_regional if x.get("price")=="Non confirmé" and x.get("contactPhone")]
+          phones_invalid=[x.get("sourceId") for x in visible_regional if x.get("contactPhone") and not re.fullmatch(r"[+0-9 ().-]{10,25}",str(x.get("contactPhone")))]
+          assert not phones_invalid, "Contacts téléphoniques invalides : "+str(phones_invalid)
           extra_potential_duplicates=[x for x in visible_osm if x.get("potentialDuplicateOfSourceId")]
           overnight_other_regional=sum(x.get("overnightStatus")=="not_established" and "pique-nique" not in str(x.get("type","")).lower() for x in visible_regional)
           overnight_extra=sum(x.get("overnightStatus")=="not_established" for x in visible_osm)
@@ -105,6 +108,7 @@ jobs:
               f"- Compléments OSM bruts dont le prix est absent, partiel ou contient 'confirm' : **{unknown_price}** (ne couvre pas les fiches régionales)",
               f"- Fiches régionales brutes dont le prix vaut exactement 'Non confirmé' : **{regional_unknown}**",
               f"- Fiches régionales visibles au prix exactement 'Non confirmé' : **{visible_regional_unknown}**",
+              f"- Parmi celles-ci, contacts téléphoniques directs vérifiés en ligne : **{len(unresolved_with_contact)}**",
               f"- Fiches complémentaires brutes au prix exactement 'Non confirmé' : **{osm_unknown}**",
               f"- Fiches complémentaires visibles au prix exactement 'Non confirmé' : **{visible_osm_unknown}**",
               f"- **Total des tarifs strictement non confirmés parmi les fiches visibles : {visible_regional_unknown+visible_osm_unknown}**",

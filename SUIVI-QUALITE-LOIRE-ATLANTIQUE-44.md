@@ -334,3 +334,25 @@ https://www.stellplatzfuehrer.de/fr/parcs-de-vr/listes/all/17565-corcoue-sur-log
 - **Bilan attendu** : 158 régionales brutes, 156 affichables ; 35 compléments bruts, 9 affichables, soit **165 fiches attendues**. 19 prix régionaux strictement « Non confirmé » dont deux masqués, trois prix complémentaires strictement « Non confirmé » ; donc **20 fiches visibles à tarif entièrement non confirmé**. Les sept pique-niques et les haltes douteuses restent signalés.
 
 Sources : https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/ ; https://www.pays-ancenis.com/fileadmin/user_upload/PA_185x220_AnnuairePros_2024.pdf ; https://www.camping-car.com/aires/34622-aire-de-stationnement/ ; https://park4night.com/fr/place/14223
+
+## Lot complémentaire 16 — 20 octobre 2026
+
+**Six fiches régionales de campings/centres sans barème public certifié 2026 dotées d'un contact vérifiable** :
+Capfun L'Ève (Saint-Nazaire), Les Chênes Verts (Villeneuve-en-Retz), Eden Villages La Pointe (Préfailles), Yelloh! Le Ranch (La Plaine-sur-Mer), Clos Mer et Nature (Saint-Michel-Chef-Chef), et centre ANAS (Les Moutiers-en-Retz).
+Les champs `contactPhone`, `contactSource`, `priceVerification=confirmation_exploitant_requise`, `priceCheckedAt=2026-10-20` permettent une reprise ciblée sans recherche répétée. Les numéros sont affichés en liens cliquables dans le répertoire. Ils sont publiés sur les sites opérateurs ou office de tourisme ; aucun appel ni devis n'a été réalisé.
+
+- **ANAS** : vérification croisée des avis datés été 2026 sur Park4Night : observations autour de 21 € par tranche de 24 h sur borne d'accès, mais d'autres témoignages affichent 42 € ou 42,88 € sur des séjours. Le gestionnaire confirme 35 places spécifiques camping-car et 40 places camping-caravaning. La formule des hébergements ANAS et ses contraintes d'adhésion ne doivent pas être assimilées automatiquement à l'aire autonome. Tarif officiel 2026 non confirmé, `price` conservé.
+- **Les Chênes Verts** : le gestionnaire indique une **tarification dynamique**, qui interdit de déduire un prix général d'une annonce ancienne ou d'un exemple de réservation. Le prix 2026 reste non confirmé malgré les chiffres indicatifs tiers.
+- **Autres établissements** : confirmation de l'existence des fiches et de leurs coordonnées officielles sans prétendre à un tarif 2026 nouveau pour Capfun L'Ève, Eden La Pointe, Yelloh Le Ranch ni Clos Mer et Nature.
+- **Audit et mise en cache** : décompte des fiches sans prix et munies d'un contact direct ; validation de la syntaxe téléphonique ; nouveau paramètre de version pour les données et le script.
+- **Effectifs** : 158 fiches régionales brutes (156 affichables), 35 compléments bruts (9 affichables), soit **165 entrées attendues**. Les prix strictement « Non confirmé » restent à 19 régionaux bruts dont 2 masqués et 3 compléments visibles : **20 fiches visibles**. Les informations communautaires ne sont pas certifiées comme officielles.
+
+Sources :
+- https://www.capfun.com/camping---l_eve-FR.html
+- https://www.leschenesverts.info/contact-acces-camping-villeneuve-en-retz/
+- https://www.leschenesverts.info/camping-pas-cher-villeneuve-en-retz/
+- https://www.pornic.com/camping-eden-villages-la-pointe-saint-gildas.html
+- https://www.camping-le-ranch.com/fr
+- https://www.camping-clos-mer-nature.fr/contact-camping-loire-atlantique/
+- https://www.anas.asso.fr/moutiers-en-retz
+- https://park4night.com/fr/place/317535
