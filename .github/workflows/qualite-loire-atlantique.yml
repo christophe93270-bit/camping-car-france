@@ -169,7 +169,7 @@ jobs:
           assert all(x.get("priceYear")==2026 and x.get("priceEvidenceDocument","").endswith("2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf") and "18,95 €" in x.get("price","") and "20,70 €" in x.get("price","") and "27,30 €" in x.get("price","") and x.get("contactEmailSource","").startswith("https://") for x in municipal_sites), "44 : tarif 2026 ou contact municipal manquant"
           aire_pouliguen=next(x for x in visible_regional if x.get("sourceId")=="ACCAMECCLEPOULIGUEN")
           assert "4,40 €" in aire_pouliguen.get("price","") and "4,20 €" not in aire_pouliguen.get("price","") and aire_pouliguen.get("priceSource")==municipal_sites[0]["priceSource"], "44 : tarif 2026 borne du Pouliguen non rectifié"
-          assert len(regional)==162 and len(visible_regional)==160 and total_visible==169, "44 : total attendu 169 après deux campings supplémentaires à Préfailles"
+          assert len(regional)==165 and len(visible_regional)==163 and total_visible==172, "44 : total attendu 172 avec trois campings vérifiés au lot 39"
           pree=next(x for x in visible_regional if x.get("sourceId")=="HPAPDL044V507V64")
           eleo=next(x for x in visible_regional if x.get("sourceId")=="HPAPDL044000113")
           assert pree.get("priceYear")==2026 and pree.get("capacityBarePitchesPublished")==22 and pree.get("minimumNights2026")==2 and all(v in pree.get("price","") for v in ("16 €","20 €","25 €","32 €","4,90 €")) and pree.get("priceSource")=="https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements", "La Prée : prix millésimés et capacité manquants"
@@ -177,9 +177,17 @@ jobs:
           assert all(x.get("contactEmail") and x.get("contactEmailSource") and not x.get("overnightStatus") for x in (pree,eleo)), "Préfailles : contacts ou statut de nuitée manquants"
           biochon=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMEEPRAIRCAMPCARBIOCHON")
           assert "contradictoires" in biochon.get("operationalWarning","") and biochon.get("operationalWarningSource","").startswith("https://www.campingcarpark.com/") and "temporairement fermée" in biochon.get("operationalWarning",""), "Biochon : avertissement contradictoire non tracé"
+
+          lot39_ids={"CCF44-PORNIC-BOUTINARDIERE-2026","CCF44-MOUTIERS-DOMAINE-DU-COLLET-2026","CCF44-THARON-VIEUX-CHATEAU-2026"}
+          lot39=[x for x in visible_regional if x.get("sourceId") in lot39_ids]
+          assert len(lot39)==3, "44 lot 39 : trois campings manquants introuvables"
+          assert all(x.get("priceYear")==2026 and x.get("priceCheckedAt")=="2026-10-20" and x.get("priceEvidenceDocument","").startswith("https://") and x.get("contactPhone") and x.get("contactSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot39), "44 lot 39 : tarifs, GPS, contact ou nuitée campings non documentés"
+          assert "15,50 €" in lot39[0].get("price","") and "10 emplacements" in " ".join(lot39[0].get("services",[])), "La Boutinardière : étape ou capacité non répertoriée"
+          assert "25 €" in lot39[1].get("price","") and "28 à 40 €" in lot39[1].get("price",""), "Domaine du Collet : divergence tarifaire 2026 non tracée"
+          assert "20 à 36 €" in lot39[2].get("price","") and "Gironde" in lot39[2].get("status",""), "Vieux Château : tarif propre au site de Tharon ou prudence homonyme manquante"
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
-          assert night_flags_total==28 and night_filter_visible==141, f"44 : 22 nuitées non établies + 6 points de nuitée exclue (141 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
+          assert night_flags_total==28 and night_filter_visible==144, f"44 : 28 lieux écartés du filtre nocturne (144 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -229,7 +237,7 @@ jobs:
               f"- Fiches régionales masquées par doublon déclaré : **{len(regional)-len(visible_regional)}**",
               f"- Compléments OSM masqués par le filtre transversal : **{len(osm)-len(visible_osm)}**",
               f"- **Total de fiches visibles attendu (mêmes filtres que app.js) : {total_visible}** ({len(visible_regional)} régionales + {len(visible_osm)} complémentaires)",
-              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 169 lieux attendus après quatre ajouts distincts (lots 35 et 37)",
+              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 172 lieux attendus après sept ajouts distincts (lots 35, 37 et 39)",
               f"- Aires de pique-nique régionales avec nuitée non établie : **{overnight_pending}**",
               f"- Autres haltes régionales avec nuitée non établie : **{overnight_other_regional}**",
               f"- Compléments visibles avec nuitée non établie : **{overnight_extra}**",
@@ -241,6 +249,7 @@ jobs:
               "- Lot 36 : Les Mouettes de Saint-Père-en-Retz — établissement 2026 administrativement actif, discordance avec SIRET des anciens documents et horaires CGV non millésimés ; Saint-Molf — GPS et animaux e-SPRIT 2026 confirmés, nuitée et prix toujours à vérifier.",
               "- Lot 37 : campings La Prée (22 emplacements de camping, forfait 16 à 32 € en 2026, minimum 2 nuits) et Éléovic (27 vue mer/20 standards, 27 à 115 € en 2026) ajoutés ; accès de Biochon marqué contradictoire.",
               "- Lot 38 : 6 points techniques/parkings commerciaux traités : Pornic CAMPING-CAR PARK service uniquement sans séjour, cinq autres nuitées non établies ; 141 lieux visibles après filtre.",
+              "- Lot 39 : trois campings manquants ajoutés avec fiches 2026 vérifiées (La Boutinardière, Domaine du Collet, Vieux Château Tharon), 172 lieux au total et 144 avec filtre. Aucun des 11 tarifs précédemment non confirmés n’est déclaré confirmé.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",

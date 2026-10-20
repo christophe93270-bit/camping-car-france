@@ -750,3 +750,23 @@ Sources :
 - https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE
 - https://www.grandlieu-tourisme.fr/ou-manger-ou-dormir/aires-de-camping-car
 - https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz
+
+## Lot complémentaire 39 — 20 octobre 2026
+
+**Trois campings acceptant les camping-cars ont été identifiés absents de la base du 44 puis ajoutés après comparaison des noms, adresses et distances GPS. Aucun des onze tarifs non confirmés précédents n'a été remplacé artificiellement.**
+
+- **Camping La Boutinardière (Pornic)** — `CCF44-PORNIC-BOUTINARDIERE-2026` : 23 rue de la Plage de la Boutinardière, GPS `47.09791,-2.05177`. Source Destination Pornic : 10 emplacements camping-car, étape spécifique 15,50 €/nuit en 2026, emplacement classique 25,50 à 61 € et taxe de séjour de 0,66 €/adulte/nuit ; saison 03/04–28/09. Les forfaits ne doivent pas être mélangés ; séjour actuellement hors saison.
+- **Camping Domaine du Collet (Les Moutiers-en-Retz)** — `CCF44-MOUTIERS-DOMAINE-DU-COLLET-2026` : Route Verte, GPS exploitant `47.035149,-1.983359` ; accueil camping-car confirmé sur emplacements de camping, saison 01/04–31/10. Le site de l'exploitant annonce 25 €/nuit en basse saison et 40 € en haute saison sur la formule de base à deux personnes, tandis que la fiche régionale indique 28–40 €. Cette différence est signalée dans la fiche. 81 parcelles de camping traditionnel sur le site et 15 emplacements camping-car dans l'annuaire régional : chiffres non cumulables comme places dédiées.
+- **Camping du Vieux Château (Tharon-Plage, Saint-Michel-Chef-Chef)** — `CCF44-THARON-VIEUX-CHATEAU-2026` : 54 avenue d'Anjou, GPS `47.15979,-2.16289` ; Destination Pornic annonce 20–36 €/nuit pour deux personnes et un véhicule en 2026, du 03/04 au 04/10, taxe 0,66 €/adulte/nuit. Proche mais distinct du camping Le Soleya (~400 m). **Attention aux campings homonymes en Gironde : les grilles publiées sur `vieuxchateau.fr` ne concernent pas le 44.**
+- Leurs coordonnées, périodes d'ouverture, téléphones, preuves de tarif et sources sont enregistrés dans chaque fiche. Les trois campings sont des lieux de séjour privés (ils ne sont pas assimilés à des parkings gratuits ni à des bornes publiques).
+- Audit départemental étendu : contrôle des trois identifiants, millésimes 2026, contacts, sources et nouvelle volumétrie.
+- **Compteurs attendus : 172 fiches générales, 144 avec filtre de prudence nocturne (28 masquées), 11 tarifs strictement `Non confirmé`.**
+
+Sources :
+- https://www.pornic.com/camping-la-boutinardiere.html
+- https://www.domaine-du-collet.com/
+- https://www.domaine-du-collet.com/camping-loire-atlantique-moutiers-en-retz
+- https://www.domaine-du-collet.com/camping-bord-de-mer-pornic/
+- https://www.enpaysdelaloire.com/hebergements/campings/camping-le-domaine-du-collet
+- https://www.pornic.com/camping-du-vieux-chateau.html
+- https://www.enpaysdelaloire.com/hebergements/campings/camping-du-vieux-chateau
