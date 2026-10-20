@@ -79,7 +79,7 @@ jobs:
           expected_email_ids={"ACCAMPDL044V51I23X","ACCAMACCAMPDL044V50G1TE","ACCAMPDL044V5002ZN","ACCAMACCAMPDL044000049","ACCAMPDL044V50ZDO9","ACCAMEAIREDESTMOLF","node/11786823109","way/1317028497","ACCAMPDL044V50Y077","ACCAMACCAMPDL044000155","ACCAMACCAMPDL044000154"}
           assert expected_email_ids.issubset({str(x.get("sourceId")) for x in emails}), "44 : les 11 tarifs non confirmés doivent disposer d’un courriel public sourcé"
           unresolved_all=[x for x in visible_regional+visible_osm if x.get("price")=="Non confirmé"]
-          assert len(unresolved_all)==32 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 : suivi des 32 prix strictement non confirmés ou des courriels incomplet"
+          assert len(unresolved_all)==31 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 54 : 31 prix strictement non confirmés, avec courriels sourcés obligatoires"
           ranch=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000049")
           assert ranch.get("price")=="Non confirmé" and "point de vidange camping-car" in " ".join(ranch.get("services",[])).lower() and ranch.get("drainageFacilitySource")=="https://www.yellohvillage.fr/camping/le_ranch/nos_services", "Le Ranch : service vérifié ou réserve manquante"
           contacts_incomplete=[str(x.get("sourceId")) for x in visible_regional+visible_osm if x.get("contactPhone") and (not str(x.get("contactSource","")).startswith("https://") or not x.get("contactRole") and x.get("priceCheckedAt"))]
@@ -356,6 +356,14 @@ jobs:
           assert len(bel53)==1 and bel53[0].get("seasonalDates2026")=="01/04/2026–06/11/2026" and "35 m²" in " ".join(bel53[0].get("services",[])) and bel53[0].get("contactSource","").startswith("https://"), "Lot 53 : camping Bel Air dupliqué ou enrichissement manquant"
           assert len([x for x in visible_regional if "troischenes" in norm(x.get("name"))])==0, "Lot 53 : Les Trois Chênes non validé pour les camping-cars en 2026, ne pas ajouter"
           
+          # Pause des ajouts de campings (lot 54) : ne pas accumuler de nouveaux tarifs inconnus.
+          assert len(unresolved_all)<=31, "44 : garde-fou tarifaire, augmentation du nombre de prix Non confirmé interdite tant que le rattrapage n'est pas achevé"
+          falaise_tarifs=[x for x in visible_regional if x.get("sourceId")=="CCF44-TURBALLE-CAMPING-LA-FALAISE-2026"]
+          assert len(falaise_tarifs)==1 and falaise_tarifs[0].get("priceYear")==2026, "La Falaise 2026 : grille officielle manquante"
+          ft=falaise_tarifs[0]
+          assert ft.get("priceVerification")=="tarifs_emplacement_camping_car_officiels_2026_source_pdf_exploitant" and ft.get("priceSource")=="https://www.camping-de-la-falaise.com/wp-content/uploads/2024/11/tarifs-2026-3-volets-la-falaise.pdf" and all(p in ft.get("price","") for p in ("30,50 €","45,90 €","51,90 €","32,00 €","48,90 €","56,90 €","Taxe de séjour en supplément")), "La Falaise 2026 : grilles camping-car ou réserve taxe de séjour incorrectes"
+          assert ft.get("price")!="Non confirmé" and ft.get("priceType")=="prix_nuitee_emplacement_camping_car_pour_deux_adultes_avec_eau_et_electricite", "La Falaise 2026 : contrat du forfait non précisé"
+
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
           assert night_flags_total==28 and night_filter_visible==187, f"44 : 28 lieux écartés du filtre nocturne (187 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
@@ -435,6 +443,7 @@ jobs:
               "- Lot 51 : Les Paludiers Batz-sur-Mer, L’Eden et La Roseraie La Baule ajoutés ; grille officielle 2026 Eden documentée, tarifs camping-car Paludiers/Roseraie strictement Non confirmé, le camping Les Ollivaud exclu (refus opérateur). Attendus 210/182 et 27 prix Non confirmé.",
               "- Lot 52 : Les Forges Pornichet, La Pierre Longue et L’Océan au Croisic ajoutés ; emplacements et vidanges vérifiés, saisons 2026, GPS divergents signalés, prix complets 2026 conservés Non confirmé. Attendus 213/185 et 30 prix strictement Non confirmé.",
               "- Lot 53 : deux campings Pornichet (Bugeau et GCU Sainte-Marguerite) ajoutés ; Bel Air enrichi sans doublon ; GCU adhésion requise et prix d’appel non garanti ; 215/187, 32 prix strictement Non confirmé.",
+              "- Lot 54 (tarifs seuls, aucun ajout) : La Falaise La Turballe : grille officielle PDF 2026 camping-car 2 personnes 30,50/45,90/51,90 € standard et 32/48,90/56,90 € vue mer avec eau/électricité 10 A, taxe de séjour 2026 à confirmer. Total stable 215/187, 31 prix strictement Non confirmé. Garde-fou CI contre nouvelle hausse.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",

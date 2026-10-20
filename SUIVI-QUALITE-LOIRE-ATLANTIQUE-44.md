@@ -1077,3 +1077,16 @@ Sources :
 - https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars
 - https://www.belairpornichet.fr/camping-4-etoiles-proche-la-baule/terrain-de-6-hectares
 - https://www.clicochic.com/camping-loire-atlantique/trois-chenes
+
+## Lot tarifaire 54 — 20 octobre 2026 — gel des ajouts
+
+**Changement de méthode à la demande du propriétaire : aucun nouveau camping ajouté tant que les tarifs 2026 existants ne sont pas mieux résolus.** Avant ce lot, 215 lieux (187 avec filtre) et **32** mentions exactes `Non confirmé`. Plusieurs prix tiers/comparatifs d'autres fiches peuvent rester approximatifs même s'ils ne portent pas cette mention : le compteur strict ne représente donc pas toutes les réserves tarifaires.
+
+**Une fiche résolue par une grille officielle datée :**
+- **Camping La Falaise — La Turballe** (`CCF44-TURBALLE-CAMPING-LA-FALAISE-2026`) : plaquette tarifaire PDF officielle 2026 sur le site de l'exploitant, tableau « TARIFS EMPLACEMENTS CAMPING » précisant expressément *2 personnes et caravane/camping-car/tente, eau et électricité 10 A incluses*. Standard **30,50 € en basse saison, 45,90 € début juillet, 51,90 € en haute saison** ; emplacement **vue mer 32,00 €, 48,90 €, 56,90 €** selon les mêmes tranches. Tous les prix sont TTC pour le séjour et **excluent la taxe de séjour** ; la brochure cite encore **0,66 € au titre de 2025**, donc ne pas déclarer le montant de taxe applicable en 2026 sans source complémentaire. Aucune conversion depuis un tarif de mobil-home ou de service seul. Source : https://www.camping-de-la-falaise.com/wp-content/uploads/2024/11/tarifs-2026-3-volets-la-falaise.pdf
+
+**Un faux positif rejeté :** le PDF « Tarifs Camping Les Mouettes 2026 » de `camping-les-mouettes.com` concerne **Agon-Coutainville (Manche)**, pas Les Mouettes **Saint-Père-en-Retz (44)**, dont la grille PDF disponible sur `les-mouettes-camping.com` est datée **2024**. La fiche 44 reste *Non confirmé* ; les montants d'un autre établissement ne doivent jamais lui être imputés.
+
+**Autres vérifications sans validation abusive :** Les Bleuets Pornic publie une grille 2026 de 20–36 € pour 2 personnes + tente **ou caravane** + voiture mais non explicitement camping-car, bien que celui-ci soit accepté dans les emplacements ; le prix strict reste non confirmé faute d'alignement non ambigu des compositions. Les Paludiers publie 19–37 € pour deux personnes et *une voiture* via l'office, pas un forfait contractuel camping-car clair : reste non confirmé. Le Bernier propose une réservation 2026 et une offre couple à la semaine ; cette offre ne vaut pas forfait de nuitée libre.
+
+**Résultat du lot tarifaire 54 : 215 lieux au total (inchangé), 187 avec filtre nocturne (inchangé), 31 prix strictement `Non confirmé` (32 → 31).** L'audit GitHub ajoute une limite empêchant d'augmenter ce compteur à nouveau sans révision explicite de la règle ; travailler désormais sur les tarifs et les doublons existants plutôt que sur l'ajout d'établissements. Les demandes aux exploitants restent non envoyées.

@@ -144,3 +144,9 @@ Le camping Le Briord est déjà présent et a seulement bénéficié d'un enrich
 | GCU Pornichet, Sainte-Marguerite (`CCF44-PORNICHET-GCU-2026`) | `gcu@gcuf.fr` ([siège officiel](https://www.gcu.asso.fr/contact/)), téléphone terrain 02 40 61 25 75 | Montant complet camping-car deux adultes (prix d'appel 13,14 €), charges et taxes 2026, adhésion requise et conditions d'accès borne non-résidents | Non envoyé |
 
 **Lot 53 : 32 fiches visibles au tarif strictement non confirmé, toutes avec contacts courriel sourcés.** Bel Air : coordonnées téléphoniques opérateur documentées, sa fiche tarifaire antérieure ne devient pas « prix non confirmé ». Aucun message envoyé.
+
+## Lot tarifaire 54 — 20 octobre 2026
+
+- **La Falaise, La Turballe** (`CCF44-TURBALLE-CAMPING-LA-FALAISE-2026`) : demande de grille 2026 devenue inutile. L'exploitant publie un barème camping-car 2 personnes **30,50 / 45,90 / 51,90 € TTC**, vue mer **32,00 / 48,90 / 56,90 €**, eau et électricité comprises. [Plaquette officielle 2026](https://www.camping-de-la-falaise.com/wp-content/uploads/2024/11/tarifs-2026-3-volets-la-falaise.pdf). Seule la **taxe de séjour applicable en 2026** reste à confirmer (la brochure indique un montant de 2025).
+- **Attention au camping homonyme Les Mouettes** : `camping-les-mouettes.com` est situé dans **la Manche**, aucun tarif de cette adresse à affecter à l'établissement de Saint-Père-en-Retz.
+- **Nouvelle priorité** : les **31** autres tarifs strictement inconnus de Loire-Atlantique, sans créer de nouveaux établissements. Aucune demande envoyée.
