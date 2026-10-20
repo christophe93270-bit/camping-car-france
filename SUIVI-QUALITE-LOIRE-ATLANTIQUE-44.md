@@ -522,3 +522,24 @@ https://www.capfun.com/camping---l_eve-FR.html
 Pour ces cinq fiches, ajout de `overnightStatus="prohibited"`, `overnightReason`, `overnightEvidenceUrl` et `overnightCheckedAt`, sans changement des tarifs ni des emprises GPS. Le libellé précise « Nuitée non autorisée ici » dans la liste et sur la carte. Le filtre est renommé « Masquer les lieux à nuitée interdite ou non établie » et **masque désormais 15 fiches en Loire-Atlantique** : 10 qui n'avaient pas d'autorisation de nuitée prouvée, plus cinq dont la restriction est claire. **Il reste 150 fiches avec filtre, et 165 sans filtre.** Le filtrage ne garantit pas pour autant l'autorisation de nuitée de tous les autres points.
 
 La distinction est importante : ces cinq lieux doivent rester trouvables pour la vidange et/ou le stationnement de jour ; il serait incorrect de les supprimer du répertoire. **11 tarifs strictement inconnus parmi les fiches visibles**, inchangés. Les sources publiques consultées pour les campings Les Mouettes / Les Chênes Verts ne fournissent pas un barème de nuitée 2026 univoque.
+
+## Lot complémentaire 26 — 20 octobre 2026
+
+**Huit courriels publics sourcés pour permettre une confirmation directe des onze tarifs encore inconnus ; aucun tarif non documenté n'est inventé.**
+
+- Régional : Capfun L'Ève (eve@capfun.com), Les Chênes Verts (campingleschenesverts@wanadoo.fr), Clos Mer et Nature (closmernature@orange.fr), Le Ranch (info@yellohvillage-le-ranch.com), le Biau Chemin (lebiauchemin@gmail.com, contact publié pour les activités pédagogiques et non preuve France Passion) et mairie de Saint-Molf (accueil@saintmolf.fr).
+- Complément OSM : Plessé (contact@mairie-plesse.fr) et Ancenis-Saint-Géréon (accueil@ancenis-saint-gereon.fr). Chaque courriel a un lien de source publique. L'interface propose un lien « Courriel du contact » dans la fiche et sur le popup de la carte, sans envoyer d'e-mail automatiquement.
+- **Le Ranch** : la liste officielle Yelloh! Village mentionne un point de vidange camping-car parmi ses équipements. Tarification et accès pour les camping-cars ne séjournant pas au camping non établis ; le prix de nuitée 2026 reste `Non confirmé`.
+- **Bilan invariant** : 165 fiches générales, 150 après filtre sur la nuitée interdite/non établie, 11 tarifs strictement inconnus parmi les lieux visibles. Aucun exploitant ni mairie n'a été contacté.
+- Audit de qualité : courriels valides, sources et preuve du point de vidange contrôlés automatiquement.
+
+Sources :
+- https://www.capfun.com/camping---l_eve-FR.html
+- https://www.leschenesverts.info/hebergement/emplacement/
+- https://www.camping-clos-mer-nature.fr/contact-camping-loire-atlantique/
+- https://www.camping-le-ranch.com/fr/coordonnees-et-localisation
+- https://www.yellohvillage.fr/camping/le_ranch/nos_services
+- https://www.accueil-paysan.com/fr/activite-educative/pays-de-la-loire/loire-atlantique/jeudi-matin-a-la-ferme/
+- https://www.mairie-saint-molf.fr/pratique/contact-et-demarches-en-ligne/
+- https://www.commune-de-plesse.com/demarches
+- https://ancenis-saint-gereon.fr/annuaire/services-municipaux/

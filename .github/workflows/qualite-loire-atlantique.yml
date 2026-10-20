@@ -73,6 +73,13 @@ jobs:
           total_visible=len(visible_regional)+len(visible_osm)
           unresolved_with_contact=[x for x in visible_regional if x.get("price")=="Non confirmé" and x.get("contactPhone")]
           unresolved_osm_with_contact=[x for x in visible_osm if x.get("price")=="Non confirmé" and x.get("contactPhone")]
+          emails=[x for x in visible_regional+visible_osm if x.get("contactEmail")]
+          invalid_emails=[str(x.get("sourceId")) for x in emails if not re.fullmatch(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}",str(x.get("contactEmail",""))) or not str(x.get("contactEmailSource","")).startswith("https://")]
+          assert not invalid_emails, "44 : courriel ou preuve invalide : "+str(invalid_emails)
+          expected_email_ids={"ACCAMPDL044V51I23X","ACCAMACCAMPDL044V50G1TE","ACCAMPDL044V5002ZN","ACCAMACCAMPDL044000049","ACCAMPDL044V50ZDO9","ACCAMEAIREDESTMOLF","node/11786823109","way/1317028497"}
+          assert expected_email_ids.issubset({str(x.get("sourceId")) for x in emails}), "44 : contacts électroniques documentés manquants"
+          ranch=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000049")
+          assert ranch.get("price")=="Non confirmé" and "point de vidange camping-car" in " ".join(ranch.get("services",[])).lower() and ranch.get("drainageFacilitySource")=="https://www.yellohvillage.fr/camping/le_ranch/nos_services", "Le Ranch : service vérifié ou réserve manquante"
           contacts_incomplete=[str(x.get("sourceId")) for x in visible_regional+visible_osm if x.get("contactPhone") and (not str(x.get("contactSource","")).startswith("https://") or not x.get("contactRole") and x.get("priceCheckedAt"))]
           assert not contacts_incomplete, "Contact sourcé incomplet : "+str(contacts_incomplete)
           phones_invalid=[x.get("sourceId") for x in visible_regional+visible_osm if x.get("contactPhone") and not re.fullmatch(r"[+0-9 ().-]{10,25}",str(x.get("contactPhone")))]
@@ -159,6 +166,8 @@ jobs:
               f"- Fiches complémentaires brutes au prix exactement 'Non confirmé' : **{osm_unknown}**",
               f"- Fiches complémentaires visibles au prix exactement 'Non confirmé' : **{visible_osm_unknown}**",
               f"- **Total des tarifs strictement non confirmés parmi les fiches visibles : {visible_regional_unknown+visible_osm_unknown}**",
+              f"- Courriels publics sourcés sur les fiches visibles : **{len(emails)}**",
+              "- Le Ranch : point vidange officiel sur site ; prix et accès sans nuitée non publiés.",
               f"- Fiches régionales masquées par doublon déclaré : **{len(regional)-len(visible_regional)}**",
               f"- Compléments OSM masqués par le filtre transversal : **{len(osm)-len(visible_osm)}**",
               f"- **Total de fiches visibles attendu (mêmes filtres que app.js) : {total_visible}** ({len(visible_regional)} régionales + {len(visible_osm)} complémentaires)",

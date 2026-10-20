@@ -110,7 +110,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261020-25", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261020-26", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -615,6 +615,7 @@ async function initAires(){
         ${a.priceYear===2026&&a.priceEvidenceDocument&&/^https:\/\//.test(String(a.priceEvidenceDocument))?`<p><a href="${escapeHTML(a.priceEvidenceDocument)}" target="_blank" rel="noopener noreferrer">Consulter la grille tarifaire 2026 ↗</a> <small>(les conditions d’accès et le tarif appliqué peuvent dépendre du statut du voyageur)</small></p>`:""}
         ${a.accessNote?`<p><strong>Conditions d’accès :</strong> ${escapeHTML(a.accessNote)}</p>`:""}
         ${a.contactPhone&&/^[+0-9 ().-]{10,25}$/.test(String(a.contactPhone))?`<p><strong>${a.contactRole==="mairie"?"Mairie — accès et tarifs :":a.contactRole==="ferme"?"Contacter la ferme :":a.contactRole==="site_proche"?"Renseignements sur le site proche :":a.contactRole==="camping"?"Contacter le camping :":a.contactRole==="centre"?"Contacter le gestionnaire :":"Contact tarif :"}</strong> <a href="tel:${String(a.contactPhone).replace(/[^+0-9]/g,"")}">${escapeHTML(a.contactPhone)}</a> <small>(contact public sourcé ; prix et conditions de nuitée non certifiés par un appel)</small></p>`:""}
+        ${a.contactEmail&&/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/.test(String(a.contactEmail))&&/^https:\/\//.test(String(a.contactEmailSource||""))?`<p><strong>Courriel du contact :</strong> <a href="mailto:${escapeHTML(a.contactEmail)}">${escapeHTML(a.contactEmail)}</a> <small>(contact public sourcé ; tarif à confirmer)</small></p>`:""}
         <p><strong>À vérifier :</strong> ${escapeHTML(a.status)}</p>
         ${a.dataAttribution?`<p><small>Données : ${escapeHTML(a.dataAttribution)} — ${escapeHTML(a.dataLicense||"Licence non indiquée")}</small></p>`:""}
         ${a.sourceOfficial&&a.sourceOfficial!==a.source&&/^https?:\/\//i.test(String(a.sourceOfficial))?`<a href="${escapeHTML(a.sourceOfficial)}" target="_blank" rel="noopener noreferrer">Source du lieu ↗</a> · `:""}<a href="${escapeHTML(a.source)}" target="_blank" rel="noopener noreferrer">Données d’origine ↗</a>
@@ -655,6 +656,12 @@ async function initAires(){
              phone.href="tel:"+String(a.contactPhone).replace(/[^+0-9]/g,"");
              phone.textContent=" · Contact : "+String(a.contactPhone);
              popup.append(phone);
+           }
+           if(a.contactEmail&&/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/.test(String(a.contactEmail))&&/^https:\/\//.test(String(a.contactEmailSource||""))){
+             const email=document.createElement("a");
+             email.href="mailto:"+String(a.contactEmail);
+             email.textContent=" · Courriel : "+String(a.contactEmail);
+             popup.append(email);
            }
            marker.bindPopup(popup);
           points.push([a.latitude,a.longitude]);
