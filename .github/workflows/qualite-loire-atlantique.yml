@@ -337,7 +337,7 @@ jobs:
           forges=next(x for x in lot52 if x["sourceId"]=="CCF44-PORNICHET-CAMPING-LES-FORGES-2026")
           pierre=next(x for x in lot52 if x["sourceId"]=="CCF44-CROISIC-PIERRE-LONGUE-2026")
           ocean=next(x for x in lot52 if x["sourceId"]=="CCF44-CROISIC-CAMPING-OCEAN-2026")
-          assert forges.get("capacityCampingCarTourism")==20 and forges.get("gpsRegionalAlternative") and "20/09/2026" in forges.get("seasonalDates2026",""), "Les Forges : capacité, GPS contradictoire ou saison 2026"
+          assert forges.get("capacityCampingCarTourism")==20 and forges.get("gpsRegionalAlternative") and all(s in forges.get("seasonalDates2026","") for s in ("30/08/2026","20/09/2026")) and "campinglesforges.com" in forges.get("seasonalDatesSource2026",""), "Les Forges : dates divergentes 2026, capacité et GPS mal tracés"
           assert pierre.get("capacityCampingPitchesOperator")==158 and pierre.get("gpsRegionalAlternative") and "01/11/2026" in pierre.get("seasonalDates2026","") and "eaux grises" in " ".join(pierre.get("services",[])), "La Pierre Longue : capacité, GPS, saison ou vidange"
           assert ocean.get("capacityAllTypesOperator")==374 and ocean.get("capacityAllTypesTourism")==383 and "8,50 m" in ocean.get("operationalWarning","") and "20/09/2026" in ocean.get("seasonalDates2026",""), "L'Océan : capacités non concordantes, longueur ou saison 2026 manquantes"
           assert all(x.get("city") in {"PORNICHET","LE CROISIC"} for x in lot52), "Lot 52 : commune erronée"
@@ -358,6 +358,16 @@ jobs:
           
           # Pause des ajouts de campings (lot 54) : ne pas accumuler de nouveaux tarifs inconnus.
           assert len(unresolved_all)<=31, "44 : garde-fou tarifaire, augmentation du nombre de prix Non confirmé interdite tant que le rattrapage n'est pas achevé"
+          # Lot 55 : approfondissement des contrats/prix 2026, sans transformer des tarifs partiels en forfait camping-car confirmé.
+          bleu55=next(x for x in visible_regional if x.get("sourceId")=="CCF44-PORNIC-LES-BLEUETS-2026")
+          assert bleu55.get("price")=="Non confirmé" and bleu55.get("publishedTariff2026Source")=="https://www.campinglesbleuets.com/uploads/pdf/FR/tarifs.pdf", "Les Bleuets : prix camping-car doit rester à confirmer, PDF 2026 absent"
+          assert all(k in bleu55.get("publishedTariff2026Note","") for k in ("20 €","22 €","30 €","36 €","26 €","6,20 €","0,22 €","23 €")), "Les Bleuets : tableau officiel 2026 incomplet"
+          leveno55=next(x for x in visible_regional if x.get("sourceId")=="CCF44-GUERANDE-DOMAINE-LEVENO-2026")
+          assert leveno55.get("price")=="Non confirmé" and leveno55.get("fees2026Source")=="https://www.camping-leveno.com/pdf/leveno-contrat-conditions.pdf" and all(k in leveno55.get("fees2026","") for k in ("0,66 €","25 €","35 €")), "Leveno : contrat officiel 2026 de frais annexes non exploité"
+          clos55=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V5002ZN")
+          assert clos55.get("price")=="Non confirmé" and clos55.get("fees2026Source")=="https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf" and all(k in clos55.get("fees2026","") for k in ("0,66 €","0,30 €","10 €","20 €","30 €")), "Clos Mer et Nature : contrat 2026 frais annexes ou prix nuitée incorrect"
+          assert forges.get("price")=="Non confirmé" and "04/07/2026" in forges.get("seasonalDates2026","") and "04/04/2026" in forges.get("seasonalDates2026",""), "Les Forges : conflit de saison officiel/office masqué"
+
           falaise_tarifs=[x for x in visible_regional if x.get("sourceId")=="CCF44-TURBALLE-CAMPING-LA-FALAISE-2026"]
           assert len(falaise_tarifs)==1 and falaise_tarifs[0].get("priceYear")==2026, "La Falaise 2026 : grille officielle manquante"
           ft=falaise_tarifs[0]
@@ -444,6 +454,7 @@ jobs:
               "- Lot 52 : Les Forges Pornichet, La Pierre Longue et L’Océan au Croisic ajoutés ; emplacements et vidanges vérifiés, saisons 2026, GPS divergents signalés, prix complets 2026 conservés Non confirmé. Attendus 213/185 et 30 prix strictement Non confirmé.",
               "- Lot 53 : deux campings Pornichet (Bugeau et GCU Sainte-Marguerite) ajoutés ; Bel Air enrichi sans doublon ; GCU adhésion requise et prix d’appel non garanti ; 215/187, 32 prix strictement Non confirmé.",
               "- Lot 54 (tarifs seuls, aucun ajout) : La Falaise La Turballe : grille officielle PDF 2026 camping-car 2 personnes 30,50/45,90/51,90 € standard et 32/48,90/56,90 € vue mer avec eau/électricité 10 A, taxe de séjour 2026 à confirmer. Total stable 215/187, 31 prix strictement Non confirmé. Garde-fou CI contre nouvelle hausse.",
+              "- Lot 55 (tarifs uniquement) : 2026 Bleuets grille 20/22/30/36/26 € tente ou caravane et taxe 0,22 € vérifiées, camping-car non nommé donc reste Non confirmé ; Leveno et Clos Mer Nature frais annexes contrats 2026 vérifiés ; Les Forges dates officielles 04/07–30/08 en conflit avec office 04/04–20/09. 215/187, 31 prix strictement Non confirmé.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",

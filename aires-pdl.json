@@ -7129,10 +7129,12 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Doublon du Camping Clos Mer et Nature confirmé par adresse et sources touristiques le 20/10/2026. Référence canonique : ACCAMPDL044V5002ZN.",
+    "importReview": "Doublon du Camping Clos Mer et Nature confirmé par adresse et sources touristiques le 20/10/2026. Référence canonique : ACCAMPDL044V5002ZN. Lot 55 : frais annexes 2026 alignés avec la fiche régionale du même ensemble, sans création de point ni changement de tarif.",
     "sourceId": "ACCAMACCAMPDL044000128",
     "duplicateOfSourceId": "ACCAMPDL044V5002ZN",
-    "sourceOfficial": "https://rando.loire-atlantique.fr/service/184069-Clos-Mer-et-Nature"
+    "sourceOfficial": "https://rando.loire-atlantique.fr/service/184069-Clos-Mer-et-Nature",
+    "fees2026": "Contrat OFFICIEL 2026 : taxe de séjour 0,66 €/adulte/nuit ; écoparticipation +0,30 €/personne/nuit ; frais de dossier 10 € pour séjour de 3 nuits ou moins, 20 € au-delà, 30 € en cas de paiement différé (collectivités/associations/VACAF). Le contrat accepte explicitement camping-car, tente ou caravane pour 1–2 personnes, mais ne donne pas le prix de base de l'emplacement 2026 : prix de nuitée camping-car reste Non confirmé.",
+    "fees2026Source": "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf"
   },
   {
     "department": "44",
@@ -7527,7 +7529,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : FAQ officielle confirme ouverture 01/04–31/10 et horaires des emplacements, contrat 2026 frais de dossier 10/20 €, taxes 0,66 € et 0,30 €, tarif de nuitée encore non publié ; prix maintenu Non confirmé. Lot 23 (20/10/2026) : comparaison visuelle du contrat 2026 https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf (p. 1-2) et de la FAQ https://www.camping-clos-mer-nature.fr/faq/ : arrivée 15h/départ 10h sur le contrat vs arrivée 14h/départ 12h en FAQ emplacements. Chien 4,50 €/jour sur la page 1 ; pas de tarif de base. L'incertitude est portée explicitement, sans trancher.",
+    "importReview": "20/10/2026 : FAQ officielle confirme ouverture 01/04–31/10 et horaires des emplacements, contrat 2026 frais de dossier 10/20 €, taxes 0,66 € et 0,30 €, tarif de nuitée encore non publié ; prix maintenu Non confirmé. Lot 23 (20/10/2026) : comparaison visuelle du contrat 2026 https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf (p. 1-2) et de la FAQ https://www.camping-clos-mer-nature.fr/faq/ : arrivée 15h/départ 10h sur le contrat vs arrivée 14h/départ 12h en FAQ emplacements. Chien 4,50 €/jour sur la page 1 ; pas de tarif de base. L'incertitude est portée explicitement, sans trancher. Lot 55 : frais annexes 2026 €0,66 taxe adulte + €0,30 écoparticipation/personne et dossier 10/20/30 € selon conditions ; aucun prix nuitée inventé.",
     "sourceId": "ACCAMPDL044V5002ZN",
     "contactRole": "camping",
     "contactPhone": "02 40 27 85 71",
@@ -7537,11 +7539,13 @@
     "sourceOfficial": "https://www.camping-clos-mer-nature.fr/faq/",
     "servicesSource": "https://www.camping-clos-mer-nature.fr/faq/",
     "priceSource": "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf",
-    "fees2026": "Frais annexes confirmés par contrat 2026 : dossier 10 € pour un séjour de 3 nuits au plus, 20 € au-delà ; taxe de séjour 0,66 €/adulte/nuit ; éco-participation 0,30 €/personne/nuit ; option chien 4,50 €/jour. Forfait de base camping-car non indiqué.",
+    "fees2026": "Contrat OFFICIEL 2026 : taxe de séjour 0,66 €/adulte/nuit ; écoparticipation +0,30 €/personne/nuit ; frais de dossier 10 € pour séjour de 3 nuits ou moins, 20 € au-delà, 30 € en cas de paiement différé (collectivités/associations/VACAF). Le contrat accepte explicitement camping-car, tente ou caravane pour 1–2 personnes, mais ne donne pas le prix de base de l'emplacement 2026 : prix de nuitée camping-car reste Non confirmé.",
     "feeEvidenceUrl": "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf",
     "operationalWarning": "Horaires officiels contradictoires : FAQ pour emplacements 14 h–12 h ; contrat de réservation 2026 15 h–10 h. Vérifier directement avant arrivée.",
     "contactEmail": "closmernature@orange.fr",
-    "contactEmailSource": "https://www.camping-clos-mer-nature.fr/contact-camping-loire-atlantique/"
+    "contactEmailSource": "https://www.camping-clos-mer-nature.fr/contact-camping-loire-atlantique/",
+    "fees2026Source": "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf",
+    "priceEvidenceNote": " Lot 55 : contrat 2026 pages CGV prouve les frais, taxe et écoparticipation, sans grille de prix de base camping-car, donc valeur Non confirmé maintenue."
   },
   {
     "department": "44",
@@ -10511,8 +10515,11 @@
     "capacityBarePitchesTourism": 73,
     "capacityAllTypesTourism": 600,
     "dataAttribution": "Camping Leveno (site officiel 2026), Office La Baule-Guérande et e-SPRIT (GPS)",
-    "importReview": "Lot 45 du 20/10/2026 : emplacements camping-car et politique tarifaire ACSI selon exploitant. Réduction 25 € non explicitement datée 2026, prix standard inconnu. GPS e-SPRIT 47.33266,-2.39092, contact publié, ouverture opérateur 10/04–20/09/2026.",
-    "priceEvidenceDocument": "https://www.camping-leveno.com/emplacements.html"
+    "importReview": "Lot 45 du 20/10/2026 : emplacements camping-car et politique tarifaire ACSI selon exploitant. Réduction 25 € non explicitement datée 2026, prix standard inconnu. GPS e-SPRIT 47.33266,-2.39092, contact publié, ouverture opérateur 10/04–20/09/2026. Lot 55 : frais annexes 2026 officiels : taxe 0,66 €/adulte, dossier 0/25 €, choix emplacement 35 € ; barème général manquant.",
+    "priceEvidenceDocument": "https://www.camping-leveno.com/emplacements.html",
+    "fees2026": "Contrat OFFICIEL 2026 : taxe de séjour 0,66 €/personne majeure/nuit ; frais de réservation 0 € hors juillet–août et 25 € en juillet–août ; choix d'emplacement +35 € ; tarif d'hébergement camping-car standard 2026 non imprimé dans ce formulaire. La page emplacements propose 25 € pour un tarif réduit de carte ACSI/FFCC/ANWB en « saison verte » hors juillet-août, mais sans millésime propre : prix général 2026 non confirmé.",
+    "fees2026Source": "https://www.camping-leveno.com/pdf/leveno-contrat-conditions.pdf",
+    "priceEvidenceNote": " Lot 55 : contrat opérateur 2026 retrouvé, taxe et frais annexes explicites, mais aucune grille de nuitées standard selon période ; 25 € de l'offre carte ne devient pas forfait général."
   },
   {
     "department": "44",
@@ -11026,10 +11033,10 @@
     ],
     "price": "Non confirmé",
     "priceCheckedAt": "2026-10-20",
-    "priceVerification": "grille_2026_forfait_tente_caravane_publiee_applicabilite_camping_car_a_confirmer",
-    "priceEvidenceDocument": "https://www.campinglesbleuets.com/emplacements-camping-pornic",
-    "indicativeRate": "Grille officielle emplacement standard 2026 pour 2 personnes + tente OU caravane + véhicule : 20 à 36 € / nuit selon dates ; électricité 10 A +6,20 € et taxe de séjour +0,22 €/adulte/nuit. Le tarif camping-car proprement dit n'est pas explicitement énoncé dans cette ligne ; l'application exacte et la formule FFCC Stop accueil restent à confirmer.",
-    "indicativeRateSource": "https://www.campinglesbleuets.com/emplacements-camping-pornic",
+    "priceVerification": "grille_officielle_2026_cinq_periodes_emplacement_mais_camping_car_pas_nomme_forfait",
+    "priceEvidenceDocument": "https://www.campinglesbleuets.com/uploads/pdf/FR/tarifs.pdf",
+    "indicativeRate": "Barème emplacement standard officiel 2026 pour 2 personnes (tente OU caravane + véhicule) : 20/22/30/36/26 € selon les cinq périodes. Camping-car accepté sur ces emplacements, mais le prix spécifique camping-car n'est pas nommé dans le tableau : application à confirmer, donc tarif camping-car toujours Non confirmé. Électricité +6,20 €, taxe de séjour 2026 +0,22 €/adulte/nuit, frais de réservation 23 € selon période.",
+    "indicativeRateSource": "https://www.campinglesbleuets.com/uploads/pdf/FR/tarifs.pdf",
     "status": "8 lieu-dit Les Bleuets, Sainte-Marie-sur-Mer, 44210 Pornic. Accueil camping-car avec bornes techniques à l'intérieur du camping, distinct des autres sites de Pornic et de Slow Village à environ 1,7 km. Exploitant : du 1er avril au 30 septembre 2026 ; saison terminée le 20 octobre. La grille en ligne 2026 utilise les mots « tente ou caravane » pour son forfait standard de deux personnes : ne pas présenter son prix comme forfait camping-car certain. GPS exploitant 47.14034,-2.13059 (la piscine située à proximité possède un autre repère tourisme).",
     "operationalWarning": "Saison 2026 terminée le 30/09. Une aire de vidange existe dans le camping mais l'accès pour les non-résidents et l'application des prix généraux aux camping-cars restent à confirmer.",
     "operationalWarningSource": "https://www.campinglesbleuets.com/emplacement-camping-car-pornic",
@@ -11041,7 +11048,11 @@
     "seasonalDates2026": "01/04/2026–30/09/2026",
     "capacityAllTypesOperator": 211,
     "dataAttribution": "Camping Les Bleuets (site et coordonnées opérateur), Office Destination Pornic",
-    "importReview": "Lot 50, 20/10/2026 : accueil camping-car et aire de vidange officiels ; grille emplacement 2026 publiée mais forfait camping-car exact non garanti. Site géolocalisé et contacts directs, distinct du domaine voisin."
+    "importReview": "Lot 50, 20/10/2026 : accueil camping-car et aire de vidange officiels ; grille emplacement 2026 publiée mais forfait camping-car exact non garanti. Site géolocalisé et contacts directs, distinct du domaine voisin. Lot 55 : PDF officiel 2026 retrouvé, cinq tarifs standard 20/22/30/36/26 €, suppléments électriques et taxe 2026 ; prix camping-car reste Non confirmé car le tableau ne nomme pas directement ce véhicule.",
+    "publishedTariff2026Note": "Camping Les Bleuets — tarifs officiels 2026 des EMPLACEMENTS, 2 pers. + 1 emplacement + tente OU caravane + véhicule : 20 € (01/04–03/07 et 01/09–30/09), 22 € (jours fériés 01/05, 08/05, 14/05, 23/05), 30 € (04/07–24/07), 36 € (25/07–23/08), 26 € (24/08–31/08). Électricité 10 A +6,20 €/nuit ; taxe de séjour 2026 +0,22 €/adulte/nuit ; frais de réservation 23 € pour les périodes 04/07–31/08 uniquement. L'exploitant accueille les camping-cars sur ces emplacements, mais la ligne de la grille nomme tente OU caravane + véhicule, PAS explicitement camping-car : l'identité du forfait de camping-car doit être confirmée avant de publier ces montants comme tarifs camping-car.",
+    "publishedTariff2026Source": "https://www.campinglesbleuets.com/uploads/pdf/FR/tarifs.pdf",
+    "publishedTariff2026EvidenceDate": "2026-10-20",
+    "priceEvidenceNote": "La plaquette originale 2026 et la page exploitant indiquent clairement camping-car admis sur les emplacements ; les cinq tarifs pour deux adultes sont publiés pour « 1 tente OU caravane + 1 véhicule », mais pas camping-car en termes explicites. Ne pas reclasser en prix camping-car confirmé sans réponse de l'exploitant. Taxe de séjour et électricité de la grille 2026 vérifiées."
   },
   {
     "department": "44",
@@ -11257,15 +11268,15 @@
     "priceVerification": "forfait_camping_car_2026_deux_personnes_non_publie",
     "priceEvidenceDocument": "https://campinglesforges.com/81-tarifs.html",
     "priceEvidenceNote": "Page Tarifs de l'exploitant sans grille 2026 d'un emplacement camping-car pour deux personnes lisible directement ; aucune tarification de borne seule confirmée.",
-    "status": "98 route de la Villès-Blais, 44380 Pornichet. Office de tourisme de Pornichet : période du 04/04 au 20/09/2026 pour le camping, terminée au 20 octobre. La fiche e-SPRIT évoque 01/04–30/09 pour les résidents (mobil-homes), ne pas assimiler à l'accueil des emplacements camping-car. GPS exploiteur 47°16.198'N, 2°17.578'O interprété en degrés/minutes décimales, soit 47.2699667,-2.2929667 ; PiNCAMP est à environ 15 m, e-SPRIT 14/10/2026 positionne un point environ 390 m plus loin. Ne pas confondre les repères sans preuve d'entrée exacte.",
-    "operationalWarning": "La saison des emplacements 2026 s'est terminée selon Pornichet Tourisme le 20 septembre ; 20 emplacements camping-car recensés mais forfait de nuitée et accès à la borne pour non-résidents non confirmés.",
-    "operationalWarningSource": "https://www.pornichet.fr/hotellerie-de-plein-air/camping-les-forges",
+    "status": "98 route de la Villès-Blais, 44380 Pornichet. NOUVELLE VÉRIFICATION lot 55 : site OFFICIEL « Les services du camping » : ouverture du 04/07 au 30/08/2026, alors que Pornichet Tourisme annonce du 04/04 au 20/09/2026. Divergence explicite non résolue ; pour une halte hors juillet/août, demander confirmation directement au camping. Ces périodes sont toutes deux terminées au 20 octobre. Le site français de l'exploitant affiche 20 emplacements de camping-caravaning, plus 39 locatifs ; la version anglaise annonce des chiffres anciens divergents. GPS exploitant 47.2699667,-2.2929667 ; repère e-SPRIT 47.26719,-2.29614 à ~390 m, ne pas déplacer la borne sans preuve.",
+    "operationalWarning": "Saison 2026 contradictoire : site OFFICIEL du 4 juillet au 30 août ; Pornichet Tourisme du 4 avril au 20 septembre. Dates de nuitée à revalider avec le camping. Prix 2026 camping-car 2 personnes non publié et accès à la vidange pour non-résidents non garanti.",
+    "operationalWarningSource": "https://campinglesforges.com/152-services/143-les-services-du-camping.html",
     "contactPhone": "02 40 61 18 84",
     "contactEmail": "camping@campinglesforges.com",
     "contactEmailSource": "https://campinglesforges.com/81-tarifs.html",
     "contactSource": "https://campinglesforges.com/81-tarifs.html",
     "contactRole": "camping privé",
-    "seasonalDates2026": "04/04/2026–20/09/2026 selon Pornichet Tourisme",
+    "seasonalDates2026": "04/07/2026–30/08/2026 selon le site officiel ; 04/04/2026–20/09/2026 selon Pornichet Tourisme (divergence à confirmer)",
     "capacityCampingCarTourism": 20,
     "capacityAllTourism": 150,
     "gpsRegionalAlternative": {
@@ -11274,7 +11285,8 @@
       "source": "https://www.cirkwi.com/fr/point-interet/453015-les-forges"
     },
     "dataAttribution": "Camping Les Forges (coordonnées et contact), Pornichet Tourisme, Région Pays de la Loire/e-SPRIT, PiNCAMP",
-    "importReview": "Lot 52 du 20/10/2026 : camping-car et borne confirmés par office 2026, 20 places camping-car par Région ; coordonnées de l'exploitant recoupées par PiNCAMP, divergentes du GPS e-SPRIT. Prix 2026 non publié, aucune nuitée en dehors du camping supposée."
+    "importReview": "Lot 52 du 20/10/2026 : camping-car et borne confirmés par office 2026, 20 places camping-car par Région ; coordonnées de l'exploitant recoupées par PiNCAMP, divergentes du GPS e-SPRIT. Prix 2026 non publié, aucune nuitée en dehors du camping supposée. Lot 55 du 20/10/2026 : saison confirmée sur site officiel 04/07–30/08, contradictoire avec tourisme 04/04–20/09 ; différentiel documenté, aucun tarif 2026 inventé.",
+    "seasonalDatesSource2026": "https://campinglesforges.com/152-services/143-les-services-du-camping.html"
   },
   {
     "department": "44",

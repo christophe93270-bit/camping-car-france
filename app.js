@@ -110,7 +110,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261020-54-prix", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261020-55-prix", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -610,6 +610,7 @@ async function initAires(){
         ${a.gpsEvidenceNote?`<p><strong>Précision GPS :</strong> ${escapeHTML(a.gpsEvidenceNote)}</p>`:""}
         ${a.receptionHoursNote?`<p><strong>Accueil :</strong> ${escapeHTML(a.receptionHoursNote)}</p>`:""}
         <p><strong>${a.priceStatus==="not_applicable_for_night_stay"?"Tarif de nuitée :":"Tarif :"}</strong> ${escapeHTML(a.price)}</p>
+        ${a.publishedTariff2026Note&&a.publishedTariff2026Source&&/^https:\/\//.test(String(a.publishedTariff2026Source))?`<p><strong>Barème officiel d'emplacement 2026 — applicability au camping-car à confirmer :</strong> ${escapeHTML(a.publishedTariff2026Note)} <a href="${escapeHTML(a.publishedTariff2026Source)}" target="_blank" rel="noopener noreferrer">Voir la grille officielle ↗</a></p>`:""}
         ${a.fees2026?`<p><strong>Frais annexes 2026 :</strong> ${escapeHTML(a.fees2026)}</p>`:""}
         ${a.indicative2026RateLabel&&a.indicative2026RateYear===2026&&/^https:\/\//.test(String(a.indicative2026RateSource||""))?`<p><strong>Repère indicatif 2026 (non confirmé par le camping) :</strong> ${escapeHTML(a.indicative2026RateLabel)} <a href="${escapeHTML(a.indicative2026RateSource)}" target="_blank" rel="noopener noreferrer">Source CampingFrance ↗</a></p>`:""}
         ${a.operationalWarning?`<p><strong>Horaires ou conditions à vérifier :</strong> ${escapeHTML(a.operationalWarning)}</p>`:""}

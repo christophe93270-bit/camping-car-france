@@ -150,3 +150,14 @@ Le camping Le Briord est déjà présent et a seulement bénéficié d'un enrich
 - **La Falaise, La Turballe** (`CCF44-TURBALLE-CAMPING-LA-FALAISE-2026`) : demande de grille 2026 devenue inutile. L'exploitant publie un barème camping-car 2 personnes **30,50 / 45,90 / 51,90 € TTC**, vue mer **32,00 / 48,90 / 56,90 €**, eau et électricité comprises. [Plaquette officielle 2026](https://www.camping-de-la-falaise.com/wp-content/uploads/2024/11/tarifs-2026-3-volets-la-falaise.pdf). Seule la **taxe de séjour applicable en 2026** reste à confirmer (la brochure indique un montant de 2025).
 - **Attention au camping homonyme Les Mouettes** : `camping-les-mouettes.com` est situé dans **la Manche**, aucun tarif de cette adresse à affecter à l'établissement de Saint-Père-en-Retz.
 - **Nouvelle priorité** : les **31** autres tarifs strictement inconnus de Loire-Atlantique, sans créer de nouveaux établissements. Aucune demande envoyée.
+
+## Lot tarifaire 55 — documents officiels retrouvés, demandes toujours nécessaires
+
+| Site | Preuves tarifaires 2026 obtenues | Questions restant à confirmer |
+|---|---|---|
+| Les Bleuets, Pornic | [Plaquette officielle 2026](https://www.campinglesbleuets.com/uploads/pdf/FR/tarifs.pdf) : 2 personnes + tente/caravane/véhicule 20/22/30/36/26 €, électricité +6,20 €, taxe 2026 +0,22 €/adulte, réservation 23 € sous conditions | Par `contact@campinglesbleuets.com` : même forfait pour un camping-car (sans véhicule séparé) et tarif d'accès vidange pour non-résidents ? |
+| Domaine de Léveno, Guérande | [Contrat 2026](https://www.camping-leveno.com/pdf/leveno-contrat-conditions.pdf) : taxe adulte 0,66 €, réservation 0/25 €, choix emplacement 35 € | Par `info@camping-leveno.com` : barème public 2026 d'une nuitée standard camping-car 2 pers. ; prix réduit 25 € des cartes affiliées en 2026 et périodes ? |
+| Clos Mer et Nature, Saint-Michel-Chef-Chef | [Contrat 2026](https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf) : taxe 0,66 €, écoparticipation 0,30 €, dossier 10/20/30 € | Par `closmernature@orange.fr` : prix hors taxes de la nuitée camping-car 2 personnes pour les périodes 2026 et incidence des frais fixes ? |
+| Les Forges, Pornichet | [Site de l'exploitant](https://campinglesforges.com/152-services/143-les-services-du-camping.html) : 04/07–30/08/2026 contre 04/04–20/09 dans l'office | Par `camping@campinglesforges.com` : quelles dates camping-car effectivement ouvertes en 2026 ? Barème deux personnes et suppléments ? |
+
+**31 tarifs strictement inconnus après lot 55.** Aucune demande envoyée. Prochaines démarches : demandes groupées aux exploitants, réponses à l'appui avant toute reclassification.
