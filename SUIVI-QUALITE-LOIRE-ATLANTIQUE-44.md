@@ -543,3 +543,19 @@ Sources :
 - https://www.mairie-saint-molf.fr/pratique/contact-et-demarches-en-ligne/
 - https://www.commune-de-plesse.com/demarches
 - https://ancenis-saint-gereon.fr/annuaire/services-municipaux/
+
+## Lot complémentaire 27 — 20 octobre 2026
+
+**Trois derniers contacts électroniques complétés : 11 des 11 fiches à tarif strictement non confirmé possèdent désormais une adresse professionnelle ou institutionnelle sourcée.** Ce n'est pas une confirmation des prix.
+
+- **Legé — Ferme des Cochons d’Antan :** `lescochonsdantan@orange.fr`, adresse publiée sur le site actuel de la ferme. La participation France Passion au guide 2026 n'est pas prouvée.
+- **Saint-Père-en-Retz — camping Les Mouettes :** `contact@les-mouettes-camping.com`, adresse figurant sur la grille officielle PDF **2024**. L’adresse de contact est sourcée mais non certifiée active en octobre 2026 ; le prix 2026 reste inconnu malgré les variantes 15/19,50 €.
+- **Préfailles — camping Eden Villages La Pointe Saint-Gildas :** `directionlapointe@edenvillages.fr`, adresse communiquée par l'annuaire touristique départemental ; tarifs du camping distincts de l'aire CAMPING-CAR PARK.
+- **Prudence sur les homonymes :** des pages « Le Ranch » de Naujac-sur-Mer (Gironde) et Le Rozel (Manche) annoncent des prix 2026, qui ne sont pas ceux du Yelloh! Village Le Ranch à La Plaine-sur-Mer. De même, le PDF « Les Mouettes » 2026 d'autres communes ne correspond pas au camping de Saint-Père-en-Retz. Ces montants sont exclus.
+- Création de `SUIVI-CONTACTS-LOIRE-ATLANTIQUE-44.md` : 11 demandes avec les interlocuteurs, les justificatifs de contact et les questions exactes, toutes marquées **non envoyées**. Aucun appel ni courriel n'a été effectué.
+- **Bilan inchangé : 165 fiches générales, 150 après filtre nocturne, 11 tarifs strictement non confirmés.** Audit renforcé pour exiger le contact par courriel pour chacun des 11 cas, sans le confondre avec une réponse tarifaire.
+
+Sources :
+- https://lafermedescochonsdantan.fr/
+- https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf (document 2024)
+- https://rando.loire-atlantique.fr/service/182149-Camping-Eden-Villages-La-Pointe-Saint-Gildas
