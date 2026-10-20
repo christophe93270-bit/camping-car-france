@@ -731,3 +731,22 @@ Sources :
 - https://www.pornic.com/camping-eleovic.html
 - https://www.campingcarpark.com/fr_FR/circuits/loire-atlantique-%3A-de-l%27estuaire-a-l%27ocean
 - https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon
+
+## Lot complémentaire 38 — 20 octobre 2026
+
+**Correction du filtre de préparation de nuitée : six fiches de bornes ou de parkings commerciaux figuraient encore parmi les lieux non écartés, malgré l'absence de séjour autorisé documenté.**
+
+- **Pornic, Val Saint-Martin** (`ACCAMACCAMEBORNEVALSTMARTIN`) : la fiche CAMPING-CAR PARK est explicitement classée **aire de services**, avec prix de **2 € / service**. Les conditions du réseau pour les aires de services sont explicites : **pas de séjour sur ce type d'aire**. Statut `overnightStatus=prohibited` avec justification de l'absence de droit de séjour **sur la borne technique**, sans qualifier d'interdit l'ensemble du parking du complexe sportif. Le titre « 24 h » d'une grille technique ne prouve pas une nuitée.
+- **Super U, Saint-Étienne-de-Montluc** (`ACCAMPDL044V5002C9`), **Hyper U La Colleraye, Savenay** (`ACCAMPDL044V500B9O`), **borne des étangs de la Madeleine, Fay-de-Bretagne** (`ACCAMPDL044V5001HL`), **borne du chemin de la Plage, Saint-Philbert-de-Grand-Lieu** (`ACCAMPDL044V5006FB`), et **Super U Chaumes-en-Retz** (`ACCAMPDL044V5003VR`) : statut `overnightStatus=not_established`. Ces sites servent à l'eau/vidange ou au stationnement commercial sans **autorisation de nuitée démontrée** par les sources consultées ; cela **ne constitue pas une interdiction**.
+- Sources de vérification enregistrées individuellement dans les six fiches. Prix, GPS, types de lieux, communes et services existants **inchangés**. Les six sites restent consultables lorsque le filtre nocturne est désactivé.
+- Audit renforcé pour vérifier 1 aire de services sans séjour + 5 nuitées non établies, leurs sources et la distinction avec une interdiction générale de stationnement.
+- **Compteurs attendus : 169 lieux sans filtre, 141 avec filtre nocturne (28 masqués : 22 sans droit nocturne établi, 6 où le séjour n'est pas permis), 11 tarifs strictement `Non confirmé`.** Le filtre de prudence n'est pas une certification automatique de toutes les autres nuitées.
+
+Sources :
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu?areaType=serviceplatze-wohnmobilstellplatz
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/as-st-viaud?areaType=aire-services-camping-car (politique réseau d'aires de services)
+- https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC
+- https://rando.loire-atlantique.fr/service/180255-AIRE-DE-SERVICE-HYPER-U-LA-COLLERAYE
+- https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE
+- https://www.grandlieu-tourisme.fr/ou-manger-ou-dormir/aires-de-camping-car
+- https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz

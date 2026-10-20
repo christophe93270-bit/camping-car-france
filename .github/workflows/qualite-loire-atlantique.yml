@@ -145,9 +145,16 @@ jobs:
           assert "gratuit" in str(corcoue_parking.get("price","")).lower() and "4" in str(corcoue_parking.get("price","")), "Corcoué : tarif de stationnement 2026 non reporté"
           overnight_other_regional=sum(x.get("overnightStatus")=="not_established" and "pique-nique" not in str(x.get("type","")).lower() for x in visible_regional)
           overnight_extra=sum(x.get("overnightStatus")=="not_established" for x in visible_osm)
+          lot38_ids={"ACCAMACCAMEBORNEVALSTMARTIN","ACCAMPDL044V5002C9","ACCAMPDL044V500B9O","ACCAMPDL044V5001HL","ACCAMPDL044V5006FB","ACCAMPDL044V5003VR"}
+          lot38=[x for x in visible_regional if x.get("sourceId") in lot38_ids]
+          assert len(lot38)==6, "Lot 38 : 6 bornes ou parkings commerciaux introuvables"
+          assert all(x.get("overnightEvidenceUrl","").startswith("https://") and x.get("overnightCheckedAt")=="2026-10-20" for x in lot38), "Lot 38 : avertissements nocturnes non sourcés"
+          porn_service=next(x for x in lot38 if x["sourceId"]=="ACCAMACCAMEBORNEVALSTMARTIN")
+          assert porn_service.get("overnightStatus")=="prohibited" and porn_service.get("overnightCategory")=="service_only_no_stay" and porn_service.get("overnightPolicyEvidenceUrl","").startswith("https://www.campingcarpark.com/") and "2 €" in porn_service.get("price",""), "Pornic : borne de services non assimilable à une étape nocturne"
+          assert sum(x.get("overnightStatus")=="not_established" for x in lot38)==5 and all(x.get("overnightClassification")=="not_established_not_prohibited" and x.get("overnightVerificationNote") for x in lot38 if x.get("sourceId")!="ACCAMACCAMEBORNEVALSTMARTIN"), "Lot 38 : cinq nuitées non établies, sans interdiction inventée"
           overnight_prohibited_regional=[x for x in visible_regional if x.get("overnightStatus")=="prohibited"]
           overnight_prohibited_extra=[x for x in visible_osm if x.get("overnightStatus")=="prohibited"]
-          assert len(overnight_prohibited_regional)==5 and not overnight_prohibited_extra, "44 : 5 interdictions explicites attendues"
+          assert len(overnight_prohibited_regional)==6 and not overnight_prohibited_extra, "44 : 6 fiches où la nuitée est exclue, dont la borne technique CCP Pornic"
           assert all(x.get("overnightReason") and str(x.get("overnightEvidenceUrl","")).startswith("https://") for x in overnight_prohibited_regional), "44 : fiche à nuitée interdite sans source fiable"
           night_unestablished_new={"ACCAMPDL044V50HSVL","ACCAMPDL044V51D0AJ","ACCAMPDL044V51MES6","ACCAMPDL044V51R0KA","ACCAMPDL044V519OUQ","ACCAMPDL044V50ETZU","ACCAMPDL044V50ET43"}
           night_unestablished_records=[x for x in visible_regional if str(x.get("sourceId")) in night_unestablished_new]
@@ -172,7 +179,7 @@ jobs:
           assert "contradictoires" in biochon.get("operationalWarning","") and biochon.get("operationalWarningSource","").startswith("https://www.campingcarpark.com/") and "temporairement fermée" in biochon.get("operationalWarning",""), "Biochon : avertissement contradictoire non tracé"
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
-          assert night_flags_total==22 and night_filter_visible==147, f"44 : attendu 17 nuitées non établies + 5 interdictions (147 points affichés après filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
+          assert night_flags_total==28 and night_filter_visible==141, f"44 : 22 nuitées non établies + 6 points de nuitée exclue (141 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -233,6 +240,7 @@ jobs:
               "- Lot 35 : deux campings municipaux au Pouliguen, Le Cléin et Les Mouettes, 109/200 emplacements nus ; grille communale 2026 18,95/20,70/27,30 €, et borne distincte 4,40 € / 100 L.",
               "- Lot 36 : Les Mouettes de Saint-Père-en-Retz — établissement 2026 administrativement actif, discordance avec SIRET des anciens documents et horaires CGV non millésimés ; Saint-Molf — GPS et animaux e-SPRIT 2026 confirmés, nuitée et prix toujours à vérifier.",
               "- Lot 37 : campings La Prée (22 emplacements de camping, forfait 16 à 32 € en 2026, minimum 2 nuits) et Éléovic (27 vue mer/20 standards, 27 à 115 € en 2026) ajoutés ; accès de Biochon marqué contradictoire.",
+              "- Lot 38 : 6 points techniques/parkings commerciaux traités : Pornic CAMPING-CAR PARK service uniquement sans séjour, cinq autres nuitées non établies ; 141 lieux visibles après filtre.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",
