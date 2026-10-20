@@ -162,10 +162,17 @@ jobs:
           assert all(x.get("priceYear")==2026 and x.get("priceEvidenceDocument","").endswith("2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf") and "18,95 €" in x.get("price","") and "20,70 €" in x.get("price","") and "27,30 €" in x.get("price","") and x.get("contactEmailSource","").startswith("https://") for x in municipal_sites), "44 : tarif 2026 ou contact municipal manquant"
           aire_pouliguen=next(x for x in visible_regional if x.get("sourceId")=="ACCAMECCLEPOULIGUEN")
           assert "4,40 €" in aire_pouliguen.get("price","") and "4,20 €" not in aire_pouliguen.get("price","") and aire_pouliguen.get("priceSource")==municipal_sites[0]["priceSource"], "44 : tarif 2026 borne du Pouliguen non rectifié"
-          assert len(regional)==160 and len(visible_regional)==158 and total_visible==167, "44 : après deux ajouts le compteur attendu est 167"
+          assert len(regional)==162 and len(visible_regional)==160 and total_visible==169, "44 : total attendu 169 après deux campings supplémentaires à Préfailles"
+          pree=next(x for x in visible_regional if x.get("sourceId")=="HPAPDL044V507V64")
+          eleo=next(x for x in visible_regional if x.get("sourceId")=="HPAPDL044000113")
+          assert pree.get("priceYear")==2026 and pree.get("capacityBarePitchesPublished")==22 and pree.get("minimumNights2026")==2 and all(v in pree.get("price","") for v in ("16 €","20 €","25 €","32 €","4,90 €")) and pree.get("priceSource")=="https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements", "La Prée : prix millésimés et capacité manquants"
+          assert eleo.get("priceYear")==2026 and eleo.get("capacitySeaViewPitchesPublished")==27 and eleo.get("capacityStandardPitchesPublished")==20 and all(v in eleo.get("price","") for v in ("27","115 €","0,66 €")) and eleo.get("priceSource")=="https://www.pornic.com/camping-eleovic.html", "Éléovic : tarifs 2026 ou capacité erronés"
+          assert all(x.get("contactEmail") and x.get("contactEmailSource") and not x.get("overnightStatus") for x in (pree,eleo)), "Préfailles : contacts ou statut de nuitée manquants"
+          biochon=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMEEPRAIRCAMPCARBIOCHON")
+          assert "contradictoires" in biochon.get("operationalWarning","") and biochon.get("operationalWarningSource","").startswith("https://www.campingcarpark.com/") and "temporairement fermée" in biochon.get("operationalWarning",""), "Biochon : avertissement contradictoire non tracé"
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
-          assert night_flags_total==22 and night_filter_visible==145, f"44 : attendu 17 nuitées non établies + 5 interdictions (145 points affichés après filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
+          assert night_flags_total==22 and night_filter_visible==147, f"44 : attendu 17 nuitées non établies + 5 interdictions (147 points affichés après filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -215,7 +222,7 @@ jobs:
               f"- Fiches régionales masquées par doublon déclaré : **{len(regional)-len(visible_regional)}**",
               f"- Compléments OSM masqués par le filtre transversal : **{len(osm)-len(visible_osm)}**",
               f"- **Total de fiches visibles attendu (mêmes filtres que app.js) : {total_visible}** ({len(visible_regional)} régionales + {len(visible_osm)} complémentaires)",
-              f"- Variation depuis 165 fiches avant lot 35 : **{total_visible-165:+d}** ; 167 lieux attendus après ajout de deux campings municipaux distincts",
+              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 169 lieux attendus après quatre ajouts distincts (lots 35 et 37)",
               f"- Aires de pique-nique régionales avec nuitée non établie : **{overnight_pending}**",
               f"- Autres haltes régionales avec nuitée non établie : **{overnight_other_regional}**",
               f"- Compléments visibles avec nuitée non établie : **{overnight_extra}**",
@@ -225,6 +232,7 @@ jobs:
               "- Lot 34 : Le Ranch dispose d’un prix de référence tiers 2026 (74 €/nuit, non contractuel) distinct du champ tarif non confirmé ; Chênes Verts horaires d’emplacement 14h/12h sourcés.",
               "- Lot 35 : deux campings municipaux au Pouliguen, Le Cléin et Les Mouettes, 109/200 emplacements nus ; grille communale 2026 18,95/20,70/27,30 €, et borne distincte 4,40 € / 100 L.",
               "- Lot 36 : Les Mouettes de Saint-Père-en-Retz — établissement 2026 administrativement actif, discordance avec SIRET des anciens documents et horaires CGV non millésimés ; Saint-Molf — GPS et animaux e-SPRIT 2026 confirmés, nuitée et prix toujours à vérifier.",
+              "- Lot 37 : campings La Prée (22 emplacements de camping, forfait 16 à 32 € en 2026, minimum 2 nuits) et Éléovic (27 vue mer/20 standards, 27 à 115 € en 2026) ajoutés ; accès de Biochon marqué contradictoire.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",

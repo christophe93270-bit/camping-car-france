@@ -710,3 +710,24 @@ Sources :
 - https://www.les-mouettes-camping.com/conditions-generales-de-vente
 - https://www.cirkwi.com/fr/point-interet/1157462-aire-de-camping-cars-de-saint-molf
 - https://www.mairie-saint-molf.fr/pratique/police-municipale/reglementations/
+
+## Lot complémentaire 37 — 20 octobre 2026
+
+**Deux campings manquants ajoutés au 44 et une information contradictoire d'ouverture rendue visible.**
+
+- **Camping de La Prée**, 2 chemin de la Prée, Préfailles, sourceId `HPAPDL044V507V64`, GPS `47.14379,-2.22827`. Le site annonce **47 emplacements au total** et sa page tarifaire **22 emplacements de camping ombragés** pour tentes, caravanes et camping-cars. Saison 2026 : **27/03–11/10**. Grille 2026 pour deux personnes et un véhicule : **16/20/25/32/20/16 €** selon six périodes ; électricité 10 A facultative **4,90 €**, **deux nuits minimum**, entrée **14 h 30**, sortie **11 h**. Contact **02 40 21 02 64**, `contact@camping-prefailles.fr`. La vidange ouverte aux véhicules extérieurs n'est pas démontrée.
+- **Camping Éléovic**, 107 route de la Pointe Saint-Gildas, Préfailles, sourceId `HPAPDL044000113`, GPS `47.1324,-2.23195`. Camping 4 étoiles ouvert en 2026 du **03/04 au 27/09**. L'exploitant indique **27 emplacements vue mer et 20 standards**, accessibles aux caravanes/tentes/camping-cars, électricité 10 A comprise. Tarif tourisme **27 à 115 €/nuit** pour un emplacement deux personnes avec voiture selon période/catégorie, **taxe de séjour 0,66 €/adulte/nuit**. Contact **02 40 21 61 60**, `contact@camping-eleovic.com`. Les chiffres ne constituent pas des places réservées exclusivement aux camping-cars.
+- **CAMPING-CAR PARK Préfailles Biochon** : en octobre 2026, la fiche individuelle de l'exploitant affiche **ouverte**, tandis que le circuit officiel « Loire-Atlantique : de l'estuaire à l'océan » signale **temporairement fermée, 0/0 place**. Information **contradictoire** explicitée dans une alerte opérationnelle, sans supprimer l'aire, affirmer sa fermeture définitive ou modifier son tarif.
+- Les deux campings de Préfailles sont distincts des 4 autres structures déjà enregistrées dans la commune ; comparaison des coordonnées et adresses. Ouverture de saison terminée au 20 octobre 2026 pour les deux nouveaux campings.
+- Audit : comptes et assertions de présence, prix 2026, contacts, capacités non exclusives et avertissement Biochon.
+- **Totaux attendus : 169 fiches générales, 147 avec filtre nocturne (22 masquées), 11 tarifs strictement Non confirmé.**
+
+Sources :
+- https://camping-prefailles.fr/index.php/fr/
+- https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements
+- https://www.cirkwi.com/fr/point-interet/587972-camping-de-la-pree
+- https://www.camping-eleovic.com/
+- https://www.camping-eleovic.com/emplacements-camping-4-etoiles-prefailles/
+- https://www.pornic.com/camping-eleovic.html
+- https://www.campingcarpark.com/fr_FR/circuits/loire-atlantique-%3A-de-l%27estuaire-a-l%27ocean
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon
