@@ -253,7 +253,7 @@ Sources de ce lot :
 
 **Information utilisateur améliorée sur la page d'accueil** : le compteur représente des **fiches** (dont des campings, aires de services et simples pique-niques), pas nécessairement autant de terrains indépendants ni autorisés pour une nuitée. Cela corrige une ambiguïté constatée au site La Pointe, sans modifier le décompte 165.
 
-**Tarifs exactement `Non confirmé` inchangés : 19 en régional brut, dont 2 doublons masqués, soit 17 fiches régionales visibles** ; 3 fiches complémentaires toujours inconnues. Les 17 fiches se répartissent en 7 aires de pique-nique, 2 étapes France Passion, 15 campings ou fiches contenant « camping » et 0 autres haltes/services (classes disjointes).
+**Tarifs exactement `Non confirmé` inchangés : 19 en régional brut, dont 2 doublons masqués, soit 17 fiches régionales visibles** ; 3 fiches complémentaires toujours inconnues. Les 17 fiches régionales visibles concernées se répartissent en catégories exclusives : 7 aires de pique-nique sans nuitée confirmée, 2 étapes France Passion dont la participation 2026 reste à vérifier, et 8 autres lieux (campings ou haltes) sans tarif exact confirmé.
 
 **Prochaines validations demandant contact terrain ou exploitant** : tarifs et conditions de réservation ANAS ; forfaits Camping Le Ranch, Clos Mer et Nature, Chênes Verts et Eden ; autorisations de nuitée et identité GPS des sept aires de pique-nique ; éventuel recouvrement d'emplacements Préfailles et Corcoué.
 
