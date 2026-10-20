@@ -79,7 +79,7 @@ jobs:
           expected_email_ids={"ACCAMPDL044V51I23X","ACCAMACCAMPDL044V50G1TE","ACCAMPDL044V5002ZN","ACCAMACCAMPDL044000049","ACCAMPDL044V50ZDO9","ACCAMEAIREDESTMOLF","node/11786823109","way/1317028497","ACCAMPDL044V50Y077","ACCAMACCAMPDL044000155","ACCAMACCAMPDL044000154"}
           assert expected_email_ids.issubset({str(x.get("sourceId")) for x in emails}), "44 : les 11 tarifs non confirmés doivent disposer d’un courriel public sourcé"
           unresolved_all=[x for x in visible_regional+visible_osm if x.get("price")=="Non confirmé"]
-          assert len(unresolved_all)==19 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 : suivi des 19 prix strictement non confirmés ou des courriels incomplet"
+          assert len(unresolved_all)==22 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 : suivi des 22 prix strictement non confirmés ou des courriels incomplet"
           ranch=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000049")
           assert ranch.get("price")=="Non confirmé" and "point de vidange camping-car" in " ".join(ranch.get("services",[])).lower() and ranch.get("drainageFacilitySource")=="https://www.yellohvillage.fr/camping/le_ranch/nos_services", "Le Ranch : service vérifié ou réserve manquante"
           contacts_incomplete=[str(x.get("sourceId")) for x in visible_regional+visible_osm if x.get("contactPhone") and (not str(x.get("contactSource","")).startswith("https://") or not x.get("contactRole") and x.get("priceCheckedAt"))]
@@ -290,9 +290,22 @@ jobs:
           assert mc.get("price")=="Non confirmé" and mc.get("capacityCampingCarTourism")==14 and "11/10" in mc.get("seasonalDates2026","") and "12/10" in mc.get("seasonalDates2026",""), "Lot 48 Mon Calme : capacité, prix ou dates contradictoires non tracés"
           assert ps.get("priceYear")==2026 and all(x in ps.get("price","") for x in ["5,90 €","4,90 €","2,90 €","23,54 €"]) and ps.get("priceIllustrativeCalculation",{}).get("exampleWithElectricityAndTax")==23.54, "Lot 48 Pors-er-Ster : grille de prix 2026 ou exemple mal calculé"
           assert ps.get("longitude")<0 and "6,80 m" in ps.get("operationalWarning","") and "vidange" in ps.get("operationalWarning","").lower(), "Lot 48 : géolocalisation et limite camping-car invalides"
+          # Lot 49 : trois campings camping-car distincts, tarifs 2026 prudents et contacts sourcés.
+          lot49_ids={"CCF44-PLAINE-LE-BERNIER-2026","CCF44-GUERANDE-LA-FONTAINE-2026","CCF44-LE-GAVRE-CAMPING-FORET-2026"}
+          lot49=[x for x in visible_regional if x.get("sourceId") in lot49_ids]
+          assert len(lot49)==3, "Lot 49 : trois nouveaux campings manquants"
+          assert all(x.get("price")=="Non confirmé" and x.get("priceCheckedAt")=="2026-10-20" and not x.get("overnightStatus") and x.get("contactPhone") and x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") for x in lot49), "Lot 49 : sources, contacts, prix ou filtre nocturne incohérents"
+          bernier=next(x for x in lot49 if x.get("sourceId")=="CCF44-PLAINE-LE-BERNIER-2026")
+          fontaine=next(x for x in lot49 if x.get("sourceId")=="CCF44-GUERANDE-LA-FONTAINE-2026")
+          foret=next(x for x in lot49 if x.get("sourceId")=="CCF44-LE-GAVRE-CAMPING-FORET-2026")
+          assert "03/04/2026" in bernier.get("seasonalDates2026","") and "04/10/2026" in bernier.get("seasonalDates2026",""), "Bernier : saison 2026 perdue"
+          assert fontaine.get("capacityCampingCarTourism")==66 and "14/04" in fontaine.get("seasonalDates2026","") and "04/10" in fontaine.get("seasonalDates2026",""), "Fontaine : capacité ou contradiction saison absente"
+          assert foret.get("capacityCampingCarTourism")==10 and foret.get("capacityAllTourism")==73 and "75" in foret.get("status",""), "Forêt Gâvre : capacités contradictoires non tracées"
+          assert len([x for x in visible_regional if "albatros" in norm(x.get("name"))])==1, "Lot 49 : ne pas dupliquer L'Albatros déjà présent"
+
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
-          assert night_flags_total==28 and night_filter_visible==173, f"44 : 28 lieux écartés du filtre nocturne (173 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
+          assert night_flags_total==28 and night_filter_visible==176, f"44 : 28 lieux écartés du filtre nocturne (176 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -342,7 +355,7 @@ jobs:
               f"- Fiches régionales masquées par doublon déclaré : **{len(regional)-len(visible_regional)}**",
               f"- Compléments OSM masqués par le filtre transversal : **{len(osm)-len(visible_osm)}**",
               f"- **Total de fiches visibles attendu (mêmes filtres que app.js) : {total_visible}** ({len(visible_regional)} régionales + {len(visible_osm)} complémentaires)",
-              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 201 lieux attendus après trente-six ajouts distincts (lots 35, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47 et 48)",
+              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 204 lieux attendus après trente-neuf ajouts distincts (lots 35, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48 et 49)",
               f"- Aires de pique-nique régionales avec nuitée non établie : **{overnight_pending}**",
               f"- Autres haltes régionales avec nuitée non établie : **{overnight_other_regional}**",
               f"- Compléments visibles avec nuitée non établie : **{overnight_extra}**",
@@ -364,6 +377,7 @@ jobs:
               "- Lot 46 : quatre lieux supplémentaires (Gruellau, Tréambert, Petit Bois, GCU Mesquer). Total 196, filtre 168, tarifs strictement Non confirmé 16. Gruellau et GCU disposent seulement de prix d’appel non assimilables à forfait 2026 complet ; divergences d’ouverture Gruellau, caractère associatif GCU, voisinage Tréambert/Petit Bois documentés.",
               "- Lot 47 : trois campings supplémentaires (La Falaise La Turballe, Le Beaupré Mesquer, Au Soir d’Eté Mesquer). 199 fiches, 171 avec filtre, 18 prix strictement Non confirmé (16 anciens + 2 nouveaux). Au Soir d’Eté : prix d’appel de 21 € sur page exploitant présentant 2026, offre ponctuelle 126 € / 7 nuits et divergence de saison signalées ; aucun prix garanti pour toute date.",
               "- Lot 48 : deux campings Piriac (Domaine Mon Calme, Les Amis de la Nature Pors-er-Ster) ajoutés ; Le Briord déjà présent enrichi sans doublon. Mon Calme prix Non confirmé ; Pors-er-Ster barème exploitant 2026 avec camping-car 6,80 m maxi sans eau/vidange grise. Totaux 201/173, 19 prix Non confirmé.",
+              "- Lot 49 : Le Bernier (La Plaine-sur-Mer), La Fontaine (Guérande), Camping de la Forêt (Le Gâvre) ajoutés ; L'Albatros déjà en base, non dupliqué. Tarifs exacts 2026 non confirmés, saison/divergences documentées. Totaux attendus 204/176, 22 tarifs strictement Non confirmé.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",

@@ -95,3 +95,13 @@ Le camping Le Briord est déjà présent et a seulement bénéficié d'un enrich
 | Domaine Mon Calme, Piriac (`CCF44-PIRIAC-DOMAINE-MON-CALME-2026`) | `contact@campingmoncalme.com` [source](https://www.pincamp.ch/fr/campings/camping-mon-calme) | [Préparer le courriel](mailto:contact@campingmoncalme.com?subject=Camping-Car%20France%20%3A%20demande%20de%20tarif%202026%20camping-car%20%E2%80%94%20Domaine%20Mon%20Calme&body=Bonjour%2C%0A%0ANous%20v%C3%A9rifions%20les%20informations%20des%20aires%20et%20campings%20en%20Loire-Atlantique.%20Pourriez-vous%20confirmer%20le%20forfait%20nuit%C3%A9e%20camping-car%202026%20pour%20deux%20adultes%2C%20%C3%A9lectricit%C3%A9%20%C3%A9ventuelle%2C%20taxe%20de%20s%C3%A9jour%20et%20frais%20de%20r%C3%A9servation%2C%20ainsi%20que%20la%20possibilit%C3%A9%20de%20vidange%20pour%20un%20non-r%C3%A9sident%20%3F%20Pourriez-vous%20aussi%20pr%C3%A9ciser%20si%20le%20camping%20fermait%20le%2011%20ou%20le%2012%20octobre%202026%20%3F%0A%0AMerci%20de%20votre%20aide.%0ACamping-Car%20France.) | Non envoyé |
 
 **État après lot 48 : 19 prix strictement non confirmés, 19 courriels publics sourcés, aucun message envoyé ni réponse reçue.**
+
+## Nouvelles demandes à envoyer — lot 49 (20 octobre 2026)
+
+| Lieu et identifiant | Contact public vérifié | Question prioritaire | État |
+|---|---|---|---|
+| Camping Le Bernier, La Plaine-sur-Mer (`CCF44-PLAINE-LE-BERNIER-2026`) | `camping.lebernier@orange.fr` · [exploitant](https://camping-lebernier.fr/hebergements/) | Barème exact 2026 d'un emplacement camping-car, deux adultes, avec/sans électricité, taxes, accès borne éventuelle sans séjour | **Non envoyé** |
+| Camping La Fontaine, Guérande (`CCF44-GUERANDE-LA-FONTAINE-2026`) | `contact@camping-lafontaine.com` · [exploitant](https://www.camping-lafontaine.com/contact-acces/) | Barème 2026 camping-car pour 2 adultes, taxes et dates d'ouverture 2026 (tourisme 04/10, exploitant 15/10 non millésimé) | **Non envoyé** |
+| Camping de la Forêt, Le Gâvre (`CCF44-LE-GAVRE-CAMPING-FORET-2026`) | `campinglegavre@gmail.com` · [e-SPRIT](https://www.cirkwi.com/fr/point-interet/1502620-camping-de-la-foret) | Barème 2026 camping-car 2 adultes, électricité, saison d'ouverture et accès éventuel services pour non-résidents | **Non envoyé** |
+
+**Après lot 49 : 22 tarifs strictement non confirmés parmi les fiches visibles, dont trois nouvelles demandes sans message envoyé.** Toutes les fiches disposent d'un courriel public sourcé.

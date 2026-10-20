@@ -955,3 +955,24 @@ Sources :
 - https://campinglesamisdelanaturepiriac.fr/tarifs-reservations-avis/
 - https://www.cirkwi.com/fr/point-interet/453146-les-amis-de-la-nature
 - https://amis-nature.fr/hebergements/pors-er-ster/
+
+## Lot complémentaire 49 — 20 octobre 2026
+
+**Trois campings supplémentaires accueillant explicitement les camping-cars, tous situés en Loire-Atlantique, ajoutés après contrôle des identités et GPS.** Le camping L'Albatros, examiné à cette occasion, existe déjà sous `ACCAMACCAMPDL044000046` et **n'a pas été dupliqué**.
+
+- **Camping Le Bernier – La Plaine-sur-Mer** — `CCF44-PLAINE-LE-BERNIER-2026`, 56 rue de la Cormorane, GPS e-SPRIT `47.15089,-2.19485`. Emplacements herbeux pour camping-car, caravane et tente ; saison annoncée 2026 du **03/04 au 04/10** sur l'accueil de l'exploitant. Forfait nuitée camping-car deux adultes et suppléments 2026 **Non confirmé** : l'offre couple 294 €/semaine ne prouve pas le prix de l'emplacement camping-car. Établissement distinct de La Guichardière à ~1 km. Contact `camping.lebernier@orange.fr`, `02 40 21 04 31`.
+- **Camping La Fontaine – Guérande** — `CCF44-GUERANDE-LA-FONTAINE-2026`, Kersavary route de Saint-Molf, GPS opérateur `47.35066997520464,-2.4346111449343493`. **66 emplacements camping-car** selon Pays de la Loire Tourisme, parmi **110 places au total**. Source tourisme : **04/04–04/10/2026** ; opérateur : **14/04–15/10 pour campeurs**, sans millésime précis. Établissement distinct de l'aire CAMPING-CAR PARK de Guérande à plus de 2 km. Prix nuitée camping-car exact 2026 **Non confirmé** ; ne pas reprendre les grilles de camping homonyme en dehors du 44. Contact `contact@camping-lafontaine.com`, `02 40 24 96 19`.
+- **Camping de la Forêt – Le Gâvre** — `CCF44-LE-GAVRE-CAMPING-FORET-2026`, 3 rue de l'Étang, GPS e-SPRIT `47.5198881,-1.7505215`. **10 places pour camping-cars** recensées parmi 73 emplacements touristiques ; un descriptif plus ancien annonce 75 emplacements, sans additionner les deux nombres. Nuitée camping-car 2026 **Non confirmé**, ouverture 2026 à vérifier. Contact `campinglegavre@gmail.com`, `02 40 51 20 62`.
+
+**Compteurs statiques attendus après lot 49 : 204 fiches sans filtre, 176 avec filtre nocturne (28 masquées), 22 tarifs strictement `Non confirmé` parmi les fiches visibles.** Les trois nouvelles fiches sont des campings (accueil conditionné à réservation/saison) et ne garantissent ni ouverture le 20 octobre, ni services accessibles sans séjour. Vérification du compteur public après déploiement nécessaire ; aucun tarif 2026 non prouvé n'est présenté comme confirmé.
+
+Sources :
+- https://camping-lebernier.fr/ 
+- https://camping-lebernier.fr/hebergements/
+- https://www.cirkwi.com/fr/point-interet/587953-le-bernier
+- https://www.camping-lafontaine.com/contact-acces/
+- https://www.camping-lafontaine.com/location-emplacement-guerande/
+- https://www.enpaysdelaloire.com/hebergements/campings/camping-la-fontaine
+- https://www.enpaysdelaloire.com/hebergements/campings/camping-de-la-foret
+- https://rando.loire-atlantique.fr/service/183923-CAMPING-DE-LA-FORET-%2A%2A
+- https://www.cirkwi.com/fr/point-interet/1502620-camping-de-la-foret
