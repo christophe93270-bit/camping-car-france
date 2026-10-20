@@ -67,6 +67,7 @@ jobs:
           visible_osm_unknown=sum(x.get("price")=="Non confirmé" for x in visible_osm)
           overnight_pending=sum(x.get("overnightStatus")=="not_established" and "pique-nique" in str(x.get("type","")).lower() for x in visible_regional)
           total_visible=len(visible_regional)+len(visible_osm)
+          extra_potential_duplicates=[x for x in visible_osm if x.get("potentialDuplicateOfSourceId")]
           overnight_other_regional=sum(x.get("overnightStatus")=="not_established" and "pique-nique" not in str(x.get("type","")).lower() for x in visible_regional)
           overnight_extra=sum(x.get("overnightStatus")=="not_established" for x in visible_osm)
           missing_city=missing_services=unknown_price=bad_gps=0
@@ -114,6 +115,8 @@ jobs:
               f"- Aires de pique-nique régionales avec nuitée non établie : **{overnight_pending}**",
               f"- Autres haltes régionales avec nuitée non établie : **{overnight_other_regional}**",
               f"- Compléments visibles avec nuitée non établie : **{overnight_extra}**",
+              f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
+              "- Ces doublons potentiels ne sont pas fusionnés sans concordance suffisante des emprises.",
               f"- Coordonnées GPS invalides : **{bad_gps}**",
               f"- Fiches OSM avec une correspondance régionale à 350 m ou moins : **{len(candidates)}**",
               "",

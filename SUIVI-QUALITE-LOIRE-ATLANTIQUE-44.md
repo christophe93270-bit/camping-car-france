@@ -320,3 +320,17 @@ https://www.accueil-paysan.com/fr/structure/2003/
 https://www.cirkwi.com/fr/point-interet/1157462-aire-de-camping-cars-de-saint-molf
 https://park4night.com/fr/place/14223
 https://www.stellplatzfuehrer.de/fr/parcs-de-vr/listes/all/17565-corcoue-sur-logne
+
+## Lot complémentaire 15 — 20 octobre 2026
+
+**Sources croisées sur les trois compléments visibles au tarif strictement « Non confirmé » ; quatre fiches de données ajustées, sans suppression, fusion ni ajout.**
+
+- **Corcoué-sur-Logne, Grotte Saint-Jean (source régionale ACCAMPDL044V5006F5)** : stationnement de 4 places gratuit toute l'année 2026 selon l'office de tourisme. WC et vidange recensés, point d'eau par carte bancaire sans montant publié. Prix reformulé pour distinguer clairement gratuité du stationnement et coût de l'eau non confirmé.
+- **Corcoué-sur-Logne OSM (way/909611149)** : liste de services auparavant vide, renseignée avec les prestations **du site officiel proche**, sans les attribuer de façon certaine au polygone OSM. L'office de tourisme décrit seulement quatre emplacements pour la Grotte Saint-Jean ; aucun ensemble indépendant de quatre places supplémentaires n'est établi. Suspicion de doublon maintenue, sans fusion automatique.
+- **Ancenis-Saint-Géréon, Barrière Saint-Pierre (way/1317028497)** : le guide de la COMPA, édition 2024 (pages imprimées 54–55), confirme avenue des Alliés et deux emplacements face à la halte nautique. Camping-car.com indique trois places et 48 heures sans année récente. Le tarif et la réglementation nocturne 2026 ne sont pas établis : ajout overnightStatus=not_established. Source institutionnelle ancienne désormais prioritaire sur l'annuaire secondaire.
+- **Plessé, point OSM (node/11786823109)** : Mapcarta n'est qu'une reprise cartographique, pas une confirmation officielle de l'autorisation nocturne. Suppression du lien secondaire trompeur dans le champ sourceOfficial ; repère OSM original et son attribution conservés.
+- **Mise à jour de l'interface** : versions d'URL des fichiers régionaux, complémentaires et du JavaScript actualisées pour forcer le chargement de ce lot lors de la consultation du site.
+- **Audit** : rapport enrichi avec le nombre de doublons potentiels explicitement signalés parmi les compléments affichés, sans fusion automatique.
+- **Bilan attendu** : 158 régionales brutes, 156 affichables ; 35 compléments bruts, 9 affichables, soit **165 fiches attendues**. 19 prix régionaux strictement « Non confirmé » dont deux masqués, trois prix complémentaires strictement « Non confirmé » ; donc **20 fiches visibles à tarif entièrement non confirmé**. Les sept pique-niques et les haltes douteuses restent signalés.
+
+Sources : https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/ ; https://www.pays-ancenis.com/fileadmin/user_upload/PA_185x220_AnnuairePros_2024.pdf ; https://www.camping-car.com/aires/34622-aire-de-stationnement/ ; https://park4night.com/fr/place/14223
