@@ -635,3 +635,27 @@ Sources :
 - https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-pique-nique-13
 - https://www.cirkwi.com/fr/point-interet/1708463-aire-de-pique-nique (itinéraire ancien et provenance secondaire)
 - https://rando.loire-atlantique.fr/service/187457-Aire-de-pique-nique
+
+## Lot complémentaire 33 — 20 octobre 2026
+
+**Amélioration du filtre de préparation de nuitée : sept points déjà connus n'avaient aucune preuve claire d'autorisation nocturne mais demeuraient visibles avec le filtre activé.** L'absence de preuve n'établit pas une interdiction ; seuls les champs `overnightStatus=not_established` sont utilisés, pas `prohibited`.
+
+- **Borne du Mottais, Fégréac** : le tourisme départemental confirme une station de vidange ouverte toute l'année, sans aire de nuitée documentée. Ne pas assimiler le parking signalé ailleurs à ce point technique.
+- **Station Leclerc, Clisson** : eau/vidange à la station, distincte du camping du Moulin, sans séjour nocturne documenté à la borne.
+- **Étangs de Soudan** : parking d'activités de loisirs, sans autorisation de nuitée publiée.
+- **Plan d'eau du Clos, Trans-sur-Erdre** : pêche, pique-nique et promenade ; services de camping-car/nuitée non attestés. Courriel municipal documenté ajouté pour une vérification directe.
+- **Le Pin, place de l'Église** : la source officielle régionale indique eau, vidange et stationnement de **courte durée**, avec accès aux services 24 h/24 ; cela ne vaut pas autorisation de dormir. La source officielle est désormais liée directement à la fiche.
+- **Le Gâvre, parking de l'étang** et **La Chevallerais, rue du Pont** : deux parkings répertoriés pour camping-cars mais sans durée nocturne explicitée dans les fiches de tourisme ; ils demeurent consultables sans filtre et ne sont pas présentés comme interdits la nuit.
+- Coordonnées GPS, prix existants et classification du lieu préservés ; avertissement explicite et lien vers la source insérés dans chaque dossier.
+- L'audit vérifie les sept identifiants, les sources et la distinction entre **nuitée non établie** et **nuitée interdite**.
+
+**Compteurs de préparation attendus : 165 fiches générales, 143 avec filtre nocturne (contre 150), et toujours 11 tarifs strictement `Non confirmé`.** Il reste cinq lieux explicitement interdits la nuit ; 17 fiches sont marquées nuitée non établie, dont sept aires de pique-nique.
+
+Sources :
+- https://rando.loire-atlantique.fr/service/6912-Aire-de-service-a-Fegreac
+- https://rando.loire-atlantique.fr/service/186421-AIRE-DE-SERVICE-CAMPING-CAR-STATION-LECLERC
+- https://rando.loire-atlantique.fr/service/190195-ETANGS-DE-SOUDAN
+- https://rando.loire-atlantique.fr/service/183732-Plan-d-eau-du-Clos
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-a-cote-de-l-eglise
+- https://rando.loire-atlantique.fr/service/180264-AIRE-DE-STATIONNEMENT
+- https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT

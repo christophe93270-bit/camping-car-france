@@ -144,9 +144,13 @@ jobs:
           overnight_prohibited_extra=[x for x in visible_osm if x.get("overnightStatus")=="prohibited"]
           assert len(overnight_prohibited_regional)==5 and not overnight_prohibited_extra, "44 : 5 interdictions explicites attendues"
           assert all(x.get("overnightReason") and str(x.get("overnightEvidenceUrl","")).startswith("https://") for x in overnight_prohibited_regional), "44 : fiche à nuitée interdite sans source fiable"
+          night_unestablished_new={"ACCAMPDL044V50HSVL","ACCAMPDL044V51D0AJ","ACCAMPDL044V51MES6","ACCAMPDL044V51R0KA","ACCAMPDL044V519OUQ","ACCAMPDL044V50ETZU","ACCAMPDL044V50ET43"}
+          night_unestablished_records=[x for x in visible_regional if str(x.get("sourceId")) in night_unestablished_new]
+          assert len(night_unestablished_records)==7 and all(x.get("overnightStatus")=="not_established" and x.get("overnightClassification")=="not_established_not_prohibited" and str(x.get("overnightEvidenceUrl","")).startswith("https://") for x in night_unestablished_records), "44 lot 33 : qualification prudentielle des 7 points sans preuve de nuitée incomplète"
+          assert all(x.get("overnightVerificationNote") for x in night_unestablished_records), "44 lot 33 : justification d’incertitude manquante"
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
-          assert night_flags_total==15, f"44 : attendu 10 nuitées non établies + 5 interdictions explicites, obtenu {night_flags_total}"
+          assert night_flags_total==22 and night_filter_visible==143, f"44 : attendu 17 nuitées non établies + 5 interdictions (143 points filtrés), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -202,6 +206,7 @@ jobs:
               f"- Compléments visibles avec nuitée non établie : **{overnight_extra}**",
               f"- Fiches régionales avec nuitée explicitement non autorisée (jour seulement ou services uniquement) : **{len(overnight_prohibited_regional)}**",
               f"- **Filtre nuitée interdite OU non établie : {night_filter_visible} lieux / {total_visible}**",
+              "- Lot 33 : 7 fiches auparavant non filtrées requalifiées nuitée NON ÉTABLIE (sans prétendre une interdiction) ; 143 visibles avec filtre.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",
