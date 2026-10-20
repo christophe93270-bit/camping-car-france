@@ -976,3 +976,26 @@ Sources :
 - https://www.enpaysdelaloire.com/hebergements/campings/camping-de-la-foret
 - https://rando.loire-atlantique.fr/service/183923-CAMPING-DE-LA-FORET-%2A%2A
 - https://www.cirkwi.com/fr/point-interet/1502620-camping-de-la-foret
+
+## Lot complémentaire 50 — 20 octobre 2026
+
+**Trois campings vérifiés et distincts, accueillant les camping-cars, ajoutés sans fusion avec les aires voisines**. Tous sont saisonniers et fermés selon leurs dates publiées au 20 octobre 2026. Aucune nuitée ni présence de borne extérieure n'est garantie sans réservation.
+
+- **Camping Les Bleuets, Sainte-Marie-sur-Mer / Pornic** — `CCF44-PORNIC-LES-BLEUETS-2026`, 8 lieu-dit Les Bleuets, GPS opérateur `47.14034,-2.13059`. L'exploitant confirme des emplacements camping-car et la vidange intérieure (eaux grises/cassette/eau potable) ; accès non-résident non vérifié. **Saison 01/04–30/09/2026**. Le barème officiel 2026 indique **20–36 €** pour *deux personnes + tente ou caravane + véhicule* selon dates, électricité **6,20 €**, taxe **0,22 €/adulte/nuit** ; ces lignes n'identifient **pas expressément** un tarif camping-car. Champ `price` **Non confirmé**, sans extrapoler. Contact `contact@campinglesbleuets.com`, `02 40 82 11 07`.
+- **Eden Villages Domaine de Bréhadour, Guérande** — `CCF44-GUERANDE-BREHADOUR-2026`, route de Bréhadour, GPS PiNCAMP `47.342655,-2.418413`. Le site historique présente une halte camping-car spécifique (80 m², arrivée après 18 h, départ avant 10 h, aire de vidange), mais les montants **11/16 €** de cette page n'ont **aucune année explicite** et ne sont pas des tarifs 2026 vérifiés. Campingnavigator affiche une fourchette de 16–35 € en 2026 pour un emplacement standard, prix tiers à confirmer par exploitant. L'office signale **140 emplacements nus, 80 locatifs, 260 classés au total** ; ne pas additionner ni attribuer tous les emplacements aux camping-cars. **Saison 03/04–20/09/2026**. Contact `brehadour@edenvillages.fr`, `02 40 17 65 15`. Distinct de CAMPING-CAR PARK avenue de la Brière (~0,9 km).
+- **Aloa Vacances La Riviera, Saint-Michel-Chef-Chef** — `CCF44-ST-MICHEL-RIVIERA-2026`, 3 rue des Gâtineaux, GPS office de tourisme `47.16426,-2.148`. L'exploitant sur sa page publiée pour 2026 et Destination Pornic confirment des emplacements camping-car, avec eau et électricité annoncées par l'office. Nombre de places *réservées* aux camping-cars non vérifié : 100 locatives et 77 résidentielles sont des catégories distinctes dans le répertoire régional. **Saison 04/04–13/09/2026**. Nuitée camping-car 2026 **Non confirmé**, pas de tarifs de mobil-home substitués. Contact `info.riviera@aloa-vacances.com`, `02 40 39 88 12`.
+
+**Compteurs attendus : 207 lieux au total, 179 avec filtre nocturne (28 masqués), 25 prix strictement `Non confirmé`.** Trois nouvelles demandes de tarifs à adresser aux exploitants ; aucun message envoyé. Les preuves GPS, saisons et contacts figurent dans les trois fiches, les prix tiers/non millésimés restent seulement indicatifs.
+
+Sources :
+- https://www.campinglesbleuets.com/emplacement-camping-car-pornic
+- https://www.campinglesbleuets.com/emplacements-camping-pornic
+- https://www.campinglesbleuets.com/contact-camping-pornic
+- https://www.campinglesbleuets.com/uploads/pdf/FR/brochure.pdf
+- https://www.labaule-guerande.com/offres/camping-eden-villages-domaine-de-brehadour-guerande-fr-6011350/
+- https://www.domainedebrehadour.com/mobile/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml
+- https://www.pincamp.fr/campings/le-domaine-de-brehadour
+- https://campingnavigator.com/fr/campings-france/pays-de-la-loire/eden-villages-domaine-de-brehadour
+- https://www.aloa-vacances.com/la-riviera/espace-aquatique-loire-atlantique/
+- https://www.aloa-vacances.com/la-riviera/mentions-legales/
+- https://www.pornic.com/camping-la-riviera.html

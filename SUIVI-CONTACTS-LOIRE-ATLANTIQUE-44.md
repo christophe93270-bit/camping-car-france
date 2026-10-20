@@ -105,3 +105,13 @@ Le camping Le Briord est déjà présent et a seulement bénéficié d'un enrich
 | Camping de la Forêt, Le Gâvre (`CCF44-LE-GAVRE-CAMPING-FORET-2026`) | `campinglegavre@gmail.com` · [e-SPRIT](https://www.cirkwi.com/fr/point-interet/1502620-camping-de-la-foret) | Barème 2026 camping-car 2 adultes, électricité, saison d'ouverture et accès éventuel services pour non-résidents | **Non envoyé** |
 
 **Après lot 49 : 22 tarifs strictement non confirmés parmi les fiches visibles, dont trois nouvelles demandes sans message envoyé.** Toutes les fiches disposent d'un courriel public sourcé.
+
+## Nouvelles demandes de confirmation — lot 50 (20 octobre 2026)
+
+| Fiche | Courriel public sourcé | Points à confirmer | État |
+|---|---|---|---|
+| Les Bleuets, Pornic (`CCF44-PORNIC-LES-BLEUETS-2026`) | `contact@campinglesbleuets.com` · [exploitant](https://www.campinglesbleuets.com/contact-camping-pornic) | La grille 2026 « tente ou caravane » 20–36 € s'applique-t-elle aux camping-cars ? Conditions FFCC Stop accueil, électricité 6,20 €, taxe 0,22 €, vidange seule pour non-résidents | Non envoyé |
+| Domaine de Bréhadour, Guérande (`CCF44-GUERANDE-BREHADOUR-2026`) | `brehadour@edenvillages.fr` · [PiNCAMP](https://www.pincamp.fr/campings/le-domaine-de-brehadour) | La halte camping-car 80 m² après 18 h existe-t-elle en 2026 ? Quel prix TTC 2 personnes, électricité et taxes ? Les 11/16 € de l'ancienne page sont-ils toujours applicables ? | Non envoyé |
+| La Riviera, Saint-Michel-Chef-Chef (`CCF44-ST-MICHEL-RIVIERA-2026`) | `info.riviera@aloa-vacances.com` · [exploitant](https://www.aloa-vacances.com/la-riviera/mentions-legales/) | Forfait camping-car 2 personnes 2026, électricité, taxe, capacité de vrais emplacements nus et services de vidange | Non envoyé |
+
+**Après lot 50 : 25 tarifs strictement non confirmés, 25 contacts par courriel sourcés. Aucun courriel envoyé, aucune réponse obtenue.**

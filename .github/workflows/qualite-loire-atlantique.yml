@@ -79,7 +79,7 @@ jobs:
           expected_email_ids={"ACCAMPDL044V51I23X","ACCAMACCAMPDL044V50G1TE","ACCAMPDL044V5002ZN","ACCAMACCAMPDL044000049","ACCAMPDL044V50ZDO9","ACCAMEAIREDESTMOLF","node/11786823109","way/1317028497","ACCAMPDL044V50Y077","ACCAMACCAMPDL044000155","ACCAMACCAMPDL044000154"}
           assert expected_email_ids.issubset({str(x.get("sourceId")) for x in emails}), "44 : les 11 tarifs non confirmés doivent disposer d’un courriel public sourcé"
           unresolved_all=[x for x in visible_regional+visible_osm if x.get("price")=="Non confirmé"]
-          assert len(unresolved_all)==22 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 : suivi des 22 prix strictement non confirmés ou des courriels incomplet"
+          assert len(unresolved_all)==25 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 : suivi des 25 prix strictement non confirmés ou des courriels incomplet"
           ranch=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000049")
           assert ranch.get("price")=="Non confirmé" and "point de vidange camping-car" in " ".join(ranch.get("services",[])).lower() and ranch.get("drainageFacilitySource")=="https://www.yellohvillage.fr/camping/le_ranch/nos_services", "Le Ranch : service vérifié ou réserve manquante"
           contacts_incomplete=[str(x.get("sourceId")) for x in visible_regional+visible_osm if x.get("contactPhone") and (not str(x.get("contactSource","")).startswith("https://") or not x.get("contactRole") and x.get("priceCheckedAt"))]
@@ -169,7 +169,7 @@ jobs:
           assert all(x.get("priceYear")==2026 and x.get("priceEvidenceDocument","").endswith("2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf") and "18,95 €" in x.get("price","") and "20,70 €" in x.get("price","") and "27,30 €" in x.get("price","") and x.get("contactEmailSource","").startswith("https://") for x in municipal_sites), "44 : tarif 2026 ou contact municipal manquant"
           aire_pouliguen=next(x for x in visible_regional if x.get("sourceId")=="ACCAMECCLEPOULIGUEN")
           assert "4,40 €" in aire_pouliguen.get("price","") and "4,20 €" not in aire_pouliguen.get("price","") and aire_pouliguen.get("priceSource")==municipal_sites[0]["priceSource"], "44 : tarif 2026 borne du Pouliguen non rectifié"
-          assert len(regional)==197 and len(visible_regional)==195 and total_visible==204, "44 lot 49 : attendu 197 fiches régionales brutes, 195 visibles et 204 au total"
+          assert len(regional)==200 and len(visible_regional)==198 and total_visible==207, "44 lot 50 : attendu 200 fiches régionales brutes, 198 visibles et 207 au total"
           pree=next(x for x in visible_regional if x.get("sourceId")=="HPAPDL044V507V64")
           eleo=next(x for x in visible_regional if x.get("sourceId")=="HPAPDL044000113")
           assert pree.get("priceYear")==2026 and pree.get("capacityBarePitchesPublished")==22 and pree.get("minimumNights2026")==2 and all(v in pree.get("price","") for v in ("16 €","20 €","25 €","32 €","4,90 €")) and pree.get("priceSource")=="https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements", "La Prée : prix millésimés et capacité manquants"
@@ -303,9 +303,22 @@ jobs:
           assert foret.get("capacityCampingCarTourism")==10 and foret.get("capacityAllTourism")==73 and "75" in foret.get("status",""), "Forêt Gâvre : capacités contradictoires non tracées"
           assert len([x for x in visible_regional if "albatros" in norm(x.get("name"))])==1, "Lot 49 : ne pas dupliquer L'Albatros déjà présent"
 
+          # Lot 50 : trois campings camping-car, calendriers 2026 sourcés, tarifs incertains et GPS distincts.
+          lot50_ids={"CCF44-PORNIC-LES-BLEUETS-2026","CCF44-GUERANDE-BREHADOUR-2026","CCF44-ST-MICHEL-RIVIERA-2026"}
+          lot50=[x for x in visible_regional if x.get("sourceId") in lot50_ids]
+          assert len(lot50)==3 and len(set(x.get("sourceId") for x in lot50))==3, "Lot 50 : les 3 campings doivent être uniques"
+          assert all(x.get("price")=="Non confirmé" and x.get("priceCheckedAt")=="2026-10-20" and x.get("priceVerification") and x.get("contactPhone") and x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and not x.get("overnightStatus") for x in lot50), "Lot 50 : GPS, contact, statut nuitée ou prudence prix manquants"
+          bleuets=next(x for x in lot50 if x.get("sourceId")=="CCF44-PORNIC-LES-BLEUETS-2026")
+          brehadour=next(x for x in lot50 if x.get("sourceId")=="CCF44-GUERANDE-BREHADOUR-2026")
+          riviera=next(x for x in lot50 if x.get("sourceId")=="CCF44-ST-MICHEL-RIVIERA-2026")
+          assert "30/09/2026" in bleuets.get("seasonalDates2026","") and "tente OU caravane" in bleuets.get("indicativeRate","") and "6,20 €" in bleuets.get("indicativeRate",""), "Les Bleuets : prix 2026 du camping-car indûment inféré"
+          assert brehadour.get("capacityBarePitchesTourism")==140 and "sans millésime 2026" in brehadour.get("indicativeRate","") and "20/09/2026" in brehadour.get("seasonalDates2026",""), "Bréhadour : capacité ou incertitude sur la halte et saison"
+          assert riviera.get("contactEmail")=="info.riviera@aloa-vacances.com" and "13/09/2026" in riviera.get("seasonalDates2026","") and riviera.get("capacityResidentialTourism")==77, "La Riviera : contact ou saison"
+          assert all(math.isfinite(float(x.get("latitude",float("nan")))) and math.isfinite(float(x.get("longitude",float("nan")))) for x in lot50), "Lot 50 : GPS invalide"
+
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
-          assert night_flags_total==28 and night_filter_visible==176, f"44 : 28 lieux écartés du filtre nocturne (176 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
+          assert night_flags_total==28 and night_filter_visible==179, f"44 : 28 lieux écartés du filtre nocturne (179 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -355,7 +368,7 @@ jobs:
               f"- Fiches régionales masquées par doublon déclaré : **{len(regional)-len(visible_regional)}**",
               f"- Compléments OSM masqués par le filtre transversal : **{len(osm)-len(visible_osm)}**",
               f"- **Total de fiches visibles attendu (mêmes filtres que app.js) : {total_visible}** ({len(visible_regional)} régionales + {len(visible_osm)} complémentaires)",
-              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 204 lieux attendus après trente-neuf ajouts distincts (lots 35, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48 et 49)",
+              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 207 lieux attendus après quarante-deux ajouts distincts (lots 35, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49 et 50)",
               f"- Aires de pique-nique régionales avec nuitée non établie : **{overnight_pending}**",
               f"- Autres haltes régionales avec nuitée non établie : **{overnight_other_regional}**",
               f"- Compléments visibles avec nuitée non établie : **{overnight_extra}**",
@@ -378,6 +391,7 @@ jobs:
               "- Lot 47 : trois campings supplémentaires (La Falaise La Turballe, Le Beaupré Mesquer, Au Soir d’Eté Mesquer). 199 fiches, 171 avec filtre, 18 prix strictement Non confirmé (16 anciens + 2 nouveaux). Au Soir d’Eté : prix d’appel de 21 € sur page exploitant présentant 2026, offre ponctuelle 126 € / 7 nuits et divergence de saison signalées ; aucun prix garanti pour toute date.",
               "- Lot 48 : deux campings Piriac (Domaine Mon Calme, Les Amis de la Nature Pors-er-Ster) ajoutés ; Le Briord déjà présent enrichi sans doublon. Mon Calme prix Non confirmé ; Pors-er-Ster barème exploitant 2026 avec camping-car 6,80 m maxi sans eau/vidange grise. Totaux 201/173, 19 prix Non confirmé.",
               "- Lot 49 : Le Bernier (La Plaine-sur-Mer), La Fontaine (Guérande), Camping de la Forêt (Le Gâvre) ajoutés ; L'Albatros déjà en base, non dupliqué. Tarifs exacts 2026 non confirmés, saison/divergences documentées. Totaux attendus 204/176, 22 tarifs strictement Non confirmé.",
+              "- Lot 50 : Les Bleuets Pornic, Domaine de Bréhadour Guérande et La Riviera Saint-Michel-Chef-Chef ajoutés ; 2026 emplacements confirmés, prix camping-car exacts non confirmés, données saison, GPS et contacts documentés. Totaux attendus 207/179, 25 tarifs strictement Non confirmé.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",
