@@ -598,7 +598,7 @@ async function initAires(){
         <span class="card-top"><span class="department-code">${escapeHTML(a.department)}</span><span class="card-score" style="font-size:.85rem">${escapeHTML(a.type)}</span></span>
         <span class="card-name">${escapeHTML(a.name)}</span>
         <span class="card-foot">${escapeHTML(a.city)}</span>
-        ${a.overnightStatus==="not_established" ? `<p><strong>Attention : aire de pique-nique seulement.</strong> La nuitée en camping-car n'est pas autorisée ou interdite de façon certaine : elle n'a pas été vérifiée. Ne pas l'utiliser comme étape de nuit sans confirmation auprès de la mairie.</p>` : ""}
+        ${a.overnightStatus==="not_established" ? (/pique-nique/i.test(String(a.type||"")) ? `<p><strong>Attention : aire de pique-nique seulement.</strong> Nuitée camping-car non confirmée. Vérifier auprès de la mairie avant de s'y installer pour la nuit.</p>` : `<p><strong>Attention : nuitée camping-car non confirmée.</strong> Le lieu est signalé pour l'arrêt ou le stationnement, mais l'autorisation de nuitée n'a pas été établie. Vérifier la réglementation locale auprès de la mairie.</p>`) : ""}
         ${a.department==="44"&&a.sharedSiteWithSourceId ? `<p><strong>Site partagé :</strong> cette offre peut concerner des emplacements également recensés sous une autre fiche.</p>` : ""}
         ${a.department==="44"&&a.potentialDuplicateOfSourceId ? `<p><strong>Doublon possible :</strong> ce point peut correspondre à un autre lieu déjà recensé.</p>` : ""}
         <p><strong>Services :</strong> ${escapeHTML((Array.isArray(a.services)?a.services:[]).join(", "))}</p>
@@ -624,7 +624,7 @@ async function initAires(){
            popup.append(title,place);
            if(a.overnightStatus==="not_established"){
              const warning=document.createElement("p");
-             warning.textContent="Aire de pique-nique : stationnement nocturne des camping-cars non confirmé.";
+             warning.textContent=/pique-nique/i.test(String(a.type||"")) ? "Aire de pique-nique : stationnement nocturne des camping-cars non confirmé." : "Point de halte ou stationnement : autorisation de nuitée camping-car non vérifiée auprès de la mairie.";
              popup.append(warning);
            }
            if(a.department==="44"&&(a.potentialDuplicateOfSourceId||a.sharedSiteWithSourceId)){

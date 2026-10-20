@@ -300,3 +300,23 @@ Sources de ce lot :
 - Source de l'enrichissement Ancenis : https://www.camping-car.com/aires/34622-aire-de-stationnement/
 - Sources complémentaires revérifiées : https://www.les-mouettes-camping.com/ ; https://www.yellohvillage.fr/camping/le_ranch ; https://www.leschenesverts.info/hebergement/emplacement/ ; https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe ; https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise
 
+## Lot complémentaire 14 — 20 octobre 2026
+
+**Cinq fiches documentées et avertissements de nuitée améliorés**, sans changement d'effectif prévu. Calcul attendu : 165 fiches, 156 régionales et 9 complémentaires.
+
+- **Ferme des Cochons d’Antan, Legé** : exploitation ouverte en 2026 selon Sud Retz Atlantique Tourisme ; accueil France Passion 2026 non confirmé.
+- **Ferme du Biau Chemin, Nort-sur-Erdre** : activité de la ferme et d'accueil pédagogique attestée par annuaire municipal et Accueil Paysan ; inscription France Passion 2026 non démontrée.
+- **Pont de Clin, Saint-Molf** : e-SPRIT mise à jour au 09/03/2026 confirme halte et table/poubelle mais pas l'autorisation nocturne ; overnightStatus=not_established.
+- **Parking Plessé OSM** : overnightStatus=not_established faute de confirmation municipale de la nuitée.
+- **Corcoué rue de la Poste** : les sources décrivent quatre places à proximité du point OSM et une vidange à une autre position ; ne pas supposer deux aires indépendantes sans confirmation cadastrale/communale.
+- **Interface** : avertissement différencié pour les simples pique-niques et les autres stationnements à nuitée non confirmée.
+- **Audit** : 7 pique-niques, 1 autre halte régionale et 1 complémentaire marqués « nuitée non établie ».
+- **Tarifs** : 19 régionaux bruts au prix exactement « Non confirmé », dont 2 masqués ; 3 compléments visibles au même état, soit 20 entrées affichables dont le tarif n'est pas confirmé. Aucun tarif 2026 inventé.
+
+Sources :
+https://www.sudretzatlantique-tourisme.fr/offres/la-ferme-des-cochons-dantan-lege-fr-3121272/
+https://www.nort-sur-erdre.fr/informations-transversales/annuaires/annuaire-des-structures/ferme-du-biau-chemin-des-landes
+https://www.accueil-paysan.com/fr/structure/2003/
+https://www.cirkwi.com/fr/point-interet/1157462-aire-de-camping-cars-de-saint-molf
+https://park4night.com/fr/place/14223
+https://www.stellplatzfuehrer.de/fr/parcs-de-vr/listes/all/17565-corcoue-sur-logne
