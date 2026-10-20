@@ -1138,3 +1138,12 @@ Les [règles officielles ACSI](https://www.acsi.eu/fr/informations-pour-les-camp
 - **Bugeau, Le Beaupré, La Fontaine Guérande, Petit Bois Mesquer, camping de l'Océan, Mon Calme** : consultations officielles et touristiques ; pas de montant de nuitée 2026 applicable certifié dans les grilles consultées, mention `Non confirmé` maintenue. Pour le Bugeau, [contrat opérateur](https://www.campingdubugeau.com/fr/medias/contrat-reservation.pdf) prouve l'acceptation des camping-cars mais pas la grille 2026.
 
 **Bilan lot 58 : 215 / 187, 27 tarifs strictement non confirmés attendus après audit, 0 nouvel établissement. Aucun courriel envoyé.**
+
+
+## Lot tarifaire 59 — 20 octobre 2026 — Le Gâvre : prix indicatif et réserves documentées
+
+**Camping de la Forêt, Le Gâvre** (`CCF44-LE-GAVRE-CAMPING-FORET-2026`) : [Guide Campings](https://www.guide-campings.com/CAMPINGS/camping-foret--gavre-3432.htm) publie un forfait général de **16,56 € pour deux personnes**, une actualité liée à 2026 et un début de saison annoncé **28/03/2026** ; ce prix **n'est ni présenté comme un forfait camping-car certifié 2026 ni accompagné de son détail d'électricité ou taxes**. Le [site officiel du camping](https://campinglegavre.fr/?page_id=95) annonce « d'avril à fin septembre » (sans millésime précis), sa rubrique tarifs ne contenant pas de prix lisible au contrôle. Aucune donnée ne démontre le prix exact d'une nuitée camping-car 2026 ou la validité des dates concurrentes. Le prix strict reste donc `Non confirmé`, et le montant de 16,56 € n'est montré qu'à titre indicatif, avec source et réserve explicite.
+
+**Vérifications croisées sans reclassification :** [Les Chênes Verts](https://www.leschenesverts.info/camping-pas-cher-villeneuve-en-retz/) annoncent des prix dynamiques sans grille 2026 accessible ; [Le Bernier](https://camping-lebernier.fr/) affiche des tarifs 2026 par moteur mais non de forfait camping-car lisible, son offre à 294 €/semaine n'étant pas transposable en nuitée ordinaire ; [Les Mouettes à Saint-Père-en-Retz](https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf) ont une brochure tarifaire datée du 1er janvier **2024**, inutilisable comme prix confirmé en 2026.
+
+**Bilan lot 59 : aucun lieu ajouté, 215 lieux / 187 filtre nocturne attendus, 27 tarifs strictement `Non confirmé` (25 fiches régionales visibles, 2 OSM ; deux doublons masqués exclus). Aucun courriel envoyé.**

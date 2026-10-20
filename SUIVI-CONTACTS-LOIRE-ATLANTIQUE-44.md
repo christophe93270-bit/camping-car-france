@@ -180,3 +180,8 @@ Le camping Le Briord est déjà présent et a seulement bénéficié d'un enrich
 ## Lot 58 — GCU Pornichet
 
 La [brochure officielle GCU 2026](https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf) certifie la **nuitée emplacement camping-car avec électricité pour 2 adhérents (18,94 € basse saison, 27,06 € haute saison)**. L'adhésion et les frais sont distincts. Demande non envoyée à `gcu@gcuf.fr` à conserver uniquement pour confirmer l'accueil des **non-adhérents** dans ce camping, les frais de dossier et l'accès à la vidange sans nuitée. **27 prix strictement `Non confirmé`** sur les fiches visibles au terme du lot 58. Aucun message envoyé.
+
+
+## Lot 59 — Le Gâvre (forfait indicatif, année et nature à confirmer)
+
+[Guide touristique](https://www.guide-campings.com/CAMPINGS/camping-foret--gavre-3432.htm) : forfait général deux personnes à **16,56 €**, non vérifié pour camping-car en 2026. [Site officiel](https://campinglegavre.fr/?page_id=95) : dates sans année précise, aucune grille tarifaire visible. Écrire, si nécessaire, à `campinglegavre@gmail.com` pour demander le **forfait 2026 (2 adultes + camping-car, électricité, taxes, vidange), ses dates d'application et ses conditions**. **Aucun courriel envoyé**. Total restant : **27** tarifs strictement non confirmés sur fiches visibles.

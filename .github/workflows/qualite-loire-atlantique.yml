@@ -79,7 +79,7 @@ jobs:
           expected_email_ids={"ACCAMPDL044V51I23X","ACCAMACCAMPDL044V50G1TE","ACCAMPDL044V5002ZN","ACCAMACCAMPDL044000049","ACCAMPDL044V50ZDO9","ACCAMEAIREDESTMOLF","node/11786823109","way/1317028497","ACCAMPDL044V50Y077","ACCAMACCAMPDL044000155","ACCAMACCAMPDL044000154"}
           assert expected_email_ids.issubset({str(x.get("sourceId")) for x in emails}), "44 : les 11 tarifs non confirmés doivent disposer d’un courriel public sourcé"
           unresolved_all=[x for x in visible_regional+visible_osm if x.get("price")=="Non confirmé"]
-          assert len(unresolved_all)==27 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 58 : 27 prix strictement non confirmés et contacts courriel sourcés obligatoires"
+          assert len(unresolved_all)==27 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 59 : 27 prix strictement non confirmés et contacts courriel sourcés obligatoires"
           ranch=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000049")
           assert ranch.get("price")=="Non confirmé" and "point de vidange camping-car" in " ".join(ranch.get("services",[])).lower() and ranch.get("drainageFacilitySource")=="https://www.yellohvillage.fr/camping/le_ranch/nos_services", "Le Ranch : service vérifié ou réserve manquante"
           contacts_incomplete=[str(x.get("sourceId")) for x in visible_regional+visible_osm if x.get("contactPhone") and (not str(x.get("contactSource","")).startswith("https://") or not x.get("contactRole") and x.get("priceCheckedAt"))]
@@ -358,7 +358,11 @@ jobs:
           assert len([x for x in visible_regional if "troischenes" in norm(x.get("name"))])==0, "Lot 53 : Les Trois Chênes non validé pour les camping-cars en 2026, ne pas ajouter"
           
           # Pause des ajouts de campings (lot 54) : ne pas accumuler de nouveaux tarifs inconnus.
-          assert len(unresolved_all)<=27, "44 : garde-fou tarifaire lot 58, hausse des prix strictement Non confirmé interdite pendant le rattrapage"
+          assert len(unresolved_all)<=27, "44 : garde-fou tarifaire lot 59, hausse des prix strictement Non confirmé interdite pendant le rattrapage"
+          # Lot 59 : les montants non millésimés du Gâvre ne doivent pas être convertis en tarif confirmé.
+          gavre59=next(x for x in visible_regional if x.get("sourceId")=="CCF44-LE-GAVRE-CAMPING-FORET-2026")
+          assert gavre59.get("price")=="Non confirmé" and "16,56 €" in gavre59.get("indicativeRate","") and gavre59.get("indicativeRateSource")=="https://www.guide-campings.com/CAMPINGS/camping-foret--gavre-3432.htm", "Lot 59 : le prix indicatif du Gâvre ne doit pas être certifié"
+          assert gavre59.get("priceEvidenceDocument")=="https://campinglegavre.fr/?page_id=95" and gavre59.get("seasonalDates2026","").startswith("Non certifiées"), "Lot 59 : réserves de saison au Gâvre manquantes"
           # Lot 58 : tarifs officiels GCU Pornichet 2026 pour deux adultes adhérents ; coût global distinct de la nuitée.
           assert bugeau.get("price")=="Non confirmé", "Lot 58 : prix du Bugeau ne doit pas être emprunté au GCU"
           assert gcu53.get("price")!="Non confirmé" and gcu53.get("priceYear")==2026 and gcu53.get("priceSource")=="https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf", "Lot 58 : prix GCU 2026 sans source officielle"
