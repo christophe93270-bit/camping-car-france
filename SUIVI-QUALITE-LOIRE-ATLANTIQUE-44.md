@@ -787,3 +787,22 @@ Sources :
 - https://www.pornic.com/camping-de-prigny.html
 - https://www.pornic.com/camping-du-golf.html
 - https://www.pornic.com/camping-le-port-meleu.html
+
+## Lot complémentaire 41 — 20 octobre 2026
+
+**Cinq nouveaux campings du 44, avec accueil camping-car et tarifs 2026 sourcés, ajoutés après contrôle de leur identité et de leurs coordonnées GPS.**
+
+- **La Goëlette — La Bernerie-en-Retz** (`CCF44-BERNERIE-GOELETTE-2026`), 48 rue de la Sennetière, 47.07069,-2.02545 : 40 emplacements communs tentes/caravanes/camping-cars (aucune capacité exclusive). 01/04–31/10/2026, base **18–22 €/nuit** pour 2 personnes et 1 véhicule, **6 € électricité**, **0,22 €/adulte/nuit** taxe.
+- **Chadotel Les Écureuils — La Bernerie-en-Retz** (`CCF44-BERNERIE-ECUREUILS-2026`), 24 avenue Gilbert Burlot, 47.08438,-2.03739 : emplacements camping-car et aire de services sur le terrain, prix **21–59 €/nuit** avec électricité comprise, taxe **0,66 €** selon Destination Pornic, du 03/04 au 27/09/2026. Les 313 emplacements classés sont toutes catégories confondues. L'ancienne brochure tarifaire 2025 de la page ne se substitue pas à sa grille 2026.
+- **Le Bel Essor — Saint-Michel-Chef-Chef** (`CCF44-ST-MICHEL-BEL-ESSOR-2026`), rue de Tharon, 47.17471,-2.15433 : **14,60–21,60 €/nuit** sur la saison 25/04–26/09/2026, électricité 6 A à **4,80 €** publiée uniquement pour 25/04–26/06, taxe 0,22 €. Camping distinct de Clos Mer et Nature (~370 m), pas de fusion automatique.
+- **Domaine de la Baie Dorée — Villeneuve-en-Retz** (`CCF44-VILLENEUVE-BAIE-DOREE-2026`), 432 La Guérivière, 47.05614,-1.96277 : emplacements **16–33 €/nuit** du 30/04 au 26/09/2026 pour 2 personnes et 1 voiture, taxe 0,66 €. Camping distinct de Les Chênes Verts (~525 m). Services eau et électricité répertoriés, vidange extérieure non confirmée.
+- **Camping de la Morinière — Port-Saint-Père** (`CCF44-PORT-ST-PERE-MORINIERE-2026`), 17 rue de la Morinière, 47.13424,-1.74429 : **13 €/nuit** pour deux personnes et une voiture, **5 € électricité** et **0,22 €/adulte/nuit**, du 01/06 au 30/09/2026. Ne pas confondre les emplacements accessibles PMR avec une capacité réservée aux camping-cars.
+- Les cinq hébergements sont des campings privés et non des parkings gratuits ou des bornes de services indépendantes. Les prix des onze fiches précédemment classées `Non confirmé` restent strictement inchangés.
+- **Compteurs attendus : 181 lieux sans filtre, 153 avec filtre nocturne (28 exclus) ; 11 tarifs strictement non confirmés.** Audit qualité enrichi des cinq identifiants, GPS, périodes, contacts et prix.
+
+Sources :
+- https://www.pornic.com/camping-la-goelette.html
+- https://www.pornic.com/camping-chadotel-les-ecureuils.html
+- https://www.pornic.com/camping-le-bel-essor.html
+- https://www.pornic.com/camping-domaine-de-la-baie-doree.html
+- https://www.pornic.com/camping-de-la-moriniere.html
