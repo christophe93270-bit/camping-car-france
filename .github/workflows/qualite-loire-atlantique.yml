@@ -245,11 +245,12 @@ jobs:
           lot45_ids={"CCF44-MOUTIERS-HERMITAGE-DUNES-2026","CCF44-GUERANDE-DOMAINE-LEVENO-2026","CCF44-GUERANDE-ETANG-PAYS-BLANC-2026"}
           lot45=[x for x in visible_regional if x.get("sourceId") in lot45_ids]
           assert len(lot45)==3, "44 lot 45 : trois campings manquants"
-          assert all(x.get("price")=="Non confirmé" and x.get("priceCheckedAt")=="2026-10-20" and x.get("priceVerification") and x.get("priceEvidenceDocument","").startswith("https://") and x.get("contactEmailSource","").startswith("https://") and x.get("contactSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and not x.get("overnightStatus") for x in lot45), "44 lot 45 : prix non confirmé, source ou statut camping non conforme"
+          assert all(x.get("priceCheckedAt")=="2026-10-20" and x.get("priceVerification") and x.get("priceEvidenceDocument","").startswith("https://") and x.get("contactEmailSource","").startswith("https://") and x.get("contactSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and not x.get("overnightStatus") for x in lot45), "44 lot 45/57 : source, contact, GPS ou nuitée de ces 3 campings non conformes"
           herm=next(x for x in lot45 if x["sourceId"]=="CCF44-MOUTIERS-HERMITAGE-DUNES-2026")
           lev=next(x for x in lot45 if x["sourceId"]=="CCF44-GUERANDE-DOMAINE-LEVENO-2026")
           etang=next(x for x in lot45 if x["sourceId"]=="CCF44-GUERANDE-ETANG-PAYS-BLANC-2026")
           assert herm.get("capacityBarePitches2026Homepage")==44 and herm.get("capacityBarePitchesDetailPage")==45 and "23 rue" in herm.get("status","") and "25 rue" in herm.get("status",""), "Hermitage : contradictions adresse ou nombre d'emplacements non tracées"
+          assert herm.get("priceYear")==2026 and herm.get("priceConditions2026",{}).get("ratePerNightEUR")==19 and herm.get("priceType")=="tarif_camping_car_conditionnel_campingcard_acsi_basse_saison", "Hermitage lot 57 : tarif spécial ACSI 2026 non confirmé, pas prix général"
           assert "25 €" in lev.get("indicativeRate","") and "hors juillet-août" in lev.get("indicativeRate","") and lev.get("price")=="Non confirmé", "Léveno : prix adhérent non certifié ne doit pas devenir un tarif de nuitée 2026"
           assert etang.get("capacityBarePitchesTourism")==24 and "2027" in etang.get("status","") and etang.get("price")=="Non confirmé", "Étang Pays Blanc : saison actualisée ou prix indisponible mal traité"
 
