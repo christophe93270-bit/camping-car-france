@@ -63,3 +63,25 @@ Sources :
 - https://rando.loire-atlantique.fr/service/180220-Camping-Le-Deffay
 - https://rando.loire-atlantique.fr/service/187566-Aire-de-camping-car-du-camping-du-Chene
 - https://rando.loire-atlantique.fr/service/183589-Les-Flots-Bleus
+
+## Lot complémentaire 4 — 20 octobre 2026
+
+- **10 fiches revues** : Ferme d’Isson, Domaine de l’Aiguillette, Pen-Bé, Le Briord, Bourg de Freigné, Le Grand Fay, La Pindière, La Cale Sauvage, Pont de Clin Saint-Molf, Ferme des Cochons d’Antan.
+- **7 tarifs ou indisponibilités clarifiés** (6 barèmes/places gratuit(e)s et fermeture complète Pen-Bé 2026) ; sources directes ou institutionnelles dans `sourceOfficial`/`priceSource`.
+- **Fermetures saisonnières confirmées au 20 octobre 2026** : Pen-Bé (toute saison 2026), Ferme d’Isson (saison terminée 15 septembre), Le Briord (saison terminée 15 septembre), Le Grand Fay (emplacements fermés depuis 4 octobre).
+- **Tarif officiel** : Ferme d’Isson 15,20 €/nuit forfait camping-car, 3 nuits minimum ; gratuité de l’Aiguillette (3 places, 2 nuits max.) et Freigné (10 places) ; Camping Le Briord à partir de 14 € ; Grand Fay de 16 à 26 € ; La Pindière : barème camping distinct de la vidange.
+- **Prix toujours exactement `Non confirmé` dans la source 44 : 39**, dont 2 fiches régionales masquées comme doublons. Le compteur attendu reste 165 aires/lieux affichés, à vérifier après déploiement.
+- Pas de suppression/ajout de fiche, ni fusion sur simple proximité GPS.
+
+Sources du lot :
+- https://www.camping-lafermedisson.com/
+- https://domainedelaiguillette.fr/oenotourisme/
+- https://campingdepenbe.fr/
+- https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-du-bourg-freigne
+- https://www.enpaysdelaloire.com/hebergements/campings/le-grand-fay
+- https://www.enpaysdelaloire.com/hebergements/campings/camping-la-pindiere
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-la-pindiere
+- https://www.enpaysdelaloire.com/hebergements/campings/la-cale-sauvage
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-de-saint-molf
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/la-ferme-des-cochons-d-antan
