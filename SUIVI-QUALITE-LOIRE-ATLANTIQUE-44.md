@@ -288,3 +288,15 @@ Sources de ce lot :
 - https://les-mouettes-camping.com/
 - https://www.les-mouettes-camping.com/
 - https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf
+
+
+## Lot complémentaire 13 — 20 octobre 2026
+
+- **Contrôle automatique amélioré (qualite-loire-atlantique.yml)** : le précédent indicateur « tarifs non confirmés : 9 » ne portait que sur les 35 compléments OSM et comptait aussi des prix avec réserves. Le rapport distingue maintenant les tarifs strictement égaux à « Non confirmé » en régional brut (19), régional visible (17), compléments bruts (3) et compléments visibles (3) : **20 fiches affichées sans prix exact confirmé**.
+- **Vérification du décompte visible** : filtres de dédoublonnage reproduits depuis app.js (références canoniques, cinq alias explicites, proximité GPS, noms normalisés). 158 régionales brutes → 156 visibles, 35 complémentaires brutes → 9 visibles, soit **165 fiches affichables**. Ce nombre ne signifie pas 165 terrains physiques indépendants.
+- **Ancenis-Saint-Géréon, Barrière Saint-Pierre (way/1317028497)** : guide local de 2024 évoquant deux emplacements ; Camping-car.com indique 3 places réservées, une place de vidange et 48 h maximum. Sources non concordantes sur la capacité ; chiffres toujours indicatifs en 2026. Tarifs non confirmés, validation municipale recommandée.
+- **Nuitées** : 7 fiches régionales de simple pique-nique sont déjà marquées overnightStatus=not_established. Les deux accueils France Passion à Legé et Nort-sur-Erdre restent à confirmer dans le guide actif 2026. Aucun lieu ajouté, retiré ou fusionné.
+- **Tarifs campings** : les exploitants Clos Mer et Nature, Le Ranch, Les Chênes Verts, Eden La Pointe et Les Mouettes ne fournissent pas de barème camping-car complet clairement applicable à 2026 dans les pages vérifiées ; réserves conservées. Les deux tarifs officiels CAMPING-CAR PARK de La Turballe concordent avec les fiches existantes.
+- Source de l'enrichissement Ancenis : https://www.camping-car.com/aires/34622-aire-de-stationnement/
+- Sources complémentaires revérifiées : https://www.les-mouettes-camping.com/ ; https://www.yellohvillage.fr/camping/le_ranch ; https://www.leschenesverts.info/hebergement/emplacement/ ; https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe ; https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise
+

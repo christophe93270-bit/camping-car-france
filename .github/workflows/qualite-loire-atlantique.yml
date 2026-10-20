@@ -38,6 +38,35 @@ jobs:
               dlat=lat2-lat1;dlon=lon2-lon1
               h=math.sin(dlat/2)**2+math.cos(lat1)*math.cos(lat2)*math.sin(dlon/2)**2
               return 6371000*2*math.asin(min(1,math.sqrt(h)))
+
+          # Même règle de visibilité que l'application du 44 (octobre 2026).
+          regional_ids={str(x.get("sourceId","")) for x in regional}
+          visible_regional=[x for x in regional if not (x.get("duplicateOfSourceId") and str(x["duplicateOfSourceId"]) in regional_ids)]
+          aliases={
+              "way/824236451":"ACCAMEDREFFEAC",
+              "way/909580170":"ACCAMPDL044V50028L",
+              "way/909637849":"ACCAMEAIREDECAMPINGCARPONTCHATEAU",
+              "way/411102226":"ACCAMPDL044V50420T",
+              "way/1232804505":"ACCAMEAIRECAMPINGCARWELCOMFROSSAY"
+          }
+          def visible_extra(a):
+              key=str(a.get("sourceId",""))
+              if a.get("duplicateOfSourceId") and str(a["duplicateOfSourceId"]) in regional_ids: return False
+              if key in aliases and aliases[key] in regional_ids: return False
+              point=coords(a)
+              if point:
+                  for b in regional:
+                      other=coords(b)
+                      if other and abs(point[0]-other[0])<0.0003 and abs(point[1]-other[1])<0.0003: return False
+                      if other and abs(point[0]-other[0])<0.001 and abs(point[1]-other[1])<0.001 and norm(a.get("name"))==norm(b.get("name")): return False
+              return True
+          visible_osm=[x for x in osm if visible_extra(x)]
+          regional_unknown=sum(x.get("price")=="Non confirmé" for x in regional)
+          visible_regional_unknown=sum(x.get("price")=="Non confirmé" for x in visible_regional)
+          osm_unknown=sum(x.get("price")=="Non confirmé" for x in osm)
+          visible_osm_unknown=sum(x.get("price")=="Non confirmé" for x in visible_osm)
+          overnight_pending=sum(x.get("overnightStatus")=="not_established" for x in visible_regional)
+          total_visible=len(visible_regional)+len(visible_osm)
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -70,7 +99,17 @@ jobs:
               f"- Fiches régionales : **{len(regional)}**",
               f"- Communes à vérifier : **{missing_city}**",
               f"- Services absents des fiches OSM : **{missing_services}**",
-              f"- Tarifs non confirmés : **{unknown_price}**",
+              f"- Compléments OSM bruts dont le prix est absent, partiel ou contient 'confirm' : **{unknown_price}** (ne couvre pas les fiches régionales)",
+              f"- Fiches régionales brutes dont le prix vaut exactement 'Non confirmé' : **{regional_unknown}**",
+              f"- Fiches régionales visibles au prix exactement 'Non confirmé' : **{visible_regional_unknown}**",
+              f"- Fiches complémentaires brutes au prix exactement 'Non confirmé' : **{osm_unknown}**",
+              f"- Fiches complémentaires visibles au prix exactement 'Non confirmé' : **{visible_osm_unknown}**",
+              f"- **Total des tarifs strictement non confirmés parmi les fiches visibles : {visible_regional_unknown+visible_osm_unknown}**",
+              f"- Fiches régionales masquées par doublon déclaré : **{len(regional)-len(visible_regional)}**",
+              f"- Compléments OSM masqués par le filtre transversal : **{len(osm)-len(visible_osm)}**",
+              f"- **Total de fiches visibles attendu (mêmes filtres que app.js) : {total_visible}** ({len(visible_regional)} régionales + {len(visible_osm)} complémentaires)",
+              f"- Écart avec le dernier compteur utilisateur confirmé (165) : **{total_visible-165:+d}** ; tout changement volontaire devra être revalidé",
+              f"- Aires de pique-nique régionales avec nuitée non établie : **{overnight_pending}**",
               f"- Coordonnées GPS invalides : **{bad_gps}**",
               f"- Fiches OSM avec une correspondance régionale à 350 m ou moins : **{len(candidates)}**",
               "",
