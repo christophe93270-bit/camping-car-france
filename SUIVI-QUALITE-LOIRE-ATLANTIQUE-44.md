@@ -113,3 +113,28 @@ Le total théorique reste **165 lieux** : 156 fiches régionales (158 moins 2 do
 - https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-car-camping-de-l-hermitage
 - https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion
 - https://www.enpaysdelaloire.com/hebergements/campings/le-bel-air
+
+## Lot complémentaire 6 — 20 octobre 2026
+
+- **14 fiches régionales vérifiées** et enrichies, sans changer les emplacements ni leur identifiant.
+- **Quatre tarifs de séjour 2026 ajoutés** : L’Albatros (étape camping-car 14 €, camping standard 13,50–20,50 €), Le Port Chéri (26,50 €/jour), Les Rochelets (15,80–37,50 €/nuit), Mindin (23,20–37,10 €/nuit). Électricité et taxes différenciées selon les cas.
+- **Dix autres fiches documentées** (capacité, conditions d’accès, saison, nature camping ou aire) : Capfun de l’Ève, Le Ranch, Rives de Grand Lieu, Eden Villages La Pointe, Les Chênes Verts (44), L’Estuaire Paimbœuf, La Rabine, Ferme de l’Arfaut, Centre ANAS, Fleur de Brière.
+- **Tarifs encore exactement `Non confirmé`** : 29 fiches régionales brutes, dont 2 doublons masqués (27 visibles dans les 156 régionales). Le site doit conserver 165 lieux, dont 9 issus des fichiers complémentaires.
+- Risque de chevauchement d’inventaire des 49 places « La Pointe » à Préfailles : à vérifier, sans fusion automatique.
+- Sept aires de pique-nique restent à qualifier : aucune nuitée camping-car confirmée sur leur seule dénomination.
+
+### Sources du lot 6
+- https://www.pornic.com/camping-l-albatros.html
+- https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/le-port-cheri
+- https://www.enpaysdelaloire.com/hebergements/campings/les-rochelets
+- https://www.enpaysdelaloire.com/hebergements/campings/mindin
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/camping-capfun-de-l-eve
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/yelloh-village-le-ranch
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-du-village-des-rives-de-grand-lieu
+- https://www.enpaysdelaloire.com/hebergements/campings/camping-eden-villages-la-pointe-saint-gildas
+- https://www.leschenesverts.info/hebergement/emplacement/
+- https://www.enpaysdelaloire.com/hebergements/campings/camping-ushuaia-villages-l-estuaire
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/camping-la-rabine
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-campings-cars-de-la-ferme-de-l-arfaut
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/centre-anas-1
+- https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/camping-fleur-de-briere
