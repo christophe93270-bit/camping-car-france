@@ -169,7 +169,7 @@ jobs:
           assert all(x.get("priceYear")==2026 and x.get("priceEvidenceDocument","").endswith("2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf") and "18,95 €" in x.get("price","") and "20,70 €" in x.get("price","") and "27,30 €" in x.get("price","") and x.get("contactEmailSource","").startswith("https://") for x in municipal_sites), "44 : tarif 2026 ou contact municipal manquant"
           aire_pouliguen=next(x for x in visible_regional if x.get("sourceId")=="ACCAMECCLEPOULIGUEN")
           assert "4,40 €" in aire_pouliguen.get("price","") and "4,20 €" not in aire_pouliguen.get("price","") and aire_pouliguen.get("priceSource")==municipal_sites[0]["priceSource"], "44 : tarif 2026 borne du Pouliguen non rectifié"
-          assert len(regional)==174 and len(visible_regional)==172 and total_visible==181, "44 : total attendu 181 après cinq campings du lot 41"
+          assert len(regional)==178 and len(visible_regional)==176 and total_visible==185, "44 : total attendu 185 après quatre ajouts sourcés du lot 42"
           pree=next(x for x in visible_regional if x.get("sourceId")=="HPAPDL044V507V64")
           eleo=next(x for x in visible_regional if x.get("sourceId")=="HPAPDL044000113")
           assert pree.get("priceYear")==2026 and pree.get("capacityBarePitchesPublished")==22 and pree.get("minimumNights2026")==2 and all(v in pree.get("price","") for v in ("16 €","20 €","25 €","32 €","4,90 €")) and pree.get("priceSource")=="https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements", "La Prée : prix millésimés et capacité manquants"
@@ -205,9 +205,24 @@ jobs:
           assert len(lot41)==5, "44 lot 41 : cinq campings de 2026 introuvables"
           assert all(x.get("priceYear")==2026 and x.get("priceCheckedAt")=="2026-10-20" and x.get("priceEvidenceDocument","").startswith("https://www.pornic.com/") and x.get("contactPhone") and x.get("contactSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot41), "44 lot 41 : prix, GPS, contact ou catégorie nuitée manquants"
           assert all(tarif in next(x for x in lot41 if x["sourceId"]==ident)["price"] for ident,tarif in lot41_expect.items()), "44 lot 41 : grille de tarif inattendue"
+
+          # Lot 42 : une aire municipale (séjour 3 nuits) et trois campings privés distincts.
+          lot42_ids={"CCF44-CHAPELLE-ERDRE-CIMETIERE-2026","CCF44-ASSERAC-CAMPING-BAIE-2026","CCF44-ST-MOLF-ILE-KERNODET-2026","CCF44-ASSERAC-DOMAINE-PONT-MAHE-2026"}
+          lot42=[x for x in visible_regional if x.get("sourceId") in lot42_ids]
+          assert len(lot42)==4, "44 lot 42 : quatre sites sourcés introuvables"
+          assert all(x.get("latitude") and x.get("longitude") and x.get("contactPhone") and x.get("contactSource","").startswith("https://") and x.get("sourceOfficial","").startswith("https://") for x in lot42), "44 lot 42 : coordonnées ou contact manquant"
+          chapelle=next(x for x in lot42 if x["sourceId"]=="CCF44-CHAPELLE-ERDRE-CIMETIERE-2026")
+          assert chapelle.get("overnightStayMaxNights")==3 and "vacances d'automne" in chapelle.get("operationalWarning","") and "prix" not in chapelle.get("priceVerification","").lower() and chapelle.get("priceVerification")=="gratuit_indicatif_2026_sources_tierces_mairie_sans_tarif", "Chapelle-sur-Erdre : fermeture saisonnière, limite de nuitées ou réserve tarifaire manquante"
+          for ident,part in (("CCF44-ASSERAC-CAMPING-BAIE-2026","24 à 38 €"),("CCF44-ST-MOLF-ILE-KERNODET-2026","19 à 33 €"),("CCF44-ASSERAC-DOMAINE-PONT-MAHE-2026","23 à 58 €")):
+              x=next(x for x in lot42 if x["sourceId"]==ident)
+              assert part in x["price"] and x.get("priceYear")==2026 and x.get("priceEvidenceDocument","").startswith("https://www.labaule-guerande.com/"), "44 lot 42 : tarif 2026 camping ou source manquant"
+          pont_camping=next(x for x in lot42 if x["sourceId"]=="CCF44-ASSERAC-DOMAINE-PONT-MAHE-2026")
+          pont_parking=next(x for x in visible_regional if x["sourceId"]=="ACCAMEAIREPONTMAHE")
+          assert pont_parking.get("nearbyDistinctSourceId")==pont_camping["sourceId"] and pont_camping.get("nearbyDistinctSourceId")==pont_parking["sourceId"] and "gratuit" in pont_parking.get("price","").lower() and "23 à 58 €" in pont_camping["price"], "44 lot 42 : le parking gratuit ne doit pas être fusionné avec le camping privé"
+          assert all(not x.get("overnightStatus") for x in lot42), "44 lot 42 : aucun des nouveaux points ne doit être considéré comme nuitée interdite, attention néanmoins aux fermetures saisonnières"
           night_flags_total=overnight_pending+overnight_other_regional+overnight_extra+len(overnight_prohibited_regional)+len(overnight_prohibited_extra)
           night_filter_visible=total_visible-night_flags_total
-          assert night_flags_total==28 and night_filter_visible==153, f"44 : 28 lieux écartés du filtre nocturne (153 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
+          assert night_flags_total==28 and night_filter_visible==157, f"44 : 28 lieux écartés du filtre nocturne (157 affichés avec filtre), obtenu {night_flags_total} (affichage filtre {night_filter_visible})"
           missing_city=missing_services=unknown_price=bad_gps=0
           candidates=[]
           for x in osm:
@@ -257,7 +272,7 @@ jobs:
               f"- Fiches régionales masquées par doublon déclaré : **{len(regional)-len(visible_regional)}**",
               f"- Compléments OSM masqués par le filtre transversal : **{len(osm)-len(visible_osm)}**",
               f"- **Total de fiches visibles attendu (mêmes filtres que app.js) : {total_visible}** ({len(visible_regional)} régionales + {len(visible_osm)} complémentaires)",
-              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 181 lieux attendus après seize ajouts distincts (lots 35, 37, 39, 40 et 41)",
+              f"- Variation depuis les 165 lieux de référence avant lot 35 : **{total_visible-165:+d}** ; 185 lieux attendus après vingt ajouts distincts (lots 35, 37, 39, 40, 41 et 42)",
               f"- Aires de pique-nique régionales avec nuitée non établie : **{overnight_pending}**",
               f"- Autres haltes régionales avec nuitée non établie : **{overnight_other_regional}**",
               f"- Compléments visibles avec nuitée non établie : **{overnight_extra}**",
@@ -272,6 +287,7 @@ jobs:
               "- Lot 39 : trois campings manquants ajoutés avec fiches 2026 vérifiées (La Boutinardière, Domaine du Collet, Vieux Château Tharon), 172 lieux au total et 144 avec filtre. Aucun des 11 tarifs précédemment non confirmés n’est déclaré confirmé.",
               "- Lot 40 : quatre campings 2026 manquants ajoutés (Les Brillas, Prigny, Camping du Golf, Port Meleu) ; 176 lieux attendus et 148 avec filtre. 11 tarifs restent strictement non confirmés.",
               "- Lot 41 : cinq campings 2026 manquants ajoutés (La Goëlette, Les Écureuils, Le Bel Essor, Domaine de la Baie Dorée, La Morinière) ; 181 lieux et 153 avec filtre, 11 prix strictement non confirmés.",
+              "- Lot 42 : aire municipale La Chapelle-sur-Erdre (max. 3 nuits, fermeture vacances d’automne) + campings La Baie, Île de Kernodet, Domaine de Pont-Mahé ; parking public Pont-Mahé à 45 m maintenu distinct du camping privé. Totaux 185/157. 11 prix strictement Non confirmé, tarif municipal gratuit indicatif 2026 sourcé tiers.",
               "- Ce filtre ne prouve pas le droit à la nuitée dans les fiches restantes.",
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",

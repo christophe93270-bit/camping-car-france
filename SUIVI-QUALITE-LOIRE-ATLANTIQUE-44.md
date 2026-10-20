@@ -806,3 +806,26 @@ Sources :
 - https://www.pornic.com/camping-le-bel-essor.html
 - https://www.pornic.com/camping-domaine-de-la-baie-doree.html
 - https://www.pornic.com/camping-de-la-moriniere.html
+
+## Lot complémentaire 42 — 20 octobre 2026
+
+**Quatre nouveaux lieux sourcés (dont une aire municipale), distincts des sites déjà enregistrés. Trois campings ont des tarifs 2026 publiés par La Baule-Guérande ; la gratuité municipale de La Chapelle-sur-Erdre est corroborée par des sources tierces 2026, non directement confirmée par un barème municipal.**
+
+- **La Chapelle-sur-Erdre — aire municipale du cimetière, rue de l'Erdre** (`CCF44-CHAPELLE-ERDRE-CIMETIERE-2026`), GPS `47.296656,-1.546219` provenant d'i-CampingCar. **La mairie confirme un stationnement de trois nuits maximum, l'eau et la vidange des eaux noires/grises et une fermeture chaque année pendant les vacances d'automne**. Cette fermeture doit être prise en compte pendant la période du 20 octobre 2026 ; aucune réouverture exacte 2026 n'a été déduite. Un guide mis à jour en juin 2026 (Le Campeur) et un annuaire spécialisé indiquent la gratuité du stationnement et des services, mais la **mairie ne publie pas de tarif 2026 sur sa page**. La fiche souligne cette différence de preuve et évite d'attester un prix municipal que la mairie n'annonce pas. Capacité exacte non publiée par la mairie (4 à 7 selon les annuaires).
+- **Camping de la Baie — Pen-Bé, Assérac** (`CCF44-ASSERAC-CAMPING-BAIE-2026`), GPS `47.42331,-2.44633` repris d'e-SPRIT (14/09/2026). Grille 2026 La Baule-Guérande du 03/04 au 27/09 : **24–38 €/nuit Standard** (2 personnes, voiture, électricité) ou **32–59 € Premium** (sanitaire individuel). 34 emplacements nus partagés entre types de camping. Terrain distinct de la Ferme de Pen-Bé annoncée fermée en 2026 (~716 m).
+- **Camping Paradis L'Île de Kernodet — Saint-Molf** (`CCF44-ST-MOLF-ILE-KERNODET-2026`), 19 route de La Turballe, GPS `47.38646,-2.43889` et fiche e-SPRIT actualisée le 17/10/2026. **19–33 €/nuit** pour 2 personnes, voiture, électricité du 01/04 au 26/09/2026. 12 emplacements nus selon l'office. Camping privé distinct de la halte du Pont de Clin à 732 m ; pas de droit de nuitée inféré sur cette dernière.
+- **Camping Le Domaine de Pont-Mahé — Assérac** (`CCF44-ASSERAC-DOMAINE-PONT-MAHE-2026`), 13 rue Pont-Mahé, GPS `47.44743,-2.45016` d'e-SPRIT. **23–58 €/nuit** en 2026 du 03/04 au 26/09 pour deux personnes, voiture et électricité ; 58 emplacements nus partagés. **Le parking gratuit Pont-Mahé** (`ACCAMEAIREPONTMAHE`) se situe **en face, à environ 45 m**, selon la fiche e-SPRIT officielle. Les deux lieux sont liés explicitement comme sites distincts, et ne doivent pas être fusionnés ni se transmettre leurs tarifs/services.
+- Les saisons des trois campings étaient achevées à la date du contrôle du 20 octobre. Les sources GPS, tarifs, contacts et réserves opérationnelles sont conservées dans les fiches et des assertions automatiques supplémentaires ont été créées. Les 11 prix portant exactement `Non confirmé` n'ont pas été modifiés ; une réserve spécifique sur la gratuité de La Chapelle-sur-Erdre figure séparément.
+- **Compteurs attendus : 185 lieux au total, 157 avec le filtre de préparation nocturne (28 écartés), 11 tarifs strictement `Non confirmé`.** Le filtre ne certifie pas l'ouverture du lieu un jour donné.
+
+Sources :
+- https://www.lachapellesurerdre.fr/ou-stationner-en-camping-car-la-chapelle-sur-erdre
+- https://www.lecampeur.fr/aire/aire-de-camping-car-de-la-chapelle-sur-erdre-ph5hic
+- https://i-campingcar.fr/aires.php?ville=LA+CHAPELLE+SUR+ERDRE
+- https://www.labaule-guerande.com/offres/camping-de-la-baie-asserac-fr-6011362/
+- https://www.cirkwi.com/fr/point-interet/453032-camping-de-la-baie
+- https://www.labaule-guerande.com/offres/camping-lile-de-kernodet-camping-paradis-saint-molf-fr-6011359/
+- https://www.cirkwi.com/fr/point-interet/453027-camping-l-ile-de-kernodet-camping-paradis
+- https://www.labaule-guerande.com/offres/camping-le-domaine-de-pont-mahe-asserac-fr-6011338/
+- https://www.cirkwi.com/fr/point-interet/452932-camping-le-domaine-de-pont-mahe
+- https://www.cirkwi.com/fr/point-interet/441562-aire-de-camping-cars-de-pont-mahe
