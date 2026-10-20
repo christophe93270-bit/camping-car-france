@@ -94,6 +94,12 @@ jobs:
           mouettes=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000155")
           assert clos.get("price")=="Non confirmé" and "4,50" in clos.get("fees2026","") and "15 h" in clos.get("operationalWarning","") and clos.get("feeEvidenceUrl","").startswith("https://"), "Clos Mer et Nature : frais 2026/horaire non sourcés ou tarif de base prétendument confirmé"
           assert mouettes.get("price")=="Non confirmé" and "2024" in mouettes.get("historicPriceEvidence","") and "22 h 30" in mouettes.get("operationalWarning",""), "Les Mouettes : année tarifaire ou restriction nocturne non tracée"
+          gps_operator={"ACCAMACCAMPDL044000155": (47.22038,-2.13734), "ACCAMPDL044V51I23X": (47.241931,-2.267936)}
+          for target_id,(lat,lon) in gps_operator.items():
+              item=next(x for x in visible_regional if x.get("sourceId")==target_id)
+              assert item.get("gpsSourceType")=="exploitant_coordonnees_publiees" and item.get("gpsPreviousRegional") and item.get("gpsEvidenceNote"), f"GPS opérateur non documenté pour {target_id}"
+              assert abs(float(item.get("latitude"))-lat)<0.0000001 and abs(float(item.get("longitude"))-lon)<0.0000001, f"GPS opérateur inattendu {target_id}"
+              assert item.get("price")=="Non confirmé", f"Prix 2026 indûment modifié pour {target_id}"
           piardiere=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V51HCFX")
           assert piardiere.get("contactPhone") and "commune-de-plesse.com" in piardiere.get("sourceOfficial",""), "44 : source communale La Piardière manquante"
           corcoue_parking=next(x for x in visible_osm if x.get("sourceId")=="way/909611149")
@@ -164,6 +170,8 @@ jobs:
               "- ANAS Les Moutiers : prix publiés dans le VAC'ANAS 2026 (16/21 €/nuit, adhérents 12/17 €), accès et capacité actuelle à confirmer.",
               "- Clos Mer et Nature : seuls les frais annexes 2026 sont documentés ; contrat et FAQ divergent sur les heures d'arrivée/départ.",
               "- Les Mouettes (Saint-Père-en-Retz) : grille 2024, prix affichés contradictoires et restriction horaire à clarifier.",
+              f"- Campings avec GPS propre publié par l'exploitant et origine régionale conservée : **{len(gps_operator)}** (Les Mouettes, Capfun L'Ève).",
+              "- Les coordonnées du camping ne localisent pas précisément la borne ou la place camping-car.",
               "- La mention d'une adhésion ne vaut pas preuve de disponibilité d'une étape en 2026.",
               "- Corcoué Grotte Saint-Jean : 2 repères cartographiques d'un seul site comportant 4 places, à ne pas additionner.",
               "- Ces doublons potentiels ne sont pas fusionnés sans concordance suffisante des emprises.",

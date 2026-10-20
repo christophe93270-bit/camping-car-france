@@ -110,7 +110,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261020-23", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261020-24", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -605,6 +605,8 @@ async function initAires(){
         ${a.department==="44"&&a.sharedSiteWithSourceId ? `<p><strong>Site partagé :</strong> ce point se rapporte à un ensemble également décrit sur une autre fiche. Ne pas additionner automatiquement les capacités de stationnement.</p>` : ""}
         ${a.department==="44"&&a.potentialDuplicateOfSourceId ? `<p><strong>Doublon possible :</strong> ce point peut correspondre à un autre lieu déjà recensé.</p>` : ""}
         <p><strong>Services :</strong> ${escapeHTML((Array.isArray(a.services)?a.services:[]).join(", "))}</p>
+        ${a.gpsEvidenceNote?`<p><strong>Précision GPS :</strong> ${escapeHTML(a.gpsEvidenceNote)}</p>`:""}
+        ${a.receptionHoursNote?`<p><strong>Accueil :</strong> ${escapeHTML(a.receptionHoursNote)}</p>`:""}
         <p><strong>${a.priceStatus==="not_applicable_for_night_stay"?"Tarif de nuitée :":"Tarif :"}</strong> ${escapeHTML(a.price)}</p>
         ${a.fees2026?`<p><strong>Frais annexes 2026 :</strong> ${escapeHTML(a.fees2026)}</p>`:""}
         ${a.operationalWarning?`<p><strong>Horaires ou conditions à vérifier :</strong> ${escapeHTML(a.operationalWarning)}</p>`:""}

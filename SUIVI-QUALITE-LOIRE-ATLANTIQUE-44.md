@@ -495,3 +495,16 @@ Références :
 - https://les-mouettes-camping.com/
 - https://www.capfun.com/camping---l_eve-FR.html
 - https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/3136/aire-de-stationnement-barriere-st-pierre-ancenis.pdf
+
+## Lot complémentaire 24 — 20 octobre 2026
+
+**Deux positions de camping fiabilisées à partir du site exploitant, plus horaires d'accès des Mouettes explicités. Aucun prix arbitraire ajouté.**
+
+- **Camping Les Mouettes — Saint-Père-en-Retz** : le camping publie lui-même `47.22038, -2.13734` sur https://les-mouettes-camping.com/ . Ancienne géolocalisation de la Région `47.21919, -2.13753`, environ 133 m plus au sud ; l'ancien point est archivé sous `gpsPreviousRegional`. `gpsSourceType=exploitant_coordonnees_publiees`, `gpsVerificationDate` et avertissement sur la précision (camping entier, pas place/borne particulière). La page exploitant signale une réception 9h–12h/14h–18h, sanitaires 24h/24, douches 8h–22h, circulation des véhicules déconseillée/interdite après 22h et une phrase « camping-cars non autorisés entre 22h30 et 8h » dont la portée exacte reste **ambiguë** : contacter le camping pour connaître les modalités d'accès/sortie. L'aire accueille bien des nuits camping-car et n'est pas présentée comme interdite de nuitée. Prix de nuitée **2026 non confirmé**, les montants de 15 € et 19,50 € sans millésime ne sont pas homologués.
+- **Camping Capfun L'Ève — Saint-Nazaire** : coordonnées GPS opérateur `47.241931, -2.267936` publiées à https://www.capfun.com/camping---l_eve-FR.html . Ancien point régional `47.24162,-2.26758` archivé, soit quelques dizaines de mètres de différence. Ce repère localise le camping, pas les 50 places camping-car séparément. Aucun tarif 2026 fixe applicable à L'Ève n'a été trouvé : statut inchangé.
+- **Interface et audit** : notes précisant l'origine du GPS opérateur et les horaires d'accueil intégrées aux fiches ; assertion sur les deux GPS et leurs sources ; changement des versions de cache GitHub Pages.
+- **Bilan prévisionnel inchangé** : 165 fiches affichables pour le 44 (156 régionales+9 complémentaires), 155 avec filtre de nuitée non établie, et **11 tarifs strictement non confirmés** (9 régionales + 2 compléments). Les 165 fiches ne doivent pas être assimilées à 165 aires physiques indépendantes.
+
+Sources opérateurs :
+https://les-mouettes-camping.com/
+https://www.capfun.com/camping---l_eve-FR.html
