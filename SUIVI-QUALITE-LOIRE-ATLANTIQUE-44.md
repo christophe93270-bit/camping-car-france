@@ -865,3 +865,27 @@ Sources :
 - https://www.labaule-guerande.com/offres/camping-le-praderoi-mesquer-fr-6011372/
 - https://www.cirkwi.com/fr/point-interet/453104-camping-le-praderoi
 - https://www.campercontact.com/fr/france/pays-de-la-loire/mesquer/115286/camping-le-praderoi
+
+
+## Lot complémentaire 45 — 20 octobre 2026
+
+**Trois campings distincts ouverts aux camping-cars, ajoutés sans prix 2026 artificiel. Les trois nouvelles fiches portent exactement `Non confirmé` : le total strict passe de 11 à 14.**
+
+- **Camping L'Hermitage des Dunes — Les Moutiers-en-Retz** (`CCF44-MOUTIERS-HERMITAGE-DUNES-2026`) GPS `47.06528,-2.013628` sourcé PiNCAMP. Camping 3 étoiles avec 44 emplacements nus selon la page d'accueil mise à jour 2026, alors que la page spécifique plus ancienne en décrit 45. Les emplacements sont partagés entre tentes, caravanes et camping-cars, avec électricité 10 A et vidange cassette. Saison officielle 04/04–31/10/2026. Attention adresse : page du camping au 25 rue du Bois-Millet, annuaire communal au 23. Tarif à la nuitée 2026 non publié sur les pages contrôlées ; un devis tiers hebdomadaire ne devient pas une grille de prix journalière. Téléphone 02 40 64 64 00, `hermitagedesdunes@gmail.com`.
+- **Camping Domaine de Léveno — Guérande** (`CCF44-GUERANDE-DOMAINE-LEVENO-2026`) GPS e-SPRIT `47.33266,-2.39092`, route de Sandun, lieu-dit Léveno. L'exploitant confirme les camping-cars sur des emplacements de plus de 80 m² raccordés à l'eau et à l'électricité 10 A ; tourisme local : 73 emplacements nus partagés et 600 emplacements classés du camping toutes catégories. Saison de l'exploitant 10/04–20/09/2026. Prix général 2026 **non confirmé**. La page exploitant annonce un **forfait de 25 € pour titulaires de cartes ACSI/FFCC/ANWB** en saison verte hors juillet-août, avec deux personnes, un animal et électricité ; cette page ne date pas le forfait expressément de 2026 : ne pas considérer ce montant comme une grille 2026 complète. Téléphone 02 40 24 79 30, `info@camping-leveno.com`.
+- **Camping L'Étang du Pays Blanc — Guérande** (`CCF44-GUERANDE-ETANG-PAYS-BLANC-2026`) GPS PiNCAMP `47.34601,-2.34616`, 47 rue des Chênes, Sandun. 24 emplacements nus selon La Baule-Guérande, et 119 emplacements classés de toutes catégories ; accueil camping-car corroboré par un relevé du site park4night avec avis en 2026. **Prix 2026 non confirmé** : un relevé communautaire non millésimé évoque 36 € avec électricité, non utilisé comme barème. L'office touristique présentait initialement une saison 11/04–27/09/2026 mais sa page actuelle donne aussi des dates 2027 : confirmer le calendrier 2026 et les conditions d'ouverture auprès de l'exploitant. Contact 02 40 61 93 51, `resa@camping-guerande.com`.
+- Les GPS comparés aux fiches régionales précédentes éloignent les nouveaux campings de leurs voisins déjà recensés (distance au plus proche : ~0,8 km, ~2,2 km et ~4,0 km respectivement). Aucun nombre d'emplacements mixtes n'est présenté comme capacité camping-car exclusive, aucune borne extérieure de vidange n'est supposée.
+- **Compteurs attendus : 192 lieux au total, 164 avec filtre de prudence nocturne (28 masqués), 14 tarifs strictement `Non confirmé`, dont trois nouveaux au lot 45.** Onze dossiers historiques de contact demeurent sans réponse ; trois demandes de confirmation supplémentaires sont préparées mais non envoyées.
+
+Sources :
+- https://hermitagedesdunes.com/
+- https://hermitagedesdunes.com/233-camping-pitches
+- https://www.pincamp.fr/campings/camping-lhermitage-des-dunes
+- https://www.mairie-lesmoutiersenretz.fr/contacts/camping-lhermitage-des-dunes/
+- https://www.camping-leveno.com/emplacements.html
+- https://www.camping-leveno.com/-Hebergements-.html
+- https://www.cirkwi.com/fr/point-interet/453176-camping-le-domaine-de-leveno
+- https://www.labaule-guerande.com/offres/camping-le-domaine-de-leveno-guerande-fr-6011381/
+- https://www.labaule-guerande.com/offres/camping-letang-du-pays-blanc-guerande-fr-6011351/
+- https://www.pincamp.ch/fr/campings/camping-l-etang-du-pays-blanc
+- https://park4night.com/fr/place/353393
