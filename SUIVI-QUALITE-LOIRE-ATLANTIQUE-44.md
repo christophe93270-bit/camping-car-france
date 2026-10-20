@@ -454,3 +454,24 @@ Sources :
 - https://rando.loire-atlantique.fr/service/187454-Aire-de-Camping-Car-Ferme-de-la-Piardiere
 - https://www.cirkwi.com/fr/point-interet/441669-aire-de-stationnement-barriere-st-pierre-ancenis
 - https://www.loire-radweg.org/tsft/aire-de-stationnement-barriere-st-pierre-ancenis-ancenis-de/
+
+## Lot complémentaire 22 — 20 octobre 2026
+
+**Découverte d'un barème ANAS officiellement édité pour 2026, plus une confirmation de services au Ranch. Un tarif strictement inconnu de moins, sans ajout ni suppression de fiche.**
+
+- **ANAS Les Moutiers-en-Retz — forfait camping-car avec branchement électrique** : la brochure `VAC'ANAS 2026`, page imprimée **21**, accessible depuis le site officiel de l'association, indique :
+  - **Du 1er janvier au 31 mai : 16 € par nuit (12 € adhérents).**
+  - **Du 1er juin au 12 septembre : 21 € par nuit (17 € adhérents).**
+  - **Du 13 septembre au 31 décembre : 16 € par nuit (12 € adhérents).**
+  - Ne pas confondre la **grille tarifaire diffusée** avec le montant parfois différent affiché par la borne selon le séjour ou l'éligibilité. Les séjours au village vacances ANAS exigent un statut d'adhérent ou un rattachement au ministère de l'Intérieur ; une catégorie « bienfaiteur » peut être souscrite par les camping-caristes, mais le droit de passage direct de toute personne extérieure doit encore être confirmé auprès du centre.
+  - La **brochure 2026 recense 42 emplacements camping-car**, contre **35 sur la page actuelle** du centre ANAS : divergence de capacité mentionnée sans choisir arbitrairement. Le tourisme régional référençait 20 places auparavant.
+  - Les textes auparavant fondés uniquement sur les témoignages Park4Night sont remplacés dans `price` par cette preuve tarifaire de premier rang. Champs `priceYear`, `priceEvidencePage`, `priceEvidenceDocument`, `priceSourcePublisher` ajoutés. L'interface publie un lien vers le document PDF d'origine relayé par FO Justice.
+- **Yelloh! Village Le Ranch, La Plaine-sur-Mer** : la page officielle du type d'emplacement **130 m² et plus** recense explicitement électricité **10 A**, eau et évacuation des eaux usées sur la parcelle. Ces prestations ne sont pas extrapolées aux 75 autres emplacements. Le prix de nuitée 2026 reste inconnu.
+- **Audit** : trois sites à conditions particulières conservent leurs avertissements ; seuls les deux accueils France Passion conservent le prix strictement non confirmé. ANAS dispose d'un tarif 2026 documenté, mais accès autonome et tarifs affichés sur borne restent à vérifier.
+- **Total attendu inchangé** : 165 fiches affichables (156 régionales + 9 OSM), 155 avec filtre « nuitée non établie », **11 fiches visibles avec `price` exactement `Non confirmé`** (9 régionales + 2 OSM), contre 12 au lot 21. Une baisse justifiée par un document tarifaire daté, pas par un renommage artificiel.
+
+Sources et preuve de lecture :
+- Page officielle ANAS : https://www.anas.asso.fr/vacances (lien « VAC'ANAS 2026 », ouvre https://heyzine.com/flip-book/cc72a1bef7.html).
+- PDF de la brochure 2026 relayé sur FO Justice : https://fojustice.fr/web/wp-content/uploads/2026/06/VAC-ANAS-2026-FO.pdf (p. 21 imprimée ; 10e page du fichier).
+- Page actuelle du centre pour différence 35/42 : https://www.anas.asso.fr/moutiers-en-retz .
+- Emplacement Ranch : https://www.camping-le-ranch.com/fr/emplacements/78629 .

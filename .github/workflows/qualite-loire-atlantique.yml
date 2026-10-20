@@ -85,7 +85,11 @@ jobs:
           assert not unresolved_shared, "Zones partagées sans fiche associée visible : "+str(unresolved_shared)
           conditional_access_ids={"ACCAMPDL044V50Y077","ACCAMPDL044V50ZDO9","ACCAMACCAMEELMANAS"}
           conditional_access=[x for x in visible_regional if str(x.get("sourceId")) in conditional_access_ids]
-          assert len(conditional_access)==3 and all(x.get("accessNote") and str(x.get("accessSource","")).startswith("https://") and x.get("price")=="Non confirmé" for x in conditional_access), "44 : réserves d'accès ferme/ANAS absentes"
+          assert len(conditional_access)==3 and all(x.get("accessNote") and str(x.get("accessSource","")).startswith("https://") for x in conditional_access), "44 : réserves d'accès ferme/ANAS absentes"
+          france_passion=[x for x in conditional_access if x.get("sourceId")!="ACCAMACCAMEELMANAS"]
+          assert len(france_passion)==2 and all(x.get("price")=="Non confirmé" for x in france_passion), "France Passion : adhésion 2026 des hôtes encore non confirmée"
+          anas=next(x for x in conditional_access if x.get("sourceId")=="ACCAMACCAMEELMANAS")
+          assert anas.get("priceYear")==2026 and "21 €/nuit" in anas.get("price","") and "16 €/nuit" in anas.get("price","") and anas.get("priceEvidenceDocument","").startswith("https://") and anas.get("accessVerification")=="adhesion_village_requise_aire_autonome_a_verifier", "ANAS 2026 : grille documentée ou réserve d'accès manquante"
           piardiere=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V51HCFX")
           assert piardiere.get("contactPhone") and "commune-de-plesse.com" in piardiere.get("sourceOfficial",""), "44 : source communale La Piardière manquante"
           corcoue_parking=next(x for x in visible_osm if x.get("sourceId")=="way/909611149")
@@ -153,6 +157,7 @@ jobs:
               f"- Compléments visibles explicitement marqués doublons possibles : **{len(extra_potential_duplicates)}**",
               f"- Fiches visibles explicitement liées à une autre zone du même ensemble : **{len(linked_zones)}**",
               f"- Fiches avec conditions d'accès spécifiques documentées (France Passion / ANAS) : **{len(conditional_access)}**",
+              "- ANAS Les Moutiers : prix publiés dans le VAC'ANAS 2026 (16/21 €/nuit, adhérents 12/17 €), accès et capacité actuelle à confirmer.",
               "- La mention d'une adhésion ne vaut pas preuve de disponibilité d'une étape en 2026.",
               "- Corcoué Grotte Saint-Jean : 2 repères cartographiques d'un seul site comportant 4 places, à ne pas additionner.",
               "- Ces doublons potentiels ne sont pas fusionnés sans concordance suffisante des emprises.",
