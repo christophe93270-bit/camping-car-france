@@ -200,3 +200,12 @@ La [brochure officielle GCU 2026](https://www.gcu.asso.fr/wp-content/uploads/202
 - **Mon Calme** : [ACSI 2026](https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/piriac-sur-mer/domaine-mon-calme-116004/) confirme **21 €/nuit avec carte** sur six fenêtres ; [offre de réservation du camping](https://www.goboony.fr/campings/france/pays-de-la-loire/loire-atlantique/piriac-sur-mer/287-domaine-mon-calme-camping-appart-hotel) décrit explicitement le forfait camping-car pour deux personnes et électricité incluse. Demander à `contact@campingmoncalme.com` le prix normal sans ACSI, les taxes et la vidange sans séjour. **Aucun courriel envoyé**.
 
 **24 fiches visibles portent strictement `Non confirmé`.** Pour ces deux autres fiches, le prix sans carte reste lui aussi à documenter.
+
+
+## Lot tarifaire 62 — dernières confirmations nécessaires
+
+- **Camping du Bugeau** : 21 €/nuit en 2026 avec [CampingCard ACSI](https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/pornichet/camping-du-bugeau-103286/), carte et dates précises. Demander à `campingdubugeau@wanadoo.fr` seulement le tarif ordinaire 2026 sans carte, taxe de séjour et le service de vidange extérieure ; **aucun message envoyé**.
+- **Camping du Petit Bois, Mesquer** : [forfait de base 2026 décrit](https://www.camping-lepetitbois.com/fr/hebergements/emplacements/) pour deux personnes avec installation camping-car, sanitaires privés et électricité, sans montant chiffré. Demander à `info@campingdupetitbois.com` le prix TTC par période et les taxes ; **aucun message envoyé**.
+- **France Passion** : [règle gratuite 24h avec guide actif](https://www.france-passion.com/camping-caristes/comment-ca-marche/), mais les deux fermes n'ont pas d'inscription 2026 contrôlable publiquement. Contacter `lescochonsdantan@orange.fr` et `lebiauchemin@gmail.com` pour confirmer leur accueil dans le guide 2026, accès et dates, **sans envoi effectué**.
+
+Voir `ETAT-RECHERCHE-LOIRE-ATLANTIQUE-44-2026.md` pour la **liste exhaustive des 23 tarifs strictement manquants**, contacts sourcés et points à faire valider. Aucun camping ajouté.
