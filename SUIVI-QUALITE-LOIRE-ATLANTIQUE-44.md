@@ -1180,3 +1180,14 @@ Les [règles officielles ACSI](https://www.acsi.eu/fr/informations-pour-les-camp
 - **Aire Barrière Saint-Pierre à Ancenis et parking OSM Plessé** : recherches recoupées sans forfait tarifaire municipal 2026 ni autorisation nocturne suffisamment claire ; les deux restent `Non confirmé`, avec alerte de droit de nuitée à vérifier.
 
 **Clôture de la recherche documentaire du lot 62 : 23 prix strictement non confirmés, avec contacts sourcés et demandes d'éclaircissement à préparer. Il serait trompeur de déclarer tous les prix du département confirmés.** Aucune demande de prix ni aucun courriel envoyé.
+
+
+## Lot tarifaire 64 — 21 octobre 2026 : conditions d'offres et frais documentés
+
+**Aucun camping ajouté, aucun prix artificiellement validé.** La catégorie exacte `Non confirmé` reste **22 fiches visibles** ; le prix public standard 2026 n'est toujours pas publié pour les trois campings examinés.
+
+- **Yelloh! Village Le Ranch**, La Plaine-sur-Mer : [fiche partenaire CampingFrance, rubrique tarifs 2026](https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/la-plaine-sur-mer/le-ranch3) : **réduction FFCC de 10 %** sur les emplacements nus du **30 avril au 30 juin** et du **1er au 13 septembre 2026**, avec code obtenu dans l'espace avantages FFCC. L'offre ne précise **aucun prix de base contractuel ni un montant TTC final**, et n'autorise pas à déduire 10 % du tarif indicatif externe de 74 €/nuit sans vérifier sa catégorie et sa période. **Tarif camping-car standard 2026 encore inconnu.**
+- **Camping La Roseraie, La Baule** : [conditions générales de vente de l'exploitant](https://www.laroseraie.com/usermedia/document-fr-639039812077585143-2.pdf) : un **forfait emplacement pour 3 personnes avec électricité et 1 véhicule** ; taxes de séjour et écocontribution par adulte et par nuit en supplément. **Acompte de réservation 90 €**, qui ne représente **pas** une nuitée. Les prix en ligne sont annoncés comme indicatifs jusqu'à confirmation de réservation : aucun forfait de nuitée 2026 fixe déductible du document. À distinguer du Camping La Roseraie de Descartes (37).
+- **Camping La Fontaine, Guérande** : [présentation exploitant](https://www.camping-lafontaine.com/camping-3-etoiles-guerande/) précisant **« 18 avril 2026 pour les campeurs »**, alors que son pied de page mentionne **14 avril** sans année et que l'office annonce l'ouverture de l'établissement au **4 avril 2026**. L'accueil effectif des camping-cars dans cet intervalle reste à confirmer. **Aucun tarif 2026 trouvé.**
+
+**Bilan lot 64 : 215 lieux au total / 187 avec filtre nocturne, 22 tarifs encore strictement `Non confirmé`. Des demandes de confirmation sont préparées sur GitHub, aucun courriel n'est envoyé.**

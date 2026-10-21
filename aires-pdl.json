@@ -8511,7 +8511,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : remise FFCC 10 % et dates 2026 confirmées par CampingFrance, parcelles confirmées par exploitant ; estimation Campercontact 29 €/nuit non millésimée, non reprise comme tarif certifié. Lot 22 : source primaire https://www.camping-le-ranch.com/fr/emplacements/78629 confirme l'équipement propre au type 130 m² et plus, pas toutes les parcelles ; prix 2026 non publié. Lot 26 : vidange camping-car sur place selon https://www.yellohvillage.fr/camping/le_ranch/nos_services ; accès sans nuitée à vérifier. Lot 34 : repère externe CampingFrance 2026 de 74 €/nuit (2 adultes, électricité), source EN https://www.campingfrance.com/uk/find-your-campsite/pays-de-la-loire/loire-atlantique/la-plaine-sur-mer/le-ranch3 ; données contradictoires non substituées au prix officiel non publié.",
+    "importReview": "20/10/2026 : remise FFCC 10 % et dates 2026 confirmées par CampingFrance, parcelles confirmées par exploitant ; estimation Campercontact 29 €/nuit non millésimée, non reprise comme tarif certifié. Lot 22 : source primaire https://www.camping-le-ranch.com/fr/emplacements/78629 confirme l'équipement propre au type 130 m² et plus, pas toutes les parcelles ; prix 2026 non publié. Lot 26 : vidange camping-car sur place selon https://www.yellohvillage.fr/camping/le_ranch/nos_services ; accès sans nuitée à vérifier. Lot 34 : repère externe CampingFrance 2026 de 74 €/nuit (2 adultes, électricité), source EN https://www.campingfrance.com/uk/find-your-campsite/pays-de-la-loire/loire-atlantique/la-plaine-sur-mer/le-ranch3 ; données contradictoires non substituées au prix officiel non publié. Lot 64 (21/10/2026): remise FFCC 2026 de 10% sur emplacements nus pendant deux périodes, vérifiée sur fiche CampingFrance. Aucun tarif de nuitée complet 2026 vérifiable, prix strict Non confirmé maintenu.",
     "sourceId": "ACCAMACCAMPDL044000049",
     "contactRole": "camping",
     "contactPhone": "02 40 21 52 62",
@@ -8527,7 +8527,21 @@
     "indicative2026RateLabel": "Repère tarifaire externe pour 2026 : CampingFrance affiche 74 € / nuit pour un emplacement de tourisme, 2 adultes et électricité inclus. Période exacte, disponibilité et catégorie d'emplacement non précisées : ce prix ne constitue pas une grille officielle de l'exploitant et ne s'applique pas nécessairement aux autres dates ou types d'emplacement.",
     "indicative2026RateSource": "https://www.campingfrance.com/uk/find-your-campsite/pays-de-la-loire/loire-atlantique/la-plaine-sur-mer/le-ranch3",
     "indicative2026RateYear": 2026,
-    "indicative2026RateCheckedAt": "2026-10-20"
+    "indicative2026RateCheckedAt": "2026-10-20",
+    "discountFFCC2026": {
+      "ratePercent": 10,
+      "requiresFFCCBenefit": true,
+      "eligible": "Emplacement nu éligible, avec code promotionnel à récupérer dans l'espace avantages FFCC et sous réserve de validation à la réservation",
+      "periods": [
+        "30/04/2026–30/06/2026",
+        "01/09/2026–13/09/2026"
+      ],
+      "currencyAmountConfirmed": false,
+      "normalPitchPriceConfirmed": false,
+      "source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/la-plaine-sur-mer/le-ranch3",
+      "checkedAt": "2026-10-21"
+    },
+    "priceEvidenceNote": " CampingFrance (rubrique tarifs 2026) confirme une réduction FFCC de 10% pour un emplacement nu du 30/04 au 30/06 et du 01/09 au 13/09 avec code avantage requis, SANS fournir le montant à payer pour un camping-car et deux adultes. Ne pas appliquer un pourcentage au repère externe 74€ sans connaître son tarif/date de référence."
   },
   {
     "department": "49",
@@ -11054,7 +11068,7 @@
     "priceEvidenceDocument": "https://www.camping-lafontaine.com/location-emplacement-guerande/",
     "priceEvidenceNote": "Formules emplacement deux personnes avec ou sans électricité visibles sur la plateforme de réservation, mais grille tarifaire complète 2026 et taxes non vérifiables ; ne pas confondre avec Camping La Fontaine situé dans les Côtes-d'Armor.",
     "status": "Kersavary, route de Saint-Molf, 44350 Guérande. Pays de la Loire Tourisme annonce 04/04–04/10/2026 pour l'établissement ; le site exploitant affiche 14/04–15/10 pour les campeurs sans millésime distinct. Deux calendriers divergents, aucune ouverture supposée le 20/10/2026. GPS 47.35066997520464,-2.4346111449343493 publié par l'exploitant, différent des coordonnées approximatives de certains annuaires. Lieu indépendant des parkings de Guérande à plus de 2 km.",
-    "operationalWarning": "Dates de saison différentes entre tourisme régional 2026 (04/04–04/10) et site exploitant pour les campeurs (14/04–15/10, sans année indiquée) ; ne pas présenter comme ouvert le 20 octobre.",
+    "operationalWarning": "Dates de saison différentes entre tourisme régional 2026 (04/04–04/10) et site exploitant pour les campeurs (14/04–15/10, sans année indiquée) ; ne pas présenter comme ouvert le 20 octobre. Le site opérateur indique désormais explicitement « 18 avril 2026 pour les campeurs » sur sa page d'accueil, ce qui diffère du 14 avril de son pied de page. Début saison confirmé pour camping-car à demander.",
     "operationalWarningSource": "https://www.camping-lafontaine.com/contact-acces/",
     "contactPhone": "02 40 24 96 19",
     "contactEmail": "contact@camping-lafontaine.com",
@@ -11065,7 +11079,10 @@
     "capacityCampingCarTourism": 66,
     "capacityAllTourism": 110,
     "dataAttribution": "Camping La Fontaine, Pays de la Loire Tourisme, La Baule-Guérande Tourisme",
-    "importReview": "Lot 49 du 20/10/2026 : camping-car confirmé par exploitant et tourisme régional, GPS opérateur, contacts sourcés ; divergences de période, nuitée 2026 non confirmée. Ne pas utiliser le barème d'un camping homonyme hors du 44."
+    "importReview": "Lot 49 du 20/10/2026 : camping-car confirmé par exploitant et tourisme régional, GPS opérateur, contacts sourcés ; divergences de période, nuitée 2026 non confirmée. Ne pas utiliser le barème d'un camping homonyme hors du 44. Lot 64 (21/10/2026) : page opérateur « camping-3-etoiles-guerande » mentionne précisément le 18/04/2026 pour les campeurs, contredisant le pied de page 14/04 et l'office 04/04 pour le terrain; tarif nuitée 2026 toujours strictement Non confirmé.",
+    "operatorCampingOpening2026": "18/04/2026, expressément publié pour les campeurs sur la page présentation (la même page donne une ouverture générale au 04/04/2026)",
+    "operatorCampingOpeningSource": "https://www.camping-lafontaine.com/camping-3-etoiles-guerande/",
+    "openingDisagreement2026": "Office La Baule-Guérande : 04/04–04/10/2026 pour le terrain (sans distinguer mobil-homes et emplacements). Page présentation exploitant : campeurs à compter du 18/04/2026 ; pied de page du même site : 14/04–15/10 sans millésime précis. N'assimiler ni le 04/04 ni le 14/04 à un accueil certain en camping-car au début du mois d'avril."
   },
   {
     "department": "44",
@@ -11354,12 +11371,13 @@
       "Branchements électriques 10 A sur emplacements, eau à proximité",
       "Aire de service camping-car interne pour remplissage eau potable, vidanges eaux usées et cassette WC chimique",
       "Juillet-août : séjour d'au moins sept nuits pour réservation des emplacements selon l'exploitant",
-      "Services accessibles sans séjour dans le camping : non confirmés"
+      "Services accessibles sans séjour dans le camping : non confirmés",
+      "CGV exploitant : forfait de base emplacement pour 3 personnes avec électricité et 1 véhicule ; taxes et éco-contribution adulte/nuit en supplément (prix final selon réservation)"
     ],
     "price": "Non confirmé",
     "priceCheckedAt": "2026-10-20",
     "priceVerification": "grille_emplacement_camping_car_2026_exploitant_non_verifiee",
-    "priceEvidenceDocument": "https://www.laroseraie.com/emplacement-de-camping-a-la-baule/",
+    "priceEvidenceDocument": "https://www.laroseraie.com/usermedia/document-fr-639039812077585143-2.pdf",
     "indicativeRate": "Un guide d'hébergement pour une manifestation à La Baule en 2026 indique « emplacement camping-car à partir de 28 € » avec options en supplément ; prix tiers ponctuel, non contractuel et sans grille complète 2026. Frais de dossier annoncés par le camping : 30 € en juillet-août, sous conditions.",
     "indicativeRateSource": "https://bcbaulois.fr/la-baule-2026-solutions-dhebergements",
     "status": "20 avenue Jean Sohier, 44500 La Baule-Escoublac. Camping 4 étoiles avec aire de remplissage/vidange sur les emplacements du camping ; ne pas le confondre avec le Camping La Roseraie d'Onlycamp à Descartes (Indre-et-Loire, 37). Office e-SPRIT annonce ouverture du 03/04 au 20/09/2026 ; exploitant annonce du 04/04 au 20/09/2026 : contradiction mineure consignée. Saison terminée au 20/10. GPS e-SPRIT 47.29836,-2.35764, distinct du camping L'Eden et du camping Ajoncs d'Or.",
@@ -11373,7 +11391,11 @@
     "seasonalDates2026": "03/04/2026–20/09/2026 (e-SPRIT) ; 04/04/2026–20/09/2026 (site exploitant)",
     "capacityBarePitchesOperatorApprox": 100,
     "dataAttribution": "Camping La Roseraie (exploitant), e-SPRIT / Cirkwi, guide manifestation La Baule 2026",
-    "importReview": "Lot 51 du 20/10/2026 : accueil camping-car et aire de service attestés sur site officiel, GPS e-SPRIT, calendrier 2026 ; prix 28 € tiers non validé comme tarif officiel."
+    "importReview": "Lot 51 du 20/10/2026 : accueil camping-car et aire de service attestés sur site officiel, GPS e-SPRIT, calendrier 2026 ; prix 28 € tiers non validé comme tarif officiel. Lot 64 du 21/10/2026 : CGV exploitant vérifiées, forfait emplacement 3 personnes avec électricité/1 véhicule, acompte 90€ non assimilable au prix nuitée, taxe et écoparticipation adulte/nuit en sus ; forfait 2026 en euros demeure Non confirmé.",
+    "publishedTerms2026": "CGV exploitant consultées en octobre 2026 : le tarif d'un emplacement couvre 3 personnes, l'électricité, l'accès aux sanitaires et un véhicule. En supplément : personnes additionnelles, frais de réservation, taxe de séjour par adulte/nuit, éco-contribution par adulte/nuit, assurance et autres options. Le contrat exige 90€ d'acompte pour une réservation d'emplacement, ce qui N'EST PAS le prix d'une nuitée. Tarifs du site indicatifs jusqu'à réservation confirmée ; aucun montant de nuitée 2026 publié dans cette CGV.",
+    "publishedTerms2026Source": "https://www.laroseraie.com/usermedia/document-fr-639039812077585143-2.pdf",
+    "publishedTermsCheckedAt": "2026-10-21",
+    "priceEvidenceNote": "CGV du camping publiées sur son domaine et consultées le 21/10/2026 : emplacement 3 personnes avec électricité et véhicule, taxe et écoparticipation en plus ; 90 € d'acompte de réservation (pas prix de nuitée). Tarifs dynamiques, devis non garanti avant validation de réservation. Le montant « à partir de 28 € » d'un guide événementiel 2026 ne représente pas un forfait final officiel certifié."
   },
   {
     "department": "44",

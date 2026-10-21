@@ -54,3 +54,12 @@
 **Le Croisic, camping L'Océan** : sa [page tarifaire](https://www.camping-ocean.com/tarifs-ocean) conserve un titre Tarifs 2026 mais propose déjà les réservations 2027, donc le prix exact 2026 n'est pas disponible.
 
 Les **22 demandes adaptées** sont prêtes dans [DEMANDES-TARIFS-LOIRE-ATLANTIQUE-44-2026.csv](https://github.com/christophe93270-bit/camping-car-france/blob/main/DEMANDES-TARIFS-LOIRE-ATLANTIQUE-44-2026.csv). Aucune n'a été envoyée.
+
+
+## Lot 64 — vérifications complémentaires du 21 octobre 2026
+
+- Le Ranch : réduction FFCC 2026 de **10 %** sur emplacements nus pendant deux plages ([CampingFrance](https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/la-plaine-sur-mer/le-ranch3)). Adresse de contact : `info@yellohvillage-le-ranch.com`. Il faut demander le **prix de base 2026 camping-car + 2 adultes**, son électricité et le prix réel après remise, car le pourcentage seul ne certifie pas la nuitée.
+- La Roseraie : [CGV opérateur](https://www.laroseraie.com/usermedia/document-fr-639039812077585143-2.pdf) : forfait emplacement **3 personnes + électricité** et 90 € d'acompte, taxe/écoparticipation adulte en sus ; demander un devis contractuel de nuitée camping-car 2026 et les montants annexes à `camping@laroseraie.com`.
+- La Fontaine : [page opérateur](https://www.camping-lafontaine.com/camping-3-etoiles-guerande/) : **18/04/2026 pour les campeurs**, contre 14/04 sans année au pied de page ; demander le calendrier camping-car, en plus des prix à `contact@camping-lafontaine.com`.
+
+**22 demandes de confirmation déjà préparées. Aucun envoi effectué.**

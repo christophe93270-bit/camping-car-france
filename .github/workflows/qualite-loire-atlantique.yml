@@ -79,7 +79,7 @@ jobs:
           expected_email_ids={"ACCAMPDL044V51I23X","ACCAMACCAMPDL044V50G1TE","ACCAMPDL044V5002ZN","ACCAMACCAMPDL044000049","ACCAMPDL044V50ZDO9","ACCAMEAIREDESTMOLF","node/11786823109","way/1317028497","ACCAMPDL044V50Y077","ACCAMACCAMPDL044000155","ACCAMACCAMPDL044000154"}
           assert expected_email_ids.issubset({str(x.get("sourceId")) for x in emails}), "44 : les 11 tarifs non confirmés doivent disposer d’un courriel public sourcé"
           unresolved_all=[x for x in visible_regional+visible_osm if x.get("price")=="Non confirmé"]
-          assert len(unresolved_all)==22 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 63 : 22 prix strictement non confirmés et contacts sourcés"
+          assert len(unresolved_all)==22 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 64 : 22 prix strictement non confirmés, aucun prix non sourcé validé"
           ranch=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000049")
           assert ranch.get("price")=="Non confirmé" and "point de vidange camping-car" in " ".join(ranch.get("services",[])).lower() and ranch.get("drainageFacilitySource")=="https://www.yellohvillage.fr/camping/le_ranch/nos_services", "Le Ranch : service vérifié ou réserve manquante"
           contacts_incomplete=[str(x.get("sourceId")) for x in visible_regional+visible_osm if x.get("contactPhone") and (not str(x.get("contactSource","")).startswith("https://") or not x.get("contactRole") and x.get("priceCheckedAt"))]
@@ -358,7 +358,14 @@ jobs:
           assert len([x for x in visible_regional if "troischenes" in norm(x.get("name"))])==0, "Lot 53 : Les Trois Chênes non validé pour les camping-cars en 2026, ne pas ajouter"
           
           # Pause des ajouts de campings (lot 54) : ne pas accumuler de nouveaux tarifs inconnus.
-          assert len(unresolved_all)<=22, "44 : garde-fou tarifaire lot 63, hausse des prix strictement Non confirmé interdite pendant le rattrapage"
+          assert len(unresolved_all)<=22, "44 : garde-fou tarifaire lot 64, hausse des prix strictement Non confirmé interdite pendant le rattrapage"
+          # Lot 64 : remises FFCC, composition Roseraie et ouverture La Fontaine sans inventer les prix.
+          ranch64=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000049")
+          assert ranch64.get("price")=="Non confirmé" and ranch64.get("discountFFCC2026",{}).get("ratePercent")==10 and len(ranch64.get("discountFFCC2026",{}).get("periods",[]))==2 and ranch64.get("discountFFCC2026",{}).get("normalPitchPriceConfirmed") is False and ranch64.get("discountFFCC2026",{}).get("source")=="https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/la-plaine-sur-mer/le-ranch3", "Lot 64 : remise FFCC ne certifie pas le prix du Ranch"
+          roseraie64=next(x for x in visible_regional if x.get("sourceId")=="CCF44-LA-BAULE-ROSERAIE-2026")
+          assert roseraie64.get("price")=="Non confirmé" and "3 personnes" in roseraie64.get("publishedTerms2026","") and "90€" in roseraie64.get("publishedTerms2026","") and roseraie64.get("publishedTerms2026Source")=="https://www.laroseraie.com/usermedia/document-fr-639039812077585143-2.pdf", "Lot 64 : acompte La Roseraie assimilé à la nuitée"
+          fontaine64=next(x for x in visible_regional if x.get("sourceId")=="CCF44-GUERANDE-LA-FONTAINE-2026")
+          assert fontaine64.get("price")=="Non confirmé" and "18/04/2026" in fontaine64.get("operatorCampingOpening2026","") and fontaine64.get("operatorCampingOpeningSource")=="https://www.camping-lafontaine.com/camping-3-etoiles-guerande/" and "14/04" in fontaine64.get("openingDisagreement2026",""), "Lot 64 : dates contradictoires La Fontaine confondues"
           # Lot 63 : ACSI Bréhadour 2026, carte requise, prix ordinaire / halte distincts.
           b63=next(x for x in visible_regional if x.get("sourceId")=="CCF44-GUERANDE-BREHADOUR-2026")
           ca63=b63.get("priceACSI2026",{})
