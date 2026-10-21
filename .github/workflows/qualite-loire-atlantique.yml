@@ -258,7 +258,7 @@ jobs:
           lot46_ids={"CCF44-TREFFIEUX-GRUELLAU-2026","CCF44-MESQUER-TREAMBERT-2026","CCF44-MESQUER-PETIT-BOIS-2026","CCF44-MESQUER-GCU-SORLOC-H-2026"}
           lot46=[x for x in visible_regional if x.get("sourceId") in lot46_ids]
           assert len(lot46)==4 and len({x["sourceId"] for x in lot46})==4, "44 lot 46 : quatre nouveaux campings absents"
-          assert all(x.get("priceCheckedAt")=="2026-10-20" and x.get("priceVerification") and x.get("priceEvidenceDocument","").startswith("https://") and x.get("contactSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot46), "44 lot 46 : preuve, GPS, prix ou camping mal qualifiés"
+          assert all(x.get("priceCheckedAt") in ("2026-10-20","2026-10-21") and x.get("priceVerification") and x.get("priceEvidenceDocument","").startswith("https://") and x.get("contactSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot46), "44 lot 46/62 : preuve, GPS, prix ou camping mal qualifiés"
           gruellau=next(x for x in lot46 if x["sourceId"]=="CCF44-TREFFIEUX-GRUELLAU-2026")
           ceveo=next(x for x in lot46 if x["sourceId"]=="CCF44-MESQUER-TREAMBERT-2026")
           petit=next(x for x in lot46 if x["sourceId"]=="CCF44-MESQUER-PETIT-BOIS-2026")
