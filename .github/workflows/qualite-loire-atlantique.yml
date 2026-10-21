@@ -79,7 +79,7 @@ jobs:
           expected_email_ids={"ACCAMPDL044V51I23X","ACCAMACCAMPDL044V50G1TE","ACCAMPDL044V5002ZN","ACCAMACCAMPDL044000049","ACCAMPDL044V50ZDO9","ACCAMEAIREDESTMOLF","node/11786823109","way/1317028497","ACCAMPDL044V50Y077","ACCAMACCAMPDL044000155","ACCAMACCAMPDL044000154"}
           assert expected_email_ids.issubset({str(x.get("sourceId")) for x in emails}), "44 : les 11 tarifs non confirmés doivent disposer d’un courriel public sourcé"
           unresolved_all=[x for x in visible_regional+visible_osm if x.get("price")=="Non confirmé"]
-          assert len(unresolved_all)==23 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 62 : 23 prix strictement non confirmés et contacts sourcés"
+          assert len(unresolved_all)==22 and all(x.get("contactEmail") and x.get("contactEmailSource") for x in unresolved_all), "44 lot 63 : 22 prix strictement non confirmés et contacts sourcés"
           ranch=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMPDL044000049")
           assert ranch.get("price")=="Non confirmé" and "point de vidange camping-car" in " ".join(ranch.get("services",[])).lower() and ranch.get("drainageFacilitySource")=="https://www.yellohvillage.fr/camping/le_ranch/nos_services", "Le Ranch : service vérifié ou réserve manquante"
           contacts_incomplete=[str(x.get("sourceId")) for x in visible_regional+visible_osm if x.get("contactPhone") and (not str(x.get("contactSource","")).startswith("https://") or not x.get("contactRole") and x.get("priceCheckedAt"))]
@@ -308,7 +308,7 @@ jobs:
           lot50_ids={"CCF44-PORNIC-LES-BLEUETS-2026","CCF44-GUERANDE-BREHADOUR-2026","CCF44-ST-MICHEL-RIVIERA-2026"}
           lot50=[x for x in visible_regional if x.get("sourceId") in lot50_ids]
           assert len(lot50)==3 and len(set(x.get("sourceId") for x in lot50))==3, "Lot 50 : les 3 campings doivent être uniques"
-          assert all(x.get("priceCheckedAt")=="2026-10-20" and x.get("priceVerification") and x.get("contactPhone") and x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and not x.get("overnightStatus") for x in lot50), "Lot 50/60 : GPS, contact, statut nuitée ou prudence prix manquants"
+          assert all(x.get("priceCheckedAt") in ("2026-10-20","2026-10-21") and x.get("priceVerification") and x.get("contactPhone") and x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and not x.get("overnightStatus") for x in lot50), "Lot 50/63 : GPS, contact, statut nuitée ou prudence prix manquants"
           bleuets=next(x for x in lot50 if x.get("sourceId")=="CCF44-PORNIC-LES-BLEUETS-2026")
           brehadour=next(x for x in lot50 if x.get("sourceId")=="CCF44-GUERANDE-BREHADOUR-2026")
           riviera=next(x for x in lot50 if x.get("sourceId")=="CCF44-ST-MICHEL-RIVIERA-2026")
@@ -358,7 +358,15 @@ jobs:
           assert len([x for x in visible_regional if "troischenes" in norm(x.get("name"))])==0, "Lot 53 : Les Trois Chênes non validé pour les camping-cars en 2026, ne pas ajouter"
           
           # Pause des ajouts de campings (lot 54) : ne pas accumuler de nouveaux tarifs inconnus.
-          assert len(unresolved_all)<=23, "44 : garde-fou tarifaire lot 62, hausse des prix strictement Non confirmé interdite pendant le rattrapage"
+          assert len(unresolved_all)<=22, "44 : garde-fou tarifaire lot 63, hausse des prix strictement Non confirmé interdite pendant le rattrapage"
+          # Lot 63 : ACSI Bréhadour 2026, carte requise, prix ordinaire / halte distincts.
+          b63=next(x for x in visible_regional if x.get("sourceId")=="CCF44-GUERANDE-BREHADOUR-2026")
+          ca63=b63.get("priceACSI2026",{})
+          assert b63.get("priceYear")==2026 and b63.get("priceSource")=="https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/guerande/camping-le-domaine-de-brehadour-103281/" and b63.get("priceType")=="tarif_2026_conditionnel_campingcard_acsi_basse_saison", "Lot 63 : Bréhadour tarif ACSI 2026 perdu"
+          assert ca63.get("ratePerNightEUR")==17 and ca63.get("requiredCard") is True and len(ca63.get("validPeriods",[]))==2 and ca63.get("ordinaryPriceConfirmed") is False and ca63.get("cardCostIncluded") is False and ca63.get("localTaxIncluded") is False, "Lot 63 : 17 € ne doit pas devenir prix public"
+          assert "sans millésime 2026" in b63.get("indicativeRate","").lower() and "sans carte" in b63.get("price","").lower(), "Lot 63 : halte à 11/16 € non prouvée en 2026"
+          ocean63=next(x for x in visible_regional if x.get("sourceId")=="CCF44-CROISIC-CAMPING-OCEAN-2026")
+          assert ocean63.get("price")=="Non confirmé" and "2027" in ocean63.get("priceEvidenceNote",""), "Lot 63 : tarifs 2027 de l'Océan ne peuvent remplacer 2026"
           # Lot 62 : Bugeau ACSI 2026 avec carte, Petit Bois forfait sans prix, deux hôtes France Passion non actifs certifiés 2026.
           assert len(bugeau.get("priceACSI2026",{}).get("validPeriods",[]))==6 and bugeau.get("priceACSI2026",{}).get("cardCostIncluded") is False and bugeau.get("priceACSI2026",{}).get("localTaxIncluded") is False, "Lot 62 : six dates ou suppléments Bugeau omis"
           petit62=next(x for x in visible_regional if x.get("sourceId")=="CCF44-MESQUER-PETIT-BOIS-2026")
