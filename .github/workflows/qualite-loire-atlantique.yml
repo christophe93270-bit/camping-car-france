@@ -365,7 +365,7 @@ jobs:
           assert petit62.get("price")=="Non confirmé" and "camping-car" in petit62.get("publishedPackage2026Note","") and "électricité" in petit62.get("publishedPackage2026Note","") and petit62.get("publishedPackage2026Source")=="https://www.camping-lepetitbois.com/fr/hebergements/emplacements/", "Lot 62 : forfait Petit Bois non sourcé ou prix inventé"
           for fid in ("ACCAMPDL044V50Y077","ACCAMPDL044V50ZDO9"):
               fp62=next(x for x in visible_regional if x.get("sourceId")==fid)
-              assert fp62.get("price")=="Non confirmé" and fp62.get("hostListedInCurrentGuide2026") is False and fp62.get("networkRulesSource")=="https://www.france-passion.com/camping-caristes/comment-ca-marche/" and "non vérifiée" in fp62.get("networkRules2026",""), "Lot 62 : prix gratuit France Passion imputé sans inscription 2026"
+              assert fp62.get("price")=="Non confirmé" and fp62.get("hostListedInCurrentGuide2026") is False and fp62.get("networkRulesSource")=="https://www.france-passion.com/camping-caristes/comment-ca-marche/" and "n'est pas vérifiée" in fp62.get("networkRules2026",""), "Lot 62 : prix gratuit France Passion imputé sans inscription 2026"
           # Lot 61 : deux CampingCard ACSI 2026 (aucun tarif public ordinaire sans carte garanti).
           for sid,rate,source in (("CCF44-GUERANDE-DOMAINE-LEVENO-2026",25,"https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/guerande/camping-domaine-de-leveno-109840/"),("CCF44-PIRIAC-DOMAINE-MON-CALME-2026",21,"https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/piriac-sur-mer/domaine-mon-calme-116004/")):
               matches=[x for x in visible_regional if x.get("sourceId")==sid]
