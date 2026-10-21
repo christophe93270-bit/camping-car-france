@@ -1191,3 +1191,12 @@ Les [règles officielles ACSI](https://www.acsi.eu/fr/informations-pour-les-camp
 - **Camping La Fontaine, Guérande** : [présentation exploitant](https://www.camping-lafontaine.com/camping-3-etoiles-guerande/) précisant **« 18 avril 2026 pour les campeurs »**, alors que son pied de page mentionne **14 avril** sans année et que l'office annonce l'ouverture de l'établissement au **4 avril 2026**. L'accueil effectif des camping-cars dans cet intervalle reste à confirmer. **Aucun tarif 2026 trouvé.**
 
 **Bilan lot 64 : 215 lieux au total / 187 avec filtre nocturne, 22 tarifs encore strictement `Non confirmé`. Des demandes de confirmation sont préparées sur GitHub, aucun courriel n'est envoyé.**
+
+
+## Lot 65 — 21 octobre 2026 : forfaits dynamiques et prix locatifs isolés
+
+- Le Bernier, La Plaine-sur-Mer : [site officiel](https://camping-lebernier.fr/) : réservation **dès 2 nuits**, offre couple **294 € pour 7 nuits minimum**. Cette offre ne confirme pas une nuitée camping-car standard.
+- La Riviera, Saint-Michel-Chef-Chef : [page des conditions](https://www.aloa-vacances.com/la-riviera/informations-detaillees/), mise à jour 15 octobre 2025 : taxe de séjour **0,66 €/adulte/jour datée 2025**, redevance écologique **0,69 €/personne/jour** ; frais **40 €** pour choix d'emplacement lié à l'hébergement. [Remise de 10 % en 2026](https://www.aloa-vacances.com/la-riviera/accueil/) seulement pour **hébergements locatifs**. Aucun montant repris en prix camping-car 2026.
+- Capfun L'Ève, Saint-Nazaire : [moteur exploitant](https://www.capfun.com/camping-france--l_eve-FR.html) offrant « Emplacement Camping » mais prix dépendant des dates et options. Aucun forfait chiffré 2026 recoupé ; le pass camping à 15 € reste exclu sur ce site.
+
+**Bilan : 215 fiches, 187 avec filtre nocturne, 22 prix strictement non confirmés, aucun camping ajouté et aucun courriel envoyé.**

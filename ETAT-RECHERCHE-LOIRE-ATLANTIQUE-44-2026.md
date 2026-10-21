@@ -63,3 +63,12 @@ Les **22 demandes adaptées** sont prêtes dans [DEMANDES-TARIFS-LOIRE-ATLANTIQU
 - La Fontaine : [page opérateur](https://www.camping-lafontaine.com/camping-3-etoiles-guerande/) : **18/04/2026 pour les campeurs**, contre 14/04 sans année au pied de page ; demander le calendrier camping-car, en plus des prix à `contact@camping-lafontaine.com`.
 
 **22 demandes de confirmation déjà préparées. Aucun envoi effectué.**
+
+
+## Lot 65 — 21 octobre 2026 : forfaits dynamiques et prix locatifs isolés
+
+- Le Bernier, La Plaine-sur-Mer : [site officiel](https://camping-lebernier.fr/) : réservation **dès 2 nuits**, offre couple **294 € pour 7 nuits minimum**. Cette offre ne confirme pas une nuitée camping-car standard.
+- La Riviera, Saint-Michel-Chef-Chef : [page des conditions](https://www.aloa-vacances.com/la-riviera/informations-detaillees/), mise à jour 15 octobre 2025 : taxe de séjour **0,66 €/adulte/jour datée 2025**, redevance écologique **0,69 €/personne/jour** ; frais **40 €** pour choix d'emplacement lié à l'hébergement. [Remise de 10 % en 2026](https://www.aloa-vacances.com/la-riviera/accueil/) seulement pour **hébergements locatifs**. Aucun montant repris en prix camping-car 2026.
+- Capfun L'Ève, Saint-Nazaire : [moteur exploitant](https://www.capfun.com/camping-france--l_eve-FR.html) offrant « Emplacement Camping » mais prix dépendant des dates et options. Aucun forfait chiffré 2026 recoupé ; le pass camping à 15 € reste exclu sur ce site.
+
+**Bilan : 215 fiches, 187 avec filtre nocturne, 22 prix strictement non confirmés, aucun camping ajouté et aucun courriel envoyé.**

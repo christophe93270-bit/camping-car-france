@@ -474,7 +474,7 @@
     "gpsSource": "https://www.capfun.com/camping---l_eve-FR.html",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : contrôle capfun.com/pass-camping.html, site L'Ève explicitement exclu du Pass Camping 15 € 2026. Interdiction de présenter ce tarif promotionnel comme applicable ; prix 2026 propre à L'Ève non trouvé. Lot 23 : https://www.capfun.com/camping---l_eve-FR.html donne 274 emplacements pour toutes catégories, mais pas un tarif 2026 fixe de camping-car ; conserver la capacité camping-car régionale 50 en la distinguant du total du camping. Lot 24 : GPS directement publié par le gestionnaire https://www.capfun.com/camping---l_eve-FR.html (47.241931,-2.267936) ; coordonnées régionales originales conservées pour traçabilité. Prix de nuitée toujours non confirmé.",
+    "importReview": "20/10/2026 : contrôle capfun.com/pass-camping.html, site L'Ève explicitement exclu du Pass Camping 15 € 2026. Interdiction de présenter ce tarif promotionnel comme applicable ; prix 2026 propre à L'Ève non trouvé. Lot 23 : https://www.capfun.com/camping---l_eve-FR.html donne 274 emplacements pour toutes catégories, mais pas un tarif 2026 fixe de camping-car ; conserver la capacité camping-car régionale 50 en la distinguant du total du camping. Lot 24 : GPS directement publié par le gestionnaire https://www.capfun.com/camping---l_eve-FR.html (47.241931,-2.267936) ; coordonnées régionales originales conservées pour traçabilité. Prix de nuitée toujours non confirmé. Lot 65 : catégorie emplacement camping existante mais pas de prix fixe 2026 vérifiable, maintien de l'exclusion du pass camping 15 €.",
     "sourceId": "ACCAMPDL044V51I23X",
     "contactRole": "camping",
     "contactPhone": "02 40 91 99 11",
@@ -491,7 +491,9 @@
     "gpsVerificationDate": "2026-10-20",
     "gpsEvidenceNote": "Position GPS officielle du camping Capfun L'Ève, 47.241931, -2.267936. Localise le terrain dans son ensemble ; la position précise des 50 emplacements camping-car et de la vidange doit être recherchée sur place.",
     "contactEmail": "eve@capfun.com",
-    "contactEmailSource": "https://www.capfun.com/camping---l_eve-FR.html"
+    "contactEmailSource": "https://www.capfun.com/camping---l_eve-FR.html",
+    "bookingTypeOfficial": "Moteur Capfun L'Ève avec option « Emplacement Camping » (distincte du locatif), prix variable selon date, participants et options, sans grille publique fixe 2026 pour camping-car 2 adultes.",
+    "bookingTypeSource": "https://www.capfun.com/camping-france--l_eve-FR.html"
   },
   {
     "department": "72",
@@ -11042,7 +11044,9 @@
     "seasonalDates2026": "03/04/2026–04/10/2026 (page accueil opérateur)",
     "capacityAllTypesTourism": 41,
     "dataAttribution": "Camping Le Bernier (exploitant), Cirkwi/e-SPRIT et Open Data Loire-Atlantique (géolocalisation)",
-    "importReview": "Lot 49 du 20/10/2026 : emplacement camping-car attesté ; GPS e-SPRIT 47.15089,-2.19485, adresse et contact confirmés ; distinct des campings voisins ; prix nuitée 2026 strictement non confirmé."
+    "importReview": "Lot 49 du 20/10/2026 : emplacement camping-car attesté ; GPS e-SPRIT 47.15089,-2.19485, adresse et contact confirmés ; distinct des campings voisins ; prix nuitée 2026 strictement non confirmé. Lot 65 : 2 nuits de réservation minimum distinctes de la promotion couple pour 7 nuits ; prix camping-car toujours Non confirmé.",
+    "minimumStay2026Clarification": "Exploitant 2026 : réservation dès DEUX nuits minimum ; offre couple 294 € pour SEPT nuits minimum hors saison ; la promotion hebdomadaire n'est pas un tarif camping-car standard à la nuit.",
+    "minimumStay2026Source": "https://camping-lebernier.fr/"
   },
   {
     "department": "44",
@@ -11270,7 +11274,11 @@
     "capacityRentalTourism": 100,
     "capacityResidentialTourism": 77,
     "dataAttribution": "Aloa Vacances La Riviera, Destination Pornic, Pays de la Loire Tourisme",
-    "importReview": "Lot 50, 20/10/2026 : opérateur 2026 et office attestent emplacements camping-car ; GPS institutionnel, saison et contacts exploitant, sans déclaration de prix non vérifié."
+    "importReview": "Lot 50, 20/10/2026 : opérateur 2026 et office attestent emplacements camping-car ; GPS institutionnel, saison et contacts exploitant, sans déclaration de prix non vérifié. Lot 65 : les montants 2025 et promotions locatives ne sont pas transférés aux emplacements camping-car 2026.",
+    "feesEvidenceYear": 2025,
+    "feesEvidenceDocument": "https://www.aloa-vacances.com/la-riviera/informations-detaillees/",
+    "feesEvidenceCheckedAt": "2026-10-21",
+    "feesEvidenceNote": "Page du 15/10/2025 : taxe séjour 0,66 €/adulte/jour explicitement année 2025, redevance écologique 0,69 €/personne/jour, frais de choix d'emplacement 40 € dans les modalités du locatif. Remise 10 % du 29/08 au 13/09/2026 réservée aux LOCATIFS : aucune de ces valeurs ne certifie un forfait camping-car 2026."
   },
   {
     "department": "44",
