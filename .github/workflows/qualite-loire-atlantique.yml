@@ -258,7 +258,7 @@ jobs:
           lot46_ids={"CCF44-TREFFIEUX-GRUELLAU-2026","CCF44-MESQUER-TREAMBERT-2026","CCF44-MESQUER-PETIT-BOIS-2026","CCF44-MESQUER-GCU-SORLOC-H-2026"}
           lot46=[x for x in visible_regional if x.get("sourceId") in lot46_ids]
           assert len(lot46)==4 and len({x["sourceId"] for x in lot46})==4, "44 lot 46 : quatre nouveaux campings absents"
-          assert all(x.get("priceCheckedAt") in ("2026-10-20","2026-10-21") and x.get("priceVerification") and x.get("priceEvidenceDocument","").startswith("https://") and x.get("contactSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot46), "44 lot 46/62 : preuve, GPS, prix ou camping mal qualifiés"
+          assert all(x.get("priceCheckedAt") in ("2026-10-20","2026-10-21","2026-10-23") and x.get("priceVerification") and x.get("priceEvidenceDocument","").startswith("https://") and x.get("contactSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot46), "44 lot 46/62 : preuve, GPS, prix ou camping mal qualifiés"
           gruellau=next(x for x in lot46 if x["sourceId"]=="CCF44-TREFFIEUX-GRUELLAU-2026")
           ceveo=next(x for x in lot46 if x["sourceId"]=="CCF44-MESQUER-TREAMBERT-2026")
           petit=next(x for x in lot46 if x["sourceId"]=="CCF44-MESQUER-PETIT-BOIS-2026")
@@ -266,7 +266,8 @@ jobs:
           assert all(t in gruellau.get("price","") for t in ("8 €","4 €","2,50 €")) and "contradictoire" in gruellau.get("operationalWarning",""), "Gruellau : prix d'appel ou saisons contradictoires non tracés"
           assert ceveo.get("price")=="Non confirmé" and ceveo.get("capacityCampingCarPublished")==15 and ceveo.get("nearbyDistinctSourceId")==petit["sourceId"], "Tréambert : tarif ou capacité camping-car erronés"
           assert petit.get("price")=="Non confirmé" and petit.get("capacityBarePitchesPublished")==16 and petit.get("nearbyDistinctSourceId")==ceveo["sourceId"], "Petit Bois : tarif, places ou voisin mal identifiés"
-          assert "14,45 €" in gcu.get("price","") and gcu.get("accessVerification")=="conditions_gcu_2026_non_verifiees" and "prix_appel" in gcu.get("priceVerification",""), "GCU Mesquer : prix d'appel non millésimé ou accès associatif non averti"
+          assert gcu.get("priceYear")==2026 and all(v in gcu.get("price","") for v in ("17,86 €","20,83 €","29,77 €")) and gcu.get("priceSource")=="https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf" and gcu.get("accessVerification")=="tarif_2026_adherents_atteste_admission_non_adherents_a_verifier", "GCU Mesquer : forfait 2026 pour deux adhérents ou preuve manquants"
+          assert "à la semaine" in gcu.get("bookingConditions2026","") and "dimanche ou mercredi" in gcu.get("bookingConditions2026",""), "GCU Mesquer : réservation haute saison manquante"
 
           # Lot 47 : deux tarifs camping-car strictement non confirmés et un seul prix d'appel non contractuel.
           lot47_ids={"CCF44-TURBALLE-CAMPING-LA-FALAISE-2026","CCF44-MESQUER-CAMPING-BEAUPRE-2026","CCF44-MESQUER-CAMPING-AU-SOIR-ETE-2026"}

@@ -144,3 +144,12 @@ Trois fiches précisées : Biau Chemin (signalement communautaire 2026 et diverg
 - Biau Chemin : https://park4night.com/en/place/682040 (fiche créée 01/06/2026, 4 places, gratuit, avis été 2026) contre https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion (2 places, 2 nuits). Auteur non authentifié : aucune certification France Passion déduite.
 - Étang : https://www.guerande-camping.com/nous-contacter/ (25 nus, 7 grand confort, 87 locatifs ; chiffres non millésimés) ; https://www.guerande-camping.com/ présente 2027. Ne pas substituer ces catégories aux 24 places camping-car régionales 2026.
 - Tréambert : https://www.ceveo.com/residence/mesquer-pays-de-guerande annonce désormais 02/04–10/10/2027 pour le village. Les dates 2026 antérieurement relevées restent historiques.
+
+
+## Lot 70 — 23 octobre 2026 : GCU Mesquer, forfait 2026 vérifié
+
+- Mesquer : remplacement du prix d'appel 14,45 € pour UN adulte par le calcul officiel pour DEUX adultes adhérents avec électricité : 17,86 € très basse saison, 20,83 € basse saison, 29,77 € haute saison. Périodes limitées à l'ouverture du 03/04 au 01/11/2026 ; dernière nuit le 31/10.
+- Mesquer et Pornichet : réservations d'emplacements à la semaine en haute saison, début dimanche ou mercredi. Tarif par nuit et possibilité de réserver une nuit distingués.
+- Cotisations, taxe locale éventuelle, frais de réservation et admission des non-adhérents restent distincts du tarif adhérent.
+- Source officielle contrôlée visuellement : https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf (pages 15–16 et 32–35).
+- 215 fiches / 187 avec filtre nocturne / 22 libellés strictement Non confirmé inchangés : Mesquer était déjà compté comme prix d'appel, ce compteur ne mesure pas cette amélioration.
