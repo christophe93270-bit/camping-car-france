@@ -82,3 +82,11 @@ Les **22 demandes adaptées** sont prêtes dans [DEMANDES-TARIFS-LOIRE-ATLANTIQU
 - Les trois précisions sont désormais affichées sur les fiches avec leurs sources.
 - Le seuil global du contrôle accepte une baisse des inconnues ; les garde-fous particuliers des lots précédents devront être actualisés avec les preuves lorsqu'un prix sera confirmé.
 - Les 22 demandes restent des brouillons non envoyés. Répartition : 17 campings, halte municipale du Pont de Clin, 2 fermes France Passion, 2 stationnements municipaux.
+
+## Lot 67 — 23 octobre 2026 : frais et acomptes distincts des nuitées
+
+- Les Forges : page pratique officielle des emplacements, frais de dossier 30 € (60 € en cas de dossier de subventions), minimum de nuits non chiffré. CGV : acompte emplacement 90 €. Aucun de ces montants n'est une nuitée et leur application à un séjour 2026 reste à confirmer. Sources : https://campinglesforges.com/64-emplacements/45062-informations-pratiques.html et https://campinglesforges.com/usermedia/document-fr-639039815852589973-316.pdf
+- Beaupré : CGV et contrat officiels, arrhes 30 %, solde des emplacements la veille du départ ; assurance facultative 3 %, caution 380 € propre aux locations. Contrat avec camping-car mais montant laissé à compléter. Sources : https://www.lebeaupre.com/images/site/pdf/CGV.pdf et https://www.lebeaupre.com/images/site/pdf/contrat_de_location.pdf
+- La Forêt au Gâvre : rubrique officielle Tarifs toujours sans prix public consultable ; 16,56 € reste un repère tiers non certifié pour un camping-car en 2026. Source : https://campinglegavre.fr/?page_id=95
+- Demandes CSV adaptées aux trois établissements ; brouillons non envoyés.
+- Bilan : 215 fiches, 187 avec filtre nocturne, 22 libellés strictement Non confirmé ; aucun prix de nuitée supplémentaire confirmé.
