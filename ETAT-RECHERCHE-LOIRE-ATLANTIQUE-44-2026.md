@@ -98,3 +98,49 @@ Les **22 demandes adaptées** sont prêtes dans [DEMANDES-TARIFS-LOIRE-ATLANTIQU
 - Clos Mer et Nature : contrat 2026 relu, frais déjà connus confirmés, aucun prix de base supplémentaire trouvé. Les fiches proposent désormais un lien direct vers la source de leurs frais 2026.
 - Demandes CSV de ces trois établissements complétées. Aucun courriel envoyé.
 - Compteurs inchangés : 215 lieux, 187 avec filtre nocturne, 22 prix strictement Non confirmé. Ce lot sécurise les sources et ne résout aucun nouveau prix.
+
+
+## Lot 69 — 23 octobre 2026 : corrections groupées et bilan des blocages
+
+Trois fiches précisées : Biau Chemin (signalement communautaire 2026 et divergences), Étang du Pays Blanc (contact opérateur, capacités non comparables), Tréambert (bascule de la page opérateur vers 2027). Aucun nouveau prix officiel de nuitée 2026 confirmé.
+
+### État et règle de reprise
+
+- 22 fiches visibles au libellé exact **Non confirmé** : 17 campings, 2 fermes et 3 stationnements municipaux. Les deux doublons masqués ne sont pas comptés.
+- Ce compteur n'inclut pas tous les prix indicatifs, prix d'appel ou offres sous conditions. Il ne signifie pas que les autres tarifs sont tous certifiés.
+- Les contrôles automatiques vérifient la cohérence de la base ; ils ne remplacent pas une confirmation tarifaire de l'exploitant.
+- Pour ces dossiers déjà recherchés, reprendre sur une nouvelle grille, une preuve datée ou une réponse de l'exploitant/mairie, plutôt que répéter les mêmes recherches. Les demandes CSV restent des brouillons non envoyés.
+- Une preuve de prix doit préciser l'année, la période, la prestation camping-car, les occupants, l'électricité, les taxes/frais et le minimum de séjour. Pour un tarif dynamique, conserver les dates exactes du devis sans le généraliser à toute la saison.
+
+### Les 22 preuves encore nécessaires
+
+| Établissement | Contact public disponible | Preuve ou réponse attendue |
+|---|---|---|
+| Accueil France Passion – Ferme des Cochons d’Antan, Legé | lescochonsdantan@orange.fr | Présence au guide France Passion 2026, accès gratuit 24 h, horaires et frais éventuels. |
+| Camping Capfun de l’Ève – Saint-Nazaire | eve@capfun.com | Grille emplacement 2026 ; confirmation de la réservation camping-car. Ne pas appliquer le Pass Capfun excluant L'Ève. |
+| Camping Les Mouettes – Saint-Père-en-Retz | contact@les-mouettes-camping.com | Grille 2026 de l'exploitant actuel ; résoudre 15/19,50 € et restrictions nocturnes. |
+| Camping Les Chênes Verts – Bourgneuf-en-Retz | campingleschenesverts@wanadoo.fr | Forfait camping-car 2026 et supplément électricité ; ne pas certifier le prix tiers 18,52 €. |
+| Camping Eden Villages La Pointe Saint-Gildas – Préfailles | directionlapointe@edenvillages.fr | Prix du camping Eden Villages 2026 ; ne pas reprendre celui de l'aire Camping-Car Park distincte. |
+| Accueil France Passion de la ferme du Biau Chemin – Nort-sur-Erdre | lebiauchemin@gmail.com | Confirmer gratuité et adhésion 2026 ; résoudre 2/4 places, 24 h/2 nuits et disponibilité de l'eau. |
+| Halte camping-car du Pont de Clin – Saint-Molf | accueil@saintmolf.fr | Réponse de la mairie sur prix, nuitée et durée au Pont de Clin ; une taxe communale générale ne prouve pas un prix local. |
+| Camping Clos Mer et Nature – Saint-Michel-Chef-Chef | closmernature@orange.fr | Prix de base 2026 pour camping-car et 2 adultes, en plus des frais déjà connus ; résoudre heures 14–12/15–10. |
+| Yelloh! Village Le Ranch – La Plaine-sur-Mer | info@yellohvillage-le-ranch.com | Prix de référence 2026 et forfait ; la remise FFCC 10 % et le repère tiers 74 € ne suffisent pas. |
+| Camping L'Étang du Pays Blanc – Sandun, Guérande | resa@camping-guerande.com | Grille emplacement 2026 archivée ; capacité par catégorie et saison. Exclure mobil-homes professionnels et offres 2027. |
+| Camping Cévéo Château de Tréambert — Mesquer | reservation@ceveo.com | Prix et saison des emplacements 2026, distincts des chalets, du village et de la nouvelle page 2027. |
+| Camping du Petit Bois — Mesquer | info@campingdupetitbois.com | Montant du forfait 2026 connu dans sa composition (2 personnes, électricité, sanitaires privés), taxes et périodes. |
+| Camping Le Beaupré — Kercabellec, Mesquer | info@lebeaupre.com | Barème emplacement 2026 renseigné ; arrhes et assurance ne sont pas une nuitée. |
+| Camping Le Bernier – La Plaine-sur-Mer | camping.lebernier@orange.fr | Nuitée emplacement 2026 et minimum de nuits ; champ d'application de l'offre couple 294 €/semaine. |
+| Camping La Fontaine – Guérande | contact@camping-lafontaine.com | Grille 2026 du camping de Guérande, taxes et dates ; exclure le tarif homonyme de Saint-Cast. |
+| Camping de la Forêt – Le Gâvre | campinglegavre@gmail.com | Forfait 2026 propre aux camping-cars, taxes et dates ; 16,56 € reste un repère tiers. |
+| Camping Aloa Vacances La Riviera – Saint-Michel-Chef-Chef | info.riviera@aloa-vacances.com | Prix emplacement 2026 et frais de cette année ; exclure locatifs et taxe annoncée pour 2027. |
+| Camping Airotel La Roseraie – La Baule-Escoublac | camping@laroseraie.com | Grille emplacement 2026 ; distinguer acompte 90 €, prix d'appel tiers et locations 2025. |
+| Camping Les Forges – Pornichet | camping@campinglesforges.com | Barème emplacement 2026, dossier applicable, minimum de nuits et saison ; acompte 90 € distinct. |
+| Camping de l’Océan – Le Croisic | info@camping-ocean.com | Grille emplacement 2026 archivée ; exclure saison 2027 et option Pack Exclusif 15 €/jour. |
+| Parking camping-car de Plessé – près de l'église (OSM) | contact@mairie-plesse.fr | Mairie : prix, nuitée et durée sur le parking près de l'église, distinct de Buhel et Piardière. |
+| Aire de stationnement Barrière Saint-Pierre – Ancenis | accueil@ancenis-saint-gereon.fr | Mairie : prix, nuitée, durée et capacité Barrière Saint-Pierre ; services touristiques insuffisants. |
+
+### Sources nouvelles et divergences à conserver
+
+- Biau Chemin : https://park4night.com/en/place/682040 (fiche créée 01/06/2026, 4 places, gratuit, avis été 2026) contre https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion (2 places, 2 nuits). Auteur non authentifié : aucune certification France Passion déduite.
+- Étang : https://www.guerande-camping.com/nous-contacter/ (25 nus, 7 grand confort, 87 locatifs ; chiffres non millésimés) ; https://www.guerande-camping.com/ présente 2027. Ne pas substituer ces catégories aux 24 places camping-car régionales 2026.
+- Tréambert : https://www.ceveo.com/residence/mesquer-pays-de-guerande annonce désormais 02/04–10/10/2027 pour le village. Les dates 2026 antérieurement relevées restent historiques.
