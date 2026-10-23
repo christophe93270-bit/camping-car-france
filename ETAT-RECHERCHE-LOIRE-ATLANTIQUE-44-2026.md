@@ -90,3 +90,11 @@ Les **22 demandes adaptées** sont prêtes dans [DEMANDES-TARIFS-LOIRE-ATLANTIQU
 - La Forêt au Gâvre : rubrique officielle Tarifs toujours sans prix public consultable ; 16,56 € reste un repère tiers non certifié pour un camping-car en 2026. Source : https://campinglegavre.fr/?page_id=95
 - Demandes CSV adaptées aux trois établissements ; brouillons non envoyés.
 - Bilan : 215 fiches, 187 avec filtre nocturne, 22 libellés strictement Non confirmé ; aucun prix de nuitée supplémentaire confirmé.
+
+## Lot 68 — 23 octobre 2026 : sources exclues et demandes ciblées
+
+- La Roseraie : lecture visuelle du PDF officiel « Grille tarif non web », locations 2025, aucune grille emplacement 2026. Source exclue pour la nuitée camping-car : https://www.laroseraie.com/wp-content/uploads/2024/12/grille-non-web.pdf
+- La Fontaine : forfait 20,50 € de campinglafontaine.fr exclu (Saint-Cast-le-Guildo, 22). Pour Guérande, calendrier synthétique corrigé avec le 18/04/2026 explicitement publié pour les campeurs ; fin de saison exacte à confirmer.
+- Clos Mer et Nature : contrat 2026 relu, frais déjà connus confirmés, aucun prix de base supplémentaire trouvé. Les fiches proposent désormais un lien direct vers la source de leurs frais 2026.
+- Demandes CSV de ces trois établissements complétées. Aucun courriel envoyé.
+- Compteurs inchangés : 215 lieux, 187 avec filtre nocturne, 22 prix strictement Non confirmé. Ce lot sécurise les sources et ne résout aucun nouveau prix.
