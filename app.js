@@ -110,7 +110,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261021-65-prix", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261023-66-audit", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -611,6 +611,9 @@ async function initAires(){
         ${a.receptionHoursNote?`<p><strong>Accueil :</strong> ${escapeHTML(a.receptionHoursNote)}</p>`:""}
         <p><strong>${a.priceStatus==="not_applicable_for_night_stay"?"Tarif de nuitée :":"Tarif :"}</strong> ${escapeHTML(a.price)}</p>
         ${a.publishedTariff2026Note&&a.publishedTariff2026Source&&/^https:\/\//.test(String(a.publishedTariff2026Source))?`<p><strong>Barème officiel d'emplacement 2026 — application au camping-car à confirmer :</strong> ${escapeHTML(a.publishedTariff2026Note)} <a href="${escapeHTML(a.publishedTariff2026Source)}" target="_blank" rel="noopener noreferrer">Voir la grille officielle ↗</a></p>`:""}
+        ${a.minimumStay2026Clarification? `<p><strong>Réservation et promotion :</strong> ${escapeHTML(a.minimumStay2026Clarification)} ${a.minimumStay2026Source&&/^https:\/\//.test(String(a.minimumStay2026Source))?`<a href="${escapeHTML(a.minimumStay2026Source)}" target="_blank" rel="noopener noreferrer">Source officielle ↗</a>`:""}</p>`:""}
+        ${a.feesEvidenceNote? `<p><strong>Frais documentés — application au camping-car à confirmer :</strong> ${escapeHTML(a.feesEvidenceNote)} ${a.feesEvidenceDocument&&/^https:\/\//.test(String(a.feesEvidenceDocument))?`<a href="${escapeHTML(a.feesEvidenceDocument)}" target="_blank" rel="noopener noreferrer">Source des frais ↗</a>`:""}</p>`:""}
+        ${a.bookingTypeOfficial? `<p><strong>Offre à vérifier :</strong> ${escapeHTML(a.bookingTypeOfficial)} ${a.bookingTypeSource&&/^https:\/\//.test(String(a.bookingTypeSource))?`<a href="${escapeHTML(a.bookingTypeSource)}" target="_blank" rel="noopener noreferrer">Site du camping ↗</a>`:""}</p>`:""}
         ${a.fees2026?`<p><strong>Frais annexes 2026 :</strong> ${escapeHTML(a.fees2026)}</p>`:""}
         ${a.indicative2026RateLabel&&a.indicative2026RateYear===2026&&/^https:\/\//.test(String(a.indicative2026RateSource||""))?`<p><strong>Repère indicatif 2026 (non confirmé par le camping) :</strong> ${escapeHTML(a.indicative2026RateLabel)} <a href="${escapeHTML(a.indicative2026RateSource)}" target="_blank" rel="noopener noreferrer">Source CampingFrance ↗</a></p>`:""}
         ${a.operationalWarning?`<p><strong>Horaires ou conditions à vérifier :</strong> ${escapeHTML(a.operationalWarning)}</p>`:""}

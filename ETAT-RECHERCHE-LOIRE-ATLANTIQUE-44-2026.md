@@ -72,3 +72,13 @@ Les **22 demandes adaptées** sont prêtes dans [DEMANDES-TARIFS-LOIRE-ATLANTIQU
 - Capfun L'Ève, Saint-Nazaire : [moteur exploitant](https://www.capfun.com/camping-france--l_eve-FR.html) offrant « Emplacement Camping » mais prix dépendant des dates et options. Aucun forfait chiffré 2026 recoupé ; le pass camping à 15 € reste exclu sur ce site.
 
 **Bilan : 215 fiches, 187 avec filtre nocturne, 22 prix strictement non confirmés, aucun camping ajouté et aucun courriel envoyé.**
+
+## Lot 66 — audit du 23 octobre 2026
+
+- Aucun tarif supplémentaire confirmé : les 22 libellés stricts « Non confirmé » restent en attente. Ce compteur n'inclut pas tous les prix indicatifs, sans millésime ou conditionnels (dont les offres ACSI sans tarif ordinaire établi).
+- Bernier : minimum de réservation général distinct de l'offre couple ; application aux emplacements à confirmer.
+- Riviera : page actuelle mise à jour au 07/10/2026, taxe annoncée pour 2027 ; redevance sans millésime propre. L'attribution 2025 du lot 65 n'est plus étayée par la page actuelle et ne doit pas devenir une preuve de frais camping-car 2026.
+- L'Ève : exclusion du Pass 15 € maintenue ; option du moteur signalée au lot 65 à revalider, non retrouvée dans le texte public consultable.
+- Les trois précisions sont désormais affichées sur les fiches avec leurs sources.
+- Le seuil global du contrôle accepte une baisse des inconnues ; les garde-fous particuliers des lots précédents devront être actualisés avec les preuves lorsqu'un prix sera confirmé.
+- Les 22 demandes restent des brouillons non envoyés. Répartition : 17 campings, halte municipale du Pont de Clin, 2 fermes France Passion, 2 stationnements municipaux.
