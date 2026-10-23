@@ -153,3 +153,11 @@ Trois fiches précisées : Biau Chemin (signalement communautaire 2026 et diverg
 - Cotisations, taxe locale éventuelle, frais de réservation et admission des non-adhérents restent distincts du tarif adhérent.
 - Source officielle contrôlée visuellement : https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf (pages 15–16 et 32–35).
 - 215 fiches / 187 avec filtre nocturne / 22 libellés strictement Non confirmé inchangés : Mesquer était déjà compté comme prix d'appel, ce compteur ne mesure pas cette amélioration.
+
+
+## Lot 71 — 23 octobre 2026 : deux barèmes municipaux confirmés
+
+- Beslé : grille SAISON 2026 avril–septembre, 4,50 €/personne/jour, branchement camping-car 6 €, taxe 0,22 €/adulte/jour. Calcul deux adultes : 9,44 € sans ou 15,44 € avec électricité, taxe incluse. Le branchement tente 3,50 € est exclu. Réduction à partir du 16e jour : assiette à confirmer, non appliquée aux exemples. Source : https://www.mairie-guemene-penfao.fr/medias/2026/04/Tarification-2026-camping-port1.pdf
+- Oudon, Camping de la Tour : forfait camping-car 17 €/jour (2 personnes, véhicule, emplacement, eau, vidange, électricité), services seuls sans nuitée 4 €. Colonne « à compter de 2026 » dans le conseil municipal du 19 janvier 2026, pages 13–14 ; anciennes mentions 2025 résiduelles signalées dans la preuve. Taxe éventuelle à confirmer. Source : https://www.oudon.fr/fileadmin/OUDON/Conseil_municipal/20260119_CR_CM.pdf
+- Nozay : mairie vérifiée, service de réservation inaccessible lors du contrôle ; aucun nouveau tarif certifié, fiche inchangée.
+- Compteurs inchangés : 215 fiches, 187 avec filtre nocturne, 22 libellés exactement Non confirmé. Beslé et Oudon affichaient déjà des repères tarifaires : deux barèmes 2026 sont maintenant étayés sans baisse de ce compteur.

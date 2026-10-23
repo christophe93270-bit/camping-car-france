@@ -115,6 +115,9 @@ jobs:
               assert abs(float(item.get("latitude"))-lat)<0.0000001 and abs(float(item.get("longitude"))-lon)<0.0000001, f"GPS opérateur inattendu {target_id}"
               assert item.get("price")=="Non confirmé", f"Prix 2026 indûment modifié pour {target_id}"
           besle=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V51HCFY")
+          assert besle.get("priceYear")==2026 and all(v in besle.get("price","") for v in ("9,44 €","15,44 €","+6 €")) and besle.get("priceSource")=="https://www.mairie-guemene-penfao.fr/medias/2026/04/Tarification-2026-camping-port1.pdf", "Beslé : barème municipal 2026 ou supplément camping-car incorrect"
+          oudon71=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V500A9A")
+          assert oudon71.get("priceYear")==2026 and "17 €" in oudon71.get("price","") and "4 €" in oudon71.get("price","") and oudon71.get("priceSource")=="https://www.oudon.fr/fileadmin/OUDON/Conseil_municipal/20260119_CR_CM.pdf", "Oudon : forfait camping-car et services seuls 2026 non sourcés"
           besle_picnic=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V51HCG4")
           assert besle.get("capacityCampingCar2026")==32 and besle.get("capacityTotal2026")==40 and besle.get("contactEmail")=="campingduportdebesle@orange.fr" and "mairie-guemene-penfao.fr" in str(besle.get("capacityEvidenceUrl","")), "Beslé : capacité municipale ou contact manquant"
           assert besle_picnic.get("overnightStatus")=="not_established" and besle_picnic.get("nearbyStaySourceId")==besle.get("sourceId") and besle_picnic.get("priceStatus")=="not_applicable_for_night_stay", "Beslé : confusion camping/pique-nique"
