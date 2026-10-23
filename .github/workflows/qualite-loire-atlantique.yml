@@ -118,6 +118,12 @@ jobs:
           assert besle.get("priceYear")==2026 and all(v in besle.get("price","") for v in ("9,44 €","15,44 €","+6 €")) and besle.get("priceSource")=="https://www.mairie-guemene-penfao.fr/medias/2026/04/Tarification-2026-camping-port1.pdf", "Beslé : barème municipal 2026 ou supplément camping-car incorrect"
           oudon71=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V500A9A")
           assert oudon71.get("priceYear")==2026 and "17 €" in oudon71.get("price","") and "4 €" in oudon71.get("price","") and oudon71.get("priceSource")=="https://www.oudon.fr/fileadmin/OUDON/Conseil_municipal/20260119_CR_CM.pdf", "Oudon : forfait camping-car et services seuls 2026 non sourcés"
+          nozay72=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V500766")
+          bole72=next(x for x in visible_regional if x.get("sourceId")=="ACCAMECCBOLEMERQUEL")
+          ker72=next(x for x in visible_regional if x.get("sourceId")=="ACCAMECCMESQUER")
+          assert nozay72.get("priceYear")==2026 and "10 €" in nozay72.get("price","") and nozay72.get("priceSource")=="https://www.nozay44.fr/medias/sites/4/2026/03/PV-conseil-municipal-11-12-2025.pdf", "Nozay : tarif municipal 2026 non sourcé"
+          assert bole72.get("priceYear")==2026 and "7 €" in bole72.get("price","") and bole72.get("priceSource")=="https://www.mesquer-quimiac.fr/wp-content/uploads/2026/02/Tarifs-2026-services-communaux.pdf", "Bôle : tarif communal 2026 non sourcé"
+          assert ker72.get("priceYear")==2026 and "2 €" in ker72.get("price","") and "100 litres" in ker72.get("price","") and ker72.get("overnightStatus")=="prohibited", "Kerlagadec : eau confondue avec nuitée"
           besle_picnic=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V51HCG4")
           assert besle.get("capacityCampingCar2026")==32 and besle.get("capacityTotal2026")==40 and besle.get("contactEmail")=="campingduportdebesle@orange.fr" and "mairie-guemene-penfao.fr" in str(besle.get("capacityEvidenceUrl","")), "Beslé : capacité municipale ou contact manquant"
           assert besle_picnic.get("overnightStatus")=="not_established" and besle_picnic.get("nearbyStaySourceId")==besle.get("sourceId") and besle_picnic.get("priceStatus")=="not_applicable_for_night_stay", "Beslé : confusion camping/pique-nique"

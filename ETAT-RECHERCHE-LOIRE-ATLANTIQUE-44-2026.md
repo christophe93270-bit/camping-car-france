@@ -161,3 +161,12 @@ Trois fiches précisées : Biau Chemin (signalement communautaire 2026 et diverg
 - Oudon, Camping de la Tour : forfait camping-car 17 €/jour (2 personnes, véhicule, emplacement, eau, vidange, électricité), services seuls sans nuitée 4 €. Colonne « à compter de 2026 » dans le conseil municipal du 19 janvier 2026, pages 13–14 ; anciennes mentions 2025 résiduelles signalées dans la preuve. Taxe éventuelle à confirmer. Source : https://www.oudon.fr/fileadmin/OUDON/Conseil_municipal/20260119_CR_CM.pdf
 - Nozay : mairie vérifiée, service de réservation inaccessible lors du contrôle ; aucun nouveau tarif certifié, fiche inchangée.
 - Compteurs inchangés : 215 fiches, 187 avec filtre nocturne, 22 libellés exactement Non confirmé. Beslé et Oudon affichaient déjà des repères tarifaires : deux barèmes 2026 sont maintenant étayés sans baisse de ce compteur.
+
+
+## Lot 72 — 23 octobre 2026 : Nozay et Mesquer, barèmes municipaux
+
+- Nozay : 10 €/jour/emplacement en 2026, taxe de séjour en sus, services inclus selon la page communale. Remplace le total tiers 11,10 € non millésimé ; taxe exacte toujours à confirmer. Source : https://www.nozay44.fr/medias/sites/4/2026/03/PV-conseil-municipal-11-12-2025.pdf (pages 4–5). Doublon OSM masqué aligné.
+- Bôle de Merquel : 7 €/nuitée dans la colonne 2026. Aucun service technique ajouté au parking, taxe éventuelle à vérifier.
+- Kerlagadec : eau 2 €/100 litres selon la même grille, localisation recoupée avec le bulletin municipal printemps 2022. Stationnement interdit conservé ; prix de vidange seule/électricité non établis. Source : https://www.mesquer-quimiac.fr/wp-content/uploads/2026/02/Tarifs-2026-services-communaux.pdf (rubrique 13, dernière page).
+- Parc de la Lande : aucun tarif 2026 transféré depuis l'intitulé Kerlagadec/Bôle sans preuve de correspondance.
+- Compteurs inchangés 215/187, 22 libellés strictement Non confirmé. Deux prix de stationnement et un service d'eau disposent désormais d'une preuve municipale 2026.

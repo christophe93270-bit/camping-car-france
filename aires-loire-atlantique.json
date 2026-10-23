@@ -264,7 +264,7 @@
       "Borne de paiement et éclairage",
       "Local déchets"
     ],
-    "price": "Stationnement payant, services compris. Un tarif de 11,10 € / 24 h apparaît dans un répertoire touristique non daté ; le tarif effectivement en vigueur en octobre 2026 doit être vérifié sur l'automate ou chez Aire Park Réservation.",
+    "price": "Tarif municipal 2026 : 10 € par jour et par emplacement camping-car aux étangs de loisirs, taxe de séjour en supplément (montant à confirmer). La mairie indique les services inclus : électricité 16 A, eau et vidanges notamment. L'ancien total indicatif de 11,10 € ne doit pas être présenté comme un total 2026 certifié sans vérification de la taxe.",
     "status": "Route de Rennes, étangs de loisirs Jean-Guyon, 44170 Nozay. 20 places, équipement électrique 16 A, eau, vidange, wifi. Ouvert toute l'année selon Aire Park Réservation. Coordonnées d'origine régionales conservées.",
     "source": "https://www.openstreetmap.org/way/688866322",
     "latitude": 47.5751623,
@@ -275,9 +275,15 @@
     "importReview": "Même site que l'entrée régionale ACCAMPDL044V500766. Les coordonnées GPS OSM et l'attribution initiale sont conservées ; services vérifiés avec la mairie / le tourisme.",
     "sourceId": "way/688866322",
     "servicesSource": "https://www.nozay44.fr/aire-de-camping-cars/",
-    "priceSource": "https://rando.loire-atlantique.fr/service/180251-AIRE-DE-STATIONNEMENT-ET-DE-SERVICES",
+    "priceSource": "https://www.nozay44.fr/medias/sites/4/2026/03/PV-conseil-municipal-11-12-2025.pdf",
     "sourceOfficial": "https://www.nozay44.fr/aire-de-camping-cars/",
-    "duplicateOfSourceId": "ACCAMPDL044V500766"
+    "duplicateOfSourceId": "ACCAMPDL044V500766",
+    "priceYear": 2026,
+    "priceEvidenceDocument": "https://www.nozay44.fr/medias/sites/4/2026/03/PV-conseil-municipal-11-12-2025.pdf",
+    "priceCheckedAt": "2026-10-23",
+    "priceVerification": "grille_municipale_officielle_2026",
+    "priceType": "tarif_municipal_2026_stationnement_hors_taxe",
+    "priceEvidenceNote": "Conseil municipal de Nozay du 11/12/2025, délibération 2025/147, tarifs 2026 pages 4–5 : 10 € par jour/emplacement aux étangs, taxe en sus. Le branchement à 1,50 € de la rubrique marchés n'est pas un supplément camping-car."
   },
   {
     "department": "44",

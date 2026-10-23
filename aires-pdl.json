@@ -317,7 +317,7 @@
       "Borne de services distante d'environ 1,2 km",
       "Pas d'eau, d'électricité ni de vidange sur ce parking"
     ],
-    "price": "Tarif municipal 2026 non publié sur la fiche Loire-Atlantique Tourisme. Un annuaire spécialisé évoque environ 6 à 7 € par nuit, montant non confirmé officiellement : ne pas le présenter comme barème certain.",
+    "price": "Tarif communal 2026 : 7 € par nuitée pour le stationnement à la Bôle de Merquel. Taxe de séjour éventuelle non précisée dans cette grille : à vérifier. Aucun service technique sur le parking ; le prix communal de l'eau à 2 € les 100 litres concerne le ravitaillement à la borne distincte, pas une prestation incluse dans les 7 €.",
     "status": "Route de la Bôle de Merquel, 44420 Mesquer-Quimiac, entre Kercabellec et Sorlock. 15 places et limite 72 h selon l'office (pas 20) ; aucun service technique sur place.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.4145,
@@ -325,11 +325,17 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle du 19 octobre 2026 auprès de Loire-Atlantique Tourisme : gratuité, services, capacité et restrictions de nuitée distingués ; montants non publiés explicitement signalés. Les coordonnées et l'identifiant régionaux d'origine sont conservés.",
+    "importReview": "Contrôle du 19 octobre 2026 auprès de Loire-Atlantique Tourisme : gratuité, services, capacité et restrictions de nuitée distingués ; montants non publiés explicitement signalés. Les coordonnées et l'identifiant régionaux d'origine sont conservés. Lot 72 du 23/10/2026 : grille municipale 2026 contrôlée visuellement ; prix du stationnement et des services distingués, taxe non inventée.",
     "sourceId": "ACCAMECCBOLEMERQUEL",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/180206-Aire-de-camping-cars-de-la-Bole-de-Merquel",
     "servicesSource": "https://rando.loire-atlantique.fr/service/180206-Aire-de-camping-cars-de-la-Bole-de-Merquel",
-    "priceSource": "https://rando.loire-atlantique.fr/service/180206-Aire-de-camping-cars-de-la-Bole-de-Merquel"
+    "priceSource": "https://www.mesquer-quimiac.fr/wp-content/uploads/2026/02/Tarifs-2026-services-communaux.pdf",
+    "priceYear": 2026,
+    "priceEvidenceDocument": "https://www.mesquer-quimiac.fr/wp-content/uploads/2026/02/Tarifs-2026-services-communaux.pdf",
+    "priceCheckedAt": "2026-10-23",
+    "priceVerification": "grille_municipale_officielle_2026",
+    "priceType": "tarif_municipal_2026_nuitee_sans_services",
+    "priceEvidenceNote": "Tarifs communaux Mesquer 2026, dernière page, rubrique 13 : stationnement Kerlagadec/Bôle de Merquel 7 € par nuitée et eau 2 €/100 litres. Cette rubrique budgétaire ne prouve pas l'existence d'une borne sur le parking de la Bôle."
   },
   {
     "department": "44",
@@ -4216,7 +4222,7 @@
       "Paiement par carte bancaire sans contact",
       "Poubelles"
     ],
-    "price": "Paiement des services par carte bancaire sans contact. Montant 2026 non publié sur la fiche régionale ; à vérifier à la borne. Stationnement interdit.",
+    "price": "Barème communal 2026 : eau à 2 € pour 100 litres à la borne de Kerlagadec ; paiement par carte bancaire selon la fiche touristique. Tarif actuel de vidange seule et d'éventuelle électricité non établi. Services uniquement : stationnement et nuitée interdits selon la fiche touristique régionale.",
     "status": "Route de Kerlagadec, 44420 Mesquer. Borne de services uniquement ; aucun stationnement ou nuitée autorisés ici selon la Région Pays de la Loire. Pour stationner, utiliser la Bôle de Merquel ou le parc de la Lande.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.39628,
@@ -4224,15 +4230,22 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle octobre 2026 : l'intitulé de classification e-SPRIT « aire de stationnement » est contredit par sa propre description indiquant expressément stationnement interdit. Corrigé selon la page touristique régionale. Lot 25 20/10/2026 : règle documentée de nuitée interdite ou d'aire technique uniquement, l'absence de label dans les données précédentes conduisait à l'affichage sans avertissement dédié. Preuve : https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec ; conserver la fiche pour services/arrêt autorisés mais l'exclure du filtre « nuitée interdite/non établie ».",
+    "importReview": "Contrôle octobre 2026 : l'intitulé de classification e-SPRIT « aire de stationnement » est contredit par sa propre description indiquant expressément stationnement interdit. Corrigé selon la page touristique régionale. Lot 25 20/10/2026 : règle documentée de nuitée interdite ou d'aire technique uniquement, l'absence de label dans les données précédentes conduisait à l'affichage sans avertissement dédié. Preuve : https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec ; conserver la fiche pour services/arrêt autorisés mais l'exclure du filtre « nuitée interdite/non établie ». Lot 72 du 23/10/2026 : grille municipale 2026 contrôlée visuellement ; prix du stationnement et des services distingués, taxe non inventée.",
     "sourceId": "ACCAMECCMESQUER",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec",
-    "priceSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec",
+    "priceSource": "https://www.mesquer-quimiac.fr/wp-content/uploads/2026/02/Tarifs-2026-services-communaux.pdf",
     "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec",
     "overnightStatus": "prohibited",
     "overnightReason": "Stationnement explicitement interdit à la borne de Kerlagadec : eau et vidange uniquement. Pour les emplacements, consulter la Bôle de Merquel ou le parc de la Lande.",
     "overnightEvidenceUrl": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec",
-    "overnightCheckedAt": "2026-10-20"
+    "overnightCheckedAt": "2026-10-20",
+    "priceYear": 2026,
+    "priceEvidenceDocument": "https://www.mesquer-quimiac.fr/wp-content/uploads/2026/02/Tarifs-2026-services-communaux.pdf",
+    "priceCheckedAt": "2026-10-23",
+    "priceVerification": "grille_municipale_officielle_2026",
+    "priceType": "tarif_municipal_2026_eau_sans_nuitee",
+    "priceEvidenceNote": "Grille Mesquer 2026 rubrique 13, eau 2 €/100 litres. Localisation de la borne à Kerlagadec corroborée par le bulletin municipal printemps 2022 ; services actuels eau/vidange par la fiche régionale. L'intitulé tarifaire groupé avec le stationnement ne lève pas l'interdiction de stationner publiée pour la borne.",
+    "waterFacilityEvidenceSource": "https://www.mesquer-quimiac.fr/wp-content/uploads/2022/06/MESQUER-GAZETTE_2PRINTEMPS_web.pdf"
   },
   {
     "department": "44",
@@ -4595,7 +4608,7 @@
       "Borne de paiement et éclairage",
       "Local déchets"
     ],
-    "price": "Stationnement payant, services compris. Un tarif de 11,10 € / 24 h apparaît dans un répertoire touristique non daté ; le tarif effectivement en vigueur en octobre 2026 doit être vérifié sur l'automate ou chez Aire Park Réservation.",
+    "price": "Tarif municipal 2026 : 10 € par jour et par emplacement camping-car aux étangs de loisirs, taxe de séjour en supplément (montant à confirmer). La mairie indique les services inclus : électricité 16 A, eau et vidanges notamment. L'ancien total indicatif de 11,10 € ne doit pas être présenté comme un total 2026 certifié sans vérification de la taxe.",
     "status": "Route de Rennes, étangs de loisirs Jean-Guyon, 44170 Nozay. 20 places, équipement électrique 16 A, eau, vidange, wifi. Ouvert toute l'année selon Aire Park Réservation. Coordonnées d'origine régionales conservées.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.5746049,
@@ -4603,11 +4616,17 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Existence, 20 places et services recoupés avec le site officiel de la mairie et Loire-Atlantique Tourisme ; tarif 2026 non garanti.",
+    "importReview": "Existence, 20 places et services recoupés avec le site officiel de la mairie et Loire-Atlantique Tourisme ; tarif 2026 non garanti. Lot 72 du 23/10/2026 : grille municipale 2026 contrôlée visuellement ; prix du stationnement et des services distingués, taxe non inventée.",
     "sourceId": "ACCAMPDL044V500766",
     "sourceOfficial": "https://www.nozay44.fr/aire-de-camping-cars/",
     "servicesSource": "https://www.nozay44.fr/aire-de-camping-cars/",
-    "priceSource": "https://rando.loire-atlantique.fr/service/180251-AIRE-DE-STATIONNEMENT-ET-DE-SERVICES"
+    "priceSource": "https://www.nozay44.fr/medias/sites/4/2026/03/PV-conseil-municipal-11-12-2025.pdf",
+    "priceYear": 2026,
+    "priceEvidenceDocument": "https://www.nozay44.fr/medias/sites/4/2026/03/PV-conseil-municipal-11-12-2025.pdf",
+    "priceCheckedAt": "2026-10-23",
+    "priceVerification": "grille_municipale_officielle_2026",
+    "priceType": "tarif_municipal_2026_stationnement_hors_taxe",
+    "priceEvidenceNote": "Conseil municipal de Nozay du 11/12/2025, délibération 2025/147, tarifs 2026 pages 4–5 : 10 € par jour/emplacement aux étangs, taxe en sus. Le branchement à 1,50 € de la rubrique marchés n'est pas un supplément camping-car."
   },
   {
     "department": "53",
