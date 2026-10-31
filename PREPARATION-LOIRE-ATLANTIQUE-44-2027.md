@@ -24,3 +24,16 @@ Sources :
 - https://www.camping-le-ranch.com/fr
 
 Aucune nuitée 2027 avec total complet confirmée dans ce premier lot. Prochaine priorité : autres barèmes officiels couvrant 2027, puis ouverture des réservations et grilles des exploitants. Aucun message envoyé aux exploitants.
+
+## Lot 74 — barèmes opérateur contrôlés le 31 octobre 2026
+
+- Guérande, avenue de la Brière : 13,50 €/24 h du 31/10/2026 au 31/12/2027. Taxe 2027 non confirmée, les 1,32 € affichés s'arrêtent au 31/12/2026.
+- La Turballe, Clos Mora : 13,95 €/24 h sur la même période ; même réserve sur la taxe 2027.
+- Saint-Viaud, rue de la Gare : 6 € par service, barème couvrant 2026–2027. Le tableau générique indique « Étape de 24h », mais la description interdit le séjour. Conserver services uniquement et exclusion nocturne. Vérifier durée d'électricité, contenu exact de l'utilisation et frais éventuels de carte.
+- Les trois fiches gardent le statut partiel ; aucun total de nuitée 2027 entièrement confirmé. Six fiches comportent désormais des éléments 2027 : quatre prix partiels (dont une borne), une promotion, un calendrier.
+- Les anciennes références sont conservées sans changement ; pas d'ajout de lieu.
+
+Sources officielles :
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/as-st-viaud
