@@ -37,3 +37,16 @@ Sources officielles :
 - https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande
 - https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe
 - https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/as-st-viaud
+
+## Lot 75 — Piriac et Grande Falaise, 31 octobre 2026
+
+| Aire | Base publiée couvrant 2027 | Source officielle |
+|---|---|---|
+| Piriac – Brambell | 10,79 €/24 h hors taxe | https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-brambell |
+| Piriac – Lérat | 13,74 €/24 h hors taxe | https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-lerat |
+| Piriac – La Tranchée | 13,95 €/24 h hors taxe | https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee |
+| La Turballe – Grande Falaise | 14,05 €/24 h hors taxe | https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise |
+
+Les quatre tableaux affichent une période du 31/10/2026 au 31/12/2027. La taxe publiée (1,22 € à Piriac, 1,32 € à Grande Falaise) se termine au 31/12/2026 : aucune reconduction automatique en 2027. Le forfait 5 h + services de 6 € n'a pas de période 2027 explicite. Vérifier taxe, carte et éventuels frais de réservation avant de confirmer le total.
+
+Quatre fiches enrichies, aucune ajoutée. Dix fiches possèdent désormais des éléments 2027 : huit prix partiels (dont une borne), une promotion et un calendrier. Les références historiques et les exclusions de nuitée sont conservées. Les compteurs de référence restent 215 / 187.
