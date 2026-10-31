@@ -24,6 +24,16 @@ jobs:
 
           osm=json.loads(Path("aires-loire-atlantique.json").read_text(encoding="utf-8"))
           regional=[x for x in json.loads(Path("aires-pdl.json").read_text(encoding="utf-8")) if str(x.get("department"))=="44"]
+          # Saison cible 2027 : distinguer prix partiel, promotion et calendrier.
+          season27={x['sourceId']:x['season2027'] for x in regional if 'season2027' in x}
+          for sid, info in season27.items():
+              assert info.get('year')==2027 and info.get('source','').startswith('https://') and info.get('checkedAt'), f"2027 : source ou date absente {sid}"
+              assert info.get('status') in {'partial','promotion_only','booking_only','confirmed'}, f"2027 : statut inconnu {sid}"
+          baule27=season27['ACCAMEAIREDECAMPINGCARLABAULE']
+          assert baule27['status']=='partial' and baule27['touristTaxConfirmed'] is False, 'La Baule : ne pas certifier un total 2027 avec la taxe 2026'
+          petit27=season27['CCF44-MESQUER-PETIT-BOIS-2026']
+          assert petit27['status']=='promotion_only' and petit27['minimumNights']==7 and 'baseAmountEUR' not in petit27, 'Petit Bois : remise distincte du prix de nuitée'
+          assert season27['ACCAMACCAMPDL044000049']['status']=='booking_only', 'Le Ranch : calendrier distinct du prix'
           def norm(s):
               s=unicodedata.normalize("NFD",str(s or "").lower())
               return re.sub(r"[^a-z0-9]","", "".join(c for c in s if unicodedata.category(c)!="Mn"))
@@ -581,3 +591,4 @@ jobs:
           summary=os.environ.get("GITHUB_STEP_SUMMARY")
           if summary: Path(summary).write_text(report,encoding="utf-8")
           PY
+

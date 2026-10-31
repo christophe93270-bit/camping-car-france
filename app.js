@@ -18,6 +18,16 @@ const dialog = document.getElementById("department-dialog");
 function safeRead(key, fallback){ try { const v=localStorage.getItem(key); return v?JSON.parse(v):fallback; } catch(e){ return fallback; } }
 function safeWrite(key, value){ try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch(e){ return false; } }
 function escapeHTML(value){ return String(value ?? "").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+// Les données antérieures restent conservées ; aucune reconduction automatique en 2027.
+function renderSeason2027(a){
+  if(String(a.department)!=="44") return "";
+  const season=a.season2027;
+  const sourced=season?.year===2027 && /^https:\/\//.test(String(season.source||""));
+  if(!sourced) return '<p><strong>Préparation 2027 :</strong> tarifs à confirmer. Les informations antérieures ci-dessous ne valent pas confirmation pour 2027.</p>';
+  return `<p><strong>Préparation 2027 :</strong> ${escapeHTML(season.label)}</p>
+    <p>${escapeHTML(season.note)} <a href="${escapeHTML(season.source)}" target="_blank" rel="noopener noreferrer">Source officielle 2027 ↗</a> <small>(vérifiée le ${escapeHTML(season.checkedAt)})</small></p>`;
+}
+
 function calcScore(scores){
   if(!scores || weights.some(w=>scores[w.key]===null || scores[w.key]===undefined || scores[w.key]==="" || !Number.isFinite(Number(scores[w.key])) || Number(scores[w.key])<0 || Number(scores[w.key])>100)) return null;
   return Math.round(weights.reduce((sum,w)=>sum+Number(scores[w.key])*w.weight,0))/100;
@@ -110,7 +120,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261023-72-municipaux", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261031-73-saison2027", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -609,7 +619,8 @@ async function initAires(){
         <p><strong>Services :</strong> ${escapeHTML((Array.isArray(a.services)?a.services:[]).join(", "))}</p>
         ${a.gpsEvidenceNote?`<p><strong>Précision GPS :</strong> ${escapeHTML(a.gpsEvidenceNote)}</p>`:""}
         ${a.receptionHoursNote?`<p><strong>Accueil :</strong> ${escapeHTML(a.receptionHoursNote)}</p>`:""}
-        <p><strong>${a.priceStatus==="not_applicable_for_night_stay"?"Tarif de nuitée :":"Tarif :"}</strong> ${escapeHTML(a.price)}</p>
+        ${renderSeason2027(a)}
+        <p><strong>${String(a.department)==="44"?(a.priceYear===2026?"Référence tarifaire 2026 :":"Référence tarifaire antérieure à 2027 :"):(a.priceStatus==="not_applicable_for_night_stay"?"Tarif de nuitée :":"Tarif :")}</strong> ${escapeHTML(a.price)}</p>
         ${a.publishedTariff2026Note&&a.publishedTariff2026Source&&/^https:\/\//.test(String(a.publishedTariff2026Source))?`<p><strong>Barème officiel d'emplacement 2026 — application au camping-car à confirmer :</strong> ${escapeHTML(a.publishedTariff2026Note)} <a href="${escapeHTML(a.publishedTariff2026Source)}" target="_blank" rel="noopener noreferrer">Voir la grille officielle ↗</a></p>`:""}
         ${a.minimumStay2026Clarification? `<p><strong>Réservation et promotion :</strong> ${escapeHTML(a.minimumStay2026Clarification)} ${a.minimumStay2026Source&&/^https:\/\//.test(String(a.minimumStay2026Source))?`<a href="${escapeHTML(a.minimumStay2026Source)}" target="_blank" rel="noopener noreferrer">Source officielle ↗</a>`:""}</p>`:""}
         ${a.feesEvidenceNote? `<p><strong>Frais documentés — application au camping-car à confirmer :</strong> ${escapeHTML(a.feesEvidenceNote)} ${a.feesEvidenceDocument&&/^https:\/\//.test(String(a.feesEvidenceDocument))?`<a href="${escapeHTML(a.feesEvidenceDocument)}" target="_blank" rel="noopener noreferrer">Source des frais ↗</a>`:""}</p>`:""}
@@ -699,3 +710,4 @@ async function initAires(){
   }catch(e){console.error("Erreur du répertoire des aires :",e);target.textContent="Le répertoire des aires est temporairement indisponible. Détail : "+(e&&e.message?e.message:"erreur inconnue");}
 }
 initAires();
+
