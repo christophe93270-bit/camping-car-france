@@ -98,3 +98,21 @@ Sources :
 - https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic
 
 Les quatre fiches appartiennent au fichier aires-loire-atlantique.json, déjà présentes et visibles. Aucun ajout ni changement des exclusions de nuitée. Vingt-trois fiches comportent des éléments 2027 (19 régionales + 4 complémentaires) ; compteurs 215 / 187 conservés. Prix conservés en statut partiel pour les frais et conditions d'accès ; taxes explicitement documentées pour l'École et la Goguillais.
+
+## Lot 79 — trois calendriers de campings, 1er novembre 2026
+
+| Fiche existante | Information officielle 2027 | Vérifications restantes |
+|---|---|---|
+| Le Soleya — emplacements du camping | Ouverture le 30 avril ; réservations annoncées fin novembre 2026 sans jour précis | Grille encore présentée comme 2026 ; forfait, personnes, électricité, taxe, suppléments, minimum de séjour et fermeture 2027 à confirmer. Ne pas confondre avec l'aire CAMPING-CAR PARK. |
+| L'Étang du Pays Blanc — Guérande | Saison du 17 avril au 26 septembre ; réservation en ligne annoncée toute l'année | Obtenir le forfait camping-car 2027 et ses composantes ; distinguer Standard, Premium et Premium +. |
+| La Boutinardière — Pornic | Ouverture le 2 avril ; réservations annoncées le 1er novembre 2026 | Vérifier disponibilité effective et devis détaillé 2027 ; fermeture non confirmée, le texte général mentionne encore 2026. |
+
+Sources officielles consultées :
+- https://www.campinglesoleya.com/tarifs-camping-tharon-plage.html
+- https://www.guerande-camping.com/
+- https://www.guerande-camping.com/emplacements-camping/
+- https://www.guerande-camping.com/telechargements/
+- https://www.camping-boutinardiere.com/
+- https://www.camping-boutinardiere.com/emplacements-camping-pornic.html
+
+Trois fiches existantes enrichies en statut `booking_only`, sans montant 2027 ajouté ni tarif historique modifié. Aucun prix d'annuaire tiers repris comme preuve opérateur. Vingt-six fiches comportent désormais des éléments 2027 : vingt et un tarifs partiels (dont deux bornes), une promotion et quatre calendriers. Aucun camping ajouté ; compteurs 215 / 187 conservés. Prochaine vérification : consulter les devis ou grilles 2027 pour un camping-car et deux adultes, en basse et haute saison, avec taxe et options séparées.
