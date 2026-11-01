@@ -116,3 +116,19 @@ Sources officielles consultées :
 - https://www.camping-boutinardiere.com/emplacements-camping-pornic.html
 
 Trois fiches existantes enrichies en statut `booking_only`, sans montant 2027 ajouté ni tarif historique modifié. Aucun prix d'annuaire tiers repris comme preuve opérateur. Vingt-six fiches comportent désormais des éléments 2027 : vingt et un tarifs partiels (dont deux bornes), une promotion et quatre calendriers. Aucun camping ajouté ; compteurs 215 / 187 conservés. Prochaine vérification : consulter les devis ou grilles 2027 pour un camping-car et deux adultes, en basse et haute saison, avec taxe et options séparées.
+
+## Lot 80 — offres de séjour et promotions, 1er novembre 2026
+
+- Les Paludiers : le catalogue officiel Flower affiche un emplacement pour deux personnes à partir de 118 € du 15 au 22 mai 2027. Conserver la durée de sept nuits et la mention « à partir de » ; ne pas convertir en prix réservable à la nuit. Statut partiel : catégorie compatible camping-car, électricité, taxe, frais et disponibilité à confirmer par devis. Saison officielle : 26 mars–1er novembre 2027.
+- Les Chalands Fleuris : saison du 3 avril au 19 septembre 2027. Les conditions Early Booking réservent le « jusqu'à −25 % » aux locatifs (réservations du 15 octobre 2026 au 12 janvier 2027, minimum trois nuits). Exclure cette remise des prix d'emplacement. La réservation à partir d'une nuit en emplacement est annoncée, mais le forfait et ses suppléments 2027 restent à confirmer.
+- La Guichardière contrôlée, sans enrichissement 2027 : résultat de recherche à 112 € pour avril 2027 non reproduit sur la page ouverte, laquelle affiche encore septembre 2026 à 126 €. Ne publier aucun montant 2027 sur cette seule base ; devis opérateur nécessaire.
+
+Sources consultées :
+- https://www.flowercampings.com/camping-loire-atlantique
+- https://www.flowercampings.com/camping-loire-atlantique/camping-les-paludiers
+- https://www.camping-paludiers.com/contact-acces/
+- https://www.olela.fr/camping-les-chalands-fleuris
+- https://www.olela.fr/offres-early-booking
+- https://www.flowercampings.com/camping-loire-atlantique/camping-la-guichardiere
+
+Deux fiches enrichies, une recherche écartée faute de confirmation reproductible. Aucun camping ajouté et aucun tarif historique remplacé. Vingt-huit fiches ont des éléments 2027 : vingt-deux tarifs ou offres chiffrées partiels (dont deux bornes), une promotion et cinq calendriers/conditions de réservation. Les compteurs restent 215 / 187. Les contrôles techniques ne valident pas les prix externes.
