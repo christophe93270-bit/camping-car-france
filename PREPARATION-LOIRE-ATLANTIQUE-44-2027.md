@@ -191,3 +191,19 @@ Sources :
 Léveno : l'accueil officiel annonce des réservations 2027 « prochainement » et une fermeture actuelle aux vacanciers. Aucun jour d'ouverture des réservations ni montant 2027 certifié. Vérifier calendrier, forfait et frais lors de l'ouverture effective. Source : https://www.camping-leveno.com/ ; page de tarifs : https://www.camping-leveno.com/tarifs-camping-guerande.html
 
 Recherche Les Brillas : résultats d'annuaire titrés 2027 mais périodes 2026 encore présentes ; aucun montant repris. Deux fiches existantes enrichies, sans ajout ni modification des prix historiques. Trente-quatre fiches comportent des éléments ou réserves 2027 : vingt-quatre tarifs/offres partiels (dont deux bornes), une promotion et neuf calendriers/conditions/annonces. Compteurs 215 / 187 maintenus. Aucun message envoyé.
+
+## Lot 84 — Les Chênes Verts, La Roseraie et contrôle L'Eden, 1er novembre 2026
+
+- Les Chênes Verts, Bourgneuf-en-Retz : calendrier opérateur du 2 avril au 12 septembre 2027. Tarification dynamique explicitement annoncée. Aucun prix statique 2027 repris. Confirmer devis camping-car/deux adultes, électricité, taxe, frais et durée minimale. Le lien CGV conduit à un règlement intérieur intitulé 2024 : ne pas le considérer comme des conditions tarifaires 2027.
+- La Roseraie, La Baule : calendrier officiel du 17 avril au 19 septembre 2027. Les dates divergentes d'annuaires (20 avril–29 septembre ou année entière) ne sont pas retenues. Réservations d'emplacements : minimum sept nuits en juillet-août, arrivée libre. La présence d'un branchement 10 A ne confirme pas son inclusion dans le forfait ; eau/évacuation privatives en supplément sur certaines parcelles. Devis détaillé et taxe 2027 nécessaires.
+- L'Eden, La Baule : contrôle sans enrichissement 2027. Documents officiels et calendrier encore 2026 ; les frais de dossier offerts hors juillet-août ne sont pas confirmés pour 2027. Ne pas les reconduire. Ne pas confondre avec les campings Eden d'Espagne ou du Morbihan.
+
+Sources :
+- https://www.leschenesverts.info/hebergement/emplacement/
+- https://www.leschenesverts.info/camping-pas-cher-villeneuve-en-retz/
+- https://www.leschenesverts.info/wp-content/uploads/2025/10/Reglement-interieur-2024-1-1.pdf
+- https://www.laroseraie.com/
+- https://www.laroseraie.com/emplacement-de-camping-a-la-baule/
+- https://www.campingeden.com/emplacements/
+
+Deux fiches enrichies, une troisième contrôlée sans preuve 2027 suffisante. Aucun nouveau prix certifié, aucun camping ajouté, prix historiques conservés. Trente-six fiches comportent des éléments ou réserves 2027 : vingt-quatre tarifs/offres partiels (dont deux bornes), une promotion et onze calendriers/conditions/annonces. Compteurs 215 / 187 inchangés. Aucun message envoyé.
