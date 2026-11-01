@@ -10088,7 +10088,45 @@
     "seasonalDates2026": "03/04/2026–27/09/2026",
     "seasonalDatesSource": "https://www.camping-eleovic.com/",
     "arrivalTime": "15:00",
-    "departureTime": "11:00"
+    "departureTime": "11:00",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-01",
+      "status": "partial",
+      "label": "Fourchettes officielles 2027 : standard 27–88 €/nuit ; vue mer 30–120 €/nuit, pour 2 personnes avec électricité 10 A.",
+      "note": "Avec sanitaire privé : aperçu mer en 3e ligne 39–125 €/nuit ; vue mer en 2e ligne 47–153 €/nuit. Taxe 2027 en supplément : 0,66 €/adulte/nuit. Saison annoncée du 02/04 au 26/09/2027. Les CGV imposent en juillet-août au moins 7 nuits, du dimanche au dimanche : ces prix ne garantissent pas une nuit isolée. Prix exact par date, suppléments et application des frais de dossier de 35 € à préciser dans le devis.",
+      "source": "https://www.camping-eleovic.com/wp-content/uploads/2023/08/Brochure-propo-2027_compressed.pdf",
+      "conditionsSource": "https://www.camping-eleovic.com/wp-content/uploads/2023/08/Contrat-de-reservation-SITE.pdf",
+      "unit": "night",
+      "personsIncluded": 2,
+      "electricityIncluded": true,
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 0.66,
+      "touristTaxUnit": "person_adult_night",
+      "touristTaxIncluded": false,
+      "rateRanges": [
+        {
+          "category": "standard",
+          "minEUR": 27,
+          "maxEUR": 88
+        },
+        {
+          "category": "vue_mer",
+          "minEUR": 30,
+          "maxEUR": 120
+        },
+        {
+          "category": "apercu_mer_sanitaires_3e_ligne",
+          "minEUR": 39,
+          "maxEUR": 125
+        },
+        {
+          "category": "vue_mer_sanitaires_2e_ligne",
+          "minEUR": 47,
+          "maxEUR": 153
+        }
+      ]
+    }
   },
   {
     "department": "44",
@@ -10906,7 +10944,15 @@
       "programRulesUrl": "https://www.acsi.eu/fr/informations-pour-les-campings/produits-pour-les-campings/campingcard-acsi/"
     },
     "operationalWarning": "ACSI 25 €/nuit en 2026 accessible UNIQUEMENT avec carte CampingCard ACSI valide et dates de réduction, pas au public sans carte. ACSI donne des périodes jusqu'au 27/09 mais l'exploitant annonce fermeture le 20/09 : réserver uniquement après confirmation des dates. Taxe de séjour 0,66 €/adulte/nuit et carte payante en supplément ; tarif public 2026 inconnu.",
-    "operationalWarningSource": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/guerande/camping-domaine-de-leveno-109840/"
+    "operationalWarningSource": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/guerande/camping-domaine-de-leveno-109840/",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-01",
+      "status": "booking_only",
+      "label": "Réservations 2027 annoncées prochainement ; aucun tarif 2027 confirmé.",
+      "note": "Le site officiel indique que le camping est actuellement fermé aux vacanciers et que les réservations 2027 ouvriront prochainement, sans date précise. Vérifier l'ouverture effective des réservations, le calendrier des emplacements et le forfait camping-car avec personnes, électricité, taxe et frais séparés. Les anciens prix ne valent pas confirmation pour 2027.",
+      "source": "https://www.camping-leveno.com/"
+    }
   },
   {
     "department": "44",

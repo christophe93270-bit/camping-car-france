@@ -175,3 +175,19 @@ Sources :
 Pistes non retenues : les résultats « saison 2027 bientôt ouverte » des annuaires pour Le Beaupré, Prigny et Port Meleu ne confirment aucun tarif ; les offres du Deffay restent datées 2026 sur les résultats consultés. Le Vieux Château de Rauzan (33) et la délibération d'Aixe-sur-Vienne sont hors département. Aucun camping ajouté.
 
 Trente-deux fiches comportent des éléments ou réserves 2027 : vingt-trois tarifs/offres partiels (dont deux bornes), une promotion et huit calendriers/conditions/annonces à portée limitée. Aucun montant 2027 ajouté dans ce lot. Les historiques sont conservés ; compteurs 215 / 187 inchangés. Aucun contact externe envoyé.
+
+## Lot 83 — Éléovic et Léveno, 1er novembre 2026
+
+Éléovic : brochure 2027 et CGV françaises 2027 retrouvées via les liens officiels. Page 2 de la brochure téléchargée et vérifiée visuellement. Quatre catégories transcrites dans season2027.rateRanges : standard, vue mer, aperçu mer avec sanitaires (3e ligne), vue mer avec sanitaires (2e ligne). Ne pas mélanger ces fourchettes avec les mobil-homes. Forfait deux personnes avec électricité ; taxe adulte séparée.
+
+Les CGV, page 2, imposent un séjour du dimanche au dimanche d'au moins sept nuits en juillet-août. Les fourchettes à la nuit ne constituent donc pas des offres de nuit isolée. Les 35 € de frais figurent dans un passage consacré aux chèques-vacances : leur portée doit être précisée par le camping. Aucune extrapolation du tarif ACSI sans calendrier 2027. Reste à obtenir le prix pour dates précises et les suppléments ; statut partiel conservé.
+
+Sources :
+- https://www.camping-eleovic.com/wp-content/uploads/2023/08/Brochure-propo-2027_compressed.pdf
+- https://www.camping-eleovic.com/wp-content/uploads/2023/08/Contrat-de-reservation-SITE.pdf
+- https://www.camping-eleovic.com/
+- https://www.camping-eleovic.com/emplacements-camping-4-etoiles-prefailles/
+
+Léveno : l'accueil officiel annonce des réservations 2027 « prochainement » et une fermeture actuelle aux vacanciers. Aucun jour d'ouverture des réservations ni montant 2027 certifié. Vérifier calendrier, forfait et frais lors de l'ouverture effective. Source : https://www.camping-leveno.com/ ; page de tarifs : https://www.camping-leveno.com/tarifs-camping-guerande.html
+
+Recherche Les Brillas : résultats d'annuaire titrés 2027 mais périodes 2026 encore présentes ; aucun montant repris. Deux fiches existantes enrichies, sans ajout ni modification des prix historiques. Trente-quatre fiches comportent des éléments ou réserves 2027 : vingt-quatre tarifs/offres partiels (dont deux bornes), une promotion et neuf calendriers/conditions/annonces. Compteurs 215 / 187 maintenus. Aucun message envoyé.
