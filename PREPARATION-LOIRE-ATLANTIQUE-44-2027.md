@@ -132,3 +132,28 @@ Sources consultées :
 - https://www.flowercampings.com/camping-loire-atlantique/camping-la-guichardiere
 
 Deux fiches enrichies, une recherche écartée faute de confirmation reproductible. Aucun camping ajouté et aucun tarif historique remplacé. Vingt-huit fiches ont des éléments 2027 : vingt-deux tarifs ou offres chiffrées partiels (dont deux bornes), une promotion et cinq calendriers/conditions de réservation. Les compteurs restent 215 / 187. Les contrôles techniques ne valident pas les prix externes.
+
+## Lot 81 — grille Au Soir d'Été et fermeture La Renaudière, 1er novembre 2026
+
+### Au Soir d'Été — Mesquer
+
+PDF 2027 vérifié visuellement, page 2 : forfait camping-car 35 m², 1–2 personnes, électricité incluse, de 22 à 43 €/nuit. Les cinq périodes sont transcrites dans season2027.rates. Ne pas utiliser la ligne emplacement 80 m² comme tarif de l'emplacement camping-car dédié.
+
+La taxe publiée pour 2027 est de 0,66 €/adulte/nuit. La FAQ indique qu'elle est incluse dans le prix communiqué à la réservation : pas de total forfait + taxe certifié sans devis détaillé. Le contrat lié reste daté 2026 et les conditions générales liées 2023. Frais de dossier, durée minimale et conditions contractuelles 2027 à revalider. Statut partiel conservé malgré la grille retrouvée.
+
+Sources :
+- https://www.camping-soirdete.com/wp-content/uploads/2026/10/que-les-tarifs-2027.pdf
+- https://www.camping-soirdete.com/documents-utiles/
+- https://www.camping-soirdete.com/faq/
+- https://www.camping-soirdete.com/wp-content/uploads/2025/10/CR-2026.pdf
+- https://www.camping-soirdete.com/wp-content/uploads/2023/06/conditions-generales-2023.pdf
+
+### La Renaudière — La Plaine-sur-Mer
+
+Correction du statut d'exploitation : fermeture après l'incendie du 10 juillet 2026, réservations suspendues. L'objectif ancien d'avril 2027 n'est pas une réouverture confirmée ; l'avis actuel ne donne aucune date. Ajout d'un avertissement visible et d'un état de disponibilité fermé en attente de réouverture. Conserver le prix 2026 comme historique, sans en déduire une réservation possible.
+
+Source : https://mirabel-renaudiere.com/faq-camping-bretagne
+
+Vérifications externes restantes : confirmation écrite de la réouverture, des emplacements réellement accessibles, des services remis en fonctionnement et du tarif 2027. Aucun message envoyé.
+
+Deux fiches enrichies, aucun ajout. Trente fiches comportent des éléments 2027 : vingt-trois tarifs/offres partiels (dont deux bornes), une promotion et six calendriers/conditions, dont une fermeture en attente. Compteurs 215 / 187 conservés ; le filtre nocturne décrit le type d'accueil et ne garantit pas l'ouverture actuelle.
