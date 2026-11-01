@@ -157,3 +157,21 @@ Source : https://mirabel-renaudiere.com/faq-camping-bretagne
 Vérifications externes restantes : confirmation écrite de la réouverture, des emplacements réellement accessibles, des services remis en fonctionnement et du tarif 2027. Aucun message envoyé.
 
 Deux fiches enrichies, aucun ajout. Trente fiches comportent des éléments 2027 : vingt-trois tarifs/offres partiels (dont deux bornes), une promotion et six calendriers/conditions, dont une fermeture en attente. Compteurs 215 / 187 conservés ; le filtre nocturne décrit le type d'accueil et ne garantit pas l'ouverture actuelle.
+
+## Lot 82 — La Falaise et Le Vieux Château, 1er novembre 2026
+
+Deux fiches existantes contrôlées et annotées, sans nouveau prix certifié.
+
+- La Falaise, La Turballe : calendrier opérateur 26/03–30/10/2027, retrouvé dans les résultats indexés de l'accueil et de la page emplacements. Ouverture directe bloquée (403) : ne pas prétendre avoir téléchargé une grille 2027. La grille historique reste 2026 et sa taxe est encore millésimée 2025. Obtenir le barème 2027 standard/vue mer, taxe, frais et minimum de séjour. Ne pas confondre ce camping avec Grande Falaise CAMPING-CAR PARK.
+- Le Vieux Château, Tharon-Plage : annonce de mobil-homes climatisés dès le 02/04/2027. Cette date ne suffit pas à confirmer l'ouverture des emplacements. Le tarif ACSI 19 € et ses périodes sur la page emplacements ne portent pas de millésime 2027 ; le titre « à partir de 20,50 €/nuit » n'est pas un devis daté. Ces montants ne sont pas intégrés comme prix 2027. Caution, ménage et solde des locations ne sont pas automatiquement applicables aux emplacements. Demander forfait camping-car deux personnes, taxe, frais, conditions ACSI et calendrier propres aux emplacements.
+
+Sources :
+- https://www.camping-de-la-falaise.com/
+- https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/
+- https://www.camping-duvieuxchateau.com/
+- https://www.camping-duvieuxchateau.com/camping-pas-cher-loire-atlantique/
+- https://www.camping-duvieuxchateau.com/emplacements/
+
+Pistes non retenues : les résultats « saison 2027 bientôt ouverte » des annuaires pour Le Beaupré, Prigny et Port Meleu ne confirment aucun tarif ; les offres du Deffay restent datées 2026 sur les résultats consultés. Le Vieux Château de Rauzan (33) et la délibération d'Aixe-sur-Vienne sont hors département. Aucun camping ajouté.
+
+Trente-deux fiches comportent des éléments ou réserves 2027 : vingt-trois tarifs/offres partiels (dont deux bornes), une promotion et huit calendriers/conditions/annonces à portée limitée. Aucun montant 2027 ajouté dans ce lot. Les historiques sont conservés ; compteurs 215 / 187 inchangés. Aucun contact externe envoyé.
