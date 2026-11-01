@@ -120,7 +120,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261101-77-saison2027", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261101-78-saison2027", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
@@ -475,7 +475,7 @@ async function initAires(){
     } catch(error) { console.warn("Chargement Morbihan indisponible",error); }
     let loireAtlantiqueAires=[];
     try {
-      const response44=await fetch("aires-loire-atlantique.json?v=20261020-23", {cache:"no-store"});
+      const response44=await fetch("aires-loire-atlantique.json?v=20261101-78", {cache:"no-store"});
       if(response44.ok) loireAtlantiqueAires=await response44.json();
     } catch(error) { console.warn("Chargement Loire-Atlantique indisponible",error); }
     let essonneAires=[];

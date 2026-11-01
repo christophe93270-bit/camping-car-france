@@ -83,3 +83,18 @@ Sources officielles :
 - https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu
 
 Quatre fiches existantes enrichies, aucune ajoutée. Dix-neuf fiches comportent des informations 2027 : dix-sept tarifs avec réserves (dont deux bornes), une promotion et un calendrier. Le statut de La Limouzinière reste partiel pour les frais annexes ; l'étape + taxe est toutefois documentée à 12,22 €. Compteurs 215 / 187 conservés.
+
+## Lot 78 — quatre aires supplémentaires, 1er novembre 2026
+
+- École de Guérande : 12 €/24 h, taxe 0 € publiée jusqu'à fin 2027. Réservation obligatoire, frais annoncés nuls. Accès restreint aux vacances scolaires, jours fériés et week-ends vendredi 18 h–dimanche 18 h. Aucun service : ne pas reprendre le forfait générique 5 h + services comme preuve d'équipement.
+- Écodomaine de la Goguillais : 13 €/24 h + 0,88 € de taxe publiée jusqu'à fin 2027, soit 13,88 € pour étape et taxe.
+- Blain – Petite Arche : 12,73 €/24 h, taxe 2027 inconnue. Page avec paramètre consultable ; URL sans paramètre en erreur 404 lors du contrôle, disponibilité à revalider.
+- Pornic – Bienvenue au siège : 12,73 €/24 h, taxe 2027 inconnue. Réservation obligatoire et accueil selon calendrier de week-end ; distinct de Val Saint-Martin.
+
+Sources :
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/camping-car-a-lecole-de-guerande
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/saint-pere-en-retz
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/blain?areaType=aire-etape-camping-car
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic
+
+Les quatre fiches appartiennent au fichier aires-loire-atlantique.json, déjà présentes et visibles. Aucun ajout ni changement des exclusions de nuitée. Vingt-trois fiches comportent des éléments 2027 (19 régionales + 4 complémentaires) ; compteurs 215 / 187 conservés. Prix conservés en statut partiel pour les frais et conditions d'accès ; taxes explicitement documentées pour l'École et la Goguillais.
