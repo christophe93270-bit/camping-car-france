@@ -50,3 +50,19 @@ Sources officielles :
 Les quatre tableaux affichent une période du 31/10/2026 au 31/12/2027. La taxe publiée (1,22 € à Piriac, 1,32 € à Grande Falaise) se termine au 31/12/2026 : aucune reconduction automatique en 2027. Le forfait 5 h + services de 6 € n'a pas de période 2027 explicite. Vérifier taxe, carte et éventuels frais de réservation avant de confirmer le total.
 
 Quatre fiches enrichies, aucune ajoutée. Dix fiches possèdent désormais des éléments 2027 : huit prix partiels (dont une borne), une promotion et un calendrier. Les références historiques et les exclusions de nuitée sont conservées. Les compteurs de référence restent 215 / 187.
+
+## Lot 76 — cinq aires sud Loire, 1er novembre 2026
+
+| Aire | Base publiée pour 2027, hors taxe | Source |
+|---|---|---|
+| Préfailles – Les Pinettes | 14,25 €/24 h | https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-pinettes |
+| Saint-Michel-Chef-Chef – Le Soleya | 12,22 €/24 h | https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/st-michel-chef-chef-soleya |
+| Bouaye – Route de la Barre | 13,74 €/24 h | https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye |
+| Préfailles – Biochon | 9,57 €/24 h | https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon |
+| Rouans – Messan | 12,78 €/24 h | https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/rouans |
+
+Bouaye : période propre au 01/01–31/12/2027 ; ne pas reconduire les 15,50 € de fin 2026. Les quatre autres tableaux affichent 01/11/2026–31/12/2027. Taxe 1,32 € limitée à 2026 dans les cinq cas. Les forfaits de passage 5 h ne sont pas datés pour 2027 (7,05 € à Bouaye, 6 € ailleurs).
+
+Biochon est temporairement fermée au contrôle : réouverture 2027 à confirmer, tarif publié distinct de disponibilité. La fermeture temporaire ne modifie pas le statut d'autorisation de nuitée.
+
+Cinq fiches existantes enrichies, aucune ajoutée. Quinze fiches possèdent désormais des éléments 2027 : treize prix partiels (dont une borne), une promotion, un calendrier. Les compteurs restent 215 / 187 ; aucune nuitée 2027 avec total entièrement confirmé à ce stade.
