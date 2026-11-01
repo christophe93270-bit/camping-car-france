@@ -222,3 +222,19 @@ Sources :
 Hermitage des Dunes : résultat officiel encore millésimé 2026, sans nouvelle donnée 2027 intégrée. Aucun montant locatif d'un intermédiaire repris comme tarif d'emplacement.
 
 Trois fiches enrichies, aucun ajout. Trente-neuf fiches comportent des éléments ou réserves 2027 : vingt-quatre tarifs/offres partiels (dont deux bornes), une promotion et quatorze calendriers/conditions/annonces. Aucun nouveau prix certifié dans ce lot. Compteurs 215 / 187 maintenus. Aucune demande envoyée.
+
+## Lot 86 — Le Fief, Port Chéri et Mindin, 1er novembre 2026
+
+- Le Fief, Saint-Brevin : calendrier opérateur du 2 avril au 7 novembre 2027 ajouté. Emplacement nu de 90 m² minimum avec raccordement 8 A. Aucun montant 2027 exploitable ; les anciens 35–66 € et suppléments restent historiques. Ne pas interpréter les textes génériques du moteur (« fermé aux dates sélectionnées », « ouverture prochainement ») comme un constat de fermeture ou de réservation indisponible. La bannière générale jusqu'à -15 % ne suffit pas à établir une réduction sur cet emplacement. Vérifier devis daté pour un camping-car et deux adultes, électricité incluse ou non, taxe, éco-participation, minimum de séjour et frais.
+- Port Chéri, Pornic : avertissement opérationnel ajouté. Le site distingue les locations ouvertes à l'année et les emplacements du 1er avril au 30 novembre, sans année affichée. Prix d'appel 20 €/jour non millésimé, distinct du forfait 26,50 € daté 2026 de CampingFrance. Aucun de ces montants n'est validé pour 2027. Demander calendrier 2027 et devis avec forfait deux personnes, électricité 10 A, taxe, frais et accès aux services.
+- Mindin, Saint-Brevin : contrôle sans enrichissement 2027. La rubrique documentaire et les résultats officiels renvoient encore au tarif 2026 ; aucune grille 2027 trouvée. L'ouverture générique à l'année ne garantit pas une parcelle disponible aux dates souhaitées. Vérifier devis camping-car 2027 et suppléments. Ne pas reprendre les prix de mobil-homes ni les offres FFCC 2025 comme forfait camping-car 2027.
+
+Sources :
+- https://www.sandaya.fr/nos-campings/le-fief/nos-emplacements
+- https://www.sandaya.fr/nos-campings/le-fief/nos-emplacements/260017
+- https://www.camping-leportcheri.com/
+- https://www.camping-leportcheri.com/emplacements-camping-pornic
+- https://www.campingmindin.com/camping-loire-atlantique-documents/
+- https://www.campingmindin.com/wp-content/uploads/mindin-tarifs-2026.pdf
+
+Trois établissements audités : un calendrier 2027 ajouté, un avertissement corrigé, un contrôle documentaire sans nouvelle preuve 2027. Quarante fiches comportent des éléments ou réserves 2027 : vingt-quatre tarifs/offres partiels (dont deux bornes), une promotion et quinze calendriers/conditions/annonces. Aucun nouveau tarif 2027 certifié. Aucun établissement ajouté ; prix historiques et compteurs 215 / 187 conservés. Aucune demande envoyée.
