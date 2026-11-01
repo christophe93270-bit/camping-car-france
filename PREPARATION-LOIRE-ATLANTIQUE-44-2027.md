@@ -238,3 +238,21 @@ Sources :
 - https://www.campingmindin.com/wp-content/uploads/mindin-tarifs-2026.pdf
 
 Trois établissements audités : un calendrier 2027 ajouté, un avertissement corrigé, un contrôle documentaire sans nouvelle preuve 2027. Quarante fiches comportent des éléments ou réserves 2027 : vingt-quatre tarifs/offres partiels (dont deux bornes), une promotion et quinze calendriers/conditions/annonces. Aucun nouveau tarif 2027 certifié. Aucun établissement ajouté ; prix historiques et compteurs 215 / 187 conservés. Aucune demande envoyée.
+
+## Lot 87 — Slow Village Pornic, La Dune de Jade, Capfun L'Ève, 1er novembre 2026
+
+- Slow Village Pornic : annonce de réservations estivales 2027 sur la page dédiée aux véhicules de loisirs. Parcelle de 100 m² avec électricité 10 A maximum et sanitaires communs inclus, distincte des emplacements tente 80 m². Aucun montant 2027 trouvé ; FAQ encore datée du 3 avril au 31 octobre 2026. Ne pas interpréter le libellé générique « indisponibles » sans dates comme une fermeture. Demander devis camping-car/deux adultes, dates, taxe, frais et minimum de séjour.
+- La Dune de Jade : annonce d'accueil 2027 limitée aux locatifs (jusqu'à -20 %, sept nuits minimum), exclue des tarifs camping-car. Le lien détaillé consulté conserve 2026 : incohérence de millésime signalée, conditions 2027 à obtenir. Page des emplacements bloquée par une vérification technique ; accès camping-car et devis 2027 à confirmer. Les prix de vente de mobil-homes, forfaits de parcelles résidentielles et locations de salles ne sont pas des tarifs de nuitée.
+- Capfun L'Ève : dates des piscines du 16 avril au 20 septembre 2027, sans assimilation au calendrier des emplacements. Offre 693 €/semaine du 3 au 10 juillet 2027 pour un Habana Top Presta quatre personnes : mobil-home, pas camping-car. Pass Camping 15 € toujours daté 2026 et L'Ève explicitement exclu. Catégorie emplacement non retrouvée dans le texte public : demander confirmation de l'accueil camping-car 2027, disponibilité, forfait, taxe et frais. Prix historique « Non confirmé » conservé.
+
+Sources :
+- https://www.slow-village.com/hebergements/emplacement-vehicules-loisirs/
+- https://www.ladunedejade.fr/
+- https://www.ladunedejade.fr/2022/12/16/early-booking-2023/
+- https://www.ladunedejade.fr/camping-hebergement/emplacements-camping/
+- https://www.capfun.com/camping---l_eve-FR.html
+- https://www.capfun.com/pass-camping.html
+
+Recherche complémentaire Moulin de l'Éclis : calendrier 2027 trouvé, mais établissement absent des deux fichiers actuels. Aucune création conformément au périmètre fixé.
+
+Trois fiches existantes enrichies de réserves 2027 ; aucun tarif 2027 nouvellement certifié. Quarante-trois fiches comportent des éléments ou réserves 2027 : vingt-quatre tarifs/offres partiels (dont deux bornes), une promotion et dix-huit calendriers/conditions/annonces. Prix historiques conservés, aucun ajout d'établissement. Compteurs 215 / 187 maintenus. Aucune demande envoyée.
