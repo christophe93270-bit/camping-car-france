@@ -66,3 +66,20 @@ Bouaye : période propre au 01/01–31/12/2027 ; ne pas reconduire les 15,50 €
 Biochon est temporairement fermée au contrôle : réouverture 2027 à confirmer, tarif publié distinct de disponibilité. La fermeture temporaire ne modifie pas le statut d'autorisation de nuitée.
 
 Cinq fiches existantes enrichies, aucune ajoutée. Quinze fiches possèdent désormais des éléments 2027 : treize prix partiels (dont une borne), une promotion, un calendrier. Les compteurs restent 215 / 187 ; aucune nuitée 2027 avec total entièrement confirmé à ce stade.
+
+## Lot 77 — quatre fiches, 1er novembre 2026
+
+| Fiche | Tarif 2027 publié | Limite |
+|---|---|---|
+| Préfailles – La Pointe | 12,93 €/24 h, période 31/12/2026–31/12/2027 | Taxe 2027 inconnue. Options douche et équipements sans millésime. |
+| Nantes – Petit Port | 15 €/24 h, période 31/12/2026–31/12/2027 | Taxe 2027 inconnue. Ne pas prolonger l'avis de fermeture pour vents qui expirait le 23/10/2026. |
+| La Limouzinière | 12,22 €/24 h, taxe 0 € publiée jusqu'à fin 2027 | Total étape + taxe documenté ; carte et réservation séparées. |
+| Pornic – Val Saint-Martin | 2 €/service, tableau 2026–2027 | Borne seule, aucun droit à une nuitée ; contenu de prestation à préciser. |
+
+Sources officielles :
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-la-pointe
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-limouziniere
+- https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu
+
+Quatre fiches existantes enrichies, aucune ajoutée. Dix-neuf fiches comportent des informations 2027 : dix-sept tarifs avec réserves (dont deux bornes), une promotion et un calendrier. Le statut de La Limouzinière reste partiel pour les frais annexes ; l'étape + taxe est toutefois documentée à 12,22 €. Compteurs 215 / 187 conservés.
