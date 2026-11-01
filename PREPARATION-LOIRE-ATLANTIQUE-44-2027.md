@@ -207,3 +207,18 @@ Sources :
 - https://www.campingeden.com/emplacements/
 
 Deux fiches enrichies, une troisième contrôlée sans preuve 2027 suffisante. Aucun nouveau prix certifié, aucun camping ajouté, prix historiques conservés. Trente-six fiches comportent des éléments ou réserves 2027 : vingt-quatre tarifs/offres partiels (dont deux bornes), une promotion et onze calendriers/conditions/annonces. Compteurs 215 / 187 inchangés. Aucun message envoyé.
+
+## Lot 85 — Pen-Bé, La Baie, La Riviera, 1er novembre 2026
+
+- Ferme de Pen-Bé : maintien de la fermeture 2026. Le souhait de réouverture en 2027 n'est pas une date confirmée. Grille toujours millésimée 2025, non reconduite. Vérifier accès camping-car, sanitaires, réouverture effective et nouveau barème. Ne pas confondre avec La Baie.
+- Camping de la Baie : retour annoncé le 9 avril 2027 ; piscine annoncée jusqu'au 3 octobre. La page emplacements affiche encore la saison et les périodes ACSI 2026. Prix d'appel 27 €/nuit sans millésime 2027 suffisamment établi : non ajouté comme tarif 2027. Devis et calendrier spécifiques aux emplacements nécessaires.
+- La Riviera : saison 3 avril–12 septembre 2027 ; promotions exclusivement locatives. La présentation actuelle annonce 181 locatifs et 58 locatifs résidentiels, soit 239 emplacements. Cela ne suffit pas à prouver l'accueil d'un camping-car. Avertissement renforcé ; demander confirmation de l'existence de parcelles nues 2027 avant tout devis. Le filtre nocturne conserve le classement historique : il ne garantit pas la disponibilité actuelle. Les prix et services historiques 2026 ne sont pas réécrits comme faits 2027.
+
+Sources :
+- https://campingdepenbe.fr/
+- https://www.camping-delabaie.com/emplacements/
+- https://www.aloa-vacances.com/la-riviera/accueil/
+
+Hermitage des Dunes : résultat officiel encore millésimé 2026, sans nouvelle donnée 2027 intégrée. Aucun montant locatif d'un intermédiaire repris comme tarif d'emplacement.
+
+Trois fiches enrichies, aucun ajout. Trente-neuf fiches comportent des éléments ou réserves 2027 : vingt-quatre tarifs/offres partiels (dont deux bornes), une promotion et quatorze calendriers/conditions/annonces. Aucun nouveau prix certifié dans ce lot. Compteurs 215 / 187 maintenus. Aucune demande envoyée.
