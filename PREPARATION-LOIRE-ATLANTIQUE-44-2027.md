@@ -293,3 +293,7 @@ Sources :
 Piste Ranrouët écartée : absent des fiches régionales examinées ; l'ancien domaine se présente désormais comme un site éditorial sans lien avec le camping. Aucun établissement créé.
 
 Trois fiches auditées, un tarif historique 2026 précisé ; aucun nouveau tarif 2027 certifié. Le nombre de fiches avec season2027 reste 43. Compteurs 215 / 187 maintenus. Aucune demande envoyée.
+
+## Lot 90 — passage aux lots de 20, 2 novembre 2026
+
+20 fiches examinées, 0 nouveau tarif camping-car 2027 confirmé, 2 informations 2027 ajoutées (Océan et Tréambert), 20 tarifs encore bloqués. Aucun prix historique modifié ; 18 fiches laissées intactes. Détail et sources : [AUDIT-44-2027-LOT90.md](AUDIT-44-2027-LOT90.md). Suivi par identifiant : [SUIVI-AUDIT-44-2027.json](SUIVI-AUDIT-44-2027.json), afin d'éviter les recherches répétitives. 45 fiches avec éléments ou réserves season2027, sans assimilation à des tarifs confirmés. Compteurs 215 / 187 maintenus. Aucune demande envoyée.
