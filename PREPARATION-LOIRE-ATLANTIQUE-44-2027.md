@@ -256,3 +256,21 @@ Sources :
 Recherche complémentaire Moulin de l'Éclis : calendrier 2027 trouvé, mais établissement absent des deux fichiers actuels. Aucune création conformément au périmètre fixé.
 
 Trois fiches existantes enrichies de réserves 2027 ; aucun tarif 2027 nouvellement certifié. Quarante-trois fiches comportent des éléments ou réserves 2027 : vingt-quatre tarifs/offres partiels (dont deux bornes), une promotion et dix-huit calendriers/conditions/annonces. Prix historiques conservés, aucun ajout d'établissement. Compteurs 215 / 187 maintenus. Aucune demande envoyée.
+
+## Lot 88 — Mon Calme, Les Bleuets, Clos Mer et Nature, 2 novembre 2026
+
+Trois fiches existantes contrôlées ; avertissements et traçabilité complétés. Aucune preuve suffisante pour créer une nouvelle entrée season2027.
+
+- Mon Calme : la page opérateur distingue Appart'Hôtel (18 décembre 2026–3 janvier 2027) et camping (3 avril–11 octobre 2026). Ne pas transférer l'ouverture hivernale aux camping-cars. Le descriptif distingue parcelles mixtes et spéciales camping-car ; remorque à orienter vers une parcelle mixte. Demander dates camping 2027, prix ordinaire, nouveau tarif/périodes ACSI, taxe et frais. Les 21 € ACSI 2026 restent historiques.
+- Les Bleuets : grille HTML encore intitulée « Tarifs Emplacements 2026 ». Aucun barème 2027 confirmé. Demander forfait camping-car deux adultes, électricité, taxe, frais de réservation et conditions exactes du Stop Accueil première nuit. Ne pas reconduire les 9 € d'appel, ni assimiler le forfait randonneur/cycliste sans véhicule motorisé à une nuitée camping-car.
+- Clos Mer et Nature : page emplacements acceptant explicitement les camping-cars, mais sans prix ; page promotions annonçant seulement de futures offres. FAQ 1er avril–31 octobre non millésimée. Demander calendrier 2027, prix de base, taxes, écoparticipation, frais et horaires d'arrivée/départ. La contradiction FAQ/contrat 2026 déjà documentée n'est pas résolue. Fiche canonique seule enrichie, doublon masqué conservé.
+
+Sources :
+- https://domaine.moncalme-piriac.com/
+- https://domaine.moncalme-piriac.com/nos-emplacements-camping/
+- https://www.campinglesbleuets.com/emplacements-camping-pornic
+- https://www.camping-clos-mer-nature.fr/faq/
+- https://www.camping-clos-mer-nature.fr/emplacements-camping-saint-michel-chef-chef/
+- https://www.camping-clos-mer-nature.fr/camping-promos-pornic/
+
+Le nombre de fiches avec éléments ou réserves season2027 reste 43 ; ce n'est pas un nombre de tarifs confirmés. Aucun prix historique modifié, aucun établissement ajouté. Compteurs 215 / 187 maintenus. Aucune demande envoyée.
