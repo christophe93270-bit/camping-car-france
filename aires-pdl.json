@@ -6300,7 +6300,7 @@
       "Vidange eaux noires",
       "WiFi"
     ],
-    "price": "Tarif 2026 des emplacements camping-car et de la vidange seule non communiqué sur la fiche officielle de Loire-Atlantique Tourisme ; vérifier auprès du camping.",
+    "price": "Tarifs officiels 2026, forfait standard camping-car pour 1 à 2 personnes, électricité et 1 véhicule : 26,60 à 36,60 € pour une nuit seule ; 22,60 à 32,60 €/nuit pour plus d'une nuit, selon période. Taxe de séjour et additionnelle : +0,22 €/adulte/nuit. Écocontribution de 0,40 € annoncée comprise dans le prix. Tarif 2027 et accès aux services sans séjour à confirmer.",
     "status": "16 rue du Mané, 44420 Piriac-sur-Mer. Camping privé à environ 150 m de la mer et 500 m du bourg. La classification importée « aire de service » ne signifie pas l'accès libre à une borne de vidange pour les véhicules extérieurs. Accès et forfait de service à confirmer avec l'établissement.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.37691,
@@ -6308,11 +6308,16 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "2026-10-20 : reclassement selon Loire-Atlantique Tourisme pour éviter de présenter les services du camping comme une borne publique, sans inventer un tarif.",
+    "importReview": "2026-10-20 : reclassement selon Loire-Atlantique Tourisme pour éviter de présenter les services du camping comme une borne publique, sans inventer un tarif. Lot 89 (02/11/2026) : grille image officielle 2026 lue visuellement, forfait camping-car explicite ; une nuit 26,60/29,60/36,60/32,60 €, plusieurs nuits 22,60/25,60/32,60/28,60 € selon les quatre colonnes. Électricité incluse, taxe 0,22 € adulte en sus et écocontribution 0,40 € comprise selon texte adjacent. Aucune reconduction 2027.",
     "sourceId": "ACCAMACCAMELESFLOTSBLEUS",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/183589-Les-Flots-Bleus",
-    "priceSource": "https://rando.loire-atlantique.fr/service/183589-Les-Flots-Bleus",
-    "servicesSource": "https://rando.loire-atlantique.fr/service/183589-Les-Flots-Bleus"
+    "priceSource": "https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements",
+    "servicesSource": "https://rando.loire-atlantique.fr/service/183589-Les-Flots-Bleus",
+    "priceYear": 2026,
+    "priceCheckedAt": "2026-11-02",
+    "priceEvidenceDocument": "https://static.wixstatic.com/media/bbcda9_2de1ae5c60324874a511ee03dbd01e2c~mv2.png",
+    "operationalWarning": "Camping-cars jusqu'à 7,50 m maximum selon l'exploitant. Réservation fortement conseillée. La page camping-car annonce actuellement aucun frais de réservation sur emplacement nu et un acompte de 30 %, à revalider pour 2027. Grille 2026 uniquement : le tarif réduit exige plus d'une nuit ; ne pas le présenter comme prix d'une étape d'une nuit. Confirmer la période exacte aux dates de transition, le calendrier et le forfait 2027.",
+    "operationalWarningSource": "https://www.campinglesflotsbleus.com/nosemplacements/camping-cars"
   },
   {
     "department": "44",
@@ -6492,7 +6497,7 @@
     "gpsSource": "https://www.cirkwi.com/fr/point-interet/3322094-aire-de-camping-le-briord",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : forfait à partir de 14 €, 6 places, dates et paiements en espèces vérifiés sur tourisme régional. Le tarif exact camping-car avec options et taxe n’est pas détaillé. Lot 48 du 20/10/2026 : lieu déjà recensé, GPS e-SPRIT à 0 m, coordonnées contact et preuve prix d'appel 14 € ajoutées.",
+    "importReview": "20/10/2026 : forfait à partir de 14 €, 6 places, dates et paiements en espèces vérifiés sur tourisme régional. Le tarif exact camping-car avec options et taxe n’est pas détaillé. Lot 48 du 20/10/2026 : lieu déjà recensé, GPS e-SPRIT à 0 m, coordonnées contact et preuve prix d'appel 14 € ajoutées. Lot 89 (02/11/2026) : divergence FR/EN 14 € base contre 17 € forfait camping-car, calendrier et taxe incohérents ; prix historique conservé avec avertissement, confirmation 2027 nécessaire.",
     "sourceId": "ACCAMACCAMEAIREDECAMPINGLEBRIORD",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
     "priceSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
@@ -6505,7 +6510,9 @@
     "contactSource": "https://www.cirkwi.com/fr/point-interet/3322094-aire-de-camping-le-briord",
     "priceEvidenceDocument": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
     "priceCheckedAt": "2026-10-20",
-    "priceVerification": "prix_appel_tourisme_14eur_2026_options_a_verifier"
+    "priceVerification": "prix_appel_tourisme_14eur_2026_options_a_verifier",
+    "operationalWarning": "Contrôle du 02/11/2026 : la fiche française affiche une base à partir de 14 €, tandis que le texte anglais indique un forfait camping-car à 17 €/nuit ; conditions et millésime propre de ce dernier non établis. Les calendriers et horaires divergent aussi selon les langues ; taxe affichée sous forme d'une fourchette inversée 0,22–0,20 €. Demander directement le prix camping-car 2027, électricité, taxe, dates et horaires. Aucun de ces montants ne vaut devis 2027.",
+    "operationalWarningSource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord"
   },
   {
     "department": "44",
@@ -12123,7 +12130,7 @@
     "priceEvidenceDocument": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/pornichet/camping-du-bugeau-103286/",
     "priceEvidenceNote": "La fiche officielle CampingCard ACSI du Camping du Bugeau, Pornichet, précise 21 € 2026 avec carte sur six périodes distinctes. Le calendrier d'ouverture ACSI 10/04–04/10/2026 correspond aux dates opérateur. Le prix réduit ne certifie ni la nuitée ordinaire sans carte, ni les taxes locales ou suppléments. Électricité de base selon formule ACSI ; fiche officielle opérateur confirme emplacements 10 A, mais 10 A ne doit pas être garanti comme inclusion du forfait ACSI (règles de base).",
     "status": "33 avenue des Loriettes, 44380 Pornichet. Saison officielle du 10 avril au 4 octobre 2026 terminée au 20 octobre. Camping privé distinct du Bel Air (environ 610 m), du GCU Pornichet et de l'aire d'Ermur. GPS PiNCAMP 47.252827,-2.319172 recoupé avec plusieurs plateformes à environ 30 m, mais CampingDispo signale un repère 250 m plus loin : le point désigne le camping, pas une borne précise. Le chiffre de 110 places (Pornichet Tourisme) et 112 (Tourisme Bretagne) compte des hébergements tous types ; un annuaire privé dénombre 52 emplacements nus, à vérifier, sans additionner.",
-    "operationalWarning": "ACSI 21 €/nuit uniquement avec carte CampingCard ACSI valide et périodes de réduction 2026 ; tarif ordinaire hors programme inconnu. Camping fermé depuis 04/10/2026. Services de vidange sans nuitée, taxe de séjour et éventuels suppléments non confirmés.",
+    "operationalWarning": "ACSI 21 €/nuit uniquement avec carte CampingCard ACSI valide et périodes de réduction 2026 ; tarif ordinaire hors programme inconnu. Camping fermé depuis 04/10/2026. Services de vidange sans nuitée, taxe de séjour et éventuels suppléments non confirmés. Contrôle du 02/11/2026 : le site opérateur et les périodes de réduction ACSI consultées restent millésimés 2026. L'affichage de mois 2027 dans le calendrier ACSI ne confirme pas la validité du forfait de 21 € en 2027. Demander nouveau tarif, périodes d'acceptation de la carte, taxes et prix sans carte.",
     "operationalWarningSource": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/pornichet/camping-du-bugeau-103286/",
     "contactPhone": "02 40 61 02 02",
     "contactEmail": "campingdubugeau@wanadoo.fr",
@@ -12134,7 +12141,7 @@
     "capacityAllTourismOffice": 110,
     "capacityAllTourismBrittany": 112,
     "dataAttribution": "Camping du Bugeau, Pornichet Tourisme, PiNCAMP, Tourisme Bretagne",
-    "importReview": "Lot 53 du 20/10/2026 : camping-car explicitement proposé avec électricité 10A, services reconnus par office, calendrier officiel et GPS PiNCAMP, prix de nuitée 2026 non confirmé. Lot tarifaire 62 du 21/10/2026 : source directe partenaire CampingCard ACSI 2026, forfait 21 €/nuit avec carte, dates précises six fenêtres. Refus de l'appliquer comme prix sans carte ; taxe et prix public standard encore inconnus.",
+    "importReview": "Lot 53 du 20/10/2026 : camping-car explicitement proposé avec électricité 10A, services reconnus par office, calendrier officiel et GPS PiNCAMP, prix de nuitée 2026 non confirmé. Lot tarifaire 62 du 21/10/2026 : source directe partenaire CampingCard ACSI 2026, forfait 21 €/nuit avec carte, dates précises six fenêtres. Refus de l'appliquer comme prix sans carte ; taxe et prix public standard encore inconnus. Lot 89 (02/11/2026) : offre ACSI toujours datée 2026 ; aucun montant 2027 confirmé.",
     "priceYear": 2026,
     "priceSource": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/pornichet/camping-du-bugeau-103286/",
     "priceType": "tarif_2026_conditionnel_campingcard_acsi_basse_saison",

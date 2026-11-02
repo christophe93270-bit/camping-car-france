@@ -274,3 +274,22 @@ Sources :
 - https://www.camping-clos-mer-nature.fr/camping-promos-pornic/
 
 Le nombre de fiches avec éléments ou réserves season2027 reste 43 ; ce n'est pas un nombre de tarifs confirmés. Aucun prix historique modifié, aucun établissement ajouté. Compteurs 215 / 187 maintenus. Aucune demande envoyée.
+
+## Lot 89 — Flots Bleus, Le Briord, Bugeau, 2 novembre 2026
+
+- Les Flots Bleus, Piriac : grille officielle 2026 retrouvée et image lue visuellement. Forfait standard explicitement tente/caravane/camping-car, 1–2 personnes, électricité et un véhicule. Quatre colonnes : une nuit 26,60 / 29,60 / 36,60 / 32,60 € ; plus d'une nuit 22,60 / 25,60 / 32,60 / 28,60 € par nuit. Taxe adulte 0,22 € en sus ; écocontribution 0,40 € comprise selon texte adjacent. Fiche historique corrigée avec fourchettes et distinction de durée. Ne pas attribuer le tarif randonneur au camping-car. Certaines bornes de périodes se touchent : confirmer la colonne applicable aux dates exactes. Limite véhicule 7,50 m ajoutée. Réservation actuellement sans frais, acompte 30 %, sans garantie de reconduction 2027. Demander nouveau barème et accès aux services sans séjour.
+- Le Briord : texte anglais à 17 €/nuit camping-car, base française à partir de 14 €. Le descriptif anglais indique juin–août et 16h30–20h30, contre week-ends de mai puis 15 juin–15 septembre 2026 et 17h15–20h en français ; champs de taxe inversés 0,22–0,20 €. Ne pas arbitrer sans confirmation de l'exploitant. Demander forfait camping-car 2027, électricité, taxe, dates et horaires.
+- Bugeau : calendrier opérateur et périodes ACSI encore 2026. Les mois 2027 affichés dans le calendrier générique ACSI ne constituent pas une nouvelle offre. Conserver 21 € comme offre conditionnelle 2026 uniquement ; demander barème normal et ACSI 2027, périodes, taxe et suppléments.
+
+Sources :
+- https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements
+- https://static.wixstatic.com/media/bbcda9_2de1ae5c60324874a511ee03dbd01e2c~mv2.png
+- https://www.campinglesflotsbleus.com/nosemplacements/camping-cars
+- https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord
+- https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord
+- https://www.campingdubugeau.com/fr
+- https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/pornichet/camping-du-bugeau-103286/
+
+Piste Ranrouët écartée : absent des fiches régionales examinées ; l'ancien domaine se présente désormais comme un site éditorial sans lien avec le camping. Aucun établissement créé.
+
+Trois fiches auditées, un tarif historique 2026 précisé ; aucun nouveau tarif 2027 certifié. Le nombre de fiches avec season2027 reste 43. Compteurs 215 / 187 maintenus. Aucune demande envoyée.
