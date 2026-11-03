@@ -10222,10 +10222,10 @@
     "departureTime": "11:00",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-03",
       "status": "partial",
-      "label": "Fourchettes officielles 2027 : standard 27–88 €/nuit ; vue mer 30–120 €/nuit, pour 2 personnes avec électricité 10 A.",
-      "note": "Avec sanitaire privé : aperçu mer en 3e ligne 39–125 €/nuit ; vue mer en 2e ligne 47–153 €/nuit. Taxe 2027 en supplément : 0,66 €/adulte/nuit. Saison annoncée du 02/04 au 26/09/2027. Les CGV imposent en juillet-août au moins 7 nuits, du dimanche au dimanche : ces prix ne garantissent pas une nuit isolée. Prix exact par date, suppléments et application des frais de dossier de 35 € à préciser dans le devis.",
+      "label": "Grille officielle 2027 : 27–88 €/nuit standard ; 30–120 € vue mer ; avec sanitaires privés, 39–125 € vue mer en 2e ligne ou 47–153 € aperçu mer en 3e ligne.",
+      "note": "Fourchettes 2027 du forfait emplacements (base 2 personnes) : standard 27–88 €/nuit ; vue mer (sans sanitaire privé) 30–120 €/nuit ; avec sanitaire privé, vue mer en 2e ligne 39–125 €/nuit et aperçu mer en 3e ligne 47–153 €/nuit. Les deux catégories avec sanitaires avaient leurs montants/catégories inversés dans le suivi antérieur ; correction selon la brochure. Le forfait comprend 1 véhicule et l'électricité 10 A ; l'eau est disponible à des points partagés. Taxe de séjour 2027 : 0,66 €/adulte/nuit, en supplément. Le contrat 2027 impose aux emplacements 7 nuits minimum du dimanche au dimanche en juillet-août ; cette règle ne s'applique pas aux autres périodes selon le document consulté. 25 % d'acompte à la réservation ; assurance annulation facultative 4 % du séjour (minimum 25 €). Les frais de 35 € sont associés au paiement par chèques-vacances ; l'option de choix d'un emplacement précis est à 45 € au contrat, tandis que la FAQ actuelle indique 35 €. À contrôler sur le panier 2027 ; ne pas traiter l'un de ces montants comme frais de dossier universel.",
       "source": "https://www.camping-eleovic.com/wp-content/uploads/2023/08/Brochure-propo-2027_compressed.pdf",
       "conditionsSource": "https://www.camping-eleovic.com/wp-content/uploads/2023/08/Contrat-de-reservation-SITE.pdf",
       "unit": "night",
@@ -10247,12 +10247,12 @@
           "maxEUR": 120
         },
         {
-          "category": "apercu_mer_sanitaires_3e_ligne",
+          "category": "vue_mer_sanitaires_2e_ligne",
           "minEUR": 39,
           "maxEUR": 125
         },
         {
-          "category": "vue_mer_sanitaires_2e_ligne",
+          "category": "apercu_mer_sanitaires_3e_ligne",
           "minEUR": 47,
           "maxEUR": 153
         }
