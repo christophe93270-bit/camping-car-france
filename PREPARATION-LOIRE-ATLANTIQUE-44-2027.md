@@ -535,3 +535,13 @@ La page Aloa détaille la taxe de séjour de **0,66 €/jour/adulte de plus de 1
 
 Statut corrigé en **informations contradictoires**. Vérification restante : faire confirmer l’accueil d’un camping-car non résident en 2027, puis obtenir prix par nuit et inclusions ; si les emplacements sont réservés aux locations, corriger le classement de la fiche. Aucun contact envoyé ni lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 127](AUDIT-44-2027-LOT127.md).
 
+## Lot 128 — Île de Kernodet : barème 2026 détaillé, « 137 € » sans durée, 2027 non publié, 3 novembre 2026
+
+La grille officielle 2026 donne des tarifs **par nuit** pour un emplacement standard, **1 ou 2 personnes + 1 véhicule + électricité** : **19 €** du 1er avril au 3 juillet et du 5 au 26 septembre ; **21 €** à Pâques (3–5 avril) et du 29 août au 4 septembre ; **25 €** pendant les ponts de mai ; **26 €** du 4 au 10 juillet et du 22 au 28 août ; **30 €** du 11 au 24 juillet et du 15 au 21 août ; **33 €** du 25 au 31 juillet ; **35 €** du 1er au 14 août. La nuitée correspond à une arrivée à 15 h et un départ à 12 h.
+
+Les tarifs 2026 sont hors taxe de séjour. Les CGV 2026 ajoutent une écoparticipation de **0,50 €/personne/nuit** et **10 € de frais de dossier par emplacement** ; ces deux postes restent séparés du tarif par nuit. La taxe de séjour est due par adulte de plus de 18 ans et par nuit, mais son montant n’est pas indiqué dans les CGV consultées.
+
+La page d’accueil officielle indique « emplacements à partir de **137 €** » sans donner l’année, les dates ni la durée correspondante. Ne pas le traiter comme une nuitée ni comme un prix 2027. Campings.com indique que la saison 2027 est bientôt ouverte, sans grille ou prix exploitable. Une fiche touristique secondaire donne **19–33 €/nuit** pour 2026 ; elle ne reprend pas la tranche officielle à **35 €/nuit** du 1er au 14 août. Conserver le PDF détaillé de l’exploitant comme référence 2026.
+
+Aucun barème officiel 2027 daté n’a été trouvé. Le statut reste **tarif 2027 non confirmé** ; demander un devis comparable par dates, et faire préciser la durée cachée derrière « 137 € ». Aucun lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 128](AUDIT-44-2027-LOT128.md).
+
