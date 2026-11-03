@@ -398,3 +398,8 @@ Vérifications externes restantes : confirmer avec CAMPING-CAR PARK la date rée
 **Au Soir d’Été (Mesquer).** La FAQ officielle confirme que le prix communiqué lors de la réservation comprend la taxe de séjour. La grille 2027 de l’emplacement camping-car reste à 22–43 €/nuit selon période, avec la taxe de 0,66 €/adulte/nuit à ne pas ajouter une seconde fois au devis final. Frais de dossier et minimum de séjour restent à contrôler.
 
 Aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 108](AUDIT-44-2027-LOT108.md).
+
+
+## Lot 109 — formule camping-car des Paludiers et offre Flower, 3 novembre 2026
+
+Flower affiche 118 € pour deux personnes du 15 au 22 mai 2027, soit un prix de séjour de sept nuits à partir de ce montant, et non un tarif de nuitée ni une grille annuelle. Le site officiel des Paludiers confirme un Forfait Confort accueillant deux personnes avec un camping-car, un véhicule et électricité 10 A ; l’établissement annonce une ouverture du 26 mars au 1er novembre 2027. La page Flower ne relie pas explicitement les 118 € à ce forfait précis. Vérifier le récapitulatif de réservation, la taxe, les frais et la disponibilité avant de publier un forfait camping-car complet. La fourchette 19–37 €/nuit demeure strictement 2026. Aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 109](AUDIT-44-2027-LOT109.md).
