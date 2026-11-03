@@ -415,3 +415,8 @@ CampingFrance affiche 32 €/jour sous sa rubrique Tarifs 2027, avec électricit
 Le site Sunêlia affiche un exemple chiffré de **196 € ramenés à 186 €** pour un emplacement avec sanitaire privé, du 2 au 9 avril 2027 (7 nuits), après Early Booking de 5 %. La page de catégorie accepte le camping-car et précise le forfait de base pour 2 personnes, avec électricité et eau comprises. Ce prix de séjour daté ne remplace pas une grille annuelle ; taxe et éventuels frais restent à contrôler sur le récapitulatif.
 
 Contradiction officielle à conserver : l’en-tête de la page générale et la page d’accueil donnent une fermeture au 12 septembre 2027 ; la fiche de l’emplacement sanitaire privé annonce le 19 septembre, comme la période maximale de la promotion. Disponibilité au-delà du 12 septembre à faire confirmer. Aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 111](AUDIT-44-2027-LOT111.md).
+
+
+## Lot 112 — La Falaise et l'Océan : saison 2027 publiée, prix de nuitée absents, 3 novembre 2026
+
+Les deux établissements annoncent désormais leur saison 2027, mais aucune grille 2027 camping-car vérifiable n'est publiée. La Falaise (La Turballe) annonce le 26 mars–30 octobre ; ses montants connus restent ceux de 2026, et la taxe indiquée dans l'ancienne plaquette est millésimée 2025. L'Océan (Le Croisic) annonce le 3 avril–26 septembre et les réservations ouvertes en octobre ; la page tarifaire reste intitulée « Tarifs 2026 » et son moteur ne donne pas de montant 2027 exploitable. Le Pack Exclusif à 15 €/jour est une option, pas un prix d'emplacement. Les deux fiches conservent le statut `booking_only` pour 2027. Aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 112](AUDIT-44-2027-LOT112.md).
