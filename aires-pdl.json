@@ -11053,11 +11053,16 @@
     "operationalWarningSource": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/guerande/camping-domaine-de-leveno-109840/",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-03",
       "status": "booking_only",
-      "label": "Réservations 2027 annoncées prochainement ; aucun tarif 2027 confirmé.",
-      "note": "Le site officiel indique que le camping est actuellement fermé aux vacanciers et que les réservations 2027 ouvriront prochainement, sans date précise. Vérifier l'ouverture effective des réservations, le calendrier des emplacements et le forfait camping-car avec personnes, électricité, taxe et frais séparés. Les anciens prix ne valent pas confirmation pour 2027.",
-      "source": "https://www.camping-leveno.com/"
+      "label": "Réservations ouvertes le 4 novembre 2026 ; saison du 9 avril au 19 septembre 2027 ; tarif à confirmer.",
+      "note": "La page officielle annonce l'ouverture des réservations le 04/11/2026 et la saison du 09/04 au 19/09/2027. La page « tarifs » indique un calcul en temps réel, mais ne donne pas encore de montant 2027 exploitable ; les dates de réservation sont annoncées pour demain au contrôle du 03/11. Ne pas reconduire les 25 € de la CampingCard ACSI 2026 comme prix standard ni comme offre 2027 confirmée. Après ouverture, relever un devis daté pour emplacement standard et Premium, avec nombre de personnes, électricité, taxe, frais et réduction éventuelle.",
+      "source": "https://www.camping-leveno.com/",
+      "bookingOpens": "2026-11-04",
+      "validFrom": "2027-04-09",
+      "validThrough": "2027-09-19",
+      "tariffEngineSource": "https://www.camping-leveno.com/tarifs-camping-guerande.html",
+      "pitchesSource": "https://www.camping-leveno.com/emplacements.html"
     }
   },
   {

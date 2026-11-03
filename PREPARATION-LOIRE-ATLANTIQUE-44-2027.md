@@ -372,3 +372,8 @@ Camping de la Baie : saison 2027 officiellement du 09/04 au 03/10 ; page emplace
 ## Lot 104 — promotion Sandaya confirmée sur Le Fief, 3 novembre 2026
 
 Correction : la page officielle Do You First 2027 confirme jusqu'à 15 % de remise avant le 31/12/2026 sur les locatifs et emplacements ; Le Fief figure explicitement dans la liste des campings concernés. Réservations des emplacements encore annoncées prochainement, donc prix de base et montant net non publiés. Après ouverture, vérifier devis par dates/catégorie, réduction applicable, taxes et frais. Aucun tarif net 2027 confirmé, aucun ajout ni contact. Compteurs 215 / 187 / 28. [Rapport lot 104](AUDIT-44-2027-LOT104.md).
+
+
+## Lot 105 — dates exactes du Domaine de Léveno, 3 novembre 2026
+
+L'exploitant annonce les réservations dès le 04/11/2026 et la saison du 09/04 au 19/09/2027. Le site utilise un moteur de tarifs en temps réel, sans montant 2027 lisible avant ouverture. Maintenir les 25 € comme offre CampingCard ACSI 2026 conditionnelle, ne pas les présenter comme prix public ou tarif 2027. Le 04/11, vérifier un devis Standard/Premium daté, personnes, eau/électricité, taxe, frais et remise ACSI. Aucun tarif 2027 confirmé ni fiche ajoutée. Compteurs 215 / 187 / 28. [Rapport lot 105](AUDIT-44-2027-LOT105.md).
