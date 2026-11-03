@@ -10133,13 +10133,16 @@
     "departureTime": "11:00",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-02",
+      "checkedAt": "2026-11-03",
       "status": "partial",
-      "label": "Repère 2027 CampingFrance : 32 €/jour, à confirmer",
-      "note": "CampingFrance annonce un forfait emplacement avec deux adultes à 32 €/jour et l’électricité à 4,90 €/jour en supplément. Source secondaire : le site de l’exploitant présente encore la saison 2026 et un dépliant intitulé 2025. Périodes tarifaires, taxe de séjour, frais et total camping-car 2027 à confirmer auprès du camping ; ce montant n’est pas un devis validé.",
+      "label": "Tarif 2027 non confirmé : le repère secondaire de 32 €/jour reproduit la haute saison 2026.",
+      "note": "CampingFrance intitule sa section « Tarifs 2027 » et affiche 32 €/jour pour 2 adultes, électricité 4,90 €/jour, adulte supplémentaire 7,50 €, enfant 5,50 € et animal 3 €. Or la grille officielle de l’exploitant pour 2026 publie exactement ces cinq montants dans la seule tranche du 26/07 au 31/08 ; ses autres périodes sont moins chères. Cette concordance complète est compatible avec une reprise des tarifs 2026 et ne suffit pas à confirmer un prix 2027. La page officielle consultée expose encore les tarifs 2026 ; le dépliant téléchargeable est intitulé 2025. Ne pas présenter 32 €/jour comme un tarif 2027 confirmé. Demander la grille 2027 datée, les périodes, taxe, frais, durée minimale et confirmation des suppléments.",
       "source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/prefailles/la-pree",
       "sourceType": "secondary",
-      "touristTaxConfirmed": false
+      "touristTaxConfirmed": false,
+      "referenceMatches2026HighSeason": true,
+      "referenceMatches2026Period": "2026-07-26/2026-08-31",
+      "baseRate2027Confirmed": false
     }
   },
   {

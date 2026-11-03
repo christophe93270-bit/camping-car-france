@@ -403,3 +403,8 @@ Aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rap
 ## Lot 109 — formule camping-car des Paludiers et offre Flower, 3 novembre 2026
 
 Flower affiche 118 € pour deux personnes du 15 au 22 mai 2027, soit un prix de séjour de sept nuits à partir de ce montant, et non un tarif de nuitée ni une grille annuelle. Le site officiel des Paludiers confirme un Forfait Confort accueillant deux personnes avec un camping-car, un véhicule et électricité 10 A ; l’établissement annonce une ouverture du 26 mars au 1er novembre 2027. La page Flower ne relie pas explicitement les 118 € à ce forfait précis. Vérifier le récapitulatif de réservation, la taxe, les frais et la disponibilité avant de publier un forfait camping-car complet. La fourchette 19–37 €/nuit demeure strictement 2026. Aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 109](AUDIT-44-2027-LOT109.md).
+
+
+## Lot 110 — le repère 32 €/jour de La Prée n'est pas confirmé pour 2027, 3 novembre 2026
+
+CampingFrance affiche 32 €/jour sous sa rubrique Tarifs 2027, avec électricité à 4,90 €, adulte supplémentaire à 7,50 €, enfant à 5,50 € et animal à 3 €. Les cinq montants correspondent exactement à la grille officielle 2026 du camping pour la tranche haute du 26 juillet au 31 août. Les autres périodes 2026 ont des prix inférieurs. Cette concordance rend plausible une reprise du barème 2026 ; elle ne confirme pas un prix 2027. La page officielle consultée reste millésimée 2026 et le document téléchargeable indique 2025. Conserver le repère comme secondaire et demander la grille 2027 datée. Aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 110](AUDIT-44-2027-LOT110.md).
