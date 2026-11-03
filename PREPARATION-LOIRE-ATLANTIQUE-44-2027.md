@@ -545,3 +545,15 @@ La page d’accueil officielle indique « emplacements à partir de **137 €** 
 
 Aucun barème officiel 2027 daté n’a été trouvé. Le statut reste **tarif 2027 non confirmé** ; demander un devis comparable par dates, et faire préciser la durée cachée derrière « 137 € ». Aucun lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 128](AUDIT-44-2027-LOT128.md).
 
+## Lot 129 — Pont-Mahé : 19 € réservé à l’offre ACSI 2026, frais et promotion à séparer, 3 novembre 2026
+
+Aucune grille publique opérateur datée 2027 n’a été trouvée. La page tarifaire distingue les **emplacements à la nuit** des locations et courts séjours, mais aucun montant standard 2027 n’a pu être confirmé.
+
+Le camping affiche une offre **ACSI à 19 €/nuit en 2026**, pour un emplacement, un véhicule, deux personnes, 10 A et un animal, uniquement avec la carte ACSI. La validité indiquée est du **3 avril au 4 août** et du **29 août au 26 septembre 2026**, alors que la page décrit l’offre comme hors saison. Ce n’est pas le tarif public ordinaire ni un prix 2027.
+
+La promotion **7=6** annonce un forfait Confort de deux personnes avec 10 A, les frais de dossier et de réservation offerts et des périodes du 3 avril au 4 juillet puis du 29 août au 27 septembre 2026. Or les conditions affichées indiquent un minimum d’une nuit et un maximum de trois nuits, incohérents avec une nuit offerte pour sept. La période se termine aussi un jour après la fermeture indiquée par le contrat 2026.
+
+Le contrat 2026 indique **18 € de frais par réservation**, **0,66 €/nuit/adulte** de taxe de séjour, **15 €** pour le choix d’un emplacement préférentiel et **35 €** de caution de badge. Il prévoit un acompte de 25 % et le solde quatre semaines avant l’arrivée. Ces lignes restent distinctes du prix par nuit et leur reconduction en 2027 n’est pas confirmée. La brochure tarifaire officielle retrouvée est celle de 2025 seulement.
+
+Statut : **tarif 2027 non confirmé**. Vérifications restantes : obtenir le tarif standard 2027 par nuit, confirmer ACSI 2027 et faire préciser l’offre 7=6 (durée et dates), puis actualiser frais et taxes. Aucun contact ni ajout de lieu ; compteurs **215 / 187 / 28**. [Rapport lot 129](AUDIT-44-2027-LOT129.md).
+
