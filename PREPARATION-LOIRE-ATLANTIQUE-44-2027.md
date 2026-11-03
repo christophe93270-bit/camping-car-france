@@ -495,3 +495,11 @@ Le site du camping présente une offre CampingCard ACSI à **19 €/nuit pour de
 
 Statut 2027 partiel : le comparatif ADAC est documenté, mais une grille ou un panier opérateur par date reste nécessaire. Les dates 2 avril–3 octobre 2027 apparaissent sur des sources secondaires et restent à confirmer par le camping. Aucun camping ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 123](AUDIT-44-2027-LOT123.md).
 
+## Lot 124 — Les Brillas : l’offre Pitchup titrée 2027 est datée 2026, 3 novembre 2026
+
+La référence officielle publiée par Destination Pornic est un forfait de **19 à 29 €/nuit** pour **un emplacement, deux personnes et une voiture**, valable du **4 avril au 20 septembre 2026**. La taxe de séjour est séparée : **0,66 €/nuit/adulte de plus de 18 ans**. Cette fiche ne précise pas si l’électricité est comprise dans le forfait.
+
+Pitchup présente une page dont le titre annonce des « tarifs 2027 », mais l’offre affichée à **21,42 € pour une nuit et deux adultes** indique une période du **4 avril au 18 septembre 2026**. Elle comprend 16 A et exclut les frais de réservation. Pitchup précise un minimum d’une nuit et un maximum de deux nuits pour cette offre. Il s’agit donc d’un repère secondaire daté 2026, pas d’un prix 2027. Les CGV officielles disponibles portent sur 2025 ; elles prévoient un minimum de sept nuits en haute saison et des frais de dossier selon la durée. L’écart avec les séjours Pitchup d’une ou deux nuits doit être vérifié pour l’offre directe et la saison concernée.
+
+Aucun tarif public opérateur daté 2027 n’a été trouvé. Garder **2026** comme année de la fourchette officielle et ne pas transférer les 21,42 €, les taxes ni les conditions de réservation à 2027. À vérifier : devis ou grille opérateur 2027 à dates fixes, inclusion de l’électricité, taxe 2027 et éventuelle taxe écologique, frais, minimum de séjour, et tarif de vidange pour les non-résidents. Aucun contact envoyé et aucun lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 124](AUDIT-44-2027-LOT124.md).
+
