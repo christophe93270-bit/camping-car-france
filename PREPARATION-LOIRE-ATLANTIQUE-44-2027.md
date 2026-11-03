@@ -382,3 +382,10 @@ L'exploitant annonce les réservations dès le 04/11/2026 et la saison du 09/04 
 ## Lot 106 — grille de La Roseraie à demander, 3 novembre 2026
 
 Le site ne publie pas de grille web. La page emplacement indique 10 A, eau/évacuation en supplément selon parcelle, 7 nuits minimum en juillet-août et frais de dossier de 30 € (60 € si dossier de subvention), mais sans confirmation explicite pour 2027. Demande détaillée préparée pour camping@laroseraie.com : forfait camping-car + 2 adultes, électricité, personnes/animaux, taxe, écoparticipation, eau/évacuation, frais et minimum de séjour. **Brouillon uniquement, non envoyé.** Prix 2027 toujours à obtenir. Compteurs 215 / 187 / 28. [Rapport lot 106](AUDIT-44-2027-LOT106.md).
+
+
+## Lot 107 — correction des périodes tarifaires CAMPING-CAR PARK, 3 novembre 2026
+
+Contrôle croisé de trois tarifs officiels en Loire-Atlantique. Les montants de base (Guérande 13,50 €, Piriac-Lérat 13,74 €, La Baule 14,50 € par 24 h) concordent avec les prix de l'opérateur ; la taxe de séjour reste distincte et les taxes affichées s'arrêtent en 2026. Corrections appliquées aux périodes : Guérande, 03/11/2026–31/12/2027 (une variante officielle affiche 01/11) ; Piriac-Lérat, 30/10/2026–31/12/2027 ; La Baule, 02/11/2026–31/12/2027 (une page antérieure indiquait 15/10). Les divergences de date sont conservées comme points de vérification, sans inventer un total 2027.
+
+Vérifications externes restantes : confirmer avec CAMPING-CAR PARK la date réelle de prise d'effet à Guérande et à La Baule, le tarif pendant la période de transition à La Baule, ainsi que les taxes de séjour et les éventuels frais/carte pour 2027. Aucun prix de base modifié, aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 107](AUDIT-44-2027-LOT107.md).
