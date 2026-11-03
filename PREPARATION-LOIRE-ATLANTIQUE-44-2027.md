@@ -611,3 +611,23 @@ Sources :
 - https://www.camping.info/fr/emplacement-de-camping/camping-le-praderoi
 
 Aucun tarif opérateur 2027 confirmé, aucun lieu ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 132](AUDIT-44-2027-LOT132.md).
+
+## Lot 133 — Gruellau : offres opérateur « à partir de », forfait secondaire 2027 en conflit, 3 novembre 2026
+
+Le moteur officiel L’Émue présente deux types de parcelles sans année tarifaire visible : **Emplacement Lumière**, électricité incluse, à partir de **8 €/nuit** ; **Emplacements Nature**, sans électricité, à partir de **4 €/nuit**, véhicule en option. L’emplacement Lumière fait environ 250 m², accepte un camping-car et affiche une capacité maximale de six personnes. Ces prix d’appel ne prouvent pas un total complet pour un séjour donné ni un tarif 2027.
+
+Les options affichées séparément comprennent **véhicule dès 1,50 €** et **camping-car dès 2,50 €**. Leur articulation avec le forfait choisi n’est pas claire sans panier. Ne pas additionner ou intégrer ces options par supposition.
+
+CampingFrance présente sous **Tarifs 2027** un forfait à **16 €/nuit**, avec camping-car, voiture, deux adultes inclus, électricité et douches chaudes. C’est un repère secondaire qui contredit le montant d’appel opérateur de 8 € et dont les périodes, le lien avec les options et l’origine opérateur ne sont pas documentés : le conserver séparément, sans le valider comme tarif officiel 2027. Campercontact affiche 12,44 €/nuit pour deux personnes, taxes incluses, sans millésime exploitable. Le document touristique départemental daté du **19 avril 2025** indique 15 €/nuit avec prise électrique pour caravane/camping-car ; c’est une référence historique 2025, pas un prix courant.
+
+Le calendrier de la page L’Émue indique une saison 2026 du 1er mai au 30 septembre ; d’autres fiches touristiques affichent avril et/ou une fermeture au 1er novembre. Aucune saison 2027 opérateur n’est confirmée. Vérifier un panier daté 2027 avec le forfait précis, véhicule/camping-car, deux adultes, taxe, frais et total ; confirmer les options et les dates d’ouverture.
+
+Sources :
+- https://campinggruellau.lemue.fr/
+- https://campinggruellau.lemue.fr/hebergements/emplacement-lumiere-electricite-incluse.html
+- https://campinggruellau.lemue.fr/hebergements/emplacements-nature-sans-electricite-vehicule-en-option.html
+- https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/treffieux/aire-naturelle-municipale94
+- https://www.campercontact.com/fr/france/pays-de-la-loire/-/196395/aire-naturelle-ce-camping-de-gruellau
+- https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/187399/aire-naturelle-de-camping-etang-de-gruellau.pdf
+
+Aucun prix complet 2027 confirmé ; aucun lieu ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 133](AUDIT-44-2027-LOT133.md).

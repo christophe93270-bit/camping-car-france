@@ -104,7 +104,16 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Site de réservation accessible, aucun tarif millésimé 2027 retrouvé.",
       "nextCheck": "Devis 2027, personnes incluses, électricité et taxe.",
-      "source": "https://campinggruellau.lemue.fr/"
+      "source": "https://campinggruellau.lemue.fr/",
+      "recheckedAt": "2026-11-03",
+      "recheckLot": 133,
+      "recheckFinding": "Le moteur officiel L’Émue affiche deux emplacements sans dates tarifaires : « Lumière – Électricité incluse » à partir de 8 €/nuit (maximum 6 pers., env. 250 m²) et « Nature – Sans électricité – véhicule en option » à partir de 4 €/nuit. Il affiche aussi des options véhicule à partir de 1,50 € et camping-car à partir de 2,50 € ; le lien exact entre ces options et le forfait camping-car doit être vérifié au panier. Aucun millésime ni total 2027 n’est visible. CampingFrance étiquette 2027 un forfait à 16 €/nuit et coche camping-car, voiture, 2 adultes inclus, électricité et douches chaudes, mais ce prix secondaire diverge du « à partir de 8 € » officiel et n’est pas confirmé par l’exploitant. Campercontact affiche 12,44 €/nuit taxes comprises pour deux personnes, sans année. Une fiche officielle départementale datée 19/04/2025 donnait 15 €/nuit pour un emplacement caravanes/camping-cars avec prise électrique : référence historique 2025, ne pas reconduire. Le calendrier officiel actuellement trouvé est 01/05–30/09/2026 ; les fiches touristiques donnent des dates différentes et aucune ouverture 2027 opérateur n’est confirmée.",
+      "recheckNextCheck": "Obtenir un devis/panier officiel 2027 daté pour un camping-car et deux adultes : distinguer le tarif « Lumière » (électricité incluse) et « Nature » sans électricité, confirmer si véhicule (1,50 €) et option camping-car (2,50 €) s’ajoutent l’un à l’autre ou au forfait, personnes incluses, taxes, frais et total final. Faire confirmer le millésime et la composition du 16 €/nuit CampingFrance 2027 et le taux/taxe du tarif. Confirmer les dates 2027 d’ouverture du camping ; ne pas utiliser le tarif historique de 15 € (2025) comme tarif courant.",
+      "recheckTariffSource": "https://campinggruellau.lemue.fr/",
+      "recheckElectricPitchSource": "https://campinggruellau.lemue.fr/hebergements/emplacement-lumiere-electricite-incluse.html",
+      "recheckNaturePitchSource": "https://campinggruellau.lemue.fr/hebergements/emplacements-nature-sans-electricite-vehicule-en-option.html",
+      "recheckSecondary2027Source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/treffieux/aire-naturelle-municipale94",
+      "recheckHistoricSource": "https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/187399/aire-naturelle-de-camping-etang-de-gruellau.pdf"
     },
     {
       "sourceId": "CCF44-MESQUER-TREAMBERT-2026",
