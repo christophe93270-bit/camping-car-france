@@ -574,3 +574,19 @@ Sources officielles :
 - https://camping-pauseloire.com/cgv/
 
 Aucune correction du tarif historique ni ajout de lieu. Le tarif 2027 reste non confirmé. Aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 130](AUDIT-44-2027-LOT130.md).
+
+## Lot 131 — Prairies de l’Étang : repère secondaire 42 € limité à 2026, prix opérateur 2027 absent, 3 novembre 2026
+
+Le site de l’exploitant confirme l’accueil des camping-cars sur des emplacements de 100 à 150 m² et décrit deux forfaits : sans électricité jusqu’à deux personnes avec véhicule, et avec branchement 10 A jusqu’à six personnes. Il ne donne pas de montant exploitable ni de grille 2027. Les pages calendrier des offices consultées sont encore datées 2026 ; elles ne prouvent pas les dates d’ouverture des emplacements en 2027.
+
+CampingFrance affiche **42 €/nuit** dans une rubrique **Tarifs 2026**, au libellé « Tourisme Confort Caravane ». Les éléments de présentation voisins mentionnent voiture, deux adultes inclus, électricité et douches chaudes, mais le détail ne permet pas de confirmer les inclusions exactes du forfait ni que ce prix émane directement de l’exploitant. Le conserver uniquement comme repère secondaire historique ; ne pas le publier comme tarif opérateur ou comme prix 2027. Les prix hebdomadaires de locations et les tarifs d’animaux à la semaine ne sont pas des tarifs de nuitée d’emplacement.
+
+Les CGV en ligne, sans millésime visible, annoncent un acompte de 30 % et des frais de dossier sous certaines conditions de réservation ; leur montant n’est pas indiqué dans ce document. Aucun montant de taxe 2027 n’a été trouvé. À vérifier : prix opérateur 2027 daté pour camping-car, 2 adultes et véhicule, inclusion ou option d’électricité 10 A, taxes et frais, suppléments, minimum de séjour et calendrier réel.
+
+Sources :
+- https://www.lesprairies.net/emplacements/
+- https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/asserac/les-prairies-de-letang
+- https://www.enpaysdelaloire.com/hebergements/campings/camping-les-prairies-de-l-etang
+- https://www.lesprairies.net/wp-content/uploads/2023/04/CONDITIONS-GENERALES-DE-VENTE.pdf
+
+Aucun tarif 2027 confirmé, aucun lieu ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 131](AUDIT-44-2027-LOT131.md).
