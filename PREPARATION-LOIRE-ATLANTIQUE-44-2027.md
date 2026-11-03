@@ -357,3 +357,8 @@ Registre complété à 208 identifiants distincts du 44. Les Flots Bleus : page 
 ## Brouillons de demandes externes — ajout après le lot 101
 
 Brouillons prêts pour Les Flots Bleus (campinglesflotsbleus.piriac@orange.fr) et Le Briord (campinglebriord44@gmail.com). Ils demandent les tarifs 2027, périodes, composition du forfait, taxe et conditions d’accès/réservation, et pour Le Briord la résolution des divergences de langue. **Aucun message envoyé.** Les textes complets sont annexés au [rapport du lot 101](AUDIT-44-2027-LOT101.md).
+
+
+## Lot 102 — correction des dates et exclusion d'un prix 2026, 3 novembre 2026
+
+La Boutinardière : corrigé le jour d'ouverture des réservations (03/11/2026, pas 01/11) ; saison 2027 confirmée du 02/04 au 27/09, prix d'emplacement encore à demander. Les Chênes Verts : saison opérateur 02/04–12/09/2027 confirmée, mais aucune disponibilité chez Pitchup et son montant de 18,52 € relève d'une recherche 2026 ; ne pas le reporter comme prix 2027. Pas de prix 2027 confirmé, aucun établissement ajouté, aucun message envoyé. Compteurs 215 / 187 / 28 inchangés. [Rapport du lot 102](AUDIT-44-2027-LOT102.md).
