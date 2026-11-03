@@ -317,3 +317,8 @@ Trois fiches auditées, un tarif historique 2026 précisé ; aucun nouveau tarif
 ## Lot 94 — 20 fiches supplémentaires, 3 novembre 2026
 
 20 fiches de Loire-Atlantique ajoutées au suivi (100 identifiants uniques depuis le lot 90). Aucun tarif complet 2027 confirmé ; aucun prix modifié. Suivi ciblé sur distinction nuitée/services, règlements de stationnement nocturne et pannes de bornes. Compteurs 215 / 187 / 28 maintenus. Aucun camping ajouté ni contact envoyé. [Rapport](AUDIT-44-2027-LOT94.md).
+
+
+## Lot 95 — 20 fiches supplémentaires, 3 novembre 2026
+
+20 fiches non suivies et absentes des lots 90–94 et de la préparation des lots antérieurs ; registre à 120 identifiants distincts. Aucun tarif 2027 confirmé ou prix modifié. Suivi des validations tarifaires et règles de nuitée/services. Compteurs 215 / 187 / 28 maintenus. Aucun camping ajouté ni contact envoyé. [Rapport](AUDIT-44-2027-LOT95.md).
