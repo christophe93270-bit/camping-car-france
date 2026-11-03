@@ -470,3 +470,12 @@ La FAQ exige le paiement intégral pour réserver un emplacement nu pour moins d
 La brochure officielle 2027 donne les fourchettes par nuit : standard 27–88 €, vue mer sans sanitaire privé 30–120 €, vue mer avec sanitaires privés en 2e ligne 39–125 €, aperçu mer avec sanitaires privés en 3e ligne 47–153 €. Les deux dernières fourchettes étaient inversées dans le suivi ; l’ordre est corrigé d’après les intitulés de la brochure. Le forfait d’emplacement comprend 1–2 personnes, un véhicule et l’électricité ; la taxe 2027 de 0,66 €/adulte/nuit est en supplément. En juillet-août, le contrat fixe sept nuits minimum du dimanche au dimanche.
 
 Les 35 € de frais de dossier cités au contrat sont associés au paiement par chèques-vacances, et non établis comme un frais général. Le contrat fixe à 45 € l’option de choix d’un emplacement précis, tandis que la FAQ affiche 35 € : écart à vérifier au panier. L’assurance annulation est facultative, 4 % du séjour avec minimum de 25 €. Le prix exact par date et le minimum de séjour hors juillet-août restent à relever. Aucun camping ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 120](AUDIT-44-2027-LOT120.md).
+
+## Lot 121 — La Boutinardière : 210 € pour un séjour de sept nuits, détails à vérifier, 3 novembre 2026
+
+Le moteur officiel affiche **à partir de 210 €** pour un séjour de sept nuits sur un « Emplacement camping », du **16 au 23 avril** ou du **23 au 30 avril 2027**. Les recherches du 2 au 9 et du 9 au 16 avril sont affichées indisponibles. Ce montant est un **total de séjour**, pas un prix par nuit. La page tarifaire statique est toujours intitulée **Tarifs général 2026**.
+
+La fiche officielle des emplacements décrit des forfaits de **1 à 3 personnes**, des suppléments par âge et des raccordements électriques 10 A et eau/évacuation en option. Le filtre du moteur « 2 et + » ne suffit pas à prouver que deux personnes sont incluses dans les 210 €. La taxe 2027, les frais, les options retenues et le total final ne sont pas détaillés. Le tarif CampingFrance de 65 €/nuit plus 9 €/nuit d’électricité reste secondaire et ne remplace pas l’offre officielle d’avril. Le statut reste **partiel** jusqu’à vérification du détail du panier et d’un prix comparable en haute saison.
+
+Aucun camping ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 121](AUDIT-44-2027-LOT121.md).
+
