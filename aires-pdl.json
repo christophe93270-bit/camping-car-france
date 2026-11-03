@@ -10405,13 +10405,35 @@
     "seasonalDates2026": "03/04/2026–04/10/2026",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-01",
-      "status": "booking_only",
-      "label": "Annonce 2027 pour les locatifs ; calendrier et tarifs des emplacements à confirmer.",
-      "note": "Le site annonce des mobil-homes climatisés dès le 2 avril 2027 : cette annonce ne confirme pas à elle seule l'ouverture des emplacements. Le prix ACSI à 19 € présent sur la page emplacements n'est pas millésimé 2027, et le titre tarifaire « à partir de 20,50 € » ne constitue pas un devis daté. Vérifier périodes ACSI 2027, forfait camping-car pour deux personnes, électricité, taxe et frais. Ne pas appliquer aux emplacements la caution ou les frais de ménage réservés aux locations.",
-      "source": "https://www.camping-duvieuxchateau.com/camping-pas-cher-loire-atlantique/",
-      "conditionsSource": "https://www.camping-duvieuxchateau.com/emplacements/"
-    }
+      "checkedAt": "2026-11-03",
+      "status": "partial",
+      "label": "PiNCAMP/ADAC donne des prix comparatifs de départ pour un couple : 20,50 €/nuit en basse saison et 37 €/nuit en haute saison ; électricité incluse, taxe exclue. Grille officielle 2027 à confirmer.",
+      "note": "Aucune grille de tarifs 2027 datée de l’exploitant n’a été trouvée. PiNCAMP/ADAC publie un tarif comparatif 2027 de départ, catégorie standard, pour une nuitée : couple 20,50 € en basse saison et 37 € en haute saison. Il ne s’agit pas d’un devis pour des dates précises. Cette source secondaire indique l’électricité, le Wi-Fi, les douches et la redevance déchets inclus, taxe de séjour exclue ; chien à partir de 2,50 €. La page officielle des emplacements publie séparément une offre CampingCard ACSI à 19 €/nuit pour 2 personnes, électricité 10 A et un animal, avec carte requise, mais sans millésime explicite des périodes. Ne pas la présenter comme prix public ordinaire ni comme offre 2027. Destination Pornic publie pour 2026 20–36 €/nuit pour 2 personnes et une voiture, taxe 0,66 €/adulte/nuit ; ne pas fusionner avec les comparatifs ADAC 2027. Le calendrier PiNCAMP/Cirkwi secondaire indique 02/04–03/10/2027, à confirmer par l’exploitant pour les emplacements.",
+      "source": "https://www.camping-duvieuxchateau.com/emplacements/",
+      "secondarySource": "https://www.pincamp.fr/campings/camping-du-vieux-chateau-saint-michel-chef-chef",
+      "secondarySourceType": "secondary",
+      "secondaryRate2027": {
+        "unit": "night",
+        "category": "comparison_standard",
+        "coupleLowEUR": 20.5,
+        "coupleHighEUR": 37,
+        "familyLowEUR": 26.5,
+        "familyHighEUR": 44,
+        "electricityIncluded": true,
+        "touristTaxIncluded": false,
+        "wifiIncluded": true,
+        "showerFeeIncluded": true,
+        "wasteFeeIncluded": true,
+        "dogFromEUR": 2.5,
+        "source": "https://www.pincamp.fr/campings/camping-du-vieux-chateau-saint-michel-chef-chef"
+      },
+      "secondaryOpeningDates2027": "02/04/2027–03/10/2027",
+      "secondaryOpeningSource": "https://www.cirkwi.com/en/point-interet/587967-camping-du-vieux-chateau",
+      "touristTaxConfirmed": false
+    },
+    "priceEvidenceNote": "Destination Pornic publie le tarif historique 2026 pour la période 03/04–04/10 : forfait emplacement, 2 personnes et 1 voiture, 20–36 €/nuit selon période ; taxe de séjour de 0,66 €/nuit/adulte de plus de 18 ans en supplément. La source ne confirme pas si l’électricité est comprise dans ce forfait. La page officielle des emplacements décrit un branchement 10 A et une offre conditionnelle ACSI à 19 €/nuit pour deux personnes avec électricité 10 A et un animal, uniquement avec carte ANWB ou ACSI ; ces périodes ne sont pas datées sur la page et ne sont donc pas classées en 2027.",
+    "priceVerification": "tarif_2026_destination_pornic_avec_offre_acsi_non_millesimee_distincte",
+    "priceEvidenceCheckedAt": "2026-11-03"
   },
   {
     "department": "44",

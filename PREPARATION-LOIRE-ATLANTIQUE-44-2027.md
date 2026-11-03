@@ -487,3 +487,11 @@ La taxe de séjour présente une autre incohérence : la page tarifaire exploita
 
 Ne pas reporter les 25/40 € comme prix 2027. Vérifications nécessaires : grille officielle datée, dates d’ouverture 2027, écart 25/28 €, taxe applicable et inclusion de l’électricité. Aucun camping ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 122](AUDIT-44-2027-LOT122.md).
 
+## Lot 123 — Vieux Château : comparatifs 2027 secondaires, ACSI à séparer, 3 novembre 2026
+
+PiNCAMP/ADAC affiche pour 2027 des prix comparatifs de départ en catégorie standard : **20,50 €/nuit pour un couple en basse saison** et **37 €/nuit en haute saison**. L’électricité, le Wi-Fi, les douches et la redevance déchets sont indiqués inclus ; la taxe de séjour est exclue et le chien est facturé à partir de 2,50 €. Ces valeurs ne sont pas un devis pour une date choisie ni une grille de l’exploitant ; elles restent secondaires.
+
+Le site du camping présente une offre CampingCard ACSI à **19 €/nuit pour deux personnes**, avec électricité 10 A et un animal, uniquement avec une carte ANWB ou ACSI. Les fenêtres d’application de la page ne portent pas de millésime explicite : ne pas les appliquer à 2027 ni en faire le tarif ordinaire. La grille officielle Destination Pornic reste une référence 2026 : **20–36 €/nuit pour deux personnes et une voiture**, du 3 avril au 4 octobre, avec taxe de 0,66 €/adulte/nuit en supplément. L’électricité de ce forfait ordinaire n’est pas établie.
+
+Statut 2027 partiel : le comparatif ADAC est documenté, mais une grille ou un panier opérateur par date reste nécessaire. Les dates 2 avril–3 octobre 2027 apparaissent sur des sources secondaires et restent à confirmer par le camping. Aucun camping ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 123](AUDIT-44-2027-LOT123.md).
+
