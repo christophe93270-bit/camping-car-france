@@ -332,3 +332,8 @@ Trois fiches auditées, un tarif historique 2026 précisé ; aucun nouveau tarif
 ## Lot 97 — 20 fiches inédites, 3 novembre 2026
 
 20 fiches du périmètre filtré. Six fiches non saisonnières restent à passer. Aucun tarif 2027 complet confirmé ni prix modifié. Registre à 160 identifiants distincts depuis le lot 90. Compteurs 215 / 187 / 28 maintenus. [Rapport](AUDIT-44-2027-LOT97.md).
+
+
+## Lot 98 — reliquat de six fiches, 3 novembre 2026
+
+Six fiches restantes du groupe inédit contrôlées. Pages primaires consultées : mairie de La Chapelle-sur-Erdre et opérateurs de l’Hermitage des Dunes, Mon Calme, Bleuets, Eden et Bugeau. Aucune grille complète 2027 trouvée ; prix historiques inchangés. Clarifications : grille Bleuets générale ≠ forfait camping-car ; ACSI 2026 reste conditionnelle ; taxe et électricité Eden séparées. Registre : 166 identifiants distincts depuis le lot 90. Compteurs 215 / 187 / 28. Aucun ajout ni contact envoyé. [Rapport](AUDIT-44-2027-LOT98.md).
