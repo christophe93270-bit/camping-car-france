@@ -302,3 +302,8 @@ Trois fiches auditées, un tarif historique 2026 précisé ; aucun nouveau tarif
 ## Lot 91 — 20 autres fiches, contrôle du 2 novembre, publication du 3 novembre 2026
 
 20 fiches examinées sans doublon avec le lot 90 ; 40 identifiants suivis. Aucun nouveau tarif 2027 complet confirmé ; 20 confirmations externes nécessaires. La Prée : repère CampingFrance 32 €/jour, explicitement secondaire et partiel. Bel Air : promotion 2027, portée camping-car à confirmer. Golf : correction historique de la grille 2026 et des frais, divergence office de tourisme explicitée. 3 fiches modifiées, 17 intactes. 47 fiches avec éléments ou réserves season2027, pas des prix confirmés. Compteurs 215 / 187 conservés. Aucune demande envoyée. Détail : [AUDIT-44-2027-LOT91.md](AUDIT-44-2027-LOT91.md). Suivi : [SUIVI-AUDIT-44-2027.json](SUIVI-AUDIT-44-2027.json).
+
+
+## Lot 92 — 20 fiches supplémentaires, 3 novembre 2026
+
+20 fiches existantes auditées, sans doublon des lots 90–91. Aucun tarif 2027 complet nouvellement confirmé, aucune modification de prix publiée ; 20 vérifications externes consignées. Aucune fiche ajoutée. 60 identifiants distincts suivis depuis le lot 90. Compteurs 215 / 187 inchangés. Détail : [AUDIT-44-2027-LOT92.md](AUDIT-44-2027-LOT92.md) ; registre : [SUIVI-AUDIT-44-2027.json](SUIVI-AUDIT-44-2027.json).
