@@ -7566,7 +7566,7 @@
       "Branchement électrique selon équipement de l'aire",
       "Stationnement sécurisé à accès réglementé"
     ],
-    "price": "14,25 € / 24 h du 18 octobre au 30 décembre 2026, hors taxe de séjour de 1,32 € (total indicatif 15,57 €). Forfait 5 h + services : 6 €. Les douches du camping coûtent 2 € par ticket.",
+    "price": "14,25 € / 24 h du 3 novembre au 30 décembre 2026, puis 12,93 € / 24 h du 31 décembre 2026 au 31 décembre 2027, hors taxe de séjour 1,32 € actuellement valable jusqu'au 31 décembre 2026. Forfait 5 h + services : 6 €. Les douches du camping coûtent 2 € par ticket.",
     "status": "Chemin du Port-aux-Ânes, Préfailles ; 49 places. Sanitaires saisonniers, douches sur ticket. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.13864,
@@ -7581,10 +7581,10 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-la-pointe",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-03",
       "status": "partial",
       "label": "12,93 € / 24 h hors taxe de séjour",
-      "note": "Barème couvrant 2027, affiché du 31/12/2026 au 31/12/2027. Taxe de séjour 2027 non confirmée : les 1,32 € affichés s’arrêtent au 31/12/2026. Aucun total 2027 garanti. Le prix de 14,25 € jusqu’au 30/12/2026 ne doit pas être reconduit en 2027. Douche à 2 € et forfait équipements à 15 € mentionnés sans millésime 2027 : options à revalider séparément. Le passage 5 h + services à 6 € n’a pas de période 2027 explicite. Carte d’accès et éventuels frais de réservation à vérifier séparément.",
+      "note": "Barème officiel consulté le 3 novembre 2026 : 14,25 € jusqu'au 30/12/2026, puis 12,93 €/24 h du 31/12/2026 au 31/12/2027. Taxe 1,32 € seulement affichée jusqu'au 31/12/2026 ; total 2027 à confirmer. Aire disponible à partir du 31/12/2026 selon le tarif et fermée actuellement.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-la-pointe",
       "baseAmountEUR": 12.93,
       "unit": "24h",
@@ -8681,7 +8681,7 @@
       "Sanitaires du camping accessibles",
       "Électricité sur l'aire non annoncée par le gestionnaire"
     ],
-    "price": "18 € / 24 h du 12 au 30 octobre 2026 puis 15 € / 24 h à compter du 31 octobre 2026, taxe de séjour 2026 1,32 € en plus. Forfait 5 h + services : 6 €.",
+    "price": "18 € / 24 h du 12 au 30 octobre 2026 puis 15 € / 24 h du 31 octobre au 30 décembre 2026, et 15 € / 24 h du 31 décembre 2026 au 31 décembre 2027 ; taxe de séjour 1,32 € affichée jusqu'au 31 décembre 2026. Parking 5 h + services : 6 €.",
     "status": "21 boulevard du Petit-Port, Nantes ; 11 emplacements selon l'exploitant en octobre 2026. Accès tramway. L'électricité sur l'aire n'est pas annoncée : ne pas la promettre. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.24331,
@@ -8696,16 +8696,19 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-03",
       "status": "partial",
       "label": "15,00 € / 24 h hors taxe de séjour",
-      "note": "Barème couvrant 2027, affiché du 31/12/2026 au 31/12/2027. Taxe de séjour 2027 non confirmée : les 1,32 € affichés s’arrêtent au 31/12/2026. Aucun total 2027 garanti. Le passage 5 h + services à 6 € n’a pas de période 2027 explicite. Carte d’accès et éventuels frais de réservation à vérifier séparément.",
+      "note": "Barème opérateur consulté le 3 novembre : 15 €/24 h jusqu'au 30/12/2026 et du 31/12/2026 au 31/12/2027. Taxe de séjour 1,32 € seulement affichée jusqu'au 31/12/2026. Aire fermée pour la période hivernale du 02/11/2026 au 01/04/2027 ; le prix affiché ne signifie pas disponibilité pendant la fermeture.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
       "baseAmountEUR": 15,
       "unit": "24h",
-      "validFrom": "2026-12-31",
+      "validFrom": "2026-11-03",
       "validThrough": "2027-12-31",
-      "touristTaxConfirmed": false
+      "touristTaxConfirmed": false,
+      "availability": "closed_winter",
+      "availableThrough": "2026-11-01",
+      "reopens": "2027-04-02"
     }
   },
   {
@@ -8965,7 +8968,7 @@
       "Sanitaires accessibles selon l'exploitant",
       "Près du canal de Buzay"
     ],
-    "price": "12,78 € / 24 h du 01/10/2026 au 31/12/2027, hors taxe 1,32 € en 2026 (total indicatif 14,10 €). Parking 5 h + services : 6 €.",
+    "price": "12,78 € / 24 h du 3 novembre 2026 au 31 décembre 2027, hors taxe de séjour 1,32 € affichée jusqu'au 31 décembre 2026. Parking 5 h + services : 6 €.",
     "status": "Messan, 44640 Rouans, au bord du canal de Buzay. Aire CAMPING-CAR PARK, distincte de la borne de ravitaillement de Rouans située ailleurs.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.19275,
@@ -8980,14 +8983,14 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/rouans",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-03",
       "status": "partial",
       "label": "12,78 € / 24 h hors taxe de séjour",
-      "note": "Barème affiché du 01/11/2026 au 31/12/2027. Taxe de séjour 2027 à confirmer : les 1,32 € publiés s’arrêtent au 31/12/2026. Aucun total 2027 garanti. Le forfait 5 h + services à 6 € est affiché sans période 2027 explicite. Carte d’accès et éventuels frais de réservation à vérifier séparément.",
+      "note": "Barème opérateur consulté le 3 novembre : 12,78 €/24 h du 03/11/2026 au 31/12/2027. Taxe de séjour 1,32 € affichée jusqu'au 31/12/2026 uniquement ; total 2027 non confirmé. Parking 5 h + services à 6 €.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/rouans",
       "baseAmountEUR": 12.78,
       "unit": "24h",
-      "validFrom": "2026-11-01",
+      "validFrom": "2026-11-03",
       "validThrough": "2027-12-31",
       "touristTaxConfirmed": false
     }
@@ -9074,7 +9077,7 @@
       "Emplacements ombragés ou ensoleillés",
       "À proximité des commerces de Piriac"
     ],
-    "price": "13,95 € / 24 h du 11/09/2026 au 31/12/2027, hors taxe de séjour 1,22 € en 2026 (total indicatif 15,17 €). Parking 5 h + services : 6 €.",
+    "price": "13,95 € / 24 h du 3 novembre 2026 au 31 décembre 2027, hors taxe de séjour 1,22 € affichée jusqu'au 31 décembre 2026. Parking 5 h + services : 6 €.",
     "status": "La Tranchée, Piriac-sur-Mer ; 18 places près du centre. Distincte des aires de Brambell et Lérat.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.38116,
@@ -9089,14 +9092,14 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-03",
       "status": "partial",
       "label": "13,95 € / 24 h hors taxe de séjour",
-      "note": "Barème de l’opérateur affiché du 31/10/2026 au 31/12/2027. Taxe de séjour 2027 à confirmer : les 1,22 € publiés s’arrêtent au 31/12/2026. Aucun total 2027 garanti. Le forfait 5 h + services à 6 € est affiché sans période 2027 explicite. Carte d’accès et éventuels frais de réservation à vérifier séparément.",
+      "note": "Barème opérateur consulté le 3 novembre : 13,95 €/24 h du 03/11/2026 au 31/12/2027. Taxe 1,22 € affichée jusqu'au 31/12/2026 uniquement ; total 2027 non confirmé. Parking 5 h + services à 6 €.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee",
       "baseAmountEUR": 13.95,
       "unit": "24h",
-      "validFrom": "2026-10-31",
+      "validFrom": "2026-11-03",
       "validThrough": "2027-12-31",
       "touristTaxConfirmed": false
     }

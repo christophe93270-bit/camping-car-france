@@ -342,3 +342,8 @@ Six fiches restantes du groupe inédit contrôlées. Pages primaires consultées
 ## Lot 99 — relecture de 20 fiches à éléments 2027, 3 novembre 2026
 
 20 pages de référence recontrôlées parmi des fiches non encore dans le registre. Ce sont des prix partiels d’aires, annonces d’ouverture/réservation sans prix, et réouverture non confirmée ; aucune nouvelle grille complète de nuitée n’est validée. Distinction maintenue entre les taxes futures, frais d’accès et services sans nuitée. Le dépôt ne modifie ni les prix ni les compteurs. Registre à 186 identifiants distincts depuis le lot 90. Aucun établissement ajouté/contact envoyé. [Rapport](AUDIT-44-2027-LOT99.md).
+
+
+## Lot 100 — 20 fiches et correction de quatre calendriers tarifaires, 3 novembre 2026
+
+Pages opérateur vérifiées. Quatre corrections concrètes : CAMPING-CAR PARK La Pointe (12,93 € à compter du 31/12/2026, précédent prix 14,25 € jusqu’au 30/12), Rouans (début au 03/11/2026), Piriac La Tranchée (début au 03/11/2026), et Nantes Petit-Port (fermeture d’hiver 02/11/2026–01/04/2027, ouverture tarifaire ensuite). Taxes 2027 non présumées lorsqu’elles expirent en 2026. Ranch : dates/réservations 2027 confirmées, prix à obtenir. Registre à 206 fiches suivies ; aucun établissement ajouté, compteurs 215 / 187 / 28. Détail : [AUDIT-44-2027-LOT100.md](AUDIT-44-2027-LOT100.md).
