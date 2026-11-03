@@ -408,3 +408,10 @@ Flower affiche 118 € pour deux personnes du 15 au 22 mai 2027, soit un prix de
 ## Lot 110 — le repère 32 €/jour de La Prée n'est pas confirmé pour 2027, 3 novembre 2026
 
 CampingFrance affiche 32 €/jour sous sa rubrique Tarifs 2027, avec électricité à 4,90 €, adulte supplémentaire à 7,50 €, enfant à 5,50 € et animal à 3 €. Les cinq montants correspondent exactement à la grille officielle 2026 du camping pour la tranche haute du 26 juillet au 31 août. Les autres périodes 2026 ont des prix inférieurs. Cette concordance rend plausible une reprise du barème 2026 ; elle ne confirme pas un prix 2027. La page officielle consultée reste millésimée 2026 et le document téléchargeable indique 2025. Conserver le repère comme secondaire et demander la grille 2027 datée. Aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 110](AUDIT-44-2027-LOT110.md).
+
+
+## Lot 111 — devis 2027 du Petit Bois et conflit de date de fermeture, 3 novembre 2026
+
+Le site Sunêlia affiche un exemple chiffré de **196 € ramenés à 186 €** pour un emplacement avec sanitaire privé, du 2 au 9 avril 2027 (7 nuits), après Early Booking de 5 %. La page de catégorie accepte le camping-car et précise le forfait de base pour 2 personnes, avec électricité et eau comprises. Ce prix de séjour daté ne remplace pas une grille annuelle ; taxe et éventuels frais restent à contrôler sur le récapitulatif.
+
+Contradiction officielle à conserver : l’en-tête de la page générale et la page d’accueil donnent une fermeture au 12 septembre 2027 ; la fiche de l’emplacement sanitaire privé annonce le 19 septembre, comme la période maximale de la promotion. Disponibilité au-delà du 12 septembre à faire confirmer. Aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 111](AUDIT-44-2027-LOT111.md).
