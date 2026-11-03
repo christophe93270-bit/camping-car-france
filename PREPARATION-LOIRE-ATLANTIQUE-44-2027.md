@@ -557,3 +557,20 @@ Le contrat 2026 indique **18 € de frais par réservation**, **0,66 €/nuit/ad
 
 Statut : **tarif 2027 non confirmé**. Vérifications restantes : obtenir le tarif standard 2027 par nuit, confirmer ACSI 2027 et faire préciser l’offre 7=6 (durée et dates), puis actualiser frais et taxes. Aucun contact ni ajout de lieu ; compteurs **215 / 187 / 28**. [Rapport lot 129](AUDIT-44-2027-LOT129.md).
 
+
+## Lot 130 — Pause Loire : 13,66 € est une offre sans véhicule, tarif camping-car 2027 absent, 3 novembre 2026
+
+La page officielle de tarifs est intitulée **Tarifs 2026**. La grille des emplacements ordinaires est publiée en image, mais aucun barème camping-car 2027 n’a été trouvé. Le camping accepte les camping-cars sur ses emplacements avec véhicule (100 m², branchement 5 A ou 10 A) ; le prochain contrôle doit relever le forfait exact et ses périodes pour 2027.
+
+Le prix **à partir de 13,66 €/nuit** affiché sur la page Loire à Vélo concerne l’espace rando **sans véhicule**, réservé aux cyclistes et randonneurs. Il ne doit pas être repris comme tarif ordinaire camping-car. La page des emplacements distingue explicitement les parcelles avec véhicule et celles réservées aux cyclistes/randonneurs. Les tarifs DK’Bane (à partir de 35 €/nuit) et Cottage (à partir de 55 €/nuit) sont des hébergements, pas des emplacements.
+
+Les CGV indiquent que la taxe de séjour de Nantes Métropole n’est pas incluse et est due par personne et par jour ; elles n’en donnent pas le montant 2027. L’acompte affiché concerne les réservations de mobil-home. À confirmer : prix 2027 du forfait camping-car avec nombre de personnes, branchement 5 A/10 A, dates, taxe et éventuels frais ; garder séparés l’offre cyclistes sans véhicule et les hébergements.
+
+Sources officielles :
+- https://camping-pauseloire.com/en/camping-pause-loire-english/rates/
+- https://camping-pauseloire.com/wp-content/uploads/2026/07/Tarifs-emplacements-2026.png
+- https://camping-pauseloire.com/location-mobil-home-nantes/emplacements-camping-caravaning-nantes/
+- https://camping-pauseloire.com/camping-loire-a-velo/
+- https://camping-pauseloire.com/cgv/
+
+Aucune correction du tarif historique ni ajout de lieu. Le tarif 2027 reste non confirmé. Aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 130](AUDIT-44-2027-LOT130.md).
