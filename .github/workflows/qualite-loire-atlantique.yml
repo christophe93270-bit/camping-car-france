@@ -208,8 +208,8 @@ jobs:
           lot40_ids={"CCF44-LESBRILLAS-2026","CCF44-PRIGNY-2026","CCF44-PORNIC-GOLF-2026","CCF44-PREFAILLES-PORT-MELEU-2026"}
           lot40=[x for x in visible_regional if x.get("sourceId") in lot40_ids]
           assert len(lot40)==4, "44 lot 40 : quatre nouveaux campings introuvables"
-          assert all(x.get("priceYear")==2026 and x.get("priceCheckedAt")=="2026-10-20" and x.get("priceEvidenceDocument","").startswith("https://www.pornic.com/") and x.get("contactPhone") and x.get("contactSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot40), "44 lot 40 : année, source tarifaire, GPS ou contact absent"
-          for ident,tarif in (("CCF44-LESBRILLAS-2026","19 à 29 €"),("CCF44-PRIGNY-2026","17 à 33 €"),("CCF44-PORNIC-GOLF-2026","17 à 39 €"),("CCF44-PREFAILLES-PORT-MELEU-2026","20 à 47 €")):
+          assert all(x.get("priceYear")==2026 and ((x.get("sourceId")=="CCF44-PORNIC-GOLF-2026" and x.get("priceCheckedAt")=="2026-11-02" and x.get("priceEvidenceDocument")=="https://www.campingdugolf.fr/offres/tarifs-emplacements/") or (x.get("sourceId")!="CCF44-PORNIC-GOLF-2026" and x.get("priceCheckedAt")=="2026-10-20" and x.get("priceEvidenceDocument","").startswith("https://www.pornic.com/"))) and x.get("contactPhone") and x.get("contactSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot40), "44 lot 40 : année, source tarifaire, GPS ou contact absent"
+          for ident,tarif in (("CCF44-LESBRILLAS-2026","19 à 29 €"),("CCF44-PRIGNY-2026","17 à 33 €"),("CCF44-PORNIC-GOLF-2026","19 à 38 €"),("CCF44-PREFAILLES-PORT-MELEU-2026","20 à 47 €")):
               assert tarif in next(x for x in lot40 if x["sourceId"]==ident)["price"], "44 lot 40 : prix incohérent pour "+ident
 
           # Lot 41 : cinq campings supplémentaires identifiés dans l'annuaire touristique 2026.

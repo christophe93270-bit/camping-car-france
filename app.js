@@ -25,7 +25,7 @@ function renderSeason2027(a){
   const sourced=season?.year===2027 && /^https:\/\//.test(String(season.source||""));
   if(!sourced) return '<p><strong>Préparation 2027 :</strong> tarifs à confirmer. Les informations antérieures ci-dessous ne valent pas confirmation pour 2027.</p>';
   return `<p><strong>Préparation 2027 :</strong> ${escapeHTML(season.label)}</p>
-    <p>${escapeHTML(season.note)} <a href="${escapeHTML(season.source)}" target="_blank" rel="noopener noreferrer">Source officielle 2027 ↗</a> <small>(vérifiée le ${escapeHTML(season.checkedAt)})</small></p>`;
+    <p>${escapeHTML(season.note)} <a href="${escapeHTML(season.source)}" target="_blank" rel="noopener noreferrer">${season.sourceType==="secondary"?"Source secondaire 2027":"Source officielle 2027"} ↗</a> <small>(vérifiée le ${escapeHTML(season.checkedAt)})</small></p>`;
 }
 
 function calcScore(scores){
@@ -120,7 +120,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261102-90-saison2027", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261103-91-saison2027", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];
