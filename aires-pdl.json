@@ -10259,12 +10259,12 @@
     "season2027": {
       "year": 2027,
       "checkedAt": "2026-11-03",
-      "status": "booking_only",
-      "label": "Réservations ouvertes ; référence secondaire 2027 de 65 €/nuit pour 2 adultes, tarif officiel à confirmer.",
-      "note": "Le site officiel annonce les réservations ouvertes depuis le 03/11/2026 et l’ouverture du camping le 02/04/2027. Sa page tarifaire dédiée affiche encore « TARIFS GÉNÉRAL 2026 » ; le lien officiel vers tarifs/disponibilités mène au moteur de réservation, dont le montant n’est pas lisible dans la page indexée. À titre de piste seulement, CampingFrance affiche une grille 2027 avec forfait emplacement 65 €/nuit pour 2 adultes (douches chaudes), adulte supplémentaire 8 €, enfant 7 €, électricité 9 €/nuit. Cette référence secondaire n’est pas confirmée par l’exploitant. Confirmer un devis daté selon dates, catégorie et nombre de personnes, détail de l’électricité, taxe, frais et minimum de séjour. La FAQ indique minimum 2 nuits hors saison et, en juillet-août, arrivées mercredi/vendredi/dimanche avec 7 nuits minimum selon l’emplacement.",
-      "source": "https://www.camping-boutinardiere.com/",
+      "status": "partial",
+      "label": "À partir de 210 € pour 7 nuits sur un emplacement camping (16–23 ou 23–30 avril 2027) ; inclusions et grille complète à confirmer.",
+      "note": "Contrôle direct du moteur officiel le 03/11/2026 : la sélection « Emplacement camping », mois avril 2027, durée 7 nuits et capacité 2 et + affiche « À partir de 210,00 € » pour les séjours du 16 au 23/04 et du 23 au 30/04 ; les 02–09 et 09–16/04 sont affichés indisponibles. Il s'agit d'un prix de séjour pour une catégorie et des dates précises, pas d'un prix de nuitée ni d'une grille annuelle. Le filtre « capacité 2 et + » n'établit pas à lui seul que deux personnes sont incluses. Faire confirmer occupants compris, raccordement électrique, taxe, frais et conditions. La référence CampingFrance de 65 €/nuit + 9 €/nuit d'électricité reste secondaire, sans dates équivalentes vérifiées ; ne pas la substituer à ce séjour d'avril ni en déduire un prix officiel haute saison.",
+      "source": "https://www.camping-boutinardiere.com/tarif-general.html",
       "bookingOpens": "2026-11-03",
-      "validFrom": "2027-04-02",
+      "validFrom": "2027-04-16",
       "secondaryRate2027EUR": 65,
       "secondaryRateUnit": "night",
       "secondaryPersonsIncluded": 2,
@@ -10272,7 +10272,24 @@
       "secondaryAdditionalAdultEUR": 8,
       "secondaryChildEUR": 7,
       "secondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/la-boutinardiere",
-      "secondarySourceType": "secondary"
+      "secondarySourceType": "secondary",
+      "quoteAmountEUR": 210,
+      "quoteUnit": "stay",
+      "quoteNights": 7,
+      "quotePeriods": [
+        {
+          "from": "2027-04-16",
+          "through": "2027-04-23",
+          "availability": "available"
+        },
+        {
+          "from": "2027-04-23",
+          "through": "2027-04-30",
+          "availability": "available"
+        }
+      ],
+      "validThrough": "2027-04-30",
+      "touristTaxConfirmed": false
     }
   },
   {
