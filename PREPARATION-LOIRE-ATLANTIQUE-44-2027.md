@@ -327,3 +327,8 @@ Trois fiches auditées, un tarif historique 2026 précisé ; aucun nouveau tarif
 ## Lot 96 — 20 fiches supplémentaires, 3 novembre 2026
 
 20 fiches consignées ; 140 identifiants distincts dans le suivi démarré au lot 90. Aucun tarif complet 2027 confirmé ni modifié. Vérifications de l’autorisation de nuitée et de la distinction services/stationnement conservées au registre. Aucun camping ajouté ; compteurs 215 / 187 / 28 maintenus. [Rapport](AUDIT-44-2027-LOT96.md).
+
+
+## Lot 97 — 20 fiches inédites, 3 novembre 2026
+
+20 fiches du périmètre filtré. Six fiches non saisonnières restent à passer. Aucun tarif 2027 complet confirmé ni prix modifié. Registre à 160 identifiants distincts depuis le lot 90. Compteurs 215 / 187 / 28 maintenus. [Rapport](AUDIT-44-2027-LOT97.md).
