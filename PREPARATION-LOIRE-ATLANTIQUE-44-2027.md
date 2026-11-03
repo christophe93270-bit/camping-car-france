@@ -479,3 +479,11 @@ La fiche officielle des emplacements décrit des forfaits de **1 à 3 personnes*
 
 Aucun camping ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 121](AUDIT-44-2027-LOT121.md).
 
+## Lot 122 — Domaine du Collet : 2027 non publié, désaccord de prix et de taxe en 2026, 3 novembre 2026
+
+Aucune grille officielle 2027 n’est publiée sur les pages consultées : le site exploitant présente encore une saison 2026. Les tarifs historiques affichés par l’exploitant sont **25 €/nuit en basse saison** (1er avril–3 juillet et 30 août–31 octobre) et **40 €/nuit en haute saison** (4 juillet–29 août, forfait à la semaine), pour **deux personnes et un véhicule**. Destination Pornic attribue au libellé comparable « 2 personnes + 1 voiture » une fourchette **28–40 €/nuit** sur toute la période du 1er avril au 31 octobre. Le prix minimum diffère donc de 3 €, tandis que le maximum concorde.
+
+La taxe de séjour présente une autre incohérence : la page tarifaire exploitant affiche **0,66 €/nuit/personne**, Destination Pornic **0,66 €/nuit/adulte de plus de 18 ans**, et les CGV actuellement en ligne, sans millésime visible, **0,60 €/nuit/adulte de plus de 18 ans**. L’éco-participation de **0,35 €/personne/jour** et les frais de réservation de **25 €** restent séparés. Les pages décrivent des raccordements, mais l’inclusion de l’électricité dans le forfait publié n’est pas établie. Une fiche UKCampsite mentionne des dates 2027 au 1er avril–30 septembre ; cette source secondaire ne confirme ni le calendrier de l’exploitant ni ses tarifs.
+
+Ne pas reporter les 25/40 € comme prix 2027. Vérifications nécessaires : grille officielle datée, dates d’ouverture 2027, écart 25/28 €, taxe applicable et inclusion de l’électricité. Aucun camping ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 122](AUDIT-44-2027-LOT122.md).
+
