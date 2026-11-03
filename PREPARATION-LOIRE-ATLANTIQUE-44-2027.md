@@ -425,3 +425,10 @@ Les deux établissements annoncent désormais leur saison 2027, mais aucune gril
 ## Lot 113 — La Boutinardière : prix officiel pour un séjour de 7 nuits, 3 novembre 2026
 
 Le moteur officiel « Tarifs Général 2027 » affiche **à partir de 210 €** pour un emplacement camping et un séjour de 7 nuits, avec deux créneaux affichés disponibles : du 16 au 23 avril et du 23 au 30 avril 2027. Les créneaux du 2 au 9 et du 9 au 16 avril sont indisponibles au contrôle. Le filtre de capacité « 2 et + » ne prouve pas que deux personnes sont incluses. Le montant est une réservation datée, non un prix de nuitée ni une grille annuelle ; les inclusions d’électricité, la taxe et les frais restent à vérifier. La référence secondaire de 65 €/nuit + 9 €/nuit d'électricité est conservée comme non confirmée, sans dates comparables vérifiées. Aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 113](AUDIT-44-2027-LOT113.md).
+
+
+## Lot 114 — Slow Village Pornic : prix 2027 non affiché, 3 novembre 2026
+
+Le bandeau officiel annonce l’ouverture des réservations estivales 2027. Le formulaire, testé pour deux adultes du 23 au 30 avril puis du 9 au 16 juillet 2027, affiche « Indisponibles » dans les deux cas et ne donne aucun montant. La page confirme des emplacements de 100 m², Wi-Fi, électricité jusqu’à 10 A et sanitaires communs inclus ; l’animal est en option. Les dates d’ouverture restent celles de 2026 dans la FAQ et le pied de page.
+
+Le tarif régional à partir de 24 €/nuit (1 emplacement, 2 personnes, 1 voiture), la taxe à 0,66 €/adulte/nuit et l’animal à 8 €/jour couvrent la période du 3 avril au 31 octobre 2026 : ils restent une référence historique et ne doivent pas être affichés comme prix 2027. Le statut 2027 reste `booking_only`. Aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 114](AUDIT-44-2027-LOT114.md).
