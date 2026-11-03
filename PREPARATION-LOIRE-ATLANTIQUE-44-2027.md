@@ -515,3 +515,13 @@ Un extrait indexé de Pitchup présente **23,02 €/nuit pour deux adultes** et 
 
 Statut : **information 2027 sans prix comparable**. Vérifications restantes : obtenir un devis officiel par dates pour les forfaits A et B, la remise appliquée, l’électricité, les taxes, les frais et la durée minimale. Aucun lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 125](AUDIT-44-2027-LOT125.md).
 
+## Lot 126 — Étang du Pays Blanc : 55 € secondaire 2027, prix opérateur non établi, 3 novembre 2026
+
+L’exploitant annonce l’ouverture du **17 avril au 26 septembre 2027**. Son forfait Standard comprend deux personnes, un emplacement pour tente/caravane/camping-car, un véhicule et l’électricité **10 A** ; le Wi-Fi est compris pour un appareil. Aucun tarif fixe ou panier daté exploitable n’a été relevé sur les pages officielles.
+
+CampingFrance classe sous **Tarifs 2027** un forfait à **55 €/nuit** pour un emplacement tourisme ; les éléments de sa fiche mentionnent deux adultes, un véhicule, électricité et douches chaudes. Faute de dates et de détail de formule, ce montant reste un **repère secondaire 2027**, non confirmé par l’exploitant. La réduction FFCC de **23 €**, indiquée pour certaines périodes de juin et septembre, est une offre conditionnelle à distinguer du tarif public.
+
+Camping.info donne une autre référence : **26,32 €/nuit en basse saison** et **34,32 €/nuit en haute saison** pour deux adultes, véhicule, électricité et taxes locales ; aucun millésime n’est précisé. Ces montants secondaires ne concordent pas avec les 55 € de CampingFrance et ne sont pas directement comparables. CampingFrance affiche aussi des dates d’ouverture différentes de celles de l’exploitant (**16/04–27/09** contre **17/04–26/09/2027**). Garder les dates du camping comme référence officielle en attendant une confirmation.
+
+Le statut passe à **tarif partiel 2027** : prix comparatif identifié, prix opérateur restant à obtenir. Vérifications : devis officiel par dates pour deux adultes et un camping-car, inclusion de l’électricité, taxe et frais, comparaison des catégories Standard/Premium/Premium +, dates réelles et conditions FFCC. Aucun lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 126](AUDIT-44-2027-LOT126.md).
+
