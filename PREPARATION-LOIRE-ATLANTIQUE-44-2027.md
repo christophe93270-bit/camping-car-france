@@ -525,3 +525,13 @@ Camping.info donne une autre référence : **26,32 €/nuit en basse saison** et
 
 Le statut passe à **tarif partiel 2027** : prix comparatif identifié, prix opérateur restant à obtenir. Vérifications : devis officiel par dates pour deux adultes et un camping-car, inclusion de l’électricité, taxe et frais, comparaison des catégories Standard/Premium/Premium +, dates réelles et conditions FFCC. Aucun lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 126](AUDIT-44-2027-LOT126.md).
 
+## Lot 127 — La Riviera : accueil camping-car contradictoire, aucune nuitée 2027 tarifée, 3 novembre 2026
+
+Le site Aloa annonce l’ouverture de La Riviera du **3 avril au 12 septembre 2027** et décrit **239 emplacements** : 181 hébergements locatifs et 58 locatifs résidentiels. Les offres consultées ne proposent pas clairement de parcelles nues. Destination Pornic mentionne pourtant des **emplacements camping-car avec eau et électricité** ; l’accueil des camping-cars non résidents reste donc à vérifier. Aucun tarif opérateur 2027 par nuit n’a été trouvé.
+
+Le supplément de **40 €** mentionné par Aloa rémunère le choix facultatif de l’emplacement pour une réservation de locatif. Ce n’est pas une nuitée camping-car. De même, les promotions 2027 −20 %, −10 % et 2 semaines + 1 offerte portent sur des locatifs, selon périodes et durées précises ; elles ne constituent pas un tarif d’étape.
+
+La page Aloa détaille la taxe de séjour de **0,66 €/jour/adulte de plus de 18 ans** (tarif explicitement 2025) et une redevance écologique de **0,69 €/jour/personne** dans ses conditions locatives. Ne pas transférer ces montants à 2027 ou à une éventuelle nuitée camping-car.
+
+Statut corrigé en **informations contradictoires**. Vérification restante : faire confirmer l’accueil d’un camping-car non résident en 2027, puis obtenir prix par nuit et inclusions ; si les emplacements sont réservés aux locations, corriger le classement de la fiche. Aucun contact envoyé ni lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 127](AUDIT-44-2027-LOT127.md).
+
