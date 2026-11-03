@@ -1968,10 +1968,11 @@
       "nextCheck": "L'annonce officielle porte sur l'ouverture 2027 et celle des réservations, sans confirmer un prix d'emplacement. Le texte général affiche encore la saison 2026 : ne pas en déduire la fermeture 2027. Vérifier disponibilité effective, forfait camping-car, personnes incluses, électricité, taxe, suppléments, minimum de séjour et date de fermeture.",
       "source": "https://www.camping-boutinardiere.com/",
       "recheckedAt": "2026-11-03",
-      "recheckLot": 102,
-      "recheckFinding": "Contrôle du 03/11/2026 : correction de la date d'ouverture des réservations, annoncée par l'exploitant au 03/11/2026 (et non 01/11). FAQ : camping ouvert du 02/04 au 27/09/2027. Aucun tarif d'emplacement 2027 confirmé.",
-      "recheckNextCheck": "Vérifier la disponibilité après ouverture effective et obtenir le forfait camping-car 2027 complet, électricité, taxes, suppléments et minimum de séjour.",
-      "recheckSource": "https://www.camping-boutinardiere.com/"
+      "recheckLot": 108,
+      "recheckFinding": "Réservations ouvertes au 03/11. Le site officiel confirme l'ouverture le 02/04/2027 mais la page tarifaire affiche encore 2026 ; CampingFrance publie une référence tarifaire 2027 secondaire de 65 €/nuit pour deux adultes, électricité 9 €/nuit en supplément. Tarif officiel non confirmé.",
+      "recheckNextCheck": "Obtenir un devis depuis le moteur officiel pour les dates/catégorie choisies ; confirmer le forfait 65 €, électricité, taxe, frais, personnes et minimum de séjour avant validation.",
+      "recheckSource": "https://www.camping-boutinardiere.com/",
+      "secondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/la-boutinardiere"
     },
     {
       "sourceId": "CCF44-THARON-VIEUX-CHATEAU-2026",
@@ -2061,7 +2062,12 @@
       "status": "tarif_partiel_2027",
       "finding": "Grille camping-car 2027 : 22 à 43 € par nuit pour 1 à 2 personnes, électricité incluse.",
       "nextCheck": "Emplacement camping-car de 35 m² : 22 € du 02/04 au 02/07 et du 28/08 au 26/09 ; 31 € du 03/07 au 30/07 et du 21/08 au 27/08 ; 43 € du 31/07 au 20/08. Le forfait 80 m² (27 à 53 €) est distinct. Taxe 2027 publiée : 0,66 €/personne majeure/nuit. La FAQ annonce la taxe incluse dans le prix de réservation : vérifier le détail du devis pour éviter un double ajout. Frais de dossier, minimum de séjour et conditions 2027 à confirmer ; contrat téléchargeable encore daté 2026.",
-      "source": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/que-les-tarifs-2027.pdf"
+      "source": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/que-les-tarifs-2027.pdf",
+      "recheckedAt": "2026-11-03",
+      "recheckLot": 108,
+      "recheckFinding": "La FAQ officielle indique que le prix communiqué lors de la réservation comprend la taxe de séjour. L'inclusion est confirmée pour le devis final ; ne pas ajouter une seconde fois les 0,66 €/adulte/nuit.",
+      "recheckNextCheck": "Confirmer les frais de dossier et le minimum de séjour 2027 ainsi que la composition d'un devis pour une date précise.",
+      "recheckSource": "https://www.camping-soirdete.com/faq/"
     },
     {
       "sourceId": "CCF44-ST-MICHEL-RIVIERA-2026",

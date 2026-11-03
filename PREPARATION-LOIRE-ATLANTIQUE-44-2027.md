@@ -389,3 +389,12 @@ Le site ne publie pas de grille web. La page emplacement indique 10 A, eau/évac
 Contrôle croisé de trois tarifs officiels en Loire-Atlantique. Les montants de base (Guérande 13,50 €, Piriac-Lérat 13,74 €, La Baule 14,50 € par 24 h) concordent avec les prix de l'opérateur ; la taxe de séjour reste distincte et les taxes affichées s'arrêtent en 2026. Corrections appliquées aux périodes : Guérande, 03/11/2026–31/12/2027 (une variante officielle affiche 01/11) ; Piriac-Lérat, 30/10/2026–31/12/2027 ; La Baule, 02/11/2026–31/12/2027 (une page antérieure indiquait 15/10). Les divergences de date sont conservées comme points de vérification, sans inventer un total 2027.
 
 Vérifications externes restantes : confirmer avec CAMPING-CAR PARK la date réelle de prise d'effet à Guérande et à La Baule, le tarif pendant la période de transition à La Baule, ainsi que les taxes de séjour et les éventuels frais/carte pour 2027. Aucun prix de base modifié, aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 107](AUDIT-44-2027-LOT107.md).
+
+
+## Lot 108 — réouverture des réservations et inclusion de la taxe, 3 novembre 2026
+
+**La Boutinardière (Pornic).** Les réservations ouvrent le 03/11/2026 pour une saison à partir du 02/04/2027. La grille officielle consultable porte encore le titre « Tarifs général 2026 ». CampingFrance affiche une référence 2027 de 65 €/nuit pour deux adultes, avec électricité à 9 €/nuit et personnes supplémentaires séparées ; elle reste secondaire, non validée par l’exploitant. Confirmer un devis camping-car via le moteur officiel, dates, catégorie, électricité, taxe, frais et minimum de séjour.
+
+**Au Soir d’Été (Mesquer).** La FAQ officielle confirme que le prix communiqué lors de la réservation comprend la taxe de séjour. La grille 2027 de l’emplacement camping-car reste à 22–43 €/nuit selon période, avec la taxe de 0,66 €/adulte/nuit à ne pas ajouter une seconde fois au devis final. Frais de dossier et minimum de séjour restent à contrôler.
+
+Aucun camping ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 108](AUDIT-44-2027-LOT108.md).
