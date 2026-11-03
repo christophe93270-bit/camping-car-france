@@ -452,3 +452,9 @@ La page principale annonce l’ouverture du camping du 2 avril au 12 septembre 2
 Le site officiel annonce l’ouverture des réservations le 4 novembre 2026 et une saison du 9 avril au 19 septembre 2027. La page tarifs renvoie à un moteur calculant les prix en temps réel, sans tarif 2027 lisible dans la page. Au contrôle du 3 novembre, veille de la date annoncée, aucun devis d’emplacement n’est disponible. Le statut reste `booking_only` et le prix de base n’est pas confirmé.
 
 Le tarif de 25 € de la CampingCard ACSI est limité à la carte et aux périodes annoncées pour 2026 ; il ne peut être reconduit comme prix public ou prix 2027. Les taxes, frais de réservation et choix d’emplacement du contrat 2026 restent historiques. Recontrôle dès le 4 novembre : devis 2027 daté pour Standard et Premium, 2 adultes et camping-car, puis détail électricité, taxe, frais et éventuelles réductions ACSI 2027. Aucun camping ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 117](AUDIT-44-2027-LOT117.md).
+
+## Lot 118 — Les Paludiers : séjour 2027 à partir de 118 €, formule exacte à confirmer, 3 novembre 2026
+
+Flower affiche **118 € à partir** pour un emplacement et deux personnes du **15 au 22 mai 2027**. C’est le prix total d’un séjour de sept nuits, pas un prix à la nuit ni une grille annuelle. L’exploitant propose un Forfait Confort compatible avec un camping-car, deux personnes, un véhicule et l’électricité 10 A. Le prix de départ Flower n’est toutefois pas relié explicitement à cette catégorie dans la page consultée.
+
+Le statut reste `partial` : ne pas afficher 118 € comme tarif complet garanti du Forfait Confort tant que le panier n’en confirme pas le détail. Vérifier la catégorie, la taxe, les frais et le montant final. Les 19–37 €/nuit relèvent de la grille institutionnelle 2026 et ne doivent pas être réutilisés pour 2027. Aucun camping ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 118](AUDIT-44-2027-LOT118.md).

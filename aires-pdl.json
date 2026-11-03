@@ -11995,8 +11995,8 @@
       "year": 2027,
       "checkedAt": "2026-11-03",
       "status": "partial",
-      "label": "Offre emplacement à partir de 118 € pour 2 personnes, du 15 au 22 mai 2027 ; forfait camping-car détaillé à confirmer.",
-      "note": "Flower affiche un prix de départ de 118 € pour 2 personnes sur le séjour de 7 nuits du 15 au 22/05/2027 ; c’est une offre datée, pas un prix par nuit ni une grille annuelle. Le moteur de réservation officiel des Paludiers propose bien un « Forfait Confort » pour 2 personnes, 1 tente/caravane/camping-car, 1 véhicule et électricité 10 A ; le site annonce l’ouverture 2027 du 26/03 au 01/11. Toutefois, la page Flower ne précise pas si le prix de départ de 118 € correspond exactement à cette formule confort, ni le traitement de la taxe et des frais. Conserver 118 € comme prix de séjour affiché et vérifier le récapitulatif de réservation avant d’en déduire un forfait camping-car complet. Ne pas mélanger avec la fourchette de nuitée 2026.",
+      "label": "118 € à partir pour 7 nuits (15–22 mai 2027) ; catégorie camping-car et prix final non confirmés.",
+      "note": "Contrôle lot 118, 03/11/2026 : la page officielle Flower affiche « Emplacement, 2 pers à partir de 118 € » du 15 au 22/05/2027. Il s’agit d’un total de séjour de 7 nuits et d’un prix de départ, pas d’un tarif par nuit ni d’une grille annuelle. La page de réservation du camping décrit le Forfait Confort compatible camping-car, pour 2 personnes, 1 véhicule et électricité 10 A ; toutefois, ni la page Flower ni le moteur consulté ne rattachent explicitement le montant de 118 € à cette catégorie. Ne pas marquer le prix du Forfait Confort confirmé sans le récapitulatif détaillé. Le camping annonce la saison du 26/03 au 01/11/2027. Taxe de séjour, frais et éventuels suppléments non vérifiés. La fourchette 19–37 €/nuit reste un tarif 2026 uniquement.",
       "source": "https://www.flowercampings.com/camping-loire-atlantique",
       "offerAmountEUR": 118,
       "offerNights": 7,
@@ -12004,9 +12004,11 @@
       "offerFrom": "2027-05-15",
       "offerThrough": "2027-05-22",
       "offerIsStartingPrice": true,
-      "offerCategoryReference": "Forfait Confort (2 pers., 1 tente/caravane/camping-car, 1 véhicule, électricité 10 A)",
+      "offerCategoryReference": "Forfait Confort : 2 personnes, un emplacement pour camping-car, 1 véhicule, électricité 10 A",
       "offerCategoryReferenceSource": "https://www.camping-paludiers.com/votre-recherche-de-sejour/",
-      "offerCategoryPriceMatchConfirmed": false
+      "offerCategoryPriceMatchConfirmed": false,
+      "offerPriceType": "stay_total_starting_price",
+      "offerCategoryPriceMatchCheck": "Aucun lien explicite entre le montant d'appel 118 € et le Forfait Confort trouvé dans le moteur/page Flower"
     }
   },
   {
