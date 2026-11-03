@@ -11522,10 +11522,11 @@
       "year": 2027,
       "checkedAt": "2026-11-03",
       "status": "partial",
-      "label": "Grille camping-car 2027 : 22 à 43 € par nuit pour 1 à 2 personnes, électricité incluse.",
-      "note": "Emplacement camping-car de 35 m² : 22 € du 02/04 au 02/07 et du 28/08 au 26/09 ; 31 € du 03/07 au 30/07 et du 21/08 au 27/08 ; 43 € du 31/07 au 20/08. Le forfait 80 m² (27 à 53 €) est distinct. Taxe 2027 publiée : 0,66 €/personne majeure/nuit. La FAQ officielle confirme que le prix communiqué pour la réservation inclut la taxe de séjour : ne pas la rajouter au devis final. Animaux en supplément (5 €/nuit selon FAQ). Frais de dossier et minimum de séjour à confirmer ; contrat téléchargeable encore daté 2026.",
-      "source": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/que-les-tarifs-2027.pdf",
+      "label": "Grille officielle 2027 : 22 à 43 €/nuit pour le forfait camping-car 35 m², 1 à 2 personnes.",
+      "note": "Grille officielle 2027 : forfait camping-car dédié 35 m², 1 à 2 personnes, à 22 €/nuit du 02/04 au 02/07 et du 28/08 au 26/09 ; 31 € du 03/07 au 30/07 et du 21/08 au 27/08 ; 43 € du 31/07 au 20/08. La grille 80 m² (27 à 53 €/nuit) est distincte. Pour les emplacements, la grille inclut électricité, accès sanitaires et un véhicule. Taxe de séjour et départementale 2027 : 0,66 €/nuit/personne majeure ; la FAQ dit que le tarif communiqué lors de la réservation inclut les taxes, ne pas l'ajouter une seconde fois au devis. Animaux : 5 €/nuit ; véhicule supplémentaire : 6 € ; personne supplémentaire : 7 à 9 €/nuit selon période. Le contrat propose une garantie annulation facultative à 3 €/nuit. La FAQ prévoit un paiement de 100 % à la réservation pour un emplacement nu réservé moins de 3 nuits : cette règle de paiement ne prouve pas une durée minimale. Aucun frais de dossier ni minimum de séjour n'est indiqué dans les documents 2027 consultés ; le montant final et toute règle de durée du moteur de réservation restent à contrôler.",
+      "source": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/tarifs-2027-telephone.pdf",
       "conditionsSource": "https://www.camping-soirdete.com/faq/",
+      "contractSource": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/tarifs-2027-telephone.pdf",
       "unit": "night",
       "personsIncluded": "1–2",
       "electricityIncluded": true,
@@ -11533,6 +11534,7 @@
       "touristTaxEUR": 0.66,
       "touristTaxUnit": "person_adult_night",
       "touristTaxInclusionConfirmed": true,
+      "touristTaxIncluded": true,
       "rates": [
         {
           "validFrom": "2027-04-02",
@@ -11559,8 +11561,7 @@
           "validThrough": "2027-09-26",
           "amountEUR": 22
         }
-      ],
-      "touristTaxIncluded": true
+      ]
     }
   },
   {
