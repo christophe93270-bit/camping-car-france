@@ -503,3 +503,15 @@ Pitchup présente une page dont le titre annonce des « tarifs 2027 », mais l�
 
 Aucun tarif public opérateur daté 2027 n’a été trouvé. Garder **2026** comme année de la fourchette officielle et ne pas transférer les 21,42 €, les taxes ni les conditions de réservation à 2027. À vérifier : devis ou grille opérateur 2027 à dates fixes, inclusion de l’électricité, taxe 2027 et éventuelle taxe écologique, frais, minimum de séjour, et tarif de vidange pour les non-résidents. Aucun contact envoyé et aucun lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 124](AUDIT-44-2027-LOT124.md).
 
+## Lot 125 — Les Chalands Fleuris : saison et promotion 2027 publiées, prix d’emplacement absent, 3 novembre 2026
+
+Oléla annonce une saison du **3 avril au 19 septembre 2027**. Les emplacements sont séparés en **Forfait A** (deux adultes et un véhicule, sans électricité) et **Forfait B** (deux adultes, un véhicule et électricité), jusqu’à six personnes. Aucun tarif chiffré pour ces forfaits n’est affiché dans la page consultée.
+
+La note précédente réservait l’offre Early Booking jusqu’à **−25 %** aux seuls locatifs. Le parcours officiel 2027 permet aussi de choisir « Emplacement » : cette restriction est donc à retirer. Le site ne confirme toutefois pas le taux appliqué à un emplacement ni le prix net du Forfait A ou B. Il annonce les frais de dossier offerts avant le **3 juillet** et à partir du **28 août 2027**, sans préciser ici leur montant habituel.
+
+La grille officielle retrouvée porte sur **2025** : forfait d’une nuit pour une à deux personnes avec véhicule à **19 / 34 / 19 €** selon la période ; électricité 16 A **+5,50 €/nuit** ; taxe **0,51 €/nuit/adulte de plus de 18 ans** ; frais de dossier **22 € en juillet et août**. Ces tarifs ne sont pas transposés à 2027. La page générale actuelle affiche une taxe de **0,52 €/jour/adulte**, mais sans année : elle ne confirme pas la taxe 2027.
+
+Un extrait indexé de Pitchup présente **23,02 €/nuit pour deux adultes** et 10 A inclus sous un titre « Tarifs 2027 ». La page consultée indique actuellement aucune disponibilité et ne fournit pas de dates tarifaires exploitables. Ne pas reprendre ce montant comme prix 2027.
+
+Statut : **information 2027 sans prix comparable**. Vérifications restantes : obtenir un devis officiel par dates pour les forfaits A et B, la remise appliquée, l’électricité, les taxes, les frais et la durée minimale. Aucun lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 125](AUDIT-44-2027-LOT125.md).
+
