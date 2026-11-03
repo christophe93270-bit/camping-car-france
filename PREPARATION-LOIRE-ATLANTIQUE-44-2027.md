@@ -367,3 +367,8 @@ La Boutinardière : corrigé le jour d'ouverture des réservations (03/11/2026, 
 ## Lot 103 — dates et promotion à ne pas assimiler à un tarif, 3 novembre 2026
 
 Camping de la Baie : saison 2027 officiellement du 09/04 au 03/10 ; page emplacements encore datée 2026, prix d'appel de 27 € non attribué à 2027. Ranch : réservations annoncées le 04/11, saison du 30/04 au 12/09, remise de long séjour affichée sur emplacements nus mais non millésimée ; applicabilité 2027 et prix de base à obtenir. Aucun prix 2027 confirmé, aucun établissement ajouté, aucun contact envoyé. Compteurs 215 / 187 / 28. [Rapport lot 103](AUDIT-44-2027-LOT103.md).
+
+
+## Lot 104 — promotion Sandaya confirmée sur Le Fief, 3 novembre 2026
+
+Correction : la page officielle Do You First 2027 confirme jusqu'à 15 % de remise avant le 31/12/2026 sur les locatifs et emplacements ; Le Fief figure explicitement dans la liste des campings concernés. Réservations des emplacements encore annoncées prochainement, donc prix de base et montant net non publiés. Après ouverture, vérifier devis par dates/catégorie, réduction applicable, taxes et frais. Aucun tarif net 2027 confirmé, aucun ajout ni contact. Compteurs 215 / 187 / 28. [Rapport lot 104](AUDIT-44-2027-LOT104.md).
