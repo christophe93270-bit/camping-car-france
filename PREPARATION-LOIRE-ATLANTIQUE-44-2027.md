@@ -307,3 +307,8 @@ Trois fiches auditées, un tarif historique 2026 précisé ; aucun nouveau tarif
 ## Lot 92 — 20 fiches supplémentaires, 3 novembre 2026
 
 20 fiches existantes auditées, sans doublon des lots 90–91. Aucun tarif 2027 complet nouvellement confirmé, aucune modification de prix publiée ; 20 vérifications externes consignées. Aucune fiche ajoutée. 60 identifiants distincts suivis depuis le lot 90. Compteurs 215 / 187 inchangés. Détail : [AUDIT-44-2027-LOT92.md](AUDIT-44-2027-LOT92.md) ; registre : [SUIVI-AUDIT-44-2027.json](SUIVI-AUDIT-44-2027.json).
+
+
+## Lot 93 — 20 fiches supplémentaires, 3 novembre 2026
+
+20 nouvelles fiches municipales, aires ou services ; 80 identifiants distincts suivis depuis le lot 90. Aucun tarif complet 2027 confirmé et aucune modification de prix. Vérifications consignées avec distinction nuitée / stationnement / services ; certains sites n’établissent pas l’accueil nocturne. Aucun camping ajouté. Compteurs 215 / 187 / 28 maintenus. Détail : [AUDIT-44-2027-LOT93.md](AUDIT-44-2027-LOT93.md).
