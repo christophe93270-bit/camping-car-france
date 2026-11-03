@@ -590,3 +590,24 @@ Sources :
 - https://www.lesprairies.net/wp-content/uploads/2023/04/CONDITIONS-GENERALES-DE-VENTE.pdf
 
 Aucun tarif 2027 confirmé, aucun lieu ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 131](AUDIT-44-2027-LOT131.md).
+
+## Lot 132 — Le Praderoi : fermeture 2026 contradictoire, grille opérateur à vérifier, 3 novembre 2026
+
+Le site de l’exploitant annonce une fermeture **à partir du 15 octobre 2026**. Les fiches touristiques régionales et La Baule-Guérande maintiennent la date du **31 octobre 2026**. Pour le calendrier 2026, conserver l’avis récent de l’exploitant et annoter l’écart ; les sources régionales ne suffisent pas à prolonger la saison. Aucune ouverture 2027 confirmée n’a été trouvée.
+
+Le site opérateur fournit un lien « Télécharger nos tarifs » vers un PDF de tarifs. Au contrôle, son contenu n’a pas livré de date ni de montant d’emplacement lisible permettant de confirmer 2027. La page officielle confirme l’accueil des camping-cars sur des emplacements avec électricité, sans tarif exploitable dans le texte.
+
+Deux repères secondaires sont à garder séparés : Campercontact affiche 20,20 €/nuit du 1er avril au 30 juin et du 1er au 30 septembre, puis 26,70 €/nuit du 1er juillet au 31 août, sur une base de deux personnes et taxes incluses, mais sans millésime précisé. Camping.info affiche 22,62 €/nuit sans année ni composition claires. Aucun de ces montants ne confirme un prix opérateur 2027.
+
+Vérifications restantes : obtenir les dates opérateur 2027 et un barème 2027 daté ; préciser pour deux adultes/camping-car l’électricité, la taxe, les frais, suppléments et durée minimale. Faire confirmer le millésime et les inclusions des repères tiers. Ne pas utiliser automatiquement le 31 octobre comme fin de saison 2026 ni prolonger les prix secondaires en 2027.
+
+Sources :
+- https://camping-praderoi.com/
+- https://camping-praderoi.com/emplacement-camping-mesquer
+- https://api.evolusite.fr/file/download/tarifs-camping-le-praderoi-veqev.pdf
+- https://www.enpaysdelaloire.com/hebergements/campings/camping-le-praderoi
+- https://www.labaule-guerande.com/offres/camping-le-praderoi-mesquer-fr-6011372/
+- https://www.campercontact.com/fr/france/pays-de-la-loire/mesquer/115286/camping-le-praderoi
+- https://www.camping.info/fr/emplacement-de-camping/camping-le-praderoi
+
+Aucun tarif opérateur 2027 confirmé, aucun lieu ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 132](AUDIT-44-2027-LOT132.md).
