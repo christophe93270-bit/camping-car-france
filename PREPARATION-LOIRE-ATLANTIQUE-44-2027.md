@@ -377,3 +377,8 @@ Correction : la page officielle Do You First 2027 confirme jusqu'à 15 % de remi
 ## Lot 105 — dates exactes du Domaine de Léveno, 3 novembre 2026
 
 L'exploitant annonce les réservations dès le 04/11/2026 et la saison du 09/04 au 19/09/2027. Le site utilise un moteur de tarifs en temps réel, sans montant 2027 lisible avant ouverture. Maintenir les 25 € comme offre CampingCard ACSI 2026 conditionnelle, ne pas les présenter comme prix public ou tarif 2027. Le 04/11, vérifier un devis Standard/Premium daté, personnes, eau/électricité, taxe, frais et remise ACSI. Aucun tarif 2027 confirmé ni fiche ajoutée. Compteurs 215 / 187 / 28. [Rapport lot 105](AUDIT-44-2027-LOT105.md).
+
+
+## Lot 106 — grille de La Roseraie à demander, 3 novembre 2026
+
+Le site ne publie pas de grille web. La page emplacement indique 10 A, eau/évacuation en supplément selon parcelle, 7 nuits minimum en juillet-août et frais de dossier de 30 € (60 € si dossier de subvention), mais sans confirmation explicite pour 2027. Demande détaillée préparée pour camping@laroseraie.com : forfait camping-car + 2 adultes, électricité, personnes/animaux, taxe, écoparticipation, eau/évacuation, frais et minimum de séjour. **Brouillon uniquement, non envoyé.** Prix 2027 toujours à obtenir. Compteurs 215 / 187 / 28. [Rapport lot 106](AUDIT-44-2027-LOT106.md).
