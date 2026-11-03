@@ -352,3 +352,8 @@ Pages opérateur vérifiées. Quatre corrections concrètes : CAMPING-CAR PARK L
 ## Lot 101 — clôture du suivi de deux fiches restantes, 3 novembre 2026
 
 Registre complété à 208 identifiants distincts du 44. Les Flots Bleus : page opérateur toujours limitée aux tarifs 2026 ; devis/grille 2027 à obtenir. Le Briord : les pages touristiques française et anglaise continuent de diverger sur prix (dès 14 € vs forfait camping-car 17 €), saison, horaires et taxe ; seule une réponse de l’exploitant arbitrera. Aucun tarif modifié, aucun établissement ajouté, aucun contact envoyé. Compteurs 215 / 187 / 28 maintenus. [Rapport](AUDIT-44-2027-LOT101.md).
+
+
+## Brouillons de demandes externes — ajout après le lot 101
+
+Brouillons prêts pour Les Flots Bleus (campinglesflotsbleus.piriac@orange.fr) et Le Briord (campinglebriord44@gmail.com). Ils demandent les tarifs 2027, périodes, composition du forfait, taxe et conditions d’accès/réservation, et pour Le Briord la résolution des divergences de langue. **Aucun message envoyé.** Les textes complets sont annexés au [rapport du lot 101](AUDIT-44-2027-LOT101.md).
