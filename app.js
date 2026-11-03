@@ -120,7 +120,7 @@ async function initAires(){
     const existingAires=await response.json();
     let importedAires=[];
     try {
-      const importedResponse=await fetch("aires-pdl.json?v=20261103-102-saison2027", {cache:"no-store"});
+      const importedResponse=await fetch("aires-pdl.json?v=20261103-103-saison2027", {cache:"no-store"});
       if(importedResponse.ok) importedAires=await importedResponse.json();
     } catch (_) { /* Le répertoire initial reste disponible. */ }
     let vendeeAires=[];

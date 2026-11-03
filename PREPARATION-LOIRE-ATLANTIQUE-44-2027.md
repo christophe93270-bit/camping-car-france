@@ -362,3 +362,8 @@ Brouillons prêts pour Les Flots Bleus (campinglesflotsbleus.piriac@orange.fr) e
 ## Lot 102 — correction des dates et exclusion d'un prix 2026, 3 novembre 2026
 
 La Boutinardière : corrigé le jour d'ouverture des réservations (03/11/2026, pas 01/11) ; saison 2027 confirmée du 02/04 au 27/09, prix d'emplacement encore à demander. Les Chênes Verts : saison opérateur 02/04–12/09/2027 confirmée, mais aucune disponibilité chez Pitchup et son montant de 18,52 € relève d'une recherche 2026 ; ne pas le reporter comme prix 2027. Pas de prix 2027 confirmé, aucun établissement ajouté, aucun message envoyé. Compteurs 215 / 187 / 28 inchangés. [Rapport du lot 102](AUDIT-44-2027-LOT102.md).
+
+
+## Lot 103 — dates et promotion à ne pas assimiler à un tarif, 3 novembre 2026
+
+Camping de la Baie : saison 2027 officiellement du 09/04 au 03/10 ; page emplacements encore datée 2026, prix d'appel de 27 € non attribué à 2027. Ranch : réservations annoncées le 04/11, saison du 30/04 au 12/09, remise de long séjour affichée sur emplacements nus mais non millésimée ; applicabilité 2027 et prix de base à obtenir. Aucun prix 2027 confirmé, aucun établissement ajouté, aucun contact envoyé. Compteurs 215 / 187 / 28. [Rapport lot 103](AUDIT-44-2027-LOT103.md).
