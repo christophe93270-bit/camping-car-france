@@ -347,3 +347,8 @@ Six fiches restantes du groupe inédit contrôlées. Pages primaires consultées
 ## Lot 100 — 20 fiches et correction de quatre calendriers tarifaires, 3 novembre 2026
 
 Pages opérateur vérifiées. Quatre corrections concrètes : CAMPING-CAR PARK La Pointe (12,93 € à compter du 31/12/2026, précédent prix 14,25 € jusqu’au 30/12), Rouans (début au 03/11/2026), Piriac La Tranchée (début au 03/11/2026), et Nantes Petit-Port (fermeture d’hiver 02/11/2026–01/04/2027, ouverture tarifaire ensuite). Taxes 2027 non présumées lorsqu’elles expirent en 2026. Ranch : dates/réservations 2027 confirmées, prix à obtenir. Registre à 206 fiches suivies ; aucun établissement ajouté, compteurs 215 / 187 / 28. Détail : [AUDIT-44-2027-LOT100.md](AUDIT-44-2027-LOT100.md).
+
+
+## Lot 101 — clôture du suivi de deux fiches restantes, 3 novembre 2026
+
+Registre complété à 208 identifiants distincts du 44. Les Flots Bleus : page opérateur toujours limitée aux tarifs 2026 ; devis/grille 2027 à obtenir. Le Briord : les pages touristiques française et anglaise continuent de diverger sur prix (dès 14 € vs forfait camping-car 17 €), saison, horaires et taxe ; seule une réponse de l’exploitant arbitrera. Aucun tarif modifié, aucun établissement ajouté, aucun contact envoyé. Compteurs 215 / 187 / 28 maintenus. [Rapport](AUDIT-44-2027-LOT101.md).
