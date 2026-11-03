@@ -5264,7 +5264,7 @@
       "Point eau et ravitaillement camping-car dans le camping",
       "Sanitaires et installations de loisirs de l'établissement"
     ],
-    "price": "Fourchette de forfait 2 personnes et électricité de 35 à 66 € / nuit selon saison sur l'office de tourisme de Saint-Brevin, consulté le 20/10/2026. Taxe de séjour 0,66 €/adulte/nuit et éco-participation 0,40 € mineur / 0,80 € adulte par nuit en supplément. Millésime propre du prix non écrit séparément sur la fiche ; confirmer avant réservation.",
+    "price": "Référence historique 2026 : forfait emplacement pour 2 personnes avec électricité annoncé à 35–66 €/nuit par l’office de tourisme de Saint-Brevin (contrôle du 20/10/2026), taxe de séjour et éco-participation en supplément. Ne pas réutiliser comme tarif 2027.",
     "status": "57 chemin du Fief, 44250 Saint-Brevin-les-Pins. Camping Sandaya Le Fief ouvert du 3 avril au 4 octobre 2026 selon l'office de tourisme ; saison terminée le 20 octobre. Les prix 35–66 € correspondent au forfait emplacement pour 2 personnes avec électricité, pas au seul service de vidange ni à un hébergement mobil-home.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.23506,
@@ -5272,7 +5272,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : capacité, ouverture 2026 et forfait 2 personnes + électricité 35–66 € relevés auprès de l'office de tourisme Saint-Brevin. Année spécifique du tarif non étiquetée séparément, à confirmer à la réservation.",
+    "importReview": "20/10/2026 : capacité, ouverture 2026 et forfait 2 personnes + électricité 35–66 € relevés auprès de l'office de tourisme Saint-Brevin. Référence historique 2026 seulement ; aucune base tarifaire 2027 confirmée.",
     "sourceId": "ACCAMACCAMPDL044000118",
     "sourceOfficial": "https://www.saint-brevin.com/sandaya-le-fief.html",
     "servicesSource": "https://www.saint-brevin.com/sandaya-le-fief.html",
@@ -5281,8 +5281,8 @@
       "year": 2027,
       "checkedAt": "2026-11-03",
       "status": "booking_only",
-      "label": "Saison du 2 avril au 7 novembre 2027 ; offre Do You First jusqu'à −15 % sur emplacements, prix final à confirmer.",
-      "note": "Sandaya publie l'offre Do You First pour les séjours 2027 : jusqu'à 15 % de remise pour une réservation avant le 31/12/2026, applicable aux locatifs et emplacements, selon le camping, les dates et disponibilités. La page de l'offre inclut explicitement Le Fief parmi les campings concernés. La page des emplacements indique encore « ouverture des réservations prochainement » ; aucun prix de base ni montant net n'est affiché. Conserver les 35–66 € historiques sans les reporter en 2027 ; demander le devis pour dates et catégorie, avec taxes/frais.",
+      "label": "Saison du 2 avril au 7 novembre 2027 annoncée ; réservations d’emplacements encore non ouvertes, tarif officiel à confirmer.",
+      "note": "Contrôle du 03/11/2026 : Sandaya annonce Le Fief ouvert du 02/04 au 07/11/2027. La page officielle des emplacements indique encore « ouverture des réservations prochainement » ; aucun tarif de base ni devis net n’est disponible. L’offre officielle Do You First prévoit jusqu’à 15 % pour les séjours 2027 réservés avant le 31/12/2026, et inclut Le Fief ; l’éligibilité dépend du camping, des dates et disponibilités : ce n’est pas un prix d’emplacement confirmé et aucun cumul avec une autre promotion n’est établi. PiNCAMP/ADAC donne une comparaison 2027 secondaire pour un emplacement standard : couple 28 €/nuit basse saison ou 57 € haute saison ; famille 35 € ou 67 €. Électricité et douches incluses, taxe de séjour, Wi-Fi et taxe déchets exclus. ADAC Campcard publie séparément une remise de 15 % à partir de 23,80 € au lieu de 28 € sur certaines périodes (02/04–30/06 et 01/09–07/11), réservée aux titulaires de la carte. Ne pas confondre ces références secondaires et offres conditionnelles avec le tarif officiel Sandaya, ni les afficher comme prix de base 2027. Demander un devis daté précisant catégorie camping-car, occupants, électricité, taxe de séjour, éco-participation, frais, durée minimale et réduction applicable. Le tarif Saint-Brevin de 35–66 €/nuit est historique 2026 seulement.",
       "source": "https://www.sandaya.fr/nos-campings/le-fief/nos-emplacements",
       "validFrom": "2027-04-02",
       "validThrough": "2027-11-07",
@@ -5293,7 +5293,41 @@
       "promotionAppliesTo": "locatifs et emplacements selon camping, dates et disponibilités",
       "promotionValidFor2027": true,
       "baseRate2027Confirmed": false,
-      "reservationsOpen": false
+      "reservationsOpen": false,
+      "secondaryComparison2027": {
+        "source": "https://www.pincamp.fr/campings/sandaya-camping-le-fief",
+        "provider": "PiNCAMP / ADAC (source secondaire)",
+        "unit": "emplacement/nuit",
+        "standardPitch": {
+          "couple": {
+            "lowSeasonEUR": 28,
+            "highSeasonEUR": 57
+          },
+          "family": {
+            "lowSeasonEUR": 35,
+            "highSeasonEUR": 67
+          }
+        },
+        "included": [
+          "électricité",
+          "douches"
+        ],
+        "excluded": [
+          "taxe de séjour",
+          "Wi-Fi",
+          "taxe déchets"
+        ],
+        "doNotUseAsOfficialBaseRate": true
+      },
+      "adacCampcard2027": {
+        "source": "https://www.pincamp.fr/campings/sandaya-camping-le-fief",
+        "discountPercent": 15,
+        "fromEUR": 23.8,
+        "comparedToEUR": 28,
+        "eligibility": "Titulaire ADAC Campcard ; périodes 02/04–30/06 et 01/09–07/11/2027 selon source secondaire",
+        "separateFromDoYouFirst": true
+      },
+      "promotionYearConfirmed": true
     }
   },
   {
