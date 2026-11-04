@@ -752,3 +752,10 @@ Compteurs conservés : **215 / 187 / 28**. Aucune fiche ajoutée ou supprimée. 
 Compteurs conservés : **215 / 187 / 28**. Aucune fiche ajoutée ou supprimée. Tarifs à clarifier en priorité : Le Croisic publie 13,50 € pour 20 h–9 h et 10 € pour 150 L, mais sans millésime 2027 et avec une plage d’hébergement 21 h–9 h distincte ; Teillé affiche des forfaits 24 h/48 h/72 h/semaine avec services inclus, sans année ni borne saisonnière nette le 31 mars. France Passion est une halte de 24 h gratuite conditionnée à l’adhésion active et à l’autonomie du véhicule, non une nuitée de camping gratuite ouverte à tous. Pour La Plaine-sur-Mer, conserver le parking gratuit 48 h et signaler la borne proche hors service jusqu’à vérification. Le tarif du Domaine des Croix et ceux de plusieurs parkings/haltes restent à obtenir ; les fiches Pierric, Bas-du-Tertre, Vorajoux, Lavandières et Forge Neuve ne justifient pas une nuitée tarifée sans confirmation locale.
 
 [Rapport lot 144](AUDIT-44-2027-LOT144.md).
+
+
+## Lot 145 — 20 fiches existantes — 4 novembre 2026
+
+Compteurs inchangés : **215 / 187 / 28**. Aucun lieu ajouté ou supprimé. Distinctions tarifaires prioritaires : au Véridet, conserver la fourchette 2026 (13,50–16,50 €/nuit) séparée de la taxe ; à Choisel, séparer le forfait 5 h (6 €) du forfait 24 h (12 € TTC) et de la réservation en ligne ; à Donges, le jeton à 3,50 € correspond à 100 L d’eau ou une heure d’électricité, pas à une nuitée ; à Port Mulon, les 3 € sont pour l’eau/vidange, le prix du séjour au camping restant distinct. À l’Arfaut, ne pas cumuler les 9 € parking et 12 € services issus de Park4Night, car des avis récents rapportent 12 € tout compris et la capacité annoncée diverge de la source régionale. Tarifs 2027 et accès ANAS à confirmer ; les parkings de loisirs et les points de pique-nique ne doivent pas être affichés comme nuitées sans preuve.
+
+[Rapport lot 145](AUDIT-44-2027-LOT145.md).
