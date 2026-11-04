@@ -722,3 +722,12 @@ Le résultat principal est une séparation stricte des tarifs standards, tarifs 
 Le Camping de l’Océan confirme son ouverture 2027 du 03/04 au 26/09; les prix disponibles restent intitulés 2026 et le moteur consulté ne renvoie pas de montant exploitable. Le GCU publie un barème à la nuitée 2026 avec tarifs membre/non-membre; il faut séparer cotisation, invités et personnes. Pour les autres fiches, les tarifs 2027 restent à obtenir ou à confirmer avec dates et inclusions.
 
 [Rapport lot 139](AUDIT-44-2027-LOT139.md).
+
+
+## Lot 140 — 20 fiches existantes — 4 novembre 2026
+
+Audit groupé des 20 fiches suivant la Cale Sauvage. Aucun lieu ajouté; compteurs **215 / 187 / 28** inchangés. Les grilles 2026 du Village des Rives de Grand Lieu et des campings municipaux du Pouliguen sont historiques. La Prée dispose d’un signal secondaire 2027 à 32 €/jour pour deux adultes, mais la grille opérateur reste 2026 : confirmation directe nécessaire. Le 70 €/7 nuits à l’Estuaire n’est pas convertible en tarif nocturne du camping-car sans identifier l’offre. Les tarifs de stationnement et les jetons de service sont séparés pour Govelle, Lingorzé, Launay, Clisson et La Chinoise.
+
+Correction prioritaire : l’arrêté de Mesquer trouvé interdit le stationnement des véhicules couchants à la Bôle de Merquel de 22 h à 8 h; la fiche ne doit pas présenter une nuitée payante avant clarification communale. Parking gratuit et service à 2 € à La Chinoise doivent également rester deux valeurs distinctes. Aucun tarif 2027 confirmé dans ce lot; prochaines actions : obtenir les grilles opérateurs 2027, confirmer les règles d’accès nocturne et les suppléments/taxes.
+
+[Rapport lot 140](AUDIT-44-2027-LOT140.md).
