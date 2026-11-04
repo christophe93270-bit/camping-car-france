@@ -830,3 +830,11 @@ Seize fiches : les seize premières du lot 143. Clos Mer et Nature reste à tari
 Vérifications restantes : obtenir le prix d’emplacement 2027 et les frais actualisés de Clos Mer et Nature; confirmer durée/règles nocturnes à Issé, Derval, Sion-les-Mines, Vieillevigne, Pont-Mahé, Paimbœuf, la Provostière, Soudan et Marche aux Bœufs; vérifier tarifs et fonctionnement 2027 des bornes (Fay, Saint-Philbert, Fégréac, Le Pin) et séparer le parking du lac de Saint-Viaud du service rue de la Gare. Compteurs : 215 / 187 / 28. Aucun contact envoyé.
 
 [Rapport lot 155](AUDIT-44-2027-LOT155.md).
+
+## Lot 156 — 4 novembre 2026
+
+Vingt fiches : quatre reliquats des lots 142 et 143, puis douze premières du lot 144. À Guenrouët, la source départementale sépare maintenant clairement le stationnement nocturne gratuit (environ deux places) des services payants à 2 €, dont le déclencheur doit être précisé. Au Welcome, le forfait est explicite : 10 € par journée ou nuitée, avec eau et électricité à 2 € chacune, sans vidange; l’année 2027 n’est pas confirmée. Au Croisic, Kerdavid applique 13,50 € dès 20 h; la règle d’hébergement en aire/camping commence à 21 h, et l’eau reste un service séparé. Le Parc de la Lande autorise jusqu’à 72 h/3 nuits, avec fermeture hivernale. Pour le Biau Chemin, la fiche régionale mentionne deux nuits mais la règle France Passion limite l’étape à 24 h sauf accord spécifique de l’hôte. L’avenue des Sports à Saint-Brevin est officiellement listée gratuite (8 places, toute l’année), malgré des signalements de panneaux contradictoires : vérifier l’arrêté 2026-115 et la signalisation.
+
+Vérifications externes : tarif 2027 et services de Guenrouët/Welcome; état de la borne de La Plaine-sur-Mer; prix 2027 du Croisic et disponibilité des équipements à Kerdavid; clarification du jeton au port de Guenrouët; droits nocturnes aux parkings sans règle publiée; inscription et conditions France Passion 2027 au Biau Chemin; statut de l’avenue des Sports à la lecture de l’arrêté et sur place. Compteurs maintenus : 215 / 187 / 28. Aucun contact envoyé.
+
+[Rapport lot 156](AUDIT-44-2027-LOT156.md).
