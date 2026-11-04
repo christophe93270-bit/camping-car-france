@@ -838,3 +838,10 @@ Vingt fiches : quatre reliquats des lots 142 et 143, puis douze premières du lo
 Vérifications externes : tarif 2027 et services de Guenrouët/Welcome; état de la borne de La Plaine-sur-Mer; prix 2027 du Croisic et disponibilité des équipements à Kerdavid; clarification du jeton au port de Guenrouët; droits nocturnes aux parkings sans règle publiée; inscription et conditions France Passion 2027 au Biau Chemin; statut de l’avenue des Sports à la lecture de l’arrêté et sur place. Compteurs maintenus : 215 / 187 / 28. Aucun contact envoyé.
 
 [Rapport lot 156](AUDIT-44-2027-LOT156.md).
+
+
+## Lot 157 — 4 novembre 2026
+
+Vingt fiches : huit reliquats du lot 144 et douze premières du lot 145. Aucun tarif 2027 complet nouvellement confirmé. Teillé garde son barème sans année avec chevauchement au 31 mars; Mindin, Le Véridet, ANAS et Choisel conservent leurs prix comme repères 2026, séparés des taxes/services/options. À l’Arfaut, ne pas additionner 9 € et 12 € ni retenir une capacité (4 contre 30) avant confirmation. À Guémené, le point est une aire de pique-nique, distincte du camping voisin. Les autres tarifs de jeton, avis tiers, stationnements gratuits et droits nocturnes restent explicitement séparés ou à vérifier. Aucun lieu ajouté, aucun contact envoyé. Compteurs maintenus : 215 / 187 / 28.
+
+[Rapport lot 157](AUDIT-44-2027-LOT157.md).
