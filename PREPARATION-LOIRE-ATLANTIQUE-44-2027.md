@@ -822,3 +822,11 @@ Vingt fiches : quatre restants du lot 141 et seize premières du lot 142. Correc
 Vérifications externes : obtenir la grille 2027 du Pouliguen et de Nozay; clarifier l’utilisation des jetons de Boussay; vérifier le statut de la borne des Jaunais; confirmer règles de nuit et services pour les parkings de Pont-Mahé, Fay-de-Bretagne, Papinière, Passay et le complexe de la Prée; confirmer services et saison 2027 à la Salorge et à La Bénâte. Compteurs maintenus : 215 / 187 / 28. Aucun contact envoyé.
 
 [Rapport lot 154](AUDIT-44-2027-LOT154.md).
+
+## Lot 155 — 4 novembre 2026
+
+Seize fiches : quatre restantes du lot 142 et les douze fiches présentes au lot 143. Clos Mer et Nature reste à tarif de base non confirmé : le contrat 2026 donne les frais de dossier (10 € jusqu’à trois nuits, 20 € au-delà, 30 € dans certains règlements différés), la taxe (0,66 €/adulte/nuit) et l’écoparticipation (0,30 €/personne/nuit), qui doivent rester séparés du prix de l’emplacement. À Issé, l’office évoque explicitement plusieurs nuitées à l’étang de Beaumont, mais ne publie ni tarif ni durée maximale. Pour le Domaine Forgeau, l’emplacement gratuit est sur rendez-vous; la page demande une arrivée avant 18 h 30. Les autres parkings et bornes ne justifient pas de prix de nuitée; la borne du Mottais reste services-only.
+
+Vérifications restantes : obtenir le prix d’emplacement 2027 et les frais actualisés de Clos Mer et Nature; confirmer durée/règles nocturnes à Issé, Derval, Sion-les-Mines, Vieillevigne, Pont-Mahé, Paimbœuf, la Provostière, Soudan et Marche aux Bœufs; vérifier tarifs et fonctionnement 2027 des bornes (Fay, Saint-Philbert, Fégréac, Le Pin) et séparer le parking du lac de Saint-Viaud du service rue de la Gare. Compteurs : 215 / 187 / 28. Aucun contact envoyé.
+
+[Rapport lot 155](AUDIT-44-2027-LOT155.md).
