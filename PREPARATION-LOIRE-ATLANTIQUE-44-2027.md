@@ -845,3 +845,10 @@ Vérifications externes : tarif 2027 et services de Guenrouët/Welcome; état de
 Vingt fiches : huit reliquats du lot 144 et douze premières du lot 145. Aucun tarif 2027 complet nouvellement confirmé. Teillé garde son barème sans année avec chevauchement au 31 mars; Mindin, Le Véridet, ANAS et Choisel conservent leurs prix comme repères 2026, séparés des taxes/services/options. À l’Arfaut, ne pas additionner 9 € et 12 € ni retenir une capacité (4 contre 30) avant confirmation. À Guémené, le point est une aire de pique-nique, distincte du camping voisin. Les autres tarifs de jeton, avis tiers, stationnements gratuits et droits nocturnes restent explicitement séparés ou à vérifier. Aucun lieu ajouté, aucun contact envoyé. Compteurs maintenus : 215 / 187 / 28.
 
 [Rapport lot 157](AUDIT-44-2027-LOT157.md).
+
+
+## Lot 158 — 4 novembre 2026
+
+Quatre fiches restantes du lot 97 : Le Pallet, Port Mulon, l’aire du Stade à Donges et O’Pré d’Vous. Aucun tarif complet de nuitée 2027 confirmé. Les montants de service 2026 restent séparés des nuitées : eau à 3 € au Pallet; eau/vidange à 3 € à Port Mulon; jeton 2026 à 3,50 € à Donges; contribution libre à O’Pré d’Vous. Droits nocturnes et maintien des conditions 2027 à vérifier. Aucun lieu ajouté, aucun contact envoyé. Compteurs maintenus : 215 / 187 / 28.
+
+[Rapport lot 158](AUDIT-44-2027-LOT158.md).
