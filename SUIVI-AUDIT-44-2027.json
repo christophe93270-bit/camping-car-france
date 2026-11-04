@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 153 (04/11/2026), quatre fiches restantes du lot 140 et seize du lot 141. Corrections : accueil gratuit confirmé mais non millésimé au Domaine de l’Aiguillette; La Grigonnais autorise explicitement une nuit gratuite; distinguer services et nuitées à Clisson, Chinoise et Kerlagadec; vérifier le conflit de statut de la Piardière. Les montants 2026 de Beslé et les prix non millésimés restent historiques/à confirmer pour 2027. Aucun lieu ajouté/contact envoyé. Compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 154 (04/11/2026), quatre fiches restantes du lot 141 et seize du lot 142. Corrections : la Salorge accepte jusqu’à trois nuits consécutives toute l’année, sans réservation; à Riaillé, sept emplacements gratuits et eau coupée l’hiver; le forfait du Pouliguen reste strictement un barème 2026; les aires de pique-nique, parkings et bornes de services ne sont pas assimilés à des nuitées. Aucun lieu ajouté/contact envoyé. Compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -1120,10 +1120,11 @@
       "nextCheck": "Ne pas afficher de prix de nuitée sans confirmation d’accueil nocturne ; confirmer la réglementation locale.",
       "source": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 141,
-      "recheckFinding": "Aire de pique-nique de Plessé : aucune offre d’hébergement camping-car, nuitée ni tarif par nuit documenté. Ne pas conserver un prix de camping voisin dans cette fiche.",
-      "recheckNextCheck": "Vérifier avec la commune si un parking diurne pour camping-car est autorisé; garder hors filtre nocturne en l’absence d’autorisation explicite.",
-      "recheckTariffSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/"
+      "recheckLot": 154,
+      "recheckFinding": "Le point de la place de l’Église est actuellement décrit comme aire de pique-nique à Plessé; aucune place de camping-car, nuitée ou tarif n’est publié. Le GPS régional ne prouve pas l’usage camping-car.",
+      "recheckNextCheck": "Confirmer seulement si stationnement diurne camping-car autorisé; conserver hors nuitée et sans prix tant qu’aucune règle explicite n’existe.",
+      "recheckTariffSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/",
+      "recheckConditionsSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/"
     },
     {
       "sourceId": "ACCAMEDREFFEAC",
@@ -1135,10 +1136,11 @@
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://rando.loire-atlantique.fr/service/182528-Aire-de-camping-cars-de-Dreffeac",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 141,
-      "recheckFinding": "Aire communale de Drefféac : 6–8 places, stationnement gratuit, ouverte toute l’année; aucun service technique annoncé. La gratuité vaut pour le stationnement, mais la fiche ne distingue pas explicitement durée ni permission de nuit.",
-      "recheckNextCheck": "Confirmer règles de séjour nocturne et durée auprès de la mairie; ne pas publier de services inexistants ni inventer un tarif 2027.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/182528-Aire-de-camping-cars-de-Dreffeac"
+      "recheckLot": 154,
+      "recheckFinding": "Rando Loire-Atlantique indique 6 à 8 places, parking gratuit et ouvert toute l’année, sans service technique. La page ne précise pas le droit de dormir sur place.",
+      "recheckNextCheck": "Vérifier la règle nocturne et la durée auprès de Drefféac; ne pas présenter parking gratuit comme tarif 2027 de nuitée.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/182528-Aire-de-camping-cars-de-Dreffeac",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/182528-Aire-de-camping-cars-de-Dreffeac"
     },
     {
       "sourceId": "ACCAMPDL044V51HCFZ",
@@ -1150,10 +1152,11 @@
       "nextCheck": "Ne pas afficher de prix de nuitée sans confirmation d’accueil nocturne ; confirmer la réglementation locale.",
       "source": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-2/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 141,
-      "recheckFinding": "Aire de pique-nique d’Avessac, non documentée comme aire camping-car nocturne. Aucun tarif de nuitée pertinent; ne pas confondre aire pique-nique et aire d’étape de la commune.",
-      "recheckNextCheck": "Vérifier stationnement diurne et horaires; corriger la catégorie et le filtre nocturne faute de preuve d’accueil des camping-cars la nuit.",
-      "recheckTariffSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-2/"
+      "recheckLot": 154,
+      "recheckFinding": "Le point rue Sainte-Marie est une aire de pique-nique à Avessac, non une aire d’étape camping-car; aucune nuitée ni tarif associé.",
+      "recheckNextCheck": "Ne pas activer le filtre nocturne; confirmer uniquement si stationnement diurne camping-car autorisé.",
+      "recheckTariffSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-2/",
+      "recheckConditionsSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-2/"
     },
     {
       "sourceId": "ACCAMPDL044V5003VR",
@@ -1165,10 +1168,11 @@
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 141,
-      "recheckFinding": "Aire de service/parking du Super U à Arthon : parking gratuit, accès annoncé 24 h/24 et eau à 2 €/10 min; raccordement électrique et vidange mentionnés. Ce tarif concerne l’eau, pas la nuitée, et l’accès 24 h ne prouve pas le droit d’y dormir.",
-      "recheckNextCheck": "Confirmer directement avec le magasin/commune l’autorisation de nuitée et le coût de l’électricité; maintenir parking gratuit et service eau séparés.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz"
+      "recheckLot": 154,
+      "recheckFinding": "À Arthon, le parking du Super U est gratuit; eau à 2 €/10 min, vidange possible et branchement électrique sans prix indiqué. L’accès 24/7 concerne le site de service et ne prouve pas l’autorisation d’y dormir.",
+      "recheckNextCheck": "Garder stationnement et service séparés; vérifier l’autorisation de nuit et le tarif électrique auprès du magasin/commune.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz"
     },
     {
       "sourceId": "ACCAMPDL044V50028N",
@@ -1180,10 +1184,11 @@
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Mouzillon : le complexe de la Prée est une aire de stationnement/services, utilisée pour une étape nocturne dans les retours, avec parking gratuit rapporté; l’eau semble payante par jeton, tandis que vidange gratuite est indiquée. Le prix du jeton et la nuitée ne sont pas confirmés par source officielle millésimée. Ne pas présenter le tarif de borne comme tarif de nuitée.",
-      "recheckNextCheck": "Confirmer mairie 2027 : nuitée/stationnement autorisé et gratuité, jeton d’eau, vidange, accès 24 h et dates de maintenance; conserver service et stationnement dans champs distincts.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON"
+      "recheckLot": 154,
+      "recheckFinding": "La fiche du complexe de la Prée confirme services eau/vidange et parking, paiement par carte, mais ne donne ni montant ni règle de nuitée. Aucun tarif de nuit 2027 n’est publié.",
+      "recheckNextCheck": "Confirmer tarif borne et règle de nuitée auprès de Mouzillon; ne pas attribuer un prix de service au stationnement.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON"
     },
     {
       "sourceId": "ACCAMPDL044V500766",
@@ -1195,10 +1200,11 @@
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://www.nozay44.fr/aire-de-camping-cars/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Nozay : le conseil municipal a voté 10 €/jour/emplacement hors taxe de séjour (fin 2025 pour la saison 2026); la fiche départementale et la réservation indiquent 11,10 €/24 h taxe comprise. Ce sont respectivement base et total annoncé; le montant de taxe (écart 1,10 €) et son année doivent être documentés. Ne pas publier 10 € comme total TTC, ni 11,10 € comme prix 2027.",
-      "recheckNextCheck": "Vérifier barème 2027 dans réservation AirePark et délibération municipale; confirmer taxe et inclusions (16A, eau, vidanges) et garder prix de base et total séparés.",
-      "recheckTariffSource": "https://www.nozay44.fr/aire-de-camping-cars/"
+      "recheckLot": 154,
+      "recheckFinding": "La mairie confirme 20 places, électricité 16 A, eau, vidange, wifi et autres services inclus. Le montant repéré reste la grille 2026 (10 €/jour/emplacement hors taxe; total précédent 11,10 € à ne pas tenir pour montant validé). Aucun tarif 2027 constaté.",
+      "recheckNextCheck": "Obtenir le tarif de réservation 2027 et documenter taxe/inclusions; conserver 10 € comme historique 2026, pas comme prix actuel 2027.",
+      "recheckTariffSource": "https://www.nozay44.fr/aire-de-camping-cars/",
+      "recheckConditionsSource": "https://www.nozay44.fr/aire-de-camping-cars/"
     },
     {
       "sourceId": "ACCAMEAIREPONTMAHE",
@@ -1210,10 +1216,11 @@
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://rando.loire-atlantique.fr/service/180203-Aire-de-camping-cars-de-Pont-Mahe",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Rando/office de tourisme : stationnement camping-car gratuit à Pont-Mahé. Cela ne prouve ni services inclus ni droit de nuitée; ne pas importer le tarif du camping Domaine de Pont-Mahé voisin.",
-      "recheckNextCheck": "Confirmer auprès d’Assérac si stationnement nocturne autorisé, durée maximale, services et règles de saison; le parking peut rester noté gratuit sans prix de nuitée.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180203-Aire-de-camping-cars-de-Pont-Mahe"
+      "recheckLot": 154,
+      "recheckFinding": "L’office de tourisme décrit le parking camping-car de Pont-Mahé comme gratuit, en face du camping privé. Aucun service inclus ni droit de nuitée n’est publié; ne pas transférer les prix du camping voisin.",
+      "recheckNextCheck": "Confirmer durée et autorisation de nuit au parking public ainsi que restrictions saisonnières; garder le camping et le parking séparés.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180203-Aire-de-camping-cars-de-Pont-Mahe",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180203-Aire-de-camping-cars-de-Pont-Mahe"
     },
     {
       "sourceId": "ACCAMPDL044V50ZKR0",
@@ -1225,10 +1232,11 @@
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Étangs de la Madeleine : fiches de tourisme et sources indépendantes présentent un parking/aire camping-car, certains le donnent gratuit, mais aucun barème municipal 2026/2027 ni règle actuelle de nuit vérifiée. Garder gratuité comme non confirmée et séparer l’aire de service proche du parking camping-car.",
-      "recheckNextCheck": "Demander à Fay-de-Bretagne confirmation écrite des règles de nuit, gratuité, durée et séparation des deux zones (stationnement et service); contrôler la signalisation sur place.",
-      "recheckTariffSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/"
+      "recheckLot": 154,
+      "recheckFinding": "La source open-data régionale confirme seulement la présence de l’offre touristique; elle ne fournit pas de règle locale de nuitée ou de tarif fiable pour les Étangs de la Madeleine. Stationnement et borne de service sont deux sites distincts.",
+      "recheckNextCheck": "Confirmer à Fay-de-Bretagne l’autorisation nocturne, gratuité/durée et emplacement de la borne; ne pas afficher de tarif de nuit.",
+      "recheckTariffSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
+      "recheckConditionsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/"
     },
     {
       "sourceId": "ACCAMPDL044V51CY0Q",
@@ -1240,10 +1248,11 @@
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://rando.loire-atlantique.fr/service/186412-AIRE-DE-STATIONNEMENT-SITE-DE-LA-FORGE-NEUVE---GRAND-AUVERNE",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Forge Neuve/Grées Brûlées : fiche officielle de stationnement pour profiter du site et de l’étang; aucun prix ni autorisation explicite de nuitée. Ne pas importer la gratuité issue d’agrégateurs ou assimiler le parking loisir à une aire d’étape.",
-      "recheckNextCheck": "Confirmer auprès de Grand-Auverné la permission/durée de nuitée, restrictions et gratuité; aucun prix de nuit à publier d’ici là.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186412-AIRE-DE-STATIONNEMENT-SITE-DE-LA-FORGE-NEUVE---GRAND-AUVERNE"
+      "recheckLot": 154,
+      "recheckFinding": "La fiche départementale qualifie l’endroit d’aire de stationnement de loisirs près de l’étang et des Grées Brûlées. Aucune nuitée, limite ou gratuité n’est explicitée.",
+      "recheckNextCheck": "Demander à la commune si stationnement nocturne et durée sont autorisés; aucun prix de nuit à publier sans cette preuve.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186412-AIRE-DE-STATIONNEMENT-SITE-DE-LA-FORGE-NEUVE---GRAND-AUVERNE",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186412-AIRE-DE-STATIONNEMENT-SITE-DE-LA-FORGE-NEUVE---GRAND-AUVERNE"
     },
     {
       "sourceId": "ACCAMPDL044V500B9A",
@@ -1255,10 +1264,11 @@
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://rando.loire-atlantique.fr/service/180254-AIRE-DE-SERVICE-DE-PRINQUIAU",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Prinquiau : service communal eau/vidanges gratuit, 5 places et stationnement limité à 48 h selon fiche touristique; service eau annoncé du 1er avril au 30 septembre. Aucun tarif 2027. Ne pas convertir ces services gratuits en forfait de nuitée confirmé.",
-      "recheckNextCheck": "Confirmer maintien 2027 de la gratuité, saison d’ouverture eau/vidange, et droit de nuit/limite 48 h auprès de la mairie.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180254-AIRE-DE-SERVICE-DE-PRINQUIAU"
+      "recheckLot": 154,
+      "recheckFinding": "Rando Loire-Atlantique confirme à Prinquiau cinq emplacements, eau/vidanges gratuites, limite 48 h et saison du service du 1er avril au 30 septembre. La source ne dit pas clairement si la limitation de 48 h vaut aussi hors saison.",
+      "recheckNextCheck": "Vérifier la règle de nuit et le maintien des services/saisons en 2027; conserver eau/vidange gratuites séparées de toute nuitée payante.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180254-AIRE-DE-SERVICE-DE-PRINQUIAU",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180254-AIRE-DE-SERVICE-DE-PRINQUIAU"
     },
     {
       "sourceId": "ACCAMPDL044V50028K",
@@ -1270,10 +1280,11 @@
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://rando.loire-atlantique.fr/service/180231-Aire-de-Camping-Car-Boussay",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Boussay : stationnement gratuit limité à 48 h; l’eau/vidange sont présentées gratuites, mais vente de jetons de 2 € est aussi mentionnée. Contradiction à résoudre : 2 € pourrait couvrir un service particulier (eau/électricité) et non le parking ou toute vidange. Électricité non chiffrée.",
-      "recheckNextCheck": "Confirmer à la commune ce que donne le jeton 2 €, ce qui est gratuit, puissance/durée électrique, nuitée et validité 2027. Afficher stationnement, eau/vidange et électricité séparément.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180231-Aire-de-Camping-Car-Boussay"
+      "recheckLot": 154,
+      "recheckFinding": "La fiche de Boussay présente simultanément eau/vidange gratuites, vente de jetons de 2 €, stationnement gratuit et limite 48 h; l’objet des jetons n’est pas précisé. Électricité est mentionnée sans tarif.",
+      "recheckNextCheck": "Ne pas présenter 2 € comme tarif de nuitée; faire confirmer ce que le jeton active et le maintien des services.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180231-Aire-de-Camping-Car-Boussay",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180231-Aire-de-Camping-Car-Boussay"
     },
     {
       "sourceId": "ACCAMECCLEPOULIGUEN",
@@ -1285,10 +1296,11 @@
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://campings.lepouliguen.fr/laire-de-camping-cars/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Tarifs municipaux officiels 2026 : forfait 24 h camping-car pour 2 personnes, 16A et 50 L d’eau à 13,60 € basse saison, 15,10 € saison, 17,40 € haute saison; taxe de séjour +0,22 €/adulte/nuit en supplément. Borne de vidange/remplissage autre site : 4,40 €/100 L. Ne pas additionner le tarif borne 4,40 € au forfait qui inclut déjà 50 L; pas de tarif 2027 publié.",
-      "recheckNextCheck": "Confirmer barème municipal 2027 et taxe, composition et saisons; conserver 50 L compris dans le prix et distinguer achat d’eau supplémentaire/borne externe.",
-      "recheckTariffSource": "https://campings.lepouliguen.fr/laire-de-camping-cars/"
+      "recheckLot": 154,
+      "recheckFinding": "Barème municipal officiel explicitement 2026 : 13,60 € hors saison, 15,10 € du 04/05 au 28/06 et du 31/08 au 27/09, 17,40 € du 29/06 au 30/08 pour deux personnes, 16 A et 50 L; taxe +0,22 €/adulte/nuit. Limite 72 h; borne 4,40 €/100 L ailleurs, à ne pas ajouter aux 50 L compris.",
+      "recheckNextCheck": "Demander le barème 2027 et confirmer dates, taxe et prix d’eau supplémentaire; garder l’historique 2026 distinct.",
+      "recheckTariffSource": "https://campings.lepouliguen.fr/laire-de-camping-cars/",
+      "recheckConditionsSource": "https://campings.lepouliguen.fr/laire-de-camping-cars/"
     },
     {
       "sourceId": "ACCAMPDL044V51HCG0",
@@ -1300,10 +1312,11 @@
       "nextCheck": "Ne pas afficher de prix de nuitée sans confirmation d’accueil nocturne ; confirmer la réglementation locale.",
       "source": "https://tourisme-pays-redon.com/experiences/idees-descapades/pique-niquer-redon/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Conquereuil : fiche source = aire de pique-nique/parking, pas une aire d’accueil tarifée. Aucune nuitée ni prix documentés; témoignages de nuit tolérée ne remplacent pas une règle municipale.",
-      "recheckNextCheck": "Vérifier avec la commune autorisation, horaires et éventuelle durée de nuitée; sinon conserver hors filtre et sans tarif de nuit.",
-      "recheckTariffSource": "https://tourisme-pays-redon.com/experiences/idees-descapades/pique-niquer-redon/"
+      "recheckLot": 154,
+      "recheckFinding": "Le point de Conquereuil est documenté comme aire/lieu de pique-nique; aucune place camping-car ou nuitée confirmée. Les lieux cités par l’office ne suffisent pas à relier précisément le GPS.",
+      "recheckNextCheck": "Confirmer localisation et éventuel parking de jour auprès de la commune; maintenir sans tarif de nuit et hors filtre nocturne.",
+      "recheckTariffSource": "https://tourisme-pays-redon.com/experiences/idees-descapades/pique-niquer-redon/",
+      "recheckConditionsSource": "https://tourisme-pays-redon.com/experiences/idees-descapades/pique-niquer-redon/"
     },
     {
       "sourceId": "ACCAMPDL044V50CKO9",
@@ -1315,10 +1328,11 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://rando.loire-atlantique.fr/service/180261-AIRE-DE-STATIONNEMENT",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Papinière : aire de stationnement camping-car distincte du camping Port-Mulon; six places déplacées légèrement dans le cadre des travaux. Sources touristiques la décrivent comme stationnement boisé et gratuit, sans prix de nuitée ni services confirmés. Ne pas reprendre tarif du camping ou de la halte nature pour tentes.",
-      "recheckNextCheck": "Confirmer emplacement actuel, nombre de places, accès nocturne/durée et services auprès de la mairie; aucun tarif camping 2027 à appliquer à ce parking.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180261-AIRE-DE-STATIONNEMENT"
+      "recheckLot": 154,
+      "recheckFinding": "La Papinière : l’office indique que le stationnement est autorisé par la municipalité sur ce site boisé, avec capacité limitée. Pas de prix, limite horaire ou droit de nuit explicite.",
+      "recheckNextCheck": "Confirmer la règle de nuit, la capacité et l’emplacement après travaux avec Sucé-sur-Erdre; ne pas reprendre le tarif du camping Port-Mulon.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180261-AIRE-DE-STATIONNEMENT",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180261-AIRE-DE-STATIONNEMENT"
     },
     {
       "sourceId": "ACCAMPDL044V500ABV",
@@ -1330,10 +1344,11 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://rando.loire-atlantique.fr/service/3141-Aire-de-service-La-Benate",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "La Bénâte à Riaillé est répertoriée comme aire de services communale ouverte à l’année; sources secondaires indiquent gratuité de la borne, mais ne démontrent pas un tarif de nuitée. Une fourchette ancienne 13,21–15,21 € de services+stationnement peut venir d’une confusion avec un autre site; ne pas l’importer comme prix local.",
-      "recheckNextCheck": "Confirmer mairie : gratuité et fonctions eau/vidange/électricité, autorisation de séjourner la nuit et places dédiées. Maintenir en services-only tant qu’aucune nuitée n’est prouvée.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3141-Aire-de-service-La-Benate"
+      "recheckLot": 154,
+      "recheckFinding": "Riaillé confirme une aire gratuite de sept emplacements à La Bénâte, ouverte toute l’année; l’eau potable est coupée l’hiver et le bac OM est disponible du 1er avril au 1er novembre. Rando Loire-Atlantique confirme les sept places; aucune grille 2027 de services publiée.",
+      "recheckNextCheck": "Vérifier le tarif/accès aux services en 2027 et les règles de nuit; maintenir l’arrêt gratuit séparé des services et ne pas réutiliser la fourchette d’un autre site.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3141-Aire-de-service-La-Benate",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/3141-Aire-de-service-La-Benate"
     },
     {
       "sourceId": "ACCAMPDL044V51CFA7",
@@ -1345,10 +1360,11 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://rando.loire-atlantique.fr/service/186410-AIRE-DE-STATIONNEMENT-DE-PASSAY",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Passay : aire de stationnement camping-car gratuite au village, 6 places selon l’office; pas de services techniques tarifés confirmés. Le parking ne doit pas être assimilé à une nuitée payante ni aux services des aires voisines.",
-      "recheckNextCheck": "Confirmer règle nocturne/durée maximale avec mairie ou réserve du lac; garder prix stationnement à 0 seulement si la gratuité reste affichée, services à « non disponibles/non confirmés ».",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186410-AIRE-DE-STATIONNEMENT-DE-PASSAY"
+      "recheckLot": 154,
+      "recheckFinding": "Passay : six places de stationnement gratuites recensées par l’office; aucune borne technique ni permission de nuit explicitée.",
+      "recheckNextCheck": "Confirmer l’autorisation nocturne et la durée avec mairie/réserve de Grand-Lieu; ne pas présenter la gratuité du parking comme prix d’un séjour.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186410-AIRE-DE-STATIONNEMENT-DE-PASSAY",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186410-AIRE-DE-STATIONNEMENT-DE-PASSAY"
     },
     {
       "sourceId": "ACCAMPDL044V5003A4",
@@ -1360,10 +1376,11 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://rando.loire-atlantique.fr/service/187420-AIRE-DES-JAUNAIS",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Les Jaunais : stationnement gratuit sur 15 places, services payants mais borne signalée en panne au contrôle touristique 2026. Les tarifs de service publiés dans les brochures plus anciennes (2023) ne garantissent ni fonctionnement ni prix actuels. Parking/nuitée distincts du service technique.",
-      "recheckNextCheck": "Confirmer remise en service, prix eau/électricité et règles d’accès nocturne/durée pour 2027; conserver stationnement gratuit séparé des services payants.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/187420-AIRE-DES-JAUNAIS"
+      "recheckLot": 154,
+      "recheckFinding": "Les Jaunais : 15 places de stationnement gratuites; vidange gratuite, autres services payants, mais la borne est signalée en panne sur la fiche touristique. Aucun tarif de service actuel ni date de remise en service.",
+      "recheckNextCheck": "Vérifier état de la borne, tarifs eau/électricité et règles nocturnes avant publication 2027; parking et services restent séparés.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/187420-AIRE-DES-JAUNAIS",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/187420-AIRE-DES-JAUNAIS"
     },
     {
       "sourceId": "ACCAMEVERAIREDELASALORGE",
@@ -1375,10 +1392,11 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Salorge : une aire de ravitaillement/parking mixte existe autour de l’Office de tourisme, mais parking de jour partagé avec commerces/aire de pique-nique; aucune grille tarifaire de nuit ni droit de nuit confirmé. Ne pas classer toute la zone comme aire nocturne tarifée.",
-      "recheckNextCheck": "Demander à Villeneuve-en-Retz si l’accueil camping-car nocturne est prévu, emplacement autorisé, limite et prix des services; conserver parking de jour et ravitaillement séparés.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/182589-Aire-de-stationnement-et-de-services-pour-camping-cars-de-la-Salorge"
+      "recheckLot": 154,
+      "recheckFinding": "Correction de classement : la fiche Rando Loire-Atlantique autorise l’accès toute l’année, sans réservation, jusqu’à trois nuits consécutives. La page officielle Destination Pornic affiche parking gratuit et eau à 2 €/100 L; ces conditions tarifaires ne sont pas confirmées pour 2027.",
+      "recheckNextCheck": "Conserver la permission nocturne et la limite de trois nuits; confirmer tarif eau et règles/équipements pour 2027.",
+      "recheckTariffSource": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html",
+      "recheckConditionsSource": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000128",
@@ -1390,10 +1408,11 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://rando.loire-atlantique.fr/service/184069-Clos-Mer-et-Nature",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Clos Mer et Nature est un camping avec emplacements camping-car; seuls des prix de plateformes non millésimés (ex. « dès 23 € ») sont visibles en recherche. Ne pas enregistrer ce prix d’appel ni un panier locatif comme tarif standard; aucun tarif opérateur 2027 confirmé.",
-      "recheckNextCheck": "Obtenir grille officielle emplacement 2027 (périodes, 2 personnes, véhicule/camping-car, électricité, taxe, frais) et distinguer prix de pitch, taxe et frais de réservation.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/184069-Clos-Mer-et-Nature"
+      "recheckLot": 154,
+      "recheckFinding": "Fiche d’origine du Clos Mer et Nature, doublon masqué de la fiche canonique du même camping (à 11 m). La page touristique décrit emplacements et locations, mais aucun tarif public d’emplacement camping-car 2027 n’est publié ici.",
+      "recheckNextCheck": "Garder le doublon masqué; chercher grille 2027 et frais sur fiche canonique uniquement.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/184069-Clos-Mer-et-Nature",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/184069-Clos-Mer-et-Nature"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000047",
@@ -1405,10 +1424,11 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "La FAQ officielle de La Guichardière confirme une borne ouverte aux non-résidents avec vidange et remplissage d’eau à 6 €; c’est un tarif de service-only, pas une nuitée ni un prix de pitch. Le camping reçoit aussi les camping-cars sur emplacements, avec grille de séjour à traiter séparément.",
-      "recheckNextCheck": "Confirmer si le 6 € est encore valable en 2027 et ce qu’il comprend; obtenir grille 2027 de l’emplacement séparément (période, personnes, électricité, taxe).",
-      "recheckTariffSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/"
+      "recheckLot": 154,
+      "recheckFinding": "FAQ officielle : borne ouverte aux non-résidents, 6 € pour vidange et remplissage d’eau. Il s’agit d’un service, pas d’une nuitée ou d’un prix d’emplacement. Le prix d’accueil camping-car sur emplacement nécessite une recherche séparée; pas de barème 2027 établi.",
+      "recheckNextCheck": "Confirmer en 2027 si les 6 € et le contenu du service sont maintenus; obtenir la grille de nuitée/emplacement 2027 avec conditions et taxes.",
+      "recheckTariffSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/",
+      "recheckConditionsSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/"
     },
     {
       "sourceId": "ACCAMEAIRECCARAVSPORTS",
