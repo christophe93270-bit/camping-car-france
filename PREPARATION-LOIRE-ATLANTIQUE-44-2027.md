@@ -696,3 +696,18 @@ Sources :
 - https://pitchplace.app/camps/fr/camping-les-amis-de-la-nature-wka66w?lang=fr
 
 Vérifications restantes : tarifs et saison 2027; distinction de prix adhérent/non-adhérent; taxe et électricité 2027; portée/cumul des 30 € d’arrhes et de l’acompte de 25 %. Aucun contact ni lieu ajouté, compteurs **215 / 187 / 28**. [Rapport lot 137](AUDIT-44-2027-LOT137.md).
+
+
+## Lot 138 — Camping Le Bernier, La Plaine-sur-Mer — 4 novembre 2026
+
+La page d’accueil officielle annonce une ouverture 2026 du 3 avril au 4 octobre et signale que les tarifs 2026 sont en ligne. Elle affiche une **offre couple hors saison de 294 € pour 7 nuits minimum, maximum 2 personnes** : c’est un forfait promotionnel hebdomadaire (équivalent arithmétique 42 €/nuit avant taxes, sans en faire le prix standard), pas un prix de nuitée applicable à toutes les dates. Une offre d’une nuit offerte est également annoncée pour 7 nuits minimum; les dates et conditions exactes ne sont pas détaillées sur la page. Le moteur tarifaire lié ne rend pas ses prix lisibles sans JavaScript, donc aucun tarif standard 2026 daté n’est confirmé ici.
+
+La page Emplacements contient encore des événements de réservation 2024; ils sont périmés et ne prouvent aucune période 2027. Les CGV accessibles indiquent que le forfait d’emplacement comprend, selon formule, 1 ou 2 personnes, une installation incluant camping-car, un véhicule, l’électricité et l’accès aux sanitaires; taxe de séjour et laverie sont exclues. Aucun tarif ou calendrier 2027 publié/confirmé. Statut maintenu : **tarif 2027 non confirmé**.
+
+Vérifications restantes : tarif standard 2027 par nuit sur dates précises pour 2 adultes + camping-car + véhicule + électricité; dates d’ouverture; montant taxe et autres suppléments; dates, conditions et cumulabilité de l’offre 294 €/7 nuits et de la nuit offerte. Corriger la mention de réservations 2024 sur la page Emplacements. Aucun contact ni lieu ajouté; compteurs **215 / 187 / 28**.
+
+Sources :
+- https://camping-lebernier.fr/
+- https://camping-lebernier.fr/hebergements/
+- https://reservation.secureholiday.net/fr/5511/availabilities
+- https://camping-lebernier.fr/wp-content/uploads/2022/08/conditions-generales-de-reservation.pdf
