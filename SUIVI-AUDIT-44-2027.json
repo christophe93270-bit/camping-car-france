@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 155 (04/11/2026), les seize premières fiches du lot 143. Clos Mer et Nature : frais/taxes du contrat 2026 séparés du prix de base absent; Issé évoque explicitement plusieurs nuitées sans fixer tarif ni durée; bornes, parkings et aires de pique-nique restent distingués. Reliquats ouverts : quatre fiches du lot 142 et quatre du lot 143. Aucun lieu ajouté/contact envoyé. Compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 156 (04/11/2026), quatre fiches restantes des lots 142 et 143, puis douze fiches du lot 144. Corrections : Guenrouët distingue stationnement de nuit gratuit et services à 2 €; Le Welcome affiche 10 €/jour ou nuitée, eau/électricité à part; Kerdavid a une période payante dès 20 h, distincte de l’obligation de se loger après 21 h; Le Parc de la Lande limite le séjour à 72 h/3 nuits; l’étape France Passion de Biau Chemin ne garantit pas deux nuits. Aucun lieu ajouté/contact envoyé. Compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -1440,10 +1440,11 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Avenue des Sports est décrite par le site touristique comme aire de stationnement camping-car, sans tarif. Des signalements récents rapportent toutefois une signalisation d’interdiction; statut potentiellement périmé. Ne pas garder une permission de nuit sur la seule ancienne fiche web.",
-      "recheckNextCheck": "Vérifier signalisation/règlement municipal actuel et si l’aire est maintenue, ses horaires et capacité; reclasser vers l’aire Centre-ville des Pins si l’accueil a été déplacé.",
-      "recheckTariffSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html"
+      "recheckLot": 156,
+      "recheckFinding": "Le site officiel de Saint-Brevin liste l’aire comme municipale, gratuite, ouverte toute l’année et de 8 places; il publie l’arrêté municipal 2026-115. Un signalement secondaire parle de panneaux d’interdiction partielle : la règle affichée sur place reste à vérifier avant de supprimer ou de confirmer l’accès nocturne.",
+      "recheckNextCheck": "Vérifier le texte de l’arrêté 2026-115 et la signalisation actuelle (horaires/limite 48 h éventuelle); garder séparés ce site avenue des Sports et le parking Lamartine.",
+      "recheckTariffSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html",
+      "recheckConditionsSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html"
     },
     {
       "sourceId": "ACCAMEGUENROUET",
@@ -1455,10 +1456,11 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Correction de distinction : Rue des Hauts du Port est une aire de services/parking (eau et vidange 2 € selon fiche), mais le parking adjacent au camping est signalé de jour seulement; les possibilités nocturnes le long du canal ou au Camping Saint-Clair sont des lieux distincts. Ne pas présenter le prix de la borne comme forfait nuitée.",
-      "recheckNextCheck": "Confirmer commune l’accès nocturne au parking et la prestation exacte des 2 € (eau, électricité, durée); garder le camping payant et les places de nuit séparés.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet"
+      "recheckLot": 156,
+      "recheckFinding": "La fiche départementale décrit explicitement une aire de service avec stationnement de nuit gratuit, environ deux places, services eau/vidange/électricité et service payant à 2 € en monnaie. La description ne précise pas quel service exact déclenche les 2 €; aucun millésime 2027.",
+      "recheckNextCheck": "Confirmer le contenu du jeton 2 € et le maintien des places de nuit en 2027; afficher parking de nuit gratuit séparément du service payé.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet"
     },
     {
       "sourceId": "ACCAMPDL044V5002C9",
@@ -1470,10 +1472,11 @@
       "nextCheck": "Confirmer auprès du gestionnaire le prix et le fonctionnement actuels eau/vidange/électricité ; ne pas classer la borne comme une nuitée.",
       "source": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Super U Saint-Étienne-de-Montluc : borne d’eau potable/vidange sur parking de magasin; aucune grille publique de service exploitée, ni emplacement nocturne tarifé. Récents retours signalent que les emplacements dédiés auraient disparu après agrandissement; ne pas classer comme nuitée.",
-      "recheckNextCheck": "Confirmer auprès du magasin si borne et jetons fonctionnent, prix de l’eau/vidange, et s’il existe encore un stationnement camping-car autorisé; maintenir services-only sinon.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC"
+      "recheckLot": 156,
+      "recheckFinding": "La fiche actuelle ne documente que la borne eau/vidange dans le parking du Super U; aucun prix, nuitée ou emplacement réservé n’est précisé. Ne pas classer les heures d’ouverture du magasin comme accès nocturne camping-car.",
+      "recheckNextCheck": "Confirmer fonctionnement et tarif des services auprès du magasin; maintenir services-only tant qu’un droit d’étape n’est pas documenté.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC"
     },
     {
       "sourceId": "ACCAMEAIRECAMPINGCARWELCOMFROSSAY",
@@ -1485,10 +1488,11 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 142,
-      "recheckFinding": "Le Welcome affiche un forfait stationnement camping-car de 10 €; électricité 2 € et remplissage eau 2 € séparés, aucune vidange possible. La source ne précise pas clairement si les 10 € sont par nuit/jour ni le millésime 2027; services sanitaires communs associés au forfait à clarifier.",
-      "recheckNextCheck": "Confirmer unité de durée, horaires et validité 2027 du 10 €, taxe éventuelle et inclusions; garder électricité/eau séparées et noter absence de vidange.",
-      "recheckTariffSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html"
+      "recheckLot": 156,
+      "recheckFinding": "La page touristique précise maintenant le poste de base : 10 € par journée ou nuitée; électricité +2 € et remplissage d’eau +2 €; pas de vidange. Tarif affiché sans année 2027 explicite.",
+      "recheckNextCheck": "Confirmer maintien en 2027, taxes éventuelles et inclusions (accès douche/WC et autres espaces); garder les suppléments eau/électricité séparés.",
+      "recheckTariffSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
+      "recheckConditionsSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html"
     },
     {
       "sourceId": "ACCAMPDL044V5002ZN",
@@ -1756,10 +1760,11 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/186420-AIRE-DE-STATIONNEMENT---SAINT-JULIEN-DE-VOUVANTES",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 143,
-      "recheckFinding": "Saint-Julien-de-Vouvantes : halte au bord de l’étang ; aucun tarif ni droit de nuitée officiel identifié. Une mention tierce « payant » sans montant ne permet pas de fixer un prix.",
-      "recheckNextCheck": "Demander à la mairie le tarif, l’autorisation de nuitée, la durée et les équipements ; ne pas reprendre la mention non chiffrée comme tarif.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186420-AIRE-DE-STATIONNEMENT---SAINT-JULIEN-DE-VOUVANTES"
+      "recheckLot": 156,
+      "recheckFinding": "L’étang de l’Au-delà-l’Eau est présenté comme halte de stationnement avec table de pique-nique, toilettes PMR et pêche. Aucun tarif ou droit de nuitée n’est publié.",
+      "recheckNextCheck": "Vérifier auprès de Saint-Julien-de-Vouvantes si les camping-cars peuvent y séjourner la nuit, durée et services éventuels.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186420-AIRE-DE-STATIONNEMENT---SAINT-JULIEN-DE-VOUVANTES",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186420-AIRE-DE-STATIONNEMENT---SAINT-JULIEN-DE-VOUVANTES"
     },
     {
       "sourceId": "ACCAMPDL044V51R0KA",
@@ -1771,10 +1776,11 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/183732-Plan-d-eau-du-Clos",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 143,
-      "recheckFinding": "Trans-sur-Erdre : parking d’un plan d’eau de loisirs, sans service camping-car, tarif ni nuitée confirmés. Ne pas le présenter comme aire gratuite de nuitée.",
-      "recheckNextCheck": "Confirmer la réglementation locale et l’existence éventuelle d’une autorisation camping-car de nuit, avec durée et prix.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/183732-Plan-d-eau-du-Clos"
+      "recheckLot": 156,
+      "recheckFinding": "Le plan d’eau du Clos est un lieu de promenade, pêche et pique-nique avec sanitaires; aucune offre camping-car ou permission nocturne n’est annoncée.",
+      "recheckNextCheck": "Garder hors filtre nocturne et sans prix d’hébergement sauf règlement communal explicite.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/183732-Plan-d-eau-du-Clos",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/183732-Plan-d-eau-du-Clos"
     },
     {
       "sourceId": "ACCAMPDL044V5003A7",
@@ -1786,10 +1792,11 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/3119-AIRE-DE-STATIONNEMENT-BOIS-JOALLAND",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 143,
-      "recheckFinding": "Bois-Joalland : parking camping-car gratuit selon l’office. Aucun service technique, durée maximale ou règle nocturne particulière n’est chiffré dans la source ; ne pas attribuer un tarif de nuitée.",
-      "recheckNextCheck": "Confirmer règlement 2027, durée et maintien de la gratuité auprès de Saint-Nazaire ; conserver le parking séparé des éventuelles bornes ailleurs.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3119-AIRE-DE-STATIONNEMENT-BOIS-JOALLAND"
+      "recheckLot": 156,
+      "recheckFinding": "Le Bois-Joalland est un parking camping-car gratuit selon la fiche du Département; aucune borne technique, durée maximale ou règle nocturne particulière n’est donnée.",
+      "recheckNextCheck": "Confirmer signalisation et durée avec Saint-Nazaire; ne pas présenter le parking gratuit comme une nuitée avec services.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3119-AIRE-DE-STATIONNEMENT-BOIS-JOALLAND",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/3119-AIRE-DE-STATIONNEMENT-BOIS-JOALLAND"
     },
     {
       "sourceId": "ACCAMEAIREDESAINTLYPHARD",
@@ -1801,10 +1808,11 @@
       "nextCheck": "Confirmer auprès du gestionnaire le tarif et l’état actuel de la borne, séparément du stationnement nocturne.",
       "source": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 143,
-      "recheckFinding": "Saint-Lyphard : stationnement gratuit uniquement de 8 h à 20 h ; nuit expressément interdite. La borne eau/vidange est distincte et son tarif n’est pas publié. Ne pas afficher de nuitée ni « gratuit » pour les services.",
-      "recheckNextCheck": "Maintenir l’exclusion du filtre nocturne ; demander au gestionnaire le tarif 2027 de la borne et vérifier le maintien des horaires de jour.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville"
+      "recheckLot": 156,
+      "recheckFinding": "La source départementale indique 10 places, parking de jour gratuit de 8 h à 20 h et nuit expressément non autorisée. Le prix de la borne de services n’est pas indiqué.",
+      "recheckNextCheck": "Maintenir hors nuitée; demander le tarif 2027 de la borne et confirmer les horaires de jour.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville"
     },
     {
       "sourceId": "ACCAMESHASCCAR",
@@ -1816,10 +1824,11 @@
       "nextCheck": "Confirmer auprès du gestionnaire le tarif et l’état actuel de la borne, séparément du stationnement nocturne.",
       "source": "https://rando.loire-atlantique.fr/service/5959-Aire-de-ravitaillement-pour-Camping-car",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Saint-Hilaire-de-Chaléons : la source décrit une borne liée au camping municipal de 32 emplacements ; le nombre 32 ne correspond pas aux emplacements propres de la borne. Aucun tarif de borne ou de séjour n’y est publié. Séparer nuitée au camping et usage de services.",
-      "recheckNextCheck": "Mairie/camping : prix 2027 du séjour, tarifs éventuels eau/électricité/vidange, inclusions et fonctionnement de la borne.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/5959-Aire-de-ravitaillement-pour-Camping-car"
+      "recheckLot": 156,
+      "recheckFinding": "La fiche décrit une borne d’eau et d’électricité liée au camping municipal de Saint-Hilaire-de-Chaléons; les 32 places correspondent au camping, non à la borne. La page affiche un contact postal à Rouans, incohérence à garder signalée.",
+      "recheckNextCheck": "Confirmer prix et fonctionnement de la borne et du camping en 2027; vérifier l’adresse postale sans transférer le prix du camping à la borne.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/5959-Aire-de-ravitaillement-pour-Camping-car",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/5959-Aire-de-ravitaillement-pour-Camping-car"
     },
     {
       "sourceId": "ACCAMACCAMEELPAIRECAMPCAR",
@@ -1831,10 +1840,11 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/186401-Aire-de-stationnement--a-La-Plaine-sur-Mer",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "La Plaine-sur-Mer : stationnement gratuit, limité à 48 h ; l’office indique que la borne d’eau/vidange à proximité est hors service. Garder la panne séparée du parking et ne pas afficher ces services comme disponibles.",
-      "recheckNextCheck": "Vérifier auprès de la mairie si la borne est remise en service, les tarifs des services et le maintien des règles de parking en 2027.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186401-Aire-de-stationnement--a-La-Plaine-sur-Mer"
+      "recheckLot": 156,
+      "recheckFinding": "À La Plaine-sur-Mer, parking gratuit de camping-car limité à 48 h; la borne eau/vidange voisine est indiquée hors service par l’office. Ne pas afficher ces services comme disponibles.",
+      "recheckNextCheck": "Confirmer remise en service et tarifs de borne; maintenir le parking gratuit séparé et vérifier la limite 48 h en 2027.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186401-Aire-de-stationnement--a-La-Plaine-sur-Mer",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186401-Aire-de-stationnement--a-La-Plaine-sur-Mer"
     },
     {
       "sourceId": "ACCAMPDL044V51HCG7",
@@ -1846,10 +1856,11 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Pierric : la fiche source désigne une aire de pique-nique seulement. Retirer toute qualification d’aire camping-car ou de nuitée ; aucun tarif de nuitée n’est applicable à cette fiche.",
-      "recheckNextCheck": "Commune : confirmer si un parking camping-car distinct existe et ses règles, sans l’assimiler au point de pique-nique.",
-      "recheckTariffSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/"
+      "recheckLot": 156,
+      "recheckFinding": "Le point de Pierric est une aire de pique-nique; aucune nuitée, service ou tarif camping-car n’est confirmé. Le GPS local n’est pas identifié comme aire d’accueil.",
+      "recheckNextCheck": "Garder hors filtre nocturne; ne pas attribuer de prix de nuitée.",
+      "recheckTariffSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/",
+      "recheckConditionsSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/"
     },
     {
       "sourceId": "ACCAMECCKERDAVID",
@@ -1861,10 +1872,11 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Kerdavid : la mairie publie 13,50 € pour la période tarifée 20 h–9 h, eau 10 € pour 150 L/10 min, maximum 48 h, sans électricité ; paiement via ALTEKIP/ISIPAY et immatriculation requise. Ce tarif est actuel sur la page mais sans millésime 2027. L’obligation d’hébergement 21 h–9 h diffère de la plage payante 20 h–9 h : garder cette nuance visible. Le paiement par application est le mode de paiement/réservation, pas un supplément à ajouter.",
-      "recheckNextCheck": "Mairie du Croisic : confirmer barème applicable en 2027, tranche de paiement (20 h ou 21 h), taxe de séjour éventuelle et disponibilité actuelle des services à Kerdavid.",
-      "recheckTariffSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21"
+      "recheckLot": 156,
+      "recheckFinding": "Page municipale du Croisic : nuitée facturée 13,50 € de 20 h à 9 h, eau 10 € pour 150 L/10 min, 48 h maximum; Kerdavid (parking de la Coopérative maritime) compte 8 places et dispose eau/vidanges selon la mairie. L’obligation générale de loger en camping ou aire porte sur 21 h–9 h; paiement du stationnement à partir de 20 h. Tarif affiché sans millésime 2027.",
+      "recheckNextCheck": "Confirmer maintien du tarif et disponibilité des équipements en 2027; conserver distinction entre période payante (20–9), obligation d’hébergement (21–9), et poste eau.",
+      "recheckTariffSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
+      "recheckConditionsSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21"
     },
     {
       "sourceId": "ACCAMPDL044V5003AG",
@@ -1876,10 +1888,11 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Saint-Michel-Chef-Chef, parking de la mairie : accès et vidange annoncés gratuits ; pas d’eau, d’électricité ni d’horodateur selon l’office. Ne pas le confondre avec le camping Clos Mer et Nature, autre fiche de la commune.",
-      "recheckNextCheck": "Confirmer la règle de nuitée/durée et le maintien de la gratuité en 2027 auprès de la mairie.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal"
+      "recheckLot": 156,
+      "recheckFinding": "L’aire près de la mairie à Saint-Michel-Chef-Chef est gratuite, avec vidange, sans borne d’eau ni électricité selon l’office. Distincte du Clos Mer et Nature et sans tarif de nuitée identifié.",
+      "recheckNextCheck": "Vérifier la nuitée/durée et le maintien de la gratuité en 2027; ne pas ajouter d’équipements.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal"
     },
     {
       "sourceId": "ACCAMPDL044V50028I",
@@ -1891,10 +1904,11 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Domaine des Croix : six emplacements et services (eau, vidange, électricité, douches/toilettes) sont décrits, mais aucun prix de nuitée ou des services n’est indiqué. Ne pas assimiler l’accueil chez le vigneron à une gratuité.",
-      "recheckNextCheck": "Appeler le domaine : tarif 2027, réservation ou rendez-vous, services inclus, durée et conditions de nuitée.",
-      "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre"
+      "recheckLot": 156,
+      "recheckFinding": "Le Domaine des Croix compte six emplacements de camping-car, eau, vidanges, électricité, douche et toilettes, ouvert toute l’année; la fiche régionale n’affiche pas de prix. L’étape est identifiée France Passion, ce qui ne rend pas les services ou l’accueil payants par défaut.",
+      "recheckNextCheck": "Vérifier présence au guide France Passion 2027, conditions d’accueil et prix éventuels des services; ne pas inventer de forfait.",
+      "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre",
+      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre"
     },
     {
       "sourceId": "ACCAMPDL044V51CY46",
@@ -1906,10 +1920,11 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Bas-du-Tertre : halte au bord de l’étang, sans tarif camping-car, équipements techniques ou autorisation nocturne publiés. Ne pas annoncer une nuitée gratuite.",
-      "recheckNextCheck": "Mairie de Saint-Aubin-des-Châteaux : confirmer droits de nuitée, durée et éventuel tarif 2027.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX"
+      "recheckLot": 156,
+      "recheckFinding": "Saint-Aubin-des-Châteaux : halte au bord de l’étang avec pétanque/pêche; aucun prix, borne ou autorisation nocturne publiée.",
+      "recheckNextCheck": "Confirmer auprès de la mairie le droit de nuit et sa durée; aucun tarif à saisir avant réponse.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX"
     },
     {
       "sourceId": "ACCAMPDL044V51CXW1",
@@ -1921,10 +1936,11 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Vorajoux : le tourisme décrit un parking de loisirs sans tarif ni services de camping-car ; l’accueil de nuit n’est pas confirmé. Garder le tarif et le droit de nuitée non renseignés.",
-      "recheckNextCheck": "Mairie de Grand-Auverné : vérifier la signalisation et la possibilité de nuitée avec durée et tarif éventuel.",
-      "recheckTariffSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/"
+      "recheckLot": 156,
+      "recheckFinding": "Vorajoux est une aire de stationnement touristique proche d’un terrain de pétanque; aucun tarif de camping-car, service ou droit de nuit n’est détaillé.",
+      "recheckNextCheck": "Vérifier la signalisation et l’autorisation nocturne avec Grand-Auverné.",
+      "recheckTariffSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/",
+      "recheckConditionsSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/"
     },
     {
       "sourceId": "ACCAMPDL044V5003A5",
@@ -1936,10 +1952,11 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Port du Vivier : parking pour camping-cars annoncé gratuit ; aucune borne d’eau, vidange ou électricité n’est attribuée à ce point. La durée et les règles de nuitée ne sont pas indiquées par la fiche consultée.",
-      "recheckNextCheck": "Saint-Nazaire : confirmer règlement, durée de stationnement et maintien de la gratuité en 2027.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER"
+      "recheckLot": 156,
+      "recheckFinding": "Le parking du Port du Vivier accueille les camping-cars gratuitement selon le Département; aucune borne technique ou limite nocturne n’est indiquée.",
+      "recheckNextCheck": "Confirmer règles/durée et maintien de gratuité en 2027; garder les services absents/non confirmés.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER"
     },
     {
       "sourceId": "ACCAMECCLALANDE",
@@ -1951,10 +1968,11 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Parc de la Lande, Mesquer : aire de stationnement saisonnière, 20 places, maximum 72 h/3 nuits et fermeture hivernale selon météo. La borne à 500 m est distincte ; aucun tarif de parking n’est publié. Ne pas appliquer à cette aire les restrictions de nuitée propres à la Bôle de Merquel.",
-      "recheckNextCheck": "Commune : prix 2027, dates d’ouverture exactes et règle de nuitée/durée, en gardant la borne de Kerlagadec/à proximité comme service séparé.",
-      "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande"
+      "recheckLot": 156,
+      "recheckFinding": "Le Parc de la Lande dispose de 20 places, stationnement limité à 72 h ou trois nuits, terrain en herbe fermé l’hiver et réouverture selon météo; borne de services à 500 m. Aucun tarif de stationnement publié.",
+      "recheckNextCheck": "Maintenir l’accueil nocturne avec durée 72 h/3 nuits et saisonnalité; vérifier prix 2027 et règles d’ouverture communales.",
+      "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande",
+      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande"
     },
     {
       "sourceId": "ACCAMPDL044V50ET43",
@@ -1966,10 +1984,11 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Rue du Pont, La Chevallerais : environ dix places décrites, sans service technique, prix ni autorisation explicite de nuitée publiée. Ne pas afficher de gratuité présumée.",
-      "recheckNextCheck": "Mairie : vérifier tarif, autorisation nocturne, durée maximale et équipements pour 2027.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT"
+      "recheckLot": 156,
+      "recheckFinding": "La Chevallerais : environ dix places près du canal et du bourg, mais ni tarif, ni services, ni autorisation nocturne précisées.",
+      "recheckNextCheck": "Confirmer règle de nuit, durée et tarif éventuel auprès de la commune; ne pas supposer la gratuité.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT"
     },
     {
       "sourceId": "ACCAMPDL044V50ZDO9",
@@ -1981,10 +2000,11 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Biau Chemin, Nort-sur-Erdre : la halte France Passion est gratuite jusqu’à 24 h pour les véhicules autonomes avec adhésion/guide valable ; ce n’est ni un camping équipé, ni une prestation avec réservation. Le coût d’adhésion au réseau doit rester distinct du tarif sur place.",
-      "recheckNextCheck": "Vérifier que cette exploitation figure bien au Guide/à l’application France Passion 2027 et confirmer les conditions d’accueil propres à l’étape ; ne pas ajouter d’eau/vidange/électricité non attestées.",
-      "recheckTariffSource": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
+      "recheckLot": 156,
+      "recheckFinding": "Le Biau Chemin est une étape France Passion avec deux places; la fiche régionale annonce deux nuits maximum, mais la règle du réseau prévoit une étape gratuite de 24 h maximum pour les hôtes actifs, véhicule autonome et guide/adhésion valides. La seconde nuit n’est pas garantie sans accord de l’hôte; statut guide 2027 non vérifié.",
+      "recheckNextCheck": "Vérifier inscription active au guide 2027 et conditions spécifiques de l’hôte; garder l’adhésion France Passion distincte d’un tarif de nuitée commerciale.",
+      "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion",
+      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion"
     },
     {
       "sourceId": "ACCAMPDL044V50OH5Q",
