@@ -648,3 +648,13 @@ Sources :
 - https://www.ceveo.com/sejours-au-camping
 
 Aucun montant 2027 ajouté, aucun lieu ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 134](AUDIT-44-2027-LOT134.md).
+
+## Lot 135 — GCU Mesquer : séparer nuitées 2026, adhésion et prix d’appel, 4 novembre 2026
+
+La fiche opérateur accueille les camping-cars sur 77 emplacements et affiche une saison du 3 avril au 1er novembre 2026. Elle indique « à partir de 14,45 €/nuit — très basse saison », sans publication de calendrier ni de tarif 2027. Ce prix d’appel ne doit pas être repris comme tarif 2027 complet.
+
+La brochure officielle 2026 donne les prix par nuitée. En haute saison, emplacement + 1 adulte adhérent : **24,09 €**; adulte adhérent supplémentaire **5,68 €**; enfant adhérent **2,84 €**; invité adulte/enfant **11,35 €/5,68 €**; non-adhérent avec emplacement + 1 adulte **29,76 €**. En basse saison, les montants respectifs sont **16,86 €**, **3,97 €**, **1,99 €**, **7,95 €/3,97 €** et **20,84 €**. Le tarif de base inclut emplacement, une nuitée adulte et électricité, y compris le forfait non-adhérent avec un adulte. Les tarifs sont TTC; une taxe de séjour locale peut s’ajouter. En 2026, frais de dossier : **15 €**; arrhes : **30 %** de la réservation.
+
+La page GCU annonce le 14,45 € en très basse saison, mais Mesquer ne figure pas dans la grille PDF 2026 de cette saison : faire clarifier le périmètre et le millésime de ce prix d’appel. La cotisation annuelle 2026 était séparée : **29 €** adulte de plus de 26 ans, **11 €** jeune 18–26 ans, **5 €** mineur rattaché. La cotisation de soutien de **15 €** ne donne pas l’adhésion. Aucun montant de cotisation, frais ou nuitée 2027 n’est confirmé.
+
+Statut maintenu : **tarif 2027 non confirmé**. Vérifications à faire à la parution des documents 2027 : calendrier et grille complète Mesquer, prix d’appel de 14,45 € et sa période, électricité, taxe, frais, arrhes, cotisation annuelle et conditions d’accès/réservation. Aucun contact ni lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 135](AUDIT-44-2027-LOT135.md).
