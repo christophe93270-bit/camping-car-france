@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 165 (04/11/2026), vingt fiches existantes des lots 135 à 151. Aucun tarif public complet 2027 nouveau confirmé. Correction de classement pour la Ferme d’Isson : le forfait camping-car 15,20 €/nuit est explicitement SAISON 2026, 2 personnes + véhicule + électricité + taxe, réservation et 3 nuits minimum. Bréhadour affiche une grille saisonnière sans millésime vérifié, à ne pas assimiler à 2027; le devis Beaupré 31 € reste un total partiel pour une nuit datée. Aucun lieu ajouté/contact envoyé; compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 166 (04/11/2026), vingt fiches existantes. La promotion Bel Air 2027 (−20 % cumulables) n’explicite pas son application aux emplacements; aucune grille complète 2027 nouvelle confirmée. Les tarifs municipaux du Pouliguen, de La Prée et du Camping du Golf restent millésimés 2026. La Govelle demeure affichée gratuite jusqu’à nouvel ordre; stationnement et services restent séparés. Aucun lieu ajouté/contact envoyé; compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -490,9 +490,9 @@
       "nextCheck": "Séparer nuitée, services et ACSI ; obtenir prix 2027.",
       "source": "https://www.camping-la-pindiere.com/27-tarifs",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "La page officielle reste millésimée 2025; repère secondaire PiNCAMP 2026 : 16,90–21,10 €/nuit, électricité et taxe exclues. Pas de grille officielle 2027 ni de prix validé pour la borne seule.",
-      "recheckNextCheck": "Obtenir grille 2027 officielle et relier le prix de base, électricité (6/10A), taxe et personne supplémentaire. Confirmer conditions/date de validité du comparatif PiNCAMP 2026 avant d’utiliser en historique.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : La Pindière : la page d’emplacements est encore intitulée Tarifs 2025; aucun barème 2027 ni prix de la borne seule. PiNCAMP 2026 (16,90–21,10 €/nuit) est secondaire, hors électricité et taxe.",
+      "recheckNextCheck": "Obtenir tarif opérateur 2027; dissocier emplacement, ampérage, taxe et service borne.",
       "recheckTariffSource": "https://www.camping-la-pindiere.com/27-tarifs/96-tarifs-emplacements.html",
       "recheckSecondaryTariffSource": "https://www.pincamp.fr/campings/camping-la-pindiere",
       "recheckPitchSource": "https://www.camping-la-pindiere.com/24-camping"
@@ -507,9 +507,9 @@
       "nextCheck": "Applicabilité aux emplacements/boxes, conditions, échéance, prix, taxe et frais.",
       "source": "https://www.belairpornichet.fr/belair",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Offre officielle Early Booking 2027 : −20 % cumulables sur tous les hébergements et dates, mais l’application aux emplacements/boxes camping-car n’est pas explicitée. Tarif de nuitée 2027 non confirmé; saison présentée sur la page encore 2026.",
-      "recheckNextCheck": "Confirmer par conditions opérateur si -20 % s’applique aux emplacements/boxes camping-car, dates d’achat et de séjour, cumul, et barème de base par nuit; garder la promotion en champ offre séparé.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Bel Air : Early Booking 2027 à −20 % cumulables sur les hébergements et dates, mais application aux emplacements/boxes non établie. Brochure ancienne : prix d’appel 27 €/nuit emplacement, électricité en sus; box dès 14 €, non millésimés.",
+      "recheckNextCheck": "Confirmer application de la promotion aux emplacements et obtenir le prix de base 2027 par nuit.",
       "recheckPromotionSource": "https://www.belairpornichet.fr/camping-4-etoiles-proche-la-baule/newsletter",
       "recheckBookingSource": "https://www.belairpornichet.fr/booking",
       "recheckPitchSource": "https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars"
@@ -524,9 +524,9 @@
       "nextCheck": "Devis 2027 daté et tout compris.",
       "source": "https://www.grandfay.fr/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Le site officiel met en avant les offres longue durée; aucun prix public camping-car 2027 daté. Le « dès 15 €/jour » saisonnier (min. 2 mois) n’est pas un prix par nuit; le repère Pitchup 2027 demeure secondaire et non confirmé par l’opérateur.",
-      "recheckNextCheck": "Demander au camping le prix standard 2027 et saison, puis rapprocher l’offre Pitchup 16,88 € + 13 € de taxes/frais avec le moteur officiel; ne pas classer le tarif saisonnier 15 €/jour comme prix public/nuit. Vérifier taxe 2027 et frais de réservation.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Grand Fay : 15 €/jour correspond explicitement à une offre saisonniers été 2026, électricité incluse, séjour minimum 2 mois; ce n’est pas le tarif normal par nuit. Saison 2026; aucun prix standard 2027.",
+      "recheckNextCheck": "Obtenir tarif de nuitée 2027 et garder l’offre longue durée à part.",
       "recheckPitchSource": "https://www.grandfay.fr/emplacements-camping-st-pere-en-retz-5.html",
       "recheckSeasonalOfferSource": "https://www.grandfay.fr/offre-hebergement-pas-saisonniers-loire-atlantique-120.html",
       "recheckTaxDatasetSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-005_offre-touristique-hotelleries-de-plein-air-rpdl/",
@@ -542,9 +542,9 @@
       "nextCheck": "Forfait 2027, branchement et éventuelle location d’adaptateur, taxe.",
       "source": "https://www.la-cale-sauvage.com/nos-emplacements/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "La page officielle maintient des emplacements avec/sans électricité et les tarifs 2026; aucune grille 2027 publiée. Montants en image non relevés numériquement.",
-      "recheckNextCheck": "Relever les montants directement depuis la grille visuelle ou le moteur de réservation 2026 (prix de base, électricité, personnes, taxe, réservation) et obtenir la version 2027 avec ouverture. Ne pas confondre séjour nuitée, petit-déjeuner ni prix locatifs.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : La Cale Sauvage : page tarifs 2026, saison du 03/04 au 04/10/2026; emplacements avec ou sans électricité. Aucun tarif 2027.",
+      "recheckNextCheck": "Attendre grille 2027 et garder la page 2026 comme historique.",
       "recheckTariffSource": "https://www.la-cale-sauvage.com/tarifs-du-camping/",
       "recheckBookingSource": "https://www.la-cale-sauvage.com/reserver/",
       "recheckPitchSource": "https://www.la-cale-sauvage.com/nos-emplacements/"
@@ -559,9 +559,9 @@
       "nextCheck": "Barème ordinaire et ACSI 2027, électricité, taxe et services.",
       "source": "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Tarifs opérateur 2026 : emplacement pour 1–2 personnes 16 € hors saison et 18 € haute saison; électricité en supplément. ACSI 17 € = offre conditionnelle, pas tarif standard. Pas de grille 2027.",
-      "recheckNextCheck": "Confirmer le barème 2027 par période, ce qui est inclus, électricité, taxe, et conditions distinctes du tarif ACSI.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Rives de Grand Lieu : opérateur affiche tarifs 2026 de 16 €/nuit hors saison et 18 € haute saison (1–2 personnes, sans électricité); ACSI 17 € sous conditions. Aucun tarif 2027.",
+      "recheckNextCheck": "Confirmer grille 2027, électricité, taxe et conditions ACSI séparément.",
       "recheckTariffSource": "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu"
     },
     {
@@ -574,9 +574,9 @@
       "nextCheck": "Devis 2027 véhicule et occupants, services et suppléments.",
       "source": "https://ushuaia-villages.com/fr-fr/ushuaia-villages-camping-l-estuaire_1511093.html",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Catégorie camping-car avec électricité distincte, 2 personnes incluses; le « nouveau prix 70 € pour 7 nuits » n’a pas de dates/catégorie établies. Total de séjour, pas nuitée; saison annoncée 2026.",
-      "recheckNextCheck": "Obtenir prix camping-car par nuit pour dates 2027, composition, électricité, taxes et frais; clarifier la catégorie et les dates du forfait 70 €/7 nuits.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : L’Estuaire : « nouveau prix 70 € pour 7 nuits » pour aire camping-car avec électricité, deux personnes incluses; dates et taxes non visibles. Total de séjour, pas une nuitée 2027 confirmée.",
+      "recheckNextCheck": "Vérifier dates/options du panier, taxes/frais et saisonnalité.",
       "recheckTariffSource": "https://ushuaia-villages.com/fr-fr/ushuaia-villages-camping-l-estuaire_1511093.html"
     },
     {
@@ -589,9 +589,9 @@
       "nextCheck": "Grille municipale ou confirmation du gestionnaire 2027, taxe et services.",
       "source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/machecoul-saint-meme/camping-municipal-la-rabine",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Pas de tarif opérateur 2027. Le repère secondaire 2026 de 9,50–11,40 €/nuit pour emplacement + véhicule + 2 pers. reste indicatif; ne pas intégrer les tarifs bungalow.",
-      "recheckNextCheck": "Faire confirmer par gestionnaire la grille 2027 camping-car, périodes, électricité, taxe et services; conserver 9,50–11,40 € comme historique secondaire seulement.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : La Rabine : pas de grille opérateur 2027; repère secondaire 9,50–11,40 €/nuit pour emplacement + véhicule + 2 pers. indicatif seulement.",
+      "recheckNextCheck": "Obtenir le tarif opérateur daté 2027 avec électricité et taxe.",
       "recheckTariffSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/machecoul-saint-meme/camping-municipal-la-rabine"
     },
     {
@@ -604,9 +604,9 @@
       "nextCheck": "Prix camping-car 2027, électricité, taxe, frais et durée minimale.",
       "source": "https://www.rochelets.com/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Accueil des camping-cars confirmé, mais aucun tarif opérateur 2027 daté. Le repère secondaire dès 15,80 €/nuit et l’électricité 5–6,50 €/nuit ne forment pas un total opérateur; contrat consulté 2025.",
-      "recheckNextCheck": "Demander la grille 2027 (prix selon dates, électricité, taxe, frais de dossier, durée minimale). Ne pas traiter le prix d’appel secondaire comme forfait complet ou confirmé.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Les Rochelets : emplacements camping-car confirmés; contrat consulté millésimé 2025. Dès 15,80 € et électricité 5–6,50 € sont des repères secondaires, pas un forfait opérateur 2027.",
+      "recheckNextCheck": "Obtenir grille 2027, taxe, frais et minimum.",
       "recheckTariffSource": "https://www.rochelets.com/"
     },
     {
@@ -619,9 +619,9 @@
       "nextCheck": "Saison 2027 et forfait étape camping-car, taxe et suppléments.",
       "source": "https://www.pornic.com/camping-l-albatros.html",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Aucun forfait étape camping-car 2027 vérifiable; ne pas déduire le prix d’une nuitée des tarifs camping ou locatifs.",
-      "recheckNextCheck": "Confirmer saison 2027 et prix du forfait étape camping-car, heures d’arrivée/départ, inclusions, taxe et suppléments.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : L’Albatros : aucun forfait étape camping-car 2027 vérifié; prix de camping et locatifs ne doivent pas être imputés au forfait halte.",
+      "recheckNextCheck": "Confirmer prix, horaires, saison et inclusions de l’étape.",
       "recheckTariffSource": "https://www.pornic.com/camping-l-albatros.html"
     },
     {
@@ -634,9 +634,9 @@
       "nextCheck": "Délibération ou grille municipale 2027, saison et suppléments.",
       "source": "https://campings.lepouliguen.fr/les-campings/le-clein/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Mairie : tarifs communs 2026 pour 2 personnes + emplacement + véhicule + 6A, 18,95/20,70/27,30 € selon période; saison du Cléin jusqu’au 09/11/2026. Pas de grille 2027.",
-      "recheckNextCheck": "Publier/obtenir la délibération et grille 2027 par périodes; valider inclusions, supplément 10A au Cléin, personnes supplémentaires, taxe et dates propres à chaque camping.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Le Cléin : grille municipale 2026 à 18,95/20,70/27,30 €/nuit pour 2 pers., emplacement, véhicule et 6 A; taxe 0,22 €/pers./nuit en sus. Saison 28/03–09/11/2026.",
+      "recheckNextCheck": "Obtenir grille 2027 et vérifier suppléments 10 A.",
       "recheckTariffSource": "https://campings.lepouliguen.fr/les-campings/le-clein/"
     },
     {
@@ -649,9 +649,9 @@
       "nextCheck": "Délibération ou grille municipale 2027, saison et suppléments.",
       "source": "https://campings.lepouliguen.fr/les-campings/les-mouettes/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Mairie : grille 2026 commune au Cléin, 18,95/20,70/27,30 € la nuit pour 2 pers. + véhicule + 6A; Les Mouettes ont fermé le 03/11/2026. Pas de prix 2027.",
-      "recheckNextCheck": "Obtenir tarif/délibération 2027 et calendrier; confirmer suppléments, taxe, durée minimale et la période exacte applicable aux Mouettes.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Les Mouettes (Le Pouliguen) : même grille municipale 2026 que Le Cléin, 18,95/20,70/27,30 € avec 6 A et taxe 0,22 € en sus; saison jusqu’au 03/11/2026.",
+      "recheckNextCheck": "Obtenir tarifs/calendrier 2027.",
       "recheckTariffSource": "https://campings.lepouliguen.fr/les-campings/les-mouettes/"
     },
     {
@@ -664,9 +664,9 @@
       "nextCheck": "Confirmation exploitant : année, périodes, composition, taxe et frais.",
       "source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/prefailles/la-pree",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Grille opérateur 2026 : 16/20/25/32/20/16 €/nuit par période, min. 2 nuits. CampingFrance indexe 32 €/jour en 2027 + électricité 4,90 €/jour, mais cela reste secondaire et incomplet.",
-      "recheckNextCheck": "Confirmer directement grille 2027, périodes et composition du 32 €; isoler électricité, personnes, animal, taxe et séjour minimum. Ne pas substituer la source secondaire à la grille officielle.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : La Prée : grille opérateur 2026, minimum 2 nuits : 16/20/25/32/20/16 €/nuit par périodes; 10 A +4,90 €/nuit. Repère CampingFrance 32 € en 2027 reste secondaire/incomplet.",
+      "recheckNextCheck": "Ne pas classer le repère secondaire comme tarif confirmé; attendre barème officiel 2027.",
       "recheckSource": "https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements",
       "secondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/prefailles/la-pree",
       "recheckTariffSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/prefailles/la-pree"
@@ -681,9 +681,9 @@
       "nextCheck": "Devis camping-car 2027, étape versus emplacement, total et dates d’ouverture.",
       "source": "https://www.campingdugolf.fr/offres/tarifs-emplacements/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Les tarifs d’emplacement opérateur consultés sont encore 2026; électricité, taxe, déchets et frais de gestion sont séparés. Pas de tarif 2027 confirmé.",
-      "recheckNextCheck": "Obtenir simulation/devis 2027 pour camping-car et dates; confirmer base, électricité, taxes, frais, et catégorie « étape » versus emplacement.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Camping du Golf : grille dynamique opérateur 2026 à 19/24/32/36/38 €/nuit pour deux personnes selon périodes. 6 A +5 €, taxe 0,66 €/adulte/jour, taxe déchets 0,50 €/pers./jour, frais 25 € dès 5 nuits, en plus.",
+      "recheckNextCheck": "Obtenir prix 2027 et garder tous les suppléments séparés.",
       "recheckTariffSource": "https://www.campingdugolf.fr/offres/tarifs-emplacements/"
     },
     {
@@ -696,9 +696,9 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/180206-Aire-de-camping-cars-de-la-Bole-de-Merquel",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Alerte de classement : arrêté municipal 08/04/2021 interdit les véhicules couchants sur le terrain/parking de la Bôle de Merquel de 22 h à 8 h, mais autorise une aire d’accueil désignée route de la Bôle. La grille 2026 de 7 €/nuit ne peut être affectée à cette fiche sans rapprocher ses coordonnées de la zone autorisée. Aucun prix 2027 à retenir.",
-      "recheckNextCheck": "Rapprocher les coordonnées avec les limites du plan municipal et confirmer si la fiche désigne le terrain interdit la nuit ou l’aire d’accueil autorisée. Jusqu’à cette vérification, ne pas appliquer le 7 €/nuit au parking interdit ni le compter comme nuitée.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Bôle de Merquel : arrêté municipal interdit les véhicules couchants 22 h–8 h sur le terrain entre les deux routes, mais autorise les aires désignées route de la Bôle. Localisation exacte de cette fiche à rapprocher; aucun tarif 2027 à appliquer.",
+      "recheckNextCheck": "Vérifier les coordonnées et limites avant d’attribuer tarif ou droit de nuitée.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180206-Aire-de-camping-cars-de-la-Bole-de-Merquel"
     },
     {
@@ -711,9 +711,9 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.ot-batzsurmer.fr/aire-de-camping-cars-de-la-govelle.html",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "La page OT relue aujourd’hui affiche encore la gratuité jusqu’à nouvel ordre pour dysfonctionnement. Grille saisonnière de référence : 9,26/11,66 € taxes comprises, max. 2 nuitées; jeton d’eau 2 € séparé. Pas un tarif 2027.",
-      "recheckNextCheck": "Confirmer la fin de la gratuité provisoire et la grille/taxes 2027; distinguer droit de stationnement du jeton d’eau.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Govelle : office de tourisme affiche gratuité jusqu’à nouvel ordre pour dysfonctionnement; tarifs de référence 9,26/11,66 €, limite 2 nuitées (48 h). Jeton eau 2 € séparé. Pas de tarif 2027.",
+      "recheckNextCheck": "Confirmer fin gratuité et barème 2027; dissocier stationnement et eau.",
       "recheckTariffSource": "https://www.ot-batzsurmer.fr/aire-de-camping-cars-de-la-govelle.html"
     },
     {
@@ -726,9 +726,9 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Parking municipal gratuit; la borne eau/vidanges est indiquée à 3 € par carte par l’office de tourisme. Autorisation de nuitée et règles de durée non établies.",
-      "recheckNextCheck": "Confirmer auprès de la mairie si nuitée autorisée, statut de l’eau/service (gratuit ou jetons) et règles/durée; conserver « parking gratuit » distinct d’un tarif de nuitée.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : La Boissière-du-Doré : mairie confirme aire et parking gratuits; tarif secondaire de 3 € pour borne eau non confirmé par la page municipale. Nuitée/durée non établies.",
+      "recheckNextCheck": "Confirmer borne, services, droit de nuitée et limite auprès de source officielle.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE"
     },
     {
@@ -741,9 +741,9 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/187566-Aire-de-camping-car-du-camping-du-Chene",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Aire indépendante de 21 places confirmée. 13,10 € + 3,50 € pour l’eau provient d’un annuaire de voyageurs, pas d’un tarif opérateur 2027; le tarif du camping adjacent ne s’applique pas automatiquement.",
-      "recheckNextCheck": "Demander au gestionnaire prix et conditions de l’aire dédiée (nuitée, services, accès au camping, électricité, taxe) et distinguer du séjour sur emplacement de camping.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Aire Camping du Chêne : aire dédiée de 21 places confirmée par fiches institutionnelles. Repère communautaire 13 € + électricité/eau/taxe reste non officiel; aucun tarif 2027 opérateur.",
+      "recheckNextCheck": "Obtenir tarifs et inclusions auprès de l’aire; ne pas appliquer le prix du camping voisin.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/187566-Aire-de-camping-car-du-camping-du-Chene"
     },
     {
@@ -756,9 +756,9 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/le-port-cheri",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "CampingFrance confirme borne artisanale et nuit minimum. Repères d’annuaire 20–26,50 € selon source/date ne confirment pas un tarif opérateur 2027; distinguer séjour et service de borne.",
-      "recheckNextCheck": "Obtenir tarifs 2027 par période et catégorie, composition du forfait, électricité, taxe et frais. Garder le « dès 20 €/jour » comme prix d’appel non daté.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Port Chéri : site indique emplacement à partir de 20 €/jour sans millésime; CampingFrance donne forfait camping-car 26,50 €/jour sous Tarifs 2026. Différence de sources/catégories; pas de 2027 confirmé.",
+      "recheckNextCheck": "Obtenir grille 2027 et distinguer emplacement, aire de service et forfait camping-car.",
       "recheckTariffSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/le-port-cheri"
     },
     {
@@ -771,9 +771,9 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.bienvenue-pays-ancenis.com/fr/fiche/hotellerie-de-plein-air-camping/camping-de-la-tour-oudon_TFOHPAPDL044000081/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "Fiche tourisme : saison 11/04–27/09/2026. Tarifs 14/17/20 € concernent le forfait standard 2026; ancien stop-accueil à 17 € (2024) ne doit pas être fusionné avec ce tarif. Forfait stop-accueil 2027 non confirmé.",
-      "recheckNextCheck": "Confirmer pour 2027 le forfait stop-accueil et ses inclusions, distinct du prix standard 2026; demander taxe/suppléments et calendrier.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Camping de la Tour : calendrier et grille standard 2026; le stop-accueil historique de 17 € est un tarif 2024 distinct. Aucun tarif stop-accueil 2027.",
+      "recheckNextCheck": "Confirmer forfait stop-accueil 2027, services, taxe et durée.",
       "recheckTariffSource": "https://www.bienvenue-pays-ancenis.com/fr/fiche/hotellerie-de-plein-air-camping/camping-de-la-tour-oudon_TFOHPAPDL044000081/"
     },
     {
@@ -786,9 +786,9 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 152,
-      "recheckFinding": "La mairie affiche 13,50 € pour 20 h–9 h, dont 0,60 € de taxe, et l’eau à 10 € en supplément; durée max. 48 h. Page non millésimée 2027 : montant actuel, pas tarif futur confirmé.",
-      "recheckNextCheck": "Confirmer grille 2027 et taxes; garder 13,50 € comme montant public actuel non millésimé, pas comme tarif 2027 confirmé, et distinguer la plage 20 h–9 h.",
+      "recheckLot": 166,
+      "recheckFinding": "Lot 166 (04/11/2026) : Lingorzé : ville affiche 13,50 € de 20 h à 9 h, dont 0,60 € de taxe; eau 10 €/10 min (150 L); limite 48 h. Prix public actuel non millésimé 2027.",
+      "recheckNextCheck": "Confirmer barème 2027 et garder eau séparée de la nuitée.",
       "recheckTariffSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21"
     },
     {
