@@ -792,3 +792,10 @@ Contrôle des deux dernières fiches du registre encore sans relecture récente 
 Contrôle accéléré des vingt fiches non résolues les plus anciennes, issues des lots 103 à 134. Au Soir d’Été confirme une grille 2027 distincte par saison (22–43 €/nuit pour le forfait camping-car 35 m², plus suppléments séparés). Léveno a ouvert ses réservations, mais son moteur n’affiche pas de tarif fixe. Les 186 € du Petit Bois et 118 € des Paludiers sont des totaux d’appel pour sept nuits, pas des nuitées; la catégorie des Paludiers reste non identifiée. Les autres fiches gardent leurs réserves sur les tarifs 2026, offres conditionnelles, prix secondaires ou absence de grille 2027. Compteurs inchangés : 215 / 187 / 28. Aucun contact envoyé.
 
 [Rapport lot 150](AUDIT-44-2027-LOT150.md).
+
+
+## Lot 151 — 4 novembre 2026
+
+Vingt dossiers non résolus : quatre plus anciens (lots 135–138) et seize du lot 139. Le Beaupré conserve un devis daté d’une nuit à 31 € (emplacement + véhicule + 6A, deux personnes), sans total taxes/frais. Prigny donne un repère touristique 2026 de 17–33 €/nuit, taxe et suppléments séparés. À Fleur de Brière, le prix de 13 € vise tente/caravane; le forfait camping-car 2026 de 11–14 € reste distinct. Le camping de l’Océan confirme ses dates 2027 mais pas son tarif. Les prix et promos non millésimés restent à confirmer. Compteurs : 215 / 187 / 28; aucun contact envoyé.
+
+[Rapport lot 151](AUDIT-44-2027-LOT151.md).
