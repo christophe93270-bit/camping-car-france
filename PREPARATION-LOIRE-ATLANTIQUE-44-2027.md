@@ -745,3 +745,10 @@ Audit des 20 fiches suivantes; aucun lieu ajouté. Compteurs maintenus : **215 /
 Compteurs conservés : **215 / 187 / 28**. Aucune fiche ajoutée ou supprimée. Corrections de classement : séparer la borne et le parking au lac de Saint-Viaud (parking gratuit ; borne de services séparée à 6 €), ne pas associer une nuitée aux bornes du Mottais et du chemin de la Plage, distinguer le point pique-nique de Saint-Nicolas-de-Redon de l’aire de La Digue, et maintenir à Saint-Lyphard le stationnement gratuit limité à 8 h–20 h avec nuitée interdite. Les gratuités de Vieillevigne, Paimbœuf, Forgeau, Marche aux Bœufs et Bois-Joalland sont rapportées par les sources touristiques, mais ne constituent pas une grille 2027 millésimée. À Beaumont, l’office évoque des nuitées sans en publier les conditions. Aucun prix de nuitée 2027 complet confirmé dans ce lot ; contacter les communes/gestionnaires pour les droits nocturnes, durées, tarifs et fonctionnement des services.
 
 [Rapport lot 143](AUDIT-44-2027-LOT143.md).
+
+
+## Lot 144 — 20 fiches existantes — 4 novembre 2026
+
+Compteurs conservés : **215 / 187 / 28**. Aucune fiche ajoutée ou supprimée. Tarifs à clarifier en priorité : Le Croisic publie 13,50 € pour 20 h–9 h et 10 € pour 150 L, mais sans millésime 2027 et avec une plage d’hébergement 21 h–9 h distincte ; Teillé affiche des forfaits 24 h/48 h/72 h/semaine avec services inclus, sans année ni borne saisonnière nette le 31 mars. France Passion est une halte de 24 h gratuite conditionnée à l’adhésion active et à l’autonomie du véhicule, non une nuitée de camping gratuite ouverte à tous. Pour La Plaine-sur-Mer, conserver le parking gratuit 48 h et signaler la borne proche hors service jusqu’à vérification. Le tarif du Domaine des Croix et ceux de plusieurs parkings/haltes restent à obtenir ; les fiches Pierric, Bas-du-Tertre, Vorajoux, Lavandières et Forge Neuve ne justifient pas une nuitée tarifée sans confirmation locale.
+
+[Rapport lot 144](AUDIT-44-2027-LOT144.md).
