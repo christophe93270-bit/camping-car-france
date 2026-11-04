@@ -733,8 +733,8 @@ Correction prioritaire : l’arrêté de Mesquer trouvé interdit le stationneme
 [Rapport lot 140](AUDIT-44-2027-LOT140.md).
 
 
-## Lot 141 — 20 fiches existantes — 4 novembre 2026
+## Lot 142 — 20 fiches existantes — 4 novembre 2026
 
-Audit des 20 fiches suivantes; aucun lieu ajouté. Compteurs inchangés : **215 / 187 / 28**. Pas de tarif complet 2027 confirmé. Les corrections prioritaires touchent la Piardière, dont l’exploitant annonçait la fermeture en décembre 2025, et les aires de pique-nique de Fégréac/Plessé qui n’établissent pas d’accueil nocturne. Le quai Saint-Georges à Nort est diurne (stationnement interdit de 20 h à 6 h), Kerlagadec est uniquement une aire de services, tandis que le tarif d’eau du Super U à Arthon (2 €/10 min) doit rester séparé du parking gratuit. À Beslé, le calcul 2026 pour camping-car est 15,44 € pour 2 adultes avec électricité et taxe; cette base n’est pas un tarif 2027.
+Audit des 20 fiches suivantes; aucun lieu ajouté. Compteurs maintenus : **215 / 187 / 28**. À Nozay, garder côte à côte les 10 €/jour municipaux hors taxe et le montant 11,10 €/24 h taxe comprise publié sur la réservation, jusqu’à confirmation du calcul et de son millésime. Au Pouliguen, le forfait 2026 comprend déjà 50 L d’eau : ne pas lui ajouter le tarif de borne externe. Pour Prinquiau, Boussay, Passay, La Bénâte, Les Jaunais, Guenrouët, la Guichardière et les bornes de supermarchés, séparer stationnement nocturne, parking diurne et service à l’unité. Vérifier notamment signalements de panne/interdiction à Saint-Brevin avenue des Sports et au Super U de Saint-Étienne-de-Montluc.
 
-[Rapport lot 141](AUDIT-44-2027-LOT141.md).
+[Rapport lot 142](AUDIT-44-2027-LOT142.md).
