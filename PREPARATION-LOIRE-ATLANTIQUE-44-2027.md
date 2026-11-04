@@ -775,6 +775,13 @@ Contrôle de 20 fiches existantes (indices 171–190 du suivi), sans ajout de li
 
 ## Lot 148 — 4 novembre 2026
 
-Contrôle des deux fiches terminales du suivi encore sans relecture récente : Piriac-La Tranchée et La Limouzinière-Château de la Touche. Le réseau confirme respectivement 13,95 €/24 h jusqu'au 31/12/2027, taxe de 1,22 € limitée à 2026, et 12,22 €/24 h jusqu'au 31/12/2027 avec taxe nulle publiée jusqu'à cette date. Ne pas faire passer la taxe actuelle de Piriac pour un total 2027; ce total reste inconnu. Le forfait 5 h + services (6 € aux deux aires) n'a pas de période explicitement datée. Les pages tarifaires communales restent anciennes : Piriac affiche 6,70 € et 0,55 €/personne; La Limouzinière a une délibération 2024 à 12 €, tandis que sa page renvoie au tarif courant du réseau. Les autres 15 fiches terminales avaient déjà été vérifiées dans les lots précédents. Compteurs : 215 / 187 / 28.
+Contrôle des indices 191–192, sans relecture récente : Piriac-La Tranchée et La Limouzinière-Château de la Touche. Le réseau confirme respectivement 13,95 €/24 h jusqu'au 31/12/2027, taxe de 1,22 € limitée à 2026, et 12,22 €/24 h jusqu'au 31/12/2027 avec taxe nulle publiée jusqu'à cette date. Ne pas faire passer la taxe actuelle de Piriac pour un total 2027; ce total reste inconnu. Le forfait 5 h + services (6 € aux deux aires) n'a pas de période explicitement datée. Les pages tarifaires communales restent anciennes : Piriac affiche 6,70 € et 0,55 €/personne; La Limouzinière a une délibération 2024 à 12 €, tandis que sa page renvoie au tarif courant du réseau. Les indices 193–205 avaient déjà un contrôle antérieur; les deux dernières entrées 206–207 sont traitées au lot 149. Compteurs : 215 / 187 / 28.
 
 [Rapport lot 148](AUDIT-44-2027-LOT148.md).
+
+
+## Lot 149 — 4 novembre 2026
+
+Contrôle des deux dernières fiches du registre encore sans relecture récente : Les Flots Bleus (Piriac) et Le Briord (Saint-Brevin). Les Flots Bleus publie encore une grille 2026; l'acompte et les frais de réservation ne sont pas à confondre, et les règles de 2027 restent à confirmer. Au Briord, les fiches touristiques divergent entre 14 € de base et 17 € pour un forfait camping-car; calendrier et conditions trouvés ne valent que pour 2026. Aucun tarif 2027 confirmé. Les compteurs restent 215 / 187 / 28.
+
+[Rapport lot 149](AUDIT-44-2027-LOT149.md).
