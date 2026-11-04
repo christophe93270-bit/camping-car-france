@@ -864,3 +864,10 @@ Quatre dernières fiches du lot 145 : Pontchâteau (allée du Brivet), Mouais, m
 Contrôle des 20 fiches suivantes (indices 151–170), sans ajout ni suppression; compteurs inchangés : **215 / 187 / 28**. Aucun tarif public camping-car 2027 complet nouveau n’a été confirmé pour les campings du groupe. Les prix et offres 2026 restent historiques, y compris ACSI et promotion FFCC. Le site Slow Village ouvre les réservations été 2027 mais le prix dépend des dates et voyageurs. CAMPING-CAR PARK Guérande affiche une base de 13,50 €/24 h jusqu’au 31/12/2027, tandis que la taxe vérifiée s’arrête au 31/12/2026; ne pas reprendre 14,82 € comme total 2027. À Piriac-Lérat, le total actuel est 14,96 € dont 1,22 € de taxe et l’eau est encore signalée coupée. Saint-Viaud reste une borne services-only à 6 €, distincte du parking du lac. La Chapelle-sur-Erdre permet jusqu’à 3 nuits et ferme chaque année pendant les vacances d’automne, sans tarif publié. Aucun contact envoyé.
 
 [Rapport lot 160](AUDIT-44-2027-LOT160.md).
+
+
+## Lot 161 — 4 novembre 2026
+
+Contrôle du groupe indices 171–190, sans ajout ni suppression. Compteurs conservés : **215 / 187 / 28**. Corrections de dates des tarifs de base appliquées dans le jeu de données du site pour Les Pinettes (31/10), l’aire Le Soleya (02/11), Brambell (24/10), Grande Falaise (04/11), Clos Mora (01/10), La Pointe (31/10 puis nouveau barème 31/12), Petit Port (base 2027 à partir du 31/12) et Rouans (02/11). La Pointe est désormais affichée ouverte par le réseau (39/49 places libres); Biochon et Petit Port restent signalées fermées/temporairement fermées par la liste opérateur. À chaque aire, les taxes affichées restent datées 2026 et les totaux courants ne valent pas total confirmé 2027. Les campings conventionnels du lot n’ont pas fourni de grille complète 2027 camping-car; Le Ranch annonce l’ouverture des réservations au 04/11, mais son prix dépend du choix de dates et d’emplacement. Aucun lieu/contact ajouté. Compteurs inchangés.
+
+[Rapport lot 161](AUDIT-44-2027-LOT161.md).
