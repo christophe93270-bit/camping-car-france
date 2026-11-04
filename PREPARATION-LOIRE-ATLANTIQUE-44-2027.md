@@ -759,3 +759,10 @@ Compteurs conservés : **215 / 187 / 28**. Aucune fiche ajoutée ou supprimée. 
 Compteurs inchangés : **215 / 187 / 28**. Aucun lieu ajouté ou supprimé. Distinctions tarifaires prioritaires : au Véridet, conserver la fourchette 2026 (13,50–16,50 €/nuit) séparée de la taxe ; à Choisel, séparer le forfait 5 h (6 €) du forfait 24 h (12 € TTC) et de la réservation en ligne ; à Donges, le jeton à 3,50 € correspond à 100 L d’eau ou une heure d’électricité, pas à une nuitée ; à Port Mulon, les 3 € sont pour l’eau/vidange, le prix du séjour au camping restant distinct. À l’Arfaut, ne pas cumuler les 9 € parking et 12 € services issus de Park4Night, car des avis récents rapportent 12 € tout compris et la capacité annoncée diverge de la source régionale. Tarifs 2027 et accès ANAS à confirmer ; les parkings de loisirs et les points de pique-nique ne doivent pas être affichés comme nuitées sans preuve.
 
 [Rapport lot 145](AUDIT-44-2027-LOT145.md).
+
+
+## Lot 146 — 20 fiches existantes — 4 novembre 2026
+
+Compteurs conservés : **215 / 187 / 28**. Aucun ajout/suppression. Correction actuelle importante : le camping Mindin publie sur son site 23,60–42,10 €/nuit pour 2 personnes en camping-car, avec taxe de séjour 0,66 € par adulte ; la fiche régionale encore à 23,20–37,10 € et son supplément électricité semblent obsolètes ou incohérents avec l’électricité annoncée incluse, à confirmer dans la grille opérateur. Pour CAMPING-CAR PARK Guérande et Piriac-Lérat, afficher le total actuellement visible (14,82 € et 14,96 € taxes comprises) sans ajouter la taxe une seconde fois ; l’eau est signalée coupée à Lérat. Les forfaits ACSI (Hermitage, Mon Calme, Bugeau) et la promo FFCC des Bleuets sont des offres conditionnelles 2026, distinctes du tarif public et de toute réservation 2027. Slow Village ouvre ses réservations estivales 2027, mais un prix exploitable requiert les dates et voyageurs dans le moteur. Enfin, le Grand Poirier gratuit est distinct du CAMPING-CAR PARK payant de La Limouzinière, distant d’environ 1,8 km.
+
+[Rapport lot 146](AUDIT-44-2027-LOT146.md).
