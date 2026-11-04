@@ -6341,7 +6341,7 @@
       "Vidange eaux noires",
       "WiFi"
     ],
-    "price": "Tarifs officiels 2026, forfait standard camping-car pour 1 à 2 personnes, électricité et 1 véhicule : 26,60 à 36,60 € pour une nuit seule ; 22,60 à 32,60 €/nuit pour plus d'une nuit, selon période. Taxe de séjour et additionnelle : +0,22 €/adulte/nuit. Écocontribution de 0,40 € annoncée comprise dans le prix. Tarif 2027 et accès aux services sans séjour à confirmer.",
+    "price": "Tarifs officiels 2026, forfait standard camping-car pour 1 à 2 personnes, électricité et 1 véhicule : 26,60 à 36,60 € pour une nuit seule ; 22,60 à 32,60 €/nuit pour plus d'une nuit, selon période. Taxe de séjour et additionnelle : +0,22 €/adulte/nuit. Écocontribution de 0,40 € annoncée comprise dans le prix. Tarif 2027 non publié au 04/11/2026 ; accès aux services sans séjour à confirmer.",
     "status": "16 rue du Mané, 44420 Piriac-sur-Mer. Camping privé à environ 150 m de la mer et 500 m du bourg. La classification importée « aire de service » ne signifie pas l'accès libre à une borne de vidange pour les véhicules extérieurs. Accès et forfait de service à confirmer avec l'établissement.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.37691,
@@ -6349,7 +6349,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "2026-10-20 : reclassement selon Loire-Atlantique Tourisme pour éviter de présenter les services du camping comme une borne publique, sans inventer un tarif. Lot 89 (02/11/2026) : grille image officielle 2026 lue visuellement, forfait camping-car explicite ; une nuit 26,60/29,60/36,60/32,60 €, plusieurs nuits 22,60/25,60/32,60/28,60 € selon les quatre colonnes. Électricité incluse, taxe 0,22 € adulte en sus et écocontribution 0,40 € comprise selon texte adjacent. Aucune reconduction 2027.",
+    "importReview": "2026-10-20 : reclassement selon Loire-Atlantique Tourisme pour éviter de présenter les services du camping comme une borne publique, sans inventer un tarif. Lot 89 (02/11/2026) : grille image officielle 2026 lue visuellement, forfait camping-car explicite ; une nuit 26,60/29,60/36,60/32,60 €, plusieurs nuits 22,60/25,60/32,60/28,60 € selon les quatre colonnes. Électricité incluse, taxe 0,22 € adulte en sus et écocontribution 0,40 € comprise selon texte adjacent. Aucune reconduction 2027. Lot 149, 04/11/2026 : la page opérateur affiche toujours « Tarifs 2026 » sans grille 2027. La page camping-car confirme 22 emplacements, une longueur maximale de 7,50 m, réservation sans frais de dossier sur emplacement nu et acompte annoncé de 30 % à la confirmation; les CGV précisent que l'acompte sur emplacement nu peut être demandé selon affluence/conditions et qu'aucun frais de dossier ne s'applique sauf mention contraire. La page tarifs donne toujours la taxe 2026 à 0,22 €/adulte/nuit et l'écocontribution 0,40 € comprise; pas de montant 2027.",
     "sourceId": "ACCAMACCAMELESFLOTSBLEUS",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/183589-Les-Flots-Bleus",
     "priceSource": "https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements",
@@ -6357,8 +6357,16 @@
     "priceYear": 2026,
     "priceCheckedAt": "2026-11-02",
     "priceEvidenceDocument": "https://static.wixstatic.com/media/bbcda9_2de1ae5c60324874a511ee03dbd01e2c~mv2.png",
-    "operationalWarning": "Camping-cars jusqu'à 7,50 m maximum selon l'exploitant. Réservation fortement conseillée. La page camping-car annonce actuellement aucun frais de réservation sur emplacement nu et un acompte de 30 %, à revalider pour 2027. Grille 2026 uniquement : le tarif réduit exige plus d'une nuit ; ne pas le présenter comme prix d'une étape d'une nuit. Confirmer la période exacte aux dates de transition, le calendrier et le forfait 2027.",
-    "operationalWarningSource": "https://www.campinglesflotsbleus.com/nosemplacements/camping-cars"
+    "operationalWarning": "Camping-cars jusqu'à 7,50 m maximum selon l'exploitant; 22 emplacements nus pour tente, caravane et camping-car, réservation conseillée. La page camping-car indique aucun frais de réservation et un acompte de 30 % à la confirmation; les CGV précisent qu'un acompte peut être demandé pour les emplacements nus selon période/conditions et qu'aucun frais de dossier n'est appliqué sauf mention contraire. Grille publiée toujours 2026, taxe 0,22 €/adulte/nuit et écocontribution 0,40 € comprise : aucun tarif 2027 ni taxe 2027 confirmés. Ne pas assimiler l'acompte à des frais.",
+    "operationalWarningSource": "https://www.campinglesflotsbleus.com/nosemplacements/camping-cars",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-04",
+      "status": "tarif_non_publie",
+      "note": "La page officielle des tarifs porte toujours le titre « Tarifs 2026 » et ne publie pas de nuitée 2027 pour le camping-car. Les valeurs 26,60–36,60 € (une nuit) et 22,60–32,60 €/nuit (séjour de plusieurs nuits) restent 2026. La page camping-car indique 22 emplacements, longueur maximale 7,50 m, réservation sans frais et acompte annoncé de 30 %; les CGV indiquent acompte possible selon période/conditions et absence de frais pour emplacement nu sauf mention contraire. Taxe 2026 de 0,22 €/adulte/nuit et écocontribution de 0,40 € comprise ne sont pas à reconduire sans confirmation.",
+      "source": "https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "44",
@@ -6538,15 +6546,15 @@
       "Paiement en espèces uniquement",
       "Vidange et borne d'eau pour clients extérieurs non confirmées"
     ],
-    "price": "Forfait de base pour un emplacement, 2 personnes et 1 voiture : à partir de 14 € par nuit selon Pays de la Loire Tourisme (2026). Suppléments et taxe de séjour éventuels ; montant exact pour un camping-car à confirmer auprès du camping.",
-    "status": "Chemin de Briord, 44250 Saint-Brevin-les-Pins. Accueil les week-ends de mai, puis du 15 juin au 15 septembre 2026. Saison 2026 terminée au 20 octobre. Permanence annoncée de 17 h 15 à 20 h. Camping naturel, pas un parking gratuit ouvert toute l’année. Contact vérifié octobre 2026 dans e-SPRIT : téléphone 06 79 47 04 18 (autre numéro : 06 38 63 29 34) et campinglebriord44@gmail.com. Le Briord est un seul camping existant ; ne pas créer de doublon à la même position GPS.",
+    "price": "Pays de la Loire Tourisme affiche un forfait de base (1 emplacement, 2 personnes, 1 voiture) à partir de 14 €/nuit ; sa version anglaise mentionne séparément un forfait camping-car à 17 €/nuit. Ces repères sont non millésimés dans la rubrique tarifaire, tandis que les conditions d'ouverture visibles ne portent que sur 2026. Inclusion de l'électricité, taxe (fourchette affichée 0,22–0,20 €) et distinction entre les deux prix à confirmer. Aucun tarif 2027 confirmé.",
+    "status": "Chemin de Briord, 44250 Saint-Brevin-les-Pins. Accueil les week-ends de mai, puis du 15 juin au 15 septembre 2026. Saison 2026 terminée au 20 octobre. Permanence annoncée de 17 h 15 à 20 h. Camping naturel, pas un parking gratuit ouvert toute l’année. Contact vérifié octobre 2026 dans e-SPRIT : téléphone 06 79 47 04 18 (autre numéro : 06 38 63 29 34) et campinglebriord44@gmail.com. Le Briord est un seul camping existant ; ne pas créer de doublon à la même position GPS. Aucun calendrier ni tarif 2027 publié à la date du contrôle; saison 2026 terminée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.24744,
     "longitude": -2.15393,
     "gpsSource": "https://www.cirkwi.com/fr/point-interet/3322094-aire-de-camping-le-briord",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : forfait à partir de 14 €, 6 places, dates et paiements en espèces vérifiés sur tourisme régional. Le tarif exact camping-car avec options et taxe n’est pas détaillé. Lot 48 du 20/10/2026 : lieu déjà recensé, GPS e-SPRIT à 0 m, coordonnées contact et preuve prix d'appel 14 € ajoutées. Lot 89 (02/11/2026) : divergence FR/EN 14 € base contre 17 € forfait camping-car, calendrier et taxe incohérents ; prix historique conservé avec avertissement, confirmation 2027 nécessaire.",
+    "importReview": "20/10/2026 : forfait à partir de 14 €, 6 places, dates et paiements en espèces vérifiés sur tourisme régional. Le tarif exact camping-car avec options et taxe n’est pas détaillé. Lot 48 du 20/10/2026 : lieu déjà recensé, GPS e-SPRIT à 0 m, coordonnées contact et preuve prix d'appel 14 € ajoutées. Lot 89 (02/11/2026) : divergence FR/EN 14 € base contre 17 € forfait camping-car, calendrier et taxe incohérents ; prix historique conservé avec avertissement, confirmation 2027 nécessaire. Lot 149, 04/11/2026 : nouvelle lecture des pages tourisme français/anglais et de Rando Loire-Atlantique. Les deux versions ne sont pas équivalentes : base FR à partir de 14 € pour emplacement + 2 personnes + 1 voiture, version anglaise qui ajoute un « forfait camping-car » à 17 €/nuit. La fiche départementale indique ouverture week-ends de mai puis du 15/06 au 15/09/2026, accueil de camping-cars, paiement en espèces et réception 17 h 15–20 h. La taxe régionale reste une fourchette ambiguë 0,22–0,20 €. Aucun calendrier ni prix 2027 trouvé; conserver le statut contradictoire et ne pas convertir ces repères en tarif 2027.",
     "sourceId": "ACCAMACCAMEAIREDECAMPINGLEBRIORD",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
     "priceSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
@@ -6560,8 +6568,8 @@
     "priceEvidenceDocument": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
     "priceCheckedAt": "2026-10-20",
     "priceVerification": "prix_appel_tourisme_14eur_2026_options_a_verifier",
-    "operationalWarning": "Contrôle du 02/11/2026 : la fiche française affiche une base à partir de 14 €, tandis que le texte anglais indique un forfait camping-car à 17 €/nuit ; conditions et millésime propre de ce dernier non établis. Les calendriers et horaires divergent aussi selon les langues ; taxe affichée sous forme d'une fourchette inversée 0,22–0,20 €. Demander directement le prix camping-car 2027, électricité, taxe, dates et horaires. Aucun de ces montants ne vaut devis 2027.",
-    "operationalWarningSource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord"
+    "operationalWarning": "Les pages touristiques françaises/anglaises restent contradictoires : base à partir de 14 € par nuit pour un emplacement + 2 personnes + une voiture contre forfait camping-car à 17 €/nuit; validité exacte et inclusions non établies. La fiche Rando/Loire-Atlantique documente seulement la saison 2026 (week-ends de mai puis 15/06–15/09), six places, paiements en espèces et réception 17 h 15–20 h. La taxe publiée sous forme de fourchette 0,22–0,20 € est ambiguë. Aucune saison, grille, taxe, électricité ni conditions de réservation 2027 confirmées.",
+    "operationalWarningSource": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD"
   },
   {
     "department": "44",
