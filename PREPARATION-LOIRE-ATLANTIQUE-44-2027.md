@@ -929,3 +929,16 @@ Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; com
 - **Fiches contrôlées :** Bassins de Launay, borne du Moulin, Relais des Garennes, La Chinoise, Domaine de l’Aiguillette, Grotte Saint-Jean, étang de la Petite Pêche, Fossés Blancs, La Digue, Domaine de Malabrit, borne Leclerc, ferme de la Piardière, Cochons d’Antan, Camping du Port de Beslé, aire de pique-nique de Fégréac, fiche d’origine de la Guichardière, Vigie, quai Saint-Georges, parking de l’étang du Gâvre et Kerlagadec.
 
 Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs maintenus à **215 fiches visibles / 187 avec filtre nocturne / 28 exclues**.
+
+
+## Lot 168 — vingt fiches du suivi, 4 novembre 2026
+
+- **Nozay :** la mairie affiche toujours 10 €/jour/emplacement hors taxe dans sa grille 2026; la fiche régionale donne 11,10 €/24 h taxe incluse et le moteur Aire Park 9,50 €/nuit sans millésime. Les références divergent; aucun tarif 2027 confirmé.
+- **Le Pouliguen — avenue de l’Océan :** forfaits officiels 2026 de 13,60 / 15,10 / 17,40 € selon saison pour deux personnes, 16 A et 50 L, avec taxe de 0,22 €/adulte/nuit séparée. Eau supplémentaire à 4,40 €/100 L, distincte des 50 L inclus. Aucun barème 2027.
+- **La Salorge :** parking gratuit toute l’année avec une nuit à trois nuits consécutives autorisées; eau à 2 €/100 L à part.
+- Les autres fiches restent sans tarif complet de nuitée 2027 confirmé : stationnements gratuits sans droit nocturne établi, aires de pique-nique, fiches de services seules, panne de borne aux Jaunais et doublon masqué de Clos Mer et Nature. Garder prix de services séparés des prix de nuitée.
+- **Fiches contrôlées :** aire de pique-nique de Plessé, Drefféac, aire de pique-nique d’Avessac, Super U d’Arthon, Mouzillon, Nozay, Pont-Mahé, étangs de la Madeleine, Grées Brûlées, Prinquiau, Boussay, avenue de l’Océan au Pouliguen, Conquereuil, Papinière, La Bénâte, Passay, Jaunais, Salorge, fiche d’origine de Clos Mer et Nature et Flower Camping La Guichardière.
+
+Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs maintenus à **215 fiches visibles / 187 avec filtre nocturne / 28 exclues**.
+
+[Rapport lot 168](AUDIT-44-2027-LOT168.md).
