@@ -871,3 +871,10 @@ Contrôle des 20 fiches suivantes (indices 151–170), sans ajout ni suppression
 Contrôle du groupe indices 171–190, sans ajout ni suppression. Compteurs conservés : **215 / 187 / 28**. Corrections de dates des tarifs de base appliquées dans le jeu de données du site pour Les Pinettes (31/10), l’aire Le Soleya (02/11), Brambell (24/10), Grande Falaise (04/11), Clos Mora (01/10), La Pointe (31/10 puis nouveau barème 31/12), Petit Port (base 2027 à partir du 31/12) et Rouans (02/11). La Pointe est désormais affichée ouverte par le réseau (39/49 places libres); Biochon et Petit Port restent signalées fermées/temporairement fermées par la liste opérateur. À chaque aire, les taxes affichées restent datées 2026 et les totaux courants ne valent pas total confirmé 2027. Les campings conventionnels du lot n’ont pas fourni de grille complète 2027 camping-car; Le Ranch annonce l’ouverture des réservations au 04/11, mais son prix dépend du choix de dates et d’emplacement. Aucun lieu/contact ajouté. Compteurs inchangés.
 
 [Rapport lot 161](AUDIT-44-2027-LOT161.md).
+
+
+## Lot 162 — 4 novembre 2026
+
+Contrôle de deux fiches CAMPING-CAR PARK, sans ajout ni suppression; compteurs inchangés : **215 / 187 / 28**. À Piriac-La Tranchée, la base de 13,95 €/24 h vaut du 03/11/2026 au 31/12/2027, mais la taxe de 1,22 € ne couvre que 2026; le total 15,17 € affiché n’est pas un total 2027 confirmé. La commune garde une page de tarifs locaux anciens (6,70 €/nuit et eau à 2,60 €/100 L) tout en indiquant que la gestion a été transférée à CAMPING-CAR PARK en 2019. À La Limouzinière-Château de la Touche, le tarif de base 12,22 €/24 h et la taxe à 0 € courent tous deux jusqu’au 31/12/2027; début de validité corrigé au 04/11/2026 dans les données du site. Le service 5 h + services à 6 € reste sans période de validité indiquée. Aucun contact envoyé.
+
+[Rapport lot 162](AUDIT-44-2027-LOT162.md).
