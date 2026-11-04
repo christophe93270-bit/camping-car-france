@@ -799,3 +799,10 @@ Contrôle accéléré des vingt fiches non résolues les plus anciennes, issues 
 Vingt dossiers non résolus : quatre plus anciens (lots 135–138) et seize du lot 139. Le Beaupré conserve un devis daté d’une nuit à 31 € (emplacement + véhicule + 6A, deux personnes), sans total taxes/frais. Prigny donne un repère touristique 2026 de 17–33 €/nuit, taxe et suppléments séparés. À Fleur de Brière, le prix de 13 € vise tente/caravane; le forfait camping-car 2026 de 11–14 € reste distinct. Le camping de l’Océan confirme ses dates 2027 mais pas son tarif. Les prix et promos non millésimés restent à confirmer. Compteurs : 215 / 187 / 28; aucun contact envoyé.
 
 [Rapport lot 151](AUDIT-44-2027-LOT151.md).
+
+
+## Lot 152 — 4 novembre 2026
+
+Vingt fiches : quatre dossiers restants du lot 139 et seize du lot 140. Bel Air annonce une remise Early Booking 2027 mais sans preuve d’application aux emplacements camping-car. À Merquel, distinguer le parking où la nuit est interdite de l’aire d’accueil autorisée avant d’attribuer 7 €/nuit. À la Govelle, l’accès reste gratuit jusqu’à nouvel ordre malgré le barème affiché. Autres montants : historiques, secondaires, non datés ou à confirmer 2027. Compteurs 215 / 187 / 28; aucun contact envoyé.
+
+[Rapport lot 152](AUDIT-44-2027-LOT152.md).
