@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 156 (04/11/2026), quatre fiches restantes des lots 142 et 143, puis douze fiches du lot 144. Corrections : Guenrouët distingue stationnement de nuit gratuit et services à 2 €; Le Welcome affiche 10 €/jour ou nuitée, eau/électricité à part; Kerdavid a une période payante dès 20 h, distincte de l’obligation de se loger après 21 h; Le Parc de la Lande limite le séjour à 72 h/3 nuits; l’étape France Passion de Biau Chemin ne garantit pas deux nuits. Aucun lieu ajouté/contact envoyé. Compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 157 (04/11/2026), huit fiches restantes du lot 144 puis les douze premières du lot 145. Points clés : tarifs 2026 ou sans millésime maintenus hors 2027; distinctions confirmées entre nuitée, stationnement, services et frais; aucun lieu ajouté/contact envoyé. Compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -2016,9 +2016,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.teille44.fr/page/descriptif_camping_car",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Teillé : la mairie publie 12 €/24 h, 21 €/48 h, 30 €/72 h, 67,50 €/7 nuits du 1er nov. au 31 mars, puis 8 €/24 h, 14 €/48 h, 20 €/72 h, 45 €/7 nuits du 31 mars au 1er nov. Eau, électricité et vidange sont comprises. La page n’indique pas le millésime et fait se chevaucher les périodes le 31 mars ; ne pas étiqueter ces tarifs 2027 ni multiplier mécaniquement le forfait semaine par 7.",
-      "recheckNextCheck": "Mairie : confirmer l’année d’application, les dates exactes de bascule (notamment 31 mars/1er novembre), et que les montants incluent toujours taxe et services en 2027.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Teillé : le barème municipal (12/21/30/67,50 € hiver; 8/14/20/45 € été) comprend eau, électricité et vidange, mais n’est pas millésimé. La page fait se chevaucher les saisons le 31 mars; ne pas l’annoncer comme tarif 2027 ni extrapoler le forfait 7 nuits.",
+      "recheckNextCheck": "Mairie : confirmer millésime, bascule saisonnière autour du 31 mars et du 1er novembre, et maintien des montants/services en 2027.",
       "recheckTariffSource": "https://www.teille44.fr/page/descriptif_camping_car"
     },
     {
@@ -2031,9 +2031,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Derval, rue de Redon : aire de stationnement distincte de celle de la rue Ronde. Aucun tarif, service technique ou droit de nuitée n’est indiqué dans la source touristique ; ne pas fusionner les deux parkings.",
-      "recheckNextCheck": "Mairie de Derval : confirmer séparément prix, durée et nuitée autorisée pour la rue de Redon.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Derval, rue de Redon : source de tourisme confirme un parking distinct de la rue Ronde, sans prix ni autorisation de nuitée publiés. Aucun service technique attesté.",
+      "recheckNextCheck": "Mairie : confirmer séparément nuitée, durée, tarif 2027 et services pour le parking de la rue de Redon.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL"
     },
     {
@@ -2046,9 +2046,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/186413-AIRE-DE-STATIONNEMENT---LA-MEILLERAYE-DE-BRETAGNE",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Lavandières, La Meilleraye-de-Bretagne : parking de loisirs avec jeux et pêche, sans borne camping-car ni tarif ou droit de nuitée documenté. Ne pas afficher comme halte gratuite de nuit.",
-      "recheckNextCheck": "Mairie : vérifier signalisation/règles nocturnes, tarif éventuel et durée.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Lavandières : parking de loisirs; aucune borne camping-car, nuitée ni tarif n’est indiqué. Ne pas l’afficher comme aire nocturne gratuite.",
+      "recheckNextCheck": "Commune : vérifier panneaux/règlementation nocturne, durée maximale et tarif éventuel.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186413-AIRE-DE-STATIONNEMENT---LA-MEILLERAYE-DE-BRETAGNE"
     },
     {
@@ -2061,9 +2061,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-site-de-la-forge-neuve-moisdon-la-riviere/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Forge Neuve, Moisdon-la-Rivière : lieu de détente et stationnement touristique, sans borne ni prix ; l’autorisation nocturne reste à confirmer. Maintenir le tarif comme inconnu.",
-      "recheckNextCheck": "Commune : confirmer stationnement nocturne, durée, prix 2027 et accès saisonnier.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Forge Neuve : stationnement de détente sans borne ni prix publié; l’autorisation nocturne n’est pas établie.",
+      "recheckNextCheck": "Commune : confirmer nuitée, durée, tarif 2027 et accès saisonnier.",
       "recheckTariffSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-site-de-la-forge-neuve-moisdon-la-riviere/"
     },
     {
@@ -2076,9 +2076,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/180201-Aire-de-camping-cars-de-la-Mairie",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Assérac, parking de la mairie : stationnement camping-car annoncé gratuit derrière la mairie ; aucune borne technique confirmée. Ne pas appliquer les conditions de Pont-Mahé ou de la Marche aux Bœufs à ce point distinct.",
-      "recheckNextCheck": "Mairie : vérifier règles de nuitée/durée et maintien de la gratuité pour 2027.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Assérac, mairie : gratuité du stationnement rapportée par le tourisme, sans borne attestée; aucune règle nocturne publiée.",
+      "recheckNextCheck": "Commune : confirmer droit/durée de nuitée et maintien de la gratuité en 2027.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180201-Aire-de-camping-cars-de-la-Mairie"
     },
     {
@@ -2091,9 +2091,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.mesanger.fr/mes-loisirs/aire-camping-car/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Sébilière, Mésanger : la mairie confirme une borne eau/vidange, sans tarif sur sa page. Le parking gratuit et eau gratuite sont rapportés par des sources/observations récentes, tandis qu’un ancien guide donne 2 € pour les services ; ne pas publier ce montant ancien comme tarif actuel, ni certifier le gratuit 2027 sans affichage municipal.",
-      "recheckNextCheck": "Mairie : confirmer en 2027 gratuité de chaque service, fonctionnement de l’eau/vidange et règles de nuitée ; garder séparés parking et services.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Sébilière : la mairie confirme une borne eau/vidange, mais ne publie pas de tarif. Le gratuit observé en 2026 et l’ancien repère de 2 € pour les services ne suffisent pas à établir le tarif 2027. Séparer parking et services.",
+      "recheckNextCheck": "Mairie : confirmer en 2027 prix de l’eau/vidange, fonctionnement et règles de nuitée; conserver chaque service distinct.",
       "recheckTariffSource": "https://www.mesanger.fr/mes-loisirs/aire-camping-car/"
     },
     {
@@ -2106,9 +2106,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/183723-AIRE-DU-MARAIS",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Aire du Marais, Saint-Lumine-de-Coutais : parking de trois camping-cars annoncé gratuit ; toilettes et pique-nique à proximité, sans borne technique attestée. Garder le gratuit comme information de la source actuelle, pas comme tarif 2027 millésimé.",
-      "recheckNextCheck": "Commune : confirmer maintien du gratuit, conditions et droit/durée de nuitée en 2027.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Aire du Marais : trois places annoncées gratuites; toilettes et pique-nique à proximité, aucune borne technique attestée. Gratuité non millésimée 2027.",
+      "recheckNextCheck": "Commune : confirmer maintien du gratuit et conditions/durée nocturnes en 2027.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/183723-AIRE-DU-MARAIS"
     },
     {
@@ -2121,9 +2121,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 144,
-      "recheckFinding": "Bouffay, Vallons-de-l’Erdre : stationnement gratuit toute l’année, eau et vidange disponibles, réservé aux camping-cars et limité à 48 h ; caravanes interdites. Il n’y a pas de tarif séparé de service mentionné. La source n’est pas millésimée 2027.",
-      "recheckNextCheck": "Commune : confirmer maintien des services/gratuité, limite de 48 h et règles de nuitée en 2027.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Bouffay : stationnement toute l’année annoncé gratuit; eau et vidange, camping-cars seulement, maximum 48 h, caravanes exclues. Pas de prix de service séparé indiqué; règle non millésimée 2027.",
+      "recheckNextCheck": "Commune : confirmer gratuité, services, limite 48 h et nuitée en 2027.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille"
     },
     {
@@ -2136,9 +2136,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 145,
-      "recheckFinding": "Guémené-Penfao : la fiche désigne un point de pique-nique, sans aire de stationnement camping-car ou nuitée établie. Le camping du Port, tout proche, est un autre établissement avec séjour payant ; ne pas fusionner les deux ni attribuer son tarif au pique-nique.",
-      "recheckNextCheck": "Commune : vérifier si un parking camping-car distinct correspond au GPS, et ses conditions nocturnes.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Guémené-Penfao : cette fiche désigne une aire de pique-nique; aucune place camping-car ou nuitée établie. Le camping du Port voisin est distinct. Aucun tarif de nuitée ne s’applique à ce point sans preuve d’accueil.",
+      "recheckNextCheck": "Commune : vérifier si un parking camping-car distinct correspond au GPS et quelles règles nocturnes s’y appliquent; ne pas fusionner avec le camping.",
       "recheckTariffSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/"
     },
     {
@@ -2151,9 +2151,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.enpaysdelaloire.com/hebergements/campings/mindin",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 145,
-      "recheckFinding": "Camping Mindin : le barème publié pour 2026 est un forfait de base 2 personnes + voiture de 23,20 à 37,10 €/nuit ; électricité en sus 2,90 à 7,60 €/nuit et taxe de séjour dès 0,66 €/personne/nuit. Garder ces composantes séparées et ne pas les présenter comme tarif 2027. Disponibilité camping-car à confirmer malgré l’ouverture générale annoncée toute l’année.",
-      "recheckNextCheck": "Camping : barème 2027 avec dates, nombre de personnes, véhicule, électricité et taxe exacte ; confirmer l’accueil des camping-cars aux dates voulues.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Camping Mindin : le répertoire régional affiche un forfait de base (1 emplacement, 2 personnes, 1 voiture) à 23,20–37,10 €/nuit; électricité 2,90–7,60 €/nuit et taxe dès 0,66 €/personne/nuit à part. Repères 2026/historiques, sans barème 2027 confirmé; disponibilité des emplacements camping-car à confirmer.",
+      "recheckNextCheck": "Camping : obtenir un barème 2027 daté par saison et confirmer l’accueil des camping-cars; séparer forfait, électricité et taxe exacte.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/campings/mindin"
     },
     {
@@ -2166,9 +2166,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/186397-Aire-de-camping-cars-Le--Veridet",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 145,
-      "recheckFinding": "Le Véridet : l’office publie pour 2026 une nuitée de 13,50 à 16,50 € et une taxe de séjour affichée à 1,10 €. Conserver la fourchette et séparer la taxe ; ne pas retenir le minimum comme tarif uniforme ni reconduire en 2027.",
-      "recheckNextCheck": "Gestionnaire/office : dates de saison de chaque montant, unité et application de la taxe, frais éventuels, barème 2027.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Le Véridet : office de tourisme affiche 13,50–16,50 €/nuit et taxe de séjour 1,10 €, sur une fiche d’ouverture 2026; l’unité de la taxe et les dates correspondant aux deux prix ne sont pas précisées. Garder la fourchette, sans extrapoler 2027.",
+      "recheckNextCheck": "Gestionnaire/office : préciser périodes, unité et application de la taxe, frais éventuels et barème 2027.",
       "recheckTariffSource": "https://www.labaule-guerande.com/offres/aire-de-camping-cars-le-veridet-piriac-sur-mer-fr-6046448/"
     },
     {
@@ -2181,9 +2181,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-campings-cars-de-la-ferme-de-l-arfaut",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 145,
-      "recheckFinding": "Ferme de l’Arfaut : les tarifs 9 € stationnement et 12 € services viennent de Park4Night, mais les avis récents rapportent 12 € tout compris ; l’office régional recense 4 places, contre 30 chez Park4Night. Ne pas additionner les 9 € et 12 € ni afficher une capacité ferme sans confirmation de l’exploitant.",
-      "recheckNextCheck": "Propriétaire : tarif actuel et inclusion des services, capacité réelle, autonomie/accès, réservation et conditions 2027.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Arfaut : Park4Night distingue 9 €/nuit de stationnement et 12 € de services, mais des avis récents rapportent 12 € tout compris; capacité 4 places côté office régional contre 30 sur Park4Night. Ne pas additionner les frais ni fixer la capacité depuis ces sources secondaires.",
+      "recheckNextCheck": "Exploitant : confirmer prix actuel et inclusions, capacité, accès/réservation et conditions 2027.",
       "recheckTariffSource": "https://park4night.com/fr/place/116282"
     },
     {
@@ -2196,9 +2196,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-de-saint-molf",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 145,
-      "recheckFinding": "Pont de Clin, Saint-Molf : halte avec table et poubelle ; prix, services techniques et autorisation de nuitée non publiés. Maintenir « tarif et nuitée à confirmer », sans transformer l’absence de règle en interdiction.",
-      "recheckNextCheck": "Mairie : autorisation nocturne, durée, tarif éventuel et services disponibles.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Pont de Clin : halte ombragée avec table et poubelle; nuitée, prix et services techniques non publiés. L’absence d’information ne prouve ni autorisation ni interdiction.",
+      "recheckNextCheck": "Mairie : confirmer droit/durée de nuitée, prix éventuel et présence de services.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-de-saint-molf"
     },
     {
@@ -2211,9 +2211,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.anas.asso.fr/moutiers-en-retz",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 145,
-      "recheckFinding": "ANAS, Les Moutiers-en-Retz : la brochure 2026 donne les tarifs camping-car avec électricité (16 €/nuit hors saison, 21 € du 1er juin au 12 septembre ; tarifs adhérents 12/17 €). Le centre est réservé aux adhérents ANAS ou agents du ministère ; la page actuelle indique 35 emplacements, alors que la brochure mentionne une capacité différente. Prix 2026 ≠ prix garanti 2027 et accès public non acquis.",
-      "recheckNextCheck": "ANAS : accès et catégorie d’adhésion, capacité exploitable camping-car, conditions de réservation 2027 et barème actualisé.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : ANAS : brochure VAC’ANAS 2026 indique 16 €/nuit hors saison ou 21 € du 1er juin au 12 septembre avec électricité (12/17 € adhérents), tandis que la page actuelle du centre annonce 35 places contre 42 sur la brochure. Tarifs historiques; accès et éligibilité restent à confirmer, pas de tarif 2027.",
+      "recheckNextCheck": "ANAS : confirmer règles d’accès/adhésion, capacité camping-car disponible et tarifs/réservation 2027; séparer adhésion et nuitée.",
       "recheckTariffSource": "https://www.anas.asso.fr/moutiers-en-retz"
     },
     {
@@ -2226,9 +2226,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/180259-Aire-de-service-Camping-Car-La-Haie-Fouassiere",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 145,
-      "recheckFinding": "La Haie-Fouassière : le jeton de service est à 2 € ; eau, électricité et vidanges sont des services au jeton. Ce montant n’est pas un prix de nuitée et la durée/quantité par jeton n’est pas publiée.",
-      "recheckNextCheck": "Commune : quantité d’eau ou durée d’électricité obtenue par jeton, tarification 2027 et droit/durée de nuitée sur le parking.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Haie-Fouassière : jeton à 2 € pour les services (eau/électricité/vidanges selon source); ce n’est pas un tarif de nuitée. Quantité/durée par jeton et conditions nocturnes non publiées.",
+      "recheckNextCheck": "Commune : préciser quantité d’eau/durée d’électricité par jeton, tarif 2027 et droit/durée de nuitée.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180259-Aire-de-service-Camping-Car-La-Haie-Fouassiere"
     },
     {
@@ -2241,9 +2241,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 145,
-      "recheckFinding": "Parking de la Loire, Oudon : stationnement de visite au bourg, distinct du camping Port Mulon ; aucun tarif, équipement camping-car ou droit de nuitée documenté. Ne pas attribuer à ce parking le prix du camping.",
-      "recheckNextCheck": "Mairie : droit de nuitée, durée et tarif éventuel pour ce parking précis.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Oudon, Parking de la Loire : parking de visite distinct du camping municipal de la Tour; aucune borne, nuitée ou tarif publiés. Ne pas attribuer le prix du camping à ce parking.",
+      "recheckNextCheck": "Commune : confirmer droit de nuitée, durée et tarif pour ce parking précis.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire"
     },
     {
@@ -2256,9 +2256,9 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 145,
-      "recheckFinding": "Port de la Maison Verte, Corsept : parking gratuit confirmé pour 2026 par le tourisme ; toilettes/poubelles à proximité, pas de borne technique attestée. Ne pas écrire que le gratuit 2026 valide 2027 ni ajouter un tarif de nuitée.",
-      "recheckNextCheck": "Commune : maintien de la gratuité en 2027, durée et conditions nocturnes.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Corsept, port de la Maison Verte : gratuité annoncée pour 2026; toilettes/poubelles à proximité, sans borne technique confirmée. Ne pas présenter 2026 comme tarif garanti 2027.",
+      "recheckNextCheck": "Commune : confirmer gratuité 2027, durée et conditions nocturnes.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT"
     },
     {
@@ -2271,9 +2271,9 @@
       "nextCheck": "Confirmer auprès de l’exploitant ou de la commune le prix et le droit de nuitée pour 2027, les frais, taxes, services et dates d’application.",
       "source": "https://rando.loire-atlantique.fr/service/186395-Aire-camping-cars-La-Nouvelle-Imprimerie",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 145,
-      "recheckFinding": "La Nouvelle Imprimerie, Guérande : parking payant uniquement, réservation via EasyPark, sans service. Les tarifs 5 €/5 h et 10 €/24 h proviennent d’avis, pas d’un barème officiel ; ne pas les publier comme tarifs confirmés.",
-      "recheckNextCheck": "Consulter l’application au moment pertinent ou demander à la mairie le barème par durée, frais, plafond, et conditions nocturnes/2027.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Guérande, Nouvelle Imprimerie : stationnement payant via EasyPark, sans service; 5 €/5 h et 10 €/24 h restent des prix d’avis tiers, non un tarif officiel. La réservation via appli n’est pas un frais de séjour en soi.",
+      "recheckNextCheck": "Mairie/EasyPark : relever le tarif applicable, frais/plafond et conditions nocturnes au moment voulu; confirmer le barème 2027.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186395-Aire-camping-cars-La-Nouvelle-Imprimerie"
     },
     {
@@ -2286,9 +2286,9 @@
       "nextCheck": "Confirmer auprès de l’exploitant ou de la commune le prix et le droit de nuitée pour 2027, les frais, taxes, services et dates d’application.",
       "source": "https://rando.loire-atlantique.fr/service/180255-AIRE-DE-SERVICE-HYPER-U-LA-COLLERAYE",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 145,
-      "recheckFinding": "Hyper U La Colleraye : point de services sur parking commercial seulement, nuitée non confirmée. Les 2 € pour eau et 2 € pour électricité viennent d’un guide tiers et restent indicatifs ; ne pas annoncer le total comme tarif officiel.",
-      "recheckNextCheck": "Station/gestionnaire : prix affiché de chaque service, disponibilité de la borne et règles de stationnement nocturne.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Hyper U La Colleraye : point de services sur parking commercial; 2 € eau et 2 € électricité proviennent d’un guide tiers, tarif non confirmé par l’exploitant. Nuitée non établie, mais pas non plus déclarée interdite.",
+      "recheckNextCheck": "Station/gestionnaire : vérifier prix affichés et disponibilité de chaque service, ainsi que les règles de stationnement nocturne.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180255-AIRE-DE-SERVICE-HYPER-U-LA-COLLERAYE"
     },
     {
@@ -2301,9 +2301,9 @@
       "nextCheck": "Confirmer auprès de l’exploitant ou de la commune le prix et le droit de nuitée pour 2027, les frais, taxes, services et dates d’application.",
       "source": "https://www.mairie-chateaubriant.fr/camping-cars/",
       "recheckedAt": "2026-11-04",
-      "recheckLot": 145,
-      "recheckFinding": "Choisel, Châteaubriant : tarif municipal 2026 de 12 € TTC/24 h ou 6 € TTC/5 h par camping-car ; ne pas fusionner la tranche de 5 h avec la nuitée. La réservation en ligne est un canal, pas un supplément tarifaire. Pas de barème 2027 affiché.",
-      "recheckNextCheck": "Mairie : tarifs 2027, taxe/suppléments éventuels et prix effectif au paiement ; garder durée 5 h et 24 h distinctes.",
+      "recheckLot": 157,
+      "recheckFinding": "Relecture lot 157 (04/11/2026) : Choisel : tarif municipal explicitement 2026 de 12 € TTC/24 h ou 6 € TTC/5 h par camping-car; garder les deux durées distinctes. Réservation en ligne = canal, pas supplément. Aucun barème 2027 publié.",
+      "recheckNextCheck": "Mairie : tarifs 2027, suppléments éventuels et total affiché au paiement; maintenir les tranches 5 h et 24 h distinctes.",
       "recheckTariffSource": "https://www.mairie-chateaubriant.fr/gites-chambres-dhotes-et-campings/"
     },
     {
