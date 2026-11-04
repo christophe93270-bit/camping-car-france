@@ -918,3 +918,14 @@ Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; com
 - **Fiches contrôlées :** La Pindière, Bel Air, Grand Fay, La Cale Sauvage, Rives de Grand Lieu, L’Estuaire, La Rabine, Les Rochelets, L’Albatros, Le Cléin, Les Mouettes (Le Pouliguen), La Prée, Camping du Golf, Bôle de Merquel, Govelle, La Boissière-du-Doré, aire du Camping du Chêne, Le Port Chéri, stop-accueil du Camping de la Tour et Lingorzé.
 
 Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs maintenus à **215 fiches visibles / 187 avec filtre nocturne / 28 exclues**.
+
+
+## Lot 167 — vingt fiches du suivi, 4 novembre 2026
+
+- **Relais des Garennes, Montbert :** le site affiche 17 €/nuit pour camping-car, 2 personnes et électricité, sans année. CampingFrance affiche une rubrique « Tarifs 2027 » pour les postes unitaires (emplacement, adulte, électricité), mais pas le forfait camping-car total. Garder ces éléments comme deux références distinctes; aucun prix 2027 complet ne peut être confirmé.
+- **Bassins de Launay, Châteaubriant :** la mairie affiche 3 €/nuit et l’ouverture toute l’année, sans millésime explicite. Le tarif Choisel 2026 (12 €/24 h, 6 €/5 h) appartient à un autre site et n’est pas transposable.
+- **Camping du Port de Beslé :** la mairie confirme 32 emplacements nus pour camping-cars, saison d’avril à septembre, mais ne publie pas le tarif actuel de ces emplacements. Les éléments détaillés du suivi restent millésimés 2026.
+- **Services/aires :** maintenir les bornes de Clisson/Kerlagadec/Leclerc à part des nuitées; conserver les accueils gratuits, les limites de nuitée documentées, les règles de stationnement et les conflits d’activité sans extrapoler un prix.
+- **Fiches contrôlées :** Bassins de Launay, borne du Moulin, Relais des Garennes, La Chinoise, Domaine de l’Aiguillette, Grotte Saint-Jean, étang de la Petite Pêche, Fossés Blancs, La Digue, Domaine de Malabrit, borne Leclerc, ferme de la Piardière, Cochons d’Antan, Camping du Port de Beslé, aire de pique-nique de Fégréac, fiche d’origine de la Guichardière, Vigie, quai Saint-Georges, parking de l’étang du Gâvre et Kerlagadec.
+
+Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs maintenus à **215 fiches visibles / 187 avec filtre nocturne / 28 exclues**.
