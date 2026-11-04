@@ -731,3 +731,10 @@ Audit groupé des 20 fiches suivant la Cale Sauvage. Aucun lieu ajouté; compteu
 Correction prioritaire : l’arrêté de Mesquer trouvé interdit le stationnement des véhicules couchants à la Bôle de Merquel de 22 h à 8 h; la fiche ne doit pas présenter une nuitée payante avant clarification communale. Parking gratuit et service à 2 € à La Chinoise doivent également rester deux valeurs distinctes. Aucun tarif 2027 confirmé dans ce lot; prochaines actions : obtenir les grilles opérateurs 2027, confirmer les règles d’accès nocturne et les suppléments/taxes.
 
 [Rapport lot 140](AUDIT-44-2027-LOT140.md).
+
+
+## Lot 141 — 20 fiches existantes — 4 novembre 2026
+
+Audit des 20 fiches suivantes; aucun lieu ajouté. Compteurs inchangés : **215 / 187 / 28**. Pas de tarif complet 2027 confirmé. Les corrections prioritaires touchent la Piardière, dont l’exploitant annonçait la fermeture en décembre 2025, et les aires de pique-nique de Fégréac/Plessé qui n’établissent pas d’accueil nocturne. Le quai Saint-Georges à Nort est diurne (stationnement interdit de 20 h à 6 h), Kerlagadec est uniquement une aire de services, tandis que le tarif d’eau du Super U à Arthon (2 €/10 min) doit rester séparé du parking gratuit. À Beslé, le calcul 2026 pour camping-car est 15,44 € pour 2 adultes avec électricité et taxe; cette base n’est pas un tarif 2027.
+
+[Rapport lot 141](AUDIT-44-2027-LOT141.md).
