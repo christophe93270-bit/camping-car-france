@@ -858,3 +858,9 @@ Quatre fiches restantes du lot 97 : Le Pallet, Port Mulon, l’aire du Stade à 
 Quatre dernières fiches du lot 145 : Pontchâteau (allée du Brivet), Mouais, marais de Grée et Fédrun. Aucun tarif complet de nuitée 2027 confirmé. À Pontchâteau, les sources divergent sur le prix de l’eau et la délibération à 2,50 €/100 L concerne l’aire de Grénébo, pas l’allée du Brivet. À Fédrun, un montant de 0 € apparaît sans millésime. Les droits nocturnes et conditions 2027 restent à confirmer. Aucun lieu ajouté, aucun contact envoyé. Compteurs maintenus : 215 / 187 / 28.
 
 [Rapport lot 159](AUDIT-44-2027-LOT159.md).
+
+## Lot 160 — 4 novembre 2026
+
+Contrôle des 20 fiches suivantes (indices 151–170), sans ajout ni suppression; compteurs inchangés : **215 / 187 / 28**. Aucun tarif public camping-car 2027 complet nouveau n’a été confirmé pour les campings du groupe. Les prix et offres 2026 restent historiques, y compris ACSI et promotion FFCC. Le site Slow Village ouvre les réservations été 2027 mais le prix dépend des dates et voyageurs. CAMPING-CAR PARK Guérande affiche une base de 13,50 €/24 h jusqu’au 31/12/2027, tandis que la taxe vérifiée s’arrête au 31/12/2026; ne pas reprendre 14,82 € comme total 2027. À Piriac-Lérat, le total actuel est 14,96 € dont 1,22 € de taxe et l’eau est encore signalée coupée. Saint-Viaud reste une borne services-only à 6 €, distincte du parking du lac. La Chapelle-sur-Erdre permet jusqu’à 3 nuits et ferme chaque année pendant les vacances d’automne, sans tarif publié. Aucun contact envoyé.
+
+[Rapport lot 160](AUDIT-44-2027-LOT160.md).
