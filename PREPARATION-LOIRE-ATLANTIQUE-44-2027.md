@@ -852,3 +852,9 @@ Vingt fiches : huit reliquats du lot 144 et douze premières du lot 145. Aucun t
 Quatre fiches restantes du lot 97 : Le Pallet, Port Mulon, l’aire du Stade à Donges et O’Pré d’Vous. Aucun tarif complet de nuitée 2027 confirmé. Les montants de service 2026 restent séparés des nuitées : eau à 3 € au Pallet; eau/vidange à 3 € à Port Mulon; jeton 2026 à 3,50 € à Donges; contribution libre à O’Pré d’Vous. Droits nocturnes et maintien des conditions 2027 à vérifier. Aucun lieu ajouté, aucun contact envoyé. Compteurs maintenus : 215 / 187 / 28.
 
 [Rapport lot 158](AUDIT-44-2027-LOT158.md).
+
+## Lot 159 — 4 novembre 2026
+
+Quatre dernières fiches du lot 145 : Pontchâteau (allée du Brivet), Mouais, marais de Grée et Fédrun. Aucun tarif complet de nuitée 2027 confirmé. À Pontchâteau, les sources divergent sur le prix de l’eau et la délibération à 2,50 €/100 L concerne l’aire de Grénébo, pas l’allée du Brivet. À Fédrun, un montant de 0 € apparaît sans millésime. Les droits nocturnes et conditions 2027 restent à confirmer. Aucun lieu ajouté, aucun contact envoyé. Compteurs maintenus : 215 / 187 / 28.
+
+[Rapport lot 159](AUDIT-44-2027-LOT159.md).
