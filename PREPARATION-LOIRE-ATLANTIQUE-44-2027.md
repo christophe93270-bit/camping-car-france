@@ -814,3 +814,11 @@ Vingt fiches : quatre dossiers restants du lot 140 et seize premières fiches du
 Vérifications externes encore nécessaires : barèmes 2027 et taxes pour les campings payants; autorisation nocturne aux emplacements sans règle publiée; présence de la Piardière au statut actif; guide France Passion 2027 pour la ferme; statut de l’eau à la Vigie. Compteurs inchangés : 215 / 187 / 28; aucun contact envoyé.
 
 [Rapport lot 153](AUDIT-44-2027-LOT153.md).
+
+## Lot 154 — 4 novembre 2026
+
+Vingt fiches : quatre restants du lot 141 et seize premières du lot 142. Correction importante : la Salorge accueille toute l’année, sans réservation, jusqu’à trois nuits consécutives; le stationnement y est annoncé gratuit et l’eau à 2 €/100 L, sans barème 2027 confirmé. À Riaillé, l’aire de La Bénâte compte sept places gratuites, ouverte toute l’année; l’eau est coupée l’hiver. Le Pouliguen publie clairement ses montants 2026 (13,60–17,40 € pour 2 personnes, 16 A et 50 L, taxe séparée); ce n’est pas un tarif 2027. À Arthon, l’accès 24/7 concerne le service du Super U, sans preuve de nuitée. Boussay garde une contradiction à résoudre entre services annoncés gratuits et jetons à 2 €. Les aires de pique-nique restent hors nuitée; les parkings dont le droit de nuit n’est pas explicite ne reçoivent pas de tarif d’hébergement.
+
+Vérifications externes : obtenir la grille 2027 du Pouliguen et de Nozay; clarifier l’utilisation des jetons de Boussay; vérifier le statut de la borne des Jaunais; confirmer règles de nuit et services pour les parkings de Pont-Mahé, Fay-de-Bretagne, Papinière, Passay et le complexe de la Prée; confirmer services et saison 2027 à la Salorge et à La Bénâte. Compteurs maintenus : 215 / 187 / 28. Aucun contact envoyé.
+
+[Rapport lot 154](AUDIT-44-2027-LOT154.md).
