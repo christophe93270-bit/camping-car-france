@@ -677,3 +677,22 @@ Sources :
 - https://www.enpaysdelaloire.com/hebergements/campings/camping-le-beaupre
 - https://www.camping.info/fr/emplacement-de-camping/camping-le-beaupre
 - https://www.france-voyage.com/campsites/campsite-mesquer-36357.htm
+
+## Lot 137 — Pors-er-Ster : grille officielle 2026 recomposée, cotisation et tarifs 2027 à confirmer, 4 novembre 2026
+
+Le camping annonce 97 emplacements nus et une saison 2026 du **29 juin au 6 septembre**; adhérents et non-adhérents sont accueillis. La grille officielle est à la nuitée. Elle donne adulte >10 ans **5,90 €**, enfant <10 ans **2,90 €**, emplacement **4,90 €**, véhicule (dont camping-car ≤6,80 m) **2,90 €**, moto **2,40 €**, électricité **3,50 €**, taxe adulte ≥18 ans **0,22 €/nuit**, visiteur adulte **1,50 €**, garage mort **17,40 €**. Pour 2 adultes majeurs + camping-car/véhicule + emplacement + électricité, le total reconstitué est **23,10 €/nuit hors taxe**, soit **23,54 €** avec deux taxes 2026; l’office de tourisme confirme le forfait à 23,10 € hors taxe. Ne pas reconduire ces tarifs en 2027.
+
+La cotisation annuelle 2026 du bulletin est distincte : **25 € adulte**, **15 € jeune 16–21 ans**, **5 € enfant 6–15 ans**, **1 € enfant -6 ans**. Le formulaire adhérent exige une cotisation à jour et participation aux tâches; en cas de refus le tarif non-AN s’applique. La page tarifaire ne précise pas les lignes différentes entre les deux catégories : garder ce point ouvert. Le formulaire non-adhérent lié à la page 2026 demande 30 € d’arrhes par emplacement, remboursables si annulation au moins 8 jours avant, et indique aussi un acompte de 25 % du séjour à l’arrivée; cumul et portée à clarifier. Réservations 2026 à partir du 1er mars, courrier, téléphone pour renseignements uniquement.
+
+Exclure du dossier le faux résultat PitchPlace à 14–16 € : il concerne un établissement homonyme de Luttenbach-près-Munster, dans le Haut-Rhin. Aucun barème, calendrier, cotisation ou conditions 2027 publiés; statut **tarif 2027 non confirmé**.
+
+Sources :
+- https://campinglesamisdelanaturepiriac.fr/tarifs-reservations-avis/
+- https://campinglesamisdelanaturepiriac.fr/
+- https://campinglesamisdelanaturepiriac.fr/wp-content/uploads/2026/02/DEMANDE-RESERVATION-AN1.pdf
+- https://campinglesamisdelanaturepiriac.fr/wp-content/uploads/2026/02/DEMANDE-RESERVATION-non-AN1.pdf
+- https://campinglesamisdelanaturepiriac.fr/wp-content/uploads/2026/01/Bulletin-dadhesion-2026-BIS-1.pdf
+- https://www.labaule-guerande.com/offres/les-amis-de-la-nature-piriac-sur-mer-fr-6011376/
+- https://pitchplace.app/camps/fr/camping-les-amis-de-la-nature-wka66w?lang=fr
+
+Vérifications restantes : tarifs et saison 2027; distinction de prix adhérent/non-adhérent; taxe et électricité 2027; portée/cumul des 30 € d’arrhes et de l’acompte de 25 %. Aucun contact ni lieu ajouté, compteurs **215 / 187 / 28**. [Rapport lot 137](AUDIT-44-2027-LOT137.md).
