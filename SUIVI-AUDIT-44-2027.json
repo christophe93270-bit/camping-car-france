@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Ce suivi commence au lot 90 ; les lots 73–89 restent documentés dans PREPARATION-LOIRE-ATLANTIQUE-44-2027.md. Aucun tarif non trouvé n'est réputé inexistant. Contrôle des sources publiques, sans demande envoyée. Dernier contrôle ajouté : lot 148 (04/11/2026), les deux fiches terminales du registre; les 15 fiches suivantes avaient déjà un contrôle documenté dans des lots antérieurs. Aucun contact envoyé.",
+  "note": "Ce suivi commence au lot 90 ; les lots 73–89 restent documentés dans PREPARATION-LOIRE-ATLANTIQUE-44-2027.md. Aucun tarif non trouvé n'est réputé inexistant. Contrôle des sources publiques, sans demande envoyée. Dernier contrôle ajouté : lot 148 (04/11/2026), les deux fiches terminales du registre; les fiches 193–205 avaient déjà un contrôle antérieur; les deux dernières entrées 206–207 sont traitées dans le lot 149. Aucun contact envoyé.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -3207,12 +3207,19 @@
     {
       "sourceId": "ACCAMACCAMELESFLOTSBLEUS",
       "name": "Camping Les Flots Bleus – Piriac-sur-Mer",
-      "checkedAt": "2026-11-03",
+      "checkedAt": "2026-11-04",
       "lot": 101,
       "status": "tarif_2027_non_confirme",
-      "finding": "Page tarifaire de l’exploitant toujours intitulée Tarifs 2026 ; ne fournit aucun tarif 2027. Elle précise taxe adulte 0,22 € et écocontribution de 0,40 € comprise, mais ces éléments ne valident pas le barème futur.",
-      "nextCheck": "Obtenir grille 2027 datée pour camping-car, décomposer forfait 1–2 personnes, électricité, véhicule, taxe et éco-contribution ; conserver les différentes durées séparées.",
-      "source": "https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements"
+      "finding": "La page officielle affiche toujours « Tarifs 2026 » : aucun prix de nuitée 2027. Les prix camping-car, taxe 0,22 €/adulte/nuit et écocontribution 0,40 € comprise sont documentés pour 2026 seulement. La page camping-car confirme 22 emplacements, limite 7,50 m, réservation sans frais de dossier et acompte annoncé de 30 %; les CGV précisent qu'un acompte peut être demandé selon période et qu'aucun frais de dossier ne vaut pour les emplacements nus sauf mention contraire.",
+      "nextCheck": "Obtenir une grille 2027 datée pour 1–2 personnes, camping-car, véhicule et électricité; confirmer saison d'ouverture, taxe et écocontribution 2027. Faire préciser pour 2027 l'acompte applicable aux emplacements nus et toute mention pouvant ajouter des frais. Garder les valeurs 2026 comme historiques.",
+      "source": "https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 149,
+      "recheckTariffSource": "https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements",
+      "recheckMotorhomeSource": "https://www.campinglesflotsbleus.com/nosemplacements/camping-cars",
+      "recheckTermsSource": "https://www.campinglesflotsbleus.com/contacteznous/conditionsgeneralesdevente",
+      "recheckFinding": "La page officielle affiche toujours « Tarifs 2026 » : aucun prix de nuitée 2027. Les prix camping-car, taxe 0,22 €/adulte/nuit et écocontribution 0,40 € comprise sont documentés pour 2026 seulement. La page camping-car confirme 22 emplacements, limite 7,50 m, réservation sans frais de dossier et acompte annoncé de 30 %; les CGV précisent qu'un acompte peut être demandé selon période et qu'aucun frais de dossier ne vaut pour les emplacements nus sauf mention contraire.",
+      "recheckNextCheck": "Obtenir une grille 2027 datée pour 1–2 personnes, camping-car, véhicule et électricité; confirmer saison d'ouverture, taxe et écocontribution 2027. Faire préciser pour 2027 l'acompte applicable aux emplacements nus et toute mention pouvant ajouter des frais. Garder les valeurs 2026 comme historiques."
     },
     {
       "sourceId": "ACCAMACCAMPDL044AIREDECAMPINGLEBRIORD",
