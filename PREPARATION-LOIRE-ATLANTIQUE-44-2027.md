@@ -738,3 +738,10 @@ Correction prioritaire : l’arrêté de Mesquer trouvé interdit le stationneme
 Audit des 20 fiches suivantes; aucun lieu ajouté. Compteurs maintenus : **215 / 187 / 28**. À Nozay, garder côte à côte les 10 €/jour municipaux hors taxe et le montant 11,10 €/24 h taxe comprise publié sur la réservation, jusqu’à confirmation du calcul et de son millésime. Au Pouliguen, le forfait 2026 comprend déjà 50 L d’eau : ne pas lui ajouter le tarif de borne externe. Pour Prinquiau, Boussay, Passay, La Bénâte, Les Jaunais, Guenrouët, la Guichardière et les bornes de supermarchés, séparer stationnement nocturne, parking diurne et service à l’unité. Vérifier notamment signalements de panne/interdiction à Saint-Brevin avenue des Sports et au Super U de Saint-Étienne-de-Montluc.
 
 [Rapport lot 142](AUDIT-44-2027-LOT142.md).
+
+
+## Lot 143 — 20 fiches existantes — 4 novembre 2026
+
+Compteurs conservés : **215 / 187 / 28**. Aucune fiche ajoutée ou supprimée. Corrections de classement : séparer la borne et le parking au lac de Saint-Viaud (parking gratuit ; borne de services séparée à 6 €), ne pas associer une nuitée aux bornes du Mottais et du chemin de la Plage, distinguer le point pique-nique de Saint-Nicolas-de-Redon de l’aire de La Digue, et maintenir à Saint-Lyphard le stationnement gratuit limité à 8 h–20 h avec nuitée interdite. Les gratuités de Vieillevigne, Paimbœuf, Forgeau, Marche aux Bœufs et Bois-Joalland sont rapportées par les sources touristiques, mais ne constituent pas une grille 2027 millésimée. À Beaumont, l’office évoque des nuitées sans en publier les conditions. Aucun prix de nuitée 2027 complet confirmé dans ce lot ; contacter les communes/gestionnaires pour les droits nocturnes, durées, tarifs et fonctionnement des services.
+
+[Rapport lot 143](AUDIT-44-2027-LOT143.md).
