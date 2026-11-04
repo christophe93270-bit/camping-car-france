@@ -631,3 +631,20 @@ Sources :
 - https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/187399/aire-naturelle-de-camping-etang-de-gruellau.pdf
 
 Aucun prix complet 2027 confirmé ; aucun lieu ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 133](AUDIT-44-2027-LOT133.md).
+
+## Lot 134 — Cévéo Tréambert : saison village 2027 publiée, emplacements camping-car non tarifés, 4 novembre 2026
+
+La page opérateur Cévéo annonce une ouverture du village du **2 avril au 10 octobre 2027** et l’ouverture des ventes d’été le **17 novembre 2026**. Cette saison concerne la page du village vacances ; elle n’établit pas à elle seule la disponibilité des parcelles camping-car.
+
+La page Cévéo consultée décrit et permet de chercher des hébergements du village, notamment chalets et lodges. Elle n’affiche aucun prix 2027 ni parcours/résultat de réservation d’emplacement camping-car. La fiche départementale Rando Loire-Atlantique décrit une partie camping avec 29 emplacements campeurs libres et 15 emplacements camping-car, mais sans tarif ni indication de calendrier 2027. Il faut faire confirmer par l’exploitant que ces parcelles sont encore commercialisées comme emplacements touristiques et relèvent bien du calendrier du village.
+
+Les promotions éventuelles portant sur les chalets, lodges ou la demi-pension sont des offres d’hébergement, pas des prix de nuitée d’emplacement. Ne pas reprendre leurs montants ou conditions pour un camping-car. Aucun tarif opérateur 2027 d’emplacement n’a été trouvé.
+
+À vérifier à partir du **17 novembre** : présence des emplacements dans le moteur, dates de réservation possibles, et devis pour un camping-car et deux adultes avec électricité, taxe, frais et suppléments détaillés. Si le moteur ne propose que les locations, demander une confirmation de disponibilité et de tarif pour les 15 emplacements annoncés dans la fiche départementale.
+
+Sources :
+- https://www.ceveo.com/residence/mesquer-pays-de-guerande
+- https://rando.loire-atlantique.fr/service/187218-Camping---Village-vacances-Ceveo-Chateau-de-Treambert
+- https://www.ceveo.com/sejours-au-camping
+
+Aucun montant 2027 ajouté, aucun lieu ajouté, aucun contact envoyé. Compteurs **215 / 187 / 28**. [Rapport lot 134](AUDIT-44-2027-LOT134.md).
