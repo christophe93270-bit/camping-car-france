@@ -352,15 +352,15 @@
       "Borne de services distante d'environ 1,2 km",
       "Pas d'eau, d'électricité ni de vidange sur ce parking"
     ],
-    "price": "Tarif communal 2026 : 7 € par nuitée pour le stationnement à la Bôle de Merquel. Taxe de séjour éventuelle non précisée dans cette grille : à vérifier. Aucun service technique sur le parking ; le prix communal de l'eau à 2 € les 100 litres concerne le ravitaillement à la borne distincte, pas une prestation incluse dans les 7 €.",
-    "status": "Route de la Bôle de Merquel, 44420 Mesquer-Quimiac, entre Kercabellec et Sorlock. 15 places et limite 72 h selon l'office (pas 20) ; aucun service technique sur place.",
+    "price": "Tarif de nuitée non attribuable avant confirmation de l’emplacement exact. La grille municipale 2026 donne 7 €/nuit pour l’aire autorisée route de la Bôle, tandis que l’arrêté municipal du 08/04/2021 interdit les véhicules couchants de 22 h à 8 h sur le terrain/parking de la Bôle de Merquel. Comparer coordonnées et limites avant d’afficher un tarif ou une nuitée. Eau 2 €/100 L à la borne distincte.",
+    "status": "Fiche régionale à distinguer entre le parking/terrain de la Bôle (nuit interdite 22 h–8 h) et l’aire d’accueil désignée route de la Bôle (nuit autorisée). Tant que la localisation précise n’est pas rapprochée de l’arrêté, statut et tarif de nuitée à confirmer; ne pas afficher 7 € sur le secteur interdit.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.4145,
     "longitude": -2.46799,
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle du 19 octobre 2026 auprès de Loire-Atlantique Tourisme : gratuité, services, capacité et restrictions de nuitée distingués ; montants non publiés explicitement signalés. Les coordonnées et l'identifiant régionaux d'origine sont conservés. Lot 72 du 23/10/2026 : grille municipale 2026 contrôlée visuellement ; prix du stationnement et des services distingués, taxe non inventée.",
+    "importReview": "Contrôle du 19 octobre 2026 auprès de Loire-Atlantique Tourisme : gratuité, services, capacité et restrictions de nuitée distingués ; montants non publiés explicitement signalés. Les coordonnées et l'identifiant régionaux d'origine sont conservés. Lot 72 du 23/10/2026 : grille municipale 2026 contrôlée visuellement ; prix du stationnement et des services distingués, taxe non inventée. Lot 152 (04/11/2026) : mise en réserve du tarif de 7 €/nuit tant que la fiche n’est pas rapprochée de l’arrêté municipal 2021 et des limites entre parking interdit et aire autorisée.",
     "sourceId": "ACCAMECCBOLEMERQUEL",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/180206-Aire-de-camping-cars-de-la-Bole-de-Merquel",
     "servicesSource": "https://rando.loire-atlantique.fr/service/180206-Aire-de-camping-cars-de-la-Bole-de-Merquel",
@@ -383,7 +383,7 @@
       "Électricité par jeton : 2 € / heure selon l'office de tourisme",
       "Vidanges eaux grises/noires à l'emplacement prévu"
     ],
-    "price": "Grille municipale affichée : 9,26 € par nuitée (avril-juin et septembre-octobre), 11,66 € (juillet-août), taxe de séjour incluse. Novembre-mars gratuit selon Loire-Atlantique Tourisme, eau coupée l'hiver. Mais l'office de tourisme indique actuellement une gratuité provisoire en raison d'une panne : vérifier sur place la date de fin de cette suspension. Eau ou électricité : 2 € le jeton.",
+    "price": "Accès actuellement gratuit jusqu’à nouvel ordre en raison d’un dysfonctionnement. Barème de référence affiché : 9,26 € avril-juin/septembre-octobre et 11,66 € juillet-août, taxes comprises, max. 2 nuitées; novembre-mars gratuit. Jeton d’eau 100 L : 2 € séparé. Vérifier fin de gratuité et tarifs 2027.",
     "status": "Route de la Govelle, rond-point face à la plage, 44740 Batz-sur-Mer. Limite de deux nuits (48 h) ; aire normalement payante mais gratuité provisoire publiée en raison d'un dysfonctionnement. Attention au tarif réellement appliqué le jour d'arrivée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.26691,
@@ -391,7 +391,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle avec mairie, office de tourisme ou source spécialisée datée de 2026 le 19 octobre 2026 ; distinguer tarifs de nuitée, bornes de service et informations discordantes. Source régionale originale conservée.",
+    "importReview": "Contrôle avec mairie, office de tourisme ou source spécialisée datée de 2026 le 19 octobre 2026 ; distinguer tarifs de nuitée, bornes de service et informations discordantes. Source régionale originale conservée. Lot 152 (04/11/2026) : gratuité provisoire toujours annoncée par l’office de tourisme; grille conservée comme référence, non comme montant actuellement perçu.",
     "sourceId": "ACCAMECCLAGOVELLE",
     "sourceOfficial": "https://www.ot-batzsurmer.fr/aire-de-camping-cars-de-la-govelle.html",
     "servicesSource": "https://www.ot-batzsurmer.fr/aire-de-camping-cars-de-la-govelle.html",
@@ -6401,10 +6401,10 @@
     "overnightAccessSource": "https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-02",
+      "checkedAt": "2026-11-04",
       "status": "promotion_only",
       "label": "Promotion 2027 annoncée — emplacements camping-car à vérifier",
-      "note": "Le site Bel Air annonce une offre Early Booking 2027 de −20 % sur ses hébergements. L’application aux emplacements nus et boxes camping-car n’est pas établie. Demander les conditions, dates limites, prix de base, taxe et frais ; aucune nuitée camping-car 2027 n’est confirmée par cette annonce.",
+      "note": "Relecture officielle du 04/11/2026 : bannière Early Booking 2027 de −20 % cumulables sur tous les hébergements et dates, mais l’application aux emplacements nus/boxes camping-car n’est pas explicite. Offre seule; aucune nuitée camping-car 2027 confirmée.",
       "source": "https://www.belairpornichet.fr/belair"
     }
   },
@@ -10175,7 +10175,7 @@
     "departureTime": "11:00",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-03",
+      "checkedAt": "2026-11-04",
       "status": "partial",
       "label": "Tarif 2027 non confirmé : le repère secondaire de 32 €/jour reproduit la haute saison 2026.",
       "note": "CampingFrance intitule sa section « Tarifs 2027 » et affiche 32 €/jour pour 2 adultes, électricité 4,90 €/jour, adulte supplémentaire 7,50 €, enfant 5,50 € et animal 3 €. Or la grille officielle de l’exploitant pour 2026 publie exactement ces cinq montants dans la seule tranche du 26/07 au 31/08 ; ses autres périodes sont moins chères. Cette concordance complète est compatible avec une reprise des tarifs 2026 et ne suffit pas à confirmer un prix 2027. La page officielle consultée expose encore les tarifs 2026 ; le dépliant téléchargeable est intitulé 2025. Ne pas présenter 32 €/jour comme un tarif 2027 confirmé. Demander la grille 2027 datée, les périodes, taxe, frais, durée minimale et confirmation des suppléments.",
