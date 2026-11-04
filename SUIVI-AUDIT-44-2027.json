@@ -219,7 +219,14 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Page opérateur emplacements sans dates remplies ni montant 2027 exploitable.",
       "nextCheck": "Calendrier et devis camping-car 2027 ; ne pas valider les dates d'un annuaire seul.",
-      "source": "https://www.camping-lafontaine.com/location-emplacement-guerande/"
+      "source": "https://www.camping-lafontaine.com/location-emplacement-guerande/",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "La page officielle des emplacements présente des parcelles mais ne donne ni tarif annuel, ni prix exploitable, ni calendrier 2027. Une autre page officielle annonce l’ouverture du camping le 04/04/2026 et « pour les campeurs » à partir du 18/04/2026 : à conserver comme dates 2026 et à clarifier si cette différence concerne les emplacements nus.",
+      "recheckNextCheck": "Demander grille 2027 par nuit pour camping-car, 2 adultes, véhicule et électricité, dates d'ouverture pour les campeurs et taxe/suppléments. Ne pas produire de total à partir d’une offre ou d’un tarif d’hébergement locatif.",
+      "recheckTariffSource": "https://www.camping-lafontaine.com/location-emplacement-guerande/",
+      "recheckSeasonSource": "https://www.camping-lafontaine.com/camping-3-etoiles-guerande/",
+      "recheckContactSource": "https://www.camping-lafontaine.com/contact-acces/"
     },
     {
       "sourceId": "CCF44-LE-GAVRE-CAMPING-FORET-2026",
@@ -229,7 +236,13 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Fiche touristique sans barème 2027 ; résultats homonymes hors du Gâvre écartés.",
       "nextCheck": "Tarifs municipaux/exploitant 2027, taxe et électricité.",
-      "source": "https://www.enpaysdelaloire.com/hebergements/campings/camping-de-la-foret"
+      "source": "https://www.enpaysdelaloire.com/hebergements/campings/camping-de-la-foret",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "Les fiches touristiques identifient le camping municipal du Gâvre mais ne publient pas de tarif 2027 ni de grille récente officielle. Les résultats trouvés ne doivent pas être remplacés par les tarifs d’homonymes hors Loire-Atlantique.",
+      "recheckNextCheck": "Obtenir auprès de la mairie/gestionnaire les prix 2027 par nuit et les inclusions (emplacement, personnes, véhicule, électricité, taxe), ainsi que les dates d’ouverture. Aucun prix tiers non daté ne doit être importé comme officiel.",
+      "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/campings/camping-de-la-foret",
+      "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/183923-CAMPING-DE-LA-FORET-%2A%2A"
     },
     {
       "sourceId": "CCF44-GUERANDE-BREHADOUR-2026",
@@ -239,7 +252,13 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Ancienne page halte 11/16 € non millésimée ; offres 2027 de tiers insuffisantes pour valider le camping-car.",
       "nextCheck": "Devis officiel 2027, maintien de la halte et conditions ACSI.",
-      "source": "https://www.domainedebrehadour.com/mobile/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml"
+      "source": "https://www.domainedebrehadour.com/mobile/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "La page officielle « halte camping-car » décrit un forfait spécial halte pour une arrivée après 18h et un départ avant 10h; les montants historiques 11/16 € repérés dans les données ne sont pas millésimés par cette page. Une promotion officielle 15–25 % sur emplacements est distincte du prix de base. Aucun tarif standard 2027 confirmé.",
+      "recheckNextCheck": "Confirmer le prix 2027 du forfait halte et ses inclusions (personnes, électricité, vidange) séparément du forfait emplacement à la nuitée, et dater les périodes de promotion. Garder toute promo en champ offre, jamais comme prix standard.",
+      "recheckTariffSource": "https://www.domainedebrehadour.com/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml",
+      "recheckPromotionSource": "https://www.domainedebrehadour.com/camping_guerande_actualites-offres_promo-15-a-25-sur-les-emplacements-de-camping.phtml"
     },
     {
       "sourceId": "CCF44-PORNICHET-CAMPING-LES-FORGES-2026",
@@ -249,7 +268,14 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Page tarifs sans montant 2027 exploitable ; office encore 2026.",
       "nextCheck": "Prix emplacement 2027, services, taxe et frais.",
-      "source": "https://campinglesforges.com/81-tarifs.html"
+      "source": "https://campinglesforges.com/81-tarifs.html",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "La page officielle des tarifs est consultable mais aucun barème d’emplacement 2027 daté n’en ressort. Le site décrit bien des emplacements pour camping-cars; la page d’accueil ne constitue pas une grille tarifaire.",
+      "recheckNextCheck": "Demander un devis opérateur par nuit pour 2 adultes + camping-car + véhicule + électricité, avec dates 2027, taxe et suppléments. Ne pas confondre locatifs ni résidentiel à l’année avec un séjour de passage.",
+      "recheckTariffSource": "https://campinglesforges.com/81-tarifs.html",
+      "recheckPitchSource": "https://campinglesforges.com/64-emplacements/93-emplacements-de-camping-a-pornichet.html",
+      "recheckContactSource": "https://campinglesforges.com/19-contact"
     },
     {
       "sourceId": "CCF44-CROISIC-PIERRE-LONGUE-2026",
@@ -259,7 +285,13 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Accueil opérateur ouvert du 3 avril au 1er novembre 2026.",
       "nextCheck": "Grille et calendrier 2027 ; distinguer séjour et vidange seule.",
-      "source": "https://www.campinglapierrelongue.com/"
+      "source": "https://www.campinglapierrelongue.com/",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "La page officielle confirme l’ouverture 2026 du 03/04 au 01/11; ses 158 emplacements reçoivent les camping-cars, jusqu’à 6 personnes, électricité 10A. Pas de grille tarifaire 2027 publiée ou prix standard confirmé.",
+      "recheckNextCheck": "Obtenir la grille 2027 par saison et les dates d’ouverture; isoler tarif de base, supplément personnes, électricité et taxe. Le calendrier 2026 ne doit pas être reconduit.",
+      "recheckSeasonSource": "https://www.campinglapierrelongue.com/",
+      "recheckPitchSource": "https://www.campinglapierrelongue.com/emplacements.htm"
     },
     {
       "sourceId": "CCF44-CROISIC-CAMPING-OCEAN-2026",
@@ -270,12 +302,15 @@
       "finding": "Calendrier 3 avril–26 septembre 2027 confirmé ; page prix encore titrée 2026 et moteur sans montant.",
       "nextCheck": "Devis 2027 Confort/Grand Confort, taxe et frais ; pack 15 € exclu du prix de base.",
       "source": "https://www.camping-ocean.com/tarifs-ocean",
-      "recheckedAt": "2026-11-03",
-      "recheckLot": 112,
-      "recheckFinding": "L'exploitant annonce la saison du 03/04 au 26/09/2027 et réservations ouvertes en octobre ; la page tarifs est encore intitulée 2026 et aucun prix d'emplacement 2027 ne s'affiche. Le Pack Exclusif 15 €/jour est une option.",
-      "recheckNextCheck": "Demander un devis daté pour 2 personnes en emplacement Confort/Grand Confort, taxe et frais compris, confirmer le tarif de nuitée et la disponibilité; conserver la limite 8,50 m, l'interdiction double essieu et les restrictions juillet-août.",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "Correction importante : l’exploitant confirme officiellement l’ouverture 2027 du 03/04 au 26/09/2027 et indique l’ouverture des réservations 2027 courant octobre. En revanche la page tarifaire reste intitulée « Tarifs 2026 »; le moteur affiche des prix « -- » au contrôle public. Camping-car/caravane limité à 8,5 m, double essieu interdit.",
+      "recheckNextCheck": "Conserver dates 2027 confirmées, mais demander le tarif d’emplacement 2027 pour dates précises et les extras (personnes au-delà de 2, électricité, taxe). Ne pas étendre le prix 2026 au calendrier 2027.",
       "recheckSource": "https://www.camping-ocean.com/tarifs-ocean",
-      "recheckConditionsSource": "https://www.camping-ocean.com/emplacement-camping-croisic.html"
+      "recheckConditionsSource": "https://www.camping-ocean.com/emplacement-camping-croisic.html",
+      "recheckTariffSource": "https://www.camping-ocean.com/tarifs-ocean",
+      "recheckSeasonSource": "https://www.camping-ocean.com/",
+      "recheckPitchSource": "https://www.camping-ocean.com/emplacement-camping-croisic.html"
     },
     {
       "sourceId": "CCF44-PORNICHET-GCU-2026",
@@ -285,7 +320,14 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Saison juin–août 2026 ; brochure 2026. Prix très basse saison générique non validé pour 2027.",
       "nextCheck": "Barème 2027 applicable aux dates réellement ouvertes et règles d'adhésion.",
-      "source": "https://www.gcu.asso.fr/campings/camping-pornichet/"
+      "source": "https://www.gcu.asso.fr/campings/camping-pornichet/",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "La page et brochure officielles publiées sont millésimées 2026, à la nuitée. Pour Pornichet, la brochure affiche une ligne « emplacement + 1 adulte » à 15,33 € et adulte supplémentaire à 3,61 €; des lignes non-adhérents et invités sont distinctes. La page donne l’ouverture 2026 du 12/06 au 30/08. Ne pas transformer cotisation associative, invité ou tarif très basse saison en tarif public uniforme 2027.",
+      "recheckNextCheck": "Obtenir la brochure et période d’ouverture 2027, confirmer la catégorie membre/non-membre et les éventuelles taxes. Utiliser les lignes de la brochure 2026 seulement comme historique.",
+      "recheckTariffSource": "https://www.gcu.asso.fr/brochure-tarifaire/",
+      "recheckBrochure2026Source": "https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf",
+      "recheckSeasonSource": "https://www.gcu.asso.fr/campings/camping-pornichet/"
     },
     {
       "sourceId": "CCF44-PRIGNY-2026",
@@ -295,7 +337,14 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Accès direct intermittent ; office fournit 2026. Promotion duo locative non validée pour camping-car 2027.",
       "nextCheck": "Devis emplacement 2027, électricité, frais et taxe.",
-      "source": "https://www.pornic.com/camping-de-prigny.html"
+      "source": "https://www.pornic.com/camping-de-prigny.html",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "La page officielle confirme 24 emplacements nus raccordables; l’offre duo de 20 % est explicitement pour un hébergement insolite, pas un emplacement camping-car. Un prix « à partir de 56 € » vu sur la page de promotions concerne une aire/catégorie 2–6 personnes et n’est pas un prix de nuitée démontré pour 2027. Saison 2026 du 04/04 au 04/10 sur l’office de tourisme.",
+      "recheckNextCheck": "Demander tarif standard d’emplacement nu par nuit pour 2 adultes, camping-car, véhicule, électricité et taxe; confirmer dates 2027. Garder remises duo/mid-week dans offres locatives seulement sauf preuve explicite d’application aux emplacements.",
+      "recheckPitchSource": "https://www.campingdeprigny.fr/location-emplacement-les-moutiers-en-retz/",
+      "recheckOfferSource": "https://www.campingdeprigny.fr/camping-pas-cher-les-moutiers-en-retz/",
+      "recheckSeasonSource": "https://www.pornic.com/camping-de-prigny.html"
     },
     {
       "sourceId": "CCF44-MOUTIERS-DOMAINE-DU-COLLET-2026",
@@ -306,13 +355,14 @@
       "finding": "Contrôle lot 122 : aucun tarif officiel 2027 trouvé ; les pages de l’exploitant restent sur la saison 2026. Pour 2026, l’exploitant affiche 25 €/nuit en basse saison et 40 €/nuit en haute saison pour 2 personnes + 1 véhicule ; Destination Pornic affiche 28–40 € pour 2 personnes + 1 voiture. Le minimum diverge de 3 €. Les taxes diffèrent aussi entre la page tarifaire exploitant (0,66 €/personne/nuit), Destination Pornic (0,66 €/adulte/nuit) et les CGV sans millésime visible (0,60 €/adulte/nuit).",
       "nextCheck": "Obtenir la grille officielle datée 2027 et le calendrier d’ouverture. Pour le 2026 historique, demander confirmation du minimum 25 ou 28 €, du champ d’application de l’électricité, et du taux de taxe actuel (0,66 ou 0,60). Garder distincts l’éco-participation 0,35 €/personne/jour et les frais de réservation 25 €. Ne pas reprendre les tarifs d’un tiers comme grille opérateur.",
       "source": "https://www.domaine-du-collet.com/camping-bord-de-mer-pornic",
-      "recheckedAt": "2026-11-03",
-      "recheckLot": 122,
-      "recheckFinding": "Contrôle lot 122 : aucun tarif officiel 2027 trouvé ; les pages de l’exploitant restent sur la saison 2026. Pour 2026, l’exploitant affiche 25 €/nuit en basse saison et 40 €/nuit en haute saison pour 2 personnes + 1 véhicule ; Destination Pornic affiche 28–40 € pour 2 personnes + 1 voiture. Le minimum diverge de 3 €. Les taxes diffèrent aussi entre la page tarifaire exploitant (0,66 €/personne/nuit), Destination Pornic (0,66 €/adulte/nuit) et les CGV sans millésime visible (0,60 €/adulte/nuit).",
-      "recheckNextCheck": "Obtenir la grille officielle datée 2027 et le calendrier d’ouverture. Pour le 2026 historique, demander confirmation du minimum 25 ou 28 €, du champ d’application de l’électricité, et du taux de taxe actuel (0,66 ou 0,60). Garder distincts l’éco-participation 0,35 €/personne/jour et les frais de réservation 25 €. Ne pas reprendre les tarifs d’un tiers comme grille opérateur.",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "Grille opérateur 2026 explicite : forfait nu 2 personnes + 1 véhicule 25 €/nuit du 01/04–03/07 et 30/08–31/10, 40 €/nuit du 04/07–29/08. L’électricité est en supplément à 7 €/jour. Taxe de séjour 0,66 €/personne/nuit, participation environnementale 0,35 €/personne/jour et frais de réservation 25 € sont séparés. Le résumé précédent qui laissait croire que 25/40 € couvrait l’électricité et les frais était incomplet. Aucun tarif 2027.",
+      "recheckNextCheck": "Confirmer la grille standard 2027 et les dates exactes; renseigner électricité, taxe, participation environnementale et frais de réservation séparément du prix nuit. Distinguer la formule vélo et les autres extras.",
       "recheckSource": "https://www.domaine-du-collet.com/camping-bord-de-mer-pornic",
       "recheckConditionsSource": "https://www.domaine-du-collet.com/uploads/pdf/cgv.pdf",
-      "recheckSecondarySource": "https://www.pornic.com/camping-le-domaine-du-collet.html"
+      "recheckSecondarySource": "https://www.pornic.com/camping-le-domaine-du-collet.html",
+      "recheckTariffSource": "https://www.domaine-du-collet.com/uploads/pdf/tarifs-2026.pdf"
     },
     {
       "sourceId": "ACCAMEFLEURDEBRIERE",
@@ -322,7 +372,13 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Prix d’appel sans millésime 2027 ; source touristique encore 2026.",
       "nextCheck": "Grille camping-car 2027, électricité, taxe et frais.",
-      "source": "https://www.campingfleurdebriere.com/fr/hebergements"
+      "source": "https://www.campingfleurdebriere.com/fr/hebergements",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "La page officielle décrit une parcelle camping-car dédiée de 100 m² avec électricité 16A et affiche un prix d’appel « à partir de 9,90 €/nuit pour 2 pers. » sans millésime, saison ni détail d’inclusions visibles. Ce prix d’appel ne confirme ni grille 2026 complète ni tarif 2027.",
+      "recheckNextCheck": "Faire préciser période et catégorie de parcelle du « dès 9,90 € », les suppléments électricité/visiteurs/taxe et grille 2027 datée. Ne pas l’enregistrer comme prix standard 2027.",
+      "recheckTariffSource": "https://www.campingfleurdebriere.com/fr/hebergements",
+      "recheckHomeSource": "https://www.campingfleurdebriere.com/fr"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000155",
@@ -332,7 +388,13 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Site opérateur non récupéré ; aucune grille 2027 recoupée. Attention aux homonymes.",
       "nextCheck": "Barème du camping de Saint-Père-en-Retz et coût des services.",
-      "source": "https://www.les-mouettes-camping.com/"
+      "source": "https://www.les-mouettes-camping.com/",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "La page officielle actuelle affiche 15 €/nuit pour emplacement camping-car 2 personnes + 1 emplacement + 1 véhicule, mais sans année de validité; électricité 6A +6,50 €/jour, personne supplémentaire +5 €/jour (plus de 7 ans) ou +4 €/jour (jusqu’à 7 ans), animal gratuit. La grille PDF accessible est datée du 01/01/2024. Garder 15 € comme tarif public non millésimé, pas comme prix 2026/2027 confirmé.",
+      "recheckNextCheck": "Obtenir grille 2027 datée et dates de saison; confirmer si le 15 €/nuit reste applicable, taxe éventuelle, supplément personnes et électricité. Séparer l’historique 2024 des tarifs sans millésime affichés.",
+      "recheckTariffSource": "https://les-mouettes-camping.com/",
+      "recheckTariff2024Source": "https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf"
     },
     {
       "sourceId": "ACCAMELEDEFFAY",
@@ -342,7 +404,14 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Rubriques tarifs explicitement 2026, dont emplacements par nuitée.",
       "nextCheck": "Grille emplacements 2027 et suppléments, distincte des locatifs.",
-      "source": "https://www.camping-le-deffay.com/contact-tarifs-acces/"
+      "source": "https://www.camping-le-deffay.com/contact-tarifs-acces/",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "L’exploitant publie une page « emplacements 2026 par nuitée » et des téléchargements séparés pour semaine/week-end; les CGV précisent que taxe de séjour et redevance ordures ménagères ne sont pas comprises. Les montants du PDF emplacement ne sont pas exposés dans la version HTML consultée, donc ne pas inférer une valeur. Aucun tarif 2027.",
+      "recheckNextCheck": "Lire ou obtenir le PDF des emplacements 2026 pour archiver son barème complet puis demander édition 2027. Garder tarifs par semaine/week-end séparés des prix par nuitée et ajouter taxes/redevances hors forfait.",
+      "recheckTariffSource": "https://www.camping-le-deffay.com/emplacements-camping/",
+      "recheckTariffIndexSource": "https://www.camping-le-deffay.com/contact-tarifs-acces/",
+      "recheckConditionsSource": "https://www.camping-le-deffay.com/politique-de-confidentialite/"
     },
     {
       "sourceId": "ACCAMPDL044V51HCFW",
@@ -352,7 +421,13 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Prix d’appel sans validité 2027 établie.",
       "nextCheck": "Forfait ordinaire et conditions ACSI 2027, électricité et taxe.",
-      "source": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne"
+      "source": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "La page officielle confirme l’accueil des camping-cars et emplacements de camping. La FAQ confirme l’acceptation de la carte ACSI pour un tarif avantageux en basse saison; aucun tarif daté 2027 ni forfait total standard publié dans les sources consultées.",
+      "recheckNextCheck": "Demander barème 2027 par nuit et offre ACSI (dates, carte exigée, nombre de personnes et électricité compris), taxe et saison. Ne pas assimiler prix ACSI ni prix d’appel à tarif standard.",
+      "recheckPitchSource": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne",
+      "recheckACSIConditionsSource": "https://www.campinglhermitage.com/en-gb/faq"
     },
     {
       "sourceId": "ACCAMEFERMEISSON",
@@ -362,7 +437,13 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Site encore orienté 2026 ; aucune grille 2027 recoupée.",
       "nextCheck": "Ouverture, forfait camping-car 2027, taxe et services.",
-      "source": "https://www.camping-lafermedisson.com/"
+      "source": "https://www.camping-lafermedisson.com/",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "Page officielle : forfait camping-car affiché à 15,20 € par nuit, pour un camping-car + 2 personnes + électricité + taxe de séjour annoncée 0,22 €; le site précise réservation obligatoire et minimum 3 nuits. L’année de ce forfait n’est pas indiquée; ce n’est donc pas un tarif 2027 confirmé ni une nuit isolée réservable.",
+      "recheckNextCheck": "Confirmer que le forfait 15,20 € et sa taxe incluse sont valables pour 2027, les dates d’ouverture et le minimum de 3 nuits; conserver la condition de réservation. Ne pas ajouter une seconde taxe à ce total avant clarification.",
+      "recheckTariffSource": "https://www.camping-lafermedisson.com/",
+      "recheckConditionsSource": "https://www.camping-lafermedisson.com/nous-contacter"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000114",
@@ -372,7 +453,14 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Source touristique encore 2026 ; distinguer emplacement et locatif.",
       "nextCheck": "Forfait camping-car 2027, électricité, taxe et conditions de séjour.",
-      "source": "https://www.enpaysdelaloire.com/hebergements/campings/le-pas-du-gu"
+      "source": "https://www.enpaysdelaloire.com/hebergements/campings/le-pas-du-gu",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "Les tarifs 2026 en image de l’exploitant sont explicitement annoncés sur la page camping-car. La fiche Destination Saint-Brevin affiche pour camping-car 15–18 €/nuit/journée, avec accès sanitaires et électricité, max. 5 personnes, mais ne rattache pas les deux bornes à des périodes sur le texte accessible. À conserver comme fourchette secondaire 2026 indicative, pas comme ligne standard unique ni 2027.",
+      "recheckNextCheck": "Obtenir le tableau 2026 lisible pour attribuer 15/18 € aux périodes, puis grille 2027 et conditions de réservation. Séparer le forfait camping-car (électricité+sanitaires) du forfait emplacement nu sans électricité; confirmer taxe.",
+      "recheckTariffSource": "https://www.campingpasdugu.net/nos-tarifs/nos-tarifs-camping-car/",
+      "recheckTariffSecondarySource": "https://www.saint-brevin.com/le-pas-du-gu.html",
+      "recheckSeasonSource": "https://www.campingpasdugu.net/"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000154",
@@ -382,7 +470,14 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Aucun total camping-car 2027 recoupé ; calendrier intermédiaire insuffisant.",
       "nextCheck": "Devis opérateur emplacement camping-car 2027 et frais.",
-      "source": "https://www.enpaysdelaloire.com/hebergements/campings/camping-eden-villages-la-pointe-saint-gildas"
+      "source": "https://www.enpaysdelaloire.com/hebergements/campings/camping-eden-villages-la-pointe-saint-gildas",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "Le site touristique classe la fiche sous « aire de stationnement » mais décrit l’Eden Villages La Pointe Saint-Gildas, camping avec emplacements nus, et distingue 49 places pour camping-cars des 236 emplacements du camping. Calendrier touristique 2026 : 10/04–20/09. Aucun tarif standard officiel 2027 trouvé; tarifs de séjours mobil-home sur plateformes ne valent pas prix de pitch.",
+      "recheckNextCheck": "Garder la nature « camping » et ne compter séparément les 49 places camping-car que si ce champ a cette définition; demander grille tarifaire d’emplacement 2027 et dates, taxe et électricité. Exclure les prix locatifs et offres tierces.",
+      "recheckTourismSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/camping-eden-villages-la-pointe-saint-gildas",
+      "recheckProviderSource": "https://www.eden-villages.fr/",
+      "recheckSeasonSecondarySource": "https://www.pornic.com/camping-eden-villages-la-pointe-saint-gildas.html"
     },
     {
       "sourceId": "ACCAMPDL044V5001GW",
@@ -392,7 +487,14 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Index tarifs accessible, sous-page emplacements non récupérée ; aucune grille 2027 recoupée.",
       "nextCheck": "Séparer nuitée, services et ACSI ; obtenir prix 2027.",
-      "source": "https://www.camping-la-pindiere.com/27-tarifs"
+      "source": "https://www.camping-la-pindiere.com/27-tarifs",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "Page officielle des emplacements tarifée 2025 (arrivée/départ de midi à midi); aucune grille opérateur 2026 ou 2027 explicitement datée retrouvée. PiNCAMP donne un comparatif 2026 (couple dès 16,90 €/basse saison et 21,10 €/haute saison), taxe exclue, électricité exclue, chien dès 2,10 €; c’est une indication tierce, pas le tarif officiel à intégrer.",
+      "recheckNextCheck": "Obtenir grille 2027 officielle et relier le prix de base, électricité (6/10A), taxe et personne supplémentaire. Confirmer conditions/date de validité du comparatif PiNCAMP 2026 avant d’utiliser en historique.",
+      "recheckTariffSource": "https://www.camping-la-pindiere.com/27-tarifs/96-tarifs-emplacements.html",
+      "recheckSecondaryTariffSource": "https://www.pincamp.fr/campings/camping-la-pindiere",
+      "recheckPitchSource": "https://www.camping-la-pindiere.com/24-camping"
     },
     {
       "sourceId": "ACCAMEBELAIR",
@@ -402,7 +504,14 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Annonce officielle Early Booking 2027 −20 %, portée camping-car non établie ; ajout promotion_only.",
       "nextCheck": "Applicabilité aux emplacements/boxes, conditions, échéance, prix, taxe et frais.",
-      "source": "https://www.belairpornichet.fr/belair"
+      "source": "https://www.belairpornichet.fr/belair",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "Le site officiel affiche une Early Booking 2027 à -20 % cumulable « sur tous nos hébergements et toutes les dates », mais la page d’offres n’établit pas clairement que l’offre couvre aussi emplacements nus et boxes camping-cars. C’est une promotion, pas un prix de nuitée. Tarif de base 2027 et dates de l’offre non vérifiés.",
+      "recheckNextCheck": "Confirmer par conditions opérateur si -20 % s’applique aux emplacements/boxes camping-car, dates d’achat et de séjour, cumul, et barème de base par nuit; garder la promotion en champ offre séparé.",
+      "recheckPromotionSource": "https://www.belairpornichet.fr/camping-4-etoiles-proche-la-baule/newsletter",
+      "recheckBookingSource": "https://www.belairpornichet.fr/booking",
+      "recheckPitchSource": "https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000138",
@@ -412,7 +521,15 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Emplacements camping-car présentés, sans total 2027 recoupé.",
       "nextCheck": "Devis 2027 daté et tout compris.",
-      "source": "https://www.grandfay.fr/"
+      "source": "https://www.grandfay.fr/",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "La page officielle établit pour 2026 une saison du 01/04 au 10/10 et un emplacement standard d’environ 90 m², forfait 1–2 personnes avec 1 véhicule, électricité 10A, sanitaires et wifi inclus, capacité max. 6, séjour d’au moins 1 nuit. Le tarif de saisonnier à partir de 15 €/jour est une offre longue durée distincte (minimum 2 mois consécutifs), été 2026, électricité comprise. Le jeu de données touristique départemental indique à titre de repère 2026 16–26 €/nuit de base et taxe 0,44 €/adulte/nuit; Pitchup indexe un tarif 2027 à partir de 16,88 €/nuit pour 2 adultes plus 13 € de taxes/frais, mais ce montant tiers n’est pas confirmé sur la réservation officielle.",
+      "recheckNextCheck": "Demander au camping le prix standard 2027 et saison, puis rapprocher l’offre Pitchup 16,88 € + 13 € de taxes/frais avec le moteur officiel; ne pas classer le tarif saisonnier 15 €/jour comme prix public/nuit. Vérifier taxe 2027 et frais de réservation.",
+      "recheckPitchSource": "https://www.grandfay.fr/emplacements-camping-st-pere-en-retz-5.html",
+      "recheckSeasonalOfferSource": "https://www.grandfay.fr/offre-hebergement-pas-saisonniers-loire-atlantique-120.html",
+      "recheckTaxDatasetSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-005_offre-touristique-hotelleries-de-plein-air-rpdl/",
+      "recheckThirdParty2027Source": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/saint-p%C3%A8re-en-retz/camping-du-grand-fay/"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000026",
@@ -422,7 +539,14 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Emplacements identifiés ; page tarifs non récupérée, aucun barème 2027 recoupé.",
       "nextCheck": "Forfait 2027, branchement et éventuelle location d’adaptateur, taxe.",
-      "source": "https://www.la-cale-sauvage.com/nos-emplacements/"
+      "source": "https://www.la-cale-sauvage.com/nos-emplacements/",
+      "recheckedAt": "2026-11-04",
+      "recheckLot": 139,
+      "recheckFinding": "Page officielle « Tarifs 2026 » et ouverture du 03/04 au 04/10/2026, emplacements de 80–100 m² avec ou sans électricité; les montants des emplacements apparaissent comme images/éléments non rendus dans le relevé textuel, donc aucun total numérique n’est validé ici. Pas de grille 2027.",
+      "recheckNextCheck": "Relever les montants directement depuis la grille visuelle ou le moteur de réservation 2026 (prix de base, électricité, personnes, taxe, réservation) et obtenir la version 2027 avec ouverture. Ne pas confondre séjour nuitée, petit-déjeuner ni prix locatifs.",
+      "recheckTariffSource": "https://www.la-cale-sauvage.com/tarifs-du-camping/",
+      "recheckBookingSource": "https://www.la-cale-sauvage.com/reserver/",
+      "recheckPitchSource": "https://www.la-cale-sauvage.com/nos-emplacements/"
     },
     {
       "sourceId": "ACCAMPDL044V50LCQJ",

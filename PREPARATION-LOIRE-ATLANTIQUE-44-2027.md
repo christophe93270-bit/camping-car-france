@@ -711,3 +711,14 @@ Sources :
 - https://camping-lebernier.fr/hebergements/
 - https://reservation.secureholiday.net/fr/5511/availabilities
 - https://camping-lebernier.fr/wp-content/uploads/2022/08/conditions-generales-de-reservation.pdf
+
+
+## Lot 139 — 20 campings existants — 4 novembre 2026
+
+Audit groupé des 20 fiches suivantes (La Fontaine, Camping de la Forêt, Bréhadour, Les Forges, Pierre Longue, L’Océan, GCU Pornichet, Prigny, Domaine du Collet, Fleur de Brière, Les Mouettes, Le Deffay, Hermitage, Ferme d’Isson, Pas du Gû, Pointe Saint-Gildas, La Pindière, Bel Air, Grand Fay, Cale Sauvage). Aucun camping ajouté; compteurs **215 / 187 / 28** inchangés.
+
+Le résultat principal est une séparation stricte des tarifs standards, tarifs historiques, offres promotionnelles et conditions de réservation. Points à corriger : le Domaine du Collet affiche en 2026 25/40 €/nuit pour 2 personnes + 1 véhicule, tandis que l’électricité (7 €/jour), taxe (0,66 €/personne/nuit), participation environnementale (0,35 €/personne/jour) et frais de réservation (25 €) restent séparés; la Ferme d’Isson affiche 15,20 € par nuit tout compris pour camping-car + 2 personnes + électricité + taxe, mais la réservation impose 3 nuits minimum et la grille n’est pas millésimée; les Mouettes affichent 15 €/nuit sans année alors que leur PDF est au 01/01/2024; Le Pas du Gû et Grand Fay ont des offres/rates à distinguer du tarif standard. Le tarif saisonnier Grand Fay à 15 €/jour est pour séjour d’au moins 2 mois en été 2026, pas le prix public de passage.
+
+Le Camping de l’Océan confirme son ouverture 2027 du 03/04 au 26/09; les prix disponibles restent intitulés 2026 et le moteur consulté ne renvoie pas de montant exploitable. Le GCU publie un barème à la nuitée 2026 avec tarifs membre/non-membre; il faut séparer cotisation, invités et personnes. Pour les autres fiches, les tarifs 2027 restent à obtenir ou à confirmer avec dates et inclusions.
+
+[Rapport lot 139](AUDIT-44-2027-LOT139.md).
