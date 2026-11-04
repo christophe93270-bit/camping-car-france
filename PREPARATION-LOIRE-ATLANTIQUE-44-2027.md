@@ -772,3 +772,9 @@ Compteurs conservés : **215 / 187 / 28**. Aucun ajout/suppression. Correction a
 Contrôle de 20 fiches existantes (indices 171–190 du suivi), sans ajout de lieu. Le point de correction tarifaire est Bouaye : l’objet `season2027` confirme 13,74 €/24 h du 01/01 au 31/12/2027, alors que le texte récapitulatif `price` ne détaille encore que 15,50 € en 2026 et qualifie 2027 de variable. Synchroniser ce résumé sans ajouter la taxe 1,32 €, qui n’est publiée que jusqu’au 31/12/2026. Pour les autres aires CCP du lot, les barèmes de base 2027 existent souvent, mais les taxes restent datées 2026; ne pas afficher les totaux de 2026 comme totaux 2027. Les campings conventionnels ont surtout des dates d’ouverture, des réservations annoncées ou des prix 2026 : garder les tarifs 2027 à confirmer. Noter la fermeture prolongée de La Renaudière après incendie, la fermeture hivernale du Petit Port et la divergence d’état entre liste et fiche détail pour Biochon. Les compteurs restent 215 / 187 / 28.
 
 [Rapport lot 147](AUDIT-44-2027-LOT147.md).
+
+## Lot 148 — 4 novembre 2026
+
+Contrôle des deux fiches terminales du suivi encore sans relecture récente : Piriac-La Tranchée et La Limouzinière-Château de la Touche. Le réseau confirme respectivement 13,95 €/24 h jusqu'au 31/12/2027, taxe de 1,22 € limitée à 2026, et 12,22 €/24 h jusqu'au 31/12/2027 avec taxe nulle publiée jusqu'à cette date. Ne pas faire passer la taxe actuelle de Piriac pour un total 2027; ce total reste inconnu. Le forfait 5 h + services (6 € aux deux aires) n'a pas de période explicitement datée. Les pages tarifaires communales restent anciennes : Piriac affiche 6,70 € et 0,55 €/personne; La Limouzinière a une délibération 2024 à 12 €, tandis que sa page renvoie au tarif courant du réseau. Les autres 15 fiches terminales avaient déjà été vérifiées dans les lots précédents. Compteurs : 215 / 187 / 28.
+
+[Rapport lot 148](AUDIT-44-2027-LOT148.md).
