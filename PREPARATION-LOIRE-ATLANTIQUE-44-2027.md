@@ -885,3 +885,14 @@ Contrôle de deux fiches CAMPING-CAR PARK, sans ajout ni suppression; compteurs 
 Contrôle des deux fiches suivantes, sans ajout ni suppression. Compteurs maintenus : **215 / 187 / 28**. Le Camping Les Flots Bleus publie toujours sa grille d’emplacements 2026 : tarifs camping-car 26,60–36,60 € pour une nuit, 22,60–32,60 €/nuit pour plusieurs nuits, taxe de 0,22 €/adulte/nuit séparée et écocontribution de 0,40 € comprise. Aucun tarif 2027 trouvé. Au Briord, les fiches régionales affichent des prix non datés divergents (14 € le forfait de base; 17 € le forfait camping-car en version anglaise), avec calendrier d’ouverture 2026 seulement. Aucun prix public 2027 confirmé. Aucun contact envoyé; aucun lieu ajouté.
 
 [Rapport lot 163](AUDIT-44-2027-LOT163.md).
+
+
+## Lot 164 — vingt fiches en relecture, 4 novembre 2026
+
+- **Au Soir d’Été, Mesquer :** la grille opérateur 2027 confirme le forfait camping-car 35 m², 1–2 personnes, à 22/31/43/31/22 €/nuit selon cinq périodes (du 2 avril au 26 septembre). Une voiture, l’électricité et l’accès aux sanitaires sont inclus; taxe de séjour 2027 à 0,66 €/adulte/nuit en supplément. Personne additionnelle 7–9 €, véhicule supplémentaire 6 €, animal 5 €. Garder le paiement intégral sous trois nuits comme modalité de paiement, pas durée minimale. Vérifier au panier frais et total final.
+- **Éléovic, Préfailles :** conserver les fourchettes structurées 2027 et conditions déjà documentées (2 personnes, électricité, véhicule inclus; taxe 0,66 €/adulte/nuit en supplément; minimum 7 nuits dimanche-dimanche en juillet/août). Le contrôle actuel n’a pas permis de rouvrir le PDF 2027 : ne pas supprimer les données déjà étayées et vérifier le prix précis au panier.
+- **Boutinardière :** réservations 2027 annoncées ouvertes depuis le 3 novembre pour une ouverture le 2 avril. Le montant « à partir de 210 € » pour sept nuits d’avril reste un total séjour, sans détail final suffisant pour en faire une nuitée.
+- Les autres fiches conservent les constats antérieurs : grilles 2026 ou anciennes, prix non datés, tarifs tiers divergents, moteur sans montant public fixe, calendrier seul, promotion conditionnelle ou accueil camping-car non établi. Les prix et taxes restent séparés; aucun de ces repères ne justifie une modification de la base publique.
+- Fiches contrôlées : Kernodet, Pont-Mahé, Pause Loire, Prairies de l’Étang, Praderoi, Gruellau, Cévéo Tréambert, Éléovic, La Boutinardière, Vieux Château, Camping de la Baie, Chalands Fleuris, Léveno, Étang du Pays Blanc, Petit Bois, La Falaise, Au Soir d’Été, La Riviera, Les Paludiers et La Roseraie.
+
+Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs maintenus à **215 fiches visibles / 187 avec filtre nocturne / 28 exclues**.
