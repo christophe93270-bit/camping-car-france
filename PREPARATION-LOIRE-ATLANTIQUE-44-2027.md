@@ -907,3 +907,14 @@ Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; com
 - Fiches contrôlées : GCU Mesquer, Le Beaupré, Les Amis de la Nature, Le Bernier, La Fontaine, Camping de la Forêt, Domaine de Bréhadour, Les Forges, La Pierre Longue, Camping de l’Océan, GCU Pornichet, Prigny, Domaine du Collet, Fleur de Brière, Les Mouettes, Le Deffay, L’Hermitage, Ferme d’Isson, Pas du Gû et La Pointe Saint-Gildas.
 
 Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs maintenus à **215 fiches visibles / 187 avec filtre nocturne / 28 exclues**.
+
+
+## Lot 166 — vingt fiches du suivi, 4 novembre 2026
+
+- **Bel Air, Pornichet :** Early Booking 2027 annonce −20 % cumulables, mais l’application aux emplacements nus et boxes camping-car n’est pas établie. Garder la promotion séparée d’un prix par nuit.
+- **Le Pouliguen — Le Cléin et Les Mouettes :** la grille municipale 2026 donne 18,95 / 20,70 / 27,30 €/nuit pour 2 personnes, emplacement, véhicule et 6 A; taxe de 0,22 €/personne/nuit en supplément. Les saisons 2026 diffèrent selon le camping. Aucune grille 2027 trouvée.
+- **La Prée et Camping du Golf :** tarifs opérateur disponibles toujours millésimés 2026. Au Golf, séparer taxe de séjour, contribution déchets, électricité et frais de gestion du forfait d’emplacement.
+- **Aires et haltes :** maintenir séparés les forfaits de nuitée, les services seuls, la gratuité provisoire de la Govelle, l’alerte réglementaire de Merquel, ainsi que la nuitée Lingorzé (20 h–9 h).
+- **Fiches contrôlées :** La Pindière, Bel Air, Grand Fay, La Cale Sauvage, Rives de Grand Lieu, L’Estuaire, La Rabine, Les Rochelets, L’Albatros, Le Cléin, Les Mouettes (Le Pouliguen), La Prée, Camping du Golf, Bôle de Merquel, Govelle, La Boissière-du-Doré, aire du Camping du Chêne, Le Port Chéri, stop-accueil du Camping de la Tour et Lingorzé.
+
+Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs maintenus à **215 fiches visibles / 187 avec filtre nocturne / 28 exclues**.
