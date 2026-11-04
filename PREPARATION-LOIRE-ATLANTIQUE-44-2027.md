@@ -806,3 +806,11 @@ Vingt dossiers non résolus : quatre plus anciens (lots 135–138) et seize du l
 Vingt fiches : quatre dossiers restants du lot 139 et seize du lot 140. Bel Air annonce une remise Early Booking 2027 mais sans preuve d’application aux emplacements camping-car. À Merquel, distinguer le parking où la nuit est interdite de l’aire d’accueil autorisée avant d’attribuer 7 €/nuit. À la Govelle, l’accès reste gratuit jusqu’à nouvel ordre malgré le barème affiché. Autres montants : historiques, secondaires, non datés ou à confirmer 2027. Compteurs 215 / 187 / 28; aucun contact envoyé.
 
 [Rapport lot 152](AUDIT-44-2027-LOT152.md).
+
+## Lot 153 — 4 novembre 2026
+
+Vingt fiches : quatre dossiers restants du lot 140 et seize premières fiches du lot 141. La page officielle de l’Aiguillette confirme un accueil gratuit toute l’année, limité à deux nuits et trois véhicules; cette condition n’est pas millésimée 2027. La Grigonnais confirme une nuit gratuite. À Clisson, séparer la borne (vidange gratuite, jeton d’eau 3 €) du forfait de nuit au camping (12–15 € pour 2 personnes, électricité +5 €, hors taxe); le stationnement devant la borne est interdit. Au Croisic, le montant municipal actuel est 13,50 € par nuit (20 h–9 h), eau affichée séparément à 10 €/150 L et durée limitée à 48 h; maintien 2027 et présence d’eau sur la Vigie à confirmer. Beslé reste une grille 2026, avec prix par personne et branchement séparé. À la Piardière, l’annuaire municipal encore actif contredit une annonce de fermeture de décembre 2025. Les autres fiches sont services-only, sans tarif nocturne, prix non millésimés ou sans nuitée établie.
+
+Vérifications externes encore nécessaires : barèmes 2027 et taxes pour les campings payants; autorisation nocturne aux emplacements sans règle publiée; présence de la Piardière au statut actif; guide France Passion 2027 pour la ferme; statut de l’eau à la Vigie. Compteurs inchangés : 215 / 187 / 28; aucun contact envoyé.
+
+[Rapport lot 153](AUDIT-44-2027-LOT153.md).
