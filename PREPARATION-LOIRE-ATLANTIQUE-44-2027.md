@@ -896,3 +896,14 @@ Contrôle des deux fiches suivantes, sans ajout ni suppression. Compteurs mainte
 - Fiches contrôlées : Kernodet, Pont-Mahé, Pause Loire, Prairies de l’Étang, Praderoi, Gruellau, Cévéo Tréambert, Éléovic, La Boutinardière, Vieux Château, Camping de la Baie, Chalands Fleuris, Léveno, Étang du Pays Blanc, Petit Bois, La Falaise, Au Soir d’Été, La Riviera, Les Paludiers et La Roseraie.
 
 Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs maintenus à **215 fiches visibles / 187 avec filtre nocturne / 28 exclues**.
+
+
+## Lot 165 — vingt fiches du suivi, 4 novembre 2026
+
+- **Ferme d’Isson, Assérac :** correction du statut du forfait camping-car à 15,20 €/nuit. La page opérateur le titre explicitement « SAISON 2026 » et précise 1 camping-car, 2 personnes, électricité et taxe de séjour incluses; réservation obligatoire et trois nuits minimum. Ne pas le reconduire en prix 2027.
+- **Domaine de Bréhadour, Guérande :** la page officielle montre une grille par périodes pour l’emplacement halte camping-car (11/16/11 €/nuit pour 2 personnes, véhicule et électricité) et une grille Access standard distincte; les dates ne portent pas de millésime vérifié. La taxe affichée est 0,55 €/adulte/nuit. Garder la halte (après 18 h, départ avant 10 h) séparée du forfait standard et ne pas classer ces montants comme prix 2027.
+- **Camping Le Beaupré :** le devis 31 € pour la nuit du 2 au 3 avril 2027 reste une preuve datée mais partielle, sans taxe/frais finaux; ce n’est pas une grille saisonnière.
+- Les autres contrôles maintiennent les constats : grilles et calendriers 2026, prix d’appel non millésimés, prix secondaires ou absence de prix opérateur 2027. Le camping de l’Océan confirme la saison du 3 avril au 26 septembre 2027, sans montant emplacement 2027 publié.
+- Fiches contrôlées : GCU Mesquer, Le Beaupré, Les Amis de la Nature, Le Bernier, La Fontaine, Camping de la Forêt, Domaine de Bréhadour, Les Forges, La Pierre Longue, Camping de l’Océan, GCU Pornichet, Prigny, Domaine du Collet, Fleur de Brière, Les Mouettes, Le Deffay, L’Hermitage, Ferme d’Isson, Pas du Gû et La Pointe Saint-Gildas.
+
+Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs maintenus à **215 fiches visibles / 187 avec filtre nocturne / 28 exclues**.
