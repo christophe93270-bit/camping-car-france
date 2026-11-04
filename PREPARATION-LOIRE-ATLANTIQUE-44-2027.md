@@ -878,3 +878,10 @@ Contrôle du groupe indices 171–190, sans ajout ni suppression. Compteurs cons
 Contrôle de deux fiches CAMPING-CAR PARK, sans ajout ni suppression; compteurs inchangés : **215 / 187 / 28**. À Piriac-La Tranchée, la base de 13,95 €/24 h vaut du 03/11/2026 au 31/12/2027, mais la taxe de 1,22 € ne couvre que 2026; le total 15,17 € affiché n’est pas un total 2027 confirmé. La commune garde une page de tarifs locaux anciens (6,70 €/nuit et eau à 2,60 €/100 L) tout en indiquant que la gestion a été transférée à CAMPING-CAR PARK en 2019. À La Limouzinière-Château de la Touche, le tarif de base 12,22 €/24 h et la taxe à 0 € courent tous deux jusqu’au 31/12/2027; début de validité corrigé au 04/11/2026 dans les données du site. Le service 5 h + services à 6 € reste sans période de validité indiquée. Aucun contact envoyé.
 
 [Rapport lot 162](AUDIT-44-2027-LOT162.md).
+
+
+## Lot 163 — 4 novembre 2026
+
+Contrôle des deux fiches suivantes, sans ajout ni suppression. Compteurs maintenus : **215 / 187 / 28**. Le Camping Les Flots Bleus publie toujours sa grille d’emplacements 2026 : tarifs camping-car 26,60–36,60 € pour une nuit, 22,60–32,60 €/nuit pour plusieurs nuits, taxe de 0,22 €/adulte/nuit séparée et écocontribution de 0,40 € comprise. Aucun tarif 2027 trouvé. Au Briord, les fiches régionales affichent des prix non datés divergents (14 € le forfait de base; 17 € le forfait camping-car en version anglaise), avec calendrier d’ouverture 2026 seulement. Aucun prix public 2027 confirmé. Aucun contact envoyé; aucun lieu ajouté.
+
+[Rapport lot 163](AUDIT-44-2027-LOT163.md).
