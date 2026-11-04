@@ -658,3 +658,22 @@ La brochure officielle 2026 donne les prix par nuitée. En haute saison, emplace
 La page GCU annonce le 14,45 € en très basse saison, mais Mesquer ne figure pas dans la grille PDF 2026 de cette saison : faire clarifier le périmètre et le millésime de ce prix d’appel. La cotisation annuelle 2026 était séparée : **29 €** adulte de plus de 26 ans, **11 €** jeune 18–26 ans, **5 €** mineur rattaché. La cotisation de soutien de **15 €** ne donne pas l’adhésion. Aucun montant de cotisation, frais ou nuitée 2027 n’est confirmé.
 
 Statut maintenu : **tarif 2027 non confirmé**. Vérifications à faire à la parution des documents 2027 : calendrier et grille complète Mesquer, prix d’appel de 14,45 € et sa période, électricité, taxe, frais, arrhes, cotisation annuelle et conditions d’accès/réservation. Aucun contact ni lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 135](AUDIT-44-2027-LOT135.md).
+
+## Lot 136 — Le Beaupré : devis opérateur 2027 partiel à 31 €, promotions et locatifs à isoler, 4 novembre 2026
+
+Le site opérateur accueille les camping-cars sur des emplacements d’environ 90 m² et affiche encore une ouverture du **1er avril au 30 septembre 2026**. Il ne présente pas de grille tarifaire 2027 lisible dans la page « Tarifs ».
+
+Le moteur de réservation officiel retourne un résultat pour **une nuit, du 2 au 3 avril 2027, deux personnes** : **31 €** pour **« Emplacement + véhicule + électricité 6A »**, deux personnes incluses, capacité maximale six. Le prix est daté et lié à un forfait précis. Le résultat ne détaille pas la taxe de séjour ou d’éventuels frais; garder le statut **tarif partiel 2027**, pas un tarif standard complet ni un total final confirmé. Il ne confirme pas à lui seul toute la saison d’ouverture 2027.
+
+La page opérateur affiche Early Booking, **6 nuits = 7** et Last Minute sans dates ni conditions. Les laisser comme promotions non vérifiées, sans ramener l’offre à un prix par nuit. La fiche Pays de la Loire donne **40–140 €/semaine** sous « Locatif » : ne pas classer cela comme emplacement camping-car. Camping.info (**à partir de 25 €/nuit**) et France Voyage (**25,50 € en haute saison**) sont des repères secondaires sans composition complète ni confirmation opérateur 2027.
+
+Vérifications restantes : grille 2027 et saison entière des emplacements; taxe et frais au panier final pour le devis du 02–03/04/2027; inclusion du 6A et conditions/suppléments; périodes et durée minimale des promotions. Aucun contact ni lieu ajouté ; compteurs **215 / 187 / 28**. [Rapport lot 136](AUDIT-44-2027-LOT136.md).
+
+Sources :
+- https://www.lebeaupre.com/fr/emplacements
+- https://www.lebeaupre.com/index.php/fr/tarifs
+- https://reservation.secureholiday.net/fr/13449/search/product-view/55265?filterStatus=hideFilters&dateStart=02%2F04%2F2027&dateEnd=03%2F04%2F2027&travelers=2%40&productType=pitch
+- https://lebeaupre.com/fr/sur-place
+- https://www.enpaysdelaloire.com/hebergements/campings/camping-le-beaupre
+- https://www.camping.info/fr/emplacement-de-camping/camping-le-beaupre
+- https://www.france-voyage.com/campsites/campsite-mesquer-36357.htm
