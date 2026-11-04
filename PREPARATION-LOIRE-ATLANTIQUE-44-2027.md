@@ -785,3 +785,10 @@ Contrôle des indices 191–192, sans relecture récente : Piriac-La Tranchée e
 Contrôle des deux dernières fiches du registre encore sans relecture récente : Les Flots Bleus (Piriac) et Le Briord (Saint-Brevin). Les Flots Bleus publie encore une grille 2026; l'acompte et les frais de réservation ne sont pas à confondre, et les règles de 2027 restent à confirmer. Au Briord, les fiches touristiques divergent entre 14 € de base et 17 € pour un forfait camping-car; calendrier et conditions trouvés ne valent que pour 2026. Aucun tarif 2027 confirmé. Les compteurs restent 215 / 187 / 28.
 
 [Rapport lot 149](AUDIT-44-2027-LOT149.md).
+
+
+## Lot 150 — 4 novembre 2026
+
+Contrôle accéléré des vingt fiches non résolues les plus anciennes, issues des lots 103 à 134. Au Soir d’Été confirme une grille 2027 distincte par saison (22–43 €/nuit pour le forfait camping-car 35 m², plus suppléments séparés). Léveno a ouvert ses réservations, mais son moteur n’affiche pas de tarif fixe. Les 186 € du Petit Bois et 118 € des Paludiers sont des totaux d’appel pour sept nuits, pas des nuitées; la catégorie des Paludiers reste non identifiée. Les autres fiches gardent leurs réserves sur les tarifs 2026, offres conditionnelles, prix secondaires ou absence de grille 2027. Compteurs inchangés : 215 / 187 / 28. Aucun contact envoyé.
+
+[Rapport lot 150](AUDIT-44-2027-LOT150.md).
