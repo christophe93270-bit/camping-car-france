@@ -1052,3 +1052,13 @@ Sources :
 - https://www.camping-soirdete.com/wp-content/uploads/2026/10/cr-2027.pdf
 
 [Rapport lot 177](AUDIT-44-2027-LOT177.md).
+
+
+## Lot 178 — trois fiches existantes, 5 novembre 2026
+
+- **Les Flots Bleus, Piriac-sur-Mer :** le tarif officiel reste daté 2026 (26,60–36,60 € une nuit; 22,60–32,60 €/nuit en séjour de plusieurs nuits). Taxe 0,22 €/adulte >18 ans/nuit; écocontribution 0,40 € incluse. Écart de frais : page camping-car « sans frais » et acompte 30 %; CGV générales 20 € par réservation, puis exception pour emplacements nus sauf mention contraire. Aucun tarif 2027.
+- **Le Briord, Saint-Brevin-les-Pins :** fiches régionales toujours datées 2026; base FR dès 14 €/nuit (emplacement, 2 personnes, 1 voiture), taxe 0,20–0,22 €/pers./nuit et adulte supplémentaire 3–5 €. La version EN affiche séparément un forfait camping-car à 17 €/nuit sans année; calendrier divergent. Ne pas assimiler ni reconduire ces montants en 2027.
+- **Domaine du Collet, Les Moutiers-en-Retz :** pas de grille 2027; PDF officiel 2026 et saison 2026 restent publiés. Les repères officiels 40 €/nuit haute saison et « dès 25 €/nuit » restent distincts et non comparables sans période/inclusions. Taxe, participation environnementale et frais de réservation restent à part.
+- Fiches existantes uniquement; aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 178](AUDIT-44-2027-LOT178.md).
