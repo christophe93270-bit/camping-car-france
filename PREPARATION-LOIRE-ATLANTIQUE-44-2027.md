@@ -1118,3 +1118,13 @@ Sources :
 - Aucun prix complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 184](AUDIT-44-2027-LOT184.md).
+
+
+## Lot 185 — trois fiches existantes, 5 novembre 2026
+
+- **Sunêlia Le Petit Bois, Mesquer :** devis officiel affiché à 186 € au total pour un emplacement avec sanitaire privé, du 02 au 09/04/2027 (7 nuits), après Early Booking de 5 % (196 € avant remise). Ce n’est pas un tarif par nuit; occupants, camping-car, taxe et récapitulatif restent à confirmer. Offre conditionnelle; divergence officielle sur la fin de saison (12 ou 19 septembre).
+- **Camping du Vieux Château, Tharon-Plage :** 29 parcelles de 80–90 m² adaptées aux camping-cars avec 10 A et Wi-Fi. Le prix d’appel de 20,50 €/nuit n’a ni dates ni année; ACSI à 19 € est conditionnel et non millésimé. Aucun devis 2027 confirmé.
+- **L’Étang du Pays Blanc, Guérande :** saison 17/04–26/09/2027; forfait standard décrit avec 2 personnes, véhicule et 10 A, sans montant public 2027.
+- Seul un total de séjour daté est affiché par un opérateur; aucun prix/nuit standard complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 185](AUDIT-44-2027-LOT185.md).
