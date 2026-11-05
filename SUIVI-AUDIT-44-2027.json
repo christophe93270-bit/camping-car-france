@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 195 (05/11/2026), trois campings existants. Léveno : réservations 2027 ouvertes, saison officielle et formules connues, mais moteur temps réel sans prix daté extractible; 25 € est une réduction conditionnelle. Étang du Pays Blanc : saison 2027 et forfait standard confirmés officiellement, aucun prix public; CampingFrance affiche 55 €/nuit mais sa page ouverte retourne un générique 1 €, donc repère tiers incohérent. Vieux Château : nouveautés 2027 concernent les locatifs; seuls tarifs emplacements 2026 et offre ACSI non millésimée consultés. Aucun tarif complet 2027 camping-car confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 196 (05/11/2026), trois campings existants. Hermitage Guémené-Penfao : prix d'appel « dès 16 €/nuit » non daté; 16 A et ACSI acceptée en basse saison, aucun barème 2027. Relais des Garennes : opérateur affiche encore 17 €/nuit forfait camping-car sans millésime; la fiche secondaire 2027 ventile des postes séparés incompatibles, à clarifier. Hermitage des Dunes : saison publique 2026, tarifs officiels accessibles seulement historiques 2022, page tarif actuelle sans montants lisibles; aucun tarif 2027. Aucun prix 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -440,13 +440,15 @@
       "nextCheck": "Forfait ordinaire et conditions ACSI 2027, électricité et taxe.",
       "source": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne",
       "recheckedAt": "2026-11-05",
-      "recheckLot": 189,
-      "recheckFinding": "Lot 189 (05/11/2026) : la page officielle affiche « dès 16 €/nuit » pour les camping-caristes, sans période, millésime ni composition de ce prix. La page indique que les emplacements ont une électricité 16 A et accepte ACSI en basse saison, mais ne détaille pas les inclusions du prix d’appel ou le tarif ACSI. Aucun prix 2027 daté confirmé.",
-      "recheckNextCheck": "Demander un devis camping-car 2027 pour deux adultes et une nuit; faire préciser saison, électricité incluse, taxe et suppléments. Vérifier les conditions de l’offre ACSI pour 2027 et garder le « dès 16 € » comme prix d’appel non daté.",
+      "recheckLot": 196,
+      "recheckFinding": "Lot 196 (05/11/2026) : la page officielle décrit désormais le prix d’appel camping-car comme « dès 16 €/nuit », sans période, année, composition du forfait ou taxe. Elle confirme l’électricité 16 A sur les emplacements et l’acceptation ACSI en basse saison, sans tarif ni fenêtres 2027 précisés. Le site propose un moteur de réservation, mais aucun prix daté 2027 n’a été confirmé. Ne pas assimiler le prix d’appel ou ACSI à un tarif 2027 public.",
+      "recheckNextCheck": "Obtenir un devis officiel daté 2027 pour 2 adultes et un camping-car; faire confirmer forfait inclus, saison, taxe, frais et offre ACSI 2027 (prix, validité, inclusions).",
       "recheckPitchSource": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne",
       "recheckACSIConditionsSource": "https://www.campinglhermitage.com/en-gb/faq",
       "recheckTariffSource": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne",
-      "recheckFaqSource": "https://www.campinglhermitage.com/fr-fr/faq"
+      "recheckFaqSource": "https://www.campinglhermitage.com/fr-fr/faq",
+      "recheckBookingSource": "https://www.campinglhermitage.com/fr-fr/camping-guemene-penfao",
+      "recheckMunicipalSource": "https://www.mairie-guemene-penfao.fr/contacts/camping-de-lhermitage/"
     },
     {
       "sourceId": "ACCAMEFERMEISSON",
@@ -867,14 +869,16 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606",
       "recheckedAt": "2026-11-05",
-      "recheckLot": 189,
-      "recheckFinding": "Lot 189 (05/11/2026) : le site officiel publie des tarifs par nuit sans millésime : emplacement 4 €, adulte 4 €, enfant -10 ans 3 €, électricité 4 €, et forfait « camping-car 2 personnes + électricité » à 17 € (sans vidange au sol). La fiche Gîtes de France se présente comme descriptif 2026 susceptible de modifications en 2027. CampingFrance affiche des postes 2027 à 4 €/jour chacun pour emplacement, adulte et électricité; pour deux adultes, l’addition de ces postes est 16 €, ce qui ne réconcilie pas le forfait opérateur à 17 €. Aucun total opérateur 2027 confirmé; conserver le forfait à 17 € comme non millésimé.",
-      "recheckNextCheck": "Demander au camping confirmation écrite du forfait 17 € en 2027 et de sa composition; faire préciser si l’électricité est déjà comprise et l’écart avec les postes 2027 de 4 €/jour. Confirmer taxe de séjour, saison et absence de vidange au sol.",
+      "recheckLot": 196,
+      "recheckFinding": "Lot 196 (05/11/2026) : le site opérateur affiche toujours les prix par nuit sans millésime : emplacement 4 €, adulte 4 €, enfant de moins de 10 ans 3 €, électricité 4 €, et forfait camping-car 2 personnes + électricité à 17 €; vidange au sol non disponible. Le site annonce une saison du 15/06 au 15/09. Gîtes de France précise que le descriptif est 2026 et peut changer en 2027. CampingFrance inscrit sous « Tarifs 2027 » les postes séparés emplacement 4 €/jour, adulte 4 €/jour, électricité 4 €/jour; pour 2 adultes cela donne 16 €/jour selon ces lignes, sans réconcilier le forfait opérateur de 17 €. Aucun prix opérateur confirmé pour 2027.",
+      "recheckNextCheck": "Demander confirmation écrite du forfait 17 € et de sa composition pour 2027; résoudre l’écart avec les postes CampingFrance (4 € emplacement + 2 adultes à 4 € chacun + 4 € électricité). Confirmer taxe, ouverture et modalités de vidange; ne pas reporter un total 2027 sans réponse.",
       "recheckTariffSource": "https://www.camping-lerelaisdesgarennes.com/infos-pratiques/",
       "recheckConditionsSource": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606",
       "recheckSecondary2027Source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/montbert/camping-rural-le-relais-des-garennes",
       "recheckSecondarySource": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606",
-      "recheckSecondaryTariffsSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/montbert/camping-rural-le-relais-des-garennes"
+      "recheckSecondaryTariffsSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/montbert/camping-rural-le-relais-des-garennes",
+      "recheckOfficialSeasonSource": "https://www.camping-lerelaisdesgarennes.com/",
+      "recheckGites2026Source": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606"
     },
     {
       "sourceId": "ACCAMACCAMEAIRECHINOISE",
@@ -2660,14 +2664,17 @@
       "nextCheck": "Demander grille 2027 et dates d’ACSI, avec taxe, électricité incluse/limite et prix public hors carte.",
       "source": "https://hermitagedesdunes.com/",
       "recheckedAt": "2026-11-05",
-      "recheckLot": 189,
-      "recheckFinding": "Lot 189 (05/11/2026) : l’opérateur annonce toujours une saison 2026 (04/04–31/10/2026); la dernière grille officielle retrouvée pour les emplacements date de 2022. Elle donnait un forfait avec véhicule et électricité incluse de 18/24/30/36 €/nuit selon périodes; montant historique à ne pas reprendre en 2027. Des sources tierces affichent un tarif ACSI de 19 €/nuit, mais sans dates de validité clairement établies; un avis de voyageur en avril 2026 rapporte 17 € ACSI plus frais de séjour. Ces éléments sont conditionnels/secondaires et contradictoires; aucun tarif opérateur 2027 confirmé.",
-      "recheckNextCheck": "Obtenir un devis daté 2027 auprès de l’opérateur pour camping-car et deux personnes; confirmer prix ACSI 2027, validité, taxes, ordures ménagères et suppléments. Garder la grille 2022 et les retours tiers distincts du prix officiel.",
+      "recheckLot": 196,
+      "recheckFinding": "Lot 196 (05/11/2026) : l'opérateur affiche toujours l'ouverture du 04/04 au 31/10/2026. La page tarifs courante ne publie pas de montant lisible pour les emplacements; la dernière grille officielle exploitable retrouvée est millésimée 2022 et donnait 18/24/30/36 €/nuit selon période pour 1–2 personnes, véhicule et électricité 10 A incluse. La page emplacements confirme l'accueil des camping-cars et une borne électrique 10 A sur des parcelles de 80–120 m². Des sources tierces montrent une catégorie ACSI avec électricité et chien inclus mais aucun tarif/date applicable 2027. Aucun prix 2027 confirmé.",
+      "recheckNextCheck": "Obtenir du camping une grille ou un devis 2027 daté pour deux personnes, véhicule et électricité; préciser taxe, suppléments et périodes. Demander les dates/prix de l'offre ACSI 2027. Garder les tarifs 2022 comme historique uniquement.",
       "recheckTariffSource": "https://hermitagedesdunes.com/",
       "recheckHistoricalTariffSource": "https://hermitagedesdunes.com/234-tarifs/514-tarifs-2021-locations-et-emplacements-de-camping-vacances-aux-moutiers-en-retz-44.html",
       "recheckConditionsSource": "https://hermitagedesdunes.com/usermedia/document-fr-639083969832502787-2.pdf",
-      "recheckSecondarySource": "https://www.goboony.fr/campings/france/pays-de-la-loire/loire-atlantique/les-moutiers-en-retz/288-hermitage-des-dunes",
-      "recheckReviewSource": "https://park4night.com/fr/place/43331"
+      "recheckSecondarySource": "https://www.pincamp.fr/campings/camping-lhermitage-des-dunes",
+      "recheckReviewSource": "https://park4night.com/fr/place/43331",
+      "recheckOfficialSeasonSource": "https://hermitagedesdunes.com/",
+      "recheckPitchSource": "https://hermitagedesdunes.com/233-emplacements/498-emplacements-de-camping-caravaning-en-bord-de-la-mer-aux-moutiers-en-retz.html",
+      "recheckCurrentRatesSource": "https://hermitagedesdunes.com/234-tarifs.html"
     },
     {
       "sourceId": "CCF44-PIRIAC-DOMAINE-MON-CALME-2026",
