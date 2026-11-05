@@ -1001,3 +1001,12 @@ Source :
 - Fiche existante uniquement. Aucun changement à `aires-pdl.json`, aucun contact envoyé. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport lot 173](AUDIT-44-2027-LOT173.md).
+
+## Lot 174 — Camping Le Soleya, Saint-Michel-Chef-Chef, 5 novembre 2026
+
+- L’opérateur annonce la réouverture le 30/04/2027 et l’ouverture des réservations fin novembre 2026; aucun devis ou tarif standard 2027 n’est confirmé au 05/11.
+- La grille officielle reste datée 2026 : emplacement standard (1–2 personnes + véhicule) à 18/35/40/45 €/nuit selon saison; Confort avec sanitaire privé à 44/62/67/73 €. Électricité 10 A du standard (6–8 €/nuit) et taxe de séjour (0,66 €/adulte >18 ans/nuit) à garder séparées. Ne pas reconduire ces prix en 2027.
+- La page emplacement donne un minimum de 2 nuits en basse saison et 7 nuits en été, mais une autre mention indique « à partir d’une seule nuit » : vérifier la règle dans le moteur à l’ouverture des ventes.
+- Fiche existante uniquement; aucun changement à `aires-pdl.json`, aucun contact envoyé. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport lot 174](AUDIT-44-2027-LOT174.md).
