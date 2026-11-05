@@ -1188,3 +1188,12 @@ Sources :
 - Aucun tarif camping-car 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 191](AUDIT-44-2027-LOT191.md).
+
+## Lot 192 — 5 novembre 2026
+
+- **Les Écureuils, La Bernerie-en-Retz :** brochure officielle toujours millésimée 2026; promos 7=6, 14=10 et 21=14 sans dates ni conditions vérifiées pour ce camping. Aucun tarif camping-car 2027 confirmé.
+- **Camping du Bugeau, Pornichet :** calendrier officiel encore 2026; ACSI 21 €/nuit reste conditionnel. Aucun tarif public 2027.
+- **Le Bel Essor, Saint-Michel-Chef-Chef :** grille officielle 2026 à 14,90–22,10 €/nuit pour deux personnes, emplacement et voiture; électricité, taxe et écoparticipation en plus. Application au camping-car à confirmer; aucun barème 2027.
+- Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 192](AUDIT-44-2027-LOT192.md).
