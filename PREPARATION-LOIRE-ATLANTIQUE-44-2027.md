@@ -1010,3 +1010,16 @@ Source :
 - Fiche existante uniquement; aucun changement à `aires-pdl.json`, aucun contact envoyé. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport lot 174](AUDIT-44-2027-LOT174.md).
+
+## Lot 175 — Yelloh! Village Le Ranch, La Plaine-sur-Mer, 5 novembre 2026
+
+- Le moteur officiel affiche, pour le 10–17 mai 2027 (7 nuits, prix indiqué pour 2 personnes), trois totaux de séjour : 234 € pour 130 m² et plus avec sanitaire privé (260 € avant remise), 184,50 € pour 130 m² et plus nu (205 € avant remise), et 139,50 € pour 80 m² et plus nu (155 € avant remise); remise de 10 % affichée.
+- Ces montants sont des totaux datés de séjour, pas des prix par nuit ni une grille saisonnière. Ne pas les diviser par sept. Le 130 m² et plus est décrit avec 10 A, eau et évacuation; inclusions des autres catégories à confirmer. Taxes et frais au récapitulatif final non vérifiés.
+- Fiche existante uniquement. Aucun changement à `aires-pdl.json`, aucun contact envoyé. Compteurs inchangés : **215 / 187 / 28**.
+
+Sources :
+- https://www.yellohvillage.fr/camping/le_ranch/nos_emplacements_de_camping
+- https://www.yellohvillage.fr/camping/le_ranch/nos_emplacements_de_camping/78629
+- https://www.yellohvillage.fr/footer/infos_pratiques/cgv
+
+[Rapport lot 175](AUDIT-44-2027-LOT175.md).
