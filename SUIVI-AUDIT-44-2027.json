@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 168 (04/11/2026), vingt fiches existantes du suivi recheckLot 154. Aucun tarif complet de nuitée 2027 nouvellement vérifié : références Nozay (10 € municipal 2026 hors taxe, 11,10 € régional taxe incluse et 9,50 € moteur non millésimé) à réconcilier; Le Pouliguen reste sur barème 2026. Clarification Salorge : nuitée gratuite jusqu’à trois nuits, eau 2 €/100 L séparée. Aucun changement à aires-pdl.json; aucun lieu ajouté/contact envoyé; compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 169 (05/11/2026), une fiche existante — Le Briord — déjà examinée au lot 163 mais manquante dans le tracker. La Région affiche 14 €/nuit forfait de base et 17 €/nuit forfait camping-car dans sa version anglaise, sans millésime; Park4Night indique 18/20 €/24 h en 2026. Aucun tarif 2027 confirmé; aucun changement à aires-pdl.json, aucun lieu/contact ajouté; compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -3336,6 +3336,24 @@
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
       "recheckEnglishSource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord",
       "recheckCalendarSource": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD"
+    },
+    {
+      "sourceId": "ACCAMACCAMEAIREDECAMPINGLEBRIORD",
+      "name": "Camping naturel Le Briord – Saint-Brevin-les-Pins",
+      "checkedAt": "2026-11-04",
+      "lot": 163,
+      "status": "tarif_2027_non_confirme",
+      "finding": "Le contrôle du lot 163 signalait deux références non millésimées sur la fiche régionale (14 €/nuit forfait de base; 17 €/nuit forfait camping-car dans la version anglaise), alors que les dates d’ouverture affichées concernaient 2026. Aucun tarif 2027 complet confirmé.",
+      "nextCheck": "Obtenir un tarif 2027 daté et clarifier la composition du forfait camping-car, les inclusions, les périodes et la taxe de séjour.",
+      "source": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 169,
+      "recheckFinding": "Lot 169 (05/11/2026) : la fiche française de la Région affiche un forfait de base à partir de 14 €/nuit (1 emplacement, 2 personnes, 1 voiture) et taxe de séjour 0,20–0,22 €/personne/nuit. La version anglaise de la même fiche affiche aussi un forfait camping-car à 17 €/nuit, sans millésime ni composition précisée. Les deux versions annoncent seulement les dates d’ouverture 2026. Park4Night, source secondaire, indique 18 €/24 h du 1er mai au 30 juin et 20 €/24 h du 1er juillet au 31 août 2026. Aucun tarif 2027 confirmé; ces montants ne doivent pas être assimilés ni reconduits.",
+      "recheckNextCheck": "Ne pas publier 14 € ou 17 € comme tarif 2027. Confirmer le barème 2027 daté, la composition du forfait camping-car, les périodes et la taxe; garder 18/20 € comme repère secondaire 2026 seulement.",
+      "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
+      "recheckEnglishTariffSource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord",
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD",
+      "recheckSecondary2026Source": "https://park4night.com/fr/place/484440"
     }
   ]
 }
