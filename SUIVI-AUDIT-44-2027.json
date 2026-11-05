@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 194 (05/11/2026), trois campings existants. Port Meleu : tarifs publiés 2026 (20–47 €/nuit + taxe), aucun barème 2027. Mon Calme : ouverture 2026; catalogue réservation affiche montants hebdomadaires sans dates ni millésime (mixte 121,73 €, spécial camping-car 148,40 €), non confirmés 2027. L’Eden : grille officielle 2026 (20–38 €/nuit pour 2 personnes + véhicule, options/taxe/frais séparés), aucun tarif 2027. Aucun prix complet 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 195 (05/11/2026), trois campings existants. Léveno : réservations 2027 ouvertes, saison officielle et formules connues, mais moteur temps réel sans prix daté extractible; 25 € est une réduction conditionnelle. Étang du Pays Blanc : saison 2027 et forfait standard confirmés officiellement, aucun prix public; CampingFrance affiche 55 €/nuit mais sa page ouverte retourne un générique 1 €, donc repère tiers incohérent. Vieux Château : nouveautés 2027 concernent les locatifs; seuls tarifs emplacements 2026 et offre ACSI non millésimée consultés. Aucun tarif complet 2027 camping-car confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -3209,13 +3209,17 @@
       "nextCheck": "Vérifier sur une grille ou un panier officiel 2027 les prix pour deux personnes à dates précises, l’inclusion de l’électricité, la taxe de séjour et les frais. Confirmer les dates d’ouverture 2027 des emplacements. Vérifier l’année et les fenêtres de validité de l’offre ACSI à 19 € et la séparer du tarif ordinaire.",
       "source": "https://www.camping-duvieuxchateau.com/emplacements/",
       "recheckedAt": "2026-11-05",
-      "recheckLot": 185,
-      "recheckFinding": "Lot 185 (05/11/2026) : la page officielle 2027 annonce de nouveaux mobil-homes dès le 02/04/2027; sa page emplacements décrit 29 parcelles nues de 80–90 m² adaptées aux camping-cars, avec 10 A et Wi-Fi. Une page de tarifs affiche un prix « à partir de 20,50 €/nuit » sans dates, composition ou millésime; il ne peut pas être retenu comme prix camping-car 2027. L’offre ACSI affichée à 19 €/nuit pour deux personnes, électricité 10 A et un animal est conditionnée à la carte ANWB/ACSI et à des périodes sans année. Aucun devis opérateur camping-car daté 2027 confirmé.",
-      "recheckNextCheck": "Obtenir un devis officiel daté 2027 pour deux adultes et un camping-car; faire préciser composition et période du prix d’appel 20,50 €, et confirmer les périodes ACSI 2027, la taxe, suppléments et frais. Ne pas présenter les offres non millésimées comme prix public 2027.",
+      "recheckLot": 195,
+      "recheckFinding": "Lot 195 (05/11/2026) : la page opérateur 2027 annonce une nouveauté de mobil-homes climatisés dès le 02/04/2027, sans nouveau tarif camping-car. La page emplacements confirme 29 parcelles nues de 80–90 m² avec électricité 10 A et accueille les camping-cars. Destination Pornic conserve les tarifs 2026 : 20–36 €/nuit pour 2 personnes + 1 voiture, taxe 0,66 €/adulte/nuit. Offre ACSI opérateur affichée à 19 €/nuit pour 2 personnes, 10 A et un animal avec carte ANWB/ACSI obligatoire; fenêtres affichées sans année, donc pas de tarif ACSI 2027 confirmé. Aucun devis public opérateur daté 2027.",
+      "recheckNextCheck": "Obtenir un devis standard officiel pour dates précises 2027; faire préciser le prix de base, taxe, extras et durée minimale. Confirmer les fenêtres de validité ACSI 2027 et les dates d'ouverture des emplacements. Garder tarifs 2026 et prix ACSI non millésimé distincts.",
       "recheckSource": "https://www.camping-duvieuxchateau.com/emplacements/",
       "recheckConditionsSource": "https://www.pornic.com/camping-du-vieux-chateau.html",
       "recheckSecondarySource": "https://www.pincamp.fr/campings/camping-du-vieux-chateau-saint-michel-chef-chef",
-      "recheckTariffSource": "https://www.camping-duvieuxchateau.com/camping-pas-cher-loire-atlantique/"
+      "recheckTariffSource": "https://www.camping-duvieuxchateau.com/camping-pas-cher-loire-atlantique/",
+      "recheckOfficialSource": "https://www.camping-duvieuxchateau.com/",
+      "recheckPitchSource": "https://www.camping-duvieuxchateau.com/emplacements/",
+      "recheckRegionalTariffsSource": "https://www.pornic.com/camping-du-vieux-chateau.html",
+      "recheckBookingSource": "https://www.mycamping.com/france/saint-michel-chef-chef/camping-du-vieux-chateau"
     },
     {
       "sourceId": "CCF44-ASSERAC-CAMPING-BAIE-2026",
@@ -3261,14 +3265,16 @@
       "nextCheck": "À partir du 04/11/2026, tester le moteur officiel sur dates 2027 et relever un devis daté pour emplacements Standard et Premium (2 adultes + camping-car). Décomposer l’électricité, la taxe 2027, frais de réservation et choix d’emplacement ; confirmer séparément les périodes et conditions ACSI 2027 et leur intersection avec l’ouverture annoncée 09/04–19/09.",
       "source": "https://www.camping-leveno.com/",
       "recheckedAt": "2026-11-05",
-      "recheckLot": 183,
-      "recheckFinding": "Lot 183 (05/11/2026) : l’ouverture des réservations 2027 annoncée le 04/11 est effective, mais la page officielle renvoie à un moteur en temps réel sans grille fixe; le lien de paiement direct ne fournit pas de prix extractible. Page officielle des emplacements : catégories Standard et Premium, 1–2 personnes, 1 véhicule, eau et électricité 10 A; maximum 6; minimum 7 nuits en juillet-août, arrivées/départs jeudi ou dimanche. Supplément personne 5–15 €/nuit selon âge/période. L’offre à 25 € avec carte FFCC/ACSI/ANWB est conditionnelle et non millésimée; ne pas la valider comme prix normal 2027. Aucun montant daté 2027 exploitable.",
-      "recheckNextCheck": "À l’ouverture du moteur, tester panier daté 2027 standard et premium pour 2 adultes/camping-car; relever taxe, frais, montant final, calendrier et périodes ACSI séparément.",
+      "recheckLot": 195,
+      "recheckFinding": "Lot 195 (05/11/2026) : l'ouverture des réservations 2027 annoncée pour le 04/11 est passée; la page officielle annonce le camping ouvert du 09/04 au 19/09/2027. La page tarifaire renvoie vers le moteur en temps réel sans montant statique, et le lien de paiement direct n'affiche pas de devis consultable. Les emplacements camping-car sont annoncés avec 1–2 personnes, un véhicule, eau et électricité 10 A inclus; supplément personne 5–15 €/nuit selon âge/période; minimum 7 nuits en juillet-août. Le repère 25 € est lié à une remise de saison verte avec carte partenaire, pas un tarif standard vérifié 2027. Aucun montant 2027 daté confirmé.",
+      "recheckNextCheck": "Obtenir un panier 2027 à dates fixes dans le moteur de réservation (Standard et Premium, 2 adultes + camping-car); vérifier total, taxe, frais, options et dates. Distinguer clairement les réductions ACSI/FFCC/ANWB.",
       "recheckSource": "https://www.camping-leveno.com/",
       "recheckTariffSource": "https://www.camping-leveno.com/tarifs-camping-guerande.html",
       "recheckConditions2026Source": "https://www.camping-leveno.com/pdf/leveno-contrat-conditions.pdf",
       "recheckPitchSource": "https://www.camping-leveno.com/emplacements.html",
-      "recheckBookingsSource": "https://www.camping-leveno.com/"
+      "recheckBookingsSource": "https://www.camping-leveno.com/",
+      "recheckOfficialSource": "https://www.camping-leveno.com/",
+      "recheckBookingSource": "https://thelisresa.webcamp.fr/cart-directPayment.php?SLg=fr&Sflag=paiement&camping=leveno44&sites%5B%5D=1571"
     },
     {
       "sourceId": "CCF44-GUERANDE-ETANG-PAYS-BLANC-2026",
@@ -3280,14 +3286,18 @@
       "nextCheck": "Demander/consulter le devis officiel 2027 daté pour l’emplacement Standard 2 adultes + camping-car + 10 A, puis distinguer Premium et Premium +. Faire confirmer saison officielle, taxe 2027, personnes et véhicule inclus, suppléments, minimum de séjour, prix réel et période de l’offre FFCC ainsi que sa condition de carte. Ne pas publier 55 €, 26,32/34,32 € ni 23 € comme tarif opérateur confirmé.",
       "source": "https://www.guerande-camping.com/emplacements-camping/",
       "recheckedAt": "2026-11-05",
-      "recheckLot": 185,
-      "recheckFinding": "Lot 185 (05/11/2026) : l’opérateur confirme la saison 17/04–26/09/2027 et 119 emplacements, dont des emplacements pour camping-cars. Le forfait Standard comprend 2 personnes, un véhicule et électricité 10 A; Wi-Fi pour un appareil, animal en supplément. Aucun montant officiel 2027 ni devis daté n’est publié sur la page emplacements. Les prix secondaires 26,32–34,32 € ne sont pas confirmés par l’opérateur et ne doivent pas être classés comme tarifs 2027.",
-      "recheckNextCheck": "Obtenir un devis opérateur daté en 2027 pour un camping-car et deux personnes; confirmer tarif, taxe, supplément animal, options, frais et durée minimale. Laisser les prix secondaires hors du tarif officiel.",
+      "recheckLot": 195,
+      "recheckFinding": "Lot 195 (05/11/2026) : l'opérateur confirme ouverture 17/04–26/09/2027, réservations en ligne ouvertes et 119 emplacements pour camping-cars. Forfait Standard officiel : 2 personnes + tente/caravane/camping-car + un véhicule, électricité 10 A et Wi-Fi (1 appareil), animal en supplément. Aucun tarif officiel statique 2027 trouvé. Repère secondaire : CampingFrance présente 55 €/nuit sous « Tarifs 2027 », mais l'ouverture de la même page donne seulement un générique « à partir de 1 €/nuit »; ne pas reprendre 55 € comme prix opérateur confirmé. La date d'ouverture sur cette fiche secondaire (11/04–27/09) contredit l'opérateur.",
+      "recheckNextCheck": "Obtenir un devis officiel daté en 2027 pour 2 adultes + camping-car et confirmer le montant et les éventuels frais/taxe. Conserver 55 €/nuit comme indice tiers contradictoire uniquement; ne pas intégrer au tarif opérateur. Confirmer conditions de l'offre FFCC séparément si utilisée.",
       "recheckSource": "https://www.guerande-camping.com/emplacements-camping/",
       "recheckSecondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/guerande/camping-de-letang-du-pays-blanc",
       "recheckOtherSecondarySource": "https://www.camping.info/fr/emplacement-de-camping/camping-de-letang-du-pays-blanc",
       "recheckTariffSource": "https://www.guerande-camping.com/emplacements-camping/",
-      "recheckSeasonSource": "https://www.guerande-camping.com/"
+      "recheckSeasonSource": "https://www.guerande-camping.com/",
+      "recheckOfficialSeasonSource": "https://www.guerande-camping.com/",
+      "recheckOfficialPitchSource": "https://www.guerande-camping.com/emplacements-camping/",
+      "recheckOfficialFAQSource": "https://www.guerande-camping.com/faq/",
+      "recheckSecondary2027Source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/guerande/camping-de-letang-du-pays-blanc"
     },
     {
       "sourceId": "CCF44-MESQUER-PETIT-BOIS-2026",
