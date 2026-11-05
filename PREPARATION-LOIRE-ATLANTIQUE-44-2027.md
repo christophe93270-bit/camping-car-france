@@ -950,3 +950,19 @@ Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; com
 - Aucun lieu ajouté et aucun contact envoyé. Aucun changement à `aires-pdl.json`; compteurs maintenus à **215 fiches visibles / 187 avec filtre nocturne / 28 exclues**.
 
 [Rapport lot 169](AUDIT-44-2027-LOT169.md).
+
+## Lot 170 — Yelloh! Village Le Ranch, 5 novembre 2026
+
+- Réservations 2027 ouvertes depuis le 04/11; saison annoncée du 30/04 au 12/09/2027, haute saison du 03/07 au 27/08.
+- Trois catégories d’emplacements publiées. La catégorie « 130 m² et plus » indique 10 A, eau et évacuation; ne pas généraliser à toutes les parcelles.
+- Aucun tarif standard de nuitée 2027 affiché dans les pages publiques consultées. La remise long séjour publiée est distincte : 10 % dès 10 nuits ou 15 % dès 14 nuits sur emplacements nus et locatifs, hors 04/07–28/08; offre sans millésime explicite. Le tarif couple concerne un cottage.
+- Conserver le prix 2027 comme non confirmé jusqu’à obtention d’une grille ou d’un devis daté. Taxes et frais à vérifier séparément.
+- Fiche existante uniquement; aucune modification de `aires-pdl.json`, aucun contact envoyé. Compteurs inchangés : **215 / 187 / 28**.
+
+Sources :
+- https://www.yellohvillage.fr/camping/le_ranch
+- https://www.yellohvillage.fr/camping/le_ranch/nos_emplacements_de_camping
+- https://www.camping-le-ranch.com/fr/emplacements/78629
+- https://www.yellohvillage.fr/camping/le_ranch/offres_speciales
+
+[Rapport lot 170](AUDIT-44-2027-LOT170.md).
