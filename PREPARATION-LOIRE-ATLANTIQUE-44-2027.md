@@ -1206,3 +1206,12 @@ Sources :
 - Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 193](AUDIT-44-2027-LOT193.md).
+
+## Lot 194 — 5 novembre 2026
+
+- **Le Port Meleu, Préfailles :** la fiche touristique détaille 20–47 €/nuit pour 2 personnes et un véhicule du 03/04 au 27/09/2026, plus taxe 0,66 €/adulte/nuit. Aucun tarif 2027; électricité/frais à préciser.
+- **Domaine Mon Calme, Piriac-sur-Mer :** saison officielle encore 2026. Le catalogue affiche 121,73 €/semaine pour un emplacement mixte et 148,40 €/semaine pour un emplacement spécial camping-car, sans dates ni millésime; frais 22 € et taxe séparés. Ne pas classer comme tarif 2027.
+- **L’Eden, La Baule :** grille officielle 2026 à 20–38 €/nuit pour 2 personnes et véhicule; électricité, taxe (0,66 €/adulte/nuit) et frais de réservation (25 €) en plus. Aucun tarif 2027.
+- Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 194](AUDIT-44-2027-LOT194.md).
