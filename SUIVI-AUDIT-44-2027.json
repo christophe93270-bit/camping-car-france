@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 173 (05/11/2026), le moteur officiel du Camping La Falaise affiche 247,50 €, 261,50 € et 366,50 € pour trois catégories d’emplacements pendant le séjour daté de sept nuits (26/03–02/04/2027, 2 personnes); montants de séjour, non convertis en prix/nuit, taxes/frais et récapitulatif final non affichés. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 174 (05/11/2026), le Camping Le Soleya confirme sa réouverture le 30/04/2027 et l’ouverture des réservations fin novembre, mais aucune grille ou devis 2027 n’est publié. La grille officielle trouvée reste 2026 (18–45 €/nuit standard; 44–73 € avec sanitaires privés; électricité et taxe à distinguer). Contradiction à vérifier sur la durée minimale (2 nuits en basse saison/7 en été contre une mention d’une nuit). Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -2899,11 +2899,16 @@
       "finding": "Nouvelle lecture de la page de référence le 3 novembre : Ouverture le 30 avril 2027 ; prix des emplacements à confirmer.. Réservations 2027 annoncées pour fin novembre 2026, sans jour précis. La page tarifaire affiche encore 2026 : forfait camping-car, personnes incluses, électricité, taxe, suppléments et durée minimale 2027 restent à vérifier. Cette fiche concerne les emplacements du camping, distincts de l'aire CAMPING-CAR PARK Le Soleya. Aucun prix ne doit être présenté comme forfait complet confirmé.",
       "nextCheck": "Confirmer auprès de l’exploitant les dates 2027 et un devis camping-car (forfait, électricité, taxe, frais et minimum de séjour).",
       "source": "https://www.campinglesoleya.com/tarifs-camping-tharon-plage.html",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 161,
-      "recheckFinding": "Le camping Le Soleya annonce ouverture le 30/04/2027 et réservations fin novembre 2026. Grille trouvée toujours 2026 (18–45 €/nuit standard, électricité et taxe séparées); distincte de l’aire CCP voisine.",
-      "recheckNextCheck": "Recontrôler la grille après l’ouverture des réservations; confirmer minimum, personnes, électricité et taxe.",
-      "recheckTariffSource": "https://campinglesoleya.com/emplacements-camping-tharon.html"
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 174,
+      "recheckFinding": "Lot 174 (05/11/2026) : le site officiel annonce la réouverture du camping le 30/04/2027 et l’ouverture des réservations 2027 fin novembre 2026, sans date précise. La page tarifaire reste explicitement sur les disponibilités 2026; aucun prix par nuit ni devis camping-car 2027 confirmé. La grille officielle PDF 2026 donne, pour le forfait standard 1–2 personnes + véhicule, 18/35/40/45 €/nuit selon les périodes; électricité 10 A en option 6–8 €/nuit. Le forfait Confort (sanitaire privé) 1–2 personnes + véhicule + électricité vaut 44/62/67/73 €/nuit. Taxe de séjour historique 2026 : 0,66 €/adulte de plus de 18 ans/nuit. Ne pas reconduire ces montants en 2027. La page emplacements indique min. 2 nuits en basse saison et 7 nuits en été, mais un autre paragraphe mentionne une nuit minimum; contradiction à vérifier au moteur lors de l’ouverture des ventes. Fiche des emplacements du camping, distincte de l’aire CAMPING-CAR PARK voisine.",
+      "recheckNextCheck": "Recontrôler le moteur après l’ouverture des réservations annoncée fin novembre 2026. Relever un devis daté pour camping-car et confirmer forfait, électricité, taxe, frais et minimum de séjour; ne pas reprendre les tarifs 2026 comme prix 2027.",
+      "recheckTariffSource": "https://campinglesoleya.com/emplacements-camping-tharon.html",
+      "recheckSource": "https://campinglesoleya.com/",
+      "recheckPitchSource": "https://campinglesoleya.com/emplacements-camping-tharon.html",
+      "recheckOfficialTariffsSource": "https://www.campinglesoleya.com/tarifs-camping-tharon-plage.html",
+      "recheck2026TariffsPdf": "https://www.campinglesoleya.com/pdf/tarifs_emplacements.pdf",
+      "recheckFaqSource": "https://www.campinglesoleya.com/foire-au-questions.html"
     },
     {
       "sourceId": "ACCAMACCAMEBORNEVALSTMARTIN",
