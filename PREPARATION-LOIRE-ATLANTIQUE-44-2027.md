@@ -966,3 +966,18 @@ Sources :
 - https://www.yellohvillage.fr/camping/le_ranch/offres_speciales
 
 [Rapport lot 170](AUDIT-44-2027-LOT170.md).
+
+## Lot 171 — Camping La Boutinardière, Pornic, 5 novembre 2026
+
+- Réservations 2027 ouvertes le 03/11; le site annonce une ouverture du camping à partir du 02/04/2027.
+- Le moteur de réservation affiche un prix d’appel de 210 € pour 7 nuits avec départs les 16 et 23 avril 2027. Ce montant est un total partiel de séjour; ne pas le diviser en prix par nuit. Le détail des occupants, options, taxes, frais et le total final ne sont pas établis.
+- La page tarifaire fixe reste intitulée « Tarifs général 2026 ». Les emplacements sont annoncés avec branchement 10 A; la FAQ fixe un maximum de six personnes par parcelle, sans préciser la composition du forfait 2027.
+- Fiche existante uniquement. Aucun changement à `aires-pdl.json`, aucun contact envoyé. Compteurs inchangés : **215 / 187 / 28**.
+
+Sources :
+- https://www.camping-boutinardiere.com/
+- https://www.camping-boutinardiere.com/tarif-general.html
+- https://www.camping-boutinardiere.com/foire-au-questions.html
+- https://thelisresa.webcamp.fr/?begin=2027-04-02&camping=bouti44&chosenSite=1567&lang=fr&track=bouti44
+
+[Rapport lot 171](AUDIT-44-2027-LOT171.md).
