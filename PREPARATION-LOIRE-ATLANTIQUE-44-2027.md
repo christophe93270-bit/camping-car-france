@@ -981,3 +981,15 @@ Sources :
 - https://thelisresa.webcamp.fr/?begin=2027-04-02&camping=bouti44&chosenSite=1567&lang=fr&track=bouti44
 
 [Rapport lot 171](AUDIT-44-2027-LOT171.md).
+
+## Lot 172 — Camping de l’Océan, Le Croisic, 5 novembre 2026
+
+- Recherche officielle du 10 au 12 mai 2027, deux personnes, emplacement nu : le moteur affiche « à partir de 70 € » en Confort et 88 € en Grand Confort. Ce sont des prix d’appel pour le séjour de deux nuits sélectionné, pas des prix par nuit ni un panier final garanti.
+- Confort : base 2 personnes, une voiture et électricité 10 A. Grand Confort : ajoute branchement d’eau et évacuation. Jusqu’à 6 personnes, supplément au-delà de 2; montant non affiché.
+- La page reste titrée « Tarifs 2026 ». Taxes, frais et total final restent à vérifier; aucune modification de `aires-pdl.json`.
+- Fiche existante; aucun lieu ajouté ni contact envoyé. Compteurs inchangés : **215 / 187 / 28**.
+
+Source :
+- https://www.camping-ocean.com/tarifs-ocean.html?start=2027-05-10&end=2027-05-12&type=emplacement&persons=2
+
+[Rapport lot 172](AUDIT-44-2027-LOT172.md).
