@@ -1168,3 +1168,13 @@ Sources :
 - Aucun tarif complet opérateur 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 189](AUDIT-44-2027-LOT189.md).
+
+
+## Lot 190 — trois fiches existantes, 5 novembre 2026
+
+- **L’Île de Kernodet, Saint-Molf :** grille officielle encore 2026 (19–35 €/nuit selon périodes); forfait 1–2 personnes, véhicule et électricité. Frais dossier 10 €, écoparticipation 0,50 €/personne/nuit et taxe séparés. Aucun barème 2027.
+- **Domaine de Pont-Mahé, Assérac :** saison camping-car officielle encore 04/04–26/09/2026; emplacements 80–100 m², 10 A. Documents tarifaires 2025/2026; ACSI et 7=6 restent conditionnels 2026. Revendeur annonce seulement l’ouverture prochaine des ventes 2027.
+- **Les Prairies de l’Étang, Assérac :** page régionale tarifs 2026 sans montant; repère tiers de 42 €/nuit concerne « Tourisme Confort Caravane » 2026, non tarif camping-car 2027. Le classement liste 29 parcelles nues et 9 grands conforts.
+- Aucun tarif opérateur complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 190](AUDIT-44-2027-LOT190.md).
