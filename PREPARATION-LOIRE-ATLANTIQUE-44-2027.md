@@ -1197,3 +1197,12 @@ Sources :
 - Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 192](AUDIT-44-2027-LOT192.md).
+
+## Lot 193 — 5 novembre 2026
+
+- **La Goëlette, La Bernerie-en-Retz :** tarifs opérateur 18/22 €/nuit sans année explicite; Destination Pornic les rattache à 2026. Électricité et taxes séparées; aucun barème 2027 confirmé.
+- **Domaine de la Baie Dorée, Villeneuve-en-Retz :** PDF opérateur 2026 à 16–33 €/nuit; tableau pour tentes/caravanes, accueil camping-car à confirmer. Écart de dates : PDF jusqu’au 19/09, fiche touristique jusqu’au 26/09/2026.
+- **La Morinière, Port-Saint-Père :** délibération municipale 2026, forfait camping-car 13 €/nuit + électricité 5 € et taxe 0,22 €/adulte. Aucun tarif 2027.
+- Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 193](AUDIT-44-2027-LOT193.md).
