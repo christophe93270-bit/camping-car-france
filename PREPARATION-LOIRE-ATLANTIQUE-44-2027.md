@@ -1215,3 +1215,12 @@ Sources :
 - Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 194](AUDIT-44-2027-LOT194.md).
+
+## Lot 195 — 5 novembre 2026
+
+- **Domaine de Léveno, Guérande :** réservations 2027 ouvertes; saison 09/04–19/09/2027 et emplacements avec eau, 10 A et véhicule inclus. Tarifs en temps réel seulement, aucun montant daté validé; remise partenaire 25 € conditionnelle.
+- **L’Étang du Pays Blanc, Guérande :** saison et forfait standard camping-car 2027 confirmés officiellement (2 personnes, véhicule, électricité 10 A, Wi-Fi). Aucun prix opérateur trouvé. CampingFrance annonce 55 €/nuit, mais sa fiche ouverte affiche un prix générique à partir de 1 € : indice tiers contradictoire, non retenu.
+- **Vieux Château, Tharon-Plage :** annonces 2027 relatives aux mobil-homes seulement. Emplacements : grille touristique 2026 à 20–36 €/nuit; offre ACSI 19 € non millésimée et conditionnelle.
+- Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 195](AUDIT-44-2027-LOT195.md).
