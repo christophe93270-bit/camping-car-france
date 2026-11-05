@@ -1233,3 +1233,12 @@ Sources :
 - Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 196](AUDIT-44-2027-LOT196.md).
+
+## Lot 197 — 5 novembre 2026
+
+- **GCU Mesquer :** tarif d’appel « dès 14,45 €/nuit » sans millésime; brochure disponible 2026 seulement. Aucun tarif 2027.
+- **Les Amis de la Nature, Piriac :** tarifs et saison publiés 2026 seulement. Calcul des composantes camping-car : 23,10 €/nuit hors taxe, ou +0,44 € pour deux adultes majeurs; à garder comme historique. Aucun barème 2027.
+- **La Pierre Longue, Le Croisic :** saison publiée jusqu’au 01/11/2026; caractéristiques camping-car confirmées, pas de prix ou calendrier 2027 publié.
+- Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 197](AUDIT-44-2027-LOT197.md).
