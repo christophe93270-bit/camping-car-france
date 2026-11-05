@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 169 (05/11/2026), une fiche existante — Le Briord — déjà examinée au lot 163 mais manquante dans le tracker. La Région affiche 14 €/nuit forfait de base et 17 €/nuit forfait camping-car dans sa version anglaise, sans millésime; Park4Night indique 18/20 €/24 h en 2026. Aucun tarif 2027 confirmé; aucun changement à aires-pdl.json, aucun lieu/contact ajouté; compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 170 (05/11/2026), recontrôle ciblé du Yelloh! Village Le Ranch après ouverture des réservations 2027 le 04/11. Calendrier 30/04–12/09, haute saison 03/07–27/08; catégories d’emplacements précisées et seule la parcelle 130 m²+ explicitement équipée 10 A/eau/évacuation. Aucune grille de prix 2027 consultée; remise long séjour séparée et non millésimée. Aucun changement à aires-pdl.json, aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -3034,12 +3034,16 @@
       "finding": "Prix de nuitée 2027 à confirmer — calendrier publié",
       "nextCheck": "Le Ranch, La Plaine-sur-Mer : ouverture des réservations annoncée le 04/11/2026, saison du 30/04/2027 au 12/09/2027. Aucun montant de nuitée camping-car 2027 vérifié. Demander un tarif selon les dates et la catégorie d’emplacement, avec électricité, taxes et frais de réservation.",
       "source": "https://www.camping-le-ranch.com/fr",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 161,
-      "recheckFinding": "Le Ranch annonce ouverture 30/04–12/09/2027 et début des réservations le 04/11/2026. Le prix dépend des dates et catégorie d’emplacement; aucun forfait nuitée camping-car fixe confirmé.",
-      "recheckNextCheck": "Vérifier le moteur de réservation avec dates choisies; séparer électricité, taxes et frais.",
-      "recheckSource": "https://www.camping-le-ranch.com/fr/offres-speciales",
-      "recheckTariffSource": "https://www.yellohvillage.fr/camping/le_ranch"
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 170,
+      "recheckFinding": "Lot 170 (05/11/2026) : la page officielle indique que les réservations 2027 sont ouvertes depuis le 04/11; ouverture 30/04–12/09/2027, haute saison 03/07–27/08. Trois catégories d’emplacements; seule la catégorie 130 m² et plus précise électricité 10 A, eau et évacuation incluses. Aucun montant de nuitée 2027 dans les pages consultées. La page des offres affiche -10 % dès 10 nuits ou -15 % dès 14 nuits sur emplacements nus et locatifs hors 04/07–28/08, sans millésime explicite : conserver comme promotion séparée. Le tarif couple est limité aux cottages.",
+      "recheckNextCheck": "Obtenir un devis ou grille 2027 daté(e) par catégorie d’emplacement, dates, durée et nombre de personnes; confirmer la taxe et les frais. Garder promotions séparées. Ne pas convertir les repères secondaires 74 €/nuit (2026) ou 29 €/nuit (non millésimé) en prix 2027.",
+      "recheckSource": "https://www.yellohvillage.fr/camping/le_ranch",
+      "recheckTariffSource": "https://www.yellohvillage.fr/camping/le_ranch/nos_emplacements_de_camping",
+      "recheckPitchCategorySource": "https://www.yellohvillage.fr/camping/le_ranch/nos_emplacements_de_camping",
+      "recheckPitch130m2Source": "https://www.camping-le-ranch.com/fr/emplacements/78629",
+      "recheckPromotionsSource": "https://www.yellohvillage.fr/camping/le_ranch/offres_speciales",
+      "recheckConditionsSource": "https://www.yellohvillage.fr/footer/infos_pratiques/cgv"
     },
     {
       "sourceId": "ACCAMEROASCCAR",
