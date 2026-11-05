@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 191 (05/11/2026), trois campings existants. Fleur de Brière: source touristique, pas opérateur, montre 11–14 €/nuit camping-car + électricité seulement pour 2026; forfait tente/caravane distinct. Ferme d’Isson: prix camping-car officiel 15,20 €/nuit (2 personnes, électricité et taxe comprises), réservation 3 nuits minimum, saison 2026 uniquement. Les Bleuets: page tarifaire 2026; forfait tente/caravane 20–36 €, 10A et taxe en sus, sans grille camping-car 2027 distincte. Aucun tarif 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 192 (05/11/2026), trois campings existants. Les Écureuils : seule brochure chiffrée consultée = 2026; promotions 7=6/14=10/21=14 visibles mais non millésimées, donc distinctes des tarifs. Bugeau : page officielle confirme seulement saison 2026; ACSI 21 € reste conditionnel/historique. Bel Essor : tarifs officiels explicitement 2026 (14,90–22,10 €/nuit + électricité/taxe/écoparticipation séparées), aucun barème 2027. Aucun prix complet 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -2573,11 +2573,13 @@
       "finding": "La fiche ne présente pas de confirmation tarifaire complète pour 2027. Ne pas reconduire un tarif historique ou une gratuité sans vérifier la saison, ni confondre stationnement, nuitée et service.",
       "nextCheck": "Confirmer auprès de l’exploitant ou de la commune le prix et le droit de nuitée pour 2027, les frais, taxes, services et dates d’application.",
       "source": "https://www.pornic.com/camping-chadotel-les-ecureuils.html",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 160,
-      "recheckFinding": "Le document officiel Chadotel disponible reste intitulé tarifs 2026; aucun tarif 2027 identifié. La page services décrit une aire de services, sans confirmer l’accès hors séjour.",
-      "recheckNextCheck": "Obtenir le prix camping-car 2027 et les conditions de vidange hors séjour.",
-      "recheckTariffSource": "https://www.chadotel.com/wp-content/uploads/2025/12/TARIFS-2026-FR-2-LES-ECUREUILS.pdf"
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 192,
+      "recheckFinding": "Lot 192 (05/11/2026) : la brochure officielle disponible reste « Tarifs 2026 » (camping ouvert du 03/04 au 27/09/2026); elle distingue emplacements nus et forfaits avec électricité, y compris sanitaires privés, avec séjours possibles dès une nuit. Les pages officielles Chadotel affichent maintenant des offres promotionnelles 7=6, 14=10 et 21=14 pour emplacements, mais les pages d’offres consultées ne précisent pas millésime, dates d’application ni conditions propres à ce camping. Les promotions ne sont pas des tarifs standard. Aucun tarif opérateur camping-car 2027 daté confirmé.",
+      "recheckNextCheck": "Obtenir un devis officiel daté 2027 pour un emplacement camping-car et deux adultes; demander les périodes et conditions des promotions 7=6/14=10/21=14, confirmer les frais de dossier, taxe, options et inclusions. Garder la grille 2026 en historique.",
+      "recheckTariffSource": "https://www.chadotel.com/wp-content/uploads/2025/12/TARIFS-2026-FR-2-LES-ECUREUILS.pdf",
+      "recheckOffersSource": "https://www.chadotel.com/nos-offres-exceptionnelles/",
+      "recheckOfficialSite": "https://www.chadotel.com/camping-les-ecureuils-la-bernerie-en-retz/"
     },
     {
       "sourceId": "CCF44-ST-MICHEL-BEL-ESSOR-2026",
@@ -2588,11 +2590,11 @@
       "finding": "La fiche ne présente pas de confirmation tarifaire complète pour 2027. Ne pas reconduire un tarif historique ou une gratuité sans vérifier la saison, ni confondre stationnement, nuitée et service.",
       "nextCheck": "Confirmer auprès de l’exploitant ou de la commune le prix et le droit de nuitée pour 2027, les frais, taxes, services et dates d’application.",
       "source": "https://www.pornic.com/camping-le-bel-essor.html",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 160,
-      "recheckFinding": "Aucun barème officiel 2027 trouvé. Conserver les repères 2026 (14,60–21,60 €/nuit, taxe séparée) comme historiques; l’électricité à 4,80 € ne vaut que pour la période déjà documentée.",
-      "recheckNextCheck": "Vérifier tarifs par saison 2027, taxe et prix d’électricité hors période documentée.",
-      "recheckTariffSource": "https://www.pornic.com/camping-le-bel-essor.html"
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 192,
+      "recheckFinding": "Lot 192 (05/11/2026) : la page officielle affiche « Tarifs 2026 ». Elle donne un forfait de base pour deux personnes, un emplacement et une voiture à 14,90/18,30/22,10 €/nuit selon trois saisons; électricité 6 A en supplément à 4,80 €/nuit, taxe de séjour à 0,22 €/adulte/nuit et écoparticipation à 0,38 €/adulte/nuit. Ces montants sont 2026 et ne confirment pas un barème 2027. La catégorie de base n’indique pas explicitement camping-car; demander confirmation de l’application au véhicule.",
+      "recheckNextCheck": "Obtenir la grille officielle 2027 et un devis camping-car pour deux adultes; confirmer l’ampérage, l’inclusion du véhicule, taxe, écoparticipation, personnes et suppléments. Ne pas reconduire la grille 2026.",
+      "recheckTariffSource": "https://www.campingbelessor.com/emplacements.php"
     },
     {
       "sourceId": "CCF44-VILLENEUVE-BAIE-DOREE-2026",
@@ -2713,11 +2715,12 @@
       "finding": "Exploitant et tourisme confirment emplacements et ouverture 2026 ; offre ACSI connue reste 2026 et sous conditions. Aucun barème 2027.",
       "nextCheck": "Demander grille ordinaire et ACSI 2027, période, puissance électrique, taxe et coût de carte.",
       "source": "https://www.campingdubugeau.com/fr/hebergements/emplacement-tentes-camping-car-caravanes-10a-1",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 160,
-      "recheckFinding": "Aucun prix public 2027 repéré. Le montant de 21 €/nuit reste une offre ACSI 2026 sous conditions, distincte du tarif public.",
-      "recheckNextCheck": "Confirmer prix normal 2027, dates ACSI, électricité/taxe et services hors séjour.",
-      "recheckTariffSource": "https://www.campingdubugeau.com/fr/hebergements/emplacement-tentes-camping-car-caravanes-10a-1"
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 192,
+      "recheckFinding": "Lot 192 (05/11/2026) : la page officielle d’accueil indique une ouverture du 10/04 au 04/10/2026 et présente des emplacements, mais ne publie pas de tarifs 2027 camping-car ni de calendrier 2027. Le montant ACSI de 21 €/nuit déjà relevé reste une offre conditionnelle et ne vaut pas tarif public 2027. Aucun prix opérateur 2027 confirmé.",
+      "recheckNextCheck": "Obtenir un devis daté 2027 pour camping-car et deux adultes; faire préciser période d’ouverture, carte ACSI requise/conditions, électricité, taxe et suppléments. Ne pas présenter le prix ACSI historique comme tarif standard.",
+      "recheckTariffSource": "https://www.campingdubugeau.com/fr",
+      "recheckPitchSource": "https://www.campingdubugeau.com/fr/hebergements/emplacement-tentes-camping-caravanes-10a-1"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000051",
