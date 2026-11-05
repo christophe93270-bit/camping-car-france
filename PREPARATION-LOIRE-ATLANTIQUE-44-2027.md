@@ -1072,3 +1072,12 @@ Sources :
 
 [Rapport groupé du lot 179](AUDIT-44-2027-LOT179.md).
 
+## Lot 180 — trois fiches existantes, 5 novembre 2026
+
+- **Le Pas du Gû, Saint-Brevin-les-Pins :** le site officiel affiche une image de tarif camping-car explicitement 2026 et indique une mise à jour en février 2026. Aucun tarif 2027; l’image ne livre pas de montants exploitables en texte. Garder à part le repère touristique 15–18 €/nuit.
+- **Les Mouettes, Saint-Père-en-Retz :** page officielle sans année à 15 €/nuit (2 personnes, un emplacement, un véhicule); électricité 6 A +6,50 €/jour, personne supplémentaire +4 ou +5 €/jour selon âge. Le PDF officiel au 1er janvier 2024 affichait 19,50 €/jour et une taxe à 0,20 €/personne/nuit : divergence avec la page actuelle, sans tarif 2027 confirmé. Les CGV affichent 17,50 € de frais de réservation et un acompte de 45 €/semaine commencée.
+- **Le Deffay, Sainte-Reine-de-Bretagne :** le site publie toujours une grille d’emplacements 2026 par nuitée, et des tarifs distincts par nuit/semaine/week-end. Pas de grille 2027. Frais de réservation, acompte et animal à distinguer du tarif de l’emplacement.
+- Fiches existantes uniquement; aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 180](AUDIT-44-2027-LOT180.md).
+
