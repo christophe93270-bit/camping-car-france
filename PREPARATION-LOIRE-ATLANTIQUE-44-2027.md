@@ -1178,3 +1178,13 @@ Sources :
 - Aucun tarif opérateur complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 190](AUDIT-44-2027-LOT190.md).
+
+
+## Lot 191 — trois fiches existantes, 5 novembre 2026
+
+- **Fleur de Brière, Saint-Lyphard :** source touristique locale : 11–14 €/nuit pour camping-car + électricité, saison 14/03–15/11/2026. Forfait 2 personnes + voiture + électricité (13–22 €) distinct. Aucun tarif 2027 opérateur.
+- **Ferme d’Isson, Assérac :** tarif opérateur 2026 : forfait camping-car 15,20 €/nuit avec 2 personnes, électricité et taxe incluses; sur réservation, 3 nuits minimum. Aucun prix ni calendrier 2027.
+- **Les Bleuets, Pornic :** grille opérateur toujours 2026; 20–36 €/nuit pour 2 personnes + emplacement + tente ou caravane + véhicule, 10 A +6,20 € et taxe +0,22 €/adulte. Pas de forfait camping-car 2027 distinct.
+- Aucun tarif camping-car 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 191](AUDIT-44-2027-LOT191.md).
