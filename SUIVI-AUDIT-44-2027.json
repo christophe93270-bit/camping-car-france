@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 172 (05/11/2026), le moteur officiel du Camping de l’Océan affiche 70 € Confort et 88 € Grand Confort pour le séjour daté de deux nuits (10–12/05/2027, 2 personnes), prix d’appel partiels et non tarif par nuit; panier final, taxes et frais non affichés. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 173 (05/11/2026), le moteur officiel du Camping La Falaise affiche 247,50 €, 261,50 € et 366,50 € pour trois catégories d’emplacements pendant le séjour daté de sept nuits (26/03–02/04/2027, 2 personnes); montants de séjour, non convertis en prix/nuit, taxes/frais et récapitulatif final non affichés. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -3234,15 +3234,18 @@
       "name": "Camping La Falaise — La Turballe",
       "checkedAt": "2026-11-03",
       "lot": 100,
-      "status": "information_2027_sans_prix",
+      "status": "tarif_partiel_2027",
       "finding": "Saison annoncée du 26 mars au 30 octobre 2027 ; tarifs d'emplacement à confirmer.",
       "nextCheck": "Calendrier publié sur le site officiel et sa page emplacements, consulté via les résultats indexés ; ouverture directe des pages bloquée lors du contrôle. Aucun barème 2027 vérifié. Ne pas reconduire la grille 2026 standard/vue mer ni la taxe indiquée pour 2025 dans cet ancien PDF. Confirmer forfait, taxe 2027, frais et durée minimale auprès du camping. Camping distinct de l'aire CAMPING-CAR PARK Grande Falaise.",
       "source": "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : page officielle d’emplacements inaccessible à l’outil (403). Dernière saison vérifiable : 26/03–30/10/2027; aucun tarif 2027 confirmé.",
-      "recheckNextCheck": "Reprendre page/panier quand accessible et relever le prix daté, taxes, frais et durée minimale.",
-      "recheckSource": "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/"
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 173,
+      "recheckFinding": "Lot 173 : le moteur officiel Secureholiday, consulté depuis la page des emplacements, affiche pour le 26/03–02/04/2027 (7 nuits, 2 personnes) trois montants de séjour : 247,50 € pour « Emplacement nu, eau et électricité (10A) », 261,50 € pour « Emplacement nu vue mer, eau et électricité (10A) » et 366,50 € pour « emplacement nu avec sanitaires privés ». Ils restent des devis datés pour ce séjour et ne sont pas des prix par nuit ni une grille saisonnière. Le résultat ne détaille pas le récapitulatif final, les taxes ou les frais. La page annonce l’ouverture du 26/03 au 30/10/2027.",
+      "recheckNextCheck": "Obtenir une grille standard 2027 par nuit et plusieurs périodes; vérifier au récapitulatif final taxes, frais et composition exacte de chaque offre. Ne pas diviser les montants du séjour par sept et ne pas les recopier comme tarif public par nuit.",
+      "recheckSource": "https://www.camping-de-la-falaise.com/emplacements/nus/",
+      "recheckBookingSource": "https://reservation.secureholiday.net/fr/12822/search/product-view/51416?dateStart=26/03/2027&dateEnd=02/04/2027",
+      "recheckSeaViewBookingSource": "https://reservation.secureholiday.net/fr/12822/search/product-view/144429?dateStart=26/03/2027&dateEnd=02/04/2027",
+      "recheckPrivateSanitaryBookingSource": "https://reservation.secureholiday.net/fr/12822/search/product-view/151872?dateStart=26/03/2027&dateEnd=02/04/2027"
     },
     {
       "sourceId": "CCF44-MESQUER-CAMPING-AU-SOIR-ETE-2026",
