@@ -1148,3 +1148,13 @@ Sources :
 - Aucun prix opérateur complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 187](AUDIT-44-2027-LOT187.md).
+
+
+## Lot 188 — trois fiches existantes, 5 novembre 2026
+
+- **GCU Mesquer, Sorloc’h :** brochure officielle disponible 2026; prix d’appel 14,45 €/nuit sans année, saison 2026. Aucun tarif 2027. Écart de capacité à noter : page 77 emplacements, plan 2026 84.
+- **Les Amis de la Nature, Pors-er-Ster :** site toujours sur saison et tarifs 2026. Calcul pour 2 adultes + camping-car (jusqu’à 6,80 m) + emplacement + électricité : 23,10 €/nuit hors taxe, taxe 0,44 € à deux adultes concernés; total historique illustratif 23,54 €. Aucun barème 2027.
+- **La Pierre Longue, Le Croisic :** calendrier encore 03/04–01/11/2026; emplacements camping-car 80–150 m², 10 A; pas de tarif ni calendrier 2027.
+- Aucun tarif 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 188](AUDIT-44-2027-LOT188.md).
