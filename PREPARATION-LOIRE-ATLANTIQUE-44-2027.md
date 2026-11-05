@@ -942,3 +942,11 @@ Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; com
 Aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs maintenus à **215 fiches visibles / 187 avec filtre nocturne / 28 exclues**.
 
 [Rapport lot 168](AUDIT-44-2027-LOT168.md).
+
+
+## Lot 169 — une fiche existante, 5 novembre 2026
+
+- **Camping naturel Le Briord, Saint-Brevin-les-Pins :** ajout au tracker uniquement, car cette fiche déjà présente dans `aires-pdl.json` manquait à la liste de suivi, malgré son contrôle mentionné au lot 163. La page française de la Région indique un forfait de base à partir de 14 €/nuit (1 emplacement, 2 personnes, 1 voiture) et une taxe de 0,20–0,22 €/personne/nuit. La version anglaise de la même fiche affiche aussi un forfait camping-car à 17 €/nuit, sans millésime ni composition détaillée. Les dates publiées concernent l’ouverture 2026. Park4Night fournit à part un repère secondaire de 18/20 €/24 h pour 2026. Aucun tarif 2027 confirmé.
+- Aucun lieu ajouté et aucun contact envoyé. Aucun changement à `aires-pdl.json`; compteurs maintenus à **215 fiches visibles / 187 avec filtre nocturne / 28 exclues**.
+
+[Rapport lot 169](AUDIT-44-2027-LOT169.md).
