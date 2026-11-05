@@ -1062,3 +1062,13 @@ Sources :
 - Fiches existantes uniquement; aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 178](AUDIT-44-2027-LOT178.md).
+
+## Lot 179 — trois fiches existantes, 5 novembre 2026
+
+- **La Pindière, Héric :** la page des emplacements affiche encore « Tarifs 2025 »; seuls des tarifs anciens (PDF 2023) sont proposés au téléchargement. Pas de grille officielle 2027. PiNCAMP 2026 (16,90–21,10 €/nuit) demeure un repère tiers, sans confirmation des inclusions.
+- **Le Bel Air, Pornichet :** Early Booking 2027 −20 % annoncée sur les hébergements et dates, sans prix de base des emplacements. Les conditions limitent les emplacements à deux nuits minimum en juillet-août et indiquent un acompte de 30 %. La brochure officielle non datée donne des prix d’appel anciens de 27 €/nuit emplacement et 14 €/nuit box pour deux personnes; électricité et taxe en plus. Applicabilité de la promo aux emplacements/boxes à confirmer.
+- **Le Grand Fay, Saint-Père-en-Retz :** page opérateur encore datée saison 2026; électricité 10 A incluse au forfait (1–2 personnes, un véhicule), taxe de séjour publiée à 0,44 €/adulte/nuit. La formule saisonniers à 15 €/jour est une offre longue durée 2026 (2 mois minimum), non comparable à la nuitée. PiNCAMP/ADAC affiche des tarifs de comparaison 2027 dès 20 €/nuit basse saison et 30 € haute saison pour un couple, non confirmés par l’opérateur.
+- Trois fiches existantes uniquement; aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 179](AUDIT-44-2027-LOT179.md).
+
