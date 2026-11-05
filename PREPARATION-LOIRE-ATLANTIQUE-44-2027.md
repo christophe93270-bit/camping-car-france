@@ -1138,3 +1138,13 @@ Sources :
 - Aucun tarif 2027 complet confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 186](AUDIT-44-2027-LOT186.md).
+
+
+## Lot 187 — trois fiches existantes, 5 novembre 2026
+
+- **Cybèle Vacances Les Brillas, Les Moutiers-en-Retz :** emplacements de 120–150 m², camping-cars acceptés, 16 A. Le moteur officiel demande des dates; aucun devis 2027 obtenu. Grille Destination Pornic explicitement 2026 : 19–29 €/nuit pour 2 personnes + voiture, taxe 0,66 €/adulte/nuit. Le repère Pitchup à partir de 21,42 € reste tiers et sans dates.
+- **Camping de La Prée, Préfailles :** page officielle toujours tarifée 2026 (16–32 €/nuit selon périodes; 10 A +4,90 €; suppléments distincts; 2 nuits minimum). CampingFrance affiche 32 €/jour sous une rubrique 2027, sans période et identique au haut de grille 2026; pas de confirmation par l’opérateur.
+- **Eden Villages La Pointe Saint-Gildas, Préfailles :** fiche régionale toujours saison 2026 et 49 places camping-car; site opérateur inaccessible au contrôle. Camping Direct affiche 148/267/176 € la semaine sans dates ni millésime, repères tiers uniquement.
+- Aucun prix opérateur complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 187](AUDIT-44-2027-LOT187.md).
