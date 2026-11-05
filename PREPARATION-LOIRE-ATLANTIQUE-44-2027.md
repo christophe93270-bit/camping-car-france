@@ -1128,3 +1128,13 @@ Sources :
 - Seul un total de séjour daté est affiché par un opérateur; aucun prix/nuit standard complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 185](AUDIT-44-2027-LOT185.md).
+
+
+## Lot 186 — trois fiches existantes, 5 novembre 2026
+
+- **Domaine de Bréhadour, Guérande :** les pages officielles gardent des grilles sans millésime; halte camping-car 11/16/11 €/nuit + taxe 0,55 €, autre tableau Access sans électricité 14,10–28,30 €/nuit + taxe 0,66 €. Périodes, année et taxe à réconcilier; aucun tarif 2027 confirmé.
+- **Camping Les Forges, Pornichet :** pas de prix camping-car 2027 affiché; frais dossier de 30 € (ou 60 € pour dossier de prise en charge) et minimum de nuits à distinguer du prix. Revendeur : saison 2027 bientôt ouverte, sans montant.
+- **La Cale Sauvage, Frossay :** tarif officiel toujours 2026 (saison 03/04–04/10/2026), sans barème 2027. Emplacements camping-car avec/sans 6 A; adaptateur 2 €/nuit + caution, acompte 30 % à séparer de la nuitée.
+- Aucun tarif 2027 complet confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 186](AUDIT-44-2027-LOT186.md).
