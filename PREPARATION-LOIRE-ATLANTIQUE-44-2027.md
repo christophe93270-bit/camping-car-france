@@ -1108,3 +1108,13 @@ Sources :
 
 [Rapport groupé du lot 183](AUDIT-44-2027-LOT183.md).
 
+
+
+## Lot 184 — trois fiches existantes, 5 novembre 2026
+
+- **Slow Village Pornic, La Plaine-sur-Mer :** réservations estivales 2027 ouvertes. Emplacement loisirs de 100 m² avec Wi-Fi, électricité jusqu’à 10 A et sanitaires communs inclus; animal en option. Aucun prix 2027 fixe ni devis daté camping-car confirmé.
+- **Sandaya Le Fief, Saint-Brevin-les-Pins :** saison confirmée du 02/04 au 07/11/2027 et 35 emplacements; réservation des emplacements encore annoncée prochainement. Pas de tarif camping-car 2027 publié. Promotion de prévente à garder distincte du prix de base.
+- **Les Chênes Verts, Bourgneuf-en-Retz :** saison annoncée du 02/04 au 12/09/2027 et tarification dynamique; pas de forfait public daté. L’inclusion de l’électricité varie selon la formule.
+- Aucun prix complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 184](AUDIT-44-2027-LOT184.md).
