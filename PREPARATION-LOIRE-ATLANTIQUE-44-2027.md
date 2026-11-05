@@ -993,3 +993,11 @@ Source :
 - https://www.camping-ocean.com/tarifs-ocean.html?start=2027-05-10&end=2027-05-12&type=emplacement&persons=2
 
 [Rapport lot 172](AUDIT-44-2027-LOT172.md).
+
+## Lot 173 — Camping La Falaise, La Turballe, 5 novembre 2026
+
+- Le moteur officiel affiche trois montants pour le séjour du 26 mars au 2 avril 2027 (sept nuits, deux personnes) : 247,50 € pour l’emplacement nu avec eau et électricité 10 A, 261,50 € pour la version vue mer avec eau et électricité 10 A, et 366,50 € pour un emplacement avec sanitaires privés.
+- Ce sont des montants de séjour pour les dates sélectionnées; ne pas les diviser par sept ni les traiter comme une grille de prix par nuit. Taxes, frais éventuels et récapitulatif final ne sont pas visibles. Le site confirme une saison du 26 mars au 30 octobre 2027.
+- Fiche existante uniquement. Aucun changement à `aires-pdl.json`, aucun contact envoyé. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport lot 173](AUDIT-44-2027-LOT173.md).
