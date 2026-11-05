@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 189 (05/11/2026), trois campings existants. L’Hermitage à Guémené affiche « dès 16 €/nuit » sans millésime/composition; aucune grille 2027 confirmée. L’Hermitage des Dunes affiche sa saison 2026 et sa dernière grille officielle retrouvée date de 2022; offres ACSI tierces à 17/19 € non réconciliées. Le Relais des Garennes affiche officiellement 17 € pour camping-car + 2 personnes + électricité sans année, tandis que l’addition des postes tiers marqués 2027 donne 16 €; composition à confirmer. Aucun prix complet 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 190 (05/11/2026), trois campings Assérac/Saint-Molf. L’Île de Kernodet : tarifs officiels 19–35 €/nuit et frais/taxes retrouvés explicitement pour 2026, aucun tarif 2027. Pont-Mahé : saison et grille visibles toujours 2026/2025; Campings.com signale seulement une ouverture prochaine des ventes 2027. Les Prairies de l’Étang : page régionale tarifs 2026 sans montant; le repère tiers 42 € concerne caravane 2026, pas camping-car 2027. Aucun tarif complet opérateur 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -12,14 +12,15 @@
       "finding": "Contrôle lot 128 : grille officielle 2026 trouvée, forfait standard par nuit pour 1–2 pers., 1 véhicule et électricité : 19 €/nuit (01/04–03/07 et 05/09–26/09), 21 € (Pâques 03–05/04 et 29/08–04/09), 25 € (ponts de mai), 26 € (04–10/07 et 22–28/08), 30 € (11–24/07 et 15–21/08), 33 € (25–31/07), 35 € (01–14/08). Taxe de séjour exclue et montant non indiqué dans les CGV ; écoparticipation 2026 : 0,50 €/pers./nuit. Frais de dossier emplacement : 10 € (à séparer du prix par nuit). Le site officiel affiche « emplacements à partir de 137 € » sans année, durée ni dates ; ne pas le classer comme prix/nuit ou comme prix 2027. Aucun barème officiel 2027 identifié.",
       "nextCheck": "Obtenir la grille ou un devis opérateur 2027 avec dates précises pour 1–2 adultes, un camping-car, un véhicule et électricité ; confirmer taxe de séjour, écoparticipation, frais de dossier 2027 et suppléments. Clarifier la durée et la saison auxquelles se rapporte le « à partir de 137 € ». Ne pas reconduire les prix 2026.",
       "source": "https://camping-iledekernodet.com/wp-content/uploads/2026/04/resume-tarifs-2026.pdf",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 (04/11/2026) : le PDF officiel reste la grille 2026 (19–35 €/nuit selon périodes, forfait standard 1–2 personnes, véhicule et électricité; taxe et écoparticipation séparées). « À partir de 137 € » reste sans période, durée ni composition. Aucun tarif camping-car 2027 confirmé.",
-      "recheckNextCheck": "Attendre la grille opérateur 2027; distinguer prix/nuit, taxe, écoparticipation et frais de dossier. Clarifier la composition des 137 €.",
-      "recheckTariffSource": "https://camping-iledekernodet.com/wp-content/uploads/2026/04/resume-tarifs-2026.pdf",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 190,
+      "recheckFinding": "Lot 190 (05/11/2026) : page emplacement officielle : parcelles d’environ 100 m²; forfait de base inclut 1–2 personnes, 1 véhicule et électricité. La grille PDF et CGV officielles disponibles sont explicitement 2026 : 19–35 €/nuit selon périodes; taxe de séjour non chiffrée dans les CGV et éco-participation de 0,50 €/personne/nuit, à distinguer. Frais de dossier emplacement : 10 €. Aucun prix ni grille 2027 confirmé. Le tarif « à partir de 137 € » reste sans dates, durée et composition.",
+      "recheckNextCheck": "Obtenir la grille 2027 par saison et devis daté camping-car; confirmer taxe 2027, éco-participation, frais de dossier et suppléments pour personnes/animaux/véhicules. Ne pas réutiliser les 19–35 € ou l’offre 137 € comme prix 2027.",
+      "recheckTariffSource": "https://camping-iledekernodet.com/emplacement-camping-loire-atlantique/",
       "recheckConditionsSource": "https://camping-iledekernodet.com/wp-content/uploads/2025/11/CGV_fr_2026.pdf",
       "recheckSecondarySource": "https://www.labaule-guerande.com/offres/camping-lile-de-kernodet-camping-paradis-saint-molf-fr-6011359/",
-      "recheckBookingSource": "https://www.campings.com/en-gb/campsite/camping-paradis-l-ile-de-kernodet-78366"
+      "recheckBookingSource": "https://www.campings.com/en-gb/campsite/camping-paradis-l-ile-de-kernodet-78366",
+      "recheckTariffGridSource": "https://camping-iledekernodet.com/wp-content/uploads/2026/04/resume-tarifs-2026.pdf"
     },
     {
       "sourceId": "CCF44-ASSERAC-DOMAINE-PONT-MAHE-2026",
@@ -30,15 +31,17 @@
       "finding": "Contrôle lot 129 : l’offre opérateur ACSI 2026 à 19 €/nuit est conditionnée à la carte ACSI, 1 véhicule, 2 personnes, électricité 10 A et 1 animal ; les dates affichées sont 03/04–04/08 et 29/08–26/09/2026. Ce n’est pas le tarif public standard ni un prix 2027. Le contrat 2026 indique 18 € de frais de réservation (one-off par réservation), taxe de séjour de 0,66 €/adulte/nuit, choix de parcelle préférentielle 15 € et caution badge 35 € ; postes à séparer du prix d’une nuit. Une promo officielle 7=6 annonce frais offerts, mais les conditions de durée affichent min. 1 et max. 3 nuits, incohérentes avec une nuit offerte sur 7 ; ses dates vont jusqu’au 27/09 alors que le contrat 2026 ferme le 26/09. Aucune grille tarifaire opérateur 2027 confirmée. La brochure publique consultée est celle de 2025.",
       "nextCheck": "Obtenir la grille officielle 2027 par nuit pour 1–2 personnes, camping-car, véhicule et 10 A ; confirmer prix ACSI 2027, périodes et carte exigée. Faire préciser la portée de l’offre 7=6 (durée requise, max. 3 nuits, frais offerts) et ses dates. Confirmer taxe 2027, frais de réservation, choix emplacement préférentiel et caution, séparément du prix de la nuit.",
       "source": "https://www.pont-mahe.com/fr/tarif-location-sejour.html",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : pas de grille opérateur 2027 complète. ACSI 19 €/nuit et promotion 7=6 restent des offres conditionnelles 2026; règles de durée et dates contradictoires. Brochure disponible datée 2025.",
-      "recheckNextCheck": "Obtenir le barème 2027, ACSI et conditions actualisées; distinguer taxe, frais, choix de parcelle et caution.",
-      "recheckTariffSource": "https://www.pont-mahe.com/wp-content/uploads/2024/01/2025-brochure-camping-le-domaine-de-pont-mahe_compressed.pdf",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 190,
+      "recheckFinding": "Lot 190 (05/11/2026) : l’opérateur indique toujours l’accueil des camping-cars du 04/04 au 26/09/2026, parcelles 80–100 m² et électricité 10 A; tarifs officiels accessibles restent ceux de 2026/2025, sans grille 2027. ACSI 19 €/nuit et l’offre 7=6 étaient déjà identifiés comme offres conditionnelles 2026 et ne valent pas prix public 2027. Campings.com indique « saison 2027 bientôt ouverte », sans tarif : repère secondaire. Aucun tarif camping-car 2027 daté confirmé.",
+      "recheckNextCheck": "Attendre l’ouverture des réservations 2027 et demander le tarif emplacement par saison, notamment ACSI, dates, durée et conditions 7=6; confirmer taxe, électricité, frais et minimum de séjour. Ne pas reprendre les offres 2026.",
+      "recheckTariffSource": "https://www.pont-mahe.com/emplacements/",
       "recheckContractSource": "https://www.pont-mahe.com/wp-content/uploads/2026/02/contrat_camp_pontmahenum.pdf",
       "recheckACSI2026Source": "https://www.pont-mahe.com/en/locations/",
       "recheckPromotion2026Source": "https://www.pont-mahe.com/actualites/",
-      "recheckConditionsTariffsSource": "https://www.pont-mahe.com/fr/tarif-location-sejour.html"
+      "recheckConditionsTariffsSource": "https://www.pont-mahe.com/fr/tarif-location-sejour.html",
+      "recheckTariffGridSource": "https://camping-pont-mahe.fr/fr/tarif-location-sejour.html",
+      "recheckSecondarySource": "https://www.campings.com/fr/camping/camping-de-pont-mahe-83542"
     },
     {
       "sourceId": "CCF44-STE-LUCE-PAUSE-LOIRE-2026",
@@ -68,14 +71,16 @@
       "finding": "Page emplacements sans barème 2027 ; annuaires datés 2026.",
       "nextCheck": "Devis camping-car 2027 et suppléments.",
       "source": "https://www.lesprairies.net/emplacements/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : aucun montant 2027 sur la page opérateur. Le repère secondaire 42 €/nuit est explicitement 2026, « Tourisme Confort Caravane »; inclusion du camping-car et éléments compris non établis.",
-      "recheckNextCheck": "Obtenir tarif opérateur 2027 avec/sans 10 A; confirmer la composition du repère secondaire 2026.",
-      "recheckTariffSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/asserac/les-prairies-de-letang",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 190,
+      "recheckFinding": "Lot 190 (05/11/2026) : les pages consultées ne publient aucun montant opérateur d’emplacement 2027. Tourisme Bretagne affiche une rubrique « Tarifs 2026 » mais le montant journalier pour 2 adultes, emplacement et voiture est vide. Un repère tiers de 42 €/nuit a été précédemment relevé comme « Tourisme Confort Caravane » 2026; cela ne prouve pas un prix camping-car ni un tarif 2027. Le certificat de classement 2022 recense 29 parcelles nues et 9 grands conforts, mais aucune place d’aire autocaravane dédiée.",
+      "recheckNextCheck": "Obtenir directement de l’opérateur un devis 2027 camping-car, personnes, véhicule et électricité; confirmer l’accès des camping-cars aux parcelles nues, périodes, taxe et suppléments. Garder le repère 42 € en historique/secondaire seulement.",
+      "recheckTariffSource": "https://www.lesprairies.net/",
       "recheckPitchesSource": "https://www.lesprairies.net/emplacements/",
       "recheckConditionsSource": "https://www.lesprairies.net/wp-content/uploads/2023/04/CONDITIONS-GENERALES-DE-VENTE.pdf",
-      "recheckCalendarSource": "https://www.enpaysdelaloire.com/hebergements/campings/camping-les-prairies-de-l-etang"
+      "recheckCalendarSource": "https://www.enpaysdelaloire.com/hebergements/campings/camping-les-prairies-de-l-etang",
+      "recheckRegionalSource": "https://www.tourismebretagne.com/preparer-mon-sejour/ou-dormir/tous-les-hebergements/camping-les-prairies-de-letang-asserac-fr-2033283/",
+      "recheckClassificationSource": "https://www.lesprairies.net/wp-content/uploads/2023/02/document-fr-637871343871315535-1.pdf"
     },
     {
       "sourceId": "CCF44-MESQUER-PRADEROI-2026",
