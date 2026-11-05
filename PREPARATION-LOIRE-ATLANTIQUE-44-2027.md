@@ -1036,3 +1036,19 @@ Sources :
 - https://www.camping-boutinardiere.com/emplacements-camping-pornic.html
 
 [Rapport lot 176](AUDIT-44-2027-LOT176.md).
+
+
+## Lot 177 — Camping Au Soir d’Été, Mesquer, 5 novembre 2026
+
+- Le moteur officiel affiche pour le 10–11 avril 2027 (une nuit, deux adultes), emplacement camping-car 35 m² avec électricité : **17,60 €** avec Early Booking −20 %, au lieu de 22 €. La grille officielle fixe le tarif standard à 22 €/nuit pour ces dates; ne pas confondre le prix promotionnel d’un séjour d’une nuit avec le tarif standard.
+- Électricité, accès sanitaire et une voiture sont inclus dans la grille. Le moteur indique une remise du 02/04 au 26/09, valable jusqu’au 31/01/2027.
+- L’inclusion de la taxe de séjour reste contradictoire : la FAQ la dit incluse; le tarif 2027 cite 0,66 €/adulte majeur/nuit dans le paragraphe des inclusions; le contrat/C.G.V. 2027 dit que les taxes municipales ne sont pas comprises. Ne pas ajouter ou compter deux fois la taxe tant qu’un récapitulatif ne tranche pas.
+- Fiche existante uniquement. Aucun changement à `aires-pdl.json`, aucun contact envoyé. Compteurs inchangés : **215 / 187 / 28**.
+
+Sources :
+- https://reservation.secureholiday.net/fr/574/offers
+- https://www.camping-soirdete.com/wp-content/uploads/2026/10/tarifs-2027-telephone.pdf
+- https://www.camping-soirdete.com/faq/
+- https://www.camping-soirdete.com/wp-content/uploads/2026/10/cr-2027.pdf
+
+[Rapport lot 177](AUDIT-44-2027-LOT177.md).
