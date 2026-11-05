@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 184 (05/11/2026), trois campings existants vérifiés. Slow Village Pornic a ouvert les réservations estivales 2027; description 100 m², Wi-Fi, électricité jusqu’à 10 A et sanitaires communs inclus, mais aucun prix 2027 vérifié. Sandaya Le Fief confirme sa saison 02/04–07/11/2027, mais réservation des emplacements encore annoncée prochainement. Les Chênes Verts maintient une saison 02/04–12/09/2027 et une tarification dynamique sans prix public exploitable. Aucun tarif complet 2027 confirmé; aucun changement à aires-pdl.json, aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 185 (05/11/2026), trois campings existants. Sunêlia Le Petit Bois affiche 186 € pour 7 nuits (02–09/04/2027) sur un emplacement avec sanitaire privé, après remise de 5 % (196 € affiché avant remise); total de séjour, composition et taxes finales à confirmer, pas un prix/nuit. Le Vieux Château n’a pas de grille 2027; 19 €/nuit est une offre ACSI conditionnelle non millésimée. L’Étang du Pays Blanc confirme sa saison 17/04–26/09/2027 et la composition du forfait standard, mais aucun montant officiel 2027. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -3165,13 +3165,14 @@
       "finding": "Contrôle lot 123 : PiNCAMP/ADAC publie un tarif comparatif 2027 de départ en catégorie standard pour un couple : 20,50 €/nuit basse saison et 37 €/nuit haute saison, électricité incluse et taxe exclue ; ce n’est pas un devis opérateur par date. Le site du camping affiche séparément 19 €/nuit ACSI pour 2 personnes, électricité 10 A et un animal avec carte requise, mais périodes sans année. Destination Pornic conserve le tarif historique 2026 de 20–36 €/nuit pour 2 personnes + 1 voiture.",
       "nextCheck": "Vérifier sur une grille ou un panier officiel 2027 les prix pour deux personnes à dates précises, l’inclusion de l’électricité, la taxe de séjour et les frais. Confirmer les dates d’ouverture 2027 des emplacements. Vérifier l’année et les fenêtres de validité de l’offre ACSI à 19 € et la séparer du tarif ordinaire.",
       "source": "https://www.camping-duvieuxchateau.com/emplacements/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : aucune grille officielle 2027 confirmée. ADAC/PiNCAMP donne un comparatif 2027 de 20,50 €/nuit basse saison et 37 € haute saison pour un couple, électricité incluse et taxe exclue; ACSI 19 € conditionnel sans période millésimée. Pas de tarif opérateur daté.",
-      "recheckNextCheck": "Confirmer sur grille/panier officiel les prix par date, inclusions et taxe; séparer ACSI du tarif ordinaire.",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 185,
+      "recheckFinding": "Lot 185 (05/11/2026) : page officielle 2027 annonce de nouveaux mobil-homes dès le 02/04/2027, tandis que la page emplacements décrit 29 parcelles nues de 80–90 m² avec électricité 10 A et Wi-Fi, adaptées aux camping-cars. L’offre ACSI affichée à 19 €/nuit pour deux personnes, électricité 10 A et un animal est conditionnée à la carte ANWB/ACSI et à des périodes indiquées sans année; ne pas la traiter comme tarif public 2027. Les documents tarifaires trouvés restent antérieurs (contrat emplacements 2025 et CGV 2026); aucun barème ni devis opérateur camping-car 2027 confirmé.",
+      "recheckNextCheck": "Obtenir un devis officiel daté 2027 pour deux adultes et un camping-car; faire confirmer les périodes et conditions ACSI pour 2027, taxe, suppléments et frais. Ne pas reprendre le tarif ACSI non millésimé comme prix standard.",
       "recheckSource": "https://www.camping-duvieuxchateau.com/emplacements/",
       "recheckConditionsSource": "https://www.pornic.com/camping-du-vieux-chateau.html",
-      "recheckSecondarySource": "https://www.pincamp.fr/campings/camping-du-vieux-chateau-saint-michel-chef-chef"
+      "recheckSecondarySource": "https://www.pincamp.fr/campings/camping-du-vieux-chateau-saint-michel-chef-chef",
+      "recheckTariffSource": "https://www.camping-duvieuxchateau.com/tarifs/"
     },
     {
       "sourceId": "CCF44-ASSERAC-CAMPING-BAIE-2026",
@@ -3235,13 +3236,15 @@
       "finding": "Contrôle lot 126 : l’exploitant annonce la saison 17/04–26/09/2027 et un forfait Standard comprenant 2 personnes, véhicule et électricité 10 A ; aucun montant officiel statique ou devis daté n’a été relevé. CampingFrance, sous l’intitulé Tarifs 2027, affiche un forfait de 55 €/nuit, mais sans période ni détail suffisant pour l’assimiler au devis opérateur. Il mentionne séparément une réduction FFCC à 23 € sur certaines dates, conditionnelle à la carte. Camping.info donne 26,32 €/nuit basse saison et 34,32 € haute saison pour 2 adultes, véhicule et électricité, taxes locales incluses, sans millésime : contradiction secondaire non résolue. Les dates d’ouverture CampingFrance diffèrent aussi de celles de l’exploitant.",
       "nextCheck": "Demander/consulter le devis officiel 2027 daté pour l’emplacement Standard 2 adultes + camping-car + 10 A, puis distinguer Premium et Premium +. Faire confirmer saison officielle, taxe 2027, personnes et véhicule inclus, suppléments, minimum de séjour, prix réel et période de l’offre FFCC ainsi que sa condition de carte. Ne pas publier 55 €, 26,32/34,32 € ni 23 € comme tarif opérateur confirmé.",
       "source": "https://www.guerande-camping.com/emplacements-camping/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : saison officielle 17/04–26/09/2027 et forfait Standard (2 personnes, camping-car/caravane, véhicule, 10 A), sans montant opérateur 2027. Repères secondaires 55 € et 26,32/34,32 € divergents.",
-      "recheckNextCheck": "Obtenir prix opérateur daté et confirmer taxe, durée minimale et suppléments; conserver les tarifs tiers à part.",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 185,
+      "recheckFinding": "Lot 185 (05/11/2026) : l’opérateur confirme la saison 17/04–26/09/2027 et 119 emplacements, dont des emplacements pour camping-cars. Le forfait Standard comprend 2 personnes, un véhicule et électricité 10 A; Wi-Fi pour un appareil, animal en supplément. Aucun montant officiel 2027 ni devis daté n’est publié sur la page emplacements. Les prix secondaires 26,32–34,32 € ne sont pas confirmés par l’opérateur et ne doivent pas être classés comme tarifs 2027.",
+      "recheckNextCheck": "Obtenir un devis opérateur daté en 2027 pour un camping-car et deux personnes; confirmer tarif, taxe, supplément animal, options, frais et durée minimale. Laisser les prix secondaires hors du tarif officiel.",
       "recheckSource": "https://www.guerande-camping.com/emplacements-camping/",
       "recheckSecondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/guerande/camping-de-letang-du-pays-blanc",
-      "recheckOtherSecondarySource": "https://www.camping.info/fr/emplacement-de-camping/camping-de-letang-du-pays-blanc"
+      "recheckOtherSecondarySource": "https://www.camping.info/fr/emplacement-de-camping/camping-de-letang-du-pays-blanc",
+      "recheckTariffSource": "https://www.guerande-camping.com/emplacements-camping/",
+      "recheckSeasonSource": "https://www.guerande-camping.com/"
     },
     {
       "sourceId": "CCF44-MESQUER-PETIT-BOIS-2026",
@@ -3252,12 +3255,14 @@
       "finding": "Contrôle lot 116 : montant officiel de 186 € affiché pour un séjour de 7 nuits du 02 au 09/04/2027, emplacement avec sanitaire privé, après remise Early Booking de 5 % (196 € avant réduction). Forfait de base annoncé pour 2 personnes avec électricité ; camping-car accepté. Point d'eau sur parcelle, inclusion tarifaire non explicitée. Classement : total de séjour promotionnel, pas tarif par nuit ; prix 2026 et base annuelle 2027 restent non confirmés. Deux pages officielles indiquent une fin de saison différente : 12/09 sur la page principale, 19/09 sur la fiche emplacement. Taxe de séjour supplémentaire selon CGV, montant 2027 à vérifier. Frais de dossier et préférence d'emplacement offerts dès 7 nuits selon l'offre.",
       "nextCheck": "Vérifier le récapitulatif final du séjour 02–09/04 : montant 186 €, deux adultes, électricité, eau et éventuels frais d'eau, taxe de séjour 2027 et frais de dossier/préférence d'emplacement offerts. Demander à l'exploitant de résoudre l'écart de fermeture (12 ou 19/09/2027) et de confirmer la disponibilité du 13 au 19 septembre. Ne jamais convertir le total en tarif par nuit ; obtenir une grille de base si un tarif annuel est requis.",
       "source": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : l’offre officielle reste 186 € au total pour 7 nuits (02–09/04/2027), après remise 5 %; pas un prix/nuit. Taxe et montant final à vérifier. Fermeture contradictoire 12/09 vs 19/09.",
-      "recheckNextCheck": "Vérifier récapitulatif final et date de fermeture; ne pas publier 186 € comme nuitée.",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 185,
+      "recheckFinding": "Lot 185 (05/11/2026) : le moteur/page officiels affiche pour l’emplacement avec sanitaire privé, du 02 au 09/04/2027 (7 nuits), un total de séjour de 186 € après remise de 5 %, prix de référence barré 196 €. C’est un total pour les dates sélectionnées, pas un prix par nuit ni une grille; occupants et inclusion camping-car non visibles dans le résultat, taxe et récapitulatif final non vérifiés. L’offre 2027 prévoit -5 % sur 7 nuits minimum pour les emplacements avec sanitaires privés du 02/04 au 19/09/2027, frais de dossier et préférence d’emplacement offerts, jusqu’au 31/12/2026, non cumulable. Le site présente une incohérence de fermeture: certaines pages indiquent le 12/09, d’autres le 19/09/2027. Aucun tarif standard par nuit 2027 confirmé.",
+      "recheckNextCheck": "Au panier final, confirmer le nombre d’occupants, l’accueil du camping-car, la composition de l’emplacement avec sanitaire privé, taxe et frais. Garder 186 € (02–09/04, 7 nuits, après promo) comme total de séjour seulement, sans division par nuit. Faire clarifier la date de fin de saison entre 12 et 19 septembre.",
       "recheckSource": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/",
-      "recheckConditionsSource": "https://www.sunelia.com/fr/conditions-generales-de-ventes/"
+      "recheckConditionsSource": "https://www.sunelia.com/fr/conditions-generales-de-ventes/",
+      "recheckTariffSource": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/",
+      "recheckBookingSource": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/"
     },
     {
       "sourceId": "CCF44-TURBALLE-CAMPING-LA-FALAISE-2026",
