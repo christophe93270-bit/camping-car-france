@@ -1081,3 +1081,12 @@ Sources :
 
 [Rapport groupé du lot 180](AUDIT-44-2027-LOT180.md).
 
+## Lot 181 — trois fiches existantes, 5 novembre 2026
+
+- **Camping municipal La Rabine, Machecoul-Saint-Même :** pas de barème municipal 2027 trouvé. CampingFrance affiche un forfait secondaire 2026 de 19 €/jour (2 adultes inclus), suppléments séparés : adulte 5,50 €, enfant 3,50 €, électricité 4,50 €, animal 2 €/jour.
+- **Camping Paradis Les Rochelets, Saint-Brevin-les-Pins :** la page opérateur confirme les emplacements (80 m² minimum, début mai–fin septembre), sans prix. Le contrat consulté est daté 2025 : taxe adulte 0,66 €/nuit et écoparticipation 0,40 €/personne/nuit, hors prix; acompte 30 %. Ne pas reconduire en 2027.
+- **Camping Le Port Chéri, Pornic :** le site affiche dès 20 €/jour sans millésime; CampingFrance affiche 26,50 €/jour au tarif 2026, sans catégories/inclusions réconciliées. La page officielle indique électricité 10 A, ouverture des emplacements du 1er avril au 30 novembre; acompte et caution badge distincts. Pas de tarif 2027 confirmé.
+- Fiches existantes uniquement; aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 181](AUDIT-44-2027-LOT181.md).
+
