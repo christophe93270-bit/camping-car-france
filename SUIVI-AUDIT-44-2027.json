@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 174 (05/11/2026), le Camping Le Soleya confirme sa réouverture le 30/04/2027 et l’ouverture des réservations fin novembre, mais aucune grille ou devis 2027 n’est publié. La grille officielle trouvée reste 2026 (18–45 €/nuit standard; 44–73 € avec sanitaires privés; électricité et taxe à distinguer). Contradiction à vérifier sur la durée minimale (2 nuits en basse saison/7 en été contre une mention d’une nuit). Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 184 (05/11/2026), trois campings existants vérifiés. Slow Village Pornic a ouvert les réservations estivales 2027; description 100 m², Wi-Fi, électricité jusqu’à 10 A et sanitaires communs inclus, mais aucun prix 2027 vérifié. Sandaya Le Fief confirme sa saison 02/04–07/11/2027, mais réservation des emplacements encore annoncée prochainement. Les Chênes Verts maintient une saison 02/04–12/09/2027 et une tarification dynamique sans prix public exploitable. Aucun tarif complet 2027 confirmé; aucun changement à aires-pdl.json, aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -2825,11 +2825,11 @@
       "finding": "Nouvelle lecture de la page de référence le 3 novembre : Saison du 2 avril au 12 septembre 2027 ; prix des emplacements à confirmer.. L'exploitant annonce une tarification dynamique : demander un devis daté pour un camping-car et deux adultes. La page emplacements distingue l'option avec électricité ; son inclusion n'est pas garantie pour toutes les formules. Vérifier taxe, électricité, frais de réservation, minimum de séjour et suppléments. Le lien nommé CGV renvoie au règlement intérieur 2024 : obtenir les conditions de réservation 2027. Aucun prix ne doit être présenté comme forfait complet confirmé.",
       "nextCheck": "Confirmer auprès de l’exploitant les dates 2027 et un devis camping-car (forfait, électricité, taxe, frais et minimum de séjour).",
       "source": "https://www.leschenesverts.info/hebergement/emplacement/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 161,
-      "recheckFinding": "L’exploitant annonce une saison 2027 du 02/04 au 12/09 et une tarification dynamique. La page d’emplacements ne publie pas de forfait camping-car 2027 exploitable; tarif reste Non confirmé.",
-      "recheckNextCheck": "Obtenir devis daté camping-car + 2 adultes; séparer électricité, taxe, frais et minimum de séjour.",
-      "recheckSource": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/bourgneuf_en_retz/camping_les_chenes_verts/",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 184,
+      "recheckFinding": "Lot 184 (05/11/2026) : la page officielle conserve la saison annoncée du 02/04 au 12/09/2027 et une tarification dynamique; aucun forfait public ni prix final daté 2027 camping-car n’est affiché dans la page emplacements. Le contenu distingue les parcelles avec électricité, dont l’inclusion varie selon la formule. Le moteur doit fournir un devis selon dates et occupants; taxe, frais et minimum de séjour demeurent à vérifier. Aucun tarif 2027 complet confirmé.",
+      "recheckNextCheck": "Obtenir un devis officiel daté 2027 pour camping-car et deux adultes; confirmer quelle formule inclut l’électricité, les frais, taxe, suppléments et minimum de séjour. Ne pas reprendre de prix tiers ou historiques comme tarif 2027.",
+      "recheckSource": "https://www.leschenesverts.info/hebergement/emplacement/",
       "recheckTariffSource": "https://www.leschenesverts.info/hebergement/emplacement/"
     },
     {
@@ -2856,11 +2856,12 @@
       "finding": "Nouvelle lecture de la page de référence le 3 novembre : Camping actuellement fermé ; réouverture et réservations 2027 non confirmées.. L'exploitant annonce une fermeture après l'incendie du 10 juillet 2026 et la suspension des réservations en ligne. La réouverture partielle en avril 2027 évoquée sur d'anciennes pages reste un objectif, sans calendrier confirmé. Vérifier la réouverture effective des emplacements camping-car, les services disponibles et le devis avant tout séjour. Les anciens prix ne prouvent pas une disponibilité. Aucun prix ne doit être présenté comme forfait complet confirmé.",
       "nextCheck": "Confirmer auprès de l’exploitant les dates 2027 et un devis camping-car (forfait, électricité, taxe, frais et minimum de séjour).",
       "source": "https://mirabel-renaudiere.com/faq-camping-bretagne",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 161,
-      "recheckFinding": "L’exploitant confirme la fermeture après l’incendie du 10/07/2026 et la suspension des réservations. L’objectif de réouverture partielle en 2027 n’est toujours pas une date confirmée; le tarif 21–48 € reste historique 2026.",
-      "recheckNextCheck": "Recontrôler fermeture, date de réouverture et tarifs avant tout affichage 2027.",
-      "recheckTariffSource": "https://mirabel-renaudiere.com/"
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 184,
+      "recheckFinding": "Lot 184 (05/11/2026) : la page officielle Slow Village Pornic annonce que les réservations estivales 2027 sont ouvertes pour l’emplacement véhicules loisirs. La fiche décrit une parcelle de 100 m² avec Wi-Fi, électricité jusqu’à 10 A et sanitaires communs inclus; animal en option. Le formulaire demande des dates et voyageurs, mais aucun prix 2027 fixe ni devis camping-car daté n’a pu être vérifié dans la page consultée. Aucun tarif complet 2027 confirmé.",
+      "recheckNextCheck": "Obtenir un devis daté 2027 pour camping-car et deux adultes; confirmer montant final, taxe, frais, option animal et éventuel minimum de séjour. Garder distincts les services inclus (Wi-Fi, 10 A, sanitaires).",
+      "recheckTariffSource": "https://www.slow-village.com/hebergements/emplacement-vehicules-loisirs/",
+      "recheckSource": "https://www.slow-village.com/hebergements/emplacement-vehicules-loisirs/"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000118",
