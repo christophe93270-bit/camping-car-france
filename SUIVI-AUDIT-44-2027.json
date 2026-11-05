@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 190 (05/11/2026), trois campings Assérac/Saint-Molf. L’Île de Kernodet : tarifs officiels 19–35 €/nuit et frais/taxes retrouvés explicitement pour 2026, aucun tarif 2027. Pont-Mahé : saison et grille visibles toujours 2026/2025; Campings.com signale seulement une ouverture prochaine des ventes 2027. Les Prairies de l’Étang : page régionale tarifs 2026 sans montant; le repère tiers 42 € concerne caravane 2026, pas camping-car 2027. Aucun tarif complet opérateur 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 191 (05/11/2026), trois campings existants. Fleur de Brière: source touristique, pas opérateur, montre 11–14 €/nuit camping-car + électricité seulement pour 2026; forfait tente/caravane distinct. Ferme d’Isson: prix camping-car officiel 15,20 €/nuit (2 personnes, électricité et taxe comprises), réservation 3 nuits minimum, saison 2026 uniquement. Les Bleuets: page tarifaire 2026; forfait tente/caravane 20–36 €, 10A et taxe en sus, sans grille camping-car 2027 distincte. Aucun tarif 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -388,12 +388,13 @@
       "finding": "Prix d’appel sans millésime 2027 ; source touristique encore 2026.",
       "nextCheck": "Grille camping-car 2027, électricité, taxe et frais.",
       "source": "https://www.campingfleurdebriere.com/fr/hebergements",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 165,
-      "recheckFinding": "Lot 165 (04/11/2026) : L’office de tourisme indique 11–14 €/nuit pour camping-car avec électricité sur saison 14/03–15/11/2026. Le site affiche séparément 13 €/nuit à partir pour tente/caravane, 1–4 personnes et voiture. Aucun prix camping-car 2027.",
-      "recheckNextCheck": "Obtenir le barème camping-car 2027 et garder offre tente/caravane et borne sans nuitée séparées.",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 191,
+      "recheckFinding": "Lot 191 (05/11/2026) : le site de l’opérateur ne publie pas de grille 2027. La source touristique locale affiche pour 2026 une saison du 14/03 au 15/11 et 11–14 €/nuit pour emplacement camping-car + électricité; elle affiche séparément 13–22 €/nuit pour emplacement 2 personnes + voiture + électricité, qui ne doit pas être confondu avec le forfait camping-car. Aucun prix camping-car 2027 confirmé.",
+      "recheckNextCheck": "Obtenir de l’opérateur le forfait camping-car 2027, dates et composition (personnes, véhicule, ampérage, taxe et suppléments). Garder les montants 2026 et les catégories séparés.",
       "recheckTariffSource": "https://www.campingfleurdebriere.com/fr/hebergements",
-      "recheckHomeSource": "https://www.campingfleurdebriere.com/fr"
+      "recheckHomeSource": "https://www.campingfleurdebriere.com/fr",
+      "recheckSecondarySource": "https://www.labaule-guerande.com/offres/camping-fleur-de-briere-saint-lyphard-fr-6011358/"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000155",
@@ -456,10 +457,10 @@
       "finding": "Site encore orienté 2026 ; aucune grille 2027 recoupée.",
       "nextCheck": "Ouverture, forfait camping-car 2027, taxe et services.",
       "source": "https://www.camping-lafermedisson.com/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 165,
-      "recheckFinding": "Lot 165 (04/11/2026) : Correction de classement : la page officielle précise SAISON 2026. Forfait camping-car 15,20 €/nuit pour 1 camping-car + 2 personnes + électricité + taxe (0,22 €/nuit/adulte), sur réservation et 3 nuits minimum. Tarif 2026, non 2027.",
-      "recheckNextCheck": "Ne pas reconduire en 2027; attendre la nouvelle grille et confirmer le maintien du minimum et des inclusions.",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 191,
+      "recheckFinding": "Lot 191 (05/11/2026) : la page officielle confirme que la grille affichée est explicitement SAISON 2026. Forfait camping-car à 15,20 €/nuit comprenant un camping-car, 2 personnes, électricité et taxe de séjour; sur réservation avec 3 nuits minimum. La page détaille aussi les postes séparés mais ce forfait est le montant camping-car le plus clair. Aucun tarif 2027 ou calendrier de saison 2027 publié.",
+      "recheckNextCheck": "Demander le forfait et les dates d’ouverture 2027; confirmer le maintien de 15,20 €, la durée minimale de 3 nuits et les inclusions/suppléments. Ne pas reconduire le tarif 2026.",
       "recheckTariffSource": "https://www.camping-lafermedisson.com/",
       "recheckConditionsSource": "https://www.camping-lafermedisson.com/nous-contacter"
     },
@@ -2681,11 +2682,12 @@
       "finding": "Exploitant publie tarifs explicites d’emplacement 2026 pour tente/caravane et taxe, mais ces lignes ne fixent pas le forfait camping-car. La page confirme les services camping-car.",
       "nextCheck": "Obtenir forfait camping-car 2027, périodes, taxe, électricité et prix après la première nuit ; exclure le tarif cycliste.",
       "source": "https://www.campinglesbleuets.com/emplacement-camping-car-pornic",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 160,
-      "recheckFinding": "La page emplacements affiche Tarifs 2026; la page camping-car décrit les services de vidange, mais aucun prix standard camping-car 2027 n’est publié. L’offre FFCC « à partir de 9 € » reste conditionnelle et non confirmée pour 2027.",
-      "recheckNextCheck": "Vérifier tarif standard 2027, promotion, nuits suivantes, taxe, électricité et accès aux services hors séjour.",
-      "recheckTariffSource": "https://www.campinglesbleuets.com/emplacements-camping-pornic"
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 191,
+      "recheckFinding": "Lot 191 (05/11/2026) : la page opérateur affiche toujours « Tarifs Emplacements 2026 ». La grille indique 20–36 €/nuit pour 2 personnes + emplacement + tente ou caravane + véhicule selon périodes; branchement 10 A à 6,20 €/nuit et taxe 0,22 €/adulte de 18 ans et plus en supplément. La page camping-car décrit l’aire de vidange mais ne donne pas de forfait 2027 spécifique; la grille citée ne décrit pas explicitement la catégorie camping-car. L’offre FFCC « à partir de 9 € » reste conditionnelle et son périmètre 2027 n’est pas confirmé. Aucun tarif camping-car 2027 confirmé.",
+      "recheckNextCheck": "Obtenir le prix officiel 2027 propre au camping-car et vérifier la composition du forfait, ampérage, taxe, frais et suppléments; préciser les périodes et conditions FFCC. Ne pas attribuer à la catégorie camping-car les tarifs nommés tente/caravane sans confirmation.",
+      "recheckTariffSource": "https://www.campinglesbleuets.com/emplacements-camping-pornic",
+      "recheckPitchSource": "https://www.campinglesbleuets.com/emplacement-camping-car-pornic"
     },
     {
       "sourceId": "CCF44-LA-BAULE-EDEN-2026",
