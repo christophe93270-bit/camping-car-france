@@ -1090,3 +1090,12 @@ Sources :
 
 [Rapport groupé du lot 181](AUDIT-44-2027-LOT181.md).
 
+## Lot 182 — trois fiches existantes, 5 novembre 2026
+
+- **Le Bernier, La Plaine-sur-Mer :** ouverture 03/04–04/10/2026; l’opérateur donne accès aux tarifs 2026 dans le moteur, pas de grille 2027 trouvée. Offre couple à 294 €/semaine hors saison (7 nuits min., 2 personnes max.) et une nuit offerte dès 7 nuits : offres de séjour, pas tarif standard par nuit; application aux emplacements à vérifier.
+- **La Fontaine, Guérande :** l’opérateur décrit des emplacements pour camping-cars, sans prix ni calendrier 2027. Les pages indiquent deux calendriers campeurs différents (14 avril–15 octobre et ouverture à compter du 18 avril 2026).
+- **Camping de la Forêt, Le Gâvre :** la fiche régionale confirme 10 emplacements camping-car, sans tarif; capacité contradictoire (75 en description, 73 au tableau). Le lien vers le site opérateur renvoie une erreur 503; le repère tiers 16,56 € reste non millésimé.
+- Fiches existantes uniquement; aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 182](AUDIT-44-2027-LOT182.md).
+
