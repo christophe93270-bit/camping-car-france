@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 170 (05/11/2026), recontrôle ciblé du Yelloh! Village Le Ranch après ouverture des réservations 2027 le 04/11. Calendrier 30/04–12/09, haute saison 03/07–27/08; catégories d’emplacements précisées et seule la parcelle 130 m²+ explicitement équipée 10 A/eau/évacuation. Aucune grille de prix 2027 consultée; remise long séjour séparée et non millésimée. Aucun changement à aires-pdl.json, aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 171 (05/11/2026), recontrôle de La Boutinardière après ouverture des réservations 2027 le 03/11. 210 € affichés pour 7 nuits en avril restent un total partiel sans composition ni total final; grille statique encore 2026. Aucun tarif unitaire 2027 complet. Aucun changement à aires-pdl.json, aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -3118,14 +3118,18 @@
       "finding": "Contrôle lot 121 : moteur de réservation officiel, filtre « Emplacement camping », 7 nuits et capacité « 2 et + », à partir de 210 € pour les départs du 16 et du 23 avril 2027. Le montant est un total de séjour partiel ; inclusion de deux personnes, catégorie forfait, électricité, taxe, frais et total final non établis. La page tarifaire fixe reste libellée 2026.",
       "nextCheck": "Relever le détail du panier pour un séjour d'avril et un séjour haute saison : catégorie de forfait, nombre de personnes incluses, électricité, taxe de séjour, frais et total final. Vérifier aussi les règles de durée et jours d'arrivée 2027 et les dates de fermeture. Ne pas convertir 210 € en prix par nuit.",
       "source": "https://www.camping-boutinardiere.com/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : réservations 2027 ouvertes depuis le 03/11; ouverture du camping annoncée le 02/04. « À partir de 210 € » pour 7 nuits en avril est un total séjour incomplet, pas un prix par nuit. La grille statique reste 2026.",
-      "recheckNextCheck": "Contrôler le panier complet (occupants, options, taxe et frais); conserver 210 € comme total indicatif 7 nuits.",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 171,
+      "recheckFinding": "Lot 171 (05/11/2026) : réservations 2027 ouvertes le 03/11; le site officiel annonce l’ouverture du camping à partir du 02/04/2027. Le moteur affiche « à partir de 210 € » pour 7 nuits avec départs les 16 et 23/04/2027 : total indicatif de séjour, non un prix par nuit; composition et total final non documentés. La page tarifaire statique reste « Tarifs général 2026 ». Emplacements 10 A; FAQ six personnes maximum par parcelle, sans préciser les occupants inclus dans l’offre 2027. Aucun tarif unitaire 2027 complet ni total final vérifié.",
+      "recheckNextCheck": "Relever le détail du panier 2027 : dates, nombre de personnes, forfait, électricité, taxe, frais, suppléments et total final. Vérifier jours d’arrivée autorisés et conditions. Garder 210 € comme total partiel pour 7 nuits; ne pas reconduire la grille 2026 ni convertir le total en prix par nuit.",
       "recheckSource": "https://www.camping-boutinardiere.com/tarif-general.html",
       "secondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/la-boutinardiere",
       "recheckConditionsSource": "https://www.camping-boutinardiere.com/emplacements-camping-pornic.html",
-      "recheckSecondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/la-boutinardiere"
+      "recheckSecondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/la-boutinardiere",
+      "recheckHomepageSource": "https://www.camping-boutinardiere.com/",
+      "recheckTariffSource": "https://www.camping-boutinardiere.com/tarif-general.html",
+      "recheckFaqSource": "https://www.camping-boutinardiere.com/foire-au-questions.html",
+      "recheckReservationSource": "https://thelisresa.webcamp.fr/?begin=2027-04-02&camping=bouti44&chosenSite=1567&lang=fr&track=bouti44"
     },
     {
       "sourceId": "CCF44-THARON-VIEUX-CHATEAU-2026",
