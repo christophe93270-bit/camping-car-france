@@ -1158,3 +1158,13 @@ Sources :
 - Aucun tarif 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 188](AUDIT-44-2027-LOT188.md).
+
+
+## Lot 189 — trois fiches existantes, 5 novembre 2026
+
+- **Camping de l’Hermitage, Guémené-Penfao :** prix d’appel officiel « dès 16 €/nuit », sans année ni composition; emplacements 16 A et ACSI accepté en basse saison. Pas de tarif 2027 daté.
+- **L’Hermitage des Dunes, Les Moutiers-en-Retz :** saison affichée 2026; dernière grille officielle trouvée 2022 (18/24/30/36 €/nuit, véhicule et électricité compris). Offres ACSI tierces à 17/19 € non réconciliées et non confirmées pour 2027.
+- **Le Relais des Garennes, Montbert :** forfait officiel camping-car + 2 personnes + électricité à 17 €/nuit sans année; CampingFrance affiche 4 €/jour par poste 2027, dont l’addition pour deux adultes donne 16 €. Composition et maintien du forfait à confirmer pour 2027.
+- Aucun tarif complet opérateur 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 189](AUDIT-44-2027-LOT189.md).
