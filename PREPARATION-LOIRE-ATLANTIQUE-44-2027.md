@@ -1099,3 +1099,12 @@ Sources :
 
 [Rapport groupé du lot 182](AUDIT-44-2027-LOT182.md).
 
+## Lot 183 — trois fiches existantes, 5 novembre 2026
+
+- **Domaine de Léveno, Guérande :** réservations 2027 ouvertes depuis le 04/11; moteur en temps réel sans prix extractible. Forfait standard/premium : 1–2 personnes + véhicule, eau et 10 A inclus; supplément personne 5–15 €/nuit. ACSI 25 € conditionnel et non millésimé, ne pas le traiter comme prix public 2027. Minimum 7 nuits et jours d’arrivée limités en juillet-août.
+- **La Roseraie, La Baule :** aucun tarif 2027 en ligne (grille annoncée « non web »). Emplacement 10 A; eau/évacuation en supplément sur une partie des parcelles. Minimum 7 nuits en juillet-août. Frais dossier affichés 30 € en été, sans millésime clair.
+- **Les Chalands Fleuris, Saint-André-des-Eaux :** saison 03/04–19/09/2027; Forfait A (2 adultes + véhicule, sans électricité) et B (2 adultes + véhicule + électricité), sans prix de base publié. Frais de dossier offerts avant le 03/07 et à partir du 28/08/2027. Taxe 0,52 €/adulte/jour sans année claire. Préventes au tarif 2026 et remise jusqu’à 30 % exclues des emplacements par les conditions de l’offre; ne pas les appliquer aux parcelles.
+- Fiches existantes uniquement; aucun lieu ajouté ni contact envoyé. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 183](AUDIT-44-2027-LOT183.md).
+
