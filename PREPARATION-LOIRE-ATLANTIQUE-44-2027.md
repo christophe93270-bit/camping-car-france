@@ -1023,3 +1023,16 @@ Sources :
 - https://www.yellohvillage.fr/footer/infos_pratiques/cgv
 
 [Rapport lot 175](AUDIT-44-2027-LOT175.md).
+
+
+## Lot 176 — Camping La Boutinardière, Pornic, 5 novembre 2026
+
+- Recontrôle du moteur officiel pour le 16–23 avril 2027 : « À partir de 210,00 € » pour 7 nuits, catégorie Emplacement camping de 80 à 110 m², jusqu’à 6 personnes; animaux autorisés.
+- Le récapitulatif final, les occupants inclus, l’électricité, les taxes et frais ne sont pas visibles. Le filtre capacité revient à « 1 et + » : ne pas classer 210 € comme un devis confirmé pour deux personnes. Garder ce total indicatif séparé d’un tarif par nuit.
+- Fiche existante uniquement. Aucun changement à `aires-pdl.json`, aucun contact envoyé. Compteurs inchangés : **215 / 187 / 28**.
+
+Sources :
+- https://thelisresa.webcamp.fr/?begin=2027-04-02&camping=bouti44&chosenSite=1567&lang=fr&track=bouti44
+- https://www.camping-boutinardiere.com/emplacements-camping-pornic.html
+
+[Rapport lot 176](AUDIT-44-2027-LOT176.md).
