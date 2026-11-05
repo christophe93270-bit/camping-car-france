@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 187 (05/11/2026), trois campings existants. Les Brillas: emplacements 16 A confirmés, tarif disponible au moteur selon dates mais aucun devis officiel 2027 obtenu; repères 2026 et Pitchup à 21,42 € à garder distincts. La Prée: l’opérateur affiche encore une grille 2026; CampingFrance affiche 32 €/jour sous rubrique 2027 sans période, montant identique à une période 2026, non confirmé opérateur. La Pointe Saint-Gildas: saison régionale encore 2026; prix hebdomadaires tiers sans date/millésime, pas de tarif 2027. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 188 (05/11/2026), trois campings du secteur Mesquer–Piriac–Le Croisic. GCU Mesquer n’a qu’une brochure 2026 et prix d’appel sans millésime; Amis de la Nature publie toujours ses tarifs/saison 2026 (23,10 € calculés hors taxe pour 2 adultes, véhicule, emplacement et électricité); La Pierre Longue reste affichée en saison 2026, sans prix 2027. Aucun tarif 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -141,14 +141,16 @@
       "finding": "Calendrier 2026 et brochure tarifaire 2026.",
       "nextCheck": "Barème associatif 2027, adhésion, personnes et électricité.",
       "source": "https://www.gcu.asso.fr/campings/camping-mesquer/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 165,
-      "recheckFinding": "Lot 165 (04/11/2026) : Le site affiche toujours 14,45 €/nuit « très basse saison » et une ouverture 03/04–01/11/2026. La grille officielle liée est 2026; le prix d’appel n’a pas de millésime explicite.",
-      "recheckNextCheck": "Obtenir le barème 2027; confirmer dates, statut adhérent, électricité, taxe et frais.",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 188,
+      "recheckFinding": "Lot 188 (05/11/2026) : la page officielle affiche toujours une ouverture du 03/04 au 01/11/2026 et « à partir de 14,45 €/nuit » en très basse saison, sans millésime propre à ce prix. La brochure officielle disponible est la grille 2026; aucun barème 2027 ni devis camping-car daté 2027 trouvé. La page mentionne 77 emplacements tandis que le plan officiel 2026 indique une capacité totale de 84; cet écart n’affecte pas le tarif mais reste une incohérence de capacité.",
+      "recheckNextCheck": "Attendre la brochure tarifaire GCU 2027; confirmer tarif adhérent/non-adhérent, personnes, électricité, taxe et saison. Ne pas reprendre 14,45 € comme prix 2027 sans millésime.",
       "recheckOfficialSource": "https://www.gcu.asso.fr/campings/camping-mesquer/",
-      "recheckTariffSource": "https://www.gcu.asso.fr/wp-content/uploads/2026/04/Brochure-tarifs-2026-WEB.pdf",
+      "recheckTariffSource": "https://www.gcu.asso.fr/campings/camping-mesquer/",
       "recheckMembershipSource": "https://www.gcu.asso.fr/devenir-adherent/",
-      "recheckBrochurePageSource": "https://www.gcu.asso.fr/brochure-tarifaire/"
+      "recheckBrochurePageSource": "https://www.gcu.asso.fr/brochure-tarifaire/",
+      "recheckTariffGridSource": "https://www.gcu.asso.fr/wp-content/uploads/2026/04/Brochure-tarifs-2026-WEB.pdf",
+      "recheckPlanSource": "https://www.gcu.asso.fr/wp-content/uploads/2026/02/PLAN_Mesquer.pdf"
     },
     {
       "sourceId": "CCF44-MESQUER-CAMPING-BEAUPRE-2026",
@@ -180,10 +182,10 @@
       "finding": "La fiche officielle annonce pour 2026 une ouverture du 29/06 au 06/09, 97 emplacements nus et l’accueil des adhérents comme des non-adhérents; la grille tarifaire précise qu’un camping-car jusqu’à 6,80 m est accepté. Les tarifs officiels 2026 sont à la nuitée : adulte >10 ans 5,90 €, enfant <10 ans 2,90 €, emplacement nu 4,90 €, véhicule 2,90 €, moto 2,40 €, électricité 3,50 €, taxe de séjour 0,22 €/adulte à partir de 18 ans, visiteur adulte 1,50 €, garage mort 17,40 €. Pour deux adultes majeurs + un camping-car/ véhicule + emplacement + électricité, le calcul des composantes donne 23,10 €/nuit hors taxe, soit 23,54 € avec deux taxes 2026 de 0,22 €; le tarif régional de 23,10 € hors taxe recoupe ce calcul. La page de tarifs ne sépare pas les lignes adhérent/non-adhérent. Le bulletin d’adhésion 2026 affiche 25 € adulte, 15 € jeune 16–21 ans, 5 € enfant 6–15 ans et 1 € enfant -6 ans; cette cotisation annuelle est à distinguer des nuitées. Le formulaire adhérent demande une cotisation à jour et une participation aux tâches; si le membre refuse cette participation, le tarif non-AN s’applique. Le formulaire non-adhérent (lié à la page 2026) demande 30 € d’arrhes par emplacement, avec remboursement si annulation au moins 8 jours avant, et indique aussi un acompte de 25 % du séjour à l’arrivée; l’articulation entre ces deux sommes mérite clarification. Aucun tarif, calendrier ni cotisation 2027 retrouvé. Un résultat PitchPlace avec des forfaits 14–16 € correspond à un autre camping homonyme à Luttenbach-près-Munster (Haut-Rhin), pas à Piriac; ne pas l’utiliser.",
       "nextCheck": "Obtenir la grille 2027, les dates d’ouverture, cotisations d’adhésion et modalités de réservation. Faire préciser si le tarif 2027 varie entre adhérent et non-adhérent, à qui s’applique la grille 2026 itemisée/23,10 €, le montant 2027 de taxe de séjour et les inclusions/suppléments pour camping-car jusqu’à 6,80 m et électricité. Clarifier le formulaire non-adhérent : portée des 30 € d’arrhes (remboursables sous condition d’avis à ≥8 jours), des 25 % de séjour demandés à l’arrivée, et leur éventuel cumul; confirmer que ces modalités sont reconduites en 2027. Ne pas inclure la cotisation annuelle dans la nuitée; garder séparé le tarif de visiteur et le garage mort. Exclure les tarifs PitchPlace 14–16 €, qui concernent un homonyme dans le Haut-Rhin.",
       "source": "https://campinglesamisdelanaturepiriac.fr/tarifs-reservations-avis/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 165,
-      "recheckFinding": "Lot 165 (04/11/2026) : Le PDF/site reste intitulé Tarifs 2026; 23,10 €/nuit hors taxe pour 2 adultes, véhicule, emplacement et électricité d’après l’addition des postes. Aucun barème 2027.",
-      "recheckNextCheck": "Obtenir calendrier et grille 2027; maintenir cotisation annuelle, arrhes/acompte et nuitée séparés.",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 188,
+      "recheckFinding": "Lot 188 (05/11/2026) : le site officiel affiche toujours « Tarifs 2026 » et une ouverture du 29/06 au 06/09/2026; aucune grille 2027 ou ouverture 2027 publiée. Pour une nuit, deux adultes, emplacement nu, véhicule camping-car jusqu’à 6,80 m et électricité, les postes 2026 donnent 23,10 € hors taxe (adultes 2 × 5,90 €, emplacement 4,90 €, véhicule 2,90 €, électricité 3,50 €); taxe de séjour 0,22 €/adulte de 18 ans et plus, soit +0,44 € si deux adultes concernés. Le total illustratif 2026 serait 23,54 €, à conserver comme historique, pas comme prix 2027.",
+      "recheckNextCheck": "Vérifier l’annonce de saison et le tarif 2027 lors de leur publication; reconfirmer le forfait camping-car jusqu’à 6,80 m, les horaires d’accès, taxe et éventuels suppléments. Garder 23,10 € hors taxe et 23,54 € avec deux taxes adultes comme calculs historiques 2026 uniquement.",
       "recheckTariffSource": "https://campinglesamisdelanaturepiriac.fr/tarifs-reservations-avis/",
       "recheckSeasonSource": "https://campinglesamisdelanaturepiriac.fr/",
       "recheckMemberReservationSource": "https://campinglesamisdelanaturepiriac.fr/wp-content/uploads/2026/02/DEMANDE-RESERVATION-AN1.pdf",
@@ -291,12 +293,13 @@
       "finding": "Accueil opérateur ouvert du 3 avril au 1er novembre 2026.",
       "nextCheck": "Grille et calendrier 2027 ; distinguer séjour et vidange seule.",
       "source": "https://www.campinglapierrelongue.com/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 165,
-      "recheckFinding": "Lot 165 (04/11/2026) : Page d’emplacements toujours sans prix ou calendrier 2027; dernière période identifiable 03/04–01/11/2026.",
-      "recheckNextCheck": "Obtenir saison et tarif opérateur 2027.",
+      "recheckedAt": "2026-11-05",
+      "recheckLot": 188,
+      "recheckFinding": "Lot 188 (05/11/2026) : la page officielle affiche encore l’ouverture du 03/04 au 01/11/2026; la page emplacements confirme camping-cars acceptés, parcelles de 80–150 m² jusqu’à 6 personnes, prises 10 A et aire de vidange/eau. Aucun tarif public, calendrier ni devis opérateur 2027 trouvé. Aucun prix par nuit 2027 confirmé.",
+      "recheckNextCheck": "Recontrôler après publication du calendrier et des tarifs 2027; obtenir un devis daté pour camping-car et deux personnes, incluant 10 A, taxe, suppléments et frais. Ne pas prolonger le calendrier 2026.",
       "recheckSeasonSource": "https://www.campinglapierrelongue.com/",
-      "recheckPitchSource": "https://www.campinglapierrelongue.com/emplacements.htm"
+      "recheckPitchSource": "https://www.campinglapierrelongue.com/emplacements.htm",
+      "recheckTariffSource": "https://www.campinglapierrelongue.com/emplacements.htm"
     },
     {
       "sourceId": "CCF44-CROISIC-CAMPING-OCEAN-2026",
