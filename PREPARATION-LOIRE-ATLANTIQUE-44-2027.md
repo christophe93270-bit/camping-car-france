@@ -1269,3 +1269,11 @@ Sources :
 - Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 200](AUDIT-44-2027-LOT200.md).
+
+## Lot 201 — 6 novembre 2026
+
+- **Le Cléin et Les Mouettes, Le Pouliguen :** la décision municipale fixe les tarifs 2026 à 18,95/20,70/27,30 € par nuit pour deux personnes, emplacement, véhicule et 6 A, selon saison; taxe 0,22 €/personne/nuit en sus. Supplément 10 A au Cléin : 0,95 €. Aucun tarif 2027 publié.
+- **Camping du Golf, Pornic :** grille officielle explicitement 2026, forfait deux personnes 19/24/32/36/38 € selon période; électricité 6 A +5 €, taxes séjour/déchets séparées et frais de gestion de 25 € dès cinq nuits. Aucun devis 2027 confirmé.
+- Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 201](AUDIT-44-2027-LOT201.md).
