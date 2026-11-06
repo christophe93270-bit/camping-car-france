@@ -1251,3 +1251,12 @@ Sources :
 - Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 198](AUDIT-44-2027-LOT198.md).
+
+## Lot 199 — 6 novembre 2026
+
+- **Clos Mer et Nature, Saint-Michel-Chef-Chef :** documents officiels consultés millésimés 2026; taxe 0,66 €/adulte/nuit, éco-participation 0,30 €/personne/nuit et frais de dossier distincts; aucun prix 2027.
+- **Le Mindin, Saint-Brevin-les-Pins :** grille officielle 2026 : forfait 2 personnes + véhicule 23,60–42,10 €/nuit selon période, électricité en supplément et taxe séparée. La page camping-car affiche une fourchette sans année; pas de preuve de reconduction 2027.
+- **Port Mulon, Nort-sur-Erdre :** le lien officiel de grille tarifaire renvoie à un PDF inaccessible lors du contrôle; aucune nuitée 2027 vérifiable. Les 3 € précédemment relevés concernent le service eau/vidange.
+- Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 199](AUDIT-44-2027-LOT199.md).
