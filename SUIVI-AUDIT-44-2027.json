@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 197 (05/11/2026), trois campings existants. GCU Mesquer : saison affichée 2026, prix d'appel 14,45 € sans millésime, brochure disponible 2026 seulement. Amis de la Nature Piriac : tarifs et saison explicitement 2026; calcul camping-car 23,10 €/nuit hors taxe selon composantes, sans barème 2027. Pierre Longue : saison 2026 et caractéristiques d'emplacements confirmées, sans prix/calendrier 2027 publié. Aucun tarif complet 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 198 (06/11/2026), trois campings existants. Bréhadour : tarifs d'emplacements et promo visibles mais sans millésime/validité; prix/taxe non confirmés 2027. Les Forges : page de tarifs sans montants, brochure générale; 10 A et frais/durée minimale à distinguer, aucun tarif 2027. La Cale Sauvage : page explicitement tarifs/ouverture 2026, aucun barème 2027; montants de nuitée non lisibles dans la version texte consultée. Aucun tarif 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -265,14 +265,16 @@
       "finding": "Ancienne page halte 11/16 € non millésimée ; offres 2027 de tiers insuffisantes pour valider le camping-car.",
       "nextCheck": "Devis officiel 2027, maintien de la halte et conditions ACSI.",
       "source": "https://www.domainedebrehadour.com/mobile/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 186,
-      "recheckFinding": "Lot 186 (05/11/2026) : les pages officielles donnent toujours des tableaux saisonniers sans année. La page de l’emplacement halte camping-car affiche 11/16/11 €/nuit selon ses périodes, pour 2 personnes, électricité et un véhicule, et une taxe de 0,55 €/adulte de plus de 18 ans/jour. Une autre page officielle affiche pour Access sans électricité 14,10–28,30 €/nuit et une taxe de 0,66 €. Les millésimes, périodes applicables et taxe divergent/ ne sont pas établis; tarifs non confirmés 2027. Ne pas reprendre ces tableaux comme prix 2027.",
-      "recheckNextCheck": "Obtenir la grille datée 2027 pour emplacement Access et halte camping-car; faire préciser périodes, inclusion électricité, composition des forfaits et taxe 2027. Garder les valeurs des pages officielles non millésimées en attente de clarification.",
+      "recheckedAt": "2026-11-06",
+      "recheckLot": 198,
+      "recheckFinding": "Lot 198 (06/11/2026) : la page officielle de l’emplacement halte camping-car continue d’afficher 11/16/11 €/nuit pour 2 personnes, véhicule et électricité, avec taxe de 0,55 €/adulte/jour; aucun millésime n’est indiqué. La page officielle des emplacements Access sans électricité affiche 14,10–28,30 €/nuit et taxe 0,55 €. Une promotion officielle affiche aussi des prix par saison (12,60–23,93 €) et 15–25 % de réduction, mais ni année ni dates de validité; ne pas la considérer comme une grille 2027. Aucun tarif 2027 confirmé.",
+      "recheckNextCheck": "Demander les grilles 2027 datées pour halte et Access (avec/sans électricité); préciser la saison applicable, taxe 2027, périodes de l’offre 15–25 % et composition des forfaits. Ne pas réutiliser les chiffres non millésimés comme tarifs 2027.",
       "recheckTariffSource": "https://www.domainedebrehadour.com/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml",
       "recheckPromotionSource": "https://www.domainedebrehadour.com/camping_guerande_actualites-offres_promo-15-a-25-sur-les-emplacements-de-camping.phtml",
       "recheckStandardPitchSource": "https://www.domainedebrehadour.com/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-access-sans-electricite-100-m2-2-6-personnes.phtml",
-      "recheckSecondarySource": "https://www.domainedebrehadour.com/m/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-access-100-m2-2-6-personnes.phtml"
+      "recheckSecondarySource": "https://www.domainedebrehadour.com/m/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-access-100-m2-2-6-personnes.phtml",
+      "recheckHalteRateSource": "https://www.domainedebrehadour.com/mobile/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml",
+      "recheckStandardRateSource": "https://www.domainedebrehadour.com/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-access-sans-electricite-100-m2-2-6-personnes.phtml"
     },
     {
       "sourceId": "CCF44-PORNICHET-CAMPING-LES-FORGES-2026",
@@ -283,14 +285,17 @@
       "finding": "Page tarifs sans montant 2027 exploitable ; office encore 2026.",
       "nextCheck": "Prix emplacement 2027, services, taxe et frais.",
       "source": "https://campinglesforges.com/81-tarifs.html",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 186,
-      "recheckFinding": "Lot 186 (05/11/2026) : la page opérateur décrit des emplacements et les conditions générales (minimum de nuits, frais de dossier 30 €, ou 60 € si dossier de prise en charge à constituer), mais aucun tarif camping-car 2027 exploitable n’est affiché dans le contenu tarifaire public consulté. Le site touristique confirme l’accueil camping-car et équipements; sa saison publiée reste 2026. Un revendeur indique « saison 2027 bientôt ouverte », sans prix : information secondaire, pas confirmation opérateur. Aucun prix/nuit 2027 confirmé.",
-      "recheckNextCheck": "Recontrôler quand l’opérateur ouvrira la réservation 2027; obtenir un devis daté pour camping-car et deux adultes et séparer forfait, électricité, taxe, frais de dossier et minimum de séjour. Ne pas utiliser les prix secondaires comme tarifs opérateur.",
+      "recheckedAt": "2026-11-06",
+      "recheckLot": 198,
+      "recheckFinding": "Lot 198 (06/11/2026) : la page opérateur de tarifs n’affiche aucun montant d’emplacement. La brochure PDF accessible est une présentation générale et ne fournit pas de grille tarifaire exploitable. Les pages officielles confirment des emplacements camping-car d’environ 100 m² avec électricité 10 A et points d’eau; durée minimale obligatoire, frais de dossier 30 € (ou 60 € si dossier de prise en charge). Aucun calendrier, prix camping-car ou grille opérateur 2027 confirmé.",
+      "recheckNextCheck": "Demander au camping un devis daté 2027 pour 2 adultes/camping-car, avec électricité, taxe, minimum de séjour, frais de dossier et inclusions; séparer frais uniques du prix par nuit.",
       "recheckTariffSource": "https://campinglesforges.com/81-tarifs.html",
-      "recheckPitchSource": "https://campinglesforges.com/64-emplacements/45062-informations-pratiques.html",
+      "recheckPitchSource": "https://campinglesforges.com/64-emplacements/93-emplacements-de-camping-a-pornichet.html",
       "recheckContactSource": "https://campinglesforges.com/19-contact",
-      "recheckSecondarySource": "https://www.campings.com/fr/camping/camping-les-forges-76633"
+      "recheckSecondarySource": "https://www.campings.com/fr/camping/camping-les-forges-76633",
+      "recheckTariffPageSource": "https://campinglesforges.com/81-tarifs.html",
+      "recheckPitchConditionsSource": "https://campinglesforges.com/64-emplacements/45062-informations-pratiques.html",
+      "recheckBrochureSource": "https://campinglesforges.com/usermedia/document-fr-637481248543219063-316.pdf"
     },
     {
       "sourceId": "CCF44-CROISIC-PIERRE-LONGUE-2026",
@@ -573,13 +578,14 @@
       "finding": "Emplacements identifiés ; page tarifs non récupérée, aucun barème 2027 recoupé.",
       "nextCheck": "Forfait 2027, branchement et éventuelle location d’adaptateur, taxe.",
       "source": "https://www.la-cale-sauvage.com/nos-emplacements/",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 186,
-      "recheckFinding": "Lot 186 (05/11/2026) : la page officielle de tarifs reste explicitement « Tarifs 2026 », avec ouverture indiquée du 03/04 au 04/10/2026; aucun barème ni devis de séjour 2027 n’est publié dans la page consultée. La page emplacements confirme camping-cars, parcelles de 80–100 m² et séjour possible d’une nuit; emplacements avec ou sans électricité (6 A). La location d’adaptateur européen est affichée séparément à 2 €/nuit avec caution; acompte de 30 %, solde 30 jours avant séjour. Aucun prix par nuit 2027 confirmé.",
-      "recheckNextCheck": "Obtenir le tarif officiel 2027 pour camping-car avec et sans électricité, puis confirmer taxe, éventuels frais, adaptateur/caution, et calendrier d’ouverture 2027. Les conditions d’acompte ne sont pas un supplément de nuitée.",
+      "recheckedAt": "2026-11-06",
+      "recheckLot": 198,
+      "recheckFinding": "Lot 198 (06/11/2026) : la page officielle reste intitulée « Tarifs 2026 » et indique une ouverture du 03/04 au 04/10/2026; aucun barème ou calendrier 2027 publié. Elle confirme l’accueil des camping-cars, emplacements de 80–100 m² et choix avec ou sans électricité. Les prix de nuitée ne sont pas lisibles dans la version texte consultée; aucun prix camping-car 2027 confirmé.",
+      "recheckNextCheck": "Obtenir la grille 2027 lisible pour camping-car, avec et sans électricité, et confirmer saison, taxe et frais; ne pas prolonger les dates ni tarifs 2026.",
       "recheckTariffSource": "https://www.la-cale-sauvage.com/tarifs-du-camping/",
       "recheckBookingSource": "https://www.la-cale-sauvage.com/reserver/",
-      "recheckPitchSource": "https://www.la-cale-sauvage.com/nos-emplacements/"
+      "recheckPitchSource": "https://www.la-cale-sauvage.com/nos-emplacements/",
+      "recheckSeasonSource": "https://www.la-cale-sauvage.com/le-camping-la-cale-sauvage/"
     },
     {
       "sourceId": "ACCAMPDL044V50LCQJ",
