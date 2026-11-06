@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 198 (06/11/2026), trois campings existants. Bréhadour : tarifs d'emplacements et promo visibles mais sans millésime/validité; prix/taxe non confirmés 2027. Les Forges : page de tarifs sans montants, brochure générale; 10 A et frais/durée minimale à distinguer, aucun tarif 2027. La Cale Sauvage : page explicitement tarifs/ouverture 2026, aucun barème 2027; montants de nuitée non lisibles dans la version texte consultée. Aucun tarif 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 199 (06/11/2026), trois campings existants. Clos Mer et Nature : documents officiels consultés millésimés 2026; aucun prix 2027. Le Mindin : grille officielle 2026 détaillée; les montants de la page camping-car sont non datés et ne valent pas preuve 2027. Port Mulon : page officielle avec lien vers une grille PDF inaccessible (403); aucun tarif 2027 vérifiable. Aucun tarif complet 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -1558,12 +1558,13 @@
       "finding": "La fiche conserve une information ou un tarif antérieur, mais aucune validation complète pour la saison 2027 n’est établie. Distinguer le stationnement, la nuitée et les services, et ne pas convertir la gratuité de jour en gratuité nocturne.",
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://www.camping-clos-mer-nature.fr/faq/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 155,
-      "recheckFinding": "Le contrat opérateur est intitulé 2026 : forfait de base pour emplacement camping-car, 1–2 personnes et accès sanitaires; frais de dossier de 10 € pour ≤3 nuits, 20 € au-delà (30 € dans certains règlements différés), taxe de séjour 0,66 €/adulte/nuit et éco-participation 0,30 €/personne/nuit. Aucun prix de base camping-car n’apparaît dans ce document; contrat et FAQ divergent sur les horaires d’arrivée/départ.",
-      "recheckNextCheck": "Obtenir le tarif 2027 de l’emplacement avec dates, électricité/personnes et taxes/frais 2027; faire préciser horaires actuels. Conserver les frais de réservation et taxes 2026 comme postes séparés, non comme prix de nuitée.",
+      "recheckedAt": "2026-11-06",
+      "recheckLot": 199,
+      "recheckFinding": "Le contrat officiel consulté est celui de 2026 : le forfait camping-car 1–2 personnes + accès sanitaires est évoqué sans prix de base dans le document; il distingue taxe de séjour 0,66 €/adulte/nuit, éco-participation 0,30 €/personne/nuit et frais de dossier (10 € jusqu’à 3 nuits, 20 € au-delà, 30 € pour certains paiements différés). La page FAQ officielle n’affiche pas de prix 2027. Aucun tarif 2027 confirmé.",
+      "recheckNextCheck": "Obtenir grille ou devis 2027 daté pour camping-car et deux personnes; confirmer forfait de base, électricité, taxes, frais de dossier et horaires applicables. Garder les montants 2026 comme références historiques séparées.",
       "recheckTariffSource": "https://www.camping-clos-mer-nature.fr/faq/",
-      "recheckConditionsSource": "https://www.camping-clos-mer-nature.fr/faq/"
+      "recheckConditionsSource": "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf",
+      "recheckSource": "https://www.camping-clos-mer-nature.fr/emplacements-camping-saint-michel-chef-chef/"
     },
     {
       "sourceId": "ACCAMPDL044V51CY50",
@@ -2205,11 +2206,13 @@
       "finding": "Fiche existante retenue pour contrôle ; information tarifaire actuelle non établie pour 2027. Ne pas déduire une nuitée ou un tarif de service à partir du stationnement.",
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.enpaysdelaloire.com/hebergements/campings/mindin",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 157,
-      "recheckFinding": "Relecture lot 157 (04/11/2026) : Camping Mindin : le répertoire régional affiche un forfait de base (1 emplacement, 2 personnes, 1 voiture) à 23,20–37,10 €/nuit; électricité 2,90–7,60 €/nuit et taxe dès 0,66 €/personne/nuit à part. Repères 2026/historiques, sans barème 2027 confirmé; disponibilité des emplacements camping-car à confirmer.",
-      "recheckNextCheck": "Camping : obtenir un barème 2027 daté par saison et confirmer l’accueil des camping-cars; séparer forfait, électricité et taxe exacte.",
-      "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/campings/mindin"
+      "recheckedAt": "2026-11-06",
+      "recheckLot": 199,
+      "recheckFinding": "La grille officielle téléchargée est intitulée « Tarifs camping 2026 » : forfait emplacement 2 personnes + 1 véhicule à 37,80 € du 4 au 31 juillet, 42,10 € du 1er au 30 août, et 23,60 € les autres mois; électricité 7,70 € en été ou 2,90 € les autres mois; taxe 0,66 €/adulte/jour. Les tarifs ne sont pas 2027. La page camping-car officielle reprend 23,60–42,10 € sans millésime, sans prouver une reconduction. Aucun tarif 2027 confirmé.",
+      "recheckNextCheck": "Demander la grille 2027 et vérifier dates d’ouverture, électricité, taxe et frais de réservation; conserver la grille 2026 comme historique. Accueil camping-car à vérifier pour les dates demandées.",
+      "recheckTariffSource": "https://www.campingmindin.com/wp-content/uploads/mindin-tarifs-2026.pdf",
+      "recheckSource": "https://www.campingmindin.com/hebergements-camping-loire-atlantique/emplacements-camping-en-loire-atlantique/emplacements-camping-caristes-loire-atlantique/",
+      "recheckDocumentsSource": "https://www.campingmindin.com/en/campsite-france-loire-atlantique-documents/"
     },
     {
       "sourceId": "ACCAMACCAMEAIREDUVERIDET",
@@ -2387,13 +2390,14 @@
       "finding": "La fiche ne présente pas de confirmation tarifaire complète pour 2027. Ne pas reconduire un tarif historique ou une gratuité sans vérifier la saison, ni confondre stationnement, nuitée et service.",
       "nextCheck": "Confirmer auprès de l’exploitant ou de la commune le prix et le droit de nuitée pour 2027, les frais, taxes, services et dates d’application.",
       "source": "https://rando.loire-atlantique.fr/service/180256-AIRE-AU-CAMPING-PORT-MULON-",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 158,
-      "recheckFinding": "Relecture lot 158 (04/11/2026) : la fiche régionale identifie une place à l’intérieur du Camping Port Mulon; eau et vidange à proximité sont annoncées à 3 €. Ce montant est un service, distinct du séjour au camping. Le site de l’exploitant propose une grille, mais aucune nuitée 2027 datée n’a été confirmée dans les sources consultées.",
-      "recheckNextCheck": "Obtenir auprès de l’exploitant une grille 2027 pour camping-car (emplacement, personnes, électricité, taxe et frais) et confirmer le tarif 2027 du service eau/vidange. Ne pas utiliser les 3 € de service comme tarif de nuitée.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180256-AIRE-AU-CAMPING-PORT-MULON-",
+      "recheckedAt": "2026-11-06",
+      "recheckLot": 199,
+      "recheckFinding": "La page officielle du camping confirme une grille tarifaire téléchargeable et une ouverture annoncée du 1er avril au 31 octobre sans année sur la page. Le lien vers la grille renvoie à un PDF inaccessible (403) lors du contrôle; aucun prix 2027 ne peut être vérifié à partir de cette source. Le forfait eau/vidange de 3 € précédemment relevé est un service, distinct du séjour.",
+      "recheckNextCheck": "Récupérer la grille officielle téléchargeable ou un devis camping-car 2027; distinguer nuitée, électricité et forfait eau/vidange. Ne pas reprendre l’ouverture sans année ni les 3 € de service comme preuve d’un prix 2027.",
+      "recheckTariffSource": "https://www.night-and-day.fr/camping/35-camping-du-port-mulon",
       "recheckSource": "https://www.night-and-day.fr/camping/35-camping-du-port-mulon",
-      "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/180256-AIRE-AU-CAMPING-PORT-MULON-"
+      "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/180256-AIRE-AU-CAMPING-PORT-MULON-",
+      "recheckServiceSource": "https://rando.loire-atlantique.fr/service/180256-AIRE-AU-CAMPING-PORT-MULON-"
     },
     {
       "sourceId": "ACCAMEAIRESTADE",
