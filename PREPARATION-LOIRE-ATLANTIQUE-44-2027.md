@@ -1242,3 +1242,12 @@ Sources :
 - Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 197](AUDIT-44-2027-LOT197.md).
+
+## Lot 198 — 6 novembre 2026
+
+- **Domaine de Bréhadour, Guérande :** grille d’emplacements et promotion visibles, sans millésime 2027 ni validité de l’offre établis. Taxe non confirmée pour 2027.
+- **Les Forges, Pornichet :** page tarifs et brochure sans prix d’emplacement. Emplacement 100 m², électricité 10 A; durée minimale et frais de dossier à distinguer. Aucun tarif 2027.
+- **La Cale Sauvage, Frossay :** page explicitement « Tarifs 2026 » et ouverture 2026; aucun barème 2027. Les montants ne sont pas lisibles dans le rendu texte consulté.
+- Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 198](AUDIT-44-2027-LOT198.md).
