@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 200 (06/11/2026), trois campings existants. Pause Loire : page de tarifs explicitement 2026; tarif cyclistes sans véhicule exclu du camping-car. Le Praderoi : fermeture annoncée à partir du 15/10/2026; réouverture 2027 non établie, grille PDF sans texte extractible. Gruellau : montants d’appel 8 €/4 € non millésimés, option véhicule à clarifier. Aucun tarif complet 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 201 (06/11/2026), trois campings existants. Le Cléin et Les Mouettes : décision municipale et grilles 2026 seulement, aucun barème 2027; forfait 2 personnes + emplacement + véhicule + 6 A 18,95/20,70/27,30 €, taxe en sus. Camping du Golf : page officielle explicitement tarifs 2026; supplément électricité, taxes et frais séparés, aucun tarif 2027. Aucun tarif complet 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -678,11 +678,13 @@
       "finding": "Informations municipales et tarifs encore 2026.",
       "nextCheck": "Délibération ou grille municipale 2027, saison et suppléments.",
       "source": "https://campings.lepouliguen.fr/les-campings/le-clein/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 166,
-      "recheckFinding": "Lot 166 (04/11/2026) : Le Cléin : grille municipale 2026 à 18,95/20,70/27,30 €/nuit pour 2 pers., emplacement, véhicule et 6 A; taxe 0,22 €/pers./nuit en sus. Saison 28/03–09/11/2026.",
-      "recheckNextCheck": "Obtenir grille 2027 et vérifier suppléments 10 A.",
-      "recheckTariffSource": "https://campings.lepouliguen.fr/les-campings/le-clein/"
+      "recheckedAt": "2026-11-06",
+      "recheckLot": 201,
+      "recheckFinding": "Le site municipal confirme ouverture et tarifs 2026 seulement. La décision municipale fixe le forfait nuitée 2 personnes, emplacement, véhicule et 6 A à 18,95 € basse saison, 20,70 € saison et 27,30 € haute saison; taxe 0,22 €/personne/nuit en sus. L’option 10 A au Cléin est un supplément de 0,95 €. Aucun tarif 2027 publié ou confirmé.",
+      "recheckNextCheck": "Attendre la décision/grille municipale 2027 et calendrier 2027; garder la taxe et le supplément 10 A séparés, ne pas reconduire les montants 2026.",
+      "recheckTariffSource": "https://campings.lepouliguen.fr/les-campings/le-clein/",
+      "recheckSource": "https://campings.lepouliguen.fr/les-campings/le-clein/",
+      "recheckTariffDecisionSource": "https://campings.lepouliguen.fr/wp-content/uploads/2026/03/2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf"
     },
     {
       "sourceId": "MUNICIPAL44LEPOULIGUENLESMOUETTES2026",
@@ -693,11 +695,13 @@
       "finding": "Informations municipales et tarifs encore 2026.",
       "nextCheck": "Délibération ou grille municipale 2027, saison et suppléments.",
       "source": "https://campings.lepouliguen.fr/les-campings/les-mouettes/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 166,
-      "recheckFinding": "Lot 166 (04/11/2026) : Les Mouettes (Le Pouliguen) : même grille municipale 2026 que Le Cléin, 18,95/20,70/27,30 € avec 6 A et taxe 0,22 € en sus; saison jusqu’au 03/11/2026.",
-      "recheckNextCheck": "Obtenir tarifs/calendrier 2027.",
-      "recheckTariffSource": "https://campings.lepouliguen.fr/les-campings/les-mouettes/"
+      "recheckedAt": "2026-11-06",
+      "recheckLot": 201,
+      "recheckFinding": "Le site municipal confirme ouverture et tarifs 2026 seulement. La décision municipale fixe le forfait nuitée 2 personnes, emplacement, véhicule et 6 A à 18,95 € basse saison, 20,70 € saison et 27,30 € haute saison; taxe 0,22 €/personne/nuit en sus. Aucun tarif 2027 publié ou confirmé.",
+      "recheckNextCheck": "Attendre la décision/grille municipale 2027 et calendrier 2027; garder la taxe séparée, ne pas reconduire les montants 2026.",
+      "recheckTariffSource": "https://campings.lepouliguen.fr/les-campings/les-mouettes/",
+      "recheckSource": "https://campings.lepouliguen.fr/les-campings/les-mouettes/",
+      "recheckTariffDecisionSource": "https://campings.lepouliguen.fr/wp-content/uploads/2026/03/2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf"
     },
     {
       "sourceId": "HPAPDL044V507V64",
@@ -726,11 +730,13 @@
       "finding": "Grille opérateur 2026 : 19–38 € pour deux personnes, dynamique ; électricité 5 €, taxe 0,66 €/adulte/jour, déchets 0,50 €/personne/jour, gestion 25 € dès 5 nuits. Prix historique corrigé ; divergence office 17–39 € explicitée.",
       "nextCheck": "Devis camping-car 2027, étape versus emplacement, total et dates d’ouverture.",
       "source": "https://www.campingdugolf.fr/offres/tarifs-emplacements/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 166,
-      "recheckFinding": "Lot 166 (04/11/2026) : Camping du Golf : grille dynamique opérateur 2026 à 19/24/32/36/38 €/nuit pour deux personnes selon périodes. 6 A +5 €, taxe 0,66 €/adulte/jour, taxe déchets 0,50 €/pers./jour, frais 25 € dès 5 nuits, en plus.",
-      "recheckNextCheck": "Obtenir prix 2027 et garder tous les suppléments séparés.",
-      "recheckTariffSource": "https://www.campingdugolf.fr/offres/tarifs-emplacements/"
+      "recheckedAt": "2026-11-06",
+      "recheckLot": 201,
+      "recheckFinding": "La grille officielle indique explicitement 2026 et barème dynamique : emplacement deux personnes 19/24/32/36/38 € selon cinq périodes; électricité 6 A en supplément 5 €/nuit; taxe de séjour 0,66 €/adulte/jour, contribution déchets 0,50 €/personne/jour et frais de gestion de 25 € dès cinq nuits. La page précise ouverture du 11 avril au 14 septembre sans année. Aucun tarif complet 2027 confirmé.",
+      "recheckNextCheck": "Obtenir le tarif ou devis camping-car 2027 pour dates précises; contrôler le panier final et garder électricité, taxe de séjour, déchets et frais de gestion distincts.",
+      "recheckTariffSource": "https://www.campingdugolf.fr/offres/tarifs-emplacements/",
+      "recheckSource": "https://www.campingdugolf.fr/offres/tarifs-emplacements/",
+      "recheckPitchesSource": "https://www.campingdugolf.fr/emplacements/"
     },
     {
       "sourceId": "ACCAMECCBOLEMERQUEL",
