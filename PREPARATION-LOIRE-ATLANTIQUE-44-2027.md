@@ -1260,3 +1260,12 @@ Sources :
 - Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 199](AUDIT-44-2027-LOT199.md).
+
+## Lot 200 — 6 novembre 2026
+
+- **Pause Loire, Sainte-Luce-sur-Loire :** page officielle des tarifs explicitement 2026. L’offre cyclistes/randonneurs à 13,66 € est sans véhicule et ne s’applique pas au camping-car; grille camping-car 2027 à obtenir.
+- **Le Praderoi, Quimiac :** fermeture annoncée à compter du 15/10/2026; pas de réouverture 2027 datée. Le PDF de tarifs lié au site est illisible dans l’extraction consultée; demander disponibilité et grille 2027.
+- **Aire naturelle de Gruellau, Treffieux :** tarifs d’appel officiels 8 €/nuit avec électricité et 4 €/nuit sans électricité, sans millésime; véhicule en option sur la formule Nature. Pas de total 2027 confirmé pour deux adultes et camping-car.
+- Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 200](AUDIT-44-2027-LOT200.md).
