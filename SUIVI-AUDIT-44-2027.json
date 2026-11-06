@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 199 (06/11/2026), trois campings existants. Clos Mer et Nature : documents officiels consultés millésimés 2026; aucun prix 2027. Le Mindin : grille officielle 2026 détaillée; les montants de la page camping-car sont non datés et ne valent pas preuve 2027. Port Mulon : page officielle avec lien vers une grille PDF inaccessible (403); aucun tarif 2027 vérifiable. Aucun tarif complet 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 200 (06/11/2026), trois campings existants. Pause Loire : page de tarifs explicitement 2026; tarif cyclistes sans véhicule exclu du camping-car. Le Praderoi : fermeture annoncée à partir du 15/10/2026; réouverture 2027 non établie, grille PDF sans texte extractible. Gruellau : montants d’appel 8 €/4 € non millésimés, option véhicule à clarifier. Aucun tarif complet 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -52,15 +52,16 @@
       "finding": "Page tarifs explicitement 2026.",
       "nextCheck": "Barème emplacements 2027, électricité et taxe.",
       "source": "https://camping-pauseloire.com/en/camping-pause-loire-english/rates/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : page tarifaire officielle toujours millésimée 2026. L’offre itinérants à 13,66 €/nuit est sans véhicule et n’est pas un prix camping-car. Aucun barème normal 2027 confirmé.",
-      "recheckNextCheck": "Obtenir prix 2027 par nuit pour emplacement avec véhicule, préciser ampérage, période, taxe et frais.",
+      "recheckedAt": "2026-11-06",
+      "recheckLot": 200,
+      "recheckFinding": "La page officielle des tarifs consultée indique explicitement qu’il s’agit des tarifs complets 2026; elle ne publie pas de grille 2027. Les emplacements avec véhicule acceptent les camping-cars et disposent de branchements électriques 5 ou 10 A. L’offre d’étape à 13,66 € est réservée à la zone sans véhicule pour cyclistes/randonneurs, donc ne constitue pas un forfait camping-car.",
+      "recheckNextCheck": "Obtenir la grille 2027 pour emplacement avec véhicule/camping-car; préciser période, ampérage, taxe 2027 et frais éventuels. Ne pas appliquer le tarif cyclistes à une nuitée camping-car.",
       "recheckTariffSource": "https://camping-pauseloire.com/en/camping-pause-loire-english/rates/",
       "recheckPitchesSource": "https://camping-pauseloire.com/location-mobil-home-nantes/emplacements-camping-caravaning-nantes/",
       "recheckCyclistsOfferSource": "https://camping-pauseloire.com/camping-loire-a-velo/",
       "recheckConditionsSource": "https://camping-pauseloire.com/cgv/",
-      "recheckTariffImageSource": "https://camping-pauseloire.com/wp-content/uploads/2026/07/Tarifs-emplacements-2026.png"
+      "recheckTariffImageSource": "https://camping-pauseloire.com/wp-content/uploads/2026/07/Tarifs-emplacements-2026.png",
+      "recheckSource": "https://camping-pauseloire.com/en/camping-pause-loire-english/rates/"
     },
     {
       "sourceId": "CCF44-PRAIRIES-ETANG-2026",
@@ -91,15 +92,17 @@
       "finding": "Opérateur annonce fermeture dès le 15 octobre 2026 ; office indique encore 31 octobre.",
       "nextCheck": "Calendrier 2027 et grille opérateur ; ne pas reprendre les anciens repères tiers.",
       "source": "https://camping-praderoi.com/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : l’opérateur indique fermeture à compter du 15 octobre 2026. Aucune ouverture ou grille 2027 confirmée; la date régionale contradictoire ne remplace pas l’information opérateur.",
-      "recheckNextCheck": "Vérifier la réouverture 2027 et obtenir calendrier et barème d’emplacement daté avant comparaison.",
-      "recheckTariffSource": "https://api.evolusite.fr/file/download/tarifs-camping-le-praderoi-veqev.pdf",
+      "recheckedAt": "2026-11-06",
+      "recheckLot": 200,
+      "recheckFinding": "Le site officiel affiche un avis de fermeture à compter du 15 octobre 2026, mais aucune réouverture 2027 datée. Une grille tarifaire est liée depuis le site; le PDF est accessible mais aucun texte tarifaire n’est extractible dans la consultation web. Aucune nuitée ni grille tarifaire 2027 ne peut être confirmée.",
+      "recheckNextCheck": "Confirmer d’abord la réouverture 2027 et les dates d’accueil des camping-cars; obtenir ensuite un devis ou une grille lisible 2027 avec forfait, électricité, taxe et frais.",
+      "recheckTariffSource": "https://camping-praderoi.com/",
       "recheckOperatorSource": "https://camping-praderoi.com/",
       "recheckPitchesSource": "https://camping-praderoi.com/emplacement-camping-mesquer",
       "recheckRegionalSource": "https://www.enpaysdelaloire.com/hebergements/campings/camping-le-praderoi",
-      "recheckSecondarySource": "https://www.campercontact.com/fr/france/pays-de-la-loire/mesquer/115286/camping-le-praderoi"
+      "recheckSecondarySource": "https://www.campercontact.com/fr/france/pays-de-la-loire/mesquer/115286/camping-le-praderoi",
+      "recheckSource": "https://camping-praderoi.com/",
+      "recheckTariffPdfSource": "https://api.evolusite.fr/file/download/tarifs-camping-le-praderoi-veqev.pdf"
     },
     {
       "sourceId": "CCF44-TREFFIEUX-GRUELLAU-2026",
@@ -110,15 +113,16 @@
       "finding": "Site de réservation accessible, aucun tarif millésimé 2027 retrouvé.",
       "nextCheck": "Devis 2027, personnes incluses, électricité et taxe.",
       "source": "https://campinggruellau.lemue.fr/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : tarifs « à partir de » sur le moteur pour Lumière (électricité incluse) et Nature (sans électricité), sans millésime 2027 ni montant final camping-car; options véhicule/camping-car restent à clarifier.",
-      "recheckNextCheck": "Panier daté 2027 pour deux adultes et camping-car; vérifier les options, inclusions, taxe et total.",
+      "recheckedAt": "2026-11-06",
+      "recheckLot": 200,
+      "recheckFinding": "Le site officiel propose à partir de 8 €/nuit l’emplacement Lumière avec électricité et à partir de 4 €/nuit l’emplacement Nature sans électricité; ces montants ne portent pas de millésime 2027. Le site précise que le camping-car est accueilli, mais la page Nature indique le véhicule en option. Les montants d’appel ne constituent pas un total 2027 pour deux adultes et camping-car.",
+      "recheckNextCheck": "Obtenir un panier/devis 2027 daté pour deux adultes et camping-car; faire préciser véhicule, électricité, taxes, suppléments et dates d’ouverture. Garder 8 €/4 € comme montants d’appel non datés, non intégrés comme tarif 2027.",
       "recheckTariffSource": "https://campinggruellau.lemue.fr/",
       "recheckElectricPitchSource": "https://campinggruellau.lemue.fr/hebergements/emplacement-lumiere-electricite-incluse.html",
       "recheckNaturePitchSource": "https://campinggruellau.lemue.fr/hebergements/emplacements-nature-sans-electricite-vehicule-en-option.html",
       "recheckSecondary2027Source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/treffieux/aire-naturelle-municipale94",
-      "recheckHistoricSource": "https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/187399/aire-naturelle-de-camping-etang-de-gruellau.pdf"
+      "recheckHistoricSource": "https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/187399/aire-naturelle-de-camping-etang-de-gruellau.pdf",
+      "recheckSource": "https://campinggruellau.lemue.fr/"
     },
     {
       "sourceId": "CCF44-MESQUER-TREAMBERT-2026",
