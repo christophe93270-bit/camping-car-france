@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 201 (06/11/2026), trois campings existants. Le Cléin et Les Mouettes : décision municipale et grilles 2026 seulement, aucun barème 2027; forfait 2 personnes + emplacement + véhicule + 6 A 18,95/20,70/27,30 €, taxe en sus. Camping du Golf : page officielle explicitement tarifs 2026; supplément électricité, taxes et frais séparés, aucun tarif 2027. Aucun tarif complet 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 202 (07/11/2026), trois campings déjà suivis avec montants partiels 2027. L’Océan : réservations 2027 ouvertes, page de prix encore 2026; prix d’appel déjà relevés pour un séjour de 2 nuits, total final à vérifier. La Falaise : prix de séjours de 7 nuits datés 2027, taxes/frais non détaillés; conserver les montants comme totaux partiels. La Boutinardière : page opérateur « Tarifs général 2027 » et calendrier 02/04–27/09/2027; chiffres non visibles dans la page. Piste secondaire 65 €/nuit + électricité à confirmer par opérateur. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -328,15 +328,16 @@
       "finding": "Calendrier 3 avril–26 septembre 2027 confirmé ; page prix encore titrée 2026 et moteur sans montant.",
       "nextCheck": "Devis 2027 Confort/Grand Confort, taxe et frais ; pack 15 € exclu du prix de base.",
       "source": "https://www.camping-ocean.com/tarifs-ocean",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 172,
-      "recheckFinding": "Lot 172 (05/11/2026) : recherche officielle du 10 au 12/05/2027, 2 personnes, emplacements nus. Le moteur affiche « à partir de 70 € » pour Emplacement Confort et 88 € pour Grand Confort. Prix d’appel du séjour sélectionné de 2 nuits, non un prix par nuit; panier final, taxes et frais non affichés. Confort : base 2 personnes, 1 voiture, électricité 10 A; Grand Confort ajoute branchement d’eau et évacuation. Jusqu’à 6 personnes, supplément au-delà de 2, montant inconnu. La page reste titrée « Tarifs 2026 ».",
-      "recheckNextCheck": "Vérifier panier final, taxe, frais, montant du supplément pour personnes additionnelles et portée des prix d’appel. Garder 70 € et 88 € comme montants partiels du séjour daté; ne pas les convertir en prix par nuit ni les extrapoler.",
-      "recheckSource": "https://www.camping-ocean.com/tarifs-ocean.html?start=2027-05-10&end=2027-05-12&type=emplacement&persons=2",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 202,
+      "recheckFinding": "Le site officiel annonce l’ouverture 2027 du 03/04 au 26/09 et indique que les réservations 2027 ouvrent en octobre, mais garde sa page de tarifs en millésime 2026. Le devis moteur déjà relevé pour le 10–12/05/2027 indiquait un prix d’appel de séjour 2 nuits à partir de 70 € (Confort) ou 88 € (Grand Confort); pas de total final, taxe/frais ou suppléments complets. Ces montants de séjour ne sont pas des prix par nuit.",
+      "recheckNextCheck": "Au panier 2027, obtenir le total final pour mêmes dates et une période haute saison; identifier occupants inclus, taxe, frais, supplément au-delà de deux personnes et éventuelles conditions minimales. Ne pas convertir 70/88 € en tarif par nuit.",
+      "recheckSource": "https://www.camping-ocean.com/tarifs-ocean",
       "recheckConditionsSource": "https://www.camping-ocean.com/emplacement-camping-croisic.html",
       "recheckTariffSource": "https://www.camping-ocean.com/tarifs-ocean",
       "recheckSeasonSource": "https://www.camping-ocean.com/",
-      "recheckPitchSource": "https://www.camping-ocean.com/emplacement-camping-croisic.html"
+      "recheckPitchSource": "https://www.camping-ocean.com/emplacement-camping-croisic.html",
+      "recheckBookingSource": "https://www.camping-ocean.com/tarifs-ocean.html?start=2027-05-10&end=2027-05-12&type=emplacement&persons=2"
     },
     {
       "sourceId": "CCF44-PORNICHET-GCU-2026",
@@ -3217,10 +3218,10 @@
       "finding": "Contrôle lot 121 : moteur de réservation officiel, filtre « Emplacement camping », 7 nuits et capacité « 2 et + », à partir de 210 € pour les départs du 16 et du 23 avril 2027. Le montant est un total de séjour partiel ; inclusion de deux personnes, catégorie forfait, électricité, taxe, frais et total final non établis. La page tarifaire fixe reste libellée 2026.",
       "nextCheck": "Relever le détail du panier pour un séjour d'avril et un séjour haute saison : catégorie de forfait, nombre de personnes incluses, électricité, taxe de séjour, frais et total final. Vérifier aussi les règles de durée et jours d'arrivée 2027 et les dates de fermeture. Ne pas convertir 210 € en prix par nuit.",
       "source": "https://www.camping-boutinardiere.com/",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 176,
-      "recheckFinding": "Lot 176 (05/11/2026) : vérification dans le moteur officiel, recherche du 16 au 23/04/2027, emplacement. Le résultat confirme « À partir de 210,00 € » pour 7 nuits et identifie la catégorie « Emplacement camping » de 80 à 110 m², jusqu’à 6 personnes, animaux autorisés. Le contrôle ne montre pas un panier final ni les occupants inclus, le forfait d’électricité, la taxe, les frais ou suppléments; le montant reste indicatif et ne doit pas être divisé en tarif par nuit. Après la recherche, le filtre capacité revient à « 1 et + », donc ne pas le présenter comme un devis établi pour deux personnes. La page fixe de tarifs demeure 2026.",
-      "recheckNextCheck": "Vérifier un panier détaillé d’avril et un de haute saison si les étapes suivantes permettent de lire le récapitulatif sans créer une réservation : personnes réellement incluses, électricité, taxe, frais, suppléments et total final. Confirmer jours d’arrivée et fermeture 2027. Garder 210 € comme prix indicatif pour 7 nuits; ne pas le convertir en prix par nuit.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 202,
+      "recheckFinding": "La page tarifaire officielle porte maintenant l’intitulé « TARIFS GÉNÉRAL 2027 », et la FAQ officielle confirme une ouverture du 02/04 au 27/09/2027, avec arrivée quotidienne en hors saison (minimum 2 nuits), arrivée mercredi/vendredi/dimanche en emplacement en juillet-août, 10 A et jusqu’à 6 personnes. Les montants ne sont pas rendus dans la page tarifaire consultée. CampingFrance publie une piste 2027 à 65 €/nuit, forfait avec 2 adultes inclus, supplément adulte 8 €, enfant 7 €, électricité 9 €; source secondaire à confirmer avec l’opérateur. Aucune grille opérateur chiffrée complète validée.",
+      "recheckNextCheck": "Obtenir un panier/devis opérateur 2027 pour 2 personnes, emplacement et 10 A; faire préciser taxe, frais et prix final. Vérifier que la piste CampingFrance 65 € + électricité 9 € correspond au même forfait et à quelle période avant de l’intégrer.",
       "recheckSource": "https://www.camping-boutinardiere.com/tarif-general.html",
       "secondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/la-boutinardiere",
       "recheckConditionsSource": "https://www.camping-boutinardiere.com/emplacements-camping-pornic.html",
@@ -3228,7 +3229,9 @@
       "recheckHomepageSource": "https://www.camping-boutinardiere.com/",
       "recheckTariffSource": "https://www.camping-boutinardiere.com/tarif-general.html",
       "recheckFaqSource": "https://www.camping-boutinardiere.com/foire-au-questions.html",
-      "recheckReservationSource": "https://thelisresa.webcamp.fr/?begin=2027-04-02&camping=bouti44&chosenSite=1567&lang=fr&track=bouti44"
+      "recheckReservationSource": "https://thelisresa.webcamp.fr/?begin=2027-04-02&camping=bouti44&chosenSite=1567&lang=fr&track=bouti44",
+      "recheckBookingSource": "https://thelisresa.webcamp.fr/",
+      "recheckSecondary2027Source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/la-boutinardiere"
     },
     {
       "sourceId": "CCF44-THARON-VIEUX-CHATEAU-2026",
@@ -3357,14 +3360,15 @@
       "finding": "Saison annoncée du 26 mars au 30 octobre 2027 ; tarifs d'emplacement à confirmer.",
       "nextCheck": "Calendrier publié sur le site officiel et sa page emplacements, consulté via les résultats indexés ; ouverture directe des pages bloquée lors du contrôle. Aucun barème 2027 vérifié. Ne pas reconduire la grille 2026 standard/vue mer ni la taxe indiquée pour 2025 dans cet ancien PDF. Confirmer forfait, taxe 2027, frais et durée minimale auprès du camping. Camping distinct de l'aire CAMPING-CAR PARK Grande Falaise.",
       "source": "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 173,
-      "recheckFinding": "Lot 173 : le moteur officiel Secureholiday, consulté depuis la page des emplacements, affiche pour le 26/03–02/04/2027 (7 nuits, 2 personnes) trois montants de séjour : 247,50 € pour « Emplacement nu, eau et électricité (10A) », 261,50 € pour « Emplacement nu vue mer, eau et électricité (10A) » et 366,50 € pour « emplacement nu avec sanitaires privés ». Ils restent des devis datés pour ce séjour et ne sont pas des prix par nuit ni une grille saisonnière. Le résultat ne détaille pas le récapitulatif final, les taxes ou les frais. La page annonce l’ouverture du 26/03 au 30/10/2027.",
-      "recheckNextCheck": "Obtenir une grille standard 2027 par nuit et plusieurs périodes; vérifier au récapitulatif final taxes, frais et composition exacte de chaque offre. Ne pas diviser les montants du séjour par sept et ne pas les recopier comme tarif public par nuit.",
-      "recheckSource": "https://www.camping-de-la-falaise.com/emplacements/nus/",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 202,
+      "recheckFinding": "Le site officiel maintient l’ouverture 2027 du 26/03 au 30/10. Les devis du moteur déjà relevés pour 26/03–02/04/2027, 7 nuits, indiquaient 247,50 € emplacement nu eau+10 A, 261,50 € vue mer eau+10 A, 366,50 € avec sanitaires privés. Le moteur ouvert de nouveau ne donne pas de récapitulatif final lisible par le lecteur web; montants restent des prix de séjour datés, sans ventilation de taxe/frais et non des prix par nuit.",
+      "recheckNextCheck": "Obtenir le récapitulatif détaillé du panier pour taxes, frais, inclusions et conditions; comparer un devis basse saison et un haute saison. Conserver les totaux datés comme montants partiels seulement, sans les diviser par nuit.",
+      "recheckSource": "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/",
       "recheckBookingSource": "https://reservation.secureholiday.net/fr/12822/search/product-view/51416?dateStart=26/03/2027&dateEnd=02/04/2027",
       "recheckSeaViewBookingSource": "https://reservation.secureholiday.net/fr/12822/search/product-view/144429?dateStart=26/03/2027&dateEnd=02/04/2027",
-      "recheckPrivateSanitaryBookingSource": "https://reservation.secureholiday.net/fr/12822/search/product-view/151872?dateStart=26/03/2027&dateEnd=02/04/2027"
+      "recheckPrivateSanitaryBookingSource": "https://reservation.secureholiday.net/fr/12822/search/product-view/151872?dateStart=26/03/2027&dateEnd=02/04/2027",
+      "recheckTariffSource": "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/"
     },
     {
       "sourceId": "CCF44-MESQUER-CAMPING-AU-SOIR-ETE-2026",
