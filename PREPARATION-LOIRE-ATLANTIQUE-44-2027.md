@@ -1468,3 +1468,12 @@ Sources :
 - Aucun tarif camping-car complet 2027 confirmé; pas d'ajout de lieu. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 221](AUDIT-44-2027-LOT221.md).
+
+## Lot 222 — trois campings, 7 novembre 2026
+
+- **Pointe Saint-Gildas :** prix hebdomadaires de 148/176/267 € selon catégorie affichés par la page de réservation, sans année, dates ni composition précise; pas de tarif nuitée 2027 confirmé.
+- **Le Bernier :** accueil camping-car et parcelles de 80–100 m² confirmés; page de réservation encore millésimée 2024, aucun prix 2027.
+- **Les Forges :** aucune grille d’emplacement lisible; dates publiques retrouvées rattachées à 2026, aucun prix emplacement 2027.
+- Aucun prix camping-car complet 2027 confirmé; aucun changement à `aires-pdl.json`, aucun ajout. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 222](AUDIT-44-2027-LOT222.md).
