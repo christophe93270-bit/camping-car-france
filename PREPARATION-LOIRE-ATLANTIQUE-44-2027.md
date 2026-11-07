@@ -1441,3 +1441,12 @@ Sources :
 - Aucun tarif camping-car complet 2027 confirmé. Aucun lieu ajouté, aucune modification de `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 218](AUDIT-44-2027-LOT218.md).
+
+## Lot 219 — trois campings, 7 novembre 2026
+
+- **Slow Village Pornic :** réservations estivales 2027 ouvertes; parcelle véhicules loisirs de 100 m² et 10 A max.; pas de tarif 2027 affiché sans dates. Le repère régional de 24 € et plus reste 2026.
+- **Le Deffay :** PDFs tarifaires officiels uniquement 2026. Pitchup présente un exemple à partir de 32,28 € pour une nuit, 2 adultes, emplacement camping-car et 10 A, avec frais/taxes à préciser et sans date exploitable dans l'extrait.
+- **Le Pas du Gû :** tarif camping-car officiel illustré et mis à jour en février 2026; aucun prix 2027.
+- Aucun tarif exploitant complet 2027 confirmé. Aucun ajout ou modification de `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 219](AUDIT-44-2027-LOT219.md).
