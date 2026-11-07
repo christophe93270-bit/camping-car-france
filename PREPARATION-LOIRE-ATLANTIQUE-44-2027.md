@@ -1450,3 +1450,12 @@ Sources :
 - Aucun tarif exploitant complet 2027 confirmé. Aucun ajout ou modification de `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 219](AUDIT-44-2027-LOT219.md).
+
+## Lot 220 — 7 novembre 2026
+
+- **La Rabine :** emplacements camping-car confirmés; règlement précise la taxe de séjour en sus, mais aucun barème opérateur 2027.
+- **La Pindière :** tarifs officiels toujours 2025. Repère Pitchup dès 17,10 €/nuit pour 2 adultes, 10 A en option à 5,70 €, sans dates de devis; pas un prix officiel 2027.
+- **Le Briord :** saison de la fiche régionale et prix à partir de 14 € rattachés à 2026; Cirkwi affiche 17 €/nuit. Écart non résolu; aucun barème 2027.
+- Aucun tarif camping-car complet 2027 confirmé. Aucun lieu ajouté ni changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 220](AUDIT-44-2027-LOT220.md).
