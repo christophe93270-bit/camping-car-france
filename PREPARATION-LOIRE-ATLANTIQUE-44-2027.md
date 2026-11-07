@@ -1412,3 +1412,13 @@ Sources :
 - Aucun lieu ajouté. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 215](AUDIT-44-2027-LOT215.md).
+
+
+## Lot 216 — 7 novembre 2026
+
+- **Les Paludiers :** 118 € « à partir de » pour 2 personnes, emplacement, 7 nuits du 15 au 22/05/2027; formule camping-car/10 A et total final non confirmés. Saison officielle 26/03–01/11/2027.
+- **La Roseraie :** saison 17/04–19/09/2027; emplacements env. 100 m², 10 A, eau/évacuation en supplément sur certaines parcelles; aucun prix 2027. Frais affichés sans millésime.
+- **Les Forges :** page tarifs sans montant d'emplacement; minimum de nuits et frais de dossier affichés sans millésime. Aucun tarif camping-car 2027.
+- Aucun tarif camping-car complet 2027 confirmé. Aucun lieu ajouté. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 216](AUDIT-44-2027-LOT216.md).
