@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 218 (07/11/2026), trois fiches existantes du secteur d'Assérac. Pont-Mahé : pages d'emplacements 2026 et brochure tarifaire retrouvée 2025; aucun barème 2027 daté. Les Prairies de l'Étang : 42 emplacements indiqués par l'exploitant contre 38 nus dans la fiche touristique; prix publics encore 2026, pas de tarif 2027. Ferme d'Isson : page toujours explicitement 2026, forfait 15,20 € pour camping-car + 2 personnes + électricité; inclusion de la taxe de 0,22 € contradictoire dans la page. Aucun tarif camping-car complet 2027 confirmé; aucun nouveau lieu/contact; aucun changement à aires-pdl.json; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 219 (07/11/2026), trois fiches existantes. Slow Village Pornic : réservations estivales 2027 ouvertes, parcelle loisirs 100 m²/10 A, sans prix 2027 affiché. Le Deffay : seuls tarifs officiels 2026 trouvés; plateforme Pitchup donne un repère à partir de 32,28 € pour une nuit, deux adultes, avec frais/taxes et date précise à vérifier. Pas du Gû : page opérateur explicitement millésimée 2026, aucune grille 2027. Aucun tarif opérateur 2027 complet confirmé; aucun changement à aires-pdl.json; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -448,14 +448,14 @@
       "nextCheck": "Grille emplacements 2027 et suppléments, distincte des locatifs.",
       "source": "https://www.camping-le-deffay.com/contact-tarifs-acces/",
       "recheckedAt": "2026-11-07",
-      "recheckLot": 203,
-      "recheckFinding": "Les pages officielles consultées affichent toujours les tarifs d’emplacements 2026 par nuitée, sans grille ou prix de séjour daté pour 2027. Le camping présente 114 emplacements d’environ 100 m² et un moteur de réservation, mais aucun tarif camping-car 2027 confirmé. Les coûts CGV d’animal ou de réservation restent distincts du prix de nuitée.",
-      "recheckNextCheck": "Vérifier le panier officiel pour dates 2027, camping-car et deux adultes; noter le forfait, l’électricité, taxe et frais à partir du récapitulatif final. Ne pas reconduire la grille 2026.",
+      "recheckLot": 219,
+      "recheckFinding": "Lot 219 (07/11/2026) : page tarifaire exploitant ne propose que des documents marqués 2026 par nuitée; saison régionale affichée du 01/05 au 30/09/2026. Aucun barème opérateur 2027 trouvé. Pitchup présente un prix indicatif à partir de 32,28 € pour 1 nuit et 2 adultes sur une parcelle camping-car avec électricité 10 A; frais/taxes supplémentaires affichés à 7 €, mais dates et détail final non visibles dans l'extrait consulté. Ne pas assimiler ce résultat à une grille opérateur 2027.",
+      "recheckNextCheck": "Obtenir devis opérateur daté 2027 et contrôler le total, les dates, la taxe et les frais de réservation. Ne pas reprendre le prix Pitchup comme tarif public standard.",
       "recheckTariffSource": "https://www.camping-le-deffay.com/contact-tarifs-acces/",
       "recheckTariffIndexSource": "https://www.camping-le-deffay.com/contact-tarifs-acces/",
       "recheckConditionsSource": "https://www.camping-le-deffay.com/politique-de-confidentialite/",
       "recheckSource": "https://www.camping-le-deffay.com/emplacements-camping/",
-      "recheckBookingSource": "https://bookingpremium.secureholiday.net/fr/1532/"
+      "recheckBookingSource": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/pontchateau/camping-le-deffay/"
     },
     {
       "sourceId": "ACCAMPDL044V51HCFW",
@@ -505,14 +505,15 @@
       "nextCheck": "Forfait camping-car 2027, électricité, taxe et conditions de séjour.",
       "source": "https://www.enpaysdelaloire.com/hebergements/campings/le-pas-du-gu",
       "recheckedAt": "2026-11-07",
-      "recheckLot": 203,
-      "recheckFinding": "La page tarifaire officielle camping-car montre une image explicitement légendée « tarifs 2026 » et indique une mise à jour du site en février 2026. Aucun montant ou calendrier 2027 n’est publié dans le texte de page consulté. Les tarifs affichés dans l’image restent à lire comme barème 2026 et ne confirment pas une nuitée 2027.",
-      "recheckNextCheck": "Obtenir une grille camping-car 2027 datée et confirmer saison, composition du forfait, personnes, électricité, taxe et frais. Conserver séparément les montants 2026 issus de l’image.",
+      "recheckLot": 219,
+      "recheckFinding": "Lot 219 (07/11/2026) : page opérateur de tarifs camping-car présente une illustration explicitement 2026 et indique une mise à jour en février 2026. Aucun prix ou calendrier 2027 publié. La grille régionale 2026 (12,80–19,50 € pour forfait de base, électricité en supplément) reste historique.",
+      "recheckNextCheck": "Recontrôler à la publication de la grille 2027; préciser les suppléments et la taxe pour camping-car et deux adultes.",
       "recheckTariffSource": "https://www.campingpasdugu.net/nos-tarifs/nos-tarifs-camping-car/",
       "recheckTariffSecondarySource": "https://www.saint-brevin.com/le-pas-du-gu.html",
       "recheckSeasonSource": "https://www.campingpasdugu.net/",
       "recheckSource": "https://www.campingpasdugu.net/nos-tarifs/nos-tarifs-camping-car/",
-      "recheckGeneralTariffSource": "https://www.campingpasdugu.net/nos-tarifs/nos-tarifs-camping/"
+      "recheckGeneralTariffSource": "https://www.campingpasdugu.net/nos-tarifs/nos-tarifs-camping/",
+      "recheckSecondarySource": "https://www.enpaysdelaloire.com/hebergements/campings/le-pas-du-gu"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000154",
@@ -2815,12 +2816,13 @@
       "nextCheck": "Obtenir un devis 2027 daté et confirmer les dates d’ouverture et disponibilités réelles ; préciser 2 adultes et 1 véhicule, forfait d’emplacement, électricité incluse jusqu’à 10 A, taxe, frais, supplément animal et durée minimale. Ne pas réutiliser le tarif régional 2026 comme prix 2027.",
       "source": "https://www.slow-village.com/hebergements/emplacement-vehicules-loisirs/",
       "recheckedAt": "2026-11-07",
-      "recheckLot": 208,
-      "recheckFinding": "Lot 208 (07/11/2026) : la page officielle annonce les réservations estivales 2027. L’emplacement véhicules loisirs fait 100 m² et comprend Wi-Fi, électricité jusqu’à 10 A et sanitaires communs; animal en option. Aucun prix 2027 ni devis daté camping-car n’est visible; le résultat du moteur indique « Indisponibles » sans dates renseignées. Aucun tarif complet 2027 confirmé.",
-      "recheckNextCheck": "Après sélection de dates et de deux adultes/camping-car, relever un devis 2027 et vérifier disponibilité, taxe, frais, option animal et durée minimale. Garder le tarif régional de 2026 comme historique.",
+      "recheckLot": 219,
+      "recheckFinding": "Lot 219 (07/11/2026) : exploitant annonce réservations estivales 2027 ouvertes. Emplacement véhicules loisirs de 100 m², électricité 10 A max. et sanitaires communs. Aucun prix 2027 visible sans dates/paramètres; FAQ encore datée d'ouverture 2026. Le repère régional à partir de 24 €/nuit reste historique 2026.",
+      "recheckNextCheck": "Demander un devis daté 2027 pour emplacement camping-car, 2 adultes, véhicule et électricité; confirmer taxes et suppléments.",
       "recheckSource": "https://www.slow-village.com/hebergements/emplacement-vehicules-loisirs/",
       "secondarySource": "https://www.pornic.com/camping-slow-village-pornic.html",
-      "recheckTariffSource": "https://www.slow-village.com/hebergements/emplacement-vehicules-loisirs/"
+      "recheckTariffSource": "https://www.slow-village.com/hebergements/emplacement-vehicules-loisirs/",
+      "recheckConditionsSource": "https://www.slow-village.com/france/pays-de-la-loire/loire-atlantique/pornic/"
     },
     {
       "sourceId": "ACCAMEAIREAVENUEBRIERE",
