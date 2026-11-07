@@ -1344,3 +1344,12 @@ Sources :
 - Aucun tarif standard complet de nuitée camping-car 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 208](AUDIT-44-2027-LOT208.md).
+
+
+## Lot 209 — 7 novembre 2026
+
+- Contrôle rapide de neuf fiches déjà présentes, sans ajout de lieux. Dates de validité corrigées pour les tarifs CAMPING-CAR PARK de l'École de Guérande (12 €/24 h) et de Saint-Père-en-Retz (13 €/24 h + taxe 0,88 €). Blain : tableau saisonnier officiel conservé à 12,73 €/24 h; encart dynamique contradictoire de 14,94 € non retenu.
+- Grotte Saint-Jean : quatre places gratuites, déjà partagées avec la fiche régionale, sans double comptage. Sorinières et Ancenis : pas de tarif ou d'autorisation nocturne publiée. Ermur : stationnement gratuit confirmé. Plessé : tarif et nuitée non confirmés. Pornic siège : fiche tarifaire déjà correcte, taxe 2027 inconnue.
+- Aucun lieu/contact ajouté; les fiches non tarifées restent explicites. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 209](AUDIT-44-2027-LOT209.md).
