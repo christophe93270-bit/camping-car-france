@@ -1382,3 +1382,13 @@ Sources :
 - Aucun lieu ajouté; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 212](AUDIT-44-2027-LOT212.md).
+
+
+## Lot 213 — 7 novembre 2026
+
+- **Camping du Bugeau :** saison officielle 2026 seulement; offre ACSI à 21 €/nuit conditionnelle et historique; aucun tarif public 2027.
+- **Le Bel Essor :** grille opérateur 2026 à 14,90–22,10 €/nuit; Destination Pornic indique 14,60–21,60 €. Écart noté; taxes/écoparticipation séparées; aucun tarif 2027.
+- **La Goëlette :** 18/22 €/nuit affichés sans année par l'exploitant, périodes rattachées à 2026 par Destination Pornic; aucun tarif 2027 daté.
+- Aucun camping ajouté. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 213](AUDIT-44-2027-LOT213.md).
