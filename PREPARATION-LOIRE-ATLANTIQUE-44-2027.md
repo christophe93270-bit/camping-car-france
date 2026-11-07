@@ -1487,3 +1487,13 @@ Sources :
 - ACSI annonce la disponibilité de l’édition 2027 en décembre. Aucun prix 2027 confirmé; aucun changement aux données principales, aucun ajout. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 223](AUDIT-44-2027-LOT223.md).
+
+
+## Lot 224 — trois aires, 7 novembre 2026
+
+- **Bôle de Merquel :** l'arrêté municipal autorise l'aire route de la Bôle, impose 48 h maximum et un droit par nuitée; le terrain voisin est interdit aux véhicules couchants de 22 h à 8 h. Durée corrigée de 72 h à 48 h. Grille 2026 : 7 €/nuit, tarif 2027 à confirmer.
+- **La Govelle :** gratuité provisoire toujours affichée pour dysfonctionnement; barème saisonnier de référence et jetons de services conservés séparément.
+- **Lingorzé :** mairie affiche 13,50 €/nuit et 10 € pour l'eau (150 L/10 min), séparément.
+- Un changement de donnée, aucun ajout. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 224](AUDIT-44-2027-LOT224.md).
