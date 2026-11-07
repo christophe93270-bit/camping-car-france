@@ -1585,3 +1585,21 @@ Sources officielles :
 - [Piriac – La Tranchée](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee)
 
 Prix de nuitée 2027 avec taxe totale applicable confirmée : **0 sur 3**. Les trois fiches restent au statut partiel.
+
+
+## Lot 233 — trois aires CAMPING-CAR PARK, Guérande et La Turballe, 7 novembre 2026
+
+| Aire | Base 24 h couvrant 2027 (hors taxe) | Total affiché actuellement (taxe incluse) |
+|---|---:|---:|
+| Guérande – avenue de la Brière | 13,50 € | 14,82 € |
+| La Turballe – Clos Mora | 13,95 € | 15,27 € |
+| La Turballe – Grande Falaise | 14,05 € | 15,37 € |
+
+Les pages officielles affichent actuellement une taxe de séjour de 1,32 €/24 h. Le tarif de base est publié jusqu'au 31/12/2027 ; la taxe, elle, n'est affichée que jusqu'au 31/12/2026 : aucun total 2027 n'est confirmé. Pour Guérande, le début du barème est indiqué au 03/11/2026 sur la page tarifaire retenue, tandis qu'une variante officielle indexée mentionne le 01/11 ; date à harmoniser. Les forfaits 5 h + services à 6 € ne comportent pas de période 2027 explicite. Aucun lieu ajouté ; compteurs inchangés : **215 fiches / 187 avec filtre nocturne / 28 exclues**.
+
+Sources officielles :
+- [Guérande – avenue de la Brière](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande)
+- [La Turballe – Clos Mora](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe)
+- [La Turballe – Grande Falaise](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise)
+
+Total de nuitée 2027 avec taxe applicable confirmée : **0 sur 3**. Les trois fiches restent au statut partiel.
