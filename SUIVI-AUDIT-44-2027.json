@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 203 (07/11/2026), trois campings existants. Domaine du Collet : PDF tarifaire officiel explicitement 2026, forfait 2 pers. + véhicule à 25/40 €/nuit selon saison, électrique et taxes/frais séparés; aucun tarif 2027. Le Deffay : site officiel toujours sur tarifs emplacements 2026; aucun prix 2027 daté. Le Pas du Gû : page camping-car avec image tarifs 2026, mise à jour février 2026; aucun montant 2027 publié dans le texte. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 204 (07/11/2026), trois campings déjà recensés. Les Rochelets : tarifs non publiés; seul contrat accessible explicitement 2025, donc taxes et écoparticipation historiques. Le Port Chéri : prix d’appel officiel 20 €/jour sans millésime, forfait 2 personnes; branchement 10 A annoncé mais inclusion à confirmer. Le Bernier : page tarifaire et ouverture toujours 2026; offre couple 294 €/semaine (7 nuits) distincte du minimum général de 2 nuits. Aucun tarif 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -215,15 +215,16 @@
       "finding": "Page hébergements conserve une mention réservations 2024 ; aucun millésime 2027 trouvé.",
       "nextCheck": "Devis camping-car 2027 et calendrier exact.",
       "source": "https://camping-lebernier.fr/hebergements/",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 182,
-      "recheckFinding": "Lot 182 (05/11/2026) : la page opérateur confirme ouverture 03/04–04/10/2026 et la grille 2026 dans le moteur de réservation; aucun barème public 2027. La page affiche une offre couple 294 €/semaine hors saison (minimum 7 nuits, maximum 2 personnes) et une nuit offerte dès 7 nuits; ce sont des offres de séjour, catégorie et cumul à vérifier, pas un tarif standard par nuit. La page hébergements conserve encore des indications de réservation 2024.",
-      "recheckNextCheck": "À l’ouverture 2027, vérifier au panier le prix par nuitée d’emplacement et distinguer les offres 7 nuits, taxes, services et frais.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 204,
+      "recheckFinding": "La page officielle affiche encore une ouverture 03/04–04/10/2026 et indique que les tarifs 2026 sont en ligne. L’offre couple à 294 €/semaine (7 nuits minimum, 2 personnes maximum) est une offre de séjour 2026, distincte d’un tarif standard par nuit; le site précise aussi la réservation possible dès 2 nuits minimum pour les autres séjours. Aucun calendrier ou tarif 2027 affiché.",
+      "recheckNextCheck": "Vérifier à l’ouverture des réservations 2027 un devis camping-car par dates; distinguer l’offre couple 7 nuits, le minimum général de deux nuits, taxes, services et frais. Ne pas réutiliser 294 € comme prix 2027 ou prix par nuit.",
       "recheckTariffSource": "https://camping-lebernier.fr/",
       "recheckBookingSource": "https://reservation.secureholiday.net/fr/5511/availabilities",
       "recheckAccommodationSource": "https://camping-lebernier.fr/hebergements/",
       "recheckConditionsSource": "https://camping-lebernier.fr/wp-content/uploads/2022/08/conditions-generales-de-reservation.pdf",
-      "recheckDate": "2026-11-04"
+      "recheckDate": "2026-11-04",
+      "recheckSource": "https://camping-lebernier.fr/"
     },
     {
       "sourceId": "CCF44-GUERANDE-LA-FONTAINE-2026",
@@ -654,12 +655,16 @@
       "finding": "Emplacements présents ; aucun barème complet 2027 recoupé.",
       "nextCheck": "Prix camping-car 2027, électricité, taxe, frais et durée minimale.",
       "source": "https://www.rochelets.com/",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 181,
-      "recheckFinding": "Lot 181 (05/11/2026) : la page officielle confirme les emplacements de 80 m² minimum ouverts de début mai à fin septembre, sans publier de prix par nuit. Le contrat/CGV trouvé est toujours explicitement saison 2025; il précise que taxe locale 0,66 €/adulte de plus de 18 ans/nuit et écoparticipation 0,40 €/personne/nuit sont dues à l’arrivée et exclues du prix, avec acompte de 30 %. Aucun tarif opérateur 2027 confirmé.",
-      "recheckNextCheck": "Attendre le contrat et barème 2027; ne pas reconduire les taxes/écoparticipations 2025. Séparer tarifs de nuit, taxe, écoparticipation, frais de dossier et acompte.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 204,
+      "recheckFinding": "La page officielle d’emplacement confirme des parcelles d’au moins 80 m² pour camping/caravaning, jusqu’à 6 personnes, avec électricité disponible; la FAQ précise une place de stationnement par parcelle. Le contrat public accessible reste explicitement saison 2025 (taxe 0,66 €/adulte/nuit et écoparticipation 0,40 €/personne/nuit, hors prix). Aucun tarif ou calendrier 2027 affiché.",
+      "recheckNextCheck": "Obtenir grille et calendrier 2027, puis confirmer forfait camping-car, électricité incluse ou en option, taxe, écoparticipation et frais. Ne pas reconduire les composantes du contrat 2025.",
       "recheckTariffSource": "https://www.rochelets.com/emplacement-camping-saint-brevin-les-pins/",
-      "recheckContract2025Source": "https://cdn.rochelets.com/uploads/pdf/contrat-de-location-et-cgv-fr.pdf"
+      "recheckContract2025Source": "https://cdn.rochelets.com/uploads/pdf/contrat-de-location-et-cgv-fr.pdf",
+      "recheckSource": "https://www.rochelets.com/emplacement-camping-saint-brevin-les-pins/",
+      "recheckConditionsSource": "https://www.rochelets.com/hebergements/emplacement/",
+      "recheckFaqSource": "https://www.rochelets.com/faq/",
+      "recheckContractSource": "https://cdn.rochelets.com/uploads/pdf/contrat-de-location-et-cgv-fr.pdf"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000046",
@@ -814,15 +819,17 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/le-port-cheri",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 181,
-      "recheckFinding": "Lot 181 (05/11/2026) : le site opérateur affiche un prix d’appel de 20 €/jour pour l’emplacement, sans millésime ni ventilation détaillée; l’emplacement inclut le raccordement 10 A et est ouvert du 1er avril au 30 novembre. CampingFrance affiche en parallèle 26,50 €/jour sous « tarifs 2026 » pour le forfait camping-car; catégories/inclusions à réconcilier, ne pas fusionner. CGV/FAQ opérateur : acompte 30 %, caution badge emplacement 20 €, supplément animal 5 €/jour. Aucun tarif public opérateur 2027 confirmé.",
-      "recheckNextCheck": "Obtenir un tarif 2027 daté ou panier au moteur; réconcilier 20 €/jour sans année et 26,50 €/jour secondaire 2026; confirmer taxe et suppléments séparément.",
-      "recheckTariffSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/le-port-cheri",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 204,
+      "recheckFinding": "La page officielle actuelle publie un prix d’appel « à partir de 20 €/jour » pour les emplacements, et précise que le forfait comprend 2 personnes; emplacements camping-car disponibles avec branchement 10 A. Aucun millésime n’est indiqué et la page ne clarifie pas si l’électricité est comprise dans les 20 €. Le site secondaire CampingFrance conserve un montant de 26,50 €/jour explicitement 2026. Ne pas fusionner ces prix ni les présenter comme tarif 2027.",
+      "recheckNextCheck": "Obtenir un devis/panier opérateur daté 2027; faire préciser la période du prix d’appel 20 €, inclusion de l’électricité 10 A, taxe et suppléments. Réconcilier avec le repère secondaire 26,50 € de 2026.",
+      "recheckTariffSource": "https://www.camping-leportcheri.com/",
       "recheckOfficialTariffSource": "https://www.camping-leportcheri.com/",
       "recheckOfficialPitchSource": "https://www.camping-leportcheri.com/emplacements-camping-pornic",
       "recheckConditionsSource": "https://www.camping-leportcheri.com/froire-aux-questions",
-      "recheckSecondaryTariffSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/le-port-cheri"
+      "recheckSecondaryTariffSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/le-port-cheri",
+      "recheckSource": "https://www.camping-leportcheri.com/",
+      "recheckFaqSource": "https://www.camping-leportcheri.com/froire-aux-questions"
     },
     {
       "sourceId": "ACCAMPDL044V500A9A",
