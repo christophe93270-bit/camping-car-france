@@ -3512,6 +3512,95 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD",
       "recheckSecondary2026Source": "https://park4night.com/fr/place/484440",
       "recheckEnglishSource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord"
+    },
+    {
+      "sourceId": "node/11786823109",
+      "name": "Parking camping-car de Plessé – près de l'église (OSM)",
+      "checkedAt": "2026-11-07",
+      "lot": 209,
+      "status": "nuitée_ou_tarif_2027_à_confirmer",
+      "finding": "Fiche OSM existante contrôlée rapidement. Aucun tarif, service technique, durée limite ou autorisation nocturne officielle trouvé pour le point près de l'église. À distinguer du plan d'eau de Buhel et de la Ferme de la Piardière; prix maintenu « Non confirmé ».",
+      "nextCheck": "Garder l'avertissement visible; ne rechercher plus loin que si une source municipale ou une correction OSM apporte une information.",
+      "source": "https://www.openstreetmap.org/node/11786823109"
+    },
+    {
+      "sourceId": "node/14277689206",
+      "name": "CAMPING-CAR PARK l'École de Guérande – chemin de la Tonnelle",
+      "checkedAt": "2026-11-07",
+      "lot": 209,
+      "status": "tarif_partiel_2027",
+      "finding": "Page exploitant : 12 €/24 h et taxe 0 € du 01/11/2026 au 31/12/2027. Réservation obligatoire, accès limité aux vacances scolaires, jours fériés et week-ends; aucun service d'eau, vidange ou électricité. Date d'entrée en vigueur corrigée dans la fiche.",
+      "nextCheck": "Tarif 2027 affiché; recontrôler le jour de réservation, sans recherche complémentaire.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/camping-car-a-lecole-de-guerande"
+    },
+    {
+      "sourceId": "way/909611149",
+      "name": "Parking de la Grotte Saint-Jean – Corcoué-sur-Logne",
+      "checkedAt": "2026-11-07",
+      "lot": 209,
+      "status": "tarif_2027_non_confirme",
+      "finding": "Tourisme Sud Retz confirme 4 places gratuites toute l'année 2026 et eau par carte bancaire en zone de services, sans montant publié. Même ensemble de quatre places que la fiche régionale ACCAMPDL044V5006F5 : ne pas doubler la capacité.",
+      "nextCheck": "Conserver la mention de site partagé; ne pas rechercher de prix d'eau tant qu'aucun montant n'est publié.",
+      "source": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/"
+    },
+    {
+      "sourceId": "way/909618351",
+      "name": "Aire municipale rue des Papillons – Les Sorinières",
+      "checkedAt": "2026-11-07",
+      "lot": 209,
+      "status": "service_sans_nuitée_confirmée",
+      "finding": "La mairie confirme eau et vidanges gratuites ainsi que des places à proximité; ne publie ni tarif de nuitée ni permission/durée de stationnement nocturne. La gratuité des services n'est pas présentée comme gratuité ou autorisation de nuit.",
+      "nextCheck": "Garder la réserve; aucun tarif de nuitée à inscrire sans confirmation municipale.",
+      "source": "https://www.ville-sorinieres.fr/contacts/aire-de-camping-car/"
+    },
+    {
+      "sourceId": "way/1317028497",
+      "name": "Aire de stationnement Barrière Saint-Pierre – Ancenis",
+      "checkedAt": "2026-11-07",
+      "lot": 209,
+      "status": "nuitée_ou_tarif_2027_à_confirmer",
+      "finding": "Document touristique officiel départemental publié en 2026 confirme le parking, eau, toilettes et tables; aucun tarif de nuitée, autorisation nocturne ou capacité actuelle n'est publié. Tarif maintenu « Non confirmé ».",
+      "nextCheck": "Ne pas extrapoler la capacité 2/3 places ni la nuitée; reprendre seulement si la mairie publie des conditions.",
+      "source": "https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/3136/aire-de-stationnement-barriere-st-pierre-ancenis.pdf"
+    },
+    {
+      "sourceId": "way/1317588157",
+      "name": "Parking camping-car gratuit d'Ermur – Pornichet",
+      "checkedAt": "2026-11-07",
+      "lot": 209,
+      "status": "information_2027_sans_prix",
+      "finding": "Pornichet Tourisme confirme le stationnement gratuit (0 €), ouvert toute l'année, sans services techniques. Aucun changement tarifaire nécessaire.",
+      "nextCheck": "Aucun contrôle supplémentaire requis; vérifier la signalisation locale avant séjour.",
+      "source": "https://www.pornichet.fr/aire-daccueil-dermur"
+    },
+    {
+      "sourceId": "way/1323469438",
+      "name": "CAMPING-CAR PARK Saint-Père-en-Retz – Écodomaine de la Goguillais",
+      "checkedAt": "2026-11-07",
+      "lot": 209,
+      "status": "tarif_partiel_2027",
+      "finding": "L'exploitant publie 13 €/24 h du 01/11/2026 au 31/12/2027 et 0,88 € de taxe/24 h sur la même période, soit 13,88 € indicatifs. Entrée en vigueur corrigée dans la fiche; forfait 5 h + services à 6 € sans période 2027 explicite.",
+      "nextCheck": "Valeurs 2027 publiées; vérifier frais de carte et total au paiement avant déplacement.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/saint-pere-en-retz"
+    },
+    {
+      "name": "CAMPING-CAR PARK Blain – La Petite Arche",
+      "checkedAt": "2026-11-07",
+      "lot": 209,
+      "status": "informations_contradictoires",
+      "finding": "Tableau officiel saisonnier : 12,73 €/24 h du 01/10/2026 au 31/12/2027; taxe 1,10 € limitée à 2026. L'encart « Right now » affichait 14,94 €, contradictoire avec le tableau (total 13,83 € avec la taxe 2026). Barème saisonnier conservé, sans reprendre le total dynamique.",
+      "nextCheck": "Vérifier le montant du panier au moment du déplacement; aucune recherche sur les campings voisins.",
+      "source": "https://www.campingcarpark.com/en_GB/motor-home/pays-de-la-loire/loire-atlantique/blain?areaType=stopover-site-motorhome",
+      "recheckTariffSource": "https://www.campingcarpark.com/en_GB/motor-home/pays-de-la-loire/loire-atlantique/blain?areaType=stopover-site-motorhome"
+    },
+    {
+      "name": "CAMPING-CAR PARK Pornic – Bienvenue au siège",
+      "checkedAt": "2026-11-07",
+      "lot": 209,
+      "status": "tarif_partiel_2027",
+      "finding": "L'exploitant confirme 12,73 €/24 h du 01/11/2026 au 31/12/2027, taxe de séjour 2026 de 1,32 € en sus, soit 14,05 € indicatifs. La taxe 2027 n'est pas publiée; tarif enregistré déjà correct.",
+      "nextCheck": "Vérifier taxe et total au paiement pour un séjour 2027.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic?areaType=aire-etape-camping-car"
     }
   ]
 }
