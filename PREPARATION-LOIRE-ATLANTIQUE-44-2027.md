@@ -1422,3 +1422,13 @@ Sources :
 - Aucun tarif camping-car complet 2027 confirmé. Aucun lieu ajouté. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 216](AUDIT-44-2027-LOT216.md).
+
+
+## Lot 217 — 7 novembre 2026
+
+- **Au Soir d’Été :** PDF opérateur 2027 : forfait camping-car 35 m², 1–2 personnes, électricité, sanitaires et véhicule inclus, à 22/31/43 €/nuit selon saison. Taxe 0,66 €/adulte/nuit; inclusion contradictoire dans le PDF/CGV. Prix d’appel d’accueil à 21 € sans dates/formule, non retenu comme tarif daté.
+- **Le Beaupré :** devis officiel ponctuel à 31 € pour une nuit du 02 au 03/04/2027 (2 personnes, véhicule, 6 A); taxe/frais non visibles. Page tarifs sans montant.
+- **Camping de la Baie :** saison 09/04–03/10/2027 confirmée; aucun tarif opérateur 2027 publié. Prix existants conservés comme historiques 2026.
+- Aucun nouveau lieu/contact. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 217](AUDIT-44-2027-LOT217.md).
