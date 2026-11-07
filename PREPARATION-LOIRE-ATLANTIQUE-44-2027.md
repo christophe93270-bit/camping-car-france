@@ -1353,3 +1353,12 @@ Sources :
 - Aucun lieu/contact ajouté; les fiches non tarifées restent explicites. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 209](AUDIT-44-2027-LOT209.md).
+
+
+## Lot 210 — 7 novembre 2026
+
+- Contrôle rapide de trois fiches existantes. Camping de la Tour, Oudon : tarif stop-accueil municipal 2026 de 17 €/jour; grille standard du camping à partir de 8,60 €/nuit, offre différente. Aucun tarif 2027 publié.
+- Camping de l'Hermitage : prix d'appel camping-car dès 16 €/nuit sans millésime; aucun tarif 2027 daté. Sébilière, Mésanger : eau gratuite et vidange confirmées, tarif et autorisation nocturne non publiés.
+- Aucun nouveau lieu. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 210](AUDIT-44-2027-LOT210.md).
