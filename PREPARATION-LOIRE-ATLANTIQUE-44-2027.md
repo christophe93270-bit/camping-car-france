@@ -1477,3 +1477,13 @@ Sources :
 - Aucun prix camping-car complet 2027 confirmé; aucun changement à `aires-pdl.json`, aucun ajout. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 222](AUDIT-44-2027-LOT222.md).
+
+
+## Lot 223 — trois campings, 7 novembre 2026
+
+- **Camping du Bugeau :** emplacements 10 A confirmés; calendrier officiel encore limité à 2026 et ancien repère ACSI 21 €/nuit réservé à l’édition 2026.
+- **L’Hermitage des Dunes :** site encore sur la saison 2026; aucun montant actuel exploitable pour les emplacements.
+- **Domaine de Bréhadour :** tarif halte 11/16/11 € affiché sans année, pour deux personnes, électricité et véhicule; non confirmé pour 2027.
+- ACSI annonce la disponibilité de l’édition 2027 en décembre. Aucun prix 2027 confirmé; aucun changement aux données principales, aucun ajout. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 223](AUDIT-44-2027-LOT223.md).
