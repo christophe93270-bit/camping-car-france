@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 228 (07/11/2026), trois stationnements existants. Saint-Brevin avenue des Sports : 8 places, gratuit et ouvert toute l'année selon l'Office, durée/nuitée non détaillées. Saint-Nazaire Bois-Joalland : gratuit selon la fiche départementale; route sur le barrage fermée temporairement, accès au parking à vérifier. Port du Vivier : gratuit selon la fiche départementale, conditions de nuitée non précisées. Aucun nouveau lieu; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle : lot 229 (07/11/2026), Teillé (barème actuel non millésimé, dates de saison se chevauchent), Bouffay (gratuit selon fiche touristique, limite 48 h), Choisel (12 €/24 h ou 6 €/5 h affichés par la Ville, sans millésime; correction de l'ancienne attribution à 2026). Aucun tarif explicitement validé pour 2027; aucun nouveau lieu. Compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -2139,10 +2139,10 @@
       "finding": "Fiche existante retenue pour contrôle ; information tarifaire actuelle non établie pour 2027. Ne pas déduire une nuitée ou un tarif de service à partir du stationnement.",
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.teille44.fr/page/descriptif_camping_car",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 157,
-      "recheckFinding": "Relecture lot 157 (04/11/2026) : Teillé : le barème municipal (12/21/30/67,50 € hiver; 8/14/20/45 € été) comprend eau, électricité et vidange, mais n’est pas millésimé. La page fait se chevaucher les saisons le 31 mars; ne pas l’annoncer comme tarif 2027 ni extrapoler le forfait 7 nuits.",
-      "recheckNextCheck": "Mairie : confirmer millésime, bascule saisonnière autour du 31 mars et du 1er novembre, et maintien des montants/services en 2027.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 229,
+      "recheckFinding": "Lot 229 (07/11/2026) : la page municipale publie toujours 12/21/30/67,50 € pour 24/48/72 h/7 nuits du 1er novembre au 31 mars et 8/14/20/45 € du 31 mars au 1er novembre, eau, électricité et vidange incluses. Aucun millésime n’est indiqué; les deux plages se chevauchent le 31 mars et le 1er novembre. Ne pas présenter ces montants comme un tarif 2027.",
+      "recheckNextCheck": "Demander à la mairie le millésime du barème et le montant applicable exactement les 31 mars et 1er novembre; confirmer le maintien en 2027 avant d’annoncer les prix comme valides.",
       "recheckTariffSource": "https://www.teille44.fr/page/descriptif_camping_car"
     },
     {
@@ -2244,10 +2244,10 @@
       "finding": "Fiche existante retenue pour contrôle ; information tarifaire actuelle non établie pour 2027. Ne pas déduire une nuitée ou un tarif de service à partir du stationnement.",
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 157,
-      "recheckFinding": "Relecture lot 157 (04/11/2026) : Bouffay : stationnement toute l’année annoncé gratuit; eau et vidange, camping-cars seulement, maximum 48 h, caravanes exclues. Pas de prix de service séparé indiqué; règle non millésimée 2027.",
-      "recheckNextCheck": "Commune : confirmer gratuité, services, limite 48 h et nuitée en 2027.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 229,
+      "recheckFinding": "Lot 229 (07/11/2026) : Loire-Atlantique Tourisme annonce le stationnement gratuit toute l’année, réservé aux camping-cars, jusqu’à 48 h maximum; eau potable et vidange mentionnées. Aucun millésime 2027 ni coût distinct des services publié.",
+      "recheckNextCheck": "Conserver gratuité et restriction 48 h comme information de la fiche touristique actuelle; ne pas présenter la gratuité comme confirmée spécifiquement pour 2027 et ne pas inventer de tarif service.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille"
     },
     {
@@ -2426,11 +2426,11 @@
       "finding": "La fiche ne présente pas de confirmation tarifaire complète pour 2027. Ne pas reconduire un tarif historique ou une gratuité sans vérifier la saison, ni confondre stationnement, nuitée et service.",
       "nextCheck": "Confirmer auprès de l’exploitant ou de la commune le prix et le droit de nuitée pour 2027, les frais, taxes, services et dates d’application.",
       "source": "https://www.mairie-chateaubriant.fr/camping-cars/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 157,
-      "recheckFinding": "Relecture lot 157 (04/11/2026) : Choisel : tarif municipal explicitement 2026 de 12 € TTC/24 h ou 6 € TTC/5 h par camping-car; garder les deux durées distinctes. Réservation en ligne = canal, pas supplément. Aucun barème 2027 publié.",
-      "recheckNextCheck": "Mairie : tarifs 2027, suppléments éventuels et total affiché au paiement; maintenir les tranches 5 h et 24 h distinctes.",
-      "recheckTariffSource": "https://www.mairie-chateaubriant.fr/gites-chambres-dhotes-et-campings/"
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 229,
+      "recheckFinding": "Lot 229 (07/11/2026) : page officielle de Châteaubriant confirme 20 emplacements, automate de paiement 24 h/24, eau, électricité, vidanges, et tarifs affichés de 12 € TTC par tranche de 24 h ou 6 € TTC par tranche de 5 h. La page ne donne aucun millésime : correction de la note précédente qui disait « explicitement 2026 ». Pas de tarif explicitement daté 2027; frais éventuels au paiement à vérifier.",
+      "recheckNextCheck": "Confirmer auprès de la Ville le millésime et les tarifs applicables en 2027, ainsi que tout frais au paiement; garder 5 h et 24 h comme durées distinctes.",
+      "recheckTariffSource": "https://www.mairie-chateaubriant.fr/camping-cars/"
     },
     {
       "sourceId": "ACCAMPDL044V50028M",
