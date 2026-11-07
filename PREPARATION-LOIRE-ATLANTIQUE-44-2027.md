@@ -1621,3 +1621,21 @@ Sources officielles :
 - [La Limouzinière – Château de la Touche](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-limouziniere)
 
 Prix de nuitée 2027 avec taxe applicable documentée : **1 total aire + taxe confirmé sur 3**. Bouaye et Rouans : taxe 2027 à confirmer.
+
+
+## Lot 235 — trois aires de Préfailles, 7 novembre 2026
+
+| Aire | Barème de base 2027 | Taxe 2027 | État |
+|---|---:|---:|---|
+| Les Pinettes | 14,25 €/24 h | 1,32 €/24 h | Ouverte; total 2027 publié : 15,57 €/24 h |
+| Biochon | 9,57 €/24 h | 1,32 €/24 h | Temporairement fermée, 0/0 place; réouverture non confirmée; total publié si disponible : 10,89 €/24 h |
+| La Pointe | 12,93 €/24 h à partir du 31/12/2026 | 1,32 €/24 h | Ouverte; total 2027 publié : 14,25 €/24 h |
+
+Les grilles opérateur publiées au contrôle incluent maintenant explicitement la taxe 2027 de 1,32 €/24 h. La Pointe conserve un tarif distinct de 14,25 € jusqu'au 30/12/2026, puis passe à 12,93 € au 31/12/2026. Les prix « 5 h + services » à 6 € n'ont pas de date de fin publiée et sont exclus des nuitées. Pour Biochon, le barème ne confirme ni l'ouverture ni la disponibilité : l'aire est marquée temporairement fermée, 0/0 place. Aucun lieu ajouté; compteurs inchangés : **215 / 187 / 28**.
+
+Sources officielles :
+- [Préfailles – Les Pinettes](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-pinettes)
+- [Préfailles – Biochon](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon)
+- [Préfailles – La Pointe](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-la-pointe)
+
+Deux aires ouvertes avec total tarif + taxe documenté pour 2027; Biochon reste fermée sans date de réouverture connue.
