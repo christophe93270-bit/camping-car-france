@@ -1372,3 +1372,13 @@ Sources :
 - Aucun lieu ajouté. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 211](AUDIT-44-2027-LOT211.md).
+
+
+## Lot 212 — 7 novembre 2026
+
+- **Fleur de Brière :** 11–14 €/nuit pour camping-car + électricité publié pour 2026; aucune nuitée camping-car 2027 tarifée par l'exploitant.
+- **Les Mouettes :** page opérateur à 15 €/nuit sans année, PDF au 01/01/2024 à 19,50 €/nuit. Contradiction maintenue; prix toujours non confirmé.
+- **La Guichardière :** borne eau/vidange à 6 € pour passants (service seul, sans nuitée); aucun prix de parcelle 2027.
+- Aucun lieu ajouté; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 212](AUDIT-44-2027-LOT212.md).
