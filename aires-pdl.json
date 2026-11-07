@@ -10845,12 +10845,12 @@
       "Piscine couverte, sanitaires et services du camping réservés aux séjournants",
       "Aucun droit établi d'accès à une vidange extérieure sans séjour"
     ],
-    "price": "Forfait 2026 du 01/04 au 26/09 pour deux personnes, une voiture et électricité : 19 à 33 € / nuit selon saison (Office de tourisme La Baule-Guérande). Ne pas assimiler les tarifs des mobil-homes aux emplacements camping-car.",
+    "price": "Tarifs officiels emplacements 2026, pour 1–2 personnes, 1 véhicule et électricité, hors taxe de séjour : 19 €/nuit (01/04–03/07 et 05/09–26/09), 21 € (Pâques 03–05/04 et 29/08–04/09), 25 € (ponts de mai), 26 € (04–10/07 et 22–28/08), 30 € (11–24/07 et 15–21/08), 33 € (25–31/07), 35 € (01–14/08). Aucun tarif 2027 confirmé.",
     "priceYear": 2026,
-    "priceCheckedAt": "2026-10-20",
-    "priceSource": "https://www.labaule-guerande.com/offres/camping-lile-de-kernodet-camping-paradis-saint-molf-fr-6011359/",
-    "priceEvidenceDocument": "https://www.labaule-guerande.com/offres/camping-lile-de-kernodet-camping-paradis-saint-molf-fr-6011359/",
-    "priceVerification": "tourisme_local_officiel_2026",
+    "priceCheckedAt": "2026-11-07",
+    "priceSource": "https://camping-iledekernodet.com/wp-content/uploads/2026/04/resume-tarifs-2026.pdf",
+    "priceEvidenceDocument": "https://camping-iledekernodet.com/wp-content/uploads/2026/04/resume-tarifs-2026.pdf",
+    "priceVerification": "grille_officielle_exploitant_2026_composants_emplacement_1_2_personnes_vehicule_electricite",
     "status": "Longue Haleine, 19 route de La Turballe, 44350 Saint-Molf. Camping Paradis privé, saison achevée le 26 septembre 2026. À environ 730 m de la halte Pont de Clin répertoriée séparément (nuitée non établie sur cette halte publique) ; aucune fusion : adresse, exploitant et prestations sont différents. 12 emplacements nus selon l'office, les 95 emplacements classés concernent l'ensemble du camping.",
     "contactPhone": "02 40 62 55 62",
     "contactEmail": "contact@camping-iledekernodet.com",
@@ -10860,7 +10860,8 @@
     "capacityBarePitchesPublished": 12,
     "seasonalDates2026": "01/04/2026–26/09/2026",
     "dataAttribution": "Office de tourisme La Baule-Guérande et e-SPRIT, saison 2026",
-    "importReview": "Lot 42 du 20/10/2026 : identité, GPS, téléphone et email via e-SPRIT (fiche actualisée le 17/10/2026), tarif de nuitée 19–33 € et accueil camping-car via La Baule-Guérande, 12 emplacements nus."
+    "importReview": "Lot 42 du 20/10/2026 : identité, GPS, téléphone et email via e-SPRIT (fiche actualisée le 17/10/2026), tarif de nuitée 19–33 € et accueil camping-car via La Baule-Guérande, 12 emplacements nus.",
+    "priceEvidenceNote": "PDF officiel Tarifs 2026, ligne Emplacements : 1 ou 2 personnes + 1 véhicule + électricité, hors taxe de séjour. Le pic du 01/08 au 14/08 est à 35 €/nuit; la fourchette auparavant reprise (19–33 €) omettait ce tarif. Écoparticipation 2026 et frais de réservation à séparer; aucun barème 2027."
   },
   {
     "department": "44",
@@ -12300,6 +12301,15 @@
       "excludesOrRequiresConfirmation": "carte ACSI valide à acheter séparément, taxes locales, électricité au-delà du plafond, frais et suppléments éventuels ; tarif sans carte non confirmé",
       "programRulesUrl": "https://www.acsi.eu/fr/informations-pour-les-campings/produits-pour-les-campings/campingcard-acsi/",
       "sourceUrl": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/le-croisic/camping-la-pierre-longue-110206/"
+    },
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-07",
+      "status": "booking_only",
+      "label": "Ouverture 2027 annoncée du 2 avril au 1er novembre — aucun tarif 2027 confirmé",
+      "note": "L’Office de Tourisme du Croisic publie une ouverture du 02/04 au 01/11/2027 et mentionne 156 emplacements. La page de l’exploitant confirme les emplacements camping-car et les services, mais conserve les informations de saison 2026 et n’affiche aucun tarif 2027. La page de l’exploitant indique 158 emplacements; écart de capacité à clarifier. Ne pas extrapoler l’offre ACSI 2026 ni les dates aux prix 2027.",
+      "source": "https://www.tourisme-lecroisic.fr/es_rent_period/2-avril-au-1er-novembre-2027/",
+      "capacitySource": "https://www.campinglapierrelongue.com/emplacements.htm"
     }
   },
   {
