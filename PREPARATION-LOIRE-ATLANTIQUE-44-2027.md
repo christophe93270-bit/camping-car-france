@@ -1362,3 +1362,13 @@ Sources :
 - Aucun nouveau lieu. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 210](AUDIT-44-2027-LOT210.md).
+
+
+## Lot 211 — 7 novembre 2026
+
+- **Mirabel La Renaudière :** camping toujours fermé après l'incendie; réouverture 2027 et réservations sans date confirmée. Tarif 21–48 €/nuit conservé comme historique 2026 uniquement.
+- **Sandaya Le Fief :** saison 02/04–07/11/2027 annoncée, mais réservations d'emplacements encore à venir et aucun tarif officiel 2027 publié.
+- **La Dune de Jade :** emplacements camping-car confirmés; aucun prix de nuitée 2027 trouvé. Grille 25,60–45,20 € conservée comme historique 2026.
+- Aucun lieu ajouté. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 211](AUDIT-44-2027-LOT211.md).
