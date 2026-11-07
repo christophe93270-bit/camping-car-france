@@ -1517,3 +1517,13 @@ Sources :
 - Deux mises à jour de données; aucun ajout. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 226](AUDIT-44-2027-LOT226.md).
+
+
+## Lot 227 — trois campings, 7 novembre 2026
+
+- **Les Brillas :** emplacements camping-car et 16 A; le tarif nécessite des dates dans le moteur officiel. Aucun tarif public 2027 confirmé; les 19–29 € restent 2026 et les 21,42 € Pitchup restent non datés.
+- **Les Écureuils :** ouverture officielle du 02/04 au 26/09/2027. Le barème disponible reste 2026 (21–59 €/nuit); promotions affichées sans conditions 2027 établies.
+- **Les Bleuets :** grille toujours explicitement 2026 (20–36 €/nuit, tente/caravane + véhicule); le forfait camping-car 2027 n'est pas confirmé. Électricité et taxe séparées.
+- Aucun tarif complet camping-car 2027 confirmé; aucun nouveau lieu/contact. Fiches existantes et saison des Écureuils mises à jour. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 227](AUDIT-44-2027-LOT227.md).
