@@ -1277,3 +1277,12 @@ Sources :
 - Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 201](AUDIT-44-2027-LOT201.md).
+
+## Lot 202 — 7 novembre 2026
+
+- **L’Océan, Le Croisic :** réservations 2027 ouvertes; saison officielle 03/04–26/09/2027, mais page tarifaire encore 2026. Prix d’appel déjà relevés pour deux nuits (2 pers.) : 70 € Confort ou 88 € Grand Confort; panier final, taxe et frais à vérifier. Ce ne sont pas des prix par nuit.
+- **La Falaise, La Turballe :** saison 26/03–30/10/2027 confirmée; prix de séjour déjà relevés pour 7 nuits du 26/03 au 02/04 : 247,50 € emplacement nu eau+10 A, 261,50 € vue mer, 366,50 € sanitaires privés. Taxes et frais finaux non visibles; conserver les montants comme devis partiels, sans les diviser par sept.
+- **La Boutinardière, Pornic :** page tarifaire opérateur désormais intitulée « Tarifs général 2027 »; ouverture officielle 02/04–27/09/2027, mais montants non rendus dans la page. CampingFrance indique en secondaire 65 €/nuit pour le forfait avec deux adultes, électricité +9 €, adulte supplémentaire +8 €, enfant +7 €; à confirmer opérateur.
+- Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 202](AUDIT-44-2027-LOT202.md).
