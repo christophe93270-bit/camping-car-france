@@ -1567,3 +1567,21 @@ Sources :
 - Aucun tarif complet camping-car 2027 confirmé; aucun nouveau lieu/contact. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 231](AUDIT-44-2027-LOT231.md).
+
+
+## Lot 232 — trois aires CAMPING-CAR PARK de Piriac-sur-Mer, 7 novembre 2026
+
+| Aire | Base 24 h couvrant 2027 (hors taxe) | Total actuellement affiché (taxe 2026 incluse) |
+|---|---:|---:|
+| Lérat | 13,74 € | 14,96 € |
+| Brambell | 10,79 € | 12,01 € |
+| La Tranchée | 13,95 € | 15,17 € |
+
+Les pages réseau affichent une taxe de séjour de 1,22 €/24 h jusqu’au 31/12/2026 seulement ; les totaux actuels ne sont donc pas des totaux 2027 confirmés. Les tarifs de base sont publiés respectivement du 30/10/2026, du 24/10/2026 et du 03/11/2026 jusqu’au 31/12/2027. Le forfait 5 h + services à 6 € est visible, sans période d’application explicitée. À Lérat, l’opérateur signale une coupure d’eau sur la borne pour incident technique. Aucun lieu ajouté ; compteurs inchangés : **215 fiches / 187 avec filtre nocturne / 28 exclues**.
+
+Sources officielles :
+- [Piriac – Lérat](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-lerat)
+- [Piriac – Brambell](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-brambell)
+- [Piriac – La Tranchée](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee)
+
+Prix de nuitée 2027 avec taxe totale applicable confirmée : **0 sur 3**. Les trois fiches restent au statut partiel.
