@@ -11269,11 +11269,17 @@
     "capacityOperatorEvidenceSource": "https://www.guerande-camping.com/nous-contacter/",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-04",
+      "checkedAt": "2026-11-07",
       "status": "booking_only",
-      "label": "Saison annoncée du 17 avril au 26 septembre 2027 ; prix à confirmer.",
-      "note": "Le site officiel annonce ces dates et des réservations en ligne toute l'année. Aucun forfait chiffré 2027 confirmé dans les pages consultées. Vérifier le prix pour un camping-car et deux adultes, l'électricité, la taxe, les suppléments et les durées minimales ; distinguer Standard, Premium et Premium +.",
-      "source": "https://www.guerande-camping.com/"
+      "label": "Saison du 17 avril au 26 septembre 2027. Forfait standard pour deux avec électricité 10 A. Tarif officiel à confirmer.",
+      "note": "Le site officiel annonce ces dates et des réservations en ligne toute l'année. Aucun forfait chiffré 2027 confirmé dans les pages consultées. Vérifier le prix pour un camping-car et deux adultes, l'électricité, la taxe, les suppléments et les durées minimales ; distinguer Standard, Premium et Premium +. Lot 239 : le forfait Standard décrit par le camping couvre deux personnes, un camping-car et l’électricité 10 A. CampingFrance indique 55 €/nuit dans sa rubrique 2027, sans permettre de confirmer un prix direct pour une période précise.",
+      "source": "https://www.guerande-camping.com/",
+      "validFrom": "2027-04-17",
+      "validThrough": "2027-09-26",
+      "secondaryRate2027EUR": 55,
+      "secondaryRateUnit": "night",
+      "secondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/guerande/camping-de-letang-du-pays-blanc",
+      "secondarySourceType": "secondary"
     },
     "season2027Info": {
       "checkedAt": "2026-11-07",
@@ -11364,10 +11370,10 @@
     "operatorPageCheckedAt": "2026-10-23",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-04",
+      "checkedAt": "2026-11-07",
       "status": "booking_only",
       "label": "Village vacances 2027 annoncé — accueil camping-car à confirmer",
-      "note": "Cévéo annonce le village du 2 avril au 10 octobre 2027 et l'ouverture des ventes été le 17 novembre. La présentation porte sur les chalets et les formules de séjour : ces dates ne prouvent pas l'ouverture des parcelles camping-car. Confirmer leur existence et leur disponibilité en 2027 avant de demander le prix, les taxes et les frais.",
+      "note": "Cévéo annonce le village du 2 avril au 10 octobre 2027 et l'ouverture des ventes été le 17 novembre. La présentation porte sur les chalets et les formules de séjour : ces dates ne prouvent pas l'ouverture des parcelles camping-car. Confirmer leur existence et leur disponibilité en 2027 avant de demander le prix, les taxes et les frais. Lot 239 : les dates du village sont confirmées sur la page Cévéo. La page présente la location de chalets et la demi-pension. La disponibilité d’emplacements pour camping-cars reste à confirmer.",
       "source": "https://www.ceveo.com/residence/mesquer-pays-de-guerande",
       "touristTaxConfirmed": false
     }
@@ -11413,10 +11419,10 @@
     "priceEvidenceNote": "2026 : forfait défini par l'exploitant (2 personnes, camping-car, sanitaire privé, électricité) mais montant de nuitée non affiché ; conserver « Non confirmé ». 2027 : montant promotionnel de 186 € pour 7 nuits, dates/catégorie définies ; ne pas convertir en tarif par nuit ni en grille annuelle. Le prix promo et les conditions sont consignés sous season2027.",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-04",
+      "checkedAt": "2026-11-07",
       "status": "promotion_only",
-      "label": "Offre officielle : 186 € pour 7 nuits (2–9 avril) sur emplacement avec sanitaire privé, après remise de 5 % ; prix de base annuel et total taxe comprise à confirmer.",
-      "note": "Contrôle du 03/11/2026 : le site Sunêlia affiche 196 € barrés et 186 € pour le séjour du 02 au 09/04/2027 sur un emplacement avec sanitaire privé. C’est un total pour 7 nuits après Early Booking, et non un tarif par nuit ni une grille annuelle. Offre annoncée : remise de 5 % dès 7 nuits sur les emplacements avec sanitaires privés, séjour du 02/04 au 19/09/2027, réservation avant le 31/12/2026, non cumulable ; frais de dossier et préférence d’emplacement offerts à partir de 7 nuits. La page de la catégorie indique un tarif de base pour 2 personnes, un camping-car et l’électricité ; elle décrit aussi un point d’eau sur la parcelle sans confirmer explicitement son inclusion tarifaire. Deux pages officielles se contredisent sur la fermeture : la page principale annonce le 12/09/2027, tandis que la page détaillée de l’emplacement annonce le 19/09/2027. Ne pas valider les dates du 13 au 19 septembre sans confirmation de l’exploitant. Les CGV Sunêlia indiquent que la taxe de séjour est en supplément et que des frais de dossier peuvent s’appliquer, mais l’offre annonce les frais offerts pour les séjours d’au moins 7 nuits : confirmer le total final au récapitulatif, surtout la taxe 2027. Le tarif de nuitée 2026 reste Non confirmé ; aucune grille annuelle 2027 ni tarif de base séparé n’est confirmé.",
+      "label": "Offre de 5 % dès 7 nuits avec sanitaire privé. Exemple relevé le 3 novembre : 186 € pour 7 nuits du 2 au 9 avril 2027.",
+      "note": "Contrôle du 03/11/2026 : le site Sunêlia affiche 196 € barrés et 186 € pour le séjour du 02 au 09/04/2027 sur un emplacement avec sanitaire privé. C’est un total pour 7 nuits après Early Booking, et non un tarif par nuit ni une grille annuelle. Offre annoncée : remise de 5 % dès 7 nuits sur les emplacements avec sanitaires privés, séjour du 02/04 au 19/09/2027, réservation avant le 31/12/2026, non cumulable ; frais de dossier et préférence d’emplacement offerts à partir de 7 nuits. La page de la catégorie indique un tarif de base pour 2 personnes, un camping-car et l’électricité ; elle décrit aussi un point d’eau sur la parcelle sans confirmer explicitement son inclusion tarifaire. Deux pages officielles se contredisent sur la fermeture : la page principale annonce le 12/09/2027, tandis que la page détaillée de l’emplacement annonce le 19/09/2027. Ne pas valider les dates du 13 au 19 septembre sans confirmation de l’exploitant. Les CGV Sunêlia indiquent que la taxe de séjour est en supplément et que des frais de dossier peuvent s’appliquer, mais l’offre annonce les frais offerts pour les séjours d’au moins 7 nuits : confirmer le total final au récapitulatif, surtout la taxe 2027. Le tarif de nuitée 2026 reste Non confirmé ; aucune grille annuelle 2027 ni tarif de base séparé n’est confirmé. Lot 239 : remise de 5 % et frais de dossier offerts toujours affichés dans les conditions consultées le 07/11/2026. Les 186 € correspondent au relevé du 03/11/2026 et le montant actuel reste à vérifier dans le moteur.",
       "source": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/",
       "discountPercent": 5,
       "minimumNights": 7,
