@@ -11525,10 +11525,10 @@
       "Sanitaires du camping, accès réservé aux séjournants",
       "Vidange de camping-cars extérieurs et forfait technique non documentés"
     ],
-    "price": "Devis officiel ponctuel : 31 €/nuit du 02 au 03/04/2027 pour 2 personnes, un véhicule et électricité 6 A. Taxes et frais obligatoires ne sont pas détaillés; ce n’est pas un tarif annuel.",
-    "priceCheckedAt": "2026-11-04",
-    "priceVerification": "devis_operateur_ponctuel_2027_taxes_frais_non_visibles",
-    "priceEvidenceDocument": "https://reservation.secureholiday.net/fr/13449/search/product-view/55265?filterStatus=hideFilters&dateStart=02%2F04%2F2027&dateEnd=03%2F04%2F2027&travelers=2%40&productType=pitch",
+    "price": "Non confirmé",
+    "priceCheckedAt": "2026-10-20",
+    "priceVerification": "grille_nuitee_camping_car_2026_non_verifiable_sur_page_tarifs",
+    "priceEvidenceDocument": "https://www.lebeaupre.com/fr/",
     "priceEvidenceNote": "La page tarifs de l'exploitant demande une vérification supplémentaire et ne fournit pas de montant 2026 fiable à copier. Aucun montant issu des locations de mobil-homes ne peut être assimilé à un forfait camping-car. Vérification 21/10/2026 : l'accueil du camping indique explicitement ouverture du 01/04 au 30/09/2026 mais ne publie aucun barème de nuitée camping-car 2026 vérifiable.",
     "status": "Camping-car accepté sur les emplacements. Un devis opérateur daté du 02–03/04/2027 donne 31 €/nuit pour 2 personnes + véhicule + 6 A; taxes/frais non détaillés. La page « Tarifs » actuelle ne rend aucun barème et aucun tarif annuel 2027 n'est confirmé.",
     "contactPhone": "02 40 42 64 16",
@@ -11546,8 +11546,23 @@
     "feesEvidenceDocument": "https://www.lebeaupre.com/images/site/pdf/CGV.pdf",
     "feesEvidenceCheckedAt": "2026-10-23",
     "bookingContractSource": "https://www.lebeaupre.com/images/site/pdf/contrat_de_location.pdf",
-    "priceYear": 2027,
-    "priceSource": "https://reservation.secureholiday.net/fr/13449/search/product-view/55265?filterStatus=hideFilters&dateStart=02%2F04%2F2027&dateEnd=03%2F04%2F2027&travelers=2%40&productType=pitch"
+    "indicative2027Quote": "31 € pour une nuit du 02 au 03/04/2027, 2 personnes + véhicule + électricité 6 A; devis opérateur ponctuel, taxe et frais non détaillés, ne constitue pas un barème saisonnier.",
+    "indicative2027QuoteSource": "https://reservation.secureholiday.net/fr/13449/search/product-view/55265?filterStatus=hideFilters&dateStart=02%2F04%2F2027&dateEnd=03%2F04%2F2027&travelers=2%40&productType=pitch",
+    "indicative2027QuoteCheckedAt": "2026-11-04",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-07",
+      "status": "partial",
+      "label": "Devis ponctuel : 31 €/nuit du 02 au 03/04/2027 pour 2 personnes, véhicule et 6 A; taxes/frais à confirmer.",
+      "note": "Le moteur officiel a retourné ce devis daté; la page « Tarifs » ne rend aucun montant et aucune grille annuelle 2027 n'est confirmée. Ce prix ne s'applique pas aux autres dates.",
+      "source": "https://reservation.secureholiday.net/fr/13449/search/product-view/55265?filterStatus=hideFilters&dateStart=02%2F04%2F2027&dateEnd=03%2F04%2F2027&travelers=2%40&productType=pitch",
+      "validFrom": "2027-04-02",
+      "validThrough": "2027-04-02",
+      "unit": "night",
+      "personsIncluded": "2",
+      "electricityIncluded": true,
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "44",
@@ -11568,11 +11583,11 @@
       "Piscine et sanitaires réservés aux personnes hébergées au camping",
       "Point de vidange et conditions d'accès aux non-clients non documentés avec un prix précis"
     ],
-    "price": "Grille officielle 2027 — forfait camping-car 35 m², 1–2 personnes, électricité, sanitaires et un véhicule inclus : 22 €/nuit (02/04–02/07 et 28/08–26/09), 31 € (03/07–30/07 et 21/08–27/08), 43 € (31/07–20/08). Taxe annoncée à 0,66 €/adulte/nuit; son inclusion est contradictoire dans le PDF (présentée parmi les éléments tarifaires puis indiquée comme non comprise dans les CGV). La page d’accueil affiche aussi « à partir de 21 €/nuit » sans période ni formule; ne pas l'utiliser comme barème 2027.",
-    "priceSource": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/tarifs-2027-telephone.pdf",
-    "priceEvidenceDocument": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/tarifs-2027-telephone.pdf",
-    "priceCheckedAt": "2026-11-07",
-    "priceVerification": "grille_operateur_2027_officielle_tax_inclusion_contradictoire",
+    "price": "À partir de 21 € / nuit pour un emplacement camping-car 1 à 2 personnes avec électricité, prix d'appel indiqué par le site exploitant sur sa page présentant la saison 2026. Ce montant n'est pas un tarif confirmé pour toutes les dates, et n'inclut pas nécessairement les taxes ou options. Une promotion tierce de 126 € pour 7 nuits du 16 au 23 septembre 2026 ne vaut pas grille de prix par nuit.",
+    "priceSource": "https://www.camping-soirdete.com/emplacement-camping-loire-atlantique/",
+    "priceEvidenceDocument": "https://www.camping-soirdete.com/emplacement-camping-loire-atlantique/",
+    "priceCheckedAt": "2026-10-20",
+    "priceVerification": "prix_appel_site_exploitant_page_saison_2026_sans_barème_complet",
     "indicative2026Offer": "Campings.com : 126 € pour 7 nuits (16/09–23/09/2026), emplacement camping-car 35 m² 2 personnes électricité 6 A, offre promotionnelle ponctuelle non généralisable.",
     "indicative2026OfferSource": "https://www.campings.com/fr/camping/camping-au-soir-dete-84109",
     "status": "Grille officielle 2027 du forfait camping-car publiée : 22–43 €/nuit selon la période; taxe adulte 0,66 €/nuit, inclusion non résolue. La page d’accueil affiche aussi un prix d’appel de 21 € sans période/fomule précisée.",
@@ -11633,10 +11648,7 @@
         }
       ]
     },
-    "historicalPrice2026": "À partir de 21 € / nuit pour un emplacement camping-car 1 à 2 personnes avec électricité, prix d'appel indiqué par le site exploitant sur sa page présentant la saison 2026. Ce montant n'est pas un tarif confirmé pour toutes les dates, et n'inclut pas nécessairement les taxes ou options. Une promotion tierce de 126 € pour 7 nuits du 16 au 23 septembre 2026 ne vaut pas grille de prix par nuit.",
-    "historicalPrice2026Source": "https://www.camping-soirdete.com/emplacement-camping-loire-atlantique/",
-    "historicalPrice2026CheckedAt": "2026-10-20",
-    "priceYear": 2027
+    "priceYear": null
   },
   {
     "department": "44",
