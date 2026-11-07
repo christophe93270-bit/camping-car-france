@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 219 (07/11/2026), trois fiches existantes. Slow Village Pornic : réservations estivales 2027 ouvertes, parcelle loisirs 100 m²/10 A, sans prix 2027 affiché. Le Deffay : seuls tarifs officiels 2026 trouvés; plateforme Pitchup donne un repère à partir de 32,28 € pour une nuit, deux adultes, avec frais/taxes et date précise à vérifier. Pas du Gû : page opérateur explicitement millésimée 2026, aucune grille 2027. Aucun tarif opérateur 2027 complet confirmé; aucun changement à aires-pdl.json; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 220 (07/11/2026), La Rabine (aucun prix opérateur 2027), La Pindière (officiels 2025; repère de plateforme 17,10 € + électricité 5,70 € sans dates), Le Briord (tarifs locaux 14 € et 17 € contradictoires, saison 2026). Aucun tarif complet 2027 confirmé; aucun changement à aires-pdl.json; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -543,14 +543,15 @@
       "finding": "Index tarifs accessible, sous-page emplacements non récupérée ; aucune grille 2027 recoupée.",
       "nextCheck": "Séparer nuitée, services et ACSI ; obtenir prix 2027.",
       "source": "https://www.camping-la-pindiere.com/27-tarifs",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 179,
-      "recheckFinding": "Lot 179 (05/11/2026) : la page officielle des emplacements reste titrée « Tarifs 2025 »; le tarif 2023 reste le seul PDF listé dans les documents et aucune grille 2027 n’est publiée. Le séjour à l’année ne confirme aucun prix. La fiche PiNCAMP 2026 (16,90–21,10 €/nuit, contrôlée au lot 166) reste un repère tiers, sans taxe ni électricité. Aucun prix 2027 confirmé.",
-      "recheckNextCheck": "Attendre la grille opérateur 2027 ou l’ouverture d’un panier daté; garder tarif 2025/2023, prix PiNCAMP 2026 et borne de services séparés.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 220,
+      "recheckFinding": "Lot 220 (07/11/2026) : la page tarifaire opérateur indique encore des tarifs 2025. PiNCAMP affiche une Campcard ADAC 2027 mais les tarifs de comparaison affichés sont 2026. Pitchup présente un prix à partir de 17,10 € pour une nuit et deux adultes, électricité 10 A en supplément à 5,70 €/nuit; dates de calcul non visibles. Aucun barème opérateur 2027 complet confirmé; le prix de plateforme ne doit pas être traité comme tarif normal daté.",
+      "recheckNextCheck": "Obtenir grille ou devis officiel daté 2027; vérifier si ADAC Campcard 2027 est accepté et à quelles dates, et confirmer taxes/frais.",
       "recheckTariffSource": "https://www.camping-la-pindiere.com/27-tarifs/96-tarifs-emplacements.html",
       "recheckSecondaryTariffSource": "https://www.camping-la-pindiere.com/71-a-telecharger",
       "recheckPitchSource": "https://www.camping-la-pindiere.com/24-camping",
-      "recheckSecondarySource": "https://www.pincamp.fr/campings/camping-la-pindiere"
+      "recheckSecondarySource": "https://www.pincamp.fr/campings/camping-la-pindiere",
+      "recheckBookingSource": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/heric/camping_la_pindiere/"
     },
     {
       "sourceId": "ACCAMEBELAIR",
@@ -652,13 +653,15 @@
       "finding": "Aucun tarif complet 2027 recoupé sur la fiche annuaire.",
       "nextCheck": "Grille municipale ou confirmation du gestionnaire 2027, taxe et services.",
       "source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/machecoul-saint-meme/camping-municipal-la-rabine",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 181,
-      "recheckFinding": "Lot 181 (05/11/2026) : source officielle régionale et touristique confirme l’aire de camping-car sur emplacement équipé au sein du camping, mais aucune grille opérateur 2027 trouvée. CampingFrance affiche un tarif 2026 de 19 €/jour pour le forfait emplacement, 2 adultes inclus; suppléments annoncés séparément (adulte 5,50 €/jour, enfant 3,50 €, électricité 4,50 €, animal 2 €). Ces montants sont secondaires, millésimés 2026, et ne valident pas 2027.",
-      "recheckNextCheck": "Obtenir la délibération/tarif municipal ou barème opérateur 2027; confirmer base (2 adultes) et séparer électricité, personnes supplémentaires, animal et taxe.",
-      "recheckTariffSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/machecoul-saint-meme/camping-municipal-la-rabine",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 220,
+      "recheckFinding": "Lot 220 (07/11/2026) : les fiches institutionnelles confirment les emplacements camping-car, l'aire de services et 131 emplacements (Sud Retz Atlantique). Le règlement opérateur donne fermeture du 01/10 au 19/03 et indique que les redevances suivent le tarif affiché à l'accueil, avec taxe de séjour en supplément. Les repères de prix 2026 disponibles ne sont pas une grille opérateur 2027; aucun prix officiel 2027 trouvé.",
+      "recheckNextCheck": "Obtenir le forfait 2027 par nuitée pour 1–2 adultes et camping-car, électricité, taxe, frais et dates d'ouverture.",
+      "recheckTariffSource": "https://www.camping-la-rabine.com/wp-content/uploads/2025/03/REGLEMENT-INTERIEUR-camping-la-rabine.pdf",
       "recheckOfficialInfoSource": "https://www.sudretzatlantique-tourisme.fr/offres/camping-la-rabine-machecoul-fr-3228729/",
-      "recheckOperatorEvidenceSource": "https://www.machecoul-saint-meme.fr/"
+      "recheckOperatorEvidenceSource": "https://www.machecoul-saint-meme.fr/",
+      "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/183877-CAMPING-LA-RABINE",
+      "recheckTertiarySource": "https://www.sudretzatlantique-tourisme.fr/offres/camping-la-rabine-machecoul-fr-3121189/"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000115",
@@ -3533,15 +3536,16 @@
       "finding": "Le contrôle du lot 163 signalait deux références non millésimées sur la fiche régionale (14 €/nuit forfait de base; 17 €/nuit forfait camping-car dans la version anglaise), alors que les dates d’ouverture affichées concernaient 2026. Aucun tarif 2027 complet confirmé.",
       "nextCheck": "Obtenir un tarif 2027 daté et clarifier la composition du forfait camping-car, les inclusions, les périodes et la taxe de séjour.",
       "source": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 178,
-      "recheckFinding": "Le Briord (lot 178, 05/11/2026) : les fiches régionales affichent encore une saison 2026 uniquement. La fiche FR annonce 6 places, paiement en espèces, ouverture week-ends de mai puis 15/06–15/09/2026, forfait de base à partir de 14 €/nuit (emplacement, 2 personnes, une voiture), taxe 0,20–0,22 €/pers./nuit et adulte supplémentaire 3–5 €. La version EN affiche un forfait camping-car à 17 €/nuit sans année et des périodes d’ouverture divergentes (description 01/06–31/08 vs dates pratiques 15/06–15/09/2026). Aucun tarif 2027 complet vérifié; garder les 14 € et 17 € distincts et historiques/non datés.",
-      "recheckNextCheck": "Attendre le calendrier et un tarif opérateur 2027; préciser forfait camping-car, composition, taxe, services, horaires et modes de paiement. Garder le repère régional de base 14 € et le 17 € EN séparés; aucun contact envoyé.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 220,
+      "recheckFinding": "Lot 220 (07/11/2026) : fiche régionale annonce six emplacements camping-car/tentes, ouverture week-ends de mai puis 15/06–15/09/2026 et prix à partir de 14 €/nuit. Fiche Cirkwi actualisée le 31/10/2026 indique un forfait camping-car de 17 €/nuit; écart de prix non résolu. La taxe de séjour varie aussi entre 0,20 et 0,22 €/personne/nuit selon la fiche régionale. Aucun prix 2027 daté trouvé.",
+      "recheckNextCheck": "Demander au gestionnaire le prix 2027 pour camping-car, deux personnes, électricité et taxe; résoudre l'écart entre 14 € et 17 € et confirmer dates d'ouverture.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
       "recheckEnglishTariffSource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD",
+      "recheckConditionsSource": "https://www.saint-brevin.com/aire-de-camping-le-briord.html",
       "recheckSecondary2026Source": "https://park4night.com/fr/place/484440",
-      "recheckEnglishSource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord"
+      "recheckEnglishSource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord",
+      "recheckSecondarySource": "https://www.cirkwi.com/en/point-interet/3322513-aire-de-camping-le-briord"
     },
     {
       "sourceId": "node/11786823109",
