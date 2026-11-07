@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 202 (07/11/2026), trois campings déjà suivis avec montants partiels 2027. L’Océan : réservations 2027 ouvertes, page de prix encore 2026; prix d’appel déjà relevés pour un séjour de 2 nuits, total final à vérifier. La Falaise : prix de séjours de 7 nuits datés 2027, taxes/frais non détaillés; conserver les montants comme totaux partiels. La Boutinardière : page opérateur « Tarifs général 2027 » et calendrier 02/04–27/09/2027; chiffres non visibles dans la page. Piste secondaire 65 €/nuit + électricité à confirmer par opérateur. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 203 (07/11/2026), trois campings existants. Domaine du Collet : PDF tarifaire officiel explicitement 2026, forfait 2 pers. + véhicule à 25/40 €/nuit selon saison, électrique et taxes/frais séparés; aucun tarif 2027. Le Deffay : site officiel toujours sur tarifs emplacements 2026; aucun prix 2027 daté. Le Pas du Gû : page camping-car avec image tarifs 2026, mise à jour février 2026; aucun montant 2027 publié dans le texte. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -382,16 +382,18 @@
       "finding": "Contrôle lot 122 : aucun tarif officiel 2027 trouvé ; les pages de l’exploitant restent sur la saison 2026. Pour 2026, l’exploitant affiche 25 €/nuit en basse saison et 40 €/nuit en haute saison pour 2 personnes + 1 véhicule ; Destination Pornic affiche 28–40 € pour 2 personnes + 1 voiture. Le minimum diverge de 3 €. Les taxes diffèrent aussi entre la page tarifaire exploitant (0,66 €/personne/nuit), Destination Pornic (0,66 €/adulte/nuit) et les CGV sans millésime visible (0,60 €/adulte/nuit).",
       "nextCheck": "Obtenir la grille officielle datée 2027 et le calendrier d’ouverture. Pour le 2026 historique, demander confirmation du minimum 25 ou 28 €, du champ d’application de l’électricité, et du taux de taxe actuel (0,66 ou 0,60). Garder distincts l’éco-participation 0,35 €/personne/jour et les frais de réservation 25 €. Ne pas reprendre les tarifs d’un tiers comme grille opérateur.",
       "source": "https://www.domaine-du-collet.com/camping-bord-de-mer-pornic",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 178,
-      "recheckFinding": "Domaine du Collet (lot 178, 05/11/2026) : les pages officielles consultées ne publient pas de grille 2027; le site garde une ouverture et un PDF tarifaire 2026. La page de présentation donne 40 €/nuit en haute saison pour 2 personnes, tandis qu’une page officielle d’appel indique « dès 25 €/nuit » pour 2 personnes et un véhicule, sans période ni détail comparable; ne pas les fusionner. Taxe 0,66 €/adulte/nuit, participation environnementale 0,35 €/personne/jour et frais de réservation 25 € sont annoncés séparément dans le contenu officiel disponible, à garder hors prix de base. Aucun tarif 2027 confirmé.",
-      "recheckNextCheck": "Attendre une grille 2027 datée et préciser la portée des prix 25 €/nuit et 40 €/nuit (périodes, inclusions et catégorie); garder séparés taxe, participation environnementale et frais de réservation.",
-      "recheckSource": "https://www.domaine-du-collet.com/camping-bord-de-mer-pornic",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 203,
+      "recheckFinding": "Le PDF officiel est explicitement « Tarifs emplacements 2026 » : forfait nu 2 personnes + 1 véhicule à 25 €/nuit du 01/04 au 03/07 et du 30/08 au 31/10; 40 €/nuit du 04/07 au 29/08. Branchement électrique 7 €/jour, taxe de séjour 0,66 €/personne/nuit, participation environnementale 0,35 €/personne/jour et frais de réservation 25 € séparés. Le site indique encore une ouverture 2026 jusqu’au 31/10; aucune grille 2027 confirmée. Le prix d’appel « dès 25 € » ne doit pas être fusionné avec le forfait haute saison.",
+      "recheckNextCheck": "Obtenir calendrier et grille datés 2027; confirmer composition du forfait camping-car, électricité, taxe, participation et frais applicables. Garder les 25/40 € comme barème 2026 uniquement.",
+      "recheckSource": "https://www.domaine-du-collet.com/uploads/pdf/tarifs-2026.pdf",
       "recheckConditionsSource": "https://www.domaine-du-collet.com/uploads/pdf/cgv.pdf",
       "recheckSecondarySource": "https://www.pornic.com/camping-le-domaine-du-collet.html",
       "recheckTariffSource": "https://www.domaine-du-collet.com/uploads/pdf/tarifs-2026.pdf",
       "recheckSecondaryOfficialPage": "https://www.domaine-du-collet.com/camping-pas-cher-pornic",
-      "recheckOfficialMainPage": "https://www.domaine-du-collet.com/camping-bord-de-mer-pornic"
+      "recheckOfficialMainPage": "https://www.domaine-du-collet.com/camping-bord-de-mer-pornic",
+      "recheckSeasonSource": "https://www.domaine-du-collet.com/emplacements-camping-car-pornic",
+      "recheckOperatorTariffPageSource": "https://www.domaine-du-collet.com/camping-bord-de-mer-pornic"
     },
     {
       "sourceId": "ACCAMEFLEURDEBRIERE",
@@ -436,13 +438,15 @@
       "finding": "Rubriques tarifs explicitement 2026, dont emplacements par nuitée.",
       "nextCheck": "Grille emplacements 2027 et suppléments, distincte des locatifs.",
       "source": "https://www.camping-le-deffay.com/contact-tarifs-acces/",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 180,
-      "recheckFinding": "Lot 180 (05/11/2026) : les pages officielles distinguent clairement les documents « 2026 par nuitée » et « tarifs emplacements 2026 par nuitée »; aucun document tarifaire 2027 trouvé. Le tarif d’emplacement 2026 reste historique et ne valide pas 2027. Les CGV prévoient un coût de 2 €/jour par animal sur emplacement et la réservation n’est effective qu’après acompte et frais de dossier; leurs montants ne doivent pas être ajoutés au tarif de nuit sans justificatif.",
-      "recheckNextCheck": "Recontrôler à l’ouverture des réservations 2027; archiver la grille opérateur emplacement 2027 et distinguer séjour, frais de dossier, assurance facultative, animal et taxe.",
-      "recheckTariffSource": "https://www.camping-le-deffay.com/emplacements-camping/",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 203,
+      "recheckFinding": "Les pages officielles consultées affichent toujours les tarifs d’emplacements 2026 par nuitée, sans grille ou prix de séjour daté pour 2027. Le camping présente 114 emplacements d’environ 100 m² et un moteur de réservation, mais aucun tarif camping-car 2027 confirmé. Les coûts CGV d’animal ou de réservation restent distincts du prix de nuitée.",
+      "recheckNextCheck": "Vérifier le panier officiel pour dates 2027, camping-car et deux adultes; noter le forfait, l’électricité, taxe et frais à partir du récapitulatif final. Ne pas reconduire la grille 2026.",
+      "recheckTariffSource": "https://www.camping-le-deffay.com/contact-tarifs-acces/",
       "recheckTariffIndexSource": "https://www.camping-le-deffay.com/contact-tarifs-acces/",
-      "recheckConditionsSource": "https://www.camping-le-deffay.com/politique-de-confidentialite/"
+      "recheckConditionsSource": "https://www.camping-le-deffay.com/politique-de-confidentialite/",
+      "recheckSource": "https://www.camping-le-deffay.com/emplacements-camping/",
+      "recheckBookingSource": "https://bookingpremium.secureholiday.net/fr/1532/"
     },
     {
       "sourceId": "ACCAMPDL044V51HCFW",
@@ -489,13 +493,15 @@
       "finding": "Source touristique encore 2026 ; distinguer emplacement et locatif.",
       "nextCheck": "Forfait camping-car 2027, électricité, taxe et conditions de séjour.",
       "source": "https://www.enpaysdelaloire.com/hebergements/campings/le-pas-du-gu",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 180,
-      "recheckFinding": "Lot 180 (05/11/2026) : le site officiel présente toujours une image explicitement datée des tarifs camping-car 2026, révisée en février 2026; aucun tarif 2027 affiché ou indexé. Les montants et inclusions de l’image ne sont pas lisibles dans le texte récupéré; ne pas substituer le repère touristique 15–18 €/nuit comme prix opérateur confirmé.",
-      "recheckNextCheck": "Lire l’image tarifaire 2026 ou son moteur, puis attendre le tarif opérateur 2027; distinguer forfait, électricité, taxe et services.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 203,
+      "recheckFinding": "La page tarifaire officielle camping-car montre une image explicitement légendée « tarifs 2026 » et indique une mise à jour du site en février 2026. Aucun montant ou calendrier 2027 n’est publié dans le texte de page consulté. Les tarifs affichés dans l’image restent à lire comme barème 2026 et ne confirment pas une nuitée 2027.",
+      "recheckNextCheck": "Obtenir une grille camping-car 2027 datée et confirmer saison, composition du forfait, personnes, électricité, taxe et frais. Conserver séparément les montants 2026 issus de l’image.",
       "recheckTariffSource": "https://www.campingpasdugu.net/nos-tarifs/nos-tarifs-camping-car/",
       "recheckTariffSecondarySource": "https://www.saint-brevin.com/le-pas-du-gu.html",
-      "recheckSeasonSource": "https://www.campingpasdugu.net/"
+      "recheckSeasonSource": "https://www.campingpasdugu.net/",
+      "recheckSource": "https://www.campingpasdugu.net/nos-tarifs/nos-tarifs-camping-car/",
+      "recheckGeneralTariffSource": "https://www.campingpasdugu.net/nos-tarifs/nos-tarifs-camping/"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000154",
