@@ -1334,3 +1334,13 @@ Sources :
 - Aucun tarif camping-car complet daté 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 207](AUDIT-44-2027-LOT207.md).
+
+
+## Lot 208 — 7 novembre 2026
+
+- **Le Petit Bois, Mesquer :** total officiel de 186 € pour 7 nuits (02–09/04/2027) après remise de 5 %, emplacement avec sanitaire privé; composition finale et taxe non vérifiées. L’offre vaut jusqu’au 19/09, tandis que la saison affichée finit le 12/09.
+- **Les Chalands Fleuris, Saint-André-des-Eaux :** ouverture 03/04–19/09/2027; Forfait A 2 adultes + véhicule sans électricité, Forfait B avec électricité. Prix de base non affichés; frais offerts sur certaines périodes.
+- **Slow Village Pornic, La Plaine-sur-Mer :** réservations été 2027 annoncées; emplacement 100 m² avec Wi-Fi, 10 A max et sanitaires communs. Aucun montant/devis visible.
+- Aucun tarif standard complet de nuitée camping-car 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 208](AUDIT-44-2027-LOT208.md).
