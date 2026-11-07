@@ -1557,3 +1557,13 @@ Sources :
 - Aucun prix de base complet 2027 confirmé; aucun nouveau lieu/contact. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 230](AUDIT-44-2027-LOT230.md).
+
+
+## Lot 231 — trois campings, 7 novembre 2026
+
+- **Pen-Bé, Assérac :** fermeture 2026 maintenue; réouverture 2027 seulement espérée. La grille officielle 2025 (emplacement 7 €, adulte 4 €, enfant <7 ans 2 €, taxe 0,22 €, électricité 3 €) reste historique.
+- **Capfun L’Ève :** exemple 2027 de 693 €/semaine trouvé pour un mobil-home, non applicable aux emplacements camping-car; ces derniers sont décrits avec électricité incluse, prix non publié.
+- **La Riviera :** saison 03/04–12/09/2027 annoncée, mais pages/offres consultées concernent les locations; accueil sur parcelle camping-car non confirmé.
+- Aucun tarif complet camping-car 2027 confirmé; aucun nouveau lieu/contact. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 231](AUDIT-44-2027-LOT231.md).
