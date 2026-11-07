@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 208 (07/11/2026), trois fiches existantes. Le Petit Bois : 186 € affichés pour 7 nuits du 02 au 09/04/2027 après remise de 5 %, total de séjour seulement; composition finale et taxe non vérifiées, l’offre va jusqu’au 19/09 alors que la saison affichée finit le 12/09. Les Chalands Fleuris : saison 03/04–19/09/2027 et formules A/B connues, prix non affichés; frais de dossier offerts sur certaines périodes. Slow Village Pornic : réservations estivales 2027 annoncées, emplacement 100 m², Wi-Fi + 10 A + sanitaires communs, aucun prix/devis visible. Aucun tarif standard complet 2027 confirmé; aucun changement à aires-pdl.json, aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 216 (07/11/2026), trois fiches existantes. Les Paludiers : « à partir de » 118 € pour 7 nuits/2 personnes du 15 au 22/05/2027, composition camping-car/10 A et total final non confirmés; saison 26/03–01/11/2027. La Roseraie : saison 17/04–19/09/2027, emplacements env. 100 m²/10 A, aucun prix 2027; frais non millésimés. Les Forges : aucun montant d'emplacement sur la page tarifs; frais/minimum sans millésime. Aucun tarif camping-car complet 2027 confirmé; aucun changement à aires-pdl.json, aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -290,17 +290,19 @@
       "finding": "Page tarifs sans montant 2027 exploitable ; office encore 2026.",
       "nextCheck": "Prix emplacement 2027, services, taxe et frais.",
       "source": "https://campinglesforges.com/81-tarifs.html",
-      "recheckedAt": "2026-11-06",
-      "recheckLot": 198,
-      "recheckFinding": "Lot 198 (06/11/2026) : la page opérateur de tarifs n’affiche aucun montant d’emplacement. La brochure PDF accessible est une présentation générale et ne fournit pas de grille tarifaire exploitable. Les pages officielles confirment des emplacements camping-car d’environ 100 m² avec électricité 10 A et points d’eau; durée minimale obligatoire, frais de dossier 30 € (ou 60 € si dossier de prise en charge). Aucun calendrier, prix camping-car ou grille opérateur 2027 confirmé.",
-      "recheckNextCheck": "Demander au camping un devis daté 2027 pour 2 adultes/camping-car, avec électricité, taxe, minimum de séjour, frais de dossier et inclusions; séparer frais uniques du prix par nuit.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 216,
+      "recheckFinding": "Lot 216 (07/11/2026) : la page officielle « Tarifs » ne rend aucun montant d'emplacement exploitable. La page pratique précise seulement qu'un minimum de nuits s'applique et des frais de dossier de 30 € (ou 60 € si un dossier de subvention doit être constitué), sans année; circulation des voitures interdite de 23 h à 7 h et parking extérieur gratuit. Les sources officielles déjà contrôlées décrivent des emplacements d'environ 100 m² avec 10 A, mais aucun barème camping-car ni tarif 2027 daté. Ne pas transférer les frais non datés à 2027.",
+      "recheckNextCheck": "Obtenir un devis opérateur daté 2027 pour 2 adultes/camping-car, en séparant tarif nuitée, électricité, taxe, frais de dossier et minimum de séjour; vérifier les conditions de nuitée et stationnement des véhicules.",
       "recheckTariffSource": "https://campinglesforges.com/81-tarifs.html",
       "recheckPitchSource": "https://campinglesforges.com/64-emplacements/93-emplacements-de-camping-a-pornichet.html",
       "recheckContactSource": "https://campinglesforges.com/19-contact",
       "recheckSecondarySource": "https://www.campings.com/fr/camping/camping-les-forges-76633",
       "recheckTariffPageSource": "https://campinglesforges.com/81-tarifs.html",
       "recheckPitchConditionsSource": "https://campinglesforges.com/64-emplacements/45062-informations-pratiques.html",
-      "recheckBrochureSource": "https://campinglesforges.com/usermedia/document-fr-637481248543219063-316.pdf"
+      "recheckBrochureSource": "https://campinglesforges.com/usermedia/document-fr-637481248543219063-316.pdf",
+      "recheckSource": "https://campinglesforges.com/81-tarifs.html",
+      "recheckConditionsSource": "https://campinglesforges.com/64-emplacements/45062-informations-pratiques.html"
     },
     {
       "sourceId": "CCF44-CROISIC-PIERRE-LONGUE-2026",
@@ -3450,12 +3452,13 @@
       "finding": "Contrôle lot 118 : Flower affiche 118 € « à partir de » pour un emplacement et 2 personnes, du 15 au 22/05/2027. Total de séjour de 7 nuits, pas un tarif nuitée ni une grille annuelle. Le Forfait Confort officiel accepte camping-car, 2 personnes, 1 véhicule et électricité 10 A, mais rien ne relie explicitement le prix 118 € à cette formule. Conserver `offerCategoryPriceMatchConfirmed=false`; taxes, frais et montant final à vérifier.",
       "nextCheck": "Dans le panier officiel sur 15–22/05/2027, confirmer la formule chiffrée (Forfait Confort ou autre), 2 personnes, camping-car, 1 véhicule, électricité 10 A, taxe de séjour, frais et total final. Ne pas convertir 118 € en prix par nuit ; ne pas confondre avec la fourchette de nuitée 2026.",
       "source": "https://www.flowercampings.com/camping-loire-atlantique",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : Flower affiche « à partir de 118 € » pour 2 personnes et 7 nuits du 15–22/05/2027. La formule camping-car avec électricité n’est pas rattachée explicitement au total; pas une nuitée.",
-      "recheckNextCheck": "Identifier la formule dans le panier; séparer taxe, frais et total final.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 216,
+      "recheckFinding": "Lot 216 (07/11/2026) : la page Flower affiche toujours « à partir de 118 € » pour 2 personnes et un emplacement du 15 au 22/05/2027, soit un total de séjour de 7 nuits; elle ne précise pas que cette offre correspond au forfait camping-car avec 10 A, ni la taxe et le total panier. La page officielle du camping annonce une saison du 26/03 au 01/11/2027. Ne pas convertir en tarif par nuitée ni publier comme tarif camping-car confirmé.",
+      "recheckNextCheck": "Dans le panier officiel pour 2 adultes + camping-car du 15 au 22/05/2027, confirmer la formule chiffrée, l'inclusion du véhicule et de l'électricité 10 A, la taxe et le total final. Garder 118 € comme prix indicatif total de séjour jusqu'à confirmation du forfait.",
       "recheckSource": "https://www.flowercampings.com/camping-loire-atlantique",
-      "recheckConditionsSource": "https://www.camping-paludiers.com/votre-recherche-de-sejour/"
+      "recheckConditionsSource": "https://www.camping-paludiers.com/votre-recherche-de-sejour/",
+      "recheckSeasonSource": "https://www.camping-paludiers.com/"
     },
     {
       "sourceId": "CCF44-LA-BAULE-ROSERAIE-2026",
@@ -3466,14 +3469,15 @@
       "finding": "Saison annoncée du 17 avril au 19 septembre 2027 ; tarifs à confirmer.",
       "nextCheck": "Dates du site officiel retenues, distinctes des calendriers divergents d'annuaires. La page emplacements indique un minimum de 7 nuits en juillet-août, avec jour d'arrivée libre. Le raccordement électrique 10 A ne prouve pas que l'électricité est incluse dans chaque forfait ; certains emplacements disposent d'eau et d'évacuation avec supplément. Faire préciser prix pour deux adultes, taxe 2027, électricité, frais et formule choisie.",
       "source": "https://www.laroseraie.com/",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 183,
-      "recheckFinding": "Lot 183 (05/11/2026) : les emplacements camping-car sont décrits officiellement, mais aucune grille de prix web 2027 n’a été publiée; le site renvoie à une « grille tarif non web ». Caractéristiques visibles : 10 A sur chaque parcelle, branchement eau/évacuation seulement sur une partie et en supplément; minimum 7 nuits en juillet-août, arrivée libre. Frais de dossier affichés à 30 € en juillet/août (60 € si dossier de subvention), saison/millésime de ces frais non précisé. Ne pas les reprendre comme frais 2027 confirmés.",
-      "recheckNextCheck": "Obtenir une grille web ou devis daté 2027 pour 2 adultes/camping-car; distinguer coût 10 A, eau/évacuation, taxe, frais de dossier et minimum été.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 216,
+      "recheckFinding": "Lot 216 (07/11/2026) : le site opérateur annonce la saison 2027 du 17/04 au 19/09 et accueille les camping-cars. Les emplacements font environ 100 m² avec raccordement 10 A; eau et évacuation ne sont présentes que sur certaines parcelles et sont en supplément. Minimum de 7 nuits en juillet-août. Frais de dossier de 30 € en juillet-août (60 € si dossier de prise en charge), sans millésime tarifaire précisé. Aucune grille ni prix 2027 officiel publié.",
+      "recheckNextCheck": "Attendre ou demander la grille/devis officiel 2027 pour 2 adultes + camping-car; préciser l'électricité, eau/évacuation, taxe, frais de dossier, minimum estival et total final. Ne pas reprendre les frais non millésimés comme montants 2027 confirmés.",
       "recheckSource": "https://www.laroseraie.com/emplacement-de-camping-a-la-baule/",
       "requestDraftAdded": true,
       "recheckBookingSource": "https://www.laroseraie.com/",
-      "recheckConditionsSource": "https://www.laroseraie.com/conditions-generales-de-vente/"
+      "recheckConditionsSource": "https://www.laroseraie.com/conditions-generales-de-vente/",
+      "recheckSeasonSource": "https://www.laroseraie.com/"
     },
     {
       "sourceId": "ACCAMACCAMELESFLOTSBLEUS",
