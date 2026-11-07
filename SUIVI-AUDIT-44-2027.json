@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 223 (07/11/2026), Bugeau (saison 2026, offre ACSI 2026 seulement), Hermitage des Dunes (tarifs emplacement non lisibles, saison 2026), Domaine de Bréhadour (barème halte affiché sans millésime). Édition ACSI 2027 annoncée pour décembre; aucun prix 2027 complet confirmé; aucune modification des données principales; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 224 (07/11/2026), Bôle de Merquel (arrêté : 48 h et droit par nuitée sur l’aire route de la Bôle; tarif municipal 2026 à 7 €, fiche régionale contradictoire sur la durée), Govelle (gratuité provisoire pour dysfonctionnement; barème de référence maintenu), Lingorzé (13,50 €/nuit et eau séparée à 10 €). Un seul changement de donnée : correction de 72 h à 48 h pour l’aire désignée de la Bôle; aucun nouveau lieu. Compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -783,11 +783,13 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/180206-Aire-de-camping-cars-de-la-Bole-de-Merquel",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 166,
-      "recheckFinding": "Lot 166 (04/11/2026) : Bôle de Merquel : arrêté municipal interdit les véhicules couchants 22 h–8 h sur le terrain entre les deux routes, mais autorise les aires désignées route de la Bôle. Localisation exacte de cette fiche à rapprocher; aucun tarif 2027 à appliquer.",
-      "recheckNextCheck": "Vérifier les coordonnées et limites avant d’attribuer tarif ou droit de nuitée.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180206-Aire-de-camping-cars-de-la-Bole-de-Merquel"
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 224,
+      "recheckFinding": "Lot 224 (07/11/2026) : la page municipale des aires renvoie à l'arrêté du 08/04/2021. Celui-ci autorise les camping-cars sur l'aire route de la Bôle, limite le séjour à 48 h et impose un droit pour chaque nuitée; le terrain voisin entre les routes de la Bôle et de Merquel est interdit aux véhicules couchants de 22 h à 8 h. La fiche régionale affiche 72 h et contredit l'arrêté; durée corrigée à 48 h pour l'aire désignée. Grille municipale 2026 : 7 €/nuit pour « Kerlagadec/Bôle »; tarif 2027 à confirmer. Eau 2 €/100 L à la borne distincte.",
+      "recheckNextCheck": "Confirmer auprès de la commune le tarif 2027 et le bon emplacement de la fiche sur l'aire désignée route de la Bôle; ne pas confondre avec le terrain voisin interdit la nuit.",
+      "recheckTariffSource": "https://www.mesquer-quimiac.fr/wp-content/uploads/2026/02/Tarifs-2026-services-communaux.pdf",
+      "recheckSource": "https://www.mesquer-quimiac.fr/wp-content/uploads/2026/02/Tarifs-2026-services-communaux.pdf",
+      "recheckRegulationSource": "https://www.mesquer-quimiac.fr/wp-content/uploads/2021/06/2021-04-08-arrete-camping-cars.pdf"
     },
     {
       "sourceId": "ACCAMECCLAGOVELLE",
@@ -798,11 +800,12 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.ot-batzsurmer.fr/aire-de-camping-cars-de-la-govelle.html",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 166,
-      "recheckFinding": "Lot 166 (04/11/2026) : Govelle : office de tourisme affiche gratuité jusqu’à nouvel ordre pour dysfonctionnement; tarifs de référence 9,26/11,66 €, limite 2 nuitées (48 h). Jeton eau 2 € séparé. Pas de tarif 2027.",
-      "recheckNextCheck": "Confirmer fin gratuité et barème 2027; dissocier stationnement et eau.",
-      "recheckTariffSource": "https://www.ot-batzsurmer.fr/aire-de-camping-cars-de-la-govelle.html"
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 224,
+      "recheckFinding": "Lot 224 (07/11/2026) : l'Office de tourisme affiche toujours une gratuité provisoire « jusqu'à nouvel ordre » en raison d'un dysfonctionnement. La même page affiche le barème saisonnier de référence 9,26 €/nuit (avril–juin et septembre–octobre) ou 11,66 € (juillet–août), taxes comprises, avec limite de 48 h; novembre–mars est gratuit. Jetons d'eau (100 L) et d'électricité (1 h) affichés séparément à 2 €. Ne pas présenter le barème de référence comme le montant actuellement prélevé tant que la gratuité perdure.",
+      "recheckNextCheck": "Vérifier si le dysfonctionnement et la gratuité provisoire ont pris fin, puis confirmer les tarifs 2027 et les coûts des services séparés.",
+      "recheckTariffSource": "https://www.ot-batzsurmer.fr/aire-de-camping-cars-de-la-govelle.html",
+      "recheckSource": "https://www.ot-batzsurmer.fr/aire-de-camping-cars-de-la-govelle.html"
     },
     {
       "sourceId": "ACCAMPDL044V50028O",
@@ -882,11 +885,12 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 166,
-      "recheckFinding": "Lot 166 (04/11/2026) : Lingorzé : ville affiche 13,50 € de 20 h à 9 h, dont 0,60 € de taxe; eau 10 €/10 min (150 L); limite 48 h. Prix public actuel non millésimé 2027.",
-      "recheckNextCheck": "Confirmer barème 2027 et garder eau séparée de la nuitée.",
-      "recheckTariffSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21"
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 224,
+      "recheckFinding": "Lot 224 (07/11/2026) : la mairie affiche 13,50 € pour la nuitée 20 h–9 h, eau potable 150 L/10 min à 10 € en supplément, paiement par carte via ALTEKIP/ISIPAY et durée maximale de 48 h. L'aire de Lingorzé dispose de 9 places, d'eau et de vidanges, sans électricité. Montant public actuel, sans millésime 2027.",
+      "recheckNextCheck": "Confirmer à la prochaine mise à jour municipale le maintien des 13,50 € et des frais d'eau; garder eau et nuitée séparées dans la fiche.",
+      "recheckTariffSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
+      "recheckSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21"
     },
     {
       "sourceId": "ACCAMPDL044V50MLLX",
