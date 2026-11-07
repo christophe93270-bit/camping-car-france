@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 230 (07/11/2026), Bel Air (Early Booking 2027 −20 %, base emplacement/box non confirmée), Le Soleya (réouverture 30/04/2027, réservations fin novembre; grille toujours 2026), Les Flots Bleus (tarifs explicitement 2026, aucun barème 2027). Aucun prix de base camping-car complet 2027 confirmé; aucun nouveau lieu. Compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle : lot 231 (07/11/2026), Pen-Bé (fermé 2026, 2027 espéré mais non confirmé; barème officiel 2025 seulement), Capfun L’Ève (prix 2027 disponible pour un mobil-home, pas pour les emplacements), La Riviera (saison 2027 publiée mais offres/pages actuelles concernent des locations; parcelles camping-car non confirmées). Aucun prix complet de nuitée camping-car 2027 confirmé; aucun nouveau lieu. Compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -2909,11 +2909,12 @@
       "finding": "Nouvelle lecture de la page de référence le 3 novembre : Informations 2027 publiées — emplacement camping-car à revalider. Capfun publie des dates 2027 pour les piscines (16 avril–20 septembre) et une offre de mobil-home ; elles ne confirment ni le calendrier des emplacements ni leur tarif. Demander confirmation des parcelles camping-car et un devis 2027 détaillant électricité, vidange, taxe et frais. Le Pass Camping affiché à 15 € reste millésimé 2026 et exclut L’Ève : ne pas l’appliquer en 2027. Aucun prix ne doit être présenté comme forfait complet confirmé.",
       "nextCheck": "Confirmer auprès de l’exploitant les dates 2027 et un devis camping-car (forfait, électricité, taxe, frais et minimum de séjour).",
       "source": "https://www.capfun.com/camping---l_eve-FR.html",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 160,
-      "recheckFinding": "La page officielle propose réservation d’un emplacement mais aucune grille fixe camping-car 2027 n’a été trouvée. Ne pas appliquer le Pass Camping ou les tarifs d’autres sites Capfun.",
-      "recheckNextCheck": "Obtenir un devis dédié 2027 pour camping-car, dates, voyageurs et options.",
-      "recheckTariffSource": "https://www.capfun.com/camping---l_eve-FR.html"
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 231,
+      "recheckFinding": "Lot 231 (07/11/2026) : Capfun publie un exemple de mobil-home Habana Top Presta 4 personnes à 693 € la semaine du 03 au 10/07/2027; ce montant concerne une location, pas un emplacement camping-car. La FAQ officielle confirme des emplacements pour 2 personnes + véhicule + électricité incluse, sans prix 2027. Les dates 2027 publiées pour les piscines ne déterminent pas l'ouverture des parcelles. Aucun tarif d'emplacement camping-car 2027 confirmé; ne pas utiliser l'exclusion du Pass Camping ou le prix d'un mobil-home comme prix de parcelle.",
+      "recheckNextCheck": "Obtenir un devis opérateur daté pour emplacement 2 personnes + véhicule/camping-car; confirmer dates de disponibilité, électricité incluse, vidange, taxe et frais. Garder l'exemple 693 €/semaine comme tarif locatif, sans rapport avec une nuitée camping-car.",
+      "recheckTariffSource": "https://www.capfun.com/camping---l_eve-FR.html",
+      "recheckSource": "https://www.capfun.com/camping---l_eve-FR.html"
     },
     {
       "sourceId": "ACCAMPDL044V5003SH",
@@ -3145,11 +3146,12 @@
       "finding": "Nouvelle lecture de la page de référence le 3 novembre : Réouverture 2027 espérée, non confirmée ; aucun tarif 2027 publié.. L'exploitant maintient la fermeture pour la saison 2026 et exprime un souhait d'accueil en 2027, sans date garantie. La grille encore en ligne est explicitement datée 2025 : ne pas la reconduire. Confirmer réouverture effective, accès camping-car, sanitaires et prix avant de prévoir un séjour. Établissement distinct du Camping de la Baie. Aucun prix ne doit être présenté comme forfait complet confirmé.",
       "nextCheck": "Confirmer une réouverture effective, calendrier, disponibilité des emplacements et tarif avant affichage.",
       "source": "https://campingdepenbe.fr/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 161,
-      "recheckFinding": "Le camping est fermé pour la saison 2026; l’exploitant espère ouvrir en 2027 sans confirmer de date ni tarif. La grille publique encore disponible est 2025.",
-      "recheckNextCheck": "Confirmer réouverture, services, dates et grille 2027 avant toute mise à jour.",
-      "recheckTariffSource": "https://campingdepenbe.fr/"
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 231,
+      "recheckFinding": "Lot 231 (07/11/2026) : le site officiel maintient la fermeture du camping pour la saison 2026 et dit seulement espérer accueillir en 2027, sans date ni confirmation ferme. La grille officielle est toujours datée 2025 : emplacement camping-car 7 €, adulte 4 € (douche chaude incluse), enfant de moins de 7 ans 2 €, animal 1 €, taxe 0,22 €/adulte et électricité 3 €. Ces montants sont historiques, non applicables à 2027.",
+      "recheckNextCheck": "Confirmer directement la réouverture effective, l'accueil camping-car, dates et services; obtenir une grille datée 2027. Garder le barème 2025 uniquement comme historique.",
+      "recheckTariffSource": "https://campingdepenbe.fr/",
+      "recheckSource": "https://www.campingdepenbe.fr/"
     },
     {
       "sourceId": "ACCAMEPRFCCARPARK",
@@ -3476,15 +3478,17 @@
       "finding": "Contrôle lot 127 : le site officiel confirme l’ouverture du 03/04 au 12/09/2027, mais présente les 239 emplacements comme 181 hébergements locatifs et 58 locatifs résidentiels, sans parcelle nue proposée clairement. Destination Pornic indique au contraire des emplacements camping-car avec eau et électricité. Aucun tarif opérateur 2027 pour une nuitée camping-car trouvé. Le supplément de 40 € documenté sur le site officiel correspond au choix facultatif d’un emplacement de locatif, pas au prix d’une parcelle de camping-car. Les offres Early Booking −20 %, −10 % et 2=3 s’appliquent uniquement à des locatifs et ne sont pas des tarifs d’étape. Taxes et redevance écologique mentionnées sur la page des locations : millésime 2025, à ne pas transférer.",
       "nextCheck": "Faire confirmer par l’exploitant si un camping-car non résident peut stationner/nuiter sur une parcelle nue en 2027 et obtenir un tarif par nuit, avec eau, électricité, taxe et redevance applicables. Si seuls les locatifs sont ouverts aux clients, corriger le classement de la fiche et retirer toute promesse tarifaire de nuitée camping-car. Ne pas utiliser le supplément 40 € de choix de parcelle comme tarif camping-car.",
       "source": "https://www.aloa-vacances.com/la-riviera/accueil/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : le site décrit 239 hébergements locatifs/résidentiels et ne confirme pas de parcelles nues; une page touristique mentionne les camping-cars. Accueil contradictoire, aucun tarif de nuitée opérateur 2027.",
-      "recheckNextCheck": "Confirmer l’existence d’emplacements nus non résidentiels avant de chercher un tarif; exclure prix/promos de locations.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 231,
+      "recheckFinding": "Lot 231 (07/11/2026) : saison officielle annoncée du 03/04 au 12/09/2027. Les pages détaillées décrivent les locations de mobil-homes; l'Early Booking jusqu'à −20 % et les tarifs de taxe/redevance concernent les locatifs. La mention « emplacement préféré » correspond au choix d'une place pour une location, pas à un forfait d'emplacement nu. L'accueil camping-car évoqué dans d'anciennes fiches touristiques n'est pas confirmé sur les pages de l'exploitant consultées. Aucun forfait camping-car ou tarif de nuitée 2027 confirmé.",
+      "recheckNextCheck": "Demander à l'exploitant si des emplacements nus non résidentiels et l'accueil de camping-cars sont proposés en 2027; ne pas appliquer prix, promotions, taxe ou redevance des locations de mobil-homes à une nuitée camping-car.",
       "recheckSource": "https://www.aloa-vacances.com/la-riviera/accueil/",
       "recheckDetailsSource": "https://www.aloa-vacances.com/la-riviera/informations-detaillees/",
       "recheckTourismSource": "https://www.pornic.com/camping-la-riviera.html",
       "recheckPromosSource": "https://www.aloa-vacances.com/la-riviera/accueil/",
-      "recheckConditions2025Source": "https://www.aloa-vacances.com/la-riviera/informations-detaillees/"
+      "recheckConditions2025Source": "https://www.aloa-vacances.com/la-riviera/informations-detaillees/",
+      "recheckAccommodationSource": "https://www.aloa-vacances.com/la-riviera/locations-camping-riviera-aloa/",
+      "recheckFeesSource": "https://www.aloa-vacances.com/la-riviera/informations-detaillees/"
     },
     {
       "sourceId": "CCF44-BATZ-PALUDIERS-2026",
