@@ -1507,3 +1507,13 @@ Sources :
 - Aucun ajout ni changement à `aires-pdl.json`. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 225](AUDIT-44-2027-LOT225.md).
+
+
+## Lot 226 — trois campings, 7 novembre 2026
+
+- **L’Île de Kernodet :** correction du tarif officiel 2026; la grille va de 19 à 35 €/nuit selon les périodes, hors taxe. Aucun tarif 2027.
+- **GCU Mesquer :** seule brochure tarifaire 2026 trouvée; pas de prix ou calendrier 2027.
+- **La Pierre Longue :** ouverture du 2 avril au 1er novembre 2027 publiée par l’Office de Tourisme; aucun prix 2027. L’écart de capacité 156/158 est conservé à vérifier.
+- Deux mises à jour de données; aucun ajout. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 226](AUDIT-44-2027-LOT226.md).
