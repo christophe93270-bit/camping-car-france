@@ -1432,3 +1432,12 @@ Sources :
 - Aucun nouveau lieu/contact. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 217](AUDIT-44-2027-LOT217.md).
+
+## Lot 218 — Assérac, 7 novembre 2026
+
+- **Domaine de Pont-Mahé :** emplacements camping-car confirmés (80–100 m², 10 A, eau/vidange); page encore datée 2026 et brochure tarifaire 2025. Aucun prix 2027.
+- **Les Prairies de l’Étang :** 42 emplacements annoncés par l’exploitant, deux formules avec/sans électricité, camping-cars acceptés; aucun montant sur la page opérateur. Tarifs publics existants 2026 seulement; écart de capacité à suivre (42 exploitant, 38 nus fiche touristique, 142 classés).
+- **La Ferme d’Isson :** page et forfait 15,20 €/nuit pour camping-car + 2 personnes + électricité toujours millésimés 2026. Inclusion de la taxe de 0,22 € contradictoire sur la page; aucun prix 2027.
+- Aucun tarif camping-car complet 2027 confirmé. Aucun lieu ajouté, aucune modification de `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 218](AUDIT-44-2027-LOT218.md).
