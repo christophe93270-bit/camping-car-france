@@ -1286,3 +1286,12 @@ Sources :
 - Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 202](AUDIT-44-2027-LOT202.md).
+
+## Lot 203 — 7 novembre 2026
+
+- **Domaine du Collet, Les Moutiers-en-Retz :** PDF officiel explicitement 2026 : forfait 2 pers. + véhicule 25 €/nuit hors haute saison et 40 €/nuit du 04/07 au 29/08; électricité +7 €/jour, taxe 0,66 €/pers./nuit, participation 0,35 €/pers./jour et frais de réservation 25 € séparés. Aucun tarif 2027.
+- **Le Deffay, Sainte-Reine-de-Bretagne :** pages officielles toujours sur tarifs emplacements 2026 par nuitée; aucune grille ni prix daté 2027 confirmé.
+- **Le Pas du Gû, Saint-Brevin-les-Pins :** page tarifaire camping-car avec illustration explicitement datée 2026, site mis à jour en février 2026; aucun tarif 2027 publié dans le texte consulté.
+- Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 203](AUDIT-44-2027-LOT203.md).
