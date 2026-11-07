@@ -1497,3 +1497,13 @@ Sources :
 - Un changement de donnée, aucun ajout. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 224](AUDIT-44-2027-LOT224.md).
+
+
+## Lot 225 — trois campings et aires liées, 7 novembre 2026
+
+- **Camping du Chêne :** aire indépendante de 21 places; saison affichée 2026, aucun prix officiel 2027; repères Park4night non validés.
+- **Camping municipal de Beslé :** tarifs officiels disponibles pour 2026; total indicatif 15,44 €/jour pour deux adultes avec branchement et taxe. Pas de barème 2027; dates d'ouverture divergent selon les pages municipales.
+- **Les Amis de la Nature, Pors-er-Ster :** grille officielle 2026 détaillée, 23,54 €/nuit avec électricité et taxe pour deux adultes; aucune grille 2027.
+- Aucun ajout ni changement à `aires-pdl.json`. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 225](AUDIT-44-2027-LOT225.md).
