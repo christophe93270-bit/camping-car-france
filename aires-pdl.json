@@ -4132,7 +4132,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Recoupement octobre 2026 Office de tourisme Pays de Redon : structure, services et saisonnalité identifiés. Le 9 € est un prix d'appel sans validation de la grille 2026. Lot 29 : mairie 32 emplacements nus pour camping-car/tente/caravane, 40 places toutes catégories ; contact municipal vérifié et horaires saisonniers contradictoires entre deux pages. Lot 71 du 23/10/2026 : grille municipale 2026 vérifiée visuellement, calcul deux adultes 9,44 € sans ou 15,44 € avec électricité, taxe comprise ; réduction long séjour non extrapolée.",
+    "importReview": "Recoupement octobre 2026 Office de tourisme Pays de Redon : structure, services et saisonnalité identifiés. Le 9 € est un prix d'appel sans validation de la grille 2026. Lot 29 : mairie 32 emplacements nus pour camping-car/tente/caravane, 40 places toutes catégories ; contact municipal vérifié et horaires saisonniers contradictoires entre deux pages. Lot 71 du 23/10/2026 : grille municipale 2026 vérifiée visuellement, calcul deux adultes 9,44 € sans ou 15,44 € avec électricité, taxe comprise ; réduction long séjour non extrapolée. Lot 252, contrôle du 07/11/2026 : La page municipale consultée annonce un accueil d’avril à septembre et 32 emplacements nus partagés entre camping-cars, caravanes et tentes. Aucun tarif 2027 repéré sur cette page. Les montants de la grille 2026 déjà documentée restent datés.",
     "sourceId": "ACCAMPDL044V51HCFY",
     "sourceOfficial": "https://www.mairie-guemene-penfao.fr/camping-municipal/",
     "priceSource": "https://www.mairie-guemene-penfao.fr/medias/2026/04/Tarification-2026-camping-port1.pdf",
@@ -4153,7 +4153,15 @@
     "priceCheckedAt": "2026-10-23",
     "priceVerification": "grille_municipale_officielle_2026_prix_par_personne_et_electricite_camping_car",
     "priceType": "tarif_2026_calcule_2_adultes_electricite_taxe",
-    "priceEvidenceNote": "PDF municipal Saison 2026, emplacement camping : 4,50 €/personne/jour, branchement caravane/camping-car 6 €, taxe 0,22 €/personne/jour (mineurs exonérés). Calcul deux adultes : 2 × 4,50 + 2 × 0,22 = 9,44 € ; avec branchement +6 = 15,44 €. Ne pas confondre avec campétoile 20 € ou électricité tente 3,50 €. Ligne 2,25 € à partir du 16e jour ambiguë quant à son assiette : non appliquée aux exemples."
+    "priceEvidenceNote": "PDF municipal Saison 2026, emplacement camping : 4,50 €/personne/jour, branchement caravane/camping-car 6 €, taxe 0,22 €/personne/jour (mineurs exonérés). Calcul deux adultes : 2 × 4,50 + 2 × 0,22 = 9,44 € ; avec branchement +6 = 15,44 €. Ne pas confondre avec campétoile 20 € ou électricité tente 3,50 €. Ligne 2,25 € à partir du 16e jour ambiguë quant à son assiette : non appliquée aux exemples.",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-07",
+      "status": "partial",
+      "label": "Tarif 2027 à confirmer. Dernière grille documentée pour 2026.",
+      "note": "La page municipale consultée annonce un accueil d’avril à septembre et 32 emplacements nus partagés entre camping-cars, caravanes et tentes. Aucun tarif 2027 repéré sur cette page. Les montants de la grille 2026 déjà documentée restent datés.",
+      "source": "https://www.mairie-guemene-penfao.fr/camping-municipal/"
+    }
   },
   {
     "department": "44",
@@ -6052,7 +6060,7 @@
       "Commerces du centre-bourg proches",
       "Aucun service d'eau, vidange ou électricité attesté"
     ],
-    "price": "Tarif et autorisation de nuitée non précisés par Loire-Atlantique Tourisme ; consulter la signalisation du parking.",
+    "price": "Parking goudronné au 11 rue de Redon. Tarif, durée maximale et autorisation de nuitée non précisés.",
     "status": "11 rue de Redon, 44590 Derval. Parking du centre-bourg arboré. Distinct de l'autre stationnement rue Ronde.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.6662429,
@@ -6060,7 +6068,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Vérifié le 19 octobre 2026 avec la fiche de tourisme, la mairie ou l'exploitant mentionné ; distinction explicite entre nuitées, stationnement de jour et borne technique. Tarifs non confirmés conservés comme tels. Relecture lot 157 (04/11/2026) : Derval, rue de Redon : source de tourisme confirme un parking distinct de la rue Ronde, sans prix ni autorisation de nuitée publiés. Aucun service technique attesté. Vérifications : Mairie : confirmer séparément nuitée, durée, tarif 2027 et services pour le parking de la rue de Redon.",
+    "importReview": "Vérifié le 19 octobre 2026 avec la fiche de tourisme, la mairie ou l'exploitant mentionné ; distinction explicite entre nuitées, stationnement de jour et borne technique. Tarifs non confirmés conservés comme tels. Relecture lot 157 (04/11/2026) : Derval, rue de Redon : source de tourisme confirme un parking distinct de la rue Ronde, sans prix ni autorisation de nuitée publiés. Aucun service technique attesté. Vérifications : Mairie : confirmer séparément nuitée, durée, tarif 2027 et services pour le parking de la rue de Redon. Lot 252, contrôle du 07/11/2026 : La fiche départementale confirme l’adresse et la proximité des commerces du centre-bourg.",
     "sourceId": "ACCAMPDL044V51CY4O",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL",
     "priceSource": "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL",
@@ -8334,7 +8342,7 @@
       "Commerces, pharmacie et cabinet médical à pied",
       "Aucun service d'eau, vidange ou électricité confirmé"
     ],
-    "price": "Tarif et autorisation de nuitée non publiés par l'office de tourisme ; vérifier la signalisation sur place.",
+    "price": "Entrée entre les 4 et 6 rue Ronde. Tarif, durée maximale et autorisation de nuitée non précisés.",
     "status": "Entrée entre les numéros 4 et 6 rue Ronde, 44590 Derval. Parking distinct de celui de la rue de Redon.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.6681168,
@@ -8342,7 +8350,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Vérifié le 19 octobre 2026 avec la fiche de tourisme, la mairie ou l'exploitant mentionné ; distinction explicite entre nuitées, stationnement de jour et borne technique. Tarifs non confirmés conservés comme tels.",
+    "importReview": "Vérifié le 19 octobre 2026 avec la fiche de tourisme, la mairie ou l'exploitant mentionné ; distinction explicite entre nuitées, stationnement de jour et borne technique. Tarifs non confirmés conservés comme tels. Lot 252, contrôle du 07/11/2026 : La fiche départementale situe ce parking au nord-est du bourg, près de la pharmacie et du cabinet médical.",
     "sourceId": "ACCAMPDL044V51CY50",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/186419-AIRE-DE-STATIONNEMENT---DERVAL-2",
     "priceSource": "https://rando.loire-atlantique.fr/service/186419-AIRE-DE-STATIONNEMENT---DERVAL-2",
