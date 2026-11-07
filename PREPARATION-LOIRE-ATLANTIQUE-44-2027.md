@@ -1295,3 +1295,12 @@ Sources :
 - Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 203](AUDIT-44-2027-LOT203.md).
+
+## Lot 204 — 7 novembre 2026
+
+- **Les Rochelets, Saint-Brevin-les-Pins :** emplacements 80 m² minimum, jusqu’à 6 personnes; contrat public disponible explicitement saison 2025, avec taxe 0,66 €/adulte/nuit et écoparticipation 0,40 €/personne/nuit séparées. Aucun tarif 2027; ne pas reconduire ces postes historiques.
+- **Le Port Chéri, Pornic :** page opérateur actuelle à partir de 20 €/jour, forfait 2 personnes, branchement 10 A annoncé mais inclusion dans le prix à clarifier; prix sans millésime. CampingFrance affiche 26,50 €/jour en 2026. Aucun tarif 2027 confirmé.
+- **Le Bernier, La Plaine-sur-Mer :** page opérateur en tarifs/ouverture 2026. Offre couple 294 €/semaine (7 nuits minimum, 2 personnes maximum), à distinguer de la réservation générale dès 2 nuits. Aucun tarif 2027.
+- Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 204](AUDIT-44-2027-LOT204.md).
