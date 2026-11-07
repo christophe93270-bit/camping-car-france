@@ -1392,3 +1392,13 @@ Sources :
 - Aucun camping ajouté. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 213](AUDIT-44-2027-LOT213.md).
+
+
+## Lot 214 — 7 novembre 2026
+
+- **Domaine de la Baie Dorée :** grille opérateur 2026, 16–33 €/nuit, dates du PDF jusqu'au 19/09 contre 26/09 sur la fiche touristique; camping-car non explicitement nommé. Aucun prix 2027.
+- **La Morinière :** mairie confirme le forfait minimum camping-car de 13 €/nuit en 2026, électricité et taxe séparées; aucun tarif 2027.
+- **Le Port Meleu :** 20–47 €/nuit et taxe 0,66 € publiés pour 2026; aucun tarif opérateur 2027.
+- Aucun lieu ajouté. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 214](AUDIT-44-2027-LOT214.md).
