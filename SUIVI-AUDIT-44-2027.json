@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 205 (07/11/2026), trois campings déjà recensés. La Prée : page officielle toujours tarifée 2026; la mention « Tarifs 2027 » chez un tiers reprend un montant 2026 et n’est pas confirmée par l’opérateur. Le Grand Fay : page officielle de saison 2026, forfait décrit sans montant; taxe 0,44 €/adulte/nuit. La Ferme d’Isson : forfait camping-car officiel 15,20 €/nuit explicitement saison 2026, 3 nuits minimum. Aucun tarif camping-car 2027 complet confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 206 (07/11/2026), trois campings déjà recensés. Tréambert : Cévéo annonce le village ouvert du 02/04 au 10/10/2027, ventes d’été à partir du 17/11; aucun prix, accueil camping-car 2027 non établi par la page opérateur. GCU Pornichet : page encore saison et prix d’appel 2026, brochure 2026. Prigny : prix promo camping-car 14 € en septembre sans année; autres prix affichés sans durée ou dates claires, tandis que Destination Pornic reste sur une grille 2026. Aucun tarif camping-car complet 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -133,10 +133,10 @@
       "finding": "Village annoncé du 2 avril au 10 octobre 2027 ; ventes été annoncées le 17 novembre. Offre présentée en chalets, pas preuve d'emplacements camping-car.",
       "nextCheck": "Confirmer d'abord l'accueil camping-car 2027, puis prix et calendrier des parcelles.",
       "source": "https://www.ceveo.com/residence/mesquer-pays-de-guerande",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : au 04/11 les ventes 2027 ne sont pas encore ouvertes (date annoncée : 17/11). L’offre consultée concerne les locations; emplacements camping-car et tarifs 2027 non confirmés.",
-      "recheckNextCheck": "À partir de l’ouverture des ventes, vérifier d’abord la commercialisation d’emplacements nus camping-car, puis calendrier, électricité, taxe, prix et frais.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 206,
+      "recheckFinding": "Lot 206 (07/11/2026) : la page officielle Cévéo annonce désormais l’ouverture du village du 02/04 au 10/10/2027 et l’ouverture des ventes d’été le 17/11/2026. La présentation opérateur consultée porte sur les chalets/séjours et ne confirme pas les emplacements camping-car ni un prix 2027. La fiche du Département recense 29 emplacements campeurs et 15 places camping-car, sans tarifs. Attendre l’ouverture des ventes puis vérifier la commercialisation et le tarif des parcelles.",
+      "recheckNextCheck": "Après le 17/11/2026, demander si les 15 places camping-car sont ouvertes à la réservation en 2027, puis confirmer prix, calendrier, électricité et taxes.",
       "recheckOfficialSource": "https://www.ceveo.com/residence/mesquer-pays-de-guerande",
       "recheckCampingInfoSource": "https://rando.loire-atlantique.fr/service/187218-Camping---Village-vacances-Ceveo-Chateau-de-Treambert",
       "recheckCampsiteOffersSource": "https://www.ceveo.com/sejours-au-camping"
@@ -349,12 +349,12 @@
       "finding": "Saison juin–août 2026 ; brochure 2026. Prix très basse saison générique non validé pour 2027.",
       "nextCheck": "Barème 2027 applicable aux dates réellement ouvertes et règles d'adhésion.",
       "source": "https://www.gcu.asso.fr/campings/camping-pornichet/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 165,
-      "recheckFinding": "Lot 165 (04/11/2026) : La fiche affiche une ouverture 12/06–30/08/2026 et un prix d’appel emplacement à partir de 13,14 €/nuit « très basse saison ». Ce prix n’est pas confirmé pour 2027; brochure accessible toujours 2026. Frais de réservation et cotisation restent distincts.",
-      "recheckNextCheck": "Obtenir brochure/calendrier 2027 et clarifier adhésion, fenêtres de réservation, nuitée, taxes et frais.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 206,
+      "recheckFinding": "Lot 206 (07/11/2026) : page officielle inchangée sur l’ouverture 12/06–30/08/2026 et le prix d’appel emplacement « à partir de 13,14 €/nuit, très basse saison », sans millésime 2027. La brochure tarifaire reliée reste explicitement 2026. Aucun calendrier ni tarif 2027 trouvé. Adhésion, frais de réservation et autres frais restent à distinguer.",
+      "recheckNextCheck": "Vérifier la brochure et les dates de réservation 2027; confirmer l’adhésion requise, les frais et les taxes.",
       "recheckTariffSource": "https://www.gcu.asso.fr/brochure-tarifaire/",
-      "recheckBrochure2026Source": "https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf",
+      "recheckBrochure2026Source": "https://www.gcu.asso.fr/wp-content/uploads/2026/01/GCU_tarifs_2026.pdf",
       "recheckSeasonSource": "https://www.gcu.asso.fr/campings/camping-pornichet/"
     },
     {
@@ -366,10 +366,10 @@
       "finding": "Accès direct intermittent ; office fournit 2026. Promotion duo locative non validée pour camping-car 2027.",
       "nextCheck": "Devis emplacement 2027, électricité, frais et taxe.",
       "source": "https://www.pornic.com/camping-de-prigny.html",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 165,
-      "recheckFinding": "Lot 165 (04/11/2026) : Destination Pornic maintient son tarif secondaire explicitement 2026 : 17–33 €/nuit (emplacement, 2 personnes, voiture), taxe 0,66 €/adulte/nuit et suppléments; aucun tarif 2027 opérateur confirmé.",
-      "recheckNextCheck": "Obtenir la grille 2027 et dates opérateur; conserver taxe et suppléments à part.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 206,
+      "recheckFinding": "Lot 206 (07/11/2026) : page officielle des emplacements confirme l’accueil des camping-cars et l’électricité sur les emplacements, sans grille 2027. Le bandeau « emplacement camping-car 14 € avec électricité en septembre » ne précise pas l’année. Une autre page tarifaire affiche 68 € pour emplacement + véhicule et 56 € pour aire camping-car, mais sans dates/durée suffisamment claires pour un prix par nuit. Destination Pornic indique une grille secondaire explicitement 2026 de 17–33 €/nuit (emplacement, 2 pers., voiture), taxe en supplément. Aucun prix officiel daté 2027 confirmé.",
+      "recheckNextCheck": "Demander à l’opérateur les dates couvertes par le 14 € et une grille 2027 datée, par nuit, avec composition, taxe et frais; clarifier les montants de 56/68 €.",
       "recheckPitchSource": "https://www.campingdeprigny.fr/location-emplacement-les-moutiers-en-retz/",
       "recheckOfferSource": "https://www.campingdeprigny.fr/camping-pas-cher-les-moutiers-en-retz/",
       "recheckSeasonSource": "https://www.pornic.com/camping-de-prigny.html"
