@@ -1537,3 +1537,13 @@ Sources :
 - Aucune période de gratuité garantie pour 2027 dans ce lot; aucun nouvel endroit/contact. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 228](AUDIT-44-2027-LOT228.md).
+
+
+## Lot 229 — trois aires, 7 novembre 2026
+
+- **Teillé :** barème publié par la mairie, services inclus, mais sans millésime; les périodes indiquées se chevauchent les 31 mars et 1er novembre. Aucun tarif 2027 confirmé.
+- **Bouffay, Vallons-de-l’Erdre :** gratuit toute l’année selon Loire-Atlantique Tourisme, camping-cars uniquement, limite 48 h; période 2027 non confirmée.
+- **Choisel, Châteaubriant :** 12 € TTC/24 h ou 6 € TTC/5 h affichés par la Ville, sans année de validité. Correction : ne pas qualifier ces prix d’« explicitement 2026 ».
+- Aucun nouveau lieu/contact; aucun tarif explicitement millésimé 2027. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 229](AUDIT-44-2027-LOT229.md).
