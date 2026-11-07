@@ -1547,3 +1547,13 @@ Sources :
 - Aucun nouveau lieu/contact; aucun tarif explicitement millésimé 2027. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 229](AUDIT-44-2027-LOT229.md).
+
+
+## Lot 230 — trois campings, 7 novembre 2026
+
+- **Bel Air, Pornichet :** remise Early Booking 2027 de −20 % annoncée; aucun prix de base camping-car/box ni montant final confirmé.
+- **Le Soleya :** réouverture annoncée le 30/04/2027, réservations fin novembre; tarifs consultables encore 2026.
+- **Les Flots Bleus, Piriac :** grille officielle toujours explicitement 2026; aucun prix de nuitée camping-car 2027.
+- Aucun prix de base complet 2027 confirmé; aucun nouveau lieu/contact. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 230](AUDIT-44-2027-LOT230.md).
