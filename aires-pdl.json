@@ -6511,9 +6511,13 @@
       "checkedAt": "2026-11-07",
       "status": "booking_only",
       "label": "Ouverture le 30 avril 2027 ; prix des emplacements à confirmer.",
-      "note": "Recontrôle officiel du 07/11/2026 : le camping annonce une réouverture le 30/04/2027 et l’ouverture des réservations de saison 2027 fin novembre 2026, sans jour précis. La page tarifaire affiche toujours les disponibilités 2026 et le PDF d'emplacements porte le millésime 2026. Aucun prix camping-car 2027 disponible à ce contrôle; conserver les anciens montants comme historiques et revoir le moteur après l’ouverture des ventes. Fiche des emplacements du camping, distincte de l'aire CAMPING-CAR PARK voisine.",
+      "note": "Recontrôle officiel du 07/11/2026 : le camping annonce une réouverture le 30/04/2027 et l’ouverture des réservations de saison 2027 fin novembre 2026, sans jour précis. La page tarifaire affiche toujours les disponibilités 2026 et le PDF d'emplacements porte le millésime 2026. Aucun prix camping-car 2027 disponible à ce contrôle; conserver les anciens montants comme historiques et revoir le moteur après l’ouverture des ventes. Fiche des emplacements du camping, distincte de l'aire CAMPING-CAR PARK voisine. Lot 237 : CampingFrance affiche 45 €/jour dans sa rubrique 2027. Ce repère d’annuaire reste à confirmer auprès du camping.",
       "source": "https://www.campinglesoleya.com/",
-      "tariffSource": "https://www.campinglesoleya.com/tarifs-camping-tharon-plage.html"
+      "tariffSource": "https://www.campinglesoleya.com/tarifs-camping-tharon-plage.html",
+      "secondaryRate2027EUR": 45,
+      "secondaryRateUnit": "day",
+      "secondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/saint-michel-chef-chef/le-thar-cor",
+      "secondarySourceType": "secondary"
     }
   },
   {
@@ -10329,10 +10333,10 @@
     "seasonalDates2026": "03/04/2026–28/09/2026",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-04",
+      "checkedAt": "2026-11-07",
       "status": "partial",
-      "label": "À partir de 210 € pour 7 nuits (16–23 ou 23–30 avril 2027), catégorie emplacement camping ; personnes incluses, options et total final à confirmer.",
-      "note": "Contrôle du 03/11/2026 : le moteur officiel, sur « Emplacement camping », avril 2027, 7 nuits et filtre de capacité « 2 et + », affiche « À partir de 210,00 € » pour les séjours du 16 au 23/04 et du 23 au 30/04 ; les dates 02–09 et 09–16/04 sont affichées indisponibles dans cette recherche. 210 € est un prix total de séjour pour des dates précises, pas un prix de nuitée ni une grille 2027. Le filtre de capacité ne prouve pas que deux personnes sont comprises ni quel forfait a été tarifé. La page officielle des tarifs généraux reste intitulée « Tarifs général 2026 ». La page emplacements décrit des forfaits de 1 à 3 personnes, les personnes supplémentaires selon l’âge, et présente le raccordement électrique 10 A ainsi que le raccordement eau/évacuation comme des options : ne pas les inclure au prix de 210 € sans détail du panier. Taxe 2027, frais, total final et conditions applicables à cette offre restent à confirmer. Le repère CampingFrance de 65 €/nuit + 9 €/nuit d’électricité est secondaire et ne permet pas de remplacer ou d’extrapoler l’offre officielle d’avril.",
+      "label": "Ouverture annoncée le 2 avril 2027. Offre relevée à partir de 210 € pour 7 nuits les 16–23 ou 23–30 avril 2027.",
+      "note": "Contrôle du 03/11/2026 : le moteur officiel, sur « Emplacement camping », avril 2027, 7 nuits et filtre de capacité « 2 et + », affiche « À partir de 210,00 € » pour les séjours du 16 au 23/04 et du 23 au 30/04 ; les dates 02–09 et 09–16/04 sont affichées indisponibles dans cette recherche. 210 € est un prix total de séjour pour des dates précises, pas un prix de nuitée ni une grille 2027. Le filtre de capacité ne prouve pas que deux personnes sont comprises ni quel forfait a été tarifé. Au contrôle du 07/11/2026 (lot 237), la page officielle porte désormais le titre « Tarifs général 2027 ». Les montants d’une grille d’emplacements n’étaient pas lisibles dans la page consultée. L’accueil du camping annonce l’ouverture le 02/04/2027. La page emplacements décrit des forfaits de 1 à 3 personnes, les personnes supplémentaires selon l’âge, et présente le raccordement électrique 10 A ainsi que le raccordement eau/évacuation comme des options : ne pas les inclure au prix de 210 € sans détail du panier. Taxe 2027, frais, total final et conditions applicables à cette offre restent à confirmer. Le repère CampingFrance de 65 €/nuit + 9 €/nuit d’électricité est secondaire et ne permet pas de remplacer ou d’extrapoler l’offre officielle d’avril.",
       "source": "https://www.camping-boutinardiere.com/tarif-general.html",
       "bookingOpens": "2026-11-03",
       "validFrom": "2027-04-16",
@@ -10360,7 +10364,9 @@
         }
       ],
       "validThrough": "2027-04-30",
-      "touristTaxConfirmed": false
+      "touristTaxConfirmed": false,
+      "openingDate": "2027-04-02",
+      "openingSource": "https://www.camping-boutinardiere.com/"
     }
   },
   {
@@ -10442,10 +10448,10 @@
     "seasonalDates2026": "03/04/2026–04/10/2026",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-04",
+      "checkedAt": "2026-11-07",
       "status": "partial",
       "label": "PiNCAMP/ADAC donne des prix comparatifs de départ pour un couple : 20,50 €/nuit en basse saison et 37 €/nuit en haute saison ; électricité incluse, taxe exclue. Grille officielle 2027 à confirmer.",
-      "note": "Aucune grille de tarifs 2027 datée de l’exploitant n’a été trouvée. PiNCAMP/ADAC publie un tarif comparatif 2027 de départ, catégorie standard, pour une nuitée : couple 20,50 € en basse saison et 37 € en haute saison. Il ne s’agit pas d’un devis pour des dates précises. Cette source secondaire indique l’électricité, le Wi-Fi, les douches et la redevance déchets inclus, taxe de séjour exclue ; chien à partir de 2,50 €. La page officielle des emplacements publie séparément une offre CampingCard ACSI à 19 €/nuit pour 2 personnes, électricité 10 A et un animal, avec carte requise, mais sans millésime explicite des périodes. Ne pas la présenter comme prix public ordinaire ni comme offre 2027. Destination Pornic publie pour 2026 20–36 €/nuit pour 2 personnes et une voiture, taxe 0,66 €/adulte/nuit ; ne pas fusionner avec les comparatifs ADAC 2027. Le calendrier PiNCAMP/Cirkwi secondaire indique 02/04–03/10/2027, à confirmer par l’exploitant pour les emplacements.",
+      "note": "Aucune grille de tarifs 2027 datée de l’exploitant n’a été trouvée. PiNCAMP/ADAC publie un tarif comparatif 2027 de départ, catégorie standard, pour une nuitée : couple 20,50 € en basse saison et 37 € en haute saison. Il ne s’agit pas d’un devis pour des dates précises. Cette source secondaire indique l’électricité, le Wi-Fi, les douches et la redevance déchets inclus, taxe de séjour exclue ; chien à partir de 2,50 €. La page officielle des emplacements publie séparément une offre CampingCard ACSI à 19 €/nuit pour 2 personnes, électricité 10 A et un animal, avec carte requise, mais sans millésime explicite des périodes. Ne pas la présenter comme prix public ordinaire ni comme offre 2027. Destination Pornic publie pour 2026 20–36 €/nuit pour 2 personnes et une voiture, taxe 0,66 €/adulte/nuit ; ne pas fusionner avec les comparatifs ADAC 2027. Le calendrier PiNCAMP/Cirkwi secondaire indique 02/04–03/10/2027, à confirmer par l’exploitant pour les emplacements. Lot 237 : périodes affichées pour le forfait carte ACSI de 19 €/nuit, année à confirmer : 3 avril–12 mai, 17–21 mai, 25 mai–3 juillet et 29 août–3 octobre.",
       "source": "https://www.camping-duvieuxchateau.com/emplacements/",
       "secondarySource": "https://www.pincamp.fr/campings/camping-du-vieux-chateau-saint-michel-chef-chef",
       "secondarySourceType": "secondary",
