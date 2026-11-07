@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 216 (07/11/2026), trois fiches existantes. Les Paludiers : « à partir de » 118 € pour 7 nuits/2 personnes du 15 au 22/05/2027, composition camping-car/10 A et total final non confirmés; saison 26/03–01/11/2027. La Roseraie : saison 17/04–19/09/2027, emplacements env. 100 m²/10 A, aucun prix 2027; frais non millésimés. Les Forges : aucun montant d'emplacement sur la page tarifs; frais/minimum sans millésime. Aucun tarif camping-car complet 2027 confirmé; aucun changement à aires-pdl.json, aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 217 (07/11/2026), trois fiches existantes. Au Soir d'Été : grille officielle camping-car 2027 à 22/31/43 €/nuit selon saison; électricité, sanitaires et un véhicule inclus; taxe de 0,66 €/adulte/nuit, inclusion contradictoire dans les documents. Le Beaupré : devis officiel ponctuel à 31 €/nuit du 02 au 03/04/2027 pour 2 personnes + véhicule + 6 A, taxes/frais non détaillés; page tarifs sans grille. Camping de la Baie : saison 09/04–03/10/2027 confirmée, pas de grille tarifaire 2027; tarifs enregistrés maintenus comme historiques 2026. Aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -172,17 +172,18 @@
       "finding": "Le site opérateur confirme l’accueil des camping-cars sur 25 emplacements (env. 90 m²) et affiche encore l’ouverture du 01/04 au 30/09/2026. Le moteur de réservation officiel lié au site retourne un prix daté pour un séjour d’une nuit, du 02 au 03/04/2027 : 31 € pour « Emplacement + véhicule + électricité 6A », deux personnes incluses (jusqu’à 6). La taxe de séjour et d’éventuels frais ne sont pas détaillés dans le résultat; ce montant prouve un devis partiel pour cette date, pas une grille standard 2027 ni le total final toutes taxes/frais. Les dates d’ouverture complètes 2027 et le barème 2027 restent à confirmer. La page de services liste les offres Early Booking, 6 nuits = 7 et Last Minute sans dates ni conditions : les conserver comme promotions non datées, sans les confondre avec le tarif de nuitée. La fiche touristique régionale donne 40–140 €/semaine sous « Locatif » : tarif d’hébergement locatif, pas tarif d’emplacement camping-car. Les repères secondaires 25 €/nuit (Camping.info) et 25,50 € en haute saison (France Voyage) ne donnent pas un tarif opérateur 2027 exploitable.",
       "nextCheck": "Obtenir la grille opérateur 2027 pour plusieurs saisons et vérifier les dates de disponibilité des emplacements. Pour le devis daté 02–03/04/2027 à 31 €, confirmer au récapitulatif final si le prix inclut la taxe de séjour et s’il existe des frais obligatoires; préciser le forfait 6A, les deux personnes incluses et les suppléments éventuels (personnes, animal, véhicule supplémentaire). Faire préciser les dates et conditions d’éligibilité à Early Booking, 6 nuits = 7 et Last Minute; ne jamais répartir l’offre 6=7 sur des nuitées standard. Garder 40–140 €/semaine en locatif et les montants secondaires 25/25,50 € à part tant que leur composition, millésime et origine ne sont pas vérifiés.",
       "source": "https://www.lebeaupre.com/fr/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 165,
-      "recheckFinding": "Lot 165 (04/11/2026) : Le devis officiel 2027 déjà relevé demeure 31 € pour 1 nuit (02–03/04), deux personnes, véhicule et électricité 6 A. C’est un prix partiel daté, pas une grille; taxe/frais non établis.",
-      "recheckNextCheck": "Vérifier la disponibilité au panier et le montant final, puis les tarifs par saison.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 217,
+      "recheckFinding": "Lot 217 (07/11/2026) : le site opérateur confirme les emplacements camping-car (25 parcelles env. 90 m²). Sa page « Tarifs » actuelle ne rend aucun montant. Le devis officiel déjà relevé dans le moteur donne 31 € pour une nuit du 02 au 03/04/2027, deux personnes, un véhicule et électricité 6 A; taxe et frais ne sont pas détaillés. C'est un devis ponctuel daté, pas une grille annuelle. Aucun calendrier complet ni tarif standard 2027 confirmé.",
+      "recheckNextCheck": "Vérifier le récapitulatif final du devis du 02–03/04/2027 (taxe et frais), puis obtenir si possible un prix de nuitée pour une période d'été. Ne pas généraliser les 31 € à toute la saison.",
       "recheckOfficialPitchSource": "https://www.lebeaupre.com/fr/emplacements",
       "recheckOfficialTariffsSource": "https://www.lebeaupre.com/index.php/fr/tarifs",
       "recheckBookingQuoteSource": "https://reservation.secureholiday.net/fr/13449/search/product-view/55265?filterStatus=hideFilters&dateStart=02%2F04%2F2027&dateEnd=03%2F04%2F2027&travelers=2%40&productType=pitch",
       "recheckPromotionSource": "https://lebeaupre.com/fr/sur-place",
       "recheckRegionalSource": "https://www.enpaysdelaloire.com/hebergements/campings/camping-le-beaupre",
       "recheckSecondarySource": "https://www.camping.info/fr/emplacement-de-camping/camping-le-beaupre",
-      "recheckSecondaryRateSource": "https://www.france-voyage.com/campsites/campsite-mesquer-36357.htm"
+      "recheckSecondaryRateSource": "https://www.france-voyage.com/campsites/campsite-mesquer-36357.htm",
+      "recheckSource": "https://www.lebeaupre.com/index.php/fr/tarifs"
     },
     {
       "sourceId": "CCF44-PIRIAC-AMIS-NATURE-PORS-STER-2026",
@@ -3299,11 +3300,13 @@
       "finding": "Retour annoncé le 9 avril 2027 ; forfait camping-car à confirmer.",
       "nextCheck": "L'annonce 2027 donne un rendez-vous le 9 avril et un calendrier de piscine jusqu'au 3 octobre. La page emplacements conserve toutefois des dates d'ouverture et périodes ACSI 2026. Son prix d'appel de 27 €/nuit n'est donc pas certifié pour 2027. Faire préciser dates d'accueil des emplacements, formule nue ou Premium, personnes incluses, électricité, taxe, frais et conditions ACSI.",
       "source": "https://www.camping-delabaie.com/emplacements/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 164,
-      "recheckFinding": "Lot 164 : retour de l’équipe annoncé le 09/04/2027, mais détails des emplacements encore datés 2026. « À partir de 27 €/nuit » sans millésime; prix 2027 non confirmé.",
-      "recheckNextCheck": "Obtenir devis daté 2027 par catégorie, avec personnes, électricité, taxe et ACSI séparés.",
-      "recheckSource": "https://www.camping-delabaie.com/tarifs/"
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 217,
+      "recheckFinding": "Lot 217 (07/11/2026) : l'exploitant annonce la saison du 09/04 au 03/10/2027 et confirme des emplacements pour tentes, caravanes et camping-cars. Aucune grille chiffrée d'emplacements 2027 n'est publiée sur les pages officielles consultées. Les montants 2026 enregistrés (24–38 €/nuit Standard, 32–59 € Premium selon les périodes/catégories) restent historiques. Le prix d'appel « à partir de 27 €/nuit » sans millésime n'est pas confirmé pour 2027.",
+      "recheckNextCheck": "Attendre la grille 2027 puis distinguer Standard et Premium, 2 personnes, véhicule, électricité, taxe et frais. Ne pas reconduire les prix 2026 ni le « dès 27 € » non millésimé.",
+      "recheckSource": "https://www.camping-delabaie.com/tarifs/",
+      "recheckSeasonSource": "https://www.camping-delabaie.com/contact/",
+      "recheckPitchSource": "https://www.camping-delabaie.com/emplacements/"
     },
     {
       "sourceId": "CCF44-CHALANDS-FLEURIS-2026",
@@ -3415,14 +3418,16 @@
       "finding": "La grille officielle et le contrat 2027 confirment le forfait camping-car 35 m² à 22–43 €/nuit (1–2 personnes), avec électricité, sanitaires et un véhicule inclus ; taxe adulte 0,66 €/nuit comprise dans le tarif communiqué. La FAQ prévoit 100 % de paiement à la réservation pour un emplacement nu de moins de 3 nuits, sans établir une durée minimale. Garantie annulation facultative à 3 €/nuit.",
       "nextCheck": "Vérifier un devis au panier 2027 sur dates fixes : total final, éventuels frais de dossier et toute durée minimale effectivement appliquée. Ne pas compter une seconde fois la taxe de 0,66 €.",
       "source": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/tarifs-2027-telephone.pdf",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 177,
-      "recheckFinding": "Lot 177 (05/11/2026) : moteur officiel, séjour du 10 au 11/04/2027 (1 nuit), 2 adultes, catégorie « Emplacement Camping Car 35 m² Électricité inclus », capacité affichée 1/2 personnes. Le résultat montre 17,60 € après remise Early Booking de 20 %, prix de référence 22 €. La grille officielle 2027 donne 22 €/nuit pour le forfait camping-car 35 m² (1–2 personnes) du 02/04 au 02/07 et du 28/08 au 26/09; électricité, accès sanitaire et voiture inclus. La remise est une promotion distincte, valable sur la période 02/04–26/09 et jusqu’au 31/01/2027 selon le moteur. Inclusion de la taxe incohérente entre sources officielles : FAQ 2027 dit qu’elle est incluse; PDF tarifs 2027 mentionne 0,66 €/adulte/nuit dans la liste des inclusions; le contrat/C.G.V. 2027 dit que les taxes municipales ne sont pas comprises. Le résultat du moteur ne montre pas de ligne séparée de taxe ni le récapitulatif final; ne pas conclure sur le total toutes taxes.",
-      "recheckNextCheck": "Clarifier si les 0,66 €/adulte/nuit de taxe de séjour et départementale s'ajoutent au prix du moteur malgré l'indication d'inclusion de la FAQ et du PDF tarifaire 2027; vérifier le récapitulatif avant paiement si accessible sans créer de réservation. Garder la remise Early Booking distincte du tarif 22 €/nuit.",
-      "recheckSource": "https://www.camping-soirdete.com/faq/",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 217,
+      "recheckFinding": "Lot 217 (07/11/2026) : PDF opérateur officiel « Tarifs 2027 » : forfait camping-car 35 m², 1–2 personnes, électricité + sanitaires + une voiture inclus : 22 €/nuit (02/04–02/07 et 28/08–26/09), 31 € (03/07–30/07 et 21/08–27/08), 43 € (31/07–20/08). Taxe de séjour/départementale 2027 affichée à 0,66 €/adulte/nuit, mais le même PDF se contredit sur son inclusion : elle est présentée avec les éléments tarifaires, puis les CGV disent que les taxes municipales sont exclues. La FAQ indique aussi qu'elle est incluse. La page d'accueil affiche « à partir de 21 €/nuit » sans dates ni formule, alors que le PDF daté indique 22 € en basse saison. Barème camping-car confirmé; traitement de la taxe et prix d'appel de 21 € non résolus.",
+      "recheckNextCheck": "Demander au camping si les 0,66 €/adulte/nuit s'ajoutent au barème affiché et confirmer le total au panier pour dates fixes. Garder le barème daté 22/31/43 €; séparer l'indication non datée de 21 € et toute remise Early Booking.",
+      "recheckSource": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/tarifs-2027-telephone.pdf",
       "recheckTariffSource": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/tarifs-2027-telephone.pdf",
       "recheckBookingQuoteSource": "https://reservation.secureholiday.net/fr/574/offers",
-      "recheckConditionsSource": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/cr-2027.pdf"
+      "recheckConditionsSource": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/cr-2027.pdf",
+      "recheckHomeSource": "https://www.camping-soirdete.com/",
+      "recheckFAQSource": "https://www.camping-soirdete.com/faq/"
     },
     {
       "sourceId": "CCF44-ST-MICHEL-RIVIERA-2026",
