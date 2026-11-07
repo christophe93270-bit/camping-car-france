@@ -1604,7 +1604,7 @@
       "Branchement électrique selon équipement de l'aire",
       "Stationnement sécurisé à accès réglementé"
     ],
-    "price": "14,35 € / 24 h jusqu'au 1er novembre 2026, puis 12,22 € / 24 h du 2 novembre 2026 au 31 décembre 2027, hors taxe 2026 de 1,32 €. Forfait 5 h + services : 6 €.",
+    "price": "12,22 € / 24 h hors taxe de séjour. Taxe 2027 publiée à 1,32 € / 24 h, soit 13,54 € / 24 h taxe comprise. Forfait 5 h + services : 6 €.",
     "status": "43 avenue Cormier à Tharon-Plage ; 24 places, prises 4 A. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.15987,
@@ -1619,16 +1619,18 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/st-michel-chef-chef-soleya",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-04",
+      "checkedAt": "2026-11-07",
       "status": "partial",
-      "label": "12,22 € / 24 h hors taxe de séjour",
-      "note": "Page officielle consultée le 04/11/2026 : 12,22 €/24 h du 02/11/2026 au 31/12/2027. Taxe de séjour 1,32 € publiée jusqu’au 31/12/2026 seulement; aucun total 2027 garanti. Forfait 5 h + services à 6 €, période non précisée.",
+      "label": "13,54 € / 24 h taxe de séjour incluse",
+      "note": "Lot 236, contrôle du 07/11/2026 : 12,22 €/24 h pour le stationnement et 1,32 €/24 h de taxe de séjour publiée pour toute l’année 2027, soit 13,54 €/24 h. Le forfait de 5 h avec services est affiché à 6 €, sans date de fin précisée.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/st-michel-chef-chef-soleya",
       "baseAmountEUR": 12.22,
       "unit": "24h",
       "validFrom": "2026-11-02",
       "validThrough": "2027-12-31",
-      "touristTaxConfirmed": false
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.32,
+      "totalStopoverAndTaxEUR": 13.54
     }
   },
   {
@@ -4247,10 +4249,10 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-04",
+      "checkedAt": "2026-11-07",
       "status": "partial",
       "label": "14,50 € / 24 h hors taxe de séjour",
-      "note": "Page officielle consultée le 04/11/2026 : 14,50 €/24 h du 02/11/2026 au 31/12/2027. La taxe de séjour de 1,32 €/24 h s’arrête au 31/12/2026; 15,82 € est le total actuellement affiché, pas un total garanti pour 2027. Parking 5 h + services à 6 €, période non précisée.",
+      "note": "Lot 236, contrôle du 07/11/2026 : 14,50 €/24 h jusqu’au 31/12/2027. La taxe de 1,32 €/24 h est affichée jusqu’au 31/12/2026. Le total 2027 reste à confirmer. Le forfait de 5 h avec services est affiché à 6 €, sans date de fin précisée.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac",
       "baseAmountEUR": 14.5,
       "unit": "24h",
@@ -8758,7 +8760,7 @@
       "Électricité sur l'aire non annoncée par le gestionnaire"
     ],
     "price": "18 € / 24 h du 12 au 30 octobre 2026 puis 15 € / 24 h du 31 octobre au 30 décembre 2026, et 15 € / 24 h du 31 décembre 2026 au 31 décembre 2027 ; taxe de séjour 1,32 € affichée jusqu'au 31 décembre 2026. Parking 5 h + services : 6 €.",
-    "status": "21 boulevard du Petit-Port, Nantes ; 11 emplacements selon l'exploitant en octobre 2026. Accès tramway. L'électricité sur l'aire n'est pas annoncée : ne pas la promettre. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
+    "status": "21 boulevard du Petit-Port, Nantes ; 11 emplacements selon l'exploitant en octobre 2026. Accès tramway. L'électricité sur l'aire n'est pas annoncée : ne pas la promettre. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement. Fermeture hivernale annoncée du 02/11/2026 au 01/04/2027.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.24331,
     "longitude": -1.55674,
@@ -8772,10 +8774,10 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-04",
+      "checkedAt": "2026-11-07",
       "status": "partial",
       "label": "15,00 € / 24 h hors taxe de séjour",
-      "note": "Page officielle consultée le 04/11/2026 : tarif de base 15 €/24 h du 31/12/2026 au 31/12/2027. Taxe 1,32 € publiée jusqu’au 31/12/2026 seulement. Aire fermée pour la période hivernale du 02/11/2026 au 01/04/2027 inclus et annoncée fermée à la consultation; réouverture attendue le 02/04/2027. Le prix ne signifie pas disponibilité pendant fermeture. Forfait 5 h + services à 6 €, période non précisée.",
+      "note": "Lot 236, contrôle du 07/11/2026 : 15 €/24 h du 31/12/2026 au 31/12/2027. La taxe de 1,32 €/24 h est affichée jusqu’au 31/12/2026. Le total 2027 reste à confirmer. L’exploitant annonce une fermeture hivernale du 02/11/2026 au 01/04/2027. Le forfait de 5 h avec services est affiché à 6 €, sans date de fin précisée.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
       "baseAmountEUR": 15,
       "unit": "24h",
