@@ -458,10 +458,10 @@
       "finding": "Prix d’appel sans validité 2027 établie.",
       "nextCheck": "Forfait ordinaire et conditions ACSI 2027, électricité et taxe.",
       "source": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 196,
-      "recheckFinding": "Lot 196 (05/11/2026) : la page officielle décrit désormais le prix d’appel camping-car comme « dès 16 €/nuit », sans période, année, composition du forfait ou taxe. Elle confirme l’électricité 16 A sur les emplacements et l’acceptation ACSI en basse saison, sans tarif ni fenêtres 2027 précisés. Le site propose un moteur de réservation, mais aucun prix daté 2027 n’a été confirmé. Ne pas assimiler le prix d’appel ou ACSI à un tarif 2027 public.",
-      "recheckNextCheck": "Obtenir un devis officiel daté 2027 pour 2 adultes et un camping-car; faire confirmer forfait inclus, saison, taxe, frais et offre ACSI 2027 (prix, validité, inclusions).",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 210,
+      "recheckFinding": "Page officielle actuelle : offre camping-car dès 16 €/nuit, sans millésime, composition ou validité 2027. Les emplacements sont raccordés en 16 A; vidange gratuite pour les clients; carte ACSI acceptée en basse saison sans tarif ni dates publiés. Aucun prix camping-car 2027 confirmé.",
+      "recheckNextCheck": "Conserver 16 €/nuit comme prix d'appel sans année; vérifier seulement à la publication d'une grille 2027 ou d'un devis daté.",
       "recheckPitchSource": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne",
       "recheckACSIConditionsSource": "https://www.campinglhermitage.com/en-gb/faq",
       "recheckTariffSource": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne",
@@ -846,11 +846,14 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.bienvenue-pays-ancenis.com/fr/fiche/hotellerie-de-plein-air-camping/camping-de-la-tour-oudon_TFOHPAPDL044000081/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 166,
-      "recheckFinding": "Lot 166 (04/11/2026) : Camping de la Tour : calendrier et grille standard 2026; le stop-accueil historique de 17 € est un tarif 2024 distinct. Aucun tarif stop-accueil 2027.",
-      "recheckNextCheck": "Confirmer forfait stop-accueil 2027, services, taxe et durée.",
-      "recheckTariffSource": "https://www.bienvenue-pays-ancenis.com/fr/fiche/hotellerie-de-plein-air-camping/camping-de-la-tour-oudon_TFOHPAPDL044000081/"
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 210,
+      "recheckFinding": "Page exploitant datée 2026 : emplacements tente/camping-car dès 8,60 €/nuit, sans grille 2027. La fiche touristique du Pays d'Ancenis donne 8,60–13,50 € et la saison 11/04–27/09/2026. Le document municipal 2026 retient un forfait spécifique stop-accueil camping-car à 17 €/jour (2 personnes, véhicule, électricité, eau, vidange); services seuls 4 €. Ne pas confondre le forfait spécifique et la grille standard; aucun tarif 2027 confirmé.",
+      "recheckNextCheck": "Attendre le tarif officiel 2027; garder le forfait 17 € comme tarif 2026 et le prix « dès 8,60 € » comme offre standard 2026 distincte.",
+      "recheckTariffSource": "https://www.bienvenue-pays-ancenis.com/fr/fiche/hotellerie-de-plein-air-camping/camping-de-la-tour-oudon_TFOHPAPDL044000081/",
+      "recheckOfficialSource": "https://campingoudon.fr/",
+      "recheckTourismSource": "https://www.bienvenue-pays-ancenis.com/fr/fiche/hotellerie-de-plein-air-camping/camping-de-la-tour-oudon_TFOHPAPDL044000081/",
+      "recheckMunicipalTariffSource": "https://www.oudon.fr/fileadmin/OUDON/Conseil_municipal/20260119_CR_CM.pdf"
     },
     {
       "sourceId": "ACCAMECCLINGORZE",
@@ -3601,6 +3604,17 @@
       "finding": "L'exploitant confirme 12,73 €/24 h du 01/11/2026 au 31/12/2027, taxe de séjour 2026 de 1,32 € en sus, soit 14,05 € indicatifs. La taxe 2027 n'est pas publiée; tarif enregistré déjà correct.",
       "nextCheck": "Vérifier taxe et total au paiement pour un séjour 2027.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic?areaType=aire-etape-camping-car"
+    },
+    {
+      "sourceId": "way/909625355",
+      "name": "Aire de camping-car de la Sébilière – Mésanger",
+      "checkedAt": "2026-11-07",
+      "lot": 210,
+      "status": "nuitée_ou_tarif_2027_à_confirmer",
+      "finding": "La mairie confirme une aire camping-car avec eau et vidange; Loire-Atlantique Tourisme confirme l'eau gratuite. Aucun tarif de stationnement ou d'autorisation de nuitée publié. Fiche existante, pas de nouveau lieu.",
+      "nextCheck": "Maintenir l'eau gratuite et laisser le coût/autorisation de nuitée non précisés tant que la commune ne les publie pas.",
+      "source": "https://www.mesanger.fr/mes-loisirs/aire-camping-car/",
+      "tourismSource": "https://rando.loire-atlantique.fr/service/186408-Aire-de-camping-car-La-Sebiliere"
     }
   ]
 }
