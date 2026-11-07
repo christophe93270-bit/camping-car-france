@@ -1603,3 +1603,21 @@ Sources officielles :
 - [La Turballe – Grande Falaise](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise)
 
 Total de nuitée 2027 avec taxe applicable confirmée : **0 sur 3**. Les trois fiches restent au statut partiel.
+
+
+## Lot 234 — Bouaye, Rouans et La Limouzinière, 7 novembre 2026
+
+| Aire | Tarif 2027 / 24 h hors taxe | Tarif affiché aujourd'hui / total avec taxe | État taxe 2027 |
+|---|---:|---:|---|
+| Bouaye – Route de la Barre | 13,74 € du 01/01 au 31/12/2027 | 16,82 € actuellement (15,50 € + taxe 2026 de 1,32 €) | Non confirmée au-delà du 31/12/2026 |
+| Rouans – Messan | 12,78 € du 07/11/2026 au 31/12/2027 | 14,10 € actuellement (12,78 € + taxe 2026 de 1,32 €) | Non confirmée au-delà du 31/12/2026 |
+| La Limouzinière – Château de la Touche | 12,22 € du 07/11/2026 au 31/12/2027 | 12,22 € ; taxe affichée à 0 € jusqu'au 31/12/2027 | 0 € publiée jusqu'au 31/12/2027 |
+
+Bouaye change de tarif au 01/01/2027 : ne pas reporter les 16,82 € actuels sur 2027. À Rouans, la taxe n'est publiée que pour 2026. À La Limouzinière, le total du stationnement de 24 h et de la taxe est confirmé à 12,22 € sur la période tarifaire publiée ; carte PASS'ÉTAPES et frais éventuels de réservation restent séparés. Les forfaits 5 h + services (7,05 € à Bouaye, 6 € à Rouans et La Limouzinière) n'ont pas de date de fin indiquée et restent hors nuitée. Aucun lieu ajouté ; compteurs inchangés : **215 fiches / 187 avec filtre nocturne / 28 exclues**.
+
+Sources officielles :
+- [Bouaye – Route de la Barre](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye)
+- [Rouans – Messan](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/rouans)
+- [La Limouzinière – Château de la Touche](https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-limouziniere)
+
+Prix de nuitée 2027 avec taxe applicable documentée : **1 total aire + taxe confirmé sur 3**. Bouaye et Rouans : taxe 2027 à confirmer.
