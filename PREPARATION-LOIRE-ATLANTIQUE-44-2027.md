@@ -1402,3 +1402,13 @@ Sources :
 - Aucun lieu ajouté. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 214](AUDIT-44-2027-LOT214.md).
+
+
+## Lot 215 — 7 novembre 2026
+
+- **Domaine de Léveno :** réservations 2027 ouvertes; saison 09/04–19/09. Aucun prix standard statique; offre ACSI à 25 € rattachée à 2026 seulement.
+- **L’Étang du Pays Blanc :** saison 17/04–26/09/2027 et réservations ouvertes; pas de tarif opérateur statique. Repère CampingFrance à 55 €/nuit contradictoire avec le reste de sa fiche, non confirmé.
+- **Vieux Château :** 29 emplacements nus, 10 A et camping-cars acceptés; ACSI 19 € sans année, grille standard publiée pour 2026 uniquement.
+- Aucun lieu ajouté. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 215](AUDIT-44-2027-LOT215.md).
