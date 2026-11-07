@@ -1459,3 +1459,12 @@ Sources :
 - Aucun tarif camping-car complet 2027 confirmé. Aucun lieu ajouté ni changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 220](AUDIT-44-2027-LOT220.md).
+
+## Lot 221 — trois campings, 7 novembre 2026
+
+- **La Fontaine, Guérande :** emplacements camping-car, brochure officielle sans grille tarifaire; fiche de saison encore en 2026. Aucun tarif 2027.
+- **Camping de la Forêt, Le Gâvre :** 10 places camping-car recensées, aucun prix institutionnel publié. Prix d'annuaire non millésimé écarté.
+- **Les Chênes Verts, Bourgneuf-en-Retz :** ouverture exploitant du 02/04 au 12/09/2027; Pitchup indique du 03/04 au 12/09 mais aucune disponibilité. Aucun tarif 2027. Statut `booking_only` conservé avec l'écart de dates noté.
+- Aucun tarif camping-car complet 2027 confirmé; pas d'ajout de lieu. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 221](AUDIT-44-2027-LOT221.md).
