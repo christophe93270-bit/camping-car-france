@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 227 (07/11/2026), trois fiches existantes. Les Écureuils : ouverture 02/04–26/09/2027 publiée, prix disponible seulement 2026. Brillas : tarif via dates/devis, aucun tarif 2027 public confirmé. Les Bleuets : grille encore explicitement 2026, camping-car non tarifé distinctement. Aucun tarif camping-car complet 2027 confirmé; aucun nouveau lieu. Compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle : lot 228 (07/11/2026), trois stationnements existants. Saint-Brevin avenue des Sports : 8 places, gratuit et ouvert toute l'année selon l'Office, durée/nuitée non détaillées. Saint-Nazaire Bois-Joalland : gratuit selon la fiche départementale; route sur le barrage fermée temporairement, accès au parking à vérifier. Port du Vivier : gratuit selon la fiche départementale, conditions de nuitée non précisées. Aucun nouveau lieu; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -1558,12 +1558,13 @@
       "finding": "La fiche conserve une information ou un tarif antérieur, mais aucune validation complète pour la saison 2027 n’est établie. Distinguer le stationnement, la nuitée et les services, et ne pas convertir la gratuité de jour en gratuité nocturne.",
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 156,
-      "recheckFinding": "Le site officiel de Saint-Brevin liste l’aire comme municipale, gratuite, ouverte toute l’année et de 8 places; il publie l’arrêté municipal 2026-115. Un signalement secondaire parle de panneaux d’interdiction partielle : la règle affichée sur place reste à vérifier avant de supprimer ou de confirmer l’accès nocturne.",
-      "recheckNextCheck": "Vérifier le texte de l’arrêté 2026-115 et la signalisation actuelle (horaires/limite 48 h éventuelle); garder séparés ce site avenue des Sports et le parking Lamartine.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 228,
+      "recheckFinding": "Lot 228 (07/11/2026) : l’Office de tourisme de Saint-Brevin confirme une aire municipale de 8 places, gratuite et ouverte toute l’année; l’arrêté municipal 2026-115 est joint à la fiche. La page ne précise pas les conditions de nuitée ni la durée maximale; ne pas confondre avec le parking Lamartine, autre site. La gratuité est publiée par la page actuelle, sans grille distincte datée 2027.",
+      "recheckNextCheck": "Conserver 8 places et gratuité selon la fiche officielle; ne pas affirmer de durée maximale ou d'autorisation nocturne sans règle explicite. Garder l’aire séparée du parking du Centre-ville des Pins.",
       "recheckTariffSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html",
-      "recheckConditionsSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html"
+      "recheckConditionsSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html",
+      "recheckSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html"
     },
     {
       "sourceId": "ACCAMEGUENROUET",
@@ -1911,12 +1912,14 @@
       "finding": "Aucune confirmation complète pour 2027 dans la fiche actuelle ; ne pas reconduire automatiquement les indications historiques. Distinguer stationnement, nuitée, services et règles locales.",
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/3119-AIRE-DE-STATIONNEMENT-BOIS-JOALLAND",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 156,
-      "recheckFinding": "Le Bois-Joalland est un parking camping-car gratuit selon la fiche du Département; aucune borne technique, durée maximale ou règle nocturne particulière n’est donnée.",
-      "recheckNextCheck": "Confirmer signalisation et durée avec Saint-Nazaire; ne pas présenter le parking gratuit comme une nuitée avec services.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 228,
+      "recheckFinding": "Lot 228 (07/11/2026) : Loire-Atlantique Tourisme maintient l'information « parking gratuit pour les camping-cars », sans période tarifaire 2027, services techniques ou durée/conditions nocturnes précisées. La Ville de Saint-Nazaire indique que la portion de route au-dessus du barrage du Bois-Joalland est fermée jusqu’à nouvel ordre; cette fermeture ne prouve pas que le parking lui-même est inaccessible. Contrôler l’itinéraire avant déplacement.",
+      "recheckNextCheck": "Conserver la gratuité comme information actuelle non millésimée; avertir de la fermeture de la route au barrage et vérifier la réouverture/itinéraire avant une visite. Ne pas déclarer le parking fermé sans confirmation.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3119-AIRE-DE-STATIONNEMENT-BOIS-JOALLAND",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/3119-AIRE-DE-STATIONNEMENT-BOIS-JOALLAND"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/3119-AIRE-DE-STATIONNEMENT-BOIS-JOALLAND",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/3119-AIRE-DE-STATIONNEMENT-BOIS-JOALLAND",
+      "recheckAccessSource": "https://www.saintnazaire.fr/actualite/bois-joalland-la-route-au-dessus-du-barrage-fermee-a-la-circulation/"
     },
     {
       "sourceId": "ACCAMEAIREDESAINTLYPHARD",
@@ -2071,12 +2074,13 @@
       "finding": "Aucune confirmation complète pour 2027 dans la fiche actuelle ; ne pas reconduire automatiquement les indications historiques. Distinguer stationnement, nuitée, services et règles locales.",
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 156,
-      "recheckFinding": "Le parking du Port du Vivier accueille les camping-cars gratuitement selon le Département; aucune borne technique ou limite nocturne n’est indiquée.",
-      "recheckNextCheck": "Confirmer règles/durée et maintien de gratuité en 2027; garder les services absents/non confirmés.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 228,
+      "recheckFinding": "Lot 228 (07/11/2026) : la fiche Loire-Atlantique Tourisme confirme un parking camping-car gratuit au Port du Vivier, près du canal et du centre équestre Sabot d’Or. Elle ne précise pas de période tarifaire 2027, de services techniques, de durée maximale ni de condition de nuitée.",
+      "recheckNextCheck": "Garder la mention gratuit selon la fiche actuelle, avec période 2027 et règles de nuitée non précisées. Ne pas ajouter de services ni prolonger une nuitée sans source municipale.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER"
     },
     {
       "sourceId": "ACCAMECCLALANDE",
