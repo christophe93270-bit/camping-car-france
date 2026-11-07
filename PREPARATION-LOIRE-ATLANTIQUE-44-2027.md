@@ -1324,3 +1324,13 @@ Sources :
 - Aucun tarif camping-car complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 206](AUDIT-44-2027-LOT206.md).
+
+
+## Lot 207 — 7 novembre 2026
+
+- **Les Rives de Grand Lieu, Saint-Philbert-de-Grand-Lieu :** barème opérateur 2026 : forfait 1–2 personnes + un véhicule (camping-car inclus) à 16 €/nuit basse saison ou 18 € haute saison/week-ends fériés; électricité 4 €, contribution environnementale 1,40 €/personne/nuit et frais de dossier 10 € si réservation supérieure à 45 €. Aucun barème 2027.
+- **Ushuaïa Villages L’Estuaire, Paimbœuf :** moteur officiel à 140 € pour 7 nuits (12–19 septembre), année non visible et dates passées; séjour camping-car avec électricité et 2 personnes incluses. Ce total ne prouve pas un tarif 2027. Pas de calendrier 2027 précis.
+- **L’Albatros, La Plaine-sur-Mer :** tarif officiel explicitement 2026 : forfait camping-car 14 €/jour pour 2 personnes +10 A, 19 € avec remorque; taxe 0,66 €/adulte/nuit et frais dossier 15 € dès 7 nuits séparés. Aucun tarif 2027.
+- Aucun tarif camping-car complet daté 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 207](AUDIT-44-2027-LOT207.md).
