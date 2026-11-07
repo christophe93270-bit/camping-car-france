@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 206 (07/11/2026), trois campings déjà recensés. Tréambert : Cévéo annonce le village ouvert du 02/04 au 10/10/2027, ventes d’été à partir du 17/11; aucun prix, accueil camping-car 2027 non établi par la page opérateur. GCU Pornichet : page encore saison et prix d’appel 2026, brochure 2026. Prigny : prix promo camping-car 14 € en septembre sans année; autres prix affichés sans durée ou dates claires, tandis que Destination Pornic reste sur une grille 2026. Aucun tarif camping-car complet 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 207 (07/11/2026), trois campings déjà recensés. Rives de Grand Lieu : forfait 2026 16/18 €/nuit selon saison pour 1–2 personnes + véhicule, électricité 4 €, contribution environnementale 1,40 €/personne/nuit, frais dossier 10 € si >45 €; aucun tarif 2027. L’Estuaire : total officiel 140 € pour 7 nuits du 12 au 19 septembre, année non visible et dates passées; ne vaut pas tarif 2027. L’Albatros : forfait camping-car officiel 2026 à 14 €/jour (2 pers. +10 A), 19 € avec remorque; taxe et frais séparés; aucun tarif 2027. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -611,11 +611,12 @@
       "finding": "Tableau explicitement 2026 ; commentaire non assimilé à une grille 2027.",
       "nextCheck": "Barème ordinaire et ACSI 2027, électricité, taxe et services.",
       "source": "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 166,
-      "recheckFinding": "Lot 166 (04/11/2026) : Rives de Grand Lieu : opérateur affiche tarifs 2026 de 16 €/nuit hors saison et 18 € haute saison (1–2 personnes, sans électricité); ACSI 17 € sous conditions. Aucun tarif 2027.",
-      "recheckNextCheck": "Confirmer grille 2027, électricité, taxe et conditions ACSI séparément.",
-      "recheckTariffSource": "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu"
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 207,
+      "recheckFinding": "Lot 207 (07/11/2026) : page opérateur et PDF tarifaire lié indiquent le barème 2026. Forfait 1–2 pers. + 1 véhicule (camping-car inclus) : 16 €/nuit basse saison, 18 € haute saison et week-ends fériés. Électricité 4 €/nuit. Contribution environnementale 1,40 €/pers./nuit; frais de dossier 10 € si réservation >45 €. Le forfait ACSI à 17 € reste conditionnel à la carte et aux dates 2026. Aucun barème 2027.",
+      "recheckNextCheck": "Obtenir le tarif 2027 daté; confirmer électricité, taxe/contribution environnementale, frais de dossier et période ACSI.",
+      "recheckTariffSource": "https://www.camping-lesrivesdegrandlieu.com/uploads/pdf/FR/tarifs.pdf",
+      "recheckPitchSource": "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000082",
@@ -626,11 +627,12 @@
       "finding": "Page dynamique sans total camping-car 2027 exploitable.",
       "nextCheck": "Devis 2027 véhicule et occupants, services et suppléments.",
       "source": "https://ushuaia-villages.com/fr-fr/ushuaia-villages-camping-l-estuaire_1511093.html",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 166,
-      "recheckFinding": "Lot 166 (04/11/2026) : L’Estuaire : « nouveau prix 70 € pour 7 nuits » pour aire camping-car avec électricité, deux personnes incluses; dates et taxes non visibles. Total de séjour, pas une nuitée 2027 confirmée.",
-      "recheckNextCheck": "Vérifier dates/options du panier, taxes/frais et saisonnalité.",
-      "recheckTariffSource": "https://ushuaia-villages.com/fr-fr/ushuaia-villages-camping-l-estuaire_1511093.html"
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 207,
+      "recheckFinding": "Lot 207 (07/11/2026) : le moteur de réservation officiel présente une aire camping-car avec électricité, 2 personnes incluses, et un total de séjour de 140 € pour 7 nuits du 12 au 19 septembre. L’année des dates n’est pas visible; la période est passée à la date du contrôle. Ne pas en déduire un tarif par nuit ou une offre 2027. La page officielle indique ouverture générale avril–septembre, sans calendrier 2027 précis.",
+      "recheckNextCheck": "Obtenir un devis 2027 daté pour le forfait camping-car, avec dates, électricité, occupants, taxe et frais.",
+      "recheckTariffSource": "https://ushuaia-villages.com/fr-fr/camping-ushuaia-villages-l-estuaire_1511093.html",
+      "recheckSeasonSource": "https://ushuaia-villages.com/fr-fr/camping-ushuaia-villages-l-estuaire_1511093.html"
     },
     {
       "sourceId": "ACCAMPDL044V50XYL5",
@@ -678,11 +680,12 @@
       "finding": "Calendrier touristique encore 2026.",
       "nextCheck": "Saison 2027 et forfait étape camping-car, taxe et suppléments.",
       "source": "https://www.pornic.com/camping-l-albatros.html",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 166,
-      "recheckFinding": "Lot 166 (04/11/2026) : L’Albatros : aucun forfait étape camping-car 2027 vérifié; prix de camping et locatifs ne doivent pas être imputés au forfait halte.",
-      "recheckNextCheck": "Confirmer prix, horaires, saison et inclusions de l’étape.",
-      "recheckTariffSource": "https://www.pornic.com/camping-l-albatros.html"
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 207,
+      "recheckFinding": "Lot 207 (07/11/2026) : la page officielle présente un barème emplacement explicitement 2026. Forfait camping-car standard : 14 €/jour pour 2 personnes avec électricité 10 A; avec remorque : 19 €/jour. Taxe de séjour +0,66 €/nuit/adulte de 18 ans et plus. Frais de dossier 15 € à partir de 7 nuits. Ces montants documentent le forfait standard 2026, pas un tarif d’étape ou un prix 2027. Aucun tarif 2027 publié.",
+      "recheckNextCheck": "Confirmer la grille 2027, les dates de validité, le forfait d’étape éventuel, taxe et frais.",
+      "recheckTariffSource": "https://www.albatros-camping.com/242-tarifs",
+      "recheckOfficialSource": "https://www.albatros-camping.com/"
     },
     {
       "sourceId": "HPAELECLEIN",
