@@ -1314,3 +1314,13 @@ Sources :
 - Aucun tarif camping-car complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 205](AUDIT-44-2027-LOT205.md).
+
+
+## Lot 206 — 7 novembre 2026
+
+- **Cévéo Le Château de Tréambert, Mesquer :** ouverture du village annoncée 02/04–10/10/2027; ventes d’été prévues le 17/11/2026. La page opérateur ne confirme ni l’accueil camping-car 2027 ni son prix; la fiche départementale liste 15 places camping-car, sans tarifs.
+- **GCU Pornichet :** page officielle encore sur saison 2026 et prix d’appel « dès 13,14 €/nuit » en très basse saison sans millésime; brochure tarifaire accessible toujours 2026. Aucun tarif 2027 confirmé.
+- **Camping de Prigny, Les Moutiers-en-Retz :** prix-bandeau « camping-car 14 € avec électricité en septembre » sans année; autres montants officiels 56/68 € sans dates/durée explicites. Destination Pornic affiche 17–33 €/nuit explicitement 2026, non applicable comme confirmation 2027.
+- Aucun tarif camping-car complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 206](AUDIT-44-2027-LOT206.md).
