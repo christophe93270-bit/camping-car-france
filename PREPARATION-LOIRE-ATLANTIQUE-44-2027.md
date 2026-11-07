@@ -1304,3 +1304,13 @@ Sources :
 - Aucun tarif complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 204](AUDIT-44-2027-LOT204.md).
+
+
+## Lot 205 — 7 novembre 2026
+
+- **Camping de La Prée, Préfailles :** page opérateur toujours explicitement 2026; grille 16–32 €/nuit selon période pour deux personnes + véhicule, électricité 10 A +4,90 €, suppléments distincts et minimum 2 nuits. La mention tierce « Tarifs 2027 » à 32 €/jour correspond à une valeur 2026; aucun tarif 2027 confirmé.
+- **Le Grand Fay, Saint-Père-en-Retz :** saison officielle 01/04–10/10/2026; forfait 1–2 personnes, véhicule et 10 A inclus, minimum une nuit, mais aucun montant standard publié. Taxe de séjour 0,44 €/adulte/nuit; aucun calendrier ou tarif 2027 opérateur.
+- **La Ferme d’Isson, Assérac :** forfait camping-car officiel explicitement saison 2026 à 15,20 €/nuit pour 2 personnes, électricité et taxe comprises; réservation et minimum 3 nuits. Aucun prix ni calendrier 2027.
+- Aucun tarif camping-car complet 2027 confirmé. Fiches existantes uniquement; aucun lieu/contact ajouté. Aucun changement à `aires-pdl.json`; compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 205](AUDIT-44-2027-LOT205.md).
