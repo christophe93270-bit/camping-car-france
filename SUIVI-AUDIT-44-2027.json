@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par lots de 20 fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 204 (07/11/2026), trois campings déjà recensés. Les Rochelets : tarifs non publiés; seul contrat accessible explicitement 2025, donc taxes et écoparticipation historiques. Le Port Chéri : prix d’appel officiel 20 €/jour sans millésime, forfait 2 personnes; branchement 10 A annoncé mais inclusion à confirmer. Le Bernier : page tarifaire et ouverture toujours 2026; offre couple 294 €/semaine (7 nuits) distincte du minimum général de 2 nuits. Aucun tarif 2027 confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 205 (07/11/2026), trois campings déjà recensés. La Prée : page officielle toujours tarifée 2026; la mention « Tarifs 2027 » chez un tiers reprend un montant 2026 et n’est pas confirmée par l’opérateur. Le Grand Fay : page officielle de saison 2026, forfait décrit sans montant; taxe 0,44 €/adulte/nuit. La Ferme d’Isson : forfait camping-car officiel 15,20 €/nuit explicitement saison 2026, 3 nuits minimum. Aucun tarif camping-car 2027 complet confirmé. Aucun changement à aires-pdl.json; aucun lieu/contact ajouté; compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -478,12 +478,14 @@
       "finding": "Site encore orienté 2026 ; aucune grille 2027 recoupée.",
       "nextCheck": "Ouverture, forfait camping-car 2027, taxe et services.",
       "source": "https://www.camping-lafermedisson.com/",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 191,
-      "recheckFinding": "Lot 191 (05/11/2026) : la page officielle confirme que la grille affichée est explicitement SAISON 2026. Forfait camping-car à 15,20 €/nuit comprenant un camping-car, 2 personnes, électricité et taxe de séjour; sur réservation avec 3 nuits minimum. La page détaille aussi les postes séparés mais ce forfait est le montant camping-car le plus clair. Aucun tarif 2027 ou calendrier de saison 2027 publié.",
-      "recheckNextCheck": "Demander le forfait et les dates d’ouverture 2027; confirmer le maintien de 15,20 €, la durée minimale de 3 nuits et les inclusions/suppléments. Ne pas reconduire le tarif 2026.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 205,
+      "recheckFinding": "Lot 205 (07/11/2026) : page officielle toujours explicitement « SAISON 2026 ». Forfait camping-car à 15,20 €/nuit comprenant un camping-car, 2 personnes, électricité et taxe de séjour; sur réservation avec 3 nuits minimum. Aucun tarif ni calendrier de saison 2027 publié.",
+      "recheckNextCheck": "Vérifier publication opérateur de la saison et du forfait camping-car 2027, dates d’ouverture et durée minimale.",
       "recheckTariffSource": "https://www.camping-lafermedisson.com/",
-      "recheckConditionsSource": "https://www.camping-lafermedisson.com/nous-contacter"
+      "recheckConditionsSource": "https://www.camping-lafermedisson.com/nous-contacter",
+      "recheckSource": "https://www.camping-lafermedisson.com/",
+      "recheckSecondarySource": "https://www.camping-lafermedisson.com/nous-contacter"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000114",
@@ -568,18 +570,19 @@
       "finding": "Emplacements camping-car présentés, sans total 2027 recoupé.",
       "nextCheck": "Devis 2027 daté et tout compris.",
       "source": "https://www.grandfay.fr/",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 179,
-      "recheckFinding": "Lot 179 (05/11/2026) : la page officielle des emplacements affiche toujours la saison 2026 (01/04–10/10); forfait 1–2 personnes, un véhicule, électricité 10 A incluse, une nuit minimum, sans grille de prix publiée. La FAQ officielle indique une taxe de séjour de 0,44 €/adulte/nuit, à régler à l’arrivée. Le tarif long séjour 15 €/jour est une offre saisonniers été 2026, minimum 2 mois, à garder distinct. Repères secondaires 2027 PiNCAMP/ADAC : comparaison à partir de 20 €/nuit basse saison (couple), 30 € haute saison, et Campcard -15% dès 16 € en basse saison; non confirmés par l’opérateur et conditions/inclusions à vérifier. Aucun tarif officiel 2027 confirmé.",
-      "recheckNextCheck": "Vérifier le moteur officiel pour un panier daté 2027; séparer taxe, tarif saisonniers et repères tiers Campcard.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 205,
+      "recheckFinding": "Lot 205 (07/11/2026) : page officielle des emplacements toujours limitée à la saison 01/04–10/10/2026. Le forfait décrit comprend 1–2 personnes, un véhicule et électricité 10 A; minimum une nuit, mais aucun prix standard n’est publié. FAQ officielle : taxe de séjour 0,44 €/adulte/nuit. Offre longue durée à partir de 15 €/jour distincte et non applicable comme tarif standard camping-car. Aucun tarif ou calendrier 2027 opérateur publié; repères PiNCAMP/ADAC déjà relevés demeurent secondaires et non confirmés.",
+      "recheckNextCheck": "Demander un devis opérateur 2027 daté pour 1–2 adultes, camping-car, véhicule et électricité, avec taxe et conditions.",
       "recheckPitchSource": "https://www.grandfay.fr/emplacements-camping-st-pere-en-retz-5.html",
       "recheckSeasonalOfferSource": "https://www.grandfay.fr/offre-hebergement-pas-saisonniers-loire-atlantique-120.html",
       "recheckTaxDatasetSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-005_offre-touristique-hotelleries-de-plein-air-rpdl/",
       "recheckThirdParty2027Source": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/saint-p%C3%A8re-en-retz/camping-du-grand-fay/",
-      "recheckTariffSource": "https://www.grandfay.fr/emplacements-camping-st-pere-en-retz-5.html",
+      "recheckTariffSource": "https://www.grandfay.fr/hebergements-3.html",
       "recheckConditionsSource": "https://www.grandfay.fr/hebergements-3.html",
       "recheckSecondarySource": "https://www.pincamp.fr/campings/camping-du-grand-fay",
-      "recheckSecondaryTariffSource": "https://www.saint-brevin.com/le-grand-fay.html"
+      "recheckSecondaryTariffSource": "https://www.saint-brevin.com/le-grand-fay.html",
+      "recheckSource": "https://www.grandfay.fr/emplacements-camping-st-pere-en-retz-5.html"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000026",
@@ -724,13 +727,13 @@
       "finding": "CampingFrance : 32 €/jour pour deux adultes, électricité +4,90 €/jour sous Tarifs 2027 ; opérateur encore 2026, dépliant intitulé 2025. Ajout partiel avec source secondaire explicite.",
       "nextCheck": "Confirmation exploitant : année, périodes, composition, taxe et frais.",
       "source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/prefailles/la-pree",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 187,
-      "recheckFinding": "Lot 187 (05/11/2026) : la page officielle indique toujours « Tarifs séjour nuits 2026 » : forfait emplacement 2 personnes + 1 véhicule à 16/20/25/32/20/16 €/nuit selon six périodes, électricité 10 A en supplément à 4,90 €/nuit, supplément adulte 4,50–7,50 €, enfant 2,50–5,50 €, animal 3 €/nuit; minimum 2 nuits. CampingFrance affiche une rubrique « Tarifs 2027 » avec 32 €/jour et les mêmes postes d’électricité/suppléments, mais sans périodes ni preuve d’un barème opérateur 2027; le montant correspond à une valeur de la grille 2026. Aucun tarif 2027 confirmé par l’opérateur.",
-      "recheckNextCheck": "Attendre ou demander la grille opérateur 2027. Clarifier si l’affichage secondaire à 32 €/jour est bien un prix 2027 et sa période; conserver les prix officiels actuels comme 2026. Distinguer forfait de base, électricité, personnes, animal, frais/caution et durée minimale.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 205,
+      "recheckFinding": "Lot 205 (07/11/2026) : page officielle toujours intitulée « Tarifs séjour nuits 2026 »; emplacement 2 personnes + 1 véhicule à 16/20/25/32/20/16 €/nuit selon six périodes, électricité 10 A +4,90 €/nuit, suppléments adultes/enfants et animal distincts, minimum 2 nuits. L’accueil annonce une ouverture 27/03–11/10/2026. CampingFrance classe un repère 32 €/jour sous « Tarifs 2027 », mais ce montant correspond à un niveau de la grille officielle 2026 et n’est pas confirmé par l’exploitant. Aucun tarif ou calendrier 2027 officiel publié.",
+      "recheckNextCheck": "Obtenir auprès de l’exploitant la grille camping-car 2027 datée, ses périodes, inclusions, taxe et frais.",
       "recheckSource": "https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements",
       "secondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/prefailles/la-pree",
-      "recheckTariffSource": "https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements",
+      "recheckTariffSource": "https://camping-prefailles.fr/index.php/fr/",
       "recheckSecondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/prefailles/la-pree"
     },
     {
