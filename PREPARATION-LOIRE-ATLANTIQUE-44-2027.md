@@ -1527,3 +1527,13 @@ Sources :
 - Aucun tarif complet camping-car 2027 confirmé; aucun nouveau lieu/contact. Fiches existantes et saison des Écureuils mises à jour. Compteurs inchangés : **215 / 187 / 28**.
 
 [Rapport groupé du lot 227](AUDIT-44-2027-LOT227.md).
+
+
+## Lot 228 — trois stationnements, 7 novembre 2026
+
+- **Avenue des Sports, Saint-Brevin :** 8 places, gratuit et ouvert toute l’année selon l’Office de tourisme; conditions de nuitée/durée non détaillées.
+- **Bois-Joalland, Saint-Nazaire :** gratuit selon la fiche départementale; la route au-dessus du barrage est fermée jusqu’à nouvel ordre. Le parking n’est pas confirmé fermé; vérifier l’accès.
+- **Port du Vivier, Saint-Nazaire :** gratuit selon la fiche départementale; services, durée maximale et règles nocturnes non précisés.
+- Aucune période de gratuité garantie pour 2027 dans ce lot; aucun nouvel endroit/contact. Compteurs inchangés : **215 / 187 / 28**.
+
+[Rapport groupé du lot 228](AUDIT-44-2027-LOT228.md).
