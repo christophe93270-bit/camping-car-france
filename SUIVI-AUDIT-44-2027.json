@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle ajouté : lot 220 (07/11/2026), La Rabine (aucun prix opérateur 2027), La Pindière (officiels 2025; repère de plateforme 17,10 € + électricité 5,70 € sans dates), Le Briord (tarifs locaux 14 € et 17 € contradictoires, saison 2026). Aucun tarif complet 2027 confirmé; aucun changement à aires-pdl.json; compteurs 215 / 187 / 28.",
+  "note": "Dernier contrôle ajouté : lot 221 (07/11/2026), La Fontaine (aucun tarif 2027, brochure sans prix), Camping de la Forêt au Gâvre (aucun tarif officiel; annuaire non millésimé), Les Chênes Verts (ouverture 2027 annoncée, dates du début différant d'un jour selon exploitant/Pitchup, aucune disponibilité/prix affiché). Mise à jour du statut booking_only pour Les Chênes Verts; aucun montant 2027 ajouté. Compteurs 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -240,14 +240,16 @@
       "finding": "Page opérateur emplacements sans dates remplies ni montant 2027 exploitable.",
       "nextCheck": "Calendrier et devis camping-car 2027 ; ne pas valider les dates d'un annuaire seul.",
       "source": "https://www.camping-lafontaine.com/location-emplacement-guerande/",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 182,
-      "recheckFinding": "Lot 182 (05/11/2026) : le site opérateur décrit bien des emplacements pour camping-cars, mais ne publie aucun montant ni grille pour les emplacements. Les pages officielles donnent des saisons différentes (14/04–15/10 campeurs dans le pied de page; présentation mentionnant l’accueil campeurs à compter du 18/04/2026). Aucune donnée tarifaire 2027 confirmée.",
-      "recheckNextCheck": "Attendre une grille ou un panier daté 2027 d’emplacement; confirmer calendrier propre aux parcelles; tenir frigo/laverie et taxe à part.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 221,
+      "recheckFinding": "Lot 221 (07/11/2026) : pages exploitant présentent emplacements camping-car mais aucun prix de nuitée; brochure officielle sans grille tarifaire. Fiche touristique encore datée 04/04–04/10/2026; aucun tarif ni calendrier 2027 daté trouvé. Prix conservé « Non confirmé ».",
+      "recheckNextCheck": "Obtenir par l'exploitant un devis 2027 pour camping-car + deux adultes, électricité et taxe; confirmer dates d'ouverture 2027.",
       "recheckTariffSource": "https://www.camping-lafontaine.com/location-emplacement-guerande/",
       "recheckSeasonSource": "https://www.camping-lafontaine.com/camping-3-etoiles-guerande/",
       "recheckContactSource": "https://www.camping-lafontaine.com/contact-acces/",
-      "recheckConditionsSource": "https://www.camping-lafontaine.com/camping-familial-guerande/"
+      "recheckConditionsSource": "https://www.camping-lafontaine.com/camping-familial-guerande/",
+      "recheckBrochureSource": "https://www.camping-lafontaine.com/wp-content/uploads/2023/04/brochure.pdf",
+      "recheckSecondarySource": "https://www.labaule-guerande.com/offres/camping-la-fontaine-guerande-fr-6011364/"
     },
     {
       "sourceId": "CCF44-LE-GAVRE-CAMPING-FORET-2026",
@@ -258,13 +260,14 @@
       "finding": "Fiche touristique sans barème 2027 ; résultats homonymes hors du Gâvre écartés.",
       "nextCheck": "Tarifs municipaux/exploitant 2027, taxe et électricité.",
       "source": "https://www.enpaysdelaloire.com/hebergements/campings/camping-de-la-foret",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 182,
-      "recheckFinding": "Lot 182 (05/11/2026) : la fiche régionale confirme 10 emplacements dédiés aux camping-cars, mais aucun prix par nuit, taxe, électricité ou frais 2027 n’est publié. Contradiction de capacité sur la même fiche : 75 emplacements dans la description et 73 dans le tableau. Le site opérateur linked from the fiche retourne 503 lors du contrôle; tarif tiers 16,56 € non millésimé déjà noté ne vaut pas confirmation.",
-      "recheckNextCheck": "Relire le site opérateur quand il répond ou attendre une source municipale/opérateur; confirmer capacité, période, prix camping-car, électricité et taxe séparément.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 221,
+      "recheckFinding": "Lot 221 (07/11/2026) : tourisme régional indique 73 emplacements, dont 10 pour camping-cars; le descriptif général indique 75 emplacements. Aucun tarif sur les fiches institutionnelles. Un annuaire affiche un prix d'appel dès 16,56 € sans année ni composition de forfait camping-car : non retenu. Aucun prix ou calendrier officiel 2027 trouvé; prix reste « Non confirmé ».",
+      "recheckNextCheck": "Demander à la commune ou au camping le forfait camping-car 2027, dates d'ouverture, électricité, taxe et frais; confirmer la capacité annoncée.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/campings/camping-de-la-foret",
       "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/183923-CAMPING-DE-LA-FORET-%2A%2A",
-      "recheckOperatorSource": "https://campinglegavre.fr/"
+      "recheckOperatorSource": "https://campinglegavre.fr/",
+      "recheckTertiarySource": "https://hpaguide.fr/campings/france/pays-de-la-loire/loire-atlantique/gavre/9239.camping-de-la-foret-du-gavre"
     },
     {
       "sourceId": "CCF44-GUERANDE-BREHADOUR-2026",
@@ -2941,12 +2944,13 @@
       "finding": "Nouvelle lecture de la page de référence le 3 novembre : Saison du 2 avril au 12 septembre 2027 ; prix des emplacements à confirmer.. L'exploitant annonce une tarification dynamique : demander un devis daté pour un camping-car et deux adultes. La page emplacements distingue l'option avec électricité ; son inclusion n'est pas garantie pour toutes les formules. Vérifier taxe, électricité, frais de réservation, minimum de séjour et suppléments. Le lien nommé CGV renvoie au règlement intérieur 2024 : obtenir les conditions de réservation 2027. Aucun prix ne doit être présenté comme forfait complet confirmé.",
       "nextCheck": "Confirmer auprès de l’exploitant les dates 2027 et un devis camping-car (forfait, électricité, taxe, frais et minimum de séjour).",
       "source": "https://www.leschenesverts.info/hebergement/emplacement/",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 184,
-      "recheckFinding": "Lot 184 (05/11/2026) : la page officielle conserve la saison annoncée du 02/04 au 12/09/2027 et une tarification dynamique; aucun forfait public ni prix final daté 2027 camping-car n’est affiché dans la page emplacements. Le contenu distingue les parcelles avec électricité, dont l’inclusion varie selon la formule. Le moteur doit fournir un devis selon dates et occupants; taxe, frais et minimum de séjour demeurent à vérifier. Aucun tarif 2027 complet confirmé.",
-      "recheckNextCheck": "Obtenir un devis officiel daté 2027 pour camping-car et deux adultes; confirmer quelle formule inclut l’électricité, les frais, taxe, suppléments et minimum de séjour. Ne pas reprendre de prix tiers ou historiques comme tarif 2027.",
+      "recheckedAt": "2026-11-07",
+      "recheckLot": 221,
+      "recheckFinding": "Lot 221 (07/11/2026) : site exploitant annonce ouverture 02/04–12/09/2027, parcelles 80–100 m² adaptées aux camping-cars. Pitchup indique 03/04–12/09/2027, aucune disponibilité et électricité en option; écart d'un jour au démarrage. Aucun tarif 2027 affiché. Le repère de 18,52 € est 2026, pas 2027. Statut booking_only conservé.",
+      "recheckNextCheck": "Confirmer date d'ouverture et obtenir un tarif/devis 2027 camping-car; vérifier électricité, taxe, voiture supplémentaire et frais.",
       "recheckSource": "https://www.leschenesverts.info/hebergement/emplacement/",
-      "recheckTariffSource": "https://www.leschenesverts.info/hebergement/emplacement/"
+      "recheckTariffSource": "https://www.leschenesverts.info/hebergement/emplacement/",
+      "recheckBookingSource": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/bourgneuf_en_retz/camping_les_chenes_verts/"
     },
     {
       "sourceId": "ACCAMEAIREDECAMPINGCARLABAULE",
