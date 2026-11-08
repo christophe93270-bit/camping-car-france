@@ -3292,7 +3292,7 @@
       "Pas de prise électrique",
       "Pas d'horodateur"
     ],
-    "price": "Stationnement gratuit selon Loire-Atlantique Tourisme. Vidange présente ; aucun tarif spécifique de vidange communiqué.",
+    "price": "Stationnement gratuit pour les camping-cars de toutes tailles. Point de vidange présent, tarif de la vidange non précisé. Pas de borne d’eau ni de branchement électrique.",
     "status": "Parking de la mairie, rue du Chevecier, 44730 Saint-Michel-Chef-Chef. Distincte de CAMPING-CAR PARK Le Soleya à Tharon-Plage.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.18226,
@@ -3300,7 +3300,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle du 19 octobre 2026 auprès de Loire-Atlantique Tourisme : gratuité, services, capacité et restrictions de nuitée distingués ; montants non publiés explicitement signalés. Les coordonnées et l'identifiant régionaux d'origine sont conservés.",
+    "importReview": "Contrôle du 19 octobre 2026 auprès de Loire-Atlantique Tourisme : gratuité, services, capacité et restrictions de nuitée distingués ; montants non publiés explicitement signalés. Les coordonnées et l'identifiant régionaux d'origine sont conservés. Lot 265, contrôle du 08/11/2026 : Loire-Atlantique Tourisme confirme les conditions du parking de la mairie.",
     "sourceId": "ACCAMPDL044V5003AG",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
     "priceSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
@@ -5110,7 +5110,7 @@
       "Toilettes",
       "Vidange"
     ],
-    "price": "Stationnement indiqué gratuit par les guides camping-car indépendants (2026). Aucun barème municipal 2026 vérifié ; contrôler la signalisation à l'entrée.",
+    "price": "Stationnement signalé gratuit par un guide indépendant. Durée maximale à confirmer sur la signalisation. Vidange et remplissage gratuits à la borne distincte selon la fiche régionale.",
     "status": "Étangs de la Madeleine, Fay-de-Bretagne. Stationnement et borne de services séparés de quelques centaines de mètres : ne pas confondre la zone de nuitée avec la borne. Des avis récents évoquent une limite de 48 h ; vérifier l'affichage communal.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.4142222,
@@ -5118,7 +5118,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Sources croisées octobre 2026 : i-CampingCar et annuaires indépendants indiquent la gratuité ; absence de confirmation de la tarification par une page municipale actuelle.",
+    "importReview": "Sources croisées octobre 2026 : i-CampingCar et annuaires indépendants indiquent la gratuité ; absence de confirmation de la tarification par une page municipale actuelle. Lot 265, contrôle du 08/11/2026 : La gratuité publiée par la Région concerne l’eau et la vidange à la borne distincte. https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service",
     "sourceId": "ACCAMPDL044V50ZKR0",
     "priceSource": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE",
     "servicesSource": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE"
@@ -8551,10 +8551,10 @@
     "services": [
       "Vidange des eaux usées",
       "Vidange cassette WC",
-      "Point d'eau signalé par les guides indépendants",
+      "Remplissage d’eau gratuit selon la fiche régionale",
       "Pas de branchement électrique confirmé"
     ],
-    "price": "Services indiqués gratuits par les guides camping-car indépendants ; fonctionnement et gratuité 2026 à vérifier à la borne.",
+    "price": "Vidange et remplissage d’eau gratuits selon la fiche régionale.",
     "status": "Étangs de la Madeleine, Fay-de-Bretagne. Borne de vidange/eau distincte des emplacements de stationnement près du plan d'eau. Pas d'électricité confirmée ; certains relevés signalent des interruptions saisonnières. Mise en garde nocturne du 20/10/2026 : La borne d'eau/vidange des étangs de la Madeleine est distincte du stationnement près du plan d'eau. Les sources de la borne ne confirment ni stationnement de nuit sur la plateforme technique ni fonctionnement continu. Le point camping-car de stationnement voisin reste recensé indépendamment. Le lieu reste affiché sans filtre pour l'accès aux services ou pour un arrêt réglementaire.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.4149851,
@@ -8562,15 +8562,16 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Sources indépendantes recoupées en octobre 2026 ; distinction explicite des deux espaces, prix et état en 2026 restant à confirmer auprès de la mairie. Lot 38 du 20/10/2026 : not_established (sans supposer une interdiction sur les autres parkings). Preuve https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE.",
+    "importReview": "Sources indépendantes recoupées en octobre 2026 ; distinction explicite des deux espaces, prix et état en 2026 restant à confirmer auprès de la mairie. Lot 38 du 20/10/2026 : not_established (sans supposer une interdiction sur les autres parkings). Preuve https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE. Lot 265, contrôle du 08/11/2026 : La fiche e-SPRIT situe précisément la borne aux coordonnées 47.4149851, -1.7885561. https://www.cirkwi.com/fr/point-interet/441622-aire-de-service",
     "sourceId": "ACCAMPDL044V5001HL",
-    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE",
+    "priceSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service",
     "servicesSource": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE",
     "overnightStatus": "not_established",
     "overnightCheckedAt": "2026-10-20",
     "overnightEvidenceUrl": "https://www.i-campingcar.fr/aires.php?ville=FAY+DE+BRETAGNE",
     "overnightClassification": "not_established_not_prohibited",
-    "overnightVerificationNote": "La borne d'eau/vidange des étangs de la Madeleine est distincte du stationnement près du plan d'eau. Les sources de la borne ne confirment ni stationnement de nuit sur la plateforme technique ni fonctionnement continu. Le point camping-car de stationnement voisin reste recensé indépendamment."
+    "overnightVerificationNote": "La borne d'eau/vidange des étangs de la Madeleine est distincte du stationnement près du plan d'eau. Les sources de la borne ne confirment ni stationnement de nuit sur la plateforme technique ni fonctionnement continu. Le point camping-car de stationnement voisin reste recensé indépendamment.",
+    "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service"
   },
   {
     "department": "44",
