@@ -760,11 +760,20 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ. Lot 247, contrôle du 07/11/2026 : Le tarif affiché concerne l’usage de la borne de services et reste à vérifier sur place. La fiche ne précise pas de droit à la nuitée. Lot 298, contrôle du 09/11/2026. Accès routier confirmé sur la page communale. https://www.mairie-laboissieredudore.fr/vie-boisserienne/aire-de-camping-car/",
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ. Lot 247, contrôle du 07/11/2026 : Le tarif affiché concerne l’usage de la borne de services et reste à vérifier sur place. La fiche ne précise pas de droit à la nuitée. Lot 298, contrôle du 09/11/2026. Accès routier confirmé sur la page communale. https://www.mairie-laboissieredudore.fr/vie-boisserienne/aire-de-camping-car/ Lot 311, contrôle du 09/11/2026. La fiche régionale distingue le parking gratuit et le paiement de 3 € par carte pour la borne de services. Conditions 2027 à confirmer. https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-camping-car-la-boissiere-du-dore",
     "sourceId": "ACCAMPDL044V50028O",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE",
     "priceSource": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE",
-    "servicesSource": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE"
+    "servicesSource": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-09",
+      "status": "partial",
+      "label": "Parking gratuit et borne de services affichée à 3 €, sans millésime.",
+      "note": "La fiche régionale distingue le parking gratuit et le paiement de 3 € par carte pour la borne de services. Conditions 2027 à confirmer.",
+      "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-camping-car-la-boissiere-du-dore",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "72",
@@ -4917,7 +4926,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Existence, 20 places et services recoupés avec le site officiel de la mairie et Loire-Atlantique Tourisme ; tarif 2026 non garanti. Lot 72 du 23/10/2026 : grille municipale 2026 contrôlée visuellement ; prix du stationnement et des services distingués, taxe non inventée. Lot 154 (04/11/2026) : page municipale confirme 20 places et 16A/eau/vidanges inclus dans l’aire; 10 €/jour/emplacement et taxe additionnelle demeurent les données 2026, aucune grille 2027 repérée. Lot 269, contrôle du 08/11/2026 : https://www.nozay44.fr/medias/sites/4/2026/03/PV-conseil-municipal-11-12-2025.pdf https://rando.loire-atlantique.fr/service/180251-AIRE-DE-STATIONNEMENT-ET-DE-SERVICES Lot 293, contrôle du 09/11/2026. La mairie renvoie vers AirePark Réservation et Loire-Atlantique Tourisme confirme l’automate 24 h/24. La fiche touristique affiche 11,10 € taxe comprise sans millésime, montant 2027 à confirmer.",
+    "importReview": "Existence, 20 places et services recoupés avec le site officiel de la mairie et Loire-Atlantique Tourisme ; tarif 2026 non garanti. Lot 72 du 23/10/2026 : grille municipale 2026 contrôlée visuellement ; prix du stationnement et des services distingués, taxe non inventée. Lot 154 (04/11/2026) : page municipale confirme 20 places et 16A/eau/vidanges inclus dans l’aire; 10 €/jour/emplacement et taxe additionnelle demeurent les données 2026, aucune grille 2027 repérée. Lot 269, contrôle du 08/11/2026 : https://www.nozay44.fr/medias/sites/4/2026/03/PV-conseil-municipal-11-12-2025.pdf https://rando.loire-atlantique.fr/service/180251-AIRE-DE-STATIONNEMENT-ET-DE-SERVICES Lot 293, contrôle du 09/11/2026. La mairie renvoie vers AirePark Réservation et Loire-Atlantique Tourisme confirme l’automate 24 h/24. La fiche touristique affiche 11,10 € taxe comprise sans millésime, montant 2027 à confirmer. Lot 311, contrôle du 09/11/2026. Le conseil municipal fixe 10 € par jour et par emplacement hors taxe pour 2026. Loire-Atlantique Tourisme affiche séparément un total de 11,10 € pour 24 h, taxe comprise, sans année indiquée. Confirmer le total à la réservation. https://www.nozay44.fr/medias/sites/4/2026/03/PV-conseil-municipal-11-12-2025.pdf",
     "sourceId": "ACCAMPDL044V500766",
     "sourceOfficial": "https://www.nozay44.fr/aire-de-camping-cars/",
     "servicesSource": "https://www.nozay44.fr/aire-de-camping-cars/",
@@ -4927,7 +4936,16 @@
     "priceCheckedAt": "2026-10-23",
     "priceVerification": "grille_municipale_officielle_2026",
     "priceType": "tarif_municipal_2026_stationnement_hors_taxe",
-    "priceEvidenceNote": "Conseil municipal de Nozay du 11/12/2025, délibération 2025/147, tarifs 2026 pages 4–5 : 10 € par jour/emplacement aux étangs, taxe en sus. Le branchement à 1,50 € de la rubrique marchés n'est pas un supplément camping-car."
+    "priceEvidenceNote": "Conseil municipal de Nozay du 11/12/2025, délibération 2025/147, tarifs 2026 pages 4–5 : 10 € par jour/emplacement aux étangs, taxe en sus. Le branchement à 1,50 € de la rubrique marchés n'est pas un supplément camping-car.",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-09",
+      "status": "partial",
+      "label": "10 €/jour hors taxe au barème 2026. Tarif 2027 à confirmer.",
+      "note": "Le conseil municipal fixe 10 € par jour et par emplacement hors taxe pour 2026. Loire-Atlantique Tourisme affiche séparément un total de 11,10 € pour 24 h, taxe comprise, sans année indiquée. Confirmer le total à la réservation.",
+      "source": "https://www.nozay44.fr/medias/sites/4/2026/03/PV-conseil-municipal-11-12-2025.pdf",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "53",
@@ -6085,11 +6103,20 @@
     "gpsSource": "https://www.camping-car.com/tourisme/actus-des-aires/25201-ouverture-dune-aire-de-camping-car-a-teille-44/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Barème et services intégralement confirmés sur le site de la mairie de Teillé le 19/10/2026 ; coordonnées précises recoupées avec Camping-car.com et OSM. Le précédent point régional était décalé de 250 m. Relecture lot 157 (04/11/2026) : Teillé : le barème municipal (12/21/30/67,50 € hiver; 8/14/20/45 € été) comprend eau, électricité et vidange, mais n’est pas millésimé. La page fait se chevaucher les saisons le 31 mars; ne pas l’annoncer comme tarif 2027 ni extrapoler le forfait 7 nuits. Vérifications : Mairie : confirmer millésime, bascule saisonnière autour du 31 mars et du 1er novembre, et maintien des montants/services en 2027. Lot 229 (07/11/2026) : relecture directe de la page municipale; montants toujours publiés sans millésime et eau/électricité/vidange incluses. Ambiguïté exacte aux frontières du 31 mars et du 1er novembre. Ne pas attribuer au tarif une validité 2027.",
+    "importReview": "Barème et services intégralement confirmés sur le site de la mairie de Teillé le 19/10/2026 ; coordonnées précises recoupées avec Camping-car.com et OSM. Le précédent point régional était décalé de 250 m. Relecture lot 157 (04/11/2026) : Teillé : le barème municipal (12/21/30/67,50 € hiver; 8/14/20/45 € été) comprend eau, électricité et vidange, mais n’est pas millésimé. La page fait se chevaucher les saisons le 31 mars; ne pas l’annoncer comme tarif 2027 ni extrapoler le forfait 7 nuits. Vérifications : Mairie : confirmer millésime, bascule saisonnière autour du 31 mars et du 1er novembre, et maintien des montants/services en 2027. Lot 229 (07/11/2026) : relecture directe de la page municipale; montants toujours publiés sans millésime et eau/électricité/vidange incluses. Ambiguïté exacte aux frontières du 31 mars et du 1er novembre. Ne pas attribuer au tarif une validité 2027. Lot 311, contrôle du 09/11/2026. La commune inclut l’eau, l’électricité et la vidange. Les dates de changement de tarif se chevauchent dans les deux périodes affichées. Tarif 2027 et montant appliqué le 31 mars et le 1er novembre à confirmer. https://www.teille44.fr/page/descriptif_camping_car",
     "sourceId": "ACCAMPDL044V50OH5Q",
     "sourceOfficial": "https://www.teille44.fr/page/descriptif_camping_car",
     "priceSource": "https://www.teille44.fr/page/descriptif_camping_car",
-    "servicesSource": "https://www.teille44.fr/page/descriptif_camping_car"
+    "servicesSource": "https://www.teille44.fr/page/descriptif_camping_car",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-09",
+      "status": "partial",
+      "label": "8 € ou 12 € pour 24 h selon la saison, barème municipal sans millésime.",
+      "note": "La commune inclut l’eau, l’électricité et la vidange. Les dates de changement de tarif se chevauchent dans les deux périodes affichées. Tarif 2027 et montant appliqué le 31 mars et le 1er novembre à confirmer.",
+      "source": "https://www.teille44.fr/page/descriptif_camping_car",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "72",
@@ -9656,13 +9683,22 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées. Relecture lot 157 (04/11/2026) : Choisel : tarif municipal explicitement 2026 de 12 € TTC/24 h ou 6 € TTC/5 h par camping-car; garder les deux durées distinctes. Réservation en ligne = canal, pas supplément. Aucun barème 2027 publié. Vérifications : Mairie : tarifs 2027, suppléments éventuels et total affiché au paiement; maintenir les tranches 5 h et 24 h distinctes. Lot 229 (07/11/2026) : la page officielle confirme 20 places, services et tarifs 12 €/24 h ou 6 €/5 h, mais ne donne aucun millésime. Correction de la note antérieure : la page consultée ne justifie pas la qualification « explicitement millésimé 2026 ». Ne pas présenter les montants comme confirmés pour 2027. Lot 285, contrôle du 09/11/2026. La Ville affiche les montants sans année sur sa page. L’office de tourisme confirme explicitement le millésime 2026. https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-camping-car-site-de-choisel/ Lot 299, contrôle du 09/11/2026. La fiche régionale précise le paiement par carte et l’accueil des animaux. Les prix de 12 € pour 24 h et 6 € pour 5 h restent ceux publiés pour 2026.",
+    "importReview": "Contrôle groupé du 19 octobre 2026 auprès d'une collectivité, d'un office de tourisme ou d'une station ; tarifs non datés de l'année 2026 explicitement signalés comme à confirmer. Source e-SPRIT et licence d'origine conservées. Relecture lot 157 (04/11/2026) : Choisel : tarif municipal explicitement 2026 de 12 € TTC/24 h ou 6 € TTC/5 h par camping-car; garder les deux durées distinctes. Réservation en ligne = canal, pas supplément. Aucun barème 2027 publié. Vérifications : Mairie : tarifs 2027, suppléments éventuels et total affiché au paiement; maintenir les tranches 5 h et 24 h distinctes. Lot 229 (07/11/2026) : la page officielle confirme 20 places, services et tarifs 12 €/24 h ou 6 €/5 h, mais ne donne aucun millésime. Correction de la note antérieure : la page consultée ne justifie pas la qualification « explicitement millésimé 2026 ». Ne pas présenter les montants comme confirmés pour 2027. Lot 285, contrôle du 09/11/2026. La Ville affiche les montants sans année sur sa page. L’office de tourisme confirme explicitement le millésime 2026. https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-camping-car-site-de-choisel/ Lot 299, contrôle du 09/11/2026. La fiche régionale précise le paiement par carte et l’accueil des animaux. Les prix de 12 € pour 24 h et 6 € pour 5 h restent ceux publiés pour 2026. Lot 311, contrôle du 09/11/2026. L’office de tourisme date ces deux tarifs de 2026. Ils s’entendent TTC, par camping-car et par tranche. La réservation est possible en ligne. Barème 2027 à confirmer. https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-camping-car-site-de-choisel/",
     "sourceId": "ACCAMPDL044V5007YR",
     "sourceOfficial": "https://www.mairie-chateaubriant.fr/camping-cars/",
     "priceSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-camping-car-site-de-choisel/",
     "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-car-site-de-choisel",
     "priceYear": 2026,
-    "priceCheckedAt": "2026-11-09"
+    "priceCheckedAt": "2026-11-09",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-09",
+      "status": "partial",
+      "label": "12 € pour 24 h ou 6 € pour 5 h au barème 2026.",
+      "note": "L’office de tourisme date ces deux tarifs de 2026. Ils s’entendent TTC, par camping-car et par tranche. La réservation est possible en ligne. Barème 2027 à confirmer.",
+      "source": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-camping-car-site-de-choisel/",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "44",
