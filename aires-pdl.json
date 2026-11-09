@@ -124,7 +124,7 @@
       "Branchement électrique selon équipement de l'aire",
       "Stationnement sécurisé à accès réglementé"
     ],
-    "price": "13,50 € / 24 h du 7 novembre 2026 au 31 décembre 2027. Jusqu’au 31 décembre 2026, taxe de séjour de 1,32 € / 24 h, soit 14,82 € / 24 h au total. Taxe et total 2027 à confirmer. Parking 5 h + services : 6 €, sans date de fin publiée.",
+    "price": "13,50 € / 24 h hors taxe, tarif affiché au 09/11/2026 et jusqu’au 31/12/2027. Taxe de séjour de 1,32 € / 24 h publiée pour 2026 et 2027, soit 14,82 € / 24 h taxe comprise. Parking 5 h + services affiché à 6,00 €, sans date de fin publiée.",
     "status": "39 avenue de la Brière, Guérande ; 34 emplacements. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.33385,
@@ -132,7 +132,7 @@
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Données officielles CAMPING-CAR PARK recoupées le 19 octobre 2026. Fiche régionale e-SPRIT conservée comme source initiale ; prix d'octobre 2026, soumis à modification. Lot 233, 07/11/2026 : page officielle recontrôlée ; prix « en ce moment » 14,82 €/24 h avec taxe de séjour 1,32 €. Base de nuitée 2027 maintenue hors taxe ; total 2027 non confirmé puisque la taxe est publiée jusqu'au 31/12/2026 seulement. Le forfait 5 h + services reste sans période 2027 explicite. Le début de période diffère sur une autre variante officielle indexée (01/11/2026) ; la date de début exacte reste à harmoniser. Lot 283, contrôle du 09/11/2026. Début de période du tarif de base aligné sur la grille affichée par l’exploitant, au 07/11/2026. https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande",
+    "importReview": "Données officielles CAMPING-CAR PARK recoupées le 19 octobre 2026. Fiche régionale e-SPRIT conservée comme source initiale ; prix d'octobre 2026, soumis à modification. Lot 233, 07/11/2026 : page officielle recontrôlée ; prix « en ce moment » 14,82 €/24 h avec taxe de séjour 1,32 €. Base de nuitée 2027 maintenue hors taxe ; total 2027 non confirmé puisque la taxe est publiée jusqu'au 31/12/2026 seulement. Le forfait 5 h + services reste sans période 2027 explicite. Le début de période diffère sur une autre variante officielle indexée (01/11/2026) ; la date de début exacte reste à harmoniser. Lot 283, contrôle du 09/11/2026. Début de période du tarif de base aligné sur la grille affichée par l’exploitant, au 07/11/2026. https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande Lot 292, contrôle du 09/11/2026. La grille de l’exploitant affiche désormais la taxe de séjour 2027 à 1,32 € / 24 h et confirme un total stationnement et taxe de 14,82 € / 24 h.",
     "sourceId": "ACCAMEAIREAVENUEBRIERE",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande",
@@ -141,14 +141,16 @@
       "year": 2027,
       "checkedAt": "2026-11-09",
       "status": "partial",
-      "label": "13,50 € / 24 h hors taxe de séjour",
-      "note": "La grille de l’exploitant consultée le 09/11/2026 affiche le tarif de base à compter du 07/11/2026. La taxe de séjour n’est affichée que jusqu’au 31/12/2026. Forfait 5 h + services à 6 €, sans date de fin publiée.",
+      "label": "14,82 € / 24 h, taxe de séjour comprise",
+      "note": "L’exploitant publie la taxe de séjour de 1,32 € / 24 h du 1er janvier au 31 décembre 2027. Le tarif de base de 13,50 € et la taxe totalisent 14,82 € / 24 h. Parking 5 h + services affiché à 6,00 €, sans date de fin publiée. Frais éventuels de carte ou de réservation séparés.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande",
       "baseAmountEUR": 13.5,
       "unit": "24h",
-      "validFrom": "2026-11-07",
+      "validFrom": "2026-11-09",
       "validThrough": "2027-12-31",
-      "touristTaxConfirmed": false
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.32,
+      "totalStopoverAndTaxEUR": 14.82
     }
   },
   {
@@ -4347,7 +4349,7 @@
       "Wifi et tri des déchets",
       "Accès toute l'année"
     ],
-    "price": "14,50 € / 24 h du 7 novembre 2026 au 31 décembre 2027. Jusqu’au 31 décembre 2026, taxe de séjour de 1,32 € / 24 h, soit 15,82 € / 24 h au total. Taxe et total 2027 à confirmer. Parking 5 h + services : 6 €, sans date de fin publiée.",
+    "price": "14,50 € / 24 h hors taxe, tarif affiché au 09/11/2026 et jusqu’au 31/12/2027. Taxe de séjour de 1,32 € / 24 h publiée pour 2026 et 2027, soit 15,82 € / 24 h taxe comprise. Parking 5 h + services affiché à 6,00 €, sans date de fin publiée.",
     "status": "6 boulevard Guy de Champsavin, 44500 La Baule-Escoublac. Aire CAMPING-CAR PARK de 24 places, réservée aux camping-cars autonomes.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.28189,
@@ -4355,7 +4357,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ. Lot 283, contrôle du 09/11/2026. Début de période du tarif de base aligné sur la grille affichée par l’exploitant, au 07/11/2026. https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac",
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ. Lot 283, contrôle du 09/11/2026. Début de période du tarif de base aligné sur la grille affichée par l’exploitant, au 07/11/2026. https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac Lot 292, contrôle du 09/11/2026. La grille de l’exploitant affiche désormais la taxe de séjour 2027 à 1,32 € / 24 h et confirme un total stationnement et taxe de 15,82 € / 24 h.",
     "sourceId": "ACCAMEAIREDECAMPINGCARLABAULE",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac",
@@ -4364,14 +4366,16 @@
       "year": 2027,
       "checkedAt": "2026-11-09",
       "status": "partial",
-      "label": "14,50 € / 24 h hors taxe de séjour",
-      "note": "La grille de l’exploitant consultée le 09/11/2026 affiche le tarif de base à compter du 07/11/2026. La taxe de séjour n’est affichée que jusqu’au 31/12/2026. Forfait 5 h + services à 6 €, sans date de fin publiée.",
+      "label": "15,82 € / 24 h, taxe de séjour comprise",
+      "note": "L’exploitant publie la taxe de séjour de 1,32 € / 24 h du 1er janvier au 31 décembre 2027. Le tarif de base de 14,50 € et la taxe totalisent 15,82 € / 24 h. Parking 5 h + services affiché à 6,00 €, sans date de fin publiée. Frais éventuels de carte ou de réservation séparés.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac",
       "baseAmountEUR": 14.5,
       "unit": "24h",
-      "validFrom": "2026-11-07",
+      "validFrom": "2026-11-09",
       "validThrough": "2027-12-31",
-      "touristTaxConfirmed": false
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.32,
+      "totalStopoverAndTaxEUR": 15.82
     }
   },
   {
@@ -5480,7 +5484,7 @@
       "À 100 m de la plage de la Grande Falaise",
       "Emprise soumise à plans de prévention des risques littoraux"
     ],
-    "price": "14,05 € / 24 h du 7 novembre 2026 au 31 décembre 2027. Jusqu’au 31 décembre 2026, taxe de séjour de 1,32 € / 24 h, soit 15,37 € / 24 h au total. Taxe et total 2027 à confirmer. Parking 5 h + services : 6 €, sans date de fin publiée.",
+    "price": "14,05 € / 24 h hors taxe, tarif affiché au 09/11/2026 et jusqu’au 31/12/2027. Taxe de séjour de 1,32 € / 24 h publiée pour 2026 et 2027, soit 15,37 € / 24 h taxe comprise. Parking 5 h + services affiché à 6,00 €, sans date de fin publiée.",
     "status": "54 boulevard de la Grande Falaise, La Turballe ; aire distincte du Clos Mora. Coordonnées corrigées d'après l'exploitant : 47.33147, -2.49935.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.33147,
@@ -5488,7 +5492,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ. Lot 233, 07/11/2026 : page officielle recontrôlée ; prix « en ce moment » 15,37 €/24 h avec taxe de séjour 1,32 €. Base de nuitée 2027 maintenue hors taxe ; total 2027 non confirmé puisque la taxe est publiée jusqu'au 31/12/2026 seulement. Le forfait 5 h + services reste sans période 2027 explicite. Lot 283, contrôle du 09/11/2026. Début de période du tarif de base aligné sur la grille affichée par l’exploitant, au 07/11/2026. https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise",
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ. Lot 233, 07/11/2026 : page officielle recontrôlée ; prix « en ce moment » 15,37 €/24 h avec taxe de séjour 1,32 €. Base de nuitée 2027 maintenue hors taxe ; total 2027 non confirmé puisque la taxe est publiée jusqu'au 31/12/2026 seulement. Le forfait 5 h + services reste sans période 2027 explicite. Lot 283, contrôle du 09/11/2026. Début de période du tarif de base aligné sur la grille affichée par l’exploitant, au 07/11/2026. https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise Lot 292, contrôle du 09/11/2026. La grille de l’exploitant affiche désormais la taxe de séjour 2027 à 1,32 € / 24 h et confirme un total stationnement et taxe de 15,37 € / 24 h.",
     "sourceId": "ACCAMECCGRANDEFALAISE",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise",
@@ -5497,14 +5501,16 @@
       "year": 2027,
       "checkedAt": "2026-11-09",
       "status": "partial",
-      "label": "14,05 € / 24 h hors taxe de séjour",
-      "note": "La grille de l’exploitant consultée le 09/11/2026 affiche le tarif de base à compter du 07/11/2026. La taxe de séjour n’est affichée que jusqu’au 31/12/2026. Forfait 5 h + services à 6 €, sans date de fin publiée.",
+      "label": "15,37 € / 24 h, taxe de séjour comprise",
+      "note": "L’exploitant publie la taxe de séjour de 1,32 € / 24 h du 1er janvier au 31 décembre 2027. Le tarif de base de 14,05 € et la taxe totalisent 15,37 € / 24 h. Parking 5 h + services affiché à 6,00 €, sans date de fin publiée. Frais éventuels de carte ou de réservation séparés.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise",
       "baseAmountEUR": 14.05,
       "unit": "24h",
-      "validFrom": "2026-11-07",
+      "validFrom": "2026-11-09",
       "validThrough": "2027-12-31",
-      "touristTaxConfirmed": false
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.32,
+      "totalStopoverAndTaxEUR": 15.37
     }
   },
   {
@@ -6879,7 +6885,7 @@
       "Branchement électrique selon équipement de l'aire",
       "Stationnement sécurisé à accès réglementé"
     ],
-    "price": "15,50 € / 24 h du 7 novembre au 31 décembre 2026 ; 13,74 € / 24 h du 1er janvier au 31 décembre 2027. Taxe de séjour : 1,32 € / 24 h affichée jusqu'au 31/12/2026 seulement. Total visible aujourd'hui : 16,82 €, non applicable par extrapolation en 2027. Parking 5 h + services : 7,05 € affichés à partir du 07/11/2026 ; fin de validité non précisée.",
+    "price": "15,50 € / 24 h hors taxe jusqu’au 31/12/2026, puis 13,74 € / 24 h hors taxe en 2027. Taxe de séjour de 1,32 € / 24 h publiée pour 2026 et 2027, soit 16,82 € / 24 h taxe comprise fin 2026 et 15,06 € / 24 h en 2027. Parking 5 h + services affiché à 7,05 €, sans date de fin publiée.",
     "status": "50 route de la Barre, Bouaye ; 8 emplacements et électricité 6 A. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.15121,
@@ -6887,23 +6893,25 @@
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Données officielles CAMPING-CAR PARK recoupées le 19 octobre 2026. Fiche régionale e-SPRIT conservée comme source initiale ; prix d'octobre 2026, soumis à modification. Lot 234, 07/11/2026 : grille officielle « tarifs par saison » relue. Tarif courant 16,82 € /24 h à cette date ; tarif ou période 2027 détaillés dans season2027. Le service court 5 h reste séparé de la nuitée, sa date de fin n'étant pas publiée.",
+    "importReview": "Données officielles CAMPING-CAR PARK recoupées le 19 octobre 2026. Fiche régionale e-SPRIT conservée comme source initiale ; prix d'octobre 2026, soumis à modification. Lot 234, 07/11/2026 : grille officielle « tarifs par saison » relue. Tarif courant 16,82 € /24 h à cette date ; tarif ou période 2027 détaillés dans season2027. Le service court 5 h reste séparé de la nuitée, sa date de fin n'étant pas publiée. Lot 292, contrôle du 09/11/2026. La grille de l’exploitant affiche désormais la taxe de séjour 2027 à 1,32 € / 24 h et confirme un total stationnement et taxe de 15,06 € / 24 h.",
     "sourceId": "ACCAMPDL044V5143W2",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-09",
       "status": "partial",
-      "label": "13,74 € / 24 h hors taxe de séjour",
-      "note": "Contrôle direct du 07/11/2026 (lot 234) : la grille de saison affiche le tarif actuel de 15,50 €/24 h du 07/11 au 31/12/2026, puis 13,74 €/24 h du 01/01 au 31/12/2027. La taxe de séjour de 1,32 €/24 h est affichée seulement du 01/01 au 31/12/2026 ; le total de 16,82 € observé aujourd'hui ne vaut pas pour 2027. Parking 5 h + services : 7,05 € affichés « à partir d'aujourd'hui », sans date de fin. Carte d'accès et éventuels frais de réservation séparés.",
+      "label": "15,06 € / 24 h, taxe de séjour comprise",
+      "note": "L’exploitant publie la taxe de séjour de 1,32 € / 24 h du 1er janvier au 31 décembre 2027. Le tarif de base de 13,74 € et la taxe totalisent 15,06 € / 24 h. Parking 5 h + services affiché à 7,05 €, sans date de fin publiée. Frais éventuels de carte ou de réservation séparés.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
       "baseAmountEUR": 13.74,
       "unit": "24h",
       "validFrom": "2027-01-01",
       "validThrough": "2027-12-31",
-      "touristTaxConfirmed": false
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.32,
+      "totalStopoverAndTaxEUR": 15.06
     }
   },
   {
@@ -7047,7 +7055,7 @@
       "Branchement électrique selon équipement de l'aire",
       "Stationnement sécurisé à accès réglementé"
     ],
-    "price": "13,95 € / 24 h du 7 novembre 2026 au 31 décembre 2027. Jusqu’au 31 décembre 2026, taxe de séjour de 1,32 € / 24 h, soit 15,27 € / 24 h au total. Taxe et total 2027 à confirmer. Parking 5 h + services : 6 €, sans date de fin publiée.",
+    "price": "13,95 € / 24 h hors taxe, tarif affiché au 09/11/2026 et jusqu’au 31/12/2027. Taxe de séjour de 1,32 € / 24 h publiée pour 2026 et 2027, soit 15,27 € / 24 h taxe comprise. Parking 5 h + services affiché à 6,00 €, sans date de fin publiée.",
     "status": "Rue du Clos-Mora, La Turballe ; 23 places, électricité 6 A. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.35157,
@@ -7055,7 +7063,7 @@
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Données officielles CAMPING-CAR PARK recoupées le 19 octobre 2026. Fiche régionale e-SPRIT conservée comme source initiale ; prix d'octobre 2026, soumis à modification. Lot 233, 07/11/2026 : page officielle recontrôlée ; prix « en ce moment » 15,27 €/24 h avec taxe de séjour 1,32 €. Base de nuitée 2027 maintenue hors taxe ; total 2027 non confirmé puisque la taxe est publiée jusqu'au 31/12/2026 seulement. Le forfait 5 h + services reste sans période 2027 explicite. Lot 283, contrôle du 09/11/2026. Début de période du tarif de base aligné sur la grille affichée par l’exploitant, au 07/11/2026. https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe",
+    "importReview": "Données officielles CAMPING-CAR PARK recoupées le 19 octobre 2026. Fiche régionale e-SPRIT conservée comme source initiale ; prix d'octobre 2026, soumis à modification. Lot 233, 07/11/2026 : page officielle recontrôlée ; prix « en ce moment » 15,27 €/24 h avec taxe de séjour 1,32 €. Base de nuitée 2027 maintenue hors taxe ; total 2027 non confirmé puisque la taxe est publiée jusqu'au 31/12/2026 seulement. Le forfait 5 h + services reste sans période 2027 explicite. Lot 283, contrôle du 09/11/2026. Début de période du tarif de base aligné sur la grille affichée par l’exploitant, au 07/11/2026. https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe Lot 292, contrôle du 09/11/2026. La grille de l’exploitant affiche désormais la taxe de séjour 2027 à 1,32 € / 24 h et confirme un total stationnement et taxe de 15,27 € / 24 h.",
     "sourceId": "ACCAMECCCLOSMORA",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe",
@@ -7064,14 +7072,16 @@
       "year": 2027,
       "checkedAt": "2026-11-09",
       "status": "partial",
-      "label": "13,95 € / 24 h hors taxe de séjour",
-      "note": "La grille de l’exploitant consultée le 09/11/2026 affiche le tarif de base à compter du 07/11/2026. La taxe de séjour n’est affichée que jusqu’au 31/12/2026. Forfait 5 h + services à 6 €, sans date de fin publiée.",
+      "label": "15,27 € / 24 h, taxe de séjour comprise",
+      "note": "L’exploitant publie la taxe de séjour de 1,32 € / 24 h du 1er janvier au 31 décembre 2027. Le tarif de base de 13,95 € et la taxe totalisent 15,27 € / 24 h. Parking 5 h + services affiché à 6,00 €, sans date de fin publiée. Frais éventuels de carte ou de réservation séparés.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe",
       "baseAmountEUR": 13.95,
       "unit": "24h",
-      "validFrom": "2026-11-07",
+      "validFrom": "2026-11-09",
       "validThrough": "2027-12-31",
-      "touristTaxConfirmed": false
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.32,
+      "totalStopoverAndTaxEUR": 15.27
     }
   },
   {
@@ -8924,7 +8934,7 @@
       "Sanitaires du camping accessibles",
       "Électricité sur l'aire non annoncée par le gestionnaire"
     ],
-    "price": "Barème opérateur : 15 € / 24 h hors taxe du 7 novembre 2026 au 31 décembre 2027. Aire fermée du 2 novembre 2026 au 1er avril 2027 selon l’exploitant. Taxe de séjour 2027 à confirmer. Parking 5 h + services affiché à 6 €, sous réserve d’ouverture.",
+    "price": "15,00 € / 24 h hors taxe, tarif affiché au 09/11/2026 et jusqu’au 31/12/2027. Taxe de séjour de 1,32 € / 24 h publiée pour 2026 et 2027, soit 16,32 € / 24 h taxe comprise. Fermeture hivernale annoncée du 2 novembre 2026 au 1er avril 2027. Parking 5 h + services affiché à 6,00 €, sans date de fin publiée.",
     "status": "21 boulevard du Petit-Port, Nantes ; 11 emplacements selon l'exploitant en octobre 2026. Accès tramway. L'électricité sur l'aire n'est pas annoncée : ne pas la promettre. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement. Fermeture hivernale annoncée du 02/11/2026 au 01/04/2027.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.24331,
@@ -8932,7 +8942,7 @@
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Données officielles CAMPING-CAR PARK recoupées le 19 octobre 2026. Fiche régionale e-SPRIT conservée comme source initiale ; prix d'octobre 2026, soumis à modification. Lot 283, contrôle du 09/11/2026. Fermeture hivernale confirmée et affichée avec le tarif. Le montant publié pour 2027 est hors taxe de séjour. https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
+    "importReview": "Données officielles CAMPING-CAR PARK recoupées le 19 octobre 2026. Fiche régionale e-SPRIT conservée comme source initiale ; prix d'octobre 2026, soumis à modification. Lot 283, contrôle du 09/11/2026. Fermeture hivernale confirmée et affichée avec le tarif. Le montant publié pour 2027 est hors taxe de séjour. https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port Lot 292, contrôle du 09/11/2026. La grille de l’exploitant affiche désormais la taxe de séjour 2027 à 1,32 € / 24 h et confirme un total stationnement et taxe de 16,32 € / 24 h.",
     "sourceId": "ACCAMPDL044V50420T",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
@@ -8941,17 +8951,19 @@
       "year": 2027,
       "checkedAt": "2026-11-09",
       "status": "partial",
-      "label": "15,00 € / 24 h hors taxe de séjour",
-      "note": "Lot 236, contrôle du 07/11/2026 : 15 €/24 h du 31/12/2026 au 31/12/2027. La taxe de 1,32 €/24 h est affichée jusqu’au 31/12/2026. Le total 2027 reste à confirmer. L’exploitant annonce une fermeture hivernale du 02/11/2026 au 01/04/2027. Le forfait de 5 h avec services est affiché à 6 €, sans date de fin précisée.",
+      "label": "16,32 € / 24 h, taxe de séjour comprise",
+      "note": "L’exploitant publie la taxe de séjour de 1,32 € / 24 h du 1er janvier au 31 décembre 2027. Le tarif de base de 15,00 € et la taxe totalisent 16,32 € / 24 h. Fermeture hivernale annoncée du 2 novembre 2026 au 1er avril 2027. Parking 5 h + services affiché à 6,00 €, sans date de fin publiée. Frais éventuels de carte ou de réservation séparés.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
       "baseAmountEUR": 15,
       "unit": "24h",
-      "validFrom": "2026-12-31",
+      "validFrom": "2026-11-09",
       "validThrough": "2027-12-31",
-      "touristTaxConfirmed": false,
+      "touristTaxConfirmed": true,
       "availability": "closed_winter",
       "availableThrough": "2026-11-01",
-      "reopens": "2027-04-02"
+      "reopens": "2027-04-02",
+      "touristTaxEUR": 1.32,
+      "totalStopoverAndTaxEUR": 16.32
     },
     "operationalWarning": "Aire signalée fermée pour l’hiver par l’exploitant du 02/11/2026 au 01/04/2027.",
     "operationalWarningSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port"
