@@ -5978,11 +5978,21 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : barème camping publié sur page régionale, borne signalée sur fiche dédiée. Ne pas inventer de prix de vidange seule. Lot 268, contrôle du 08/11/2026 : Écart de millésime relevé sur la page et son PDF : https://www.camping-la-pindiere.com/27-tarifs/96-tarifs-emplacements.html Lot 297, contrôle du 09/11/2026. L’indication régionale de 6 à 8 €/nuit, sans millésime, est retirée du champ public des tarifs et conservée ici comme ancien repère.",
+    "importReview": "20/10/2026 : barème camping publié sur page régionale, borne signalée sur fiche dédiée. Ne pas inventer de prix de vidange seule. Lot 268, contrôle du 08/11/2026 : Écart de millésime relevé sur la page et son PDF : https://www.camping-la-pindiere.com/27-tarifs/96-tarifs-emplacements.html Lot 297, contrôle du 09/11/2026. L’indication régionale de 6 à 8 €/nuit, sans millésime, est retirée du champ public des tarifs et conservée ici comme ancien repère. Lot 317, contrôle du 09/11/2026. Prix d’appel secondaire de 17,10 € pour deux adultes et une nuit, sans séjour daté vérifié. L’électricité 10 A est en supplément sur cette catégorie Pitchup. https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/heric/camping_la_pindiere/?pitchtype=15202",
     "sourceId": "ACCAMPDL044V5001GW",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-la-pindiere",
     "priceSource": "https://www.camping-la-pindiere.com/27-tarifs/96-tarifs-emplacements.html",
-    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-la-pindiere"
+    "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-la-pindiere",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-09",
+      "status": "partial",
+      "label": "Pitchup affiche un prix d’appel de 17,10 € pour une nuit et deux adultes. Tarif officiel 2027 à confirmer.",
+      "note": "Le prix d’appel de la plateforme ne correspond pas à une date précise vérifiée. La catégorie accepte les camping-cars et l’électricité 10 A est proposée en supplément. L’exploitant n’a pas publié de barème 2027 dans les pages consultées. Prix et accès à la borne seule à confirmer.",
+      "source": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/heric/camping_la_pindiere/?pitchtype=15202",
+      "sourceType": "secondary",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "53",
@@ -10672,11 +10682,13 @@
       "10 emplacements camping-car recensés par Destination Pornic, non assimilés aux 375 emplacements classés tous usages",
       "Stop-accueil camping-car annoncé par l'office de tourisme",
       "Aire de services camping-car : eau, vidange, déchets et WC annoncés",
-      "Camping avec sanitaires et équipements de loisirs pour résidents"
+      "Camping avec sanitaires et équipements de loisirs pour résidents",
+      "Pour un emplacement de camping, arrivée dès 14 h, départ avant ou à midi et caution de 50 € selon le camping.",
+      "Hors saison, séjour d’au moins deux nuits sur un emplacement de camping. Le choix d’une parcelle précise est une option à 20 €."
     ],
     "price": "Tarifs 2026 publiés par Destination Pornic : étape camping-car à 15,50 € / nuit (contenu exact du forfait à confirmer) ; emplacement camping pour 2 personnes et 1 voiture de 25,50 € à 61 € / nuit selon période et formule ; taxe de séjour de 0,66 € / adulte / nuit en supplément. Prix distincts, non interchangeables.",
     "status": "23 rue de la Plage de la Boutinardière, 44210 Pornic. Camping privé ouvert du 03/04 au 28/09/2026, donc hors saison au 20/10/2026. L'office de tourisme indique 10 emplacements pour camping-cars et une étape spécifique à 15,50 € ; vérifier les prestations incluses et la réservation directement avec le camping. L'accès extérieur à la borne de vidange sans séjour n'est pas confirmé.",
-    "importReview": "Lot 39 (20/10/2026) : ajout distinct avec coordonnées et tarif millésimé 2026 vérifiés auprès de Destination Pornic. Plus proche fiche existante à environ 1,7 km ; pas de doublon constaté. Ne pas confondre forfait étape et prix d'un emplacement de camping.",
+    "importReview": "Lot 39 (20/10/2026) : ajout distinct avec coordonnées et tarif millésimé 2026 vérifiés auprès de Destination Pornic. Plus proche fiche existante à environ 1,7 km ; pas de doublon constaté. Ne pas confondre forfait étape et prix d'un emplacement de camping. Lot 317, contrôle du 09/11/2026. Saison 2027, horaires, caution et option de choix de parcelle documentés pour les emplacements du camping. https://www.camping-boutinardiere.com/foire-au-questions.html",
     "priceYear": 2026,
     "priceCheckedAt": "2026-10-20",
     "priceEvidenceDocument": "https://www.pornic.com/camping-la-boutinardiere.html",
@@ -10684,10 +10696,10 @@
     "seasonalDates2026": "03/04/2026–28/09/2026",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-09",
       "status": "partial",
-      "label": "Ouverture annoncée le 2 avril 2027. Offre relevée à partir de 210 € pour 7 nuits les 16–23 ou 23–30 avril 2027.",
-      "note": "Contrôle du 03/11/2026 : le moteur officiel, sur « Emplacement camping », avril 2027, 7 nuits et filtre de capacité « 2 et + », affiche « À partir de 210,00 € » pour les séjours du 16 au 23/04 et du 23 au 30/04 ; les dates 02–09 et 09–16/04 sont affichées indisponibles dans cette recherche. 210 € est un prix total de séjour pour des dates précises, pas un prix de nuitée ni une grille 2027. Le filtre de capacité ne prouve pas que deux personnes sont comprises ni quel forfait a été tarifé. Au contrôle du 07/11/2026 (lot 237), la page officielle porte désormais le titre « Tarifs général 2027 ». Les montants d’une grille d’emplacements n’étaient pas lisibles dans la page consultée. L’accueil du camping annonce l’ouverture le 02/04/2027. La page emplacements décrit des forfaits de 1 à 3 personnes, les personnes supplémentaires selon l’âge, et présente le raccordement électrique 10 A ainsi que le raccordement eau/évacuation comme des options : ne pas les inclure au prix de 210 € sans détail du panier. Taxe 2027, frais, total final et conditions applicables à cette offre restent à confirmer. Le repère CampingFrance de 65 €/nuit + 9 €/nuit d’électricité est secondaire et ne permet pas de remplacer ou d’extrapoler l’offre officielle d’avril.",
+      "label": "Saison du 2 avril au 27 septembre 2027. Offre relevée à partir de 210 € pour 7 nuits les 16–23 ou 23–30 avril 2027.",
+      "note": "Contrôle du 03/11/2026 : le moteur officiel, sur « Emplacement camping », avril 2027, 7 nuits et filtre de capacité « 2 et + », affiche « À partir de 210,00 € » pour les séjours du 16 au 23/04 et du 23 au 30/04 ; les dates 02–09 et 09–16/04 sont affichées indisponibles dans cette recherche. 210 € est un prix total de séjour pour des dates précises, pas un prix de nuitée ni une grille 2027. Le filtre de capacité ne prouve pas que deux personnes sont comprises ni quel forfait a été tarifé. Au contrôle du 07/11/2026 (lot 237), la page officielle porte désormais le titre « Tarifs général 2027 ». Les montants d’une grille d’emplacements n’étaient pas lisibles dans la page consultée. L’accueil du camping annonce l’ouverture le 02/04/2027. La page emplacements décrit des forfaits de 1 à 3 personnes, les personnes supplémentaires selon l’âge, et présente le raccordement électrique 10 A ainsi que le raccordement eau/évacuation comme des options : ne pas les inclure au prix de 210 € sans détail du panier. Taxe 2027, frais, total final et conditions applicables à cette offre restent à confirmer. Le repère CampingFrance de 65 €/nuit + 9 €/nuit d’électricité est secondaire et ne permet pas de remplacer ou d’extrapoler l’offre officielle d’avril. Lot 317 : la FAQ précise la fermeture le 27 septembre 2027 et annonce une caution de 50 € pour les emplacements camping. Le choix d’une parcelle précise est facultatif (20 €). Ces conditions concernent les emplacements camping ; les conditions du forfait étape restent à confirmer.",
       "source": "https://www.camping-boutinardiere.com/tarif-general.html",
       "bookingOpens": "2026-11-03",
       "validFrom": "2027-04-16",
@@ -10717,7 +10729,9 @@
       "validThrough": "2027-04-30",
       "touristTaxConfirmed": false,
       "openingDate": "2027-04-02",
-      "openingSource": "https://www.camping-boutinardiere.com/"
+      "openingSource": "https://www.camping-boutinardiere.com/",
+      "closingDate": "2027-09-27",
+      "closingSource": "https://www.camping-boutinardiere.com/foire-au-questions.html"
     }
   },
   {
@@ -11765,7 +11779,8 @@
       "16 emplacements nus selon l'office La Baule-Guérande, accueillant notamment des camping-cars, tentes et caravanes",
       "Branchements d'eau, d'électricité et évacuation des eaux usées sur certains emplacements selon catégorie",
       "Sanitaires, piscine et services du camping réservés aux résidents",
-      "Accès à un dispositif de vidange technique sans séjour non vérifié"
+      "Accès à un dispositif de vidange technique sans séjour non vérifié",
+      "Pour l’emplacement avec sanitaire privé, Sunêlia affiche une arrivée à 16 h et un départ à 11 h. La FAQ générale du camping indique midi pour les emplacements. Horaire à confirmer lors de la réservation."
     ],
     "price": "Non confirmé",
     "priceCheckedAt": "2026-10-21",
@@ -11784,7 +11799,7 @@
     "capacityTotalClassifiedPublished": 231,
     "seasonalDates2026": "03/04/2026–13/09/2026",
     "dataAttribution": "La Baule-Guérande Tourisme et e-SPRIT",
-    "importReview": "Lot 116, 03/11/2026 : offre Sunêlia affichée à 186 € (196 € avant remise) pour 7 nuits, 02–09/04/2027, emplacement avec sanitaire privé, tarif de base pour 2 personnes et électricité incluse. Camping-car admis. Un point d'eau est présent sur parcelle, mais son inclusion dans le prix n'est pas clairement établie. Il s'agit d'un total de séjour promotionnel, pas d'un tarif par nuit ni d'une grille annuelle. La taxe de séjour est en supplément selon les CGV ; montant 2027 à confirmer. Les frais de dossier et la préférence d'emplacement sont annoncés offerts dès 7 nuits.",
+    "importReview": "Lot 116, 03/11/2026 : offre Sunêlia affichée à 186 € (196 € avant remise) pour 7 nuits, 02–09/04/2027, emplacement avec sanitaire privé, tarif de base pour 2 personnes et électricité incluse. Camping-car admis. Un point d'eau est présent sur parcelle, mais son inclusion dans le prix n'est pas clairement établie. Il s'agit d'un total de séjour promotionnel, pas d'un tarif par nuit ni d'une grille annuelle. La taxe de séjour est en supplément selon les CGV ; montant 2027 à confirmer. Les frais de dossier et la préférence d'emplacement sont annoncés offerts dès 7 nuits. Lot 317, contrôle du 09/11/2026. La fiche Sunêlia de l’emplacement avec sanitaire privé indique un départ à 11 h. La FAQ générale du camping indique midi pour les emplacements camping. https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/emplacement-avec-sanitaire-prive/ https://www.lepetitbois-camping.bzh/infos-pratiques/faqs/",
     "publishedPackage2026Note": "L'exploitant confirme la composition du forfait 2026 (2 personnes, tente/caravane/camping-car, sanitaire privatif et électricité) sans montant en euros publié. Le tarif de nuitée 2026 reste strictement Non confirmé.",
     "publishedPackage2026Source": "https://www.camping-lepetitbois.com/fr/hebergements/emplacements/",
     "priceEvidenceNote": "2026 : forfait défini par l'exploitant (2 personnes, camping-car, sanitaire privé, électricité) mais montant de nuitée non affiché ; conserver « Non confirmé ». 2027 : montant promotionnel de 186 € pour 7 nuits, dates/catégorie définies ; ne pas convertir en tarif par nuit ni en grille annuelle. Le prix promo et les conditions sont consignés sous season2027.",
