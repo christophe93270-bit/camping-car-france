@@ -3215,7 +3215,8 @@
     "services": [
       "8 emplacements selon la mairie",
       "Pas d'électricité",
-      "Eau et vidanges mentionnées par la mairie, mais non annoncées par l'office de tourisme : disponibilité à vérifier avant déplacement"
+      "Eau et vidanges mentionnées par la mairie, mais non annoncées par l'office de tourisme : disponibilité à vérifier avant déplacement",
+      "Numéro d’immatriculation requis pour valider le stationnement dans ALTEKIP"
     ],
     "price": "13,50 € la nuit de 20 h à 9 h. Eau : 10 € pour 150 L (10 minutes). Limite de 48 h, paiement par carte via ALTEKIP/ISIPAY. La mairie annonce la gratuité de la nuitée pour les titulaires d’une carte d’invalidité. Barème sans millésime 2027.",
     "status": "Rue de Kerdavid, parking de la Coopérative maritime, 44490 Le Croisic. La mairie liste eau et vidanges tandis que l'office ne les signale pas : ne pas compter sur la borne sans confirmation. Aire Kerdavid (Coopérative maritime) : 8 places; mairie indique eau et vidanges. Nuitée payante à partir de 20 h (13,50 €), obligation de dormir en aire/camping entre 21 h et 9 h; eau 10 €/150 L séparément.",
@@ -3225,12 +3226,21 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle avec mairie, office de tourisme ou source spécialisée datée de 2026 le 19 octobre 2026 ; distinguer tarifs de nuitée, bornes de service et informations discordantes. Source régionale originale conservée. Lot 262, contrôle du 07/11/2026 : Huit places annoncées par la mairie. L’immatriculation doit être renseignée pour valider le stationnement. La mairie indique eau et vidanges sur place. https://lecroisic.fr/fr/rb/381227/stationnement-21",
+    "importReview": "Contrôle avec mairie, office de tourisme ou source spécialisée datée de 2026 le 19 octobre 2026 ; distinguer tarifs de nuitée, bornes de service et informations discordantes. Source régionale originale conservée. Lot 262, contrôle du 07/11/2026 : Huit places annoncées par la mairie. L’immatriculation doit être renseignée pour valider le stationnement. La mairie indique eau et vidanges sur place. https://lecroisic.fr/fr/rb/381227/stationnement-21 Lot 310, contrôle du 09/11/2026. La commune affiche 13,50 € pour la nuit de 20 h à 9 h, avec une limite de stationnement de 48 h. Barème 2027 à confirmer. L’eau est tarifée séparément par la commune à 10 € pour 150 L (10 minutes). Disponibilité de l’eau et de la vidange sur cette aire à vérifier, les fiches locales divergent. https://lecroisic.fr/fr/rb/381227/stationnement-21",
     "sourceId": "ACCAMECCKERDAVID",
     "sourceOfficial": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
     "servicesSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
     "priceSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
-    "alternativeSource": "https://www.tourisme-lecroisic.fr/camping-car/"
+    "alternativeSource": "https://www.tourisme-lecroisic.fr/camping-car/",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-09",
+      "status": "partial",
+      "label": "13,50 € la nuitée, tarif municipal affiché sans millésime.",
+      "note": "La commune affiche 13,50 € pour la nuit de 20 h à 9 h, avec une limite de stationnement de 48 h. Barème 2027 à confirmer. L’eau est tarifée séparément par la commune à 10 € pour 150 L (10 minutes). Disponibilité de l’eau et de la vidange sur cette aire à vérifier, les fiches locales divergent.",
+      "source": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "49",
@@ -4344,7 +4354,8 @@
     "services": [
       "9 places selon la mairie en 2026",
       "Pas d'électricité",
-      "La mairie annonce un point d'eau et de vidange, mais l'office de tourisme indique l'absence de ces équipements sur la Vigie : disponibilité à vérifier"
+      "La mairie annonce un point d'eau et de vidange, mais l'office de tourisme indique l'absence de ces équipements sur la Vigie : disponibilité à vérifier",
+      "Numéro d’immatriculation requis pour valider le stationnement dans ALTEKIP"
     ],
     "price": "13,50 € la nuit de 20 h à 9 h. Eau : 10 € pour 150 L (10 minutes). Limite de 48 h, paiement par carte via ALTEKIP/ISIPAY. La mairie annonce la gratuité de la nuitée pour les titulaires d’une carte d’invalidité. Barème sans millésime 2027.",
     "status": "Avenue de la Pierre-Longue, 44490 Le Croisic. Aire de la Vigie sur la côte sauvage ; stationnement nocturne payant. Attention : mairie et office de tourisme ne concordent pas sur les équipements eau/vidange, confirmer avant déplacement.",
@@ -4354,12 +4365,21 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle avec mairie, office de tourisme ou source spécialisée datée de 2026 le 19 octobre 2026 ; distinguer tarifs de nuitée, bornes de service et informations discordantes. Source régionale originale conservée. Lot 262, contrôle du 07/11/2026 : Neuf places annoncées par la mairie, avec eau et vidanges. L’immatriculation doit être renseignée pour valider le stationnement. https://lecroisic.fr/fr/rb/381227/stationnement-21",
+    "importReview": "Contrôle avec mairie, office de tourisme ou source spécialisée datée de 2026 le 19 octobre 2026 ; distinguer tarifs de nuitée, bornes de service et informations discordantes. Source régionale originale conservée. Lot 262, contrôle du 07/11/2026 : Neuf places annoncées par la mairie, avec eau et vidanges. L’immatriculation doit être renseignée pour valider le stationnement. https://lecroisic.fr/fr/rb/381227/stationnement-21 Lot 310, contrôle du 09/11/2026. La commune affiche 13,50 € pour la nuit de 20 h à 9 h, avec une limite de stationnement de 48 h. Barème 2027 à confirmer. L’eau est tarifée séparément par la commune à 10 € pour 150 L (10 minutes). Disponibilité de l’eau et de la vidange sur cette aire à vérifier, les fiches locales divergent. https://lecroisic.fr/fr/rb/381227/stationnement-21",
     "sourceId": "ACCAMECCVIGIE",
     "sourceOfficial": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
     "servicesSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
     "priceSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
-    "alternativeSource": "https://www.tourisme-lecroisic.fr/camping-car/"
+    "alternativeSource": "https://www.tourisme-lecroisic.fr/camping-car/",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-09",
+      "status": "partial",
+      "label": "13,50 € la nuitée, tarif municipal affiché sans millésime.",
+      "note": "La commune affiche 13,50 € pour la nuit de 20 h à 9 h, avec une limite de stationnement de 48 h. Barème 2027 à confirmer. L’eau est tarifée séparément par la commune à 10 € pour 150 L (10 minutes). Disponibilité de l’eau et de la vidange sur cette aire à vérifier, les fiches locales divergent.",
+      "source": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "44",
@@ -5387,7 +5407,8 @@
       "Wifi gratuit",
       "Stationnement limité à 72 h, renouvelable",
       "Vidange à la borne distincte boulevard de l'Atlantique : 4,40 € pour 100 L d'eau",
-      "Aire sans réservation selon la brochure municipale 2026"
+      "Aire sans réservation selon la brochure municipale 2026",
+      "Paiement par carte bancaire selon la page municipale"
     ],
     "price": "Forfait journalier municipal 2026 pour 2 personnes, avec électricité 16 A et 50 L d’eau : 13,60 € hors saison, 15,10 € du 04/05 au 28/06 et du 31/08 au 27/09, 17,40 € du 29/06 au 30/08. Taxe de séjour en supplément : 0,22 € par adulte et par nuit. À la borne distincte du boulevard de l’Atlantique, 100 L d’eau coûtent 4,40 €, payables par carte bancaire.",
     "status": "49 avenue de l'Océan, 44500 Le Pouliguen. Aire ouverte toute l'année, 26 places, paiement par carte bancaire et pas de réservation. Borne de vidange séparée au 20-22 boulevard de l'Atlantique (ne pas présumer qu'elle est sur le parking). Contrôle du 20/10/2026 : prix de la borne d'eau séparée corrigé à 4,40 € / 100 litres, selon arrêté communal 2026. Borne au 20–22 boulevard de l'Atlantique, paiement par carte bancaire, distincte du parking 49 avenue de l'Océan. Le tarif de 13,60–17,40 € et la taxe de 0,22 €/adulte sont millésimés 2026; aucun barème 2027 trouvé.",
@@ -5397,7 +5418,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle avec mairie, office de tourisme ou source spécialisée datée de 2026 le 19 octobre 2026 ; distinguer tarifs de nuitée, bornes de service et informations discordantes. Source régionale originale conservée. Lot 35 : ancien tarif de la borne 4,20 € rectifié à 4,40 €/100 L selon arrêté municipal du 12 décembre 2025 applicable 2026 : https://campings.lepouliguen.fr/wp-content/uploads/2026/03/2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf Lot 277, contrôle du 08/11/2026. La brochure distingue le forfait journalier avec 50 L d’eau et la borne séparée à 4,40 € pour 100 L. Aire ouverte toute l’année, sans réservation selon la brochure. Barème 2027 à confirmer. https://campings.lepouliguen.fr/wp-content/uploads/2026/03/Depliant_france-2026.pdf",
+    "importReview": "Contrôle avec mairie, office de tourisme ou source spécialisée datée de 2026 le 19 octobre 2026 ; distinguer tarifs de nuitée, bornes de service et informations discordantes. Source régionale originale conservée. Lot 35 : ancien tarif de la borne 4,20 € rectifié à 4,40 €/100 L selon arrêté municipal du 12 décembre 2025 applicable 2026 : https://campings.lepouliguen.fr/wp-content/uploads/2026/03/2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf Lot 277, contrôle du 08/11/2026. La brochure distingue le forfait journalier avec 50 L d’eau et la borne séparée à 4,40 € pour 100 L. Aire ouverte toute l’année, sans réservation selon la brochure. Barème 2027 à confirmer. https://campings.lepouliguen.fr/wp-content/uploads/2026/03/Depliant_france-2026.pdf Lot 310, contrôle du 09/11/2026. La page municipale renvoie au barème 2026. Les montants 2026 couvrent deux personnes, l’électricité 16 A et 50 L d’eau, avec taxe de séjour en supplément. Le tarif de la borne distincte du boulevard de l’Atlantique relève d’un service séparé. https://campings.lepouliguen.fr/laire-de-camping-cars/",
     "sourceId": "ACCAMECCLEPOULIGUEN",
     "sourceOfficial": "https://campings.lepouliguen.fr/laire-de-camping-cars/",
     "servicesSource": "https://campings.lepouliguen.fr/laire-de-camping-cars/",
@@ -5405,7 +5426,16 @@
     "alternativeSource": "https://campings.lepouliguen.fr/wp-content/uploads/2026/03/Depliant_france-2026.pdf",
     "priceEvidenceDocument": "https://campings.lepouliguen.fr/wp-content/uploads/2026/03/2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf",
     "priceYear": 2026,
-    "priceCheckedAt": "2026-11-08"
+    "priceCheckedAt": "2026-11-08",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-09",
+      "status": "partial",
+      "label": "13,60 € à 17,40 € par jour selon le barème 2026. Tarif 2027 à confirmer.",
+      "note": "La page municipale renvoie au barème 2026. Les montants 2026 couvrent deux personnes, l’électricité 16 A et 50 L d’eau, avec taxe de séjour en supplément. Le tarif de la borne distincte du boulevard de l’Atlantique relève d’un service séparé.",
+      "source": "https://campings.lepouliguen.fr/laire-de-camping-cars/",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "49",
@@ -6288,7 +6318,7 @@
       "Électricité non annoncée",
       "Aire à l’entrée du plan d’eau du Pont Cornouaille. Pique-nique et jeux à proximité. La mairie demande de repartir avec ses déchets."
     ],
-    "price": "Stationnement gratuit ; eau et vidange gratuites selon des témoignages datés de 2026 recoupés avec la fiche de l'office, qui indique l'eau gratuite. Un guide plus ancien mentionne 2 € pour les services : conditions à vérifier sur place.",
+    "price": "Stationnement signalé gratuit. L’office de tourisme indique que l’eau est gratuite. La vidange est signalée gratuite par des témoignages de 2026, tandis qu’un guide plus ancien mentionne 2 € pour les services. Tarif actuel de la vidange à confirmer sur place.",
     "status": "Aire municipale réservée aux camping-cars à l'entrée du plan d'eau du Pont Cornouaille, La Sébilière, 44522 Mésanger. GPS corrigé sur l'emprise de l'aire OSM (47.43816, -1.22767), à environ 300 m du point d'origine du répertoire régional. Stationnement de nuit autorisé selon les témoignages 2026. Des travaux routiers près de l'accès étaient signalés en octobre 2026.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.43816,
@@ -6296,7 +6326,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/909625355",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Mairie et office : une seule aire à La Sébilière au bord du plan d'eau. Coordonnées OSM et répertoire utilisateur concordantes, avec témoins de gratuité en 2026. Deux sources de données régionales/OSM sont donc un doublon déclaré ; tarifs historiques contradictoires signalés. Relecture lot 157 (04/11/2026) : Sébilière : la mairie confirme une borne eau/vidange, mais ne publie pas de tarif. Le gratuit observé en 2026 et l’ancien repère de 2 € pour les services ne suffisent pas à établir le tarif 2027. Séparer parking et services. Vérifications : Mairie : confirmer en 2027 prix de l’eau/vidange, fonctionnement et règles de nuitée; conserver chaque service distinct. Lot 286, contrôle du 09/11/2026. L’office confirme la gratuité de l’eau et signale la présence possible d’une chaîne à l’entrée. Le tarif de la vidange reste à confirmer pour 2027. https://www.bienvenue-pays-ancenis.com/fr/fiche/aire-de-camping-car/aire-de-camping-car-la-sebiliere-mesanger_TFOACCAMPDL044V519MNP/ Lot 302, contrôle du 09/11/2026. La commune confirme l’accès à l’entrée du plan d’eau et les règles relatives aux déchets. https://www.mesanger.fr/mes-loisirs/plan-deau/",
+    "importReview": "Mairie et office : une seule aire à La Sébilière au bord du plan d'eau. Coordonnées OSM et répertoire utilisateur concordantes, avec témoins de gratuité en 2026. Deux sources de données régionales/OSM sont donc un doublon déclaré ; tarifs historiques contradictoires signalés. Relecture lot 157 (04/11/2026) : Sébilière : la mairie confirme une borne eau/vidange, mais ne publie pas de tarif. Le gratuit observé en 2026 et l’ancien repère de 2 € pour les services ne suffisent pas à établir le tarif 2027. Séparer parking et services. Vérifications : Mairie : confirmer en 2027 prix de l’eau/vidange, fonctionnement et règles de nuitée; conserver chaque service distinct. Lot 286, contrôle du 09/11/2026. L’office confirme la gratuité de l’eau et signale la présence possible d’une chaîne à l’entrée. Le tarif de la vidange reste à confirmer pour 2027. https://www.bienvenue-pays-ancenis.com/fr/fiche/aire-de-camping-car/aire-de-camping-car-la-sebiliere-mesanger_TFOACCAMPDL044V519MNP/ Lot 302, contrôle du 09/11/2026. La commune confirme l’accès à l’entrée du plan d’eau et les règles relatives aux déchets. https://www.mesanger.fr/mes-loisirs/plan-deau/ Lot 310, contrôle du 09/11/2026. L’office confirme la gratuité de l’eau et la présence d’une plateforme de vidange, dont il ne précise pas le tarif. https://www.bienvenue-pays-ancenis.com/fr/fiche/aire-de-camping-car/aire-de-camping-car-la-sebiliere-mesanger_TFOACCAMPDL044V519MNP/",
     "sourceId": "ACCAMPDL044V519MNP",
     "sourceOfficial": "https://www.mesanger.fr/mes-loisirs/aire-camping-car/",
     "priceSource": "https://park4night.com/fr/place/151945",
