@@ -2985,7 +2985,8 @@
       "Raccordement électrique au camping",
       "Camping municipal de 32 emplacements au total selon l'office",
       "Vidange recensée dans la source régionale mais non détaillée par la fiche de l'office",
-      "Stationnement de nuit au camping soumis à ses conditions"
+      "Stationnement de nuit au camping soumis à ses conditions",
+      "Camping réservable par téléphone au 07 56 38 05 45 ou par courriel à camping@shc44.fr. Paiement sur place."
     ],
     "price": "Brochure municipale 2026. Borne Euro-Relais à 5 € pour les personnes qui ne séjournent pas au camping. Nuitée au camping à 13 € pour une ou deux personnes avec véhicule, branchement électrique à 5 €/jour. Barème 2027 à confirmer.",
     "status": "Allée du Presbytère, camping municipal de Saint-Hilaire-de-Chaléons (code postal 44680 partagé avec Rouans). ATTENTION : la source touristique identifie Saint-Hilaire-de-Chaléons, malgré l'adresse postale « 44680 ROUANS » qu'elle affiche ; la commune d'origine du fichier a été corrigée en conséquence.",
@@ -2995,12 +2996,21 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Recherche groupée du 19 octobre 2026 : office de tourisme / source locale citée ; stationnement, services et nuitée distingués. Le prix reste signalé non publié quand il n'est pas vérifiable. La géolocalisation d'origine est conservée. Lot 254, contrôle du 07/11/2026 : La mairie situe le camping de l’Étoile allée du Presbytère et annonce pour 2026 une saison du 4 avril au 26 septembre. Les 5 € de la borne sont distincts du supplément électrique du camping. Lot 289, contrôle du 09/11/2026. La brochure communale réserve le tarif de 5 € de la borne aux non-résidents du camping.",
+    "importReview": "Recherche groupée du 19 octobre 2026 : office de tourisme / source locale citée ; stationnement, services et nuitée distingués. Le prix reste signalé non publié quand il n'est pas vérifiable. La géolocalisation d'origine est conservée. Lot 254, contrôle du 07/11/2026 : La mairie situe le camping de l’Étoile allée du Presbytère et annonce pour 2026 une saison du 4 avril au 26 septembre. Les 5 € de la borne sont distincts du supplément électrique du camping. Lot 289, contrôle du 09/11/2026. La brochure communale réserve le tarif de 5 € de la borne aux non-résidents du camping. Lot 312, contrôle du 09/11/2026. Le supplément électrique de 5 €/jour au camping est distinct des 5 € de la borne. La mairie propose une réservation du camping par téléphone ou courriel, avec paiement sur place. Tarifs et dates 2027 à confirmer. https://www.saint-hilaire-de-chaleons.fr/page/campingdeletoile",
     "sourceId": "ACCAMESHASCCAR",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/5959-Aire-de-ravitaillement-pour-Camping-car",
     "priceSource": "https://www.saint-hilaire-de-chaleons.fr/page/campingdeletoile",
     "servicesSource": "https://rando.loire-atlantique.fr/service/5959-Aire-de-ravitaillement-pour-Camping-car",
-    "priceEvidenceDocument": "https://files.appli-intramuros.com/website/uploads/23899/2026/maj_brochure_camping_2026.pdf"
+    "priceEvidenceDocument": "https://files.appli-intramuros.com/website/uploads/23899/2026/maj_brochure_camping_2026.pdf",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-09",
+      "status": "partial",
+      "label": "En 2026, 5 € à la borne pour les non-résidents et 13 € la nuit au camping.",
+      "note": "Le supplément électrique de 5 €/jour au camping est distinct des 5 € de la borne. La mairie propose une réservation du camping par téléphone ou courriel, avec paiement sur place. Tarifs et dates 2027 à confirmer.",
+      "source": "https://www.saint-hilaire-de-chaleons.fr/page/campingdeletoile",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "44",
@@ -3670,7 +3680,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Contrôle avec mairie, office de tourisme ou source spécialisée datée de 2026 le 19 octobre 2026 ; distinguer tarifs de nuitée, bornes de service et informations discordantes. Source régionale originale conservée. Lot 25 20/10/2026 : règle documentée de nuitée interdite ou d'aire technique uniquement, l'absence de label dans les données précédentes conduisait à l'affichage sans avertissement dédié. Preuve : https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson ; conserver la fiche pour services/arrêt autorisés mais l'exclure du filtre « nuitée interdite/non établie ». Lot 249, contrôle du 07/11/2026 : L’office de tourisme cite aussi un forfait étape camping-car de 12 à 15 € hors taxe et un supplément électrique de 5 €, sans année précisée. Les conditions de ce forfait restent à confirmer auprès du camping. Stationnement interdit devant le camping. Jetons vendus à l’accueil en saison. Source exploitant : https://www.camping-clisson.com/emplacements/ Lot 289, contrôle du 09/11/2026. L’office de tourisme annonce l’accès à la borne 24 h/24 en 2026. Le plein d’eau nécessite un jeton vendu à l’accueil en saison.",
+    "importReview": "Contrôle avec mairie, office de tourisme ou source spécialisée datée de 2026 le 19 octobre 2026 ; distinguer tarifs de nuitée, bornes de service et informations discordantes. Source régionale originale conservée. Lot 25 20/10/2026 : règle documentée de nuitée interdite ou d'aire technique uniquement, l'absence de label dans les données précédentes conduisait à l'affichage sans avertissement dédié. Preuve : https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson ; conserver la fiche pour services/arrêt autorisés mais l'exclure du filtre « nuitée interdite/non établie ». Lot 249, contrôle du 07/11/2026 : L’office de tourisme cite aussi un forfait étape camping-car de 12 à 15 € hors taxe et un supplément électrique de 5 €, sans année précisée. Les conditions de ce forfait restent à confirmer auprès du camping. Stationnement interdit devant le camping. Jetons vendus à l’accueil en saison. Source exploitant : https://www.camping-clisson.com/emplacements/ Lot 289, contrôle du 09/11/2026. L’office de tourisme annonce l’accès à la borne 24 h/24 en 2026. Le plein d’eau nécessite un jeton vendu à l’accueil en saison. Lot 312, contrôle du 09/11/2026. L’office annonce la vidange gratuite et le jeton gratuit pour les camping-caristes en séjour. Le camping affiche un forfait 2026 à 17 € du 1er juillet au 31 août et à 12 € le reste de sa saison, avec électricité à 6 € en supplément. Prix 2027 et accès à l’eau hors saison à confirmer. https://www.camping-clisson.com/emplacements/",
     "sourceId": "ACCAMPDL044V501OIH",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
     "servicesSource": "https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-de-service-camping-car-de-clisson-clisson-fr-6002078/",
@@ -3678,7 +3688,16 @@
     "overnightStatus": "prohibited",
     "overnightReason": "Borne technique située devant le camping du Moulin : stationnement de camping-car expressément interdit devant le camping. Les nuitées relèvent du camping lui-même, avec tarification distincte.",
     "overnightEvidenceUrl": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
-    "overnightCheckedAt": "2026-10-20"
+    "overnightCheckedAt": "2026-10-20",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-09",
+      "status": "partial",
+      "label": "Eau à 3 € le jeton selon l’office. Emplacement à 12–17 € au barème 2026.",
+      "note": "L’office annonce la vidange gratuite et le jeton gratuit pour les camping-caristes en séjour. Le camping affiche un forfait 2026 à 17 € du 1er juillet au 31 août et à 12 € le reste de sa saison, avec électricité à 6 € en supplément. Prix 2027 et accès à l’eau hors saison à confirmer.",
+      "source": "https://www.camping-clisson.com/emplacements/",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "53",
@@ -4841,7 +4860,7 @@
       "Vidanges camping-car",
       "Aire de pique-nique et jeux pour enfants"
     ],
-    "price": "Paiement par carte bancaire selon Loire-Atlantique Tourisme. Park4night indique 3 € pour l’eau et un stationnement gratuit. Montant, gratuité et disponibilité de la vidange à vérifier sur place.",
+    "price": "Destination Vignoble Nantais indique le paiement par carte sans montant. Park4night signale 3 € pour l’eau et le stationnement gratuit. Prix de la vidange et tarifs en vigueur à vérifier sur place.",
     "status": "Parking du complexe sportif de la Prée, complexe Raphaël Hardy, 44330 Mouzillon. Borne CB, tarif à relever sur l'automate.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.1378087,
@@ -4849,7 +4868,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ. Lot 263, contrôle du 07/11/2026 : La fiche départementale mentionne eau, vidange et stationnement. Le prix de l’eau vient d’une fiche participative : https://park4night.com/fr/place/36858",
+    "importReview": "Vérification en lot du 19 octobre 2026 avec l'office de tourisme / la mairie / l'exploitant. Les montants officiels peuvent évoluer, consulter la source avant départ. Lot 263, contrôle du 07/11/2026 : La fiche départementale mentionne eau, vidange et stationnement. Le prix de l’eau vient d’une fiche participative : https://park4night.com/fr/place/36858 Lot 312, contrôle du 09/11/2026. Destination Vignoble Nantais confirme l’eau, la vidange et le paiement par carte, sans chiffrer les services. Les 3 € pour l’eau et la gratuité du parking proviennent de Park4night. https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-camping-car-mouzillon-mouzillon-fr-6002305/",
     "sourceId": "ACCAMPDL044V50028N",
     "sourceOfficial": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
     "priceSource": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
@@ -9709,7 +9728,8 @@
       "Stationnement camping-car sur parking du musée",
       "Borne de vidange des eaux grises et noires",
       "Eau potable à 3 € par carte bancaire",
-      "Aire de pique-nique"
+      "Aire de pique-nique",
+      "Borne et stationnement au 82 rue Pierre Abélard, sur le parking du musée."
     ],
     "price": "Eau potable à la borne : 3 € selon Destination Vignoble Nantais, information annoncée pour 2026. Tarif de stationnement non précisé : ne pas supposer la gratuité de la nuitée.",
     "status": "82 rue Pierre-Abélard, parking du Musée du Vignoble Nantais, 44330 Le Pallet. Services accessibles toute l'année 2026 selon l'office. Borne et parking sont au même endroit.",
@@ -9719,11 +9739,12 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "Vérifié le 19 octobre 2026 avec la fiche de tourisme, la mairie ou l'exploitant mentionné ; distinction explicite entre nuitées, stationnement de jour et borne technique. Tarifs non confirmés conservés comme tels.",
+    "importReview": "Vérifié le 19 octobre 2026 avec la fiche de tourisme, la mairie ou l'exploitant mentionné ; distinction explicite entre nuitées, stationnement de jour et borne technique. Tarifs non confirmés conservés comme tels. Lot 312, contrôle du 09/11/2026. L’office de tourisme affiche 3 € pour l’eau par carte. Des usagers ont signalé une panne d’eau en septembre 2026. Fonctionnement actuel de la borne à vérifier. https://park4night.com/fr/place/5967",
     "sourceId": "ACCAMPDL044V50028M",
     "sourceOfficial": "https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-de-camping-car-du-pallet-le-pallet-fr-6002299/",
     "priceSource": "https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-de-camping-car-du-pallet-le-pallet-fr-6002299/",
-    "servicesSource": "https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-de-camping-car-du-pallet-le-pallet-fr-6002299/"
+    "servicesSource": "https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-de-camping-car-du-pallet-le-pallet-fr-6002299/",
+    "operationalWarning": "Des usagers ont signalé une panne d’eau en septembre 2026. Fonctionnement actuel de la borne à vérifier."
   },
   {
     "department": "44",
