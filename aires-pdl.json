@@ -7118,7 +7118,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : page officielle ANAS, 35 places camping-car dédiées +40 camping, réservations de village vacances limitées aux adhérents; signalements Park4Night juin-août 2026 de prix différents, ne pas extrapoler un forfait fixe ni l'accès pour tous. Lot 21 : https://www.anas.asso.fr/adherer distingue adhésion bienfaiteur camping-car de l'adhésion agent MI. Les séjours village vacances restent soumis à une adhésion/justificatif ; conditions séparées de l'aire technique non publiées. Lot 22 : preuve tarifaire 2026 trouvée dans la brochure officielle VAC'ANAS 2026 (p.21), accessible depuis https://www.anas.asso.fr/vacances -> https://heyzine.com/flip-book/cc72a1bef7.html et copie PDF https://fojustice.fr/web/wp-content/uploads/2026/06/VAC-ANAS-2026-FO.pdf. Grille camping-car avec électricité: 16/12 EUR jan-mai, 21/17 EUR juin-12 septembre, 16/12 EUR 13sept-dec (grand public/adhérents). Brochure capacité 42 contre 35 sur site actuel ANAS. Ne pas confondre grille publiée, prix borne et éligibilité d'accès. Relecture lot 157 (04/11/2026) : ANAS : brochure VAC’ANAS 2026 indique 16 €/nuit hors saison ou 21 € du 1er juin au 12 septembre avec électricité (12/17 € adhérents), tandis que la page actuelle du centre annonce 35 places contre 42 sur la brochure. Tarifs historiques; accès et éligibilité restent à confirmer, pas de tarif 2027. Vérifications : ANAS : confirmer règles d’accès/adhésion, capacité camping-car disponible et tarifs/réservation 2027; séparer adhésion et nuitée.",
+    "importReview": "20/10/2026 : page officielle ANAS, 35 places camping-car dédiées +40 camping, réservations de village vacances limitées aux adhérents; signalements Park4Night juin-août 2026 de prix différents, ne pas extrapoler un forfait fixe ni l'accès pour tous. Lot 21 : https://www.anas.asso.fr/adherer distingue adhésion bienfaiteur camping-car de l'adhésion agent MI. Les séjours village vacances restent soumis à une adhésion/justificatif ; conditions séparées de l'aire technique non publiées. Lot 22 : preuve tarifaire 2026 trouvée dans la brochure officielle VAC'ANAS 2026 (p.21), accessible depuis https://www.anas.asso.fr/vacances -> https://heyzine.com/flip-book/cc72a1bef7.html et copie PDF https://fojustice.fr/web/wp-content/uploads/2026/06/VAC-ANAS-2026-FO.pdf. Grille camping-car avec électricité: 16/12 EUR jan-mai, 21/17 EUR juin-12 septembre, 16/12 EUR 13sept-dec (grand public/adhérents). Brochure capacité 42 contre 35 sur site actuel ANAS. Ne pas confondre grille publiée, prix borne et éligibilité d'accès. Relecture lot 157 (04/11/2026) : ANAS : brochure VAC’ANAS 2026 indique 16 €/nuit hors saison ou 21 € du 1er juin au 12 septembre avec électricité (12/17 € adhérents), tandis que la page actuelle du centre annonce 35 places contre 42 sur la brochure. Tarifs historiques; accès et éligibilité restent à confirmer, pas de tarif 2027. Vérifications : ANAS : confirmer règles d’accès/adhésion, capacité camping-car disponible et tarifs/réservation 2027; séparer adhésion et nuitée. Contrôle du 10/11/2026 : statut tarif 2027 complété sans attribuer de millésime à la grille ou réutiliser les tarifs 2026. Source : https://www.anas.asso.fr/moutiers-en-retz",
     "sourceId": "ACCAMACCAMEELMANAS",
     "contactRole": "centre",
     "contactPhone": "02 40 82 72 43",
@@ -7134,7 +7134,16 @@
     "priceYear": 2026,
     "priceEvidencePage": "VAC'ANAS 2026, page imprimée 21 (page PDF 10), rubrique « camping car / nuitée (avec branchement électrique) »",
     "priceEvidenceDocument": "https://fojustice.fr/web/wp-content/uploads/2026/06/VAC-ANAS-2026-FO.pdf",
-    "priceSourcePublisher": "https://www.anas.asso.fr/vacances"
+    "priceSourcePublisher": "https://www.anas.asso.fr/vacances",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-10",
+      "status": "partial",
+      "label": "Barème ANAS 2026 enregistré ; tarifs camping-car 2027 non publiés.",
+      "note": "Contrôle du 10/11/2026 : le site officiel confirme une aire dédiée et 35 emplacements camping-car. Le barème enregistré provient du VAC'ANAS 2026 ; la page consultée ne publie pas les prix 2027. Accès et tarif demandé sur place restent à confirmer.",
+      "source": "https://www.anas.asso.fr/moutiers-en-retz",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "72",
@@ -8299,7 +8308,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : FAQ officielle confirme ouverture 01/04–31/10 et horaires des emplacements, contrat 2026 frais de dossier 10/20 €, taxes 0,66 € et 0,30 €, tarif de nuitée encore non publié ; prix maintenu Non confirmé. Lot 23 (20/10/2026) : comparaison visuelle du contrat 2026 https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf (p. 1-2) et de la FAQ https://www.camping-clos-mer-nature.fr/faq/ : arrivée 15h/départ 10h sur le contrat vs arrivée 14h/départ 12h en FAQ emplacements. Chien 4,50 €/jour sur la page 1 ; pas de tarif de base. L'incertitude est portée explicitement, sans trancher. Lot 55 : frais annexes 2026 €0,66 taxe adulte + €0,30 écoparticipation/personne et dossier 10/20/30 € selon conditions ; aucun prix nuitée inventé. Lot 88 (02/11/2026) : recherche 2027 sans tarif camping-car certifiable ; avertissement complété. Source : https://www.camping-clos-mer-nature.fr/camping-promos-pornic/ Lot 155 (04/11/2026) : contrat 2026 relu. Base de l’emplacement (1–2 personnes + accès sanitaires) à distinguer des frais de dossier (10 € jusqu’à 3 nuits, 20 € au-delà; 30 € dans certaines conditions différées), taxe 0,66 €/adulte/nuit et écoparticipation 0,30 €/personne/nuit. Prix de base camping-car toujours non confirmé; horaires contradictoires avec FAQ. Lot 258, contrôle du 07/11/2026 : Camping.info affiche un repère de haute saison à 23 € sans période datée. Le contrat 2026 de l’exploitant confirme la formule d’emplacement pour une ou deux personnes, sans chiffrer le tarif de base. Prix camping-car à confirmer. https://www.camping.info/fr/emplacement-de-camping/camping-clos-mer-et-nature",
+    "importReview": "20/10/2026 : FAQ officielle confirme ouverture 01/04–31/10 et horaires des emplacements, contrat 2026 frais de dossier 10/20 €, taxes 0,66 € et 0,30 €, tarif de nuitée encore non publié ; prix maintenu Non confirmé. Lot 23 (20/10/2026) : comparaison visuelle du contrat 2026 https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf (p. 1-2) et de la FAQ https://www.camping-clos-mer-nature.fr/faq/ : arrivée 15h/départ 10h sur le contrat vs arrivée 14h/départ 12h en FAQ emplacements. Chien 4,50 €/jour sur la page 1 ; pas de tarif de base. L'incertitude est portée explicitement, sans trancher. Lot 55 : frais annexes 2026 €0,66 taxe adulte + €0,30 écoparticipation/personne et dossier 10/20/30 € selon conditions ; aucun prix nuitée inventé. Lot 88 (02/11/2026) : recherche 2027 sans tarif camping-car certifiable ; avertissement complété. Source : https://www.camping-clos-mer-nature.fr/camping-promos-pornic/ Lot 155 (04/11/2026) : contrat 2026 relu. Base de l’emplacement (1–2 personnes + accès sanitaires) à distinguer des frais de dossier (10 € jusqu’à 3 nuits, 20 € au-delà; 30 € dans certaines conditions différées), taxe 0,66 €/adulte/nuit et écoparticipation 0,30 €/personne/nuit. Prix de base camping-car toujours non confirmé; horaires contradictoires avec FAQ. Lot 258, contrôle du 07/11/2026 : Camping.info affiche un repère de haute saison à 23 € sans période datée. Le contrat 2026 de l’exploitant confirme la formule d’emplacement pour une ou deux personnes, sans chiffrer le tarif de base. Prix camping-car à confirmer. https://www.camping.info/fr/emplacement-de-camping/camping-clos-mer-et-nature Contrôle du 10/11/2026 : statut tarif 2027 complété sans attribuer de millésime à la grille ou réutiliser les tarifs 2026. Source : https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf",
     "sourceId": "ACCAMPDL044V5002ZN",
     "contactRole": "camping",
     "contactPhone": "02 40 27 85 71",
@@ -8315,7 +8324,16 @@
     "contactEmail": "closmernature@orange.fr",
     "contactEmailSource": "https://www.camping-clos-mer-nature.fr/contact-camping-loire-atlantique/",
     "fees2026Source": "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf",
-    "priceEvidenceNote": " Lot 55 : contrat 2026 pages CGV prouve les frais, taxe et écoparticipation, sans grille de prix de base camping-car, donc valeur Non confirmé maintenue."
+    "priceEvidenceNote": " Lot 55 : contrat 2026 pages CGV prouve les frais, taxe et écoparticipation, sans grille de prix de base camping-car, donc valeur Non confirmé maintenue.",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-10",
+      "status": "partial",
+      "label": "Contrat 2026 sans prix de base ; tarif camping-car 2027 non confirmé.",
+      "note": "Contrôle du 10/11/2026 : le contrat officiel daté 2026 liste les taxes et frais annexes mais ne chiffre pas le forfait de base de l'emplacement. Aucun tarif 2027 n'est publié dans les pages consultées ; prix de nuitée camping-car à demander au camping.",
+      "source": "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "44",
@@ -11720,8 +11738,17 @@
     "capacityBarePitchesPublished": 27,
     "seasonalDates2026": "Ouverture au 24/04 selon l’office ; fermeture annoncée à partir du 15/10/2026 par le camping (l’office indiquait le 31/10).",
     "dataAttribution": "La Baule-Guérande Tourisme (e-SPRIT) et Campercontact pour prix indicatifs",
-    "importReview": "Lot 44 (20/10/2026) : GPS et contact sur Cirkwi / e-SPRIT mise à jour 31/08/2026, capacité et ouverture sur l'office La Baule-Guérande. Campercontact fournit un repère indicatif 2026 20,20/26,70 € jusqu'à septembre, non applicable sans preuve à octobre. Plus proche point du guide à environ 1,9 km. Lot 278, contrôle du 08/11/2026. La grille non millésimée donne l’emplacement à 6,50/7,50 € et l’adulte à 5,60/6,80 € par nuit selon la saison. La fermeture annoncée par l’exploitant prévaut sur l’ancienne date de fin de l’office. https://api.evolusite.fr/file/download/tarifs-camping-le-praderoi-veqev.pdf https://camping-praderoi.com/ Lot 295, contrôle du 09/11/2026. Les conditions d’accueil des animaux sont précisées sur le site de l’exploitant. Le PDF lié depuis le site reste le barème sans millésime.",
-    "capacitySource": "https://camping-praderoi.com/emplacement-camping-mesquer"
+    "importReview": "Lot 44 (20/10/2026) : GPS et contact sur Cirkwi / e-SPRIT mise à jour 31/08/2026, capacité et ouverture sur l'office La Baule-Guérande. Campercontact fournit un repère indicatif 2026 20,20/26,70 € jusqu'à septembre, non applicable sans preuve à octobre. Plus proche point du guide à environ 1,9 km. Lot 278, contrôle du 08/11/2026. La grille non millésimée donne l’emplacement à 6,50/7,50 € et l’adulte à 5,60/6,80 € par nuit selon la saison. La fermeture annoncée par l’exploitant prévaut sur l’ancienne date de fin de l’office. https://api.evolusite.fr/file/download/tarifs-camping-le-praderoi-veqev.pdf https://camping-praderoi.com/ Lot 295, contrôle du 09/11/2026. Les conditions d’accueil des animaux sont précisées sur le site de l’exploitant. Le PDF lié depuis le site reste le barème sans millésime. Contrôle du 10/11/2026 : statut tarif 2027 complété sans attribuer de millésime à la grille ou réutiliser les tarifs 2026. Source : https://camping-praderoi.com/",
+    "capacitySource": "https://camping-praderoi.com/emplacement-camping-mesquer",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-10",
+      "status": "partial",
+      "label": "Grille affichée sans millésime ; prix et conditions 2027 à confirmer.",
+      "note": "Contrôle du 10/11/2026 : le site officiel propose un PDF de tarifs téléchargeable mais ne donne pas de millésime visible sur la page. La grille consignée (17,70–21,10 € pour deux adultes, électricité et taxes en sus) ne peut pas être attribuée à 2027 sans confirmation. Le camping annonce une fermeture le 15/10/2026.",
+      "source": "https://camping-praderoi.com/",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "44",
