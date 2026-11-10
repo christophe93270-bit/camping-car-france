@@ -1763,7 +1763,7 @@
       "Eau chaude comprise dans les forfaits historiques",
       "Espace de vidange pour camping-cars annoncé par le site officiel ; accueil des véhicules hors séjour et coût non publiés"
     ],
-    "price": "Non confirmé",
+    "price": "La page officielle consultée le 10/11/2026 affiche 15 €/nuit pour un emplacement camping-car avec 2 personnes et 1 véhicule ; électricité 6 A en supplément à 6,50 €/jour. Le tarif n’a pas de millésime. Une ancienne grille officielle datée du 01/01/2024 indiquait 19,50 €/nuit et une taxe de séjour de 0,20 €/adulte/nuit ; le tarif actuel et le tarif 2027 restent à confirmer.",
     "status": "Camping Les Mouettes, La Tansorais, 44320 Saint-Père-en-Retz. Tarifs en ligne contradictoires et non millésimés : un rendu du site officiel sans « www » affiche 15 € / nuit pour un emplacement camping-car 2 personnes, tandis que la variante « www » affiche 19,50 €. La grille PDF de cet établissement est datée du 1er janvier 2024 et fixe 19,50 €, électricité 6 A +6,50 €. Aucun document ne démontre quel forfait s'applique à 2026 : tarif conservé « Non confirmé », contacter directement le camping. Attention aux campings homonymes d'autres communes. Le site du camping affiche ce contact et une vitrine de 19,50 € par nuit pour 2 personnes, mais une autre variante de son domaine indique 15 €, tandis que le PDF de 19,50 € est daté de 2024 : année et montant applicables en 2026 non certifiés. Confirmation documentaire du 20/10/2026 : le site officiel du camping annonce un espace de vidange disponible pour les camping-cars. Il ne dit pas qu'une borne de vidange serait ouverte aux passants. Les deux variantes du site continuent de publier des prix contradictoires (15 € / 19,50 €) sans date 2026 ; tarif nuitée inchangé Non confirmé. Contrôle documentaire du 20/10/2026 : le site de Saint-Père-en-Retz indique accueillir les camping-cars pour une ou plusieurs nuits et mentionne une restriction « entre 22 h 30 et 8 h » sans expliquer clairement si elle concerne la circulation, les arrivées ou l'accueil. Il annonce 29 places pour tente/caravane/camping-car sur une page et 101 emplacements tous hébergements confondus : ne pas qualifier les 101 emplacements de places spécifiques camping-car. L'autre Camping Les Mouettes situé au Pouliguen et son PDF 2026 ne concernent PAS cette fiche. Lot 24 : site de l'exploitant consulté le 20/10/2026 pour les horaires (réception 9h-12h et 14h-18h, circulation interdite après 22h, douches 8h-22h) et ses coordonnées GPS précises 47.22038, -2.13734. Attention : la formulation « camping-cars non autorisés entre 22h30 et 8h » peut concerner accès ou circulation, ne pas la transformer en interdiction de nuitée. Coordonnées d'origine régionales conservées séparément. Recoupement administratif du 20/10/2026 : l'Annuaire des entreprises (DINUM) indique l'établissement Les Mouettes à La Tansorais sous SIRET 84393721000014 comme administrativement actif. Le PDF tarifaire de 2024 et les CGV non datées renvoient à un autre SIRET, 38369180500022 : il ne faut pas assimiler ces documents à une grille tarifaire actuelle. Les CGV distinguent l'accueil des résidents sur emplacement (arrivée 14 h, départ avant 11 h) de la restriction d'accès des visiteurs (22 h–9 h), mais ne résolvent pas la mention camping-cars 22 h 30–8 h. L'activité administrative ne prouve pas la disponibilité d'une nuitée ni ses prix en 2026.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.22038,
@@ -1777,7 +1777,7 @@
     "contactSource": "https://www.les-mouettes-camping.com/",
     "contactRole": "camping",
     "priceVerification": "confirmation_contact_requise",
-    "priceCheckedAt": "2026-11-07",
+    "priceCheckedAt": "2026-11-10",
     "sourceOfficial": "https://www.les-mouettes-camping.com/",
     "servicesSource": "https://www.les-mouettes-camping.com/",
     "priceSource": "https://les-mouettes-camping.com/",
@@ -1803,7 +1803,16 @@
     "historicBrochureSiret": "38369180500022",
     "historicBrochureOperatorNote": "Le PDF tarifaire officiel du 01/01/2024 et des conditions générales non datées comportent le SIRET 38369180500022, différent du SIRET 84393721000014 en activité dans l'annuaire public au 20/10/2026. Les documents peuvent relever d'une ancienne entité : aucune nouvelle exploitation ni reprise n'est déduite sans preuve.",
     "receptionHoursSource": "https://www.les-mouettes-camping.com/conditions-generales-de-vente",
-    "receptionHoursCheckedAt": "2026-10-20"
+    "receptionHoursCheckedAt": "2026-10-20",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-10",
+      "status": "partial",
+      "label": "Page officielle : 15 €/nuit sans millésime ; tarif 2027 non confirmé.",
+      "note": "La page officielle affiche 15 €/nuit pour un camping-car avec deux personnes et un véhicule, avec l’électricité 6 A à 6,50 €/jour. Elle ne date pas ce tarif. La grille historique officielle du 01/01/2024 indiquait 19,50 €/nuit plus 0,20 €/adulte/nuit de taxe de séjour : l’écart empêche de confirmer le prix actuel ou 2027.",
+      "source": "https://les-mouettes-camping.com/",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "44",
@@ -5445,7 +5454,16 @@
     "servicesSource": "https://www.enpaysdelaloire.com/hebergements/campings/le-pas-du-gu",
     "priceEvidenceDocument": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/saint-brevin-les-pins/le-pas-du-gu",
     "priceCheckedAt": "2026-11-09",
-    "priceYear": 2026
+    "priceYear": 2026,
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-10",
+      "status": "partial",
+      "label": "Page officielle tarifée 2026 ; aucun tarif 2027 publié.",
+      "note": "La page officielle « tarifs camping-car », marquée 2026 et mise à jour en février 2026, décrit un forfait avec accès aux services du camping. Aucun montant ni barème 2027 n’est affiché ; le montant 2026 conservé dans la fiche ne doit pas être prolongé à 2027.",
+      "source": "https://www.campingpasdugu.net/nos-tarifs/nos-tarifs-camping-car/",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "44",
@@ -9379,7 +9397,16 @@
     "priceSource": "https://www.albatros-camping.com/242-tarifs",
     "priceEvidenceDocument": "https://www.albatros-camping.com/242-tarifs",
     "priceYear": 2026,
-    "priceCheckedAt": "2026-11-08"
+    "priceCheckedAt": "2026-11-08",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-10",
+      "status": "partial",
+      "label": "Grille officielle 2026 ; tarif camping-car 2027 non publié.",
+      "note": "La page officielle affiche une grille 2026 : forfait camping-car pour deux personnes avec électricité 10 A à 14 €/nuit, ou 19 €/nuit avec remorque. La taxe de séjour est de 0,66 €/adulte/nuit. Aucun barème 2027 n’est affiché ; conserver le tarif 2026 comme historique.",
+      "source": "https://www.albatros-camping.com/242-tarifs",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "49",
