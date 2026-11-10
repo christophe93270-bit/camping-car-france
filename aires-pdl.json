@@ -10060,13 +10060,13 @@
     "season2027": {
       "year": 2027,
       "checkedAt": "2026-11-10",
-      "status": "booking_only",
-      "label": "Saison du 30 avril au 12 septembre 2027. Prix de nuitée à confirmer.",
-      "note": "Saison annoncée du 30/04 au 12/09/2027, haute saison du 03/07 au 27/08. La page française des offres annonce explicitement une promotion Early Booking 2027 jusqu’à 10 %, pour réservation avant le 31/12/2026, hors locatifs, sous réserve des dates, disponibilités et catégories ; offres non cumulables. Vérifier l’application au panier. Cette remise ne constitue pas un prix de nuitée. L’offre distincte long séjour affiche 10 % dès 10 nuits hors 02/07–28/08 et 15 % dès 14 nuits de l’ouverture au 02/07, sans millésime explicite : son application en 2027 reste à confirmer. Le prix de base 2027, les taxes et les frais restent à obtenir selon la catégorie d’emplacement.",
+      "status": "promotion_only",
+      "label": "Promotions publiées pour les emplacements nus ; tarif de base 2027 à confirmer.",
+      "note": "Le camping annonce une ouverture du 30/04 au 12/09/2027. La page officielle des offres indique aussi, pour les emplacements nus, -10 % dès 10 nuits hors 02/07–28/08 et -15 % dès 14 nuits de l’ouverture au 02/07 ; l’offre de 15 % ne couvre donc pas toute la haute saison. La page séparée d’Early Booking propose jusqu’à 10 % sur une sélection, avec échéance au 31/12/2026 : vérifier les dates et catégories au panier. Ces remises ne donnent pas le tarif de base, les suppléments ni la taxe de séjour, qui restent à confirmer.",
       "source": "https://www.camping-le-ranch.com/fr",
       "bookingOpens": "2026-11-04",
       "promotionSource": "https://www.camping-le-ranch.com/fr/offres-speciales",
-      "promotionYearConfirmed": false,
+      "promotionYearConfirmed": true,
       "validFrom": "2027-04-30",
       "validThrough": "2027-09-12"
     }
@@ -12832,12 +12832,13 @@
     "operatorPageCheckedAt": "2026-10-23",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-10",
       "status": "booking_only",
-      "label": "Village vacances 2027 annoncé — accueil camping-car à confirmer",
-      "note": "Cévéo annonce le village du 2 avril au 10 octobre 2027 et l'ouverture des ventes été le 17 novembre. La présentation porte sur les chalets et les formules de séjour : ces dates ne prouvent pas l'ouverture des parcelles camping-car. Confirmer leur existence et leur disponibilité en 2027 avant de demander le prix, les taxes et les frais. Lot 239 : les dates du village sont confirmées sur la page Cévéo. La page présente la location de chalets et la demi-pension. La disponibilité d’emplacements pour camping-cars reste à confirmer.",
+      "label": "15 emplacements camping-car recensés ; ventes été 2027 ouvertes le 17 novembre, tarif à confirmer.",
+      "note": "La fiche touristique régionale recense 15 emplacements pour camping-car et 29 emplacements campeurs libres. Cévéo annonce l’ouverture des ventes Été 2027 le 17/11/2026 ; au contrôle du 10/11, les ventes ne sont pas encore ouvertes et aucun tarif camping-car 2027 n’est publié. Vérifier que ces 15 places sont bien disponibles à la réservation 2027 puis relever le prix et les services inclus.",
       "source": "https://www.ceveo.com/residence/mesquer-pays-de-guerande",
-      "touristTaxConfirmed": false
+      "touristTaxConfirmed": false,
+      "tourismSource": "https://www.enpaysdelaloire.com/hebergements/campings/camping-village-vacances-ceveo-chateau-de-treambert"
     }
   },
   {
@@ -12859,9 +12860,9 @@
       "Accès à un dispositif de vidange technique sans séjour non vérifié",
       "Pour l’emplacement avec sanitaire privé, Sunêlia affiche une arrivée à 16 h et un départ à 11 h. La FAQ générale du camping indique midi pour les emplacements. Horaire à confirmer lors de la réservation."
     ],
-    "price": "Non confirmé",
+    "price": "Offre 2027 : 186 € pour 7 nuits du 02 au 09/04/2027 sur un emplacement avec sanitaire privé, pour 2 personnes avec camping-car et électricité, après remise de 5 % (prix affiché avant remise : 196 €). Offre valable pour les séjours d’au moins 7 nuits jusqu’au 31/12/2026, non cumulable ; frais de dossier et préférence d’emplacement offerts. Il s’agit d’un séjour précis, pas d’un tarif général par nuit. Tarif de base, taxe de séjour 2027 et dates de fermeture exactes à confirmer.",
     "priceCheckedAt": "2026-10-21",
-    "priceVerification": "prix_2026_emplacement_nu_camping_car_non_publie",
+    "priceVerification": "offre_2027_promo_emplacement_sanitaire_prive_sejour_precis",
     "priceEvidenceDocument": "https://www.camping-lepetitbois.com/fr/hebergements/emplacements/",
     "status": "1820 route de Kerlagadec, 44420 Mesquer. Camping privé distinct du village vacances Château de Tréambert au 1900 route de Kerlagadec, à environ 195 m ; emprises et exploitants distincts. L'office donne 16 emplacements nus, 96 emplacements locatifs, et 231 emplacements classés tous usages : ne pas additionner ou assimiler ces chiffres à une capacité camping-car exclusive. Saison du 03/04 au 13/09/2026 : achevée au 20 octobre. Aucun forfait de nuitée 2026 pour deux personnes documenté avec une date de validité claire.",
     "nearbyDistinctSourceId": "CCF44-MESQUER-TREAMBERT-2026",
@@ -12884,8 +12885,8 @@
       "year": 2027,
       "checkedAt": "2026-11-10",
       "status": "promotion_only",
-      "label": "Offre de 5 % dès 7 nuits avec sanitaire privé. Exemple relevé le 3 novembre : 186 € pour 7 nuits du 2 au 9 avril 2027.",
-      "note": "Contrôle du 03/11/2026 : le site Sunêlia affiche 196 € barrés et 186 € pour le séjour du 02 au 09/04/2027 sur un emplacement avec sanitaire privé. C’est un total pour 7 nuits après Early Booking, et non un tarif par nuit ni une grille annuelle. Offre annoncée : remise de 5 % dès 7 nuits sur les emplacements avec sanitaires privés, séjour du 02/04 au 19/09/2027, réservation avant le 31/12/2026, non cumulable ; frais de dossier et préférence d’emplacement offerts à partir de 7 nuits. La page de la catégorie indique un tarif de base pour 2 personnes, un camping-car et l’électricité ; elle décrit aussi un point d’eau sur la parcelle sans confirmer explicitement son inclusion tarifaire. Deux pages officielles se contredisent sur la fermeture : la page principale annonce le 12/09/2027, tandis que la page détaillée de l’emplacement annonce le 19/09/2027. Ne pas valider les dates du 13 au 19 septembre sans confirmation de l’exploitant. Les CGV Sunêlia indiquent que la taxe de séjour est en supplément et que des frais de dossier peuvent s’appliquer, mais l’offre annonce les frais offerts pour les séjours d’au moins 7 nuits : confirmer le total final au récapitulatif, surtout la taxe 2027. Le tarif de nuitée 2026 reste Non confirmé ; aucune grille annuelle 2027 ni tarif de base séparé n’est confirmé. Lot 239 : remise de 5 % et frais de dossier offerts toujours affichés dans les conditions consultées le 07/11/2026. Les 186 € correspondent au relevé du 03/11/2026 et le montant actuel reste à vérifier dans le moteur. Contrôle lot 324 du 10/11/2026 : la page officielle conserve la remise de 5 % sur les emplacements avec sanitaires privés dès 7 nuits, du 02/04 au 19/09/2027, avec frais de dossier et préférence offerts, jusqu’au 31/12/2026 et sans cumul. Le prix relevé de 186 € le 03/11 est un total de séjour passé au moteur, pas un tarif de base vérifié aujourd’hui. La page des réservations n’expose pas de grille fixe.",
+      "label": "186 € pour 7 nuits (2–9 avril) en emplacement avec sanitaire privé ; tarif général non publié.",
+      "note": "Le moteur officiel affiche 186 € au lieu de 196 € pour 7 nuits du 02 au 09/04/2027 sur un emplacement avec sanitaire privé. Le forfait de base de cette catégorie comprend deux personnes, un camping-car et l’électricité ; la remise de 5 % est annoncée dès 7 nuits jusqu’au 31/12/2026, non cumulable, avec frais de dossier et choix d’emplacement offerts. Ce montant concerne uniquement cet exemple de séjour, ce n’est pas le prix général par nuit. La taxe de séjour est en supplément. Deux pages officielles diffèrent sur la fin d’ouverture (12/09 et 19/09/2027) : confirmer toute réservation après le 12/09 auprès du camping.",
       "source": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/",
       "discountPercent": 5,
       "minimumNights": 7,
@@ -12917,7 +12918,8 @@
       "offerAvailabilityBeyondSeasonConfirmed": false,
       "waterOnPitch": true,
       "waterInclusionInPriceConfirmed": false
-    }
+    },
+    "priceSource": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/"
   },
   {
     "department": "44",
@@ -13316,9 +13318,9 @@
       "Aire technique accessible sans séjour : non confirmée",
       "Jusqu’à 6 personnes par emplacement selon les conditions de réservation du camping"
     ],
-    "price": "Non confirmé",
+    "price": "Offre couple affichée hors saison : 294 € pour la semaine (7 nuits minimum, 2 personnes maximum) selon le site officiel. Le descriptif ne précise pas si elle s’applique à l’emplacement camping-car ; tarif de base camping-car 2026 et tarif 2027 non confirmés.",
     "priceCheckedAt": "2026-10-20",
-    "priceVerification": "forfait_nuitee_camping_car_deux_personnes_2026_non_publie_en_clair",
+    "priceVerification": "offre_couple_2026_scope_emplacement_camping_car_non_confirme",
     "priceEvidenceDocument": "https://camping-lebernier.fr/",
     "priceEvidenceNote": "Le camping annonce des tarifs 2026 via réservation, sans tarif public de nuitée camping-car standard vérifié ; l'offre couple 294 € par semaine, minimum 7 nuits hors saison, ne peut pas être convertie en tarif libre pour deux personnes en camping-car. Les conditions de réservation disponibles sur le site décrivent des forfaits emplacement pour une ou deux personnes avec électricité et sanitaires compris, hors taxe de séjour. Document sans millésime tarifaire explicite.",
     "status": "56 rue de la Cormorane, 44770 La Plaine-sur-Mer. Le site officiel daté 2026 annonce une saison du 03/04 au 04/10/2026 ; des pages secondaires anciennes indiquent du 01/04 au 30/09 sans millésime. Saison terminée au 20 octobre 2026. Camping privé distinct de Flower La Guichardière (~1 km) et de son aire de services ; ne pas les fusionner.",
@@ -13339,11 +13341,12 @@
       "year": 2027,
       "checkedAt": "2026-11-10",
       "status": "partial",
-      "label": "Tarifs 2026 annoncés via réservation ; prix public 2027 non confirmé.",
-      "note": "Contrôle du 10/11/2026 : le site officiel annonce que les tarifs 2026 sont dans le module de réservation, mais ne donne pas dans la page consultable le forfait de nuitée camping-car. Aucun prix 2027 n'est publié ; l'offre couple à la semaine ne peut pas être convertie en tarif d'emplacement.",
+      "label": "Offre couple à 294 €/semaine affichée, mais application à l’emplacement camping-car et tarif 2027 non confirmés.",
+      "note": "La page officielle affiche des tarifs 2026 et une offre couple hors saison à 294 € pour 7 nuits minimum, deux personnes maximum. Elle ne précise pas si cette offre couvre l’emplacement camping-car ; ne pas la traiter comme un forfait confirmé pour ce type d’emplacement. Aucun prix 2027 n’est publié.",
       "source": "https://camping-lebernier.fr/",
       "touristTaxConfirmed": false
-    }
+    },
+    "priceSource": "https://camping-lebernier.fr/"
   },
   {
     "department": "44",
