@@ -5664,7 +5664,7 @@
     "gpsSource": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : Campingnavigator fournit prix indicatif de base 15/24 € (2 personnes + voiture, hors taxes), sans année certifiée. Tarif officiel 2026 non confirmé. Coopération CAMPING-CAR PARK sur 49 places signalée séparément, doublon saisonnier possible. Lot 258, contrôle du 07/11/2026 : Le prix de départ affiché porte sur l’emplacement Access du camping. Source : https://www.campingdirect.com/fr/reservation-emplacement-mobil-home/loire-atlantique/camping-prefailles/camping-eden-villages-la-pointe-saint-gildas Lot 282, contrôle du 09/11/2026. Les trois prix d’appel sont par semaine. La durée minimale et l’admission des camping-cars par catégorie restent à vérifier lors de la réservation. https://www.campingdirect.com/fr/reservation-emplacement-mobil-home/loire-atlantique/camping-prefailles/camping-eden-villages-la-pointe-saint-gildas https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-la-pointe",
+    "importReview": "20/10/2026 : Campingnavigator fournit prix indicatif de base 15/24 € (2 personnes + voiture, hors taxes), sans année certifiée. Tarif officiel 2026 non confirmé. Coopération CAMPING-CAR PARK sur 49 places signalée séparément, doublon saisonnier possible. Lot 258, contrôle du 07/11/2026 : Le prix de départ affiché porte sur l’emplacement Access du camping. Source : https://www.campingdirect.com/fr/reservation-emplacement-mobil-home/loire-atlantique/camping-prefailles/camping-eden-villages-la-pointe-saint-gildas Lot 282, contrôle du 09/11/2026. Les trois prix d’appel sont par semaine. La durée minimale et l’admission des camping-cars par catégorie restent à vérifier lors de la réservation. https://www.campingdirect.com/fr/reservation-emplacement-mobil-home/loire-atlantique/camping-prefailles/camping-eden-villages-la-pointe-saint-gildas https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-la-pointe Contrôle du 10/11/2026 : statut 2027 complété sans extrapoler les prix d’appel, d’annuaire ou ACSI 2026. Source : https://www.enpaysdelaloire.com/hebergements/campings/camping-eden-villages-la-pointe-saint-gildas",
     "sourceId": "ACCAMACCAMPDL044000154",
     "contactRole": "camping",
     "contactPhone": "02 40 21 52 05",
@@ -5678,7 +5678,16 @@
     "contactEmail": "directionlapointe@edenvillages.fr",
     "contactEmailSource": "https://rando.loire-atlantique.fr/service/182149-Camping-Eden-Villages-La-Pointe-Saint-Gildas",
     "contactEmailSourceNote": "Courriel de l'établissement diffusé par l'office de tourisme départemental ; à distinguer de l'aire CAMPING-CAR PARK voisine.",
-    "contactEmailPublishedCheckedAt": "2026-10-20"
+    "contactEmailPublishedCheckedAt": "2026-10-20",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-10",
+      "status": "partial",
+      "label": "Prix d’appel hebdomadaire non millésimé ; forfait camping-car 2027 non confirmé.",
+      "note": "Contrôle du 10/11/2026 : les prix d’appel enregistrés (148 €, 176 €, 267 € la semaine) ne portent pas de millésime et ne précisent pas l’admission ni le prix à la nuit d’un camping-car. Aucun tarif 2027 certifiable.",
+      "source": "https://www.enpaysdelaloire.com/hebergements/campings/camping-eden-villages-la-pointe-saint-gildas",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "44",
@@ -6888,7 +6897,7 @@
     "gpsSource": "https://www.cirkwi.com/fr/point-interet/3322094-aire-de-camping-le-briord",
     "dataLicense": "ODbL",
     "dataAttribution": "Région Pays de la Loire / e-SPRIT",
-    "importReview": "20/10/2026 : forfait à partir de 14 €, 6 places, dates et paiements en espèces vérifiés sur tourisme régional. Le tarif exact camping-car avec options et taxe n’est pas détaillé. Lot 48 du 20/10/2026 : lieu déjà recensé, GPS e-SPRIT à 0 m, coordonnées contact et preuve prix d'appel 14 € ajoutées. Lot 89 (02/11/2026) : divergence FR/EN 14 € base contre 17 € forfait camping-car, calendrier et taxe incohérents ; prix historique conservé avec avertissement, confirmation 2027 nécessaire. Lot 149, 04/11/2026 : nouvelle lecture des pages tourisme français/anglais et de Rando Loire-Atlantique. Les deux versions ne sont pas équivalentes : base FR à partir de 14 € pour emplacement + 2 personnes + 1 voiture, version anglaise qui ajoute un « forfait camping-car » à 17 €/nuit. La fiche départementale indique ouverture week-ends de mai puis du 15/06 au 15/09/2026, accueil de camping-cars, paiement en espèces et réception 17 h 15–20 h. La taxe régionale reste une fourchette ambiguë 0,22–0,20 €. Aucun calendrier ni prix 2027 trouvé; conserver le statut contradictoire et ne pas convertir ces repères en tarif 2027. Lot 269, contrôle du 08/11/2026 : https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord https://tofromfrance.com/lieu/aire-de-camping-le-briord Lot 309, contrôle du 09/11/2026. Réservation possible par téléphone. Pour une arrivée en dehors de la permanence annoncée de 17 h 15 à 20 h, appeler le camping. https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
+    "importReview": "20/10/2026 : forfait à partir de 14 €, 6 places, dates et paiements en espèces vérifiés sur tourisme régional. Le tarif exact camping-car avec options et taxe n’est pas détaillé. Lot 48 du 20/10/2026 : lieu déjà recensé, GPS e-SPRIT à 0 m, coordonnées contact et preuve prix d'appel 14 € ajoutées. Lot 89 (02/11/2026) : divergence FR/EN 14 € base contre 17 € forfait camping-car, calendrier et taxe incohérents ; prix historique conservé avec avertissement, confirmation 2027 nécessaire. Lot 149, 04/11/2026 : nouvelle lecture des pages tourisme français/anglais et de Rando Loire-Atlantique. Les deux versions ne sont pas équivalentes : base FR à partir de 14 € pour emplacement + 2 personnes + 1 voiture, version anglaise qui ajoute un « forfait camping-car » à 17 €/nuit. La fiche départementale indique ouverture week-ends de mai puis du 15/06 au 15/09/2026, accueil de camping-cars, paiement en espèces et réception 17 h 15–20 h. La taxe régionale reste une fourchette ambiguë 0,22–0,20 €. Aucun calendrier ni prix 2027 trouvé; conserver le statut contradictoire et ne pas convertir ces repères en tarif 2027. Lot 269, contrôle du 08/11/2026 : https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord https://tofromfrance.com/lieu/aire-de-camping-le-briord Lot 309, contrôle du 09/11/2026. Réservation possible par téléphone. Pour une arrivée en dehors de la permanence annoncée de 17 h 15 à 20 h, appeler le camping. https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord Contrôle du 10/11/2026 : statut 2027 complété sans extrapoler les prix d’appel, d’annuaire ou ACSI 2026. Source : https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD",
     "sourceId": "ACCAMACCAMEAIREDECAMPINGLEBRIORD",
     "sourceOfficial": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
     "priceSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
@@ -6903,7 +6912,16 @@
     "priceCheckedAt": "2026-10-20",
     "priceVerification": "prix_appel_tourisme_14eur_2026_options_a_verifier",
     "operationalWarning": "Les pages touristiques françaises/anglaises restent contradictoires : base à partir de 14 € par nuit pour un emplacement + 2 personnes + une voiture contre forfait camping-car à 17 €/nuit; validité exacte et inclusions non établies. La fiche Rando/Loire-Atlantique documente seulement la saison 2026 (week-ends de mai puis 15/06–15/09), six places, paiements en espèces et réception 17 h 15–20 h. La taxe publiée sous forme de fourchette 0,22–0,20 € est ambiguë. Aucune saison, grille, taxe, électricité ni conditions de réservation 2027 confirmées.",
-    "operationalWarningSource": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD"
+    "operationalWarningSource": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-10",
+      "status": "partial",
+      "label": "Prix d’appel 2026/année non établie ; tarifs 2027 non publiés.",
+      "note": "Contrôle du 10/11/2026 : les pages touristiques déjà recensées donnent un prix de base à partir de 14 € et un autre repère de 17 € pour camping-car, avec divergences d’inclusions et de millésime. La vérification du 09/11 ne trouvait aucun calendrier ni barème 2027 ; aucun prix n’est reconduit.",
+      "source": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "44",
@@ -11740,7 +11758,7 @@
     "capacityBarePitchesDetailPage": 45,
     "capacityTotalClassified2026": 88,
     "dataAttribution": "Camping Hermitage des Dunes, Mairie Les Moutiers-en-Retz et PiNCAMP (coordonnées)",
-    "importReview": "Lot 45 du 20/10/2026 : camping-car explicitement accepté par l'exploitant ; 44 places nues dans accueil 2026 et 45 dans page des emplacements (différence signalée), prix journalier 2026 absent. GPS PiNCAMP 47.06528,-2.013628. Adresse 23/25 rue du Bois Millet discordante entre mairie et page exploitant. Nuitée conditionnée par l'accueil du camping. Lot 57 (20/10/2026) : prix conditionnel ACSI 19 €/nuit pour 2 adultes en camping-car et dates de validité 2026 établis par CampingCard ACSI et règles du programme ; tarif normal toujours inconnu. Lot 276, contrôle du 08/11/2026 : L’exploitant annonce 45 emplacements équipés d’un raccordement 10 A. L’offre ACSI 2026 reste soumise aux limites de consommation de la carte. Prix public et offre ACSI 2027 à confirmer. https://hermitagedesdunes.com/234-tarifs/498-emplacements-de-camping-caravaning-en-bord-de-la-mer-aux-moutiers-en-retz.html",
+    "importReview": "Lot 45 du 20/10/2026 : camping-car explicitement accepté par l'exploitant ; 44 places nues dans accueil 2026 et 45 dans page des emplacements (différence signalée), prix journalier 2026 absent. GPS PiNCAMP 47.06528,-2.013628. Adresse 23/25 rue du Bois Millet discordante entre mairie et page exploitant. Nuitée conditionnée par l'accueil du camping. Lot 57 (20/10/2026) : prix conditionnel ACSI 19 €/nuit pour 2 adultes en camping-car et dates de validité 2026 établis par CampingCard ACSI et règles du programme ; tarif normal toujours inconnu. Lot 276, contrôle du 08/11/2026 : L’exploitant annonce 45 emplacements équipés d’un raccordement 10 A. L’offre ACSI 2026 reste soumise aux limites de consommation de la carte. Prix public et offre ACSI 2027 à confirmer. https://hermitagedesdunes.com/234-tarifs/498-emplacements-de-camping-caravaning-en-bord-de-la-mer-aux-moutiers-en-retz.html Contrôle du 10/11/2026 : statut 2027 complété sans extrapoler les prix d’appel, d’annuaire ou ACSI 2026. Source : https://hermitagedesdunes.com/234-tarifs.html",
     "priceYear": 2026,
     "priceType": "tarif_camping_car_conditionnel_campingcard_acsi_basse_saison",
     "priceSource": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/les-moutiers-en-retz/camping-lhermitage-des-dunes-125296/",
@@ -11758,7 +11776,16 @@
       "sourceUrl": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/les-moutiers-en-retz/camping-lhermitage-des-dunes-125296/"
     },
     "operationalWarning": "Attention : réduction CampingCard ACSI uniquement aux dates 2026 citées et avec une carte valide. Tarif public sans carte et taxes locales non vérifiés ; offre sous réserve des conditions et disponibilités du camping.",
-    "operationalWarningSource": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/les-moutiers-en-retz/camping-lhermitage-des-dunes-125296/"
+    "operationalWarningSource": "https://www.campingcard.fr/france/pays-de-la-loire/loire-atlantique/les-moutiers-en-retz/camping-lhermitage-des-dunes-125296/",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-10",
+      "status": "partial",
+      "label": "Offre CampingCard ACSI 2026 enregistrée ; prix public et offre 2027 à confirmer.",
+      "note": "Contrôle du 10/11/2026 : les tarifs consultés ne permettent pas d’attester de barème 2027. L’offre ACSI déjà enregistrée est datée 2026 et conditionnée à la carte et aux périodes publiées ; le prix public hors offre demeure non confirmé.",
+      "source": "https://hermitagedesdunes.com/234-tarifs.html",
+      "touristTaxConfirmed": false
+    }
   },
   {
     "department": "44",
