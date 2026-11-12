@@ -3,10 +3,10 @@
     "department": "37",
     "name": "Aire de stationnement - Allée du Maquis Césario",
     "city": "Loches",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Stationnement camping-car confirmé",
     "services": [],
     "price": "Gratuit (stationnement)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Stationnement municipal confirmé sur 4 zones, dont l’allée du Maquis Césario ; durée limitée à 24 h. Aucun service propre à cette zone confirmé.",
     "source": "https://www.openstreetmap.org/node/6784712639",
     "latitude": 47.12655,
     "longitude": 1.00225,
@@ -20,7 +20,8 @@
     "priceSource": "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-stationnement-allee-du-maquis-cesario-loches-fr-5152451/",
     "priceVerifiedOn": "2026-10-19",
     "sourceOfficial": "https://www.ville-loches.fr/agenda.php/vegas2/js/countUp/vegas2/js/countUp/stationnement-et-transport-article-2-6-17.html",
-    "verificationNote": "Aire confirmée par la mairie de Loches : 4 emplacements, stationnement limité à 24 heures. Gratuité corroborée par Touraine Val de Loire. Ne pas attribuer à cette aire les services de la borne avenue Aristide Briand."
+    "verificationNote": "La mairie de Loches confirme les zones de stationnement camping-car limitées à 24 h, dont l’allée du Maquis Césario. La gratuité est donnée par la source touristique déjà liée à la fiche ; aucun service d’aire n’est confirmé pour ce parking.",
+    "verificationCheckedOn": "2026-11-12"
   },
   {
     "department": "37",
@@ -29,7 +30,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Existence et coordonnées confirmées par une fiche de l'office de tourisme Touraine Nature ; tarif et services à confirmer",
+    "status": "Existence et localisation confirmées par Touraine Nature ; tarif et services non publiés par les sources consultées.",
     "source": "https://www.openstreetmap.org/node/11923665064",
     "latitude": 47.3877526,
     "longitude": 0.2100075,
@@ -39,17 +40,18 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/11923665064",
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
-    "sourceOfficial": "https://www.cirkwi.com/fr/point-interet/4864459-aire-de-stationnement-de-camping-cars-de-continvoir",
-    "verificationNote": "Fiche proposée par l'Office de tourisme Touraine Nature sur Cirkwi, mise à jour le 09/01/2026 : GPS 47.3877526, 0.2100075, sans tarif publié. Ne pas attribuer de gratuité non documentée."
+    "sourceOfficial": "https://www.tourainenature.com/planifier-mon-sejour/ou-dormir/aires-de-camping-cars/",
+    "verificationNote": "L’Office de tourisme Touraine Nature recense une aire de camping-cars à Continvoir. Aucun tarif ni équipement détaillé n’est confirmé dans la source officielle consultée ; conserver le tarif « Non confirmé ».",
+    "verificationCheckedOn": "2026-11-12"
   },
   {
     "department": "37",
     "name": "Aire de stationnement de camping-cars de La Chapelle sur Loire",
     "city": "La Chapelle-sur-Loire",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Stationnement camping-car de jour",
     "services": [],
     "price": "Non confirmé",
-    "status": "Stationnement confirmé par source touristique ; tarifs et équipements à confirmer",
+    "status": "Stationnement camping-car aux Quais de Loire confirmé par La Loire à Vélo ; stationnement de nuit indiqué comme non autorisé ; tarif et équipements non publiés.",
     "source": "https://www.openstreetmap.org/node/11923717576",
     "latitude": 47.2476973,
     "longitude": 0.2211012,
@@ -61,7 +63,8 @@
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
     "address": "Quais de Loire, 37140 La Chapelle-sur-Loire",
     "sourceOfficial": "https://www.loireavelo.fr/tsft/aire-de-stationnement-de-camping-cars-de-la-chapelle-sur-loire-la-chapelle-sur-loire/",
-    "verificationNote": "La Loire à Vélo confirme l'aire de stationnement des Quais de Loire, sans tarif publié. Ne pas confondre avec le camping municipal du 3 place du 8 Mai 1945, qui possède une aire de services et ses propres tarifs, ni avec l'aire privée rue des Parfaits."
+    "verificationNote": "La fiche La Loire à Vélo identifie le stationnement des camping-cars aux Quais de Loire à La Chapelle-sur-Loire et indique « Emplacement de stationnement pour la nuit : non ». Ne pas présenter le lieu comme une aire de nuitée. Aucun tarif ou service n’est publié dans la fiche consultée.",
+    "verificationCheckedOn": "2026-11-12"
   },
   {
     "department": "37",
@@ -71,36 +74,37 @@
     "services": [
       "Électricité"
     ],
-    "price": "14,45 € / 24 h, taxe de séjour de 1,22 € comprise ; services 5 h : 6 €",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "13,23 € / 24 h hors taxe de séjour (tarif saisonnier affiché du 30/10/2026 au 31/12/2027) ; taxe de séjour 1,22 € / 24 h affichée pour 2026 ; total 14,45 € / 24 h en 2026 ; parking 5 h + services : 6 €",
+    "status": "Aire CAMPING-CAR PARK officielle ouverte à Chinon ; tarif saisonnier publié jusqu’au 31/12/2027.",
     "source": "https://www.openstreetmap.org/node/12085320864",
     "latitude": 47.1646037,
     "longitude": 0.2321547,
     "gpsSource": "https://www.openstreetmap.org/node/12085320864",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Existence et tarif contrôlés sur la fiche officielle CAMPING-CAR PARK.",
     "sourceId": "node/12085320864",
     "servicesSource": "https://www.openstreetmap.org/node/12085320864",
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/chinon?areaType=area-de-etapa-autocaravanas",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif affiché pour la période du 13/10/2026 au 31/12/2027.",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/chinon?areaType=aire-etape-camping-car",
-    "sourceOfficialVerifiedOn": "2026-10-19"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/chinon",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Tarif opérateur de 13,23 € / 24 h du 30/10/2026 au 31/12/2027. La taxe de séjour affichée est de 1,22 € / 24 h pour 2026 ; la page ne permet pas de confirmer son montant 2027.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/chinon",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "verificationNote": "La fiche officielle CAMPING-CAR PARK confirme l’aire de Chinon, 49 emplacements, et le tarif saisonnier 13,23 € / 24 h du 30/10/2026 au 31/12/2027. La taxe de séjour de 1,22 € / 24 h est indiquée pour 2026 ; vérifier son éventuelle évolution en 2027."
   },
   {
     "department": "37",
-    "name": "Aire de stationnement au camping municipal Descartes",
+    "name": "Camping La Roseraie – aire de services camping-car",
     "city": "Descartes",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de services camping-car dans un camping",
     "services": [
       "Douches",
       "Toilettes",
       "Électricité"
     ],
-    "price": "Forfait 2026 emplacement et 2 adultes : 15 € hors juillet-août ; 24 € du 1er juillet au 31 août ; électricité +6 € ; taxe de séjour à confirmer",
-    "status": "Camping La Roseraie ouvert du 13 mai au 13 septembre 2026 ; aire de services dans l'enceinte du camping",
+    "price": "Forfait emplacement 2026 pour 2 adultes et 1 équipement : 15 € hors juillet-août ; 24 € du 1er juillet au 31 août ; électricité en supplément : 6 € ; tarif 2027 et taxe de séjour non publiés",
+    "status": "Camping La Roseraie ouvert du 13 mai au 13 septembre 2026 ; aire de services camping-car située dans l’enceinte du camping.",
     "source": "https://www.openstreetmap.org/node/12202114284",
     "latitude": 46.968091,
     "longitude": 0.6968701,
@@ -114,8 +118,10 @@
     "address": "Allée Léo Lagrange, 37160 Descartes",
     "sourceOfficial": "https://www.camping-descartes.fr/emplacements/",
     "priceSource": "https://www.camping-descartes.fr/emplacements/",
-    "priceVerifiedOn": "2026-10-19",
-    "verificationNote": "Tarif du camping pour emplacement, équipement et 2 adultes, non tarif d'une aire autonome. Services vidange et remplissage confirmés par l'exploitant."
+    "priceVerifiedOn": "2026-11-12",
+    "verificationNote": "Le site officiel de La Roseraie confirme l’aire de services camping-car dans le camping et affiche les forfaits d’emplacement 2026 : 15 € hors saison estivale, 24 € du 1er juillet au 31 août, électricité 6 €. Le camping annonce une ouverture du 13 mai au 13 septembre 2026 ; aucun tarif 2027 ni montant de taxe de séjour n’est publié.",
+    "priceNote": "Ce sont les tarifs 2026 d’un emplacement de camping pour deux adultes, pas un tarif d’aire autonome. Aucun tarif 2027 affiché.",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "37",
@@ -131,8 +137,8 @@
       "Sanitaires",
       "Tables de pique-nique"
     ],
-    "price": "12,00 € /24 h + taxe de séjour 1,22 € = 13,22 € /24 h ; stationnement 5 h + services : 6,00 € (tarifs opérateur affichés octobre 2026)",
-    "status": "Aire confirmée par la mairie d'Esvres-sur-Indre ; 16 emplacements, gestion Camping-Car Park ; tarif exact à confirmer",
+    "price": "12,00 € / 24 h + taxe de séjour 1,22 € = 13,22 € / 24 h ; stationnement 5 h + services : 6,00 € (tarifs CAMPING-CAR PARK affichés jusqu’au 31/12/2027)",
+    "status": "Aire gérée par CAMPING-CAR PARK ; 16 emplacements et services confirmés par la mairie d’Esvres-sur-Indre.",
     "source": "https://www.openstreetmap.org/way/253659162",
     "latitude": 47.28274,
     "longitude": 0.784479,
@@ -143,12 +149,14 @@
     "sourceId": "way/253659162",
     "servicesSource": "https://www.openstreetmap.org/way/253659162",
     "cityVerificationNote": "Commune Montlouis-sur-Loire NON CONFIRMÉE ; coordonnées GPS 47.2828,0.7845 éloignées du centre et des aires documentées de Montlouis.",
-    "verificationNote": "Fiche opérateur Camping-Car Park : 16 places, coordonnées 47.28274 / 0.784479, 12 €/24h hors taxe de séjour 1,22 €, 6 € pour 5h + services. Tarifs variables, vérifier à la réservation.",
+    "verificationNote": "La mairie confirme la gestion CAMPING-CAR PARK, 16 emplacements, eau potable, vidanges, électricité, Wi-Fi, tables et sanisette. L’opérateur affiche 12 € / 24 h + taxe de séjour 1,22 € jusqu’au 31/12/2027, soit 13,22 €, et 6 € pour 5 h + services.",
     "sourceSecondary": "https://onbouge.eu/france/centre-val-de-loire/azay-sur-cher/mobilite",
     "address": "Place Auguste Noyant, 37320 Esvres-sur-Indre",
-    "sourceOfficial": "https://www.ville-esvres.fr/index.php/infos-pratiques/stationnements",
+    "sourceOfficial": "https://ville-esvres.fr/index.php?Itemid=247&id=30&option=com_content&view=article",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/esvres",
-    "priceVerifiedOn": "2026-10-19"
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Tarif opérateur affiché du 30/10/2026 au 31/12/2027 ; taxe de séjour 1,22 € affichée jusqu’au 31/12/2027.",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "37",
@@ -160,36 +168,37 @@
       "Toilettes",
       "Électricité"
     ],
-    "price": "12,73 € / 24 h ; services 5 h : 6 €",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12,73 € / 24 h (tarif affiché par CAMPING-CAR PARK ; tarif susceptible de varier selon la période)",
+    "status": "Aire CAMPING-CAR PARK de type « Camping de mon village » confirmée ; ouverte selon la fiche opérateur.",
     "source": "https://www.openstreetmap.org/way/269161826",
     "latitude": 47.5933178,
     "longitude": 0.9038522,
     "gpsSource": "https://www.openstreetmap.org/way/269161826",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Existence et tarif contrôlés sur la fiche officielle CAMPING-CAR PARK.",
     "sourceId": "way/269161826",
     "servicesSource": "https://www.openstreetmap.org/way/269161826",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/chateau-renault",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif affiché du 13/10/2026 au 31/12/2027.",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Tarif en cours affiché par l’opérateur lors du contrôle du 12/11/2026 ; vérifier au moment de la réservation.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/chateau-renault",
-    "sourceOfficialVerifiedOn": "2026-10-19"
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "verificationNote": "La fiche officielle CAMPING-CAR PARK classe Château-Renault en « Camping de mon village » et affiche 12,73 € / 24 h. Conserver le montant comme tarif observé, à recontrôler avant réservation."
   },
   {
     "department": "37",
     "name": "Aire Camping-Car Gizeux",
     "city": "Gizeux",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de camping-car",
     "services": [
       "Eau",
       "Vidange eaux usées",
       "Vidange toilettes chimiques",
       "Stationnement de nuit"
     ],
-    "price": "Stationnement gratuit ; jeton eau : 2 € (mairie de Gizeux)",
-    "status": "Aire de services et stationnement nocturne confirmés par Touraine Val de Loire ; tarif à confirmer",
+    "price": "Stationnement gratuit ; borne à eau par jeton : 2 € ; vidange des eaux grises et noires possible",
+    "status": "Aire municipale ouverte toute l’année, accès libre ; stationnement gratuit ; borne à eau à jeton et vidanges confirmés par la mairie.",
     "source": "https://www.openstreetmap.org/way/318654213",
     "latitude": 47.3927716,
     "longitude": 0.197144,
@@ -200,21 +209,22 @@
     "sourceId": "way/318654213",
     "address": "Place de la Mairie, 37340 Gizeux",
     "sourceOfficial": "https://gizeux.fr/culture-et-loisirs/camping-et-aires/",
-    "verificationNote": "Source touristique confirme les équipements et le stationnement nocturne ; prix non communiqué.",
+    "verificationNote": "La mairie de Gizeux confirme l’accès libre toute l’année, la vidange des eaux grises et noires et le jeton d’eau à 2 €. Les avis publiés sur le site communal décrivent le stationnement comme gratuit. Aucun service électrique n’est confirmé par cette source.",
     "priceSource": "https://gizeux.fr/culture-et-loisirs/camping-et-aires/",
-    "priceVerifiedOn": "2026-10-19"
+    "priceVerifiedOn": "2026-11-12",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "37",
-    "name": "Aire de stationnement Avenue Léonard de Vinci",
+    "name": "Stationnement camping-cars – avenue Léonard de Vinci",
     "city": "Amboise",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Stationnement camping-car",
     "services": [
       "Stationnement de jour",
       "Stationnement de nuit"
     ],
-    "price": "Stationnement gratuit selon la documentation municipale de 2015 ; gratuité actuelle et conditions spécifiques aux camping-cars à reconfirmer",
-    "status": "Aire de stationnement confirmée par La Loire à Vélo ; 12 places, sans services",
+    "price": "Tarif actuel non confirmé ; une publication municipale de 2015 classait l’avenue parmi les stationnements gratuits, mais les conditions et la gratuité actuelles pour les camping-cars ne sont pas établies",
+    "status": "La Loire à Vélo confirme 12 places de stationnement camping-car de jour et de nuit, sans services ; conditions tarifaires à confirmer.",
     "source": "https://www.openstreetmap.org/way/446498467",
     "latitude": 47.4082746,
     "longitude": 0.9899357,
@@ -226,8 +236,10 @@
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
     "address": "Avenue Léonard de Vinci, 37400 Amboise",
     "sourceOfficial": "https://www.loireavelo.fr/tsft/aire-de-stationnement-amboise/",
-    "verificationNote": "L'office de tourisme confirme 12 places camping-car sans services avenue Léonard de Vinci (Cirkwi mis à jour le 09/01/2026). Un journal municipal de décembre 2015 cite l'avenue parmi les stationnements gratuits, mais une publication municipale de 2022 décrit aussi 5 places en zone bleue limitées à 1 h sur la même avenue : ne pas extrapoler la gratuité ni les limites de durée à l'aire entière.",
-    "priceSource": "https://www.ville-amboise.fr/fileadmin/www.ville-amboise.fr/MEDIA/Publications/Journal_municipal/2015/MAG-AMBOISE-N-0064-DEC-2015-WEB.pdf"
+    "verificationNote": "La Loire à Vélo confirme 12 places avenue Léonard de Vinci, accessibles de jour et de nuit, sans services. La gratuité citée dans un journal municipal de 2015 ne prouve pas les règles actuelles ; la publication municipale de 2022 signale aussi des places en zone bleue limitées à une heure sur cette avenue. Tarif actuel non confirmé.",
+    "priceSource": "https://www.ville-amboise.fr/fileadmin/www.ville-amboise.fr/MEDIA/Publications/Journal_municipal/2015/MAG-AMBOISE-N-0064-DEC-2015-WEB.pdf",
+    "priceVerifiedOn": "2026-11-12",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "37",
@@ -237,23 +249,24 @@
     "services": [
       "Électricité"
     ],
-    "price": "17 € / 24 h, taxe de séjour de 1,22 € comprise ; services 5 h : 6 €",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "17,00 € / 24 h au tarif affiché, dont 1,22 € de taxe de séjour (taxe affichée pour 2026) ; stationnement 5 h + services : 6 €",
+    "status": "Aire CAMPING-CAR PARK officielle ouverte sur l’Île d’Or ; 24 emplacements avec électricité.",
     "source": "https://www.openstreetmap.org/way/715442136",
     "latitude": 47.4174235,
     "longitude": 0.9876341,
     "gpsSource": "https://www.openstreetmap.org/way/715442136",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Existence, équipements et tarif contrôlés sur la fiche officielle CAMPING-CAR PARK.",
     "sourceId": "way/715442136",
     "servicesSource": "https://www.openstreetmap.org/way/715442136",
     "cityVerificationNote": "Commune identifiée par le nom et la localisation ; contrôle cartographique conseillé.",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/amboise?areaType=stopover-site-motorhome",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif affiché du 11/09/2026 au 31/12/2027.",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/amboise?areaType=stopover-site-motorhome",
-    "sourceOfficialVerifiedOn": "2026-10-19"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/amboise",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Le tarif saisonnier de base affiché est 15,78 € / 24 h du 12/09/2026 au 31/12/2027 ; la taxe de séjour de 1,22 € / 24 h est affichée pour 2026, soit 17,00 € en 2026. Son montant 2027 n’est pas confirmé par la page consultée.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/amboise",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "verificationNote": "La fiche officielle CAMPING-CAR PARK confirme 24 places avec électricité à Amboise. Le tarif de base est de 15,78 € / 24 h du 12/09/2026 au 31/12/2027 ; la taxe de séjour de 1,22 € est explicitement indiquée pour 2026, soit 17 € au total en 2026. Le montant de taxe 2027 reste à vérifier."
   },
   {
     "department": "37",
