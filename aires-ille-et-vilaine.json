@@ -858,13 +858,16 @@
       "WC",
       "Wi-Fi"
     ],
-    "price": "Tarif non confirmé",
+    "price": "Tarif pour l’usage de l’aire de services camping-car non publié ; à confirmer auprès du camping. Ne pas confondre avec les tarifs des emplacements du camping.",
     "status": "Aire de services du camping ouverte aux camping-cars de passage selon Pays de Vitré Tourisme ; horaires d'accès non publiés",
     "source": "https://www.bretagne-vitre.com/aires-de-camping-cars/aire-de-camping-car/",
     "sourceOfficial": "https://www.campinglesrivesdulac.fr/emplacements-camping-a-rennes/",
     "gpsSource": "https://www.campinglesrivesdulac.fr/acces-contact/",
-    "verificationNote": "Pays de Vitré Tourisme confirme aire de services rénovée en 2021, accessible aux camping-cars de passage même sans nuitée au camping, avec eau et vidange ; chaque emplacement de camping dispose d'un branchement électrique 6 A. GPS 48.2309244,-1.1798261 publié par le camping lui-même : coordonnées de l'établissement, pas nécessairement de la borne. Aucun tarif de passage ni horaire spécifique confirmé ; contacter le camping avant déplacement.",
-    "coordinateStatus": "GPS de l'établissement confirmé par le site officiel, position de la borne non précisée"
+    "verificationNote": "Le camping et l’office de tourisme confirment que l’aire de services, rénovée en 2021, est accessible aux camping-caristes de passage pour la vidange et le plein d’eau. Aucun tarif de service n’est publié ; les prix des emplacements du camping ne s’appliquent pas automatiquement à cette aire.",
+    "coordinateStatus": "GPS de l'établissement confirmé par le site officiel, position de la borne non précisée",
+    "priceSource": "https://www.campinglesrivesdulac.fr/emplacements-camping-a-rennes/",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Les sources officielles confirment l'accès aux services aux camping-caristes de passage, sans publier le prix de vidange ou de remplissage."
   },
   {
     "department": "35",
@@ -879,12 +882,14 @@
       "Eau",
       "Vidange des eaux usées"
     ],
-    "price": "Stationnement et services gratuits selon i-campingcar et Le Campeur ; gratuité non confirmée directement par la mairie",
+    "price": "Gratuité du stationnement et des services signalée par des annuaires, mais non confirmée par une source municipale publiée ; tarif à confirmer.",
     "status": "Aire communale : 2 places, stationnement limité à 24 h selon Camping-car.com ; services gratuits signalés en 2026",
     "source": "https://www.camping-car.com/aires/15286-aire-communale/",
     "gpsSource": "https://www.camping-car.com/aires/15286-aire-communale/",
     "verificationNote": "Aire communale rue Lucien Vignel : i-campingcar et Le Campeur indiquent eau et stationnement gratuits. Camping-car.com indique 2 places et 24 h maximum (données anciennes, tarif 2018). Le Campeur signale parking en pente et vidange cassette WC parfois interdite ; park4night classe l'endroit comme aire de services sans stationnement. Stationnement autorisé à vérifier sur place ; ne pas confondre avec le camping municipal Le Bois Feuillet (ouvert avril-septembre).",
-    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=MARTIGNE+FERCHAUD"
+    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=MARTIGNE+FERCHAUD",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Pas de tarif de l’aire camping-car publié sur le site municipal consulté."
   },
   {
     "department": "35",
@@ -902,13 +907,15 @@
       "Vidange WC",
       "Tri sélectif"
     ],
-    "price": "9,16 € / 24 h pour 2 adultes, dont 1,16 € de taxe de séjour, selon Qipeo ; électricité 4 € en supplément. Tarif susceptible de varier.",
-    "status": "Aire municipale ouverte toute l'année ; accès 24 h/24 par automate CB et QR code",
+    "price": "9,16 € / 24 h pour 2 adultes, dont 1,16 € de taxe de séjour, tarif affiché sur Qipeo ; électricité en option : 4 €. Vérifier le montant au moment de réserver.",
+    "status": "26 emplacements ; automate CB et QR code accessible 24 h/24. Borne de vidange et eau potable, électricité en option.",
     "source": "https://www.guipry-messac.fr/halte-camping-car/",
     "sourceOfficial": "https://www.guipry-messac.fr/halte-camping-car/",
     "gpsSource": "https://www.camping-car.com/aires/34575-aire-communale/",
-    "verificationNote": "Exploitant Qipeo consulté en octobre 2026 : 9,16 €/24 h pour deux adultes dont 1,16 € de taxe de séjour, électricité 4 € en supplément, 26 emplacements. Mairie : 26 places, paiement par CB, accès 24 h/24, vidange et eau ; règlement : stationnement limité à 30 jours. L'ancien tarif touristique de 8,30 € date de 2024, ne pas le présenter comme actuel.",
-    "priceSource": "https://www.qipeo.com/detail/6f738a75-5b48-4020-ad90-e96230e549d6"
+    "verificationNote": "La mairie confirme 26 emplacements, l’accès par automate CB/QR code 24 h/24 et les services d’eau/vidange ; l’électricité est en option. Tarif affiché par Qipeo : 9,16 €/24 h pour 2 adultes avec 1,16 € de taxe, plus 4 € d’électricité ; vérifier l’affichage lors de la réservation.",
+    "priceSource": "https://www.qipeo.com/detail/6f738a75-5b48-4020-ad90-e96230e549d6",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Tarif Qipeo conservé, mais non confirmé dans la page municipale ; consulter l’affichage Qipeo lors de la réservation."
   },
   {
     "department": "35",
@@ -925,14 +932,16 @@
       "Vidange des eaux usées",
       "WC publics"
     ],
-    "price": "Stationnement gratuit place du Champ de Foire selon la mairie ; tarif des services non publié",
-    "status": "Stationnement interdit le mardi matin (marché) selon Ille-et-Vilaine Tourisme",
+    "price": "Stationnement gratuit place du Champ de Foire ; tarif des services eau, électricité et vidange non publié.",
+    "status": "Stationnement camping-car sur le parking gratuit du Champ de Foire ; parking fermé le mardi matin pour le marché.",
     "source": "https://www.laguerchedebretagne.fr/stationnement-a-la-guerche-de-bretagne/",
     "sourceOfficial": "https://www.laguerchedebretagne.fr/stationnement-a-la-guerche-de-bretagne/",
     "gpsSource": "https://www.autoplus.fr/camping-car/bretagne-la-liste-des-aires-de-camping-cars-gratuites-1380504.html",
-    "verificationNote": "Mairie et Pays de Vitré : place du Champ de Foire, stationnement gratuit sauf mardi matin (marché), eau, électricité, vidange, WC publics à proximité. Auto Plus et annuaires indiquent environ 10 emplacements, capacité indicative non publiée par la mairie. Tarifs des bornes non confirmés ; ne pas présenter l'eau et l'électricité comme gratuites. La borne électrique est en face du garage Peugeot.",
+    "verificationNote": "La mairie confirme le stationnement gratuit place du Champ de Foire et la présence d’eau, d’électricité et de vidange. Le parking est fermé le mardi matin pour le marché ; tarif des services non publié.",
     "priceSource": "https://www.laguerchedebretagne.fr/stationnement-a-la-guerche-de-bretagne/",
-    "capacitySource": "https://www.autoplus.fr/camping-car/bretagne-la-liste-des-aires-de-camping-cars-gratuites-1380504.html"
+    "capacitySource": "https://www.autoplus.fr/camping-car/bretagne-la-liste-des-aires-de-camping-cars-gratuites-1380504.html",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "La mairie confirme la gratuité du parking ; aucun montant pour les services n’est publié."
   },
   {
     "department": "35",
@@ -949,14 +958,16 @@
       "Vidange WC",
       "Aire de pique-nique"
     ],
-    "price": "Stationnement et vidange gratuits ; eau 2 € selon guide Villages étapes 2026 ; électricité signalée payante par voyageurs, montant non confirmé",
+    "price": "Stationnement et vidange gratuits ; eau : 2 € selon le guide Villages étapes 2026. Tarif de l’électricité non confirmé.",
     "status": "Aire municipale accessible 24 h/24",
     "source": "https://www.grand-fougeray.fr/aire-de-camping-car/",
     "sourceOfficial": "https://www.grand-fougeray.fr/aire-de-camping-car/",
     "gpsSource": "https://www.cirkwi.com/fr/point-interet/4232358-aire-de-camping-cars-de-grand-fougeray",
     "capacitySource": "https://www.camping-car.com/aires/45276-aire-communale/",
-    "verificationNote": "Mairie et communauté de communes : rue Camille Jourdan, accès 24 h/24, eau potable, vidange, pique-nique ; communauté de communes indique aire gratuite. Guide Villages étapes 2026 : 5 places, stationnement et vidanges gratuits, eau 2 €. Témoignages juin 2026 : électricité payante sans montant confirmé et eau parfois indisponible. Vérifier le fonctionnement des bornes sur place.",
-    "priceSource": "https://village-etape.fr/wp-content/uploads/2026/03/2026_guide_ccar_A5_livret_l.pdf"
+    "verificationNote": "La mairie confirme l’adresse rue Camille Jourdan, l’accès 24 h/24, la vidange et l’eau potable. Le guide Villages étapes 2026 indique stationnement et vidange gratuits, eau 2 € ; aucun tarif officiel consulté pour l’électricité.",
+    "priceSource": "https://village-etape.fr/wp-content/uploads/2026/03/2026_guide_ccar_A5_livret_l.pdf",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Guide Villages étapes 2026 ; la mairie confirme l’aire et l’accès 24 h/24 mais ne publie pas de tarifs."
   },
   {
     "department": "35",
@@ -973,13 +984,16 @@
       "Vidange WC",
       "Aire de pique-nique"
     ],
-    "price": "Stationnement et eau gratuits selon la commune, jetons disponibles chez les commerçants",
+    "price": "Stationnement, services et remplissage d’eau gratuits ; jetons requis pour activer le remplissage, disponibles chez les commerçants partenaires.",
     "status": "Aire municipale accessible 24 h/24",
     "source": "https://www.intramuros.org/crevin/commerces/65824",
     "sourceOfficial": "https://www.intramuros.org/crevin/commerces/65824",
     "gpsSource": "https://park4night.com/fr/place/232091",
     "capacitySource": "https://www.intramuros.org/crevin/commerces/65824",
-    "verificationNote": "La commune annonce jusqu'à 6 camping-cars ; un annuaire en compte 5 emplacements réservés."
+    "verificationNote": "La commune confirme la gratuité de l’aire et de ses services, le remplissage d’eau gratuit au moyen de jetons disponibles chez les commerçants partenaires, et une capacité de 6 camping-cars.",
+    "priceSource": "https://www.intramuros.org/crevin/commerces/65824",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "La commune indique que l’aire et les services sont gratuits ; jetons requis pour le remplissage d’eau."
   },
   {
     "department": "35",
@@ -995,12 +1009,14 @@
       "Électricité",
       "Vidange des eaux usées"
     ],
-    "price": "2 € par jeton pour les services selon l'office de tourisme",
+    "price": "Services eau, électricité et vidange : 2 € par jeton selon Saint-Malo Tourisme ; tarif de nuitée non confirmé pour le camping.",
     "status": "Vidange annoncée accessible toute l'année ; camping saisonnier",
     "source": "https://www.saint-malo-tourisme.com/poser-ses-valises/ou-dormir/campings/aire-de-services-de-combourg-combourg-fr-3711949/",
     "sourceOfficial": "https://www.saint-malo-tourisme.com/poser-ses-valises/ou-dormir/campings/aire-de-services-de-combourg-combourg-fr-3711949/",
     "gpsSource": "https://www.camping-car.com/aires/28679-aire-communale/",
-    "verificationNote": "Borne à proximité du camping Le Vieux Châtel. Les 49 emplacements du camping ne sont pas la capacité de l'aire."
+    "verificationNote": "Saint-Malo Tourisme indique 2 € le jeton pour vidange, eau et électricité. L’aire de services est celle du camping du Vieux Châtel ; ses tarifs de nuitée et périodes d’ouverture ne sont pas ceux de la borne seule.",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Information de Saint-Malo Tourisme ; ne pas confondre avec les nuitées du camping saisonnier."
   },
   {
     "department": "35",
@@ -1016,12 +1032,14 @@
       "Électricité",
       "Vidange des eaux usées"
     ],
-    "price": "Services par jetons ; tarifs à confirmer",
+    "price": "Services par jetons ; montant actuel de la borne camping-car non publié dans la source officielle consultée, à confirmer auprès du camping.",
     "status": "Borne extérieure au camping ; camping ouvert toute l'année, achat des jetons à vérifier auprès de l'accueil",
     "source": "https://www.bretagneportedeloire.fr/aires-de-camping-car/",
     "sourceOfficial": "https://www.bretagneportedeloire.fr/actualites/redecouvrez-les-portes-de-la-bretagne-avec-notre-guide-touristique/",
     "gpsSource": "https://www.camping-car.com/aires/1698-camping-du-lac/",
-    "verificationNote": "Bretagne porte de Loire Communauté confirme une borne extérieure au camping du Lac, route de Launay, eau, électricité et vidange, jetons disponibles au camping. Le camping confirme être ouvert toute l'année et renvoie en basse saison vers le restaurant La Paillotte du Lac. Le PDF tarifaire 2025 concerne les nuitées au camping et non les jetons de la borne : ne pas le reprendre comme tarif de l'aire de services."
+    "verificationNote": "Le camping confirme une borne extérieure eau/électricité à jetons. Le tarif des jetons n’est pas publié dans les informations officielles accessibles ; tarif à confirmer auprès de l’accueil.",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Le camping confirme une borne extérieure fonctionnant par jetons ; le tarif des jetons n’est pas indiqué."
   },
   {
     "department": "35",
@@ -1038,16 +1056,18 @@
       "Poubelles",
       "Aire de pique-nique"
     ],
-    "price": "Tarif Qipeo non publié sur le site municipal ; un voyageur signale 3 € en juillet 2026, montant à vérifier sur la borne",
-    "status": "Borne camping-car accessible toute l'année selon la mairie ; camping municipal fermé pour toute l'année 2026",
+    "price": "Tarifs municipaux 2026 (à partir du 01/01/2026) : nuitée avec eau et traitement des eaux usées : 9 € TTC ; 10 min d’eau supplémentaire : 2 € ; électricité : 2 € / 2 h, 3 € / 3 h ou 4 € / 4 h maximum.",
+    "status": "Borne camping-car accessible toute l’année ; le camping municipal adjacent est fermé pour l’année 2026.",
     "sourceOfficial": "https://www.montauban-de-bretagne.fr/tarifs-municipaux-du-camping/",
-    "verificationNote": "Mairie : camping municipal fermé toute l'année 2026, mais borne de services rue de Dinan accessible toute l'année. Tourisme Saint-Méen Montauban : eau, électricité et vidanges. Un avis park4night du 25 juillet 2026 signale 3 € pour la borne Qipeo, sans détail des prestations ; fonctionnement parfois signalé défaillant. Ne pas confondre fermeture du camping et celle de la borne.",
+    "verificationNote": "La commune indique que la borne de la rue de Dinan reste accessible toute l’année malgré la fermeture du camping en 2026. Tarifs municipaux votés à compter du 01/01/2026 : 9 € TTC la nuitée avec eau et traitement des eaux usées, 2 € les 10 min d’eau supplémentaire, électricité 2/3/4 € pour 2/3/4 h maximum.",
     "source": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-services-de-montauban-de-bretagne-montauban-de-bretagne-fr-6180009/",
     "gpsSource": "https://park4night.com/fr/place/631162",
     "coordinateStatus": "Coordonnées GPS recoupées avec un répertoire spécialisé",
     "latitude": 48.2035,
     "longitude": -2.0469,
-    "priceSource": "https://park4night.com/fr/place/631162"
+    "priceSource": "https://politique.pappers.fr/commune/document/18c4d36578248b4c8ffb461ca9d318ed",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Tarifs votés par la commune pour application au 01/01/2026 ; borne accessible toute l’année, camping municipal fermé en 2026."
   },
   {
     "department": "35",
@@ -1063,15 +1083,18 @@
       "Poubelles",
       "Aire de pique-nique"
     ],
-    "price": "Stationnement et services gratuits",
+    "price": "Stationnement et services gratuits selon Destination Fougères ; un emplacement de stationnement et un second emplacement temporaire pour la vidange.",
     "status": "Une place de stationnement et un emplacement temporaire de vidange",
     "sourceOfficial": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/service-camping-car-dantrain-val-couesnon-fr-2727717/",
-    "verificationNote": "Une place principale de stationnement et un emplacement temporaire de vidange ; ne pas confondre avec Antran (86). Source office de tourisme mise à jour le 12/09/2026.",
+    "verificationNote": "Destination Fougères confirme la gratuité du stationnement et des services, avec une place de stationnement et un emplacement temporaire pour la vidange, à la sortie d’Antrain vers l’ancienne gare.",
     "source": "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/service-camping-car-dantrain-val-couesnon-fr-2727717/",
     "gpsSource": "https://www.cirkwi.com/fr/point-interet/4232361-service-camping-car-d-antrain",
     "coordinateStatus": "Coordonnées publiées par l'office de tourisme Couesnon Marches de Bretagne",
     "latitude": 48.4624384,
-    "longitude": -1.4794138
+    "longitude": -1.4794138,
+    "priceSource": "https://www.destination-fougeres.bzh/aire-camping-car/service-camping-car-dantrain/",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "L’office de tourisme confirme la gratuité du stationnement et des services."
   },
   {
     "department": "35",
