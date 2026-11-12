@@ -74,7 +74,7 @@
       "WC",
       "Aire de pique-nique"
     ],
-    "price": "Stationnement et services gratuits (source : Ille-et-Vilaine Tourisme)",
+    "price": "Stationnement et services gratuits",
     "status": "Ouverte toute l'année ; places non délimitées",
     "source": "https://www.openstreetmap.org/node/12185597881",
     "latitude": 47.9623084,
@@ -85,9 +85,9 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/12185597881",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
-    "priceSource": "https://www.i-campingcar.fr/dept.php?dpt=35",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif non vérifié auprès de la mairie.",
+    "priceSource": "https://www.bretagne-vitre.com/aires-de-camping-cars/aire-de-camping-cars-davailles-sur-seiche/",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Gratuité indiquée par l’office de tourisme de Vitré.",
     "address": "Rue du Moulin, 35130 Availles-sur-Seiche",
     "sourceOfficial": "https://www.bretagne-vitre.com/aires-de-camping-cars/aire-de-camping-cars-davailles-sur-seiche/",
     "verificationNote": "Vitré Tourisme confirme eau, électricité, vidange et WC, stationnement et services gratuits toute l'année. Parking stabilisé sans emplacements délimités : capacité non publiée, laisser inconnue."
@@ -149,8 +149,8 @@
     "city": "Cesson-Sévigné",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Stationnement gratuit, sans borne de services",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit ; pas de borne de services",
+    "status": "Aire de stationnement route de la Valette, 6 emplacements ; données confirmées par l’office de tourisme de Rennes.",
     "source": "https://www.openstreetmap.org/way/24770971",
     "latitude": 48.1181087,
     "longitude": -1.591353,
@@ -162,11 +162,12 @@
     "servicesSource": "https://www.openstreetmap.org/way/24770971",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des coordonnées géographiques.",
     "priceSource": "https://www.tourisme-rennes.com/infos-pratiques/camping-car-stationnement/",
-    "priceVerifiedOn": "2026-10-17",
+    "priceVerifiedOn": "2026-11-12",
     "priceNote": "Office de tourisme de Rennes.",
     "address": "Route de la Valette, 35510 Cesson-Sévigné",
     "capacity": 6,
-    "sourceOfficial": "https://www.tourisme-rennes.com/infos-pratiques/camping-car-stationnement/"
+    "sourceOfficial": "https://www.tourisme-rennes.com/infos-pratiques/camping-car-stationnement/",
+    "verificationNote": "L’office de tourisme de Rennes confirme le stationnement gratuit, 6 emplacements et l’absence de borne de services."
   },
   {
     "department": "35",
@@ -179,8 +180,8 @@
       "Vidange des eaux usées",
       "Vidange WC"
     ],
-    "price": "13 € / 24 h dont 1,30 € de taxe de séjour, tarif affiché en octobre 2026 ; 5 h avec services : 6 €",
-    "status": "Aire CAMPING-CAR PARK référencée par l'exploitant ; tarifs susceptibles d'évoluer",
+    "price": "Du 31/10 au 31/12/2026 : 13 € / 24 h (11,70 € + 1,30 € de taxe de séjour) ; parking 5 h avec services : 6 €. Tarif 2027 : 11 € / 24 h (9,70 € + 1,30 € de taxe).",
+    "status": "Ouverte selon CAMPING-CAR PARK ; 140 places.",
     "source": "https://www.openstreetmap.org/way/156889729",
     "latitude": 48.60913,
     "longitude": -1.818755,
@@ -192,8 +193,8 @@
     "servicesSource": "https://www.openstreetmap.org/way/156889729",
     "cityVerificationNote": "Commune de Hirel confirmée par l'exploitant CAMPING-CAR PARK.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/ille-et-vilaine/hirel?areaType=aire-etape-camping-car",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif 24 h officiel, du 23/09 au 31/12/2026.",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Tarifs saisonniers publiés par CAMPING-CAR PARK ; distinguer le tarif 2026 du tarif 2027.",
     "address": "94C rue du Bord de Mer, Ville-ès-Brune, 35120 Hirel",
     "capacity": 140,
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/ille-et-vilaine/hirel",
@@ -210,7 +211,7 @@
       "WC",
       "Aire de pique-nique"
     ],
-    "price": "Stationnement gratuit selon park4night et i-campingcar ; eau et vidange gratuites confirmées par la mairie",
+    "price": "Eau et vidanges gratuites (mairie) ; tarif de stationnement non précisé par la source municipale.",
     "status": "Aire communale confirmée par la mairie : 4 places derrière l'église",
     "source": "https://www.openstreetmap.org/way/429898926",
     "latitude": 48.4894659,
@@ -226,7 +227,9 @@
     "sourceOfficial": "https://melle.bzh/vie-pratique-services/aire-de-camping-car/",
     "capacitySource": "https://melle.bzh/vie-pratique-services/aire-de-camping-car/",
     "verificationNote": "Mairie de Mellé : 4 places derrière l'église, eau et vidange gratuites, tables de pique-nique et WC publics à proximité. Stationnement gratuit recoupé par park4night et i-campingcar, non explicitement tarifé sur le site municipal. Camping-car.com indique 48 h maximum (donnée de répertoire, à confirmer). Capacité officielle 4, malgré certains témoignages de 5 ou 6 places.",
-    "priceSource": "https://melle.bzh/vie-pratique-services/aire-de-camping-car/"
+    "priceSource": "https://melle.bzh/vie-pratique-services/aire-de-camping-car/",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "La mairie confirme la gratuité de l’eau et des vidanges, sans préciser le tarif du stationnement."
   },
   {
     "department": "35",
@@ -238,7 +241,7 @@
       "Électricité",
       "Vidange des eaux usées"
     ],
-    "price": "Stationnement gratuit ; borne eau (10 min) et électricité (1 h) : 2 € en pièces",
+    "price": "Borne : 2 € pour 10 min d’eau potable et 1 h d’électricité (mairie) ; tarif du stationnement non précisé.",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1010925240",
     "latitude": 48.5758598,
@@ -254,7 +257,10 @@
     "sourceOfficial": "https://www.le-minihic-sur-rance.fr/accueil/tourisme/sejourner-au-minihic/",
     "verificationNote": "Office de tourisme : 6 places, 24 h maximum ; mairie : borne eau et électricité à 2 € en pièces. Distinct du camping Le Rivage.",
     "capacity": 6,
-    "capacitySource": "https://www.dinardemeraudetourisme.com/fiche/aire-de-service-5V5243NE/"
+    "capacitySource": "https://www.dinardemeraudetourisme.com/fiche/aire-de-service-5V5243NE/",
+    "priceSource": "https://www.le-minihic-sur-rance.fr/accueil/tourisme/sejourner-au-minihic/",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Information de la mairie ; paiement de la borne uniquement en pièces."
   },
   {
     "department": "35",
@@ -270,7 +276,7 @@
       "Aire de pique-nique"
     ],
     "price": "13,16 € / nuit, taxe de séjour comprise (tarif affiché par la mairie ; susceptible d'évoluer)",
-    "status": "20 places, stationnement limité à 48 h ; ouvert toute l'année hors période de mise hors gel selon Ille-et-Vilaine Tourisme",
+    "status": "20 emplacements équipés, réservation en ligne, stationnement limité à 72 h ; tarif et modalités publiés par la mairie.",
     "source": "https://www.openstreetmap.org/way/1083025546",
     "latitude": 48.0015271,
     "longitude": -1.7731737,
@@ -285,7 +291,9 @@
     "capacity": 20,
     "sourceOfficial": "https://www.guichenpontrean.fr/nouvelle-aire-de-camping-car-a-pont-rean/",
     "verificationNote": "Source mairie : aire nouvelle accessible par le chemin des Mauvais-Payeurs, 20 emplacements de 7,5 × 9 m, électricité sur chaque place, eau potable, vidange, tri des déchets, accès payant par barrière ; tarif 13,16 € la nuit taxe de séjour incluse. Office de tourisme : 48 h maximum, ouverture toute l'année hors période de mise hors gel. Ancienne adresse Cale de Pont-Réan/rue de Redon remplacée ; GPS OSM conservé sans validation précise de l'entrée.",
-    "priceSource": "https://www.guichenpontrean.fr/nouvelle-aire-de-camping-car-a-pont-rean/"
+    "priceSource": "https://www.guichenpontrean.fr/nouvelle-aire-de-camping-car-a-pont-rean/",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Tarif municipal publié : 13,16 € la nuit, taxe de séjour comprise."
   },
   {
     "department": "35",
