@@ -267,7 +267,7 @@
     "department": "40",
     "name": "Camping-Car Park Roquefort",
     "city": "Roquefort",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
       "Stationnement (14 emplacements)",
       "Eau potable",
@@ -275,7 +275,7 @@
       "Wifi",
       "Vidange eaux usées"
     ],
-    "price": "14,52 € TTC / 24 h (dont 0,78 € taxe de séjour), tarif affiché en octobre 2026 ; variable.",
+    "price": "14,52 € TTC / 24 h au 12/11/2026 (13,74 € de tarif de base + 0,78 € de taxe de séjour). Tarif saisonnier publié du 13/10/2026 au 31/12/2027 ; parking 5 h + services : 6 €.",
     "status": "Aire de Roquefort, 78 allée de Nauton : 14 emplacements ; eau, électricité, wifi et vidange selon la commune. Tarif actuel selon exploitant.",
     "source": "https://www.openstreetmap.org/way/763187303",
     "latitude": 44.0475489,
@@ -283,11 +283,15 @@
     "gpsSource": "https://www.openstreetmap.org/way/763187303",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Contrôle fiche 11–20 effectué le 12/11/2026 ; informations non publiées ou divergentes laissées à confirmer.",
     "sourceId": "way/763187303",
     "servicesSource": "https://www.openstreetmap.org/way/763187303",
     "cityVerificationNote": "Commune indiquée dans le nom de l'aire ; emplacement et adresse à contrôler auprès d'une source directe.",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/roquefort?areaType=stopover-site-motorhome"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/roquefort?areaType=stopover-site-motorhome",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/roquefort",
+    "priceNote": "Le tableau saisonnier donne 13,74 € hors taxe et la taxe 2026 est de 0,78 € ; la bannière affiche le total TTC de 14,52 €.",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "priceVerifiedOn": "2026-11-12"
   },
   {
     "department": "40",
@@ -302,29 +306,33 @@
       "Vidange toilettes chimiques",
       "Wifi"
     ],
-    "price": "19,72 € / 24 h pour 2 adultes, dont 1,72 € de taxe de séjour (tarif affiché par l'exploitant Qipeo lors du contrôle du 19/10/2026 ; tarif susceptible de varier selon saison). Eau : 4 € / 10 min.",
-    "status": "Aire municipale Ondres-Océan, ouverte 24 h/24 toute l'année. Exploitant Qipeo : 79 emplacements annoncés, stationnement 19,72 € / 24 h pour deux adultes lors du contrôle du 19/10/2026, eau 4 € / 10 min. Réservation en ligne possible. Les anciennes grilles municipales 2024 ne sont pas à présenter comme prix actuels.",
+    "price": "19,72 € / 24 h pour 2 adultes, dont 1,72 € de taxe de séjour, tarif Qipeo constaté le 19/10/2026 ; eau : 4 € / 10 min. Tarif susceptible de varier selon la saison.",
+    "status": "Aire municipale Ondres-Océan, ouverte 24 h/24 toute l'année selon la commune. Capacité annoncée entre 70 et 80 places selon les sources. Réservation et grille tarifaire sur Qipeo ; eau, électricité, vidange et wifi annoncés.",
     "source": "https://www.openstreetmap.org/way/768113855",
     "latitude": 43.5756703,
     "longitude": -1.4831088,
     "gpsSource": "https://www.openstreetmap.org/way/768113855",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Contrôle fiche 11–20 effectué le 12/11/2026 ; informations non publiées ou divergentes laissées à confirmer.",
     "sourceId": "way/768113855",
     "servicesSource": "https://www.openstreetmap.org/way/768113855",
-    "sourceOfficial": "https://www.qipeo.com/detail/edd2ca32-5d9a-4292-8544-1762b003bf87"
+    "sourceOfficial": "https://www.qipeo.com/detail/edd2ca32-5d9a-4292-8544-1762b003bf87",
+    "priceSource": "https://www.qipeo.com/detail/edd2ca32-5d9a-4292-8544-1762b003bf87",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Le site municipal renvoie vers la plateforme Qipeo pour la réservation ; nombre de places divergent selon sources (environ 70, 79 ou 80). Tarif Qipeo à recontrôler avant déplacement.",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "40",
     "name": "Aire CAMPING-CAR PARK de Mimizan",
     "city": "Mimizan",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
       "Eau potable",
       "Électricité"
     ],
-    "price": "14,80 € / 24 h du 15/10 au 31/10/2026 ; 12,73 € / 24 h du 01/11/2026 au 31/12/2027 (taxe de séjour affichée : 0 € pour oct.-déc. 2026).",
+    "price": "Du 01/11/2026 au 31/12/2027 : 12,73 € / 24 h ; taxe de séjour affichée à 0 € du 01/10 au 31/12/2026. Parking 5 h + services : 6 €.",
     "status": "Aire CAMPING-CAR PARK de Mimizan-Plage, route des Plages Perdues ; 70 places selon l'exploitant ; tarif saisonnier.",
     "source": "https://www.openstreetmap.org/way/778604508",
     "latitude": 44.2155381,
@@ -332,10 +340,14 @@
     "gpsSource": "https://www.openstreetmap.org/way/778604508",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Contrôle fiche 11–20 effectué le 12/11/2026 ; informations non publiées ou divergentes laissées à confirmer.",
     "sourceId": "way/778604508",
     "servicesSource": "https://www.openstreetmap.org/way/778604508",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/mimizan"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/mimizan",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/mimizan",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "La tranche 14,80 € s'est terminée le 31/10/2026 ; au contrôle du 12/11/2026, la grille indique 12,73 € jusqu'au 31/12/2027.",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "40",
@@ -355,7 +367,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/895936366",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "À contrôler avant déplacement | Contrôle fiche 11–20 effectué le 12/11/2026 ; informations non publiées ou divergentes laissées à confirmer.",
     "sourceId": "way/895936366",
     "sourceOfficial": "https://www.lavalleedukiwi.com/sejourner/hebergement-de-plein-air/aire-de-camping-car-accamaqu040v5111mw/"
   },
@@ -378,10 +390,14 @@
     "gpsSource": "https://www.openstreetmap.org/way/895943853",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Contrôle fiche 11–20 effectué le 12/11/2026 ; informations non publiées ou divergentes laissées à confirmer.",
     "sourceId": "way/895943853",
     "servicesSource": "https://www.openstreetmap.org/way/895943853",
-    "sourceOfficial": "https://www.dax-tourisme.com/fiche/aire-de-campingcars-municipale/"
+    "sourceOfficial": "https://www.dax-tourisme.com/fiche/aire-de-campingcars-municipale/",
+    "priceSource": "https://www.dax-tourisme.com/fiche/aire-de-campingcars-municipale/",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Fiche officielle Dax Tourisme confirme 6 emplacements ; gratuité reprise de l'information touristique disponible, à confirmer auprès de la mairie pour les tarifs de services.",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "40",
@@ -404,9 +420,13 @@
     "gpsSource": "https://www.openstreetmap.org/way/896081041",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "À contrôler avant déplacement | Contrôle fiche 11–20 effectué le 12/11/2026 ; informations non publiées ou divergentes laissées à confirmer.",
     "sourceId": "way/896081041",
-    "sourceOfficial": "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-accamaqu0400000h/"
+    "sourceOfficial": "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-accamaqu0400000h/",
+    "priceSource": "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-accamaqu0400000h/",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "La fiche Landes Tourisme confirme 6 places et une borne de service ; elle ne publie pas le montant des services. Elle indique 72 h dans la description alors que le champ durée dit « illimitée ».",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "40",
@@ -419,17 +439,21 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "Stationnement gratuit ; service 3 € (1 h d'électricité et 10 min d'eau) selon Landes Tourisme.",
-    "status": "ZA de Piquette, chemin de Piquette, 5 emplacements, accès libre ; occupation supérieure à 7 jours considérée abusive. Fermeture temporaire annoncée du 3 au 11 juillet 2026, période révolue.",
+    "price": "Stationnement gratuit ; borne de service : 3 € pour 1 h d'électricité et 10 min d'eau (fiche Landes Tourisme).",
+    "status": "ZA de Piquette, chemin de Piquette ; 5 places, stationnement gratuit. Borne : 3 € pour 1 h d'électricité et 10 min d'eau. La fermeture temporaire du 03 au 11/07/2026 est passée ; la liste Landes Tourisme annonce une ouverture jusqu'au 29/11/2026.",
     "source": "https://www.openstreetmap.org/way/896086302",
     "latitude": 43.65393,
     "longitude": -0.5981104,
     "gpsSource": "https://www.openstreetmap.org/way/896086302",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "À contrôler avant déplacement | Contrôle fiche 11–20 effectué le 12/11/2026 ; informations non publiées ou divergentes laissées à confirmer.",
     "sourceId": "way/896086302",
-    "sourceOfficial": "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-accamaqu0400001o/"
+    "sourceOfficial": "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-accamaqu0400001o/",
+    "priceSource": "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-accamaqu0400001o/",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "La fermeture indiquée du 03 au 11/07/2026 est passée. Landes Tourisme affiche une ouverture jusqu'au 29/11/2026 lors du contrôle du 12/11/2026.",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "40",
@@ -452,22 +476,26 @@
     "gpsSource": "https://www.openstreetmap.org/way/898393467",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Contrôle fiche 11–20 effectué le 12/11/2026 ; informations non publiées ou divergentes laissées à confirmer.",
     "sourceId": "way/898393467",
     "servicesSource": "https://www.openstreetmap.org/way/898393467",
     "cityVerificationNote": "Commune indiquée dans le nom de l'aire ; emplacement et adresse à contrôler auprès d'une source directe.",
-    "sourceOfficial": "https://www.capbreton.fr/fileadmin/user_upload/user_upload/Tarif_de_la_commune_5_juillet.pdf"
+    "sourceOfficial": "https://www.capbreton.fr/fileadmin/user_upload/user_upload/Tarif_de_la_commune_5_juillet.pdf",
+    "priceSource": "https://www.openstreetmap.org/way/898393467",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Dernier barème municipal trouvé : délibération tarifaire applicable depuis le 05/07/2025. Pas de barème 2026 trouvé ; montants et tarif d'août à revalider auprès de la mairie.",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "40",
     "name": "Aire CAMPING-CAR PARK de Messanges",
     "city": "Messanges",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
       "Toilettes",
       "Électricité"
     ],
-    "price": "14,00 € / 24 h du 01/10 au 31/12/2026, hors taxe de séjour de 1,72 € / 24 h ; total indicatif 15,72 €.",
+    "price": "Du 01/10 au 31/12/2026 : 14,00 € / 24 h hors taxe + 1,72 € de taxe de séjour (15,72 € TTC). Du 01/01 au 31/12/2027 : 13,20 € / 24 h hors taxe selon la grille publiée. Parking 5 h + services : 6 €.",
     "status": "Aire CAMPING-CAR PARK avenue de la Plage (D82), 55 places ; eau, vidange et électricité mentionnées par l'exploitant.",
     "source": "https://www.openstreetmap.org/way/898422067",
     "latitude": 43.8168227,
@@ -475,10 +503,14 @@
     "gpsSource": "https://www.openstreetmap.org/way/898422067",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Contrôle fiche 11–20 effectué le 12/11/2026 ; informations non publiées ou divergentes laissées à confirmer.",
     "sourceId": "way/898422067",
     "servicesSource": "https://www.openstreetmap.org/way/898422067",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/messanges"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/messanges",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/messanges",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Grille saisonnière officielle : 14 € du 01/10 au 31/12/2026, taxe de séjour 1,72 € sur l'année 2026 ; tarif de base 2027 publié à 13,20 €.",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "40",
@@ -499,11 +531,15 @@
     "gpsSource": "https://www.openstreetmap.org/way/899157686",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Contrôle fiche 11–20 effectué le 12/11/2026 ; informations non publiées ou divergentes laissées à confirmer.",
     "sourceId": "way/899157686",
     "servicesSource": "https://www.openstreetmap.org/way/899157686",
     "cityVerificationNote": "Commune indiquée dans le nom de l'aire ; emplacement et adresse à contrôler auprès d'une source directe.",
-    "sourceOfficial": "https://www.tourisme-landesdarmagnac.fr/se-loger/campings/586735-aire-de-camping-cars-de-labastide-darmagnac"
+    "sourceOfficial": "https://www.tourisme-landesdarmagnac.fr/se-loger/campings/586735-aire-de-camping-cars-de-labastide-darmagnac",
+    "priceSource": "https://www.tourisme-landesdarmagnac.fr/se-loger/campings/586735-aire-de-camping-cars-de-labastide-darmagnac",
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Gratuité reprise de la brochure officielle 2025 ; fiche de l'office de tourisme mise à jour en 2026 mais ne fournit pas de tarif détaillé.",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "40",
