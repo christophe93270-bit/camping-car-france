@@ -847,9 +847,15 @@
     "name": "Aire de Camping-car de l'Alpe du Grand Serre",
     "city": "La Morte",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "2026 : 10 € / emplacement + taxe de séjour 0,55 € / adulte / jour",
-    "status": "Aire documentée par une source officielle ; certains tarifs ou services restent à confirmer",
+    "services": [
+      "Stationnement et bivouac",
+      "24 branchements électriques 6 A",
+      "Point d’eau potable",
+      "Bloc sanitaire avec douches, WC et éviers",
+      "Vidange non disponible"
+    ],
+    "price": "2026 : 10 € / emplacement + taxe de séjour 0,55 € / adulte / nuit",
+    "status": "Aire de bivouac ouverte toute l’année au centre de la station ; 10 € par emplacement en 2026, plus taxe de séjour. Eau, électricité et bloc sanitaire ; pas de borne de vidange.",
     "source": "https://www.openstreetmap.org/way/1549054019",
     "latitude": 45.028839,
     "longitude": 5.8573789,
@@ -860,9 +866,10 @@
     "sourceId": "way/1549054019",
     "cityVerificationNote": "Commune déduite du nom de l'aire et de sa localisation, à contrôler.",
     "priceSource": "https://www.alpes-isere.com/sit/aire-de-bivouac-camping-car-de-lalpe-du-grand-serre-119106/",
-    "priceVerifiedOn": "2026-10-17",
+    "priceVerifiedOn": "2026-11-12",
     "sourceOfficial": "https://www.alpes-isere.com/sit/aire-de-bivouac-camping-car-de-lalpe-du-grand-serre-119106/",
-    "verificationNote": "Route de la Mure, station de l'Alpe du Grand Serre. Ouvert toute l'année ; paiement sur place ou à la mairie de La Morte, espèces ou chèque ; réservation impossible. Tarifs confirmés pour toute l'année 2026 par Matheysine Tourisme (mise à jour 20/08/2026). Coordonnées tourisme 45.028732,5.857344."
+    "verificationNote": "Route de la Mure, station de l’Alpe du Grand Serre, La Morte. Fiche Matheysine Tourisme mise à jour le 14/10/2026 : ouverte toute l’année, emplacement 10 € en 2026, taxe de séjour 0,55 € par adulte et par jour, 24 branchements électriques 6 A, eau potable et bloc sanitaire ; pas de borne de vidange. Paiement sur place ou à la mairie de La Morte, pas de réservation. Coordonnées officielles 45.028732, 5.857344.",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "38",
@@ -874,8 +881,8 @@
       "Eau",
       "Vidange"
     ],
-    "price": "18/10/2026–31/12/2027 : 14,25 € / 24 h hors taxe de séjour ; taxe 2026 : 1,32 € / 24 h (total 15,57 € en 2026) ; services 5 h : 6 €",
-    "status": "Aire et tarifs publiés par l'exploitant ; vérifier avant départ",
+    "price": "À partir du 10/11/2026 et jusqu’au 31/12/2027 : 14,25 € / 24 h + taxe de séjour 1,32 € (total 15,57 € en 2026 et 2027) ; parking 5 h + services : 6 €",
+    "status": "Aire CAMPING-CAR PARK ouverte, 14 emplacements ; grille tarifaire publiée jusqu’au 31/12/2027.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/trept-les-3-lacs-du-soleil",
     "latitude": 45.68927,
     "longitude": 5.34925,
@@ -885,10 +892,12 @@
     "importReview": "Ajout manuel après contrôle des coordonnées et des doublons",
     "sourceId": "ccp/trept-les-3-lacs-du-soleil",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/trept-les-3-lacs-du-soleil",
-    "priceVerifiedOn": "2026-10-19",
+    "priceVerifiedOn": "2026-11-12",
     "address": "296 chemin du camping, 38460 Trept",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/trept-les-3-lacs-du-soleil",
-    "verificationNote": "CAMPING-CAR PARK, 296 chemin du Camping, 38460 Trept, 14 emplacements. La grille de l'exploitant indique 14,25 € hors taxe du 18/10/2026 au 31/12/2027 ; taxe de séjour 1,32 € applicable jusqu'au 31/12/2026. Montant 2027 à vérifier."
+    "verificationNote": "CAMPING-CAR PARK, 296 chemin du Camping, 38460 Trept ; 14 emplacements, GPS opérateur 45.68927, 5.34925. Grille saisonnière consultée le 12/11/2026 : 14,25 € hors taxe du 10/11/2026 au 31/12/2027 ; taxe de séjour publiée à 1,32 €/24 h jusqu’au 31/12/2027. Le total est de 15,57 € en 2026 comme en 2027. Forfait 5 h + services : 6 €.",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "priceNote": "L’exploitant affiche 14,25 € hors taxe du 10/11/2026 au 31/12/2027 et une taxe de séjour de 1,32 €/24 h sur les années 2026 et 2027. Le total indiqué est donc 15,57 €."
   },
   {
     "department": "38",
@@ -912,10 +921,12 @@
     "importReview": "Ajout manuel après contrôle des coordonnées et des doublons",
     "sourceId": "ccp/st-pierre-de-chartreuse-le-couzon",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/st-pierre-de-chartreuse-le-couzon",
-    "priceVerifiedOn": "2026-10-19",
+    "priceVerifiedOn": "2026-11-12",
     "address": "Plan de Ville, 38380 Saint-Pierre-de-Chartreuse",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/st-pierre-de-chartreuse-le-couzon",
-    "verificationNote": "Aire CAMPING-CAR PARK au Plan de Ville, 38380 Saint-Pierre-de-Chartreuse. Tarif 14,25 € hors taxe de séjour 0,50 € publié jusqu'au 31/12/2027. Distinct du parking gratuit historique de la Combe de l'Ours ; aucune fusion des deux sites."
+    "verificationNote": "Aire CAMPING-CAR PARK au Plan de Ville, 38380 Saint-Pierre-de-Chartreuse, 16 emplacements, GPS officiel 45.34329, 5.813124. La grille exploitant consultée le 12/11/2026 indique 14,25 € hors taxe du 30/10/2026 au 31/12/2027, taxe de séjour de 0,50 €/24 h jusqu’au 31/12/2027 ; total 14,75 €. Forfait 5 h + services : 6 €. Distinct du parking gratuit historique de la Combe de l’Ours.",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "priceNote": "La grille de l’exploitant affiche 14,25 € hors taxe jusqu’au 31/12/2027 et une taxe de séjour de 0,50 €/24 h sur la même période, soit 14,75 € au total."
   },
   {
     "department": "38",
@@ -923,9 +934,11 @@
     "city": "Chamrousse",
     "type": "Aire d'étape Camping-Car Park",
     "services": [
-      "Électricité",
+      "20 emplacements",
+      "Électricité 6 A",
       "Eau",
-      "Vidange"
+      "Vidange",
+      "Sanitaires saisonniers (ouverts du 28/10/2026 au 30/12/2027)"
     ],
     "price": "16/10–30/11/2026 : 10,68 € / 24 h + 1,32 € de taxe (total 12 €) ; décembre 2026 : 18,68 € + 1,32 € (total 20 €) ; 2027 : 18,68 € hors taxe, taxe 2027 à confirmer ; services 5 h : 6 €",
     "status": "Aire et tarifs publiés par l'exploitant ; vérifier avant départ",
@@ -938,10 +951,12 @@
     "importReview": "Ajout manuel après contrôle des coordonnées et des doublons",
     "sourceId": "ccp/chamrousse",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/chamrousse",
-    "priceVerifiedOn": "2026-10-19",
+    "priceVerifiedOn": "2026-11-12",
     "address": "1 place des Niverolles, 38410 Chamrousse",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/chamrousse",
-    "verificationNote": "CAMPING-CAR PARK, 1 place des Niverolles, 38410 Chamrousse, 20 emplacements, branchements 6 A. Les montants saisonniers publiés sont hors taxe, sauf l'encart 'en ce moment' ; taxe 1,32 € publiée jusqu'au 31/12/2026 seulement."
+    "verificationNote": "CAMPING-CAR PARK, 1 place des Niverolles, 38410 Chamrousse, 20 emplacements, branchements 6 A. Grille consultée le 12/11/2026 : 10,68 € hors taxe du 02/11 au 30/11/2026 ; 18,68 € hors taxe en décembre 2026 et toute l’année 2027. Taxe de séjour de 1,32 € publiée jusqu’au 31/12/2026 seulement ; total 2027 à confirmer. Forfait 5 h + services : 6 €. Sanitaires annoncés ouverts du 28/10/2026 au 30/12/2027.",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "priceNote": "16/10–30/11/2026 : 10,68 € hors taxe + taxe 1,32 € (total 12 €). Du 01/12/2026 au 31/12/2027 : 18,68 € hors taxe ; la taxe 2027 n’est pas publiée dans la fiche."
   },
   {
     "department": "38",
@@ -955,7 +970,7 @@
       "Stationnement temporaire pour utiliser la borne ou visiter le musée"
     ],
     "price": "Gratuit toute l'année (tarif 2026 de l'office de tourisme)",
-    "status": "Aire de services confirmée par l'office de tourisme ; stationnement temporaire uniquement, pas une aire de nuitée",
+    "status": "Aire de services gratuite en 2026, sans nuitée : stationnement temporaire pour utiliser la borne ou visiter le musée. Eau potable indisponible en période hivernale.",
     "source": "https://www.alpes-isere.com/sit/aire-de-service-camping-cars-du-musee-du-tisserand-94214/",
     "latitude": 45.578556,
     "longitude": 5.52869,
@@ -967,8 +982,9 @@
     "address": "76 rue des Tisserands, 38110 La Bâtie-Montgascon",
     "sourceOfficial": "https://www.alpes-isere.com/sit/aire-de-service-camping-cars-du-musee-du-tisserand-94214/",
     "priceSource": "https://www.alpes-isere.com/sit/aire-de-service-camping-cars-du-musee-du-tisserand-94214/",
-    "priceVerifiedOn": "2026-10-19",
-    "verificationNote": "Fiche officielle actualisée le 20/01/2026. Parking du musée réservé aux arrêts temporaires pour utiliser la borne ou visiter le musée, distinct du parking nocturne du cimetière (45.578814,5.53123). Eau coupée en hiver. Ne pas présenter comme aire de nuitée."
+    "priceVerifiedOn": "2026-11-12",
+    "verificationNote": "Parking du Musée du Tisserand, 76 rue des Tisserands, 38110 La Bâtie-Montgascon. Fiche officielle des Vals du Dauphiné mise à jour le 20/01/2026 : arrêt temporaire uniquement pour utiliser la borne ou visiter le musée, gratuit du 01/01 au 31/12/2026. Eau potable coupée en hiver ; vidanges eaux grises et cassette disponibles. Distinct du parking nocturne du cimetière et du stade Renodel. Coordonnées officielles 45.578556, 5.52869.",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   },
   {
     "department": "38",
@@ -979,8 +995,8 @@
       "Stationnement nocturne autorisé",
       "Aucun service d'eau, d'électricité ou de vidange sur le parking"
     ],
-    "price": "Gratuit selon l'office de tourisme des Vals du Dauphiné",
-    "status": "Stationnement de nuit confirmé par l'office de tourisme ; capacité annoncée 6 places environ (10 selon Park4night), à vérifier sur place",
+    "price": "Stationnement nocturne gratuit toute l’année ; environ 6 véhicules selon l’office de tourisme",
+    "status": "Parking du stade Renodel avec stationnement nocturne gratuit confirmé par l’Office de tourisme pour environ 6 camping-cars. Aucun service d’eau, d’électricité ou de vidange annoncé.",
     "source": "https://park4night.com/fr/place/58087",
     "latitude": 45.5698,
     "longitude": 5.5363,
@@ -992,7 +1008,8 @@
     "address": "240 chemin de Renodel, 38110 La Bâtie-Montgascon",
     "sourceOfficial": "https://tourisme-valsdudauphine.fr/on-a-teste-pour-vous-en-isere/venez-decouvrir-les-vals-de-dauphine-en-camping-cars/",
     "priceSource": "https://tourisme-valsdudauphine.fr/on-a-teste-pour-vous-en-isere/venez-decouvrir-les-vals-de-dauphine-en-camping-cars/",
-    "priceVerifiedOn": "2026-10-19",
-    "verificationNote": "L'office de tourisme confirme le stationnement nocturne gratuit pour environ 6 véhicules au stade Renodel. Park4night #58087 géolocalise le parking au 240 chemin de Renodel, 45.5698,5.5363, et indique 10 places sans services : divergence de capacité à résoudre. Point distinct du parking du cimetière et de la borne du Musée du Tisserand."
+    "priceVerifiedOn": "2026-11-12",
+    "verificationNote": "240 chemin de Renodel, 38110 La Bâtie-Montgascon. L’Office de tourisme des Vals du Dauphiné confirme le stationnement nocturne gratuit toute l’année pour environ 6 véhicules au stade Renodel. Park4night #58087 annonce 10 places, sans services : capacité contradictoire, privilégier la capacité officielle d’environ 6 et vérifier sur place. Point distinct du parking du cimetière et de l’aire de services du Musée du Tisserand.",
+    "sourceOfficialVerifiedOn": "2026-11-12"
   }
 ]
