@@ -293,13 +293,16 @@
   {
     "department": "36",
     "name": "Aire de Camping-Car Étang Duris",
-    "city": "Neuillay-les-Bois",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Luant",
+    "type": "Borne de services pour camping-cars",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Vidange WC"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Jeton de service : 2 € (Berry Province 2026)",
+    "status": "Borne ouverte du 1er avril au 30 septembre 2026 ; fermée à la date de vérification (12 novembre 2026). Calendrier 2027 non publié",
     "source": "https://www.openstreetmap.org/way/907658652",
     "latitude": 46.7226275,
     "longitude": 1.5722861,
@@ -310,22 +313,24 @@
     "sourceId": "way/907658652",
     "servicesSource": "https://www.openstreetmap.org/way/907658652",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
-    "verificationNote": "Fiche OSM non corroborée par une source officielle lors de ce contrôle. Coordonnées distinctes de l'aire communale de Neuillay-les-Bois : ne pas fusionner ni transférer les tarifs et services de celle-ci. Commune, accès et existence d'une aire autonome à confirmer."
+    "verificationNote": "La source officielle situe l’étang Duris à Luant, non à Neuillay-les-Bois, et confirme une borne Euro-Relais près du plan d’eau, eau, électricité, vidange des eaux usées et WC chimiques. Jeton à 2 €, à acheter chez les commerçants ou en mairie. Ouverture saisonnière du 1er avril au 30 septembre 2026. Ne pas confondre avec l’aire communale distincte de Neuillay-les-Bois.",
+    "address": "Étang Duris, 36350 Luant",
+    "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/borne-camping-cars-a-letang-duris/",
+    "priceSource": "https://www.berryprovince.com/aires-camping-cars/borne-camping-cars-a-letang-duris/"
   },
   {
     "department": "36",
     "name": "Aire du Champ Perrot — Étang de la Roche",
     "city": "La Pérouille",
-    "type": "Stationnement camping-car avec borne de vidange",
+    "type": "Borne de services camping-car (vidanges seulement ; stationnement à confirmer)",
     "services": [
       "Vidange des eaux usées",
       "Vidange WC",
       "Toilettes publiques",
-      "Aire de pique-nique",
-      "Stationnement de nuit"
+      "Aire de pique-nique"
     ],
-    "price": "Stationnement gratuit ; vidange gratuite selon Berry Province (2026). Eau et électricité de la borne signalées hors service par voyageurs.",
-    "status": "Borne de vidange officiellement ouverte du 1er avril au 31 octobre 2026 ; stationnement signalé temporairement fermé par annuaire, vérifier avant déplacement",
+    "price": "Vidange gratuite ; la fiche officielle ne confirme pas de tarif ni d’autorisation de stationnement",
+    "status": "Borne saisonnière : ouverte du 1er avril au 31 octobre 2026 ; fermée à la date de vérification (12 novembre 2026). Calendrier 2027 non publié",
     "source": "https://www.openstreetmap.org/way/907665618",
     "latitude": 46.7057263,
     "longitude": 1.522723,
@@ -338,7 +343,7 @@
     "address": "Le Champ Perrot, étang de la Roche, 36350 La Pérouille",
     "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/borne-de-camping-car-de-la-perouille/",
     "priceSource": "https://www.berryprovince.com/aires-camping-cars/borne-de-camping-car-de-la-perouille/",
-    "verificationNote": "Berry Province confirme uniquement vidanges gratuites (eaux usées et WC chimiques), 1 borne et non une place. Témoignage park4night septembre 2026 : borne eau/vidange hors service ; l'électricité semblerait fonctionner mais non confirmée. Le stationnement gratuit est rapporté par i-campingcar, mais l'annuaire Le Campeur signale fermeture temporaire. Vérifier accès et services avant déplacement.",
+    "verificationNote": "Berry Province décrit une borne Euro-Relais pour vidanges uniquement près de l’étang de la Roche : vidanges eaux usées et toilettes chimiques gratuites, toilettes et tables accessibles à proximité. La fiche ne confirme pas d’eau, d’électricité ni de stationnement nocturne pour camping-cars. Un annuaire signale une fermeture temporaire ; disponibilité de la borne à vérifier avant déplacement.",
     "relatedSource": "https://park4night.com/fr/place/3751"
   },
   {
@@ -348,7 +353,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Point OpenStreetMap près de la salle des fêtes ; stationnement camping-car indépendant non confirmé. À distinguer de l’aire CCP de Vatan, officiellement ouverte au 12 rue du Collège.",
     "source": "https://www.openstreetmap.org/way/907668462",
     "latitude": 47.0732183,
     "longitude": 1.8044959,
@@ -358,7 +363,7 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/907668462",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
-    "verificationNote": "Emplacement OSM à proximité de la salle des fêtes, GPS 47.0732183,1.8044959. À ne pas confondre avec l'aire Camping-Car Park du 12 rue du Collège (GPS 47.07107,1.805496), qui propose 48 places et un tarif de 12,73 € hors taxe de séjour à partir du 16/10/2026. Le stationnement camping-car sur l'emplacement de la salle des fêtes n'est pas confirmé par la commune.",
+    "verificationNote": "L’emplacement OSM (47.0732183, 1.8044959) est à proximité de la salle des fêtes, mais aucune source municipale ou touristique ne confirme un accueil camping-car à cet endroit. L’aire Camping-Car Park de Vatan est un site distinct au 12 rue du Collège ; elle est ouverte et ne doit pas être confondue avec ce point. Ne pas compter cette entrée OSM comme une aire CCP supplémentaire.",
     "relatedSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre/vatan"
   },
   {
@@ -372,7 +377,7 @@
       "Stationnement de nuit"
     ],
     "price": "Stationnement gratuit ; forfait eau et vidange 2 € (tarifs touristiques 2026)",
-    "status": "Ouverte 24 h/24 toute l'année en 2026",
+    "status": "Accessible 24 h/24 toute l’année selon Berry Province ; horaires détaillés publiés pour 2026, calendrier 2027 non publié",
     "source": "https://www.openstreetmap.org/way/1155117295",
     "latitude": 46.4740194,
     "longitude": 1.6826637,
@@ -382,24 +387,29 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1155117295",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
-    "priceSource": "https://www.pays-george-sand.com/wp-content/uploads/2026/03/Aires-et-bornes-pour-camping-cars_2026.pdf",
-    "priceVerifiedOn": "2026-10-17",
+    "priceSource": "https://www.berryprovince.com/aires-camping-cars/aire-de-service-et-aire-de-stationnement-pour-camping-cars-2/",
+    "priceVerifiedOn": "2026-11-12",
     "priceNote": "Guide touristique 2026, aire du Pré du Jardin à Orsennes.",
     "address": "Pré du Jardin, 36190 Orsennes",
     "capacity": 8,
     "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/aire-de-service-et-aire-de-stationnement-pour-camping-cars-2/",
-    "verificationNote": "Berry Province confirme 8 places, parking gratuit, eau et vidange à 2 €, ouvert toute l'année. Électricité non mentionnée par l'office, ne pas annoncer."
+    "verificationNote": "Berry Province confirme huit emplacements, parking gratuit, eau et vidange à 2 €, stationnement de nuit et accès toute l’année. Aucun branchement électrique n’est indiqué ; ne pas en annoncer."
   },
   {
     "department": "36",
     "name": "Aire Camping car de Martizay",
     "city": "Martizay",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de camping-cars avec borne de services",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Vidange WC",
+      "Sanitaires",
+      "Stationnement de nuit"
     ],
-    "price": "Gratuit : stationnement et aire de services.",
-    "status": "Ouverture saisonnière indiquée du 1er avril au 31 octobre 2026 par Berry Province ; équipements et accès à vérifier avant déplacement",
+    "price": "Stationnement et services gratuits selon Berry Province (2026)",
+    "status": "Aire ouverte du 1er avril au 31 octobre 2026 ; fermée à la date de vérification (12 novembre 2026). Calendrier 2027 non publié",
     "source": "https://www.openstreetmap.org/way/1281269006",
     "latitude": 46.8056838,
     "longitude": 1.0377266,
@@ -415,7 +425,7 @@
     "priceNote": "Aire rue de la Cornillère ; ouverture indiquée du 1er avril au 31 octobre 2026.",
     "address": "Rue de la Cornillère, 36220 Martizay",
     "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/borne-camping-car-de-martizay/",
-    "verificationNote": "Source touristique Berry Province déjà référencée pour la gratuité du stationnement et des services, et pour la période du 1er avril au 31 octobre 2026. Le détail des équipements (notamment l'électricité déclarée dans OpenStreetMap) n'a pas été revérifié indépendamment."
+    "verificationNote": "Berry Province confirme cinq emplacements camping-car en bord de Claise, eau, électricité, vidanges, sanitaires et stationnement nocturne ; stationnement et services gratuits. La fiche précise une ouverture du 1er avril au 31 octobre 2026, et non toute l’année. Le calendrier 2027 n’est pas publié."
   },
   {
     "department": "36",
@@ -431,7 +441,7 @@
       "Stationnement de nuit"
     ],
     "price": "10 € / 24 h par jeton, comprenant électricité, eau et vidanges (Berry Province 2026)",
-    "status": "Ouverte 24 h/24 toute l'année en 2026 ; jetons vendus en mairie",
+    "status": "Ouverte 24 h/24 selon Berry Province, horaires publiés du 1er janvier au 31 décembre 2026 ; jetons en vente en mairie. Calendrier 2027 non publié",
     "source": "https://www.openstreetmap.org/way/1285146055",
     "latitude": 46.5613344,
     "longitude": 1.0746016,
@@ -445,7 +455,7 @@
     "address": "1 rue du Point du Jour, 36370 Saint-Hilaire-sur-Benaize",
     "capacity": 3,
     "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/aire-daccueil-de-camping-car/",
-    "verificationNote": "Office Berry Province : 3 emplacements, jeton 24 h à 10 € incluant eau, électricité, vidanges, achat en mairie. Paiement espèces indiqué."
+    "verificationNote": "Berry Province confirme trois emplacements, accès toute l’année en 2026 et jeton de 24 h à 10 € comprenant eau, électricité et vidanges eaux grises/noires. Paiement en espèces ; jetons vendus en mairie. Calendrier 2027 non publié."
   },
   {
     "department": "36",
@@ -459,8 +469,8 @@
       "Poubelles",
       "Sanitaires à l'office de tourisme"
     ],
-    "price": "Stationnement gratuit selon Berry Province 2026 ; coût des vidanges non précisé",
-    "status": "Ouvert 24 h/24 toute l'année ; durée de stationnement non limitée selon l'office de tourisme",
+    "price": "Emplacement de stationnement gratuit selon Berry Province ; coût éventuel des vidanges non précisé",
+    "status": "Parking partagé accessible 24 h/24 du 1er janvier au 31 décembre 2026 ; durée de stationnement non limitée. Calendrier 2027 non publié",
     "source": "https://www.openstreetmap.org/way/1286449672",
     "latitude": 47.1602268,
     "longitude": 1.5624573,
@@ -477,7 +487,7 @@
     "address": "2 avenue de la Résistance, parking derrière l'office de tourisme, 36600 Valençay",
     "capacity": 16,
     "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/borne-pour-les-camping-cars/",
-    "verificationNote": "Parking partagé avec d'autres véhicules, capacité totale annoncée de 16 places ; le descriptif précise environ 15 camping-cars possibles, pas 16 emplacements dédiés. Accès D956 derrière l'office de tourisme ; vidanges eaux usées et WC chimiques, sanitaires dans l'office aux heures d'ouverture. Aucun branchement électrique confirmé."
+    "verificationNote": "Berry Province confirme le parking partagé derrière l’Office de tourisme, environ 15 camping-cars possibles, sans limite de durée, stationnement gratuit, vidanges eaux usées et WC chimiques, sanitaires dans l’Office aux heures d’ouverture. Les 16 places correspondent à la capacité totale du parking, pas à des emplacements réservés aux camping-cars. Aucun branchement électrique ni tarif de vidange confirmé."
   },
   {
     "department": "36",
@@ -491,7 +501,7 @@
       "Stationnement de nuit"
     ],
     "price": "Gratuit selon Berry Province 2026",
-    "status": "Ouverte 24 h/24 toute l'année en 2026",
+    "status": "Ouverte 24 h/24 du 1er janvier au 31 décembre 2026 selon Berry Province ; calendrier 2027 non publié",
     "source": "https://www.openstreetmap.org/way/1286851280",
     "latitude": 46.8521922,
     "longitude": 1.0735421,
@@ -505,21 +515,21 @@
     "address": "Rue Hersent-Luzarche, salle des fêtes, 36290 Azay-le-Ferron",
     "sourceOfficial": "https://www.berryprovince.com/aires-camping-cars/aire-de-camping-car-dazay-le-ferron/",
     "priceSource": "https://www.berryprovince.com/aires-camping-cars/aire-de-camping-car-dazay-le-ferron/",
-    "verificationNote": "Office de tourisme annonce 7 places ; mairie indique 6 véhicules près de la salle des fêtes. Capacité non renseignée en raison de cette divergence. Aire de vidange à proximité immédiate. Électricité non confirmée par la fiche officielle, retirée des services."
+    "verificationNote": "Berry Province confirme une aire gratuite, ouverte toute l’année en 2026, avec stationnement de nuit, eau et vidanges eaux usées/WC chimiques. L’office annonce 7 places, tandis que la mairie en annonce 6 près de la salle des fêtes : capacité laissée non renseignée. Aucun branchement électrique confirmé."
   },
   {
     "department": "36",
     "name": "Aire de services de l'ancien stade d'Ardentes",
     "city": "Ardentes",
-    "type": "Aire de services et stationnement",
+    "type": "Borne de services et aire d’accueil camping-car",
     "services": [
       "Eau potable",
       "Électricité",
       "Vidange des eaux usées",
       "Stationnement de nuit"
     ],
-    "price": "Eau et vidange : 3 € / 10 min ; électricité : 3 € / 4 h ; stationnement non tarifé dans la source",
-    "status": "Ouverte 24 h/24 toute l'année en 2026",
+    "price": "Eau et vidange : 3 € pour 10 min ; électricité : 3 € le jeton pour 4 h ; prix du stationnement non indiqué",
+    "status": "Borne située à l’ancien stade, accès annoncé toute l’année 2026 selon Berry Province ; horaires 2027 non publiés",
     "source": "https://www.openstreetmap.org/way/1431825800",
     "latitude": 46.7468846,
     "longitude": 1.828541,
@@ -533,8 +543,8 @@
     "address": "Ancien stade, avenue de Verdun (RD943), 36120 Ardentes",
     "capacity": 5,
     "sourceOfficial": "https://www.mairie-ardentes.com/page/aire-de-service-pour-camping-cars",
-    "priceSource": "https://www.berryprovince.com/aires-camping-cars/aire-daccueil-pour-camping-cars/",
-    "verificationNote": "Mairie et Berry Province concordent sur tarifs et emplacement à l'ancien stade : 5 places selon office de tourisme. L'électricité est fournie par borne de service ; pas de preuve de branchement individuel pour les cinq emplacements."
+    "priceSource": "https://www.mairie-ardentes.com/page/aire-de-service-pour-camping-cars",
+    "verificationNote": "La mairie confirme la borne à l’ancien stade, avenue de Verdun : vidange et distribution d’eau 3 € pour 10 minutes, électricité 3 € par jeton pour 4 heures. Berry Province annonce un accès toute l’année 2026 et cinq places pour l’aire d’accueil. Le tarif de stationnement n’est pas publié."
   },
   {
     "department": "36",
