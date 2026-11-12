@@ -666,25 +666,31 @@
   },
   {
     "department": "40",
-    "name": "Aire de camping-cars de Castets",
+    "name": "Aire CAMPING-CAR PARK de Castets",
     "city": "Castets",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
-      "Électricité"
+      "Stationnement (22 emplacements)",
+      "Électricité 6 A"
     ],
-    "price": "13,50 € / 24 h hors taxe de séjour (période 13/09–31/10/2026) ; taxe de séjour et tarif final à vérifier.",
-    "status": "Tarif daté consulté sur la fiche individuelle de l'exploitant CAMPING-CAR PARK ; vérifier le total et la disponibilité avant séjour.",
-    "source": "https://www.openstreetmap.org/way/1232720720",
+    "price": "12,00 € / 24 h hors taxe du 01/11/2026 au 31/12/2027 ; page de l'exploitant affiche 13,72 € TTC au 12/11/2026, dont 1,72 € de taxe de séjour. Parking 5 h + services : 6 €.",
+    "status": "Aire d'étape ouverte ; 22 emplacements, électricité 6 A. Tarif et taxe saisonniers à vérifier sur l'affichage de l'exploitant.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/castets",
     "latitude": 43.8750788,
     "longitude": -1.136063,
     "gpsSource": "https://www.openstreetmap.org/way/1232720720",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
-    "sourceId": "way/1232720720",
-    "servicesSource": "https://www.openstreetmap.org/way/1232720720",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | Contrôle 12/11/2026 : confirmé comme aire d'étape CAMPING-CAR PARK, impasse du Chalet, 22 places ; tarifs saisonniers rapprochés et divergence documentée.",
+    "sourceId": "ccp/castets",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/castets",
     "cityVerificationNote": "Commune indiquée dans le nom de l'aire ; emplacement et adresse à contrôler auprès d'une source directe.",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/castets?areaType=aire-etape-camping-car"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/castets",
+    "address": "Impasse du Chalet, 40260 Castets",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/castets",
+    "priceVerifiedOn": "2026-11-12",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "priceNote": "La fiche CCP affichait plusieurs tarifs au fil des consultations : la grille saisonnière donne 12 € hors taxe tandis qu'une page officielle plus récente affiche 13,72 € TTC (taxe 1,72 €)."
   },
   {
     "department": "40",
@@ -818,5 +824,121 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1363124914",
     "sourceOfficial": "https://www.ville-sanguinet.fr/se-divertir/tourisme/accueil-des-camping-cars"
+  },
+  {
+    "department": "40",
+    "name": "Aire CAMPING-CAR PARK de Biscarrosse",
+    "city": "Biscarrosse",
+    "address": "Rue du Tit, 40600 Biscarrosse",
+    "type": "Aire d'étape CAMPING-CAR PARK",
+    "services": [
+      "Stationnement (155 emplacements)",
+      "Électricité 6 A"
+    ],
+    "price": "À partir du 12/11/2026 : 14,20 € / 24 h hors taxe + 1,60 € de taxe de séjour (15,80 € TTC). Parking 5 h + services : 6 €.",
+    "status": "Aire d'étape ouverte toute l'année selon l'exploitant ; 155 emplacements et électricité 6 A. Sanitaires annoncés ouverts du 01/01 au 31/12/2026. Réchauds, cigarettes et barbecues interdits ; régulation électrique en place.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/biscarrosse",
+    "latitude": 44.45885,
+    "longitude": -1.245265,
+    "sourceId": "ccp/biscarrosse",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/biscarrosse",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/biscarrosse",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/biscarrosse",
+    "priceVerifiedOn": "2026-11-12",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "importReview": "Fiche ajoutée après comparaison du fichier départemental avec l'annuaire officiel CAMPING-CAR PARK : aire absente du fichier initial. Tarif saisonnier et taxe de séjour contrôlés le 12/11/2026."
+  },
+  {
+    "department": "40",
+    "name": "Aire CAMPING-CAR PARK de Seignosse",
+    "city": "Seignosse",
+    "address": "Route départementale 79, 40510 Seignosse",
+    "type": "Aire d'étape CAMPING-CAR PARK",
+    "services": [
+      "Stationnement (110 emplacements)",
+      "Électricité 6 A"
+    ],
+    "price": "12,73 € / 24 h hors taxe ; avec la taxe de séjour 2026 de 1,72 €, total courant 14,45 € / 24 h. Parking 5 h + services : 6 €.",
+    "status": "Aire d'étape ouverte ; 110 emplacements, électricité 6 A. Sanitaires annoncés ouverts toute l'année 2026.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/seignosse",
+    "latitude": 43.6911,
+    "longitude": -1.4254,
+    "sourceId": "ccp/seignosse",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/seignosse",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/seignosse",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/seignosse",
+    "priceVerifiedOn": "2026-11-12",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "importReview": "Fiche ajoutée après comparaison du fichier départemental avec l'annuaire officiel CAMPING-CAR PARK. Grille saisonnière et taxe de séjour vérifiées le 12/11/2026."
+  },
+  {
+    "department": "40",
+    "name": "Aire CAMPING-CAR PARK d'Amou",
+    "city": "Amou",
+    "address": "Avenue de la Digue, 40330 Amou",
+    "type": "Aire d'étape CAMPING-CAR PARK",
+    "services": [
+      "Stationnement (25 emplacements)",
+      "Électricité 6 A"
+    ],
+    "price": "11,20 € / 24 h hors taxe + 0,78 € de taxe de séjour (11,98 € TTC affichés). Tarif saisonnier annoncé du 02/11/2026 au 31/12/2027 ; parking 5 h + services : 6 €.",
+    "status": "Aire d'étape ouverte ; 25 emplacements et électricité 6 A. Le site signale un risque d'inondation (PPRI) et un parking partagé avec les riverains.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/amou",
+    "latitude": 43.5883,
+    "longitude": -0.74246,
+    "sourceId": "ccp/amou",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/amou",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/amou",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/amou",
+    "priceVerifiedOn": "2026-11-12",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "importReview": "Fiche ajoutée après comparaison du fichier départemental avec l'annuaire officiel CAMPING-CAR PARK. Tarif saisonnier et taxe de séjour contrôlés le 12/11/2026."
+  },
+  {
+    "department": "40",
+    "name": "Camping-Car Park de Grenade-sur-l'Adour",
+    "city": "Grenade-sur-l'Adour",
+    "address": "5 rue Pierre de Coubertin, 40270 Grenade-sur-l'Adour",
+    "type": "Camping de mon village CAMPING-CAR PARK",
+    "services": [
+      "Stationnement (47 emplacements)",
+      "Électricité 6 A"
+    ],
+    "price": "La grille saisonnière annonce 12,20 € / 24 h hors taxe du 15/10 au 31/12/2026, plus 0,58 € de taxe (12,78 € TTC calculés) ; la bannière affiche 15,78 € TTC. Écart à vérifier auprès de l'exploitant. Parking 5 h + services : 6 €.",
+    "status": "Camping de mon village ouvert toute l'année ; 47 emplacements, électricité 6 A. Sanitaires ouverts du 15/05 au 15/10/2026. Risque d'inondation (PPRI) signalé.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/grenade-sur-l-adour",
+    "latitude": 43.77274,
+    "longitude": -0.43594,
+    "sourceId": "ccp/grenade-sur-l-adour",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/grenade-sur-l-adour",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/grenade-sur-l-adour",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/grenade-sur-l-adour",
+    "priceVerifiedOn": "2026-11-12",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "importReview": "Fiche ajoutée après comparaison du fichier départemental avec l'annuaire officiel CAMPING-CAR PARK. La bannière et le tableau saisonnier affichent des tarifs contradictoires ; signalé pour vérification."
+  },
+  {
+    "department": "40",
+    "name": "Aire CAMPING-CAR PARK de Soorts-Hossegor",
+    "city": "Soorts-Hossegor",
+    "address": "716 route des Lacs, 40150 Soorts-Hossegor",
+    "type": "Aire d'étape CAMPING-CAR PARK",
+    "services": [
+      "Stationnement (83 emplacements)",
+      "Électricité 6 A",
+      "Sanitaires"
+    ],
+    "price": "15,40 € / 24 h TTC au 12/11/2026, dont 1,70 € de taxe de séjour selon l'affichage de l'exploitant ; tarif susceptible de varier. Sanitaires annoncés ouverts jusqu'en 2032.",
+    "status": "Aire d'étape ouverte ; 83 emplacements, électricité 6 A et sanitaires. Navette municipale saisonnière signalée par l'exploitant.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/soorts-hossegor",
+    "latitude": 43.67234,
+    "longitude": -1.4183,
+    "sourceId": "ccp/soorts-hossegor",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/soorts-hossegor",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/soorts-hossegor",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/soorts-hossegor",
+    "priceVerifiedOn": "2026-11-12",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "importReview": "Fiche ajoutée après comparaison du fichier départemental avec l'annuaire officiel CAMPING-CAR PARK. Tarif, adresse et coordonnées contrôlés le 12/11/2026."
   }
 ]
