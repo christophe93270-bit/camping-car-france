@@ -302,7 +302,7 @@
   },
   {
     "department": "39",
-    "name": "Aire de services camping-car de Thoirette",
+    "name": "Aire de services camping-car Thoirette – Grande Rue",
     "city": "Thoirette-Coisia",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
@@ -312,7 +312,7 @@
       "Vidange WC"
     ],
     "price": "Forfait services : 7 € (eau, électricité, vidange eaux usées et WC) selon Jura Tourisme ; nuitée non comprise",
-    "status": "12 emplacements selon Jura Tourisme ; forfait services 7 €, site référencé CAMPING-CAR PARK ; relation avec l'autre aire à vérifier",
+    "status": "Aire de services devant la salle des fêtes, Grande Rue, avec forfait services à 7 €. Cette borne est distincte de l’aire CCP La Gouille ; le forfait ne confirme pas un tarif de nuitée.",
     "source": "https://www.openstreetmap.org/way/972189733",
     "latitude": 46.2692849,
     "longitude": 5.5349354,
@@ -323,10 +323,12 @@
     "sourceId": "way/972189733",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-thoirette/",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
-    "priceNote": "Jura Tourisme rattache cette aire à CAMPING-CAR PARK ; possible doublon fonctionnel avec l'aire voisine, à vérifier avant fusion.",
+    "priceNote": "Jura Tourisme affiche un forfait de 7 € pour électricité, eau potable, vidange et WC. La fiche ne précise pas de tarif de nuitée ni les conditions de stationnement nocturne.",
     "priceSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-thoirette/",
-    "priceVerifiedOn": "2026-10-17",
-    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-thoirette/"
+    "priceVerifiedOn": "2026-11-12",
+    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-thoirette/",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "verificationNote": "Jura Tourisme situe cette aire devant la salle des fêtes, Grande Rue, 39240 Thoirette-Coisia, et confirme 12 emplacements et un forfait services de 7 € (électricité, eau potable, vidange et WC). À distinguer de l’aire CAMPING-CAR PARK de La Gouille, à l’adresse et au point GPS différents. Ne pas appliquer le forfait de services comme tarif de nuitée."
   },
   {
     "department": "39",
@@ -339,8 +341,8 @@
       "Vidange eaux grises gratuite",
       "Vidange eaux noires gratuite"
     ],
-    "price": "Eau et vidanges gratuites selon mairie ; stationnement non tarifé dans la fiche",
-    "status": "Installation neutralisée en hiver pour éviter le gel. La gaine électrique est un projet futur : pas de branchement électrique confirmé.",
+    "price": "Eau potable et vidanges gratuites ; aucun tarif de stationnement publié.",
+    "status": "Aire de stationnement nocturne rue du Vergerot. Eau potable et vidanges eaux grises/noires gratuites ; installation neutralisée en hiver pour protéger les conduites. Aucun branchement électrique confirmé.",
     "source": "https://www.openstreetmap.org/way/983158095",
     "latitude": 46.7603449,
     "longitude": 5.6001078,
@@ -350,11 +352,13 @@
     "importReview": "Contrôle 18/10/2026 : renseignements vérifiés auprès de la mairie de Domblans. Coordonnées GPS d'origine conservées ; conditions et prix sans date de validité à reconfirmer.",
     "sourceId": "way/983158095",
     "priceSource": "https://www.domblans.fr/decouvrir-domblans/aire-de-camping-car/",
-    "priceVerifiedOn": "2026-10-17",
+    "priceVerifiedOn": "2026-11-12",
     "servicesSource": "https://www.domblans.fr/decouvrir-domblans/aire-de-camping-car/",
-    "priceNote": "Source officielle de la mairie ; borne d'eau susceptible d'être neutralisée en hiver.",
+    "priceNote": "La mairie confirme la gratuité de l’eau et des vidanges, mais ne publie pas de prix pour le stationnement.",
     "address": "Extrémité de la rue du Vergerot, 39210 Domblans",
-    "sourceOfficial": "https://www.domblans.fr/decouvrir-domblans/aire-de-camping-car/"
+    "sourceOfficial": "https://www.domblans.fr/decouvrir-domblans/aire-de-camping-car/",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "verificationNote": "La mairie de Domblans confirme le stationnement de nuit et la gratuité du remplissage d’eau potable et des vidanges eaux grises/noires. L’installation d’eau est neutralisée l’hiver contre le gel. La gaine électrique est seulement prévue pour un projet futur : aucun branchement électrique confirmé."
   },
   {
     "department": "39",
@@ -362,15 +366,15 @@
     "city": "Beaufort-Orbagna",
     "type": "Aire de services et stationnement CAMPING-CAR PARK",
     "services": [
-      "Électricité",
+      "14 emplacements selon l’exploitant (12 selon la fiche Jura Tourisme)",
+      "Électricité 6 A",
       "Eau potable",
       "Vidange eaux usées",
-      "WC publics",
-      "Wi-Fi",
-      "Tri sélectif"
+      "Toilettes publiques en face",
+      "Wi-Fi"
     ],
-    "price": "Accès payant ; tarif actuel non confirmé",
-    "status": "Aire confirmée par Jura Tourisme (12 emplacements) ; tarif actuel et fonctionnement des services à reconfirmer auprès de l'exploitant",
+    "price": "Du 30/10/2026 au 31/12/2027 : 11,71 € / 24 h + taxe de séjour 0,66 € (total 12,37 €) ; parking 5 h + services : 6 €",
+    "status": "Aire CAMPING-CAR PARK La Caborde ouverte, 14 places selon l’exploitant ; Jura Tourisme en indique 12. Tarif saisonnier publié jusqu’au 31/12/2027.",
     "source": "https://www.openstreetmap.org/way/1052740620",
     "latitude": 46.5819879,
     "longitude": 5.445404,
@@ -382,10 +386,13 @@
     "servicesSource": "https://www.openstreetmap.org/way/1052740620",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/beaufort-orbagna?areaType=aire-etape-camping-car",
-    "priceVerifiedOn": "2026-10-17",
+    "priceVerifiedOn": "2026-11-12",
     "address": "Montée du Taret, 39190 Beaufort-Orbagna",
     "sourceTourism": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-de-la-caborde/",
-    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-de-la-caborde/"
+    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-de-la-caborde/",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "priceNote": "CAMPING-CAR PARK publie 11,71 € hors taxe du 30/10/2026 au 31/12/2027 et 0,66 € de taxe de séjour jusqu’au 31/12/2027, soit 12,37 €/24 h. Parking 5 h + services : 6 €.",
+    "verificationNote": "CAMPING-CAR PARK situe l’aire rue des Fontaines, GPS 46.58242, 5.444, et affiche 14 places, branchements 6 A, 11,71 € hors taxe du 30/10/2026 au 31/12/2027, plus taxe 0,66 €/24 h jusqu’au 31/12/2027. Total 12,37 €. Forfait 5 h + services : 6 €. Jura Tourisme décrit le même site sous le nom La Caborde mais donne 12 emplacements : écart de capacité à résoudre. Toilettes situées en face selon l’exploitant."
   },
   {
     "department": "39",
@@ -393,14 +400,14 @@
     "city": "Conliège",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Eau",
-      "Vidange eaux usées",
-      "WC",
-      "Aire de jeux",
-      "Aire de pique-nique"
+      "6 emplacements selon Jura Tourisme",
+      "Eau potable",
+      "Vidange eaux grises et noires",
+      "WC et sanitaires chauffés",
+      "Aire de jeux et aire de pique-nique"
     ],
-    "price": "Stationnement et services gratuits selon i-campingcar (tarif 2026 à confirmer)",
-    "status": "Aire de 6 emplacements rue du Saugeois, ouverte toute l'année selon Jura Tourisme",
+    "price": "Stationnement et services gratuits selon la borne Flot Bleu ; borne fermée en hiver.",
+    "status": "Aire rue du Saugeois, 6 emplacements, parking annoncé ouvert toute l’année. Borne Flot Bleu gratuite, mais fermée en hiver.",
     "source": "https://www.openstreetmap.org/way/1296418825",
     "latitude": 46.6526912,
     "longitude": 5.5998302,
@@ -412,9 +419,11 @@
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-12/",
     "priceSource": "https://www.i-campingcar.fr/aires/pdf/39.pdf",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Jura Tourisme indique 6 emplacements, annuaire spécialisé 2 ; ne pas afficher une capacité certaine.",
-    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-12/"
+    "priceVerifiedOn": "2026-11-12",
+    "priceNote": "Flot Bleu indique l’accès gratuit aux services et précise que la borne est fermée en hiver.",
+    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-12/",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "verificationNote": "Jura Tourisme confirme 6 emplacements, GPS 46.6526912, 5.5998302, eau, vidanges, sanitaires chauffés, WC, jeux et pique-nique ; la fiche annonce l’ouverture toute l’année. Le fabricant Flot Bleu indique que la borne est gratuite mais fermée l’hiver : distinguer l’accès au parking de la disponibilité saisonnière des services."
   },
   {
     "department": "39",
@@ -426,8 +435,8 @@
       "Toilettes publiques à proximité (avis juillet 2026, disponibilité à vérifier)",
       "Poubelles (signalées par Park4night)"
     ],
-    "price": "Gratuit selon Park4night ; à confirmer par la mairie",
-    "status": "Point OSM (47.1340968, 5.5895067) correspondant presque exactement au parking de l'aire de pique-nique du 20 rue du Moulin Rouge à Audelange (Park4night 47.1341, 5.5894). Park4night signale 3 places, stationnement gratuit et toilettes à proximité ; avis de juillet 2026 confirment les toilettes mais signalent le lavoir à sec. Aucun service technique camping-car (eau potable, électricité, vidange) vérifié. Autorisation de nuitée rapportée par usagers, non confirmée par arrêté municipal. Ne pas confondre avec les aires de vidange de Lavangeot, à plus de 1 km.",
+    "price": "Stationnement gratuit signalé par Park4night ; aucune aire de services camping-car confirmée à ce point.",
+    "status": "Parking / aire de pique-nique au 20 rue du Moulin Rouge, 3 places selon Park4night ; nuitée rapportée par usagers, non validée par la mairie. Aucun service technique camping-car confirmé à ce point.",
     "source": "https://www.openstreetmap.org/way/1296422733",
     "latitude": 47.1340968,
     "longitude": 5.5895067,
@@ -438,7 +447,7 @@
     "sourceId": "way/1296422733",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://park4night.com/fr/place/80",
-    "priceVerifiedOn": "2026-10-17",
+    "priceVerifiedOn": "2026-11-12",
     "priceNote": "Source communautaire non vérifiée sur place ; 2 places, aucun service déclaré.",
     "servicesSource": "https://park4night.com/fr/place/80",
     "verificationContacts": [
@@ -449,21 +458,23 @@
       "https://www.lecampeur.fr/parking/parking-services-gratuits-audelange-ph3b41",
       "https://www.bivouaquer.com/jura/audelange"
     ],
-    "address": "20 rue du Moulin Rouge, 39700 Audelange (adresse Park4night, à vérifier sur place)"
+    "address": "20 rue du Moulin Rouge, 39700 Audelange (adresse Park4night, à vérifier sur place)",
+    "verificationNote": "Le point OSM correspond au parking de l’aire de pique-nique du 20 rue du Moulin Rouge (Park4night #80, coordonnées proches). Les sources communautaires signalent 3 places gratuites et des toilettes à proximité ; des avis de juillet 2026 notent que le lavoir peut être à sec. Aucune eau potable, électricité ou vidange camping-car vérifiée ici. Ne pas confondre avec les aires de vidange des stations-service d’Audelange, à plus d’un kilomètre."
   },
   {
     "department": "39",
-    "name": "Aire camping-car Les Tilleuls – Clairvaux-les-Lacs",
+    "name": "Aire de stationnement camping-car P1 – Clairvaux-les-Lacs",
     "city": "Clairvaux-les-Lacs",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Eau",
+      "45 emplacements",
+      "Eau potable",
       "Électricité",
-      "Vidange eaux usées",
-      "Vidange WC"
+      "Vidange eaux grises et noires",
+      "Paiement par carte bancaire"
     ],
-    "price": "Environ 11,30 à 13,30 € / 24 h selon saison (annuaire spécialisé) ; tarif 2026 à vérifier sur borne",
-    "status": "45 emplacements chemin des Tilleuls ; ouverture saisonnière indiquée du 15 avril au 15 octobre selon annuaire",
+    "price": "Tarif 2026 à consulter sur la borne ; référence secondaire 2025 : environ 11,30 à 13,30 € / 24 h selon saison, non confirmée pour 2026.",
+    "status": "Aire communale P1, 45 emplacements chemin des Tilleuls. Stationnement autorisé du 1er avril au 15 novembre, sous réserve du gel ou de la neige ; tarif exact 2026 à vérifier sur la borne.",
     "source": "https://www.openstreetmap.org/way/1296429078",
     "latitude": 46.5758754,
     "longitude": 5.7393123,
@@ -474,9 +485,12 @@
     "sourceId": "way/1296429078",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-car-p1/",
     "cityVerificationNote": "Coordonnées 46.5758754, 5.7393123 confirmées dans Clairvaux-les-Lacs, et non Le Frasnois (référence OSM way/1296429078, Mapcarta).",
-    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=CLAIRVAUX+LES+LACS",
-    "priceVerifiedOn": "2026-10-17",
-    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-car-p1/"
+    "priceSource": "https://www.clairvaux-les-lacs.com/page/aire-de-camping-car",
+    "priceVerifiedOn": "2026-11-12",
+    "sourceOfficial": "https://www.clairvaux-les-lacs.com/page/aire-de-camping-car",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "priceNote": "La mairie confirme un règlement tarifaire adopté en décembre 2024 mais n’affiche pas les montants sur sa page actuelle. La fourchette 11,30–13,30 € provient d’une source secondaire de 2025, pas d’une grille 2026.",
+    "verificationNote": "La mairie de Clairvaux-les-Lacs confirme 45 emplacements, eau, électricité, vidange eaux grises/noires, absence de réservation et ouverture du 1er avril au 15 novembre selon les conditions climatiques. Tarifs 2026 à lire sur la borne ; le guide secondaire 2025 indique environ 11,30–13,30 €/24 h selon saison, non reconfirmé."
   },
   {
     "department": "39",
@@ -487,8 +501,8 @@
       "Tables de pique-nique",
       "Poubelles"
     ],
-    "price": "Stationnement gratuit selon annuaire OSM ; gratuité à confirmer auprès de la mairie",
-    "status": "3 emplacements réservés aux camping-cars, aire annoncée ouverte toute l'année selon Camping-car.com. Disponibilité et fonctionnement des services à vérifier sur place.",
+    "price": "Tarif non publié par Jura Tourisme ; stationnement gratuit rapporté par des annuaires secondaires, à confirmer.",
+    "status": "Parking officiel de 3 emplacements place du Pré du Frêne, avec tables et poubelles. Aucun service de vidange, eau ou électricité confirmé ; ouverture et prix non précisés par Jura Tourisme.",
     "source": "https://www.openstreetmap.org/way/1312770954",
     "latitude": 46.4619836,
     "longitude": 5.7954101,
@@ -499,13 +513,15 @@
     "sourceId": "way/1312770954",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://airescampingcar.com/aires/france/les-crozets.html",
-    "priceVerifiedOn": "2026-10-17",
+    "priceVerifiedOn": "2026-11-12",
     "servicesSource": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-les-crozets/",
-    "priceNote": "Gratuité issue d'un site reprenant OSM, non d'une confirmation municipale.",
+    "priceNote": "Jura Tourisme confirme l’existence et les 3 emplacements, mais ne publie ni tarif ni horaires. La gratuité et l’ouverture annuelle proviennent de sources secondaires.",
     "address": "Place du Pré du Frêne, 39260 Les Crozets",
     "sourceSecondary": "https://www.camping-car.com/aires/46002-aire-de-stationnement/",
     "gpsReview": "Écart d'environ 73 m entre OSM et Camping-car.com ; coordonnées OSM conservées, ne pas déplacer sans vérification.",
-    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-les-crozets/"
+    "sourceOfficial": "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-les-crozets/",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "verificationNote": "Jura Tourisme confirme un parking de 3 camping-cars place du Pré du Frêne, tables et bancs, poubelles, à proximité d’un restaurant. Aucun tarif, horaire ou borne technique indiqué sur la fiche officielle ; gratuité rapportée par des annuaires secondaires à reconfirmer."
   },
   {
     "department": "39",
@@ -515,8 +531,8 @@
     "services": [
       "Poubelles"
     ],
-    "price": "Stationnement gratuit selon Park4night ; aucun service camping-car",
-    "status": "Stationnement signalé par Park4night près de la médiathèque, rue Georges Trouillot. Le PLU recense des places de stationnement ordinaires dans ce secteur ; le conseil municipal de 2020 évoque l'absence de délimitation de certaines places et le bulletin municipal 2026 annonce la poursuite des réflexions d'aménagement des espaces de stationnement liés à la médiathèque. Aucune de ces sources ne réserve de place aux camping-cars ni ne garantit la nuitée. Vérifier la signalisation et les éventuels travaux avant déplacement.",
+    "price": "Gratuit selon Park4night ; stationnement camping-car et nuitée à confirmer au vu des aménagements municipaux en cours.",
+    "status": "Parking de la médiathèque : Park4night signale un panneau camping-car, 2 places et la gratuité. Les sources municipales consultées ne garantissent pas la réservation actuelle de places ni la nuitée ; vérifier la signalisation sur place.",
     "source": "https://www.openstreetmap.org/way/1316470124",
     "latitude": 46.7309295,
     "longitude": 5.5546886,
@@ -527,7 +543,7 @@
     "sourceId": "way/1316470124",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://park4night.com/fr/place/109886",
-    "priceVerifiedOn": "2026-10-17",
+    "priceVerifiedOn": "2026-11-12",
     "priceNote": "Source communautaire avec avis récent d'octobre 2026 ; pente signalée et nombre de places discuté (1 à 2). Vérifier la signalisation sur place.",
     "servicesSource": "https://park4night.com/fr/place/109886",
     "evidenceSource": "https://commons.wikimedia.org/wiki/File:Aire_Camping-car_Plainoiseau.jpg",
@@ -538,7 +554,9 @@
       "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/jura/b86f877b-9626-4968-85ba-882cd7c27b94",
       "https://www.plainoiseau.fr/images/documents/bulletins/Bulletin-Municipal-2026.pdf",
       "https://plainoiseau.fr/images/documents/compte-rendu/2020/3_CR_0720.pdf"
-    ]
+    ],
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "verificationNote": "Park4night #109886 (350 rue Georges Trouillot) signale un panneau pour camping-cars, 2 places, stationnement gratuit jour et nuit, sans services. Le site municipal présente des réflexions et aménagements de parking au secteur médiathèque sans confirmer les places camping-car ; vérifier les panneaux et éventuels travaux avant de s’y installer."
   },
   {
     "department": "39",
@@ -551,8 +569,8 @@
       "Vidange eaux usées",
       "Électricité (jetons)"
     ],
-    "price": "Stationnement gratuit ; services 2 € et électricité 2 € pour environ 55 min selon témoignages janvier-mai 2026, tarifs à confirmer",
-    "status": "Aire de stationnement et borne de services route de la Saisse. Deux sources indépendantes du catalogue Aire Park (i-Campingcar GPS 46.579911,5.69704 ; Mapcarta/OSM centroïde 46.57997,5.69685) situent l'aire au même endroit, proche du point OSM de la fiche ; Aire Park publie des coordonnées 46.5797807,5.7000888 environ 250 m à l'est, vraisemblablement imprécises. Stationnement gratuit, services à jetons (2 € selon avis 2026), fermeture saisonnière possible ; aucune validation municipale directe des tarifs, capacité et règles.",
+    "price": "Stationnement gratuit ; services de la borne signalés à 2 € par jeton (eau/vidange et électricité selon les témoignages), tarifs 2026 à confirmer. Limite annoncée : 24 h.",
+    "status": "Aire route de la Saisse, 5 emplacements selon les sources locales. Stationnement gratuit ; borne à jetons, fermeture hivernale signalée mais non confirmée par la mairie.",
     "source": "https://www.openstreetmap.org/way/1433927556",
     "latitude": 46.5802022,
     "longitude": 5.6966002,
@@ -563,7 +581,7 @@
     "sourceId": "way/1433927556",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://www.i-campingcar.fr/aires.php?ville=PONT+DE+POITTE",
-    "priceVerifiedOn": "2026-10-17",
+    "priceVerifiedOn": "2026-11-12",
     "address": "Route de la Saisse, 39130 Pont-de-Poitte",
     "servicesSource": "https://park4night.com/fr/place/507122",
     "relatedSecondarySources": [
@@ -572,7 +590,9 @@
       "https://mapcarta.com/fr/W1433927556"
     ],
     "verificationContact": "Mairie de Pont-de-Poitte : 03 84 48 30 01 ; mairie@pontdepoitte.com ; https://www.pontdepoitte.com/annuaire/contact/mairie",
-    "relatedOperatorSource": "https://reseauaireservices.com/les-aires-daccueil-avec-parking-gratuit/"
+    "relatedOperatorSource": "https://reseauaireservices.com/les-aires-daccueil-avec-parking-gratuit/",
+    "priceNote": "Des sources touristiques/communautaires récentes signalent 2 € par jeton pour les services, stationnement gratuit et 24 h maximum. Le tarif et la fermeture d’hiver restent à confirmer auprès de la commune.",
+    "verificationNote": "Route de la Saisse, Pont-de-Poitte. AiresPark et témoignages 2026 indiquent 5 places, stationnement gratuit, limite 24 h et borne à jetons (eau/vidange et électricité signalées à 2 €). Certaines sources signalent une fermeture hivernale de la borne ; aucun arrêté ou tarif municipal 2026 retrouvé. Coordonnées et fonctionnement à contrôler sur place."
   },
   {
     "department": "39",
@@ -583,7 +603,7 @@
       "Stationnement (12 emplacements)",
       "Électricité 6 A"
     ],
-    "price": "14,03 €/24 h TTC (12,73 € stationnement + 1,30 € taxe de séjour) selon grille 01/10/2026–31/12/2027 ; vérifier le montant affiché à la réservation",
+    "price": "Du 11/11/2026 au 31/12/2027 : 12,73 € / 24 h + taxe de séjour 1,30 € (total 14,03 €) ; parking 5 h + services : 6 €",
     "status": "Aire d'étape CAMPING-CAR PARK La Gouille, 12 emplacements. Capacité et tarification confirmées par l'exploitant ; disponibilité variable.",
     "source": "https://www.openstreetmap.org/way/1533974795",
     "latitude": 46.2690464,
@@ -596,9 +616,12 @@
     "servicesSource": "https://www.openstreetmap.org/way/1533974795",
     "cityVerificationNote": "Commune identifiée d'après le nom et la position ; contrôle à poursuivre.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/thoirette-coisia",
-    "priceVerifiedOn": "2026-10-17",
+    "priceVerifiedOn": "2026-11-12",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/thoirette-coisia",
-    "address": "La Gouille, 39240 Thoirette-Coisia"
+    "address": "La Gouille, 39240 Thoirette-Coisia",
+    "sourceOfficialVerifiedOn": "2026-11-12",
+    "priceNote": "Grille opérateur : 12,73 € hors taxe à partir du 11/11/2026 jusqu’au 31/12/2027 ; taxe de séjour de 1,30 €/24 h jusqu’au 31/12/2027 ; total 14,03 €.",
+    "verificationNote": "Aire CAMPING-CAR PARK La Gouille, 39240 Thoirette-Coisia, 12 emplacements, GPS opérateur 46.2692, 5.53082, électricité 6 A. Grille consultée le 12/11/2026 : 12,73 € hors taxe du 11/11/2026 au 31/12/2027, taxe de séjour 1,30 €/24 h jusqu’au 31/12/2027, total 14,03 €. Forfait 5 h + services : 6 €. Distincte de la borne à 7 € devant la salle des fêtes, Grande Rue."
   },
   {
     "department": "39",
