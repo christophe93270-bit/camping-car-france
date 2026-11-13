@@ -257,23 +257,22 @@
   },
   {
     "department": "67",
-    "name": "Aire de camping-car de Schœnau",
+    "name": "Camping de mon Village CAMPING-CAR PARK de Schœnau",
     "city": "Schœnau",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Camping de mon Village CAMPING-CAR PARK",
     "services": [
-      "Stationnement (31 places)",
       "Électricité 6 A",
-      "Sanitaires saisonniers"
+      "Sanitaires saisonniers (ouverts du 02/04/2026 au 30/10/2026)"
     ],
-    "price": "Prix variable et contradictoire selon les pages de l'exploitant : 13,64 € ou 15,44 € /24 h TTC affichés pour octobre 2026 ; vérifier le prix lors de la réservation.",
-    "status": "Camping de mon village CAMPING-CAR PARK au 102 rue de la Digue. Les pages exploitant consultées présentent des capacités contradictoires (31 ou 65 places), et des grilles tarifaires différentes. Sanitaires saisonniers du 02/04/2026 au 30/10/2026. Capacité et tarif à reconfirmer directement auprès de l'exploitant.",
+    "price": "15,44 € /24 h TTC au 13/11/2026 (tarif de base 15,00 € + taxe de séjour 0,44 €). Stationnement 5 h + services : 6 €. Les pages officielles consultées divergent sur le nombre de places : 31 sur une fiche, 65 sur la sélection et le descriptif.",
+    "status": "Camping de mon Village ouvert au 102 rue de la Digue. Le nombre de places est contradictoire selon les pages CCP consultées : 31 sur une page détaillée et 65 sur une autre sélection et dans le descriptif. Tarif actuel relevé à 15,44 € /24 h.",
     "source": "https://www.openstreetmap.org/node/13164250815",
     "latitude": 48.2261,
     "longitude": 7.656135,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/Schoenau",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : Visit Alsace confirme un camping municipal au 102 rue de la Digue (30 places camping-car, 13–14 €, saison 01/04–31/10/2026), mais correspondance avec cette aire OSM NON établie : ne pas recopier ces tarifs ni ces services. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent. | 18/10/2026 : contradiction relevée entre deux pages CAMPING-CAR PARK (31 vs 65 places, 13,64 vs 15,44 €). Ne pas considérer l'ancien chiffre 31 comme définitivement vérifié.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : Visit Alsace confirme un camping municipal au 102 rue de la Digue (30 places camping-car, 13–14 €, saison 01/04–31/10/2026), mais correspondance avec cette aire OSM NON établie : ne pas recopier ces tarifs ni ces services. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent. | 18/10/2026 : contradiction relevée entre deux pages CAMPING-CAR PARK (31 vs 65 places, 13,64 vs 15,44 €). Ne pas considérer l'ancien chiffre 31 comme définitivement vérifié. | 13/11/2026 : le tarif actuel est 15,44 € /24 h (15,00 € + 0,44 € de taxe) ; conflit officiel sur la capacité maintenu explicitement (31 ou 65 places).",
     "sourceId": "node/13164250815",
     "servicesSource": "https://www.openstreetmap.org/node/13164250815",
     "relatedOfficialSources": [
@@ -282,7 +281,10 @@
     ],
     "address": "102 rue de la Digue, 67390 Schœnau",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/Schoenau",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/Schoenau"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/Schoenau",
+    "capacity": 65,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/circuits/le-grand-tour-du-grand-est",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "67",
@@ -308,31 +310,34 @@
   },
   {
     "department": "67",
-    "name": "Aire de camping-car de Saâles (Bas Rhin)",
+    "name": "Camping de mon Village CAMPING-CAR PARK de Saâles",
     "city": "Saâles",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Camping de mon Village CAMPING-CAR PARK",
     "services": [
-      "Stationnement (20 places)",
+      "20 emplacements",
       "Électricité 6 A",
-      "Sanitaires saisonniers (dates à confirmer)"
+      "Sanitaires saisonniers (dates publiées : 14/05/2026 au 30/10/2026)"
     ],
-    "price": "Tarif affiché : 15,14 € / 24 h, dont 0,44 € de taxe de séjour (consultation 18/10/2026 ; à recontrôler).",
-    "status": "Camping municipal Le Rové géré via CAMPING-CAR PARK, 20 places camping-car ouvertes toute l'année selon la mairie. Sanitaires saisonniers ; mairie : du 1er mai au 15 octobre, exploitant : du 15 mai au 31 octobre 2026. Divergence conservée.",
+    "price": "14,64 € /24 h TTC au 13/11/2026 (tarif de base 14,20 € + taxe de séjour 0,44 € ; grille applicable du 31/10/2026 au 31/12/2027).",
+    "status": "Camping de mon Village ouvert au camping municipal Le Rové, 20 emplacements. Sanitaires saisonniers ; la fiche CCP indique une ouverture du 14/05/2026 au 30/10/2026.",
     "source": "https://www.openstreetmap.org/way/245544371",
     "latitude": 48.34866,
     "longitude": 7.09977,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/sa%C3%A2les?areaType=campingplatzen",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : aucune fiche institutionnelle concordante trouvée pour ce point OSM ; vérification ultérieure nécessaire. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : aucune fiche institutionnelle concordante trouvée pour ce point OSM ; vérification ultérieure nécessaire. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent. | 13/11/2026 : fiche CCP revérifiée ; le tarif après le 30/10 est 14,20 € + 0,44 € de taxe = 14,64 € /24 h. L’ancien bandeau à 15,14 € est périmé.",
     "sourceId": "way/245544371",
     "servicesSource": "https://www.openstreetmap.org/way/245544371",
     "address": "Camping municipal Le Rové, 67420 Saâles",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/sa%C3%A2les?areaType=campingplatzen",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/sa%C3%A2les",
     "relatedOfficialSources": [
       "https://saales.fr/hebergements/"
     ],
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/sa%C3%A2les?areaType=campingplatzen"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/sa%C3%A2les",
+    "capacity": 20,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/sa%C3%A2les",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "67",
@@ -410,81 +415,87 @@
   },
   {
     "department": "67",
-    "name": "Aire de camping-car de Lutzelhouse",
+    "name": "Aire CAMPING-CAR PARK de Lutzelhouse",
     "city": "Lutzelhouse",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d’étape CAMPING-CAR PARK",
     "services": [
-      "Stationnement (capacité affichée : 12 places)",
-      "Électricité 6 A",
-      "Eau potable",
-      "Vidange"
+      "12 emplacements",
+      "Électricité 6 A"
     ],
-    "price": "Tarif saisonnier 11,50 € /24 h + 1,32 € de taxe de séjour = 12,82 € selon grille exploitant ; bandeau 14,32 € /24 h : divergence à vérifier. 5 h + services 6 €.",
-    "status": "Aire CAMPING-CAR PARK affichant 12 places. Description du même exploitant mentionnant seulement 4 emplacements et stationnement gratuit à jetons : informations contradictoires ; ne pas retenir cette gratuité sans vérification.",
+    "price": "12,82 € /24 h TTC au 13/11/2026 (tarif de base 11,50 € + taxe de séjour 1,32 €). Stationnement 5 h + services : 6 €.",
+    "status": "Aire d’étape ouverte, 12 places affichées. Une description de la même fiche mentionne aussi 4 emplacements stabilisés et un système de jetons pour les services, information contradictoire avec la capacité affichée ; tarif et capacité du bandeau retenus.",
     "source": "https://www.openstreetmap.org/way/1144573112",
     "latitude": 48.521951,
     "longitude": 7.285287,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/lutzelhouse",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent. | 13/11/2026 : grille tarifaire active vérifiée (11,50 € + 1,32 € = 12,82 €). La contradiction 12 places affichées / description mentionnant 4 emplacements et jetons est conservée.",
     "sourceId": "way/1144573112",
     "servicesSource": "https://www.openstreetmap.org/way/1144573112",
-    "address": "6 rue du Séquoia, 67130 Lutzelhouse (office de tourisme : 8 rue du Séquoia)",
+    "address": "6 rue du Séquoia, 67130 Lutzelhouse",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/lutzelhouse",
     "relatedOfficialSources": [
       "https://www.massif-des-vosges.fr/sit/215002575-aire-de-camping-cars/"
     ],
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/lutzelhouse"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/lutzelhouse",
+    "capacity": 12,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/lutzelhouse",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "67",
     "name": "Aire CAMPING-CAR PARK de Dambach-la-Ville, Frankstein",
     "city": "Dambach-la-Ville",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d’étape CAMPING-CAR PARK",
     "services": [
-      "Stationnement (24 places)",
+      "24 emplacements",
       "Électricité 6 A"
     ],
-    "price": "15,78 € / 24 h TTC (14,56 € + taxe de séjour 1,22 €), tarif affiché en octobre 2026 ; susceptible de changer.",
-    "status": "Aire de 24 places, ouverte, au milieu du vignoble ; électricité 6 A.",
+    "price": "15,78 € /24 h TTC, dont 1,22 € de taxe de séjour (tarif affiché au 13/11/2026).",
+    "status": "Aire d’étape ouverte, 24 emplacements, rue de Wasen, sur la Route des Vins d’Alsace.",
     "source": "https://www.openstreetmap.org/way/1204596461",
     "latitude": 48.32252,
     "longitude": 7.443798,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/dambach-la-ville?areaType=aire-etape-camping-car",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 13/11/2026 : fiche officielle CCP revérifiée ; tarif total, capacité et statut actualisés.",
     "sourceId": "way/1204596461",
     "servicesSource": "https://www.openstreetmap.org/way/1204596461",
     "address": "Rue de Wasen, 67650 Dambach-la-Ville",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/dambach-la-ville?areaType=aire-etape-camping-car",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/dambach-la-ville?areaType=aire-etape-camping-car"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/dambach-la-ville",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/dambach-la-ville",
+    "capacity": 24,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/dambach-la-ville",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "67",
     "name": "Aire CAMPING-CAR PARK de Soufflenheim",
     "city": "Soufflenheim",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d’étape CAMPING-CAR PARK",
     "services": [
-      "Stationnement (17 places)",
-      "Électricité 6 A",
-      "Services pour camping-cars"
+      "17 emplacements",
+      "Électricité 6 A"
     ],
-    "price": "13,73 € /24 h TTC (12,73 € + taxe de séjour 1 €), tarif affiché le 18/10/2026 ; 5 h + services : 6 €. À vérifier avant arrivée.",
-    "status": "Aire CAMPING-CAR PARK ouverte toute l'année, 17 emplacements, électricité 6 A. Manœuvres potentiellement difficiles pour les véhicules longs ; secteur soumis à un plan de prévention du risque d'inondation.",
+    "price": "13,73 € /24 h TTC, dont 1,00 € de taxe de séjour (tarif affiché pour la période en cours au 13/11/2026). Stationnement 5 h + services : 6 €.",
+    "status": "Aire d’étape ouverte. 17 emplacements. La fiche officielle signale un PPRI et conseille la vigilance pour les véhicules longs en raison des manœuvres.",
     "source": "https://www.openstreetmap.org/way/1218156957",
     "latitude": 48.83244,
     "longitude": 7.960277,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/soufflenheim",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : recherche Visit Alsace non concluante pour ce point OSM ; tarif, ouverture et services non confirmés. | 18/10/2026 : rapprochement GPS à 26 m du point OSM avec aire exploitant confirmé ; tarifs et capacité relevés auprès de CAMPING-CAR PARK.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : recherche Visit Alsace non concluante pour ce point OSM ; tarif, ouverture et services non confirmés. | 18/10/2026 : rapprochement GPS à 26 m du point OSM avec aire exploitant confirmé ; tarifs et capacité relevés auprès de CAMPING-CAR PARK. | 13/11/2026 : fiche officielle CCP revérifiée ; tarif total et capacité actualisés.",
     "sourceId": "way/1218156957",
     "servicesSource": "https://www.openstreetmap.org/way/1218156957",
     "address": "Rue de Koenigsbruck, 67620 Soufflenheim",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/soufflenheim",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/soufflenheim"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/soufflenheim",
+    "capacity": 17,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/soufflenheim",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "67",
@@ -535,26 +546,29 @@
   },
   {
     "department": "67",
-    "name": "Aire CAMPING-CAR PARK d'Andlau, La Porte des Ours",
+    "name": "Aire CAMPING-CAR PARK d’Andlau, La Porte des Ours",
     "city": "Andlau",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d’étape CAMPING-CAR PARK",
     "services": [
-      "Stationnement (13 places)"
+      "13 emplacements"
     ],
-    "price": "15,78 € / 24 h TTC, dont taxe de séjour 1,22 €, prix affiché en octobre 2026 ; susceptible de changer.",
-    "status": "Aire de 13 places, ouverte, à environ 200 m du centre-bourg.",
+    "price": "15,78 € /24 h TTC, dont 1,22 € de taxe de séjour (tarif affiché au 13/11/2026).",
+    "status": "Aire d’étape ouverte, 13 emplacements, chemin du Haselmattenweg, à environ 200 m du centre-bourg.",
     "source": "https://www.openstreetmap.org/way/1265625282",
     "latitude": 48.38469,
     "longitude": 7.420754,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/andlau?areaType=aire-etape-camping-car",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 13/11/2026 : fiche officielle CCP revérifiée ; tarif total, capacité et statut actualisés.",
     "sourceId": "way/1265625282",
     "servicesSource": "https://www.openstreetmap.org/way/1265625282",
     "address": "Chemin du Haselmattenweg, 67140 Andlau",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/andlau?areaType=aire-etape-camping-car",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/andlau?areaType=aire-etape-camping-car"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/andlau",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/andlau",
+    "capacity": 13,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/andlau",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "67",
@@ -667,27 +681,97 @@
   },
   {
     "department": "67",
-    "name": "Aire de camping-car de Geudertheim",
+    "name": "Aire CAMPING-CAR PARK de Geudertheim",
     "city": "Geudertheim",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d’étape CAMPING-CAR PARK",
     "services": [
-      "Stationnement (12 places)",
-      "Électricité 6 A",
-      "Services camping-car"
+      "12 emplacements",
+      "Électricité 6 A"
     ],
-    "price": "12 € /24 h + 1 € de taxe de séjour = 13 € /24 h, grille du 09/10/2026 au 31/12/2027 ; 5 h + services 6 €.",
-    "status": "Aire CAMPING-CAR PARK de 12 places, ouverte ; électricité 6 A. Zone soumise à un plan de prévention des risques d'inondation (PPRI).",
+    "price": "13,00 € /24 h TTC, dont 1,00 € de taxe de séjour, grille affichée pour la période en cours au 13/11/2026. Stationnement 5 h + services : 6 €.",
+    "status": "Aire d’étape ouverte, 12 emplacements, route de Hoerdt. Secteur soumis à un plan de prévention du risque d’inondation (PPRI).",
     "source": "https://www.openstreetmap.org/way/1567682218",
     "latitude": 48.71033,
     "longitude": 7.757417,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/geudertheim?areaType=aire-etape-camping-car",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent.",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune déduite de l'intitulé et de la position OSM ; à recouper avec une source officielle. | 18/10/2026 : fiche exploitant vérifiée ; divergences de prix/capacité explicitement signalées lorsqu'elles existent. | 13/11/2026 : fiche officielle CCP revérifiée ; tarif et capacité actualisés.",
     "sourceId": "way/1567682218",
     "servicesSource": "https://www.openstreetmap.org/way/1567682218",
     "address": "Route de Hoerdt, 67170 Geudertheim",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/geudertheim?areaType=aire-etape-camping-car",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/geudertheim?areaType=aire-etape-camping-car"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/geudertheim",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/geudertheim",
+    "capacity": 12,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/geudertheim",
+    "priceVerifiedOn": "2026-11-13"
+  },
+  {
+    "department": "67",
+    "name": "Aire CAMPING-CAR PARK de Seltz",
+    "city": "Seltz",
+    "type": "Aire d’étape CAMPING-CAR PARK",
+    "services": [
+      "24 emplacements"
+    ],
+    "price": "13,54 € /24 h TTC, dont 1,32 € de taxe de séjour (tarif affiché au 13/11/2026). Stationnement 5 h + services : 6 €.",
+    "status": "Aire d’étape ouverte à la base nautique de Seltz, au pied du plan d’eau de Salmengrund. 24 emplacements.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/seltz",
+    "latitude": 48.88945,
+    "longitude": 8.127201,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/seltz",
+    "address": "D28, base nautique de Seltz, 67470 Seltz",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/seltz",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/seltz",
+    "capacity": 24,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/seltz",
+    "priceVerifiedOn": "2026-11-13",
+    "importReview": "13/11/2026 : fiche officielle CCP consultée ; tarif total, capacité, GPS et statut relevés sur l’exploitant."
+  },
+  {
+    "department": "67",
+    "name": "Aire CAMPING-CAR PARK de Wissembourg (services)",
+    "city": "Wissembourg",
+    "type": "Aire de services CAMPING-CAR PARK (sans stationnement)",
+    "services": [
+      "Eau potable",
+      "Électricité"
+    ],
+    "price": "6,00 € par service ; 1 emplacement de service affiché.",
+    "status": "Aire de services ouverte, sans stationnement de nuit, rue des Messageries. À distinguer du parking public de la piscine municipale, qui est un autre lieu.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/as-wissembourg",
+    "latitude": 49.03222,
+    "longitude": 7.947494,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/as-wissembourg",
+    "address": "Rue des Messageries, 67160 Wissembourg",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/as-wissembourg",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/as-wissembourg",
+    "capacity": 1,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/as-wissembourg",
+    "priceVerifiedOn": "2026-11-13",
+    "importReview": "13/11/2026 : fiche officielle CCP créée séparément du parking public de la piscine, avec GPS et tarif de service issus de l’exploitant."
+  },
+  {
+    "department": "67",
+    "name": "Aire CAMPING-CAR PARK de Mittelbergheim",
+    "city": "Mittelbergheim",
+    "type": "Aire d’étape CAMPING-CAR PARK",
+    "services": [
+      "15 emplacements annoncés",
+      "Électricité 6 A annoncée"
+    ],
+    "price": "À venir. Tarif annoncé par l’exploitant : 15,22 € /24 h (montant non actif tant que l’aire n’est pas ouverte).",
+    "status": "Aire d’étape annoncée à Sinnengaerten ; statut officiel « À venir ». Capacité annoncée : 15 places ; tarif indicatif publié : 15,22 € /24 h. Ne pas présenter comme aire ouverte.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/mittelbergheim",
+    "latitude": 48.39111,
+    "longitude": 7.44073,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/mittelbergheim",
+    "address": "Sinnengaerten, 67140 Mittelbergheim",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/mittelbergheim",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/mittelbergheim",
+    "capacity": 15,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/mittelbergheim",
+    "priceVerifiedOn": "2026-11-13",
+    "importReview": "13/11/2026 : fiche officielle CCP ; projet signalé « À venir », avec prix annoncé et non actif."
   }
 ]
