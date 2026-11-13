@@ -1,14 +1,14 @@
 [
   {
     "department": "51",
-    "name": "Aire de camping-car de Chouilly",
+    "name": "Aire CAMPING-CAR PARK de Chouilly",
     "city": "Chouilly",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
       "Électricité"
     ],
-    "price": "11,00 € / 24 h hors taxe de séjour (1,32 € / 24 h en 2026) ; total indicatif 12,32 € ; barème du 16/10/2026 au 31/12/2027",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12,32 € / 24 h dont 1,32 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier)",
+    "status": "Aire CAMPING-CAR PARK ouverte selon l’exploitant (consultation novembre 2026)",
     "source": "https://www.openstreetmap.org/node/14125655001",
     "latitude": 49.0210673,
     "longitude": 4.0110228,
@@ -20,16 +20,19 @@
     "servicesSource": "https://www.openstreetmap.org/node/14125655001",
     "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/chouilly",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/chouilly"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/chouilly",
+    "capacity": 12,
+    "address": "7 rue de la Cerisière, 51530 Chouilly",
+    "verificationNote": "L’exploitant confirme 12 places et l’ouverture. Tarif consulté en novembre 2026."
   },
   {
     "department": "51",
-    "name": "Aire CAMPING-CAR PARK du Lac du Der - Station Nautique - Giffaumont-Champaubert",
+    "name": "Aire CAMPING-CAR PARK du Lac du Der – Station Nautique",
     "city": "Giffaumont-Champaubert",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [],
-    "price": "14,80 € / 24 h hors taxe de séjour (1,32 € / 24 h en 2026) ; total indicatif 16,12 € ; tarif jusqu'au 30/11/2026",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "16,12 € / 24 h dont 1,32 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier)",
+    "status": "Aire CAMPING-CAR PARK ouverte selon l’exploitant (consultation novembre 2026)",
     "source": "https://www.openstreetmap.org/way/175564507",
     "latitude": 48.5507554,
     "longitude": 4.7683186,
@@ -39,9 +42,11 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/175564507",
     "cityVerificationNote": "Commune renseignée d'après le nom du lieu et la localisation ; à recouper avec une adresse officielle si nécessaire.",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-station-nautique?areaType=stopover-site-motorhome",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-station-nautique",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-station-nautique?areaType=stopover-site-motorhome",
-    "address": "Chemin de la Cachotte, 51290 Giffaumont-Champaubert"
+    "address": "Chemin de la Cachotte, 51290 Giffaumont-Champaubert",
+    "capacity": 59,
+    "verificationNote": "Fiche officielle du réseau : 59 places, aire ouverte, prix affiché en novembre 2026."
   },
   {
     "department": "51",
@@ -309,8 +314,8 @@
     "city": "Connantre",
     "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [],
-    "price": "Tarif à revérifier : le répertoire CAMPING-CAR PARK affiche 14,60 € / 24 h (consultation octobre 2026), différent du tarif précédemment saisi.",
-    "status": "Ouverte selon la fiche de l'exploitant consultée le 18/10/2026 ; disponibilité à revérifier",
+    "price": "12,60 € / 24 h dont 1,10 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier)",
+    "status": "Aire CAMPING-CAR PARK ouverte selon l’exploitant (consultation novembre 2026)",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/connantre",
     "latitude": 48.730474,
     "longitude": 3.929918,
@@ -320,7 +325,8 @@
     "importReview": "Ajout du 18/10/2026 ; coordonnées officielles, pas d'identifiant OSM attribué sans contrôle.",
     "address": "Allée Piétonne du Plan d'Eau, 51230 Connantre",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/connantre",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne",
+    "capacity": 23
   },
   {
     "department": "51",
@@ -328,8 +334,8 @@
     "city": "Giffaumont-Champaubert",
     "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [],
-    "price": "14,80 € / 24 h hors taxe de séjour (1,32 € / 24 h en 2026), total indicatif 16,12 € ; tarif saisonnier jusqu'au 30/11/2026",
-    "status": "Ouverte selon la fiche de l'exploitant consultée le 18/10/2026 ; disponibilité à revérifier",
+    "price": "16,12 € / 24 h dont 1,32 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier)",
+    "status": "Aire CAMPING-CAR PARK ouverte selon l’exploitant (consultation novembre 2026)",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-casino",
     "latitude": 48.55354,
     "longitude": 4.764309,
@@ -339,7 +345,8 @@
     "importReview": "Ajout du 18/10/2026 ; coordonnées officielles, pas d'identifiant OSM attribué sans contrôle.",
     "address": "14 rue du Port, 51290 Giffaumont-Champaubert",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-casino",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-casino"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-casino",
+    "capacity": 48
   },
   {
     "department": "51",
@@ -347,8 +354,8 @@
     "city": "Giffaumont-Champaubert",
     "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [],
-    "price": "14,80 € / 24 h hors taxe de séjour (1,32 € / 24 h en 2026), total indicatif 16,12 € ; tarif saisonnier jusqu'au 30/11/2026",
-    "status": "Ouverte selon la fiche de l'exploitant consultée le 18/10/2026 ; disponibilité à revérifier",
+    "price": "16,12 € / 24 h dont 1,32 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier)",
+    "status": "CAMPING-CAR PARK l’affiche ouverte (consultation novembre 2026) ; DATAtourisme signalait une fermeture pour travaux le 15/10/2026, situation à reconfirmer.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-chantecoq",
     "latitude": 48.56915,
     "longitude": 4.703315,
@@ -358,6 +365,41 @@
     "importReview": "Ajout du 18/10/2026 ; coordonnées officielles, pas d'identifiant OSM attribué sans contrôle.",
     "address": "Le Champ Branlant, 51290 Giffaumont-Champaubert",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-chantecoq",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-chantecoq"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-chantecoq",
+    "capacity": 58,
+    "verificationNote": "Écart temporaire entre la liste actuelle de l’exploitant (ouverte) et DATAtourisme (mise à jour du 15/10/2026 : fermée pour travaux)."
+  },
+  {
+    "department": "51",
+    "name": "Aire CAMPING-CAR PARK de Sapignicourt (à venir)",
+    "city": "Sapignicourt",
+    "type": "Aire d'étape CAMPING-CAR PARK (à venir)",
+    "services": [],
+    "price": "Tarif non communiqué",
+    "status": "Projet à venir selon la liste CAMPING-CAR PARK ; non ouverte à la date de consultation",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/sapignicourt",
+    "latitude": 48.65128,
+    "longitude": 4.8063,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/sapignicourt",
+    "sourceId": "ccp-marne-sapignicourt-future",
+    "address": "Rue de Larzicourt, 52100 Sapignicourt",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/sapignicourt",
+    "verificationNote": "Projet à venir de l’exploitant. À distinguer de l’aire municipale de services existante à Sapignicourt, où le stationnement de nuit n’est pas autorisé."
+  },
+  {
+    "department": "51",
+    "name": "Aire CAMPING-CAR PARK de Vienne-le-Château (à venir)",
+    "city": "Vienne-le-Château",
+    "type": "Aire d'étape CAMPING-CAR PARK (à venir)",
+    "services": [],
+    "price": "Tarif non communiqué",
+    "status": "Projet à venir selon la liste CAMPING-CAR PARK ; non ouverte à la date de consultation",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/vienne-le-ch%C3%A2teau",
+    "latitude": 49.190735,
+    "longitude": 4.888671,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/vienne-le-ch%C3%A2teau",
+    "sourceId": "ccp-marne-vienne-le-chateau-future",
+    "address": "71 ruelle du Moulin, 51800 Vienne-le-Château",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/vienne-le-ch%C3%A2teau"
   }
 ]
