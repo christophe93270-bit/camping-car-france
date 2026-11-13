@@ -130,29 +130,30 @@
     "department": "70",
     "name": "Aire CAMPING-CAR PARK de Luxeuil-les-Bains",
     "city": "Luxeuil-les-Bains",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d’étape CAMPING-CAR PARK",
     "services": [
-      "Stationnement camping-car",
-      "Électricité",
-      "Eau potable",
-      "Vidange eaux usées",
-      "Wi-Fi"
+      "45 emplacements",
+      "Borne de services",
+      "Zone de vidange"
     ],
-    "price": "Tarif indicatif affiché par l'exploitant en octobre 2026 : 15,37 €/24 h dont 1,32 € de taxe de séjour ; tarif variable, à vérifier avant arrivée",
-    "status": "45 emplacements ; aire exploitée par CAMPING-CAR PARK ; ouverture et disponibilité à vérifier auprès de l'exploitant",
+    "price": "15,37 € /24 h TTC, dont 1,32 € de taxe de séjour (tarif officiel en vigueur au 13/11/2026). Stationnement 5 h + services : 6 €.",
+    "status": "Aire d’étape ouverte, 45 emplacements, au 17 rue Gambetta, en face de l’étang de la Poche.",
     "source": "https://www.openstreetmap.org/way/699144454",
-    "latitude": 47.8168079,
-    "longitude": 6.3866501,
-    "gpsSource": "https://www.openstreetmap.org/way/699144454",
+    "latitude": 47.81685,
+    "longitude": 6.386585,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/luxeuil-les-bains",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Recoupement avec l'exploitant et Haute-Saône Tourisme le 18/10/2026 ; tarif dynamique, ne pas présenter comme garanti.",
+    "importReview": "Recoupement avec l'exploitant et Haute-Saône Tourisme le 18/10/2026 ; tarif dynamique, ne pas présenter comme garanti. | 13/11/2026 : fiche CCP revérifiée ; tarif actuel calculé selon grille active : 14,05 € + taxe de séjour 1,32 € = 15,37 € /24 h ; capacité 45.",
     "sourceId": "way/699144454",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/luxeuil-les-bains?areaType=aire-etape-camping-car",
     "cityVerificationNote": "Commune recoupée avec le nom de la fiche OSM et le répertoire Haute-Saône Tourisme quand disponible ; emplacement GPS à vérifier indépendamment.",
     "address": "17 rue Gambetta, 70300 Luxeuil-les-Bains",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/luxeuil-les-bains?areaType=aire-etape-camping-car",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/luxeuil-les-bains?areaType=aire-etape-camping-car"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/luxeuil-les-bains",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/luxeuil-les-bains",
+    "capacity": 45,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/luxeuil-les-bains",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "70",
@@ -1192,5 +1193,28 @@
     "sourceId": "hautesaonetourisme/4910775",
     "importReview": "Commune de Traves confirme l'aire à l'Écurie de Lyly ; adresse 62 route de Cubry attestée par document préfectoral, GPS tiers 47.61303,5.96457 à vérifier sur place. Une description erronée de Chez Mirette apparaît sur le site GPS tiers : ne pas reprendre cette description.",
     "dataAttribution": "Commune de Traves / Haute-Saône Tourisme ; GPS To From France"
+  },
+  {
+    "department": "70",
+    "name": "Aire CAMPING-CAR PARK de Fresne-Saint-Mamès",
+    "city": "Fresne-Saint-Mamès",
+    "type": "Aire d’étape CAMPING-CAR PARK",
+    "services": [
+      "22 emplacements",
+      "Électricité 6 A"
+    ],
+    "price": "Tarif non publié sur la fiche officielle consultée.",
+    "status": "Fiche d’aire d’étape publiée par CAMPING-CAR PARK à la route de Vellexon. 22 emplacements et électricité 6 A annoncés ; la fiche consultée ne précise ni l’ouverture ni un tarif actuel.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/fresne-saint-mames",
+    "latitude": 47.55551,
+    "longitude": 5.84603,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/fresne-saint-mames",
+    "address": "1 route de Vellexon, 70130 Fresne-Saint-Mamès",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/fresne-saint-mames",
+    "capacity": 22,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/fresne-saint-mames",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/fresne-saint-mames",
+    "priceVerifiedOn": "2026-11-13",
+    "importReview": "13/11/2026 : fiche officielle CAMPING-CAR PARK ajoutée ; 22 emplacements, 6 A, adresse et GPS publiés. Statut d’ouverture et tarif non indiqués sur la fiche consultée."
   }
 ]
