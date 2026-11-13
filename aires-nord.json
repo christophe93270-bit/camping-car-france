@@ -21,21 +21,21 @@
   },
   {
     "department": "59",
-    "name": "Aire de Camping-Cars de Bray-Dunes",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Aire de camping-car CAMPING-CAR PARK de Bray-Dunes",
+    "city": "Bray-Dunes",
+    "type": "Aire d’étape CAMPING-CAR PARK",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
-    "source": "https://www.openstreetmap.org/node/10295792909",
-    "latitude": 51.0774318,
-    "longitude": 2.5225798,
-    "gpsSource": "https://www.openstreetmap.org/node/10295792909",
+    "price": "17,91 € / 24 h (taxe de séjour incluse)",
+    "status": "Aire CAMPING-CAR PARK de Bray-Dunes, 18 places, ouverte. Tarif affiché par l’annuaire régional le 13/11/2026 : 17,25 € + 0,66 € de taxe de séjour. Services OSM à vérifier.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/bray-dunes?areaType=aire-etape-camping-car",
+    "latitude": 51.07739,
+    "longitude": 2.522359,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/bray-dunes?areaType=aire-etape-camping-car",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Exploitant, commune et tarif confirmés par l’opérateur le 13/11/2026 ; services à vérifier",
     "sourceId": "node/10295792909",
     "servicesSource": "https://www.openstreetmap.org/node/10295792909"
   },
@@ -287,5 +287,33 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1312111334"
+  },
+  {
+    "department": "59",
+    "name": "Camping de mon Village CAMPING-CAR PARK de Felleries",
+    "city": "Felleries",
+    "type": "Camping de mon Village CAMPING-CAR PARK",
+    "services": [],
+    "price": "14,29 € / 24 h (taxe de séjour incluse)",
+    "status": "Camping de mon Village CAMPING-CAR PARK de Felleries, 60 places, ouvert. Tarif affiché par l’annuaire régional le 13/11/2026 : 13,85 € + 0,44 € de taxe de séjour. Les sanitaires sont saisonniers (01/04–30/09 selon la fiche opérateur).",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/felleries?areaType=camping",
+    "latitude": 50.14276,
+    "longitude": 4.028031,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/felleries?areaType=camping",
+    "importReview": "Fiche opérateur vérifiée le 13/11/2026"
+  },
+  {
+    "department": "59",
+    "name": "Camping de mon Village CAMPING-CAR PARK d’Arleux",
+    "city": "Arleux",
+    "type": "Camping de mon Village CAMPING-CAR PARK",
+    "services": [],
+    "price": "12,14 € / 24 h (taxe de séjour incluse)",
+    "status": "Camping de mon Village CAMPING-CAR PARK d’Arleux, 60 places, ouvert. Tarif affiché le 13/11/2026 : 11,70 € + 0,44 € de taxe de séjour. L’ouverture des sanitaires est saisonnière ; l’aire reste ouverte toute l’année.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/arleux",
+    "latitude": 50.27377,
+    "longitude": 3.105601,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/arleux",
+    "importReview": "Fiche opérateur vérifiée le 13/11/2026"
   }
 ]
