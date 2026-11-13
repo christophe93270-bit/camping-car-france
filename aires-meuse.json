@@ -122,25 +122,28 @@
   },
   {
     "department": "55",
-    "name": "Camping Le Chartel — Ligny-en-Barrois (à confirmer)",
+    "name": "Camping de mon Village CAMPING-CAR PARK de Ligny-en-Barrois",
     "city": "Ligny-en-Barrois",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Camping de mon Village CAMPING-CAR PARK",
     "services": [
       "Douches",
       "Toilettes"
     ],
-    "price": "Non confirmé",
-    "status": "Point OSM distinct du relais nautique ; correspondance avec camping Le Chartel à confirmer sur plan. Ne pas fusionner sans vérification géographique. Camping CAMPING-CAR PARK cité par l'office de tourisme, avec eau, électricité et vidanges.",
+    "price": "12,64 € / 24 h dont 0,44 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier) ; forfait 5 h + services : 6 €.",
+    "status": "Camping de mon Village CAMPING-CAR PARK ouvert selon l’exploitant ; 17 places, sanitaires saisonniers.",
     "source": "https://www.openstreetmap.org/way/238169980",
-    "latitude": 48.6859295,
-    "longitude": 5.3179518,
-    "gpsSource": "https://www.openstreetmap.org/way/238169980",
+    "latitude": 48.686114,
+    "longitude": 5.316831,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/ligny%20en%20barrois?areaType=camping",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : source institutionnelle consultée, distinction stationnement/camping et réserves documentées.",
     "sourceId": "way/238169980",
     "servicesSource": "https://www.openstreetmap.org/way/238169980",
-    "sourceOfficial": "https://www.tourisme-barleducsudmeuse.fr/Aire_de_stationnement-754005537-38"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/ligny%20en%20barrois?areaType=camping",
+    "address": "47 rue des États-Unis, 55500 Ligny-en-Barrois",
+    "capacity": 17,
+    "verificationNote": "L’exploitant confirme le site CAMPING de mon Village au 47 rue des États-Unis, 17 places. Le point OSM est cohérent avec ses coordonnées officielles."
   },
   {
     "department": "55",
@@ -169,9 +172,9 @@
   },
   {
     "department": "55",
-    "name": "Camping du Château — CAMPING-CAR PARK Bar-le-Duc",
+    "name": "Camping de mon Village CAMPING-CAR PARK — Bar-le-Duc",
     "city": "Bar-le-Duc",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Camping de mon Village CAMPING-CAR PARK",
     "services": [
       "Stationnement payant (20 places)",
       "Électricité",
@@ -181,29 +184,30 @@
       "Laverie",
       "Sanitaires en saison"
     ],
-    "price": "Selon l'office de tourisme : 15 €/24 h de mai à septembre (taxe de séjour de 0,44 € indiquée séparément) ; 12,20 €/24 h d'octobre à avril taxe comprise ; 6 € / 5 h avec services. Vérifier le tarif effectif à la borne.",
-    "status": "Camping de 20 emplacements pour camping-cars, accès automatisé toute l'année 24h/24. Sanitaires accessibles de mai à septembre. Zone soumise à PPRI selon l'exploitant.",
+    "price": "12,64 € / 24 h dont 0,44 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier) ; forfait 5 h + services : 6 €.",
+    "status": "Camping de mon Village CAMPING-CAR PARK ouvert selon l’exploitant ; 20 places. Zone soumise à un PPRI.",
     "source": "https://www.openstreetmap.org/way/322942461",
-    "latitude": 48.7741629,
-    "longitude": 5.174248,
-    "gpsSource": "https://www.openstreetmap.org/way/322942461",
+    "latitude": 48.774325,
+    "longitude": 5.174116,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/bar%20le%20duc",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune normalisée d'après intitulé et localisation ; détails d'exploitation à confirmer. | 18/10/2026 : source institutionnelle consultée, distinction stationnement/camping et réserves documentées.",
     "sourceId": "way/322942461",
     "servicesSource": "https://www.openstreetmap.org/way/322942461",
-    "address": "Rue Jean Bernard, 55000 Bar-le-Duc",
-    "sourceOfficial": "https://www.tourisme-barleducsudmeuse.fr/CAMPING_DU_CHATEAU-754001624-38",
+    "address": "11 rue Jean Bernard, 55000 Bar-le-Duc",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/bar%20le%20duc",
     "priceSource": "https://www.tourisme-barleducsudmeuse.fr/CAMPING_DU_CHATEAU-754001624-38",
     "relatedOfficialSources": [
       "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/bar%20le%20duc"
-    ]
+    ],
+    "capacity": 20
   },
   {
     "department": "55",
     "name": "Camping de mon village CAMPING-CAR PARK — Montmédy",
     "city": "Montmédy",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Camping de mon Village CAMPING-CAR PARK",
     "services": [
       "Stationnement payant (32 places)",
       "Électricité 6 A (22 prises)",
@@ -211,8 +215,8 @@
       "Borne de vidange à proximité",
       "Éclairage"
     ],
-    "price": "12 € / 24 h + taxe de séjour 0,44 € = 12,44 € / 24 h, grille exploitant valable du 06/10/2026 au 31/12/2027 ; forfait 5 h + services : 6 €.",
-    "status": "Camping de mon village de 32 emplacements, ouvert, au pied de la citadelle. 22 branchements électriques 6 A annoncés par l'exploitant. Attention : la fiche précédente de l'office décrivait une borne de vidange sans stationnement à proximité, distincte de ce camping ; correspondance du point OSM avec le camping à vérifier avant de modifier les coordonnées GPS.",
+    "price": "12,44 € / 24 h dont 0,44 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier) ; forfait 5 h + services : 6 €.",
+    "status": "Camping de mon Village CAMPING-CAR PARK ouvert selon l’exploitant ; 32 places et 22 branchements électriques 6 A.",
     "source": "https://www.openstreetmap.org/way/468359031",
     "latitude": 49.52095,
     "longitude": 5.36087,
@@ -228,7 +232,8 @@
     "relatedOfficialSources": [
       "https://www.montmedy.fr/monsejour/ou-dormir/",
       "https://www.montmedy.fr/points-d-interet/aire-services-sans-stationnement/"
-    ]
+    ],
+    "capacity": 32
   },
   {
     "department": "55",
@@ -373,5 +378,39 @@
     "relatedOfficialSources": [
       "https://tourisme-meurtheetmoselle.fr/accueil/lessentiel/patrimoine/musees/836000919-aire-de-stationnement"
     ]
+  },
+  {
+    "department": "55",
+    "name": "Aire CAMPING-CAR PARK de Charny-sur-Meuse",
+    "city": "Charny-sur-Meuse",
+    "type": "Aire d'étape CAMPING-CAR PARK",
+    "services": [],
+    "price": "12,32 € / 24 h dont 1,22 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier) ; forfait 5 h + services : 6 €.",
+    "status": "Aire CAMPING-CAR PARK ouverte selon l’exploitant ; 50 emplacements. Zone soumise à un PPRI.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/charny-sur-meuse?areaType=aire-etape-camping-car",
+    "latitude": 49.21121,
+    "longitude": 5.365987,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/charny-sur-meuse?areaType=aire-etape-camping-car",
+    "address": "Camping sous le Moulin, 55100 Charny-sur-Meuse",
+    "capacity": 50,
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/charny-sur-meuse?areaType=aire-etape-camping-car",
+    "verificationNote": "Adresse, coordonnées, capacité et tarif relevés sur la fiche officielle CAMPING-CAR PARK."
+  },
+  {
+    "department": "55",
+    "name": "Aire CAMPING-CAR PARK de Commercy",
+    "city": "Commercy",
+    "type": "Aire d'étape CAMPING-CAR PARK",
+    "services": [],
+    "price": "12,32 € / 24 h dont 1,32 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier) ; forfait 5 h + services : 6 €.",
+    "status": "Aire CAMPING-CAR PARK ouverte selon l’exploitant ; 24 emplacements. Sanitaires fermés jusqu’à nouvel ordre. Fermeture exceptionnelle annoncée du 4 décembre 2026 à 16 h au 5 décembre à 23 h.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/commercy?areaType=aire-etape-camping-car",
+    "latitude": 48.764478,
+    "longitude": 5.595677,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/commercy?areaType=aire-etape-camping-car",
+    "address": "Rue du Docteur-Boyer, 55200 Commercy",
+    "capacity": 24,
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/commercy?areaType=aire-etape-camping-car",
+    "verificationNote": "Adresse, coordonnées, capacité, tarif et avis de fermeture temporaire des sanitaires relevés sur la fiche officielle CAMPING-CAR PARK."
   }
 ]
