@@ -800,21 +800,21 @@
     "city": "Pierre-de-Bresse",
     "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
-      "Stationnement (12 emplacements)",
+      "Stationnement (16 emplacements)",
       "Eau potable",
       "Électricité",
       "Vidange eaux usées",
       "Poubelles"
     ],
-    "price": "14,30 € / 24 h, taxe de séjour de 0,80 € incluse (tarif affiché par l'opérateur).",
-    "status": "Aire d'étape CAMPING-CAR PARK ouverte toute l'année, 16 places, accessible 24 h/24.",
+    "price": "14,30 € / 24 h, dont 0,80 € de taxe de séjour (tarif actuel affiché par l’opérateur).",
+    "status": "Aire d’étape CAMPING-CAR PARK ouverte toute l’année, 16 places, accessible 24 h/24. L’annuaire touristique encore consulté indique 12 places ; capacité actuelle de l’opérateur retenue.",
     "source": "https://www.openstreetmap.org/way/1278305954",
     "latitude": 46.8826049,
     "longitude": 5.2679015,
     "gpsSource": "https://www.openstreetmap.org/way/1278305954",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Fiche tourisme départemental mise à jour le 11/05/2026, 12 places, ouverture annuelle, tarif indicatif 6–13,50 €. | 13/11/2026 : la fiche opérateur consultée indique 16 places et 14,30 €/24 h dont 0,80 € de taxe ; la capacité de 12 places de la fiche touristique locale est ancienne.",
+    "importReview": "Fiche tourisme départemental mise à jour le 11/05/2026, 12 places, ouverture annuelle, tarif indicatif 6–13,50 €. | 13/11/2026 : la fiche opérateur consultée indique 16 places et 14,30 €/24 h dont 0,80 € de taxe ; la capacité de 12 places de la fiche touristique locale est ancienne. | 13/11/2026 : opérateur revérifié : 16 places et 14,30 €/24 h dont 0,80 € de taxe. L’ancienne fiche Destination 71 affiche toujours 12 places ; donnée actuelle opérateur retenue.",
     "sourceId": "way/1278305954",
     "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-les-campings-cars.html-0",
     "address": "3 Route de Lons-le-Saunier, 71270 Pierre-de-Bresse",
@@ -825,31 +825,34 @@
   },
   {
     "department": "71",
-    "name": "Aire Camping car Montceau-les-Mines",
+    "name": "Aire municipale de services camping-car de Montceau-les-Mines — Boulevard Maugrand",
     "city": "Montceau-les-Mines",
-    "type": "Aire de services et stationnement camping-car",
+    "type": "Aire municipale de services et stationnement camping-car",
     "services": [
-      "Stationnement gratuit (10 places, 72 h maximum)",
+      "Stationnement gratuit (10 places, durée maximale 72 h)",
       "Vidange eaux usées",
       "Eau potable",
-      "Électricité"
+      "Électricité",
+      "Services par carte bancaire : 2 €"
     ],
-    "price": "Stationnement gratuit ; services 2 € par carte bancaire, tarif publié à revérifier",
-    "status": "Accessible toute l'année selon Destination Saône-et-Loire ; stationnement limité à 72 heures.",
+    "price": "Stationnement gratuit ; vidange, eau et électricité : 2 € par paiement par carte (tarif publié par l’office de tourisme).",
+    "status": "Aire municipale accessible toute l’année, 10 places, stationnement gratuit limité à 72 h ; services annoncés à 2 €. CAMPING-CAR PARK affiche un projet « À venir » à la même adresse et au même GPS : ne pas créer de doublon ni supposer que le projet a remplacé l’aire municipale.",
     "source": "https://www.openstreetmap.org/way/1280580797",
     "latitude": 46.6772702,
     "longitude": 4.3581632,
     "gpsSource": "https://www.openstreetmap.org/way/1280580797",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Source touristique départementale : 10 places, 72 h max, stationnement gratuit, borne 2 € CB. Ne pas confondre avec le port de plaisance dont tarifs sont pour bateaux. | 13/11/2026 : projet CAMPING-CAR PARK officiellement annoncé « À venir » au même boulevard et au même point; lien exact avec l'aire municipale existante à confirmer.",
+    "importReview": "Source touristique départementale : 10 places, 72 h max, stationnement gratuit, borne 2 € CB. Ne pas confondre avec le port de plaisance dont tarifs sont pour bateaux. | 13/11/2026 : projet CAMPING-CAR PARK officiellement annoncé « À venir » au même boulevard et au même point; lien exact avec l'aire municipale existante à confirmer. | 13/11/2026 : office de tourisme confirme encore l’aire municipale ouverte toute l’année (10 places, 72 h, services à 2 €) ; CCP est toujours « À venir » au même emplacement.",
     "sourceId": "way/1280580797",
     "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-2",
     "address": "Boulevard Maugrand, 71300 Montceau-les-Mines",
     "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-2",
     "priceSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-2",
     "relatedOfficialSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/montceau-les-mines",
-    "verificationNote": " Fiche CAMPING-CAR PARK « Montceau-les-Mines » marquée « À venir » au 13/11/2026, au Bd Maugrand et à un GPS quasi identique à cette aire communale. Ne pas créer de doublon ; vérifier si le projet CCP remplace ou transforme l'installation municipale avant d'actualiser tarif et capacité."
+    "verificationNote": "Au 13/11/2026, la fiche municipale/touristique conserve l’aire de 10 places, stationnement gratuit 72 h et services à 2 €. La page CAMPING-CAR PARK située au même emplacement porte toujours la mention « À venir » ; relation opérationnelle entre les deux installations à confirmer.",
+    "capacity": 10,
+    "capacitySource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-2"
   },
   {
     "department": "71",
@@ -860,17 +863,20 @@
       "Stationnement (10 places selon annuaire secondaire, non confirmé)"
     ],
     "price": "Gratuit selon annuaire secondaire, non confirmé par la ville",
-    "status": "Parking promenade Sainte-Marie signalé par annuaires, mais autorisation et capacité camping-car non confirmées en 2026. Ne pas confondre avec l'aire officielle de 24 places avenue Léon-Blum.",
+    "status": "Parking promenade Sainte-Marie signalé par annuaires ; autorisation et capacité camping-car non confirmées. Ne pas confondre avec l’aire officielle de 24 places avenue Léon-Blum. La Ville a publié le 01/07/2026 un avis pour l’exploitation d’une aire sur un terrain communal, mais la source consultée ne permet pas de l’identifier à ce parking.",
     "source": "https://www.openstreetmap.org/way/1288052438",
     "latitude": 46.7844654,
     "longitude": 4.8617552,
     "gpsSource": "https://www.openstreetmap.org/way/1288052438",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Article Camping-car.com pour Chalon dans la Rue 2025 mentionne le stationnement sur la promenade Sainte-Marie ; Caraplace donne 10 places et gratuité d'après OSM. Pas de source municipale confirmant les conditions 2026. | 18/10/2026 : Destination Saône-et-Loire confirme une aire de 24 places avenue Léon Blum, distincte de la promenade Sainte-Marie (GPS OSM). Ne pas transférer ses tarifs (14-15 €/24 h), équipements ou sa sourceOfficial vers cette fiche. La ville documente historiquement promenade Sainte-Marie comme parking de véhicules légers ; autorisation camping-car 2026 non établie. | 18/10/2026 : Destination Saône-et-Loire situe la Maison des Vins au 2 promenade Sainte-Marie ; cette adresse commerciale ne prouve ni places réservées aux camping-cars ni autorisation de nuitée. Dossier maintenu en attente de réglementation municipale.",
+    "importReview": "Article Camping-car.com pour Chalon dans la Rue 2025 mentionne le stationnement sur la promenade Sainte-Marie ; Caraplace donne 10 places et gratuité d'après OSM. Pas de source municipale confirmant les conditions 2026. | 18/10/2026 : Destination Saône-et-Loire confirme une aire de 24 places avenue Léon Blum, distincte de la promenade Sainte-Marie (GPS OSM). Ne pas transférer ses tarifs (14-15 €/24 h), équipements ou sa sourceOfficial vers cette fiche. La ville documente historiquement promenade Sainte-Marie comme parking de véhicules légers ; autorisation camping-car 2026 non établie. | 18/10/2026 : Destination Saône-et-Loire situe la Maison des Vins au 2 promenade Sainte-Marie ; cette adresse commerciale ne prouve ni places réservées aux camping-cars ni autorisation de nuitée. Dossier maintenu en attente de réglementation municipale. | 13/11/2026 : avis municipal du 01/07/2026 pour exploiter une aire d’accueil camping-cars relevé ; adresse/terrain non reliés à la promenade Sainte-Marie. Statut de ce parking reste non confirmé.",
     "sourceId": "way/1288052438",
     "cityVerificationNote": "Commune corroborée par article et annuaires.",
-    "relatedOfficialSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-les-camping-cars.html-2"
+    "relatedOfficialSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-les-camping-cars.html-2",
+    "relatedOfficialSources": [
+      "https://www.chalon.fr/"
+    ]
   },
   {
     "department": "71",
@@ -888,11 +894,13 @@
     "gpsSource": "https://www.openstreetmap.org/way/1293621550",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Office de tourisme Cluny Sud Bourgogne confirme la localisation, la capacité et les caractéristiques du parking. Aucun service technique ni tarif confirmé ; GPS OpenStreetMap conservé.",
+    "importReview": "Office de tourisme Cluny Sud Bourgogne confirme la localisation, la capacité et les caractéristiques du parking. Aucun service technique ni tarif confirmé ; GPS OpenStreetMap conservé. | 13/11/2026 : fiche actuelle de Cluny Sud Bourgogne confirme 2 places, parking goudronné légèrement en pente et peu ombragé.",
     "sourceId": "way/1293621550",
     "address": "71460 Saint-Marcelin-de-Cray",
-    "sourceOfficial": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-st-marcelin-de-cray/",
-    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-st-marcelin-de-cray/"
+    "sourceOfficial": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-15/",
+    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-15/",
+    "capacity": 2,
+    "capacitySource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-15/"
   },
   {
     "department": "71",
@@ -910,11 +918,13 @@
     "gpsSource": "https://www.openstreetmap.org/way/1293627829",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Office de tourisme Cluny Sud Bourgogne : 4 emplacements, Les Cours Jacob, parking mairie.",
+    "importReview": "Office de tourisme Cluny Sud Bourgogne : 4 emplacements, Les Cours Jacob, parking mairie. | 13/11/2026 : fiche actuelle de Cluny Sud Bourgogne confirme 4 places, parking plat près de la mairie, Les Cours Jacob.",
     "sourceId": "way/1293627829",
     "address": "Les Cours Jacob, parking de la mairie, 71250 Bray",
-    "sourceOfficial": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-3/",
-    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-3/"
+    "sourceOfficial": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-bray/",
+    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-bray/",
+    "capacity": 4,
+    "capacitySource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-bray/"
   },
   {
     "department": "71",
@@ -925,18 +935,20 @@
       "Stationnement (5 emplacements)"
     ],
     "price": "Non confirmé",
-    "status": "Parking goudronné près de l'entrée des grottes ; partie droite plus plane, prévoir des cales. Eau, électricité et vidange non confirmées.",
+    "status": "Plusieurs espaces près des grottes : parking goudronné au plus près de l’entrée, plus plat à droite ; plus haut vers la cabane en pierre, des terrains en herbe plus plats et ombragés. Prévoir des cales. Services et tarif non confirmés.",
     "source": "https://www.openstreetmap.org/way/1293632945",
     "latitude": 46.4842657,
     "longitude": 4.7460669,
     "gpsSource": "https://www.openstreetmap.org/way/1293632945",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Office de tourisme Cluny Sud Bourgogne confirme 5 emplacements, parking goudronné près des grottes. Services non confirmés.",
+    "importReview": "Office de tourisme Cluny Sud Bourgogne confirme 5 emplacements, parking goudronné près des grottes. Services non confirmés. | 13/11/2026 : fiche Cluny Sud Bourgogne confirme 5 emplacements et distingue parking goudronné près de l’entrée et zones en herbe plus haut.",
     "sourceId": "way/1293632945",
     "address": "Parking des Grottes de Blanot, 71250 Blanot",
     "sourceOfficial": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-blanot/",
-    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-blanot/"
+    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-blanot/",
+    "capacity": 5,
+    "capacitySource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-blanot/"
   },
   {
     "department": "71",
@@ -950,45 +962,53 @@
       "Eau potable"
     ],
     "price": "Non confirmé",
-    "status": "Aire de repos et services référencée par Destination Saône-et-Loire ; tarifs à confirmer.",
+    "status": "Aire de stationnement référencée rue de la République ; 6 emplacements sur terrain plat, dans une zone calme au bord de la Grosne. Les équipements et tarifs ne sont pas assez détaillés dans la fiche officielle consultée pour les confirmer ici.",
     "source": "https://www.openstreetmap.org/way/1296350421",
     "latitude": 46.6368452,
     "longitude": 4.8708251,
     "gpsSource": "https://www.openstreetmap.org/way/1296350421",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Tourisme départemental : 6 emplacements, eau, électricité, vidange, parking.",
+    "importReview": "Tourisme départemental : 6 emplacements, eau, électricité, vidange, parking. | 13/11/2026 : Destination Saône-et-Loire confirme 6 emplacements et terrain plat au bord de la Grosne ; services et tarif laissés non confirmés.",
     "sourceId": "way/1296350421",
     "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-campings-cars.html",
     "address": "Rue de la République, 71240 Sennecey-le-Grand",
-    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-campings-cars.html"
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-campings-cars.html",
+    "capacity": 6,
+    "capacitySource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-campings-cars.html"
   },
   {
     "department": "71",
-    "name": "Aire Camping-cars Gueugnon",
+    "name": "Aire de services pour camping-cars de Gueugnon — Chazey",
     "city": "Gueugnon",
     "type": "Aire de services camping-car",
     "services": [
-      "Stationnement (3 emplacements selon guide 2025)",
-      "Aire de services (détails à confirmer)"
+      "3 emplacements",
+      "Borne de services gratuite",
+      "Électricité",
+      "Vidange eaux usées",
+      "Eau potable"
     ],
-    "price": "Non confirmé",
-    "status": "Aire de services à Chazey référencée par le guide touristique 2025 ; conditions d'accès à vérifier.",
+    "price": "Borne de services gratuite.",
+    "status": "Borne de services pour camping-cars près du camping à Chazey, ouverte du printemps à fin octobre. Trois emplacements répertoriés ; ne pas déduire d’autorisation de nuitée.",
     "source": "https://www.openstreetmap.org/way/1296351863",
     "latitude": 46.5705491,
     "longitude": 4.0538612,
     "gpsSource": "https://www.openstreetmap.org/way/1296351863",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Guide pratique Pays Charolais-Brionnais 2025 : 3 emplacements, Chazey, Gueugnon. Ne pas inventer eau/électricité/vidange sans description précise.",
+    "importReview": "Guide pratique Pays Charolais-Brionnais 2025 : 3 emplacements, Chazey, Gueugnon. Ne pas inventer eau/électricité/vidange sans description précise. | 13/11/2026 : office de tourisme confirme 3 places, borne gratuite, eau, vidange, électricité et ouverture du printemps à fin octobre.",
     "sourceId": "way/1296351863",
-    "servicesSource": "https://www.openstreetmap.org/way/1296351863",
+    "servicesSource": "https://www.tourismecharolaisbrionnais.fr/accueil-camping-car/aire-de-service-pour-les-campings-cars-ACCBOU071234070.html",
     "address": "Chazey, 71130 Gueugnon",
-    "sourceOfficial": "https://www.tourisme-paraylemonial.fr/document/telechargement/pdf/guide-pratique-pcb-2025-web.pdf"
+    "sourceOfficial": "https://www.tourismecharolaisbrionnais.fr/accueil-camping-car/aire-de-service-pour-les-campings-cars-ACCBOU071234070.html",
+    "priceSource": "https://www.tourismecharolaisbrionnais.fr/accueil-camping-car/aire-de-service-pour-les-campings-cars-ACCBOU071234070.html",
+    "capacity": 3,
+    "capacitySource": "https://www.tourismecharolaisbrionnais.fr/accueil-camping-car/aire-de-service-pour-les-campings-cars-ACCBOU071234070.html"
   },
   {
     "department": "71",
-    "name": "Aire d'accueil des camping-cars Sainte-Croix-en-Bresse",
+    "name": "Aire d’accueil des camping-cars de Sainte-Croix-en-Bresse",
     "city": "Sainte-Croix-en-Bresse",
     "type": "Aire de services et stationnement camping-car",
     "services": [
@@ -1000,18 +1020,23 @@
       "Tables et bancs"
     ],
     "price": "Non confirmé",
-    "status": "Aire de stationnement et services au centre du village près du Solnan ; conditions d'accès et tarifs à confirmer.",
+    "status": "Aire d’accueil et de services au cœur du village près du Solnan, à l’entrée du bourg côté Louhans, au pied du moulin. Destination Saône-et-Loire indique 5 places, eau potable, vidange, WC, poubelles, tables et bancs. Tarif et nuitée non précisés.",
     "source": "https://www.openstreetmap.org/way/1297180676",
     "latitude": 46.5728724,
     "longitude": 5.2465421,
     "gpsSource": "https://www.openstreetmap.org/way/1297180676",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Source touristique départementale : 5 emplacements, eau, vidange, toilettes, poubelles, tables. Électricité non confirmée, ne pas reprendre tag OSM sans validation.",
+    "importReview": "Source touristique départementale : 5 emplacements, eau, vidange, toilettes, poubelles, tables. Électricité non confirmée, ne pas reprendre tag OSM sans validation. | 13/11/2026 : fiche officielle départementale confirme 5 places, eau, vidange, toilettes, poubelles, tables et bancs ; la mairie situe l’aire au pied du moulin, entrée côté Louhans.",
     "sourceId": "way/1297180676",
-    "address": "Le Bourg, 71470 Sainte-Croix-en-Bresse",
-    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-les-campings-cars.html",
-    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-les-campings-cars.html"
+    "address": "Le Bourg, au pied du moulin, entrée du village depuis Louhans, 71470 Sainte-Croix-en-Bresse",
+    "sourceOfficial": "https://www.mairie-sainte-croix-en-bresse.fr/aire-daccueil-des-camping-cars/",
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-les-campings-cars.html",
+    "capacity": 5,
+    "capacitySource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-les-campings-cars.html",
+    "relatedOfficialSources": [
+      "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-les-campings-cars.html"
+    ]
   },
   {
     "department": "71",
@@ -1029,11 +1054,13 @@
     "gpsSource": "https://www.openstreetmap.org/way/1297214115",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Office de tourisme Cluny Sud Bourgogne confirme la localisation, la capacité et les caractéristiques du parking. Aucun service technique ni tarif confirmé ; GPS OpenStreetMap conservé.",
+    "importReview": "Office de tourisme Cluny Sud Bourgogne confirme la localisation, la capacité et les caractéristiques du parking. Aucun service technique ni tarif confirmé ; GPS OpenStreetMap conservé. | 13/11/2026 : capacité de 2 emplacements reconfirmée par la fiche Cluny Sud Bourgogne.",
     "sourceId": "way/1297214115",
     "address": "71220 Pressy-sous-Dondin",
     "sourceOfficial": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-pressy-sous-dondin/",
-    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-pressy-sous-dondin/"
+    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-pressy-sous-dondin/",
+    "capacity": 2,
+    "capacitySource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-pressy-sous-dondin/"
   },
   {
     "department": "71",
