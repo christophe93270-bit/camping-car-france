@@ -241,12 +241,16 @@
     "department": "47",
     "name": "Aire de Camping-car de Monteton",
     "city": "Monteton",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire communale de camping-cars",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques",
+      "Toilettes publiques"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "10 emplacements, aire ouverte toute l’année. La page touristique indique un stationnement libre, mais ne publie pas de tarif ; prix et modalités des services à confirmer.",
     "source": "https://www.openstreetmap.org/way/901964847",
     "latitude": 44.6221628,
     "longitude": 0.2569622,
@@ -255,16 +259,22 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/901964847",
-    "servicesSource": "https://www.openstreetmap.org/way/901964847"
+    "servicesSource": "https://www.openstreetmap.org/way/901964847",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-cars-de-monteton/",
+    "capacity": 10,
+    "opening": "Toute l’année"
   },
   {
     "department": "47",
     "name": "Aire de camping-cars de la ville de La Sauvetat-du-Dropt",
     "city": "La Sauvetat-du-Dropt",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de camping-car communale",
+    "services": [
+      "Eau potable à proximité",
+      "Toilettes à proximité"
+    ],
+    "price": "Gratuit",
+    "status": "6 emplacements, ouverte toute l’année, stationnement gratuit limité à 72 h. Pas de vidange sur place ; point d’eau et toilettes à proximité.",
     "source": "https://www.openstreetmap.org/way/901969739",
     "latitude": 44.6472945,
     "longitude": 0.3417813,
@@ -272,16 +282,23 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/901969739"
+    "sourceId": "way/901969739",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-la-sauvetat-du-dropt/",
+    "capacity": 6,
+    "opening": "Toute l’année",
+    "parkingLimit": "72 h"
   },
   {
     "department": "47",
     "name": "Aire de camping-cars de la ville de Lauzun",
     "city": "Lauzun",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire municipale de camping-cars",
+    "services": [
+      "Eau potable à proximité",
+      "Sanitaires à proximité"
+    ],
+    "price": "Gratuit",
+    "status": "2 emplacements près du lac ; stationnement et services gratuits, ouvert toute l’année, maximum 48 h. Pas de vidange possible.",
     "source": "https://www.openstreetmap.org/way/901973836",
     "latitude": 44.6276054,
     "longitude": 0.4598442,
@@ -289,18 +306,22 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/901973836"
+    "sourceId": "way/901973836",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-cars-de-lauzun/",
+    "capacity": 2,
+    "opening": "Toute l’année",
+    "parkingLimit": "48 h"
   },
   {
     "department": "47",
     "name": "Aire de Camping-car Monbahus",
     "city": "Monbahus",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire communale de camping-car",
     "services": [
-      "Électricité"
+      "Électricité (aux heures de l’éclairage public)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit (tarif des services non précisé)",
+    "status": "3 emplacements, ouverts toute l’année. Le stationnement est gratuit ; l’électricité fonctionne aux heures de l’éclairage public. Le prix éventuel des services n’est pas précisé.",
     "source": "https://www.openstreetmap.org/way/901982446",
     "latitude": 44.5472237,
     "longitude": 0.5351033,
@@ -309,16 +330,19 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/901982446",
-    "servicesSource": "https://www.openstreetmap.org/way/901982446"
+    "servicesSource": "https://www.openstreetmap.org/way/901982446",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-monbahus/",
+    "capacity": 3,
+    "opening": "Toute l’année"
   },
   {
     "department": "47",
     "name": "Aire de camping-car de Fumel",
     "city": "Fumel",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire communale de camping-car",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "10 emplacements à la place du Saulou, ouverts de mars à novembre ; stationnement gratuit. Les services ne sont pas détaillés par l’office de tourisme.",
     "source": "https://www.openstreetmap.org/way/901990094",
     "latitude": 44.4988386,
     "longitude": 0.9719224,
@@ -326,16 +350,19 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/901990094"
+    "sourceId": "way/901990094",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-fumel/",
+    "capacity": 10,
+    "opening": "Mars à novembre"
   },
   {
     "department": "47",
     "name": "Aire de camping-car de Saint-Sylvestre",
     "city": "Saint-Sylvestre-sur-Lot",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire communale de camping-car",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "12 emplacements, ouverte toute l’année, stationnement gratuit et durée maximale de 48 h. L’office de tourisme indique que l’aire est équipée sans détailler la liste des services.",
     "source": "https://www.openstreetmap.org/way/901996970",
     "latitude": 44.396347,
     "longitude": 0.8049827,
@@ -343,18 +370,23 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/901996970"
+    "sourceId": "way/901996970",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-saint-sylvestre/",
+    "capacity": 12,
+    "opening": "Toute l’année",
+    "parkingLimit": "48 h"
   },
   {
     "department": "47",
     "name": "Aire de camping-car de Saint-Georges (Lot-et-Garonne)",
     "city": "Saint-Georges",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire communale de camping-car",
     "services": [
-      "Électricité"
+      "Eau potable (remplissage des cuves)",
+      "Vidange toilettes chimiques"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "4 emplacements, ouverte toute l’année. Stationnement gratuit limité à 7 nuits ; borne d’eau pour remplissage des cuves et réceptacle pour cassette chimique.",
     "source": "https://www.openstreetmap.org/way/901996971",
     "latitude": 44.4415476,
     "longitude": 0.9388381,
@@ -363,16 +395,24 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/901996971",
-    "servicesSource": "https://www.openstreetmap.org/way/901996971"
+    "servicesSource": "https://www.openstreetmap.org/way/901996971",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-saint-georges/",
+    "capacity": 4,
+    "opening": "Toute l’année",
+    "parkingLimit": "7 nuits"
   },
   {
     "department": "47",
     "name": "Aire de camping-cars de Villeréal",
-    "city": "VILLEREAL",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Villeréal",
+    "type": "Aire technique et stationnement camping-car",
+    "services": [
+      "Eau potable",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
+    ],
+    "price": "Gratuit",
+    "status": "10 emplacements, ouverts toute l’année ; services et stationnement gratuits. L’eau n’est pas distribuée en cas de gel.",
     "source": "https://www.openstreetmap.org/way/902198125",
     "latitude": 44.6383833,
     "longitude": 0.7406233,
@@ -380,16 +420,21 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/902198125"
+    "sourceId": "way/902198125",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-cars-de-villereal/",
+    "capacity": 10,
+    "opening": "Toute l’année (eau coupée en cas de gel)"
   },
   {
     "department": "47",
     "name": "Aire de camping-cars Saint-Pardoux-Isaac",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "city": "Saint-Pardoux-Isaac",
+    "type": "Aire de services privée à l’Intermarché",
+    "services": [
+      "Services pour camping-car (détails à confirmer)"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Le point OSM correspond à l’aire privée du centre commercial Intermarché, lieu-dit Rebiquet. La disponibilité du stationnement pour la nuit, les services actuels et leurs tarifs ne sont pas confirmés ; ne pas présenter comme aire municipale.",
     "source": "https://www.openstreetmap.org/way/1251237493",
     "latitude": 44.6138647,
     "longitude": 0.3595629,
@@ -397,19 +442,20 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1251237493"
+    "sourceId": "way/1251237493",
+    "verificationSource": "https://www.openstreetmap.org/way/1251237493"
   },
   {
     "department": "47",
     "name": "Camping-car Park Castillonnès",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Castillonnès",
+    "type": "Camping-car Park — Camping de mon Village",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Électricité 6 A",
+      "Sanitaires (saisonniers)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "13,23 €/24 h + taxe de séjour",
+    "status": "Aire Camping-Car Park ouverte : 32 emplacements. Sanitaires annoncés ouverts du 31 mars au 3 novembre 2026. Tarif de séjour affiché en vigueur jusqu’au 31 décembre 2027.",
     "source": "https://www.openstreetmap.org/way/1304838143",
     "latitude": 44.6556038,
     "longitude": 0.5912232,
@@ -418,7 +464,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1304838143",
-    "servicesSource": "https://www.openstreetmap.org/way/1304838143"
+    "servicesSource": "https://www.openstreetmap.org/way/1304838143",
+    "priceDetail": "Tarif CCP affiché pour la période du 01/10/2026 au 31/12/2027 : 13,23 €/24 h. Taxe de séjour affichée pour 2026 : 0,58 €/24 h. Parking 5 h + services : 6 €.",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/castillonnes",
+    "capacity": 32,
+    "opening": "Aire ouverte toute l’année"
   },
   {
     "department": "47",
