@@ -31,14 +31,14 @@
     "department": "54",
     "name": "Aire CAMPING-CAR PARK de Fontenoy-la-Joûte",
     "city": "Fontenoy-la-Joûte",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
       "Stationnement (12 places)",
       "Branchements électriques 6 A",
       "Services de l'aire (forfait 5 h)"
     ],
-    "price": "Grille CAMPING-CAR PARK du 01/10/2026 au 31/12/2027 : 11 € / 24 h + taxe de séjour 1,32 € (2026) = 12,32 € / 24 h calculés. Le bandeau de la même page affiche toutefois 13,82 € TTC / 24 h : divergence interne, vérifier au paiement. Forfait 5 h + services : 6 €.",
-    "status": "Aire CAMPING-CAR PARK de 12 emplacements, ouverte depuis août 2026 au Village du Livre. Électricité 6 A. Le tarif affiché en bandeau et la grille saisonnière de l'exploitant ne concordent pas ; ne pas garantir un montant unique.",
+    "price": "12,32 € / 24 h dont 1,32 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier) ; forfait 5 h + services : 6 €.",
+    "status": "Aire CAMPING-CAR PARK ouverte selon l’exploitant (consultation novembre 2026), 12 emplacements, électricité 6 A.",
     "source": "https://www.openstreetmap.org/node/14276432245",
     "latitude": 48.45697,
     "longitude": 6.66596,
@@ -50,7 +50,8 @@
     "servicesSource": "https://www.openstreetmap.org/node/14276432245",
     "address": "2 route de Glonville, 54122 Fontenoy-la-Joûte",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/fontenoy-la-joute",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/fontenoy-la-joute"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/fontenoy-la-joute",
+    "verificationNote": "La fiche officielle affiche 12,32 € TTC / 24 h ; la grille saisonnière consultée indique 11 € + 1,32 € de taxe de séjour, soit le même total."
   },
   {
     "department": "54",
@@ -90,25 +91,25 @@
     "department": "54",
     "name": "Camping-Car Park Blainville-sur-l'Eau",
     "city": "Blainville-sur-l'Eau",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
       "Stationnement (12 places)",
       "Électricité 6 A",
       "Services de l'aire (forfait 5 h)"
     ],
-    "price": "14,50 € TTC / 24 h (13,70 € + taxe de séjour 0,80 €), grille exploitant du 18/09/2026 au 31/12/2027 ; forfait 5 h + services : 6 €.",
-    "status": "Aire CAMPING-CAR PARK de 12 emplacements, ouverte, en bord de Meurthe. Branchements électriques 6 A. Zone soumise à un plan de prévention des risques d'inondation (PPRI) : respecter les alertes et consignes d'évacuation.",
+    "price": "14,50 € / 24 h dont 0,80 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier) ; forfait 5 h + services : 6 €.",
+    "status": "Aire CAMPING-CAR PARK ouverte selon l’exploitant, 12 emplacements, électricité 6 A. PPRI : respecter les alertes et consignes d’évacuation.",
     "source": "https://www.openstreetmap.org/way/369403516",
     "latitude": 48.557323,
     "longitude": 6.4058002,
-    "gpsSource": "https://www.openstreetmap.org/way/369403516",
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/blainville-sur-l-eau",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : vérification sur site exploitant / office de tourisme, équipements et réserves tarifaires documentés.",
     "sourceId": "way/369403516",
     "servicesSource": "https://www.openstreetmap.org/way/369403516",
     "address": "Rue de la Filature, 54360 Blainville-sur-l'Eau",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/blainville-sur-l-eau?areaType=aire-etape-camping-car",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/blainville-sur-l-eau",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/blainville-sur-l-eau?areaType=aire-etape-camping-car"
   },
   {
@@ -206,7 +207,7 @@
     "department": "54",
     "name": "Aire de camping-car de Lunéville, Les Bosquets",
     "city": "Lunéville",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Camping de mon Village CAMPING-CAR PARK",
     "services": [
       "Stationnement (21 à 23 places selon sources touristiques)",
       "Électricité",
@@ -217,20 +218,21 @@
       "Sanitaires en saison",
       "Animaux acceptés"
     ],
-    "price": "Tarifs 2025 publiés par l'office de tourisme : 14,55 €/24 h du 15 avril au 30 septembre ; 12 €/24 h du 1er octobre au 31 décembre ; taxe de séjour 0,44 €/24 h ; forfait 5 h + services 6 €. Tarifs 2026 à confirmer auprès de l'exploitant.",
-    "status": "Aire CAMPING-CAR PARK au camping des Bosquets, accessible toute l'année 24 h/24. L'office de tourisme indique 21 places dans son descriptif et 23 dans sa fiche de capacité : retenir une capacité de 21 à 23 places, à confirmer. Sanitaires accessibles uniquement pendant l'ouverture saisonnière du camping (fin avril à fin septembre). Animaux tenus en laisse. Contact : 01 83 64 69 21.",
+    "price": "12,64 € / 24 h dont 0,44 € de taxe de séjour (tarif affiché par l’exploitant en novembre 2026 ; susceptible de varier) ; forfait 5 h + services : 6 €.",
+    "status": "Camping de mon Village CAMPING-CAR PARK ouvert selon l’exploitant ; 37 places au total. Les emplacements 24 à 37 sont réservés aux campeurs en tentes et caravanes pendant l’ouverture des sanitaires.",
     "source": "https://www.openstreetmap.org/way/1165376131",
     "latitude": 48.5968042,
     "longitude": 6.5010525,
-    "gpsSource": "https://www.openstreetmap.org/way/1165376131",
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/54-meurthe-et-moselle/luneville",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : vérification sur site exploitant / office de tourisme, équipements et réserves tarifaires documentés.",
     "sourceId": "way/1165376131",
     "servicesSource": "https://www.openstreetmap.org/way/1165376131",
     "address": "2 chemin de la Ménagerie, 54300 Lunéville",
-    "sourceOfficial": "https://www.tourisme-lunevillois.com/SITLOR/AIRE-DE-CAMPING-CAR.htm?ID=742000708&TYPE=4000009&langue=1",
-    "priceSource": "https://www.tourisme-lunevillois.com/SITLOR/AIRE-DE-CAMPING-CAR.htm?ID=742000708&TYPE=4000009&langue=1"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/54-meurthe-et-moselle/luneville",
+    "priceSource": "https://www.tourisme-lunevillois.com/SITLOR/AIRE-DE-CAMPING-CAR.htm?ID=742000708&TYPE=4000009&langue=1",
+    "capacity": 37
   },
   {
     "department": "54",
@@ -293,9 +295,9 @@
   },
   {
     "department": "54",
-    "name": "Aire camping car de Longwy",
+    "name": "Aire Camping-Car Park de Longwy (ouverture à confirmer)",
     "city": "Longwy",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK (statut d'ouverture à confirmer)",
     "services": [
       "Stationnement (7 places)",
       "Eau potable à jeton",
@@ -304,18 +306,35 @@
       "Paiement CB pour les jetons"
     ],
     "price": "Jeton à 2,50 € : eau et vidange pendant 20 min, ou électricité pendant 4 h ; 2 jetons = 8 h d'électricité, 3 jetons = 12 h. Tarif du stationnement non précisé sur la fiche de l'office.",
-    "status": "Aire de 7 emplacements. Distributeur de jetons payable par carte bancaire, borne d'eau et de vidange et borne d'électricité. Source : office de tourisme du Pays de Longwy.",
+    "status": "Fiche officielle CAMPING-CAR PARK publiée, mais la page consultée ne précise pas si l'aire est ouverte ni sa capacité disponible. Ne pas compter comme ouverte avant confirmation.",
     "source": "https://www.openstreetmap.org/way/1319596547",
-    "latitude": 49.5265176,
-    "longitude": 5.7655022,
-    "gpsSource": "https://www.openstreetmap.org/way/1319596547",
+    "latitude": 49.529233,
+    "longitude": 5.759598,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/longwy",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 18/10/2026 : commune identifiée d'après l'intitulé OSM ; existence et services restent à vérifier auprès de sources officielles. | 18/10/2026 : recoupement source officielle, réserves et éventuelles contradictions conservées.",
     "sourceId": "way/1319596547",
     "servicesSource": "https://www.openstreetmap.org/way/1319596547",
-    "address": "Avenue du 8 Mai 1945, près du stade municipal, 54400 Longwy",
-    "sourceOfficial": "https://www.longwy-tourisme.com/index.php/fr/ou-dormir/aires-de-camping-cars",
-    "priceSource": "https://www.longwy-tourisme.com/index.php/fr/ou-dormir/aires-de-camping-cars"
+    "address": "Rue de la Frontière, 54400 Longwy",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/longwy",
+    "priceSource": "https://www.longwy-tourisme.com/index.php/fr/ou-dormir/aires-de-camping-cars",
+    "verificationNote": "Site distinct de l'aire municipale existante de l'avenue du 8 Mai 1945, à environ 650 m."
+  },
+  {
+    "department": "54",
+    "name": "Aire CAMPING-CAR PARK de Favières (à venir)",
+    "city": "Favières",
+    "type": "Aire d'étape CAMPING-CAR PARK (à venir)",
+    "services": [],
+    "price": "Tarif non communiqué",
+    "status": "Projet indiqué « à venir » dans la liste CAMPING-CAR PARK ; non ouverte à la date de consultation.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/favieres",
+    "latitude": 48.466409,
+    "longitude": 5.958895,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/favieres",
+    "address": "0 rue du Vallon derrière Jolive, 54115 Favières",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/favieres",
+    "verificationNote": "Projet distinct de l'aire intercommunale existante (5 places), située à proximité mais avec des coordonnées propres."
   }
 ]
