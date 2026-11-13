@@ -40,23 +40,29 @@
   },
   {
     "department": "69",
-    "name": "Aire de camping-car de Villié-Morgon",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Aire CAMPING-CAR PARK de Villié-Morgon",
+    "city": "Villié-Morgon",
+    "type": "Aire d’étape CAMPING-CAR PARK",
     "services": [
-      "Électricité"
+      "6 emplacements"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "15,98 € /24 h TTC, dont 1,22 € de taxe de séjour (tarif officiel affiché au 13/11/2026). Stationnement 5 h + services : 6 €.",
+    "status": "Aire d’étape ouverte, 6 emplacements, au 110 rue du Château de Fontcrenne, dans le centre-bourg.",
     "source": "https://www.openstreetmap.org/way/319563263",
-    "latitude": 46.1609956,
-    "longitude": 4.6785445,
-    "gpsSource": "https://www.openstreetmap.org/way/319563263",
+    "latitude": 46.16106,
+    "longitude": 4.678666,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/rhone/villie-morgon",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place | 13/11/2026 : correspondance OSM officielle confirmée à proximité ; GPS, capacité, statut et tarif actualisés.",
     "sourceId": "way/319563263",
-    "servicesSource": "https://www.openstreetmap.org/way/319563263"
+    "servicesSource": "https://www.openstreetmap.org/way/319563263",
+    "address": "110 rue du Château de Fontcrenne, 69910 Villié-Morgon",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/rhone/villie-morgon",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/rhone/villie-morgon",
+    "capacity": 6,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/rhone/villie-morgon",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "69",
@@ -207,5 +213,28 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1294614465"
+  },
+  {
+    "department": "69",
+    "name": "Aire CAMPING-CAR PARK de Villefranche-sur-Saône, Beaujolais",
+    "city": "Villefranche-sur-Saône",
+    "type": "Aire d’étape CAMPING-CAR PARK",
+    "services": [
+      "128 emplacements",
+      "Électricité 6 A"
+    ],
+    "price": "16,02 € /24 h TTC, dont 1,22 € de taxe de séjour (tarif officiel affiché au 13/11/2026). Stationnement 5 h + services : 6 €.",
+    "status": "Aire d’étape ouverte, 128 emplacements stabilisés, route de Riottier, avec accès direct sur la Saône et les plages du lac de Bordelan.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/rhone/villefranche-lyon-beaujolais",
+    "latitude": 45.97253,
+    "longitude": 4.752003,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/rhone/villefranche-lyon-beaujolais",
+    "address": "2788 route de Riottier, 69400 Villefranche-sur-Saône",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/rhone/villefranche-lyon-beaujolais",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/rhone/villefranche-lyon-beaujolais",
+    "capacity": 128,
+    "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/rhone/villefranche-lyon-beaujolais",
+    "priceVerifiedOn": "2026-11-13",
+    "importReview": "13/11/2026 : fiche officielle CAMPING-CAR PARK ajoutée ; GPS, capacité, tarif et statut vérifiés auprès de l’exploitant."
   }
 ]
