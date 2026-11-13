@@ -276,11 +276,13 @@
     "gpsSource": "https://www.openstreetmap.org/node/11991847811",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Office de tourisme Cluny Sud Bourgogne confirme la localisation, la capacité et les caractéristiques du parking. Aucun service technique ni tarif confirmé ; GPS OpenStreetMap conservé.",
+    "importReview": "Office de tourisme Cluny Sud Bourgogne confirme la localisation, la capacité et les caractéristiques du parking. Aucun service technique ni tarif confirmé ; GPS OpenStreetMap conservé. | 13/11/2026 : capacité renseignée depuis la fiche officielle de l’office de tourisme.",
     "sourceId": "node/11991847811",
     "address": "La Crose, 71250 Buffières",
     "sourceOfficial": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-buffieres/",
-    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-buffieres/"
+    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-buffieres/",
+    "capacity": 3,
+    "capacitySource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-buffieres.html"
   },
   {
     "department": "71",
@@ -298,9 +300,11 @@
     "gpsSource": "https://www.openstreetmap.org/node/11991849848",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Fiche tourisme départemental : 2 places, durée maximum 24 h, en contrebas de l'église.",
+    "importReview": "Fiche tourisme départemental : 2 places, durée maximum 24 h, en contrebas de l'église. | 13/11/2026 : 2 places, stationnement limité à 24 h, confirmé par Destination Saône-et-Loire.",
     "sourceId": "node/11991849848",
-    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/les-hebergements-en-saone-et-loire.html?f%5B0%5D=se_loger_accomodation_type%3ALes+aires+de+camping-car&page=2"
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-camping-car-berze-le-chatel.html",
+    "capacity": 2,
+    "capacitySource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-camping-car-berze-le-chatel.html"
   },
   {
     "department": "71",
@@ -312,18 +316,20 @@
       "Poubelles"
     ],
     "price": "Non confirmé",
-    "status": "Parking plat et peu ombragé. La commune possède aussi une autre aire au bourg de 4 emplacements, à ne pas confondre avec cette fiche ; équipements supplémentaires non confirmés.",
+    "status": "Parking plat et peu ombragé près de la salle communale ; 2 places confirmées par Destination Saône-et-Loire. Une autre fiche touristique indique 4 places au « bourg » à environ 150 m ; faute de preuve que ce soit un second site, ne pas compter comme aire distincte.",
     "source": "https://www.openstreetmap.org/node/11991867299",
     "latitude": 46.4952026,
     "longitude": 4.5299077,
     "gpsSource": "https://www.openstreetmap.org/node/11991867299",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Office de tourisme distingue parking salle communale 2 places et parking bourg 4 places ; association exacte avec le point OSM à confirmer, GPS conservé.",
+    "importReview": "Office de tourisme distingue parking salle communale 2 places et parking bourg 4 places ; association exacte avec le point OSM à confirmer, GPS conservé. | 13/11/2026 : Destination Saône-et-Loire confirme 2 places au parking de la salle communale. Un autre référencement du bourg annonce 4 places à proximité ; doublon possible à clarifier auprès de la commune avant tout ajout.",
     "sourceId": "node/11991867299",
     "address": "Parking de la salle communale, Le Bourg, 71220 Saint-André-le-Désert",
-    "sourceOfficial": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-st-andre-le-desert/",
-    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-st-andre-le-desert/"
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-st-andre-le-desert.html",
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-st-andre-le-desert.html",
+    "capacity": 2,
+    "capacitySource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-st-andre-le-desert.html"
   },
   {
     "department": "71",
@@ -341,11 +347,13 @@
     "gpsSource": "https://www.openstreetmap.org/node/11991877224",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Office de tourisme Cluny Sud Bourgogne : 4 places, parking de la salle des fêtes, plat et ombragé ; GPS OSM conservé.",
+    "importReview": "Office de tourisme Cluny Sud Bourgogne : 4 places, parking de la salle des fêtes, plat et ombragé ; GPS OSM conservé. | 13/11/2026 : 4 emplacements et parking plat/ombragé confirmés par Destination Saône-et-Loire.",
     "sourceId": "node/11991877224",
     "address": "Parking communal de la salle des fêtes, 71220 Sivignon",
-    "sourceOfficial": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-sivignon/",
-    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-sivignon/"
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-sivignon.html",
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-sivignon.html",
+    "capacity": 4,
+    "capacitySource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-sivignon.html"
   },
   {
     "department": "71",
@@ -363,11 +371,13 @@
     "gpsSource": "https://www.openstreetmap.org/node/11997773381",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Office de tourisme Cluny Sud Bourgogne confirme la localisation, la capacité et les caractéristiques du parking. Aucun service technique ni tarif confirmé ; GPS OpenStreetMap conservé.",
+    "importReview": "Office de tourisme Cluny Sud Bourgogne confirme la localisation, la capacité et les caractéristiques du parking. Aucun service technique ni tarif confirmé ; GPS OpenStreetMap conservé. | 13/11/2026 : capacité d’un emplacement confirmée par Destination Saône-et-Loire.",
     "sourceId": "node/11997773381",
     "address": "71220 Passy",
-    "sourceOfficial": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-passy/",
-    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-passy/"
+    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-passy.html",
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-passy.html",
+    "capacity": 1,
+    "capacitySource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-passy.html"
   },
   {
     "department": "71",
@@ -406,7 +416,7 @@
       "Vidange eaux grises et noires",
       "Électricité (borne signalée en panne par la source touristique)"
     ],
-    "price": "4 € pour 100 L d'eau ou 55 minutes d'électricité selon fiche touristique ; électricité indiquée en panne, ne pas compter sur ce service",
+    "price": "4 € pour 55 minutes d’électricité et 100 L d’eau selon Destination Saône-et-Loire ; borne électrique signalée en panne actuellement.",
     "status": "Ouvert toute l'année selon Destination Saône-et-Loire ; électricité signalée en panne sur la fiche consultée. Vérifier sa remise en service.",
     "source": "https://www.openstreetmap.org/way/204317946",
     "latitude": 46.6061999,
@@ -414,7 +424,7 @@
     "gpsSource": "https://www.openstreetmap.org/way/204317946",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Tourisme départemental : 15 emplacements non délimités, eau, vidange, 4 €/100 L ou 55 min électricité. Électricité déclarée en panne, ne pas la présenter comme disponible.",
+    "importReview": "Tourisme départemental : 15 emplacements non délimités, eau, vidange, 4 €/100 L ou 55 min électricité. Électricité déclarée en panne, ne pas la présenter comme disponible. | 13/11/2026 : tarif source retranscrit sans ambiguïté (4 € pour 55 min d’électricité et 100 L d’eau) ; électricité toujours indiquée en panne.",
     "sourceId": "way/204317946",
     "address": "Aire de la Voie Verte, ancienne gare, 71460 Saint-Gengoux-le-National",
     "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-camping-cars.html-0",
@@ -423,53 +433,67 @@
   },
   {
     "department": "71",
-    "name": "Aire de Camping-Car Tournus Quai de la Marine",
+    "name": "Aire de services camping-cars de Tournus — Quai de la Marine",
     "city": "Tournus",
     "type": "Aire de services pour camping-cars",
     "services": [
-      "Vidange eaux noires et grises",
-      "Branchement électrique",
-      "Eau potable",
-      "Parking"
+      "10 emplacements",
+      "Stationnement gratuit toute l’année",
+      "Vidange eaux grises et noires",
+      "Ravitaillement en eau (5 € / 10 min)",
+      "Électricité (5 €)",
+      "Paiement par portefeuille Qipeo"
     ],
-    "price": "Non confirmé",
-    "status": "Aire de services répertoriée par Destination Saône-et-Loire ; stationnement nocturne et tarif à confirmer.",
+    "price": "Stationnement gratuit ; eau 5 € / 10 min et électricité 5 € selon Qipeo (tarifs consultés le 13/11/2026).",
+    "status": "Aire municipale de 10 emplacements, accessible toute l’année, à proximité du stade Jean Faucillon. Les sources désignent le site comme Quai de la Marine et rue René Cassin. Stationnement gratuit ; services payants. Aucun tarif de nuitée distinct n’est publié.",
     "source": "https://www.openstreetmap.org/way/220632397",
     "latitude": 46.5671587,
     "longitude": 4.9110691,
     "gpsSource": "https://www.openstreetmap.org/way/220632397",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Tourisme départemental confirme quai de la Marine, vidange, électricité, point d'eau et parking ; ne pas inférer nuitée autorisée.",
+    "importReview": "Tourisme départemental confirme quai de la Marine, vidange, électricité, point d'eau et parking ; ne pas inférer nuitée autorisée. | 13/11/2026 : mairie confirme 10 places, adresse rue René Cassin et équipements ; Qipeo confirme Quai de la Marine, stationnement gratuit, eau 5 €/10 min et électricité 5 €. Adresses recoupées comme le même site (coordonnées à quelques dizaines de mètres).",
     "sourceId": "way/220632397",
-    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-11",
-    "address": "Quai de la Marine, 71700 Tournus",
-    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-11"
+    "servicesSource": "https://www.tournus.fr/aire-de-services-pour-les-camping-car/",
+    "address": "Quai de la Marine / rue René Cassin, près du stade Jean Faucillon, 71700 Tournus",
+    "sourceOfficial": "https://www.tournus.fr/aire-de-services-pour-les-camping-car/",
+    "priceSource": "https://www.qipeo.com/detail/828bd945-fb48-425e-b7e0-6bcb14f9d0a2",
+    "relatedOfficialSources": [
+      "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-11",
+      "https://www.qipeo.com/detail/828bd945-fb48-425e-b7e0-6bcb14f9d0a2"
+    ],
+    "capacity": 10,
+    "capacitySource": "https://www.tournus.fr/aire-de-services-pour-les-camping-car/"
   },
   {
     "department": "71",
-    "name": "Aire Municipale Givry",
+    "name": "Aire de camping-car municipale de Givry — rue de la Gare",
     "city": "Givry",
-    "type": "Aire de services pour camping-cars",
+    "type": "Aire municipale de stationnement et de services pour camping-cars",
     "services": [
-      "Électricité",
-      "Vidange eaux usées",
+      "Emplacements stabilisés",
+      "Vidange cassette WC",
+      "Vidange eaux grises",
       "Eau potable",
-      "Parking"
+      "Électricité",
+      "Stationnement"
     ],
     "price": "Non confirmé",
-    "status": "Aire de services à l'ancienne gare, sur la Voie Verte ; conditions de stationnement à vérifier.",
+    "status": "Aire accessible toute l’année au 18 rue de la Gare, près du centre-bourg et de la Voie Verte. Accès interdit pendant la Fête de la Vigne (premier week-end de septembre). La capacité et les tarifs ne sont pas publiés.",
     "source": "https://www.openstreetmap.org/way/289331868",
     "latitude": 46.7799455,
     "longitude": 4.7486696,
     "gpsSource": "https://www.openstreetmap.org/way/289331868",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Source Destination Saône-et-Loire confirme adresse et équipements.",
+    "importReview": "Source Destination Saône-et-Loire confirme adresse et équipements. | 13/11/2026 : adresse, emplacements stabilisés, vidanges et restriction pendant la Fête de la Vigne confirmés par la ville ; les services d’eau et d’électricité sont également répertoriés par Destination Saône-et-Loire. Capacité et tarif non publiés.",
     "sourceId": "way/289331868",
-    "address": "Parking de l'ancienne gare, départ de la Voie Verte, 71640 Givry",
-    "sourceOfficial": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-camping-cars.html",
-    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-camping-cars.html"
+    "address": "18 rue de la Gare, 71640 Givry",
+    "sourceOfficial": "https://www.givry-bourgogne.fr/aire-de-camping-car/",
+    "servicesSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-camping-cars.html",
+    "relatedOfficialSources": [
+      "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-camping-cars.html"
+    ]
   },
   {
     "department": "71",
@@ -488,11 +512,13 @@
     "gpsSource": "https://www.openstreetmap.org/way/358243797",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Guide pratique Pays Charolais-Brionnais 2025 : 8 emplacements, 12 route de l'Allée. Pas de services détaillés dans le guide.",
+    "importReview": "Guide pratique Pays Charolais-Brionnais 2025 : 8 emplacements, 12 route de l'Allée. Pas de services détaillés dans le guide. | 13/11/2026 : capacité renseignée à 8 emplacements d’après le guide officiel 2025.",
     "sourceId": "way/358243797",
     "servicesSource": "https://www.openstreetmap.org/way/358243797",
     "address": "12 route de l'Allée, 71800 Saint-Christophe-en-Brionnais",
-    "sourceOfficial": "https://www.tourisme-paraylemonial.fr/document/telechargement/pdf/guide-pratique-pcb-2025-web.pdf"
+    "sourceOfficial": "https://www.tourisme-paraylemonial.fr/document/telechargement/pdf/guide-pratique-pcb-2025-web.pdf",
+    "capacity": 8,
+    "capacitySource": "https://www.tourisme-paraylemonial.fr/document/telechargement/pdf/guide-pratique-pcb-2025-web.pdf"
   },
   {
     "department": "71",
