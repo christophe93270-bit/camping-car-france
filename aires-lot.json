@@ -537,12 +537,19 @@
   },
   {
     "department": "46",
-    "name": "Aire de camping-cars de Figeac",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "name": "Borne de service de Figeac — aire communale",
+    "city": "Figeac",
+    "type": "Aire communale de services et de stationnement pour camping-cars",
+    "services": [
+      "Stationnement camping-car (durée maximale 48 h)",
+      "Rinçage et vidange WC",
+      "Vidange eaux usées",
+      "Eau potable",
+      "Électricité",
+      "Conteneurs et poubelles"
+    ],
+    "price": "Nuitée : à partir de 6,50 €. Eau potable (100 L) : à partir de 2 €. Électricité (1 h) : à partir de 2 €. Tarifs 2026.",
+    "status": "Boulevard du Colonel Teulié / rue du Champ Saint-Barthélemy, 46100 Figeac. Tourisme Lot confirme la borne, les services, l'ouverture toute l'année 2026 et les tarifs. L'emplacement précis de la fiche source reste celui du point OpenStreetMap.",
     "source": "https://www.openstreetmap.org/way/1282464744",
     "latitude": 44.6116051,
     "longitude": 2.0328214,
@@ -550,18 +557,27 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1282464744"
+    "sourceId": "way/1282464744",
+    "official": "https://www.tourisme-lot.com/offres/borne-de-service-de-figeac-figeac-fr-659355/",
+    "sourceOfficial": "https://www.tourisme-lot.com/offres/borne-de-service-de-figeac-figeac-fr-659355/",
+    "servicesSource": "https://www.tourisme-lot.com/offres/borne-de-service-de-figeac-figeac-fr-659355/",
+    "priceSource": "https://www.tourisme-lot.com/offres/borne-de-service-de-figeac-figeac-fr-659355/",
+    "sourceOfficialVerifiedOn": "2026-11-13",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "46",
-    "name": "Aire de camping-cars de Vayrac, La Palenquière",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Aire CAMPING-CAR PARK de Vayrac — La Palenquière",
+    "city": "Vayrac",
+    "type": "Aire d'étape CAMPING-CAR PARK ouverte toute l'année",
     "services": [
-      "Électricité"
+      "Stationnement (25 emplacements)",
+      "Électricité 6 A",
+      "Services camping-car",
+      "Sanitaires du camping disponibles sur demande"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif opérateur en cours au 13/11/2026 : 11,66 € / 24 h + 1,72 € de taxe de séjour, soit 13,38 € / 24 h. Forfait 5 h + services : 6 €.",
+    "status": "La Palenquière, route de la Dordogne, 46110 Vayrac. Aire CAMPING-CAR PARK ouverte toute l'année, 25 emplacements. Sanitaires du camping disponibles sur demande.",
     "source": "https://www.openstreetmap.org/way/1282487471",
     "latitude": 44.9443737,
     "longitude": 1.7049594,
@@ -570,18 +586,29 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1282487471",
-    "servicesSource": "https://www.openstreetmap.org/way/1282487471"
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/vayrac-la-palenquiere",
+    "official": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/vayrac-la-palenquiere",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/vayrac-la-palenquiere",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/vayrac-la-palenquiere",
+    "sourceOfficialVerifiedOn": "2026-11-13",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "46",
-    "name": "Aire de Camping-Car Vers",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Aire d'accueil de Vers",
+    "city": "Saint-Géry-Vers",
+    "type": "Aire communale de stationnement et de services pour camping-cars",
     "services": [
-      "Toilettes"
+      "Stationnement de nuit",
+      "Douches",
+      "Toilettes",
+      "Vidange WC et eaux usées",
+      "Eau potable",
+      "Poubelles",
+      "Tables de pique-nique"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif de la nuitée non indiqué sur la fiche officielle consultée.",
+    "status": "D662 direction Saint-Cirq-Lapopie, près du tennis, lieu-dit Vers, 46330 Saint-Géry-Vers. Tourisme Lot confirme une aire de nuitée avec douches, toilettes, vidange et eau potable. Pas d'eau en hiver.",
     "source": "https://www.openstreetmap.org/way/1307130712",
     "latitude": 44.4858922,
     "longitude": 1.5555881,
@@ -590,18 +617,30 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1307130712",
-    "servicesSource": "https://www.openstreetmap.org/way/1307130712"
+    "servicesSource": "https://www.tourisme-lot.com/offres/aire-daccueil-de-vers-saint-gery-vers-fr-659459/",
+    "official": "https://www.tourisme-lot.com/offres/aire-daccueil-de-vers-saint-gery-vers-fr-659459/",
+    "sourceOfficial": "https://www.tourisme-lot.com/offres/aire-daccueil-de-vers-saint-gery-vers-fr-659459/",
+    "priceSource": "https://www.tourisme-lot.com/offres/aire-daccueil-de-vers-saint-gery-vers-fr-659459/",
+    "sourceOfficialVerifiedOn": "2026-11-13",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "46",
-    "name": "Aire camping-car Saint-Géry",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Aire et borne pour camping-car de Saint-Géry",
+    "city": "Saint-Géry-Vers",
+    "type": "Aire communale de stationnement et de services camping-cars",
     "services": [
-      "Électricité"
+      "Stationnement de nuit",
+      "Toilettes",
+      "Vidange WC et eaux usées",
+      "Eau potable par jetons",
+      "Éclairage",
+      "Tables de pique-nique",
+      "Conteneurs et poubelles",
+      "Aire de jeux"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif de la nuitée et montant du jeton d'eau non précisés sur la fiche officielle consultée.",
+    "status": "Le Bourg, 46330 Saint-Géry-Vers. Tourisme Lot confirme l'aire de nuitée, les toilettes, la vidange et l'eau par jetons. La fiche officielle ne donne pas le prix de la nuitée. À distinguer de l'aire de Vers, située près du tennis.",
     "source": "https://www.openstreetmap.org/way/1307138568",
     "latitude": 44.4781777,
     "longitude": 1.582098,
@@ -610,18 +649,29 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1307138568",
-    "servicesSource": "https://www.openstreetmap.org/way/1307138568"
+    "servicesSource": "https://www.tourisme-lot.com/offres/aire-et-borne-pour-camping-car-de-saint-gery-saint-gery-vers-fr-659700/",
+    "official": "https://www.tourisme-lot.com/offres/aire-et-borne-pour-camping-car-de-saint-gery-saint-gery-vers-fr-659700/",
+    "sourceOfficial": "https://www.tourisme-lot.com/offres/aire-et-borne-pour-camping-car-de-saint-gery-saint-gery-vers-fr-659700/",
+    "priceSource": "https://www.tourisme-lot.com/offres/aire-et-borne-pour-camping-car-de-saint-gery-saint-gery-vers-fr-659700/",
+    "sourceOfficialVerifiedOn": "2026-11-13",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "46",
-    "name": "Aire d'Accueil et de Service de Gourdon",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Aire d'accueil et de service de Gourdon",
+    "city": "Gourdon",
+    "type": "Aire communale de services et de stationnement pour camping-cars",
     "services": [
-      "Électricité"
+      "Stationnement",
+      "Rinçage et vidange WC",
+      "Eau potable (coupée en hiver)",
+      "Branchement électrique",
+      "Éclairage",
+      "Emplacements délimités",
+      "Conteneurs et poubelles"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif à l'heure indiqué sans montant sur la fiche officielle 2026; montant à confirmer.",
+    "status": "Place du Foirail, 46300 Gourdon. Tourisme Lot indique un accès toute l'année, avec eau coupée en hiver; la période de service publiée est du 7 avril au 2 novembre 2026. Le prix du forfait horaire n'est pas chiffré.",
     "source": "https://www.openstreetmap.org/way/1312105452",
     "latitude": 44.7341,
     "longitude": 1.385251,
@@ -630,18 +680,28 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1312105452",
-    "servicesSource": "https://www.openstreetmap.org/way/1312105452"
+    "servicesSource": "https://www.tourisme-lot.com/offres/aire-daccueil-et-de-service-de-gourdon-gourdon-fr-659352/",
+    "official": "https://www.tourisme-lot.com/offres/aire-daccueil-et-de-service-de-gourdon-gourdon-fr-659352/",
+    "sourceOfficial": "https://www.tourisme-lot.com/offres/aire-daccueil-et-de-service-de-gourdon-gourdon-fr-659352/",
+    "priceSource": "https://www.tourisme-lot.com/offres/aire-daccueil-et-de-service-de-gourdon-gourdon-fr-659352/",
+    "sourceOfficialVerifiedOn": "2026-11-13",
+    "priceVerifiedOn": "2026-11-13"
   },
   {
     "department": "46",
-    "name": "Aire de camping-cars de Souillac",
+    "name": "Aire CAMPING-CAR PARK de Souillac — Parking Baillot",
     "city": "Souillac",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire d'étape CAMPING-CAR PARK ouverte",
     "services": [
-      "Électricité"
+      "Stationnement (49 emplacements)",
+      "Électricité 6 A",
+      "Rinçage et vidange WC",
+      "Vidange eaux usées",
+      "Eau potable",
+      "Conteneur à déchets"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif opérateur en cours au 13/11/2026 : 11,86 € / 24 h + 1,72 € de taxe de séjour, soit 13,58 € / 24 h. Forfait 5 h + services : 6 €.",
+    "status": "Parking Baillot, 46200 Souillac. Aire CAMPING-CAR PARK ouverte, 49 emplacements, à environ 200 m de la Dordogne.",
     "source": "https://www.openstreetmap.org/way/1318073496",
     "latitude": 44.8911962,
     "longitude": 1.4760305,
@@ -650,6 +710,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1318073496",
-    "servicesSource": "https://www.openstreetmap.org/way/1318073496"
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/souillac",
+    "official": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/souillac",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/souillac",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/souillac",
+    "sourceOfficialVerifiedOn": "2026-11-13",
+    "priceVerifiedOn": "2026-11-13"
   }
 ]
