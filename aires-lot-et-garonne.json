@@ -2,13 +2,16 @@
   {
     "department": "47",
     "name": "Aire de Camping-car du Port de Buzet-sur-Baïse",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Buzet-sur-Baïse",
+    "type": "Aire camping-car / port — disponibilité actuelle à confirmer",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées",
+      "Sanitaires"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire mentionnée dans un document d’urbanisme avec 6 places et services ; fonctionnement actuel et tarif à confirmer.",
     "source": "https://www.openstreetmap.org/node/4215434488",
     "latitude": 44.2562344,
     "longitude": 0.3067342,
@@ -17,16 +20,23 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/4215434488",
-    "servicesSource": "https://www.openstreetmap.org/node/4215434488"
+    "servicesSource": "https://www.openstreetmap.org/node/4215434488",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/loisirs/port-de-buzet-sur-baise/",
+    "capacity": 6
   },
   {
     "department": "47",
     "name": "Aire de camping-cars de Casseneuil",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "city": "Casseneuil",
+    "type": "Aire Camping-Car Park à venir",
+    "services": [
+      "Électricité 6 A",
+      "Eau potable",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Camping-Car Park annoncé « à venir » ; le tarif affiché à 0 € est un placeholder, pas un tarif confirmé. L’office de tourisme décrit l’aire municipale existante comme gratuite avec eau et vidange.",
     "source": "https://www.openstreetmap.org/node/7390070598",
     "latitude": 44.4465417,
     "longitude": 0.6186461,
@@ -34,16 +44,20 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/7390070598"
+    "sourceId": "node/7390070598",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/casseneuil",
+    "capacity": 12
   },
   {
     "department": "47",
     "name": "Aire camping car - Vianne",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Vianne",
+    "type": "Aire communale de camping-car",
+    "services": [
+      "Eau potable"
+    ],
+    "price": "Gratuit",
+    "status": "Vérifié par l’office de tourisme : 10 emplacements, ouvert toute l’année, stationnement gratuit et durée illimitée.",
     "source": "https://www.openstreetmap.org/way/180985129",
     "latitude": 44.1980868,
     "longitude": 0.3232028,
@@ -51,16 +65,20 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/180985129"
+    "sourceId": "way/180985129",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-vianne/",
+    "capacity": 10,
+    "opening": "Toute l’année",
+    "parkingLimit": "Illimité"
   },
   {
     "department": "47",
     "name": "Aire de stationnement du Mas-d'Agenais",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Le Mas-d’Agenais",
+    "type": "Aire de stationnement pour camping-cars",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "Vérifié par l’office de tourisme : 8 emplacements, ouvert toute l’année. À distinguer de la halte nautique voisine, dont les services sont payants.",
     "source": "https://www.openstreetmap.org/way/452415922",
     "latitude": 44.4064138,
     "longitude": 0.2199623,
@@ -68,18 +86,24 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/452415922"
+    "sourceId": "way/452415922",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-stationnement-du-mas-d-agenais/",
+    "capacity": 8,
+    "opening": "Toute l’année"
   },
   {
     "department": "47",
     "name": "Aire de camping-car de Miramont-de-Guyenne",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Miramont-de-Guyenne",
+    "type": "Aire communale de camping-car",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "12 emplacements, accueil toute l’année, maximum 14 nuitées sur 30 jours. Le tarif officiel publié couvre seulement les périodes du 16/10/2025 au 15/10/2026 ; tarif en vigueur après cette date à confirmer.",
     "source": "https://www.openstreetmap.org/way/503033998",
     "latitude": 44.6034714,
     "longitude": 0.3621203,
@@ -88,18 +112,21 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/503033998",
-    "servicesSource": "https://www.openstreetmap.org/way/503033998"
+    "servicesSource": "https://www.openstreetmap.org/way/503033998",
+    "priceDetail": "Tarifs publiés pour 2025-2026 : 7,50 €/nuit du 16/10/2025 au 15/04/2026 ; 5 €/nuit du 16/04 au 15/10/2026 ; taxe de séjour 0,67 €/personne/jour.",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-miramont-de-guyenne/",
+    "capacity": 12,
+    "opening": "Toute l’année",
+    "parkingLimit": "14 nuitées par période de 30 jours"
   },
   {
     "department": "47",
     "name": "Aire de camping-car de la Filhole à Marmande",
     "city": "Marmande",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [
-      "Électricité"
-    ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire communale de camping-car",
+    "services": [],
+    "price": "10,45 €/nuit + taxe de séjour 0,72 €/personne",
+    "status": "Tarif publié par l’office de tourisme pour l’aire de la Filhole ; ouverture annoncée à partir du 6 juillet 2026, maximum 7 jours.",
     "source": "https://www.openstreetmap.org/way/739755094",
     "latitude": 44.4949974,
     "longitude": 0.162854,
@@ -108,19 +135,25 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/739755094",
-    "servicesSource": "https://www.openstreetmap.org/way/739755094"
+    "servicesSource": "https://www.openstreetmap.org/way/739755094",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-la-filhole-a-marmande/",
+    "capacity": 60,
+    "opening": "À partir du 6 juillet 2026",
+    "parkingLimit": "7 jours",
+    "priceDetail": "Stationnement : 10,45 €/nuit ; taxe de séjour : 0,72 €/personne."
   },
   {
     "department": "47",
     "name": "Aire de camping-car de Tonneins",
     "city": "Tonneins",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire communale de camping-car",
     "services": [
       "Eau potable",
-      "Électricité"
+      "Vidange eaux usées",
+      "Électricité (borne actuellement hors service)"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "7 emplacements à la place Pisseraule ; nuitées limitées à 7. La borne électrique est actuellement hors service ; l’office de tourisme ne publie pas de tarif.",
     "source": "https://www.openstreetmap.org/way/899170111",
     "latitude": 44.3839435,
     "longitude": 0.316994,
@@ -129,18 +162,23 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/899170111",
-    "servicesSource": "https://www.openstreetmap.org/way/899170111"
+    "servicesSource": "https://www.openstreetmap.org/way/899170111",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-tonneins/",
+    "capacity": 7,
+    "parkingLimit": "7 nuits"
   },
   {
     "department": "47",
     "name": "Aire de camping-car de Varès",
     "city": "Varès",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire communale de services et stationnement camping-car",
     "services": [
-      "Eau potable"
+      "Eau potable",
+      "Vidange eaux usées",
+      "Vidange toilettes chimiques"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "Aire communale de 4 places, ouverte toute l’année ; eau, vidanges eaux usées et toilettes chimiques. Alimentation en eau susceptible d’être coupée en période de gel.",
     "source": "https://www.openstreetmap.org/way/899178320",
     "latitude": 44.4284531,
     "longitude": 0.3546106,
@@ -149,19 +187,22 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/899178320",
-    "servicesSource": "https://www.openstreetmap.org/way/899178320"
+    "servicesSource": "https://www.openstreetmap.org/way/899178320",
+    "verificationSource": "https://www.valdegaronne-tourisme.com/camping-car/",
+    "capacity": 4,
+    "opening": "Toute l’année"
   },
   {
     "department": "47",
     "name": "Aire de camping car de Caumont-sur-Garonne",
     "city": "Caumont-sur-Garonne",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de camping-car de la halte nautique",
     "services": [
-      "Eau potable",
-      "Électricité"
+      "Eau potable (jetons)",
+      "Électricité (jetons)"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement : non confirmé",
+    "status": "Halte nautique ouverte du 1er avril au 31 octobre 2026. Services à jetons ; l’eau coûte 2 € les 15 min et l’électricité 2 € les 4 h. Aucun tarif de stationnement n’est publié.",
     "source": "https://www.openstreetmap.org/way/899187953",
     "latitude": 44.4419684,
     "longitude": 0.1772319,
@@ -170,16 +211,19 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/899187953",
-    "servicesSource": "https://www.openstreetmap.org/way/899187953"
+    "servicesSource": "https://www.openstreetmap.org/way/899187953",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/loisirs/halte-nautique-de-caumont-sur-garonne/",
+    "priceDetail": "Eau : 2 €/15 min ; électricité : 2 €/4 h, par jetons.",
+    "opening": "1er avril au 31 octobre 2026"
   },
   {
     "department": "47",
     "name": "Aire de Camping-car Casteljaloux - Impasse de la Forêt",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Casteljaloux",
+    "type": "Aire communale de camping-car",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "Vérifié par la mairie et l’office de tourisme : 4 emplacements gratuits, aire ouverte toute l’année, durée maximale 48 h.",
     "source": "https://www.openstreetmap.org/way/899390659",
     "latitude": 44.3107666,
     "longitude": 0.0793812,
@@ -187,7 +231,11 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/899390659"
+    "sourceId": "way/899390659",
+    "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-cars-de-casteljaloux/",
+    "capacity": 4,
+    "opening": "Toute l’année",
+    "parkingLimit": "48 h"
   },
   {
     "department": "47",
