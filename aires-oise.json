@@ -176,13 +176,13 @@
   },
   {
     "department": "60",
-    "name": "Aire de camping-cars de Songeons",
+    "name": "Aire d’étape CAMPING-CAR PARK de Songeons — à venir",
     "city": "Songeons",
     "address": "Rue des Sorbiers, 60380 Songeons",
-    "latitude": 49.5451934,
-    "longitude": 1.8550946,
+    "latitude": 49.545559,
+    "longitude": 1.855338,
     "capacity": 13,
-    "type": "Aire intercommunale de stationnement et services camping-car",
+    "type": "Aire d’étape CAMPING-CAR PARK — à venir",
     "services": [
       "Stationnement gratuit",
       "Vidange eaux grises gratuite",
@@ -190,12 +190,14 @@
       "Eau potable par jeton",
       "Électricité par jeton"
     ],
-    "price": "Stationnement gratuit ; jeton 2 € pour environ 100 L d'eau ou 50 min d'électricité",
-    "status": "4 nuits consécutives maximum ; accès libre sans réservation",
+    "price": "Non communiqué — aire à venir",
+    "status": "Nouvelle aire d’étape CAMPING-CAR PARK annoncée à venir au 5 rue des Sorbiers. Pas encore ouverte ; tarif et capacité non publiés. Elle reprend l’emplacement de l’aire intercommunale déjà recensée, les coordonnées officielles sont à environ 45 m du point antérieur.",
     "sourceOfficial": "https://picardieverte.com/tourisme/aire-de-camping-cars/",
-    "gpsSource": "https://www.camping-car.com/aires/45995-aire-intercommunale/",
-    "source": "https://picardieverte.com/tourisme/aire-de-camping-cars/",
-    "tariffSource": "https://picardieverte.com/tourisme/aire-de-camping-cars/"
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/oise/songeons",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/oise/songeons",
+    "tariffSource": "https://picardieverte.com/tourisme/aire-de-camping-cars/",
+    "sourceMunicipale": "https://picardieverte.com/tourisme/aire-de-camping-cars/",
+    "importReview": "Projet à venir confirmé par l’opérateur le 13/11/2026 ; fiche locale existante conservée, sans doublon"
   },
   {
     "department": "60",
@@ -308,13 +310,13 @@
   },
   {
     "department": "60",
-    "name": "Aire CAMPING-CAR PARK de Formerie",
+    "name": "Aire de camping-car CAMPING-CAR PARK de Formerie",
     "city": "Formerie",
     "address": "Rue du Bois, 60220 Formerie",
     "latitude": 49.65243,
     "longitude": 1.732478,
     "capacity": 6,
-    "type": "Aire payante CAMPING-CAR PARK avec services",
+    "type": "Aire d’étape CAMPING-CAR PARK",
     "services": [
       "Électricité 6 A",
       "Eau potable",
@@ -322,13 +324,14 @@
       "Vidange WC",
       "Accès par carte PASS'ÉTAPES"
     ],
-    "price": "13,50 € / 24 h hors taxe de séjour de 1 € jusqu'au 31 octobre 2026 (soit 14,50 € TTC) ; tarif de base 12,75 € dès le 1er novembre, taxe éventuelle en supplément",
-    "status": "Ouverte selon opérateur ; capacité contradictoire : 6 emplacements selon descriptif et tourisme, affichage dynamique 12 places",
+    "price": "13,75 € / 24 h dont 1,00 € de taxe de séjour",
+    "status": "Aire d’étape CAMPING-CAR PARK de Formerie, ouverte ; 12 places. Tarif en vigueur au 13/11/2026 : 12,75 € + 1,00 € de taxe par 24 h. Borne de services sur place.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/oise/formerie",
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/oise/formerie",
     "verificationNote": "Oise Tourisme et descriptif opérateur indiquent six places ; indicateur temps réel affiche 12 places. Tarif consulté le 18 octobre 2026, susceptible d'évoluer.",
-    "source": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/oise/formerie",
-    "tariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/oise/formerie"
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/oise/formerie?areaType=aire-etape-camping-car",
+    "tariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/oise/formerie",
+    "importReview": "Exploitant, capacité, statut et tarif vérifiés sur la fiche officielle le 13/11/2026"
   },
   {
     "department": "60",
@@ -477,5 +480,19 @@
     "gpsSource": "https://www.camping-car.com/aires/9433-aire-naturelle-les-mesanges/",
     "verificationNote": "Distinct de l'aire intercommunale de Songeons. Office de tourisme annonce 6 places ; Camping-car.com 5 dédiées. Ne pas confondre avec le camping Les Mésanges dans la Nièvre.",
     "source": "https://www.oisetourisme.com/hebergement/aire-de-camping-cars-du-camping-les-mesanges-de-songeons/"
+  },
+  {
+    "department": "60",
+    "name": "Aire d’étape CAMPING-CAR PARK de Grandvilliers — à venir",
+    "city": "Grandvilliers",
+    "type": "Aire d’étape CAMPING-CAR PARK — à venir",
+    "services": [],
+    "price": "Non communiqué — aire à venir",
+    "status": "Aire d’étape CAMPING-CAR PARK annoncée à venir au 56 rue du Franc Marché. Tarif, capacité et date d’ouverture non publiés. Emplacement distinct de l’aire municipale déjà recensée dans la commune.",
+    "source": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/oise/grandvilliers",
+    "latitude": 49.670863,
+    "longitude": 1.938848,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/oise/grandvilliers",
+    "importReview": "Projet à venir confirmé par la fiche opérateur le 13/11/2026"
   }
 ]
