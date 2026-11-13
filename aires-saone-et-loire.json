@@ -743,27 +743,30 @@
     "city": "Autun",
     "type": "Aire de stationnement CAMPING-CAR PARK",
     "services": [
-      "Stationnement (36 emplacements selon l’opérateur ; l’office de tourisme en indique 39)",
+      "Stationnement (36 emplacements selon l’opérateur ; 39 dans l’annuaire touristique)",
       "Électricité",
       "Eau potable",
       "Vidange à l’Espace Sport Nature, à environ 5 min du parking"
     ],
     "price": "13,00 € / 24 h, taxe de séjour de 1,00 € incluse.",
-    "status": "Aire d’étape CAMPING-CAR PARK ouverte toute l’année, 36 places selon l’opérateur (39 dans l’annuaire touristique). GPS de l’opérateur : 46.95072, 4.31104 ; le point OSM existant est à environ 700 m et demande vérification.",
+    "status": "Aire d’étape CAMPING-CAR PARK ouverte toute l’année, 36 places selon l’opérateur (39 dans l’annuaire touristique). GPS opérateur : 46.95072, 4.31104. Les deux objets OSM Autun sont fusionnés en une seule aire ; ne pas additionner les capacités.",
     "source": "https://www.openstreetmap.org/way/1117776001",
     "latitude": 46.95072,
     "longitude": 4.31104,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/autun",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Office de tourisme : 39 emplacements, rue de la Maladière, électricité et eau, services de vidange/recharge à 5 minutes du parking. Ne pas attribuer la borne au parking lui-même. | 13/11/2026 : la fiche officielle CAMPING-CAR PARK confirme 36 places, l'adresse et 13,00 €/24 h dont 1,00 € de taxe. Deux objets OSM d'Autun pointent vers cette même aire : doublon potentiel conservé sans double comptage. | 13/11/2026 : opérateur confirme 36 emplacements, GPS 46.95072/4.31104 et 13 €/24 h taxe incluse ; office de tourisme indique 39 places. Le marqueur OSM attaché à cette fiche était à environ 700 m : coordonnées d’affichage alignées sur l’opérateur, objet OSM à contrôler.",
+    "importReview": "Office de tourisme : 39 emplacements, rue de la Maladière, électricité et eau, services de vidange/recharge à 5 minutes du parking. Ne pas attribuer la borne au parking lui-même. | 13/11/2026 : la fiche officielle CAMPING-CAR PARK confirme 36 places, l'adresse et 13,00 €/24 h dont 1,00 € de taxe. Deux objets OSM d'Autun pointent vers cette même aire : doublon potentiel conservé sans double comptage. | 13/11/2026 : opérateur confirme 36 emplacements, GPS 46.95072/4.31104 et 13 €/24 h taxe incluse ; office de tourisme indique 39 places. Le marqueur OSM attaché à cette fiche était à environ 700 m : coordonnées d’affichage alignées sur l’opérateur, objet OSM à contrôler. | 13/11/2026 : doublon de l’objet OSM way/1313588472 (à 57 m, même site et même source officielle) fusionné ici ; conservation de son identifiant pour traçabilité. Opérateur : 36 places et 13 €/24 h taxe incluse ; office de tourisme : 39 places.",
     "sourceId": "way/1117776001",
     "address": "Rue de la Maladière, 71400 Autun",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/autun",
     "servicesSource": "https://www.autun-tourisme.com/offres/camping-car-park-autun-fr-5906939/",
     "capacity": 36,
     "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/autun",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/autun"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/autun",
+    "duplicateSourceIds": [
+      "way/1313588472"
+    ]
   },
   {
     "department": "71",
@@ -876,7 +879,8 @@
     "relatedOfficialSource": "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-les-camping-cars.html-2",
     "relatedOfficialSources": [
       "https://www.chalon.fr/"
-    ]
+    ],
+    "verificationNote": "Point situé à environ 185 m de l’aire CCP avenue Léon-Blum. Sources municipales consultées ne prouvent pas que les deux points désignent la même installation ; garder séparé et ne pas transférer capacité/tarif tant que l’autorisation pour cette promenade reste non confirmée."
   },
   {
     "department": "71",
@@ -1078,83 +1082,73 @@
     "gpsSource": "https://www.openstreetmap.org/way/1297471153",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Guide tourisme Saône Grosne : terrain plat en bordure de rivière, courte et longue durée ; pas de services détaillés.",
+    "importReview": "Guide tourisme Saône Grosne : terrain plat en bordure de rivière, courte et longue durée ; pas de services détaillés. | 13/11/2026 : Office de tourisme de Cluny confirme 4 emplacements en bordure de rivière sur terrain plat ; aucun service ni tarif précisé.",
     "sourceId": "way/1297471153",
-    "sourceOfficial": "https://www.tourisme-saonegrosne.fr/document/guide-parkings-voitures-et-camping-car.pdf"
+    "sourceOfficial": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-lournand/",
+    "capacity": 4,
+    "capacitySource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-lournand/",
+    "servicesSource": "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-lournand/"
   },
   {
     "department": "71",
-    "name": "Camping-cars Park Autun — rue de la Maladière (doublon possible)",
-    "city": "Autun",
-    "type": "Aire CAMPING-CAR PARK — doublon cartographique à vérifier",
-    "services": [
-      "Stationnement camping-car",
-      "Électricité",
-      "Eau potable",
-      "Vidange à l'Espace Sport Nature, à environ cinq minutes"
-    ],
-    "price": "Payant ; tarif non confirmé",
-    "status": "Office de tourisme : aire CAMPING-CAR PARK de 39 emplacements. Cette entrée OSM pourrait désigner la même installation que la fiche « Aire CAMPING-CAR PARK d'Autun — Plan d'eau du Vallon » ; ne pas additionner les capacités.",
-    "source": "https://www.openstreetmap.org/way/1313588472",
-    "latitude": 46.9511457,
-    "longitude": 4.3114532,
-    "gpsSource": "https://www.openstreetmap.org/way/1313588472",
-    "dataLicense": "ODbL",
-    "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Source officielle commune aux deux points OSM d'Autun, rue de la Maladière. Doublon potentiel : garder les identifiants OSM distincts jusqu'à contrôle cartographique, ne pas compter 78 places.",
-    "sourceId": "way/1313588472",
-    "servicesSource": "https://www.autun-tourisme.com/offres/camping-car-park-autun-fr-5906939/",
-    "address": "Rue de la Maladière, 71400 Autun",
-    "sourceOfficial": "https://www.autun-tourisme.com/offres/camping-car-park-autun-fr-5906939/"
-  },
-  {
-    "department": "71",
-    "name": "Aire camping-car Digoin",
+    "name": "Aire de service et de stationnement camping-cars de Digoin — Place de la Grève",
     "city": "Digoin",
     "type": "Aire de services et stationnement camping-car",
     "services": [
-      "Stationnement (20 emplacements selon guide 2025)",
-      "Aire de services (détails à confirmer)"
+      "20 emplacements",
+      "Stationnement gratuit",
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées",
+      "Toilettes publiques",
+      "Jeux pour enfants",
+      "Poubelles"
     ],
-    "price": "Non confirmé",
-    "status": "Aire de services de 20 emplacements place de la Grève dans le guide touristique 2025 ; horaires et prix à confirmer.",
+    "price": "Stationnement gratuit selon l’office de tourisme ; tarif des services non publié.",
+    "status": "Aire de services et de stationnement place de la Grève, près de la Loire, de la voie verte et du centre-ville. 20 emplacements ; stationnement gratuit. Tarif des services et nuitée non précisés.",
     "source": "https://www.openstreetmap.org/way/1321507206",
     "latitude": 46.4804291,
     "longitude": 3.970585,
     "gpsSource": "https://www.openstreetmap.org/way/1321507206",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Guide pratique Pays Charolais-Brionnais 2025 : 20 emplacements, place de la Grève, Digoin. Distinct de l'aire du camping de la Chevrette.",
+    "importReview": "Guide pratique Pays Charolais-Brionnais 2025 : 20 emplacements, place de la Grève, Digoin. Distinct de l'aire du camping de la Chevrette. | 13/11/2026 : fiche actuelle de Tourisme Le Grand Charolais confirme 20 emplacements, stationnement gratuit, eau, électricité, vidange, toilettes et jeux.",
     "sourceId": "way/1321507206",
     "address": "Place de la Grève, 71160 Digoin",
-    "sourceOfficial": "https://www.tourisme-paraylemonial.fr/document/telechargement/pdf/guide-pratique-pcb-2025-web.pdf"
+    "sourceOfficial": "https://tourisme.legrandcharolais.fr/camping-car/aire-de-service-pour-les-campings-cars-ACCBOU071233454.html",
+    "servicesSource": "https://tourisme.legrandcharolais.fr/camping-car/aire-de-service-pour-les-campings-cars-ACCBOU071233454.html",
+    "capacity": 20,
+    "capacitySource": "https://tourisme.legrandcharolais.fr/camping-car/aire-de-service-pour-les-campings-cars-ACCBOU071233454.html",
+    "priceSource": "https://tourisme.legrandcharolais.fr/camping-car/aire-de-service-pour-les-campings-cars-ACCBOU071233454.html"
   },
   {
     "department": "71",
-    "name": "Aire camping-cars La Chapelle-Thècle,",
+    "name": "Aire communale de camping-cars de La Chapelle-Thècle — D39",
     "city": "La Chapelle-Thècle",
-    "type": "Aire de camping-car — non vérifiée",
+    "type": "Aire communale de camping-car — services à recontrôler",
     "services": [
-      "Stationnement (4 emplacements)",
-      "Eau potable (retours utilisateurs 2026)",
-      "Vidange eaux grises",
-      "Vidange WC chimiques",
-      "Poubelles"
+      "Stationnement (4 places, selon fiche secondaire)",
+      "Eau potable signalée",
+      "Vidange eaux grises et WC annoncée, fonctionnement à recontrôler",
+      "Électricité non confirmée"
     ],
-    "price": "Stationnement et services gratuits selon retours utilisateurs 2026 ; confirmation municipale directe en attente",
-    "status": "Aire communale de 4 places, stationnement et services gratuits signalés par plusieurs utilisateurs en 2026. Eau et vidanges confirmées par témoignages récents ; électricité non garantie (plusieurs avis signalent son absence). Coupure possible de l'eau en période de gel.",
+    "price": "Stationnement et services annoncés gratuits par une fiche secondaire ; tarif actuel non confirmé par la commune.",
+    "status": "Aire communale signalée sur la D39, 4 places selon une fiche secondaire. Les sources secondaires décrivent eau et vidanges gratuites, mais un avis de juin 2026 signale la vidange hors service ; l’électricité est aussi contradictoire. Emplacement/adresse exacte, état des services et conditions de nuitée à confirmer auprès de la mairie.",
     "source": "https://www.openstreetmap.org/way/1354720928",
     "latitude": 46.5553045,
     "longitude": 5.1118353,
     "gpsSource": "https://www.openstreetmap.org/way/1354720928",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Aucune source officielle identifiant avec certitude ce point de La Chapelle-Thècle. Ne pas confondre avec La Chapelle-de-Guinchay (autre commune). | 18/10/2026 : Camping-car.com fiche 46252 : D39, 4 places, services eau/électricité/vidanges, gratuit en 2024, 15 jours max, coordonnées proches OSM (~40 m). Source secondaire : sourceOfficial non renseigné. | 18/10/2026 : recoupement Camping-car.com et Park4night (avis de février à juin 2026) : 4 places, eau et vidanges gratuites, stationnement gratuit. Ne pas annoncer l'électricité : avis utilisateurs la signalent absente malgré l'annuaire. Eau possiblement coupée en cas de gel. Aucune source municipale directe : sourceOfficial reste vide. | 18/10/2026 : recherche complémentaire sur l'annuaire institutionnel Destination Saône-et-Loire : aucune fiche précise de cette aire identifiée ; attention aux résultats de La Chapelle-de-Guinchay, commune distincte. Les informations eau/vidange reposent toujours sur les avis 2026, non sur une confirmation officielle.",
+    "importReview": "Aucune source officielle identifiant avec certitude ce point de La Chapelle-Thècle. Ne pas confondre avec La Chapelle-de-Guinchay (autre commune). | 18/10/2026 : Camping-car.com fiche 46252 : D39, 4 places, services eau/électricité/vidanges, gratuit en 2024, 15 jours max, coordonnées proches OSM (~40 m). Source secondaire : sourceOfficial non renseigné. | 18/10/2026 : recoupement Camping-car.com et Park4night (avis de février à juin 2026) : 4 places, eau et vidanges gratuites, stationnement gratuit. Ne pas annoncer l'électricité : avis utilisateurs la signalent absente malgré l'annuaire. Eau possiblement coupée en cas de gel. Aucune source municipale directe : sourceOfficial reste vide. | 18/10/2026 : recherche complémentaire sur l'annuaire institutionnel Destination Saône-et-Loire : aucune fiche précise de cette aire identifiée ; attention aux résultats de La Chapelle-de-Guinchay, commune distincte. Les informations eau/vidange reposent toujours sur les avis 2026, non sur une confirmation officielle. | 13/11/2026 : revérification des sources secondaires ; l’annuaire indique 4 places et gratuité, mais des avis 2026 divergent sur la disponibilité de la vidange/électricité et les adresses. Aucune confirmation municipale directe.",
     "sourceId": "way/1354720928",
     "cityVerificationNote": "Commune indiquée par nom OSM, GPS conservé.",
     "servicesSource": "https://park4night.com/fr/place/383593",
     "address": "D39, 71470 La Chapelle-Thècle (emplacement exact à confirmer)",
-    "priceSource": "https://park4night.com/fr/place/383593"
+    "priceSource": "https://www.camping-car.com/aires/46252-aire-communale/",
+    "capacity": 4,
+    "capacitySource": "https://www.camping-car.com/aires/46252-aire-communale/",
+    "verificationNote": "Pas de fiche municipale ou départementale retrouvée pour cet emplacement. Sources secondaires placent l’aire sur la D39 ou au 61 bis route de la Devise ; elles rapportent 4 places et des services gratuits, mais un avis de juin 2026 indique la vidange hors service. Vérifier avec la mairie avant d’afficher les équipements comme disponibles."
   },
   {
     "department": "71",
@@ -1170,14 +1164,14 @@
       "Stationnement pour camping-cars",
       "Branchement électrique 6 A"
     ],
-    "price": "12,32 € / 24 h, taxe de séjour de 0,80 € en supplément (tarif opérateur affiché pour 01/10/2026–31/12/2027).",
-    "status": "Ouverte, 24 places, rue du Bourg.",
+    "price": "13,12 € / 24 h, taxe de séjour de 0,80 € incluse (tarif actuel affiché par l’opérateur ; tarif de base 12,32 € du 01/10/2026 au 31/12/2027).",
+    "status": "Aire d’étape CAMPING-CAR PARK ouverte, 24 places, rue du Bourg. Tarif actuel 13,12 € / 24 h taxe incluse.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/bantanges",
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/bantanges",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/bantanges",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/bantanges",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/bantanges",
-    "importReview": "13/11/2026 : ajoutée après rapprochement avec la liste officielle CAMPING-CAR PARK du département (11 sites). Coordonnées, capacité et tarif vérifiés sur la fiche opérateur."
+    "importReview": "13/11/2026 : ajoutée après rapprochement avec la liste officielle CAMPING-CAR PARK du département (11 sites). Coordonnées, capacité et tarif vérifiés sur la fiche opérateur. | 13/11/2026 : fiche opérateur actuelle affiche 13,12 €/24 h dont 0,80 € de taxe (12,32 € hors taxe sur la période 01/10/2026–31/12/2027), 24 places et aire ouverte."
   },
   {
     "department": "71",
@@ -1193,14 +1187,14 @@
       "Stationnement pour camping-cars",
       "Branchement électrique 6 A"
     ],
-    "price": "15,00 € / 24 h, taxe de séjour de 1,20 € incluse.",
+    "price": "15,00 € / 24 h, dont 1,20 € de taxe de séjour incluse.",
     "status": "Ouverte, 24 places, à distinguer de l'aire distincte de Chalon-sur-Saône Centre (Avenue Léon Blum).",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/pont-de-bourgogne",
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/pont-de-bourgogne",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/pont-de-bourgogne",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/pont-de-bourgogne",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/pont-de-bourgogne",
-    "importReview": "13/11/2026 : ajoutée après rapprochement avec la liste officielle CAMPING-CAR PARK; adresse et GPS opérateur. Site à Saint-Marcel, différent de l'aire Centre à Chalon."
+    "importReview": "13/11/2026 : ajoutée après rapprochement avec la liste officielle CAMPING-CAR PARK; adresse et GPS opérateur. Site à Saint-Marcel, différent de l'aire Centre à Chalon. | 13/11/2026 : opérateur revérifié : aire ouverte, 24 places et 15 €/24 h dont 1,20 € de taxe."
   },
   {
     "department": "71",
@@ -1217,14 +1211,14 @@
       "Branchement électrique 6 A",
       "Sanitaires ouverts en saison"
     ],
-    "price": "14,14 € / 24 h, taxe de séjour de 0,40 € incluse (tarif affiché par l'opérateur).",
-    "status": "Ouvert, 100 places. Fermeture hivernale signalée par l'opérateur ; vérifier les dates de la saison 2026-2027 avant déplacement.",
+    "price": "14,14 € / 24 h, dont 0,40 € de taxe de séjour incluse.",
+    "status": "Fiche opérateur : aire affichée ouverte, 100 places et 14,14 €/24 h taxe incluse. La même page publie un avis de fermeture hivernale daté du « 31 novembre », date impossible ; confirmer l’ouverture avant déplacement. PPRI signalé.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/verdun-ciel",
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/verdun-ciel",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/verdun-ciel",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/verdun-ciel",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/verdun-ciel",
-    "importReview": "13/11/2026 : ajoutée d'après la fiche officielle CAMPING-CAR PARK; 100 places, GPS, adresse et tarif taxe incluse vérifiés. Ne pas reprendre littéralement la date de fermeture erronée (« 31 novembre ») affichée par l'opérateur."
+    "importReview": "13/11/2026 : ajoutée d'après la fiche officielle CAMPING-CAR PARK; 100 places, GPS, adresse et tarif taxe incluse vérifiés. Ne pas reprendre littéralement la date de fermeture erronée (« 31 novembre ») affichée par l'opérateur. | 13/11/2026 : page opérateur consultée ; état « Ouverte », 100 places, 14,14 € dont 0,40 € taxe. Avis de fermeture indiquant « 31 novembre » impossible ; ne pas reprendre cette date comme fermeture fiable."
   },
   {
     "department": "71",
@@ -1241,14 +1235,14 @@
       "Branchement électrique 6 A",
       "Sanitaires ouverts en saison"
     ],
-    "price": "11,60 € / 24 h, taxe de séjour de 0,40 € incluse.",
-    "status": "Ouvert, 52 places ; PPRI signalé par l'opérateur. Site distinct de l'aire CAMPING-CAR PARK du Port.",
+    "price": "11,60 € / 24 h, dont 0,40 € de taxe de séjour incluse (tarif actuel affiché par l’opérateur).",
+    "status": "Camping de mon village CAMPING-CAR PARK affiché ouvert, 52 places ; PPRI signalé par l’opérateur. Site distinct de l’aire CAMPING-CAR PARK du Port.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/louhans-les-trois-rivi%C3%A8res",
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/louhans-les-trois-rivi%C3%A8res",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/louhans-les-trois-rivi%C3%A8res",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/louhans-les-trois-rivi%C3%A8res",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/louhans-les-trois-rivi%C3%A8res",
-    "importReview": "13/11/2026 : ajoutée après rapprochement avec la liste officielle (11 sites); fiche CAMPING-CAR PARK vérifiée pour adresse, GPS, 52 places et tarif."
+    "importReview": "13/11/2026 : ajoutée après rapprochement avec la liste officielle (11 sites); fiche CAMPING-CAR PARK vérifiée pour adresse, GPS, 52 places et tarif. | 13/11/2026 : opérateur revérifié : ouvert, 52 places, 11,60 €/24 h dont 0,40 € de taxe ; PPRI signalé."
   },
   {
     "department": "71",
@@ -1261,18 +1255,18 @@
     "capacity": 68,
     "capacitySource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/toulon-sur-arroux",
     "services": [
-      "Stationnement pour camping-cars",
+      "Stationnement pour camping-cars (68 places)",
       "Branchement électrique 6 A",
-      "Sanitaires ouverts du 02/04/2026 au 31/10/2026"
+      "Sanitaires ouverts en saison, du 02/04/2026 au 31/10/2026"
     ],
-    "price": "15,00 € / 24 h, taxe de séjour de 0,40 € incluse.",
-    "status": "Ouvert, 68 places. Sanitaires saisonniers ; l'aire reste ouverte toute l'année aux camping-cars selon la fiche opérateur.",
+    "price": "15,00 € / 24 h, dont 0,40 € de taxe de séjour incluse.",
+    "status": "Camping de mon village CAMPING-CAR PARK affiché ouvert toute l’année, 68 places. Sanitaires saisonniers, ouverts du 02/04 au 31/10/2026.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/toulon-sur-arroux",
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/toulon-sur-arroux",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/toulon-sur-arroux",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/toulon-sur-arroux",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/toulon-sur-arroux",
-    "importReview": "13/11/2026 : ajoutée après rapprochement avec la liste officielle (11 sites); fiche CAMPING-CAR PARK vérifiée pour adresse, GPS, capacité, prix et période sanitaire."
+    "importReview": "13/11/2026 : ajoutée après rapprochement avec la liste officielle (11 sites); fiche CAMPING-CAR PARK vérifiée pour adresse, GPS, capacité, prix et période sanitaire. | 13/11/2026 : opérateur revérifié : ouvert toute l’année aux camping-cars, 68 places, 15 €/24 h dont 0,40 € de taxe ; sanitaires fermés depuis le 31/10/2026."
   },
   {
     "department": "71",
@@ -1284,11 +1278,12 @@
     "type": "Camping de mon village CAMPING-CAR PARK — à venir",
     "services": [],
     "price": "Tarif non publié ; site indiqué « À venir » par l'opérateur.",
-    "status": "Projet CAMPING-CAR PARK annoncé « À venir » ; capacité, date d'ouverture et services non encore publiés.",
+    "status": "Projet CAMPING-CAR PARK toujours affiché « À venir » par l’opérateur au 13/11/2026 ; capacité, date d’ouverture et tarifs non publiés. Un camping municipal existe à la même adresse et coordonnées, mais son exploitation et ses tarifs ne sont pas repris dans cette fiche projet.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/macon",
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/macon",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/macon",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/macon",
-    "importReview": "13/11/2026 : ajoutée à la couverture CCP d'après la fiche officielle « À venir »; adresse et GPS publiés, sans inventer capacité, ouverture ou tarif."
+    "importReview": "13/11/2026 : ajoutée à la couverture CCP d'après la fiche officielle « À venir »; adresse et GPS publiés, sans inventer capacité, ouverture ou tarif. | 13/11/2026 : page CCP consultée, statut toujours « À venir ». Le camping municipal à la même adresse a une saison 2026 publiée jusqu’au 31/10/2026 ; ne pas reprendre capacité, calendrier ni tarifs du camping municipal pour le projet CCP.",
+    "relatedOfficialSource": "https://www.macon-tourisme.com/campings/camping-municipal-de-macon/"
   }
 ]
