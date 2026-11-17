@@ -111,6 +111,81 @@ document.getElementById("review-form").addEventListener("submit",e=>{
 document.getElementById("year").textContent=new Date().getFullYear();
 init();
 
+
+function initRegionExplorer(allDepartments, aires, selector, resetAndShowDepartment){
+  const mapElement=document.getElementById("region-map");
+  const regionList=document.getElementById("region-list");
+  const departmentList=document.getElementById("department-list");
+  const step=document.getElementById("region-step");
+  const back=document.getElementById("region-back");
+  if(!mapElement||!regionList||!departmentList)return;
+  const regionNames=[...new Set(allDepartments.map(d=>d.region).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"fr"));
+  const regionCounts=new Map();
+  for(const a of aires)regionCounts.set(String(a.department),(regionCounts.get(String(a.department))||0)+1);
+  let map=null, regionLayer=null;
+  const overseas=new Set(["Guadeloupe","Martinique","Guyane","La Réunion","Mayotte"]);
+  function mainlandLayers(){
+    return regionLayer?regionLayer.getLayers().filter(layer=>!overseas.has(layer.feature.properties.nom)):[];
+  }
+  function showRegions(){
+    departmentList.hidden=true;
+    departmentList.innerHTML="";
+    back.hidden=true;
+    regionList.hidden=false;
+    step.textContent="Sélectionnez une région pour afficher ses départements.";
+    regionLayer?.eachLayer(layer=>layer.setStyle({color:"#ffffff",weight:2,fillColor:"#77a58a",fillOpacity:.72}));
+    if(map){const layers=mainlandLayers();if(layers.length)map.fitBounds(L.featureGroup(layers).getBounds(),{padding:[12,12]});}
+  }
+  function chooseRegion(name, zoom=true){
+    const matches=allDepartments.filter(d=>d.region===name).sort((a,b)=>String(a.code).localeCompare(String(b.code),"fr",{numeric:true}));
+    if(!matches.length)return;
+    regionList.hidden=true;
+    departmentList.hidden=false;
+    back.hidden=false;
+    step.textContent=name+" · "+matches.length+" département"+(matches.length>1?"s":"");
+    departmentList.innerHTML=matches.map(d=>{
+      const count=regionCounts.get(String(d.code))||0;
+      return '<button type="button" class="department-choice" data-code="'+escapeHTML(d.code)+'"><span><b>'+escapeHTML(d.code)+'</b> · '+escapeHTML(d.name)+'</span><small>'+count+' fiche'+(count>1?'s':'')+'</small></button>';
+    }).join("");
+    departmentList.querySelectorAll("[data-code]").forEach(button=>button.addEventListener("click",()=>resetAndShowDepartment(button.dataset.code)));
+    regionLayer?.eachLayer(layer=>layer.setStyle({
+      color:"#ffffff",weight:layer.feature.properties.nom===name?3:1.5,
+      fillColor:layer.feature.properties.nom===name?"#d8a64c":"#77a58a",
+      fillOpacity:layer.feature.properties.nom===name ? .92 : .5
+    }));
+    if(zoom&&map){
+      const chosen=regionLayer.getLayers().find(layer=>layer.feature.properties.nom===name);
+      if(chosen)map.fitBounds(chosen.getBounds(),{padding:[18,18],maxZoom:8});
+    }
+  }
+  regionList.innerHTML=regionNames.map(name=>'<button type="button" class="region-choice" data-region="'+escapeHTML(name)+'">'+escapeHTML(name)+'</button>').join("");
+  regionList.querySelectorAll("[data-region]").forEach(button=>button.addEventListener("click",()=>chooseRegion(button.dataset.region)));
+  back.addEventListener("click",showRegions);
+  if(typeof L==="undefined"){
+    mapElement.textContent="La carte n’est pas disponible sur cet appareil. Vous pouvez choisir une région dans la liste.";
+    return;
+  }
+  map=L.map("region-map",{scrollWheelZoom:false}).setView([46.6,2.4],5);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
+    maxZoom:10,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributeurs'
+  }).addTo(map);
+  fetch("regions-2026.geojson?v=20261117",{cache:"force-cache"}).then(response=>{
+    if(!response.ok)throw new Error("Contours indisponibles");
+    return response.json();
+  }).then(data=>{
+    regionLayer=L.geoJSON(data,{
+      style:()=>({color:"#ffffff",weight:2,fillColor:"#77a58a",fillOpacity:.72}),
+      onEachFeature:(feature,layer)=>{
+        layer.bindTooltip(feature.properties.nom,{sticky:true});
+        layer.on("click",()=>chooseRegion(feature.properties.nom,false));
+      }
+    }).addTo(map);
+    const layers=mainlandLayers();
+    if(layers.length)map.fitBounds(L.featureGroup(layers).getBounds(),{padding:[12,12]});
+    setTimeout(()=>map.invalidateSize(),0);
+  }).catch(error=>console.warn("Carte régionale indisponible",error));
+}
+
 async function initAires(){
   const target=document.getElementById("aire-grid");
   if(!target)return;
@@ -706,6 +781,17 @@ async function initAires(){
         ? "Aucune aire encore recensée pour ce département. Notre base est en cours de construction."
         : "Aucun lieu ne correspond à votre recherche.";
     }
+    function selectDepartmentFromExplorer(code){
+      selector.value=code;
+      query.value="";
+      kind.value="";
+      service.value="";
+      gpsOnly.checked=false;
+      hideUnverifiedNight.checked=false;
+      display();
+      document.getElementById("aire-grid").scrollIntoView({behavior:"smooth",block:"start"});
+    }
+    initRegionExplorer(allDepartments,aires,selector,selectDepartmentFromExplorer);
     more.addEventListener("click",()=>{visibleCount+=pageSize;display(false);});
     selector.addEventListener("change",()=>display());
     query.addEventListener("input",()=>display());
