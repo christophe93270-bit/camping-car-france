@@ -710,6 +710,7 @@ async function initAires(){
     const depResponse=await fetch("departements.json");
     if(!depResponse.ok)throw new Error("Liste des départements indisponible");
     const allDepartments=await depResponse.json();
+    const departmentNames=new Map(allDepartments.map(d=>[String(d.code),d.name]));
     allDepartments.slice().sort((a,b)=>String(a.code).localeCompare(String(b.code),"fr",{numeric:true})).forEach(d=>{
       const option=document.createElement("option");
       option.value=d.code;
@@ -748,7 +749,20 @@ async function initAires(){
         &&(!gpsOnly.checked||(Number.isFinite(a.latitude)&&Number.isFinite(a.longitude)))
         &&(!hideUnverifiedNight.checked||!(a.overnightStatus==="not_established"||a.overnightStatus==="prohibited"))
       );
-      target.innerHTML=filtered.slice(0,visibleCount).map(a=>`<article class="department-card" style="cursor:default;text-align:left">
+      filtered.sort((a,b)=>
+        String(a.department||"").localeCompare(String(b.department||""),"fr",{numeric:true})
+        ||String(a.name||"").localeCompare(String(b.name||""),"fr",{sensitivity:"base",numeric:true})
+        ||String(a.city||"").localeCompare(String(b.city||""),"fr",{sensitivity:"base"})
+      );
+      const visible=filtered.slice(0,visibleCount);
+      let previousDepartment="";
+      target.innerHTML=visible.map(a=>{
+        const code=String(a.department||"");
+        const heading=!selector.value&&code!==previousDepartment
+          ? '<h3 class="aire-group-heading">'+escapeHTML(code)+' — '+escapeHTML(departmentNames.get(code)||"Département")+'</h3>'
+          : "";
+        previousDepartment=code;
+        return heading+`<article class="department-card aire-card" style="cursor:default;text-align:left">
         <span class="card-top"><span class="department-code">${escapeHTML(a.department)}</span><span class="card-score" style="font-size:.85rem">${escapeHTML(a.type)}</span></span>
         <span class="card-name">${escapeHTML(a.name)}</span>
         <span class="card-foot">${escapeHTML(a.city)}</span>
@@ -776,7 +790,8 @@ async function initAires(){
         <p><strong>À vérifier :</strong> ${escapeHTML(a.status)}</p>
         ${a.dataAttribution?`<p><small>Données : ${escapeHTML(a.dataAttribution)} — ${escapeHTML(a.dataLicense||"Licence non indiquée")}</small></p>`:""}
         ${a.sourceOfficial&&a.sourceOfficial!==a.source&&/^https?:\/\//i.test(String(a.sourceOfficial))?`<a href="${escapeHTML(a.sourceOfficial)}" target="_blank" rel="noopener noreferrer">Source du lieu ↗</a> · `:""}<a href="${escapeHTML(a.source)}" target="_blank" rel="noopener noreferrer">Données d’origine ↗</a>
-      </article>`).join("");
+      </article>`;
+      }).join("");
       more.hidden=filtered.length<=visibleCount;
       more.textContent="Voir plus de fiches ("+Math.min(pageSize,Math.max(0,filtered.length-visibleCount))+" suivantes)";
       document.getElementById("aire-count").textContent=filtered.length+" lieu"+(filtered.length>1?"x":"");

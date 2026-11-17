@@ -28,3 +28,10 @@
 @media(max-width:560px){.region-explorer{padding:15px}.region-explorer-heading{display:block}.region-licence{display:inline-block;margin-top:10px}.region-map-stage{height:310px;min-height:280px}#region-map,#department-map{min-height:280px}.region-picker{padding:12px}.region-choice-list{grid-template-columns:1fr 1fr}.department-choice{font-size:10px}}
 
 #department-map .department-map-path:focus{outline:none;stroke:#d8a64c;stroke-width:3}
+
+.aire-list{display:flex;flex-direction:column;gap:12px}
+.aire-list .aire-group-heading{margin:22px 0 0;padding:0 0 8px;border-bottom:1px solid var(--line);color:var(--forest);font-size:17px;letter-spacing:-.3px}
+.aire-list .aire-card{width:100%;min-height:0;display:block;padding:18px 20px;text-align:left;cursor:default}
+.aire-list .aire-card .card-name{display:block;margin-top:6px;font-size:17px}
+.aire-list .aire-card p{margin:10px 0;font-size:12px}
+.aire-list .aire-card .card-foot{justify-content:flex-start}
