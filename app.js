@@ -772,26 +772,25 @@ async function initAires(){
     function renderTariffDetails(a){
       const raw=String(a.price||"Tarif non renseigné");
       const stay=[],service=[],other=[];
-      raw.split(/[;\n]+/).map(part=>part.trim()).filter(Boolean).forEach(part=>{
-        const hasStay=/stationnement|parking|nuitée|nuit\b|emplacement|24\s*h/i.test(part);
-        const hasService=/borne|services?|eau\b|vidange|électricité|electricite/i.test(part);
+      raw.split(/(?:[;\\n]+|(?<=[.!?])\\s+(?=[A-ZÀ-ÖØ-Þ0-9]))/u).map(part=>part.trim()).filter(Boolean).forEach(part=>{
+        const hasStay=/stationnement|parking|nuitée|nuit\\b|emplacement|24\\s*h/i.test(part);
+        const hasService=/borne|services?|eau\\b|vidange|électricité|electricite/i.test(part);
         if(hasStay&&!hasService)stay.push(part);
         else if(hasService&&!hasStay)service.push(part);
         else other.push(part);
       });
       const heading=String(a.department)==="44"
         ? (a.priceYear===2026?"Référence tarifaire 2026":"Référence tarifaire antérieure à 2027")
-        : (a.priceStatus==="not_applicable_for_night_stay"?"Tarif de nuitée":"Tarif indiqué");
+        : (a.priceStatus==="not_applicable_for_night_stay"?"Tarif indiqué sur la fiche":"Tarif indiqué");
       const checked=a.priceCheckedAt||a.priceVerifiedOn||"";
       return '<div class="tariff-breakdown">'
         +'<p><strong>'+escapeHTML(heading)+' :</strong> '+escapeHTML(raw)+'</p>'
-        +'<p><strong>Stationnement / nuitée :</strong> '+escapeHTML(stay.length?stay.join(" · "):"Non distingué séparément dans la fiche.")+'</p>'
-        +'<p><strong>Services et bornes :</strong> '+escapeHTML(service.length?service.join(" · "):"Tarif non distingué séparément dans la fiche.")+'</p>'
+        +(stay.length?'<p><strong>Stationnement / nuitée :</strong> '+escapeHTML(stay.join(" · "))+'</p>':"")
+        +(service.length?'<p><strong>Services et bornes :</strong> '+escapeHTML(service.join(" · "))+'</p>':"")
         +(other.length?'<p><strong>Autres précisions tarifaires :</strong> '+escapeHTML(other.join(" · "))+'</p>':"")
         +'<p class="tariff-check-date"><strong>Vérification du tarif :</strong> '+escapeHTML(checked||"Date non précisée dans la fiche.")+'</p>'
         +'</div>';
     }
-
     function classifyAireKind(a){
       const type=String(a.type||"").toLocaleLowerCase("fr").trim();
       if(/^camping\b/.test(type)||/\b(?:dans|au|en) camping(?: municipal| privé| à la ferme)?\b/.test(type)||/^emplacements? camping-car dans un camping\b/.test(type))return "camping";
