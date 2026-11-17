@@ -30,7 +30,7 @@ jobs:
               assert info.get('year')==2027 and info.get('source','').startswith('https://') and info.get('checkedAt'), f"2027 : source ou date absente {sid}"
               assert info.get('status') in {'partial','promotion_only','booking_only','confirmed'}, f"2027 : statut inconnu {sid}"
           baule27=season27['ACCAMEAIREDECAMPINGCARLABAULE']
-          assert baule27['status']=='partial' and baule27['touristTaxConfirmed'] is False, 'La Baule : ne pas certifier un total 2027 avec la taxe 2026'
+          assert baule27['status']=='partial' and baule27['touristTaxConfirmed'] is True and baule27.get('touristTaxEUR')==1.32 and baule27.get('totalStopoverAndTaxEUR')==15.82, 'La Baule : taxe 2027 publiée, total calculé incorrect'
           petit27=season27['CCF44-MESQUER-PETIT-BOIS-2026']
           assert petit27['status']=='promotion_only' and petit27['minimumNights']==7 and 'baseAmountEUR' not in petit27, 'Petit Bois : remise distincte du prix de nuitée'
           assert season27['ACCAMACCAMPDL044000049']['status']=='booking_only', 'Le Ranch : calendrier distinct du prix'
