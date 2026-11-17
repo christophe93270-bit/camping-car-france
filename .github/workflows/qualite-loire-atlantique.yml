@@ -261,7 +261,7 @@ jobs:
           praderoi=next(x for x in lot44 if x["sourceId"]=="CCF44-MESQUER-PRADEROI-2026")
           assert "22 à 41 €" in chalands.get("price","") and chalands.get("priceYear") is None and "non_millesime" in chalands.get("priceVerification",""), "44 lot 44 : année tarifaire Chalands Fleuris affirmée sans preuve"
           assert "35 à 52 €" in prairies.get("price","") and prairies.get("priceYear")==2026 and "04/04/2026" in prairies.get("seasonalDates2026",""), "44 lot 44 : grille 2026 des Prairies de l'Etang manquante"
-          assert "20,20 €" in praderoi.get("price","") and "26,70 €" in praderoi.get("price","") and "non_contractuel" in praderoi.get("priceVerification","") and praderoi.get("priceYear") is None, "44 lot 44 : repère tiers Praderoi confondu avec un prix officiel"
+          assert "17,70 €/nuit" in praderoi.get("price","") and "21,10 €" in praderoi.get("price","") and praderoi.get("priceVerification")=="grille_exploitant_sans_millesime_validite_a_confirmer" and praderoi.get("priceYear") is None and "20,20 €" not in praderoi.get("price","") and "26,70 €" not in praderoi.get("price",""), "44 lot 44 : grille Praderoi sans millésime ou repère tiers mal classé"
           assert all(not x.get("overnightStatus") for x in lot44), "44 lot 44 : nuitée en camping privé ne doit pas être filtrée sans preuve"
 
           # Lot 45 : trois nouveaux campings ; tarifs NON confirmés, sans substitution d'une promotion ni d'un ancien devis.
