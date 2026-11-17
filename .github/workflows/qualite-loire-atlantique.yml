@@ -327,7 +327,7 @@ jobs:
           foret=next(x for x in lot49 if x.get("sourceId")=="CCF44-LE-GAVRE-CAMPING-FORET-2026")
           assert "03/04/2026" in bernier.get("seasonalDates2026","") and "04/10/2026" in bernier.get("seasonalDates2026","") and "294 € pour la semaine" in bernier.get("price","") and "camping-car 2026" in bernier.get("price","") and bernier.get("priceYear") is None, "Bernier : offre semaine séparée du tarif camping-car non confirmé"
           assert fontaine.get("capacityCampingCarTourism")==66 and "14/04" in fontaine.get("seasonalDates2026","") and "04/10" in fontaine.get("seasonalDates2026",""), "Fontaine : capacité ou contradiction saison absente"
-          assert fontaine.get("priceYear")==2026 and "20,50 € / nuit" in fontaine.get("price","") and "+5,50 € / nuit" in fontaine.get("price","") and "0,61 €" in fontaine.get("price",""), "Fontaine : tarifs 2026 camping-car mal distingués"
+          assert fontaine.get("price")=="Non confirmé" and fontaine.get("priceSource")=="https://www.camping-lafontaine.com/location-emplacement-guerande/" and "homonyme" in fontaine.get("priceEvidenceNote","") and fontaine.get("season2027",{}).get("status")=="partial", "Fontaine : tarif homonyme hors 44 réintroduit ou nuitée non confirmée mal tracée"
           assert foret.get("capacityCampingCarTourism")==10 and foret.get("capacityAllTourism")==73 and "75" in foret.get("status",""), "Forêt Gâvre : capacités contradictoires non tracées"
           assert len([x for x in visible_regional if "albatros" in norm(x.get("name"))])==1, "Lot 49 : ne pas dupliquer L'Albatros déjà présent"
 
