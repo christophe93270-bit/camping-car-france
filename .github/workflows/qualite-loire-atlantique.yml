@@ -217,13 +217,15 @@ jobs:
           lot41_expect={
               "CCF44-BERNERIE-GOELETTE-2026":"18 €",
               "CCF44-BERNERIE-ECUREUILS-2026":"21 à 59 €",
-              "CCF44-ST-MICHEL-BEL-ESSOR-2026":"14,60 à 21,60 €",
+              "CCF44-ST-MICHEL-BEL-ESSOR-2026":"14,90 à 22,10 €",
               "CCF44-VILLENEUVE-BAIE-DOREE-2026":"16 à 33 €",
               "CCF44-PORT-ST-PERE-MORINIERE-2026":"13 €"
           }
           lot41=[x for x in visible_regional if x.get("sourceId") in lot41_expect]
           assert len(lot41)==5, "44 lot 41 : cinq campings de 2026 introuvables"
-          assert all(x.get("priceYear")==2026 and x.get("priceCheckedAt")=="2026-10-20" and x.get("priceEvidenceDocument","").startswith("https://www.pornic.com/") and x.get("contactPhone") and x.get("contactSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot41), "44 lot 41 : prix, GPS, contact ou catégorie nuitée manquants"
+          lot41_checked={"CCF44-BERNERIE-GOELETTE-2026":"2026-10-20","CCF44-BERNERIE-ECUREUILS-2026":"2026-11-10","CCF44-ST-MICHEL-BEL-ESSOR-2026":"2026-11-08","CCF44-VILLENEUVE-BAIE-DOREE-2026":"2026-11-08","CCF44-PORT-ST-PERE-MORINIERE-2026":"2026-11-09"}
+          lot41_sources={"CCF44-BERNERIE-GOELETTE-2026":"https://www.pornic.com/camping-la-goelette.html","CCF44-BERNERIE-ECUREUILS-2026":"https://www.chadotel.com/wp-content/uploads/2025/12/TARIFS-2026-FR-2-LES-ECUREUILS.pdf","CCF44-ST-MICHEL-BEL-ESSOR-2026":"https://www.campingbelessor.com/emplacements.php","CCF44-VILLENEUVE-BAIE-DOREE-2026":"https://www.camping-baie-doree.fr/wp-content/uploads/2024/12/Tarifs-2026-1-1.pdf","CCF44-PORT-ST-PERE-MORINIERE-2026":"https://www.port-saint-pere.fr/wp-content/uploads/2026/02/Compte-rendu-du-Conseil-Municipal-du-15-decembre-2025.pdf"}
+          assert all(x.get("priceYear")==2026 and x.get("priceCheckedAt")==lot41_checked[x["sourceId"]] and x.get("priceEvidenceDocument")==lot41_sources[x["sourceId"]] and x.get("contactPhone") and x.get("contactSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot41), "44 lot 41 : prix, GPS, contact ou catégorie nuitée manquants"
           assert all(tarif in next(x for x in lot41 if x["sourceId"]==ident)["price"] for ident,tarif in lot41_expect.items()), "44 lot 41 : grille de tarif inattendue"
 
           # Lot 42 : une aire municipale (séjour 3 nuits) et trois campings privés distincts.
