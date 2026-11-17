@@ -288,7 +288,7 @@ jobs:
           gcu=next(x for x in lot46 if x["sourceId"]=="CCF44-MESQUER-GCU-SORLOC-H-2026")
           assert all(t in gruellau.get("price","") for t in ("8 €","4 €","2,50 €")) and "contradictoire" in gruellau.get("operationalWarning",""), "Gruellau : prix d'appel ou saisons contradictoires non tracés"
           assert ceveo.get("price")=="Non confirmé" and ceveo.get("capacityCampingCarPublished")==15 and ceveo.get("nearbyDistinctSourceId")==petit["sourceId"], "Tréambert : tarif ou capacité camping-car erronés"
-          assert petit.get("price")=="Non confirmé" and petit.get("capacityBarePitchesPublished")==16 and petit.get("nearbyDistinctSourceId")==ceveo["sourceId"], "Petit Bois : tarif, places ou voisin mal identifiés"
+          assert "186 € pour 7 nuits" in petit.get("price","") and "pas d’un tarif général par nuit" in petit.get("price","") and petit.get("capacityBarePitchesPublished")==16 and petit.get("nearbyDistinctSourceId")==ceveo["sourceId"] and petit.get("season2027",{}).get("offerPriceType")=="stay_total" and petit.get("season2027",{}).get("baseRate2027Confirmed") is False, "Petit Bois : promotion de séjour distincte du tarif général"
           assert gcu.get("priceYear")==2026 and all(v in gcu.get("price","") for v in ("17,86 €","20,83 €","29,77 €")) and gcu.get("priceSource")=="https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf" and gcu.get("accessVerification")=="tarif_2026_adherents_atteste_admission_non_adherents_a_verifier", "GCU Mesquer : forfait 2026 pour deux adhérents ou preuve manquants"
           assert "à la semaine" in gcu.get("bookingConditions2026","") and "dimanche ou mercredi" in gcu.get("bookingConditions2026",""), "GCU Mesquer : réservation haute saison manquante"
 
