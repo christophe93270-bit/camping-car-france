@@ -151,7 +151,7 @@ function initRegionExplorer(allDepartments, aires, selector, resetAndShowDepartm
       departmentMap.innerHTML=markup;
       const svg=departmentMap.querySelector("svg");
       if(!svg)throw new Error("Carte départementale invalide");
-      svg.setAttribute("role","img");
+      svg.setAttribute("role","group");
       svg.setAttribute("aria-label","Départements de "+name+" ; cliquez sur un département");
       svg.setAttribute("preserveAspectRatio","xMidYMid meet");
       svg.querySelectorAll(".inset").forEach(el=>el.style.display="none");
@@ -163,6 +163,7 @@ function initRegionExplorer(allDepartments, aires, selector, resetAndShowDepartm
         const d=matches.find(dep=>String(dep.code)===code);
         if(!d){path.style.display="none";return;}
         const count=regionCounts.get(code)||0;
+        path.classList.add("department-map-path");
         path.style.fill="#8fb59a";
         path.style.stroke="#ffffff";
         path.style.strokeWidth="1.5";
@@ -206,7 +207,7 @@ function initRegionExplorer(allDepartments, aires, selector, resetAndShowDepartm
     regionLayer?.eachLayer(layer=>layer.setStyle({
       color:"#ffffff",weight:normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name)?3:1.5,
       fillColor:normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name)?"#d8a64c":"#77a58a",
-      fillOpacity:normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name)?.92:.5
+      fillOpacity:normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name) ? .92 : .5
     }));
     if(map&&zoom){
       const chosen=regionLayer.getLayers().find(layer=>normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name));

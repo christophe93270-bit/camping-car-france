@@ -26,3 +26,5 @@
 .map-attribution{font-size:10px;color:var(--muted);margin:7px 2px 22px}
 @media(max-width:850px){.region-explorer-layout{grid-template-columns:1fr}.region-map-stage{height:380px}#region-map,#department-map{height:100%}.region-choice-list,.department-choice-list{max-height:260px}}
 @media(max-width:560px){.region-explorer{padding:15px}.region-explorer-heading{display:block}.region-licence{display:inline-block;margin-top:10px}.region-map-stage{height:310px;min-height:280px}#region-map,#department-map{min-height:280px}.region-picker{padding:12px}.region-choice-list{grid-template-columns:1fr 1fr}.department-choice{font-size:10px}}
+
+#department-map .department-map-path:focus{outline:none;stroke:#d8a64c;stroke-width:3}
