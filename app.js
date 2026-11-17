@@ -140,7 +140,11 @@ function initRegionExplorer(allDepartments, aires, selector, resetAndShowDepartm
     back.hidden=true;
     step.textContent="Sélectionnez une région sur la carte ou dans la liste.";
     regionLayer?.eachLayer(layer=>layer.setStyle({color:"#ffffff",weight:2,fillColor:"#77a58a",fillOpacity:.72}));
-    if(map){const layers=mainlandLayers();if(layers.length)map.fitBounds(L.featureGroup(layers).getBounds(),{padding:[12,12]});setTimeout(()=>map.invalidateSize(),0);}
+    if(map)setTimeout(()=>{
+      map.invalidateSize({pan:false});
+      const layers=mainlandLayers();
+      if(layers.length)map.fitBounds(L.featureGroup(layers).getBounds(),{padding:[12,12]});
+    },0);
   }
   async function showDepartmentMap(name, matches){
     departmentMap.hidden=false;
