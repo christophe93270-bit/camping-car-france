@@ -320,7 +320,7 @@ jobs:
           lot49_ids={"CCF44-PLAINE-LE-BERNIER-2026","CCF44-GUERANDE-LA-FONTAINE-2026","CCF44-LE-GAVRE-CAMPING-FORET-2026"}
           lot49=[x for x in visible_regional if x.get("sourceId") in lot49_ids]
           assert len(lot49)==3, "Lot 49 : trois nouveaux campings manquants"
-          lot49_checked={"CCF44-PLAINE-LE-BERNIER-2026":"2026-10-20","CCF44-GUERANDE-LA-FONTAINE-2026":"2026-11-10","CCF44-LE-GAVRE-CAMPING-FORET-2026":"2026-10-20"}
+          lot49_checked={"CCF44-PLAINE-LE-BERNIER-2026":"2026-10-20","CCF44-GUERANDE-LA-FONTAINE-2026":"2026-11-17","CCF44-LE-GAVRE-CAMPING-FORET-2026":"2026-10-20"}
           assert all(x.get("priceCheckedAt")==lot49_checked[x["sourceId"]] and not x.get("overnightStatus") and x.get("contactPhone") and x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") for x in lot49), "Lot 49 : sources, contacts, prix ou filtre nocturne incohérents"
           bernier=next(x for x in lot49 if x.get("sourceId")=="CCF44-PLAINE-LE-BERNIER-2026")
           fontaine=next(x for x in lot49 if x.get("sourceId")=="CCF44-GUERANDE-LA-FONTAINE-2026")
