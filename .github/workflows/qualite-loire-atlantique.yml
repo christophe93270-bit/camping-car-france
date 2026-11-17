@@ -320,12 +320,14 @@ jobs:
           lot49_ids={"CCF44-PLAINE-LE-BERNIER-2026","CCF44-GUERANDE-LA-FONTAINE-2026","CCF44-LE-GAVRE-CAMPING-FORET-2026"}
           lot49=[x for x in visible_regional if x.get("sourceId") in lot49_ids]
           assert len(lot49)==3, "Lot 49 : trois nouveaux campings manquants"
-          assert all(x.get("price")=="Non confirmé" and x.get("priceCheckedAt")=="2026-10-20" and not x.get("overnightStatus") and x.get("contactPhone") and x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") for x in lot49), "Lot 49 : sources, contacts, prix ou filtre nocturne incohérents"
+          lot49_checked={"CCF44-PLAINE-LE-BERNIER-2026":"2026-10-20","CCF44-GUERANDE-LA-FONTAINE-2026":"2026-11-10","CCF44-LE-GAVRE-CAMPING-FORET-2026":"2026-10-20"}
+          assert all(x.get("priceCheckedAt")==lot49_checked[x["sourceId"]] and not x.get("overnightStatus") and x.get("contactPhone") and x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") for x in lot49), "Lot 49 : sources, contacts, prix ou filtre nocturne incohérents"
           bernier=next(x for x in lot49 if x.get("sourceId")=="CCF44-PLAINE-LE-BERNIER-2026")
           fontaine=next(x for x in lot49 if x.get("sourceId")=="CCF44-GUERANDE-LA-FONTAINE-2026")
           foret=next(x for x in lot49 if x.get("sourceId")=="CCF44-LE-GAVRE-CAMPING-FORET-2026")
-          assert "03/04/2026" in bernier.get("seasonalDates2026","") and "04/10/2026" in bernier.get("seasonalDates2026",""), "Bernier : saison 2026 perdue"
+          assert "03/04/2026" in bernier.get("seasonalDates2026","") and "04/10/2026" in bernier.get("seasonalDates2026","") and "294 € pour la semaine" in bernier.get("price","") and "camping-car 2026" in bernier.get("price","") and bernier.get("priceYear") is None, "Bernier : offre semaine séparée du tarif camping-car non confirmé"
           assert fontaine.get("capacityCampingCarTourism")==66 and "14/04" in fontaine.get("seasonalDates2026","") and "04/10" in fontaine.get("seasonalDates2026",""), "Fontaine : capacité ou contradiction saison absente"
+          assert fontaine.get("priceYear")==2026 and "20,50 € / nuit" in fontaine.get("price","") and "+5,50 € / nuit" in fontaine.get("price","") and "0,61 €" in fontaine.get("price",""), "Fontaine : tarifs 2026 camping-car mal distingués"
           assert foret.get("capacityCampingCarTourism")==10 and foret.get("capacityAllTourism")==73 and "75" in foret.get("status",""), "Forêt Gâvre : capacités contradictoires non tracées"
           assert len([x for x in visible_regional if "albatros" in norm(x.get("name"))])==1, "Lot 49 : ne pas dupliquer L'Albatros déjà présent"
 
