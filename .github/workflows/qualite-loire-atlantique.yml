@@ -195,7 +195,7 @@ jobs:
           assert eleo.get("priceYear")==2026 and eleo.get("capacitySeaViewPitchesPublished")==27 and eleo.get("capacityStandardPitchesPublished")==20 and all(v in eleo.get("price","") for v in ("27","115 €","0,66 €")) and eleo.get("priceSource")=="https://www.pornic.com/camping-eleovic.html", "Éléovic : tarifs 2026 ou capacité erronés"
           assert all(x.get("contactEmail") and x.get("contactEmailSource") and not x.get("overnightStatus") for x in (pree,eleo)), "Préfailles : contacts ou statut de nuitée manquants"
           biochon=next(x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMEEPRAIRCAMPCARBIOCHON")
-          assert "contradictoires" in biochon.get("operationalWarning","") and biochon.get("operationalWarningSource","").startswith("https://www.campingcarpark.com/") and "temporairement fermée" in biochon.get("operationalWarning",""), "Biochon : avertissement contradictoire non tracé"
+          assert "temporairement fermée" in biochon.get("operationalWarning","") and biochon.get("operationalWarningSource","").startswith("https://www.campingcarpark.com/") and biochon.get("season2027",{}).get("availabilityStatus")=="temporarily_closed" and biochon.get("season2027",{}).get("reopeningConfirmed") is False, "Biochon : fermeture temporaire ou disponibilité 2027 non tracée"
 
           lot39_ids={"CCF44-PORNIC-BOUTINARDIERE-2026","CCF44-MOUTIERS-DOMAINE-DU-COLLET-2026","CCF44-THARON-VIEUX-CHATEAU-2026"}
           lot39=[x for x in visible_regional if x.get("sourceId") in lot39_ids]
