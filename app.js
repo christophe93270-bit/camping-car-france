@@ -725,8 +725,36 @@ async function initAires(){
     const hideUnverifiedNight=document.getElementById("aire-hide-unverified-night");
     const tariff=document.getElementById("aire-tariff");
     const reset=document.getElementById("aire-reset");
+    const shareButton=document.getElementById("aire-share");
+    const shareStatus=document.getElementById("aire-share-status");
 
-
+    function restoreAireStateFromUrl(){
+      const params=new URLSearchParams(window.location.search);
+      const department=params.get("dep");
+      if(allDepartments.some(d=>String(d.code)===department))selector.value=department;
+      query.value=(params.get("q")||"").slice(0,120);
+      const restoreOption=(element,value)=>{if([...element.options].some(option=>option.value===value))element.value=value;};
+      restoreOption(kind,params.get("type"));
+      restoreOption(tariff,params.get("tarif"));
+      restoreOption(service,params.get("service"));
+      gpsOnly.checked=params.get("gps")==="1";
+      hideUnverifiedNight.checked=params.get("nuit")==="1";
+    }
+    function syncAireStateToUrl(){
+      const url=new URL(window.location.href);
+      ["dep","q","type","tarif","service","gps","nuit"].forEach(key=>url.searchParams.delete(key));
+      const state={
+        dep:selector.value,
+        q:query.value.trim().slice(0,120),
+        type:kind.value,
+        tarif:tariff.value,
+        service:service.value,
+        gps:gpsOnly.checked?"1":"",
+        nuit:hideUnverifiedNight.checked?"1":""
+      };
+      Object.entries(state).forEach(([key,value])=>{if(value)url.searchParams.set(key,value);});
+      window.history.replaceState(window.history.state,"",url);
+    }
     function shortAireText(value,max=125){
       const text=String(value||"Information non renseignée").replace(/\s+/g," ").trim();
       return text.length>max?text.slice(0,max-1).trimEnd()+"…":text;
@@ -891,6 +919,7 @@ async function initAires(){
       empty.textContent=selector.value && !q
         ? "Aucune aire encore recensée pour ce département. Notre base est en cours de construction."
         : "Aucun lieu ne correspond à votre recherche.";
+      syncAireStateToUrl();
     }
     function selectDepartmentFromExplorer(code){
       selector.value=code;
@@ -903,6 +932,23 @@ async function initAires(){
       display();
       document.getElementById("aire-grid").scrollIntoView({behavior:"smooth",block:"start"});
     }
+    restoreAireStateFromUrl();
+    if(shareButton)shareButton.addEventListener("click",async()=>{
+      const shareData={title:"Camping-Car France — lieux recensés",text:"Ma recherche de lieux pour camping-car",url:window.location.href};
+      try{
+        if(navigator.share){
+          await navigator.share(shareData);
+          if(shareStatus)shareStatus.textContent="Recherche partagée.";
+        }else if(navigator.clipboard&&navigator.clipboard.writeText){
+          await navigator.clipboard.writeText(window.location.href);
+          if(shareStatus)shareStatus.textContent="Lien copié : vous pouvez l’envoyer.";
+        }else if(shareStatus){
+          shareStatus.textContent="Copiez l’adresse de cette page depuis la barre du navigateur.";
+        }
+      }catch(error){
+        if(error&&error.name!=="AbortError"&&shareStatus)shareStatus.textContent="Le partage n’a pas abouti. Vous pouvez copier l’adresse de la page.";
+      }
+    });
     initRegionExplorer(allDepartments,aires,selector,selectDepartmentFromExplorer);
     more.addEventListener("click",()=>{visibleCount+=pageSize;display(false);});
     selector.addEventListener("change",()=>display());
