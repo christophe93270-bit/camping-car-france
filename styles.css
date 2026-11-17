@@ -35,3 +35,10 @@
 .aire-list .aire-card .card-name{display:block;margin-top:6px;font-size:17px}
 .aire-list .aire-card p{margin:10px 0;font-size:12px}
 .aire-list .aire-card .card-foot{justify-content:flex-start}
+
+.tariff-tag{display:inline-flex;align-items:center;padding:4px 8px;border-radius:999px;font-size:10px;font-weight:750;white-space:nowrap;background:#edf1ea;color:#52645a}
+.tariff-paid{background:#f8e7df;color:#8b4429}
+.tariff-free{background:#e6f1e6;color:#326547}
+.tariff-mixed{background:#fff2d8;color:#755d25}
+.tariff-unknown{background:#eef0ef;color:#626c67}
+@media(max-width:650px){.aire-list .aire-card .card-top{align-items:flex-start;flex-wrap:wrap}.aire-list .aire-card .card-top .aire-type{white-space:normal;text-align:right;flex:1}}

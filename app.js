@@ -723,7 +723,35 @@ async function initAires(){
     const progress=document.getElementById("aire-progress");
     const gpsOnly=document.getElementById("aire-gps-only");
     const hideUnverifiedNight=document.getElementById("aire-hide-unverified-night");
+    const tariff=document.getElementById("aire-tariff");
     const reset=document.getElementById("aire-reset");
+
+    function classifyAireKind(a){
+      const type=String(a.type||"").toLocaleLowerCase("fr").trim();
+      if(/^camping\b/.test(type)||/\b(?:dans|au|en) camping(?: municipal| privé| à la ferme)?\b/.test(type)||/^emplacements? camping-car dans un camping\b/.test(type))return "camping";
+      if(/pique[- ]nique/.test(type))return "picnic";
+      if(/^(?:parking|stationnement|point de stationnement)\b/.test(type))return "parking";
+      if(/^(?:borne|point de services|point de vidange)\b/.test(type))return "borne";
+      if(/^accueil\b/.test(type))return "accueil";
+      if(/^aire\b/.test(type))return "aire";
+      return "other";
+    }
+    function classifyAireTariff(a){
+      const text=[a.price,a.priceDetail,a.priceNote,a.priceVerification,a.priceType,a.type].filter(Boolean).join(" ").toLocaleLowerCase("fr");
+      const isFree=/\bgratuit(?:e|s|es)?\b|\bsans\s+frais\b|gratuitement/.test(text);
+      const hasPaidWord=/\bpayant(?:e|s|es)?\b/.test(text);
+      const positiveAmount=[...text.matchAll(/(\d+(?:[,.]\d+)?)\s*€/g)].some(match=>Number(match[1].replace(",", "."))>0);
+      const uncertain=/non confirmé|non renseigné|à confirmer|a confirmer|à vérifier|a verifier|inconnu|non communiqué|non communique/.test(text);
+      if(isFree&&(hasPaidWord||positiveAmount))return "mixed";
+      if(isFree&&uncertain)return "unknown";
+      if(isFree)return "free";
+      if(hasPaidWord||positiveAmount)return "paid";
+      return "unknown";
+    }
+    function tariffLabel(a){
+      return ({paid:"Payant indiqué",free:"Gratuit indiqué",mixed:"Tarif mixte ou sous conditions",unknown:"Tarif à confirmer"})[classifyAireTariff(a)];
+    }
+
     const servicePatterns={
       water:/eau potable/i,
       drain:/vidange/i,
@@ -744,7 +772,8 @@ async function initAires(){
       const filtered=aires.filter(a=>
         (!selector.value||a.department===selector.value)
         &&[a.name,a.city,a.type,a.department].join(" ").toLocaleLowerCase("fr").includes(q)
-        &&(!kind.value||(kind.value==="camping"?/^camping\b/i.test(a.type):!/^camping\b/i.test(a.type)))
+        &&(!kind.value||classifyAireKind(a)===kind.value)
+        &&(!tariff.value||classifyAireTariff(a)===tariff.value)
         &&(!service.value||(a.services||[]).some(v=>servicePatterns[service.value].test(v)))
         &&(!gpsOnly.checked||(Number.isFinite(a.latitude)&&Number.isFinite(a.longitude)))
         &&(!hideUnverifiedNight.checked||!(a.overnightStatus==="not_established"||a.overnightStatus==="prohibited"))
@@ -763,7 +792,7 @@ async function initAires(){
           : "";
         previousDepartment=code;
         return heading+`<article class="department-card aire-card" style="cursor:default;text-align:left">
-        <span class="card-top"><span class="department-code">${escapeHTML(a.department)}</span><span class="card-score" style="font-size:.85rem">${escapeHTML(a.type)}</span></span>
+        <span class="card-top"><span class="department-code">${escapeHTML(a.department)}</span><span class="card-score aire-type" style="font-size:.85rem">${escapeHTML(a.type)}</span><span class="tariff-tag tariff-${classifyAireTariff(a)}">${escapeHTML(tariffLabel(a))}</span></span>
         <span class="card-name">${escapeHTML(a.name)}</span>
         <span class="card-foot">${escapeHTML(a.city)}</span>
         ${a.overnightStatus==="prohibited" ? `<p><strong>Attention : nuitée non autorisée sur ce lieu.</strong> ${escapeHTML(a.overnightReason||"Point de services ou stationnement réservé à la journée.")} Consultez la source officielle avant tout déplacement.</p>` : ""}
@@ -805,6 +834,7 @@ async function initAires(){
       selector.value=code;
       query.value="";
       kind.value="";
+      tariff.value="";
       service.value="";
       gpsOnly.checked=false;
       hideUnverifiedNight.checked=false;
@@ -816,11 +846,12 @@ async function initAires(){
     selector.addEventListener("change",()=>display());
     query.addEventListener("input",()=>display());
     kind.addEventListener("change",()=>display());
+    tariff.addEventListener("change",()=>display());
     service.addEventListener("change",()=>display());
     gpsOnly.addEventListener("change",()=>display());
     hideUnverifiedNight.addEventListener("change",()=>display());
     reset.addEventListener("click",()=>{
-      selector.value="";query.value="";kind.value="";service.value="";gpsOnly.checked=false;hideUnverifiedNight.checked=false;display();
+      selector.value="";query.value="";kind.value="";tariff.value="";service.value="";gpsOnly.checked=false;hideUnverifiedNight.checked=false;display();
     });
     display();
   }catch(e){console.error("Erreur du répertoire des aires :",e);target.textContent="Le répertoire des aires est temporairement indisponible. Détail : "+(e&&e.message?e.message:"erreur inconnue");}
