@@ -254,7 +254,8 @@ jobs:
           lot44_ids={"CCF44-CHALANDS-FLEURIS-2026","CCF44-PRAIRIES-ETANG-2026","CCF44-MESQUER-PRADEROI-2026"}
           lot44=[x for x in visible_regional if x.get("sourceId") in lot44_ids]
           assert len(lot44)==3, "44 lot 44 : trois campings introuvables"
-          assert all(x.get("priceCheckedAt")=="2026-10-20" and x.get("priceEvidenceDocument","").startswith("https://") and x.get("gpsSource","").startswith("https://") and x.get("contactSource","").startswith("https://") and x.get("contactEmailSource","").startswith("https://") and x.get("capacityBarePitchesPublished",0)>0 for x in lot44), "44 lot 44 : tarif, GPS, courriel ou capacités non documentés"
+          lot44_checked={"CCF44-CHALANDS-FLEURIS-2026":"2026-10-20","CCF44-PRAIRIES-ETANG-2026":"2026-10-20","CCF44-MESQUER-PRADEROI-2026":"2026-11-08"}
+          assert all(x.get("priceCheckedAt")==lot44_checked[x["sourceId"]] and x.get("priceEvidenceDocument","").startswith("https://") and x.get("gpsSource","").startswith("https://") and x.get("contactSource","").startswith("https://") and x.get("contactEmailSource","").startswith("https://") and x.get("capacityBarePitchesPublished",0)>0 for x in lot44), "44 lot 44 : tarif, GPS, courriel ou capacités non documentés"
           chalands=next(x for x in lot44 if x["sourceId"]=="CCF44-CHALANDS-FLEURIS-2026")
           prairies=next(x for x in lot44 if x["sourceId"]=="CCF44-PRAIRIES-ETANG-2026")
           praderoi=next(x for x in lot44 if x["sourceId"]=="CCF44-MESQUER-PRADEROI-2026")
