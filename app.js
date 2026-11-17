@@ -119,6 +119,7 @@ function initRegionExplorer(allDepartments, aires, selector, resetAndShowDepartm
   const step=document.getElementById("region-step");
   const back=document.getElementById("region-back");
   if(!mapElement||!regionList||!departmentList)return;
+  const normalizeRegion=value=>String(value||"").normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").replace(/[’‘]/g,"\u0027").trim().toLocaleLowerCase("fr");
   const regionNames=[...new Set(allDepartments.map(d=>d.region).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"fr"));
   const regionCounts=new Map();
   for(const a of aires)regionCounts.set(String(a.department),(regionCounts.get(String(a.department))||0)+1);
@@ -137,7 +138,7 @@ function initRegionExplorer(allDepartments, aires, selector, resetAndShowDepartm
     if(map){const layers=mainlandLayers();if(layers.length)map.fitBounds(L.featureGroup(layers).getBounds(),{padding:[12,12]});}
   }
   function chooseRegion(name, zoom=true){
-    const matches=allDepartments.filter(d=>d.region===name).sort((a,b)=>String(a.code).localeCompare(String(b.code),"fr",{numeric:true}));
+    const matches=allDepartments.filter(d=>normalizeRegion(d.region)===normalizeRegion(name)).sort((a,b)=>String(a.code).localeCompare(String(b.code),"fr",{numeric:true}));
     if(!matches.length)return;
     regionList.hidden=true;
     departmentList.hidden=false;
@@ -149,9 +150,9 @@ function initRegionExplorer(allDepartments, aires, selector, resetAndShowDepartm
     }).join("");
     departmentList.querySelectorAll("[data-code]").forEach(button=>button.addEventListener("click",()=>resetAndShowDepartment(button.dataset.code)));
     regionLayer?.eachLayer(layer=>layer.setStyle({
-      color:"#ffffff",weight:layer.feature.properties.nom===name?3:1.5,
-      fillColor:layer.feature.properties.nom===name?"#d8a64c":"#77a58a",
-      fillOpacity:layer.feature.properties.nom===name ? .92 : .5
+      color:"#ffffff",weight:normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name)?3:1.5,
+      fillColor:normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name)?"#d8a64c":"#77a58a",
+      fillOpacity:normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name) ? .92 : .5
     }));
     if(zoom&&map){
       const chosen=regionLayer.getLayers().find(layer=>layer.feature.properties.nom===name);
