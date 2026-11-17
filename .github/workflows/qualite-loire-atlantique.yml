@@ -391,7 +391,7 @@ jobs:
           b65=next(z for z in visible_regional if z.get("sourceId")=="CCF44-PLAINE-LE-BERNIER-2026")
           r65=next(z for z in visible_regional if z.get("sourceId")=="CCF44-ST-MICHEL-RIVIERA-2026")
           e65=next(z for z in visible_regional if z.get("sourceId")=="ACCAMPDL044V51I23X")
-          assert b65.get("price")=="Non confirmé" and "DEUX nuits" in b65.get("minimumStay2026Clarification","") and "SEPT nuits" in b65.get("minimumStay2026Clarification",""), "Lot 65 : offre hebdomadaire Bernier devenue une nuitée"
+          assert "294 € pour la semaine" in b65.get("price","") and "tarif de base camping-car 2026" in b65.get("price","") and "DEUX nuits" in b65.get("minimumStay2026Clarification","") and "SEPT nuits" in b65.get("minimumStay2026Clarification","") and b65.get("priceVerification")=="offre_couple_2026_scope_emplacement_camping_car_non_confirme", "Lot 65 : offre hebdomadaire Bernier devenue une nuitée ou tarif camping-car"
           assert r65.get("price")=="Non confirmé" and "2027" in r65.get("feesEvidenceNote","") and "2026" in r65.get("feesEvidenceNote",""), "Lot 65 : tarif locatif Aloa daté 2025 devenu nuitée 2026"
           assert e65.get("price")=="Non confirmé" and "Emplacement Camping" in e65.get("bookingTypeOfficial",""), "Lot 65 : tarif Capfun non documenté comme forfait"
           # Lot 64 : remises FFCC, composition Roseraie et ouverture La Fontaine sans inventer les prix.
