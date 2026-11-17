@@ -119,7 +119,7 @@ function initRegionExplorer(allDepartments, aires, selector, resetAndShowDepartm
   const step=document.getElementById("region-step");
   const back=document.getElementById("region-back");
   if(!mapElement||!regionList||!departmentList)return;
-  const normalizeRegion=value=>String(value||"").normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").replace(/[’‘]/g,"\u0027").trim().toLocaleLowerCase("fr");
+  const normalizeRegion=value=>String(value||"").replace(/[’‘]/g,"'").trim().toLocaleLowerCase("fr");
   const regionNames=[...new Set(allDepartments.map(d=>d.region).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"fr"));
   const regionCounts=new Map();
   for(const a of aires)regionCounts.set(String(a.department),(regionCounts.get(String(a.department))||0)+1);
