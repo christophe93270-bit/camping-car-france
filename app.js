@@ -862,6 +862,30 @@ async function initAires(){
       more.hidden=filtered.length<=visibleCount;
       more.textContent="Voir plus de fiches ("+Math.min(pageSize,Math.max(0,filtered.length-visibleCount))+" suivantes)";
       document.getElementById("aire-count").textContent=filtered.length+" lieu"+(filtered.length>1?"x":"");
+      const typeLabels={
+        aire:["aire / aire d’étape","aires / aires d’étape"],
+        camping:["camping","campings"],
+        parking:["parking","parkings"],
+        borne:["borne ou point de services","bornes ou points de services"],
+        accueil:["accueil à la ferme/chez un hôte","accueils à la ferme/chez des hôtes"],
+        picnic:["aire de pique-nique","aires de pique-nique"],
+        other:["autre lieu","autres lieux"]
+      };
+      const typeCounts=new Map();
+      filtered.forEach(a=>{
+        const category=classifyAireKind(a);
+        typeCounts.set(category,(typeCounts.get(category)||0)+1);
+      });
+      const breakdown=Object.entries(typeLabels)
+        .filter(([category])=>(typeCounts.get(category)||0)>0)
+        .map(([category,labels])=>{
+          const count=typeCounts.get(category);
+          return count+" "+labels[count===1?0:1];
+        });
+      document.getElementById("aire-breakdown").textContent=filtered.length
+        ? "Répartition des résultats : "+breakdown.join(" · ")
+        : "Aucune fiche ne correspond aux filtres.";
+
       const empty=document.getElementById("aire-empty");
       empty.hidden=filtered.length>0;
       empty.textContent=selector.value && !q

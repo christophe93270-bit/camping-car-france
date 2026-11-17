@@ -64,6 +64,7 @@
       <label><input type="checkbox" id="aire-hide-unverified-night"> Masquer les lieux à nuitée interdite ou non établie</label>
       <button type="button" id="aire-reset" class="button button-dark">Effacer les filtres</button>
     </div>
+    <p id="aire-breakdown" class="filter-summary" aria-live="polite"></p>
     <p class="notice">Les filtres portent sur les services <strong>mentionnés</strong> dans les fiches, pas sur leur disponibilité en temps réel. Masquer les lieux à nuitée interdite ou non établie retire les points explicitement signalés, mais ne garantit pas l'autorisation nocturne pour les autres lieux. Vérifiez toujours les conditions avant votre déplacement.</p>
     <details class="notice"><summary><strong>Origine des données et fiabilité</strong></summary>
       <p>Les lieux recensés proviennent de recherches documentaires avec un lien vers leur source. Les informations peuvent évoluer : tarifs, accès, disponibilité et services doivent être confirmés auprès de l'exploitant avant le départ.</p>
@@ -127,6 +128,6 @@
   <div id="dialog-content"></div>
 </dialog>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-<script src="app.js?v=20261117-compact-aire-cards"></script>
+<script src="app.js?v=20261117-aire-counts"></script>
 </body>
 </html>
