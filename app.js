@@ -726,6 +726,40 @@ async function initAires(){
     const tariff=document.getElementById("aire-tariff");
     const reset=document.getElementById("aire-reset");
 
+
+    function shortAireText(value,max=125){
+      const text=String(value||"Information non renseignée").replace(/\s+/g," ").trim();
+      return text.length>max?text.slice(0,max-1).trimEnd()+"…":text;
+    }
+    function servicesSummary(a){
+      const services=Array.isArray(a.services)?a.services.filter(Boolean):[];
+      if(!services.length)return "Non précisés dans la fiche";
+      const shown=services.slice(0,3).join(", ");
+      return services.length>3?shown+" + "+(services.length-3):shown;
+    }
+    function renderTariffDetails(a){
+      const raw=String(a.price||"Tarif non renseigné");
+      const stay=[],service=[],other=[];
+      raw.split(/[;\n]+/).map(part=>part.trim()).filter(Boolean).forEach(part=>{
+        const hasStay=/stationnement|parking|nuitée|nuit\b|emplacement|24\s*h/i.test(part);
+        const hasService=/borne|services?|eau\b|vidange|électricité|electricite/i.test(part);
+        if(hasStay&&!hasService)stay.push(part);
+        else if(hasService&&!hasStay)service.push(part);
+        else other.push(part);
+      });
+      const heading=String(a.department)==="44"
+        ? (a.priceYear===2026?"Référence tarifaire 2026":"Référence tarifaire antérieure à 2027")
+        : (a.priceStatus==="not_applicable_for_night_stay"?"Tarif de nuitée":"Tarif indiqué");
+      const checked=a.priceCheckedAt||a.priceVerifiedOn||"";
+      return '<div class="tariff-breakdown">'
+        +'<p><strong>'+escapeHTML(heading)+' :</strong> '+escapeHTML(raw)+'</p>'
+        +'<p><strong>Stationnement / nuitée :</strong> '+escapeHTML(stay.length?stay.join(" · "):"Non distingué séparément dans la fiche.")+'</p>'
+        +'<p><strong>Services et bornes :</strong> '+escapeHTML(service.length?service.join(" · "):"Tarif non distingué séparément dans la fiche.")+'</p>'
+        +(other.length?'<p><strong>Autres précisions tarifaires :</strong> '+escapeHTML(other.join(" · "))+'</p>':"")
+        +'<p class="tariff-check-date"><strong>Vérification du tarif :</strong> '+escapeHTML(checked||"Date non précisée dans la fiche.")+'</p>'
+        +'</div>';
+    }
+
     function classifyAireKind(a){
       const type=String(a.type||"").toLocaleLowerCase("fr").trim();
       if(/^camping\b/.test(type)||/\b(?:dans|au|en) camping(?: municipal| privé| à la ferme)?\b/.test(type)||/^emplacements? camping-car dans un camping\b/.test(type))return "camping";
@@ -795,6 +829,9 @@ async function initAires(){
         <span class="card-top"><span class="department-code">${escapeHTML(a.department)}</span><span class="card-score aire-type" style="font-size:.85rem">${escapeHTML(a.type)}</span><span class="tariff-tag tariff-${classifyAireTariff(a)}">${escapeHTML(tariffLabel(a))}</span></span>
         <span class="card-name">${escapeHTML(a.name)}</span>
         <span class="card-foot">${escapeHTML(a.city)}</span>
+        <p class="aire-summary-price"><strong>Tarif :</strong> ${escapeHTML(shortAireText(a.price))}</p>
+        <p class="aire-summary-services"><strong>Services :</strong> ${escapeHTML(servicesSummary(a))}</p>
+        <details class="aire-details"><summary>Voir la fiche complète</summary><div class="aire-detail-body">
         ${a.overnightStatus==="prohibited" ? `<p><strong>Attention : nuitée non autorisée sur ce lieu.</strong> ${escapeHTML(a.overnightReason||"Point de services ou stationnement réservé à la journée.")} Consultez la source officielle avant tout déplacement.</p>` : ""}
         ${a.overnightStatus==="not_established" ? (/pique-nique/i.test(String(a.type||"")) ? `<p><strong>Attention : aire de pique-nique seulement.</strong> Nuitée camping-car non confirmée. Vérifier auprès de la mairie avant de s'y installer pour la nuit.</p>` : `<p><strong>Attention : nuitée camping-car non confirmée.</strong> Le lieu est signalé pour l'arrêt ou le stationnement, mais l'autorisation de nuitée n'a pas été établie. Vérifier la réglementation locale auprès de la mairie.</p>`) : ""}
         ${a.department==="44"&&a.sharedSiteWithSourceId ? `<p><strong>Site partagé :</strong> ce point se rapporte à un ensemble également décrit sur une autre fiche. Ne pas additionner automatiquement les capacités de stationnement.</p>` : ""}
@@ -803,7 +840,7 @@ async function initAires(){
         ${a.gpsEvidenceNote?`<p><strong>Précision GPS :</strong> ${escapeHTML(a.gpsEvidenceNote)}</p>`:""}
         ${a.receptionHoursNote?`<p><strong>Accueil :</strong> ${escapeHTML(a.receptionHoursNote)}</p>`:""}
         ${renderSeason2027(a)}
-        <p><strong>${String(a.department)==="44"?(a.priceYear===2026?"Référence tarifaire 2026 :":"Référence tarifaire antérieure à 2027 :"):(a.priceStatus==="not_applicable_for_night_stay"?"Tarif de nuitée :":"Tarif :")}</strong> ${escapeHTML(a.price)}</p>
+        ${renderTariffDetails(a)}
         ${a.publishedTariff2026Note&&a.publishedTariff2026Source&&/^https:\/\//.test(String(a.publishedTariff2026Source))?`<p><strong>Barème officiel d'emplacement 2026 — application au camping-car à confirmer :</strong> ${escapeHTML(a.publishedTariff2026Note)} <a href="${escapeHTML(a.publishedTariff2026Source)}" target="_blank" rel="noopener noreferrer">Voir la grille officielle ↗</a></p>`:""}
         ${a.minimumStay2026Clarification? `<p><strong>Réservation et promotion :</strong> ${escapeHTML(a.minimumStay2026Clarification)} ${a.minimumStay2026Source&&/^https:\/\//.test(String(a.minimumStay2026Source))?`<a href="${escapeHTML(a.minimumStay2026Source)}" target="_blank" rel="noopener noreferrer">Source officielle ↗</a>`:""}</p>`:""}
         ${a.feesEvidenceNote? `<p><strong>Frais documentés — application au camping-car à confirmer :</strong> ${escapeHTML(a.feesEvidenceNote)} ${a.feesEvidenceDocument&&/^https:\/\//.test(String(a.feesEvidenceDocument))?`<a href="${escapeHTML(a.feesEvidenceDocument)}" target="_blank" rel="noopener noreferrer">Source des frais ↗</a>`:""}</p>`:""}
@@ -819,6 +856,7 @@ async function initAires(){
         <p><strong>À vérifier :</strong> ${escapeHTML(a.status)}</p>
         ${a.dataAttribution?`<p><small>Données : ${escapeHTML(a.dataAttribution)} — ${escapeHTML(a.dataLicense||"Licence non indiquée")}</small></p>`:""}
         ${a.sourceOfficial&&a.sourceOfficial!==a.source&&/^https?:\/\//i.test(String(a.sourceOfficial))?`<a href="${escapeHTML(a.sourceOfficial)}" target="_blank" rel="noopener noreferrer">Source du lieu ↗</a> · `:""}<a href="${escapeHTML(a.source)}" target="_blank" rel="noopener noreferrer">Données d’origine ↗</a>
+        </div></details>
       </article>`;
       }).join("");
       more.hidden=filtered.length<=visibleCount;
