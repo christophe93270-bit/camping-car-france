@@ -6,7 +6,12 @@
 .region-explorer-heading p:not(.eyebrow){font-size:12px;color:var(--muted);max-width:650px;margin:0}
 .region-licence{font-size:10px;color:#456b51;background:#e6efe5;border-radius:999px;padding:7px 10px;white-space:nowrap}
 .region-explorer-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(280px,.75fr);gap:18px;align-items:stretch}
-#region-map{height:440px;min-height:320px;border-radius:13px;background:#e6eee9;overflow:hidden}
+.region-map-stage{height:440px;min-height:320px;border-radius:13px;background:#e6eee9;overflow:hidden}
+#region-map,#department-map{height:100%;width:100%;min-height:320px;border-radius:13px;background:#e6eee9;overflow:hidden}
+#department-map{display:flex;align-items:center;justify-content:center;padding:12px}
+#department-map[hidden]{display:none}
+#department-map svg{width:100%;height:100%;max-height:416px}
+.region-map-stage #region-map{height:100%;min-height:320px;border-radius:13px;background:#e6eee9;overflow:hidden}
 .region-picker{min-height:320px;background:#fffefa;border:1px solid var(--line);border-radius:13px;padding:16px}
 .region-step{font-size:12px;font-weight:750;color:var(--forest);margin:0 0 12px}
 .region-choice-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;max-height:350px;overflow:auto}
@@ -19,5 +24,5 @@
 .department-choice small{color:var(--muted);white-space:nowrap;font-size:10px}
 .region-picker .button{font-size:11px;padding:10px 14px}
 .map-attribution{font-size:10px;color:var(--muted);margin:7px 2px 22px}
-@media(max-width:850px){.region-explorer-layout{grid-template-columns:1fr}#region-map{height:380px}.region-choice-list,.department-choice-list{max-height:260px}}
-@media(max-width:560px){.region-explorer{padding:15px}.region-explorer-heading{display:block}.region-licence{display:inline-block;margin-top:10px}#region-map{height:310px;min-height:280px}.region-picker{padding:12px}.region-choice-list{grid-template-columns:1fr 1fr}.department-choice{font-size:10px}}
+@media(max-width:850px){.region-explorer-layout{grid-template-columns:1fr}.region-map-stage{height:380px}#region-map,#department-map{height:100%}.region-choice-list,.department-choice-list{max-height:260px}}
+@media(max-width:560px){.region-explorer{padding:15px}.region-explorer-heading{display:block}.region-licence{display:inline-block;margin-top:10px}.region-map-stage{height:310px;min-height:280px}#region-map,#department-map{min-height:280px}.region-picker{padding:12px}.region-choice-list{grid-template-columns:1fr 1fr}.department-choice{font-size:10px}}

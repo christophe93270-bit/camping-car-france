@@ -112,58 +112,117 @@ document.getElementById("year").textContent=new Date().getFullYear();
 init();
 
 
+
 function initRegionExplorer(allDepartments, aires, selector, resetAndShowDepartment){
   const mapElement=document.getElementById("region-map");
+  const departmentMap=document.getElementById("department-map");
   const regionList=document.getElementById("region-list");
   const departmentList=document.getElementById("department-list");
   const step=document.getElementById("region-step");
   const back=document.getElementById("region-back");
-  if(!mapElement||!regionList||!departmentList)return;
+  if(!mapElement||!departmentMap||!regionList||!departmentList)return;
   const normalizeRegion=value=>String(value||"").replace(/[’‘]/g,"'").trim().toLocaleLowerCase("fr");
   const regionNames=[...new Set(allDepartments.map(d=>d.region).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"fr"));
   const regionCounts=new Map();
   for(const a of aires)regionCounts.set(String(a.department),(regionCounts.get(String(a.department))||0)+1);
-  let map=null, regionLayer=null;
+  let map=null, regionLayer=null, departmentSvgPromise=null;
   const overseas=new Set(["Guadeloupe","Martinique","Guyane","La Réunion","Mayotte"]);
   function mainlandLayers(){
     return regionLayer?regionLayer.getLayers().filter(layer=>!overseas.has(layer.feature.properties.nom)):[];
   }
   function showRegions(){
+    departmentMap.hidden=true;
+    mapElement.hidden=false;
+    departmentMap.innerHTML="";
+    regionList.hidden=false;
     departmentList.hidden=true;
     departmentList.innerHTML="";
     back.hidden=true;
-    regionList.hidden=false;
-    step.textContent="Sélectionnez une région pour afficher ses départements.";
+    step.textContent="Sélectionnez une région sur la carte ou dans la liste.";
     regionLayer?.eachLayer(layer=>layer.setStyle({color:"#ffffff",weight:2,fillColor:"#77a58a",fillOpacity:.72}));
-    if(map){const layers=mainlandLayers();if(layers.length)map.fitBounds(L.featureGroup(layers).getBounds(),{padding:[12,12]});}
+    if(map){const layers=mainlandLayers();if(layers.length)map.fitBounds(L.featureGroup(layers).getBounds(),{padding:[12,12]});setTimeout(()=>map.invalidateSize(),0);}
   }
-  function chooseRegion(name, zoom=true){
+  async function showDepartmentMap(name, matches){
+    departmentMap.hidden=false;
+    mapElement.hidden=true;
+    departmentMap.innerHTML="";
+    try{
+      const markup=await departmentSvgPromise;
+      departmentMap.innerHTML=markup;
+      const svg=departmentMap.querySelector("svg");
+      if(!svg)throw new Error("Carte départementale invalide");
+      svg.setAttribute("role","img");
+      svg.setAttribute("aria-label","Départements de "+name+" ; cliquez sur un département");
+      svg.setAttribute("preserveAspectRatio","xMidYMid meet");
+      svg.querySelectorAll(".inset").forEach(el=>el.style.display="none");
+      const codes=new Set(matches.map(d=>String(d.code)));
+      const paths=[...svg.querySelectorAll("path[data-code]")];
+      const active=[];
+      paths.forEach(path=>{
+        const code=String(path.dataset.code||"");
+        const d=matches.find(dep=>String(dep.code)===code);
+        if(!d){path.style.display="none";return;}
+        const count=regionCounts.get(code)||0;
+        path.style.fill="#8fb59a";
+        path.style.stroke="#ffffff";
+        path.style.strokeWidth="1.5";
+        path.style.cursor="pointer";
+        path.style.transition="fill .15s";
+        path.setAttribute("role","button");
+        path.setAttribute("tabindex","0");
+        path.setAttribute("aria-label",d.name+" ("+d.code+"), "+count+" fiche"+(count>1?"s":""));
+        path.setAttribute("title",d.name+" ("+d.code+") — "+count+" fiche"+(count>1?"s":""));
+        path.addEventListener("mouseenter",()=>{path.style.fill="#d8a64c";});
+        path.addEventListener("mouseleave",()=>{if(!path.classList.contains("selected"))path.style.fill="#8fb59a";});
+        const select=()=>{paths.forEach(p=>p.classList.remove("selected"));path.classList.add("selected");path.style.fill="#d8a64c";resetAndShowDepartment(code);};
+        path.addEventListener("click",select);
+        path.addEventListener("keydown",event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();select();}});
+        active.push(path);
+      });
+      if(active.length){
+        const boxes=active.map(path=>path.getBBox());
+        const minX=Math.min(...boxes.map(box=>box.x)),minY=Math.min(...boxes.map(box=>box.y));
+        const maxX=Math.max(...boxes.map(box=>box.x+box.width)),maxY=Math.max(...boxes.map(box=>box.y+box.height));
+        const pad=Math.max(8,Math.max(maxX-minX,maxY-minY)*.055);
+        svg.setAttribute("viewBox",[minX-pad,minY-pad,maxX-minX+pad*2,maxY-minY+pad*2].join(" "));
+      }
+    }catch(error){
+      console.warn("Carte des départements indisponible",error);
+      departmentMap.textContent="La carte n’est pas disponible. Choisissez un département dans la liste à droite.";
+    }
+  }
+  async function chooseRegion(name, zoom=true){
     const matches=allDepartments.filter(d=>normalizeRegion(d.region)===normalizeRegion(name)).sort((a,b)=>String(a.code).localeCompare(String(b.code),"fr",{numeric:true}));
     if(!matches.length)return;
     regionList.hidden=true;
     departmentList.hidden=false;
     back.hidden=false;
-    step.textContent=name+" · "+matches.length+" département"+(matches.length>1?"s":"");
+    step.textContent=name+" · cliquez sur un département";
     departmentList.innerHTML=matches.map(d=>{
-      const count=regionCounts.get(String(d.code))||0;
-      return '<button type="button" class="department-choice" data-code="'+escapeHTML(d.code)+'"><span><b>'+escapeHTML(d.code)+'</b> · '+escapeHTML(d.name)+'</span><small>'+count+' fiche'+(count>1?'s':'')+'</small></button>';
+      const code=String(d.code),count=regionCounts.get(code)||0;
+      return '<button type="button" class="department-choice" data-code="'+escapeHTML(code)+'"><span><b>'+escapeHTML(code)+'</b> · '+escapeHTML(d.name)+'</span><small>'+count+' fiche'+(count>1?'s':'')+'</small></button>';
     }).join("");
     departmentList.querySelectorAll("[data-code]").forEach(button=>button.addEventListener("click",()=>resetAndShowDepartment(button.dataset.code)));
     regionLayer?.eachLayer(layer=>layer.setStyle({
       color:"#ffffff",weight:normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name)?3:1.5,
       fillColor:normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name)?"#d8a64c":"#77a58a",
-      fillOpacity:normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name) ? .92 : .5
+      fillOpacity:normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name)?.92:.5
     }));
-    if(zoom&&map){
-      const chosen=regionLayer.getLayers().find(layer=>layer.feature.properties.nom===name);
+    if(map&&zoom){
+      const chosen=regionLayer.getLayers().find(layer=>normalizeRegion(layer.feature.properties.nom)===normalizeRegion(name));
       if(chosen)map.fitBounds(chosen.getBounds(),{padding:[18,18],maxZoom:8});
     }
+    await showDepartmentMap(name,matches);
   }
   regionList.innerHTML=regionNames.map(name=>'<button type="button" class="region-choice" data-region="'+escapeHTML(name)+'">'+escapeHTML(name)+'</button>').join("");
   regionList.querySelectorAll("[data-region]").forEach(button=>button.addEventListener("click",()=>chooseRegion(button.dataset.region)));
   back.addEventListener("click",showRegions);
+  departmentSvgPromise=fetch("departements-2026.svg?v=20261117",{cache:"force-cache"}).then(response=>{
+    if(!response.ok)throw new Error("Contours des départements indisponibles");
+    return response.text();
+  });
   if(typeof L==="undefined"){
-    mapElement.textContent="La carte n’est pas disponible sur cet appareil. Vous pouvez choisir une région dans la liste.";
+    mapElement.textContent="La carte des régions n’est pas disponible. Vous pouvez choisir une région dans la liste.";
     return;
   }
   map=L.map("region-map",{scrollWheelZoom:false}).setView([46.6,2.4],5);
@@ -171,7 +230,7 @@ function initRegionExplorer(allDepartments, aires, selector, resetAndShowDepartm
     maxZoom:10,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributeurs'
   }).addTo(map);
   fetch("regions-2026.geojson?v=20261117",{cache:"force-cache"}).then(response=>{
-    if(!response.ok)throw new Error("Contours indisponibles");
+    if(!response.ok)throw new Error("Contours régionaux indisponibles");
     return response.json();
   }).then(data=>{
     regionLayer=L.geoJSON(data,{
@@ -185,6 +244,7 @@ function initRegionExplorer(allDepartments, aires, selector, resetAndShowDepartm
     if(layers.length)map.fitBounds(L.featureGroup(layers).getBounds(),{padding:[12,12]});
     setTimeout(()=>map.invalidateSize(),0);
   }).catch(error=>console.warn("Carte régionale indisponible",error));
+  showRegions();
 }
 
 async function initAires(){
@@ -668,13 +728,6 @@ async function initAires(){
       electric:/électricit/i,
       parking:/stationnement/i
     };
-    const mapStatus=document.getElementById("aire-map-status");
-    const map=typeof L!=="undefined"?L.map("aire-map").setView([48.75,2.9],8):null;
-    const markerLayer=map?L.layerGroup().addTo(map):null;
-    if(map)L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
-      maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributeurs'
-    }).addTo(map);
-    else mapStatus.textContent="Carte indisponible. Les fiches restent consultables ci-dessous.";
     const pageSize=24;
     let visibleCount=pageSize;
     const more=document.getElementById("aire-more");
@@ -725,56 +778,6 @@ async function initAires(){
       </article>`).join("");
       more.hidden=filtered.length<=visibleCount;
       more.textContent="Voir plus de fiches ("+Math.min(pageSize,Math.max(0,filtered.length-visibleCount))+" suivantes)";
-      if(map){
-        markerLayer.clearLayers();
-        const points=[];
-        filtered.forEach(a=>{
-          if(!Number.isFinite(a.latitude)||!Number.isFinite(a.longitude))return;
-          const marker=L.marker([a.latitude,a.longitude]).addTo(markerLayer);
-          const title=document.createElement("strong");title.textContent=a.name;
-          const place=document.createElement("p");place.textContent=a.city+" ("+a.department+")";
-          const link=document.createElement("a");
-          link.href="https://www.openstreetmap.org/?mlat="+encodeURIComponent(a.latitude)+"&mlon="+encodeURIComponent(a.longitude)+"#map=16/"+encodeURIComponent(a.latitude)+"/"+encodeURIComponent(a.longitude);
-          link.target="_blank";link.rel="noopener noreferrer";link.textContent="Voir sur OpenStreetMap";
-          const popup=document.createElement("div");
-           popup.append(title,place);
-           if(a.overnightStatus==="prohibited"){
-             const warning=document.createElement("p");
-             warning.textContent="Nuitée non autorisée ici : "+String(a.overnightReason||"aire technique ou stationnement réservé au jour");
-             popup.append(warning);
-           }
-           if(a.overnightStatus==="not_established"){
-             const warning=document.createElement("p");
-             warning.textContent=/pique-nique/i.test(String(a.type||"")) ? "Aire de pique-nique : stationnement nocturne des camping-cars non confirmé." : "Point de halte ou stationnement : autorisation de nuitée camping-car non vérifiée auprès de la mairie.";
-             popup.append(warning);
-           }
-           if(a.department==="44"&&(a.potentialDuplicateOfSourceId||a.sharedSiteWithSourceId)){
-             const warning=document.createElement("p");
-             warning.textContent="Doublon possible ou plusieurs offres sur un même site : vérifiez avant de compter ce point comme une aire distincte.";
-             popup.append(warning);
-           }
-           popup.append(link);
-           if(a.contactPhone&&/^[+0-9 ().-]{10,25}$/.test(String(a.contactPhone))){
-             const phone=document.createElement("a");
-             phone.href="tel:"+String(a.contactPhone).replace(/[^+0-9]/g,"");
-             phone.textContent=" · Contact : "+String(a.contactPhone);
-             popup.append(phone);
-           }
-           if(a.contactEmail&&/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/.test(String(a.contactEmail))&&/^https:\/\//.test(String(a.contactEmailSource||""))){
-             const email=document.createElement("a");
-             email.href="mailto:"+String(a.contactEmail);
-             email.textContent=" · Courriel : "+String(a.contactEmail);
-             popup.append(email);
-           }
-           marker.bindPopup(popup);
-          points.push([a.latitude,a.longitude]);
-        });
-        if(points.length===1)map.setView(points[0],12);
-        else if(points.length>1)map.fitBounds(points,{padding:[25,25],maxZoom:12});
-        else map.setView([48.75,2.9],8);
-        mapStatus.textContent=points.length+" lieu"+(points.length>1?"x":"")+" géolocalisé"+(points.length>1?"s":"")+" sur "+filtered.length+" affiché"+(filtered.length>1?"s":"")+". Les positions issues des données ouvertes sont indicatives et restent à vérifier avant déplacement.";
-        setTimeout(()=>map.invalidateSize(),0);
-      }
       document.getElementById("aire-count").textContent=filtered.length+" lieu"+(filtered.length>1?"x":"");
       const empty=document.getElementById("aire-empty");
       empty.hidden=filtered.length>0;
