@@ -200,7 +200,8 @@ jobs:
           lot39_ids={"CCF44-PORNIC-BOUTINARDIERE-2026","CCF44-MOUTIERS-DOMAINE-DU-COLLET-2026","CCF44-THARON-VIEUX-CHATEAU-2026"}
           lot39=[x for x in visible_regional if x.get("sourceId") in lot39_ids]
           assert len(lot39)==3, "44 lot 39 : trois campings manquants introuvables"
-          assert all(x.get("priceYear")==2026 and x.get("priceCheckedAt")=="2026-10-20" and x.get("priceEvidenceDocument","").startswith("https://") and x.get("contactPhone") and x.get("contactSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot39), "44 lot 39 : tarifs, GPS, contact ou nuitée campings non documentés"
+          lot39_checked={"CCF44-PORNIC-BOUTINARDIERE-2026":"2026-10-20","CCF44-MOUTIERS-DOMAINE-DU-COLLET-2026":"2026-11-10","CCF44-THARON-VIEUX-CHATEAU-2026":"2026-10-20"}
+          assert all(x.get("priceYear")==2026 and x.get("priceCheckedAt")==lot39_checked[x["sourceId"]] and x.get("priceEvidenceDocument","").startswith("https://") and x.get("contactPhone") and x.get("contactSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot39), "44 lot 39 : tarifs, GPS, contact ou nuitée campings non documentés"
           assert "15,50 €" in lot39[0].get("price","") and "10 emplacements" in " ".join(lot39[0].get("services",[])), "La Boutinardière : étape ou capacité non répertoriée"
           assert "25 €" in lot39[1].get("price","") and "28 à 40 €" in lot39[1].get("price",""), "Domaine du Collet : divergence tarifaire 2026 non tracée"
           assert "20 à 36 €" in lot39[2].get("price","") and "Gironde" in lot39[2].get("status",""), "Vieux Château : tarif propre au site de Tharon ou prudence homonyme manquante"
