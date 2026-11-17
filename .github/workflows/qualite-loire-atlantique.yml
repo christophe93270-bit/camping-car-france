@@ -292,17 +292,18 @@ jobs:
           assert gcu.get("priceYear")==2026 and all(v in gcu.get("price","") for v in ("17,86 €","20,83 €","29,77 €")) and gcu.get("priceSource")=="https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf" and gcu.get("accessVerification")=="tarif_2026_adherents_atteste_admission_non_adherents_a_verifier", "GCU Mesquer : forfait 2026 pour deux adhérents ou preuve manquants"
           assert "à la semaine" in gcu.get("bookingConditions2026","") and "dimanche ou mercredi" in gcu.get("bookingConditions2026",""), "GCU Mesquer : réservation haute saison manquante"
 
-          # Lot 47 : deux tarifs camping-car strictement non confirmés et un seul prix d'appel non contractuel.
+          # Lot 47 : deux tarifs généraux à confirmer et une grille 2027 dont l'inclusion de la taxe reste à clarifier.
           lot47_ids={"CCF44-TURBALLE-CAMPING-LA-FALAISE-2026","CCF44-MESQUER-CAMPING-BEAUPRE-2026","CCF44-MESQUER-CAMPING-AU-SOIR-ETE-2026"}
           lot47=[x for x in visible_regional if x.get("sourceId") in lot47_ids]
           assert len(lot47)==3 and len({x["sourceId"] for x in lot47})==3, "44 lot 47 : trois campings distincts manquants"
-          assert all(x.get("priceCheckedAt")=="2026-10-20" and x.get("priceEvidenceDocument","").startswith("https://") and x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("contactSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot47), "44 lot 47 : GPS, contacts, prix ou source absents"
+          lot47_checked={"CCF44-TURBALLE-CAMPING-LA-FALAISE-2026":"2026-10-20","CCF44-MESQUER-CAMPING-BEAUPRE-2026":"2026-10-20","CCF44-MESQUER-CAMPING-AU-SOIR-ETE-2026":"2026-11-09"}
+          assert all(x.get("priceCheckedAt")==lot47_checked[x["sourceId"]] and x.get("priceEvidenceDocument","").startswith("https://") and x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("contactSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot47), "44 lot 47 : GPS, contacts, prix ou source absents"
           falaise=next(x for x in lot47 if x["sourceId"]=="CCF44-TURBALLE-CAMPING-LA-FALAISE-2026")
           beaupre=next(x for x in lot47 if x["sourceId"]=="CCF44-MESQUER-CAMPING-BEAUPRE-2026")
           soir=next(x for x in lot47 if x["sourceId"]=="CCF44-MESQUER-CAMPING-AU-SOIR-ETE-2026")
           assert falaise.get("priceYear")==2026 and falaise.get("capacityBarePitchesPublished")==65 and "Morbihan" in falaise.get("status","") and "30,50 €" in falaise.get("price",""), "La Falaise La Turballe : tarif 2026 certifié manquant ou confusion avec homonyme Morbihan"
           assert beaupre.get("price")=="Non confirmé" and beaupre.get("capacityBarePitchesPublished")==25 and beaupre.get("sourceOfficial")=="https://www.lebeaupre.com/fr/", "Le Beaupré : capacité ou absence de tarif 2026 non respectées"
-          assert soir.get("price")!="Non confirmé" and "21 €" in soir.get("price","") and "126 €" in soir.get("indicative2026Offer","") and soir.get("priceYear") is None and "prix_appel" in soir.get("priceVerification","") and "dates exploitant" in soir.get("operationalWarning",""), "Au Soir d'Eté : prix d'appel, offre ponctuelle, année ou saison insuffisamment prudents"
+          assert all(v in soir.get("price","") for v in ("22 €","31 €","43 €")) and "126 €" in soir.get("indicative2026Offer","") and soir.get("priceYear")==2027 and soir.get("priceVerification")=="grille_officielle_2027_forfait_camping_car_inclusion_taxe_a_confirmer" and soir.get("season2027",{}).get("touristTaxInclusionConfirmed") is False, "Au Soir d'Eté : grille 2027 ou réserve sur taxe non tracées"
 
           # Lot 48 : Briord unique ; Mon Calme sans prix 2026 ; Amis de la Nature Pors-er-Ster, grille 2026 et restrictions.
           briord48=[x for x in visible_regional if x.get("sourceId")=="ACCAMACCAMEAIREDECAMPINGLEBRIORD"]
