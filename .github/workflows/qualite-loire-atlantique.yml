@@ -335,7 +335,8 @@ jobs:
           lot50_ids={"CCF44-PORNIC-LES-BLEUETS-2026","CCF44-GUERANDE-BREHADOUR-2026","CCF44-ST-MICHEL-RIVIERA-2026"}
           lot50=[x for x in visible_regional if x.get("sourceId") in lot50_ids]
           assert len(lot50)==3 and len(set(x.get("sourceId") for x in lot50))==3, "Lot 50 : les 3 campings doivent être uniques"
-          assert all(x.get("priceCheckedAt") in ("2026-10-20","2026-10-21") and x.get("priceVerification") and x.get("contactPhone") and x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and not x.get("overnightStatus") for x in lot50), "Lot 50/63 : GPS, contact, statut nuitée ou prudence prix manquants"
+          lot50_checked={"CCF44-PORNIC-LES-BLEUETS-2026":"2026-10-20","CCF44-GUERANDE-BREHADOUR-2026":"2026-10-21","CCF44-ST-MICHEL-RIVIERA-2026":"2026-11-10"}
+          assert all(x.get("priceCheckedAt")==lot50_checked[x["sourceId"]] and x.get("priceVerification") and x.get("contactPhone") and x.get("contactEmail") and x.get("contactEmailSource","").startswith("https://") and x.get("gpsSource","").startswith("https://") and not x.get("overnightStatus") for x in lot50), "Lot 50/63 : GPS, contact, statut nuitée ou prudence prix manquants"
           bleuets=next(x for x in lot50 if x.get("sourceId")=="CCF44-PORNIC-LES-BLEUETS-2026")
           brehadour=next(x for x in lot50 if x.get("sourceId")=="CCF44-GUERANDE-BREHADOUR-2026")
           riviera=next(x for x in lot50 if x.get("sourceId")=="CCF44-ST-MICHEL-RIVIERA-2026")
