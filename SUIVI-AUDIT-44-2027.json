@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 266 (18/11/2026), dix fiches anciennes. Saint-Viaud confirme 6 €/service jusqu’à fin 2027, sans séjour; Bouaye affiche 13,74 € + 1,32 € de taxe en 2027 (15,06 € indicatifs), distincts du prix dynamique 2026. Val Saint-Martin (Pornic) présente une ambiguïté entre service, taxe et nuitée; à clarifier. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle : lot 267 (18/11/2026), dix fiches anciennes. Rouans publie désormais la taxe 2027 à 1,32 € (14,10 €/24 h indicatifs avec la base). Nantes Petit Port affiche 15 € + 1,32 € en 2027, avec fermeture hivernale jusqu’au 01/04; La Limouzinière affiche 12,22 € et taxe à 0 €. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -984,12 +984,13 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.mairie-chateaubriant.fr/camping-cars/",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 245,
-      "recheckFinding": "La mairie indique une aire ouverte toute l’année à 3 €/nuit, sans année de validité ni détail des services. À distinguer de Choisel (barème 2026 : 12 €/24 h ou 6 €/5 h) et du camping municipal des Briotais.",
-      "recheckNextCheck": "Confirmer le maintien du tarif et les services; ne pas transférer les prix des autres sites.",
+      "recheckLot": 267,
+      "recheckFinding": "Contrôle du 18/11/2026 : la mairie de Châteaubriant confirme que les Bassins de Launay sont ouverts toute l’année à 3 €/nuit. La fiche ne détaille pas les services inclus et ne donne pas d’année d’échéance.",
+      "recheckNextCheck": "Confirmer auprès du gestionnaire les services inclus et le maintien du tarif au moment du séjour; ne pas confondre avec Choisel ni le camping des Briotais.",
       "recheckTariffSource": "https://www.mairie-chateaubriant.fr/camping-cars/",
       "recheckConditionsSource": "https://www.mairie-chateaubriant.fr/camping-cars/",
-      "recheckSource": "https://www.mairie-chateaubriant.fr/camping-cars/"
+      "recheckSource": "https://www.mairie-chateaubriant.fr/camping-cars/",
+      "recheckOfficialSource": "https://www.mairie-chateaubriant.fr/camping-cars/"
     },
     {
       "sourceId": "ACCAMPDL044V501OIH",
@@ -1001,13 +1002,16 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 245,
-      "recheckFinding": "Borne seulement : vidange gratuite; eau à 3 € le jeton vendu en saison (mi-avril à mi-octobre), gratuit pour les clients. Stationnement interdit devant. L’office de tourisme donne 12–15 € par nuit pour emplacement + 2 personnes, hors taxe; la page du camping documente un barème 2026 de 12–17 € selon période, avec électricité à +6 €. Écart de tarifs à clarifier; aucun barème 2027 confirmé.",
-      "recheckNextCheck": "Confirmer auprès du camping le forfait et le supplément électrique applicables en 2027; garder borne, nuitée et électricité séparées.",
+      "recheckLot": 267,
+      "recheckFinding": "Contrôle du 18/11/2026 : le site officiel du Camping du Moulin n’affiche que son barème 2026 pour les emplacements (12 €/nuit hors juillet-août, 17 € en juillet-août, base 2 adultes et un équipement; électricité en option à 6 €). La borne extérieure est confirmée. La fiche touristique indique l’eau à 3 € par jeton, vendu à l’accueil en saison et gratuit pour les clients du camping. Aucun tarif 2027 publié.",
+      "recheckNextCheck": "Demander le tarif 2027 et les dates de la borne; garder prix d’emplacement, électricité et jeton d’eau séparés.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
-      "recheckSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
-      "recheckSource2": "https://www.camping-clisson.com/emplacements/"
+      "recheckSource": "https://www.camping-clisson.com/emplacements/",
+      "recheckSource2": "https://www.camping-clisson.com/emplacements/",
+      "recheckOfficialSource": "https://www.camping-clisson.com/emplacements/",
+      "recheckServiceSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
+      "recheckTariff2026Source": "https://www.camping-clisson.com/emplacements/"
     },
     {
       "sourceId": "ACCAMPDL044V50I1AR",
@@ -1041,12 +1045,13 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 245,
-      "recheckFinding": "La fiche officielle décrit parking gratuit et borne de services à 2 €, sans préciser la prestation, le volume d’eau ou le paiement. Aucun droit/tarif de nuitée ni validité 2027 publié.",
-      "recheckNextCheck": "Ne pas assimiler 2 € à une nuitée; demander le fonctionnement de la borne et les règles nocturnes.",
+      "recheckLot": 267,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche départementale confirme le parking gratuit de La Chinoise, la vidange eaux usées/WC, l’eau potable et un tarif de 2 €. La fiche ne précise pas le volume, la durée ou le mode de paiement associé aux 2 €; aucun millésime 2027 n’est indiqué.",
+      "recheckNextCheck": "Confirmer sur place ou auprès de la mairie ce que couvrent les 2 € et les règles/durée de nuitée; conserver stationnement gratuit et services comme postes séparés.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
-      "recheckSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac"
+      "recheckSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac"
     },
     {
       "sourceId": "ACCAMPDL044V51NWYL",
@@ -1058,12 +1063,13 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://domainedelaiguillette.fr/oenotourisme/",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 245,
-      "recheckFinding": "Le domaine confirme stationnement gratuit toute l’année, maximum deux nuits et trois camping-cars; WC et table de pique-nique. Aucun tarif de service, eau, vidange ou électricité annoncé. Conditions non millésimées 2027.",
-      "recheckNextCheck": "Garder gratuité et limites actuelles; confirmer auprès du domaine si elles changent.",
+      "recheckLot": 267,
+      "recheckFinding": "Contrôle du 18/11/2026 : l’exploitant confirme un stationnement gratuit toute l’année, limité à deux nuits et trois camping-cars, avec WC et table de pique-nique. Aucun tarif d’eau, vidange ou électricité annoncé. Les conditions 2027 ne sont pas datées.",
+      "recheckNextCheck": "Conserver le caractère gratuit et la limite de deux nuits; confirmer auprès du domaine si capacité ou conditions changent pour le séjour.",
       "recheckTariffSource": "https://domainedelaiguillette.fr/oenotourisme/",
       "recheckConditionsSource": "https://domainedelaiguillette.fr/oenotourisme/",
-      "recheckSource": "https://domainedelaiguillette.fr/oenotourisme/"
+      "recheckSource": "https://domainedelaiguillette.fr/oenotourisme/",
+      "recheckOfficialSource": "https://domainedelaiguillette.fr/oenotourisme/"
     },
     {
       "sourceId": "ACCAMPDL044V5006F5",
@@ -1075,13 +1081,15 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 246,
-      "recheckFinding": "L’office de tourisme confirme quatre places de stationnement gratuites, ouvertes toute l’année 2026, avec vidange, WC et eau payable par carte (montant non publié). La fiche de services et la fiche du parking concernent un même ensemble; ne pas compter deux fois les quatre places. Aucun barème spécifique 2027 publié.",
-      "recheckNextCheck": "Garder une capacité totale de quatre places; ne pas attribuer de prix à l’eau ni de tarif 2027 sans montant officiel.",
+      "recheckLot": 267,
+      "recheckFinding": "Contrôle du 18/11/2026 : l’office de tourisme confirme quatre places gratuites, ouvertes toute l’année 2026, avec WC et vidange; l’eau est disponible par paiement CB, mais son montant n’est pas publié. La fiche stationnement et la fiche de services concernent le même site : ne pas compter deux fois les quatre places.",
+      "recheckNextCheck": "Conserver une capacité totale de quatre places; demander le tarif de l’eau et les conditions 2027 à la commune avant d’inscrire un montant.",
       "recheckTariffSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
       "recheckConditionsSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
       "recheckSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
-      "recheckSource2": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/grotte-saint-jean"
+      "recheckSource2": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/grotte-saint-jean",
+      "recheckOfficialSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
+      "recheckPDFSource": "https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/3127/grotte-saint-jean.pdf"
     },
     {
       "sourceId": "ACCAMPDL044V516Q9C",
@@ -3483,11 +3491,12 @@
       "nextCheck": "Barème opérateur consulté le 3 novembre : 15 €/24 h jusqu'au 30/12/2026 et du 31/12/2026 au 31/12/2027. Taxe de séjour 1,32 € seulement affichée jusqu'au 31/12/2026. Aire fermée pour la période hivernale du 02/11/2026 au 01/04/2027 ; le prix affiché ne signifie pas disponibilité pendant la fermeture.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 245,
-      "recheckFinding": "15 €/24 h jusqu’au 31/12/2027. CCP affiche taxe 2027 de 1,32 €/24 h et un total courant de 16,32 €. Forfait parking 5 h + services : 6 €, sans date de fin publiée. Fermeture hivernale du 02/11/2026 au 01/04/2027 inclus; réouverture annoncée le 02/04/2027.",
-      "recheckNextCheck": "Garder prix de base, taxe et forfait 5 h distincts; vérifier l’accès à la réouverture.",
+      "recheckLot": 267,
+      "recheckFinding": "Contrôle du 18/11/2026 : CAMPING-CAR PARK affiche 15 €/24 h du 18/11 au 30/12/2026 et de nouveau 15 €/24 h du 31/12/2026 au 31/12/2027; taxe 1,32 €/24 h en 2026 et 2027, soit 16,32 € indicatifs. Le forfait distinct « parking 5 h + services » est de 6 €. Fermeture hivernale du 02/11 au 01/04/2027; réouverture prévue le 02/04/2027.",
+      "recheckNextCheck": "Conserver séparément base, taxe et forfait 5 h; vérifier l’ouverture et les tarifs juste avant le séjour après fermeture hivernale.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
+      "recheckOfficialSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000049",
@@ -3520,11 +3529,12 @@
       "nextCheck": "Barème opérateur consulté le 3 novembre : 12,78 €/24 h du 03/11/2026 au 31/12/2027. Taxe de séjour 1,32 € affichée jusqu'au 31/12/2026 uniquement ; total 2027 non confirmé. Parking 5 h + services à 6 €.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/rouans",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 245,
-      "recheckFinding": "12,78 €/24 h du 03/11/2026 au 31/12/2027. La grille consultée affiche 1,32 € de taxe/24 h en 2026 seulement; taxe 2027 non confirmée. Ne pas prolonger à 2027 le total courant de 14,10 €. Forfait 5 h : 6 €, sans période indiquée.",
-      "recheckNextCheck": "Laisser taxe et total 2027 à confirmer; séparer le forfait 5 h.",
+      "recheckLot": 267,
+      "recheckFinding": "Contrôle du 18/11/2026 : CAMPING-CAR PARK publie 12,78 €/24 h jusqu’au 31/12/2027 et une taxe 2027 de 1,32 €/24 h, soit 14,10 € indicatifs/24 h si elle s’ajoute. Le forfait parking 5 h + services est de 6 €. La taxe 2027, auparavant à confirmer, est désormais publiée.",
+      "recheckNextCheck": "Garder base et taxe séparées; vérifier le panier et la durée du forfait 5 h avant le séjour.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/rouans",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/rouans"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/rouans",
+      "recheckOfficialSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/rouans"
     },
     {
       "sourceId": "ACCAMEACCTRANCHEEPIRIAC",
@@ -3555,13 +3565,14 @@
       "nextCheck": "Vérifier si le forfait 5 h + services à 6 € reste applicable en 2027 et s'il existe des frais de réservation ou d'accès distincts; garder à part de la nuitée. Utiliser le tarif du réseau pour les montants actuels, pas la délibération 2024.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-limouziniere",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 245,
-      "recheckFinding": "12,22 €/24 h jusqu’au 31/12/2027; taxe à 0 € jusqu’à cette date. Total nuitée + taxe : 12,22 €/24 h. Forfait 5 h + services : 6 €, période non précisée.",
-      "recheckNextCheck": "Conserver les montants publiés; frais de carte/réservation distincts.",
+      "recheckLot": 267,
+      "recheckFinding": "Contrôle du 18/11/2026 : CAMPING-CAR PARK affiche 12,22 €/24 h jusqu’au 31/12/2027; taxe à 0 € jusqu’au 31/12/2027. Le total publié reste 12,22 €/24 h. Le forfait parking 5 h + services de 6 € est distinct.",
+      "recheckNextCheck": "Conserver les montants et périodes affichés; vérifier au panier les frais éventuels d’accès ou de réservation.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-limouziniere",
       "recheckMunicipalSource": "https://www.mairie-la-limouziniere.com/page/aire-de-camping-cars",
       "recheckHistoricalTariffSource": "https://www.mairie-la-limouziniere.com/wp-content/uploads/2024/08/2024-37-Tarifs-utilisation-aire-de-camping-car.pdf",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-limouziniere"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-limouziniere",
+      "recheckOfficialSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-limouziniere"
     },
     {
       "sourceId": "HPAPDL044000113",
@@ -3573,12 +3584,15 @@
       "nextCheck": "Vérifier un panier 2027 à dates précises, confirmer le prix par catégorie et résoudre l'écart de l'option de choix d'emplacement (45 € au contrat contre 35 € sur la FAQ). Conserver le frais de 35 € uniquement comme frais associés au paiement par chèques-vacances ; vérifier son application au canal choisi.",
       "source": "https://www.camping-eleovic.com/wp-content/uploads/2023/08/Brochure-propo-2027_compressed.pdf",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 245,
-      "recheckFinding": "Grille 2027 déjà documentée : 27–88 €/nuit standard; 30–120 € vue mer; 39–125 € vue mer avec sanitaire privé; 47–153 € aperçu mer avec sanitaire privé. Base 2 personnes, véhicule et électricité 10 A inclus; taxe 0,66 €/adulte/nuit en supplément. Saison annoncée du 02/04 au 26/09/2027. PDF non rouvert dans ce lot; valeurs déjà enregistrées.",
-      "recheckNextCheck": "Valider le prix exact au panier selon dates/catégorie, avec frais éventuels.",
-      "recheckSource": "https://www.camping-eleovic.com/wp-content/uploads/2023/08/Brochure-propo-2027_compressed.pdf",
+      "recheckLot": 267,
+      "recheckFinding": "Contrôle du 18/11/2026 : le site officiel confirme désormais l’ouverture du 02/04 au 26/09/2027. Les tarifs 2027 déjà consignés au lot antérieur n’ont pas pu être revérifiés : le PDF de grille précédemment référencé n’était pas accessible à la consultation. La taxe de séjour annoncée dans le contrat disponible reste datée 2026; aucun taux 2027 confirmé.",
+      "recheckNextCheck": "Obtenir un devis/panier 2027 sur des dates précises et confirmer taxe, catégorie d’emplacement, électricité et frais; ne pas reprendre les montants déjà enregistrés comme revérifiés dans ce lot.",
+      "recheckSource": "https://www.camping-eleovic.com/",
       "recheckSource2": "https://www.camping-eleovic.com/wp-content/uploads/2023/08/Contrat-de-reservation-SITE.pdf",
-      "recheckSource3": "https://www.camping-eleovic.com/"
+      "recheckSource3": "https://www.camping-eleovic.com/",
+      "recheckOfficialSource": "https://www.camping-eleovic.com/",
+      "recheckTariffGrid2027Source": "https://www.camping-eleovic.com/wp-content/uploads/2023/08/Brochure-propo-2027_compressed.pdf",
+      "recheckConditions2026Source": "https://www.camping-eleovic.com/wp-content/uploads/2023/08/Contrat-de-reservation-2026.pdf"
     },
     {
       "sourceId": "CCF44-PORNIC-BOUTINARDIERE-2026",
@@ -3891,9 +3905,9 @@
       "nextCheck": "Obtenir un tarif 2027 daté et clarifier la composition du forfait camping-car, les inclusions, les périodes et la taxe de séjour.",
       "source": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 245,
-      "recheckFinding": "Fiche régionale française : à partir de 14 €/nuit pour emplacement + 2 personnes + 1 voiture; ouverture affichée pour 2026 seulement. Version anglaise consultée antérieurement : forfait camping-car 17 €, composition et année incertaines. Taxe affichée incohérente (0,22–0,20 €/personne/nuit). Aucun tarif 2027 confirmé.",
-      "recheckNextCheck": "Demander le tarif 2027 daté et éclaircir 14/17 €, inclusions, taxe et saison.",
+      "recheckLot": 267,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche régionale affiche le forfait de base à partir de 14 €/nuit (un emplacement, deux personnes, une voiture), avec adultes supplémentaires à 3–5 €/nuit et une taxe de séjour incohérente (0,22–0,20 €/personne/nuit). Les dates d’ouverture affichées sont celles de 2026 seulement. La mention antérieure de 17 € n’est pas corroborée par cette fiche; aucun tarif 2027 confirmé.",
+      "recheckNextCheck": "Demander à l’exploitant la grille 2027 et faire préciser les inclusions du forfait camping-car, la taxe et les dates d’ouverture. Ne pas traiter 14 € comme prix 2027.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
       "recheckEnglishTariffSource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord",
       "recheckConditionsSource": "https://www.saint-brevin.com/aire-de-camping-le-briord.html",
@@ -3902,7 +3916,8 @@
       "recheckSecondarySource": "https://www.cirkwi.com/en/point-interet/3322513-aire-de-camping-le-briord",
       "recheckSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
       "recheckSource2": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord",
-      "recheckSource3": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD"
+      "recheckSource3": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD",
+      "recheckOfficialSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord"
     },
     {
       "sourceId": "node/11786823109",
