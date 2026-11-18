@@ -228,7 +228,7 @@ jobs:
           assert all(x.get("priceYear")==2026 and x.get("priceCheckedAt")==lot41_checked[x["sourceId"]] and x.get("priceEvidenceDocument")==lot41_sources[x["sourceId"]] and x.get("contactPhone") and x.get("contactSource","").startswith("https://") and x.get("latitude") and x.get("longitude") and not x.get("overnightStatus") for x in lot41), "44 lot 41 : prix, GPS, contact ou catégorie nuitée manquants"
           assert all(tarif in next(x for x in lot41 if x["sourceId"]==ident)["price"] for ident,tarif in lot41_expect.items()), "44 lot 41 : grille de tarif inattendue"
           goelette=next(x for x in lot41 if x.get("sourceId")=="CCF44-BERNERIE-GOELETTE-2026")
-          assert "0,88 € / jour" in goelette.get("price","") and goelette.get("feesEvidenceSource")=="https://www.campinglagoelette.com/en/emplacements-caravane" and "ne pas les incorporer" in goelette.get("feesEvidenceNote","") and "2026" not in goelette.get("feesEvidenceNote","").split("année de validité")[-1], "Goëlette : frais quotidien confirmé mais non millésimé ou confondu avec la nuitée"
+          assert "0,88 € / jour" in goelette.get("price","") and "montant non millésimé" in goelette.get("price","") and goelette.get("feesEvidenceSource")=="https://www.campinglagoelette.com/en/emplacements-caravane" and "ne pas les incorporer" in goelette.get("feesEvidenceNote",""), "Goëlette : frais quotidien confirmé mais non millésimé ou confondu avec la nuitée"
 
           # Lot 42 : une aire municipale (séjour 3 nuits) et trois campings privés distincts.
           lot42_ids={"CCF44-CHAPELLE-ERDRE-CIMETIERE-2026","CCF44-ASSERAC-CAMPING-BAIE-2026","CCF44-ST-MOLF-ILE-KERNODET-2026","CCF44-ASSERAC-DOMAINE-PONT-MAHE-2026"}
