@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 251 (18/11/2026), dix fiches existantes. Nuitée à Saint-Nazaire confirmée par l’arrêté municipal pour cinq places au Bois-Joalland; nuit explicitement interdite à Saint-Lyphard. Tarifs des bornes et nuitées séparés. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle : lot 252 (18/11/2026), dix fiches existantes. Tarifs opérateur 2027 toujours non publiés ou non confirmés pour les campings examinés; limites nocturnes et prestations restent distinctes des services de jour. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -945,17 +945,18 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 196,
-      "recheckFinding": "Lot 196 (05/11/2026) : le site opérateur affiche toujours les prix par nuit sans millésime : emplacement 4 €, adulte 4 €, enfant de moins de 10 ans 3 €, électricité 4 €, et forfait camping-car 2 personnes + électricité à 17 €; vidange au sol non disponible. Le site annonce une saison du 15/06 au 15/09. Gîtes de France précise que le descriptif est 2026 et peut changer en 2027. CampingFrance inscrit sous « Tarifs 2027 » les postes séparés emplacement 4 €/jour, adulte 4 €/jour, électricité 4 €/jour; pour 2 adultes cela donne 16 €/jour selon ces lignes, sans réconcilier le forfait opérateur de 17 €. Aucun prix opérateur confirmé pour 2027.",
-      "recheckNextCheck": "Demander confirmation écrite du forfait 17 € et de sa composition pour 2027; résoudre l’écart avec les postes CampingFrance (4 € emplacement + 2 adultes à 4 € chacun + 4 € électricité). Confirmer taxe, ouverture et modalités de vidange; ne pas reporter un total 2027 sans réponse.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 252,
+      "recheckFinding": "Contrôle du 18/11/2026 : le site opérateur affiche des tarifs par nuit sans millésime : emplacement 4 €, adulte 4 €, enfant de moins de 10 ans 3 €, électricité 4 €, et forfait camping-car 2 personnes avec électricité à 17 €. La fiche CampingFrance classe certains postes sous « Tarifs 2027 » (4 € emplacement, 4 € par adulte, 4 € électricité), soit 16 € pour deux adultes selon ces seules lignes, en contradiction avec le forfait opérateur. La saison indiquée est du 15/06 au 15/09; le tarif opérateur 2027 n’est pas confirmé.",
+      "recheckNextCheck": "Demander au camping de confirmer par écrit le forfait camping-car 17 € et sa composition pour 2027, et d’expliquer l’écart avec les postes publiés par CampingFrance; confirmer taxe, saison et règles de vidange avant tout total.",
       "recheckTariffSource": "https://www.camping-lerelaisdesgarennes.com/infos-pratiques/",
-      "recheckConditionsSource": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606",
+      "recheckConditionsSource": "https://www.camping-lerelaisdesgarennes.com/infos-pratiques/",
       "recheckSecondary2027Source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/montbert/camping-rural-le-relais-des-garennes",
       "recheckSecondarySource": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606",
       "recheckSecondaryTariffsSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/montbert/camping-rural-le-relais-des-garennes",
       "recheckOfficialSeasonSource": "https://www.camping-lerelaisdesgarennes.com/",
-      "recheckGites2026Source": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606"
+      "recheckGites2026Source": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606",
+      "recheckSource": "https://www.camping-lerelaisdesgarennes.com/infos-pratiques/"
     },
     {
       "sourceId": "ACCAMACCAMEAIRECHINOISE",
@@ -2079,12 +2080,13 @@
       "finding": "Aucune confirmation complète pour 2027 dans la fiche actuelle ; ne pas reconduire automatiquement les indications historiques. Distinguer stationnement, nuitée, services et règles locales.",
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 156,
-      "recheckFinding": "L’aire près de la mairie à Saint-Michel-Chef-Chef est gratuite, avec vidange, sans borne d’eau ni électricité selon l’office. Distincte du Clos Mer et Nature et sans tarif de nuitée identifié.",
-      "recheckNextCheck": "Vérifier la nuitée/durée et le maintien de la gratuité en 2027; ne pas ajouter d’équipements.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 252,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche officielle du Département confirme l’accès gratuit à l’aire municipale face à la mairie, avec une borne de vidange, sans borne d’eau, électricité ni horodateur. Aucun droit de nuitée ni durée maximale n’y est précisé.",
+      "recheckNextCheck": "Demander à la mairie si les camping-cars peuvent y passer la nuit et pour quelle durée; maintenir la gratuité du stationnement distincte de tout tarif de services.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal"
     },
     {
       "sourceId": "ACCAMPDL044V50028I",
@@ -2095,12 +2097,13 @@
       "finding": "Aucune confirmation complète pour 2027 dans la fiche actuelle ; ne pas reconduire automatiquement les indications historiques. Distinguer stationnement, nuitée, services et règles locales.",
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 156,
-      "recheckFinding": "Le Domaine des Croix compte six emplacements de camping-car, eau, vidanges, électricité, douche et toilettes, ouvert toute l’année; la fiche régionale n’affiche pas de prix. L’étape est identifiée France Passion, ce qui ne rend pas les services ou l’accueil payants par défaut.",
-      "recheckNextCheck": "Vérifier présence au guide France Passion 2027, conditions d’accueil et prix éventuels des services; ne pas inventer de forfait.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 252,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche régionale décrit six emplacements, ouverts toute l’année, avec eau, vidanges, électricité, douche et toilettes. Aucun prix de séjour ni tarif des services n’est publié; le paiement accepté ne suffit pas à établir un tarif.",
+      "recheckNextCheck": "Demander au domaine les tarifs et conditions d’accueil pour 2027, notamment si la nuitée ou certains services sont payants; ne pas assimiler l’accès 24 h/24 à une autorisation de nuitée.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre",
-      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre"
+      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre",
+      "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre"
     },
     {
       "sourceId": "ACCAMPDL044V51CY46",
@@ -2111,12 +2114,13 @@
       "finding": "Aucune confirmation complète pour 2027 dans la fiche actuelle ; ne pas reconduire automatiquement les indications historiques. Distinguer stationnement, nuitée, services et règles locales.",
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 156,
-      "recheckFinding": "Saint-Aubin-des-Châteaux : halte au bord de l’étang avec pétanque/pêche; aucun prix, borne ou autorisation nocturne publiée.",
-      "recheckNextCheck": "Confirmer auprès de la mairie le droit de nuit et sa durée; aucun tarif à saisir avant réponse.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 252,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche du Département situe l’aire au bord de l’étang du Bas-du-Tertre, près du bourg, avec terrain de pétanque et pêche autorisée. Elle ne précise ni tarif, ni services camping-car, ni autorisation nocturne.",
+      "recheckNextCheck": "Confirmer auprès de la mairie si le stationnement nocturne des camping-cars est autorisé et sa durée; ne pas saisir de tarif sans confirmation.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX"
     },
     {
       "sourceId": "ACCAMPDL044V51CXW1",
@@ -2127,12 +2131,13 @@
       "finding": "Aucune confirmation complète pour 2027 dans la fiche actuelle ; ne pas reconduire automatiquement les indications historiques. Distinguer stationnement, nuitée, services et règles locales.",
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 156,
-      "recheckFinding": "Vorajoux est une aire de stationnement touristique proche d’un terrain de pétanque; aucun tarif de camping-car, service ou droit de nuit n’est détaillé.",
-      "recheckNextCheck": "Vérifier la signalisation et l’autorisation nocturne avec Grand-Auverné.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 252,
+      "recheckFinding": "Contrôle du 18/11/2026 : l’office de tourisme décrit aux Vorajoux un vaste parking près d’un terrain de pétanque. La brochure touristique indique un contact communal, mais les sources ne publient ni tarif, ni services, ni règle de nuitée camping-car.",
+      "recheckNextCheck": "Demander à la mairie les règles de nuitée et la durée autorisée, ainsi que tout tarif ou service associé; ne pas déduire l’autorisation nocturne du seul terme « aire de stationnement ».",
       "recheckTariffSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/",
-      "recheckConditionsSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/"
+      "recheckConditionsSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/",
+      "recheckSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/"
     },
     {
       "sourceId": "ACCAMPDL044V5003A5",
@@ -2160,12 +2165,13 @@
       "finding": "Fiche existante retenue pour contrôle ; information tarifaire actuelle non établie pour 2027. Ne pas déduire une nuitée ou un tarif de service à partir du stationnement.",
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 156,
-      "recheckFinding": "Le Parc de la Lande dispose de 20 places, stationnement limité à 72 h ou trois nuits, terrain en herbe fermé l’hiver et réouverture selon météo; borne de services à 500 m. Aucun tarif de stationnement publié.",
-      "recheckNextCheck": "Maintenir l’accueil nocturne avec durée 72 h/3 nuits et saisonnalité; vérifier prix 2027 et règles d’ouverture communales.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 252,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche régionale maintient 20 emplacements, une limite de 72 h ou trois nuits et une fermeture hivernale du terrain en herbe, avec réouverture selon la météo. La borne de services est située à 500 m; aucun prix de stationnement n’est affiché.",
+      "recheckNextCheck": "Conserver la limite de séjour et la fermeture saisonnière; confirmer auprès de la commune les dates d’ouverture 2027 et le tarif éventuel. Ne pas confondre la borne voisine avec un service inclus au parking.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande",
-      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande"
+      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande",
+      "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande"
     },
     {
       "sourceId": "ACCAMPDL044V50ET43",
@@ -2176,12 +2182,13 @@
       "finding": "Fiche existante retenue pour contrôle ; information tarifaire actuelle non établie pour 2027. Ne pas déduire une nuitée ou un tarif de service à partir du stationnement.",
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 156,
-      "recheckFinding": "La Chevallerais : environ dix places près du canal et du bourg, mais ni tarif, ni services, ni autorisation nocturne précisées.",
-      "recheckNextCheck": "Confirmer règle de nuit, durée et tarif éventuel auprès de la commune; ne pas supposer la gratuité.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 252,
+      "recheckFinding": "Contrôle du 18/11/2026 : le Département décrit une dizaine d’emplacements camping-car rue du Pont, près du canal de Nantes à Brest et du bourg. Aucun tarif, équipement ou droit de nuitée n’est précisé dans cette fiche.",
+      "recheckNextCheck": "Confirmer auprès de la mairie l’autorisation nocturne, la durée maximale, les services et un éventuel tarif; ne pas supposer la gratuité.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT"
     },
     {
       "sourceId": "ACCAMPDL044V50ZDO9",
@@ -2192,12 +2199,13 @@
       "finding": "Fiche existante retenue pour contrôle ; information tarifaire actuelle non établie pour 2027. Ne pas déduire une nuitée ou un tarif de service à partir du stationnement.",
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 156,
-      "recheckFinding": "Le Biau Chemin est une étape France Passion avec deux places; la fiche régionale annonce deux nuits maximum, mais la règle du réseau prévoit une étape gratuite de 24 h maximum pour les hôtes actifs, véhicule autonome et guide/adhésion valides. La seconde nuit n’est pas garantie sans accord de l’hôte; statut guide 2027 non vérifié.",
-      "recheckNextCheck": "Vérifier inscription active au guide 2027 et conditions spécifiques de l’hôte; garder l’adhésion France Passion distincte d’un tarif de nuitée commerciale.",
-      "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion",
-      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-france-passion"
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 252,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche régionale du Biau Chemin indique deux emplacements et une durée maximale de deux nuits. La règle générale France Passion limite l’étape à une nuit/24 h; un séjour plus long exige l’accord préalable de l’hôte. La présence effective au guide 2027 n’est pas vérifiable sur les pages publiques consultées.",
+      "recheckNextCheck": "Vérifier auprès de l’hôte que l’étape est toujours active pour 2027 et confirmer sa règle spécifique de durée; expliquer que la deuxième nuit dépend de son accord et que l’adhésion au réseau n’est pas un tarif de nuitée.",
+      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/184172-AIRE-DE-STATIONNEMENT-FRANCE-PASSION",
+      "recheckConditionsSource": "https://www.france-passion.com/accueillants/faq-accueillant/",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/184172-AIRE-DE-STATIONNEMENT-FRANCE-PASSION"
     },
     {
       "sourceId": "ACCAMPDL044V50OH5Q",
@@ -2862,15 +2870,16 @@
       "finding": "Site officiel annonce encore ouverture 2026. Un canal de réservation affiche un prix hebdomadaire sans dates visibles ; ne pas convertir en tarif 2027 ou nuitée.",
       "nextCheck": "Demander barème 2027 par nuit/semaine pour emplacement camping-car, dates et charges comprises.",
       "source": "https://campingmoncalme.com/",
-      "recheckedAt": "2026-11-05",
-      "recheckLot": 194,
-      "recheckFinding": "Lot 194 (05/11/2026) : le site officiel affiche encore une ouverture camping 2026 (03/04–11/10) et confirme les emplacements camping-cars, dont la catégorie spéciale avec électricité 10 A, eau et évacuation incluses. Le catalogue de réservation officiel montre 121,73 €/semaine pour l’emplacement mixte et 148,40 €/semaine pour l’emplacement spécial camping-car, sans dates de séjour ni millésime associé; ces montants ne constituent donc pas un tarif 2027 daté. Le contrat indique 22 € de frais de réservation et taxe de séjour variable selon facture. Aucun prix public 2027 confirmé.",
-      "recheckNextCheck": "Tester un séjour à dates fixes en 2027 dans le moteur officiel; confirmer disponibilité, occupants, total final, frais (22 €) et taxe. Maintenir à part le prix hebdomadaire non daté et l'offre ACSI conditionnelle.",
-      "recheckTariffSource": "https://campingmoncalme.com/",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 252,
+      "recheckFinding": "Contrôle du 18/11/2026 : le site officiel affiche toujours une saison camping 2026 (03/04–11/10) et décrit deux catégories d’emplacements, dont un emplacement spécial camping-car avec électricité 10 A, point d’eau et sol stabilisé. Les prix de réservation précédemment observés (121,73 €/semaine et 148,40 €/semaine) restent sans dates de séjour ni millésime vérifiable; les CGV affichent 22 € de frais de réservation et une taxe variable. Aucun tarif 2027 confirmé.",
+      "recheckNextCheck": "Tester une réservation officielle sur des dates précises de 2027 et relever le total, les occupants, les frais de 22 € et la taxe; confirmer les dates d’ouverture 2027. Maintenir séparées les offres partenaires conditionnelles.",
+      "recheckTariffSource": "https://domaine.moncalme-piriac.com/",
       "recheckOfficialSource": "https://domaine.moncalme-piriac.com/",
       "recheckPitchSource": "https://domaine.moncalme-piriac.com/nos-emplacements-camping/",
       "recheckBookingCatalogSource": "https://www.mycamping.com/france/piriac-sur-mer/camping-mon-calme",
-      "recheckConditionsSource": "https://domaine.moncalme-piriac.com/conditions-generales-de-vente/"
+      "recheckConditionsSource": "https://domaine.moncalme-piriac.com/conditions-generales-de-vente/",
+      "recheckSource": "https://domaine.moncalme-piriac.com/"
     },
     {
       "sourceId": "CCF44-PORNIC-LES-BLEUETS-2026",
@@ -3661,13 +3670,15 @@
       "finding": "Les pages tourisme FR et EN divergent : la version française indique un forfait de base à partir de 14 €/nuit pour 1 emplacement + 2 personnes + 1 voiture; l'anglaise mentionne en plus un forfait camping-car à 17 €/nuit. La fiche Rando départementale donne seulement le calendrier 2026 (week-ends de mai, puis 15/06–15/09), 6 places, paiement en espèces et accueil 17 h 15–20 h. Taxe affichée en fourchette incohérente 0,22–0,20 €. Aucune grille ni saison 2027 confirmée.",
       "nextCheck": "Demander à l'exploitant une grille 2027 unique avec prix camping-car, personnes, véhicule, électricité, taxe, dates d'ouverture, horaires, moyen de paiement et durée minimale. Faire préciser si le forfait anglais de 17 € est bien une option supplémentaire et auquel de ces forfaits s'applique la taxe. Ne pas présenter 14 € ou 17 € comme un tarif 2027.",
       "source": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 163,
-      "recheckFinding": "Fiche régionale FR : forfait de base à partir de 14 €/nuit pour emplacement + 2 personnes + 1 voiture. Version EN : forfait camping-car à 17 €/nuit, en plus du forfait de base affiché. Montants sans année indiquée, calendrier de saison publié uniquement pour 2026 (week-ends de mai puis 15/06–15/09). La taxe affichée en anglais est une fourchette incohérente (0,22–0,20 €). L’office de Saint-Brevin identifie le camping mais ne donne pas de tarif. Aucun tarif public complet 2027; les 14 € et 17 € ne sont pas confirmés comme barème 2027.",
-      "recheckNextCheck": "À la prochaine publication, confirmer la catégorie camping-car, personnes/voiture, électricité, taxe, ouverture, horaires et paiement; garder les deux montants non datés comme repères secondaires.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 252,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche régionale affiche pour 2026 des ouvertures les week-ends de mai puis du 15/06 au 15/09, un forfait de base d’au moins 14 €/nuit (emplacement, deux personnes et une voiture) et un montant de taxe de séjour incohérent (fourchette 0,22–0,20 €). La version anglaise signale un supplément camping-car de 17 €, sans année tarifaire confirmée. Aucun barème 2027 publié.",
+      "recheckNextCheck": "Obtenir directement du camping son barème 2027 et faire préciser la catégorie camping-car, l’électricité, les occupants, la taxe de séjour, les dates d’ouverture et le règlement; garder les montants non datés non confirmés.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
       "recheckEnglishSource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord",
-      "recheckCalendarSource": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD"
+      "recheckCalendarSource": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD",
+      "recheckSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
+      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord"
     },
     {
       "sourceId": "ACCAMACCAMEAIREDECAMPINGLEBRIORD",
