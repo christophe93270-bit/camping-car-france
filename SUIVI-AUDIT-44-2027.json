@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 262 (18/11/2026), dix fiches existantes jamais réexaminées depuis leur première saisie. Deux aires CCP ont des tarifs et taxes 2027 détaillés; la Petite Arche présente un écart entre encart dynamique et grille saisonnière. Services gratuits, stationnement gratuit et nuitée restent distingués. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle : lot 263 (18/11/2026), dix fiches anciennes. Sept aires Camping-Car Park affichent des tarifs et taxes 2027; la page du Croisic conserve ses tarifs de nuitée et d’eau sans millésime; Pierric est confirmé comme aire de pique-nique et Derval ne publie pas de conditions de nuitée. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -2119,12 +2119,14 @@
       "nextCheck": "Conserver l’absence de tarif de nuitée; si la commune confirme un accueil camping-car, demander alors le tarif et les conditions officielles.",
       "source": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 241,
-      "recheckFinding": "La fiche du Pays de Redon identifie le lieu comme aire de pique-nique et ne publie pas d’accueil camping-car ou de tarif de nuitée.",
-      "recheckNextCheck": "Conserver l’absence de tarif de nuitée; si la commune confirme un accueil camping-car, demander alors le tarif et les conditions officielles.",
+      "recheckLot": 263,
+      "recheckFinding": "Contrôle du 18/11/2026 : l’Office de tourisme du Pays de Redon décrit ce point à La Chapulais comme une aire de pique-nique à Pierric. La page ne confirme pas une aire de stationnement camping-car, ni prix, services ou accueil nocturne. Aucun tarif de nuitée ne peut être attribué à cette fiche.",
+      "recheckNextCheck": "Conserver la classification pique-nique et ne publier aucun tarif ou accueil nocturne camping-car sans confirmation de la commune.",
       "recheckTariffSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/",
       "recheckConditionsSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/",
-      "recheckSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/"
+      "recheckSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/",
+      "recheckOfficialSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/",
+      "recheckTourismSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-24/"
     },
     {
       "sourceId": "ACCAMECCKERDAVID",
@@ -2136,12 +2138,13 @@
       "nextCheck": "Confirmer les montants applicables en 2027 auprès de la mairie ou au panier ALTEKIP; conserver séparément nuitée et eau.",
       "source": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 241,
-      "recheckFinding": "La mairie affiche 13,50 € par nuit (20 h–9 h), 10 € pour 150 L d’eau, paiement via ALTEKIP et limite de 48 h; ces tarifs ne sont pas datés 2027.",
-      "recheckNextCheck": "Confirmer les montants applicables en 2027 auprès de la mairie ou au panier ALTEKIP; conserver séparément nuitée et eau.",
+      "recheckLot": 263,
+      "recheckFinding": "Contrôle du 18/11/2026 : la page municipale du Croisic affiche toujours 13,50 € pour la nuitée de 20 h à 9 h, et 10 € pour 150 L d’eau en 10 minutes; paiement par carte via ALTEKIP. Elle confirme 8 places à Kerdavid, l’absence d’électricité, eau et vidanges. L’arrêté municipal impose le passage en aire/camping de 21 h à 9 h et limite le stationnement en aire à 48 h. La page ne date pas les tarifs pour la saison 2027.",
+      "recheckNextCheck": "Confirmer si les montants et le dispositif ALTEKIP restent applicables en 2027; garder la nuitée, le service d’eau et la limite de 48 h comme postes distincts.",
       "recheckTariffSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21",
       "recheckConditionsSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
-      "recheckSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21"
+      "recheckSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21",
+      "recheckOfficialSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21"
     },
     {
       "sourceId": "ACCAMPDL044V5003AG",
@@ -2306,11 +2309,12 @@
       "nextCheck": "Demander à la mairie de Derval le tarif, la durée maximale et l’autorisation de nuitée applicables à ce parking.",
       "source": "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 242,
-      "recheckFinding": "La fiche officielle confirme un parking de stationnement rue de Redon mais ne précise ni tarif ni règles de nuitée. Aucun tarif 2027 confirmé.",
-      "recheckNextCheck": "Demander à la mairie de Derval le tarif, la durée maximale et l’autorisation de nuitée applicables à ce parking.",
+      "recheckLot": 263,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche Loire-Atlantique Tourisme décrit un parking goudronné rue de Redon, au cœur de Derval, sans tarif, service, durée maximale ou permission de nuitée précisés. Le prix et les conditions de nuitée restent inconnus.",
+      "recheckNextCheck": "Demander à la mairie de Derval le tarif, la durée maximale, les services et l’autorisation de stationnement nocturne; ne pas afficher un prix sans réponse officielle.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL",
-      "recheckSource": "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL"
+      "recheckSource": "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL",
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL"
     },
     {
       "sourceId": "ACCAMPDL044V51CY1J",
@@ -3066,11 +3070,12 @@
       "nextCheck": "Confirmer auprès de l’opérateur le début tarifaire exact (01/11 ou 03/11), la taxe 2027, frais d’accès/carte et période du forfait 5 h + services.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 239,
-      "recheckFinding": "Lot 239 (18/11/2026) : La page officielle CCP affiche 13,50 €/24 h du 18/11/2026 au 31/12/2027 et 1,32 € de taxe/24 h en 2027. La délibération officielle de Guérande fixe 0,66 € par personne et par nuitée, mineurs exonérés. 1,32 € correspond à deux parts, mais l'occupation et l'application au panier CCP ne sont pas garanties; aucun total fixe n'est ajouté. Date de début du barème corrigée au 18/11/2026.",
-      "recheckNextCheck": "Vérifier le montant au panier en indiquant le nombre d'adultes; conserver le total inconnu tant que le calcul CCP n'est pas confirmé.",
+      "recheckLot": 263,
+      "recheckFinding": "Contrôle officiel du 18/11/2026 : grille saisonnière CCP à 13,50 €/24 h du 18/11/2026 au 31/12/2027. Taxe affichée à 1,32 €/24 h pour 2026 et 2027; total dynamique actuel : 14,82 €/24 h. Le forfait 5 h + services est de 6 €, période non précisée. La page actuelle confirme la période de début au 18/11/2026, remplaçant les anciennes variantes de novembre.",
+      "recheckNextCheck": "Conserver les tarifs et taxe par période; vérifier le panier et les éventuels frais de carte/réservation. Garder le forfait 5 h distinct.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande",
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande"
     },
     {
       "sourceId": "ACCAMEACCLERATPIRIAC",
@@ -3134,11 +3139,12 @@
       "nextCheck": "Vérifier le montant et les périodes 2027, puis confirmer taxe de séjour, frais et éventuel accès par carte.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-pinettes",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 238,
-      "recheckFinding": "Lot 238 (18/11/2026) : La page CCP affiche 14,25 €/24 h du 18/11/2026 au 31/12/2027 et une taxe de 1,32 €/24 h en 2026 comme en 2027. Le montant municipal 2027 et son application au panier restent à confirmer; aucun total fixe n'est calculé. Début du tarif de base corrigé selon la page CCP.",
-      "recheckNextCheck": "Confirmer le montant communal 2027 effectivement appliqué par CCP et vérifier la facture/panier final; pour Biochon, confirmer séparément la date de réouverture.",
+      "recheckLot": 263,
+      "recheckFinding": "Contrôle officiel du 18/11/2026 : tarif d’étape de 14,25 €/24 h du 18/11/2026 au 31/12/2027. Taxe affichée à 1,32 €/24 h pour 2026 et 2027; total dynamique actuel : 15,57 €/24 h. Forfait 5 h + services : 6 €, période non précisée.",
+      "recheckNextCheck": "Conserver séparément le tarif de base, la taxe, et le forfait 5 h; vérifier le panier et l’accès à la date du séjour.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-pinettes",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-pinettes"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-pinettes",
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-pinettes"
     },
     {
       "sourceId": "ACCAMPDL044V5002ZO",
@@ -3204,11 +3210,12 @@
       "nextCheck": "Faire harmoniser par l’opérateur la date de début réelle et le tarif du 15/10 au 01/11 ; confirmer taxe 2027, frais et période du parking 5 h + services.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 239,
-      "recheckFinding": "Lot 239 (18/11/2026) : La page officielle CCP affiche 14,50 €/24 h du 18/11/2026 au 31/12/2027 et 1,32 € de taxe/24 h en 2027. La délibération officielle de La Baule fixe 0,66 € par personne et par nuitée, mineurs exonérés. 1,32 € correspond à deux parts, mais l'occupation et l'application au panier CCP ne sont pas garanties; aucun total fixe n'est ajouté. Date de début du barème corrigée au 18/11/2026.",
-      "recheckNextCheck": "Vérifier le montant au panier en indiquant le nombre d'adultes; conserver le total inconnu tant que le calcul CCP n'est pas confirmé.",
+      "recheckLot": 263,
+      "recheckFinding": "Contrôle officiel du 18/11/2026 : tarif d’étape de 14,50 €/24 h du 18/11/2026 au 31/12/2027. Taxe affichée à 1,32 €/24 h pour 2027; total dynamique actuel : 15,82 €/24 h. Forfait 5 h + services : 6 €, période non précisée. La grille actuelle remplace les dates de début différentes mentionnées dans les anciens contrôles.",
+      "recheckNextCheck": "Garder prix de base et taxe distincts; vérifier le panier, les frais d’accès/carte et le forfait court à la date du séjour.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac",
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/baule-escoublac"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000048",
@@ -3255,11 +3262,12 @@
       "nextCheck": "Vérifier le montant et les périodes 2027, puis confirmer taxe de séjour, frais et éventuel accès par carte.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 239,
-      "recheckFinding": "Lot 239 (18/11/2026) : La page officielle CCP affiche 14,05 €/24 h du 18/11/2026 au 31/12/2027 et 1,32 € de taxe/24 h en 2027. Aucun barème communal 2027 propre à La Turballe n'a été trouvé dans les documents publics référencés; le montant municipal 2027 et l'application au panier restent à confirmer. Aucun total fixe n'est ajouté. Date de début du barème corrigée au 18/11/2026.",
-      "recheckNextCheck": "Vérifier le montant au panier en indiquant le nombre d'adultes; conserver le total inconnu tant que le calcul CCP n'est pas confirmé.",
+      "recheckLot": 263,
+      "recheckFinding": "Contrôle officiel du 18/11/2026 : tarif d’étape de 14,05 €/24 h du 18/11/2026 au 31/12/2027. Taxe affichée à 1,32 €/24 h en 2027; total dynamique actuel : 15,37 €/24 h. Forfait 5 h + services à 6 €, sans période précisée.",
+      "recheckNextCheck": "Conserver séparément prix de base, taxe, et forfait 5 h; vérifier les éventuels frais d’accès/carte au panier.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise",
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe-grande-falaise"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000116",
@@ -3362,11 +3370,12 @@
       "nextCheck": "Vérifier le montant et les périodes 2027, puis confirmer taxe de séjour, frais et éventuel accès par carte.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 238,
-      "recheckFinding": "Lot 238 (18/11/2026) : La page CCP affiche 9,57 €/24 h du 18/11/2026 au 31/12/2027 et une taxe de 1,32 €/24 h en 2026 comme en 2027. L'aire reste signalée temporairement fermée, sans réouverture annoncée. Aucun total fixe n'est calculé. Début du tarif de base corrigé selon la page CCP.",
-      "recheckNextCheck": "Confirmer le montant communal 2027 effectivement appliqué par CCP et vérifier la facture/panier final; pour Biochon, confirmer séparément la date de réouverture.",
+      "recheckLot": 263,
+      "recheckFinding": "Contrôle officiel du 18/11/2026 : tarif d’étape affiché à 9,57 €/24 h du 18/11/2026 au 31/12/2027. Taxe affichée à 1,32 €/24 h en 2026 et 2027; total dynamique actuel : 10,89 €/24 h. Forfait 5 h + services : 6 €, période non précisée. Vérifier la disponibilité effective avant déplacement.",
+      "recheckNextCheck": "Distinguer base, taxe et forfait court; confirmer l’ouverture et la disponibilité au moment du séjour et contrôler le panier 2027.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon",
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon"
     },
     {
       "sourceId": "ACCAMEPENBE",
@@ -3395,11 +3404,12 @@
       "nextCheck": "Barème officiel consulté le 3 novembre 2026 : 14,25 € jusqu'au 30/12/2026, puis 12,93 €/24 h du 31/12/2026 au 31/12/2027. Taxe 1,32 € seulement affichée jusqu'au 31/12/2026 ; total 2027 à confirmer. Aire disponible à partir du 31/12/2026 selon le tarif et fermée actuellement.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-la-pointe",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 238,
-      "recheckFinding": "Lot 238 (18/11/2026) : La page CCP affiche 14,25 €/24 h du 18/11 au 30/12/2026, puis 12,93 €/24 h du 31/12/2026 au 31/12/2027. Elle affiche 1,32 €/24 h de taxe en 2026 et en 2027. Le montant communal et l'application au panier restent à confirmer; aucun total fixe n'est calculé. Début du tarif de base corrigé selon la page CCP.",
-      "recheckNextCheck": "Confirmer le montant communal 2027 effectivement appliqué par CCP et vérifier la facture/panier final; pour Biochon, confirmer séparément la date de réouverture.",
+      "recheckLot": 263,
+      "recheckFinding": "Contrôle officiel du 18/11/2026 : le tarif d’étape est de 14,25 €/24 h jusqu’au 30/12/2026 puis 12,93 €/24 h du 31/12/2026 au 31/12/2027. Taxe affichée à 1,32 €/24 h pour 2027; total indicatif du tarif réduit en 2027 : 14,25 €/24 h. Le forfait 5 h + services est séparé à 6 €.",
+      "recheckNextCheck": "Respecter le changement de tarif au 31/12/2026 et afficher le total 2027 comme base + taxe; vérifier le panier et la disponibilité à la date prévue.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-la-pointe",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-la-pointe"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-la-pointe",
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-la-pointe"
     },
     {
       "sourceId": "ACCAMPDL049V50015C",
@@ -3480,13 +3490,14 @@
       "nextCheck": "Confirmer si la taxe 2027 et le forfait 5 h + services changent, et demander à la commune de mettre à jour sa page (tarif historique 6,70 € et taxe 0,55 €/personne). Ne pas publier 15,17 € comme total 2027.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 237,
-      "recheckFinding": "Lot 237 (18/11/2026) : tarif CCP de 13,95 €/24 h du 18/11/2026 au 31/12/2027; taxe CCP affichée à 1,32 €/24 h pour 2027. La délibération officielle de Piriac fixe 0,86 €/adulte/24 h. La différence reste à clarifier avec le mode de calcul de CCP ; statut de taxe partiel, sans total fixe. Début de validité corrigé au 18/11/2026.",
-      "recheckNextCheck": "Confirmer avec l'exploitant comment la taxe municipale 2027 de 0,86 € par adulte est appliquée au panier CCP et si l'affichage à 1,32 € est un forfait fixe; ne publier aucun total fixe avant cette réponse.",
+      "recheckLot": 263,
+      "recheckFinding": "Contrôle officiel du 18/11/2026 : tarif de base 13,95 €/24 h du 18/11/2026 au 31/12/2027. Taxe affichée : 1,22 €/24 h jusqu’au 31/12/2026, puis 1,32 €/24 h en 2027. Le total dynamique actuel 15,17 € correspond au tarif de base + taxe 2026; total indicatif 2027 : 15,27 €. Forfait 5 h + services : 6 € sans période datée.",
+      "recheckNextCheck": "Enregistrer le tarif de base et la taxe 2027 séparément; contrôler le panier dès le 01/01/2027 et garder le forfait 5 h distinct. La page tarifaire municipale historique n’est pas le tarif courant de l’aire CCP.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee",
       "recheckMunicipalSource": "https://www.piriac-sur-mer.fr/aires-de-camping-cars/",
       "recheckAvailabilitySource": "https://www.piriac-sur-mer.fr/decouvrir/sejourner/",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee",
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-la-tranchee"
     },
     {
       "sourceId": "ACCAMPDL044V51D2M4",
