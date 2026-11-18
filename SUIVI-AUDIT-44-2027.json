@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 261 (18/11/2026), dix fiches existantes. Quatre aires Camping-Car Park ont des tarifs de 24 h affichés jusqu’à fin 2027, avec taxe et forfait 5 h + services distincts. Les autres campings n’ont pas de tarif d’emplacement 2027 confirmé; Pen-Bé ne confirme pas sa réouverture. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle : lot 262 (18/11/2026), dix fiches existantes jamais réexaminées depuis leur première saisie. Deux aires CCP ont des tarifs et taxes 2027 détaillés; la Petite Arche présente un écart entre encart dynamique et grille saisonnière. Services gratuits, stationnement gratuit et nuitée restent distingués. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -3855,7 +3855,13 @@
       "status": "nuitée_ou_tarif_2027_à_confirmer",
       "finding": "Fiche OSM existante contrôlée rapidement. Aucun tarif, service technique, durée limite ou autorisation nocturne officielle trouvé pour le point près de l'église. À distinguer du plan d'eau de Buhel et de la Ferme de la Piardière; prix maintenu « Non confirmé ».",
       "nextCheck": "Garder l'avertissement visible; ne rechercher plus loin que si une source municipale ou une correction OSM apporte une information.",
-      "source": "https://www.openstreetmap.org/node/11786823109"
+      "source": "https://www.openstreetmap.org/node/11786823109",
+      "recheckFinding": "Contrôle du 18/11/2026 : le point OSM est référencé comme parking près de l’église à Plessé, mais aucune source communale consultée ne confirme son tarif, ses services ou l’autorisation de nuitée à cet emplacement précis. La commune répertorie séparément la Ferme de la Piardière comme hébergement avec aire camping-car; ne pas confondre les lieux ni transférer les informations du plan d’eau de Buhel.",
+      "recheckNextCheck": "Maintenir prix et nuitée non confirmés pour ce point près de l’église. Reprendre seulement si la mairie, un arrêté ou une source locale fiable confirme emplacement, stationnement nocturne et conditions.",
+      "recheckSource": "https://www.openstreetmap.org/node/11786823109",
+      "recheckMunicipalitySource": "https://www.commune-de-plesse.com/herbergement",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 262
     },
     {
       "sourceId": "node/14277689206",
@@ -3865,7 +3871,13 @@
       "status": "tarif_partiel_2027",
       "finding": "Page exploitant : 12 €/24 h et taxe 0 € du 01/11/2026 au 31/12/2027. Réservation obligatoire, accès limité aux vacances scolaires, jours fériés et week-ends; aucun service d'eau, vidange ou électricité. Date d'entrée en vigueur corrigée dans la fiche.",
       "nextCheck": "Tarif 2027 affiché; recontrôler le jour de réservation, sans recherche complémentaire.",
-      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/camping-car-a-lecole-de-guerande"
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/camping-car-a-lecole-de-guerande",
+      "recheckFinding": "Contrôle du 18/11/2026 : l’opérateur affiche 12,00 €/24 h du 18/11/2026 au 31/12/2027, avec taxe de séjour à 0,00 €/24 h sur la même période. Le parking 5 h + services est séparément affiché à 6 €, mais la page précise que l’aire ne dispose d’aucun service technique. Accès uniquement avec réservation, pendant vacances scolaires, week-ends et jours fériés.",
+      "recheckNextCheck": "Conserver le tarif 24 h, la taxe nulle et le forfait court séparés. Signaler l’absence de services et les horaires d’accès conditionnels; vérifier le panier et la réservation à la date du séjour.",
+      "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/camping-car-a-lecole-de-guerande",
+      "recheckAccessSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/camping-car-a-lecole-de-guerande",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 262
     },
     {
       "sourceId": "way/909611149",
@@ -3875,7 +3887,13 @@
       "status": "tarif_2027_non_confirme",
       "finding": "Tourisme Sud Retz confirme 4 places gratuites toute l'année 2026 et eau par carte bancaire en zone de services, sans montant publié. Même ensemble de quatre places que la fiche régionale ACCAMPDL044V5006F5 : ne pas doubler la capacité.",
       "nextCheck": "Conserver la mention de site partagé; ne pas rechercher de prix d'eau tant qu'aucun montant n'est publié.",
-      "source": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/"
+      "source": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
+      "recheckFinding": "Contrôle du 18/11/2026 : Sud Retz Atlantique Tourisme confirme 4 emplacements de stationnement gratuits, ouverts 24 h/24, avec toilettes et vidange. L’eau est disponible par carte bancaire, mais son prix n’est pas publié. La fiche indique une ouverture annuelle 2026 seulement; aucune grille 2027 ni montant pour l’eau trouvé.",
+      "recheckNextCheck": "Garder stationnement gratuit distinct du service d’eau payant à prix inconnu. Vérifier les conditions 2027 auprès de la commune; ne pas afficher de montant d’eau sans tarif publié.",
+      "recheckOfficialSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
+      "recheckTourismSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 262
     },
     {
       "sourceId": "way/909618351",
@@ -3885,7 +3903,13 @@
       "status": "service_sans_nuitée_confirmée",
       "finding": "La mairie confirme eau et vidanges gratuites ainsi que des places à proximité; ne publie ni tarif de nuitée ni permission/durée de stationnement nocturne. La gratuité des services n'est pas présentée comme gratuité ou autorisation de nuit.",
       "nextCheck": "Garder la réserve; aucun tarif de nuitée à inscrire sans confirmation municipale.",
-      "source": "https://www.ville-sorinieres.fr/contacts/aire-de-camping-car/"
+      "source": "https://www.ville-sorinieres.fr/contacts/aire-de-camping-car/",
+      "recheckFinding": "Contrôle du 18/11/2026 : la mairie confirme la gratuité de l’eau potable, de la vidange des eaux grises et de la vidange des eaux noires à l’aire rue des Papillons; plusieurs places de stationnement existent à proximité. La mairie ne publie pas de tarif de nuitée ni de permission/durée de stationnement nocturne.",
+      "recheckNextCheck": "Garder « services gratuits » séparé du stationnement et de la nuitée. Ne pas afficher une nuitée gratuite ni une autorisation nocturne sans confirmation municipale.",
+      "recheckOfficialSource": "https://www.ville-sorinieres.fr/contacts/aire-de-camping-car/",
+      "recheckServiceSource": "https://www.ville-sorinieres.fr/contacts/aire-de-camping-car/",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 262
     },
     {
       "sourceId": "way/1317028497",
@@ -3895,7 +3919,13 @@
       "status": "nuitée_ou_tarif_2027_à_confirmer",
       "finding": "Document touristique officiel départemental publié en 2026 confirme le parking, eau, toilettes et tables; aucun tarif de nuitée, autorisation nocturne ou capacité actuelle n'est publié. Tarif maintenu « Non confirmé ».",
       "nextCheck": "Ne pas extrapoler la capacité 2/3 places ni la nuitée; reprendre seulement si la mairie publie des conditions.",
-      "source": "https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/3136/aire-de-stationnement-barriere-st-pierre-ancenis.pdf"
+      "source": "https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/3136/aire-de-stationnement-barriere-st-pierre-ancenis.pdf",
+      "recheckFinding": "Contrôle du 18/11/2026 : le document de Loire-Atlantique Tourisme, daté du 23/05/2026, décrit l’aire Barrière Saint-Pierre, avec eau et toilettes, sans prix de stationnement ni durée de nuitée. Une source secondaire indique 3 places et une limite de 48 h, mais cette règle n’est pas confirmée par la fiche officielle consultée. Tarif et conditions nocturnes restent non confirmés.",
+      "recheckNextCheck": "Demander à la mairie de confirmer gratuité ou prix, capacité, durée maximale et autorisation de nuitée. Ne pas reprendre les 3 places/48 h comme conditions officielles sans confirmation.",
+      "recheckOfficialSource": "https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/3136/aire-de-stationnement-barriere-st-pierre-ancenis.pdf",
+      "recheckSecondarySource": "https://www.camping-car.com/aires/34622-aire-de-stationnement/",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 262
     },
     {
       "sourceId": "way/1317588157",
@@ -3905,7 +3935,13 @@
       "status": "information_2027_sans_prix",
       "finding": "Pornichet Tourisme confirme le stationnement gratuit (0 €), ouvert toute l'année, sans services techniques. Aucun changement tarifaire nécessaire.",
       "nextCheck": "Aucun contrôle supplémentaire requis; vérifier la signalisation locale avant séjour.",
-      "source": "https://www.pornichet.fr/aire-daccueil-dermur"
+      "source": "https://www.pornichet.fr/aire-daccueil-dermur",
+      "recheckFinding": "Contrôle du 18/11/2026 : Pornichet Tourisme présente l’aire d’Ermur comme gratuite, ouverte toute l’année, et adaptée à une nuit ou un séjour. Aucun prix de service technique n’est indiqué; ne pas en déduire une présence d’eau ou de vidange.",
+      "recheckNextCheck": "Conserver le stationnement gratuit et la mention d’accueil nocturne sur la base de la page touristique. Recontrôler la signalisation locale et les éventuels services avant toute précision.",
+      "recheckOfficialSource": "https://www.pornichet.fr/aire-daccueil-dermur",
+      "recheckTourismSource": "https://www.pornichet.fr/aire-daccueil-dermur",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 262
     },
     {
       "sourceId": "way/1323469438",
@@ -3915,7 +3951,13 @@
       "status": "tarif_partiel_2027",
       "finding": "L'exploitant publie 13 €/24 h du 01/11/2026 au 31/12/2027 et 0,88 € de taxe/24 h sur la même période, soit 13,88 € indicatifs. Entrée en vigueur corrigée dans la fiche; forfait 5 h + services à 6 € sans période 2027 explicite.",
       "nextCheck": "Valeurs 2027 publiées; vérifier frais de carte et total au paiement avant déplacement.",
-      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/saint-pere-en-retz"
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/saint-pere-en-retz",
+      "recheckFinding": "Contrôle du 18/11/2026 : Camping-Car Park détaille 13,00 €/24 h du 18/11/2026 au 31/12/2027. La taxe est de 0,88 €/24 h jusqu’au 31/12/2026, puis 1,10 €/24 h en 2027; le total indicatif 2027 est donc 14,10 €/24 h si la taxe s’ajoute comme affichée. Le forfait distinct « parking 5 h + services » reste à 6 €.",
+      "recheckNextCheck": "Mettre à jour la taxe 2027 distinctement de la base; vérifier le panier, les éventuels frais d’accès/carte et la période de validité au jour du séjour.",
+      "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/saint-pere-en-retz",
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/saint-pere-en-retz",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 262
     },
     {
       "name": "CAMPING-CAR PARK Blain – La Petite Arche",
@@ -3925,7 +3967,12 @@
       "finding": "Tableau officiel saisonnier : 12,73 €/24 h du 01/10/2026 au 31/12/2027; taxe 1,10 € limitée à 2026. L'encart « Right now » affichait 14,94 €, contradictoire avec le tableau (total 13,83 € avec la taxe 2026). Barème saisonnier conservé, sans reprendre le total dynamique.",
       "nextCheck": "Vérifier le montant du panier au moment du déplacement; aucune recherche sur les campings voisins.",
       "source": "https://www.campingcarpark.com/en_GB/motor-home/pays-de-la-loire/loire-atlantique/blain?areaType=stopover-site-motorhome",
-      "recheckTariffSource": "https://www.campingcarpark.com/en_GB/motor-home/pays-de-la-loire/loire-atlantique/blain?areaType=stopover-site-motorhome"
+      "recheckTariffSource": "https://www.campingcarpark.com/en_GB/motor-home/pays-de-la-loire/loire-atlantique/blain?areaType=stopover-site-motorhome",
+      "recheckFinding": "Contrôle du 18/11/2026 : le tableau saisonnier officiel CCP indique 12,73 €/24 h du 01/10/2026 au 31/12/2027; le forfait parking 5 h + services est de 6 €. La taxe de séjour publiée est de 1,10 €/24 h jusqu’au 31/12/2026 seulement, sans taux 2027 visible. Incohérence à signaler : l’encart « en ce moment » affiche 14,94 € incluant 1,10 € de taxe, alors que 12,73 + 1,10 = 13,83 €. Ne pas reprendre 14,94 € comme tarif saisonnier explicable.",
+      "recheckNextCheck": "Conserver la base saisonnière à 12,73 € et laisser le total 2027 non confirmé jusqu’à clarification de la taxe et de l’écart avec l’encart dynamique; vérifier le panier à la date du séjour.",
+      "recheckTaxSource": "https://www.campingcarpark.com/en_GB/motor-home/pays-de-la-loire/loire-atlantique/blain?areaType=stopover-site-motorhome",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 262
     },
     {
       "name": "CAMPING-CAR PARK Pornic – Bienvenue au siège",
@@ -3934,7 +3981,13 @@
       "status": "tarif_partiel_2027",
       "finding": "L'exploitant confirme 12,73 €/24 h du 01/11/2026 au 31/12/2027, taxe de séjour 2026 de 1,32 € en sus, soit 14,05 € indicatifs. La taxe 2027 n'est pas publiée; tarif enregistré déjà correct.",
       "nextCheck": "Vérifier taxe et total au paiement pour un séjour 2027.",
-      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic?areaType=aire-etape-camping-car"
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic?areaType=aire-etape-camping-car",
+      "recheckFinding": "Contrôle du 18/11/2026 : le tarif de base CCP est de 12,73 €/24 h du 18/11/2026 au 31/12/2027. La taxe de séjour affichée est de 1,32 €/24 h pour 2026 et 2027; le total actuel de 14,05 €/24 h correspond à base + taxe. Le forfait parking 5 h + services à 6 € est distinct.",
+      "recheckNextCheck": "Garder séparés prix de base, taxe et forfait 5 h + services; contrôler le total et les éventuels frais d’accès/carte au panier.",
+      "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic?areaType=aire-etape-camping-car",
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic?areaType=aire-etape-camping-car",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 262
     },
     {
       "sourceId": "way/909625355",
@@ -3945,7 +3998,13 @@
       "finding": "La mairie confirme une aire camping-car avec eau et vidange; Loire-Atlantique Tourisme confirme l'eau gratuite. Aucun tarif de stationnement ou d'autorisation de nuitée publié. Fiche existante, pas de nouveau lieu.",
       "nextCheck": "Maintenir l'eau gratuite et laisser le coût/autorisation de nuitée non précisés tant que la commune ne les publie pas.",
       "source": "https://www.mesanger.fr/mes-loisirs/aire-camping-car/",
-      "tourismSource": "https://rando.loire-atlantique.fr/service/186408-Aire-de-camping-car-La-Sebiliere"
+      "tourismSource": "https://rando.loire-atlantique.fr/service/186408-Aire-de-camping-car-La-Sebiliere",
+      "recheckFinding": "Contrôle du 18/11/2026 : la mairie confirme une aire camping-car au plan d’eau avec borne d’eau et de vidange. Aucun prix de stationnement, montant d’eau, durée maximale ni autorisation de nuitée n’est publié sur la page communale.",
+      "recheckNextCheck": "Maintenir les tarifs et conditions de nuitée comme non précisés; demander à la mairie les tarifs de la borne, le prix/durée de stationnement et les règles nocturnes si une source datée est nécessaire.",
+      "recheckOfficialSource": "https://www.mesanger.fr/mes-loisirs/aire-camping-car/",
+      "recheckMunicipalitySource": "https://www.mesanger.fr/mes-loisirs/aire-camping-car/",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 262
     }
   ]
 }
