@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 265 (18/11/2026), dix fiches anciennes. Haie-Fouassière confirme le jeton à 2 €; Le Pallet confirme l’eau à 3 € pour 2026 seulement; Donges affiche un jeton 2026 à 3,50 €, mais la réouverture est incertaine. À Pontchâteau le stationnement est gratuit/48 h et le tarif d’eau de 2,50 €/100 L reste à confirmer au paiement Qipéo. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle : lot 266 (18/11/2026), dix fiches anciennes. Saint-Viaud confirme 6 €/service jusqu’à fin 2027, sans séjour; Bouaye affiche 13,74 € + 1,32 € de taxe en 2027 (15,06 € indicatifs), distincts du prix dynamique 2026. Val Saint-Martin (Pornic) présente une ambiguïté entre service, taxe et nuitée; à clarifier. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -885,12 +885,14 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 245,
-      "recheckFinding": "La mairie confirme l’aire mais sans tarif ni règles de nuitée. Fiche régionale : stationnement gratuit, borne de services à 3 € par carte; montant sans millésime 2027. Droit et durée de nuitée non établis.",
-      "recheckNextCheck": "Confirmer les services de la borne et les règles nocturnes auprès de la commune.",
+      "recheckLot": 266,
+      "recheckFinding": "Contrôle du 18/11/2026 : la mairie confirme l’existence de l’aire mais ne publie pas de tarifs ni de règles nocturnes. Une fiche régionale mise à jour le 25/06/2026 annonce stationnement gratuit et paiement par carte bancaire à 3 € pour la borne; prix de service secondaire, sans précision de validité 2027.",
+      "recheckNextCheck": "Confirmer auprès de la mairie le tarif actuel de la borne, les services couverts et le droit/durée de nuitée; garder les 3 € comme indication non confirmée par l’exploitant.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE",
       "recheckSource": "https://www.mairie-laboissieredudore.fr/vie-boisserienne/aire-de-camping-car/",
-      "recheckSource2": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-camping-car-la-boissiere-du-dore"
+      "recheckSource2": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-camping-car-la-boissiere-du-dore",
+      "recheckOfficialSource": "https://www.mairie-laboissieredudore.fr/vie-boisserienne/aire-de-camping-car/",
+      "recheckSecondarySource": "https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/180235/aire-camping-car-la-boissiere-du-dore.pdf"
     },
     {
       "sourceId": "ACCAMPDL044V51ICOZ",
@@ -2756,12 +2758,13 @@
       "nextCheck": "Confirmer auprès de la mairie si la nuitée est autorisée et sous quelles conditions; ne pas transposer une éventuelle règle d’un autre parking.",
       "source": "https://www.bienvenue-pays-ancenis.com/en/fiche/aire-de-camping-car/aire-de-stationnement-du-marais-de-gree-ancenis-saint-gereon_TFOACCAMPDL044V51R0LC/",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 244,
-      "recheckFinding": "Pays d’Ancenis Tourisme confirme un parking au marais de Grée et un équipement de gestion des déchets, sans prix, durée maximale ou nuitée dédiée aux camping-cars.",
-      "recheckNextCheck": "Confirmer auprès de la mairie si la nuitée est autorisée et sous quelles conditions; ne pas transposer une éventuelle règle d’un autre parking.",
+      "recheckLot": 266,
+      "recheckFinding": "Contrôle du 18/11/2026 : Pays d’Ancenis Tourisme décrit le parking du marais de Grée et un équipement « déchets ». Aucun prix, durée maximale, service d’eau ni droit de nuitée spécifique aux camping-cars n’est publié sur cette fiche.",
+      "recheckNextCheck": "Demander à la mairie le tarif éventuel, les services exacts, la durée et l’autorisation de nuitée camping-car; ne pas déduire un droit de séjour de la présence d’un parking.",
       "recheckTariffSource": "https://www.bienvenue-pays-ancenis.com/en/fiche/aire-de-camping-car/aire-de-stationnement-du-marais-de-gree-ancenis-saint-gereon_TFOACCAMPDL044V51R0LC/",
       "recheckSource": "https://www.bienvenue-pays-ancenis.com/en/fiche/aire-de-camping-car/aire-de-stationnement-du-marais-de-gree-ancenis-saint-gereon_TFOACCAMPDL044V51R0LC/",
-      "recheckSecondarySource": "https://www.bienvenue-pays-ancenis.com/fr/fiche/fetes-et-manifestations/permanence-de-la-maison-du-marais-de-gree-ancenis-saint-gereon_TFOFMAPDL044V51N7RM/"
+      "recheckSecondarySource": "https://www.bienvenue-pays-ancenis.com/fr/fiche/fetes-et-manifestations/permanence-de-la-maison-du-marais-de-gree-ancenis-saint-gereon_TFOFMAPDL044V51N7RM/",
+      "recheckOfficialSource": "https://www.bienvenue-pays-ancenis.com/en/fiche/aire-de-camping-car/aire-de-stationnement-du-marais-de-gree-ancenis-saint-gereon_TFOACCAMPDL044V51R0LC/"
     },
     {
       "sourceId": "ACCAMPDL044V50TYCL",
@@ -2773,12 +2776,13 @@
       "nextCheck": "Vérifier la signalisation locale pour la durée de stationnement et confirmer le maintien de la gratuité en 2027.",
       "source": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 244,
-      "recheckFinding": "Pornichet Tourisme affiche l’emplacement à 0 €, 7 places, et une ouverture toute l’année. La durée maximale et les règles de nuitée ne sont pas précisées.",
-      "recheckNextCheck": "Vérifier la signalisation locale pour la durée de stationnement et confirmer le maintien de la gratuité en 2027.",
+      "recheckLot": 266,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche départementale actuelle confirme 7 emplacements camping-car sur l’île de Fédrun. Elle ne publie ni tarif, ni durée, ni règle de nuitée; la gratuité mentionnée dans d’autres fiches n’est pas confirmée par cette fiche officielle.",
+      "recheckNextCheck": "Confirmer auprès de Saint-Joachim le tarif 2027, la durée maximale et les conditions de nuitée; garder 7 places séparées de toute règle non publiée.",
       "recheckTariffSource": "https://www.pornichet.fr/aire-de-stationnement-de-fedrun",
       "recheckSource": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
-      "recheckSecondarySource": "https://www.pornichet.fr/aire-de-stationnement-de-fedrun"
+      "recheckSecondarySource": "https://www.pornichet.fr/aire-de-stationnement-de-fedrun",
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN"
     },
     {
       "sourceId": "ACCAMPDL044V5006F7",
@@ -2790,11 +2794,12 @@
       "nextCheck": "Contacter l’exploitant pour vérifier disponibilité, accord d’arrivée, maintien de la gratuité et limite de deux nuits pour 2027.",
       "source": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 244,
-      "recheckFinding": "La fiche touristique du domaine annonce deux emplacements gratuits et deux nuits maximum, sans millésime 2027.",
-      "recheckNextCheck": "Contacter l’exploitant pour vérifier disponibilité, accord d’arrivée, maintien de la gratuité et limite de deux nuits pour 2027.",
+      "recheckLot": 266,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche de Loire-Atlantique Tourisme décrit deux emplacements gratuits, réservés aux camping-cars, dans un domaine viticole privé, avec un maximum de deux nuits. La fiche ne donne pas de millésime 2027.",
+      "recheckNextCheck": "Vérifier avec l’exploitant que l’accueil, la gratuité et la limite de deux nuits restent valables pour 2027; confirmer les modalités d’arrivée.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER",
-      "recheckSource": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER"
+      "recheckSource": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER",
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER"
     },
     {
       "sourceId": "ACCAMPDL044V500866",
@@ -2806,11 +2811,13 @@
       "nextCheck": "Vérifier l’arrêté municipal joint à la page et la signalisation sur place pour la durée et les règles nocturnes; reconfirmer la gratuité 2027.",
       "source": "https://www.saint-brevin.com/aire-de-stationnement-centre-ville-des-pins.html",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 244,
-      "recheckFinding": "La page municipale/touristique indique 8 emplacements, stationnement gratuit et ouverture à l’année; aucune durée maximale ou règle de nuitée affichée.",
-      "recheckNextCheck": "Vérifier l’arrêté municipal joint à la page et la signalisation sur place pour la durée et les règles nocturnes; reconfirmer la gratuité 2027.",
+      "recheckLot": 266,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche officielle indique 8 places, stationnement gratuit et ouverture toute l’année; elle fournit en pièce jointe un arrêté municipal 2026. La page consultée ne précise pas durée maximale ni règle de nuitée par aire.",
+      "recheckNextCheck": "Vérifier dans l’arrêté municipal 2026 et la signalisation de l’aire les durées et règles nocturnes; confirmer leur maintien en 2027. Ne pas assimiler gratuité à autorisation de nuitée.",
       "recheckTariffSource": "https://www.saint-brevin.com/aire-de-stationnement-centre-ville-des-pins.html",
-      "recheckSource": "https://www.saint-brevin.com/aire-de-stationnement-centre-ville-des-pins.html"
+      "recheckSource": "https://www.saint-brevin.com/aire-de-stationnement-centre-ville-des-pins.html",
+      "recheckOfficialSource": "https://www.saint-brevin.com/aire-de-stationnement-centre-ville-des-pins.html",
+      "recheckOrderSource": "https://www.saint-brevin.com/medias/images/prestataires/arr-t-2026-aires-camping-car-sb-11351.pdf"
     },
     {
       "sourceId": "CCF44-LESBRILLAS-2026",
@@ -2968,11 +2975,12 @@
       "nextCheck": "Confirmer le prix et la disponibilité auprès de la mairie pour 2027; garder les équipements et la limite de 3 nuits distincts du tarif.",
       "source": "https://www.lachapellesurerdre.fr/ou-stationner-en-camping-car-la-chapelle-sur-erdre",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 244,
-      "recheckFinding": "La mairie confirme une place, eau, vidanges et une limite de 3 nuits; elle ne publie pas de tarif. Les guides secondaires indiquent la gratuité en 2026 seulement.",
-      "recheckNextCheck": "Confirmer le prix et la disponibilité auprès de la mairie pour 2027; garder les équipements et la limite de 3 nuits distincts du tarif.",
+      "recheckLot": 266,
+      "recheckFinding": "Contrôle du 18/11/2026 : la mairie confirme une aire rue de l’Erdre avec stationnement limité à trois nuits, accès à l’eau et vidanges. Elle indique une fermeture annuelle pendant les vacances d’automne; aucun tarif n’est publié.",
+      "recheckNextCheck": "Confirmer auprès de la mairie la gratuité ou le prix des services et du stationnement, ainsi que le calendrier et les règles 2027; garder la limite de trois nuits distincte du tarif.",
       "recheckTariffSource": "https://www.lecampeur.fr/aire/aire-de-camping-car-de-la-chapelle-sur-erdre-ph5hic",
-      "recheckSource": "https://www.lachapellesurerdre.fr/ou-stationner-en-camping-car-la-chapelle-sur-erdre"
+      "recheckSource": "https://www.lachapellesurerdre.fr/ou-stationner-en-camping-car-la-chapelle-sur-erdre",
+      "recheckOfficialSource": "https://www.lachapellesurerdre.fr/ou-stationner-en-camping-car-la-chapelle-sur-erdre"
     },
     {
       "sourceId": "CCF44-MOUTIERS-HERMITAGE-DUNES-2026",
@@ -3139,11 +3147,12 @@
       "nextCheck": "Vérifier le coût éventuel de la carte PASS’ÉTAPES et la durée d’électricité; conserver 6 € comme tarif de service, jamais comme prix de nuitée.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/as-st-viaud",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 244,
-      "recheckFinding": "CAMPING-CAR PARK affiche 6 € et un barème valable jusqu’au 31/12/2027; la description limite l’usage aux services et interdit le séjour. La carte PASS’ÉTAPES est requise.",
-      "recheckNextCheck": "Vérifier le coût éventuel de la carte PASS’ÉTAPES et la durée d’électricité; conserver 6 € comme tarif de service, jamais comme prix de nuitée.",
+      "recheckLot": 266,
+      "recheckFinding": "Contrôle du 18/11/2026 : CAMPING-CAR PARK affiche 6 €/service, barème daté du 01/01/2026 au 31/12/2027. La fiche précise eau (100 L), électricité et vidange, accès avec PASS’ÉTAPES, et interdit le séjour sur cette borne de services. Les 6 € sont un prix de service, pas une nuitée; aucune taxe 2027 n’est publiée.",
+      "recheckNextCheck": "Garder 6 € comme prix de service jusqu’au 31/12/2027; vérifier la taxe seulement si l’exploitant clarifie qu’elle s’applique à une prestation de service. Ne jamais classer cette borne comme lieu de nuitée.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/as-st-viaud",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/as-st-viaud"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/as-st-viaud",
+      "recheckOfficialSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/as-st-viaud"
     },
     {
       "sourceId": "ACCAMPDL044V51I23X",
@@ -3355,11 +3364,12 @@
       "nextCheck": "Demander à CCP et à l’office si les 6 places sont destinées au stationnement de nuit, si la taxe 0,44 € s’applique malgré le classement service-only, et ce que couvre un passage à 2 €.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 244,
-      "recheckFinding": "L’opérateur affiche 2 €/service et 0 € de taxe actuellement, mais son tableau générique affiche une taxe de 0,44 €/24 h en 2027. La même fiche classe le point comme aire de services; l’office touristique parle aussi d’une aire de stationnement de 6 places accessible 24 h/24. Portée de la taxe et droit de nuitée à clarifier.",
-      "recheckNextCheck": "Demander à CCP et à l’office si les 6 places sont destinées au stationnement de nuit, si la taxe 0,44 € s’applique malgré le classement service-only, et ce que couvre un passage à 2 €.",
-      "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu"
+      "recheckLot": 266,
+      "recheckFinding": "Contrôle du 18/11/2026 : CAMPING-CAR PARK présente une borne classée « aire de services » à 2 €/service; sa fiche affiche aussi une taxe de séjour 2027 de 0,44 €/24 h, incohérente avec la prestation service-only. L’Office de tourisme décrit par ailleurs six emplacements de camping-car accessibles 24 h/24; la page communale indique une interdiction générale nocturne (22 h 30–8 h) sur Pornic, sans clarifier explicitement l’exception de cette aire.",
+      "recheckNextCheck": "Faire confirmer à la mairie et à CCP si les six emplacements autorisent la nuitée, si la taxe 0,44 € s’applique à l’aire de services et ce que couvre le paiement de 2 €. Ne pas annoncer de nuitée à 2 € avant clarification.",
+      "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu?areaType=service-area-motorhome",
+      "recheckTourismSource": "https://www.pornic.com/aire-de-ravitaillement-du-val-saint-martin.html",
+      "recheckRulesSource": "https://www.pornic.com/stationnement-sur-la-commune-de-pornic.html"
     },
     {
       "sourceId": "ACCAMPDL044V5143W2",
@@ -3371,11 +3381,12 @@
       "nextCheck": "Recontrôler la taxe de séjour 2027 et le montant total dans le panier avant séjour; distinguer le forfait de nuitée du parking 5 h + services.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 244,
-      "recheckFinding": "CAMPING-CAR PARK publie 13,74 €/24 h hors taxe pour toute l’année 2027; la taxe de 1,32 €/24 h est affichée seulement pour 2026. Le total 2027 reste inconnu.",
-      "recheckNextCheck": "Recontrôler la taxe de séjour 2027 et le montant total dans le panier avant séjour; distinguer le forfait de nuitée du parking 5 h + services.",
+      "recheckLot": 266,
+      "recheckFinding": "Contrôle du 18/11/2026 : le tableau saisonnier CAMPING-CAR PARK affiche 13,74 €/24 h pour 2027 et une taxe de 1,32 €/24 h, soit 15,06 € indicatifs/24 h si la taxe s’ajoute. La fiche affiche séparément un encart dynamique à 16,82 € (base 15,50 € + taxe 1,32 €) correspondant au tarif en cours du 18/11 au 31/12/2026; ne pas le présenter comme prix 2027. Parking 5 h + services : 7,05 €, distinct.",
+      "recheckNextCheck": "Conserver la base et la taxe 2027 séparées; vérifier le prix du panier pour les dates prévues et ne pas confondre l’encart du tarif 2026 avec le tarif saisonnier 2027.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
+      "recheckOfficialSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye"
     },
     {
       "sourceId": "ACCAMECCCLOSMORA",
@@ -3455,11 +3466,12 @@
       "nextCheck": "Confirmer le maintien de la gratuité et le prix éventuel de l’eau en 2027 auprès de la commune; ne pas confondre stationnement gratuit et services gratuits.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-du-bourg-freigne",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 244,
-      "recheckFinding": "La Région indique 10 emplacements gratuits et ouverts à l’année avec eau, déchets et sanitaires; le coût de l’eau n’est pas précisé. L’identifiant source commence par 049, mais la commune actuelle de Vallons-de-l’Erdre est bien en Loire-Atlantique.",
-      "recheckNextCheck": "Confirmer le maintien de la gratuité et le prix éventuel de l’eau en 2027 auprès de la commune; ne pas confondre stationnement gratuit et services gratuits.",
+      "recheckLot": 266,
+      "recheckFinding": "Contrôle du 18/11/2026 : Pays de la Loire indique dix emplacements gratuits, ouverts toute l’année, avec eau, déchets et sanitaires. Aucun montant de l’eau, durée maximale ou règle de nuitée n’est publié; la gratuité des places ne confirme pas celle de chaque service.",
+      "recheckNextCheck": "Demander à Vallons-de-l’Erdre le coût éventuel des services, la durée et les règles nocturnes en 2027; afficher séparément places gratuites et services non tarifés.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-du-bourg-freigne",
-      "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-du-bourg-freigne"
+      "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-du-bourg-freigne",
+      "recheckOfficialSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-du-bourg-freigne"
     },
     {
       "sourceId": "ACCAMPDL044V50420T",
