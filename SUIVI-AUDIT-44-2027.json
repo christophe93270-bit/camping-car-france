@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 260 (18/11/2026), dix fiches existantes. Lingorzé affiche 13,50 € la nuitée et l’eau à 10 € sans millésime 2027; Beslé, Les Écureuils, Les Bleuets et Choisel ont des tarifs 2026; les autres tarifs ou conditions ne sont pas datés 2027. Gratuité des parkings et services restent distingués. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle : lot 261 (18/11/2026), dix fiches existantes. Quatre aires Camping-Car Park ont des tarifs de 24 h affichés jusqu’à fin 2027, avec taxe et forfait 5 h + services distincts. Les autres campings n’ont pas de tarif d’emplacement 2027 confirmé; Pen-Bé ne confirme pas sa réouverture. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -610,15 +610,17 @@
       "finding": "Annonce officielle Early Booking 2027 −20 %, portée camping-car non établie ; ajout promotion_only.",
       "nextCheck": "Applicabilité aux emplacements/boxes, conditions, échéance, prix, taxe et frais.",
       "source": "https://www.belairpornichet.fr/belair",
-      "recheckedAt": "2026-11-07",
-      "recheckLot": 230,
-      "recheckFinding": "Lot 230 (07/11/2026) : le site officiel confirme l'offre Early Booking 2027 de −20 % cumulables, annoncée comme valable sur tous les hébergements et toutes les dates. La page des emplacements/boxes camping-car renvoie à un moteur avec saisie de dates et n'affiche pas de base tarifaire statique. Le périmètre exact de la remise pour les emplacements nus et boxes n'est pas détaillé dans la page d'annonce. Brochure plus ancienne : 27 €/nuit emplacement et 14 €/nuit box pour 2 personnes, sans millésime; taxe et électricité en plus. Aucun total ou prix de base camping-car 2027 confirmé.",
-      "recheckNextCheck": "Demander ou relever dans le moteur un prix 2027 daté pour un emplacement nu et pour un box camping-car, puis vérifier l’application du −20 %, taxe, électricité, acompte et conditions de séjour. Garder la brochure comme référence non datée, pas tarif 2027.",
-      "recheckPromotionSource": "https://www.belairpornichet.fr/belair",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 261,
+      "recheckFinding": "Contrôle du 18/11/2026 : l’offre Early Booking 2027 annonce −20 % cumulables pour les dates et hébergements, mais la page ne précise pas clairement si les emplacements nus et boxes camping-car y sont inclus. Le moteur nécessite un devis daté. La brochure statique consultée, sans millésime identifiable, affiche à partir de 27 €/nuit pour un emplacement et 14 €/nuit pour un box, pour 2 personnes; électricité et taxe en supplément. Aucun tarif complet camping-car 2027 confirmé.",
+      "recheckNextCheck": "Demander/relever un panier 2027 séparé pour emplacement nu et box, vérifier l’assiette avant/après −20 %, l’électricité, la taxe, les frais et les conditions de réservation. Ne pas présenter les tarifs de brochure comme datés 2027.",
+      "recheckPromotionSource": "https://www.belairpornichet.fr/camping-4-etoiles-proche-la-baule/brochure",
       "recheckBookingSource": "https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars",
       "recheckPitchSource": "https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars",
       "recheckSecondarySource": "https://www.belairpornichet.com/userfiles/files/brochure_en.pdf",
-      "recheckSource": "https://www.belairpornichet.fr/belair"
+      "recheckSource": "https://www.belairpornichet.fr/belair",
+      "recheckPitchAndBookingSource": "https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars",
+      "recheckBrochureSource": "https://www.belairpornichet.fr/userfiles/files/brochure_fr.pdf"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000138",
@@ -3080,11 +3082,13 @@
       "nextCheck": "Confirmer taxe 2027, période et conditions de carte/réservation ; ne pas présenter 14,96 € comme total garanti 2027.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-lerat",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 237,
-      "recheckFinding": "Lot 237 (18/11/2026) : tarif CCP de 13,74 €/24 h du 18/11/2026 au 31/12/2027; taxe CCP affichée à 1,32 €/24 h pour 2027. La délibération officielle de Piriac fixe 0,86 €/adulte/24 h. La différence reste à clarifier avec le mode de calcul de CCP ; statut de taxe partiel, sans total fixe. Début de validité corrigé au 18/11/2026.",
-      "recheckNextCheck": "Confirmer avec l'exploitant comment la taxe municipale 2027 de 0,86 € par adulte est appliquée au panier CCP et si l'affichage à 1,32 € est un forfait fixe; ne publier aucun total fixe avant cette réponse.",
+      "recheckLot": 261,
+      "recheckFinding": "Contrôle du 18/11/2026 : Camping-Car Park affiche 13,74 €/24 h du 18/11/2026 au 31/12/2027. La taxe est de 1,22 €/24 h jusqu’au 31/12/2026 puis 1,32 €/24 h en 2027; le montant en direct affiché aujourd’hui est 14,96 € (base + taxe 2026). Le total indicatif à partir de 2027 serait 15,06 €/24 h si la taxe s’ajoute de la même façon. Le forfait 5 h + services à 6 € est distinct. La page signale actuellement une coupure d’eau sur la borne de service.",
+      "recheckNextCheck": "Garder les périodes des tarifs et taxes séparées; vérifier le panier à partir du 01/01/2027 et la remise en service de l’eau. Confirmer les frais d’accès/carte le cas échéant.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-lerat",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-lerat"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-lerat",
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-lerat",
+      "recheckServiceStatusSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-lerat"
     },
     {
       "sourceId": "ACCAMACCAMEBORNESERVICESCCPARKSTVIAUD",
@@ -3111,12 +3115,14 @@
       "finding": "Nouvelle lecture de la page de référence le 3 novembre : Informations 2027 publiées — emplacement camping-car à revalider. Capfun publie des dates 2027 pour les piscines (16 avril–20 septembre) et une offre de mobil-home ; elles ne confirment ni le calendrier des emplacements ni leur tarif. Demander confirmation des parcelles camping-car et un devis 2027 détaillant électricité, vidange, taxe et frais. Le Pass Camping affiché à 15 € reste millésimé 2026 et exclut L’Ève : ne pas l’appliquer en 2027. Aucun prix ne doit être présenté comme forfait complet confirmé.",
       "nextCheck": "Confirmer auprès de l’exploitant les dates 2027 et un devis camping-car (forfait, électricité, taxe, frais et minimum de séjour).",
       "source": "https://www.capfun.com/camping---l_eve-FR.html",
-      "recheckedAt": "2026-11-07",
-      "recheckLot": 231,
-      "recheckFinding": "Lot 231 (07/11/2026) : Capfun publie un exemple de mobil-home Habana Top Presta 4 personnes à 693 € la semaine du 03 au 10/07/2027; ce montant concerne une location, pas un emplacement camping-car. La FAQ officielle confirme des emplacements pour 2 personnes + véhicule + électricité incluse, sans prix 2027. Les dates 2027 publiées pour les piscines ne déterminent pas l'ouverture des parcelles. Aucun tarif d'emplacement camping-car 2027 confirmé; ne pas utiliser l'exclusion du Pass Camping ou le prix d'un mobil-home comme prix de parcelle.",
-      "recheckNextCheck": "Obtenir un devis opérateur daté pour emplacement 2 personnes + véhicule/camping-car; confirmer dates de disponibilité, électricité incluse, vidange, taxe et frais. Garder l'exemple 693 €/semaine comme tarif locatif, sans rapport avec une nuitée camping-car.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 261,
+      "recheckFinding": "Contrôle du 18/11/2026 : Capfun présente des prix 2027 pour des mobil-homes, mais ces offres ne sont pas des nuitées d’emplacement. Les pages consultées confirment des emplacements camping-car avec véhicule et électricité incluse, sans tarif 2027 ni dates propres aux parcelles. Aucun prix camping-car 2027 confirmé; ne pas reprendre prix locatif ou dates de piscine pour une nuitée.",
+      "recheckNextCheck": "Demander un devis officiel daté 2027 pour emplacement, camping-car et deux personnes; confirmer les dates d’accueil des parcelles, l’électricité, vidange, taxe, frais et éventuelle durée minimale.",
       "recheckTariffSource": "https://www.capfun.com/camping---l_eve-FR.html",
-      "recheckSource": "https://www.capfun.com/camping---l_eve-FR.html"
+      "recheckSource": "https://www.capfun.com/camping---l_eve-FR.html",
+      "recheckOfficialSource": "https://www.capfun.com/camping---l_eve-FR.html",
+      "recheckRegionalSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/saint-nazaire/camping-l-eve"
     },
     {
       "sourceId": "ACCAMPDL044V5003SH",
@@ -3144,11 +3150,12 @@
       "nextCheck": "Vérifier le montant et les périodes 2027, puis confirmer taxe de séjour, frais et éventuel accès par carte.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/st-michel-chef-chef-soleya",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 236,
-      "recheckFinding": "Lot 236 (18/11/2026) : CCP publie 12,22 €/24 h du 18/11/2026 au 31/12/2027. La page affiche aussi une taxe de séjour de 1,32 €/24 h en 2027; le barème communal 2027 et le calcul selon le nombre de personnes ne sont pas vérifiés. Aucun total fixe base + taxe n'est enregistré. Date de début de validité rectifiée sur la fiche à 2026-11-18. Le forfait de 5 h + services est séparé de la nuitée.",
-      "recheckNextCheck": "Recontrôler la grille officielle si elle évolue; ne pas présenter 1,32 € comme un montant communal fixe sans confirmer le barème 2027 et son application par personne.",
+      "recheckLot": 261,
+      "recheckFinding": "Contrôle du 18/11/2026 : Camping-Car Park affiche 12,22 €/24 h du 17/11/2026 au 31/12/2027, puis une taxe de séjour de 1,32 €/24 h pour 2027; l’encart en direct affiche 13,54 €/24 h, soit base + taxe. Le forfait distinct « parking 5 h + services » reste à 6 €. Montants opérateur confirmés pour cette période, sans inclure frais de carte/réservation éventuels.",
+      "recheckNextCheck": "Garder séparés 24 h, taxe et forfait 5 h + services; vérifier les éventuels frais d’accès/carte au panier. Réinterroger si le barème change.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/st-michel-chef-chef-soleya",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/st-michel-chef-chef-soleya"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/st-michel-chef-chef-soleya",
+      "recheckTaxDisplaySource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/st-michel-chef-chef-soleya"
     },
     {
       "sourceId": "ACCAMEACCBRAMBELLPIRIAC",
@@ -3160,11 +3167,12 @@
       "nextCheck": "Vérifier le montant et les périodes 2027, puis confirmer taxe de séjour, frais et éventuel accès par carte.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-brambell",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 237,
-      "recheckFinding": "Lot 237 (18/11/2026) : tarif CCP de 10,79 €/24 h du 18/11/2026 au 31/12/2027; taxe CCP affichée à 1,32 €/24 h pour 2027. La délibération officielle de Piriac fixe 0,86 €/adulte/24 h. La différence reste à clarifier avec le mode de calcul de CCP ; statut de taxe partiel, sans total fixe. Début de validité corrigé au 18/11/2026.",
-      "recheckNextCheck": "Confirmer avec l'exploitant comment la taxe municipale 2027 de 0,86 € par adulte est appliquée au panier CCP et si l'affichage à 1,32 € est un forfait fixe; ne publier aucun total fixe avant cette réponse.",
+      "recheckLot": 261,
+      "recheckFinding": "Contrôle du 18/11/2026 : Camping-Car Park affiche 10,79 €/24 h du 18/11/2026 au 31/12/2027. La taxe est de 1,22 €/24 h jusqu’au 31/12/2026 puis 1,32 €/24 h en 2027; l’encart en direct actuel totalise 12,01 €/24 h avec la taxe 2026. Le total indicatif à partir de 2027 serait 12,11 €/24 h si la taxe s’ajoute de la même façon. Le forfait séparé « parking 5 h + services » reste à 6 €.",
+      "recheckNextCheck": "Conserver séparément prix de base, taxe 2026/2027 et forfait 5 h; vérifier le panier à partir du 01/01/2027 ainsi que les éventuels frais d’accès/carte.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-brambell",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-brambell"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-brambell",
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-brambell"
     },
     {
       "sourceId": "ACCAMACCAMPDL044V50G1TE",
@@ -3282,16 +3290,18 @@
       "finding": "Nouvelle lecture de la page de référence le 3 novembre : Ouverture le 30 avril 2027 ; prix des emplacements à confirmer.. Réservations 2027 annoncées pour fin novembre 2026, sans jour précis. La page tarifaire affiche encore 2026 : forfait camping-car, personnes incluses, électricité, taxe, suppléments et durée minimale 2027 restent à vérifier. Cette fiche concerne les emplacements du camping, distincts de l'aire CAMPING-CAR PARK Le Soleya. Aucun prix ne doit être présenté comme forfait complet confirmé.",
       "nextCheck": "Confirmer auprès de l’exploitant les dates 2027 et un devis camping-car (forfait, électricité, taxe, frais et minimum de séjour).",
       "source": "https://www.campinglesoleya.com/tarifs-camping-tharon-plage.html",
-      "recheckedAt": "2026-11-07",
-      "recheckLot": 230,
-      "recheckFinding": "Lot 230 (07/11/2026) : l’exploitant annonce la réouverture le 30/04/2027 et l’ouverture des réservations de saison 2027 fin novembre 2026, sans jour précis. La page tarifaire et le PDF d’emplacements restent sur 2026; aucun tarif ni devis camping-car 2027 disponible. La prochaine action utile est de réinterroger le moteur après l’ouverture annoncée des ventes.",
-      "recheckNextCheck": "Recontrôler le moteur après fin novembre 2026; relever un devis daté 2027 pour camping-car et 1–2 personnes, puis valider forfait, électricité, taxe, options, frais et durée minimale.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 261,
+      "recheckFinding": "Contrôle du 18/11/2026 : l’opérateur confirme la réouverture du camping le 30/04/2027 et annonce l’ouverture des réservations fin novembre 2026. Les emplacements camping-car de 90–200 m² et l’électricité 10 A disponible sont confirmés, mais la grille et le PDF actuellement accessibles restent datés 2026. Aucun prix 2027 encore vérifiable; cette fiche concerne le camping, pas l’aire CAMPING-CAR PARK voisine.",
+      "recheckNextCheck": "Après l’ouverture annoncée des réservations, obtenir un devis 2027 pour camping-car et deux personnes; distinguer prix de nuitée, option 10 A, taxe, frais et durée minimale. Maintenir les deux fiches distinctes.",
       "recheckTariffSource": "https://www.campinglesoleya.com/tarifs-camping-tharon-plage.html",
       "recheckSource": "https://www.campinglesoleya.com/",
       "recheckPitchSource": "https://campinglesoleya.com/emplacements-camping-tharon.html",
       "recheckOfficialTariffsSource": "https://www.campinglesoleya.com/tarifs-camping-tharon-plage.html",
       "recheck2026TariffsPdf": "https://www.campinglesoleya.com/pdf/tarifs_emplacements.pdf",
-      "recheckFaqSource": "https://www.campinglesoleya.com/foire-au-questions.html"
+      "recheckFaqSource": "https://www.campinglesoleya.com/foire-au-questions.html",
+      "recheckOfficialSeasonSource": "https://campinglesoleya.com/emplacements-camping-tharon.html",
+      "recheckTariffPdfSource": "https://www.campinglesoleya.com/pdf/tarifs_emplacements.pdf"
     },
     {
       "sourceId": "ACCAMACCAMEBORNEVALSTMARTIN",
@@ -3335,11 +3345,12 @@
       "nextCheck": "Vérifier le montant et les périodes 2027, puis confirmer taxe de séjour, frais et éventuel accès par carte.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 236,
-      "recheckFinding": "Lot 236 (18/11/2026) : CCP publie 13,95 €/24 h du 17/11/2026 au 31/12/2027. La page affiche aussi une taxe de séjour de 1,32 €/24 h en 2027; le barème communal 2027 et le calcul selon le nombre de personnes ne sont pas vérifiés. Aucun total fixe base + taxe n'est enregistré. Date de début de validité rectifiée sur la fiche à 2026-11-17. Le forfait de 5 h + services est séparé de la nuitée.",
-      "recheckNextCheck": "Recontrôler la grille officielle si elle évolue; ne pas présenter 1,32 € comme un montant communal fixe sans confirmer le barème 2027 et son application par personne.",
+      "recheckLot": 261,
+      "recheckFinding": "Contrôle du 18/11/2026 : Camping-Car Park affiche 13,95 €/24 h du 18/11/2026 au 31/12/2027 et une taxe de séjour de 1,32 €/24 h en 2027; l’encart en direct totalise 15,27 €/24 h. Le forfait « parking 5 h + services » est à 6 €, sans période 2027 explicite. Montants de l’opérateur publiés; distinguer la nuitée, la taxe et le forfait de courte durée.",
+      "recheckNextCheck": "Garder la période, la taxe affichée et les 5 h + services séparés; vérifier les éventuels frais d’accès/carte au panier.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe"
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe",
+      "recheckTaxDisplaySource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe"
     },
     {
       "sourceId": "ACCAMACCAMEEPRAIRCAMPCARBIOCHON",
@@ -3366,12 +3377,13 @@
       "finding": "Nouvelle lecture de la page de référence le 3 novembre : Réouverture 2027 espérée, non confirmée ; aucun tarif 2027 publié.. L'exploitant maintient la fermeture pour la saison 2026 et exprime un souhait d'accueil en 2027, sans date garantie. La grille encore en ligne est explicitement datée 2025 : ne pas la reconduire. Confirmer réouverture effective, accès camping-car, sanitaires et prix avant de prévoir un séjour. Établissement distinct du Camping de la Baie. Aucun prix ne doit être présenté comme forfait complet confirmé.",
       "nextCheck": "Confirmer une réouverture effective, calendrier, disponibilité des emplacements et tarif avant affichage.",
       "source": "https://campingdepenbe.fr/",
-      "recheckedAt": "2026-11-07",
-      "recheckLot": 231,
-      "recheckFinding": "Lot 231 (07/11/2026) : le site officiel maintient la fermeture du camping pour la saison 2026 et dit seulement espérer accueillir en 2027, sans date ni confirmation ferme. La grille officielle est toujours datée 2025 : emplacement camping-car 7 €, adulte 4 € (douche chaude incluse), enfant de moins de 7 ans 2 €, animal 1 €, taxe 0,22 €/adulte et électricité 3 €. Ces montants sont historiques, non applicables à 2027.",
-      "recheckNextCheck": "Confirmer directement la réouverture effective, l'accueil camping-car, dates et services; obtenir une grille datée 2027. Garder le barème 2025 uniquement comme historique.",
-      "recheckTariffSource": "https://campingdepenbe.fr/",
-      "recheckSource": "https://www.campingdepenbe.fr/"
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 261,
+      "recheckFinding": "Contrôle du 18/11/2026 : le site de l’exploitant confirme que le camping est fermé pour la saison 2026 et exprime l’espoir, sans engagement ferme, d’accueillir à nouveau en 2027. La grille toujours affichée est datée 2025 : emplacement camping-car 7 €, adulte 4 € (douche chaude comprise), électricité 3 €, taxe 0,22 €/adulte/nuit et animal 1 €. Aucun calendrier ni tarif 2027.",
+      "recheckNextCheck": "Confirmer directement la réouverture, les dates, l’accès camping-car et les services avant de publier une nuitée; demander un barème 2027. Garder les prix 2025 en historique uniquement.",
+      "recheckTariffSource": "https://www.campingdepenbe.fr/",
+      "recheckSource": "https://www.campingdepenbe.fr/",
+      "recheckOfficialSource": "https://www.campingdepenbe.fr/"
     },
     {
       "sourceId": "ACCAMEPRFCCARPARK",
@@ -3719,17 +3731,19 @@
       "finding": "Contrôle lot 127 : le site officiel confirme l’ouverture du 03/04 au 12/09/2027, mais présente les 239 emplacements comme 181 hébergements locatifs et 58 locatifs résidentiels, sans parcelle nue proposée clairement. Destination Pornic indique au contraire des emplacements camping-car avec eau et électricité. Aucun tarif opérateur 2027 pour une nuitée camping-car trouvé. Le supplément de 40 € documenté sur le site officiel correspond au choix facultatif d’un emplacement de locatif, pas au prix d’une parcelle de camping-car. Les offres Early Booking −20 %, −10 % et 2=3 s’appliquent uniquement à des locatifs et ne sont pas des tarifs d’étape. Taxes et redevance écologique mentionnées sur la page des locations : millésime 2025, à ne pas transférer.",
       "nextCheck": "Faire confirmer par l’exploitant si un camping-car non résident peut stationner/nuiter sur une parcelle nue en 2027 et obtenir un tarif par nuit, avec eau, électricité, taxe et redevance applicables. Si seuls les locatifs sont ouverts aux clients, corriger le classement de la fiche et retirer toute promesse tarifaire de nuitée camping-car. Ne pas utiliser le supplément 40 € de choix de parcelle comme tarif camping-car.",
       "source": "https://www.aloa-vacances.com/la-riviera/accueil/",
-      "recheckedAt": "2026-11-07",
-      "recheckLot": 231,
-      "recheckFinding": "Lot 231 (07/11/2026) : saison officielle annoncée du 03/04 au 12/09/2027. Les pages détaillées décrivent les locations de mobil-homes; l'Early Booking jusqu'à −20 % et les tarifs de taxe/redevance concernent les locatifs. La mention « emplacement préféré » correspond au choix d'une place pour une location, pas à un forfait d'emplacement nu. L'accueil camping-car évoqué dans d'anciennes fiches touristiques n'est pas confirmé sur les pages de l'exploitant consultées. Aucun forfait camping-car ou tarif de nuitée 2027 confirmé.",
-      "recheckNextCheck": "Demander à l'exploitant si des emplacements nus non résidentiels et l'accueil de camping-cars sont proposés en 2027; ne pas appliquer prix, promotions, taxe ou redevance des locations de mobil-homes à une nuitée camping-car.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 261,
+      "recheckFinding": "Contrôle du 18/11/2026 : le site officiel annonce une saison locative du 03/04 au 12/09/2027. Les pages détaillées décrivent surtout les mobil-homes; le choix facultatif d’un emplacement à 40 € est une option pour une location, pas un prix de parcelle nue. Taxe de séjour 2027 (0,66 €/adulte/jour) et redevance écologique (0,69 €/personne/jour) sont affichées pour les locatifs. L’accueil d’un camping-car en emplacement nu et son tarif ne sont pas confirmés.",
+      "recheckNextCheck": "Demander à l’exploitant si des emplacements nus non résidentiels et l’accueil des camping-cars sont proposés en 2027; obtenir un prix par nuitée et les taxes applicables à cette formule. Ne pas transposer les charges locatives.",
       "recheckSource": "https://www.aloa-vacances.com/la-riviera/accueil/",
       "recheckDetailsSource": "https://www.aloa-vacances.com/la-riviera/informations-detaillees/",
       "recheckTourismSource": "https://www.pornic.com/camping-la-riviera.html",
       "recheckPromosSource": "https://www.aloa-vacances.com/la-riviera/accueil/",
       "recheckConditions2025Source": "https://www.aloa-vacances.com/la-riviera/informations-detaillees/",
       "recheckAccommodationSource": "https://www.aloa-vacances.com/la-riviera/locations-camping-riviera-aloa/",
-      "recheckFeesSource": "https://www.aloa-vacances.com/la-riviera/informations-detaillees/"
+      "recheckFeesSource": "https://www.aloa-vacances.com/la-riviera/informations-detaillees/",
+      "recheckSeasonSource": "https://www.aloa-vacances.com/la-riviera/accueil/",
+      "recheckBookingSource": "https://www.aloa-vacances.com/la-riviera/locations-camping-riviera-aloa/"
     },
     {
       "sourceId": "CCF44-BATZ-PALUDIERS-2026",
@@ -3779,15 +3793,17 @@
       "finding": "La page officielle affiche toujours « Tarifs 2026 » : aucun prix de nuitée 2027. Les prix camping-car, taxe 0,22 €/adulte/nuit et écocontribution 0,40 € comprise sont documentés pour 2026 seulement. La page camping-car confirme 22 emplacements, limite 7,50 m, réservation sans frais de dossier et acompte annoncé de 30 %; les CGV précisent qu'un acompte peut être demandé selon période et qu'aucun frais de dossier ne vaut pour les emplacements nus sauf mention contraire.",
       "nextCheck": "Obtenir une grille 2027 datée pour 1–2 personnes, camping-car, véhicule et électricité; confirmer saison d'ouverture, taxe et écocontribution 2027. Faire préciser pour 2027 l'acompte applicable aux emplacements nus et toute mention pouvant ajouter des frais. Garder les valeurs 2026 comme historiques.",
       "source": "https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements",
-      "recheckedAt": "2026-11-07",
-      "recheckLot": 230,
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 261,
       "recheckTariffSource": "https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements",
       "recheckMotorhomeSource": "https://www.campinglesflotsbleus.com/nosemplacements/camping-cars",
       "recheckTermsSource": "https://www.campinglesflotsbleus.com/contacteznous/conditionsgeneralesdevente",
-      "recheckFinding": "Lot 230 (07/11/2026) : la page officielle reste explicitement sur « Tarifs 2026 » : 26,60–36,60 €/nuit pour une seule nuit, 22,60–32,60 €/nuit pour plusieurs nuits, selon période. Taxe et taxe additionnelle affichées à 0,22 €/adulte/nuit; écocontribution de 0,40 € comprise. Aucun tarif camping-car 2027 publié. La page d’emplacements confirme l’accueil des camping-cars et 22 places; conserver les montants 2026 comme historique.",
-      "recheckNextCheck": "Attendre la grille 2027 ou obtenir un devis opérateur daté; confirmer les frais d’emplacement nu et séparer la taxe de la contribution environnementale. Ne pas appliquer les montants 2026 à 2027.",
+      "recheckFinding": "Contrôle du 18/11/2026 : le site officiel publie encore la grille explicitement « Tarifs 2026 ». Elle indique 26,60–36,60 €/nuit pour une nuit et 22,60–32,60 €/nuit à partir de plusieurs nuits, selon la période; taxe de séjour affichée à 0,22 €/adulte/nuit, écocontribution 0,40 € comprise. Les CGV (mises à jour en 2026) précisent qu’un forfait nu comprend 1 véhicule, électricité, 1–2 adultes; taxe et frais éventuels sont séparés. Aucun tarif 2027 confirmé.",
+      "recheckNextCheck": "Obtenir la grille ou le devis opérateur daté 2027; vérifier la taxe et l’écocontribution 2027, ainsi que les éventuels frais de dossier/acomptes pour les emplacements nus. Ne pas reconduire les prix 2026.",
       "recheckSource": "https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements",
-      "recheckPitchesSource": "https://www.campinglesflotsbleus.com/nosemplacements/camping-cars"
+      "recheckPitchesSource": "https://www.campinglesflotsbleus.com/nosemplacements/camping-cars",
+      "recheckPitchSource": "https://www.campinglesflotsbleus.com/nosemplacements/camping-cars",
+      "recheckConditionsSource": "https://www.campinglesflotsbleus.com/contacteznous/conditionsgeneralesdevente"
     },
     {
       "sourceId": "ACCAMACCAMPDL044AIREDECAMPINGLEBRIORD",
