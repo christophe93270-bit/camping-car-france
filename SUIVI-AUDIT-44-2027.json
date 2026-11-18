@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 245 (18/11/2026), dix fiches existantes. Tarifs de nuitée, taxes et forfaits de services distingués; taxe 2027 de Rouans non confirmée. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle : lot 246 (18/11/2026), dix fiches existantes. Tarifs et autorisations de nuitée non déduits des seules mentions d’aire ou de services; la fermeture de la Piardière est confirmée par l’exploitant. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -1000,12 +1000,14 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 167,
-      "recheckFinding": "Lot 167 (04/11/2026) : Fiche touristique : quatre places gratuites ouvertes 24 h/24 toute l’année sur l’ensemble Grotte Saint-Jean, WC, eau par carte et vidange; prix de l’eau non indiqué. Cette fiche technique est liée à une autre fiche du même ensemble : ne pas compter les places deux fois.",
-      "recheckNextCheck": "Confirmer coût de l’eau et accès aux services; éviter le double comptage des quatre places.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 246,
+      "recheckFinding": "L’office de tourisme confirme quatre places de stationnement gratuites, ouvertes toute l’année 2026, avec vidange, WC et eau payable par carte (montant non publié). La fiche de services et la fiche du parking concernent un même ensemble; ne pas compter deux fois les quatre places. Aucun barème spécifique 2027 publié.",
+      "recheckNextCheck": "Garder une capacité totale de quatre places; ne pas attribuer de prix à l’eau ni de tarif 2027 sans montant officiel.",
       "recheckTariffSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
-      "recheckConditionsSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/"
+      "recheckConditionsSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
+      "recheckSource": "https://www.sudretzatlantique-tourisme.fr/offres/grotte-saint-jean-corcoue-sur-logne-fr-3121178/",
+      "recheckSource2": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/grotte-saint-jean"
     },
     {
       "sourceId": "ACCAMPDL044V516Q9C",
@@ -1016,12 +1018,13 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/186406-AIRE-DE-STATIONNEMENT",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 167,
-      "recheckFinding": "Lot 167 (04/11/2026) : Fiche touristique confirme aire gratuite où passer une nuit; aucun tarif ou service payant établi.",
-      "recheckNextCheck": "Confirmer maintien de la gratuité et restrictions locales 2027.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 246,
+      "recheckFinding": "Loire-Atlantique Tourisme confirme une aire gratuite où il est possible de passer la nuit; table de pique-nique et jeux sur place. Aucun tarif de service ni durée maximale indiqués. La page ne date pas ses conditions pour 2027.",
+      "recheckNextCheck": "Conserver nuitée gratuite comme information publiée, sans inventer de durée maximale; revérifier si la commune met à jour ses règles.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186406-AIRE-DE-STATIONNEMENT",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186406-AIRE-DE-STATIONNEMENT"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186406-AIRE-DE-STATIONNEMENT",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/186406-AIRE-DE-STATIONNEMENT"
     },
     {
       "sourceId": "ACCAMPDL044V51DL8J",
@@ -1032,12 +1035,14 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/186423-AIRE-DE-STATIONNEMENT-DES-FOSSES-BLANCS",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 167,
-      "recheckFinding": "Lot 167 (04/11/2026) : Trois places camping-car documentées, mais aucun droit de nuitée, tarif ou service technique publié dans la fiche.",
-      "recheckNextCheck": "Vérifier règle locale de nuit, durée et éventuels frais avant classement nocturne.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 246,
+      "recheckFinding": "L’office de tourisme confirme trois places camping-car au port des Fossés Blancs. La fiche actuelle ne précise ni prix, ni durée maximale, ni autorisation de nuitée. Un guide 2025 donne une gratuité historique; ne pas la présenter comme tarif 2027.",
+      "recheckNextCheck": "Garder les trois places; laisser prix et règles nocturnes non confirmés jusqu’à publication par la commune ou l’office.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186423-AIRE-DE-STATIONNEMENT-DES-FOSSES-BLANCS",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186423-AIRE-DE-STATIONNEMENT-DES-FOSSES-BLANCS"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186423-AIRE-DE-STATIONNEMENT-DES-FOSSES-BLANCS",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/186423-AIRE-DE-STATIONNEMENT-DES-FOSSES-BLANCS",
+      "recheckSource2": "https://www.saint-nazaire-tourisme.com/offres/aire-de-stationnement-des-fosses-blancs-la-chapelle-des-marais-fr-5081605/"
     },
     {
       "sourceId": "ACCAMPDL044V51OXTD",
@@ -1048,12 +1053,14 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 167,
-      "recheckFinding": "Lot 167 (04/11/2026) : La source Pays de Redon répertorie La Digue sans tarif nocturne propre ni conditions détaillées exploitables; ne pas lui appliquer le tarif du Parc du Château ou du camping de la Goule d’Eau.",
-      "recheckNextCheck": "Vérifier l’emplacement exact et la règle de nuitée/durée/prix.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 246,
+      "recheckFinding": "L’office du Pays de Redon continue de répertorier La Digue à Saint-Nicolas-de-Redon et sa page indique un stationnement gratuit. Elle ne précise pas durée maximale ou conditions d’accueil nocturne. La mention de trois places gratuites provient du guide 2022 et reste historique.",
+      "recheckNextCheck": "Conserver le stationnement gratuit actuellement publié; confirmer durée, places et permission de nuitée auprès de la mairie.",
       "recheckTariffSource": "https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/",
-      "recheckConditionsSource": "https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/"
+      "recheckConditionsSource": "https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/",
+      "recheckSource": "https://tourisme-pays-redon.com/en/hebergement/aire-de-stationnement-la-digue/",
+      "recheckSource2": "https://tourisme-pays-redon.com/sorganiser/dormir/aires-de-camping-cars/"
     },
     {
       "sourceId": "ACCAMPDL044V511EWO",
@@ -1064,12 +1071,14 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-privee-de-malabrit",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 167,
-      "recheckFinding": "Lot 167 (04/11/2026) : Fiche régionale : accueil privé gratuit jour/nuit, toute l’année, 10 places, eau potable et WC; pas de vidange. Pas de nuitée payante.",
-      "recheckNextCheck": "Confirmer maintien et conditions 2027; distinguer accueil gratuit et borne de service.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 246,
+      "recheckFinding": "L’office de tourisme de Grand Lieu confirme un accueil gratuit sur le domaine, de jour et de nuit, avec eau potable et WC, sans vidange. La fiche régionale indique dix emplacements et une ouverture toute l’année; aucun tarif ni changement propre à 2027 annoncé.",
+      "recheckNextCheck": "Garder l’absence de vidange et ne pas inventer de limite de séjour; confirmer les conditions auprès des propriétaires avant arrivée.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-privee-de-malabrit",
-      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-privee-de-malabrit"
+      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-privee-de-malabrit",
+      "recheckSource": "https://www.grandlieu-tourisme.fr/ou-manger-ou-dormir/aires-de-camping-car/aire-privee-de-malabrit",
+      "recheckSource2": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-privee-de-malabrit"
     },
     {
       "sourceId": "ACCAMPDL044V51D0AJ",
@@ -1080,12 +1089,13 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/186421-AIRE-DE-SERVICE-CAMPING-CAR-STATION-LECLERC",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 167,
-      "recheckFinding": "Lot 167 (04/11/2026) : Borne eau/vidange de station-service; aucun prix exploitable ni emplacement de nuitée confirmé. À distinguer de la borne du camping du Moulin.",
-      "recheckNextCheck": "Confirmer les tarifs de services auprès du gestionnaire; garder services-only.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 246,
+      "recheckFinding": "La fiche officielle décrit une borne de service et de vidange à la station Leclerc, sans tarif publié. Les retours d’usagers sur le prix de l’eau sont divergents et ne remplacent pas un tarif officiel. Aucun stationnement nocturne n’est associé à cette borne.",
+      "recheckNextCheck": "Garder le tarif inconnu et la nuitée non établie; séparer cette borne de celle du camping du Moulin à Clisson.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186421-AIRE-DE-SERVICE-CAMPING-CAR-STATION-LECLERC",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186421-AIRE-DE-SERVICE-CAMPING-CAR-STATION-LECLERC"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186421-AIRE-DE-SERVICE-CAMPING-CAR-STATION-LECLERC",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/186421-AIRE-DE-SERVICE-CAMPING-CAR-STATION-LECLERC"
     },
     {
       "sourceId": "ACCAMPDL044V51HCFX",
@@ -1096,12 +1106,14 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.commune-de-plesse.com/herbergement",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 167,
-      "recheckFinding": "Lot 167 (04/11/2026) : Les sources restent contradictoires : la mairie référence le camping et une aire camping-car; une annonce de fermeture du camping a été publiée en décembre 2025. Activité, tarif et accueil actuels non établis.",
-      "recheckNextCheck": "Vérifier statut d’ouverture et de l’aire avant tout prix actif.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 246,
+      "recheckFinding": "L’exploitant a annoncé la fermeture du camping à la ferme le 16/12/2025. La commune le référence encore dans son annuaire, mais aucune réouverture n’est confirmée. Aucun prix ou accueil camping-car actuel ne peut être confirmé.",
+      "recheckNextCheck": "Ne pas annoncer le lieu comme ouvert; tarif et accueil uniquement à réexaminer après confirmation directe de l’exploitant.",
       "recheckTariffSource": "https://www.commune-de-plesse.com/herbergement",
-      "recheckConditionsSource": "https://www.lafermedelapiardiere.com/2025/12/fermeture-du-camping.html"
+      "recheckConditionsSource": "https://www.lafermedelapiardiere.com/2025/12/fermeture-du-camping.html",
+      "recheckSource": "https://www.lafermedelapiardiere.com/2025/12/fermeture-du-camping.html",
+      "recheckSource2": "https://www.commune-de-plesse.com/herbergement"
     },
     {
       "sourceId": "ACCAMPDL044V50Y077",
@@ -1112,12 +1124,15 @@
       "finding": "Source disponible consultée ; tarif 2027 ou validité de l’information actuelle non établie. Ne pas transposer automatiquement le montant historique ni confondre nuitée, stationnement et services.",
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/la-ferme-des-cochons-d-antan",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 167,
-      "recheckFinding": "Lot 167 (04/11/2026) : Fiche régionale France Passion toujours publiée, accueil à la ferme ouvert toute l’année; cela ne confirme pas l’inscription au guide actif 2027. Pas de tarif public; accueil conditionné au réseau.",
-      "recheckNextCheck": "Vérifier présence au guide 2027 et conditions d’adhésion; ne pas présenter comme nuitée payante.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 246,
+      "recheckFinding": "L’exploitation agricole est toujours référencée comme ferme et vente directe, mais cette inscription ne prouve pas sa présence active au guide France Passion 2027. Le réseau annonce une sélection annuelle et l’accès gratuit 24 h uniquement aux étapes du guide en cours, sous conditions d’autonomie/adhésion. Tarif spécifique de l’étape non confirmé.",
+      "recheckNextCheck": "Confirmer l’inscription de cette ferme dans le guide/app 2027 et son accord d’accueil avant de la présenter comme étape active.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/la-ferme-des-cochons-d-antan",
-      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/la-ferme-des-cochons-d-antan"
+      "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/la-ferme-des-cochons-d-antan",
+      "recheckSource": "https://lafermedescochonsdantan.fr/",
+      "recheckSource2": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/",
+      "recheckSource3": "https://www.france-passion.com/accueillants/comment-ca-marche/"
     },
     {
       "sourceId": "ACCAMPDL044V51HCFY",
@@ -1146,12 +1161,13 @@
       "finding": "La fiche existante n’établit pas de tarif camping-car 2027 complet ; conserver le montant antérieur et son année sans le reconduire. Tarif de nuitée sans objet : aire de pique-nique, accueil nocturne camping-car non établi",
       "nextCheck": "Ne pas afficher de prix de nuitée sans confirmation d’accueil nocturne ; confirmer la réglementation locale.",
       "source": "https://rando.loire-atlantique.fr/service/187459-Aire-de-pique-nique",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 167,
-      "recheckFinding": "Lot 167 (04/11/2026) : Fiche décrit une aire de pique-nique au Bellion; pas de preuve d’un accueil camping-car ou du droit de nuitée. Aucun tarif à appliquer.",
-      "recheckNextCheck": "Vérifier le stationnement camping-car et les horaires; garder hors filtre nocturne tant que non confirmé.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 246,
+      "recheckFinding": "La source touristique classe ce point comme aire de pique-nique au Bellion; elle ne confirme ni aire de camping-car ni permission de stationner la nuit. Aucun tarif de nuitée n’est applicable tant que l’accueil camping-car n’est pas établi.",
+      "recheckNextCheck": "Garder la mention pique-nique et l’avertissement nuitée non établie; ne pas afficher comme aire camping-car.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/187459-Aire-de-pique-nique",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/187459-Aire-de-pique-nique"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/187459-Aire-de-pique-nique",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/187459-Aire-de-pique-nique"
     },
     {
       "sourceId": "ACCAMACCAMPDL044V507FD5",
@@ -1162,12 +1178,14 @@
       "finding": "La fiche existante n’établit pas de tarif camping-car 2027 complet ; conserver le montant antérieur et son année sans le reconduire. Non confirmé",
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://rando.loire-atlantique.fr/service/184066-Flower-Camping-La-Guichardiere",
-      "recheckedAt": "2026-11-04",
-      "recheckLot": 167,
-      "recheckFinding": "Lot 167 (04/11/2026) : Fiche d’origine masquée, doublon du Flower Camping La Guichardière (coordonnées distantes de 4 m). Pas de prix 2027 isolé pour l’aire.",
-      "recheckNextCheck": "Maintenir la fiche masquée et ne traiter les prix que sur la fiche canonique.",
+      "recheckedAt": "2026-11-18",
+      "recheckLot": 246,
+      "recheckFinding": "Cette fiche est un doublon masqué de Flower Camping La Guichardière (référence canonique ACCAMACCAMPDL044000047), à quatre mètres environ selon les données. La page officielle de FAQ décrit la borne de vidange/remplissage comme accessible aux camping-caristes, mais ne publie pas de tarif 2027; aucune tarification indépendante ne doit être attribuée à la fiche doublon.",
+      "recheckNextCheck": "Garder la fiche masquée et rattacher les tarifs/services éventuels uniquement à la fiche canonique; demander un tarif 2027 au camping si nécessaire.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/184066-Flower-Camping-La-Guichardiere",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/184066-Flower-Camping-La-Guichardiere"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/184066-Flower-Camping-La-Guichardiere",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/184066-Flower-Camping-La-Guichardiere",
+      "recheckSource2": "https://www.camping-laguichardiere.net/questions-frequentes/"
     },
     {
       "sourceId": "ACCAMECCVIGIE",
