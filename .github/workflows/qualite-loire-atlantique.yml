@@ -29,8 +29,12 @@ jobs:
           for sid, info in season27.items():
               assert info.get('year')==2027 and info.get('source','').startswith('https://') and info.get('checkedAt'), f"2027 : source ou date absente {sid}"
               assert info.get('status') in {'partial','promotion_only','booking_only','confirmed'}, f"2027 : statut inconnu {sid}"
-          baule27=season27['ACCAMEAIREDECAMPINGCARLABAULE']
-          assert baule27['status']=='partial' and baule27['touristTaxConfirmed'] is True and baule27.get('touristTaxEUR')==1.32 and baule27.get('totalStopoverAndTaxEUR')==15.82, 'La Baule : taxe 2027 publiée, total calculé incorrect'
+          for tax_id, expected_tax_url in {
+              'ACCAMEAIREAVENUEBRIERE':'https://taxedesejour.cap-atlantique.fr/includes/download/SX5KM3-TAXE-DE-SEJOUR-2027-FICHE.pdf',
+              'ACCAMEAIREDECAMPINGCARLABAULE':'https://taxedesejour.cap-atlantique.fr/includes/download/42vZqi-Taxe-de-sejour---tarifs-2027.pdf'
+          }.items():
+              tax27=season27[tax_id]
+              assert tax27['status']=='partial' and tax27.get('touristTaxEURPerAdult')==0.66 and tax27.get('touristTaxUnit')=='par personne adulte et par 24 h' and tax27.get('municipalTaxSource')==expected_tax_url and tax27.get('municipalTaxRateConfirmed') is True and tax27.get('operatorDisplayedTaxEURPer24h')==1.32 and tax27.get('operatorTaxApplicationConfirmed') is False and tax27.get('touristTaxConfirmed') is False and not tax27.get('totalStopoverAndTaxEUR'), f'{tax_id} : taxe communale adulte distinguée de l’application CCP et du total non confirmé'
           piriac_ids={'ACCAMEACCLERATPIRIAC','ACCAMEACCBRAMBELLPIRIAC','ACCAMEACCTRANCHEEPIRIAC'}
           piriac=[x for x in regional if x.get('sourceId') in piriac_ids]
           piriac_tax_source='https://taxedesejour.cap-atlantique.fr/includes/download/5kZeql-SPR173926062316040.pdf'
