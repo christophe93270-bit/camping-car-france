@@ -39,6 +39,10 @@ jobs:
           turballe=[x for x in regional if x.get('sourceId') in turballe_ids]
           turballe_source='https://d397xw3titc834.cloudfront.net/doc/a/64/a64ba3d27f55bd0fc106709a369fbbf6.pdf'
           assert len(turballe)==2 and all(x.get('municipalTaxSource')==turballe_source and x.get('season2027',{}).get('municipalTaxEURPerAdult2026')==0.66 and x.get('season2027',{}).get('municipalTaxRate2027Confirmed') is False and x.get('season2027',{}).get('operatorDisplayedTaxEURPer24h')==1.32 and x.get('season2027',{}).get('operatorTaxApplicationConfirmed') is False and x.get('season2027',{}).get('touristTaxConfirmed') is False and not x.get('season2027',{}).get('totalStopoverAndTaxEUR') for x in turballe), 'La Turballe : ne pas transformer le montant CCP 2027 en taxe fixe sans barème communal 2027'
+          pornic_ccp_ids={'ACCAMPDL044V5003SH','ACCAMACCAMEEPRAIRCAMPCARBIOCHON','ACCAMEPRFCCARPARK','ACCAMPDL044V5002ZO'}
+          pornic_ccp=[x for x in regional if x.get('sourceId') in pornic_ccp_ids]
+          pornic_tax_source='https://pornic.taxesejour.fr/'
+          assert len(pornic_ccp)==4 and all(x.get('municipalTaxSource')==pornic_tax_source and x.get('season2027',{}).get('municipalTaxEURPerAdult2026')==0.66 and x.get('season2027',{}).get('municipalTaxRate2027Confirmed') is False and x.get('season2027',{}).get('municipalTaxDecision2027Source')=='https://pornic.taxesejour.fr/portail/document/48455531/download' and x.get('season2027',{}).get('operatorDisplayedTaxEURPer24h')==1.32 and x.get('season2027',{}).get('operatorTaxApplicationConfirmed') is False and x.get('season2027',{}).get('touristTaxConfirmed') is False and not x.get('season2027',{}).get('totalStopoverAndTaxEUR') for x in pornic_ccp), 'Préfailles/Saint-Michel : taxe CCP 2027 ne doit pas devenir un total fixe sans application par personne vérifiée'
           piriac_ids={'ACCAMEACCLERATPIRIAC','ACCAMEACCBRAMBELLPIRIAC','ACCAMEACCTRANCHEEPIRIAC'}
           piriac=[x for x in regional if x.get('sourceId') in piriac_ids]
           piriac_tax_source='https://taxedesejour.cap-atlantique.fr/includes/download/5kZeql-SPR173926062316040.pdf'
