@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 270 (18/11/2026), dix fiches existantes. Prinquiau : 5 places, services gratuits, limite 48 h, service saisonnier du 1er avril au 30 septembre; nuitée hors saison à clarifier. Boussay : jetons 2 € sans usage précisé. Le Pouliguen : barème 2026 seulement. Jaunais : 15 places gratuites, borne déclarée en panne; tarifs et règles 2027 à confirmer. Aucun lieu ajouté. Compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle : lot 271 (18/11/2026), dix fiches existantes. Salorge : stationnement gratuit jusqu’à 3 nuits, eau 2 €/100 L. Guichardière : barème 2026 et borne à 6 € à séparer. Welcome : 10 € stationnement/journée/nuitée, eau et électricité en suppléments. Guenrouët : paiement de 2 € non détaillé. Aucun lieu ajouté; compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -1681,11 +1681,12 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 249,
-      "recheckFinding": "Contrôle du 18/11/2026 : Destination Pornic confirme stationnement gratuit toute l’année, sans réservation, jusqu’à trois nuits consécutives ; eau à 2 € les 100 L. Stationnement et service payant restent séparés. Le montant n’est pas millésimé 2027.",
-      "recheckNextCheck": "Confirmer que le prix de l’eau et les conditions restent identiques pour 2027.",
+      "recheckLot": 271,
+      "recheckFinding": "Contrôle du 18/11/2026 : Destination Pornic confirme une étape gratuite, accessible toute l’année sans réservation et limitée à trois nuits consécutives. La borne d’eau est facturée 2 € les 100 L. Stationnement et eau restent distincts; aucun tarif millésimé 2027 trouvé.",
+      "recheckNextCheck": "Garder le stationnement gratuit et limité à 3 nuits distinct de l’eau à 2 €/100 L; confirmer auprès de la commune si ces conditions changent en 2027.",
       "recheckTariffSource": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html",
-      "recheckConditionsSource": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html"
+      "recheckConditionsSource": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html",
+      "recheckSource": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000128",
@@ -1697,11 +1698,12 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://rando.loire-atlantique.fr/service/184069-Clos-Mer-et-Nature",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 249,
-      "recheckFinding": "Contrôle du 18/11/2026 : cette fiche de Clos Mer et Nature est un doublon masqué de la fiche canonique ACCAMPDL044V5002ZN. La source touristique confirme le camping et les emplacements, mais ne publie aucun tarif 2027 ; ne pas créer de deuxième fiche publique.",
-      "recheckNextCheck": "Garder cette entrée masquée et suivre les tarifs uniquement sur la fiche canonique.",
+      "recheckLot": 271,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche départementale décrit bien le camping Clos Mer et Nature et ses emplacements. Cette entrée du suivi reste le doublon masqué de la fiche canonique ACCAMPDL044V5002ZN; aucune deuxième fiche publique ne doit être créée. Le tarif de base 2027 n’est pas publié par cette fiche.",
+      "recheckNextCheck": "Conserver l’alias comme doublon masqué, garder la fiche canonique unique et y distinguer forfait d’emplacement, taxes et suppléments selon le contrat 2027 lorsqu’il sera disponible.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/184069-Clos-Mer-et-Nature",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/184069-Clos-Mer-et-Nature"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/184069-Clos-Mer-et-Nature",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/184069-Clos-Mer-et-Nature"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000047",
@@ -1713,12 +1715,14 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 249,
-      "recheckFinding": "Contrôle du 18/11/2026 : Destination Pornic affiche pour la saison 2026 24–59 €/nuit pour un emplacement, 2 personnes et 1 voiture, électricité comprise, plus 0,66 €/adulte/nuit de taxe. La FAQ de l’exploitant confirme la borne de vidange/remplissage à 6 €, distincte de l’hébergement. La FAQ donne les dates d’ouverture 2026 uniquement ; prix 2027 non publié.",
-      "recheckNextCheck": "Maintenir les tarifs 2026 comme historiques et rechercher une grille de nuitée 2027 datée.",
+      "recheckLot": 271,
+      "recheckFinding": "Contrôle du 18/11/2026 : Destination Pornic affiche le barème saison 2026 des emplacements (2 personnes, 1 voiture, électricité comprise) entre 24 et 59 €/nuit; taxe de séjour 0,66 €/adulte/nuit. La FAQ officielle de l’exploitant confirme la borne eau/vidange à 6 €, distincte de la nuitée. La saison et les prix affichés sont 2026; tarif 2027 non publié.",
+      "recheckNextCheck": "Ne pas reconduire la fourchette 2026 comme prix 2027; attendre le barème 2027. Garder la borne à 6 € distincte de l’hébergement et confirmer les conditions d’ouverture.",
       "recheckTariffSource": "https://www.pornic.com/flower-camping-la-guichardiere.html",
       "recheckConditionsSource": "https://www.pornic.com/flower-camping-la-guichardiere.html",
-      "recheckPitchSource": "https://www.camping-laguichardiere.net/location-camping-pornic/emplacements/"
+      "recheckPitchSource": "https://www.camping-laguichardiere.net/location-camping-pornic/emplacements/",
+      "recheckSource": "https://www.pornic.com/flower-camping-la-guichardiere.html",
+      "recheckSecondarySource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/"
     },
     {
       "sourceId": "ACCAMEAIRECCARAVSPORTS",
@@ -1730,12 +1734,13 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 249,
-      "recheckFinding": "Contrôle du 18/11/2026 : l’office confirme 8 places municipales, gratuites et ouvertes toute l’année. Un arrêté municipal 2026 est joint, mais la fiche consultée ne détaille pas les règles de nuitée ni de durée ; ne pas déduire le droit de dormir du seul accès annuel.",
-      "recheckNextCheck": "Lire/interpréter l’arrêté municipal 2026 et confirmer les règles nocturnes actuellement affichées sur place.",
+      "recheckLot": 271,
+      "recheckFinding": "Contrôle du 18/11/2026 : l’office confirme huit emplacements municipaux, gratuits et ouverts toute l’année. Un arrêté municipal 2026 est joint à la fiche, mais la page n’explicite pas les conditions de nuitée ou de durée; l’ouverture annuelle ne suffit pas à confirmer le droit d’y dormir. Pas de tarif de nuitée annoncé.",
+      "recheckNextCheck": "Lire/faire confirmer les clauses de l’arrêté municipal 2026 sur durée et nuitée, puis vérifier toute mise à jour 2027; maintenir le stationnement gratuit séparé de la règle nocturne.",
       "recheckTariffSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html",
       "recheckConditionsSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html",
-      "recheckSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html"
+      "recheckSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html",
+      "recheckSecondarySource": "https://www.saint-brevin.com/medias/images/prestataires/arr-t-2026-aires-camping-car-sb-11350.pdf"
     },
     {
       "sourceId": "ACCAMEGUENROUET",
@@ -1747,9 +1752,9 @@
       "nextCheck": "Demander à la mairie de Guenrouët ce que couvre exactement le paiement de 2 € et vérifier le tarif actuellement affiché à la borne.",
       "source": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 249,
-      "recheckFinding": "Contrôle du 18/11/2026 : l’office départemental confirme le stationnement de nuit gratuit (environ 2 places), et un service à 2 € en monnaie. Eau temporisée 10 min, vidange cassette et électricité 220 V / 120 min sont listées ; ce qui est compris dans les 2 € demeure ambigu. Aucun millésime 2027.",
-      "recheckNextCheck": "Demander à la mairie ou vérifier sur la borne quelle prestation exacte coûte 2 €.",
+      "recheckLot": 271,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche départementale indique eau propre avec remplissage de 10 min, vidange cassette, électricité 220 V pour 120 min, nuitée, parking gratuit estimé à deux places et service payant en monnaie à 2 €. La source ne précise pas clairement quelles prestations sont couvertes par les 2 €; prix non millésimé 2027.",
+      "recheckNextCheck": "Garder la nuitée/parking gratuits distincts de la borne à 2 €; faire préciser à la commune ce que le paiement couvre, la capacité réelle et la validité en 2027.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet"
@@ -1764,9 +1769,9 @@
       "nextCheck": "Confirmer auprès du magasin ou de la mairie le prix actuel des services et les modalités d’accès; ne pas afficher de tarif 2027 sans source.",
       "source": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 249,
-      "recheckFinding": "Contrôle du 18/11/2026 : Loire-Atlantique Tourisme décrit une borne d’eau potable et de vidange sur le parking du Super U, sans prix. L’ouverture 24 h/24 de la borne rapportée par l’office ne prouve pas une autorisation de nuitée sur le parking commercial.",
-      "recheckNextCheck": "Confirmer auprès du magasin ou de la mairie le prix de la borne et les règles du parking; ne pas afficher un tarif de nuitée.",
+      "recheckLot": 271,
+      "recheckFinding": "Contrôle du 18/11/2026 : Loire-Atlantique Tourisme situe une borne d’eau potable et de vidange sur le parking du Super U. Aucun tarif n’est publié. L’ouverture 24 h/24 de la borne signalée par le tourisme ne confirme pas un droit de nuitée sur le parking commercial.",
+      "recheckNextCheck": "Maintenir la fiche comme borne de services seulement, sans tarif inventé ni nuitée; vérifier auprès du magasin/commune le prix actuel et les règles d’accès.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC"
@@ -1781,9 +1786,9 @@
       "nextCheck": "Confirmer le maintien du tarif et des options auprès de l’exploitant pour les dates du séjour; conserver 10 €, 2 € électricité et 2 € eau comme montants séparés.",
       "source": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 249,
-      "recheckFinding": "Contrôle du 18/11/2026 : l’office confirme 10 € pour stationnement nuitée/journée, 2 € pour l’électricité et 2 € pour le remplissage d’eau ; aucune vidange. Les options restent distinctes du prix de base et aucun millésime 2027 n’est affiché.",
-      "recheckNextCheck": "Confirmer auprès de l’exploitant le maintien des tarifs avant de les présenter comme valables en 2027.",
+      "recheckLot": 271,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche de l’office indique une aire naturelle chez l’habitant ouverte à l’année, avec quatre emplacements; 10 € pour stationnement nuitée/journée, électricité 2 €, remplissage d’eau 2 €, aucune vidange. Les montants ne sont pas datés 2027.",
+      "recheckNextCheck": "Garder 10 €, électricité et eau comme postes séparés et non millésimés; demander une confirmation 2027 avant de les présenter comme tarifs actuels.",
       "recheckTariffSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
       "recheckConditionsSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
       "recheckSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html"
@@ -1798,12 +1803,13 @@
       "nextCheck": "Confirmer par une source 2027 la réglementation de nuitée, le forfait, les services séparés, la taxe et les périodes ; vérifier les signalements de panne.",
       "source": "https://www.camping-clos-mer-nature.fr/faq/",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 249,
-      "recheckFinding": "Contrôle du 18/11/2026 : le contrat officiel de saison 2026 indique un forfait d’emplacement pour 1–2 personnes, mais ne chiffre pas le prix de base. Il distingue taxe de séjour 0,66 €/adulte/nuit, éco-participation 0,30 €/personne/nuit, frais de dossier (10 € jusqu’à 3 nuits, 20 € au-delà) et supplément chien 4,50 €/jour. Horaires du contrat (15 h/10 h) en contradiction avec la FAQ; prix 2027 à confirmer.",
-      "recheckNextCheck": "Obtenir un prix de base 2027 pour une nuit, deux adultes et un camping-car; confirmer horaires auprès du camping.",
+      "recheckLot": 271,
+      "recheckFinding": "Contrôle du 18/11/2026 : le contrat officiel porte explicitement la saison 2026. Le forfait de base couvre un emplacement pour camping-car et 1 ou 2 personnes, sans en donner le prix; taxe de séjour 0,66 €/adulte/nuit, éco-participation 0,30 €/personne/nuit et frais de dossier 10 € jusqu’à 3 nuitées ou 20 € au-delà. Le contrat de réservation indique 15 h/10 h tandis que la FAQ du site fournit une autre heure de départ; tarif 2027 non publié.",
+      "recheckNextCheck": "Attendre le contrat/grille 2027 et confirmer le prix de base; garder taxe, éco-participation, frais de dossier et animal en suppléments distincts. Faire clarifier l’heure de départ auprès du camping.",
       "recheckTariffSource": "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf",
       "recheckConditionsSource": "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf",
-      "recheckSource": "https://www.camping-clos-mer-nature.fr/emplacements-camping-saint-michel-chef-chef/"
+      "recheckSource": "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf",
+      "recheckSecondarySource": "https://www.camping-clos-mer-nature.fr/faq/"
     },
     {
       "sourceId": "ACCAMPDL044V51CY50",
@@ -1815,9 +1821,9 @@
       "nextCheck": "Demander à la mairie de Derval le tarif, la durée maximale et l’autorisation de nuitée applicables rue Ronde.",
       "source": "https://rando.loire-atlantique.fr/service/186419-AIRE-DE-STATIONNEMENT---DERVAL-2",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 249,
-      "recheckFinding": "Contrôle du 18/11/2026 : la fiche départementale situe le parking rue Ronde entre les numéros 4 et 6, sans publier de tarif, durée maximale ou autorisation de nuitée. La mention régionale d’accès 24 h/24 ne constitue pas une autorisation de passer la nuit.",
-      "recheckNextCheck": "Demander à la mairie le tarif, la durée maximale et la règle de nuitée rue Ronde.",
+      "recheckLot": 271,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche départementale situe le parking de Derval entre les numéros 4 et 6 rue Ronde, près des commerces. Elle ne publie ni prix, ni durée maximale, ni autorisation nocturne. Une mention d’accès 24 h/24 sur une autre fiche touristique ne vaut pas permission de passer la nuit.",
+      "recheckNextCheck": "Faire confirmer par Derval les règles de stationnement nocturne, la durée et un éventuel tarif; ne pas déduire ces conditions de l’accès au site.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186419-AIRE-DE-STATIONNEMENT---DERVAL-2",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186419-AIRE-DE-STATIONNEMENT---DERVAL-2",
       "recheckSource": "https://rando.loire-atlantique.fr/service/186419-AIRE-DE-STATIONNEMENT---DERVAL-2"
@@ -1832,9 +1838,9 @@
       "nextCheck": "Vérifier auprès de la mairie de Sion-les-Mines le tarif et les règles de stationnement nocturne.",
       "source": "https://rando.loire-atlantique.fr/service/186415-AIRE-DE-STATIONNEMENT---SION-LES-MINES",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 250,
-      "recheckFinding": "Contrôle du 18/11/2026 : la fiche décrit le parking de loisirs des Forges de la Hunaudière, sans tarif, services camping-car, durée maximale ni autorisation nocturne. La mention d’accès 24 h/24 concerne l’accès au site et ne vaut pas preuve de nuitée.",
-      "recheckNextCheck": "Confirmer auprès de la commune le droit de nuitée et la durée de stationnement.",
+      "recheckLot": 271,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche départementale décrit le parking de loisirs des Forges de la Hunaudière, près de l’étang, avec toilettes PMR, table de pique-nique et pêche autorisée. Aucun tarif, service camping-car, durée de stationnement ou droit de nuitée n’est indiqué.",
+      "recheckNextCheck": "Demander à Sion-les-Mines les règles de stationnement de nuit et de durée; ne pas afficher de tarif ou service camping-car sans confirmation.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186415-AIRE-DE-STATIONNEMENT---SION-LES-MINES",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186415-AIRE-DE-STATIONNEMENT---SION-LES-MINES",
       "recheckSource": "https://rando.loire-atlantique.fr/service/186415-AIRE-DE-STATIONNEMENT---SION-LES-MINES"
