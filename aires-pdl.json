@@ -518,7 +518,7 @@
       "Électricité via carte PASS'ÉTAPES",
       "Aucune nuitée ou stationnement d'étape sur la borne"
     ],
-    "price": "Borne de services à 6 € avec la carte PASS’ÉTAPES. Barème opérateur publié jusqu’au 31/12/2027. Eau (100 L), vidange et électricité. Séjour interdit sur cette aire de services.",
+    "price": "Borne de services à 6 € avec la carte PASS’ÉTAPES. Barème opérateur publié du 01/01/2026 au 31/12/2027; comprend eau (100 L), vidange et électricité. Séjour interdit sur cette aire de services.",
     "status": "Rue de la Gare, près des ateliers municipaux, 44320 Saint-Viaud. Services uniquement ; dormir sur l'aire de stationnement distincte de la base de loisirs.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.25498,
@@ -537,17 +537,19 @@
     "overnightCheckedAt": "2026-10-20",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-18",
       "status": "partial",
-      "label": "Borne de services : 6 € affichés — aucune nuitée autorisée",
-      "note": "L’opérateur affiche 6 € par service et un barème du 01/01/2026 au 31/12/2027, mais le tableau utilise le libellé générique « Étape de 24h ». Sa description interdit explicitement d’y séjourner : eau (100 L), électricité et vidange uniquement, avec carte PASS’ÉTAPES. Faire préciser la durée d’électricité et la prestation exacte couverte par une utilisation ; coût éventuel de la carte distinct. Ne pas interpréter 6 € comme un prix de nuitée.",
+      "label": "6 € par service jusqu’au 31/12/2027 ; séjour interdit",
+      "note": "Contrôle du 18/11/2026 : l’opérateur affiche 6 € par service et un barème 01/01/2026–31/12/2027. Malgré le libellé générique « Étape de 24 h » du tableau, le lieu est explicitement une aire de services et l’opérateur précise qu’on ne peut pas y séjourner. Eau (100 L), vidange, électricité; carte PASS’ÉTAPES requise. Le prix de la carte, s’il est nécessaire, reste distinct.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/as-st-viaud",
       "baseAmountEUR": 6,
       "unit": "service",
       "scope": "services_only",
       "validFrom": "2026-01-01",
-      "validThrough": "2027-12-31"
-    }
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": false
+    },
+    "checkedAt": "2026-11-18"
   },
   {
     "department": "44",
@@ -8501,7 +8503,7 @@
       "Stationnement de nuitée non proposé par l'exploitant à cette borne",
       "Destination Pornic annonce un accès 24 h/24 au stationnement du complexe sportif, à côté de l’Aquacentre."
     ],
-    "price": "2 € par passage à la borne, sans taxe de séjour. Barème publié jusqu’au 31/12/2027. Aire de services uniquement, nuitée exclue.",
+    "price": "Aire de services uniquement : l’opérateur affiche 2 € par service et 0 € de taxe actuellement; le tableau générique affiche 2 €/24 h jusqu’en 2027 et 0,44 €/24 h de taxe en 2027. Séjour interdit/non établi sur cette borne : ne pas transformer ces montants en nuitée ni ajouter la taxe sans clarification de l’opérateur.",
     "status": "Parking du complexe sportif, rue Jules-Ferry, 44210 Pornic, GPS exploitant 47.12073 / -2.091136. Borne de services CAMPING-CAR PARK, distincte de l'aire d'étape payante du siège CAMPING-CAR PARK rue du Dr Ange-Guépin. Mise en garde nocturne du 20/10/2026 : Le réseau classe explicitement le point de Pornic Val Saint-Martin comme AIRE DE SERVICES, pas aire d'étape. CAMPING-CAR PARK précise dans ses fiches de bornes « vous ne pouvez pas y séjourner » : l'accès se limite aux services, même si un tarif 24 h figure dans le tableau du gestionnaire. C'est une restriction du point de services, pas une interdiction générale du parking sportif. Le lieu reste affiché sans filtre pour l'accès aux services ou pour un arrêt réglementaire.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.12086,
@@ -8525,17 +8527,21 @@
     "priceEvidenceDocument": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu?areaType=serviceplatze-wohnmobilstellplatz",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-18",
       "status": "partial",
-      "label": "Borne : 2 € par service — pas de nuitée",
-      "note": "Le tarif de 2 € par service est affiché par l’opérateur, avec un tableau couvrant 2026–2027. Le libellé générique « Étape de 24h » du tableau ne donne pas droit à une nuitée : ce point est classé aire de services. Quantité d’eau, durée et frais éventuels de carte à confirmer. Ne pas confondre avec l’aire d’étape du siège CAMPING-CAR PARK à Pornic.",
+      "label": "2 € par service ; tableau 2027 de taxe à clarifier",
+      "note": "Contrôle du 18/11/2026 : l’opérateur classe ce point comme aire de services et affiche actuellement 2 €/service, taxe 0 €. Son tableau saisonnier mentionne toutefois 2 €/24 h jusqu’au 31/12/2027 puis 0,44 €/24 h de taxe en 2027. La page de l’office annonce une aire de stationnement accessible 24 h/24 et 6 places, mais la borne CCP est classée service-only. Ne pas appliquer la ligne de taxe ou promettre une nuitée sans confirmation; maintenir séparés service, stationnement et séjour.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu",
       "baseAmountEUR": 2,
       "unit": "service",
       "validFrom": "2026-01-01",
       "validThrough": "2027-12-31",
-      "scope": "services_only"
-    }
+      "scope": "services_only",
+      "touristTaxConfirmed": false,
+      "operatorTaxDisplayed2027EURPer24h": 0.44,
+      "operatorTaxApplicationConfirmed": false
+    },
+    "checkedAt": "2026-11-18"
   },
   {
     "department": "44",
@@ -8661,7 +8667,7 @@
       "Branchement électrique selon équipement de l'aire",
       "Stationnement sécurisé à accès réglementé"
     ],
-    "price": "13,74 € / 24 h hors taxe du 01/01 au 31/12/2027. Taxe CCP affichée à 1,32 € / 24 h pour 2026 seulement ; aucun montant 2027 publié dans la grille consultée. Taxe communale et total 2027 à confirmer. Parking 5 h + services affiché à 7,05 €, sans date de fin publiée.",
+    "price": "CAMPING-CAR PARK affiche 13,74 € / 24 h hors taxe du 01/01 au 31/12/2027. La taxe de séjour affichée est de 1,32 € / 24 h pour 2026 seulement; aucun montant 2027 publié. Ne pas calculer de total 2027. Parking 5 h + services affiché à 7,05 €, sans date de fin publiée.",
     "status": "50 route de la Barre, Bouaye ; 8 emplacements et électricité 6 A. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.15121,
@@ -8678,8 +8684,8 @@
       "year": 2027,
       "checkedAt": "2026-11-18",
       "status": "partial",
-      "label": "13,74 € / 24 h hors taxe ; taxe 2027 non publiée par CCP dans la grille consultée",
-      "note": "CAMPING-CAR PARK publie un tarif de base de 13,74 € / 24 h du 1er janvier au 31 décembre 2027. Sa grille consultée affiche une taxe de séjour de 1,32 € / 24 h pour 2026, mais aucun montant de taxe 2027 n’y est publié. Le tarif communal 2027 n’est pas confirmé dans la page Nantes Métropole consultée, qui présente la grille 2026. Aucun total taxe comprise 2027 n’est calculé. Parking 5 h + services affiché à 7,05 €, sans date de fin publiée.",
+      "label": "13,74 € / 24 h hors taxe en 2027 ; taxe 2027 absente",
+      "note": "Contrôle du 18/11/2026 : CAMPING-CAR PARK affiche 13,74 €/24 h du 01/01 au 31/12/2027. Le tableau consulté affiche 1,32 €/24 h de taxe de séjour uniquement pour 2026; aucune taxe 2027 n’y est publiée. Aucun total taxes comprises n’est calculé. Le parking 5 h + services affiché à 7,05 € n’a pas de date de fin publiée.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
       "baseAmountEUR": 13.74,
       "unit": "24h",
@@ -8692,7 +8698,8 @@
       "operatorDisplayedTaxEURPer24h2026": 1.32,
       "operatorTax2027Published": false
     },
-    "municipalTaxSource": "https://taxedesejour.nantesmetropole.fr/"
+    "municipalTaxSource": "https://taxedesejour.nantesmetropole.fr/",
+    "checkedAt": "2026-11-18"
   },
   {
     "department": "44",
@@ -10566,7 +10573,7 @@
       "Ouverture toute l'année, 24 h/24",
       "Animaux acceptés selon la fiche touristique régionale"
     ],
-    "price": "Stationnement gratuit : 10 emplacements ouverts toute l’année, selon la Région Pays de la Loire. Coût éventuel de consommation d'eau non précisé ; ne pas en déduire que tous les services sont gratuits.",
+    "price": "La Région indique 10 emplacements gratuits, ouverts toute l’année, avec eau potable, gestion des déchets et sanitaires. La gratuité concerne le stationnement; coût éventuel de l’eau non précisé. Identifiant de données historique 049, mais Vallons-de-l’Erdre se trouve en Loire-Atlantique (44).",
     "status": "2 rue du Mont Friloux, sur le parking du commerce Vival au centre de Freigné, commune de Vallons-de-l’Erdre (44540). 10 emplacements gratuits, ouverts toute l’année. L’identifiant régional historique commence par 049, mais la commune actuelle relève bien du département 44.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.548686,
@@ -10581,13 +10588,14 @@
     "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-du-bourg-freigne",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-10",
+      "checkedAt": "2026-11-18",
       "status": "partial",
-      "label": "Stationnement gratuit indiqué, tarif des services 2027 non précisé",
-      "note": "La Région indique 10 emplacements gratuits, ouverts toute l’année, avec eau potable, gestion des déchets et sanitaires. La gratuité mentionne le stationnement; le coût éventuel de l’eau ou des services n’est pas détaillé pour 2027.",
+      "label": "Dix places gratuites; coût de l’eau non publié",
+      "note": "Contrôle du 18/11/2026 : la fiche régionale indique 10 emplacements gratuits et ouverts toute l’année, avec eau, déchets et sanitaires. Elle n’indique pas de prix pour l’eau et ne date pas le stationnement 2027. Identifiant historique commence par 049 mais commune actuelle dans le 44; ne pas reclasser hors de Loire-Atlantique.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-du-bourg-freigne",
       "touristTaxConfirmed": false
-    }
+    },
+    "checkedAt": "2026-11-18"
   },
   {
     "department": "44",
@@ -12611,7 +12619,7 @@
       "Aucune borne camping-car ni WC signalés dans la fiche de l'office",
       "Aire de pique-nique et animaux acceptés. Accès annoncé 24 h/24 toute l’année par la Région."
     ],
-    "price": "Tarif et autorisation de stationnement de nuit non communiqués par Loire-Atlantique Tourisme : vérifier auprès de la commune.",
+    "price": "La fiche officielle décrit un parking de halte, sans tarif, équipement camping-car ou autorisation de nuitée publié.",
     "status": "Rue du Manoir, 44590 Mouais, à proximité de la Chère. Le parking est une halte de loisirs ; l'office n'y décrit pas d'équipement camping-car.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.69583,
@@ -12626,13 +12634,14 @@
     "servicesSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-mouais",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-10",
+      "checkedAt": "2026-11-18",
       "status": "partial",
-      "label": "Halte de stationnement; tarif et nuitée non publiés",
-      "note": "La fiche officielle décrit une aire de stationnement et de loisirs rue du Manoir, sans tarif, équipement dédié camping-car ni autorisation de nuitée. Vérifier les panneaux locaux avant de recommander un séjour.",
+      "label": "Parking de halte ; tarif et nuitée non publiés",
+      "note": "Contrôle du 18/11/2026 : la fiche intercommunale décrit un parking arboré rue du Manoir et des loisirs à proximité, mais ne mentionne ni services camping-car, ni tarif, ni conditions de nuitée. Ne pas annoncer une aire de nuit gratuite sans confirmation locale.",
       "source": "https://rando.loire-atlantique.fr/service/187905-AIRE-DE-STATIONNEMENT---MOUAIS",
       "touristTaxConfirmed": false
-    }
+    },
+    "checkedAt": "2026-11-18"
   },
   {
     "department": "53",
@@ -12758,7 +12767,7 @@
       "Aucune borne eau, vidange ni électricité camping-car attestée",
       "Circuit des Marais de 2,4 km balisé en jaune. Accès à pied à la passerelle depuis la Maison du marais."
     ],
-    "price": "Aire de stationnement sur le parking du marais. Tarif, durée maximale et autorisation de nuitée non précisés par Pays d’Ancenis Tourisme.",
+    "price": "Parking du marais de Grée, près de l’observatoire. La fiche touristique ne publie ni tarif, ni durée maximale, ni autorisation de nuitée camping-car.",
     "status": "Marais de Grée, secteur de La Gréserie, 44150 Ancenis-Saint-Géréon. Parking de visite près de l'observatoire ; ne pas confondre avec une aire technique pour camping-cars.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.391934,
@@ -12773,13 +12782,14 @@
     "servicesSource": "https://www.bienvenue-pays-ancenis.com/en/fiche/aire-de-camping-car/aire-de-stationnement-du-marais-de-gree-ancenis-saint-gereon_TFOACCAMPDL044V51R0LC/",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-10",
+      "checkedAt": "2026-11-18",
       "status": "partial",
-      "label": "Parking de visite; gratuité et nuitée 2027 non confirmées",
-      "note": "La fiche touristique présente un parking près de l’observatoire, sans tarif, durée maximale ni droit de nuitée camping-car publié. Ne pas le confondre avec une aire technique ou une aire dédiée.",
+      "label": "Parking de visite ; prix et nuitée non publiés",
+      "note": "Contrôle du 18/11/2026 : Pays d’Ancenis Tourisme décrit un parking de visite du marais avec équipement de gestion des déchets seulement. Aucun tarif, durée ou accueil nocturne camping-car publié; ne pas lui attribuer l’aire d’un autre site.",
       "source": "https://www.bienvenue-pays-ancenis.com/en/fiche/aire-de-camping-car/aire-de-stationnement-du-marais-de-gree-ancenis-saint-gereon_TFOACCAMPDL044V51R0LC/",
       "touristTaxConfirmed": false
-    }
+    },
+    "checkedAt": "2026-11-18"
   },
   {
     "department": "49",
@@ -12943,7 +12953,7 @@
       "Location de vélos à proximité",
       "Pas de borne d'eau ou de vidange attestée par l'office"
     ],
-    "price": "Emplacement gratuit selon Pornichet Tourisme. Sept places réservées aux camping-cars, entre les 13 et 15 rue des Martins, accessibles toute l’année. Durée maximale et autorisation de nuitée à vérifier sur la signalisation.",
+    "price": "Emplacement indiqué à 0 € par Pornichet Tourisme, pour 7 places réservées aux camping-cars. La fiche ne date pas ce tarif 2027 et ne précise pas la durée maximale.",
     "status": "Entre les numéros 13 et 15 de la rue des Martins, 44720 Saint-Joachim, sur l'île de Fédrun. Sept emplacements réservés ; attention aux conditions de stationnement signalées sur place.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.3748568,
@@ -12959,13 +12969,16 @@
     "priceCheckedAt": "2026-11-09",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-10",
+      "checkedAt": "2026-11-18",
       "status": "partial",
-      "label": "7 emplacements dédiés; tarif affiché gratuit, millésime 2027 non précisé",
-      "note": "La fiche officielle confirme 7 emplacements réservés entre les numéros 13 et 15 de la rue des Martins. La gratuité déjà indiquée dans la fiche n’est pas datée 2027; durée maximale et règles locales de nuitée restent à vérifier sur place.",
+      "label": "Emplacement affiché à 0 € ; conditions 2027 à confirmer",
+      "note": "Contrôle du 18/11/2026 : l’office de tourisme affiche 0 € pour l’emplacement, 7 places et une ouverture toute l’année. La durée maximale et les règles de nuitée ne sont pas détaillées; gratuité 2027 à confirmer.",
       "source": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
-      "touristTaxConfirmed": false
-    }
+      "touristTaxConfirmed": false,
+      "validFrom": "",
+      "validThrough": ""
+    },
+    "checkedAt": "2026-11-18"
   },
   {
     "department": "44",
@@ -12978,7 +12991,7 @@
       "Accueil au domaine viticole",
       "Services techniques eau, vidange et électricité non confirmés"
     ],
-    "price": "Deux emplacements gratuits dans un domaine viticole clos, maximum deux nuits.",
+    "price": "Deux emplacements gratuits sur un terrain privé, pour deux nuits maximum, selon la fiche officielle. La fiche ne date pas ces conditions 2027; prévenir l’hôte et confirmer l’accord avant arrivée.",
     "status": "Le Grand Poirier, 44310 La Limouzinière. Accueil au sein d'une exploitation viticole avec jardin clos. 2 emplacements camping-car gratuits pendant 2 nuits au maximum ; contacter le domaine pour confirmer les modalités d'arrivée.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 46.982066,
@@ -12993,13 +13006,16 @@
     "servicesSource": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-10",
+      "checkedAt": "2026-11-18",
       "status": "partial",
-      "label": "Gratuit jusqu’à 2 nuits indiqué; conditions 2027 à confirmer",
-      "note": "La fiche touristique indique deux emplacements gratuits sur une propriété viticole, avec un maximum de deux nuits. La gratuité n’est pas datée 2027; vérifier la disponibilité et l’accord de l’hôte avant l’arrivée.",
+      "label": "Deux emplacements gratuits, deux nuits maximum ; accord à confirmer",
+      "note": "Contrôle du 18/11/2026 : la fiche officielle du domaine mentionne deux emplacements gratuits dans un jardin clos, avec deux nuits au maximum. Ce tarif n’est pas millésimé 2027; vérifier disponibilité et accord de l’hôte.",
       "source": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER",
-      "touristTaxConfirmed": false
-    }
+      "touristTaxConfirmed": false,
+      "validFrom": "",
+      "validThrough": ""
+    },
+    "checkedAt": "2026-11-18"
   },
   {
     "department": "44",
@@ -13011,7 +13027,7 @@
       "Stationnement gratuit toute l'année",
       "Aucune borne eau, vidange ou électricité confirmée"
     ],
-    "price": "Stationnement gratuit selon l'office de tourisme de Saint-Brevin (2026) ; tarif de services sans objet en l'absence de borne attestée.",
+    "price": "Stationnement affiché gratuit pour 8 camping-cars, aire municipale ouverte à l’année. La page ne précise pas la durée maximale ou les règles nocturnes; conditions 2027 à confirmer.",
     "status": "Avenue de la Saulzaie / passage Lamartine, 44250 Saint-Brevin-les-Pins, à côté du cimetière. 8 places, à environ 400 m du centre. Distinct du parking de l'avenue des Sports.",
     "source": "https://data.paysdelaloire.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl/",
     "latitude": 47.2432,
@@ -13026,13 +13042,16 @@
     "servicesSource": "https://www.saint-brevin.com/aire-de-stationnement-centre-ville-des-pins.html",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-10",
+      "checkedAt": "2026-11-18",
       "status": "partial",
-      "label": "8 places gratuites indiquées; conditions 2027 à confirmer",
-      "note": "L’office de tourisme indique une aire municipale de 8 places, gratuite et ouverte à l’année. La page ne précise pas le millésime du tarif 2027 ni une durée maximale; aucun service technique distinct n’est attesté.",
+      "label": "Huit emplacements gratuits ; durée et nuitée à vérifier",
+      "note": "Contrôle du 18/11/2026 : la page de Saint-Brevin affiche 8 places, ouverture à l’année et stationnement gratuit. Elle ne précise pas une durée maximale ni les règles nocturnes; ne pas présenter cette gratuité comme garantie 2027.",
       "source": "https://www.saint-brevin.com/aire-de-stationnement-centre-ville-des-pins.html",
-      "touristTaxConfirmed": false
-    }
+      "touristTaxConfirmed": false,
+      "validFrom": "",
+      "validThrough": ""
+    },
+    "checkedAt": "2026-11-18"
   },
   {
     "department": "49",
@@ -13916,7 +13935,7 @@
       "Pas de branchement électrique attesté",
       "Aire fermée chaque année pendant les vacances d'automne, selon la mairie"
     ],
-    "price": "Stationnement et services gratuits selon deux guides indépendants dont une mise à jour 2026 (Le Campeur, juin 2026) ; la mairie ne publie pas de grille tarifaire 2026 sur sa page, gratuité à recontrôler sur place. Pas d'électricité.",
+    "price": "La mairie confirme l’accès à une place, à l’eau et à la vidange, avec une limite de 3 nuits. Aucun tarif n’est publié par la commune; la gratuité mentionnée par des guides en 2026 reste secondaire et non confirmée pour 2027.",
     "priceSource": "https://www.lecampeur.fr/aire/aire-de-camping-car-de-la-chapelle-sur-erdre-ph5hic",
     "priceCheckedAt": "2026-10-20",
     "priceEvidenceDocument": "https://www.lecampeur.fr/aire/aire-de-camping-car-de-la-chapelle-sur-erdre-ph5hic",
@@ -13936,13 +13955,14 @@
     "importReview": "Lot 42 du 20/10/2026 : site officiel confirme aire municipale et nuitée limitée à trois nuits, eau, vidanges et fermeture automnale annuelle. Prix gratuit rapporté par guide Le Campeur mis à jour juin 2026 et i-CampingCar, non certifié comme tarif municipal 2026. GPS de l'annuaire i-CampingCar, dates de fermeture exacte à confirmer.",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-10",
+      "checkedAt": "2026-11-18",
       "status": "partial",
-      "label": "3 nuits maximum; tarif 2027 non publié",
-      "note": "La mairie confirme une place de parking, l’accès à l’eau, la vidange des eaux usées et noires, et une limite de 3 nuits. La page ne publie pas de tarif; les sources tierces mentionnent la gratuité pour 2026, à ne pas extrapoler à 2027. Fermeture annuelle pendant les vacances d’automne.",
+      "label": "Trois nuits maximum ; tarif communal non publié",
+      "note": "Contrôle du 18/11/2026 : la mairie confirme une aire rue de l’Erdre, parking du cimetière, une place, eau, vidanges eaux usées/noires et une limite de 3 nuits. Aucun prix n’est publié par la commune; les sources secondaires qui indiquent la gratuité pour 2026 ne confirment pas le tarif 2027. Fermeture chaque année pendant les vacances d’automne.",
       "source": "https://www.lachapellesurerdre.fr/ou-stationner-en-camping-car-la-chapelle-sur-erdre",
       "touristTaxConfirmed": false
-    }
+    },
+    "checkedAt": "2026-11-18"
   },
   {
     "department": "44",
