@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 281 (18/11/2026), dix fiches existantes. Aucun tarif de nuitée 2027 suffisamment daté et détaillé n’a été confirmé dans ce lot. Vigilance Govelle : l’Office annonce une gratuité provisoire liée à un dysfonctionnement tout en maintenant un tableau de tarifs de référence; vérifier la remise en service avant de publier les montants comme effectivement prélevés. Aucun lieu ajouté; compteurs inchangés : 215 / 187 / 28.",
+  "note": "Dernier contrôle : lot 282 (18/11/2026), dix fiches existantes. Les tarifs du Croisic et de Teillé ne sont pas millésimés; ceux de Choisel sont explicitement 2026; aucun nouveau tarif 2027 de nuitée camping-car confirmé. Port du Vivier : stationnement gratuit publié pour 2026, 2 places, services non garantis. Aucun lieu ajouté; compteurs inchangés : 215 / 187 / 28.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -614,16 +614,17 @@
       "nextCheck": "Applicabilité aux emplacements/boxes, conditions, échéance, prix, taxe et frais.",
       "source": "https://www.belairpornichet.fr/belair",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 261,
-      "recheckFinding": "Contrôle du 18/11/2026 : l’offre Early Booking 2027 annonce −20 % cumulables pour les dates et hébergements, mais la page ne précise pas clairement si les emplacements nus et boxes camping-car y sont inclus. Le moteur nécessite un devis daté. La brochure statique consultée, sans millésime identifiable, affiche à partir de 27 €/nuit pour un emplacement et 14 €/nuit pour un box, pour 2 personnes; électricité et taxe en supplément. Aucun tarif complet camping-car 2027 confirmé.",
-      "recheckNextCheck": "Demander/relever un panier 2027 séparé pour emplacement nu et box, vérifier l’assiette avant/après −20 %, l’électricité, la taxe, les frais et les conditions de réservation. Ne pas présenter les tarifs de brochure comme datés 2027.",
+      "recheckLot": 282,
+      "recheckFinding": "Contrôle du 18/11/2026 : l’Early Booking 2027 est annoncé, mais l’éligibilité des emplacements nus et boxes camping-car n’est pas confirmée. La brochure statique sans millésime ne constitue pas une grille 2027 vérifiable.",
+      "recheckNextCheck": "Obtenir un devis 2027 distinct pour emplacement nu et box; vérifier l’assiette de la remise, électricité, taxe et frais.",
       "recheckPromotionSource": "https://www.belairpornichet.fr/camping-4-etoiles-proche-la-baule/brochure",
       "recheckBookingSource": "https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars",
       "recheckPitchSource": "https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars",
       "recheckSecondarySource": "https://www.belairpornichet.com/userfiles/files/brochure_en.pdf",
       "recheckSource": "https://www.belairpornichet.fr/belair",
       "recheckPitchAndBookingSource": "https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars",
-      "recheckBrochureSource": "https://www.belairpornichet.fr/userfiles/files/brochure_fr.pdf"
+      "recheckBrochureSource": "https://www.belairpornichet.fr/userfiles/files/brochure_fr.pdf",
+      "recheckOfficialSource": "https://www.belairpornichet.fr/belair"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000138",
@@ -976,12 +977,13 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 260,
-      "recheckFinding": "Contrôle du 18/11/2026 : la page municipale affiche toujours 13,50 € pour le stationnement de nuitée (20 h–9 h), durée maximale 48 h; eau potable 150 L/10 min à 10 € en supplément, paiement par carte via ALTEKIP/ISIPAY. L’aire de Lingorzé compte 9 places, eau et vidanges, sans électricité. La page ne millésime pas le tarif; maintien en 2027 à confirmer.",
-      "recheckNextCheck": "Confirmer auprès de la Ville le millésime et le maintien des 13,50 €, ainsi que la taxe éventuelle; conserver la nuitée, l’eau et les vidanges comme postes séparés.",
+      "recheckLot": 282,
+      "recheckFinding": "Contrôle du 18/11/2026 : la Ville affiche 13,50 € pour la nuitée (20 h–9 h), limite 48 h; eau 150 L/10 min à 10 € séparément; sans électricité. La page ne millésime pas le tarif, donc sa validité 2027 n’est pas confirmée.",
+      "recheckNextCheck": "Confirmer auprès de la Ville le millésime et le maintien en 2027, ainsi qu’une taxe éventuelle; séparer nuitée, eau et vidanges.",
       "recheckTariffSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21",
       "recheckSource": "https://lecroisic.fr/fr/rb/381227/stationnement-21",
-      "recheckTaxSource": "https://www.lecroisic.fr/en/rb/381487/taxe-de-sejour-7"
+      "recheckTaxSource": "https://www.lecroisic.fr/en/rb/381487/taxe-de-sejour-7",
+      "recheckOfficialSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21"
     },
     {
       "sourceId": "ACCAMPDL044V50MLLX",
@@ -1244,14 +1246,15 @@
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://www.mairie-guemene-penfao.fr/camping-municipal/",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 260,
-      "recheckFinding": "Contrôle du 18/11/2026 : la commune confirme l’ouverture du camping municipal d’avril à octobre, mais la grille publique reste datée 2026. Elle donne 4,50 €/personne/jour, branchement camping-car +6 €, taxe 0,22 €/adulte/jour; exemple pour deux adultes avec branchement et taxe : 15,44 €/jour. Les services ou prix de vidange sans séjour ne sont pas établis; aucune grille 2027 publiée. Les sources communales divergent sur la fin de saison (septembre ou octobre).",
-      "recheckNextCheck": "Demander la grille 2027 et faire confirmer les dates d’ouverture exactes; garder le calcul de 15,44 € comme exemple 2026 et clarifier l’accès aux services sans nuitée.",
+      "recheckLot": 282,
+      "recheckFinding": "Contrôle du 18/11/2026 : la mairie confirme l’ouverture du camping municipal du Port de Beslé d’avril à octobre et un tarif pour emplacements nus; la grille suivie reste datée 2026. Aucun tarif 2027 ni prix pour accès aux services sans nuitée confirmé.",
+      "recheckNextCheck": "Demander la grille 2027, les dates précises et les conditions d’accès aux services sans séjour.",
       "recheckTariffSource": "https://www.mairie-guemene-penfao.fr/medias/2026/04/Tarification-2026-camping-port1.pdf",
       "recheckConditionsSource": "https://www.mairie-guemene-penfao.fr/camping-municipal/",
       "recheckSource": "https://www.mairie-guemene-penfao.fr/medias/2026/04/Tarification-2026-camping-port1.pdf",
       "recheckSeasonSource": "https://www.mairie-guemene-penfao.fr/camping-municipal/",
-      "recheckContactSource": "https://www.mairie-guemene-penfao.fr/contacts/camping-municipal/"
+      "recheckContactSource": "https://www.mairie-guemene-penfao.fr/contacts/camping-municipal/",
+      "recheckOfficialSource": "https://www.mairie-guemene-penfao.fr/camping-municipal/"
     },
     {
       "sourceId": "ACCAMPDL044V51HCG2",
@@ -2298,13 +2301,14 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 260,
-      "recheckFinding": "Contrôle du 18/11/2026 : Loire-Atlantique Tourisme continue d’indiquer un stationnement gratuit pour camping-cars au Port du Vivier, près du canal et du centre équestre. La fiche ne précise ni millésime 2027, ni services techniques, durée maximale ou conditions détaillées de nuitée. Ne pas étendre « gratuit » aux services non mentionnés.",
-      "recheckNextCheck": "Maintenir le stationnement gratuit comme information de la fiche touristique, avec date de validité et règles nocturnes non précisées; vérifier auprès de la Ville avant d’ajouter services ou durée.",
+      "recheckLot": 282,
+      "recheckFinding": "Contrôle du 18/11/2026 : la fiche de l’Office de tourisme confirme le parking gratuit du Port du Vivier, 24 h/24, avec 2 places, mais la période publiée est toute l’année 2026 et horaires/services ne sont pas garantis. Aucun service technique ni validité 2027 confirmés.",
+      "recheckNextCheck": "Confirmer le maintien de la gratuité et les règles de nuitée en 2027; ne pas attribuer de services sans source.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
-      "recheckTourismSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER"
+      "recheckTourismSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
+      "recheckOfficialSource": "https://www.saint-nazaire-tourisme.com/offres/aire-de-stationnement-port-du-vivier-saint-nazaire-fr-2501038/"
     },
     {
       "sourceId": "ACCAMECCLALANDE",
@@ -2368,11 +2372,12 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.teille44.fr/page/descriptif_camping_car",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 260,
-      "recheckFinding": "Contrôle du 18/11/2026 : la mairie maintient un tableau tarifaire sans millésime : période novembre–mars, 12/21/30/67,50 € pour 24 h/48 h/72 h/7 nuits; période indiquée 31 mars–1er novembre, 8/14/20/45 €. Eau, électricité et vidange sont indiquées incluses. Les deux périodes se chevauchent aux dates du 31 mars et du 1er novembre; aucune confirmation explicite de validité 2027.",
-      "recheckNextCheck": "Demander à la commune le millésime et les prix 2027, ainsi que la règle exacte aux dates de bascule 31 mars/1er novembre; ne pas annoncer les montants comme confirmés 2027 avant réponse.",
+      "recheckLot": 282,
+      "recheckFinding": "Contrôle du 18/11/2026 : la page communale affiche les forfaits suivis (8/14/20/45 € pour 24 h/48 h/72 h/7 nuits du 31 mars au 1er novembre; 12/21/30/67,50 € de novembre à mars) et indique eau, électricité et vidange incluses. Pas de millésime; les dates de bascule se chevauchent au 31 mars et au 1er novembre.",
+      "recheckNextCheck": "Faire confirmer la validité 2027 et les prix aux dates de transition; ne pas publier des périodes chevauchantes sans clarification.",
       "recheckTariffSource": "https://www.teille44.fr/page/descriptif_camping_car",
-      "recheckMunicipalSiteSource": "https://www.teille44.fr/decouvrir/1294"
+      "recheckMunicipalSiteSource": "https://www.teille44.fr/decouvrir/1294",
+      "recheckOfficialSource": "https://www.teille44.fr/page/descriptif_camping_car"
     },
     {
       "sourceId": "ACCAMPDL044V51CY4O",
@@ -2488,11 +2493,12 @@
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 260,
-      "recheckFinding": "Contrôle du 18/11/2026 : la fiche touristique départementale maintient le stationnement gratuit toute l’année, réservé aux camping-cars et limité à 48 h; eau potable et vidange mentionnées, sans tarif de services publié. Pas de millésime de validité 2027 ni de prix distinct pour l’eau.",
-      "recheckNextCheck": "Garder stationnement gratuit et limite de 48 h comme indications de la fiche touristique; faire confirmer par la commune la validité 2027 et le coût éventuel des services.",
+      "recheckLot": 282,
+      "recheckFinding": "Contrôle du 18/11/2026 : les fiches touristiques régionales maintiennent le stationnement gratuit toute l’année, réservé aux camping-cars et limité à 48 h; eau potable et vidange mentionnées, sans tarif distinct. Aucun millésime 2027 explicite.",
+      "recheckNextCheck": "Confirmer avec la commune le maintien en 2027 et le coût éventuel de l’eau; séparer stationnement et services.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille",
+      "recheckOfficialSource": "https://www.bienvenue-pays-ancenis.com/fr/fiche/aire-de-camping-car/aire-de-service-square-de-la-commune-libre-du-bouffay-saint-mars-la-jaille-vallons-de-l-erdre_TFOACCAMPDL044V500AAB/"
     },
     {
       "sourceId": "ACCAMPDL044V51HCG4",
@@ -2700,9 +2706,9 @@
       "nextCheck": "Confirmer auprès de l’exploitant ou de la commune le prix et le droit de nuitée pour 2027, les frais, taxes, services et dates d’application.",
       "source": "https://www.mairie-chateaubriant.fr/camping-cars/",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 260,
-      "recheckFinding": "Contrôle du 18/11/2026 : la Ville présente désormais explicitement les tarifs 2026 du site de Choisel : 12 € TTC par tranche de 24 h ou 6 € TTC par tranche de 5 h, avec 20 emplacements et borne de paiement 24 h/24. L’aire est annoncée ouverte toute l’année; aucune grille 2027 trouvée. À ne pas confondre avec les autres aires de Châteaubriant, dont la tarification est différente.",
-      "recheckNextCheck": "Confirmer le maintien des tranches et du prix en 2027 auprès de la Ville; vérifier les éventuels frais au paiement et garder le tarif 5 h distinct du 24 h.",
+      "recheckLot": 282,
+      "recheckFinding": "Contrôle du 18/11/2026 : la Ville affiche les tarifs explicitement 2026 de Choisel : 12 € TTC par 24 h ou 6 € par tranche de 5 h par camping-car; 20 places et paiement 24 h/24. Aucune grille 2027 repérée; ne pas confondre avec les autres aires de Châteaubriant.",
+      "recheckNextCheck": "Confirmer reconduction 2027 et frais éventuels de paiement; maintenir les tarifs 5 h et 24 h séparés.",
       "recheckTariffSource": "https://www.mairie-chateaubriant.fr/gites-chambres-dhotes-et-campings/",
       "recheckOfficialSource": "https://www.mairie-chateaubriant.fr/camping-cars/",
       "recheckCurrentYearSource": "https://www.mairie-chateaubriant.fr/actualites/aire-de-services-de-choisel-10-000eme-camping-car/"
@@ -2903,9 +2909,9 @@
       "nextCheck": "Obtenir pour 2027 une grille ou un devis officiel daté pour un emplacement camping-car et 2 adultes ; confirmer la saison, l’électricité comprise, la taxe 2027, l’éventuelle taxe écologique, les frais de réservation et la durée minimale haute saison. Vérifier séparément le tarif de vidange pour les non-résidents. Ne pas reprendre les 21,42 € Pitchup comme prix 2027.",
       "source": "https://www.pornic.com/camping-cybele-vacances-les-brillas.html",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 260,
-      "recheckFinding": "Contrôle du 18/11/2026 : l’emplacement officiel pour tente, caravane ou camping-car demande des dates pour obtenir disponibilité et estimation; aucun devis camping-car daté 2027 n’a été obtenu. La grille Destination Pornic 19–29 €/nuit et taxe 0,66 €/adulte/nuit reste millésimée 2026; le repère de plateforme sans année ne la remplace pas.",
-      "recheckNextCheck": "Relever un devis opérateur daté 2027 pour deux adultes et camping-car; confirmer électricité, taxes et frais de réservation séparément, ainsi que toute durée minimale.",
+      "recheckLot": 282,
+      "recheckFinding": "Contrôle du 18/11/2026 : le camping officiel accueille les camping-cars, mais aucun devis opérateur daté 2027 n’est confirmé pour un emplacement nu. La grille touristique de 19–29 €/nuit reste millésimée 2026; les offres de plateformes ne remplacent pas un tarif opérateur pour la nuitée camping-car.",
+      "recheckNextCheck": "Obtenir un devis 2027 pour deux adultes et un camping-car, en séparant électricité, taxe, frais et durée minimale.",
       "recheckSource": "https://www.campinglesbrillas.com/se-loger/emplacements/154-forfait-b-avec-electricite.html",
       "recheckTariffSource": "https://www.campinglesbrillas.com/se-loger/emplacements/",
       "recheckConditionsSource": "https://www.campinglesbrillas.com/media/contrat-resa-2025-2.pdf",
@@ -2913,7 +2919,8 @@
       "recheckBookingSource": "https://www.campinglesbrillas.com/se-loger/emplacements/",
       "recheckSecondaryQuoteSource": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/les_moutiers-en-retz/camping-les-brillas/?pitchtype=83051",
       "recheckPitchSource": "https://www.campinglesbrillas.com/se-loger/emplacements/154-forfait-b-avec-electricite.html",
-      "recheckHistoricalTariffSource": "https://www.pornic.com/camping-cybele-vacances-les-brillas.html"
+      "recheckHistoricalTariffSource": "https://www.pornic.com/camping-cybele-vacances-les-brillas.html",
+      "recheckOfficialSource": "https://www.campinglesbrillas.com/"
     },
     {
       "sourceId": "CCF44-PREFAILLES-PORT-MELEU-2026",
@@ -2968,9 +2975,9 @@
       "nextCheck": "Confirmer auprès de l’exploitant ou de la commune le prix et le droit de nuitée pour 2027, les frais, taxes, services et dates d’application.",
       "source": "https://www.pornic.com/camping-chadotel-les-ecureuils.html",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 260,
-      "recheckFinding": "Contrôle du 18/11/2026 : Chadotel annonce l’ouverture des réservations 2027 sur ses campings. Pour Les Écureuils, le dernier barème détaillé reste la grille 2026 : 21–59 €/nuit selon la période pour emplacement, deux personnes et une voiture, avec électricité incluse; taxe affichée à 0,66 €/adulte/nuit en supplément. Aucune grille 2027 ni conditions datées 2027 des promotions d’emplacement confirmées.",
-      "recheckNextCheck": "Obtenir le devis 2027 pour deux adultes et camping-car, vérifier le tarif de base, taxe, inclusions et période des offres 7=6/14=10/21=14; ne pas reconduire la grille 2026.",
+      "recheckLot": 282,
+      "recheckFinding": "Contrôle du 18/11/2026 : Chadotel prépare la saison 2027 et affiche des offres, mais le dernier barème détaillé du camping reste la grille 2026; taxe 2026 indiquée séparément à 0,66 €/adulte/nuit. Aucun barème camping-car 2027 confirmé.",
+      "recheckNextCheck": "Relever un devis 2027 pour deux adultes et un camping-car; confirmer inclusions, taxe et conditions des offres de nuits offertes.",
       "recheckTariffSource": "https://www.chadotel.com/wp-content/uploads/2025/12/TARIFS-2026-FR-2-LES-ECUREUILS.pdf",
       "recheckOffersSource": "https://www.chadotel.com/nuit-gratuite-en-emplacement/",
       "recheckOfficialSite": "https://www.chadotel.com/camping-les-ecureuils-la-bernerie-en-retz/",
@@ -3112,13 +3119,14 @@
       "nextCheck": "Obtenir forfait camping-car 2027, périodes, taxe, électricité et prix après la première nuit ; exclure le tarif cycliste.",
       "source": "https://www.campinglesbleuets.com/emplacement-camping-car-pornic",
       "recheckedAt": "2026-11-18",
-      "recheckLot": 260,
-      "recheckFinding": "Contrôle du 18/11/2026 : la grille officielle reste explicitement « Tarifs Emplacements 2026 ». Elle chiffre le forfait de deux personnes + emplacement + tente ou caravane + véhicule à 20–36 €/nuit selon la période; électricité 10 A à 6,20 €/nuit et taxe à 0,22 €/adulte/nuit en supplément. L’accueil des camping-cars et l’aire de vidange sont confirmés, mais la grille ne précise pas si le forfait campeur s’applique aux camping-cars. Aucun tarif camping-car 2027 confirmé.",
-      "recheckNextCheck": "Demander le forfait opérateur 2027 pour camping-car; confirmer que la catégorie tente/caravane s’applique ou obtenir un prix distinct, avec électricité et taxe séparées. Ne pas utiliser le forfait cycliste sans véhicule motorisé.",
+      "recheckLot": 282,
+      "recheckFinding": "Contrôle du 18/11/2026 : la grille officielle des emplacements reste millésimée 2026. L’accueil des camping-cars et l’aire de vidange sont confirmés; aucun tarif 2027 ni clarification de l’application exacte du forfait tente/caravane au camping-car trouvés.",
+      "recheckNextCheck": "Demander le forfait camping-car 2027, avec électricité et taxe séparées; ne pas reprendre la grille 2026 comme tarif actuel.",
       "recheckTariffSource": "https://www.campinglesbleuets.com/emplacements-camping-pornic",
       "recheckPitchSource": "https://www.campinglesbleuets.com/emplacement-camping-car-pornic",
       "recheckSource": "https://www.campinglesbleuets.com/emplacements-camping-pornic",
-      "recheckMotorhomeSource": "https://www.campinglesbleuets.com/emplacement-camping-car-pornic"
+      "recheckMotorhomeSource": "https://www.campinglesbleuets.com/emplacement-camping-car-pornic",
+      "recheckOfficialSource": "https://www.campinglesbleuets.com/emplacements-camping-pornic"
     },
     {
       "sourceId": "CCF44-LA-BAULE-EDEN-2026",
