@@ -35,6 +35,10 @@ jobs:
           }.items():
               tax27=season27[tax_id]
               assert tax27['status']=='partial' and tax27.get('touristTaxEURPerAdult')==0.66 and tax27.get('touristTaxUnit')=='par personne adulte et par 24 h' and tax27.get('municipalTaxSource')==expected_tax_url and tax27.get('municipalTaxRateConfirmed') is True and tax27.get('operatorDisplayedTaxEURPer24h')==1.32 and tax27.get('operatorTaxApplicationConfirmed') is False and tax27.get('touristTaxConfirmed') is False and not tax27.get('totalStopoverAndTaxEUR'), f'{tax_id} : taxe communale adulte distinguée de l’application CCP et du total non confirmé'
+          turballe_ids={'ACCAMECCGRANDEFALAISE','ACCAMECCCLOSMORA'}
+          turballe=[x for x in regional if x.get('sourceId') in turballe_ids]
+          turballe_source='https://d397xw3titc834.cloudfront.net/doc/a/64/a64ba3d27f55bd0fc106709a369fbbf6.pdf'
+          assert len(turballe)==2 and all(x.get('municipalTaxSource')==turballe_source and x.get('season2027',{}).get('municipalTaxEURPerAdult2026')==0.66 and x.get('season2027',{}).get('municipalTaxRate2027Confirmed') is False and x.get('season2027',{}).get('operatorDisplayedTaxEURPer24h')==1.32 and x.get('season2027',{}).get('operatorTaxApplicationConfirmed') is False and x.get('season2027',{}).get('touristTaxConfirmed') is False and not x.get('season2027',{}).get('totalStopoverAndTaxEUR') for x in turballe), 'La Turballe : ne pas transformer le montant CCP 2027 en taxe fixe sans barème communal 2027'
           piriac_ids={'ACCAMEACCLERATPIRIAC','ACCAMEACCBRAMBELLPIRIAC','ACCAMEACCTRANCHEEPIRIAC'}
           piriac=[x for x in regional if x.get('sourceId') in piriac_ids]
           piriac_tax_source='https://taxedesejour.cap-atlantique.fr/includes/download/5kZeql-SPR173926062316040.pdf'
