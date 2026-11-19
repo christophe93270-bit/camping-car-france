@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 terminé : site publié 216 lieux dans le 44, 188 après filtre nocturne; répartition et trois doublons non distincts consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. Le registre conserve 219 lignes, dont 217 sourceId distincts et 2 fiches affichées sans identifiant. Nouvelle file tarifaire unique : lot 342, dix fiches traitées une fois; aucun tarif complet de nuitée camping-car 2027 nouvellement confirmé. Les prochains lots doivent poursuivre cette file sur les 216 lieux visibles, en sautant les trois entrées non distinctes, et ne pas reprendre automatiquement les anciens lots.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne; répartition et trois doublons non distincts consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. Le registre conserve 219 lignes, dont 217 sourceId distincts et 2 fiches affichées sans identifiant. File tarifaire unique : lot 342 (10 fiches) puis lot 343 (10 nouvelles fiches dans la file), sans ajout ni modification des fiches du site. Les lots servent uniquement à suivre l’avancement tarifaire; les anciens lots ne sont pas repris automatiquement.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -272,7 +272,16 @@
       "recheckSource": "https://www.lebeaupre.com/fr/emplacements",
       "recheckTariffSource": "https://www.lebeaupre.com/index.php/fr/tarifs",
       "recheckConditionsSource": "https://www.lebeaupre.com/index.php/fr/tarifs",
-      "recheckOfficialSource": "https://www.lebeaupre.com/index.php/fr/tarifs"
+      "recheckOfficialSource": "https://www.lebeaupre.com/index.php/fr/tarifs",
+      "tariffQueueLot": 343,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 343 (19/11/2026) — Contrôle lot 341 (19/11/2026) : le devis officiel déjà relevé pour la nuit du 02 au 03/04/2027 reste à 31 € pour deux personnes, véhicule et électricité 6 A. Il s’agit d’un devis ponctuel, pas d’une grille saisonnière; la page tarifs est bloquée à l’accès direct lors du contrôle, et le devis ne détaille pas taxes/frais dans les informations visibles.",
+      "tariffQueueNextCheck": "Conserver 31 € seulement avec ses dates et sa composition; vérifier taxe et frais obligatoires au récapitulatif final avant d’afficher un total. Demander un barème 2027 saisonnier si des prix généraux sont souhaités.",
+      "tariffQueueSources": [
+        "https://www.lebeaupre.com/index.php/fr/tarifs",
+        "https://www.lebeaupre.com/fr/emplacements",
+        "https://www.lebeaupre.com/fr/"
+      ]
     },
     {
       "sourceId": "CCF44-PIRIAC-AMIS-NATURE-PORS-STER-2026",
@@ -356,7 +365,14 @@
       "recheckBrochureSource": "https://www.camping-lafontaine.com/wp-content/uploads/2023/04/brochure.pdf",
       "recheckSecondarySource": "https://www.labaule-guerande.com/offres/camping-la-fontaine-guerande-fr-6011364/",
       "recheckSource": "https://www.camping-lafontaine.com/location-emplacement-guerande/",
-      "recheckOfficialSource": "https://www.camping-lafontaine.com/location-emplacement-guerande/"
+      "recheckOfficialSource": "https://www.camping-lafontaine.com/location-emplacement-guerande/",
+      "tariffQueueLot": 343,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 343 (19/11/2026) — Contrôle lot 341 (19/11/2026) : l’opérateur confirme les emplacements pour camping-cars, mais ne publie aucun tarif. Les dates 14/04–15/10 indiquées pour l’accueil des campeurs ne portent pas d’année; aucun calendrier 2027 n’est confirmé.",
+      "tariffQueueNextCheck": "Demander un devis daté 2027 pour camping-car avec électricité, taxe et frais; faire confirmer les dates d’ouverture sans année du site.",
+      "tariffQueueSources": [
+        "https://www.camping-lafontaine.com/location-emplacement-guerande/"
+      ]
     },
     {
       "sourceId": "CCF44-LE-GAVRE-CAMPING-FORET-2026",
@@ -378,7 +394,15 @@
       "recheckSource": "https://campinglegavre.fr/?page_id=95",
       "recheckConditionsSource": "https://campinglegavre.fr/?page_id=95",
       "recheckOfficialSource": "https://campinglegavre.fr/?page_id=95",
-      "recheckCapacitySource": "https://rando.loire-atlantique.fr/service/183923-CAMPING-DE-LA-FORET-%2A%2A"
+      "recheckCapacitySource": "https://rando.loire-atlantique.fr/service/183923-CAMPING-DE-LA-FORET-%2A%2A",
+      "tariffQueueLot": 343,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 343 (19/11/2026) — Contrôle lot 341 (19/11/2026) : la page tarifaire officielle n’affiche pas de montant consultable; elle indique seulement une période générique d’avril à fin septembre, sans millésime. Les informations de capacité divergent entre sources : distinguer capacité totale et 10 places camping-car indiquées séparément.",
+      "tariffQueueNextCheck": "Demander au gestionnaire la grille et les dates 2027, ainsi que les capacités totales et camping-car séparées; ne pas reprendre les tarifs d’annuaires non officiels.",
+      "tariffQueueSources": [
+        "https://campinglegavre.fr/?page_id=95",
+        "https://www.enpaysdelaloire.com/hebergements/campings/camping-de-la-foret"
+      ]
     },
     {
       "sourceId": "CCF44-GUERANDE-BREHADOUR-2026",
@@ -401,7 +425,15 @@
       "recheckStandardRateSource": "https://www.domainedebrehadour.com/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-access-sans-electricite-100-m2-2-6-personnes.phtml",
       "recheckSource": "https://www.domainedebrehadour.com/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml",
       "recheckConditionsSource": "https://www.domainedebrehadour.com/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml",
-      "recheckOfficialSource": "https://www.domainedebrehadour.com/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml"
+      "recheckOfficialSource": "https://www.domainedebrehadour.com/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml",
+      "tariffQueueLot": 343,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 343 (19/11/2026) — Contrôle lot 341 (19/11/2026) : la page opérateur affiche une formule halte pour 2 personnes, électricité et un véhicule : 11 €/nuit du 08/04 au 09/07 et du 03/09 au 20/09, 16 € du 09/07 au 03/09; taxe de séjour de 0,55 €/adulte/jour en sus. Le tableau ne précise pas l’année, donc aucun tarif 2027 confirmé.",
+      "tariffQueueNextCheck": "Demander au gestionnaire le millésime, les dates exactes et le tarif 2027 de la formule halte; garder la taxe distincte et ne pas traiter le tarif non daté comme confirmé pour 2027.",
+      "tariffQueueSources": [
+        "https://www.domainedebrehadour.com/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml",
+        "https://www.domainedebrehadour.com/mobile/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml"
+      ]
     },
     {
       "sourceId": "CCF44-PORNICHET-CAMPING-LES-FORGES-2026",
@@ -426,7 +458,14 @@
       "recheckSource": "https://campinglesforges.com/81-tarifs.html",
       "recheckConditionsSource": "https://campinglesforges.com/64-emplacements/45062-informations-pratiques.html",
       "recheckOfficialSource": "https://campinglesforges.com/81-tarifs.html",
-      "recheck2027OpeningSource": "https://en.campinglesforges.com/152-services/143-les-services-du-camping.html"
+      "recheck2027OpeningSource": "https://en.campinglesforges.com/152-services/143-les-services-du-camping.html",
+      "tariffQueueLot": 343,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 343 (19/11/2026) — Contrôle lot 341 (19/11/2026) : la page anglaise annonce 15 emplacements camping-car/caravaning et une ouverture 2027 du 03/07 au 30/08. La page de tarifs française n’affiche pas de prix 2027 et la recherche sur cette page ne trouve aucune grille millésimée. Les frais de dossier doivent rester séparés du tarif de nuitée.",
+      "tariffQueueNextCheck": "Faire confirmer en français les dates et capacités 2027, puis obtenir un devis avec emplacement, électricité, taxe, minimum de nuits et frais de dossier distincts.",
+      "tariffQueueSources": [
+        "https://campinglesforges.com/81-tarifs.html"
+      ]
     },
     {
       "sourceId": "CCF44-CROISIC-PIERRE-LONGUE-2026",
@@ -450,7 +489,14 @@
       "recheckCalendarSource": "https://www.tourisme-lecroisic.fr/es_rent_period/2-avril-au-1er-novembre-2027/",
       "recheckOfficialSource": "https://www.campinglapierrelongue.com/",
       "recheckCapacitySource": "https://www.campinglapierrelongue.com/emplacements.htm",
-      "recheckSecondarySource": "https://www.labaule-guerande.com/offres/camping-la-pierre-longue-le-croisic-fr-6011367/"
+      "recheckSecondarySource": "https://www.labaule-guerande.com/offres/camping-la-pierre-longue-le-croisic-fr-6011367/",
+      "tariffQueueLot": 343,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 343 (19/11/2026) — Contrôle 19/11/2026 : l’opérateur confirme l’ouverture du 02/04 au 01/11/2027 et l’accueil des camping-cars sur 158 emplacements. L’office de tourisme indique 156 emplacements : capacité 156/158 à éclaircir. Aucun tarif standard 2027 publié; l’offre ACSI à 21 € est une offre 2026 conditionnelle.",
+      "tariffQueueNextCheck": "Demander la grille standard 2027 et confirmer la capacité officielle; conserver l’offre ACSI 2026 séparée du tarif standard et vérifier les services de vidange.",
+      "tariffQueueSources": [
+        "https://www.campinglapierrelongue.com/"
+      ]
     },
     {
       "sourceId": "CCF44-CROISIC-CAMPING-OCEAN-2026",
@@ -472,7 +518,14 @@
       "recheckPitchSource": "https://www.camping-ocean.com/emplacement-camping-croisic.html",
       "recheckBookingSource": "https://www.camping-ocean.com/tarifs-ocean",
       "recheckCalendarSource": "https://www.camping-ocean.com/",
-      "recheckOfficialSource": "https://www.camping-ocean.com/tarifs-ocean"
+      "recheckOfficialSource": "https://www.camping-ocean.com/tarifs-ocean",
+      "tariffQueueLot": 343,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 343 (19/11/2026) — Contrôle 19/11/2026 : ouverture 2027 annoncée du 03/04 au 26/09; la même page dit encore que l’ouverture des réservations 2027 est « courant octobre », mention qui semble en retard à la date du contrôle. Le tarif est toujours titré 2026. Le devis déjà relevé du 10 au 12/05/2027 reste un total de 70 € en Confort ou 88 € en Grand Confort pour deux nuits, taxes et frais finaux non confirmés; ce n’est pas un prix par nuit. La page limite la longueur du camping-car à 8,5 m et exclut les doubles essieux.",
+      "tariffQueueNextCheck": "Vérifier l’accès réel à la réservation 2027 et le panier final pour le devis du 10–12 mai; demander un tarif haute saison. Ne pas convertir les totaux séjour en prix par nuit.",
+      "tariffQueueSources": [
+        "https://www.camping-ocean.com/tarifs-ocean"
+      ]
     },
     {
       "sourceId": "CCF44-PORNICHET-GCU-2026",
@@ -493,7 +546,14 @@
       "recheckSource": "https://www.gcu.asso.fr/campings/camping-pornichet/",
       "recheckConditionsSource": "https://www.gcu.asso.fr/campings/camping-pornichet/",
       "recheckOfficialSource": "https://www.gcu.asso.fr/campings/camping-pornichet/",
-      "recheckBrochurePageSource": "https://www.gcu.asso.fr/brochure-tarifaire/"
+      "recheckBrochurePageSource": "https://www.gcu.asso.fr/brochure-tarifaire/",
+      "tariffQueueLot": 343,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 343 (19/11/2026) — Contrôle 19/11/2026 : la page officielle et la brochure disponible restent millésimées 2026; prix d’appel affiché à partir de 13,14 €/nuit en très basse saison. Aucun calendrier ou tarif 2027 publié. Ce prix d’appel ne donne pas le total pour dates précises, personnes et camping-car, avec électricité, taxe et adhésion.",
+      "tariffQueueNextCheck": "Vérifier la publication du calendrier et de la brochure 2027; demander un total pour dates précises et séparer cotisation, taxe et électricité.",
+      "tariffQueueSources": [
+        "https://www.gcu.asso.fr/campings/camping-pornichet/"
+      ]
     },
     {
       "sourceId": "CCF44-PRIGNY-2026",
@@ -517,7 +577,15 @@
       "recheckSecondarySource": "https://www.pornic.com/camping-de-prigny.html",
       "recheckOfficialSource": "https://www.campingdeprigny.com/",
       "recheckTourismTariffSource": "https://www.pornic.com/camping-de-prigny.html",
-      "recheckTourismSource": "https://www.pornic.com/camping-de-prigny.html"
+      "recheckTourismSource": "https://www.pornic.com/camping-de-prigny.html",
+      "tariffQueueLot": 343,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 343 (19/11/2026) — Contrôle 19/11/2026 : la référence touristique publie une base 2026 de 17 à 33 €/nuit pour deux personnes et un véhicule, plus taxe de séjour de 0,66 €/adulte/nuit. L’opérateur confirme l’accueil camping-car sur ses emplacements, mais aucune grille standard 2027 n’est publiée. Les montants opérateur de 56 € pour « aire camping-car » et 68 € pour « emplacement + véhicule » ne précisent pas assez leur durée, année ni composition pour les traiter comme des nuitées.",
+      "tariffQueueNextCheck": "Demander un devis 2027 daté; faire préciser ce que couvrent les montants 56/68 € et confirmer personnes, électricité, taxe et frais. Garder 17–33 € comme repère historique 2026.",
+      "tariffQueueSources": [
+        "https://www.pornic.com/camping-de-prigny.html",
+        "https://www.campingdeprigny.com/"
+      ]
     },
     {
       "sourceId": "CCF44-MOUTIERS-DOMAINE-DU-COLLET-2026",
@@ -540,7 +608,15 @@
       "recheckOfficialMainPage": "https://www.domaine-du-collet.com/camping-bord-de-mer-pornic",
       "recheckSeasonSource": "https://www.domaine-du-collet.com/emplacements-camping-car-pornic",
       "recheckOperatorTariffPageSource": "https://www.domaine-du-collet.com/camping-bord-de-mer-pornic",
-      "recheckOfficialSource": "https://www.domaine-du-collet.com/camping-bord-de-mer-pornic"
+      "recheckOfficialSource": "https://www.domaine-du-collet.com/camping-bord-de-mer-pornic",
+      "tariffQueueLot": 343,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 343 (19/11/2026) — Contrôle 19/11/2026 : le PDF opérateur 2026 indique 25 €/nuit en basse saison et 40 € en haute saison pour deux personnes et un véhicule; électricité 7 €/jour, taxe 0,66 €/personne/nuit, participation environnementale 0,35 €/personne/jour et frais de réservation 25 € s’ajoutent. Destination Pornic affiche 28–40 €/nuit pour 2026 : l’écart basse saison de 3 € reste à clarifier. Aucun tarif 2027 établi.",
+      "tariffQueueNextCheck": "Demander la grille 2027 et faire réconcilier le prix basse saison 25/28 €; confirmer taxe, participation environnementale, électricité et frais de réservation.",
+      "tariffQueueSources": [
+        "https://www.domaine-du-collet.com/uploads/pdf/tarifs-2026.pdf",
+        "https://www.domaine-du-collet.com/camping-bord-de-mer-pornic"
+      ]
     },
     {
       "sourceId": "ACCAMEFLEURDEBRIERE",
