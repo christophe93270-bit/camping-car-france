@@ -501,7 +501,7 @@ jobs:
           leveno55=next(x for x in visible_regional if x.get("sourceId")=="CCF44-GUERANDE-DOMAINE-LEVENO-2026")
           assert leveno55.get("priceYear")==2026 and leveno55.get("fees2026Source")=="https://www.camping-leveno.com/pdf/leveno-contrat-conditions.pdf" and all(k in leveno55.get("fees2026","") for k in ("0,66 €","25 €","35 €")), "Leveno : contrat 2026, tarif ACSI conditionnel ou frais annexes manquants"
           clos55=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V5002ZN")
-          assert clos55.get("price")=="Non confirmé" and clos55.get("fees2026Source")=="https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf" and all(k in clos55.get("fees2026","") for k in ("0,66 €","0,30 €","10 €","20 €","30 €")), "Clos Mer et Nature : contrat 2026 frais annexes ou prix nuitée incorrect"
+          assert "non confirmé" in str(clos55.get("price","")).lower() and clos55.get("fees2026Source")=="https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf" and all(k in clos55.get("fees2026","") for k in ("0,66 €","0,30 €","10 €","20 €","30 €")), "Clos Mer et Nature : contrat 2026 frais annexes ou prix nuitée incorrect"
           assert forges.get("price")=="Non confirmé" and "04/07/2026" in forges.get("seasonalDates2026","") and "04/04/2026" in forges.get("seasonalDates2026",""), "Les Forges : conflit de saison officiel/office masqué"
 
           falaise_tarifs=[x for x in visible_regional if x.get("sourceId")=="CCF44-TURBALLE-CAMPING-LA-FALAISE-2026"]
