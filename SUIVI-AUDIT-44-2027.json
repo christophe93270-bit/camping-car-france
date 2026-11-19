@@ -4946,8 +4946,8 @@
       "source": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/tarifs-2027-telephone.pdf",
       "recheckedAt": "2026-11-19",
       "recheckLot": 324,
-      "recheckFinding": "Recontrôle 19/11/2026 : PDF opérateur « Tarifs 2027 » : forfait camping-car 35 m², 1–2 personnes, électricité, sanitaires et une voiture à 22 €/nuit (02/04–02/07 et 28/08–26/09), 31 € (03/07–30/07 et 21/08–27/08), 43 € (31/07–20/08). Suppléments : personne 7–9 €, véhicule 6 €, animal 5 €. Taxe 2027 indiquée à 0,66 €/adulte/nuit, mais FAQ contradictoire sur son inclusion dans le prix communiqué.",
-      "recheckNextCheck": "Conserver le barème par périodes; faire confirmer au panier si la taxe est incluse et vérifier le total final sans la compter deux fois.",
+      "recheckFinding": "Suivi ciblé du 19/11/2026 : la FAQ officielle indique que le prix communiqué lors d’une réservation inclut les taxes de séjour. La grille 2027 liste séparément la taxe de 0,66 €/adulte/nuit mais ne précise pas si les montants de base 22/31/43 € sont déjà taxe comprise. Le devis final doit être traité comme taxe comprise selon la FAQ; ne pas ajouter la taxe deux fois. Inclusion de la taxe dans les montants du tableau : non explicitée.",
+      "recheckNextCheck": "Conserver les montants 2027 par période et la taxe de 0,66 €/adulte/nuit comme données distinctes; la FAQ dit que le prix final communiqué à la réservation inclut les taxes. Ne recalculer aucun total en ajoutant une seconde fois la taxe. Reconfirmer seulement si le camping précise explicitement si les valeurs de base du tableau sont HT/TTC ou si un devis daté révèle un écart.",
       "recheckSource": "https://www.camping-soirdete.com/",
       "recheckTariffSource": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/que-les-tarifs-2027.pdf",
       "recheckBookingQuoteSource": "https://reservation.secureholiday.net/fr/574/offers",
@@ -4957,7 +4957,14 @@
       "recheckBookingSource": "https://reservation.secureholiday.net/fr/574/offers",
       "recheckTaxClarificationSource": "https://www.camping-soirdete.com/faq/",
       "recheckOfficialSource": "https://www.camping-soirdete.com/",
-      "recheckSecondarySource": "https://www.camping-soirdete.com/foire-aux-questions/"
+      "recheckSecondarySource": "https://www.camping-soirdete.com/foire-aux-questions/",
+      "tariffFollowUpAt": "2026-11-19",
+      "tariffFollowUpFinding": "Contrôle ciblé de la question sur la taxe, sans reprendre le contrôle général de la fiche : FAQ officielle = taxes de séjour incluses dans le prix communiqué pour la réservation; grille 2027 = taxe affichée séparément à 0,66 €/adulte/nuit sans indiquer si les tarifs de 22/31/43 € sont TTC. Le devis final doit inclure la taxe selon la FAQ; l’inclusion dans chaque montant du tableau reste à préciser.",
+      "tariffFollowUpNextCheck": "Aucune recherche générale à refaire. Si un devis ou une réponse explicite est obtenu, préciser si la grille de base inclut 0,66 €/adulte/nuit; ne pas ajouter cette taxe au total d’une réservation où elle est déjà incluse.",
+      "tariffFollowUpSources": [
+        "https://www.camping-soirdete.com/faq/",
+        "https://www.camping-soirdete.com/wp-content/uploads/2026/10/que-les-tarifs-2027.pdf"
+      ]
     },
     {
       "sourceId": "CCF44-ST-MICHEL-RIVIERA-2026",
