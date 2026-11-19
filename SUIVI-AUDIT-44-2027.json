@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes, trois écarts de comptage consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. File tarifaire unique par fiches distinctes : lots 342 à 348, dix entrées par lot; les trois alias déjà identifiés et la zone technique de la Grotte Saint-Jean restent exclus de la file. Aucun changement aux données publiées du site.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes, écarts de comptage consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. File tarifaire unique par fiches distinctes : lots 342 à 349, dix entrées par lot; trois alias connus et la fiche technique doublon de la Grotte Saint-Jean restent exclus. Aucun changement aux données publiées du site.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -2242,7 +2242,14 @@
       "nextAction": "Confirmer auprès de la commune la durée maximale et le droit de nuitée.",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180261-AIRE-DE-STATIONNEMENT",
       "recheckOfficialSource": "https://suce-sur-erdre.fr/mairie/les-grands-projets/second-terrain-de-football/",
-      "recheckMunicipalitySource": "https://suce-sur-erdre.fr/mairie/les-grands-projets/halte-nature/"
+      "recheckMunicipalitySource": "https://suce-sur-erdre.fr/mairie/les-grands-projets/halte-nature/",
+      "tariffQueueLot": 349,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 349 (19/11/2026) : La fiche officielle confirme le stationnement camping-car autorisé à la Papinière; elle ne donne ni tarif, ni durée maximale, ni règle de nuitée. Le déplacement temporaire lié aux travaux 2026 reste dans le suivi.",
+      "tariffQueueNextCheck": "Confirmer auprès de la commune les conditions de nuitée, la durée maximale et le maintien du déplacement.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/180261-AIRE-DE-STATIONNEMENT"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V500ABV",
@@ -2262,7 +2269,14 @@
       "nextAction": "Confirmer auprès de la commune le droit de nuitée et les conditions hivernales des services.",
       "recheckSource": "https://www.riaille.fr/decouvrir/sites-remarquables-et-sentiers-de-randonnee/sentiers-de-randonnee/",
       "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/3141-Aire-de-service-La-Benate",
-      "recheckOfficialSource": "https://www.riaille.fr/decouvrir/sites-remarquables-et-sentiers-de-randonnee/sentiers-de-randonnee/"
+      "recheckOfficialSource": "https://www.riaille.fr/decouvrir/sites-remarquables-et-sentiers-de-randonnee/sentiers-de-randonnee/",
+      "tariffQueueLot": 349,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 349 (19/11/2026) : La commune confirme une aire gratuite ouverte toute l’année; eau potable coupée en hiver et conteneur OM disponible du 1er avril au 1er novembre. La page municipale est datée de 2024 et ne précise ni durée maximale ni règle de nuitée.",
+      "tariffQueueNextCheck": "Garder gratuité et périodes de service comme informations publiées; confirmer la durée et les règles de nuitée.",
+      "tariffQueueSources": [
+        "https://www.riaille.fr/decouvrir/sites-remarquables-et-sentiers-de-randonnee/sentiers-de-randonnee/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51CFA7",
@@ -2282,7 +2296,14 @@
       "nextAction": "Confirmer auprès de la commune la durée maximale et le droit de nuitée.",
       "recheckSource": "https://rando.loire-atlantique.fr/service/186410-AIRE-DE-STATIONNEMENT-DE-PASSAY",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186410-AIRE-DE-STATIONNEMENT-DE-PASSAY",
-      "recheckMunicipalitySource": "https://www.mairie-lachevroliere.com/"
+      "recheckMunicipalitySource": "https://www.mairie-lachevroliere.com/",
+      "tariffQueueLot": 349,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 349 (19/11/2026) : La fiche départementale confirme six emplacements de stationnement gratuits à Passay, sans service technique, tarif ou règle explicite de nuitée.",
+      "tariffQueueNextCheck": "Conserver les six places et la gratuité; ne pas ajouter d’autorisation nocturne ou de durée sans confirmation communale.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/186410-AIRE-DE-STATIONNEMENT-DE-PASSAY"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5003A4",
@@ -2301,7 +2322,14 @@
       "recheckConditionsSource": "https://www.saint-nazaire-tourisme.com/offres/aire-des-jaunais-saint-nazaire-fr-2501040/",
       "recheckSource": "https://www.saint-nazaire-tourisme.com/offres/aire-des-jaunais-saint-nazaire-fr-2501040/",
       "recheckOfficialSource": "https://www.saint-nazaire-tourisme.com/offres/aire-des-jaunais-saint-nazaire-fr-2501040/",
-      "recheckSecondarySource": "https://www.saint-nazaire-tourisme.com/mon-sejour/preparer-votre-sejour/nos-brochures/guide-hebergement/"
+      "recheckSecondarySource": "https://www.saint-nazaire-tourisme.com/mon-sejour/preparer-votre-sejour/nos-brochures/guide-hebergement/",
+      "tariffQueueLot": 349,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 349 (19/11/2026) : La fiche touristique confirme 15 places, parking gratuit et vidange gratuite; les autres services sont payants mais la borne est actuellement signalée en panne. La fiche indique une ouverture toute l’année 2026; aucun tarif de service ni remise en état 2027 confirmé.",
+      "tariffQueueNextCheck": "Signaler la borne en panne; ne pas afficher de prix de service avant rétablissement et confirmation du tarif. Garder stationnement et vidange gratuits séparés.",
+      "tariffQueueSources": [
+        "https://www.saint-nazaire-tourisme.com/offres/aire-des-jaunais-saint-nazaire-fr-2501040/"
+      ]
     },
     {
       "sourceId": "ACCAMEVERAIREDELASALORGE",
@@ -2320,7 +2348,14 @@
       "recheckConditionsSource": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html",
       "recheckSource": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html",
       "recheckOfficialSource": "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html",
-      "recheckSecondarySource": "https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/182589/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.pdf"
+      "recheckSecondarySource": "https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/182589/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.pdf",
+      "tariffQueueLot": 349,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 349 (19/11/2026) : La page Destination Pornic indique étape gratuite, toute l’année, jusqu’à trois nuits consécutives; eau à 2 €/100 L. Le prix de l’eau et la gratuité du stationnement sont deux postes distincts; aucun millésime 2027 n’est précisé.",
+      "tariffQueueNextCheck": "Conserver étape gratuite et limite de trois nuits; garder l’eau à 2 €/100 L séparée et vérifier l’affichage au séjour.",
+      "tariffQueueSources": [
+        "https://www.pornic.com/aire-de-stationnement-et-de-services-pour-camping-cars-de-la-salorge.html"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000128",
@@ -2361,7 +2396,14 @@
       "recheckSource": "https://www.flowercampings.com/camping-loire-atlantique/camping-la-guichardiere",
       "recheckSecondarySource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/",
       "recheckOfficialSource": "https://www.camping-laguichardiere.net/camping-4-etoiles-pornic/",
-      "recheckServicePriceSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/"
+      "recheckServicePriceSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/",
+      "tariffQueueLot": 349,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 349 (19/11/2026) : Le registre conserve un devis daté déjà obtenu pour 7 nuits du 01 au 08/05/2027, deux personnes : forfait Nature 128,80 €, Confort 10 A 163,20 €, réduction Early Booking de 20 %. C’est une offre ponctuelle, pas une grille annuelle; taxe finale à contrôler. La FAQ confirme séparément la borne extérieure à 6 €.",
+      "tariffQueueNextCheck": "Garder le devis uniquement pour ces dates et cette composition; vérifier le panier final/taxes et maintenir les 6 € de borne en service extérieur séparé. La page publique actuelle affiche encore la saison 2026.",
+      "tariffQueueSources": [
+        "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/"
+      ]
     },
     {
       "sourceId": "ACCAMEAIRECCARAVSPORTS",
@@ -2381,7 +2423,14 @@
       "recheckSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html",
       "recheckSecondarySource": "https://www.saint-brevin.com/medias/images/prestataires/arr-t-2026-aires-camping-car-sb-11350.pdf",
       "recheckOfficialSource": "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html",
-      "recheckOrderSource": "https://www.saint-brevin.com/medias/images/prestataires/arr-t-2026-aires-camping-car-sb-11350.pdf"
+      "recheckOrderSource": "https://www.saint-brevin.com/medias/images/prestataires/arr-t-2026-aires-camping-car-sb-11350.pdf",
+      "tariffQueueLot": 349,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 349 (19/11/2026) : La fiche de l’Office confirme huit places, ouverture à l’année et stationnement gratuit; elle propose un arrêté municipal 2026. Les règles précises de nuitée et durée maximale ne sont pas établies dans la fiche.",
+      "tariffQueueNextCheck": "Garder gratuité, huit places et ouverture à l’année; vérifier l’arrêté 2026 pour la durée et l’autorisation de nuitée avant mise à jour.",
+      "tariffQueueSources": [
+        "https://www.saint-brevin.com/aire-de-stationnement-avenue-des-sports.html"
+      ]
     },
     {
       "sourceId": "ACCAMEGUENROUET",
@@ -2400,7 +2449,14 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet",
-      "recheckMunicipalitySource": "https://www.guenrouet.fr/medias/2025/06/magasine-touristique.pdf"
+      "recheckMunicipalitySource": "https://www.guenrouet.fr/medias/2025/06/magasine-touristique.pdf",
+      "tariffQueueLot": 349,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 349 (19/11/2026) : La fiche confirme parking et nuitée gratuits, environ deux places. Le service payant à 2 € concerne une prestation de borne (eau 10 min/électricité 120 min), pas le prix de la nuitée.",
+      "tariffQueueNextCheck": "Garder la nuitée gratuite; enregistrer le forfait de service à 2 € distinctement et clarifier au besoin la ventilation eau/électricité.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/180217-Aire-de-camping-cars-de-Guenrouet"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5002C9",
@@ -2437,7 +2493,14 @@
       "recheckTariffSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
       "recheckConditionsSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
       "recheckSource": "https://www.saint-brevin.com/aire-camping-car-le-welcome.html",
-      "recheckOfficialSource": "https://airecampingcarlewelcome.com/"
+      "recheckOfficialSource": "https://airecampingcarlewelcome.com/",
+      "tariffQueueLot": 349,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 349 (19/11/2026) : L’Office de tourisme affiche stationnement de jour/nuit à 10 €, électricité 2 €, remplissage d’eau 2 €, quatre emplacements et aucune vidange. Les montants sont les derniers tarifs publics trouvés mais sans millésime 2027.",
+      "tariffQueueNextCheck": "Garder nuitée, électricité et eau comme lignes distinctes; confirmer leur maintien 2027 avec l’exploitant; ne pas ajouter de vidange.",
+      "tariffQueueSources": [
+        "https://www.saint-brevin.com/aire-camping-car-le-welcome.html"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5002ZN",
@@ -2476,7 +2539,14 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186419-AIRE-DE-STATIONNEMENT---DERVAL-2",
       "recheckSource": "https://rando.loire-atlantique.fr/service/186419-AIRE-DE-STATIONNEMENT---DERVAL-2",
       "recheckSecondarySource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-derval-2",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186419-AIRE-DE-STATIONNEMENT---DERVAL-2"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186419-AIRE-DE-STATIONNEMENT---DERVAL-2",
+      "tariffQueueLot": 349,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 349 (19/11/2026) : La fiche Rando situe le parking entre le 4 et le 6 rue Ronde à Derval; aucun tarif, durée maximale ou autorisation explicite de nuitée n’est publié.",
+      "tariffQueueNextCheck": "Laisser tarif et nuitée non établis; demander à la mairie les règles et durées avant inclusion dans le filtre nocturne.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/186419-AIRE-DE-STATIONNEMENT---DERVAL-2"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51CY2A",
