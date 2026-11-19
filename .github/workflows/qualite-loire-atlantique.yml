@@ -128,7 +128,7 @@ jobs:
           conditional_access=[x for x in visible_regional if str(x.get("sourceId")) in conditional_access_ids]
           assert len(conditional_access)==3 and all(x.get("accessNote") and str(x.get("accessSource","")).startswith("https://") for x in conditional_access), "44 : réserves d'accès ferme/ANAS absentes"
           france_passion=[x for x in conditional_access if x.get("sourceId")!="ACCAMACCAMEELMANAS"]
-          assert len(france_passion)==2 and all(x.get("price")=="Non confirmé" for x in france_passion), "France Passion : adhésion 2026 des hôtes encore non confirmée"
+          assert len(france_passion)==2 and all(str(x.get("price","")).startswith("Non confirmé") for x in france_passion), "France Passion : prix des hôtes non confirmé doit rester explicite même avec une précision"
           anas=next(x for x in conditional_access if x.get("sourceId")=="ACCAMACCAMEELMANAS")
           assert anas.get("priceYear")==2026 and "21 €/nuit" in anas.get("price","") and "16 €/nuit" in anas.get("price","") and anas.get("priceEvidenceDocument","").startswith("https://") and anas.get("accessVerification")=="adhesion_village_requise_aire_autonome_a_verifier", "ANAS 2026 : grille documentée ou réserve d'accès manquante"
           clos=next(x for x in visible_regional if x.get("sourceId")=="ACCAMPDL044V5002ZN")
