@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 terminé : le site publie 216 lieux dans le 44, dont 188 avec le filtre nocturne. Répartition : 67 aires/étapes, 80 campings/emplacements, 39 parkings, 10 bornes/services, 8 accueils, 7 pique-niques, 5 autres. Le registre a 219 lignes (217 sourceId distincts, 2 sans sourceId) ; les 3 lignes de différence sont des fiches non distinctes : Guichardière (ACCAMACCAMPDL044V507FD5), Clos Mer et Nature (ACCAMACCAMPDL044000128), Sébilière OSM (way/909625355). Les 2 lignes sans identifiant Blain et Pornic apparaissent bien sur le site. Ne pas utiliser les numéros de lots pour mesurer des lieux; organiser la suite en file tarifaire unique sur les fiches visibles, une fois chacune.",
+  "note": "Rapprochement du 19/11/2026 terminé : site publié 216 lieux dans le 44, 188 après filtre nocturne; répartition et trois doublons non distincts consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. Le registre conserve 219 lignes, dont 217 sourceId distincts et 2 fiches affichées sans identifiant. Nouvelle file tarifaire unique : lot 342, dix fiches traitées une fois; aucun tarif complet de nuitée camping-car 2027 nouvellement confirmé. Les prochains lots doivent poursuivre cette file sur les 216 lieux visibles, en sautant les trois entrées non distinctes, et ne pas reprendre automatiquement les anciens lots.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -22,7 +22,15 @@
       "recheckBookingSource": "https://www.campings.com/en-gb/campsite/camping-paradis-l-ile-de-kernodet-78366",
       "recheckTariffGridSource": "https://camping-iledekernodet.com/wp-content/uploads/2026/04/resume-tarifs-2026.pdf",
       "recheckSource": "https://camping-iledekernodet.com/wp-content/uploads/2026/04/resume-tarifs-2026.pdf",
-      "recheckOfficialSource": "https://camping-iledekernodet.com/emplacement-camping-loire-atlantique/"
+      "recheckOfficialSource": "https://camping-iledekernodet.com/emplacement-camping-loire-atlantique/",
+      "tariffQueueLot": 342,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "Lot tarifaire 342 (19/11/2026) : seule la grille officielle 2026 est publiée. Emplacement standard 1–2 personnes, véhicule et électricité : 19–35 €/nuit selon périodes, hors taxe et écoparticipation. Pas de tarif 2027 trouvé.",
+      "tariffQueueNextCheck": "Demander une grille datée 2027 pour camping-car, avec périodes, taxe, écoparticipation et frais.",
+      "tariffQueueSources": [
+        "https://camping-iledekernodet.com/wp-content/uploads/2026/04/resume-tarifs-2026.pdf",
+        "https://camping-iledekernodet.com/wp-content/uploads/2026/03/CGV_fr_2026.pdf"
+      ]
     },
     {
       "sourceId": "CCF44-ASSERAC-DOMAINE-PONT-MAHE-2026",
@@ -47,7 +55,15 @@
       "recheckSource": "https://www.pont-mahe.com/",
       "recheckConditionsSource": "https://www.pont-mahe.com/emplacements/",
       "recheckOfficialSource": "https://www.pont-mahe.com/",
-      "recheckPitchesSource": "https://www.pont-mahe.com/emplacements/"
+      "recheckPitchesSource": "https://www.pont-mahe.com/emplacements/",
+      "tariffQueueLot": 342,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "Lot tarifaire 342 (19/11/2026) : le site officiel annonce la saison 2027 du 09/04 au 03/10, mais la page camping-car porte encore les dates 04/04–26/09/2026 et aucun tarif de nuitée 2027. Saison générale non suffisante pour confirmer les emplacements camping-car.",
+      "tariffQueueNextCheck": "Confirmer l’ouverture 2027 des emplacements camping-car et obtenir leur tarif, avec taxes et frais séparés.",
+      "tariffQueueSources": [
+        "https://www.pont-mahe.com/",
+        "https://www.pont-mahe.com/emplacements/"
+      ]
     },
     {
       "sourceId": "CCF44-STE-LUCE-PAUSE-LOIRE-2026",
@@ -69,7 +85,15 @@
       "recheckTariffImageSource": "https://camping-pauseloire.com/wp-content/uploads/2026/07/Tarifs-emplacements-2026.png",
       "recheckSource": "https://camping-pauseloire.com/en/camping-pause-loire-english/rates/",
       "recheckSecondarySource": "https://camping-pauseloire.com/camping-loire-a-velo/",
-      "recheckBookingSource": "https://camping-pauseloire.com/reservation/"
+      "recheckBookingSource": "https://camping-pauseloire.com/reservation/",
+      "tariffQueueLot": 342,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "Lot tarifaire 342 (19/11/2026) : l’opérateur confirme les emplacements camping-car de 100 m² et branchements 5/10 A. Les 13,66 € annoncés sur la page Loire à Vélo relèvent d’une offre d’étape cycliste, pas d’un tarif camping-car établi. Aucun prix camping-car 2027 publié.",
+      "tariffQueueNextCheck": "Demander un tarif 2027 camping-car avec électricité, taxe et conditions; garder l’offre cycliste séparée.",
+      "tariffQueueSources": [
+        "https://camping-pauseloire.com/location-mobil-home-nantes/emplacements-camping-caravaning-nantes/",
+        "https://camping-pauseloire.com/camping-loire-a-velo/"
+      ]
     },
     {
       "sourceId": "CCF44-PRAIRIES-ETANG-2026",
@@ -94,7 +118,14 @@
       "recheckTourismSource": "https://www.labaule-guerande.com/offres/camping-les-prairies-de-letang-asserac-fr-6011392/",
       "recheckClassSource": "https://www.lesprairies.net/wp-content/uploads/2023/02/document-fr-637871343871315535-1.pdf",
       "recheckOfficialSource": "https://www.lesprairies.net/emplacements/",
-      "recheckPitchSource": "https://www.lesprairies.net/camping-car-guerande/"
+      "recheckPitchSource": "https://www.lesprairies.net/camping-car-guerande/",
+      "tariffQueueLot": 342,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "Lot tarifaire 342 (19/11/2026) : l’opérateur confirme 42 parcelles de 100–150 m², camping-cars admis, branchement 10 A et eau proche. Aucun montant consultable ni barème 2027.",
+      "tariffQueueNextCheck": "Obtenir un tarif daté 2027 pour deux adultes et camping-car, avec/sans électricité, taxe et frais.",
+      "tariffQueueSources": [
+        "https://www.lesprairies.net/emplacements/"
+      ]
     },
     {
       "sourceId": "CCF44-MESQUER-PRADEROI-2026",
@@ -118,7 +149,14 @@
       "recheckTariffPdfSource": "https://api.evolusite.fr/file/download/tarifs-camping-le-praderoi-veqev.pdf",
       "recheckConditionsSource": "https://camping-praderoi.com/",
       "recheckOfficialSource": "https://camping-praderoi.com/",
-      "recheckPitchSource": "https://camping-praderoi.com/emplacement-camping-mesquer"
+      "recheckPitchSource": "https://camping-praderoi.com/emplacement-camping-mesquer",
+      "tariffQueueLot": 342,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "Lot tarifaire 342 (19/11/2026) : le site officiel indique toujours une fermeture à partir du 15/10/2026; aucun calendrier de réouverture ni tarif 2027 affiché.",
+      "tariffQueueNextCheck": "Confirmer les dates d’ouverture 2027 puis obtenir un tarif camping-car daté; ne pas utiliser le PDF sans millésime comme barème 2027.",
+      "tariffQueueSources": [
+        "https://camping-praderoi.com/"
+      ]
     },
     {
       "sourceId": "CCF44-TREFFIEUX-GRUELLAU-2026",
@@ -140,7 +178,16 @@
       "recheckHistoricSource": "https://admin-rando.loire-atlantique.fr/api/fr/touristiccontents/187399/aire-naturelle-de-camping-etang-de-gruellau.pdf",
       "recheckSource": "https://campinggruellau.lemue.fr/",
       "recheckConditionsSource": "https://campinggruellau.lemue.fr/",
-      "recheckOfficialSource": "https://campinggruellau.lemue.fr/"
+      "recheckOfficialSource": "https://campinggruellau.lemue.fr/",
+      "tariffQueueLot": 342,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "Lot tarifaire 342 (19/11/2026) : les pages officielles donnent des prix d’appel non datés : 4 €/nuit emplacement Nature sans électricité (véhicule en option) et 8 €/nuit emplacement Lumière avec électricité. Camping-cars admis, mais le total pour véhicule/personnes n’est pas précisé et aucun tarif 2027 daté n’est publié.",
+      "tariffQueueNextCheck": "Conserver 4/8 € comme tarifs d’appel non datés, pas comme total 2027; vérifier le coût du véhicule et le total pour des dates précises.",
+      "tariffQueueSources": [
+        "https://campinggruellau.lemue.fr/",
+        "https://campinggruellau.lemue.fr/hebergements/emplacement-lumiere-electricite-incluse.html",
+        "https://campinggruellau.lemue.fr/hebergements/emplacements-nature-sans-electricite-vehicule-en-option.html"
+      ]
     },
     {
       "sourceId": "CCF44-MESQUER-TREAMBERT-2026",
@@ -160,7 +207,14 @@
       "recheckCampsiteOffersSource": "https://www.ceveo.com/sejours-au-camping",
       "recheckSource": "https://www.ceveo.com/residence/mesquer-pays-de-guerande",
       "recheckTariffSource": "https://www.ceveo.com/residence/mesquer-pays-de-guerande",
-      "recheckConditionsSource": "https://www.ceveo.com/residence/mesquer-pays-de-guerande"
+      "recheckConditionsSource": "https://www.ceveo.com/residence/mesquer-pays-de-guerande",
+      "tariffQueueLot": 342,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "Lot tarifaire 342 (19/11/2026) : Cévéo annonce l’ouverture des ventes Été 2027 le 17/11, mais la page décrit le village vacances/locations et ne confirme pas les 15 emplacements camping-car historiques ni leur tarif.",
+      "tariffQueueNextCheck": "Faire confirmer le maintien et l’ouverture 2027 des places camping-car; demander ensuite leur tarif.",
+      "tariffQueueSources": [
+        "https://www.ceveo.com/residence/mesquer-pays-de-guerande"
+      ]
     },
     {
       "sourceId": "CCF44-MESQUER-GCU-SORLOC-H-2026",
@@ -185,7 +239,15 @@
       "recheckTariff2026Source": "https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf",
       "recheckSource": "https://www.gcu.asso.fr/campings/camping-mesquer/",
       "recheckSecondarySource": "https://www.gcu.asso.fr/campings/camping-mesquer/",
-      "recheckConditionsSource": "https://www.gcu.asso.fr/campings/camping-mesquer/"
+      "recheckConditionsSource": "https://www.gcu.asso.fr/campings/camping-mesquer/",
+      "tariffQueueLot": 342,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "Lot tarifaire 342 (19/11/2026) : page et brochure officielle disponibles restent millésimées 2026. Brochure 2026 à Mesquer : emplacement + 1 adulte 24,09 €/nuit; adulte supplémentaire 5,68 €, enfant 2,84 €, emplacement non-adhérent 29,76 €, adulte non-adhérent 11,35 €, enfant non-adhérent 5,68 €. Aucun tarif ni calendrier 2027 trouvé.",
+      "tariffQueueNextCheck": "Garder ces montants comme référence 2026; obtenir la grille 2027 avec conditions d’adhésion, électricité, taxe et frais.",
+      "tariffQueueSources": [
+        "https://www.gcu.asso.fr/campings/camping-mesquer/",
+        "https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf"
+      ]
     },
     {
       "sourceId": "CCF44-MESQUER-CAMPING-BEAUPRE-2026",
@@ -235,7 +297,14 @@
       "recheckPitchConditionsSource": "https://campinglesamisdelanaturepiriac.fr/camping-de-pors-er-ster/informations-dordre-general/",
       "recheckSource": "https://campinglesamisdelanaturepiriac.fr/tarifs-reservations-avis/",
       "recheckConditionsSource": "https://campinglesamisdelanaturepiriac.fr/tarifs-reservations-avis/",
-      "recheckOfficialSource": "https://campinglesamisdelanaturepiriac.fr/tarifs-reservations-avis/"
+      "recheckOfficialSource": "https://campinglesamisdelanaturepiriac.fr/tarifs-reservations-avis/",
+      "tariffQueueLot": 342,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "Lot tarifaire 342 (19/11/2026) : la page officielle est explicitement « Tarifs 2026 ». Pour deux adultes, emplacement nu, véhicule camping-car et électricité : 23,10 €/nuit hors taxe, soit 23,54 € avec la taxe 2026 de 0,22 €/adulte. Aucun tarif ou calendrier 2027 publié; pas de plein d’eau ni de vidange des eaux grises pour les camping-cars.",
+      "tariffQueueNextCheck": "Conserver 23,54 € comme calcul historique 2026; demander tarifs/dates 2027 et conditions adhérent/non-adhérent.",
+      "tariffQueueSources": [
+        "https://campinglesamisdelanaturepiriac.fr/tarifs-reservations-avis/"
+      ]
     },
     {
       "sourceId": "CCF44-PLAINE-LE-BERNIER-2026",
@@ -258,7 +327,14 @@
       "recheckSource": "https://camping-lebernier.fr/",
       "recheckSecondarySource": "https://camping-lebernier.fr/",
       "recheckTertiarySource": "https://www.camping.info/fr/emplacement-de-camping/camping-le-bernier",
-      "recheckOfficialSource": "https://camping-lebernier.fr/"
+      "recheckOfficialSource": "https://camping-lebernier.fr/",
+      "tariffQueueLot": 342,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "Lot tarifaire 342 (19/11/2026) : le site annonce saison et tarifs 2026. L’offre couple de 294 € concerne une semaine (7 nuits minimum, deux personnes), sans préciser si un emplacement camping-car est inclus. Aucun tarif camping-car 2027 daté.",
+      "tariffQueueNextCheck": "Demander un devis 2027 détaillant emplacement camping-car, véhicule, personnes, électricité, taxe et frais; ne pas convertir l’offre hebdomadaire en prix par nuit.",
+      "tariffQueueSources": [
+        "https://camping-lebernier.fr/"
+      ]
     },
     {
       "sourceId": "CCF44-GUERANDE-LA-FONTAINE-2026",
