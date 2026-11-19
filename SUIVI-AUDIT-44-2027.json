@@ -4631,12 +4631,18 @@
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
       "recheckedAt": "2026-11-19",
       "recheckLot": 333,
-      "recheckFinding": "Contrôle du 19/11/2026 : la grille CCP affiche 15 €/24 h du 31/12/2026 au 31/12/2027, mais la taxe de séjour à 1,32 €/24 h est seulement datée jusqu’au 31/12/2026; total 2027 non confirmé (ne pas afficher 16,32 €). Parking 5 h + services : 6 € séparément. Fermeture hivernale du 02/11/2026 au 01/04/2027.",
-      "recheckNextCheck": "Afficher 15 €/24 h de base et séparer taxe de séjour à confirmer, parking 5 h + services à 6 € et fermeture jusqu’au 01/04/2027; contrôler le tarif au panier après réouverture.",
+      "recheckFinding": "Contrôle ciblé du 19/11/2026 : la page officielle CCP affiche le tarif de base de 15 €/24 h jusqu’au 31/12/2027, une taxe opérateur de 1,32 €/24 h du 01/01 au 31/12/2027 et un total courant de 16,32 €/24 h. Le montant du barème municipal reste non vérifié indépendamment. Parking 5 h + services à 6 € séparément; fermeture hivernale jusqu’au 01/04/2027.",
+      "recheckNextCheck": "Le prix 2027 affiché par CCP est confirmé. Recontrôler au panier après la réouverture du 02/04/2027 ou si l’opérateur modifie son barème; conserver le montant municipal distinct de l’affichage CCP.",
       "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
       "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
       "recheckOfficialSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
-      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port"
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
+      "tariffFollowUpAt": "2026-11-19",
+      "tariffFollowUpFinding": "La page officielle CCP publie maintenant une taxe 2027 de 1,32 €/24 h du 01/01 au 31/12/2027 et un total courant de 16,32 €/24 h (base 15 €). Cela confirme le montant facturé par l’opérateur; le tarif municipal n’est pas indépendamment confirmé.",
+      "tariffFollowUpNextCheck": "Recontrôler au panier après la réouverture du 02/04/2027 ou en cas de changement d’affichage.",
+      "tariffFollowUpSources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000049",
