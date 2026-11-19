@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 329 (19/11/2026), dix fiches existantes, sans ajout ni suppression. Corrections tarifaires CCP : Piriac-La Tranchée 15,27 €/24 h en 2027 (13,95 + taxe 1,32), La Pointe 14,25 € (12,93 + 1,32); Guérande 14,82 €, Les Pinettes 15,57 €, La Baule 15,82 €, Grande Falaise 15,37 €. Biochon demeure temporairement fermée. À Assérac, parking de la mairie gratuit et limite communale de 48 h. À La Boissière-du-Doré, 3 € concerne la borne de services et le parking est annoncé gratuit. Mésanger-Sébilière : doublon probable à vérifier par coordonnées.",
+  "note": "Dernier contrôle : lot 330 (19/11/2026), dix fiches existantes, sans ajout ni suppression. Corrections/précisions : Les Bassins de Launay affichent 3 €/nuit et une ouverture annuelle, sans millésime 2027; le tarif 2026 de Choisel (12 €/24 h) est distinct. Le Véridet n’a qu’un barème 2026 (13,50–16,50 €/nuit + taxe 1,10), avec conflit de montant à résoudre. La Haie-Fouassière : jeton borne 2 €, pas tarif de nuitée. Corsept et le Marais de Saint-Lumine sont gratuits selon les fiches territoriales, mais la règle nocturne reste à confirmer. Aire de pique-nique Guémené-Penfao : ne pas la confondre avec la halte nautique voisine.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -1060,13 +1060,15 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://www.mairie-chateaubriant.fr/camping-cars/",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 309,
-      "recheckFinding": "Contrôle du 19/11/2026 : la page de la mairie confirme aux Bassins de Launay une aire d’accueil camping-car ouverte toute l’année à 3 €/nuit. Aucun détail sur les services inclus ou un tarif 2027 millésimé n’est donné. Le site est distinct de Choisel.",
-      "recheckNextCheck": "Conserver 3 €/nuit comme tarif municipal publié, en précisant l’absence de millésime 2027; demander les services inclus et maintenir la distinction avec Choisel.",
+      "recheckLot": 330,
+      "recheckFinding": "Contrôle du 19/11/2026 : la mairie de Châteaubriant annonce pour Les Bassins de Launay une aire ouverte toute l’année à 3 €/nuit et place les aires municipales dans les lieux permettant de passer une ou plusieurs nuits. La page ne date pas ce tarif comme 2027. À distinguer du site de Choisel, dont les tarifs affichés sont explicitement 2026 (12 €/24 h et 6 €/5 h).",
+      "recheckNextCheck": "Garder 3 €/nuit comme tarif affiché par la mairie, mais confirmer son millésime et son maintien en 2027; ne pas confondre avec les prix de l’aire de Choisel.",
       "recheckTariffSource": "https://www.mairie-chateaubriant.fr/camping-cars/",
       "recheckConditionsSource": "https://www.mairie-chateaubriant.fr/camping-cars/",
       "recheckSource": "https://www.mairie-chateaubriant.fr/camping-cars/",
-      "recheckOfficialSource": "https://www.mairie-chateaubriant.fr/camping-cars/"
+      "recheckOfficialSource": "https://www.mairie-chateaubriant.fr/camping-cars/",
+      "recheckMunicipalitySource": "https://www.mairie-chateaubriant.fr/camping-cars/",
+      "recheckTariffPageSource": "https://www.mairie-chateaubriant.fr/gites-chambres-dhotes-et-campings/"
     },
     {
       "sourceId": "ACCAMPDL044V501OIH",
@@ -2622,9 +2624,9 @@
       "nextCheck": "Confirmer auprès de la commune le maintien de la gratuité et la règle de durée ou de nuitée.",
       "source": "https://rando.loire-atlantique.fr/service/183723-AIRE-DU-MARAIS",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 308,
-      "recheckFinding": "Contrôle du 19/11/2026 : les fiches départementale et touristique confirment 3 places pour camping-cars et le stationnement gratuit à l’Aire du Marais. Toilettes et aire de pique-nique sont à proximité. Aucun tarif de service, durée maximale ni autorisation explicite de nuitée n’est publié; la gratuité est relevée mais pas millésimée 2027.",
-      "recheckNextCheck": "Conserver stationnement gratuit séparé des équipements de proximité; demander à la commune la limite de durée et l’autorisation de nuitée avant de l’afficher comme établie.",
+      "recheckLot": 330,
+      "recheckFinding": "Contrôle du 19/11/2026 : la fiche départementale confirme trois emplacements camping-car gratuits à proximité des marais du lac de Grand-Lieu, avec toilettes et aire de pique-nique à proximité. Elle ne précise ni services techniques, ni durée maximale, ni autorisation nocturne propre à ce parking. La gratuité affichée n’établit pas à elle seule les règles de séjour 2027.",
+      "recheckNextCheck": "Conserver 0 € comme stationnement gratuit selon la fiche territoriale; faire confirmer par la commune la durée autorisée, la nuitée et les services avant de renseigner ces champs.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/183723-AIRE-DU-MARAIS",
       "recheckSource": "https://rando.loire-atlantique.fr/service/183723-AIRE-DU-MARAIS",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/183723-AIRE-DU-MARAIS"
@@ -2657,13 +2659,15 @@
       "nextCheck": "Garder la nuitée comme non établie; demander à la mairie si ce point précis accepte les camping-cars pour la nuit.",
       "source": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 308,
-      "recheckFinding": "Contrôle du 19/11/2026 : la source décrit une aire de pique-nique à Beslé. Les équipements de la halte nautique (eau, électricité, douches, sanitaires et ponton) sont présentés dans la description de la halte à proximité et ne prouvent pas qu’ils sont disponibles sur la fiche de pique-nique. Aucun tarif ou accueil nocturne camping-car confirmé pour ce point.",
-      "recheckNextCheck": "Garder cette fiche comme aire de pique-nique; ne pas lui attribuer prix, services ou nuitée de la halte nautique voisine. Demander à la commune si les camping-cars peuvent y passer la nuit.",
+      "recheckLot": 330,
+      "recheckFinding": "Contrôle du 19/11/2026 : la fiche touristique consultée identifie ce point comme une aire de pique-nique à Guémené-Penfao. Les équipements eau, électricité, douches et sanitaires apparaissent pour la halte nautique de Beslé à proximité, qui est une autre fiche. Aucune preuve que ce point précis accepte les camping-cars, ni tarif ou nuitée confirmé.",
+      "recheckNextCheck": "Ne pas associer les équipements de la halte nautique à cette aire de pique-nique. Vérifier l’emplacement exact et demander à la commune si le stationnement d’un camping-car et la nuitée sont autorisés.",
       "recheckTariffSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/",
       "recheckSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/",
       "recheckOfficialSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/",
-      "recheckNearbyStopSource": "https://tourisme-pays-redon.com/sorganiser/dormir/haltes-nautiques-et-ports-de-plaisance/"
+      "recheckNearbyStopSource": "https://tourisme-pays-redon.com/sorganiser/dormir/haltes-nautiques-et-ports-de-plaisance/",
+      "recheckTourismSource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-11/",
+      "recheckNearbyHaltSource": "https://tourisme-pays-redon.com/sorganiser/dormir/haltes-nautiques-et-ports-de-plaisance/"
     },
     {
       "sourceId": "ACCAMACCAMPDL044000117",
@@ -2696,13 +2700,15 @@
       "nextCheck": "Faire confirmer par l’exploitant le prix applicable au panier, le nombre d’adultes inclus, la taxe, les dates du tarif, et l’adresse opérationnelle exacte; conserver les montants séparés jusqu’à réponse.",
       "source": "https://www.labaule-guerande.com/offres/aire-de-camping-cars-le-veridet-piriac-sur-mer-fr-6046448/",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 308,
-      "recheckFinding": "Contrôle du 19/11/2026 : la fiche touristique affiche une grille 2026 de 13,50–16,50 €/nuit et 1,10 € de taxe de séjour; aucun barème 2027 n’est trouvé. Qipéo affiche des montants différents et l’adresse 406 avenue Louis-Clément, tandis que la fiche touristique indique le 410. Tarif courant 2027 et adresse opérationnelle restent à confirmer.",
-      "recheckNextCheck": "Demander à l’exploitant le barème 2027 par période et nombre d’adultes, la taxe, les inclusions et l’adresse exacte; conserver séparées les grilles 2026 et Qipéo.",
+      "recheckLot": 330,
+      "recheckFinding": "Contrôle du 19/11/2026 : la fiche officielle de l’Office de tourisme affiche 13,50–16,50 €/nuit, taxe 1,10 €, ouverture toute l’année 2026 et adresse 410 avenue Louis Clément. Ce barème est explicitement 2026; aucun tarif 2027 n’est publié. Le prix 13,62 €/24 h relevé sur Qipéo reste en contradiction avec la fourchette de l’Office et ne doit pas être fusionné avec celle-ci.",
+      "recheckNextCheck": "Demander à l’exploitant le barème 2027, le nombre de personnes incluses, taxe, périodes et adresse opérationnelle; conserver séparément le prix Qipéo jusqu’à résolution de l’écart.",
       "recheckTariffSource": "https://www.labaule-guerande.com/offres/aire-de-camping-cars-le-veridet-piriac-sur-mer-fr-6046448/",
       "recheckSource": "https://www.labaule-guerande.com/offres/aire-de-camping-cars-le-veridet-piriac-sur-mer-fr-6046448/",
       "recheckOfficialSource": "https://www.labaule-guerande.com/offres/aire-de-camping-cars-le-veridet-piriac-sur-mer-fr-6046448/",
-      "recheckOperatorTariffSource": "https://www.qipeo.com/detail/b91ba9ea-495b-448d-92d7-e4834b4724eb"
+      "recheckOperatorTariffSource": "https://www.qipeo.com/detail/b91ba9ea-495b-448d-92d7-e4834b4724eb",
+      "recheckTourismTariffSource": "https://www.labaule-guerande.com/offres/aire-de-camping-cars-le-veridet-piriac-sur-mer-fr-6046448/",
+      "recheckOperatorSource": "https://reseauaireservices.com/"
     },
     {
       "sourceId": "ACCAMEAIREDELAFERMEDELARFAUT",
@@ -2714,13 +2720,13 @@
       "nextCheck": "Demander directement à la ferme le tarif 2027, ce que couvre chaque option et les conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/183890-Aire-de-campings-cars-de-la-Ferme-de-l-Arfaut",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 308,
-      "recheckFinding": "Contrôle du 19/11/2026 : la fiche départementale confirme un accueil de camping-cars dans l’exploitation, sans prix publié. Un avis tiers consulté mentionne 12 €/24 h en 2024 pour stationnement, électricité, eau et vidange; ce n’est ni une source officielle ni une confirmation 2027.",
-      "recheckNextCheck": "Obtenir directement auprès de la ferme le prix 2027 et ses inclusions (personnes, électricité, eau, vidange, horaires et durée); ne pas présenter les 12 € comme tarif confirmé.",
+      "recheckLot": 330,
+      "recheckFinding": "Contrôle du 19/11/2026 : la fiche départementale confirme un accueil camping-car dans une exploitation agricole à Herbignac, mais ne publie aucun tarif ni détail des conditions. Les montants tiers relevés restent divergents (9–10 € la nuit, 12 € les 24 h avec services, et autres tarifs de borne); ils ne constituent pas un tarif officiel 2027.",
+      "recheckNextCheck": "Demander directement à la ferme le prix par nuit et les options distinctes (eau, électricité, vidange), la durée facturée, les dates d’ouverture et les modalités d’accès.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/183890-Aire-de-campings-cars-de-la-Ferme-de-l-Arfaut",
       "recheckSource": "https://rando.loire-atlantique.fr/service/183890-Aire-de-campings-cars-de-la-Ferme-de-l-Arfaut",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/183890-Aire-de-campings-cars-de-la-Ferme-de-l-Arfaut",
-      "recheckSecondarySource": "https://park4night.com/en/place/116282"
+      "recheckSecondarySource": "https://park4night.com/fr/place/116282"
     },
     {
       "sourceId": "ACCAMEAIREDESTMOLF",
@@ -2732,13 +2738,14 @@
       "nextCheck": "Demander à la mairie de Saint-Molf le tarif éventuel, les services accessibles et l’autorisation de stationnement nocturne.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-de-saint-molf",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 308,
-      "recheckFinding": "Contrôle du 19/11/2026 : la page régionale décrit au Pont de Clin une aire d’arrêt ombragée adaptée aux camping-cars, avec table et poubelle. Aucun tarif, service technique, durée ou règle de nuitée n’est indiqué.",
-      "recheckNextCheck": "Garder le prix et la nuitée comme non confirmés; demander à la mairie si le stationnement nocturne est autorisé et si des services sont payants.",
+      "recheckLot": 330,
+      "recheckFinding": "Contrôle du 19/11/2026 : la fiche touristique de Saint-Molf décrit le Pont de Clin comme une aire d’arrêt ombragée adaptée aux camping-cars, avec table de pique-nique et poubelle. Aucun tarif, service technique, durée maximale ou droit de nuitée n’est indiqué.",
+      "recheckNextCheck": "Maintenir le tarif et la nuitée non confirmés; demander à la mairie si la nuit est autorisée et s’il existe des services ou une limite de durée.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-de-saint-molf",
       "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-de-saint-molf",
       "recheckOfficialSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-de-saint-molf",
-      "recheckMunicipalitySource": "https://www.saint-molf.fr/"
+      "recheckMunicipalitySource": "https://www.mairie-saint-molf.fr/",
+      "recheckTourismSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-de-saint-molf"
     },
     {
       "sourceId": "ACCAMACCAMEELMANAS",
@@ -2750,14 +2757,15 @@
       "nextCheck": "Confirmer l’éligibilité et les conditions d’accès à l’aire, la capacité actuelle, puis la grille et le montant de réservation 2027; garder séparés cotisation, nuitée et électricité.",
       "source": "https://www.anas.asso.fr/moutiers-en-retz",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 308,
-      "recheckFinding": "Contrôle du 19/11/2026 : l’ANAS annonce 35 emplacements dédiés et une aire de vidange aux Moutiers-en-Retz. L’accès au village est réservé aux adhérents ou agents du ministère de l’Intérieur avec justificatif. La page ne publie pas de tarif camping-car 2027; les informations de réservation précédemment trouvées sont millésimées 2026.",
-      "recheckNextCheck": "Confirmer auprès de l’ANAS l’accès, les dates, le tarif 2027 et les prestations; distinguer cotisation, nuitée, réservation et électricité.",
+      "recheckLot": 330,
+      "recheckFinding": "Contrôle du 19/11/2026 : l’ANAS annonce 35 emplacements camping-car dédiés et une aire de vidange. L’accès aux villages vacances est réservé aux adhérents/souscripteurs et agents admissibles; les réservations visibles et la grille précédemment documentée concernent 2026. Aucun tarif 2027 établi. L’ancienne brochure indiquant 42 places n’est pas cohérente avec la capacité affichée actuellement.",
+      "recheckNextCheck": "Confirmer l’éligibilité requise et la disponibilité effective des emplacements camping-car, puis obtenir le barème 2027 en séparant adhésion, nuitée, réservation et électricité; utiliser 35 comme capacité affichée actuelle en attendant.",
       "recheckTariffSource": "https://www.anas.asso.fr/moutiers-en-retz",
       "recheckSource": "https://www.anas.asso.fr/moutiers-en-retz",
       "recheckOfficialSource": "https://www.anas.asso.fr/moutiers-en-retz",
       "recheckBookingSource": "https://www.anas.asso.fr/centres",
-      "recheckCapacitySecondarySource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-6"
+      "recheckCapacitySecondarySource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-6",
+      "recheckReservationsSource": "https://www.anas.asso.fr/centres"
     },
     {
       "sourceId": "ACCAMPDL044V50BE5G",
@@ -2769,12 +2777,13 @@
       "nextCheck": "Vérifier la signalétique de la borne ou auprès de la mairie la durée/quantité par jeton, les règles nocturnes et tout tarif de stationnement 2027.",
       "source": "https://rando.loire-atlantique.fr/service/180259-Aire-de-service-Camping-Car-La-Haie-Fouassiere",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 308,
-      "recheckFinding": "Contrôle du 19/11/2026 : la fiche départementale confirme eau, électricité, vidanges et un jeton de services à 2 €, vendu à la mairie et dans deux boulangeries. La fiche ne donne ni volume d’eau ni durée d’électricité par jeton, et ne publie pas de prix de stationnement ou règle nocturne.",
-      "recheckNextCheck": "Enregistrer les 2 € comme tarif de jeton de services, pas comme prix de nuitée; vérifier la quantité d’eau et durée électrique seulement si elles doivent être précisées.",
+      "recheckLot": 330,
+      "recheckFinding": "Contrôle du 19/11/2026 : la fiche territoriale décrit eau, électricité, vidange des eaux grises et cassette, ainsi qu’un jeton à 2 € vendu en mairie et boulangeries. Le montant rémunère l’accès aux services de borne; aucun tarif de nuitée ni autorisation de stationnement nocturne n’est précisé.",
+      "recheckNextCheck": "Enregistrer les 2 € comme jeton de services, pas comme prix de nuitée; demander à la mairie la quantité/durée associée et les conditions éventuelles de stationnement la nuit.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180259-Aire-de-service-Camping-Car-La-Haie-Fouassiere",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180259-Aire-de-service-Camping-Car-La-Haie-Fouassiere",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/180259-Aire-de-service-Camping-Car-La-Haie-Fouassiere"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/180259-Aire-de-service-Camping-Car-La-Haie-Fouassiere",
+      "recheckTourismSource": "https://rando.loire-atlantique.fr/service/180259-Aire-de-service-Camping-Car-La-Haie-Fouassiere"
     },
     {
       "sourceId": "ACCAMPDL044V500A9N",
@@ -2786,12 +2795,14 @@
       "nextCheck": "Demander à la mairie le droit de stationner la nuit, la durée maximale et le maintien éventuel de la gratuité pour 2027.",
       "source": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 308,
-      "recheckFinding": "Contrôle du 19/11/2026 : la fiche départementale localise le parking de la Loire derrière la supérette à Oudon, sans prix, durée maximale, services dédiés ni règle de nuitée. Le stop-accueil du camping de la Tour, qui annonce une limite de 48 h, est une fiche distincte.",
-      "recheckNextCheck": "Demander à la mairie si ce parking public autorise la nuitée et pour quelle durée; ne pas attribuer au parking les services ni la limite de 48 h du camping voisin.",
+      "recheckLot": 330,
+      "recheckFinding": "Contrôle du 19/11/2026 : la fiche officielle départementale situe le parking derrière la supérette à Oudon, sans indiquer prix, durée maximale ou règle de nuitée. Une documentation de Pays d’Ancenis déjà consultée indiquait la mise à disposition gratuite, mais sans millésime 2027 ni règle nocturne propre.",
+      "recheckNextCheck": "Conserver le tarif de nuitée et la règle nocturne comme non confirmés; demander à la mairie la gratuité actuelle, la durée autorisée et les services réellement présents sur cette fiche.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire",
       "recheckSource": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire",
+      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire",
+      "recheckTourismSource": "https://www.pays-ancenis.com/fileadmin/user_upload/PA_185x220_AnnuairePros_2024.pdf"
     },
     {
       "sourceId": "ACCAMACCAMEAIRESTATIONNEMENTCORSEPT",
@@ -2803,12 +2814,14 @@
       "nextCheck": "Confirmer auprès de la mairie la durée et les conditions de nuitée, et si la gratuité est maintenue en 2027.",
       "source": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 308,
-      "recheckFinding": "Contrôle du 19/11/2026 : la fiche départementale confirme le stationnement municipal gratuit pour camping-cars au port de la Maison Verte. Elle ne précise pas de durée maximale, de règle nocturne ni de services payants; maintien en 2027 non daté.",
-      "recheckNextCheck": "Conserver la gratuité du stationnement comme information publiée sans millésime 2027; demander à la mairie la durée et les règles nocturnes avant de les afficher.",
+      "recheckLot": 330,
+      "recheckFinding": "Contrôle du 19/11/2026 : le département et l’Office de tourisme décrivent le parking municipal du port de la Maison Verte comme gratuit pour les camping-cars. Les sources ne précisent ni durée maximale, ni permission de nuitée explicite, ni services techniques ou tarif 2027 séparé.",
+      "recheckNextCheck": "Garder la gratuité comme donnée de stationnement; confirmer auprès de la commune la durée autorisée et la règle nocturne, sans déduire le droit de nuitée de la seule gratuité.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
       "recheckSource": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
+      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
+      "recheckTourismSource": "https://www.saint-brevin.com/aire-de-stationnement-corsept.html"
     },
     {
       "sourceId": "ACCAMACCAMEAIRECAMPINGCAREASYPARK",
