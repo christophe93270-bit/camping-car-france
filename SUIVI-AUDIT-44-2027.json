@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes, écarts de comptage consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. File tarifaire unique par lieux distincts : lots 342 à 351, dix fiches par lot; alias connus, dont way/909625355 pour la Sébilière, et doublon technique de la Grotte Saint-Jean exclus de la file. Aucun changement aux données publiées du site.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes, écarts de comptage consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. File tarifaire unique par lieux distincts : lots 342 à 352, dix fiches par lot; alias connus, le doublon technique de la Grotte Saint-Jean et les doublons potentiels exclus du comptage des lieux. Après le lot 352, 109 lignes du registre n'ont pas encore de marqueur de passage; le nombre de lieux distincts restant sera confirmé à mesure que les doublons sont tranchés. Aucun changement aux données publiées du site.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -1442,7 +1442,14 @@
       "recheckServiceSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
       "recheckTariff2026Source": "https://www.camping-clisson.com/emplacements/",
       "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
-      "recheckCampingSource": "https://camping.clissonsevremaine.fr/"
+      "recheckCampingSource": "https://camping.clissonsevremaine.fr/",
+      "tariffQueueLot": 352,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 352 (19/11/2026) : La source départementale confirme une borne de service seulement : vidange gratuite et eau à 3 € le jeton. Stationnement interdit devant le camping; étape nuit à 12–15 € + taxe et électricité 5 € concernent le camping séparément.",
+      "tariffQueueNextCheck": "Garder comme borne de services uniquement; ne pas attribuer le forfait du camping à la borne.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50I1AR",
@@ -1701,7 +1708,15 @@
       "recheckSource": "https://www.lafermedelapiardiere.com/2025/12/fermeture-du-camping.html",
       "recheckSource2": "https://www.commune-de-plesse.com/herbergement",
       "recheckOfficialSource": "https://www.lafermedelapiardiere.com/2025/12/fermeture-du-camping.html",
-      "recheckSecondarySource": "https://www.commune-de-plesse.com/herbergement"
+      "recheckSecondarySource": "https://www.commune-de-plesse.com/herbergement",
+      "tariffQueueLot": 352,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 352 (19/11/2026) : L’exploitant a publié le 16/12/2025 l’annonce de fermeture du camping à la ferme. L’annuaire municipal référence encore l’accueil, mais aucun tarif actuel ou 2027 n’est applicable après fermeture.",
+      "tariffQueueNextCheck": "Marquer fermé depuis le 16/12/2025 et retirer tout tarif courant; la fiche municipale semble non actualisée.",
+      "tariffQueueSources": [
+        "https://www.lafermedelapiardiere.com/2025/12/fermeture-du-camping.html",
+        "https://www.commune-de-plesse.com/herbergement"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50Y077",
@@ -1777,7 +1792,14 @@
       "recheckConditionsSource": "https://fegreac.fr/pont-miny/",
       "recheckSource": "https://rando.loire-atlantique.fr/service/187458-Aire-de-pique-nique",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/187458-Aire-de-pique-nique",
-      "recheckSecondarySource": "https://park4night.com/fr/place/124857"
+      "recheckSecondarySource": "https://park4night.com/fr/place/124857",
+      "tariffQueueLot": 352,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 352 (19/11/2026) : La fiche départementale présente uniquement l’aire de pique-nique de Pont-Miny; elle ne confirme ni accueil camping-car, ni service, tarif ou nuitée.",
+      "tariffQueueNextCheck": "Ne pas présenter comme aire de camping-car ni autoriser la nuitée sans confirmation municipale.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/187458-Aire-de-pique-nique"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044V507FD5",
@@ -1798,7 +1820,14 @@
       "recheckSource2": "https://www.camping-laguichardiere.net/questions-frequentes/",
       "recheckOfficialSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/",
       "recheckFAQSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/",
-      "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/184066-Flower-Camping-La-Guichardiere"
+      "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/184066-Flower-Camping-La-Guichardiere",
+      "tariffQueueLot": 352,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 352 (19/11/2026) : La fiche départementale décrit le Flower Camping 4 étoiles et la location d’emplacements pour camping-cars. Elle ne confirme pas une aire indépendante ni un tarif 2027 propre à cette fiche.",
+      "tariffQueueNextCheck": "Classer comme emplacement de camping, distinct d’une aire autonome; vérifier le tarif du camping avant publication.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/184066-Flower-Camping-La-Guichardiere"
+      ]
     },
     {
       "sourceId": "ACCAMECCVIGIE",
@@ -1843,7 +1872,14 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/183919-AIRE-DE-STATIONNEMENT",
       "recheckSource": "https://rando.loire-atlantique.fr/service/183919-AIRE-DE-STATIONNEMENT",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/183919-AIRE-DE-STATIONNEMENT",
-      "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/180256-AIRE-AU-CAMPING-PORT-MULON-"
+      "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/180256-AIRE-AU-CAMPING-PORT-MULON-",
+      "tariffQueueLot": 352,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 352 (19/11/2026) : La fiche départementale confirme le stationnement de jour près de l’office de tourisme et l’interdit entre 20 h et 6 h. Vidange et nuitée au camping Port Mulon sont des offres distinctes.",
+      "tariffQueueNextCheck": "Garder le statut jour uniquement / nuit interdite; ne pas transférer les services ou prix du camping voisin.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/183919-AIRE-DE-STATIONNEMENT"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50ETZU",
@@ -1891,7 +1927,15 @@
       "recheckOfficialSource": "https://www.mesquer-quimiac.fr/aires-de-camping-car/",
       "recheckRegulationSource": "https://www.mesquer-quimiac.fr/wp-content/uploads/2021/06/2021-04-08-arrete-camping-cars.pdf",
       "recheckServicePageSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec",
-      "recheckOrderSource": "https://www.mesquer-quimiac.fr/wp-content/uploads/2021/06/2021-04-08-arrete-camping-cars.pdf"
+      "recheckOrderSource": "https://www.mesquer-quimiac.fr/wp-content/uploads/2021/06/2021-04-08-arrete-camping-cars.pdf",
+      "tariffQueueLot": 352,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 352 (19/11/2026) : Kerlagadec est une zone d’eau/vidange avec stationnement interdit. Le tarif communal 2026 de 7 €/nuitée et l’eau à 2 €/100 L identifient le stationnement de la Bôle de Merquel; ces frais ne doivent pas être appliqués à la zone de service.",
+      "tariffQueueNextCheck": "Maintenir la fiche de service sans nuitée; distinguer l’eau (2 €/100 L, tarif communal 2026 à reconfirmer) du stationnement à Merquel (7 €/nuitée).",
+      "tariffQueueSources": [
+        "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-kerlagadec",
+        "https://www.mesquer-quimiac.fr/wp-content/uploads/2026/02/Tarifs-2026-services-communaux.pdf"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51HCG9",
@@ -1910,7 +1954,14 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/187466-Aire-de-pique-nique",
       "recheckSource": "https://rando.loire-atlantique.fr/service/187466-Aire-de-pique-nique",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/187466-Aire-de-pique-nique",
-      "recheckSecondarySource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/"
+      "recheckSecondarySource": "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/",
+      "tariffQueueLot": 352,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 352 (19/11/2026) : L’office de tourisme confirme un point de pique-nique place de l’Église, sans accueil camping-car, tarif, service ou nuitée. Ce point est distinct de l’objet OSM près de l’église et de l’ancienne Piardière.",
+      "tariffQueueNextCheck": "Ne pas fusionner les fiches de Plessé ni annoncer de nuitée pour le point pique-nique.",
+      "tariffQueueSources": [
+        "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-27/"
+      ]
     },
     {
       "sourceId": "ACCAMEDREFFEAC",
@@ -1954,7 +2005,14 @@
       "recheckConditionsSource": "https://www.mairie-avessac.fr/aires-de-pique-nique/",
       "recheckSource": "https://rando.loire-atlantique.fr/service/187456-Aire-de-pique-nique",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/187456-Aire-de-pique-nique",
-      "recheckMunicipalitySource": "https://www.mairie-avessac.fr/aires-de-pique-nique/"
+      "recheckMunicipalitySource": "https://www.mairie-avessac.fr/aires-de-pique-nique/",
+      "tariffQueueLot": 352,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 352 (19/11/2026) : La source touristique décrit un point de pique-nique rue de Sainte-Marie. Les équipements de l’escale fluviale Painfaut citée sur la même page se rapportent à un autre lieu.",
+      "tariffQueueNextCheck": "Garder le point de pique-nique et l’escale fluviale séparés; ne pas transférer les services ou conditions de l’escale.",
+      "tariffQueueSources": [
+        "https://tourisme-pays-redon.com/hebergement/aire-de-pique-nique-2/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5003VR",
@@ -2222,7 +2280,15 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/187457-Aire-de-pique-nique",
       "nextAction": "Identifier précisément le site et confirmer s’il autorise le stationnement nocturne.",
       "recheckSource": "https://rando.loire-atlantique.fr/service/187457-Aire-de-pique-nique",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/187457-Aire-de-pique-nique"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/187457-Aire-de-pique-nique",
+      "tariffQueueLot": 352,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 352 (19/11/2026) : Les sources touristiques décrivent l’aire des Potinières comme site de pique-nique au bord du Don et signalent la guinguette PoséOdon; aucun accueil camping-car ou droit de nuitée n’est publié.",
+      "tariffQueueNextCheck": "Prix et statut nocturne non établis; demander confirmation à la commune avant classement comme halte camping-car.",
+      "tariffQueueSources": [
+        "https://tourisme-pays-redon.com/experiences/escapades-journee/pique-niquer-redon/",
+        "https://tourisme-pays-redon.com/restaurant/guinguette-poseodon/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50CKO9",
@@ -2475,7 +2541,14 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC",
       "recheckSecondarySource": "https://www.estuaire-sillon.fr/",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC",
+      "tariffQueueLot": 352,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 352 (19/11/2026) : La fiche départementale confirme une borne d’eau potable et de vidange sur le parking du Super U. Aucun tarif ou droit de nuitée n’est publié.",
+      "tariffQueueNextCheck": "Garder comme borne de services uniquement; tarif non confirmé et ne pas annoncer d’aire de nuit.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/180236-AIRE-DE-SERVICE-CAMPING-CAR-SUPER-U-SAINT-ETIENNE-DE-MONTLUC"
+      ]
     },
     {
       "sourceId": "ACCAMEAIRECAMPINGCARWELCOMFROSSAY",
