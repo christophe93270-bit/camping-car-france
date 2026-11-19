@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes, 217 sourceId distincts et 2 fiches affichées sans identifiant; trois écarts de comptage consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. La file tarifaire unique avance par lots de dix fiches distinctes (lots 342 à 347); le doublon technique de la Grotte Saint-Jean est exclu de cette file et relié à sa fiche parking. Aucun changement aux données publiées du site.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes, trois écarts de comptage consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. File tarifaire unique par fiches distinctes : lots 342 à 348, dix entrées par lot; les trois alias déjà identifiés et la zone technique de la Grotte Saint-Jean restent exclus de la file. Aucun changement aux données publiées du site.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -1928,7 +1928,14 @@
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/182528-Aire-de-camping-cars-de-Dreffeac",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/182528-Aire-de-camping-cars-de-Dreffeac",
       "recheckSource": "https://rando.loire-atlantique.fr/service/182528-Aire-de-camping-cars-de-Dreffeac",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/182528-Aire-de-camping-cars-de-Dreffeac"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/182528-Aire-de-camping-cars-de-Dreffeac",
+      "tariffQueueLot": 348,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 348 (19/11/2026) : La fiche départementale indique 6 à 8 emplacements, stationnement gratuit, ouvert toute l’année et sans service. La durée maximale et l’autorisation explicite de passer la nuit ne sont pas précisées.",
+      "tariffQueueNextCheck": "Garder gratuité et capacité publiées; confirmer auprès de la mairie les règles de nuitée et la durée maximale.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/182528-Aire-de-camping-cars-de-Dreffeac"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51HCFZ",
@@ -1965,7 +1972,14 @@
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz",
       "recheckSource": "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz",
+      "tariffQueueLot": 348,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 348 (19/11/2026) : La fiche départementale donne stationnement gratuit et borne de services: eau à 2 €/10 min, électricité et vidange; accès 24 h/24. L’accès permanent ne suffit pas à confirmer le droit d’y passer la nuit.",
+      "tariffQueueNextCheck": "Séparer parking gratuit et eau payante; confirmer le droit de nuitée et les conditions d’électricité/vidange auprès de la commune ou du Super U.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/5965-Aire-de-service-et-stationnement-de-Chaumes-en-Retz"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50028N",
@@ -1984,7 +1998,14 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
-      "recheckMunicipalitySource": "https://www.mairie-mouzillon.fr/"
+      "recheckMunicipalitySource": "https://www.mairie-mouzillon.fr/",
+      "tariffQueueLot": 348,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 348 (19/11/2026) : La fiche départementale confirme service et stationnement au complexe de la Prée, avec eau, vidange et paiement par carte, sans montant publié ni règle de nuitée. Les 3 € d’un annuaire participatif ne sont pas confirmés par l’opérateur.",
+      "tariffQueueNextCheck": "Demander à la mairie le prix de l’eau/vidange et les règles de stationnement nocturne; ne pas reprendre le prix d’annuaire.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V500766",
@@ -2010,7 +2031,14 @@
       "recheckOfficialSource": "https://www.nozay44.fr/medias/sites/4/2026/03/PV-conseil-municipal-11-12-2025.pdf",
       "recheckFacilitySource": "https://www.nozay44.fr/aire-de-camping-cars/",
       "recheckTourismTariffSource": "https://rando.loire-atlantique.fr/service/180251-AIRE-DE-STATIONNEMENT-ET-DE-SERVICES",
-      "recheckRegionalSource": "https://rando.loire-atlantique.fr/service/180251-AIRE-DE-STATIONNEMENT-ET-DE-SERVICES"
+      "recheckRegionalSource": "https://rando.loire-atlantique.fr/service/180251-AIRE-DE-STATIONNEMENT-ET-DE-SERVICES",
+      "tariffQueueLot": 348,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 348 (19/11/2026) : Les tarifs 2026 restent discordants : procès-verbal municipal 10 €/jour hors taxe, AirePark 9,50 €/nuit, fiche régionale 11,10 € taxe comprise. Aucun tarif 2027 établi; la consommation électrique a aussi son prix séparé.",
+      "tariffQueueNextCheck": "Demander à la mairie/AirePark le prix applicable en 2027 et la ventilation taxe/électricité; garder les trois montants comme références distinctes jusqu’à clarification.",
+      "tariffQueueSources": [
+        "https://www.nozay44.fr/aire-de-camping-cars/"
+      ]
     },
     {
       "sourceId": "ACCAMEAIREPONTMAHE",
@@ -2030,7 +2058,14 @@
       "nextAction": "Aucun tarif 2027 publié ; maintenir la distinction entre stationnement, nuitée et services.",
       "recheckSource": "https://www.asserac.fr/decouvrir-asserac/les-aires-de-detente-et-de-jeux-2/",
       "recheckOfficialSource": "https://www.asserac.fr/decouvrir-asserac/les-aires-de-detente-et-de-jeux-2/",
-      "recheckTourismSource": "https://rando.loire-atlantique.fr/service/180203-Aire-de-camping-cars-de-Pont-Mahe"
+      "recheckTourismSource": "https://rando.loire-atlantique.fr/service/180203-Aire-de-camping-cars-de-Pont-Mahe",
+      "tariffQueueLot": 348,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 348 (19/11/2026) : La page municipale confirme une limite de stationnement de 48 h, mais ne publie pas de tarif ni de confirmation de gratuité pour 2027. Ne pas transposer le prix du camping privé voisin.",
+      "tariffQueueNextCheck": "Conserver la limite de 48 h; confirmer à la mairie le tarif ou la gratuité applicable en 2027.",
+      "tariffQueueSources": [
+        "https://www.asserac.fr/decouvrir-asserac/les-aires-de-detente-et-de-jeux-2/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50ZKR0",
@@ -2051,7 +2086,14 @@
       "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-1",
       "recheckSecondarySource": "https://www.camping-car.com/aires/44931-aire-de-stationnement/",
       "recheckServiceSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service",
-      "recheckOfficialSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-1"
+      "recheckOfficialSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-1",
+      "tariffQueueLot": 348,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 348 (19/11/2026) : La fiche régionale indique huit emplacements, une ouverture toute l’année et un point de service à proximité. Les services d’eau/vidange ne doivent pas être confondus avec un tarif de stationnement; une source secondaire donne une capacité et une limite différentes.",
+      "tariffQueueNextCheck": "Confirmer auprès de la mairie la capacité, la durée maximale et les règles de nuitée; garder le service à proximité distinct du tarif du parking.",
+      "tariffQueueSources": [
+        "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-1"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51CY0Q",
@@ -2071,7 +2113,14 @@
       "nextAction": "Confirmer auprès de la commune la durée maximale et le droit de nuitée.",
       "recheckSource": "https://rando.loire-atlantique.fr/service/186412-AIRE-DE-STATIONNEMENT-SITE-DE-LA-FORGE-NEUVE---GRAND-AUVERNE",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186412-AIRE-DE-STATIONNEMENT-SITE-DE-LA-FORGE-NEUVE---GRAND-AUVERNE",
-      "recheckMunicipalitySource": "https://www.grand-auverne.fr/"
+      "recheckMunicipalitySource": "https://www.grand-auverne.fr/",
+      "tariffQueueLot": 348,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 348 (19/11/2026) : La fiche départementale décrit un parking de loisirs calme au site de la Forge Neuve, mais ne confirme ni une aire dédiée camping-car, ni un tarif, une capacité ou le stationnement nocturne.",
+      "tariffQueueNextCheck": "Demander à la commune si les camping-cars peuvent y stationner la nuit et sous quelles conditions avant de renseigner tarif ou nuitée.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/186412-AIRE-DE-STATIONNEMENT-SITE-DE-LA-FORGE-NEUVE---GRAND-AUVERNE"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V500B9A",
@@ -2091,7 +2140,14 @@
       "nextAction": "Confirmer l’accès au stationnement et la limite de durée hors saison.",
       "recheckSource": "https://estuairesillontourisme.fr/offres/aire-de-service-de-prinquiau-prinquiau-fr-4618677/",
       "recheckOfficialSource": "https://estuairesillontourisme.fr/offres/aire-de-service-de-prinquiau-prinquiau-fr-4618677/",
-      "recheckSecondarySource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-prinquiau"
+      "recheckSecondarySource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-prinquiau",
+      "tariffQueueLot": 348,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 348 (19/11/2026) : La fiche touristique indique cinq emplacements, parking et services gratuits, limite de 48 h; elle indique aussi une période du 1er avril au 30 septembre et une ouverture 24 h/24. La saison précise des services doit rester distincte du stationnement.",
+      "tariffQueueNextCheck": "Maintenir les 5 places, la gratuité et la limite 48 h; faire confirmer à la mairie si le parking reste accessible hors saison des services.",
+      "tariffQueueSources": [
+        "https://estuairesillontourisme.fr/offres/aire-de-service-de-prinquiau-prinquiau-fr-4618677/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50028K",
@@ -2111,7 +2167,14 @@
       "nextAction": "Demander à la mairie quelle prestation nécessite le jeton à 2 €.",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180231-Aire-de-Camping-Car-Boussay",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/180231-Aire-de-Camping-Car-Boussay",
-      "recheckMunicipalitySource": "https://www.boussay.fr/"
+      "recheckMunicipalitySource": "https://www.boussay.fr/",
+      "tariffQueueLot": 348,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 348 (19/11/2026) : La fiche départementale indique stationnement et vidange/eau gratuits, limite 48 h; des jetons à 2 € sont vendus, sans préciser clairement le service concerné. Aucun tarif 2027 daté.",
+      "tariffQueueNextCheck": "Conserver parking et services gratuits comme affichés; demander à la commune à quoi correspondent les jetons de 2 € (électricité, eau ou autre).",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/180231-Aire-de-Camping-Car-Boussay"
+      ]
     },
     {
       "sourceId": "ACCAMECCLEPOULIGUEN",
@@ -2133,7 +2196,14 @@
       "recheckTariffGridSource": "https://campings.lepouliguen.fr/wp-content/uploads/2026/03/2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf",
       "recheckOfficialSource": "https://campings.lepouliguen.fr/laire-de-camping-cars/",
       "recheckWaterSource": "https://campings.lepouliguen.fr/wp-content/uploads/2026/02/Depliant_france-2026.pdf",
-      "recheckTariff2026Source": "https://campings.lepouliguen.fr/wp-content/uploads/2026/03/2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf"
+      "recheckTariff2026Source": "https://campings.lepouliguen.fr/wp-content/uploads/2026/03/2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf",
+      "tariffQueueLot": 348,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 348 (19/11/2026) : L’aire officielle compte 26 places, est ouverte toute l’année et limite le stationnement à 72 h renouvelables. La grille est explicitement millésimée 2026; aucun tarif 2027 publié. Le prix journalier, la taxe et la borne 100 L doivent rester séparés.",
+      "tariffQueueNextCheck": "Garder les valeurs comme historiques 2026; vérifier le nouvel arrêté tarifaire 2027, en séparant forfait journalier, taxe et services de borne.",
+      "tariffQueueSources": [
+        "https://campings.lepouliguen.fr/laire-de-camping-cars/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51HCG0",
