@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne; répartition et trois doublons non distincts consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. Le registre conserve 219 lignes, dont 217 sourceId distincts et 2 fiches affichées sans identifiant. File tarifaire unique : lot 342 (10 fiches) puis lot 343 (10 nouvelles fiches dans la file), sans ajout ni modification des fiches du site. Les lots servent uniquement à suivre l’avancement tarifaire; les anciens lots ne sont pas repris automatiquement.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne; répartition et trois doublons non distincts consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. Registre : 219 lignes, 217 sourceId distincts et 2 fiches affichées sans identifiant. File tarifaire unique : lots 342, 343 et 344, dix fiches nouvelles par lot, aucune fiche du site modifiée. Les anciens lots ne sont pas repris automatiquement; certaines pages opérateur n’étaient pas récupérables lors de la consultation directe et sont signalées dans les rapports.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -639,7 +639,14 @@
       "recheckConditionsSource": "https://www.campingfleurdebriere.com/fr/hebergements",
       "recheckTourismTariffSource": "https://www.labaule-guerande.com/offres/camping-fleur-de-briere-saint-lyphard-fr-6011358/",
       "recheckPitchSource": "https://www.campingfleurdebriere.com/fr/hebergements",
-      "recheckBookingSource": "https://bookingpremium.secureholiday.net/fr/5515/search"
+      "recheckBookingSource": "https://bookingpremium.secureholiday.net/fr/5515/search",
+      "tariffQueueLot": 344,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 344 (19/11/2026) : Page officielle consultée : 13 €/nuit pour deux personnes, emplacement tente/caravane, prix sans millésime; le registre cite aussi un prix d’appel camping-car à 9,90 € non daté. Les deux indications ne sont pas réconciliées et aucun total camping-car 2027 n’est confirmé.",
+      "tariffQueueNextCheck": "Demander un devis 2027 daté camping-car et clarifier l’écart 9,90/13 €, inclusions véhicule, 16 A et taxe.",
+      "tariffQueueSources": [
+        "https://www.campingfleurdebriere.com/fr/hebergements"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000155",
@@ -659,7 +666,14 @@
       "recheckConditionsSource": "https://www.les-mouettes-camping.com/",
       "recheckSource": "https://les-mouettes-camping.com/",
       "recheckOfficialSource": "https://les-mouettes-camping.com/",
-      "recheckPdfTariffSource": "https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf"
+      "recheckPdfTariffSource": "https://www.les-mouettes-camping.com/uploads/mouettes/pdf/CAMPING%20LES%20MOUETTES%20-%20tarifs.pdf",
+      "tariffQueueLot": 344,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 344 (19/11/2026) : Dernier contrôle enregistré : 15 €/nuit pour deux adultes, emplacement et véhicule, électricité 6 A en supplément à 6,50 €/jour; prix en ligne sans année, écart avec un PDF officiel 2024 à 19,50 €. Aucun tarif 2027 daté. La page n’a pas été récupérée lors de la vérification directe (erreur 502).",
+      "tariffQueueNextCheck": "Demander la grille 2027 et expliquer l’écart avec le PDF 2024; distinguer électricité, taxe et suppléments.",
+      "tariffQueueSources": [
+        "https://les-mouettes-camping.com/"
+      ]
     },
     {
       "sourceId": "ACCAMELEDEFFAY",
@@ -681,7 +695,14 @@
       "recheckBookingSource": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/pontchateau/camping-le-deffay/",
       "recheckPitchSource": "https://www.camping-le-deffay.com/emplacements-camping/",
       "recheckSecondaryBookingSource": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/pontchateau/camping-le-deffay/",
-      "recheckOfficialSource": "https://www.camping-le-deffay.com/contact-tarifs-acces/"
+      "recheckOfficialSource": "https://www.camping-le-deffay.com/contact-tarifs-acces/",
+      "tariffQueueLot": 344,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 344 (19/11/2026) : Page officielle consultée : les tarifs d’emplacements sont explicitement 2026 par nuitée; pas de grille 2027 affichée. Suppléments possibles à séparer du forfait de base.",
+      "tariffQueueNextCheck": "Demander un devis daté 2027 pour camping-car, deux personnes, électricité, taxe et frais détaillés.",
+      "tariffQueueSources": [
+        "https://www.camping-le-deffay.com/contact-tarifs-acces/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51HCFW",
@@ -705,7 +726,14 @@
       "recheckSource": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne",
       "recheckConditionsSource": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne",
       "recheckOfficialSource": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne",
-      "recheckPitchConditionsSource": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne"
+      "recheckPitchConditionsSource": "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne",
+      "tariffQueueLot": 344,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 344 (19/11/2026) : Page officielle consultée : camping-cars admis; prix d’appel dès 16 €/nuit, sans dates ni millésime; emplacements raccordés à l’électricité. Ce prix seul ne donne pas un total standard 2027.",
+      "tariffQueueNextCheck": "Demander un total 2027 par dates, avec personnes, électricité, taxe et frais; séparer tarif ACSI éventuel.",
+      "tariffQueueSources": [
+        "https://www.campinglhermitage.com/fr-fr/emplacement-camping-bretagne"
+      ]
     },
     {
       "sourceId": "ACCAMEFERMEISSON",
@@ -725,7 +753,14 @@
       "recheckSource": "https://www.camping-lafermedisson.com/",
       "recheckSecondarySource": "https://www.camping-lafermedisson.com/nous-contacter",
       "recheckContactSource": "https://www.camping-lafermedisson.com/nous-contacter",
-      "recheckOfficialSource": "https://www.camping-lafermedisson.com/"
+      "recheckOfficialSource": "https://www.camping-lafermedisson.com/",
+      "tariffQueueLot": 344,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 344 (19/11/2026) : Page opérateur consultée : informations explicitement saison 2026 et fermeture le 15/09/2026. Aucun calendrier ni tarif 2027 visible; le tarif camping-car 15,20 €/nuit reste un historique 2026 avec minimum de trois nuits.",
+      "tariffQueueNextCheck": "Confirmer les dates d’ouverture 2027 et un forfait daté; garder le tarif 2026 historique et ne pas ajouter la taxe une seconde fois.",
+      "tariffQueueSources": [
+        "https://www.camping-lafermedisson.com/"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000114",
@@ -747,7 +782,14 @@
       "recheckGeneralTariffSource": "https://www.campingpasdugu.net/nos-tarifs/nos-tarifs-camping/",
       "recheckSecondarySource": "https://www.campingpasdugu.net/nos-tarifs/nos-tarifs-camping-car/",
       "recheckTourismSource": "https://www.saint-brevin.com/le-pas-du-gu.html",
-      "recheckOfficialSource": "https://www.campingpasdugu.net/"
+      "recheckOfficialSource": "https://www.campingpasdugu.net/",
+      "tariffQueueLot": 344,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 344 (19/11/2026) : Dernier contrôle enregistré : page camping-car titrée tarifs 2026; aucun montant ou calendrier 2027 daté confirmé. Accès direct à la page tarifaire refusé lors de cette récupération (403).",
+      "tariffQueueNextCheck": "Demander la grille 2027, l’ouverture et les inclusions du forfait camping-car.",
+      "tariffQueueSources": [
+        "https://www.campingpasdugu.net/nos-tarifs/nos-tarifs-camping-car/"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000154",
@@ -770,7 +812,14 @@
       "recheckBookingSource": "https://www.mycamping.com/france/prefailles/camping-eden-villages-la-pointe-saint-gildas",
       "recheckRegionalSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/camping-eden-villages-la-pointe-saint-gildas",
       "recheckOfficialSource": "https://www.eden-villages.fr/campings/la-pointe-saint-gildas/",
-      "recheckSource": "https://www.eden-villages.fr/campings/la-pointe-saint-gildas/"
+      "recheckSource": "https://www.eden-villages.fr/campings/la-pointe-saint-gildas/",
+      "tariffQueueLot": 344,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 344 (19/11/2026) : Dernier contrôle enregistré : catégories d’emplacements Access, Access XL et Privilège; les montants de tiers 148/176/267 € sont des totaux hebdomadaires sans dates ni panier complet. Aucun prix camping-car par nuit 2027 vérifiable. La page officielle n’a pas pu être récupérée directement.",
+      "tariffQueueNextCheck": "Obtenir un devis opérateur daté pour camping-car et deux personnes; confirmer durée, catégorie et suppléments.",
+      "tariffQueueSources": [
+        "https://www.eden-villages.fr/campings/la-pointe-saint-gildas/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5001GW",
@@ -794,7 +843,14 @@
       "recheckPitchesSource": "https://www.camping-la-pindiere.com/24-camping",
       "recheckConditionsSource": "https://www.camping-la-pindiere.com/usermedia/document-fr-637553775941709356-1.pdf",
       "recheckOfficialSource": "https://www.camping-la-pindiere.com/24-camping",
-      "recheckSource": "https://www.camping-la-pindiere.com/24-camping"
+      "recheckSource": "https://www.camping-la-pindiere.com/24-camping",
+      "tariffQueueLot": 344,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 344 (19/11/2026) : Page officielle consultée : elle affiche encore les tarifs d’emplacements 2025 et une occupation de 12 h à 12 h. Aucun tarif 2026/2027 daté confirmé.",
+      "tariffQueueNextCheck": "Demander le prix 2027 par nuit et les inclusions, électricité, taxe et suppléments.",
+      "tariffQueueSources": [
+        "https://www.camping-la-pindiere.com/27-tarifs/96-tarifs-emplacements.html"
+      ]
     },
     {
       "sourceId": "ACCAMEBELAIR",
@@ -817,7 +873,14 @@
       "recheckPitchAndBookingSource": "https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars",
       "recheckBrochureSource": "https://www.belairpornichet.fr/userfiles/files/brochure_fr.pdf",
       "recheckOfficialSource": "https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars",
-      "recheckTariffSource": "https://www.belairpornichet.fr/actualites"
+      "recheckTariffSource": "https://www.belairpornichet.fr/actualites",
+      "tariffQueueLot": 344,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 344 (19/11/2026) : Dernier contrôle enregistré : promotion Early Booking 2027 de 20 %, mais aucun prix de base ou total 2027 vérifiable pour emplacement nu/box séparément. Le contenu tarifaire détaillé n’a pas été récupéré lors de l’ouverture directe.",
+      "tariffQueueNextCheck": "Demander un devis 2027 distinct pour emplacement nu et box; vérifier l’assiette de la remise, électricité et taxe.",
+      "tariffQueueSources": [
+        "https://www.belairpornichet.fr/locations-vacances-pornichet/emplacements-nus-et-boxes-camping-cars"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000138",
@@ -844,7 +907,14 @@
       "recheckLongStaySource": "https://www.grandfay.fr/offre-hebergement-pas-saisonniers-loire-atlantique-120.html",
       "recheckOfficialSource": "https://www.grandfay.fr/emplacements-camping-st-pere-en-retz-5.html",
       "recheckTaxSource": "https://www.grandfay.fr/hebergements-3.html",
-      "recheckLongStayOfferSource": "https://www.grandfay.fr/offre-hebergement-pas-saisonniers-loire-atlantique-120.html"
+      "recheckLongStayOfferSource": "https://www.grandfay.fr/offre-hebergement-pas-saisonniers-loire-atlantique-120.html",
+      "tariffQueueLot": 344,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 344 (19/11/2026) : Page officielle consultée : 26 emplacements standard, forfait 1–2 personnes avec électricité et un véhicule; période affichée 01/04–10/10/2026. Aucun prix standard ou calendrier 2027 visible sur cette page; l’offre longue durée reste distincte d’une nuitée.",
+      "tariffQueueNextCheck": "Demander un devis standard 2027 pour une nuit, en précisant taxe et frais; séparer les offres longue durée.",
+      "tariffQueueSources": [
+        "https://www.grandfay.fr/emplacements-camping-st-pere-en-retz-5.html"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000026",
