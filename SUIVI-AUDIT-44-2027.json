@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne; répartition et trois doublons non distincts consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. Registre : 219 lignes, 217 sourceId distincts et 2 fiches affichées sans identifiant. File tarifaire unique : lots 342, 343 et 344, dix fiches nouvelles par lot, aucune fiche du site modifiée. Les anciens lots ne sont pas repris automatiquement; certaines pages opérateur n’étaient pas récupérables lors de la consultation directe et sont signalées dans les rapports.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne; répartition et trois doublons non distincts consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. Registre : 219 lignes, 217 sourceId distincts et 2 fiches affichées sans identifiant. File tarifaire unique : lots 342 à 345, dix fiches différentes par lot, sans modification des données du site. Les anciens lots ne sont pas repris automatiquement; les pages non récupérables ou au contenu incomplet sont signalées dans les rapports.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -937,7 +937,14 @@
       "recheckConditionsSource": "https://www.la-cale-sauvage.com/le-camping-la-cale-sauvage/",
       "recheckOfficialSource": "https://www.la-cale-sauvage.com/tarifs-du-camping/",
       "recheckPitchesSource": "https://www.la-cale-sauvage.com/nos-emplacements/",
-      "recheckPriceStartsSource": "https://www.la-cale-sauvage.com/sejourner-au-camping/"
+      "recheckPriceStartsSource": "https://www.la-cale-sauvage.com/sejourner-au-camping/",
+      "tariffQueueLot": 345,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 345 (19/11/2026) : La page tarifs officielle référencée renvoie 404 lors de l’ouverture directe. Le dernier contrôle conservé indique une page 2026 et des prix d’appel non datés de 9 €/nuit sans véhicule/électricité ou 13 € avec électricité; total camping-car et tarif 2027 non établis.",
+      "tariffQueueNextCheck": "Retrouver la page tarifaire active et demander un prix 2027 daté avec véhicule, personnes, électricité et taxe.",
+      "tariffQueueSources": [
+        "https://www.la-cale-sauvage.com/tarifs-du-camping/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50LCQJ",
@@ -957,7 +964,14 @@
       "recheckSource": "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu",
       "recheckConditionsSource": "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu",
       "recheckTariffGridSource": "https://www.camping-lesrivesdegrandlieu.com/uploads/pdf/FR/tarifs.pdf",
-      "recheckOfficialSource": "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu"
+      "recheckOfficialSource": "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu",
+      "tariffQueueLot": 345,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 345 (19/11/2026) : Le dernier contrôle du registre indique une grille explicitement 2026 : 16 €/nuit basse saison, 18 € haute saison, électricité 4 € par nuit. Aucun tarif 2027 publié; le pied ACSI comporte des dates 2024. La page opérateur actuelle consultée décrit le Village campeurs, sans grille tarifaire dans le contenu récupéré.",
+      "tariffQueueNextCheck": "Demander la grille 2027 et confirmer suppléments; garder 16/18 € et l’électricité comme valeurs historiques 2026.",
+      "tariffQueueSources": [
+        "https://www.camping-lesrivesdegrandlieu.com/village-campeurs-rives-de-grand-lieu"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000082",
@@ -978,7 +992,14 @@
       "recheckConditionsSource": "https://ushuaia-villages.com/fr-fr/ushuaia-villages-camping-l-estuaire_1511093.html",
       "recheckBookingSource": "https://ushuaia-villages.com/fr-fr/ushuaia-villages-camping-l-estuaire_1511093.html",
       "recheckOfficialSource": "https://ushuaia-villages.com/fr-fr/ushuaia-villages-camping-l-estuaire_1511093.html",
-      "recheckBookingQuoteSource": "https://ushuaia-villages.com/fr-fr/ushuaia-villages-camping-l-estuaire_1511093.html"
+      "recheckBookingQuoteSource": "https://ushuaia-villages.com/fr-fr/ushuaia-villages-camping-l-estuaire_1511093.html",
+      "tariffQueueLot": 345,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 345 (19/11/2026) : L’offre précédemment relevée de 140 € pour 7 nuits ne portait pas d’année; elle ne prouve pas un tarif 2027 et ne doit pas être convertie en prix par nuit. La page opérateur de réservation consultée ne permet pas d’établir un montant daté 2027. Taxe et redevance écologique restent à distinguer.",
+      "tariffQueueNextCheck": "Demander un devis camping-car pour dates exactes en 2027 et vérifier le panier final, taxe et redevance écologique séparées.",
+      "tariffQueueSources": [
+        "https://ushuaia-villages.com/fr-fr/ushuaia-villages-camping-l-estuaire_1511093.html"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50XYL5",
@@ -1001,7 +1022,14 @@
       "recheckTourismSource": "https://rando.loire-atlantique.fr/service/183877-CAMPING-LA-RABINE",
       "recheckOperatorSource": "https://www.machecoul-saint-meme.fr/",
       "recheckOfficialSource": "https://www.camping-la-rabine.com/",
-      "recheckSource": "https://www.camping-la-rabine.com/"
+      "recheckSource": "https://www.camping-la-rabine.com/",
+      "tariffQueueLot": 345,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 345 (19/11/2026) : Le dernier contrôle du registre cite un repère CampingFrance à 19 €/jour en 2026 pour deux adultes, avec suppléments; il s’agit d’une source tierce, pas d’une grille opérateur 2027. Aucun prix 2027 daté confirmé.",
+      "tariffQueueNextCheck": "Demander au gestionnaire un tarif 2027 et les inclusions; conserver le repère tiers uniquement comme historique 2026.",
+      "tariffQueueSources": [
+        "https://www.camping-la-rabine.com/"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000115",
@@ -1024,7 +1052,14 @@
       "recheckContractSource": "https://cdn.rochelets.com/uploads/pdf/contrat-de-location-et-cgv-fr.pdf",
       "recheckSeasonSource": "https://www.rochelets.com/emplacement-camping-saint-brevin-les-pins/",
       "recheckOfficialSource": "https://www.rochelets.com/",
-      "recheckPitchSource": "https://www.rochelets.com/emplacement-camping-saint-brevin-les-pins/"
+      "recheckPitchSource": "https://www.rochelets.com/emplacement-camping-saint-brevin-les-pins/",
+      "tariffQueueLot": 345,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 345 (19/11/2026) : Le dernier contrôle du registre confirme les camping-cars sur emplacements d’au moins 80 m², mais les conditions tarifaires accessibles sont millésimées 2025. Aucun tarif 2027 confirmé; l’ouverture toute l’année mentionnée en FAQ doit être clarifiée pour les séjours et tarifs.",
+      "tariffQueueNextCheck": "Demander confirmation d’ouverture et disponibilité 2027, puis un devis camping-car daté avec taxe et suppléments séparés.",
+      "tariffQueueSources": [
+        "https://www.rochelets.com/"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000046",
@@ -1045,7 +1080,14 @@
       "recheckConditionsSource": "https://www.albatros-camping.com/242-tarifs",
       "recheckSecondarySource": "https://www.pornic.com/camping-l-albatros.html",
       "recheckTourismSource": "https://www.pornic.com/camping-l-albatros.html",
-      "recheckOpenDataSource": "https://data.loire-atlantique.fr/explore/dataset/793866443_hotelleries-de-plein-air-camping-en-loire-atlantique/"
+      "recheckOpenDataSource": "https://data.loire-atlantique.fr/explore/dataset/793866443_hotelleries-de-plein-air-camping-en-loire-atlantique/",
+      "tariffQueueLot": 345,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 345 (19/11/2026) : La page tarifaire opérateur consultée affiche des tarifs 2026 pour mobil-homes/cabanes; elle ne confirme pas le tarif de l’étape camping-car pour 2027. Le repère touristique de 14 €/nuit concerne la saison 2026.",
+      "tariffQueueNextCheck": "Demander le tarif étape camping-car 2027, puis confirmer électricité, taxe et suppléments; garder 14 € comme repère historique 2026.",
+      "tariffQueueSources": [
+        "https://www.albatros-camping.com/242-tarifs"
+      ]
     },
     {
       "sourceId": "HPAELECLEIN",
@@ -1065,7 +1107,14 @@
       "recheckTariffDecisionSource": "https://campings.lepouliguen.fr/wp-content/uploads/2026/02/Depliant_france-2026.pdf",
       "recheckConditionsSource": "https://campings.lepouliguen.fr/les-campings/le-clein/",
       "recheckSecondarySource": "https://campings.lepouliguen.fr/wp-content/uploads/2026/03/2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf",
-      "recheckOfficialSource": "https://campings.lepouliguen.fr/les-campings/le-clein/"
+      "recheckOfficialSource": "https://campings.lepouliguen.fr/les-campings/le-clein/",
+      "tariffQueueLot": 345,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 345 (19/11/2026) : La page municipale consultée indique l’ouverture du 28/03 au 09/11/2026 et des tarifs 2026. Le camping et l’aire municipale camping-car sont deux produits distincts; ne pas appliquer le forfait aire au Cléin.",
+      "tariffQueueNextCheck": "Demander dates et tarifs 2027 du camping; conserver l’aire camping-car séparément.",
+      "tariffQueueSources": [
+        "https://campings.lepouliguen.fr/les-campings/le-clein/"
+      ]
     },
     {
       "sourceId": "MUNICIPAL44LEPOULIGUENLESMOUETTES2026",
@@ -1085,7 +1134,14 @@
       "recheckTariffDecisionSource": "https://campings.lepouliguen.fr/wp-content/uploads/2026/02/Depliant_france-2026.pdf",
       "recheckConditionsSource": "https://campings.lepouliguen.fr/les-campings/les-mouettes/",
       "recheckSecondarySource": "https://campings.lepouliguen.fr/wp-content/uploads/2026/03/2025_50_SG-Tarifs-campings-aire-de-campings-car.pdf",
-      "recheckOfficialSource": "https://campings.lepouliguen.fr/les-campings/les-mouettes/"
+      "recheckOfficialSource": "https://campings.lepouliguen.fr/les-campings/les-mouettes/",
+      "tariffQueueLot": 345,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 345 (19/11/2026) : La page municipale consultée indique l’ouverture du 28/03 au 03/11/2026 et des tarifs 2026. Le forfait saisonnier de l’aire camping-car est séparé des emplacements du camping Les Mouettes.",
+      "tariffQueueNextCheck": "Demander la grille et les dates d’ouverture 2027 du camping; ne pas transposer le tarif de l’aire.",
+      "tariffQueueSources": [
+        "https://campings.lepouliguen.fr/les-campings/les-mouettes/"
+      ]
     },
     {
       "sourceId": "HPAPDL044V507V64",
@@ -1106,7 +1162,14 @@
       "recheckSecondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/prefailles/la-pree",
       "recheckConditionsSource": "https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements",
       "recheckCalendarSource": "https://www.camping-prefailles.fr/index.php/fr/",
-      "recheckOfficialSource": "https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements"
+      "recheckOfficialSource": "https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements",
+      "tariffQueueLot": 345,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 345 (19/11/2026) : Page opérateur consultée : tarifs de séjour explicitement 2026, minimum deux nuits. Aucun tarif 2027 confirmé; garder les montants 2026 et le minimum de séjour comme référence historique.",
+      "tariffQueueNextCheck": "Demander le calendrier et le barème 2027; séparer électricité, taxe et suppléments.",
+      "tariffQueueSources": [
+        "https://www.camping-prefailles.fr/index.php/fr/hebergements/emplacements"
+      ]
     },
     {
       "sourceId": "CCF44-PORNIC-GOLF-2026",
@@ -1126,7 +1189,14 @@
       "recheckPitchesSource": "https://www.campingdugolf.fr/emplacements/",
       "recheckConditionsSource": "https://www.campingdugolf.fr/offres/tarifs-emplacements/",
       "recheckOfficialSource": "https://www.campingdugolf.fr/offres/tarifs-emplacements/",
-      "recheckPitchSource": "https://www.campingdugolf.fr/emplacements/"
+      "recheckPitchSource": "https://www.campingdugolf.fr/emplacements/",
+      "tariffQueueLot": 345,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 345 (19/11/2026) : Page opérateur consultée : tarifs d’emplacements explicitement 2026 et tarification dynamique; taxes, contribution déchets et frais de gestion sont des lignes séparées. Aucun barème 2027 daté confirmé.",
+      "tariffQueueNextCheck": "Obtenir un devis 2027 pour dates précises et vérifier l’ensemble du panier avec suppléments séparés.",
+      "tariffQueueSources": [
+        "https://www.campingdugolf.fr/offres/tarifs-emplacements/"
+      ]
     },
     {
       "sourceId": "ACCAMECCBOLEMERQUEL",
