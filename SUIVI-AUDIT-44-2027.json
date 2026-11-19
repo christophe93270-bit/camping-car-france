@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes, écarts de comptage consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. File tarifaire unique par fiches distinctes : lots 342 à 349, dix entrées par lot; trois alias connus et la fiche technique doublon de la Grotte Saint-Jean restent exclus. Aucun changement aux données publiées du site.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes, écarts de comptage consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. File tarifaire unique par fiches distinctes : lots 342 à 350, dix fiches par lot; trois alias connus et la fiche technique doublon de la Grotte Saint-Jean exclus. Aucun changement aux données publiées du site.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -2586,7 +2586,14 @@
       "recheckSecondarySource": "https://www.lecampeur.fr/parking/parking-au-bord-de-letang-disse-ph4zow",
       "recheckOfficialSource": "https://mairie-isse.fr/si-l-on-sortait/etang-de-beaumont.html",
       "recheckMunicipalitySource": "https://mairie-isse.fr/si-l-on-sortait/etang-de-beaumont.html",
-      "recheckTourismSource": "https://rando.loire-atlantique.fr/trek/11132-L-Etang-de-Beaumont"
+      "recheckTourismSource": "https://rando.loire-atlantique.fr/trek/11132-L-Etang-de-Beaumont",
+      "tariffQueueLot": 350,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 350 (19/11/2026) : La mairie décrit l’étang de Beaumont comme site de promenade et renvoie à un arrêté d’activités; le parking camping-car dédié à l’ouest de l’étang est indiqué par des sources antérieures, mais aucune source actuelle ne confirme prix, durée ou nuitée autorisée.",
+      "tariffQueueNextCheck": "Demander à la mairie de confirmer que le parking dédié est bien accessible aux camping-cars, le droit de nuitée et la durée maximale.",
+      "tariffQueueSources": [
+        "https://mairie-isse.fr/si-l-on-sortait/etang-de-beaumont.html"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50028L",
@@ -2605,7 +2612,14 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/",
-      "recheckCapacitySource": "https://rando.loire-atlantique.fr/"
+      "recheckCapacitySource": "https://rando.loire-atlantique.fr/",
+      "tariffQueueLot": 350,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 350 (19/11/2026) : La fiche départementale confirme une aire gratuite avec eau, électricité et vidange. Elle ne précise pas les règles de nuitée ni la durée maximale. La capacité actuelle du site est donnée à 7 places; l’ancien suivi de 6 est dépassé.",
+      "tariffQueueNextCheck": "Garder la capacité à 7; demander à la mairie la durée maximale et les règles de nuitée.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5001HL",
@@ -2641,7 +2655,14 @@
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/179681-Etang-de-la-Provostiere",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/179681-Etang-de-la-Provostiere",
       "recheckSource": "https://rando.loire-atlantique.fr/service/179681-Etang-de-la-Provostiere",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/",
+      "tariffQueueLot": 350,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 350 (19/11/2026) : La fiche départementale décrit un parking, des tables de pique-nique et des sanitaires à l’étang de la Provostière; elle ne confirme pas l’accueil camping-car, une nuitée, des services spécifiques ou un tarif.",
+      "tariffQueueNextCheck": "Demander à la mairie si les camping-cars peuvent stationner et passer la nuit, avec quelle durée et quel coût éventuel.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/179681-Etang-de-la-Provostiere"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5006FB",
@@ -2681,7 +2702,14 @@
       "recheckSecondarySource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/as-st-viaud?areaType=aire-services-camping-car",
       "recheckCCPConditionsSource": "https://www.saint-brevin.com/borne-de-services-camping-car-park.html",
       "recheckMunicipalitySource": "https://www.saint-brevin.com/",
-      "recheckCCPSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/saint-viaud"
+      "recheckCCPSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/saint-viaud",
+      "tariffQueueLot": 350,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 350 (19/11/2026) : La fiche départementale confirme parking camping-car gratuit toute l’année au lac de Saint-Viaud, sans règle nocturne ou durée maximale. La borne CCP rue de la Gare est distincte; son offre et ses 6 € ne s’appliquent pas au parking du lac.",
+      "tariffQueueNextCheck": "Maintenir les deux fiches séparées; demander à la mairie les règles de nuitée et durée pour le lac; faire clarifier séparément la page contradictoire de CCP.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/180245-AIRE-DE-STATIONNEMENT-SAINT-VIAUD"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50HSVL",
@@ -2718,7 +2746,14 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/",
-      "recheckTourismSource": "https://www.saint-brevin.com/"
+      "recheckTourismSource": "https://www.saint-brevin.com/",
+      "tariffQueueLot": 350,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 350 (19/11/2026) : La fiche Rando confirme le stationnement camping-car gratuit toute l’année au quai Edmond-Libert, sans durée limite ni autorisation nocturne explicite; le registre indique qu’un arrêté associé reste à lire.",
+      "tariffQueueNextCheck": "Garder 0 € comme tarif de stationnement publié; vérifier l’arrêté municipal pour la durée et le droit de nuitée.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51MES6",
@@ -2736,7 +2771,14 @@
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/190195-ETANGS-DE-SOUDAN",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/190195-ETANGS-DE-SOUDAN",
       "recheckSource": "https://rando.loire-atlantique.fr/service/190195-ETANGS-DE-SOUDAN",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/",
+      "tariffQueueLot": 350,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 350 (19/11/2026) : La fiche départementale décrit les étangs de Soudan comme parking de loisirs avec pique-nique, randonnée, pêche et voie verte. Aucun accueil spécifique camping-car, nuitée, service ou tarif n’est publié.",
+      "tariffQueueNextCheck": "Demander à la mairie si les camping-cars peuvent y stationner la nuit et sous quelles limites; ne pas afficher de tarif sans source.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/190195-ETANGS-DE-SOUDAN"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V519OUQ",
@@ -2794,7 +2836,14 @@
       "recheckSecondarySource": "https://www.muscadet-forgeau.com/oenotourisme-loger-chez-nous/",
       "recheckMunicipalSource": "https://rando.loire-atlantique.fr/service/180234-AIRE-CAMPING-CAR-MOUZILLON",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186405-AIRE-D-ACCUEIL-DE-CAMPING-CAR-DU-DOMAINE-FORGEAU",
-      "recheckOperatorSource": "https://www.muscadet-forgeau.com/oenotourisme-loger-chez-nous/"
+      "recheckOperatorSource": "https://www.muscadet-forgeau.com/oenotourisme-loger-chez-nous/",
+      "tariffQueueLot": 350,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 350 (19/11/2026) : La fiche touristique confirme un accueil camping-car gratuit au Domaine Forgeau sur rendez-vous, avec arrivée avant 18 h 30. Aucun service, durée maximale ou condition de nuitée détaillée n’est publié.",
+      "tariffQueueNextCheck": "Garder la gratuité sur rendez-vous et l’arrivée limite; demander au domaine la durée maximale et les services disponibles.",
+      "tariffQueueSources": [
+        "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-d-accueil-de-camping-car-du-domaine-forgeau"
+      ]
     },
     {
       "sourceId": "ACCAMEAIREMARCHEBOEUFS",
@@ -2833,7 +2882,14 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186420-AIRE-DE-STATIONNEMENT---SAINT-JULIEN-DE-VOUVANTES",
       "recheckSource": "https://rando.loire-atlantique.fr/service/186420-AIRE-DE-STATIONNEMENT---SAINT-JULIEN-DE-VOUVANTES",
       "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/190183-ETANG-DE-L-AU-DELA-L-EAU",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186420-AIRE-DE-STATIONNEMENT---SAINT-JULIEN-DE-VOUVANTES"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186420-AIRE-DE-STATIONNEMENT---SAINT-JULIEN-DE-VOUVANTES",
+      "tariffQueueLot": 350,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 350 (19/11/2026) : La fiche départementale décrit un parking de loisirs à l’étang de l’Au-delà-l’Eau, avec tables et toilettes PMR; elle ne confirme ni accueil camping-car, ni tarif, durée ou nuitée.",
+      "tariffQueueNextCheck": "Demander à la mairie si le stationnement camping-car et la nuitée sont autorisés avant d’indiquer prix ou statut nocturne.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/186420-AIRE-DE-STATIONNEMENT---SAINT-JULIEN-DE-VOUVANTES"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51R0KA",
@@ -2851,7 +2907,14 @@
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/183710-Plan-d-eau-du-Clos---Trans-sur-Erdre",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/183710-Plan-d-eau-du-Clos---Trans-sur-Erdre",
       "recheckSource": "https://rando.loire-atlantique.fr/service/183710-Plan-d-eau-du-Clos---Trans-sur-Erdre",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/183710-Plan-d-eau-du-Clos---Trans-sur-Erdre"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/183710-Plan-d-eau-du-Clos---Trans-sur-Erdre",
+      "tariffQueueLot": 350,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 350 (19/11/2026) : La fiche départementale décrit le plan d’eau du Clos comme lieu de pêche, promenade et pique-nique avec sanitaires. Elle ne publie pas de stationnement dédié aux camping-cars, nuitée ou tarif.",
+      "tariffQueueNextCheck": "Garder comme lieu de loisirs; ne pas annoncer nuitée camping-car ni tarif sans confirmation de la mairie.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/183710-Plan-d-eau-du-Clos---Trans-sur-Erdre"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5003A7",
@@ -2965,7 +3028,14 @@
       "recheckTariffSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21",
       "recheckConditionsSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21",
       "recheckSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21",
-      "recheckOfficialSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21"
+      "recheckOfficialSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21",
+      "tariffQueueLot": 350,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 350 (19/11/2026) : La Ville du Croisic publie une nuitée de 13,50 € (20 h–9 h) et l’eau à 10 € pour 150 L, avec paiement par carte et stationnement plafonné à 48 h. Aucun millésime tarifaire 2027 n’est indiqué; nuitée et eau restent deux achats.",
+      "tariffQueueNextCheck": "Conserver 13,50 € et 10 € comme derniers tarifs municipaux publiés, non confirmés 2027; maintenir les deux prestations séparées.",
+      "tariffQueueSources": [
+        "https://www.lecroisic.fr/fr/rb/381227/stationnement-21"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5003AG",
