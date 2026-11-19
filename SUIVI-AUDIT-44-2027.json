@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 336 (19/11/2026), dix fiches existantes, sans création ni suppression. La Guichardière : offres officielles 2027 du 1er au 8 mai, deux personnes, 128,80 € Nature ou 163,20 € Confort après remise 20 %, exemple promotionnel seulement. Relais des Garennes : sources contradictoires sur électricité incluse (17 € selon l’exploitant; supplément de 4 € selon Gîtes de France); tarif 2027 à confirmer. Le Welcome : 10 € stationnement, 2 € électricité et 2 € eau, non millésimés. Super U Saint-Étienne-de-Montluc : borne de service seule, sans prix publié. Hunaudière et Derval : aucune autorisation de nuitée ou tarif officiel confirmé.",
+  "note": "Dernier contrôle : lot 337 (19/11/2026), dix fiches existantes, sans ajout ni suppression. Vieillevigne : corriger la capacité à 7 places gratuites; nuitée à confirmer. Fay-de-Bretagne et Saint-Philbert-de-Grand-Lieu : bornes de services seulement, ne pas déduire une nuitée. Saint-Viaud : parking municipal gratuit au lac, distinct de la borne CCP de la rue de la Gare; règles nocturnes non établies. Paimbœuf : stationnement gratuit, durée/nuitée à confirmer. Autres parkings et bornes : tarifs ou autorisations de nuitée non confirmés; ne pas assimiler service 24 h/24 et hébergement.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -59,9 +59,9 @@
       "nextCheck": "Barème emplacements 2027, électricité et taxe.",
       "source": "https://camping-pauseloire.com/en/camping-pause-loire-english/rates/",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 316,
-      "recheckFinding": "Recontrôle 19/11/2026 : le site officiel confirme des emplacements pour tentes, caravanes et camping-cars, mais aucune grille de prix 2027 pour les camping-cars n’est trouvée. Le prix « à partir de 13,66 € » affiché pour les cyclistes concerne une offre spécifique en zone sans véhicule et ne peut pas servir de tarif camping-car.",
-      "recheckNextCheck": "Demander le barème 2027 camping-car avec personnes incluses, électricité et taxe de séjour; conserver séparément l’offre cycliste et ne pas reconduire le tarif 2026.",
+      "recheckLot": 337,
+      "recheckFinding": "Recontrôle lot 337 (19/11/2026) : les emplacements accueillent bien les camping-cars, mais aucun barème 2027 pour ce type de séjour n’a été trouvé. Les 13,66 € concernent l’offre cycliste en zone sans véhicule et ne peuvent pas être appliqués au camping-car.",
+      "recheckNextCheck": "Demander à l’exploitant le tarif 2027 camping-car, les personnes incluses, l’électricité et la taxe de séjour; garder l’offre cycliste distincte.",
       "recheckTariffSource": "https://camping-pauseloire.com/en/camping-pause-loire-english/rates/",
       "recheckPitchesSource": "https://camping-pauseloire.com/location-mobil-home-nantes/emplacements-camping-caravaning-nantes/",
       "recheckCyclistsOfferSource": "https://camping-pauseloire.com/camping-loire-a-velo/",
@@ -2020,12 +2020,14 @@
       "nextCheck": "Confirmer auprès de la commune que la gratuité des services et du stationnement est maintenue en 2027.",
       "source": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 316,
-      "recheckFinding": "Recontrôle 19/11/2026 : la fiche départementale confirme le stationnement et les services gratuits (eau, électricité, vidanges), toute l’année, avec six places. Elle ne précise pas de durée maximale ni de droit de nuitée; aucune grille tarifaire 2027 n’est publiée.",
-      "recheckNextCheck": "Conserver la gratuité comme information publiée, sans la présenter comme validation tarifaire 2027; demander à Vieillevigne les règles de durée et de nuitée.",
+      "recheckLot": 337,
+      "recheckFinding": "Recontrôle lot 337 (19/11/2026) : la source officielle départementale indique 7 emplacements gratuits, alors que l’ancien suivi mentionnait 6. Eau, électricité et vidanges sont signalées. La règle de nuitée et sa durée maximale ne sont pas précisées.",
+      "recheckNextCheck": "Corriger la capacité à 7; demander à la mairie de confirmer le droit de nuitée, la durée maximale et les éventuelles conditions d’accès.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE",
-      "recheckSource": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE"
+      "recheckSource": "https://rando.loire-atlantique.fr/service/180232-AIRE-CAMPING-CAR-VIEILLEVIGNE",
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/",
+      "recheckCapacitySource": "https://rando.loire-atlantique.fr/"
     },
     {
       "sourceId": "ACCAMPDL044V5001HL",
@@ -2037,12 +2039,13 @@
       "nextCheck": "Confirmer auprès de la commune le maintien du service gratuit en 2027; traiter séparément le stationnement du plan d’eau.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 316,
-      "recheckFinding": "Recontrôle 19/11/2026 : la fiche régionale décrit une borne de services aux étangs de la Madeleine, eau et vidange gratuites, ouverte toute l’année et 24 h/24. Elle ne publie pas de prix. La borne est distincte du parking de l’autre côté de l’étang; son accès 24 h/24 ne confirme pas une nuitée.",
-      "recheckNextCheck": "Maintenir borne et parking comme deux lieux distincts; demander le maintien du service gratuit et ne pas attribuer à la borne un tarif ou une nuitée.",
+      "recheckLot": 337,
+      "recheckFinding": "Recontrôle lot 337 (19/11/2026) : la borne de services des étangs de la Madeleine est gratuite et ouverte toute l’année. Le parking de l’autre rive est une fiche distincte; aucune nuitée ne doit être attribuée à la borne.",
+      "recheckNextCheck": "Garder la borne classée service seul et conserver séparément le stationnement de l’autre côté de l’étang.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service",
       "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service",
-      "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service"
+      "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service",
+      "recheckOfficialSource": "https://www.erdrecanalforet.fr/"
     },
     {
       "sourceId": "ACCAMPDL044V51J2IN",
@@ -2054,12 +2057,13 @@
       "nextCheck": "Vérifier la signalisation sur place ou demander à la mairie de Riaillé si les camping-cars peuvent y stationner la nuit.",
       "source": "https://rando.loire-atlantique.fr/service/179681-Etang-de-la-Provostiere",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 316,
-      "recheckFinding": "Recontrôle 19/11/2026 : la fiche départementale décrit un parking au départ du sentier de l’étang, des tables de pique-nique et des sanitaires. Aucun tarif camping-car, durée maximale ou droit de nuitée n’est publié.",
-      "recheckNextCheck": "Garder comme parking de loisirs; demander à Riaillé si les camping-cars peuvent y stationner la nuit et pour quelle durée.",
+      "recheckLot": 337,
+      "recheckFinding": "Recontrôle lot 337 (19/11/2026) : le parking de l’étang de la Provostière est présenté comme un site de loisirs avec tables de pique-nique et toilettes. Aucune autorisation camping-car, règle de nuitée, service technique ni tarif officiel n’a été trouvé.",
+      "recheckNextCheck": "Demander à la commune si le stationnement camping-car et la nuitée sont autorisés, et s’il existe une limite de durée ou un tarif.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/179681-Etang-de-la-Provostiere",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/179681-Etang-de-la-Provostiere",
-      "recheckSource": "https://rando.loire-atlantique.fr/service/179681-Etang-de-la-Provostiere"
+      "recheckSource": "https://rando.loire-atlantique.fr/service/179681-Etang-de-la-Provostiere",
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/"
     },
     {
       "sourceId": "ACCAMPDL044V5006FB",
@@ -2071,12 +2075,14 @@
       "nextCheck": "Conserver la fiche comme borne de services; demander à la mairie toute règle de stationnement distincte si nécessaire.",
       "source": "https://rando.loire-atlantique.fr/service/180250-AIRE-DE-SERVICE-DU-CHEMIN-DE-LA-PLAGE-",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 316,
-      "recheckFinding": "Recontrôle 19/11/2026 : la fiche départementale confirme une borne seule, gratuite, avec point d’eau et vidange; une aire de pique-nique se trouve à proximité. Aucun stationnement nocturne à la borne n’est confirmé.",
-      "recheckNextCheck": "Conserver comme borne gratuite de services; ne pas annoncer une nuitée ou un stationnement sans confirmation municipale distincte.",
+      "recheckLot": 337,
+      "recheckFinding": "Recontrôle lot 337 (19/11/2026) : eau et vidange gratuites confirmées pour la borne du chemin de la Plage. Cela ne confirme ni stationnement nocturne ni nuitée gratuite.",
+      "recheckNextCheck": "Laisser la fiche en service seul; ne mentionner une nuitée qu’après confirmation de la commune.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180250-AIRE-DE-SERVICE-DU-CHEMIN-DE-LA-PLAGE-",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180250-AIRE-DE-SERVICE-DU-CHEMIN-DE-LA-PLAGE-",
-      "recheckSource": "https://rando.loire-atlantique.fr/service/180250-AIRE-DE-SERVICE-DU-CHEMIN-DE-LA-PLAGE-"
+      "recheckSource": "https://rando.loire-atlantique.fr/service/180250-AIRE-DE-SERVICE-DU-CHEMIN-DE-LA-PLAGE-",
+      "recheckOfficialSource": "https://www.loire-atlantique.fr/",
+      "recheckTourismSource": "https://www.grandlieu-tourisme.fr/"
     },
     {
       "sourceId": "ACCAMPDL044V50054F",
@@ -2088,14 +2094,16 @@
       "nextCheck": "Confirmer auprès de la commune et de l’opérateur le maintien des conditions en 2027; conserver les deux lieux et unités tarifaires séparés.",
       "source": "https://rando.loire-atlantique.fr/service/180245-AIRE-DE-STATIONNEMENT-SAINT-VIAUD",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 316,
-      "recheckFinding": "Recontrôle 19/11/2026 : le parking municipal de camping-cars à la base de loisirs est indiqué gratuit toute l’année. La borne CCP est un autre lieu, rue de la Gare : son tarif service de 6 €/24 h est distinct et l’opérateur indique qu’on ne peut pas y séjourner. Aucun droit de nuitée n’est précisé pour le parking du lac.",
-      "recheckNextCheck": "Garder parking du lac gratuit et borne payante séparés. Confirmer auprès de Saint-Viaud les règles de nuitée et la durée au parking du lac; ne pas présenter le tarif CCP comme une nuitée.",
+      "recheckLot": 337,
+      "recheckFinding": "Recontrôle lot 337 (19/11/2026) : le stationnement municipal au lac est gratuit toute l’année, sans règle de durée ou nuitée précisée. À distinguer de la borne Camping-Car Park de la rue de la Gare : sa page affiche un service à 6 € et une offre intitulée « étape 24 h », mais précise également qu’on ne peut pas y séjourner. Ne pas affecter ces 6 € au parking du lac.",
+      "recheckNextCheck": "Garder deux fiches séparées; demander à la mairie les règles de nuitée et durée au lac. Faire clarifier par Camping-Car Park l’offre 24 h contradictoire de la rue de la Gare.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180245-AIRE-DE-STATIONNEMENT-SAINT-VIAUD",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180245-AIRE-DE-STATIONNEMENT-SAINT-VIAUD",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180245-AIRE-DE-STATIONNEMENT-SAINT-VIAUD",
       "recheckSecondarySource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/as-st-viaud?areaType=aire-services-camping-car",
-      "recheckCCPConditionsSource": "https://www.saint-brevin.com/borne-de-services-camping-car-park.html"
+      "recheckCCPConditionsSource": "https://www.saint-brevin.com/borne-de-services-camping-car-park.html",
+      "recheckMunicipalitySource": "https://www.saint-brevin.com/",
+      "recheckCCPSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/saint-viaud"
     },
     {
       "sourceId": "ACCAMPDL044V50HSVL",
@@ -2107,12 +2115,13 @@
       "nextCheck": "Demander à la mairie de Fégréac le prix actuel de la vidange et du remplissage; ne pas afficher la gratuité comme tarif 2027 confirmé.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-a-fegreac",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 316,
-      "recheckFinding": "Recontrôle 19/11/2026 : la fiche régionale décrit une aire de service/vidange rue du Mottais ouverte toute l’année. Elle ne précise ni tarif, ni règles de stationnement ou de nuitée. La gratuité rapportée dans d’anciennes sources n’est pas établie par la fiche actuelle.",
-      "recheckNextCheck": "Demander à Fégréac le prix actuel de la vidange et d’un éventuel remplissage; ne pas afficher de nuitée sans autorisation de stationnement.",
+      "recheckLot": 337,
+      "recheckFinding": "Recontrôle lot 337 (19/11/2026) : la borne du Mottais, rue du Mottais, est confirmée et ouverte toute l’année. La source actuelle ne publie pas de prix; la gratuité relevée dans un document ancien n’est pas confirmée pour 2027.",
+      "recheckNextCheck": "Conserver le tarif comme non confirmé et demander à Fégréac si les services sont gratuits en 2027.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-a-fegreac",
       "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-a-fegreac",
-      "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-a-fegreac"
+      "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-a-fegreac",
+      "recheckOfficialSource": "https://www.enpaysdelaloire.com/"
     },
     {
       "sourceId": "ACCAMPDL044V50BKT9",
@@ -2124,12 +2133,14 @@
       "nextCheck": "Demander à la mairie de Paimbœuf la durée et les règles nocturnes applicables précisément au quai Edmond-Libert.",
       "source": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 316,
-      "recheckFinding": "Recontrôle 19/11/2026 : la fiche départementale confirme au 4 quai Edmond-Libert un stationnement camping-car gratuit toute l’année. Elle ne précise pas de durée maximale ni de droit de nuitée; ne pas transférer à cette adresse les règles d’un autre parking de Paimbœuf.",
-      "recheckNextCheck": "Maintenir la gratuité publiée; demander à la commune la durée et les règles nocturnes applicables précisément au quai Edmond-Libert.",
+      "recheckLot": 337,
+      "recheckFinding": "Recontrôle lot 337 (19/11/2026) : le stationnement au quai Edmond-Libert est annoncé gratuit toute l’année. La page consultée ne donne pas de durée limite ni de règle nocturne; l’arrêté municipal associé n’a pas pu être vérifié dans son texte.",
+      "recheckNextCheck": "Conserver 0 € pour le stationnement, mais demander à la mairie de confirmer la durée et le droit de nuitée avant de renseigner les conditions.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF",
-      "recheckSource": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF"
+      "recheckSource": "https://rando.loire-atlantique.fr/service/180260-AIRE-DE-STATIONNEMENT-PAIMBOEUF",
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/",
+      "recheckTourismSource": "https://www.saint-brevin.com/"
     },
     {
       "sourceId": "ACCAMPDL044V51MES6",
@@ -2141,12 +2152,13 @@
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/190195-ETANGS-DE-SOUDAN",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 316,
-      "recheckFinding": "Recontrôle 19/11/2026 : la fiche départementale présente le parking des étangs de Soudan avec table de pique-nique, sentier, pêche et voie verte. Aucun tarif, service camping-car, durée ou droit de nuitée n’est publié.",
-      "recheckNextCheck": "Garder comme parking de loisirs; ne pas annoncer de tarif ou de nuitée sans confirmation de la commune.",
+      "recheckLot": 337,
+      "recheckFinding": "Recontrôle lot 337 (19/11/2026) : le site des étangs de Soudan est décrit comme parking de loisirs (pique-nique, randonnée, pêche et voie verte). Aucune règle spécifique camping-car, nuitée, service ou tarif officiel n’a été publiée dans les sources consultées.",
+      "recheckNextCheck": "Demander à la mairie si le stationnement et la nuitée en camping-car sont autorisés, ainsi que les éventuelles limites et tarifs.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/190195-ETANGS-DE-SOUDAN",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/190195-ETANGS-DE-SOUDAN",
-      "recheckSource": "https://rando.loire-atlantique.fr/service/190195-ETANGS-DE-SOUDAN"
+      "recheckSource": "https://rando.loire-atlantique.fr/service/190195-ETANGS-DE-SOUDAN",
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/"
     },
     {
       "sourceId": "ACCAMPDL044V519OUQ",
@@ -2158,12 +2170,13 @@
       "nextCheck": "Confirmer auprès du gestionnaire le tarif et l’état actuel de la borne, séparément du stationnement nocturne.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-a-cote-de-l-eglise",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 316,
-      "recheckFinding": "Recontrôle 19/11/2026 : la fiche régionale confirme à la place de l’Église une borne d’eau et de vidange, avec stationnement de courte durée possible; ouverture toute l’année et 24 h/24. Aucun prix n’est affiché. Ni l’arrêt bref ni l’accès permanent ne confirment une nuitée.",
-      "recheckNextCheck": "Faire confirmer par Le Pin le coût des services et la durée de stationnement; ne pas indiquer de nuitée sans autorisation explicite.",
+      "recheckLot": 337,
+      "recheckFinding": "Recontrôle lot 337 (19/11/2026) : borne communale d’eau et vidange annoncée ouverte 24 h/24 toute l’année; stationnement de courte durée possible. L’ouverture permanente de la borne ne vaut pas autorisation de nuitée. Le prix des services n’est pas indiqué.",
+      "recheckNextCheck": "Maintenir la mention d’arrêt bref, laisser le tarif de service non confirmé et demander à la mairie si une nuitée est autorisée.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-a-cote-de-l-eglise",
       "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-a-cote-de-l-eglise",
-      "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-a-cote-de-l-eglise"
+      "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-a-cote-de-l-eglise",
+      "recheckOfficialSource": "https://www.enpaysdelaloire.com/"
     },
     {
       "sourceId": "ACCAMPDL044V51HCGD",
