@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes, écarts de comptage consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. File tarifaire unique par lieux distincts : lots 342 à 352, dix fiches par lot; alias connus, le doublon technique de la Grotte Saint-Jean et les doublons potentiels exclus du comptage des lieux. Après le lot 352, 109 lignes du registre n'ont pas encore de marqueur de passage; le nombre de lieux distincts restant sera confirmé à mesure que les doublons sont tranchés. Aucun changement aux données publiées du site.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes, dont 3 fiches alias/doublons masquées, pour 216 lieux distincts publiés. File tarifaire unique : lots 342 à 352, dix lieux distincts par lot, soit 110 lieux déjà suivis; 106 lieux distincts restent à examiner. Les alias techniques de la Grotte Saint-Jean, de la Guichardière et du Clos Mer et Nature sont exclus du comptage et ne doivent pas être recomptés. Aucun changement aux données publiées du site.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -1806,7 +1806,7 @@
       "name": "Aire d'accueil camping-car de la Guichardière",
       "checkedAt": "2026-11-03",
       "lot": 93,
-      "status": "doublon_a_confirmer",
+      "status": "doublon_confirmé_masqué",
       "finding": "La fiche existante n’établit pas de tarif camping-car 2027 complet ; conserver le montant antérieur et son année sans le reconduire. Non confirmé",
       "nextCheck": "Obtenir une grille ou confirmation datée 2027 ; séparer forfait de nuitée, services, taxe et périodes.",
       "source": "https://rando.loire-atlantique.fr/service/184066-Flower-Camping-La-Guichardiere",
@@ -1821,13 +1821,9 @@
       "recheckOfficialSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/",
       "recheckFAQSource": "https://www.camping-laguichardiere.net/camping-la-plaine-sur-mer/faq/",
       "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/184066-Flower-Camping-La-Guichardiere",
-      "tariffQueueLot": 352,
-      "tariffQueueAt": "2026-11-19",
-      "tariffQueueFinding": "File tarifaire 352 (19/11/2026) : La fiche départementale décrit le Flower Camping 4 étoiles et la location d’emplacements pour camping-cars. Elle ne confirme pas une aire indépendante ni un tarif 2027 propre à cette fiche.",
-      "tariffQueueNextCheck": "Classer comme emplacement de camping, distinct d’une aire autonome; vérifier le tarif du camping avant publication.",
-      "tariffQueueSources": [
-        "https://rando.loire-atlantique.fr/service/184066-Flower-Camping-La-Guichardiere"
-      ]
+      "duplicateOfSourceId": "ACCAMACCAMPDL044000047",
+      "tariffQueueCorrectionAt": "2026-11-19",
+      "tariffQueueCorrection": "Lot 352 : retirée du comptage des lieux uniques. Coordonnées à environ 4 m de la fiche canonique ACCAMACCAMPDL044000047, déjà contrôlée au lot 349; fiche masquée dans le répertoire public."
     },
     {
       "sourceId": "ACCAMECCVIGIE",
@@ -2593,7 +2589,15 @@
       "recheckSource": "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf",
       "recheckSecondarySource": "https://www.camping-clos-mer-nature.fr/faq/",
       "recheckOfficialSource": "https://www.camping-clos-mer-nature.fr/emplacements-camping-saint-michel-chef-chef/",
-      "recheckFaqSource": "https://www.camping-clos-mer-nature.fr/faq/"
+      "recheckFaqSource": "https://www.camping-clos-mer-nature.fr/faq/",
+      "tariffQueueLot": 352,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 352 (19/11/2026) : Le camping accepte les camping-cars sur emplacements et annonce une ouverture du 1er avril au 31 octobre. Le contrat officiel consulté est valable pour 2026 uniquement; il détaille une taxe de séjour de 0,66 €/adulte/nuit, une éco-participation de 0,30 €/personne/nuit et des frais de dossier de 10 € (jusqu’à 3 nuits) ou 20 € (au-delà). Le prix de base de l’emplacement 2027 n’est pas publié.",
+      "tariffQueueNextCheck": "Ne pas présenter les frais annexes 2026 comme le prix de nuitée complet; laisser le prix de base 2027 non confirmé jusqu’à publication d’un barème ou réponse du camping.",
+      "tariffQueueSources": [
+        "https://www.camping-clos-mer-nature.fr/faq/",
+        "https://www.camping-clos-mer-nature.fr/wp-content/uploads/2026/03/contrat.pdf"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51CY50",
