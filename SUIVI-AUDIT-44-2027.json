@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne; répartition et trois doublons non distincts consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. Registre : 219 lignes, 217 sourceId distincts et 2 fiches affichées sans identifiant. File tarifaire unique : lots 342 à 345, dix fiches différentes par lot, sans modification des données du site. Les anciens lots ne sont pas repris automatiquement; les pages non récupérables ou au contenu incomplet sont signalées dans les rapports.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne; répartition et trois doublons non distincts consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. Registre : 219 lignes, 217 sourceId distincts et 2 fiches affichées sans identifiant. File tarifaire unique : lots 342 à 346, dix fiches différentes par lot, sans modification des données du site. Les anciens lots ne sont pas repris automatiquement; les pages non récupérables ou les prix ambigus sont signalés dans les rapports.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -1216,7 +1216,14 @@
       "recheckRegulationSource": "https://www.mesquer-quimiac.fr/wp-content/uploads/2021/06/2021-04-08-arrete-camping-cars.pdf",
       "recheckMunicipalPageSource": "https://www.mesquer-quimiac.fr/aires-de-camping-car/",
       "recheckOfficialSource": "https://www.mesquer-quimiac.fr/aires-de-camping-car/",
-      "recheckSecondarySource": "https://www.mesquer-quimiac.fr/wp-content/uploads/2021/06/2021-04-08-arrete-camping-cars.pdf"
+      "recheckSecondarySource": "https://www.mesquer-quimiac.fr/wp-content/uploads/2021/06/2021-04-08-arrete-camping-cars.pdf",
+      "tariffQueueLot": 346,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 346 (19/11/2026) : La commune publie un tarif 2026 de 7 €/nuitée. Le même document mentionne de l’eau à 2 €/100 L, mais une autre fiche de l’aire indique qu’il n’y a ni eau ni électricité sur place. Aucun tarif 2027 confirmé; le service d’eau et sa localisation restent à éclaircir.",
+      "tariffQueueNextCheck": "Demander tarif 2027, durée limite et confirmer si le service d’eau est bien disponible sur cette aire.",
+      "tariffQueueSources": [
+        "https://www.mesquer-quimiac.fr/wp-content/uploads/2026/02/Tarifs-2026-services-communaux.pdf"
+      ]
     },
     {
       "sourceId": "ACCAMECCLAGOVELLE",
@@ -1236,7 +1243,14 @@
       "recheckMunicipalServices2026Source": "https://boutique.ot-batzsurmer.fr/medias/images/info_pages/tarifs-municipaux-octobre-2026-3.pdf",
       "recheckStatusSource": "https://www.ot-batzsurmer.fr/tous-les-hebergements-de-batz-sur-mer.html",
       "recheckOfficialSource": "https://www.ot-batzsurmer.fr/aire-de-camping-cars-de-la-govelle.html",
-      "recheckSecondarySource": "https://boutique.ot-batzsurmer.fr/medias/images/info_pages/tarifs-municipaux-octobre-2026-3.pdf"
+      "recheckSecondarySource": "https://boutique.ot-batzsurmer.fr/medias/images/info_pages/tarifs-municipaux-octobre-2026-3.pdf",
+      "tariffQueueLot": 346,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 346 (19/11/2026) : Le dernier contrôle inscrit au registre signale un dysfonctionnement du paiement : le stationnement serait gratuit jusqu’à nouvel ordre, bien que le barème de référence reste affiché (9,26 € intersaison; 11,66 € juillet-août; eau/électricité séparées à 2 €). La capacité est incohérente entre sources (6 ou 8). Tarif payable en 2027 non confirmé.",
+      "tariffQueueNextCheck": "Confirmer remise en service du paiement et capacité officielle; ne pas présenter le barème de référence comme paiement actif avant confirmation.",
+      "tariffQueueSources": [
+        "https://www.ot-batzsurmer.fr/aire-de-camping-cars-de-la-govelle.html"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50028O",
@@ -1257,7 +1271,14 @@
       "recheckOfficialSource": "https://www.mairie-laboissieredudore.fr/vie-boisserienne/aire-de-camping-car/",
       "recheckSecondarySource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-camping-car-la-boissiere-du-dore",
       "recheckTourismSource": "https://rando.loire-atlantique.fr/service/180235-AIRE-CAMPING-CAR-LA-BOISSIERE-DU-DORE",
-      "recheckMunicipalitySource": "https://www.mairie-laboissieredudore.fr/vie-boisserienne/aire-de-camping-car/"
+      "recheckMunicipalitySource": "https://www.mairie-laboissieredudore.fr/vie-boisserienne/aire-de-camping-car/",
+      "tariffQueueLot": 346,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 346 (19/11/2026) : La mairie annonce stationnement gratuit, eau et vidange; le montant de 3 € concerne l’usage de la borne de services, pas la nuitée. Aucune règle nocturne, durée limite ou confirmation de tarif 2027 n’est publiée.",
+      "tariffQueueNextCheck": "Garder 0 € uniquement pour le stationnement si le champ est dédié; conserver 3 € comme service de borne et faire confirmer les règles de nuitée.",
+      "tariffQueueSources": [
+        "https://www.mairie-laboissieredudore.fr/vie-boisserienne/aire-de-camping-car/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51ICOZ",
@@ -1278,7 +1299,14 @@
       "recheckRegionalSource": "https://rando.loire-atlantique.fr/service/187566-Aire-de-camping-car-du-camping-du-Chene",
       "recheckBookingSource": "https://vacances-seasonova.com/fr/camping/camping-du-chene/",
       "recheckOfficialSource": "https://vacances-seasonova.com/fr/camping/camping-du-chene/",
-      "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/187566-Aire-de-camping-car-du-camping-du-Chene"
+      "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/187566-Aire-de-camping-car-du-camping-du-Chene",
+      "tariffQueueLot": 346,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 346 (19/11/2026) : Les sources confirment une aire sécurisée de 21 emplacements, entrée indépendante du camping, avec services. Aucun tarif 2027 propre à cette aire n’est publié; ne pas appliquer les prix du camping adjacent.",
+      "tariffQueueNextCheck": "Demander au gestionnaire les tarifs 2027 de l’aire, avec stationnement, eau, électricité et vidange distincts.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/187566-Aire-de-camping-car-du-camping-du-Chene"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMEPORTCHERI",
@@ -1302,7 +1330,14 @@
       "recheckFaqSource": "https://www.camping-leportcheri.com/froire-aux-questions",
       "recheckSecondarySource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/le-port-cheri",
       "recheckOfficialSource": "https://www.camping-leportcheri.com/",
-      "recheckPitchSource": "https://www.camping-leportcheri.com/emplacements-camping-pornic"
+      "recheckPitchSource": "https://www.camping-leportcheri.com/emplacements-camping-pornic",
+      "tariffQueueLot": 346,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 346 (19/11/2026) : Le site confirme 134 emplacements et l’accueil des camping-cars d’avril à fin novembre. Les prix d’appel relevés ailleurs (20 €/jour opérateur sans composition complète; 26,50 € source tierce) divergent; aucun total daté 2027 n’est établi.",
+      "tariffQueueNextCheck": "Demander un devis opérateur 2027 pour dates et composition précises; clarifier le prix dès 20 €, électricité, taxes et suppléments, en gardant le repère tiers à part.",
+      "tariffQueueSources": [
+        "https://www.camping-leportcheri.com/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V500A9A",
@@ -1324,7 +1359,14 @@
       "recheckSource": "https://campingoudon.fr/",
       "recheckConditionsSource": "https://campingoudon.fr/",
       "recheckMunicipalSource": "https://www.oudon.fr/fileadmin/OUDON/Conseil_municipal/20260119_CR_CM.pdf",
-      "recheckSecondarySource": "https://www.bienvenue-pays-ancenis.com/fr/fiche/hotellerie-de-plein-air-camping/camping-de-la-tour-oudon_TFOHPAPDL044000081/"
+      "recheckSecondarySource": "https://www.bienvenue-pays-ancenis.com/fr/fiche/hotellerie-de-plein-air-camping/camping-de-la-tour-oudon_TFOHPAPDL044000081/",
+      "tariffQueueLot": 346,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 346 (19/11/2026) : La délibération municipale 2026 prévoit un stop-accueil camping-car distinct du séjour ordinaire; le site du camping indique encore la saison et le prix d’appel 2026. Aucun tarif 2027 publié; conserver séparément le stop-accueil, le forfait camping et les services sans nuitée.",
+      "tariffQueueNextCheck": "Demander le tarif et les dates 2027 pour les trois prestations distinctes : stop-accueil camping-car, séjour sur emplacement et services seuls.",
+      "tariffQueueSources": [
+        "https://campingoudon.fr/"
+      ]
     },
     {
       "sourceId": "ACCAMECCLINGORZE",
@@ -1343,7 +1385,14 @@
       "recheckSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21",
       "recheckTaxSource": "https://www.lecroisic.fr/en/rb/381487/taxe-de-sejour-7",
       "recheckOfficialSource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21",
-      "recheckSecondarySource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21"
+      "recheckSecondarySource": "https://www.lecroisic.fr/fr/rb/381227/stationnement-21",
+      "tariffQueueLot": 346,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 346 (19/11/2026) : Le dernier relevé municipal indique 13,50 € pour la nuitée de 20 h à 9 h et 10 € pour 150 L d’eau, sans millésime indiqué; stationnement limité à 48 h, pas d’électricité. Pas de confirmation 2027 ni de taxe identifiée.",
+      "tariffQueueNextCheck": "Faire confirmer le millésime 2027 et toute taxe; garder nuitée et achat d’eau séparés.",
+      "tariffQueueSources": [
+        "https://www.lecroisic.fr/fr/rb/381227/stationnement-21"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50MLLX",
@@ -1363,7 +1412,14 @@
       "recheckSource": "https://www.mairie-chateaubriant.fr/camping-cars/",
       "recheckOfficialSource": "https://www.mairie-chateaubriant.fr/camping-cars/",
       "recheckMunicipalitySource": "https://www.mairie-chateaubriant.fr/camping-cars/",
-      "recheckTariffPageSource": "https://www.mairie-chateaubriant.fr/gites-chambres-dhotes-et-campings/"
+      "recheckTariffPageSource": "https://www.mairie-chateaubriant.fr/gites-chambres-dhotes-et-campings/",
+      "tariffQueueLot": 346,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 346 (19/11/2026) : La page de la mairie répertorie les camping-cars à Châteaubriant, mais aucun tarif 2027 daté n’a été extrait dans le contrôle direct. Le prix de 3 €/nuit précédemment relevé pour Les Bassins de Launay doit être confirmé et distingué des tarifs 2026 de l’aire de Choisel.",
+      "tariffQueueNextCheck": "Confirmer auprès de la mairie le maintien et le millésime du prix de 3 €/nuit, sans le confondre avec l’aire de Choisel.",
+      "tariffQueueSources": [
+        "https://www.mairie-chateaubriant.fr/camping-cars/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V501OIH",
@@ -1410,7 +1466,14 @@
       "recheckGites2026Source": "https://www.gites-de-france.com/fr/pays-de-la-loire/loire-atlantique/le-relais-des-garennes-h44c011606",
       "recheckSource": "https://www.camping-lerelaisdesgarennes.com/infos-pratiques/",
       "recheckOfficialTariffSource": "https://www.camping-lerelaisdesgarennes.com/infos-pratiques/",
-      "recheckOfficialSource": "https://www.camping-lerelaisdesgarennes.com/infos-pratiques/"
+      "recheckOfficialSource": "https://www.camping-lerelaisdesgarennes.com/infos-pratiques/",
+      "tariffQueueLot": 346,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 346 (19/11/2026) : La page de l’exploitant indique 17 €/nuit pour camping-car, deux personnes et électricité incluse, sans année. Gîtes de France présente le même 17 € mais l’électricité en supplément; impossible d’établir un total fiable ni un tarif 2027 officiel.",
+      "tariffQueueNextCheck": "Demander confirmation écrite 2027 pour deux adultes, camping-car et électricité; ne pas additionner ou retirer l’électricité sans réponse de l’exploitant.",
+      "tariffQueueSources": [
+        "https://www.camping-lerelaisdesgarennes.com/infos-pratiques/"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMEAIRECHINOISE",
@@ -1429,7 +1492,14 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
       "recheckSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
-      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac"
+      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
+      "tariffQueueLot": 346,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 346 (19/11/2026) : La fiche départementale indique parking gratuit et borne de service, mais aussi « Tarif : 2 € » sans préciser la prestation. Cela ne permet pas de qualifier 2 € comme tarif de nuitée; aucun millésime, durée ou règle nocturne 2027.",
+      "tariffQueueNextCheck": "Demander à la commune ce que couvrent les 2 €, si la borne fonctionne, et quelles sont les règles de nuitée et de durée.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51NWYL",
