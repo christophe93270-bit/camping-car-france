@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Dernier contrôle : lot 330 (19/11/2026), dix fiches existantes, sans ajout ni suppression. Corrections/précisions : Les Bassins de Launay affichent 3 €/nuit et une ouverture annuelle, sans millésime 2027; le tarif 2026 de Choisel (12 €/24 h) est distinct. Le Véridet n’a qu’un barème 2026 (13,50–16,50 €/nuit + taxe 1,10), avec conflit de montant à résoudre. La Haie-Fouassière : jeton borne 2 €, pas tarif de nuitée. Corsept et le Marais de Saint-Lumine sont gratuits selon les fiches territoriales, mais la règle nocturne reste à confirmer. Aire de pique-nique Guémené-Penfao : ne pas la confondre avec la halte nautique voisine.",
+  "note": "Dernier contrôle : lot 331 (19/11/2026), dix fiches existantes, sans ajout ni suppression. À Donges, le jeton de borne coûte 3,50 € selon la délibération 2026 (100 L d’eau ou 1 h d’électricité), avec vidange et stationnement gratuits; disponibilité de la borne à vérifier. Le Pallet : 3 € pour l’eau sur la fiche millésimée 2026. Pontchâteau : eau 2,50 €/100 L seulement après activation Qipéo, parking gratuit limité à 48 h. Clisson : borne 3 € jeton et vidange gratuite, mais nuitée 12–15 € et électricité 5 € concernent le camping voisin. Fédrun : fiche actuelle 7 places, guide 2023 25 places gratuites; ne pas reprendre les anciennes données sans confirmation. Missillac : 2 € non attribué à une prestation par la fiche.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -1080,16 +1080,18 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 310,
-      "recheckFinding": "Contrôle du 19/11/2026 : la fiche départementale confirme la vidange gratuite et l’eau à 3 € le jeton (vendu à l’accueil du camping en saison; gratuit pour ses clients en étape). Le parking devant la borne est interdit. Le séjour de nuit se fait au camping du Moulin, forfait cité de 12–15 € pour emplacement et deux personnes hors taxe, avec électricité 5 € en plus; barème non daté 2027.",
-      "recheckNextCheck": "Obtenir le barème 2027 daté du camping; garder borne d’eau/vidange et séjour payant, taxe de séjour et électricité dans des champs distincts.",
+      "recheckLot": 331,
+      "recheckFinding": "Contrôle du 19/11/2026 : la fiche départementale distingue nettement la borne devant le camping (vidange gratuite, jeton d’eau 3 €) du camping du Moulin, où le stationnement devant la borne est interdit. Le camping propose un forfait étape de 12–15 € pour emplacement et deux personnes, taxe de séjour exclue, électricité en supplément 5 €. Cette fiche ne date pas le forfait 2027; l’aire de service n’est pas une aire de nuitée.",
+      "recheckNextCheck": "Séparer dans la base la borne de services et le forfait nuit du camping; confirmer le tarif 2027, la taxe, l’électricité et les périodes auprès du camping.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
-      "recheckSource": "https://www.camping-clisson.com/emplacements/",
+      "recheckSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
       "recheckSource2": "https://www.camping-clisson.com/emplacements/",
       "recheckOfficialSource": "https://camping.clissonsevremaine.fr",
       "recheckServiceSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
-      "recheckTariff2026Source": "https://www.camping-clisson.com/emplacements/"
+      "recheckTariff2026Source": "https://www.camping-clisson.com/emplacements/",
+      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/180257-Aire-de-service-camping-car-de-Clisson",
+      "recheckCampingSource": "https://camping.clissonsevremaine.fr/"
     },
     {
       "sourceId": "ACCAMPDL044V50I1AR",
@@ -1125,13 +1127,14 @@
       "nextCheck": "Demander ou consulter une confirmation datée 2027 auprès de la commune ou de l’exploitant : prix de nuitée, services séparés, taxe et conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 310,
-      "recheckFinding": "Contrôle du 19/11/2026 : le Département confirme le parking gratuit de La Chinoise, avec borne d’eau potable et vidanges. Le libellé « tarif 2 € » relevé dans la fiche ne précise pas à quoi il s’applique ni le volume; aucun tarif de nuitée ou règle nocturne 2027 n’est établi.",
-      "recheckNextCheck": "Demander à la mairie ce que couvrent les 2 € et si une nuitée est autorisée; ne pas traiter ce montant comme prix du stationnement.",
+      "recheckLot": 331,
+      "recheckFinding": "Contrôle du 19/11/2026 : la fiche départementale annonce le parking de La Chinoise gratuit pour les camping-cars, avec vidange et eau potable, mais ajoute « Tarif : 2 € » sans préciser si cela concerne l’eau, le jeton ou une autre prestation. Aucun tarif de nuitée, millésime 2027, durée maximale ou règle nocturne n’est publié.",
+      "recheckNextCheck": "Ne pas attribuer les 2 € à la nuitée; demander à la commune ce que couvre ce prix, si la borne fonctionne, et confirmer les conditions de nuitée et durée.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
       "recheckSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac",
+      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/184251-Aire-de-camping-cars-de-Missillac"
     },
     {
       "sourceId": "ACCAMPDL044V51NWYL",
@@ -2850,13 +2853,14 @@
       "nextCheck": "Vérifier le tarif et la durée sur la borne ou auprès du gestionnaire; ne pas présenter cette aire de service commerciale comme une aire de nuitée.",
       "source": "https://rando.loire-atlantique.fr/service/180255-AIRE-DE-SERVICE-HYPER-U-LA-COLLERAYE",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 309,
-      "recheckFinding": "Contrôle du 19/11/2026 : la fiche départementale décrit l’aire de services de l’Hyper U La Colleraye à Savenay, avec ouverture indiquée 24 h/24 dans la fiche touristique consultée. Aucun tarif vérifiable n’est publié et rien ne confirme une aire de nuitée.",
-      "recheckNextCheck": "Demander au magasin ou relever le prix à la borne; confirmer les horaires après 2026. Présenter ce lieu comme point de services tant que le stationnement nocturne n’est pas confirmé.",
+      "recheckLot": 331,
+      "recheckFinding": "Contrôle du 19/11/2026 : la fiche départementale confirme seulement l’aire de service au lieu-dit La Colleraye, Savenay; elle ne publie ni tarif ni conditions de nuitée. Les références de l’office décrivent un point de services à proximité de l’Hyper U, annoncé ouvert toute l’année 2026/24 h selon la fiche antérieure, sans preuve que le parking commercial autorise une nuitée.",
+      "recheckNextCheck": "Conserver cette fiche comme borne/aire de service, sans prix de nuitée. Vérifier sur site ou auprès du magasin le prix et les services actuellement disponibles; ne pas transformer le parking du centre commercial en aire d’accueil nocturne sans confirmation.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180255-AIRE-DE-SERVICE-HYPER-U-LA-COLLERAYE",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180255-AIRE-DE-SERVICE-HYPER-U-LA-COLLERAYE",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/180255-AIRE-DE-SERVICE-HYPER-U-LA-COLLERAYE",
-      "recheckTourismSource": "https://estuairesillontourisme.fr/offres/aire-de-service-hyper-u-la-colleraye-savenay-fr-4618687/"
+      "recheckTourismSource": "https://estuairesillontourisme.fr/offres/aire-de-service-hyper-u-la-colleraye-savenay-fr-4618687/",
+      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/180255-AIRE-DE-SERVICE-HYPER-U-LA-COLLERAYE"
     },
     {
       "sourceId": "ACCAMPDL044V5007YR",
@@ -2887,14 +2891,15 @@
       "nextCheck": "Conserver 3 € comme tarif du service d’eau millésimé 2026 seulement; vérifier le tarif 2027 et le stationnement auprès de la commune.",
       "source": "https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-de-camping-car-du-pallet-le-pallet-fr-6002299/",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 309,
-      "recheckFinding": "Contrôle du 19/11/2026 : la fiche touristique décrit une aire communale de service et stationnement au parking du Musée du Vignoble Nantais, avec vidange et eau; le montant de 3 € pour l’eau a été relevé précédemment. Aucun tarif de nuitée distinct ni confirmation datée 2027 n’est trouvé.",
-      "recheckNextCheck": "Garder le prix d’eau séparé du stationnement; vérifier en mairie que le jeton/tarif de 3 € et les conditions de stationnement restent applicables en 2027.",
+      "recheckLot": 331,
+      "recheckFinding": "La fiche territoriale actuelle affiche 3,00 € pour l’eau et une ouverture toute l’année 2026. C’est un coût de service et une information millésimée 2026; aucune tarification de nuitée ni validité 2027 n’est indiquée. Le site est aire de stationnement et de service, mais les conditions nocturnes ne sont pas détaillées.",
+      "recheckNextCheck": "Conserver les 3 € comme prix de l’eau 2026 uniquement; vérifier le montant et son unité en 2027, ainsi que le droit de nuitée auprès de la commune.",
       "recheckTariffSource": "https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-de-camping-car-du-pallet-le-pallet-fr-6002299/",
       "recheckSource": "https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-de-camping-car-du-pallet-le-pallet-fr-6002299/",
       "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/180233-AIRE-DE-CAMPING-CAR-DU-PALLET",
       "recheckOfficialSource": "https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-de-camping-car-du-pallet-le-pallet-fr-6002299/",
-      "recheckWaterTariffSource": "https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-de-camping-car-du-pallet-le-pallet-fr-6002299/"
+      "recheckWaterTariffSource": "https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-de-camping-car-du-pallet-le-pallet-fr-6002299/",
+      "recheckTourismSource": "https://www.destination-vignoble-nantais.com/tous-les-hebergements/aire-de-camping-car-du-pallet-le-pallet-fr-6002299/"
     },
     {
       "sourceId": "ACCAMPDL044V501E4W",
@@ -2928,15 +2933,17 @@
       "nextCheck": "Confirmer le maintien du prix des jetons en 2027 et vérifier les points de vente; conserver la gratuité du stationnement et de la vidange séparée du tarif de service.",
       "source": "https://www.loireavelo.fr/tsft/aire-du-stade-donges/",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 309,
-      "recheckFinding": "Contrôle du 19/11/2026 : le tourisme officiel présente le parking de l’aire du Stade comme gratuit. La délibération municipale 2026 fixe le jeton à 3,50 € pour 1 h d’électricité ou 100 L d’eau, vidange eaux usées gratuite. Le message tiers antérieur de fermeture reste à vérifier auprès de la mairie; aucun tarif 2027 du jeton n’est publié.",
-      "recheckNextCheck": "Confirmer l’ouverture réelle auprès de la mairie avant déplacement et le tarif 2027; garder le parking gratuit, jeton eau/électricité et vidange gratuite comme éléments distincts.",
+      "recheckLot": 331,
+      "recheckFinding": "La délibération municipale officielle fixe le jeton à 3,50 € à compter du 01/01/2026; un jeton donne une heure d’électricité ou 100 L d’eau. La vidange des eaux usées et le stationnement sont gratuits selon les fiches tourisme actuelles. Une notice rapporte toutefois une fermeture de la borne après dégradations en juillet 2026 : la disponibilité de la borne doit être vérifiée avant d’annoncer le service comme utilisable. Aucun prix 2027 n’est publié.",
+      "recheckNextCheck": "Garder 3,50 € comme tarif municipal 2026 pour le jeton, 100 L ou une heure d’électricité; confirmer maintien en 2027 et réouverture/disponibilité. Maintenir stationnement et vidange gratuits séparés.",
       "recheckTariffSource": "https://ville-donges.fr/wp-content/uploads/2025/12/DELIB4_TARIFS_2026.pdf",
-      "recheckSource": "https://www.pornichet.fr/aire-du-stade-de-donges",
+      "recheckSource": "https://ville-donges.fr/wp-content/uploads/2025/12/DELIB4_TARIFS_2026.pdf",
       "recheckSecondarySource": "https://www.cirkwi.com/en/point-interet/441564-aire-du-stade",
       "recheckOfficialSource": "https://ville-donges.fr/wp-content/uploads/2025/12/DELIB4_TARIFS_2026.pdf",
       "recheckAvailabilityReportSource": "https://www.aire-service-camping-car-panoramique.fr/loire-atlantique/44-donges",
-      "recheckTourismSource": "https://www.pornichet.fr/aire-du-stade-de-donges"
+      "recheckTourismSource": "https://www.pornichet.fr/aire-du-stade-de-donges",
+      "recheckMunicipalTariffSource": "https://ville-donges.fr/wp-content/uploads/2025/12/DELIB4_TARIFS_2026.pdf",
+      "recheckAvailabilitySource": "https://www.aire-service-camping-car-panoramique.fr/loire-atlantique/44-donges"
     },
     {
       "sourceId": "ACCAMPDL044V5006F8",
@@ -2948,13 +2955,14 @@
       "nextCheck": "Demander à la mairie ou au gestionnaire si la nuitée est autorisée, sa durée et les conditions de contribution en 2027.",
       "source": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 309,
-      "recheckFinding": "Contrôle du 19/11/2026 : les fiches départementale et touristique indiquent parking gratuit (environ 3 places), eau propre, vidanges et contribution libre; l’accès à l’eau dépend des horaires du magasin. Aucun tarif fixe, durée maximale ou règle nocturne n’est publié.",
-      "recheckNextCheck": "Maintenir la contribution libre aux services distincte du parking gratuit; demander au gestionnaire si le stationnement de nuit est autorisé.",
+      "recheckLot": 331,
+      "recheckFinding": "La fiche départementale confirme une aire de vidange et de stationnement sur le parking du magasin : environ 3 places, parking gratuit, contribution libre et accès à l’eau suivant les horaires du magasin. Aucun tarif fixe ou règle nocturne n’est publié. La contribution volontaire ne peut pas être enregistrée comme prix de nuitée.",
+      "recheckNextCheck": "Garder le parking à 0 € et la contribution des services séparée; confirmer auprès du magasin/de la commune si la nuitée est autorisée et sa durée.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-",
       "recheckSource": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-",
       "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-",
+      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-"
     },
     {
       "sourceId": "ACCAMEAIREDECAMPINGCARPONTCHATEAU",
@@ -2966,9 +2974,9 @@
       "nextCheck": "Vérifier auprès de la commune si Qipéo facture actuellement l’eau, le prix réellement appliqué, et si ces conditions sont maintenues en 2027; distinguer eau et stationnement.",
       "source": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 309,
-      "recheckFinding": "Contrôle du 19/11/2026 : la mairie annonce une fermeture temporaire du 2 novembre au 8 décembre 2026; l’aire est donc fermée à la date du contrôle. La fiche touristique précise parking gratuit limité à 48 h et eau à 2,50 €/100 L seulement à compter de la mise en service du système Qipéo; la vidange est distincte/gratuite. La mise en service n’est pas confirmée.",
-      "recheckNextCheck": "Recontrôler après le 8 décembre 2026 avant de déclarer l’aire ouverte; vérifier que Qipéo est opérationnel avant de publier les 2,50 €/100 L comme prix réellement payable.",
+      "recheckLot": 331,
+      "recheckFinding": "La fiche départementale indique parking camping-car gratuit, limite de 48 h et eau à 2,50 €/100 L, sous réserve de la mise en œuvre de la facturation par application Qipéo. La vidange est disponible. La source ne confirme pas que le paiement Qipéo soit effectivement actif ni le maintien des montants en 2027.",
+      "recheckNextCheck": "Conserver le stationnement gratuit et la limite de 48 h; présenter l’eau à 2,50 €/100 L comme conditionnelle à l’activation du système et vérifier l’activation auprès de Pontchâteau.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau",
       "recheckSource": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau",
       "recheckSecondarySource": "https://www.qipeo.com/detail/bde813b0-70b8-49f1-a8bb-fe395d859c80",
@@ -2976,7 +2984,8 @@
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau",
       "recheckMunicipalDecisionSource": "https://www.pontchateau.fr/medias/2026/02/10_pv-CM_17-12-2025.pdf",
       "recheckQipeoSource": "https://www.qipeo.com/detail/bde813b0-70b8-49f1-a8bb-fe395d859c80",
-      "recheckAvailabilitySource": "https://www.pontchateau.fr/systeme/actualites/"
+      "recheckAvailabilitySource": "https://www.pontchateau.fr/systeme/actualites/",
+      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau"
     },
     {
       "sourceId": "ACCAMPDL044V51MES5",
@@ -2988,13 +2997,14 @@
       "nextCheck": "Demander à la mairie si le stationnement nocturne est autorisé pour les camping-cars, la durée maximale et le tarif éventuel.",
       "source": "https://rando.loire-atlantique.fr/service/187905-AIRE-DE-STATIONNEMENT---MOUAIS",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 309,
-      "recheckFinding": "Contrôle du 19/11/2026 : la fiche décrit un parking de loisirs arboré rue du Manoir, près de la Chère et d’une aire de jeux. Elle n’établit pas l’accueil dédié des camping-cars, un prix, des services ou le droit de nuitée.",
-      "recheckNextCheck": "Demander à la mairie si le parking accepte les camping-cars la nuit et pour quelle durée; ne pas classer comme aire dédiée sans confirmation.",
+      "recheckLot": 331,
+      "recheckFinding": "La fiche intercommunale situe un vaste parking arboré rue du Manoir à Mouais, avec aire de jeux; elle ne mentionne pas de camping-cars, de services, de tarif ou de règle de nuitée. La destination et l’aptitude à accueillir un camping-car restent donc à confirmer.",
+      "recheckNextCheck": "Vérifier avec la mairie que ce parking précis accepte les camping-cars et la nuitée, puis demander durée maximale et éventuel tarif; ne pas le présenter comme aire équipée sans preuve.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/187905-AIRE-DE-STATIONNEMENT---MOUAIS",
       "recheckSource": "https://rando.loire-atlantique.fr/service/187905-AIRE-DE-STATIONNEMENT---MOUAIS",
       "recheckSecondarySource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-mouais",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/187905-AIRE-DE-STATIONNEMENT---MOUAIS"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/187905-AIRE-DE-STATIONNEMENT---MOUAIS",
+      "recheckCommunitySource": "https://rando.loire-atlantique.fr/service/187905-AIRE-DE-STATIONNEMENT---MOUAIS"
     },
     {
       "sourceId": "ACCAMPDL044V51R0LC",
@@ -3006,13 +3016,15 @@
       "nextCheck": "Confirmer auprès de la mairie si la nuitée est autorisée et sous quelles conditions; ne pas transposer une éventuelle règle d’un autre parking.",
       "source": "https://www.bienvenue-pays-ancenis.com/en/fiche/aire-de-camping-car/aire-de-stationnement-du-marais-de-gree-ancenis-saint-gereon_TFOACCAMPDL044V51R0LC/",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 309,
-      "recheckFinding": "Contrôle du 19/11/2026 : la fiche touristique du Marais de Grée indique un parking et un équipement « déchets », sans prix, durée maximale, point d’eau ni autorisation nocturne spécifique aux camping-cars.",
-      "recheckNextCheck": "Demander à la mairie la durée, les services exacts et l’autorisation de nuitée; ne pas interpréter la présence d’un parking ou d’une poubelle comme validation d’une nuitée.",
+      "recheckLot": 331,
+      "recheckFinding": "La fiche Pays d’Ancenis présente un parking au marais de Grée avec équipement de gestion des déchets, sans mention d’accueil camping-car ni de nuitée, durée ou prix. Le stationnement conseillé pour visiter la Maison du Marais ne constitue pas une autorisation nocturne camping-car.",
+      "recheckNextCheck": "Demander à la mairie si les camping-cars sont autorisés à stationner la nuit sur ce parking et selon quelles règles; conserver prix et services spécifiques comme non confirmés.",
       "recheckTariffSource": "https://www.bienvenue-pays-ancenis.com/en/fiche/aire-de-camping-car/aire-de-stationnement-du-marais-de-gree-ancenis-saint-gereon_TFOACCAMPDL044V51R0LC/",
       "recheckSource": "https://www.bienvenue-pays-ancenis.com/en/fiche/aire-de-camping-car/aire-de-stationnement-du-marais-de-gree-ancenis-saint-gereon_TFOACCAMPDL044V51R0LC/",
       "recheckSecondarySource": "https://www.bienvenue-pays-ancenis.com/fr/fiche/fetes-et-manifestations/permanence-de-la-maison-du-marais-de-gree-ancenis-saint-gereon_TFOFMAPDL044V51N7RM/",
-      "recheckOfficialSource": "https://www.bienvenue-pays-ancenis.com/en/fiche/aire-de-camping-car/aire-de-stationnement-du-marais-de-gree-ancenis-saint-gereon_TFOACCAMPDL044V51R0LC/"
+      "recheckOfficialSource": "https://www.bienvenue-pays-ancenis.com/en/fiche/aire-de-camping-car/aire-de-stationnement-du-marais-de-gree-ancenis-saint-gereon_TFOACCAMPDL044V51R0LC/",
+      "recheckTourismSource": "https://www.bienvenue-pays-ancenis.com/en/fiche/aire-de-camping-car/aire-de-stationnement-du-marais-de-gree-ancenis-saint-gereon_TFOACCAMPDL044V51R0LC/",
+      "recheckMunicipalitySource": "https://www.ancenis-saint-gereon.fr/"
     },
     {
       "sourceId": "ACCAMPDL044V50TYCL",
@@ -3024,13 +3036,15 @@
       "nextCheck": "Vérifier la signalisation locale pour la durée de stationnement et confirmer le maintien de la gratuité en 2027.",
       "source": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
       "recheckedAt": "2026-11-19",
-      "recheckLot": 309,
-      "recheckFinding": "Contrôle du 19/11/2026 : les fiches touristiques confirment 7 emplacements réservés aux camping-cars à Fédrun, annoncés ouverts toute l’année 2026. Elles ne publient pas de prix, services techniques, durée maximale ni règle de nuitée. Une source tierce évoque la gratuité, mais ce n’est pas confirmé par la fiche officielle.",
-      "recheckNextCheck": "Demander à la mairie le tarif éventuel, la limite de durée et l’autorisation de nuitée; ne pas inscrire la gratuité comme confirmée en 2027 sans source communale.",
+      "recheckLot": 331,
+      "recheckFinding": "La fiche départementale actuelle confirme 7 emplacements réservés aux camping-cars sur l’île de Fédrun, mais ne publie ni prix, ni durée, ni autorisation nocturne. Une brochure touristique 2023 indiquait 25 places et la gratuité : données anciennes en contradiction avec la capacité actuelle; ne pas reconduire automatiquement le tarif ou le nombre.",
+      "recheckNextCheck": "Retenir 7 comme capacité de la fiche actuelle; confirmer avec Saint-Joachim la gratuité, la durée et la nuitée 2027. Garder les 25 places/gratuité du guide 2023 comme historique seulement.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
       "recheckSource": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
       "recheckSecondarySource": "https://www.pornichet.fr/aire-de-stationnement-de-fedrun",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
+      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
+      "recheckHistoricalSource": "https://www.saint-nazaire-tourisme.com/app/uploads/saintnazaire/2023/04/Brochure-hebergements-saint-nazaire-briere-FR-EN-DE.pdf"
     },
     {
       "sourceId": "ACCAMPDL044V5006F7",
