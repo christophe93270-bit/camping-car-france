@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes, écarts de comptage consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. File tarifaire unique par fiches distinctes : lots 342 à 350, dix fiches par lot; trois alias connus et la fiche technique doublon de la Grotte Saint-Jean exclus. Aucun changement aux données publiées du site.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes, écarts de comptage consignés dans REMISE-A-PLAT-LOIRE-ATLANTIQUE-44-2027.md. File tarifaire unique par lieux distincts : lots 342 à 351, dix fiches par lot; alias connus, dont way/909625355 pour la Sébilière, et doublon technique de la Grotte Saint-Jean exclus de la file. Aucun changement aux données publiées du site.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -3053,7 +3053,14 @@
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
       "recheckSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal",
+      "tariffQueueLot": 351,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 351 (19/11/2026) : La fiche départementale confirme parking gratuit pour camping-cars de toute taille, avec vidange mais sans eau, électricité ni horodateur. La durée maximale et le droit de nuitée ne sont pas précisés.",
+      "tariffQueueNextCheck": "Garder le stationnement à 0 €; demander à la commune si la nuitée est autorisée et quelle durée est admise.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/5962-Aire-de-stationnement-municipal"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50028I",
@@ -3073,7 +3080,14 @@
       "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre",
       "recheckOfficialSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre",
       "recheckSecondarySource": "https://www.lecampeur.fr/camping/domaine-des-croix-ph5dwr",
-      "recheckFrancePassionPolicySource": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
+      "recheckFrancePassionPolicySource": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/",
+      "tariffQueueLot": 351,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 351 (19/11/2026) : La fiche régionale indique 6 places, services eau/vidange/déchets/électricité/douche, ouvert toute l’année et 24 h/24. Aucun tarif n’est publié; les 5 € d’une source tierce ne sont pas confirmés. Le statut France Passion et le droit de nuitée restent à vérifier.",
+      "tariffQueueNextCheck": "Confirmer auprès du domaine si l’accueil France Passion est actif, si la nuitée est permise, et quels services sont gratuits ou payants; ne pas afficher 5 € comme tarif confirmé.",
+      "tariffQueueSources": [
+        "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-car-domaine-des-croix-maisdon-sur-sevre"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51CY46",
@@ -3091,7 +3105,14 @@
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX",
       "recheckSource": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX",
+      "tariffQueueLot": 351,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 351 (19/11/2026) : La fiche départementale décrit un parking au bord de l’étang du Bas-du-Tertre, avec pétanque et pêche, mais ne confirme aucun accueil camping-car, service, tarif ou nuitée.",
+      "tariffQueueNextCheck": "Demander à la commune si le stationnement camping-car nocturne est autorisé avant d’indiquer tarif ou conditions.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/186417-AIRE-DE-STATIONNEMENT---SAINT-AUBIN-DES-CHATEAUX"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51CXW1",
@@ -3109,7 +3130,14 @@
       "recheckTariffSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/",
       "recheckConditionsSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/",
       "recheckSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/",
-      "recheckOfficialSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/"
+      "recheckOfficialSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/",
+      "tariffQueueLot": 351,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 351 (19/11/2026) : L’Office de tourisme décrit un vaste parking près d’un terrain de pétanque à Grand-Auverné, sans préciser tarifs, services camping-car ou droit de nuitée.",
+      "tariffQueueNextCheck": "Demander à la commune si la nuitée camping-car est autorisée et s’il existe une limite ou un tarif.",
+      "tariffQueueSources": [
+        "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-grand-auverne/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5003A5",
@@ -3128,7 +3156,14 @@
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
       "recheckTourismSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER",
+      "tariffQueueLot": 351,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 351 (19/11/2026) : La fiche départementale confirme un parking gratuit pour camping-cars au Port du Vivier. Elle ne précise pas les règles nocturnes, la durée, les services ni un millésime tarifaire.",
+      "tariffQueueNextCheck": "Garder la gratuité comme tarif de stationnement publié; faire confirmer par la commune la durée et les règles de nuitée.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/180241-AIRE-DE-STATIONNEMENT-PORT-DU-VIVIER"
+      ]
     },
     {
       "sourceId": "ACCAMECCLALANDE",
@@ -3164,7 +3199,14 @@
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT",
       "recheckSource": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT",
+      "tariffQueueLot": 351,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 351 (19/11/2026) : La fiche départementale confirme une dizaine d’emplacements dédiés aux camping-cars près du canal et du bourg, sans prix, services, limite de durée ou règles nocturnes.",
+      "tariffQueueNextCheck": "Demander à la mairie la gratuité ou le tarif, les services, la durée et le droit de nuitée avant de renseigner ces champs.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/180262-AIRE-DE-STATIONNEMENT"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50ZDO9",
@@ -3221,7 +3263,14 @@
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL",
       "recheckSource": "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL",
-      "recheckConditionsSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-derval/"
+      "recheckConditionsSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-derval/",
+      "tariffQueueLot": 351,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 351 (19/11/2026) : La fiche départementale décrit un parking goudronné avec de nombreuses places rue de Redon, mais ne confirme pas d’accueil dédié camping-car, de tarif, de services ou de nuitée.",
+      "tariffQueueNextCheck": "Demander à la mairie si les camping-cars peuvent y stationner la nuit et sous quelles règles; ne pas ajouter de prix sans source.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/186418-AIRE-DE-STATIONNEMENT---DERVAL"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51CY1J",
@@ -3239,7 +3288,14 @@
       "recheckTariffSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-la-meilleraye-de-bretagne/",
       "recheckSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-la-meilleraye-de-bretagne/",
       "recheckOfficialSource": "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-la-meilleraye-de-bretagne/",
-      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/183819-Plan-d-eau-des-Lavandieres"
+      "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/183819-Plan-d-eau-des-Lavandieres",
+      "tariffQueueLot": 351,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 351 (19/11/2026) : L’Office de tourisme décrit le parking enherbé des Lavandières et ses équipements de loisirs; aucune autorisation camping-car ou nuitée, tarif ou service dédié n’est mentionné.",
+      "tariffQueueNextCheck": "Confirmer à la commune que les camping-cars peuvent y stationner la nuit avant de classer le point comme aire.",
+      "tariffQueueSources": [
+        "https://www.tourisme-chateaubriant.fr/fiche-tourisme/aire-de-stationnement-la-meilleraye-de-bretagne/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51CY23",
@@ -3298,7 +3354,14 @@
       "recheckRegionalSource": "https://www.bienvenue-pays-ancenis.com/fr/fiche/aire-de-camping-car/aire-de-camping-car-la-sebiliere-mesanger_TFOACCAMPDL044V519MNP/",
       "recheckMunicipalitySource": "https://www.mesanger.fr/mes-loisirs/aire-camping-car/",
       "recheckTourismSource": "https://rando.loire-atlantique.fr/service/186408-Aire-de-camping-car-La-Sebiliere",
-      "recheckOSMSource": "https://www.openstreetmap.org/way/909625355"
+      "recheckOSMSource": "https://www.openstreetmap.org/way/909625355",
+      "tariffQueueLot": 351,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 351 (19/11/2026) : La mairie confirme une aire réservée aux camping-cars au plan d’eau, avec eau et vidange; la source touristique indique eau gratuite. Aucun coût de vidange, tarif de nuitée ou règle nocturne n’est publié. La fiche OSM way/909625355 est un alias du même lieu et reste exclue du comptage de file.",
+      "tariffQueueNextCheck": "Garder cette fiche canonique et son alias lié; demander à la mairie le coût des services et les règles de nuitée. Ne pas réutiliser le montant historique de 2 € comme tarif actuel sans confirmation.",
+      "tariffQueueSources": [
+        "https://www.mesanger.fr/mes-loisirs/aire-camping-car/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50XQAB",
@@ -3315,7 +3378,14 @@
       "recheckNextCheck": "Conserver 0 € comme stationnement gratuit selon la fiche territoriale; faire confirmer par la commune la durée autorisée, la nuitée et les services avant de renseigner ces champs.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/183723-AIRE-DU-MARAIS",
       "recheckSource": "https://rando.loire-atlantique.fr/service/183723-AIRE-DU-MARAIS",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/183723-AIRE-DU-MARAIS"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/183723-AIRE-DU-MARAIS",
+      "tariffQueueLot": 351,
+      "tariffQueueAt": "2026-11-19",
+      "tariffQueueFinding": "File tarifaire 351 (19/11/2026) : La fiche départementale confirme trois emplacements de stationnement gratuits à l’Aire du Marais; toilettes et pique-nique à proximité. Aucun service technique, durée maximale ou règle explicite de nuitée n’est publiée.",
+      "tariffQueueNextCheck": "Garder trois places et la gratuité; demander à la commune la durée maximale, le droit de nuitée et les services éventuels.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/183723-AIRE-DU-MARAIS"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V500AAB",
