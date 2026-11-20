@@ -14808,19 +14808,47 @@
     "capacityClassifiedPitchesPublished": 150,
     "seasonalDates2026": "01/04/2026–24/10/2026",
     "dataAttribution": "Exploitant Camping La Falaise (La Turballe), La Baule-Guérande Tourisme et e-SPRIT",
-    "importReview": "Lot 47 du 20/10/2026 : accueil camping-car explicite sur site exploitant, coordonnées Cirkwi e-SPRIT 47.35313,-2.51772 à jour septembre 2026 ; adresse et saison de l'exploitant ; pas de grille tarifaire 2026 pour emplacement nu vérifiée. Distinct de camping municipal homonyme dans le Morbihan. Lot 54 du 20/10/2026 : prix camping-car 2026 retrouvés dans la plaquette PDF officielle (30,50/45,90/51,90 € sur emplacement standard ; 32/48,90/56,90 € vue mer ; eau et électricité 10 A incluses), taxe de séjour 2026 encore non confirmée. Lot 281, contrôle du 09/11/2026. L’exploitant annonce une catégorie avec sanitaires privatifs et confirme la saison du 26 mars au 30 octobre 2027. Les prix 2026 renseignés concernent les catégories standard et vue mer. https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/",
+    "importReview": "Lot 47 du 20/10/2026 : accueil camping-car explicite sur site exploitant, coordonnées Cirkwi e-SPRIT 47.35313,-2.51772 à jour septembre 2026 ; adresse et saison de l'exploitant ; pas de grille tarifaire 2026 pour emplacement nu vérifiée. Distinct de camping municipal homonyme dans le Morbihan. Lot 54 du 20/10/2026 : prix camping-car 2026 retrouvés dans la plaquette PDF officielle (30,50/45,90/51,90 € sur emplacement standard ; 32/48,90/56,90 € vue mer ; eau et électricité 10 A incluses), taxe de séjour 2026 encore non confirmée. Lot 281, contrôle du 09/11/2026. L’exploitant annonce une catégorie avec sanitaires privatifs et confirme la saison du 26 mars au 30 octobre 2027. Les prix 2026 renseignés concernent les catégories standard et vue mer. https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/ Mise à jour ciblée d’après le recontrôle du 19/11/2026 : trois devis opérateur pour 7 nuits du 26/03 au 02/04/2027 (247,50 € emplacement nu, 261,50 € vue mer, 366,50 € sanitaires privés). Montants conservés comme totaux de séjour uniquement; taxes, panier final et tarifs haute saison non confirmés. Source : https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/",
     "priceYear": 2026,
     "priceSource": "https://www.camping-de-la-falaise.com/wp-content/uploads/2024/11/tarifs-2026-3-volets-la-falaise.pdf",
     "priceType": "prix_nuitee_emplacement_camping_car_pour_deux_adultes_avec_eau_et_electricite",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-19",
       "status": "booking_only",
-      "label": "Saison annoncée du 26 mars au 30 octobre 2027 ; tarifs d'emplacement à confirmer.",
-      "note": "Contrôle du 03/11/2026 : le site officiel annonce l'ouverture 2027 du 26/03 au 30/10 et commercialise des emplacements camping-car, dont standard et vue mer. Aucun barème 2027, prix de nuitée, taxe de séjour 2027, minimum de séjour ni frais n'a été trouvé dans les pages officielles consultées. Ne pas reconduire la grille 2026 (30,50–51,90 € standard ; 32–56,90 € vue mer) ni la taxe 2025 affichée dans l'ancienne plaquette. Demander un devis daté 2027 pour deux personnes, en précisant catégorie, eau/électricité, taxe, frais et minimum de séjour. Camping distinct des aires CAMPING-CAR PARK de La Turballe. Lot 238, contrôle du 07/11/2026 : la page officielle distingue aussi les emplacements nus avec sanitaires privés. Elle indique l’eau et l’électricité 10 A incluses pour l’emplacement nu vue mer. Le prix de ces catégories pour 2027 reste à confirmer.",
+      "label": "Devis 2027 pour 7 nuits (26/03–02/04) : 247,50 € emplacement nu; 261,50 € vue mer; 366,50 € avec sanitaires privés.",
+      "note": "Le registre du contrôle officiel du 19/11/2026 consigne trois devis opérateur pour 7 nuits du 26/03 au 02/04/2027 : 247,50 € emplacement nu avec eau et électricité 10 A; 261,50 € emplacement vue mer avec eau et électricité 10 A; 366,50 € emplacement avec sanitaires privés. Ce sont des totaux pour ces dates, pas des tarifs par nuitée ni une grille complète 2027. Le panier final et les taxes restent à confirmer; aucun tarif haute saison 2027 n’est vérifié. La saison annoncée par l’exploitant va du 26/03 au 30/10/2027.",
       "source": "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/",
       "validFrom": "2027-03-26",
-      "validThrough": "2027-10-30"
+      "validThrough": "2027-10-30",
+      "bookingOffers2027": [
+        {
+          "category": "Emplacement nu",
+          "amountEUR": 247.5,
+          "nights": 7,
+          "from": "2027-03-26",
+          "through": "2027-04-02",
+          "included": "eau, électricité 10 A",
+          "source": "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/"
+        },
+        {
+          "category": "Emplacement vue mer",
+          "amountEUR": 261.5,
+          "nights": 7,
+          "from": "2027-03-26",
+          "through": "2027-04-02",
+          "included": "eau, électricité 10 A",
+          "source": "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/"
+        },
+        {
+          "category": "Emplacement avec sanitaires privés",
+          "amountEUR": 366.5,
+          "nights": 7,
+          "from": "2027-03-26",
+          "through": "2027-04-02",
+          "source": "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/"
+        }
+      ]
     }
   },
   {
