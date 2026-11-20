@@ -4861,7 +4861,7 @@
       "recheckedAt": "2026-11-19",
       "recheckLot": 324,
       "recheckFinding": "Mise à jour ciblée (20/11/2026, sans nouveau lot) : la page officielle indique que les réservations 2027 sont ouvertes depuis le 04/11/2026 et que la saison va du 09/04 au 19/09/2027. La page tarifaire renvoie vers un moteur en temps réel; aucun tarif de base par nuit ni devis daté n’a été capturé. Le contrat 2027 précise taxe de séjour 0,66 €/adulte/nuit, frais de réservation 0 € hors juillet-août et 25 € en juillet-août, et caution de 15 € pour carte/bracelets. Les emplacements accueillent 1–2 personnes, un véhicule, eau et électricité 10 A; 7 nuits minimum en juillet-août. Les 25 € partenaire restent non millésimés et ne sont pas le tarif standard 2027.",
-      "recheckNextCheck": "Contrôle ciblé seulement : relever un devis moteur 2027 daté pour un camping-car et deux adultes, en Standard puis Premium, avec total final, taxe et frais. Ne pas reconduire le tarif partenaire de 25 € ni refaire l’examen général de cette fiche.",
+      "recheckNextCheck": "Relever un devis daté via le moteur officiel pour deux adultes + camping-car en Standard et Premium; vérifier au panier si l’offre permanente 7=6/14=11 s’applique aux dates 2027 choisies, puis relever le total et les frais. Ne pas utiliser le 25 € partenaire comme tarif public.",
       "recheckSource": "https://www.camping-leveno.com/",
       "recheckTariffSource": "https://www.camping-leveno.com/tarifs-camping-guerande.html",
       "recheckConditions2026Source": "https://www.camping-leveno.com/pdf/leveno-contrat-conditions.pdf",
@@ -4876,7 +4876,21 @@
       "recheckSecondarySource": "https://www.camping-leveno.com/tarifs-camping-guerande.html",
       "previousRecheckFinding20261119": "Recontrôle 19/11/2026 : ouverture affichée du 09/04 au 19/09/2027. Les emplacements camping-car font plus de 80 m², 10 A, eau, un véhicule et forfait de base 1–2 personnes. Le prix partenaire à 25 €, hors taxe, inclut 2 personnes, électricité et un animal en saison verte mais n’est pas daté 2027; les réservations 2027 sont encore annoncées comme prochaines à ouvrir.",
       "sourceRefreshAt": "2026-11-20",
-      "recheckBookingOpen2027Source": "https://www.camping-leveno.com/"
+      "recheckBookingOpen2027Source": "https://www.camping-leveno.com/",
+      "promotionCandidateCheckedAt": "2026-11-20",
+      "operatorPromotion2027Candidate": {
+        "offer": "7 nuits = 6 facturées; 14 nuits = 11 facturées",
+        "eligibleMonths": [
+          "avril",
+          "mai",
+          "juin",
+          "septembre"
+        ],
+        "conditions": "présence du campeur, nuits consécutives, offre non cumulable selon la page officielle",
+        "yearConfirmed": false,
+        "source": "https://www.camping-leveno.com/promotion-camping-guerande.html",
+        "note": "La page officielle présente l’offre comme permanente, sans millésime. Ne pas l’annoncer comme réduction 2027 confirmée avant contrôle au panier."
+      }
     },
     {
       "sourceId": "CCF44-GUERANDE-ETANG-PAYS-BLANC-2026",
