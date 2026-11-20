@@ -372,7 +372,11 @@
       "tariffQueueNextCheck": "Demander un devis daté 2027 pour camping-car avec électricité, taxe et frais; faire confirmer les dates d’ouverture sans année du site.",
       "tariffQueueSources": [
         "https://www.camping-lafontaine.com/location-emplacement-guerande/"
-      ]
+      ],
+      "sourceFollowupAt": "2026-11-20",
+      "sourceFollowupFinding": "Recherche ciblée du 20/11/2026 : la page d’accueil officielle indique deux périodes différentes pour les campeurs, 14/04–04/10 dans la FAQ et 14/04–15/10 dans le pied de page; aucune année n’est précisée. Le jeu de données touristique départemental affiche une période 2026 (04/04–04/10). Aucun prix 2027 ni calendrier 2027 confirmé.",
+      "sourceFollowupSource": "https://www.camping-lafontaine.com/",
+      "sourceFollowupSecondarySource": "https://data.loire-atlantique.fr/explore/dataset/793866443_hotelleries-de-plein-air-camping-en-loire-atlantique/"
     },
     {
       "sourceId": "CCF44-LE-GAVRE-CAMPING-FORET-2026",
@@ -433,7 +437,11 @@
       "tariffQueueSources": [
         "https://www.domainedebrehadour.com/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml",
         "https://www.domainedebrehadour.com/mobile/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-halte-camping-car-80-m2-2-6-personnes.phtml"
-      ]
+      ],
+      "sourceFollowupAt": "2026-11-20",
+      "sourceFollowupFinding": "Recherche ciblée du 20/11/2026 : l’emplacement Access officiel (100 m², deux personnes, un véhicule, électricité) affiche 22/28/34/28/25/22 €/nuit selon les périodes, plus taxe de séjour 0,66 €/adulte/jour. Ces périodes n’ont pas d’année. Cette formule est distincte de la halte camping-car 80 m² déjà suivie à 11/16 €/nuit, elle aussi sans millésime. La promotion 15–25 % consultée ne porte pas d’année vérifiable. Aucun tarif 2027 confirmé.",
+      "sourceFollowupSource": "https://www.domainedebrehadour.com/camping_guerande_emplacements-camping_decouvrir-nos-emplacements-camping_emplacement-access-100-m2-2-6-personnes.phtml",
+      "sourceFollowupPromotionSource": "https://www.domainedebrehadour.com/camping_guerande_actualites-offres_promo-15-a-25-sur-les-emplacements-de-camping.phtml"
     },
     {
       "sourceId": "CCF44-PORNICHET-CAMPING-LES-FORGES-2026",
