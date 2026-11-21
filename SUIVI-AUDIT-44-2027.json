@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes correspondant à 216 lieux et 3 fiches liées/alias (zone technique de la Grotte Saint-Jean, alias de la Guichardière, alias du Clos Mer et Nature). Correction du comptage : les 219 lignes portent déjà un recheckLot antérieur (lots 309 à 341). Les lots tarifaires 342 à 352 représentent donc une seconde passe sur 110 lieux, et non 110 lieux jamais examinés. Les 106 lieux distincts sans tariffQueueLot dans cette seconde file ont eux aussi un contrôle antérieur; « restent à examiner » était une formulation erronée. Ne pas ouvrir de lot 353 avant rapprochement des contrôles et des lacunes tarifaires réellement non résolues. Aucune donnée publiée du site modifiée. Rapport de rapprochement détaillé : AUDIT-44-2027-RECONCILIATION-LOTS.md. Lot tarifaire 353 ouvert le 21/11/2026 sur dix fiches aux questions 2027 non résolues; voir AUDIT-44-2027-LOT353.md. Aucun prix publié n’a été modifié. Lot tarifaire 354 ouvert le 21/11/2026 sur dix fiches de camping sans tarif 2027 camping-car confirmé; voir AUDIT-44-2027-LOT354.md. Aucun prix publié n’a été modifié.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes correspondant à 216 lieux et 3 fiches liées/alias (zone technique de la Grotte Saint-Jean, alias de la Guichardière, alias du Clos Mer et Nature). Correction du comptage : les 219 lignes portent déjà un recheckLot antérieur (lots 309 à 341). Les lots tarifaires 342 à 352 représentent donc une seconde passe sur 110 lieux, et non 110 lieux jamais examinés. Les 106 lieux distincts sans tariffQueueLot dans cette seconde file ont eux aussi un contrôle antérieur; « restent à examiner » était une formulation erronée. Ne pas ouvrir de lot 353 avant rapprochement des contrôles et des lacunes tarifaires réellement non résolues. Aucune donnée publiée du site modifiée. Rapport de rapprochement détaillé : AUDIT-44-2027-RECONCILIATION-LOTS.md. Lot tarifaire 353 ouvert le 21/11/2026 sur dix fiches aux questions 2027 non résolues; voir AUDIT-44-2027-LOT353.md. Aucun prix publié n’a été modifié. Lot tarifaire 354 ouvert le 21/11/2026 sur dix fiches de camping sans tarif 2027 camping-car confirmé; voir AUDIT-44-2027-LOT354.md. Aucun prix publié n’a été modifié. Lot tarifaire 355 ouvert le 21/11/2026 sur dix fiches distinctes (onze lignes de registre, le Briord figurant deux fois). Le tarif 2027 du Soleya a été confirmé; voir AUDIT-44-2027-LOT355.md. Une donnée publiée du Soleya a été structurée.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -4690,14 +4690,14 @@
       "name": "Camping Le Soleya – emplacements de camping",
       "checkedAt": "2026-11-03",
       "lot": 99,
-      "status": "information_2027_sans_prix",
+      "status": "tarif_2027_confirme",
       "finding": "Nouvelle lecture de la page de référence le 3 novembre : Ouverture le 30 avril 2027 ; prix des emplacements à confirmer.. Réservations 2027 annoncées pour fin novembre 2026, sans jour précis. La page tarifaire affiche encore 2026 : forfait camping-car, personnes incluses, électricité, taxe, suppléments et durée minimale 2027 restent à vérifier. Cette fiche concerne les emplacements du camping, distincts de l'aire CAMPING-CAR PARK Le Soleya. Aucun prix ne doit être présenté comme forfait complet confirmé.",
       "nextCheck": "Confirmer auprès de l’exploitant les dates 2027 et un devis camping-car (forfait, électricité, taxe, frais et minimum de séjour).",
       "source": "https://www.campinglesoleya.com/tarifs-camping-tharon-plage.html",
       "recheckedAt": "2026-11-19",
       "recheckLot": 327,
-      "recheckFinding": "Réouverture annoncée le 30/04/2027; les réservations 2027 doivent ouvrir fin novembre 2026. Les emplacements camping-car sont confirmés, 90–200 m², avec électricité 10 A en option. Le tarif détaillé accessible reste celui de 2026.",
-      "recheckNextCheck": "Relever la grille ou un devis dès l’ouverture des réservations 2027; confirmer minimum de séjour, électricité, taxe et frais.",
+      "recheckFinding": "Vérification du 21/11/2026 : l’opérateur affiche 12,22 €/24 h du 17/11/2026 au 31/12/2027 et une taxe 2027 de 1,32 €/24 h, soit 13,54 €/24 h. Le forfait 5 h à 6 € reste séparé.",
+      "recheckNextCheck": "Aucune recherche générale à reprendre; surveiller une éventuelle modification opérateur et garder le produit 5 h séparé.",
       "recheckTariffSource": "https://www.campinglesoleya.com/",
       "recheckSource": "https://www.campinglesoleya.com/",
       "recheckPitchSource": "https://campinglesoleya.com/emplacements-camping-tharon.html",
@@ -4708,7 +4708,14 @@
       "recheckTariffPdfSource": "https://www.campinglesoleya.com/pdf/tarifs_emplacements.pdf",
       "recheckOfficialSource": "https://www.campinglesoleya.com/",
       "recheckConditionsSource": "https://campinglesoleya.com/emplacements-camping-tharon.html",
-      "recheckTariffGridSource": "https://www.campinglesoleya.com/pdf/tarifs_emplacements.pdf"
+      "recheckTariffGridSource": "https://www.campinglesoleya.com/pdf/tarifs_emplacements.pdf",
+      "tariffQueueLot": 355,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 355 (21/11/2026) : Le site CCP publie 12,22 €/24 h du 17/11/2026 au 31/12/2027 et 1,32 € de taxe 2027, soit 13,54 €/24 h. Le parking 5 h + services à 6 € reste distinct. Le tarif 2027 est confirmé et structuré dans aires-loire-atlantique.json.",
+      "tariffQueueNextCheck": "Aucune recherche générale à reprendre; surveiller une éventuelle modification opérateur et garder le produit 5 h séparé.",
+      "tariffQueueSources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/st-michel-chef-chef-soleya"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMEBORNEVALSTMARTIN",
@@ -4728,7 +4735,14 @@
       "recheckRulesSource": "https://www.pornic.com/stationnement-sur-la-commune-de-pornic.html",
       "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu",
       "recheckOperatorSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu",
-      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu"
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu",
+      "tariffQueueLot": 355,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 355 (21/11/2026) : La page CCP affiche 2 €/service mais contient aussi une ligne de 2 €/24 h et taxe 0,44 €/24 h en 2027. Cela ne confirme ni une nuitée ni un total cohérent.",
+      "tariffQueueNextCheck": "Garder la fiche comme service tant que CCP n’a pas clarifié le tarif 24 h, la taxe et le droit de nuitée.",
+      "tariffQueueSources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic-flot-bleu"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5143W2",
@@ -4846,7 +4860,14 @@
       "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-du-bourg-freigne",
       "recheckOfficialSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-du-bourg-freigne",
       "recheckTourismSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-du-bourg-freigne",
-      "recheckMunicipalitySource": "https://www.vallonsdelerdre.fr/"
+      "recheckMunicipalitySource": "https://www.vallonsdelerdre.fr/",
+      "tariffQueueLot": 355,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 355 (21/11/2026) : La fiche régionale confirme dix places gratuites et des services (eau, déchets, toilettes) ouverts toute l’année; elle ne dit pas si l’eau est gratuite ni si la nuitée est autorisée.",
+      "tariffQueueNextCheck": "Garder 0 € pour le stationnement seulement; confirmer auprès de Vallons-de-l’Erdre le coût des services et le droit de nuitée.",
+      "tariffQueueSources": [
+        "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-du-bourg-freigne"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50420T",
@@ -5067,7 +5088,16 @@
       "recheckPremiumPitchSource": "https://www.camping-delabaie.com/emplacement-sanitaire-prive/",
       "recheckOfficialSource": "https://www.camping-delabaie.com/emplacements/",
       "recheckConditionsSource": "https://www.camping-delabaie.com/wp-content/uploads/2024/10/Contrat-Emplacement-et-CGV-2026.pdf",
-      "recheckSecondarySource": "https://www.camping-delabaie.com/wp-content/uploads/2024/10/Contrat-Emplacement-et-CGV-2026-1.pdf"
+      "recheckSecondarySource": "https://www.camping-delabaie.com/wp-content/uploads/2024/10/Contrat-Emplacement-et-CGV-2026-1.pdf",
+      "tariffQueueLot": 355,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 355 (21/11/2026) : L’opérateur confirme l’accueil des camping-cars et la saison 2027 du 09/04 au 03/10; le contrat de parcelles accessible reste daté 2026. Le prix d’appel ne détaille ni composition ni millésime 2027.",
+      "tariffQueueNextCheck": "Obtenir un devis 2027 daté pour Standard et Premium; relever personnes, électricité, taxe et frais.",
+      "tariffQueueSources": [
+        "https://www.camping-delabaie.com/",
+        "https://www.camping-delabaie.com/emplacements/",
+        "https://www.camping-delabaie.com/wp-content/uploads/2024/10/Contrat-Emplacement-et-CGV-2026-1.pdf"
+      ]
     },
     {
       "sourceId": "CCF44-CHALANDS-FLEURIS-2026",
@@ -5091,7 +5121,14 @@
       "recheckConditionsSource": "https://www.olela.fr/camping-les-chalands-fleuris",
       "recheckCalendarSource": "https://www.olela.fr/camping-les-chalands-fleuris",
       "recheckOfficialSource": "https://www.olela.fr/camping-les-chalands-fleuris/hebergements",
-      "recheckPitchTariffSource": "https://www.olela.fr/hebergements/emplacements-camping"
+      "recheckPitchTariffSource": "https://www.olela.fr/hebergements/emplacements-camping",
+      "tariffQueueLot": 355,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 355 (21/11/2026) : L’opérateur confirme la saison 2027 et distingue les forfaits A et B (2 adultes, véhicule, avec ou sans électricité), mais le prix de base n’apparaît pas dans le contenu public consulté. La taxe et l’offre sur frais de dossier sont des postes séparés.",
+      "tariffQueueNextCheck": "Relever les prix de nuitée 2027 des forfaits A et B; confirmer ampérage, taxe et frais.",
+      "tariffQueueSources": [
+        "https://www.olela.fr/camping-les-chalands-fleuris/hebergements"
+      ]
     },
     {
       "sourceId": "CCF44-GUERANDE-DOMAINE-LEVENO-2026",
@@ -5134,7 +5171,15 @@
         "yearConfirmed": false,
         "source": "https://www.camping-leveno.com/promotion-camping-guerande.html",
         "note": "La page officielle présente l’offre comme permanente, sans millésime. Ne pas l’annoncer comme réduction 2027 confirmée avant contrôle au panier."
-      }
+      },
+      "tariffQueueLot": 355,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 355 (21/11/2026) : Les emplacements standard et premium accueillent camping-cars, avec eau, électricité 10 A, 1–2 personnes et un véhicule. Le prix partenaire 25 € est hors taxes et hors saison haute sans millésime; aucun devis public daté 2027 relevé.",
+      "tariffQueueNextCheck": "Capturer un devis officiel 2027 pour deux adultes et camping-car en Standard et Premium; séparer prix public du tarif partenaire.",
+      "tariffQueueSources": [
+        "https://www.camping-leveno.com/emplacements.html",
+        "https://www.camping-leveno.com/tarifs-camping-guerande.html"
+      ]
     },
     {
       "sourceId": "CCF44-GUERANDE-ETANG-PAYS-BLANC-2026",
@@ -5267,7 +5312,15 @@
       "recheckBookingSource": "https://www.aloa-vacances.com/la-riviera/locations-camping-riviera-aloa/",
       "recheckOfficialSource": "https://www.aloa-vacances.com/la-riviera/accueil/",
       "recheckTariffSource": "https://www.aloa-vacances.com/la-riviera/accueil/",
-      "recheckConditionsSource": "https://www.aloa-vacances.com/la-riviera/informations-detaillees/"
+      "recheckConditionsSource": "https://www.aloa-vacances.com/la-riviera/informations-detaillees/",
+      "tariffQueueLot": 355,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 355 (21/11/2026) : La taxe de séjour 2027 est affichée, mais les pages de tarifs accessibles concernent les locations et ne confirment pas une nuitée en emplacement nu camping-car.",
+      "tariffQueueNextCheck": "Confirmer l’accueil camping-car sur emplacement nu puis demander le prix et les frais applicables à cette formule.",
+      "tariffQueueSources": [
+        "https://www.aloa-vacances.com/la-riviera/informations-detaillees/",
+        "https://www.aloa-vacances.com/la-riviera/locations-camping-riviera-aloa/"
+      ]
     },
     {
       "sourceId": "CCF44-BATZ-PALUDIERS-2026",
@@ -5314,7 +5367,15 @@
       "recheckOfficialSource": "https://www.laroseraie.com/emplacement-de-camping-a-la-baule/",
       "recheckPitchesSource": "https://www.laroseraie.com/emplacement-de-camping-a-la-baule/",
       "recheckTariffSource": "https://www.laroseraie.com/",
-      "recheckSecondarySource": "https://www.laroseraie.com/wp-content/uploads/2024/12/cgv.pdf"
+      "recheckSecondarySource": "https://www.laroseraie.com/wp-content/uploads/2024/12/cgv.pdf",
+      "tariffQueueLot": 355,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 355 (21/11/2026) : L’opérateur confirme la saison 2027 et l’accueil des camping-cars; aucun prix de base d’emplacement 2027 n’est publié dans la page consultée. Le minimum de séjour de sept nuits en juillet-août et les options d’eau/évacuation sont à préciser.",
+      "tariffQueueNextCheck": "Obtenir un devis opérateur 2027 daté et distinguer base, taxe, écoparticipation, frais et options.",
+      "tariffQueueSources": [
+        "https://www.laroseraie.com/",
+        "https://www.laroseraie.com/emplacement-de-camping-a-la-baule/"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMELESFLOTSBLEUS",
@@ -5336,7 +5397,15 @@
       "recheckPitchesSource": "https://www.campinglesflotsbleus.com/nosemplacements/camping-cars",
       "recheckPitchSource": "https://www.campinglesflotsbleus.com/nosemplacements/camping-cars",
       "recheckConditionsSource": "https://www.campinglesflotsbleus.com/nosemplacements/camping-cars",
-      "recheckOfficialSource": "https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements"
+      "recheckOfficialSource": "https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements",
+      "tariffQueueLot": 355,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 355 (21/11/2026) : Le tarif officiel accessible est explicitement daté 2026; taxe et écocontribution se rapportent à cette grille. Aucun tarif d’emplacement 2027 publié.",
+      "tariffQueueNextCheck": "Obtenir une grille 2027 par période et confirmer forfait, électricité, taxe et écocontribution.",
+      "tariffQueueSources": [
+        "https://www.campinglesflotsbleus.com/nosemplacements/tarifsnosemplacements",
+        "https://www.campinglesflotsbleus.com/nosemplacements"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044AIREDECAMPINGLEBRIORD",
@@ -5358,7 +5427,15 @@
       "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
       "recheckSecondarySource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord",
       "recheckOfficialSource": "https://www.saint-brevin.com/aire-de-camping-le-briord.html",
-      "recheckEnglishTariffSource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord"
+      "recheckEnglishTariffSource": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord",
+      "tariffQueueLot": 355,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 355 (21/11/2026) : Les sources accessibles restent sur la saison 2026 et divergent entre forfait de base à partir de 14 €/nuit et forfait camping-car à 17 €; aucune grille 2027 ni taxe cohérente n’est publiée. Ce contrôle couvre le camping canonique.",
+      "tariffQueueNextCheck": "Demander au camping les dates et prix 2027, résoudre l’écart 14/17 € et clarifier taxe et suppléments; ne pas reconduire 2026.",
+      "tariffQueueSources": [
+        "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
+        "https://www.saint-brevin.com/aire-de-camping-le-briord.html"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMEAIREDECAMPINGLEBRIORD",
@@ -5382,7 +5459,15 @@
       "recheckSource": "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
       "recheckSource2": "https://www.atlantic-loire-valley.com/accommodation/campsites/aire-de-camping-le-briord",
       "recheckSource3": "https://rando.loire-atlantique.fr/service/187216-AIRE-DE-CAMPING-LE-BRIORD",
-      "recheckOfficialSource": "https://www.saint-brevin.com/aire-de-camping-le-briord.html"
+      "recheckOfficialSource": "https://www.saint-brevin.com/aire-de-camping-le-briord.html",
+      "tariffQueueLot": 355,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 355 (21/11/2026) : Même constat que pour la ligne canonique du Briord : sources tarifaires datées 2026, écart 14/17 €, aucun tarif 2027 confirmé. Ligne rattachée au même lieu et à la même vérification du lot 355; ne pas recompter comme une fiche distincte.",
+      "tariffQueueNextCheck": "Suivi partagé avec l’entrée canonique du Briord; ne pas créer de second contrôle ni de second tarif.",
+      "tariffQueueSources": [
+        "https://www.enpaysdelaloire.com/hebergements/campings/aire-de-camping-le-briord",
+        "https://www.saint-brevin.com/aire-de-camping-le-briord.html"
+      ]
     },
     {
       "sourceId": "node/11786823109",
