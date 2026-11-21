@@ -4,12 +4,12 @@
   "displayedCount": 16,
   "rawRegionalRows": 16,
   "deduplicatedRows": 0,
-  "currentLot": 395,
+  "currentLot": 396,
   "progress": {
-    "checked": 10,
+    "checked": 16,
     "total": 16
   },
-  "note": "Lot 395 : fiches 1 à 10 de la Haute-Marne contrôlées ensemble. Juzennecourt : stationnement nocturne et services confirmés, prix non municipalement publié; gratuité par annuaire tiers à confirmer. CCP Châteauvillain : base 11,66 € + taxe 1,10 €, total 12,76 €/24 h jusqu'au 31/12/2027. CCP Le Montsaugeonnais : base 13 € + taxe 1,32 €, total 14,32 €/24 h en 2027. CCP Viéville : base 10,60 €/24 h jusqu'au 31/12/2027, taxe 2027 non publiée; vidange à Froncles sans supplément. Chaumont Port de la Maladière : barème touristique saison 2026 (8,60 € forfait 24 h + 0,22 € taxe; eau 6,20 €, vidange 0,55 €), renouvellement 2027 à confirmer et ne pas confondre avec le CCP Chaumont, adresse distincte. Goncourt : don facultatif pour stationnement, services dès 3 €, fiche 2026; 2027 non confirmé. Grand Langres : 29 places et 72 h; nouveau concessionnaire Aireservices à partir de la concession attribuée en septembre 2026, tarifs actuels non publiés dans la page officielle. Joinville : eau 2 €/10 min, électricité 2 €/55 min, vidange gratuite selon fiche 2026; nuitée non tarifée. CCP Bourbonne-les-Bains : base 12,73 € + taxe 1,10 €, total 13,83 €/24 h jusqu'au 31/12/2027. Montier-en-Der : borne à jetons confirmée, montant actuel introuvable dans les sources consultées; ancien guide non suffisant. Aucun lieu ajouté. 10/16 fiches vérifiées.",
+  "note": "Lot 395 : fiches 1 à 10 de la Haute-Marne contrôlées ensemble. Juzennecourt : stationnement nocturne et services confirmés, prix non municipalement publié; gratuité par annuaire tiers à confirmer. CCP Châteauvillain : base 11,66 € + taxe 1,10 €, total 12,76 €/24 h jusqu'au 31/12/2027. CCP Le Montsaugeonnais : base 13 € + taxe 1,32 €, total 14,32 €/24 h en 2027. CCP Viéville : base 10,60 €/24 h jusqu'au 31/12/2027, taxe 2027 non publiée; vidange à Froncles sans supplément. Chaumont Port de la Maladière : barème touristique saison 2026 (8,60 € forfait 24 h + 0,22 € taxe; eau 6,20 €, vidange 0,55 €), renouvellement 2027 à confirmer et ne pas confondre avec le CCP Chaumont, adresse distincte. Goncourt : don facultatif pour stationnement, services dès 3 €, fiche 2026; 2027 non confirmé. Grand Langres : 29 places et 72 h; nouveau concessionnaire Aireservices à partir de la concession attribuée en septembre 2026, tarifs actuels non publiés dans la page officielle. Joinville : eau 2 €/10 min, électricité 2 €/55 min, vidange gratuite selon fiche 2026; nuitée non tarifée. CCP Bourbonne-les-Bains : base 12,73 € + taxe 1,10 €, total 13,83 €/24 h jusqu'au 31/12/2027. Montier-en-Der : borne à jetons confirmée, montant actuel introuvable dans les sources consultées; ancien guide non suffisant. Aucun lieu ajouté. 10/16 fiches vérifiées. Lot 396 : fiches 11 à 16 contrôlées. Froncles : base 10,60 € + taxe 0,88 €, total 11,48 €/24 h confirmé en 2027. Sainte-Livière, aire des Caillottes : délibération municipale 2026 fixant 11 €/24 h stationnement + électricité, 3 €/10 min eau/vidange et taxe au tarif en vigueur; délégation de gestion mise en concurrence, montant 2027 et gestionnaire actuel à revalider. Colombey-les-Deux-Églises : fiche touristique 2026 indique stationnement nocturne et services gratuits; aucun tarif 2027 séparé publié, gratuité globale attribuée à la fiche touristique. Auberive : base 13,74 € + taxe 0,44 € = 14,18 €/24 h en 2027; forfait 5 h + services 6 €. Val-de-Meuse – Montigny-le-Roi : base 12,73 € + taxe 0,44 € = 13,17 €/24 h en 2027. Chaumont – Camping Sainte-Marie : grille CCP alternative avec 13,27 € + 0,44 € et total en tête à 13,71 €, mais la page canonique affiche une autre base (12,22 €) et taxe seulement jusqu'en 2026; tarif 2027 contradictoire à revalider. Aucun lieu ajouté. 16/16 fiches vérifiées.",
   "entries": [
     {
       "sourceId": "node/11841734864",
@@ -135,6 +135,81 @@
         "https://www.camping-car.com/aires/20736-aire-communale/"
       ],
       "lot": 395,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1236353635",
+      "name": "Aire camping-cars de Froncles",
+      "status": "tarif_2027_confirme_base_10_60_tax_0_88_total_11_48",
+      "finding": "La grille officielle Camping-Car Park affiche une base de 10,60 €/24 h jusqu'au 31/12/2027 et une taxe de séjour de 0,88 €/24 h en 2027, soit 11,48 €/24 h au total. Le forfait parking 5 h + services à 6 € est distinct.",
+      "nextCheck": "Afficher le total 11,48 €/24 h en séparant base et taxe; garder le forfait 5 h + services à part.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haute-marne/froncles"
+      ],
+      "lot": 396,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1252418751",
+      "name": "Aire de camping-car des Caillotes — Sainte-Livière",
+      "status": "tarif_municipal_2026_11_stationnement_electricite_3_services_tax_sejour_2027_a_revalider",
+      "finding": "Le procès-verbal municipal du 28/01/2026 fixe 11 € par tranche de 24 h pour stationnement et électricité, 3 € pour 10 min de vidange et d'accès à l'eau, plus taxe de séjour au tarif en vigueur. Le même procès-verbal lance une mise en concurrence pour déléguer la gestion; le tarif et l'exploitant applicables en 2027 restent à vérifier.",
+      "nextCheck": "Conserver cette grille comme décision municipale 2026, sans la présenter comme tarif 2027 confirmé; vérifier l'issue de la mise en concurrence, le tarif actuel et la taxe applicable.",
+      "sources": [
+        "https://eclaron-braucourt-steliviere.fr/fr/tr/1604865/53198/aire-des-caillottes",
+        "https://politique.pappers.fr/commune/document/2fc9840290a8371cbd0a17c690396231"
+      ],
+      "lot": 396,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1275278400",
+      "name": "Aire de camping-cars de Colombey-les-Deux-Églises",
+      "status": "fiche_touristique_2026_stationnement_nocturne_services_gratuits_tarif_2027_non_publie",
+      "finding": "La fiche touristique de Haute-Marne Attractivité, actualisée en juin 2026, décrit une aire de stationnement nocturne près de la mairie et indique le parking, l'eau, les toilettes chimiques et la vidange gratuits. Aucun tarif distinct pour 2027 ni arrêté municipal récent n'a été retrouvé.",
+      "nextCheck": "Présenter les informations comme provenant de la fiche 2026; vérifier auprès de la mairie si la gratuité et les conditions d'accès restent valables en 2027.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/3583725-aire-de-camping-cars-de-colombey-les-deux-eglises",
+        "https://www.bienvenue-hautemarne.fr/sit/colombey-les-deux-eglises-aire-de-camping-cars-de-colombey-les-deux-eglises-acccha052v5007jf/"
+      ],
+      "lot": 396,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": null,
+      "name": "Camping de mon Village d'Auberive",
+      "status": "tarif_2027_confirme_base_13_74_tax_0_44_total_14_18",
+      "finding": "La grille officielle CCP affiche 13,74 €/24 h pour toute l'année 2027 et une taxe de séjour de 0,44 €/24 h en 2027, soit 14,18 €/24 h. Le parking 5 h + services est à 6 €. Les horaires 2026 des sanitaires (du 15 avril au 1er novembre selon la fiche) ne sont pas reconduits comme dates 2027.",
+      "nextCheck": "Afficher 14,18 €/24 h avec base et taxe ventilées; garder le forfait 5 h à part et ne pas présenter les dates sanitaires 2026 comme un calendrier 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haute-marne/auberive"
+      ],
+      "lot": 396,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": null,
+      "name": "Camping de mon Village Val-de-Meuse — Montigny-le-Roi",
+      "status": "tarif_2027_confirme_base_12_73_tax_0_44_total_13_17",
+      "finding": "La grille officielle CCP indique 12,73 €/24 h de base et 0,44 € de taxe de séjour jusqu'au 31/12/2027, soit 13,17 €/24 h. Le forfait parking 5 h + services à 6 € reste distinct.",
+      "nextCheck": "Afficher le total 13,17 €/24 h avec la ventilation et garder le forfait 5 h + services séparé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haute-marne/val-de-meuse-montigny-le-roi-le-chateau"
+      ],
+      "lot": 396,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": null,
+      "name": "Camping de mon Village Chaumont — Camping Sainte-Marie",
+      "status": "grilles_ccp_2027_contradictoires_13_71_total_sur_une_version_tarif_a_revalider",
+      "finding": "Une version de la page CCP donne 13,27 €/24 h de base du 17/11/2026 au 31/12/2027 et 0,44 € de taxe 2027, soit 13,71 € au total. La page canonique de la même aire affiche 12,22 €/24 h du 15/11/2026 au 31/12/2027 et ne prolonge pas la taxe au-delà de 2026. Le total visible diffère lui aussi selon la version consultée. Le tarif 2027 ne peut donc pas être marqué confirmé sans clarification CCP.",
+      "nextCheck": "Ne pas écraser le prix avec une valeur unique avant vérification; confirmer le tarif 2027 auprès de Camping-Car Park et maintenir la distinction avec l'aire communale du Port de la Maladière.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haute-marne/chaumont",
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haute-marne/chaumont?areaType=campingplatzen"
+      ],
+      "lot": 396,
       "checkedAt": "2026-11-21"
     }
   ]
