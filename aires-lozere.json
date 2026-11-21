@@ -9,8 +9,8 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "Gratuit (tarif à reconfirmer)",
-    "status": "Aire communale au parking du Pavillon, référencée pour 6 camping-cars. Stationnement annoncé gratuit jusqu’à 24 h ; tarif et disponibilité à reconfirmer auprès de la mairie.",
+    "price": "Stationnement annoncé gratuit jusqu'à 24 h, mais tarif et disponibilité actuelle restent à reconfirmer; aucune publication officielle récente avec prix retrouvée.",
+    "status": "Aire communale mentionnée au parking du Pavillon, 6 places selon la fiche existante; nuitée gratuite annoncée jusqu'à 24 h, mais prix et disponibilité actuelle à confirmer auprès de la mairie.",
     "source": "https://www.openstreetmap.org/node/6666882591",
     "latitude": 44.3707895,
     "longitude": 3.5370088,
@@ -23,7 +23,12 @@
     "verificationSource": "https://www.campingcar76.fr/Site%20P08%2048%20Aires%20services%20dans%20la%20Lozere%20%28Languedoc%20Roussillon%29.htm",
     "capacity": 6,
     "opening": "Toute l’année",
-    "parkingLimit": "24 h"
+    "parkingLimit": "24 h",
+    "priceNote": "Information de gratuité du parking municipal du Pavillon conservée depuis les données existantes; recherche officielle actuelle n'a pas permis de confirmer tarif, services ni disponibilité. La commune a engagé un projet d'aire dans ses documents d'urbanisme, ce qui appelle à distinguer le parking existant du projet.",
+    "priceSource": "https://www.ispagnac.fr/",
+    "official": "https://www.ispagnac.fr/",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21"
   },
   {
     "department": "48",
@@ -31,8 +36,8 @@
     "city": "La Canourgue",
     "type": "Ancienne aire/parking camping-car — remplacée par le CCP voisin",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Le point correspond à l’ancien parking camping-car avenue du Lot ; une source touristique le désigne désormais comme ancien parking. L’aire CCP actuelle se trouve à environ 300 m, 43 avenue du Lot (fiche distincte). Ne pas présenter cette ancienne fiche comme une aire CCP active.",
+    "price": "Ancien parking camping-car; aucune nuitée ou tarif actuel confirmé à cet emplacement. L'aire CCP active est une fiche distincte, environ 300 m plus loin.",
+    "status": "Ancien parking avenue du Lot, distinct du CCP actif à 43 avenue du Lot; ne pas compter comme aire active sans confirmation locale.",
     "source": "https://www.openstreetmap.org/way/715443051",
     "latitude": 44.4333604,
     "longitude": 3.2116181,
@@ -42,7 +47,12 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/715443051",
     "verificationSource": "https://www.lozere-tourisme.com/fete-manifestation/la-canourgue-blues-rock-festival/",
-    "capacity": null
+    "capacity": null,
+    "priceNote": "Ne pas appliquer au vieux parking le tarif CCP. La fiche actuelle de Lozère Tourisme identifie l'aire CCP de La Canourgue; l'ancien parking de l'avenue du Lot n'a pas de tarif ni d'autorisation actuelle de nuitée vérifiés.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/la-canourgue",
+    "official": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/la-canourgue",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21"
   },
   {
     "department": "48",
@@ -52,8 +62,8 @@
     "services": [
       "Sanitaires"
     ],
-    "price": "Gratuit",
-    "status": "Aire au parking du Foirail, 10 emplacements, stationnement gratuit ; sanitaires indiqués par Lozère Tourisme.",
+    "price": "Stationnement gratuit selon Lozère Tourisme; aucune grille 2027 distincte publiée.",
+    "status": "10 emplacements, stationnement gratuit selon Lozère Tourisme; sanitaires indiqués. Gratuité non millésimée 2027.",
     "source": "https://www.openstreetmap.org/way/803166739",
     "latitude": 44.7215033,
     "longitude": 3.2845279,
@@ -64,7 +74,12 @@
     "sourceId": "way/803166739",
     "servicesSource": "https://www.openstreetmap.org/way/803166739",
     "verificationSource": "https://www.lozere-tourisme.com/aires-camping-cars/aire-daccueil-daumont-aubrac/",
-    "capacity": 10
+    "capacity": 10,
+    "priceNote": "Lozère Tourisme confirme 10 emplacements au Foirail et stationnement gratuit; aucune tarification 2027 distincte.",
+    "priceSource": "https://www.lozere-tourisme.com/aires-camping-cars/aire-daccueil-daumont-aubrac/",
+    "official": "https://www.lozere-tourisme.com/aires-camping-cars/aire-daccueil-daumont-aubrac/",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21"
   },
   {
     "department": "48",
@@ -77,8 +92,8 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "Tarif de service non précisé",
-    "status": "Aire de service ouverte 24 h/24, en dehors du camping ; aucune possibilité de stationnement de nuit selon Lozère Tourisme.",
+    "price": "Aucun tarif de service indiqué sur la fiche officielle; pas de stationnement de nuit, aire de service annoncée 24 h/24.",
+    "status": "Aire de service extérieure au camping, ouverte 24 h/24, sans stationnement de nuit; tarif du service non publié.",
     "source": "https://www.openstreetmap.org/way/971532144",
     "latitude": 44.2727501,
     "longitude": 3.2135258,
@@ -89,7 +104,12 @@
     "sourceId": "way/971532144",
     "servicesSource": "https://www.openstreetmap.org/way/971532144",
     "verificationSource": "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-service-de-saint-rome-de-dolan/",
-    "opening": "Toute l’année"
+    "opening": "Toute l’année",
+    "priceNote": "Lozère Tourisme précise explicitement que l'aire est hors du camping et sans stationnement. La rubrique tarifs ne donne pas de montant.",
+    "priceSource": "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-service-de-saint-rome-de-dolan/",
+    "official": "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-service-de-saint-rome-de-dolan/",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21"
   },
   {
     "department": "48",
@@ -103,8 +123,8 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "Stationnement gratuit ; services : 2 € (55 min d’électricité ou 10 min d’eau)",
-    "status": "Aire publique de 20 places, ouverte 24 h/24 toute l’année, durée maximale 96 h. Stationnement gratuit ; eau et électricité à 2 € selon le temps de service.",
+    "price": "Tarif publié pour 2026 : stationnement gratuit; services à 2 € pour 55 min d'électricité et 10 min d'eau. Tarif des services 2027 non confirmé.",
+    "status": "20 places, stationnement gratuit (96 h maximum); services 2 € pour 55 min d'électricité et 10 min d'eau selon fiche 2026. Tarif de service 2027 à revalider.",
     "source": "https://www.openstreetmap.org/way/971877775",
     "latitude": 44.5213464,
     "longitude": 3.496551,
@@ -117,7 +137,12 @@
     "verificationSource": "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-camping-car-de-mende/",
     "capacity": 20,
     "opening": "Toute l’année",
-    "parkingLimit": "96 h"
+    "parkingLimit": "96 h",
+    "priceNote": "Lozère Tourisme précise 20 places, ouverture 2026 toute l'année, stationnement gratuit limité à 96 h, et service eau/électricité 2 €. Cette grille est datée 2026; aucune confirmation 2027 trouvée.",
+    "priceSource": "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-camping-car-de-mende/",
+    "official": "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-camping-car-de-mende/",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21"
   },
   {
     "department": "48",
@@ -130,8 +155,8 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "13,87 €/24 h (services inclus, tarif 2026)",
-    "status": "Camping-Car Park ouvert toute l’année, 45 emplacements. En 2026, le tarif touristique local indique 13,87 €/24 h avec services ; l’eau est disponible du 1er avril au 31 octobre.",
+    "price": "Tarif 2027 confirmé : base 13,87 € / 24 h + taxe de séjour 1,20 € / 24 h = 15,07 € / 24 h, du 01/01 au 31/12/2027. Parking 5 h + services : 6 €.",
+    "status": "Aire CCP ouverte toute l'année. Tarif 2027 complet : 15,07 €/24 h taxe comprise; eau annoncée disponible du 1er avril au 31 octobre.",
     "source": "https://www.openstreetmap.org/way/1076418640",
     "latitude": 44.7383317,
     "longitude": 3.8335526,
@@ -143,7 +168,27 @@
     "servicesSource": "https://www.openstreetmap.org/way/1076418640",
     "verificationSource": "https://ot-langogne.com/prestataires/aire-camping-car-park-de-langogne-lac-de-naussac/",
     "capacity": 45,
-    "opening": "Toute l’année"
+    "opening": "Toute l’année",
+    "priceNote": "Page officielle CCP : base 13,87 €/24 h et taxe de séjour 1,20 €/24 h chacune affichées pour l'année civile 2027; total calculé 15,07 €/24 h. Parking 5 h + services à 6 € distinct. Eau coupée saisonnièrement selon l'opérateur.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/langogne-lac-de-naussac",
+    "official": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/langogne-lac-de-naussac",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "15,07 € /24 h taxe comprise",
+      "note": "Base 13,87 €/24 h et taxe 1,20 €/24 h du 01/01 au 31/12/2027. Parking 5 h + services : 6 € distinct.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/langogne-lac-de-naussac",
+      "baseAmountEUR": 13.87,
+      "unit": "24h",
+      "validFrom": "2027-01-01",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.2,
+      "totalStopoverAndTaxEUR": 15.07
+    }
   },
   {
     "department": "48",
@@ -156,8 +201,8 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "Stationnement : non confirmé ; services : 3 € par jeton",
-    "status": "Aire du Pré de la Foire, distincte du CCP du lac de Naussac. Jetons : 3 € pour 10 L d’eau et 3 € pour 1 h d’électricité ; l’eau n’est pas disponible du 31 octobre au 1er avril. Aire ouverte toute l’année sauf pendant la Fête de Langogne.",
+    "price": "Service au jeton : 3 € pour 100 L d'eau ou 1 h d'électricité. L'eau est coupée du 31/10 au 01/04; tarif de stationnement de nuit non publié.",
+    "status": "Aire distincte du CCP de Naussac. Jetons eau 100 L/électricité 1 h : 3 € chacun; eau indisponible du 31/10 au 01/04. Tarif de nuitée non confirmé.",
     "source": "https://www.openstreetmap.org/way/1257073523",
     "latitude": 44.7231212,
     "longitude": 3.8538051,
@@ -169,7 +214,12 @@
     "servicesSource": "https://www.openstreetmap.org/way/1257073523",
     "verificationSource": "https://ot-langogne.com/prestataires/aire-de-camping-cars-langogne-pre-de-la-foire/",
     "priceDetail": "Jeton eau 10 L : 3 € ; jeton électricité 1 h : 3 €.",
-    "opening": "Toute l’année, sauf période de la Fête de Langogne"
+    "opening": "Toute l’année, sauf période de la Fête de Langogne",
+    "priceNote": "Lozère Tourisme publie 3 € par jeton d'eau 100 L ou d'électricité 1 h, avec eau coupée l'hiver. Fiche saisonnière consultée couvrant les périodes 2026 et avril–octobre 2027; elle n'indique pas de tarif de nuitée.",
+    "priceSource": "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-camping-cars-langogne-pre-de-la-foire/",
+    "official": "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-camping-cars-langogne-pre-de-la-foire/",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21"
   },
   {
     "department": "48",
@@ -179,8 +229,8 @@
     "services": [
       "Sanitaires"
     ],
-    "price": "Gratuit",
-    "status": "Parking de l’Esplanade, 5 emplacements pour camping-cars et sanitaires. Stationnement gratuit d’après l’office de tourisme local.",
+    "price": "Tarif de stationnement non chiffré dans la fiche Lozère Tourisme consultée; gratuité indiquée dans la fiche existante, à revalider. Pas de tarif 2027 publié.",
+    "status": "5 places au parking de l'Esplanade et sanitaires selon Lozère Tourisme; prix de stationnement non précisé officiellement dans la fiche consultée.",
     "source": "https://www.openstreetmap.org/way/1279943921",
     "latitude": 44.554066,
     "longitude": 3.2946332,
@@ -191,7 +241,12 @@
     "sourceId": "way/1279943921",
     "servicesSource": "https://www.openstreetmap.org/way/1279943921",
     "verificationSource": "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-stationnement-de-marvejols/",
-    "capacity": 5
+    "capacity": 5,
+    "priceNote": "Lozère Tourisme confirme le parking Esplanade, 5 emplacements et sanitaires, mais sa rubrique tarifs n'affiche pas de montant. La mention gratuite du fichier n'est pas confirmée par cette page.",
+    "priceSource": "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-stationnement-de-marvejols/",
+    "official": "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-stationnement-de-marvejols/",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21"
   },
   {
     "department": "48",
@@ -204,8 +259,8 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "12,70 €/24 h (tarif en cours jusqu’au 31/12/2027)",
-    "status": "Aire Camping-Car Park ouverte, 21 emplacements, 43 avenue du Lot ; à distinguer de l’ancien parking sur l’avenue.",
+    "price": "Base CCP 12,70 €/24 h valable du 07/11/2026 au 31/12/2027. Taxe de séjour à 0 € publiée seulement jusqu'au 14/05/2027; montant pour la suite de 2027 non confirmé. Parking 5 h + services : 6 €.",
+    "status": "Aire CCP ouverte, 21 emplacements; tarif de base 12,70 €/24 h jusqu'au 31/12/2027, taxe nulle indiquée seulement jusqu'au 14/05/2027; total annuel 2027 incomplet.",
     "source": "https://www.openstreetmap.org/way/1284228660",
     "latitude": 44.4333106,
     "longitude": 3.2073284,
@@ -218,7 +273,28 @@
     "priceDetail": "Camping-Car Park affiche 12,70 €/24 h du 12/11/2026 au 31/12/2027 ; stationnement 5 h + services : 6 €. Taxe de séjour affichée : 0 € pour la période en cours.",
     "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/la-canourgue",
     "capacity": 21,
-    "opening": "Toute l’année"
+    "opening": "Toute l’année",
+    "priceNote": "CCP affiche la base de 12,70 €/24 h jusqu'au 31/12/2027 et une taxe de séjour de 0 €/24 h jusqu'au 14/05/2027. La taxe après cette date n'est pas publiée dans la grille consultée; garder le total 2027 partiel. Parking 5 h + services distinct à 6 €.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/la-canourgue",
+    "official": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/la-canourgue",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "partial",
+      "label": "Base 12,70 €/24 h; taxe 0 € publiée jusqu’au 14/05/2027 seulement.",
+      "note": "Base 12,70 €/24 h du 07/11/2026 au 31/12/2027; taxe 0 €/24 h publiée du 01/01 au 14/05/2027. Aucun montant de taxe après le 14/05 trouvé. Parking 5 h + services : 6 € distinct.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/la-canourgue",
+      "baseAmountEUR": 12.7,
+      "unit": "24h",
+      "validFrom": "2026-11-07",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": false,
+      "touristTaxEUR": null,
+      "totalStopoverAndTaxEUR": null,
+      "taxZeroValidThrough": "2027-05-14"
+    }
   },
   {
     "department": "48",
@@ -231,8 +307,8 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "12,70 €/24 h + taxe de séjour 0,80 € (tarif 2026)",
-    "status": "Aire Camping-Car Park ouverte toute l’année, 15 emplacements, route de Langogne. Tarif 2026 : 12,70 €/24 h avec services, taxe de séjour de 0,80 €.",
+    "price": "Tarif 2027 confirmé : base 12,70 € / 24 h + taxe 0,80 € / 24 h = 13,50 € / 24 h, du 01/01 au 31/12/2027. Parking 5 h + services : 6 €.",
+    "status": "Aire CCP ouverte toute l'année, 15 emplacements. Tarif 2027 confirmé : 13,50 €/24 h taxe comprise.",
     "source": "https://www.openstreetmap.org/way/1284266851",
     "latitude": 44.8499134,
     "longitude": 3.6636427,
@@ -245,7 +321,27 @@
     "verificationSource": "https://www.lozere-tourisme.com/aires-camping-cars/aire-camping-car-park-de-chambon-le-chateau/",
     "capacity": 15,
     "opening": "Toute l’année",
-    "priceDetail": "Tarif stationnement + services : 12,70 €/24 h ; taxe de séjour : 0,80 €."
+    "priceDetail": "Tarif stationnement + services : 12,70 €/24 h ; taxe de séjour : 0,80 €.",
+    "priceNote": "CCP affiche base de 12,70 €/24 h du 19/09/2026 au 31/12/2027 et taxe de séjour de 0,80 €/24 h du 04/05/2023 au 31/12/2027. Total 2027 confirmé 13,50 €. Parking 5 h + services distinct à 6 €.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/chambon-le-chateau",
+    "official": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/chambon-le-chateau",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "13,50 € /24 h taxe comprise",
+      "note": "Base 12,70 €/24 h et taxe 0,80 €/24 h toutes deux valables jusqu'au 31/12/2027. Parking 5 h + services : 6 € distinct.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/chambon-le-chateau",
+      "baseAmountEUR": 12.7,
+      "unit": "24h",
+      "validFrom": "2027-01-01",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 0.8,
+      "totalStopoverAndTaxEUR": 13.5
+    }
   },
   {
     "department": "48",
