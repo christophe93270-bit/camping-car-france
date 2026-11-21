@@ -4,12 +4,12 @@
   "displayedCount": 110,
   "rawRegionalRows": 114,
   "deduplicatedRows": 4,
-  "currentLot": 379,
+  "currentLot": 380,
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 110
   },
-  "note": "Lot 378 : fiches 1–10 vérifiées en groupe. Aucun lieu ajouté. Un tarif 2027 confirmé (CCP Ingrandes-le-Fresne-sur-Loire : 12,52 €/24 h du 04/11/2026 au 31/12/2027; taxe affichée à 0 €/24 h sur la même période). Lot 379 : fiches 11–20 vérifiées. Découverte d'une attribution tarifaire erronée à corriger : la fiche La Bastille (1 rue de la Bastille) est gratuite selon Anjou Tourisme; les 12,52 €/24 h concernent le site distinct CCP Le Port. Chenillé-Changé a une ambiguïté entre 8 € de nuitée, 8 € de service, 5 € d'électricité et 12 € sur l'aire naturelle; aucun tarif 2027 n'est considéré confirmé sans clarification. Les autres prix publiés sont datés 2026 ou non millésimés, ou non publiés. 20/110 fiches contrôlées, aucun lieu ajouté. Le fichier Pages sert 114 lignes brutes, 4 doublons écartés. L'API GitHub main renvoie un aires-pdl.json vide; aucun écrasement du fichier de données.",
+  "note": "Lot 378 : fiches 1–10 vérifiées en groupe. Aucun lieu ajouté. Un tarif 2027 confirmé (CCP Ingrandes-le-Fresne-sur-Loire : 12,52 €/24 h du 04/11/2026 au 31/12/2027; taxe affichée à 0 €/24 h sur la même période). Lot 379 : fiches 11–20 contrôlées; tarif CCP Le Port distinct de La Bastille gratuite, attribution erronée à corriger; Chenillé-Changé tarif ambigu. Lot 380 : fiches 21–30 vérifiées. Le CCP Les Hauts-d'Anjou affiche 12,73 €/24 h hors taxe du 19/11/2026 au 31/12/2027 et taxe 2027 de 0,88 €/24 h, soit 13,61 € affichés. Le Domaine des Coteaux Blancs annonce explicitement l'accueil camping-car gratuit (3 véhicules maximum). Plusieurs autres tarifs sont non publiés, non millésimés, ou services seulement. 30/110 fiches contrôlées, aucun lieu ajouté. Le site Pages sert 114 lignes brutes, 4 doublons écartés. L'API GitHub main renvoie un aires-pdl.json vide; aucun écrasement du fichier de données.",
   "entries": [
     {
       "sourceId": "ACCAMPDL049V50ICDQ",
@@ -253,6 +253,131 @@
         "https://www.tourisme-anjoubleu.com/offres/aire-de-la-coulee-verte-saint-michel-et-chanveaux-ombree-danjou-fr-2792602/"
       ],
       "lot": 379,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V500KBS",
+      "name": "Aire de service camping-car à Chanzeaux",
+      "status": "stationnement_gratuit_2026_services_jetons_prix_non_publie_2027_a_confirmer",
+      "finding": "Ôsez Mauges indique 5 emplacements, stationnement gratuit du 1er mai au 31 octobre, et des jetons à retirer en mairie ou au café; le prix des services n'est pas précisé. La validité pour 2027 n'est pas indiquée.",
+      "nextCheck": "Confirmer la reconduction en 2027, la règle de nuitée et le prix ou la gratuité correspondant aux jetons.",
+      "sources": [
+        "https://www.osezmauges.fr/aire-camping-car/aire-de-service-camping-car-a-chanzeaux/"
+      ],
+      "lot": 380,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V5001MD",
+      "name": "Aire de service de Saulgé-l’Hôpital",
+      "status": "tarif_non_publie_source_secondaire_gratuite_a_confirmer_2027",
+      "finding": "Anjou Tourisme (fiche mise à jour le 23/10/2026) confirme eau, vidange, sanitaires, douche et pique-nique, sans tarif. Une source secondaire évoque la gratuité communale, non confirmée par la fiche institutionnelle.",
+      "nextCheck": "Demander à la mairie si stationnement et services sont gratuits et reconduits en 2027; distinguer le prix de l'eau/jetons s'il y en a.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-service-de-saulge-l-hopital-brissac-loire-aubance_TFOACCAMPDL049V5001MD"
+      ],
+      "lot": 380,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V5001NA",
+      "name": "Aire de stationnement du Cellier de Conquessac",
+      "status": "visite_gratuite_ne_confirme_pas_nuitee_camping_car",
+      "finding": "La fiche viticole précise « visite gratuite », ce qui concerne la visite et ne tarife pas le stationnement. Aucun tarif de nuitée n'est publié. Le tarif de l'accueil camping-car reste à confirmer.",
+      "nextCheck": "Demander au domaine le prix et les conditions de stationnement de nuit; ne pas reprendre « visite gratuite » comme tarif d'aire.",
+      "sources": [
+        "https://anjou-vignoble-villages.com/hebergements/aire-de-stationnement-du-cellier-de-conquessac/",
+        "https://www.cirkwi.com/fr/point-interet/576564-aire-de-stationnement-du-cellier-de-conquessac"
+      ],
+      "lot": 380,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAM968000326",
+      "name": "Aire de services camping-cars du Guédeniau – plan d’eau",
+      "status": "stationnement_gratuit_page_tourisme_2026_tarif_2027_non_confirme",
+      "finding": "Vallée du Loir Tourisme indique le stationnement gratuit, 25 places, eau, toilettes et vidange, avec ouverture toute l'année 2026. La page Anjou Tourisme est datée du 29/08/2025; aucun barème 2027 séparé pour services n'est publié.",
+      "nextCheck": "Confirmer la gratuité et l'ouverture en 2027 auprès de Baugé-en-Anjou; ne pas supposer que les services sont tarifés comme le stationnement.",
+      "sources": [
+        "https://www.vallee-du-loir.com/offres/aire-de-services-camping-cars-de-le-guedeniau-le-plan-deau-bauge-fr-6048570/",
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-services-camping-cars-de-le-guedeniau-le-plan-d-eau-bauge-en-anjou_TFOACCAM968000326"
+      ],
+      "lot": 380,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V5001MH",
+      "name": "Aire de stationnement de Charcé-Saint-Ellier-sur-Aubance",
+      "status": "tarif_stationnement_et_services_non_publie_2027_a_confirmer",
+      "finding": "Anjou Tourisme (fiche mise à jour le 23/01/2026) confirme eau, vidange, sanitaires, poubelles et aire de pique-nique, sans montant de nuitée ni de service. Le tarif 2027 n'est pas publié.",
+      "nextCheck": "Demander à la mairie les tarifs 2027 et la règle de stationnement de nuit.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-stationnement-de-charce-saint-ellier-sur-aubance-brissac-loire-aubance_TFOACCAMPDL049V5001MH"
+      ],
+      "lot": 380,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50GZ5F",
+      "name": "Aire de stationnement Domaine des Coteaux Blancs",
+      "status": "stationnement_gratuit_domaine_limite_3_vehicules_2027_a_reconfirmer",
+      "finding": "Le site officiel du domaine annonce explicitement un accueil gratuit pour camping-cars/vans dans la limite de 3 véhicules et recommande la réservation. La fiche touristique ajoute eau, électricité et WC. L'accès est soumis à réservation/contexte de domaine; période tarifaire 2027 non précisée.",
+      "nextCheck": "Confirmer directement la disponibilité et la gratuité 2027 ainsi que le coût éventuel des services; conserver la limite de trois véhicules.",
+      "sources": [
+        "https://www.coteauxblancs.fr/activites/hebergement/",
+        "https://anjou-vignoble-villages.com/hebergements/aire-de-stationnement-domaine-des-coteaux-blancs/"
+      ],
+      "lot": 380,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50AE0S",
+      "name": "Aire de stationnement camping-car de la Ménitré – Port Saint-Maur",
+      "status": "stationnement_gratuit_4_places_24h_page_valide_jusqu_en_2026_2027_a_confirmer",
+      "finding": "Pays de la Loire Tourisme indique 4 emplacements gratuits, durée de stationnement 24 heures, toilettes et pique-nique. La fiche indique une période éditoriale allant jusqu'au 31/12/2026; gratuité et accueil en 2027 à reconfirmer.",
+      "nextCheck": "Demander à la mairie si la gratuité et la limite de 24 h sont maintenues en 2027; aucun tarif de service publié.",
+      "sources": [
+        "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-camping-car-de-la-menitre-le-port-st-maur"
+      ],
+      "lot": 380,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMKAIRECAMPINGCARM",
+      "name": "Aire camping-cars de Maulévrier",
+      "status": "stationnement_gratuit_mairie_2026_services_limites_2027_a_confirmer",
+      "finding": "La mairie indique un accès gratuit toute l'année, 40 places de camping-car et eau potable; pas de vidange. La fiche municipale ne fournit pas de barème 2027 distinct.",
+      "nextCheck": "Confirmer que la gratuité et la capacité sont maintenues en 2027; garder l'absence de vidange visible.",
+      "sources": [
+        "https://www.maulevrier.fr/decouvrir/265",
+        "https://www.maulevrier.fr/page/parkings"
+      ],
+      "lot": 380,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50IDMR",
+      "name": "Aire de service du Camping Eco Loire",
+      "status": "forfait_services_4_60_non_millesime_nuitee_non_publiee_2027_a_confirmer",
+      "finding": "Ôsez Mauges publie un forfait services eau/vidange à 4,60 € et la saison 2026 du 17/04 au 27/09. La fiche présente un emplacement équipé au camping, mais ne chiffre pas la nuitée camping-car; 4,60 € est le service seul et n'est pas tarifé 2027.",
+      "nextCheck": "Confirmer le maintien du forfait services en 2027, les conditions d'accès sans séjour et le prix de nuitée camping-car auprès de l'exploitant.",
+      "sources": [
+        "https://www.osezmauges.fr/aire-camping-car/aire-de-service-camping-car-du-camping-eco-loire/",
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-service-camping-car-du-camping-eco-loire-mauges-sur-loire_TFOACCAMPDL049V50IDMR"
+      ],
+      "lot": 380,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V500151",
+      "name": "Aire CAMPING-CAR PARK des Hauts-d'Anjou à Châteauneuf-sur-Sarthe",
+      "status": "base_2027_confirmee_12_73_tax_0_88_total_13_61_24h",
+      "finding": "La grille officielle CAMPING-CAR PARK affiche un tarif de base 12,73 €/24 h du 19/11/2026 au 31/12/2027 et une taxe de séjour 0,88 €/24 h pour 2027; total affiché en ce moment 13,61 €/24 h. Le forfait 5 h + services à 6 € est distinct; sa période de validité n'est pas publiée.",
+      "nextCheck": "Recontrôler après le 31/12/2027 et vérifier si le forfait 5 h est renouvelé; aucun changement de tarif n'est à faire dans la fiche tant que les données du dépôt ne sont pas disponibles.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/maine-et-loire/les-hauts-d-anjou"
+      ],
+      "lot": 380,
       "checkedAt": "2026-11-21"
     }
   ]
