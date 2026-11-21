@@ -1047,7 +1047,7 @@
       "Services camping-car",
       "Sanitaires saisonniers (du 01/05 au 30/09/2026)"
     ],
-    "price": "Tarif opérateur consulté le 13/11/2026 : 12,92 € / 24 h + 0,58 € de taxe de séjour, soit 13,50 € / 24 h. Forfait 5 h + services : 6 €.",
+    "price": "Tarif de base opérateur vérifié le 21/11/2026 : 12,92 € / 24 h du 01/10/2026 au 31/12/2027. Taxe affichée à 0,58 € / 24 h jusqu'au 31/12/2026 seulement; total 2027 non confirmé. Le résumé « en ce moment » de la page affiche un autre montant (15,40 €), à clarifier auprès de l'opérateur. Parking 5 h + services : 6 €.",
     "status": "3 rue du Camping, 46170 Castelnau-Montratier-Sainte-Alauzie. Camping de mon Village CAMPING-CAR PARK ouvert, 26 emplacements. Sanitaires annoncés du 1er mai au 30 septembre 2026.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/castelnau-montratier",
     "latitude": 44.27303,
@@ -1060,7 +1060,24 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/castelnau-montratier",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/castelnau-montratier",
     "sourceOfficialVerifiedOn": "2026-11-13",
-    "priceVerifiedOn": "2026-11-13"
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "La grille saisonnière indique 12,92 €/24 h jusqu'au 31/12/2027 et la taxe 0,58 €/24 h jusqu'au 31/12/2026. La page affiche aussi un résumé « en ce moment » à 15,40 €/24 h, incompatible avec la grille affichée; vérifier cette divergence auprès de l'opérateur. Ne pas déclarer de total 2027 confirmé. Parking 5 h + services : 6 €, distinct.",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "partial",
+      "label": "Base 12,92 €/24 h jusqu’au 31/12/2027; taxe 2027 et total à confirmer.",
+      "note": "La grille saisonnière indique 12,92 €/24 h jusqu'au 31/12/2027 et la taxe 0,58 €/24 h jusqu'au 31/12/2026. La page affiche aussi un résumé « en ce moment » à 15,40 €/24 h, incompatible avec la grille affichée; vérifier cette divergence auprès de l'opérateur. Ne pas déclarer de total 2027 confirmé. Parking 5 h + services : 6 €, distinct.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/castelnau-montratier",
+      "baseAmountEUR": 12.92,
+      "unit": "24h",
+      "validFrom": "2026-10-01",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": false,
+      "touristTaxEUR": null,
+      "totalStopoverAndTaxEUR": null
+    }
   },
   {
     "department": "46",
@@ -1071,7 +1088,7 @@
       "38 emplacements annoncés",
       "Électricité 6 A annoncée"
     ],
-    "price": "Aire annoncée à venir; tarif non publié.",
+    "price": "Aire CAMPING-CAR PARK indiquée « à venir » par l'opérateur; tarif non publié. Ne pas confondre avec l'accueil camping-car et la borne de services associés au camping Le Soulhol.",
     "status": "Impasse des Tuileries, 46400 Saint-Céré. L'opérateur classe cette aire comme « à venir ». Capacité annoncée : 38 emplacements avec électricité 6 A. Ne pas compter comme aire ouverte.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/saint-cere-perle-du-lot",
     "latitude": 44.854398,
@@ -1082,6 +1099,9 @@
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/saint-cere-perle-du-lot",
     "official": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/saint-cere-perle-du-lot",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/saint-cere-perle-du-lot",
-    "sourceOfficialVerifiedOn": "2026-11-13"
+    "sourceOfficialVerifiedOn": "2026-11-13",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "La page opérateur confirme le statut « À venir », 38 places annoncées et aucun prix publié. La mairie décrit séparément un accueil camping-car au camping Le Soulhol et une borne eau/vidange; ces informations ne prouvent ni l'ouverture ni le tarif de la future aire CCP."
   }
 ]
