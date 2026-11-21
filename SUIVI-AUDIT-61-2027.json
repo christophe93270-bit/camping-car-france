@@ -2,14 +2,14 @@
   "scope": "Audit du tarif 2027 pour les dix premières fiches d’aires de service du catalogue régional Orne (61), dans l’ordre alphabétique de la source. Ce suivi porte sur ce lot et ne représente pas l’inventaire complet du département ni les fiches déjà présentes dans aires.json.",
   "startedAt": "2026-11-21",
   "sourceInventory": "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
-  "currentLot": 422,
+  "currentLot": 423,
   "department": "61",
   "progress": {
     "checkedInLot": 10,
     "totalInLot": 10,
     "departmentTotal": null
   },
-  "note": "Lot 422 : dix points de services contrôlés. Aucun tarif de nuitée/service explicitement confirmé pour 2027. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
+  "note": "Lot 423 : dix entrées suivantes du catalogue régional contrôlées. Un tarif 2027 de camping est publié pour le Champ Passais; Charencey a une indication 2027 en annuaire secondaire. Les autres tarifs restent datés 2025/2026 ou à confirmer. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
   "entries": [
     {
       "place": "L’Aigle — aire communale, 15 bis avenue du Mont-Saint-Michel",
@@ -118,6 +118,120 @@
         "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-service-de-la-croix-des-chenes/",
         "https://www.camping-car.com/aires/16307-aire-communale/",
         "https://bretoncelles.fr/decouvrir-bretoncelles/venir-a-bretoncelles-plan/"
+      ]
+    },
+    {
+      "place": "Céaucé — aire de services de la Veillotière, rue de la Veillotière",
+      "lot": 423,
+      "checkedAt": "2026-11-21",
+      "status": "Le point de services extérieur est gratuit selon la fiche touristique; il est distinct du camping municipal voisin. Le camping affiche 11 €/nuit pour 1–2 personnes, personne supplémentaire 1 €, électricité 1 €. Le tarif 2027 du camping est aussi repris par Tourisme 61/Cirkwi (11 €), mais cela ne vaut pas pour l’aire de services gratuite.",
+      "nextCheck": "Ne pas fusionner les deux tarifs. Confirmer à la mairie que le point extérieur reste gratuit en 2027.",
+      "sources": [
+        "https://www.ceauce.fr/camping-municipal-de-la-veillotiere/",
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-services-de-la-veillotiere/",
+        "https://www.cirkwi.com/fr/point-interet/3016954-camping-la-veillotiere"
+      ]
+    },
+    {
+      "place": "Chandai — aire de services, rue de l’Ancienne-Poste",
+      "lot": 423,
+      "checkedAt": "2026-11-21",
+      "status": "Une source communautaire indique stationnement et services gratuits, mais aucune confirmation officielle ni grille tarifaire datée 2027 trouvée. La fiche concerne un point de services; ne pas attribuer un prix de nuitée.",
+      "nextCheck": "Demander à la commune le tarif de l’eau et des services, ainsi que le maintien de la gratuité du stationnement pour 2027.",
+      "sources": [
+        "https://www.i-campingcar.fr/aires.php?aire=chandai"
+      ]
+    },
+    {
+      "place": "Charencey (Saint-Maurice-lès-Charencey) — Camping de la Poste et aire, rue de Brest",
+      "lot": 423,
+      "checkedAt": "2026-11-21",
+      "status": "L’office de tourisme local affiche 12 €/nuit avec services du 1er avril au 31 octobre, 8 € du 1er novembre au 31 mars, et 3 € pour une heure de services. Une annuaire secondaire affiche un forfait à 12 €/jour en 2027. Le barème saisonnier officiel consulté ne porte pas explicitement le millésime 2027.",
+      "nextCheck": "Confirmer auprès du camping ou de l’office de tourisme si le barème saisonnier est bien reconduit en 2027 et si les tarifs incluent les services.",
+      "sources": [
+        "https://www.hautsd.perche.fr/camping-de-la-poste/",
+        "https://www.campingfrance.com/recherchez-votre-camping/normandie/orne/saint-maurice-les-charencey/camping-municipal-de-la-poste",
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-services-du-camping-de-la-poste/"
+      ]
+    },
+    {
+      "place": "Courtomer — aire rue Henri-Vaillant",
+      "lot": 423,
+      "checkedAt": "2026-11-21",
+      "status": "Le point est répertorié par l’office de tourisme; des annuaires communautaires le décrivent comme gratuit pour le stationnement et les services. Aucune source communale confirmant le prix 2027 trouvée.",
+      "nextCheck": "Confirmer auprès de la mairie ou du syndicat d’initiative si le stationnement et les services sont gratuits en 2027.",
+      "sources": [
+        "https://www.tourisme-courtomer.fr/",
+        "https://www.i-campingcar.fr/aires.php?aire=courtomer"
+      ]
+    },
+    {
+      "place": "Crouttes — Ferme Nat’Lait / GAEC Choisnard",
+      "lot": 423,
+      "checkedAt": "2026-11-21",
+      "status": "Normandie Tourisme identifie l’accueil à la ferme et cinq emplacements sans publier de prix. Un annuaire secondaire indique « à partir de 5 € / nuit », sans clarifier les conditions France Passion ni la période de validité. Tarif 2027 non confirmé.",
+      "nextCheck": "Demander à la ferme si une nuitée est payante, si elle est réservée aux membres France Passion, et le tarif 2027 applicable.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-ferme-natlait/",
+        "https://www.campercontact.com/fr/france/normandie/crouttes/2748/aire-de-camping-car-ferme-nat-lait"
+      ]
+    },
+    {
+      "place": "Domfront-en-Poiraie — Camping municipal du Champ Passais et aire extérieure",
+      "lot": 423,
+      "checkedAt": "2026-11-21",
+      "status": "La fiche Tourisme 61/Cirkwi publie explicitement pour 2027 un forfait camping-car d’une nuit pour deux personnes à partir de 12,50 €, du 1er avril au 30 septembre 2027. Le site du camping affiche aussi 12,50 €, tandis que le guide touristique 2026 trouvé affiche 11,50 € : écart entre sources/années à garder visible. Hors forfait, les services extérieurs sont indiqués à 2,50 € pour l’eau, 4 € pour l’électricité, vidange gratuite.",
+      "nextCheck": "Confirmer avec le camping que le forfait 2027 à 12,50 € inclut bien l’électricité et qu’il s’applique au point d’étape, distinct de l’aire extérieure.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/3016957-camping-de-champ-passais",
+        "https://www.camping-champ-passais.com/tarifs/",
+        "https://www.montagnesdenormandie.fr/sites/default/files/2026-01/Guide%20touristique%20Orne%202026.pdf"
+      ]
+    },
+    {
+      "place": "Écouché-les-Vallées — aire du Square du Marais, rue Pierre-Pigot",
+      "lot": 423,
+      "checkedAt": "2026-11-21",
+      "status": "La commune indique trois places de stationnement gratuites et une vidange; l’office de tourisme confirme eau et électricité payantes sans montant. Une source secondaire donne 2 € pour l’eau et 2 € pour l’électricité en 2025. Aucun tarif 2027 confirmé.",
+      "nextCheck": "Demander à la commune le prix 2027 des jetons eau/électricité et confirmer que le stationnement reste gratuit.",
+      "sources": [
+        "https://www.ecouche.fr/aire-de-camping-car/",
+        "https://tourisme.terresdargentan.fr/aire-de-camping-car-ecouche/",
+        "https://www.campingcar.com/aires/aire-de-camping-car-ecouche-les-vallees"
+      ]
+    },
+    {
+      "place": "Écouves (Radon) — Camping de la Forêt / Aux Prés d’Écouves",
+      "lot": 423,
+      "checkedAt": "2026-11-21",
+      "status": "Les sources touristiques officielles publient un tarif 2026 de 21,50 à 25,50 €/nuit pour un camping-car et deux personnes, taxe de séjour en sus. La page du camping détaille emplacement 8,50 €, adulte 6 €, électricité 4 € et taxe 0,55 €/adulte, ce qui ne reconstitue pas clairement le même total. Tarif 2027 absent.",
+      "nextCheck": "Demander le forfait 2027 et la composition exacte du prix (saison, électricité, taxe de séjour).",
+      "sources": [
+        "https://www.alencontourisme.com/camping-de-la-foret/",
+        "https://www.normandie-tourisme.fr/campings/camping-aux-pres-decouves/",
+        "https://www.camping-aux-pres-decouves.com/tarifs/"
+      ]
+    },
+    {
+      "place": "Flers — aire de services du Camping de la Fouquerie",
+      "lot": 423,
+      "checkedAt": "2026-11-21",
+      "status": "Le site de Flers Agglo publie les tarifs 2026 du camping et indique une ouverture du 30 avril au 31 août 2026. Le forfait camping-car (2 personnes avec électricité) est donné à 22 €/nuit dans la grille 2026. Aucun tarif 2027 publié; l’aire de services est à distinguer du forfait de séjour au camping.",
+      "nextCheck": "Confirmer auprès de Flers Agglo le forfait 2027 et les conditions/prix de la borne accessible hors séjour.",
+      "sources": [
+        "https://www.flers-agglo.fr/mon-quotidien/loisirs/camping-de-la-fouquerie-a-flers/",
+        "https://www.normandie-tourisme.fr/campings/camping-de-la-fouquerie/"
+      ]
+    },
+    {
+      "place": "Flers — point de services Flers Lavage Saint-Sauveur, rue Saint-Sauveur",
+      "lot": 423,
+      "checkedAt": "2026-11-21",
+      "status": "Le catalogue régional répertorie un point de services associé au lavage de véhicules. Un annuaire récent indique un service payant, sans publier de montant. Aucune nuitée n’est confirmée et aucun tarif chiffré 2027 trouvé.",
+      "nextCheck": "Demander à l’exploitant le prix 2027 de la vidange, de l’eau et du lavage; ne pas lui attribuer de tarif de nuitée.",
+      "sources": [
+        "https://www.lecampeur.fr/aire/aire-de-services-flers-lavage-saint-sauveur",
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf"
       ]
     }
   ]
