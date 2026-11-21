@@ -58,3 +58,11 @@ Après le rapprochement, dix entrées ont été retenues pour une passe groupée
 
 Le lot 353 documente les sources accessibles et les vérifications restantes. Les tarifs 2026, les grilles sans millésime et les prix de promotions ou de réservation ne sont pas reconduits en 2027. Aucun tarif de nuitée 2027 complet n’a été confirmé; aucune donnée tarifaire publiée du site n’a été modifiée et aucun contact n’a été envoyé.
 
+
+
+## Addendum — 21 novembre 2026 : lot 354
+
+La passe suivante porte sur dix campings pour lesquels aucun prix complet de nuitée camping-car 2027 n’est confirmé : Les Bleuets, l’Eden, le Bugeau, Slow Village Pornic, Capfun L’Ève, Les Chênes Verts, Mirabel La Renaudière, Sandaya Le Fief, La Dune de Jade et la Ferme de Pen-Bé.
+
+Les grilles 2026, les tarifs résidentiels annuels, les promotions portant sur des locations et les catégories d’emplacements différentes restent exclus du prix de passage camping-car 2027. Pour les établissements fermés ou dont la réouverture reste incertaine, le prix et la disponibilité demeurent à confirmer. Le lot 354 est documenté dans AUDIT-44-2027-LOT354.md; aucune donnée tarifaire publiée du site n’a été modifiée et aucun contact n’a été envoyé.
+
