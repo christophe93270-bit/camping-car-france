@@ -4,12 +4,12 @@
   "displayedCount": 32,
   "rawRegionalRows": 32,
   "deduplicatedRows": 0,
-  "currentLot": 389,
+  "currentLot": 390,
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 32
   },
-  "note": "Lot 389 : dix premières fiches de la Manche contrôlées ensemble. Cerisy-la-Forêt : tarifs/services et nuitée non confirmés officiellement. Servon : Qipeo affiche 16,30 €/24 h (2 adultes, taxe 1,30 € incluse) et eau 2 €/10 min; la fiche avait 18,30 €, montant ponctuel désormais obsolète. Villedieu-les-Poêles : contradiction sur la page officielle CCP entre prix du moment 15,18 € TTC et ligne saisonnière à 12 € d'octobre à mars 2027; taxe 2027 non explicitée. Saint-Lô : services et 12 places, tarif absent. Saint-Martin-de-Bréhal : mairie affiche 8 €/nuitée et jeton eau 1 €, période 2027 non confirmée. Lessay : stationnement gratuit, eau disponible, pas d'électricité; fermeture durant Foire Sainte-Croix. Siouville-Hague : barème municipal sans millésime 2027, et eau/électricité à distinguer de la nuitée. Saint-Pair-sur-Mer : renvoi vers document officiel 2026, grille 2027 absente; ancien montant tiers non confirmé. CCP Mont-Saint-Michel/Beauvoir : base 16,70 €/24 h jusqu'au 31/12/2027, taxe 2027 non affichée. CCP Carentan-le-Port : base 12,75 € + taxe 1,30 € jusqu'au 31/12/2027, total 14,05 €. Aucun lieu ajouté. 10/32 fiches vérifiées.",
+  "note": "Lot 390 : fiches 11 à 20 de la Manche contrôlées ensemble. Sainte-Mère-Église : prix de parking 2 €/8 h ou 10 €/23 h d'après des relevés/annuaires 2026, hors confirmation officielle; aire Super U gratuite distincte. Cherbourg Président Menut : stationnement et services annoncés gratuits, tarif non daté 2027. Saint-Pierre-Église : mairie confirme eau et vidange gratuites; borne annoncée gratuite par Normandie Tourisme. La Caserne : la fiche ne permet pas d'identifier une aire; la source officielle concerne le parking du Mont, avec 25 €/24 h au printemps/automne 2027 et 30 €/24 h en été, à ne pas confondre avec un tarif d'aire. Pirou : mairie affiche 12 €/24 h taxe comprise, sans millésime 2027. La Lucerne-d'Outremer : services gratuits, participation volontaire, nuitée non tarifée. Saint-Jean-le-Thomas : 10,90 €/24 h et 2,10 € eau/électricité selon tarif 2026; 2027 non publié. Agon-Coutainville : tarifs 2023 obsolètes pour validation; montant actuel affiché sur place et non publié. Avranches : stationnement possible, eau et vidange temporairement fermées, tarif absent. CCP Bricquebec : base 12,75 € + taxe 1,32 €, total 14,07 €/24 h jusqu'au 31/12/2027; forfait 5 h séparé. Aucun lieu ajouté. 20/32 fiches vérifiées.",
   "entries": [
     {
       "sourceId": "node/7041967413",
@@ -133,6 +133,134 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/carentan-le-port"
       ],
       "lot": 389,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/13348893236",
+      "name": "Parking Camping-Car à Sainte-Mère-Église",
+      "status": "tarif_2026_tiers_2_euros_8h_10_euros_23h_2027_non_confirme",
+      "finding": "Les données consultées indiquent un stationnement payant (2 €/8 h, 10 €/23 h), sans service sur place. Ces prix proviennent de relevés/annuaires 2026, et non d'une grille officielle 2027. À distinguer de l'aire de service gratuite de Super U, située ailleurs.",
+      "nextCheck": "Confirmer le barème et les conditions de nuitée auprès de la commune; garder le parking payant distinct de l'aire de service Super U.",
+      "sources": [
+        "https://www.lecampeur.fr/aire/rue-de-la-liberte-sainte-mere-eglise-ph5kgl",
+        "https://www.encotentin.fr/campings/aire-de-stationnement-et-de-services/"
+      ],
+      "lot": 390,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/128597582",
+      "name": "Cherbourg Aire pour camping-cars Allée du Président Menut",
+      "status": "stationnement_gratuit_tarif_2027_non_date",
+      "finding": "Les annuaires consultés indiquent le stationnement gratuit toute l'année, 23 emplacements et les services d'eau/vidange gratuits; aucun barème officiel daté 2027 n'a été trouvé. L'électricité n'est pas indiquée.",
+      "nextCheck": "Confirmer auprès de la commune la gratuité, les services ouverts et les éventuelles restrictions d'accès en 2027.",
+      "sources": [
+        "https://www.campercontact.com/fr/normandia/cherbourg-en-cotentin/25561/aire-municipale",
+        "https://www.lecampeur.fr/aire/allee-du-president-menut-cherbourg-octeville-ph5of4"
+      ],
+      "lot": 390,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/128597587",
+      "name": "Aire de stationnement Saint-Pierre-Église",
+      "status": "stationnement_services_gratuits_confirmes_source_touristique",
+      "finding": "La mairie confirme l'eau potable et la vidange gratuites; Normandie Tourisme indique une borne gratuite et quatre emplacements. Aucun millésime ni changement 2027 n'est signalé. Ne pas assimiler le tarif de borne à une nuitée si la fiche distingue stationnement et services.",
+      "nextCheck": "Maintenir le stationnement et les services gratuits comme information actuelle, en indiquant la source; recontrôler si la mairie publie une grille 2027.",
+      "sources": [
+        "https://saint-pierre-eglise.fr/culture-et-patrimoines/tourisme/",
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-stationnement-et-de-services-saint-pierre-eglise/"
+      ],
+      "lot": 390,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-mont-saint-michel-la-caserne",
+      "name": "Camping-car de La Caserne (installation à identifier)",
+      "status": "installation_a_identifier_tarif_parking_officiel_2027_selon_saison",
+      "finding": "La source officielle identifie une grille de stationnement du Mont-Saint-Michel, pas une aire de camping-car autonome à La Caserne. Pour les camping-cars, la grille 2027 affiche 25 €/24 h du 1er mars au 30 juin et du 1er septembre au 1er novembre, et 30 €/24 h en juillet-août; il s'agit du parking officiel et non d'un tarif d'aire ou de services. Les autres périodes 2027 ne sont pas confirmées par les extraits consultés.",
+      "nextCheck": "Corriger l'identité de la fiche pour la distinguer du parking officiel; ne pas présenter ces montants comme tarif d'une aire. Confirmer l'installation exacte ou retirer ce lieu s'il s'agit d'un doublon/point de carte.",
+      "sources": [
+        "https://montsaintmichel.gouv.fr/acceder-au-mont-saint-michel/horaires-et-tarifs",
+        "https://montsaintmichel.gouv.fr/acceder-au-mont-saint-michel/venir-au-mont-saint-michel"
+      ],
+      "lot": 390,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1327985801",
+      "name": "Aire Camping Cars Pirou-Plage",
+      "status": "tarif_mairie_12_euros_24h_tax_sejour_incluse_2027_non_explicite",
+      "finding": "La mairie publie un tarif unique de 12 € (taxe de séjour incluse); une source touristique mise à jour en janvier 2026 confirme 12 €/24 h. La page municipale ne précise pas explicitement une validité 2027.",
+      "nextCheck": "Garder les 12 €/24 h avec la mention tarif municipal publié, sans le qualifier de tarif 2027 garanti; confirmer le maintien auprès de la mairie.",
+      "sources": [
+        "https://www.ville-pirou.fr/la-commune.htm",
+        "https://www.cirkwi.com/fr/point-interet/2487328-aire-de-services"
+      ],
+      "lot": 390,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1327985850",
+      "name": "Aire Municipale La Lucerne-d'Outremer",
+      "status": "services_gratuits_participation_volontaire_tarif_nuitee_non_publie",
+      "finding": "Normandie Tourisme indique huit emplacements et des services gratuits, avec participation volontaire possible pour maintenir le service. Aucun tarif de nuitée ou montant de participation n'est donné, ni grille 2027.",
+      "nextCheck": "Laisser la nuitée comme non tarifée; distinguer les services gratuits de la participation volontaire et demander à la mairie si un tarif 2027 s'applique.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-stationnement-et-de-services-3/"
+      ],
+      "lot": 390,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1327985860",
+      "name": "Aire de Camping Car Saint-Jean-le-Thomas",
+      "status": "tarif_officiel_2026_10_90_euros_24h_2027_non_confirme",
+      "finding": "La commune affiche pour 2026 10,90 €/24 h, paiement CB; eau potable/électricité (55 min) 2,10 € en supplément. Stationnement gratuit du 15 novembre au 15 mars. Aucun tarif 2027 n'est publié.",
+      "nextCheck": "Garder distincts le forfait 24 h, le supplément eau/électricité et la période gratuite; confirmer le barème municipal 2027.",
+      "sources": [
+        "https://www.saintjeanlethomas.com/Accueil-des-Camping-Cars_a132.html"
+      ],
+      "lot": 390,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1282437796",
+      "name": "Aire de Camping cars Agon-Coutainville",
+      "status": "tarif_actuel_a_relever_ancienne_grille_2023_non_valable_pour_2027",
+      "finding": "La commune décrit le paiement à la sortie et une borne de services gratuite. Sa page tarifaire disponible donne une ancienne grille 2023: 5,50 € de 1 à 6 h, 9 € de 6 à 24 h, puis 8 € par tranche supplémentaire de 24 h. Un relevé touristique mis à jour en 2026 renvoie au tarif affiché à l'entrée sans republier les montants; grille 2027 non confirmée.",
+      "nextCheck": "Ne pas afficher la grille 2023 comme tarif actuel. Relever le panneau à l'entrée ou demander la grille 2027 à la mairie; garder les services gratuits séparés du stationnement.",
+      "sources": [
+        "https://www.agoncoutainville.fr/p/aire-de-camping-cars/",
+        "https://www.cirkwi.com/fr/point-interet/2487362-aire-de-stationnement-et-de-services",
+        "https://www.tourisme-coutances.fr/organisez-votre-sejour/les-hebergements/campings/aire-de-stationnement-et-de-services-agon-coutainville-fr-3033717/"
+      ],
+      "lot": 390,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1282438350",
+      "name": "Aire de camping-cars Avranches",
+      "status": "tarif_stationnement_non_publie_services_eau_vidange_fermes",
+      "finding": "La mairie confirme que le stationnement reste possible mais que l'eau potable et la vidange sont fermées dans l'attente d'une mise aux normes. Aucun tarif de stationnement n'est publié; aucun tarif 2027 confirmé.",
+      "nextCheck": "Indiquer la fermeture temporaire de l'eau et de la vidange ainsi que le tarif de stationnement non publié; recontrôler la remise en service et les prix auprès de la mairie.",
+      "sources": [
+        "https://www.avranches.fr/aire-etape-et-de-service/",
+        "https://www.avranches.fr/parkings-gratuits-et-illimites/"
+      ],
+      "lot": 390,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1304845652",
+      "name": "Aire Camping-Car Park Bricquebec-en-Cotentin",
+      "status": "tarif_2027_confirme_base_12_75_tax_1_32_total_14_07",
+      "finding": "La grille CCP affiche une base de 12,75 €/24 h du 30/10/2026 au 31/12/2027 et une taxe de séjour de 1,32 €/24 h jusqu'au 31/12/2027, soit 14,07 €/24 h. Le forfait 5 h + services à 6 € est distinct. Le montant en cours peut varier ultérieurement.",
+      "nextCheck": "Afficher le total avec la ventilation base/taxe et garder séparé le forfait 5 h + services; recontrôler après le 31/12/2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/la-manche/bricquebec-en-cotentin?location_id=847"
+      ],
+      "lot": 390,
       "checkedAt": "2026-11-21"
     }
   ]
