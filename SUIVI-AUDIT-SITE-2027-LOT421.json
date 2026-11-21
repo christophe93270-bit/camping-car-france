@@ -1,0 +1,104 @@
+{
+  "scope": "Audit des tarifs 2027 pour les fiches réellement présentes dans le fichier aires.json, après le département 60. Le périmètre décrit ici est limité à ces huit entrées et ne représente pas le total des fiches du site.",
+  "startedAt": "2026-11-21",
+  "inventoryFile": "aires.json",
+  "inventorySha": "5aa1bf14c81735e84c95b367418bf98c9ff8541a",
+  "departments": [
+    "77",
+    "93",
+    "95"
+  ],
+  "currentLot": 421,
+  "progress": {
+    "checked": 8,
+    "total": 8
+  },
+  "note": "Lot 421 : 8 fiches présentes après le département 60 dans aires.json contrôlées. Aucun tarif 2027 explicitement confirmé dans ce lot. Aucune donnée de l’application modifiée.",
+  "entries": [
+    {
+      "place": "Provins — Aire de Villecran (77)",
+      "lot": 421,
+      "checkedAt": "2026-11-21",
+      "status": "Provins Tourisme confirme le stationnement payant 8 € / 24 h pendant la période de saison; gratuit hors période. Fermetures ponctuelles lors d’événements. Page actualisée avec événements 2026; aucun millésime tarifaire 2027.",
+      "nextCheck": "Confirmer dates de saison, tarif et fermetures événementielles en 2027.",
+      "sources": [
+        "https://provins.net/organiser-votre-sejour/comment-nous-rejoindre/rejoindre-provins-tourisme-en-camping-car/"
+      ]
+    },
+    {
+      "place": "Bray-sur-Seine — aire communale (77)",
+      "lot": 421,
+      "checkedAt": "2026-11-21",
+      "status": "L’office de tourisme confirme le forfait services à 2 € (eau et vidanges), fiche mise à jour le 30/10/2026. Aucun prix de nuitée ni millésime 2027.",
+      "nextCheck": "Conserver 2 € comme prix de service publié, pas comme nuitée; confirmer son maintien en 2027.",
+      "sources": [
+        "https://www.tourisme-seine-et-marne.fr/visiter-decouvrir/territoires-destinations/provins/sejour-hebergement/725250-aire-communale/"
+      ]
+    },
+    {
+      "place": "Meaux — aire de camping-cars (77)",
+      "lot": 421,
+      "checkedAt": "2026-11-21",
+      "status": "L’office de tourisme confirme 7 € pour le forfait fluides (jusqu’à 80 L d’eau et 8 h d’électricité), emplacements limités à 2 jours. Ouverture des fluides du 01/04 au 31/10; hors saison, fluides fermés mais stationnement autorisé, limité à 7 jours. Aucun tarif 2027 explicite.",
+      "nextCheck": "Confirmer le maintien du forfait et du règlement pour 2027; garder nuitée/stationnement distincts du forfait de fluides.",
+      "sources": [
+        "https://www.tourisme-seine-et-marne.fr/visiter-decouvrir/4793652-aire-camping-cars-meaux/"
+      ]
+    },
+    {
+      "place": "Samoreau — camping municipal (77)",
+      "lot": 421,
+      "checkedAt": "2026-11-21",
+      "status": "Grille officielle du camping 2026: camping-car 11,70 €/jour, campeur adulte 4,60 €, électricité 3 €, vidange + eau pour camping-car extérieur 9 €. Une fiche touristique donne encore 2,55 € d’électricité et 8,50 € pour le service extérieur: divergence à lever. Aucun barème 2027.",
+      "nextCheck": "Retenir provisoirement la grille 2026 du gestionnaire; clarifier l’écart avec l’office de tourisme et demander la grille 2027.",
+      "sources": [
+        "https://www.camping-samoreau.fr/tarifs-et-reservations/",
+        "https://www.tourisme-seine-et-marne.fr/visiter-decouvrir/territoires-destinations/fontainebleau/sejour-hebergement/5185338-camping-municipal/"
+      ]
+    },
+    {
+      "place": "Grez-sur-Loing — Camping Les Prés (77)",
+      "lot": 421,
+      "checkedAt": "2026-11-21",
+      "status": "L’office de tourisme annonce un forfait 2026 à partir de 12 € incluant un emplacement, électricité 6A, 1 à 2 personnes et un véhicule avec tente/caravane/camping-car. Ouverture 2027 publiée du 16/03 au 01/11, mais pas de tarif 2027.",
+      "nextCheck": "Demander le tarif 2027; ne pas reconduire automatiquement le prix « à partir de 12 € ».",
+      "sources": [
+        "https://www.tourisme-gatinaisvaldeloing.fr/fr/fiche/725211/camping-les-pres-terracamps/",
+        "https://www.terracamps.com/camping-nature/camping-les-pres-fontainebleau"
+      ]
+    },
+    {
+      "place": "Neuilly-sur-Marne — Camping Les Rives de Paris (93)",
+      "lot": 421,
+      "checkedAt": "2026-11-21",
+      "status": "Le tarif officiel 2026 du camping liste un supplément de 2 € pour un plein d’eau de camping-car dans le cadre du séjour, ainsi que l’électricité en supplément. Cela ne confirme pas le prix d’accès à la borne sans nuitée; tarifs 2027 absents.",
+      "nextCheck": "Demander au camping si la borne est accessible sans séjour et son tarif 2027; ne pas présenter le supplément de plein d’eau comme prix de la borne seule.",
+      "sources": [
+        "https://camping.lesrivesdeparis.fr/wp-content/uploads/2026/01/Tarifs-2026-du-camping-Les-rives-de-Paris.pdf",
+        "https://camping.lesrivesdeparis.fr/informations-pratiques/"
+      ]
+    },
+    {
+      "place": "Auvers-sur-Oise — Camping GCU (95)",
+      "lot": 421,
+      "checkedAt": "2026-11-21",
+      "status": "Le GCU confirme l’accueil des camping-cars et l’ouverture saisonnière 2026 (29/04–27/09). La grille 2026 donne des tarifs à la nuit selon adhésion, nombre d’adultes et très basse saison; aucune grille 2027 confirmée.",
+      "nextCheck": "Vérifier dates d’ouverture et grille tarifaire 2027; distinguer adhérents et non-adhérents.",
+      "sources": [
+        "https://www.gcu.asso.fr/campings/camping-auvers-sur-oise/",
+        "https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf"
+      ]
+    },
+    {
+      "place": "Asnières-sur-Oise — Camping Les Princes (95)",
+      "lot": 421,
+      "checkedAt": "2026-11-21",
+      "status": "Le site officiel publie encore une grille 2025: forfait de passage pour camping-car, 1 personne, voiture et électricité à 15 € la nuit (16 h–11 h), suppléments et taxe de séjour en plus. Ouverture 2025; aucune grille 2026/2027 confirmée.",
+      "nextCheck": "Demander au camping la grille en vigueur et ses dates d’accueil 2027; le tarif 2025 est historique.",
+      "sources": [
+        "https://lesprinces.fr/nos-services/",
+        "https://lesprinces.fr/wp-content/uploads/2025/02/Princes-forfaits-2.pdf"
+      ]
+    }
+  ]
+}
