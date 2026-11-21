@@ -4829,7 +4829,7 @@
       "name": "Camping La Boutinardière – Pornic",
       "checkedAt": "2026-11-03",
       "lot": 100,
-      "status": "information_2027_sans_prix",
+      "status": "tarif_partiel_2027",
       "finding": "Contrôle lot 121 : moteur de réservation officiel, filtre « Emplacement camping », 7 nuits et capacité « 2 et + », à partir de 210 € pour les départs du 16 et du 23 avril 2027. Le montant est un total de séjour partiel ; inclusion de deux personnes, catégorie forfait, électricité, taxe, frais et total final non établis. La page tarifaire fixe reste libellée 2026.",
       "nextCheck": "Relever le détail du panier pour un séjour d'avril et un séjour haute saison : catégorie de forfait, nombre de personnes incluses, électricité, taxe de séjour, frais et total final. Vérifier aussi les règles de durée et jours d'arrivée 2027 et les dates de fermeture. Ne pas convertir 210 € en prix par nuit.",
       "source": "https://www.camping-boutinardiere.com/",
@@ -4849,7 +4849,15 @@
       "recheckSecondary2027Source": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/la-boutinardiere",
       "recheckOfficialSource": "https://www.camping-boutinardiere.com/",
       "recheckSeasonSource": "https://www.camping-boutinardiere.com/foire-au-questions.html",
-      "recheckOpeningSource": "https://www.camping-boutinardiere.com/foire-au-questions.html"
+      "recheckOpeningSource": "https://www.camping-boutinardiere.com/foire-au-questions.html",
+      "tariffFollowUpAt": "2026-11-21",
+      "tariffFollowUpFinding": "Recherche ciblée du 21/11/2026 : CampingFrance.com présente une rubrique « Tarifs 2027 » et un forfait d’emplacement tourisme à partir de 65 €/nuit, 2 adultes inclus, avec électricité affichée séparément à 9 €/nuit, adulte supplémentaire 8 € et enfant 7 €. Indication tierce uniquement : la saison et les conditions exactes du forfait (dont l’application au camping-car et les taxes/frais inclus) ne sont pas précisées. Le contrat opérateur 2027 confirme notamment la taxe de séjour de 0,66 €/adulte/nuit et traite certains frais de réservation séparément; il ne donne pas le tarif de base de l’emplacement. Conserver 65 € comme repère secondaire 2027, sans le présenter comme tarif confirmé. Le devis officiel déjà relevé à 210 € pour 7 nuits en avril reste une offre de séjour distincte.",
+      "tariffFollowUpNextCheck": "Obtenir un devis opérateur 2027 daté pour deux adultes, un camping-car et l’électricité 10 A, puis vérifier si les 65 €/nuit correspondent à une haute saison ou une autre formule; séparer taxe de 0,66 €/adulte/nuit, frais de réservation, électricité et suppléments.",
+      "tariffFollowUpSources": [
+        "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/la-boutinardiere",
+        "https://www.camping-boutinardiere.com/pdf/bouti-contrat-conditions.pdf",
+        "https://www.camping-boutinardiere.com/foire-au-questions.html"
+      ]
     },
     {
       "sourceId": "CCF44-THARON-VIEUX-CHATEAU-2026",
