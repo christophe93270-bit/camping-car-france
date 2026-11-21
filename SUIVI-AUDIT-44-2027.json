@@ -1353,7 +1353,11 @@
       "tariffQueueNextCheck": "Demander au gestionnaire les tarifs 2027 de l’aire, avec stationnement, eau, électricité et vidange distincts.",
       "tariffQueueSources": [
         "https://rando.loire-atlantique.fr/service/187566-Aire-de-camping-car-du-camping-du-Chene"
-      ]
+      ],
+      "sourceFollowupAt": "2026-11-21",
+      "sourceFollowupFinding": "Recherche complémentaire du 21/11/2026 : Pitchup affiche 23,72 €/nuit pour deux adultes sur l’emplacement standard du Camping du Chêne, électricité 10 A comprise. Ce prix concerne l’emplacement du camping, pas l’aire d’étape sécurisée distincte de 21 places devant le camping; ne pas le transférer à cette aire, dont le tarif reste à demander.",
+      "sourceFollowupSource": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/saint-julien-de-concelles/camping-du-chene/",
+      "sourceFollowupNextCheck": "Demander au gestionnaire le tarif 2027 propre aux 21 emplacements de l’aire d’étape, avec stationnement et services séparés; le tarif du camping voisin ne s’applique pas."
     },
     {
       "sourceId": "ACCAMACCAMEPORTCHERI",
@@ -1527,7 +1531,11 @@
       "tariffQueueNextCheck": "Demander confirmation écrite 2027 pour deux adultes, camping-car et électricité; ne pas additionner ou retirer l’électricité sans réponse de l’exploitant.",
       "tariffQueueSources": [
         "https://www.camping-lerelaisdesgarennes.com/infos-pratiques/"
-      ]
+      ],
+      "sourceFollowupAt": "2026-11-21",
+      "sourceFollowupFinding": " Recherche complémentaire du 21/11/2026 : PiNCAMP/ADAC affiche un tarif de comparaison 2027 à partir de 12 €/nuit pour un couple et 15 € pour une famille, électricité non incluse. Ce prix de départ secondaire ne résout pas l'écart avec l'exploitant (17 € pour camping-car, deux personnes et électricité annoncée incluse) et Gîtes de France (17 € pour le camping-car 2 personnes, électricité 4 € distincte). Aucun total 2027 officiel et complet n'est confirmé.",
+      "sourceFollowupSource": "https://www.pincamp.fr/campings/camping-rural-le-relais-des-garennes",
+      "sourceFollowupNextCheck": "Obtenir de l'exploitant un tarif 2027 daté pour 2 adultes, camping-car et électricité; demander si le prix PiNCAMP de 12 € correspond à un forfait de base avant électricité."
     },
     {
       "sourceId": "ACCAMACCAMEAIRECHINOISE",
