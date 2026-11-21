@@ -4,12 +4,12 @@
   "displayedCount": 22,
   "rawRegionalRows": 22,
   "deduplicatedRows": 0,
-  "currentLot": 418,
+  "currentLot": 419,
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 22
   },
-  "note": "Lot 418 : fiches 1 à 10 contrôlées sur 22. Douze fiches restent à vérifier : fiches 11 à 22. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
+  "note": "Lot 419 : fiches 11 à 20 contrôlées. Vingt fiches vérifiées sur 22; deux fiches restent à vérifier. Seul le tarif CAMPING-CAR PARK de Formerie est explicitement daté jusqu’au 31/12/2027. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
   "entries": [
     {
       "sourceId": "node/8612245422",
@@ -118,6 +118,110 @@
       "nextCheck": "Confirmer toute évolution de règlement ou tarif pour 2027.",
       "sources": [
         "https://www.oisetourisme.com/hebergement/aire-de-camping-cars-de-hermes/"
+      ]
+    },
+    {
+      "place": "Noyon — borne avenue Jean Bouin",
+      "lot": 419,
+      "checkedAt": "2026-11-21",
+      "status": "Oise Tourisme confirme eau potable et électricité limitées à 20 min, évacuations eaux grises/noires, 24h/24. Le stationnement nuit se fait séparément place Saint-Jacques (~15 camping-cars). Aucun prix officiel publié; 5,30 € reste un ancien signalement communautaire non confirmé.",
+      "nextCheck": "Demander le tarif actuel de la borne à la commune/opérateur; ne pas confondre borne de services et parking de nuit.",
+      "sources": [
+        "https://www.oisetourisme.com/hebergement/aire-de-camping-car-de-noyon/"
+      ]
+    },
+    {
+      "place": "Bailleul-sur-Thérain — L’Alouette et rue Voltaire",
+      "lot": 419,
+      "checkedAt": "2026-11-21",
+      "status": "Oise Tourisme confirme 6 emplacements à L’Alouette et une borne distincte rue Voltaire (eau, évacuations). Le parking gratuit mentionné pour la borne ne confirme pas la gratuité des services; aucun prix ni tarif 2027 explicite trouvé.",
+      "nextCheck": "Confirmer le coût de l’eau et le règlement de nuitée pour L’Alouette en 2027; conserver les deux emplacements comme distincts.",
+      "sources": [
+        "https://www.oisetourisme.com/hebergement/aire-de-camping-cars-de-bailleul-sur-therain/",
+        "https://www.oisetourisme.com/hebergement/aire-de-services-pour-camping-cars-de-bailleul-sur-therain/"
+      ]
+    },
+    {
+      "place": "Milly-sur-Thérain",
+      "lot": 419,
+      "checkedAt": "2026-11-21",
+      "status": "Oise Tourisme confirme 6 places stabilisées, parking gratuit, eau et vidanges. La fiche ne précise pas si l’usage de l’eau est gratuit ni de prix de service; pas de période tarifaire 2027.",
+      "nextCheck": "Faire confirmer le prix éventuel de l’eau et la continuité des conditions en 2027.",
+      "sources": [
+        "https://www.oisetourisme.com/hebergement/aire-de-camping-cars-de-milly-sur-therain/"
+      ]
+    },
+    {
+      "place": "Formerie — CAMPING-CAR PARK",
+      "lot": 419,
+      "checkedAt": "2026-11-21",
+      "status": "Tarif explicitement daté: 12,75 € / 24 h du 16/11/2026 au 31/12/2027, plus taxe de séjour de 1,00 € / 24 h du 01/01/2027 au 31/12/2027; total 2027 confirmé: 13,75 € / 24 h. Forfait 5 h + services: 6 €.",
+      "nextCheck": "Aucune vérification tarifaire 2027 supplémentaire nécessaire; surveiller le renouvellement après le 31/12/2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/oise/formerie"
+      ]
+    },
+    {
+      "place": "Pont-Sainte-Maxence",
+      "lot": 419,
+      "checkedAt": "2026-11-21",
+      "status": "Oise Tourisme confirme 4 places et stationnement gratuit. L’Office de tourisme des Pays d’Oise et d’Halatte affiche eau potable et eaux grises à 2 € les 10 min; tarif publié sans millésime 2027.",
+      "nextCheck": "Confirmer que le jeton eau/vidange reste à 2 € en 2027; garder parking gratuit distinct du service payant.",
+      "sources": [
+        "https://www.oisetourisme.com/hebergement/aire-de-stationnement-camping-cars-de-pont-sainte-maxence/",
+        "https://oisehalatte-tourisme.eu/activities/halte-velo-aire-de-pique-nique-de-pont-sainte-maxence/"
+      ]
+    },
+    {
+      "place": "Pierrefitte-en-Beauvaisis — Ferme du Détroit",
+      "lot": 419,
+      "checkedAt": "2026-11-21",
+      "status": "Oise Tourisme confirme une place, accueil de transit (une nuit en général) et stationnement gratuit à la ferme; aucune date de validité 2027.",
+      "nextCheck": "Confirmer auprès de l’exploitant le maintien de l’accueil gratuit en 2027.",
+      "sources": [
+        "https://www.oisetourisme.com/hebergement/aire-de-camping-cars-de-pierrefitte-en-beauvaisis/"
+      ]
+    },
+    {
+      "place": "Villers-Vermont — Domaine du Mont Hulin",
+      "lot": 419,
+      "checkedAt": "2026-11-21",
+      "status": "L’Office de tourisme de Picardie Verte publie un forfait fixe de 20 € (min. et max. identiques); Oise Tourisme décrit 8 places avec eau et électricité. Aucun millésime 2027 n’est affiché.",
+      "nextCheck": "Confirmer directement auprès du domaine le tarif, les services inclus et la validité 2027.",
+      "sources": [
+        "https://gerberoy-picardieverte.com/e-torismes/aire-daccueil-de-camping-car-au-domaine-du-mont-hulin/",
+        "https://www.oisetourisme.com/hebergement/aire-daccueil-de-camping-car-au-domaine-du-mont-hulin/"
+      ]
+    },
+    {
+      "place": "Omécourt — Ferme d’Épeaux",
+      "lot": 419,
+      "checkedAt": "2026-11-21",
+      "status": "Oise Tourisme confirme 2 places sur le parking de la ferme et un stationnement gratuit, avec vente directe. Pas de période de validité tarifaire 2027 indiquée.",
+      "nextCheck": "Confirmer avec l’exploitation la continuité de l’accueil gratuit en 2027.",
+      "sources": [
+        "https://www.oisetourisme.com/hebergement/aire-daccueil-de-la-ferme-depeaux/"
+      ]
+    },
+    {
+      "place": "Bailleul-sur-Thérain — Verger Potager / France Passion",
+      "lot": 419,
+      "checkedAt": "2026-11-21",
+      "status": "Accueil réservé aux adhérents France Passion, gratuit, généralement limité à une nuit, jusqu’à 3 camping-cars; conditions publiées sans validité 2027 explicite.",
+      "nextCheck": "Vérifier la reconduction de l’exploitation dans l’édition France Passion 2027.",
+      "sources": [
+        "https://www.oisetourisme.com/hebergement/aire-de-camping-cars-a-bailleul-sur-therain-france-passion/"
+      ]
+    },
+    {
+      "place": "Bresles — Flower Camping de la Trye",
+      "lot": 419,
+      "checkedAt": "2026-11-21",
+      "status": "Visit Beauvais publie 16 € pour 1 nuit en camping-car, services inclus, avec période d’ouverture affichée du 01/01 au 31/12/2026. Ce prix est 2026, pas une confirmation 2027.",
+      "nextCheck": "Demander la grille 2027 au camping avant de reprendre le montant comme tarif actuel.",
+      "sources": [
+        "https://www.visitbeauvais.fr/fiche/flower-camping-de-la-trye/",
+        "https://www.oisetourisme.com/hebergement/flower-camping-de-la-trye/"
       ]
     }
   ]
