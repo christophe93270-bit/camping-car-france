@@ -285,8 +285,8 @@
       "Stationnement de nuit",
       "Services camping-car selon l'opérateur"
     ],
-    "price": "12 € / 24 h ; parking 5 h + services : 6 €. Taxe de séjour : 0 € selon la fiche opérateur consultée le 12/11/2026.",
-    "status": "20 rue Saint-Marc, 45000 Orléans. Aire d'étape CAMPING-CAR PARK, 12 places selon sa fiche. Le statut est contradictoire : la page départementale du réseau la signale temporairement fermée, tandis que la fiche détaillée affiche « ouverte ». Vérifier l'état réel dans l'appli ou auprès de l'opérateur avant déplacement. Tarifs affichés : 12 €/24 h et 6 € pour parking 5 h + services.",
+    "price": "Tarif de base confirmé : 12,00 € / 24 h du 20/11/2026 au 31/12/2027; taxe de séjour : 0,00 € / 24 h du 06/05/2026 au 31/12/2027. Parking 5 h + services : 6 € (produit distinct). Aire signalée temporairement fermée sur la page départementale du réseau : vérifier la disponibilité.",
+    "status": "20 rue Saint-Marc, 45000 Orléans. Aire d'étape CAMPING-CAR PARK de 12 places selon sa fiche. État contradictoire : la page départementale du réseau la signale temporairement fermée tandis que la fiche locale affiche « ouverte »; vérifier avant déplacement. Tarif confirmé : 12 €/24 h du 20/11/2026 au 31/12/2027 et taxe 0 € sur la même période. Le parking 5 h + services à 6 € est distinct.",
     "source": "https://www.openstreetmap.org/node/14277439049",
     "latitude": 47.904601,
     "longitude": 1.922264,
@@ -296,10 +296,26 @@
     "importReview": "À contrôler avant déplacement | Contrôle du lot 11–20 effectué le 12/11/2026.",
     "sourceId": "node/14277439049",
     "sourceOfficialVerifiedOn": "2026-11-12",
-    "priceVerifiedOn": "2026-11-12",
+    "priceVerifiedOn": "2026-11-21",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/orleans",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/orleans",
-    "cityVerificationNote": "Commune, adresse et GPS vérifiés sur la fiche de l'opérateur; statut d'ouverture discordant entre la fiche locale et le catalogue départemental."
+    "cityVerificationNote": "Commune, adresse et GPS vérifiés sur la fiche de l'opérateur; statut d'ouverture discordant entre la fiche locale et le catalogue départemental.",
+    "priceCheckedAt": "2026-11-21",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "12 €/24 h (taxe 0 €)",
+      "note": "Base de 12 €/24 h valable du 20/11/2026 au 31/12/2027. Taxe de séjour de 0 €/24 h indiquée du 06/05/2026 au 31/12/2027. Parking 5 h + services à 6 € est un produit distinct. Disponibilité contradictoire : la page départementale signale temporairement fermée; la fiche locale affiche ouverte.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/orleans",
+      "baseAmountEUR": 12,
+      "unit": "24h",
+      "validFrom": "2026-11-20",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 0,
+      "totalStopoverAndTaxEUR": 12
+    }
   },
   {
     "department": "45",
@@ -423,8 +439,8 @@
       "Sanitaires",
       "Wi-Fi"
     ],
-    "price": "Tarif opérateur en cours au 12/11/2026 : 12,22 € / 24 h + 0,80 € de taxe de séjour, soit 13,02 € au total. Parking 5 h + services : 6 €.",
-    "status": "Place de l'Église, 45740 Lailly-en-Val. Aire d'étape CAMPING-CAR PARK ouverte toute l'année, 21 emplacements équipés d'électricité, eau et vidange, avec sanitaires et Wi-Fi. Tarif hiver actuellement affiché par l'opérateur : 12,22 €/24 h + 0,80 € de taxe de séjour ; forfait 5 h + services à 6 €.",
+    "price": "Tarif de base confirmé : 12,22 € / 24 h du 20/11/2026 au 31/12/2027 + taxe 2027 de 0,80 € / 24 h, soit 13,02 € / 24 h. Parking 5 h + services : 6 € (produit distinct).",
+    "status": "Place de l'Église, 45740 Lailly-en-Val. Aire d'étape CAMPING-CAR PARK ouverte toute l'année, 21 emplacements avec électricité, eau et vidange, sanitaires et Wi-Fi. Tarif 2027 confirmé : 12,22 €/24 h du 20/11/2026 au 31/12/2027 + taxe 0,80 €/24 h en 2027, total 13,02 €. Parking 5 h + services à 6 € distinct.",
     "source": "https://www.openstreetmap.org/way/469437321",
     "latitude": 47.7704171,
     "longitude": 1.6852003,
@@ -435,10 +451,26 @@
     "sourceId": "way/469437321",
     "servicesSource": "https://www.openstreetmap.org/way/469437321",
     "sourceOfficialVerifiedOn": "2026-11-12",
-    "priceVerifiedOn": "2026-11-12",
+    "priceVerifiedOn": "2026-11-21",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/lailly-en-val",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/lailly-en-val",
-    "cityVerificationNote": "Commune, adresse Place de l'Église et équipements confirmés par l'opérateur CAMPING-CAR PARK et Tourisme Loiret."
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/lailly-en-val?areaType=aire-etape-camping-car",
+    "cityVerificationNote": "Commune, adresse Place de l'Église et équipements confirmés par l'opérateur CAMPING-CAR PARK et Tourisme Loiret.",
+    "priceCheckedAt": "2026-11-21",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "13,02 €/24 h (base 12,22 € + taxe 0,80 €)",
+      "note": "Base de 12,22 €/24 h valable du 20/11/2026 au 31/12/2027; taxe de séjour 0,80 €/24 h du 01/01/2027 au 31/12/2027. Parking 5 h + services à 6 € est un produit distinct.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/lailly-en-val?areaType=aire-etape-camping-car",
+      "baseAmountEUR": 12.22,
+      "unit": "24h",
+      "validFrom": "2026-11-20",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 0.8,
+      "totalStopoverAndTaxEUR": 13.02
+    }
   },
   {
     "department": "45",
