@@ -1,7 +1,7 @@
 {
   "scope": "Loiret (45), contrôles regroupés de prix 2027 sur fiches existantes",
   "startedAt": "2026-11-21",
-  "note": "Le fichier public aires-loiret.json contient 37 lieux. Les fiches 1–10 sont contrôlées en lot tarifaire 365; les vérifications historiques du lot de création (12/11/2026) sont distinguées de ce contrôle 2027. Un tarif de base 24 h est confirmé jusqu'à fin 2027 à Saint-Denis-de-l'Hôtel, mais sa taxe 2027 reste inconnue; la fiche publique est structurée comme confirmation partielle. Le stationnement gratuit du Quai Dunois est désormais appuyé par Val de Loire Tourisme. Aucun lieu ajouté. Lot 366 ouvert le 21/11/2026 sur les dix fiches suivantes du fichier aires-loiret.json. Deux tarifs d'étape complets sont confirmés jusqu'en 2027 : L'École d'Orléans (12 €/24 h + taxe 0) avec fermeture contradictoire à vérifier, et Lailly-en-Val (12,22 € + taxe 0,80 € = 13,02 €/24 h). Huit autres fiches ne présentent pas de nouveau tarif général 2027; leurs prix de services et gratuités sont consignés séparément. Aucun lieu ajouté. Lot 367 ouvert le 21/11/2026 sur les dix fiches 21–30. Deux tarifications 2027 confirmées : Bellegarde (stationnement gratuit, eau 4 €, électricité 6 €, période 2027) et Beaune-la-Rolande (13,84 € + taxe 1,32 € = 15,16 €/24 h jusqu'au 31/12/2027). Huit autres fiches n'ont pas de nouveau tarif général daté 2027 publié; aucune fiche ajoutée.",
+  "note": "Le fichier public aires-loiret.json contient 37 lieux. Les fiches 1–10 sont contrôlées en lot tarifaire 365; les vérifications historiques du lot de création (12/11/2026) sont distinguées de ce contrôle 2027. Un tarif de base 24 h est confirmé jusqu'à fin 2027 à Saint-Denis-de-l'Hôtel, mais sa taxe 2027 reste inconnue; la fiche publique est structurée comme confirmation partielle. Le stationnement gratuit du Quai Dunois est désormais appuyé par Val de Loire Tourisme. Aucun lieu ajouté. Lot 366 ouvert le 21/11/2026 sur les dix fiches suivantes du fichier aires-loiret.json. Deux tarifs d'étape complets sont confirmés jusqu'en 2027 : L'École d'Orléans (12 €/24 h + taxe 0) avec fermeture contradictoire à vérifier, et Lailly-en-Val (12,22 € + taxe 0,80 € = 13,02 €/24 h). Huit autres fiches ne présentent pas de nouveau tarif général 2027; leurs prix de services et gratuités sont consignés séparément. Aucun lieu ajouté. Lot 367 ouvert le 21/11/2026 sur les dix fiches 21–30. Deux tarifications 2027 confirmées : Bellegarde (stationnement gratuit, eau 4 €, électricité 6 €, période 2027) et Beaune-la-Rolande (13,84 € + taxe 1,32 € = 15,16 €/24 h jusqu'au 31/12/2027). Huit autres fiches n'ont pas de nouveau tarif général daté 2027 publié; aucune fiche ajoutée. Lot 368 (21/11/2026) : fin du fichier du Loiret, 7 fiches restantes contrôlées; aucune fiche ajoutée. Beaulieu-sur-Loire confirmé à 12,22 € + taxe 0,44 € = 12,66 €/24 h pour 2027. Bases 2027 confirmées mais taxes à confirmer à Châtillon-Coligny (12,73 €) et La Ferté-Saint-Aubin (14 €). Gien, Douchy et Château-Renard : prix actuels disponibles mais non millésimés 2027 ou tarif ancien; l'aire CCP de Sully reste annoncée à venir sans tarif.",
   "entries": [
     {
       "sourceId": "node/4420639790",
@@ -354,6 +354,91 @@
         "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-stationnement-pour-camping-cars-les-bordes_TFOACCCEN04500046"
       ],
       "lot": 367,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1286144561",
+      "name": "Aire de camping-car municipale – Douchy-Montcorbon",
+      "status": "prix_publie_2027_non_millésimé",
+      "finding": "Lot 368 : la commune publie stationnement gratuit, eau 2 €/10 min et électricité 4 €/8 h; aucun millésime 2027.",
+      "nextCheck": "Confirmer auprès de la commune si ces montants restent ceux de 2027.",
+      "sources": [
+        "https://douchy-montcorbon.fr/fr/rb/1629513/aire-de-camping-car-4"
+      ],
+      "lot": 368,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1286226586",
+      "name": "Aire de camping-cars – Château-Renard",
+      "status": "tarif_ancien_2027_non_confirme",
+      "finding": "Lot 368 : derniers tarifs trouvés dans une délibération 2021 (eau 2 €/10 min, électricité 4 €/8 h); aucun tarif actuel/2027 ni état de borne récemment confirmé.",
+      "nextCheck": "Demander à la mairie les prix 2027 et confirmer que l'aire/borne fonctionne.",
+      "sources": [
+        "https://www.chateau-renard.fr/userfile/fichier-telechargement/1649659400-CM-211223.pdf"
+      ],
+      "lot": 368,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1313593955",
+      "name": "Aire municipale de Gien",
+      "status": "tarifs_actuels_2027_non_millésimés",
+      "finding": "Lot 368 : l'Office de tourisme publie 10 €/nuit taxe comprise, électricité 0,50 €/h, remplissage/vidange 2 €/20 min. Aucune grille millésimée 2027.",
+      "nextCheck": "Garder les tarifs comme publiés et confirmer le maintien en 2027 auprès de la ville.",
+      "sources": [
+        "https://www.gien-tourisme.fr/aire-camping-car/aire-de-services-municipale-pour-camping-car-4/",
+        "https://www.cc-giennoises.fr/wp-content/uploads/2025/07/Deliberations-du-Conseil-Communautaire-du-27-06-2025.pdf"
+      ],
+      "lot": 368,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-45-chatillon-coligny",
+      "name": "CAMPING-CAR PARK – Châtillon-Coligny",
+      "status": "tarif_base_2027_confirme_taxe_a_confirmer",
+      "finding": "Lot 368 : base de 12,73 €/24 h du 01/01 au 31/12/2027; la taxe de séjour 2027 n'est pas publiée (0,44 € seulement pour 2026). Parking 5 h + services : 4 € distinct.",
+      "nextCheck": "Mettre à jour le total lorsque CCP publie la taxe 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/chatillon-coligny"
+      ],
+      "lot": 368,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-45-beaulieu-sur-loire",
+      "name": "CAMPING-CAR PARK – Beaulieu-sur-Loire",
+      "status": "tarif_2027_confirme",
+      "finding": "Lot 368 : base 12,22 €/24 h + taxe 0,44 €/24 h du 01/01 au 31/12/2027, soit 12,66 €/24 h. Parking 5 h + services : 6 € distinct.",
+      "nextCheck": "Garder séparés base, taxe de séjour et forfait 5 h.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/beaulieu-sur-loire"
+      ],
+      "lot": 368,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-45-la-ferte-saint-aubin",
+      "name": "CAMPING-CAR PARK – La Ferté-Saint-Aubin",
+      "status": "tarif_base_2027_confirme_taxe_a_confirmer",
+      "finding": "Lot 368 : base 14 €/24 h du 24/09/2026 au 31/12/2027; taxe 1,32 €/24 h publiée uniquement pour 2026, total 2027 à confirmer. Parking 5 h + services : 6 € distinct.",
+      "nextCheck": "Mettre à jour le total quand la taxe 2027 sera publiée.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/la-ferte-saint-aubin"
+      ],
+      "lot": 368,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-45-sully-sur-loire-upcoming",
+      "name": "CAMPING-CAR PARK à venir – Sully-sur-Loire",
+      "status": "site_a_venir_tarif_non_publie",
+      "finding": "Lot 368 : l'opérateur annonce toujours le site comme à venir, sans tarif ni date d'ouverture publiés.",
+      "nextCheck": "Recontrôler à l'annonce de l'ouverture; conserver séparée l'aire municipale gratuite existante.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/sully-sur-loire"
+      ],
+      "lot": 368,
       "checkedAt": "2026-11-21"
     }
   ]
