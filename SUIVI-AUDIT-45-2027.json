@@ -1,0 +1,114 @@
+{
+  "scope": "Loiret (45), contrôles regroupés de prix 2027 sur fiches existantes",
+  "startedAt": "2026-11-21",
+  "note": "Le fichier public aires-loiret.json contient 37 lieux. Les fiches 1–10 sont contrôlées en lot tarifaire 365; les vérifications historiques du lot de création (12/11/2026) sont distinguées de ce contrôle 2027. Un tarif de base 24 h est confirmé jusqu'à fin 2027 à Saint-Denis-de-l'Hôtel, mais sa taxe 2027 reste inconnue; la fiche publique est structurée comme confirmation partielle. Le stationnement gratuit du Quai Dunois est désormais appuyé par Val de Loire Tourisme. Aucun lieu ajouté.",
+  "entries": [
+    {
+      "sourceId": "node/4420639790",
+      "name": "Aire de stationnement camping-cars du Quai Dunois – Beaugency",
+      "status": "gratuit_actuel_2027_non_millésimé",
+      "finding": "Lot 365 (21/11/2026) : Val de Loire Tourisme indique le stationnement gratuit. Pas d'eau, électricité ni vidange; la fiche Tourisme Loiret confirme stationnement nocturne et sanitaires. Gratuité publiée sans année 2027.",
+      "nextCheck": "Ne pas confondre avec le camping Val de Flux; vérifier les panneaux si un tarif local 2027 est publié.",
+      "sources": [
+        "https://www.valdeloire-france.com/aire-camping-car/aire-de-stationnement-pour-camping-cars-2/",
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-stationnement-pour-camping-cars-beaugency_TFOACCCEN00000039"
+      ]
+    },
+    {
+      "sourceId": "node/5556592526",
+      "name": "Aire municipale de Paucourt",
+      "status": "tarif_2027_non_confirme",
+      "finding": "Lot 365 : la mairie indique encore le dernier tarif daté 2025, 4,50 €/nuit + 0,50 €/personne de taxe. Aucun tarif 2027 publié.",
+      "nextCheck": "Demander à la mairie le tarif de nuitée et la taxe applicables en 2027.",
+      "sources": [
+        "https://www.commune-paucourt.fr/ma-commune/vie-de-ma-commune/accueil-camping-car-8582",
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-et-stationnement-pour-camping-car-paucourt_TFOACCCEN045V5016PN"
+      ]
+    },
+    {
+      "sourceId": "node/11929535548",
+      "name": "Accueil camping-cars Javoy et Fils – Mézières-lez-Cléry",
+      "status": "tarif_non_publie",
+      "finding": "Lot 365 : Tourisme Loiret confirme l'accueil camping-car à la ferme sans borne, sans prix de nuitée publié. Ne pas confondre avec dégustation ou achat viticole.",
+      "nextCheck": "Confirmer disponibilité, conditions et coût éventuel auprès du domaine.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/accueil-camping-cars-a-la-ferme-chez-javoy-et-fils-mezieres-lez-clery_TFOACCCEN045V501LM8"
+      ]
+    },
+    {
+      "sourceId": "node/11929698410",
+      "name": "Aire camping-cars Huilerie Laluque – Bazoches-les-Gallerandes",
+      "status": "gratuit_sous_conditions",
+      "finding": "Lot 365 : étape France Passion gratuite jusqu'à 24 h selon la règle générale, pour adhérent avec guide/invitation valide. L'inscription spécifique au guide 2027 et l'accueil par l'hôte restent à confirmer.",
+      "nextCheck": "Vérifier l'inscription 2027 de cette étape et ses disponibilités.",
+      "sources": [
+        "https://www.valdeloire-france.com/aire-camping-car/aire-de-lhuilerie-laluque/",
+        "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
+      ]
+    },
+    {
+      "sourceId": "node/11930236058",
+      "name": "Parking Place du Pâtis – Châtillon-Coligny",
+      "status": "nuitée_et_tarif_non_etablis",
+      "finding": "Lot 365 : la mairie décrit un parking public sans capacité camping-car, autorisation de nuitée ou tarif spécifiques. L'aire CCP de la rue de la Lancière est un site distinct.",
+      "nextCheck": "Vérifier la signalisation locale; ne pas transférer le prix CCP à cette fiche.",
+      "sources": [
+        "https://www.chatillon-coligny.fr/vivre-a-chatillon-coligny/se-deplacer/",
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/chatillon-coligny"
+      ]
+    },
+    {
+      "sourceId": "node/11930244101",
+      "name": "Clos des Cortillaux – Ousson-sur-Loire",
+      "status": "tarif_2027_non_confirme",
+      "finding": "Lot 365 : Tourisme Loiret référence six places de nuit chez un viticulteur, sans tarif. La fiche de Val de Loire Tourisme consultée indique des horaires d'ouverture 2026.",
+      "nextCheck": "Confirmer conditions d'accueil et prix éventuel applicables en 2027 avec le domaine.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-stationnement-camping-cars-le-clos-des-cortillaux-ousson-sur-loire_TFOACCCEN045V503IBS",
+        "https://www.valdeloire-france.com/aire-camping-car/aire-de-stationnement-camping-cars-le-clos-des-cortillaux/"
+      ]
+    },
+    {
+      "sourceId": "node/11930259036",
+      "name": "Aire municipale camping-car – Les Choux",
+      "status": "tarif_2027_non_confirme",
+      "finding": "Lot 365 : stationnement de nuit, eau et vidanges confirmés par Tourisme Loiret; aucun tarif publié.",
+      "nextCheck": "Demander à la mairie si stationnement et services sont gratuits ou payants en 2027.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-municipale-pour-camping-car-les-choux_TFOACCCEN045V506AP0"
+      ]
+    },
+    {
+      "sourceId": "node/11930320905",
+      "name": "Aire camping-car – Montcresson",
+      "status": "tarif_2027_non_confirme",
+      "finding": "Lot 365 : l'office confirme le parking sans services mais ne publie pas de tarif. Gratuité et durée de 72 h proviennent uniquement d'une source spécialisée.",
+      "nextCheck": "Vérifier le tarif et la durée sur la signalisation ou auprès de la mairie.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/5896914-aire-de-stationnement-camping-car",
+        "https://www.camping-car.com/aires/46067-aire-de-stationnement/"
+      ]
+    },
+    {
+      "sourceId": "node/12086035331",
+      "name": "CAMPING-CAR PARK Saint-Denis-de-l’Hôtel",
+      "status": "tarif_2027_partiel",
+      "finding": "Lot 365 : base confirmée à 14 €/24 h du 30/10/2026 au 31/12/2027. La taxe de 0,88 €/24 h est publiée jusqu'au 31/12/2026 seulement; total 2027 à confirmer. Le 5 h + services à 6 € reste distinct.",
+      "nextCheck": "Mettre à jour le total dès publication de la taxe 2027; conserver séparé le produit 5 h.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/saint-denis-de-l-hotel"
+      ]
+    },
+    {
+      "sourceId": "node/12228544026",
+      "name": "Aire municipale de Paturiau – Saint-Gondon",
+      "status": "gratuit_actuel_2027_non_millésimé",
+      "finding": "Lot 365 : stationnement, eau et vidange sont annoncés gratuits par les offices touristiques; aucune alimentation électrique n'est confirmée. Aucun millésime 2027 spécifique trouvé.",
+      "nextCheck": "Garder le prix et les services séparés; relever toute nouvelle grille municipale.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-municipale-pour-camping-car-paturiau-saint-gondon_TFOACCCEN045V50189G",
+        "https://www.valdeloire-france.com/aire-camping-car/aire-de-services-municipale-pour-camping-car-paturiau/"
+      ]
+    }
+  ]
+}
