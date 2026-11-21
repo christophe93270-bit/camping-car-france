@@ -1,0 +1,127 @@
+{
+  "scope": "Nièvre (58), vérification groupée des tarifs 2027",
+  "startedAt": "2026-11-21",
+  "displayedCount": 16,
+  "rawRegionalRows": 16,
+  "deduplicatedRows": 0,
+  "currentLot": 414,
+  "progress": {
+    "checked": 10,
+    "total": 16
+  },
+  "note": "Lot 414 : fiches 1 à 10 contrôlées. Six fiches restent à vérifier : fiches 11 à 16. Aucun ajout de lieu ni aucune modification des données applicatives.",
+  "entries": [
+    {
+      "sourceId": "node/12012374502",
+      "place": "Nevers — Plateau de la Bonne Dame",
+      "lot": 414,
+      "checkedAt": "2026-11-21",
+      "status": "Onlypark: 6 h 6 €, 24 h 14 €, 48 h 26 €, 72 h 35 €, électricité incluse; taxe de séjour annoncée 0,65 €/personne/nuit. Grille sans validité 2027 explicite.",
+      "nextCheck": "Confirmer grille et taxe 2027 avec Onlypark.",
+      "sources": [
+        "https://www.onlypark.fr/aire-de-nevers/",
+        "https://www.cirkwi.com/fr/point-interet/2997323-aire-de-camping-car-de-nevers"
+      ]
+    },
+    {
+      "sourceId": "way/494837469",
+      "place": "Imphy — espace Amphélia",
+      "lot": 414,
+      "checkedAt": "2026-11-21",
+      "status": "Sud Nivernais: stationnement de jour gratuit (12 places), escale avec électricité 5 €, vidange 2,50 €, taxe de séjour 0,40 €. Pas de date de validité 2027.",
+      "nextCheck": "Confirmer la grille 2027 auprès de Sud Nivernais Communauté.",
+      "sources": [
+        "https://www.sud-nivernais.fr/contacts/aire-de-service-pour-camping-cars-a-imphy/"
+      ]
+    },
+    {
+      "sourceId": "way/560708599",
+      "place": "Glux-en-Glenne",
+      "lot": 414,
+      "checkedAt": "2026-11-21",
+      "status": "Aire OSM et tarifs non confirmés par une source communale identifiable; reprises par annuaires ne sont pas indépendantes.",
+      "nextCheck": "Vérifier l’existence, l’emplacement, les services et le prix auprès de la mairie.",
+      "sources": [
+        "https://www.mairie-glux-en-glenne.fr/"
+      ]
+    },
+    {
+      "sourceId": "way/925901243",
+      "place": "Nevers — Quai de la Jonction (point OSM)",
+      "lot": 414,
+      "checkedAt": "2026-11-21",
+      "status": "Point non validé comme aire camping-car actuelle. Le camping municipal rue de la Jonction est une entité distincte; ne pas lui attribuer ses tarifs ni ceux du Plateau de la Bonne Dame.",
+      "nextCheck": "Confirmer l’identité du point avec la ville; tarif 2027 inconnu.",
+      "sources": [
+        "https://www.nevers.fr/decouvrir-nevers/tourisme/le-camping"
+      ]
+    },
+    {
+      "sourceId": "way/970855045",
+      "place": "Pougues-les-Eaux",
+      "lot": 414,
+      "checkedAt": "2026-11-21",
+      "status": "Mairie: parking gratuit; eau 3,60 €/10 min; électricité 3,20 €/8 h ou 3,70 €/12 h depuis le 01/01/2025. Pas de reconduction 2027 explicite.",
+      "nextCheck": "Demander si la grille municipale est reconduite en 2027.",
+      "sources": [
+        "https://www.ville-pouguesleseaux.fr/aire-de-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/1232491033",
+      "place": "Châtillon-en-Bazois — rue du Canal / port",
+      "lot": 414,
+      "checkedAt": "2026-11-21",
+      "status": "Sources touristiques: eau et vidange; la gratuité rapportée n’est pas datée 2027. Capacité variable selon les sources.",
+      "nextCheck": "Confirmer tarif, capacité et fonctionnement de la borne avec la commune ou l’office.",
+      "sources": [
+        "https://www.rivesdumorvan.fr/offres/aires-de-camping-cars/aire-de-service-pour-camping-car/",
+        "https://www.cirkwi.com/fr/point-interet/2996369-aire-de-service-pour-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/1233267630",
+      "place": "Guérigny",
+      "lot": 414,
+      "checkedAt": "2026-11-21",
+      "status": "Ville: stationnement et vidange gratuits; eau 2 €/10 min; électricité 2 €/8 h. Tarifs publiés sans validité 2027 explicite.",
+      "nextCheck": "Confirmer avec la mairie si tarifs maintenus en 2027.",
+      "sources": [
+        "https://www.ville-guerigny.fr/laire-des-camping-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/1237614118",
+      "place": "Château-Chinon — Camping-Car Park",
+      "lot": 414,
+      "checkedAt": "2026-11-21",
+      "status": "Tarif explicitement daté du 10/11/2026 au 31/12/2027: 11,71 € + taxe 1,30 € = 13,01 €/24 h TTC; 5 h + services: 6 €.",
+      "nextCheck": "Aucun complément nécessaire pour la tranche tarifaire 2027; conserver la distinction base/taxe.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/nievre/chateau-chinon"
+      ]
+    },
+    {
+      "sourceId": "way/1284607533",
+      "place": "Saint-Pierre-le-Moûtier — Camping-Car Park",
+      "lot": 414,
+      "checkedAt": "2026-11-21",
+      "status": "Tarif explicitement valable du 31/12/2026 au 31/12/2027: base 13,50 € + taxe 0,44 € = 13,94 €/24 h TTC; prix actuel de 14,18 € ne correspond pas à cette tranche. 5 h + services: 6 €.",
+      "nextCheck": "Mettre à jour prix de la tranche 2027 à 13,94 € TTC avec dates de validité.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/nievre/st-pierre-le-moutier"
+      ]
+    },
+    {
+      "sourceId": "way/1295887901",
+      "place": "Saint-Benin-d’Azy",
+      "lot": 414,
+      "checkedAt": "2026-11-21",
+      "status": "Office de tourisme: 6 emplacements sans commodités; aucun prix annoncé.",
+      "nextCheck": "Confirmer auprès de la mairie si le stationnement est gratuit ou payant.",
+      "sources": [
+        "https://www.tourismecoeurdenievre.com/camping-et-air-de-camping-car"
+      ]
+    }
+  ]
+}
