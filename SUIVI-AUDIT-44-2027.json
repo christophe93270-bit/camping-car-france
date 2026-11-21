@@ -716,6 +716,13 @@
       "tariffQueueNextCheck": "Demander un devis daté 2027 pour camping-car, deux personnes, électricité, taxe et frais détaillés.",
       "tariffQueueSources": [
         "https://www.camping-le-deffay.com/contact-tarifs-acces/"
+      ],
+      "sourceFollowupAt": "2026-11-21",
+      "sourceFollowupFinding": "Une page Pitchup intitulée « Tarifs 2027 mis à jour » donne un prix indicatif à partir de 32,28 €/nuit pour un emplacement avec électricité, deux adultes, plus 7 € de taxes/frais. Camping-car autorisé; le prix dépend des dates/disponibilités et certains suppléments (dont voiture supplémentaire) restent variables. Indice tiers uniquement : la page opérateur confirme toujours des tarifs d’emplacements 2026, donc aucune confirmation opérateur 2027.",
+      "sourceFollowupNextCheck": "Demander la grille ou un devis opérateur 2027 pour les mêmes paramètres; vérifier les dates correspondant au prix Pitchup et le détail des 7 € de taxes/frais et suppléments. Garder 32,28 € comme repère tiers, pas comme tarif confirmé.",
+      "sourceFollowupSources": [
+        "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/pontchateau/camping-le-deffay/?pitchtype=72166",
+        "https://www.camping-le-deffay.com/contact-tarifs-acces/"
       ]
     },
     {
