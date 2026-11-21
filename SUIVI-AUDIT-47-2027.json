@@ -1,7 +1,7 @@
 {
   "scope": "Lot-et-Garonne (47), audit groupé des tarifs et statuts 2027",
   "startedAt": "2026-11-21",
-  "note": "Lot 373 : vérification des fiches 1–10 de 26. Aucun lieu ajouté. Plusieurs tarifs officiels sont datés 2026 seulement; Buzet-sur-Baïse et Casseneuil comportent des points à clarifier.",
+  "note": "Lot 373 : vérification des fiches 1–10 de 26. Aucun lieu ajouté. Plusieurs tarifs officiels sont datés 2026 seulement; Buzet-sur-Baïse et Casseneuil comportent des points à clarifier. Lot 374 : fiches 11–20 de 26 contrôlées sans ajout. Tarifs gratuits revalidés par les sources touristiques pour La Sauvetat-du-Dropt, Lauzun, Saint-Sylvestre, Saint-Georges et Villeréal (sans nouvelle grille 2027); Monteton publie seulement « stationnement libre » sans montant. Monbahus tarif gratuit source 2026; Fumel prix gratuit secondaire et calendrier 2026; Saint-Pardoux-Isaac services gratuits en 2023 mais nuitée inconnue. Castillonnès base 13,23 €/24 h jusqu'à fin 2027; taxe 2027 manquante.",
   "entries": [
     {
       "sourceId": "node/4215434488",
@@ -124,6 +124,126 @@
         "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-cars-de-casteljaloux/"
       ],
       "lot": 373,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/901964847",
+      "name": "Aire de Camping-car de Monteton",
+      "status": "prix_non_publie_stationnement_libre",
+      "finding": "Le tourisme départemental indique stationnement libre, mais ne donne aucun montant dans la rubrique tarifs; gratuité non établie.",
+      "nextCheck": "Confirmer le tarif et le coût des services auprès de la mairie.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-cars-de-monteton/"
+      ],
+      "lot": 374,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/901969739",
+      "name": "Aire de camping-cars de la ville de La Sauvetat-du-Dropt",
+      "status": "gratuit_72h_non_millésimé_2027",
+      "finding": "Gratuit, ouvert toute l'année, limite 72 h; pas de nouvelle grille 2027.",
+      "nextCheck": "Conserver ces modalités et revalider si règlement municipal modifié.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-la-sauvetat-du-dropt/"
+      ],
+      "lot": 374,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/901973836",
+      "name": "Aire de camping-cars de la ville de Lauzun",
+      "status": "gratuit_48h_non_millésimé_2027",
+      "finding": "Stationnement et services gratuits, 48 h maximum; pas de tarif 2027 distinct.",
+      "nextCheck": "Ne pas confondre absence de vidange avec accès eau/sanitaires à proximité.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-cars-de-lauzun/"
+      ],
+      "lot": 374,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/901982446",
+      "name": "Aire de Camping-car Monbahus",
+      "status": "gratuit_2026_services_non_chiffrés",
+      "finding": "Stationnement gratuit selon fiche touristique 2026; aucune grille 2027 ni prix de service distinct.",
+      "nextCheck": "Confirmer auprès de la mairie si l'électricité/les services ont un coût ou forfait.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/839520-aire-de-camping-car-de-monbahus"
+      ],
+      "lot": 374,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/901990094",
+      "name": "Aire de camping-car de Fumel",
+      "status": "gratuit_source_secondaire_tarif_2027_non_publie",
+      "finding": "Ouverture indiquée mars–novembre 2026. Gratuité vient de recensement secondaire; page touristique consultée ne donne pas de tarif.",
+      "nextCheck": "Revalider ouverture saison 2027 et gratuité auprès de la mairie/office.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/839524-aire-de-camping-car-de-fumel"
+      ],
+      "lot": 374,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/901996970",
+      "name": "Aire de camping-car de Saint-Sylvestre",
+      "status": "gratuit_48h_non_millésimé_2027",
+      "finding": "12 places, gratuit toute l'année, 48 h maximum.",
+      "nextCheck": "Conserver gratuité et limite; vérifier toute mise à jour.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-saint-sylvestre/"
+      ],
+      "lot": 374,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/901996971",
+      "name": "Aire de camping-car de Saint-Georges (Lot-et-Garonne)",
+      "status": "gratuit_7nuits_non_millésimé_2027",
+      "finding": "4 places, gratuit toute l'année, 7 nuits maximum; eau et vidange cassette.",
+      "nextCheck": "Conserver modalités et gratuité.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-saint-georges/"
+      ],
+      "lot": 374,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/902198125",
+      "name": "Aire de camping-cars de Villeréal",
+      "status": "gratuit_services_eau_saison_froide",
+      "finding": "Stationnement et services gratuits; pas d'eau en cas de gel.",
+      "nextCheck": "Conserver coupure d'eau par gel.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-cars-de-villereal/"
+      ],
+      "lot": 374,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1251237493",
+      "name": "Aire de camping-cars Saint-Pardoux-Isaac",
+      "status": "forfait_services_2023_nuitée_non_confirmée",
+      "finding": "Une source de 2023 affiche services gratuits, mais ni nuitée ni statut actuel ne sont confirmés.",
+      "nextCheck": "Confirmer auprès de l'Intermarché si services ouverts et stationnement de nuit permis.",
+      "sources": [
+        "https://www.camping-car.com/aires/15715-intermarche/"
+      ],
+      "lot": 374,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1304838143",
+      "name": "Camping-car Park Castillonnès",
+      "status": "tarif_2027_partiel_taxe_non_publiee",
+      "finding": "Base 13,23 €/24 h jusqu'au 31/12/2027; taxe de 0,58 €/24 h n'est publiée que jusqu'au 31/12/2026; total 2027 non confirmé.",
+      "nextCheck": "Confirmer la taxe 2027 auprès de CCP; parking 5 h + services reste distinct à 6 €.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/castillonnes"
+      ],
+      "lot": 374,
       "checkedAt": "2026-11-21"
     }
   ]
