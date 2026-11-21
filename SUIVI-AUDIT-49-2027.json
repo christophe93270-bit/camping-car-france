@@ -1,0 +1,137 @@
+{
+  "scope": "Maine-et-Loire (49), vérification groupée des tarifs 2027",
+  "startedAt": "2026-11-21",
+  "displayedCount": 110,
+  "rawRegionalRows": 114,
+  "deduplicatedRows": 4,
+  "currentLot": 378,
+  "progress": {
+    "checked": 10,
+    "total": 110
+  },
+  "note": "Lot 378 : fiches 1–10 vérifiées en groupe. Aucun lieu ajouté. Un tarif 2027 confirmé (CCP Ingrandes-le-Fresne-sur-Loire : 12,52 €/24 h du 01/10/2026 au 31/12/2027; taxe affichée à 0 €/24 h sur la même période). Les fiches 1–9 n'ont pas de tarif 2027 confirmé; tarifs non millésimés ou frais de service restent clairement séparés. La source Pages sert 114 lignes brutes, avec 4 doublons écartés par l'application, soit 110 fiches affichées. L'API de la branche main a renvoyé un fichier aires-pdl.json vide; aucun écrasement du fichier source effectué.",
+  "entries": [
+    {
+      "sourceId": "ACCAMPDL049V50ICDQ",
+      "name": "Aire de camping-car au Moulin de la Vollerie à la Tourlandry",
+      "status": "tarif_camping_car_non_publie",
+      "finding": "Deux places/bornes camping-car mentionnées par Anjou Tourisme, sans conditions de nuitée ni tarif. 160 €/nuit concerne le gîte, pas le camping-car.",
+      "nextCheck": "Demander à l'hôte si stationnement de nuit et services sont proposés et à quel tarif.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/locations-vacances/gite-le-moulin-de-la-vollerie-chemille-en-anjou_TFOHLOPDL049V50B031"
+      ],
+      "lot": 378,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50HADC",
+      "name": "Borne de services camping-cars du Camping Les Rives du Douet",
+      "status": "service_payant_prix_non_publie_tarif_camping_2026_distinct",
+      "finding": "Borne payante accessible sans nuitée pendant les heures d'accueil; prix borne non publié. Tarif camping affiché séparément : 11,60–21 €/nuit (2026), non applicable à la borne seule.",
+      "nextCheck": "Demander le prix de la borne seule et les tarifs camping-car 2027.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/borne-de-services-camping-cars-du-camping-les-rives-du-douet-doue-en-anjou_TFOACCAMPDL049V50HADC",
+        "https://www.anjou-tourisme.com/fr/diffusio/campings/camping-municipal-les-rives-du-douet-doue-en-anjou_TFOHPAKZSRIVESDOUET"
+      ],
+      "lot": 378,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMKZSCCTHOUREIL",
+      "name": "Aire camping-cars Le Thoureil",
+      "status": "stationnement_gratuit_mairie_4_places",
+      "finding": "La mairie confirme quatre places gratuites au Parking du Ponceau; services techniques non confirmés sur ce parking.",
+      "nextCheck": "Conserver la gratuité publiée; reconfirmer seulement si la commune modifie son règlement.",
+      "sources": [
+        "https://www.gennesvaldeloire.fr/camping-et-aire-camping-car/"
+      ],
+      "lot": 378,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMKZSCCMOULIHERNE",
+      "name": "Aire camping-cars de Mouliherne",
+      "status": "stationnement_et_services_gratuits_source_tourisme",
+      "finding": "Saumur Val de Loire Tourisme confirme stationnement et services gratuits, cinq emplacements.",
+      "nextCheck": "Aucun tarif 2027 spécifique à appliquer; recontrôler lors d'une modification de la fiche.",
+      "sources": [
+        "https://www.ot-saumur.fr/aires-de-camping-cars/aire-camping-cars-de-mouliherne-5318059/"
+      ],
+      "lot": 378,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMKZSCCCONCOURSON",
+      "name": "Aire camping-cars de Concourson-sur-Layon",
+      "status": "prix_stationnement_non_publie_eau_qipeo_non_chiffree",
+      "finding": "La fiche tourisme ne chiffre pas le stationnement; eau payante via Qipeo sans tarif affiché. Parking de nuit distinct de la borne.",
+      "nextCheck": "Relever le tarif de l'eau auprès de Qipeo et confirmer les règles de nuitée du parking.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-camping-cars-de-concourson-sur-layon-doue-en-anjou_TFOACCAMKZSCCCONCOURSON"
+      ],
+      "lot": 378,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMKAIREDEMONTREUILJUIGNE",
+      "name": "Aire d'accueil de camping-car de Montreuil-Juigné",
+      "status": "jeton_eau_payant_prix_non_publie",
+      "finding": "La mairie confirme huit emplacements, eau payante par jeton et séjour limité à 72 h; prix du jeton non publié.",
+      "nextCheck": "Demander le prix du jeton à la mairie ou à un commerce partenaire.",
+      "sources": [
+        "https://www.ville-montreuil-juigne.fr/mes-loisirs/tourisme/hebergements/aire-de-camping-cars/"
+      ],
+      "lot": 378,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50015B",
+      "name": "Aire de camping-car et de services - Escale du Haut-Anjou",
+      "status": "tarif_tourisme_2026_non_millesime_2027",
+      "finding": "Anjou Tourisme affiche 6 €/nuit et 8–12 € pour les services électricité/vidange; page mise à jour le 18/06/2026, aucune validité 2027 indiquée.",
+      "nextCheck": "Demander à l'exploitant si les tarifs restent applicables en 2027 et préciser les composantes des services.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-camping-car-et-de-services-escale-du-haut-anjou-erdre-en-anjou_TFOACCAMPDL049V50015B"
+      ],
+      "lot": 378,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V5045P4",
+      "name": "Aire au camping de Vern d'Anjou",
+      "status": "tarif_tourisme_non_millesime_2027",
+      "finding": "Barème touristique publié : 2–3 €/nuit camping-car, électricité 4,40–8,50 €/nuit, taxe 0,20 €. Pas de millésime 2027; préserver séparation entre emplacement, électricité et taxe.",
+      "nextCheck": "Confirmer le barème 2027 et les montants exacts par période auprès de la mairie.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-au-camping-de-vern-d-anjou-erdre-en-anjou_TFOACCAMPDL049V5045P4",
+        "https://www.tourisme-anjoubleu.com/offres/camping-municipal-de-vern-danjou-vern-danjou-erdre-en-anjou-fr-2577797/"
+      ],
+      "lot": 378,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V501LRV",
+      "name": "AIRE CAMPING -CAR DE THOUARCE",
+      "status": "tarif_nuitee_et_services_non_publies",
+      "finding": "La fiche touristique confirme un emplacement au camping de l'Écluse et mentionne eau, électricité, vidange et Wi-Fi; aucun prix publié.",
+      "nextCheck": "Demander à l'exploitant les prix 2027 de nuitée et les services inclus ou facturés en supplément.",
+      "sources": [
+        "https://anjou-vignoble-villages.com/hebergements/aire-camping-car-de-thouarce/"
+      ],
+      "lot": 378,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL044V51J2GE",
+      "name": "Aire de camping car - Le port de Loire - Ingrandes-le-Fresne-sur-Loire",
+      "status": "tarif_2027_confirme_base_12_52_tax_0",
+      "finding": "CAMPING-CAR PARK affiche 12,52 €/24 h du 01/10/2026 au 31/12/2027, taxe de séjour affichée à 0 €/24 h sur la période. Le forfait 5 h + services de 6 € reste distinct.",
+      "nextCheck": "Recontrôler la grille après le 31/12/2027; tarif antérieur du 18/09 au 30/09/2026 : 14,81 €/24 h.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/maine-et-loire/ingrandes-le-fresne-sur-loire?areaType=camping"
+      ],
+      "lot": 378,
+      "checkedAt": "2026-11-21"
+    }
+  ]
+}
