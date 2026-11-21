@@ -92,7 +92,7 @@
       "Électricité 6 A",
       "Services camping-car selon l'opérateur"
     ],
-    "price": "Base confirmée : 13,80 € / 24 h du 16/09/2026 au 31/12/2027. Taxe de séjour 1,44 € / 24 h affichée jusqu'au 31/12/2026 seulement; total 2027 à confirmer. Parking 5 h + services : 6 €.",
+    "price": "Tarif 2027 confirmé : 13,80 € / 24 h + taxe de séjour 1,44 € / 24 h = 15,24 € / 24 h, du 20/11/2026 au 31/12/2027. Parking 5 h + services : 6 €.",
     "status": "36 Pech Del Gal, 46140 Albas. Aire CAMPING-CAR PARK de 20 emplacements; l'opérateur l'affiche ouverte, mais sa description indique une ouverture du 1er avril au 31 octobre. Vérifier l'accès réel hors saison avant déplacement.",
     "source": "https://www.openstreetmap.org/node/11429577519",
     "latitude": 44.4751846,
@@ -113,17 +113,17 @@
     "season2027": {
       "year": 2027,
       "checkedAt": "2026-11-21",
-      "status": "partial",
-      "label": "13,80 €/24 h (taxe 2027 à confirmer)",
-      "note": "Tarif de base 13,80 €/24 h du 16/09/2026 au 31/12/2027. La taxe de séjour de 1,44 €/24 h est publiée du 01/01/2025 au 31/12/2026, pas pour 2027. Total taxe comprise à confirmer; le parking 5 h + services à 6 € est distinct.",
+      "status": "confirmed",
+      "label": "15,24 € / 24 h taxe comprise",
+      "note": "Base 13,80 €/24 h du 20/11/2026 au 31/12/2027; taxe de séjour de 1,44 €/24 h du 01/01/2027 au 31/12/2027. Le parking 5 h + services à 6 € est distinct.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/albas",
       "baseAmountEUR": 13.8,
       "unit": "24h",
-      "validFrom": "2026-09-16",
+      "validFrom": "2026-11-20",
       "validThrough": "2027-12-31",
-      "touristTaxConfirmed": false,
-      "touristTaxEUR": null,
-      "totalStopoverAndTaxEUR": null
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.44,
+      "totalStopoverAndTaxEUR": 15.24
     }
   },
   {
@@ -194,8 +194,7 @@
     "services": [
       "Stationnement gratuit (48 h maximum)",
       "Eau potable",
-      "Vidange eaux usées",
-      "Vidange toilettes chimiques",
+      "Rinçage et vidange toilettes chimiques",
       "Éclairage",
       "Toilettes publiques"
     ],
