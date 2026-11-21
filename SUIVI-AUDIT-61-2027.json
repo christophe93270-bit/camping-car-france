@@ -2,14 +2,14 @@
   "scope": "Audit du tarif 2027 pour les dix premières fiches d’aires de service du catalogue régional Orne (61), dans l’ordre alphabétique de la source. Ce suivi porte sur ce lot et ne représente pas l’inventaire complet du département ni les fiches déjà présentes dans aires.json.",
   "startedAt": "2026-11-21",
   "sourceInventory": "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
-  "currentLot": 424,
+  "currentLot": 425,
   "department": "61",
   "progress": {
     "checkedInLot": 10,
     "totalInLot": 10,
     "departmentTotal": null
   },
-  "note": "Lot 424 : dix entrées suivantes de l’inventaire régional contrôlées. Aucun barème complet de nuitée/services officiellement daté 2027 confirmé. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
+  "note": "Lot 425 : dix entrées suivantes de l’inventaire régional contrôlées. Un prix d’étape de l’aire Camping-Car Park Longny est publié jusqu’au 31/12/2027; autres tarifs trouvés sont non millésimés ou 2026, avec vérifications à faire. Des couples aire/camping à la même adresse ont été distingués. Aucune donnée du site modifiée.",
   "entries": [
     {
       "place": "L’Aigle — aire communale, 15 bis avenue du Mont-Saint-Michel",
@@ -337,6 +337,117 @@
         "https://lafertemace.fr/aire-de-camping-cars-2-2/",
         "https://lafertemace.fr/wp-content/uploads/2025/09/DCM2591V-TARIFS-SERVICES-COMMUNAUX-ANNEE-2025-MODIFICATIF.pdf",
         "https://lafertemace.fr/conseil-municipal-mardi-17-novembre-2026-20h/"
+      ]
+    },
+    {
+      "place": "La Roche-Mabile — aire de camping-car",
+      "lot": 425,
+      "checkedAt": "2026-11-21",
+      "status": "Fiche Tourisme 61 valide du 1/1 au 31/12/2027, sans tarif publié. Des annuaires secondaires la décrivent gratuite, mais aucun tarif officiel ni services détaillés ne permettent de confirmer les conditions/prix 2027.",
+      "nextCheck": "Confirmer auprès de la mairie le stationnement, les services et les tarifs 2027.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/3017014-aire-de-camping-car-la-roche-mabile",
+        "https://spot2play.com/spot/aire-de-camping-car-la-roche-mabile/"
+      ]
+    },
+    {
+      "place": "Longny-les-Villages — aire Camping-Car Park Longny",
+      "lot": 425,
+      "checkedAt": "2026-11-21",
+      "status": "L’opérateur affiche 12 €/24 h du 15/9/2026 au 31/12/2027 (hors taxe de séjour indiquée à part) et 6 € pour 5 h + services. L’affichage du tarif en cours donne 13,10 €/24 h dont 1,10 € de taxe, mais le tarif de taxe 2027 n’est pas clairement séparé sur la page détaillée.",
+      "nextCheck": "Tarif de base publié jusqu’à fin 2027; confirmer le montant final avec taxe et séparer l’offre 5 h.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/orne/longny-au-perche?areaType=aire-etape-camping-car",
+        "https://www.tourismehautsduperche.fr/ou-dormir/aires-de-service/"
+      ]
+    },
+    {
+      "place": "Longny-les-Villages — Camping à la ferme du Moulin des Sablons",
+      "lot": 425,
+      "checkedAt": "2026-11-21",
+      "status": "Site officiel : emplacement 9 €/jour, personne de 6 ans et plus 3,50 €, enfant de moins de 6 ans 2,50 €, taxe 0,25 €/personne, électricité 4 €. Les tarifs sont affichés sans millésime; pas de tarif 2027 confirmé.",
+      "nextCheck": "Demander confirmation du tarif 2027 et distinguer ce camping à la ferme de l’aire CCP Longny.",
+      "sources": [
+        "https://campingmoulindessablons.com/fr/camping",
+        "https://www.normandie-tourisme.fr/camping/camping-le-moulin-des-sablons/"
+      ]
+    },
+    {
+      "place": "Longny-les-Villages — Camping le Monaco Parc",
+      "lot": 425,
+      "checkedAt": "2026-11-21",
+      "status": "Normandie Tourisme publie 14–17 € pour emplacement/camping-car, électricité 6 €, taxe 0,50 €, mais la grille présente d’autres lignes incohérentes ou ambiguës (adulte 2–10 €, enfant 6–8 €). Le formulaire officiel retrouvé porte sur 2026; aucun prix explicite 2027.",
+      "nextCheck": "Demander au camping son forfait camping-car 2027, prestations incluses et clarifier la grille en ligne.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/camping/camping-le-monaco-parc/",
+        "https://www.campingmonacoparc.com/wp-content/uploads/2025/04/contrat-de-reservation-monaco-parc-2026.pdf"
+      ]
+    },
+    {
+      "place": "Longny-les-Villages — Camping municipal Les Fossés (Marchainville)",
+      "lot": 425,
+      "checkedAt": "2026-11-21",
+      "status": "Tourisme Normandie/Parc du Perche publient emplacement 1,50 €, adulte 1,50 €, enfant 1 €, électricité 4 €, taxe 0,25 €; ouverture 2026 du 1/4 au 31/10. Aucun tarif 2027.",
+      "nextCheck": "Confirmer tarifs et saison 2027 auprès de la mairie de Marchainville.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/camping/camping-les-fosses/",
+        "https://www.parc-naturel-perche.fr/ou-dormir-0/campings/camping-les-fosses-767865"
+      ]
+    },
+    {
+      "place": "Ménil-Hubert-sur-Orne — aire de camping-car de la Rouvre",
+      "lot": 425,
+      "checkedAt": "2026-11-21",
+      "status": "Aire située dans le camping de la Rouvre; 5 emplacements et équipements listés, sans tarif distinct. Le tarif doit être vérifié avec le forfait du camping, sans ajouter une deuxième facturation par défaut.",
+      "nextCheck": "Confirmer auprès du camping si l’aire a un tarif séparé du forfait de nuitée 2026/2027.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-de-la-rouvre/",
+        "https://www.normandie-tourisme.fr/camping/camping-de-la-rouvre/"
+      ]
+    },
+    {
+      "place": "Ménil-Hubert-sur-Orne — Camping de la Rouvre",
+      "lot": 425,
+      "checkedAt": "2026-11-21",
+      "status": "Tourisme Normandie publie un forfait camping-car (1 nuit/2 personnes) de 16,30 à 21,30 €, plus taxe séjour 0,22 €; CampingFrance indique 16,10 €/nuit. Site du camping ouvert du 3 avril au 27 septembre 2026. Écart entre fiches; aucun tarif 2027.",
+      "nextCheck": "Demander au camping le forfait 2027 et clarifier l’écart 16,10/16,30–21,30 €.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/camping/camping-de-la-rouvre/",
+        "https://www.campingfrance.com/recherchez-votre-camping/normandie/orne/menil-hubert-sur-orne/camping-de-la-rouvre",
+        "https://larouvre.fr/contact/"
+      ]
+    },
+    {
+      "place": "Moulins-la-Marche — aire Jean Gabin",
+      "lot": 425,
+      "checkedAt": "2026-11-21",
+      "status": "Fiche régionale : 2 emplacements, eau potable et vidange eaux grises. Camping-car.com affiche services gratuits en 2024; la fiche touristique ne publie pas de tarif ni de confirmation de gratuité 2027.",
+      "nextCheck": "Confirmer le prix 2027 et l’état/disponibilité des services auprès de la mairie.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-jean-gabin/",
+        "https://www.camping-car.com/aires/45856-aire-communale/"
+      ]
+    },
+    {
+      "place": "Putanges-le-Lac — aire de camping-car de Kerflaveur",
+      "lot": 425,
+      "checkedAt": "2026-11-21",
+      "status": "Fiche Normandie Tourisme : 2 emplacements avec eau et électricité, à la ferme Kerflaveur; aucun prix d’aire n’est publié. La même adresse accueille aussi le camping à la ferme; ne pas appliquer automatiquement son forfait au simple accès service.",
+      "nextCheck": "Confirmer les conditions et le tarif de l’aire, et la distinguer du séjour camping à la ferme.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-de-kerflaveur/",
+        "https://www.office-tourisme-putanges.com/ot-putanges/images/val-d-orne-putanges-le-lac.pdf"
+      ]
+    },
+    {
+      "place": "Putanges-le-Lac — camping à la ferme Kerflaveur",
+      "lot": 425,
+      "checkedAt": "2026-11-21",
+      "status": "Le guide local indique 6,50 €/personne et 4,50 € pour l’électricité, ouverture toute l’année; source non millésimée 2027. Cette offre de séjour est à distinguer de la fiche aire de services à la même adresse.",
+      "nextCheck": "Confirmer auprès des exploitants le tarif 2027 et ce qui est inclus dans les 6,50 € par personne.",
+      "sources": [
+        "https://www.office-tourisme-putanges.com/ot-putanges/images/val-d-orne-putanges-le-lac.pdf",
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-de-kerflaveur/"
       ]
     }
   ]
