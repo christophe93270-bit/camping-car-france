@@ -6,20 +6,20 @@
   "deduplicatedRows": 0,
   "currentLot": 413,
   "progress": {
-    "checked": 10,
+    "checked": 11,
     "total": 11
   },
-  "note": "Lot 413 : fiches 1 à 10 contrôlées. Une fiche reste à vérifier : fiche 11. Tarifs non confirmés laissés explicitement comme tels ; aucune donnée du site n’a été modifiée.",
+  "note": "Lot 413 clôturé : les 11 fiches Moselle ont été contrôlées. Tarifs explicitement non datés 2027 conservés comme non confirmés. Aucune donnée applicative n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/12151458473",
       "place": "Phalsbourg",
       "lot": 413,
       "checkedAt": "2026-11-21",
-      "status": "Tarif de stationnement/nuitée 2027 non trouvé. Mairie : accès gratuit, durée maximale 48 h. Tarifs de services publiés sans validité 2027 (eau 2 €/10 min ; électricité 2 €/h ou 4 €/12 h).",
-      "nextCheck": "Confirmer auprès de la commune les éventuels frais de stationnement et la validité 2027 des services.",
+      "status": "Tarif de stationnement/nuitée 2027 non trouvé. Commune: accès gratuit, durée maximale 48 h. Tarifs services publiés sans validité 2027 (eau 2 €/10 min ; électricité 2 €/h ou 4 €/12 h).",
+      "nextCheck": "Confirmer auprès de la commune les éventuels frais et la validité 2027 des tarifs de services.",
       "sources": [
-        "https://www.phalsbourg.fr/"
+        "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f847000033_aire-de-camping-cars-phalsbourg"
       ]
     },
     {
@@ -27,10 +27,10 @@
       "place": "Sarreguemines — Camping-Car Park",
       "lot": 413,
       "checkedAt": "2026-11-21",
-      "status": "Tarif de base 2027 confirmé : 11,20 €/24 h ; tarif 5 h + services : 6 €. La taxe de séjour 2027 locale est de 0,40 €/adulte/24 h, mais le total TTC affiché par l’opérateur pour 2027 n’est pas publié. Ne pas calculer comme tarif opérateur confirmé.",
-      "nextCheck": "Vérifier le total 2027 TTC affiché par Camping-Car Park et sa taxe appliquée.",
+      "status": "Base 2027 confirmée: 11,20 €/24 h ; 5 h + services: 6 €. Taxe de séjour locale 2027: 0,40 €/adulte/24 h, mais total TTC 2027 opérateur non publié; ne pas le calculer comme tarif confirmé.",
+      "nextCheck": "Vérifier le total 2027 TTC affiché par Camping-Car Park et la taxe appliquée.",
       "sources": [
-        "https://www.campingcarpark.com/"
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/moselle/sarreguemines"
       ]
     },
     {
@@ -38,10 +38,10 @@
       "place": "Bitche — aire de services de la citadelle",
       "lot": 413,
       "checkedAt": "2026-11-21",
-      "status": "Services publiés : eau 2 €, électricité 2 €, vidanges. Aucun tarif de stationnement/nuitée ni millésime 2027 confirmé.",
-      "nextCheck": "Demander à la commune si le stationnement est autorisé/payant et si les tarifs de services restent valables en 2027.",
+      "status": "Services publiés: eau 2 €, électricité 2 €, vidanges. Pas de tarif de stationnement/nuitée ni de validité 2027 confirmés.",
+      "nextCheck": "Demander à la commune si stationnement payant et si les tarifs services restent valables en 2027.",
       "sources": [
-        "https://www.citadelle-bitche.com/"
+        "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f853141521_aire-de-service-camping-car-de-la-citadelle-bitche"
       ]
     },
     {
@@ -49,10 +49,10 @@
       "place": "Rodemack",
       "lot": 413,
       "checkedAt": "2026-11-21",
-      "status": "Stationnement annoncé gratuit et sans durée limitée. Borne de services annoncée en saison (1er avril–30 septembre), sans tarif 2027 confirmé. Capacité publiée de 220 places semble concerner le parking général, non l’aire camping-car.",
-      "nextCheck": "Confirmer tarif et disponibilité 2027 de la borne ainsi que le nombre de places dédiées aux camping-cars.",
+      "status": "Stationnement annoncé gratuit et sans durée limitée. Borne de services en saison (1er avril–30 septembre), sans tarif 2027 confirmé. Les 220 places semblent concerner le parking général, non les places camping-car.",
+      "nextCheck": "Confirmer disponibilité et tarif 2027 de la borne ainsi que le nombre de places dédiées.",
       "sources": [
-        "https://www.tourisme-pays-thionvillois.fr/"
+        "https://www.mosl.fr/fr/decouvrir-la-moselle/experiences/moselle-nord/trouvez-lhebergement-ideal-pour-votre-sejour-en-moselle-nord/f1371000619_aire-de-camping-cars-rodemack"
       ]
     },
     {
@@ -60,10 +60,10 @@
       "place": "Sarralbe",
       "lot": 413,
       "checkedAt": "2026-11-21",
-      "status": "Mairie : accès gratuit 24 h/24, 4 places, durée maximale 48 h, sans services. Le stationnement de camping-cars est interdit en centre-ville.",
-      "nextCheck": "Aucune correction tarifaire à appliquer ; recontrôler la règle municipale lors de la prochaine mise à jour.",
+      "status": "Mairie: accès gratuit 24/24, 4 places, durée maximale 48 h, sans services. Camping-cars interdits en centre-ville.",
+      "nextCheck": "Pas de correction tarifaire nécessaire; recontrôler les règles à la prochaine révision.",
       "sources": [
-        "https://www.sarralbe.fr/"
+        "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f947002334_aire-daccueil-camping-cars-de-sarralbe-sarralbe"
       ]
     },
     {
@@ -71,10 +71,10 @@
       "place": "Saint-Avold — Camping-Car Park",
       "lot": 413,
       "checkedAt": "2026-11-21",
-      "status": "Tarif 2027 confirmé : 13,70 € + taxe de séjour 1,10 € = 14,80 €/24 h ; tarif 5 h + services : 6 €. L’ancien prix de base 13,10 € est obsolète.",
-      "nextCheck": "Mettre à jour la fiche à 14,80 €/24 h TTC 2027 si elle affiche le prix total.",
+      "status": "Tarif 2027 confirmé: 13,70 € + taxe de séjour 1,10 € = 14,80 €/24 h; 5 h + services: 6 €. Ancien prix de base 13,10 € obsolète.",
+      "nextCheck": "Mettre à jour la fiche à 14,80 €/24 h TTC 2027 si elle affiche le total.",
       "sources": [
-        "https://www.campingcarpark.com/"
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/moselle/saint-avold"
       ]
     },
     {
@@ -82,10 +82,10 @@
       "place": "Mittersheim — port",
       "lot": 413,
       "checkedAt": "2026-11-21",
-      "status": "Tarif publié de 9 €/nuit et 4 places, sans confirmation de validité pour 2027. Électricité et sanitaires disponibles à proximité, coûts non précisés.",
-      "nextCheck": "Confirmer le tarif nuitée 2027 et le coût de l’électricité/sanitaires auprès du port ou de la commune.",
+      "status": "Tarif publié 9 €/nuit, 4 places, mais validité 2027 non confirmée. Coûts électricité et sanitaires à proximité non précisés.",
+      "nextCheck": "Confirmer le tarif 2027 et les coûts annexes auprès du port/commune.",
       "sources": [
-        "https://www.moselle-attractivite.fr/"
+        "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f848151798_aire-de-camping-cars-au-port-de-plaisance-mittersheim"
       ]
     },
     {
@@ -93,10 +93,10 @@
       "place": "Amnéville — Camping-Car Park",
       "lot": 413,
       "checkedAt": "2026-11-21",
-      "status": "Tarif 2027 confirmé : 14,80 € + taxe de séjour 1,22 € = 16,02 €/24 h ; tarif 5 h + services : 6 €. L’opérateur indique 36 places, contre 32 dans la fiche.",
-      "nextCheck": "Mettre à jour le total TTC 2027 et vérifier/corriger la capacité à 36 places.",
+      "status": "Tarif 2027 confirmé: 14,80 € + taxe de séjour 1,22 € = 16,02 €/24 h; 5 h + services: 6 €. Opérateur: 36 places, fiche: 32.",
+      "nextCheck": "Mettre à jour le total TTC 2027 et corriger la capacité à 36 si confirmée.",
       "sources": [
-        "https://www.campingcarpark.com/"
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/moselle/amneville-les-thermes"
       ]
     },
     {
@@ -104,10 +104,10 @@
       "place": "Hoste",
       "lot": 413,
       "checkedAt": "2026-11-21",
-      "status": "Services publiés : eau 2 €, électricité 3 €, mais unités/modalités ambiguës. Aucun tarif de stationnement ou validité 2027 confirmé.",
-      "nextCheck": "Confirmer les unités exactes, le tarif de nuitée et leur validité 2027 auprès de la commune.",
+      "status": "Eau 2 €, électricité 3 € annoncées par Moselle Attractivité. Traduction anglaise donne des unités atypiques (€/litre, €/kWh), non confirmées sur la page française. Aucun tarif de nuitée ni millésime 2027.",
+      "nextCheck": "Confirmer les unités, tarif de stationnement et validité 2027 avec la commune.",
       "sources": [
-        "https://www.moselle-attractivite.fr/"
+        "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f844001089_aire-de-camping-cars-de-hoste-hoste"
       ]
     },
     {
@@ -115,10 +115,21 @@
       "place": "Sarrebourg",
       "lot": 413,
       "checkedAt": "2026-11-21",
-      "status": "10 places annoncées, stationnement gratuit, sans borne de services ni vidange actuellement.",
-      "nextCheck": "Aucune correction tarifaire à appliquer ; confirmer lors de la prochaine révision si l’équipement évolue.",
+      "status": "10 places annoncées, stationnement gratuit, sans borne ni vidange selon Moselle Attractivité.",
+      "nextCheck": "Pas de correction tarifaire nécessaire; recontrôler si les équipements évoluent.",
       "sources": [
-        "https://www.moselle-attractivite.fr/"
+        "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f848147013_aire-d-accueil-camping-cars-sarrebourg"
+      ]
+    },
+    {
+      "sourceId": "way/1280899809",
+      "place": "Hombourg-Haut",
+      "lot": 413,
+      "checkedAt": "2026-11-21",
+      "status": "6 places. Eau 2 € et électricité 3 € sur la page française officielle, unités et validité 2027 non précisées. Incident technique annoncé: eau et vidange indisponibles; borne électrique et vente de jetons fonctionnelles. Aucun tarif de stationnement confirmé.",
+      "nextCheck": "Confirmer unités et grille 2027 auprès de la commune; signaler l’indisponibilité des services avec date de vérification.",
+      "sources": [
+        "https://www.mosl.fr/fr/decouvrir-la-moselle/destination/dormir/f844000500_aire-de-camping-cars-de-hombourg-haut-hombourg-haut"
       ]
     }
   ]
