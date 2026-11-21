@@ -4,12 +4,12 @@
   "displayedCount": 17,
   "rawRegionalRows": 17,
   "deduplicatedRows": 0,
-  "currentLot": 416,
+  "currentLot": 417,
   "progress": {
-    "checked": 10,
+    "checked": 17,
     "total": 17
   },
-  "note": "Lot 416 : fiches 1 à 10 contrôlées sur 17. Sept fiches restent à vérifier : fiches 11 à 17. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
+  "note": "Lot 416 : fiches 1 à 10 vérifiées; lot 417 : fiches 11 à 17 vérifiées. Les 17 fiches du Nord ont été contrôlées. Tarifs sans validité 2027 explicite maintenus comme non confirmés. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
   "entries": [
     {
       "sourceId": "node/3178442166",
@@ -124,6 +124,85 @@
       "nextCheck": "Demander si stationnement payant et si jetons restent à 2 € en 2027.",
       "sources": [
         "https://www.solrelechateau.fr/services/aire-de-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/1081614136",
+      "place": "Grand-Fort-Philippe — aire de stationnement face au camping municipal",
+      "lot": 417,
+      "checkedAt": "2026-11-21",
+      "status": "Point OSM correspond à l’aire de stationnement gratuite rue du Maréchal-Foch, face au Camping de la Plage; sources touristiques secondaires indiquent 8 places et 72 h. Ne pas confondre avec le camping municipal payant (11,60–15,10 €/nuit selon source touristique) ni transférer son tarif à l’aire. Tarif/services 2027 non confirmés.",
+      "nextCheck": "Confirmer en mairie nombre de places, limite de durée, gratuité et coût éventuel des services.",
+      "sources": [
+        "https://www.campingcar-infos.com/aire-grand-fort-philippe/view.php?id=28133",
+        "https://www.dunkerque-tourisme.fr/preparer-son-sejour/pratique/transports/se-deplacer-en-ville/camping-car/",
+        "https://grandfortphilippe.fr/a-ne-pas-manquer/"
+      ]
+    },
+    {
+      "sourceId": "way/1169520062",
+      "place": "Caudry — base de loisirs du Val du Riot",
+      "lot": 417,
+      "checkedAt": "2026-11-21",
+      "status": "Mairie: 6 places; forfait 24 h avec eau/électricité 5,50 € du 15 mars au 14 octobre et 7 € du 15 octobre au 14 mars, plus taxe de séjour 0,50 €/personne/24 h. Tarifs non millésimés 2027.",
+      "nextCheck": "Confirmer la grille et le montant de taxe 2027 avec la ville.",
+      "sources": [
+        "https://www.caudry.fr/fr/mobilite/aire-de-camping-cars.html"
+      ]
+    },
+    {
+      "sourceId": "way/1170051605",
+      "place": "Marcoing — ancienne gare, place de la Gare",
+      "lot": 417,
+      "checkedAt": "2026-11-21",
+      "status": "Commune: 6 places gratuites toute l’année; eau/vidange et électricité le soir et la nuit hors période hivernale. Grille et conditions non datées explicitement 2027.",
+      "nextCheck": "Confirmer si gratuité et équipements sont reconduits en 2027; mentionner coupure hivernale de l’électricité.",
+      "sources": [
+        "https://www.marcoing.fr/decouverte/aire-de-camping-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/1188470014",
+      "place": "Estrun — aire de services camping-car",
+      "lot": 417,
+      "checkedAt": "2026-11-21",
+      "status": "Point situé à Estrun. Données OSM/annuaire secondaire évoquent 4 places, stationnement gratuit, eau et vidange; électricité payante sans montant vérifié. Pas de source municipale consultée confirmant les montants ou leur validité 2027.",
+      "nextCheck": "Demander à la mairie de confirmer ouverture, services, prix de l’électricité et règles 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1188470014",
+        "https://spot2play.com/spot/aire-de-services-pour-camping-car-estrun/"
+      ]
+    },
+    {
+      "sourceId": "way/1312111334",
+      "place": "Bavay — chemin de Ronde, près du stade",
+      "lot": 417,
+      "checkedAt": "2026-11-21",
+      "status": "Sources touristiques identifient l’aire municipale près du chemin de Ronde; annuaires indiquent stationnement/services gratuits mais reposent sur références anciennes (tarifs cités en 2020 ou avant). Aucun prix 2027 ni confirmation récente municipale.",
+      "nextCheck": "Confirmer auprès de la mairie que l’aire et ses services fonctionnent toujours et restent gratuits en 2027.",
+      "sources": [
+        "https://www.cc-paysdemormal.fr/app/uploads/2022/01/24778.pdf",
+        "https://www.i-campingcar.fr/aires.php?ville=BAVAY"
+      ]
+    },
+    {
+      "place": "Felleries — Camping-Car Park",
+      "lot": 417,
+      "checkedAt": "2026-11-21",
+      "status": "Base opérateur 13,85 €/24 h valable à compter du 19/11/2026 jusqu’au 31/12/2027; taxe de séjour 0,44 € valable jusqu’au 31/12/2027. Total 2027 confirmé: 14,29 €/24 h TTC.",
+      "nextCheck": "Aucune correction tarifaire nécessaire; conserver le détail base + taxe et les dates.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/felleries?areaType=camping"
+      ]
+    },
+    {
+      "place": "Arleux — Camping-Car Park",
+      "lot": 417,
+      "checkedAt": "2026-11-21",
+      "status": "Base opérateur 11,70 €/24 h valable du 02/11/2026 au 31/12/2027; taxe 0,44 € valable jusqu’au 30/11/2027 seulement. Total 12,14 €/24 h confirmé jusqu’au 30/11/2027; total TTC de décembre à confirmer.",
+      "nextCheck": "Confirmer le taux de taxe de séjour applicable en décembre 2027; garder le détail base + taxe.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/arleux"
       ]
     }
   ]
