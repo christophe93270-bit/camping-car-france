@@ -66,3 +66,11 @@ La passe suivante porte sur dix campings pour lesquels aucun prix complet de nui
 
 Les grilles 2026, les tarifs résidentiels annuels, les promotions portant sur des locations et les catégories d’emplacements différentes restent exclus du prix de passage camping-car 2027. Pour les établissements fermés ou dont la réouverture reste incertaine, le prix et la disponibilité demeurent à confirmer. Le lot 354 est documenté dans AUDIT-44-2027-LOT354.md; aucune donnée tarifaire publiée du site n’a été modifiée et aucun contact n’a été envoyé.
 
+
+
+## Addendum — 21 novembre 2026 : lot 355
+
+Dix fiches physiques ont été contrôlées en groupe : Le Soleya, la borne Val Saint-Martin, l’aire du Bourg de Freigné, le Camping de la Baie, Les Chalands Fleuris, le Domaine de Léveno, La Riviera, La Roseraie, Les Flots Bleus et le Briord. Le Briord apparaît deux fois dans le registre; les deux lignes ont été reliées à un seul contrôle et ne comptent qu’une fois.
+
+Le prix opérateur du Soleya est désormais confirmé pour 2027 : 12,22 €/24 h + taxe 1,32 €/24 h = 13,54 €/24 h. Le champ season2027 a été structuré dans aires-loire-atlantique.json; le produit 5 h reste séparé. Les neuf autres fiches gardent des questions de prix, de service ou de nuitée documentées dans AUDIT-44-2027-LOT355.md.
+
