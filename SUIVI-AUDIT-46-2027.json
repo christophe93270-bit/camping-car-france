@@ -1,0 +1,130 @@
+{
+  "scope": "Lot (46), contrôle groupé de tarifs 2027 sur fiches existantes",
+  "startedAt": "2026-11-21",
+  "note": "Le fichier public aires-lot.json contient 32 fiches. Lot 369 : contrôle des fiches 1–10, aucune fiche ajoutée.",
+  "entries": [
+    {
+      "sourceId": "node/7404846985",
+      "name": "Aire communale Le Bourg – Bouziès",
+      "status": "tarif_2026_2027_non_publie",
+      "finding": "Lot 369 : Tourisme Lot affiche explicitement 7 €/24 h en 2026; le plein d'eau séparé n'est pas tarifé. Aucun tarif 2027 publié.",
+      "nextCheck": "Surveiller la mise à jour 2027; ne pas étendre automatiquement le tarif au P3 voisin.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-communale-de-service-et-accueil-bouzies-fr-659654/"
+      ],
+      "lot": 369,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/9700443998",
+      "name": "Aire P3 – impasse du Garrigou, Bouziès",
+      "status": "tarif_et_nuitee_non_confirmes",
+      "finding": "Lot 369 : le tarif de 7 €/24 h concerne l'aire du Bourg, pas ce P3 distinct. Nuitée, services et prix propres au P3 non établis.",
+      "nextCheck": "Demander à la mairie si le P3 accueille les camping-cars la nuit et à quelles conditions.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-communale-de-service-et-accueil-bouzies-fr-659654/"
+      ],
+      "lot": 369,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/10016654096",
+      "name": "Aire municipale de Luzech",
+      "status": "gratuit_2026_2027_non_millésimé",
+      "finding": "Lot 369 : stationnement gratuit confirmé; Tourisme Lot étiquette sa fiche tarifaire 2026. Aucun tarif ou changement 2027 identifié.",
+      "nextCheck": "Garder la gratuité attribuée aux sources; vérifier si une nouvelle tarification paraît.",
+      "sources": [
+        "https://www.ville-luzech.fr/accueil-camping-car/",
+        "https://www.tourisme-lot.com/offres/aire-daccueil-et-de-services-de-luzech-luzech-fr-841416/"
+      ],
+      "lot": 369,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/11429577519",
+      "name": "CAMPING-CAR PARK – Albas",
+      "status": "tarif_base_2027_confirme_taxe_a_confirmer",
+      "finding": "Lot 369 : base 13,80 €/24 h du 16/09/2026 au 31/12/2027; taxe de 1,44 €/24 h publiée jusqu'à fin 2026 seulement. Total 2027 inconnu; 5 h + services : 6 €.",
+      "nextCheck": "Reprendre la fiche quand la taxe 2027 sera publiée; l'aire reste saisonnière (01/04–31/10).",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/albas"
+      ],
+      "lot": 369,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/12117568511",
+      "name": "Camping Les Campagnes – Rocamadour",
+      "status": "tarif_2026_seulement",
+      "finding": "Lot 369 : le site du camping affiche des emplacements camping-car à partir de 15 € dans sa grille 2026; électricité en option à 4 €. Pas de grille 2027 trouvée.",
+      "nextCheck": "Mettre à jour lors de la publication de la grille 2027; garder le prix du camping séparé d'une éventuelle aire de services.",
+      "sources": [
+        "https://www.campinglescampagnes-rocamadour.com/locations.html",
+        "https://www.campinglescampagnes-rocamadour.com/locations/tarifs-2026.html"
+      ],
+      "lot": 369,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/12144731388",
+      "name": "Aire privée du Vinagrou – Concots",
+      "status": "tarif_camping_car_non_confirme",
+      "finding": "Lot 369 : aucune nuitée camping-car ou prix propre à l'aire confirmé par Tourisme Lot; tarifs d'hébergements non transposables.",
+      "nextCheck": "Confirmer directement auprès du Vinagrou l'accueil camping-car et son éventuel coût.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/le-vinagrou-concots-fr-760399/"
+      ],
+      "lot": 369,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/14121751101",
+      "name": "Aire municipale de Sousceyrac-en-Quercy",
+      "status": "gratuit_48h_tarif_2026_2027_non_millésimé",
+      "finding": "Lot 369 : Tourisme Lot publie stationnement gratuit limité à 48 h et services gratuits dans sa fiche 2026; pas de tarif 2027 spécifique.",
+      "nextCheck": "Conserver la limite de 48 h et surveiller toute mise à jour; borne possiblement indisponible en hiver.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-daccueil-et-de-services-de-sousceyrac-sousceyrac-en-quercy-fr-659455/"
+      ],
+      "lot": 369,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/300288159",
+      "name": "CAMPING-CAR PARK – Martel, La Callopie",
+      "status": "tarif_2027_confirme",
+      "finding": "Lot 369 : base 13,42 €/24 h + taxe 0,58 €/24 h, soit 14 € /24 h en 2027; parking 5 h + services : 6 € séparément.",
+      "nextCheck": "Conserver les deux composantes et le forfait 5 h comme produits distincts.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/martel"
+      ],
+      "lot": 369,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/419782161",
+      "name": "CAMPING-CAR PARK – Tauriac, Le Mas de la Croux",
+      "status": "tarif_2027_confirme",
+      "finding": "Lot 369 : base 13,70 €/24 h + taxe 1,72 €/24 h, soit 15,42 €/24 h en 2027; parking 5 h + services : 6 € séparément.",
+      "nextCheck": "Conserver base, taxe et forfait 5 h séparés; respecter les conditions d'ouverture saisonnières de l'opérateur.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/tauriac-camping-le-mas-de-la-croux"
+      ],
+      "lot": 369,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/436297051",
+      "name": "Aire municipale d'Autoire – Parking du Ruisseau",
+      "status": "tarif_publie_non_millésimé_2027",
+      "finding": "Lot 369 : la commune publie 7 €/24 h pour le camping-car; eau/recharge 2 €. Le tarif vient d'une délibération de 2021 et n'est pas daté 2027.",
+      "nextCheck": "Demander à la commune si le forfait et le service à 2 € restent valables en 2027.",
+      "sources": [
+        "https://www.autoire.fr/accueil-des-touristes-aires-de-stationnement",
+        "https://www.autoire.fr/compte-rendu-du-cm/5-decembre-2023.pdf"
+      ],
+      "lot": 369,
+      "checkedAt": "2026-11-21"
+    }
+  ]
+}
