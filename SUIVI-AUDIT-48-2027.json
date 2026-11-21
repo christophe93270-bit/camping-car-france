@@ -1,7 +1,7 @@
 {
   "scope": "Lozère (48), vérification groupée des tarifs 2027",
   "startedAt": "2026-11-21",
-  "note": "Lot 376 : fiches 1–10 de 13 contrôlées, aucun lieu ajouté. Tarifs 2027 CCP entièrement confirmés à Langogne Lac de Naussac (15,07 €/24 h) et Chambon-le-Château (13,50 €/24 h). La Canourgue reste partielle (taxe affichée jusqu'au 14/05); tarifs 2026 ou montants non publiés pour les autres fiches.",
+  "note": "Lot 376 : fiches 1–10 de 13 contrôlées, aucun lieu ajouté. Tarifs 2027 CCP entièrement confirmés à Langogne Lac de Naussac (15,07 €/24 h) et Chambon-le-Château (13,50 €/24 h). La Canourgue reste partielle (taxe affichée jusqu'au 14/05); tarifs 2026 ou montants non publiés pour les autres fiches. Lot 377 (final) : fiches 11–13 contrôlées. Auroux, La Gravière : tarif 2027 confirmé à 13,10 €/24 h (12,70 € + 0,40 €). Mende : base 13,84 € jusqu'à fin 2027, taxe 2027 non confirmée. Massegros : base 13,10 € jusqu'à fin 2027, taxe 2027 non publiée. Les 13 fiches de Lozère ont été parcourues en deux lots de 10 et 3, sans ajout.",
   "entries": [
     {
       "sourceId": "node/6666882591",
@@ -121,6 +121,42 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/chambon-le-chateau"
       ],
       "lot": 376,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1284596304",
+      "name": "Aire Camping-Car Park Mende",
+      "status": "tarif_2027_partiel_taxe_non_publiée",
+      "finding": "Mende : base CCP 13,84 €/24 h jusqu'au 31/12/2027; taxe 0,60 € publiée seulement pour 2026. Le total en-tête 14,44 € ne suffit pas à confirmer la taxe 2027.",
+      "nextCheck": "Demander à CCP le montant de la taxe 2027; conserver le parking 5 h + services à part.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/mende"
+      ],
+      "lot": 377,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp/auroux-la-graviere",
+      "name": "Camping-Car Park Auroux, La Gravière",
+      "status": "tarif_2027_confirme",
+      "finding": "Auroux : base 12,70 €/24 h + taxe 0,40 € = 13,10 €/24 h pour 2027; parking 5 h + services 6 € séparément.",
+      "nextCheck": "Conserver base, taxe et forfait 5 h séparés; sanitaires saisonniers.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/auroux-camping-la-graviere"
+      ],
+      "lot": 377,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp/massegros-gorges-du-tarn",
+      "name": "Camping-Car Park Massegros, Gorges du Tarn",
+      "status": "tarif_2027_partiel_taxe_non_publiée",
+      "finding": "Massegros : base 13,10 €/24 h jusqu'au 31/12/2027, mais grille de taxe disponible seulement pour 2026; total 2027 non confirmé.",
+      "nextCheck": "Vérifier la taxe 2027 auprès de CCP; garder le forfait parking 5 h + services distinct à 6 €.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/massegros-causses-gorges"
+      ],
+      "lot": 377,
       "checkedAt": "2026-11-21"
     }
   ]
