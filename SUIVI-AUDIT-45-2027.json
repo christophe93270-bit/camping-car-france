@@ -1,7 +1,7 @@
 {
   "scope": "Loiret (45), contrôles regroupés de prix 2027 sur fiches existantes",
   "startedAt": "2026-11-21",
-  "note": "Le fichier public aires-loiret.json contient 37 lieux. Les fiches 1–10 sont contrôlées en lot tarifaire 365; les vérifications historiques du lot de création (12/11/2026) sont distinguées de ce contrôle 2027. Un tarif de base 24 h est confirmé jusqu'à fin 2027 à Saint-Denis-de-l'Hôtel, mais sa taxe 2027 reste inconnue; la fiche publique est structurée comme confirmation partielle. Le stationnement gratuit du Quai Dunois est désormais appuyé par Val de Loire Tourisme. Aucun lieu ajouté.",
+  "note": "Le fichier public aires-loiret.json contient 37 lieux. Les fiches 1–10 sont contrôlées en lot tarifaire 365; les vérifications historiques du lot de création (12/11/2026) sont distinguées de ce contrôle 2027. Un tarif de base 24 h est confirmé jusqu'à fin 2027 à Saint-Denis-de-l'Hôtel, mais sa taxe 2027 reste inconnue; la fiche publique est structurée comme confirmation partielle. Le stationnement gratuit du Quai Dunois est désormais appuyé par Val de Loire Tourisme. Aucun lieu ajouté. Lot 366 ouvert le 21/11/2026 sur les dix fiches suivantes du fichier aires-loiret.json. Deux tarifs d'étape complets sont confirmés jusqu'en 2027 : L'École d'Orléans (12 €/24 h + taxe 0) avec fermeture contradictoire à vérifier, et Lailly-en-Val (12,22 € + taxe 0,80 € = 13,02 €/24 h). Huit autres fiches ne présentent pas de nouveau tarif général 2027; leurs prix de services et gratuités sont consignés séparément. Aucun lieu ajouté.",
   "entries": [
     {
       "sourceId": "node/4420639790",
@@ -109,6 +109,130 @@
         "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-municipale-pour-camping-car-paturiau-saint-gondon_TFOACCCEN045V50189G",
         "https://www.valdeloire-france.com/aire-camping-car/aire-de-services-municipale-pour-camping-car-paturiau/"
       ]
+    },
+    {
+      "sourceId": "node/14277439049",
+      "name": "Aire CAMPING-CAR PARK de L'École d'Orléans",
+      "status": "tarif_2027_confirme_disponibilite_a_revalider",
+      "finding": "Lot 366 (21/11/2026) : 12 €/24 h et taxe de 0 € confirmés jusqu'au 31/12/2027; produit 5 h + services : 6 €. Le réseau signale toutefois l'aire temporairement fermée sur sa page départementale, alors que la page de l'aire affiche ouverte.",
+      "nextCheck": "Garder le prix 2027 structuré et vérifier la réouverture effective avant séjour; conserver le 5 h séparé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/orleans",
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret"
+      ],
+      "lot": 366,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/116540142",
+      "name": "Aire de services camping-cars de Saran – Allée Claude Bernard",
+      "status": "services_gratuits_tarif_non_millésimé",
+      "finding": "Lot 366 : Tourisme Loiret confirme services et nuitée sur l'emplacement dédié gratuits; la mairie précise que la nuitée n'est pas autorisée ailleurs dans la commune. Pas de millésime 2027.",
+      "nextCheck": "Conserver l'aire gratuite distincte des autres parkings; relever toute modification datée.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-pour-camping-car-saran-saran_TFOACCCEN045V507W5O",
+        "https://www.saran.fr/camping-car"
+      ],
+      "lot": 366,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/198210229",
+      "name": "Aire de services camping-cars du Camping Seasonova Le Martinet",
+      "status": "tarif_service_2026_tarif_nuitee_2027_non_confirme",
+      "finding": "Lot 366 : tarif de service 2 € pour 20 min d'eau; l'ouverture publiée est du 01/04 au 31/10/2026. Ne pas confondre ce forfait d'eau avec le prix de nuitée, et la saison 2027 n'est pas publiée.",
+      "nextCheck": "Confirmer ouverture 2027 et prix de nuitée du camping séparément du forfait d'eau.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-pour-camping-car-camping-seasonova-le-martinet-briare_TFOACCCEN0450003R"
+      ],
+      "lot": 366,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/287748914",
+      "name": "Aire de stationnement et de services camping-car du Lavoir – Marcilly-en-Villette",
+      "status": "gratuit_actuel_2027_non_millésimé",
+      "finding": "Lot 366 : stationnement et services annoncés gratuits par Tourisme Loiret; aucune période tarifaire 2027 précisée.",
+      "nextCheck": "Maintenir la gratuité telle que publiée et surveiller une éventuelle tarification datée.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-pour-camping-cars-marcilly-en-villette-marcilly-en-villette_TFOACCCEN04500047"
+      ],
+      "lot": 366,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/442818036",
+      "name": "Aire camping-cars Pont des Vignes – Briare",
+      "status": "stationnement_gratuit_services_tarifs_inconnus",
+      "finding": "Lot 366 : stationnement gratuit confirmé; eau et électricité payantes, montants non publiés par les sources officielles consultées.",
+      "nextCheck": "Demander à la mairie ou consulter la borne sur place pour connaître prix d'eau et d'électricité; ne pas inventer de tarif de nuitée.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-pour-camping-car-pont-des-vignes-briare_TFOACCCEN0000003B",
+        "https://www.valdeloire-france.com/aire-camping-car/aire-de-services-pour-camping-car-pont-des-vignes/"
+      ],
+      "lot": 366,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/469437321",
+      "name": "Aire CAMPING-CAR PARK de Lailly-en-Val",
+      "status": "tarif_2027_confirme",
+      "finding": "Lot 366 : base 12,22 €/24 h du 20/11/2026 au 31/12/2027 + taxe 2027 de 0,80 €/24 h, total 13,02 €/24 h. Parking 5 h + services : 6 €, distinct.",
+      "nextCheck": "Conserver base et taxe séparées et le produit 5 h distinct.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/lailly-en-val?areaType=aire-etape-camping-car"
+      ],
+      "lot": 366,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/567162779",
+      "name": "Aire de stationnement camping-cars de l'étang du Gué Mulet – Nogent-sur-Vernisson",
+      "status": "gratuit_48h_services_gratuits",
+      "finding": "Lot 366 : stationnement gratuit limité à 48 h; eau et vidange gratuites, toilettes jusqu'à 22 h, sans électricité. Pas de nouveau tarif 2027 daté.",
+      "nextCheck": "Conserver la limite de 48 h et distinguer l'absence d'électricité.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-stationnement-pour-camping-car-nogent-sur-vernisson_TFOACCCEN045V5094UF"
+      ],
+      "lot": 366,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/635582140",
+      "name": "Aire de Meung-sur-Loire",
+      "status": "prix_services_seuls_stationnement_non_tarife",
+      "finding": "Lot 366 : eau 3 €/100 L et électricité 4 €/h selon Tourisme Loiret. Aucun prix de stationnement/nuitée distinct publié.",
+      "nextCheck": "Garder les lignes eau/électricité séparées et le prix de nuitée non renseigné.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-stationnement-et-de-services-pour-camping-cars-meung-sur-loire_TFOACCCEN0000003F"
+      ],
+      "lot": 366,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/654985838",
+      "name": "Aire de Dry",
+      "status": "stationnement_gratuit_service_2_euros_non_millésimé",
+      "finding": "Lot 366 : parking gratuit; jeton à 2 € pour 100 L d'eau ou 1 h d'électricité. La page ne date pas ces montants pour 2027.",
+      "nextCheck": "Conserver nuitée gratuite distincte du jeton; vérifier toute mise à jour municipale.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-pour-camping-cars-dry_TFOACCCEN0450004F"
+      ],
+      "lot": 366,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/908068406",
+      "name": "Aire de services et de stationnement camping-cars – Pont Janson",
+      "status": "gratuit_publie_2027_non_millésimé",
+      "finding": "Lot 366 : l'aire municipale et ses services sont confirmés; Val de Loire Tourisme indique la gratuité, sans grille tarifaire datée 2027.",
+      "nextCheck": "Maintenir l'information tarifaire avec son attribution à Val de Loire Tourisme et distinguer Paturiau, autre aire de Saint-Gondon.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-municipale-pour-camping-car-pont-janson-saint-gondon_TFOACCCEN045V506XAT",
+        "https://www.valdeloire-france.com/aire-camping-car/aire-de-services-municipale-pour-camping-car-pont-janson/"
+      ],
+      "lot": 366,
+      "checkedAt": "2026-11-21"
     }
   ]
 }
