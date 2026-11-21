@@ -472,11 +472,14 @@
       "recheck2027OpeningSource": "https://en.campinglesforges.com/152-services/143-les-services-du-camping.html",
       "tariffQueueLot": 343,
       "tariffQueueAt": "2026-11-19",
-      "tariffQueueFinding": "File tarifaire 343 (19/11/2026) — Contrôle lot 341 (19/11/2026) : la page anglaise annonce 15 emplacements camping-car/caravaning et une ouverture 2027 du 03/07 au 30/08. La page de tarifs française n’affiche pas de prix 2027 et la recherche sur cette page ne trouve aucune grille millésimée. Les frais de dossier doivent rester séparés du tarif de nuitée.",
+      "tariffQueueFinding": "File tarifaire 343 (19/11/2026) — Contrôle lot 341 : la page anglaise annonce 15 emplacements camping-car/caravaning et l’ouverture 2027 du 03/07 au 30/08; la page française ne publie pas de grille 2027. Recherche complémentaire du 21/11/2026 : Camping.info affiche 27 €/nuit en haute saison pour deux adultes, caravane, voiture, électricité et taxes locales, sans millésime. Ce repère secondaire ne confirme pas un forfait camping-car 2027; frais de dossier séparés.",
       "tariffQueueNextCheck": "Faire confirmer en français les dates et capacités 2027, puis obtenir un devis avec emplacement, électricité, taxe, minimum de nuits et frais de dossier distincts.",
       "tariffQueueSources": [
-        "https://campinglesforges.com/81-tarifs.html"
-      ]
+        "https://campinglesforges.com/81-tarifs.html",
+        "https://www.camping.info/fr/emplacement-de-camping/camping-les-forges-2"
+      ],
+      "tariffQueueSecondaryUndatedFinding": "Camping.info affiche un prix de référence haute saison de 27 €/nuit pour deux adultes, caravane, voiture, électricité et taxes locales. Le millésime et l’application à un camping-car ne sont pas établis; ne pas le classer comme tarif 2027.",
+      "tariffQueueSecondaryUndatedSource": "https://www.camping.info/fr/emplacement-de-camping/camping-les-forges-2"
     },
     {
       "sourceId": "CCF44-CROISIC-PIERRE-LONGUE-2026",
