@@ -1,0 +1,141 @@
+{
+  "scope": "Meurthe-et-Moselle (54), vérification groupée des tarifs 2027",
+  "startedAt": "2026-11-21",
+  "displayedCount": 12,
+  "rawRegionalRows": 12,
+  "deduplicatedRows": 0,
+  "currentLot": 402,
+  "progress": {
+    "checked": 10,
+    "total": 12
+  },
+  "note": "Lot 402 : fiches 1 à 10 vérifiées ensemble. Aucun lieu ajouté et aucune fiche du site modifiée. Trois fiches Camping-Car Park : Blainville-sur-l'Eau a un total de 14,50 €/24 h confirmé jusqu'au 31/12/2027 (13,70 € base + 0,80 € taxe); Fontenoy-la-Joûte a la base 11 € valable jusqu'au 31/12/2027, mais taxe de 1,32 € documentée seulement jusqu'au 31/12/2026; Lunéville a la base 12,20 € valable jusqu'au 31/12/2027, mais taxe de 0,44 € documentée seulement jusqu'au 31/12/2026. Les forfaits 5 h + services des trois aires sont à 6 €. Toul : contradiction officielle 7 € mairie contre 9 € office de tourisme. Nancy : stationnement payant, tarif officiel non publié. Favières : gratuité et services gratuits en saison (début mai–fin septembre), entrée base de loisirs à 3 € distincte. Saint-Nicolas-de-Port : stationnement max 48 h, jeton à 4,20 € selon mairie contre 4 € sur fiche OT. Val-et-Châtillon : stationnement gratuit, jetons de service à 3 €, règlement officiel 2024; max 7 jours selon communauté. Longuyon : stationnement gratuit et max 7 jours selon OT, fiche contradictoire sur 2 ou 4 places, services non tarifés. Gerbéviller : aire 4 places documentée antérieurement, prix et fonctionnement actuel/2027 à confirmer. Lot 403 à venir : fiches 11 et 12. Aucun lieu ajouté.",
+  "entries": [
+    {
+      "sourceId": "node/12037656869",
+      "name": "Aire camping-car de Gerbéviller",
+      "status": "prix_et_fonctionnement_2027_non_confirmes",
+      "finding": "4 places, eau et vidange documentés par sources communales antérieures; aucun tarif de nuitée ni règle actuelle publiée.",
+      "nextCheck": "Confirmer auprès de la mairie le maintien de l'aire, le droit de nuitée et les prix.",
+      "sources": [
+        "https://www.gerbeviller.fr/wp-content/uploads/2024/01/110Vfinal2_compressed.pdf",
+        "https://www.gerbeviller.fr/wp-content/uploads/2023/06/4.-Deliberation-du-30-mai-2023.pdf"
+      ],
+      "lot": 402,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/14276432245",
+      "name": "Aire CAMPING-CAR PARK de Fontenoy-la-Joûte",
+      "status": "base_2027_confirmee_taxe_2027_inconnue",
+      "finding": "Base 11 €/24 h valable du 30/10/2026 au 31/12/2027; taxe 1,32 € valable jusqu'au 31/12/2026; total 2027 non établi. Forfait 5 h + services 6 €.",
+      "nextCheck": "Vérifier la taxe de séjour et le total TTC applicables en 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/fontenoy-la-joute"
+      ],
+      "lot": 402,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/104026646",
+      "name": "Aire de camping-car - Toul",
+      "status": "tarif_officiel_contradictoire",
+      "finding": "Fiche OT 9 €/24 h contre page municipale à 7 €/24 h; eau et électricité comprises, 12 places, 72 h max.",
+      "nextCheck": "Demander confirmation à la capitainerie; ne pas publier de prix 2027 avant résolution.",
+      "sources": [
+        "https://tourisme-terrestouloises.com/detail/fr/523367/523417/995000771/aire-de-camping-car-de-toul-toul/",
+        "https://www.toul.fr/?Aire-de-camping-car=&lang=de"
+      ],
+      "lot": 402,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/369403516",
+      "name": "Camping-Car Park Blainville-sur-l'Eau",
+      "status": "tarif_2027_total_confirme",
+      "finding": "13,70 € base + 0,80 € taxe de séjour jusqu'au 31/12/2027 = 14,50 €/24 h; 5 h + services 6 €.",
+      "nextCheck": "Aucune sur le montant publié; surveiller les mises à jour de saison et maintenir l'alerte PPRI.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/blainville-sur-l-eau"
+      ],
+      "lot": 402,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/575288908",
+      "name": "Aire de stationnement de camping-cars de Nancy Port de Plaisance",
+      "status": "payant_tarif_non_publie_officiellement",
+      "finding": "19 places; services, sanitaires et douches référencés par Destination Nancy; aucun prix officiel affiché dans la fiche.",
+      "nextCheck": "Demander à la capitainerie le prix de stationnement et les éventuels frais de services.",
+      "sources": [
+        "https://www.destination-nancy.com/camping/aire-de-stationnement-de-camping-cars-de-nancy-port-de-plaisance/",
+        "https://www.destination-nancy.com/travaux-au-port-de-plaisance-saint-georges/"
+      ],
+      "lot": 402,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/578608784",
+      "name": "Aire de camping-car de Favières",
+      "status": "gratuit_officiel_saison_2027_a_confirmer",
+      "finding": "5 places, tarif gratuit; eau, vidanges et électricité gratuites de début mai à fin septembre; entrée base de loisirs à 3 € distincte.",
+      "nextCheck": "Confirmer le maintien des tarifs et la période d'ouverture en 2027.",
+      "sources": [
+        "https://tourisme-meurtheetmoselle.fr/nos-hebergements/campings/759000726-aire-de-camping-car-intercommunale-a-favieres"
+      ],
+      "lot": 402,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/685294315",
+      "name": "Aire de camping-cars - Saint-Nicolas-de-Port",
+      "status": "stationnement_gratuit_jeton_tarif_mairie_a_confirmer_2027",
+      "finding": "Stationnement limité à 48 h; jeton 4,20 € et environ 100 L d'eau selon mairie, fiche OT indique 4 €.",
+      "nextCheck": "Vérifier le maintien du jeton à 4,20 € et la disponibilité de l'électricité/vidange.",
+      "sources": [
+        "https://www.saintnicolasdeport.com/fr/rb/1023284/aire-de-camping-cars",
+        "https://tourisme-meurtheetmoselle.fr/nos-hebergements-2/campings/798001780-aire-de-camping-car-de-saint-nicolas-de-port"
+      ],
+      "lot": 402,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1165376131",
+      "name": "Aire de camping-car de Lunéville, Les Bosquets",
+      "status": "base_2027_confirmee_taxe_2027_inconnue",
+      "finding": "Base 12,20 €/24 h valable du 30/10/2026 au 31/12/2027; taxe 0,44 € valide seulement jusqu'au 31/12/2026; total 2027 inconnu. Forfait 5 h + services 6 €. Les places 24–37 sont destinées aux tentes/caravanes pendant l'ouverture sanitaire.",
+      "nextCheck": "Vérifier le montant de taxe et total TTC 2027; conserver l'information sur l'affectation saisonnière des places.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/54-meurthe-et-moselle/luneville",
+        "https://www.tourisme-lunevillois.com/SITLOR/AIRE-DE-CAMPING-CAR.htm?ID=742000708&TYPE=4000009&langue=1"
+      ],
+      "lot": 402,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1197763196",
+      "name": "Aire de camping-car de Val-et-Châtillon",
+      "status": "prix_officiels_services_et_stationnement_distincts",
+      "finding": "Stationnement gratuit, 6 places, maximum 7 jours; jetons services 3 € (eau + 55 min électricité ou 6 h électricité seule), règlement de l'aire.",
+      "nextCheck": "Confirmer la continuité du règlement et prix 2027.",
+      "sources": [
+        "https://www.ccvp.fr/aire-de-camping-car/",
+        "https://www.ccvp.fr/wp-content/uploads/2024/10/aire_val_reglement-2024.pdf"
+      ],
+      "lot": 402,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1298179937",
+      "name": "Aire Municipale Longuyon",
+      "status": "stationnement_gratuit_capacite_contradictoire_services_non_tarifes",
+      "finding": "Stationnement gratuit selon l'office, limite 7 jours; description contradictoire entre 2 et 4 places; équipements renseignés mais prix des services absent.",
+      "nextCheck": "Clarifier capacité, fonctionnement actuel des équipements et éventuels frais de services.",
+      "sources": [
+        "https://tourisme-meurtheetmoselle.fr/nos-hebergements/campings/1286000027-aire-de-camping-car-de-longuyon"
+      ],
+      "lot": 402,
+      "checkedAt": "2026-11-21"
+    }
+  ]
+}
