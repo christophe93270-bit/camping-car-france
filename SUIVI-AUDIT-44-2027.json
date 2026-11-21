@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes correspondant à 216 lieux et 3 fiches liées/alias (zone technique de la Grotte Saint-Jean, alias de la Guichardière, alias du Clos Mer et Nature). Correction du comptage : les 219 lignes portent déjà un recheckLot antérieur (lots 309 à 341). Les lots tarifaires 342 à 352 représentent donc une seconde passe sur 110 lieux, et non 110 lieux jamais examinés. Les 106 lieux distincts sans tariffQueueLot dans cette seconde file ont eux aussi un contrôle antérieur; « restent à examiner » était une formulation erronée. Ne pas ouvrir de lot 353 avant rapprochement des contrôles et des lacunes tarifaires réellement non résolues. Aucune donnée publiée du site modifiée. Rapport de rapprochement détaillé : AUDIT-44-2027-RECONCILIATION-LOTS.md.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes correspondant à 216 lieux et 3 fiches liées/alias (zone technique de la Grotte Saint-Jean, alias de la Guichardière, alias du Clos Mer et Nature). Correction du comptage : les 219 lignes portent déjà un recheckLot antérieur (lots 309 à 341). Les lots tarifaires 342 à 352 représentent donc une seconde passe sur 110 lieux, et non 110 lieux jamais examinés. Les 106 lieux distincts sans tariffQueueLot dans cette seconde file ont eux aussi un contrôle antérieur; « restent à examiner » était une formulation erronée. Ne pas ouvrir de lot 353 avant rapprochement des contrôles et des lacunes tarifaires réellement non résolues. Aucune donnée publiée du site modifiée. Rapport de rapprochement détaillé : AUDIT-44-2027-RECONCILIATION-LOTS.md. Lot tarifaire 353 ouvert le 21/11/2026 sur dix fiches aux questions 2027 non résolues; voir AUDIT-44-2027-LOT353.md. Aucun prix publié n’a été modifié.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -4007,7 +4007,15 @@
       "recheckSecondaryQuoteSource": "https://www.pitchup.com/fr/campsites/france/pays-de-la-loire/loire-atlantique/les_moutiers-en-retz/camping-les-brillas/?pitchtype=83051",
       "recheckPitchSource": "https://www.campinglesbrillas.com/se-loger/emplacements/154-forfait-b-avec-electricite.html",
       "recheckHistoricalTariffSource": "https://www.pornic.com/camping-cybele-vacances-les-brillas.html",
-      "recheckOfficialSource": "https://www.campinglesbrillas.com/se-loger/emplacements/"
+      "recheckOfficialSource": "https://www.campinglesbrillas.com/se-loger/emplacements/",
+      "tariffQueueLot": 353,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 353 (21/11/2026) : L’opérateur confirme les emplacements camping-car, mais son site demande des dates pour afficher le prix. Les prix 2027 repérés chez des revendeurs concernent les mobil-homes, pas l’emplacement camping-car. Aucun prix public 2027 exploitable confirmé.",
+      "tariffQueueNextCheck": "Obtenir un devis opérateur daté pour deux adultes et un camping-car; relever taxes, frais et durée minimale séparément.",
+      "tariffQueueSources": [
+        "https://www.campinglesbrillas.com/se-loger/emplacements/",
+        "https://www.campinglesbrillas.com/se-loger/emplacements/154-forfait-b-avec-electricite.html"
+      ]
     },
     {
       "sourceId": "CCF44-PREFAILLES-PORT-MELEU-2026",
@@ -4029,7 +4037,15 @@
       "recheckSource": "https://meleucamp.com/votre-recherche-de-sejour/",
       "recheckConditionsSource": "https://meleucamp.com/camping-familial-prefailles/",
       "recheckSecondarySource": "https://www.pornic.com/camping-le-port-meleu.html",
-      "recheckOfficialSource": "https://meleucamp.com/votre-recherche-de-sejour/"
+      "recheckOfficialSource": "https://meleucamp.com/votre-recherche-de-sejour/",
+      "tariffQueueLot": 353,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 353 (21/11/2026) : Les seules valeurs publiques accessibles restent le barème touristique 2026 de 20–47 €/nuit pour deux personnes, emplacement et voiture, taxe en sus. Aucun tarif opérateur daté 2027 identifié.",
+      "tariffQueueNextCheck": "Obtenir un devis opérateur 2027 daté pour camping-car, deux personnes et voiture; confirmer ouverture et suppléments, dont taxe.",
+      "tariffQueueSources": [
+        "https://www.pornic.com/camping-le-port-meleu.html",
+        "https://meleucamp.com/"
+      ]
     },
     {
       "sourceId": "CCF44-BERNERIE-GOELETTE-2026",
@@ -4052,7 +4068,15 @@
       "recheckConditionsSource": "https://www.campinglagoelette.com/emplacements-camping-car",
       "recheckSecondarySource": "https://www.campinglagoelette.com/reservation",
       "recheckSeasonSource": "https://www.enpaysdelaloire.com/hebergements/campings/camping-la-goelette",
-      "recheckOfficialSource": "https://www.campinglagoelette.com/emplacements-caravane"
+      "recheckOfficialSource": "https://www.campinglagoelette.com/emplacements-caravane",
+      "tariffQueueLot": 353,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 353 (21/11/2026) : La grille opérateur affiche 18/22 €/nuit selon saison sans millésime; les pages divergent sur la fin de saison haute. Électricité, taxe et ordures sont séparées. Ne pas classer ces montants en 2027.",
+      "tariffQueueNextCheck": "Faire confirmer millésime et périodes, puis obtenir le prix 2027; garder les frais annexes séparés.",
+      "tariffQueueSources": [
+        "https://www.campinglagoelette.com/en/tarifs",
+        "https://www.campinglagoelette.com/emplacements-caravane"
+      ]
     },
     {
       "sourceId": "CCF44-BERNERIE-ECUREUILS-2026",
@@ -4074,7 +4098,15 @@
       "recheck2027BookingsSource": "https://www.chadotel.com/saison-2027-reservation-en-ligne/",
       "recheckOfficialSource": "https://www.chadotel.com/saison-2027-reservation-en-ligne/",
       "recheckConditionsSource": "https://www.chadotel.com/camping-les-ecureuils-la-bernerie-en-retz/",
-      "recheck2026TariffSource": "https://www.chadotel.com/wp-content/uploads/2025/12/TARIFS-2026-FR-2-LES-ECUREUILS.pdf"
+      "recheck2026TariffSource": "https://www.chadotel.com/wp-content/uploads/2025/12/TARIFS-2026-FR-2-LES-ECUREUILS.pdf",
+      "tariffQueueLot": 353,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 353 (21/11/2026) : Chadotel annonce les réservations 2027 ouvertes; le dernier barème détaillé d’emplacement trouvé reste le PDF 2026. Les offres Early Booking ne documentent pas à elles seules un tarif de nuitée 2027 pour camping-car.",
+      "tariffQueueNextCheck": "Relever un devis 2027 daté pour deux adultes et camping-car; séparer dates, catégorie, électricité, taxe, remise et total final.",
+      "tariffQueueSources": [
+        "https://www.chadotel.com/saison-2027-reservation-en-ligne/",
+        "https://www.chadotel.com/wp-content/uploads/2025/12/TARIFS-2026-FR-2-LES-ECUREUILS.pdf"
+      ]
     },
     {
       "sourceId": "CCF44-ST-MICHEL-BEL-ESSOR-2026",
@@ -4094,7 +4126,15 @@
       "recheckSource": "https://www.campingbelessor.com/",
       "recheckConditionsSource": "https://www.campingbelessor.com/emplacements.php",
       "recheckSecondarySource": "https://www.pornic.com/camping-le-bel-essor.html",
-      "recheckOfficialSource": "https://www.campingbelessor.com/"
+      "recheckOfficialSource": "https://www.campingbelessor.com/",
+      "tariffQueueLot": 353,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 353 (21/11/2026) : La grille officielle accessible reste datée 2026 et ne confirme pas un forfait camping-car 2027. Aucun tarif 2027 trouvé.",
+      "tariffQueueNextCheck": "Demander la grille 2027 et confirmer l’application au camping-car, les périodes et inclusions; garder taxe, écoparticipation et électricité distinctes.",
+      "tariffQueueSources": [
+        "https://www.campingbelessor.com/emplacements.php",
+        "https://www.campingbelessor.com/"
+      ]
     },
     {
       "sourceId": "CCF44-VILLENEUVE-BAIE-DOREE-2026",
@@ -4115,7 +4155,15 @@
       "recheckSource": "https://www.camping-baie-doree.fr/emplacements/",
       "recheckConditionsSource": "https://www.camping-baie-doree.fr/emplacements/",
       "recheckSecondarySource": "https://www.camping-baie-doree.fr/",
-      "recheckOfficialSource": "https://www.camping-baie-doree.fr/emplacements/"
+      "recheckOfficialSource": "https://www.camping-baie-doree.fr/emplacements/",
+      "tariffQueueLot": 353,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 353 (21/11/2026) : Le PDF officiel disponible est daté 2026; aucune grille 2027 publique trouvée. Électricité, taxe, écoparticipation et frais de réservation restent séparés du forfait.",
+      "tariffQueueNextCheck": "Demander grille et calendrier 2027; confirmer le forfait camping-car et séparer taxe, écoparticipation, électricité et frais fixes.",
+      "tariffQueueSources": [
+        "https://www.camping-baie-doree.fr/wp-content/uploads/2024/12/Tarifs-Baie-doree-2026.pdf",
+        "https://www.pornic.com/camping-domaine-de-la-baie-doree.html"
+      ]
     },
     {
       "sourceId": "CCF44-PORT-ST-PERE-MORINIERE-2026",
@@ -4139,7 +4187,14 @@
       "recheckMunicipalTariffSource": "https://www.port-saint-pere.fr/wp-content/uploads/2026/02/Compte-rendu-du-Conseil-Municipal-du-15-decembre-2025.pdf",
       "recheckSource": "https://www.port-saint-pere.fr/camping/",
       "recheckOfficialSource": "https://www.port-saint-pere.fr/camping/",
-      "recheckSecondarySource": "https://www.port-saint-pere.fr/wp-content/uploads/2026/02/Compte-rendu-du-Conseil-Municipal-du-15-decembre-2025.pdf"
+      "recheckSecondarySource": "https://www.port-saint-pere.fr/wp-content/uploads/2026/02/Compte-rendu-du-Conseil-Municipal-du-15-decembre-2025.pdf",
+      "tariffQueueLot": 353,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 353 (21/11/2026) : La mairie publie explicitement les tarifs 2026 du camping et du forfait camping-car; aucune grille 2027 n’est publiée. Ne pas reconduire les montants 2026.",
+      "tariffQueueNextCheck": "Attendre la délibération ou la grille municipale 2027; garder forfait et options séparés.",
+      "tariffQueueSources": [
+        "https://www.port-saint-pere.fr/camping/"
+      ]
     },
     {
       "sourceId": "CCF44-CHAPELLE-ERDRE-CIMETIERE-2026",
@@ -4157,7 +4212,14 @@
       "recheckTariffSource": "https://www.lachapellesurerdre.fr/ou-stationner-en-camping-car-la-chapelle-sur-erdre",
       "recheckSource": "https://www.lachapellesurerdre.fr/ou-stationner-en-camping-car-la-chapelle-sur-erdre",
       "recheckOfficialSource": "https://www.lachapellesurerdre.fr/ou-stationner-en-camping-car-la-chapelle-sur-erdre",
-      "recheckMunicipalitySource": "https://www.lachapellesurerdre.fr/ou-stationner-en-camping-car-la-chapelle-sur-erdre"
+      "recheckMunicipalitySource": "https://www.lachapellesurerdre.fr/ou-stationner-en-camping-car-la-chapelle-sur-erdre",
+      "tariffQueueLot": 353,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 353 (21/11/2026) : La mairie confirme une place, eau, vidange, limite de trois nuits et fermeture annuelle d’automne; aucun tarif de stationnement ou de service n’est publié.",
+      "tariffQueueNextCheck": "Garder le tarif non établi; demander à la mairie si un prix ou changement est prévu pour 2027.",
+      "tariffQueueSources": [
+        "https://www.lachapellesurerdre.fr/ou-stationner-en-camping-car-la-chapelle-sur-erdre"
+      ]
     },
     {
       "sourceId": "CCF44-MOUTIERS-HERMITAGE-DUNES-2026",
@@ -4182,7 +4244,15 @@
       "recheckCurrentRatesSource": "https://hermitagedesdunes.com/234-tarifs.html",
       "recheckSource": "https://hermitagedesdunes.com/",
       "recheckSeasonSource": "https://hermitagedesdunes.com/",
-      "recheckOfficialSource": "https://hermitagedesdunes.com/"
+      "recheckOfficialSource": "https://hermitagedesdunes.com/",
+      "tariffQueueLot": 353,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 353 (21/11/2026) : Le site officiel affiche toujours la saison 2026 et aucune grille datée 2027 pour les emplacements. Un repère tiers hebdomadaire ACSI n’est pas un tarif public 2027 par nuit.",
+      "tariffQueueNextCheck": "Demander le calendrier et un devis 2027 daté pour deux adultes et un camping-car; distinguer prix standard, ACSI, taxe et suppléments.",
+      "tariffQueueSources": [
+        "https://hermitagedesdunes.com/234-tarifs.html",
+        "https://hermitagedesdunes.com/"
+      ]
     },
     {
       "sourceId": "CCF44-PIRIAC-DOMAINE-MON-CALME-2026",
@@ -4207,7 +4277,15 @@
       "recheckBookingSource": "https://bookingpremium.secureholiday.net/fr/1625/",
       "recheckSecondaryTariffLeadAt": "2026-11-21",
       "recheckSecondaryTariffLeadFinding": "Le catalogue MyCamping affiche des prix de départ hebdomadaires sans dates ni année tarifaire : emplacement mixte (2 pers., véhicule, 10 A inclus) à 121,73 €/semaine; emplacement spécial camping-car (2 pers., véhicule, électricité et raccordements eau/évacuation indiqués) à 148,40 €/semaine. Ne pas convertir en tarif par nuit ni en prix 2027; montants à confirmer pour des dates précises.",
-      "recheckSecondaryTariffLeadSource": "https://www.mycamping.com/france/piriac-sur-mer/camping-mon-calme"
+      "recheckSecondaryTariffLeadSource": "https://www.mycamping.com/france/piriac-sur-mer/camping-mon-calme",
+      "tariffQueueLot": 353,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 353 (21/11/2026) : L’opérateur confirme l’accueil camping-car mais ses pages restent sur la saison 2026, avec des dates divergentes. Aucun calendrier ni prix 2027 daté trouvé.",
+      "tariffQueueNextCheck": "Demander dates d’ouverture et devis 2027 camping-car, en séparant forfait, personnes, électricité, eau, taxe et frais.",
+      "tariffQueueSources": [
+        "https://www.campingmoncalme.com/",
+        "https://domaine.moncalme-piriac.com/"
+      ]
     },
     {
       "sourceId": "CCF44-PORNIC-LES-BLEUETS-2026",
