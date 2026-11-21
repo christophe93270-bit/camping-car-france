@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes correspondant à 216 lieux et 3 fiches liées/alias (zone technique de la Grotte Saint-Jean, alias de la Guichardière, alias du Clos Mer et Nature). Correction du comptage : les 219 lignes portent déjà un recheckLot antérieur (lots 309 à 341). Les lots tarifaires 342 à 352 représentent donc une seconde passe sur 110 lieux, et non 110 lieux jamais examinés. Les 106 lieux distincts sans tariffQueueLot dans cette seconde file ont eux aussi un contrôle antérieur; « restent à examiner » était une formulation erronée. Ne pas ouvrir de lot 353 avant rapprochement des contrôles et des lacunes tarifaires réellement non résolues. Aucune donnée publiée du site modifiée. Rapport de rapprochement détaillé : AUDIT-44-2027-RECONCILIATION-LOTS.md. Lot tarifaire 353 ouvert le 21/11/2026 sur dix fiches aux questions 2027 non résolues; voir AUDIT-44-2027-LOT353.md. Aucun prix publié n’a été modifié. Lot tarifaire 354 ouvert le 21/11/2026 sur dix fiches de camping sans tarif 2027 camping-car confirmé; voir AUDIT-44-2027-LOT354.md. Aucun prix publié n’a été modifié. Lot tarifaire 355 ouvert le 21/11/2026 sur dix fiches distinctes (onze lignes de registre, le Briord figurant deux fois). Le tarif 2027 du Soleya a été confirmé; voir AUDIT-44-2027-LOT355.md. Une donnée publiée du Soleya a été structurée.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes correspondant à 216 lieux et 3 fiches liées/alias (zone technique de la Grotte Saint-Jean, alias de la Guichardière, alias du Clos Mer et Nature). Correction du comptage : les 219 lignes portent déjà un recheckLot antérieur (lots 309 à 341). Les lots tarifaires 342 à 352 représentent donc une seconde passe sur 110 lieux, et non 110 lieux jamais examinés. Les 106 lieux distincts sans tariffQueueLot dans cette seconde file ont eux aussi un contrôle antérieur; « restent à examiner » était une formulation erronée. Ne pas ouvrir de lot 353 avant rapprochement des contrôles et des lacunes tarifaires réellement non résolues. Aucune donnée publiée du site modifiée. Rapport de rapprochement détaillé : AUDIT-44-2027-RECONCILIATION-LOTS.md. Lot tarifaire 353 ouvert le 21/11/2026 sur dix fiches aux questions 2027 non résolues; voir AUDIT-44-2027-LOT353.md. Aucun prix publié n’a été modifié. Lot tarifaire 354 ouvert le 21/11/2026 sur dix fiches de camping sans tarif 2027 camping-car confirmé; voir AUDIT-44-2027-LOT354.md. Aucun prix publié n’a été modifié. Lot tarifaire 355 ouvert le 21/11/2026 sur dix fiches distinctes (onze lignes de registre, le Briord figurant deux fois). Le tarif 2027 du Soleya a été confirmé; voir AUDIT-44-2027-LOT355.md. Une donnée publiée du Soleya a été structurée. Lot tarifaire 357 ouvert le 21/11/2026 sur dix fiches, dont le tarif CCP de Bouaye confirmé pour toute l’année 2027; voir AUDIT-44-2027-LOT357.md. La fiche publique de Bouaye a été structurée avec base, taxe et total.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -3908,10 +3908,10 @@
       "finding": "Le stationnement et la vidange sont gratuits. Délibération municipale : jeton à 3,50 € dès le 01/01/2026, donnant 100 L d’eau ou une heure d’électricité. Barème 2027 non confirmé.",
       "nextCheck": "Confirmer le maintien du prix des jetons en 2027 et vérifier les points de vente; conserver la gratuité du stationnement et de la vidange séparée du tarif de service.",
       "source": "https://www.loireavelo.fr/tsft/aire-du-stade-donges/",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 331,
-      "recheckFinding": "La délibération municipale officielle fixe le jeton à 3,50 € à compter du 01/01/2026; un jeton donne une heure d’électricité ou 100 L d’eau. La vidange des eaux usées et le stationnement sont gratuits selon les fiches tourisme actuelles. Une notice rapporte toutefois une fermeture de la borne après dégradations en juillet 2026 : la disponibilité de la borne doit être vérifiée avant d’annoncer le service comme utilisable. Aucun prix 2027 n’est publié.",
-      "recheckNextCheck": "Garder 3,50 € comme tarif municipal 2026 pour le jeton, 100 L ou une heure d’électricité; confirmer maintien en 2027 et réouverture/disponibilité. Maintenir stationnement et vidange gratuits séparés.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 357,
+      "recheckFinding": "Le jeton est officiellement fixé à 3,50 € depuis janvier 2026 (1 h d’électricité ou 100 L d’eau; vidange gratuite). Une réponse municipale publiée en juillet signale la borne et l’aire fermées après dégradations; source tourisme affiche encore le stationnement gratuit, donc disponibilité à reconfirmer. Aucun tarif 2027.",
+      "recheckNextCheck": "Confirmer auprès de la mairie la réouverture de l’aire/borne et le prix 2027; ne pas annoncer le jeton utilisable avant confirmation.",
       "recheckTariffSource": "https://ville-donges.fr/wp-content/uploads/2025/12/DELIB4_TARIFS_2026.pdf",
       "recheckSource": "https://ville-donges.fr/wp-content/uploads/2025/12/DELIB4_TARIFS_2026.pdf",
       "recheckSecondarySource": "https://www.cirkwi.com/en/point-interet/441564-aire-du-stade",
@@ -3919,7 +3919,16 @@
       "recheckAvailabilityReportSource": "https://www.aire-service-camping-car-panoramique.fr/loire-atlantique/44-donges",
       "recheckTourismSource": "https://www.pornichet.fr/aire-du-stade-de-donges",
       "recheckMunicipalTariffSource": "https://ville-donges.fr/wp-content/uploads/2025/12/DELIB4_TARIFS_2026.pdf",
-      "recheckAvailabilitySource": "https://www.aire-service-camping-car-panoramique.fr/loire-atlantique/44-donges"
+      "recheckAvailabilitySource": "https://www.aire-service-camping-car-panoramique.fr/loire-atlantique/44-donges",
+      "tariffQueueLot": 357,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : Le jeton est officiellement fixé à 3,50 € depuis janvier 2026 (1 h d’électricité ou 100 L d’eau; vidange gratuite). Une réponse municipale publiée en juillet signale la borne et l’aire fermées après dégradations; source tourisme affiche encore le stationnement gratuit, donc disponibilité à reconfirmer. Aucun tarif 2027.",
+      "tariffQueueNextCheck": "Confirmer auprès de la mairie la réouverture de l’aire/borne et le prix 2027; ne pas annoncer le jeton utilisable avant confirmation.",
+      "tariffQueueSources": [
+        "https://ville-donges.fr/wp-content/uploads/2025/12/DELIB4_TARIFS_2026.pdf",
+        "https://www.aire-service-camping-car-panoramique.fr/loire-atlantique/44-donges",
+        "https://www.pornichet.fr/aire-du-stade-de-donges"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5006F8",
@@ -3949,10 +3958,10 @@
       "finding": "Parking gratuit limité à 48 h. L’eau est annoncée à 2,50 € / 100 L après mise en service de la facturation via Qipéo; les sources consultées ne confirment pas que cette mise en service soit effective.",
       "nextCheck": "Vérifier auprès de la commune si Qipéo facture actuellement l’eau, le prix réellement appliqué, et si ces conditions sont maintenues en 2027; distinguer eau et stationnement.",
       "source": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 331,
-      "recheckFinding": "La fiche départementale indique parking camping-car gratuit, limite de 48 h et eau à 2,50 €/100 L, sous réserve de la mise en œuvre de la facturation par application Qipéo. La vidange est disponible. La source ne confirme pas que le paiement Qipéo soit effectivement actif ni le maintien des montants en 2027.",
-      "recheckNextCheck": "Conserver le stationnement gratuit et la limite de 48 h; présenter l’eau à 2,50 €/100 L comme conditionnelle à l’activation du système et vérifier l’activation auprès de Pontchâteau.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 357,
+      "recheckFinding": "La fiche départementale indique stationnement gratuit limité à 48 h et eau à 2,50 €/100 L seulement à compter de l’activation de la facturation Qipéo. Aucun tarif de nuitée; activation non vérifiée.",
+      "recheckNextCheck": "Vérifier que Qipéo est activé et que le prix s’applique toujours; garder le stationnement gratuit distinct de l’eau et de la nuitée.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau",
       "recheckSource": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau",
       "recheckSecondarySource": "https://www.qipeo.com/detail/bde813b0-70b8-49f1-a8bb-fe395d859c80",
@@ -3961,7 +3970,14 @@
       "recheckMunicipalDecisionSource": "https://www.pontchateau.fr/medias/2026/02/10_pv-CM_17-12-2025.pdf",
       "recheckQipeoSource": "https://www.qipeo.com/detail/bde813b0-70b8-49f1-a8bb-fe395d859c80",
       "recheckAvailabilitySource": "https://www.pontchateau.fr/systeme/actualites/",
-      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau"
+      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau",
+      "tariffQueueLot": 357,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : La fiche départementale indique stationnement gratuit limité à 48 h et eau à 2,50 €/100 L seulement à compter de l’activation de la facturation Qipéo. Aucun tarif de nuitée; activation non vérifiée.",
+      "tariffQueueNextCheck": "Vérifier que Qipéo est activé et que le prix s’applique toujours; garder le stationnement gratuit distinct de l’eau et de la nuitée.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/182441-Aire-de-camping-cars-de-Pont-Chateau"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51MES5",
@@ -4011,16 +4027,24 @@
       "finding": "Pornichet Tourisme affiche l’emplacement à 0 €, 7 places, et une ouverture toute l’année. La durée maximale et les règles de nuitée ne sont pas précisées.",
       "nextCheck": "Vérifier la signalisation locale pour la durée de stationnement et confirmer le maintien de la gratuité en 2027.",
       "source": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 331,
-      "recheckFinding": "La fiche départementale actuelle confirme 7 emplacements réservés aux camping-cars sur l’île de Fédrun, mais ne publie ni prix, ni durée, ni autorisation nocturne. Une brochure touristique 2023 indiquait 25 places et la gratuité : données anciennes en contradiction avec la capacité actuelle; ne pas reconduire automatiquement le tarif ou le nombre.",
-      "recheckNextCheck": "Retenir 7 comme capacité de la fiche actuelle; confirmer avec Saint-Joachim la gratuité, la durée et la nuitée 2027. Garder les 25 places/gratuité du guide 2023 comme historique seulement.",
-      "recheckTariffSource": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
-      "recheckSource": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 357,
+      "recheckFinding": "La fiche touristique actuelle annonce 7 emplacements réservés et 0 €; les 25 places du guide 2023 sont obsolètes. Aucun service, durée de séjour ou droit de nuitée n’est indiqué.",
+      "recheckNextCheck": "Garder le stationnement gratuit et la capacité actuelle de 7; confirmer auprès de la commune durée et règles nocturnes.",
+      "recheckTariffSource": "https://www.pornichet.fr/aire-de-stationnement-de-fedrun",
+      "recheckSource": "https://www.pornichet.fr/aire-de-stationnement-de-fedrun",
       "recheckSecondarySource": "https://www.pornichet.fr/aire-de-stationnement-de-fedrun",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
       "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/182935-AIRE-DE-STATIONNEMENT-DE-FEDRUN",
-      "recheckHistoricalSource": "https://www.saint-nazaire-tourisme.com/app/uploads/saintnazaire/2023/04/Brochure-hebergements-saint-nazaire-briere-FR-EN-DE.pdf"
+      "recheckHistoricalSource": "https://www.saint-nazaire-tourisme.com/app/uploads/saintnazaire/2023/04/Brochure-hebergements-saint-nazaire-briere-FR-EN-DE.pdf",
+      "tariffQueueLot": 357,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : La fiche touristique actuelle annonce 7 emplacements réservés et 0 €; les 25 places du guide 2023 sont obsolètes. Aucun service, durée de séjour ou droit de nuitée n’est indiqué.",
+      "tariffQueueNextCheck": "Garder le stationnement gratuit et la capacité actuelle de 7; confirmer auprès de la commune durée et règles nocturnes.",
+      "tariffQueueSources": [
+        "https://www.pornichet.fr/aire-de-stationnement-de-fedrun",
+        "https://www.saint-nazaire-tourisme.com/offres/aire-de-stationnement-de-fedrun-saint-joachim-fr-2824435/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5006F7",
@@ -4031,14 +4055,21 @@
       "finding": "La fiche touristique du domaine annonce deux emplacements gratuits et deux nuits maximum, sans millésime 2027.",
       "nextCheck": "Contacter l’exploitant pour vérifier disponibilité, accord d’arrivée, maintien de la gratuité et limite de deux nuits pour 2027.",
       "source": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 332,
-      "recheckFinding": "Recontrôle : la fiche départementale indique toujours deux emplacements gratuits dans le jardin clos du domaine, limités à deux nuits. La gratuité et la durée ne sont pas millésimées 2027; il s’agit d’un accueil privé, disponibilité à convenir avec l’exploitant.",
-      "recheckNextCheck": "Maintenir deux places et deux nuits maximum comme conditions publiées; confirmer auprès du domaine l’accord préalable et leur maintien en 2027.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 357,
+      "recheckFinding": "Fiche départementale : 2 emplacements gratuits dans un jardin clos, 2 nuits maximum; tarif et disponibilité non datés pour 2027.",
+      "recheckNextCheck": "Confirmer directement la disponibilité et les conditions 2027 avec l’exploitant; ne pas traiter l’accueil privé comme garanti.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER",
       "recheckSource": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER",
-      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER"
+      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER",
+      "tariffQueueLot": 357,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : Fiche départementale : 2 emplacements gratuits dans un jardin clos, 2 nuits maximum; tarif et disponibilité non datés pour 2027.",
+      "tariffQueueNextCheck": "Confirmer directement la disponibilité et les conditions 2027 avec l’exploitant; ne pas traiter l’accueil privé comme garanti.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/3129-AIRE-PRIVEE-DU-DOMAINE-DU-GRAND-POIRIER"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V500866",
@@ -4049,17 +4080,24 @@
       "finding": "La page municipale/touristique indique 8 emplacements, stationnement gratuit et ouverture à l’année; aucune durée maximale ou règle de nuitée affichée.",
       "nextCheck": "Vérifier l’arrêté municipal joint à la page et la signalisation sur place pour la durée et les règles nocturnes; reconfirmer la gratuité 2027.",
       "source": "https://www.saint-brevin.com/aire-de-stationnement-centre-ville-des-pins.html",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 332,
-      "recheckFinding": "Contrôle du 19/11/2026 : la ville confirme huit places, parking gratuit et ouverture toute l’année au centre-ville des Pins. Un document touristique indique une durée maximale de 48 h; la page municipale renvoie à l’arrêté municipal 2026-115 sur la réglementation des camping-cars. Aucun tarif de nuitée distinct n’est annoncé.",
-      "recheckNextCheck": "Garder gratuit et la limite de 48 h; conserver le lien vers l’arrêté municipal 2026-115 et contrôler la signalisation sur place en cas de règle plus récente.",
-      "recheckTariffSource": "https://www.saint-brevin.com/aire-de-stationnement-centre-ville-des-pins.html",
-      "recheckSource": "https://www.saint-brevin.com/aire-de-stationnement-centre-ville-des-pins.html",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 357,
+      "recheckFinding": "La Ville a publié un arrêté 2026-115 réglementant les camping-cars; aucune grille 2027 ou tarif distinct de nuitée n’est publié. Les données de stationnement gratuit/48 h doivent être lues avec l’arrêté actuel.",
+      "recheckNextCheck": "Consulter l’arrêté municipal en vigueur avant de confirmer durée et gratuité; distinguer stationnement et nuitée.",
+      "recheckTariffSource": "https://www.saint-brevin.fr/categorie-documents/arretes-municipaux/?pages=2",
+      "recheckSource": "https://www.saint-brevin.fr/categorie-documents/arretes-municipaux/?pages=2",
       "recheckOfficialSource": "https://www.saint-brevin.com/aire-de-stationnement-centre-ville-des-pins.html",
       "recheckOrderSource": "https://www.saint-brevin.com/medias/images/prestataires/arr-t-2026-aires-camping-car-sb-11351.pdf",
       "recheckMunicipalitySource": "https://www.saint-brevin.com/aire-de-stationnement-centre-ville-des-pins.html",
       "recheckTourismDurationSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-stationnement-centre-ville-des-pins",
-      "recheckMunicipalOrderSource": "https://www.saint-brevin.com/medias/images/prestataires/arr-t-2026-aires-camping-car-sb-11351.pdf"
+      "recheckMunicipalOrderSource": "https://www.saint-brevin.com/medias/images/prestataires/arr-t-2026-aires-camping-car-sb-11351.pdf",
+      "tariffQueueLot": 357,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : La Ville a publié un arrêté 2026-115 réglementant les camping-cars; aucune grille 2027 ou tarif distinct de nuitée n’est publié. Les données de stationnement gratuit/48 h doivent être lues avec l’arrêté actuel.",
+      "tariffQueueNextCheck": "Consulter l’arrêté municipal en vigueur avant de confirmer durée et gratuité; distinguer stationnement et nuitée.",
+      "tariffQueueSources": [
+        "https://www.saint-brevin.fr/categorie-documents/arretes-municipaux/?pages=2"
+      ]
     },
     {
       "sourceId": "CCF44-LESBRILLAS-2026",
@@ -4824,18 +4862,25 @@
       "name": "CAMPING-CAR PARK Bouaye – Route de la Barre",
       "checkedAt": "2026-11-18",
       "lot": 99,
-      "status": "tarif_partiel_2027",
+      "status": "tarif_2027_confirme",
       "finding": "CAMPING-CAR PARK publie 13,74 €/24 h hors taxe pour toute l’année 2027; la taxe de 1,32 €/24 h est affichée seulement pour 2026. Le total 2027 reste inconnu.",
       "nextCheck": "Recontrôler la taxe de séjour 2027 et le montant total dans le panier avant séjour; distinguer le forfait de nuitée du parking 5 h + services.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 332,
-      "recheckFinding": "Barème CCP officiel : forfait de base 13,74 €/24 h du 01/01/2027 au 31/12/2027. La taxe de séjour affichée à 1,32 €/24 h ne concerne que 2026; le total 2027 ne peut donc pas être calculé avec certitude. Parking 5 h + services à 7,05 € est un produit distinct sans validité datée.",
-      "recheckNextCheck": "Enregistrer 13,74 € comme base de nuitée 2027 et garder taxe 2027 non confirmée; séparer l’offre 5 h à 7,05 € et vérifier sa période et les frais de carte éventuels.",
-      "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye?areaType=aire-etape-camping-car",
-      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye?areaType=aire-etape-camping-car",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 357,
+      "recheckFinding": "Barème opérateur 2027 : base 13,74 €/24 h du 01/01 au 31/12/2027 + taxe 1,32 €/24 h = 15,06 €/24 h. Le parking 5 h + services à 7,05 € reste distinct.",
+      "recheckNextCheck": "Tarif 2027 confirmé et enregistré dans la fiche publique avec base, taxe et total séparés; coût de carte distinct.",
+      "recheckTariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
+      "recheckSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
       "recheckOfficialSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
-      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye?areaType=aire-etape-camping-car"
+      "recheckTaxSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye",
+      "tariffQueueLot": 357,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : Barème opérateur 2027 : base 13,74 €/24 h du 01/01 au 31/12/2027 + taxe 1,32 €/24 h = 15,06 €/24 h. Le parking 5 h + services à 7,05 € reste distinct.",
+      "tariffQueueNextCheck": "Tarif 2027 confirmé et enregistré dans la fiche publique avec base, taxe et total séparés; coût de carte distinct.",
+      "tariffQueueSources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/bouaye"
+      ]
     },
     {
       "sourceId": "ACCAMECCCLOSMORA",
@@ -4977,18 +5022,27 @@
       "finding": "Prix de nuitée 2027 à confirmer — calendrier publié",
       "nextCheck": "Le Ranch, La Plaine-sur-Mer : ouverture des réservations annoncée le 04/11/2026, saison du 30/04/2027 au 12/09/2027. Aucun montant de nuitée camping-car 2027 vérifié. Demander un tarif selon les dates et la catégorie d’emplacement, avec électricité, taxes et frais de réservation.",
       "source": "https://www.camping-le-ranch.com/fr",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 340,
-      "recheckFinding": "Contrôle lot 340 (19/11/2026) : l’opérateur confirme une saison 2027 du 30/04 au 12/09 et les périodes basse/haute saison. Les montants observés restent des devis de séjour pour catégories et dates précises, pas un tarif public par nuit. Vérifier au panier final taxe, frais, options, remises et conditions de paiement.",
-      "recheckNextCheck": "Pour chaque valeur affichée, préciser dates, catégorie et durée du devis; contrôler le récapitulatif final et ne pas convertir un total séjour en prix par nuit.",
-      "recheckSource": "https://www.camping-le-ranch.com/fr",
-      "recheckTariffSource": "https://www.camping-le-ranch.com/fr",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 357,
+      "recheckFinding": "L’opérateur confirme saison 2027 du 30/04 au 12/09 et réservations ouvertes; aucun tarif public par nuit camping-car n’est accessible dans les pages consultées. Les prix variables au panier et frais/taxes restent à distinguer.",
+      "recheckNextCheck": "Relever un devis opérateur daté selon dates, nombre de personnes et catégorie d’emplacement; séparer taxe, animal et options.",
+      "recheckSource": "https://www.yellohvillage.fr/camping/le_ranch",
+      "recheckTariffSource": "https://www.yellohvillage.fr/camping/le_ranch",
       "recheckPitchCategorySource": "https://www.yellohvillage.fr/camping/le_ranch/nos_emplacements_de_camping",
       "recheckPitch130m2Source": "https://www.camping-le-ranch.com/fr/emplacements/78629",
       "recheckPromotionsSource": "https://www.yellohvillage.fr/camping/le_ranch/offres_speciales",
       "recheckConditionsSource": "https://www.camping-le-ranch.com/fr",
       "recheckBookingQuoteSource": "https://www.yellohvillage.fr/camping/le_ranch/nos_emplacements_de_camping#content",
-      "recheckOfficialSource": "https://www.camping-le-ranch.com/fr"
+      "recheckOfficialSource": "https://www.camping-le-ranch.com/fr",
+      "tariffQueueLot": 357,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : L’opérateur confirme saison 2027 du 30/04 au 12/09 et réservations ouvertes; aucun tarif public par nuit camping-car n’est accessible dans les pages consultées. Les prix variables au panier et frais/taxes restent à distinguer.",
+      "tariffQueueNextCheck": "Relever un devis opérateur daté selon dates, nombre de personnes et catégorie d’emplacement; séparer taxe, animal et options.",
+      "tariffQueueSources": [
+        "https://www.yellohvillage.fr/camping/le_ranch",
+        "https://www.yellohvillage.fr/camping/le_ranch/nos_emplacements_de_camping",
+        "https://www.yellohvillage.fr/faq/reserver_payer"
+      ]
     },
     {
       "sourceId": "ACCAMEROASCCAR",
@@ -5118,11 +5172,11 @@
       "finding": "Contrôle lot 123 : PiNCAMP/ADAC publie un tarif comparatif 2027 de départ en catégorie standard pour un couple : 20,50 €/nuit basse saison et 37 €/nuit haute saison, électricité incluse et taxe exclue ; ce n’est pas un devis opérateur par date. Le site du camping affiche séparément 19 €/nuit ACSI pour 2 personnes, électricité 10 A et un animal avec carte requise, mais périodes sans année. Destination Pornic conserve le tarif historique 2026 de 20–36 €/nuit pour 2 personnes + 1 voiture.",
       "nextCheck": "Vérifier sur une grille ou un panier officiel 2027 les prix pour deux personnes à dates précises, l’inclusion de l’électricité, la taxe de séjour et les frais. Confirmer les dates d’ouverture 2027 des emplacements. Vérifier l’année et les fenêtres de validité de l’offre ACSI à 19 € et la séparer du tarif ordinaire.",
       "source": "https://www.camping-duvieuxchateau.com/emplacements/",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 324,
-      "recheckFinding": "Recontrôle 19/11/2026 : le site opérateur confirme les camping-cars sur emplacements de 80–90 m² avec électricité 10 A. Le forfait ACSI/ANWB indiqué est de 19 €/nuit pour deux personnes, électricité et un animal, sur des dates listées sans année explicite; carte d’adhésion requise. Le tarif n’est donc pas établi comme prix public 2027.",
-      "recheckNextCheck": "Faire confirmer les périodes ACSI 2027 et obtenir le tarif public 2027 hors carte et suppléments.",
-      "recheckSource": "https://www.camping-duvieuxchateau.com/",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 357,
+      "recheckFinding": "L’opérateur confirme la saison 2027 et une offre ACSI à 19 €/nuit pour 2 personnes, électricité 10 A et un animal; dates affichées sans millésime explicite et carte requise. Pas de tarif public standard 2027 confirmé.",
+      "recheckNextCheck": "Confirmer avec le camping les dates 2027 exactes du tarif ACSI et obtenir le tarif standard par nuit; garder l’offre membre distincte.",
+      "recheckSource": "https://www.camping-duvieuxchateau.com/emplacements/",
       "recheckConditionsSource": "https://www.camping-duvieuxchateau.com/wp-content/uploads/2024/12/CGV-2025.pdf",
       "recheckSecondarySource": "https://www.camping-duvieuxchateau.com/emplacements/",
       "recheckTariffSource": "https://www.camping-duvieuxchateau.com/emplacements/",
@@ -5141,6 +5195,14 @@
         "https://data.loire-atlantique.fr/explore/dataset/793866443_hotelleries-de-plein-air-camping-en-loire-atlantique/",
         "https://www.camping-duvieuxchateau.com/",
         "https://www.camping-duvieuxchateau.com/emplacements/"
+      ],
+      "tariffQueueLot": 357,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : L’opérateur confirme la saison 2027 et une offre ACSI à 19 €/nuit pour 2 personnes, électricité 10 A et un animal; dates affichées sans millésime explicite et carte requise. Pas de tarif public standard 2027 confirmé.",
+      "tariffQueueNextCheck": "Confirmer avec le camping les dates 2027 exactes du tarif ACSI et obtenir le tarif standard par nuit; garder l’offre membre distincte.",
+      "tariffQueueSources": [
+        "https://www.camping-duvieuxchateau.com/emplacements/",
+        "https://www.camping-duvieuxchateau.com/"
       ]
     },
     {
@@ -5265,14 +5327,14 @@
       "finding": "Contrôle lot 126 : l’exploitant annonce la saison 17/04–26/09/2027 et un forfait Standard comprenant 2 personnes, véhicule et électricité 10 A ; aucun montant officiel statique ou devis daté n’a été relevé. CampingFrance, sous l’intitulé Tarifs 2027, affiche un forfait de 55 €/nuit, mais sans période ni détail suffisant pour l’assimiler au devis opérateur. Il mentionne séparément une réduction FFCC à 23 € sur certaines dates, conditionnelle à la carte. Camping.info donne 26,32 €/nuit basse saison et 34,32 € haute saison pour 2 adultes, véhicule et électricité, taxes locales incluses, sans millésime : contradiction secondaire non résolue. Les dates d’ouverture CampingFrance diffèrent aussi de celles de l’exploitant.",
       "nextCheck": "Demander/consulter le devis officiel 2027 daté pour l’emplacement Standard 2 adultes + camping-car + 10 A, puis distinguer Premium et Premium +. Faire confirmer saison officielle, taxe 2027, personnes et véhicule inclus, suppléments, minimum de séjour, prix réel et période de l’offre FFCC ainsi que sa condition de carte. Ne pas publier 55 €, 26,32/34,32 € ni 23 € comme tarif opérateur confirmé.",
       "source": "https://www.guerande-camping.com/emplacements-camping/",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 324,
-      "recheckFinding": "Recontrôle 19/11/2026 : l’opérateur annonce ouverture 17/04–26/09/2027 et confirme les emplacements camping-car; forfait standard comprenant 2 personnes, 10 A et un véhicule. Aucun montant de nuitée 2027 exploitable retrouvé. Restriction publiée : véhicules de 6 m maximum, caravanes double essieu interdites.",
-      "recheckNextCheck": "Demander un devis daté avec dimensions du camping-car; confirmer options, taxe et frais sans inférer un tarif depuis le moteur.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 357,
+      "recheckFinding": "L’opérateur confirme l’accueil des camping-cars et l’ouverture du 17/04 au 26/09/2027, mais la page officielle ne donne pas de montant de nuitée; la valeur 55 €/nuit sur CampingFrance n’est pas confirmée par le camping.",
+      "recheckNextCheck": "Obtenir le tarif opérateur daté pour la catégorie camping-car et le panier final; ne pas reprendre le montant tiers comme prix confirmé.",
       "recheckSource": "https://www.guerande-camping.com/",
       "recheckSecondarySource": "https://www.guerande-camping.com/hebergement/emplacement-nu-vehicule-maximum-6m-double-essieux-interdit-2pers-avec-electricite/",
       "recheckOtherSecondarySource": "https://www.camping.info/fr/emplacement-de-camping/camping-de-letang-du-pays-blanc",
-      "recheckTariffSource": "https://www.guerande-camping.com/emplacements-camping/",
+      "recheckTariffSource": "https://www.guerande-camping.com/",
       "recheckSeasonSource": "https://www.guerande-camping.com/",
       "recheckOfficialSeasonSource": "https://www.guerande-camping.com/faq/",
       "recheckOfficialPitchSource": "https://www.guerande-camping.com/emplacements-camping/",
@@ -5281,7 +5343,16 @@
       "recheckOfficialSource": "https://www.guerande-camping.com/",
       "recheckPitchAndTariffSource": "https://www.guerande-camping.com/emplacements-camping/",
       "recheckBookingSource": "https://www.guerande-camping.com/faq/",
-      "recheckConditionsSource": "https://www.guerande-camping.com/faq/"
+      "recheckConditionsSource": "https://www.guerande-camping.com/faq/",
+      "tariffQueueLot": 357,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : L’opérateur confirme l’accueil des camping-cars et l’ouverture du 17/04 au 26/09/2027, mais la page officielle ne donne pas de montant de nuitée; la valeur 55 €/nuit sur CampingFrance n’est pas confirmée par le camping.",
+      "tariffQueueNextCheck": "Obtenir le tarif opérateur daté pour la catégorie camping-car et le panier final; ne pas reprendre le montant tiers comme prix confirmé.",
+      "tariffQueueSources": [
+        "https://www.guerande-camping.com/",
+        "https://www.guerande-camping.com/emplacements-camping/",
+        "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/guerande/camping-de-letang-du-pays-blanc"
+      ]
     },
     {
       "sourceId": "CCF44-MESQUER-PETIT-BOIS-2026",
@@ -5292,16 +5363,24 @@
       "finding": "Contrôle lot 116 : montant officiel de 186 € affiché pour un séjour de 7 nuits du 02 au 09/04/2027, emplacement avec sanitaire privé, après remise Early Booking de 5 % (196 € avant réduction). Forfait de base annoncé pour 2 personnes avec électricité ; camping-car accepté. Point d'eau sur parcelle, inclusion tarifaire non explicitée. Classement : total de séjour promotionnel, pas tarif par nuit ; prix 2026 et base annuelle 2027 restent non confirmés. Deux pages officielles indiquent une fin de saison différente : 12/09 sur la page principale, 19/09 sur la fiche emplacement. Taxe de séjour supplémentaire selon CGV, montant 2027 à vérifier. Frais de dossier et préférence d'emplacement offerts dès 7 nuits selon l'offre.",
       "nextCheck": "Vérifier le récapitulatif final du séjour 02–09/04 : montant 186 €, deux adultes, électricité, eau et éventuels frais d'eau, taxe de séjour 2027 et frais de dossier/préférence d'emplacement offerts. Demander à l'exploitant de résoudre l'écart de fermeture (12 ou 19/09/2027) et de confirmer la disponibilité du 13 au 19 septembre. Ne jamais convertir le total en tarif par nuit ; obtenir une grille de base si un tarif annuel est requis.",
       "source": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 323,
-      "recheckFinding": "Recontrôle 19/11/2026 : le moteur officiel affiche 186 € au total pour 7 nuits du 02 au 09/04/2027 sur « emplacement avec sanitaire privé » (196 € avant remise de 5 %); ce n’est pas un prix par nuit. La page indique eau, électricité et sanitaires privés inclus. Il reste à vérifier le panier final, les taxes et l’application explicite au camping-car. La saison est annoncée du 02/04 au 12/09/2027, alors que l’offre 7 nuits affiche une validité jusqu’au 19/09/2027.",
-      "recheckNextCheck": "Vérifier devis final pour camping-car, taxes et inclusions; faire confirmer si le 19/09 concerne une date de fin de séjour incompatible avec la fermeture annoncée au 12/09.",
-      "recheckSource": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 357,
+      "recheckFinding": "L’opérateur ouvre la saison 2027 du 02/04 au 19/09 et propose une remise 5 % pour des séjours de 7 nuits minimum en emplacements avec sanitaire privé, avec frais de dossier et préférence offerts. Le total de séjour ne vaut pas tarif unitaire par nuit.",
+      "recheckNextCheck": "Confirmer le devis 2027 final pour l’emplacement correspondant au camping-car, dates et taxe; conserver le total de 7 nuits séparé du prix/nuit.",
+      "recheckSource": "https://www.camping-lepetitbois.com/fr/hebergements/emplacements/emplacement-avec-sanitaire-prive/",
       "recheckConditionsSource": "https://www.sunelia.com/fr/conditions-generales-de-ventes/",
-      "recheckTariffSource": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/",
+      "recheckTariffSource": "https://www.camping-lepetitbois.com/fr/hebergements/emplacements/emplacement-avec-sanitaire-prive/",
       "recheckBookingSource": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/",
       "recheckOfficialSource": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/",
-      "recheckSecondarySource": "https://www.camping-lepetitbois.com/fr/hebergements/nos-offres-speciales/pre-book-2027/"
+      "recheckSecondarySource": "https://www.camping-lepetitbois.com/fr/hebergements/nos-offres-speciales/pre-book-2027/",
+      "tariffQueueLot": 357,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : L’opérateur ouvre la saison 2027 du 02/04 au 19/09 et propose une remise 5 % pour des séjours de 7 nuits minimum en emplacements avec sanitaire privé, avec frais de dossier et préférence offerts. Le total de séjour ne vaut pas tarif unitaire par nuit.",
+      "tariffQueueNextCheck": "Confirmer le devis 2027 final pour l’emplacement correspondant au camping-car, dates et taxe; conserver le total de 7 nuits séparé du prix/nuit.",
+      "tariffQueueSources": [
+        "https://www.camping-lepetitbois.com/fr/hebergements/emplacements/emplacement-avec-sanitaire-prive/",
+        "https://www.camping-lepetitbois.com/fr/infos-contact/contact/"
+      ]
     },
     {
       "sourceId": "CCF44-TURBALLE-CAMPING-LA-FALAISE-2026",
