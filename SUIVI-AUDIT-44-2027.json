@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes correspondant à 216 lieux et 3 fiches liées/alias (zone technique de la Grotte Saint-Jean, alias de la Guichardière, alias du Clos Mer et Nature). Correction du comptage : les 219 lignes portent déjà un recheckLot antérieur (lots 309 à 341). Les lots tarifaires 342 à 352 représentent donc une seconde passe sur 110 lieux, et non 110 lieux jamais examinés. Les 106 lieux distincts sans tariffQueueLot dans cette seconde file ont eux aussi un contrôle antérieur; « restent à examiner » était une formulation erronée. Ne pas ouvrir de lot 353 avant rapprochement des contrôles et des lacunes tarifaires réellement non résolues. Aucune donnée publiée du site modifiée. Rapport de rapprochement détaillé : AUDIT-44-2027-RECONCILIATION-LOTS.md. Lot tarifaire 353 ouvert le 21/11/2026 sur dix fiches aux questions 2027 non résolues; voir AUDIT-44-2027-LOT353.md. Aucun prix publié n’a été modifié. Lot tarifaire 354 ouvert le 21/11/2026 sur dix fiches de camping sans tarif 2027 camping-car confirmé; voir AUDIT-44-2027-LOT354.md. Aucun prix publié n’a été modifié. Lot tarifaire 355 ouvert le 21/11/2026 sur dix fiches distinctes (onze lignes de registre, le Briord figurant deux fois). Le tarif 2027 du Soleya a été confirmé; voir AUDIT-44-2027-LOT355.md. Une donnée publiée du Soleya a été structurée. Lot tarifaire 357 ouvert le 21/11/2026 sur dix fiches, dont le tarif CCP de Bouaye confirmé pour toute l’année 2027; voir AUDIT-44-2027-LOT357.md. La fiche publique de Bouaye a été structurée avec base, taxe et total. Lot tarifaire 358 ouvert le 21/11/2026 sur dix fiches de stationnement, accueil ou services dont les conditions 2027 restent à confirmer; voir AUDIT-44-2027-LOT358.md. Aucun tarif publié du site n'a été modifié. Lot tarifaire 359 ouvert le 21/11/2026 sur dix aires CAMPING-CAR PARK : neuf tarifs d’étape 2027 complets confirmés et structurés dans les données publiques; Blain reste sans taxe 2027 vérifiable. Voir AUDIT-44-2027-LOT359.md.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes correspondant à 216 lieux et 3 fiches liées/alias (zone technique de la Grotte Saint-Jean, alias de la Guichardière, alias du Clos Mer et Nature). Correction du comptage : les 219 lignes portent déjà un recheckLot antérieur (lots 309 à 341). Les lots tarifaires 342 à 352 représentent donc une seconde passe sur 110 lieux, et non 110 lieux jamais examinés. Les 106 lieux distincts sans tariffQueueLot dans cette seconde file ont eux aussi un contrôle antérieur; « restent à examiner » était une formulation erronée. Ne pas ouvrir de lot 353 avant rapprochement des contrôles et des lacunes tarifaires réellement non résolues. Aucune donnée publiée du site modifiée. Rapport de rapprochement détaillé : AUDIT-44-2027-RECONCILIATION-LOTS.md. Lot tarifaire 353 ouvert le 21/11/2026 sur dix fiches aux questions 2027 non résolues; voir AUDIT-44-2027-LOT353.md. Aucun prix publié n’a été modifié. Lot tarifaire 354 ouvert le 21/11/2026 sur dix fiches de camping sans tarif 2027 camping-car confirmé; voir AUDIT-44-2027-LOT354.md. Aucun prix publié n’a été modifié. Lot tarifaire 355 ouvert le 21/11/2026 sur dix fiches distinctes (onze lignes de registre, le Briord figurant deux fois). Le tarif 2027 du Soleya a été confirmé; voir AUDIT-44-2027-LOT355.md. Une donnée publiée du Soleya a été structurée. Lot tarifaire 357 ouvert le 21/11/2026 sur dix fiches, dont le tarif CCP de Bouaye confirmé pour toute l’année 2027; voir AUDIT-44-2027-LOT357.md. La fiche publique de Bouaye a été structurée avec base, taxe et total. Lot tarifaire 358 ouvert le 21/11/2026 sur dix fiches de stationnement, accueil ou services dont les conditions 2027 restent à confirmer; voir AUDIT-44-2027-LOT358.md. Aucun tarif publié du site n'a été modifié. Lot tarifaire 359 ouvert le 21/11/2026 sur dix aires CAMPING-CAR PARK : neuf tarifs d’étape 2027 complets confirmés et structurés dans les données publiques; Blain reste sans taxe 2027 vérifiable. Voir AUDIT-44-2027-LOT359.md. Lot tarifaire 360 ouvert le 21/11/2026 sur dix fiches de camping déjà suivies : un barème camping-car 2027 officiel et détaillé confirmé pour Au Soir d’Été; les neuf autres restent sans prix 2027 opérateur complet ou avec seulement un indice secondaire, une saison d’ouverture ou un total de séjour non assimilable à un tarif par nuit. Aucun prix public du site n’a été modifié. Voir AUDIT-44-2027-LOT360.md.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -5278,6 +5278,15 @@
         "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/la-boutinardiere",
         "https://www.camping-boutinardiere.com/pdf/bouti-contrat-conditions.pdf",
         "https://www.camping-boutinardiere.com/foire-au-questions.html"
+      ],
+      "tariffQueueLot": 360,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Contrôle groupé lot 360 (21/11/2026) : le site officiel confirme l’ouverture 2027 du 02/04 au 27/09; le contrat 2027 décrit les emplacements camping-car, 10 A et la taxe de séjour (0,66 €/adulte/nuit), mais aucun prix de base n’y est renseigné. CampingFrance affiche une référence secondaire 2027 à 65 €/nuit pour forfait d’emplacement, 2 adultes inclus, électricité et adultes supplémentaires en sus. Valeur de piste uniquement, non confirmée par un barème opérateur.",
+      "tariffQueueNextCheck": "Obtenir le prix officiel 2027 d’un emplacement camping-car avec électricité, composition incluse, périodes et frais; vérifier si la référence tierce 65 €/nuit correspond à la même catégorie.",
+      "tariffQueueSources": [
+        "https://www.camping-boutinardiere.com/foire-au-questions.html",
+        "https://www.camping-boutinardiere.com/pdf/bouti-contrat-conditions.pdf",
+        "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/pornic/la-boutinardiere"
       ]
     },
     {
@@ -5313,10 +5322,10 @@
         "https://www.camping-duvieuxchateau.com/",
         "https://www.camping-duvieuxchateau.com/emplacements/"
       ],
-      "tariffQueueLot": 357,
+      "tariffQueueLot": 360,
       "tariffQueueAt": "2026-11-21",
-      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : L’opérateur confirme la saison 2027 et une offre ACSI à 19 €/nuit pour 2 personnes, électricité 10 A et un animal; dates affichées sans millésime explicite et carte requise. Pas de tarif public standard 2027 confirmé.",
-      "tariffQueueNextCheck": "Confirmer avec le camping les dates 2027 exactes du tarif ACSI et obtenir le tarif standard par nuit; garder l’offre membre distincte.",
+      "tariffQueueFinding": "Contrôle groupé lot 360 (21/11/2026) : le site officiel confirme 29 emplacements de 80–90 m², camping-cars admis et branchement 10 A. L’offre ACSI à 19 €/nuit inclut deux personnes, électricité et un animal, mais les dates de l’offre ne portent pas le millésime 2027; elle ne confirme pas le prix public standard 2027.",
+      "tariffQueueNextCheck": "Faire confirmer les dates d’application 2027 de l’offre ACSI et obtenir le forfait standard de passage par nuit, taxes et suppléments séparés.",
       "tariffQueueSources": [
         "https://www.camping-duvieuxchateau.com/emplacements/",
         "https://www.camping-duvieuxchateau.com/"
@@ -5343,14 +5352,13 @@
       "recheckOfficialSource": "https://www.camping-delabaie.com/emplacements/",
       "recheckConditionsSource": "https://www.camping-delabaie.com/wp-content/uploads/2024/10/Contrat-Emplacement-et-CGV-2026.pdf",
       "recheckSecondarySource": "https://www.camping-delabaie.com/wp-content/uploads/2024/10/Contrat-Emplacement-et-CGV-2026-1.pdf",
-      "tariffQueueLot": 355,
+      "tariffQueueLot": 360,
       "tariffQueueAt": "2026-11-21",
-      "tariffQueueFinding": "Lot 355 (21/11/2026) : L’opérateur confirme l’accueil des camping-cars et la saison 2027 du 09/04 au 03/10; le contrat de parcelles accessible reste daté 2026. Le prix d’appel ne détaille ni composition ni millésime 2027.",
-      "tariffQueueNextCheck": "Obtenir un devis 2027 daté pour Standard et Premium; relever personnes, électricité, taxe et frais.",
+      "tariffQueueFinding": "Contrôle groupé lot 360 (21/11/2026) : l’exploitant annonce la saison du 09/04 au 03/10/2027 et l’accueil des camping-cars sur emplacements nus; aucune grille de prix 2027 vérifiable n’apparaît sur les pages opérateur consultées.",
+      "tariffQueueNextCheck": "Obtenir le forfait 2027 par nuit pour camping-car, deux personnes, électricité, taxe et frais; ne pas extrapoler depuis la saison d’ouverture.",
       "tariffQueueSources": [
         "https://www.camping-delabaie.com/",
-        "https://www.camping-delabaie.com/emplacements/",
-        "https://www.camping-delabaie.com/wp-content/uploads/2024/10/Contrat-Emplacement-et-CGV-2026-1.pdf"
+        "https://www.camping-delabaie.com/emplacements/"
       ]
     },
     {
@@ -5376,11 +5384,12 @@
       "recheckCalendarSource": "https://www.olela.fr/camping-les-chalands-fleuris",
       "recheckOfficialSource": "https://www.olela.fr/camping-les-chalands-fleuris/hebergements",
       "recheckPitchTariffSource": "https://www.olela.fr/hebergements/emplacements-camping",
-      "tariffQueueLot": 355,
+      "tariffQueueLot": 360,
       "tariffQueueAt": "2026-11-21",
-      "tariffQueueFinding": "Lot 355 (21/11/2026) : L’opérateur confirme la saison 2027 et distingue les forfaits A et B (2 adultes, véhicule, avec ou sans électricité), mais le prix de base n’apparaît pas dans le contenu public consulté. La taxe et l’offre sur frais de dossier sont des postes séparés.",
-      "tariffQueueNextCheck": "Relever les prix de nuitée 2027 des forfaits A et B; confirmer ampérage, taxe et frais.",
+      "tariffQueueFinding": "Contrôle groupé lot 360 (21/11/2026) : l’opérateur confirme la saison 2027 du 03/04 au 19/09, les forfaits A/B (deux adultes, véhicule, avec ou sans électricité) et une taxe de séjour affichée à 0,52 €/adulte/jour. Les pages de réservation ne rendent pas visible un montant de base 2027; les prix d’options ne sont pas le prix d’emplacement.",
+      "tariffQueueNextCheck": "Obtenir un devis 2027 daté pour les forfaits A et B, confirmer la taxe et frais de dossier. Conserver les options campeurs à part.",
       "tariffQueueSources": [
+        "https://www.olela.fr/camping-les-chalands-fleuris",
         "https://www.olela.fr/camping-les-chalands-fleuris/hebergements"
       ]
     },
@@ -5426,11 +5435,12 @@
         "source": "https://www.camping-leveno.com/promotion-camping-guerande.html",
         "note": "La page officielle présente l’offre comme permanente, sans millésime. Ne pas l’annoncer comme réduction 2027 confirmée avant contrôle au panier."
       },
-      "tariffQueueLot": 355,
+      "tariffQueueLot": 360,
       "tariffQueueAt": "2026-11-21",
-      "tariffQueueFinding": "Lot 355 (21/11/2026) : Les emplacements standard et premium accueillent camping-cars, avec eau, électricité 10 A, 1–2 personnes et un véhicule. Le prix partenaire 25 € est hors taxes et hors saison haute sans millésime; aucun devis public daté 2027 relevé.",
-      "tariffQueueNextCheck": "Capturer un devis officiel 2027 pour deux adultes et camping-car en Standard et Premium; séparer prix public du tarif partenaire.",
+      "tariffQueueFinding": "Contrôle groupé lot 360 (21/11/2026) : l’opérateur annonce l’ouverture 2027 du 09/04 au 19/09 et décrit les parcelles camping-car. La page tarifaire présente 25 € pour un emplacement avec électricité, deux personnes et un animal hors taxes de séjour et hors juillet/août, mais sans période ni millésime applicable; ce montant ne confirme donc pas un tarif 2027.",
+      "tariffQueueNextCheck": "Demander le barème daté 2027 par période et composition camping-car, avec taxe et suppléments; garder 25 € comme repère non daté.",
       "tariffQueueSources": [
+        "https://www.camping-leveno.com/",
         "https://www.camping-leveno.com/emplacements.html",
         "https://www.camping-leveno.com/tarifs-camping-guerande.html"
       ]
@@ -5461,10 +5471,10 @@
       "recheckPitchAndTariffSource": "https://www.guerande-camping.com/emplacements-camping/",
       "recheckBookingSource": "https://www.guerande-camping.com/faq/",
       "recheckConditionsSource": "https://www.guerande-camping.com/faq/",
-      "tariffQueueLot": 357,
+      "tariffQueueLot": 360,
       "tariffQueueAt": "2026-11-21",
-      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : L’opérateur confirme l’accueil des camping-cars et l’ouverture du 17/04 au 26/09/2027, mais la page officielle ne donne pas de montant de nuitée; la valeur 55 €/nuit sur CampingFrance n’est pas confirmée par le camping.",
-      "tariffQueueNextCheck": "Obtenir le tarif opérateur daté pour la catégorie camping-car et le panier final; ne pas reprendre le montant tiers comme prix confirmé.",
+      "tariffQueueFinding": "Contrôle groupé lot 360 (21/11/2026) : l’opérateur confirme la saison 2027 du 17/04 au 26/09 et les emplacements pour camping-cars, mais aucun prix de base 2027 n’est affiché sur les pages officielles consultées. CampingFrance affiche 55 €/nuit sous un intitulé « Tarifs 2027 »; composition, période et application au camping-car ne sont pas confirmées par l’opérateur.",
+      "tariffQueueNextCheck": "Demander à l’établissement un barème 2027 camping-car daté, avec personnes, véhicule, électricité, taxes et frais; ne pas publier le prix tiers comme prix confirmé.",
       "tariffQueueSources": [
         "https://www.guerande-camping.com/",
         "https://www.guerande-camping.com/emplacements-camping/",
@@ -5490,13 +5500,14 @@
       "recheckBookingSource": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/",
       "recheckOfficialSource": "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/",
       "recheckSecondarySource": "https://www.camping-lepetitbois.com/fr/hebergements/nos-offres-speciales/pre-book-2027/",
-      "tariffQueueLot": 357,
+      "tariffQueueLot": 360,
       "tariffQueueAt": "2026-11-21",
-      "tariffQueueFinding": "Lot tarifaire 357 (21/11/2026) : L’opérateur ouvre la saison 2027 du 02/04 au 19/09 et propose une remise 5 % pour des séjours de 7 nuits minimum en emplacements avec sanitaire privé, avec frais de dossier et préférence offerts. Le total de séjour ne vaut pas tarif unitaire par nuit.",
-      "tariffQueueNextCheck": "Confirmer le devis 2027 final pour l’emplacement correspondant au camping-car, dates et taxe; conserver le total de 7 nuits séparé du prix/nuit.",
+      "tariffQueueFinding": "Contrôle groupé lot 360 (21/11/2026) : les emplacements avec sanitaire privatif accueillent les camping-cars et la saison 2027 est du 02/04 au 19/09. L’offre de réservation anticipée applique les tarifs 2026 à un séjour 2027; les dates d’ouverture et remises ne fournissent pas un barème 2027 par nuit.",
+      "tariffQueueNextCheck": "Obtenir le tarif emplacement 2027 par nuit et périodes, préciser la catégorie avec sanitaire privé, taxe, options et frais; ne pas convertir une remise ou un séjour total en prix/nuit.",
       "tariffQueueSources": [
-        "https://www.camping-lepetitbois.com/fr/hebergements/emplacements/emplacement-avec-sanitaire-prive/",
-        "https://www.camping-lepetitbois.com/fr/infos-contact/contact/"
+        "https://www.camping-lepetitbois.com/fr/hebergements/emplacements/",
+        "https://www.camping-lepetitbois.com/fr/hebergements/nos-offres-speciales/pre-book-2027/",
+        "https://www.sunelia.com/fr/france/pays-de-la-loire/loire-atlantique/mesquer/le-petit-bois/hebergements/"
       ]
     },
     {
@@ -5519,14 +5530,22 @@
       "recheckTariffSource": "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/",
       "recheckConditionsSource": "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/",
       "recheckOfficialSource": "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/",
-      "recheckSeasonSource": "https://www.camping-de-la-falaise.com/"
+      "recheckSeasonSource": "https://www.camping-de-la-falaise.com/",
+      "tariffQueueLot": 360,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Contrôle groupé lot 360 (21/11/2026) : l’opérateur annonce une saison du 26/03 au 30/10/2027 et propose des prix pour plusieurs séjours de sept nuits en début de saison (déjà relevés : 247,50 €, 261,50 € et 366,50 € selon catégorie). Ce sont des totaux de séjour, pas des prix unitaires; aucun prix haute saison 2027 ni total final taxe comprise n’est confirmé.",
+      "tariffQueueNextCheck": "Conserver les devis comme totaux datés de sept nuits; demander un tarif par nuit ou un devis final à dates précises, notamment haute saison, taxes et options.",
+      "tariffQueueSources": [
+        "https://www.camping-de-la-falaise.com/",
+        "https://www.camping-de-la-falaise.com/location-emplacement-loire-atlantique/"
+      ]
     },
     {
       "sourceId": "CCF44-MESQUER-CAMPING-AU-SOIR-ETE-2026",
       "name": "Camping Au Soir d'Été — Quimiac, Mesquer",
       "checkedAt": "2026-11-03",
       "lot": 100,
-      "status": "tarif_partiel_2027",
+      "status": "tarif_2027_confirme",
       "finding": "La grille officielle et le contrat 2027 confirment le forfait camping-car 35 m² à 22–43 €/nuit (1–2 personnes), avec électricité, sanitaires et un véhicule inclus ; taxe adulte 0,66 €/nuit comprise dans le tarif communiqué. La FAQ prévoit 100 % de paiement à la réservation pour un emplacement nu de moins de 3 nuits, sans établir une durée minimale. Garantie annulation facultative à 3 €/nuit.",
       "nextCheck": "Vérifier un devis au panier 2027 sur dates fixes : total final, éventuels frais de dossier et toute durée minimale effectivement appliquée. Ne pas compter une seconde fois la taxe de 0,66 €.",
       "source": "https://www.camping-soirdete.com/wp-content/uploads/2026/10/tarifs-2027-telephone.pdf",
@@ -5557,7 +5576,16 @@
       "tariffFollowUp2Sources": [
         "https://www.camping-soirdete.com/emplacement-camping-loire-atlantique/",
         "https://www.camping-soirdete.com/wp-content/uploads/2026/10/que-les-tarifs-2027.pdf"
-      ]
+      ],
+      "tariffQueueLot": 360,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Contrôle groupé lot 360 (21/11/2026) : la grille officielle 2027 résout le point laissé ouvert. Forfait camping-car (35 m², 1–2 personnes) par nuit : 22 € du 02/04 au 02/07 et du 28/08 au 26/09; 31 € du 03/07 au 30/07 et du 21/08 au 27/08; 43 € du 31/07 au 20/08. Électricité, accès sanitaires et emplacement pour une voiture inclus; taxe de séjour départementale 2027 en sus à 0,66 €/adulte/nuit. Pour deux adultes, totaux calculés : 23,32 €, 32,32 € ou 44,32 €/nuit. Le barème vaut pour la saison affichée, pas toute l’année.",
+      "tariffQueueNextCheck": "Tarif camping-car 2027, périodes, inclusions et taxe désormais confirmés par l’opérateur. Garder les totaux calculés étiquetés pour deux adultes et revalider si la commune change la taxe ou le barème.",
+      "tariffQueueSources": [
+        "https://www.camping-soirdete.com/wp-content/uploads/2026/10/que-les-tarifs-2027.pdf",
+        "https://www.camping-soirdete.com/faq/"
+      ],
+      "tariffQueueStatus": "tarif_2027_confirme"
     },
     {
       "sourceId": "CCF44-ST-MICHEL-RIVIERA-2026",
@@ -5584,13 +5612,13 @@
       "recheckOfficialSource": "https://www.aloa-vacances.com/la-riviera/accueil/",
       "recheckTariffSource": "https://www.aloa-vacances.com/la-riviera/accueil/",
       "recheckConditionsSource": "https://www.aloa-vacances.com/la-riviera/informations-detaillees/",
-      "tariffQueueLot": 355,
+      "tariffQueueLot": 360,
       "tariffQueueAt": "2026-11-21",
-      "tariffQueueFinding": "Lot 355 (21/11/2026) : La taxe de séjour 2027 est affichée, mais les pages de tarifs accessibles concernent les locations et ne confirment pas une nuitée en emplacement nu camping-car.",
-      "tariffQueueNextCheck": "Confirmer l’accueil camping-car sur emplacement nu puis demander le prix et les frais applicables à cette formule.",
+      "tariffQueueFinding": "Contrôle groupé lot 360 (21/11/2026) : l’opérateur confirme la saison 2027 du 03/04 au 12/09 et publie une taxe de séjour 2027 de 0,66 €/adulte/jour ainsi qu’une redevance écologique de 0,69 €/personne/jour. Les montants de location affichés ne concernent pas les emplacements nus; aucun prix 2027 de l’emplacement camping-car n’est confirmé.",
+      "tariffQueueNextCheck": "Demander le prix de l’emplacement nu par nuit pour camping-car, personnes et électricité incluses, et clarifier le mode de calcul de la redevance écologique pour cette formule.",
       "tariffQueueSources": [
-        "https://www.aloa-vacances.com/la-riviera/informations-detaillees/",
-        "https://www.aloa-vacances.com/la-riviera/locations-camping-riviera-aloa/"
+        "https://www.aloa-vacances.com/la-riviera/accueil/",
+        "https://www.aloa-vacances.com/la-riviera/informations-detaillees/"
       ]
     },
     {
