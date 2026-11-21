@@ -64,7 +64,7 @@
       "Pas de point d'eau, de vidange ou d'électricité sur le parking",
       "Accès uniquement pendant vacances scolaires, jours fériés et week-ends (vendredi 18 h à dimanche 18 h)"
     ],
-    "price": "12 € / 24 h du 1er novembre 2026 au 31 décembre 2027, taxe de séjour à 0 € selon l'exploitant. Réservation obligatoire via CAMPING-CAR PARK, même pour une place disponible.",
+    "price": "12 € / 24 h du 2 novembre 2026 au 31 décembre 2027; taxe de séjour à 0 € / 24 h jusqu’au 31 décembre 2027. Réservation obligatoire. Le forfait 5 h + services à 6 € est distinct, mais son libellé reste à clarifier car l’aire indique ne pas disposer de services techniques.",
     "status": "8 chemin de la Tonnelle, 44350 Guérande. Parking d'établissement scolaire : 3 à 4 places possibles devant le portail selon longueur, autres emplacements dans la cour sous réserve de gabarit. Uniquement vacances scolaires, jours fériés et week-ends, sans borne de services. À ne pas confondre avec CAMPING-CAR PARK avenue de la Brière.",
     "source": "https://www.openstreetmap.org/node/14277689206",
     "latitude": 47.32543,
@@ -79,14 +79,14 @@
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/camping-car-a-lecole-de-guerande",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-17",
-      "status": "partial",
-      "label": "12,00 € / 24 h + taxe publiée : 0,00 €",
-      "note": "Barème couvrant 2027 et publié jusqu’au 31/12/2027. La taxe de séjour est elle aussi publiée jusqu’au 31/12/2027. Réservation obligatoire; la page consultée ne signale pas de frais de réservation. Accès uniquement pendant les vacances scolaires, jours fériés et week-ends du vendredi 18 h au dimanche 18 h. Aucun service d’eau, de vidange ou d’électricité ; le forfait générique « 5 h + services » ne démontre pas la présence de services sur ce parking. Coût éventuel de carte d’accès distinct.",
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "12 € / 24 h (taxe 0 €)",
+      "note": "12 € / 24 h du 2 novembre 2026 au 31 décembre 2027; taxe de séjour à 0 € / 24 h jusqu’au 31 décembre 2027. Réservation obligatoire. Le forfait 5 h + services à 6 € est distinct, mais son libellé reste à clarifier car l’aire indique ne pas disposer de services techniques.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/camping-car-a-lecole-de-guerande",
       "baseAmountEUR": 12,
       "unit": "24h",
-      "validFrom": "2026-11-01",
+      "validFrom": "2026-11-02",
       "validThrough": "2027-12-31",
       "touristTaxConfirmed": true,
       "touristTaxEUR": 0,
@@ -132,7 +132,7 @@
       "Branchement électrique selon équipement de l'aire",
       "Stationnement sécurisé à accès réglementé"
     ],
-    "price": "13,50 € / 24 h du 1er octobre 2026 au 31 décembre 2027, hors taxe de séjour 1,32 € en 2026 (total indicatif 14,82 €). Forfait 5 h + services : 6 €.",
+    "price": "13,50 € / 24 h du 1er octobre 2026 au 31 décembre 2027 + taxe de séjour 1,32 € / 24 h en 2027 = 14,82 € / 24 h. Ancien barème : 15,50 € / 24 h du 20 juillet au 30 septembre 2026. Parking 5 h + services : 6 € (distinct).",
     "status": "39 avenue de la Brière, Guérande ; 34 emplacements. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://www.openstreetmap.org/way/276470924",
     "latitude": 47.33385,
@@ -145,7 +145,22 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande",
-    "priceCheckedAt": "2026-11-17"
+    "priceCheckedAt": "2026-11-17",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "14,82 € / 24 h (13,50 € + taxe 1,32 €)",
+      "note": "13,50 € / 24 h du 1er octobre 2026 au 31 décembre 2027 + taxe de séjour 1,32 € / 24 h en 2027 = 14,82 € / 24 h. Ancien barème : 15,50 € / 24 h du 20 juillet au 30 septembre 2026. Parking 5 h + services : 6 € (distinct).",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/guerande",
+      "baseAmountEUR": 13.5,
+      "unit": "24h",
+      "validFrom": "2026-10-01",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.32,
+      "totalStopoverAndTaxEUR": 14.82
+    }
   },
   {
     "department": "44",
@@ -157,7 +172,7 @@
       "Branchement électrique selon équipement de l'aire",
       "Stationnement sécurisé à accès réglementé"
     ],
-    "price": "9,57 € / 24 h du 10 septembre 2026 au 31 décembre 2027, hors taxe de séjour de 1,32 € en 2026 (total indicatif 10,89 €). Forfait 5 h + services : 6 €.",
+    "price": "Tarif opérateur au 19/11/2026 : 9,57 € / 24 h jusqu’au 31 décembre 2027 + taxe 2027 de 1,32 € / 24 h = 10,89 € / 24 h. Parking 5 h + services : 6 € (distinct). L’exploitant affiche l’aire ouverte.",
     "status": "1 chemin Biochon, Préfailles ; 50 emplacements. Vérifier l'ouverture effective et la disponibilité : les pages de l'exploitant ont signalé ponctuellement des fermetures. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://www.openstreetmap.org/way/292800381",
     "latitude": 47.1298,
@@ -170,7 +185,22 @@
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon",
-    "priceCheckedAt": "2026-11-17"
+    "priceCheckedAt": "2026-11-17",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "10,89 € / 24 h (9,57 € + taxe 1,32 €)",
+      "note": "Tarif opérateur au 19/11/2026 : 9,57 € / 24 h jusqu’au 31 décembre 2027 + taxe 2027 de 1,32 € / 24 h = 10,89 € / 24 h. Parking 5 h + services : 6 € (distinct). L’exploitant affiche l’aire ouverte.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/prefailles-biochon",
+      "baseAmountEUR": 9.57,
+      "unit": "24h",
+      "validFrom": "2026-11-19",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.32,
+      "totalStopoverAndTaxEUR": 10.89
+    }
   },
   {
     "department": "44",
@@ -208,7 +238,7 @@
       "Sanitaires du camping accessibles",
       "Électricité sur l'aire non annoncée par le gestionnaire"
     ],
-    "price": "18 € / 24 h du 12 au 30 octobre 2026 puis 15 € / 24 h à compter du 31 octobre 2026, taxe de séjour 2026 1,32 € en plus. Forfait 5 h + services : 6 €.",
+    "price": "15 € / 24 h, barème applicable jusqu’au 31 décembre 2027, + taxe 2027 de 1,32 € / 24 h = 16,32 € / 24 h. Aire fermée pour l’hiver du 02/11 au 01/04/2027. Parking 5 h + services : 6 € (distinct).",
     "status": "21 boulevard du Petit-Port, Nantes ; 11 emplacements selon l'exploitant en octobre 2026. Accès tramway. L'électricité sur l'aire n'est pas annoncée : ne pas la promettre. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://www.openstreetmap.org/way/411102226",
     "latitude": 47.24331,
@@ -221,7 +251,22 @@
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
-    "priceCheckedAt": "2026-11-17"
+    "priceCheckedAt": "2026-11-17",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "16,32 € / 24 h (15 € + taxe 1,32 €)",
+      "note": "15 € / 24 h, barème applicable jusqu’au 31 décembre 2027, + taxe 2027 de 1,32 € / 24 h = 16,32 € / 24 h. Aire fermée pour l’hiver du 02/11 au 01/04/2027. Parking 5 h + services : 6 € (distinct).",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/nantes-petit-port",
+      "baseAmountEUR": 15,
+      "unit": "24h",
+      "validFrom": "2026-12-31",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.32,
+      "totalStopoverAndTaxEUR": 16.32
+    }
   },
   {
     "department": "44",
@@ -260,7 +305,7 @@
       "Branchement électrique selon équipement de l'aire",
       "Stationnement sécurisé à accès réglementé"
     ],
-    "price": "10,79 € / 24 h du 1er octobre 2026 au 31 décembre 2027, hors taxe 1,22 € en 2026 (total indicatif 12,01 €). Forfait 5 h + services : 6 €.",
+    "price": "10,79 € / 24 h du 18 novembre 2026 au 31 décembre 2027 + taxe de séjour 1,32 € / 24 h en 2027 = 12,11 € / 24 h. Le prix dynamique de 12,01 € correspond à la taxe 2026 de 1,22 €. Parking 5 h + services : 6 € (distinct).",
     "status": "Avenue du Général-de-Gaulle, Piriac-sur-Mer ; 10 emplacements. Borne à l'intérieur de l'aire. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://www.openstreetmap.org/way/626494582",
     "latitude": 47.39634,
@@ -273,7 +318,22 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-brambell",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-brambell",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-brambell",
-    "priceCheckedAt": "2026-11-17"
+    "priceCheckedAt": "2026-11-17",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "12,11 € / 24 h (10,79 € + taxe 1,32 €)",
+      "note": "10,79 € / 24 h du 18 novembre 2026 au 31 décembre 2027 + taxe de séjour 1,32 € / 24 h en 2027 = 12,11 € / 24 h. Le prix dynamique de 12,01 € correspond à la taxe 2026 de 1,22 €. Parking 5 h + services : 6 € (distinct).",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/piriac-brambell",
+      "baseAmountEUR": 10.79,
+      "unit": "24h",
+      "validFrom": "2026-11-18",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.32,
+      "totalStopoverAndTaxEUR": 12.11
+    }
   },
   {
     "department": "44",
@@ -739,7 +799,7 @@
       "Branchement électrique selon équipement de l'aire",
       "Stationnement sécurisé à accès réglementé"
     ],
-    "price": "13,95 € / 24 h du 1er octobre 2026 au 31 décembre 2027. Taxe de séjour publiée à 1,32 € / 24 h en 2026 et en 2027 ; total indicatif : 15,27 € / 24 h. Forfait 5 h + services : 6 €.",
+    "price": "",
     "status": "Rue du Clos-Mora, La Turballe ; 23 places, électricité 6 A. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://www.openstreetmap.org/way/1284914882",
     "latitude": 47.35157,
@@ -752,7 +812,22 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-turballe",
-    "priceCheckedAt": "2026-11-17"
+    "priceCheckedAt": "2026-11-17",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "",
+      "note": "",
+      "source": "",
+      "baseAmountEUR": 0,
+      "unit": "24h",
+      "validFrom": "",
+      "validThrough": "",
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 0,
+      "totalStopoverAndTaxEUR": 0
+    }
   },
   {
     "department": "44",
@@ -853,7 +928,7 @@
       "Borne eau et vidange camping-car",
       "Accueil dans l'écodomaine avec produits de la ferme"
     ],
-    "price": "13 € / 24 h du 1er novembre 2026 au 31 décembre 2027. Taxe de séjour : 0,88 € / 24 h en 2026 (total 13,88 €) puis 1,10 € / 24 h en 2027 (total indicatif 14,10 €). Forfait 5 h + services : 6 €. Le tarif d'étape et la taxe sont publiés par l'exploitant ; vérifier d'éventuels frais de carte ou de réservation.",
+    "price": "13 € / 24 h du 19 novembre 2026 au 31 décembre 2027 + taxe 2027 de 1,10 € / 24 h = 14,10 € / 24 h. Le tarif dynamique de 13,88 € correspond à la taxe 2026 de 0,88 €. Parking 5 h + services : 6 € (distinct).",
     "status": "2 la Basse Goguillais, 44320 Saint-Père-en-Retz. Aire à accès réglementé, distincte du camping de l'écodomaine. Tarif et horaires selon l'exploitant.",
     "source": "https://www.openstreetmap.org/way/1323469438",
     "latitude": 47.26151,
@@ -868,14 +943,14 @@
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/saint-pere-en-retz",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-17",
-      "status": "partial",
-      "label": "13,00 € / 24 h + taxe de séjour 1,10 €",
-      "note": "Tarif d'étape de 13,00 € publié du 01/11/2026 au 31/12/2027. L'exploitant publie une taxe de séjour de 1,10 € / 24 h pour toute l'année 2027, soit 14,10 € pour étape et taxe. Carte d'accès et éventuels frais de réservation à vérifier séparément. Le forfait 5 h + services à 6 € n'a pas de période 2027 explicite.",
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "14,10 € / 24 h (13 € + taxe 1,10 €)",
+      "note": "13 € / 24 h du 19 novembre 2026 au 31 décembre 2027 + taxe 2027 de 1,10 € / 24 h = 14,10 € / 24 h. Le tarif dynamique de 13,88 € correspond à la taxe 2026 de 0,88 €. Parking 5 h + services : 6 € (distinct).",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/saint-pere-en-retz",
       "baseAmountEUR": 13,
       "unit": "24h",
-      "validFrom": "2026-11-01",
+      "validFrom": "2026-11-19",
       "validThrough": "2027-12-31",
       "touristTaxConfirmed": true,
       "touristTaxEUR": 1.1,
@@ -893,7 +968,7 @@
       "Branchement électrique selon équipement de l'aire",
       "Stationnement sécurisé à accès réglementé"
     ],
-    "price": "12,22 € / 24 h affichés par l'exploitant ; taxe de séjour à 0 € selon son barème publié jusqu'au 31 décembre 2027. Le total affiché est 12,22 € / 24 h ; tarif modifiable avant paiement. Conditions du forfait 5 h + services à consulter.",
+    "price": "12,22 € / 24 h du 1er novembre 2026 au 31 décembre 2027 + taxe de séjour à 0 € / 24 h = 12,22 € / 24 h. Parking 5 h + services : 6 € (distinct).",
     "status": "Château de la Touche, La Limouzinière ; 10 emplacements selon l'exploitant, électricité 6 A. Réseau CAMPING-CAR PARK, accès et tarif variables selon la saison et la taxe de séjour ; vérifier avant déplacement.",
     "source": "https://www.openstreetmap.org/way/1432348180",
     "latitude": 46.989577,
@@ -906,7 +981,22 @@
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-limouziniere",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-limouziniere",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-limouziniere",
-    "priceCheckedAt": "2026-11-17"
+    "priceCheckedAt": "2026-11-17",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "12,22 € / 24 h (taxe 0 €)",
+      "note": "12,22 € / 24 h du 1er novembre 2026 au 31 décembre 2027 + taxe de séjour à 0 € / 24 h = 12,22 € / 24 h. Parking 5 h + services : 6 € (distinct).",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/la-limouziniere",
+      "baseAmountEUR": 12.22,
+      "unit": "24h",
+      "validFrom": "2026-11-01",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 0,
+      "totalStopoverAndTaxEUR": 12.22
+    }
   },
   {
     "department": "44",
@@ -959,7 +1049,7 @@
       "Eau potable et électricité selon conditions de l'exploitant",
       "À proximité du canal de Nantes à Brest"
     ],
-    "price": "Barème saisonnier : 12,73 € / 24 h du 01/10/2026 au 31/12/2027. Taxe publiée : 1,10 € / 24 h jusqu’au 31/12/2026 seulement. La page affiche aussi un tarif dynamique de 14,94 € incluant 1,10 € de taxe, incompatible avec le calcul 12,73 € + 1,10 € ; total effectif à confirmer. Forfait 5 h + services : 6 € (distinct de la nuitée).",
+    "price": "Base de 12,73 € / 24 h annoncée du 01/10/2026 au 31/12/2027. Taxe 2027 non publiée dans le barème disponible; la page CCP référencée répond 404 et le total dynamique 14,94 € contredit l’addition avec la taxe 2026. Total 2027 non confirmé. Parking 5 h + services : 6 € (distinct).",
     "status": "43 rue de la Petite-Arche, 44130 Blain, près du canal et du château de la Groulais. Aire de 17 places, ouverte selon la page de l'exploitant. Coordonnées GPS publiées par CAMPING-CAR PARK.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/blain",
     "sourceOfficial": "https://www.campingcarpark.com/en_GB/motor-home/pays-de-la-loire/loire-atlantique/blain?areaType=stopover-site-motorhome",
@@ -971,11 +1061,11 @@
     "importReview": "Contrôle officiel du 17/11/2026 : grille saisonnière à 12,73 €/24 h du 01/10/2026 au 31/12/2027 ; taxe publiée à 1,10 €/24 h jusqu’au 31/12/2026 seulement. L’encart dynamique « Right now » affiche 14,94 € dont 1,10 € de taxe, alors que 12,73 € + 1,10 € = 13,83 €. Cette contradiction est conservée comme non résolue ; aucun total corrigé ni taxe 2027 n’est certifié. Forfait 5 h + services à 6 €, distinct de la nuitée.",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-17",
+      "checkedAt": "2026-11-21",
       "status": "partial",
-      "label": "Barème de base : 12,73 € / 24 h ; taxe 2027 non confirmée",
-      "note": "Grille saisonnière officielle : 12,73 €/24 h du 01/10/2026 au 31/12/2027. La taxe de 1,10 € n’est publiée que jusqu’au 31/12/2026. En parallèle, l’encart dynamique affiche 14,94 € dont 1,10 € de taxe ; ce montant ne concorde pas avec le barème (12,73 € + 1,10 € = 13,83 € en 2026). Garder la nuitée, la taxe et le total affiché séparés ; total final à confirmer auprès de l’exploitant. Forfait 5 h + services : 6 €, distinct du tarif de nuitée. Coût éventuel de carte d’accès distinct.",
-      "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/blain?areaType=aire-etape-camping-car",
+      "label": "Tarif de base 12,73 € / 24 h; taxe et total 2027 à confirmer",
+      "note": "Base de 12,73 € / 24 h annoncée du 01/10/2026 au 31/12/2027. Taxe 2027 non publiée dans le barème disponible; la page CCP référencée répond 404 et le total dynamique 14,94 € contredit l’addition avec la taxe 2026. Total 2027 non confirmé. Parking 5 h + services : 6 € (distinct).",
+      "source": "https://www.campingcarpark.com/en_GB/motor-home/pays-de-la-loire/loire-atlantique/blain?areaType=stopover-site-motorhome",
       "baseAmountEUR": 12.73,
       "unit": "24h",
       "validFrom": "2026-10-01",
@@ -995,7 +1085,7 @@
       "Réservation préalable obligatoire",
       "Pas de sanitaires annoncés sur l'aire"
     ],
-    "price": "Tarif de base du 1er octobre 2026 au 31 décembre 2027 : 12,73 € / 24 h. Taxe de séjour : 1,32 € / 24 h en 2026 et 2027, soit 14,05 € / 24 h au total indicatif. Forfait 5 h + services : 6 € (distinct de la nuitée). Réservation obligatoire ; prix final à vérifier à la réservation.",
+    "price": "12,73 € / 24 h du 18 novembre 2026 au 31 décembre 2027 + taxe de séjour 1,32 € / 24 h en 2027 = 14,05 € / 24 h. Réservation obligatoire et accueil le week-end. À distinguer de l’aire de services CCP séparée de Pornic à 2 € / service.",
     "status": "5 rue du Docteur-Ange-Guépin, 44210 Pornic. Aire au siège social de CAMPING-CAR PARK. Accueil surtout le week-end (horaires selon calendrier de réservation), réservation impérative. À ne pas confondre avec la borne de services du Val Saint-Martin.",
     "latitude": 47.1098,
     "longitude": -2.066734,
@@ -1007,14 +1097,14 @@
     "importReview": "Contrôle officiel du 17/11/2026 : grille saisonnière confirmant 12,73 €/24 h jusqu’au 31/12/2027 et taxe de séjour de 1,32 €/24 h pour 2026 et 2027, soit 14,05 € indicatifs. Forfait 5 h + services : 6 €, distinct de la nuitée. Réservation obligatoire ; frais éventuels de carte d’accès distincts.",
     "season2027": {
       "year": 2027,
-      "checkedAt": "2026-11-17",
-      "status": "partial",
-      "label": "12,73 € / 24 h + taxe de séjour 1,32 € (total indicatif 14,05 €)",
-      "note": "Barème de base et taxe de séjour publiés jusqu’au 31/12/2027 : 12,73 € + 1,32 € = 14,05 € / 24 h. Forfait 5 h + services à 6 €, distinct de la nuitée. Réservation obligatoire et accueil selon calendrier. Coût éventuel de carte d’accès distinct ; vérifier le montant final avant paiement.",
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "14,05 € / 24 h (12,73 € + taxe 1,32 €)",
+      "note": "12,73 € / 24 h du 18 novembre 2026 au 31 décembre 2027 + taxe de séjour 1,32 € / 24 h en 2027 = 14,05 € / 24 h. Réservation obligatoire et accueil le week-end. À distinguer de l’aire de services CCP séparée de Pornic à 2 € / service. Le parking 5 h + services est distinct. Cette aire d’étape réservée ne se confond pas avec l’aire de services CCP distincte à Pornic.",
       "source": "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/loire-atlantique/pornic",
       "baseAmountEUR": 12.73,
       "unit": "24h",
-      "validFrom": "2026-11-01",
+      "validFrom": "2026-11-18",
       "validThrough": "2027-12-31",
       "touristTaxConfirmed": true,
       "touristTaxEUR": 1.32,
