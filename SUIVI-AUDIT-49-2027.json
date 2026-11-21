@@ -4,12 +4,12 @@
   "displayedCount": 110,
   "rawRegionalRows": 114,
   "deduplicatedRows": 4,
-  "currentLot": 378,
+  "currentLot": 379,
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 110
   },
-  "note": "Lot 378 : fiches 1–10 vérifiées en groupe. Aucun lieu ajouté. Un tarif 2027 confirmé (CCP Ingrandes-le-Fresne-sur-Loire : 12,52 €/24 h du 01/10/2026 au 31/12/2027; taxe affichée à 0 €/24 h sur la même période). Les fiches 1–9 n'ont pas de tarif 2027 confirmé; tarifs non millésimés ou frais de service restent clairement séparés. La source Pages sert 114 lignes brutes, avec 4 doublons écartés par l'application, soit 110 fiches affichées. L'API de la branche main a renvoyé un fichier aires-pdl.json vide; aucun écrasement du fichier source effectué.",
+  "note": "Lot 378 : fiches 1–10 vérifiées en groupe. Aucun lieu ajouté. Un tarif 2027 confirmé (CCP Ingrandes-le-Fresne-sur-Loire : 12,52 €/24 h du 01/10/2026 au 31/12/2027; taxe affichée à 0 €/24 h sur la même période). Lot 379 : fiches 11–20 vérifiées. Découverte d'une attribution tarifaire erronée à corriger : la fiche La Bastille (1 rue de la Bastille) est gratuite selon Anjou Tourisme; les 12,52 €/24 h concernent le site distinct CCP Le Port. Chenillé-Changé a une ambiguïté entre 8 € de nuitée, 8 € de service, 5 € d'électricité et 12 € sur l'aire naturelle; aucun tarif 2027 n'est considéré confirmé sans clarification. Les autres prix publiés sont datés 2026 ou non millésimés, ou non publiés. 20/110 fiches contrôlées, aucun lieu ajouté. Le fichier Pages sert 114 lignes brutes, 4 doublons écartés. L'API GitHub main renvoie un aires-pdl.json vide; aucun écrasement du fichier de données.",
   "entries": [
     {
       "sourceId": "ACCAMPDL049V50ICDQ",
@@ -131,6 +131,128 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/maine-et-loire/ingrandes-le-fresne-sur-loire?areaType=camping"
       ],
       "lot": 378,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V5001MG",
+      "name": "AIRE DE STATIONNEMENT DE BRISSAC-QUINCÉ",
+      "status": "tarif_2027_non_publie_gratuite_2023_a_reconfirmer",
+      "finding": "La fiche touristique mise à jour le 18/06/2026 décrit eau, toilettes, vidange et stationnement mais ne publie aucun tarif. La gratuité provient d’un document touristique 2023 et n’est pas reconfirmée pour 2027.",
+      "nextCheck": "Demander à la mairie si stationnement et services sont toujours gratuits en 2027.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-stationnement-de-brissac-quince-brissac-loire-aubance_TFOACCAMPDL049V5001MG"
+      ],
+      "lot": 379,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V500154",
+      "name": "Aire de service camping-car de Chenillé-Changé",
+      "status": "tarif_2026_ambigu_services_vs_nuitee_2027_non_confirme",
+      "finding": "Fiche touristique mise à jour le 25/06/2026 affiche une base nuitée de 8 €. Le texte contributif distingue toutefois un forfait de 8 € pour eau/vidange, 5 € pour l’électricité et 12 € la nuit sur l’aire naturelle avec sanitaires. Les composantes et le site concernés doivent être confirmés; aucun prix 2027 publié.",
+      "nextCheck": "Clarifier avec la commune si les 8 € couvrent la nuitée ou seulement l’eau/vidange, et distinguer les 5 € d’électricité et les 12 € de l’aire naturelle.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-service-camping-car-de-chenille-change-chenille-champteusse_TFOACCAMPDL049V500154",
+        "https://www.anjou-tourisme.com/fr/diffusio/campings/aire-naturelle-de-camping-de-chenille-change-chenille-champteusse_TFOHPAPDL049V5000QP"
+      ],
+      "lot": 379,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50EIJT",
+      "name": "Aire de camping-car du camping Paradis La Promenade",
+      "status": "tarifs_tourisme_non_millesimes_2027_non_confirme",
+      "finding": "Ôsez Mauges publie 16 €/nuit pour deux personnes (Nature, électricité en supplément) et 19,50 €/nuit pour deux personnes (Confort, électricité 10 A comprise). La page n’indique pas de millésime tarifaire; pas de tarif 2027 confirmé.",
+      "nextCheck": "Demander au camping la grille 2027 et les suppléments applicables aux camping-cars.",
+      "sources": [
+        "https://www.osezmauges.fr/aire-camping-car/aire-de-camping-car-du-camping-paradis-la-promenade/"
+      ],
+      "lot": 379,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V5000RY",
+      "name": "Aire de camping-car Le Champalud",
+      "status": "service_5_euros_24h_tarif_nuitee_non_publie",
+      "finding": "Ôsez Mauges indique 5 €/24 h pour eau et électricité. Ce montant porte sur les services; aucun tarif de stationnement ou de nuitée n’est affiché. Millésime 2027 absent.",
+      "nextCheck": "Demander si le tarif des fluides est reconduit en 2027 et confirmer séparément le droit de stationner la nuit.",
+      "sources": [
+        "https://www.osezmauges.fr/aire-camping-car/aire-de-camping-car-le-champalud/"
+      ],
+      "lot": 379,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL044V519OU3",
+      "name": "Aire de stationnement - Le Fresne sur Loire - La Bastille",
+      "status": "correction_requise_tarif_ccp_attribue_a_une_aire_distincte",
+      "finding": "Anjou Tourisme décrit La Bastille au 1 rue de la Bastille comme une aire de camping-car gratuite, à côté du terrain de camping. Le tarif CCP de 12,52 €/24 h concerne Le Port, site distinct : ne pas l’attribuer à La Bastille. La gratuité est publiée en 2026; millésime 2027 à reconfirmer.",
+      "nextCheck": "Dans la fiche La Bastille, retirer le tarif CCP 12,52 €/24 h et indiquer la gratuité publiée en 2026, à reconfirmer pour 2027. Conserver le tarif CCP sur la fiche distincte du Port.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-stationnement-le-fresne-sur-loire-la-bastille-ingrandes-le-fresne-sur-loire_TFOACCAMPDL044V519OU3",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/maine-et-loire/ingrandes-le-fresne-sur-loire"
+      ],
+      "lot": 379,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50014U",
+      "name": "Aire du bois de la Pentière",
+      "status": "tarif_stationnement_et_services_non_publie",
+      "finding": "L’Office de tourisme de l’Anjou Bleu confirme trois places, eau et vidange, ouverture 2026 toute l’année sauf autour de la Fête des Moissons; aucun tarif n’est publié.",
+      "nextCheck": "Demander à la mairie si l’accès et les services sont gratuits ou payants en 2027.",
+      "sources": [
+        "https://www.tourisme-anjoubleu.com/offres/aire-du-bois-de-la-pentiere-angrie-fr-2792606/"
+      ],
+      "lot": 379,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V5001DE",
+      "name": "Aire d'accueil de camping-car du port Maillard",
+      "status": "tarif_non_publie_par_destination_angers",
+      "finding": "Destination Angers confirme environ dix places, parking au bord de Loire, toilettes et aire de pique-nique; accès hors période de crue. Aucun tarif de stationnement n’est publié; aucune borne eau/vidange/électricité listée.",
+      "nextCheck": "Demander à Loire-Authion le tarif 2027 et les règles de nuitée en dehors des périodes de crue.",
+      "sources": [
+        "https://www.destination-angers.com/tourisme/organiser-son-sejour/hebergements-angers/campings-angers/aire-daccueil-de-camping-car-du-port-maillard-loire-authion-fr-1657313/"
+      ],
+      "lot": 379,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50008D",
+      "name": "Aire de camping-car de la Poitevinière",
+      "status": "tarif_non_publie_fiche_tourisme_ancienne",
+      "finding": "Anjou Tourisme décrit eau, électricité, vidanges, toilettes et fermeture du 13 au 15 juillet pour la manifestation; la fiche est mise à jour le 24/04/2025 et ne publie aucun prix. Les conditions tarifaires et d’ouverture 2027 ne sont pas confirmées.",
+      "nextCheck": "Reconfirmer auprès de la commune les tarifs et la période d’ouverture 2027.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-camping-car-de-la-poiteviniere-beaupreau-en-mauges_TFOACCAMPDL049V50008D"
+      ],
+      "lot": 379,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMKZSCCLEPUYNOTREDAME",
+      "name": "Aire camping-cars du Puy-Notre-Dame",
+      "status": "gratuit_stationnement_et_services_publication_municipale_non_millesimee_2027",
+      "finding": "La mairie confirme une aire gratuite près du centre, avec eau potable, vidange et recharge des accus, où passer la nuit. Aucun barème 2027 spécifique n’est publié.",
+      "nextCheck": "Conserver la gratuité publiée; reconfirmer si le règlement communal change.",
+      "sources": [
+        "https://ville-lepuynotredame.fr/culture-tourisme/sejourner/accueil-camping-car/"
+      ],
+      "lot": 379,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V500152",
+      "name": "Aire de la coulée verte",
+      "status": "tarif_stationnement_et_services_non_publie",
+      "finding": "L’Office de tourisme de l’Anjou Bleu confirme quatre emplacements, eau, électricité, aire de pique-nique et disponibilité toute l’année 2026; aucun tarif n’est publié.",
+      "nextCheck": "Demander à la commune si stationnement et services sont gratuits ou payants en 2027.",
+      "sources": [
+        "https://www.tourisme-anjoubleu.com/offres/aire-de-la-coulee-verte-saint-michel-et-chanveaux-ombree-danjou-fr-2792602/"
+      ],
+      "lot": 379,
       "checkedAt": "2026-11-21"
     }
   ]
