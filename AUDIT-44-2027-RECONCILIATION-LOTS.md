@@ -103,3 +103,8 @@ Neuf tarifs d’étape 2027 sont confirmés avec base, taxe et total : Guérande
 ## Lot tarifaire 360 — 21 novembre 2026
 
 Dix fiches de camping contrôlées ensemble : La Boutinardière, le Vieux Château, la Baie, les Chalands Fleuris, le Domaine de Léveno, l’Étang du Pays Blanc, le Petit Bois, La Falaise, Au Soir d’Été et La Riviera. Un tarif opérateur camping-car 2027 complet a été confirmé pour Au Soir d’Été (22/31/43 €/nuit selon période, avant taxe de 0,66 €/adulte/nuit). Neuf autres fiches restent sans tarif opérateur complet ou n’ont qu’un indice secondaire, une saison d’ouverture ou un total de séjour. Aucun prix public n’a été modifié. Détails et sources : [AUDIT-44-2027-LOT360.md](AUDIT-44-2027-LOT360.md).
+
+
+## Lot tarifaire 361 — 21 novembre 2026
+
+Dix fiches CAMPING-CAR PARK contrôlées ensemble : huit tarifs d’étape 2027 confirmés à partir du tarif de base 24 h et de la taxe 2027; deux bornes de services conservées hors nuitée. Saint-Viaud est classé « services sans nuitée » malgré une ligne « 24 h » ambiguë; Pornic reste contradictoire entre tarif par service et ligne 24 h/taxe. Les produits de 5 h demeurent distincts. Aucun lieu ajouté ni tarif public réécrit dans ce lot. Détails : [AUDIT-44-2027-LOT361.md](AUDIT-44-2027-LOT361.md).
