@@ -1,0 +1,124 @@
+{
+  "scope": "Audit du tarif 2027 pour les dix premières fiches d’aires de service du catalogue régional Orne (61), dans l’ordre alphabétique de la source. Ce suivi porte sur ce lot et ne représente pas l’inventaire complet du département ni les fiches déjà présentes dans aires.json.",
+  "startedAt": "2026-11-21",
+  "sourceInventory": "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
+  "currentLot": 422,
+  "department": "61",
+  "progress": {
+    "checkedInLot": 10,
+    "totalInLot": 10,
+    "departmentTotal": null
+  },
+  "note": "Lot 422 : dix points de services contrôlés. Aucun tarif de nuitée/service explicitement confirmé pour 2027. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
+  "entries": [
+    {
+      "place": "L’Aigle — aire communale, 15 bis avenue du Mont-Saint-Michel",
+      "lot": 422,
+      "checkedAt": "2026-11-21",
+      "status": "Le catalogue Tourisme 61 identifie le point. Les sources publiques divergent sur le prix: un relevé OSM repris par Spot2play le dit gratuit, tandis qu’un annuaire le qualifie d’aire de services payante. Aucune grille officielle datée 2027 trouvée; ne pas publier « gratuit » sans confirmation communale.",
+      "nextCheck": "Demander à la mairie le prix séparé du stationnement et des services, ainsi que le fonctionnement actuel.",
+      "sources": [
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
+        "https://spot2play.com/spot/aire-de-camping-cars-laigle/",
+        "https://www.lecampeur.fr/aire/aire-de-services-payante-laigle-ph4lhx"
+      ]
+    },
+    {
+      "place": "Alençon — aire de services du camping de Guéramé",
+      "lot": 422,
+      "checkedAt": "2026-11-21",
+      "status": "Normandie Tourisme décrit une aire gratuite à l’entrée du camping, avec eau potable, vidanges eaux grises/noires et WC. Le document 2026 de la communauté urbaine confirme « aire de service camping-cars gratuite ». Cela confirme le prix publié en 2026, pas sa validité pour 2027.",
+      "nextCheck": "Confirmer auprès de la communauté urbaine le maintien de la gratuité en 2027.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-services-du-camping-de-guerame/",
+        "https://www.cu-alencon.fr/app/uploads/2024/11/Camping_Guerame_depliant_A5_2024_Septembre2024.pdf"
+      ]
+    },
+    {
+      "place": "Valframbert — aire de la Dentelle d’Alençon (A28)",
+      "lot": 422,
+      "checkedAt": "2026-11-21",
+      "status": "Le catalogue régional répertorie le point sur l’aire autoroutière de la Dentelle d’Alençon, dans le sens mentionné par le document. Aucun tarif propre aux services camping-car ni confirmation d’une nuitée autorisée trouvés. Ne pas assimiler le parking d’autoroute à un tarif de nuitée d’aire d’étape.",
+      "nextCheck": "Vérifier auprès de l’exploitant A28 si un service camping-car est actuellement accessible, ses conditions et son prix; ne pas afficher de tarif de nuitée sans autorisation confirmée.",
+      "sources": [
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
+        "https://www.prix-carburants.gouv.fr/station/61250003"
+      ]
+    },
+    {
+      "place": "Argentan — borne extérieure du camping municipal de la Noë",
+      "lot": 422,
+      "checkedAt": "2026-11-21",
+      "status": "L’office de tourisme d’Argentan indique qu’une borne extérieure au camping donne accès à l’eau et à l’électricité pendant 1 h, vidanges incluses, par jeton Euro-Relais à 2,60 €. Le catalogue 2024 donne une ancienne localisation rue Charlotte-Corday; la fiche actuelle du camping indique rue de la Noë. Tarif publié sans validité 2027 explicite.",
+      "nextCheck": "Confirmer que la borne correspond bien au point du catalogue et que le jeton reste à 2,60 € en 2027.",
+      "sources": [
+        "https://tourisme.terresdargentan.fr/camping-municipal-de-la-noe/",
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf"
+      ]
+    },
+    {
+      "place": "Athis-Val de Rouvre — Ferme Les Bois",
+      "lot": 422,
+      "checkedAt": "2026-11-21",
+      "status": "Accueil camping-car avec eau, électricité, vidanges, douche et WC. La fiche Bienvenue à la Ferme indique 11 € par camping-car et par nuit; une publication communale plus ancienne mentionne 9,50 €. Le prix actuel est donc à confirmer et n’est pas daté 2027; taxe de séjour publiée séparément à partir de 0,50 €.",
+      "nextCheck": "Confirmer directement auprès de la ferme le tarif de nuitée et la taxe de séjour 2027.",
+      "sources": [
+        "https://www.bienvenue-a-la-ferme.com/normandie/orne/athis-val-de-rouvre/ferme/accueil-camping-car-bienvenue-a-la-ferme-des-bois/244370",
+        "https://www.athisvalderouvre.fr/images/bulletins/Site-AVR4-01-32.compressed.pdf"
+      ]
+    },
+    {
+      "place": "Aube — aire de service du Parking des Routiers",
+      "lot": 422,
+      "checkedAt": "2026-11-21",
+      "status": "Normandie Tourisme, avec photos créditées à la mairie, indique services gratuits: eau potable et vidanges eaux grises/noires et WC. La fiche ne donne pas de date de validité 2027.",
+      "nextCheck": "Confirmer auprès de la mairie le maintien de la gratuité et l’ouverture des équipements en 2027.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-service-camping-car-daube/"
+      ]
+    },
+    {
+      "place": "Bagnoles-de-l’Orne-Normandie — AireServices Camping Car",
+      "lot": 422,
+      "checkedAt": "2026-11-21",
+      "status": "La fiche touristique locale affiche 3 € pour 2 h, 12 € / 24 h, puis des forfaits de plusieurs jours; 30 places, eau, vidange, électricité 10 A et Wi-Fi. La période annoncée est toute l’année 2026; aucun tarif 2027 publié.",
+      "nextCheck": "Demander au gestionnaire Qipeo le barème et les forfaits 2027.",
+      "sources": [
+        "https://www.bagnolesdelorne.com/offres/aireservices-camping-car-bagnoles-de-lorne-normandie-fr-4589024/"
+      ]
+    },
+    {
+      "place": "Bazoches-au-Houlme — aire de camping-car de la Ferme de l’Ange",
+      "lot": 422,
+      "checkedAt": "2026-11-21",
+      "status": "La fiche touristique publie 14 € pour le forfait nuitée (stationnement + services) et 10 € pour le stationnement seul. Six emplacements avec eau, électricité et vidange. Aucun millésime 2027 affiché.",
+      "nextCheck": "Confirmer auprès de l’exploitation les forfaits et leur validité 2027.",
+      "sources": [
+        "https://www.falaise-suissenormande.com/campings/aire-de-camping-car-de-lange/"
+      ]
+    },
+    {
+      "place": "Belforêt-en-Perche — aire municipale du Gué-de-la-Chaîne",
+      "lot": 422,
+      "checkedAt": "2026-11-21",
+      "status": "Normandie Tourisme confirme 2 places et les équipements (eau, électricité, vidanges et sanitaires), mais n’affiche aucun tarif. Des sources secondaires se contredisent sur la gratuité du stationnement et le prix des jetons; aucune source officielle ne permet de confirmer le tarif 2027.",
+      "nextCheck": "Demander à la mairie si le stationnement est gratuit et le prix actuel des jetons eau/électricité.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-municipale-du-gue-de-la-chaine/",
+        "https://www.campingcar-bricoloisirs.net/aires/orne.html"
+      ]
+    },
+    {
+      "place": "Bretoncelles — aire de services de la Croix des Chênes",
+      "lot": 422,
+      "checkedAt": "2026-11-21",
+      "status": "Normandie Tourisme confirme 6 places et les équipements de vidange; Camping-car.com signale un forfait de services gratuit et une ouverture toute l’année. Ces informations ne sont pas datées 2027 et l’eau potable n’est pas explicitement mentionnée par la fiche touristique.",
+      "nextCheck": "Confirmer auprès de la mairie la gratuité en 2027, la disponibilité de l’eau et les conditions de stationnement nocturne.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-service-de-la-croix-des-chenes/",
+        "https://www.camping-car.com/aires/16307-aire-communale/",
+        "https://bretoncelles.fr/decouvrir-bretoncelles/venir-a-bretoncelles-plan/"
+      ]
+    }
+  ]
+}
