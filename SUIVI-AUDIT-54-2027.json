@@ -4,12 +4,12 @@
   "displayedCount": 12,
   "rawRegionalRows": 12,
   "deduplicatedRows": 0,
-  "currentLot": 402,
+  "currentLot": 403,
   "progress": {
-    "checked": 10,
+    "checked": 12,
     "total": 12
   },
-  "note": "Lot 402 : fiches 1 à 10 vérifiées ensemble. Aucun lieu ajouté et aucune fiche du site modifiée. Trois fiches Camping-Car Park : Blainville-sur-l'Eau a un total de 14,50 €/24 h confirmé jusqu'au 31/12/2027 (13,70 € base + 0,80 € taxe); Fontenoy-la-Joûte a la base 11 € valable jusqu'au 31/12/2027, mais taxe de 1,32 € documentée seulement jusqu'au 31/12/2026; Lunéville a la base 12,20 € valable jusqu'au 31/12/2027, mais taxe de 0,44 € documentée seulement jusqu'au 31/12/2026. Les forfaits 5 h + services des trois aires sont à 6 €. Toul : contradiction officielle 7 € mairie contre 9 € office de tourisme. Nancy : stationnement payant, tarif officiel non publié. Favières : gratuité et services gratuits en saison (début mai–fin septembre), entrée base de loisirs à 3 € distincte. Saint-Nicolas-de-Port : stationnement max 48 h, jeton à 4,20 € selon mairie contre 4 € sur fiche OT. Val-et-Châtillon : stationnement gratuit, jetons de service à 3 €, règlement officiel 2024; max 7 jours selon communauté. Longuyon : stationnement gratuit et max 7 jours selon OT, fiche contradictoire sur 2 ou 4 places, services non tarifés. Gerbéviller : aire 4 places documentée antérieurement, prix et fonctionnement actuel/2027 à confirmer. Lot 403 à venir : fiches 11 et 12. Aucun lieu ajouté.",
+  "note": "Lot 402 : fiches 1 à 10 vérifiées ensemble. Aucun lieu ajouté et aucune fiche du site modifiée. Trois fiches Camping-Car Park : Blainville-sur-l'Eau a un total de 14,50 €/24 h confirmé jusqu'au 31/12/2027 (13,70 € base + 0,80 € taxe); Fontenoy-la-Joûte a la base 11 € valable jusqu'au 31/12/2027, mais taxe de 1,32 € documentée seulement jusqu'au 31/12/2026; Lunéville a la base 12,20 € valable jusqu'au 31/12/2027, mais taxe de 0,44 € documentée seulement jusqu'au 31/12/2026. Les forfaits 5 h + services des trois aires sont à 6 €. Toul : contradiction officielle 7 € mairie contre 9 € office de tourisme. Nancy : stationnement payant, tarif officiel non publié. Favières : gratuité et services gratuits en saison (début mai–fin septembre), entrée base de loisirs à 3 € distincte. Saint-Nicolas-de-Port : stationnement max 48 h, jeton à 4,20 € selon mairie contre 4 € sur fiche OT. Val-et-Châtillon : stationnement gratuit, jetons de service à 3 €, règlement officiel 2024; max 7 jours selon communauté. Longuyon : stationnement gratuit et max 7 jours selon OT, fiche contradictoire sur 2 ou 4 places, services non tarifés. Gerbéviller : aire 4 places documentée antérieurement, prix et fonctionnement actuel/2027 à confirmer. Lot 403 à venir : fiches 11 et 12. Aucun lieu ajouté. Lot 403 : fiches 11 et 12 contrôlées. Longwy : le jeton à 2,50 € et les 7 places de l'aire municipale avenue du 8-Mai-1945 (fiche de l'office du tourisme 2025–2026) ne concernent pas le projet CAMPING-CAR PARK rue de la Frontière; page CCP sans tarif ni confirmation d'ouverture, ouverture et tarif 2027 à vérifier. Favières CCP : fiche toujours « à venir », aucun tarif ni ouverture confirmés; le 0,00 €/24 h affiché dans la liste anglaise n'est pas retenu comme tarif gratuit. Projet distinct de l'aire intercommunale existante, gratuite et saisonnière. Département terminé : 12/12 fiches examinées, lots 402 et 403. Aucun lieu ajouté et aucune fiche de l'application modifiée.",
   "entries": [
     {
       "sourceId": "node/12037656869",
@@ -135,6 +135,34 @@
         "https://tourisme-meurtheetmoselle.fr/nos-hebergements/campings/1286000027-aire-de-camping-car-de-longuyon"
       ],
       "lot": 402,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1319596547",
+      "name": "Aire Camping-Car Park de Longwy (ouverture à confirmer)",
+      "status": "ouverture_et_tarif_non_confirmes_aire_distincte_de_la_municipale",
+      "finding": "La page CCP de la rue de la Frontière décrit une aire d'étape mais ne publie pas de statut d'ouverture, tarif ni capacité opérationnelle. Le tarif de jeton 2,50 € et les 7 places publiés par l'office touristique s'appliquent à l'aire municipale avenue du 8-Mai-1945, lieu distinct.",
+      "nextCheck": "Confirmer l'ouverture, les prix et la capacité auprès de CCP/collectivité; ne pas transposer les jetons de l'aire municipale.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/longwy",
+        "https://www.longwy-tourisme.com/index.php/fr/ou-dormir/aires-de-camping-cars",
+        "https://www.longwy-tourisme.com/pdf/BrochureHR_2025_2026.pdf"
+      ],
+      "lot": 403,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1319596547-favieres-upcoming",
+      "name": "Aire CAMPING-CAR PARK de Favières (à venir)",
+      "status": "projet_a_venir_prix_et_ouverture_non_confirmes",
+      "finding": "La fiche et la liste réseau indiquent encore une aire à venir; aucun tarif détaillé ni mise en service vérifiés. Le 0,00 €/24 h de la liste anglaise n'est pas considéré comme prix confirmé. Fiche distincte de l'aire intercommunale saisonnière existante.",
+      "nextCheck": "Vérifier la mise en service, services, capacité et tarif avant de modifier la fiche.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle/favieres",
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meurthe-et-moselle",
+        "https://tourisme-meurtheetmoselle.fr/nos-hebergements/campings/759000726-aire-de-camping-car-intercommunale-a-favieres"
+      ],
+      "lot": 403,
       "checkedAt": "2026-11-21"
     }
   ]
