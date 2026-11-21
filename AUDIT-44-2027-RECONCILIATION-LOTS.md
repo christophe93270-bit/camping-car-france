@@ -92,3 +92,9 @@ Le tarif opérateur de Bouaye est confirmé du 01/01 au 31/12/2027 : 13,74 €/2
 Dix fiches ont été contrôlées en groupe : l’aire du Bouffay, la Ferme de l’Arfaut, le Parking de la Loire à Oudon, le port de la Maison Verte à Corsept, O’Pré d’Vous à La Marne, l’aire du plan d’eau de Teillé, l’aire de jour de Saint-Lyphard, le camping municipal de Saint-Hilaire-de-Chaléons, le parc de la Lande à Mesquer et le Bois-Joalland à Saint-Nazaire.
 
 Aucun nouveau tarif complet de nuitée 2027 n’a été confirmé. Les conditions publiées vont du stationnement gratuit limité à 48 h, aux services à contribution libre, aux forfaits de Teillé sans année ni bascule saisonnière précise, et à des tarifs de camping exclusivement 2026. Les services et règles nocturnes restent distincts du coût de stationnement. Détails : AUDIT-44-2027-LOT358.md. Aucun tarif public n’a été modifié et aucun contact n’a été envoyé.
+
+## Addendum — 21 novembre 2026 : lot 359
+
+Dix fiches CAMPING-CAR PARK déjà publiées ont été contrôlées en groupe : Guérande avenue de la Brière, Biochon, Clos Mora, Brambell, Château de la Touche, Nantes Petit Port, l’Écodomaine de la Goguillais, l’École de Guérande, Blain et Pornic Bienvenue au siège.
+
+Neuf tarifs d’étape 2027 sont confirmés avec base, taxe et total : Guérande 14,82 €, Biochon 10,89 €, Clos Mora 15,27 €, Brambell 12,11 €, Château de la Touche 12,22 €, Nantes Petit Port 16,32 €, Goguillais 14,10 €, l’École 12 €, Pornic Bienvenue au siège 14,05 € par 24 h. Ces montants ont été structurés dans les données publiques, avec distinction des produits 5 h. Pour Blain, seule la base 12,73 €/24 h jusqu’au 31/12/2027 reste indexée; la page CCP référencée est inaccessible, la taxe 2027 est absente et le total dynamique est contradictoire. Le total de Blain reste non confirmé. Détails et sources : AUDIT-44-2027-LOT359.md. Aucun lieu ajouté et aucun contact envoyé.
