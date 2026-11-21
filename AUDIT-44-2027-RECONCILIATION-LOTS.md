@@ -121,3 +121,11 @@ Dix campings distincts contrôlés ensemble. Une offre promotionnelle datée du 
 Dix fiches de camping existantes contrôlées ensemble : L’Île de Kernodet, Domaine de Pont-Mahé, Pause Loire, Les Prairies de l’Étang, Le Praderoi, Gruellau, Cévéo Château de Tréambert, GCU Sorloc’h, Le Beaupré et Les Amis de la Nature — Pors-er-Ster.
 
 Aucun tarif général complet camping-car 2027 n’a été confirmé. Gruellau affiche des prix d’appel non datés (4 €/nuit sans électricité, 8 € avec); Le Beaupré conserve un devis isolé de 31 € pour le 02/04/2027, sans grille saisonnière ni détail complet des taxes/frais. Les huit autres fiches restent sans tarif opérateur 2027 confirmé. Aucun lieu ni tarif public n’a été modifié. Détails et sources : [AUDIT-44-2027-LOT363.md](AUDIT-44-2027-LOT363.md).
+
+
+
+## Lot tarifaire 364 — 21 novembre 2026
+
+Dix campings distincts des lots 360–363 contrôlés ensemble : Le Bernier, La Fontaine, Camping de la Forêt au Gâvre, Domaine de Bréhadour, Les Forges, La Pierre Longue, Camping de l’Océan, GCU Sainte-Marguerite, Camping de Prigny et Domaine du Collet.
+
+Aucun tarif général complet de nuitée camping-car 2027 n’a été confirmé. Trois fiches ne donnent que des repères partiels : Bréhadour affiche 11/16 € sans millésime, le devis de l’Océan couvre deux nuits de mai 2027 sans confirmer le panier final, et Prigny indique 14 € en septembre sans année. Les dates de saison 2027 des Forges et de la Pierre Longue sont confirmées, sans prix d’emplacement. Aucun lieu ni prix public du site modifié. Détails : [AUDIT-44-2027-LOT364.md](AUDIT-44-2027-LOT364.md).
