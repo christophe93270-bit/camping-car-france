@@ -2,14 +2,14 @@
   "scope": "Audit du tarif 2027 pour les dix premières fiches d’aires de service du catalogue régional Orne (61), dans l’ordre alphabétique de la source. Ce suivi porte sur ce lot et ne représente pas l’inventaire complet du département ni les fiches déjà présentes dans aires.json.",
   "startedAt": "2026-11-21",
   "sourceInventory": "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
-  "currentLot": 425,
+  "currentLot": 426,
   "department": "61",
   "progress": {
     "checkedInLot": 10,
     "totalInLot": 10,
     "departmentTotal": null
   },
-  "note": "Lot 425 : dix entrées suivantes de l’inventaire régional contrôlées. Un prix d’étape de l’aire Camping-Car Park Longny est publié jusqu’au 31/12/2027; autres tarifs trouvés sont non millésimés ou 2026, avec vérifications à faire. Des couples aire/camping à la même adresse ont été distingués. Aucune donnée du site modifiée.",
+  "note": "Lot 426 : dix entrées suivantes de l’inventaire régional contrôlées. Plusieurs tarifs sont disponibles pour 2026 ou non millésimés; des écarts officiels existent pour Saint-Fraimbault. Aucun prix de nuitée ou de service vérifié avec une grille complète 2027. Aucune fiche du site modifiée.",
   "entries": [
     {
       "place": "L’Aigle — aire communale, 15 bis avenue du Mont-Saint-Michel",
@@ -448,6 +448,107 @@
       "sources": [
         "https://www.office-tourisme-putanges.com/ot-putanges/images/val-d-orne-putanges-le-lac.pdf",
         "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-de-kerflaveur/"
+      ]
+    },
+    {
+      "place": "Rémalard-en-Perche — Camping Forest View",
+      "lot": 426,
+      "checkedAt": "2026-11-21",
+      "status": "Normandie Tourisme publie un forfait camping-car 1 nuit/2 personnes de 27 à 34,50 €, taxe de séjour 0,60 €; saison affichée 1er mai–30 septembre 2026. Pas de millésime tarifaire 2027.",
+      "nextCheck": "Demander le forfait 2027, et préciser ce qui justifie la fourchette (saison et services).",
+      "sources": [
+        "https://www.normandie-tourisme.fr/camping/camping-forest-view/",
+        "https://www.parc-naturel-perche.fr/ou-dormir-0/campings/camping-forest-view-768227"
+      ]
+    },
+    {
+      "place": "Rémalard-en-Perche — Camping municipal des Bords de l’Huisne",
+      "lot": 426,
+      "checkedAt": "2026-11-21",
+      "status": "Mairie : camping-car/caravane 4,50 €, adulte 2,50 €, enfant <12 ans 1,25 €, emplacement 2 €, électricité 2 € (5A), taxe 0,22 €/personne/nuit. Grille sans millésime 2027.",
+      "nextCheck": "Confirmer tarifs et saison 2027 auprès de la mairie.",
+      "sources": [
+        "https://remalardenperche.fr/vie-de-la-commune/le-camping/",
+        "https://www.normandie-tourisme.fr/camping/camping-des-bords-de-lhuisne/"
+      ]
+    },
+    {
+      "place": "Rives d’Andaine — aire de services de Couterne, rue Alexis-Barré",
+      "lot": 426,
+      "checkedAt": "2026-11-21",
+      "status": "Fiche Normandie Tourisme répertorie la borne mais ne publie pas de prix. Une fiche Camping-car.com conserve des tarifs 2021; les annuaires récents ne confirment pas un montant. Aucun tarif 2027 établi.",
+      "nextCheck": "Demander à la mairie le prix actuel de l’eau, de l’électricité et du stationnement.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-service-de-couterne/",
+        "https://www.camping-car.com/aires/15215-aire-communale/"
+      ]
+    },
+    {
+      "place": "Rives d’Andaine — Camping Le Clos Normand",
+      "lot": 426,
+      "checkedAt": "2026-11-21",
+      "status": "Document officiel du camping intitulé tarifs 2026 : nuitée camping-car/van, un adulte sans électricité 10–12 €; vidange cassette + remplissage d’eau 7,50–8 €; adulte supplémentaire 4,40–4,60 €; électricité 10A 5,40 €.",
+      "nextCheck": "Grille 2026 trouvée; demander la grille 2027 et distinguer nuitée du service de vidange/eau.",
+      "sources": [
+        "https://www.camping-clos-normand.fr/docs/tarifs.pdf",
+        "https://www.camping-clos-normand.fr/"
+      ]
+    },
+    {
+      "place": "Saint-Céneri-le-Gérei — aire de stationnement",
+      "lot": 426,
+      "checkedAt": "2026-11-21",
+      "status": "Mairie : nuitée 5 €, robinet d’eau gratuit; office de tourisme indique ouverture du 4 avril au 18 octobre 2026. Le prix n’a pas de confirmation 2027.",
+      "nextCheck": "Confirmer la nuitée 2027 et la période d’ouverture.",
+      "sources": [
+        "https://www.saintceneri.org/plan/parking-camping-cars/",
+        "https://www.tourisme-alpesmancelles.com/envie-de-sejourner/ou-dormir/campings-et-aires-de-camping-car/aire-de-camping-car-saint-ceneri-le-gerei-saint-ceneri-le-gerei-fr-4110344/"
+      ]
+    },
+    {
+      "place": "Saint-Évroult-Notre-Dame-du-Bois — Camping des Saints Pères",
+      "lot": 426,
+      "checkedAt": "2026-11-21",
+      "status": "Mairie : aire/camping-car 16 €/nuitée, taxe de séjour 0,20 €/personne/nuit, vidange disponible; ouvert toute l’année. Pas de validité 2027 explicitement datée.",
+      "nextCheck": "Confirmer le montant 2027 et ce qui est inclus dans les 16 €.",
+      "sources": [
+        "https://st-evroult-nd-du-bois.fr/activites/camping-etang-des-saints-peres",
+        "https://www.normandie-tourisme.fr/camping/camping-des-saints-peres/"
+      ]
+    },
+    {
+      "place": "Saint-Fraimbault — aire de camping-car",
+      "lot": 426,
+      "checkedAt": "2026-11-21",
+      "status": "Délibération communale pour 2025 : accès parking 2 €, eau (80 L) 2 €, électricité 6 A affichée à 10 € du 1/4 au 30/9 et 11,50 € du 1/10 au 31/3. Un annuaire donne des montants électriques différents. Aucun tarif 2027.",
+      "nextCheck": "Faire confirmer à la mairie le barème 2027 et l’unité/période de facturation de l’électricité.",
+      "sources": [
+        "https://www.saint-fraimbault.com/loadDoc.php?id=6358",
+        "https://www.saint-fraimbault.com/saint-fraimbault_tourisme-et-hebergement_hebergement_aire-de-camping-car.phtml",
+        "https://www.i-campingcar.fr/aires.php?ville=SAINT+FRAIMBAULT"
+      ]
+    },
+    {
+      "place": "Saint-Fraimbault — Camping municipal Les Chauvières",
+      "lot": 426,
+      "checkedAt": "2026-11-21",
+      "status": "Pages communales actuelles et Normandie Tourisme divergent : mairie affiche 13 € pour 1–2 personnes, supplément 5 €, électricité 5 €; Normandie Tourisme affiche emplacement 10–12 €, adulte 5 €, électricité 4 €. Une délibération 2025 donnait 12 € pour 1–2 personnes et électricité séparée à 4 €. Pas de tarif 2027 consolidé.",
+      "nextCheck": "Demander le tarif 2027 officiel, en précisant si le forfait inclut emplacement et campeurs.",
+      "sources": [
+        "https://camping-municipal-les-chauvieres.jimdosite.com/tarifs/",
+        "https://www.normandie-tourisme.fr/camping/camping-les-chauvieres/",
+        "https://www.saint-fraimbault.com/loadDoc.php?id=6358"
+      ]
+    },
+    {
+      "place": "Saint-Germain-de-la-Coudre — aire communale, rue du Stade",
+      "lot": 426,
+      "checkedAt": "2026-11-21",
+      "status": "Normandie Tourisme confirme cinq places, limite 72 h et services disponibles, sans prix. Des sources secondaires indiquent stationnement gratuit et services payants, sans date fiable. Gratuité/tarif 2027 non confirmé.",
+      "nextCheck": "Demander à la mairie le prix 2027 des services et confirmer la gratuité du stationnement.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-de-saint-germain-de-la-coudre/",
+        "https://www.i-campingcar.fr/aires.php?ville=SAINT+GERMAIN+DE+LA+COUDRE"
       ]
     }
   ]
