@@ -4,12 +4,12 @@
   "displayedCount": 45,
   "rawRegionalRows": 45,
   "deduplicatedRows": 0,
-  "currentLot": 397,
+  "currentLot": 398,
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 45
   },
-  "note": "Lot 397 : fiches 1 à 10 de la Mayenne contrôlées ensemble. Sainte-Suzanne CCP : base 12,50 € + taxe 1,20 €, total 13,70 €/24 h en 2027; forfait 5 h + services 6 €. Javron-les-Chapelles : nuitée et services annoncés gratuits sur la fiche régionale, sans confirmation spécifique d'un tarif 2027. Gorron : 8 €/24 h sur la fiche départementale 2026, paiement en mairie; 2027 à confirmer. Ferme Painchaud : à partir de 7 €/nuit en fiche 2026. Montsûrs Fenderie : borne gratuite, six places, période 2026. Andouillé : eau et électricité gratuites mais prix de nuitée non publié et réservation obligatoire. Mayenne quai de la République, Grez-en-Bouère, Vaiges et Lassay : tarif non confirmé; Vaiges affiche huit places dans capacité et dix dans la description. Aucun lieu ajouté.",
+  "note": "Lot 397 : fiches 1 à 10 de la Mayenne contrôlées ensemble. Sainte-Suzanne CCP : base 12,50 € + taxe 1,20 €, total 13,70 €/24 h en 2027; forfait 5 h + services 6 €. Javron-les-Chapelles : nuitée et services annoncés gratuits sur la fiche régionale, sans confirmation spécifique d'un tarif 2027. Gorron : 8 €/24 h sur la fiche départementale 2026, paiement en mairie; 2027 à confirmer. Ferme Painchaud : à partir de 7 €/nuit en fiche 2026. Montsûrs Fenderie : borne gratuite, six places, période 2026. Andouillé : eau et électricité gratuites mais prix de nuitée non publié et réservation obligatoire. Mayenne quai de la République, Grez-en-Bouère, Vaiges et Lassay : tarif non confirmé; Vaiges affiche huit places dans capacité et dix dans la description. Aucun lieu ajouté. Lot 398 : fiches 11 à 20 de la Mayenne contrôlées ensemble. Chailland : nuit autorisée, services et prix 2027 non confirmés. Craon/Gué Saint-Léonard : ne pas confondre service de borne et nuitée au camping; accès extérieur et prix non publiés. La Rincerie : eau dès 2 € sur fiche 2026, vidange sans montant. La Préhouillère : 8 €/nuit affichés, 2027 à confirmer. Bouère : fiche actuelle affichant 2 €/nuit mais guide officiel 2025 indiquant stationnement gratuit et jeton 2 €; usage du tarif à clarifier. Ampoigné et Daon : tarifs non publiés. Averton CCP : base 12 €/24 h valable jusqu'au 31/12/2027, taxe 0,80 € seulement documentée jusqu'en 2026; total 2027 non confirmé. Lassay Roseraie : jeton eau à partir de 2 €, électricité non chiffrée, stationnement 24 h sans place réservée. Aucun lieu ajouté.",
   "entries": [
     {
       "sourceId": "ACCAMPDL053V5001B0",
@@ -132,6 +132,129 @@
         "https://www.destination-mayenne.com/offres/aire-de-stationnement-camping-car-lassay-les-chateaux-fr-4988898/"
       ],
       "lot": 397,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V5001B2",
+      "name": "Chailland — Parking de la supérette",
+      "status": "nuit_autorisee_tarif_non_publie_2026_tarif_2027_non_confirme",
+      "finding": "La fiche départementale confirme une borne d'eau et une vidange, le stationnement autorisé pour une nuit et l'accès 24/24. La période affichée est toute l'année 2026; aucun montant ni tarif 2027 n'est publié.",
+      "nextCheck": "Garder le prix comme non publié; vérifier avec la mairie si stationnement et services sont maintenus en 2027.",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/chailland-parking-de-la-superette-chailland-fr-554238/"
+      ],
+      "lot": 398,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V50BMT3",
+      "name": "Aire de service — Camping du Mûrier, Craon",
+      "status": "services_confirmes_tarif_acces_exterieurs_non_publie",
+      "finding": "La fiche départementale confirme eau potable, vidange et toilettes dans le camping du Mûrier, ouvert toute l'année 2026. Elle ne précise pas si un camping-car extérieur peut accéder à la borne sans séjour, ni le prix de ce service. Ne pas confondre avec le tarif d'une nuit au camping.",
+      "nextCheck": "Demander au camping le prix et les conditions d'accès à la borne pour les véhicules non hébergés; garder le coût de la nuitée séparé.",
+      "sources": [
+        "https://www.destination-mayenne.com/en/offers/aire-de-service-craon-craon-en-6319834/",
+        "https://www.destination-mayenne.com/offres/espace-touristique-du-murier-craon-fr-567871/"
+      ],
+      "lot": 398,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAM875002053",
+      "name": "Aire de service — base de loisirs de La Rincerie, La Selle-Craonnaise",
+      "status": "eau_a_partir_2_euros_fiche_2026_tarif_2027_non_confirme_vidange_non_chiffree",
+      "finding": "La fiche touristique affiche l'eau à partir de 2 € et une ouverture annuelle pour 2026; vidange et toilettes sont répertoriées, mais aucun tarif de vidange n'est donné. Aucun barème 2027 n'est publié.",
+      "nextCheck": "Afficher 2 € comme tarif d'eau documenté en 2026 seulement; confirmer son maintien en 2027 et le coût éventuel des autres services.",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/aire-de-service-camping-cars-la-selle-craonnaise-fr-554580/"
+      ],
+      "lot": 398,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V506YNW",
+      "name": "La Préhouillère — Bouère",
+      "status": "8_euros_nuitee_tarif_fiche_actuelle_2027_a_confirmer",
+      "finding": "La fiche départementale indique 8 €/nuit pour l'aire privée à la ferme, six emplacements et électricité. L'exploitant demande d'appeler avant l'arrivée; la page ne date pas le tarif pour 2027.",
+      "nextCheck": "Présenter 8 €/nuit comme tarif affiché actuellement et appeler l'exploitant avant publication comme tarif confirmé pour 2027.",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/aire-de-la-la-prehouillere-bouere-fr-2621997/"
+      ],
+      "lot": 398,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAM875001951",
+      "name": "Aire de service — Bouère, près du plan d'eau",
+      "status": "fiche_actuelle_2_euros_base_nuitee_mais_guide_2025_indique_parking_gratuit_jeton_2_euros_usage_tarif_a_clarifier",
+      "finding": "La fiche touristique actuelle étiquette 2 € comme « base nuitée ». Le guide officiel Sud Mayenne 2025 dit cependant que le stationnement est gratuit et que le jeton Euro-Relais coûte 2 €. Les sources officielles ne permettent donc pas de savoir si la ligne à 2 € concerne la nuitée ou le service; tarif 2027 non confirmé.",
+      "nextCheck": "Ne pas inscrire 2 € comme tarif confirmé de nuitée. Demander à la commune ou au gestionnaire si le stationnement est gratuit et si le jeton eau/borne coûte 2 €.",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/aire-de-service-camping-cars-bouere-fr-554608/",
+        "https://www.destination-mayenne.com/app/uploads/tourisme-mayenne/2025/02/GT2025sudmayenne.pdf"
+      ],
+      "lot": 398,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V509GCJ",
+      "name": "Aire de vidange — Camping du Gué Saint-Léonard, Mayenne",
+      "status": "tarif_acces_aux_services_pour_visiteurs_exterieurs_non_publie",
+      "finding": "La fiche départementale répertorie les services du camping (eau, vidange, sanitaires, déchets), mais n'indique ni accès des non-clients ni prix pour une simple vidange/recharge. Le tarif d'un emplacement de camping ne permet pas d'inférer le prix de la borne.",
+      "nextCheck": "Vérifier auprès du camping si les extérieurs peuvent utiliser la borne et à quel tarif; garder ce coût séparé des nuitées.",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/aire-de-vidange-au-camping-du-gue-saint-leonard-mayenne-fr-4172883/",
+        "https://www.destination-mayenne.com/offres/camping-intercommunal-du-gue-saint-leonard-mayenne-fr-553924/"
+      ],
+      "lot": 398,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAM875001291",
+      "name": "Aire de service — Ampoigné, Prée-d'Anjou",
+      "status": "eau_vidange_tarif_non_publie",
+      "finding": "La fiche régionale situe l'aire place de la mairie à Ampoigné et indique eau, vidange et WC; aucun montant n'est publié. Le stationnement au plan d'eau est séparé du point de service et ne reçoit pas de tarif dans la fiche.",
+      "nextCheck": "Maintenir le tarif non confirmé; vérifier auprès de la commune le coût des services et le stationnement nocturne.",
+      "sources": [
+        "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-camping-cars-8"
+      ],
+      "lot": 398,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V5000Z3",
+      "name": "Aire de service — Daon",
+      "status": "12_places_eau_vidange_tarif_non_publie",
+      "finding": "La fiche départementale confirme 12 emplacements, eau potable et vidange; elle ne donne ni prix ni durée de stationnement.",
+      "nextCheck": "Ne pas inventer de tarif; confirmer le coût des services et les conditions de nuitée auprès de la commune.",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/aire-de-service-de-camping-cars-daon-fr-554810/"
+      ],
+      "lot": 398,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V50BQJV",
+      "name": "Camping-Car Park Averton — Étang des Perles",
+      "status": "base_2027_12_euros_tax_2027_non_publie_total_2027_non_confirme",
+      "finding": "La grille CCP affiche 12 €/24 h de base du 31/10/2026 au 31/12/2027. La taxe de 0,80 €/24 h affichée ne couvre que 2026; le total 2027 n'est donc pas confirmé. Le parking 5 h + services est à 6 €. Le total en cours affiché de 12,80 € correspond à la base actuelle plus taxe 2026, pas à un total annuel 2027 confirmé.",
+      "nextCheck": "Afficher la base 2027 de 12 € et marquer la taxe/le total 2027 non publiés; maintenir le forfait 5 h séparé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/mayenne/averton"
+      ],
+      "lot": 398,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V5001IJ",
+      "name": "Borne municipale — parking de la Roseraie, Lassay-les-Châteaux",
+      "status": "jeton_eau_2_euros_electricite_non_chiffree_fiche_2026_tarif_2027_non_confirme_stationnement_24h_non_reserve",
+      "finding": "La fiche départementale indique eau, électricité et vidange; jeton à partir de 2 € (vendu notamment à l'office de tourisme et dans les commerces). Le stationnement est possible jusqu'à 24 h sur le parking, sans place réservée aux camping-cars. Le tarif d'électricité et la validité 2027 ne sont pas publiés.",
+      "nextCheck": "Séparer le jeton de service à 2 € du stationnement; confirmer le prix de l'électricité et la grille 2027 auprès de la mairie.",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/aire-de-service-camping-car-lassay-les-chateaux-fr-553664/"
+      ],
+      "lot": 398,
       "checkedAt": "2026-11-21"
     }
   ]
