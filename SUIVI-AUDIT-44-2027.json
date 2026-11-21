@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes correspondant à 216 lieux et 3 fiches liées/alias (zone technique de la Grotte Saint-Jean, alias de la Guichardière, alias du Clos Mer et Nature). Correction du comptage : les 219 lignes portent déjà un recheckLot antérieur (lots 309 à 341). Les lots tarifaires 342 à 352 représentent donc une seconde passe sur 110 lieux, et non 110 lieux jamais examinés. Les 106 lieux distincts sans tariffQueueLot dans cette seconde file ont eux aussi un contrôle antérieur; « restent à examiner » était une formulation erronée. Ne pas ouvrir de lot 353 avant rapprochement des contrôles et des lacunes tarifaires réellement non résolues. Aucune donnée publiée du site modifiée. Rapport de rapprochement détaillé : AUDIT-44-2027-RECONCILIATION-LOTS.md. Lot tarifaire 353 ouvert le 21/11/2026 sur dix fiches aux questions 2027 non résolues; voir AUDIT-44-2027-LOT353.md. Aucun prix publié n’a été modifié. Lot tarifaire 354 ouvert le 21/11/2026 sur dix fiches de camping sans tarif 2027 camping-car confirmé; voir AUDIT-44-2027-LOT354.md. Aucun prix publié n’a été modifié. Lot tarifaire 355 ouvert le 21/11/2026 sur dix fiches distinctes (onze lignes de registre, le Briord figurant deux fois). Le tarif 2027 du Soleya a été confirmé; voir AUDIT-44-2027-LOT355.md. Une donnée publiée du Soleya a été structurée. Lot tarifaire 357 ouvert le 21/11/2026 sur dix fiches, dont le tarif CCP de Bouaye confirmé pour toute l’année 2027; voir AUDIT-44-2027-LOT357.md. La fiche publique de Bouaye a été structurée avec base, taxe et total.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes correspondant à 216 lieux et 3 fiches liées/alias (zone technique de la Grotte Saint-Jean, alias de la Guichardière, alias du Clos Mer et Nature). Correction du comptage : les 219 lignes portent déjà un recheckLot antérieur (lots 309 à 341). Les lots tarifaires 342 à 352 représentent donc une seconde passe sur 110 lieux, et non 110 lieux jamais examinés. Les 106 lieux distincts sans tariffQueueLot dans cette seconde file ont eux aussi un contrôle antérieur; « restent à examiner » était une formulation erronée. Ne pas ouvrir de lot 353 avant rapprochement des contrôles et des lacunes tarifaires réellement non résolues. Aucune donnée publiée du site modifiée. Rapport de rapprochement détaillé : AUDIT-44-2027-RECONCILIATION-LOTS.md. Lot tarifaire 353 ouvert le 21/11/2026 sur dix fiches aux questions 2027 non résolues; voir AUDIT-44-2027-LOT353.md. Aucun prix publié n’a été modifié. Lot tarifaire 354 ouvert le 21/11/2026 sur dix fiches de camping sans tarif 2027 camping-car confirmé; voir AUDIT-44-2027-LOT354.md. Aucun prix publié n’a été modifié. Lot tarifaire 355 ouvert le 21/11/2026 sur dix fiches distinctes (onze lignes de registre, le Briord figurant deux fois). Le tarif 2027 du Soleya a été confirmé; voir AUDIT-44-2027-LOT355.md. Une donnée publiée du Soleya a été structurée. Lot tarifaire 357 ouvert le 21/11/2026 sur dix fiches, dont le tarif CCP de Bouaye confirmé pour toute l’année 2027; voir AUDIT-44-2027-LOT357.md. La fiche publique de Bouaye a été structurée avec base, taxe et total. Lot tarifaire 358 ouvert le 21/11/2026 sur dix fiches de stationnement, accueil ou services dont les conditions 2027 restent à confirmer; voir AUDIT-44-2027-LOT358.md. Aucun tarif publié du site n'a été modifié.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -3061,10 +3061,10 @@
       "finding": "Aucune confirmation complète pour 2027 dans la fiche actuelle ; ne pas reconduire automatiquement les indications historiques. Distinguer stationnement, nuitée, services et règles locales.",
       "nextCheck": "Confirmer auprès de la mairie ou du gestionnaire si la nuitée est autorisée, les tarifs 2027, taxe, services et durée maximale.",
       "source": "https://rando.loire-atlantique.fr/service/3119-AIRE-DE-STATIONNEMENT-BOIS-JOALLAND",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 338,
-      "recheckFinding": "Contrôle lot 338 (19/11/2026) : parking gratuit de 5 places pour camping-cars, ouverture annoncée 24 h/24 et période publiée jusqu’au 31/12/2026. L’arrêté municipal de stationnement réserve 5 places route du Bois-Joalland pour la nuitée. Un arrêté distinct du 21/01/2026 interdit jusqu’à nouvel ordre les activités sur le plan d’eau (pêche, consommation d’eau/poissons); il ne porte pas sur le parking.",
-      "recheckNextCheck": "Garder gratuité et nuitée sur les cinq emplacements; vérifier la signalisation sur place et l’existence d’un arrêté de stationnement plus récent pour 2027.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 358,
+      "recheckFinding": "Tourisme officiel : 5 emplacements, parking gratuit, ouverture toute l’année 2026 et accès 24 h/24; aucun service technique ni tarif de nuitée séparé publié. La période du listing s’arrête en 2026.",
+      "recheckNextCheck": "Conserver le prix de stationnement à 0 € séparé des services; vérifier que la zone camping-car et ses règles nocturnes sont maintenues en 2027.",
       "recheckTariffSource": "https://www.saint-nazaire-tourisme.com/offres/aire-de-stationnement-bois-joalland-saint-nazaire-fr-2501042/",
       "recheckConditionsSource": "https://www.saintnazaire.fr/wp-content/uploads/2025/11/arrete_reglementation_generale_2016.pdf",
       "recheckSource": "https://www.saint-nazaire-tourisme.com/offres/aire-de-stationnement-bois-joalland-saint-nazaire-fr-2501042/",
@@ -3072,7 +3072,15 @@
       "recheckSecondarySource": "https://www.saintnazaire.fr/wp-content/uploads/2025/11/arrete_reglementation_generale_2016.pdf",
       "recheckPermitSource": "https://www.saintnazaire.fr/wp-content/uploads/2025/11/arrete_reglementation_generale_2016.pdf",
       "recheckOfficialSource": "https://www.saint-nazaire-tourisme.com/offres/aire-de-stationnement-bois-joalland-saint-nazaire-fr-2501042/",
-      "recheckSafetyOrderSource": "https://delibs.com/api/saintnazaire/exportFichier?numActe=2026.00032&typeActe=1"
+      "recheckSafetyOrderSource": "https://delibs.com/api/saintnazaire/exportFichier?numActe=2026.00032&typeActe=1",
+      "tariffQueueLot": 358,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 358 (21/11/2026) : Tourisme officiel : 5 emplacements, parking gratuit, ouverture toute l’année 2026 et accès 24 h/24; aucun service technique ni tarif de nuitée séparé publié. La période du listing s’arrête en 2026.",
+      "tariffQueueNextCheck": "Conserver le prix de stationnement à 0 € séparé des services; vérifier que la zone camping-car et ses règles nocturnes sont maintenues en 2027.",
+      "tariffQueueSources": [
+        "https://www.saint-nazaire-tourisme.com/offres/aire-de-stationnement-bois-joalland-saint-nazaire-fr-2501042/",
+        "https://www.saint-nazaire-tourisme.com/mon-sejour/ou-dormir/accueil-des-camping-cars/les-aires-de-camping-car/"
+      ]
     },
     {
       "sourceId": "ACCAMEAIREDESAINTLYPHARD",
@@ -3083,14 +3091,21 @@
       "finding": "La fiche de l’office confirme gratuité du parking en journée de 8 h à 20 h et interdiction de nuit; le tarif de la borne n’est pas publié.",
       "nextCheck": "Ne pas présenter cette aire comme une étape nocturne; demander à l’office le prix de la borne s’il est nécessaire de l’afficher.",
       "source": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 338,
-      "recheckFinding": "Contrôle lot 338 (19/11/2026) : 10 places gratuites de jour, 8 h–20 h, toute l’année; stationnement de nuit explicitement interdit. Le prix de la borne de service n’est pas publié.",
-      "recheckNextCheck": "Maintenir l’interdiction nocturne et ne pas confondre stationnement diurne gratuit et prix des services; demander le prix de la borne seulement si nécessaire.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 358,
+      "recheckFinding": "La fiche départementale précise 10 places, parking gratuit de 8 h à 20 h et stationnement de nuit non autorisé. Aucun prix de la borne de service n’est publié.",
+      "recheckNextCheck": "Maintenir l’interdiction nocturne; distinguer parking diurne gratuit et tarif de la borne, à demander à la commune si besoin.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville",
       "recheckConditionsSource": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville",
       "recheckSource": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville",
-      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville"
+      "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville",
+      "tariffQueueLot": 358,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 358 (21/11/2026) : La fiche départementale précise 10 places, parking gratuit de 8 h à 20 h et stationnement de nuit non autorisé. Aucun prix de la borne de service n’est publié.",
+      "tariffQueueNextCheck": "Maintenir l’interdiction nocturne; distinguer parking diurne gratuit et tarif de la borne, à demander à la commune si besoin.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/182281-Aire-de-service-et-de-stationnement-du-centre-ville"
+      ]
     },
     {
       "sourceId": "ACCAMESHASCCAR",
@@ -3101,15 +3116,22 @@
       "finding": "La mairie distingue la borne Euro-Relais à 5 € du forfait camping 2026 à 13 €/nuit et de l’électricité à 5 €/jour; tarif 2027 non publié.",
       "nextCheck": "Vérifier auprès de la mairie si les 5 € couvrent les services de la borne et si ces montants sont maintenus pour 2027.",
       "source": "https://www.saint-hilaire-de-chaleons.fr/page/campingdeletoile",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 338,
-      "recheckFinding": "Contrôle lot 338 (19/11/2026) : la borne Euro-Relais du camping municipal est affichée à 5 €. La page municipale présente les tarifs camping 2026 uniquement (13 €/nuit pour 1–2 personnes et un véhicule; électricité 5 €/jour), sans grille 2027. La borne et l’emplacement de nuitée restent des postes distincts.",
-      "recheckNextCheck": "Ne pas présenter les tarifs 2026 comme 2027; demander à la mairie la prochaine grille du camping et vérifier si le prix de la borne reste à 5 € en 2027.",
-      "recheckTariffSource": "https://files.appli-intramuros.com/website/uploads/25706/2026/01/Brochure-camping-etoile-2026.pdf",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 358,
+      "recheckFinding": "La commune publie la borne Euro-Relais à 5 € et une grille de camping explicitement 2026 (13 €/nuit pour 1–2 personnes et un véhicule, autres suppléments). Aucun barème camping 2027 n’est publié; 5 € est le prix de service, pas le tarif d’une nuitée.",
+      "recheckNextCheck": "Garder la borne à 5 € au poste services et séparée du tarif camping; obtenir la grille 2027 et confirmer le prix de la borne.",
+      "recheckTariffSource": "https://www.saint-hilaire-de-chaleons.fr/page/campingdeletoile",
       "recheckConditionsSource": "https://www.saint-hilaire-de-chaleons.fr/page/campingdeletoile",
       "recheckSource": "https://www.saint-hilaire-de-chaleons.fr/page/campingdeletoile",
       "recheckTariffBrochureSource": "https://files.appli-intramuros.com/website/uploads/25706/2026/01/Brochure-camping-etoile-2026.pdf",
-      "recheckOfficialSource": "https://www.saint-hilaire-de-chaleons.fr/page/campingdeletoile"
+      "recheckOfficialSource": "https://www.saint-hilaire-de-chaleons.fr/page/campingdeletoile",
+      "tariffQueueLot": 358,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 358 (21/11/2026) : La commune publie la borne Euro-Relais à 5 € et une grille de camping explicitement 2026 (13 €/nuit pour 1–2 personnes et un véhicule, autres suppléments). Aucun barème camping 2027 n’est publié; 5 € est le prix de service, pas le tarif d’une nuitée.",
+      "tariffQueueNextCheck": "Garder la borne à 5 € au poste services et séparée du tarif camping; obtenir la grille 2027 et confirmer le prix de la borne.",
+      "tariffQueueSources": [
+        "https://www.saint-hilaire-de-chaleons.fr/page/campingdeletoile"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMEELPAIRECAMPCAR",
@@ -3319,14 +3341,21 @@
       "finding": "Fiche existante retenue pour contrôle ; information tarifaire actuelle non établie pour 2027. Ne pas déduire une nuitée ou un tarif de service à partir du stationnement.",
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 339,
-      "recheckFinding": "Contrôle lot 339 (19/11/2026) : 20 emplacements du Parc de la Lande; terrain en herbe fermé en hiver, réouverture au printemps selon la météo et fermetures temporaires possibles. Durée maximale affichée : 72 h ou 3 nuits. La borne de services est à 500 m. Aucun tarif publié.",
-      "recheckNextCheck": "Confirmer la réouverture effective au printemps et les éventuels tarifs pour le parking et la borne séparée; conserver la limite 72 h/3 nuits.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 358,
+      "recheckFinding": "Source régionale : 20 places, terrain en herbe fermé en hiver avec réouverture au printemps selon météo, fermetures possibles, durée maximale 72 h/3 nuits. Aucun tarif de stationnement ou de services n’est annoncé.",
+      "recheckNextCheck": "Vérifier la réouverture au printemps et les éventuels frais du parking et de la borne voisine; conserver séparément la limite de 72 h.",
       "recheckTariffSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande",
       "recheckConditionsSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande",
       "recheckSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande",
-      "recheckOfficialSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande"
+      "recheckOfficialSource": "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande",
+      "tariffQueueLot": 358,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 358 (21/11/2026) : Source régionale : 20 places, terrain en herbe fermé en hiver avec réouverture au printemps selon météo, fermetures possibles, durée maximale 72 h/3 nuits. Aucun tarif de stationnement ou de services n’est annoncé.",
+      "tariffQueueNextCheck": "Vérifier la réouverture au printemps et les éventuels frais du parking et de la borne voisine; conserver séparément la limite de 72 h.",
+      "tariffQueueSources": [
+        "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-camping-cars-du-parc-de-la-lande"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V50ET43",
@@ -3383,14 +3412,22 @@
       "finding": "Fiche existante retenue pour contrôle ; information tarifaire actuelle non établie pour 2027. Ne pas déduire une nuitée ou un tarif de service à partir du stationnement.",
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://www.teille44.fr/page/descriptif_camping_car",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 326,
-      "recheckFinding": "La commune publie 8/14/20/45 € (24 h/48 h/72 h/7 nuits) en saison et 12/21/30/67,50 € en hiver, services inclus. Aucun millésime n’est indiqué; les périodes textuelles se chevauchent aux dates de bascule du 31 mars et du 1er novembre.",
-      "recheckNextCheck": "Confirmer le barème 2027 et les jours exacts de bascule; conserver eau, électricité et vidange comme incluses.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 358,
+      "recheckFinding": "Le site municipal publie 8/14/20/45 € pour 24 h/48 h/72 h/7 nuits en période du 31 mars au 1er novembre, et 12/21/30/67,50 € du 1er novembre au 31 mars; services inclus. Aucune année n’est précisée et le 31 mars figure dans les deux périodes.",
+      "recheckNextCheck": "Obtenir confirmation des montants applicables en 2027 et du jour exact de bascule; garder les forfaits multi-jours distincts du tarif 24 h.",
       "recheckTariffSource": "https://www.teille44.fr/page/descriptif_camping_car",
       "recheckMunicipalSiteSource": "https://www.teille44.fr/decouvrir/1294",
       "recheckOfficialSource": "https://www.teille44.fr/page/descriptif_camping_car",
-      "recheckSource": "https://www.teille44.fr/page/descriptif_camping_car"
+      "recheckSource": "https://www.teille44.fr/page/descriptif_camping_car",
+      "tariffQueueLot": 358,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 358 (21/11/2026) : Le site municipal publie 8/14/20/45 € pour 24 h/48 h/72 h/7 nuits en période du 31 mars au 1er novembre, et 12/21/30/67,50 € du 1er novembre au 31 mars; services inclus. Aucune année n’est précisée et le 31 mars figure dans les deux périodes.",
+      "tariffQueueNextCheck": "Obtenir confirmation des montants applicables en 2027 et du jour exact de bascule; garder les forfaits multi-jours distincts du tarif 24 h.",
+      "tariffQueueSources": [
+        "https://www.teille44.fr/page/descriptif_camping_car",
+        "https://www.bienvenue-pays-ancenis.com/fr/fiche/aire-de-camping-car/aire-de-service-du-plan-d-eau-teille_TFOACCAMPDL044V50OH5Q/"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51CY4O",
@@ -3541,14 +3578,21 @@
       "finding": "Fiche existante retenue pour contrôle ; information tarifaire actuelle non établie pour 2027. Ne pas déduire une nuitée ou un tarif de service à partir du stationnement.",
       "nextCheck": "Vérifier la source gestionnaire/commune : droit de nuitée, tarif 2027, services séparés, durée maximale et éventuelles restrictions.",
       "source": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 326,
-      "recheckFinding": "La fiche touristique officielle indique la gratuité toute l’année, un accès réservé aux camping-cars et une limite de 48 h; eau potable et vidange sont proposées sans prix distinct. Pas de confirmation datée 2027.",
-      "recheckNextCheck": "Confirmer le maintien en 2027 et le coût éventuel de l’eau auprès de la commune; ne pas confondre services et nuitée.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 358,
+      "recheckFinding": "La fiche départementale actuelle présente l’aire gratuite toute l’année, réservée aux camping-cars, pour 48 h maximum, avec eau potable et vidange. Aucun prix distinct des services ou règle de nuitée plus précise n’est publié; pas de grille millésimée 2027.",
+      "recheckNextCheck": "Garder gratuité et limite 48 h; confirmer auprès de la commune le coût éventuel de l’eau et les modalités de nuitée. Ne pas déduire la gratuité des services du seul stationnement.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille",
       "recheckConditionsSource": "https://www.vallonsdelerdre.fr/plans-deau/",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille",
-      "recheckSource": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille"
+      "recheckSource": "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille",
+      "tariffQueueLot": 358,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 358 (21/11/2026) : La fiche départementale actuelle présente l’aire gratuite toute l’année, réservée aux camping-cars, pour 48 h maximum, avec eau potable et vidange. Aucun prix distinct des services ou règle de nuitée plus précise n’est publié; pas de grille millésimée 2027.",
+      "tariffQueueNextCheck": "Garder gratuité et limite 48 h; confirmer auprès de la commune le coût éventuel de l’eau et les modalités de nuitée. Ne pas déduire la gratuité des services du seul stationnement.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/3140-Aire-de-service-square-de-la-commune-libre-du-Bouffay---Saint-Mars-la-Jaille"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V51HCG4",
@@ -3635,14 +3679,22 @@
       "finding": "La source officielle confirme l’accueil dans une exploitation agricole sans tarif. Les prix tiers relevés (9 € stationnement, 12 € services ou forfait) divergent et ne constituent pas une confirmation officielle.",
       "nextCheck": "Demander directement à la ferme le tarif 2027, ce que couvre chaque option et les conditions d’accès.",
       "source": "https://rando.loire-atlantique.fr/service/183890-Aire-de-campings-cars-de-la-Ferme-de-l-Arfaut",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 330,
-      "recheckFinding": "Contrôle du 19/11/2026 : la fiche départementale confirme un accueil camping-car dans une exploitation agricole à Herbignac, mais ne publie aucun tarif ni détail des conditions. Les montants tiers relevés restent divergents (9–10 € la nuit, 12 € les 24 h avec services, et autres tarifs de borne); ils ne constituent pas un tarif officiel 2027.",
-      "recheckNextCheck": "Demander directement à la ferme le prix par nuit et les options distinctes (eau, électricité, vidange), la durée facturée, les dates d’ouverture et les modalités d’accès.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 358,
+      "recheckFinding": "La fiche départementale confirme un accueil camping-car dans une exploitation agricole, mais ne donne ni tarif, ni services, ni durée, ni dates d’ouverture. Aucun prix 2027 vérifiable.",
+      "recheckNextCheck": "Demander à l’exploitation le prix et la durée, puis séparer emplacement, eau, électricité et vidange; garder prix et conditions non établis jusque-là.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/183890-Aire-de-campings-cars-de-la-Ferme-de-l-Arfaut",
       "recheckSource": "https://rando.loire-atlantique.fr/service/183890-Aire-de-campings-cars-de-la-Ferme-de-l-Arfaut",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/183890-Aire-de-campings-cars-de-la-Ferme-de-l-Arfaut",
-      "recheckSecondarySource": "https://park4night.com/fr/place/116282"
+      "recheckSecondarySource": "https://park4night.com/fr/place/116282",
+      "tariffQueueLot": 358,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 358 (21/11/2026) : La fiche départementale confirme un accueil camping-car dans une exploitation agricole, mais ne donne ni tarif, ni services, ni durée, ni dates d’ouverture. Aucun prix 2027 vérifiable.",
+      "tariffQueueNextCheck": "Demander à l’exploitation le prix et la durée, puis séparer emplacement, eau, électricité et vidange; garder prix et conditions non établis jusque-là.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/183890-Aire-de-campings-cars-de-la-Ferme-de-l-Arfaut",
+        "https://rando.loire-atlantique.fr/service/185555-La-Ferme-de-l-Arfaut"
+      ]
     },
     {
       "sourceId": "ACCAMEAIREDESTMOLF",
@@ -3732,15 +3784,22 @@
       "finding": "La fiche officielle localise le parking derrière la supérette dans le bourg d’Oudon, sans tarif, durée maximale ni règle nocturne publiée.",
       "nextCheck": "Demander à la mairie le droit de stationner la nuit, la durée maximale et le maintien éventuel de la gratuité pour 2027.",
       "source": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 330,
-      "recheckFinding": "Contrôle du 19/11/2026 : la fiche officielle départementale situe le parking derrière la supérette à Oudon, sans indiquer prix, durée maximale ou règle de nuitée. Une documentation de Pays d’Ancenis déjà consultée indiquait la mise à disposition gratuite, mais sans millésime 2027 ni règle nocturne propre.",
-      "recheckNextCheck": "Conserver le tarif de nuitée et la règle nocturne comme non confirmés; demander à la mairie la gratuité actuelle, la durée autorisée et les services réellement présents sur cette fiche.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 358,
+      "recheckFinding": "La fiche départementale ne décrit que le parking camping-car situé derrière la supérette; aucune gratuité, durée, service ou autorisation de nuitée n’y est confirmée.",
+      "recheckNextCheck": "Demander à la mairie le statut du parking, la durée autorisée, le prix et l’accueil nocturne; ne pas reprendre les conditions d’un parking voisin.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire",
       "recheckSource": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire",
       "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire",
-      "recheckTourismSource": "https://www.pays-ancenis.com/fileadmin/user_upload/PA_185x220_AnnuairePros_2024.pdf"
+      "recheckTourismSource": "https://www.pays-ancenis.com/fileadmin/user_upload/PA_185x220_AnnuairePros_2024.pdf",
+      "tariffQueueLot": 358,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 358 (21/11/2026) : La fiche départementale ne décrit que le parking camping-car situé derrière la supérette; aucune gratuité, durée, service ou autorisation de nuitée n’y est confirmée.",
+      "tariffQueueNextCheck": "Demander à la mairie le statut du parking, la durée autorisée, le prix et l’accueil nocturne; ne pas reprendre les conditions d’un parking voisin.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/3139-Aire-de-stationnement-Parking-de-La-Loire"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMEAIRESTATIONNEMENTCORSEPT",
@@ -3751,15 +3810,23 @@
       "finding": "La fiche officielle affiche le stationnement municipal gratuit au port de la Maison Verte; aucune durée maximale ou règle nocturne n’est publiée.",
       "nextCheck": "Confirmer auprès de la mairie la durée et les conditions de nuitée, et si la gratuité est maintenue en 2027.",
       "source": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 330,
-      "recheckFinding": "Contrôle du 19/11/2026 : le département et l’Office de tourisme décrivent le parking municipal du port de la Maison Verte comme gratuit pour les camping-cars. Les sources ne précisent ni durée maximale, ni permission de nuitée explicite, ni services techniques ou tarif 2027 séparé.",
-      "recheckNextCheck": "Garder la gratuité comme donnée de stationnement; confirmer auprès de la commune la durée autorisée et la règle nocturne, sans déduire le droit de nuitée de la seule gratuité.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 358,
+      "recheckFinding": "Le Département confirme un stationnement camping-car municipal gratuit près de la Loire. Aucune limite de durée, règle nocturne ou service camping-car n’est publiée par la source consultée.",
+      "recheckNextCheck": "Garder 0 € comme prix de stationnement uniquement; demander à la commune la durée et l’autorisation de nuitée avant de les renseigner.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
       "recheckSource": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
       "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
-      "recheckTourismSource": "https://www.saint-brevin.com/aire-de-stationnement-corsept.html"
+      "recheckTourismSource": "https://www.saint-brevin.com/aire-de-stationnement-corsept.html",
+      "tariffQueueLot": 358,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 358 (21/11/2026) : Le Département confirme un stationnement camping-car municipal gratuit près de la Loire. Aucune limite de durée, règle nocturne ou service camping-car n’est publiée par la source consultée.",
+      "tariffQueueNextCheck": "Garder 0 € comme prix de stationnement uniquement; demander à la commune la durée et l’autorisation de nuitée avant de les renseigner.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/186398-AIRE-DE-STATIONNEMENT-CORSEPT",
+        "https://www.corsept.fr/port-de-la-maison-verte-realisation/"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMEAIRECAMPINGCAREASYPARK",
@@ -3939,15 +4006,23 @@
       "finding": "La fiche officielle indique un parking gratuit, environ trois places et une contribution libre pour l’eau/les vidanges; l’accès à l’eau suit les horaires du magasin. Aucun tarif fixe ou règle nocturne n’est publié.",
       "nextCheck": "Demander à la mairie ou au gestionnaire si la nuitée est autorisée, sa durée et les conditions de contribution en 2027.",
       "source": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-",
-      "recheckedAt": "2026-11-19",
-      "recheckLot": 331,
-      "recheckFinding": "La fiche départementale confirme une aire de vidange et de stationnement sur le parking du magasin : environ 3 places, parking gratuit, contribution libre et accès à l’eau suivant les horaires du magasin. Aucun tarif fixe ou règle nocturne n’est publié. La contribution volontaire ne peut pas être enregistrée comme prix de nuitée.",
-      "recheckNextCheck": "Garder le parking à 0 € et la contribution des services séparée; confirmer auprès du magasin/de la commune si la nuitée est autorisée et sa durée.",
+      "recheckedAt": "2026-11-21",
+      "recheckLot": 358,
+      "recheckFinding": "Fiche départementale et tourisme : parking gratuit, environ 3 places, eau à contribution libre selon horaires du magasin. L’accès 24 h/24 indiqué par une source ne précise pas si la nuitée est autorisée.",
+      "recheckNextCheck": "Garder stationnement gratuit et contribution de service séparés; demander au magasin/à la commune si la nuit est autorisée et la disponibilité de l’eau en dehors des horaires.",
       "recheckTariffSource": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-",
       "recheckSource": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-",
       "recheckSecondarySource": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-",
       "recheckOfficialSource": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-",
-      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-"
+      "recheckDepartmentSource": "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-",
+      "tariffQueueLot": 358,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot tarifaire 358 (21/11/2026) : Fiche départementale et tourisme : parking gratuit, environ 3 places, eau à contribution libre selon horaires du magasin. L’accès 24 h/24 indiqué par une source ne précise pas si la nuitée est autorisée.",
+      "tariffQueueNextCheck": "Garder stationnement gratuit et contribution de service séparés; demander au magasin/à la commune si la nuit est autorisée et la disponibilité de l’eau en dehors des horaires.",
+      "tariffQueueSources": [
+        "https://rando.loire-atlantique.fr/service/3130-AIRE-DE-VIDANGE-ET-STATIONNEMENT-O-PRE-D-VOUS-LA-MARNE-",
+        "https://www.sudretzatlantique-tourisme.fr/offres/aire-de-vidange-et-stationnement-opre-dvous-la-marne-la-marne-fr-3121182/"
+      ]
     },
     {
       "sourceId": "ACCAMEAIREDECAMPINGCARPONTCHATEAU",
