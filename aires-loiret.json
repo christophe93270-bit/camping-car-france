@@ -9,7 +9,7 @@
       "Sanitaires publics",
       "Station réparation vélos et pompe"
     ],
-    "price": "Aucun tarif de stationnement publié sur la fiche touristique consultée. Pas d'eau, d'électricité ni de vidange sur cette aire.",
+    "price": "Stationnement de nuit gratuit selon Val de Loire Tourisme. Pas d'eau, d'électricité ni de vidange sur cette aire.",
     "status": "Quai Dunois, 45190 Beaugency. Tourisme Loiret confirme le stationnement de nuit, des sanitaires publics, une station vélo, une pompe et des tables. Aucun équipement technique camping-car (eau, électricité, vidange) n'est disponible ici ; le camping du Val de Flux, de l'autre côté du pont, est un site distinct qui fournit ces services.",
     "source": "https://www.openstreetmap.org/node/4420639790",
     "latitude": 47.7788331,
@@ -21,10 +21,12 @@
     "sourceId": "node/4420639790",
     "servicesSource": "https://www.openstreetmap.org/node/4420639790",
     "sourceOfficialVerifiedOn": "2026-11-12",
-    "priceVerifiedOn": "2026-11-12",
+    "priceVerifiedOn": "2026-11-21",
     "sourceOfficial": "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-stationnement-pour-camping-cars-beaugency_TFOACCCEN00000039",
-    "priceSource": "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-stationnement-pour-camping-cars-beaugency_TFOACCCEN00000039",
-    "cityVerificationNote": "Commune, adresse Quai Dunois et stationnement nocturne vérifiés par Tourisme Loiret."
+    "priceSource": "https://www.valdeloire-france.com/aire-camping-car/aire-de-stationnement-pour-camping-cars-2/",
+    "cityVerificationNote": "Commune, adresse Quai Dunois et stationnement nocturne vérifiés par Tourisme Loiret.",
+    "priceNote": "La gratuité est publiée sans millésime tarifaire 2027; les services techniques restent absents.",
+    "priceCheckedAt": "2026-11-21"
   },
   {
     "department": "45",
@@ -217,8 +219,8 @@
       "Wi-Fi",
       "Vidéosurveillance"
     ],
-    "price": "Tarif opérateur en vigueur au 12/11/2026 : 14,00 € / 24 h, plus 0,88 € de taxe de séjour (14,88 € au total). Parking 5 h + services : 6 €.",
-    "status": "45 rue de la Grange, face au parking de la Fosse aux Blancs, 45550 Saint-Denis-de-l'Hôtel. Aire d'étape automatisée CAMPING-CAR PARK, ouverte toute l'année, 12 emplacements, services d'eau, électricité, vidange, Wi-Fi et vidéosurveillance. Tarif opérateur consulté le 12/11/2026 : 14 €/24 h + 0,88 € de taxe de séjour ; forfait 5 h + services à 6 €.",
+    "price": "Tarif de base confirmé : 14,00 € / 24 h du 30/10/2026 au 31/12/2027. Taxe de séjour 2027 non publiée; le montant de 0,88 € / 24 h affiché ne vaut que jusqu'au 31/12/2026. Parking 5 h + services : 6 € (produit distinct).",
+    "status": "45 rue de la Grange, face au parking de la Fosse aux Blancs, 45550 Saint-Denis-de-l'Hôtel. Aire d'étape automatisée CAMPING-CAR PARK de 12 places, avec eau, électricité, vidange, Wi-Fi et vidéosurveillance. La page réseau la signale temporairement fermée tandis que la fiche détaillée l'affiche ouverte : vérifier avant déplacement. Tarif de base confirmé à 14 €/24 h du 30/10/2026 au 31/12/2027; taxe 2027 à confirmer (0,88 € affiché jusqu'au 31/12/2026). Le forfait 5 h + services à 6 € reste distinct.",
     "source": "https://www.openstreetmap.org/node/12086035331",
     "latitude": 47.8770987,
     "longitude": 2.122029,
@@ -229,9 +231,25 @@
     "sourceId": "node/12086035331",
     "servicesSource": "https://www.openstreetmap.org/node/12086035331",
     "sourceOfficialVerifiedOn": "2026-11-12",
-    "priceVerifiedOn": "2026-11-12",
+    "priceVerifiedOn": "2026-11-21",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/saint-denis-de-l-hotel",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/saint-denis-de-l-hotel"
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/saint-denis-de-l-hotel",
+    "priceCheckedAt": "2026-11-21",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "partial",
+      "label": "14 €/24 h (taxe 2027 à confirmer)",
+      "note": "Base 14 €/24 h valable du 30/10/2026 au 31/12/2027. La taxe de 0,88 €/24 h affichée est valable du 01/01/2026 au 31/12/2026 seulement; total 2027 non confirmé. Parking 5 h + services à 6 € reste un produit distinct.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/saint-denis-de-l-hotel",
+      "baseAmountEUR": 14,
+      "unit": "24h",
+      "validFrom": "2026-10-30",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": false,
+      "touristTaxEUR": null,
+      "totalStopoverAndTaxEUR": null
+    }
   },
   {
     "department": "45",
