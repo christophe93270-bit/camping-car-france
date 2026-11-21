@@ -4,12 +4,12 @@
   "displayedCount": 32,
   "rawRegionalRows": 32,
   "deduplicatedRows": 0,
-  "currentLot": 390,
+  "currentLot": 391,
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 32
   },
-  "note": "Lot 390 : fiches 11 à 20 de la Manche contrôlées ensemble. Sainte-Mère-Église : prix de parking 2 €/8 h ou 10 €/23 h d'après des relevés/annuaires 2026, hors confirmation officielle; aire Super U gratuite distincte. Cherbourg Président Menut : stationnement et services annoncés gratuits, tarif non daté 2027. Saint-Pierre-Église : mairie confirme eau et vidange gratuites; borne annoncée gratuite par Normandie Tourisme. La Caserne : la fiche ne permet pas d'identifier une aire; la source officielle concerne le parking du Mont, avec 25 €/24 h au printemps/automne 2027 et 30 €/24 h en été, à ne pas confondre avec un tarif d'aire. Pirou : mairie affiche 12 €/24 h taxe comprise, sans millésime 2027. La Lucerne-d'Outremer : services gratuits, participation volontaire, nuitée non tarifée. Saint-Jean-le-Thomas : 10,90 €/24 h et 2,10 € eau/électricité selon tarif 2026; 2027 non publié. Agon-Coutainville : tarifs 2023 obsolètes pour validation; montant actuel affiché sur place et non publié. Avranches : stationnement possible, eau et vidange temporairement fermées, tarif absent. CCP Bricquebec : base 12,75 € + taxe 1,32 €, total 14,07 €/24 h jusqu'au 31/12/2027; forfait 5 h séparé. Aucun lieu ajouté. 20/32 fiches vérifiées.",
+  "note": "Lot 391 : fiches 21 à 30 de la Manche contrôlées ensemble. Le Teilleul : Normandie Tourisme affiche le stationnement gratuit et les services. Fervaches : la mairie présente 8 places; parking gratuit selon Normandie Tourisme. Des sources secondaires divergent entre forfait nuit 5 € et services 5 €; prix des services à confirmer. Cérences : stationnement gratuit, jeton de borne eau/vidange 2 €, repris par documents mairie/tourisme, sans millésime 2027 explicite. Sciotot : gratuité et limite 24 h issues de sources cartographiques/participatives, règle officielle à vérifier. Anse de Moidrey CCP : base 17 €/24 h jusqu'au 31/12/2027, taxe de séjour 2027 non confirmée. Isigny-le-Buat CCP : base 14 €/24 h jusqu'au 31/12/2027, taxe 2027 non confirmée. Utah Beach CCP : fermée depuis le 24/08/2026 jusqu'à nouvel ordre; base programmée 13,25 €/24 h en 2027, total taxe comprise à confirmer. Condé-sur-Vire CCP : base 11,70 € + taxe 1,30 € en 2027, total 13 €/24 h confirmé. Saint-Germain-sur-Ay CCP : base 13,75 €/24 h en 2027, taxe 2027 non confirmée. Picauville CCP : base 13,74 €/24 h jusqu'au 31/12/2027, taxe 2027 non confirmée. Forfaits CCP 5 h + services séparés. Aucun lieu ajouté. 30/32 fiches vérifiées.",
   "entries": [
     {
       "sourceId": "node/7041967413",
@@ -261,6 +261,131 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/normandie/la-manche/bricquebec-en-cotentin?location_id=847"
       ],
       "lot": 390,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1314504436",
+      "name": "Aire de stationnement du Teilleul",
+      "status": "stationnement_gratuit_et_services_indiquees_tarif_2027_non_millesime",
+      "finding": "Normandie Tourisme indique 10 emplacements gratuits, toute l'année, avec eau, toilettes et vidanges. Aucun tarif de nuitée payante publié; la gratuité n'est pas explicitement présentée comme grille 2027.",
+      "nextCheck": "Conserver « stationnement gratuit » et les services selon la fiche touristique; vérifier auprès de la mairie en cas de changement d'accès ou de règlement.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-stationnement-du-teilleul-reglementee/"
+      ],
+      "lot": 391,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1317611640",
+      "name": "Aire de camping-car communale Fervaches",
+      "status": "stationnement_gratuit_officiel_frais_services_5_euros_a_confirmer",
+      "finding": "La mairie présente une aire de huit emplacements sans afficher de prix. Normandie Tourisme indique parking gratuit. Des guides divergents parlent soit d'un forfait nuit de 5 €, soit de 5 € de services; le montant ne doit donc pas être attribué à la nuitée sans confirmation municipale.",
+      "nextCheck": "Corriger le champ nuitée à « stationnement gratuit selon Normandie Tourisme; tarif des services à confirmer » et demander à la mairie si les services coûtent toujours 5 €.",
+      "sources": [
+        "https://www.tessybocage.fr/annuaire/services/aire-de-camping-car-de-fervaches/",
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-communale-fervaches/",
+        "https://saintlo-tourisme.nl/sites/default/files/media/downloads/guide_hebergement_destination_saintlo.pdf",
+        "https://www.camping-car.com/aires/43251-aire-communale/"
+      ],
+      "lot": 391,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1318428567",
+      "name": "Aire Camping Cars Cérences",
+      "status": "stationnement_gratuit_jeton_eau_vidange_2_euros_tarif_officiel_non_2027",
+      "finding": "La mairie publie le stationnement gratuit et le jeton de borne eau/vidange à 2 €. Un procès-verbal municipal de juin 2025 reprend également ces tarifs. Ce barème est public mais aucune validité distincte pour 2027 n'est indiquée.",
+      "nextCheck": "Garder stationnement et jeton dans des lignes séparées; ne pas présenter le tarif comme spécialement reconfirmé pour 2027.",
+      "sources": [
+        "https://www.cerences.fr/decouvrir-cerences/hebergements/aire-de-camping-car.html",
+        "https://www.cerences.fr/images/pdfs/comptes_rendu/proces_verbal_2025_06_23.pdf"
+      ],
+      "lot": 391,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1323136783",
+      "name": "Aire de stationnement Sciotot",
+      "status": "gratuit_24h_selon_donnees_osm_tierces_reglement_2027_non_confirme",
+      "finding": "Des sources cartographiques/participatives décrivent un stationnement gratuit limité à 24 h. Aucune grille officielle ou règle municipale actuelle n'a été trouvée pour confirmer la limite et sa validité en 2027; aucun service tarifé vérifié.",
+      "nextCheck": "Confirmer le panneau et la réglementation auprès de la mairie des Pieux avant d'afficher la limite de 24 h comme règle garantie.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1323136783",
+        "https://spot2play.com/spot/aire-de-stationnement-sciotot-les-pieux/"
+      ],
+      "lot": 391,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1327985887",
+      "name": "Aire de camping-car Anse de Moidrey",
+      "status": "base_2027_17_euros_tax_2027_non_confirmee_total_non_confirme",
+      "finding": "Camping-Car Park affiche une base saisonnière de 17 €/24 h du 02/11/2026 au 31/12/2027. La page indique séparément un tarif actuel de 18,30 € dont 1,30 € de taxe, mais la période de taxe publiée ne confirme pas son application en 2027. Le total 2027 reste donc à confirmer; parking 5 h + services est un forfait distinct.",
+      "nextCheck": "Afficher la base 17 €/24 h avec sa période et la taxe 2027 comme non confirmée; ne pas annoncer 18,30 € comme total 2027 garanti.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/mont-saint-michel-l-anse-de-moidrey"
+      ],
+      "lot": 391,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1568091135",
+      "name": "Aire de camping-car de Isigny-le-Buat",
+      "status": "base_2027_14_euros_tax_2027_non_confirmee_total_non_confirme",
+      "finding": "La grille CCP donne 14 €/24 h du 04/10/2026 au 31/12/2027; la taxe de séjour affichée à 1,30 €/24 h ne couvre que jusqu'au 31/12/2026. Le total applicable en 2027 n'est donc pas confirmé. Le 15,30 € affiché en ce moment inclut la taxe actuellement affichée; le parking 5 h + services à 6 € est distinct.",
+      "nextCheck": "Conserver la base 14 € avec dates et distinguer la taxe 2027 encore à vérifier; maintenir le forfait 5 h à part.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/isigny-le-buat"
+      ],
+      "lot": 391,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-manche-utah-beach",
+      "name": "Aire Camping-Car Park d’Utah Beach",
+      "status": "fermee_depuis_24_08_2026_base_2027_13_25_tax_2027_non_confirmee",
+      "finding": "L'aire est annoncée temporairement fermée depuis le 24/08/2026 jusqu'à nouvel ordre. La grille saisonnière indique une base de 13,25 €/24 h pour 2027; la taxe affichée à 1,30 € ne confirme pas un total taxe comprise pour 2027. L'ancien tarif total en cours avant fermeture ne doit pas être présenté comme prix 2027.",
+      "nextCheck": "Afficher en premier la fermeture temporaire; garder séparée la base saisonnière future et vérifier la taxe et la réouverture avant toute recommandation de séjour.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/ste-marie-du-mont-utah-beach?areaType=stopover-site-motorhome"
+      ],
+      "lot": 391,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-manche-conde-sur-vire",
+      "name": "Aire Camping-Car Park de Condé-sur-Vire",
+      "status": "tarif_2027_base_11_70_tax_1_30_total_13_euros",
+      "finding": "La grille CCP fixe 11,70 €/24 h du 01/10/2026 au 31/12/2027 et la taxe de séjour à 1,30 €/24 h du 01/01/2027 au 31/12/2027, soit 13 €/24 h en 2027. Le forfait 5 h + services à 6 € est distinct.",
+      "nextCheck": "Mettre à jour le tarif 2027 à 13 €/24 h en précisant base et taxe; garder le forfait 5 h + services à part.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/conde-sur-vire?areaType=aire-etape-camping-car"
+      ],
+      "lot": 391,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-manche-saint-germain-sur-ay",
+      "name": "Aire Camping-Car Park de Saint-Germain-sur-Ay",
+      "status": "base_2027_13_75_euros_tax_2027_non_confirmee_total_non_confirme",
+      "finding": "La grille saisonnière CCP affiche une base de 13,75 €/24 h jusqu'au 31/12/2027. La taxe de séjour affichée (0,84 €) est limitée à une période antérieure à 2027; le total taxe comprise 2027 n'est pas confirmé. Le forfait 5 h + services à 6 € est distinct.",
+      "nextCheck": "Garder la base 2027 et demander/attendre le taux de taxe 2027 avant de calculer un total; séparer le forfait 5 h.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/la-manche/saint-germain-sur-ay?areaType=aire-etape-camping-car"
+      ],
+      "lot": 391,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-manche-picauville",
+      "name": "Aire Camping-Car Park de Picauville",
+      "status": "base_2027_13_74_euros_tax_2027_non_confirmee_total_non_confirme",
+      "finding": "La grille CCP affiche une base de 13,74 €/24 h sur la période 2026-2027 jusqu'au 31/12/2027. La taxe de séjour affichée de 1,30 €/24 h s'arrête au 31/12/2026; le total 2027 reste à confirmer. Le forfait 5 h + services à 6 € est distinct.",
+      "nextCheck": "Afficher la base 13,74 €/24 h et marquer la taxe 2027 comme non confirmée; distinguer le forfait 5 h + services.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/picauville?areaType=aire-etape-camping-car"
+      ],
+      "lot": 391,
       "checkedAt": "2026-11-21"
     }
   ]
