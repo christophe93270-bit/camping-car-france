@@ -74,3 +74,9 @@ Dix fiches physiques ont été contrôlées en groupe : Le Soleya, la borne Val 
 
 Le prix opérateur du Soleya est désormais confirmé pour 2027 : 12,22 €/24 h + taxe 1,32 €/24 h = 13,54 €/24 h. Le champ season2027 a été structuré dans aires-loire-atlantique.json; le produit 5 h reste séparé. Les neuf autres fiches gardent des questions de prix, de service ou de nuitée documentées dans AUDIT-44-2027-LOT355.md.
 
+
+## Addendum — 21 novembre 2026 : lot 356
+
+Dix fiches existantes ont été contrôlées ensemble : Le Mindin, Le Véridet, le Pont de Clin, l’ANAS aux Moutiers-en-Retz, l’aire du Port à La Haie-Fouassière, le parking de la Nouvelle Imprimerie, les services Hyper U La Colleraye, Choisel, le Musée du Vignoble Nantais et Port Mulon.
+
+Aucun tarif complet de nuitée 2027 n’a été confirmé. Les montants disponibles concernent des grilles 2026, des services (jetons, eau, vidange), ou des prix parking sans confirmation officielle 2027; ils restent séparés. Les conditions de nuitée non publiées demeurent à vérifier. Détails et sources dans AUDIT-44-2027-LOT356.md. Aucun lieu ni tarif public n’a été ajouté ou modifié et aucun contact n’a été envoyé.
