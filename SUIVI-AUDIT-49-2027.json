@@ -4,12 +4,12 @@
   "displayedCount": 110,
   "rawRegionalRows": 114,
   "deduplicatedRows": 4,
-  "currentLot": 382,
+  "currentLot": 383,
   "progress": {
-    "checked": 50,
+    "checked": 60,
     "total": 110
   },
-  "note": "Lot 378 : fiches 1–10 vérifiées en groupe. Aucun lieu ajouté. Un tarif 2027 confirmé (CCP Ingrandes-le-Fresne-sur-Loire : 12,52 €/24 h du 04/11/2026 au 31/12/2027; taxe affichée à 0 €/24 h sur la même période). Lot 379 : fiches 11–20 contrôlées; tarif CCP Le Port distinct de La Bastille gratuite, attribution erronée à corriger; Chenillé-Changé tarif ambigu. Lot 380 : fiches 21–30 vérifiées. Le CCP Les Hauts-d'Anjou affiche 12,73 €/24 h hors taxe du 19/11/2026 au 31/12/2027 et taxe 2027 de 0,88 €/24 h, soit 13,61 € affichés. Le Domaine des Coteaux Blancs annonce explicitement l'accueil camping-car gratuit (3 véhicules maximum). Plusieurs autres tarifs sont non publiés, non millésimés, ou services seulement. 30/110 fiches contrôlées, aucun lieu ajouté. Le site Pages sert 114 lignes brutes, 4 doublons écartés. L'API GitHub main renvoie un aires-pdl.json vide; aucun écrasement du fichier de données. Lot 381 : fiches 31–40 vérifiées ensemble. Tarifs 2027 confirmés pour CCP Mazé–Le Gué (11,66 €/24 h jusqu’au 31/12/2027) et eau à Montreuil-Bellay (3 €/100 L jusqu’au 31/12/2027). Morédéna et Saint-Aubin ont des tarifs explicitement millésimés 2026; les autres prix ou services sont absents, non millésimés, ou à distinguer des nuitées. Aucun lieu ajouté. 40/110 fiches contrôlées. Lot 382 : fiches 41–50 vérifiées ensemble. CCP Villebernier : 12,32 €/24 h de base du 21/11/2026 au 31/12/2027 + taxe 2027 de 1,32 €, total 13,64 €/24 h; le prix de tête 14,86 € vu dans une ancienne liste est dépassé. Baugé : valeurs touristiques récentes 5,20–7,20 €/24 h, eau 3,60 € et taxe 0,65 €/personne, mais année des nouveaux montants non explicitée et page exploitant encore ancienne; 2027 à confirmer. Tarifs 2026 ou non millésimés conservés comme historiques pour Durtal, Baracé et les services gratuits/autres lieux. Aucun ajout de lieu. 50/110 fiches contrôlées.",
+  "note": "Lot 378 : fiches 1–10 vérifiées en groupe. Aucun lieu ajouté. Un tarif 2027 confirmé (CCP Ingrandes-le-Fresne-sur-Loire : 12,52 €/24 h du 04/11/2026 au 31/12/2027; taxe affichée à 0 €/24 h sur la même période). Lot 379 : fiches 11–20 contrôlées; tarif CCP Le Port distinct de La Bastille gratuite, attribution erronée à corriger; Chenillé-Changé tarif ambigu. Lot 380 : fiches 21–30 vérifiées. Le CCP Les Hauts-d'Anjou affiche 12,73 €/24 h hors taxe du 19/11/2026 au 31/12/2027 et taxe 2027 de 0,88 €/24 h, soit 13,61 € affichés. Le Domaine des Coteaux Blancs annonce explicitement l'accueil camping-car gratuit (3 véhicules maximum). Plusieurs autres tarifs sont non publiés, non millésimés, ou services seulement. 30/110 fiches contrôlées, aucun lieu ajouté. Le site Pages sert 114 lignes brutes, 4 doublons écartés. L'API GitHub main renvoie un aires-pdl.json vide; aucun écrasement du fichier de données. Lot 381 : fiches 31–40 vérifiées ensemble. Tarifs 2027 confirmés pour CCP Mazé–Le Gué (11,66 €/24 h jusqu’au 31/12/2027) et eau à Montreuil-Bellay (3 €/100 L jusqu’au 31/12/2027). Morédéna et Saint-Aubin ont des tarifs explicitement millésimés 2026; les autres prix ou services sont absents, non millésimés, ou à distinguer des nuitées. Aucun lieu ajouté. 40/110 fiches contrôlées. Lot 382 : fiches 41–50 vérifiées ensemble. CCP Villebernier : 12,32 €/24 h de base du 21/11/2026 au 31/12/2027 + taxe 2027 de 1,32 €, total 13,64 €/24 h; le prix de tête 14,86 € vu dans une ancienne liste est dépassé. Baugé : valeurs touristiques récentes 5,20–7,20 €/24 h, eau 3,60 € et taxe 0,65 €/personne, mais année des nouveaux montants non explicitée et page exploitant encore ancienne; 2027 à confirmer. Tarifs 2026 ou non millésimés conservés comme historiques pour Durtal, Baracé et les services gratuits/autres lieux. Aucun ajout de lieu. 50/110 fiches contrôlées. Lot 383 : fiches 51–60 vérifiées ensemble. Bouchemaine : barème municipal 2026 de 18 €/nuit (ou 12 € en mode dégradé), services seuls 3,40 €; 2027 non publié. Saumur–Dampierre : page de mairie à 6,60 €/nuit + 0,20 €/personne, mais millésime 2027 à confirmer. Saulgé-l’Hôpital : deuxième ligne géographiquement doublonnée de l’aire contrôlée au lot 380. Corzé ferme la nuit et facture les services sur demande. Aucun tarif 2027 officiel publié pour La Touche, Saint-Saturnin, Vieil-Baugé, Feneu, Cave Robert et Marcel ou Somloire. Aucun lieu ajouté. 60/110 fiches examinées.",
   "entries": [
     {
       "sourceId": "ACCAMPDL049V50ICDQ",
@@ -624,6 +624,129 @@
         "https://www.camping-bauge.fr/h%C3%A9bergements/aire-de-service-de-camping-car/"
       ],
       "lot": 382,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50460C",
+      "name": "Aire à la ferme auberge de La Touche",
+      "status": "tarif_stationnement_et_nuitee_non_publie",
+      "finding": "La fiche institutionnelle décrit l’auberge et ses services, mais ne confirme ni accueil de nuit des camping-cars ni tarif.",
+      "nextCheck": "Demander à l’établissement si le stationnement de nuit est autorisé et son éventuel tarif 2027.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-a-la-ferme-auberge-de-la-touche-ombree-d-anjou_TFOACCAMPDL049V50460C"
+      ],
+      "lot": 383,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V5001MK",
+      "name": "Aire de stationnement de Saulgé-l’Hôpital",
+      "status": "doublon_geographique_tarif_non_confirme",
+      "finding": "Cette ligne se trouve au même emplacement que l’aire de service de Saulgé-l’Hôpital vérifiée au lot 380. La fiche officielle décrit les équipements sans tarif; un avis récent dit que le parking est gratuit, sans confirmation communale.",
+      "nextCheck": "Ne pas compter comme lieu distinct; demander à la mairie de confirmer la gratuité et les règles de nuitée 2027.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-stationnement-de-saulge-l-hopital-brissac-loire-aubance_TFOACCAMPDL049V5001MK",
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-service-de-saulge-l-hopital-brissac-loire-aubance_TFOACCAMPDL049V5001MD"
+      ],
+      "lot": 383,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V5001MC",
+      "name": "Aire de service de Saint-Saturnin-sur-Loire",
+      "status": "tarif_stationnement_non_publie",
+      "finding": "La fiche officielle confirme deux places, l’eau en saison, la vidange et une fermeture hivernale; aucun tarif de stationnement ou de nuitée n’est publié.",
+      "nextCheck": "Demander à la commune si la nuitée est autorisée et si stationnement et services sont gratuits ou payants en 2027.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-service-de-saint-saturnin-sur-loire-brissac-loire-aubance_TFOACCAMPDL049V5001MC"
+      ],
+      "lot": 383,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAM968000604",
+      "name": "Aire de stationnement du Vieil-Baugé — plan d’eau",
+      "status": "tarif_nuitee_contradictoire_non_confirme",
+      "finding": "Aucun tarif officiel actuel n’est publié. Des avis contradictoires évoquent la gratuité ou 4–5 €/nuit; ces témoignages ne permettent pas de valider un prix 2027. Services sanitaires/vidange signalés à proximité.",
+      "nextCheck": "Demander à la commune le prix et les conditions actuelles de nuitée; ne pas reprendre les montants des avis comme tarif confirmé.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-stationnement-camping-car-du-vieil-bauge-le-plan-d-eau-bauge-en-anjou_TFOACCAM968000604"
+      ],
+      "lot": 383,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMKAIREBOUCHEMAINE",
+      "name": "Aire d’accueil de camping-cars de Bouchemaine",
+      "status": "tarif_2026_officiel_18_euros_tarif_2027_non_publie",
+      "finding": "La mairie publie pour 2026 un forfait de 18 €/nuit (emplacement, électricité, eau/vidange, douches, éviers, Wi-Fi et taxe pour deux personnes) et un mode dégradé à 12 €/nuit sans eau, vidange ni douche. Eau/vidange seules : 3,40 €; douche supplémentaire : 1,70 €. Grille décidée en décembre 2025; aucun tarif 2027 publié.",
+      "nextCheck": "Confirmer la grille 2027 auprès de la mairie avant toute mise à jour du prix.",
+      "sources": [
+        "https://www.ville-bouchemaine.fr/aire-de-camping-cars/",
+        "https://www.ville-bouchemaine.fr/medias/2026/01/Aire-daccueil-de-camping-cars-2026.pdf"
+      ],
+      "lot": 383,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMKAIRECORZE",
+      "name": "Aire de services et de stationnement — Ferme de l’Espoir, Corzé",
+      "status": "services_payants_prix_sur_demande_fermeture_nuit",
+      "finding": "La fiche officielle précise que l’eau et l’électricité sont payantes, avec prix sur demande; l’aire ferme la nuit. Ce n’est donc pas un tarif de nuitée.",
+      "nextCheck": "Demander à l’exploitant le prix des services diurnes 2027; ne pas inscrire de tarif de nuitée.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-services-et-de-stationnement-camping-cars-a-la-ferme-de-l-espoir-corze_TFOACCAMKAIRECORZE"
+      ],
+      "lot": 383,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMKAIREDEFENEU",
+      "name": "Aire de camping-car de Feneu — Port-Albert",
+      "status": "tarif_et_nuitee_non_confirmes",
+      "finding": "La fiche touristique mise à jour le 27/10/2026 mentionne l’aire de pique-nique, sans tarif ni confirmation explicite d’une nuitée autorisée. Un témoignage seul ne suffit pas à établir les conditions.",
+      "nextCheck": "Demander à la commune les règles de stationnement de nuit et les tarifs 2027.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-camping-car-de-feneu-feneu_TFOACCAMKAIREDEFENEU"
+      ],
+      "lot": 383,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50ICEF",
+      "name": "Aire de camping-cars de Saumur — Dampierre-sur-Loire",
+      "status": "tarif_mairie_6_60_euros_plus_tax_sejour_2027_a_confirmer",
+      "finding": "La page de la mairie affiche 6,60 €/nuit et 0,20 €/personne de taxe de séjour, paiement par carte; stationnement diurne gratuit de 8 h à 22 h. La page touristique indique un tarif à partir de 6,60 €. Le barème affiché n’est pas explicitement millésimé 2027.",
+      "nextCheck": "Confirmer auprès de la mairie que 6,60 € + 0,20 €/personne s’applique bien en 2027; garder séparé le stationnement de jour gratuit.",
+      "sources": [
+        "https://www.ville-saumur.fr/campings-aire-de-camping-car",
+        "https://www.ot-saumur.fr/aires-de-camping-cars/"
+      ],
+      "lot": 383,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50IFI1",
+      "name": "Aire de la Cave Robert et Marcel — Bellevigne-les-Châteaux",
+      "status": "stationnement_gratuit_2026_validite_2027_a_confirmer",
+      "finding": "La source touristique indique le stationnement gratuit et une limite de 48 h; la fermeture liée aux vendanges est signalée pour la saison 2026. Aucun tarif ou calendrier 2027 explicite n’est publié.",
+      "nextCheck": "Confirmer auprès de la cave ou de l’office de tourisme la gratuité et les dates d’accès en 2027.",
+      "sources": [
+        "https://www.ot-saumur.fr/aires-de-camping-cars/aire-camping-cars-de-la-cave-robert-et-marcel-5318553/"
+      ],
+      "lot": 383,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMKAIRECAMPINGCARS",
+      "name": "Aire de camping-cars communale de Somloire",
+      "status": "tarif_2027_non_publie_ancienne_gratuite_2024",
+      "finding": "La fiche actuelle de l’office de tourisme confirme 25 emplacements et les services d’eau/vidange, sans afficher de tarif. Une ancienne source 2024 indiquait la gratuité, insuffisante pour confirmer le prix en 2027.",
+      "nextCheck": "Demander à la commune si le stationnement et les services sont gratuits ou payants en 2027.",
+      "sources": [
+        "https://www.ot-cholet.fr/hebergement/camping-aire-de-camping-cars-communale-de-somloire-somloire.html"
+      ],
+      "lot": 383,
       "checkedAt": "2026-11-21"
     }
   ]
