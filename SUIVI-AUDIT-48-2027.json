@@ -1,0 +1,127 @@
+{
+  "scope": "Lozère (48), vérification groupée des tarifs 2027",
+  "startedAt": "2026-11-21",
+  "note": "Lot 376 : fiches 1–10 de 13 contrôlées, aucun lieu ajouté. Tarifs 2027 CCP entièrement confirmés à Langogne Lac de Naussac (15,07 €/24 h) et Chambon-le-Château (13,50 €/24 h). La Canourgue reste partielle (taxe affichée jusqu'au 14/05); tarifs 2026 ou montants non publiés pour les autres fiches.",
+  "entries": [
+    {
+      "sourceId": "node/6666882591",
+      "name": "Aire Municipale Ispagnac",
+      "status": "stationnement_tarif_a_reconfirmer",
+      "finding": "Gratuité et limite 24 h proviennent de la fiche existante; aucune publication communale récente retrouvée. La commune a aussi un projet d'aire, à distinguer du parking actuel.",
+      "nextCheck": "Confirmer auprès de la mairie le statut du parking existant et les tarifs/services applicables.",
+      "sources": [
+        "https://www.ispagnac.fr/"
+      ],
+      "lot": 376,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/715443051",
+      "name": "Aire Camping-car La Canourgue",
+      "status": "ancienne_aire_tarif_et_nuitee_non_applicables",
+      "finding": "Ancien parking avenue du Lot, sans tarification ou nuitée actuelle vérifiée; ne pas lui appliquer le tarif de l'aire CCP voisine.",
+      "nextCheck": "Garder ce point comme ancien emplacement distinct; vérifier auprès de la mairie si une autorisation actuelle existe.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/la-canourgue"
+      ],
+      "lot": 376,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/803166739",
+      "name": "Aire camping-car Aumont-Aubrac",
+      "status": "gratuit_non_millésimé_2027",
+      "finding": "Lozère Tourisme donne 10 places et un stationnement gratuit; pas de grille 2027 spécifique.",
+      "nextCheck": "Conserver la gratuité publiée et revalider en cas de nouveau règlement.",
+      "sources": [
+        "https://www.lozere-tourisme.com/aires-camping-cars/aire-daccueil-daumont-aubrac/"
+      ],
+      "lot": 376,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/971532144",
+      "name": "Aire de Camping-Car de Saint-Rome-de-Dolan",
+      "status": "service_sans_stationnement_tarif_non_publie",
+      "finding": "Aire de service 24 h/24, sans stationnement; aucun prix de service indiqué.",
+      "nextCheck": "Confirmer le montant de service auprès du camping/gestionnaire si nécessaire.",
+      "sources": [
+        "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-service-de-saint-rome-de-dolan/"
+      ],
+      "lot": 376,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/971877775",
+      "name": "Aire de camping-car de Mende",
+      "status": "stationnement_gratuit_services_2026",
+      "finding": "Mende : gratuit jusqu'à 96 h; service à 2 € pour 55 min électrique/10 min eau dans la grille 2026; montant 2027 non confirmé.",
+      "nextCheck": "Revalider le jeton service pour 2027; conserver stationnement, eau et électricité distincts.",
+      "sources": [
+        "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-camping-car-de-mende/"
+      ],
+      "lot": 376,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1076418640",
+      "name": "Camping-Car Park Langogne, Lac de Naussac",
+      "status": "tarif_2027_confirme",
+      "finding": "CCP Langogne : base 13,87 € + taxe 1,20 € = 15,07 €/24 h pour toute l'année 2027; 5 h + services 6 €.",
+      "nextCheck": "Conserver le total 2027 et le forfait 5 h comme produit distinct.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/langogne-lac-de-naussac"
+      ],
+      "lot": 376,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1257073523",
+      "name": "Aire de Camping-Cars Langogne – Pré de la Foire",
+      "status": "tarifs_services_2026_2027_nuitee_non_publiée",
+      "finding": "Langogne Pré de la Foire : jetons 3 € pour eau 100 L ou électricité 1 h; eau indisponible 31/10–01/04; pas de tarif de nuitée publié.",
+      "nextCheck": "Ne pas confondre avec CCP Naussac; revalider prix des jetons et accès nocturne si changement.",
+      "sources": [
+        "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-camping-cars-langogne-pre-de-la-foire/"
+      ],
+      "lot": 376,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1279943921",
+      "name": "Aire de stationnement de Marvejols",
+      "status": "stationnement_prix_non_precisé",
+      "finding": "Fiche officielle Lozère Tourisme : 5 places et sanitaires au parking de l'Esplanade, sans montant tarifaire précisé; gratuité inscrite dans la fiche d'origine non corroborée.",
+      "nextCheck": "Confirmer gratuitement ou non auprès de l'office/mairie avant d'afficher un prix.",
+      "sources": [
+        "https://www.lozere-tourisme.com/aires-camping-cars/aire-de-stationnement-de-marvejols/"
+      ],
+      "lot": 376,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1284228660",
+      "name": "Aire Camping-car Park La Canourgue",
+      "status": "tarif_2027_partiel_taxe_fin_saison_non_publiee",
+      "finding": "Base 12,70 € jusqu'au 31/12/2027; taxe affichée nulle seulement au 14/05/2027. Taxe pour le reste de l'année inconnue.",
+      "nextCheck": "Recontrôler la taxe de séjour applicable après le 14/05/2027; ne pas présenter le total comme entièrement confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/la-canourgue"
+      ],
+      "lot": 376,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1284266851",
+      "name": "Aire Camping-car Chambon-le-Château",
+      "status": "tarif_2027_confirme",
+      "finding": "Chambon-le-Château : base 12,70 € + taxe 0,80 € = 13,50 €/24 h pour 2027; parking 5 h + services 6 € distinct.",
+      "nextCheck": "Conserver les montants séparés et la disponibilité saisonnière des services si elle change.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lozere/chambon-le-chateau"
+      ],
+      "lot": 376,
+      "checkedAt": "2026-11-21"
+    }
+  ]
+}
