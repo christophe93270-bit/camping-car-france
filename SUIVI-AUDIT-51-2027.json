@@ -4,12 +4,12 @@
   "displayedCount": 17,
   "rawRegionalRows": 17,
   "deduplicatedRows": 0,
-  "currentLot": 393,
+  "currentLot": 394,
   "progress": {
-    "checked": 10,
+    "checked": 17,
     "total": 17
   },
-  "note": "Lot 393 : fiches 1 à 10 de la Marne contrôlées ensemble. Chouilly CCP : base 11 € + taxe 1,32 € valables en 2027, total 12,32 €/24 h confirmé. Lac du Der Station Nautique : base 12,50 €/24 h en 2027, taxe 2027 non publiée; total à confirmer. Mareuil-sur-Aÿ : 7 places, limite 72 h, borne Qipeo et saison d'ouverture 2026; tarif camping-car non publié; ne pas confondre avec les tarifs d'amarrage bateau. Reims CIS : aire de 9 places référencée par le tourisme et planification, mais accès actuel et tarif à confirmer; distinguer du parking privé autocars et du parking public du stade. Mutigny : 8 places, 72 h, bornes Altekip/Isipay; anciens tarifs des services de 2020 non valables pour confirmer 2027. Esternay : services confirmés, eau fermée de novembre à avril, prix non publié. Saint-Imoges : stationnement gratuit selon source spécialisée, eau 2 €/150 L et électricité 2 €/h selon PNR; horaires et tarifs 2027 à confirmer. Sézanne : vidange et électricité gratuites, tarif/autorisation de nuitée non précisés. Fère-Champenoise : aire confirmée par l'office, aucun tarif affiché. Villers-sous-Châtillon : nuit possible sur 2 places; tarif non communiqué. Aucun lieu ajouté. 10/17 fiches vérifiées.",
+  "note": "Lot 394 : fiches 11 à 17 vérifiées; la Marne est désormais contrôlée à 17/17 fiches. Trépail : point technique confirmé par la mairie/PNR, mais tarifs de services contradictoires entre sources secondaires (gratuit en 2023 vs 2 €) et adresse divergente; confirmation communale requise. Épernay Paul-Bert : mairie affiche 20 €/24 h + 0,66 €/nuit/adulte; accès services temporaire 4 €, applicabilité 2027 à reconfirmer. CCP Connantre : base 11,50 €/24 h jusqu'au 31/12/2027, taxe 2027 non publiée, total à confirmer. CCP Lac du Der Casino : base 12,50 € + taxe 1,32 € applicables à 2027, total 13,82 €/24 h confirmé; forfait 5 h séparé. CCP Chantecoq : base 12,50 € pour 2027, taxe inconnue; statut contradictoire entre fiche CCP (ouverte mais 0/58 disponible) et DATAtourisme (fermeture pour travaux, MAJ 15/10/2026). Sapignicourt : projet CCP affiché à venir sans prix/date; aire municipale existante autorise le stationnement de jour seulement, nuitée interdite. Vienne-le-Château : projet CCP à venir, sans tarif ni date d'ouverture. Aucun lieu ajouté. Vérification tarifaire de la liste Marne achevée : 17/17.",
   "entries": [
     {
       "sourceId": "node/14125655001",
@@ -141,6 +141,97 @@
         "https://www.parc-montagnedereims.fr/aires-camping-cars/aire-de-service-et-de-stationnement-de-villers-sous-chatillon/"
       ],
       "lot": 393,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/908427627",
+      "name": "Aire de stationnement Trépail",
+      "status": "aire_technique_confirmee_tarifs_services_contradictoires_2027_non_confirme",
+      "finding": "La mairie confirme le point de vidange et de remplissage d'eau; le PNR référence une aire avec borne de services et vidange. Une fiche de tarif secondaire datée 2023 indique les services gratuits, tandis que d'autres annuaires mentionnent 2 €; aucune grille municipale actuelle ou tarif 2027 n'est trouvé. L'adresse varie entre place des Goulots et rue du Calvaire selon les pages.",
+      "nextCheck": "Ne pas afficher le prix de la borne comme confirmé; demander le tarif à la mairie et vérifier le point d'accès/adresse exacte.",
+      "sources": [
+        "https://www.trepail.fr/trepail/infos_utiles",
+        "https://www.parc-montagnedereims.fr/aires-camping-cars/aire-de-service-et-de-stationnement-2/",
+        "https://www.camping-car.com/aires/45308-aire-communale/",
+        "https://www.i-campingcar.fr/aires.php?ville=TREPAIL"
+      ],
+      "lot": 394,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1037296781",
+      "name": "Aire camping-cars avenue Paul-Bert, Épernay",
+      "status": "tarif_mairie_20_euros_24h_tax_0_66_par_adulte_nuitee_2027_a_reconfirmer",
+      "finding": "La mairie publie un forfait 20 €/24 h comprenant accès, électricité 24 h, eau et vidange 10 min; taxe de séjour en supplément à 0,66 €/nuit/adulte; accès temporaire services à 4 €. La page tarifaire ne précise pas de date d'application 2027. La ville distingue cette vidange de celle des eaux usées complètes, disponible sur la borne allée de Cumières.",
+      "nextCheck": "Garder forfait, taxe par adulte et accès temporaire distincts; demander à la mairie si les montants restent applicables en 2027 et préciser les limites de vidange.",
+      "sources": [
+        "https://epernay.fr/services-et-demarches/mobilite/camping-cars/aire-daccueil-camping-cars-avenue-paul-bert"
+      ],
+      "lot": 394,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-marne-connantre",
+      "name": "Aire CAMPING-CAR PARK de Connantre",
+      "status": "base_2027_11_50_tax_2027_non_publiee_total_non_confirme",
+      "finding": "La grille CCP donne une base de 11,50 €/24 h du 03/11/2026 au 31/12/2027. La taxe de séjour de 1,10 €/24 h est indiquée seulement jusqu'au 31/12/2026; le total 2027 reste donc à confirmer. Le prix de 12,60 € actuellement affiché inclut la taxe actuelle; parking 5 h + services à 6 € séparé.",
+      "nextCheck": "Afficher la base 11,50 € avec la période et marquer la taxe 2027 comme non publiée; séparer le forfait 5 h + services.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/connantre?areaType=stopover-site-motorhome"
+      ],
+      "lot": 394,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-marne-lac-du-der-casino",
+      "name": "Aire CAMPING-CAR PARK du Lac du Der – Casino",
+      "status": "tarif_2027_confirme_base_12_50_tax_1_32_total_13_82",
+      "finding": "La grille saisonnière CCP affiche une base de 12,50 €/24 h pour toute l'année 2027 et une taxe de séjour de 1,32 €/24 h également valable toute l'année 2027, soit 13,82 €/24 h. Le forfait parking 5 h + services à 6 € est distinct.",
+      "nextCheck": "Mettre à jour le tarif 2027 à 13,82 €/24 h avec la ventilation base/taxe; garder le forfait 5 h séparé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-casino?areaType=stopover-site-motorhome"
+      ],
+      "lot": 394,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-marne-lac-du-der-chantecoq",
+      "name": "Aire CAMPING-CAR PARK du Lac du Der – Chantecoq",
+      "status": "base_2027_12_50_tax_2027_non_publiee_fermeture_en_travaux_a_confirmer",
+      "finding": "La grille CCP affiche une base de 12,50 €/24 h pour 2027; la taxe de séjour de 1,32 € n'est affichée que jusqu'au 31/12/2026, donc le total 2027 n'est pas confirmé. Le statut est contradictoire: la fiche CCP mentionne l'aire ouverte mais affiche 0/58 place disponible, tandis que DATAtourisme indique une fermeture pour travaux (donnée mise à jour le 15/10/2026). Le forfait 5 h + services à 6 € est distinct.",
+      "nextCheck": "Ne pas présenter l'ouverture comme certaine; confirmer la réouverture auprès de CCP/office du tourisme. Garder séparés base 2027, taxe à confirmer et forfait 5 h.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-chantecoq",
+        "https://data.datatourisme.fr/26/5f0dca69-6999-345e-9aba-e818697fcfee"
+      ],
+      "lot": 394,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-marne-sapignicourt-projet",
+      "name": "Projet CAMPING-CAR PARK de Sapignicourt",
+      "status": "projet_ccp_a_venir_tarif_et_date_ouverture_non_publies_aire_municipale_existante_sans_nuitee",
+      "finding": "La liste départementale de CCP présente l'aire comme à venir et aucun tarif ni date d'ouverture n'est publié. La page CCP décrit par ailleurs l'aire communale existante de Sapignicourt: stationnement autorisé en journée, nuitée interdite. Il ne faut donc pas traiter ce point comme une aire d'étape ouverte ni afficher 0 € comme un prix.",
+      "nextCheck": "Maintenir le projet distinct de l'aire de service municipale; n'afficher ni tarif ni nuitée avant confirmation officielle de l'ouverture CCP.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne",
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/sapignicourt",
+        "https://www.lacduder.com/cote-pratique/venir-en-camping-car/"
+      ],
+      "lot": 394,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-marne-vienne-le-chateau-projet",
+      "name": "Projet CAMPING-CAR PARK de Vienne-le-Château",
+      "status": "projet_a_venir_tarif_date_ouverture_non_publies",
+      "finding": "La liste Marne de CCP classe l'aire de Vienne-le-Château comme à venir. Une page de destination décrit l'emplacement et les équipements prévus, mais aucune ouverture, tarif ni disponibilité opérationnelle n'est annoncée; l'affichage à 0 € sur la liste n'est pas un prix d'aire ouverte.",
+      "nextCheck": "Conserver le statut projet, sans prix de nuitée ni disponibilité avant annonce officielle d'ouverture.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne",
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/vienne-le-ch%C3%A2teau"
+      ],
+      "lot": 394,
       "checkedAt": "2026-11-21"
     }
   ]
