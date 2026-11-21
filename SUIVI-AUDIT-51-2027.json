@@ -1,0 +1,147 @@
+{
+  "scope": "Marne (51), vérification groupée des tarifs 2027",
+  "startedAt": "2026-11-21",
+  "displayedCount": 19,
+  "rawRegionalRows": 19,
+  "deduplicatedRows": 0,
+  "currentLot": 393,
+  "progress": {
+    "checked": 10,
+    "total": 19
+  },
+  "note": "Lot 393 : fiches 1 à 10 de la Marne contrôlées ensemble. Chouilly CCP : base 11 € + taxe 1,32 € valables en 2027, total 12,32 €/24 h confirmé. Lac du Der Station Nautique : base 12,50 €/24 h en 2027, taxe 2027 non publiée; total à confirmer. Mareuil-sur-Aÿ : 7 places, limite 72 h, borne Qipeo et saison d'ouverture 2026; tarif camping-car non publié; ne pas confondre avec les tarifs d'amarrage bateau. Reims CIS : aire de 9 places référencée par le tourisme et planification, mais accès actuel et tarif à confirmer; distinguer du parking privé autocars et du parking public du stade. Mutigny : 8 places, 72 h, bornes Altekip/Isipay; anciens tarifs des services de 2020 non valables pour confirmer 2027. Esternay : services confirmés, eau fermée de novembre à avril, prix non publié. Saint-Imoges : stationnement gratuit selon source spécialisée, eau 2 €/150 L et électricité 2 €/h selon PNR; horaires et tarifs 2027 à confirmer. Sézanne : vidange et électricité gratuites, tarif/autorisation de nuitée non précisés. Fère-Champenoise : aire confirmée par l'office, aucun tarif affiché. Villers-sous-Châtillon : nuit possible sur 2 places; tarif non communiqué. Aucun lieu ajouté. 10/19 fiches vérifiées.",
+  "entries": [
+    {
+      "sourceId": "node/14125655001",
+      "name": "Aire CAMPING-CAR PARK de Chouilly",
+      "status": "tarif_2027_confirme_base_11_tax_1_32_total_12_32",
+      "finding": "La grille CCP affiche une base de 11 €/24 h du 17/11/2026 au 31/12/2027 et une taxe de séjour de 1,32 €/24 h pour l'année 2027, soit 12,32 €/24 h. Le forfait parking 5 h + services à 6 € est distinct.",
+      "nextCheck": "Conserver la ventilation et le caractère susceptible d'évoluer; séparer le forfait 5 h + services.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/chouilly?areaType=stellplatze-wohnmobilstellplatz"
+      ],
+      "lot": 393,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/175564507",
+      "name": "Aire CAMPING-CAR PARK du Lac du Der – Station Nautique",
+      "status": "base_2027_12_50_tax_2027_non_confirmee_total_non_confirme",
+      "finding": "La page CCP affiche 12,50 €/24 h de base du 01/01 au 31/12/2027. La taxe de séjour de 1,32 €/24 h est documentée pour 2026 seulement; le total TTC 2027 ne peut pas être confirmé. L'aire est affichée ouverte avec 59 places. Forfait 5 h + services à 6 € séparé.",
+      "nextCheck": "Afficher la base 2027 et laisser la taxe/total 2027 à confirmer; conserver séparé le forfait 5 h.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/marne/lac-du-der-station-nautique?areaType=aire-etape-camping-car"
+      ],
+      "lot": 393,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/358259441",
+      "name": "Aire de stationnement Mareuil-sur-Aÿ",
+      "status": "tarif_nuitee_non_publie_borne_qipeo_saison_2026_a_reconfirmer",
+      "finding": "Le Parc naturel régional et la CCGVM confirment 7 places, stationnement limité à 72 h et borne de services via Qipeo; l'office de tourisme indique une période d'ouverture du 01/04 au 31/10/2026. Aucun tarif camping-car de nuitée n'est publié dans les pages consultées. Les tarifs de droits d'amarrage du relais nautique concernent les bateaux et ne doivent pas être imputés aux camping-cars.",
+      "nextCheck": "Laisser le tarif camping-car non publié et confirmer la période d'ouverture et le prix des services via Qipeo/CCGVM pour 2027; ne pas reprendre les tarifs d'amarrage des bateaux.",
+      "sources": [
+        "https://www.parc-montagnedereims.fr/aires-camping-cars/aire-de-service-et-de-stationnement-mareuil-sur-ay/",
+        "https://ccgvm.com/aires-de-camping-cars/",
+        "https://www.tourisme-hautvillers.com/item/ACCAMCHA0510000B/",
+        "https://ccgvm.com/relais-nautique/"
+      ],
+      "lot": 393,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/388120953",
+      "name": "Aire de Camping-Cars Centre International de Séjour de Champagne, Reims",
+      "status": "aire_referencee_par_tourisme_tarif_et_acces_actuel_non_confirmes",
+      "finding": "Un document touristique départemental référence une aire de 9 emplacements près du CIS; une source territoriale de planification indique aussi une aire équipée de 9 places. L'exploitant CIS ne décrit toutefois que son hébergement et son parking privatif pour autocars, ainsi que le stationnement public du stade voisin. Les annuaires disent gratuit, mais tarif, accès et autorisation actuelle pour camping-cars doivent être confirmés. Ne pas confondre avec le parking autocars privé ni le parking public du stade.",
+      "nextCheck": "Confirmer auprès de Grand Reims/CIS que l'aire proche du CIS est toujours autorisée aux camping-cars et ses conditions; garder le tarif non confirmé d'ici là.",
+      "sources": [
+        "https://cdt51.media.tourinsoft.eu/upload/ADT---Modele-E-Brochure---Plein-Air--2--2.pdf",
+        "https://data.geopf.fr/annexes/gpu/documents/DU_51454/83e917442945c22f0cbc488c4a8cfa60/51454_rapport_3_20250626.pdf",
+        "https://www.cis-reims.com/",
+        "https://www.cis-reims.com/faq/",
+        "https://www.i-campingcar.fr/aires.php?ville=REIMS"
+      ],
+      "lot": 393,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/510404286",
+      "name": "Aire de camping-cars de l'Étang, Mutigny",
+      "status": "nuit_stationnement_72h_acces_libre_tarifs_services_2027_non_confirmes",
+      "finding": "La CCGVM indique 8 places, stationnement limité à 72 h et des bornes eau/électricité Urbaflux via Altekip/Isipay; le PNR confirme la possibilité d'y passer la nuit. La page intercommunale précise l'accès libre sans réservation mais ne donne pas le prix. Un rapport CCGVM de 2020 indiquait 2 € pour environ 100 L d'eau et 2 € pour une heure d'électricité; ce barème ancien ne confirme pas les coûts 2027.",
+      "nextCheck": "Distinguer l'accès au stationnement du paiement des services; ne pas présenter le barème 2020 comme actuel, vérifier les prix dans Altekip/Isipay ou auprès de la CCGVM.",
+      "sources": [
+        "https://ccgvm.com/aires-de-camping-cars/",
+        "https://www.parc-montagnedereims.fr/aires-camping-cars/aire-de-service-et-stationnement-mutigny/",
+        "https://ccgvm.com/wp-content/uploads/2021/06/rapport-2020_compressed.pdf"
+      ],
+      "lot": 393,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/703382162",
+      "name": "Aire de stationnement d'Esternay",
+      "status": "tarif_non_publie_eau_fermee_novembre_a_avril",
+      "finding": "Sézanne Tourisme confirme l'aire place des Tilleuls, les rejets d'eaux usées et toilettes chimiques, WC et poubelles; l'eau est fermée de novembre à avril. Aucun tarif de stationnement ou de services n'est publié sur la fiche, et les anciennes mentions de gratuité ne sont pas confirmées par cette source pour 2027.",
+      "nextCheck": "Ne pas afficher la gratuité comme confirmée; demander à la mairie le tarif actuel et garder l'avertissement saisonnier de fermeture de l'eau.",
+      "sources": [
+        "https://sezanne-tourisme.fr/logement/stationnement-camping-car-desternay/"
+      ],
+      "lot": 393,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/902059601",
+      "name": "Aire de stationnement Saint-Imoges",
+      "status": "stationnement_gratuit_services_2_euros_eau_et_electricite_tarif_2026",
+      "finding": "Le PNR indique 12 places en accès libre, eau à 2 € pour 150 L et électricité à 2 € pour une heure; l'ouverture publiée va du 01/06 au 31/12/2026. Une source spécialisée confirme le stationnement gratuit. Ces montants et horaires ne sont pas explicitement garantis pour 2027.",
+      "nextCheck": "Séparer stationnement gratuit et paiements de la borne; confirmer les tarifs ainsi que l'ouverture après le 31/12/2026 auprès de la commune/du PNR.",
+      "sources": [
+        "https://www.parc-montagnedereims.fr/aires-camping-cars/aire-de-service-et-stationnement-saint-imoges/",
+        "https://ccgvm.com/aires-de-camping-cars/",
+        "https://www.camping-car.com/tourisme/actus-des-aires/une-des-plus-belles-etapes-de-france-bienvenue-sur-l-aire-de-camping-car-de-saint-imoges-51/"
+      ],
+      "lot": 393,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/908405792",
+      "name": "Aire de Camping-car de Sézanne",
+      "status": "vidange_et_electricite_gratuites_stationnement_nuitee_non_tarifie",
+      "finding": "L'office de tourisme de la Marne confirme la gratuité de la vidange et de l'électricité au parking place du Champ Benoist. Il ne précise pas si le stationnement/nuitée est payant ou gratuit ni la durée autorisée; aucun tarif 2027 de nuitée n'est confirmé.",
+      "nextCheck": "Garder les services gratuits dans leurs champs dédiés; vérifier le règlement de stationnement et la nuitée auprès de la mairie avant d'afficher une gratuité complète.",
+      "sources": [
+        "https://tourisme-en-champagne.com/hebergement/stationnement-camping-car-de-sezanne/"
+      ],
+      "lot": 393,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/908411432",
+      "name": "Aire de stationnement Fère-Champenoise",
+      "status": "aire_et_services_references_tarif_non_publie",
+      "finding": "L'Office de tourisme d'Épernay référence une aire de service et de stationnement rue de la Libération et ses équipements eau, électricité et vidange, mais ne publie pas de tarif ni de détail de prix des services. Aucun prix 2027 confirmé.",
+      "nextCheck": "Maintenir le tarif à « non publié » jusqu'à confirmation par la mairie; distinguer éventuels coûts de stationnement et de borne.",
+      "sources": [
+        "https://www.epernay-tourisme.com/hebergement/aire-de-service-et-de-stationnement-5/",
+        "https://www.epernay-tourisme.com/sejourner/se-deplacer-a-epernay-alentours/accueil-des-camping-cars/"
+      ],
+      "lot": 393,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/908423799",
+      "name": "Aire Municipale Villers-sous-Châtillon",
+      "status": "nuit_possible_2_places_tarifs_et_services_non_publies",
+      "finding": "Le Parc naturel régional confirme une borne Euro-Relais eau/électricité/vidanges et la possibilité de passer la nuit sur deux places. Aucun tarif de stationnement ou de service n'est affiché sur cette page; aucune confirmation pour 2027.",
+      "nextCheck": "Garder le tarif non communiqué et vérifier le montant des services auprès de la commune/du PNR; signaler que seulement deux places sont prévues pour la nuit.",
+      "sources": [
+        "https://www.parc-montagnedereims.fr/aires-camping-cars/aire-de-service-et-de-stationnement-de-villers-sous-chatillon/"
+      ],
+      "lot": 393,
+      "checkedAt": "2026-11-21"
+    }
+  ]
+}
