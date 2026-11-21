@@ -4,12 +4,12 @@
   "displayedCount": 62,
   "rawRegionalRows": 62,
   "deduplicatedRows": 0,
-  "currentLot": 406,
+  "currentLot": 407,
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 62
   },
-  "note": "Lot 406 : fiches 1 à 10 du Morbihan contrôlées ensemble. Aucun lieu ajouté. Guiscriff : parking camping-car gratuit, sans sanitaires ni électricité inclus; réservation toute l'année; taxe 0,20 €/adulte/nuit et électricité optionnelle 6 €/nuitée en saison avril-octobre, 8 € en novembre-mars; barème affiché 2026, 2027 à vérifier. Malestroit Tanneurs : accueil gratuit en hiver lorsque l'aire de l'écluse est fermée; services et durée non précisés pour ce parking. Montertelot : 5 €/24h toute l'année 2026, tarif 2027 non confirmé. Cruguel : stationnement gratuit en 2026, services/nuitée non détaillés. Saint-Jean-Brévelay : stationnement, eau et vidange gratuits selon fiche touristique, maintien 2027 à confirmer. Poul-Fétan : parking gratuit, aire camping-car 48h sans service; accès parc distinct. Larmor-Plage Parking des Pins : 4 places, accès toute l'année, vidanges/WC publics, max 72h, tarif non publié; ne pas confondre avec Les Algues. Lizio Camping CCP : base 12,50 €/24h valable 2027, taxe 0,40 € affichée jusqu'au 31/12/2026 donc total 2027 inconnu; 5h services 6 €, pas de vidange; aire d'étape CCP séparée. Kerné Quiberon : 11,50 €/24h, eau 2 €/80L, vidanges, sans électricité; validité 2027 non publiée. Saint-Nolff : 10 €/nuit + taxe GMVA 0,60 €/personne/jour; validité barème non précisée. Fiches restantes : 11 à 62, poursuivre par lots groupés.",
+  "note": "Lot 406 : fiches 1 à 10 du Morbihan contrôlées ensemble. Aucun lieu ajouté. Guiscriff : parking camping-car gratuit, sans sanitaires ni électricité inclus; réservation toute l'année; taxe 0,20 €/adulte/nuit et électricité optionnelle 6 €/nuitée en saison avril-octobre, 8 € en novembre-mars; barème affiché 2026, 2027 à vérifier. Malestroit Tanneurs : accueil gratuit en hiver lorsque l'aire de l'écluse est fermée; services et durée non précisés pour ce parking. Montertelot : 5 €/24h toute l'année 2026, tarif 2027 non confirmé. Cruguel : stationnement gratuit en 2026, services/nuitée non détaillés. Saint-Jean-Brévelay : stationnement, eau et vidange gratuits selon fiche touristique, maintien 2027 à confirmer. Poul-Fétan : parking gratuit, aire camping-car 48h sans service; accès parc distinct. Larmor-Plage Parking des Pins : 4 places, accès toute l'année, vidanges/WC publics, max 72h, tarif non publié; ne pas confondre avec Les Algues. Lizio Camping CCP : base 12,50 €/24h valable 2027, taxe 0,40 € affichée jusqu'au 31/12/2026 donc total 2027 inconnu; 5h services 6 €, pas de vidange; aire d'étape CCP séparée. Kerné Quiberon : 11,50 €/24h, eau 2 €/80L, vidanges, sans électricité; validité 2027 non publiée. Saint-Nolff : 10 €/nuit + taxe GMVA 0,60 €/personne/jour; validité barème non précisée. Fiches restantes : 11 à 62, poursuivre par lots groupés. Lot 407 : fiches 11 à 20 contrôlées; aucun lieu ajouté. Lann Floren : barème dégressif 12,30 € J1 à 10,50 € dès J7 + taxe 0,60 €/adulte/24h et accès court aux services 3,50 €/2h, pas de tarif 2027 daté. Ambon CCP : 13 € base + 1,20 € taxe jusqu'au 31/12/2027 = 14,20 €/24h confirmé; 5h services 6 €, sanitaires saisonniers. Pénestin La Source CCP : base 8,40 € jusqu'au 29/04/2027 puis 9,40 € du 30/04 au 31/12/2027; taxe 1,20 € seulement jusqu'au 31/12/2026, total 2027 à confirmer; services distincts sur aire Salle des Sports. Colpo : 6–8 places, eau/vidange, pas de prix. Lizio aire d'étape CCP : 12 € base + 1,10 € taxe couvrant 2027 = 13,10 €, services 5h 6 €, distinct du Camping de Lizio. Glénac Mortier : canal municipal indique borne eau/vidange 2 €, tarif service; stationnement non tarifé. Elven : 26 places gratuites du 15/03 au 15/11, conditions 2027 à confirmer. Célac : fermeture depuis fin août 2026, réouverture prévue printemps 2027 à reconfirmer; anciens tarifs 5,60 €/basse saison et 7,60 €/haute saison incluant services/taxe. Josselin CCP : base 14,25 € du 01/11/2026 au 31/12/2027; taxe 1,10 € publiée jusqu'au 31/12/2026, total 2027 à confirmer; 5h services 6 €. Brillac Sarzeau : mairie dit gratuit, Morbihan Tourisme publie 5,05 € + 0,55 € taxe sur période saisonnière; conflit officiel, limite communale de 48h. Fiches suivantes : 21 à 62.",
   "entries": [
     {
       "sourceId": "node/5012457264",
@@ -131,6 +131,131 @@
         "https://saint-nolff.bzh/hebergements-touristiques/"
       ],
       "lot": 406,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/280287554",
+      "name": "Aire de camping-cars de Lann Floren",
+      "status": "tarif_affiche_taxe_a_verifier_2027",
+      "finding": "Barème dégressif 12,30 €/jour 1 à 10,50 € dès jour 7 + taxe de séjour (0,60 €/adulte/24h sur site exploitant); service vidange/eau 3,50 € pour 2h. Fiche tourisme datée 2026.",
+      "nextCheck": "Confirmer grille et taxe 2027; séparer nuitée et accès court à la borne.",
+      "sources": [
+        "https://www.etape-camping-cars.fr/tarifs-aire-camping-cars-morbihan/",
+        "https://www.golfedumorbihan.bzh/fiche/aire-de-lann-floren-etape-campings-cars/"
+      ],
+      "lot": 407,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/299712562",
+      "name": "Aire de camping-car de Ambon",
+      "status": "tarif_2027_total_confirme",
+      "finding": "Base 13 € + taxe séjour 1,20 € jusqu'au 31/12/2027, total 14,20 €/24h; parking 5h + services 6 €. Six places; sanitaires seulement jusqu'au 30/12/2026.",
+      "nextCheck": "Confirmer le calendrier d'ouverture des sanitaires 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/morbihan/ambon-plage-de-treherve"
+      ],
+      "lot": 407,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/506237223",
+      "name": "Aire de camping-car de Pénestin, La Source",
+      "status": "base_2027_publiee_taxe_2027_inconnue",
+      "finding": "Base 8,40 €/24h jusqu'au 29/04/2027 puis 9,40 € du 30/04 au 31/12/2027; taxe de séjour 1,20 € publiée seulement pour 2026; total 2027 inconnu. Site protégé sans services, à faire sur aire Salle des Sports distincte.",
+      "nextCheck": "Confirmer taxe de séjour 2027; garder les aires La Source et Salle des Sports séparées.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/morbihan/penestin-la-source",
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/morbihan/penestin-salle-des-sports"
+      ],
+      "lot": 407,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/507323326",
+      "name": "Aire de Camping Cars Colpo — Espace Camerata",
+      "status": "tarif_non_publie",
+      "finding": "6 à 8 places, eau, vidange, ouverte toute l'année selon Morbihan Tourisme; aucun prix indiqué.",
+      "nextCheck": "Demander le coût éventuel du stationnement/services et la permission de nuitée à la commune.",
+      "sources": [
+        "https://morbihan.com/sejourner/les-hebergements/campings/tous-les-campings/aire-entree-espace-camerata-colpo-fr-4389431/"
+      ],
+      "lot": 407,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/618990256",
+      "name": "Aire de camping-car de Lizio — aire d'étape CCP",
+      "status": "tarif_2027_total_confirme",
+      "finding": "Base 12 € + taxe 1,10 €, toutes deux valables du 01/01 au 31/12/2027 = 13,10 €/24h; services 5h 6 €. 17 places. Site distinct du Camping de Lizio.",
+      "nextCheck": "Maintenir séparation des deux fiches Lizio.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/morbihan/Lizio?areaType=stopover-site-motorhome",
+        "https://www.lizio.fr/tourisme/air-de-camping-car/"
+      ],
+      "lot": 407,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/681272321",
+      "name": "Aire camping-car Glénac — Le Mortier",
+      "status": "prix_services_2_e_stationnement_non_confirme",
+      "finding": "Canal municipal indique eau potable et borne de vidange à 2 €, prix de service; prix nuitée/stationnement non indiqué. 20 places et ouverture annuelle proviennent d'un annuaire.",
+      "nextCheck": "Confirmer tarifs de la borne, capacité et prix du stationnement auprès de la mairie.",
+      "sources": [
+        "https://app.panneaupocket.com/ville/1041182834-la-gacilly?panneau=111068980",
+        "https://www.camping-car.com/aires/44191-aire-communale/"
+      ],
+      "lot": 407,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/703393060",
+      "name": "Aire de camping-car - Elven",
+      "status": "gratuit_2026_2027_a_confirmer",
+      "finding": "26 places gratuites, ouverture du 15 mars au 15 novembre selon mairie; services du dossier à distinguer, pas d'électricité.",
+      "nextCheck": "Confirmer l'ouverture, gratuité et services de la saison 2027.",
+      "sources": [
+        "https://www.elven.bzh/aire-de-camping-car/"
+      ],
+      "lot": 407,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/727542763",
+      "name": "Aire de camping-cars de Célac — Questembert",
+      "status": "fermee_travaux_reouverture_2027_a_reconfirmer",
+      "finding": "Fermée depuis fin août 2026; réouverture prévue printemps 2027. Tarifs avant fermeture: 5,60 € basse saison et 7,60 € haute saison, tout compris (stationnement, services, taxe).",
+      "nextCheck": "Vérifier réouverture et nouveau tarif au printemps 2027; ne pas appliquer ancien barème à la réouverture sans vérification.",
+      "sources": [
+        "https://www.rochefortenterre-tourisme.bzh/sorganiser/ou-dormir/campings/aire-de-celac-a-questembert-fermee-temporairement-pour-travaux-questembert-fr-3036779/"
+      ],
+      "lot": 407,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/741059174",
+      "name": "Aire de camping-car de Josselin — CCP",
+      "status": "base_2027_confirmee_taxe_2027_inconnue",
+      "finding": "Base 14,25 €/24h du 01/11/2026 au 31/12/2027; taxe de séjour 1,10 € affichée jusqu'au 31/12/2026, total 2027 non confirmé; parking 5h services 6 €.",
+      "nextCheck": "Vérifier taxe applicable et total TTC en 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/morbihan/josselin?areaType=stopover-site-motorhome"
+      ],
+      "lot": 407,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/884824005",
+      "name": "Aire de stationnement de Brillac — Sarzeau",
+      "status": "sources_officielles_contradictoires_sur_gratuite",
+      "finding": "Mairie affiche Brillac gratuit et limite générale de 48h; Morbihan Tourisme affiche paiement saisonnier à 5,05 €/nuit + taxe 0,55 €. Aucun tarif 2027 fiable à arbitrer.",
+      "nextCheck": "Demander confirmation à la mairie sur la période payante, le tarif actuel et la taxe.",
+      "sources": [
+        "https://www.sarzeau.fr/aires-de-camping-cars/",
+        "https://morbihan.com/sejourner/les-hebergements/campings/tous-les-campings/aire-de-brillac-sarzeau-fr-4389463/"
+      ],
+      "lot": 407,
       "checkedAt": "2026-11-21"
     }
   ]
