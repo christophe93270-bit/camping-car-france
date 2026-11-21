@@ -1,0 +1,125 @@
+{
+  "scope": "Moselle (57), vérification groupée des tarifs 2027",
+  "startedAt": "2026-11-21",
+  "displayedCount": 11,
+  "rawRegionalRows": 11,
+  "deduplicatedRows": 0,
+  "currentLot": 413,
+  "progress": {
+    "checked": 10,
+    "total": 11
+  },
+  "note": "Lot 413 : fiches 1 à 10 contrôlées. Une fiche reste à vérifier : fiche 11. Tarifs non confirmés laissés explicitement comme tels ; aucune donnée du site n’a été modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/12151458473",
+      "place": "Phalsbourg",
+      "lot": 413,
+      "checkedAt": "2026-11-21",
+      "status": "Tarif de stationnement/nuitée 2027 non trouvé. Mairie : accès gratuit, durée maximale 48 h. Tarifs de services publiés sans validité 2027 (eau 2 €/10 min ; électricité 2 €/h ou 4 €/12 h).",
+      "nextCheck": "Confirmer auprès de la commune les éventuels frais de stationnement et la validité 2027 des services.",
+      "sources": [
+        "https://www.phalsbourg.fr/"
+      ]
+    },
+    {
+      "sourceId": "way/498034557",
+      "place": "Sarreguemines — Camping-Car Park",
+      "lot": 413,
+      "checkedAt": "2026-11-21",
+      "status": "Tarif de base 2027 confirmé : 11,20 €/24 h ; tarif 5 h + services : 6 €. La taxe de séjour 2027 locale est de 0,40 €/adulte/24 h, mais le total TTC affiché par l’opérateur pour 2027 n’est pas publié. Ne pas calculer comme tarif opérateur confirmé.",
+      "nextCheck": "Vérifier le total 2027 TTC affiché par Camping-Car Park et sa taxe appliquée.",
+      "sources": [
+        "https://www.campingcarpark.com/"
+      ]
+    },
+    {
+      "sourceId": "way/499069684",
+      "place": "Bitche — aire de services de la citadelle",
+      "lot": 413,
+      "checkedAt": "2026-11-21",
+      "status": "Services publiés : eau 2 €, électricité 2 €, vidanges. Aucun tarif de stationnement/nuitée ni millésime 2027 confirmé.",
+      "nextCheck": "Demander à la commune si le stationnement est autorisé/payant et si les tarifs de services restent valables en 2027.",
+      "sources": [
+        "https://www.citadelle-bitche.com/"
+      ]
+    },
+    {
+      "sourceId": "way/503250944",
+      "place": "Rodemack",
+      "lot": 413,
+      "checkedAt": "2026-11-21",
+      "status": "Stationnement annoncé gratuit et sans durée limitée. Borne de services annoncée en saison (1er avril–30 septembre), sans tarif 2027 confirmé. Capacité publiée de 220 places semble concerner le parking général, non l’aire camping-car.",
+      "nextCheck": "Confirmer tarif et disponibilité 2027 de la borne ainsi que le nombre de places dédiées aux camping-cars.",
+      "sources": [
+        "https://www.tourisme-pays-thionvillois.fr/"
+      ]
+    },
+    {
+      "sourceId": "way/522139405",
+      "place": "Sarralbe",
+      "lot": 413,
+      "checkedAt": "2026-11-21",
+      "status": "Mairie : accès gratuit 24 h/24, 4 places, durée maximale 48 h, sans services. Le stationnement de camping-cars est interdit en centre-ville.",
+      "nextCheck": "Aucune correction tarifaire à appliquer ; recontrôler la règle municipale lors de la prochaine mise à jour.",
+      "sources": [
+        "https://www.sarralbe.fr/"
+      ]
+    },
+    {
+      "sourceId": "way/551325593",
+      "place": "Saint-Avold — Camping-Car Park",
+      "lot": 413,
+      "checkedAt": "2026-11-21",
+      "status": "Tarif 2027 confirmé : 13,70 € + taxe de séjour 1,10 € = 14,80 €/24 h ; tarif 5 h + services : 6 €. L’ancien prix de base 13,10 € est obsolète.",
+      "nextCheck": "Mettre à jour la fiche à 14,80 €/24 h TTC 2027 si elle affiche le prix total.",
+      "sources": [
+        "https://www.campingcarpark.com/"
+      ]
+    },
+    {
+      "sourceId": "way/575114553",
+      "place": "Mittersheim — port",
+      "lot": 413,
+      "checkedAt": "2026-11-21",
+      "status": "Tarif publié de 9 €/nuit et 4 places, sans confirmation de validité pour 2027. Électricité et sanitaires disponibles à proximité, coûts non précisés.",
+      "nextCheck": "Confirmer le tarif nuitée 2027 et le coût de l’électricité/sanitaires auprès du port ou de la commune.",
+      "sources": [
+        "https://www.moselle-attractivite.fr/"
+      ]
+    },
+    {
+      "sourceId": "way/932792864",
+      "place": "Amnéville — Camping-Car Park",
+      "lot": 413,
+      "checkedAt": "2026-11-21",
+      "status": "Tarif 2027 confirmé : 14,80 € + taxe de séjour 1,22 € = 16,02 €/24 h ; tarif 5 h + services : 6 €. L’opérateur indique 36 places, contre 32 dans la fiche.",
+      "nextCheck": "Mettre à jour le total TTC 2027 et vérifier/corriger la capacité à 36 places.",
+      "sources": [
+        "https://www.campingcarpark.com/"
+      ]
+    },
+    {
+      "sourceId": "way/1147704615",
+      "place": "Hoste",
+      "lot": 413,
+      "checkedAt": "2026-11-21",
+      "status": "Services publiés : eau 2 €, électricité 3 €, mais unités/modalités ambiguës. Aucun tarif de stationnement ou validité 2027 confirmé.",
+      "nextCheck": "Confirmer les unités exactes, le tarif de nuitée et leur validité 2027 auprès de la commune.",
+      "sources": [
+        "https://www.moselle-attractivite.fr/"
+      ]
+    },
+    {
+      "sourceId": "way/1213413944",
+      "place": "Sarrebourg",
+      "lot": 413,
+      "checkedAt": "2026-11-21",
+      "status": "10 places annoncées, stationnement gratuit, sans borne de services ni vidange actuellement.",
+      "nextCheck": "Aucune correction tarifaire à appliquer ; confirmer lors de la prochaine révision si l’équipement évolue.",
+      "sources": [
+        "https://www.moselle-attractivite.fr/"
+      ]
+    }
+  ]
+}
