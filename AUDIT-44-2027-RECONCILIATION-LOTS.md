@@ -98,3 +98,8 @@ Aucun nouveau tarif complet de nuitée 2027 n’a été confirmé. Les condition
 Dix fiches CAMPING-CAR PARK déjà publiées ont été contrôlées en groupe : Guérande avenue de la Brière, Biochon, Clos Mora, Brambell, Château de la Touche, Nantes Petit Port, l’Écodomaine de la Goguillais, l’École de Guérande, Blain et Pornic Bienvenue au siège.
 
 Neuf tarifs d’étape 2027 sont confirmés avec base, taxe et total : Guérande 14,82 €, Biochon 10,89 €, Clos Mora 15,27 €, Brambell 12,11 €, Château de la Touche 12,22 €, Nantes Petit Port 16,32 €, Goguillais 14,10 €, l’École 12 €, Pornic Bienvenue au siège 14,05 € par 24 h. Ces montants ont été structurés dans les données publiques, avec distinction des produits 5 h. Pour Blain, seule la base 12,73 €/24 h jusqu’au 31/12/2027 reste indexée; la page CCP référencée est inaccessible, la taxe 2027 est absente et le total dynamique est contradictoire. Le total de Blain reste non confirmé. Détails et sources : AUDIT-44-2027-LOT359.md. Aucun lieu ajouté et aucun contact envoyé.
+
+
+## Lot tarifaire 360 — 21 novembre 2026
+
+Dix fiches de camping contrôlées ensemble : La Boutinardière, le Vieux Château, la Baie, les Chalands Fleuris, le Domaine de Léveno, l’Étang du Pays Blanc, le Petit Bois, La Falaise, Au Soir d’Été et La Riviera. Un tarif opérateur camping-car 2027 complet a été confirmé pour Au Soir d’Été (22/31/43 €/nuit selon période, avant taxe de 0,66 €/adulte/nuit). Neuf autres fiches restent sans tarif opérateur complet ou n’ont qu’un indice secondaire, une saison d’ouverture ou un total de séjour. Aucun prix public n’a été modifié. Détails et sources : [AUDIT-44-2027-LOT360.md](AUDIT-44-2027-LOT360.md).
