@@ -2,14 +2,14 @@
   "scope": "Audit du tarif 2027 pour les dix premières fiches d’aires de service du catalogue régional Orne (61), dans l’ordre alphabétique de la source. Ce suivi porte sur ce lot et ne représente pas l’inventaire complet du département ni les fiches déjà présentes dans aires.json.",
   "startedAt": "2026-11-21",
   "sourceInventory": "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
-  "currentLot": 423,
+  "currentLot": 424,
   "department": "61",
   "progress": {
     "checkedInLot": 10,
     "totalInLot": 10,
     "departmentTotal": null
   },
-  "note": "Lot 423 : dix entrées suivantes du catalogue régional contrôlées. Un tarif 2027 de camping est publié pour le Champ Passais; Charencey a une indication 2027 en annuaire secondaire. Les autres tarifs restent datés 2025/2026 ou à confirmer. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
+  "note": "Lot 424 : dix entrées suivantes de l’inventaire régional contrôlées. Aucun barème complet de nuitée/services officiellement daté 2027 confirmé. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
   "entries": [
     {
       "place": "L’Aigle — aire communale, 15 bis avenue du Mont-Saint-Michel",
@@ -232,6 +232,111 @@
       "sources": [
         "https://www.lecampeur.fr/aire/aire-de-services-flers-lavage-saint-sauveur",
         "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf"
+      ]
+    },
+    {
+      "place": "Gacé — aire de services, place du Château",
+      "lot": 424,
+      "checkedAt": "2026-11-21",
+      "status": "Tourisme 61 indique stationnement gratuit en 2027; tarif des services absent. Une autre borne est rue du Marché aux Bestiaux.",
+      "nextCheck": "Confirmer prix des services et distinguer les sites.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/3016976-aire-de-service-de-gace",
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-service-de-gace/"
+      ]
+    },
+    {
+      "place": "Gacé — Camping Le Pressoir",
+      "lot": 424,
+      "checkedAt": "2026-11-21",
+      "status": "Mairie : 13 €/nuit basse saison, 15 € haute saison; emplacement, électricité et Wi-Fi inclus. Pas de millésime 2027.",
+      "nextCheck": "Confirmer le barème 2027 et les prestations comprises.",
+      "sources": [
+        "https://www.gace.fr/?page_id=1432"
+      ]
+    },
+    {
+      "place": "Irai — aire route de Normandel",
+      "lot": 424,
+      "checkedAt": "2026-11-21",
+      "status": "Gratuité des services signalée par une source tierce en 2024; fiche régionale couvre 2027 sans montant.",
+      "nextCheck": "Confirmer la gratuité 2027 auprès de la mairie.",
+      "sources": [
+        "https://www.camping-car.com/aires/43414-aire-communale/",
+        "https://www.cirkwi.com/fr/point-interet/3016996-aire-de-camping-car-de-la-route-de-normandel"
+      ]
+    },
+    {
+      "place": "Juvigny — borne du stade Clément-Leroyer",
+      "lot": 424,
+      "checkedAt": "2026-11-21",
+      "status": "Commune : eau 2 €/10 min, électricité 2 €/2 h; pas de validité 2027 précisée.",
+      "nextCheck": "Confirmer les tarifs 2027.",
+      "sources": [
+        "https://juvignyvaldandaine.fr/loisirs-et-tourisme/tourisme/"
+      ]
+    },
+    {
+      "place": "Juvigny — stationnement avenue Léopold-Barré",
+      "lot": 424,
+      "checkedAt": "2026-11-21",
+      "status": "Stationnement gratuit selon la commune; borne de service située ailleurs. Pas de millésime 2027.",
+      "nextCheck": "Confirmer le maintien de la gratuité.",
+      "sources": [
+        "https://juvignyvaldandaine.fr/loisirs-et-tourisme/tourisme/"
+      ]
+    },
+    {
+      "place": "Juvigny — Ferme des Martellières",
+      "lot": 424,
+      "checkedAt": "2026-11-21",
+      "status": "5 emplacements avec eau et électricité, réservation téléphonique conseillée; prix non publié.",
+      "nextCheck": "Demander conditions et tarif 2027 à l’exploitation.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-stationnement-de-la-ferme-des-martellieres/"
+      ]
+    },
+    {
+      "place": "Juvigny — camping municipal",
+      "lot": 424,
+      "checkedAt": "2026-11-21",
+      "status": "Le site communal affiche deux barèmes divergents : camping-car 6 € ou 4 €, taxes et électricité différentes. Aucun barème 2027.",
+      "nextCheck": "Demander à la mairie un tarif unique et préciser ce qui est compris.",
+      "sources": [
+        "https://juvignyvaldandaine.fr/tourisme/camping-juvigny-sous-andaine/",
+        "https://juvignyvaldandaine.fr/loisirs-et-tourisme/tourisme/"
+      ]
+    },
+    {
+      "place": "La Chapelle-Montligeon — Camping Les Bruyères",
+      "lot": 424,
+      "checkedAt": "2026-11-21",
+      "status": "Mairie : emplacement camping-car/van 6 €/nuit, adulte 3 €, enfant -10 ans 2 €, électricité 6 €. Dates d’ouverture à confirmer; tarif non daté.",
+      "nextCheck": "Confirmer période et barème 2027.",
+      "sources": [
+        "https://www.chapelle-montligeon.fr/?page_id=159"
+      ]
+    },
+    {
+      "place": "La Ferrière-aux-Étangs — aire du Mont-Brûlé",
+      "lot": 424,
+      "checkedAt": "2026-11-21",
+      "status": "Site communal actualisé en 2026 : stationnement 24 h 5 €, eau 2 €, électricité 3 €/12 h, vidange gratuite, taxe 0,55 €/adulte/jour.",
+      "nextCheck": "Confirmer le tarif 2027.",
+      "sources": [
+        "https://www.laferriereauxetangs.com/aire-de-camping-car/"
+      ]
+    },
+    {
+      "place": "La Ferté-Macé — aire de la Base de Loisirs",
+      "lot": 424,
+      "checkedAt": "2026-11-21",
+      "status": "Site communal : à partir de 5 €/2 h. Délibération 2025 : nuit 9 € (janv.-juin), 11 € (juil.-août), taxes supplémentaires. Convention Camping-Car Park annoncée au conseil en nov. 2026.",
+      "nextCheck": "Vérifier exploitant et barème 2027.",
+      "sources": [
+        "https://lafertemace.fr/aire-de-camping-cars-2-2/",
+        "https://lafertemace.fr/wp-content/uploads/2025/09/DCM2591V-TARIFS-SERVICES-COMMUNAUX-ANNEE-2025-MODIFICATIF.pdf",
+        "https://lafertemace.fr/conseil-municipal-mardi-17-novembre-2026-20h/"
       ]
     }
   ]
