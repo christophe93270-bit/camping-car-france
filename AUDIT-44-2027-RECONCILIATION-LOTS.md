@@ -108,3 +108,8 @@ Dix fiches de camping contrôlées ensemble : La Boutinardière, le Vieux Châte
 ## Lot tarifaire 361 — 21 novembre 2026
 
 Dix fiches CAMPING-CAR PARK contrôlées ensemble : huit tarifs d’étape 2027 confirmés à partir du tarif de base 24 h et de la taxe 2027; deux bornes de services conservées hors nuitée. Saint-Viaud est classé « services sans nuitée » malgré une ligne « 24 h » ambiguë; Pornic reste contradictoire entre tarif par service et ligne 24 h/taxe. Les produits de 5 h demeurent distincts. Aucun lieu ajouté ni tarif public réécrit dans ce lot. Détails : [AUDIT-44-2027-LOT361.md](AUDIT-44-2027-LOT361.md).
+
+
+## Lot tarifaire 362 — 21 novembre 2026
+
+Dix campings distincts contrôlés ensemble. Une offre promotionnelle datée du Flower Camping Les Paludiers établit un séjour de sept nuits en mai 2027 à 134,40 € après remise (168 € avant), mais n’établit ni tarif général par nuit ni panier final complet. Les neuf autres fiches ne disposent pas d’un tarif opérateur 2027 complet confirmé; tarifs 2026 et grilles non millésimées gardés hors de la colonne des prix 2027. Aucun prix public modifié, aucun lieu ajouté. Détails : [AUDIT-44-2027-LOT362.md](AUDIT-44-2027-LOT362.md).
