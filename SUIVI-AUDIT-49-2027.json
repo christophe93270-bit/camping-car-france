@@ -4,12 +4,12 @@
   "displayedCount": 110,
   "rawRegionalRows": 114,
   "deduplicatedRows": 4,
-  "currentLot": 381,
+  "currentLot": 382,
   "progress": {
-    "checked": 40,
+    "checked": 50,
     "total": 110
   },
-  "note": "Lot 378 : fiches 1–10 vérifiées en groupe. Aucun lieu ajouté. Un tarif 2027 confirmé (CCP Ingrandes-le-Fresne-sur-Loire : 12,52 €/24 h du 04/11/2026 au 31/12/2027; taxe affichée à 0 €/24 h sur la même période). Lot 379 : fiches 11–20 contrôlées; tarif CCP Le Port distinct de La Bastille gratuite, attribution erronée à corriger; Chenillé-Changé tarif ambigu. Lot 380 : fiches 21–30 vérifiées. Le CCP Les Hauts-d'Anjou affiche 12,73 €/24 h hors taxe du 19/11/2026 au 31/12/2027 et taxe 2027 de 0,88 €/24 h, soit 13,61 € affichés. Le Domaine des Coteaux Blancs annonce explicitement l'accueil camping-car gratuit (3 véhicules maximum). Plusieurs autres tarifs sont non publiés, non millésimés, ou services seulement. 30/110 fiches contrôlées, aucun lieu ajouté. Le site Pages sert 114 lignes brutes, 4 doublons écartés. L'API GitHub main renvoie un aires-pdl.json vide; aucun écrasement du fichier de données. Lot 381 : fiches 31–40 vérifiées ensemble. Tarifs 2027 confirmés pour CCP Mazé–Le Gué (11,66 €/24 h jusqu’au 31/12/2027) et eau à Montreuil-Bellay (3 €/100 L jusqu’au 31/12/2027). Morédéna et Saint-Aubin ont des tarifs explicitement millésimés 2026; les autres prix ou services sont absents, non millésimés, ou à distinguer des nuitées. Aucun lieu ajouté. 40/110 fiches contrôlées.",
+  "note": "Lot 378 : fiches 1–10 vérifiées en groupe. Aucun lieu ajouté. Un tarif 2027 confirmé (CCP Ingrandes-le-Fresne-sur-Loire : 12,52 €/24 h du 04/11/2026 au 31/12/2027; taxe affichée à 0 €/24 h sur la même période). Lot 379 : fiches 11–20 contrôlées; tarif CCP Le Port distinct de La Bastille gratuite, attribution erronée à corriger; Chenillé-Changé tarif ambigu. Lot 380 : fiches 21–30 vérifiées. Le CCP Les Hauts-d'Anjou affiche 12,73 €/24 h hors taxe du 19/11/2026 au 31/12/2027 et taxe 2027 de 0,88 €/24 h, soit 13,61 € affichés. Le Domaine des Coteaux Blancs annonce explicitement l'accueil camping-car gratuit (3 véhicules maximum). Plusieurs autres tarifs sont non publiés, non millésimés, ou services seulement. 30/110 fiches contrôlées, aucun lieu ajouté. Le site Pages sert 114 lignes brutes, 4 doublons écartés. L'API GitHub main renvoie un aires-pdl.json vide; aucun écrasement du fichier de données. Lot 381 : fiches 31–40 vérifiées ensemble. Tarifs 2027 confirmés pour CCP Mazé–Le Gué (11,66 €/24 h jusqu’au 31/12/2027) et eau à Montreuil-Bellay (3 €/100 L jusqu’au 31/12/2027). Morédéna et Saint-Aubin ont des tarifs explicitement millésimés 2026; les autres prix ou services sont absents, non millésimés, ou à distinguer des nuitées. Aucun lieu ajouté. 40/110 fiches contrôlées. Lot 382 : fiches 41–50 vérifiées ensemble. CCP Villebernier : 12,32 €/24 h de base du 21/11/2026 au 31/12/2027 + taxe 2027 de 1,32 €, total 13,64 €/24 h; le prix de tête 14,86 € vu dans une ancienne liste est dépassé. Baugé : valeurs touristiques récentes 5,20–7,20 €/24 h, eau 3,60 € et taxe 0,65 €/personne, mais année des nouveaux montants non explicitée et page exploitant encore ancienne; 2027 à confirmer. Tarifs 2026 ou non millésimés conservés comme historiques pour Durtal, Baracé et les services gratuits/autres lieux. Aucun ajout de lieu. 50/110 fiches contrôlées.",
   "entries": [
     {
       "sourceId": "ACCAMPDL049V50ICDQ",
@@ -499,6 +499,131 @@
         "https://www.anjou-tourisme.com/fr/diffusio/camping-car/camping-les-plages-de-loire-rochefort-sur-loire_TFOACCAMPDL049V501Q8Y"
       ],
       "lot": 381,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V502A43",
+      "name": "Aire de services et stationnement camping-cars à Durtal — Camping des Portes de l'Anjou",
+      "status": "tarif_2026_16_60_20_60_2027_non_confirme",
+      "finding": "Anjou Tourisme affiche un tarif 2026 de 16,60–20,60 €/nuit pour l’emplacement + 2 personnes. Électricité à partir de 4,40 €/nuit, animal et taxe en supplément. Aucun barème 2027 officiel trouvé.",
+      "nextCheck": "Demander à l’exploitant la grille 2027 par période et distinguer nuitée, électricité, animal et taxe.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-services-et-de-stationnement-camping-cars-a-durtal-camping-des-portes-de-l-anjou-durtal_TFOACCAMPDL049V502A43",
+        "https://www.lesportesdelanjou.com/emplacements/"
+      ],
+      "lot": 382,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50015A",
+      "name": "Aire du plan d'eau de Combrée",
+      "status": "stationnement_gratuit_mairie_services_sans_prix_2027_non_millesime",
+      "finding": "La mairie classe l’aire du plan d’eau comme gratuite; elle est distincte de l’aire de la forêt de Combrée. Aucun prix séparé des équipements/services n’est publié.",
+      "nextCheck": "Conserver la gratuité publiée et vérifier si la commune modifie ses conditions en 2027.",
+      "sources": [
+        "https://www.ombreedanjou.fr/aires-de-camping-car/",
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-du-plan-d-eau-de-combree-ombree-d-anjou_TFOACCAMPDL049V50015A"
+      ],
+      "lot": 382,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V509M95",
+      "name": "Aire de services camping-cars de Noyant — place du Champ de Foire",
+      "status": "stationnement_gratuit_eau_2_50_indisponibilite_temporaire_a_verifier",
+      "finding": "La fiche de l’Office de tourisme mise à jour le 01/10/2026 indique 8 places gratuites, vidanges et eau à 2,50 € par jeton. Un avis récent signale un distributeur en panne et l’eau laissée gratuitement par la mairie; disponibilité actuelle de l’eau et du paiement à reconfirmer. Pas de tarif 2027 explicite.",
+      "nextCheck": "Confirmer auprès de la mairie si le jeton à 2,50 € fonctionne encore ou si l’eau est laissée gratuite; le stationnement est indiqué gratuit.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-services-camping-cars-de-noyant-place-du-champs-de-foire-noyant-villages_TFOACCAMPDL049V509M95"
+      ],
+      "lot": 382,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V504612",
+      "name": "Aire de la forêt de Combrée",
+      "status": "tarif_stationnement_services_non_publie_distincte_plan_eau",
+      "finding": "Anjou Tourisme ne publie aucun tarif; la fiche décrit toilettes, pique-nique et vidanges. Aire distincte du plan d’eau, que la mairie marque gratuite. Aucun tarif de nuitée 2027 vérifié.",
+      "nextCheck": "Demander à la mairie les conditions de stationnement de nuit, le tarif éventuel et le fonctionnement saisonnier de l’aire de vidange.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-la-foret-de-combree-ombree-d-anjou_TFOACCAMPDL049V504612",
+        "https://www.ombreedanjou.fr/aires-de-camping-car/"
+      ],
+      "lot": 382,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V5001CZ",
+      "name": "Aire d'accueil de la Chapelle-Saint-Florent",
+      "status": "vidange_gratuite_stationnement_non_tarife_2027",
+      "finding": "La fiche d’Anjou Tourisme confirme la vidange des eaux usées gratuite et en libre-service, sans électricité. Aucun tarif du stationnement/de la nuitée n’est publié.",
+      "nextCheck": "Confirmer auprès de la commune si le stationnement de nuit est autorisé et gratuit ou payant en 2027.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-d-accueil-de-la-chapelle-saint-florent-mauges-sur-loire_TFOACCAMPDL049V5001CZ"
+      ],
+      "lot": 382,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V500ME9",
+      "name": "Aire de stationnement Rablay-sur-Layon",
+      "status": "stationnement_services_annonces_gratuits_2027_a_reconfirmer",
+      "finding": "Destination Anjou Vignoble et Villages publie le stationnement et les services gratuits, avec eau et vidange. Aucun tarif ou millésime 2027 spécifique n’est affiché.",
+      "nextCheck": "Reconfirmer la gratuité auprès de la commune avant de la présenter comme validée pour 2027.",
+      "sources": [
+        "https://anjou-vignoble-villages.com/hebergements/aire-de-stationnement-rablay-sur-layon/"
+      ],
+      "lot": 382,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50ICEJ",
+      "name": "Aire Camping-car Park de Villebernier — Le Port Roux",
+      "status": "base_2027_confirmee_12_32_tax_1_32_total_13_64",
+      "finding": "Grille CCP mise à jour le 21/11/2026 : base 12,32 €/24 h du 21/11/2026 au 31/12/2027 et taxe de séjour 1,32 €/24 h du 01/01/2027 au 31/12/2027, soit 13,64 €/24 h en 2027. La tête de page affiche 13,64 € en ce moment; une ancienne capture/liste avait indiqué 14,86 €, mais elle est dépassée. Parking 5 h + services : 6 €, distinct.",
+      "nextCheck": "Recontrôler après le 31/12/2027; 2027 confirmé sur la grille actuelle. Vérifier si la vidange temporairement indisponible est rétablie avant déplacement.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/maine-et-loire/villebernier?areaType=aire-etape-camping-car"
+      ],
+      "lot": 382,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V50BRM9",
+      "name": "Aire de service et de stationnement camping-cars de Baracé",
+      "status": "nuit_10_euros_decision_2022_validite_2027_a_confirmer",
+      "finding": "Anjou Tourisme indique 10 €/nuit depuis le 01/01/2022 à régler en mairie, deux places avec eau, électricité et vidange. La fiche ne confirme pas explicitement la validité 2027 ni de tarif distinct des services.",
+      "nextCheck": "Demander à la mairie si les 10 €/nuit et les modalités de paiement sont maintenus en 2027; demander si les services sont inclus.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-service-et-de-stationnement-camping-cars-de-barace-barace_TFOACCAMPDL049V50BRM9",
+        "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-et-de-stationnement-camping-cars-de-barace"
+      ],
+      "lot": 382,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL049V501LRW",
+      "name": "Camping municipal de la Coudraye — Saint-Lambert-du-Lattay",
+      "status": "tarifs_2027_en_validation_ccp_distinct",
+      "finding": "Le site de la commune indique que les tarifs 2027 sont en cours de validation. Il distingue le camping de la Coudraye et l’aire CCP de Saint-Aubin-de-Luigné, située à 5 km. Aucun tarif de nuitée camping-car propre à cette fiche n’est confirmé pour 2027.",
+      "nextCheck": "Reprendre la vérification lorsque la commune publiera sa grille 2027; ne pas attribuer le tarif CCP de Saint-Aubin-de-Luigné au camping.",
+      "sources": [
+        "https://www.campingdelacoudraye.fr/"
+      ],
+      "lot": 382,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAM968000602",
+      "name": "Aire de services camping-cars de Baugé — Le Pont des Fées",
+      "status": "nouveaux_montants_5_20_7_20_eau_3_60_tax_0_65_annee_non_precisee",
+      "finding": "La fiche touristique mise à jour actuellement publie 5,20 €/24 h basse saison, 7,20 €/24 h haute saison, eau 3,60 €/10 min et taxe 0,65 €/personne/24 h. La fiche exploitant conserve 5/7 €, 3,50 € d’eau et un barème 2026; l’année de validité des montants révisés n’est pas explicitement donnée. Tarif 2027 plausible mais non confirmé sur une grille datée.",
+      "nextCheck": "Demander à l’exploitant/à la commune la grille datée applicable en 2027 et harmoniser les pages; ne pas reprendre comme tarif 2027 confirmé sans millésime explicite.",
+      "sources": [
+        "https://www.anjou-tourisme.com/fr/diffusio/camping-car/aire-de-services-camping-cars-de-bauge-le-pont-des-fees-bauge-en-anjou_TFOACCAM968000602",
+        "https://www.camping-bauge.fr/h%C3%A9bergements/aire-de-service-de-camping-car/"
+      ],
+      "lot": 382,
       "checkedAt": "2026-11-21"
     }
   ]
