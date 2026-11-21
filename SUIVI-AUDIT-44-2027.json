@@ -1,7 +1,7 @@
 {
   "scope": "Loire-Atlantique, audit accéléré par petits lots de fiches existantes",
   "startedAt": "2026-11-02",
-  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes correspondant à 216 lieux et 3 fiches liées/alias (zone technique de la Grotte Saint-Jean, alias de la Guichardière, alias du Clos Mer et Nature). Correction du comptage : les 219 lignes portent déjà un recheckLot antérieur (lots 309 à 341). Les lots tarifaires 342 à 352 représentent donc une seconde passe sur 110 lieux, et non 110 lieux jamais examinés. Les 106 lieux distincts sans tariffQueueLot dans cette seconde file ont eux aussi un contrôle antérieur; « restent à examiner » était une formulation erronée. Ne pas ouvrir de lot 353 avant rapprochement des contrôles et des lacunes tarifaires réellement non résolues. Aucune donnée publiée du site modifiée. Rapport de rapprochement détaillé : AUDIT-44-2027-RECONCILIATION-LOTS.md. Lot tarifaire 353 ouvert le 21/11/2026 sur dix fiches aux questions 2027 non résolues; voir AUDIT-44-2027-LOT353.md. Aucun prix publié n’a été modifié.",
+  "note": "Rapprochement du 19/11/2026 : site publié 216 lieux dans le 44, 188 après filtre nocturne. Registre : 219 lignes correspondant à 216 lieux et 3 fiches liées/alias (zone technique de la Grotte Saint-Jean, alias de la Guichardière, alias du Clos Mer et Nature). Correction du comptage : les 219 lignes portent déjà un recheckLot antérieur (lots 309 à 341). Les lots tarifaires 342 à 352 représentent donc une seconde passe sur 110 lieux, et non 110 lieux jamais examinés. Les 106 lieux distincts sans tariffQueueLot dans cette seconde file ont eux aussi un contrôle antérieur; « restent à examiner » était une formulation erronée. Ne pas ouvrir de lot 353 avant rapprochement des contrôles et des lacunes tarifaires réellement non résolues. Aucune donnée publiée du site modifiée. Rapport de rapprochement détaillé : AUDIT-44-2027-RECONCILIATION-LOTS.md. Lot tarifaire 353 ouvert le 21/11/2026 sur dix fiches aux questions 2027 non résolues; voir AUDIT-44-2027-LOT353.md. Aucun prix publié n’a été modifié. Lot tarifaire 354 ouvert le 21/11/2026 sur dix fiches de camping sans tarif 2027 camping-car confirmé; voir AUDIT-44-2027-LOT354.md. Aucun prix publié n’a été modifié.",
   "entries": [
     {
       "sourceId": "CCF44-ST-MOLF-ILE-KERNODET-2026",
@@ -4305,7 +4305,14 @@
       "recheckSource": "https://www.campinglesbleuets.com/emplacements-camping-pornic",
       "recheckMotorhomeSource": "https://www.campinglesbleuets.com/emplacement-camping-car-pornic",
       "recheckOfficialSource": "https://www.campinglesbleuets.com/emplacements-camping-pornic",
-      "recheckConditionsSource": "https://www.campinglesbleuets.com/emplacement-camping-car-pornic"
+      "recheckConditionsSource": "https://www.campinglesbleuets.com/emplacement-camping-car-pornic",
+      "tariffQueueLot": 354,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 354 (21/11/2026) : La page officielle présente une grille d’emplacements explicitement datée 2026; aucun tarif 2027 clairement applicable au camping-car n’est confirmé.",
+      "tariffQueueNextCheck": "Obtenir le forfait camping-car 2027, puis confirmer périodes, électricité, taxe et suppléments.",
+      "tariffQueueSources": [
+        "https://www.campinglesbleuets.com/emplacements-camping-pornic"
+      ]
     },
     {
       "sourceId": "CCF44-LA-BAULE-EDEN-2026",
@@ -4326,7 +4333,15 @@
       "recheckSource": "https://www.campingeden.com/location-emplacement-camping-la-baule/",
       "recheckConditionsSource": "https://www.campingeden.com/location-emplacement-camping-la-baule/",
       "recheckOfficialSource": "https://www.campingeden.com/accueil-camping/documents/",
-      "recheckWrongSimilarSource": "https://www.campingeden.com/wp-content/uploads/fra-tarifa-camping-2027-v3.pdf"
+      "recheckWrongSimilarSource": "https://www.campingeden.com/wp-content/uploads/fra-tarifa-camping-2027-v3.pdf",
+      "tariffQueueLot": 354,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 354 (21/11/2026) : La grille officielle indique « Tarifs camping 2026 » et la liste officielle des documents ne référence que les documents saison 2026. Aucun tarif d’emplacement 2027 confirmé; écarter le document du camping homonyme espagnol.",
+      "tariffQueueNextCheck": "Demander calendrier et tarif d’emplacement 2027, avec taxe et frais.",
+      "tariffQueueSources": [
+        "https://www.campingeden.com/emplacements/",
+        "https://www.campingeden.com/accueil-camping/documents/"
+      ]
     },
     {
       "sourceId": "CCF44-PORNICHET-BUGEAU-2026",
@@ -4347,7 +4362,14 @@
       "recheckSeasonSource": "https://www.campingdubugeau.com/fr/",
       "recheckResidential2027Source": "https://www.campingdubugeau.com/fr/camping-residentiel-mobil-homes-a-vendre/",
       "recheckOfficialSource": "https://www.campingdubugeau.com/fr/hebergements/emplacement-tentes-camping-car-caravanes-10a-1",
-      "recheckSecondarySource": "https://www.campingdubugeau.com/fr/"
+      "recheckSecondarySource": "https://www.campingdubugeau.com/fr/",
+      "tariffQueueLot": 354,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 354 (21/11/2026) : L’opérateur confirme les emplacements camping-car avec électricité 10 A, mais la page consultée reste datée 2026. Les loyers 2027 de parcelles résidentielles sont annuels et ne sont pas des prix de passage.",
+      "tariffQueueNextCheck": "Demander le prix de nuitée camping-car 2027 et le calendrier; ne pas reprendre les loyers résidentiels annuels.",
+      "tariffQueueSources": [
+        "https://www.campingdubugeau.com/fr/hebergements/emplacement-tentes-camping-car-caravanes-10a-1"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000051",
@@ -4368,7 +4390,15 @@
       "recheckConditionsSource": "https://www.slow-village.com/france/pays-de-la-loire/loire-atlantique/pornic/",
       "recheckBookingSource": "https://www.slow-village.com/destinations/pays-de-la-loire/pornic/?tabs=emplacement-camping",
       "recheckSecondarySource": "https://www.slow-village.com/",
-      "recheckOfficialSource": "https://www.slow-village.com/hebergements/emplacement-vehicules-loisirs/"
+      "recheckOfficialSource": "https://www.slow-village.com/hebergements/emplacement-vehicules-loisirs/",
+      "tariffQueueLot": 354,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 354 (21/11/2026) : L’opérateur annonce les réservations estivales 2027 ouvertes et décrit des emplacements véhicules loisirs de 100 m² avec 10 A maximum. Aucun devis daté ni tarif fixe 2027 n’a été relevé.",
+      "tariffQueueNextCheck": "Relever un devis officiel par dates pour camping-car et deux adultes; enregistrer total et durée puis isoler taxe et options.",
+      "tariffQueueSources": [
+        "https://www.slow-village.com/hebergements/emplacement-vehicules-loisirs/",
+        "https://www.slow-village.com/destinations/pays-de-la-loire/pornic/?tabs=emplacement-camping"
+      ]
     },
     {
       "sourceId": "ACCAMEAIREAVENUEBRIERE",
@@ -4442,7 +4472,14 @@
       "recheckSource": "https://www.capfun.com/camping---l_eve-FR.html",
       "recheckOfficialSource": "https://www.capfun.com/camping---l_eve-FR.html",
       "recheckRegionalSource": "https://www.campingfrance.com/recherchez-votre-camping/pays-de-la-loire/loire-atlantique/saint-nazaire/camping-l-eve",
-      "recheckConditionsSource": "https://www.capfun.com/hebergements-l_eve-5-7534-FR.html"
+      "recheckConditionsSource": "https://www.capfun.com/hebergements-l_eve-5-7534-FR.html",
+      "tariffQueueLot": 354,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 354 (21/11/2026) : La page officielle confirme l’établissement et l’accueil de camping-cars, mais aucune grille 2027 d’emplacement nu n’a été trouvée. Les prix de mobil-homes ne sont pas applicables à cette fiche.",
+      "tariffQueueNextCheck": "Demander le prix 2027 de l’emplacement nu, les inclusions et suppléments, ainsi que les dates d’ouverture.",
+      "tariffQueueSources": [
+        "https://www.capfun.com/camping---l_eve-FR.html"
+      ]
     },
     {
       "sourceId": "ACCAMPDL044V5003SH",
@@ -4519,7 +4556,15 @@
       "recheckSeasonSource": "https://www.leschenesverts.info/",
       "recheck2027SpecificPitchSource": "https://www.leschenesverts.info/hebergement/emplacement-avec-sanitaires-prives/",
       "recheckOfficialSource": "https://www.leschenesverts.info/hebergement/emplacement/",
-      "recheckSecondarySource": "https://www.leschenesverts.info/hebergement/emplacement-avec-sanitaires-prives/"
+      "recheckSecondarySource": "https://www.leschenesverts.info/hebergement/emplacement-avec-sanitaires-prives/",
+      "tariffQueueLot": 354,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 354 (21/11/2026) : L’emplacement ordinaire camping-car n’a pas de tarif 2027 confirmé. La page 2027 consultée concerne un emplacement avec sanitaires privés et ne prouve ni prix ni conditions de la parcelle ordinaire.",
+      "tariffQueueNextCheck": "Faire confirmer ouverture et prix 2027 de l’emplacement ordinaire camping-car; ne pas transférer dates et tarifs de la catégorie sanitaires privés.",
+      "tariffQueueSources": [
+        "https://www.leschenesverts.info/hebergement/emplacement-avec-sanitaires-prives/",
+        "https://www.leschenesverts.com/conditions-generales-de-ventes/"
+      ]
     },
     {
       "sourceId": "ACCAMEAIREDECAMPINGCARLABAULE",
@@ -4556,7 +4601,15 @@
       "recheckSource": "https://mirabel-renaudiere.com/contact-camping-renaudiere",
       "recheckConditionsSource": "https://mirabel-renaudiere.com/contact-camping-renaudiere",
       "recheckOfficialSource": "https://mirabel-renaudiere.com/contact-camping-renaudiere",
-      "recheckSecondarySource": "https://mirabel-renaudiere.com/faq-camping-bretagne"
+      "recheckSecondarySource": "https://mirabel-renaudiere.com/faq-camping-bretagne",
+      "tariffQueueLot": 354,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 354 (21/11/2026) : L’opérateur confirme que le camping reste fermé après l’incendie du 10/07/2026 et que les réservations sont suspendues. La réouverture partielle en avril 2027 reste un objectif, sans calendrier confirmé ni tarif applicable.",
+      "tariffQueueNextCheck": "Attendre une annonce opérateur confirmant travaux, reprise des réservations et dates d’ouverture avant d’indiquer disponibilité ou prix.",
+      "tariffQueueSources": [
+        "https://mirabel-renaudiere.com/",
+        "https://mirabel-renaudiere.com/tarifs-tentes-caravanes"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000118",
@@ -4575,7 +4628,15 @@
       "recheckTariffSource": "https://www.sandaya.fr/nos-campings/le-fief/nos-emplacements",
       "recheckPromotionSource": "https://www.sandaya.fr/promotions-et-offres-speciales/do-you-first",
       "recheckCalendarSource": "https://www.sandaya.fr/nos-campings/le-fief",
-      "recheckOfficialSource": "https://www.sandaya.fr/nos-campings/le-fief"
+      "recheckOfficialSource": "https://www.sandaya.fr/nos-campings/le-fief",
+      "tariffQueueLot": 354,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 354 (21/11/2026) : L’opérateur affiche une saison du 02/04 au 07/11/2027, mais aucun devis de prix de base 2027 pour la composition camping-car contrôlée n’a pu être confirmé. La remise éventuelle reste conditionnelle.",
+      "tariffQueueNextCheck": "Reprendre un devis pour dates et composition précises dès que les emplacements sont réservables; distinguer prix, remise, taxe et services.",
+      "tariffQueueSources": [
+        "https://www.sandaya.fr/nos-campings/le-fief/nos-emplacements",
+        "https://www.sandaya.fr/nos-campings/le-fief"
+      ]
     },
     {
       "sourceId": "ACCAMECCGRANDEFALAISE",
@@ -4614,7 +4675,15 @@
       "recheckSource": "https://www.tourismebretagne.com/preparer-mon-sejour/ou-dormir/tous-les-hebergements/camping-la-dune-de-jade-saint-brevin-les-pins-fr-2033332/",
       "recheckConditionsSource": "https://www.ladunedejade.fr/camping-hebergement/infos-pratiques/",
       "recheckSecondarySource": "https://www.ladunedejade.fr/",
-      "recheckOfficialSource": "https://www.tourismebretagne.com/preparer-mon-sejour/ou-dormir/tous-les-hebergements/camping-la-dune-de-jade-saint-brevin-les-pins-fr-2033332/"
+      "recheckOfficialSource": "https://www.tourismebretagne.com/preparer-mon-sejour/ou-dormir/tous-les-hebergements/camping-la-dune-de-jade-saint-brevin-les-pins-fr-2033332/",
+      "tariffQueueLot": 354,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 354 (21/11/2026) : La référence touristique reste millésimée 2026 pour le forfait emplacement. L’offre Early Booking 2027 de l’opérateur concerne les locations, pas les emplacements nus. Aucun prix emplacement 2027 confirmé.",
+      "tariffQueueNextCheck": "Demander un tarif opérateur 2027 pour emplacement camping-car; ne pas transposer la promotion des locations ou la fourchette 2026.",
+      "tariffQueueSources": [
+        "https://www.saint-brevin.com/la-dune-de-jade.html",
+        "https://www.ladunedejade.fr/"
+      ]
     },
     {
       "sourceId": "ACCAMACCAMPDL044000131",
@@ -4733,7 +4802,14 @@
       "recheckTariffSource": "https://www.campingdepenbe.fr/",
       "recheckSource": "https://www.campingdepenbe.fr/",
       "recheckOfficialSource": "https://www.campingdepenbe.fr/",
-      "recheckConditionsSource": "https://www.campingdepenbe.fr/"
+      "recheckConditionsSource": "https://www.campingdepenbe.fr/",
+      "tariffQueueLot": 354,
+      "tariffQueueAt": "2026-11-21",
+      "tariffQueueFinding": "Lot 354 (21/11/2026) : L’exploitant indique la fermeture en 2026 et espère pouvoir accueillir en 2027, sans confirmer la réouverture. Les derniers tarifs publiés sont ceux de 2025.",
+      "tariffQueueNextCheck": "Confirmer d’abord la réouverture et les dates 2027, puis demander un devis camping-car; ne pas reprendre les prix 2025.",
+      "tariffQueueSources": [
+        "https://campingdepenbe.fr/"
+      ]
     },
     {
       "sourceId": "ACCAMEPRFCCARPARK",
