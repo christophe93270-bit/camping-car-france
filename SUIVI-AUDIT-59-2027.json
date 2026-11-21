@@ -1,0 +1,130 @@
+{
+  "scope": "Nord (59), vérification groupée des tarifs 2027",
+  "startedAt": "2026-11-21",
+  "displayedCount": 17,
+  "rawRegionalRows": 17,
+  "deduplicatedRows": 0,
+  "currentLot": 416,
+  "progress": {
+    "checked": 10,
+    "total": 17
+  },
+  "note": "Lot 416 : fiches 1 à 10 contrôlées sur 17. Sept fiches restent à vérifier : fiches 11 à 17. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/3178442166",
+      "place": "Banteux — aire Émile-Lefebvre (nommé Bantouzelle dans la fiche)",
+      "lot": 416,
+      "checkedAt": "2026-11-21",
+      "status": "Correspond au site de Banteux, pas à Bantouzelle. Mairie: 8 €/nuit, 10 places, fermeture possible lors de fortes gelées; grille sans période 2027. Forfait services distinct de 7 € dans source 2025.",
+      "nextCheck": "Corriger l'identité; confirmer le prix 2027 et ne pas confondre nuitée/service.",
+      "sources": [
+        "https://commune-de-banteux.neopse-site.com/fr/rb/1836616/aire-de-camping-car-emile-lefebvre",
+        "https://www.camping-car.com/aires/43412-aire-communale/"
+      ]
+    },
+    {
+      "sourceId": "node/10295792909",
+      "place": "Bray-Dunes — Camping-Car Park",
+      "lot": 416,
+      "checkedAt": "2026-11-21",
+      "status": "Base 14,64 €/24 h du 01/12/2026 au 31/12/2027 + taxe 1,32 € valable en 2027 = 15,96 € TTC. L’ancien tarif TTC de 17,91 € correspond au précédent barème. 5 h + services: 6 €.",
+      "nextCheck": "Corriger à 15,96 € TTC pour la période 2027, en détaillant base et taxe.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/bray-dunes?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": "node/10918424559",
+      "place": "Douai — Place du Barlet",
+      "lot": 416,
+      "checkedAt": "2026-11-21",
+      "status": "Douaisis Agglo Tourisme confirme 4 places dédiées, accès gratuit toute l’année 24/24, limite de 3 jours par mois et services eau/électricité/vidanges gratuits.",
+      "nextCheck": "Compléter les conditions/capacité dans la fiche; prix confirmé à gratuit selon la source touristique.",
+      "sources": [
+        "https://www.douaisis-agglo-tourisme.com/preparer-sa-venue/aspects-pratiques/stationnement/",
+        "https://www.douaisis-agglo-tourisme.com/offres/aire-de-camping-car-place-du-barlet-douai-fr-2638911/"
+      ]
+    },
+    {
+      "sourceId": "node/13327897014",
+      "place": "Marpent — aire camping-car et bivouac",
+      "lot": 416,
+      "checkedAt": "2026-11-21",
+      "status": "Aire repérée rue Henri-Barbusse au bord de la Sambre; les sources municipales consultées ne donnent pas un tarif camping-car, capacité ou détail des services confirmés pour 2027. Avis de bivouac ne suffisent pas à confirmer les prix camping-car.",
+      "nextCheck": "Demander à la mairie les conditions d’accueil et tarifs 2027.",
+      "sources": [
+        "https://marpent.fr/category/services-municipaux/",
+        "https://www.openstreetmap.org/node/13327897014"
+      ]
+    },
+    {
+      "sourceId": "way/80998562",
+      "place": "Bergues — parking camping-car",
+      "lot": 416,
+      "checkedAt": "2026-11-21",
+      "status": "Tourisme: parking stade Jacques-Andries gratuit toute l’année; un autre parking à l’impasse Spynnewyn offre env. 10 places. Camping Vauban propose eau/électricité/vidange à 5 €, ouvert avril-octobre, sans validité 2027. Point exact à réconcilier.",
+      "nextCheck": "Confirmer le site correspondant au point OSM; séparer parking municipal de la prestation payante du camping.",
+      "sources": [
+        "https://terredeflandretourisme.com/terre-de-sejour/tous-les-hebergements/aires-de-campings-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/208487045",
+      "place": "Gravelines — quai des Islandais",
+      "lot": 416,
+      "checkedAt": "2026-11-21",
+      "status": "Mairie: 50 places, 7 €/24 h du 1er avril au 30 septembre, 3,50 €/24 h du 1er octobre au 31 mars, hors taxe de séjour; validité 2027 non explicitée. Borne de services rue de la Gendarmerie distincte: eau 2 €/100 L, vidange, sans électricité.",
+      "nextCheck": "Confirmer reconduction des tarifs 2027 et taux de taxe; ne pas fusionner le parking et la borne.",
+      "sources": [
+        "https://www.ville-gravelines.fr/gravelines-pratique/se-deplacer/stationnement-des-camping-cars"
+      ]
+    },
+    {
+      "sourceId": "way/436149453",
+      "place": "Estaires — aire camping-cars",
+      "lot": 416,
+      "checkedAt": "2026-11-21",
+      "status": "La page municipale confirme la rubrique aire mais ne détaille ni prix, services ni ouverture. Sources secondaires anciennes donnent stationnement gratuit et services payants; un autre ancien signalement indique fermeture, sans confirmation municipale récente.",
+      "nextCheck": "Confirmer ouverture et grille de prix/services 2027 auprès de la mairie avant de corriger.",
+      "sources": [
+        "https://www.ville-estaires.fr/decouvrir-la-ville/tourisme/aire-de-camping-cars/",
+        "https://i-campingcar.fr/aires.php?ville=ESTAIRES"
+      ]
+    },
+    {
+      "sourceId": "way/629202770",
+      "place": "Cassel — aire camping-cars",
+      "lot": 416,
+      "checkedAt": "2026-11-21",
+      "status": "19 emplacements, services et 18 prises. Destination Cœur de Flandre affiche à partir de 12,40 €/24 h taxe incluse, électricité 1 €/2 h; guide pratique 2026 affiche 11,70 €/nuit pour 2 adultes. Ni l’un ni l’autre n’est explicitement daté 2027.",
+      "nextCheck": "Vérifier le prix dynamique de réservation Qipeo et expliquer l’écart; confirmer 2027.",
+      "sources": [
+        "https://www.coeurdeflandre.fr/preparer-mon-sejour/hebergements/aire-de-camping-car/",
+        "https://www.coeurdeflandre.fr/app/uploads/coeurdeflandre/2026/05/guide-pratique-26_web-1.pdf"
+      ]
+    },
+    {
+      "sourceId": "way/1061773050",
+      "place": "Anor — rue de Trélon",
+      "lot": 416,
+      "checkedAt": "2026-11-21",
+      "status": "Commune: stationnement gratuit, 4 places; vidange/eau par jetons vendus sur place en ville. Prix des jetons et validité 2027 non indiqués; électricité signalée dans OSM non confirmée sur la page municipale.",
+      "nextCheck": "Vérifier le prix des jetons et ne confirmer l’électricité qu’après validation communale.",
+      "sources": [
+        "https://anor.fr/camping.php"
+      ]
+    },
+    {
+      "sourceId": "way/1061813985",
+      "place": "Solre-le-Château",
+      "lot": 416,
+      "checkedAt": "2026-11-21",
+      "status": "Commune: 20 places, vidange/eau/électricité, jetons 2 € par usage d’eau ou d’électricité. Page sans période tarifaire 2027 et ne précisant pas le prix du stationnement.",
+      "nextCheck": "Demander si stationnement payant et si jetons restent à 2 € en 2027.",
+      "sources": [
+        "https://www.solrelechateau.fr/services/aire-de-camping-car"
+      ]
+    }
+  ]
+}
