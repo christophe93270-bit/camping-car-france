@@ -26,7 +26,7 @@
 1. Villecran — Provins Tourisme : https://provins.net/organiser-votre-sejour/comment-nous-rejoindre/rejoindre-provins-tourisme-en-camping-car/
 2. Bray-sur-Seine — Seine-et-Marne Vivre en Grand : https://www.tourisme-seine-et-marne.fr/visiter-decouvrir/territoires-destinations/provins/sejour-hebergement/725250-aire-communale/
 3. Meaux — Seine-et-Marne Vivre en Grand : https://www.tourisme-seine-et-marne.fr/visiter-decouvrir/4793652-aire-camping-cars-meaux/
-4. Samoreau — gestionnaire : https://www.camping-samoreau.fr/tarifs-et-reservations/ ; fiche touristique : https://www.tourisme-seine-et-marne.fr/visiter-decouvrir/territoires-destinations/fontainebleau/sejour-hebergement/5185338-camping-municipal/
+4. Samoreau — gestionnaire : https://www.camping-samoreau.fr/tarifs-et-reservations/ ; fiche touristique : https://www.tourisme-seine-et-marne.fr/visiter-decouvrir/5185338-camping-municipal/
 5. Les Prés — Tourisme Gâtinais Val-de-Loing : https://www.tourisme-gatinaisvaldeloing.fr/fr/fiche/725211/camping-les-pres-terracamps/ ; gestionnaire : https://www.terracamps.com/camping-nature/camping-les-pres-fontainebleau
 6. Les Rives de Paris — grille 2026 : https://camping.lesrivesdeparis.fr/wp-content/uploads/2026/01/Tarifs-2026-du-camping-Les-rives-de-Paris.pdf ; informations pratiques : https://camping.lesrivesdeparis.fr/informations-pratiques/
 7. GCU Auvers-sur-Oise — fiche officielle : https://www.gcu.asso.fr/campings/camping-auvers-sur-oise/ ; grille 2026 : https://www.gcu.asso.fr/wp-content/uploads/2026/06/Brochure-tarifs-2026-WEB.pdf
