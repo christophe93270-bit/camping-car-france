@@ -86,3 +86,9 @@ Aucun tarif complet de nuitée 2027 n’a été confirmé. Les montants disponib
 Dix fiches existantes ont été contrôlées ensemble : l’aire du Stade à Donges, l’allée du Brivet à Pontchâteau, Fédrun, le Domaine du Grand Poirier, le parking du centre des Pins à Saint-Brevin, CAMPING-CAR PARK Bouaye, Le Ranch, le Vieux Château, l’Étang du Pays Blanc et Le Petit Bois.
 
 Le tarif opérateur de Bouaye est confirmé du 01/01 au 31/12/2027 : 13,74 €/24 h + taxe 1,32 €/24 h = 15,06 €/24 h; la fiche publique a été mise à jour et le forfait 5 h demeure distinct. Pour les neuf autres fiches, les montants publiés restent datés 2026, conditionnels, à carte ou séjour, non millésimés, ou la disponibilité/règle de nuitée demeure à vérifier. Aucun autre tarif de nuitée 2027 n’a été ajouté. Détails : AUDIT-44-2027-LOT357.md. Aucun contact n’a été envoyé.
+
+## Addendum — 21 novembre 2026 : lot 358
+
+Dix fiches ont été contrôlées en groupe : l’aire du Bouffay, la Ferme de l’Arfaut, le Parking de la Loire à Oudon, le port de la Maison Verte à Corsept, O’Pré d’Vous à La Marne, l’aire du plan d’eau de Teillé, l’aire de jour de Saint-Lyphard, le camping municipal de Saint-Hilaire-de-Chaléons, le parc de la Lande à Mesquer et le Bois-Joalland à Saint-Nazaire.
+
+Aucun nouveau tarif complet de nuitée 2027 n’a été confirmé. Les conditions publiées vont du stationnement gratuit limité à 48 h, aux services à contribution libre, aux forfaits de Teillé sans année ni bascule saisonnière précise, et à des tarifs de camping exclusivement 2026. Les services et règles nocturnes restent distincts du coût de stationnement. Détails : AUDIT-44-2027-LOT358.md. Aucun tarif public n’a été modifié et aucun contact n’a été envoyé.
