@@ -1,0 +1,137 @@
+{
+  "scope": "Morbihan (56), vérification groupée des tarifs 2027",
+  "startedAt": "2026-11-21",
+  "displayedCount": 62,
+  "rawRegionalRows": 62,
+  "deduplicatedRows": 0,
+  "currentLot": 406,
+  "progress": {
+    "checked": 10,
+    "total": 62
+  },
+  "note": "Lot 406 : fiches 1 à 10 du Morbihan contrôlées ensemble. Aucun lieu ajouté. Guiscriff : parking camping-car gratuit, sans sanitaires ni électricité inclus; réservation toute l'année; taxe 0,20 €/adulte/nuit et électricité optionnelle 6 €/nuitée en saison avril-octobre, 8 € en novembre-mars; barème affiché 2026, 2027 à vérifier. Malestroit Tanneurs : accueil gratuit en hiver lorsque l'aire de l'écluse est fermée; services et durée non précisés pour ce parking. Montertelot : 5 €/24h toute l'année 2026, tarif 2027 non confirmé. Cruguel : stationnement gratuit en 2026, services/nuitée non détaillés. Saint-Jean-Brévelay : stationnement, eau et vidange gratuits selon fiche touristique, maintien 2027 à confirmer. Poul-Fétan : parking gratuit, aire camping-car 48h sans service; accès parc distinct. Larmor-Plage Parking des Pins : 4 places, accès toute l'année, vidanges/WC publics, max 72h, tarif non publié; ne pas confondre avec Les Algues. Lizio Camping CCP : base 12,50 €/24h valable 2027, taxe 0,40 € affichée jusqu'au 31/12/2026 donc total 2027 inconnu; 5h services 6 €, pas de vidange; aire d'étape CCP séparée. Kerné Quiberon : 11,50 €/24h, eau 2 €/80L, vidanges, sans électricité; validité 2027 non publiée. Saint-Nolff : 10 €/nuit + taxe GMVA 0,60 €/personne/jour; validité barème non précisée. Fiches restantes : 11 à 62, poursuivre par lots groupés.",
+  "entries": [
+    {
+      "sourceId": "node/5012457264",
+      "name": "Aire de camping-car de la gare de Guiscriff",
+      "status": "parking_gratuit_tax_et_options_2026_tarif_2027_a_confirmer",
+      "finding": "Parking camping-car gratuit sans accès sanitaires ni électricité; réservation toute l'année. Taxe 0,20 €/adulte/nuitée; option électrique 6 € avril-octobre / 8 € novembre-mars selon tarif 2026.",
+      "nextCheck": "Confirmer taxe et options électriques 2027; garder stationnement/services distincts.",
+      "sources": [
+        "https://www.lagaredeguiscriff.com/hebergements/aire-naturelle-de-camping/"
+      ],
+      "lot": 406,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/6381437987",
+      "name": "Aire de stationnement des tanneurs Malestroit",
+      "status": "stationnement_gratuit_hiver_conditions_2027_a_confirmer",
+      "finding": "La mairie oriente en hiver vers le parking stabilisé rue des Tanneurs lorsque l'aire de l'écluse est fermée; accueil gratuit toute l'année mais services/durée sur ce parking non détaillés.",
+      "nextCheck": "Confirmer maintien du stationnement hivernal et conditions 2027.",
+      "sources": [
+        "https://www.malestroit.bzh/post/accueil-des-camping-cars-durant-l-hiver"
+      ],
+      "lot": 406,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/6560350610",
+      "name": "Aire de stationnement - Montertelot",
+      "status": "tarif_2026_publie_2027_a_confirmer",
+      "finding": "5 €/24h, toute l'année 2026, paiement à la borne; pas de tarif 2027 publié.",
+      "nextCheck": "Confirmer tarif 2027.",
+      "sources": [
+        "https://morbihan.com/sejourner/les-hebergements/campings/tous-les-campings/aire-de-stationnement-montertelot-montertelot-fr-4389688/"
+      ],
+      "lot": 406,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/10130771617",
+      "name": "Aire de stationnement - Cruguel",
+      "status": "stationnement_gratuit_2026_maintien_2027_a_confirmer",
+      "finding": "Stationnement gratuit, fiche ouverte toute l'année 2026; services et droit de nuitée non détaillés.",
+      "nextCheck": "Confirmer maintien de la gratuité et conditions de nuitée en 2027.",
+      "sources": [
+        "https://morbihan.com/sejourner/les-hebergements/campings/tous-les-campings/aire-de-stationnement-cruguel-cruguel-fr-4389696/"
+      ],
+      "lot": 406,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/11157692360",
+      "name": "Aire communale de camping-car St-Jean Brévelay",
+      "status": "stationnement_services_gratuits_selon_OT_2026_2027_a_confirmer",
+      "finding": "Environ 7 places, stationnement, eau et vidanges gratuites selon Morbihan Tourisme.",
+      "nextCheck": "Confirmer continuité des services gratuits en 2027.",
+      "sources": [
+        "https://morbihan.com/sejourner/les-hebergements/campings/tous-les-campings/aire-communale-de-camping-car-st-jean-brevelay-saint-jean-brevelay-fr-4389694/"
+      ],
+      "lot": 406,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/12106118993",
+      "name": "Aire camping-car Poul Fetan",
+      "status": "stationnement_gratuit_48h_sans_services_2027_a_confirmer",
+      "finding": "Page officielle du village indique aire camping-car 48h sans service et parking gratuit; activité payante du parc distincte.",
+      "nextCheck": "Confirmer conditions de stationnement pour 2027; ne pas lier à l'entrée payante du parc.",
+      "sources": [
+        "https://www.poul-fetan.bzh/infos-pratiques/"
+      ],
+      "lot": 406,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/14279885639",
+      "name": "Parking des Pins — aire municipale camping-car",
+      "status": "tarif_non_publie_max_72h",
+      "finding": "Mairie : 4 emplacements, accès toute l'année, vidanges eaux usées/WC et toilettes publiques. Morbihan Tourisme : maximum 72h. Ne pas confondre avec aire Les Algues.",
+      "nextCheck": "Confirmer prix éventuel et maintien de l'accès; conserver distinction avec Les Algues.",
+      "sources": [
+        "https://www.larmor-plage.bzh/contacts/parking-des-pins/",
+        "https://morbihan.com/sejourner/les-hebergements/campings/tous-les-campings/aire-de-service-les-pins-larmor-plage-fr-4389092/"
+      ],
+      "lot": 406,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/14280282457",
+      "name": "Camping de Lizio — CAMPING-CAR PARK",
+      "status": "base_2027_confirmee_taxe_2027_inconnue",
+      "finding": "Base 12,50 €/24h valable en 2027; taxe 0,40 € affichée jusqu'au 31/12/2026, total 2027 non confirmé; parking 5h + services 6 €. Sans vidange; aire d'étape CCP à Lizio distincte.",
+      "nextCheck": "Vérifier taxe de séjour 2027; garder les deux sites CCP séparés.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/morbihan/cmv-lizio",
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/morbihan/Lizio?areaType=stopover-site-motorhome"
+      ],
+      "lot": 406,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/242333679",
+      "name": "Aire de Camping-Car de Kerné",
+      "status": "prix_office_tourisme_valide_en_ligne_sans_periode_2027",
+      "finding": "Environ 100 places; 11,50 €/24h; eau 2 €/80L, vidanges eaux usées et cassette, sans électricité. Pas de validité 2027 explicitée.",
+      "nextCheck": "Confirmer tarif à la mairie/exploitant avant de le qualifier de tarif 2027.",
+      "sources": [
+        "https://www.baiedequiberon.bzh/preparer-son-sejour-en-baie-de-quiberon/ou-dormir/aires-de-camping-cars-en-baie-de-quiberon/aire-de-camping-car-de-kerne"
+      ],
+      "lot": 406,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/245342008",
+      "name": "Aire de Camping-Car de Saint-Nolff",
+      "status": "tarif_municipal_sans_date_validite_2027_a_confirmer",
+      "finding": "5 places, eau et vidange; 10 €/nuitée + taxe GMVA 0,60 €/personne/jour selon page communale, sans dates de validité.",
+      "nextCheck": "Confirmer montant et taxe applicables en 2027.",
+      "sources": [
+        "https://saint-nolff.bzh/hebergements-touristiques/"
+      ],
+      "lot": 406,
+      "checkedAt": "2026-11-21"
+    }
+  ]
+}
