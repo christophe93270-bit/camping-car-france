@@ -1,7 +1,7 @@
 {
   "scope": "Loiret (45), contrôles regroupés de prix 2027 sur fiches existantes",
   "startedAt": "2026-11-21",
-  "note": "Le fichier public aires-loiret.json contient 37 lieux. Les fiches 1–10 sont contrôlées en lot tarifaire 365; les vérifications historiques du lot de création (12/11/2026) sont distinguées de ce contrôle 2027. Un tarif de base 24 h est confirmé jusqu'à fin 2027 à Saint-Denis-de-l'Hôtel, mais sa taxe 2027 reste inconnue; la fiche publique est structurée comme confirmation partielle. Le stationnement gratuit du Quai Dunois est désormais appuyé par Val de Loire Tourisme. Aucun lieu ajouté. Lot 366 ouvert le 21/11/2026 sur les dix fiches suivantes du fichier aires-loiret.json. Deux tarifs d'étape complets sont confirmés jusqu'en 2027 : L'École d'Orléans (12 €/24 h + taxe 0) avec fermeture contradictoire à vérifier, et Lailly-en-Val (12,22 € + taxe 0,80 € = 13,02 €/24 h). Huit autres fiches ne présentent pas de nouveau tarif général 2027; leurs prix de services et gratuités sont consignés séparément. Aucun lieu ajouté.",
+  "note": "Le fichier public aires-loiret.json contient 37 lieux. Les fiches 1–10 sont contrôlées en lot tarifaire 365; les vérifications historiques du lot de création (12/11/2026) sont distinguées de ce contrôle 2027. Un tarif de base 24 h est confirmé jusqu'à fin 2027 à Saint-Denis-de-l'Hôtel, mais sa taxe 2027 reste inconnue; la fiche publique est structurée comme confirmation partielle. Le stationnement gratuit du Quai Dunois est désormais appuyé par Val de Loire Tourisme. Aucun lieu ajouté. Lot 366 ouvert le 21/11/2026 sur les dix fiches suivantes du fichier aires-loiret.json. Deux tarifs d'étape complets sont confirmés jusqu'en 2027 : L'École d'Orléans (12 €/24 h + taxe 0) avec fermeture contradictoire à vérifier, et Lailly-en-Val (12,22 € + taxe 0,80 € = 13,02 €/24 h). Huit autres fiches ne présentent pas de nouveau tarif général 2027; leurs prix de services et gratuités sont consignés séparément. Aucun lieu ajouté. Lot 367 ouvert le 21/11/2026 sur les dix fiches 21–30. Deux tarifications 2027 confirmées : Bellegarde (stationnement gratuit, eau 4 €, électricité 6 €, période 2027) et Beaune-la-Rolande (13,84 € + taxe 1,32 € = 15,16 €/24 h jusqu'au 31/12/2027). Huit autres fiches n'ont pas de nouveau tarif général daté 2027 publié; aucune fiche ajoutée.",
   "entries": [
     {
       "sourceId": "node/4420639790",
@@ -232,6 +232,128 @@
         "https://www.valdeloire-france.com/aire-camping-car/aire-de-services-municipale-pour-camping-car-pont-janson/"
       ],
       "lot": 366,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/908079048",
+      "name": "Aire de services municipale – Saint-Brisson-sur-Loire",
+      "status": "tarif_non_publie",
+      "finding": "Lot 367 : Tourisme Loiret confirme six places, stationnement de nuit, eau, électricité et vidanges; aucun tarif n'est indiqué.",
+      "nextCheck": "Demander à la mairie les coûts éventuels de nuitée, eau et électricité.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-municipale-pour-camping-car-saint-brisson-sur-loire_TFOACCCEN0000003J"
+      ],
+      "lot": 367,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/908085839",
+      "name": "Aire de services et stationnement – La Selle-en-Hermoy",
+      "status": "gratuit_une_nuit_tarif_2027_non_millésimé",
+      "finding": "Lot 367 : la mairie publie une nuit gratuite avec services; aucun millésime tarifaire 2027 distinct.",
+      "nextCheck": "Surveiller une éventuelle mise à jour municipale 2027.",
+      "sources": [
+        "https://www.laselleenhermoy.fr/aire-camping-car-informations--45--loiret-centre-val-de-loire"
+      ],
+      "lot": 367,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1232308168",
+      "name": "Aire de camping-cars de Nibelle",
+      "status": "gratuit_publié_2027_non_millésimé",
+      "finding": "Lot 367 : stationnement et eau gratuits, sans électricité selon Tourisme Loiret; aucun tarif de nuitée daté 2027.",
+      "nextCheck": "Conserver la gratuité publiée et vérifier une éventuelle tarification datée.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-nibelle-nibelle_TFOACCCEN045V508WKC"
+      ],
+      "lot": 367,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1270172136",
+      "name": "Aire municipale de Bellegarde",
+      "status": "tarifs_services_2027_confirmes",
+      "finding": "Lot 367 (21/11/2026) : fiche officielle 2027 du 01/01 au 31/12; stationnement gratuit, eau 4 €, électricité 6 €. Tarifs de services, pas un prix de nuitée.",
+      "nextCheck": "Garder séparés gratuité de stationnement et tarifs eau/électricité.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-pour-camping-car-bellegarde_TFOACCCEN045V508WKC",
+        "https://www.bellegarde-45.fr/la-commune/une-ville-touristique/camping"
+      ],
+      "lot": 367,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1271917798",
+      "name": "Aire EuroRelais – Vitry-aux-Loges",
+      "status": "services_gratuits_tarif_2027_non_millésimé",
+      "finding": "Lot 367 : eau et vidanges gratuites, stationnement de nuit, sans électricité selon Tourisme Loiret; aucun nouveau tarif daté 2027.",
+      "nextCheck": "Garder l'information de gratuité sans lui attribuer une période 2027 non publiée.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-d-accueil-et-de-services-eurorelais-vitry-aux-loges_TFOACCCEN0450004E"
+      ],
+      "lot": 367,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1271932121",
+      "name": "Aire municipale – Sully-sur-Loire",
+      "status": "gratuit_actuel_2027_non_millésimé",
+      "finding": "Lot 367 : l'Office de tourisme du Val de Sully indique une aire municipale gratuite toute l'année, avec eau et vidanges; tarif non millésimé 2027. Le projet CCP voisin reste une fiche distincte à venir.",
+      "nextCheck": "Conserver les deux fiches séparées et contrôler le site CCP lors de son ouverture.",
+      "sources": [
+        "https://www.tourisme-valdesully.fr/hebergement/aire-de-services-pour-camping-cars/",
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/sully-sur-loire"
+      ],
+      "lot": 367,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1284849859",
+      "name": "Aire CAMPING-CAR PARK – Beaune-la-Rolande",
+      "status": "tarif_2027_confirme",
+      "finding": "Lot 367 (21/11/2026) : base 13,84 €/24 h du 17/11/2026 au 31/12/2027 + taxe 1,32 €/24 h jusqu'au 31/12/2027; total 15,16 €/24 h. Le parking 5 h + services à 6 € est distinct.",
+      "nextCheck": "Conserver séparément tarif de base, taxe et produit 5 h + services.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/beaune-la-rolande"
+      ],
+      "lot": 367,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1286132286",
+      "name": "Aire Champs des Bretons – Jouy-le-Potier",
+      "status": "tarif_2027_non_publie",
+      "finding": "Lot 367 : aire avec eau, électricité, stationnement et vidanges selon Tourisme Loiret; aucun tarif publié.",
+      "nextCheck": "Demander à la commune si la nuitée ou les services sont payants en 2027.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-stationnement-et-de-services-camping-car-champs-des-bretons-jouy-le-potier_TFOACCCEN04500044"
+      ],
+      "lot": 367,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1286139563",
+      "name": "Aire de services – Germigny-des-Prés",
+      "status": "services_gratuits_tarif_2027_non_millésimé",
+      "finding": "Lot 367 : aire gratuite selon Tourisme Loiret, avec eau (coupée en hiver), vidange et stationnement; aucun millésime 2027.",
+      "nextCheck": "Conserver gratuité et restriction hivernale de l'eau; surveiller un tarif daté.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-pour-camping-car-germigny-des-pres_TFOACCCEN045V50094N"
+      ],
+      "lot": 367,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1286139841",
+      "name": "Aire de stationnement – Les Bordes",
+      "status": "tarif_2027_non_publie",
+      "finding": "Lot 367 : six places avec eau, électricité et vidanges selon Tourisme Loiret; aucun tarif publié.",
+      "nextCheck": "Demander à la commune les tarifs de nuitée et des services.",
+      "sources": [
+        "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-stationnement-pour-camping-cars-les-bordes_TFOACCCEN04500046"
+      ],
+      "lot": 367,
       "checkedAt": "2026-11-21"
     }
   ]
