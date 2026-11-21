@@ -1,7 +1,7 @@
 {
   "scope": "Lot (46), contrôle groupé de tarifs 2027 sur fiches existantes",
   "startedAt": "2026-11-21",
-  "note": "Le fichier public aires-lot.json contient 32 fiches. Lot 369 : contrôle des fiches 1–10, aucune fiche ajoutée. Lot 370 contrôlé le 21/11/2026 sur les fiches 11–20 de 32, sans ajout. Tarif 2027 complet confirmé à Catus : 13,50 €/24 h + taxe 1,44 € = 14,94 €/24 h. Autres grilles de nuitée ou service datées 2026 / sans millésime 2027; Cajarc conserve un écart entre l'exploitant (9 €) et Figeac Tourisme (7 €). Deux points de Padirac séparés : l'un OSM non vérifié; l'autre parking visiteurs du Gouffre, sans autorisation camping-car/nuitée publiée.",
+  "note": "Le fichier public aires-lot.json contient 32 fiches. Lot 369 : contrôle des fiches 1–10, aucune fiche ajoutée. Lot 370 contrôlé le 21/11/2026 sur les fiches 11–20 de 32, sans ajout. Tarif 2027 complet confirmé à Catus : 13,50 €/24 h + taxe 1,44 € = 14,94 €/24 h. Autres grilles de nuitée ou service datées 2026 / sans millésime 2027; Cajarc conserve un écart entre l'exploitant (9 €) et Figeac Tourisme (7 €). Deux points de Padirac séparés : l'un OSM non vérifié; l'autre parking visiteurs du Gouffre, sans autorisation camping-car/nuitée publiée. Lot 371 : contrôle groupé des fiches 21–30 de 32, sans ajout. Tarifs 2027 entièrement confirmés à Girac (14,22 €/24 h) et Rignac (15,56 €/24 h). Vayrac, Souillac, Lamagdelaine et Montcuq restent partiels (taxe ou période 2027 manquante); tarifs 2026, non chiffrés ou sans grille 2027 pour Figeac, Vers, Saint-Géry et Gourdon. Deux fiches restent à contrôler en lot 372.",
   "entries": [
     {
       "sourceId": "node/7404846985",
@@ -245,6 +245,126 @@
         "https://www.tourisme-lot.com/offres/aire-du-gouffre-de-padirac-parking-padirac-fr-3485873/"
       ],
       "lot": 370,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1282464744",
+      "name": "Borne de service de Figeac — aire communale",
+      "status": "tarif_2026_seulement",
+      "finding": "Tourisme Lot donne une nuitée à partir de 6,50 €, 100 L d'eau à partir de 2 € et 1 h d'électricité à partir de 2 €, tarifs explicitement datés 2026. Aucune grille 2027 identifiée.",
+      "nextCheck": "Surveiller la publication des tarifs 2027; garder séparés nuitée, eau et électricité.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/borne-de-service-de-figeac-figeac-fr-659355/"
+      ],
+      "lot": 371,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1307130712",
+      "name": "Aire d'accueil de Vers",
+      "status": "nuitée_non_chiffrée_2027_non_confirmé",
+      "finding": "La page officielle décrit l'aire et ses services sans publier de montant de nuitée vérifiable. Tarif 2027 non établi.",
+      "nextCheck": "Demander le tarif de nuitée à la mairie ou à Tourisme Lot; ne pas déduire un prix à partir des services.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-daccueil-de-vers-saint-gery-vers-fr-659459/"
+      ],
+      "lot": 371,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1307138568",
+      "name": "Aire et borne pour camping-car de Saint-Géry",
+      "status": "tarifs_non_chiffrés_2027_non_confirmés",
+      "finding": "La page officielle signale un forfait de nuitée et un service d'eau par jeton, mais n'en donne pas les montants. Aucun tarif 2027 publié trouvé.",
+      "nextCheck": "Demander à la commune les montants de nuitée et du jeton d'eau.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-et-borne-pour-camping-car-de-saint-gery-saint-gery-vers-fr-659700/"
+      ],
+      "lot": 371,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1312105452",
+      "name": "Aire d'accueil et de service de Gourdon",
+      "status": "prix_horaire_non_chiffré_2027_non_confirmé",
+      "finding": "La page Tourisme Lot donne une indication de facturation horaire et une période de service en 2026, sans montant tarifaire. Aucune grille 2027 identifiée.",
+      "nextCheck": "Confirmer auprès de la mairie le montant horaire, ce qu'il couvre, et la saison d'ouverture 2027.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-daccueil-et-de-service-de-gourdon-gourdon-fr-659352/"
+      ],
+      "lot": 371,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1282487471",
+      "name": "Aire CAMPING-CAR PARK de Vayrac — La Palenquière",
+      "status": "tarif_2027_partiel",
+      "finding": "Le tarif de base est affiché du 28/10/2026 au 31/12/2027. La taxe de séjour affichée (1,72 €/24 h) est datée du 01/01 au 31/12/2026 uniquement. Ne pas reprendre le total 13,38 € comme tarif 2027 confirmé. Forfait parking 5 h + services : 6 €, distinct.",
+      "nextCheck": "Recontrôler la taxe de séjour et la grille après la période actuellement publiée; ne pas afficher de total 2027 comme confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/vayrac-la-palenquiere"
+      ],
+      "lot": 371,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1318073496",
+      "name": "Aire CAMPING-CAR PARK de Souillac — Parking Baillot",
+      "status": "tarif_2027_partiel",
+      "finding": "La page opérateur consultée aujourd'hui n'affiche le tarif de base de 11,90 €/24 h que jusqu'au 30/04/2027 (segments 01/01–29/04 et 30/04). La taxe de 1,72 €/24 h reste indiquée pour 2026 seulement. D'autres versions indexées de la page affichent des grilles différentes; conserver cette vérification datée comme partielle et recontrôler après publication de la saison suivante. Forfait parking 5 h + services : 6 €, distinct.",
+      "nextCheck": "Recontrôler la taxe de séjour et la grille après la période actuellement publiée; ne pas afficher de total 2027 comme confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/souillac"
+      ],
+      "lot": 371,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp/girac",
+      "name": "Aire d'étape CAMPING-CAR PARK de Girac",
+      "status": "tarif_2027_confirme",
+      "finding": "Base de 12,50 €/24 h valable du 19/11/2026 au 31/12/2027; taxe de séjour 1,72 €/24 h confirmée pour 2027. Forfait parking 5 h + services : 6 €, distinct.",
+      "nextCheck": "Conserver les composantes séparées et recontrôler lors d'une prochaine mise à jour des prix.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/girac"
+      ],
+      "lot": 371,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp/lamagdelaine",
+      "name": "Camping de mon Village CAMPING-CAR PARK de Lamagdelaine — Au bord du Lot",
+      "status": "tarif_2027_partiel",
+      "finding": "Le tarif de base 13,15 €/24 h est affiché du 30/10/2026 au 31/12/2027. La taxe de séjour de 0,58 €/24 h est affichée jusqu'au 31/12/2026 seulement. Le total 13,73 € ne doit pas être présenté comme confirmé pour 2027. Parking 5 h + services : 6 €, distinct.",
+      "nextCheck": "Recontrôler la taxe de séjour et la grille après la période actuellement publiée; ne pas afficher de total 2027 comme confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/lamagdelaine-au-bord-du-lot"
+      ],
+      "lot": 371,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp/montcuq-en-quercy-blanc",
+      "name": "Aire d'étape CAMPING-CAR PARK de Montcuq en Quercy Blanc",
+      "status": "tarif_2027_partiel",
+      "finding": "Le tarif de base 12,91 €/24 h est affiché du 15/10/2026 au 31/12/2027. La taxe de séjour de 1,44 €/24 h reste affichée pour 2026 seulement. Le total de 14,35 € ne doit pas être présenté comme confirmé pour 2027. Parking 5 h + services : 6 €, distinct.",
+      "nextCheck": "Recontrôler la taxe de séjour et la grille après la période actuellement publiée; ne pas afficher de total 2027 comme confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/montcuq-en-quercy-blanc"
+      ],
+      "lot": 371,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp/rignac",
+      "name": "Aire d'étape CAMPING-CAR PARK de Rignac — Route de Rocamadour",
+      "status": "tarif_2027_confirme",
+      "finding": "Tarif de base 13,84 €/24 h affiché jusqu'au 31/12/2027 et taxe de séjour 1,72 €/24 h explicitement publiée pour 2027. Parking 5 h + services : 6 €, distinct.",
+      "nextCheck": "Conserver les composantes séparées et recontrôler lors d'une prochaine mise à jour des prix.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/rignac"
+      ],
+      "lot": 371,
       "checkedAt": "2026-11-21"
     }
   ]
