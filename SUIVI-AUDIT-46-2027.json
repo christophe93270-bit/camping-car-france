@@ -1,7 +1,7 @@
 {
   "scope": "Lot (46), contrôle groupé de tarifs 2027 sur fiches existantes",
   "startedAt": "2026-11-21",
-  "note": "Le fichier public aires-lot.json contient 32 fiches. Lot 369 : contrôle des fiches 1–10, aucune fiche ajoutée. Lot 370 contrôlé le 21/11/2026 sur les fiches 11–20 de 32, sans ajout. Tarif 2027 complet confirmé à Catus : 13,50 €/24 h + taxe 1,44 € = 14,94 €/24 h. Autres grilles de nuitée ou service datées 2026 / sans millésime 2027; Cajarc conserve un écart entre l'exploitant (9 €) et Figeac Tourisme (7 €). Deux points de Padirac séparés : l'un OSM non vérifié; l'autre parking visiteurs du Gouffre, sans autorisation camping-car/nuitée publiée. Lot 371 : contrôle groupé des fiches 21–30 de 32, sans ajout. Tarifs 2027 entièrement confirmés à Girac (14,22 €/24 h) et Rignac (15,56 €/24 h). Vayrac, Souillac, Lamagdelaine et Montcuq restent partiels (taxe ou période 2027 manquante); tarifs 2026, non chiffrés ou sans grille 2027 pour Figeac, Vers, Saint-Géry et Gourdon. Deux fiches restent à contrôler en lot 372.",
+  "note": "Le fichier public aires-lot.json contient 32 fiches. Lot 369 : contrôle des fiches 1–10, aucune fiche ajoutée. Lot 370 contrôlé le 21/11/2026 sur les fiches 11–20 de 32, sans ajout. Tarif 2027 complet confirmé à Catus : 13,50 €/24 h + taxe 1,44 € = 14,94 €/24 h. Autres grilles de nuitée ou service datées 2026 / sans millésime 2027; Cajarc conserve un écart entre l'exploitant (9 €) et Figeac Tourisme (7 €). Deux points de Padirac séparés : l'un OSM non vérifié; l'autre parking visiteurs du Gouffre, sans autorisation camping-car/nuitée publiée. Lot 371 : contrôle groupé des fiches 21–30 de 32, sans ajout. Tarifs 2027 entièrement confirmés à Girac (14,22 €/24 h) et Rignac (15,56 €/24 h). Vayrac, Souillac, Lamagdelaine et Montcuq restent partiels (taxe ou période 2027 manquante); tarifs 2026, non chiffrés ou sans grille 2027 pour Figeac, Vers, Saint-Géry et Gourdon. Deux fiches restent à contrôler en lot 372. Lot 372 (final) : contrôle des fiches 31–32 de 32, sans ajout. Castelnau-Montratier : base 12,92 €/24 h annoncée jusqu'au 31/12/2027, taxe 2027 absente et écart avec le résumé opérateur à 15,40 €; total à confirmer. Saint-Céré – Perle du Lot : statut opérateur « à venir », 38 places, pas de tarif publié; ne pas confondre avec le camping Le Soulhol et sa borne. Les 32 fiches existantes ont désormais été parcourues en 4 lots de 10, 10, 10 et 2; le suivi contient 32 contrôles.",
   "entries": [
     {
       "sourceId": "node/7404846985",
@@ -365,6 +365,31 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/rignac"
       ],
       "lot": 371,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp/castelnau-montratier",
+      "name": "Camping de mon Village CAMPING-CAR PARK de Castelnau-Montratier",
+      "status": "tarif_2027_partiel_ecart_a_clarifier",
+      "finding": "La grille CCP affiche une base de 12,92 €/24 h jusqu'au 31/12/2027, mais la taxe de séjour de 0,58 € est publiée jusqu'au 31/12/2026 seulement. Le résumé « en ce moment » de la même page indique 15,40 €/24 h, montant incohérent avec la grille détaillée.",
+      "nextCheck": "Demander à CCP le tarif total 2027 et la grille en vigueur; conserver les composantes distinctes en attendant.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/castelnau-montratier"
+      ],
+      "lot": 372,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp/saint-cere-perle-du-lot",
+      "name": "Aire d'étape CAMPING-CAR PARK de Saint-Céré — Perle du Lot",
+      "status": "aire_a_venir_tarif_non_publie",
+      "finding": "L'opérateur classe l'aire CCP de Saint-Céré – Perle du Lot comme « À venir »; capacité annoncée de 38 places, aucun tarif publié. La mairie décrit aussi l'accueil camping-car et une borne eau/vidange au camping Le Soulhol, qui constituent une information distincte.",
+      "nextCheck": "Réviser la fiche quand CCP annonce l'ouverture et publie ses tarifs; ne pas transposer les prix du camping Le Soulhol.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/saint-cere-perle-du-lot",
+        "https://www.saint-cere.fr/decouvrir-saint-cere/tourisme"
+      ],
+      "lot": 372,
       "checkedAt": "2026-11-21"
     }
   ]
