@@ -1,0 +1,139 @@
+{
+  "scope": "Manche (50), vérification groupée des tarifs 2027",
+  "startedAt": "2026-11-21",
+  "displayedCount": 32,
+  "rawRegionalRows": 32,
+  "deduplicatedRows": 0,
+  "currentLot": 389,
+  "progress": {
+    "checked": 10,
+    "total": 32
+  },
+  "note": "Lot 389 : dix premières fiches de la Manche contrôlées ensemble. Cerisy-la-Forêt : tarifs/services et nuitée non confirmés officiellement. Servon : Qipeo affiche 16,30 €/24 h (2 adultes, taxe 1,30 € incluse) et eau 2 €/10 min; la fiche avait 18,30 €, montant ponctuel désormais obsolète. Villedieu-les-Poêles : contradiction sur la page officielle CCP entre prix du moment 15,18 € TTC et ligne saisonnière à 12 € d'octobre à mars 2027; taxe 2027 non explicitée. Saint-Lô : services et 12 places, tarif absent. Saint-Martin-de-Bréhal : mairie affiche 8 €/nuitée et jeton eau 1 €, période 2027 non confirmée. Lessay : stationnement gratuit, eau disponible, pas d'électricité; fermeture durant Foire Sainte-Croix. Siouville-Hague : barème municipal sans millésime 2027, et eau/électricité à distinguer de la nuitée. Saint-Pair-sur-Mer : renvoi vers document officiel 2026, grille 2027 absente; ancien montant tiers non confirmé. CCP Mont-Saint-Michel/Beauvoir : base 16,70 €/24 h jusqu'au 31/12/2027, taxe 2027 non affichée. CCP Carentan-le-Port : base 12,75 € + taxe 1,30 € jusqu'au 31/12/2027, total 14,05 €. Aucun lieu ajouté. 10/32 fiches vérifiées.",
+  "entries": [
+    {
+      "sourceId": "node/7041967413",
+      "name": "Aire de camping-car de Cerisy-la-Forêt",
+      "status": "tarif_2027_non_confirme_source_osm_a_verifier",
+      "finding": "La fiche du site reprend le stationnement gratuit et environ 2 € de services d'après un relevé terrain, mais les sources consultées ne donnent pas de grille municipale datée ni de confirmation officielle 2027. L'existence, les services, le prix et la possibilité de nuitée restent à confirmer.",
+      "nextCheck": "Confirmer avec la mairie l'existence de l'aire, la nuitée et les tarifs 2027; ne pas afficher le relevé terrain comme tarif certifié.",
+      "sources": [
+        "https://www.openstreetmap.org/node/7041967413",
+        "https://www.aire-service-camping-car-panoramique.fr/manche/50-cerisy-la-foret"
+      ],
+      "lot": 389,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/11900708074",
+      "name": "Aire de Camping-Car de Servon",
+      "status": "tarif_qipeo_dynamique_16_30_2027_non_confirme_donnee_18_30_a_actualiser",
+      "finding": "La page Qipeo actuellement consultée affiche 16,30 €/24 h pour deux adultes, dont 1,30 € de taxe, et l'eau à 2 €/10 min. La fiche du site conserve 18,30 € d'une consultation antérieure : ce montant est périmé pour l'affichage actuel. Aucun tarif spécifiquement valable pour 2027 n'est indiqué.",
+      "nextCheck": "Remplacer l'affichage ponctuel 18,30 € par une donnée tarifaire variable et préciser le montant observé (16,30 € TTC) avec date, sans le qualifier de tarif 2027 garanti.",
+      "sources": [
+        "https://www.qipeo.com/detail/0c4cae76-6cb9-403d-b828-df6ae508c84b",
+        "https://www.aireparkreservation.com/aires-camping-car/manche"
+      ],
+      "lot": 389,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/11987695117",
+      "name": "Aire Camping-Car Park de Villedieu-les-Poêles",
+      "status": "grille_officielle_incoherente_tarif_2027_a_clarifier",
+      "finding": "La page CCP affiche actuellement 15,18 €/24 h, dont 1,18 € de taxe. Son tableau saisonnier indique pourtant 12 €/24 h du 01/10/2026 au 30/03/2027, alors que la taxe affichée ne va que jusqu'au 31/12/2026. La page officielle est contradictoire; ne pas publier un total 2027 confirmé. Le parking 5 h + services est affiché à 6 €.",
+      "nextCheck": "Demander à CCP de clarifier la base applicable d'octobre 2026 à mars 2027 et le montant de la taxe 2027; conserver la divergence et garder le forfait 5 h séparé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/villedieu-les-poeles?areaType=aire-etape-camping-car"
+      ],
+      "lot": 389,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/37516487",
+      "name": "Aire municipale de Saint-Lô",
+      "status": "tarif_stationnement_services_non_publie",
+      "finding": "Normandie Tourisme confirme 12 emplacements, eau, électricité et vidanges, sans prix de stationnement ou de services publié. L'ancien montant de 2 € n'est pas confirmé pour 2027.",
+      "nextCheck": "Demander à la mairie le tarif actuel de stationnement et de chaque service; retirer ou dater l'ancien montant de 2 € s'il figure sur la fiche.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-stationnement-et-de-services-6/"
+      ],
+      "lot": 389,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/123763654",
+      "name": "Aire camping-car de Saint-Martin-de-Bréhal",
+      "status": "tarif_officiel_8_euros_nuitee_et_jeton_1_euro_publication_2026_2027_a_confirmer",
+      "finding": "La mairie affiche 8 €/nuitée, taxe de séjour comprise, et un jeton d'eau à 1 €. Le procès-verbal municipal de 2026 confirme ces montants. Aucune validité tarifaire 2027 distincte n'est publiée.",
+      "nextCheck": "Garder la nuitée et le jeton en lignes distinctes; reconfirmer les montants auprès de la mairie pour 2027.",
+      "sources": [
+        "https://www.ville-brehal.fr/decouvrir/aire-de-camping-cars.html",
+        "https://www.ville-brehal.fr/fileadmin/Brehal/CR_conseils/Liste_des_deliberations_02_03_2026.pdf"
+      ],
+      "lot": 389,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/262874121",
+      "name": "Aire de camping-cars Place Saint-Cloud, Lessay",
+      "status": "stationnement_gratuit_services_tarif_eau_non_chiffre",
+      "finding": "La mairie confirme le stationnement gratuit, 15 places et l'accès à l'eau sans électricité; l'aire ferme pendant la Foire Sainte-Croix. Aucun tarif 2027 de service ou de stationnement payant n'est publié.",
+      "nextCheck": "Conserver la gratuité de stationnement et noter séparément le service d'eau; vérifier les dates de fermeture lors de l'édition 2027 de la foire.",
+      "sources": [
+        "https://lessay.fr/fr/rb/1455313/laire-de-camping-cars"
+      ],
+      "lot": 389,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/349629155",
+      "name": "Aire de camping-car de Siouville-Hague",
+      "status": "tarifs_officiels_non_millesimes_2027",
+      "finding": "La commune publie 10 €/24 h en juillet-août, 7,50 € des vacances de Pâques à la Toussaint hors été, 5 € le reste de l'année; eau et électricité coûtent chacune 4,50 € selon unité propre (10 min d'eau, 1 h d'électricité). La page ne millésime pas explicitement la grille pour 2027; fermeture hivernale possible selon météo.",
+      "nextCheck": "Demander confirmation de la grille pour 2027 et distinguer les périodes de stationnement des tarifs ponctuels de services.",
+      "sources": [
+        "https://siouville-hague.fr/visiter-siouville/hebergements-touristiques-municipaux/aire-de-camping-car/"
+      ],
+      "lot": 389,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/363634471",
+      "name": "Aire de stationnement Saint-Pair-sur-Mer",
+      "status": "tarif_officiel_2026_document_xlsx_2027_non_publie",
+      "finding": "La mairie confirme une aire de service ouverte toute l'année sauf dates événementielles et renvoie vers le tableau des tarifs communaux 2026. Le tarif 2027 n'est pas publié sur cette page. Le montant de 9 €/24 h figurant dans une ancienne donnée tierce n'est pas confirmé par le document municipal 2026 consultable ici.",
+      "nextCheck": "Lire le tableau municipal 2026 et confirmer auprès de la mairie le barème 2027; ne pas reprendre 9 €/24 h sans justificatif.",
+      "sources": [
+        "https://saintpairsurmer.fr/cadre-de-vie/equipements-communaux/",
+        "https://saintpairsurmer.fr/vie-municipale/tarifs-communaux/"
+      ],
+      "lot": 389,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/367593913",
+      "name": "Camping-Car Park Mont-Saint-Michel, Beauvoir",
+      "status": "tarif_base_2027_confirme_tax_2027_non_affiche",
+      "finding": "La grille CCP publie une base de 16,70 €/24 h du 30/10/2026 au 31/12/2027. La page montre séparément une taxe de 1,30 €/24 h qui s'arrête au 31/12/2026; le total 2027 n'est pas confirmé. L'affichage « en ce moment » de 18 € inclut cette taxe 2026. Le forfait 5 h + services à 6 € est distinct.",
+      "nextCheck": "Conserver la base 2027 et vérifier le taux de taxe de séjour 2027 avant de calculer un total taxe comprise.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/mont-saint-michel?areaType=stellplatze-wohnmobilstellplatz"
+      ],
+      "lot": 389,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/513301824",
+      "name": "Aire Camping-Car Park Carentan — Le Port",
+      "status": "tarif_2027_confirme_base_12_75_tax_1_30_total_14_05",
+      "finding": "La grille CCP publie 12,75 €/24 h de base du 17/11/2026 au 31/12/2027, plus 1,30 €/24 h de taxe jusqu'au 31/12/2027, soit 14,05 €/24 h. Le forfait 5 h + services à 6 € est distinct de la nuitée.",
+      "nextCheck": "Recontrôler après le 31/12/2027 et garder le forfait 5 h + services séparé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/carentan-le-port"
+      ],
+      "lot": 389,
+      "checkedAt": "2026-11-21"
+    }
+  ]
+}
