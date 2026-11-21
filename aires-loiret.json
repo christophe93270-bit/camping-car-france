@@ -675,8 +675,8 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "Stationnement gratuit ; eau 4 € et électricité 6 € selon les tarifs municipaux affichés.",
-    "status": "25 bis allée du Château, 45270 Bellegarde. Aire municipale ouverte toute l'année, 10 emplacements dont 2 accessibles PMR. Stationnement gratuit ; eau 4 € et électricité 6 €, réglées par carte bancaire sur la borne.",
+    "price": "Stationnement gratuit; eau 4 € et électricité 6 €. Tarifs publiés pour la période du 01/01/2027 au 31/12/2027.",
+    "status": "25 bis allée du Château, 45270 Bellegarde. Aire municipale ouverte toute l'année 2027, 10 emplacements dont 2 accessibles PMR. Le stationnement est gratuit; eau 4 € et électricité 6 €, réglées sur la borne. Ces montants sont des tarifs de services, distincts d'un prix de nuitée.",
     "source": "https://www.openstreetmap.org/way/1270172136",
     "latitude": 47.9835848,
     "longitude": 2.4408708,
@@ -687,9 +687,25 @@
     "sourceId": "way/1270172136",
     "servicesSource": "https://www.bellegarde-45.fr/la-commune/une-ville-touristique/camping",
     "sourceOfficial": "https://www.bellegarde-45.fr/la-commune/une-ville-touristique/camping",
-    "priceSource": "https://www.bellegarde-45.fr/la-commune/une-ville-touristique/camping",
+    "priceSource": "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-pour-camping-car-bellegarde_TFOACCCEN045V508WKC",
     "sourceOfficialVerifiedOn": "2026-11-12",
-    "priceVerifiedOn": "2026-11-12"
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "Tarifs et période 2027 confirmés par la fiche officielle Tourisme Loiret; la mairie confirme aussi les montants.",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "Stationnement gratuit; eau 4 €; électricité 6 €",
+      "note": "Tarifs applicables du 01/01/2027 au 31/12/2027. Les montants d'eau et d'électricité sont des tarifs de services, sans prix de nuitée facturé.",
+      "source": "https://www.tourismeloiret.com/fr/diffusio/camping-car/aire-de-services-pour-camping-car-bellegarde_TFOACCCEN045V508WKC",
+      "validFrom": "2027-01-01",
+      "validThrough": "2027-12-31",
+      "parkingEUR": 0,
+      "waterEUR": 4,
+      "electricityEUR": 6,
+      "unit": "services"
+    }
   },
   {
     "department": "45",
@@ -760,8 +776,8 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "15,16 € / 24 h, dont 1,32 € de taxe de séjour (tarif opérateur consulté le 12/11/2026).",
-    "status": "Rue du Stade, 45340 Beaune-la-Rolande. Aire d'étape CAMPING-CAR PARK ouverte, 19 emplacements. Tarif opérateur consulté le 12/11/2026 : 15,16 €/24 h, taxe de séjour de 1,32 € comprise.",
+    "price": "Tarif confirmé : 13,84 € / 24 h + taxe de séjour 1,32 € / 24 h = 15,16 € / 24 h, du 17/11/2026 au 31/12/2027. Parking 5 h + services : 6 € (produit distinct).",
+    "status": "Rue du Stade, 45340 Beaune-la-Rolande. Aire d'étape CAMPING-CAR PARK ouverte, 19 emplacements. Tarif de base de 13,84 €/24 h du 17/11/2026 au 31/12/2027, plus taxe de séjour de 1,32 €/24 h jusqu'au 31/12/2027, soit 15,16 €/24 h. Le produit parking 5 h + services à 6 € est distinct.",
     "source": "https://www.openstreetmap.org/way/1284849859",
     "latitude": 48.0673669,
     "longitude": 2.4301672,
@@ -774,7 +790,23 @@
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/beaune-la-rolande",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/beaune-la-rolande",
     "sourceOfficialVerifiedOn": "2026-11-12",
-    "priceVerifiedOn": "2026-11-12"
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "15,16 € / 24 h taxe comprise",
+      "note": "Base de 13,84 €/24 h valable du 17/11/2026 au 31/12/2027; taxe de séjour de 1,32 €/24 h valable jusqu'au 31/12/2027. Parking 5 h + services à 6 € : produit distinct.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loiret/beaune-la-rolande",
+      "baseAmountEUR": 13.84,
+      "unit": "24h",
+      "validFrom": "2026-11-17",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.32,
+      "totalStopoverAndTaxEUR": 15.16
+    }
   },
   {
     "department": "45",
