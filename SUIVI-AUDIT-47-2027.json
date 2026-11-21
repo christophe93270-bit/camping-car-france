@@ -1,7 +1,7 @@
 {
   "scope": "Lot-et-Garonne (47), audit groupé des tarifs et statuts 2027",
   "startedAt": "2026-11-21",
-  "note": "Lot 373 : vérification des fiches 1–10 de 26. Aucun lieu ajouté. Plusieurs tarifs officiels sont datés 2026 seulement; Buzet-sur-Baïse et Casseneuil comportent des points à clarifier. Lot 374 : fiches 11–20 de 26 contrôlées sans ajout. Tarifs gratuits revalidés par les sources touristiques pour La Sauvetat-du-Dropt, Lauzun, Saint-Sylvestre, Saint-Georges et Villeréal (sans nouvelle grille 2027); Monteton publie seulement « stationnement libre » sans montant. Monbahus tarif gratuit source 2026; Fumel prix gratuit secondaire et calendrier 2026; Saint-Pardoux-Isaac services gratuits en 2023 mais nuitée inconnue. Castillonnès base 13,23 €/24 h jusqu'à fin 2027; taxe 2027 manquante.",
+  "note": "Lot 373 : vérification des fiches 1–10 de 26. Aucun lieu ajouté. Plusieurs tarifs officiels sont datés 2026 seulement; Buzet-sur-Baïse et Casseneuil comportent des points à clarifier. Lot 374 : fiches 11–20 de 26 contrôlées sans ajout. Tarifs gratuits revalidés par les sources touristiques pour La Sauvetat-du-Dropt, Lauzun, Saint-Sylvestre, Saint-Georges et Villeréal (sans nouvelle grille 2027); Monteton publie seulement « stationnement libre » sans montant. Monbahus tarif gratuit source 2026; Fumel prix gratuit secondaire et calendrier 2026; Saint-Pardoux-Isaac services gratuits en 2023 mais nuitée inconnue. Castillonnès base 13,23 €/24 h jusqu'à fin 2027; taxe 2027 manquante. Lot 375 (final) : fiches 21–26 contrôlées; les 26 fiches du fichier ont toutes été parcourues en trois lots de 10, 10 et 6, aucun lieu ajouté. Agen : tarifs saisonniers 2027 connus jusqu'au 30/09, taxe 1,60 € sur l'année; dernier trimestre à compléter. Clairac base 12,22 € jusqu'à fin 2027, taxe 2027 non confirmée. Meilhan total 12,58 €/24 h confirmé sur toute l'année. Penne-d'Agenais CCP reste à venir. Lavardac Super U fournit des services sans nuitée ni prix publiés; aire municipale Lavardac distincte gratuite.",
   "entries": [
     {
       "sourceId": "node/4215434488",
@@ -244,6 +244,79 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/castillonnes"
       ],
       "lot": 374,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1328004777",
+      "name": "Aire de Camping-Car de Lavardac",
+      "status": "gratuit_72h_non_millésimé_2027",
+      "finding": "4 emplacements gratuits toute l'année, limite 72 h selon Tourisme Lot-et-Garonne; pas de tarif 2027 spécifique.",
+      "nextCheck": "Conserver la gratuité publiée et la limite de 72 h.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-lavardac/"
+      ],
+      "lot": 375,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1412304965",
+      "name": "Camping-Car Park d’Agen",
+      "status": "tarif_2027_partiel_saison_apres_septembre_absente",
+      "finding": "Agen : 14,60 €/24 h taxe comprise du 01/01–29/04 et 16,40 €/24 h du 30/04–30/09; taxe de 1,60 €/24 h confirmée toute l'année. Pas de tarif de base trouvé pour octobre–décembre 2027. Parking 5 h + services : 6 €.",
+      "nextCheck": "Recontrôler la grille CCP pour le dernier trimestre 2027; garder le forfait de 5 h distinct.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/agen"
+      ],
+      "lot": 375,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp/clairac",
+      "name": "Camping-Car Park de Clairac",
+      "status": "tarif_2027_partiel_taxation_a_confirmer",
+      "finding": "Base 12,22 €/24 h jusqu'au 31/12/2027; ligne taxe 0,58 € datée seulement jusqu'à fin 2026, malgré résumé courant à 12,80 €.",
+      "nextCheck": "Clarifier avec CCP la taxe applicable en 2027 et le montant total affiché.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/clairac"
+      ],
+      "lot": 375,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp/meilhan-sur-garonne",
+      "name": "Camping-Car Park de Meilhan-sur-Garonne",
+      "status": "tarif_2027_confirme",
+      "finding": "Base 12,00 €/24 h jusqu'au 31/12/2027 et taxe 0,58 €/24 h pour toute l'année 2027, soit 12,58 €. Parking 5 h + services : 6 € séparément.",
+      "nextCheck": "Conserver base, taxe et forfait 5 h séparés; sanitaires saisonniers à signaler.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/meilhan-sur-garonne"
+      ],
+      "lot": 375,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp/penne-d-agenais-lac-de-ferrie",
+      "name": "Camping-Car Park de Penne-d’Agenais — Lac de Ferrié",
+      "status": "aire_a_venir_tarif_non_publie",
+      "finding": "CCP classe l'aire « à venir »; aucun prix, capacité ou détail de services publié. Le placeholder 0 € n'est pas un tarif confirmé.",
+      "nextCheck": "Revoir à l'annonce d'ouverture et de la première grille tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/penne-d-agenais-lac-de-ferrie"
+      ],
+      "lot": 375,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "tourinsoft/lavardac-super-u",
+      "name": "Aire de service Super U de Lavardac",
+      "status": "service_tarif_non_publie_nuitee_non_autorisée",
+      "finding": "L'office de tourisme mentionne eau/électricité/vidange sans tarif; le site est décrit comme service et non stationnement de longue durée.",
+      "nextCheck": "Confirmer le coût des services avec le magasin et garder cette fiche hors des nuitées tant que l'accueil nocturne n'est pas établi.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-service-super-u/",
+        "https://politique.pappers.fr/commune/document/cda12c3157c28a96a3c74f8a7f555dc98778406c"
+      ],
+      "lot": 375,
       "checkedAt": "2026-11-21"
     }
   ]
