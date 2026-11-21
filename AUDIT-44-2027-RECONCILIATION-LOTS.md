@@ -2,7 +2,7 @@
 
 ## Résultat
 
-Aucun lot 353 n’est ouvert. Le rapprochement du registre montre que les fiches prévues pour ce lot ont déjà été contrôlées : **les 216 lieux distincts ont tous un contrôle antérieur**, daté du 19 novembre et référencé dans les lots 309 à 341.
+Au 19 novembre, aucun lot 353 n’était ouvert. Le rapprochement du registre montre que les fiches prévues pour ce lot ont déjà été contrôlées : **les 216 lieux distincts ont tous un contrôle antérieur**, daté du 19 novembre et référencé dans les lots 309 à 341.
 
 Le registre contient 219 lignes pour 216 lieux publiés. Les trois lignes liées à ne pas compter comme des lieux supplémentaires sont la zone technique de la Grotte Saint-Jean, l’alias de la Guichardière et l’alias de Clos Mer et Nature.
 
@@ -50,3 +50,11 @@ Les trois lignes sans marqueur de la seconde file qui associaient « nuitée » 
 - **La Sébilière, Mésanger** : la mairie confirme une aire réservée aux camping-cars et une borne eau/vidange, mais ne publie pas de règle de nuitée ni de tarif. Statut : **nuitée non établie**; distinguer séjour et services.
 
 Aucun tarif 2027 n’a été confirmé par ce rapprochement. Aucune donnée du site n’a été modifiée et aucun contact externe n’a été envoyé.
+
+
+## Addendum — 21 novembre 2026 : ouverture ciblée du lot 353
+
+Après le rapprochement, dix entrées ont été retenues pour une passe groupée parce qu’elles conservent chacune une question tarifaire 2027 concrète : Les Brillas, Port Meleu, La Goëlette, Les Écureuils, Bel Essor, la Baie Dorée, le camping de la Morinière, l’aire municipale de La Chapelle-sur-Erdre, l’Hermitage des Dunes et le Domaine Mon Calme.
+
+Le lot 353 documente les sources accessibles et les vérifications restantes. Les tarifs 2026, les grilles sans millésime et les prix de promotions ou de réservation ne sont pas reconduits en 2027. Aucun tarif de nuitée 2027 complet n’a été confirmé; aucune donnée tarifaire publiée du site n’a été modifiée et aucun contact n’a été envoyé.
+
