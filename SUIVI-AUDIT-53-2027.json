@@ -1,0 +1,138 @@
+{
+  "scope": "Mayenne (53), vérification groupée des tarifs 2027",
+  "startedAt": "2026-11-21",
+  "displayedCount": 45,
+  "rawRegionalRows": 45,
+  "deduplicatedRows": 0,
+  "currentLot": 397,
+  "progress": {
+    "checked": 10,
+    "total": 45
+  },
+  "note": "Lot 397 : fiches 1 à 10 de la Mayenne contrôlées ensemble. Sainte-Suzanne CCP : base 12,50 € + taxe 1,20 €, total 13,70 €/24 h en 2027; forfait 5 h + services 6 €. Javron-les-Chapelles : nuitée et services annoncés gratuits sur la fiche régionale, sans confirmation spécifique d'un tarif 2027. Gorron : 8 €/24 h sur la fiche départementale 2026, paiement en mairie; 2027 à confirmer. Ferme Painchaud : à partir de 7 €/nuit en fiche 2026. Montsûrs Fenderie : borne gratuite, six places, période 2026. Andouillé : eau et électricité gratuites mais prix de nuitée non publié et réservation obligatoire. Mayenne quai de la République, Grez-en-Bouère, Vaiges et Lassay : tarif non confirmé; Vaiges affiche huit places dans capacité et dix dans la description. Aucun lieu ajouté.",
+  "entries": [
+    {
+      "sourceId": "ACCAMPDL053V5001B0",
+      "name": "Andouillé — La Hardelière",
+      "status": "eau_electricite_gratuites_nuitee_non_tarifee_reservation_obligatoire",
+      "finding": "La fiche touristique officielle indique un stationnement chez un particulier, réservation obligatoire, ouvert toute l'année, avec eau et électricité gratuites. Elle ne publie aucun prix de nuitée; la gratuité des services ne signifie pas que le stationnement est gratuit.",
+      "nextCheck": "Ne pas afficher de prix de nuitée; demander le tarif au propriétaire avant de le qualifier de gratuit.",
+      "sources": [
+        "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/andouille-la-hardeliere"
+      ],
+      "lot": 397,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V5001HG",
+      "name": "Aire de stationnement pour camping-car — Mayenne, quai de la République",
+      "status": "tarif_non_confirme_fiche_regionale_minimale",
+      "finding": "La base touristique régionale situe l'aire au quai de la République et fournit un contact, mais ne documente ni tarif, ni services, ni règles de nuitée. Un annuaire tiers décrit un stationnement gratuit toléré, ce qui ne suffit pas à confirmer les conditions municipales actuelles ou 2027.",
+      "nextCheck": "Confirmer auprès de la mairie le stationnement nocturne, les services disponibles et les éventuelles restrictions/fermetures; ne pas publier de prix comme confirmé.",
+      "sources": [
+        "https://data.saintnazaireagglo.fr/explore/dataset/234400034_070-001_offre-touristique-aires-de-camping-car-rpdl%40paysdelaloire/",
+        "https://park4night.com/fr/place/3430",
+        "https://www.ville-mayenne.fr/arretes-municipaux/arretes-municipaux-temporaires-2/"
+      ],
+      "lot": 397,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V5000V6",
+      "name": "Aire de service de Javron-les-Chapelles",
+      "status": "stationnement_nuit_services_gratuits_mention_officielle_2026_2027_a_reconfirmer",
+      "finding": "La fiche régionale décrit stationnement nocturne gratuit, eau et vidange, ouvert toute l'année et accès 24/24. Elle indique aussi que le point de vidange eaux usées est gratuit. La fiche est actuelle mais ne garantit pas expressément un barème 2027.",
+      "nextCheck": "Afficher la gratuité avec attribution à la fiche touristique régionale consultée et revérifier si les conditions restent valides en 2027.",
+      "sources": [
+        "https://www.enpaysdelaloire.com/hebergements/aires-de-camping-car/aire-de-service-de-javron-les-chapelles"
+      ],
+      "lot": 397,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAM875001292",
+      "name": "Aire de service camping-cars — Grez-en-Bouère",
+      "status": "tarif_eau_electricite_non_publie",
+      "finding": "La fiche touristique départementale confirme une borne Euro-Relais derrière la mairie, eau potable, électricité, vidange et toilettes, mais ne publie pas les montants des services ni de tarif de stationnement/nuitée.",
+      "nextCheck": "Maintenir le tarif comme non publié; demander à la mairie le coût actuel de l'eau et de l'électricité et les conditions de stationnement.",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/aire-de-service-camping-cars-grez-en-bouere-fr-554514/"
+      ],
+      "lot": 397,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V5000XT",
+      "name": "Aire de service Camping-cars à la Ferme — Saint-Berthevin-la-Tannière",
+      "status": "prix_dappel_7_euros_nuitee_fiche_2026_tarif_2027_non_confirme",
+      "finding": "La fiche du tourisme départemental affiche un prix d'appel à partir de 7 €/nuitée, quatre emplacements et une ouverture toute l'année 2026. Aucun tarif millésimé 2027 n'est publié.",
+      "nextCheck": "Présenter 7 €/nuit comme prix publié sur la fiche ouverte pour 2026 seulement; confirmer le montant 2027 auprès de la Ferme Painchaud.",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/aire-de-service-camping-cars-a-la-ferme-saint-berthevin-la-tanniere-fr-554350/"
+      ],
+      "lot": 397,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V5000XU",
+      "name": "Aire de service Camping-car — Gorron",
+      "status": "8_euros_24h_publie_periode_2026_tarif_2027_non_confirme",
+      "finding": "La fiche départementale précise 8 €/24 h, six emplacements, eau, électricité et vidange, séjour maximal de deux nuits, paiement en mairie et ouverture toute l'année 2026. Le prix n'est pas daté 2027.",
+      "nextCheck": "Afficher 8 €/24 h comme tarif documenté pour 2026 et confirmer auprès de la mairie la grille applicable en 2027.",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/aire-de-service-camping-car-gorron-gorron-fr-554349/"
+      ],
+      "lot": 397,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V504L0H",
+      "name": "Aire Camping-Car Park — Sainte-Suzanne",
+      "status": "tarif_2027_confirme_base_12_50_tax_1_20_total_13_70",
+      "finding": "La grille officielle CCP affiche 12,50 €/24 h de base du 31/12/2026 au 31/12/2027 et 1,20 € de taxe de séjour par 24 h en 2027, soit 13,70 €/24 h. Parking 5 h + services : 6 €. La fiche départementale donne pour 2026 une plage variable de 10,56 à 13,20 € taxe comprise, à ne pas substituer au barème 2027.",
+      "nextCheck": "Afficher 13,70 €/24 h avec base et taxe ventilées; conserver le forfait 5 h + services séparément.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/53-mayenne/ste-suzanne?areaType=aire-etape-camping-car",
+        "https://www.destination-mayenne.com/offres/aire-de-service-camping-car-park-sainte-suzanne-fr-1232101/"
+      ],
+      "lot": 397,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAM876000158",
+      "name": "Borne de service camping-car — Vaiges",
+      "status": "tarif_services_non_publie_capacite_contradictoire",
+      "finding": "La fiche départementale confirme eau, vidange et toilettes publiques proches, ouverte en 2026. Elle annonce dix emplacements dans la description mais huit dans la rubrique capacité. Aucun tarif des services n'est publié.",
+      "nextCheck": "Laisser le tarif non confirmé; vérifier le coût sur place et la capacité réelle (8 ou 10 places).",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/borne-de-service-camping-car-vaiges-fr-555098/"
+      ],
+      "lot": 397,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAM876000159",
+      "name": "Borne de service camping-car — La Fenderie, Montsûrs",
+      "status": "borne_gratuite_6_emplacements_fiche_2026_2027_a_reconfirmer",
+      "finding": "La fiche régionale confirme la gratuité de la borne Euro-Relais, six emplacements et les services eau, électricité, toilettes et évacuation des eaux usées; période d'ouverture affichée toute l'année 2026. La gratuité du site et sa période 2027 ne sont pas explicitement garanties.",
+      "nextCheck": "Afficher la gratuité en la rattachant à la fiche régionale et confirmer le maintien en 2027.",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/borne-de-service-camping-car-montsurs-fr-555099/"
+      ],
+      "lot": 397,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ACCAMPDL053V50AAEK",
+      "name": "Aire de stationnement camping-car — La Tannerie, Lassay-les-Châteaux",
+      "status": "6_emplacements_toilettes_tarif_non_publie_fiche_2026",
+      "finding": "La fiche départementale décrit six emplacements et des tables de pique-nique, toilettes à proximité, ouverture toute l'année 2026. Elle ne publie pas de prix de stationnement ni de nuitée.",
+      "nextCheck": "Garder le tarif comme non publié; confirmer auprès de la mairie le prix éventuel et les conditions 2027.",
+      "sources": [
+        "https://www.destination-mayenne.com/offres/aire-de-stationnement-camping-car-lassay-les-chateaux-fr-4988898/"
+      ],
+      "lot": 397,
+      "checkedAt": "2026-11-21"
+    }
+  ]
+}
