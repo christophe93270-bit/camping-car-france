@@ -4,12 +4,12 @@
   "displayedCount": 32,
   "rawRegionalRows": 32,
   "deduplicatedRows": 0,
-  "currentLot": 391,
+  "currentLot": 392,
   "progress": {
-    "checked": 30,
+    "checked": 32,
     "total": 32
   },
-  "note": "Lot 391 : fiches 21 à 30 de la Manche contrôlées ensemble. Le Teilleul : Normandie Tourisme affiche le stationnement gratuit et les services. Fervaches : la mairie présente 8 places; parking gratuit selon Normandie Tourisme. Des sources secondaires divergent entre forfait nuit 5 € et services 5 €; prix des services à confirmer. Cérences : stationnement gratuit, jeton de borne eau/vidange 2 €, repris par documents mairie/tourisme, sans millésime 2027 explicite. Sciotot : gratuité et limite 24 h issues de sources cartographiques/participatives, règle officielle à vérifier. Anse de Moidrey CCP : base 17 €/24 h jusqu'au 31/12/2027, taxe de séjour 2027 non confirmée. Isigny-le-Buat CCP : base 14 €/24 h jusqu'au 31/12/2027, taxe 2027 non confirmée. Utah Beach CCP : fermée depuis le 24/08/2026 jusqu'à nouvel ordre; base programmée 13,25 €/24 h en 2027, total taxe comprise à confirmer. Condé-sur-Vire CCP : base 11,70 € + taxe 1,30 € en 2027, total 13 €/24 h confirmé. Saint-Germain-sur-Ay CCP : base 13,75 €/24 h en 2027, taxe 2027 non confirmée. Picauville CCP : base 13,74 €/24 h jusqu'au 31/12/2027, taxe 2027 non confirmée. Forfaits CCP 5 h + services séparés. Aucun lieu ajouté. 30/32 fiches vérifiées.",
+  "note": "Lot 392 : fiches 31 et 32 contrôlées ensemble; les 32 fiches de la Manche sont désormais vérifiées. CCP Carolles : base 12,75 €/24 h du 01/11/2026 au 31/12/2027 + taxe 1,32 € valable jusqu'au 31/12/2027, total 14,07 €/24 h; forfait 5 h + services à 6 € séparé. CCP École de Villedieu : la page officielle actualisée donne l'aire ouverte, 6/6 places et 12 €/24 h jusqu'au 31/12/2027; accès uniquement vacances scolaires, week-ends du vendredi soir au dimanche soir et jours fériés, réservation obligatoire, aucun service disponible. Taxe affichée à 0 € seulement jusqu'au 31/12/2026, donc vérifier l'application 2027. Le statut fermé et capacité 0 de la fiche du site sont à corriger. Audit tarifaire Manche achevé : 32/32 fiches vérifiées, sans ajout de lieux.",
   "entries": [
     {
       "sourceId": "node/7041967413",
@@ -386,6 +386,31 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/picauville?areaType=aire-etape-camping-car"
       ],
       "lot": 391,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-manche-carolles",
+      "name": "Aire Camping-Car Park de Carolles",
+      "status": "tarif_2027_confirme_base_12_75_tax_1_32_total_14_07",
+      "finding": "La page CCP indique l'aire ouverte et une base de 12,75 €/24 h du 01/11/2026 au 31/12/2027. La taxe de séjour de 1,32 €/24 h est explicitement valable jusqu'au 31/12/2027, soit 14,07 €/24 h. Le parking 5 h + services à 6 € est distinct.",
+      "nextCheck": "Afficher le total 14,07 €/24 h avec ventilation base/taxe et garder le forfait 5 h séparé; tarif susceptible d'évoluer à la prochaine saison.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/carolles?areaType=aire-etape-camping-car"
+      ],
+      "lot": 392,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "ccp-manche-ecole-villedieu",
+      "name": "Aire Camping-Car Park de l’École de Villedieu-les-Poêles-Rouffigny",
+      "status": "aire_ouverte_6_places_base_2027_12_euros_acces_restreint_tax_2027_a_confirmer",
+      "finding": "La fiche officielle actualisée indique l'aire ouverte avec 6/6 places, 12 €/24 h jusqu'au 31/12/2027 et aucun service disponible. Accès uniquement pendant les vacances scolaires, les week-ends du vendredi 18 h au dimanche 18 h et les jours fériés; réservation obligatoire. La taxe affichée à 0 € n'est explicitement datée que jusqu'au 31/12/2026; l'affichage actuel et le total 2027 doivent rester distingués.",
+      "nextCheck": "Corriger le statut du site (ne plus la marquer fermée ni à 0 place), indiquer les conditions d'accès et la réservation obligatoire; garder le prix de base 12 € et vérifier si la taxe reste nulle en 2027. Pas de services sur place.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/camping-car-a-lecole-de-villedieu-les-poeles-rouffigny",
+        "https://www.campingcarpark.com/fr_FR/camping-car/normandie/manche/camping%20car%20a%20l%27ecole%20%20de%20villedieu%20les%20poeles%20rouffigny?areaType=stopover-site-motorhome"
+      ],
+      "lot": 392,
       "checkedAt": "2026-11-21"
     }
   ]
