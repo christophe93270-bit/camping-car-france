@@ -1,0 +1,130 @@
+{
+  "scope": "Lot-et-Garonne (47), audit groupé des tarifs et statuts 2027",
+  "startedAt": "2026-11-21",
+  "note": "Lot 373 : vérification des fiches 1–10 de 26. Aucun lieu ajouté. Plusieurs tarifs officiels sont datés 2026 seulement; Buzet-sur-Baïse et Casseneuil comportent des points à clarifier.",
+  "entries": [
+    {
+      "sourceId": "node/4215434488",
+      "name": "Aire de Camping-car du Port de Buzet-sur-Baïse",
+      "status": "tarif_et_fonctionnement_non_confirmes",
+      "finding": "Le tarif secondaire de 7,40 €/24 h n'est pas repris : la source signale aussi une suppression de l'aire de services en novembre 2025. Le site officiel consulté ne donne pas de prix camping-car actuel.",
+      "nextCheck": "Confirmer auprès du port ou de la mairie si les emplacements et services sont toujours en service et quel tarif s'applique.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/loisirs/port-de-buzet-sur-baise/",
+        "https://www.i-campingcar.fr/aires.php?ville=BUZET+SUR+BAISE"
+      ],
+      "lot": 373,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/7390070598",
+      "name": "Aire de camping-cars de Casseneuil",
+      "status": "aire_ccp_a_venir_prix_non_publie",
+      "finding": "CCP affiche le point comme « à venir »; l'office de tourisme annonce l'aire municipale existante au même secteur gratuite. Ne pas traiter le placeholder de liste à 1,60 €/24 h comme un tarif CCP confirmé.",
+      "nextCheck": "Clarifier si le futur point CCP remplace l'aire municipale existante; vérifier l'ouverture et le premier tarif officiel.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/casseneuil",
+        "https://tourisme.valleedulotetgaronne.com/offres/aire-de-camping-cars-de-casseneuil-casseneuil-fr-4840492/"
+      ],
+      "lot": 373,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/180985129",
+      "name": "Aire camping car - Vianne",
+      "status": "gratuit_tarif_2027_non_millésimé",
+      "finding": "Vianne : gratuit, 10 places et ouverte toute l'année selon la mairie/l'office du tourisme; aucune grille 2027 spécifique.",
+      "nextCheck": "Conserver comme gratuité publiée, à revalider si une nouvelle grille paraît.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-vianne/",
+        "https://www.vianne.fr/page/campingcar"
+      ],
+      "lot": 373,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/452415922",
+      "name": "Aire de stationnement du Mas-d'Agenais",
+      "status": "gratuit_stationnement_services_voisins_payants",
+      "finding": "Le Mas-d'Agenais : stationnement gratuit pour les 8 places; distinguer des services payants de la halte nautique voisine.",
+      "nextCheck": "Maintenir la distinction parking gratuit / jetons à la halte nautique.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-stationnement-du-mas-d-agenais/"
+      ],
+      "lot": 373,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/503033998",
+      "name": "Aire de camping-car de Miramont-de-Guyenne",
+      "status": "tarif_2026_seulement",
+      "finding": "Dernière grille : 5 €/nuit en période estivale 2026, 7,50 €/nuit en hiver jusqu'au 15/04/2026, taxe 0,67 €/personne/jour. Aucun tarif après le 15/10/2026 trouvé.",
+      "nextCheck": "Demander ou surveiller la grille hiver 2026–2027 et 2027.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-miramont-de-guyenne/",
+        "https://www.paysdelauzun.com/offres/aire-de-camping-car-de-miramont-de-guyenne/"
+      ],
+      "lot": 373,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/739755094",
+      "name": "Aire de camping-car de la Filhole à Marmande",
+      "status": "tarif_2026_seulement",
+      "finding": "Filhole : 10,45 €/nuit + 0,72 €/personne, ouverture affichée du 06/07 au 31/12/2026; aucun tarif ou calendrier 2027 trouvé.",
+      "nextCheck": "Reprendre lorsque la ville ou l'office publie les tarifs et dates 2027.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-la-filhole-a-marmande/",
+        "https://www.valdegaronne-tourisme.com/aires-camping-cars/aire-de-camping-car-de-la-filhole-a-marmande/"
+      ],
+      "lot": 373,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/899170111",
+      "name": "Aire de camping-car de Tonneins",
+      "status": "stationnement_non_tarifé_borne_hs",
+      "finding": "Tonneins : la page officielle ne publie pas le tarif de stationnement; elle confirme la borne électrique hors service et une limite de 7 nuits.",
+      "nextCheck": "Confirmer tarif de nuitée et état actuel de la borne auprès de la commune.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-tonneins/"
+      ],
+      "lot": 373,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/899178320",
+      "name": "Aire de camping-car de Varès",
+      "status": "gratuit_a_revalider",
+      "finding": "Varès : gratuité déjà notée dans la fiche, mais source officielle tarifaire récente non retrouvée dans ce lot.",
+      "nextCheck": "Revalider la gratuité et la coupure hivernale d'eau auprès de la commune.",
+      "sources": [],
+      "lot": 373,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/899187953",
+      "name": "Aire de camping car de Caumont-sur-Garonne",
+      "status": "tarifs_services_2026_stationnement_non_publie",
+      "finding": "Caumont : jetons 2026, eau 2 €/15 min, électricité 2 €/4 h; halte ouverte avril–octobre 2026. Tarif du stationnement non publié.",
+      "nextCheck": "Garder les services distincts de la nuitée; vérifier ouverture et tarifs 2027.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/loisirs/halte-nautique-de-caumont-sur-garonne/"
+      ],
+      "lot": 373,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/899390659",
+      "name": "Aire de Camping-car Casteljaloux - Impasse de la Forêt",
+      "status": "gratuit_tarif_2027_non_millésimé",
+      "finding": "Casteljaloux : gratuit, quatre places, 48 h maximum, ouvert toute l'année; pas de nouvelle tarification 2027.",
+      "nextCheck": "Conserver comme gratuité publiée et revalider si modification communale.",
+      "sources": [
+        "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-cars-de-casteljaloux/"
+      ],
+      "lot": 373,
+      "checkedAt": "2026-11-21"
+    }
+  ]
+}
