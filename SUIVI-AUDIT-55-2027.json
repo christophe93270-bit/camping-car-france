@@ -4,10 +4,99 @@
   "displayedCount": 17,
   "rawRegionalRows": 17,
   "deduplicatedRows": 0,
-  "currentLot": 404,
+  "currentLot": 405,
   "progress": {
-    "checked": 10,
+    "checked": 17,
     "total": 17
   },
-  "note": "Lot 404 : fiches 1 à 10 de la Meuse contrôlées ensemble. Aucun lieu ajouté. Tannois : stationnement annoncé gratuit et ouvert toute l'année sur fiche 2026, sans services confirmés ni règle explicite de nuitée. Blercourt : données OSM sans confirmation locale, tarif/services/nuitée inconnus. Montmédy Le Pigeonnier : halte de stationnement à distinguer du CCP 32 places et de sa borne; 4 places/free rapporté par fiches et anciennes références, fonctionnement actuel à confirmer. Lac de Madine Nonsard : tarifs 2026 uniquement, aire éco 8 €/nuit sans eau/électricité + jeton 4 €; aire confort 15 €/nuit avec eau/électricité, jeton borne confort 3 €, 23 places. Stenay : sources en désaccord, communauté de communes affiche 9 €/nuit, fiche touristique 2026 annonce à partir de 11,56 €; saison affichée également différente. Ligny CCP : base 12,20 €/24h jusqu'au 31/12/2027, taxe 0,44 € affichée seulement jusqu'au 31/12/2026; services 5 h 6 €. Ligny relais nautique : 8 places gratuites, pas de service sur place, services du CCP voisin distincts; fiche d'ouverture 2026. Bar-le-Duc CCP : base 12,20 € jusqu'au 31/12/2027, taxe 0,44 € jusqu'au 31/12/2026, 5 h services 6 €, PPRI; fiche 20 places vs 8 places stabilisées en descriptif. Montmédy CCP : base 12 € + taxe 0,44 € jusqu'au 31/12/2027, total 12,44 €, forfait 5 h 6 €. Dieue-sur-Meuse : eau et vidange mentionnées par OT, prix et nuitée non publiés. Fiches restantes : 11 à 17, à examiner dans les lots suivants."
+  "note": "Lot 404 : fiches 1 à 10 de la Meuse contrôlées ensemble. Aucun lieu ajouté. Tannois : stationnement annoncé gratuit et ouvert toute l'année sur fiche 2026, sans services confirmés ni règle explicite de nuitée. Blercourt : données OSM sans confirmation locale, tarif/services/nuitée inconnus. Montmédy Le Pigeonnier : halte de stationnement à distinguer du CCP 32 places et de sa borne; 4 places/free rapporté par fiches et anciennes références, fonctionnement actuel à confirmer. Lac de Madine Nonsard : tarifs 2026 uniquement, aire éco 8 €/nuit sans eau/électricité + jeton 4 €; aire confort 15 €/nuit avec eau/électricité, jeton borne confort 3 €, 23 places. Stenay : sources en désaccord, communauté de communes affiche 9 €/nuit, fiche touristique 2026 annonce à partir de 11,56 €; saison affichée également différente. Ligny CCP : base 12,20 €/24h jusqu'au 31/12/2027, taxe 0,44 € affichée seulement jusqu'au 31/12/2026; services 5 h 6 €. Ligny relais nautique : 8 places gratuites, pas de service sur place, services du CCP voisin distincts; fiche d'ouverture 2026. Bar-le-Duc CCP : base 12,20 € jusqu'au 31/12/2027, taxe 0,44 € jusqu'au 31/12/2026, 5 h services 6 €, PPRI; fiche 20 places vs 8 places stabilisées en descriptif. Montmédy CCP : base 12 € + taxe 0,44 € jusqu'au 31/12/2027, total 12,44 €, forfait 5 h 6 €. Dieue-sur-Meuse : eau et vidange mentionnées par OT, prix et nuitée non publiés. Fiches restantes : 11 à 17, à examiner dans les lots suivants. Lot 405 : fiches 11 à 17 contrôlées; aucun lieu ajouté. Nettancourt : aucun tarif/service/nuitée confirmé par source locale. Bar-le-Duc halte fluviale : 8 places gratuites, 24 h/24 et sans service selon fiche OT 2026; Meuse Grand Sud décrit une borne à jetons proche, emplacement exact distinct à clarifier; ne pas confondre avec tarif bateau. Revigny : 2 places, eau/vidange gratuites, 24 h gratuites une fois/6 mois puis 20 €/24 h, eau coupée en cas de gel; 2027 à confirmer. Damvillers Ballastières : nuitée permise, éclairage et sol stabilisé; tarif/services non publiés. Void-Vacon : borne municipale Flot Bleu toute l'année, eau/vidanges par jetons, prix officiel absent; 3 € en source tierce datée 2023 non retenu. Charny CCP : base 11,10 €/24 h jusqu'au 31/12/2027, taxe 1,22 € jusqu'au 31/12/2026, total 2027 à confirmer, services 5 h 6 €, PPRI. Commercy CCP : base 11 € + taxe 1,32 € toutes deux valables en 2027 = 12,32 €/24 h confirmé; 5 h + services 6 €; sanitaires temporairement fermés, PPRI. Meuse terminée : 17/17 fiches, lots 404–405. En attente du lot 404 : taxe 2027 Fontenoy-la-Joûte, Lunéville, Ligny, Bar-le-Duc; Toul 7/9 € divergence; Stenay 9 € vs 11,56 €.",
+  "entries": [
+    {
+      "sourceId": "way/696183306",
+      "name": "Aire de camping-cars de Nettancourt",
+      "status": "existence_tarif_services_et_nuitee_non_confirmes",
+      "finding": "Fiche OSM non recoupée par source locale trouvée; ne pas confondre avec Laheycourt.",
+      "nextCheck": "Demander à la mairie de Nettancourt si le site existe, permet la nuitée et quels tarifs/services s'appliquent.",
+      "sources": [
+        "https://www.openstreetmap.org/way/696183306"
+      ],
+      "lot": 405,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/730650897",
+      "name": "Aire de stationnement de la halte fluviale — Bar-le-Duc",
+      "status": "stationnement_gratuit_2026_borne_et_tarif_a_localiser",
+      "finding": "8 places gratuites, 24h/24, sans service selon OT; Meuse Grand Sud décrit une borne à jetons rue du Débarcadère, près de la halte. Emplacement de la borne par rapport aux places et tarif actuel à clarifier.",
+      "nextCheck": "Confirmer si borne et stationnement sont sur la même emprise, puis tarif des jetons; ne pas reprendre le prix bateau.",
+      "sources": [
+        "https://www.tourisme-barleducsudmeuse.fr/AIRE_DE_SERVICES_ET_DE_STATIONNEMENT-754005535-38",
+        "https://www.meusegrandsud.fr/vivre/tourisme/equipements-touristiques/laire-de-service-pour-camping-cars-de-bar-le-duc"
+      ],
+      "lot": 405,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1219019997",
+      "name": "Aire de camping-car - Revigny-sur-Ornain",
+      "status": "tarif_2026_2027_a_confirmer",
+      "finding": "2 places; 24h gratuites une fois par période de 6 mois, puis 20 €/24h; eau/vidange gratuites; eau coupée en cas de gel.",
+      "nextCheck": "Confirmer barème 2027 et maintenir limite d'une gratuité par semestre.",
+      "sources": [
+        "https://www.revigny-sur-ornain.fr/camping-aire-camping-car.php",
+        "https://www.tourisme-barleducsudmeuse.fr/Aire_de_services_et_de_stationnement-754005538-38"
+      ],
+      "lot": 405,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1298173782",
+      "name": "Aire de Camping-Car Damvillers",
+      "status": "nuit_autorisee_tarif_et_services_non_publies",
+      "finding": "Meuse Attractivité confirme nuitée aux Ballastières, éclairage public et sol stabilisé; pas de prix ni borne publiée.",
+      "nextCheck": "Confirmer auprès de la mairie si eau, vidange ou électricité sont disponibles et leur prix éventuel.",
+      "sources": [
+        "https://tourisme-meurtheetmoselle.fr/accueil/lessentiel/patrimoine/musees/834000108-aire-de-stationnement-camping-car"
+      ],
+      "lot": 405,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1344623520",
+      "name": "Aire communale Flot Bleu — Void-Vacon",
+      "status": "services_officiels_prix_non_publie",
+      "finding": "Fabricant confirme borne municipale toute l'année avec eau et vidanges par jetons; prix officiel absent. Tarif tiers de 3 € daté 2023 non retenu comme actuel.",
+      "nextCheck": "Demander à la mairie le prix du jeton, l'accès au stationnement et les conditions d'usage.",
+      "sources": [
+        "https://flotbleu.com/meuse/aire-de-service/290",
+        "https://www.camping-car.com/aires/43402-aire-communale/"
+      ],
+      "lot": 405,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "CCP-CHARNY-SUR-MEUSE",
+      "name": "Aire CAMPING-CAR PARK de Charny-sur-Meuse",
+      "status": "base_2027_confirmee_taxe_2027_inconnue",
+      "finding": "Base 11,10 €/24h jusqu'au 31/12/2027; taxe 1,22 € publiée jusqu'au 31/12/2026; total 2027 inconnu. Parking 5h + services 6 €. 50 places; PPRI.",
+      "nextCheck": "Vérifier taxe et total TTC 2027; maintenir alerte PPRI.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/charny-sur-meuse?areaType=aire-etape-camping-car"
+      ],
+      "lot": 405,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "CCP-COMMERCY",
+      "name": "Aire CAMPING-CAR PARK de Commercy",
+      "status": "tarif_2027_total_confirme",
+      "finding": "11 € base + taxe 1,32 €, publiées pour 2027, soit 12,32 €/24h; parking 5h + services 6 €. Sanitaires temporairement fermés; PPRI.",
+      "nextCheck": "Surveiller la fermeture temporaire des sanitaires et les prochains tarifs saisonniers.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/meuse/commercy?areaType=aire-etape-camping-car"
+      ],
+      "lot": 405,
+      "checkedAt": "2026-11-21"
+    }
+  ]
 }
