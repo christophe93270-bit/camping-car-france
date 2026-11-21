@@ -39,3 +39,14 @@ Les 78 fiches dans les quatre premières catégories ont déjà un constat de ta
 - Reprendre les constats et les champs « prochaine vérification » déjà présents dans le registre.
 - Ne consulter une source à nouveau que si elle répond à une question précise encore ouverte ou si une évolution est signalée.
 - Aucun lieu, tarif ni autre donnée publiée du site n’a été ajouté ou modifié dans ce rapprochement.
+
+
+## Addendum — 21 novembre 2026 : classement des trois lignes ambiguës
+
+Les trois lignes sans marqueur de la seconde file qui associaient « nuitée » et « tarif » ont été reclassées selon les constats déjà disponibles, sans refaire les contrôles des lieux :
+
+- **Parking camping-car de Plessé, près de l’église (OSM)** : la commune ne confirme pas ce point comme aire camping-car; la Piardière est un autre lieu. Statut : **nuitée non établie**; ne pas traiter son prix comme celui d’une aire confirmée.
+- **Barrière Saint-Pierre, Ancenis** : le parking avec eau et toilettes est décrit officiellement, mais sans tarif, durée maximale ni règle de nuitée. Statut : **nuitée non établie**; une confirmation municipale reste nécessaire.
+- **La Sébilière, Mésanger** : la mairie confirme une aire réservée aux camping-cars et une borne eau/vidange, mais ne publie pas de règle de nuitée ni de tarif. Statut : **nuitée non établie**; distinguer séjour et services.
+
+Aucun tarif 2027 n’a été confirmé par ce rapprochement. Aucune donnée du site n’a été modifiée et aucun contact externe n’a été envoyé.
