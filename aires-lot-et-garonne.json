@@ -576,8 +576,8 @@
     "services": [
       "Tables de pique-nique"
     ],
-    "price": "Gratuit",
-    "status": "4 emplacements aménagés, ouverts toute l’année. Stationnement gratuit limité à 72 h, à proximité du centre et des commerces.",
+    "price": "Stationnement gratuit, 4 emplacements, limite 72 h, selon l'office de tourisme. Gratuité non millésimée 2027.",
+    "status": "4 emplacements, stationnement gratuit toute l’année, limité à 72 h, près du centre et des commerces.",
     "source": "https://www.openstreetmap.org/way/1328004777",
     "latitude": 44.1820732,
     "longitude": 0.2956264,
@@ -589,7 +589,12 @@
     "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-lavardac/",
     "capacity": 4,
     "opening": "Toute l’année",
-    "parkingLimit": "72 h"
+    "parkingLimit": "72 h",
+    "priceNote": "Tourisme Lot-et-Garonne confirme 4 places, stationnement gratuit, ouvert toute l'année et durée maximale 72 h. Aucun changement 2027 identifié.",
+    "priceSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-lavardac/",
+    "official": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-lavardac/",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21"
   },
   {
     "department": "47",
@@ -599,8 +604,8 @@
     "services": [
       "Électricité 6 A"
     ],
-    "price": "13,50 €/24 h + taxe de séjour 1,60 €",
-    "status": "Aire ouverte, 20 emplacements. Tarif CCP vérifié : 13,50 €/24 h et taxe de séjour de 1,60 €/24 h. Itinéraire conseillé par la rue Baudin ; passage étroit rue Bonis.",
+    "price": "CCP : du 01/01 au 29/04/2027, base 13,00 € + taxe 1,60 € = 14,60 €/24 h; du 30/04 au 30/09/2027, base 14,80 € + taxe 1,60 € = 16,40 €/24 h. Tarif de base après le 30/09/2027 non publié. Parking 5 h + services : 6 €.",
+    "status": "Aire ouverte, 20 places. Prix 2027 : 14,60 €/24 h du 01/01 au 29/04; 16,40 €/24 h du 30/04 au 30/09 (taxe incluse). Base après le 30/09 non publiée. Accès conseillé par rue Baudin, pas rue Bonis.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/agen",
     "latitude": 44.2070442,
     "longitude": 0.6099998,
@@ -613,7 +618,37 @@
     "priceDetail": "Tarif saisonnier en cours affiché du 05/11/2026 au 31/12/2027 : 13,50 €/24 h. Taxe de séjour : 1,60 €/24 h en 2026 et 2027. Parking 5 h + services : 6 €.",
     "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/agen",
     "capacity": 20,
-    "opening": "Toute l’année"
+    "opening": "Toute l’année",
+    "priceNote": "La page officielle CCP fixe explicitement deux bases saisonnières et une taxe de 1,60 €/24 h toute l'année 2027; elle ne montre pas de base pour 01/10–31/12/2027. L'office de tourisme garde une grille antérieure (basse/moyenne/haute saison 2026), donc ne pas la mêler aux tarifs CCP 2027. Parking 5 h + services distinct : 6 €.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/agen",
+    "official": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/agen",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "partial",
+      "label": "14,60 € /24 h (01/01–29/04) puis 16,40 €/24 h (30/04–30/09); période après le 30/09 non tarifée.",
+      "note": "CCP : base 13,00 €/24 h du 01/01 au 29/04, puis 14,80 €/24 h du 30/04 au 30/09; taxe de séjour 1,60 €/24 h du 01/01 au 31/12. Aucune base n'est affichée pour 01/10–31/12/2027. Parking 5 h + services : 6 € distinct.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/agen",
+      "seasonalRates": [
+        {
+          "baseAmountEUR": 13,
+          "validFrom": "2027-01-01",
+          "validThrough": "2027-04-29",
+          "totalWithTaxEUR": 14.6
+        },
+        {
+          "baseAmountEUR": 14.8,
+          "validFrom": "2027-04-30",
+          "validThrough": "2027-09-30",
+          "totalWithTaxEUR": 16.4
+        }
+      ],
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 1.6,
+      "validThrough": "2027-09-30"
+    }
   },
   {
     "department": "47",
@@ -626,9 +661,9 @@
       "Vidange toilettes chimiques",
       "Électricité"
     ],
-    "price": "12,22 €/24 h + taxe de séjour",
+    "price": "Tarif de base 12,22 €/24 h du 10/09/2026 au 31/12/2027. Taxe de séjour 0,58 €/24 h publiée jusqu'au 31/12/2026 seulement; total 2027 non confirmé. Le résumé CCP affiche 12,80 €/24 h. Parking 5 h + services : 6 €.",
     "priceDetail": "Le tarif saisonnier « en cours » affiché est de 12,22 €/24 h du 10/09/2026 au 31/12/2027 ; la page affiche aussi 12,80 €/24 h en tête, d’où une vérification tarifaire à maintenir. Taxe de séjour affichée : 0,58 €/24 h en 2026.",
-    "status": "Aire ouverte, 39 emplacements camping-cars, vans et caravanes. Les tarifs affichés sur la page CCP ne concordent pas (12,80 € en tête, 12,22 € dans le tarif saisonnier) : vérifier le prix au moment de la réservation.",
+    "status": "Aire ouverte, 39 places. Base 12,22 €/24 h jusqu'au 31/12/2027; taxe 2027 à revalider (12,80 € apparaît comme montant courant).",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/clairac",
     "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/clairac",
     "latitude": 44.35587,
@@ -636,7 +671,27 @@
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/clairac",
     "sourceId": "ccp/clairac",
     "capacity": 39,
-    "opening": "Toute l’année"
+    "opening": "Toute l’année",
+    "priceNote": "La page CCP présente simultanément un résumé « en ce moment » à 12,80 €/24 h (dont 0,58 € de taxe) et une ligne saisonnière de base à 12,22 €/24 h jusqu'au 31/12/2027; la ligne taxe est seulement datée jusqu'au 31/12/2026. La base 2027 est connue, mais la taxe et le total de 2027 ne sont pas explicitement établis. Forfait parking 5 h + services : 6 €.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/clairac",
+    "official": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/clairac",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "partial",
+      "label": "Base 12,22 €/24 h confirmée; taxe et total 2027 à revalider.",
+      "note": "Base saisonnière 12,22 €/24 h valide jusqu'au 31/12/2027. La taxe de 0,58 €/24 h n'est datée que jusqu'au 31/12/2026, malgré le résumé courant à 12,80 € incluant cette taxe.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/clairac",
+      "baseAmountEUR": 12.22,
+      "unit": "24h",
+      "validFrom": "2026-09-10",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": false,
+      "touristTaxEUR": null,
+      "totalStopoverAndTaxEUR": null
+    }
   },
   {
     "department": "47",
@@ -650,9 +705,9 @@
       "Vidange toilettes chimiques",
       "Sanitaires (saisonniers)"
     ],
-    "price": "12,00 €/24 h (tarif saisonnier en cours)",
+    "price": "Tarif 2027 confirmé : base 12,00 €/24 h + taxe de séjour 0,58 €/24 h = 12,58 €/24 h, du 01/01 au 31/12/2027. Parking 5 h + services : 6 €.",
     "priceDetail": "Tarif saisonnier affiché du 12/11/2026 au 31/12/2027 : 12,00 €/24 h. La page affiche aussi 12,58 €/24 h taxe de séjour incluse dans le résumé; taxe indiquée : 0,58 € en 2026.",
-    "status": "Aire ouverte, 50 emplacements. La page CCP affiche un tarif de saison à 12,00 €/24 h jusqu’au 31/12/2027 ; le résumé affiche 12,58 € taxe incluse.",
+    "status": "Aire ouverte, 50 places. Tarif 2027 confirmé : 12,58 €/24 h taxe comprise. Sanitaires saisonniers.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/meilhan-sur-garonne",
     "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/meilhan-sur-garonne",
     "latitude": 44.524231,
@@ -660,7 +715,27 @@
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/meilhan-sur-garonne",
     "sourceId": "ccp/meilhan-sur-garonne",
     "capacity": 50,
-    "opening": "Toute l’année"
+    "opening": "Toute l’année",
+    "priceNote": "CCP affiche la base de 12,00 €/24 h du 19/11/2026 au 31/12/2027, et la taxe de séjour de 0,58 €/24 h pour toute l'année 2027. Le total 12,58 €/24 h est donc confirmé. Parking 5 h + services à 6 € séparément. Les sanitaires sont annoncés saisonniers (2026).",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/meilhan-sur-garonne",
+    "official": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/meilhan-sur-garonne",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "season2027": {
+      "year": 2027,
+      "checkedAt": "2026-11-21",
+      "status": "confirmed",
+      "label": "12,58 € /24 h taxe comprise",
+      "note": "Base 12,00 €/24 h du 19/11/2026 au 31/12/2027; taxe de séjour 0,58 €/24 h du 01/01 au 31/12/2027. Parking 5 h + services : 6 € distinct.",
+      "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/meilhan-sur-garonne",
+      "baseAmountEUR": 12,
+      "unit": "24h",
+      "validFrom": "2026-11-19",
+      "validThrough": "2027-12-31",
+      "touristTaxConfirmed": true,
+      "touristTaxEUR": 0.58,
+      "totalStopoverAndTaxEUR": 12.58
+    }
   },
   {
     "department": "47",
@@ -668,14 +743,19 @@
     "city": "Penne-d’Agenais",
     "type": "Camping-Car Park — aire d’étape à venir",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Aire d’étape annoncée « à venir » par Camping-Car Park au lac de Ferrié. Tarif, capacité et services non encore publiés.",
+    "price": "Aire d'étape CCP annoncée « à venir »; aucun tarif, capacité ou service d'aire publié. Aucun prix 2027 confirmé.",
+    "status": "Aire d'étape CCP « à venir »; tarif, capacité et services non publiés. Ne pas confondre avec le camping municipal / la base de loisirs existante.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/penne-d-agenais-lac-de-ferrie",
     "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/penne-d-agenais-lac-de-ferrie",
     "latitude": 44.384575,
     "longitude": 0.805894,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/penne-d-agenais-lac-de-ferrie",
-    "sourceId": "ccp/penne-d-agenais-lac-de-ferrie"
+    "sourceId": "ccp/penne-d-agenais-lac-de-ferrie",
+    "priceNote": "Page officielle CCP consultée : statut « À venir », aucune tarification de nuitée affichée, capacité et services non précisés. Ne pas utiliser les 0 € des fiches-listes de l'opérateur comme un tarif.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/penne-d-agenais-lac-de-ferrie",
+    "official": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/penne-d-agenais-lac-de-ferrie",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21"
   },
   {
     "department": "47",
@@ -687,14 +767,19 @@
       "Électricité",
       "Vidange eaux usées"
     ],
-    "price": "Non confirmé",
-    "status": "Aire de service référencée par Tourisme Lot-et-Garonne, avec une borne et 1 emplacement. Aucun tarif publié ; stationnement de nuit non confirmé.",
+    "price": "Aucun tarif de service publié par l'office de tourisme; stationnement de nuit non confirmé. Services décrits : eau, électricité et vidange.",
+    "status": "Aire de services référencée par Tourisme Lot-et-Garonne : borne eau/électricité/vidange. Pas de prix publié; ne pas présenter comme lieu de nuitée.",
     "source": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-service-super-u/",
     "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-service-super-u/",
     "latitude": 44.1704156,
     "longitude": 0.2965277,
     "gpsSource": "https://www.cirkwi.com/fr/point-interet/1329832-aire-de-service-super-u",
     "sourceId": "tourinsoft/lavardac-super-u",
-    "capacity": 1
+    "capacity": 1,
+    "priceNote": "Tourisme Lot-et-Garonne décrit les services d'eau, électricité et vidange, sans publier de prix ni confirmer le stationnement nocturne. Document d'urbanisme consulté la classe comme aire de services non adaptée au stationnement de longue durée.",
+    "priceSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-service-super-u/",
+    "official": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-service-super-u/",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21"
   }
 ]
