@@ -1,0 +1,141 @@
+{
+  "scope": "Haute-Marne (52), vérification groupée des tarifs 2027",
+  "startedAt": "2026-11-21",
+  "displayedCount": 16,
+  "rawRegionalRows": 16,
+  "deduplicatedRows": 0,
+  "currentLot": 395,
+  "progress": {
+    "checked": 10,
+    "total": 16
+  },
+  "note": "Lot 395 : fiches 1 à 10 de la Haute-Marne contrôlées ensemble. Juzennecourt : stationnement nocturne et services confirmés, prix non municipalement publié; gratuité par annuaire tiers à confirmer. CCP Châteauvillain : base 11,66 € + taxe 1,10 €, total 12,76 €/24 h jusqu'au 31/12/2027. CCP Le Montsaugeonnais : base 13 € + taxe 1,32 €, total 14,32 €/24 h en 2027. CCP Viéville : base 10,60 €/24 h jusqu'au 31/12/2027, taxe 2027 non publiée; vidange à Froncles sans supplément. Chaumont Port de la Maladière : barème touristique saison 2026 (8,60 € forfait 24 h + 0,22 € taxe; eau 6,20 €, vidange 0,55 €), renouvellement 2027 à confirmer et ne pas confondre avec le CCP Chaumont, adresse distincte. Goncourt : don facultatif pour stationnement, services dès 3 €, fiche 2026; 2027 non confirmé. Grand Langres : 29 places et 72 h; nouveau concessionnaire Aireservices à partir de la concession attribuée en septembre 2026, tarifs actuels non publiés dans la page officielle. Joinville : eau 2 €/10 min, électricité 2 €/55 min, vidange gratuite selon fiche 2026; nuitée non tarifée. CCP Bourbonne-les-Bains : base 12,73 € + taxe 1,10 €, total 13,83 €/24 h jusqu'au 31/12/2027. Montier-en-Der : borne à jetons confirmée, montant actuel introuvable dans les sources consultées; ancien guide non suffisant. Aucun lieu ajouté. 10/16 fiches vérifiées.",
+  "entries": [
+    {
+      "sourceId": "node/11841734864",
+      "name": "Aire de camping-cars de Juzennecourt",
+      "status": "nuit_possible_4_places_tarif_non_publie_gratuite_annuaire_a_confirmer_2027",
+      "finding": "Haute-Marne Attractivité et la fiche mise à jour en avril 2026 décrivent un stationnement nocturne place de la Mairie, quatre places et les services eau/électricité/vidanges. Un annuaire tiers présente l'aire gratuite, mais aucune grille municipale tarifée et datée 2027 n'a été trouvée; l'ancienne période de fonctionnement 2025 n'établit pas l'ouverture 2027.",
+      "nextCheck": "Garder le tarif comme non publié (ou gratuité attribuée explicitement à la source tierce); confirmer auprès de la mairie l'accès et les tarifs 2027.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/3583730-aire-de-camping-cars-de-juzennecourt",
+        "https://www.bienvenue-hautemarne.fr/sit/juzennecourt-aire-de-camping-cars-de-juzennecourt-acccha052v5007st/",
+        "https://spot2play.com/spot/aire-de-camping-cars-de-juzennecourt/"
+      ],
+      "lot": 395,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/12085223775",
+      "name": "Camping-Car Park Châteauvillain",
+      "status": "tarif_2027_confirme_base_11_66_tax_1_10_total_12_76",
+      "finding": "La grille CCP affiche 11,66 €/24 h de base du 18/11/2026 au 31/12/2027 et une taxe de séjour de 1,10 €/24 h jusqu'au 31/12/2027, soit 12,76 €/24 h. Le forfait parking 5 h + services à 6 € est distinct.",
+      "nextCheck": "Afficher 12,76 €/24 h avec sa ventilation; garder séparé le forfait 5 h + services.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haute-marne/chateauvillain"
+      ],
+      "lot": 395,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/14276648146",
+      "name": "Aire de camping-car de Le Montsaugeonnais",
+      "status": "tarif_2027_confirme_base_13_tax_1_32_total_14_32",
+      "finding": "La grille CCP affiche 13 €/24 h de base pour la période allant jusqu'au 31/12/2027 et une taxe de séjour de 1,32 €/24 h sur toute l'année 2027, soit 14,32 €/24 h. Le forfait parking 5 h + services à 6 € est distinct.",
+      "nextCheck": "Afficher 14,32 €/24 h avec base et taxe séparées; conserver le forfait 5 h + services à part.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haute-marne/le-montsaugeonnais"
+      ],
+      "lot": 395,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "node/14282020085",
+      "name": "Aire de camping-car de Viéville",
+      "status": "base_2027_10_60_tax_2027_non_publiee_total_non_confirme",
+      "finding": "La grille CCP donne une base de 10,60 €/24 h du 31/10/2026 au 31/12/2027. La taxe de séjour affichée à 0,88 € ne couvre que jusqu'au 31/12/2026; le total 2027 reste à confirmer. L'exploitant précise que la vidange est à réaliser sur l'aire de Froncles, sans supplément tarifaire. Le forfait 5 h + services à 6 € est distinct.",
+      "nextCheck": "Garder la base à 10,60 € et marquer la taxe 2027 comme non publiée; noter la vidange à Froncles et séparer le forfait 5 h.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haute-marne/vieville?areaType=aire-etape-camping-car"
+      ],
+      "lot": 395,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/234745696",
+      "name": "Aire de camping-cars de Chaumont — Port de la Maladière",
+      "status": "tarifs_tourisme_2026_8_60_tax_0_22_2027_non_confirme_ne_pas_confondre_ccp",
+      "finding": "La fiche de Haute-Marne Attractivité affiche pour la saison 2026 un forfait 24 h à 8,60 € (stationnement + 10 min d'eau + électricité), eau seule 6,20 €, vidange eaux usées 0,55 € et taxe de séjour 0,22 €. Ces montants ne sont pas datés 2027. À ne pas confondre avec l'aire CCP de Chaumont, au 110 rue des Tanneries, qui est un site distinct.",
+      "nextCheck": "Garder le barème comme tarif publié pour 2026 seulement et confirmer le renouvellement 2027; maintenir l'avertissement de distinction entre les deux aires de Chaumont.",
+      "sources": [
+        "https://www.bienvenue-hautemarne.fr/sit/chaumont-aire-de-camping-cars-de-chaumont-acccha052v5007jd/",
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haute-marne/chaumont"
+      ],
+      "lot": 395,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/506723425",
+      "name": "Aire de camping-cars de Goncourt",
+      "status": "don_facultatif_stationnement_services_a_partir_3_euros_tarifs_2026_non_2027",
+      "finding": "La fiche touristique 2026 indique stationnement seul contre don facultatif, services à partir de 3 € et durée maximale de 48 h. Une source de tarifs 2024 confirme 3 € pour les services. Aucun barème 2027 n'est publié.",
+      "nextCheck": "Présenter séparément le don de stationnement facultatif et les services payants; confirmer l'état du monnayeur et les tarifs 2027 avec la mairie.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/3583728-aire-de-camping-cars-de-goncourt",
+        "https://www.camping-car.com/aires/15602-aire-communale/"
+      ],
+      "lot": 395,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/620396155",
+      "name": "Aire camping-car du Grand Langres",
+      "status": "tarif_non_confirme_nouvelle_concessionnaire_depuis_2026",
+      "finding": "La CCG Grand Langres confirme 29 places, services, accès 24 h/24 et durée maximale 72 h, mais ne publie pas les tarifs sur sa page. Une concession 2026-2036 a été attribuée en septembre 2026 à la SARL Aireservices; les anciens tarifs ou montants trouvés dans des annuaires ne suffisent pas à confirmer le tarif actuel/2027.",
+      "nextCheck": "Demander le tarif en vigueur au nouveau gestionnaire ou à la CCG Grand Langres avant de publier un montant; actualiser aussi la mention de gestion.",
+      "sources": [
+        "https://grand-langres.fr/infos-pratiques/transport/aire-de-camping-car-et-gens-du-voyage/",
+        "https://www.francemarches.com/files/BOAMP/26-95806.html"
+      ],
+      "lot": 395,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/849830283",
+      "name": "Aire pour camping-cars Joinville — rue des Jardins",
+      "status": "services_eau_2_euros_10min_electricite_2_euros_55min_vidange_gratuite_nuitee_non_tarifee",
+      "finding": "La fiche touristique départementale mise à jour le 30/06/2026 indique eau à 2 € les 10 min, électricité à 2 € les 55 min, vidange gratuite. Elle ne précise pas de tarif de stationnement/nuitée ni de barème 2027.",
+      "nextCheck": "Garder les trois services séparés et confirmer leur maintien en 2027; ne pas inventer de tarif de nuitée.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/3583729-aire-de-camping-cars-de-joinville"
+      ],
+      "lot": 395,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/864616253",
+      "name": "Aire de camping-car de Bourbonne-les-Bains",
+      "status": "tarif_2027_confirme_base_12_73_tax_1_10_total_13_83",
+      "finding": "La grille CCP affiche 12,73 €/24 h de base du 17/11/2026 au 31/12/2027 et une taxe de séjour de 1,10 €/24 h jusqu'au 31/12/2027, soit 13,83 €/24 h. Parking 5 h + services à 6 € distinct.",
+      "nextCheck": "Afficher le total 13,83 €/24 h avec la ventilation et garder le forfait 5 h + services à part.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haute-marne/bourbonne-les-bains"
+      ],
+      "lot": 395,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1231238311",
+      "name": "Aire de stationnement de Montier-en-Der",
+      "status": "borne_a_jetons_tarif_non_publie_guide_ancien",
+      "finding": "Un guide touristique ancien confirme une borne Aire Services au 18 rue de l'Isle, avec jeton disponible à l'office de tourisme. Une fiche de 2026 confirme une borne ouverte toute l'année et dix places réservées, mais aucun montant de jeton ou tarif de stationnement/nuitée n'a été retrouvé. La source de prix la plus précise reste ancienne.",
+      "nextCheck": "Ne pas afficher de prix chiffré; demander au bureau d'information touristique le tarif du jeton, le fonctionnement actuel de la borne et les règles de nuitée.",
+      "sources": [
+        "https://www.photo-montier.org/wp-content/uploads/2017/08/Guide-h%C3%A9bergement-office-de-tourisme-Saint-Dizier-Der-et-Blaise.pdf",
+        "https://www.camping-car.com/aires/20736-aire-communale/"
+      ],
+      "lot": 395,
+      "checkedAt": "2026-11-21"
+    }
+  ]
+}
