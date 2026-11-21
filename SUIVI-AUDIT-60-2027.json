@@ -4,12 +4,12 @@
   "displayedCount": 22,
   "rawRegionalRows": 22,
   "deduplicatedRows": 0,
-  "currentLot": 419,
+  "currentLot": 420,
   "progress": {
-    "checked": 20,
+    "checked": 22,
     "total": 22
   },
-  "note": "Lot 419 : fiches 11 à 20 contrôlées. Vingt fiches vérifiées sur 22; deux fiches restent à vérifier. Seul le tarif CAMPING-CAR PARK de Formerie est explicitement daté jusqu’au 31/12/2027. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
+  "note": "Lot 420 : fiches 21 à 22 contrôlées. Les 22 fiches de l’Oise ont été examinées. Un seul tarif de nuitée est explicitement confirmé pour 2027 (Formerie : 13,75 €/24 h taxe comprise); les autres tarifs ou gratuités publiés restent sans validité 2027 explicite. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
   "entries": [
     {
       "sourceId": "node/8612245422",
@@ -222,6 +222,28 @@
       "sources": [
         "https://www.visitbeauvais.fr/fiche/flower-camping-de-la-trye/",
         "https://www.oisetourisme.com/hebergement/flower-camping-de-la-trye/"
+      ]
+    },
+    {
+      "place": "Bailleul-sur-Thérain — borne de services rue Voltaire",
+      "lot": 420,
+      "checkedAt": "2026-11-21",
+      "status": "Oise Tourisme confirme eau et évacuations eaux grises/noires au parking de covoiturage rue Voltaire. Parking signalé gratuit; aucun prix de l’eau ou des services n’est donné et aucune validité 2027 n’est publiée. Borne distincte de l’aire de nuit de L’Alouette.",
+      "nextCheck": "Demander à la commune si l’eau est payante et à quel tarif en 2027; garder cette borne séparée de L’Alouette.",
+      "sources": [
+        "https://www.oisetourisme.com/hebergement/aire-de-services-pour-camping-cars-de-bailleul-sur-therain/"
+      ]
+    },
+    {
+      "place": "Songeons — aire de camping-cars du camping Les Mésanges",
+      "lot": 420,
+      "checkedAt": "2026-11-21",
+      "status": "Oise Tourisme décrit 6 emplacements stabilisés avec eau, électricité, vidanges et parking gardé. La liste départementale affiche « à partir de 5 € », sans détail du forfait, ni période de validité; aucun prix 2027 confirmé.",
+      "nextCheck": "Confirmer le forfait exact auprès du camping et demander sa grille 2027; ne pas confondre avec l’aire municipale gratuite rue des Sorbiers.",
+      "sources": [
+        "https://www.oisetourisme.com/hebergement/aire-de-camping-cars-du-camping-les-mesanges-de-songeons/",
+        "https://www.oisetourisme.com/sejourner/ou-dormir/aires-de-camping-car/",
+        "https://gerberoy-picardieverte.com/e-torismes/aire-de-camping-cars-du-camping-les-mesanges-de-songeons/"
       ]
     }
   ]
