@@ -1,7 +1,7 @@
 {
   "scope": "Lot (46), contrôle groupé de tarifs 2027 sur fiches existantes",
   "startedAt": "2026-11-21",
-  "note": "Le fichier public aires-lot.json contient 32 fiches. Lot 369 : contrôle des fiches 1–10, aucune fiche ajoutée.",
+  "note": "Le fichier public aires-lot.json contient 32 fiches. Lot 369 : contrôle des fiches 1–10, aucune fiche ajoutée. Lot 370 contrôlé le 21/11/2026 sur les fiches 11–20 de 32, sans ajout. Tarif 2027 complet confirmé à Catus : 13,50 €/24 h + taxe 1,44 € = 14,94 €/24 h. Autres grilles de nuitée ou service datées 2026 / sans millésime 2027; Cajarc conserve un écart entre l'exploitant (9 €) et Figeac Tourisme (7 €). Deux points de Padirac séparés : l'un OSM non vérifié; l'autre parking visiteurs du Gouffre, sans autorisation camping-car/nuitée publiée.",
   "entries": [
     {
       "sourceId": "node/7404846985",
@@ -124,6 +124,127 @@
         "https://www.autoire.fr/compte-rendu-du-cm/5-decembre-2023.pdf"
       ],
       "lot": 369,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/618744671",
+      "name": "Aire des Berges du Lot – Saint-Cirq-Lapopie",
+      "status": "tarif_2026_2027_non_publie",
+      "finding": "Lot 370 : grille 2026 : emplacement dès 14 €/nuit, eau 2 €/100 L, électricité 2 €/h, vidange gratuite, max. 2 nuits. Pas de grille 2027.",
+      "nextCheck": "Reprendre quand la grille 2027 sera publiée; respecter le plafond de deux nuits.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-communale-de-camping-cars-des-berges-du-lot-saint-cirq-lapopie-fr-659462/"
+      ],
+      "lot": 370,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/902206522",
+      "name": "Aire de Cazals – Plan d'eau La Cayre",
+      "status": "gratuit_2026_2027_non_millésimé",
+      "finding": "Lot 370 : gratuit en 2026, sans électricité; eau coupée en hiver jusqu'au 15 mars. Pas de tarif 2027 spécifique.",
+      "nextCheck": "Surveiller toute grille 2027; conserver la coupure hivernale de l'eau.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-de-service-et-detape-de-cazals-cazals-fr-659265/"
+      ],
+      "lot": 370,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/902214452",
+      "name": "Aire de Gramat",
+      "status": "gratuit_2026_2027_non_millésimé",
+      "finding": "Lot 370 : gratuite selon la fiche 2026; capacité, durée et prix 2027 non publiés.",
+      "nextCheck": "Surveiller une mise à jour municipale ou de Tourisme Lot.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-daccueil-et-de-services-de-gramat-gramat-fr-659441/"
+      ],
+      "lot": 370,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/902220154",
+      "name": "Point camping-car OSM – Padirac",
+      "status": "point_non_confirme",
+      "finding": "Lot 370 : les sources officielles ne reconnaissent pas ce point comme aire camping-car et ne confirment ni tarif ni nuitée. Distinct du parking touristique du Gouffre, à environ 1 km.",
+      "nextCheck": "Demander à la mairie si ce point correspond à un emplacement autorisé; ne pas le confondre avec P1/P2.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-du-gouffre-de-padirac-parking-padirac-fr-3485873/"
+      ],
+      "lot": 370,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/902260323",
+      "name": "Aire communale d'Arcambal",
+      "status": "gratuit_2026_borne_a_revalider_2027",
+      "finding": "Lot 370 : gratuite selon le tarif 2026. Tourisme Lot signale la borne hors service en 2025, sans état actuel confirmé.",
+      "nextCheck": "Vérifier fonctionnement de la borne et tarification applicable avant publication/visite.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-communale-de-service-et-accueil-arcambal-fr-659409/"
+      ],
+      "lot": 370,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/902271422",
+      "name": "CAMPING-CAR PARK – Catus, Le Lac Vert",
+      "status": "tarif_2027_confirme",
+      "finding": "Lot 370 : base 13,50 €/24 h + taxe 1,44 €/24 h = 14,94 €/24 h jusqu'au 31/12/2027. Parking 5 h + services : 6 € séparément.",
+      "nextCheck": "Conserver base, taxe et forfait 5 h distincts.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/lot/catus"
+      ],
+      "lot": 370,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/902273419",
+      "name": "Aire de Salviac – Plaine des Jeux",
+      "status": "tarif_services_2026_2027_non_millésimé",
+      "finding": "Lot 370 : stationnement gratuit; jetons à 2 € pour 100 L d'eau ou 1 h d'électricité selon Tourisme Lot. Tarifs de la fiche 2026, non remillésimés 2027.",
+      "nextCheck": "Garder le prix de jeton séparé du stationnement; vérifier toute grille 2027.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-de-service-et-detape-de-salviac-salviac-fr-875449/"
+      ],
+      "lot": 370,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/979542537",
+      "name": "Aire de Carennac – Parking P3",
+      "status": "tarif_2026_nuitée_non_publiée_2027",
+      "finding": "Lot 370 : tarif journée dès 3 €, eau et électricité dès 6 € chacune en 2026. Prix du forfait journée+nuit avec services absent; grille 2027 non publiée.",
+      "nextCheck": "Confirmer à la mairie le forfait nuitée et les tarifs 2027; aire annoncée ouverte mars–novembre.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-de-stationnement-et-de-services-de-carennac-carennac-fr-1248190/"
+      ],
+      "lot": 370,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1090408763",
+      "name": "Aire de camping-cars Onlycamp Le Terriol – Cajarc",
+      "status": "tarif_2026_divergent_2027_non_publie",
+      "finding": "Lot 370 : Onlycamp affiche 9 €/24 h sur saison 2026, taxe comprise, gratuit hors saison sans services; Figeac Tourisme affiche 7 €/24 h. Aucune grille 2027 trouvée.",
+      "nextCheck": "Faire clarifier la divergence et vérifier l'ouverture 2027 auprès d'Onlycamp.",
+      "sources": [
+        "https://www.onlypark.fr/aire-de-cajarc/",
+        "https://www.tourisme-figeac.com/offres/aire-daccueil-et-de-services-de-cajarc-cajarc-fr-3956450/"
+      ],
+      "lot": 370,
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "sourceId": "way/1233670562",
+      "name": "Parking visiteurs du Gouffre de Padirac",
+      "status": "parking_touristique_tarif_cc_et_nuitée_non_publies",
+      "finding": "Lot 370 : Tourisme Lot décrit l'aire de pique-nique et les parkings visiteurs P1/P2; aucun tarif camping-car, service ou droit de nuitée n'y est indiqué.",
+      "nextCheck": "Garder la fiche comme parking touristique à vérifier, distincte du point OSM camping-car non établi.",
+      "sources": [
+        "https://www.tourisme-lot.com/offres/aire-du-gouffre-de-padirac-parking-padirac-fr-3485873/"
+      ],
+      "lot": 370,
       "checkedAt": "2026-11-21"
     }
   ]
