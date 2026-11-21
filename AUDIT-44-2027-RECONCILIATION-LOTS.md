@@ -80,3 +80,9 @@ Le prix opérateur du Soleya est désormais confirmé pour 2027 : 12,22 €/24 h
 Dix fiches existantes ont été contrôlées ensemble : Le Mindin, Le Véridet, le Pont de Clin, l’ANAS aux Moutiers-en-Retz, l’aire du Port à La Haie-Fouassière, le parking de la Nouvelle Imprimerie, les services Hyper U La Colleraye, Choisel, le Musée du Vignoble Nantais et Port Mulon.
 
 Aucun tarif complet de nuitée 2027 n’a été confirmé. Les montants disponibles concernent des grilles 2026, des services (jetons, eau, vidange), ou des prix parking sans confirmation officielle 2027; ils restent séparés. Les conditions de nuitée non publiées demeurent à vérifier. Détails et sources dans AUDIT-44-2027-LOT356.md. Aucun lieu ni tarif public n’a été ajouté ou modifié et aucun contact n’a été envoyé.
+
+## Addendum — 21 novembre 2026 : lot 357
+
+Dix fiches existantes ont été contrôlées ensemble : l’aire du Stade à Donges, l’allée du Brivet à Pontchâteau, Fédrun, le Domaine du Grand Poirier, le parking du centre des Pins à Saint-Brevin, CAMPING-CAR PARK Bouaye, Le Ranch, le Vieux Château, l’Étang du Pays Blanc et Le Petit Bois.
+
+Le tarif opérateur de Bouaye est confirmé du 01/01 au 31/12/2027 : 13,74 €/24 h + taxe 1,32 €/24 h = 15,06 €/24 h; la fiche publique a été mise à jour et le forfait 5 h demeure distinct. Pour les neuf autres fiches, les montants publiés restent datés 2026, conditionnels, à carte ou séjour, non millésimés, ou la disponibilité/règle de nuitée demeure à vérifier. Aucun autre tarif de nuitée 2027 n’a été ajouté. Détails : AUDIT-44-2027-LOT357.md. Aucun contact n’a été envoyé.
