@@ -10,7 +10,7 @@
       "Vidange eaux usées",
       "Sanitaires"
     ],
-    "price": "Non confirmé",
+    "price": "Tarif de stationnement au port non confirmé par une source officielle actuelle. Une fiche secondaire mentionne 7,40 € / 24 h mais signale aussi une suppression de l'aire de services en novembre 2025; ne pas reprendre ce montant sans vérification locale.",
     "status": "Aire mentionnée dans un document d’urbanisme avec 6 places et services ; fonctionnement actuel et tarif à confirmer.",
     "source": "https://www.openstreetmap.org/node/4215434488",
     "latitude": 44.2562344,
@@ -22,7 +22,12 @@
     "sourceId": "node/4215434488",
     "servicesSource": "https://www.openstreetmap.org/node/4215434488",
     "verificationSource": "https://www.tourisme-lotetgaronne.com/loisirs/port-de-buzet-sur-baise/",
-    "capacity": 6
+    "capacity": 6,
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "Le site officiel du tourisme décrit le port, mais aucun tarif camping-car actuel n'a été retrouvé. La source secondaire I-CampingCar affiche 7,40 €/24 h et indique une suppression de l'aire de services en novembre 2025; fonctionnement et tarif actuels à confirmer auprès du port/mairie.",
+    "priceSource": "https://www.tourisme-lotetgaronne.com/loisirs/port-de-buzet-sur-baise/",
+    "official": "https://www.tourisme-lotetgaronne.com/loisirs/port-de-buzet-sur-baise/"
   },
   {
     "department": "47",
@@ -35,8 +40,8 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "Non confirmé",
-    "status": "Camping-Car Park annoncé « à venir » ; le tarif affiché à 0 € est un placeholder, pas un tarif confirmé. L’office de tourisme décrit l’aire municipale existante comme gratuite avec eau et vidange.",
+    "price": "Point CCP de Casseneuil affiché « à venir »; le montant 1,60 € / 24 h visible dans des listes indexées est un placeholder, pas un tarif publié confirmé. L'office de tourisme décrit l'aire municipale existante du même secteur comme gratuite, avec eau et vidange. Confirmer le statut du site CCP avant d'afficher un prix.",
+    "status": "Point CCP à venir au même secteur que l'aire municipale existante gratuite; vérifier s'il s'agit d'une reprise ou d'un site distinct. Prix CCP non publié confirmé.",
     "source": "https://www.openstreetmap.org/node/7390070598",
     "latitude": 44.4465417,
     "longitude": 0.6186461,
@@ -46,7 +51,12 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/7390070598",
     "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/casseneuil",
-    "capacity": 12
+    "capacity": 12,
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "La page CCP classe le point comme à venir; l'office de tourisme décrit l'aire municipale existante à Remparts Montfort comme gratuite. Les coordonnées sont très proches. Distinguer l'aire municipale actuellement décrite de la future fiche CCP; le 1,60 € affiché par un résultat CCP en langue anglaise n'est pas traité comme un tarif.",
+    "priceSource": "https://tourisme.valleedulotetgaronne.com/offres/aire-de-camping-cars-de-casseneuil-casseneuil-fr-4840492/",
+    "official": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/lot-et-garonne/casseneuil"
   },
   {
     "department": "47",
@@ -56,8 +66,8 @@
     "services": [
       "Eau potable"
     ],
-    "price": "Gratuit",
-    "status": "Vérifié par l’office de tourisme : 10 emplacements, ouvert toute l’année, stationnement gratuit et durée illimitée.",
+    "price": "Stationnement annoncé gratuit toute l'année; tarif sans millésime 2027 explicite.",
+    "status": "Vérifié par la mairie et l’office de tourisme : 10 emplacements, ouvert toute l’année, stationnement gratuit et durée illimitée.",
     "source": "https://www.openstreetmap.org/way/180985129",
     "latitude": 44.1980868,
     "longitude": 0.3232028,
@@ -69,7 +79,12 @@
     "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-vianne/",
     "capacity": 10,
     "opening": "Toute l’année",
-    "parkingLimit": "Illimité"
+    "parkingLimit": "Illimité",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "La municipalité et l'office de tourisme indiquent la gratuité; aucun tarif 2027 distinct publié.",
+    "priceSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-vianne/",
+    "official": "https://www.vianne.fr/page/campingcar"
   },
   {
     "department": "47",
@@ -77,7 +92,7 @@
     "city": "Le Mas-d’Agenais",
     "type": "Aire de stationnement pour camping-cars",
     "services": [],
-    "price": "Gratuit",
+    "price": "Stationnement annoncé gratuit toute l'année; tarif sans millésime 2027 explicite. Ne pas confondre avec les services payants de la halte nautique voisine.",
     "status": "Vérifié par l’office de tourisme : 8 emplacements, ouvert toute l’année. À distinguer de la halte nautique voisine, dont les services sont payants.",
     "source": "https://www.openstreetmap.org/way/452415922",
     "latitude": 44.4064138,
@@ -89,7 +104,12 @@
     "sourceId": "way/452415922",
     "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-stationnement-du-mas-d-agenais/",
     "capacity": 8,
-    "opening": "Toute l’année"
+    "opening": "Toute l’année",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "L'office de tourisme confirme 8 places, ouverture toute l'année et stationnement gratuit. Les jetons/services relèvent de la halte nautique voisine.",
+    "priceSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-stationnement-du-mas-d-agenais/",
+    "official": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-stationnement-du-mas-d-agenais/"
   },
   {
     "department": "47",
@@ -102,8 +122,8 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "Non confirmé",
-    "status": "12 emplacements, accueil toute l’année, maximum 14 nuitées sur 30 jours. Le tarif officiel publié couvre seulement les périodes du 16/10/2025 au 15/10/2026 ; tarif en vigueur après cette date à confirmer.",
+    "price": "Dernière grille officielle retrouvée : 5,00 € / nuit en période estivale (16/04–15/10/2026), 7,50 € / nuit en période hivernale (16/10/2025–15/04/2026), plus taxe de séjour 0,67 € / personne / jour. Aucun tarif publié pour la période postérieure au 15/10/2026 ni pour 2027.",
+    "status": "12 emplacements, accueil toute l’année, maximum 14 nuitées sur 30 jours. Dernière grille retrouvée couvre 16/10/2025–15/10/2026; tarif après cette date à confirmer.",
     "source": "https://www.openstreetmap.org/way/503033998",
     "latitude": 44.6034714,
     "longitude": 0.3621203,
@@ -117,7 +137,12 @@
     "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-miramont-de-guyenne/",
     "capacity": 12,
     "opening": "Toute l’année",
-    "parkingLimit": "14 nuitées par période de 30 jours"
+    "parkingLimit": "14 nuitées par période de 30 jours",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "Grille du Pays de Lauzun/Tourisme Lot-et-Garonne datée par ses périodes 2025–2026; elle ne couvre pas l'hiver 2026–2027 ni 2027. Taxe de séjour par personne, distincte du prix de nuitée.",
+    "priceSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-miramont-de-guyenne/",
+    "official": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-miramont-de-guyenne/"
   },
   {
     "department": "47",
@@ -125,8 +150,8 @@
     "city": "Marmande",
     "type": "Aire communale de camping-car",
     "services": [],
-    "price": "10,45 €/nuit + taxe de séjour 0,72 €/personne",
-    "status": "Tarif publié par l’office de tourisme pour l’aire de la Filhole ; ouverture annoncée à partir du 6 juillet 2026, maximum 7 jours.",
+    "price": "Tarif publié pour 2026 : 10,45 € / nuit + taxe de séjour 0,72 € / personne. Ouverture annoncée du 06/07 au 31/12/2026; tarif et dates d'ouverture 2027 non publiés.",
+    "status": "Tarif publié par l’office de tourisme pour l’aire de la Filhole; ouverture du 6 juillet au 31 décembre 2026, maximum 7 jours. Aucun tarif 2027 trouvé.",
     "source": "https://www.openstreetmap.org/way/739755094",
     "latitude": 44.4949974,
     "longitude": 0.162854,
@@ -140,7 +165,12 @@
     "capacity": 60,
     "opening": "À partir du 6 juillet 2026",
     "parkingLimit": "7 jours",
-    "priceDetail": "Stationnement : 10,45 €/nuit ; taxe de séjour : 0,72 €/personne."
+    "priceDetail": "Stationnement : 10,45 €/nuit ; taxe de séjour : 0,72 €/personne.",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "Office de tourisme Val de Garonne indique 10,45 €/nuit et 0,72 €/personne, avec ouverture à partir du 06/07/2026 et dates affichées jusqu'au 31/12/2026. Ne pas prolonger automatiquement à 2027.",
+    "priceSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-la-filhole-a-marmande/",
+    "official": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-la-filhole-a-marmande/"
   },
   {
     "department": "47",
@@ -152,8 +182,8 @@
       "Vidange eaux usées",
       "Électricité (borne actuellement hors service)"
     ],
-    "price": "Non confirmé",
-    "status": "7 emplacements à la place Pisseraule ; nuitées limitées à 7. La borne électrique est actuellement hors service ; l’office de tourisme ne publie pas de tarif.",
+    "price": "Tarif de stationnement non publié dans la fiche officielle consultée. Borne électrique à jetons actuellement hors service; aucun montant de jeton ou tarif de nuitée confirmé.",
+    "status": "7 emplacements à la place Pisseraule; nuitées limitées à 7. Borne électrique hors service; tarif de stationnement non publié officiellement.",
     "source": "https://www.openstreetmap.org/way/899170111",
     "latitude": 44.3839435,
     "longitude": 0.316994,
@@ -165,7 +195,12 @@
     "servicesSource": "https://www.openstreetmap.org/way/899170111",
     "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-tonneins/",
     "capacity": 7,
-    "parkingLimit": "7 nuits"
+    "parkingLimit": "7 nuits",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "L'office de tourisme confirme 7 emplacements, limite de 7 nuits et borne électrique hors service, sans montant de stationnement publié. Une source secondaire affiche la gratuité, non confirmée par la fiche officielle.",
+    "priceSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-tonneins/",
+    "official": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-car-de-tonneins/"
   },
   {
     "department": "47",
@@ -177,8 +212,8 @@
       "Vidange eaux usées",
       "Vidange toilettes chimiques"
     ],
-    "price": "Gratuit",
-    "status": "Aire communale de 4 places, ouverte toute l’année ; eau, vidanges eaux usées et toilettes chimiques. Alimentation en eau susceptible d’être coupée en période de gel.",
+    "price": "Stationnement indiqué gratuit, mais aucun tarif 2027 daté ni confirmation officielle récente retrouvée lors de ce contrôle.",
+    "status": "Aire communale de 4 places, ouverture indiquée toute l’année; gratuité et services à revalider auprès de la commune; eau susceptible d’être coupée en période de gel.",
     "source": "https://www.openstreetmap.org/way/899178320",
     "latitude": 44.4284531,
     "longitude": 0.3546106,
@@ -190,7 +225,10 @@
     "servicesSource": "https://www.openstreetmap.org/way/899178320",
     "verificationSource": "https://www.valdegaronne-tourisme.com/camping-car/",
     "capacity": 4,
-    "opening": "Toute l’année"
+    "opening": "Toute l’année",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "Gratuité inscrite dans la fiche existante; recherche actuelle n'a pas permis de la rattacher à une publication municipale ou touristique tarifaire récente. Garder comme donnée non millésimée et à revalider."
   },
   {
     "department": "47",
@@ -201,8 +239,8 @@
       "Eau potable (jetons)",
       "Électricité (jetons)"
     ],
-    "price": "Stationnement : non confirmé",
-    "status": "Halte nautique ouverte du 1er avril au 31 octobre 2026. Services à jetons ; l’eau coûte 2 € les 15 min et l’électricité 2 € les 4 h. Aucun tarif de stationnement n’est publié.",
+    "price": "Stationnement de nuit : tarif non publié. Services 2026 à jetons : eau 2 € / 15 min, électricité 2 € / 4 h. Halte ouverte du 01/04 au 31/10/2026; grille 2027 non publiée.",
+    "status": "Halte nautique saisonnière 2026 (01/04–31/10); eau 2 €/15 min et électricité 2 €/4 h, sans tarif de stationnement publié.",
     "source": "https://www.openstreetmap.org/way/899187953",
     "latitude": 44.4419684,
     "longitude": 0.1772319,
@@ -214,7 +252,12 @@
     "servicesSource": "https://www.openstreetmap.org/way/899187953",
     "verificationSource": "https://www.tourisme-lotetgaronne.com/loisirs/halte-nautique-de-caumont-sur-garonne/",
     "priceDetail": "Eau : 2 €/15 min ; électricité : 2 €/4 h, par jetons.",
-    "opening": "1er avril au 31 octobre 2026"
+    "opening": "1er avril au 31 octobre 2026",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "Tourisme Lot-et-Garonne confirme les jetons et montants eau/électricité, ainsi que l'ouverture saisonnière 2026. Aucun tarif de stationnement ni grille 2027 publié.",
+    "priceSource": "https://www.tourisme-lotetgaronne.com/loisirs/halte-nautique-de-caumont-sur-garonne/",
+    "official": "https://www.tourisme-lotetgaronne.com/loisirs/halte-nautique-de-caumont-sur-garonne/"
   },
   {
     "department": "47",
@@ -222,7 +265,7 @@
     "city": "Casteljaloux",
     "type": "Aire communale de camping-car",
     "services": [],
-    "price": "Gratuit",
+    "price": "Stationnement gratuit, 4 emplacements, durée maximale 48 h selon l'office de tourisme. Tarif sans millésime 2027 explicite.",
     "status": "Vérifié par la mairie et l’office de tourisme : 4 emplacements gratuits, aire ouverte toute l’année, durée maximale 48 h.",
     "source": "https://www.openstreetmap.org/way/899390659",
     "latitude": 44.3107666,
@@ -235,7 +278,12 @@
     "verificationSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-cars-de-casteljaloux/",
     "capacity": 4,
     "opening": "Toute l’année",
-    "parkingLimit": "48 h"
+    "parkingLimit": "48 h",
+    "priceVerifiedOn": "2026-11-21",
+    "priceCheckedAt": "2026-11-21",
+    "priceNote": "Tourisme Lot-et-Garonne indique gratuité, ouverture toute l'année et durée maximale de 48 h. Aucun arrêté tarifaire distinct pour 2027 retrouvé.",
+    "priceSource": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-cars-de-casteljaloux/",
+    "official": "https://www.tourisme-lotetgaronne.com/aires-de-camping-car/aire-de-camping-cars-de-casteljaloux/"
   },
   {
     "department": "47",
