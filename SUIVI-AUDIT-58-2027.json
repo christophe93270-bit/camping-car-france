@@ -4,12 +4,12 @@
   "displayedCount": 19,
   "rawRegionalRows": 19,
   "deduplicatedRows": 0,
-  "currentLot": 414,
+  "currentLot": 415,
   "progress": {
-    "checked": 10,
+    "checked": 19,
     "total": 19
   },
-  "note": "Lot 414 : fiches 1 à 10 contrôlées sur 19. Neuf fiches restent à vérifier : fiches 11 à 19. Aucun ajout de lieu ni aucune modification des données applicatives.",
+  "note": "Lot 414 : fiches 1 à 10 contrôlées; lot 415 : fiches 11 à 19 contrôlées. Les 19 fiches de la Nièvre ont été vérifiées. Les tarifs dépourvus de validité 2027 explicite restent à confirmer. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
   "entries": [
     {
       "sourceId": "node/12012374502",
@@ -72,11 +72,10 @@
       "place": "Châtillon-en-Bazois — rue du Canal / port",
       "lot": 414,
       "checkedAt": "2026-11-21",
-      "status": "Sources touristiques: eau et vidange; la gratuité rapportée n’est pas datée 2027. Capacité variable selon les sources.",
-      "nextCheck": "Confirmer tarif, capacité et fonctionnement de la borne avec la commune ou l’office.",
+      "status": "Rives du Morvan Tourisme: stationnement et services gratuits, 2 places, eau, vidange et électricité; la validité des tarifs et conditions en 2027 n’est pas explicitement datée.",
+      "nextCheck": "Confirmer la reconduction 2027 et le fonctionnement des services auprès de la commune.",
       "sources": [
-        "https://www.rivesdumorvan.fr/offres/aires-de-camping-cars/aire-de-service-pour-camping-car/",
-        "https://www.cirkwi.com/fr/point-interet/2996369-aire-de-service-pour-camping-car"
+        "https://www.rivesdumorvan.fr/offres/aires-de-camping-cars/aire-de-service-pour-camping-car/"
       ]
     },
     {
@@ -121,6 +120,106 @@
       "nextCheck": "Confirmer auprès de la mairie si le stationnement est gratuit ou payant.",
       "sources": [
         "https://www.tourismecoeurdenievre.com/camping-et-air-de-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/1296049609",
+      "place": "Saint-Honoré-les-Bains",
+      "lot": 415,
+      "checkedAt": "2026-11-21",
+      "status": "Rives du Morvan Tourisme: parking gratuit, 4 places max, 48 h max; emplacement électrifié et assainissement annoncé à 2,60 €/jour. Fiche affiche ouverture 2026 seulement; tarifs 2027 non confirmés.",
+      "nextCheck": "Confirmer le forfait 2,60 € et sa portée (électricité/assainissement) pour 2027 auprès de la mairie.",
+      "sources": [
+        "https://www.rivesdumorvan.fr/offres/aires-de-camping-cars/aire-de-service-pour-camping-cars-a-saint-honore-les-bains/"
+      ]
+    },
+    {
+      "sourceId": "way/1296325076",
+      "place": "Moulins-Engilbert",
+      "lot": 415,
+      "checkedAt": "2026-11-21",
+      "status": "Rives du Morvan Tourisme: une place, eau et vidange gratuites. Le guide 2025 mentionnait une ouverture saisonnière; calendrier 2027 non confirmé.",
+      "nextCheck": "Confirmer les dates d’ouverture 2027; ne pas confondre avec les tarifs du camping municipal voisin.",
+      "sources": [
+        "https://www.rivesdumorvan.fr/offres/aires-de-camping-cars/aire-de-service-pour-camping-car-de-moulins-engilbert/",
+        "https://www.rivesdumorvan.fr/wp-content/uploads/2025/01/guide-hebergement-2025-RDM.pdf"
+      ]
+    },
+    {
+      "sourceId": "way/1296329506",
+      "place": "Chaumot — port de Chitry-Chaumot",
+      "lot": 415,
+      "checkedAt": "2026-11-21",
+      "status": "Nièvre Tourisme conserve une fiche avec anciennes dates 2025; une source secondaire actualisée en 2026 annonce eau, électricité et vidange gratuits, limite de 48 h. Aucun tarif 2027 confirmé par l’office du tourisme.",
+      "nextCheck": "Confirmer directement auprès de la commune/office l’ouverture, la gratuité et les services 2027.",
+      "sources": [
+        "https://www.nievre-tourisme.com/camping-car/aire-de-service-pour-camping-car-de-chaumot"
+      ]
+    },
+    {
+      "sourceId": "way/1296339681",
+      "place": "Marzy",
+      "lot": 415,
+      "checkedAt": "2026-11-21",
+      "status": "Mairie: 3 places, stationnement gratuit; seule l’eau est payante, par jetons disponibles chez les commerçants. Montant du jeton et validité 2027 non précisés.",
+      "nextCheck": "Confirmer prix du jeton d’eau et grille 2027 avec la mairie/commerçants.",
+      "sources": [
+        "https://www.marzy.fr/tourisme-traditions/amenagements-voyageurs/"
+      ]
+    },
+    {
+      "sourceId": "way/1296354963",
+      "place": "Larochemillay",
+      "lot": 415,
+      "checkedAt": "2026-11-21",
+      "status": "Rives du Morvan Tourisme: 4 places, stationnement gratuit limité à 48 h; vidange, eau et jetons gratuits à retirer en mairie. Informations d’ouverture datées 2026, non reconduites explicitement en 2027.",
+      "nextCheck": "Confirmer la continuité des équipements et la gratuité pour 2027.",
+      "sources": [
+        "https://www.rivesdumorvan.fr/offres/aires-de-camping-cars/aire-de-service-pour-camping-car-de-larochemillay/"
+      ]
+    },
+    {
+      "sourceId": "way/1297215149",
+      "place": "Rémilly — pont de l’Alène",
+      "lot": 415,
+      "checkedAt": "2026-11-21",
+      "status": "Rives du Morvan Tourisme: 4 places, stationnement et services gratuits, limite 48 h; eau disponible en saison estivale seulement. Validité 2027 non indiquée.",
+      "nextCheck": "Confirmer dates saisonnières et gratuité pour 2027.",
+      "sources": [
+        "https://www.rivesdumorvan.fr/offres/aires-de-camping-cars/aire-de-service-pour-camping-cars-a-remilly/"
+      ]
+    },
+    {
+      "sourceId": "way/1318510543",
+      "place": "Moux-en-Morvan",
+      "lot": 415,
+      "checkedAt": "2026-11-21",
+      "status": "Morvan Sommets et Grands Lacs: eau, électricité, vidange, WC publics, poubelles; fiche indique ouverture du 01/01 au 31/12/2026. Aucun tarif ni calendrier 2027 publié.",
+      "nextCheck": "Confirmer gratuité/tarif, ouverture et services 2027 auprès de la commune.",
+      "sources": [
+        "https://www.morvansommetsetgrandslacs.com/sit/aire-de-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/1318568943",
+      "place": "Montsauche-les-Settons — Camping-Car Park",
+      "lot": 415,
+      "checkedAt": "2026-11-21",
+      "status": "Tarif de base explicitement valable du 15/10/2026 au 31/12/2027: 12,73 €/24 h. Taxe de séjour affichée à 1,30 € jusqu’au 31/12/2026 seulement; total TTC 2027 à confirmer (ne pas reporter automatiquement 14,03 €).",
+      "nextCheck": "Obtenir la taxe de séjour opérateur/collectivité 2027 et publier séparément base et total TTC.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/nievre/montsauche-les-settons"
+      ]
+    },
+    {
+      "sourceId": "way/1318583909",
+      "place": "Donzy — Camping-Car Park",
+      "lot": 415,
+      "checkedAt": "2026-11-21",
+      "status": "Base 13,00 €/24 h valable du 17/11/2026 au 31/12/2027; taxe de séjour 0,44 €/24 h valable du 01/01 au 31/12/2027; total confirmé 13,44 €/24 h TTC. Parking 5 h + services: 6 €.",
+      "nextCheck": "Aucune correction tarifaire nécessaire; garder le découpage base + taxe et les dates de validité.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/nievre/donzy"
       ]
     }
   ]
