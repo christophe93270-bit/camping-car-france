@@ -2,14 +2,14 @@
   "scope": "Audit des tarifs 2027 sur des lots successifs de dix entrées de l’inventaire régional Orne (61), à partir du lot 422. Ce suivi porte sur la séquence du catalogue et ne représente pas l’inventaire complet du département ni uniquement les fiches déjà présentes dans aires.json.",
   "startedAt": "2026-11-21",
   "sourceInventory": "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
-  "currentLot": 427,
+  "currentLot": 428,
   "department": "61",
   "progress": {
     "checkedInLot": 10,
     "totalInLot": 10,
     "departmentTotal": null
   },
-  "note": "Lot 427 : dix entrées suivantes de l’inventaire régional contrôlées. Tarifs 2027 non confirmés; gratuits publiés à revalider pour 2027, tarif Tinchebray daté 2024, tarif historique à Saint-Sulpice et écarts de prix à Tourouvre. Aucune fiche du site modifiée.",
+  "note": "Lot 428 : dix entrées inédites suivantes de la rubrique stationnement contrôlées. Les entrées Ferme des Martellières et Kerflaveur ont été exclues, car elles étaient déjà présentes dans les lots antérieurs. Aucun tarif confirmé valable pour 2027. Aucune fiche du site modifiée.",
   "entries": [
     {
       "place": "L’Aigle — aire communale, 15 bis avenue du Mont-Saint-Michel",
@@ -674,6 +674,118 @@
       "sources": [
         "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-service-de-vimoutiers/",
         "https://www.cirkwi.com/fr/point-interet/4818958-camping-la-campiere"
+      ]
+    },
+    {
+      "place": "Bagnoles-de-l’Orne-Normandie — Bagnoles de Pom’, La Noë Plaine",
+      "lot": 428,
+      "checkedAt": "2026-11-22",
+      "status": "La ferme cidricole annonce l’accueil de camping-cars, une dégustation gratuite et un pique-nique sous les pommiers. Aucun tarif de stationnement/nuitée ni condition France Passion n’est précisé dans la fiche consultée.",
+      "nextCheck": "Demander à l’exploitation si l’accueil nécessite France Passion, s’il est gratuit ou payant, et les conditions 2027.",
+      "sources": [
+        "https://www.maison-cidricole-normandie.fr/bagnoles-de-pom",
+        "https://www.bagnolesdelorne.com/offres/bagnoles-de-pom-bagnoles-de-lorne-normandie-fr-6220226/"
+      ]
+    },
+    {
+      "place": "Cisai-Saint-Aubin — Ferme des Pampilles",
+      "lot": 428,
+      "checkedAt": "2026-11-22",
+      "status": "Le catalogue régional répertorie la ferme comme point d’accueil. Les pages touristiques décrivent l’élevage et la vente de produits, sans prix ni conditions d’accueil camping-car vérifiables.",
+      "nextCheck": "Vérifier directement auprès de la ferme que l’accueil camping-car existe toujours et les conditions/prix 2027.",
+      "sources": [
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
+        "https://cdcvam.fr/cisai-saint-aubin",
+        "https://www.normandie-tourisme.fr/activite/chevrerie-des-pampilles/"
+      ]
+    },
+    {
+      "place": "Domfront-en-Poiraie — Camping à la ferme de La Touche",
+      "lot": 428,
+      "checkedAt": "2026-11-22",
+      "status": "La fiche locale de l’établissement indique 5 €/personne/nuit et 1,50 €/jour pour le branchement électrique; tarif sans millésime 2027. C’est un prix de séjour, pas un accès ponctuel aux services.",
+      "nextCheck": "Confirmer la grille 2027, ce qui est inclus dans les 5 €/personne et le prix électrique; demander le coût des services hors nuitée.",
+      "sources": [
+        "https://www.lescommercesdomfrontais.fr/commerces/hotel-hebergements/camping/camping-a-la-ferme-88.html",
+        "https://www.cirkwi.com/fr/point-interet/3017007-camping-a-la-ferme-sous-les-poiriers"
+      ]
+    },
+    {
+      "place": "Juvigny-Val-d’Andaine — stationnement rue Jean Moulin",
+      "lot": 428,
+      "checkedAt": "2026-11-22",
+      "status": "Normandie Tourisme décrit un stationnement gratuit accessible 24 h/24. La borne et le camping municipal sont des sites distincts. Pas de validité 2027 précisée.",
+      "nextCheck": "Confirmer auprès de la mairie le maintien de la gratuité en 2027.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-stationnement-2/",
+        "https://juvignyvaldandaine.fr/loisirs-et-tourisme/tourisme/"
+      ]
+    },
+    {
+      "place": "La Fresnaie-Fayel — Les Vergers de la Morinière",
+      "lot": 428,
+      "checkedAt": "2026-11-22",
+      "status": "Le catalogue liste un lieu de stationnement camping-car. Les pages actuelles de l’exploitation décrivent les vergers et la vente de produits mais ne publient ni tarif ni conditions camping-car vérifiables.",
+      "nextCheck": "Confirmer que l’accueil camping-car est toujours proposé, sous quelles conditions et à quel prix en 2027.",
+      "sources": [
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
+        "https://www.lesvergersdelamoriniere.com/contact-2/",
+        "https://www.normandie-tourisme.fr/sites-lieux-de-visites/les-vergers-de-la-moriniere/"
+      ]
+    },
+    {
+      "place": "Le Mêle-sur-Sarthe — parking La Morinière",
+      "lot": 428,
+      "checkedAt": "2026-11-22",
+      "status": "Un guide territorial décrit le stationnement communal comme gratuit (cinq places); des avis voyageurs en 2026 le signalent encore gratuit. L’aire Camping-Car Park voisine est un site distinct payant.",
+      "nextCheck": "Vérifier le maintien de la gratuité en 2027 avec la mairie et garder ce parking distinct de l’aire payante voisine.",
+      "sources": [
+        "https://frankreich-mobil-erleben.de/.cm4all/uproc.php/0/PDF/2021-Guide-ccar-Village-etapes.pdf?_=177f266dee0&cdp=a",
+        "https://park4night.com/fr/place/58116"
+      ]
+    },
+    {
+      "place": "Magny-le-Désert — Manoir de Durcet",
+      "lot": 428,
+      "checkedAt": "2026-11-22",
+      "status": "Le manoir annonce l’accueil de camping-cars dans le réseau France Passion, sans tarif de stationnement/nuitée publié. L’accueil relève du réseau, pas d’une grille de camping identifiée.",
+      "nextCheck": "Vérifier les conditions d’adhésion/réservation et l’éventuel prix des services pour la saison 2027.",
+      "sources": [
+        "https://www.maison-cidricole-normandie.fr/manoir-de-durcet",
+        "https://www.bienvenue-a-la-ferme.com/orne/magny-le-desert/ferme/manoir-de-durcet/364757"
+      ]
+    },
+    {
+      "place": "Ri — L’Abeille de Ri",
+      "lot": 428,
+      "checkedAt": "2026-11-22",
+      "status": "Normandie Tourisme décrit une aire privée de deux emplacements chez des apiculteurs, membres de Bienvenue à la Ferme et France Passion. Aucun tarif publié.",
+      "nextCheck": "Confirmer les conditions France Passion, l’accès hors réseau et tout prix des services pour 2027.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-labeille-de-ri/",
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf"
+      ]
+    },
+    {
+      "place": "Sainte-Marguerite-de-Carrouges — Ferme cidricole Hugues",
+      "lot": 428,
+      "checkedAt": "2026-11-22",
+      "status": "Le site de l’exploitation confirme l’accueil de jusqu’à cinq camping-cars pour les adhérents France Passion; poubelle, tables de pique-nique et barbecue. Aucun tarif publié.",
+      "nextCheck": "Confirmer le maintien de l’accueil réservé aux adhérents et les règles 2027 auprès de l’exploitation.",
+      "sources": [
+        "https://www.calvados-huguesdesfrieches.org/dormir",
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf"
+      ]
+    },
+    {
+      "place": "Tournai-sur-Dive — rue des Canadiens",
+      "lot": 428,
+      "checkedAt": "2026-11-22",
+      "status": "Le catalogue 2024 répertorie cette adresse comme aire de stationnement. Aucune fiche tarifaire municipale ou source récente précisant capacité, règles ou prix trouvée.",
+      "nextCheck": "Demander à la mairie si l’emplacement est toujours dédié aux camping-cars et si le stationnement est gratuit ou payant en 2027.",
+      "sources": [
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
+        "https://www.annuaire-mairie.fr/rue-tournai-sur-dive.html"
       ]
     }
   ]
