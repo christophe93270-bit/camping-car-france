@@ -4,15 +4,15 @@
   "displayedCount": 39,
   "rawRegionalRows": 39,
   "deduplicatedRows": 0,
-  "currentLot": 516,
+  "currentLot": 517,
   "department": "37",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 39,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit en cours : lot 516 terminé (10/39). Distinction maintenue entre stationnement simple, camping et aires CCP; barèmes 2027 confirmés mis à jour dans le rapport. Fiches source non modifiées.",
+  "note": "Audit en cours : lots 516 et 517 terminés (20/39). Tarifs actualisés avec barèmes et taxes 2027 publiés; divergence de synthèse repérée pour Céré-la-Ronde; prix non confirmés laissés tels quels. Fiches source non modifiées.",
   "entries": [
     {
       "sourceId": "node/6784712639",
@@ -135,6 +135,126 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/amboise"
       ],
       "lot": 516,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/717177233",
+      "place": "Savonnières — aire Onlypark",
+      "status": "Exploitant : fermée, réouverture 02/04/2027; 10 €/24 h hors juil.-août, 16 € en juil.-août, électricité incluse; taxe séjour 0,66 €/personne/nuit; borne eau/vidange séparée à 2 € à 200 m.",
+      "nextCheck": "Garder fermeture jusqu’à réouverture; distinguer taxe par personne et services sur borne éloignée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/717177233",
+        "https://www.onlypark.fr/aire-de-savonnieres/"
+      ],
+      "lot": 517,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/844925646",
+      "place": "Saint-Genouph — CAMPING-CAR PARK",
+      "status": "CCP : 16 places; base 12 €/24 h du 22/11/2026 au 31/12/2027; taxe 1,32 €/24 h pour 2026 et 2027; total 13,32 €; parking 5 h + services 6 €.",
+      "nextCheck": "Corriger date de début du prix de base; tarif taxe 2027 confirmé.",
+      "sources": [
+        "https://www.openstreetmap.org/way/844925646",
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/saint-genouph"
+      ],
+      "lot": 517,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/858627385",
+      "place": "Chinon — parkings de la Forteresse, avenue François-Mitterrand",
+      "status": "Forteresse royale : plusieurs parkings gratuits pour voitures et camping-cars à 200 et 400 m de l’accueil; nuitée et services non confirmés.",
+      "nextCheck": "Limiter la gratuité aux parkings indiqués par la Forteresse, ne pas l’étendre à toute l’avenue.",
+      "sources": [
+        "https://www.openstreetmap.org/way/858627385",
+        "https://forteressechinon.fr/infos-pratiques/faq"
+      ],
+      "lot": 517,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/860094574",
+      "place": "Chouzé-sur-Loire — rue de l’Église",
+      "status": "Touraine Val de Loire référence aire de services et stationnement, mais ne publie pas de montant. Mode de paiement en espèces mentionné dans les données.",
+      "nextCheck": "Laisser prix non confirmé; ne pas convertir moyen de paiement en tarif.",
+      "sources": [
+        "https://www.openstreetmap.org/way/860094574",
+        "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-services-de-chouze-sur-loire-chouze-sur-loire-fr-5152487/"
+      ],
+      "lot": 517,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/925749256",
+      "place": "Villandry — CCP Le Nireva",
+      "status": "CCP : base 13,74 €/24 h du 22/11/2026 au 31/12/2027; taxe 1,32 €/24 h jusqu’au 31/12/2027; total 15,06 €; parking 5 h + services 6 €.",
+      "nextCheck": "Actualiser la date de début du barème de base et conserver les composantes distinctes.",
+      "sources": [
+        "https://www.openstreetmap.org/way/925749256",
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/villandry"
+      ],
+      "lot": 517,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/941719708",
+      "place": "Benais — Conservatoire des variétés anciennes",
+      "status": "Val de Loire : stationnement de nuit gratuit; aucun service technique n’est listé.",
+      "nextCheck": "Conserver gratuité sans annoncer de services.",
+      "sources": [
+        "https://www.openstreetmap.org/way/941719708",
+        "https://www.valdeloire-france.com/aire-camping-car/aire-de-stationnement-de-camping-cars-de-benais/"
+      ],
+      "lot": 517,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/987312006",
+      "place": "Bourgueil — aire des Tanneries",
+      "status": "Touraine Val de Loire : stationnement de nuit gratuit rue des Tanneries; aucun service technique listé.",
+      "nextCheck": "Garder distinct du camping municipal voisin; ne pas annoncer de borne.",
+      "sources": [
+        "https://www.openstreetmap.org/way/987312006",
+        "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-stationnement-des-tanneries-bourgueil-fr-5151772/"
+      ],
+      "lot": 517,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1038044104",
+      "place": "Genillé — rue de l’Huilerie",
+      "status": "Touraine Val de Loire : gratuit, nuitée et services eau, électricité, borne et vidanges; ouverte toute l’année 2026; aucun supplément annoncé.",
+      "nextCheck": "Conserver gratuité 2026; calendrier 2027 à vérifier.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1038044104",
+        "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-service-et-de-stationnement-de-genille-genille-fr-5151622/"
+      ],
+      "lot": 517,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1279900866",
+      "place": "Céré-la-Ronde — CCP Les Pins",
+      "status": "Tableau tarifaire CCP : base 11,66 €/24 h du 22/11/2026 au 31/12/2027 + taxe 1,22 € jusqu’au 31/12/2027 = 12,88 €; parking 5 h + services 6 €. Synthèse de page affiche 14,96 €, en contradiction.",
+      "nextCheck": "Signaler discordance tableau/synthèse; confirmer auprès de CCP avant affichage définitif du prix.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1279900866",
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/cere-la-ronde"
+      ],
+      "lot": 517,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1285373610",
+      "place": "Vouvray — Voie de la Cisse",
+      "status": "Touraine Val de Loire : aire de services et nuitée gratuites; eau, sanitaires, vidanges, pique-nique. Tarif secondaire de 3 € par service non corroboré.",
+      "nextCheck": "Conserver le tarif officiel gratuit; écarter le tarif secondaire non confirmé.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1285373610",
+        "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-services-camping-cars-vouvray-vouvray-fr-5153486/"
+      ],
+      "lot": 517,
       "checkedAt": "2026-11-22"
     }
   ]
