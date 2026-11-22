@@ -4,15 +4,15 @@
   "displayedCount": 69,
   "rawRegionalRows": 69,
   "deduplicatedRows": 0,
-  "currentLot": 511,
+  "currentLot": 512,
   "department": "35",
   "progress": {
-    "checked": 60,
+    "checked": 69,
     "total": 69,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 9,
+    "totalInLot": 9
   },
-  "note": "Lots 506 à 511 : 60/69 fiches vérifiées. Lot 511 : tarif du camping de Paron corrigé d’après sa grille 2026 (écart avec le forfait tourisme); tarifs 2025 conservés comme tels à Maen Roch; fermeture saisonnière du Jardin des Fêtes, Paron, Entre Pierres et Collines et P’tit Bois signalée; prix Super U conservé avec fonctionnement à vérifier. Aucun fichier source modifié.",
+  "note": "Audit de l’Ille-et-Vilaine terminé : 69/69 fiches vérifiées en 7 lots (506 à 512). Les tarifs de camping, tarifs de services et tarifs de stationnement ont été distingués; les tarifs 2027 disponibles ont été consignés séparément, tandis que les prix non confirmés et les fermetures saisonnières restent explicitement signalés. Aucun fichier source modifié.",
   "entries": [
     {
       "sourceId": "node/11897389616",
@@ -724,6 +724,115 @@
       ],
       "lot": 511,
       "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Briac-sur-Mer — parking d’accueil du Pont de Lancieux",
+      "status": "Mairie recommande ce parking aux camping-cars; tarif, durée maximale et autorisation de nuit non précisés dans cette source.",
+      "nextCheck": "Laisser prix et conditions de nuit non confirmés; vérifier signalisation/mairie.",
+      "sources": [
+        "https://www.saintbriac.fr/accueil-des-camping-cars/"
+      ],
+      "lot": 512,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Dinard — camping du Port Blanc",
+      "status": "Grille opérateur 2026: forfait 2 personnes sans électricité 12,90–24,90 €/nuit, électricité 5 € (10 € véhicule >8m); guide touristique 2026 affiche un plafond différent de 20,50 €. Grille opérateur 2027 publiée: forfait 2 pers 13,50–25,50 €, électricité 5 € (10 € >8m), taxe 0,66 €/personne/jour; ouvert 12/02–14/11/2027.",
+      "nextCheck": "Prioriser tarifs détaillés du gestionnaire et garder 2026/2027 distincts; signaler l’écart avec le guide 2026.",
+      "sources": [
+        "https://www.camping-port-blanc.com/wp-content/uploads/2026/01/%E2%AD%90%EF%B8%8F-Tarifs-2026-Camping-Port-Blanc-DINARD-copie-2.pdf",
+        "https://www.dinardemeraudetourisme.com/app/uploads/2026/05/guide-du-camping-cariste-2026.pdf",
+        "https://www.camping-port-blanc.com/tarifs/",
+        "https://www.camping-port-blanc.com/wp-content/uploads/2026/11/%E2%AD%90%EF%B8%8F-Tarifs-2027-Camping-Port-Blanc-DINARD-copie.pdf"
+      ],
+      "lot": 512,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "La Richardais — Only Camp Les Étangs",
+      "status": "Exploitant 2026: emplacement+2 adultes 15 €/nuit hors juillet-août et 24 € en été; électricité 6 €. Camping ouvert 03/04–27/09. Source tourisme signalait reprise spéciale Route du Rhum jusqu’au 06/11 à 20 € + 6 € électricité; dates échues.",
+      "nextCheck": "Garder tarifs normaux et annonce spéciale séparément; camping fermé au contrôle.",
+      "sources": [
+        "https://www.camping-la-richardais.fr/emplacements/",
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-camping-only-camp-les-etangs-la-richardais-fr-2841685/"
+      ],
+      "lot": 512,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Coulomb — Camping Duguesclin",
+      "status": "Office tourisme: forfait 2026 16,90–20,70 € pour deux adultes. Exploitant: prochaine ouverture 03/04/2027; tarifs 2027 non publiés.",
+      "nextCheck": "Conserver prix comme tarif saison 2026; marquer fermé jusqu’à avril 2027 et tarif 2027 non confirmé.",
+      "sources": [
+        "https://www.camping-duguesclin.com/",
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/camping-duguesclin-saint-coulomb-fr-2726413/"
+      ],
+      "lot": 512,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Briac-sur-Mer — camping Le Petit Voilier",
+      "status": "Office tourisme: forfait camping-car à partir de 10,50 € pour 2 adultes en 2026, variable selon période/options; saison emplacements 27/03–27/09/2026. Aucun tarif 2027 trouvé.",
+      "nextCheck": "Garder le prix comme tarif de départ saisonnier; marquer fermé et laisser 2027 non publié.",
+      "sources": [
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/camping-3-le-petit-voilier-saint-briac-sur-mer-fr-2726407/"
+      ],
+      "lot": 512,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Lunaire — camping Longchamp Cap Fun",
+      "status": "Guide officiel Dinard Émeraude 2026: forfait 2 adultes avec électricité 21–46 € selon période; aire de services gratuite pour clients. Exploitant: saison 03/04–01/11/2026; tarifs 2027 non publiés.",
+      "nextCheck": "Distinguer forfait camping et aire de service gratuite; camping fermé et tarif 2027 à venir.",
+      "sources": [
+        "https://www.dinardemeraudetourisme.com/app/uploads/2026/05/guide-du-camping-cariste-2026.pdf",
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/camping-longchamp-saint-lunaire-fr-2726389/"
+      ],
+      "lot": 512,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Châteaubourg — future aire CAMPING-CAR PARK",
+      "status": "Commune a voté 13 €/24h basse saison, 15 €/24h haute saison pour l’aire CCP future. Page CCP toujours « À venir » au contrôle; travaux annoncés à partir du 12/11/2026; disponibilité non confirmée. Ancienne aire municipale gratuite jusqu’à 5 jours.",
+      "nextCheck": "Ne pas appliquer le barème CCP avant ouverture; garder l’ancienne aire gratuite séparée et vérifier date d’achèvement.",
+      "sources": [
+        "https://www.chateaubourg.fr/actualites/infos-travaux-et-circulation/",
+        "https://www.chateaubourg.fr/wp-content/plugins/creasit-base-documentaire/telechargement.php?doc=35641",
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/ille-et-vilaine/chateaubourg",
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-car-de-chateaubourg-chateaubourg-fr-4110153/"
+      ],
+      "lot": 512,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Erbrée — aire de services TotalEnergies Mondevert",
+      "status": "Flot Bleu confirme ouverture toute l’année, eau/vidanges et stationnement/services gratuits; aire située sens Rennes vers Laval sur RN157.",
+      "nextCheck": "Garder gratuité et sens d’accès; ne pas confondre avec l’aire du côté opposé de la route.",
+      "sources": [
+        "https://flotbleu.com/ille_et_vilaine/aire-de-service/203"
+      ],
+      "lot": 512,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Médard-sur-Ille — aire naturelle Les Bords de l’Ille",
+      "status": "Val d’Ille-Aubigné: 24 places, ouverture 11/04–11/10/2026 sans réservation; camping-car 12 €, adulte 4 €, électricité 5 €, taxe séjour 0,22 €/adulte/nuit; total 25,44 € pour deux adultes avec électricité et taxe. Fermée et tarifs 2027 non publiés.",
+      "nextCheck": "Garder composantes séparées et total; signaler fermeture saisonnière et attendre calendrier/barème 2027.",
+      "sources": [
+        "https://www.valdille-aubigne.fr/tourisme/aire-naturelle-de-camping/"
+      ],
+      "lot": 512,
+      "checkedAt": "2026-11-22"
     }
-  ]
+  ],
+  "completedAt": "2026-11-22"
 }
