@@ -4,15 +4,15 @@
   "displayedCount": 21,
   "rawRegionalRows": 21,
   "deduplicatedRows": 0,
-  "currentLot": 514,
+  "currentLot": 515,
   "department": "36",
   "progress": {
-    "checked": 20,
+    "checked": 21,
     "total": 21,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 1,
+    "totalInLot": 1
   },
-  "note": "Audit en cours : lots 513 et 514 terminés (20/21). Tarifs de services, nuitées et stationnement séparés; divergences de capacité et entrées OSM non confirmées maintenues comme telles. Fiches source non modifiées.",
+  "note": "Audit de l’Indre terminé : 21/21 fiches examinées en trois lots (513 à 515). Une entrée OSM sans localisation ni confirmation officielle reste exclue du décompte des aires confirmées; les divergences de capacité sont signalées. Fiches source non modifiées.",
   "entries": [
     {
       "sourceId": "node/3263026728",
@@ -252,6 +252,17 @@
         "https://www.openstreetmap.org/way/1502878916"
       ],
       "lot": 514,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1518103126",
+      "place": "Aire de stationnement pour camping-car — commune à confirmer",
+      "status": "Entrée OSM seule aux coordonnées 46.5302105, 1.8659898; les recherches par identifiant et coordonnées n’ont pas permis d’identifier sûrement la commune ni de trouver une confirmation officielle. Services eau/électricité et prix non confirmés.",
+      "nextCheck": "Exclure du décompte des aires confirmées; vérifier commune, accueil, services et tarif avant toute publication comme aire établie.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1518103126"
+      ],
+      "lot": 515,
       "checkedAt": "2026-11-22"
     }
   ]
