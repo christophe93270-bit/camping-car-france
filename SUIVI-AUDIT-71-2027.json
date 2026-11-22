@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 467,
+  "currentLot": 468,
   "department": "71",
   "progress": {
-    "checked": 70,
+    "checked": 80,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 467 : fiches 61 à 70 contrôlées. Buxy : parking Champ de Foire 4 places gratuit, distinct de la borne gratuite des Amerrons; celle-ci mise hors gel dès décembre. Le Creusot Parc des Combes : aire de services uniquement, eau/vidange/parking gratuits; WC fermés le soir et début novembre–fin mars. Cluny Georges Malère : 6 places, 11 €/jour, déclaration de plaque et règlement via mairie/Presto Park. Sigy-le-Châtel : 2 places, véhicules de moins de 6 m. La Clayette : eau/électricité/vidange, borne hors gel hiver, tarif/nuitée non confirmés. Germagny : 6 places, eau/vidange/WC, prix non publié. Bergerie Santagny : 3 places France Passion, emplacement gratuit, eau/électricité en supplément sans montants. Saint-Eusèbe : borne eau/vidange gratuite sans parking, hivernage à confirmer. Antully La Noue : ferme, 2 places, conditions et tarif à confirmer. Aucune donnée du site modifiée.",
+  "note": "Lot 468 : fiches 71 à 80 contrôlées. Cuisery Bords de Seille : 5 places dans le camping, eau/vidange, prix d’accès non publié; distinguer halte nautique. Rully Champ de Foire : parking, aucune nuitée/service/prix confirmé. La Petite-Verrière Le Moulin : France Passion, 3 places, prix non publié. Vinzelles : 2 places, eau/vidange, limite 24–48 h, prix non publié. Charolles : 2 bornes regroupées, 10 places réservées sur parking extérieur, tarif aire non affiché. Matour Le Paluet : 6 places, eau/vidanges/WC portables, prix non publié, distinct du camping à 300 m. La Clochette : tarifs 2026 5 €/jour emplacement + 3,50 €/adulte + 4 € électricité; vidange de passage 5 €, taxe séjour 0,20 €/adulte/nuit; saison 30/04–30/08/2026. Étang Titard : tarif municipal 2026 15 €/jour pour 2 avec eau/électricité, taxe en sus, saison 02/05–15/09. Palinges : services seulement pour clients, minimum une nuit; 34 emplacements = camping, pas borne. Chauffailles Les Feuilles : aire dans le camping, clients seulement, tarif/dates à demander. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -802,6 +802,107 @@
       "nextCheck": "Garder 2 places; confirmer directement tarifs, période et conditions France Passion; ne pas présumer gratuité.",
       "sources": [
         "https://www.autun-tourisme.com/offres/aire-de-camping-car-a-la-ferme-antully-fr-3456523/"
+      ]
+    },
+    {
+      "place": "Cuisery — Camping Les Bords de Seille",
+      "lot": 468,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : 5 places de service dans le camping, eau et évacuation des eaux usées; aucun prix d’accès/aire affiché. Halte nautique voisine distincte.",
+      "nextCheck": "Demander au camping conditions/prix de l’aire et saison; ne pas reprendre automatiquement prix camping ou halte nautique.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-stationnement-pour-les-campings-cars.html"
+      ]
+    },
+    {
+      "place": "Rully — place du Champ de Foire",
+      "lot": 468,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : parking en centre-bourg; aucun tarif, capacité, service technique ou nuitée confirmé.",
+      "nextCheck": "Garder comme parking; demander à la mairie si nuitée permise; ne pas inventer tarif.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-les-campings-cars.html-0"
+      ]
+    },
+    {
+      "place": "La Petite-Verrière — Le Moulin, pisciculture",
+      "lot": 468,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : membre France Passion, 3 places, stationnement possible tous les jours. Prix non publié; horaires de vente à vérifier.",
+      "nextCheck": "Garder 3 emplacements et France Passion; confirmer horaires/accueil à l’exploitant.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-puor-camping-car.html"
+      ]
+    },
+    {
+      "place": "Vinzelles — foyer rural",
+      "lot": 468,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : 2 places, eau, vidange, parking/poubelles; durée 24–48 h, prix non publié.",
+      "nextCheck": "Maintenir limite de durée et services; tarif non publié.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-17"
+      ]
+    },
+    {
+      "place": "Charolles — camping municipal route de Viry",
+      "lot": 468,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme Grand Charolais regroupe deux aires de service et 10 places de stationnement camping-car sur parking extérieur; eau/vidange. Prix de l’aire de passage non affiché.",
+      "nextCheck": "Conserver une seule fiche regroupée, distinguer parking extérieur; ne pas attribuer le tarif de séjour camping sans confirmation.",
+      "sources": [
+        "https://tourisme.legrandcharolais.fr/camping-car/aire-de-service-pour-les-campings-cars-ACCBOU071234076.html"
+      ]
+    },
+    {
+      "place": "Matour — aire de service Le Paluet",
+      "lot": 468,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : 6 places, eau potable, vidange eaux usées et WC portables, pique-nique/barbecue; tarif non publié. Distincte du camping à ~300 m.",
+      "nextCheck": "Ne pas ajouter tarif ni électricité; garder séparée du camping.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-5"
+      ]
+    },
+    {
+      "place": "Salornay-sur-Guye — camping La Clochette",
+      "lot": 468,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant, saison 2026 : emplacement 5 €/jour, adulte 3,50 €, électricité 4 €, vidange passager 5 €, taxe 0,20 €/adulte/nuit; ouvert du 30/04 au 30/08/2026. Borne 1 place; ne pas confondre avec les places de camping.",
+      "nextCheck": "Conserver prix millésimé 2026 et séparer nuitée des vidanges; demander tarifs et dates 2027.",
+      "sources": [
+        "https://www.campinglaclochette.fr/"
+      ]
+    },
+    {
+      "place": "Saint-Germain-du-Bois — camping Étang Titard",
+      "lot": 468,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie : tarif 2026 de 15 €/jour pour deux personnes avec eau/électricité, taxe séjour en sus; saison du 02/05 au 15/09/2026. Tarif de séjour camping, pas tarif de borne.",
+      "nextCheck": "Garder prix et dates sous 2026; ne pas appliquer à 2027 sans grille nouvelle.",
+      "sources": [
+        "https://www.saintgermaindubois.fr/mairie-tourisme-bresse-71330/camping/",
+        "https://www.saintgermaindubois.fr/contenu/uploads/2026/01/Contrat-de-reservation-HLL-2026-francais.pdf"
+      ]
+    },
+    {
+      "place": "Palinges — Camping du Lac",
+      "lot": 468,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : aire interne au camping, eau/vidanges réservées aux clients et une nuitée minimum. 34 est capacité du camping, pas de la borne. Tarif de nuitée non établi par fiche aire.",
+      "nextCheck": "Ne pas utiliser 34 pour la borne; demander tarif séjour au camping.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-2"
+      ]
+    },
+    {
+      "place": "Chauffailles — camping municipal Les Feuilles",
+      "lot": 468,
+      "checkedAt": "2026-11-22",
+      "status": "Commune : aire interne au camping, réservée aux clients; eau, électricité, vidange. Pas de tarif d’aire isolée; dates précises ouverture 2026 non données dans la page.",
+      "nextCheck": "Ne pas présenter comme aire publique gratuite; demander prix et période à mairie/camping.",
+      "sources": [
+        "https://www.chauffailles.fr/annuaire/1667/commune"
       ]
     }
   ]
