@@ -1,0 +1,143 @@
+{
+  "scope": "Hérault (34) : audit des tarifs, services, capacités et périodes d’ouverture des fiches de aires-herault.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": null,
+  "rawRegionalRows": null,
+  "deduplicatedRows": 0,
+  "currentLot": 503,
+  "department": "34",
+  "progress": {
+    "checked": 10,
+    "total": null,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 503 : fiches 1 à 10 vérifiées. Frontignan tarif confirmé mais aire signalée temporairement fermée (0/0 place); Colombiers tarif officiel insuffisamment ventilé; Villeneuve-lès-Béziers tarif actuel reconduit à compter du 22/11/2026; 3 Digues sans limite de stationnement selon Hérault Tourisme; écarts de capacité à Balaruc (125/126) et Villeneuve-lès-Maguelone (40 mairie vs 36 fichier). Fiches source non modifiées.",
+  "entries": [
+    {
+      "sourceId": "node/11915885576",
+      "place": "Frontignan — CAMPING-CAR PARK",
+      "lot": 503,
+      "checkedAt": "2026-11-22",
+      "status": "15,46 €/24 h dont taxe 1,72 €; parking 5 h + services 6 €. Page CCP: 0/0 place et fermeture temporaire jusqu’au 30/12/2026; incohérence avec page tarifaire consultable.",
+      "nextCheck": "Maintenir tarif vérifié, afficher fermeture et disponibilité nulle; revérifier à la réouverture.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11915885576",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/herault/frontignan"
+      ]
+    },
+    {
+      "sourceId": "node/12230007090",
+      "place": "Colombiers — aire du canal du Midi",
+      "lot": 503,
+      "checkedAt": "2026-11-22",
+      "status": "Hérault Tourisme confirme 41 places dont une PMR, eau, électricité, vidange, Wi-Fi, ouvert 24h/24 toute l’année. Tarif affiché « à partir de 0 € »; la fourchette 0–15,44 € / nuit et 0–4 € de services provient d’une autre source touristique sans grille détaillée.",
+      "nextCheck": "Garder la fourchette seulement comme indicative et non ventilée; demander la grille actuelle à l’exploitant/office local.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12230007090",
+        "https://www.herault-tourisme.com/fr/fiche/aire-de-camping-car/aire-de-camping-car-de-colombiers-colombiers_TFOACCAMLAR034V50BK1P/",
+        "https://www.tourismeendomitienne.com/annuaire/aire-de-camping-car-de-colombiers"
+      ]
+    },
+    {
+      "sourceId": "node/13165756055",
+      "place": "Villeneuve-lès-Béziers — CAMPING-CAR PARK",
+      "lot": 503,
+      "checkedAt": "2026-11-22",
+      "status": "CCP confirme aire ouverte, 37 places, 6 A, 15,22 €/24 h dont 1,72 € de taxe, 5 h + services 6 €. Tarif de base 13,50 € publié du 22/11/2026 au 31/12/2027.",
+      "nextCheck": "Conserver le total et ajouter les dates d’effet dans le détail du prix.",
+      "sources": [
+        "https://www.openstreetmap.org/node/13165756055",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/herault/villeneuve-les-beziers"
+      ]
+    },
+    {
+      "sourceId": "way/135734707",
+      "place": "Sète — parking des 3 Digues",
+      "lot": 503,
+      "checkedAt": "2026-11-22",
+      "status": "Hérault Tourisme confirme 77 places, ouvert toute l’année, stationnement non limité, eau et vidange gratuites. Tarifs 24h: 8 € nov.–fév., 11 € mars–mai et octobre, 13 € juin–sept. Électricité absente de la liste officielle consultée.",
+      "nextCheck": "Remplacer limite 72h par non limité; retirer ou marquer électricité à vérifier; conserver saisons et services gratuits.",
+      "sources": [
+        "https://www.openstreetmap.org/way/135734707",
+        "https://www.herault-tourisme.com/fr/fiche/aire-de-camping-car/aire-de-stationnement-camping-car-des-3-digues-sete_TFOACCAMLAR034V50ZR8E/"
+      ]
+    },
+    {
+      "sourceId": "way/137714548",
+      "place": "Balaruc-les-Bains — Aire des Bains",
+      "lot": 503,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif 2026: 20 €/24h; forfait curiste 21 nuits 380 €; services courants inclus, laverie en supplément. Hérault Tourisme: 126 emplacements; mairie: 125 emplacements.",
+      "nextCheck": "Conserver prix et services; signaler l’écart de capacité et confirmer auprès de la mairie.",
+      "sources": [
+        "https://www.openstreetmap.org/way/137714548",
+        "https://www.herault-tourisme.com/fr/fiche/aire-de-camping-car/aire-de-camping-cars-aire-des-bains-balaruc-les-bains_TFOACCAMLAR034V50B42J/",
+        "https://www.campingcar-balaruc.com/sites/default/files/2025-11/Tarifs%202026_0.pdf",
+        "https://www.ville-balaruc-les-bains.com/stationner-avec-un-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/159070732",
+      "place": "Villeneuve-lès-Maguelone — aire municipale",
+      "lot": 503,
+      "checkedAt": "2026-11-22",
+      "status": "La mairie confirme 40 emplacements, 16 €/jour basse saison, 19 €/jour haute saison, vidange 4 € et taxe de séjour en sus. Le fichier mentionne 36 emplacements dont 6 grands formats; ce détail n’est pas confirmé par la page municipale actuelle.",
+      "nextCheck": "Corriger à 40 emplacements selon la mairie; ne garder les 6 grands formats qu’après confirmation communale.",
+      "sources": [
+        "https://www.openstreetmap.org/way/159070732",
+        "https://www.villeneuvelesmaguelone.fr/mon-quotidien/accueil-camping-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/289999174",
+      "place": "Murviel-lès-Béziers — CAMPING-CAR PARK",
+      "lot": 503,
+      "checkedAt": "2026-11-22",
+      "status": "CCP confirme aire ouverte, 25 emplacements, 6 A, 14,92 €/24 h dont 1,04 € taxe; 5 h + services 6 €. 24 places libres au moment de la consultation.",
+      "nextCheck": "Tarif, capacité et services cohérents; aucune correction substantielle.",
+      "sources": [
+        "https://www.openstreetmap.org/way/289999174",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/herault/murviel-les-beziers"
+      ]
+    },
+    {
+      "sourceId": "way/376203364",
+      "place": "Marseillan-Plage — aire automatisée",
+      "lot": 503,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme: ouverte 7j/7, 24h/24, toute l’année, sans réservation. Tarifs 2026: 6 € jan.–mars et nov.–déc.; 8 € avr.–juin et octobre; 14 € juil.–sept. L’adresse officielle indique avenue de Sète, le fichier rue des Goëlands.",
+      "nextCheck": "Conserver les tarifs; harmoniser l’adresse après contrôle terrain/coordonnées.",
+      "sources": [
+        "https://www.openstreetmap.org/way/376203364",
+        "https://www.marseillan-tourisme.com/contacts/aire-de-camping-cars-marseillan-plage/",
+        "https://www.ville-marseillan.fr/transitions/stationnement-mobilite-et-transport/"
+      ]
+    },
+    {
+      "sourceId": "way/376258829",
+      "place": "Agde — parking Bavière / La Clape",
+      "lot": 503,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche touristique: eau et vidange. Délibération municipale du 22/05/2025: 12,14 €/24 h + taxe 0,86 € par personne et par 24 h.",
+      "nextCheck": "Garder prix stationnement et taxe séparés; vérifier auprès de la mairie que le barème de 2025 est toujours applicable en 2026/2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/376258829",
+        "https://www.canal-du-midi.com/es/fiche/hotellerie-plein-air/aire-de-camping-car-cap-d-agde-agde_TFOSITRA2_CAM_7570741/",
+        "https://politique.pappers.fr/commune/document/76d313d6a3709eda172645ddd8fa62de"
+      ]
+    },
+    {
+      "sourceId": "way/443199704",
+      "place": "Mèze — CAMPING-CAR PARK",
+      "lot": 503,
+      "checkedAt": "2026-11-22",
+      "status": "CCP: 15,02 €/24 h (13,30 € + 1,72 € taxe), parking 5 h + services 6 €; 54 emplacements dans le fichier.",
+      "nextCheck": "Tarif confirmé; conserver le prix de base distinct de la taxe.",
+      "sources": [
+        "https://www.openstreetmap.org/way/443199704",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/herault/meze"
+      ]
+    }
+  ]
+}
