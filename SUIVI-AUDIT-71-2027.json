@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 487,
+  "currentLot": 488,
   "department": "71",
   "progress": {
-    "checked": 270,
+    "checked": 273,
     "total": 273,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 3,
+    "totalInLot": 3
   },
-  "note": "Lot 487 : fiches 261 à 270 vérifiées. Matour : tarifs 2026 confirmés, saison achevée; 2027 à vérifier. Délices de nos Campagnes : nuitée gratuite toujours annoncée par la ferme, mais disponibilité camping-car contradictoire avec Campercontact; appeler. Pont de Bourgogne (12 rue Julien-Leneveu) à distinguer de l’aire CCP voisine (14). La Breur ouvre les réservations 2027, tarif lisible non confirmé. 3 fiches restent.",
+  "note": "Lot 488 terminé : fiches 271 à 273 vérifiées. Bilan Saône-et-Loire : 273/273 fiches examinées en lots de dix (dernier lot de 3). Bois des Battées : grille historique 2026, périodicité de l’emplacement et de la cotisation adulte à préciser; 2027 absent. Espace Vital publie 25/30 €/nuit et réouverture 26 juin 2027, Pitchup propose à partir du 27. Lac des Arrouettes : tarif 2027 20 €/jour pour forfait emplacement de deux adultes, supplément camping-car à confirmer.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -3019,6 +3019,42 @@
       "sources": [
         "https://csmacon.wordpress.com/",
         "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-naturiste-la-breur-club-du-soleil-macon-laize.html"
+      ]
+    },
+    {
+      "sourceId": "club-soleil-chalon/camping-naturiste-bois-des-battees",
+      "place": "Saint-Léger-sur-Dheune — Camping naturiste du Bois des Battées",
+      "lot": 488,
+      "checkedAt": "2026-11-22",
+      "status": "Club publie grille 2026, avec emplacement camping-car 13 €, adulte dès 14 ans 7 €, électricité 6 €/nuit et taxe 0,20 €/adulte/nuit. Périodicité des deux premiers éléments pas explicitée; saison achevée et tarifs 2027 absents.",
+      "nextCheck": "Demander au club grille et dates 2027, et confirmer si 13 € et 7 € sont par nuit.",
+      "sources": [
+        "https://campingboisbattees.wixsite.com/monsite",
+        "https://campingboisbattees.wixsite.com/monsite"
+      ]
+    },
+    {
+      "sourceId": "espace-vital/camping-caravans",
+      "place": "La Grande-Verrière — Espace Vital Camping & Caravans",
+      "lot": 488,
+      "checkedAt": "2026-11-22",
+      "status": "Site officiel publie 25 €/nuit sans électricité ou 30 €/nuit avec 10 A pour 2 personnes, supplément personne 1 €/nuit; réouverture annoncée le 26 juin 2027. Pitchup ouvre les réservations dès le 27 juin et ajoute une taxe 0,50 €/personne/nuit.",
+      "nextCheck": "Confirmer au camping l’arrivée possible le 26 juin et l’application de la taxe.",
+      "sources": [
+        "https://campingfranceonline.com/",
+        "https://www.pitchup.com/fr/campsites/france/bourgogne/saone-et-loire/la_grande_verriere/camping_espace_vital/"
+      ]
+    },
+    {
+      "sourceId": "toulon-sur-arroux/camping-lac-des-arrouettes",
+      "place": "Toulon-sur-Arroux — Camping Le Lac des Arrouettes",
+      "lot": 488,
+      "checkedAt": "2026-11-22",
+      "status": "CampingFrance affiche tarif 2027 20 €/jour forfait emplacement (2 adultes), suppléments adultes 5 €, enfants 3,50 €, électricité 5 €, animal 1 €; minimum une nuit. Tarif pas identifié spécifiquement comme forfait camping-car.",
+      "nextCheck": "Vérifier avec le camping si le forfait touristique s’applique au camping-car sans supplément et confirmer disponibilité.",
+      "sources": [
+        "https://www.campingfrance.com/recherchez-votre-camping/bourgogne-franche-comte/saone-et-loire/toulon-sur-arroux/le-lac-des-arrouettes",
+        "https://www.facebook.com/campinglacdesarrouettes"
       ]
     }
   ]
