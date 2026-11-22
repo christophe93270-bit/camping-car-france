@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 464,
+  "currentLot": 465,
   "department": "71",
   "progress": {
-    "checked": 40,
+    "checked": 50,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 464 : fiches 31 à 40 contrôlées. Pierre-de-Bresse CCP : 14,30 €/24 h TTC dont 0,80 € taxe, 16 places. Montceau : parking gratuit 10 places/72 h, services 2 €, toute l’année; ne pas supposer remplacement par CCP à venir. Chalon promenade Sainte-Marie : source participative seulement, 10 places/gratuité non confirmés officiellement, distincte d’Avenue Léon Blum. Saint-Marcelin-de-Cray, Bray, Blanot, Pressy : parkings décrits par Cluny Tourisme, pas de tarif/services publiés. Sennecey : 6 places. Gueugnon Chazey : services gratuits printemps-fin octobre, nuitée non établie. Sainte-Croix-en-Bresse : 5 places, équipements listés, tarif non publié. Aucune donnée du site modifiée.",
+  "note": "Lot 465 : fiches 41 à 50 contrôlées. Lournand : 4 places, terrain plat, tarif/services non publiés. Digoin : 20 places, parking gratuit, tarifs des services non publiés. La Chapelle-Thècle : 4 places et tarifs gratuits millésimés 2024, borne possiblement en panne en 2026, à confirmer. Bantanges CCP : 24 places; page consultée 13,12 €/24 h TTC (0,80 € taxe), autre affichage CCP a montré 15,41 €, vérifier l’écart et dater le prix. CCP Saint-Marcel : 15 €/24 h TTC, page affiche 26 places contre 24 dans la fiche. Verdun-Ciel : 14,14 €/24 h TTC, 100 places, PPRI; date « 31 novembre » invalide pour fermeture hivernale. Louhans Les Trois Rivières : 11,60 €/24 h TTC, 52 places, PPRI. Toulon-sur-Arroux : 15 €/24 h TTC, 68 places. Mâcon/Sancé toujours « à venir ». Saunières : 10 places, parking gratuit, point d’eau simple. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -471,6 +471,118 @@
       "nextCheck": "Garder prix, capacité et services non confirmés; cales utiles.",
       "sources": [
         "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-pressy-sous-dondin/"
+      ]
+    },
+    {
+      "sourceId": "way/1297471153",
+      "place": "Lournand — parking camping-car",
+      "lot": 465,
+      "checkedAt": "2026-11-22",
+      "status": "Cluny Tourisme confirme 4 places et terrain plat en bordure de rivière. Aucun tarif ni service publié; borne proche au camping de Cluny selon guide de 2023.",
+      "nextCheck": "Garder capacité 4; prix/nuitée et services non confirmés.",
+      "sources": [
+        "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-lournand/",
+        "https://www.cluny-tourisme.com/app/uploads/2025/06/guide-camping-car-2025.pdf"
+      ]
+    },
+    {
+      "sourceId": "way/1321507206",
+      "place": "Digoin — place de la Grève",
+      "lot": 465,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme Le Grand Charolais : 20 emplacements et parking gratuit. Eau, électricité, vidange, WC et jeux indiqués; coût des services non publié.",
+      "nextCheck": "Séparer parking gratuit du coût éventuel des services; tarif/usage de la borne à préciser auprès de l’office ou de la mairie.",
+      "sources": [
+        "https://tourisme.legrandcharolais.fr/camping-car/aire-de-service-pour-les-campings-cars-ACCBOU071233454.html"
+      ]
+    },
+    {
+      "sourceId": "way/1354720928",
+      "place": "La Chapelle-Thècle — D39",
+      "lot": 465,
+      "checkedAt": "2026-11-22",
+      "status": "Camping-car.com indique 4 places, 15 jours maxi, services gratuits (tarifs 2024). Avis de juin 2026 signale la vidange hors service; aucune confirmation communale récente de l’état retrouvée.",
+      "nextCheck": "Gratuité à dater (2024); ne pas garantir le fonctionnement de la vidange ou les autres services sans confirmation; contacter mairie pour nuitée/borne.",
+      "sources": [
+        "https://www.camping-car.com/aires/46252-aire-communale/",
+        "https://www.lecampeur.fr/aire/aire-de-camping-cars-la-chapelle-thecle-ph94ho"
+      ]
+    },
+    {
+      "sourceId": "way/",
+      "place": "Bantanges — CCP Bords de Seille",
+      "lot": 465,
+      "checkedAt": "2026-11-22",
+      "status": "CAMPING-CAR PARK : 24 places et aire ouverte; page directe consultée affiche 13,12 €/24 h TTC dont 0,80 € taxe. Un autre résultat/affichage CCP consulté pendant l’audit a montré 15,41 €.",
+      "nextCheck": "Garder capacité 24; tarif dynamique à dater et écart de 13,12/15,41 € à résoudre auprès de l’opérateur avant correction fixe.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/bantanges"
+      ]
+    },
+    {
+      "sourceId": "way/",
+      "place": "Chalon-sur-Saône — CCP Pont de Bourgogne / Saint-Marcel",
+      "lot": 465,
+      "checkedAt": "2026-11-22",
+      "status": "Page CCP : 15 €/24 h TTC dont 1,20 € taxe, 6 A. Page indique capacité 26 alors que la fiche du site mentionne 24.",
+      "nextCheck": "Garder tarif, confirmer capacité actuelle de 26 vs 24 avec CCP; lieu distinct de l’aire CCP Centre/Avenue Léon Blum.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/pont-de-bourgogne"
+      ]
+    },
+    {
+      "sourceId": "way/",
+      "place": "Verdun-Ciel — CCP Camping de mon village",
+      "lot": 465,
+      "checkedAt": "2026-11-22",
+      "status": "Page CCP : 14,14 €/24 h TTC dont 0,40 € taxe, 100 places, sanitaires du 01/06 au 03/09/2026 et PPRI. Message de fermeture hivernale cite « 31 novembre », date impossible, mais page affiche ouverte/tarif en cours.",
+      "nextCheck": "Conserver les tarifs et PPRI avec date; demander date réelle de fermeture hivernale et ne pas inférer la fermeture du texte erroné.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/verdun-ciel"
+      ]
+    },
+    {
+      "sourceId": "way/",
+      "place": "Louhans — CCP Les Trois Rivières",
+      "lot": 465,
+      "checkedAt": "2026-11-22",
+      "status": "Page CCP : 52 places, 11,60 €/24 h TTC dont 0,40 € taxe, PPRI; sanitaires annoncés du 01/05 au 30/09/2026.",
+      "nextCheck": "Garder distinct du CCP Le Port; tarif à dater.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/louhans-les-trois-rivi%C3%A8res"
+      ]
+    },
+    {
+      "sourceId": "way/",
+      "place": "Toulon-sur-Arroux — CCP Le Val d’Arroux",
+      "lot": 465,
+      "checkedAt": "2026-11-22",
+      "status": "Page CCP : 68 places, 15 €/24 h TTC dont 0,40 € taxe; aire ouverte toute l’année, sanitaires du 02/04 au 31/10/2026.",
+      "nextCheck": "Conserver le prix daté et distinguer ouverture annuelle de la période sanitaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/toulon-sur-arroux"
+      ]
+    },
+    {
+      "sourceId": "way/",
+      "place": "Sancé — projet CCP Mâcon",
+      "lot": 465,
+      "checkedAt": "2026-11-22",
+      "status": "Page opérateur toujours « À venir »; capacité, ouverture et tarifs non publiés. Présence d’un camping municipal à cette adresse ne prouve ni fusion ni transfert.",
+      "nextCheck": "Garder comme projet, sans prix/capacité et sans fusion avec le camping municipal jusqu’à confirmation.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/macon"
+      ]
+    },
+    {
+      "sourceId": "destination-saone-et-loire/saunieres",
+      "place": "Saunières — aire de stationnement",
+      "lot": 465,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 mise à jour le 26/10/2026 : 10 emplacements, stationnement gratuit, aire plate en bord du Doubs, ouverte toute l’année; simple point d’eau, pas de vidange/électricité confirmées.",
+      "nextCheck": "Garder 10 places, gratuité et point d’eau; ne pas annoncer branchements ou vidange.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-camping-car-saunieres.html"
       ]
     }
   ]
