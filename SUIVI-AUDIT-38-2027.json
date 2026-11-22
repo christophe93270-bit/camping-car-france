@@ -4,15 +4,15 @@
   "displayedCount": 36,
   "rawRegionalRows": 36,
   "deduplicatedRows": 0,
-  "currentLot": 522,
+  "currentLot": 523,
   "department": "38",
   "progress": {
-    "checked": 30,
+    "checked": 36,
     "total": 36,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 6,
+    "totalInLot": 6
   },
-  "note": "Troisième lot terminé : 30/36 fiches contrôlées. Allevard : barème CCP mis à jour depuis le 22/11 et taxe de 1,10 € confirmée jusqu’en 2027. Sassenage : prix Qipeo confirmés et vidange extérieure à l’aire principale. La Motte-Saint-Martin : règlement municipal gratuit, mais stationnement au point OSM du Vivier à confirmer. Données source non modifiées.",
+  "note": "Audit de l’Isère terminé : 36/36 fiches vérifiées en quatre lots (520 à 523). Corrections à retenir : taxe 2027 de Saint-Pierre-de-Chartreuse à 0,80 €/24 h; taxe 2027 de Chamrousse confirmée à 1,32 €/24 h; actualiser les dates de début des barèmes CCP. Le stationnement nocturne du stade Renodel est distinct de la borne temporaire du Musée du Tisserand. Données source non modifiées.",
   "entries": [
     {
       "sourceId": "node/4215020337",
@@ -377,6 +377,76 @@
         "https://www.alpes-isere.com/sit/aire-de-service-accueil-camping-cars-5799270/"
       ],
       "lot": 522,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1549054019",
+      "place": "La Morte — aire de l’Alpe du Grand Serre",
+      "status": "Matheysine Tourisme : ouverte toute l’année; emplacement 10 € en 2026 + taxe de séjour 0,55 €/adulte/jour. Électricité 6 A, eau et bloc sanitaire; pas de borne de vidange dédiée, cassettes vidangeables dans les toilettes. Paiement sur place ou en mairie; sans réservation.",
+      "nextCheck": "Garder emplacement et taxe séparés; préciser absence de borne dédiée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1549054019",
+        "https://www.alpes-isere.com/sit/aire-de-bivouac-camping-car-de-lalpe-du-grand-serre-119106/"
+      ],
+      "lot": 523,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "ccp/trept-les-3-lacs-du-soleil",
+      "place": "Trept — CAMPING-CAR PARK Les 3 Lacs du Soleil",
+      "status": "CCP : 14 places; base 14,25 €/24 h à compter du 22/11/2026 jusqu’au 31/12/2027; taxe 1,32 €/24 h pour 2026 et 2027, total 15,57 €. Parking 5 h + services : 6 €.",
+      "nextCheck": "Corriger début de période au 22/11/2026; distinguer taxe et total.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/trept-les-3-lacs-du-soleil"
+      ],
+      "lot": 523,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "ccp/st-pierre-de-chartreuse-le-couzon",
+      "place": "Saint-Pierre-de-Chartreuse — CAMPING-CAR PARK Le Couzon",
+      "status": "CCP : 16 places; base 14,25 €/24 h jusqu’au 31/12/2027; taxe 0,50 € jusqu’au 31/12/2026, puis 0,80 € en 2027. Total 2026 14,75 €; total 2027 15,05 €. Parking 5 h + services : 6 €.",
+      "nextCheck": "Actualiser taxe 2027 à 0,80 €/24 h; afficher les totaux annuels séparément.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/st-pierre-de-chartreuse-le-couzon"
+      ],
+      "lot": 523,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "ccp/chamrousse",
+      "place": "Chamrousse — CAMPING-CAR PARK",
+      "status": "CCP : 20 places. Du 22 au 30/11/2026 : base 10,68 € + taxe 1,32 € = 12 €; décembre 2026 et 2027 : 18,68 € + taxe confirmée 1,32 € = 20 €. Parking 5 h + services : 6 €. Sanitaires annoncés du 29/10/2026 au 31/12/2027.",
+      "nextCheck": "Corriger début du tarif courant au 22/11; taxe 2027 confirmée; aligner date sanitaire sur 29/10/2026–31/12/2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/chamrousse"
+      ],
+      "lot": 523,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "tourisme/94214",
+      "place": "La Bâtie-Montgascon — aire de services du Musée du Tisserand",
+      "status": "Alpes Isère : gratuite toute l’année 2026; arrêt sur parking du musée temporaire pour la borne ou la visite; eau indisponible en hiver, vidanges grises et cassettes possibles.",
+      "nextCheck": "Conserver arrêt temporaire, sans nuitée; différencier la coupure hivernale de l’eau.",
+      "sources": [
+        "https://www.alpes-isere.com/sit/aire-de-service-camping-cars-du-musee-du-tisserand-94214/",
+        "https://tourisme-valsdudauphine.fr/on-a-teste-pour-vous-en-isere/venez-decouvrir-les-vals-de-dauphine-en-camping-cars/"
+      ],
+      "lot": 523,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "park4night/58087",
+      "place": "La Bâtie-Montgascon — stade Renodel",
+      "status": "Vals du Dauphiné et Alpes Isère : stationnement nocturne gratuit toute l’année pour environ 6 camping-cars; parking sans commodités. Borne eau/vidange sur le parking distinct du Musée du Tisserand, arrêt temporaire seulement.",
+      "nextCheck": "Garder Renodel séparé de l’aire de service du musée; ne pas attribuer les services au stade.",
+      "sources": [
+        "https://park4night.com/fr/place/58087",
+        "https://www.alpes-isere.com/sit/aire-de-stationnement-camping-cars-du-stade-renodel-40111/",
+        "https://tourisme-valsdudauphine.fr/on-a-teste-pour-vous-en-isere/venez-decouvrir-les-vals-de-dauphine-en-camping-cars/"
+      ],
+      "lot": 523,
       "checkedAt": "2026-11-22"
     }
   ]
