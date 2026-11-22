@@ -4,15 +4,15 @@
   "displayedCount": 49,
   "rawRegionalRows": 49,
   "deduplicatedRows": 0,
-  "currentLot": 458,
+  "currentLot": 459,
   "department": "70",
   "progress": {
-    "checked": 30,
+    "checked": 40,
     "total": 49,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 458 : fiches 21 à 30 contrôlées. Seasonova Vesoul : exploitant indique 130 emplacements dont environ 30 stabilisés camping-car; ouverture 02/04–15/12/2026, prix non publié dans page officielle consultée. Scey-sur-Saône : 8 emplacements de nuit; ancien tarif camping-car de 2022 uniquement (5 €/nuit, eau 2 €). Sainte-Marie-en-Chanois : stationnement gratuit, capacité contradictoire 2/4. Mailley : 4 places et borne Flot Bleu 2 €, panne signalée en mai 2026 sans suivi vérifié. La Montagne : 2 places gratuites; Jussey : 2 places et services gratuits. La Maladière : grille par poste, sans millésime; descriptions/capacité 100/61 contradictoires. Ballastières : services 5 € (2025) distincts du tarif de séjour; prix séjour, saison et capacité différents selon sources. Vert Lagon : page donne « 31 septembre », date impossible; tarif non trouvé. Miellin : tarifs et saison 2026 publiés, pas de vidange chimique sur le camping; vidange séparée à Servance 2 €. Aucune donnée du site modifiée.",
+  "note": "Lot 459 : fiches 31 à 40 contrôlées. Preigney : fermeture définitive signalée en 2020, anciennes données à retirer. La Jonquille : prix 2026 confirmés, 26,50/30 € pour deux personnes selon saison. Verte Rive : grille 2026 et services seuls à 3 €, dates d’ouverture officielles discordantes (27/30 septembre). Plusieurs campings ont une capacité totale publiée, sans capacité camping-car dédiée. Intermarché Lure : borne de disponibilité incertaine et tarif 2018 obsolète. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3720132687",
@@ -356,6 +356,122 @@
       "nextCheck": "Garder prix au millésime 2026; confirmer tarifs/saison 2027; conserver la distinction avec la borne de Servance.",
       "sources": [
         "https://hautesaonetourisme.com/offres/camping-de-miellin-servance-fr-4910888/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/5850",
+      "place": "Preigney — camping du Lac",
+      "lot": 459,
+      "checkedAt": "2026-11-22",
+      "status": "Fermeture définitive signalée en 2020; les annuaires et tarifs 2018 encore visibles sont obsolètes.",
+      "nextCheck": "Marquer fermé définitivement ou retirer des lieux actifs; ne pas réutiliser ancien prix/capacité.",
+      "sources": [
+        "https://www.estrepublicain.fr/edition-vesoul-haute-saone/2020/07/25/le-camping-de-preigney-a-ferme-definitivement",
+        "https://www.camping-car.com/aires/5850-camping-du-lac/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/20308",
+      "place": "Genevreuille — Ferme Château Gaillard / L’bout d’chemin",
+      "lot": 459,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme confirme camping à la ferme et hébergements; places CC, borne et tarif non confirmés.",
+      "nextCheck": "Demander à l’exploitant capacité, services camping-car et prix.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/ferme-chateau-gaillard-genevreuille-fr-4912965/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/5851",
+      "place": "Villersexel — camping Le Chapeau Chinois",
+      "lot": 459,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme accueil camping-car et 80 emplacements totaux, sans capacité dédiée ni tarif.",
+      "nextCheck": "Ne pas attribuer les 80 emplacements au seul accueil camping-car; demander capacité dédiée et prix.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/camping-le-chapeau-chinois-villersexel-fr-4909629/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/10461",
+      "place": "Hurecourt — camping La Jonquille",
+      "lot": 459,
+      "checkedAt": "2026-11-22",
+      "status": "12 emplacements caravane/CC dans la zone basse; 25 emplacements totaux. Tarifs 2026: 26,50 €/nuit basse saison ou 30 € haute saison pour 2 personnes avec eau et électricité; suppléments par personne, animal, douche et taxe.",
+      "nextCheck": "Enregistrer les tarifs avec périodes 2026 et suppléments; ne pas confondre capacité CC avec capacité totale.",
+      "sources": [
+        "https://www.camping-la-jonquille.com/tarifs/",
+        "https://www.camping-la-jonquille.com/les-emplacements/",
+        "https://www.atout-france.fr/fr/fiche/etablissement/camping-la-jonquille"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/10460",
+      "place": "Baulay — camping La Tuilerie",
+      "lot": 459,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme accueil CC, 6 emplacements totaux, électricité et douches; tarif non publié.",
+      "nextCheck": "Confirmer tarif et dates d’ouverture auprès du camping.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/camping-la-tuilerie-baulay-fr-4910764/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/4615",
+      "place": "Cromary — camping Verte Rive",
+      "lot": 459,
+      "checkedAt": "2026-11-22",
+      "status": "Grille 2026 publiée: basse saison 19,50 € pour 1 personne avec électricité / 17 € sans; 25 € pour 2 avec / 22,50 € sans. Service seul hors séjour 3 € (eau, eaux grises, cassette). Dates officielles discordantes: 27 ou 30 septembre.",
+      "nextCheck": "Séparer nuitée et forfait service; vérifier la date de fermeture exacte en 2026.",
+      "sources": [
+        "https://www.camping-verte-rive.com/tarifs/",
+        "https://www.camping-verte-rive.com/aire-camping-car/",
+        "https://hautesaonetourisme.com/offres/camping-verte-rive-cromary-fr-4909637/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/4609",
+      "place": "Les Aynans — camping intercommunal Le Pâtis",
+      "lot": 459,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme accueil CC, 50 emplacements totaux et 2 mobil-homes; tarif et capacité CC dédiée non publiés.",
+      "nextCheck": "Garder 50 comme capacité totale; demander tarifs et nombre de places adaptées.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/camping-le-patis-les-ayans-fr-4910778/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/29145",
+      "place": "Vy-lès-Rupt — aire privée chez Mirette",
+      "lot": 459,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche touristique mentionne aire/services; page touristique indique ouverture toute l’année et jeton Flot Bleu à 2 €. Périmètre du jeton non explicité.",
+      "nextCheck": "Présenter 2 € comme tarif de jeton, pas de nuitée; confirmer les prestations et durée.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-services-vy-les-rupt-fr-4910836/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/43838",
+      "place": "Lure — borne Intermarché",
+      "lot": 459,
+      "checkedAt": "2026-11-22",
+      "status": "Ancien tarif annuaire 2018; témoignages 2026 contradictoires, dont borne hors service. Magasin confirmé, borne non confirmée par l’enseigne.",
+      "nextCheck": "Ne pas garantir la borne ni reprendre le tarif 2018; demander confirmation magasin/mairie.",
+      "sources": [
+        "https://www.camping-car.com/aires/43838-borne-de-services/",
+        "https://www.intermarche.com/magasins/09269/lure-70200"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/8535",
+      "place": "Fresse — camping La Broche",
+      "lot": 459,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme accueil CC et 50 emplacements totaux; tarif actuel non publié, ancien tarif 2017 périmé.",
+      "nextCheck": "Garder capacité totale attribuée; demander tarif, saison et capacité CC dédiée.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/camping-de-la-broche-fresse-fr-4910784/"
       ]
     }
   ]
