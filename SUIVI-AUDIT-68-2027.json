@@ -4,15 +4,15 @@
   "displayedCount": 28,
   "rawRegionalRows": 28,
   "deduplicatedRows": 0,
-  "currentLot": 452,
+  "currentLot": 453,
   "department": "68",
   "progress": {
-    "checked": 20,
+    "checked": 28,
     "total": 28,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 8,
+    "totalInLot": 8
   },
-  "note": "Lot 452 : fiches 11 à 20 contrôlées. Kruth-Wildenstein : tarif 2027 CCP complet 13,50 € + taxe 1,32 € = 14,82 €. Linthal : source touristique officielle confirme borne gratuite, nuitée à clarifier. Ferrette 5 places gratuites; Turckheim 5 €/24h. Colmar : 2 aires port/OnlyPark séparées; tarif municipal diffère des fourchettes office de tourisme, assignation GPS encore à clarifier. Thann Bungert gratuit 48h, à distinguer du parking du Centre. Hartmannswiller 4 places et services confirmés, tarif non publié. Munster mairie affiche 16 €/24h tout inclus; millésime 2027 à vérifier. Oltingue : stationnement illimité, service eau+électricité 2 €. Ribeauvillé Cave : 15 €/24h et 2 € eau/12 min, vidange/remplissage seuls gratuits 45 min. Aucune donnée du site modifiée.",
+  "note": "Lot 453 : fiches 21 à 28 contrôlées; audit Haut-Rhin terminé (28/28). Eguisheim : tarifs communaux 2026 25 €/jour, 11 €/4h, vidanges gratuites; mention 35 €/quart d’heure ambiguë, tarif 2027 à confirmer. Terrasses du Lac Blanc : exploitant confirme 12 places, 7,50 €/nuit, électricité 5 €, gratuit si repas; OT mentionne aussi 9 places. Bollenberg : 5 places par l’exploitant, 8 dans l’annuaire; gratuité si achat ou repas. Chavannes : TTC 2027 12,20 €. Domaine Denis Meyer : 5 places, stationnement/services offerts avec achat, sans sanitaires. Burnhaupt-le-Haut : aire Hyper U/Poulaillon, détails prix/capacité/services absents. Hirtzbach : 10 places gratuites, vidange eaux usées seule explicitement confirmée. Vogelgrun : TTC 2027 13,90 €. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/4723666850",
@@ -242,6 +242,98 @@
       "nextCheck": "Tarifs confirmés; réconcilier coordonnées OSM et accès officiel au 14B route de Colmar.",
       "sources": [
         "https://www.vins-ribeauville.com/notre-aire-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/1194837076",
+      "place": "Eguisheim — aire camping-car du parking mairie",
+      "lot": 453,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif communal 2026 : 25 €/jour/emplacement, électricité comprise hors taxe de séjour; 11 €/tranche 4h; vidanges gratuites. Page indique « 1/4h supplémentaire : 35 € » et ticket perdu 25 €; la ligne de 35 € est ambiguë. Barème 2027 non trouvé.",
+      "nextCheck": "Garder 25 €/jour et 11 €/4h avec millésime 2026; clarifier quart d’heure et taxes auprès de la mairie; ne pas qualifier de tarif 2027.",
+      "sources": [
+        "https://www.ville-eguisheim.fr/vie-pratique/tarifs-communaux",
+        "https://www.tourisme-eguisheim-rouffach.com/FR/Aire-camping-cars-Eguisheim-f253000976.html"
+      ]
+    },
+    {
+      "sourceId": "way/1238034521",
+      "place": "Orbey — Terrasses du Lac Blanc",
+      "lot": 453,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant confirme 12 places, dont 8 avec électricité; 7,50 €/nuit, emplacement offert si repas au restaurant, raccordement électrique 5 €/nuit; taxe séjour en sus. OT donne 9 places en descriptif mais 12 dans capacité.",
+      "nextCheck": "Reprendre capacité de l’exploitant (12), signaler divergence OT; distinguer nuitée, électricité et gratuité conditionnelle.",
+      "sources": [
+        "https://www.lesterrassesdulacblanc.com/fr/aire-camping-car",
+        "https://www.kaysersberg.com/fr/detail/618/4484/230103475/aire-de-camping-car-des-terrasses-du-lac-blanc-orbey/"
+      ]
+    },
+    {
+      "sourceId": "way/1238139330",
+      "place": "Westhalten — Domaine du Bollenberg",
+      "lot": 453,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant annonce 5 places et gratuité avec achat à la cave ou réservation au restaurant; eau/électricité listées. OT annonce 8 places. Aucun prix non conditionnel publié; pas de vidange confirmée par l’exploitant.",
+      "nextCheck": "Préciser gratuité conditionnelle; résoudre capacité 5/8; ne pas ajouter vidange.",
+      "sources": [
+        "https://bollenberg.com/aire-de-camping-cars-domaine-du-bollenberg/",
+        "https://www.tourisme-eguisheim-rouffach.com/FR/Aire-camping-cars-Bollenberg-f253001408.html"
+      ]
+    },
+    {
+      "sourceId": "way/1298223340",
+      "place": "Chavannes-sur-l’Étang — CCP",
+      "lot": 453,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 complet : base 11,20 € + taxe 1 € = 12,20 €/24 h; 16 emplacements.",
+      "nextCheck": "Tarif 2027 confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haut-rhin/chavannes-sur-letang"
+      ]
+    },
+    {
+      "sourceId": "way/1298669016",
+      "place": "Voegtlinshoffen — Domaine Denis Meyer",
+      "lot": 453,
+      "checkedAt": "2026-11-22",
+      "status": "Domaine et office de tourisme : 5 places; parking et services eau/électricité/Wi-Fi gratuits à l’achat de quelques bouteilles; pas de sanitaires; réservation conseillée.",
+      "nextCheck": "Exprimer gratuité conditionnelle à l’achat; mentionner absence de sanitaires.",
+      "sources": [
+        "https://www.tourisme-eguisheim-rouffach.com/FR/Aire-camping-cars-Domaine-Denis-MEYER-f253004229.html"
+      ]
+    },
+    {
+      "sourceId": "way/1298670097",
+      "place": "Burnhaupt-le-Haut — aire parking Hyper U/Poulaillon",
+      "lot": 453,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme que l’aire est sur le parking Hyper U à côté de Poulaillon; pas de capacité, tarif ou services détaillés.",
+      "nextCheck": "Garder prix/capacité/services non confirmés; vérifier le point précis avec l’office/le commerce.",
+      "sources": [
+        "https://tourisme.cc-vallee-doller.fr/fr/detail/202/1465/241007168/aire-de-stationnement-pour-camping-car-burnhaupt-le-haut/"
+      ]
+    },
+    {
+      "sourceId": "way/1319729706",
+      "place": "Hirtzbach — aire place de la Gare",
+      "lot": 453,
+      "checkedAt": "2026-11-22",
+      "status": "Office du tourisme : 10 places, ouverte toute l’année, gratuite; seule la vidange des eaux usées est indiquée.",
+      "nextCheck": "Confirmer gratuité et capacité; ne pas ajouter services eau/électricité sans preuve.",
+      "sources": [
+        "https://www.sundgau-sud-alsace.fr/detail/1145/2379/242001510/aire-daccueil-de-camping-cars-hirtzbach/",
+        "https://www.sundgau-sud-alsace.fr/questions-frequentes/"
+      ]
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haut-rhin/vogelgrun-l-ile-du-rhin",
+      "place": "Vogelgrun — CCP L’Île du Rhin",
+      "lot": 453,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif 2027 : base 12,80 € + taxe 1,10 € = 13,90 €/24 h; 24 emplacements avec électricité.",
+      "nextCheck": "Tarif 2027 confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haut-rhin/vogelgrun-l-ile-du-rhin?areaType=aire-etape-camping-car"
       ]
     }
   ]
