@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 477,
+  "currentLot": 478,
   "department": "71",
   "progress": {
-    "checked": 170,
+    "checked": 180,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 477 : fiches 161 à 170 contrôlées. Domaine Debreuille : 6 places, gratuit 24–72 h selon site de l’exploitant, contacter avant arrivée. Collection Tramier : page 2026 confirme accueil et grand parking, conditions France Passion à préciser. Baptista, Four Bassot, Bressand, Duc, Lacharme, Clo Point et Cave de Bissey : annuaire Vins de Bourgogne indique l’accueil camping-car, mais ne précise pas nuitée/tarif/services. Château de la Greffière : accueil et France Passion confirmés; capacité et sanitaires proviennent de Bienvenue à la ferme. Aucune donnée du site modifiée.",
+  "note": "Lot 478 : fiches 171 à 180 contrôlées. Monterrain : fiche Destination 71 confirme accueil camping-car; tarifs et conditions actuelles à vérifier. Clos Saint Jean : accueil à la nuitée explicitement annoncé, sans prix ni équipements. Cadoles, Fortune, Millebuis, Vinzelles-Loché, Source des Fées, Gonon, Maison Mâconnaise des Vins et Verpaille : accueil des véhicules indiqué, mais la nuitée et/ou ses conditions ne sont généralement pas documentées. Distinguer les caves/domaines des aires publiques proches. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -1877,6 +1877,117 @@
       ],
       "lot": 477,
       "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car — Domaine de Monterrain",
+      "lot": 478,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche Destination 71 actuelle annonce l’accueil camping-car. Anciennes sources évoquent France Passion, mais conditions et tarif en vigueur non publiés sur la source actuelle.",
+      "nextCheck": "Confirmer auprès du domaine si la nuitée est possible et ses conditions.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/vin/monterrain.html",
+        "https://www.destination-saone-et-loire.fr/fr/les-restaurants-en-saone-et-loire.html"
+      ]
+    },
+    {
+      "place": "Accueil camping-car — Domaine Clos Saint Jean",
+      "lot": 478,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 annonce l’accueil camping-car à la nuitée; profil Vins de Bourgogne confirme l’accueil et l’adresse. Tarif et équipements non publiés.",
+      "nextCheck": "Conserver la nuitée comme annoncée, sans prix; confirmer les services.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/vin/domaine-clos-saint-jean.html",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-clos-saint-jean-cheilly-les-maranges-71150%2C2397%2C9211.html"
+      ]
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Les Cadoles de Chardonnay",
+      "lot": 478,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique « Accueil camping car : Oui »; nuitée, prix et capacité non précisés. Ne pas confondre avec l’hébergement distinct La Cadole de Chardonnay.",
+      "nextCheck": "Confirmer la nuitée et le prix auprès des Cadoles.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/les-cadoles-de-chardonnay-chardonnay-71700%2C2397%2C9211.html",
+        "https://lescadolesdechardonnay.fr/",
+        "https://www.lacadoledechardonnay.com/services-inclus/"
+      ]
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine Fortune Patrice",
+      "lot": 478,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique accueil camping-car, sans tarif ni condition de nuitée. Lieu distinct du Camping La Clé de Saône.",
+      "nextCheck": "Contacter le domaine; ne pas lui appliquer les tarifs ou services du camping voisin.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/fortune-patrice-creches-sur-saone-71680%2C2397%2C9211.html",
+        "https://www.patricefortunedomainesaintroch.com"
+      ]
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Millebuis, Vignerons de Buxy",
+      "lot": 478,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique accueil camping-car oui, sans tarif ni conditions de nuitée. Cave distincte des aires publiques de Buxy.",
+      "nextCheck": "Confirmer si le stationnement de nuit est autorisé et payant.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/millebuis-par-les-vignerons-de-buxy-buxy-71390%2C2397%2C9211.html",
+        "https://www.millebuis.fr/"
+      ]
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Cave de Vinzelles-Loché",
+      "lot": 478,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique accueil camping-car oui, sans tarif ni conditions de nuitée. L’aire communale devant le foyer rural est distincte et offre des services.",
+      "nextCheck": "Confirmer nuitée et services à la cave; ne pas attribuer les équipements municipaux à la cave.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/vinzelles-loche-vinzelles-71680%2C2397%2C9211.html",
+        "https://www.cavedevinzellesloche.com/fr/",
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-17"
+      ]
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine La Source des Fées",
+      "lot": 478,
+      "checkedAt": "2026-11-22",
+      "status": "Profil Vins de Bourgogne indique accueil camping-car; le site du domaine présente chambres d’hôtes, sans tarif de stationnement camping-car.",
+      "nextCheck": "Confirmer la nuitée dans le véhicule; ne pas utiliser les prix des chambres comme prix camping-car.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/la-source-des-fees-fuisse-71960%2C2397%2C9211.html",
+        "https://www.lasourcedesfees.fr/"
+      ]
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine Gonon",
+      "lot": 478,
+      "checkedAt": "2026-11-22",
+      "status": "Profil Vins de Bourgogne indique accueil camping-car, mais tarifs, services et nuitée non publiés dans les sources consultées.",
+      "nextCheck": "Appeler le domaine avant de prévoir une étape nocturne.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-gonon-vergisson-71960%2C2397%2C9211.html",
+        "https://www.domaine-gonon.com"
+      ]
+    },
+    {
+      "place": "Accueil camping-car — Maison Mâconnaise des Vins",
+      "lot": 478,
+      "checkedAt": "2026-11-22",
+      "status": "Site officiel confirme l’accueil des camping-cars sur le parking, sans indiquer que le stationnement de nuit est autorisé. Tarif de nuitée non publié.",
+      "nextCheck": "Confirmer l’autorisation de nuit avant de présenter comme étape.",
+      "sources": [
+        "https://maison-des-vins.com/preparer-votre-visite/",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/maison-maconnaise-des-vins-macon-71000%2C2397%2C9211.html"
+      ]
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine de la Verpaille",
+      "lot": 478,
+      "checkedAt": "2026-11-22",
+      "status": "Profil Vins de Bourgogne indique accueil camping-car oui, sans nuitée, tarif, capacité ou équipements détaillés.",
+      "nextCheck": "Vérifier les conditions de stationnement auprès du domaine.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/verpaille-estelle-et-baptiste-philippe-vire-71260%2C2397%2C9211.html"
+      ]
     }
   ]
 }
