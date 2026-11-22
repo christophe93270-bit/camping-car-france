@@ -1,0 +1,132 @@
+{
+  "scope": "Haute-Saône (70) : vérification tarifaire et statutaire des fiches de aires-haute-saone.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 49,
+  "rawRegionalRows": 49,
+  "deduplicatedRows": 0,
+  "currentLot": 456,
+  "department": "70",
+  "progress": {
+    "checked": 10,
+    "total": 49,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 456 : fiches 1 à 10 contrôlées. Esmoulières : 2 places gratuites toute l’année. Bois de Rochalain : 4 places au guide 2026; gratuité/services pas suffisamment confirmés. Étang Pellevin : stationnement gratuit, borne eau/électricité payante par carte, 6 places sur fiche touristique contre 4 au guide. Longevelle : accueil chez apiculteurs France Passion, prix/modalités à confirmer. Gray : 25 places, services 9–13 €, période affichée 13 mai–13 septembre sans année. CCP Luxeuil : tarif actuel 15,37 €/24 h TTC; forfait 5 h 6 €; capacité 45; base tarifaire visible jusqu’à 2027 mais taxe 2027 à confirmer. Vaivre-et-Montoille : 5 places dans le texte contre 6 dans la capacité. Bucey-lès-Gy : 4 places, jeton de service 2 €. Saint-Bresson : 2 places gratuites, borne eau/électricité 2 €. Fougerolles-Saint-Valbert : 6 places, 4 nuits maximum, eau/électricité et vidanges annoncées gratuites. Aucune donnée du site modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/3720132687",
+      "place": "Esmoulières — aire de stationnement",
+      "lot": 456,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme : 2 places gratuites, toute l’année sans réservation; table et poubelle.",
+      "nextCheck": "Fiche cohérente; conserver 2 places et gratuité.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-stationnement-pour-camping-cars-esmoulieres-fr-4909834/"
+      ]
+    },
+    {
+      "sourceId": "node/9937120217",
+      "place": "Bois de Rochalain — secteur de La Mer",
+      "lot": 456,
+      "checkedAt": "2026-11-22",
+      "status": "Guide touristique 2026 : 4 places. La source touristique consultée ne publie pas de tarif; des répertoires tiers mentionnent gratuité et 1 place.",
+      "nextCheck": "Conserver capacité 4 du guide; mettre le tarif à confirmer et vérifier accès/commune exacte.",
+      "sources": [
+        "https://decibelles-data.media.tourinsoft.eu/upload/aire-camping-car.pdf",
+        "https://hautesaonetourisme.com/offres/aire-de-stationnement-pour-camping-cars-la-montagne-fr-4914131/"
+      ]
+    },
+    {
+      "sourceId": "node/11944872589",
+      "place": "Écromagny — aire de l’étang Pellevin",
+      "lot": 456,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche touristique : parking gratuit pour 6 camping-cars; borne eau/électricité payante par carte. Guide officiel des 1000 Étangs 2026 : 4 places, divergence de capacité.",
+      "nextCheck": "Distinguer stationnement gratuit et services payants; laisser capacité à confirmer entre 4 et 6; tarif de borne non publié.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-services-pour-camping-cars-faucogney-et-la-mer-fr-4913776/",
+        "https://decibelles-data.media.tourinsoft.eu/upload/aire-camping-car.pdf"
+      ]
+    },
+    {
+      "sourceId": "node/12172985791",
+      "place": "Vantoux-et-Longevelle — accueil France Passion chez les apiculteurs",
+      "lot": 456,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme l’accueil chez Jocelyne et Laurent au hameau de Longevelle; prix, modalités et branchement électrique éventuel non précisés.",
+      "nextCheck": "Conserver comme accueil France Passion, pas comme aire municipale; demander les conditions et éventuels frais aux hôtes.",
+      "sources": [
+        "https://ot-montsdegy.com/accueil-camping-caristes--1600089464.html"
+      ]
+    },
+    {
+      "sourceId": "way/538520415",
+      "place": "Gray — aire de la route de la Plage",
+      "lot": 456,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme : 25 places; vidange/eau/électricité 9 à 13 €; période annoncée du 13 mai au 13 septembre sans année. Aucun tarif de nuitée n’est donné.",
+      "nextCheck": "Séparer tarif des services du prix de nuitée; confirmer le millésime de la période d’ouverture.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-camping-cars-gray-fr-4913178/"
+      ]
+    },
+    {
+      "sourceId": "way/699144454",
+      "place": "Luxeuil-les-Bains — aire CCP",
+      "lot": 456,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant : 15,37 €/24 h TTC actuellement (14,05 € + taxe 1,32 €), forfait 5 h + services 6 €, 45 places. Base 14,05 € indiquée jusqu’à fin 2027; période de taxe visible dans la source consultée jusqu’à fin 2026.",
+      "nextCheck": "Garder le prix affiché avec la date de vérification; obtenir confirmation de la taxe 2027 avant de présenter un TTC 2027 confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/luxeuil-les-bains"
+      ]
+    },
+    {
+      "sourceId": "way/699689298",
+      "place": "Vaivre-et-Montoille — aire du lac",
+      "lot": 456,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme : 5 places dans la description, 6 dans le champ capacité; eau, évacuation des eaux usées et toilettes publiques à proximité; aucun tarif publié.",
+      "nextCheck": "Garder prix non confirmé et relever capacité 5/6 contradictoire; ne pas compter les toilettes proches comme équipement de l’aire.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-stationnement-camping-car-vaivre-et-montoille-fr-4914239/",
+        "https://www.cirkwi.com/fr/point-interet/905562-aire-de-stationnement-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/889039486",
+      "place": "Bucey-lès-Gy — aire de services",
+      "lot": 456,
+      "checkedAt": "2026-11-22",
+      "status": "4 places; jeton Flot Bleu 2 € pour 4 h d’électricité ou 20 min d’eau ou de vidange. Tarif de stationnement non publié.",
+      "nextCheck": "Conserver la distinction entre forfait de services et nuitée; capacité confirmée.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-service-campings-cars-bucey-les-gy-fr-4915820/"
+      ]
+    },
+    {
+      "sourceId": "way/1023994928",
+      "place": "Saint-Bresson — aire rue de la Rua",
+      "lot": 456,
+      "checkedAt": "2026-11-22",
+      "status": "2 places, stationnement gratuit toute l’année; borne eau/électricité à jeton 2 €, table de pique-nique et poubelle.",
+      "nextCheck": "Afficher séparément parking gratuit et prix du jeton de service.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-daccueil-de-camping-cars-saint-bresson-fr-4910886/"
+      ]
+    },
+    {
+      "sourceId": "way/1213000762",
+      "place": "Fougerolles-Saint-Valbert — aire rue du Bas de Laval",
+      "lot": 456,
+      "checkedAt": "2026-11-22",
+      "status": "Office touristique : 6 places, maximum 4 nuits; vidanges, eau potable et électricité annoncées gratuites.",
+      "nextCheck": "Conserver capacité et limite de séjour; vérifier la disponibilité effective des bornes avant déplacement.",
+      "sources": [
+        "https://www.massif-des-vosges.fr/sit/hpabfc000v51gdac/",
+        "https://www.luxeuil-vosges-sud.fr/sit/aire-de-stationnement-camping-car"
+      ]
+    }
+  ]
+}
