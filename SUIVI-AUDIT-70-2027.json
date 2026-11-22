@@ -4,15 +4,15 @@
   "displayedCount": 49,
   "rawRegionalRows": 49,
   "deduplicatedRows": 0,
-  "currentLot": 459,
+  "currentLot": 460,
   "department": "70",
   "progress": {
-    "checked": 40,
+    "checked": 49,
     "total": 49,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 9,
+    "totalInLot": 9
   },
-  "note": "Lot 459 : fiches 31 à 40 contrôlées. Preigney : fermeture définitive signalée en 2020, anciennes données à retirer. La Jonquille : prix 2026 confirmés, 26,50/30 € pour deux personnes selon saison. Verte Rive : grille 2026 et services seuls à 3 €, dates d’ouverture officielles discordantes (27/30 septembre). Plusieurs campings ont une capacité totale publiée, sans capacité camping-car dédiée. Intermarché Lure : borne de disponibilité incertaine et tarif 2018 obsolète. Aucune donnée du site modifiée.",
+  "note": "Lot 460 : fiches 41 à 49 contrôlées. Haute-Saône (70) : 49/49 fiches auditées. Tarifs 2026 publiés pour Grands Prés (18 €/nuit pour 2 personnes, suppléments) et La Ravena (10 €/24 h). Borne de Montbozon : 2 € de services, pas une nuitée. Écurie de Lyly : 5 €/nuitée selon l’office de tourisme. Savoyeux présente des tarifs voyageurs contradictoires; La Pierre reste à confirmer. Fresne CCP (route de Vellexon) distinct de l’ancienne aire rue de la Fontaine. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3720132687",
@@ -472,6 +472,117 @@
       "nextCheck": "Garder capacité totale attribuée; demander tarif, saison et capacité CC dédiée.",
       "sources": [
         "https://hautesaonetourisme.com/offres/camping-de-la-broche-fresse-fr-4910784/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/6111",
+      "place": "Mélisey — camping La Pierre",
+      "lot": 460,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme: capacité totale contradictoire 52/53, accueil CC confirmé. Site communal affiche 6 € pour un emplacement sans millésime; source secondaire 2026 évoque une formule à 16,50 € services compris + 3,50 € électricité.",
+      "nextCheck": "Demander grille actuelle au camping; ne pas tenir les anciens prix pour confirmés; résoudre capacité.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/camping-la-pierre-melisey-fr-4910884/",
+        "https://melisey.fr/tourisme-a-melisey/le-camping-communal-la-pierre/",
+        "https://campingcar76.fr/Site%20P08%2070%20Aires%20services%20Haute%20Saone%20%28Franche%20Comte%29.htm"
+      ]
+    },
+    {
+      "sourceId": "destination70/6178627",
+      "place": "Aboncourt-Gesincourt — Camping des Grands Prés",
+      "lot": 460,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche touristique 2026: 6 places; 18 €/nuit pour 2 personnes, adulte supplémentaire 5 €, enfant/animal 3 €, vidange seule 5 €, tente 10 €; saison 10/03–31/12/2026.",
+      "nextCheck": "Détailler le tarif de base, suppléments et vidange; millésimer 2026.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/camping-des-grands-pres-aire-pour-camping-car-aboncourt-gesincourt-fr-6178627/",
+        "https://www.cirkwi.com/fr/point-interet/4904692-camping-des-grands-pres-aire-pour-camping-car"
+      ]
+    },
+    {
+      "sourceId": "office-tourisme-ainvelle-rue-du-chateau",
+      "place": "Ainvelle — aire municipale rue du Château",
+      "lot": 460,
+      "checkedAt": "2026-11-22",
+      "status": "Guide 2026 confirme deux places, borne vidange et recharge eau. Fiche secondaire dit aire gratuite, mais statut récent des services et électricité non confirmé par mairie.",
+      "nextCheck": "Garder deux places; confirmer gratuité et fonctionnement eau/électricité, surtout hors saison.",
+      "sources": [
+        "https://www.luxeuil-vosges-sud.fr/uploads/2026/03/guide-hebergements-2026.pdf",
+        "https://spot2play.com/spot/aire-de-service-ainvelle/"
+      ]
+    },
+    {
+      "sourceId": "office-tourisme-la-ravena",
+      "place": "Dampierre-lès-Conflans — aire privée La Ravena",
+      "lot": 460,
+      "checkedAt": "2026-11-22",
+      "status": "Guide officiel 2026 : 3 emplacements, borne vidange, eau/électricité, 10 €/24 h; annuaire secondaire affirme tarif services compris.",
+      "nextCheck": "Garder 10 €/24h avec attribution au guide 2026; reconfirmer auprès de l’hôte.",
+      "sources": [
+        "https://www.luxeuil-vosges-sud.fr/uploads/2026/03/guide-hebergements-2026.pdf",
+        "https://ville-data.com/camping/Aire-pour-camping-car--La-Ravena-70800/Dampierre-les-Conflans/70-3889-70196"
+      ]
+    },
+    {
+      "sourceId": "destination70/4910118",
+      "place": "Servance — aire de services rue de l’Église",
+      "lot": 460,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme : 4 emplacements gratuits; borne CB eau/électricité/vidange. Source secondaire 2026 donne eau 2,50 €, sans prix vérifié des autres services. Distincte de l’emplacement référencé 3 rue de Bourgagotte.",
+      "nextCheck": "Garder stationnement gratuit; tarifs borne et correspondance éventuelle avec Bourgagotte à vérifier localement.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-service-pour-camping-cars-servance-fr-4910118/",
+        "https://www.campingcar-infos.com/aire-servance-miellin/view.php?id=37534"
+      ]
+    },
+    {
+      "sourceId": "destination70/4909164",
+      "place": "Savoyeux — Saône Plaisance, port",
+      "lot": 460,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme aire et 4 places. Avis de voyageurs 2026 contradictoires : 10 €/nuit dans un avis récent contre indications de 6 € la nuit + 4 € électricité ailleurs.",
+      "nextCheck": "Maintenir tarif non confirmé et obtenir barème auprès de l’exploitant.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/saone-plaisance-port-de-plaisance-aire-de-camping-car-savoyeux-fr-4909164/",
+        "https://park4night.com/fr/place/11799"
+      ]
+    },
+    {
+      "sourceId": "destination70/4914614",
+      "place": "Montbozon — aire ZA Le Vay du Soleil",
+      "lot": 460,
+      "checkedAt": "2026-11-22",
+      "status": "Communauté de communes confirme borne de services à 2 € par CB. Il s’agit d’un tarif de services, pas de nuitée. Coordonnées touristiques erronées; GPS recoupé 47.4693062, 6.24805315.",
+      "nextCheck": "Garder 2 € comme tarif de borne; conserver GPS recoupé plutôt que les coordonnées erronées de la page tourisme.",
+      "sources": [
+        "https://www.ccpmc.fr/page/aire-de-service-pour-camping-cars",
+        "https://hautesaonetourisme.com/offres/aire-de-service-pour-camping-car-montbozon-fr-4914614/",
+        "https://www.i-campingcar.fr/aires.php?ville=MONTBOZON"
+      ]
+    },
+    {
+      "sourceId": "hautesaonetourisme/4910775",
+      "place": "Traves — aire de services de l’Écurie de Lyly",
+      "lot": 460,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme indique branchement électrique et stationnement à 5 €/nuitée; la commune confirme l’existence de l’aire.",
+      "nextCheck": "Garder le tarif publié avec attribution; reconfirmer ouverture et disponibilité auprès de l’exploitante.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-services-traves-fr-4910775/",
+        "https://traves.fr/portfolio-item/cours-dequitation-balade-en-poney/"
+      ]
+    },
+    {
+      "sourceId": "destination70/CCP-Fresne-Saint-Mames",
+      "place": "Fresne-Saint-Mamès — aire CAMPING-CAR PARK route de Vellexon",
+      "lot": 460,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant officiel : 22 places, électricité 6 A, adresse 1 route de Vellexon. Aucun prix ou statut d’ouverture explicite dans la page consultée. À distinguer de l’ancienne aire communale rue de la Fontaine, signalée hors service/possiblement supprimée.",
+      "nextCheck": "Prix CCP à confirmer; vérifier ouverture officielle; ne pas fusionner avec l’aire rue de la Fontaine.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/haute-saone/fresne-saint-mames",
+        "https://spot2play.com/spot/aire-gratuite-de-service-ou-stationnement-fresne-saint-mames",
+        "https://mairie-fresne-saint-mames.fr/wp-content/uploads/sites/683/2025/11/08-26-PROCES-VERBAL-DU-26-08-2025-SECRETAIRE.pdf"
       ]
     }
   ]
