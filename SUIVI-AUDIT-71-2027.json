@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 474,
+  "currentLot": 475,
   "department": "71",
   "progress": {
-    "checked": 140,
+    "checked": 150,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 474 : fiches 131 à 140 contrôlées. Volesvres : tarifs 2026 6,60 €/emplacement, 3,30 €/adulte, 1,70 €/enfant, 3,20 €/électricité selon source secondaire; grille mairie 2025 distingue enfants de 7–18 ans à 3,30 €, ouvertures divergentes. Boutière : 17,20–23,20 €, composition 2 adultes et électricité +4,50 €. Portes du Morvan : service vidange confirmé; tarif nuitée non trouvé, laverie 3 € distincte. Château Valogne: nu 5,50–6 €, électricité 4,50; saison 15/04–15/10. La Chauvotte et Camping de la Plage: tarifs/saisons 2026 confirmés. Montrouant: grille actuelle opérateur à 27 € forfait basse saison vs 25 € fiche, détails unitaires divergents, année non datée; accès camping-car difficile, 3 nuits min. Étang du Rousset: 20 places mais statut incertain (fiche vieille), pas de tarif; confirmer exploitation. Bords de Seille: grille officielle 12/14 €, suppléments distincts, capacité 32/33. Camping d’Autun: offre promo 15 € du 04–17/10/2026 échue; fermeture 17/10 vs 31/10 à clarifier. Aucune donnée du site modifiée.",
+  "note": "Lot 475 : fiches 141 à 150 contrôlées. Camping des Îles : 50 emplacements total, tarif 2026 non publié. Mervans : grille officielle 2026 aire CC, 15 €/nuit juin-septembre, 12 € hors saison, eau 3 €, électricité 6 €, taxe adulte 0,86 €, maxi 7 nuits; ancien PDF non daté dépassé. Les Deux Rivières : tarifs officiels 2026 détaillés et saisons confirmés. Bragny : camping + services confirmé, tarif non publié, distinguer parking communal voisin. Les Arbois : forte divergence entre grille exploitant non datée (15/25 €) et CampingFrance 2026 (9 € emplacement); à confirmer. Domaine Louvarel : pas de forfait fixe 2026. Bijou du Doubs : 22/28 € pour 2, électricité +6 € en option. Ferme des Maziers : 6 emplacements, saison 15/04–15/10, tarif officiel absent. Petit Montperroux : tarif relevé 2027, 35/52,50 € jusqu’à 5 m, pas 2026. Thil-sur-Arroux : 8 places, saison 18/04–31/10, tarif de base d’emplacement manquant dans source tarifaire secondaire. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -1548,6 +1548,118 @@
       "sources": [
         "https://www.campingautun.fr/tarifs/",
         "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-dautun.html"
+      ]
+    },
+    {
+      "place": "Camping des Îles",
+      "lot": 475,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 mise à jour 15/09/2026 confirme accueil camping-car et 50 emplacements au total. Prix séjour 2026 non publié et nombre dédié CC non précisé.",
+      "nextCheck": "Demander tarif et capacité camping-car au gestionnaire.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-des-iles.html",
+        "https://www.cirkwi.com/fr/point-interet/5789355-camping-des-iles"
+      ]
+    },
+    {
+      "place": "Camping municipal du Plan d’Eau",
+      "lot": 475,
+      "checkedAt": "2026-11-22",
+      "status": "Conseil municipal, grille 2026 pour aire camping-car: nuit 15 € juin-septembre/12 € octobre-mai, eau 3 €, électricité 6 €, taxe 0,86 €/adulte, max 7 nuits. Ancien PDF non daté indique d’autres services/prix.",
+      "nextCheck": "Actualiser la fiche avec la grille officielle datée 2026; distinguer prix nuitée, eau, électricité et taxe.",
+      "sources": [
+        "https://files.appli-intramuros.com/website/uploads/16243/2026/compte_rendu_cm_23_02_2026.pdf",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-municipal-du-plan-deau.html"
+      ]
+    },
+    {
+      "place": "Camping Les Deux Rivières",
+      "lot": 475,
+      "checkedAt": "2026-11-22",
+      "status": "Grille officielle 2026 par nuit : basse 4,50 € emplacement, 2 € véhicule, 5,50 € personne 3+, 0,50 € <3 ans, électricité 4,50 €, animal 2,50 €, taxe adulte 0,50 €. Haute saison : 8,50 €, véhicule 3 €, personne 7 €, <3 ans 1,50 €, électricité et animal identiques. ACSI/ANWB 19 € périodes publiées.",
+      "nextCheck": "Les tarifs détaillés sont vérifiés; conserver les saisons/options séparées.",
+      "sources": [
+        "https://www.camping-morvan.fr/pricing/",
+        "https://www.camping-morvan.fr/"
+      ]
+    },
+    {
+      "place": "Bragny Camping",
+      "lot": 475,
+      "checkedAt": "2026-11-22",
+      "status": "Fiches touristiques : camping municipal au bord de la Saône/Voie Bleue, accueil camping-car et aire de service. Tarif 2026 non publié. Parking communal camping-car séparé à environ 500 m.",
+      "nextCheck": "Demander tarif camping-car au camping; garder séparé du parking municipal et de son statut.",
+      "sources": [
+        "https://www.bragny-sur-saone.fr/",
+        "https://www.saonedoubsbressetourisme.fr/hebergements/bragny-camping/",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/bragny-camping.html"
+      ]
+    },
+    {
+      "place": "Camping Les Arbois",
+      "lot": 475,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant : grille sans année, 15 € mai/juin/septembre ou 25 € juillet/août emplacement+véhicule; personne 5 €, électricité 4,50 €, taxe 0,20 €. CampingFrance 2026 : emplacement 9 €, adulte 6 €, enfant 3,75 €, électricité 4 €, animal 2,50 €. Écart majeur.",
+      "nextCheck": "Demander au camping la grille 2026 actuelle et résoudre la différence; ne valider aucune valeur concurrente sans réponse.",
+      "sources": [
+        "https://www.campinglesarbois.com/fr/tarifs/",
+        "https://www.campingfrance.com/recherchez-votre-camping/bourgogne-franche-comte/saone-et-loire/montjay/les-arbois"
+      ]
+    },
+    {
+      "place": "Camping Yelloh! Village Le Domaine de Louvarel",
+      "lot": 475,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : accueil CC et vidange, camping comprenant environ 150 emplacements dont une majorité de locatifs. Site officiel à réservation dynamique, pas de tarif fixe emplacement CC 2026 trouvé.",
+      "nextCheck": "Demander tarif de dates précises ou conserver tarif non publié.",
+      "sources": [
+        "https://www.yellohvillage.fr/camping/le_domaine_de_louvarel",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-yelloh-village-le-domaine-de-louvarel.html"
+      ]
+    },
+    {
+      "place": "Camping Bijou du Doubs",
+      "lot": 475,
+      "checkedAt": "2026-11-22",
+      "status": "Site opérateur 2026 : emplacement pour 2 personnes 22 €/nuit basse saison ou 28 € haute; électricité 6 € en option. Tourisme confirme accueil CC et vidange.",
+      "nextCheck": "Tarifs vérifiés; ne pas inclure automatiquement l’électricité dans le forfait.",
+      "sources": [
+        "https://bijoududoubs.com/?lang=fr&page_id=6717",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-bijou-du-doubs.html"
+      ]
+    },
+    {
+      "place": "La Ferme des Maziers",
+      "lot": 475,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant : camping ouvert 15/04–15/10, électricité disponible; fiche tourisme indique 6 emplacements camping-car. Aucun tarif officiel 2026 affiché; environ 13,40 € vient d’un annuaire tiers seulement.",
+      "nextCheck": "Demander prix au gérant; ne pas entrer tarif tiers comme tarif confirmé.",
+      "sources": [
+        "https://lafermedesmaziers.com/le-camping/",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/la-ferme-des-maziers.html",
+        "https://www.camping.info/fr/emplacement-de-camping/camping-la-ferme-des-maziers"
+      ]
+    },
+    {
+      "place": "Camping Le Petit Montperroux",
+      "lot": 475,
+      "checkedAt": "2026-11-22",
+      "status": "Site officiel : grille 2027, 35 € moyenne saison/52,50 € haute pour camping-car/caravane jusqu’à 5 m, 2 personnes, certains emplacements seulement; suppléments et taxe en sus. Pas de tarif 2026 distinct trouvé.",
+      "nextCheck": "Garder ce tarif sous l’année 2027; ne pas l’afficher comme tarif 2026.",
+      "sources": [
+        "https://lepetitmontperroux.com/fr/tarifs/",
+        "https://www.autun-tourisme.com/offres/camping-le-petit-montperroux-saint-didier-sur-arroux-fr-3456533/"
+      ]
+    },
+    {
+      "place": "Aire naturelle de Thil-sur-Arroux",
+      "lot": 475,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme 8 emplacements, ouverte 18/04–31/10/2026 tous les jours 9h–19h. CampingFrance : voiture 2 €, adulte 2,50 €, enfant 1,50 €, électricité 3 €; tarif de base d’emplacement absent.",
+      "nextCheck": "Confirmer le prix de l’emplacement avant d’annoncer le coût total d’une nuit.",
+      "sources": [
+        "https://www.autun-tourisme.com/offres/aire-naturelle-de-thil-sur-arroux-thil-sur-arroux-fr-3456506/",
+        "https://www.campingfrance.com/recherchez-votre-camping/bourgogne-franche-comte/saone-et-loire/thil-sur-arroux/aire-naturelle-municipale34"
       ]
     }
   ]
