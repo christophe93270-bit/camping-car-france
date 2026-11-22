@@ -4,15 +4,15 @@
   "displayedCount": 28,
   "rawRegionalRows": 28,
   "deduplicatedRows": 0,
-  "currentLot": 445,
+  "currentLot": 446,
   "department": "66",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 28,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 445 : fiches 1 à 10 contrôlées. Tarifs 2027 CCP confirmés : Saint-Paul-de-Fenouillet 14,58 € TTC et Porté-Puymorens 16,57 € TTC. Vernet-les-Bains : tarif actuel non établi. Thuès-Entre-Valls 20 €/nuit (barème 2026, 8 € par journée supplémentaire selon source régionale). Port-Vendres 8–12 € selon saison; Saint-Cyprien 11,26–15,46 € variable; Le Boulou à partir de 14,44 €; Bélesta 5 €/nuit + services à partir de 2 €; Saint-Marsal forfait 3 €; Camping Amélia 8 €/nuit pour deux personnes. Tarifs locaux documentés en 2026; reconduction 2027 à confirmer. Aucune donnée du site modifiée.",
+  "note": "Lot 446 : fiches 11 à 20 contrôlées. Matemale 16,89 € et Thuir 15,30 € TTC 2027 confirmés; Saint-Pierre-dels-Forcats taxe 2027 à confirmer. Ille-sur-Têt est une aire de services Super U, eau gratuite, électricité à jeton. Font-Romeu, Maury, Mont-Louis et Le Boulou : tarifs publiés en 2026 et millésime 2027 à confirmer; Elne conserve une contradiction d’affichage 15,46/16,68 €. Distinction/correction entre deux aires du Boulou : communale secteur Stade (30 places, gratuité communautaire à confirmer) et Qipeo route du Perthus (42 places, payante). Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "way/49429008",
@@ -74,13 +74,15 @@
     },
     {
       "sourceId": "way/475423551",
-      "place": "Le Boulou — aire derrière le Casino Joa",
+      "place": "Le Boulou — aire communale gratuite, secteur Avenue du Stade (à distinguer de l’aire Qipeo route du Perthus)",
       "lot": 445,
       "checkedAt": "2026-11-22",
-      "status": "Tourisme PO : aire de 42 places ouverte toute l’année; paiement Qipeo/barrière; eau, électricité 10 A, vidanges eaux usées et toilettes chimiques. Tarif 2026 à partir de 14,44 €/nuit.",
-      "nextCheck": "Renseigner Le Boulou, adresse derrière Casino Joa et services; trouver tarif saisonnier exact et barème 2027.",
+      "status": "Correction du rapprochement effectué au lot 445 : ce point GPS (42.5273, 2.8381) correspond à l’aire communale, distincte de l’aire Qipeo de 42 places route du Perthus. Sources OSM/agrégateurs indiquent 30 places et stationnement gratuit; pas de service confirmé sur ce point.",
+      "nextCheck": "Confirmer auprès de la mairie de Le Boulou le règlement, la gratuité, les services et l’adresse exacte; maintenir cette fiche séparée de l’aire payante Qipeo (way/1293082059).",
       "sources": [
-        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-de-stationnement-du-boulou-le-boulou-fr-5744872/"
+        "https://spot2play.com/spot/aire-communale-camping-cars-le-boulou/",
+        "https://carbu.fr/aires-camping-car/66-pyrenees-orientales/",
+        "https://www.mairie-leboulou.fr/cms_viewFile.php?idtf=139401&path=Plan-de-ville-Le-Boulou.pdf"
       ]
     },
     {
@@ -129,6 +131,121 @@
       "nextCheck": "Aucune correction tarifaire.",
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/porte-puymorens"
+      ]
+    },
+    {
+      "sourceId": "way/890930044",
+      "place": "Ille-sur-Têt — aire de services Super U",
+      "lot": 446,
+      "checkedAt": "2026-11-22",
+      "status": "Aire de service sur le parking du Super U; eau gratuite, électricité à jeton acheté à la station ou à la borne, ouverte en 2026. Aucun tarif de nuitée établi.",
+      "nextCheck": "Renseigner Ille-sur-Têt, type aire de services; ne pas annoncer de tarif de nuitée.",
+      "sources": [
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-de-service-super-u-ille-sur-tet-fr-5743136/"
+      ]
+    },
+    {
+      "sourceId": "way/1065471058",
+      "place": "Font-Romeu-Odeillo-Via — aire 17 rue du 19 Mars 1962",
+      "lot": 446,
+      "checkedAt": "2026-11-22",
+      "status": "Aire clôturée/sécurisée de 28 places, ouverte toute l’année, 24h/24. Stationnement : 10 € basse saison / 13,30 € haute saison; eau 2 €/10 min; vidange 4–5 € selon saison (barème 2026).",
+      "nextCheck": "Renseigner Font-Romeu-Odeillo-Via; distinguer stationnement, eau et vidange; confirmer tarifs 2027.",
+      "sources": [
+        "https://font-romeu.fr/hebergements/aire-de-camping-car/",
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-de-camping-car-font-romeu-odeillo-via-fr-5743473/"
+      ]
+    },
+    {
+      "sourceId": "way/1079474578",
+      "place": "La Llagonne — CCP Matemale, lac de Matemale",
+      "lot": 446,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 complet : base 15,35 € + taxe 1,54 € = 16,89 €/24 h; 40 places.",
+      "nextCheck": "Aucune correction tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/matemale"
+      ]
+    },
+    {
+      "sourceId": "way/1159176863",
+      "place": "Saint-Pierre-dels-Forcats — CCP Cambre d’Aze",
+      "lot": 446,
+      "checkedAt": "2026-11-22",
+      "status": "Prix courant 15,74 €/24 h; barème montre base 14,58 € jusqu’au 31/12/2027 et taxe 1,16 € jusqu’au 31/12/2026 seulement. Total TTC annuel 2027 non confirmé. 22 places; électricité.",
+      "nextCheck": "Confirmer auprès de CCP la taxe de séjour 2027; garder le tarif actuel distinct du total annuel futur.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/st-pierre-dels-forcats"
+      ]
+    },
+    {
+      "sourceId": "way/1159392006",
+      "place": "Thuir — CCP",
+      "lot": 446,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif annuel 2027 confirmé : base 14 € + taxe 1,30 € = 15,30 €/24 h; barème valable jusqu’au 31/12/2027. 10 places.",
+      "nextCheck": "Aucune correction tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/66-pyrenees-orientales/thuir"
+      ]
+    },
+    {
+      "sourceId": "way/1169721916",
+      "place": "Maury — aire municipale avenue Jean Jaurès",
+      "lot": 446,
+      "checkedAt": "2026-11-22",
+      "status": "10 places; stationnement gratuit 48 h. Eau env. 100 L à 3,50 €; électricité à 3,50 €/24 h. Eau/vidange/électricité hors service en hiver (fiche 2026).",
+      "nextCheck": "Renseigner Maury; séparer prix séjour et services; confirmer barème 2027 et calendrier de remise en service hivernale.",
+      "sources": [
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-camping-car-maury-maury-fr-5743538/"
+      ]
+    },
+    {
+      "sourceId": "way/1268338482",
+      "place": "Elne — CCP",
+      "lot": 446,
+      "checkedAt": "2026-11-22",
+      "status": "Incohérence officielle maintenue : barème annuel base 13,74 € + taxe 1,72 € = 15,46 €/24 h en 2027; annuaire par défaut affiche 15,46 €, mais un encart de la fiche détaillée affiche 16,68 €. 49 places, aire ouverte.",
+      "nextCheck": "Garder l’alerte tarif contradictoire et demander à l’opérateur de corriger l’encart ou le barème.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/elne",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/elne?areaType=area-de-descanso-autocaravanas"
+      ]
+    },
+    {
+      "sourceId": "way/1282212151",
+      "place": "Mont-Louis — aire des remparts",
+      "lot": 446,
+      "checkedAt": "2026-11-22",
+      "status": "Parking des remparts avec eau potable et vidange; tarif services publié 7 € en 2026. Aucun tarif de nuitée clair dans les sources consultées.",
+      "nextCheck": "Renseigner Mont-Louis; maintenir nuitée non publiée et affecter 7 € au seul forfait/service.",
+      "sources": [
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-de-camping-car-des-remparts-de-mont-louis-mont-louis-fr-5778683/",
+        "https://www.camping-car.com/aires/31073-aire-communale/"
+      ]
+    },
+    {
+      "sourceId": "way/1284389682",
+      "place": "Laroque-des-Albères — CCP",
+      "lot": 446,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif courant affiché 16 €/24 h (base 14,28 € + taxe 1,72 €). Base publiée jusqu’au 31/12/2027; taxe consultée jusqu’au 31/12/2026 seulement, donc total annuel 2027 à confirmer. 22 places; caravanes et vans non autonomes interdits.",
+      "nextCheck": "Confirmer taxe 2027 avant de qualifier le total annuel comme confirmé; garder restrictions de véhicules.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/laroque-des-alberes"
+      ]
+    },
+    {
+      "sourceId": "way/1293082059",
+      "place": "Le Boulou — aire de stationnement Qipeo, route du Perthus (distincte de l’aire communale)",
+      "lot": 446,
+      "checkedAt": "2026-11-22",
+      "status": "Aire payante Qipeo de 42 places, Route du Perthus, 42.5122/2.8306; eau, vidange, électricité 10 A et WC; tarif à partir de 14,44 €/nuit publié pour 2026. Distincte de l’aire communale du secteur Avenue du Stade (30 places, gratuité indiquée par des sources communautaires).",
+      "nextCheck": "Renseigner la commune et le bon lieu; confirmer tarif 2027 et préserver deux fiches séparées.",
+      "sources": [
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-de-stationnement-du-boulou-le-boulou-fr-5744872/",
+        "https://www.aireparkreservation.com/aires-camping-car/pyrenees-orientales",
+        "https://spot2play.com/spot/aire-communale-camping-cars-le-boulou/"
       ]
     }
   ]
