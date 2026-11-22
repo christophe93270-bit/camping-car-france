@@ -1,0 +1,138 @@
+{
+  "scope": "Sarthe (72) : audit tarifaire et de conditions des fiches de aires-sarthe.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 17,
+  "rawRegionalRows": 17,
+  "deduplicatedRows": 0,
+  "currentLot": 489,
+  "department": "72",
+  "progress": {
+    "checked": 10,
+    "total": 17,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 489 : fiches 1 à 10 vérifiées. Bonnétable, Bouloire, La Bruère, La Flèche, Luché-Pringé et Marigné-Laillé concordent avec l’affichage actuel CCP; tarifs publiés restent temporels. Avoise, Le Lude et Mansigné ont des écarts entre le prix enregistré (à période tarifaire annoncée) et le prix « en ce moment » sur CCP. Saint-Saturnin diffère de 0,06 €. Bonnétable : toilettes publiques temporairement fermées. 7 fiches restent.",
+  "entries": [
+    {
+      "sourceId": "campingcarpark/72/avoise",
+      "place": "Avoise — Aire CAMPING-CAR PARK d’Avoise",
+      "lot": 489,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif du dossier : 12,22 €/24 h (période annoncée du 07/10/2026 au 31/12/2027), taxe 2027 à confirmer. La page opérateur consultée affiche « en ce moment » 15,13 €/24 h, dont 0,88 € de taxe : écart à expliquer selon période.",
+      "nextCheck": "Vérifier le calendrier tarifaire CCP; ne pas remplacer la grille datée par un prix instantané sans confirmer les périodes.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/avoise",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/avoise"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/bonnetable",
+      "place": "Bonnétable — Aire CAMPING-CAR PARK de Bonnétable — La Prairie",
+      "lot": 489,
+      "checkedAt": "2026-11-22",
+      "status": "Concordance : dossier 13,34 € + 0,88 € de taxe = 14,22 €/24 h; c’est le prix « en ce moment » affiché par l’opérateur. Les toilettes publiques sont signalées temporairement fermées pour travaux; services listés ouverts jusqu’au 31/12/2026.",
+      "nextCheck": "Garder 14,22 € TTC; vérifier réouverture des toilettes avant séjour.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/bonnetable",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/bonnetable"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/bouloire",
+      "place": "Bouloire — Aire CAMPING-CAR PARK de Bouloire",
+      "lot": 489,
+      "checkedAt": "2026-11-22",
+      "status": "Concordance : 12,73 €/24 h et taxe de séjour nulle affichés par l’opérateur; la page compte 12 places et 79 avis récents.",
+      "nextCheck": "Prix cohérent; reprendre le 12,73 € total et confirmer les conditions avant départ.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/bouloire",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/bouloire"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/bruere-sur-loir",
+      "place": "La Bruère-sur-Loir — Aire CAMPING-CAR PARK de La Bruère-sur-Loir",
+      "lot": 489,
+      "checkedAt": "2026-11-22",
+      "status": "Concordance actuelle : 11,71 € + taxe affichée 1,32 € = 13,03 €/24 h. Le dossier mentionne le montant de taxe 2026 et demande vérification pour 2027.",
+      "nextCheck": "Conserver 13,03 € comme prix affiché au moment de vérification; contrôler taxe 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/bruere-sur-loir",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/bruere-sur-loir"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/la-fleche-la-monnerie",
+      "place": "La Flèche — Aire CAMPING-CAR PARK de La Flèche — La Monnerie",
+      "lot": 489,
+      "checkedAt": "2026-11-22",
+      "status": "Concordance : 13 € + taxe 1,32 € = 14,32 €/24 h affichés par l’opérateur; 32 places de 6 A.",
+      "nextCheck": "Garder le tarif total daté; vérifier la taxe de séjour 2027 séparément si elle change.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/la-fleche-lac-de-la-monnerie",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/la-fleche-lac-de-la-monnerie"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/le-lude",
+      "place": "Le Lude — Aire CAMPING-CAR PARK du Lude",
+      "lot": 489,
+      "checkedAt": "2026-11-22",
+      "status": "Écart tarifaire : dossier indique 11,71 € + 1,32 € (13,03 € total), tandis que la page exploitant consultée affiche « en ce moment » 15,57 €, taxe comprise à hauteur de 1,32 €. Variation de tarif à dater.",
+      "nextCheck": "Vérifier dans le calendrier CCP à quelles dates s’appliquent 13,03 € et 15,57 €.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/le-lude",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/le-lude"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/luche-pringe",
+      "place": "Luché-Pringé — Aire CAMPING-CAR PARK de Luché-Pringé",
+      "lot": 489,
+      "checkedAt": "2026-11-22",
+      "status": "Concordance de la page actuelle : 11,71 € + 1,32 € = 13,03 €/24 h affichés. Les emplacements 6 A et l’adresse rue des Prés sont confirmés.",
+      "nextCheck": "Garder 13,03 € TTC comme tarif affiché, confirmer saison de sanitaires et éventuelle taxe 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/luche-pringe",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/luche-pringe"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/mansigne",
+      "place": "Mansigné — Aire CAMPING-CAR PARK de Mansigné",
+      "lot": 489,
+      "checkedAt": "2026-11-22",
+      "status": "Écart tarifaire : dossier 11,71 € + 1,32 € (13,03 € total), page exploitant « en ce moment » 15,57 €, dont 1,32 € de taxe. La page confirme 17 places et une taxe affichée à 1,32 €.",
+      "nextCheck": "Vérifier dates d’application dans le calendrier tarifaire CCP; actualiser le total après clarification.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/mansigne",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/mansigne"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/marigne-laille",
+      "place": "Marigné-Laillé — Aire CAMPING-CAR PARK de Marigné-Laillé",
+      "lot": 489,
+      "checkedAt": "2026-11-22",
+      "status": "Concordance : 13,60 € + taxe 0,66 € = 14,26 €/24 h affichés. Page opérateur rappelle le PPRI et interdit le stationnement sur les parcelles enherbées; sanitaires annoncés saisonniers.",
+      "nextCheck": "Garder 14,26 € TTC; rappeler les consignes de stationnement et le risque PPRI.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/marigne-laille",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/marigne-laille"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/saint-saturnin",
+      "place": "Saint-Saturnin — Aire CAMPING-CAR PARK de Saint-Saturnin",
+      "lot": 489,
+      "checkedAt": "2026-11-22",
+      "status": "Petit écart : dossier 14,34 € + taxe 1,32 € = 15,66 €/24 h; page exploitant affiche actuellement 15,72 €, dont 1,32 € de taxe. Soit 0,06 € de différence sur le prix hors taxe.",
+      "nextCheck": "Vérifier le calendrier ou barème 2027 et corriger le total après confirmation.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/st-saturnin",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/st-saturnin"
+      ]
+    }
+  ]
+}
