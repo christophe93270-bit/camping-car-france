@@ -4,15 +4,15 @@
   "displayedCount": 22,
   "rawRegionalRows": 22,
   "deduplicatedRows": 0,
-  "currentLot": 491,
+  "currentLot": 492,
   "department": "73",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 22,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 491 : 10 premières fiches sur 22 vérifiées. Constats principaux : Menuires capacité contradictoire 60/70; Féclaz électricité de borne hors service depuis nov. 2025; Aix-les-Bains taxe 2027 à confirmer et capacité 71/78; plusieurs fiches concernent des aires de services sans autorisation de nuitée confirmée. Les fiches du site n’ont pas été modifiées.",
+  "note": "Lot 492 : fiches 11 à 20 sur 22 vérifiées. Constats : Moûtiers, tarifs contradictoires dans la fiche touristique; La Chambre, 9 places gratuites pour 72 h et services saisonniers; Lescheraines, tarif non publié. Tarifs CCP vérifiés; capacités à résoudre à Grand Tétras et Col des Saisies. Deux fiches restent à examiner. Aucun fichier de fiches du site modifié.",
   "entries": [
     {
       "sourceId": "node/12014868832",
@@ -133,6 +133,124 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/savoie/serrieres-en-chautagne"
       ],
       "lot": 491,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/992926168",
+      "place": "Val-d’Arc — Aiguebelle, aire municipale du Champ de Foire",
+      "status": "Source officielle : 4 places estimées, parking gratuit, aire ouverte toute l’année; eau et vidanges, jeton 2 € (approvisionnement d’environ 100 l). Toilettes non confirmées par la source officielle consultée.",
+      "nextCheck": "Corriger la commune en Val-d’Arc; séparer stationnement gratuit et services à jeton; confirmer les toilettes.",
+      "sources": [
+        "https://www.openstreetmap.org/way/992926168",
+        "https://www.portedemaurienne-tourisme.com/aire-de-service-camping-car/"
+      ],
+      "lot": 492,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1214142357",
+      "place": "Albiez-Montrond — Aire des Contamines",
+      "status": "Maurienne Tourisme confirme un parking camping-car à l’entrée du village, emplacements sur terre battue, eau et sanitaires. Les pages touristiques donnent des périodes différentes pour fontaine/WC; la source indique aussi que l’accès à l’électricité se règle en mairie. Tarif de nuitée non établi; nom de commune du dossier à vérifier.",
+      "nextCheck": "Remplacer/valider Albiez-le-Vieux par Albiez-Montrond; confirmer période des sanitaires/eau et frais d’électricité. Ne pas attribuer un tarif de nuitée non publié.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1214142357",
+        "https://www.maurienne-tourisme.com/hebergement/aire-de-stationnement-camping-cars-les-contamines-48070/"
+      ],
+      "lot": 492,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1232709069",
+      "place": "Boucle de Bellevue — secteur du Revard",
+      "status": "Des annuaires cartographiques secondaires annoncent 10 places, eau/vidange et stationnement gratuit, sans électricité; aucune source officielle locale n’a confirmé ces détails pendant cet audit. Commune exacte et accès hivernal à confirmer.",
+      "nextCheck": "Conserver prix et services comme non confirmés; demander confirmation à la commune avant d’annoncer une aire officielle ou la gratuité.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1232709069",
+        "https://caraplace.ch/fr/placeme/aire-du-camping-cars-boucle-de-bellevue-15205"
+      ],
+      "lot": 492,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1266620924",
+      "place": "La Chambre — place du Champ de Foire, aire de services et stationnement",
+      "status": "Office de tourisme : 9 emplacements gratuits pour 72 h; borne à jetons, inaccessible en période hivernale; période annoncée du 15/04 au 31/10. Montant du jeton non publié.",
+      "nextCheck": "Ajouter les 9 places, la gratuité et la limite 72 h; noter la saison de la borne et confirmer le coût du jeton.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1266620924",
+        "https://www.tourisme-la-chambre.com/fr/tourisme/hebergements/campings/aire-de-service-camping-car-329268"
+      ],
+      "lot": 492,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1282445094",
+      "place": "Moûtiers — aire de camping-car, avenue des XVIes Jeux olympiques",
+      "status": "Cœur de Tarentaise Tourisme : 6 places, ouverte toute l’année 24 h/24, électricité; 12,44 €/nuit, 24,88 €/2 nuits, 36,32 €/3 nuits; eau 3,30 €/10 min. La même fiche indique aussi 10 € + taxe 0,44 €, tarifs incompatibles.",
+      "nextCheck": "Mettre à jour capacité/services; obtenir confirmation du tarif par la mairie ou Réseau AirePark avant d’écrire le prix sur le site.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1282445094",
+        "https://www.explore-savoie.com/aires-camping-cars/aire-de-camping-car-de-moutiers-6242405/"
+      ],
+      "lot": 492,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1313217839",
+      "place": "Lescheraines — aire d’accueil camping-car de l’Île du Chéran",
+      "status": "Office de tourisme : 10 places, borne de remplissage/vidange, sanitaires du camping accessibles, pas de taxe de séjour; ouverture 05/04–11/10/2026. La mairie autorise la nuit uniquement au camping ou sur cette aire; prix de l’aire absent de la source.",
+      "nextCheck": "Compléter commune, capacité et saison; garder le tarif non confirmé et ne pas confondre avec le stationnement de jour de la base de loisirs.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1313217839",
+        "https://www.chamberymontagnes.com/preparer/hebergements/camping-aires-camping-cars/aire-daccueil-camping-car-lile-du-cheran-lescheraines-fr-5782988",
+        "https://www.lescheraines.fr/economie-/-tourisme-/-loisirs/base-de-loisirs-des-iles-du-cheran"
+      ],
+      "lot": 492,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1432161435",
+      "place": "Bessans — aire CAMPING-CAR PARK Haute Maurienne Vanoise",
+      "status": "Grille officielle : 17 €/24 h et taxe 1,32 € en 2027, soit 18,32 € TTC; parking 5 h + services 6 €; capacité 48 places, 6 A. Total du dossier exact, date de début de grille mise à jour (21/11/2026 contre 15/11 dans le fichier).",
+      "nextCheck": "Garder le total 2027 et aligner la date de début sur la grille courante; conserver l’information de régulation électrique.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1432161435",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/savoie/bessans"
+      ],
+      "lot": 492,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "campingcarpark/73/grand-tetras-les-saisies",
+      "place": "Villard-sur-Doron — CAMPING-CAR PARK Grand Tétras, Les Saisies",
+      "status": "Tarifs officiels : 15 €/24 h jusqu’au 30/11/2026, puis 30 €; taxe 1,32 € jusqu’à fin 2027. Fermée pour travaux jusqu’au 30/11 inclus, réservations requises sur périodes publiées. Page annonce 46 places de 10 A; disponibilité 0/0 pendant fermeture.",
+      "nextCheck": "Tarifs concordants; ajouter capacité annoncée de 46 en expliquant que l’affichage de disponibilité est suspendu pendant la fermeture.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/savoie/grand-tetras-les-saisies"
+      ],
+      "lot": 492,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "campingcarpark/73/col-les-saisies",
+      "place": "Hauteluce — CAMPING-CAR PARK Col des Saisies",
+      "status": "Tarifs officiels : 15 €/24 h jusqu’au 30/11/2026, puis 22 €; taxe 1,32 € jusqu’à fin 2027. Réservation obligatoire sur certaines périodes. Capacité divergente dans la page officielle : disponibilité de 32 places mais description de 36.",
+      "nextCheck": "Prix du dossier conforme; clarifier la capacité 32/36 et conserver les périodes de réservation.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/savoie/col-%20les-saisies"
+      ],
+      "lot": 492,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "campingcarpark/73/la-plagne-villages",
+      "place": "La Plagne Tarentaise — CAMPING-CAR PARK La Plagne Villages",
+      "status": "Grille officielle : 16 €/24 h jusqu’au 30/11, 29 € du 01/12/2026 au 31/03/2027, puis 16 €; taxe 1,32 € jusqu’à fin 2027; 44 places 10 A. Ouverture annoncée à partir du 15/12, réservation obligatoire du 18/12 au 01/05. Début de période affiché 22/11, non 16/11 comme dans le fichier.",
+      "nextCheck": "Tarifs conformes; aligner la date de début de la première tranche et rappeler ouverture/réservation.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/savoie/la-plagne-villages"
+      ],
+      "lot": 492,
       "checkedAt": "2026-11-22"
     }
   ]
