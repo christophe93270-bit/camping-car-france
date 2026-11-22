@@ -4,15 +4,15 @@
   "displayedCount": 22,
   "rawRegionalRows": 22,
   "deduplicatedRows": 0,
-  "currentLot": 492,
+  "currentLot": 493,
   "department": "73",
   "progress": {
-    "checked": 20,
+    "checked": 22,
     "total": 22,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 2,
+    "totalInLot": 2
   },
-  "note": "Lot 492 : fiches 11 à 20 sur 22 vérifiées. Constats : Moûtiers, tarifs contradictoires dans la fiche touristique; La Chambre, 9 places gratuites pour 72 h et services saisonniers; Lescheraines, tarif non publié. Tarifs CCP vérifiés; capacités à résoudre à Grand Tétras et Col des Saisies. Deux fiches restent à examiner. Aucun fichier de fiches du site modifié.",
+  "note": "Département Savoie (73) : audit terminé, 22/22 fiches vérifiées en trois lots (10, 10, 2). À confirmer : écarts de capacité aux Saisies, prix contradictoires à Moûtiers et unité de prix à Pralognan; statut, tarifs et conditions des aires à venir Grignon et Pralognan. Les sources des lots détaillent les autres corrections, notamment aires de services vs nuitées. Aucun fichier de fiches du site modifié.",
   "entries": [
     {
       "sourceId": "node/12014868832",
@@ -252,6 +252,30 @@
       ],
       "lot": 492,
       "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "campingcarpark/73/grignon",
+      "place": "Grignon — Aire CAMPING-CAR PARK à venir",
+      "lot": 493,
+      "checkedAt": "2026-11-22",
+      "status": "L’opérateur confirme « À venir », l’adresse/GPS et une alerte PPRI. Sa description mentionne prévisionnellement une dizaine de places, stationnement gratuit, eau et vidange; ces éléments restent à vérifier à l’ouverture. Le 0,00 €/24 h dans la liste départementale n’est pas un tarif confirmé.",
+      "nextCheck": "Confirmer prix, capacité, services, conditions d’accès et ouverture dès publication; ne pas confondre le prix placeholder 0,00 € avec une gratuité publiée.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/savoie/grignon",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/savoie"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/73/pralognan-la-vanoise-services",
+      "place": "Pralognan-la-Vanoise — Aire de services CAMPING-CAR PARK",
+      "lot": 493,
+      "checkedAt": "2026-11-22",
+      "status": "Opérateur : aire de services à venir, borne tout-en-un et 2 prises 6 A; pas d’emplacement de stationnement publié. La liste départementale indique 6,44 €/service, mais la grille détaillée affiche aussi 6 €/24 h + taxe 0,44 €/24 h. Prix non interprétable comme une nuitée; unité de facturation à clarifier.",
+      "nextCheck": "Confirmer auprès de CAMPING-CAR PARK si 6,44 € correspond à un service ou si un autre tarif de 6 €/24 h s’applique; garder l’interdiction/non-autorisation de nuitée.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/savoie/pralognan-la-vanoise",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/savoie"
+      ]
     }
   ]
 }
