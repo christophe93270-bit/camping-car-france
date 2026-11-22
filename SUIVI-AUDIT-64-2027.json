@@ -4,15 +4,15 @@
   "displayedCount": 39,
   "rawRegionalRows": 39,
   "deduplicatedRows": 0,
-  "currentLot": 440,
+  "currentLot": 441,
   "department": "64",
   "progress": {
-    "checked": 30,
+    "checked": 39,
     "total": 39,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 9,
+    "totalInLot": 9
   },
-  "note": "Lot 440 : fiches 21 à 30 contrôlées. Bénéjacq stationnement gratuit, jetons eau/électricité 2 € chacun pour 2027; Ogeu gratuit (barème 2026); Arette gratuit avec eau 5 €/100 L (2026); autres aires locales à confirmer pour 2027. Montfort tarif CCP 2027 confirmé 14,17 € TTC; deux enregistrements dans le fichier pour la même aire à dédupliquer. Aire Artouste reste « à venir », sans prix. Aucune donnée du site modifiée.",
+  "note": "Lot 441 : fiches 31 à 39 contrôlées; audit des 39 fiches du département terminé. Lescar (5 places) et Sauvagnon (7 places) : stationnement gratuit documenté en 2026; communes et tarifs à confirmer/actualiser pour 2027. Hendaye Plage : 12 €/24 h, mais statut opérateur contradictoire. Biarritz Milady et Gabrielle Dorziat : 16,72 € TTC; Buzy et Morlaàs : 12,80 € TTC 2027 confirmé. Laruns Le Bourg : taxe 2027 à confirmer. Izeste : retenir 13,20 € selon barème saisonnier, malgré l’encart à 14,70 €. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/7803967951",
@@ -353,6 +353,110 @@
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/laruns-artouste",
         "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques"
+      ]
+    },
+    {
+      "sourceId": "way/1306440351",
+      "place": "Lescar — parking Jacques Monod / Bénéharnum",
+      "lot": 441,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme 64 confirme 5 places et stationnement gratuit en 2026, avec sanitaires; adresse Chemin de Bénéharnum, parking Jacques Monod. Le point OSM est à environ 150 m du point tourisme.",
+      "nextCheck": "Renseigner Lescar dans la commune et corriger le nom/adresse si le point vise bien le parking Jacques Monod; vérifier gratuité 2027 et position exacte.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/lescar/ACCAMAQU0640000G-aire-de-stationnement/",
+        "https://www.tourismepau.com/offres/aire-de-camping-car-stationnement-lescar-beneharnum-lescar-fr-4904867/"
+      ]
+    },
+    {
+      "sourceId": "way/1306878482",
+      "place": "Sauvagnon — aire de camping-cars, place du Champ de Foire",
+      "lot": 441,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme 64 confirme 7 places, stationnement et eau gratuits, vidange et sanitaires; électricité non fournie. En 2026, fermeture pendant la fête du village (dernier week-end de juillet) et ponctuellement lors d’événements; durée maximale 48 h.",
+      "nextCheck": "Renseigner Sauvagnon, adresse place du Champ de Foire, services et gratuité documentés pour 2026; vérifier reconduction en 2027.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/sauvagnon/ACCAMAQU06400012-aire-de-services-de-sauvagnon/"
+      ]
+    },
+    {
+      "sourceId": "way/1567704265",
+      "place": "Hendaye — CAMPING-CAR PARK de l’École, Hendaye Plage",
+      "lot": 441,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif 2027 : 12 €/24 h, taxe 0 € (publiés jusqu’au 31/12/2027). Contradiction opérationnelle toujours à traiter : l’annuaire CCP signale temporairement fermée/0 place alors que la page détaillée annonce ouverte, 5/6 places; accès limité aux week-ends, jours fériés et vacances scolaires, réservation obligatoire, aucun service.",
+      "nextCheck": "Ne pas supprimer l’alerte de statut; confirmer auprès de CCP si l’aire est effectivement ouverte et maintenir les restrictions d’accès.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/hendaye-plage",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques"
+      ]
+    },
+    {
+      "sourceId": "ccp:biarritz-milady",
+      "place": "Biarritz — CAMPING-CAR PARK Milady",
+      "lot": 441,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 confirmé : base 15 € + taxe de séjour 1,72 € = 16,72 €/24 h; 32 places. Donnée actuelle concordante.",
+      "nextCheck": "Aucune correction tarifaire; garder la taxe séparée du prix de nuitée dans les champs si le schéma le permet.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/64-pyrenees-atlantiques/biarritz-milady",
+        "https://www.biarritz.fr/"
+      ]
+    },
+    {
+      "sourceId": "ccp:biarritz-gabrielle-dorziat",
+      "place": "Biarritz — CAMPING-CAR PARK Gabrielle Dorziat",
+      "lot": 441,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 confirmé : base 15 € + taxe de séjour 1,72 € = 16,72 €/24 h; 31 places. Donnée actuelle concordante.",
+      "nextCheck": "Aucune correction tarifaire; garder la taxe séparée du prix de nuitée dans les champs si le schéma le permet.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/biarritz-gabrielle-dorziat",
+        "https://www.biarritz.fr/"
+      ]
+    },
+    {
+      "sourceId": "ccp:buzy",
+      "place": "Buzy — Camping de mon Village CAMPING-CAR PARK",
+      "lot": 441,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif annuel 2027 confirmé : base 12,22 € + taxe 0,58 € = 12,80 €/24 h; 35 places. Le barème officiel est valable jusqu’au 31/12/2027.",
+      "nextCheck": "Aucune correction immédiate.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/buzy"
+      ]
+    },
+    {
+      "sourceId": "ccp:laruns-le-bourg",
+      "place": "Laruns — CAMPING-CAR PARK Le Bourg",
+      "lot": 441,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif affiché 14,90 €/24 h, composé de 13,70 € de base et 1,20 € de taxe. Le prix de base est publié jusqu’au 31/12/2027, mais la taxe consultée n’est publiée que jusqu’au 31/12/2026 : total 2027 non confirmé.",
+      "nextCheck": "Conserver 14,90 € comme prix courant, mais confirmer auprès de CCP la taxe 2027 avant d’étiqueter le total comme tarif annuel 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/laruns-le-bourg"
+      ]
+    },
+    {
+      "sourceId": "ccp:izeste",
+      "place": "Izeste — CAMPING-CAR PARK",
+      "lot": 441,
+      "checkedAt": "2026-11-22",
+      "status": "Le barème saisonnier officiel donne 12 € de base + 1,20 € de taxe = 13,20 €/24 h jusqu’au 31/12/2027. La page détaillée affiche aussi 14,70 € : incohérence interne de 1,50 €; le montant à retenir pour un tarif annuel est 13,20 €, concordant avec l’annuaire départemental.",
+      "nextCheck": "Remplacer l’alerte vague par la note sur l’incohérence de l’encart; demander à CCP de corriger l’affichage 14,70 €.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/izeste",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques"
+      ]
+    },
+    {
+      "sourceId": "ccp:morlaas",
+      "place": "Morlaàs — Camping de mon Village CAMPING-CAR PARK",
+      "lot": 441,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif annuel 2027 confirmé : base 12,22 € + taxe 0,58 € = 12,80 €/24 h; 23 places. Eau et vidange; sanitaires signalés saisonniers dans la fiche opérateur.",
+      "nextCheck": "Aucune correction tarifaire; préciser que les sanitaires sont saisonniers si la fiche détaille les équipements.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/morlaas"
       ]
     }
   ]
