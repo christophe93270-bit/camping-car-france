@@ -1,0 +1,139 @@
+{
+  "scope": "Indre (36) : audit des tarifs, services, capacités et périodes d’ouverture des fiches de aires-indre.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 21,
+  "rawRegionalRows": 21,
+  "deduplicatedRows": 0,
+  "currentLot": 513,
+  "department": "36",
+  "progress": {
+    "checked": 10,
+    "total": 21,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Audit en cours : lot 513 terminé (10/21). Les tarifs publiés ont été revérifiés; les données 2027 encore absentes et l’entrée OSM indéterminée restent signalées. Fiches source non modifiées.",
+  "entries": [
+    {
+      "sourceId": "node/3263026728",
+      "place": "Oulches — borne de camping-car",
+      "status": "Berry Province : jeton de service à 2 €, stationnement de nuit possible, aucune redevance distincte publiée; horaires annoncés pour 2026.",
+      "nextCheck": "Conserver 2 € comme tarif de service; calendrier 2027 à confirmer.",
+      "sources": [
+        "https://www.openstreetmap.org/node/3263026728",
+        "https://www.berryprovince.com/aires-camping-cars/borne-de-camping-car-doulches/"
+      ],
+      "lot": 513,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/11931767798",
+      "place": "Saint-Georges-sur-Arnon — étang de la Presle",
+      "status": "Berry Province : quatre places, eau, vidanges et stationnement gratuits; accès affiché toute l’année 2026.",
+      "nextCheck": "Garder gratuité et capacité; vérifier calendrier 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11931767798",
+        "https://www.berryprovince.com/aires-camping-cars/aire-de-service-camping-car/"
+      ],
+      "lot": 513,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/11931894819",
+      "place": "Tournon-Saint-Martin — borne Le Moulin",
+      "status": "Berry Province : services et stationnement gratuits, nuit autorisée; la capacité 1 décrit la borne et ne fixe pas le nombre de places.",
+      "nextCheck": "Ne pas traduire la capacité de borne en capacité de parking; vérifier calendrier 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11931894819",
+        "https://www.berryprovince.com/aires-camping-cars/borne-de-camping-car-le-moulin/"
+      ],
+      "lot": 513,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/13142492123",
+      "place": "Sainte-Sévère-sur-Indre — place du Champ de Foire",
+      "status": "Berry Province : borne et stationnement gratuits, nuit autorisée; heures 2026.",
+      "nextCheck": "Conserver gratuité; calendrier 2027 à confirmer.",
+      "sources": [
+        "https://www.openstreetmap.org/node/13142492123",
+        "https://www.berryprovince.com/aires-camping-cars/borne-camping-car-2/"
+      ],
+      "lot": 513,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/13810243006",
+      "place": "Argenton-sur-Creuse — point OSM « Air Camping-car »",
+      "status": "Point OSM non relié avec certitude à une aire distincte. Office de tourisme confirme d’autres sites séparés au Champ de Foire et rue de la Grenouille.",
+      "nextCheck": "Garder tarif et identité non confirmés; ne pas fusionner sans validation de l’emplacement.",
+      "sources": [
+        "https://www.openstreetmap.org/node/13810243006",
+        "https://www.destinationvalleedelacreuse.fr/offres/aires-camping-car/aire-de-service-du-champ-de-foire/"
+      ],
+      "lot": 513,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/292093943",
+      "place": "Neuillay-les-Bois — aire camping-car",
+      "status": "Berry Province : 10 places, gratuit, limite 24 h, ouverte du 1er avril au 31 octobre 2026; fermée au 22 novembre.",
+      "nextCheck": "Garder la fermeture saisonnière et vérifier les dates d’ouverture 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/292093943",
+        "https://www.berryprovince.com/aires-camping-cars/borne-de-camping-car-de-neuillay-les-bois/"
+      ],
+      "lot": 513,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/541511664",
+      "place": "Reuilly — Camping-Car Park",
+      "status": "Opérateur : 11 €/24 h du 22/11/2026 au 31/12/2027 + taxe 0,40 €; parking 5 h avec services 6 €. Sanitaires saisonniers du 02/05 au 30/09/2026.",
+      "nextCheck": "Actualiser date de vérification au 22/11 et début du tarif en cours au 22/11/2026; conserver séparation taxe/parking 5 h.",
+      "sources": [
+        "https://www.openstreetmap.org/way/541511664",
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre/reuilly"
+      ],
+      "lot": 513,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/816855022",
+      "place": "La Châtre — aire municipale Champ de Foire",
+      "status": "Stationnement gratuit selon délibération municipale recensée; guide 2026 signale eau et électricité hors service. Borne Super U à 2 € et projet CCP sont distincts.",
+      "nextCheck": "Ne pas attribuer le tarif Super U à l’aire municipale; confirmer tarif des services et disponibilité.",
+      "sources": [
+        "https://www.openstreetmap.org/way/816855022",
+        "https://www.berryprovince.com/aires-camping-cars/aire-de-service-et-aire-de-stationnement-pour-camping-cars/",
+        "https://www.pays-george-sand.com/wp-content/uploads/2026/03/Aires-et-bornes-pour-camping-cars_2026.pdf"
+      ],
+      "lot": 513,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/907035244",
+      "place": "Bazaiges — aire au plan d’eau",
+      "status": "Berry Province : quatre places, stationnement nocturne et services gratuits; horaires publiés sur 2026.",
+      "nextCheck": "Garder gratuité et capacité; vérifier calendrier 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/907035244",
+        "https://www.berryprovince.com/aires-camping-cars/aire-de-bazaiges/"
+      ],
+      "lot": 513,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/907464411",
+      "place": "Prissac — étang Rémy Louveau",
+      "status": "Berry Province : cinq places de nuit gratuites; jeton de 3 € pour bornes de vidange et électricité; halle publique distincte.",
+      "nextCheck": "Séparer tarif du stationnement gratuit et jeton de service; vérifier calendrier 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/907464411",
+        "https://www.berryprovince.com/aires-camping-cars/espace-de-letang-remy-louveau/"
+      ],
+      "lot": 513,
+      "checkedAt": "2026-11-22"
+    }
+  ]
+}
