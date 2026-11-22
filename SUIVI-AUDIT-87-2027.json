@@ -12,7 +12,7 @@
     "checkedInLot": 1,
     "totalInLot": 1
   },
-  "note": "Lot 500 : dernière fiche (31/31) vérifiée. Saint-Hilaire-les-Places : base CCP 11,50 €/24 h du 03/11/2026 au 31/12/2027; taxe 0,78 € publiée seulement jusqu’au 31/12/2026, total actuel 12,28 €; parking 5 h + services 6 €. Corriger date de départ du tarif du 01/10 au 03/11; taxe 2027 à confirmer. Audit des 31 fiches terminé; aucun fichier source modifié.",
+  "note": "Lot 500 : dernière fiche (31/31) vérifiée. Saint-Hilaire-les-Places : base CCP 11,50 €/24 h du 03/11/2026 au 31/12/2027; taxe 0,78 € publiée seulement jusqu’au 31/12/2026, total actuel 12,28 €; parking 5 h + services 6 €. Corriger date de départ du tarif du 01/10 au 03/11; taxe 2027 à confirmer. Audit des 31 fiches terminé; aucun fichier source modifié. Entrée 31 ajoutée au registre détaillé.",
   "entries": [
     {
       "sourceId": "node/2628202057",
@@ -366,6 +366,17 @@
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/oradour-sur-glane",
         "https://www.openstreetmap.org/way/772087109"
+      ]
+    },
+    {
+      "sourceId": "ccp-haute-vienne-saint-hilaire-les-places",
+      "place": "Saint-Hilaire-les-Places — CAMPING-CAR PARK, lac Plaisance",
+      "lot": 500,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : 16 places à 6 A; tarif de base 11,50 €/24 h du 03/11/2026 au 31/12/2027; taxe 0,78 €/24 h jusqu’au 31/12/2026; total actuel 12,28 €. Parking 5 h + services 6 €.",
+      "nextCheck": "Corriger date de début du tarif du 01/10 au 03/11/2026; confirmer taxe 2027 quand CCP la publiera.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/saint-hilaire-les-places"
       ]
     }
   ]
