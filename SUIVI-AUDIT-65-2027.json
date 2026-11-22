@@ -1,0 +1,133 @@
+{
+  "scope": "Hautes-Pyrénées (65) : vérification tarifaire et statutaire des 26 fiches déjà présentes dans aires-hautes-pyrenees.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 26,
+  "rawRegionalRows": 26,
+  "deduplicatedRows": 0,
+  "currentLot": 442,
+  "department": "65",
+  "progress": {
+    "checked": 10,
+    "total": 26,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 442 : fiches 1 à 10 contrôlées. Bours 15,67 €, Pierrefitte 16,22 € et Loudenvielle 17,36 € TTC 2027 confirmés; accès Loudenvielle sur réservation du 18/12/2026 au 03/01/2027. Gavarnie 10 €/24 h en saison (1er mai–30 octobre), gratuit hors période. Luz taxe 2027 à confirmer. Cauterets, tarifs affichés à la mairie sous forme d’image et tarif actuel à confirmer. Peyragudes : borne à jetons, pas de prix stationnement établi. Artigues : commune Campan, prix nuitée 2027 à confirmer. Piau-Engaly 22 €/24 h hiver 2026/2027; tarif été distinct à confirmer. Aucune donnée du site modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/12085298384",
+      "place": "Bours — aire CAMPING-CAR PARK Le Lac",
+      "lot": 442,
+      "checkedAt": "2026-11-22",
+      "status": "Barème valable en 2027 : base 15,05 €/24 h + taxe 0,62 € = 15,67 €. 22 places; montant actuel conforme.",
+      "nextCheck": "Aucune correction de prix.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/bours"
+      ]
+    },
+    {
+      "sourceId": "way/140315155",
+      "place": "Gavarnie-Gèdre — aire de service du parking de Holle",
+      "lot": 442,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : aire à 1 km du village, eau et vidange, eau coupée en hiver, sans électricité. Stationnement à 10 €/24 h du 1er mai au 30 octobre; gratuit hors période.",
+      "nextCheck": "Renseigner commune Gavarnie-Gèdre et tarifs saisonniers; confirmer renouvellement 2027.",
+      "sources": [
+        "https://www.valleesdegavarnie.com/commerces-services/aire-pour-camping-cars-de-gavarnie/",
+        "https://www.tourisme-hautes-pyrenees.com/offres/aire-pour-camping-cars-de-gavarnie-gavarnie-gavarnie-gedre-fr-4635497/"
+      ]
+    },
+    {
+      "sourceId": "way/196017229",
+      "place": "Pierrefitte-Nestalas — CAMPING-CAR PARK Vallée de Gavarnie",
+      "lot": 442,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 : base 14,50 € + taxe 1,72 € = 16,22 €/24 h. 13 places annoncées; montant actuel conforme.",
+      "nextCheck": "Actualiser la date de vérification; tarif 2027 confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/pierrefitte-nestalas-vallee-de-gavarnie"
+      ]
+    },
+    {
+      "sourceId": "way/201242313",
+      "place": "Luz-Saint-Sauveur — CAMPING-CAR PARK",
+      "lot": 442,
+      "checkedAt": "2026-11-22",
+      "status": "Prix courant 16,06 € dont 1,30 € de taxe; base 14,76 € publiée jusqu’au 31/12/2027, mais taxe consultée valide seulement jusqu’au 31/12/2026.",
+      "nextCheck": "Confirmer la taxe 2027 avant de qualifier le total annuel de confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/luz-st-sauveur"
+      ]
+    },
+    {
+      "sourceId": "way/212496013",
+      "place": "Cauterets — aire Place de la Patinoire",
+      "lot": 442,
+      "checkedAt": "2026-11-22",
+      "status": "Commune officielle confirme l’aire et les services inclus (vidange, eau, électricité, stationnement). Prix de 11,50 €/24 h rapporté par sources secondaires; grille municipale consultée affichée en image, période et tarif actuel non confirmés.",
+      "nextCheck": "Renseigner Cauterets; confirmer le prix 2026/2027 et sa période auprès de la mairie.",
+      "sources": [
+        "https://www.ville-cauterets.fr/fr/rb/2176904/camping-cars-4",
+        "https://carbu.fr/aires-camping-car/65-hautes-pyrenees/"
+      ]
+    },
+    {
+      "sourceId": "way/216687557",
+      "place": "Cauterets — aire avenue Charles Thierry",
+      "lot": 442,
+      "checkedAt": "2026-11-22",
+      "status": "Deuxième aire municipale confirmée. Prix de 11,50 €/24 h rapporté par sources secondaires, grille tarifaire municipale non exploitable en texte et tarif 2027 non confirmé.",
+      "nextCheck": "Renseigner Cauterets; confirmer le prix, les services et l’emplacement exact auprès de la mairie.",
+      "sources": [
+        "https://www.ville-cauterets.fr/fr/rb/2176904/camping-cars-4",
+        "https://carbu.fr/aires-camping-car/65-hautes-pyrenees/"
+      ]
+    },
+    {
+      "sourceId": "way/217589627",
+      "place": "Peyragudes — parking de Balestas",
+      "lot": 442,
+      "checkedAt": "2026-11-22",
+      "status": "Station officielle : accès libre sans réservation, borne Euro-Relais alimentée par jetons vendus à la Maison de Peyragudes et WC sur place. Aucun prix de stationnement confirmé.",
+      "nextCheck": "Renseigner Peyragudes/Germ; obtenir le prix et séparer stationnement et services à jetons.",
+      "sources": [
+        "https://peyragudes.com/services/",
+        "https://www.tourisme-hautes-pyrenees.com/offres/aire-pour-camping-cars-peyragudes-peyragudes-germ-fr-4640016/"
+      ]
+    },
+    {
+      "sourceId": "way/230936987",
+      "place": "Loudenvielle — CAMPING-CAR PARK",
+      "lot": 442,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 : base 15,86 € + taxe 1,50 € = 17,36 €/24 h. 25 places; réservation uniquement du 18/12/2026 au 03/01/2027.",
+      "nextCheck": "Prix confirmé; maintenir l’obligation de réservation pour la période annoncée.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/loudenvielle"
+      ]
+    },
+    {
+      "sourceId": "way/242147332",
+      "place": "Campan — aire du camping d’Artigues",
+      "lot": 442,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme 65 identifie l’aire du camping d’Artigues, route de La Mongie, commune Campan; eau, électricité, vidange. Eau + vidange pour non-résidents : 6 €. Prix des nuitées et forfaits 2027 non extraits/confirmés.",
+      "nextCheck": "Renseigner Campan; vérifier le prix de séjour 2027 auprès du camping et conserver la distinction services/nuitée.",
+      "sources": [
+        "https://www.tourisme-hautes-pyrenees.com/offres/aire-pour-camping-cars-camping-dartigues-campan-fr-4667548/"
+      ]
+    },
+    {
+      "sourceId": "way/323988892",
+      "place": "Aragnouet — aire municipale de Piau-Engaly",
+      "lot": 442,
+      "checkedAt": "2026-11-22",
+      "status": "Aire de station Piau, saison hivernale de décembre à avril, 120 places. Tarif hiver 2026/2027 : 22 €/24 h; eau, vidange, WC et électricité. En été, stationnement réglé auprès de l’Office de tourisme; tarif estival non établi.",
+      "nextCheck": "Renseigner Aragnouet; préciser tarif hivernal et rechercher séparément le tarif d’été.",
+      "sources": [
+        "https://www.pyrenees2vallees.com/aire-pour-camping-cars/aire-municipale-camping-cars-piau-engaly",
+        "https://www.tourisme-hautes-pyrenees.com/offres/aire-municipale-camping-cars-piau-engaly-piau-engaly-aragnouet-fr-4639928/"
+      ]
+    }
+  ]
+}
