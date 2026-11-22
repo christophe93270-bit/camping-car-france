@@ -4,15 +4,15 @@
   "displayedCount": 31,
   "rawRegionalRows": 31,
   "deduplicatedRows": 0,
-  "currentLot": 498,
+  "currentLot": 499,
   "department": "87",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 31,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 498 : fiches 11 à 20 vérifiées. Bujaleuf : 5 places gratuites toute l’année 2027; borne de services séparée au bourg. Séreilhac : nuitée gratuite, borne à 2,50 €. Dates CCP à corriger au 22/11 pour Saint-Laurent-sur-Gorre, Saint-Pardoux et Pierre-Buffière; taxes 2027 vérifiées. Auphelle est hors saison. Aucune fiche source modifiée.",
+  "note": "Lot 499 : fiches 21 à 30 vérifiées. Chaptelat : début tarif CCP au 03/11 et taxe 2027 non publiée; fiches touristique/CCP probablement doublonnées. Nantiat : grille du 01/11, taxe publiée seulement jusqu'en 2026, réouvert après travaux le 21/11 à 20 h. Le Dorat : grille du 01/10 et taxe 2027 non publiée. Oradour-sur-Glane #30 probablement doublon de la fiche #10. Aucune fiche source modifiée.",
   "entries": [
     {
       "sourceId": "node/2628202057",
@@ -253,6 +253,126 @@
       "sources": [
         "https://www.openstreetmap.org/way/1306696390",
         "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-dauphelle-peyrat-le-chateau-peyrat-le-chateau-fr-4128690/"
+      ]
+    },
+    {
+      "sourceId": "way/1307962046",
+      "place": "Saint-Léonard-de-Noblat — place de la Libération",
+      "lot": 499,
+      "checkedAt": "2026-11-22",
+      "status": "Office de Tourisme de Noblat : 8 places, stationnement nuit gratuit, eau, vidange et ouverture toute l’année 2026.",
+      "nextCheck": "Confirmer ouverture 2027 avant de prolonger les dates; distinguer de l’aire de Beaufort.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1307962046",
+        "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-de-services-de-camping-car-saint-leonard-de-noblat-saint-leonard-de-noblat-fr-4128693/"
+      ]
+    },
+    {
+      "sourceId": "way/1432322168",
+      "place": "Chaptelat — aire d’accueil (doublon probable avec le CCP)",
+      "lot": 499,
+      "checkedAt": "2026-11-22",
+      "status": "Visit Limousin : 25 places, eau, électricité, WC toute l’année, douches juillet-août, vidange et Wi-Fi. Même aire probable que la fiche CCP #23; mêmes capacités et adresse, GPS à environ 11 m.",
+      "nextCheck": "Fusionner les services de la source touristique dans la fiche CCP et dédupliquer les fiches; conserver l’attribution des sources.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1432322168",
+        "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-de-camping-car-de-chaptelat-chaptelat-fr-6326046/"
+      ]
+    },
+    {
+      "sourceId": "ccp-haute-vienne-chaptelat",
+      "place": "Chaptelat — CAMPING-CAR PARK",
+      "lot": 499,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 16 €/24 h du 03/11/2026 au 31/12/2027; taxe 1,32 € jusqu’au 31/12/2026; total actuel 17,32 €. Parking 5 h + services 6 €. 25 places, 6 A.",
+      "nextCheck": "Corriger date de début au 03/11; ne pas prolonger la taxe 1,32 € en 2027 sans nouvelle grille; fusionner avec la fiche touristique #22.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1432322168",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/chaptelat"
+      ]
+    },
+    {
+      "sourceId": "ccp-haute-vienne-cieux",
+      "place": "Cieux — CAMPING-CAR PARK",
+      "lot": 499,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 12,73 €/24 h du 01/11/2026 au 31/12/2027; taxe 0,44 € publiée jusqu’au 31/12/2026; total 2026 13,17 €. Parking 5 h + services 6 €. 30 places, 6 A; sanitaires 2026 du 24/04 au 15/10.",
+      "nextCheck": "Taxe 2027 et prochaines dates sanitaires à confirmer.",
+      "sources": [
+        "https://www.openstreetmap.org/node/1307962046",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/cieux"
+      ]
+    },
+    {
+      "sourceId": "ccp-haute-vienne-nedde",
+      "place": "Nedde — CAMPING-CAR PARK",
+      "lot": 499,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 14 €/24 h du 21/10/2026 au 31/12/2027; taxe 0,44 € jusqu’au 31/12/2026; total 14,44 € en 2026. Parking 5 h + services 6 €. 40 places, 16 A; sanitaires saisonniers; site en zone PPRI.",
+      "nextCheck": "Taxe de séjour 2027 et dates des sanitaires à confirmer.",
+      "sources": [
+        "https://www.openstreetmap.org/node/1307962046",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/nedde"
+      ]
+    },
+    {
+      "sourceId": "ccp-haute-vienne-nantiat",
+      "place": "Nantiat — CAMPING-CAR PARK",
+      "lot": 499,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 12,73 €/24 h du 01/11/2026 au 31/12/2027; taxe 0,44 € jusqu’au 31/12/2026; total 13,17 € en 2026. Parking 5 h + services 6 €. 34 places, 6 A. Fermeture travaux jusqu’au 21/11 à 20 h, donc réouverture à la date de contrôle.",
+      "nextCheck": "Corriger début tarif du 16/11 au 01/11; retirer l’affirmation taxe 2027 confirmée; afficher la réouverture du 21/11 et confirmer saison sanitaire 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/node/1307962046",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/nantiat"
+      ]
+    },
+    {
+      "sourceId": "ccp-haute-vienne-le-dorat",
+      "place": "Le Dorat — CAMPING-CAR PARK",
+      "lot": 499,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 12,20 €/24 h du 01/10/2026 au 31/12/2027; taxe 0,44 € jusqu’au 31/12/2026; total 12,64 € en 2026. Parking 5 h + services 6 €. 21 places, 6 A; sanitaires 2026 jusqu’au 15/11.",
+      "nextCheck": "Corriger date de début du 17/11 au 01/10; retirer la confirmation de taxe 2027 non publiée; vérifier sanitaires 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/node/1307962046",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/le-dorat"
+      ]
+    },
+    {
+      "sourceId": "ccp-haute-vienne-saint-junien",
+      "place": "Saint-Junien — CAMPING-CAR PARK",
+      "lot": 499,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 12,73 €/24 h du 01/10/2026 au 31/12/2027; taxe 0,44 € jusqu’au 31/12/2026; total 13,17 € en 2026. Parking 5 h + services 6 €. 64 places, 6 A; sanitaires 2026 jusqu’au 05/10.",
+      "nextCheck": "Grille confirmée; taxe et calendrier sanitaire 2027 à confirmer.",
+      "sources": [
+        "https://www.openstreetmap.org/node/1307962046",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/st-junien"
+      ]
+    },
+    {
+      "sourceId": "ccp-haute-vienne-nexon",
+      "place": "Nexon — CAMPING-CAR PARK",
+      "lot": 499,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 12 €/24 h du 22/11/2026 au 31/12/2027; taxe 0,44 € confirmée pour 2026 et 2027; total 12,44 €. Parking 5 h + services 6 €. 25 places, 6 A.",
+      "nextCheck": "Grille et taxe 2027 publiées et confirmées.",
+      "sources": [
+        "https://www.openstreetmap.org/node/1307962046",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/nexon"
+      ]
+    },
+    {
+      "sourceId": "ccp-haute-vienne-oradour-sur-glane",
+      "place": "Oradour-sur-Glane — CAMPING-CAR PARK (doublon probable de way/772087109)",
+      "lot": 499,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 11,20 €/24 h du 01/10/2026 au 31/12/2027; taxe 1,10 € jusqu’au 31/12/2026; total actuel 12,30 €. Parking 5 h + services 6 €. 39 places, 6 A. Même aire probable que fiche #10, environ 47 m entre coordonnées.",
+      "nextCheck": "Fusionner les enregistrements #10 et #30, privilégier GPS CCP et garder restrictions; taxe 2027 à confirmer.",
+      "sources": [
+        "https://www.openstreetmap.org/way/772087109",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/oradour-sur-glane"
       ]
     }
   ]
