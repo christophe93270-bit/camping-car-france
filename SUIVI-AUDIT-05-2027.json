@@ -4,15 +4,15 @@
   "displayedCount": 18,
   "rawRegionalRows": 18,
   "deduplicatedRows": 0,
-  "currentLot": 501,
+  "currentLot": 502,
   "department": "05",
   "progress": {
-    "checked": 10,
+    "checked": 18,
     "total": 18,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 8,
+    "totalInLot": 8
   },
-  "note": "Lot 501 : fiches 1 à 10 vérifiées. Corrections tarifaires confirmées pour Savines-le-Lac, Les Charmettes, Pont-du-Fossé, Chantemerle et CCP Crots. Gap Tokoro/Fontreyne gratuits, avec saison selon gel; Saint-Bonnet eau coupée l’hiver. Crévoux Pré la Font et Le Bez restent à confirmer. Aucune fiche source modifiée.",
+  "note": "Lot 502 : dernières fiches 11 à 18 vérifiées; audit départemental 18/18 terminé. Casse Blanche : commune à corriger en Orcières, tarif saisonnier officiel. Laragne : services et stationnement gratuits, limite 48 h. Gravière : Orcières, 24 places. Abriès : frais détaillés confirmés. L'Argentière : grille 2027 confirmée et capacité CCP 24 contre 22 dans le fichier. Réallon reste à venir. Aucune fiche source modifiée.",
   "entries": [
     {
       "sourceId": "node/12222229739",
@@ -131,6 +131,99 @@
       "sources": [
         "https://www.openstreetmap.org/way/985639454",
         "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/hautes-alpes/crots"
+      ]
+    },
+    {
+      "sourceId": "way/1282287884",
+      "place": "Orcières — aire P2 Casse Blanche",
+      "lot": 502,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : aire située à Orcières-Merlette, 25 places réservées, ouverte toute l’année; 20 €/jour en hiver et 12 €/jour en été. Wi-Fi indiqué; électricité OSM non confirmée par cette source.",
+      "nextCheck": "Corriger commune à Orcières, ajouter capacité et prix saisonnier; vérifier l’électricité avant de l’afficher.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1282287884",
+        "https://geotrek-cd05-aggregator.makina-corpus.net/api/fr/touristiccontents/978/aire-de-camping-car-de-casse-blanche-p2.pdf"
+      ]
+    },
+    {
+      "sourceId": "way/1286937023",
+      "place": "Laragne-Montéglin — aire municipale Véragne / parking Léon Truphème",
+      "lot": 502,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : stationnement et services gratuits, eau et vidanges cassette/eaux noires/eaux grises; ouvert toute l’année sauf fête votive du 3e week-end de septembre; eau hors gel. P3 réservé aux camping-cars <3,5 t, limite 48 h.",
+      "nextCheck": "Compléter nom/adresse, gratuité, services, limites et fermeture annuelle spéciale.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1286937023",
+        "https://www.sisteron-alpesprovencales.fr/camping/aire-de-services-et-stationnement-camping-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/1302912708",
+      "place": "Orcières — aire de camping-car de la Gravière",
+      "lot": 502,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 24 places, branchements électriques, eau, vidange accessible aux visiteurs de passage et située à l’extérieur de l’aire; séjour maximal 30 jours; ouverte toute l’année 2026. Aucun prix ni sanitaire confirmé sur la fiche officielle.",
+      "nextCheck": "Corriger commune en Orcières, ajouter 24 places/équipements/durée; maintenir tarif non confirmé et toilettes à vérifier.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1302912708",
+        "https://www.orcieres.com/sejourner/hebergements/tous-les-hebergements/aire-de-camping-car-de-la-graviere-orcieres-fr-4563080/"
+      ]
+    },
+    {
+      "sourceId": "way/1375423350",
+      "place": "Puy-Saint-Vincent — aire camping-cars 1800",
+      "lot": 502,
+      "checkedAt": "2026-11-22",
+      "status": "La mairie confirme une aire d’accueil à la station 1800 et une délibération tarifaire saisonnière datée de 2023. Pas de prix 2026/2027 ni équipements récents confirmés.",
+      "nextCheck": "Maintenir prix et services à vérifier; demander le tarif actuel à la mairie et ne pas réutiliser le barème 2023.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1375423350",
+        "https://www.mairie-puy-saint-vincent.fr/index.php/liste-des-deliberations-2023"
+      ]
+    },
+    {
+      "sourceId": "way/1423344433",
+      "place": "Abriès-Ristolas — aire de camping-car",
+      "lot": 502,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : ouvert toute l’année 2026; stationnement 6,06 €/jour + taxe 0,60 €/véhicule/nuitée; eau et vidange cassette 2 €/20 min; électricité 3 €/3 h.",
+      "nextCheck": "Mettre à jour le prix en séparant nuitée, taxe et services; vérifier le barème 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1423344433",
+        "https://lequeyras.com/preparer-voyage-queyras-guillestrois/dormir-queyras-guillestrois/campings/aire-de-camping-car-abries-ristolas-fr-4393787/"
+      ]
+    },
+    {
+      "sourceId": "ccp-saint-firmin",
+      "place": "Saint-Firmin — CAMPING-CAR PARK",
+      "lot": 502,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 13,87 €/24 h du 08/11/2026 au 31/12/2027; taxe 1,10 € publiée en 2026 et 2027; total 14,97 €. Parking 5 h + services 6 €. 29 places, 6 A; pas de collecte des déchets sur l’aire, containers enterrés à proximité.",
+      "nextCheck": "Prix actuel et taxe 2027 confirmés; maintenir l’information de collecte déchets hors aire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/hautes-alpes/saintfirmin"
+      ]
+    },
+    {
+      "sourceId": "ccp-l-argenti-re-la-bess-e",
+      "place": "L’Argentière-la-Bessée — CAMPING-CAR PARK",
+      "lot": 502,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 14,28 €/24 h du 20/11/2026 au 31/12/2027; taxe 1,32 € publiée en 2026 et 2027; total 15,60 €. Parking 5 h + services 6 €. Page officielle : 24 places, 6 A (fichier : 22). Zone PPRI.",
+      "nextCheck": "Corriger date tarifaire au 20/11 et vérifier capacité 22 → 24 selon la page CCP.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/hautes-alpes/l-argentiere-la-bessee"
+      ]
+    },
+    {
+      "sourceId": "ccp-r-allon",
+      "place": "Réallon — CAMPING-CAR PARK, projet à venir",
+      "lot": 502,
+      "checkedAt": "2026-11-22",
+      "status": "La page officielle affiche toujours « À venir »; aucun tarif publié ni service détaillé.",
+      "nextCheck": "Laisser l’aire en projet; revérifier ouverture, équipements et tarifs quand CCP les publiera.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/hautes-alpes/r%C3%A9allon"
       ]
     }
   ]
