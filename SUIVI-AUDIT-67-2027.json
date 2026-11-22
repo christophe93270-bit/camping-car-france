@@ -1,0 +1,134 @@
+{
+  "scope": "Bas-Rhin (67) : vérification tarifaire et statutaire des fiches de aires-bas-rhin.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 28,
+  "rawRegionalRows": 28,
+  "deduplicatedRows": 0,
+  "currentLot": 448,
+  "department": "67",
+  "progress": {
+    "checked": 10,
+    "total": 28,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 448 : fiches 1 à 10 contrôlées. Wissembourg piscine : stationnement gratuit officiellement confirmé, distinct de la borne Pépinière (5 € par service). Wingen 3 places, Cleebourg 2, Hunspach 2 : stationnements publics, aucun tarif publié. Saverne : tarif officiel non trouvé; 15 €/nuit tiers à une autre adresse, à ne pas attribuer sans vérification GPS. Wangen : une nuit via France Passion avec carte, activités payantes optionnelles. Spitz accueille sur son terrain mais tarif/services non publiés. Erstein (15 € tiers non daté), Niederbronn et Seebach : tarif/services actuels à confirmer. Hunspach : divergence d’adresse à résoudre. Aucune donnée du site modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/4720603322",
+      "place": "Wissembourg — parking piscine",
+      "lot": 448,
+      "checkedAt": "2026-11-22",
+      "status": "Source officielle : parking public gratuit, 10 places, accès toute l’année 24 h/24. À distinguer de l’aire de services Pépinière, autre lieu.",
+      "nextCheck": "Maintenir la gratuité du stationnement et séparer clairement de la borne de services Pépinière.",
+      "sources": [
+        "https://www.alsace-verte.com/aires-camping-cars/aire-de-stationnement-pour-camping-car-piscine/"
+      ]
+    },
+    {
+      "sourceId": "node/4720618210",
+      "place": "Wingen — parking rue du Stade",
+      "lot": 448,
+      "checkedAt": "2026-11-22",
+      "status": "Source officielle : parking public salle socioculturelle, 3 emplacements. Aucun prix/service technique publié.",
+      "nextCheck": "Prix non publié; ne pas ajouter de services sans confirmation.",
+      "sources": [
+        "https://www.alsace-verte.com/de/aires-camping-cars/aire-de-stationnement-pour-camping-car-8/",
+        "https://www.alsace-verte.com/carnet-dadresses/hebergement/campings-et-aires-pour-camping-car/?sitpdf=1"
+      ]
+    },
+    {
+      "sourceId": "node/4721709657",
+      "place": "Saverne — aire de services et stationnement rue du Zornhoff",
+      "lot": 448,
+      "checkedAt": "2026-11-22",
+      "status": "Aire référencée par l’office de tourisme; env. 40 places selon dossier 2025. Aucun tarif officiel récent trouvé. L’indication tierce de 15 €/nuit concerne une autre adresse (40 rue du Père Liebermann).",
+      "nextCheck": "Garder prix 2026/2027 non confirmé; demander grille à la mairie/office et réconcilier l’adresse GPS.",
+      "sources": [
+        "https://www.tourisme-saverne.fr/ou-dormir/campings/",
+        "https://www.tourisme-saverne.fr/wp-content/uploads/2025/03/Dossier-de-Presse-2025-Pays-de-Saverne.pdf",
+        "https://www.lecampeur.fr/aire/aire-de-camping-car-saverne-ph4t3f"
+      ]
+    },
+    {
+      "sourceId": "node/4721818473",
+      "place": "Wangen — Domaine Thierry-Martin / France Passion",
+      "lot": 448,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant confirme une nuit possible sur présentation de la carte France Passion. Activités/visites sont des offres payantes optionnelles, distinctes du stationnement.",
+      "nextCheck": "Préciser séjour avec adhésion France Passion; ne pas confondre prix des activités avec la nuitée.",
+      "sources": [
+        "https://www.thierry-martin.com/oenotourisme"
+      ]
+    },
+    {
+      "sourceId": "node/4723660408",
+      "place": "Blienschwiller — Domaine Spitz & Fils",
+      "lot": 448,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant accueille les camping-cars sur le terrain attenant et demande aux voyageurs de s’annoncer. Tarif et équipements techniques non publiés.",
+      "nextCheck": "Maintenir le prix non publié; confirmer eau/électricité avant toute annonce.",
+      "sources": [
+        "https://www.vinsspitz.com/fr/album-photo/camping-cars.html"
+      ]
+    },
+    {
+      "sourceId": "node/4723822021",
+      "place": "Erstein — place des Fêtes",
+      "lot": 448,
+      "checkedAt": "2026-11-22",
+      "status": "Contact mairie confirmé. Tarif 15 € seulement indiqué par une fiche spécialisée sans date de validité; aucun prix actuel officiel établi.",
+      "nextCheck": "Garder le tarif non confirmé et vérifier auprès de la mairie; ne pas présenter 15 € comme prix actuel.",
+      "sources": [
+        "https://www.ville-erstein.fr/",
+        "https://www.grandried.alsace/sejournez/se-loger/campings-et-aires-de-services/"
+      ]
+    },
+    {
+      "sourceId": "node/6515243358",
+      "place": "Niederbronn-les-Bains — avenue Foch / gare",
+      "lot": 448,
+      "checkedAt": "2026-11-22",
+      "status": "Annuaire officiel confirme lieu et contact communal; aucun tarif publié. Les services/durée issus d’annuaires spécialisés restent à confirmer auprès de la mairie.",
+      "nextCheck": "Ne pas considérer prix ni services comme confirmés sans réponse municipale.",
+      "sources": [
+        "https://www.alsace-verte.com/carnet-dadresses/hebergement/locations-speciales-cure-thermale/cure-a-niederbronn-les-bains/?sitpdf=1",
+        "https://www.niederbronn-les-bains.fr/"
+      ]
+    },
+    {
+      "sourceId": "node/12030033010",
+      "place": "Cleebourg — parking près du stade",
+      "lot": 448,
+      "checkedAt": "2026-11-22",
+      "status": "Source officielle : stationnement public, 2 places; pas de tarif ni services techniques publiés.",
+      "nextCheck": "Maintenir le prix non publié et ne pas ajouter de service sans preuve.",
+      "sources": [
+        "https://www.alsace-verte.com/aires-camping-cars/aire-de-stationnement-pour-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "node/12033248597",
+      "place": "Hunspach — parking près de la salle des fêtes",
+      "lot": 448,
+      "checkedAt": "2026-11-22",
+      "status": "Source officielle : parking public, 2 places, près de la salle des fêtes; tarif non publié. L’adresse annuaire route de Hoffen diffère de l’adresse rue des Vosges utilisée dans la fiche.",
+      "nextCheck": "Garder prix non confirmé; vérifier adresse et GPS auprès de la mairie avant correction.",
+      "sources": [
+        "https://www.alsace-verte.com/aires-camping-cars/aire-de-stationnement-pour-camping-car-7/",
+        "https://www.alsace-verte.com/carnet-dadresses/hebergement/campings-et-aires-pour-camping-car/?sitpdf=1"
+      ]
+    },
+    {
+      "sourceId": "node/12209797546",
+      "place": "Seebach — aire de stationnement",
+      "lot": 448,
+      "checkedAt": "2026-11-22",
+      "status": "Annuaire officiel répertorie l’aire et le contact de la mairie; capacité, tarif et équipements non précisés.",
+      "nextCheck": "Garder prix/capacité/services non confirmés; contacter mairie si nécessaire.",
+      "sources": [
+        "https://www.alsace-verte.com/carnet-dadresses/hebergement/campings-et-aires-pour-camping-car/?sitpdf=1"
+      ]
+    }
+  ]
+}
