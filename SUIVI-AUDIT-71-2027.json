@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 483,
+  "currentLot": 484,
   "department": "71",
   "progress": {
-    "checked": 230,
+    "checked": 240,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 483 : fiches 221 à 230 contrôlées. Aucun tarif/nuitée publié dans les profils vignerons, sauf confirmation officielle du réseau France Passion pour l’accueil Collection Tramier, dont la fiche Domaine Dufouleur (n°224) est probablement un doublon de Maison Tramier (n°162; environ 90 m, même collection/accueil). Pour Berzé, séparer l’accueil viticole du stationnement communal voisin. Maison Picamelot : reprise annoncée en 2026, continuité de l’accueil à confirmer. Aucune fiche du site modifiée.",
+  "note": "Lot 484 : fiches 231 à 240 contrôlées. Accueils camping-car indiqués par Vins de Bourgogne, mais aucun tarif de nuitée publié dans les sources consultées; le PDF de tarifs du Clos Voyen concerne les vins (2025), pas le stationnement. Chardonnay : Vuillemez et Château Chardonnay sont deux établissements voisins distincts. Sampigny : Duchemin (5 route de Cheilly) et Grachet-Duchemin (7 Grande Rue) restent à vérifier avant toute fusion. Aucune fiche du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -2533,6 +2533,129 @@
       "sources": [
         "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/cave-des-vignerons-d-ige-ige-71960%2C2397%2C9211.html",
         "https://lesvigneronsdige.com/"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/uchizy-domaine-sallet-raphael-camping-car",
+      "place": "Uchizy — Domaine Sallet Raphaël",
+      "lot": 484,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne confirme l’accueil camping-car; aucune nuitée, tarif ou équipement de stationnement détaillé.",
+      "nextCheck": "Confirmer les modalités de nuitée et le prix directement auprès du domaine.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/sallet-raphael-uchizy-71700%2C2397%2C9211.html",
+        "https://www.raphaelsallet.fr/"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/moroges-domaine-berthault-camping-car",
+      "place": "Moroges — Domaine Berthault",
+      "lot": 484,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne confirme l’accueil camping-car; les sources touristiques décrivent le domaine sans publier de tarif de nuitée.",
+      "nextCheck": "Contacter le domaine pour confirmer nuitée, prix et équipements.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/berthault-moroges-71390%2C2397%2C9211.html",
+        "https://www.tourisme-sud-cote-chalonnaise.com/caves-et-domaines/berthault-VINBOU0000200068.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/chardonnay-domaine-vuillemez-pere-fils-camping-car",
+      "place": "Chardonnay — Domaine Vuillemez Père et Fils",
+      "lot": 484,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car et le site officiel confirme l’adresse rue de l’Église. Un établissement voisin, Château Chardonnay, a une adresse et un profil distincts et signale aussi l’accueil camping-car; ne pas fusionner sur la seule proximité.",
+      "nextCheck": "Confirmer nuitée et tarif avec Vuillemez; garder Château Chardonnay séparé.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/vuillemez-pere-et-fils-chardonnay-71700%2C2397%2C9211.html",
+        "https://www.vuillemez.com/contact-visites/",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/chateau-chardonnay-chardonnay-71700%2C2397%2C9211.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/rully-maison-andre-delorme-camping-car",
+      "place": "Rully — Maison André Delorme",
+      "lot": 484,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car; aucune nuitée ou tarif de stationnement n’est publié dans les pages consultées.",
+      "nextCheck": "Appeler la maison pour confirmer la nuitée et son prix.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/andre-delorme-rully-71150%2C2397%2C9211.html",
+        "https://www.ruedesvignerons.com/fr/domaine/303/maison-andre-delorme"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/mercurey-domaine-charton-camping-car",
+      "place": "Mercurey — Domaine Charton",
+      "lot": 484,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne confirme l’accueil camping-car et donne 29 Grande Rue / 8 rue de Jamproyes; le site actuel du domaine confirme le 8 rue de Jamproyes. Aucun prix de nuitée publié.",
+      "nextCheck": "Confirmer directement les conditions et le prix.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/charton-mercurey-71640%2C2397%2C9211.html",
+        "https://www.domainecharton.com/nous-contacter/"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/dracy-les-couches-domaine-chateau-miraudet-camping-car",
+      "place": "Dracy-lès-Couches — Domaine Château Miraudet",
+      "lot": 484,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne et l’office de tourisme confirment le domaine et l’accueil camping-car; prix et nuitée non publiés.",
+      "nextCheck": "Appeler le domaine pour les modalités et le prix.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/chateau-miraudet-dracy-les-couches-71490%2C2397%2C9211.html",
+        "https://www.autun-tourisme.com/offres/chateau-miraudet-dracy-les-couches-fr-3456782/"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/fuisse-domaine-fagot-david-camping-car",
+      "place": "Fuissé — Domaine Fagot David",
+      "lot": 484,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne confirme l’accueil camping-car; aucune condition de nuitée ou tarif de stationnement trouvé.",
+      "nextCheck": "Appeler le domaine pour confirmer nuitée et tarif; ne pas confondre avec prix de dégustation ou de vin.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/fagot-david-fuisse-71960%2C2397%2C9211.html",
+        "https://www.destination-saone-et-loire.fr/fr/vin/fagot-david.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/prisse-domaine-de-la-feuillarde-camping-car",
+      "place": "Prissé — Domaine de la Feuillarde",
+      "lot": 484,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne confirme l’accueil camping-car et le site du domaine confirme l’adresse; aucun tarif de stationnement ni modalité de nuitée publié.",
+      "nextCheck": "Confirmer la possibilité de nuitée et le prix directement.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-de-la-feuillarde-prisse-71960%2C2397%2C9211.html",
+        "https://www.domaine-feuillarde.com/contact/"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saint-maurice-les-couches-domaine-gadant-clos-voyen",
+      "place": "Saint-Maurice-lès-Couches — Domaine Gadant Marie-Christine — Domaine Le Clos Voyen",
+      "lot": 484,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne et le site officiel confirment l’accueil camping-car. Le PDF de tarifs consulté liste des vins millésime 2025, pas un prix de stationnement ou de nuitée.",
+      "nextCheck": "Demander le tarif camping-car, l’autorisation de nuitée et les équipements au domaine.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/gadant-marie-christine-domaine-le-clos-voyen-saint-maurice-les-couches-71490%2C2397%2C9211.html",
+        "https://leclosvoyen.com/",
+        "https://www.leclosvoyen.com/mesfichiers/fichiers/Tarifs%202025%202.pdf"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/sampigny-les-maranges-domaine-duchemin-camping-car",
+      "place": "Sampigny-lès-Maranges — Domaine Duchemin",
+      "lot": 484,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car à 5 route de Cheilly; un profil Grachet-Duchemin distinct est publié au 7 Grande Rue. Aucun prix/nuitée publié; la relation entre les deux profils n’est pas établie par les pages consultées.",
+      "nextCheck": "Confirmer directement les conditions et déterminer si les deux adresses correspondent à deux accueils distincts avant fusion.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/duchemin-sampigny-les-maranges-71150%2C2397%2C9211.html",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/grachet-duchemin-sampigny-les-maranges-71150%2C2397%2C9211.html",
+        "https://domaineduchemin.webador.fr/"
       ]
     }
   ]
