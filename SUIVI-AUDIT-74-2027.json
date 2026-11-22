@@ -1,0 +1,141 @@
+{
+  "scope": "Haute-Savoie (74) : audit tarifaire et des conditions des fiches de aires-haute-savoie.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 24,
+  "rawRegionalRows": 24,
+  "deduplicatedRows": 0,
+  "currentLot": 494,
+  "department": "74",
+  "progress": {
+    "checked": 10,
+    "total": 24,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 494 : 10 premières fiches sur 24 vérifiées. Un enregistrement Seyssel (Ain) est mal classé dans le 74 et duplique l’aire déjà inscrite dans aires-ain.json. Cluses compte deux lieux distincts (Flot Bleu rue Joseph-Depoisier et CCP avenue des Glières); éviter fusion. Cluses CCP : taxe 2027 1,20 €, dates tarifaires du dossier à réviser. Praz de Lys : grille 2026-2027 non publiée dans la source touristique consultée. Les fiches du site n’ont pas été modifiées.",
+  "entries": [
+    {
+      "sourceId": "node/4913702021",
+      "place": "Thonon-les-Bains — Aire camping-car de Corzent",
+      "lot": 494,
+      "checkedAt": "2026-11-22",
+      "status": "Source touristique officielle : 3 places, maximum 48 h, ouverte toute l’année; 2 €/jour du 01/05 au 30/09. Aucun service indiqué. Tarif hors saison non précisé.",
+      "nextCheck": "Renseigner commune, 3 places, limite 48 h et tarif saisonnier; ne pas supposer le prix hors période payante.",
+      "sources": [
+        "https://www.openstreetmap.org/node/4913702021",
+        "https://hautesavoiemontblanc-tourisme.com/offres/aire-de-stationnement-pour-camping-car-corzent-thonon-les-bains-fr-5877057/"
+      ]
+    },
+    {
+      "sourceId": "node/12155275011",
+      "place": "Cluses — aire Flot Bleu, rue Joseph-Depoisier",
+      "lot": 494,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme Cluses : parking gratuit de 3 places sauf jeudi jour de marché, WC publics, eau et vidanges via borne Flot Bleu. Une autre fiche touristique indique 6 places; capacité contradictoire. Tarif de service indiqué à 2 € dans des sources anciennes; prix actuel à confirmer. Distinct de l’aire CCP avenue des Glières, située environ 1 km plus loin.",
+      "nextCheck": "Compléter services; confirmer capacité (3 ou 6) et tarif Flot Bleu actuel; ne pas fusionner avec le CCP.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12155275011",
+        "https://www.cluses-montagnes-tourisme.com/camping/aire-de-service-et-de-stationnement-camping-car/",
+        "https://flotbleu.com/haute_savoie/aire-de-service/400"
+      ]
+    },
+    {
+      "sourceId": "way/103184704",
+      "place": "Thônes — aire de stationnement du Plot, chemin de Paradis",
+      "lot": 494,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 6 places gratuites toute l’année; ni toilettes ni vidange sur place, borne de services à 600 m. Commune confirmée : Thônes.",
+      "nextCheck": "Compléter commune, capacité et gratuité; décrire la borne proche séparément.",
+      "sources": [
+        "https://www.openstreetmap.org/way/103184704",
+        "https://www.thonescoeurdesvallees.com/camping/aire-de-stationnement-camping-car-au-parking-du-plot/"
+      ]
+    },
+    {
+      "sourceId": "way/248143421",
+      "place": "Annecy — aire de Colmyr, avenue des Marquisats",
+      "lot": 494,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 10 places, gratuit, toute l’année, non surveillée, stationnement limité à 24 h; eau potable et eaux usées, eau coupée de décembre à mars; pas d’électricité.",
+      "nextCheck": "Compléter commune, prix, capacité et durée; préciser fermeture hivernale de l’eau.",
+      "sources": [
+        "https://www.openstreetmap.org/way/248143421",
+        "https://www.lac-annecy.com/camping/aire-daccueil-et-de-service-camping-cars-annecy/"
+      ]
+    },
+    {
+      "sourceId": "way/280480834",
+      "place": "Taninges — aire camping-car du Praz de Lys, La Savolière",
+      "lot": 494,
+      "checkedAt": "2026-11-22",
+      "status": "Office touristique : 70 places, borne Flot Bleu, 2 € le jeton et 2 € pour 4 h d’électricité; parking payant seulement pendant la saison d’hiver. Les seuls forfaits de nuit actuellement affichés concernent l’hiver 2025-2026; grille 2026-2027 non publiée.",
+      "nextCheck": "Renseigner Taninges, capacité et services; maintenir le tarif 2026-2027 à confirmer et vérifier la nouvelle grille avant annonce.",
+      "sources": [
+        "https://www.openstreetmap.org/way/280480834",
+        "https://taninges.fr/aire-de-camping-car",
+        "https://hautesavoiemontblanc-tourisme.com/offres/aire-daccueil-camping-car-taninges-fr-5877311/"
+      ]
+    },
+    {
+      "sourceId": "way/291518304",
+      "place": "Seyssel (Ain) — CAMPING-CAR PARK, doublon dans le fichier Haute-Savoie",
+      "lot": 494,
+      "checkedAt": "2026-11-22",
+      "status": "Mauvais département : adresse officielle 11 quai du Rhône, 01420 Seyssel (Ain); OSM à ~13 m du CCP déjà présent dans aires-ain.json. Tarif officiel actuel 12,40 €/24 h + taxe 1,10 € = 13,50 €/24 h; 22 places, 6 A, alerte PPRI.",
+      "nextCheck": "Dédupliquer de aires-haute-savoie.json et conserver la fiche dans l’Ain; éviter double compte dans les statistiques départementales.",
+      "sources": [
+        "https://www.openstreetmap.org/way/291518304",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/seyssel",
+        "https://github.com/christophe93270-bit/camping-car-france/blob/main/aires-ain.json"
+      ]
+    },
+    {
+      "sourceId": "way/300460482",
+      "place": "Sixt-Fer-à-Cheval — CAMPING-CAR PARK",
+      "lot": 494,
+      "checkedAt": "2026-11-22",
+      "status": "Grille officielle : 12,85 €/24 h + taxe 0,50 €/24 h jusqu’au 31/12/2027 = 13,35 € TTC; parking 5 h + services 6 €; 29 places. Prix conforme. La date de début est affichée mi-novembre dans les grilles consultées, plus tard que le 19/10 du fichier.",
+      "nextCheck": "Garder le prix total et la capacité; aligner le début de période sur la date courante de la grille officielle.",
+      "sources": [
+        "https://www.openstreetmap.org/way/300460482",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/haute-savoie/sixt-fer-a-cheval"
+      ]
+    },
+    {
+      "sourceId": "way/449055207",
+      "place": "Thônes — aire de stationnement au Lac de Thuy",
+      "lot": 494,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 20 places gratuites toute l’année. Pas de vidange ni toilettes sur place; aire de services à 2 km.",
+      "nextCheck": "Compléter commune, capacité, gratuité et absence de services sur place; ne pas confondre avec la borne distante.",
+      "sources": [
+        "https://www.openstreetmap.org/way/449055207",
+        "https://www.thonescoeurdesvallees.com/camping/aire-de-stationnement-camping-car-au-lac-de-thuy/"
+      ]
+    },
+    {
+      "sourceId": "way/497674592",
+      "place": "Cluses — CAMPING-CAR PARK, avenue des Glières",
+      "lot": 494,
+      "checkedAt": "2026-11-22",
+      "status": "Grille CCP actuelle : 13 €/24 h jusqu’au 31/12/2026, 14 € en janv.–févr. 2027, 13 € en mars–mai 2027; taxe 0,80 € en 2026 puis 1,20 € en 2027. Totaux 2027 : 15,20 € (janv.–févr.), 14,20 € (mars–mai). Au-delà du 31/05/2027, grille non publiée sur la page consultée. Capacité 66, 6 A, PPRI. Dans le fichier, la première tranche commence au 22/10; source actuelle au 20/11.",
+      "nextCheck": "Corriger la taxe 2027 et totaux; aligner la date de début au 20/11; vérifier les prix juin–décembre 2027 avant de les annoncer.",
+      "sources": [
+        "https://www.openstreetmap.org/way/497674592",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/haute-savoie/cluses"
+      ]
+    },
+    {
+      "sourceId": "way/577215930",
+      "place": "Sallanches — aire de services camping-car, route du Fayet",
+      "lot": 494,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 70 route du Fayet, 3 places pour 24 h max, ouverte toute l’année 2026; eau et vidange 20 min pour 2 pièces de 1 €. Prix de service confirmé; ne pas le présenter comme tarif de nuitée.",
+      "nextCheck": "Compléter adresse, capacité, durée, eau/vidange et tarif 2 € par service; confirmer les éventuelles règles de nuitée distinctes.",
+      "sources": [
+        "https://www.openstreetmap.org/way/577215930",
+        "https://hautesavoiemontblanc-tourisme.com/offres/aire-de-service-camping-car-de-sallanches-sallanches-fr-5877303/"
+      ]
+    }
+  ]
+}
