@@ -2,14 +2,14 @@
   "scope": "Audit des tarifs 2027 sur des lots successifs de dix entrées de l’inventaire régional Orne (61), à partir du lot 422. Ce suivi porte sur la séquence du catalogue et ne représente pas l’inventaire complet du département ni uniquement les fiches déjà présentes dans aires.json.",
   "startedAt": "2026-11-21",
   "sourceInventory": "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
-  "currentLot": 426,
+  "currentLot": 427,
   "department": "61",
   "progress": {
     "checkedInLot": 10,
     "totalInLot": 10,
     "departmentTotal": null
   },
-  "note": "Lot 426 : dix entrées suivantes de l’inventaire régional contrôlées. Plusieurs tarifs sont disponibles pour 2026 ou sans millésime; des écarts de tarifs existent pour Saint-Fraimbault. La gratuité 2027 de Saint-Mars-d’Égrenne reste à confirmer. Aucune fiche du site modifiée.",
+  "note": "Lot 427 : dix entrées suivantes de l’inventaire régional contrôlées. Tarifs 2027 non confirmés; gratuits publiés à revalider pour 2027, tarif Tinchebray daté 2024, tarif historique à Saint-Sulpice et écarts de prix à Tourouvre. Aucune fiche du site modifiée.",
   "entries": [
     {
       "place": "L’Aigle — aire communale, 15 bis avenue du Mont-Saint-Michel",
@@ -561,6 +561,119 @@
         "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-service-de-saint-mars-degrenne/",
         "https://www.cirkwi.com/fr/point-interet/3016977-aire-de-service-de-saint-mars-d-egrenne",
         "https://www.bagnolesdelorne.com/offres/aire-de-service-pour-camping-car-st-mars-degrenne-saint-mars-degrenne-fr-6047924/"
+      ]
+    },
+    {
+      "place": "Saint-Ouen-sur-Iton — aire du Clos de l’Iton",
+      "lot": 427,
+      "checkedAt": "2026-11-22",
+      "status": "Normandie Tourisme indique un stationnement gratuit, six emplacements, eau potable et vidanges. Aucun tarif des services ni validité 2027 publiée.",
+      "nextCheck": "Confirmer le maintien de la gratuité du stationnement et le prix éventuel des services en 2027.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-camping-car-du-clos-de-liton/",
+        "https://www.camping-car.com/aires/45857-aire-communale/"
+      ]
+    },
+    {
+      "place": "Saint-Pierre-du-Regard — aire de service de la station E.Leclerc Drive",
+      "lot": 427,
+      "checkedAt": "2026-11-22",
+      "status": "Le catalogue régional répertorie une aire de service à la station E.Leclerc Drive. Camping-car.com ne donne aucun tarif exploitable dans sa fiche ancienne (2021); aucune nuitée n’est documentée.",
+      "nextCheck": "Demander à l’exploitant les conditions et prix actuels de l’eau, de l’électricité et des vidanges; ne pas attribuer de tarif de nuitée.",
+      "sources": [
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
+        "https://www.camping-car.com/aires/46099-station-service-leclerc-drive/",
+        "https://www.leclercdrive.fr/region-normandie/saint-pierre-du-regard/"
+      ]
+    },
+    {
+      "place": "Saint-Sulpice-sur-Risle — Le Coin des Oiseaux",
+      "lot": 427,
+      "checkedAt": "2026-11-22",
+      "status": "Un ancien guide local décrit une aire privée de deux emplacements avec eau et électricité; tarif historique de 9 €/nuit, taxe de séjour 0,20 €. Validité actuelle et 2027 non établie.",
+      "nextCheck": "Confirmer auprès de l’exploitant les conditions d’accueil, le tarif 2027 et la taxe; ne pas reprendre 9 € comme prix actuel.",
+      "sources": [
+        "https://www.ouche-normandie.fr/UserFiles/File/BROCHURES%20GUIDES%20MAJ%202020/gt.pdf",
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf"
+      ]
+    },
+    {
+      "place": "Sainte-Gauburge-Sainte-Colombe — La Mare Plate",
+      "lot": 427,
+      "checkedAt": "2026-11-22",
+      "status": "Le catalogue régional inscrit La Mare Plate dans la rubrique des aires de service, mais aucune tarification actuelle exploitable trouvée. Des pages associent aussi ce nom à une aire naturelle/camping et à un centre équestre; l’identité précise du point camping-car reste à vérifier.",
+      "nextCheck": "Confirmer auprès de la mairie ou du contact indiqué au catalogue l’existence et l’accès actuel du point, puis distinguer prix de stationnement, services et nuitée.",
+      "sources": [
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2023-orne-normandie.pdf",
+        "https://www.lefrenchguide.com/campings/ste-gauburge-ste-colombe-61370/aire-naturelle-%C2%AB-la-mare-plate-%C2%BB/"
+      ]
+    },
+    {
+      "place": "Sainte-Scolasse-sur-Sarthe — aire des Sablons",
+      "lot": 427,
+      "checkedAt": "2026-11-22",
+      "status": "Normandie Tourisme indique le stationnement gratuit, deux emplacements, eau potable et vidanges. Aucun tarif des services ni validité 2027 publié.",
+      "nextCheck": "Confirmer la gratuité 2027 et le prix éventuel des services auprès de la mairie.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-des-sablons/",
+        "https://www.cirkwi.com/fr/point-interet/3532587-aire-des-sablons"
+      ]
+    },
+    {
+      "place": "Sap-en-Auge — aire de service route de Vimoutiers",
+      "lot": 427,
+      "checkedAt": "2026-11-22",
+      "status": "Normandie Tourisme décrit explicitement l’aire comme gratuite, avec eau, électricité, vidanges et cinq emplacements. La gratuité 2027 n’est pas explicitement confirmée.",
+      "nextCheck": "Confirmer auprès de la communauté de communes ou de l’office de tourisme le maintien de la gratuité en 2027.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-service-camping-car-du-sap/",
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf"
+      ]
+    },
+    {
+      "place": "Sées — aire de service du camping Le Clos Normand",
+      "lot": 427,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme 61/Cirkwi affiche pour le camping un forfait camping-car d’une nuit pour deux personnes de 11 à 20 € pour 2026. Une source secondaire mentionne 6 € pour l’accès à l’aire de service hors séjour, non corroboré par une grille officielle.",
+      "nextCheck": "Séparer le forfait de nuitée du prix de service aux visiteurs; demander le barème 2027 et confirmer le tarif hors séjour.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/5385226-camping-le-clos-normand",
+        "https://www.ukcampsite.co.uk/sites/sendenquiry.asp?id=10366",
+        "https://www.normandie-qualite-tourisme.com/campings/sees/camping-le-clos-normand.html"
+      ]
+    },
+    {
+      "place": "Tinchebray — aire municipale du Champ de Foire",
+      "lot": 427,
+      "checkedAt": "2026-11-22",
+      "status": "La commune décrit quatre emplacements, stationnement limité à 72 h et services. Tarifs indicatifs Qipéo explicitement datés 2024 : eau 2 €/100 L; électricité 3 €/12 h. Aucun tarif 2027 publié.",
+      "nextCheck": "Confirmer le fonctionnement de la borne et les prix 2027; conserver séparément le stationnement gratuit et les services payants.",
+      "sources": [
+        "https://tinchebray.fr/fr/rb/2264043/aire-de-camping-car-19",
+        "https://www.bagnolesdelorne.com/offres/aire-de-service-municipale-pour-camping-cars-tinchebray-tinchebray-bocage-fr-6047912/"
+      ]
+    },
+    {
+      "place": "Tourouvre-au-Perche — aire de la Sablonnière",
+      "lot": 427,
+      "checkedAt": "2026-11-22",
+      "status": "Sources non officielles et avis voyageurs consultés en 2026 donnent des montants divergents (environ 7,25 à 10,25 €/nuit/24 h) et ne s’accordent pas sur l’électricité comprise. Aucun barème officiel 2027 retrouvé.",
+      "nextCheck": "Demander au gestionnaire ou à la mairie le prix 2027, la durée facturée et les services inclus; ne pas publier de montant avant confirmation.",
+      "sources": [
+        "https://www.campercontact.com/fr/france/normandie/tourouvre-au-perche/69366/aire-de-camping-car-de-tourouvre",
+        "https://www.leshautsduperche.fr/aires-de-camping-car/"
+      ]
+    },
+    {
+      "place": "Vimoutiers — aire de service boulevard Dentu",
+      "lot": 427,
+      "checkedAt": "2026-11-22",
+      "status": "Normandie Tourisme indique l’aire de service gratuite, ouverte toute l’année, avec eau, électricité et vidanges. Le camping municipal La Campière voisin affiche un forfait 2026 de 11 à 14 € pour une nuit et deux personnes; ce prix est une nuitée, distincte des services gratuits.",
+      "nextCheck": "Confirmer la gratuité des services en 2027 et demander la grille de nuitée 2027 du camping La Campière.",
+      "sources": [
+        "https://www.normandie-tourisme.fr/aires-camping-cars/aire-de-service-de-vimoutiers/",
+        "https://www.cirkwi.com/fr/point-interet/4818958-camping-la-campiere"
       ]
     }
   ]
