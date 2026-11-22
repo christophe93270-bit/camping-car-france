@@ -1,0 +1,135 @@
+{
+  "scope": "Pyrénées-Orientales (66) : vérification tarifaire et statutaire des 28 fiches déjà présentes dans aires-pyrenees-orientales.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 28,
+  "rawRegionalRows": 28,
+  "deduplicatedRows": 0,
+  "currentLot": 445,
+  "department": "66",
+  "progress": {
+    "checked": 10,
+    "total": 28,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 445 : fiches 1 à 10 contrôlées. Tarifs 2027 CCP confirmés : Saint-Paul-de-Fenouillet 14,58 € TTC et Porté-Puymorens 16,57 € TTC. Vernet-les-Bains : tarif actuel non établi. Thuès-Entre-Valls 20 €/nuit (barème 2026, 8 € par journée supplémentaire selon source régionale). Port-Vendres 8–12 € selon saison; Saint-Cyprien 11,26–15,46 € variable; Le Boulou à partir de 14,44 €; Bélesta 5 €/nuit + services à partir de 2 €; Saint-Marsal forfait 3 €; Camping Amélia 8 €/nuit pour deux personnes. Tarifs locaux documentés en 2026; reconduction 2027 à confirmer. Aucune donnée du site modifiée.",
+  "entries": [
+    {
+      "sourceId": "way/49429008",
+      "place": "Vernet-les-Bains — aire chemin de la Laiterie",
+      "lot": 445,
+      "checkedAt": "2026-11-22",
+      "status": "Aire municipale réglementée par arrêté du 24/07/2013, ouverte en 2026; capacité publiée 7 places. Aucun prix récent trouvé.",
+      "nextCheck": "Renseigner Vernet-les-Bains; demander à la mairie règlement et tarif en vigueur.",
+      "sources": [
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-de-stationnement-pour-camping-car-vernet-les-bains-fr-5744163/",
+        "https://www.turisme-pirineusorientals.cat/aire-de-stationnement-pour-camping-car/vernet-les-bains/accamlar0660001w"
+      ]
+    },
+    {
+      "sourceId": "way/223992072",
+      "place": "Saint-Paul-de-Fenouillet — Camping de mon Village CCP",
+      "lot": 445,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 : 14 €/24 h + taxe 0,58 € = 14,58 € TTC, valable jusqu’au 31/12/2027; 41 places, ouverte.",
+      "nextCheck": "Aucune correction tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/saint-paul-de-fenouillet"
+      ]
+    },
+    {
+      "sourceId": "way/298562929",
+      "place": "Thuès-Entre-Valls — aire communale des Gorges de la Carança",
+      "lot": 445,
+      "checkedAt": "2026-11-22",
+      "status": "Eau potable, vidange eaux usées et WC chimiques; parking limité à 24 h. Nuitée 20 € (2026); source officielle catalane indique 8 € pour chaque tranche supplémentaire de 24 h.",
+      "nextCheck": "Renseigner la commune; vérifier maintien de la tarification pour 2027 et préciser durée additionnelle.",
+      "sources": [
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-de-service-communale-pour-camping-cars-thues-entre-valls-fr-5744178/",
+        "https://www.turisme-pirineusorientals.cat/aire-de-service-communale-pour-camping-cars/thues-entre-valls/accamlar0660001o"
+      ]
+    },
+    {
+      "sourceId": "way/363337411",
+      "place": "Port-Vendres — aire communale de l’Anse des Tamarins",
+      "lot": 445,
+      "checkedAt": "2026-11-22",
+      "status": "32 places, ouverte toute l’année, eau, WC, vidange; pas d’électricité. Stationnement 12 €/nuit mai-octobre et 8 €/nuit novembre-avril en barème 2026; paiement espèces/chèque à la police municipale.",
+      "nextCheck": "Renseigner Port-Vendres; conserver saisonnalité et confirmer le barème 2027.",
+      "sources": [
+        "https://www.tourisme-pyrenees-mediterranee.com/aire-camping-car/aire-stationnement-communale-camping-cars-port-vendres/",
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-stationnement-communale-camping-cars-port-vendres-port-vendres-fr-5744183/"
+      ]
+    },
+    {
+      "sourceId": "way/386207131",
+      "place": "Saint-Cyprien — aire d’accueil du port",
+      "lot": 445,
+      "checkedAt": "2026-11-22",
+      "status": "56 places, gérée par le camping Le Bosc; eau, électricité, évacuation eaux usées; durée maximale 16 nuits. Tarif variable selon période/horaire, 11,26–15,46 €/nuit selon barème 2026.",
+      "nextCheck": "Renseigner Saint-Cyprien; garder le prix variable et confirmer grille 2027.",
+      "sources": [
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-daccueil-et-de-stationnement-camping-cars-de-saint-cyprien-saint-cyprien-fr-5744186/"
+      ]
+    },
+    {
+      "sourceId": "way/475423551",
+      "place": "Le Boulou — aire derrière le Casino Joa",
+      "lot": 445,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme PO : aire de 42 places ouverte toute l’année; paiement Qipeo/barrière; eau, électricité 10 A, vidanges eaux usées et toilettes chimiques. Tarif 2026 à partir de 14,44 €/nuit.",
+      "nextCheck": "Renseigner Le Boulou, adresse derrière Casino Joa et services; trouver tarif saisonnier exact et barème 2027.",
+      "sources": [
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-de-stationnement-du-boulou-le-boulou-fr-5744872/"
+      ]
+    },
+    {
+      "sourceId": "way/475428241",
+      "place": "Bélesta — aire communale",
+      "lot": 445,
+      "checkedAt": "2026-11-22",
+      "status": "Aire au cœur du village, borne Flot Bleu, eau, électricité, sanitaires et vidanges; stationnement maximal 7 jours. Nuitée à partir de 5 €, service à partir de 2 € selon source 2026.",
+      "nextCheck": "Renseigner Bélesta; distinguer nuitée et service; vérifier barème 2027.",
+      "sources": [
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-de-stationnement-communale-pour-camping-cars-belesta-fr-5744133/",
+        "https://rando66.fr/fr/service/571-AIRE-DE-STATIONNEMENT-COMMUNALE-POUR-CAMPING-CARS"
+      ]
+    },
+    {
+      "sourceId": "way/532766930",
+      "place": "Saint-Marsal — aire municipale entrée du village",
+      "lot": 445,
+      "checkedAt": "2026-11-22",
+      "status": "Ouverte toute l’année; eau potable, vidanges eaux usées et WC chimiques; forfait de 3 € dans la fiche Tourisme 2026. La commune a publié une délibération règlement et tarif 2026.",
+      "nextCheck": "Renseigner Saint-Marsal; confirmer reconduction 2027 et préciser le contenu du forfait.",
+      "sources": [
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-de-stationnnement-communale-pour-camping-cars-saint-marsal-fr-5778726/",
+        "https://mairie-saintmarsal.fr/fr/rb/2350870/2026-3",
+        "https://mairie-saintmarsal.fr/fr/rb/575278/aire-de-camping-cars-5"
+      ]
+    },
+    {
+      "sourceId": "way/535365040",
+      "place": "Amélie-les-Bains-Palalda — aire du Camping Amélia",
+      "lot": 445,
+      "checkedAt": "2026-11-22",
+      "status": "Le camping et la mairie identifient une aire privée au-dessus du camping, 3–4 places, vidange, stationnement limité à 2 nuits; 8 €/nuit pour 2 personnes en 2026. À distinguer de la CCP au Carrer del Pardal, située ailleurs.",
+      "nextCheck": "Renseigner Amélie-les-Bains-Palalda et type privé; confirmer tarif 2027; ne pas fusionner avec la CCP.",
+      "sources": [
+        "https://www.mairie-amelie.com/destinations/aires-camping-car/camping-amelia/",
+        "https://www.camping-amelia.fr/aire-de-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/860918989",
+      "place": "Porté-Puymorens — CAMPING-CAR PARK",
+      "lot": 445,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 confirmé : base 15,27 € + taxe 1,30 € = 16,57 €/24 h; tarif et taxe publiés jusqu’au 31/12/2027. 31 places; tarif courant conforme.",
+      "nextCheck": "Aucune correction tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/porte-puymorens"
+      ]
+    }
+  ]
+}
