@@ -1,0 +1,139 @@
+{
+  "scope": "Haute-Vienne (87) : audit des tarifs, services et périodes d’ouverture des fiches de aires-haute-vienne.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 31,
+  "rawRegionalRows": 31,
+  "deduplicatedRows": 0,
+  "currentLot": 497,
+  "department": "87",
+  "progress": {
+    "checked": 10,
+    "total": 31,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 497 : premières 10 fiches vérifiées. Dates de grilles CCP au Chalard et Oradour-sur-Glane à aligner au 22/11; taxes 2027 confirmées à 0,88 € et 1,10 €. Châteaucourt est hors saison depuis le 31/10. Nuitée gratuite et tarifs de services maintenus séparés. Aucune fiche source modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/2628202057",
+      "place": "Magnac-Bourg — Champ de Foire",
+      "lot": 497,
+      "checkedAt": "2026-11-22",
+      "status": "Cirkwi/Office de tourisme : stationnement 0 €/nuit, vidange eaux usées, période publiée du 01/01 au 31/12/2026. Fiche mise à jour le 18/04/2026.",
+      "nextCheck": "Corriger la coquille « Sationnement »; reconfirmer période et règles 2027 avant de prolonger la date.",
+      "sources": [
+        "https://www.openstreetmap.org/node/2628202057",
+        "https://www.cirkwi.com/fr/point-interet/2514840-aire-camping-car-magnac-bourg"
+      ]
+    },
+    {
+      "sourceId": "node/10299261807",
+      "place": "Solignac — stade Raymond-Breuil",
+      "lot": 497,
+      "checkedAt": "2026-11-22",
+      "status": "Destination Limoges : maximum 6 camping-cars, limite 48 h, accès libre, toilettes/lavabo, point d’eau et vidanges hors gel; aucun branchement électrique. Tarif non détaillé.",
+      "nextCheck": "Renseigner capacité et durée; laisser tarif non confirmé et conserver eau saisonnière; ne pas ajouter d’électricité.",
+      "sources": [
+        "https://www.openstreetmap.org/node/10299261807",
+        "https://www.destination-limoges.com/aires-camping-cars/aire-de-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "node/10939670605",
+      "place": "Val d’Issoire — Mézières-sur-Issoire, place de la République",
+      "lot": 497,
+      "checkedAt": "2026-11-22",
+      "status": "Visit Limousin : 10 places non matérialisées; stationnement, eau et vidange gratuits, ouverts toute l’année; toilettes publiques à 10 m et laverie à 100 m.",
+      "nextCheck": "Garder 10 places comme capacité indicative non matérialisée; distinguer équipements proches de ceux de l’aire.",
+      "sources": [
+        "https://www.openstreetmap.org/node/10939670605",
+        "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-de-camping-car-val-dissoire-fr-4128703/"
+      ]
+    },
+    {
+      "sourceId": "node/11891525556",
+      "place": "Le Chalard — CAMPING-CAR PARK",
+      "lot": 497,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : tarif de base 11,71 €/24 h du 22/11/2026 au 31/12/2027; taxe 0,88 €/24 h publiée sur 2027; total 12,59 €. Parking 5 h + services 6 €. 10 places, 6 A; toilettes publiques à 50 m.",
+      "nextCheck": "Remplacer le début de grille au 03/11 par le 22/11; préciser la taxe 2027 de 0,88 € et le total 12,59 €/24 h.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11891525556",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/le-chalard"
+      ]
+    },
+    {
+      "sourceId": "node/12111638192",
+      "place": "Sauviat-sur-Vige",
+      "lot": 497,
+      "checkedAt": "2026-11-22",
+      "status": "Visit Limousin : environ 10 emplacements, stationnement de nuit gratuit, ouvert toute l’année hors gel; eau, électricité et vidanges. La gratuité concerne la nuitée; coût des services non détaillé.",
+      "nextCheck": "Compléter capacité et adresse; ne pas étendre la gratuité de nuitée aux services sans tarif officiel.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12111638192",
+        "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-sauviat-sur-vige-fr-4128700/"
+      ]
+    },
+    {
+      "sourceId": "node/12112205198",
+      "place": "Les Salles-Lavauguyon — route de Saint-Mathieu",
+      "lot": 497,
+      "checkedAt": "2026-11-22",
+      "status": "PNR Périgord-Limousin : 6 places; borne avec eau, électricité et vidange. Aucun tarif affiché; la page ne confirme pas explicitement le stationnement de nuit attenant.",
+      "nextCheck": "Garder tarif à confirmer; vérifier séparément le droit de nuitée et le coût réel des services.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12112205198",
+        "https://www.pnr-perigord-limousin.fr/offres/aires-de-camping-car/aire-daccueil-camping-car-des-salles-lavauguyon/"
+      ]
+    },
+    {
+      "sourceId": "way/233976493",
+      "place": "Beaumont-du-Lac — Châteaucourt, lac de Vassivière",
+      "lot": 497,
+      "checkedAt": "2026-11-22",
+      "status": "Visit Limousin : 30 places libres, sans réservation; stationnement gratuit; ouverte du 01/05 au 31/10/2026. Hors période d’ouverture au 22/11; aucun service technique indiqué.",
+      "nextCheck": "Signaler la fermeture hors saison; confirmer les dates 2027 avant réouverture.",
+      "sources": [
+        "https://www.openstreetmap.org/way/233976493",
+        "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-de-chateaucourt-beaumont-du-lac-fr-4328951/"
+      ]
+    },
+    {
+      "sourceId": "way/307060969",
+      "place": "Bellac — aire et services des Rives du Vincou",
+      "lot": 497,
+      "checkedAt": "2026-11-22",
+      "status": "Visit Limousin : parking gratuit de 4 places, ouvert toute l’année; station des équipements artisanaux de vidange eaux grises/noires et WC située à 150 m.",
+      "nextCheck": "Maintenir parking et services comme emplacements distincts; prix et capacité sont confirmés.",
+      "sources": [
+        "https://www.openstreetmap.org/way/307060969",
+        "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-rives-du-vincou-bellac-fr-4128817/"
+      ]
+    },
+    {
+      "sourceId": "way/347874267",
+      "place": "Javerdat — rue du Cèdre / route de Laplaud",
+      "lot": 497,
+      "checkedAt": "2026-11-22",
+      "status": "Visit Limousin : 4 places; borne eau, électricité, vidanges et WC; ouverte toute l’année hors gel, électricité maintenue. Service : 3 € pour 1 h d’électricité ou 100 L d’eau, paiement espèces/jetons.",
+      "nextCheck": "Conserver 3 € comme prix d’usage de la borne, jamais comme tarif de nuitée; ajouter adresse et point de vente des jetons.",
+      "sources": [
+        "https://www.openstreetmap.org/way/347874267",
+        "https://en.visitlimousin.com/stay/where-to-sleep/campsites-in-haute-vienne/aire-de-camping-car-de-javerdat-javerdat-en-4128827/"
+      ]
+    },
+    {
+      "sourceId": "way/772087109",
+      "place": "Oradour-sur-Glane — CAMPING-CAR PARK, rue du Stade",
+      "lot": 497,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : 11,20 €/24 h du 22/11/2026 au 31/12/2027 + taxe 1,10 €/24 h publiée jusqu’à fin 2027 = 12,30 € actuellement; parking 5 h + services 6 €. 39 places, 6 A, aire ouverte. Visit Limousin indique une fourchette 11,20–15,35 €/24 h et interdit remorques/caravanes/barbecues.",
+      "nextCheck": "Ajouter taxe 2027 de 1,10 €, total actuel 12,30 €, date de début 22/11; conserver la plage tarifaire touristique en précisant le caractère variable et garder les restrictions.",
+      "sources": [
+        "https://www.openstreetmap.org/way/772087109",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/oradour-sur-glane",
+        "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-doradour-sur-glane-oradour-sur-glane-fr-4129369/"
+      ]
+    }
+  ]
+}
