@@ -1,0 +1,133 @@
+{
+  "scope": "Pas-de-Calais (62) : vérification des tarifs 2027 des 23 fiches déjà présentes dans aires-pas-de-calais.json; lots successifs de dix fiches dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 23,
+  "rawRegionalRows": 23,
+  "deduplicatedRows": 0,
+  "currentLot": 430,
+  "department": "62",
+  "progress": {
+    "checked": 10,
+    "total": 23,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 430 : fiches 1 à 10 contrôlées. Tarifs 2027 explicitement publiés par Camping-Car Park pour Frévent, Calais, Richebourg, Brimeux et Merlimont. Wissant, Boulogne-sur-Mer, Berck et le Parking des Sternes nécessitent une validation 2027; le prix de l'aire du Patis n'est pas publié. Brimeux est signalée temporairement inaccessible pour risque d'inondation. Aucune fiche applicative modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/14276755486",
+      "place": "Frévent — aire CAMPING-CAR PARK",
+      "lot": 430,
+      "checkedAt": "2026-11-22",
+      "status": "L’opérateur affiche 11,50 €/24 h du 21/11/2026 au 31/12/2027, plus taxe 2027 de 0,58 €/24 h, soit 12,08 € au total. Parking 5 h + services : 6 €.",
+      "nextCheck": "Aucun contrôle local requis pour le tarif; conserver le prix de base et la taxe séparés dans les sources.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/62-pas-de-calais/frevent?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/241542689",
+      "place": "Wissant — aire camping-car Route de Calais",
+      "lot": 430,
+      "checkedAt": "2026-11-22",
+      "status": "Source secondaire consultée : 11 €/24 h avec taxe de séjour de 1 € comprise; eau 2 €/10 min et électricité 3 €/12 h via Qipéo. Aucun barème officiel ou validité 2027 retrouvé.",
+      "nextCheck": "Confirmer auprès de la mairie/gestionnaire le tarif 2027, le statut de la taxe et le bon fonctionnement des services.",
+      "sources": [
+        "https://www.stellplatzfuehrer.de/fr/parcs-de-vr/listes/13026-aire-de-camping-car-wissant",
+        "https://www.i-campingcar.fr/aires.php?ville=WISSANT"
+      ]
+    },
+    {
+      "sourceId": "way/266402998",
+      "place": "Calais — aire CAMPING-CAR PARK",
+      "lot": 430,
+      "checkedAt": "2026-11-22",
+      "status": "L’opérateur affiche 14,05 €/24 h + taxe de séjour 1,20 €, soit 15,25 €; tarif de base et taxe valables jusqu’au 31/12/2027. Services opérateur : code 6A; la liste de services OSM n’est pas entièrement détaillée par l’opérateur.",
+      "nextCheck": "Tarif 2027 confirmé; vérifier séparément les services avant correction éventuelle des tags OSM.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/calais"
+      ]
+    },
+    {
+      "sourceId": "way/282095958",
+      "place": "Boulogne-sur-Mer — Parking du Moulin Wibert",
+      "lot": 430,
+      "checkedAt": "2026-11-22",
+      "status": "L’Office de tourisme du Boulonnais publie 7 €/jour pour les premières 48 h, puis 9 €/jour, eau 4 €. Aucun millésime ni validité 2027 n’est précisé.",
+      "nextCheck": "Confirmer auprès de la ville le tarif 2027 et si le tarif d’eau est toujours 4 €.",
+      "sources": [
+        "https://www.boulonnaisautop.com/pratique/se-deplacer/aires-de-camping-cars"
+      ]
+    },
+    {
+      "sourceId": "way/289034639",
+      "place": "Berck — aire de camping-car Chez Mireille / MinyPark",
+      "lot": 430,
+      "checkedAt": "2026-11-22",
+      "status": "Site officiel : tarif 2026 à partir de 13 € TTC/jour, taxe de séjour en supplément; stationnement avec ou sans électricité, eau et vidange. Une source tierce affiche 14,20 € sans expliquer l’écart.",
+      "nextCheck": "Demander le tarif 2027, la composition du prix, le supplément électrique et clarifier l’écart entre 13 € et 14,20 €.",
+      "sources": [
+        "https://www.chezmireille.fr/aire-de-camping-car-a-berck-proche-de-la-mer/",
+        "https://caraplace.ch/fr/placeme/aire-camping-car-berck-chez-mireille-20007"
+      ]
+    },
+    {
+      "sourceId": "way/367421529",
+      "place": "Richebourg — aire CAMPING-CAR PARK",
+      "lot": 430,
+      "checkedAt": "2026-11-22",
+      "status": "L’opérateur publie 13 €/24 h du 03/02 au 31/12/2027 et taxe de séjour 1,20 €/24 h pour toute l’année 2027, soit 14,20 € au total.",
+      "nextCheck": "Tarif 2027 confirmé; conserver séparément le prix de base et la taxe.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/richebourg"
+      ]
+    },
+    {
+      "sourceId": "way/423103722",
+      "place": "Berck — Parking des Sternes, chemin aux Raisins",
+      "lot": 430,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme de Berck : 12 €/24 h du 1er mars au 30 novembre avec eau et vidange, 75 places. Une brochure événementielle officielle de mars 2026 donne 11 €/24 h; la page de l’office signale la fermeture temporaire de l’aire municipale voisine pour travaux. Le site OSM compte 80 places.",
+      "nextCheck": "Vérifier avec la mairie l’ouverture, la capacité et le tarif 2027; résoudre l’écart 11 €/12 € et 75/80 places.",
+      "sources": [
+        "https://www.berck-tourisme.com/fr/pratique/preparer-sa-venue/en-camping-car-1",
+        "https://admin.escapade62.fr/api/fr/touristicevents/246/les-rencontres-internationales-de-cerfs-volants.pdf",
+        "https://www.openstreetmap.org/way/423103722"
+      ]
+    },
+    {
+      "sourceId": "way/450195924",
+      "place": "Brimeux — aire CAMPING-CAR PARK",
+      "lot": 430,
+      "checkedAt": "2026-11-22",
+      "status": "L’opérateur publie 14 €/24 h jusqu’au 31/12/2027 et taxe de séjour 0,40 €/24 h jusqu’au 31/12/2027, soit 14,40 € au total. La fiche indique que l’aire est actuellement temporairement inaccessible en raison d’un risque d’inondation.",
+      "nextCheck": "Confirmer la réouverture avant déplacement; tarif 2027 confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/brimeux"
+      ]
+    },
+    {
+      "sourceId": "way/652040499",
+      "place": "Embry — aire du Patis",
+      "lot": 430,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche officielle régionale : 8 emplacements, branchements électriques, surveillance de nuit et terrain fermé la nuit; aucun tarif affiché.",
+      "nextCheck": "Demander le tarif de stationnement/nuitée et des services pour 2027 au gestionnaire.",
+      "sources": [
+        "https://www.tourisme-en-hautsdefrance.com/offres/aire-de-camping-cars-du-patis-embry-fr-3392488/",
+        "https://www.hautpaysdopale.com/preparer-mon-sejour/ou-dormir/aires-de-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/719030034",
+      "place": "Merlimont — aire CAMPING-CAR PARK Au Cœur des Dunes",
+      "lot": 430,
+      "checkedAt": "2026-11-22",
+      "status": "L’opérateur affiche 14,50 €/24 h et taxe de séjour 1 €/24 h jusqu’au 31/12/2027, soit 15,50 € au total.",
+      "nextCheck": "Tarif 2027 confirmé; les services associés ne sont pas renseignés dans le fichier départemental.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/merlimont"
+      ]
+    }
+  ]
+}
