@@ -4,15 +4,15 @@
   "displayedCount": 28,
   "rawRegionalRows": 28,
   "deduplicatedRows": 0,
-  "currentLot": 448,
+  "currentLot": 449,
   "department": "67",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 28,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 448 : fiches 1 à 10 contrôlées. Wissembourg piscine : stationnement gratuit officiellement confirmé, distinct de la borne Pépinière (5 € par service). Wingen 3 places, Cleebourg 2, Hunspach 2 : stationnements publics, aucun tarif publié. Saverne : tarif officiel non trouvé; 15 €/nuit tiers à une autre adresse, à ne pas attribuer sans vérification GPS. Wangen : une nuit via France Passion avec carte, activités payantes optionnelles. Spitz accueille sur son terrain mais tarif/services non publiés. Erstein (15 € tiers non daté), Niederbronn et Seebach : tarif/services actuels à confirmer. Hunspach : divergence d’adresse à résoudre. Aucune donnée du site modifiée.",
+  "note": "Lot 449 : fiches 11 à 20 contrôlées. Lembach : parking public, 3 places/toilettes, pas de tarif publié. Schœnau : tarif courant 15,44 €; barème 2027 13,44 € TTC (13 € + taxe 0,44 €), capacité 65 corrigée. Bischwiller : 5 places gratuites, tarifs horaires 2/4 € affichés mais objet tarifé à clarifier. Saâles : 14,64 € TTC 2027 confirmé. Châtenois : mairie confirme limite 24 h; tarif récent non confirmé. Sélestat : grille municipale 5 € services seuls; 10 €/24h, taxe 0,44 €, millésime 2027 absent. Ruhlmann-Schutz : parking privé gratuit confirmé, nuitée/conditions à clarifier. Lutzelhouse : tarif 12,82 € TTC 2027 confirmé mais fiche contradictoire sur capacité et stationnement gratuit/services à jetons. Dambach-la-Ville CCP : TTC 2027 à 15,88 € (15,78 € tarif courant 2026). Soufflenheim : en-tête 14,74 € discordant du barème 12,73 € + taxe 1 € 2026; taxe 2027 manquante. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/4720603322",
@@ -128,6 +128,117 @@
       "nextCheck": "Garder prix/capacité/services non confirmés; contacter mairie si nécessaire.",
       "sources": [
         "https://www.alsace-verte.com/carnet-dadresses/hebergement/campings-et-aires-pour-camping-car/?sitpdf=1"
+      ]
+    },
+    {
+      "sourceId": "node/12209802237",
+      "place": "Lembach — parking derrière la mairie",
+      "lot": 449,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : parking public, 3 places camping-car et toilettes; aucun tarif de stationnement ni service eau/électricité/vidange publié.",
+      "nextCheck": "Garder prix non publié; services techniques non confirmés.",
+      "sources": [
+        "https://www.alsace-verte.com/en/motorhome-areas/parking-area-for-motorhome-2/"
+      ]
+    },
+    {
+      "sourceId": "node/13164250815",
+      "place": "Schœnau — CCP Camping de mon Village",
+      "lot": 449,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif courant 15,44 €/24 h (15 € + taxe 0,44 €). Barème 2027 : 13 € + 0,44 € = 13,44 €/24 h. Capacité détaillée désormais 65 places, divergence précédente 31/65 résolue.",
+      "nextCheck": "Distinguer tarif courant de 2026 et tarif 2027; indiquer 65 places.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/Schoenau"
+      ]
+    },
+    {
+      "sourceId": "way/206823455",
+      "place": "Bischwiller — aire de stationnement rue de l’Église",
+      "lot": 449,
+      "checkedAt": "2026-11-22",
+      "status": "Office touristique : 5 places gratuites, borne électrique; tarifs 2 €/4 h et 4 €/8 h listés sans préciser s’ils s’appliquent au stationnement ou à la borne.",
+      "nextCheck": "Garder stationnement gratuit, faire clarifier la nature du tarif horaire avant de l’associer à un service.",
+      "sources": [
+        "https://www.visithaguenau.alsace/se-loger/aires-de-services/lei/detail/311000120/aire-de-services-pour-camping-cars"
+      ]
+    },
+    {
+      "sourceId": "way/245544371",
+      "place": "Saâles — CCP Camping de mon Village",
+      "lot": 449,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 complet : base 14,20 € + taxe 0,44 € = 14,64 €/24 h; 20 places.",
+      "nextCheck": "Tarif 2027 confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/sa%C3%A2les"
+      ]
+    },
+    {
+      "sourceId": "way/302587070",
+      "place": "Châtenois — aire communale",
+      "lot": 449,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie indique stationnement autorisé 24 h maximum. Source touristique identifie aire près de l’allée des Bains; prix municipal récent non établi.",
+      "nextCheck": "Compléter statut/limite 24 h; prix à confirmer auprès de la commune.",
+      "sources": [
+        "https://www.mairie-chatenois.fr/page/aire-de-camping-cars",
+        "https://www.selestat-haut-koenigsbourg.com/fiche-sit/aire-de-service-pour-camping-cars-chatenois-222004294/"
+      ]
+    },
+    {
+      "sourceId": "way/734597434",
+      "place": "Sélestat — aire municipale",
+      "lot": 449,
+      "checkedAt": "2026-11-22",
+      "status": "Grille officielle publiée : service seul 5 € (max 2 h); 10 €/24 h, 20 €/48 h, 30 €/72 h, 21 €/jour à partir du 4e jour; taxe 0,44 €/véhicule/nuit. Aucun millésime 2027 indiqué.",
+      "nextCheck": "Séparer services/nuitées/taxe et ne pas marquer comme barème 2027 confirmé.",
+      "sources": [
+        "https://camping.selestat.fr/le-camping/aire-camping-cars"
+      ]
+    },
+    {
+      "sourceId": "way/1055685770",
+      "place": "Dambach-la-Ville — Vignobles Ruhlmann-Schutz",
+      "lot": 449,
+      "checkedAt": "2026-11-22",
+      "status": "Site du domaine confirme parking privé gratuit et aire pour camping-car; durée/conditions de nuitée non détaillées.",
+      "nextCheck": "Gratuité du parking confirmée; conditions de séjour à préciser par le domaine.",
+      "sources": [
+        "https://www.ruhlmann-schutz.fr/oenotourisme-en-alsace/visite-et-degustation/alsace-cave-ruhlmann/"
+      ]
+    },
+    {
+      "sourceId": "way/1144573112",
+      "place": "Lutzelhouse — CCP",
+      "lot": 449,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif 2027 confirmé : base 11,50 € + taxe 1,32 € = 12,82 €/24 h. Fiche affiche 12 places; description dit 4 places, stationnement gratuit et services à jetons.",
+      "nextCheck": "Garder le tarif détaillé CCP; signaler conflit de capacité et description, demander actualisation à l’opérateur.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/lutzelhouse"
+      ]
+    },
+    {
+      "sourceId": "way/1204596461",
+      "place": "Dambach-la-Ville — CCP Frankstein",
+      "lot": 449,
+      "checkedAt": "2026-11-22",
+      "status": "Prix courant 15,78 €/24 h (base 14,56 + taxe 1,22). Pour 2027, base 14,56 + taxe 1,32 = 15,88 €/24 h.",
+      "nextCheck": "Mettre à jour projection TTC 2027 à 15,88 €; laisser 15,78 € comme prix courant 2026.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/dambach-la-ville?areaType=area-de-etapa-autocaravanas"
+      ]
+    },
+    {
+      "sourceId": "way/1218156957",
+      "place": "Soufflenheim — CCP",
+      "lot": 449,
+      "checkedAt": "2026-11-22",
+      "status": "Prix en-tête 14,74 €/24 h; barème saisonnier base 12,73 €/24 h jusqu’au 31/12/2027, mais taxe de 1 € publiée seulement jusqu’au 31/12/2026. L’ancien TTC 13,73 € ne concorde pas avec l’en-tête; TTC 2027 non établi.",
+      "nextCheck": "Demander à CCP de confirmer tarif courant, montant de taxe 2027 et corriger l’écart d’affichage.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/soufflenheim?areaType=aire-etape-camping-car"
       ]
     }
   ]
