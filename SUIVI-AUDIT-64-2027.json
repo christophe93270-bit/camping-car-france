@@ -4,15 +4,15 @@
   "displayedCount": 39,
   "rawRegionalRows": 39,
   "deduplicatedRows": 0,
-  "currentLot": 438,
+  "currentLot": 439,
   "department": "64",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 39,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 438 : fiches 1 à 10 des Pyrénées-Atlantiques contrôlées. Tarifs officiels observés : ferme Agerria gratuite (référentiel 2026), Aitxinea gratuite 2026, Saint-Palais/Arzacq/Garlin gratuites 2026; CCP Hendaye Ville 12 € TTC 2027, Saint-Pée 13,72 € TTC 2027. Taxes 2027 Montfort à confirmer. Aire Lhers : tarif saison 2026, commune Accous à renseigner. Aucune donnée applicative modifiée.",
+  "note": "Lot 439 : fiches 11 à 20 des Pyrénées-Atlantiques contrôlées. Tarifs 2027 publiés : Tardets gratuit, Sare 10 €/nuit et journée gratuite, Navarrenx gratuit. Autres aires locales tarifées contrôlées au barème 2026 avec tarifs 2027 à confirmer. Hendaye rue Ansoenia distincte du CCP École : 15 €/24 h, 30 €/48 h hors eau/électricité. Aucune donnée applicative modifiée.",
   "entries": [
     {
       "sourceId": "node/7803967951",
@@ -127,6 +127,117 @@
       "nextCheck": "Aucune correction tarifaire; ajuster éventuellement le point GPS à la position officielle (43.349458, -1.521374).",
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/saint-pee-sur-nivelle?areaType=area-de-etapa-autocaravanas"
+      ]
+    },
+    {
+      "sourceId": "way/159677129",
+      "place": "Tardets-Sorholus — parking derrière le centre de secours",
+      "lot": 439,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme 64 : 20 places ombragées, accessible toute l’année, sans eau ni électricité. Gratuité publiée en 2026 et 2027. Commune à renseigner dans la fiche.",
+      "nextCheck": "Renseigner Tardets-Sorholus; aucune correction tarifaire immédiate.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/tardets-sorholus/ACCAMAQU064V5B3H3N-aire-de-stationnement-de-camping-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/217327379",
+      "place": "Saint-Jean-Pied-de-Port — aire du Jaï Alaï",
+      "lot": 439,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme 64 : 50 places, ouverte toute l’année; stationnement 13 €/nuit à partir du 1er juillet 2026; service eau/vidange 5 € pour une heure. Tarif 2027 non renseigné. Coordonnées de la fiche OSM à environ 60 m du point tourisme.",
+      "nextCheck": "Compléter commune Saint-Jean-Pied-de-Port; demander tarif 2027 à la mairie; distinguer prix nuitée et service.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/saint-jean-pied-de-port/ACCAMAQU06400007-aire-de-camping-car-du-jai-alai/"
+      ]
+    },
+    {
+      "sourceId": "way/297525721",
+      "place": "Sare — aire de camping-cars, bas de la piscine municipale",
+      "lot": 439,
+      "checkedAt": "2026-11-22",
+      "status": "Tarifs publiés jusqu’en 2027 : nuitée 10 €, services eau/vidange inclus la nuit; stationnement de journée gratuit. 23 places, ouverte toute l’année. Commune Sare.",
+      "nextCheck": "Renseigner Sare et distinguer le prix de nuitée de la gratuité diurne.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/sare/ACCAMAQU06400010-aire-de-camping-cars-de-sare/"
+      ]
+    },
+    {
+      "sourceId": "way/329837868",
+      "place": "Espelette — parking camping-car, Place du Marché",
+      "lot": 439,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme 64 : parking de 6 places, gratuit, accessible toute l’année selon fiche 2026. Aire municipale de stationnement distincte de la ferme Erreka, qui est payante.",
+      "nextCheck": "Compléter commune Espelette; confirmer gratuité en 2027 si besoin.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/espelette/ACCAMAQU064V5BJ07L-aire-de-stationnement/"
+      ]
+    },
+    {
+      "sourceId": "way/376047797",
+      "place": "Salies-de-Béarn — aire de camping-car Chemin du Herre",
+      "lot": 439,
+      "checkedAt": "2026-11-22",
+      "status": "24 emplacements. Tarif 2026 : 11 €/24 h; eau/vidange eaux grises 3,50 € pour 45 min; garage mort 4,50 €/jour (15 jours max). Électricité et autres services listés. Tarif 2027 non publié.",
+      "nextCheck": "Renseigner Salies-de-Béarn; confirmer tarifs 2027 et disponibilité des services.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/salies-de-bearn/ACCAMAQU0640001V-aire-de-camping-car-de-salies-de-bearn/"
+      ]
+    },
+    {
+      "sourceId": "way/501658557",
+      "place": "Navarrenx — parking au pied des remparts, promenade de la Porte d’Espagne",
+      "lot": 439,
+      "checkedAt": "2026-11-22",
+      "status": "Stationnement gratuit publié pour 2026 et 2027, 25 emplacements selon la fiche officielle; ouvert toute l’année. Commune Navarrenx.",
+      "nextCheck": "Renseigner Navarrenx; conserver stationnement gratuit et ne pas inventer de services non listés.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/navarrenx/ACCAMAQU06400025-aire-de-stationnement-de-navarrenx/"
+      ]
+    },
+    {
+      "sourceId": "way/527573111",
+      "place": "Cambo-les-Bains — aire impasse Arroka",
+      "lot": 439,
+      "checkedAt": "2026-11-22",
+      "status": "44 places (dont 2 PMR), ouverte toute l’année et annoncée ouverte en 2027. Tarif 2026 : 15 €/nuit, taxe comprise; tarif 2027 non encore publié.",
+      "nextCheck": "Compléter Cambo-les-Bains; demander le barème 2027 au gestionnaire.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/cambo-les-bains/ACCAMAQU064V55TBQX-aire-de-camping-cars-de-cambo-les-bains/"
+      ]
+    },
+    {
+      "sourceId": "way/762326623",
+      "place": "Hendaye — aire municipale rue Ansoenia",
+      "lot": 439,
+      "checkedAt": "2026-11-22",
+      "status": "Cette fiche OSM correspond à l’aire officielle de la rue Ansoenia, et non à l’aire CAMPING-CAR PARK de l’École vérifiée au lot 438. 25 emplacements, ouverte toute l’année; 15 €/24 h, 30 € pour 48 h maximum, hors eau et électricité. Tarif publié 2026; 2027 non publié.",
+      "nextCheck": "Corriger la commune à « Hendaye », type et source vers l’aire municipale; conserver distinction CCP École (12 €/24 h) / aire municipale (15 €/24 h). Confirmer tarif 2027.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/hendaye/ACCAMAQU06400004-aire-de-camping-cars-dhendaye/",
+        "https://www.hendaye-tourisme.fr/hebergements/aire-camping-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/817701717",
+      "place": "Saint-Jean-Pied-de-Port — aire du Fronton",
+      "lot": 439,
+      "checkedAt": "2026-11-22",
+      "status": "50 emplacements, ouverte toute l’année. Tarif 2026 : 15,50 €/nuit à partir du 1er juillet; eau/vidange 5 € pour une heure. Tarif 2027 non publié. Le point OSM est proche du point officiel.",
+      "nextCheck": "Compléter commune Saint-Jean-Pied-de-Port; confirmer tarif 2027, séparer nuitée et service.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/saint-jean-pied-de-port/ACCAMAQU064V57BLEK-aire-de-camping-car-du-fronton/"
+      ]
+    },
+    {
+      "sourceId": "way/891929390",
+      "place": "Oloron-Sainte-Marie — aire du Tivoli, rue Adoue",
+      "lot": 439,
+      "checkedAt": "2026-11-22",
+      "status": "7 places ombragées, stationnement libre et vidange gratuits, durée maximale 48 h. Fiche 2026 signale fermeture temporaire annuelle du 31 août au 11 septembre; tarif 2027 non publié.",
+      "nextCheck": "Compléter Oloron-Sainte-Marie; confirmer calendrier et gratuité pour 2027 auprès de la mairie.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/oloron-sainte-marie/ACCAMAQU06400015-aire-de-camping-cars-doloron-sainte-marie/"
       ]
     }
   ]
