@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 475,
+  "currentLot": 476,
   "department": "71",
   "progress": {
-    "checked": 150,
+    "checked": 160,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 475 : fiches 141 à 150 contrôlées. Camping des Îles : 50 emplacements total, tarif 2026 non publié. Mervans : grille officielle 2026 aire CC, 15 €/nuit juin-septembre, 12 € hors saison, eau 3 €, électricité 6 €, taxe adulte 0,86 €, maxi 7 nuits; ancien PDF non daté dépassé. Les Deux Rivières : tarifs officiels 2026 détaillés et saisons confirmés. Bragny : camping + services confirmé, tarif non publié, distinguer parking communal voisin. Les Arbois : forte divergence entre grille exploitant non datée (15/25 €) et CampingFrance 2026 (9 € emplacement); à confirmer. Domaine Louvarel : pas de forfait fixe 2026. Bijou du Doubs : 22/28 € pour 2, électricité +6 € en option. Ferme des Maziers : 6 emplacements, saison 15/04–15/10, tarif officiel absent. Petit Montperroux : tarif relevé 2027, 35/52,50 € jusqu’à 5 m, pas 2026. Thil-sur-Arroux : 8 places, saison 18/04–31/10, tarif de base d’emplacement manquant dans source tarifaire secondaire. Aucune donnée du site modifiée.",
+  "note": "Lot 476 : fiches 151 à 160 contrôlées. Les Sauges : 30 €/nuit pour 2, année non précisée. Bourbon-Lancy : tarifs officiels 2026 confirmés, camping distingué de l’aire voisine. Ferme des Bruyères : tarif/services à confirmer. Rivault, Trufière et Avoineries : France Passion, gratuit jusqu’à 24 h pour membre à jour. Montret et Boyer : accueil actuel non confirmé. Poncétys : contradiction entre Destination 71 (accueil mentionné) et Vins de Bourgogne (non). Les Châtaigniers : à partir de 7 €/nuit, année non précisée. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -1660,6 +1660,117 @@
       "sources": [
         "https://www.autun-tourisme.com/offres/aire-naturelle-de-thil-sur-arroux-thil-sur-arroux-fr-3456506/",
         "https://www.campingfrance.com/recherchez-votre-camping/bourgogne-franche-comte/saone-et-loire/thil-sur-arroux/aire-naturelle-municipale34"
+      ]
+    },
+    {
+      "place": "Camping à la ferme Les Sauges",
+      "lot": 476,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif affiché : 30 €/nuit pour 2, adulte supp. 10 €, enfant 3–16 ans 5 €; année de validité non indiquée. Fiche touristique Autun : 6 emplacements.",
+      "nextCheck": "Reconfirmer tarif et validité auprès de l’établissement.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/1650391-les-sauges",
+        "https://www.autun-tourisme.com/offres/les-sauges-dettey-fr-3469117/"
+      ]
+    },
+    {
+      "place": "Camping de Bourbon-Lancy",
+      "lot": 476,
+      "checkedAt": "2026-11-22",
+      "status": "Tarifs officiels 2026 : Confort avec électricité 21,50–30 €/nuit; Nature sans électricité 17–25 €/nuit; taxe adulte 0,60 €/nuit. Distinct de l’aire Terracamps de 22 places, rue de la Petite Murette.",
+      "nextCheck": "Garder les tarifs en année 2026 et distinguer camping et aire voisine.",
+      "sources": [
+        "https://www.terracamps.com/camping-nature/camping-de-bourbon-lancy",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-de-bourbon-lancy.html",
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-camping-car-park-de-bourbon-lancy.html"
+      ]
+    },
+    {
+      "place": "Accueil camping-car à la Ferme des Bruyères",
+      "lot": 476,
+      "checkedAt": "2026-11-22",
+      "status": "Accueil et 6 emplacements signalés par un annuaire spécialisé; commune/adresse cohérentes. Tarif 2026 et services non publiés.",
+      "nextCheck": "Appeler pour confirmer disponibilité, prix et équipements.",
+      "sources": [
+        "https://www.campingcar76.fr/Site%20P08%2071%20Aires%20services%20de%20la%20Saone%20et%20Loire%20%28Bourgogne%29.htm",
+        "https://www.charolais-brionnais.fr/document/guide-pratique-2024-bd-compressed.pdf"
+      ]
+    },
+    {
+      "place": "Ferme de Rivault — Autun",
+      "lot": 476,
+      "checkedAt": "2026-11-22",
+      "status": "France Passion annoncé; nuitée gratuite jusqu’à 24 h pour membre avec adhésion en cours. Sur rendez-vous; aucun service d’aire confirmé.",
+      "nextCheck": "Appeler avant arrivée.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/produit-du-terroir/ferme-de-rivault.html",
+        "https://www.france-passion.com/faq/"
+      ]
+    },
+    {
+      "place": "Chèvrerie La Trufière — Chissey-lès-Mâcon",
+      "lot": 476,
+      "checkedAt": "2026-11-22",
+      "status": "France Passion annoncé; gratuit jusqu’à 24 h pour membre avec adhésion en cours. Aucun service d’aire confirmé.",
+      "nextCheck": "Appeler avant arrivée.",
+      "sources": [
+        "https://www.cluny-tourisme.com/degustation/chevrerie-la-trufiere/",
+        "https://www.destination-saone-et-loire.fr/fr/produit-du-terroir/chevrerie-la-trufiere.html"
+      ]
+    },
+    {
+      "place": "Ferme de Viennette — ESAT de Montret",
+      "lot": 476,
+      "checkedAt": "2026-11-22",
+      "status": "Ancienne mention France Passion; la fiche touristique actuelle de l’ESAT ne confirme pas l’accueil camping-car.",
+      "nextCheck": "Considérer l’étape comme non confirmée jusqu’à réponse directe de l’ESAT.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/1417017-ferme-de-viennette-e-s-a-t-de-montret",
+        "https://www.destination-saone-et-loire.fr/fr/produit-du-terroir/ferme-de-viennette-esat-de-montret.html"
+      ]
+    },
+    {
+      "place": "Ferme du Domaine des Poncétys — Davayé",
+      "lot": 476,
+      "checkedAt": "2026-11-22",
+      "status": "Sources contradictoires : Destination Saône-et-Loire mentionne France Passion; Vins de Bourgogne indique « Accueil camping car : Non ».",
+      "nextCheck": "Ne pas annoncer une étape active avant confirmation du domaine.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/produit-du-terroir/ferme-du-domaine-des-poncetys.html",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-des-poncetys-davaye-71960%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDQyMiZ8"
+      ]
+    },
+    {
+      "place": "Ferme des Avoineries — Gibles",
+      "lot": 476,
+      "checkedAt": "2026-11-22",
+      "status": "Site actuel de la ferme annonce l’accueil camping-car via France Passion; gratuit jusqu’à 24 h pour membre avec adhésion en cours. Aucun service d’aire confirmé.",
+      "nextCheck": "Appeler avant arrivée et préciser la condition d’adhésion.",
+      "sources": [
+        "https://lesavoineries.fr/",
+        "https://www.destination-saone-et-loire.fr/fr/produit-du-terroir/ferme-des-avoineries.html"
+      ]
+    },
+    {
+      "place": "La Ferme des Muses — Boyer",
+      "lot": 476,
+      "checkedAt": "2026-11-22",
+      "status": "Guide 2023 mentionne France Passion; fiche touristique mise à jour en 2026 ne confirme pas l’accueil camping-car.",
+      "nextCheck": "Reconfirmer auprès de l’exploitante avant de présenter l’étape comme active.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/2157384-la-ferme-des-muses",
+        "https://www.tourisme-saonegrosne.fr/document/web-brochure-ot-sennecey-2023.pdf"
+      ]
+    },
+    {
+      "place": "Les Châtaigniers, mode camping — Navour-sur-Grosne",
+      "lot": 476,
+      "checkedAt": "2026-11-22",
+      "status": "Accueil camping-car confirmé par Accueil Paysan, à partir de 7 €/nuit; tarif sans année. Mode autonome : eau de source/toilettes sèches. Cuisine et sanitaires en supplément selon disponibilité.",
+      "nextCheck": "Garder « à partir de 7 € », sans année; confirmer suppléments et conditions auprès de l’hôte.",
+      "sources": [
+        "https://www.accueil-paysan.com/fr/hebergements/camping/bourgogne-franche-comte/saone-et-loire/camping-les-chataigniers/",
+        "https://www.navoursurgrosne.fr/detail-offre/hebergements/G%C3%AEte-dEtape-Les-Ch%C3%A2taigniers-dOuilly_HCOBOU071V500P7K_427"
       ]
     }
   ]
