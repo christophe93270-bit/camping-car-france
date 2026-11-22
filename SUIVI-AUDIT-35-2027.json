@@ -1,0 +1,143 @@
+{
+  "scope": "Ille-et-Vilaine (35) : audit des tarifs, services, capacités et périodes d’ouverture des fiches de aires-ille-et-vilaine.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 69,
+  "rawRegionalRows": 69,
+  "deduplicatedRows": 0,
+  "currentLot": 506,
+  "department": "35",
+  "progress": {
+    "checked": 10,
+    "total": 69,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 506 : fiches 1 à 10 vérifiées. Gratuité confirmée à Availles, Cesson et stationnement de l’aire de Saint-Malon; distinguer cette dernière du camping municipal payant. À Hirel, le tarif de base 2026 est daté du 22/11/2026, non du 31/10. Plerguer reste à vérifier sur place; Mellé et Vitré n’ont pas de prix de nuitée officiel. Aucun fichier source modifié.",
+  "entries": [
+    {
+      "sourceId": "node/11897389616",
+      "place": "Bédée — aire de camping-cars",
+      "status": "Sources touristiques: 6 places, accueil toute l’année, eau potable, WC et vidange; guide Villages étapes: stationnement et services gratuits. Témoignages récents signalent des bornes parfois hors service.",
+      "nextCheck": "Garder gratuité et six places; conserver un doute sur le fonctionnement actuel de la borne.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11897389616",
+        "https://www.destination-broceliande.com/offres/aire-de-camping-cars-bedee-fr-2280315/",
+        "https://village-etape.fr/wp-content/uploads/2025/06/2025_guide_ccar_A5-compressed.pdf"
+      ],
+      "lot": 506,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/12029108895",
+      "place": "Plerguer — parking U Express",
+      "status": "Stationnement gratuit selon témoignages; eau rapportée à 2 €/10 min, tarif non confirmé par exploitant/mairie. Retours voyageurs signalent équipement à disponibilité variable.",
+      "nextCheck": "Laisser tarif non confirmé et inviter à vérifier le fonctionnement sur place.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12029108895",
+        "https://www.lecampeur.fr/aire/aire-de-camping-car-station-u-express-plerguer-ph5ab7",
+        "https://park4night.com/fr/place/37350"
+      ],
+      "lot": 506,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/12185597881",
+      "place": "Availles-sur-Seiche — aire municipale",
+      "status": "Pays de Vitré: eau, vidange, WC, stationnement et services gratuits, ouverts toute l’année; pas d’emplacements délimités.",
+      "nextCheck": "Conserver gratuité; préciser places non matérialisées.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12185597881",
+        "https://www.bretagne-vitre.com/aires-de-camping-cars/aire-de-camping-cars-davailles-sur-seiche/"
+      ],
+      "lot": 506,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/12185672424",
+      "place": "Vitré — parking allée Saint-Étienne",
+      "status": "Office de tourisme: stationnement camping-car autorisé sur parking face au camping municipal, sans cales ni équipement extérieur. Tarif non publié; gratuité mentionnée seulement par une source communautaire.",
+      "nextCheck": "Maintenir tarif non confirmé; distinguer le parking du camping voisin.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12185672424",
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-stationnement-a-vitre-vitre-fr-4109810/",
+        "https://caraplace.ch/fr/stellplaetze/frankreich/bretagne/vitre"
+      ],
+      "lot": 506,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/12453502669",
+      "place": "Saint-Malon-sur-Mel — aire La Marette",
+      "status": "Guide Brocéliande 2026 indique stationnement gratuit; office départemental confirme eau, électricité et vidange. Le camping municipal est distinct, ouvert du 13/06 au 31/08/2026, à partir de 13,40 €/jour et 4 € d’électricité à partir.",
+      "nextCheck": "Séparer clairement aire gratuite et camping payant; ne pas incorporer tarif camping dans tarif de stationnement.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12453502669",
+        "https://www.destination-broceliande.com/app/uploads/broceliande/2026/06/AIRES-CAMPING-CARS-DB-2026.pdf",
+        "https://www.destination-broceliande.com/offres/aire-de-camping-car-de-saint-malon-sur-mel-saint-malon-sur-mel-fr-4039359/",
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/camping-municipal-la-marette-saint-malon-sur-mel-fr-2726365/"
+      ],
+      "lot": 506,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/24770971",
+      "place": "Cesson-Sévigné — aire route de la Valette",
+      "status": "Office de tourisme de Rennes confirme aire gratuite, 6 emplacements, sans borne de services.",
+      "nextCheck": "Conserver six places et gratuité; ne pas lister de services d’eau/électricité/vidange.",
+      "sources": [
+        "https://www.openstreetmap.org/way/24770971",
+        "https://www.tourisme-rennes.com/infos-pratiques/camping-car-stationnement/"
+      ],
+      "lot": 506,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/156889729",
+      "place": "Hirel — CAMPING-CAR PARK Moulin de la Ville-ès-Brune",
+      "status": "CCP: 13 €/24 h du 22/11 au 31/12/2026 (11,70 € + taxe 1,30 €); 11 €/24 h en 2027 (9,70 € + taxe 1,30 €); parking 5 h + services 6 €. Tarif antérieur indiquait le début au 31/10.",
+      "nextCheck": "Corriger la date du début du barème 2026 au 22/11/2026; garder barèmes année par année.",
+      "sources": [
+        "https://www.openstreetmap.org/way/156889729",
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/ille-et-vilaine/hirel"
+      ],
+      "lot": 506,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/429898926",
+      "place": "Mellé — aire communale derrière l’église",
+      "status": "Mairie: 4 places, eau et vidanges gratuites; prix de stationnement non précisé.",
+      "nextCheck": "Conserver services gratuits; ne pas conclure que la nuitée est gratuite sans source municipale.",
+      "sources": [
+        "https://www.openstreetmap.org/way/429898926",
+        "https://melle.bzh/vie-pratique-services/aire-de-camping-car/"
+      ],
+      "lot": 506,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1010925240",
+      "place": "Le Minihic-sur-Rance — aire rue du Pron",
+      "status": "Mairie: borne pour 10 min d’eau + 1 h d’électricité à 2 €, paiement en pièces seulement; aucun prix de nuitée publié.",
+      "nextCheck": "Renseigner adresse et services municipaux; maintenir nuitée non tarifée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1010925240",
+        "https://www.le-minihic-sur-rance.fr/accueil/tourisme/sejourner-au-minihic/"
+      ],
+      "lot": 506,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1083025546",
+      "place": "Guichen — aire de Pont-Réan",
+      "status": "Mairie: 20 places, 13,16 €/nuit taxe comprise, réservation en ligne, limite 72 h, électricité par emplacement, eau et vidange. Coordonnées municipales proches du point OSM.",
+      "nextCheck": "Tarif, capacité et équipements confirmés; conserver limite et mode de réservation.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1083025546",
+        "https://www.guichenpontrean.fr/nouvelle-aire-de-camping-car-a-pont-rean/"
+      ],
+      "lot": 506,
+      "checkedAt": "2026-11-22"
+    }
+  ]
+}
