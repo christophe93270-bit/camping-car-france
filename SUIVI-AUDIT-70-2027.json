@@ -4,15 +4,15 @@
   "displayedCount": 49,
   "rawRegionalRows": 49,
   "deduplicatedRows": 0,
-  "currentLot": 456,
+  "currentLot": 457,
   "department": "70",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 49,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 456 : fiches 1 à 10 contrôlées. Esmoulières : 2 places gratuites toute l’année. Bois de Rochalain : 4 places au guide 2026; gratuité/services pas suffisamment confirmés. Étang Pellevin : stationnement gratuit, borne eau/électricité payante par carte, 6 places sur fiche touristique contre 4 au guide. Longevelle : accueil chez apiculteurs France Passion, prix/modalités à confirmer. Gray : 25 places, services 9–13 €, période affichée 13 mai–13 septembre sans année. CCP Luxeuil : tarif actuel 15,37 €/24 h TTC; forfait 5 h 6 €; capacité 45; base tarifaire visible jusqu’à 2027 mais taxe 2027 à confirmer. Vaivre-et-Montoille : 5 places dans le texte contre 6 dans la capacité. Bucey-lès-Gy : 4 places, jeton de service 2 €. Saint-Bresson : 2 places gratuites, borne eau/électricité 2 €. Fougerolles-Saint-Valbert : 6 places, 4 nuits maximum, eau/électricité et vidanges annoncées gratuites. Aucune donnée du site modifiée.",
+  "note": "Lot 457 : fiches 11 à 20 contrôlées. Corravillers : 2 places gratuites; prix des services non publié. Faucogney rue des Chars : 6 places gratuites, jeton eau/électricité 2 €. Saulx : mairie confirme 6 €/24 h, 4 places et 5 nuits maximum; guide 2026 contradictoire (5 €, 10 places). Velesmes-Échevanne : 5 places gratuites. Raddon-et-Chapendu : stationnement gratuit, borne à 2 €, capacité contradictoire 4/6. Faverney : prix de borne 2025 uniquement (eau 2 €/10 min, électricité 2 €/h), pas de parking confirmé sur place. Lure : 100 places camping-car uniquement via annuaire, usage non confirmé par mairie; marché mardi matin. Mélisey : 5 places/24 h selon annuaire, marché mercredi confirmé. Marina Corre : 32 emplacements, à partir de 15 €/jour, barème à confirmer. Pesmes : borne de services 9–13 €, distincte de la nuitée et du camping voisin. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3720132687",
@@ -126,6 +126,121 @@
       "sources": [
         "https://www.massif-des-vosges.fr/sit/hpabfc000v51gdac/",
         "https://www.luxeuil-vosges-sud.fr/sit/aire-de-stationnement-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/1232043298",
+      "place": "Corravillers — aire place de la Mairie",
+      "lot": 457,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme : 2 places gratuites toute l’année; eau/électricité, sans prix de borne publié; table et poubelle.",
+      "nextCheck": "Conserver parking gratuit; laisser tarif de service non confirmé.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-services-pour-camping-cars-corravillers-fr-4909776/"
+      ]
+    },
+    {
+      "sourceId": "way/1232045366",
+      "place": "Faucogney-et-la-Mer — aire rue des Chars",
+      "lot": 457,
+      "checkedAt": "2026-11-22",
+      "status": "6 places gratuites toute l’année; borne Campiflux 2 € pour eau et électricité; vidanges eaux grises et WC décrites.",
+      "nextCheck": "Séparer parking gratuit et jeton de service 2 €.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-services-pour-camping-cars-faucogney-et-la-mer-fr-4909775/"
+      ]
+    },
+    {
+      "sourceId": "way/1272703803",
+      "place": "Saulx — aire municipale",
+      "lot": 457,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie : 6 €/24 h, 4 places, maximum 5 nuits consécutives, eau/électricité/vidange. Guide touristique 2026 contradictoire : 5 € et 10 places.",
+      "nextCheck": "Privilégier le règlement de la mairie; signaler que le guide touristique semble obsolète.",
+      "sources": [
+        "https://saulx.fr/fr/rb/1213110/aire-de-camping-car-8",
+        "https://www.luxeuil-vosges-sud.fr/uploads/2026/03/guide-hebergements-2026.pdf"
+      ]
+    },
+    {
+      "sourceId": "way/1296411564",
+      "place": "Velesmes-Échevanne — aire de camping-cars",
+      "lot": 457,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme : gratuit, 5 emplacements, prise électrique 32 A, eau, vidange, WC publics et poubelles.",
+      "nextCheck": "Données principales confirmées; distinguer les WC publics des équipements techniques.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-camping-cars-velesmes-echevanne-fr-5316302/"
+      ]
+    },
+    {
+      "sourceId": "way/1297481956",
+      "place": "Raddon-et-Chapendu — aire du Pommier de la Côte",
+      "lot": 457,
+      "checkedAt": "2026-11-22",
+      "status": "Stationnement gratuit; borne à jeton 2 € pour eau/électricité. La description annonce 6 places et le champ capacité 4.",
+      "nextCheck": "Conserver distinction borne/stationnement; demander confirmation de capacité (4 ou 6).",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-daccueil-de-camping-cars-raddon-et-chapendu-fr-4910882/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/45907",
+      "place": "Faverney — borne rue des Grandes Bouteilles",
+      "lot": 457,
+      "checkedAt": "2026-11-22",
+      "status": "Barème Camping-car.com marqué 2025 : eau 2 €/10 min, électricité 2 €/h, vidanges sans supplément. Pas de stationnement confirmé sur place; parking place du Gymnase distinct.",
+      "nextCheck": "Garder le millésime 2025 et demander barème/fonctionnement actuel à la mairie; ne pas assimiler la borne à une aire de nuitée.",
+      "sources": [
+        "https://www.camping-car.com/aires/45907-aire-communale/",
+        "https://www.ville-faverney.com/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/34745",
+      "place": "Lure — Esplanade Charles-de-Gaulle",
+      "lot": 457,
+      "checkedAt": "2026-11-22",
+      "status": "Annuaire spécialisé annonce 100 places pour camping-cars, mais aucune confirmation municipale de cette affectation ou de nuitées. La Ville confirme le marché du mardi 8 h–12 h.",
+      "nextCheck": "Ne pas publier capacité/autorisation comme données municipales; confirmer stationnement camping-car et nuit auprès de la Ville.",
+      "sources": [
+        "https://www.camping-car.com/aires/34745-aire-de-stationnement/",
+        "https://www.lure.fr/centre-ville-osez-lure/marches-hebdomadaires/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/34746",
+      "place": "Mélisey — Champ de Foire",
+      "lot": 457,
+      "checkedAt": "2026-11-22",
+      "status": "Camping-car.com : 5 places, limite 24 h, interdiction mercredi matin pendant le marché. La mairie confirme le marché chaque mercredi matin au Champ de Foire; prix/services non publiés.",
+      "nextCheck": "Faire confirmer par la mairie l’usage camping-car et la limite avant de les présenter comme règle municipale.",
+      "sources": [
+        "https://www.camping-car.com/aires/34746-aire-de-stationnement/",
+        "https://melisey.fr/melisey-pratique/les-commerces/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/16316",
+      "place": "Corre — aire Marina Corre",
+      "lot": 457,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme : 32 emplacements, tarif à partir de 15 €/jour pour un emplacement électrifié et assainissement; ouverture toute l’année.",
+      "nextCheck": "Conserver « à partir de 15 €/jour » et confirmer le tarif exact et les prestations comprises auprès de l’exploitant.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-pour-camping-car-marina-corre-corre-fr-4911429/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/4620",
+      "place": "Pesmes — borne Flot Bleu, chemin de la Colombière",
+      "lot": 457,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme : 1 emplacement de service; eau/vidange/électricité 9–13 €, prix de service et non de nuitée. Camping OnlyCamp voisin distinct, saison 2026 du 13 mai au 13 septembre.",
+      "nextCheck": "Ne pas mélanger borne de service, stationnement/nuitée et prix du camping voisin.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-camping-cars-flot-bleu-pesmes-fr-4909709/",
+        "https://hautesaonetourisme.com/offres/camping-onlycamp-la-colombiere-pesmes-fr-4911730/"
       ]
     }
   ]
