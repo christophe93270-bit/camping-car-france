@@ -4,15 +4,15 @@
   "displayedCount": 48,
   "rawRegionalRows": 48,
   "deduplicatedRows": 0,
-  "currentLot": 434,
+  "currentLot": 435,
   "department": "63",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 48,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 434 : fiches 11 à 20 contrôlées. Tarifs 2027 CCP détaillés pour La Tour-d’Auvergne, Charbonnières-les-Varennes et Châtel-Guyon; l’aire du Pré des Laveuses à Cournon n’est plus en service comme aire extérieure, le camping voisin accueille les camping-cars. Plusieurs aires gratuites demandent confirmation de leur ouverture et du stationnement de nuit. Aucune donnée applicative modifiée.",
+  "note": "Lot 435 : fiches 21 à 30 contrôlées. Tarifs CCP 2027 : Égliseneuve-d’Entraigues (base 13 €/24 h, taxe 2027 à confirmer) et Riom (12,72 € TTC). L’aire municipale de Treize Vents au Breuil-sur-Couze est signalée fermée définitivement. Pont-du-Château correspond à une borne de services/une place, pas à une aire de nuit établie. Aucune donnée applicative modifiée.",
   "entries": [
     {
       "sourceId": "node/5835931285",
@@ -242,6 +242,119 @@
       "sources": [
         "https://www.i-campingcar.fr/aires.php?ville=VALCIVIERES",
         "https://campingcar76.fr/Site%20P08%2063%20Aires%20services%20Puy%20de%20Dome%20%28Rhone%20Alpes%29.htm"
+      ]
+    },
+    {
+      "sourceId": "way/1293076801",
+      "place": "Boudes — parking et borne à la halle d’accueil",
+      "lot": 435,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : parking gratuit limité à 2 jours, borne eau/vidanges toute l’année; eau 2 €/100 litres tarif affiché en 2026.",
+      "nextCheck": "Confirmer le prix de l’eau en 2027; stationnement gratuit confirmé sans millésime.",
+      "sources": [
+        "https://www.puydedome-tourisme.com/fr/fiche/hotellerie-plein-air/stationnement-et-borne-service-camping-car-boudes_TFO6356483/",
+        "https://www.issoire-tourisme.com/camping/stationnement-et-borne-service-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/1293145222",
+      "place": "Égliseneuve-d’Entraigues — CAMPING-CAR PARK / Camping de mon Village",
+      "lot": 435,
+      "checkedAt": "2026-11-22",
+      "status": "Opérateur : prix de base 13 €/24 h du 16/10/2026 au 31/12/2027; taxe 0,44 € publiée jusqu’au 31/12/2026 seulement. Total actuel 13,44 €; parking 5 h + services 6 €.",
+      "nextCheck": "Confirmer taxe de séjour 2027 avant validation du total TTC annuel.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/egliseneuve-dentraigues"
+      ]
+    },
+    {
+      "sourceId": "way/1293166879",
+      "place": "Ardes-sur-Couze — aire communale",
+      "lot": 435,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : parking gratuit, 4 places, limite 2 nuits; eau 2 €/100 litres, vidange; service tarifé pour 2026.",
+      "nextCheck": "Confirmer le tarif d’eau 2027 auprès de l’office/mairie.",
+      "sources": [
+        "https://www.issoire-tourisme.com/camping/stationnement-et-borne-services-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/1306707151",
+      "place": "Aubusson-d’Auvergne — aire du lac",
+      "lot": 435,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 3 €/nuit de septembre à avril et 7 €/nuit de mai à août (tarifs 2026); eau/vidange disponibles. Tarif d’entrée voiture au site est distinct de la nuitée camping-car.",
+      "nextCheck": "Confirmer barème et conditions de nuitée 2027 à la base de loisirs.",
+      "sources": [
+        "https://www.auvergne-livradois-forez.com/je-prepare-mon-sejour/hebergements/aire-de-service-et-de-stationnement-du-lac-daubusson-dauvergne-aubusson-dauvergne-fr-4619281/",
+        "https://www.puydedome-tourisme.com/fr/fiche/hotellerie-plein-air/aire-de-service-et-de-stationnement-du-lac-d-aubusson-d-auvergne-aubusson-d-auvergne_TFO881719/"
+      ]
+    },
+    {
+      "sourceId": "way/1307201065",
+      "place": "Saint-Dier-d’Auvergne — aire près du stade",
+      "lot": 435,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 10 places, stationnement et services d’eau/vidange gratuits; ouverture saisonnière 30/04–31/10 selon fiche mise à jour en 2023.",
+      "nextCheck": "Confirmer dates d’ouverture 2027 auprès de la mairie.",
+      "sources": [
+        "https://www.puydedome-tourisme.com/fr/fiche/hotellerie-plein-air/aire-de-service-pour-camping-car-de-saint-dier-d-auvergne-saint-dier-d-auvergne_TFO881732/"
+      ]
+    },
+    {
+      "sourceId": "way/1307516090",
+      "place": "Champeix — borne services et stationnement",
+      "lot": 435,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 7 €/24 h de stationnement limité à 24 h pour 2026; eau/vidange 3 €, électricité 4 € le jeton/4 h. Retours récents signalent des pannes électriques.",
+      "nextCheck": "Confirmer grille 2027 et fonctionnement des bornes auprès de la mairie.",
+      "sources": [
+        "https://www.issoire-tourisme.com/camping/borne-services-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/1307546699",
+      "place": "Laqueuille — aire Place du Foirail",
+      "lot": 435,
+      "checkedAt": "2026-11-22",
+      "status": "Stationnement gratuit, vidanges gratuites; données secondaires : eau 2 €/10 min, électricité 4 €/8 h; emplacements très en pente, borne parfois hors service. Aucun tarif municipal 2027 retrouvé.",
+      "nextCheck": "Confirmer tarifs et fonctionnement auprès de la mairie.",
+      "sources": [
+        "https://www.laqueuille.fr/patrimoine",
+        "https://park4night.com/fr/place/39009"
+      ]
+    },
+    {
+      "sourceId": "way/1342546492",
+      "place": "Riom — aire CAMPING-CAR PARK",
+      "lot": 435,
+      "checkedAt": "2026-11-22",
+      "status": "Opérateur : base 11,40 €/24 h pour toute l’année 2027 + taxe de séjour 1,32 € = 12,72 €. Parking 5 h + services : 6 €. Tarif courant antérieur 12,52 €.",
+      "nextCheck": "Mettre à jour à 12,72 € TTC au 01/01/2027; taxe 2027 confirmée.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/riom?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/1392021989",
+      "place": "Pont-du-Château — borne route de Vichy, parking du cimetière",
+      "lot": 435,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : une place près de la borne; vidange/rinçage, 10 min d’eau et 55 min d’électricité; jetons disponibles gratuitement en mairie/commerces. Borne ouverte toute l’année hors gel; tarif de nuitée non publié.",
+      "nextCheck": "Requalifier en aire de services si le point correspond; vérifier stationnement de nuit et nombre de places.",
+      "sources": [
+        "https://www.puydedome-tourisme.com/fr/fiche/hotellerie-plein-air/aire-de-services-pour-camping-cars-de-pont-du-chateau-pont-du-chateau_TFO4778995/"
+      ]
+    },
+    {
+      "sourceId": "way/1392024269",
+      "place": "Le Breuil-sur-Couze — aire municipale allée de Treize Vents",
+      "lot": 435,
+      "checkedAt": "2026-11-22",
+      "status": "Campercontact marque l’aire municipale fermée définitivement; avis signalent fermeture par chaîne/disparition de l’aire. Le stationnement gratuit présent dans d’anciennes sources n’est pas un tarif 2027 valide.",
+      "nextCheck": "Confirmer la fermeture avec la commune et retirer ou signaler la fiche comme fermée.",
+      "sources": [
+        "https://www.campercontact.com/fr/france/auvergne-rhone-alpes/le-breuil-sur-couze/4244/aire-municipale"
       ]
     }
   ]
