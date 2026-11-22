@@ -4,15 +4,15 @@
   "displayedCount": 28,
   "rawRegionalRows": 28,
   "deduplicatedRows": 0,
-  "currentLot": 449,
+  "currentLot": 450,
   "department": "67",
   "progress": {
-    "checked": 20,
+    "checked": 28,
     "total": 28,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 8,
+    "totalInLot": 8
   },
-  "note": "Lot 449 : fiches 11 à 20 contrôlées. Lembach : parking public, 3 places/toilettes, pas de tarif publié. Schœnau : tarif courant 15,44 €; barème 2027 13,44 € TTC (13 € + taxe 0,44 €), capacité 65 corrigée. Bischwiller : 5 places gratuites, tarifs horaires 2/4 € affichés mais objet tarifé à clarifier. Saâles : 14,64 € TTC 2027 confirmé. Châtenois : mairie confirme limite 24 h; tarif récent non confirmé. Sélestat : grille municipale 5 € services seuls; 10 €/24h, taxe 0,44 €, millésime 2027 absent. Ruhlmann-Schutz : parking privé gratuit confirmé, nuitée/conditions à clarifier. Lutzelhouse : tarif 12,82 € TTC 2027 confirmé mais fiche contradictoire sur capacité et stationnement gratuit/services à jetons. Dambach-la-Ville CCP : TTC 2027 à 15,88 € (15,78 € tarif courant 2026). Soufflenheim : en-tête 14,74 € discordant du barème 12,73 € + taxe 1 € 2026; taxe 2027 manquante. Aucune donnée du site modifiée.",
+  "note": "Lot 450 : fiches 21 à 28 contrôlées; audit Bas-Rhin terminé (28/28). Rosheim : stationnement camping-car avenue Clémenceau confirmé, mais pas d’aire de services; coût ~3 € concerne la recharge de voiture électrique. Domaine Wassler : site officiel ne confirme pas l’accueil camping-car. Andlau CCP : prix courant 15,78 € (base 14,56 + taxe 1,22); total 2027 15,88 € (taxe 1,32). Pfaffenhoffen : 7 places gratuites, services confirmés mais tarif des services absent. Soultz-sous-Forêts : aire municipale de services sans prix publié. Second point Lembach et Kilstett restent à localiser/confirmer. Reichshoffen La Castine : une place, prix/services non publiés. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/4720603322",
@@ -239,6 +239,95 @@
       "nextCheck": "Demander à CCP de confirmer tarif courant, montant de taxe 2027 et corriger l’écart d’affichage.",
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/soufflenheim?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/1232553629",
+      "place": "Rosheim — places camping-car avenue Clémenceau",
+      "lot": 450,
+      "checkedAt": "2026-11-22",
+      "status": "La mairie confirme des places réservées aux camping-cars avenue Clémenceau, sans aire de services. Le coût d’environ 3 € concerne une recharge électrique pour voiture proche, pas un tarif camping-car.",
+      "nextCheck": "Décrire seulement les places confirmées; prix/services camping-car non confirmés; ne pas confondre recharge voiture et séjour camping-car.",
+      "sources": [
+        "https://rosheim.com/environnement-et-cadre-de-vie/mobilite-et-transports/stationnement-bornes-de-recharge/"
+      ]
+    },
+    {
+      "sourceId": "way/1238175198",
+      "place": "Blienschwiller — Domaine Wassler",
+      "lot": 450,
+      "checkedAt": "2026-11-22",
+      "status": "La page officielle confirme le domaine viticole/adresse, mais n’indique pas d’accueil camping-car, capacité, services ou tarif.",
+      "nextCheck": "Contacter le domaine et ne pas présenter le stationnement comme confirmé sans retour.",
+      "sources": [
+        "https://www.domaine-wassler.com/"
+      ]
+    },
+    {
+      "sourceId": "way/1265625282",
+      "place": "Andlau — CCP La Porte des Ours",
+      "lot": 450,
+      "checkedAt": "2026-11-22",
+      "status": "Prix courant 15,78 €/24 h (base 14,56 € + taxe 1,22 €). Barème 2027 : 14,56 € + 1,32 € = 15,88 €/24 h. 13 places.",
+      "nextCheck": "Garder le prix courant de 2026 séparé du tarif TTC 2027 à 15,88 €.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/bas-rhin/andlau?areaType=area-de-etapa-autocaravanas"
+      ]
+    },
+    {
+      "sourceId": "way/1298221007",
+      "place": "Val-de-Moder — aire de Pfaffenhoffen",
+      "lot": 450,
+      "checkedAt": "2026-11-22",
+      "status": "Office touristique : 7 emplacements de stationnement gratuits, avec borne électrique, vidange et eau potable. Le tarif de chaque service n’est pas indiqué.",
+      "nextCheck": "Préciser gratuité du stationnement seulement; confirmer prix de service.",
+      "sources": [
+        "https://www.visithaguenau.alsace/fr/camping-et-aires-de-camping-car/aire-de-services-pour-camping-cars/216004796"
+      ]
+    },
+    {
+      "sourceId": "way/1298627305",
+      "place": "Soultz-sous-Forêts — aire municipale de services",
+      "lot": 450,
+      "checkedAt": "2026-11-22",
+      "status": "Aire de services confirmée par office de tourisme; capacité, tarifs et détails de fonctionnement non publiés.",
+      "nextCheck": "Maintenir prix non publié et confirmer services auprès de la mairie.",
+      "sources": [
+        "https://www.alsace-verte.com/en/aires-camping-cars/aire-de-service-pour-camping-car/",
+        "https://www.alsace-verte.com/carnet-dadresses/hebergement/campings-et-aires-pour-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/1298631903",
+      "place": "Lembach — second point OSM",
+      "lot": 450,
+      "checkedAt": "2026-11-22",
+      "status": "Sources touristiques ne permettent pas d’identifier ce point avec certitude. À distinguer du parking municipal rue de Mattstall et des services du camping du Fleckenstein.",
+      "nextCheck": "Ne pas fusionner ni attribuer équipements/tarifs; demander localisation exacte à la mairie.",
+      "sources": [
+        "https://www.alsace-verte.com/carnet-dadresses/hebergement/campings-et-aires-pour-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/1298656678",
+      "place": "Reichshoffen — place près de La Castine",
+      "lot": 450,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme un emplacement de stationnement camping-car; aucun prix ni service technique publié.",
+      "nextCheck": "Garder prix non publié et n’ajouter aucun service sans source.",
+      "sources": [
+        "https://www.alsace-verte.com/aires-camping-cars/aire-de-stationnement-pour-camping-car-la-castine/"
+      ]
+    },
+    {
+      "sourceId": "way/1335919996",
+      "place": "Kilstett — accueil camping-car",
+      "lot": 450,
+      "checkedAt": "2026-11-22",
+      "status": "Site municipal consulté ne confirme pas les conditions d’accès au point GPS, tarif, limite de nuitées ou services.",
+      "nextCheck": "Faire confirmer le lieu et l’accueil auprès de la mairie avant de le décrire comme opérationnel.",
+      "sources": [
+        "https://www.kilstett.fr/"
       ]
     }
   ]
