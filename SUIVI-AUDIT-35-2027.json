@@ -4,15 +4,15 @@
   "displayedCount": 69,
   "rawRegionalRows": 69,
   "deduplicatedRows": 0,
-  "currentLot": 509,
+  "currentLot": 510,
   "department": "35",
   "progress": {
-    "checked": 40,
+    "checked": 50,
     "total": 69,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lots 506 à 509 : 40/69 fiches vérifiées. Lot 509 : tarifs confirmés pour Guipry-Messac, Combourg, Grand-Fougeray et Montauban; stationnement gratuit documenté à La Guerche, Crevin et Antrain; tarif de l’aire de services de Châtillon et de Bain-de-Bretagne à confirmer. Aucun fichier source modifié.",
+  "note": "Lots 506 à 510 : 50/69 fiches vérifiées. Lot 510 : tarif des Îlots confirmé; tarifs camping saisonniers des Chevrets/Domaine de la Roche distingués des services; capacité Piré-sur-Seiche à harmoniser (7 annoncés par l’office contre 6 dans la fiche); conditions hivernales de Trémelin à confirmer. Aucun fichier source modifié.",
   "entries": [
     {
       "sourceId": "node/11897389616",
@@ -491,6 +491,123 @@
         "https://www.destination-fougeres.bzh/aire-camping-car/service-camping-car-dantrain/"
       ],
       "lot": 509,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Iffendic — aire naturelle du Lac de Trémelin",
+      "status": "Destination Brocéliande et guide 2026: stationnement gratuit, 5 places exclusivement camping-car, 48 h maximum, sans sanitaires ni électricité. Conditions hivernales spécifiques 2026-2027 non confirmées; ne pas confondre avec le camping saisonnier payant.",
+      "nextCheck": "Conserver 5 places/48 h/gratuité/sans services; vérifier accès P2/aire pendant l’hiver.",
+      "sources": [
+        "https://www.destination-broceliande.com/mesenvies/incontournables/nature/lac-de-tremelin/",
+        "https://www.destination-broceliande.com/app/uploads/broceliande/2026/06/AIRES-CAMPING-CARS-DB-2026.pdf"
+      ],
+      "lot": 510,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Malo — aire Les Îlots, Rothéneuf",
+      "status": "Exploitant: 173 emplacements, toute l’année, sans réservation, accès 8–23 h; forfait avec eau/électricité/taxe: 14 € hors vacances, 15 € vacances hors été, 16 € juillet-août.",
+      "nextCheck": "Garder tarifs 2026 et préciser que taxe et services sont inclus.",
+      "sources": [
+        "https://www.campingcar-saintmalo.com/",
+        "https://www.saint-malo-tourisme.com/poser-ses-valises/ou-dormir/campings/aire-daccueil-les-ilots-saint-malo-fr-3711946/"
+      ],
+      "lot": 510,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Malo — parking-relais Paul Féval",
+      "status": "Saint-Malo Tourisme affiche 7,50 €/24 h pour les camping-cars; parking ouvert toute l’année, règles de nuitée comme séjour non précisées.",
+      "nextCheck": "Classer comme parking payant, ne pas afficher comme prix de nuitée d’aire.",
+      "sources": [
+        "https://www.saint-malo-tourisme.com/poser-ses-valises/ou-dormir/campings/aire-paul-feval-saint-malo-fr-3711956/"
+      ],
+      "lot": 510,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Coulomb — aire du camping des Chevrets",
+      "status": "Office tourisme: eau/vidange 5,50 €, électricité 3,50 €, prix non datés. Exploitant: saison 2026 du 3 avril au 5 octobre; accès borne hors saison non confirmé.",
+      "nextCheck": "Garder tarifs à confirmer; indiquer fermeture saisonnière et vérifier accès hors saison.",
+      "sources": [
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-du-camping-des-chevrets-saint-coulomb-fr-2727619/",
+        "https://www.campingdeschevrets.fr/tarifs/"
+      ],
+      "lot": 510,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Suliac — camping municipal Les Cours",
+      "status": "Grille tourisme sans prix; fermeture après le 18/09/2026 selon délibération communale. Témoignage à 18,50 € non officiel. Parking gratuit du village distinct du camping.",
+      "nextCheck": "Marquer camping fermé et tarif non confirmé; ne pas confondre avec parking public gratuit.",
+      "sources": [
+        "https://www.saint-malo-tourisme.com/poser-ses-valises/ou-dormir/campings/aire-du-camping-municipal-les-cours-saint-suliac-fr-3646585/",
+        "https://politique.pappers.fr/commune/document/793e6b2fe4356f36a971ad5755c40069"
+      ],
+      "lot": 510,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Comblessac — aire du Château de Craon",
+      "status": "Ille-et-Vilaine Tourisme confirme eau, électricité, vidanges et WC inclus dans le tarif. Dernier prix identifié: 12 € selon Camping-car.com, barème 2025; aucun tarif 2026 officiel trouvé.",
+      "nextCheck": "Marquer 12 € comme dernier tarif daté 2025, à confirmer avec le propriétaire.",
+      "sources": [
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/chateau-de-craon-comblessac-fr-2724061/",
+        "https://www.camping-car.com/aires/46041-chateau-de-craon/"
+      ],
+      "lot": 510,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Mont-Dol — camping du Domaine de la Roche",
+      "status": "Exploitant: forfait camping-car 2 personnes + électricité 17,76 € basse saison/18,66 € haute saison en 2026; vidange/remplissage seuls 3 €. Saison avril–septembre, fermé à la date du contrôle.",
+      "nextCheck": "Garder tarifs saisonniers 2026; tarif 2027 absent.",
+      "sources": [
+        "https://domainedelaroche35.com/tarifs-et-reservations/"
+      ],
+      "lot": 510,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Luitré-Dompierre — aire communale",
+      "status": "Destination Fougères: 6 places gratuites et prestations eau/électricité/vidange/laverie accessibles par jetons. Tarif communautaire d’électricité (4 €/12h) non confirmé par source touristique officielle.",
+      "nextCheck": "Conserver gratuité stationnement et 6 places; ne pas confirmer prix des jetons sans source mairie.",
+      "sources": [
+        "https://www.destination-fougeres.bzh/aire-camping-car/aire-de-camping-car-de-luitre-dompierre/",
+        "https://park4night.com/fr/place/237188"
+      ],
+      "lot": 510,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Piré-Chancé — aire de Piré-sur-Seiche",
+      "status": "Office tourisme indique 7 places et interdiction au-delà de 3,5 t; la fiche source compte 6. Gratuité signalée par secondaires, pas de tarif dans la page touristique. Eau possiblement coupée en période de gel.",
+      "nextCheck": "Capacité à corriger à 7 si mairie ne signale pas de changement; conserver prix gratuit à confirmer et limite de poids.",
+      "sources": [
+        "https://www.tourisme-paysdechateaugiron.bzh/hebergements/aire-de-pire-sur-seiche/",
+        "https://park4night.com/fr/place/6875"
+      ],
+      "lot": 510,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Plélan-le-Grand — stationnement de l’Étang de Trégu",
+      "status": "Ille-et-Vilaine Tourisme: parking gratuit, une nuit maximum, aucun service; camping, feux et baignade interdits, déchets à emporter.",
+      "nextCheck": "Données cohérentes; conserver limite d’une nuit et absence de services.",
+      "sources": [
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-stationnement-pour-camping-car-etang-de-tregu-plelan-le-grand-fr-5267790/"
+      ],
+      "lot": 510,
       "checkedAt": "2026-11-22"
     }
   ]
