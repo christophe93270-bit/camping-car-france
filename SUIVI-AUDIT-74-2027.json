@@ -4,15 +4,15 @@
   "displayedCount": 24,
   "rawRegionalRows": 24,
   "deduplicatedRows": 0,
-  "currentLot": 495,
+  "currentLot": 496,
   "department": "74",
   "progress": {
-    "checked": 20,
+    "checked": 24,
     "total": 24,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 4,
+    "totalInLot": 4
   },
-  "note": "Lot 495 : fiches 11 à 20 vérifiées. Le Terret est définitivement fermé; Saint-Gervais et La Chapelle-d’Abondance ont des services électriques à retirer/confirmer; La Balme annonce 24 places (fichier 23) et reste affichée temporairement fermée; tarifs de Doussard et Chamonix distingués entre nuitée/parking et services. Aucune fiche source du site n’a été modifiée.",
+  "note": "Département Haute-Savoie (74) : audit terminé, 24/24 fiches examinées dans les lots 494 à 496. Lot 496 : taxes 2027 de Manigod et Saint-Ferréol confirmées; dates de début de tarifs à corriger pour Manigod, Bonneville et Saint-Ferréol. Cruseilles reste indiquée « à venir » sans grille ni caractéristiques. Aucun fichier source de fiches n’a été modifié.",
   "entries": [
     {
       "sourceId": "node/4913702021",
@@ -257,6 +257,51 @@
       "sources": [
         "https://www.openstreetmap.org/way/1421554765",
         "https://hautesavoiemontblanc-tourisme.com/offres/aire-de-service-camping-car-chamonix-chamonix-mont-blanc-fr-5877112/"
+      ]
+    },
+    {
+      "sourceId": "way/1531066176",
+      "place": "Manigod — Col de Merdassier, CAMPING-CAR PARK",
+      "lot": 496,
+      "checkedAt": "2026-11-22",
+      "status": "Page CCP : aire ouverte, 16 places, 6 A; sanitaires du 19 au 31/12/2026. Grille 14 €/24 h du 15 au 30/11/2026, 18 € du 01/12/2026 au 31/03/2027, 14 € du 01/04 au 30/06/2027. Taxe de séjour 1,20 €/24 h confirmée jusqu’au 31/12/2027. Total actuel 15,20 €, total hiver 19,20 €. Parking 5 h + services 6 €.",
+      "nextCheck": "Corriger début de la tranche actuelle du 01/09 au 15/11; renseigner taxe 2027 de 1,20 € et total hiver 19,20 €/24 h. Capacité et statut conformes.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1531066176",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/haute-savoie/manigod"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/74/bonneville",
+      "place": "Bonneville — CAMPING-CAR PARK, camping de mon village",
+      "lot": 496,
+      "checkedAt": "2026-11-22",
+      "status": "Page CCP : 68 places, 53 branchements 16 A, aire ouverte; tarif 14,35 €/24 h à partir du 22/11/2026 + taxe de 0,40 € jusqu’au 31/12/2027 = 14,75 €; parking 5 h + services 6 €. Sanitaires ouverts du 01/07 au 31/08/2026. Le fichier fait commencer le tarif au 30/10.",
+      "nextCheck": "Aligner le début de validité sur le 22/11/2026; conserver prix et taxe. Préciser la saison des sanitaires; confirmer les modalités pour campeurs/caravanes avant de les annoncer.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/haute-savoie/bonneville"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/74/saint-ferreol",
+      "place": "Saint-Ferréol — CAMPING-CAR PARK",
+      "lot": 496,
+      "checkedAt": "2026-11-22",
+      "status": "Page CCP : aire ouverte, 18 places, 6 A; conteneurs ménagers, tri et verre à 600 m route du Roibet. Tarif de base 14 €/24 h à partir du 22/11/2026 jusqu’au 31/12/2027 + taxe 1,20 €/24 h jusqu’au 31/12/2027 = 15,20 €; parking 5 h + services 6 €. Le fichier indique un début au 12/08.",
+      "nextCheck": "Corriger le début de grille au 22/11/2026; garder 18 places, 6 A et la localisation des conteneurs.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/haute-savoie/saint-ferreol"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/74/cruseilles",
+      "place": "Cruseilles — CAMPING-CAR PARK",
+      "lot": 496,
+      "checkedAt": "2026-11-22",
+      "status": "Page CCP : statut « À venir », adresse 1731 route de Maconseil et GPS 46.036738, 6.120707. Aucun prix, capacité, état d’ouverture ou service publié.",
+      "nextCheck": "Maintenir le statut « à venir » et attendre la publication d’informations officielles avant de renseigner tarif, capacité ou services.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/haute-savoie/cruseilles"
       ]
     }
   ]
