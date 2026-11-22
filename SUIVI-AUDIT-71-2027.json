@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 463,
+  "currentLot": 464,
   "department": "71",
   "progress": {
-    "checked": 30,
+    "checked": 40,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 463 : fiches 21 à 30 contrôlées. CCP Louhans Le Port : 12,51 €/24 h TTC, dont 0,80 € taxe, 21 places. Saint-Gengoux-de-Scissé : 4 places, 48h, prix non publié. Camping des Deux Rives : dès 13,40 €/nuit; forfait ACSI/SVR 17,50 € pour 2 avec électricité hors juillet/août, taxes en sus. CCP Chalon Centre : base 14/15 € selon saison 2027 + taxe 1,20 €, actuellement 15,20 € TTC, PPRI. Saint-Léger-sur-Dheune : 12 places, tarifs non publiés. Écuisses : borne hors service, parking seul gratuit. Gibles : services gratuits. Bibracte : parking camping-car dédié, prix/capacité/règles nocturnes non publiés. CCP Autun : 13 € TTC, capacité 36/39 à résoudre. Paray : services 2 €/100 L eau et 5 €/8h électricité; 27 places / 16 gratuites à clarifier. Aucune donnée du site modifiée.",
+  "note": "Lot 464 : fiches 31 à 40 contrôlées. Pierre-de-Bresse CCP : 14,30 €/24 h TTC dont 0,80 € taxe, 16 places. Montceau : parking gratuit 10 places/72 h, services 2 €, toute l’année; ne pas supposer remplacement par CCP à venir. Chalon promenade Sainte-Marie : source participative seulement, 10 places/gratuité non confirmés officiellement, distincte d’Avenue Léon Blum. Saint-Marcelin-de-Cray, Bray, Blanot, Pressy : parkings décrits par Cluny Tourisme, pas de tarif/services publiés. Sennecey : 6 places. Gueugnon Chazey : services gratuits printemps-fin octobre, nuitée non établie. Sainte-Croix-en-Bresse : 5 places, équipements listés, tarif non publié. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -358,6 +358,119 @@
       "nextCheck": "Séparer parking/vidange gratuits des services payants; demander si les 16 sont inclus dans les 27.",
       "sources": [
         "https://www.tourisme-paraylemonial.fr/campings-et-aire-de-camping-cars/aire-de-stationnement-et-de-service-pour-camping-car-ACCBOU071V500N6F.html"
+      ]
+    },
+    {
+      "sourceId": "way/1278305954",
+      "place": "Pierre-de-Bresse — aire CAMPING-CAR PARK",
+      "lot": 464,
+      "checkedAt": "2026-11-22",
+      "status": "CAMPING-CAR PARK: 16 places, ouverte 24/24, 14,30 €/24 h TTC dont 0,80 € de taxe. L’ancienne capacité 12 ne correspond plus à la fiche actuelle du gestionnaire.",
+      "nextCheck": "Garder tarif daté 2026 et 16 places; tarif dynamique à recontrôler avant 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/pierre-de-bresse"
+      ]
+    },
+    {
+      "sourceId": "way/1280580797",
+      "place": "Montceau-les-Mines — boulevard Maugrand",
+      "lot": 464,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : stationnement gratuit pour 10 véhicules, limité à 72 h; toute l’année. Vidange, eau et électricité : 2 € par utilisation, paiement CB. Guide 2026-2027 concordant. Une aire CCP signalée « à venir » à proximité ne prouve pas le remplacement de cette aire.",
+      "nextCheck": "Séparer parking gratuit des services payants. Clarifier tout changement d’exploitant avant fusion ou remplacement de fiche.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-2",
+        "https://www.creusotmontceautourisme.fr/app/uploads/creusotmontceau/2026/03/Guide-touristique-2026-2027.pdf"
+      ]
+    },
+    {
+      "sourceId": "way/1288052438",
+      "place": "Chalon-sur-Saône — promenade Sainte-Marie",
+      "lot": 464,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche participative/OSM annonce 10 places et gratuité, non corroborées par une page municipale récente. L’aire municipale officielle Avenue Léon Blum est distincte. Statut, capacité et tarif de la promenade Sainte-Marie non confirmés.",
+      "nextCheck": "Ne pas attribuer la gratuité ou les 10 places comme données officielles; ne pas fusionner avec Avenue Léon Blum. Vérifier auprès de la mairie.",
+      "sources": [
+        "https://caraplace.ch/fr/placeme/aire-de-camping-cars-promenade-sainte-marie-chalon-sur-saone-16268",
+        "https://www.achalon.com/"
+      ]
+    },
+    {
+      "sourceId": "way/1293621550",
+      "place": "Saint-Marcelin-de-Cray — parking",
+      "lot": 464,
+      "checkedAt": "2026-11-22",
+      "status": "Cluny Tourisme : parking goudronné légèrement en pente et peu ombragé; aucun tarif ni service technique publié.",
+      "nextCheck": "Prix et services non confirmés; signaler les cales utiles.",
+      "sources": [
+        "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-15/"
+      ]
+    },
+    {
+      "sourceId": "way/1293627829",
+      "place": "Bray — parking de la mairie",
+      "lot": 464,
+      "checkedAt": "2026-11-22",
+      "status": "Cluny Tourisme : parking au niveau de la mairie; tarif, capacité et services techniques non publiés.",
+      "nextCheck": "Conserver prix, capacité et services non confirmés.",
+      "sources": [
+        "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-bray/"
+      ]
+    },
+    {
+      "sourceId": "way/1293632945",
+      "place": "Blanot — parkings des grottes",
+      "lot": 464,
+      "checkedAt": "2026-11-22",
+      "status": "Cluny Tourisme décrit plusieurs zones de stationnement; pas de tarif ou de service camping-car validé. Les parkings diffèrent en revêtement/relief.",
+      "nextCheck": "Ne pas associer une capacité unique aux zones ni annoncer des services.",
+      "sources": [
+        "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-blanot/"
+      ]
+    },
+    {
+      "sourceId": "way/1296350421",
+      "place": "Sennecey-le-Grand — rue de la République",
+      "lot": 464,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme 6 places stabilisées et planes près de la Grosne; tarif et équipements techniques non publiés.",
+      "nextCheck": "Garder capacité 6; prix/services non confirmés.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-de-stationnement-pour-campings-cars.html"
+      ]
+    },
+    {
+      "sourceId": "way/1296351863",
+      "place": "Gueugnon — Chazey, aire de services",
+      "lot": 464,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : services gratuits du printemps à fin octobre. Les 3 spots mentionnés ne confirment pas 3 places de nuitée ni une autorisation de séjour nocturne.",
+      "nextCheck": "Tarif gratuit applicable aux services et saisonnalité; nuitée/capacité à ne pas inférer.",
+      "sources": [
+        "https://www.tourismecharolaisbrionnais.fr/accueil-camping-car/aire-de-service-pour-les-campings-cars-ACCBOU071234070.html"
+      ]
+    },
+    {
+      "sourceId": "way/1297180676",
+      "place": "Sainte-Croix-en-Bresse — Le Bourg",
+      "lot": 464,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie et Bresse bourguignonne confirment une aire de stationnement/service de 5 places. Eau, évacuation, toilettes, poubelles, tables et bancs listés par Destination 71. Aucun tarif publié.",
+      "nextCheck": "Garder 5 places et équipements; prix de stationnement/nuitée non confirmé.",
+      "sources": [
+        "https://www.mairie-sainte-croix-en-bresse.fr/aire-daccueil-des-camping-cars/",
+        "https://www.bresse-bourguignonne.com/aire-de-service-et-de-stationnement-pour-les-campings-cars.html"
+      ]
+    },
+    {
+      "sourceId": "way/1297214115",
+      "place": "Pressy-sous-Dondin — parking communal",
+      "lot": 464,
+      "checkedAt": "2026-11-22",
+      "status": "Cluny Tourisme : parking légèrement en pente, non ombragé; tarif et équipements techniques non publiés.",
+      "nextCheck": "Garder prix, capacité et services non confirmés; cales utiles.",
+      "sources": [
+        "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-pressy-sous-dondin/"
       ]
     }
   ]
