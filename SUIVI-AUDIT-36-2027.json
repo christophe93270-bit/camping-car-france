@@ -4,15 +4,15 @@
   "displayedCount": 21,
   "rawRegionalRows": 21,
   "deduplicatedRows": 0,
-  "currentLot": 513,
+  "currentLot": 514,
   "department": "36",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 21,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit en cours : lot 513 terminé (10/21). Les tarifs publiés ont été revérifiés; les données 2027 encore absentes et l’entrée OSM indéterminée restent signalées. Fiches source non modifiées.",
+  "note": "Audit en cours : lots 513 et 514 terminés (20/21). Tarifs de services, nuitées et stationnement séparés; divergences de capacité et entrées OSM non confirmées maintenues comme telles. Fiches source non modifiées.",
   "entries": [
     {
       "sourceId": "node/3263026728",
@@ -133,6 +133,125 @@
         "https://www.berryprovince.com/aires-camping-cars/espace-de-letang-remy-louveau/"
       ],
       "lot": 513,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/907658652",
+      "place": "Luant — Étang Duris",
+      "status": "Berry Province confirme dix places et forfait de service par jeton à 2 €; eau, électricité et vidanges. Calendrier 2026 dans les données, pas de calendrier 2027 consulté.",
+      "nextCheck": "Conserver le tarif de service distinct du stationnement; séparer de Neuillay-les-Bois et recontrôler en 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/907658652",
+        "https://www.berryprovince.com/aires-camping-cars/borne-camping-cars-a-letang-duris/"
+      ],
+      "lot": 514,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/907665618",
+      "place": "La Pérouille — Étang de la Roche / Champ Perrot",
+      "status": "Berry Province confirme vidanges eaux usées et WC chimiques gratuites uniquement; ne confirme ni eau, ni électricité, ni nuitée. Période 2026 enregistrée dans la fiche; dates 2027 absentes.",
+      "nextCheck": "Garder la gratuité limitée à la vidange; disponibilité à vérifier, ne pas annoncer de nuitée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/907665618",
+        "https://www.berryprovince.com/aires-camping-cars/borne-de-camping-car-de-la-perouille/"
+      ],
+      "lot": 514,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/907668462",
+      "place": "Vatan — point OSM près de la salle des fêtes",
+      "status": "Point OSM séparé de l’aire CCP officielle au 12 rue du Collège. L’aire CCP affiche au 22/11 : 12,73 €/24 h + taxe 0,40 €, parking 5 h avec services 6 €.",
+      "nextCheck": "Garder le tarif du point OSM non confirmé; ne pas fusionner ou attribuer les prix CCP.",
+      "sources": [
+        "https://www.openstreetmap.org/way/907668462",
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre/vatan"
+      ],
+      "lot": 514,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1155117295",
+      "place": "Orsennes — Pré du Jardin",
+      "status": "Berry Province : huit places, parking gratuit, forfait eau + vidange à 2 €, ouvert toute l’année (horaires 2026); aucune électricité listée.",
+      "nextCheck": "Conserver séparation du tarif de services et du stationnement; pas d’électricité sans source; vérifier 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1155117295",
+        "https://www.berryprovince.com/aires-camping-cars/aire-de-service-et-aire-de-stationnement-pour-camping-cars-2/"
+      ],
+      "lot": 514,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1281269006",
+      "place": "Martizay — aire de la Cornillère",
+      "status": "Berry Province confirme gratuité, nuitée et services. Même page : descriptif annonce cinq emplacements mais capacité totale indique huit; calendrier saisonnier non affiché sur la page actuelle.",
+      "nextCheck": "Garder capacité non tranchée (5/8); confirmer capacité et saison 2027 auprès de la commune.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1281269006",
+        "https://www.berryprovince.com/aires-camping-cars/borne-camping-car-de-martizay/"
+      ],
+      "lot": 514,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1285146055",
+      "place": "Saint-Hilaire-sur-Benaize — aire d’accueil",
+      "status": "Berry Province : trois places, jeton 24 h à 10 € comprenant eau, électricité et vidanges; jetons en mairie, paiement espèces; horaires 2026.",
+      "nextCheck": "Conserver 10 €/24 h comme forfait complet; vérifier calendrier 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1285146055",
+        "https://www.berryprovince.com/aires-camping-cars/aire-daccueil-de-camping-car/"
+      ],
+      "lot": 514,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1286449672",
+      "place": "Valençay — parking derrière l’Office de tourisme",
+      "status": "Parking partagé, environ quinze camping-cars possibles et durée non limitée; stationnement gratuit. Capacité totale affichée 16 pour le parking; aucun prix de vidange publié.",
+      "nextCheck": "Ne pas transformer capacité du parking en places réservées aux camping-cars; garder vidange sans tarif confirmé.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1286449672",
+        "https://www.berryprovince.com/aires-camping-cars/borne-pour-les-camping-cars/"
+      ],
+      "lot": 514,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1286851280",
+      "place": "Azay-le-Ferron — rue Hersent-Luzarche",
+      "status": "Berry Province : gratuit, eau, vidanges, nuitée et sept places. Note existante de source municipale indiquait six places; pas d’électricité confirmée.",
+      "nextCheck": "Garder capacité ouverte à 6 ou 7; demander confirmation à la mairie.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1286851280",
+        "https://www.berryprovince.com/aires-camping-cars/aire-de-camping-car-dazay-le-ferron/"
+      ],
+      "lot": 514,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1431825800",
+      "place": "Ardentes — ancien stade, avenue de Verdun",
+      "status": "Mairie : eau + vidange 3 €/10 min; électricité 3 €/jeton de 4 h. Prix du stationnement non publié; cinq places signalées par source touristique.",
+      "nextCheck": "Maintenir les prix des services séparés de la nuitée; tarif de stationnement à confirmer.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1431825800",
+        "https://www.mairie-ardentes.com/page/aire-de-service-pour-camping-cars"
+      ],
+      "lot": 514,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1502878916",
+      "place": "Aire de camping-car — commune à confirmer",
+      "status": "Entrée OSM sans commune/exploitant confirmé dans les sources associées; prix et services non confirmés.",
+      "nextCheck": "Laisser le tarif, la commune et les services en attente d’identification/localisation.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1502878916"
+      ],
+      "lot": 514,
       "checkedAt": "2026-11-22"
     }
   ]
