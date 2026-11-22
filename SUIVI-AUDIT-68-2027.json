@@ -4,15 +4,15 @@
   "displayedCount": 28,
   "rawRegionalRows": 28,
   "deduplicatedRows": 0,
-  "currentLot": 451,
+  "currentLot": 452,
   "department": "68",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 28,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 451 : fiches 1 à 10 contrôlées. Riquewihr Jean Monnet : tarifs officiels 2026 20 € jour /10 € nuit; 2027 non confirmé. Avenue Jacques Preiss : tarifs contradictoires sur fiche touristique officielle. Rouffach : parking public décrit, mais pas d’aire au point OSM confirmée. Sainte-Marie-aux-Mines : 20 places et fermeture pendant Mineral & Gem, tarif non publié. Ranspach-le-Haut : fermeture définitive signalée par source communautaire, à confirmer officiellement. Trois-Épis : stationnement gratuit, borne eau/électricité 6 €. Grand Ballon : parking seulement, gratuité/nuit tolérée non officielle. Xavier Schneider : 2 places CC standard + 1 poids lourd, tarif absent. Fessenheim : total TTC 2027 confirmé 14,90 €. Kaysersberg : 10 €/24h confirmé pour 2026, pas de tarif 2027 trouvé. Aucune donnée du site modifiée.",
+  "note": "Lot 452 : fiches 11 à 20 contrôlées. Kruth-Wildenstein : tarif 2027 CCP complet 13,50 € + taxe 1,32 € = 14,82 €. Linthal : source touristique officielle confirme borne gratuite, nuitée à clarifier. Ferrette 5 places gratuites; Turckheim 5 €/24h. Colmar : 2 aires port/OnlyPark séparées; tarif municipal diffère des fourchettes office de tourisme, assignation GPS encore à clarifier. Thann Bungert gratuit 48h, à distinguer du parking du Centre. Hartmannswiller 4 places et services confirmés, tarif non publié. Munster mairie affiche 16 €/24h tout inclus; millésime 2027 à vérifier. Oltingue : stationnement illimité, service eau+électricité 2 €. Ribeauvillé Cave : 15 €/24h et 2 € eau/12 min, vidange/remplissage seuls gratuits 45 min. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/4723666850",
@@ -127,6 +127,121 @@
       "sources": [
         "https://www.kaysersberg.com/fr/detail/618/4484/230101208/aire-de-camping-car-kaysersberg-vignoble/",
         "https://www.kaysersberg.com/pratique/venir-dans-la-vallee-de-kaysersberg/"
+      ]
+    },
+    {
+      "sourceId": "way/164646557",
+      "place": "Kruth-Wildenstein — CCP aire du lac",
+      "lot": 452,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 : base 13,50 € + taxe 1,32 € = 14,82 €/24 h; 26 emplacements. Source gestionnaire du lac confirme étape 24 h ou services seuls 5 h.",
+      "nextCheck": "Tarif 2027 confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haut-rhin/lac-de-kruth-wildenstein",
+        "https://lac-kruth-wildenstein.fr/fr/rb/1009387/foire-aux-questions-5"
+      ]
+    },
+    {
+      "sourceId": "way/215652419",
+      "place": "Linthal — borne de services rue du Markstein",
+      "lot": 452,
+      "checkedAt": "2026-11-22",
+      "status": "Office touristique officiel annonce borne gratuite vidange/eau/électricité; 4 places et parking nuitée mentionnés par Visit Alsace. Statut/prix de nuitée contredit par quelques avis secondaires.",
+      "nextCheck": "Maintenir gratuité officielle des services; demander à la commune/CCRG les règles de nuitée et tout tarif éventuel.",
+      "sources": [
+        "https://www.massif-des-vosges.fr/sit/232006656-aire-de-services-pour-camping-cars/",
+        "https://www.visit.alsace/sit/232006656-aire-de-services-pour-camping-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/308902801",
+      "place": "Ferrette — aire d’accueil camping-cars",
+      "lot": 452,
+      "checkedAt": "2026-11-22",
+      "status": "Office du tourisme : 5 places, stationnement gratuit toute l’année; prix des services non publié.",
+      "nextCheck": "Confirmer gratuité du parking; ne pas inventer le tarif des services.",
+      "sources": [
+        "https://www.sundgau-sud-alsace.fr/detail/1145/2379/242010650/aire-daccueil-de-camping-cars-ferrette/"
+      ]
+    },
+    {
+      "sourceId": "way/432986716",
+      "place": "Turckheim — aire quai de la Fecht",
+      "lot": 452,
+      "checkedAt": "2026-11-22",
+      "status": "Office du tourisme affiche 5 €/24 h; aucun millésime 2027 donné.",
+      "nextCheck": "Garder 5 €/24 h comme tarif publié, sans prétendre à une grille 2027 confirmée.",
+      "sources": [
+        "https://www.tourisme-colmar.com/toutes-les-fiches/F235015947_aire-de-stationnement-pour-camping-car-turckheim"
+      ]
+    },
+    {
+      "sourceId": "way/438190329",
+      "place": "Colmar — secteur port de plaisance/OnlyPark (deux aires)",
+      "lot": 452,
+      "checkedAt": "2026-11-22",
+      "status": "Deux installations distinctes : OnlyPark automatique 24h/24, services à jetons; aire intérieure du port sur réservation, arrivées 14h–18h et services inclus. Barèmes municipaux distincts (OnlyPark 12/14/16 € + taxe 0,22 €; port 19/21/23 € + taxe 0,50 €) divergent des fourchettes OT (13–20 € et 22–25 €).",
+      "nextCheck": "Garder deux fiches et faire confirmer tarifs actifs; affiner GPS/fiches source pour assigner le point OSM à la bonne installation.",
+      "sources": [
+        "https://colmar.fr/stationnement",
+        "https://www.port-de-colmar.com/emplacements-camping-cars/",
+        "https://www.tourisme-colmar.com/fr/toutes-les-fiches/F235018221_aire-de-service-et-de-stationnement-de-camping-cars-port-de-plaisance-de-colmar-colmar",
+        "https://www.tourisme-colmar.com/fr/toutes-les-fiches/F235013474_aire-de-service-et-de-stationnement-de-camping-cars-port-de-plaisance-de-colmar-colmar"
+      ]
+    },
+    {
+      "sourceId": "way/451559780",
+      "place": "Thann — parking Bungert",
+      "lot": 452,
+      "checkedAt": "2026-11-22",
+      "status": "Ville confirme stationnement gratuit limité à 48 h, camping interdit; lieu distinct du parking du Centre avec aire de vidange.",
+      "nextCheck": "Garder gratuité et limite 48h; ne pas fusionner les services du parking du Centre.",
+      "sources": [
+        "https://www.ville-thann.fr/mon-quotidien/mobilite/en-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/664705022",
+      "place": "Hartmannswiller — borne Flot Bleu",
+      "lot": 452,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie confirme 4 places, eau, vidanges et 220 V pendant 20 minutes; tarif de borne non précisé.",
+      "nextCheck": "Renseigner les services confirmés, laisser prix non publié.",
+      "sources": [
+        "https://www.hartmannswiller.fr/aire-de-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/763099797",
+      "place": "Munster — Munst’aire",
+      "lot": 452,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie affiche 16 €/24 h comprenant taxe, électricité, eau, douches/sanitaires et vidanges; capacité 49 places standard + 5 longs véhicules. Pas de grille 2027 mentionnée.",
+      "nextCheck": "Tarif et inclusions confirmés comme prix municipal affiché; confirmer son millésime pour 2027.",
+      "sources": [
+        "https://www.munster.alsace/visiter-munster-et-sa-vallee/aire-de-camping-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/815546375",
+      "place": "Oltingue — aire municipale",
+      "lot": 452,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie : 3 places et stationnement illimité; 2 € pour 55 min électricité + 10 min eau. Vidanges prévues sur emplacements dédiés.",
+      "nextCheck": "Distinguer tarif de prestation eau/électricité du prix de stationnement.",
+      "sources": [
+        "https://www.oltingue.fr/h%C3%A9bergement-restaurant"
+      ]
+    },
+    {
+      "sourceId": "way/1144446733",
+      "place": "Ribeauvillé — Cave de Ribeauvillé",
+      "lot": 452,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant : 15 €/24 h; eau 2 €/12 min; service vidange/remplissage seul 45 min gratuit; 27 places, ouvert 24h/24.",
+      "nextCheck": "Tarifs confirmés; réconcilier coordonnées OSM et accès officiel au 14B route de Colmar.",
+      "sources": [
+        "https://www.vins-ribeauville.com/notre-aire-camping-car/"
       ]
     }
   ]
