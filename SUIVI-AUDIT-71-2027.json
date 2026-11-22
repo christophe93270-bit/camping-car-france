@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 472,
+  "currentLot": 473,
   "department": "71",
   "progress": {
-    "checked": 120,
+    "checked": 130,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 472 : fiches 111 à 120 contrôlées. Ouroux-sur-Saône : stationnement gratuit/48 h dans répertoire spécialisé, services et électricité à confirmer. Vallée des Vaux : tarif 2026 absent. Épervière : 160 emplacements total, saison 2026 du 01/04 au 26/09; pas de grille statique relevée. Pierreclos : gratuité/services par sources non officielles à confirmer. Solutré : camping-cars admis de jour au P2, pas de camping/nuitée; parking exact à distinguer. Acro’Bath : aucun service ni tarif confirmé, borne proche à Cluny. La Bonne Vie : dates opérateur 03/04–28/09 contre fiche tourisme au 27/09; capacité 15/22, prix dynamique. Village des Meuniers : prix départ 20 €/nuit, non forfait CC; capacité publiée divergente. Ferme de la Tour : tarif/capacité connus seulement par fiche ancienne 2021 (10 emplacements totaux, libellé tarifaire ambigu). Châteauneuf : eau/vidange confirmées; gratuité/limite 3 jours anciennes à revalider. Aucune donnée du site modifiée.",
+  "note": "Lot 473 : fiches 121 à 130 contrôlées. Sommant : eau/vidange confirmées, tarif et nuitée non publiés; distinguer du camping voisin. Mezaneau : stationnement gratuit confirmé, services non documentés. Les Bruyères : grille officielle 2026 20/29/39/29/20 € selon dates; saison officielle 19/04–11/10, corrige les dates en fiche. Route de Beuvray : eau/vidange, tarif non publié et distinct de Bibracte. Fleurville : gratuité du stationnement, eau à 2 € selon grille 2022, à actualiser. Beaubery : gratuit et services selon mairie, capacité divergente/non confirmée. Super U : forfait service 2 € en 2024, à reconfirmer. Salornay : 6 places confirmées, pas de prix/services. Camping municipal Saint-Bonnet-de-Joux toujours signalé fermé depuis le 18/06/2024. Pont de Bussy : 9 €/1 personne, 16 €/2 personnes avec électricité; saison 01/04–30/09/2026. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -1328,6 +1328,115 @@
         "https://www.tourisme-sudbrionnais.fr/aires-de-camping-car.html",
         "https://www.camping-car.com/aires/",
         "https://www.camping-car.com/aires/16248-aire-communale/"
+      ]
+    },
+    {
+      "place": "Aire de service camping-car de Sommant",
+      "lot": 473,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme eau potable et évacuation eaux usées à Valogne, sans tarif ni nuitée. Gratuité vue seulement dans annuaires secondaires. À distinguer du camping Château de Valogne voisin.",
+      "nextCheck": "Confirmer auprès de la mairie tarif, fonctionnement et statut nuitée.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-15",
+        "https://spot2play.com/spot/aire-de-service-pour-les-campings-cars-sommant/"
+      ]
+    },
+    {
+      "place": "Aire camping-car à la ferme du Mezaneau",
+      "lot": 473,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme stationnement gratuit sur terrain plat dans la cour avec table de pique-nique; eau, électricité, vidange et nuitée non confirmées.",
+      "nextCheck": "Conserver gratuité attribuée; ne pas annoncer de services ou nuitée sans confirmation.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-pour-camping-car-a-la-ferme-du-mezaneau.html"
+      ]
+    },
+    {
+      "place": "Camping Les Bruyères — emplacements et services camping-car",
+      "lot": 473,
+      "checkedAt": "2026-11-22",
+      "status": "PDF officiel 2026 confirme forfait 2 personnes + 10 A + véhicule : 20/29/39/29/20 € selon période; suppléments dans la grille. Saison 2026 de l’exploitant et OT : 19/04–11/10, différente de 03/04–26/09 inscrit en fiche.",
+      "nextCheck": "Corriger les dates de saison vers 19/04–11/10/2026; conserver grille attribuée 2026, vérifier 2027 avant reconduction.",
+      "sources": [
+        "https://www.camping-les-bruyeres.fr/wp-content/uploads/2025/11/tarifs-2026.pdf",
+        "https://www.campingbruyeres.com/",
+        "https://www.tourisme-sudbrionnais.fr/campings/camping-les-bruyeres-HPABOU071142458.html"
+      ]
+    },
+    {
+      "place": "Aire de service camping-car — route de Beuvray",
+      "lot": 473,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme eau et vidange. Tarif officiel non publié; fiche distincte du parking visiteurs Bibracte (environ 4 km).",
+      "nextCheck": "Confirmer gratuité/prix et fonctionnement; garder séparée de la fiche Bibracte.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-10",
+        "https://www.autun-tourisme.com/offres/aire-de-service-pour-les-campings-cars-saint-leger-sous-beuvray-fr-3456476/"
+      ]
+    },
+    {
+      "place": "Aire de services et stationnement camping-car de Fleurville",
+      "lot": 473,
+      "checkedAt": "2026-11-22",
+      "status": "DATAtourisme relayé en 2025 : stationnement gratuit illimité, eau et vidange. Camping-car.com tarifs 2022 : forfait services gratuit mais eau potable 2 €. 2 places signalées.",
+      "nextCheck": "Confirmer si l’eau coûte toujours 2 €; ne pas confondre gratuité parking/vidange et eau tarifée.",
+      "sources": [
+        "https://spot2play.com/spot/aire-de-service-pour-les-campings-cars-fleurville/",
+        "https://www.camping-car.com/aires/46438-aire-communale/"
+      ]
+    },
+    {
+      "place": "Aire municipale de camping-car de Beaubery",
+      "lot": 473,
+      "checkedAt": "2026-11-22",
+      "status": "Site mairie : aire gratuite avec point d’eau, sanitaires et équipements de vidange. Répertoires divergent sur capacité (6–10), sans capacité officielle.",
+      "nextCheck": "Garder capacité non confirmée; les services et la gratuité sont confirmés par la mairie.",
+      "sources": [
+        "https://www.beaubery.fr/tourisme/page/2/",
+        "https://www.camping-car.com/tourisme/actus-des-aires/sens-de-l-accueil-et-vue-degagee-bienvenue-sur-l-aire-de-camping-car-de-beaubery-71/"
+      ]
+    },
+    {
+      "place": "Aire de services camping-car du Super U",
+      "lot": 473,
+      "checkedAt": "2026-11-22",
+      "status": "Camping-car.com indique forfait de services 2 € (tarif 2024), monnayeur. Stationnement et nuitée non confirmés.",
+      "nextCheck": "Confirmer le forfait actuel auprès du Super U; ne pas annoncer la nuitée.",
+      "sources": [
+        "https://www.camping-car.com/aires/45103-super-u/"
+      ]
+    },
+    {
+      "place": "Aire de camping-car municipale de Salornay-sur-Guye — bord de Guye",
+      "lot": 473,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme de Cluny : parking/terrain municipaux riverains, 6 emplacements. Tarif/services techniques non publiés; distinct du camping de La Clochette et de l’aire de service à Cluny.",
+      "nextCheck": "Conserver 6 places; prix/services non publiés et ne pas fusionner avec le camping.",
+      "sources": [
+        "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-salornay-sur-guye/",
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-salornay-sur-guye.html"
+      ]
+    },
+    {
+      "place": "Camping municipal de Saint-Bonnet-de-Joux — fermé",
+      "lot": 473,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie indique fermeture depuis le 18/06/2024 à la suite de dégradations; la fiche consultée le présente toujours fermé.",
+      "nextCheck": "Ne pas présenter comme une étape ouverte; conserver le statut fermé jusqu’à publication de réouverture.",
+      "sources": [
+        "https://stbonnetdejoux.fr/decouvrir/camping"
+      ]
+    },
+    {
+      "place": "Camping municipal du Pont de Bussy",
+      "lot": 473,
+      "checkedAt": "2026-11-22",
+      "status": "Site communal/grille 2026 : 9 €/nuit 1 personne avec électricité, 16 € pour 2; suppléments adultes 5 €, moins de 16 ans 2,50 €, moins de 2 ans gratuit; taxe 0,20 €/adulte. Saison 01/04–30/09/2026, 43 emplacements total dont 37 individuels/2 groupe, et mobil-homes.",
+      "nextCheck": "Tarifs 2026 vérifiés; ne pas reconduire pour 2027 sans nouvelle grille.",
+      "sources": [
+        "https://www.anost.fr/camping-du-pont-de-bussy/",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-du-pont-de-bussy.html",
+        "https://www.anost.fr/static/2e2c6ff226dd23e322dd4389dac3fb16/cm--260306-pv-compressed.pdf"
       ]
     }
   ]
