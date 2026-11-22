@@ -4,15 +4,15 @@
   "displayedCount": 49,
   "rawRegionalRows": 49,
   "deduplicatedRows": 0,
-  "currentLot": 457,
+  "currentLot": 458,
   "department": "70",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 49,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 457 : fiches 11 à 20 contrôlées. Corravillers : 2 places gratuites; prix des services non publié. Faucogney rue des Chars : 6 places gratuites, jeton eau/électricité 2 €. Saulx : mairie confirme 6 €/24 h, 4 places et 5 nuits maximum; guide 2026 contradictoire (5 €, 10 places). Velesmes-Échevanne : 5 places gratuites. Raddon-et-Chapendu : stationnement gratuit, borne à 2 €, capacité contradictoire 4/6. Faverney : prix de borne 2025 uniquement (eau 2 €/10 min, électricité 2 €/h), pas de parking confirmé sur place. Lure : 100 places camping-car uniquement via annuaire, usage non confirmé par mairie; marché mardi matin. Mélisey : 5 places/24 h selon annuaire, marché mercredi confirmé. Marina Corre : 32 emplacements, à partir de 15 €/jour, barème à confirmer. Pesmes : borne de services 9–13 €, distincte de la nuitée et du camping voisin. Aucune donnée du site modifiée.",
+  "note": "Lot 458 : fiches 21 à 30 contrôlées. Seasonova Vesoul : exploitant indique 130 emplacements dont environ 30 stabilisés camping-car; ouverture 02/04–15/12/2026, prix non publié dans page officielle consultée. Scey-sur-Saône : 8 emplacements de nuit; ancien tarif camping-car de 2022 uniquement (5 €/nuit, eau 2 €). Sainte-Marie-en-Chanois : stationnement gratuit, capacité contradictoire 2/4. Mailley : 4 places et borne Flot Bleu 2 €, panne signalée en mai 2026 sans suivi vérifié. La Montagne : 2 places gratuites; Jussey : 2 places et services gratuits. La Maladière : grille par poste, sans millésime; descriptions/capacité 100/61 contradictoires. Ballastières : services 5 € (2025) distincts du tarif de séjour; prix séjour, saison et capacité différents selon sources. Vert Lagon : page donne « 31 septembre », date impossible; tarif non trouvé. Miellin : tarifs et saison 2026 publiés, pas de vidange chimique sur le camping; vidange séparée à Servance 2 €. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3720132687",
@@ -241,6 +241,121 @@
       "sources": [
         "https://hautesaonetourisme.com/offres/aire-de-camping-cars-flot-bleu-pesmes-fr-4909709/",
         "https://hautesaonetourisme.com/offres/camping-onlycamp-la-colombiere-pesmes-fr-4911730/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/5561",
+      "place": "Vaivre-et-Montoille — Camping Seasonova Vesoul",
+      "lot": 458,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant : ouverture 02/04–15/12/2026; 130 emplacements totaux, dont une trentaine stabilisée pour camping-cars. La fiche touristique confirme l’accueil camping-car mais ne donne pas de prix; capacité de 29 non confirmée.",
+      "nextCheck": "Utiliser environ 30 emplacements stabilisés avec attribution; prix non confirmé.",
+      "sources": [
+        "https://vacances-seasonova.com/fr/camping/vesoul/",
+        "https://hautesaonetourisme.com/offres/camping-de-vesoul-vaivre-et-montoille-fr-4909626/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/44400",
+      "place": "Scey-sur-Saône-et-Saint-Albin — aire du port",
+      "lot": 458,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme confirme 8 emplacements avec nuitée possible. Fiche Camping-car.com : barème 2022 uniquement, parking 5 €/nuit, eau 2 €, vidanges gratuites. Barème nautique du port (bateaux) distinct.",
+      "nextCheck": "Garder nuitée et capacité; tarif 2022 à reconfirmer, ne pas importer les prix bateau.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-camping-car-scey-sur-saone-et-saint-albin-fr-4911453/",
+        "https://www.camping-car.com/aires/44400-aire-intercommunale/",
+        "https://www.tourisme-scey-valdesaone.fr/images/tarifs-port-de-plaisance-sss-2f41.pdf"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/35212",
+      "place": "Sainte-Marie-en-Chanois — aire de stationnement",
+      "lot": 458,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme : parking gratuit, tables et poubelles; description 4 places contre capacité 2; aucun service technique attesté.",
+      "nextCheck": "Garder gratuité; confirmer capacité exacte et ne pas annoncer eau/électricité/vidange.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-daccueil-de-camping-cars-sainte-marie-en-chanois-fr-4910901/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/45581",
+      "place": "Mailley-et-Chazelot — aire intercommunale Flot Bleu",
+      "lot": 458,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 4 places, ouverte toute l’année, borne Flot Bleu 2 €. Signalement de panne par annuaire tiers en mai 2026, disponibilité non revérifiée.",
+      "nextCheck": "Séparer prix du service du stationnement; confirmer fonctionnement de la borne avant d’assurer les services.",
+      "sources": [
+        "https://www.tourisme-scey-valdesaone.fr/index.php?IdPage=132981557122"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/35211",
+      "place": "La Montagne — aire D136 / Chapelle de Beauregard",
+      "lot": 458,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme : 2 places gratuites toute l’année, sans réservation; table et poubelle; pas de service de borne déclaré.",
+      "nextCheck": "Fiche cohérente; ne pas ajouter de service technique.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-stationnement-pour-camping-cars-la-montagne-fr-4914131/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/46182",
+      "place": "Jussey — aire communale",
+      "lot": 458,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme : 2 emplacements; stationnement et borne libre-service gratuits; eau, électricité, vidange mentionnées.",
+      "nextCheck": "Garder la gratuité des services séparée de la nuitée; prix de nuitée non publié.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-de-camping-car-jussey-fr-4911072/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/4621",
+      "place": "Port-sur-Saône — camping communautaire La Maladière",
+      "lot": 458,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme affiche par nuit : CC 5,10 €, emplacement 2,60 €, électricité 6,10 €, adultes 2,60 €, enfants 4–18 ans 1,30 €, moins de 4 ans gratuit; millésime absent. Capacité 100 dans la description, 61 dans la rubrique capacité.",
+      "nextCheck": "Confirmer barème actuel, capacité et taxe de séjour; ne pas additionner comme forfait sans vérification.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/camping-de-la-maladiere-port-sur-saone-fr-4908960/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/4610",
+      "place": "Champagney — camping Les Ballastières",
+      "lot": 458,
+      "checkedAt": "2026-11-22",
+      "status": "Camping-car.com : forfait service 5 € (tarif 2025), ouverture 15/03–03/11, 85 places camping-car. Haute-Saône Tourisme affiche tarifs de séjour camping 19–26 €/jour avec électricité, 19–22 € sans, taxe 0,20 €/adulte/jour; ouverture mi-mars–fin octobre et capacité affichée 90. Tarifs de deux usages différents.",
+      "nextCheck": "Séparer forfait services 2025 et séjour; confirmer prix/capacité et dates 2027.",
+      "sources": [
+        "https://www.camping-car.com/aires/4610-les-ballastieres-vosges-du-sud/",
+        "https://hautesaonetourisme.com/offres/accueil-camping-car-les-ballastieres-champagney-fr-4911107/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/4618",
+      "place": "Marnay — aire camping-car du Vert Lagon",
+      "lot": 458,
+      "checkedAt": "2026-11-22",
+      "status": "Aire dans le camping; page touristique annonce « 1er mai au 31 septembre » (date impossible), tandis que Camping-car.com indique 02/05–30/09 sans millésime. Aucun tarif propre à l’aire trouvé.",
+      "nextCheck": "Laisser prix non confirmé; obtenir horaires/dates exacts auprès du camping avant correction.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/aire-camping-car-marnay-fr-4916480/",
+        "https://www.camping-car.com/aires/4618-camping-vert-lagon/"
+      ]
+    },
+    {
+      "sourceId": "camping-car.com/392",
+      "place": "Servance-Miellin — camping municipal de Miellin",
+      "lot": 458,
+      "checkedAt": "2026-11-22",
+      "status": "Haute-Saône Tourisme publie saison 2026 (01/04–30/09), 15 emplacements, emplacement 3 €/nuit, adulte 3,50 €, enfant <7 ans 1,50 €, électricité 2,50 €, taxe de séjour en sus. Pas de vidange chimique au camping; vidange à 2 € à Servance, 3 rue de Bourgagotte.",
+      "nextCheck": "Garder prix au millésime 2026; confirmer tarifs/saison 2027; conserver la distinction avec la borne de Servance.",
+      "sources": [
+        "https://hautesaonetourisme.com/offres/camping-de-miellin-servance-fr-4910888/"
       ]
     }
   ]
