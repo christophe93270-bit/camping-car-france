@@ -4,15 +4,15 @@
   "displayedCount": 69,
   "rawRegionalRows": 69,
   "deduplicatedRows": 0,
-  "currentLot": 506,
+  "currentLot": 507,
   "department": "35",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 69,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 506 : fiches 1 à 10 vérifiées. Gratuité confirmée à Availles, Cesson et stationnement de l’aire de Saint-Malon; distinguer cette dernière du camping municipal payant. À Hirel, le tarif de base 2026 est daté du 22/11/2026, non du 31/10. Plerguer reste à vérifier sur place; Mellé et Vitré n’ont pas de prix de nuitée officiel. Aucun fichier source modifié.",
+  "note": "Lots 506 et 507 : 20/69 fiches vérifiées. Lot 507 : gratuités et services gratuits confirmés à Bazouges-la-Pérouse, Saint-Méen-le-Grand et Retiers; tarifs de services séparés des nuitées à Muël; tarifs 2026 à confirmer à Vitré et Tinténiac; tarif saisonnier CCP corrigé à Sains. Aucun fichier source modifié.",
   "entries": [
     {
       "sourceId": "node/11897389616",
@@ -137,6 +137,129 @@
         "https://www.guichenpontrean.fr/nouvelle-aire-de-camping-car-a-pont-rean/"
       ],
       "lot": 506,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1110588171",
+      "place": "Bazouges-la-Pérouse — aire communale",
+      "status": "Office touristique: stationnement, eau et vidange gratuits; 7 places. Borne purgée du 1er décembre à fin février, sans eau ni vidange pendant cette période.",
+      "nextCheck": "Préciser 7 places et la fermeture hivernale des services; garder la gratuité du stationnement.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1110588171",
+        "https://www.destination-fougeres.bzh/aire-camping-car/aire-de-camping-cars-de-bazouges-la-perouse/",
+        "https://www.tourisme-marchesdebretagne.com/sejour/aire-services-camping-car-bazouges-la-perouse/"
+      ],
+      "lot": 507,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1282039042",
+      "place": "Saint-Méen-le-Grand — aire communale",
+      "status": "10 emplacements gratuits toute l’année; eau et vidanges gratuites à 300 m, rue du Stade.",
+      "nextCheck": "Séparer le parking de l’aire de services à 300 m.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1282039042",
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-cars-de-saint-meen-le-grand-saint-meen-le-grand-fr-2726631/"
+      ],
+      "lot": 507,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1282039908",
+      "place": "Muël — aire de camping-cars",
+      "status": "Ouverte toute l’année, 6 places; nuitée gratuite selon le guide 2026; électricité 8,50 €/12 h et eau 2,50 €/150 L.",
+      "nextCheck": "Garder la nuitée gratuite distincte des services payants; tarif borne comme tarif 2026.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1282039908",
+        "https://www.destination-broceliande.com/en/offers/aire-de-camping-car-de-muel-muel-en-3812494/",
+        "https://www.destination-broceliande.com/app/uploads/broceliande/2026/06/AIRES-CAMPING-CARS-DB-2026.pdf"
+      ],
+      "lot": 507,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1316028662",
+      "place": "Val-d’Izé — aire communale",
+      "status": "4 places délimitées, limitées à 24 h; eau et électricité gratuites. Source ne précise pas de prix de stationnement.",
+      "nextCheck": "Ne pas inférer la gratuité de la nuitée; laisser le prix stationnement non confirmé.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1316028662",
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-cars-de-val-dize-val-dize-fr-2721876/"
+      ],
+      "lot": 507,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1316046216",
+      "place": "Retiers — place Herdorf",
+      "status": "La commune annonce une aire gratuite pour camping-cars place Herdorf; pas d’informations municipales trouvées sur capacité, services ou horaires.",
+      "nextCheck": "Conserver stationnement gratuit; laisser capacité et prestations inconnues.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1316046216",
+        "https://www.retiers.fr/mes-loisirs/sport-et-loisirs/randonnees"
+      ],
+      "lot": 507,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1316608521",
+      "place": "Vitré — aire E.Leclerc",
+      "status": "Aucun tarif ou détail d’accès confirmé par une source officielle consultée; les informations d’annuaires restent communautaires.",
+      "nextCheck": "Maintenir tarif et services non confirmés; demander confirmation au magasin.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1316608521",
+        "https://www.campercation.com/place/28180/aire-camping-car-e-leclerc-vitr"
+      ],
+      "lot": 507,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1318372118",
+      "place": "Cherrueix — aire de l’Aumône",
+      "status": "Aire associée au camping. Avis voyageurs 2026 mentionnent 9,80 € services et électricité inclus; tarif non officiel. Dates saisonnières contradictoires dans annuaires.",
+      "nextCheck": "Ne pas publier le prix communautaire comme tarif officiel; confirmer prix et saison auprès de l’exploitant.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1318372118",
+        "https://www.lecampeur.fr/aire/aire-de-camping-car-de-cherrueix-ph46s0",
+        "https://park4night.com/fr/place/88517"
+      ],
+      "lot": 507,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1318374741",
+      "place": "Sains — CAMPING-CAR PARK",
+      "status": "Tarif actuel 13,22 €/24 h taxe 1,22 € comprise; barème actuel du 19/11 au 31/12/2026 (12 € + taxe). En 2027: base 11,50 € + taxe 1,22 €, total 12,72 €. Parking 5 h + services 6 €.",
+      "nextCheck": "Corriger prise d’effet 2026 au 19/11; préciser total 2027 avec taxe à 12,72 €/24 h.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1318374741",
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/ille-et-vilaine/sains?areaType=aire-etape-camping-car"
+      ],
+      "lot": 507,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1318379494",
+      "place": "Tinténiac — aire quai de la Donac",
+      "status": "La page municipale intitulée tarif 2026 indique « 6,68 € la nuitée (2025) »; une page touristique ancienne annonce 4 €/nuit. Prix 2026 non établi.",
+      "nextCheck": "Ne pas présenter 6,68 € comme tarif 2026; solliciter confirmation mairie.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1318379494",
+        "https://tinteniac.fr/visiter-tinteniac/hebergements/",
+        "https://tinteniac.fr/wp-content/uploads/2025/07/2025_04_29_cm_pv.pdf"
+      ],
+      "lot": 507,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Fougères — aire de la Carrière",
+      "status": "Stationnement payant chaque jour 9 h–19 h: 2 € les 59 premières minutes puis 6,50 € la journée; gratuit 19 h–9 h. Services gratuits, aire accessible toute l’année.",
+      "nextCheck": "Distinguer tarif de journée et stationnement nocturne gratuit; ne pas classer le plein tarif comme nuitée.",
+      "sources": [
+        "https://www.destination-fougeres.bzh/aire-camping-car/aire-de-camping-cars-de-la-carriere/"
+      ],
+      "lot": 507,
       "checkedAt": "2026-11-22"
     }
   ]
