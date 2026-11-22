@@ -4,15 +4,15 @@
   "displayedCount": 26,
   "rawRegionalRows": 26,
   "deduplicatedRows": 0,
-  "currentLot": 443,
+  "currentLot": 444,
   "department": "65",
   "progress": {
-    "checked": 20,
+    "checked": 26,
     "total": 26,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 6,
+    "totalInLot": 6
   },
-  "note": "Lot 443 : fiches 11 à 20 contrôlées. Barèmes 2027 TTC confirmés pour Bagnères (12 €), Vielle-Aure (16,72 €), Arreau (15,85 €) et Agos-Vidalos (19 €). Maubourguet : tarif actuel 15,97 €, mais composante de taxe 2027 non publiée. Mauléon-Barousse gratuit pour le stationnement; jetons 3 € électricité/4 h, 5 € vidange + 100 L d’eau. Val Louron : jetons, stationnement sans prix établi. Sainte-Marie-de-Campan gratuit (sources secondaires), à confirmer. Lannemezan/Espace Nébouzan semble fermé ou supprimé, confirmation mairie nécessaire. Tarbes : 8–10 €/nuit, eau 2 €/100 L; tarif 2027 à revalider. Aucune donnée du site modifiée.",
+  "note": "Lot 444 : fiches 21 à 26 contrôlées; audit des 26 fiches des Hautes-Pyrénées terminé. Tournay 14,98 €, Saint-Lary-Soulan 18 €, Rabastens 15,72 € et Lourdes 16,72 € TTC 2027 confirmés. Arrens-Marsous : taxe 2027 à confirmer. Aragnouet : taxe 2027 à confirmer et statut contradictoire chez CCP (fiche détaillée ouverte, sélection montagne fermée). Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/12085298384",
@@ -241,6 +241,73 @@
       "sources": [
         "https://www.tourisme-hautes-pyrenees.com/offres/aire-de-camping-cars-payante-tarbes-fr-4639933/",
         "https://www.tarbes-tourisme.fr/commerces-services/aire-de-camping-cars-payante-M6511MIP065V5010IW/"
+      ]
+    },
+    {
+      "sourceId": "way/128",
+      "place": "Tournay — CCP Porte des Hautes-Pyrénées",
+      "lot": 444,
+      "checkedAt": "2026-11-22",
+      "status": "Barème annuel 2027 confirmé : base 13,54 € + taxe de séjour 1,44 € = 14,98 €/24 h. Fiche indique 45 places; coordonnées et tarif concordent.",
+      "nextCheck": "Aucune correction tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/tournay"
+      ]
+    },
+    {
+      "sourceId": "way/128",
+      "place": "Arrens-Marsous — CCP",
+      "lot": 444,
+      "checkedAt": "2026-11-22",
+      "status": "Prix courant affiché 16,28 €/24 h (base 14,56 € + taxe 1,72 €). Base publiée jusqu’au 31/12/2027; la taxe consultée ne précise que sa validité jusqu’au 31/12/2026, donc le total annuel 2027 reste à confirmer. Aire ouverte, 19 places.",
+      "nextCheck": "Confirmer le taux de taxe de séjour 2027 avec CCP; conserver 16,28 € comme prix courant en attendant.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/arrens-marsous"
+      ]
+    },
+    {
+      "sourceId": "way/128",
+      "place": "Saint-Lary-Soulan — CCP",
+      "lot": 444,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif annuel 2027 confirmé : base 16,28 € + taxe 1,72 € = 18 €/24 h; 24 places. La fiche détaillée indique ouverte.",
+      "nextCheck": "Aucune correction tarifaire; conserver les restrictions de véhicules éventuellement détaillées dans le règlement.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/saint-lary-soulan"
+      ]
+    },
+    {
+      "sourceId": "way/128",
+      "place": "Rabastens-de-Bigorre — CCP",
+      "lot": 444,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif annuel 2027 confirmé : base 14 € + taxe 1,72 € = 15,72 €/24 h; 17 places, aire ouverte. Fiche actuelle conforme.",
+      "nextCheck": "Aucune correction tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/rabastens-de-bigorre"
+      ]
+    },
+    {
+      "sourceId": "way/128",
+      "place": "Aragnouet — CCP Réserve naturelle du Néouvielle",
+      "lot": 444,
+      "checkedAt": "2026-11-22",
+      "status": "Prix actuel affiché 15,72 €/24 h (base 14 € + taxe 1,72 €); base publiée jusqu’au 31/12/2027, taxe seulement jusqu’au 31/12/2026 dans le barème consulté. Statut contradictoire chez CCP : fiche détaillée ouverte, 28/28 places, mais liste « Aires à la montagne » temporairement fermée, 0/0.",
+      "nextCheck": "Confirmer auprès de CCP la taxe 2027 et le statut réel; conserver l’alerte de disponibilité.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/aragnouet-reserve-naturelle-du-neouvielle",
+        "https://www.campingcarpark.com/fr_FR/selections-touristiques/hauts-lieux-touristiques/les-aires-a-la-montagne?page=3"
+      ]
+    },
+    {
+      "sourceId": "way/128",
+      "place": "Lourdes — CCP Les 2 Pics du Jer",
+      "lot": 444,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif annuel 2027 confirmé : base 15 € + taxe de séjour 1,72 € = 16,72 €/24 h. 40 places annoncées.",
+      "nextCheck": "Aucune correction tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/lourdes"
       ]
     }
   ]
