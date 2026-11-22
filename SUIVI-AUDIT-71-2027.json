@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 481,
+  "currentLot": 482,
   "department": "71",
   "progress": {
-    "checked": 210,
+    "checked": 220,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 481 : fiches 201 à 210 contrôlées. Gandelins : accueil camping-car dans le profil BIVB; statut France Passion actuel à revalider. Davanture, Curial, Charton-Vachet, Aubigny, Roy, Cardon, Delorme : profils indiquent accueil camping-car, sans prix ou nuitée précisés. Domaine Lacour : fiche Park4Night créée par le propriétaire confirme gratuité, 2 places, préavis 24 h; dates de fermeture actuelles 05/08–15/09 et 26/12–03/01; pas de toilettes/électricité confirmées. Clos Sauvage : annonce Campspace 20 €/nuit pour tente/van excluant les camping-cars; gros camping-cars refusés sur route d’accès. Aucune donnée du site modifiée.",
+  "note": "Lot 482 : fiches 211 à 220 contrôlées. Neuf profils Vins de Bourgogne confirment l’accueil camping-car, sans publier de tarif ou de nuitée; Duo d’Lait présente des indications contradictoires (achat de produits vs France Passion), à clarifier. Cave de Chaintré : ne pas confondre l’adresse de Chaintré avec les deux places gratuites rapportées au site de Juliénas (Rhône). Aucun enregistrement du site modifié.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -2296,6 +2296,121 @@
       ],
       "lot": 481,
       "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "vins-bourgogne/charnay-les-macon-domaine-luquet-richard-camping-car",
+      "place": "Charnay-lès-Mâcon — Domaine Luquet Richard",
+      "lot": 482,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne confirme l’accueil camping-car. La source ne précise ni nuitée, ni tarif, ni équipements.",
+      "nextCheck": "Appeler le domaine; nuitée et tarif non confirmés.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/luquet-richard-charnay-les-macon-71850%2C2397%2C9211.html",
+        "https://www.jveuxdulocal.fr/annuaire/producteur/ferme-duo-d-lait-des-verts-pres-464.html",
+        "https://www.jemangeterroir.fr/content_page/item/281-ferme-des-verts-pres-a-tancon",
+        "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/genouilly-cave-des-vignerons-camping-car",
+      "place": "Genouilly — Cave des Vignerons de Genouilly",
+      "lot": 482,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car; aucune condition de nuitée, aucun tarif ou service de stationnement n’est publié.",
+      "nextCheck": "Appeler la cave; ne pas afficher de prix.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/cave-des-vignerons-de-genouilly-genouilly-71460%2C2397%2C9211.html"
+      ]
+    },
+    {
+      "sourceId": "jveuxdulocal/tancon-ferme-duo-dlait-des-verts-pres-camping-car",
+      "place": "Tancon — Duo d’Lait des Verts Prés",
+      "lot": 482,
+      "checkedAt": "2026-11-22",
+      "status": "Sources contradictoires : JemangeTerroir mentionne un emplacement en échange d’achats; J’veux du local classe la ferme France Passion. Le site officiel consulté ne publie pas les conditions d’accueil camping-car. Accueil actif et prix à confirmer directement.",
+      "nextCheck": "Confirmer avec la ferme si l’accueil est actif, s’il relève de France Passion ou d’une formule avec achat; ne pas fixer de tarif sans réponse.",
+      "sources": [
+        "https://www.jveuxdulocal.fr/annuaire/producteur/ferme-duo-d-lait-des-verts-pres-464.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/mercurey-etablissement-charousset-a-ma-cave-camping-car",
+      "place": "Mercurey — Établissement Charousset, A ma Cave",
+      "lot": 482,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car; aucune information de nuitée, tarif ou équipement de stationnement n’est publiée.",
+      "nextCheck": "Appeler l’établissement pour les conditions.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/charousset-a-ma-cave-mercurey-71640%2C2397%2C9211.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/mercurey-domaine-juillot-michel-camping-car",
+      "place": "Mercurey — Domaine Juillot Michel",
+      "lot": 482,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car; nuitée et tarif non documentés.",
+      "nextCheck": "Appeler le domaine.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/juillot-michel-mercurey-71640%2C2397%2C9211.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/mercurey-domaine-des-perdrix-camping-car",
+      "place": "Mercurey — Domaine des Perdrix",
+      "lot": 482,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car; aucune grille tarifaire ou condition de nuitée trouvée.",
+      "nextCheck": "Appeler le domaine.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-des-perdrix-mercurey-71640%2C2397%2C9211.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/mercurey-domaine-duvernay-p-et-f-camping-car",
+      "place": "Mercurey — Domaine Duvernay P et F",
+      "lot": 482,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car; prix, nuitée et équipements non précisés.",
+      "nextCheck": "Appeler le domaine.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/duvernay-p-et-f-mercurey-71640%2C2397%2C9211.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saint-martin-sous-montaigu-domaine-clos-moreau-camping-car",
+      "place": "Saint-Martin-sous-Montaigu — Domaine du Clos Moreau",
+      "lot": 482,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car; aucune information tarifaire ou de nuitée publiée.",
+      "nextCheck": "Appeler le domaine.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-du-clos-moreau-saint-martin-sous-montaigu-71640%2C2397%2C9211.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/sennecey-le-grand-domaine-du-merle-camping-car",
+      "place": "Sennecey-le-Grand — Domaine du Merle",
+      "lot": 482,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car et une visite sur rendez-vous; nuitée et tarif non précisés.",
+      "nextCheck": "Contacter le domaine et vérifier les conditions de nuitée.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-du-merle-sennecey-le-grand-71240%2C2397%2C9211.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/chaintre-julienas-chaintre-vignerons-associes-camping-car",
+      "place": "Chaintré — Juliénas Chaintré Vignerons Associés (Cave de Chaintré)",
+      "lot": 482,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne confirme l’accueil à l’adresse de Chaintré, sans tarif ni détails de nuitée. Deux places gratuites rapportées par des sources communautaires se situent au site de Juliénas (Rhône), à une autre adresse; ne pas transférer ces conditions à Chaintré.",
+      "nextCheck": "Confirmer directement tarif/nuitée à l’adresse de Chaintré; distinguer du site Juliénas et de l’aire publique communale.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/julienas-chaintre-vignerons-associes-cave-de-chaintre-chaintre-71570%2C2397%2C9211.html",
+        "https://park4night.com/fr/place/262179",
+        "https://www.camping-car.com/actualites/toute-l-actualite/26167-laire-de-la-semaine-zoom-sur-laire-de-camping-car-de-julienas-chaintre-69/"
+      ]
     }
   ]
 }
