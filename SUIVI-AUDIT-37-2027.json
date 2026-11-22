@@ -4,15 +4,15 @@
   "displayedCount": 39,
   "rawRegionalRows": 39,
   "deduplicatedRows": 0,
-  "currentLot": 518,
+  "currentLot": 519,
   "department": "37",
   "progress": {
-    "checked": 30,
+    "checked": 39,
     "total": 39,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 9,
+    "totalInLot": 9
   },
-  "note": "Audit en cours : lots 516 à 518 terminés (30/39). Taxes 2027 et tarifs saisonniers CCP revérifiés; les prix communautaires ou les correspondances géographiques incertaines restent signalés sans confirmation. Fiches source non modifiées.",
+  "note": "Audit de l’Indre-et-Loire terminé : 39/39 fiches examinées en quatre lots (516 à 519). Plusieurs synthèses CCP contredisent leurs barèmes saisonniers détaillés (Sepmes, Ligueil, Yzeures-sur-Creuse), à confirmer avant correction des données source. Les tarifs des services et stationnements sont distingués; fiches source non modifiées.",
   "entries": [
     {
       "sourceId": "node/6784712639",
@@ -372,6 +372,108 @@
         "https://www.interparking.fr/fr/parkings/azay-le-rideau/aire-de-l-indre/"
       ],
       "lot": 518,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Reignac-sur-Indre — La Guignardière",
+      "status": "Touraine Val de Loire confirme emplacement gratuit, eau, vidanges et stationnement de nuit; aucun prix distinct pour les services n’est publié. Note source indique 5 places via autre fiche touristique.",
+      "nextCheck": "Conserver stationnement gratuit; ne pas supposer gratuité de l’eau/vidange.",
+      "sources": [
+        "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-daccueil-et-de-services-la-guignardiere-reignac-sur-indre-fr-5152743/",
+        "https://loches-valdeloire.com/les-campings/aire-daccueil-et-de-services-la-guignardiere-acccen03700082/"
+      ],
+      "lot": 519,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Chinon — aire services Station U",
+      "status": "Aire Park Réservation rapporte stationnement gratuit et eau 2 € pour environ 100 L; eau/vidange/électricité recensées, mais aucun tarif électricité ni confirmation directe de la station.",
+      "nextCheck": "Qualifier tarifs comme provenant d’un répertoire; faire confirmer auprès de la station.",
+      "sources": [
+        "https://www.aireparkreservation.com/aires-camping-car/indre-et-loire",
+        "https://www.qipeo.com/detail/c1b9aab2-9a03-4893-9944-fa813d3dc0ce"
+      ],
+      "lot": 519,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Veigné — CAMPING-CAR PARK",
+      "status": "CCP : base 14,25 €/24 h du 22/11/2026 au 31/12/2027 + taxe 1,22 €/24 h jusqu’au 31/12/2027; total 15,47 €; parking 5 h + services 6 €.",
+      "nextCheck": "Actualiser départ du tarif au 22/11/2026; conserver le montant et ses composantes.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/veigne"
+      ],
+      "lot": 519,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Sepmes — CAMPING-CAR PARK",
+      "status": "Barème détaillé CCP : base 12,70 €/24 h à compter du 22/11/2026 jusqu’au 31/12/2027 + taxe 0,44 €, total 13,14 €; synthèse affiche 15,24 €, discordance.",
+      "nextCheck": "Signaler la différence de 2,10 € et faire confirmer par CCP avant changement de prix source.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/sepmes"
+      ],
+      "lot": 519,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Ligueil — CAMPING-CAR PARK",
+      "status": "Barème détaillé CCP : base 13,20 €/24 h du 22/11/2026 au 31/12/2027 + taxe 0,44 €, total 13,64 €; synthèse affiche 15,94 €. Machine à laver 5 €.",
+      "nextCheck": "Signaler la discordance de 2,30 €; confirmer auprès de CCP avant correction.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/ligueil"
+      ],
+      "lot": 519,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Yzeures-sur-Creuse — Bords de Creuse CCP",
+      "status": "Barème détaillé CCP : base 13,23 €/24 h du 22/11/2026 au 31/12/2027 + taxe 0,44 € en 2026 et 2027 = 13,67 €; synthèse affiche 15,71 €. Sanitaires saisonniers 2026 terminés le 02/11.",
+      "nextCheck": "Signaler écart de 2,04 € et faire confirmer le prix affiché; garder dates sanitaires.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/yzeures-sur-creuse"
+      ],
+      "lot": 519,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Montrésor — CAMPING-CAR PARK",
+      "status": "Barème CCP : base 12,73 €/24 h du 22/11/2026 au 31/12/2027 + taxe 1 € jusqu’au 31/12/2027 = 13,73 €; parking 5 h + services 6 €. Fermeture élagage du 15 au 17 novembre désormais passée.",
+      "nextCheck": "Conserver tarif et 15 places; retirer alerte de fermeture passée si elle apparaît comme actuelle.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/montresor"
+      ],
+      "lot": 519,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Perrusson-Loches — CAMPING-CAR PARK",
+      "status": "Barème CCP : base 12 €/24 h du 22/11/2026 au 31/12/2027 + taxe 1 € en 2026 et 2027 = 13 €; parking 5 h + services 6 €.",
+      "nextCheck": "Conserver total 13 €; taxe 2027 confirmée à 1 €.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/perrusson-loches"
+      ],
+      "lot": 519,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Richelieu — CCP « à venir »",
+      "status": "CCP conserve la mention « À venir », sans prix ni date d’ouverture. Marché municipal de travaux publié le 06/11/2026, remise des offres prévue le 07/12/2026; lien projet-aire CCP non établi.",
+      "nextCheck": "Ne pas déclarer ouvert ni publier de tarif; recontrôler après attribution et annonce d’ouverture.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/richelieu-en-indre-et-loire",
+        "https://marches-publics.com/appel-offre/centre-val-de-loire/indre-et-loire/richelieu/2451725"
+      ],
+      "lot": 519,
       "checkedAt": "2026-11-22"
     }
   ]
