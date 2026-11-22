@@ -4,15 +4,15 @@
   "displayedCount": 48,
   "rawRegionalRows": 48,
   "deduplicatedRows": 0,
-  "currentLot": 436,
+  "currentLot": 437,
   "department": "63",
   "progress": {
-    "checked": 40,
+    "checked": 48,
     "total": 48,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 8,
+    "totalInLot": 8
   },
-  "note": "Lot 436 : fiches 31 à 40 contrôlées. Bruyères localisée à Chapdes-Beaufort mais tarif/statut non confirmés; Lezoux : stationnement gratuit distinct de la borne eau à 2 €/10 min; Crouzets au Mont-Dore : 15 €/24 h + taxe, forfaits 95 €/7 nuits et 270 €/21 nuits. Tarifs CCP contrôlés, trois taxes 2027 encore à confirmer; incohérence tarifaire Bromont 16,17 € non retrouvée sur la fiche actuelle (14,02 €). Aucune donnée applicative modifiée.",
+  "note": "Lot 437 terminé : audit des 48 fiches du fichier du Puy-de-Dôme complété (lots 433–437). Points restant à faire confirmer : taxes 2027 non publiées sur plusieurs fiches CCP, discordance tarifaire de Puy-Guillaume (encart 16,44 € vs barème 14 € + taxe 2026), réouverture éventuelle de l’aire de Thiers fermée pour dégâts climatiques. Cros corrigé à 13,32 € TTC pour 2027. Aucun fichier de données du site modifié.",
   "entries": [
     {
       "sourceId": "node/5835931285",
@@ -471,6 +471,95 @@
       "nextCheck": "Remplacer le signalement 16,17 € par le tarif actuellement affiché 14,02 €; confirmer taxe 2027.",
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/bromont-lamothe?areaType=stopover-site-motorhome"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Puy-Guillaume — CAMPING-CAR PARK, Camping de mon Village",
+      "lot": 437,
+      "checkedAt": "2026-11-22",
+      "status": "Opérateur marque l’aire ouverte, 95 places. Barème 2027 : 14 €/24 h + taxe affichée seulement jusqu’au 31/12/2026 à 0,44 €. L’encart dynamique indique 16,44 €, incohérent avec le tarif saisonnier; l’annuaire départemental indiquait 14,44 €.",
+      "nextCheck": "Faire clarifier l’encart 16,44 € par CCP; confirmer la taxe 2027 avant de publier un TTC annuel. Statut actuellement ouvert.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/puy-guillaume"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Chambon-sur-Lac — CAMPING-CAR PARK",
+      "lot": 437,
+      "checkedAt": "2026-11-22",
+      "status": "Base 13,74 €/24 h et taxe 1,32 €, toutes deux publiées pour 2027; total 15,06 € confirmé.",
+      "nextCheck": "Aucune correction immédiate.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/chambon-sur-lac?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Pontaumur — CAMPING-CAR PARK, Camping de mon Village",
+      "lot": 437,
+      "checkedAt": "2026-11-22",
+      "status": "Base 12,70 €/24 h publiée du 30/10/2026 au 31/12/2027; taxe 0,44 € publiée seulement jusqu’au 31/12/2026. Total courant annuaire 13,14 €.",
+      "nextCheck": "Confirmer taxe de séjour 2027 avant de valider 13,14 € comme total TTC 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/pontaumur"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Cros — CAMPING-CAR PARK",
+      "lot": 437,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 : base 12 €/24 h + taxe de séjour 1,32 € = 13,32 €. L’écart préalablement noté à 14,32 € ne concorde pas avec le tableau tarifaire 2027; l’annuaire affiche 13,32 €.",
+      "nextCheck": "Corriger l’ancienne mention 14,32 €; tarif annuel 2027 confirmé à 13,32 €.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/cros?areaType=area-de-etapa-autocaravanas",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Thiers — aire CCP route du Dorat",
+      "lot": 437,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif saisonnier 2027 : base 12,22 € + taxe 1,32 € = 13,54 €/24 h; la page opérateur indique explicitement que la zone est fermée en raison de dégâts climatiques.",
+      "nextCheck": "Maintenir le statut fermé et ne pas présenter l’aire comme disponible; vérifier réouverture avant toute mise à jour.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/thiers?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Thiers — Camping Iloa, CAMPING-CAR PARK",
+      "lot": 437,
+      "checkedAt": "2026-11-22",
+      "status": "Aire ouverte; tarif de base 13,23 €/24 h du 30/10/2026 au 31/12/2027; affichage courant 13,67 € dont taxe 0,44 € publiée jusqu’au 31/12/2026 seulement.",
+      "nextCheck": "Confirmer la taxe de séjour applicable en 2027 avant de valider le total TTC annuel.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/thiers-camping-iloa"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Le Cheix-sur-Morge — CAMPING-CAR PARK",
+      "lot": 437,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif 2027 confirmé par l’opérateur : base 12 € + taxe de séjour 1,32 € = 13,32 €/24 h; aire ouverte toute l’année.",
+      "nextCheck": "Aucune correction immédiate.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/le%20cheix-sur-morge?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Randan — CAMPING-CAR PARK",
+      "lot": 437,
+      "checkedAt": "2026-11-22",
+      "status": "Base 13 €/24 h valable jusqu’au 31/12/2027; taxe 1,32 € publiée seulement pour 2026. Total courant affiché 14,32 €.",
+      "nextCheck": "Confirmer taxe 2027 avant de figer 14,32 € comme tarif TTC annuel.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/randan?areaType=aire-etape-camping-car"
       ]
     }
   ]
