@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 468,
+  "currentLot": 469,
   "department": "71",
   "progress": {
-    "checked": 80,
+    "checked": 90,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 468 : fiches 71 à 80 contrôlées. Cuisery Bords de Seille : 5 places dans le camping, eau/vidange, prix d’accès non publié; distinguer halte nautique. Rully Champ de Foire : parking, aucune nuitée/service/prix confirmé. La Petite-Verrière Le Moulin : France Passion, 3 places, prix non publié. Vinzelles : 2 places, eau/vidange, limite 24–48 h, prix non publié. Charolles : 2 bornes regroupées, 10 places réservées sur parking extérieur, tarif aire non affiché. Matour Le Paluet : 6 places, eau/vidanges/WC portables, prix non publié, distinct du camping à 300 m. La Clochette : tarifs 2026 5 €/jour emplacement + 3,50 €/adulte + 4 € électricité; vidange de passage 5 €, taxe séjour 0,20 €/adulte/nuit; saison 30/04–30/08/2026. Étang Titard : tarif municipal 2026 15 €/jour pour 2 avec eau/électricité, taxe en sus, saison 02/05–15/09. Palinges : services seulement pour clients, minimum une nuit; 34 emplacements = camping, pas borne. Chauffailles Les Feuilles : aire dans le camping, clients seulement, tarif/dates à demander. Aucune donnée du site modifiée.",
+  "note": "Lot 469 : fiches 81 à 90 contrôlées. Lugny : eau/vidange rue de la Folie; aire complémentaire près du camping avec stationnement/eau/vidange/lavage mais sans GPS distinct, ne pas fusionner sans position. Azé Grottes : tarifs 2026 électrifié 17–26 €/j, avec assainissement 36 €/j; date source ouverture malformée « 28/0/2026 »; 70 places totales, saison terminée. Savigny-sur-Grosne : 22 €/nuit standard jusqu’à 5 m, 25 € grand véhicule, prix d’appel, saison finie. Verosvres : 5,50 €/24h; jeton électricité au tarif non publié. Prissé : 5 places et 24h max, eau/vidange, prix non publié. La Guiche : 6 places et services, guide 2025 sans tarif. Laives : 20 €/nuit affiché, jusqu’à 7m; 7 places camping-car/caravane, à distinguer des 85 emplacements totaux. Cormatin : grille CampingFrance 2026 22 €/jour + adulte6,50/enfant4,50/animal2; électricité non éclaircie; capacités globales contradictoires 53/55/65. Gergy : exploitant affiche adulte4,50 enfant3,20 emplacement6,20 électricité4 tax séjour0,20 animal1 parking itinérant2,80; année non indiquée, capacité totale30 seulement. Charbonnat : 3 places, gratuit, toute année. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -903,6 +903,109 @@
       "nextCheck": "Ne pas présenter comme aire publique gratuite; demander prix et période à mairie/camping.",
       "sources": [
         "https://www.chauffailles.fr/annuaire/1667/commune"
+      ]
+    },
+    {
+      "place": "Lugny — rue de la Folie et aire complémentaire près du camping",
+      "lot": 469,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme eau et vidange rue de la Folie et signale une autre aire près du camping avec stationnement/eau/vidange/lavage; pas de GPS distinct connu.",
+      "nextCheck": "Garder points séparés jusqu’à géolocalisation certaine; pas de tarif publié.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-8"
+      ]
+    },
+    {
+      "place": "Azé — Camping des Grottes",
+      "lot": 469,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 2026: emplacement électrifié 17–26 €/jour; électrifié avec assainissement 36 €/jour. Saison source indique une date malformée «28/0/2026» jusqu’au 30/09/2026. Capacité globale 70, sans capacité camping-car spécifique.",
+      "nextCheck": "Confirmer catégories/prix camping-car et date réelle d’ouverture; ne pas généraliser le tarif ou la capacité camping-car.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/sas-3e-camping-des-grottes.html"
+      ]
+    },
+    {
+      "place": "Savigny-sur-Grosne — Les Voiles sur Grosne",
+      "lot": 469,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant : à partir de 22 €/nuit véhicule standard jusqu’à 5m, 25 €/nuit grand véhicule >5m; ouverture 2026 16/04–31/10.",
+      "nextCheck": "Prix d’appel seulement; reconfirmer final à la réservation et tarifs 2027.",
+      "sources": [
+        "https://www.lesvoilessurgrosne.com/hebergements/emplacement-caravane-camping-car.html"
+      ]
+    },
+    {
+      "place": "Verosvres — terrain communal, place de la Mairie",
+      "lot": 469,
+      "checkedAt": "2026-11-22",
+      "status": "Commune : 5,50 €/24h; jeton électricité à retirer en mairie ou commerce multiservice, son tarif n’est pas publié. Capacité non publiée.",
+      "nextCheck": "Garder 5,50 €/24h; confirmer si électricité en supplément et son tarif.",
+      "sources": [
+        "https://www.verosvres.fr/detail-offre/hebergements/Aire-de-service-pour-les-campings-cars_ACCBOU0OTV509W5K_193"
+      ]
+    },
+    {
+      "place": "Prissé — Cave coopérative des Vignerons des Terres Secrètes",
+      "lot": 469,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : 5 places, stationnement limité à 24h, eau/vidange et vente/dégustation; tarif non publié.",
+      "nextCheck": "Conserver 24h et 5 places; ne pas inférer gratuité.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-16"
+      ]
+    },
+    {
+      "place": "La Guiche — place de l’ancienne gare",
+      "lot": 469,
+      "checkedAt": "2026-11-22",
+      "status": "Guide Cluny 2025 : 6 places, eau, vidange eaux usées/WC et électricité; tarif non publié.",
+      "nextCheck": "Conserver 6 places et services; demander tarif à la mairie, sans reprendre prix tiers non daté.",
+      "sources": [
+        "https://www.cluny-tourisme.com/app/uploads/2025/06/guide-camping-car-2025.pdf"
+      ]
+    },
+    {
+      "place": "Laives — Les Voiles de Laives",
+      "lot": 469,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant affiche 20 €/nuit à partir pour véhicule jusqu’à 7m et indique 7 emplacements camping-car/caravane; capacité camping 85 est totale et différente.",
+      "nextCheck": "Séparer 7 places dédiées et capacité générale; tarifs d’appel variables et millésime 2027 à confirmer.",
+      "sources": [
+        "https://www.lesvoilesdelaives.com/hebergements/emplacement-camping-car-7-metres-maximum-caravane-van.html",
+        "https://www.lesvoilesdelaives.com/"
+      ]
+    },
+    {
+      "place": "Cormatin — Hameau des Champs",
+      "lot": 469,
+      "checkedAt": "2026-11-22",
+      "status": "CampingFrance affiche une grille 2026 : forfait camping-car 22 €/jour, adulte6,50 €/jour, enfant4,50 €/jour, animal2 €/jour; électricité à préciser. Capacité totale contradictoire : 53 description tourisme/55 champ capacité/65 CampingFrance; pas de capacité camping-car isolée. Ouverture 22/04–30/09/2026.",
+      "nextCheck": "Tarifs 2026 à confirmer auprès du camping; pas de capacité unique ni de tarif 2027 à afficher avant vérification.",
+      "sources": [
+        "https://www.campingfrance.com/recherchez-votre-camping/bourgogne-franche-comte/saone-et-loire/cormatin/le-hameau-des-champs",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-le-hameau-des-champs.html"
+      ]
+    },
+    {
+      "place": "Gergy — Camping de la Saône",
+      "lot": 469,
+      "checkedAt": "2026-11-22",
+      "status": "Page exploitant affiche adulte 4,50 €, enfant 3,20 €, emplacement 6,20 €, électricité 4 €, taxe séjour adulte 0,20 €, animal 1 €, parking itinérant 2,80 €. Grille sans année de validité. Destination 71 confirme 30 emplacements globaux seulement.",
+      "nextCheck": "Prix en ligne à attribuer au camping et validité annuelle à confirmer; capacité ne représente pas les places camping-car.",
+      "sources": [
+        "https://campingdelasaone.jimdofree.com/tarifs/",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-de-la-saone.html"
+      ]
+    },
+    {
+      "place": "Charbonnat — aire communale",
+      "lot": 469,
+      "checkedAt": "2026-11-22",
+      "status": "Autun Tourisme confirme 3 places, aire gratuite et ouverte toute l’année au bord de la rivière.",
+      "nextCheck": "Garder 3 places/gratuité/saison annualisée selon l’office.",
+      "sources": [
+        "https://www.autun-tourisme.com/offres/aire-de-service-pour-les-campings-cars-charbonnat-fr-3456720/"
       ]
     }
   ]
