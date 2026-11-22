@@ -4,15 +4,15 @@
   "displayedCount": 39,
   "rawRegionalRows": 39,
   "deduplicatedRows": 0,
-  "currentLot": 517,
+  "currentLot": 518,
   "department": "37",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 39,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit en cours : lots 516 et 517 terminés (20/39). Tarifs actualisés avec barèmes et taxes 2027 publiés; divergence de synthèse repérée pour Céré-la-Ronde; prix non confirmés laissés tels quels. Fiches source non modifiées.",
+  "note": "Audit en cours : lots 516 à 518 terminés (30/39). Taxes 2027 et tarifs saisonniers CCP revérifiés; les prix communautaires ou les correspondances géographiques incertaines restent signalés sans confirmation. Fiches source non modifiées.",
   "entries": [
     {
       "sourceId": "node/6784712639",
@@ -255,6 +255,123 @@
         "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-services-camping-cars-vouvray-vouvray-fr-5153486/"
       ],
       "lot": 517,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1285541257",
+      "place": "Nouans-les-Fontaines — rue du Plessis",
+      "status": "Touraine Val de Loire : eau, électricité, vidanges, stationnement de nuit; ouvert toute l’année 2026. Forfait eau/électricité à partir de 4 €; prix stationnement non publié.",
+      "nextCheck": "Conserver forfait service dès 4 €; ne pas conclure que le stationnement est gratuit.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1285541257",
+        "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-camping-car-nouans-les-fontaines-nouans-les-fontaines-fr-5258770/"
+      ],
+      "lot": 518,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1286326472",
+      "place": "Cheillé — point OSM « Le Moulin d’Azay »",
+      "status": "Touraine Val de Loire confirme une aire gratuite limitée à 24 h et nuitée rue de Chinon, mais la correspondance de cette adresse avec le point OSM du Moulin d’Azay n’est pas établie.",
+      "nextCheck": "Garder la fiche OSM à vérifier; ne pas lui attribuer les conditions de rue de Chinon sans confirmation géographique.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1286326472",
+        "https://park4night.com/fr/place/57178",
+        "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-stationnement-camping-car-cheille-fr-5258813/"
+      ],
+      "lot": 518,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1293043215",
+      "place": "Villeloin-Coulangé — Berges de l’Indrois",
+      "status": "Office de tourisme : dix places, stationnement gratuit; services par jeton à 3 € pour 10 minutes d’eau ou 12 heures d’électricité. Accès 24 h/24, fenêtre d’ouverture affichée du 01/12 au 31/12/2026.",
+      "nextCheck": "Séparer stationnement des services; ne pas présenter la période affichée comme ouverture annuelle.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1293043215",
+        "https://loches-valdeloire.com/les-campings/aire-de-stationnenment-pour-camping-car-villeloin-coulange-acccen037v50t5l6/"
+      ],
+      "lot": 518,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1298677231",
+      "place": "Pocé-sur-Cisse — relais Flot Bleu / Intermarché",
+      "status": "Flot Bleu confirme ouverture toute l’année, eau, vidanges, électricité et stationnement; aucun prix pour ce relais et les frais varient selon site.",
+      "nextCheck": "Laisser les montants Park4night non confirmés; ne pas annoncer prix en l’absence d’exploitant.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1298677231",
+        "https://flotbleu.com/indre_et_loire/aire-de-service/647"
+      ],
+      "lot": 518,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1325271948",
+      "place": "Mazières-de-Touraine — rue du Stade",
+      "status": "Mairie confirme une aire de stationnement rue du Stade près de l’étang sans prix, services ou durée. Gratuité et trois places proviennent de Park4night.",
+      "nextCheck": "Garder les prix et capacité comme non confirmés par la commune; vérifier point OSM et conditions.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1325271948",
+        "https://mazieresdetouraine.fr/culture-et-loisirs/camping-et-aires/",
+        "https://park4night.com/fr/place/512339"
+      ],
+      "lot": 518,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Bléré — CAMPING-CAR PARK",
+      "status": "CCP : base 12,70 €/24 h du 22/11 au 31/12/2026 puis 12,73 € en 2027; taxe 1,22 € pour 2026 et 2027; total 2027 13,95 €; parking 5 h + services 6 €.",
+      "nextCheck": "Actualiser le fait que la taxe 2027 est publiée; distinguer totaux 2026 et 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/blere"
+      ],
+      "lot": 518,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Chenonceaux — CAMPING-CAR PARK",
+      "status": "CCP : base 13,23 €/24 h du 22 au 30/11/2026, 13,20 € le 31/12, 13,23 € en 2027; taxe 1,22 € pour 2026 et 2027; parking 5 h + services 6 €.",
+      "nextCheck": "Ajouter taxe 2027 confirmée; signaler le tarif base particulier le 31/12/2026.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/chenonceaux"
+      ],
+      "lot": 518,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Cinq-Mars-la-Pile — CAMPING-CAR PARK",
+      "status": "CCP : base 11,60 €/24 h du 22/11 au 31/12/2026 puis 11,45 € en 2027; taxe 1,10 € pour les deux années; totals 12,70 € en 2026 et 12,55 € en 2027; parking 5 h + services 6 €.",
+      "nextCheck": "Actualiser taxe 2027 précédemment non publiée et calculer le total 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/cinq-mars-la-pile"
+      ],
+      "lot": 518,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Azay-sur-Cher — Relais des Berges du Cher",
+      "status": "Touraine Val de Loire : quatre places, stationnement gratuit, eau dès 3 €, électricité dès 6,50 €, vidanges, sanitaires et Wi-Fi; ouvert toute l’année.",
+      "nextCheck": "Garder tarif stationnement séparé des tarifs eau et électricité.",
+      "sources": [
+        "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-daccueil-camping-cars-le-relais-des-berges-du-cher-azay-sur-cher-azay-sur-cher-fr-5258150/"
+      ],
+      "lot": 518,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Azay-le-Rideau — Aire de l’Indre / Interparking",
+      "status": "Interparking : 48 places, eau/électricité, 24 h/24; 11,80 €/24 h du 1er octobre au 31 mai et 13 €/24 h du 1er juin au 30 septembre; taxe incluse.",
+      "nextCheck": "Conserver les deux barèmes saisonniers et mentionner taxe incluse.",
+      "sources": [
+        "https://www.interparking.fr/fr/parkings/azay-le-rideau/aire-de-l-indre/"
+      ],
+      "lot": 518,
       "checkedAt": "2026-11-22"
     }
   ]
