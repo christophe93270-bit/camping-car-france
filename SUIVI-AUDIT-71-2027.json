@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 485,
+  "currentLot": 486,
   "department": "71",
   "progress": {
-    "checked": 250,
+    "checked": 260,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 485 : fiches 241 à 250 contrôlées. Accueil camping-car indiqué pour les dix profils, mais aucun tarif de stationnement/nuitée publié. Maison Albert Sounit (n°244) est au même Champ de Foire que l’aire publique gratuite déjà recensée au n°72 : vérifier si doublon ou parking partagé avant de compter une seconde halte. Distinguer la visite à 15 € du Domaine Royet d’un tarif de nuitée; pour Cave de Mazenay, l’offre Camping-Car Park est une dégustation partenaire, pas un tarif d’aire. Aucune fiche du site modifiée.",
+  "note": "Lot 486 : fiches 251 à 260 vérifiées. Château Portier affiche 10 €/emplacement et 3 places, mais durée et inclusion de l’électricité à confirmer. Bourgogne de Vigne en Verre : écart entre l’accueil référencé à Tournus et l’adresse officielle de contact à Sennecey-le-Grand. Le Moulin à l’Or est face à la Cave de Chaintré; confirmer si halte distincte. 13 fiches restent.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -2779,6 +2779,126 @@
       "sources": [
         "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/vignerons-de-buxy-caveau-de-saint-gengoux-le-national-saint-gengoux-le-national-71460%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDE2NiZ8",
         "https://www.vigneronsdebuxy.fr/oenotourisme/visite-caveaux-degustation/caveau-de-saint-gengoux-le-national/"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saone-et-loire/domaine-durand-nicolas",
+      "place": "La Chapelle-de-Guinchay — Domaine Durand Nicolas",
+      "lot": 486,
+      "checkedAt": "2026-11-22",
+      "status": "Accueil camping-car du guide; nuitée et tarif non publiés. Domaine des Duc proche mais adresse distincte; ne pas fusionner.",
+      "nextCheck": "Confirmer auprès du domaine si la nuitée est autorisée et à quelles conditions.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/durand-nicolas-la-chapelle-de-guinchay-71570%2C2397%2C9211.html",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/durand-nicolas-la-chapelle-de-guinchay-71570%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQkZDMDAwVjUwOEI3QyZ8"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saone-et-loire/chateau-portier",
+      "place": "Romanèche-Thorins — Accueil camping-car au Château Portier",
+      "lot": 486,
+      "checkedAt": "2026-11-22",
+      "status": "Bienvenue à la ferme indique 3 emplacements et 10 €/emplacement; durée et inclusion de l’électricité pas explicites.",
+      "nextCheck": "Confirmer si le tarif est par nuit et si l’électricité est comprise.",
+      "sources": [
+        "https://www.bienvenue-a-la-ferme.com/bourgognefranchecomte/saone-et-loire/romaneche-thorins/ferme/chateau-portier/303701",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/chateau-portier-romaneche-thorins-71570%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMTI5NyZ8"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saone-et-loire/domaine-chateau-des-correaux",
+      "place": "Leynes — Accueil camping-car au Domaine Château des Correaux",
+      "lot": 486,
+      "checkedAt": "2026-11-22",
+      "status": "Accueil camping-car indiqué; aucun tarif de stationnement ou de nuitée publié.",
+      "nextCheck": "Contacter le château pour confirmer nuitée, prix et services.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/chateau-des-correaux-bernard-germain-leynes-71570%2C2397%2C9211.html",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/chateau-des-correaux-bernard-germain-leynes-71570%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDA2MyZ8"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saone-et-loire/domaine-mathias-chaintré",
+      "place": "Chaintré — Accueil camping-car au Domaine Mathias Béatrice et Gilles",
+      "lot": 486,
+      "checkedAt": "2026-11-22",
+      "status": "Accueil camping-car indiqué; site officiel décrit les visites/dégustations, sans tarif de nuitée.",
+      "nextCheck": "Confirmer directement les conditions de stationnement nocturne.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/mathias-beatrice-et-gilles-chaintre-71570%2C2397%2C9211.html",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/mathias-beatrice-et-gilles-chaintre-71570%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQkZDMDAwMDIwMDgwMSZ8"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saone-et-loire/chateau-rougeon",
+      "place": "Bissey-sous-Cruchaud — Accueil camping-car au Château de Rougeon",
+      "lot": 486,
+      "checkedAt": "2026-11-22",
+      "status": "Accueil camping-car indiqué; frais affichés concernent visites/dégustations et activités, pas stationnement.",
+      "nextCheck": "Ne pas reprendre les tarifs d’activités; demander un éventuel prix de nuitée.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-du-chateau-de-rougeon-bissey-sous-cruchaud-71390%2C2397%2C9211.html",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-du-chateau-de-rougeon-bissey-sous-cruchaud-71390%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDIyNCZ8"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saone-et-loire/bourgogne-de-vigne-en-verre",
+      "place": "Tournus — Bourgogne de Vigne en Verre",
+      "lot": 486,
+      "checkedAt": "2026-11-22",
+      "status": "Guide référence l’accueil à D906 En Velnoux, Tournus; contact officiel actuel localisé à Sennecey-le-Grand. Point exact de halte à éclaircir.",
+      "nextCheck": "Confirmer adresse/GPS de l’accueil avant correction cartographique et avant comptage comme halte distincte.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/bourgogne-de-vigne-en-verre-tournus-71700%2C2397%2C9211.html",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/bourgogne-de-vigne-en-verre-tournus-71700%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQkZDMDAwMDIwMTM0OSZ8"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saone-et-loire/chateau-chardonnay",
+      "place": "Chardonnay — Accueil camping-car au Château Chardonnay",
+      "lot": 486,
+      "checkedAt": "2026-11-22",
+      "status": "Accueil camping-car indiqué; les tarifs publiés par l’office concernent les bouteilles/visites, pas le stationnement.",
+      "nextCheck": "Confirmer tarif et possibilité de nuitée directement auprès du château.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/chateau-chardonnay-chardonnay-71700%2C2397%2C9211.html",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/chateau-chardonnay-chardonnay-71700%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwVjUxRzBJWSZ8"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saone-et-loire/caveau-moulin-a-l-or-chaintré",
+      "place": "Chaintré — Accueil camping-car au caveau Le Moulin à l’Or",
+      "lot": 486,
+      "checkedAt": "2026-11-22",
+      "status": "Accueil camping-car indiqué; bar à vins est face à la Cave de Chaintré, sans tarif de nuitée. Possible chevauchement de lieux.",
+      "nextCheck": "Vérifier si l’accueil est une halte autonome ou celle déjà recensée à la Cave de Chaintré.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/le-moulin-a-l-or-chaintre-71570%2C2397%2C9211.html",
+        "https://www.julienaschaintre.fr/contact/"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saone-et-loire/domaine-croix-arbussin",
+      "place": "Hurigny — Domaine Croix d’Arbussin",
+      "lot": 486,
+      "checkedAt": "2026-11-22",
+      "status": "Accueil camping-car indiqué; aucun tarif de stationnement, de nuitée ou services publiés.",
+      "nextCheck": "Demander confirmation de la nuitée et du prix au domaine.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-croix-d-arbussin-hurigny-71870%2C2397%2C9211.html",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-croix-d-arbussin-hurigny-71870%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQkZDMDAwVjUySEI3WCZ8"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saone-et-loire/domaine-de-naisse-brenot-beranger",
+      "place": "Laizé — Domaine de Naisse — Brenot Beranger",
+      "lot": 486,
+      "checkedAt": "2026-11-22",
+      "status": "Accueil camping-car indiqué; brochure/site portent sur visites et dégustations, sans prix de stationnement.",
+      "nextCheck": "Confirmer directement conditions de nuitée, prix et équipements.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-de-naisse-brenot-beranger-laize-71870%2C2397%2C9211.html",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-de-naisse-brenot-beranger-laize-71870%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQkZDMDAwVjUwRkY5TSZ8"
       ]
     }
   ]
