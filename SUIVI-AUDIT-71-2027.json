@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 465,
+  "currentLot": 466,
   "department": "71",
   "progress": {
-    "checked": 50,
+    "checked": 60,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 465 : fiches 41 à 50 contrôlées. Lournand : 4 places, terrain plat, tarif/services non publiés. Digoin : 20 places, parking gratuit, tarifs des services non publiés. La Chapelle-Thècle : 4 places et tarifs gratuits millésimés 2024, borne possiblement en panne en 2026, à confirmer. Bantanges CCP : 24 places; page consultée 13,12 €/24 h TTC (0,80 € taxe), autre affichage CCP a montré 15,41 €, vérifier l’écart et dater le prix. CCP Saint-Marcel : 15 €/24 h TTC, page affiche 26 places contre 24 dans la fiche. Verdun-Ciel : 14,14 €/24 h TTC, 100 places, PPRI; date « 31 novembre » invalide pour fermeture hivernale. Louhans Les Trois Rivières : 11,60 €/24 h TTC, 52 places, PPRI. Toulon-sur-Arroux : 15 €/24 h TTC, 68 places. Mâcon/Sancé toujours « à venir ». Saunières : 10 places, parking gratuit, point d’eau simple. Aucune donnée du site modifiée.",
+  "note": "Lot 466 : fiches 51 à 60 contrôlées. Bragny : aire de stationnement distincte de l’aire de pique-nique; tarif/capacité/services non publiés. Semur : 8 places, une nuit sur l’aire principale; eau/vidange/WC, pas d’électricité. Anzy-le-Duc : 2 places privées, 6 €/jour sans électricité, vidange interdite, saison avril-fin octobre. Artaix : 16 places, services eau/électricité par carte, montants non publiés. Melay : eau 2 €/20 min, électricité 3 €/4 h, 6 places, tarifs 2026. Marraycourt : 6 places, 24,50 €/jour avec électricité; adresse 2 place du Champ de Foire vs 9 rue Georges de Vichy, borne municipale séparée. Viry : ferme 6 places, prix non publié, vidange à 6 km. Mont-Saint-Vincent gratuit, capacité non publiée. Bourbon-Lancy Terracamps : 22 places, 13 €/24 h dans guide 2026. Cuiseaux : 5 places et gratuit, dates 01/03–31/10/2026 mais description affirme ouvert toute l’année. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -577,6 +577,121 @@
       "nextCheck": "Garder 10 places, gratuité et point d’eau; ne pas annoncer branchements ou vidange.",
       "sources": [
         "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-camping-car-saunieres.html"
+      ]
+    },
+    {
+      "sourceId": "destination-saone-et-loire/bragny-sur-saone",
+      "place": "Bragny-sur-Saône — aire de stationnement route de Verdun",
+      "lot": 466,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme l’aire de stationnement camping-car près de la Voie Bleue/confluence; tables citées. Pas de tarif, capacité ou service de vidange publié. Fiche distincte de l’aire de pique-nique Voie Bleue.",
+      "nextCheck": "Garder prix/capacité/services techniques non confirmés; ne pas attribuer les équipements de l’aire pique-nique ou du camping voisin.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/les-hebergements-en-saone-et-loire.html?f%5B0%5D=se_loger_type_d_aire_pour_camping_car%3AAire+de+stationnement+pour+camping-car",
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-pique-nique-voie-bleue.html"
+      ]
+    },
+    {
+      "sourceId": "destination-saone-et-loire/semur-en-brionnais",
+      "place": "Semur-en-Brionnais — montée de la Cray",
+      "lot": 466,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : 8 places, une nuit sur l’aire en terrasse, eau, vidange et WC, sans électricité. Au-delà d’une nuit, aire naturelle près du stade. Tarif non publié.",
+      "nextCheck": "Conserver les limites de durée et distinguer les deux zones; pas de prix ni d’électricité confirmés.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-les-camping-cars.html"
+      ]
+    },
+    {
+      "sourceId": "destination-saone-et-loire/anzy-le-duc-champ-mignon",
+      "place": "Anzy-le-Duc — Champ Mignon, accueil privé",
+      "lot": 466,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 2 véhicules, avril à fin octobre; 6 €/jour l’emplacement non électrifié. Eau/électricité, douche/machine sur demande; vidange interdite. Tarif avec électricité absent.",
+      "nextCheck": "Garder tarif limité à emplacement non électrifié; rappeler la saison et l’interdiction de vidange.",
+      "sources": [
+        "https://www.brionnais-tourisme.fr/aires-de-camping-car-campings/aire-de-stationnement-pour-camping-cars-ACCBOU071V502FZY.html"
+      ]
+    },
+    {
+      "sourceId": "destination-saone-et-loire/artaix",
+      "place": "Artaix — halte nautique",
+      "lot": 466,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 16 places, ouverte toute l’année; eau/électricité sur borne CB mais montants non affichés; sanitaires, douche PMR, Wi-Fi gratuit et loisirs indiqués.",
+      "nextCheck": "Conserver services sans montant; faire confirmer le prix des consommations.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-les-campings-cars.html-1",
+        "https://www.brionnais-tourisme.fr/aires-de-camping-car-campings/aire-de-stationnement-pour-les-camping-cars-ACCBOU071V505HI9.html"
+      ]
+    },
+    {
+      "sourceId": "destination-saone-et-loire/melay-le-bassin",
+      "place": "Melay — Le Bassin",
+      "lot": 466,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 (fiche 2026) : 6 places, eau 2 €/20 min, électricité 3 €/4 h; vidange, WC; ouverture 01/01–31/12/2026.",
+      "nextCheck": "Afficher les prix datés 2026; revérifier en 2027.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-14"
+      ]
+    },
+    {
+      "sourceId": "destination-saone-et-loire/marraycourt",
+      "place": "Marcigny — Marraycourt",
+      "lot": 466,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : 6 places, 24,50 €/jour pour emplacement électrifié, eau, électricité, douches. Adresse 2 place du Champ de Foire; page de la mairie indique 9 rue Georges de Vichy pour Marraycourt. La borne municipale distincte de la place a 3 places, parking/vidange gratuits, eau 2 €/10 min et électricité 2 €/120 min.",
+      "nextCheck": "Ne pas fusionner avec la borne municipale; faire confirmer adresse/GPS et ne pas attribuer de tarif à un emplacement non électrifié.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/marraycourt-aire-de-stationnement.html",
+        "https://marcigny.com/VieLocaleAssociative/Tourisme",
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-camping-cars.html-0"
+      ]
+    },
+    {
+      "sourceId": "destination-saone-et-loire/viry-ferme-philippe-sabine",
+      "place": "Viry — Ferme de Philippe et Sabine",
+      "lot": 466,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : 6 places, accueil privé, eau/électricité, sanitaires fermés l’hiver; borne de vidange à 6 km. Prix non publié.",
+      "nextCheck": "Ne pas inscrire de prix; appeler avant arrivée et signaler l’absence de vidange sur place.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/la-ferme-de-philippe-et-sabine.html"
+      ]
+    },
+    {
+      "sourceId": "destination-saone-et-loire/mont-saint-vincent",
+      "place": "Mont-Saint-Vincent — aire de services",
+      "lot": 466,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme Creusot-Montceau confirme services et stationnement gratuits, accessibles toute l’année. Capacité non publiée.",
+      "nextCheck": "Garder capacité non confirmée et gratuité attribuée à l’office.",
+      "sources": [
+        "https://www.creusotmontceautourisme.fr/offres/aire-de-services-pour-camping-cars-mont-saint-vincent-fr-4182257/"
+      ]
+    },
+    {
+      "sourceId": "destination-saone-et-loire/bourbon-lancy-terracamps",
+      "place": "Bourbon-Lancy — Terracamps étang du Breuil",
+      "lot": 466,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 22 places; guide officiel hébergements 2026 : 13 €/24 h. Adresse rue de la Petite Murette; eau/électricité listées.",
+      "nextCheck": "Garder comme tarif daté 2026; reconfirmer pour 2027.",
+      "sources": [
+        "https://tourisme-bourbonlancy.com/hebergements/aire-camping-car/",
+        "https://tourisme-bourbonlancy.com/wp-content/uploads/2026/02/Guide-hebergements-Bourbon-Lancy-2026-1.pdf"
+      ]
+    },
+    {
+      "sourceId": "destination-saone-et-loire/cuiseaux",
+      "place": "Cuiseaux — route des Chevalières",
+      "lot": 466,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 mise à jour 13/05/2026 : 5 places, stationnement/services gratuits, eau/vidange; dates 01/03–31/10/2026, mais description annonce aussi « ouvert toute l’année ». Au 22/11/2026, période saisonnière terminée.",
+      "nextCheck": "Conserver gratuité et 5 places; ne pas garantir accès hivernal avant clarification communale.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-stationnement-pour-les-campings-cars.html-2"
       ]
     }
   ]
