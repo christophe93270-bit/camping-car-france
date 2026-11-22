@@ -4,15 +4,15 @@
   "displayedCount": 29,
   "rawRegionalRows": 29,
   "deduplicatedRows": 0,
-  "currentLot": 504,
+  "currentLot": 505,
   "department": "34",
   "progress": {
-    "checked": 20,
+    "checked": 29,
     "total": 29,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 9,
+    "totalInLot": 9
   },
-  "note": "Lot 504 : fiches 11 à 20 vérifiées. Tarifs CCP Lamalou et Portiragnes confirmés, nouvelle base Portiragnes au 22/11/2026. Aniane stationnement gratuit mais équipements contradictoires. Écarts de capacité à Lunas (22/30) et au Moulin de l’Espagnac (20/27); grille saisonnière du Moulin détaillée. Octon reste à confirmer auprès de la mairie. 20/29 fiches contrôlées; fiches source non modifiées.",
+  "note": "Lot 505 : dernières 9 fiches vérifiées, audit du département terminé (29/29). Olargues: base tarifaire 12,67 € effective au 01/10/2026, non 30/10. Le Levant: prix gestionnaire 8,72 €/24 h, précédemment non confirmé. La Salvetat: doublon possible entre deux points OSM à ~500 m ayant même gestionnaire/site et mêmes 57 places. Saint-Martin CCP: début tarif au 18/11, non 01/11. Launac: site privé identifié; prix de nuitée non confirmé. Fiches source non modifiées.",
   "entries": [
     {
       "sourceId": "node/11915885576",
@@ -259,6 +259,116 @@
       "sources": [
         "https://www.openstreetmap.org/way/904496937",
         "https://www.destinationhautlanguedoc.fr/sejourner/aire-de-camping-car/aire-de-camping-car-la-salvetat"
+      ]
+    },
+    {
+      "sourceId": "way/989016956",
+      "place": "Olargues — CAMPING-CAR PARK",
+      "lot": 505,
+      "checkedAt": "2026-11-22",
+      "status": "CCP: total 13,97 €/24 h avec base 12,67 € effective du 01/10/2026 et taxe de séjour 1,30 € affichée pour 2026; parking 5 h + services 6 €. 11 places.",
+      "nextCheck": "Corriger date du 30/10 en 01/10/2026; vérifier si taux de taxe 2027 change.",
+      "sources": [
+        "https://www.openstreetmap.org/way/989016956",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/herault/olargues"
+      ]
+    },
+    {
+      "sourceId": "way/1016603475",
+      "place": "Sérignan — aire de stationnement Le Levant",
+      "lot": 505,
+      "checkedAt": "2026-11-22",
+      "status": "Gestionnaire Aire Park Réservation: 8,72 €/24 h, 49 places, ouvert toute l’année; électricité et vidange/remplissage eau extérieurs. Prix auparavant non confirmé dans le fichier.",
+      "nextCheck": "Renseigner 8,72 €/24 h; préciser services extérieurs.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1016603475",
+        "https://www.aireparkreservation.com/aires-camping-car/recherche/9510"
+      ]
+    },
+    {
+      "sourceId": "way/1096314746",
+      "place": "Celles — CAMPING-CAR PARK du lac de Salagou",
+      "lot": 505,
+      "checkedAt": "2026-11-22",
+      "status": "CCP: 11,16 €/24 h (10 € + taxe 1,16 €), parking 5 h + services 6 €; fichier indique 12 emplacements.",
+      "nextCheck": "Tarif et capacité cohérents; garder taxe distincte.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1096314746",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/herault/lac-de-salagou"
+      ]
+    },
+    {
+      "sourceId": "way/1267579111",
+      "place": "Saint-Martin-de-Londres — aire municipale rue des Sapeurs",
+      "lot": 505,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie: 6 €/nuit, caution par chèque 10 €, clés à retirer en mairie. Aire distincte de CCP, chemin de la Prairie.",
+      "nextCheck": "Garder l’adresse distincte et préciser les modalités clés/caution.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1267579111",
+        "https://www.saint-martin-de-londres.fr/index.php/Camping-Car?idpage=102"
+      ]
+    },
+    {
+      "sourceId": "way/1282007724",
+      "place": "La Salvetat-sur-Agout — aire privée (point OSM)",
+      "lot": 505,
+      "checkedAt": "2026-11-22",
+      "status": "Même gestionnaire, nom, capacité annoncée 57, tarif et équipements que la fiche 20 way/904496937, mais points OSM distants d’environ 500 m. Destination Haut-Languedoc: forfait 12,30–14,30 €, ancien camping de la Blaquière.",
+      "nextCheck": "Doublon probable: vérifier la carte et fusionner si les deux points désignent l’unique site de l’ancien camping.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1282007724",
+        "https://www.destinationhautlanguedoc.fr/sejourner/aire-de-camping-car/aire-de-camping-car-la-salvetat",
+        "https://www.openstreetmap.org/way/904496937"
+      ]
+    },
+    {
+      "sourceId": "way/1319983535",
+      "place": "Sérignan — aire privée du Mini Golf du Lion",
+      "lot": 505,
+      "checkedAt": "2026-11-22",
+      "status": "Gestionnaire: ouverte toute l’année; oct.–avr. 10 €/nuit sans électricité, 15 € avec; mai–sept. 15 € sans, 20 € avec; personne supplémentaire 2 €. Eau, vidange, WC 8h–22h, douche 8h–22h et bac à vaisselle inclus. Coordonnées site gestionnaire 43.2686,3.3361, écart léger avec point OSM.",
+      "nextCheck": "Conserver les tarifs et horaires; ajuster le point GPS après vérification.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1319983535",
+        "https://www.mini-golf-du-lion.fr/aire-camping-car.php"
+      ]
+    },
+    {
+      "sourceId": "way/1378642559",
+      "place": "Fabrègues — Domaine de Launac",
+      "lot": 505,
+      "checkedAt": "2026-11-22",
+      "status": "Page du gestionnaire: aire privée, eau et électricité incluses; toilettes sèches 1 €/personne/jour; supplément véhicule 5 €/jour. Prix de nuitée non publié sur sa page; annuaire tiers affiche 18 € non corroborés par l’exploitant.",
+      "nextCheck": "Mettre à jour identité/équipements; laisser tarif nuitée non confirmé en attendant confirmation directe.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1378642559",
+        "https://www.ledomainedelaunac.com/l-aire-d-accueil-camping-cars-et-vans",
+        "https://caraplace.ch/fr/placeme/aire-de-camping-cars-de-launac-23776"
+      ]
+    },
+    {
+      "sourceId": "way/1567727006",
+      "place": "Gignac — CAMPING-CAR PARK Les Oliviers",
+      "lot": 505,
+      "checkedAt": "2026-11-22",
+      "status": "CCP: 15,90 €/24 h (14,30 € + taxe 1,60 € selon données du fichier), parking 5 h + services 6 €; fichier indique 22 places.",
+      "nextCheck": "Prix cohérent; conserver taxe distincte.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1567727006",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/herault/gignac-les-oliviers"
+      ]
+    },
+    {
+      "sourceId": "way/1568366960",
+      "place": "Saint-Martin-de-Londres — CAMPING-CAR PARK Pic Saint-Loup",
+      "lot": 505,
+      "checkedAt": "2026-11-22",
+      "status": "CCP: total 16,22 €/24h; base 14,50 € effective du 18/11/2026 au 31/12/2027 + taxe 1,72 € (2026/2027); parking 5 h + services 6 €. 27 places, sanitaires saisonniers jusqu’au 30/12/2026. Fichier annonçait début 01/11.",
+      "nextCheck": "Corriger date du barème au 18/11/2026; maintenir horaires sanitaires et distinction avec aire municipale.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1568366960",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/herault/saint-martin-de-londres"
       ]
     }
   ]
