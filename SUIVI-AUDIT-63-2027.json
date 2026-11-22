@@ -1,0 +1,133 @@
+{
+  "scope": "Puy-de-Dôme (63) : vérification des tarifs 2027 des 48 fiches déjà présentes dans aires-puy-de-dome.json; lots successifs de dix fiches dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 48,
+  "rawRegionalRows": 48,
+  "deduplicatedRows": 0,
+  "currentLot": 433,
+  "department": "63",
+  "progress": {
+    "checked": 10,
+    "total": 48,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 433 : fiches 1 à 10 contrôlées. Tarifs 2027 partiels ou à confirmer pour plusieurs lieux; divergence à Orcines, distinction aire municipale/projet CCP à Montpeyroux, correction nécessaire de la note tarifaire Vulcania, plusieurs prestations à distinguer au domaine des Quatre Vents. Aucune fiche applicative modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/5835931285",
+      "place": "Orcines — aire municipale",
+      "lot": 433,
+      "checkedAt": "2026-11-22",
+      "status": "Sources en désaccord : délibération municipale consultée 6 €/24 h du 01/10 au 30/04 et 8 € du 01/05 au 30/09, jetons eau/électricité 2 €; fiche touristique plus récente 7–9 €.",
+      "nextCheck": "Demander à la mairie le barème en vigueur en 2027 et résoudre l’écart 6/8 € contre 7/9 €.",
+      "sources": [
+        "https://www.orcines.fr/wp-content/uploads/2024/04/20231116-19-Tarifs-municipaux-aire-de-camping-car.pdf",
+        "https://www.puydedome-tourisme.com/fr/fiche/hotellerie-plein-air/aire-de-service-de-camping-car-d-orcines-orcines_TFO4778994/"
+      ]
+    },
+    {
+      "sourceId": "node/6578456214",
+      "place": "Ambert — esplanade Robert-Lacroix",
+      "lot": 433,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : stationnement gratuit 24 h/24; eau ou électricité 2 €; borne hivernée nov.-avr., période d’ouverture indiquée avril-septembre 2026.",
+      "nextCheck": "Confirmer les dates de remise en service de la borne en 2027.",
+      "sources": [
+        "https://www.auvergne-livradois-forez.com/je-prepare-mon-sejour/hebergements/aire-de-stationnement-pour-camping-car-dambert-ambert-fr-4619871/"
+      ]
+    },
+    {
+      "sourceId": "node/11057102377",
+      "place": "Picherande — CAMPING-CAR PARK, lac de Gayme",
+      "lot": 433,
+      "checkedAt": "2026-11-22",
+      "status": "Opérateur : base 13,75 €/24 h du 30/10/2026 au 31/12/2027; taxe 1,32 € publiée jusqu’au 31/12/2026 seulement. Total actuellement affiché 15,07 €.",
+      "nextCheck": "Confirmer la taxe de séjour 2027; ne pas figer le TTC 15,07 € pour toute l’année 2027 avant confirmation.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/picherande"
+      ]
+    },
+    {
+      "sourceId": "node/11987538319",
+      "place": "Montpeyroux — fiche CAMPING-CAR PARK annoncée à venir",
+      "lot": 433,
+      "checkedAt": "2026-11-22",
+      "status": "La fiche CCP demeure à venir sans prix ni ouverture. L’office de tourisme publie pour l’aire municipale existante du parking de la Moulerette 6 €/24 h en 2027 et jeton services à 3 €.",
+      "nextCheck": "Établir si le projet CCP est le même emplacement ou un remplacement; ne pas transférer les prix municipaux à l’offre CCP sans confirmation.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/montpeyroux",
+        "https://www.issoire-tourisme.com/camping/aire-et-borne-services-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "node/12228555316",
+      "place": "Manzat — place du 14-Juillet",
+      "lot": 433,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie : borne de service gratuite, eau potable, vidange eaux usées et Wi-Fi; pas de tarif de nuitée publié.",
+      "nextCheck": "Confirmer les règles d’autorisation du stationnement nocturne.",
+      "sources": [
+        "https://manzat.fr/pp-accueil-hebergements.html"
+      ]
+    },
+    {
+      "sourceId": "node/13410919346",
+      "place": "Chastreix-Sancy — aire de la station",
+      "lot": 433,
+      "checkedAt": "2026-11-22",
+      "status": "Commune/tourisme Sancy : forfait 12 €/24 h ou 55 €/semaine, emplacement + eau, électricité, vidange; taxe de séjour non incluse. Tarif publié sans millésime 2027.",
+      "nextCheck": "Confirmer le barème 2027 et le montant de taxe de séjour.",
+      "sources": [
+        "https://www.chastreix.fr/aire-de-camping-car/",
+        "https://www.sancy.com/fr/fiche/hotellerie-plein-air/aire-d-accueil-et-de-service-chastreix_TFO5108780/"
+      ]
+    },
+    {
+      "sourceId": "way/88219497",
+      "place": "Vulcania — CAMPING-CAR PARK, Saint-Ours",
+      "lot": 433,
+      "checkedAt": "2026-11-22",
+      "status": "Page opérateur : encart actuel 15,32 €/24 h dont taxe 1,32 €; tableau saisonnier base 14 €/24 h du 03/11/2026 au 31/12/2027. Ancienne note locale citait incorrectement 12 € + 1,32 €.",
+      "nextCheck": "Corriger la note tarifaire 12 € en base 14 €; confirmer la taxe 2027, actuellement publiée jusqu’au 31/12/2026.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/vulcania-saint-ours"
+      ]
+    },
+    {
+      "sourceId": "way/128490862",
+      "place": "Aubusson-d’Auvergne — aire/domaine des Quatre Vents",
+      "lot": 433,
+      "checkedAt": "2026-11-22",
+      "status": "Office tourisme Livradois-Forez : offre emplacement + services de 11,88 € minimum pour saison 2026, taxe en supplément; fiche centre nature liée indique prestation de service différente à partir de 5 €, électricité 6 €/jour.",
+      "nextCheck": "Identifier la formule associée au point OSM et demander les tarifs 2027 au Domaine des Quatre Vents.",
+      "sources": [
+        "https://www.auvergne-livradois-forez.com/je-prepare-mon-sejour/hebergements/aire-de-services-et-de-stationnement-domaine-des-4-vents-aubusson-dauvergne-fr-4619116/",
+        "https://livradois-forez-rando.fr/service/16855-Centre-nature--Quatre-Vents--%3A-aire-de-services-et-de-stationnement",
+        "https://4vents-auvergne.com/hebergements/camping/"
+      ]
+    },
+    {
+      "sourceId": "way/171417599",
+      "place": "Saint-Anthème — aire du Rambaud",
+      "lot": 433,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 5 €/nuitée emplacement + eau et vidange pour la période 01/04–31/10/2026; 20 places.",
+      "nextCheck": "Demander le tarif et les dates d’ouverture 2027 à la mairie/au gestionnaire.",
+      "sources": [
+        "https://www.auvergne-livradois-forez.com/je-prepare-mon-sejour/hebergements/aire-de-service-et-de-stationnement-pour-camping-cars-de-saint-antheme-saint-antheme-fr-4619960/"
+      ]
+    },
+    {
+      "sourceId": "way/321883527",
+      "place": "Pérignat-lès-Sarliève — aire municipale",
+      "lot": 433,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif officiel 2027 non trouvé. Une source secondaire ancienne mentionne 6 € pour borne + 5 h de stationnement; ce montant n’établit pas un tarif de nuitée ni un tarif valide en 2027.",
+      "nextCheck": "Demander à la mairie le prix des services et les règles de stationnement/nuitée.",
+      "sources": [
+        "https://www.perignat-les-sarlieve.fr/"
+      ]
+    }
+  ]
+}
