@@ -1,0 +1,133 @@
+{
+  "scope": "Haut-Rhin (68) : vérification tarifaire et statutaire des fiches de aires-haut-rhin.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 28,
+  "rawRegionalRows": 28,
+  "deduplicatedRows": 0,
+  "currentLot": 451,
+  "department": "68",
+  "progress": {
+    "checked": 10,
+    "total": 28,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 451 : fiches 1 à 10 contrôlées. Riquewihr Jean Monnet : tarifs officiels 2026 20 € jour /10 € nuit; 2027 non confirmé. Avenue Jacques Preiss : tarifs contradictoires sur fiche touristique officielle. Rouffach : parking public décrit, mais pas d’aire au point OSM confirmée. Sainte-Marie-aux-Mines : 20 places et fermeture pendant Mineral & Gem, tarif non publié. Ranspach-le-Haut : fermeture définitive signalée par source communautaire, à confirmer officiellement. Trois-Épis : stationnement gratuit, borne eau/électricité 6 €. Grand Ballon : parking seulement, gratuité/nuit tolérée non officielle. Xavier Schneider : 2 places CC standard + 1 poids lourd, tarif absent. Fessenheim : total TTC 2027 confirmé 14,90 €. Kaysersberg : 10 €/24h confirmé pour 2026, pas de tarif 2027 trouvé. Aucune donnée du site modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/4723666850",
+      "place": "Riquewihr — parking camping-cars place Jean Monnet",
+      "lot": 451,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie/office touristique : 20 € de jour (9h–19h), 10 € la nuit (19h–9h), FPS 40 €. Grille 2026; tarif 2027 non repéré.",
+      "nextCheck": "Conserver le barème 2026 et confirmer le tarif 2027 avant toute projection.",
+      "sources": [
+        "https://www.riquewihr.fr/fr/rb/724791/circulation-et-stationnement-1",
+        "https://www.massif-des-vosges.fr/sit/229002718-aire-de-stationnement-pour-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "node/4723666851",
+      "place": "Riquewihr — aire avenue Jacques Preiss",
+      "lot": 451,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche touristique officielle contradictoire : tarif 20 €/jour + 10 €/nuit dans un bloc, 3h 8 €, 5h 10 €, nuit 15 € dans un autre. 15 places; eau, électricité et vidange mentionnées. Tarifs 2027 non confirmés.",
+      "nextCheck": "Demander au gestionnaire le barème actif et le millésime avant correction.",
+      "sources": [
+        "https://www.massif-des-vosges.fr/sit/229002440-aire-daccueil-pour-camping-car/",
+        "https://www.routedesvins.alsace/sit/229002440-aire-daccueil-pour-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "node/4723763319",
+      "place": "Rouffach — point OSM camping-car",
+      "lot": 451,
+      "checkedAt": "2026-11-22",
+      "status": "Sources touristiques confirment des parkings publics et règles de stationnement à Rouffach, mais ne confirment pas l’existence d’une aire de services/nuitée au point OSM.",
+      "nextCheck": "Vérifier position et usage auprès de la mairie; ne pas présenter comme aire confirmée.",
+      "sources": [
+        "https://www.tourisme-eguisheim-rouffach.com/Fr/Infos-pratiques/Stationnement.html"
+      ]
+    },
+    {
+      "sourceId": "node/4723822022",
+      "place": "Sainte-Marie-aux-Mines — parking camping-car",
+      "lot": 451,
+      "checkedAt": "2026-11-22",
+      "status": "Parking public central, 20 emplacements stabilisés; fermeture annuelle de début juin à début juillet pour Mineral & Gem. Pas de tarif publié dans la fiche source.",
+      "nextCheck": "Garder prix non publié et fermeture saisonnière.",
+      "sources": [
+        "https://www.visit.alsace/228002181-aire-de-stationnement-pour-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "node/4723905127",
+      "place": "Ranspach-le-Haut — aire de camping-cars",
+      "lot": 451,
+      "checkedAt": "2026-11-22",
+      "status": "Fermeture définitive signalée par Campercontact; autres annuaires parlent de 3 places gratuites. Pas de confirmation officielle de l’ouverture actuelle.",
+      "nextCheck": "Vérifier auprès de la mairie/exploitant; ne pas afficher comme ouverte ou gratuite avant confirmation.",
+      "sources": [
+        "https://www.campercontact.com/fr/france/grand-est/ranspach-le-haut/115298/camperplaats-cars-ranspach-le-haut",
+        "https://www.tourisme-eguisheim-rouffach.com/"
+      ]
+    },
+    {
+      "sourceId": "node/4730824975",
+      "place": "Turckheim — aire des Trois-Épis",
+      "lot": 451,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme stationnement gratuit; eau ou électricité à la borne 6 €. Aucune grille 2027 publiée.",
+      "nextCheck": "Séparer gratuité stationnement et service borne; garder date de vérification.",
+      "sources": [
+        "https://www.tourisme-colmar.com/fr/toutes-les-fiches/F235017146_aire-de-service-et-de-stationnement-pour-camping-car-les-trois-epis"
+      ]
+    },
+    {
+      "sourceId": "node/7682818942",
+      "place": "Goldbach-Altenbach — parking du Grand Ballon",
+      "lot": 451,
+      "checkedAt": "2026-11-22",
+      "status": "Sources secondaires parlent de parking gratuit/nuit tolérée, mais pas de service ni règle locale officielle trouvée.",
+      "nextCheck": "Garder statut de nuitée et gratuité à confirmer; identifier comme parking, pas aire de services.",
+      "sources": [
+        "https://www.camping-car.travel/le-grand-ballon-dalsace/",
+        "https://acceslibre.beta.gouv.fr/app/68-goldbach-altenbach/a/agence-de-voyage/erp/grand-ballon-accueil-information/"
+      ]
+    },
+    {
+      "sourceId": "node/12030089516",
+      "place": "Gueberschwihr — Domaine Xavier Schneider",
+      "lot": 451,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme 2 places camping-cars standards, 1 place poids lourd, eau/électricité possibles, réservation conseillée et arrivée avant 18h. Aucun tarif affiché.",
+      "nextCheck": "Ne pas publier de tarif; distinguer 2 places CC de la place poids lourd.",
+      "sources": [
+        "https://www.tourisme-eguisheim-rouffach.com/FR/Aire-camping-cars-Domaine-Xavier-Schneider-f253004261.html"
+      ]
+    },
+    {
+      "sourceId": "node/13164223744",
+      "place": "Fessenheim — CCP",
+      "lot": 451,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 complet : 13,80 € + taxe 1,10 € = 14,90 €/24h; 16 places. Risque PPRT indiqué par l’opérateur.",
+      "nextCheck": "Tarif 2027 confirmé; conserver le point de vigilance PPRT.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/haut-rhin/fessenheim?areaType=stopover-site-motorhome"
+      ]
+    },
+    {
+      "sourceId": "way/82288504",
+      "place": "Kaysersberg-Vignoble — aire de l’Erlenbad",
+      "lot": 451,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 70 places et 10 €/24h, fiche tarifaire valable du 01/01 au 31/12/2026; aucun tarif 2027 publié dans la source consultée.",
+      "nextCheck": "Garder le tarif avec son millésime 2026; confirmer grille 2027 et horaires/usage au marché de Noël.",
+      "sources": [
+        "https://www.kaysersberg.com/fr/detail/618/4484/230101208/aire-de-camping-car-kaysersberg-vignoble/",
+        "https://www.kaysersberg.com/pratique/venir-dans-la-vallee-de-kaysersberg/"
+      ]
+    }
+  ]
+}
