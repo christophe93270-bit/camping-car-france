@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 478,
+  "currentLot": 479,
   "department": "71",
   "progress": {
-    "checked": 180,
+    "checked": 190,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 478 : fiches 171 à 180 contrôlées. Monterrain : fiche Destination 71 confirme accueil camping-car; tarifs et conditions actuelles à vérifier. Clos Saint Jean : accueil à la nuitée explicitement annoncé, sans prix ni équipements. Cadoles, Fortune, Millebuis, Vinzelles-Loché, Source des Fées, Gonon, Maison Mâconnaise des Vins et Verpaille : accueil des véhicules indiqué, mais la nuitée et/ou ses conditions ne sont généralement pas documentées. Distinguer les caves/domaines des aires publiques proches. Aucune donnée du site modifiée.",
+  "note": "Lot 479 : fiches 181 à 190 contrôlées. Profils Vins de Bourgogne consultés indiquent l’accueil camping-car pour les dix lieux; tarifs, capacités et conditions de nuitée généralement absents. Maison Vitteaut-Alberti indique un parking d’arrivée, sans autorisation de stationnement nocturne. Aucun prix de nuitée confirmé; appeler les établissements avant de présenter une étape comme garantie. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -1988,6 +1988,110 @@
       "sources": [
         "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/verpaille-estelle-et-baptiste-philippe-vire-71260%2C2397%2C9211.html"
       ]
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Le Chai de la Louve",
+      "status": "Profil Vins de Bourgogne confirme l’accueil camping-car et donne adresse/téléphone; pas de tarif, capacité ou nuitée précisés.",
+      "nextCheck": "Appeler pour confirmer nuitée, prix et services.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/le-chai-de-la-louve-aze-71260%2C2397%2C9211.html",
+        "https://www.lechaidelalouve.fr"
+      ],
+      "lot": 479,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine de la Boffeline",
+      "status": "Accueil camping-car indiqué; caveau ouvert lundi-samedi 10h–18h30, rendez-vous conseillé. Pas de conditions ou tarif de nuitée publiés.",
+      "nextCheck": "Appeler avant venue pour les conditions de stationnement.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-de-la-boffeline-aze-71260%2C2397%2C9211.html"
+      ],
+      "lot": 479,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine des Terres de Chatenay",
+      "status": "Accueil camping-car indiqué; visites et dégustations annoncées toute l’année, appel préalable conseillé. Pas de nuitée ou tarif détaillés.",
+      "nextCheck": "Confirmer directement la nuitée et les éventuels services.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-des-terres-de-chatenay-jean-claude-et-marie-odile-janin-peronne-71260%2C2397%2C9211.html"
+      ],
+      "lot": 479,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine Vincent Edouard",
+      "status": "Vins de Bourgogne indique accueil camping-car oui; prix, capacité et conditions de nuitée non précisés.",
+      "nextCheck": "Appeler avant de prévoir une étape nocturne.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/vincent-edouard-lugny-71260%2C2397%2C9211.html"
+      ],
+      "lot": 479,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine de L’Aubraine",
+      "status": "Accueil camping-car indiqué; profil demande d’appeler, les exploitants étant souvent dans les vignes ou à la cave. Aucun tarif publié.",
+      "nextCheck": "Appeler et vérifier la possibilité d’une nuitée.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-de-l-aubraine-saint-gengoux-de-scisse-71260%2C2397%2C9211.html"
+      ],
+      "lot": 479,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine Grachet Duchemin",
+      "status": "Accueil camping-car indiqué; heures de visite et dégustation publiées, rendez-vous de préférence. Aucun tarif ou équipement de stationnement confirmé.",
+      "nextCheck": "Appeler pour confirmer nuitée et services.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/grachet-duchemin-sampigny-les-maranges-71150%2C2397%2C9211.html"
+      ],
+      "lot": 479,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine Les Grands Crays",
+      "status": "Vins de Bourgogne indique accueil camping-car et coordonnées; tarif et durée de stationnement non publiés.",
+      "nextCheck": "Demander si l’accueil inclut la nuitée et à quelles conditions.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-les-grands-crays-clesse-71260%2C2397%2C9211.html"
+      ],
+      "lot": 479,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine Papillon Catherine",
+      "status": "Accueil camping-car indiqué; aucun prix, capacité ou service détaillé.",
+      "nextCheck": "Appeler avant de prévoir une nuitée.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/papillon-catherine-peronne-71260%2C2397%2C9211.html"
+      ],
+      "lot": 479,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Maison Vitteaut-Alberti",
+      "status": "Profil viticole indique accueil camping-car et le site annonce un parking à l’arrivée. Ni tarif ni autorisation de nuitée publiés.",
+      "nextCheck": "Ne pas assimiler parking de visite à étape; demander confirmation à la Maison.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/vitteaut-alberti-rully-71150%2C2397%2C9211.html",
+        "https://www.vitteaut-alberti.fr/fr/visits/visits"
+      ],
+      "lot": 479,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Maison Deliance",
+      "status": "Profil Vins de Bourgogne indique accueil camping-car; adresse confirmée par la maison et l’office de tourisme. Tarif et conditions de nuitée non publiés.",
+      "nextCheck": "Contacter la Maison Deliance pour confirmer nuitée, prix et équipements.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/deliance-dracy-le-fort-71640%2C2397%2C9211.html",
+        "https://domainedeliance.com/",
+        "https://www.achalon.com/offres/deliance-dracy-le-fort-fr-4437129/"
+      ],
+      "lot": 479,
+      "checkedAt": "2026-11-22"
     }
   ]
 }
