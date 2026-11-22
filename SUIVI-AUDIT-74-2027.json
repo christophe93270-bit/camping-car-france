@@ -4,15 +4,15 @@
   "displayedCount": 24,
   "rawRegionalRows": 24,
   "deduplicatedRows": 0,
-  "currentLot": 494,
+  "currentLot": 495,
   "department": "74",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 24,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 494 : 10 premières fiches sur 24 vérifiées. Un enregistrement Seyssel (Ain) est mal classé dans le 74 et duplique l’aire déjà inscrite dans aires-ain.json. Cluses compte deux lieux distincts (Flot Bleu rue Joseph-Depoisier et CCP avenue des Glières); éviter fusion. Cluses CCP : taxe 2027 1,20 €, dates tarifaires du dossier à réviser. Praz de Lys : grille 2026-2027 non publiée dans la source touristique consultée. Les fiches du site n’ont pas été modifiées.",
+  "note": "Lot 495 : fiches 11 à 20 vérifiées. Le Terret est définitivement fermé; Saint-Gervais et La Chapelle-d’Abondance ont des services électriques à retirer/confirmer; La Balme annonce 24 places (fichier 23) et reste affichée temporairement fermée; tarifs de Doussard et Chamonix distingués entre nuitée/parking et services. Aucune fiche source du site n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/4913702021",
@@ -135,6 +135,128 @@
       "sources": [
         "https://www.openstreetmap.org/way/577215930",
         "https://hautesavoiemontblanc-tourisme.com/offres/aire-de-service-camping-car-de-sallanches-sallanches-fr-5877303/"
+      ]
+    },
+    {
+      "sourceId": "way/677625179",
+      "place": "Morzine — aire de la route de la Plagne",
+      "lot": 495,
+      "checkedAt": "2026-11-22",
+      "status": "Commune : aire payante au 1386 route de la Plagne; 20 €/jour du 01/05 au 31/10 et 25 €/jour du 01/11 au 30/04, eau et électricité incluses. La limite de 2 h vise l’emplacement de la borne Flot Bleu; vidange/remplissage au 1320 route de la Plagne.",
+      "nextCheck": "Compléter commune et tarif saisonnier; vérifier le rapprochement exact du polygone OSM avec l’aire payante et ne pas confondre aire de service et stationnement.",
+      "sources": [
+        "https://www.openstreetmap.org/way/677625179",
+        "https://www.morzine-avoriaz.com/sejourner/pratique/venir-a-morzine/en-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/683647558",
+      "place": "Passy — Plaine-Joux",
+      "lot": 495,
+      "checkedAt": "2026-11-22",
+      "status": "Les sources officielles identifient un parking à Plaine-Joux et une aire naturelle de camping distincte, ouverte en été. Tarif de camping : 14 €/24 h pour 2 personnes, taxe et électricité en sus; ce montant ne confirme ni le stationnement de nuit ni le tarif du parking OSM.",
+      "nextCheck": "Confirmer l’emplacement exact et les règles de nuitée du parking, notamment en hiver; ne pas attribuer la grille du camping au parking sans rapprochement.",
+      "sources": [
+        "https://www.openstreetmap.org/way/683647558",
+        "https://www.passy-mont-blanc.com/camping/aire-naturelle-de-camping-de-plaine-joux/",
+        "https://www.passy-mont-blanc.com/sejourner/se-deplacer-a-passy-mont-blanc/ou-stationner-a-passy-mont-blanc/"
+      ]
+    },
+    {
+      "sourceId": "way/790669401",
+      "place": "Le Grand-Bornand — aire du Terret",
+      "lot": 495,
+      "checkedAt": "2026-11-22",
+      "status": "Auvergne-Rhône-Alpes Tourisme indique l’aire définitivement fermée. Le stationnement des camping-cars est interdit sur les parkings du cimetière et de l’aire de loisirs; d’autres parkings sont indiqués comme autorisés pour la nuit.",
+      "nextCheck": "Retirer de la liste active ou marquer la fermeture définitive; ne pas conseiller les parkings interdits.",
+      "sources": [
+        "https://www.openstreetmap.org/way/790669401",
+        "https://www.inauvergnerhonealpes.com/fiches/aire-de-stationnement-pour-camping-car-le-terret-fermee/"
+      ]
+    },
+    {
+      "sourceId": "way/916558064",
+      "place": "Saint-Gervais-les-Bains — aire de service du parking de la patinoire",
+      "lot": 495,
+      "checkedAt": "2026-11-22",
+      "status": "Commune : aire de service ouverte toute l’année, 15 emplacements, vidanges eaux grises/noires, eau à 2 €/100 L et stationnement gratuit. La fiche officielle ne confirme pas de branchement électrique camping-car. Le parking voisin a une limite de 7 jours en zone longue durée.",
+      "nextCheck": "Compléter capacité, tarif et services; retirer l’électricité tant que non confirmée; distinguer les règles de stationnement du parking.",
+      "sources": [
+        "https://www.openstreetmap.org/way/916558064",
+        "https://www.saintgervais.com/jai-envie/de-dormir/tous-les-hebergements/aire-de-service-de-camping-car-du-parking-de-la-patinoire-saint-gervais-les-bains-fr-6665976/",
+        "https://www.saintgervais.com/jai-envie/commerces-services/parking-aerien-de-la-patinoire-saint-gervais-les-bains-fr-5273080/"
+      ]
+    },
+    {
+      "sourceId": "way/916720250",
+      "place": "Abondance — Plaine d’Offaz",
+      "lot": 495,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : aire ouverte toute l’année, stationnement gratuit limité à 6 jours; eau, vidanges et branchements électriques; services à la borne payants selon utilisation, sans tarif unitaire indiqué.",
+      "nextCheck": "Compléter l’adresse, la gratuité, la limite de 6 jours et les services; ne pas annoncer de montant sans barème actuel.",
+      "sources": [
+        "https://www.openstreetmap.org/way/916720250",
+        "https://hautesavoiemontblanc-tourisme.com/offres/aire-camping-car-dabondance-abondance-fr-5877384/"
+      ]
+    },
+    {
+      "sourceId": "way/916784458",
+      "place": "La Balme-de-Sillingy — CAMPING-CAR PARK",
+      "lot": 495,
+      "checkedAt": "2026-11-22",
+      "status": "Page CCP : 11 €/24 h à partir du 14/10/2026 + taxe de séjour 0,80 €/24 h (total 11,80 €), parking 5 h + services 6 €; tarif du fichier conforme. La source officielle annonce 24 places contre 23 dans le fichier et affiche « temporairement fermée » au 22/11.",
+      "nextCheck": "Corriger la capacité à 24; vérifier la réouverture auprès de CCP avant déplacement. Le début de grille et les montants sont conformes à la page consultée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/916784458",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/haute-savoie/La%20Balme-de-Sillingy"
+      ]
+    },
+    {
+      "sourceId": "way/1085047270",
+      "place": "La Chapelle-d’Abondance — aire de service",
+      "lot": 495,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : ouverte 24 h/24 et 7 j/7; eau potable, vidanges eaux grises/noires; stationnement de nuit gratuit limité à 3 semaines. Aucun service électrique sur cette aire.",
+      "nextCheck": "Retirer le tag « Électricité »; renseigner accès, services, gratuité et limite de nuitée; tarif de la borne à confirmer.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1085047270",
+        "https://hautesavoiemontblanc-tourisme.com/offres/aire-camping-car-de-la-chapelle-dabondance-la-chapelle-dabondance-fr-5877178/"
+      ]
+    },
+    {
+      "sourceId": "way/1285377656",
+      "place": "Excenevex — aire de la route d’Yvoire",
+      "lot": 495,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 20 emplacements, ouverte 24/7 toute l’année, branchements électriques proches, eau/remplissage, vidanges et zone déchets. La page tarifaire comporte une image mais aucun montant n’est lisible dans son texte.",
+      "nextCheck": "Compléter commune, adresse et capacité; faire confirmer le tarif municipal affiché sur place avant de renseigner un montant.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1285377656",
+        "https://hautesavoiemontblanc-tourisme.com/offres/aire-de-service-pour-camping-cars-24h-24-7j-7-a-excenevex-excenevex-fr-5877286/"
+      ]
+    },
+    {
+      "sourceId": "way/1313213307",
+      "place": "Doussard — aire route d’Annecy",
+      "lot": 495,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 9 places; eau potable, vidanges et déchets; 10 €/24 h + 3 € services. Ouverture annoncée du 01/04 au 15/11/2026, avec gratuité indiquée en avril, octobre et novembre.",
+      "nextCheck": "Compléter ville, adresse, capacité et services; distinguer prix du stationnement et service; signaler période d’ouverture et gratuité saisonnière.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1313213307",
+        "https://hautesavoiemontblanc-tourisme.com/offres/aire-de-service-accueil-de-camping-car-doussard-fr-5877089/"
+      ]
+    },
+    {
+      "sourceId": "way/1421554765",
+      "place": "Chamonix-Mont-Blanc — aire de service, 339 route Blanche",
+      "lot": 495,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : service gratuit, vidanges et eau uniquement l’été, ouvert du 01/05 au 30/11/2026. Le parking est payant; la gratuité du service ne confirme ni un parking gratuit ni une nuitée autorisée.",
+      "nextCheck": "Renseigner adresse et dates; distinguer service gratuit, parking payant, tarif de parking et autorisation de nuitée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1421554765",
+        "https://hautesavoiemontblanc-tourisme.com/offres/aire-de-service-camping-car-chamonix-chamonix-mont-blanc-fr-5877112/"
       ]
     }
   ]
