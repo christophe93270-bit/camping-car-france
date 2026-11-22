@@ -4,15 +4,15 @@
   "displayedCount": 36,
   "rawRegionalRows": 36,
   "deduplicatedRows": 0,
-  "currentLot": 520,
+  "currentLot": 521,
   "department": "38",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 36,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Premier lot terminé : 10/36 fiches contrôlées. Gratuité 2026 de Saint-Pierre-de-Chartreuse à reconfirmer (dernier tarif daté 2023); taxe de séjour de Cessieu sans montant publié. Données source non modifiées.",
+  "note": "Deuxième lot terminé : 20/36 fiches contrôlées. Romagnieu : taxe 2027 confirmée à 0,80 €/24 h; Saint-Maximin : tarif municipal 2026 confirmé à 8,10 €/nuit hors taxe. Le Cheylas reste à confirmer pour les tarifs de services et le stationnement de nuit. Données source non modifiées.",
   "entries": [
     {
       "sourceId": "node/4215020337",
@@ -132,6 +132,130 @@
         "https://www.oisans.com/camping/aire-de-camping-car-point-bleu/"
       ],
       "lot": 520,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/12236569654",
+      "place": "Autrans-Méaudre-en-Vercors — parking de la salle des fêtes à Méaudre",
+      "status": "Vercors Rando : stationnement gratuit toute l’année, sans commodités; eau et vidange disponibles dans les campings de la commune. Fiche mise à jour le 29/04/2026.",
+      "nextCheck": "Maintenir sans services sur place; ne pas attribuer aux places du parking les équipements des campings voisins.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12236569654",
+        "https://rando.parc-du-vercors.fr/fr/service/694-Aire-de-stationnement-camping-cars"
+      ],
+      "lot": 521,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/14279683580",
+      "place": "Romagnieu — CAMPING-CAR PARK",
+      "status": "CCP : 24 places, ouverte, électricité 6 A. Du 22 au 30/11/2026 : base 12 € + taxe 0,80 € = 12,80 €; du 01/12/2026 au 30/04/2027 : 13 € + taxe 2027 confirmée à 0,80 € = 13,80 €; du 01/05 au 30/09/2027 : 15 € + taxe 0,80 €. Parking 5 h + services 6 €.",
+      "nextCheck": "Remplacer la mention taxe 2027 non vérifiée; garder périodes, bases et taxes séparées.",
+      "sources": [
+        "https://www.openstreetmap.org/node/14279683580",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/romagnieu"
+      ],
+      "lot": 521,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/186753227",
+      "place": "Auris — aire de camping-car",
+      "status": "Oisans Tourisme : 24 places, ouverte toute l’année. Nuitée + accès borne vidange/remplissage : 10,84 € en haute saison (déc.-mars, juin-août), 9,14 € en basse saison (avril-mai, sept.-nov.), taxe incluse. Électricité 24 h : 4,20 €/3,40 €; eau 10 min 2 €; passage 2 h 4,50 €.",
+      "nextCheck": "Conserver le barème saisonnier et distinguer nuitée, électricité, eau et forfait de passage.",
+      "sources": [
+        "https://www.openstreetmap.org/way/186753227",
+        "https://www.oisans.com/camping/aire-camping-car-auris/"
+      ],
+      "lot": 521,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/192543327",
+      "place": "Villard-de-Lans — aire des Bartavelles",
+      "status": "Office de tourisme et Vercors Rando : aire gratuite toute l’année 2026, sans eau ni borne électrique; navette gratuite devant l’aire en hiver et en été.",
+      "nextCheck": "Garder gratuité et autonomie requise; navette distincte des services d’aire.",
+      "sources": [
+        "https://www.openstreetmap.org/way/192543327",
+        "https://www.villarddelans-correnconenvercors.com/offres/aire-de-camping-car-des-bartavelles-villard-de-lans-fr-3286680/",
+        "https://rando.parc-du-vercors.fr/fr/service/3279-Aire-de-Camping--Car-des-Bartavelles"
+      ],
+      "lot": 521,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/199572192",
+      "place": "Autrans — parking face au cimetière",
+      "status": "Alpes Isère : stationnement gratuit, 10 places; service eau/vidange 2 € au Relais Flot Bleu. Tarifs affichés du 01/01 au 31/12/2026.",
+      "nextCheck": "Séparer le stationnement gratuit du service à 2 €; ne pas attribuer la borne aux emplacements du parking.",
+      "sources": [
+        "https://www.openstreetmap.org/way/199572192",
+        "https://www.alpes-isere.com/sit/aire-de-stationnement-pour-les-camping-cars-5507804/"
+      ],
+      "lot": 521,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/210605348",
+      "place": "Saint-Maximin — place du Marais",
+      "status": "Procès-verbal municipal : nuitée camping-car 8,10 € à partir de 2026, hors taxe de séjour; avis d’usagers rapportent un paiement QR de 8 € en 2026; électricité non garantie.",
+      "nextCheck": "Remplacer l’ancien 7,78 € (2025) par 8,10 € hors taxe; confirmer taxe et montant affiché QR auprès de la mairie.",
+      "sources": [
+        "https://www.openstreetmap.org/way/210605348",
+        "https://politique.pappers.fr/commune/document/edc0e9b0ac102e455f525190ed80851f",
+        "https://park4night.com/fr/place/230574"
+      ],
+      "lot": 521,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/238494502",
+      "place": "Les Deux Alpes — aire à l’entrée de la station",
+      "status": "Alpes Isère : 20 emplacements en hiver, 60 en été; eau, vidange, électricité, sanitaires; navette toutes les 30 min. Du 15/09/2026 au 02/05/2027 : 18 €/jour ou 110 €/7 jours; taxe de séjour 0,61 €/adulte/jour. Ouverte 24 h/24, paiement horodateur, sans réservation.",
+      "nextCheck": "Distinguer taxe par adulte/jour des forfaits; garder modalités de paiement et absence de réservation.",
+      "sources": [
+        "https://www.openstreetmap.org/way/238494502",
+        "https://www.alpes-isere.com/sit/aire-de-camping-car-les-2-alpes-365249/"
+      ],
+      "lot": 521,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/421759299",
+      "place": "Pont-en-Royans — aire « La Plage » / camping municipal Les Seraines",
+      "status": "Office de tourisme : emplacement à partir de 13 €, paiement par carte, barrière sécurisée, eau et vidanges; ouverture affichée toute l’année. Bloc sanitaire commun fermé.",
+      "nextCheck": "Garder « à partir de 13 € »; faire préciser conditions du tarif et services inclus auprès du camping.",
+      "sources": [
+        "https://www.openstreetmap.org/way/421759299",
+        "https://tourisme.saintmarcellin-vercors-isere.fr/sejourner/hebergements/aires-de-camping-cars/167807_aire-de-stationnement-la-plage/"
+      ],
+      "lot": 521,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/441803370",
+      "place": "Le Cheylas — rue du Stade",
+      "status": "La commune répertorie l’aire de camping-car mais ne publie pas de conditions de prix consultées. Contributions Park4Night de 2026 rapportent vidanges gratuites; stationnement de nuit non confirmé et capacité/témoignages communautaires discordants.",
+      "nextCheck": "Conserver les prix comme signalement communautaire uniquement; demander confirmation à la mairie sur services, capacité et nuitée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/441803370",
+        "https://www.ville-le-cheylas.fr/plancom.pdf",
+        "https://park4night.com/fr/place/722471",
+        "https://park4night.com/fr/place/5934"
+      ],
+      "lot": 521,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/475873188",
+      "place": "Reventin-Vaugris — centre-village, parking place du cimetière",
+      "status": "Rhône Tourisme : 10 places gratuites réservées aux camping-cars, ouvertes toute l’année, avec toilettes, point d’eau, poubelles et éclairage; aucun prix de services indiqué.",
+      "nextCheck": "Garder stationnement gratuit et services listés; ne pas inventer de tarif pour l’eau.",
+      "sources": [
+        "https://www.openstreetmap.org/way/475873188",
+        "https://www.rhonetourisme.com/je-prepare/hebergements-pres-de-lyon/aires-de-services/167114_aire-de-stationnement-reventin-vaugris-centre-village/"
+      ],
+      "lot": 521,
       "checkedAt": "2026-11-22"
     }
   ]
