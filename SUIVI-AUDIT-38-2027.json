@@ -1,0 +1,138 @@
+{
+  "scope": "Isère (38) : audit des tarifs, services, capacités et périodes d’ouverture des fiches de aires-isere.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 36,
+  "rawRegionalRows": 36,
+  "deduplicatedRows": 0,
+  "currentLot": 520,
+  "department": "38",
+  "progress": {
+    "checked": 10,
+    "total": 36,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Premier lot terminé : 10/36 fiches contrôlées. Gratuité 2026 de Saint-Pierre-de-Chartreuse à reconfirmer (dernier tarif daté 2023); taxe de séjour de Cessieu sans montant publié. Données source non modifiées.",
+  "entries": [
+    {
+      "sourceId": "node/4215020337",
+      "place": "Saint-Antoine-l’Abbaye — rue des Terreaux",
+      "status": "Alpes Isère : parking et WC publics; ouvert toute l’année 2026; jeton de service 2 €. Aucun tarif de stationnement ni détail des services inclus dans le jeton.",
+      "nextCheck": "Garder jeton de service à 2 € distinct du stationnement; préciser les services inclus seulement après confirmation.",
+      "sources": [
+        "https://www.openstreetmap.org/node/4215020337",
+        "https://www.alpes-isere.com/en/sit/aire-de-service-camping-car-de-saint-antoine-labbaye-128787/"
+      ],
+      "lot": 520,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/11886853534",
+      "place": "Saint-Jean-de-Bournay — place François-Mitterrand",
+      "status": "Office de tourisme : stationnement limité à 24 h; stationnement, eau et vidanges gratuites. Fermée lundi matin, pendant la fête foraine; eau coupée en hiver, vidange possible.",
+      "nextCheck": "Conserver gratuité et durée; noter restrictions horaires et coupure hivernale de l’eau.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11886853534",
+        "https://www.alpes-isere.com/sit/aire-de-service-camping-car-72040/"
+      ],
+      "lot": 520,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/11899162017",
+      "place": "Saint-Pierre-de-Chartreuse — Combe de l’Ours",
+      "status": "Office de tourisme : parking accessible aux camping-cars du 01/04 au 30/11; aucune borne. Tarif gratuit affiché pour la seule période explicitement datée du 01/04 au 30/11/2023, malgré une fiche mise à jour en avril 2026.",
+      "nextCheck": "Confirmer la gratuité 2026 auprès de l’office; ne pas présenter le tarif 2023 comme actuel.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11899162017",
+        "https://www.alpes-isere.com/sit/aire-de-stationnement-camping-car-du-telesiege-de-la-combe-de-lours-210670/"
+      ],
+      "lot": 520,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/11943207865",
+      "place": "Moidieu-Détourbe — aire de la Vésonne",
+      "status": "Vienne Condrieu Tourisme : 3 places camping-cars réservées, gratuites, ouvertes toute l’année; aucun service technique listé.",
+      "nextCheck": "Garder trois places gratuites; ne pas annoncer eau, électricité ou vidange.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11943207865",
+        "https://www.vienne-condrieu.com/hotellerie-plein-air/aire-de-stationnement-moidieu-detourbe-la-vesonne-moidieu-detourbe/"
+      ],
+      "lot": 520,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/11943242007",
+      "place": "Estrablin — place de la Tabourette",
+      "status": "Alpes Isère affiche stationnement gratuit et camping-cars autorisés. Calendrier 2026 ouvert du lundi au dimanche mais fermé les jours fériés; fiche mise à jour en décembre 2024.",
+      "nextCheck": "Conserver gratuité affichée; préciser fermeture les jours fériés et demander confirmation du calendrier à la mairie.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11943242007",
+        "https://www.alpes-isere.com/en/sit/aire-de-stationnement-de-la-tabourette-94858/"
+      ],
+      "lot": 520,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/11943259871",
+      "place": "Septème — parking de la salle polyvalente",
+      "status": "Vienne Condrieu Tourisme : 4 places camping-cars réservées gratuites, ouvertes toute l’année; aucun service technique annoncé.",
+      "nextCheck": "Garder quatre places gratuites sans ajouter de services.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11943259871",
+        "https://www.vienne-condrieu.com/hotellerie-plein-air/aire-de-stationnement-de-la-salle-polyvalente-septeme/"
+      ],
+      "lot": 520,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/12135409868",
+      "place": "Cessieu — Pré de Battoir",
+      "status": "Office de tourisme : stationnement gratuit toute l’année, toilettes et aire de pique-nique. Taxe de séjour non incluse, montant non publié.",
+      "nextCheck": "Distinguer taxe et stationnement; obtenir montant et assiette avant d’afficher un total.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12135409868",
+        "https://tourisme-valsdudauphine.fr/je-prepare/hebergements/aires-de-camping-car/434519_aire-de-stationnement-campings-cars-du-pre-de-battoir/"
+      ],
+      "lot": 520,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/12135411948",
+      "place": "La Bâtie-Montgascon — parking du cimetière",
+      "status": "Office de tourisme : stationnement nocturne gratuit toute l’année pour 10 camping-cars. Borne de services à l’eau et vidange située sur le parking distinct du Musée du Tisserand.",
+      "nextCheck": "Ne pas attribuer au parking du cimetière les services du musée.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12135411948",
+        "https://tourisme-valsdudauphine.fr/on-a-teste-pour-vous-en-isere/venez-decouvrir-les-vals-de-dauphine-en-camping-cars/"
+      ],
+      "lot": 520,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/12164935308",
+      "place": "Les Deux Alpes — Venosc, Les Ougiers",
+      "status": "Alpes Isère : stationnement gratuit, aire de pique-nique; vidange à 150 m des emplacements, raccord mâle/mâle requis. Calendrier publié du 01/06/2026 au 01/09/2027, 24 h/24.",
+      "nextCheck": "Conserver la période publiée et distinguer borne distante des emplacements.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12164935308",
+        "https://www.alpes-isere.com/sit/aire-de-camping-car-venosc-les-ougiers-123240/"
+      ],
+      "lot": 520,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/12173548837",
+      "place": "Allemond — aire Point Bleu, lac du Verney",
+      "status": "Oisans Tourisme : jeton 3 € donnant 55 min d’électricité, 10 min d’eau potable et vidange; jetons vendus à l’office. Ouverture 24 h/24 toute l’année 2026. Tarif de stationnement non publié.",
+      "nextCheck": "Garder 3 € comme tarif de service et laisser le stationnement sans tarif confirmé.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12173548837",
+        "https://www.oisans.com/camping/aire-de-camping-car-point-bleu/"
+      ],
+      "lot": 520,
+      "checkedAt": "2026-11-22"
+    }
+  ]
+}
