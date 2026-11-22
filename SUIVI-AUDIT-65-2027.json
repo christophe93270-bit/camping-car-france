@@ -4,15 +4,15 @@
   "displayedCount": 26,
   "rawRegionalRows": 26,
   "deduplicatedRows": 0,
-  "currentLot": 442,
+  "currentLot": 443,
   "department": "65",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 26,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 442 : fiches 1 à 10 contrôlées. Bours 15,67 €, Pierrefitte 16,22 € et Loudenvielle 17,36 € TTC 2027 confirmés; accès Loudenvielle sur réservation du 18/12/2026 au 03/01/2027. Gavarnie 10 €/24 h en saison (1er mai–30 octobre), gratuit hors période. Luz taxe 2027 à confirmer. Cauterets, tarifs affichés à la mairie sous forme d’image et tarif actuel à confirmer. Peyragudes : borne à jetons, pas de prix stationnement établi. Artigues : commune Campan, prix nuitée 2027 à confirmer. Piau-Engaly 22 €/24 h hiver 2026/2027; tarif été distinct à confirmer. Aucune donnée du site modifiée.",
+  "note": "Lot 443 : fiches 11 à 20 contrôlées. Barèmes 2027 TTC confirmés pour Bagnères (12 €), Vielle-Aure (16,72 €), Arreau (15,85 €) et Agos-Vidalos (19 €). Maubourguet : tarif actuel 15,97 €, mais composante de taxe 2027 non publiée. Mauléon-Barousse gratuit pour le stationnement; jetons 3 € électricité/4 h, 5 € vidange + 100 L d’eau. Val Louron : jetons, stationnement sans prix établi. Sainte-Marie-de-Campan gratuit (sources secondaires), à confirmer. Lannemezan/Espace Nébouzan semble fermé ou supprimé, confirmation mairie nécessaire. Tarbes : 8–10 €/nuit, eau 2 €/100 L; tarif 2027 à revalider. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/12085298384",
@@ -127,6 +127,120 @@
       "sources": [
         "https://www.pyrenees2vallees.com/aire-pour-camping-cars/aire-municipale-camping-cars-piau-engaly",
         "https://www.tourisme-hautes-pyrenees.com/offres/aire-municipale-camping-cars-piau-engaly-piau-engaly-aragnouet-fr-4639928/"
+      ]
+    },
+    {
+      "sourceId": "way/331921016",
+      "place": "Maubourguet — CCP l’Échez",
+      "lot": 443,
+      "checkedAt": "2026-11-22",
+      "status": "Prix courant affiché 15,97 €/24 h. Barème publié : base 14,25 € valable jusqu’au 31/12/2027; taxe de séjour 1,72 € affichée seulement jusqu’au 31/12/2026. Le total annuel 2027 n’est donc pas confirmé malgré l’affichage courant.",
+      "nextCheck": "Garder 15,97 € comme tarif actuel; demander à CCP la taxe 2027 avant de présenter un total annuel confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/maubourguet"
+      ]
+    },
+    {
+      "sourceId": "way/891489273",
+      "place": "Mauléon-Barousse — aire municipale",
+      "lot": 443,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme 65 : 6 emplacements, stationnement gratuit. Borne à jetons : 3 € pour 4 h d’électricité; 5 € pour la vidange et 100 L d’eau.",
+      "nextCheck": "Renseigner Mauléon-Barousse, prix gratuit du stationnement et tarification distincte des services; confirmer millésime 2027.",
+      "sources": [
+        "https://www.tourisme-hautes-pyrenees.com/offres/aire-de-camping-cars-mauleon-barousse-mauleon-barousse-fr-4668406/"
+      ]
+    },
+    {
+      "sourceId": "way/891498136",
+      "place": "Génos — aire camping-car de la station Val Louron",
+      "lot": 443,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme du Louron : aire au parking face au hameau Belle Sayette, ouverte toute l’année, borne Euro-Relais; jetons vendus à la station en saison. Aucun prix de stationnement établi.",
+      "nextCheck": "Renseigner Génos/Val Louron; ne pas traiter le prix comme gratuit et vérifier les tarifs des jetons auprès de la station.",
+      "sources": [
+        "https://www.vallee-du-louron.com/fr/commerces-et-services/aire-pour-camping-cars/aire-pour-camping-cars",
+        "https://www.tourisme-hautes-pyrenees.com/offres/aire-pour-camping-cars-val-louron-genos-fr-4639931/"
+      ]
+    },
+    {
+      "sourceId": "way/893921109",
+      "place": "Bagnères-de-Bigorre — CAMPING-CAR PARK",
+      "lot": 443,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif annuel 2027 confirmé : base 10,30 € + taxe de séjour 1,70 € = 12 €/24 h. 28 places; coordonnées et tarif concordent avec la fiche.",
+      "nextCheck": "Aucune correction tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/65-hautes-pyrenees/bagneres-de-bigorre"
+      ]
+    },
+    {
+      "sourceId": "way/893926367",
+      "place": "Campan — aire municipale de Sainte-Marie",
+      "lot": 443,
+      "checkedAt": "2026-11-22",
+      "status": "Le point correspond à l’aire municipale de Sainte-Marie-de-Campan; sources disponibles indiquent stationnement gratuit, eau et vidange, durée maximale de 48 h. Millésime 2027 et services actuels non confirmés par source municipale tarifaire.",
+      "nextCheck": "Renseigner Campan; faire confirmer par la mairie les règles, services et gratuité en vigueur.",
+      "sources": [
+        "https://www.campan.fr/vie-municipale/arretes-et-publications/",
+        "https://spot2play.com/spot/aire-de-camping-car-sainte-marie-de-campan/"
+      ]
+    },
+    {
+      "sourceId": "way/1265622552",
+      "place": "Vielle-Aure — CAMPING-CAR PARK",
+      "lot": 443,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 confirmé : base 15 € + taxe 1,72 € = 16,72 €/24 h; tarif valable jusqu’au 31/12/2027. 10 places.",
+      "nextCheck": "Aucune correction tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/vielle-aure"
+      ]
+    },
+    {
+      "sourceId": "way/1284637917",
+      "place": "Arreau — CAMPING-CAR PARK",
+      "lot": 443,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 confirmé : base 14,13 € + taxe de séjour 1,72 € = 15,85 €/24 h; 32 places. La page signale des travaux hydroélectriques pouvant occasionner des nuisances sonores.",
+      "nextCheck": "Aucune correction tarifaire; conserver l’information travaux si la fiche donne des alertes locales.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/hautes-pyrenees/arreau"
+      ]
+    },
+    {
+      "sourceId": "way/1284640420",
+      "place": "Agos-Vidalos — CAMPING-CAR PARK Le Pibeste",
+      "lot": 443,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif 2027 confirmé : base 17,28 € + taxe 1,72 € = 19 €/24 h; 36 places. L’opérateur indique certains véhicules interdits (vans sans sanitaires, caravanes, voitures avec tente).",
+      "nextCheck": "Mettre à jour les 36 places et les restrictions de véhicules; remplacer la date de tarif.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/france/hautes-pyrenees/agos-le-pibeste"
+      ]
+    },
+    {
+      "sourceId": "way/1310924260",
+      "place": "Lannemezan — ancienne aire Espace Nébouzan / rue du Prat-Darré",
+      "lot": 443,
+      "checkedAt": "2026-11-22",
+      "status": "Le point GPS correspond à l’ancienne aire Espace Nébouzan/Rue Montaigne. Plusieurs sources communautaires signalent l’aire fermée définitivement ou disparue en 2025; prix ancien de 5 €/nuit non fiable. Services et ouverture non confirmés.",
+      "nextCheck": "Ne pas publier comme aire ouverte ni retenir 5 € sans confirmation municipale; contacter la mairie de Lannemezan pour statut et services. Revoir la fiche si l’aire a été supprimée.",
+      "sources": [
+        "https://www.campercontact.com/fr/france/occitanie/lannemezan/1954/espace-nebouzan",
+        "https://www.i-campingcar.fr/aires.php?ville=LANNEMEZAN"
+      ]
+    },
+    {
+      "sourceId": "way/1310928525",
+      "place": "Tarbes — aire de camping-cars, avenue de la Libération",
+      "lot": 443,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme 65 confirme 30 places, fonctionnement toute l’année, eau, électricité, vidanges et poubelles. Prix indiqué : 8–10 €/nuit selon présence d’électricité; eau 2 €/100 L. Tarification détaillée 2027 à revalider.",
+      "nextCheck": "Renseigner Tarbes, adresse 6 avenue de la Libération Août 1944 et les services; indiquer la fourchette de nuitée sans confondre l’eau avec le prix de place.",
+      "sources": [
+        "https://www.tourisme-hautes-pyrenees.com/offres/aire-de-camping-cars-payante-tarbes-fr-4639933/",
+        "https://www.tarbes-tourisme.fr/commerces-services/aire-de-camping-cars-payante-M6511MIP065V5010IW/"
       ]
     }
   ]
