@@ -1,0 +1,137 @@
+{
+  "scope": "Hautes-Alpes (05) : audit des tarifs, services et périodes d’ouverture des fiches de aires-hautes-alpes.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 18,
+  "rawRegionalRows": 18,
+  "deduplicatedRows": 0,
+  "currentLot": 501,
+  "department": "05",
+  "progress": {
+    "checked": 10,
+    "total": 18,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 501 : fiches 1 à 10 vérifiées. Corrections tarifaires confirmées pour Savines-le-Lac, Les Charmettes, Pont-du-Fossé, Chantemerle et CCP Crots. Gap Tokoro/Fontreyne gratuits, avec saison selon gel; Saint-Bonnet eau coupée l’hiver. Crévoux Pré la Font et Le Bez restent à confirmer. Aucune fiche source modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/12222229739",
+      "place": "Crévoux — Pré la Font",
+      "lot": 501,
+      "checkedAt": "2026-11-22",
+      "status": "OSM non vérifié. Des annuaires tiers citent 10 places, eau et vidanges gratuites, mais la commune ne confirme pas les équipements actuels à Pré la Font. Un ancien projet municipal concerne une borne au parking de l’Estomac.",
+      "nextCheck": "Vérifier avec la mairie si la borne est installée, si elle concerne Pré la Font et quels services/tarifs sont en vigueur.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12222229739",
+        "https://mairie.crevoux.fr/projets/installation-dune-borne-camping-cars"
+      ]
+    },
+    {
+      "sourceId": "way/156711151",
+      "place": "Savines-le-Lac — aire Barnafret",
+      "lot": 501,
+      "checkedAt": "2026-11-22",
+      "status": "La commune décrit l’aire sur l’Avenue du Faubourg/RD954 : 18 places, 20 prises 10 A, eau, vidange et tri; accès toute l’année. 12 €/24 h + taxe 0,60 €/personne/nuit; vidange + eau seuls 5 €, carte bancaire.",
+      "nextCheck": "Confirmer sur la carte que le way OSM Barnafret correspond à l’aire municipale; différencier forfait nuitée et service seul.",
+      "sources": [
+        "https://www.openstreetmap.org/way/156711151",
+        "https://www.savines-le-lac.fr/hebergements/aire-stationnement-camping-savines-lac"
+      ]
+    },
+    {
+      "sourceId": "way/195760449",
+      "place": "Le Monêtier-les-Bains — Les Charmettes",
+      "lot": 501,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche touristique Serre Chevalier : ouvert toute l’année; borne eau 2 €/10 min; forfait nuitée avec eau + électricité 15 € (1–2 nuits), 12 € (3–4), 9 € à partir de 5 nuits. Carte bancaire/sans contact.",
+      "nextCheck": "Compléter la fiche avec commune, eau et tarifs progressifs; conserver distinct le tarif de la borne et celui de la nuitée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/195760449",
+        "https://www.serre-chevalier.com/fr/hebergements/campings/aire-service-camping-charmettes"
+      ]
+    },
+    {
+      "sourceId": "way/307584656",
+      "place": "Gap — aire du rond-point Tokoro",
+      "lot": 501,
+      "checkedAt": "2026-11-22",
+      "status": "Ville de Gap : aire municipale gratuite avec lavage, vidange et remplissage d’eau; ouverture selon le gel, généralement d’avril à octobre.",
+      "nextCheck": "Compléter prix, services et saison; ne pas ajouter d’électricité; maintenir distincte de Fontreyne.",
+      "sources": [
+        "https://www.openstreetmap.org/way/307584656",
+        "https://www.ville-gap.fr/aires-de-camping-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/391251460",
+      "place": "La Salle-les-Alpes — parking camping-car Le Bez",
+      "lot": 501,
+      "checkedAt": "2026-11-22",
+      "status": "Commune/exploitant et tarif restent non confirmés. OSM signale électricité; des annuaires secondaires suggèrent une aire privée mais sans grille officielle actuelle.",
+      "nextCheck": "Vérifier accès, exploitant, adresse, capacité et présence réelle de l’électricité avant toute mise à jour.",
+      "sources": [
+        "https://www.openstreetmap.org/way/391251460"
+      ]
+    },
+    {
+      "sourceId": "way/713874193",
+      "place": "Saint-Jean-Saint-Nicolas — aire du Châtelard, Pont-du-Fossé",
+      "lot": 501,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 50 places dont 10 avec électricité, eau et vidange; séjour limité à 7 nuitées. 12 €/jour eau+électricité; vidange 3 h 5 €. Ouverture du 01/04 au 17/11/2026 selon météo; actuellement hors saison.",
+      "nextCheck": "Compléter tarifs, capacité et services; signaler fermeture au 22/11/2026 et confirmer les dates 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/713874193",
+        "https://www.champsaur-valgaudemar.com/offres/aire-de-camping-car-du-chatelard-saint-jean-saint-nicolas-fr-2261411/"
+      ]
+    },
+    {
+      "sourceId": "way/911863998",
+      "place": "Gap — aire du stade nautique de Fontreyne",
+      "lot": 501,
+      "checkedAt": "2026-11-22",
+      "status": "Ville de Gap : aire municipale gratuite avec lavage, vidange et remplissage d’eau; ouverture selon le gel, généralement d’avril à octobre.",
+      "nextCheck": "Compléter prix, services et saison; ne pas ajouter d’électricité.",
+      "sources": [
+        "https://www.openstreetmap.org/way/911863998",
+        "https://www.ville-gap.fr/aires-de-camping-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/911868730",
+      "place": "Saint-Bonnet-en-Champsaur — aire de camping-car",
+      "lot": 501,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 10 places goudronnées; eau et vidange gratuites, eau coupée en hiver; ouvert toute l’année 2026. Pas de tarif de nuitée explicité.",
+      "nextCheck": "Compléter capacité/services/coupure hivernale; ne pas marquer la nuitée gratuite sans confirmation explicite.",
+      "sources": [
+        "https://www.openstreetmap.org/way/911868730",
+        "https://www.champsaur-valgaudemar.com/offres/aire-de-camping-car-de-st-bonnet-saint-bonnet-en-champsaur-fr-2776457/"
+      ]
+    },
+    {
+      "sourceId": "way/914141866",
+      "place": "Saint-Chaffrey — P5 / aire de service de Chantemerle",
+      "lot": 501,
+      "checkedAt": "2026-11-22",
+      "status": "La fiche officielle Route des Queyrets semble correspondre au point OSM. Parking gratuit, environ 40 places, maximum 48 h, eau et vidange, sans électricité; eau 3 €/20 min.",
+      "nextCheck": "Confirmer la concordance GPS; si confirmé, retirer l’électricité OSM et ajouter limite, gratuité du parking et tarif d’eau.",
+      "sources": [
+        "https://www.openstreetmap.org/way/914141866",
+        "https://www.serre-chevalier.com/fr/hebergements/campings/aire-service-camping-chantemerle"
+      ]
+    },
+    {
+      "sourceId": "way/985639454",
+      "place": "Crots — CAMPING-CAR PARK, plage de Chanterenne",
+      "lot": 501,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 13 €/24 h du 20/11/2026 au 31/12/2027; taxe 1,32 €/24 h publiée pour 2026 et 2027; total 14,32 €. Parking 5 h + services 6 €. GPS officiel identique à la fiche.",
+      "nextCheck": "Corriger la date de début du tarif au 20/11/2026; garder total 14,32 € pour 2026/2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/985639454",
+        "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/hautes-alpes/crots"
+      ]
+    }
+  ]
+}
