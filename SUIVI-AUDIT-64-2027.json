@@ -1,0 +1,133 @@
+{
+  "scope": "Pyrénées-Atlantiques (64) : vérification tarifaire et statutaire des 39 fiches déjà présentes dans aires-pyrenees-atlantiques.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 39,
+  "rawRegionalRows": 39,
+  "deduplicatedRows": 0,
+  "currentLot": 438,
+  "department": "64",
+  "progress": {
+    "checked": 10,
+    "total": 39,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 438 : fiches 1 à 10 des Pyrénées-Atlantiques contrôlées. Tarifs officiels observés : ferme Agerria gratuite (référentiel 2026), Aitxinea gratuite 2026, Saint-Palais/Arzacq/Garlin gratuites 2026; CCP Hendaye Ville 12 € TTC 2027, Saint-Pée 13,72 € TTC 2027. Taxes 2027 Montfort à confirmer. Aire Lhers : tarif saison 2026, commune Accous à renseigner. Aucune donnée applicative modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/7803967951",
+      "place": "Saint-Martin-d’Arberoue — ferme Agerria",
+      "lot": 438,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme 64 : ferme ouverte à l’année, 20 emplacements, stationnement gratuit; eau, électricité et vidanges disponibles. Coordonnées publiées dans la fiche tourisme diffèrent fortement du point OSM : les coordonnées doivent être confirmées avec la ferme.",
+      "nextCheck": "Confirmer les coordonnées d’accès auprès des gestionnaires; renouveler le tarif 2027, les références tarifaires consultées sont millésimées 2026.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/saint-martin-darberoue/ACCAMAQU064V59U6V4-aire-de-camping-car-de-la-ferme-agerria/",
+        "https://www.en-pays-basque.fr/sit/aire-de-camping-car-de-la-ferme-agerria-2/"
+      ]
+    },
+    {
+      "sourceId": "node/8222878357",
+      "place": "Sauveterre-de-Béarn — aire de stationnement du fronton",
+      "lot": 438,
+      "checkedAt": "2026-11-22",
+      "status": "Commune à renseigner : Sauveterre-de-Béarn. Parking du Fronton/Avenue Jean Récapet : 6 places, stationnement gratuit en 2026. À distinguer de l’aire de services de l’Avenue de Salies/Parking du Judo, elle aussi répertoriée séparément et gratuite pour l’eau et la vidange.",
+      "nextCheck": "Distinguer clairement stationnement de nuit et point de services dans les fiches; vérifier millésime 2027.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/sauveterre-de-bearn/ACCAMAQU0640000R-aire-de-stationnement-de-sauveterre-de-bearn/",
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/sauveterre-de-bearn/ACCAMAQU06400023-aire-de-service-de-sauveterre-de-bearn/"
+      ]
+    },
+    {
+      "sourceId": "node/11013912641",
+      "place": "Idaux-Mendy — ferme Aitxinea / Atxinea",
+      "lot": 438,
+      "checkedAt": "2026-11-22",
+      "status": "La fiche tourisme identifie l’aire agricole Ferme Aitxinea (12 places, électricité possible, stationnement gratuit en 2026). Les coordonnées concordent avec le point OSM, malgré l’adresse administrative Mauléon-Licharre affichée dans le descriptif.",
+      "nextCheck": "Confirmer avec la ferme le tarif 2027 et le nom à retenir (Aitxinea/Atxinea); tarif actuellement documenté en 2026.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/mauleon-licharre/ACCAMAQU064V54CDBU-aire-de-stationnement-ferme-aitxinea/"
+      ]
+    },
+    {
+      "sourceId": "node/12099384088",
+      "place": "Saint-Palais — parking public salle Airetik",
+      "lot": 438,
+      "checkedAt": "2026-11-22",
+      "status": "Commune à renseigner : Saint-Palais. Tourisme 64 indique stationnement gratuit jour et nuit, sans limite de durée, sur le parking Airetik. Borne eau/vidange située à l’arrière du second bâtiment du marché couvert; inaccessible le vendredi matin pendant le marché.",
+      "nextCheck": "Confirmer les règles et services pour 2027; ne pas attribuer de tarif de nuitée à la borne.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/saint-palais/ACCAMAQU064V5054EJ-aire-de-stationnement-de-saint-palais/"
+      ]
+    },
+    {
+      "sourceId": "node/12099501272",
+      "place": "Garlin — aire communale Place du Marcadieu",
+      "lot": 438,
+      "checkedAt": "2026-11-22",
+      "status": "Commune à renseigner : Garlin. Tourisme 64 : 2 emplacements, stationnement gratuit, libre accès toute l’année; fiche annonce également 2027. Services listés : eau, électricité et vidanges.",
+      "nextCheck": "Aucune correction tarifaire à ce jour; confirmer fonctionnement des équipements et services en 2027.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/garlin/ACCAMAQU064V500ZFD-aire-de-camping-car-de-garlin/"
+      ]
+    },
+    {
+      "sourceId": "node/12228151107",
+      "place": "Arzacq-Arraziguet — aire Place du Marcadieu",
+      "lot": 438,
+      "checkedAt": "2026-11-22",
+      "status": "Commune à renseigner : Arzacq-Arraziguet. Tourisme 64 : 20 places, ouverte toute l’année 2026, stationnement et services gratuits; eau, sanitaires et vidanges.",
+      "nextCheck": "Confirmer la continuité du tarif gratuit en 2027; la publication officielle consultée est millésimée 2026.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/arzacq-arraziguet/ACCAMAQU0640000D-aire-de-camping-cars-darzacq-arraziguet/"
+      ]
+    },
+    {
+      "sourceId": "node/12246291686",
+      "place": "Montfort — CAMPING-CAR PARK",
+      "lot": 438,
+      "checkedAt": "2026-11-22",
+      "status": "Commune à renseigner : Montfort. Page opérateur : ouverte, 24 places; base saisonnière 12,73 €/24 h jusqu’au 31/12/2027, taxe de séjour 1,44 € publiée jusqu’au 31/12/2026. L’annuaire affiche 14,17 € actuellement.",
+      "nextCheck": "Confirmer taxe de séjour 2027 avant de valider 14,17 € TTC pour 2027; prix de base 2027 confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/montfort",
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/montfort/ACCAMAQU064V5BIYFT-aire-de-camping-car-de-montfort/"
+      ]
+    },
+    {
+      "sourceId": "node/14277549946",
+      "place": "Hendaye — CAMPING-CAR PARK « L’École de Hendaye Ville »",
+      "lot": 438,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif 2027 confirmé : 12 €/24 h + taxe 0 €. Aire indiquée ouverte avec 10 places dans la sélection officielle; accès seulement week-ends, jours fériés et vacances scolaires, réservation obligatoire, aucun service. L’annuaire départemental avait une indication contradictoire de fermeture temporaire.",
+      "nextCheck": "Conserver les restrictions d’accès et la réservation obligatoire; signaler à CCP l’annuaire qui porte encore une fermeture contradictoire.",
+      "sources": [
+        "https://www.campingcarpark.com/pt_PT/estadias-autocaravanas/nouvelle-aquitaine/pyrenees-atlantiques/hendaye-ville",
+        "https://www.campingcarpark.com/fr_FR/selections-touristiques/hauts-lieux-touristiques/camping-car-a-lecole-des-etapes-au-coeur-des-villes"
+      ]
+    },
+    {
+      "sourceId": "way/66897750",
+      "place": "Accous — aire de camping-cars du Plateau de Lhers",
+      "lot": 438,
+      "checkedAt": "2026-11-22",
+      "status": "Commune à renseigner : Accous. Aire saisonnière du 03/04 au 31/10/2026, 20 places. Tarif 2026 : 11 €/nuit sans électricité ou 16 €/nuit avec électricité pour 2 personnes; personne supplémentaire 3,50 €. Saison 2027 non publiée.",
+      "nextCheck": "Confirmer les dates d’ouverture et tarifs 2027 avec le gestionnaire; tenir compte de l’accès de montagne et de la saison limitée.",
+      "sources": [
+        "https://www.pyrenees-bearnaises.com/offres/aire-de-camping-cars-de-lhers-accous-fr-2194667/",
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/accous/ACCAMAQU0640001J-aire-de-camping-cars-de-lhers/"
+      ]
+    },
+    {
+      "sourceId": "way/67174963",
+      "place": "Saint-Pée-sur-Nivelle — CAMPING-CAR PARK",
+      "lot": 438,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 complet : base 12 €/24 h + taxe 1,72 € = 13,72 €. Page opérateur indique l’aire ouverte toute l’année; le point OSM est à environ 110 m des coordonnées officielles.",
+      "nextCheck": "Aucune correction tarifaire; ajuster éventuellement le point GPS à la position officielle (43.349458, -1.521374).",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/saint-pee-sur-nivelle?areaType=area-de-etapa-autocaravanas"
+      ]
+    }
+  ]
+}
