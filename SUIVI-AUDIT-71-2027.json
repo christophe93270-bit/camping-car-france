@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 471,
+  "currentLot": 472,
   "department": "71",
   "progress": {
-    "checked": 110,
+    "checked": 120,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 471 : fiches 101 à 110 contrôlées. Tournus : grille officielle 2026, emplacement 11/13 €, électricité 5,50 €, taxe 0,50 €/adulte; 80 places totales dont 36 stabilisées. Sornay : gratuit 48 h, borne déclarée hors service. Au Bon Endroit : tarif touristique 20–55 € contre 19 € sur la fiche, fermeture annoncée au 27 ou 30/09. Park & Grill : 18–20 €/jour, saison 2026 terminée. Moulin de Collonge : tarifs secondaires contradictoires, prix laissé à confirmer. Saint-Sernin-du-Plain : capacité, gratuité et équipements non confirmés officiellement. La Motte aux Merles : grille 2026 secondaire. Mare de Roy : grille officielle mise à jour le 03/05/2026, emplacement 8/18 € selon période, personnes/options séparées. Saint-Ythaire : guide 2023, pas de tarif ni service sur place publié. Aucune donnée du site modifiée.",
+  "note": "Lot 472 : fiches 111 à 120 contrôlées. Ouroux-sur-Saône : stationnement gratuit/48 h dans répertoire spécialisé, services et électricité à confirmer. Vallée des Vaux : tarif 2026 absent. Épervière : 160 emplacements total, saison 2026 du 01/04 au 26/09; pas de grille statique relevée. Pierreclos : gratuité/services par sources non officielles à confirmer. Solutré : camping-cars admis de jour au P2, pas de camping/nuitée; parking exact à distinguer. Acro’Bath : aucun service ni tarif confirmé, borne proche à Cluny. La Bonne Vie : dates opérateur 03/04–28/09 contre fiche tourisme au 27/09; capacité 15/22, prix dynamique. Village des Meuniers : prix départ 20 €/nuit, non forfait CC; capacité publiée divergente. Ferme de la Tour : tarif/capacité connus seulement par fiche ancienne 2021 (10 emplacements totaux, libellé tarifaire ambigu). Châteauneuf : eau/vidange confirmées; gratuité/limite 3 jours anciennes à revalider. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -1215,6 +1215,118 @@
       "nextCheck": "Revalider accès, tarif et équipements auprès de la mairie; ne pas attribuer le service de Salornay à ce parking.",
       "sources": [
         "https://www.cluny-tourisme.com/app/uploads/2023/02/guide-camping-car-2023.pdf"
+      ]
+    },
+    {
+      "place": "Aire municipale de camping-car d’Ouroux-sur-Saône",
+      "lot": 472,
+      "checkedAt": "2026-11-22",
+      "status": "Répertoire spécialisé : stationnement gratuit, limité à 48 h. État/tarif des services incertain entre sources ou dates; pas de confirmation municipale récente.",
+      "nextCheck": "Confirmer à la mairie gratuité, durée et état des services; ne pas garantir l’électricité.",
+      "sources": [
+        "https://www.i-campingcar.fr/aires.php?ville=OUROUX+SUR+SAONE",
+        "https://www.ouroux-sur-saone.fr/static/e2a586b91854dd5793c990c2b76465d0/ouroux-minimal-final1.pdf"
+      ]
+    },
+    {
+      "place": "Camping municipal La Vallée des Vaux",
+      "lot": 472,
+      "checkedAt": "2026-11-22",
+      "status": "Camping municipal répertorié; fiche tourisme indique l’évacuation des eaux usées. Pas de tarif 2026 exploitable ni de capacité camping-car confirmée.",
+      "nextCheck": "Demander tarifs 2026/2027, capacité et équipements en service à la mairie.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-municipal-saint-jean-de-vaux.html"
+      ]
+    },
+    {
+      "place": "Castel-Camping Château de l’Épervière",
+      "lot": 472,
+      "checkedAt": "2026-11-22",
+      "status": "Site officiel : 160 emplacements pour tentes, caravanes et camping-cars, avec emplacements stabilisés; Grand Confort inclut 10 A, eau et évacuation. Les Castels annonce saison 2026 du 01/04 au 26/09; tarif 2026 officiel statique non retrouvé.",
+      "nextCheck": "Demander/extraire la grille officielle 2026 ou 2027 avant de saisir un prix; ne pas supposer 160 places dédiées aux camping-cars.",
+      "sources": [
+        "https://www.domaine-eperviere.com/",
+        "https://www.les-castels.com/camping/les-castels-chateau-de-leperviere"
+      ]
+    },
+    {
+      "place": "Aire de services et de stationnement camping-car de Pierreclos",
+      "lot": 472,
+      "checkedAt": "2026-11-22",
+      "status": "Guide touristique local : aire près de la mairie, stationnement libre; des répertoires récents rapportent gratuité/services mais preuve municipale actuelle manquante.",
+      "nextCheck": "Vérifier borne, services et gratuité auprès de la mairie.",
+      "sources": [
+        "https://www.tourismevertsvallons.com/uploads/images/pratique/brochures-pdf/Guide%20des%20h%C3%A9bergements%202021.pdf",
+        "https://www.i-campingcar.fr/aires.php?ville=PIERRECLOS"
+      ]
+    },
+    {
+      "place": "Parking Panorama de Solutré-Pouilly",
+      "lot": 472,
+      "checkedAt": "2026-11-22",
+      "status": "Grand Site : camping-cars bienvenus en journée sur parking P2 de la Roche; camping/nuitée interdits. Destination 71 signale le parking Roche non accessible aux camping-cars, à réconcilier avec emplacement exact.",
+      "nextCheck": "Identifier le parking exact de la fiche; ne pas annoncer de nuitée ni d’accès si ce n’est pas P2.",
+      "sources": [
+        "https://rochedesolutre.com/preparez-votre-visite/camping-camping-car-ot/",
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/parking-de-la-roche-de-solutre.html"
+      ]
+    },
+    {
+      "place": "Parking camping-car du parc de loisirs Acro’Bath",
+      "lot": 472,
+      "checkedAt": "2026-11-22",
+      "status": "Guide Cluny : point de services le plus proche à Cluny; aucun tarif ni service technique sur le parking Acro’Bath confirmé.",
+      "nextCheck": "Garder tarif et services non publiés; clarifier l’accès/nuitée si requis.",
+      "sources": [
+        "https://www.cluny-tourisme.com/app/uploads/2023/02/guide-camping-car-2023.pdf",
+        "https://acro-bath.com/"
+      ]
+    },
+    {
+      "place": "Village Vacances La Bonne Vie — emplacements camping-car",
+      "lot": 472,
+      "checkedAt": "2026-11-22",
+      "status": "Site opérateur : emplacements camping-car, ouverture 03/04–28/09/2026; Destination 71 fermeture 27/09. Capacité diffère selon pages, 15 vs 22 emplacements; tarif via réservation dynamique, non confirmé statiquement.",
+      "nextCheck": "Demander tarif 2026/2027 et capacité exacte; clarifier la fermeture entre 27 et 28 septembre.",
+      "sources": [
+        "https://www.camping-labonnevie.com/",
+        "https://www.camping-labonnevie.com/tarifs",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-village-vacances-la-bonne-vie.html"
+      ]
+    },
+    {
+      "place": "Camping Village des Meuniers",
+      "lot": 472,
+      "checkedAt": "2026-11-22",
+      "status": "Commune : ouverture 30/04–06/09/2026 et emplacements à partir de 20 €/nuit. Prix de départ, pas forfait camping-car confirmé. Capacités publiées 54/76/123 selon les pages.",
+      "nextCheck": "Ne pas présenter 20 € comme un forfait camping-car; demander prix et capacité exacte dédiée.",
+      "sources": [
+        "https://www.dompierrelesormes.fr/detail-offre/hebergements/Le-Village-des-Meuniers_HPABOU071142447_196",
+        "https://www.villagedesmeuniers.com/",
+        "https://www.saintpierrelevieux71.fr/annuaire/542/188/LE-VILLAGE-DES-MEUNIERS"
+      ]
+    },
+    {
+      "place": "Camping à la ferme La Ferme de la Tour — Michel Maillet",
+      "lot": 472,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche touristique 2021 : 10 emplacements au total, ouvert Pâques–Toussaint, nuitée 10 €/pers et adulte 8 €/jour (libellé ambigu). La capacité 2 places camping-car de la fiche d’origine n’est pas confirmée.",
+      "nextCheck": "Reconfirmer tarif et capacité dédiée directement; considérer la grille publique comme ancienne et ne pas attribuer 10 places aux seuls camping-cars.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-la-ferme-de-la-tour.html",
+        "https://www.tourismecharolaisbrionnais.fr/campings/camping-la-ferme-de-la-tour-HPABOU071V505JSQ.html"
+      ]
+    },
+    {
+      "place": "Aire de service camping-car de Châteauneuf",
+      "lot": 472,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme point d’eau potable et évacuation eaux usées. Gratuité des services et limite de 3 jours viennent d’une source 2023; actualité non confirmée.",
+      "nextCheck": "Confirmer prix et état de la borne auprès de la mairie; conserver attribution/date du chiffre ancien de 3 jours.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-12",
+        "https://www.tourisme-sudbrionnais.fr/aires-de-camping-car.html",
+        "https://www.camping-car.com/aires/"
       ]
     }
   ]
