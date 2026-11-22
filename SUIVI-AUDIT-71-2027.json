@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 469,
+  "currentLot": 470,
   "department": "71",
   "progress": {
-    "checked": 90,
+    "checked": 100,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 469 : fiches 81 à 90 contrôlées. Lugny : eau/vidange rue de la Folie; aire complémentaire près du camping avec stationnement/eau/vidange/lavage mais sans GPS distinct, ne pas fusionner sans position. Azé Grottes : tarifs 2026 électrifié 17–26 €/j, avec assainissement 36 €/j; date source ouverture malformée « 28/0/2026 »; 70 places totales, saison terminée. Savigny-sur-Grosne : 22 €/nuit standard jusqu’à 5 m, 25 € grand véhicule, prix d’appel, saison finie. Verosvres : 5,50 €/24h; jeton électricité au tarif non publié. Prissé : 5 places et 24h max, eau/vidange, prix non publié. La Guiche : 6 places et services, guide 2025 sans tarif. Laives : 20 €/nuit affiché, jusqu’à 7m; 7 places camping-car/caravane, à distinguer des 85 emplacements totaux. Cormatin : grille CampingFrance 2026 22 €/jour + adulte6,50/enfant4,50/animal2; électricité non éclaircie; capacités globales contradictoires 53/55/65. Gergy : exploitant affiche adulte4,50 enfant3,20 emplacement6,20 électricité4 tax séjour0,20 animal1 parking itinérant2,80; année non indiquée, capacité totale30 seulement. Charbonnat : 3 places, gratuit, toute année. Aucune donnée du site modifiée.",
+  "note": "Lot 470 : fiches 91 à 100 contrôlées. La Clé de Saône : tarifs camping 2026 pour 2, basse saison 15,50 € sans électricité/19,90 € avec; haute 21,50/26,50; saison terminée. Le Paroy : site affiche actuellement 19,70 € basse /23,70 € haute par nuit, 1 personne avec électricité, adulte 6/7 €, mais grille sans année et détails de taxes ambigus; diffère de tarifs 20,20/23,20 en fiche. Saint-Point : 19–40 €/jour emplacement électrifié, saison jusqu’au 26/09/2026, fermée. Estefana : grille 2026 22 €/nuit, 2 adultes+1 enfant, suppléments adultes5/enfant3/élec4/animal2, saison terminée. Le Barrage : 2026 15 € sans électricité/20 € avec, animal2,50, saison terminée. Pont Vert : tarifs 2026 saisonniers 12,50/17, 14,50/19, 15,50/21 €, taxe séjour0,50 adulte. Saint-Vital : 2026 12,50–28 € électrifié, 9,50–26 € non, animal3 €, 171 places totales; saison terminée. Chevrette : prix 2026 non trouvé, ne pas reprendre tiers 24,50. Pâquier Fané : ACSI périodes 2026 mais montant caché; capacité site actuel 89 vs Destination 103. Chaintré : 1 place, 24h, tarifs services non publiés. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -1006,6 +1006,108 @@
       "nextCheck": "Garder 3 places/gratuité/saison annualisée selon l’office.",
       "sources": [
         "https://www.autun-tourisme.com/offres/aire-de-service-pour-les-campings-cars-charbonnat-fr-3456720/"
+      ]
+    },
+    {
+      "place": "Crêches-sur-Saône — Camping La Clé de Saône",
+      "lot": 470,
+      "checkedAt": "2026-11-22",
+      "status": "Office tourisme Beaujolais : tarif 2026 2 personnes, basse 15,50 €/jour sans électricité ou 19,90 € avec, haute 21,50/26,50; saison 15/05–04/10/2026 terminée.",
+      "nextCheck": "Garder millésime 2026; confirmer 2027 avant affichage courant.",
+      "sources": [
+        "https://www.beaujolais-tourisme.com/hebergements-lisiting-beaujolais/camping-la-cle-de-saone-41054.html?rechercher=1"
+      ]
+    },
+    {
+      "place": "La Tagnière — Camping Le Paroy",
+      "lot": 470,
+      "checkedAt": "2026-11-22",
+      "status": "Site exploitant sans millésime visible : 19,70 €/nuit basse saison et 23,70 € haute pour 1 personne, électricité 10A incluse; adulte sup. 6/7 €. Détails taxes (1,20 inclus vs 0,20 +1 par personne) à clarifier. Diffère fiche site (20,20/23,20).",
+      "nextCheck": "Obtenir année de validité et total taxes de l’exploitant; ne pas conserver grilles contradictoires comme prix confirmés.",
+      "sources": [
+        "https://campingleparoy.com/fr/pitch/"
+      ]
+    },
+    {
+      "place": "Saint-Point — Camping du Lac Saint-Point Lamartine",
+      "lot": 470,
+      "checkedAt": "2026-11-22",
+      "status": "Office tourisme : emplacements électrifiés 19–40 €/jour; aire de service interne au camping, saison 03/04–26/09/2026 terminée.",
+      "nextCheck": "Garder tarif et période 2026; reconfirmer 2027; ne pas en faire tarif de borne de passage.",
+      "sources": [
+        "https://www.tourismevertsvallons.com/detail-offre/hebergements/Camping-du-Lac_HPABOU071142489_156"
+      ]
+    },
+    {
+      "place": "Chambilly — Camping Estefana",
+      "lot": 470,
+      "checkedAt": "2026-11-22",
+      "status": "CampingFrance : tarifs 2026 22 €/nuit forfait 2 adultes+1 enfant, sup. adulte5 €, enfant3 €, électricité4 €, animal2 €. Saison 01/06–11/10/2026 terminée; 15 places = camping global.",
+      "nextCheck": "Conserver grille datée et détails du forfait; capacité camping-car dédiée à ne pas déduire.",
+      "sources": [
+        "https://www.campingfrance.com/recherchez-votre-camping/bourgogne-franche-comte/saone-et-loire/chambilly/lestefana"
+      ]
+    },
+    {
+      "place": "Charnay-lès-Chalon — Camping Le Barrage",
+      "lot": 470,
+      "checkedAt": "2026-11-22",
+      "status": "Office Saône Doubs Bresse : emplacement 2026 15 €/jour sans électricité, 20 € avec, animal2,50 €/jour; 50 places totales. Saison jusqu’au 31/10/2026 terminée.",
+      "nextCheck": "Conserver tarifs millésimés et distinguer capacité globale; tarifs 2027 à confirmer.",
+      "sources": [
+        "https://en.saonedoubsbressetourisme.fr/accomodations/camping-le-barrage.html"
+      ]
+    },
+    {
+      "place": "Épinac — Camping du Pont Vert",
+      "lot": 470,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant grille saison 2026 : forfait 1 personne + véhicule, 12,50/17 € basse, 14,50/19 € moyenne, 15,50/21 € haute (sans/avec électricité), taxe séjour 0,50 €/adulte/nuit.",
+      "nextCheck": "Garder les tranches avec millésime et taxe séparée; vérifier dates et 2027.",
+      "sources": [
+        "https://www.campingdupontvert-epinac.com/tarifs"
+      ]
+    },
+    {
+      "place": "Cluny — Camping Saint-Vital",
+      "lot": 470,
+      "checkedAt": "2026-11-22",
+      "status": "Cluny Tourisme : emplacements 2026 12,50–28 €/jour électrifié et 9,50–26 € non électrifié; animal 3 €/nuit; ouverture 03/04–04/10/2026. 171 emplacements totaux, tous types confondus.",
+      "nextCheck": "Compléter la fourchette tarifaire avec millésime; ne pas confondre camping et aire Georges Malère.",
+      "sources": [
+        "https://www.cluny-tourisme.com/campings/camping-saint-vital/",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-saint-vital.html"
+      ]
+    },
+    {
+      "place": "Digoin — Camping de la Chevrette",
+      "lot": 470,
+      "checkedAt": "2026-11-22",
+      "status": "Office tourisme confirme camping-car accepté et aire de service; grille 2026 téléchargeable mais aucun montant exploitable. 81 places générales, pas capacité camping-car dédiée. Prix tiers 24,50 €/nuit non confirmé.",
+      "nextCheck": "Garder prix non confirmé; contacter exploitant, ne pas reprendre tarif tiers.",
+      "sources": [
+        "https://tourisme.legrandcharolais.fr/campings/camping-de-la-chevrette-HPABOU071142439.html"
+      ]
+    },
+    {
+      "place": "Chagny — Camping Le Pâquier Fané",
+      "lot": 470,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant confirme carte ACSI 02/04–05/07 et 24/08–15/10; montant appliqué sur place, non publié dans la page. Capacité actuelle du site 89 places vs 103 fiche Destination 71.",
+      "nextCheck": "Résoudre capacité globale 89/103; demander montant ACSI et grille actuelle.",
+      "sources": [
+        "https://www.campingchagny.com/fr-fr/camping-chagny-contact-acces",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-le-paquier-fane.html"
+      ]
+    },
+    {
+      "place": "Chaintré — rue des Murs",
+      "lot": 470,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : une place, durée maximum 24h; eau, électricité et vidange signalées, sans tarif chiffré.",
+      "nextCheck": "Garder 1 place et 24h; confirmer tarifs des services, ne pas inférer gratuité.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-4"
       ]
     }
   ]
