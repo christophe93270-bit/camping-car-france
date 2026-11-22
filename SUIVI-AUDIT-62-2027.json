@@ -4,15 +4,15 @@
   "displayedCount": 23,
   "rawRegionalRows": 23,
   "deduplicatedRows": 0,
-  "currentLot": 430,
+  "currentLot": 431,
   "department": "62",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 23,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 430 : fiches 1 à 10 contrôlées. Tarifs 2027 explicitement publiés par Camping-Car Park pour Frévent, Calais, Richebourg, Brimeux et Merlimont. Wissant, Boulogne-sur-Mer, Berck et le Parking des Sternes nécessitent une validation 2027; le prix de l'aire du Patis n'est pas publié. Brimeux est signalée temporairement inaccessible pour risque d'inondation. Aucune fiche applicative modifiée.",
+  "note": "Lot 431 : fiches 11 à 20 contrôlées. Tarifs 2027 publiés pour Avion, Saint-Omer et Bapaume. Watten est géographiquement dans le Nord (59) et l’ancienne aire de Cucq a été supprimée. L’identité de l’aire des Glissoires doit être réconciliée avec l’aire CCP d’Avion; à Saint-Omer, le tarif saisonnier 2027 (12 € + taxe 0,80 €) diffère de 0,20 € de l’affichage courant. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
   "entries": [
     {
       "sourceId": "node/14276755486",
@@ -127,6 +127,117 @@
       "nextCheck": "Tarif 2027 confirmé; les services associés ne sont pas renseignés dans le fichier départemental.",
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/merlimont"
+      ]
+    },
+    {
+      "sourceId": "way/1095654755",
+      "place": "Arras — aire de la Vallée de la Scarpe",
+      "lot": 431,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 12 €/24 h avec services + taxe de séjour 0,60 €/personne; 5 h + services 5,50 €. Tarif 2027 non explicitement daté.",
+      "nextCheck": "Confirmer le barème et la taxe 2027 auprès de l’office/gestionnaire.",
+      "sources": [
+        "https://www.arraspaysdartois.com/"
+      ]
+    },
+    {
+      "sourceId": "way/1183018324",
+      "place": "Avion — aire des Glissoires / Ch’ ti Parc",
+      "lot": 431,
+      "checkedAt": "2026-11-22",
+      "status": "Camping-Car Park confirme l’aire d’Avion à proximité du Parc de la Glissoire : 12 €/24 h jusqu’au 31/03/2027, 13,80 € du 01/04 au 31/10/2027, puis 12 €; taxe 1,10 €, service 5 h 6 €. Point OSM proche mais identité avec l’ancienne aire municipale à vérifier.",
+      "nextCheck": "Vérifier si ce point correspond à la nouvelle aire CCP ou à l’aire municipale temporairement fermée avant toute fusion.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/avion"
+      ]
+    },
+    {
+      "sourceId": "way/1280868183",
+      "place": "Aire-sur-la-Lys — aire municipale",
+      "lot": 431,
+      "checkedAt": "2026-11-22",
+      "status": "L’Office de tourisme confirme 10 places, équipements et stationnement payant; montant non publié. 15 €/nuit relevé sur une source secondaire, non confirmé par la mairie.",
+      "nextCheck": "Demander le tarif 2027 au camping municipal/à la mairie; ne pas valider le montant secondaire.",
+      "sources": [
+        "https://www.tourisme-saintomer.com/sejourner/ou-dormir/aire-de-camping-car-aire-sur-la-lys-aire-sur-la-lys-fr-4308384/"
+      ]
+    },
+    {
+      "sourceId": "way/1285667924",
+      "place": "Saint-Omer — aire CAMPING-CAR PARK",
+      "lot": 431,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif opérateur 2027 : 12 €/24 h + taxe 0,80 € = 12,80 €; parking 5 h + services 6 €. Affichage actuel à 13 €/24 h crée un écart de 0,20 €. Borne de services actuellement indisponible.",
+      "nextCheck": "Vérifier l’écart entre le prix saisonnier et l’affichage TTC avant correction du total de la fiche; tenir compte de la borne indisponible.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/saint-omer"
+      ]
+    },
+    {
+      "sourceId": "way/1314532547",
+      "place": "Marck — Ferme des Aigrettes",
+      "lot": 431,
+      "checkedAt": "2026-11-22",
+      "status": "Source spécialisée : 8,60 €/24 h, électricité incluse, stationnement limité à 48 h; source communautaire, pas de confirmation municipale.",
+      "nextCheck": "Confirmer tarif 2027 auprès de la mairie/du gestionnaire.",
+      "sources": [
+        "https://www.i-campingcar.fr/aires.php?ville=MARCK"
+      ]
+    },
+    {
+      "sourceId": "way/1314547187",
+      "place": "Watten — aire camping-cars (fiche classée dans le 62)",
+      "lot": 431,
+      "checkedAt": "2026-11-22",
+      "status": "La commune de Watten est dans le Nord (59). Mairie : parking gratuit limité à 3 nuits; jeton service 6 € pour 10 min d’eau ou 55 min d’électricité.",
+      "nextCheck": "Déplacer la fiche vers le département 59 et l’exclure du compte du Pas-de-Calais après contrôle des coordonnées.",
+      "sources": [
+        "https://www.watten.fr/"
+      ]
+    },
+    {
+      "sourceId": "way/1315184931",
+      "place": "Montreuil-sur-Mer — aire avenue des Garennes",
+      "lot": 431,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 8 emplacements gratuits; eau, électricité et vidanges sur monnayeur; aucun montant de service publié.",
+      "nextCheck": "Confirmer les tarifs 2027 des services auprès de la mairie.",
+      "sources": [
+        "https://www.destinationmontreuilloisencotedopale.com/camping/aire-de-camping-cars/",
+        "https://www.destinationmontreuilloisencotedopale.com/pratique/se-deplacer/parking-et-stationnement/"
+      ]
+    },
+    {
+      "sourceId": "way/1315218410",
+      "place": "Cucq-Trépied-Stella-Plage — ancienne aire Cours des Champs-Élysées",
+      "lot": 431,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie : ancienne aire gratuite de 20 places supprimée pour cause d’inondations; borne multiservices signalée au 242 Cours des Champs-Élysées. Restrictions saisonnières de stationnement selon les voies.",
+      "nextCheck": "Retirer ou requalifier la fiche après vérification exacte du point OSM; ne pas présenter l’ancien parking comme ouvert.",
+      "sources": [
+        "https://cucq.fr/camping-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/1388730385",
+      "place": "La Calotterie — aire privée Le Val de Canche",
+      "lot": 431,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : aire privée au 1 rue d’Enocq, eau, électricité et vidanges; tarif non publié, appeler pour code d’accès.",
+      "nextCheck": "Demander le tarif 2027 au gestionnaire avant publication d’un prix.",
+      "sources": [
+        "https://www.destinationmontreuilloisencotedopale.com/camping/aire-de-camping-cars-le-val-de-canche/"
+      ]
+    },
+    {
+      "sourceId": "way/1432165025",
+      "place": "Bapaume — aire CAMPING-CAR PARK",
+      "lot": 431,
+      "checkedAt": "2026-11-22",
+      "status": "Opérateur : 11,70 €/24 h jusqu’au 31/12/2027 + taxe 0,80 € = 12,50 €; 5 h + services 6 €. Total affiché cohérent.",
+      "nextCheck": "Aucun contrôle tarifaire supplémentaire requis pour le tarif 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/bapaume"
       ]
     }
   ]
