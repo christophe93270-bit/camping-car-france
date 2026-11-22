@@ -4,15 +4,15 @@
   "displayedCount": 31,
   "rawRegionalRows": 31,
   "deduplicatedRows": 0,
-  "currentLot": 497,
+  "currentLot": 498,
   "department": "87",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 31,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 497 : premières 10 fiches vérifiées. Dates de grilles CCP au Chalard et Oradour-sur-Glane à aligner au 22/11; taxes 2027 confirmées à 0,88 € et 1,10 €. Châteaucourt est hors saison depuis le 31/10. Nuitée gratuite et tarifs de services maintenus séparés. Aucune fiche source modifiée.",
+  "note": "Lot 498 : fiches 11 à 20 vérifiées. Bujaleuf : 5 places gratuites toute l’année 2027; borne de services séparée au bourg. Séreilhac : nuitée gratuite, borne à 2,50 €. Dates CCP à corriger au 22/11 pour Saint-Laurent-sur-Gorre, Saint-Pardoux et Pierre-Buffière; taxes 2027 vérifiées. Auphelle est hors saison. Aucune fiche source modifiée.",
   "entries": [
     {
       "sourceId": "node/2628202057",
@@ -133,6 +133,126 @@
         "https://www.openstreetmap.org/way/772087109",
         "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/oradour-sur-glane",
         "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-doradour-sur-glane-oradour-sur-glane-fr-4129369/"
+      ]
+    },
+    {
+      "sourceId": "way/775588693",
+      "place": "Berneuil — aire municipale, rue du Pigeonnier",
+      "lot": 498,
+      "checkedAt": "2026-11-22",
+      "status": "Cirkwi/commune : stationnement et services gratuits, eau potable, vidanges eaux grises et WC, ouvert toute l’année; eau coupée en hiver. Le fichier signale environ 200 m d’écart entre la position OSM et la fiche touristique.",
+      "nextCheck": "Maintenir gratuité/services et coupure hivernale; vérifier le GPS exact avant déplacement du marqueur.",
+      "sources": [
+        "https://www.openstreetmap.org/way/775588693",
+        "https://www.cirkwi.com/fr/point-interet/1665460-aire-d-accueil-de-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/829572056",
+      "place": "Bujaleuf — parking de la plage du lac Sainte-Hélène",
+      "lot": 498,
+      "checkedAt": "2026-11-22",
+      "status": "Visit Limousin : 5 places, nuitée gratuite, ouvert toute l’année 2026 et 2027. Borne de services distincte au centre-bourg, rue du Champ de Foire; eau coupée en hiver.",
+      "nextCheck": "Ajouter capacité et année d’ouverture 2027; conserver la distinction parking au lac/borne du centre-bourg.",
+      "sources": [
+        "https://www.openstreetmap.org/way/829572056",
+        "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-bujaleuf-fr-4128808/"
+      ]
+    },
+    {
+      "sourceId": "way/840884580",
+      "place": "Séreilhac — allée Catherine-Tabaraud",
+      "lot": 498,
+      "checkedAt": "2026-11-22",
+      "status": "Visit Limousin : 10 places, stationnement jour/nuit gratuit, ouvert toute l’année 2026; eau, électricité, sanitaires et vidanges. Borne de services 2,50 €, paiement espèces.",
+      "nextCheck": "Conserver séparément nuitée gratuite et service 2,50 €; ajouter capacité et moyen de paiement.",
+      "sources": [
+        "https://www.openstreetmap.org/way/840884580",
+        "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-cars-sereilhac-sereilhac-fr-4128706/"
+      ]
+    },
+    {
+      "sourceId": "way/1104580281",
+      "place": "Saint-Priest-Taurion — aire municipale du stade",
+      "lot": 498,
+      "checkedAt": "2026-11-22",
+      "status": "Visit Limousin : 20 places, nuitée gratuite, ouvert toute l’année 2026; eau, vidange eaux usées et toilettes chimiques.",
+      "nextCheck": "Compléter capacité, gratuité et période; ne pas ajouter d’électricité.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1104580281",
+        "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-de-camping-cars-saint-priest-taurion-fr-5276855/"
+      ]
+    },
+    {
+      "sourceId": "way/1167784675",
+      "place": "Saint-Laurent-sur-Gorre — CAMPING-CAR PARK",
+      "lot": 498,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 12,70 €/24 h du 22/11/2026 au 31/12/2027; taxe 0 € du 01/10/2026 au 30/04/2027 puis 0,44 € du 01/05 au 30/09/2027. Totaux 12,70 € puis 13,14 €. Parking 5 h + services 6 €. 24 places, 6 A; sanitaires 01/04–31/10/2026.",
+      "nextCheck": "Corriger le début du tarif du 12/11 au 22/11; conserver taxe et totaux 2027; vérifier dates sanitaires 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1167784675",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/saint-laurent-sur-gorre"
+      ]
+    },
+    {
+      "sourceId": "way/1236135699",
+      "place": "Val-d’Oire-et-Gartempe — Bussière-Poitevine",
+      "lot": 498,
+      "checkedAt": "2026-11-22",
+      "status": "Visit Limousin : petite aire de 4 places avec borne de services, eau, vidange eaux grises et WC chimiques; paiement par carte. Aucun montant officiel publié; le guide privé de 2024 indiquant 2,50 € n’est pas confirmé.",
+      "nextCheck": "Maintenir tarif non confirmé; ne pas réutiliser le prix privé de 2024. Capacité/services confirmés.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1236135699",
+        "https://en.visitlimousin.com/stay/where-to-sleep/campsites-in-haute-vienne/aire-daccueil-camping-car-val-doire-et-gartempe-en-4128708/"
+      ]
+    },
+    {
+      "sourceId": "way/1271100814",
+      "place": "Razès — CAMPING-CAR PARK Lac de Saint-Pardoux, site de Santrop",
+      "lot": 498,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 13,10 €/24 h du 22/11/2026 au 31/12/2027, taxe de séjour 1,32 €/24 h jusqu’au 31/12/2027, total 14,42 €. Parking 5 h + services 6 €. Aire ouverte, 32 places annoncées, 6 A.",
+      "nextCheck": "Aligner début de grille du 29/10 au 22/11; ajouter taxe 2027 et garder le total 14,42 €.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1271100814",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/saint-pardoux"
+      ]
+    },
+    {
+      "sourceId": "way/1293038653",
+      "place": "Saint-Amand-Magnazeix — aire de services du Bourg",
+      "lot": 498,
+      "checkedAt": "2026-11-22",
+      "status": "Visit Limousin : jusqu’à 10 véhicules, eau potable, électricité et vidange; paiement en espèces. Aucun montant publié et pas de tarif de nuitée confirmé.",
+      "nextCheck": "Maintenir tarif non confirmé; différencier aire de services d’un stationnement avec prix de nuitée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1293038653",
+        "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-de-services-camping-car-saint-amand-magnazeix-fr-4128696/"
+      ]
+    },
+    {
+      "sourceId": "way/1304844808",
+      "place": "Pierre-Buffière — CAMPING-CAR PARK",
+      "lot": 498,
+      "checkedAt": "2026-11-22",
+      "status": "CCP : base 12,50 €/24 h du 22/11/2026 au 31/12/2027; taxe 0,44 €/24 h confirmée jusqu’au 31/12/2027, total 12,94 €. Parking 5 h + services 6 €. 58 places, 6 A; sanitaires saisonniers 2026.",
+      "nextCheck": "Corriger début de grille du 30/10 au 22/11 et préciser la taxe 2027 à 0,44 €; confirmer saison sanitaire 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1304844808",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/haute-vienne/pierre-buffiere"
+      ]
+    },
+    {
+      "sourceId": "way/1306696390",
+      "place": "Peyrat-le-Château — aire d’Auphelle, lac de Vassivière",
+      "lot": 498,
+      "checkedAt": "2026-11-22",
+      "status": "Visit Limousin : 90 emplacements, eau, sanitaires, vidanges, borne de service; paiement par carte. Ouverture publiée du 06/04 au 30/09/2026; actuellement hors saison. Aucun tarif publié.",
+      "nextCheck": "Garder prix non communiqué; afficher fermeture hors saison; vérifier ouverture et barème de la saison 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1306696390",
+        "https://www.visitlimousin.com/sejourner/ou-dormir/campings/aire-daccueil-camping-car-dauphelle-peyrat-le-chateau-peyrat-le-chateau-fr-4128690/"
       ]
     }
   ]
