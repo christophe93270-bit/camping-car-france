@@ -4,15 +4,15 @@
   "displayedCount": 28,
   "rawRegionalRows": 28,
   "deduplicatedRows": 0,
-  "currentLot": 446,
+  "currentLot": 447,
   "department": "66",
   "progress": {
-    "checked": 20,
+    "checked": 28,
     "total": 28,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 8,
+    "totalInLot": 8
   },
-  "note": "Lot 446 : fiches 11 à 20 contrôlées. Matemale 16,89 € et Thuir 15,30 € TTC 2027 confirmés; Saint-Pierre-dels-Forcats taxe 2027 à confirmer. Ille-sur-Têt est une aire de services Super U, eau gratuite, électricité à jeton. Font-Romeu, Maury, Mont-Louis et Le Boulou : tarifs publiés en 2026 et millésime 2027 à confirmer; Elne conserve une contradiction d’affichage 15,46/16,68 €. Distinction/correction entre deux aires du Boulou : communale secteur Stade (30 places, gratuité communautaire à confirmer) et Qipeo route du Perthus (42 places, payante). Aucune donnée du site modifiée.",
+  "note": "Lot 447 : fiches 21 à 28 contrôlées; audit du département 66 terminé (28/28). Dorres : parking des Bains, nuitée tolérée une nuit sous conditions, pas de tarif confirmé. Rodès : aire privée, indication secondaire 5 €/24 h à valider. Camping International du Roussillon : Salses-le-Château, aire de camping-car du camping, tarifs à demander. Tarifs 2027 CCP confirmés : Argelès Aire du Soleil 15,60 €, Vinça 15,46 €, Alénya 15,34 €/24 h. Cases-de-Pène (16,50 € actuel) et Amélie-les-Bains (16,77 € actuel) : taxe 2027 non publiée dans le barème consulté. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "way/49429008",
@@ -246,6 +246,95 @@
         "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-de-stationnement-du-boulou-le-boulou-fr-5744872/",
         "https://www.aireparkreservation.com/aires-camping-car/pyrenees-orientales",
         "https://spot2play.com/spot/aire-communale-camping-cars-le-boulou/"
+      ]
+    },
+    {
+      "sourceId": "way/1308357434",
+      "place": "Dorres — parking des Bains, stationnement camping-car",
+      "lot": 447,
+      "checkedAt": "2026-11-22",
+      "status": "La commune est Dorres. L’office de tourisme indique une tolérance d’une nuit sans déballage extérieur; services mentionnés, mais aucun tarif nocturne fiable établi.",
+      "nextCheck": "Renseigner Dorres et le statut de parking avec nuitée tolérée; confirmer règle/services auprès de la mairie; prix non confirmé.",
+      "sources": [
+        "https://www.tourisme-pyreneesorientales.com/sorganiser/trouver-un-hebergement/campings-et-aires-de-camping-car/aire-de-stationnement-dorres-dorres-fr-5744289/"
+      ]
+    },
+    {
+      "sourceId": "way/1350088539",
+      "place": "Rodès — aire privée de camping-cars",
+      "lot": 447,
+      "checkedAt": "2026-11-22",
+      "status": "Commune Rodès confirmée. Source secondaire: stationnement indiqué à 5 €/24 h; eau/électricité/services à tarifer séparément. Tarif non confirmé par l’exploitant.",
+      "nextCheck": "Renseigner Rodès; confirmer avec l’exploitant les 5 €/24 h et les suppléments; garder prix non confirmé jusque-là.",
+      "sources": [
+        "https://www.i-campingcar.fr/aires.php?ville=RODES",
+        "https://carbu.fr/aires-camping-car/66-pyrenees-orientales/"
+      ]
+    },
+    {
+      "sourceId": "way/1370377963",
+      "place": "Salses-le-Château — aire camping-cars Camping International du Roussillon",
+      "lot": 447,
+      "checkedAt": "2026-11-22",
+      "status": "Le site officiel décrit une aire rattachée au camping, emplacements avec électricité et services de camping; ouverte toute l’année. Aucun prix exploitable visible dans la page officielle consultée.",
+      "nextCheck": "Corriger commune et type; demander la grille tarifaire 2027 et les inclusions à l’exploitant.",
+      "sources": [
+        "https://camping-roussillon.fr/aire-de-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/1155713378",
+      "place": "Argelès-sur-Mer — CCP Aire du Soleil",
+      "lot": 447,
+      "checkedAt": "2026-11-22",
+      "status": "15,60 €/24 h; base 13,88 € et taxe 1,72 €, toutes deux publiées jusqu’au 31/12/2027; 21 places. Fermeture annuelle en juillet-août, dates variables.",
+      "nextCheck": "Tarif 2027 confirmé; conserver la fermeture saisonnière.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/argeles-aire-du-soleil"
+      ]
+    },
+    {
+      "sourceId": "way/1263872145",
+      "place": "Vinça — CCP Vinça le Lac",
+      "lot": 447,
+      "checkedAt": "2026-11-22",
+      "status": "15,46 €/24 h; base 13,76 € + taxe 1,70 €, barème 2027 publié; 35 places.",
+      "nextCheck": "Tarif 2027 confirmé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/vinca-le-lac"
+      ]
+    },
+    {
+      "sourceId": "way/1263872145",
+      "place": "Alénya — CCP La Colomine del Mar",
+      "lot": 447,
+      "checkedAt": "2026-11-22",
+      "status": "15,34 €/24 h; base 13,74 € + taxe 1,60 €, barème 2027 publié; 31 places. Services camping avril-septembre sous conditions.",
+      "nextCheck": "Tarif 2027 confirmé; conserver la saisonnalité des services.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/alenya-la-colomine-del-mar"
+      ]
+    },
+    {
+      "sourceId": "way/1284389682",
+      "place": "Cases-de-Pène — CCP",
+      "lot": 447,
+      "checkedAt": "2026-11-22",
+      "status": "Prix affiché 16,50 €/24 h (base 14,80 € + taxe 1,70 €). Base jusqu’au 31/12/2027, taxe publiée jusqu’au 31/12/2026 seulement.",
+      "nextCheck": "Garder 16,50 € comme prix courant; confirmer taxe 2027, ne pas affirmer le total annuel 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/cases-de-pene"
+      ]
+    },
+    {
+      "sourceId": "way/1296501025",
+      "place": "Amélie-les-Bains-Palalda — CCP Viure als Banys",
+      "lot": 447,
+      "checkedAt": "2026-11-22",
+      "status": "Prix affiché 16,77 €/24 h (base 15,33 € + taxe 1,44 €). Base publiée jusqu’au 31/12/2027; taxe consultée jusqu’au 31/12/2026; 44 places.",
+      "nextCheck": "Garder le prix courant; demander la taxe 2027 avant de confirmer le TTC annuel.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/pyrenees-orientales/amelie-les-bains-palalda"
       ]
     }
   ]
