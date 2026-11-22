@@ -2,14 +2,14 @@
   "scope": "Audit des tarifs 2027 sur des lots successifs de dix entrées de l’inventaire régional Orne (61), à partir du lot 422. Ce suivi porte sur la séquence du catalogue et ne représente pas l’inventaire complet du département ni uniquement les fiches déjà présentes dans aires.json.",
   "startedAt": "2026-11-21",
   "sourceInventory": "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
-  "currentLot": 428,
+  "currentLot": 429,
   "department": "61",
   "progress": {
-    "checkedInLot": 10,
-    "totalInLot": 10,
+    "checkedInLot": 2,
+    "totalInLot": 2,
     "departmentTotal": null
   },
-  "note": "Lot 428 : dix entrées inédites suivantes de la rubrique stationnement contrôlées. Les entrées Ferme des Martellières et Kerflaveur ont été exclues, car elles étaient déjà présentes dans les lots antérieurs. Aucun tarif confirmé valable pour 2027. Aucune fiche du site modifiée.",
+  "note": "Lot 429 : deux dernières entrées inédites de la rubrique Aires de stationnement du catalogue régional contrôlées. La rubrique source est épuisée; la Ferme de la Croix Blanche est annoncée gratuite en 2026, à confirmer en 2027, et les modalités tarifaires des Chèvres de Jabi restent à confirmer. Aucune fiche du site modifiée.",
   "entries": [
     {
       "place": "L’Aigle — aire communale, 15 bis avenue du Mont-Saint-Michel",
@@ -786,6 +786,30 @@
       "sources": [
         "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
         "https://www.annuaire-mairie.fr/rue-tournai-sur-dive.html"
+      ]
+    },
+    {
+      "place": "Trémont — Les Chèvres de Jabi",
+      "lot": 429,
+      "checkedAt": "2026-11-22",
+      "status": "Le catalogue régional répertorie l’exploitation dans les aires de stationnement. Les fiches touristiques actuelles décrivent la chèvrerie mais ne confirment pas formellement l’accueil camping-car ni le tarif. Des avis évoquent France Passion sans constituer une source tarifaire officielle.",
+      "nextCheck": "Confirmer directement auprès de l’exploitation si l’accueil camping-car est proposé en 2027, s’il dépend de France Passion et si des services sont payants.",
+      "sources": [
+        "https://cdt61.media.tourinsoft.eu/upload/ADV-2024.pdf",
+        "https://www.normandie-tourisme.fr/activite/les-chevres-de-jabi/",
+        "https://www.bienvenue-a-la-ferme.com/normandie/orne/tremont/ferme/les-chevres-de-jabi/552482"
+      ]
+    },
+    {
+      "place": "Vimoutiers — Aire de stationnement de la Ferme de la Croix Blanche",
+      "lot": 429,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme 61 publie une aire gratuite, deux emplacements, pour la période du 1er janvier au 31 décembre 2026. Une seconde fiche touristique confirme l’accueil gratuit de camping-cars (deux emplacements), mais ne date pas ce prix pour 2027.",
+      "nextCheck": "Confirmer auprès de la ferme le maintien de la gratuité en 2027 et les conditions de séjour.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/3016992-aire-de-stationnement-de-la-croix-blanche",
+        "https://terrederichesses.fr/index.php/hpanor061fs00059",
+        "https://www.cirkwi.com/fr/point-interet/1054668-ferme-de-la-croix-blanche"
       ]
     }
   ]
