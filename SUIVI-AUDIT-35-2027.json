@@ -4,15 +4,15 @@
   "displayedCount": 69,
   "rawRegionalRows": 69,
   "deduplicatedRows": 0,
-  "currentLot": 507,
+  "currentLot": 508,
   "department": "35",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 69,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lots 506 et 507 : 20/69 fiches vérifiées. Lot 507 : gratuités et services gratuits confirmés à Bazouges-la-Pérouse, Saint-Méen-le-Grand et Retiers; tarifs de services séparés des nuitées à Muël; tarifs 2026 à confirmer à Vitré et Tinténiac; tarif saisonnier CCP corrigé à Sains. Aucun fichier source modifié.",
+  "note": "Lots 506 à 508 : 30/69 fiches vérifiées. Lot 508 : fermeture hivernale de Saint-Guinoux consignée; périodes tarifaires CCP mises à jour pour Saint-Guinoux, Le Vivier-sur-Mer et Le Pertre; prix de Cancale à clarifier; tarifs non officiels ou anciens conservés comme non confirmés. Aucun fichier source modifié.",
   "entries": [
     {
       "sourceId": "node/11897389616",
@@ -260,6 +260,121 @@
         "https://www.destination-fougeres.bzh/aire-camping-car/aire-de-camping-cars-de-la-carriere/"
       ],
       "lot": 507,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Paimpont — aire de services",
+      "status": "Qipeo: 10 €/24 h pour deux adultes, taxes, eau et électricité incluses; paiement carte. Mairie: ouverte 24/24 toute l’année. Qipeo affiche 72 places contre 80 dans la fiche source.",
+      "nextCheck": "Conserver tarif et modalités; vérifier la capacité 72/80 auprès de la mairie.",
+      "sources": [
+        "https://www.paimpont.bzh/contacts/aire-de-camping-car/",
+        "https://www.qipeo.com/detail/a8d69a17-ee82-47ea-8f33-b761cad40d0d"
+      ],
+      "lot": 508,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Cancale — La Ville Ballet",
+      "status": "Saint-Malo Tourisme affiche 13 €/24 h dans sa description, mais une grille horaire de 2 €/h, 12 € les trois premiers jours, puis 3 €/h après 72 h. Services collectifs.",
+      "nextCheck": "Clarifier le tarif à l’horodateur; ne pas enregistrer un prix unique sans confirmation.",
+      "sources": [
+        "https://www.saint-malo-tourisme.com/poser-ses-valises/ou-dormir/campings/aire-de-services-de-la-ville-ballet-cancale-fr-3711939/"
+      ],
+      "lot": 508,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Pleine-Fougères — aire AirePark",
+      "status": "La mairie confirme l’aire et renvoie vers AirePark; 10,20 €/24 h est rapporté par Park4Night sans confirmation opérateur/mairie.",
+      "nextCheck": "Laisser prix 2026 non confirmé; vérifier à la réservation.",
+      "sources": [
+        "https://pleine-fougeres.bzh/a_faire_a_voir/air-de-camping-car/",
+        "https://park4night.com/fr/place/166821",
+        "https://www.aireparkreservation.com/aires-camping-cars/bretagne/ile-et-vilaine/pleine-fougeres"
+      ],
+      "lot": 508,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Benoît-des-Ondes — aire municipale",
+      "status": "Fermeture temporaire par arrêté municipal à compter du 02/11/2026 à 9 h jusqu’à nouvel ordre. Derniers prix connus: barème 2025, 9 €/24 h en saison et borne 4 €. Tarif 2026 non confirmé.",
+      "nextCheck": "Signaler fermeture; ne pas présenter les tarifs 2025 comme valables en 2026.",
+      "sources": [
+        "https://saint-benoit-des-ondes.fr/2026/10/29/aire-de-camping-car-fermeture-temporaire/",
+        "https://saint-benoit-des-ondes.fr/decouvrir/se-loger/aire-de-camping-car/"
+      ],
+      "lot": 508,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Guinoux — CAMPING-CAR PARK",
+      "status": "Tarif 15,10 €/24 h (13,80 € + taxe 1,30 €) du 31/10/2026 au 31/12/2027; parking 5 h + services 6 €. Fermée du 14/11/2026 à 16 h au 02/05/2027 à 8 h.",
+      "nextCheck": "Corriger dates tarifaires et statut fermé jusqu’au 02/05/2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/ille-et-vilaine/saint-guinoux"
+      ],
+      "lot": 508,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Le Vivier-sur-Mer — CAMPING-CAR PARK",
+      "status": "Actuellement 13,95 €/24 h, taxe 1,22 € comprise; base 12,73 € du 18/11 au 31/12/2026. En 2027: base 13,23 € + taxe 1,22 € = 14,45 €. Services indisponibles 23–27/11/2026 pour travaux.",
+      "nextCheck": "Corriger début de barème au 18/11; signaler interruption des services pendant les travaux.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/ille-et-vilaine/vivier-sur-mer"
+      ],
+      "lot": 508,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Le Pertre — Le Chardonneret, CAMPING-CAR PARK",
+      "status": "11,89 €/24 h (base 11,45 € + taxe 0,44 €) du 12/11/2026 au 31/12/2027; parking 5 h + services 6 €; ouverte, 29 places.",
+      "nextCheck": "Conserver distinction base/taxe et période officielle; ajouter capacité 29.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/ille-et-vilaine/le-pertre-le-chardonneret"
+      ],
+      "lot": 508,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Val-Couesnon — aire de Tremblay",
+      "status": "Destination Fougères: eau 2 €, électricité 2 €, monnayeur; stationnement sans limite de durée, prix de nuitée non publié.",
+      "nextCheck": "Ne pas confondre tarifs de services avec tarif de stationnement.",
+      "sources": [
+        "https://www.destination-fougeres.bzh/aire-camping-car/aire-de-camping-cars-de-tremblay/"
+      ],
+      "lot": 508,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Médréac — Ferme de la Lande",
+      "status": "Ille-et-Vilaine Tourisme confirme stationnement et services gratuits (eau, électricité, vidange) sur l’exploitation.",
+      "nextCheck": "Conserver gratuité et prestations.",
+      "sources": [
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-cars-de-la-ferme-de-la-lande-medreac-fr-2722622/"
+      ],
+      "lot": 508,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Teillay — aire naturelle de Saint-Eustache",
+      "status": "Mairie: accès 24/24; sanitaires, eau, vidange et places camping-cars. Règlement et prix affichés sur place; 5 €/nuit et borne 2 € rapportés par office de tourisme, non confirmés par page municipale.",
+      "nextCheck": "Garder tarifs non confirmés sur place; distinguer aire naturelle camping et stationnement camping-car.",
+      "sources": [
+        "https://www.teillay.fr/aire-naturelle-de-camping/",
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-car-de-teillay-teillay-fr-6310483/"
+      ],
+      "lot": 508,
       "checkedAt": "2026-11-22"
     }
   ]
