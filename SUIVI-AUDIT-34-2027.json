@@ -4,15 +4,15 @@
   "displayedCount": 29,
   "rawRegionalRows": 29,
   "deduplicatedRows": 0,
-  "currentLot": 503,
+  "currentLot": 504,
   "department": "34",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 29,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 503 : fiches 1 à 10 vérifiées. Frontignan tarif confirmé mais aire signalée temporairement fermée (0/0 place); Colombiers tarif officiel insuffisamment ventilé; Villeneuve-lès-Béziers tarif actuel reconduit à compter du 22/11/2026; 3 Digues sans limite de stationnement selon Hérault Tourisme; écarts de capacité à Balaruc (125/126) et Villeneuve-lès-Maguelone (40 mairie vs 36 fichier). Fiches source non modifiées.",
+  "note": "Lot 504 : fiches 11 à 20 vérifiées. Tarifs CCP Lamalou et Portiragnes confirmés, nouvelle base Portiragnes au 22/11/2026. Aniane stationnement gratuit mais équipements contradictoires. Écarts de capacité à Lunas (22/30) et au Moulin de l’Espagnac (20/27); grille saisonnière du Moulin détaillée. Octon reste à confirmer auprès de la mairie. 20/29 fiches contrôlées; fiches source non modifiées.",
   "entries": [
     {
       "sourceId": "node/11915885576",
@@ -137,6 +137,128 @@
       "sources": [
         "https://www.openstreetmap.org/way/443199704",
         "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/herault/meze"
+      ]
+    },
+    {
+      "sourceId": "way/476903598",
+      "place": "Lamalou-les-Bains — CAMPING-CAR PARK",
+      "lot": 504,
+      "checkedAt": "2026-11-22",
+      "status": "CCP: 15,86 €/24 h; tarif de base 14,82 € à partir du 01/11/2026 + taxe 1,04 €; forfait 5 h + services 6 €. Offre curiste disponible.",
+      "nextCheck": "Garder la base, la taxe et le tarif court séparés.",
+      "sources": [
+        "https://www.openstreetmap.org/way/476903598",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/herault/lamalou-les-bains"
+      ]
+    },
+    {
+      "sourceId": "way/574538094",
+      "place": "Aniane — aire place Étienne-Sanier",
+      "lot": 504,
+      "checkedAt": "2026-11-22",
+      "status": "Tourisme Occitanie: stationnement gratuit et ouvert 24/24. Description dit sans borne, tandis que la rubrique équipements liste eau, branchements et aire de service; équipements contradictoires.",
+      "nextCheck": "Confirmer l’emplacement OSM et les services auprès de l’office/mairie; mettre le stationnement gratuit.",
+      "sources": [
+        "https://www.openstreetmap.org/way/574538094",
+        "https://www.tourisme-occitanie.com/fr/fiche/hotellerie-plein-air/aire-de-stationnement-aniane-aniane_TFOACCAMLAR034V524CNS/"
+      ]
+    },
+    {
+      "sourceId": "way/589467692",
+      "place": "Bédarieux — aire municipale",
+      "lot": 504,
+      "checkedAt": "2026-11-22",
+      "status": "Hérault Tourisme: stationnement gratuit jusqu’à 4 jours, eau et vidange gratuites. Capacité du fichier (15) non confirmée dans la fiche consultée; pas d’électricité officielle confirmée.",
+      "nextCheck": "Conserver gratuité et limite 4 jours; vérifier capacité localement; ne pas ajouter d’électricité.",
+      "sources": [
+        "https://www.openstreetmap.org/way/589467692",
+        "https://www.herault-tourisme.com/fr/fiche/aire-de-camping-car/aire-de-camping-car-bedarieux-bedarieux_TFOACCAMLAR034V50DQQH/"
+      ]
+    },
+    {
+      "sourceId": "way/655206463",
+      "place": "Portiragnes — CAMPING-CAR PARK",
+      "lot": 504,
+      "checkedAt": "2026-11-22",
+      "status": "CCP: 14,82 €/24 h à partir du 22/11/2026, dont base 13,10 € + taxe 1,72 €; 5 h + services 6 €. Aire ouverte; sanitaires annoncés toute l’année 2026.",
+      "nextCheck": "Dater la base au 22/11/2026; garder taxe distincte.",
+      "sources": [
+        "https://www.openstreetmap.org/way/655206463",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/herault/portiragnes"
+      ]
+    },
+    {
+      "sourceId": "way/824598932",
+      "place": "Lunas — aire de La Prade",
+      "lot": 504,
+      "checkedAt": "2026-11-22",
+      "status": "Hérault Tourisme: 30 places, ouverte toute l’année depuis le 01/06/2026; électricité 0,50 €/h, eau+vidange 3 €/20 min. Source locale Grand Orb: 22 places et stationnement gratuit. Écart de capacité et prix nuitée à clarifier.",
+      "nextCheck": "Confirmer capacité 22 ou 30 et gratuité du stationnement auprès de la mairie; séparer frais de services.",
+      "sources": [
+        "https://www.openstreetmap.org/way/824598932",
+        "https://www.herault-tourisme.com/fr/fiche/aire-de-camping-car/aire-de-camping-car-la-prade-lunas-les-chateaux_TFOACCAMLAR034V50WLRJ/",
+        "https://www.tourisme.grandorb.fr/Detail/Aire-de-camping-car/Aire-de-Camping-Car-de-La-Prade-A-Lunas/ACCAMLAR034V50WLRJ.html"
+      ]
+    },
+    {
+      "sourceId": "way/828969573",
+      "place": "Vias — aire privée du Moulin de l’Espagnac",
+      "lot": 504,
+      "checkedAt": "2026-11-22",
+      "status": "Site gestionnaire: basse saison emplacement 10 € + électricité 6 €; moyenne 10 € + électricité 5 €; haute 11 € + électricité 5 €. Eau, vidange, Wi-Fi et taxe séjour compris; service eau/vidange seul 5 €. Capacité contradictoire: grille 20, page accueil 27.",
+      "nextCheck": "Compléter la grille saisonnière; confirmer capacité; ne pas inclure l’électricité dans l’emplacement.",
+      "sources": [
+        "https://www.openstreetmap.org/way/828969573",
+        "https://www.aire-vias.fr/tarifs-et-prestations/",
+        "https://www.aire-vias.fr/"
+      ]
+    },
+    {
+      "sourceId": "way/904480612",
+      "place": "Octon — aire municipale",
+      "lot": 504,
+      "checkedAt": "2026-11-22",
+      "status": "Le guide officiel du Grand Site confirme l’existence de l’aire municipale. Pas de grille tarifaire ni de services détaillés confirmés par source municipale actuelle.",
+      "nextCheck": "Demander à la mairie tarif, durée de séjour, équipements et adresse précise; maintenir prix non confirmé.",
+      "sources": [
+        "https://www.openstreetmap.org/way/904480612",
+        "https://cdt34.media.tourinsoft.eu/upload/653d9918-fd95-4740-8c95-be0833c1a5c6/Guide-des-aires-de-camping-car.pdf"
+      ]
+    },
+    {
+      "sourceId": "way/904484523",
+      "place": "Montpeyroux — parking Vinas",
+      "lot": 504,
+      "checkedAt": "2026-11-22",
+      "status": "Hérault Tourisme: 5 places, ouvert toute l’année 2026, poubelles et remplissage eau. Aucun prix. La description ne confirme pas l’électricité alors que le bloc équipement générique liste branchements/aire de service.",
+      "nextCheck": "Garder prix non confirmé; ajouter 5 places et eau; vérifier branchements avant confirmation.",
+      "sources": [
+        "https://www.openstreetmap.org/way/904484523",
+        "https://www.herault-tourisme.com/fr/fiche/aire-de-camping-car/aire-de-stationnement-montpeyroux-montpeyroux_TFOACCAMLAR034V5240NE/"
+      ]
+    },
+    {
+      "sourceId": "way/904493633",
+      "place": "Le Soulié — aire communale",
+      "lot": 504,
+      "checkedAt": "2026-11-22",
+      "status": "Destination Haut-Languedoc: stationnement gratuit, ouvert toute l’année, 3 places grand gabarit (4–5 véhicules selon dimensions), eau et vidange; eau coupée en hiver.",
+      "nextCheck": "Informations du fichier cohérentes; préciser fermeture hivernale de l’eau seulement.",
+      "sources": [
+        "https://www.openstreetmap.org/way/904493633",
+        "https://www.destinationhautlanguedoc.fr/sejourner/aire-de-camping-car/aire-de-stationnement-et-de-service-du-soulie"
+      ]
+    },
+    {
+      "sourceId": "way/904496937",
+      "place": "La Salvetat-sur-Agout — aire privée du Redoundel",
+      "lot": 504,
+      "checkedAt": "2026-11-22",
+      "status": "Destination Haut-Languedoc confirme ancien camping de la Blaquière, 57 places, ouverture annuelle, sanitaires, eau, vidange, électricité; forfait 12,30–14,30 € sans période détaillée; supplément animaux non chiffré.",
+      "nextCheck": "Conserver une fourchette variable sans inventer la période; vérifier le supplément animal si nécessaire.",
+      "sources": [
+        "https://www.openstreetmap.org/way/904496937",
+        "https://www.destinationhautlanguedoc.fr/sejourner/aire-de-camping-car/aire-de-camping-car-la-salvetat"
       ]
     }
   ]
