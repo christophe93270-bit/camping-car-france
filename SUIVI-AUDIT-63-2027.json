@@ -4,15 +4,15 @@
   "displayedCount": 48,
   "rawRegionalRows": 48,
   "deduplicatedRows": 0,
-  "currentLot": 433,
+  "currentLot": 434,
   "department": "63",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 48,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 433 : fiches 1 à 10 contrôlées. Tarifs 2027 partiels ou à confirmer pour plusieurs lieux; divergence à Orcines, distinction aire municipale/projet CCP à Montpeyroux, correction nécessaire de la note tarifaire Vulcania, plusieurs prestations à distinguer au domaine des Quatre Vents. Aucune fiche applicative modifiée.",
+  "note": "Lot 434 : fiches 11 à 20 contrôlées. Tarifs 2027 CCP détaillés pour La Tour-d’Auvergne, Charbonnières-les-Varennes et Châtel-Guyon; l’aire du Pré des Laveuses à Cournon n’est plus en service comme aire extérieure, le camping voisin accueille les camping-cars. Plusieurs aires gratuites demandent confirmation de leur ouverture et du stationnement de nuit. Aucune donnée applicative modifiée.",
   "entries": [
     {
       "sourceId": "node/5835931285",
@@ -127,6 +127,121 @@
       "nextCheck": "Demander à la mairie le prix des services et les règles de stationnement/nuitée.",
       "sources": [
         "https://www.perignat-les-sarlieve.fr/"
+      ]
+    },
+    {
+      "sourceId": "way/396713231",
+      "place": "Cournon-d’Auvergne — aire extérieure du Pré des Laveuses",
+      "lot": 434,
+      "checkedAt": "2026-11-22",
+      "status": "L’office de tourisme indique que l’ancienne aire extérieure n’est plus en service; camping voisin : 13,50 €/jour avec électricité ou 9,50 € sans; borne de service transférée dans le camping, tarif publié 4 € eau/vidanges.",
+      "nextCheck": "Requalifier la fiche selon le point précis et confirmer les conditions 2027 avec le camping.",
+      "sources": [
+        "https://www.puydedome-tourisme.com/fr/fiche/hotellerie-plein-air/aire-exterieure-de-camping-car-le-pre-des-laveuses-cournon-d-auvergne_TFO4778993/",
+        "https://www.campinglepredeslaveuses.com/105-emplacements/1214-aire-pour-camping-cars.html"
+      ]
+    },
+    {
+      "sourceId": "way/418288557",
+      "place": "La Tour-d’Auvergne — CAMPING-CAR PARK",
+      "lot": 434,
+      "checkedAt": "2026-11-22",
+      "status": "Opérateur : base 14,25 €/24 h en 2027 + taxe 1,32 € = 15,57 €. Parking 5 h + services 6 €. Le champ actuel 14,55 € est l’ancien tarif total.",
+      "nextCheck": "Mettre à jour le total TTC au 01/01/2027; tarif opérateur et taxe 2027 confirmés.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/la-tour-d%27auvergne?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/450894783",
+      "place": "Charbonnières-les-Varennes — CAMPING-CAR PARK",
+      "lot": 434,
+      "checkedAt": "2026-11-22",
+      "status": "Barème 2027 : base 12 €/24 h nov.-avr., 14 € mai-oct.; taxe 1,32 € valable jusqu’au 31/12/2027. Totaux 13,32 € et 15,32 €. Service 5 h 6 €.",
+      "nextCheck": "Le total 13,32 € ne vaut que pour basse saison; reprendre la saisonnalité dans le tarif affiché.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/charbonnieres-les-varennes"
+      ]
+    },
+    {
+      "sourceId": "way/822924679",
+      "place": "Rentières — aire de stationnement Le Fromental",
+      "lot": 434,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : stationnement gratuit, limité à 48 h, sans eau ni électricité. Ouverture prévue en 2027 avec travaux d’aménagement et accès à vérifier.",
+      "nextCheck": "Vérifier l’accès pendant les travaux avant tout déplacement.",
+      "sources": [
+        "https://www.puydedome-tourisme.com/fr/fiche/hotellerie-plein-air/aire-de-stationnement-camping-car-le-fromental-rentieres_TFO4781304/"
+      ]
+    },
+    {
+      "sourceId": "way/871894747",
+      "place": "Aydat — aire communale",
+      "lot": 434,
+      "checkedAt": "2026-11-22",
+      "status": "Tarif publié : 7 €/24 h nov.-avr., 13 €/24 h mai-oct.; eau potable +2 €, taxe de séjour 0,60 €/personne/jour. La grille n’est pas datée 2027.",
+      "nextCheck": "Confirmer tarif 2027 et statut des sanitaires/douches, que des sources locales ont signalé fermés.",
+      "sources": [
+        "https://www.clermontauvergnevolcans.com/fiches/aire-de-camping-car-aydat/",
+        "https://www.aydat.net/aire-de-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/979425541",
+      "place": "Vollore-Montagne — aire de camping-car Citadoux",
+      "lot": 434,
+      "checkedAt": "2026-11-22",
+      "status": "Point situé Route des Cavaliers; annuaires basés sur OSM indiquent 4 places, eau et stationnement gratuits; aucun tarif municipal 2027 retrouvé.",
+      "nextCheck": "Confirmer la gratuité et le fonctionnement de l’eau auprès de la mairie.",
+      "sources": [
+        "https://www.vanlaife.eu/en/places/87af4d4a-ebe3-4810-a9c7-83d003fef1c9/aire-de-camping-car-citadoux"
+      ]
+    },
+    {
+      "sourceId": "way/1104026545",
+      "place": "Tourzel-Ronzières — aire communale Le Clos",
+      "lot": 434,
+      "checkedAt": "2026-11-22",
+      "status": "Sources consultées : stationnement et services gratuits, 15 places; durée de 5 jours selon une fiche, mais une autre source signale une fermeture/saisonnalité. Tarif 2027 non confirmé localement.",
+      "nextCheck": "Demander à la mairie si l’aire est actuellement ouverte et entretenue; confirmer gratuité, durée et services.",
+      "sources": [
+        "https://www.camping-car.com/aires/15578-aire-communale/",
+        "https://www.i-campingcar.fr/aires.php?ville=TOURZEL+RONZIERES"
+      ]
+    },
+    {
+      "sourceId": "way/1219087277",
+      "place": "Châtel-Guyon — CAMPING-CAR PARK",
+      "lot": 434,
+      "checkedAt": "2026-11-22",
+      "status": "Tableau officiel 2027 : base 12 €/24 h + taxe 1,32 € = 13,32 €; parking 5 h + services 6 €. Encart détaillé antérieurement vu à 15,32 €, incohérent avec barème et annuaire.",
+      "nextCheck": "Tarif saisonnier 2027 confirmé; faire signaler à CCP l’encart affichant 15,32 €.",
+      "sources": [
+        "https://www.puydedome-tourisme.com/fr/fiche/hotellerie-plein-air/aire-de-services-intercommunale-chatel-guyon-chatel-guyon_TFO4743496/",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/ch%C3%A2tel-guyon"
+      ]
+    },
+    {
+      "sourceId": "way/1233446291",
+      "place": "Clermont-Ferrand — aire des Pistes",
+      "lot": 434,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche secondaire identifie Les Pistes et affiche 9,20 €/nuit avec électricité; eau et vidanges listées. Aucun tarif officiel 2027 retrouvé.",
+      "nextCheck": "Confirmer identité exacte, tarif et éventuels frais électriques auprès du gestionnaire.",
+      "sources": [
+        "https://www.campercontact.com/en/france/auvergne-rhone-alpes/clermont-ferrand/107591/aire-camping-car-clermont-ferrand-les-pistes"
+      ]
+    },
+    {
+      "sourceId": "way/1280494976",
+      "place": "Valcivières — aire communale D106",
+      "lot": 434,
+      "checkedAt": "2026-11-22",
+      "status": "Source spécialisée : stationnement gratuit; eau et électricité 2 € chacune. D’autres références indiquent stationnement gratuit de jour mais nuit interdite; service annoncé non fonctionnel toute l’année.",
+      "nextCheck": "Confirmer auprès de la mairie prix des services, ouverture et autorisation du stationnement de nuit.",
+      "sources": [
+        "https://www.i-campingcar.fr/aires.php?ville=VALCIVIERES",
+        "https://campingcar76.fr/Site%20P08%2063%20Aires%20services%20Puy%20de%20Dome%20%28Rhone%20Alpes%29.htm"
       ]
     }
   ]
