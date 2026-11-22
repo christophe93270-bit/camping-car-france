@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 461,
+  "currentLot": 462,
   "department": "71",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 461 : fiches 1 à 10 contrôlées. Anost : stationnement/vidange confirmés, annuaire tarifs 2023 périmé. Tramayes : gratuité issue du guide communal 2021, places/services à confirmer. Marcigny : parking/vidange gratuits, eau 2 €/10 min et électricité 2 €/120 min; point GPS et adresse divergents. Génelard : services gratuits, eau coupée en hiver. Damerey : fiche officielle récente confirme parking gratuit; offre privée possiblement distincte à la même adresse, ne pas fusionner. Saint-Sernin : tarif 2023 à reconfirmer. La Vineuse 2 places, Château 6 et Massilly 3; tarifs non publiés. Aucune donnée du site modifiée.",
+  "note": "Lot 462 : fiches 11 à 20 contrôlées. Buffières : parking confirmé, aucun service ni prix attesté. Berzé-le-Châtel : 2 places, 24 h. Saint-André-le-Désert : deux fiches Destination 71 autour du bourg, à clarifier. Sivignon : 4 places; Passy sans capacité publiée. La Chapelle-de-Guinchay : eau gratuite, 48 h, capacité 10/20 contradictoire. Saint-Gengoux : 4 € pour 55 min électricité et 100 L d’eau; électricité signalée en panne. Tournus : parking gratuit et tarifs Qipeo eau 5 €/10 min, électricité 5 € sans durée précisée. Givry : accès annuel mais pas de prix/capacité; restriction pendant la Fête de la Vigne. Saint-Christophe-en-Brionnais : 8 places gratuites, saison 15/03–15/11/2026, fermeture ponctuelle concours de boules. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -128,6 +128,124 @@
       "sources": [
         "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-massilly.html",
         "https://www.tourisme-saonegrosne.fr/document/guide-parkings-voitures-et-camping-car.pdf"
+      ]
+    },
+    {
+      "sourceId": "node/11991847811",
+      "place": "Buffières — parking communal",
+      "lot": 462,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme parking communal partiellement plat et peu ombragé; pas de capacité, tarif ou services publiés. Borne de services la plus proche signalée au camping de Cluny.",
+      "nextCheck": "Garder capacité/tarif/services non confirmés.",
+      "sources": [
+        "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-buffieres/",
+        "https://www.cluny-tourisme.com/app/uploads/2025/06/guide-camping-car-2025.pdf"
+      ]
+    },
+    {
+      "sourceId": "node/11991849848",
+      "place": "Berzé-le-Châtel — parking sous l’église",
+      "lot": 462,
+      "checkedAt": "2026-11-22",
+      "status": "2 places plates, stationnement 24 h maximum, en contrebas de l’église; pas de tarif ou service technique publié.",
+      "nextCheck": "Conserver 2 places et limite 24h; prix/services non publiés.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-camping-car-berze-le-chatel.html",
+        "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-stationnement-pour-camping-car-berze-le-chatel/"
+      ]
+    },
+    {
+      "sourceId": "node/11991867299",
+      "place": "Saint-André-le-Désert — parking près de la salle communale",
+      "lot": 462,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme 2 places. Seconde fiche officielle « bourg » au Champ Rosé, parc de la roseraie, environ 150 m; distinction exacte ou chevauchement à établir.",
+      "nextCheck": "Garder 2 places sur cette fiche; clarifier les deux emplacements avant fusion ou ajout de capacité.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-st-andre-le-desert.html",
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-st-andre-le-desert-bourg.html"
+      ]
+    },
+    {
+      "sourceId": "node/11991877224",
+      "place": "Sivignon — parking camping-car",
+      "lot": 462,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme 4 emplacements; parking plat et ombragé; pas de tarif ou service publié.",
+      "nextCheck": "Mettre à jour capacité à 4, garder prix/services non publiés.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-sivignon.html"
+      ]
+    },
+    {
+      "sourceId": "node/11997773381",
+      "place": "Passy — parking derrière l’ancienne bascule",
+      "lot": 462,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme parking plat et ombragé derrière l’ancienne bascule, en contrebas de l’église; capacité, tarif, services non publiés.",
+      "nextCheck": "Conserver statut/tarif/capacité non confirmés.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-passy.html"
+      ]
+    },
+    {
+      "sourceId": "way/143975424",
+      "place": "La Chapelle-de-Guinchay — aire Maison de Pays",
+      "lot": 462,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche de services: 10 places, séjour 48 h, eau gratuite et vidange. Autre fiche de stationnement au même parking affiche 20 places; commune confirme eau gratuite.",
+      "nextCheck": "Garder 48 h et eau gratuite; ne pas cumuler 10/20 places, clarifier même emprise ou zones.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-7",
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-camping-car.html",
+        "https://www.lachapelledeguinchay.fr/fr/rb/518481/aire-camping-cars"
+      ]
+    },
+    {
+      "sourceId": "way/204317946",
+      "place": "Saint-Gengoux-le-National — aire de la Voie Verte",
+      "lot": 462,
+      "checkedAt": "2026-11-22",
+      "status": "Environ 15 places non délimitées, toute l’année; tarif publié 4 € pour 55 min d’électricité et 100 L d’eau. Fiche officielle signale électricité actuellement en panne.",
+      "nextCheck": "Conserver le tarif en le datant/attribuant; vérifier réparation avant d’affirmer électricité disponible.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-camping-cars.html-0",
+        "https://www.tourisme-sud-cote-chalonnaise.com/campings/aire-de-service-pour-campings-cars-ACCBOU071234059.html"
+      ]
+    },
+    {
+      "sourceId": "way/220632397",
+      "place": "Tournus — aire municipale quai de la Marine / rue René Cassin",
+      "lot": 462,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie : 10 places, toute l’année, parking gratuit. Qipeo: eau 5 €/10 min, électricité 5 € (durée non précisée), vidanges.",
+      "nextCheck": "Séparer parking gratuit des services payants; faire confirmer durée du forfait électrique.",
+      "sources": [
+        "https://www.tournus.fr/aire-de-services-pour-les-camping-car/",
+        "https://www.qipeo.com/detail/828bd945-fb48-425e-b7e0-6bcb14f9d0a2"
+      ]
+    },
+    {
+      "sourceId": "way/289331868",
+      "place": "Givry — aire municipale rue de la Gare",
+      "lot": 462,
+      "checkedAt": "2026-11-22",
+      "status": "Ville confirme 18 rue de la Gare, accessible toute l’année, emplacements stabilisés et borne de vidange; accès interdit lors de la Fête de la Vigne (premier weekend de septembre). Tarif et capacité non publiés.",
+      "nextCheck": "Garder tarif/capacité non confirmés; conserver restriction d’accès saisonnière.",
+      "sources": [
+        "https://www.givry-bourgogne.fr/aire-de-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/358243797",
+      "place": "Saint-Christophe-en-Brionnais — aire route de l’Allée",
+      "lot": 462,
+      "checkedAt": "2026-11-22",
+      "status": "Office tourisme/commune: 8 places, parking et services gratuits; ouverture 15/03–15/11/2026; fermeture ponctuelle possible pour concours de boules; eau de mars à novembre.",
+      "nextCheck": "Garder gratuité, capacité et dates 2026; vérifier calendrier 2027.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-les-campings-cars.html",
+        "https://www.stchristophe-tourisme.fr/fr/stationnement/"
       ]
     }
   ]
