@@ -4,15 +4,15 @@
   "displayedCount": 36,
   "rawRegionalRows": 36,
   "deduplicatedRows": 0,
-  "currentLot": 521,
+  "currentLot": 522,
   "department": "38",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 36,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Deuxième lot terminé : 20/36 fiches contrôlées. Romagnieu : taxe 2027 confirmée à 0,80 €/24 h; Saint-Maximin : tarif municipal 2026 confirmé à 8,10 €/nuit hors taxe. Le Cheylas reste à confirmer pour les tarifs de services et le stationnement de nuit. Données source non modifiées.",
+  "note": "Troisième lot terminé : 30/36 fiches contrôlées. Allevard : barème CCP mis à jour depuis le 22/11 et taxe de 1,10 € confirmée jusqu’en 2027. Sassenage : prix Qipeo confirmés et vidange extérieure à l’aire principale. La Motte-Saint-Martin : règlement municipal gratuit, mais stationnement au point OSM du Vivier à confirmer. Données source non modifiées.",
   "entries": [
     {
       "sourceId": "node/4215020337",
@@ -256,6 +256,127 @@
         "https://www.rhonetourisme.com/je-prepare/hebergements-pres-de-lyon/aires-de-services/167114_aire-de-stationnement-reventin-vaugris-centre-village/"
       ],
       "lot": 521,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/528982835",
+      "place": "Allevard-les-Bains — CAMPING-CAR PARK",
+      "status": "CCP : 21 places. Au 22/11 : 6,10 €/24 h jusqu’au 23/11/2026 + taxe 1,10 € = 7,20 €; 13 € + 1,10 € du 24/11/2026 au 31/03/2027 = 14,10 €; 14 € + 1,10 € du 01/04 au 31/10/2027 = 15,10 €. Parking 5 h + services 6 €.",
+      "nextCheck": "Corriger début du tarif 6,10 € au 22/11/2026; garder périodes et taxe séparées.",
+      "sources": [
+        "https://www.openstreetmap.org/way/528982835",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/isere/allevard-les-bains"
+      ],
+      "lot": 522,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/704479293",
+      "place": "Chichilianne — Passières",
+      "status": "Office de tourisme du Trièves : stationnement 7 €/nuitée, jeton eau/électricité 3 €, ouvert du 05/05 au 15/10, borne indisponible l’hiver. Coordonnées OSM correspondent au site Passières; une seconde aire distincte existe à La Richardière aux conditions similaires.",
+      "nextCheck": "Associer cette fiche uniquement à Passières; distinguer tarif nuitée du jeton et ne pas fusionner avec La Richardière.",
+      "sources": [
+        "https://www.openstreetmap.org/way/704479293",
+        "https://www.trieves-vercors.fr/bons-plans/hebergements-chichilianne-mont-aiguille/211600_les-aires-daccueil-camping-car-de-chichilianne/"
+      ],
+      "lot": 522,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/765682592",
+      "place": "Sassenage — aire communale",
+      "status": "Qipeo : 19 places, accès 24 h/24, 10,90 €/24 h pour 2 adultes dont 0,90 € de taxe; eau 2,50 €/10 min; électricité 3,80 €/24 h. Vidanges grises/noires libres mais situées à l’extérieur de l’aire principale.",
+      "nextCheck": "Garder prix et taxe séparés; indiquer que les vidanges sont hors de l’aire principale.",
+      "sources": [
+        "https://www.openstreetmap.org/way/765682592",
+        "https://www.qipeo.com/detail/ce125405-d2de-46eb-a9b0-6829cbd5cc08",
+        "https://www.sassenage.fr/actualite/22755/13144-l-aire-de-camping-cars-est-officiellement-ouverte.htm"
+      ],
+      "lot": 522,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/911873891",
+      "place": "La Motte-Saint-Martin — services au Vivier",
+      "status": "Règlement municipal de juin 2023 : stationnement seul gratuit; vidange grises/noires et eau gratuites au Vivier; électricité gratuite sur l’aire camping-car. Aire communale jusqu’à 6 véhicules, séjour limité à 7 nuits. Le périmètre de stationnement à l’emplacement OSM du Vivier n’est pas confirmé.",
+      "nextCheck": "Maintenir localisation des services au Vivier distincte des places et branchements; vérifier droit de nuit au point OSM.",
+      "sources": [
+        "https://www.openstreetmap.org/way/911873891",
+        "https://www.lamottesaintmartin.fr/wp-content/uploads/2023/06/2023-06-21-RI-AIRE-CAMPING-CAR.pdf"
+      ],
+      "lot": 522,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/993968544",
+      "place": "Vaujany — aire de services et stationnement",
+      "status": "Alpes Isère : 10 places, eau, vidange, électricité, toute l’année; prix emplacement + services à partir de 20 €/jour ou 90 €/semaine; taxe séjour 0,66 €/personne/nuit en supplément.",
+      "nextCheck": "Garder prix comme tarif « à partir de »; distinguer taxe de séjour par personne et nuit.",
+      "sources": [
+        "https://www.openstreetmap.org/way/993968544",
+        "https://www.alpes-isere.com/sit/accueil-aire-de-camping-cars-439175/"
+      ],
+      "lot": 522,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1274875902",
+      "place": "La Mure — aire de camping-car",
+      "status": "Alpes Isère : gratuité en 2026, toute l’année, eau et vidanges; toilettes publiques à proximité et conteneurs à 30 m.",
+      "nextCheck": "Conserver gratuité; distinguer équipements voisins de ceux sur l’aire.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1274875902",
+        "https://www.alpes-isere.com/sit/aire-de-camping-car-a-la-mure-4810485/"
+      ],
+      "lot": 522,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1287812530",
+      "place": "Luzinay — centre-village",
+      "status": "Vienne Condrieu Tourisme : 4 places ombragées gratuites et réservées aux camping-cars; ravitaillement d’eau gratuit. Toilettes publiques à revérifier séparément.",
+      "nextCheck": "Garder places et eau gratuite; vérifier avant d’afficher toilettes publiques.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287812530",
+        "https://www.vienne-condrieu.com/hotellerie-plein-air/aire-de-stationnement-luzinay-centre-village-luzinay/"
+      ],
+      "lot": 522,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1287821366",
+      "place": "Eyzin-Pinet — stade, rue du Stade",
+      "status": "Vienne Condrieu Tourisme : 5 places gratuites, eau propre, vidange cassette et eaux usées, limite 48 h. Aucun tarif des services publié.",
+      "nextCheck": "Garder durée 48 h et prix des services non confirmés.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287821366",
+        "https://www.vienne-condrieu.com/hotellerie-plein-air/aire-de-stationnement-du-stade-eyzin-pinet/"
+      ],
+      "lot": 522,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1287822832",
+      "place": "Chasse-sur-Rhône — complexe sportif de Moleye",
+      "status": "Vienne Condrieu Tourisme : 4 places gratuites, ouvertes toute l’année; taxe de séjour non incluse. Aucun service d’eau ou d’électricité listé.",
+      "nextCheck": "Conserver gratuité et mention de taxe; ne pas ajouter de services.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287822832",
+        "https://www.vienne-condrieu.com/hotellerie-plein-air/aire-de-stationnement-chasse-sur-rhone-complexe-sportif-chasse-sur-rhone/"
+      ],
+      "lot": 522,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/1380067191",
+      "place": "Chasselay — 39 chemin de l’Église",
+      "status": "Alpes Isère : 3 emplacements, stationnement gratuit toute l’année 2026; borne d’eau payante, 3 branchements électriques et vidanges grises/noires. Montants des services non publiés.",
+      "nextCheck": "Garder services et gratuité du stationnement; ne pas estimer les tarifs d’eau/électricité.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1380067191",
+        "https://www.alpes-isere.com/sit/aire-de-service-accueil-camping-cars-5799270/"
+      ],
+      "lot": 522,
       "checkedAt": "2026-11-22"
     }
   ]
