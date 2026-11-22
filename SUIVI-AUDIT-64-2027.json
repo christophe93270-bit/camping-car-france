@@ -4,15 +4,15 @@
   "displayedCount": 39,
   "rawRegionalRows": 39,
   "deduplicatedRows": 0,
-  "currentLot": 439,
+  "currentLot": 440,
   "department": "64",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 39,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 439 : fiches 11 à 20 des Pyrénées-Atlantiques contrôlées. Tarifs 2027 publiés : Tardets gratuit, Sare 10 €/nuit et journée gratuite, Navarrenx gratuit. Autres aires locales tarifées contrôlées au barème 2026 avec tarifs 2027 à confirmer. Hendaye rue Ansoenia distincte du CCP École : 15 €/24 h, 30 €/48 h hors eau/électricité. Aucune donnée applicative modifiée.",
+  "note": "Lot 440 : fiches 21 à 30 contrôlées. Bénéjacq stationnement gratuit, jetons eau/électricité 2 € chacun pour 2027; Ogeu gratuit (barème 2026); Arette gratuit avec eau 5 €/100 L (2026); autres aires locales à confirmer pour 2027. Montfort tarif CCP 2027 confirmé 14,17 € TTC; deux enregistrements dans le fichier pour la même aire à dédupliquer. Aire Artouste reste « à venir », sans prix. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/7803967951",
@@ -87,8 +87,8 @@
       "place": "Montfort — CAMPING-CAR PARK",
       "lot": 438,
       "checkedAt": "2026-11-22",
-      "status": "Commune à renseigner : Montfort. Page opérateur : ouverte, 24 places; base saisonnière 12,73 €/24 h jusqu’au 31/12/2027, taxe de séjour 1,44 € publiée jusqu’au 31/12/2026. L’annuaire affiche 14,17 € actuellement.",
-      "nextCheck": "Confirmer taxe de séjour 2027 avant de valider 14,17 € TTC pour 2027; prix de base 2027 confirmé.",
+      "status": "Page CCP : base 12,73 €/24 h et taxe de séjour 1,44 € toutes deux publiées jusqu’au 31/12/2027, total 14,17 €. Tarif annuel TTC confirmé; une seconde fiche OSM pour la même aire apparaît au lot 440.",
+      "nextCheck": "Supprimer le doublon OSM node/12246291686 vs way/1088912080 et conserver une fiche CCP unique à 14,17 €/24 h pour 2027.",
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/montfort",
         "https://www.tourisme64.com/hebergements/aire-de-camping-car/montfort/ACCAMAQU064V5BIYFT-aire-de-camping-car-de-montfort/"
@@ -238,6 +238,121 @@
       "nextCheck": "Compléter Oloron-Sainte-Marie; confirmer calendrier et gratuité pour 2027 auprès de la mairie.",
       "sources": [
         "https://www.tourisme64.com/hebergements/aire-de-camping-car/oloron-sainte-marie/ACCAMAQU06400015-aire-de-camping-cars-doloron-sainte-marie/"
+      ]
+    },
+    {
+      "sourceId": "way/893704927",
+      "place": "Bénéjacq — aire municipale, Place de la Fontaine",
+      "lot": 440,
+      "checkedAt": "2026-11-22",
+      "status": "Commune à renseigner : Bénéjacq. Gratuit pour le stationnement, ouvert toute l’année avec 4 places. En 2027, eau et électricité à 2 € chacune par jeton; vidange indiquée sans tarif.",
+      "nextCheck": "Renseigner commune et préciser service par jeton (2 € eau, 2 € électricité); confirmer si les jetons couvrent une quantité/durée définie.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/benejacq/ACCAMAQU064V509WLX-aire-de-camping-cars-de-benejacq/"
+      ]
+    },
+    {
+      "sourceId": "way/893935124",
+      "place": "Ogeu-les-Bains — aire du village",
+      "lot": 440,
+      "checkedAt": "2026-11-22",
+      "status": "Commune Ogeu-les-Bains. 4 emplacements; stationnement et services (eau/vidange) gratuits selon fiche 2026; pas de branchement électrique.",
+      "nextCheck": "Confirmer que gratuité, accès et fonctionnement de l’eau/vidange restent valides en 2027.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/ogeu-les-bains/ACCAMAQU0640002P-aire-de-camping-cars-dogeu-les-bains/"
+      ]
+    },
+    {
+      "sourceId": "way/893940490",
+      "place": "Arette — aire communale chemin des Escamous",
+      "lot": 440,
+      "checkedAt": "2026-11-22",
+      "status": "10 places; stationnement gratuit toute l’année. Eau 5 € les 100 L; vidange. Le tarif est publié pour 2026, aucun barème 2027 trouvé.",
+      "nextCheck": "Confirmer tarif eau 2027 et renseigner les équipements réellement présents; pas de raccordement électrique.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/arette/ACCAMAQU0640000E-aire-de-services-et-stationnement-camping-car-darette/"
+      ]
+    },
+    {
+      "sourceId": "way/893968769",
+      "place": "Bardos — aire communale du Bourg / chemin des Écoles",
+      "lot": 440,
+      "checkedAt": "2026-11-22",
+      "status": "Commune à renseigner : Bardos. Sources de camping-caristes indiquent stationnement et services gratuits, eau et vidange; 15 places recensées. Une source signale une disponibilité saisonnière/inconstante. Tarif et statut actuels non confirmés par source municipale.",
+      "nextCheck": "Confirmer auprès de la mairie emplacement exact, nombre de places, saison d’ouverture et services; laisser le prix/statu en vérification faute de source officielle récente.",
+      "sources": [
+        "https://www.i-campingcar.fr/aires.php?ville=BARDOS",
+        "https://www.bardos.fr/contact"
+      ]
+    },
+    {
+      "sourceId": "way/954188435",
+      "place": "Orriule — aire de camping-car Labarraque",
+      "lot": 440,
+      "checkedAt": "2026-11-22",
+      "status": "Commune Orriule. 9 emplacements; tarif 2026 : 7 €/nuit sans options ou 10 €/nuit eau + électricité incluses. Tarif 2027 non publié. Coordonnées OSM à environ 250 m du point office de tourisme.",
+      "nextCheck": "Confirmer grille 2027 auprès du propriétaire; conserver les deux forfaits et ne pas confondre le prix de base avec celui incluant eau/électricité.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/orriule/ACCAMAQU064V54O972-aire-de-camping-car-labarraque/"
+      ]
+    },
+    {
+      "sourceId": "way/1088912080",
+      "place": "Montfort — doublon de l’aire CAMPING-CAR PARK, 2 bis D936",
+      "lot": 440,
+      "checkedAt": "2026-11-22",
+      "status": "Même aire que la fiche précédente node/12246291686 (lot 438), position à ~200 m. Barème 2027 confirmé : base 12,73 € + taxe 1,44 € = 14,17 €/24 h. L’ancien affichage 15,69 € n’est pas corroboré par le barème actuel.",
+      "nextCheck": "Dédupliquer les deux enregistrements OSM de Montfort; conserver une seule fiche CCP avec le tarif total 2027 de 14,17 €.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/montfort",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques"
+      ]
+    },
+    {
+      "sourceId": "way/1306408642",
+      "place": "Espès-Undurein — aire Etche Gochoki",
+      "lot": 440,
+      "checkedAt": "2026-11-22",
+      "status": "Commune Espès-Undurein. Aire privée, stationnement camping-car réservé, accueil annoncé toute l’année et limite 8 jours. Tarif informatif : nuitée à partir de 12 €, eau à partir de 3 €, électricité à partir de 5 €; barème ancien/secondaire, à faire confirmer. Coordonnées publiées par les sources divergent nettement du point OSM.",
+      "nextCheck": "Confirmer tarifs, services et point GPS auprès de l’exploitant (3124 route du Pays de Soule, Espès-Undurein); remplacer les services OSM non vérifiés après confirmation.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/1629246-aire-de-camping-cars-etche-gochoki",
+        "https://www.camping-car.com/aires/46089-etche-gochoki",
+        "https://www.en-pays-basque.fr/en/sit/aire-de-camping-cars-etche-gochoki/"
+      ]
+    },
+    {
+      "sourceId": "way/1306420697",
+      "place": "Arberats-Sillegue — aire de la ferme Mignaburia",
+      "lot": 440,
+      "checkedAt": "2026-11-22",
+      "status": "Commune Arberats-Sillegue; 6 emplacements, aire à la ferme ouverte toute l’année, sanitaires, eau, électricité et vidanges. 13,50 €/nuit en 2026; tarif 2027 non communiqué. Le point OSM est décalé d’environ 1,4 km par rapport au GPS tourisme.",
+      "nextCheck": "Confirmer prix 2027 avec la ferme et recaler la géométrie OSM (GPS tourisme 43.3419, -0.995476).",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/arberats-sillegue/ACCAMAQU064V5B32EB-aire-de-camping-car-de-la-ferme-mignaburia/"
+      ]
+    },
+    {
+      "sourceId": "way/1306429010",
+      "place": "Lecumberry — aire naturelle de camping-cars Etxola, Plateau d’Iraty",
+      "lot": 440,
+      "checkedAt": "2026-11-22",
+      "status": "Commune Lecumberry. 35 emplacements, ouverture saisonnière du 02/05 au 31/10/2026; 9,50 €/nuit en 2026. Aucun tarif 2027 confirmé. Services communs voisins (sanitaires, douches, eau); pas de vidange sur cette aire selon fiche tourisme.",
+      "nextCheck": "Confirmer ouverture 2027 et nouveau tarif; préciser que les équipements sont dans l’aire de services voisine et que la vidange n’est pas disponible.",
+      "sources": [
+        "https://www.tourisme64.com/hebergements/aire-de-camping-car/lecumberry/ACCAMAQU064V5BTLVR-aire-naturelle-de-camping-cars-etxola/"
+      ]
+    },
+    {
+      "sourceId": "way/1306434916",
+      "place": "Laruns — projet d’aire CAMPING-CAR PARK d’Artouste",
+      "lot": 440,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche opérateur toujours indiquée « à venir »; ouverture et tarif non publiés. Le 0,00 € de l’annuaire est une valeur de fiche sans tarif, pas une gratuité.",
+      "nextCheck": "Conserver le prix comme non publié et le statut à venir; suivre l’annonce d’ouverture avant toute publication tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques/laruns-artouste",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/pyrenees-atlantiques"
       ]
     }
   ]
