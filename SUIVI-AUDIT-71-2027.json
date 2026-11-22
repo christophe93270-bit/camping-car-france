@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 462,
+  "currentLot": 463,
   "department": "71",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 462 : fiches 11 à 20 contrôlées. Buffières : parking confirmé, aucun service ni prix attesté. Berzé-le-Châtel : 2 places, 24 h. Saint-André-le-Désert : deux fiches Destination 71 autour du bourg, à clarifier. Sivignon : 4 places; Passy sans capacité publiée. La Chapelle-de-Guinchay : eau gratuite, 48 h, capacité 10/20 contradictoire. Saint-Gengoux : 4 € pour 55 min électricité et 100 L d’eau; électricité signalée en panne. Tournus : parking gratuit et tarifs Qipeo eau 5 €/10 min, électricité 5 € sans durée précisée. Givry : accès annuel mais pas de prix/capacité; restriction pendant la Fête de la Vigne. Saint-Christophe-en-Brionnais : 8 places gratuites, saison 15/03–15/11/2026, fermeture ponctuelle concours de boules. Aucune donnée du site modifiée.",
+  "note": "Lot 463 : fiches 21 à 30 contrôlées. CCP Louhans Le Port : 12,51 €/24 h TTC, dont 0,80 € taxe, 21 places. Saint-Gengoux-de-Scissé : 4 places, 48h, prix non publié. Camping des Deux Rives : dès 13,40 €/nuit; forfait ACSI/SVR 17,50 € pour 2 avec électricité hors juillet/août, taxes en sus. CCP Chalon Centre : base 14/15 € selon saison 2027 + taxe 1,20 €, actuellement 15,20 € TTC, PPRI. Saint-Léger-sur-Dheune : 12 places, tarifs non publiés. Écuisses : borne hors service, parking seul gratuit. Gibles : services gratuits. Bibracte : parking camping-car dédié, prix/capacité/règles nocturnes non publiés. CCP Autun : 13 € TTC, capacité 36/39 à résoudre. Paray : services 2 €/100 L eau et 5 €/8h électricité; 27 places / 16 gratuites à clarifier. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -246,6 +246,118 @@
       "sources": [
         "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-les-campings-cars.html",
         "https://www.stchristophe-tourisme.fr/fr/stationnement/"
+      ]
+    },
+    {
+      "sourceId": "way/528968593",
+      "place": "Louhans — CCP Le Port",
+      "lot": 463,
+      "checkedAt": "2026-11-22",
+      "status": "CCP officiel : 21 places, 12,51 €/24 h TTC dont 0,80 € de taxe de séjour; PPRI signalé.",
+      "nextCheck": "Garder tarif dynamique avec date; mentionner risque PPRI.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/71-saone-et-loire/louhans-le-port?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/591636772",
+      "place": "Saint-Gengoux-de-Scissé — aire face au cimetière",
+      "lot": 463,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme 4 places et stationnement limité à 48 h; tarif non publié.",
+      "nextCheck": "Conserver 4 places/48h; prix non confirmé.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-0"
+      ]
+    },
+    {
+      "sourceId": "way/754349277",
+      "place": "Étang-sur-Arroux — Camping des Deux Rives",
+      "lot": 463,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant: 80 emplacements totaux, à partir de 13,40 €/nuit. ACSI/SVR: 17,50 € pour 2 personnes avec électricité hors juillet-août; taxes de séjour et écotaxe en sus.",
+      "nextCheck": "Afficher prix comme départ camping; confirmer final et dates à la réservation; distinguer tarif ACSI et taxes.",
+      "sources": [
+        "https://www.des2rives.com/branches/emplacement-tente-caravane-voiture/",
+        "https://www.des2rives.com/hebergements/emplacement-1-tente-caravane-1-voiture-electricite-2-pers-2/"
+      ]
+    },
+    {
+      "sourceId": "way/779507411",
+      "place": "Chalon-sur-Saône — CCP Centre",
+      "lot": 463,
+      "checkedAt": "2026-11-22",
+      "status": "24 places, 6 A, PPRI. Base 14 €/24 h du 23/09/2026 au 30/04/2027, puis 15 € du 01/05 au 30/09/2027; taxe 1,20 € en sus. TTC actuel 15,20 €.",
+      "nextCheck": "Séparer base/taxe; conserver le tarif actuel et les périodes 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/chalon-sur-saone-centre"
+      ]
+    },
+    {
+      "sourceId": "way/858167938",
+      "place": "Saint-Léger-sur-Dheune — aire intercommunale",
+      "lot": 463,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71: 12 places, eau, électricité, vidange et parking; prix non publié.",
+      "nextCheck": "Tarif à confirmer auprès de la collectivité.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-intercommunale-pour-camping-car.html"
+      ]
+    },
+    {
+      "sourceId": "way/951964310",
+      "place": "Écuisses — aire de services",
+      "lot": 463,
+      "checkedAt": "2026-11-22",
+      "status": "Parking gratuit, borne hors service jusqu’à nouvel ordre; jeton historique 2 €, inutilisable pendant la panne.",
+      "nextCheck": "Annoncer uniquement stationnement, ne pas garantir eau/électricité/vidange; confirmer remise en service.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html"
+      ]
+    },
+    {
+      "sourceId": "way/963893300",
+      "place": "Gibles — place de l’ancienne gare",
+      "lot": 463,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme forfait de services gratuit (eau potable, électricité, vidange eaux usées et WC); capacité et tarif de nuitée inconnus.",
+      "nextCheck": "Conserver gratuité des services; ne pas inventer nuitée/capacité.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car.html"
+      ]
+    },
+    {
+      "sourceId": "way/967919177",
+      "place": "Saint-Léger-sous-Beuvray — parking visiteurs de Bibracte",
+      "lot": 463,
+      "checkedAt": "2026-11-22",
+      "status": "Bibracte confirme parking dédié aux camping-cars, distinct du parking général d’environ 100 places. Capacité propre, prix et nuitée non publiés. Site ouvert toute l’année sauf eau/WC; musée saisonnier 14/03–15/11/2026.",
+      "nextCheck": "Garder tarifs/capacité/nuitée non confirmés; ne pas attribuer les 100 places générales aux camping-cars.",
+      "sources": [
+        "https://www.bibracte.fr/infos-pratiques",
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/site-de-bibracte.html"
+      ]
+    },
+    {
+      "sourceId": "way/1117776001",
+      "place": "Autun — CCP Plan d’eau du Vallon",
+      "lot": 463,
+      "checkedAt": "2026-11-22",
+      "status": "CCP: 13 €/24h TTC dont 1 € taxe; base 12 € + taxe 1 € jusqu’au 31/12/2027. Capacité de page actuelle 39, autre valeur précédente 36; deux objets OSM fusionnés en un seul lieu.",
+      "nextCheck": "Garder prix et une seule aire; confirmer capacité 36 ou 39 auprès du gestionnaire/ville.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/saone-et-loire/autun"
+      ]
+    },
+    {
+      "sourceId": "way/1274458667",
+      "place": "Paray-le-Monial — aire du Parc du Moulin Liron",
+      "lot": 463,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme: 27 emplacements au total et 16 stationnements gratuits mentionnés séparément; parking/vidange gratuits, eau 2 €/100L, électricité 5 €/8h.",
+      "nextCheck": "Séparer parking/vidange gratuits des services payants; demander si les 16 sont inclus dans les 27.",
+      "sources": [
+        "https://www.tourisme-paraylemonial.fr/campings-et-aire-de-camping-cars/aire-de-stationnement-et-de-service-pour-camping-car-ACCBOU071V500N6F.html"
       ]
     }
   ]
