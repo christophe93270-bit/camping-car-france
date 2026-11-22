@@ -4,15 +4,15 @@
   "displayedCount": 69,
   "rawRegionalRows": 69,
   "deduplicatedRows": 0,
-  "currentLot": 508,
+  "currentLot": 509,
   "department": "35",
   "progress": {
-    "checked": 30,
+    "checked": 40,
     "total": 69,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lots 506 à 508 : 30/69 fiches vérifiées. Lot 508 : fermeture hivernale de Saint-Guinoux consignée; périodes tarifaires CCP mises à jour pour Saint-Guinoux, Le Vivier-sur-Mer et Le Pertre; prix de Cancale à clarifier; tarifs non officiels ou anciens conservés comme non confirmés. Aucun fichier source modifié.",
+  "note": "Lots 506 à 509 : 40/69 fiches vérifiées. Lot 509 : tarifs confirmés pour Guipry-Messac, Combourg, Grand-Fougeray et Montauban; stationnement gratuit documenté à La Guerche, Crevin et Antrain; tarif de l’aire de services de Châtillon et de Bain-de-Bretagne à confirmer. Aucun fichier source modifié.",
   "entries": [
     {
       "sourceId": "node/11897389616",
@@ -375,6 +375,122 @@
         "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-car-de-teillay-teillay-fr-6310483/"
       ],
       "lot": 508,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Châtillon-en-Vendelais — camping Les Rives du Lac",
+      "status": "Aire de services accessible aux camping-cars de passage selon Vitré Communauté; tarif de la borne non publié. Camping fermé du 02/11 au 27/03; disponibilité de l’aire de services durant la fermeture à confirmer.",
+      "nextCheck": "Garder tarif service non confirmé; vérifier accès en hiver; ne pas confondre forfait camping avec prix de borne.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/4268770-aire-de-camping-car",
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/camping-les-rives-du-lac-chatillon-en-vendelais-fr-2726480/"
+      ],
+      "lot": 509,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Martigné-Ferchaud — aire communale",
+      "status": "Deux places, stationnement maximum 24 h selon Camping-car.com. Gratuité rapportée par annuaire communautaire, non confirmée par source municipale.",
+      "nextCheck": "Préciser les deux places et limite 24 h; conserver gratuité avec réserve et confirmer à la commune.",
+      "sources": [
+        "https://www.camping-car.com/aires/15286-aire-communale/",
+        "https://www.lecampeur.fr/service/aire-camping-car-gratuite-martigne-ferchaud-ph59ko"
+      ],
+      "lot": 509,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Guipry-Messac — aire du port",
+      "status": "Mairie: 26 places, accès 24/24, eau et vidange, électricité optionnelle. Qipeo: 9,16 €/24 h pour 2 adultes, taxe 1,16 € comprise; électricité optionnelle 4 €.",
+      "nextCheck": "Conserver tarif de stationnement et option électrique séparément.",
+      "sources": [
+        "https://www.guipry-messac.fr/halte-camping-car/",
+        "https://www.qipeo.com/detail/6f738a75-5b48-4020-ad90-e96230e549d6"
+      ],
+      "lot": 509,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "La Guerche-de-Bretagne — parking du Champ de Foire",
+      "status": "Mairie: stationnement camping-car gratuit; parking fermé le mardi matin pour le marché; prix des services non publié.",
+      "nextCheck": "Préciser gratuité stationnement et fermeture du mardi matin; prix services à confirmer.",
+      "sources": [
+        "https://www.laguerchedebretagne.fr/stationnement-a-la-guerche-de-bretagne/"
+      ],
+      "lot": 509,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Grand-Fougeray — aire municipale",
+      "status": "Guide Village étape 2026: stationnement et vidange gratuits, eau 2 €. Commune: accès 24/24; ouverture des services hors période de gel à confirmer; électricité non documentée.",
+      "nextCheck": "Garder eau à 2 €, stationnement et vidange gratuits; ne pas indiquer prix électricité.",
+      "sources": [
+        "https://village-etape.fr/wp-content/uploads/2026/03/2026_guide_ccar_A5_livret_l.pdf",
+        "https://www.grand-fougeray.fr/aire-de-camping-car/"
+      ],
+      "lot": 509,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Crevin — aire municipale",
+      "status": "IntraMuros: stationnement gratuit, maximum 6 camping-cars, vidanges; eau potable gratuite par jeton disponible chez les commerçants partenaires.",
+      "nextCheck": "Préciser que le jeton active l’eau et que son prix n’est pas publié; conserver gratuité.",
+      "sources": [
+        "https://www.intramuros.org/crevin/commerces/65824"
+      ],
+      "lot": 509,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Combourg — camping municipal Le Vieux Châtel",
+      "status": "Saint-Malo Tourisme: eau, électricité et vidange à 2 € par jeton; vidange toute l’année; jetons disponibles à la mairie pendant la fermeture du camping.",
+      "nextCheck": "Distinguer prix de service et prix nuitée du camping; maintenir 2 €/jeton.",
+      "sources": [
+        "https://www.saint-malo-tourisme.com/poser-ses-valises/ou-dormir/campings/aire-de-services-de-combourg-combourg-fr-3711949/"
+      ],
+      "lot": 509,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Bain-de-Bretagne — aire extérieure du Camping du Lac",
+      "status": "Communauté confirme borne extérieure pour vidange, eau et électricité; jetons vendus au camping. Tarif et accès actuels non publiés.",
+      "nextCheck": "Laisser montant non confirmé et vérifier auprès du camping.",
+      "sources": [
+        "https://www.bretagneportedeloire.fr/aires-de-camping-car/",
+        "https://www.campinglac.fr/camping-restaurant-bain-de-bretagne"
+      ],
+      "lot": 509,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Montauban-de-Bretagne — borne camping-car rue de Dinan",
+      "status": "Mairie: camping fermé en 2026 mais borne accessible toute l’année. Barème municipal 2026 consulté: nuitée avec eau/traitement 9 € TTC; eau additionnelle 2 €/10 min; électricité 2 €/2 h, 3 €/3 h ou 4 €/4 h max.",
+      "nextCheck": "Garder l’ouverture de la borne distincte du camping fermé et séparer tarifs nuitée/services.",
+      "sources": [
+        "https://www.montauban-de-bretagne.fr/tarifs-municipaux-du-camping/",
+        "https://politique.pappers.fr/commune/document/18c4d36578248b4c8ffb461ca9d318ed"
+      ],
+      "lot": 509,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Val-Couesnon — service camping-car d’Antrain",
+      "status": "Destination Fougères confirme stationnement et services gratuits: eau, vidange, sanitaires. Un emplacement permanent et un second temporaire pour la vidange.",
+      "nextCheck": "Préciser la seule place de stationnement permanente; maintenir gratuité.",
+      "sources": [
+        "https://www.destination-fougeres.bzh/aire-camping-car/service-camping-car-dantrain/"
+      ],
+      "lot": 509,
       "checkedAt": "2026-11-22"
     }
   ]
