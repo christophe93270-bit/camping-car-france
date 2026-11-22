@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 473,
+  "currentLot": 474,
   "department": "71",
   "progress": {
-    "checked": 130,
+    "checked": 140,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 473 : fiches 121 à 130 contrôlées. Sommant : eau/vidange confirmées, tarif et nuitée non publiés; distinguer du camping voisin. Mezaneau : stationnement gratuit confirmé, services non documentés. Les Bruyères : grille officielle 2026 20/29/39/29/20 € selon dates; saison officielle 19/04–11/10, corrige les dates en fiche. Route de Beuvray : eau/vidange, tarif non publié et distinct de Bibracte. Fleurville : gratuité du stationnement, eau à 2 € selon grille 2022, à actualiser. Beaubery : gratuit et services selon mairie, capacité divergente/non confirmée. Super U : forfait service 2 € en 2024, à reconfirmer. Salornay : 6 places confirmées, pas de prix/services. Camping municipal Saint-Bonnet-de-Joux toujours signalé fermé depuis le 18/06/2024. Pont de Bussy : 9 €/1 personne, 16 €/2 personnes avec électricité; saison 01/04–30/09/2026. Aucune donnée du site modifiée.",
+  "note": "Lot 474 : fiches 131 à 140 contrôlées. Volesvres : tarifs 2026 6,60 €/emplacement, 3,30 €/adulte, 1,70 €/enfant, 3,20 €/électricité selon source secondaire; grille mairie 2025 distingue enfants de 7–18 ans à 3,30 €, ouvertures divergentes. Boutière : 17,20–23,20 €, composition 2 adultes et électricité +4,50 €. Portes du Morvan : service vidange confirmé; tarif nuitée non trouvé, laverie 3 € distincte. Château Valogne: nu 5,50–6 €, électricité 4,50; saison 15/04–15/10. La Chauvotte et Camping de la Plage: tarifs/saisons 2026 confirmés. Montrouant: grille actuelle opérateur à 27 € forfait basse saison vs 25 € fiche, détails unitaires divergents, année non datée; accès camping-car difficile, 3 nuits min. Étang du Rousset: 20 places mais statut incertain (fiche vieille), pas de tarif; confirmer exploitation. Bords de Seille: grille officielle 12/14 €, suppléments distincts, capacité 32/33. Camping d’Autun: offre promo 15 € du 04–17/10/2026 échue; fermeture 17/10 vs 31/10 à clarifier. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -1437,6 +1437,117 @@
         "https://www.anost.fr/camping-du-pont-de-bussy/",
         "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-du-pont-de-bussy.html",
         "https://www.anost.fr/static/2e2c6ff226dd23e322dd4389dac3fb16/cm--260306-pv-compressed.pdf"
+      ]
+    },
+    {
+      "place": "Camping municipal de Volesvres",
+      "lot": 474,
+      "checkedAt": "2026-11-22",
+      "status": "CampingFrance publie 2026 : emplacement 6,60 €, adulte 3,30 €, enfant 1,70 €, électricité 3,20 €. La grille communale retrouvée est 2025 et distingue 7–18 ans à 3,30 €, -7 ans à 1,70 €. Annuaire divergents pour l’ouverture (15/06–11/09 vs 17/06–06/09).",
+      "nextCheck": "Obtenir tarifs/dates municipaux 2026; ne pas simplifier la catégorie enfants depuis la grille 2025.",
+      "sources": [
+        "https://www.campingfrance.com/recherchez-votre-camping/bourgogne-franche-comte/saone-et-loire/volesvres/camping-municipal56",
+        "https://www.volesvres.fr/static/c55811d99089a62765396245c836b4d0/reservation-camping--25.pdf"
+      ]
+    },
+    {
+      "place": "Camping de la Boutière",
+      "lot": 474,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 mise à jour 30/01/2026 : 17,20–23,20 €/jour; base deux adultes sans électricité, supplément électricité 4,50 €. Ouvert 15/04–15/10/2026, 36 places.",
+      "nextCheck": "Garder prix avec sa composition et saison 2026; distinguer aire route de Beuvray.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-de-la-boutiere.html",
+        "https://www.autun-tourisme.com/offres/camping-de-la-boutiere-saint-leger-sous-beuvray-fr-3456515/"
+      ]
+    },
+    {
+      "place": "Camping Les Portes du Morvan",
+      "lot": 474,
+      "checkedAt": "2026-11-22",
+      "status": "Sources touristiques confirment camping-car, évacuation eaux usées, 72 emplacements au total. Pas de forfait nuitée officiel statique retrouvé; laverie à 3 € sur le site, qui n’est pas le prix camping.",
+      "nextCheck": "Demander tarif camping-car au gestionnaire; ne pas confondre prix laverie.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-les-portes-du-morvan.html",
+        "https://www.camping-lesportesdumorvan.com/contact.htm",
+        "https://www.camping-lesportesdumorvan.com/emplacements.htm"
+      ]
+    },
+    {
+      "place": "Petit camping du Château de Valogne",
+      "lot": 474,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : 25 emplacements, ouvert 15/04–15/10/2026; nu 5,50–6 €/jour, électricité 4,50 €. À distinguer de l’aire de services de Valogne.",
+      "nextCheck": "Grille et saison 2026 concordent; garder distinct du service camping-car voisin.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/petit-camping-du-chateau-de-valogne.html"
+      ]
+    },
+    {
+      "place": "Camping La Chauvotte",
+      "lot": 474,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : six emplacements; saison 01/05–26/09/2026; nu 16,50–19,50 €/jour, électrifié 20–25 €, adulte 7–7,50 €.",
+      "nextCheck": "Tarifs et saison 2026 confirmés.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-la-chauvotte.html",
+        "https://www.autun-tourisme.com/offres/camping-la-chauvotte-la-grande-verriere-fr-3456640/"
+      ]
+    },
+    {
+      "place": "Camping municipal de la Plage",
+      "lot": 474,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche touristique : saison 25/04–30/09/2026, 88 places et 2 mobil-homes; nu 8,80–20,90 €, électrifié 13,30–14,30 € par jour.",
+      "nextCheck": "Tarifs et dates 2026 confirmés; ne pas reconduire sans nouvelle grille.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-municipal-de-la-plage.html",
+        "https://www.creusotmontceautourisme.fr/offres/camping-municipal-de-la-plage-saint-nizier-sur-arroux-fr-5307052/"
+      ]
+    },
+    {
+      "place": "Camping du Château de Montrouant",
+      "lot": 474,
+      "checkedAt": "2026-11-22",
+      "status": "Site opérateur actuel : forfait basse saison 27 € pour 2 + emplacement/véhicule/électricité; grille unitaire adulte 11,50 €, enfant -7 ans 7 €, emplacement/véhicule 16,50 €, électricité 7 € caravane/5 € tente, chien 3,50 €, taxe 0,20 €. Fiche indique 25 € et autres montants. Année de la grille non annoncée. Saison 14/06–13/09/2026; CC accès difficile, 3 nuits min.",
+      "nextCheck": "Confirmer l’année de la grille; si actuelle/2026, corriger le 25 € en 27 € et prix unitaires; maintenir avertissement gabarit et séjour mini.",
+      "sources": [
+        "https://chateau-de-montrouant.com/camping/",
+        "https://www.tourismecharolaisbrionnais.fr/chateaux/chateau-de-montrouant-PCUBOU071V501H65.html"
+      ]
+    },
+    {
+      "place": "Camping de l’Étang du Rousset",
+      "lot": 474,
+      "checkedAt": "2026-11-22",
+      "status": "20 emplacements listés dans annuaires. Une fiche touristique actualisée 2023 avertit que statut est incertain; site communal confirme seulement saison du lac/activités en 2026, pas l’exploitation du camping ni tarif.",
+      "nextCheck": "Confirmer ouverture du camping 2027, nuitée, tarifs et disponibilité auprès du gestionnaire.",
+      "sources": [
+        "https://www.tourismecharolaisbrionnais.fr/campings/camping-de-l-etang-du-rousset-HPABOU071142465.html",
+        "https://www.lerousset-marizy.fr/decouvrir-la-commune/lac-du-rousset/"
+      ]
+    },
+    {
+      "place": "Camping Les Bords de Seille",
+      "lot": 474,
+      "checkedAt": "2026-11-22",
+      "status": "Site officiel : forfait 1 personne + véhicule/camping-car 12/14 € basse/haute saison; adulte sup 5/6,50 €, enfant 5–13 ans 2,50/4 €, moins de 5 ans gratuit; électricité 5,50 €, taxe séjour 0,40 €/adulte/jour. Exploitant 32 emplacements, fiche tourisme 33; saison déclarée 01/03–30/11. Aire de service séparée, proche.",
+      "nextCheck": "Tarifs détaillés confirmés; garder les taxes/électricité séparées et capacité annotée 32/33.",
+      "sources": [
+        "https://www.campingdesbordsdeseille.com/hebergements/emplacements",
+        "https://www.campingdesbordsdeseille.com/",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-les-bords-de-seille.html"
+      ]
+    },
+    {
+      "place": "Camping d’Autun",
+      "lot": 474,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 : emplacement électrifié 12–35 €/jour, saison 03/04–31/10/2026. Site opérateur : offre fixe 15 €/jour du 04–17/10, taxe séjour en sus; page dit ouvert jusqu’au 17/10. Promo passée et fermeture diffère de la fiche touristique.",
+      "nextCheck": "Ne pas présenter l’offre d’octobre 2026 comme disponible; clarifier la date de fermeture 17/10 vs 31/10 pour la prochaine saison.",
+      "sources": [
+        "https://www.campingautun.fr/tarifs/",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-dautun.html"
       ]
     }
   ]
