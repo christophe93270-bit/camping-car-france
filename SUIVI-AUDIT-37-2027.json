@@ -1,0 +1,141 @@
+{
+  "scope": "Indre-et-Loire (37) : audit des tarifs, services, capacités et périodes d’ouverture des fiches de aires-indre-et-loire.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 39,
+  "rawRegionalRows": 39,
+  "deduplicatedRows": 0,
+  "currentLot": 516,
+  "department": "37",
+  "progress": {
+    "checked": 10,
+    "total": 39,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Audit en cours : lot 516 terminé (10/39). Distinction maintenue entre stationnement simple, camping et aires CCP; barèmes 2027 confirmés mis à jour dans le rapport. Fiches source non modifiées.",
+  "entries": [
+    {
+      "sourceId": "node/6784712639",
+      "place": "Loches — allée du Maquis Césario",
+      "status": "Mairie : quatre zones camping-car limitées à 24 h dont Maquis Césario; gratuité sourcée par tourisme. Borne de services distincte avenue Aristide Briand.",
+      "nextCheck": "Maintenir stationnement gratuit limité à 24 h; ne pas attribuer services du site voisin.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6784712639",
+        "https://www.ville-loches.fr/stationnement-et-transport-article-2-6-17.html",
+        "https://www.tourainevaldeloire.com/preparer-votre-sejour/hebergements/tous-les-hebergements/aire-de-stationnement-allee-du-maquis-cesario-loches-fr-5152451/"
+      ],
+      "lot": 516,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/11923665064",
+      "place": "Continvoir — aire de camping-cars",
+      "status": "Touraine Nature référence une aire à Continvoir; tarif, capacité et équipements non détaillés dans source consultée.",
+      "nextCheck": "Garder prix et services non confirmés.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11923665064",
+        "https://www.tourainenature.com/planifier-mon-sejour/ou-dormir/aires-de-camping-cars/"
+      ],
+      "lot": 516,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/11923717576",
+      "place": "La Chapelle-sur-Loire — quais de Loire",
+      "status": "La Loire à Vélo confirme le stationnement camping-car aux quais et indique que la nuitée n’est pas autorisée; prix et services non publiés.",
+      "nextCheck": "Présenter comme stationnement de jour sans nuitée.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11923717576",
+        "https://www.loireavelo.fr/tsft/aire-de-stationnement-de-camping-cars-de-la-chapelle-sur-loire-la-chapelle-sur-loire/"
+      ],
+      "lot": 516,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/12085320864",
+      "place": "Chinon — aire CAMPING-CAR PARK",
+      "status": "CCP : base 13,23 €/24 h du 22/11/2026 au 31/12/2027; taxe 1,22 € en 2026 et 2027; parking 5 h + services 6 €; total 14,45 €.",
+      "nextCheck": "Actualiser date de début et noter que taxe 2027 est confirmée à 1,22 €.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12085320864",
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/chinon"
+      ],
+      "lot": 516,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "node/12202114284",
+      "place": "Descartes — camping La Roseraie",
+      "status": "Exploitant : 2026, forfait camping 15 € hors été et 24 € du 1er juillet au 31 août pour 2 adultes; électricité 6 €; ouvert du 13 mai au 13 septembre 2026.",
+      "nextCheck": "Laisser tarif 2027 non publié; distinguer prix du camping et aire de service.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12202114284",
+        "https://www.camping-descartes.fr/emplacements/"
+      ],
+      "lot": 516,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/253659162",
+      "place": "Esvres-sur-Indre — aire Paul Destruel / CCP",
+      "status": "CCP : 12 €/24 h du 22/11/2026 au 31/12/2027 + taxe 1,22 €/24 h jusqu’au 31/12/2027, total 13,22 €; parking 5 h + services 6 €; 16 places.",
+      "nextCheck": "Actualiser date de début du barème de base au 22/11/2026; garder taxe et forfait 5 h distincts.",
+      "sources": [
+        "https://www.openstreetmap.org/way/253659162",
+        "https://ville-esvres.fr/index.php?Itemid=247&id=30&option=com_content&view=article",
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/esvres"
+      ],
+      "lot": 516,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/269161826",
+      "place": "Château-Renault — CAMPING-CAR PARK",
+      "status": "CCP : base 12,73 €/24 h du 22/11/2026 au 31/12/2027; taxe 0 € jusqu’à fin 2026 puis 0,44 €/24 h en 2027; parking 5 h + services 6 €.",
+      "nextCheck": "Présenter total 2026 12,73 € et total 2027 13,17 €; préciser évolution de taxe.",
+      "sources": [
+        "https://www.openstreetmap.org/way/269161826",
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/chateau-renault"
+      ],
+      "lot": 516,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/318654213",
+      "place": "Gizeux — aire municipale",
+      "status": "Mairie : gratuite et accessible toute l’année; vidanges gratuites; jeton eau 2 €; aucune électricité confirmée.",
+      "nextCheck": "Garder stationnement gratuit et eau 2 €/jeton; ne pas annoncer électricité.",
+      "sources": [
+        "https://www.openstreetmap.org/way/318654213",
+        "https://gizeux.fr/culture-et-loisirs/camping-et-aires/"
+      ],
+      "lot": 516,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/446498467",
+      "place": "Amboise — avenue Léonard de Vinci",
+      "status": "La Loire à Vélo : 12 places, stationnement jour/nuit, aucun service. Publication municipale de 2015 sur gratuité insuffisante pour établir tarif actuel.",
+      "nextCheck": "Garder prix non confirmé; distinguer du CCP Île d’Or.",
+      "sources": [
+        "https://www.openstreetmap.org/way/446498467",
+        "https://www.loireavelo.fr/tsft/aire-de-stationnement-amboise/",
+        "https://www.ville-amboise.fr/fileadmin/www.ville-amboise.fr/MEDIA/Publications/Journal_municipal/2015/MAG-AMBOISE-N-0064-DEC-2015-WEB.pdf"
+      ],
+      "lot": 516,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/715442136",
+      "place": "Amboise — CCP Île d’Or",
+      "status": "CCP : 15,78 €/24 h du 22/11/2026 au 31/12/2027 + taxe 1,22 €/24 h jusqu’au 31/12/2027 = 17 €; parking 5 h + services 6 €; 24 places avec électricité.",
+      "nextCheck": "Actualiser date de début du prix de base; tarif actuel et taxe séparés.",
+      "sources": [
+        "https://www.openstreetmap.org/way/715442136",
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre-et-loire/amboise"
+      ],
+      "lot": 516,
+      "checkedAt": "2026-11-22"
+    }
+  ]
+}
