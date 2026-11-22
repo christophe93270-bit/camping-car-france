@@ -4,15 +4,15 @@
   "displayedCount": 23,
   "rawRegionalRows": 23,
   "deduplicatedRows": 0,
-  "currentLot": 431,
+  "currentLot": 432,
   "department": "62",
   "progress": {
-    "checked": 20,
+    "checked": 23,
     "total": 23,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 3,
+    "totalInLot": 3
   },
-  "note": "Lot 431 : fiches 11 à 20 contrôlées. Tarifs 2027 publiés pour Avion, Saint-Omer et Bapaume. Watten est géographiquement dans le Nord (59) et l’ancienne aire de Cucq a été supprimée. L’identité de l’aire des Glissoires doit être réconciliée avec l’aire CCP d’Avion; à Saint-Omer, le tarif saisonnier 2027 (12 € + taxe 0,80 €) diffère de 0,20 € de l’affichage courant. Aucun lieu ajouté ni aucune donnée applicative modifiée.",
+  "note": "Lot 432 : fiches 21 à 23 contrôlées; les 23 lignes du Pas-de-Calais sont auditées. Tarifs 2027 CCP confirmés pour Parc d’Olhain et Avion; au Portel, le tarif de base est publié jusqu’en 2027 mais la taxe de séjour après 2026 reste à confirmer. Aucun ajout ni modification des données applicatives. Les anomalies relevées aux lots 430-431 sont consignées dans les rapports.",
   "entries": [
     {
       "sourceId": "node/14276755486",
@@ -238,6 +238,39 @@
       "nextCheck": "Aucun contrôle tarifaire supplémentaire requis pour le tarif 2027.",
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/bapaume"
+      ]
+    },
+    {
+      "sourceId": "way/1567933740",
+      "place": "Parc départemental d’Olhain — aire CAMPING-CAR PARK, Maisnil-lès-Ruitz",
+      "lot": 432,
+      "checkedAt": "2026-11-22",
+      "status": "Opérateur : base 15 €/24 h du 05/11/2026 au 31/12/2027 + taxe 1,20 €/24 h = 16,20 €; 5 h + services 6 €. Total de la fiche confirmé.",
+      "nextCheck": "Aucun contrôle supplémentaire requis pour le tarif 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/parc-dolhain"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Le Portel — aire CAMPING-CAR PARK, rue des Champs",
+      "lot": 432,
+      "checkedAt": "2026-11-22",
+      "status": "Opérateur : tarif de base 14,25 €/24 h jusqu’au 31/12/2027. L’affichage courant à 15,45 € inclut une taxe de 1,20 € dont la validité publiée s’arrête au 31/12/2026; pas de taxe 2027 distincte retrouvée. 5 h + services : 6 €.",
+      "nextCheck": "Confirmer le montant de taxe de séjour applicable en 2027 avant validation du total TTC.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/le-portel?areaType=stopover-site-motorhome"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Avion — aire CAMPING-CAR PARK, rue Pierre-Baudel",
+      "lot": 432,
+      "checkedAt": "2026-11-22",
+      "status": "Tarifs 2027 : 12 €/24 h jusqu’au 31/03, 13,80 € du 01/04 au 31/10, puis 12 € du 01/11 au 31/12; taxe de séjour 1,10 €/24 h. Totaux correspondants 13,10 €, 14,90 € et 13,10 €. 5 h + services : 6 €.",
+      "nextCheck": "Tarif 2027 confirmé; prendre en compte le tarif saisonnier à partir du 01/04/2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/avion"
       ]
     }
   ]
