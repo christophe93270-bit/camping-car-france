@@ -4,15 +4,15 @@
   "displayedCount": 48,
   "rawRegionalRows": 48,
   "deduplicatedRows": 0,
-  "currentLot": 435,
+  "currentLot": 436,
   "department": "63",
   "progress": {
-    "checked": 30,
+    "checked": 40,
     "total": 48,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 435 : fiches 21 à 30 contrôlées. Tarifs CCP 2027 : Égliseneuve-d’Entraigues (base 13 €/24 h, taxe 2027 à confirmer) et Riom (12,72 € TTC). L’aire municipale de Treize Vents au Breuil-sur-Couze est signalée fermée définitivement. Pont-du-Château correspond à une borne de services/une place, pas à une aire de nuit établie. Aucune donnée applicative modifiée.",
+  "note": "Lot 436 : fiches 31 à 40 contrôlées. Bruyères localisée à Chapdes-Beaufort mais tarif/statut non confirmés; Lezoux : stationnement gratuit distinct de la borne eau à 2 €/10 min; Crouzets au Mont-Dore : 15 €/24 h + taxe, forfaits 95 €/7 nuits et 270 €/21 nuits. Tarifs CCP contrôlés, trois taxes 2027 encore à confirmer; incohérence tarifaire Bromont 16,17 € non retrouvée sur la fiche actuelle (14,02 €). Aucune donnée applicative modifiée.",
   "entries": [
     {
       "sourceId": "node/5835931285",
@@ -355,6 +355,122 @@
       "nextCheck": "Confirmer la fermeture avec la commune et retirer ou signaler la fiche comme fermée.",
       "sources": [
         "https://www.campercontact.com/fr/france/auvergne-rhone-alpes/le-breuil-sur-couze/4244/aire-municipale"
+      ]
+    },
+    {
+      "sourceId": "way/1392026948",
+      "place": "Chapdes-Beaufort — aire des Bruyères",
+      "lot": 436,
+      "checkedAt": "2026-11-22",
+      "status": "Point localisé à Chapdes-Beaufort; aire recensée par les annuaires, mais aucune source communale fiable retrouvée pour confirmer fonctionnement, services ou tarif.",
+      "nextCheck": "Confirmer auprès de la mairie de Chapdes-Beaufort si l’aire est ouverte, ses équipements et son tarif; la position OSM ne suffit pas.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1392026948",
+        "https://www.lezoux.fr/"
+      ]
+    },
+    {
+      "sourceId": "way/1392028618",
+      "place": "Lezoux — aire municipale, rue de la République",
+      "lot": 436,
+      "checkedAt": "2026-11-22",
+      "status": "Ville de Lezoux : aire d’accueil gratuite rue de la République près du musée; l’office mentionne une borne de service avec eau à 2 €/10 min. Stationnement et service sont des tarifs distincts; l’emplacement OSM rue des Bombènes semble imprécis.",
+      "nextCheck": "Corriger/recaler le point GPS sur l’aire officielle de la rue de la République; vérifier auprès de la mairie si borne et stationnement sont actuellement accessibles.",
+      "sources": [
+        "https://www.lezoux.fr/accueil/vie-touristique/tourisme/maison-du-tourisme/",
+        "https://www.lezoux.fr/accueil/vie-pratique/stationner/",
+        "https://www.auvergne-livradois-forez.com/app/uploads/livradois/2026/04/Liste-Exhaustive-camping-2026.pdf"
+      ]
+    },
+    {
+      "sourceId": "way/1413719208",
+      "place": "Le Mont-Dore — aire des Crouzets",
+      "lot": 436,
+      "checkedAt": "2026-11-22",
+      "status": "Commune confirme l’aire ouverte 24h/24 : 15 €/24 h (électricité 6 A, eau et vidanges inclus), taxe de séjour et taxe additionnelle affichées à 0,66 €/nuit/véhicule; forfaits 7 nuits 95 €, 21 nuits 270 €. Vidange Flot Bleu seule : 2 €.",
+      "nextCheck": "Confirmer le barème 2027 et renseigner la commune Le Mont-Dore; distinguer le forfait de stationnement des 2 € de vidange seule.",
+      "sources": [
+        "https://mairie-mont-dore.fr/fr/rb/103300/aire-de-camping-car-des-crouzets",
+        "https://www.sancy.com/fr/fiche/hotellerie-plein-air/aire-d-accueil-et-de-services-des-crouzets-mont-dore_TFO924665/"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Murat-le-Quaire — CAMPING-CAR PARK",
+      "lot": 436,
+      "checkedAt": "2026-11-22",
+      "status": "Base 13,70 €/24 h et taxe de séjour 1,32 € publiées jusqu’au 31/12/2027; total 15,02 €. Le tarif actuel et le montant 2027 sont cohérents.",
+      "nextCheck": "Aucune correction immédiate; surveiller mise à jour éventuelle opérateur.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/murat-le-quaire-les-rives-du-lac?areaType=stopover-site-motorhome"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Courpière — CAMPING-CAR PARK Les Taillades",
+      "lot": 436,
+      "checkedAt": "2026-11-22",
+      "status": "Base 13,84 €/24 h et taxe de séjour 1,32 € publiées jusqu’au 31/12/2027; total 15,16 € cohérent.",
+      "nextCheck": "Aucune correction immédiate; surveiller mise à jour éventuelle opérateur.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/courpiere?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Anzat-le-Luguet — CAMPING-CAR PARK, borne services",
+      "lot": 436,
+      "checkedAt": "2026-11-22",
+      "status": "Borne seule, sans nuitée; 6 €/service (eau, électricité, vidange), tarif publié jusqu’au 31/12/2027.",
+      "nextCheck": "Aucune correction immédiate; conserver le type service sans stationnement.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/as-anzat-le-luguet?areaType=aire-services-camping-car"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Murol — CAMPING-CAR PARK",
+      "lot": 436,
+      "checkedAt": "2026-11-22",
+      "status": "Base 13,75 €/24 h du 19/11/2026 au 31/12/2027; total actuel affiché 15,07 €, mais taxe de séjour 1,32 € n’est publiée que jusqu’au 31/12/2026.",
+      "nextCheck": "Confirmer taxe de séjour 2027 avant de figer 15,07 € comme total TTC pour toute l’année 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/murol"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Nectaire — CAMPING-CAR PARK",
+      "lot": 436,
+      "checkedAt": "2026-11-22",
+      "status": "Base 13,75 €/24 h du 02/11/2026 au 31/12/2027; total actuel 15,07 €, mais taxe de séjour 1,32 € n’est publiée que jusqu’au 31/12/2026.",
+      "nextCheck": "Confirmer taxe de séjour 2027; l’office de tourisme indique un montant différent de 1,36 € pour les tarifs 2026, à clarifier avec l’opérateur.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/saint-nectaire?areaType=stopover-site-motorhome",
+        "https://www.sancy.com/fr/fiche/hotellerie-plein-air/aire-de-service-et-d-accueil-camping-car-park-de-saint-nectaire-saint-nectaire_TFO5945692/"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Brassac-les-Mines — CAMPING-CAR PARK L’Insolite",
+      "lot": 436,
+      "checkedAt": "2026-11-22",
+      "status": "Base 12,48 €/24 h du 18/11/2026 au 31/12/2027; le total actuel 13,58 € comprend une taxe de 1,10 € publiée seulement jusqu’au 31/12/2026.",
+      "nextCheck": "Confirmer taxe 2027 avant validation du TTC annuel; prix du lot actuel conforme à l’affichage opérateur.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/brassac-les-mines?areaType=stopover-site-motorhome",
+        "https://www.issoire-tourisme.com/camping/camping-car-park-linsolite/"
+      ]
+    },
+    {
+      "sourceId": null,
+      "place": "Bromont-Lamothe — CAMPING-CAR PARK",
+      "lot": 436,
+      "checkedAt": "2026-11-22",
+      "status": "La page détaillée affiche 14,02 €/24 h, base 12,70 € du 15/10/2026 au 31/12/2027 + taxe 1,32 € publiée jusqu’au 31/12/2026. La contradiction précédente à 16,17 € n’est plus présente sur la page actuelle; le total 2027 dépend de la taxe 2027.",
+      "nextCheck": "Remplacer le signalement 16,17 € par le tarif actuellement affiché 14,02 €; confirmer taxe 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/bromont-lamothe?areaType=stopover-site-motorhome"
       ]
     }
   ]
