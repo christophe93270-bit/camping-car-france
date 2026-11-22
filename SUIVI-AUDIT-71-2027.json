@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 482,
+  "currentLot": 483,
   "department": "71",
   "progress": {
-    "checked": 220,
+    "checked": 230,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 482 : fiches 211 à 220 contrôlées. Neuf profils Vins de Bourgogne confirment l’accueil camping-car, sans publier de tarif ou de nuitée; Duo d’Lait présente des indications contradictoires (achat de produits vs France Passion), à clarifier. Cave de Chaintré : ne pas confondre l’adresse de Chaintré avec les deux places gratuites rapportées au site de Juliénas (Rhône). Aucun enregistrement du site modifié.",
+  "note": "Lot 483 : fiches 221 à 230 contrôlées. Aucun tarif/nuitée publié dans les profils vignerons, sauf confirmation officielle du réseau France Passion pour l’accueil Collection Tramier, dont la fiche Domaine Dufouleur (n°224) est probablement un doublon de Maison Tramier (n°162; environ 90 m, même collection/accueil). Pour Berzé, séparer l’accueil viticole du stationnement communal voisin. Maison Picamelot : reprise annoncée en 2026, continuité de l’accueil à confirmer. Aucune fiche du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -2410,6 +2410,129 @@
         "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/julienas-chaintre-vignerons-associes-cave-de-chaintre-chaintre-71570%2C2397%2C9211.html",
         "https://park4night.com/fr/place/262179",
         "https://www.camping-car.com/actualites/toute-l-actualite/26167-laire-de-la-semaine-zoom-sur-laire-de-camping-car-de-julienas-chaintre-69/"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/mancey-domaine-chateau-dulphey-camping-car",
+      "place": "Mancey — Domaine du Château de Dulphey",
+      "lot": 483,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car. Le site officiel du domaine présente dégustation sur rendez-vous et gîte, sans préciser nuitée camping-car, tarif ni équipements.",
+      "nextCheck": "Confirmer directement si la nuitée camping-car est autorisée et payante; ne pas assimiler le prix du gîte à un tarif de stationnement.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/chateau-de-dulphey-mancey-71240%2C2397%2C9211.html",
+        "https://chateaudedulphey.fr/"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/saint-maurice-les-couches-domaine-dessendre-camping-car",
+      "place": "Saint-Maurice-lès-Couches — Domaine Dessendre Marie-Anne et Jean-Claude",
+      "lot": 483,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car. Aucun tarif, équipement ou règle de nuitée n’est publié dans les sources consultées.",
+      "nextCheck": "Appeler le domaine pour connaître les modalités et le tarif.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/dessendre-marie-anne-et-jean-claude-saint-maurice-les-couches-71490%2C2397%2C9211.html",
+        "https://www.destination-saone-et-loire.fr/fr/vin/dessendre-marie-anne-et-jean-claude.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/givry-domaine-parize-pere-et-fils-camping-car",
+      "place": "Givry — Domaine Parize Père et Fils",
+      "lot": 483,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne confirme l’accueil camping-car et les horaires de caveau; aucune condition de nuitée ni aucun tarif de stationnement n’est publié.",
+      "nextCheck": "Confirmer les conditions et le prix auprès du domaine.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/parize-pere-et-fils-givry-71640%2C2397%2C9211.html",
+        "https://www.destination-saone-et-loire.fr/fr/vin/parize-pere-et-fils.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/mercurey-domaine-dufouleur-laurent-camping-car",
+      "place": "Mercurey — Domaine Dufouleur Laurent",
+      "lot": 483,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car. La Collection Tramier réunit le Domaine Laurent Dufouleur et la Maison Tramier, confirme l’accueil des camping-caristes et l’affiliation à France Passion. Les coordonnées de cette ligne sont à environ 90 m de la fiche Maison Tramier déjà recensée au lot 162 : doublon probable du même lieu d’accueil.",
+      "nextCheck": "Ne pas compter deux haltes sans confirmation auprès de la Collection Tramier; confirmer si les deux fiches renvoient au même parking.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/dufouleur-laurent-mercurey-71640%2C2397%2C9211.html",
+        "https://www.collection-tramier.fr/fr/articles/vins-pique-nique-a-mercurey/",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/tramier-l-fils-mercurey-71640%2C2397%2C9211.html",
+        "https://www.france-passion.com/camping-caristes/comment-ca-marche"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/givry-domaine-pelletier-hibon-camping-car",
+      "place": "Givry — Domaine Pelletier Hibon",
+      "lot": 483,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car; la commune confirme l’adresse du domaine. Aucune nuitée ou grille tarifaire camping-car n’est publiée.",
+      "nextCheck": "Appeler le domaine pour confirmer les conditions.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/pelletier-hibon-givry-71640%2C2397%2C9211.html",
+        "https://www.givry-bourgogne.fr/domaine-pelletier-hibon/"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/rully-maison-picamelot-louis-camping-car",
+      "place": "Rully — Maison Picamelot Louis",
+      "lot": 483,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car. Maison Picamelot fait l’objet d’une reprise annoncée en 2026; le site de la maison ne publie pas de conditions camping-car ni de tarif, donc la continuité d’accueil reste à vérifier auprès de l’exploitant actuel.",
+      "nextCheck": "Confirmer si l’accueil est toujours proposé après la reprise, et son tarif/nuitée.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/picamelot-louis-rully-71150%2C2397%2C9211.html",
+        "https://louispicamelot.com/",
+        "https://www.leprogres.fr/economie/2026/02/01/viticulture-louis-jadot-reprend-la-maison-picamelot"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/charnay-les-macon-domaine-manciat-jean-camping-car",
+      "place": "Charnay-lès-Mâcon — Domaine Manciat Jean",
+      "lot": 483,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car; la mairie confirme l’adresse et la dégustation sur rendez-vous. Aucune condition de nuitée ou aucun tarif n’est publié.",
+      "nextCheck": "Appeler le domaine; ne pas afficher un tarif de nuitée sans confirmation.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/manciat-jean-charnay-les-macon-71850%2C2397%2C9211.html",
+        "https://www.charnay-les-macon.fr/35-131/vivre-a-charnay/commerces-et-marches-hebdomadaires/annuaire-des-commerces/ficheAnnu/domaine-jean-manciat.htm"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/berze-le-chatel-chateau-de-berze-camping-car",
+      "place": "Berzé-le-Châtel — Société Viticole du Château de Berzé",
+      "lot": 483,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car, sans préciser nuitée ou prix. Une halte/parking communal près du château apparaît également dans les sources communautaires; ne pas attribuer ses conditions à la société viticole ni fusionner les fiches sans vérifier les emplacements.",
+      "nextCheck": "Vérifier l’adresse exacte et la relation entre l’accueil viticole et le stationnement communal.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/societe-viticole-du-chateau-de-berze-berze-le-chatel-71960%2C2397%2C9211.html",
+        "https://park4night.com/fr/place/8833"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/davaye-les-vins-nathalie-bressand-camping-car",
+      "place": "Davayé — Les Vins de Nathalie Bressand",
+      "lot": 483,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne indique l’accueil camping-car. Les pages touristiques présentent le caveau et la dégustation mais ne publient pas de tarif de stationnement ou de condition de nuitée.",
+      "nextCheck": "Appeler l’établissement pour confirmer tarif et nuitée.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/les-vins-de-nathalie-bressand-davaye-71960%2C2397%2C9211.html",
+        "https://www.destination-saone-et-loire.fr/fr/vin/les-vins-de-nathalie-bressand.html"
+      ]
+    },
+    {
+      "sourceId": "vins-bourgogne/ige-cave-des-vignerons-camping-car",
+      "place": "Igé — Cave des Vignerons d’Igé",
+      "lot": 483,
+      "checkedAt": "2026-11-22",
+      "status": "Vins de Bourgogne et le site officiel confirment la Cave des Vignerons d’Igé au 41 rue du Tacot et la dégustation-vente. Aucun tarif de stationnement ni condition de nuitée camping-car n’est publié.",
+      "nextCheck": "Confirmer directement auprès de la cave avant déplacement.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/cave-des-vignerons-d-ige-ige-71960%2C2397%2C9211.html",
+        "https://lesvigneronsdige.com/"
       ]
     }
   ]
