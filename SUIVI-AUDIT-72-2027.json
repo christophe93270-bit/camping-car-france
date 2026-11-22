@@ -4,23 +4,23 @@
   "displayedCount": 17,
   "rawRegionalRows": 17,
   "deduplicatedRows": 0,
-  "currentLot": 489,
+  "currentLot": 490,
   "department": "72",
   "progress": {
-    "checked": 10,
+    "checked": 17,
     "total": 17,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 7,
+    "totalInLot": 7
   },
-  "note": "Lot 489 : fiches 1 à 10 vérifiées. Bonnétable, Bouloire, La Bruère, La Flèche, Luché-Pringé et Marigné-Laillé concordent avec l’affichage actuel CCP; tarifs publiés restent temporels. Avoise, Le Lude et Mansigné ont des écarts entre le prix enregistré (à période tarifaire annoncée) et le prix « en ce moment » sur CCP. Saint-Saturnin diffère de 0,06 €. Bonnétable : toilettes publiques temporairement fermées. 7 fiches restent.",
+  "note": "Département Sarthe (72) : 17/17 fiches examinées dans l’ordre du fichier, en deux lots (10 et 7). Grilles saisonnières CCP consultées : montants de base concordants sur l’ensemble. À réviser : dates de début de validité plus anciennes dans le fichier pour Avoise, Le Lude, Mansigné, Bazouges, Montfort, Précigné, Pruillé, Saint-Paul et La Suze; Loir en Vallée, taxe 2027 absente. Pruillé : accès restreint et sans services. Aucun fichier de fiches du site modifié.",
   "entries": [
     {
       "sourceId": "campingcarpark/72/avoise",
       "place": "Avoise — Aire CAMPING-CAR PARK d’Avoise",
       "lot": 489,
       "checkedAt": "2026-11-22",
-      "status": "Tarif du dossier : 12,22 €/24 h (période annoncée du 07/10/2026 au 31/12/2027), taxe 2027 à confirmer. La page opérateur consultée affiche « en ce moment » 15,13 €/24 h, dont 0,88 € de taxe : écart à expliquer selon période.",
-      "nextCheck": "Vérifier le calendrier tarifaire CCP; ne pas remplacer la grille datée par un prix instantané sans confirmer les périodes.",
+      "status": "Grille saisonnière officielle : 12,22 €/24 h du 22/11/2026 au 31/12/2027; taxe de séjour 0,88 €/24 h en 2027 (13,10 € TTC). Montant conforme; le fichier indiquait un début de période au 07/10/2026, antérieur à la grille actuelle.",
+      "nextCheck": "Aligner la date de validité sur la grille actuelle; afficher ou préciser le total TTC.",
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/avoise",
         "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/avoise"
@@ -79,8 +79,8 @@
       "place": "Le Lude — Aire CAMPING-CAR PARK du Lude",
       "lot": 489,
       "checkedAt": "2026-11-22",
-      "status": "Écart tarifaire : dossier indique 11,71 € + 1,32 € (13,03 € total), tandis que la page exploitant consultée affiche « en ce moment » 15,57 €, taxe comprise à hauteur de 1,32 €. Variation de tarif à dater.",
-      "nextCheck": "Vérifier dans le calendrier CCP à quelles dates s’appliquent 13,03 € et 15,57 €.",
+      "status": "Grille saisonnière officielle : 11,71 €/24 h du 22/11/2026 au 31/12/2027, plus taxe 1,32 €/24 h en 2027 (13,03 € TTC). Le montant est conforme; le fichier indiquait une date de début au 07/11.",
+      "nextCheck": "Aligner la période tarifaire sur la grille actuelle.",
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/le-lude",
         "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/le-lude"
@@ -103,8 +103,8 @@
       "place": "Mansigné — Aire CAMPING-CAR PARK de Mansigné",
       "lot": 489,
       "checkedAt": "2026-11-22",
-      "status": "Écart tarifaire : dossier 11,71 € + 1,32 € (13,03 € total), page exploitant « en ce moment » 15,57 €, dont 1,32 € de taxe. La page confirme 17 places et une taxe affichée à 1,32 €.",
-      "nextCheck": "Vérifier dates d’application dans le calendrier tarifaire CCP; actualiser le total après clarification.",
+      "status": "Grille saisonnière officielle : 11,71 €/24 h du 22/11/2026 au 31/12/2027, plus taxe 1,32 €/24 h en 2027 (13,03 € TTC). Le montant est conforme; le fichier indiquait un début de période au 02/10.",
+      "nextCheck": "Aligner la période tarifaire sur la grille actuelle.",
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/mansigne",
         "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/mansigne"
@@ -127,11 +127,95 @@
       "place": "Saint-Saturnin — Aire CAMPING-CAR PARK de Saint-Saturnin",
       "lot": 489,
       "checkedAt": "2026-11-22",
-      "status": "Petit écart : dossier 14,34 € + taxe 1,32 € = 15,66 €/24 h; page exploitant affiche actuellement 15,72 €, dont 1,32 € de taxe. Soit 0,06 € de différence sur le prix hors taxe.",
-      "nextCheck": "Vérifier le calendrier ou barème 2027 et corriger le total après confirmation.",
+      "status": "Grille officielle : 14,40 € jusqu’au 03/01/2027, puis 14,34 € du 04/01 au 31/12/2027; taxe 2027 de 1,32 €/24 h. Le total 2027 de 15,66 € enregistré est exact; l’écart apparent de 0,06 € correspond au changement de période.",
+      "nextCheck": "Garder le tarif total de 15,66 € pour le 04/01–31/12/2027 et distinguer le tarif antérieur.",
       "sources": [
         "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/st-saturnin",
         "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/st-saturnin"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/bazouges-cre-sur-loir",
+      "place": "Bazouges-Cré-sur-Loir — Aire CAMPING-CAR PARK de Bazouges-Cré-sur-Loir — Le Vieux Pont",
+      "lot": 490,
+      "checkedAt": "2026-11-22",
+      "status": "Grille détaillée : 11,71 €/24 h à partir du 22/11/2026 au 31/12/2027; taxe 1,32 €/24 h 2027; total 13,03 €. Montant correct; le fichier date le début au 01/10, plus tôt que la grille actuelle.",
+      "nextCheck": "Aligner la date de validité sur la grille consultée et afficher total TTC.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/bazouges-cre-sur-loir",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/bazouges-cre-sur-loir"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/loir-en-vallee",
+      "place": "Loir en Vallée — Camping de mon village CAMPING-CAR PARK de Loir en Vallée",
+      "lot": 490,
+      "checkedAt": "2026-11-22",
+      "status": "Grille : 12,22 €/24 h du 01/10/2026 au 31/12/2027; taxe de 0,44 €/24 h publiée seulement jusqu’au 31/12/2026; taxe 2027 à confirmer. Sanitaires saisonniers; aire soumise au PPRI.",
+      "nextCheck": "Confirmer la taxe applicable en 2027; maintenir les mentions sanitaires saisonniers et PPRI.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/loir%20en%20vall%C3%A9e",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/loir%20en%20vall%C3%A9e"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/montfort-le-gesnois-les-sittelles",
+      "place": "Montfort-le-Gesnois — Aire CAMPING-CAR PARK de Montfort-le-Gesnois — Les Sittelles",
+      "lot": 490,
+      "checkedAt": "2026-11-22",
+      "status": "Grille détaillée : 12,93 €/24 h à partir du 22/11/2026, taxe de séjour 0 € jusqu’au 08/01/2028. Prix du dossier exact, mais date de début enregistrée 16/11.",
+      "nextCheck": "Aligner la date de début sur la grille consultée.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/montfort-le-gesnois-les-sittelles",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/montfort-le-gesnois-les-sittelles"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/precigne",
+      "place": "Précigné — Aire CAMPING-CAR PARK de Précigné",
+      "lot": 490,
+      "checkedAt": "2026-11-22",
+      "status": "Grille : 12,73 €/24 h à partir du 22/11/2026 + taxe 0,88 €/24 h jusqu’au 31/12/2027; total 13,61 €. Montant exact, mais le fichier commence la période au 30/10.",
+      "nextCheck": "Aligner date de début sur la grille actuelle.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/precigne",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/precigne"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/pruille-le-chetif",
+      "place": "Pruillé-le-Chétif — Aire CAMPING-CAR PARK de Pruillé-le-Chétif — L’École",
+      "lot": 490,
+      "checkedAt": "2026-11-22",
+      "status": "Grille : 12 €/24 h à partir du 22/11/2026, taxe 0 €. Accès limité vacances scolaires, week-ends et jours fériés; réservation obligatoire; pas de service sur place. Prix exact, période fichier commence au 12/09.",
+      "nextCheck": "Maintenir les restrictions visibles et aligner date de début.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/pruille-le-chetif",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/pruille-le-chetif"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/saint-paul-le-gaultier",
+      "place": "Saint-Paul-le-Gaultier — Aire CAMPING-CAR PARK de Saint-Paul-le-Gaultier",
+      "lot": 490,
+      "checkedAt": "2026-11-22",
+      "status": "Grille : 11,71 €/24 h à partir du 22/11/2026 + taxe 1,10 €/24 h en 2027; total 12,81 €. Montant correct; période fichier commence au 14/11.",
+      "nextCheck": "Aligner la date de début sur la grille actuelle.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/st-paul-le-gaultier",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/st-paul-le-gaultier"
+      ]
+    },
+    {
+      "sourceId": "campingcarpark/72/la-suze-sur-sarthe",
+      "place": "La Suze-sur-Sarthe — Camping de mon village CAMPING-CAR PARK de La Suze-sur-Sarthe",
+      "lot": 490,
+      "checkedAt": "2026-11-22",
+      "status": "Grille : 12,22 €/24 h à partir du 22/11/2026 + taxe 0,88 €/24 h en 2027; total 13,10 €. Prix exact; période fichier commence au 10/11. Sanitaires saisonniers et PPRI.",
+      "nextCheck": "Aligner la date de début; conserver mentions PPRI et dates saisonnières des sanitaires.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/la-suze-sur-sarthe",
+        "https://www.campingcarpark.com/fr_FR/camping-car/pays-de-la-loire/sarthe/la-suze-sur-sarthe"
       ]
     }
   ]
