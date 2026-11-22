@@ -1,0 +1,134 @@
+{
+  "scope": "Rhône (69) : vérification tarifaire et statutaire des fiches de aires-rhone.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 12,
+  "rawRegionalRows": 12,
+  "deduplicatedRows": 0,
+  "currentLot": 454,
+  "department": "69",
+  "progress": {
+    "checked": 10,
+    "total": 12,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 454 : fiches 1 à 10 contrôlées; 10/12 du Rhône vérifiés, il reste les 2 dernières fiches pour le lot suivant. Longes : 2 places gratuites confirmées. Sainte-Catherine : camping du Châtelard fermé définitivement depuis le 30/09/2024. Villié-Morgon CCP : 15,98 €/24 h TTC confirmé jusqu’au 31/12/2027; forfait 5 h à 6 €. Jons : tarif de nuitée 8 €/jour adopté en avril 2026, ouverture actuelle à confirmer. Juliénas : jeton de service 2 €, aucun tarif de nuitée établi. Domaine Aufranc à Fleurie : 15 €/nuit/véhicule, capacité 5. Domaine Baron de l’Écluse à Saint-Lager : accueil de nuit confirmé mais prix/capacité non publiés. Le Grisard : 5 places gratuites sans service. Les Haies : mairie et Croix-Régis, 1 place gratuite chacune; services de Croix-Régis non confirmés. Aucune donnée du site modifiée.",
+  "entries": [
+    {
+      "sourceId": "way/228249952",
+      "place": "Longes — aire du col de Chassenoud",
+      "lot": 454,
+      "checkedAt": "2026-11-22",
+      "status": "Vienne Condrieu Tourisme confirme 2 places gratuites toute l’année avec tables de pique-nique; pas de service de borne indiqué.",
+      "nextCheck": "Renseigner Longes, capacité 2 et gratuité; ne pas inventer de services.",
+      "sources": [
+        "https://www.vienne-condrieu.com/hotellerie-plein-air/aire-de-stationnement-longes-col-de-chassenoud-longes/"
+      ]
+    },
+    {
+      "sourceId": "way/240632514",
+      "place": "Sainte-Catherine — camping municipal du Châtelard",
+      "lot": 454,
+      "checkedAt": "2026-11-22",
+      "status": "Fermeture définitive actée au 30/09/2024; la fiche active et ses équipements/prix sont obsolètes.",
+      "nextCheck": "Retirer des lieux actifs ou afficher fermé depuis le 30/09/2024; ne pas conserver l’ancien tarif.",
+      "sources": [
+        "https://api.neopse.com/rest/site/files/download/1857006"
+      ]
+    },
+    {
+      "sourceId": "way/319563263",
+      "place": "Villié-Morgon — aire CCP",
+      "lot": 454,
+      "checkedAt": "2026-11-22",
+      "status": "15,98 €/24 h TTC (14,76 € + 1,22 € de taxe) du 19/11/2026 au 31/12/2027; forfait 5 h + services 6 €; 6 places dans la fiche.",
+      "nextCheck": "Tarif et période 2027 confirmés; distinguer forfait 24 h et 5 h.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/rhone/villie-morgon"
+      ]
+    },
+    {
+      "sourceId": "way/425422560",
+      "place": "Jons — aire Chemin de Mûre",
+      "lot": 454,
+      "checkedAt": "2026-11-22",
+      "status": "Commune identifiée; tarif de nuitée 8 €/jour annoncé après décision municipale du 27/04/2026. Services gratuits et fermeture temporaire rapportés par des usagers, sans confirmation officielle repérée.",
+      "nextCheck": "Renseigner 8 €/jour comme nuitée avec source/date; faire confirmer l’ouverture et les services à la mairie.",
+      "sources": [
+        "https://www.mairie-jons.fr/page/proces-verbaux-du-conseil-municipal",
+        "https://www.leprogres.fr/social/2026/05/18/conseil-municipal-le-tarif-journalier-de-l-aire-de-camping-car-passe-a-8",
+        "https://park4night.com/fr/place/620875"
+      ]
+    },
+    {
+      "sourceId": "way/672377223",
+      "place": "Juliénas — aire municipale",
+      "lot": 454,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie confirme aire municipale de service, vidanges et tables de pique-nique; jeton à 2 € selon Rhône Tourisme. Ce prix n’est pas un tarif de nuitée.",
+      "nextCheck": "Corriger ville et distinguer prix du jeton de tout prix de nuitée; capacité non publiée.",
+      "sources": [
+        "https://www.julienas.fr/campings-camping-cars/",
+        "https://www.rhonetourisme.com/je-prepare/activites-et-visites/visites-decouvertes/241447_aire-de-service-municipale/"
+      ]
+    },
+    {
+      "sourceId": "way/1238272377",
+      "place": "Fleurie — aire de camping-car Domaine Aufranc",
+      "lot": 454,
+      "checkedAt": "2026-11-22",
+      "status": "Exploitant confirme jusqu’à 5 camping-cars, eau, électricité, vidange, WC et lavabo; tarif 15 €/nuit/véhicule.",
+      "nextCheck": "Renseigner Fleurie, capacité, services et tarif de nuitée; ne pas classer comme prix de services seul.",
+      "sources": [
+        "https://www.domaine-aufranc.fr/aire-de-camping-car/",
+        "https://www.rhonetourisme.com/agenda/tout-lagenda/6247278_aire-de-camping-cars-chez-le-vigneron/"
+      ]
+    },
+    {
+      "sourceId": "way/1238281452",
+      "place": "Saint-Lager — Domaine Baron de l’Écluse",
+      "lot": 454,
+      "checkedAt": "2026-11-22",
+      "status": "Le domaine confirme l’accueil de camping-cars pour une nuit au 730 montée de l’Écluse; prix/capacité non publiés sur la page consultée.",
+      "nextCheck": "Renseigner la commune et l’accueil nocturne; laisser prix et capacité non confirmés; vérifier les services tagués.",
+      "sources": [
+        "https://barondelecluse.com/nos-hebergements/",
+        "https://www.auvergnerhonealpes-tourisme.com/fiches/aire-de-camping-car-au-domaine-baron-de-lecluse/"
+      ]
+    },
+    {
+      "sourceId": "way/1287814337",
+      "place": "Saint-Romain-en-Gal — Le Grisard",
+      "lot": 454,
+      "checkedAt": "2026-11-22",
+      "status": "Office touristique : 5 places gratuites, sans service, ouvertes toute l’année.",
+      "nextCheck": "Renseigner commune, capacité et gratuité; conserver l’absence de services.",
+      "sources": [
+        "https://www.rhonetourisme.com/je-prepare/hebergements-pres-de-lyon/aires-de-services/6031168_aire-de-stationnement-du-grisard/"
+      ]
+    },
+    {
+      "sourceId": "way/1287818744",
+      "place": "Les Haies — aire de stationnement de la mairie",
+      "lot": 454,
+      "checkedAt": "2026-11-22",
+      "status": "Rhône Tourisme : 1 emplacement gratuit, parking simple, ouvert toute l’année, 450 rue des Champs-Blancs.",
+      "nextCheck": "Renseigner Les Haies, 1 place et gratuité; ne pas annoncer d’aire de services.",
+      "sources": [
+        "https://www.rhonetourisme.com/je-decouvre/activites-de-pleine-nature/le-rhone-a-velo/circuits-a-velo-pres-de-lyon/6031124_aire-de-stationnement-de-la-mairie/"
+      ]
+    },
+    {
+      "sourceId": "way/1287821830",
+      "place": "Les Haies — Croix-Régis",
+      "lot": 454,
+      "checkedAt": "2026-11-22",
+      "status": "Vienne Condrieu Tourisme confirme 1 place gratuite. La mairie identifie le parking comme aire de covoiturage; l’eau potable déclarée dans les tags OSM n’est pas confirmée par une source institutionnelle consultée.",
+      "nextCheck": "Renseigner Les Haies, 1 place gratuite; confirmer accès/nuitée et eau auprès de la mairie ou de l’office.",
+      "sources": [
+        "https://www.vienne-condrieu.com/hotellerie-plein-air/aire-de-stationnement-de-la-croix-regis-les-haies/",
+        "https://www.leshaies.fr/transports/covoiturage/"
+      ]
+    }
+  ]
+}
