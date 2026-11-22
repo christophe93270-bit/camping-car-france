@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 476,
+  "currentLot": 477,
   "department": "71",
   "progress": {
-    "checked": 160,
+    "checked": 170,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 476 : fiches 151 à 160 contrôlées. Les Sauges : 30 €/nuit pour 2, année non précisée. Bourbon-Lancy : tarifs officiels 2026 confirmés, camping distingué de l’aire voisine. Ferme des Bruyères : tarif/services à confirmer. Rivault, Trufière et Avoineries : France Passion, gratuit jusqu’à 24 h pour membre à jour. Montret et Boyer : accueil actuel non confirmé. Poncétys : contradiction entre Destination 71 (accueil mentionné) et Vins de Bourgogne (non). Les Châtaigniers : à partir de 7 €/nuit, année non précisée. Aucune donnée du site modifiée.",
+  "note": "Lot 477 : fiches 161 à 170 contrôlées. Domaine Debreuille : 6 places, gratuit 24–72 h selon site de l’exploitant, contacter avant arrivée. Collection Tramier : page 2026 confirme accueil et grand parking, conditions France Passion à préciser. Baptista, Four Bassot, Bressand, Duc, Lacharme, Clo Point et Cave de Bissey : annuaire Vins de Bourgogne indique l’accueil camping-car, mais ne précise pas nuitée/tarif/services. Château de la Greffière : accueil et France Passion confirmés; capacité et sanitaires proviennent de Bienvenue à la ferme. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -1772,6 +1772,111 @@
         "https://www.accueil-paysan.com/fr/hebergements/camping/bourgogne-franche-comte/saone-et-loire/camping-les-chataigniers/",
         "https://www.navoursurgrosne.fr/detail-offre/hebergements/G%C3%AEte-dEtape-Les-Ch%C3%A2taigniers-dOuilly_HCOBOU071V500P7K_427"
       ]
+    },
+    {
+      "place": "Étape camping-car — Domaine Debreuille",
+      "status": "Site officiel confirme 6 emplacements et un accueil gratuit de 24 à 72 h. Priorité France Passion; autres voyageurs sur demande. Aucun service technique annoncé.",
+      "nextCheck": "Appeler avant arrivée pour confirmer disponibilité et conditions.",
+      "sources": [
+        "https://www.domaine-debreuille.com/accueil-des-camping-cars/",
+        "https://www.domaine-debreuille.com/contact-et-infos-pratiques/"
+      ],
+      "lot": 477,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Étape camping-car — Maison Tramier / Collection Tramier",
+      "status": "Article du domaine d’avril 2026 confirme accueil des camping-cars et grand parking; affiliation France Passion indiquée. Durée, services et modalités non détaillés.",
+      "nextCheck": "Appeler avant arrivée; ne pas promettre de services non publiés.",
+      "sources": [
+        "https://www.collection-tramier.fr/fr/articles/week-end-a-mercurey/",
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/tramier-l-fils-mercurey-71640%2C2397%2C9211.html"
+      ],
+      "lot": 477,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine Baptista Jean-Philippe",
+      "status": "Vins de Bourgogne indique « Accueil camping car : Oui »; aucun tarif, capacité ou confirmation spécifique de nuitée.",
+      "nextCheck": "Appeler pour confirmer nuitée, éventuel prix et équipements.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/baptista-jean-philippe-bussieres-71960%2C2397%2C9211.html"
+      ],
+      "lot": 477,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine du Four Bassot",
+      "status": "Vins de Bourgogne indique accueil camping-car oui; pas de tarif, capacité ou conditions de nuitée publiés.",
+      "nextCheck": "Appeler avant d’annoncer une halte nocturne ou un tarif.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-du-four-bassot-saint-mard-de-vaux-71640%2C2397%2C9211.html"
+      ],
+      "lot": 477,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine Bressand Patrick",
+      "status": "Vins de Bourgogne indique accueil camping-car oui; pas de tarif ou service de stationnement publié.",
+      "nextCheck": "Confirmer si la nuitée est possible et à quelles conditions.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/bressand-patrick-fuisse-71960%2C2397%2C9211.html"
+      ],
+      "lot": 477,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine des Duc",
+      "status": "Vins de Bourgogne indique accueil camping-car oui; aucune nuitée, capacité ou tarification précisée.",
+      "nextCheck": "Confirmer les conditions de stationnement directement auprès du domaine.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-des-duc-saint-amour-bellevue-71570%2C2397%2C9211.html"
+      ],
+      "lot": 477,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine Lacharme et Fils",
+      "status": "Vins de Bourgogne indique accueil camping-car oui et horaires d’accueil du domaine; aucune tarification de nuitée ni service publié.",
+      "nextCheck": "Contacter le domaine pour confirmer nuitée, prix et disponibilité.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/lacharme-et-fils-la-roche-vineuse-71960%2C2397%2C9211.html"
+      ],
+      "lot": 477,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Domaine Clo Point",
+      "status": "Vins de Bourgogne indique accueil camping-car oui et publie les horaires de réception; nuitée et tarif non précisés. Domaine distinct de l’aire municipale de Lugny.",
+      "nextCheck": "Confirmer nuitée et services; garder distinct de l’aire de Lugny.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/clo-point-lugny-71260%2C2397%2C9211.html"
+      ],
+      "lot": 477,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Accueil camping-car chez vigneron — Cave de Bissey",
+      "status": "Vins de Bourgogne indique accueil camping-car oui; aucun tarif, capacité ou condition de nuitée publiée.",
+      "nextCheck": "Appeler la cave pour vérifier stationnement nocturne et services.",
+      "sources": [
+        "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/cave-de-bissey-bissey-sous-cruchaud-71390%2C2397%2C9211.html"
+      ],
+      "lot": 477,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "place": "Étape camping-car — Château de la Greffière",
+      "status": "Site du domaine et tourisme confirment accueil camping-car, France Passion. Bienvenue à la ferme mentionne 5 places, poubelles, sanitaires et ouverture annuelle; données annuaire à revalider. France Passion : gratuit jusqu’à 24 h.",
+      "nextCheck": "Garder l’accueil confirmé; confirmer capacité et services avant de les présenter comme garantis.",
+      "sources": [
+        "https://chateaudelagreffiere.com/partenaires/",
+        "https://www.bienvenue-a-la-ferme.com/bourgogne-franche-comte/saone-et-loire/la-roche-vineuse/ferme/chateau-de-la-greffiere/507792",
+        "https://www.beaujolais-tourisme.com/caves-et-domaines/chateau-de-la-greffiere-841122.html",
+        "https://www.france-passion.com/camping-caristes/faq-camping-cariste/formule-france-passion/"
+      ],
+      "lot": 477,
+      "checkedAt": "2026-11-22"
     }
   ]
 }
