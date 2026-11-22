@@ -4,15 +4,15 @@
   "displayedCount": 69,
   "rawRegionalRows": 69,
   "deduplicatedRows": 0,
-  "currentLot": 510,
+  "currentLot": 511,
   "department": "35",
   "progress": {
-    "checked": 50,
+    "checked": 60,
     "total": 69,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lots 506 à 510 : 50/69 fiches vérifiées. Lot 510 : tarif des Îlots confirmé; tarifs camping saisonniers des Chevrets/Domaine de la Roche distingués des services; capacité Piré-sur-Seiche à harmoniser (7 annoncés par l’office contre 6 dans la fiche); conditions hivernales de Trémelin à confirmer. Aucun fichier source modifié.",
+  "note": "Lots 506 à 511 : 60/69 fiches vérifiées. Lot 511 : tarif du camping de Paron corrigé d’après sa grille 2026 (écart avec le forfait tourisme); tarifs 2025 conservés comme tels à Maen Roch; fermeture saisonnière du Jardin des Fêtes, Paron, Entre Pierres et Collines et P’tit Bois signalée; prix Super U conservé avec fonctionnement à vérifier. Aucun fichier source modifié.",
   "entries": [
     {
       "sourceId": "node/11897389616",
@@ -608,6 +608,121 @@
         "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-stationnement-pour-camping-car-etang-de-tregu-plelan-le-grand-fr-5267790/"
       ],
       "lot": 510,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Plélan-le-Grand — borne Super U",
+      "status": "Guide Villages étapes 2026: stationnement/vidanges gratuits, eau 2 €. Retours voyageurs 2026 signalent que la borne peut être hors service; pas de tarif confirmé par le magasin.",
+      "nextCheck": "Garder 2 € comme tarif du guide, avec fonctionnement à vérifier; ne pas présenter comme prix officiel U.",
+      "sources": [
+        "https://village-etape.fr/wp-content/uploads/2026/03/2026_guide_ccar_A5_livret_l.pdf",
+        "https://park4night.com/fr/place/98830"
+      ],
+      "lot": 511,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Monthault — La Colombière",
+      "status": "6 places stabilisées; nuitée de 0 à 12 €, eau de 0 à 2 € selon Destination Fougères, donc pas de prix fixe.",
+      "nextCheck": "Utiliser les fourchettes publiées et confirmer prix appliqué auprès de l’exploitant.",
+      "sources": [
+        "https://www.destination-fougeres.bzh/aire-camping-car/la-colombiere/"
+      ],
+      "lot": 511,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Fougères — aire du Jardin des Fêtes",
+      "status": "Destination Fougères: ouverte 01/04–31/10; stationnement 9–19h à 6,50 €/jour; gratuit 19–9h, services gratuits. Fermée à la date de vérification.",
+      "nextCheck": "Conserver l’horaire saisonnier et distinguer tarif diurne du stationnement nocturne gratuit.",
+      "sources": [
+        "https://www.destination-fougeres.bzh/aire-camping-car/aire-du-jardin-des-fetes/"
+      ],
+      "lot": 511,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Maen Roch — aire Jules Verne",
+      "status": "Mairie: 17 places, stationnement et services de base gratuits toute l’année; eau 4 €/100 L et électricité 5 €/12h par Qipeo, tarifs adoptés dès le 19/05/2025; aucun tarif 2026 trouvé.",
+      "nextCheck": "Garder les prix avec date d’effet 2025 et ne pas les étiqueter 2026 sans nouveau vote.",
+      "sources": [
+        "https://www.maenroch.fr/aires-de-camping-cars/",
+        "https://www.maenroch.fr/wp-content/uploads/2025/07/DCM-2506067-Tarifs-aire-de-camping-car-a-compter-du-19-mai-2025.pdf"
+      ],
+      "lot": 511,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Fougères — camping municipal de Paron",
+      "status": "Grille officielle 2026: emplacement camping-car 8 €/j; personnes 4 € (6 € juillet-août); électricité 5,12 €/j; taxe 0,44 €/personne. Diverge du forfait tourisme 7,50 € + électricité 5,50 €. Fermé après le 31/10/2026.",
+      "nextCheck": "Utiliser les composantes détaillées de la grille officielle et distinguer taxe/options; indiquer fermé.",
+      "sources": [
+        "https://camping.fougeres.fr/en/prices/",
+        "https://www.destination-fougeres.bzh/aire-camping-car/aire-du-camping-de-paron/"
+      ],
+      "lot": 511,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Romagné — aire communale",
+      "status": "Stationnement et services gratuits; limite 72 h; ouverture toute l’année hors mise hors gel.",
+      "nextCheck": "Conserver gratuité, limite et exception de gel.",
+      "sources": [
+        "https://www.destination-fougeres.bzh/aire-camping-car/aire-de-camping-car-de-romagne/"
+      ],
+      "lot": 511,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Parigné — Domaine de Passillé",
+      "status": "Accueil camping-cars hors juillet et août dans un parc de 4 ha; eau, électricité et salle d’eau privée en option, prix non communiqué.",
+      "nextCheck": "Garder tarifs non communiqués et conditions hors saison d’été; confirmer montants options auprès du domaine.",
+      "sources": [
+        "https://www.destination-fougeres.bzh/aire-camping-car/aire-de-camping-car-le-domaine-de-passille/"
+      ],
+      "lot": 511,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Germain-en-Coglès — Entre Pierres et Collines",
+      "status": "Destination Fougères: emplacement 5 €/nuit, électricité 5 €, adultes 6 €, ados 5 €, enfants 4 €, sanitaires/eau chaude inclus; saison 2026 du 20/04 au 30/09, fermé au 22/11.",
+      "nextCheck": "Séparer prix d’emplacement, personnes et électricité; tarifs applicables à la saison 2026 sans confirmation 2027.",
+      "sources": [
+        "https://www.destination-fougeres.bzh/aire-camping-car/accueil-camping-car-entre-pierres-et-collines/",
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/camping-entre-pierres-et-collines-saint-germain-en-cogles-fr-2727988/"
+      ],
+      "lot": 511,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Val-Couesnon — aire de service de La Fontenelle",
+      "status": "Destination Fougères: eau 2 €, électricité 2 €, paiement espèces; vidange et aire de pique-nique. Ni tarif de stationnement ni ouverture annuelle publiés.",
+      "nextCheck": "Afficher seulement tarifs des services et laisser stationnement/ouverture non confirmés.",
+      "sources": [
+        "https://www.destination-fougeres.bzh/aire-camping-car/aire-de-service-de-la-fontenelle/"
+      ],
+      "lot": 511,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": null,
+      "place": "Saint-Jouan-des-Guérets — aire de services du camping Le P’tit Bois",
+      "status": "Ille-et-Vilaine Tourisme: vidange 7 €, service accessible 8–20 h, sans stationnement indépendant. Camping saison 03/04–08/11/2026; fermé au moment du contrôle.",
+      "nextCheck": "Garder distinction service vs nuitée, signaler fermeture saisonnière et accès hors saison non confirmé.",
+      "sources": [
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-du-camping-le-ptit-bois-saint-jouan-des-guerets-fr-2727621/",
+        "https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/camping-le-ptit-bois-saint-jouan-des-guerets-fr-2726265/"
+      ],
+      "lot": 511,
       "checkedAt": "2026-11-22"
     }
   ]
