@@ -1,0 +1,139 @@
+{
+  "scope": "Savoie (73) : audit tarifaire et des conditions des fiches de aires-savoie.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 22,
+  "rawRegionalRows": 22,
+  "deduplicatedRows": 0,
+  "currentLot": 491,
+  "department": "73",
+  "progress": {
+    "checked": 10,
+    "total": 22,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 491 : 10 premières fiches sur 22 vérifiées. Constats principaux : Menuires capacité contradictoire 60/70; Féclaz électricité de borne hors service depuis nov. 2025; Aix-les-Bains taxe 2027 à confirmer et capacité 71/78; plusieurs fiches concernent des aires de services sans autorisation de nuitée confirmée. Les fiches du site n’ont pas été modifiées.",
+  "entries": [
+    {
+      "sourceId": "node/12014868832",
+      "place": "Valmeinier — Aire de stationnement Camping Car Valmeinier / Grange Bernard",
+      "status": "Les sources officielles confirment le parking saisonnier, l’électricité d’hiver et une borne à jetons distincte. Le coût du stationnement et des jetons n’est pas publié dans les sources consultées; coordonnées OSM à environ 125 m du GPS touristique.",
+      "nextCheck": "Confirmer le point exact, le tarif du stationnement et les prix des services; ne pas annoncer de nuitée payante ou gratuite sans source.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12014868832",
+        "https://www.maurienne-tourisme.com/valmeinier/"
+      ],
+      "lot": 491,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/53532062",
+      "place": "Les Belleville — Aire de camping-car des Menuires / Preyerand",
+      "status": "Tarifs officiels saisonniers : 10 €/24 h l’été, 15 €/24 h l’hiver, taxe 0,66 €/adulte/nuit; eau/vidange 2 €/100 l, électricité 2 €/4 h. Capacité contradictoire : 60 places sur la page station, 70 sur celle de la commune.",
+      "nextCheck": "Confirmer la capacité; distinguer le prix de stationnement, la taxe de séjour et les services.",
+      "sources": [
+        "https://www.openstreetmap.org/way/53532062",
+        "https://www.lesmenuires.com/",
+        "https://www.lesbelleville.fr/"
+      ],
+      "lot": 491,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/403604093",
+      "place": "Les Déserts — Aire de camping-car de La Féclaz, Plateau Sud",
+      "status": "40 places, parking gratuit jusqu’à nouvel avis, ouvert toute l’année, vidange, toilettes et eau publique. L’électricité et le remplissage d’eau à la borne sont hors service depuis novembre 2025; tag OSM électricité non à jour.",
+      "nextCheck": "Corriger la commune, le tarif et la liste des services; distinguer le point d’eau public de la borne hors service.",
+      "sources": [
+        "https://www.openstreetmap.org/way/403604093",
+        "https://www.chamberymontagnes.com/"
+      ],
+      "lot": 491,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/511406224",
+      "place": "Aix-les-Bains — Aire CAMPING-CAR PARK",
+      "status": "Tarif de base officiel 16,90 €/24 h du 10/11/2026 au 31/12/2027; parking 5 h + services 6 €. Taxe 1,30 € publiée jusqu’au 31/12/2026 seulement, taxe 2027 non confirmée sur la grille consultée. Capacité contradictoire : fiche site 71, capacité de service publiée 78.",
+      "nextCheck": "Confirmer taxe de séjour 2027 et capacité; ne pas présenter 18,20 €/24 h comme total 2027 confirmé.",
+      "sources": [
+        "https://www.openstreetmap.org/way/511406224",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/73-savoie/aix-les-bains"
+      ],
+      "lot": 491,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/914324778",
+      "place": "Val-Cenis — Aire de stationnement camping-car Termignon",
+      "status": "Stationnement gratuit; eau et vidange 2 € en espèces. Saison officielle indiquée du 1er mai au 31 octobre 2026, désormais terminée.",
+      "nextCheck": "Distinguer le parking gratuit du service à 2 €; confirmer la saison et les modalités 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/914324778",
+        "https://www.haute-maurienne-vanoise.com/val-cenis/"
+      ],
+      "lot": 491,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/914327157",
+      "place": "Saint-Jean-de-Maurienne — Aire de services",
+      "status": "Source touristique officielle : aire Flot Bleu, GPS 45.28016, 6.347865, environ 4 places, service 4 €. Le point OSM est à environ 40 m. Autorisation de nuitée non établie.",
+      "nextCheck": "Confirmer que le point OSM correspond à la borne; ajouter le prix du service et vérifier séparément la nuitée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/914327157",
+        "https://www.maurienne-tourisme.com/"
+      ],
+      "lot": 491,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/914380265",
+      "place": "La Léchère — Celliers, aire de services",
+      "status": "Source officielle : près de la mairie, ouverte toute l’année, eau et vidange gratuites. Point OSM à environ 50 m. Nuitée non confirmée.",
+      "nextCheck": "Compléter les services gratuits et confirmer l’autorisation de stationner la nuit.",
+      "sources": [
+        "https://www.openstreetmap.org/way/914380265",
+        "https://www.valmorel.com/"
+      ],
+      "lot": 491,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/914383889",
+      "place": "La Léchère — Notre-Dame-de-Briançon, place de la gare",
+      "status": "Aire de services officielle ouverte toute l’année : eau/vidange gratuites, douche 0,50 €/8 min, toilettes publiques 24 h/24. GPS à environ 12 m du point OSM; stationnement proche signalé, nuitée/capacité non précisées.",
+      "nextCheck": "Ajouter les tarifs et services confirmés; distinguer l’aire de services du parking voisin et vérifier la nuitée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/914383889",
+        "https://www.valmorel.com/"
+      ],
+      "lot": 491,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/916551955",
+      "place": "Beaufort — aire de camping-car",
+      "status": "Office de tourisme : environ 20 places près du centre de secours; borne Flot Bleu à l’entrée du camping de Domelin, paiement carte ou jetons; ouverture 2 mai–31 octobre. Prix du service non publié; borne et parking peuvent être distincts.",
+      "nextCheck": "Vérifier l’emplacement OSM et s’il correspond au parking ou à la borne; confirmer le prix de service et les conditions de nuitée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/916551955",
+        "https://www.areches-beaufort.com/"
+      ],
+      "lot": 491,
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "sourceId": "way/916894408",
+      "place": "Serrières-en-Chautagne — Aire CAMPING-CAR PARK à venir",
+      "status": "Statut à venir confirmé par l’opérateur; adresse et GPS publiés, mais pas de tarif, capacité, détail des services ni date d’ouverture. Prix non publié et nuitée non établie cohérents.",
+      "nextCheck": "Réexaminer à l’annonce d’ouverture et compléter le tarif, la capacité, les services et les conditions de nuitée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/916894408",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/savoie/serrieres-en-chautagne"
+      ],
+      "lot": 491,
+      "checkedAt": "2026-11-22"
+    }
+  ]
+}
