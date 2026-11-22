@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 470,
+  "currentLot": 471,
   "department": "71",
   "progress": {
-    "checked": 100,
+    "checked": 110,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 470 : fiches 91 à 100 contrôlées. La Clé de Saône : tarifs camping 2026 pour 2, basse saison 15,50 € sans électricité/19,90 € avec; haute 21,50/26,50; saison terminée. Le Paroy : site affiche actuellement 19,70 € basse /23,70 € haute par nuit, 1 personne avec électricité, adulte 6/7 €, mais grille sans année et détails de taxes ambigus; diffère de tarifs 20,20/23,20 en fiche. Saint-Point : 19–40 €/jour emplacement électrifié, saison jusqu’au 26/09/2026, fermée. Estefana : grille 2026 22 €/nuit, 2 adultes+1 enfant, suppléments adultes5/enfant3/élec4/animal2, saison terminée. Le Barrage : 2026 15 € sans électricité/20 € avec, animal2,50, saison terminée. Pont Vert : tarifs 2026 saisonniers 12,50/17, 14,50/19, 15,50/21 €, taxe séjour0,50 adulte. Saint-Vital : 2026 12,50–28 € électrifié, 9,50–26 € non, animal3 €, 171 places totales; saison terminée. Chevrette : prix 2026 non trouvé, ne pas reprendre tiers 24,50. Pâquier Fané : ACSI périodes 2026 mais montant caché; capacité site actuel 89 vs Destination 103. Chaintré : 1 place, 24h, tarifs services non publiés. Aucune donnée du site modifiée.",
+  "note": "Lot 471 : fiches 101 à 110 contrôlées. Tournus : grille officielle 2026, emplacement 11/13 €, électricité 5,50 €, taxe 0,50 €/adulte; 80 places totales dont 36 stabilisées. Sornay : gratuit 48 h, borne déclarée hors service. Au Bon Endroit : tarif touristique 20–55 € contre 19 € sur la fiche, fermeture annoncée au 27 ou 30/09. Park & Grill : 18–20 €/jour, saison 2026 terminée. Moulin de Collonge : tarifs secondaires contradictoires, prix laissé à confirmer. Saint-Sernin-du-Plain : capacité, gratuité et équipements non confirmés officiellement. La Motte aux Merles : grille 2026 secondaire. Mare de Roy : grille officielle mise à jour le 03/05/2026, emplacement 8/18 € selon période, personnes/options séparées. Saint-Ythaire : guide 2023, pas de tarif ni service sur place publié. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -1108,6 +1108,113 @@
       "nextCheck": "Garder 1 place et 24h; confirmer tarifs des services, ne pas inférer gratuité.",
       "sources": [
         "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-4"
+      ]
+    },
+    {
+      "place": "Aire de service camping-cars — Pruzilly",
+      "lot": 471,
+      "checkedAt": "2026-11-22",
+      "status": "Aire La Croix Blanche au parking de la salle des fêtes référencée par Destination 71. Gratuité, services et durée à reconfirmer à la mairie.",
+      "nextCheck": "Confirmer prix, durée et équipements actuellement disponibles.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-campings-cars.html-18"
+      ]
+    },
+    {
+      "place": "Camping de Tournus — emplacements camping-car",
+      "lot": 471,
+      "checkedAt": "2026-11-22",
+      "status": "Tarifs officiels 2026 : emplacement 11 € basse/13 € haute saison; électricité 10 A 5,50 €; taxe séjour 0,50 €/adulte dès 18 ans. 80 places au total, dont 36 stabilisées; pas une capacité dédiée camping-car. Distinct de l’aire municipale du quai.",
+      "nextCheck": "Ne pas confondre avec l’aire municipale; tarif 2027 à vérifier à publication.",
+      "sources": [
+        "https://www.camping-tournus.com/wp-content/uploads/2026/01/Tarif-2026-camping-Tournus.pdf",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-de-tournus.html"
+      ]
+    },
+    {
+      "place": "Parking camping-cars de Sornay — rue de la Mare aux Prêtres",
+      "lot": 471,
+      "checkedAt": "2026-11-22",
+      "status": "Mairie : stationnement gratuit, 48 h maximum. Ancienne borne signalée hors service; ne pas garantir eau, électricité ni vidange sans contrôle récent.",
+      "nextCheck": "Confirmer auprès de la mairie que la borne reste hors service et que la limite 48 h est toujours applicable.",
+      "sources": [
+        "https://www.sornay.fr/",
+        "https://www.camping-car.travel/sornay-aire-de-services/"
+      ]
+    },
+    {
+      "place": "Camping Au Bon Endroit — emplacements camping-car",
+      "lot": 471,
+      "checkedAt": "2026-11-22",
+      "status": "Fiche touristique : forfait 2 personnes 20–55 €, non-électrifié 15–20 €, adulte 7–9 €, enfant 4–7 €, électricité 5 €, taxe 0,60 €. La fiche du site source annonce 19 € minimum; durée de saison varie entre 27 et 30 septembre. 161 emplacements = capacité totale.",
+      "nextCheck": "Clarifier prix minimum (19/20 €) et fermeture 27/30 septembre; confirmer grille 2027 avant actualisation.",
+      "sources": [
+        "https://www.tourisme-paraylemonial.fr/campings-et-aire-de-camping-cars/camping-au-bon-endroit-HPABOU071142477.html",
+        "https://www.campingaubonendroit.fr/"
+      ]
+    },
+    {
+      "place": "Domaine Park & Grill — emplacements camping-car",
+      "lot": 471,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 publie 18–20 €/jour pour un emplacement avec 2 personnes, véhicule, camping-car, électricité et Wi-Fi inclus. Saison annoncée 30/04–31/10/2026, terminée.",
+      "nextCheck": "Tarifs et dates 2027 à vérifier; ne pas reconduire le prix 2026.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/domaine-park-grill.html"
+      ]
+    },
+    {
+      "place": "Camping Moulin de Collonge — emplacements camping-car",
+      "lot": 471,
+      "checkedAt": "2026-11-22",
+      "status": "Site officiel : saison 04/04–30/09/2026 et 47 emplacements de camping, capacité non dédiée aux camping-cars. Sources secondaires tarifaires divergentes; aucun prix officiel clair trouvé.",
+      "nextCheck": "Demander grille camping-car directement au camping; garder tarif non confirmé.",
+      "sources": [
+        "https://www.moulindecollonge.com/",
+        "https://www.campingfrance.com/recherchez-votre-camping/bourgogne-franche-comte/saone-et-loire/saint-boil/moulin-de-collonge"
+      ]
+    },
+    {
+      "place": "Aire de camping-cars de Saint-Sernin-du-Plain",
+      "lot": 471,
+      "checkedAt": "2026-11-22",
+      "status": "Trois places et gratuité rapportées par sources non officielles; équipements opérationnels et statut communal non confirmés.",
+      "nextCheck": "Confirmer à la mairie prix, capacité et fonctionnement des équipements.",
+      "sources": [
+        "https://www.campercontact.com/fr/france/bourgogne-franche-comte/saint-sernin-du-plain/198443/camperplaats-saint-sernin-du-plain",
+        "https://spot2play.com/spot/saint-sernin-du-plain/"
+      ]
+    },
+    {
+      "place": "Camping La Motte aux Merles — emplacements camping-car",
+      "lot": 471,
+      "checkedAt": "2026-11-22",
+      "status": "CampingFrance indique en 2026 emplacement 5,60 €/jour, adulte 4,30 €, enfant 2 €, électricité 3,60 €, animal 1 €/jour, minimum une nuit. Prix provenant d’une source secondaire.",
+      "nextCheck": "Faire confirmer les tarifs par le camping; ne pas confondre avec l’aire communale du bassin.",
+      "sources": [
+        "https://www.campingfrance.com/recherchez-votre-camping/bourgogne-franche-comte/saone-et-loire/artaix/la-motte-aux-merles",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-la-motte-aux-merles.html"
+      ]
+    },
+    {
+      "place": "Camping Mare de Roy — emplacements camping-car",
+      "lot": 471,
+      "checkedAt": "2026-11-22",
+      "status": "Grille officielle mise à jour 03/05/2026 : emplacement camping-car 8 €/nuit basse/haute, 18 € festival; adulte 12+ 4,30/4,80/10 €; électricité 6 A 3,50 €/nuit; taxe 0,20 €/adulte/nuit.",
+      "nextCheck": "Conserver la séparation emplacement/personnes/options; tarifs 2027 à vérifier.",
+      "sources": [
+        "https://marederoy.fr/fr/accueil",
+        "https://www.destination-saone-et-loire.fr/fr/hotellerie-de-plein-air/camping-mare-de-roy.html"
+      ]
+    },
+    {
+      "place": "Parking camping-car de l’ancienne mairie — Saint-Ythaire",
+      "lot": 471,
+      "checkedAt": "2026-11-22",
+      "status": "Guide de Cluny 2023 indique parking près de l’ancienne mairie; service le plus proche à Salornay-sur-Guye. Tarif/services sur place non publiés.",
+      "nextCheck": "Revalider accès, tarif et équipements auprès de la mairie; ne pas attribuer le service de Salornay à ce parking.",
+      "sources": [
+        "https://www.cluny-tourisme.com/app/uploads/2023/02/guide-camping-car-2023.pdf"
       ]
     }
   ]
