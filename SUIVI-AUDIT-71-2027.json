@@ -4,15 +4,15 @@
   "displayedCount": 273,
   "rawRegionalRows": 273,
   "deduplicatedRows": 0,
-  "currentLot": 466,
+  "currentLot": 467,
   "department": "71",
   "progress": {
-    "checked": 60,
+    "checked": 70,
     "total": 273,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 466 : fiches 51 à 60 contrôlées. Bragny : aire de stationnement distincte de l’aire de pique-nique; tarif/capacité/services non publiés. Semur : 8 places, une nuit sur l’aire principale; eau/vidange/WC, pas d’électricité. Anzy-le-Duc : 2 places privées, 6 €/jour sans électricité, vidange interdite, saison avril-fin octobre. Artaix : 16 places, services eau/électricité par carte, montants non publiés. Melay : eau 2 €/20 min, électricité 3 €/4 h, 6 places, tarifs 2026. Marraycourt : 6 places, 24,50 €/jour avec électricité; adresse 2 place du Champ de Foire vs 9 rue Georges de Vichy, borne municipale séparée. Viry : ferme 6 places, prix non publié, vidange à 6 km. Mont-Saint-Vincent gratuit, capacité non publiée. Bourbon-Lancy Terracamps : 22 places, 13 €/24 h dans guide 2026. Cuiseaux : 5 places et gratuit, dates 01/03–31/10/2026 mais description affirme ouvert toute l’année. Aucune donnée du site modifiée.",
+  "note": "Lot 467 : fiches 61 à 70 contrôlées. Buxy : parking Champ de Foire 4 places gratuit, distinct de la borne gratuite des Amerrons; celle-ci mise hors gel dès décembre. Le Creusot Parc des Combes : aire de services uniquement, eau/vidange/parking gratuits; WC fermés le soir et début novembre–fin mars. Cluny Georges Malère : 6 places, 11 €/jour, déclaration de plaque et règlement via mairie/Presto Park. Sigy-le-Châtel : 2 places, véhicules de moins de 6 m. La Clayette : eau/électricité/vidange, borne hors gel hiver, tarif/nuitée non confirmés. Germagny : 6 places, eau/vidange/WC, prix non publié. Bergerie Santagny : 3 places France Passion, emplacement gratuit, eau/électricité en supplément sans montants. Saint-Eusèbe : borne eau/vidange gratuite sans parking, hivernage à confirmer. Antully La Noue : ferme, 2 places, conditions et tarif à confirmer. Aucune donnée du site modifiée.",
   "entries": [
     {
       "sourceId": "node/3755588551",
@@ -692,6 +692,116 @@
       "nextCheck": "Conserver gratuité et 5 places; ne pas garantir accès hivernal avant clarification communale.",
       "sources": [
         "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-et-stationnement-pour-les-campings-cars.html-2"
+      ]
+    },
+    {
+      "place": "Buxy — stationnement place du Champ de Foire",
+      "lot": 467,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme Sud Côte Chalonnaise : 4 places et stationnement gratuit toute l’année. Borne des Amerrons distincte.",
+      "nextCheck": "Garder parking gratuit et 4 places; ne pas importer les services des Amerrons.",
+      "sources": [
+        "https://www.tourisme-sud-cote-chalonnaise.com/campings/aire-de-stationnement--ACCBOU0OTV511I2B.html"
+      ],
+      "sourceId": "destination-saone-et-loire/buxy-stationnement"
+    },
+    {
+      "place": "Buxy — borne de services des Amerrons",
+      "lot": 467,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : borne gratuite vidange/rinçage eaux usées et WC, sans nuitée; mise hors gel à partir de décembre.",
+      "nextCheck": "Conserver services gratuits, sans stationnement de nuit; noter restriction hivernale.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-camping-car.html"
+      ],
+      "sourceId": "destination-saone-et-loire/buxy-les-amerrons"
+    },
+    {
+      "place": "Le Creusot — Parc des Combes",
+      "lot": 467,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme/guide 2026-2027 : aire de services seule, eau/vidange/parking gratuits; WC fermés le soir et début novembre–fin mars. Capacité d’un emplacement de service selon fiche.",
+      "nextCheck": "Ne pas présenter comme aire de nuitée; conserver restriction sanitaire saisonnière.",
+      "sources": [
+        "https://www.creusotmontceautourisme.fr/offres/aire-de-services-pour-camping-cars-le-creusot-fr-4182225/",
+        "https://www.creusotmontceautourisme.fr/app/uploads/creusotmontceau/2026/03/Guide-touristique-2026-2027.pdf"
+      ],
+      "sourceId": "destination-saone-et-loire/le-creusot-parc-des-combes"
+    },
+    {
+      "place": "Cluny — chemin Georges Malère",
+      "lot": 467,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : 6 emplacements plats, 11 €/jour; déclaration de plaque à la Police municipale et paiement sur place ou via Presto Park.",
+      "nextCheck": "Garder tarif daté et procédure; revalider pour 2027.",
+      "sources": [
+        "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-service-pour-campings-cars-cluny/"
+      ],
+      "sourceId": "destination-saone-et-loire/cluny-georges-malere"
+    },
+    {
+      "place": "Sigy-le-Châtel — parking camping-car",
+      "lot": 467,
+      "checkedAt": "2026-11-22",
+      "status": "Cluny Tourisme confirme 2 places, parking plat avec vue et accès restreint aux véhicules de moins de 6 m. Tarif/services/durée non publiés.",
+      "nextCheck": "Maintenir limite véhicule <6 m visible; ne pas inventer tarif ou services.",
+      "sources": [
+        "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-sigy-le-chatel/"
+      ],
+      "sourceId": "destination-saone-et-loire/sigy-le-chatel"
+    },
+    {
+      "place": "La Clayette — place du Champ de Foire",
+      "lot": 467,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme Sud Brionnais confirme eau, électricité, vidange et mise hors gel hivernale; aucun prix chiffré ni stationnement nocturne confirmé.",
+      "nextCheck": "Garder comme aire de services; confirmer état hivernal; ne pas afficher prix ou nuitée.",
+      "sources": [
+        "https://www.tourisme-sudbrionnais.fr/aires-de-camping-car/aire-de-service-pour-campings-cars-HPABFC000V502H0D.html"
+      ],
+      "sourceId": "destination-saone-et-loire/la-clayette-champ-de-foire"
+    },
+    {
+      "place": "Germagny — Le Bourg",
+      "lot": 467,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme 6 places stabilisées, eau, vidange, toilettes et ouverture annuelle. Tarif non publié.",
+      "nextCheck": "Garder 6 places et services; prix à confirmer.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-campings-cars.html"
+      ],
+      "sourceId": "destination-saone-et-loire/germagny"
+    },
+    {
+      "place": "Genouilly — Bergerie de Santagny",
+      "lot": 467,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme 3 emplacements France Passion; emplacement gratuit, eau/électricité en supplément sans montants publiés; accueil sur appel; vidange à proximité et non sur place.",
+      "nextCheck": "Distinguer tarif d’emplacement et consommations; appeler avant arrivée.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-pour-camping-car-la-bergerie-de-santagny.html"
+      ],
+      "sourceId": "destination-saone-et-loire/genouilly-bergerie-santagny"
+    },
+    {
+      "place": "Saint-Eusèbe — Étang Berthaud",
+      "lot": 467,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme : borne Flot Bleu eau/vidange gratuite, sans parking; hivernage hors saison possible.",
+      "nextCheck": "Conserver borne sans nuitée; vérifier le fonctionnement hiver auprès de la mairie.",
+      "sources": [
+        "https://www.creusotmontceautourisme.fr/offres/aire-de-services-pour-camping-cars-saint-eusebe-fr-4182054/"
+      ],
+      "sourceId": "destination-saone-et-loire/saint-eusebe-etang-berthaud"
+    },
+    {
+      "place": "Antully — ferme hélicicole La Noue",
+      "lot": 467,
+      "checkedAt": "2026-11-22",
+      "status": "Autun Tourisme confirme 2 emplacements d’accueil à la ferme; tarifs et dates actuelles non publiés.",
+      "nextCheck": "Garder 2 places; confirmer directement tarifs, période et conditions France Passion; ne pas présumer gratuité.",
+      "sources": [
+        "https://www.autun-tourisme.com/offres/aire-de-camping-car-a-la-ferme-antully-fr-3456523/"
       ]
     }
   ]
