@@ -1,0 +1,134 @@
+{
+  "scope": "Saône-et-Loire (71) : vérification tarifaire et statutaire des fiches de aires-saone-et-loire.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-22",
+  "displayedCount": 273,
+  "rawRegionalRows": 273,
+  "deduplicatedRows": 0,
+  "currentLot": 461,
+  "department": "71",
+  "progress": {
+    "checked": 10,
+    "total": 273,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 461 : fiches 1 à 10 contrôlées. Anost : stationnement/vidange confirmés, annuaire tarifs 2023 périmé. Tramayes : gratuité issue du guide communal 2021, places/services à confirmer. Marcigny : parking/vidange gratuits, eau 2 €/10 min et électricité 2 €/120 min; point GPS et adresse divergents. Génelard : services gratuits, eau coupée en hiver. Damerey : fiche officielle récente confirme parking gratuit; offre privée possiblement distincte à la même adresse, ne pas fusionner. Saint-Sernin : tarif 2023 à reconfirmer. La Vineuse 2 places, Château 6 et Massilly 3; tarifs non publiés. Aucune donnée du site modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/3755588551",
+      "place": "Anost — Champ de Foire",
+      "lot": 461,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme confirme stationnement libre sans réservation et zone de vidange. Tarifs et capacité non publiés officiellement; annuaire annonce 10 places et tarif 2023, obsolètes pour validation actuelle.",
+      "nextCheck": "Garder prix et capacité non confirmés; ne pas reprendre barème 2023 comme actuel.",
+      "sources": [
+        "https://www.autun-tourisme.com/offres/aire-de-camping-car-anost-fr-3456538/",
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car.html-0",
+        "https://www.camping-car.com/aires/15377-aire-communale/"
+      ]
+    },
+    {
+      "sourceId": "node/4376886164",
+      "place": "Tramayes — aire communale place de Saint-Point",
+      "lot": 461,
+      "checkedAt": "2026-11-22",
+      "status": "Guide communal 2021: stationnement gratuit et ouvert toute l’année. Données cartographiques 2026: 2 places, eau et vidange, à confirmer à la mairie.",
+      "nextCheck": "Garder gratuité avec attribution; confirmer capacité et services auprès de la mairie.",
+      "sources": [
+        "https://www.tourismevertsvallons.com/uploads/images/pratique/brochures-pdf/Guide%20des%20h%C3%A9bergements%202021.pdf",
+        "https://spot2play.com/spot/aire-de-camping-car-tramayes/"
+      ]
+    },
+    {
+      "sourceId": "node/5649839775",
+      "place": "Marcigny — aire de services camping-cars",
+      "lot": 461,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71: 3 places, parking et vidange gratuits, eau 2 €/10 min, électricité 2 €/120 min, CB, 24/24. Fiche officielle situe place du Champ de Foire; point cartographique de la fiche place Irène Popard.",
+      "nextCheck": "Séparer tarif de services du stationnement gratuit; vérifier adresse et coordonnées avant correction GPS.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-service-pour-les-camping-cars.html-0"
+      ]
+    },
+    {
+      "sourceId": "node/5649863021",
+      "place": "Génelard — aire place de la Résistance / halte nautique",
+      "lot": 461,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme services et stationnement gratuits; alimentation en eau coupée en hiver; stationnement interdit sur les pelouses le long du canal.",
+      "nextCheck": "Garder gratuité et réserve hivernale pour l’eau; distinguer la zone de stationnement autorisée des pelouses.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-0"
+      ]
+    },
+    {
+      "sourceId": "node/6819662055",
+      "place": "Damerey — aire de stationnement rue des Querelles",
+      "lot": 461,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 mise à jour 26/10/2026 confirme stationnement gratuit, toute l’année, parking/éclairage/aire de jeux. Offre privée à 10 €/nuit est également indexée à la même adresse, sans preuve qu’il s’agit du même lieu.",
+      "nextCheck": "Prioriser la fiche publique gratuite; ne pas lui attribuer tarif/services privés; clarifier avec office/mairie avant éventuelle seconde fiche.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-stationnement-pour-camping-car-damerey.html",
+        "https://www.camping-car.com/aires/35216-bertrand-chavanis/"
+      ]
+    },
+    {
+      "sourceId": "node/11987521659",
+      "place": "Saint-Sernin-du-Bois — aire allée des Sapins",
+      "lot": 461,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme eau, électricité, vidange; barème affiché sur fiche mise à jour 10/07/2023: eau 2 €, électricité 3 €. Pas de tarif actuel plus récent trouvé.",
+      "nextCheck": "Afficher les prix seulement avec millésime 2023 jusqu’à confirmation d’un tarif actuel.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-services-pour-camping-cars.html-5"
+      ]
+    },
+    {
+      "sourceId": "node/11991750153",
+      "place": "Flagy — parking communal",
+      "lot": 461,
+      "checkedAt": "2026-11-22",
+      "status": "Guide touristique: vaste terrain communal pour séjours courts ou longs, sol parfois irrégulier; aucun tarif, capacité ni service technique publié.",
+      "nextCheck": "Garder capacité/prix non confirmés; mentionner cales et ne pas annoncer de services.",
+      "sources": [
+        "https://www.tourisme-saonegrosne.fr/document/guide-parkings-voitures-et-camping-car.pdf"
+      ]
+    },
+    {
+      "sourceId": "node/11991750154",
+      "place": "La Vineuse-sur-Frégande — parking communal",
+      "lot": 461,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme de Cluny confirme parking communal enherbé/arboré et capacité de 2 places; quelques emplacements plats, accès étroit grands véhicules selon guide 2025. Tarif non publié.",
+      "nextCheck": "Garder capacité 2 et prix non publié; signaler les cales et la réserve d’accès.",
+      "sources": [
+        "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-la-vineuse/",
+        "https://www.cluny-tourisme.com/app/uploads/2025/06/guide-camping-car-2025.pdf"
+      ]
+    },
+    {
+      "sourceId": "node/11991786885",
+      "place": "Château — parking camping-car de Danjin",
+      "lot": 461,
+      "checkedAt": "2026-11-22",
+      "status": "Office de tourisme de Cluny: parking plat et ombragé, 6 places, à Danjin au bas du bourg, environ 100 m de la mairie. Tarif non publié.",
+      "nextCheck": "Conserver capacité 6 et prix non publié.",
+      "sources": [
+        "https://www.cluny-tourisme.com/aire-camping-cars/aire-de-camping-car-chateau/"
+      ]
+    },
+    {
+      "sourceId": "node/11991786886",
+      "place": "Massilly — parking près de l’ancienne gare",
+      "lot": 461,
+      "checkedAt": "2026-11-22",
+      "status": "Destination 71 confirme terrain plat et 3 places près de l’ancienne gare/voie verte; guide local: séjour de courte durée; tarif non publié.",
+      "nextCheck": "Conserver 3 places et courte durée; ne pas présenter comme aire de services.",
+      "sources": [
+        "https://www.destination-saone-et-loire.fr/fr/aire-de-camping-car/aire-de-camping-car-massilly.html",
+        "https://www.tourisme-saonegrosne.fr/document/guide-parkings-voitures-et-camping-car.pdf"
+      ]
+    }
+  ]
+}
