@@ -1,0 +1,133 @@
+{
+  "scope": "Loir-et-Cher (41) : audit des tarifs, services, capacités et périodes d’ouverture des fiches de aires-loir-et-cher.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-24",
+  "displayedCount": 68,
+  "rawRegionalRows": 68,
+  "deduplicatedRows": 0,
+  "currentLot": 533,
+  "department": "41",
+  "progress": {
+    "checked": 10,
+    "total": 68,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Premier lot du Loir-et-Cher terminé : fiches 1 à 10 sur 68. Domaine de la Grange : France Passion gratuit jusqu’à 24 h, services eau/vidange à 3 €, capacité divergente 5/6. Chambord : P2 uniquement à 15 €/24 h, sans services. Blois : Qipeo affiche 9,22 € pour 2 adultes et 25 places; l’office affiche 8 € et 20 places. Aucune fiche source n’a été modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/11922288632",
+      "place": "Cour-Cheverny — Domaine de l’Aumonière (France Passion)",
+      "status": "Val de Loire Tourisme confirme 5 places, halte de nuit 24 h maximum, invitation et macaron France Passion de l’année en cours requis. Le réseau précise que l’accueil privé est gratuit jusqu’à 24 h et n’est pas une aire de services.",
+      "nextCheck": "Conserver gratuité sous condition d’adhésion et la limite de 24 h; ne pas attribuer de services techniques.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-domaine-de-laumoniere-cour-cheverny-acccen000v5000bm/",
+        "https://www.france-passion.com/camping-caristes/faq-camping-cariste/formule-france-passion/"
+      ],
+      "lot": 533,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "node/11922471878",
+      "place": "Huisseau-sur-Cosson — Domaine de la Grange",
+      "status": "Le domaine indique 6 emplacements et une prestation d’eau + vidange à 3 €. Val de Loire Tourisme confirme une étape France Passion gratuite de 24 h maximum et décrit 5 places, avec eau et vidange disponibles. Le prix de 3 € concerne les services, pas le stationnement nocturne.",
+      "nextCheck": "Conserver le tarif des services séparé de l’étape gratuite; signaler la divergence de capacité 5/6 places.",
+      "sources": [
+        "https://www.vin-domaine-de-la-grange.com/camping-car/",
+        "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-huisseau-sur-cosson-acccen000v5000bw/"
+      ],
+      "lot": 533,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "node/11922566373",
+      "place": "Neuvy — parking du village",
+      "status": "Val de Loire Tourisme confirme 2 emplacements gratuits sur le parking du village, avec stationnement de nuit; aucun service technique n’est annoncé.",
+      "nextCheck": "Garder gratuit et sans services confirmés; ne pas ajouter d’équipement non publié.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-neuvy-acccen000v5000em/"
+      ],
+      "lot": 533,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "node/11922676005",
+      "place": "Salbris — rue de l’Abreuvoir",
+      "status": "Val de Loire Tourisme confirme une nuit gratuite le long de la Sauldre. La fiche renvoie les services au camping de Sologne, un établissement distinct; elle n’annonce pas de borne technique à ce parking.",
+      "nextCheck": "Conserver le parking comme nuitée gratuite; garder les services rattachés uniquement au camping de Sologne.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-salbris-acccen000v5000g0/"
+      ],
+      "lot": 533,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "node/11922770603",
+      "place": "Tour-en-Sologne — parking Pierre Chéramy",
+      "status": "La mairie confirme stationnement autorisé; jeton à 2,50 € pour 100 L d’eau ou 1 h d’électricité, vidange et rinçage gratuits. L’eau peut être coupée par gel.",
+      "nextCheck": "Conserver le tarif par jeton et la réserve hivernale; ne pas assimiler le prix du jeton à une nuitée.",
+      "sources": [
+        "https://www.tourensologne.fr/mes-services-et-demarches/espaces-et-equipements-publics/aire-de-camping-cars/"
+      ],
+      "lot": 533,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/101809040",
+      "place": "Vernou-en-Sologne — 24 rue de Beaugency",
+      "status": "Sologne Tourisme indique une aire ouverte 24 h/24 avec eau, électricité, vidanges et sanitaires. Le tarif est libellé « Gratuit (jeton) » sans montant actuel; un montant de 2 € issu d’un guide ancien n’est pas confirmé.",
+      "nextCheck": "Garder le montant du jeton comme non publié; ne pas reprendre le tarif ancien de 2 € sans confirmation de la mairie.",
+      "sources": [
+        "https://www.sologne-tourisme.fr/aire-de-stationnement-et-ou-de-services-pour-camping-cars-vernou-en-sologne/"
+      ],
+      "lot": 533,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/361417455",
+      "place": "Montoire-sur-le-Loir — boulevard des Alliés",
+      "status": "Vendôme Tourisme confirme que les parkings du boulevard des Alliés sont gratuits, mais les places en zone bleue sont limitées à 2 h toute l’année (disque requis aux périodes réglementées). La source ne confirme ni emplacements dédiés camping-car ni nuitée.",
+      "nextCheck": "Garder l’autorisation de nuit et la capacité dédiée comme non confirmées; vérifier la signalisation du parking exact.",
+      "sources": [
+        "https://www.vendome-tourisme.fr/pratique/se-deplacer/sur-place/"
+      ],
+      "lot": 533,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/361504043",
+      "place": "Montoire-sur-le-Loir — ancienne gare, avenue de la République",
+      "status": "Les informations consultées décrivent le site de l’ancienne gare comme un parking; un retour utilisateur de 2026 dit que les services ne sont plus disponibles. Aucun tarif ou service à jour n’est confirmé par une source municipale.",
+      "nextCheck": "Garder le prix de nuitée, l’autorisation de nuit et les services comme non confirmés; ne pas confondre avec l’aire CAMPING-CAR PARK des Reclusages.",
+      "sources": [
+        "https://www.campercontact.com/fr/france/centre-val-de-loire/montoire-sur-le-loir/1518/aire-municipale",
+        "https://www.vendome-tourisme.fr/app/uploads/vendome/2025/07/Bornes-Wifi-Val-de-Loire-Public-sur-la-CATV41.pdf"
+      ],
+      "lot": 533,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "chambord.org/P2",
+      "place": "Chambord — parking camping-cars P2",
+      "status": "Domaine national de Chambord : camping-cars uniquement sur P2, 15 €/24 h, stationnement de nuit autorisé mais camping longue durée interdit. Aucun point d’eau, électricité ou vidange sur place; bornes de paiement 24 h/24.",
+      "nextCheck": "Conserver le tarif, l’absence de services et la restriction au P2; maintenir la distinction entre nuitée et camping longue durée.",
+      "sources": [
+        "https://www.chambord.org/informations-pratiques/aides-et-faq",
+        "https://www.chambord.org/informations-pratiques/services-sur-place/parkings"
+      ],
+      "lot": 533,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/609006607",
+      "place": "Blois — aire du Parc des expositions",
+      "status": "Qipeo affiche 9,22 €/24 h pour 2 adultes, dont 1,22 € de taxe; eau à 2 €/10 min, 25 places et vidéosurveillance. L’office de tourisme Blois Chambord affiche encore 8 €/24 h dont 0,44 € de taxe et 20 places : tarifs et capacité divergents entre les deux sources.",
+      "nextCheck": "Afficher le montant Qipeo avec date de vérification et préciser la base de 2 adultes; demander confirmation à la régie/office pour harmoniser le tarif public et les 20/25 places.",
+      "sources": [
+        "https://www.qipeo.com/detail/f98469bd-a6a2-4273-8b5f-f099549735ad",
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-blois-parc-des-expositions-blois-fr-2075225/"
+      ],
+      "lot": 533,
+      "checkedAt": "2026-11-24"
+    }
+  ]
+}
