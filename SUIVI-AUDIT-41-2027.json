@@ -4,15 +4,15 @@
   "displayedCount": 68,
   "rawRegionalRows": 68,
   "deduplicatedRows": 0,
-  "currentLot": 538,
+  "currentLot": 539,
   "department": "41",
   "progress": {
-    "checked": 60,
+    "checked": 68,
     "total": 68,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 8,
+    "totalInLot": 8
   },
-  "note": "Lot 538 terminé : fiches 51 à 60 sur 68 vérifiées. Vendôme camping 14,40–21,60 € selon personne/prestation; Sargé 10 €/nuit pour deux +4 € électricité; Thoré-la-Rochette Stop Accueil 14,50 € + taxe 0,40 € et électricité 5,30 €; Morée 14/17 € sans/avec électricité. Les sites saisonniers sont fermés à la date du contrôle. Prés aux Chats et Les Roches-l’Évêque gratuits; Domaine de Marsoif et Domaine du Vivier gratuits sous conditions indiquées. Chaon: prix nuitée non publié; disponibilité des services à confirmer. Source d'approbation de tarifs 2026 associée par erreur à Chaon écartée (document Cerbère). Fiches source inchangées.",
+  "note": "Audit Loir-et-Cher terminé : 68/68 fiches vérifiées en lots. Lot 539 (fiches 61–68) : étape France Passion à Cormeray gratuite jusqu’à 24 h sous conditions; Cave de la Grande Brosse et Sassay référencées mais accueil 2026 à confirmer; Contres gratuit rapporté avec eau possiblement hors gel; Maugerie 6 €/nuit, gratuite si consommation d’une prestation; Vouzon gratuit selon brochure 2025; Nouan gratuit avec vidange, eau de rinçage absente et eau/électricité à revalider; Souday prix/fonctionnement des services contradictoires. Les 68 fiches source restent inchangées. Dernier travail utile : résoudre les vérifications externes listées dans les rapports.",
   "entries": [
     {
       "sourceId": "node/11922288632",
@@ -709,6 +709,106 @@
         "https://www.france-passion.com/camping-caristes/comment-ca-marche/"
       ],
       "lot": 538,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.valdeloire-france.com/aire-camping-car/aire-de-stationnement-pour-camping-cars-cormeray/",
+      "place": "Cormeray — Cave de l’Aubras",
+      "status": "Val de Loire confirme 5 places, nuitée maximale 24 h, gratuite sous conditions France Passion (adhésion, invitation et macaron de l’année en cours). Le guide touristique Blois-Chambord 2026 indique visite/dégustation gratuites; d’autres fiches mentionnent 3 €/adulte, montant relatif à la visite, pas à la nuitée.",
+      "nextCheck": "Garder nuitée France Passion gratuite; confirmer auprès de la cave l’accueil effectif et ne pas répercuter un prix de visite comme prix du stationnement.",
+      "sources": [
+        "https://www.valdeloire-france.com/aire-camping-car/aire-de-stationnement-pour-camping-cars-cormeray/",
+        "https://www.bloischambord.com/app/uploads/blois-tourisme/2026/02/Guide-de-lOffice-de-Tourisme-Blois-chambord-2026_Tourist-office-guide_Guia-de-la-oficina-de-turismo_fr_En-Es.pdf",
+        "https://www.loirevalley-france.co.uk/wine-local-products/cave-de-laubras-earl-badin/",
+        "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
+      ],
+      "lot": 539,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.cirkwi.com/fr/point-interet/662571-aire-de-stationnement-pour-camping-cars-cave-de-la-grande-brosse-chemery",
+      "place": "Chémery — Cave de la Grande Brosse",
+      "status": "L’agence touristique a actualisé la fiche le 01/02/2026 et renvoie vers France Passion, mais aucune source publique de l’exploitant ne confirme que l’accueil camping-car est actuellement actif ni la capacité. Aucun tarif distinct publié; si l’étape France Passion est active, les conditions du réseau prévoient la gratuité jusqu’à 24 h.",
+      "nextCheck": "Appeler la cave avant d’annoncer une étape accessible ou d’afficher la capacité OSM de 5 places.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/662571-aire-de-stationnement-pour-camping-cars-cave-de-la-grande-brosse-chemery",
+        "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
+      ],
+      "lot": 539,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.camping-car.com/aires/46492-aire-communale/",
+      "place": "Le Controis-en-Sologne (Contres) — chemin des Linereaux",
+      "status": "Stationnement et services rapportés gratuits; annuaire spécialisé affiche 6 places et forfait gratuit (tarif indiqué 2022). Témoignages 2026 confirment la gratuité, mais signalent eau indisponible le 14/05, probablement hors gel; aucune grille municipale 2026 trouvée. Pas d’électricité confirmée.",
+      "nextCheck": "Garder les prix comme non publiés officiellement pour 2026; indiquer gratuité observée, sans garantir le fonctionnement actuel de l’eau. Confirmer auprès de la mairie si nécessaire.",
+      "sources": [
+        "https://www.camping-car.com/aires/46492-aire-communale/",
+        "https://park4night.com/fr/place/50503",
+        "https://www.i-campingcar.fr/aires.php?ville=CONTRES"
+      ],
+      "lot": 539,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.lamaugeriecampingcar.com/reservation-emplacement-camping-car/",
+      "place": "Thoury — Ferme de la Maugerie",
+      "status": "Le site de réservation affiche 6 €/nuit; eau en option 3 €, électricité 3 €/nuit, petit-déjeuner 7 € et repas adulte 23 €. L’autre site de l’exploitant indique que la nuit est offerte si une prestation est consommée. Réservation/appel avant arrivée; capacité annoncée : maximum 4 camping-cars par nuit.",
+      "nextCheck": "Présenter clairement 6 € au tarif standard et gratuité conditionnelle à une prestation; garder eau, électricité et restauration comme suppléments.",
+      "sources": [
+        "https://www.lamaugeriecampingcar.com/reservation-emplacement-camping-car/",
+        "https://www.la-maugerie.com/fr/camping-car"
+      ],
+      "lot": 539,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-car-vouzon-acccen000v5000gk/",
+      "place": "Vouzon — étang communal",
+      "status": "Val de Loire confirme une zone de stationnement de nuit près de l’étang. La brochure Cœur de Sologne 2025 indique gratuit et 6 emplacements; aucun service technique ni tarif additionnel confirmé.",
+      "nextCheck": "Conserver gratuité et 6 places comme informations de la brochure 2025; ne pas attribuer eau/vidange à ce parking.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-car-vouzon-acccen000v5000gk/",
+        "https://www.coeurdesologne.com/wp-content/uploads/2025/04/Camping-et-camping-car-1.pdf"
+      ],
+      "lot": 539,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.sologne-tourisme.fr/aire-de-stationnement-pour-camping-car-nouan-le-fuzelier/",
+      "place": "Nouan-le-Fuzelier — avenue de Paris",
+      "status": "Sologne Tourisme confirme parking gratuit et vidange possible, mais pas d’eau de rinçage. Un retour du 22/09/2026 indiquait borne eau/électricité toujours hors service après travaux; pas de prix actuel publié.",
+      "nextCheck": "Garder parking gratuit et vidange possible; ne pas garantir eau/électricité sans confirmation municipale récente.",
+      "sources": [
+        "https://www.sologne-tourisme.fr/aire-de-stationnement-pour-camping-car-nouan-le-fuzelier/",
+        "https://www.coeurdesologne.com/wp-content/uploads/2025/04/Camping-et-camping-car-1.pdf"
+      ],
+      "lot": 539,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.couetronauperche.fr/index.php/tourisme-loisirs/camping",
+      "place": "Couëtron-au-Perche — Souday, rue des Loisirs",
+      "status": "La mairie décrit l’ancien camping municipal et ses places camping-car, sans tarif ni calendrier de services. Stationnement gratuit rapporté; sources récentes divergent sur le prix des services (gratuit vs jeton à 2 €) et sur la période d’eau, avec des coupures possibles de novembre à mars. État de l’eau/borne à confirmer en saison froide.",
+      "nextCheck": "Ne publier aucun tarif de service comme vérifié; garder uniquement la gratuité du stationnement et vérifier auprès de la mairie le fonctionnement hivernal et le coût actuel eau/électricité.",
+      "sources": [
+        "https://www.couetronauperche.fr/index.php/tourisme-loisirs/camping",
+        "https://www.camping-car.com/tourisme/actus-des-aires/les-5-aires-de-camping-car-les-plus-consultees-de-nos-lecteurs-en-octobre/",
+        "https://www.campingcar76.fr/Site%20P08%2041%20Aires%20services%20en%20Loir%20et%20Cher%20%28Centre%29.htm"
+      ],
+      "lot": 539,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.cirkwi.com/fr/point-interet/1095670-aire-de-stationnement-pour-camping-cars-sassay",
+      "place": "Sassay — Caveau de la Boussinière",
+      "status": "Fiche touristique mise à jour en février 2026 et référencée France Passion; pas de confirmation publique de l’exploitant sur l’accueil actuel ou la capacité. Si étape France Passion active, gratuité jusqu’à 24 h pour camping-car autonome muni du guide/invitation en cours. Les deux places proviennent d’OSM, non confirmées.",
+      "nextCheck": "Confirmer auprès du caveau l’accueil et le nombre d’emplacements; ne pas présenter la capacité OSM comme officielle.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/1095670-aire-de-stationnement-pour-camping-cars-sassay",
+        "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
+      ],
+      "lot": 539,
       "checkedAt": "2026-11-24"
     }
   ]
