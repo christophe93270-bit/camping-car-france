@@ -4,15 +4,15 @@
   "displayedCount": 68,
   "rawRegionalRows": 68,
   "deduplicatedRows": 0,
-  "currentLot": 534,
+  "currentLot": 535,
   "department": "41",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 68,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 534 terminé : fiches 11 à 20 sur 68 du Loir-et-Cher vérifiées. CCP Les Montils 14,92 €/24 h; Pontlevoy et Chailles 13,95 €/24 h, taxe incluse. Services gratuits hors gel à Theillay, Lamotte-Beuvron et Langon-sur-Cher; nuitées France Passion gratuites sous conditions à Cheverny et Châteauvieux. Points à revérifier : stationnement 8 € à Lamotte (brochure 2025), capacité Chailles (20/22), limites de séjour Saint-Dyé et Bauzy. Aucune fiche source n’a été modifiée.",
+  "note": "Lot 535 terminé : fiches 21 à 30 sur 68 du Loir-et-Cher vérifiées. Angé publie 4 €/demi-journée, 8 €/jour, 50 €/semaine, 200 €/mois; Cour-Cheverny nuitée gratuite avec services par jeton; Cheverny rue du Bûcher stationnement gratuit, eau/vidange 3 €/5 min dans la zone de 20 places. Montants non confirmés pour les jetons à Mennetou, tarif nuitée 2026 à Azé, et conditions d’accueil à Épuisay. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/11922288632",
@@ -242,6 +242,123 @@
         "https://www.val-de-loire-41.com/camping-car/aire-camping-cars-du-canal-acccen000v5000bz/"
       ],
       "lot": 534,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1285560337",
+      "place": "Saint-Georges-sur-Cher — aire rue de Verdun",
+      "status": "Val de Loire confirme 12 emplacements, stationnement et électricité gratuits en 2026, avec borne Euro-Relais. La Loire à Vélo affiche l’eau à 5 €/100 L. Prix du jeton pour les autres services non précisé.",
+      "nextCheck": "Garder séparés stationnement/électricité gratuits et eau à 5 €/100 L; laisser le coût du jeton de vidange à confirmer.",
+      "sources": [
+        "https://www.valdeloire-france.com/aire-camping-car/aire-de-camping-cars-saint-georges-sur-cher/",
+        "https://www.loireavelo.fr/tsft/aire-de-camping-cars-de-saint-georges-sur-cher-saint-georges-sur-cher/"
+      ],
+      "lot": 535,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1293045443",
+      "place": "La Ferté-Beauharnais — aire de l’étang communal",
+      "status": "La mairie confirme que les jetons de services coûtent 2 €; eau, électricité et vidange sont disponibles. Sologne Tourisme indique 40 emplacements. Aucun tarif de stationnement nocturne n’est publié par la commune.",
+      "nextCheck": "Afficher 2 € comme prix du jeton de services, pas comme tarif de nuitée; durée/quantité incluse par jeton à confirmer si utile.",
+      "sources": [
+        "https://la-ferte-beauharnais.fr/index.php/decouvrir-la-ferte/",
+        "https://www.sologne-tourisme.fr/tourinsoft/aire-de-stationnement-et-de-services-pour-camping-cars-la-ferte-beauharnais/"
+      ],
+      "lot": 535,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1296647776",
+      "place": "Angé — aire communale",
+      "status": "La mairie publie 4 € la demi-journée, 8 € la journée, 50 € la semaine et 200 € le mois via la borne de paiement de l’aire. Eau potable et vidange disponibles; capacité, donnée comme 15 ou 25 places selon des annuaires, non confirmée par la page municipale.",
+      "nextCheck": "Garder les quatre forfaits publiés sans les reformuler comme un tarif nuitée; vérifier la capacité si elle doit être affichée.",
+      "sources": [
+        "https://www.mairie-ange.com/tourisme/camping-cars/"
+      ],
+      "lot": 535,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1315193175",
+      "place": "Mennetou-sur-Cher — aire place du 11 Novembre",
+      "status": "Val de Loire Tourisme confirme eau, électricité et vidange hors gel, jetons en vente à la mairie, à l’office du tourisme ou chez les commerçants. Le prix actuel du jeton et celui du stationnement nocturne ne sont pas publiés; les 2 € de retours voyageurs ne sont pas confirmés par une source municipale.",
+      "nextCheck": "Ne pas inscrire les 2 € ni la gratuité de la nuit comme tarifs confirmés; demander un tarif actuel à la mairie.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-services-camping-cars-acccen00000029/"
+      ],
+      "lot": 535,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-cour-cheverny-cour-cheverny-fr-2666456/",
+      "place": "Cour-Cheverny — parking de la salle des fêtes",
+      "status": "Blois-Chambord Tourisme confirme stationnement nocturne gratuit toute l’année 2026 et vidange/eau/électricité par jetons Euro-Relais, vendus à la mairie ou au CocciMarket. Montant du jeton non publié.",
+      "nextCheck": "Garder la nuitée gratuite distincte des services à jetons; laisser le prix du jeton non confirmé.",
+      "sources": [
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-cour-cheverny-cour-cheverny-fr-2666456/"
+      ],
+      "lot": 535,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aires-de-stationnement-de-cheverny-cheverny-fr-6242643/",
+      "place": "Cheverny — aires municipales rue du Bûcher",
+      "status": "Office de tourisme confirme stationnement gratuit : zone de 20 places avec eau/vidange à 3 €/5 min, séjour limité à 48 h, et zone distincte de 30 places de jour, 8 h–20 h. Ouverture affichée jusqu’en 2028.",
+      "nextCheck": "Garder les deux zones et leur usage séparés; présenter 3 €/5 min comme tarif de service, pas comme prix de nuitée.",
+      "sources": [
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aires-de-stationnement-de-cheverny-cheverny-fr-6242643/"
+      ],
+      "lot": 535,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://montrieuxensologne.fr/aire-de-camping-car/",
+      "place": "Montrieux-en-Sologne — aire près de l’étang communal",
+      "status": "La mairie confirme 4 places de stationnement gratuites. Eau et électricité : 2 € le jeton; vanne de vidange disponible. Jetons vendus à la boulangerie, épicerie, bar-tabac-presse et mairie.",
+      "nextCheck": "Garder stationnement gratuit et jeton de services à 2 € comme deux lignes tarifaires distinctes.",
+      "sources": [
+        "https://montrieuxensologne.fr/aire-de-camping-car/"
+      ],
+      "lot": 535,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.vendome-tourisme.fr/offres/aire-de-stationnement-pour-camping-cars-epuisay-epuisay-fr-4169294/",
+      "place": "Épuisay — Ferme de l’Étang",
+      "status": "L’office de tourisme confirme 5 places et 24 h maximum, mais indique que la gratuité dépend d’un achat en boutique. La ferme est labellisée France Passion; les conditions publiées doivent être clarifiées directement avec l’accueillant avant d’indiquer que l’achat est requis ou non.",
+      "nextCheck": "Ne pas résoudre la contradiction par supposition; demander à la ferme si l’accueil France Passion est actif et si l’achat conditionne la nuitée.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-epuisay-acccen000v5000br/",
+        "https://www.vendome-tourisme.fr/offres/aire-de-stationnement-pour-camping-cars-epuisay-epuisay-fr-4169294/",
+        "https://www.vendome-tourisme.fr/offres/ferme-de-letang-epuisay-fr-2531028/"
+      ],
+      "lot": 535,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.ferme-grande-vove.com/accueil-camping-car/",
+      "place": "Roches — Ferme de la Grande Vove",
+      "status": "La ferme annonce 5 places. Première nuit gratuite si passage en boutique, sinon 10 €; nuit supplémentaire 10 €. Options publiées : électricité 5 €, sanitaires 10 €/véhicule. Eau disponible mais prix non indiqué.",
+      "nextCheck": "Conserver séparément la règle boutique/gratuité et les options; ne pas inventer un tarif pour l’eau.",
+      "sources": [
+        "https://www.ferme-grande-vove.com/accueil-camping-car/",
+        "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-roches-acccen000v5000f4/"
+      ],
+      "lot": 535,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.val-de-loire-41.com/camping-car/aire-d-accueil-de-stationnement-et-de-service-camping-cars-a-aze-acccen0000001v/",
+      "place": "Azé — Les Petites Places",
+      "status": "Val de Loire Tourisme confirme 6 places, eau, électricité et vidanges, mais ne publie pas de prix. Des annuaires affichent un forfait services 2025 à 12 € ou 10 €/24 h plus électricité à 6 €. Aucun tarif 2026 n’est confirmé par la source de l’exploitant.",
+      "nextCheck": "Laisser le tarif de nuitée 2026 non confirmé; faire vérifier la grille et le contenu des forfaits auprès de l’exploitant (06 03 66 71 30).",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-d-accueil-de-stationnement-et-de-service-camping-cars-a-aze-acccen0000001v/",
+        "https://www.camping-car.com/aires/16037-m-et-mme-hersant/",
+        "https://www.i-campingcar.fr/aires.php?ville=AZE"
+      ],
+      "lot": 535,
       "checkedAt": "2026-11-24"
     }
   ]
