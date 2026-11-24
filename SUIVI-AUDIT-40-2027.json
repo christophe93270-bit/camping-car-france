@@ -4,15 +4,15 @@
   "displayedCount": 39,
   "rawRegionalRows": 39,
   "deduplicatedRows": 0,
-  "currentLot": 529,
+  "currentLot": 530,
   "department": "40",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 39,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Premier lot des Landes terminé : fiches 1 à 10 sur 39. Pouillon : 13,31 € total (12,73 € + taxe 0,58 €). Azur : tarif affiché par la grille 12,73 € avec taxe à 0 €; l’ancien bandeau à 14,45 € est à mettre à jour. Contis : incohérence opérateur de 2 € entre détail et bandeau. Soustons : le site de l’exploitant annonce l’ouverture toute l’année contrairement au statut enregistré. Aucune fiche source n’a été modifiée.",
+  "note": "Deuxième lot des Landes terminé : fiches 11 à 20 sur 39. Roquefort : 13,74 € + 0,78 € de taxe; période actuelle publiée dès le 16/09/2026. Ondres : Qipeo confirme 79 places et signale la vidange intérieure hors service, borne extérieure accessible. Mimizan : l’exploitant affiche 90 places, contre 70 dans la fiche. Messanges : grille actuelle dès le 22/11/2026, 14 € + taxe 1,72 €. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/6755781156",
@@ -126,6 +126,123 @@
         "https://www.tourisme-landesdarmagnac.fr/files/ot-landesarmagnac/files/brochures/pdf/mini_mag_2025_camping_caristes.pdf"
       ],
       "lot": 529,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/763187303",
+      "place": "Roquefort — CAMPING-CAR PARK",
+      "status": "Grille officielle : 13,74 €/24 h + 0,78 € de taxe, total affiché 14,52 €; tarif de base valable du 16/09/2026 au 31/12/2027. Parking 5 h + services : 6 €. 14 emplacements et stationnement autorisé toute l’année.",
+      "nextCheck": "Corriger dans la fiche la date de début au 16/09/2026; garder base et taxe séparées.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/roquefort?areaType=aire-etape-camping-car",
+        "https://octopus.cellar-c2.services.clever-cloud.com/int-rules/739-int-rules-fr.pdf"
+      ],
+      "lot": 530,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/768113855",
+      "place": "Ondres — aire municipale Ondres-Océan",
+      "status": "Qipeo affiche 19,72 €/24 h pour 2 adultes dont 1,72 € de taxe, et 4 €/10 min d’eau; capacité actuellement affichée : 79 emplacements. Qipeo signale que la station de vidange intérieure ne fonctionne pas; celle à l’extérieur reste accessible.",
+      "nextCheck": "Indiquer le prix avec sa base (2 adultes) et la capacité opérateur de 79; signaler la panne de la vidange intérieure jusqu’à mise à jour de Qipeo.",
+      "sources": [
+        "https://www.qipeo.com/detail/edd2ca32-5d9a-4292-8544-1762b003bf87",
+        "https://www.aireservices.com/actualite/superbe-laire-de-ondres-decrite-par-le-monde-du-camping-car/"
+      ],
+      "lot": 530,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/778604508",
+      "place": "Mimizan — CAMPING-CAR PARK",
+      "status": "Grille CCP actuelle : 12,73 €/24 h, taxe de séjour affichée à 0 €; parking 5 h + services : 6 €. La grille commence le 18/11/2026. L’exploitant affiche 90 emplacements, contre 70 dans la fiche.",
+      "nextCheck": "Corriger la date de début du tarif au 18/11/2026 et vérifier/corriger la capacité à 90 selon le plan opérateur.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/mimizan?areaType=area-de-etapa-autocaravanas"
+      ],
+      "lot": 530,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/895936366",
+      "place": "Saint-Lon-les-Mines — aire du parking de la salle des fêtes",
+      "status": "Landes Tourisme indique gratuité, 48 h maximum, 20 places en description, eau et vidange sans électricité. Le champ capacité de la même fiche affiche 10 emplacements.",
+      "nextCheck": "Conserver la gratuité et les services; faire confirmer le nombre de places (10 ou 20) auprès de la mairie.",
+      "sources": [
+        "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-accamaqu040v5111mw/"
+      ],
+      "lot": 530,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/895943853",
+      "place": "Dax — aire municipale, quai Raphaël Milliès-Lacroix",
+      "status": "Dax Tourisme confirme 6 places, stationnement et services gratuits, limite de 72 h; eau, vidange eaux grises et toilettes chimiques.",
+      "nextCheck": "Conserver gratuité des services et du stationnement; garder la limite 72 h.",
+      "sources": [
+        "https://www.dax-tourisme.com/fiche/aire-de-campingcars-municipale/"
+      ],
+      "lot": 530,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/896081041",
+      "place": "Pomarez — avenue du Stade",
+      "status": "La mairie confirme l’aire avenue du Stade, eau et électricité payantes; le point de vidange est ailleurs (place des Arènes) et gratuit. Landes Tourisme indique stationnement gratuit limité à 72 h, interdit pendant les fêtes et manifestations; tarif exact des services non publié.",
+      "nextCheck": "Corriger la durée contradictoire « illimitée » à 72 h; distinguer aire et point de vidange; demander le tarif de la borne à la mairie.",
+      "sources": [
+        "https://pomarez.fr/vie-pratique/camping-caristes",
+        "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-accamaqu0400000h/"
+      ],
+      "lot": 530,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/896086302",
+      "place": "Hagetmau — aire ZA de Piquette",
+      "status": "Landes Tourisme confirme 5 places, stationnement gratuit, et service à 3 € pour 1 h d’électricité et 10 min d’eau. Fermeture annoncée du 03 au 11/07/2026, désormais passée; la liste des aires indique une ouverture jusqu’au 29/11/2026.",
+      "nextCheck": "Conserver le prix du service, gratuité du stationnement et fermeture ponctuelle passée; vérifier la fermeture annuelle après le 29/11 auprès de l’office ou de la mairie.",
+      "sources": [
+        "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-accamaqu0400001o/",
+        "https://www.tourismelandes.com/preparer-mon-sejour/trouver-dautres-hebergements/aires-de-campings-car/toutes-les-aires-de-camping-cars/"
+      ],
+      "lot": 530,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/898393467",
+      "place": "Capbreton — aire des Océanides",
+      "status": "La délibération tarifaire municipale applicable depuis le 05/07/2025 donne 8,90 € (janv-fév-nov-déc), 11 € (mars-avril-oct), 13 € (mai-juin-sept) et 15 € en août. Aucun tarif de juillet n’apparaît dans ce tableau; la grille 2026 n’est pas confirmée. Capbreton Tourisme recense environ 135 places.",
+      "nextCheck": "Garder ces montants comme grille municipale datée de 2025; confirmer la grille 2026 et le tarif de juillet. Vérifier également la taxe de séjour séparément.",
+      "sources": [
+        "https://www.capbreton.fr/fileadmin/user_upload/user_upload/Tarif_de_la_commune_5_juillet.pdf",
+        "https://www.capbreton.fr/annuaires/annuaire-des-equipements/146-aire-de-camping-car.html?s=1",
+        "https://www.capbreton.fr/infos-pratiques/mon-cadre-de-vie/mobilite-et-stationnement/stationnement.html"
+      ],
+      "lot": 530,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/898422067",
+      "place": "Messanges — CAMPING-CAR PARK",
+      "status": "Grille actuelle à partir du 22/11/2026 : 14 €/24 h + 1,72 € de taxe, total TTC 15,72 €; parking 5 h + services : 6 €. En 2027, base 13,20 € et taxe 1,72 € sur l’année, total calculé 14,92 €. 55 places selon la fiche opérateur.",
+      "nextCheck": "Corriger le début de période du tarif 2026 au 22/11; garder la taxe séparée et préciser le TTC 2027 calculé à partir de la taxe publiée.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/messanges"
+      ],
+      "lot": 530,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/899157686",
+      "place": "Labastide-d’Armagnac — aire communale, route de Betbezer",
+      "status": "Landes d’Armagnac Tourisme confirme 10 places et les services; la brochure officielle 2025 indique gratuité et fonctionnement annuel, avec eau et vidange disponibles d’avril à octobre. Aucun tarif 2026 explicitement publié.",
+      "nextCheck": "Garder la gratuité comme indication officielle 2025 et à reconfirmer pour 2026; respecter la période saisonnière des services eau/vidange.",
+      "sources": [
+        "https://www.tourisme-landesdarmagnac.fr/se-loger/campings/586735-aire-de-camping-cars-de-labastide-darmagnac",
+        "https://www.tourisme-landesdarmagnac.fr/files/ot-landesarmagnac/files/brochures/pdf/mini_mag_2025_camping_caristes.pdf"
+      ],
+      "lot": 530,
       "checkedAt": "2026-11-24"
     }
   ]
