@@ -4,15 +4,15 @@
   "displayedCount": 68,
   "rawRegionalRows": 68,
   "deduplicatedRows": 0,
-  "currentLot": 537,
+  "currentLot": 538,
   "department": "41",
   "progress": {
-    "checked": 50,
+    "checked": 60,
     "total": 68,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 537 terminé : fiches 41 à 50 sur 68 vérifiées. Stationnements de Courmemin, Fontaines, Saint-Claude-de-Diray et Montlivault gratuits; Mondoubleau : 7 €/nuit affichés par Aire Park. Crouy est un point de services sans nuitée; prix 2026 des jetons non publié. À clarifier : services au parking des Champs de Ligny à Huisseau, capacité de Saint-Lubin, électricité à Saint-Claude et période exacte de basse saison à Blois Mounin. Fiches source inchangées.",
+  "note": "Lot 538 terminé : fiches 51 à 60 sur 68 vérifiées. Vendôme camping 14,40–21,60 € selon personne/prestation; Sargé 10 €/nuit pour deux +4 € électricité; Thoré-la-Rochette Stop Accueil 14,50 € + taxe 0,40 € et électricité 5,30 €; Morée 14/17 € sans/avec électricité. Les sites saisonniers sont fermés à la date du contrôle. Prés aux Chats et Les Roches-l’Évêque gratuits; Domaine de Marsoif et Domaine du Vivier gratuits sous conditions indiquées. Chaon: prix nuitée non publié; disponibilité des services à confirmer. Source d'approbation de tarifs 2026 associée par erreur à Chaon écartée (document Cerbère). Fiches source inchangées.",
   "entries": [
     {
       "sourceId": "node/11922288632",
@@ -590,6 +590,125 @@
         "https://www.bloischambord.com/organiser-son-sejour/hebergements/aires-de-camping-car/"
       ],
       "lot": 537,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.vendome-tourisme.fr/offres/aire-camping-cars-au-camping-au-coeur-de-vendome-vendome-fr-2776214/",
+      "place": "Vendôme — Camping Au Cœur de Vendôme",
+      "status": "Tarif affiché pour emplacement/service : 14,40–17,50 € pour 1 personne; 17,50–21,60 € pour 2 personnes, selon prestation. Saison 2026 du 1er avril au 31 octobre, donc fermée au contrôle. Capacité totale camping à ne pas assimiler au nombre de places CC.",
+      "nextCheck": "Conserver les fourchettes par nombre de personnes; ne pas attribuer les 135 places globales du camping à l’aire CC.",
+      "sources": [
+        "https://www.vendome-tourisme.fr/offres/aire-camping-cars-au-camping-au-coeur-de-vendome-vendome-fr-2776214/",
+        "https://www.val-de-loire-41.com/camping-car/aire-camping-cars-au-camping-au-coeur-de-vendome-acccen041v5036vf/"
+      ],
+      "lot": 538,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.vendome-tourisme.fr/offres/aire-de-stationnement-vendome-vendome-fr-2612791/",
+      "place": "Vendôme — parking Les Prés aux Chats",
+      "status": "Vendôme Tourisme indique parking camping-cars gratuit toute l’année 2026, rue des États-Unis, en bord de Loir. Aucun service technique propre à cet emplacement n’est publié; à distinguer du camping Au Cœur de Vendôme.",
+      "nextCheck": "Maintenir la nuitée/halte gratuite et les services non attestés; ne pas confondre avec le camping payant de Geoffroy-Martel.",
+      "sources": [
+        "https://www.vendome-tourisme.fr/offres/aire-de-stationnement-vendome-vendome-fr-2612791/"
+      ],
+      "lot": 538,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.vendome-tourisme.fr/offres/aire-de-stationnement-les-roches-leveque-les-roches-leveque-fr-2593960/",
+      "place": "Les Roches-l’Évêque — Grande Rue",
+      "status": "Vendôme Tourisme confirme 10 places gratuites du 1er avril au 31 octobre 2026, avec vidange eaux noires uniquement, sans remplissage d’eau. Aire hors saison au 24 novembre.",
+      "nextCheck": "Garder la fermeture saisonnière et limiter l’équipement à la vidange eaux noires; aucun tarif de nuitée publié.",
+      "sources": [
+        "https://www.vendome-tourisme.fr/offres/aire-de-stationnement-les-roches-leveque-les-roches-leveque-fr-2593960/"
+      ],
+      "lot": 538,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.vendome-tourisme.fr/offres/camping-municipal-sarge-sur-braye-fr-2530694/",
+      "place": "Sargé-sur-Braye — camping municipal",
+      "status": "Brochure municipale 2026 : 10 €/nuit pour camping-car/véhicule aménagé et 2 personnes; électricité 6 A +4 €/nuit. Ouverture 1er avril–31 octobre; saison fermée au contrôle.",
+      "nextCheck": "Garder 10 € hors option électrique et ajouter 4 € si 6 A requis; préciser saison et taxe de séjour non chiffrée dans la brochure consultée.",
+      "sources": [
+        "https://www.vendome-tourisme.fr/offres/camping-municipal-sarge-sur-braye-fr-2530694/",
+        "https://www.sargesurbraye.com/page/camping_municipal",
+        "https://files.appli-intramuros.com/website/uploads/17002/2026/depliant_camping_revu_26_en_ivoire.pdf"
+      ],
+      "lot": 538,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.camping-la-bonne-aventure.fr/les-emplacements/",
+      "place": "Thoré-la-Rochette — camping La Bonne Aventure, Stop Accueil",
+      "status": "Tarifs officiels 2026 : Stop Accueil 14,50 € pour 1 nuit/2 personnes; taxe de séjour 0,40 € en supplément; électricité 6 A +5,30 €. Forfait général 2 adultes/emplacement/véhicule : 14,40 € hors taxe. Stop Accueil du 1er mai au 30 septembre; saison terminée.",
+      "nextCheck": "Distinguer Stop Accueil 14,50 € du forfait général 14,40 €; ajouter taxe et électricité séparément.",
+      "sources": [
+        "https://www.camping-la-bonne-aventure.fr/wp-content/uploads/2026/04/Camping-Thore_Tarifs2026.pdf",
+        "https://www.camping-la-bonne-aventure.fr/nos-labels/"
+      ],
+      "lot": 538,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.vendome-tourisme.fr/offres/camping-municipal-de-moree-moree-fr-2530688/",
+      "place": "Morée — camping municipal de la Varenne",
+      "status": "Vendôme Tourisme affiche à partir de 14 €/nuit pour 2 personnes sans électricité et 17 € avec électricité. Ouverture du 1er avril au 15 octobre 2026, donc saison terminée. 34 places nues et 7 locatives selon l’office.",
+      "nextCheck": "Garder la différence avec/sans électricité et les dates d’ouverture; confirmer la grille à la reprise 2027.",
+      "sources": [
+        "https://www.vendome-tourisme.fr/offres/camping-municipal-de-moree-moree-fr-2530688/",
+        "https://www.moree41.fr/loisirs-culture/camping/"
+      ],
+      "lot": 538,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-la-mechiniere-acccen041v504qp4/",
+      "place": "Mareuil-sur-Cher — Domaine de la Méchinière",
+      "status": "Le domaine accueille sur rendez-vous les camping-cars autonomes dans le cadre de dégustations; eau, électricité et sanitaires sont mentionnés. L’office affiche une dégustation à 10 €/adulte, mais aucun tarif séparé de stationnement et aucune obligation d’achat ne sont établis.",
+      "nextCheck": "Ne pas convertir le prix de dégustation en tarif de nuitée; confirmer les conditions d’accueil et le lien éventuel entre dégustation et halte.",
+      "sources": [
+        "https://www.domaine-mechiniere.com/",
+        "https://www.val-de-loire-41.com/degustation/domaine-de-la-mechiniere-valerie-forgues-degcen041v500w11/",
+        "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-la-mechiniere-acccen041v504qp4/"
+      ],
+      "lot": 538,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.val-de-loire-41.com/camping-car/aire-communale-de-services-et-de-stationnement-camping-car-chaon-acccen0000001m/",
+      "place": "Chaon — aire communale près de la Maison du Braconnage",
+      "status": "Val de Loire Tourisme indique environ 20 emplacements, eau et vidange hors gel, et vidange gratuite. La page ne précise pas de tarif de nuitée ni de prix de l’eau; des retours 2026 signalent une disponibilité des services à revérifier.",
+      "nextCheck": "Ne pas afficher un tarif de nuit ou une eau gratuite; conserver seulement la vidange gratuite publiée et signaler la disponibilité de la borne à confirmer.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-communale-de-services-et-de-stationnement-camping-car-chaon-acccen0000001m/",
+        "https://park4night.com/fr/place/6230"
+      ],
+      "lot": 538,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-au-domaine-de-marsoif-beauce-la-romaine-acccen000v5000g9/",
+      "place": "Beauce-la-Romaine — Domaine de Marsoif",
+      "status": "L’office de tourisme confirme 5 emplacements de nuit, ombragés ou près du caveau, sanitaires et stationnement gratuit. Aucun tarif distinct de service n’est publié; appeler ou laisser un message pour organiser l’accueil.",
+      "nextCheck": "Garder la halte gratuite et la capacité de 5 places; ne pas inventer de services ni de prix supplémentaires.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-au-domaine-de-marsoif-beauce-la-romaine-acccen000v5000g9/"
+      ],
+      "lot": 538,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-domaine-du-vivier-monthou-sur-bievre-acccen000v5000eg/",
+      "place": "Monthou-sur-Bièvre — Domaine du Vivier",
+      "status": "5 emplacements, gratuit jusqu’à 24 h sous conditions France Passion (adhésion, invitation personnelle et macaron de l’année). Branchement d’eau répertorié sans coût publié.",
+      "nextCheck": "Maintenir gratuité sous conditions et durée de 24 h; laisser le tarif/disponibilité de l’eau non confirmé.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-pour-camping-cars-domaine-du-vivier-monthou-sur-bievre-acccen000v5000eg/",
+        "https://www.france-passion.com/camping-caristes/comment-ca-marche/"
+      ],
+      "lot": 538,
       "checkedAt": "2026-11-24"
     }
   ]
