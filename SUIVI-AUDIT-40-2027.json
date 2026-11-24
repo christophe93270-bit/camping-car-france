@@ -1,0 +1,132 @@
+{
+  "scope": "Landes (40) : audit des tarifs, services, capacités et périodes d’ouverture des fiches de aires-landes.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-24",
+  "displayedCount": 39,
+  "rawRegionalRows": 39,
+  "deduplicatedRows": 0,
+  "currentLot": 529,
+  "department": "40",
+  "progress": {
+    "checked": 10,
+    "total": 39,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Premier lot des Landes terminé : fiches 1 à 10 sur 39. Pouillon : 13,31 € total (12,73 € + taxe 0,58 €). Azur : tarif affiché par la grille 12,73 € avec taxe à 0 €; l’ancien bandeau à 14,45 € est à mettre à jour. Contis : incohérence opérateur de 2 € entre détail et bandeau. Soustons : le site de l’exploitant annonce l’ouverture toute l’année contrairement au statut enregistré. Aucune fiche source n’a été modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/6755781156",
+      "place": "Castel-Sarrazin — Ferme du Vieux Bourg (France Passion)",
+      "status": "La ferme indique être membre de France Passion et accueille les camping-cars. Le réseau confirme une halte gratuite jusqu’à 24 h pour les voyageurs avec guide/adhésion en cours; aucun service de camping n’est inclus.",
+      "nextCheck": "Garder le prix conditionné à une adhésion valide et confirmer l’inscription dans l’édition 2026/2027 du guide avant de l’afficher comme étape active.",
+      "sources": [
+        "https://fermevieuxbourg.com/porc-canard-chalosse-patrimoine-gastronomie-landes/",
+        "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
+      ],
+      "lot": 529,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "node/9681907594",
+      "place": "Nerbis — Ferme Larrey",
+      "status": "Landes Tourisme confirme 5 places, une nuit au maximum, l’eau, les animaux acceptés et un accueil à la ferme. Aucun tarif n’est publié par l’office; une carte secondaire mentionne 0 € sans confirmation de la ferme.",
+      "nextCheck": "Garder le prix et le coût de l’eau comme non confirmés; demander directement à la ferme.",
+      "sources": [
+        "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-a-la-ferme-larrey-accamaqu040v50sfvp/",
+        "https://www.campercontact.com/fr/france/nouvelle-aquitaine/nerbis/115076/camperplaats-ferme-larrey"
+      ],
+      "lot": 529,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "node/11020936016",
+      "place": "Pouillon — CAMPING-CAR PARK",
+      "status": "Grille officielle en cours : 12,73 €/24 h hors taxe + 0,58 € de taxe de séjour, soit 13,31 €; stationnement 5 h + services : 6 €. Le tarif de base vaut du 19/11/2026 au 31/12/2027; sanitaires saisonniers du 01/06 au 30/09/2026.",
+      "nextCheck": "Conserver le montant TTC et la ventilation base/taxe; ne pas indiquer les sanitaires ouverts en hiver.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/pouillon?areaType=camping"
+      ],
+      "lot": 529,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/25411755",
+      "place": "Mont-de-Marsan — aire du Marsan",
+      "status": "Office local : 5,50–8,50 €/24 h, 10–15,50 €/48 h, 13–20,50 €/72 h; taxe 0,65 €/24 h; électricité 1/2/3 € pour 4/8/12 h; eau 1 € pour 5 min ou 1,50 € pour 10 min; vidange gratuite. Capacité divergente : 45 places sur Tourisme Landes contre 55 sur Mont-de-Marsan Tourisme.",
+      "nextCheck": "Garder les tarifs détaillés de l’office local et signaler la capacité à confirmer auprès du gestionnaire; respecter la limite de 72 h.",
+      "sources": [
+        "https://www.montdemarsan-tourisme.com/offres/aire-de-camping-cars-du-marsan-mont-de-marsan-fr-2928155/",
+        "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-cars-du-marsan-accamaqu0400001n/"
+      ],
+      "lot": 529,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/48238911",
+      "place": "Azur — aire CAMPING-CAR PARK",
+      "status": "La page opérateur affiche actuellement 12,73 €/24 h, avec taxe de séjour à 0 € du 01/11 au 31/12/2026; parking 5 h + services : 6 €. La page affichait auparavant un bandeau à 14,45 € TTC avec 1,72 € de taxe, mais le détail saisonnier consulté donne 12,73 € et 0 € de taxe.",
+      "nextCheck": "Mettre à jour le tarif affiché sur la base de la grille saisonnière actuelle et supprimer l’ancienne alerte à 14,45 € si elle n’apparaît plus à l’écran opérateur.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/azur"
+      ],
+      "lot": 529,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/201246149",
+      "place": "Saint-Julien-en-Born — CAMPING-CAR PARK de Contis",
+      "status": "Grille opérateur : 12,50 €/24 h du 01/11/2026 au 31/12/2027, taxe de 1,72 €, parking 5 h + services 6 €. Le bandeau de la même page affiche 16,22 € TTC, alors que base + taxe donnent 14,22 €.",
+      "nextCheck": "Ne pas trancher entre le bandeau et le détail : demander à CAMPING-CAR PARK de corriger ou confirmer le total TTC avant d’afficher un montant unique.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/saint-julien-en-born"
+      ],
+      "lot": 529,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/235159333",
+      "place": "Soustons — aire de camping-cars du Lac / L’Airial",
+      "status": "Site de l’exploitant : 12,16 €/24 h du 01/11 au 31/03, 15,16 € du 01/04 au 30/06 et du 02/09 au 31/10, 15,66 € du 01/07 au 01/09; taxe de 0,86 € incluse. Eau, vidange, électricité à disposition et Wi-Fi inclus. Le site annonce ouverture toute l’année 24 h/24, contrairement au statut enregistré comme fermé après le 01/11.",
+      "nextCheck": "Corriger le statut saisonnier si aucune fermeture plus récente n’est signalée par l’exploitant; garder les tarifs et leur saisonnalité.",
+      "sources": [
+        "https://www.camping-airial.com/aire-de-camping-car/"
+      ],
+      "lot": 529,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/276176558",
+      "place": "Aire-sur-l’Adour — stationnement extérieur du camping Les Ombrages de l’Adour",
+      "status": "Guide du pèlerin 2026 : stationnement camping-car extérieur, vidange gratuite et accès gratuit aux sanitaires visiteurs. Aucun prix du stationnement extérieur ni ses dates d’accès ne sont publiés; l’accueil du camping ferme du 01/10 au 31/03.",
+      "nextCheck": "Garder le prix de stationnement non communiqué; ne pas assimiler les prix de nuitée des emplacements du camping à ceux de la zone extérieure.",
+      "sources": [
+        "https://www.tourisme-aire-eugenie.fr/var/ayaline/storage/original/application/1b18c448ec64ef1c2232fc8df03dc7c2.pdf"
+      ],
+      "lot": 529,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/283123412",
+      "place": "Vielle-Saint-Girons — CAMPING-CAR PARK",
+      "status": "Grille officielle actuelle au 24/11 : 11,70 €/24 h du 18/11 au 31/12/2026 + taxe de séjour de 1,72 €, total affiché 13,42 €; parking 5 h + services : 6 €. Le prix de base 2027 est 11,71 €/24 h; la taxe 2027 n’est pas encore précisée sur la grille consultée.",
+      "nextCheck": "Corriger le début de période enregistré (12/11 au lieu du 18/11); ne pas confirmer un total 2027 avec une taxe de séjour non publiée pour cette période.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/vielle-saint-girons?areaType=aire-etape-camping-car"
+      ],
+      "lot": 529,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/603396173",
+      "place": "Villeneuve-de-Marsan — aire communale, chemin du Stade",
+      "status": "Landes d’Armagnac Tourisme confirme 7 places et les bornes, eau, électricité, vidanges. Une brochure touristique 2025 indique gratuité, ouverture annuelle et maximum 48 h; la page actuelle de l’office ne publie pas de tarif 2026.",
+      "nextCheck": "Garder la gratuité comme tarif documenté en 2025, à reconfirmer pour 2026; ne pas la présenter comme confirmée cette année sans validation de la mairie.",
+      "sources": [
+        "https://www.tourisme-landesdarmagnac.fr/se-loger/campings/586734-aire-de-camping-cars-de-villeneuve-de-marsan",
+        "https://www.tourisme-landesdarmagnac.fr/files/ot-landesarmagnac/files/brochures/pdf/mini_mag_2025_camping_caristes.pdf"
+      ],
+      "lot": 529,
+      "checkedAt": "2026-11-24"
+    }
+  ]
+}
