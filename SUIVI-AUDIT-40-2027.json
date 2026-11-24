@@ -4,15 +4,15 @@
   "displayedCount": 39,
   "rawRegionalRows": 39,
   "deduplicatedRows": 0,
-  "currentLot": 530,
+  "currentLot": 531,
   "department": "40",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 39,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Deuxième lot des Landes terminé : fiches 11 à 20 sur 39. Roquefort : 13,74 € + 0,78 € de taxe; période actuelle publiée dès le 16/09/2026. Ondres : Qipeo confirme 79 places et signale la vidange intérieure hors service, borne extérieure accessible. Mimizan : l’exploitant affiche 90 places, contre 70 dans la fiche. Messanges : grille actuelle dès le 22/11/2026, 14 € + taxe 1,72 €. Aucune fiche source n’a été modifiée.",
+  "note": "Troisième lot des Landes terminé : fiches 21 à 30 sur 39. Sanguinet : tarif nocturne 7 € en avril, mai et octobre, 10 € de juin à septembre; gratuit en hiver sans garantie de services. Parentis : 9,50 € taxe incluse avec eau et électricité. Saint-Paul-lès-Dax : 12,73 € + taxe 1,60 €, mais l’en-tête CCP affiche encore 16,87 €. Morcenx : total 14 € confirmé, date de début variable selon les versions CCP. Castets : tarif actuel dès le 24/11. Gastes : grille dès le 25/10, sanitaires jusqu’au 30/11 selon la page CCP. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/6755781156",
@@ -243,6 +243,119 @@
         "https://www.tourisme-landesdarmagnac.fr/files/ot-landesarmagnac/files/brochures/pdf/mini_mag_2025_camping_caristes.pdf"
       ],
       "lot": 530,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/905474286",
+      "place": "Sainte-Eulalie-en-Born — aire du Lac",
+      "status": "Mairie : aire ouverte du 01/04 au 30/10. Tarifs de nuitée publiés dans la grille municipale modifiée le 18/12/2025 : 7 € en avril et octobre, 8 € en mai, 10 € du 01/06 au 30/09. Vidange, eau potable, toilettes PMR, douche extérieure froide, laverie et Wi-Fi payant.",
+      "nextCheck": "Conserver les prix et la saison d’ouverture de la page municipale; la période 2026 de l’aire est terminée au 24/11.",
+      "sources": [
+        "https://www.sainteeulalieenborn.fr/tourisme/hebergement/aire-de-camping-cars"
+      ],
+      "lot": 531,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/906183362",
+      "place": "Sanguinet — aire des Bardets",
+      "status": "La commune confirme tarif de nuit (22 h–8 h) de 7 € en avril, mai et octobre, 10 € de juin à septembre; gratuit du 01/11 au 31/03 sans garantie de services. Le stationnement de nuit est autorisé sur plusieurs lieux réglementés, et le Mounay/Bardets ont fait l’objet d’une réouverture en février 2026.",
+      "nextCheck": "Garder le tarif comme redevance de nuit uniquement; ne pas garantir la disponibilité des services en hiver. Vérifier la limite locale de 48 h sur l’arrêté ou la signalisation.",
+      "sources": [
+        "https://www.ville-sanguinet.fr/se-divertir/tourisme/accueil-des-camping-cars",
+        "https://www.ville-sanguinet.fr/toute-l-actualite/archives-actualites/actus-2026/reouvertures-et-fermetures-temporaires-sites-pistes-cyclables-et-voiries-affectes-par-les-intemperies"
+      ],
+      "lot": 531,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1105842121",
+      "place": "Parentis-en-Born — aire de la route des Campings",
+      "status": "La mairie confirme 9,50 €/nuit/véhicule en 2026, taxe de séjour incluse; eau et électricité incluses. Aire ouverte toute l’année, avec borne de récupération des eaux usées.",
+      "nextCheck": "Conserver le tarif TTC 2026 et la disponibilité annuelle selon la mairie.",
+      "sources": [
+        "https://www.parentis.fr/mon-quotidien/vie-pratique/aire-de-camping-cars/"
+      ],
+      "lot": 531,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1154040280",
+      "place": "Pontenx-les-Forges — CAMPING-CAR PARK",
+      "status": "Grille CCP : 12 €/24 h, taxe de séjour à 0 € au 24/11/2026; parking 5 h + services : 6 €. Page opérateur : 26 places et aire ouverte. Certaines versions linguistiques/paramètres de la page affichent des dates de début différentes pour le même barème.",
+      "nextCheck": "Conserver 12 € + 0 € de taxe et le forfait 5 h; ne pas recopier une date de début avant que l’interface CCP française soit cohérente.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/pontenx-les-forges"
+      ],
+      "lot": 531,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1228874762",
+      "place": "Saint-Paul-lès-Dax — CAMPING-CAR PARK",
+      "status": "Table tarifaire CCP : base 12,73 €/24 h depuis le 01/11/2026, taxe 1,60 € en 2026, soit 14,33 € calculés; forfait 5 h + services : 6 €. Le bandeau de la même page affiche toujours 16,87 € TTC, écart de 2,54 €.",
+      "nextCheck": "Ne pas afficher un total unique tant que CCP n’a pas corrigé le bandeau ou confirmé le prix à payer; garder l’incohérence visible.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/saint-paul-les-dax"
+      ],
+      "lot": 531,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1231648001",
+      "place": "Morcenx-la-Nouvelle — aire CAMPING-CAR PARK d’Arjuzanx",
+      "status": "Le tarif courant est 12,70 €/24 h + 1,30 € de taxe = 14,00 € au 24/11; parking 5 h + services : 6 €. Plusieurs versions officielles consultées donnent des dates de début différentes (20/10, 02/11, 14/11).",
+      "nextCheck": "Conserver le tarif TTC actuel; demander à CCP de confirmer la date de début exacte et harmoniser les dates affichées dans les différentes versions de la page.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/morcenx-la-nouvelle",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/40-landes/morcenx-la-nouvelle?areaType=aire-etape-camping-car"
+      ],
+      "lot": 531,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1232720717",
+      "place": "Toulouzette — ferme Comet-Tournier (France Passion)",
+      "status": "France Passion confirme que la ferme accueille son réseau depuis 2021, avec parking stabilisé et électricité à disposition. L’accueil de nuitée reste l’étape privée gratuite réservée aux adhérents avec guide à jour, dans la limite de 24 h; aucun supplément de service n’est publié.",
+      "nextCheck": "Garder l’électricité comme disponible sans lui attribuer un prix; rappeler l’adhésion/guide France Passion et vérifier les modalités d’accueil auprès de la ferme avant visite.",
+      "sources": [
+        "https://www.france-passion.com/france-passion/blog/actualites-generales/let-s-set-off-to-discover-the-comet-tournier-farm-n155/",
+        "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
+      ],
+      "lot": 531,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "ccp/castets",
+      "place": "Castets — aire CAMPING-CAR PARK",
+      "status": "Au 24/11/2026, tarif de base 12 €/24 h du 24/11/2026 au 31/12/2027 + taxe de 1,72 €, soit 13,72 €; parking 5 h + services : 6 €. 22 places.",
+      "nextCheck": "Corriger le début de période actuellement noté au 09/11; afficher le total TTC 13,72 € avec ses deux composantes.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/castets"
+      ],
+      "lot": 531,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1236137068",
+      "place": "Gastes — aire CAMPING-CAR PARK",
+      "status": "Tarif en cours : 11,20 €/24 h du 25/10/2026 au 31/12/2027; taxe à 0 € au 31/12/2026; parking 5 h + services : 6 €. La page française CCP annonce les sanitaires ouverts jusqu’au 30/11/2026, une autre donnée CCP indique le 29/11.",
+      "nextCheck": "Corriger la date de début de période au 25/10; aligner la dernière journée d’accès aux sanitaires avec la date communiquée par CCP.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/gastes"
+      ],
+      "lot": 531,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1251198333",
+      "place": "Vieux-Boucau-les-Bains — aire du Village",
+      "status": "Landes Tourisme confirme 150 emplacements, ouverture toute l’année, eau, électricité et vidanges. Nuitée 12 € du 01/10 au 31/03, 16 € du 01/04 au 30/09; limite à 48 h en période de forte affluence.",
+      "nextCheck": "Conserver les tarifs, la saisonnalité et la limite conditionnelle de 48 h.",
+      "sources": [
+        "https://www.tourismelandes.com/aire-camping-car/aire-du-village-de-vieux-boucau-accaqu040010000o/"
+      ],
+      "lot": 531,
       "checkedAt": "2026-11-24"
     }
   ]
