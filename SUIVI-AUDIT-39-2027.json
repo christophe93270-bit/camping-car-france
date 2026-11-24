@@ -4,15 +4,15 @@
   "displayedCount": 49,
   "rawRegionalRows": 49,
   "deduplicatedRows": 0,
-  "currentLot": 527,
+  "currentLot": 528,
   "department": "39",
   "progress": {
-    "checked": 40,
+    "checked": 49,
     "total": 49,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 9,
+    "totalInLot": 9
   },
-  "note": "Quatrième lot du Jura terminé : fiches 31 à 40 sur 49. Correction principale : camping de la Toupe, Baume-les-Messieurs, vidange et reprise d’eau 6 €, douche extérieure 3 €. Aire de l’Aube aux Rousses : stationnement indisponible pendant les travaux, borne toujours accessible. Frébuans : annonce hôtes 6 € sans électricité / 9 € avec. Quintigny et Frontenay n’ont pas de prix officiel publié. Aucune fiche source n’a été modifiée.",
+  "note": "Dernier lot du Jura terminé : fiches 41 à 49 sur 49. La Louve : tarifs 2026 confirmés par le site du camping; date de fermeture divergente entre l’office de tourisme et les données déjà enregistrées, à reconfirmer. Arinthod : tarif courant 12,30 € + taxe de séjour 1,30 €, parking 5 h + services 6 €. Aire du Jura A39 : parking camping-car répertorié par Ulys, mais prix et services spécifiques non publiés. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/3068775340",
@@ -483,6 +483,114 @@
         "https://www.jura-tourism.com/aire-camping-car/parking-de-la-serra/"
       ],
       "lot": 527,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC000V51NZQA",
+      "place": "Les Rousses — parking du Balancier",
+      "status": "Site de la Station des Rousses : stationnement gratuit selon disponibilité, à 5 km du village; 20 emplacements dédiés. En hiver, déplacer le véhicule pour le déneigement. Aucun tarif de service ni service camping-car indiqué.",
+      "nextCheck": "Garder la gratuité sous réserve de disponibilité et la consigne hivernale; ne pas attribuer de services.",
+      "sources": [
+        "https://www.lesrousses.com/fiche/parking-du-balancier/",
+        "https://www.lesrousses.com/sejourner/hebergements-jura/campings/"
+      ],
+      "lot": 528,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039318002799",
+      "place": "Champagne-sur-Loue — camping La Louve",
+      "status": "Site officiel : tarifs 2026 pour 1–2 personnes, véhicule et électricité : 13 € hors rivière / 15 € bord de rivière en mai-juin et septembre; 17 € / 19 € en juillet-août. Taxe de séjour et écoparticipation en supplément. Ouverture 2026 divergente : l’office de tourisme du Val d’Amour publie le 13/09, tandis que la donnée enregistrée indique le 20/09.",
+      "nextCheck": "Conserver les prix 2026 avec suppléments; confirmer la date réelle de fermeture 2026 et les dates 2027 auprès du camping.",
+      "sources": [
+        "https://camping-la-louve.com/",
+        "https://www.valdamour.com/ses-richesses/tourisme/hebergements-restauration-camping/camping-de-la-louve"
+      ],
+      "lot": 528,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039320001091",
+      "place": "Château-Chalon — route de Champagnole",
+      "status": "Jura Tourisme confirme 6 emplacements à cette adresse. La fiche officielle ne publie aucun tarif, équipement ni modalité de stationnement.",
+      "nextCheck": "Garder prix et services non publiés; ne pas inférer la gratuité ni la possibilité de nuitée.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-8/"
+      ],
+      "lot": 528,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039320002197",
+      "place": "Arlay — rue Saint-Vincent",
+      "status": "Jura Tourisme confirme 2 emplacements au 41 rue Saint-Vincent; aucun prix ou service n’est affiché. À distinguer des autres emplacements d’Arlay.",
+      "nextCheck": "Ne pas confondre avec la rue de la Gravière ou l’aire de services; conserver tarif et services non publiés.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-15/"
+      ],
+      "lot": 528,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "park4night/25868",
+      "place": "Hauteroche — belvédère de Granges-sur-Baume",
+      "status": "Jura Tourisme confirme une aire D210 de 6 places sans prix publié. Les retours communautaires mentionnent environ 8 places et la gratuité, sans confirmation municipale; le lien exact entre les deux emplacements reste à vérifier.",
+      "nextCheck": "Conserver les conditions et la capacité comme non confirmées pour le stationnement décrit par la source communautaire; confirmer sur place/auprès de la mairie avant fusion ou correction.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-5/",
+        "https://www.park4night.com/de/place/25868",
+        "https://www.jura-tourism.com/patrimoine-naturel/belvedere-a-granges-sur-baume/"
+      ],
+      "lot": 528,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "park4night/43485",
+      "place": "Arlay — aire du Jura, autoroute A39",
+      "status": "Ulys confirme un parking camping-car sur l’aire du Jura; APRR indique un accès dans les deux sens de circulation. Les sources de l’exploitant consultées ne confirment ni service d’eau/vidange, ni capacité, ni tarif. Une fermeture d’accès ponctuelle a été publiée pour le 23/11/2026, terminée à la date de l’audit.",
+      "nextCheck": "Présenter uniquement le stationnement camping-car comme confirmé; ne pas annoncer eau gratuite ou vidange ni un prix. Vérifier les consignes de circulation APRR avant le trajet.",
+      "sources": [
+        "https://ulys.com/aire/aire-de-le-jura---sens-1/",
+        "https://voyage.aprr.fr/aires-sur-autoroute/aires-de-services/aire-du-jura",
+        "https://voyage.aprr.fr/a39-jura-directions-bourg-en-bresse-dijon-au-niveau-darlay-ndeg-71-0"
+      ],
+      "lot": 528,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039318002806",
+      "place": "Parcey — camping Les Bords de Loue",
+      "status": "Camping privé, saison 2026 publiée du 18/04 au 27/09. L’office de tourisme donne 18–29 €/jour pour un emplacement électrifié, explicitement à vérifier auprès de l’établissement et sans année tarifaire indiquée. Vidange gratuite confirmée uniquement pour les clients hébergés.",
+      "nextCheck": "Ne pas transformer 18–29 € en tarif 2026 confirmé ni généraliser la vidange gratuite aux visiteurs extérieurs; demander la grille 2027 au camping.",
+      "sources": [
+        "https://www.jura-camping.fr/fr-fr/",
+        "https://www.jura-tourism.com/camping/camping-les-bords-de-loue/"
+      ],
+      "lot": 528,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "camping-car.com/1863",
+      "place": "Arbois — camping Au Cœur des Vignes",
+      "status": "Le guide 2026 de Cœur du Jura Tourisme publie des prix de départ de 14,50 €/jour sans électricité et 17,50 € avec électricité. La page de l’office précise qu’il s’agit de minima et propose encore le téléchargement d’une grille 2025.",
+      "nextCheck": "Garder les montants comme prix de départ 2026 et indiquer que le prix final/suppléments sont à confirmer auprès du camping.",
+      "sources": [
+        "https://www.coeurdujura-tourisme.com/camping/au-coeur-des-vignes/",
+        "https://www.coeurdujura-tourisme.com/app/uploads/2026/03/guide-hebergements-2026-26.03-compressed-1.pdf",
+        "https://au-coeur-des-vignes.com/"
+      ],
+      "lot": 528,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "ccp/arinthod",
+      "place": "Arinthod — aire CAMPING-CAR PARK",
+      "status": "Tarif officiel en cours au 24/11 : 12,30 €/24 h + 1,30 € de taxe de séjour, total 13,60 €; parking 5 h + services : 6 €. Le tarif suivant passe à 12,52 €/24 h à compter du 31/12/2026, taxe de séjour en supplément.",
+      "nextCheck": "Corriger dans la fiche la période de début du tarif en cours selon la grille CCP (affichée du 17/11 au 30/12/2026); garder les taxes et le forfait 5 h séparés.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/arinthod"
+      ],
+      "lot": 528,
       "checkedAt": "2026-11-24"
     }
   ]
