@@ -4,15 +4,15 @@
   "displayedCount": 49,
   "rawRegionalRows": 49,
   "deduplicatedRows": 0,
-  "currentLot": 526,
+  "currentLot": 527,
   "department": "39",
   "progress": {
-    "checked": 30,
+    "checked": 40,
     "total": 49,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Troisième lot du Jura terminé : fiches 21 à 30 sur 49. Corrections à prévoir : Boÿse, période tarifaire 04/05–15/09 (et non à partir du 08/05); Saint-Amour, période tarifaire réduite à partir du 20/11/2026 (et non du 31/10); Orgelet, la gratuité documentée concerne les services, pas nécessairement le stationnement. À Moirans-en-Montagne, aucun tarif n’est publié. Aucune fiche source n’a été modifiée.",
+  "note": "Quatrième lot du Jura terminé : fiches 31 à 40 sur 49. Correction principale : camping de la Toupe, Baume-les-Messieurs, vidange et reprise d’eau 6 €, douche extérieure 3 €. Aire de l’Aube aux Rousses : stationnement indisponible pendant les travaux, borne toujours accessible. Frébuans : annonce hôtes 6 € sans électricité / 9 € avec. Quintigny et Frontenay n’ont pas de prix officiel publié. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/3068775340",
@@ -368,6 +368,121 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/marigny"
       ],
       "lot": 526,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039319000815",
+      "place": "Bonlieu — borne du camping de l’Abbaye",
+      "status": "Jura Tourisme affiche 5 € pour vidange et remplissage d’eau; nuitée à demander au camping. Période indiquée 24/04–18/09/2025, pas de calendrier 2026.",
+      "nextCheck": "Tarif services seuls; ne pas signaler la borne ouverte en novembre. Reconfirmer la période 2027.",
+      "sources": [
+        "https://www.terredemeraudetourisme.com/camping-car/aire-de-service-camping-car-bonlieu/",
+        "https://www.jura-tourism.com/aire-camping-car/borne-de-service-camping-car-bonlieu/"
+      ],
+      "lot": 527,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "node/5884774973",
+      "place": "Menétrux-en-Joux — Scierie des Lacs",
+      "status": "Jura Tourisme confirme terrain privé accueillant des camping-cars pour la nuit en autonomie; pas de tarif officiel affiché. Campercontact indique à partir de 14 € pour deux personnes.",
+      "nextCheck": "Garder 14 € comme indication secondaire, confirmer prix et services exacts auprès des hôtes.",
+      "sources": [
+        "https://www.openstreetmap.org/node/5884774973",
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-scierie-des-lacs/",
+        "https://www.campercontact.com/fr/france/bourgogne-franche-comte/menetrux-en-joux/197206/scierie-des-lacs"
+      ],
+      "lot": 527,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "camping-car.com/46298",
+      "place": "Frébuans — aire camping-car 39",
+      "status": "Annonce des hôtes : 6 €/nuit sans électricité et 9 €/nuit avec. Un annuaire affiche 9 € sans détailler la formule.",
+      "nextCheck": "Conserver la différence selon l’électricité et la source directe des hôtes; ne pas afficher 9 € sans condition.",
+      "sources": [
+        "https://www.lecampingsauvage.fr/emplacement/camping-chez-habitant/frebuans-jura-france",
+        "https://www.camping-car.com/aires/46298-aire-camping-car-39/"
+      ],
+      "lot": 527,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039318002803",
+      "place": "Montbarrey — camping Les 3 Ours",
+      "status": "Jura Tourisme confirme eau, vidange, électricité et Wi-Fi au camping, ouvert du 11/04 au 25/09/2026. Fermé à la date de l’audit; prix des services seuls non publié.",
+      "nextCheck": "Ne pas présenter comme aire publique ouverte; confirmer période et tarification 2027 auprès du camping.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-cars-les-3-ours/",
+        "https://juracamping.fr/hebergements/camping/"
+      ],
+      "lot": 527,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039320000946",
+      "place": "Baume-les-Messieurs — camping de la Toupe",
+      "status": "Grille municipale 2026 : vidange et reprise d’eau pour véhicule ne séjournant pas au camping 6 €; douche pour personne extérieure 3 €. Ce montant de 3 € ne correspond pas au stationnement surveillé.",
+      "nextCheck": "Corriger le commentaire: 6 € services seuls, 3 € douche extérieure; conserver les tarifs de séjour séparément.",
+      "sources": [
+        "https://baumelesmessieurs.fr/camping-de-la-toupe/"
+      ],
+      "lot": 527,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC000V51NZPW",
+      "place": "Les Rousses — aire de l’Aube",
+      "status": "Travaux : stationnement indisponible; borne accessible aux services. Paiement CB : 5 € pour 100 L d’eau ou 1 h d’électricité.",
+      "nextCheck": "Maintenir l’indisponibilité du stationnement et distinguer prix à la borne du prix de stationnement.",
+      "sources": [
+        "https://www.lesrousses.com/fiche/aire-de-l-aube/"
+      ],
+      "lot": 527,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039320001511",
+      "place": "Lons-le-Saunier — camping La Marjorie",
+      "status": "Jura Tourisme indique 5 € pour l’aire de services camping-car sans nuitée.",
+      "nextCheck": "Conserver le forfait comme accès aux services seuls, séparé du séjour au camping.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-13/"
+      ],
+      "lot": 527,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC000V50DSS7",
+      "place": "Quintigny — rue Charles Nodier",
+      "status": "Jura Tourisme confirme 10 emplacements, sans prix ni services affichés.",
+      "nextCheck": "Garder prix et services non précisés; ne pas inférer la gratuité.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-3/"
+      ],
+      "lot": 527,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039320001093",
+      "place": "Frontenay — route de l’Écouvette",
+      "status": "Jura Tourisme confirme 6 emplacements, sans prix ni équipement indiqué.",
+      "nextCheck": "Garder prix et services comme non publiés.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-9/"
+      ],
+      "lot": 527,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC000V51NZRP",
+      "place": "Lamoura — parking de la Serra",
+      "status": "Jura Tourisme confirme 20 places gratuites selon disponibilité; déplacer le véhicule en hiver pour faciliter le déneigement.",
+      "nextCheck": "Conserver la réserve de disponibilité et ajouter la consigne hivernale.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/parking-de-la-serra/"
+      ],
+      "lot": 527,
       "checkedAt": "2026-11-24"
     }
   ]
