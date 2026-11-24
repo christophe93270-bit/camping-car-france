@@ -4,15 +4,15 @@
   "displayedCount": 49,
   "rawRegionalRows": 49,
   "deduplicatedRows": 0,
-  "currentLot": 525,
+  "currentLot": 526,
   "department": "39",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 49,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Deuxième lot du Jura terminé : fiches 11 à 20 sur 49. Barèmes CCP à corriger : Beaufort-Orbagna démarre le 18/11/2026; Thoirette-Coisia démarre le 17/11/2026. Conliège : stationnement et services gratuits, borne fermée l’hiver. Tarif 2026 de Clairvaux à reconfirmer. Tarifs de nuitée non publiés ou non officiels pour les autres lieux concernés. Aucune fiche source n’a été modifiée.",
+  "note": "Troisième lot du Jura terminé : fiches 21 à 30 sur 49. Corrections à prévoir : Boÿse, période tarifaire 04/05–15/09 (et non à partir du 08/05); Saint-Amour, période tarifaire réduite à partir du 20/11/2026 (et non du 31/10); Orgelet, la gratuité documentée concerne les services, pas nécessairement le stationnement. À Moirans-en-Montagne, aucun tarif n’est publié. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/3068775340",
@@ -257,6 +257,117 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/thoirette-coisia?areaType=aire-etape-camping-car"
       ],
       "lot": 525,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039332000243",
+      "place": "Champagnole — Boÿse",
+      "status": "Jura Tourisme : 5 places; nuitée 8 € avec services du 04/05 au 15/09; jeton services 5 € sans stationnement; hors période stationnement gratuit mais pas d’eau; pas d’électricité.",
+      "nextCheck": "Corriger le début de période de 08/05 à 04/05; conserver séparés le tarif de nuitée et le forfait services.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-services-de-boyse/"
+      ],
+      "lot": 526,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039339001248",
+      "place": "Saint-Laurent-en-Grandvaux — Champ de Mars",
+      "status": "Jura Tourisme : 20 places, forfait service vidange/eau/électricité 6 €. Grille camping 2025-26 : 15,80–16,80 € sans électricité; 20,50–25,30 € avec électricité pour 2 personnes.",
+      "nextCheck": "Maintenir la distinction entre forfait de services et emplacement de camping; dater la grille 2025-26.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-services-le-champ-de-mars/",
+        "https://www.jura-tourism.com/camping/camping-municipal-le-champ-de-mars/"
+      ],
+      "lot": 526,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC000V53WK3R",
+      "place": "Lons-le-Saunier — Au Refuge du Camping-Car",
+      "status": "Tarifs affichés pour la période 26/05/2026–30/04/2027 : emplacement non électrifié 10 €/jour; vidange/eau/électricité 5 €.",
+      "nextCheck": "Conserver séparément prix journalier et forfait de services, avec la période indiquée.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/au-refuge-du-camping-car/"
+      ],
+      "lot": 526,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC000V51NZPE",
+      "place": "Bois-d’Amont — aire de la Boissellerie",
+      "status": "Jura Tourisme confirme stationnement gratuit selon disponibilité, eau et vidange gratuites, 6 emplacements, toute l’année.",
+      "nextCheck": "Garder les tarifs et la réserve de disponibilité.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-bois-damont/"
+      ],
+      "lot": 526,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039319000687",
+      "place": "Orgelet — place de l’ancien Champ de Foire",
+      "status": "Jura Tourisme confirme 10 places, eau, vidanges et services gratuits; la fiche ne confirme pas la gratuité du stationnement ni l’absence d’électricité.",
+      "nextCheck": "Retirer l’affirmation « stationnement gratuit » en l’absence de source; conserver la gratuité des services.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-orgelet/"
+      ],
+      "lot": 526,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039350000776",
+      "place": "Moirans-en-Montagne — aire de stationnement",
+      "status": "Jura Tourisme décrit un parking partagé avec les voitures sans tarif publié; accès libre à une borne de recharge électrique n’équivaut pas à stationnement gratuit ou électricité camping-car.",
+      "nextCheck": "Garder le tarif non précisé et éviter de présenter la recharge de voitures comme un service camping-car.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-moirans-en-montagne/"
+      ],
+      "lot": 526,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "ccp/saint-amour-jura",
+      "place": "Saint-Amour — CAMPING-CAR PARK",
+      "status": "Du 20/11/2026 au 31/12/2027 : base 12 €/24 h + taxe 0,44 €, total 12,44 €; parking 5 h + services 6 €. La période source commence encore le 31/10.",
+      "nextCheck": "Corriger la date de début au 20/11/2026; maintenir la taxe séparée.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/saint-amour"
+      ],
+      "lot": 526,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039332001501",
+      "place": "Foncine-le-Haut — aire de services",
+      "status": "Gestionnaire municipal : tarifs 2026; emplacement 20 €/nuit avec eau/électricité en saison (01/05–30/09); électricité hors saison 5 €/12 h; services 4 € toute l’année.",
+      "nextCheck": "Conserver périodes et forfaits distincts.",
+      "sources": [
+        "https://www.jura-foncine.com/visiter-sejourner/se-loger/camping-et-chalet-des-isles/"
+      ],
+      "lot": 526,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "jura-tourism/HPABFC039319000686",
+      "place": "La Tour-du-Meix — Surchauffant",
+      "status": "Jura Tourisme : ouvert de mai à septembre; services 2 €, nuitée 11 € à l’horodateur; aucun millésime 2026 explicite.",
+      "nextCheck": "Conserver les tarifs comme actuellement publiés sans leur attribuer un millésime 2026.",
+      "sources": [
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-de-surchauffant/"
+      ],
+      "lot": 526,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "ccp/marigny-lac-chalain",
+      "place": "Marigny — CAMPING-CAR PARK",
+      "status": "Du 23/10 au 30/12/2026 : 13,30 € + taxe 1,32 €, total 14,62 €; du 31/12/2026 au 31/12/2027 : 13,12 € + 1,32 €, total 14,44 €; forfait 5 h + services 6,85 €.",
+      "nextCheck": "Conserver la grille saisonnière et les composantes séparées.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/marigny"
+      ],
+      "lot": 526,
       "checkedAt": "2026-11-24"
     }
   ]
