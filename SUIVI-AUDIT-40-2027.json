@@ -4,15 +4,15 @@
   "displayedCount": 39,
   "rawRegionalRows": 39,
   "deduplicatedRows": 0,
-  "currentLot": 531,
+  "currentLot": 532,
   "department": "40",
   "progress": {
-    "checked": 30,
+    "checked": 39,
     "total": 39,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 9,
+    "totalInLot": 9
   },
-  "note": "Troisième lot des Landes terminé : fiches 21 à 30 sur 39. Sanguinet : tarif nocturne 7 € en avril, mai et octobre, 10 € de juin à septembre; gratuit en hiver sans garantie de services. Parentis : 9,50 € taxe incluse avec eau et électricité. Saint-Paul-lès-Dax : 12,73 € + taxe 1,60 €, mais l’en-tête CCP affiche encore 16,87 €. Morcenx : total 14 € confirmé, date de début variable selon les versions CCP. Castets : tarif actuel dès le 24/11. Gastes : grille dès le 25/10, sanitaires jusqu’au 30/11 selon la page CCP. Aucune fiche source n’a été modifiée.",
+  "note": "Dernier lot des Landes terminé : fiches 31 à 39 sur 39. Labenne : le tarif actuel démarre le 22/11 (et non le 11/11). Biscarrosse : réservation CCP indique 155 places alors que la fiche mentionne 168. Mounay : les sources décrivent surtout un stationnement de repli au parking du Pavillon, sans confirmation indépendante des 30 places ni des services. Grenade-sur-l’Adour : le détail donne 12,78 € TTC, le bandeau 15,78 €; incohérence toujours à résoudre avec CCP. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/6755781156",
@@ -356,6 +356,111 @@
         "https://www.tourismelandes.com/aire-camping-car/aire-du-village-de-vieux-boucau-accaqu040010000o/"
       ],
       "lot": 531,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1284881112",
+      "place": "Labenne — CAMPING-CAR PARK, Océan",
+      "status": "CCP affiche 13,74 €/24 h de tarif de base + 1,72 € de taxe, soit 15,46 € TTC; parking 5 h + services : 6 €. La période actuelle commence le 22/11/2026 et court jusqu’au 31/12/2027; la fiche indique 11/11.",
+      "nextCheck": "Corriger la date de début du tarif à 22/11/2026 et garder la ventilation base/taxe.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/labenne?areaType=stopover-site-motorhome",
+        "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-cars-de-labenne-accaqu040010000p/"
+      ],
+      "lot": 532,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1323412804",
+      "place": "Moliets-et-Maâ — aire municipale",
+      "status": "La mairie confirme le tarif 2026 de 15 €/24 h, eau, électricité et vidange de cassettes incluses; 120 emplacements, durée maximale 7 jours, ouverture du 20/03 au 15/11/2026. La saison est close au 24/11.",
+      "nextCheck": "Conserver le tarif 2026 et les services; demander les dates d’ouverture 2027 lorsqu’elles seront publiées.",
+      "sources": [
+        "https://www.mairiedemoliets.fr/decouvrir/tourisme/aire-de-camping-cars"
+      ],
+      "lot": 532,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1328204919",
+      "place": "Peyrehorade — camping municipal des Gaves et borne place du Sablot",
+      "status": "La mairie confirme la saison 2026 du 03/06 au 30/09; camping : 14 €/24 h ou 6 € jusqu’à 5 h, taxe de séjour 0,29 € par personne en supplément. Borne distincte place du Sablot : 2 €/10 min pour 100 L. La mairie n’a pas encore publié la prochaine date de réouverture 2027.",
+      "nextCheck": "Garder camping et borne séparés; conserver la réouverture en juin 2027 comme à confirmer tant que la mairie ne l’a pas annoncée.",
+      "sources": [
+        "https://www.peyrehorade.fr/sport-loisirs-et-culture/camping-municipal/",
+        "https://www.cirkwi.com/fr/point-interet/3909116-aire-de-camping-car-des-gaves-reouverture-en-juin-2027"
+      ],
+      "lot": 532,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1363124914",
+      "place": "Sanguinet — parking du Pavillon, fiche tourisme titrée « aire du Mounay »",
+      "status": "La commune fixe le stationnement nocturne (22 h–8 h) à 7 € en avril, mai et octobre, 10 € de juin à septembre; gratuit du 01/11 au 31/03 sans garantie de services. La fiche touristique relie le « Mounay » à l’avenue de Losa/parking du Pavillon, utilisé comme solution de repli lorsque les Bardets sont complets. Les 30 places et les services attribués à cette fiche ne sont pas confirmés spécifiquement par les sources municipales consultées.",
+      "nextCheck": "Clarifier si la fiche doit désigner le parking du Pavillon ou un parking distinct du Mounay; ne pas afficher 30 places ou services propres sans source directe.",
+      "sources": [
+        "https://www.ville-sanguinet.fr/se-divertir/tourisme/accueil-des-camping-cars",
+        "https://www.tourismelandes.com/aire-camping-car/aire-de-camping-cars-du-mounay-accaqu040010000d/",
+        "https://www.biscagrandslacs.com/sejourner-en-vacances/venir-en-camping-car"
+      ],
+      "lot": 532,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "ccp/biscarrosse",
+      "place": "Biscarrosse — CAMPING-CAR PARK, plage du Vivier",
+      "status": "Grille CCP : base 14,20 €/24 h + taxe de 1,60 €, soit 15,80 € TTC; parking 5 h + services : 6 €. Tarif actuel de base à partir du 17/11/2026. La réservation affiche 155 places au total, tandis que la fiche consultée précédemment a repris 168.",
+      "nextCheck": "Corriger le début du tarif au 17/11; vérifier la capacité (155 sur le panneau de réservation contre 168 dans la fiche).",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/biscarrosse?areaType=area-etape-camping-car",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/biscarrosse?areaType=aire-etape-camping-car"
+      ],
+      "lot": 532,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "ccp/seignosse",
+      "place": "Seignosse — CAMPING-CAR PARK",
+      "status": "CCP affiche 12,73 €/24 h de base + 1,72 € de taxe, total 14,45 €; parking 5 h + services : 6 €. La date de début publiée sur une version de page est le 17/11/2026, non le 11/11 indiqué dans la fiche. 110 places et sanitaires toute l’année 2026 selon l’opérateur.",
+      "nextCheck": "Corriger le début tarifaire au 17/11/2026; garder le total TTC et les composantes séparés.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/seignosse?areaType=aire-etape-camping-car"
+      ],
+      "lot": 532,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "ccp/amou",
+      "place": "Amou — CAMPING-CAR PARK",
+      "status": "Grille actuelle confirmée : 11,20 €/24 h + taxe de 0,78 €, soit 11,98 €; tarif de base du 02/11/2026 au 31/12/2027. Parking 5 h + services : 6 €. 25 emplacements, électricité 6 A; risque PPRI et stationnement partagé signalés.",
+      "nextCheck": "Conserver le tarif actuel, sa période et les réserves de partage/PPRI.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/amou"
+      ],
+      "lot": 532,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "ccp/grenade-sur-l-adour",
+      "place": "Grenade-sur-l’Adour — CAMPING-CAR PARK, Camping de mon village",
+      "status": "Le détail tarifaire affiche 12,20 €/24 h dès le 19/11/2026 + 0,58 € de taxe, soit 12,78 €; le bandeau de la page française affiche 15,78 € dont 0,58 €. Le forfait 5 h + services est 6 €. Sanitaires ouverts du 15/05 au 15/10/2026. La base 2027 est 12,22 €, taxe 2027 non précisée dans le détail consulté.",
+      "nextCheck": "Maintenir la mention de l’incohérence de 3 € et demander confirmation à CCP avant de publier un total unique; corriger la date de début (19/11 au lieu du 15/10).",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/grenade-sur-l-adour?areaType=camping"
+      ],
+      "lot": 532,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "ccp/soorts-hossegor",
+      "place": "Soorts-Hossegor — CAMPING-CAR PARK",
+      "status": "CCP affiche 13,70 €/24 h de base + 1,70 € de taxe, soit 15,40 € TTC; parking 5 h + services : 6 €. Le détail tarifaire indique le tarif actuel du 30/10/2026 au 31/12/2027, contre le 02/11 dans la fiche. 83 emplacements.",
+      "nextCheck": "Corriger la date de début à 30/10/2026 et conserver séparément la taxe.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/landes/soorts-hossegor?areaType=aire-etape-camping-car",
+        "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/40-landes/soorts-hossegor?areaType=aire-etape-camping-car"
+      ],
+      "lot": 532,
       "checkedAt": "2026-11-24"
     }
   ]
