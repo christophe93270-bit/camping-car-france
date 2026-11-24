@@ -4,15 +4,15 @@
   "displayedCount": 68,
   "rawRegionalRows": 68,
   "deduplicatedRows": 0,
-  "currentLot": 533,
+  "currentLot": 534,
   "department": "41",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 68,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Premier lot du Loir-et-Cher terminé : fiches 1 à 10 sur 68. Domaine de la Grange : France Passion gratuit jusqu’à 24 h, services eau/vidange à 3 €, capacité divergente 5/6. Chambord : P2 uniquement à 15 €/24 h, sans services. Blois : Qipeo affiche 9,22 € pour 2 adultes et 25 places; l’office affiche 8 € et 20 places. Aucune fiche source n’a été modifiée.",
+  "note": "Lot 534 terminé : fiches 11 à 20 sur 68 du Loir-et-Cher vérifiées. CCP Les Montils 14,92 €/24 h; Pontlevoy et Chailles 13,95 €/24 h, taxe incluse. Services gratuits hors gel à Theillay, Lamotte-Beuvron et Langon-sur-Cher; nuitées France Passion gratuites sous conditions à Cheverny et Châteauvieux. Points à revérifier : stationnement 8 € à Lamotte (brochure 2025), capacité Chailles (20/22), limites de séjour Saint-Dyé et Bauzy. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/11922288632",
@@ -127,6 +127,121 @@
         "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-blois-parc-des-expositions-blois-fr-2075225/"
       ],
       "lot": 533,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/635395225",
+      "place": "Saint-Dyé-sur-Loire — parking de la base nautique",
+      "status": "La commune confirme le stationnement gratuit au parking Val des Châteaux / base nautique. Le guide pratique Blois-Chambord 2025 indique 4 places et 48 h maximum. L’eau potable et les toilettes signalées par la commune se trouvent ailleurs dans le village; aucun service technique n’est confirmé sur ce parking.",
+      "nextCheck": "Garder la nuitée gratuite; séparer l’eau potable du square des services d’une aire. Confirmer auprès de la mairie la limite de 48 h, qui provient du guide 2025.",
+      "sources": [
+        "https://www.saint-dye-sur-loire.fr/histoire-patrimoine-tourisme/accueil-camping-cars-et-velos/emplacement-autorise-et-gratuit-bornes-recharge-velo/",
+        "https://www.saint-dye-sur-loire.fr/histoire-patrimoine-tourisme/visiter-saint-dye/plan-du-village-stationnement-sanitaires-et-eau-potable/",
+        "https://www.bloischambord.com/app/uploads/blois-tourisme/2025/03/OT-Blois-chambord-guide-pratique-2025_FR.pdf"
+      ],
+      "lot": 534,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/779271113",
+      "place": "Les Montils — aire CAMPING-CAR PARK, Châteaux de la Loire",
+      "status": "La page officielle CCP affiche 14,92 €/24 h en ce moment, dont 1,22 € de taxe de séjour (base 13,70 €); le tarif est listé du 19/11/2026 au 31/12/2027. Parking 5 h + services : 6 €. L’aire indique 45 places et 6 A.",
+      "nextCheck": "Conserver séparément le tarif de nuitée (taxe incluse) et le tarif court de 5 h + services; garder la date et la base tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/les-montils?areaType=aire-etape-camping-car"
+      ],
+      "lot": 534,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/907675160",
+      "place": "Theillay — aire de services chemin du Rouaire",
+      "status": "Val de Loire Tourisme confirme eau et vidange gratuits, hors périodes de gel. La fiche porte sur une borne de services; aucune nuitée ni tarif de stationnement nocturne n’est publié.",
+      "nextCheck": "Maintenir gratuité uniquement pour eau/vidange; ne pas présenter cette fiche comme une aire de nuitée.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-services-pour-camping-cars-theillay-acccen000v5000gb/"
+      ],
+      "lot": 534,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/984574970",
+      "place": "Pontlevoy — aire CAMPING-CAR PARK",
+      "status": "La page officielle CCP affiche actuellement 13,95 €/24 h taxe de séjour de 1,22 € incluse (base affichée 12,73 €), et 6 € pour parking 5 h + services. Capacité affichée : 20 places, 6 A. La page affiche aussi une validité de l’offre jusqu’au 30/12/2026 et une grille saisonnière jusqu’au 31/12/2027.",
+      "nextCheck": "Retenir le total actuel de 13,95 €; recontrôler l’affichage de validité et la grille au prochain audit tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/pontlevoy?areaType=aire-etape-camping-car"
+      ],
+      "lot": 534,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1232424286",
+      "place": "Lamotte-Beuvron — aire de services, chemin de Maisonfort",
+      "status": "Val de Loire Tourisme confirme eau et vidange gratuites hors gel. La brochure officielle Cœur de Sologne 2025 mentionne au chemin de Maisonfort 3 emplacements et une nuitée à 8 €, ainsi que les services gratuits; ce prix est daté de 2025 et doit être revalidé pour 2026.",
+      "nextCheck": "Ne pas confondre gratuité des services et nuitée potentiellement payante. Vérifier auprès de la mairie si les 8 € et les 3 places s’appliquent toujours à la zone correspondant à cette fiche.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-services-pour-camping-cars-lamotte-beuvron-acccen000v5000bx/",
+        "https://www.coeurdesologne.com/wp-content/uploads/2025/04/Camping-et-camping-car-1.pdf"
+      ],
+      "lot": 534,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1282029842",
+      "place": "Chailles — aire CAMPING-CAR PARK du Cosson",
+      "status": "La page CCP affiche 13,95 €/24 h taxe de séjour de 1,22 € incluse (base saisonnière affichée 12,73 €) et 6 € pour 5 h + services. Elle affiche 22 places et 6 A; la fiche/site municipal présente une capacité différente de 20 places. L’aire est en zone PPRI.",
+      "nextCheck": "Garder 13,95 € comme tarif observé le 24/11/2026 et signaler l’écart de capacité 20/22; demander confirmation à la commune.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/chailles",
+        "https://www.chailles41.fr/aire-de-camping-car/"
+      ],
+      "lot": 534,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1285203608",
+      "place": "Cheverny — aire de stationnement France Passion",
+      "status": "Blois-Chambord Tourisme confirme 5 places, étape limitée à 24 h et accès soumis à l’adhésion France Passion, à une invitation personnelle et au macaron de l’année en cours. Le stationnement d’accueil est gratuit; aucun prix ni service technique n’est confirmé.",
+      "nextCheck": "Afficher la nuitée comme gratuite sous conditions France Passion; ne pas annoncer eau/vidange sans confirmation de l’accueillant.",
+      "sources": [
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-a-cheverny-cheverny-fr-3346221/",
+        "https://www.france-passion.com/camping-caristes/comment-ca-marche/"
+      ],
+      "lot": 534,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1285209146",
+      "place": "Bauzy — aire de camping-cars de l’étang",
+      "status": "Val de Loire Tourisme indique un stationnement de nuit gratuit avec sanitaires près de l’étang communal. La page ne précise ni capacité, ni durée maximale, ni eau/électricité/vidange malgré le libellé « stationnement et service ».",
+      "nextCheck": "Conserver seulement nuitée gratuite et sanitaires; confirmer capacité, durée et disponibilité des services auprès de la commune.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-et-de-service-camping-cars-bauzy-acccen0000003o/"
+      ],
+      "lot": 534,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1285210622",
+      "place": "Châteauvieux — Domaine de la Doltière (France Passion)",
+      "status": "Sud Val de Loire Tourisme confirme 4 emplacements, 24 h maximum et gratuité sous conditions France Passion (adhésion, invitation personnelle, macaron annuel). Une prise d’eau est répertoriée, sans tarif de service publié.",
+      "nextCheck": "Garder la nuitée gratuite sous conditions; ne pas présenter l’eau comme gratuite, son tarif n’est pas publié.",
+      "sources": [
+        "https://www.sudvaldeloire.fr/offres/aire-de-stationnement-pour-camping-cars-domaine-de-la-doltiere-chateauvieux-chateauvieux-fr-2608571/"
+      ],
+      "lot": 534,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1285219142",
+      "place": "Langon-sur-Cher — aire du canal",
+      "status": "Val de Loire Tourisme confirme 10 places de stationnement gratuites. La borne Euro-Relais fournit eau, vidange et électricité contre jetons vendus au bureau de tabac de Langon; services arrêtés en période de gel. Le montant des jetons n’est pas publié.",
+      "nextCheck": "Conserver la nuitée gratuite distincte des services à jetons; laisser le prix des jetons non confirmé et vérifier sa disponibilité hivernale.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-camping-cars-du-canal-acccen000v5000bz/"
+      ],
+      "lot": 534,
       "checkedAt": "2026-11-24"
     }
   ]
