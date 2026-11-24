@@ -1,0 +1,78 @@
+{
+  "scope": "Loire (42) : audit des tarifs, services, capacités et périodes d’ouverture des fiches de aires-loire.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-24",
+  "displayedCount": 84,
+  "rawRegionalRows": 84,
+  "deduplicatedRows": 0,
+  "currentLot": 540,
+  "department": "42",
+  "progress": {
+    "checked": 10,
+    "total": 84,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Audit engagé par lots de dix. Lot 540 (fiches 1–10) : tarifs confirmés à Noailly, Montrond-les-Bains, Panissières, Belmont-de-la-Loire, Les Salles et Le Bessat; pour Montrond, corriger la période tarifaire inscrite à tort au 03/10 et la remplacer par le 07/06/2026. Les prix de nuitée restent à confirmer à Saint-Denis-de-Cabanne et Pouilly-sous-Charlieu; tarifs de services à relever à Saint-Cyr-de-Valorges. Aucune fiche source n’a été modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/7916862763",
+      "place": "Noailly — Maison du Temps Libre",
+      "status": "Loire Tourisme confirme trois places, stationnement gratuit, toute l’année 2026; équipements mis hors gel du 1er novembre au 31 mars.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "node/11915786906",
+      "place": "Montrond-les-Bains — CAMPING-CAR PARK",
+      "status": "Grille officielle : 14,56 € / 24 h + 1 € de taxe de séjour en 2026; 6 € pour 5 h + services. La fiche de données annonce une période commençant au 03/10, alors que l’opérateur affiche le 07/06/2026.",
+      "nextCheck": "Corriger la période dans le texte tarifaire; conserver les deux frais séparés."
+    },
+    {
+      "sourceId": "node/12094250483",
+      "place": "Saint-Denis-de-Cabanne — parking de l’école",
+      "status": "Office de tourisme : 2 places. Aucun tarif de nuitée publié.",
+      "nextCheck": "Confirmer auprès de la mairie la gratuité et l’autorisation de nuit."
+    },
+    {
+      "sourceId": "node/12094252761",
+      "place": "Pouilly-sous-Charlieu — Bords de Loire",
+      "status": "Office de tourisme : 4 places. Aucun tarif publié pour ce parking.",
+      "nextCheck": "Confirmer auprès de la mairie le prix éventuel et les conditions de nuitée."
+    },
+    {
+      "sourceId": "node/12094277904",
+      "place": "Belmont-de-la-Loire — Place des Arcades",
+      "status": "Office de tourisme : 3 places et services eau/vidanges gratuits; distinct du camping municipal payant.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "node/12096985840",
+      "place": "Panissières — rue des Lauriers",
+      "status": "Tarif 2026 officiel : 2 € emplacement + borne eau/électricité, taxe de séjour 0,45 € par adulte et par nuit en sus.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "node/12097941808",
+      "place": "Sauvain — Le Bourg",
+      "status": "Stationnement gratuit et ouverture 2026 confirmés; aucun service technique tarifé dans la fiche touristique.",
+      "nextCheck": "Contrôler disponibilité des équipements sur place."
+    },
+    {
+      "sourceId": "node/12098006593",
+      "place": "Saint-Cyr-de-Valorges — Le Bourg",
+      "status": "Fiche touristique et ouverture 2026 confirmées, sans prix pour les services.",
+      "nextCheck": "Relever prix et moyen de paiement affichés à la borne Flot Bleu."
+    },
+    {
+      "sourceId": "node/12105996105",
+      "place": "Les Salles — La Plagnette",
+      "status": "Loire Tourisme confirme gratuité toute l’année 2026, services d’eau, vidanges, électricité, et un emplacement de service.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/226047612",
+      "place": "Le Bessat — Croix de Chaubouret",
+      "status": "Tarif officiel confirmé : stationnement gratuit, eau/vidange 2,50 €, électricité 3 € / 4 h, carte bancaire.",
+      "nextCheck": "Vérifier la disponibilité de l’eau en période de gel."
+    }
+  ]
+}
