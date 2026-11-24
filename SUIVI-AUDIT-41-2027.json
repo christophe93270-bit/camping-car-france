@@ -4,15 +4,15 @@
   "displayedCount": 68,
   "rawRegionalRows": 68,
   "deduplicatedRows": 0,
-  "currentLot": 536,
+  "currentLot": 537,
   "department": "41",
   "progress": {
-    "checked": 40,
+    "checked": 50,
     "total": 68,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 536 terminé : fiches 31 à 40 sur 68 du Loir-et-Cher vérifiées. Tarifs CCP actuels : Saint-Aignan 14,12 €, Montrichard 14,92 €, Monthou 13,57 €, Villefranche 14,78 €, Montoire 12,20 € TTC selon CCP et Veuzain 13,95 €. Trôo : borne de services gratuite mais saisonnière, fermeture après le 13/11/2026. Tarif camping-car à Saint-Viâtre et prix des jetons à Mareuil-sur-Cher à confirmer. Écarts de capacité : Villefranche 20/21, Veuzain 16/17; Montoire 12,20/14,44 selon les sources. Aucune fiche source n’a été modifiée.",
+  "note": "Lot 537 terminé : fiches 41 à 50 sur 68 vérifiées. Stationnements de Courmemin, Fontaines, Saint-Claude-de-Diray et Montlivault gratuits; Mondoubleau : 7 €/nuit affichés par Aire Park. Crouy est un point de services sans nuitée; prix 2026 des jetons non publié. À clarifier : services au parking des Champs de Ligny à Huisseau, capacité de Saint-Lubin, électricité à Saint-Claude et période exacte de basse saison à Blois Mounin. Fiches source inchangées.",
   "entries": [
     {
       "sourceId": "node/11922288632",
@@ -471,6 +471,125 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/veuzain-sur-loire"
       ],
       "lot": 536,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.saintlubinenvergonnois.fr/hebergement.html",
+      "place": "Saint-Lubin-en-Vergonnois — place Michaux",
+      "status": "La commune indique une aire ouverte toute l’année et gratuite, avec eau, vidange eaux grises/noires et poubelles. Eau potentiellement suspendue par gel; électricité non annoncée. Capacité 3–4 selon annuaires, non confirmée par la commune.",
+      "nextCheck": "Garder gratuité; ne pas publier capacité ferme ni électricité sans source communale.",
+      "sources": [
+        "https://www.saintlubinenvergonnois.fr/hebergement.html",
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-de-saint-lubin-en-vergonnois-saint-lubin-en-vergonnois-fr-384221/"
+      ],
+      "lot": 537,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-de-courmemin-courmemin-fr-310481/",
+      "place": "Courmemin — place de l’Église",
+      "status": "Office de tourisme : 3 places stabilisées, stationnement nocturne gratuit, toute l’année 2026. Aucun service technique indiqué.",
+      "nextCheck": "Garder gratuit et 3 places; ne pas ajouter eau/vidange/électricité.",
+      "sources": [
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-de-courmemin-courmemin-fr-310481/"
+      ],
+      "lot": 537,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-de-fontaines-en-sologne-fontaines-en-sologne-fr-310482/",
+      "place": "Fontaines-en-Sologne — Champ de Foire",
+      "status": "Office de tourisme : 4 places stabilisées, gratuites, nuitée autorisée, toute l’année 2026. Le guide 2025 indique 48 h maximum; pas de services techniques confirmés.",
+      "nextCheck": "Afficher gratuit; présenter 48 h comme information du guide 2025 à reconfirmer.",
+      "sources": [
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-de-fontaines-en-sologne-fontaines-en-sologne-fr-310482/",
+        "https://www.bloischambord.com/app/uploads/blois-tourisme/2025/03/OT-Blois-chambord-guide-pratique-2025_FR.pdf"
+      ],
+      "lot": 537,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-de-saint-claude-de-diray-saint-claude-de-diray-fr-310810/",
+      "place": "Saint-Claude-de-Diray — rue du Moulin",
+      "status": "Office de tourisme : 4 places stabilisées, gratuites et nocturnes, toute l’année 2026. La Loire à Vélo signale l’électricité seule; non mentionnée dans la fiche locale détaillée.",
+      "nextCheck": "Conserver stationnement gratuit; vérifier avant d’annoncer l’électricité.",
+      "sources": [
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-de-saint-claude-de-diray-saint-claude-de-diray-fr-310810/",
+        "https://www.loireavelo.fr/tsft/aire-de-stationnement-pour-camping-cars-rue-du-moulin-saint-claude-de-diray/"
+      ],
+      "lot": 537,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-de-montlivault-montlivault-fr-310808/",
+      "place": "Montlivault — place de la Mairie",
+      "status": "Office de tourisme : 3 places goudronnées, gratuites, stationnement nocturne, toute l’année 2026. Aucun service technique indiqué au parking.",
+      "nextCheck": "Garder gratuit et 3 places; maintenir les services non confirmés.",
+      "sources": [
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-de-montlivault-montlivault-fr-310808/",
+        "https://www.montlivault.fr/vivre-et-decouvrir/tourisme/les-aires-de-repos/"
+      ],
+      "lot": 537,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.aireparkreservation.com/aires-camping-car/recherche/16025",
+      "place": "Mondoubleau — Aire Park, Prés Barrés",
+      "status": "Exploitant Aire Park affiche 7 €/nuit, 40 places, eau, vidange, électricité par emplacement et borne d’accueil 24 h/24. Qipeo précise 7 €/24 h pour 2 adultes. Des sources tierces indiquent 9 € en haute saison, non confirmé par l’exploitant consulté.",
+      "nextCheck": "Afficher 7 €/nuit avec source/date; garder la variation saisonnière à confirmer.",
+      "sources": [
+        "https://www.aireparkreservation.com/aires-camping-car/recherche/16025",
+        "https://www.qipeo.com/detail/468609dd-a71c-4a14-bf4f-0d7c37ec0e34",
+        "https://www.mairie-mondoubleau.com/sejourner-a-mondoubleau/"
+      ],
+      "lot": 537,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.vendome-tourisme.fr/offres/aire-de-services-savigny-sur-braye-savigny-sur-braye-fr-2593951/",
+      "place": "Savigny-sur-Braye — avenue de la Gare",
+      "status": "Vendôme Tourisme confirme eau et vidange gratuites toute l’année 2026, face au camping. Cette fiche de service n’atteste pas d’une nuitée.",
+      "nextCheck": "Conserver gratuité eau/vidange seulement; ne pas annoncer de nuitée.",
+      "sources": [
+        "https://www.vendome-tourisme.fr/offres/aire-de-services-savigny-sur-braye-savigny-sur-braye-fr-2593951/"
+      ],
+      "lot": 537,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-crouy-sur-cosson-crouy-sur-cosson-fr-2666463/",
+      "place": "Crouy-sur-Cosson — point de services de la Cordellerie",
+      "status": "Stationnement nocturne interdit, parking gratuit; services eau, vidange et électricité par jeton Euro-Relais ou CB. Le jeton de vidange à 2,50 € retrouvé est de 2021; prix actuel non publié.",
+      "nextCheck": "Garder nuitée interdite; ne pas reprendre 2,50 € comme tarif 2026.",
+      "sources": [
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-crouy-sur-cosson-crouy-sur-cosson-fr-2666463/",
+        "https://www.crouysurcosson.fr/wp-content/uploads/sites/23/2020/10/Tarifs-camping-2021-1.pdf"
+      ],
+      "lot": 537,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-blois-promenade-edmond-mounin-blois-fr-2075267/",
+      "place": "Blois — promenade Edmond Mounin",
+      "status": "5 places gratuites, stationnement à durée limitée, basse saison uniquement; aucun service technique. Dates précises de la basse saison non publiées.",
+      "nextCheck": "Garder la restriction saisonnière; vérifier panneaux avant d’indiquer dates ou durée exacte.",
+      "sources": [
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-blois-promenade-edmond-mounin-blois-fr-2075267/"
+      ],
+      "lot": 537,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-de-huisseau-sur-cosson-huisseau-sur-cosson-fr-310802/",
+      "place": "Huisseau-sur-Cosson — allée des Champs de Ligny",
+      "status": "Office de tourisme : 4 places, nuitée gratuite et eau/vidange/électricité à jetons sur le parking devant le cimetière. Guide 2025: 48 h max. Contradiction avec les données, qui rattachent les services à un point distinct route de Chambord.",
+      "nextCheck": "Ne pas fusionner avec l’aire route de Chambord; vérifier l’emplacement physique des services auprès de la commune.",
+      "sources": [
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/campings/aire-de-stationnement-de-huisseau-sur-cosson-huisseau-sur-cosson-fr-310802/",
+        "https://www.bloischambord.com/app/uploads/blois-tourisme/2025/03/OT-Blois-chambord-guide-pratique-2025_FR.pdf",
+        "https://www.bloischambord.com/organiser-son-sejour/hebergements/aires-de-camping-car/"
+      ],
+      "lot": 537,
       "checkedAt": "2026-11-24"
     }
   ]
