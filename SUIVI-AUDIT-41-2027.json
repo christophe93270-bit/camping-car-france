@@ -4,15 +4,15 @@
   "displayedCount": 68,
   "rawRegionalRows": 68,
   "deduplicatedRows": 0,
-  "currentLot": 535,
+  "currentLot": 536,
   "department": "41",
   "progress": {
-    "checked": 30,
+    "checked": 40,
     "total": 68,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 535 terminé : fiches 21 à 30 sur 68 du Loir-et-Cher vérifiées. Angé publie 4 €/demi-journée, 8 €/jour, 50 €/semaine, 200 €/mois; Cour-Cheverny nuitée gratuite avec services par jeton; Cheverny rue du Bûcher stationnement gratuit, eau/vidange 3 €/5 min dans la zone de 20 places. Montants non confirmés pour les jetons à Mennetou, tarif nuitée 2026 à Azé, et conditions d’accueil à Épuisay. Aucune fiche source n’a été modifiée.",
+  "note": "Lot 536 terminé : fiches 31 à 40 sur 68 du Loir-et-Cher vérifiées. Tarifs CCP actuels : Saint-Aignan 14,12 €, Montrichard 14,92 €, Monthou 13,57 €, Villefranche 14,78 €, Montoire 12,20 € TTC selon CCP et Veuzain 13,95 €. Trôo : borne de services gratuite mais saisonnière, fermeture après le 13/11/2026. Tarif camping-car à Saint-Viâtre et prix des jetons à Mareuil-sur-Cher à confirmer. Écarts de capacité : Villefranche 20/21, Veuzain 16/17; Montoire 12,20/14,44 selon les sources. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/11922288632",
@@ -359,6 +359,118 @@
         "https://www.i-campingcar.fr/aires.php?ville=AZE"
       ],
       "lot": 535,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.val-de-loire-41.com/camping-car/aire-de-services-pour-camping-cars-mareuil-sur-cher-acccen000v5000ee/",
+      "place": "Mareuil-sur-Cher — rue du Bas Guéret",
+      "status": "Eau, électricité, vidange et stationnement de nuit confirmés; services hors gel. Jetons achetés dans commerces/office de tourisme, mais prix 2026 et tarif de nuitée non publiés. Le montant de 2 € est ancien (2025).",
+      "nextCheck": "Ne pas reprendre le tarif de jeton de 2025 comme actuel; garder le prix des services et celui de la nuitée à confirmer.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-services-pour-camping-cars-mareuil-sur-cher-acccen000v5000ee/"
+      ],
+      "lot": 536,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.vendome-tourisme.fr/offres/aire-de-services-troo-troo-fr-2619847/",
+      "place": "Trôo — borne de services Bourg Neuf",
+      "status": "Eau et vidange gratuites; fermeture pour gel. Période publiée du 1er avril au 13 novembre 2026: la borne est hors saison au jour du contrôle. Le parking de nuit rue de la Plaine est distinct.",
+      "nextCheck": "Afficher la période saisonnière et ne pas rattacher la nuitée rue de la Plaine à cette fiche de services.",
+      "sources": [
+        "https://www.vendome-tourisme.fr/offres/aire-de-services-troo-troo-fr-2619847/",
+        "https://www.vendome-tourisme.fr/en/offers/camper-vans-troo-en-2593941/"
+      ],
+      "lot": 536,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.saint-viatre.fr/camping/",
+      "place": "Saint-Viâtre — aire naturelle de camping",
+      "status": "Sur réservation: 3 €/personne/jour, +3 €/jour par tente ou caravane (ou 48 €/mois), +3 €/jour d’électricité. Le tarif camping-car n’est pas spécifié. Une fermeture du 15/09/2026 au printemps 2027 figure dans les données mais pas sur la page tarifaire municipale.",
+      "nextCheck": "Faire confirmer par la mairie l’ouverture effective et le prix applicable au camping-car; appeler avant d’afficher un total.",
+      "sources": [
+        "https://www.saint-viatre.fr/camping/"
+      ],
+      "lot": 536,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-saint-martin-des-bois-acccen000v5000fi/",
+      "place": "Saint-Martin-des-Bois — plan d’eau",
+      "status": "Stationnement gratuit toute l’année 2026; sanitaires et équipements de services eau/vidange recensés. Capacité de 2 places et disponibilité hivernale des services non confirmées par la page officielle.",
+      "nextCheck": "Garder la gratuité; ne pas certifier la capacité ou les services en période de gel sans confirmation.",
+      "sources": [
+        "https://www.val-de-loire-41.com/camping-car/aire-de-stationnement-saint-martin-des-bois-acccen000v5000fi/"
+      ],
+      "lot": 536,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/st-aignan",
+      "place": "Saint-Aignan — CCP",
+      "status": "14,12 €/24 h actuellement, taxe de 1,22 € comprise (base 12,90 €); 5 h + services : 6 €. CCP indique 29 emplacements et l’aire ouverte.",
+      "nextCheck": "Conserver le TTC et la taxe séparée; vérifier au renouvellement de saison.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/st-aignan"
+      ],
+      "lot": 536,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/montrichard",
+      "place": "Montrichard Val de Cher — CCP",
+      "status": "14,92 €/24 h dont 1,22 € de taxe; base 13,70 € jusqu’au 31/12/2026 puis 13,74 € en 2027. 5 h + services : 6 €. 40 places, 6 A.",
+      "nextCheck": "Présenter séparément le TTC courant et la base 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/montrichard"
+      ],
+      "lot": 536,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/monthou-sur-cher",
+      "place": "Monthou-sur-Cher — Les Anguilleuses CCP",
+      "status": "13,57 €/24 h dont 0,44 € de taxe; 25 places. Vans sans sanitaires, caravanes et voitures + tente uniquement du 1er mai au 30 septembre.",
+      "nextCheck": "Garder le tarif TTC et les restrictions saisonnières des autres véhicules; recontrôler les sanitaires saisonniers.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/monthou-sur-cher"
+      ],
+      "lot": 536,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/villefranche-sur-cher",
+      "place": "Villefranche-sur-Cher — CCP",
+      "status": "14,78 €/24 h dont 0,78 € de taxe (base 14 €); 5 h + services : 6 €. Écart de capacité 20/21; sanitaires annoncés jusqu’au 30/12/2026.",
+      "nextCheck": "Signaler l’écart de capacité; conserver l’information PPRI et la période des sanitaires.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/villefranche-sur-cher"
+      ],
+      "lot": 536,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/41-loir-et-cher/montoire-sur-le-loir?areaType=camping",
+      "place": "Montoire-sur-le-Loir — Les Reclusages CCP",
+      "status": "Page CCP: 12,20 €/24 h, taxe de séjour à 0 € sur la période en cours; 5 h + services : 6 €. CCP affiche 122 emplacements et sanitaires saisonniers fermés en novembre. Une source tierce récente indique 14,44 €, donc tarif à contrôler sur borne/application.",
+      "nextCheck": "Retenir provisoirement l’affichage direct CCP du 24/11/2026, mais vérifier à la borne/application la divergence 12,20/14,44 €.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/41-loir-et-cher/montoire-sur-le-loir?areaType=camping",
+        "https://ha01.park4night.com/fr/place/15600"
+      ],
+      "lot": 536,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/veuzain-sur-loire",
+      "place": "Veuzain-sur-Loire (Onzain) — CCP",
+      "status": "13,95 €/24 h dont 1,22 € de taxe (base 12,73 €). La page CCP indique 16 emplacements contre 17 dans la fiche.",
+      "nextCheck": "Garder le tarif courant; signaler l’écart de capacité et l’alerte d’accès GPS vers le camping voisin.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/loir-et-cher/veuzain-sur-loire"
+      ],
+      "lot": 536,
       "checkedAt": "2026-11-24"
     }
   ]
