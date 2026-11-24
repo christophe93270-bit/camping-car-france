@@ -1,0 +1,140 @@
+{
+  "scope": "Jura (39) : audit des tarifs, services, capacités et périodes d’ouverture des fiches de aires-jura.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-24",
+  "displayedCount": 49,
+  "rawRegionalRows": 49,
+  "deduplicatedRows": 0,
+  "currentLot": 524,
+  "department": "39",
+  "progress": {
+    "checked": 10,
+    "total": 49,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Premier lot du Jura terminé : fiches 1 à 10 sur 49. Aucun sourceId dupliqué dans le fichier. Point de correction tarifaire identifié : Val Suran, date de début du barème au 22/11/2026. Jeurre, Maisod et Nozeroy nécessitent une confirmation de période tarifaire; plusieurs autres fiches n’ont pas de tarif officiel publié. Aucune fiche source n’a été modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/3068775340",
+      "place": "Jeurre — aire chez M. Benoît",
+      "status": "Jura Tourisme confirme 15 emplacements, services et les montants 5 € stationnement, 2 € eau, 3 € électricité; aucune année de validité n’est précisée.",
+      "nextCheck": "Garder comme tarifs affichés par l’office sans les présenter comme tarifs 2026/2027; reconfirmer avant la saison 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/node/3068775340",
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-chez-m-benoit/"
+      ],
+      "lot": 524,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "node/4857890587",
+      "place": "Voiteur — rue du Cimetière",
+      "status": "Le PLU (2023) décrit un parking de 11 places avec 2 emplacements camping-cars; tarif et autorisation de nuit non confirmés officiellement.",
+      "nextCheck": "Ne pas confirmer la gratuité ni la nuitée sans vérifier la signalisation ou obtenir confirmation de la mairie.",
+      "sources": [
+        "https://www.openstreetmap.org/node/4857890587",
+        "https://data.geopf.fr/annexes/gpu/documents/DU_39582/857b52ee3231e53e4ca358553fc50454/39582_rapport_1_20231214.pdf"
+      ],
+      "lot": 524,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "node/7575088042",
+      "place": "Dole — avenue de Lahr",
+      "status": "Jura Tourisme indique stationnement gratuit et absence d’aire de services.",
+      "nextCheck": "Conserver gratuit et sans services; maintenir la séparation avec l’aire Aquaparc Isis.",
+      "sources": [
+        "https://www.openstreetmap.org/node/7575088042",
+        "https://www.jura-tourism.com/aire-camping-car/camping-car-aire-de-stationnement-avenue-de-lahr/"
+      ],
+      "lot": 524,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "node/12151427182",
+      "place": "La Pesse — derrière la supérette",
+      "status": "Jura Tourisme confirme 10 places, ouvertes toute l’année, avec eau et évacuation des eaux usées; bornes distinctes à jetons sans prix publié.",
+      "nextCheck": "Garder les tarifs de nuitée et de jetons comme non publiés; distinguer la borne du parking Musher.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12151427182",
+        "https://www.jura-tourism.com/aire-camping-car/aire-daccueil-et-de-service-camping-car-la-pesse/"
+      ],
+      "lot": 524,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "node/12151455073",
+      "place": "Saint-Claude — Moulin Lacroix",
+      "status": "Jura Tourisme confirme 3 places asphaltées, hors période de gel, eaux usées et poubelles; parking Duparchy gratuit et sans service est distinct.",
+      "nextCheck": "Ne pas attribuer la gratuité du parking au point service; tarif non publié. Vérifier les coordonnées GPS avant correction.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12151455073",
+        "https://www.jura-tourism.com/aire-camping-car/aire-daccueil-et-de-service-camping-car-saint-claude/"
+      ],
+      "lot": 524,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "node/12153481234",
+      "place": "Maisod — La Mercantine",
+      "status": "Jura Tourisme indique 10 places, stationnement limité à 24 h et services eau/vidange, sans tarif publié. Arrêtés municipaux camping-cars 2026 répertoriés; sources secondaires donnent des tarifs contradictoires.",
+      "nextCheck": "Ne pas confirmer 6 €/nuit ni 2 €/borne. Relire les arrêtés 2026 selon la localisation exacte et demander le tarif à la mairie ou à l’office.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12153481234",
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-service-la-mercantine/",
+        "https://maisod.fr/conseils_syndicaux/AR_N%C2%B02026_0021_CAMPING-CAR_Reglementation.pdf",
+        "https://maisod.fr/conseils_syndicaux/AR_N%C2%B02026_0004_Aire_de_Camping-Cars.pdf"
+      ],
+      "lot": 524,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/453710230",
+      "place": "Val Suran — CAMPING-CAR PARK",
+      "status": "Au 24/11/2026, le barème officiel commence le 22/11/2026: 12,52 €/24 h + taxe de séjour 0,44 €; total 12,96 €; parking 5 h + services 6 €.",
+      "nextCheck": "Corriger la date de début de 30/10/2026 à 22/11/2026; séparer base, taxe et forfait 5 h.",
+      "sources": [
+        "https://www.openstreetmap.org/way/453710230",
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/val-suran?areaType=camping"
+      ],
+      "lot": 524,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/475882147",
+      "place": "Cousance — Champ de foire",
+      "status": "Jura Tourisme confirme 4 places mais ne publie pas de prix; la gratuité rapportée pour 2025 par une source secondaire ne confirme pas 2026.",
+      "nextCheck": "Garder le tarif 2026 comme non publié jusqu’à confirmation communale.",
+      "sources": [
+        "https://www.openstreetmap.org/way/475882147",
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-de-cousance/"
+      ],
+      "lot": 524,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/672523127",
+      "place": "Nozeroy — aire de stationnement",
+      "status": "Jura Tourisme affiche 10 places, ouvert du 1er mai au 31 octobre et 13 €/jour taxe de séjour comprise; le tarif n’a pas de millésime explicite.",
+      "nextCheck": "Conserver comme tarif actuellement affiché, sans garantir explicitement l’année 2026; reconfirmer avant la saison suivante.",
+      "sources": [
+        "https://www.openstreetmap.org/way/672523127",
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-car-de-nozeroy/"
+      ],
+      "lot": 524,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/916902476",
+      "place": "Bellefontaine — aire des Replats",
+      "status": "Jura Tourisme confirme disponibilité toute l’année, eau, évacuation des eaux usées et paiement en espèces; aucun tarif officiel publié.",
+      "nextCheck": "Garder le tarif comme non publié; ne pas confirmer gratuité ou électricité à 2 € à partir des annuaires.",
+      "sources": [
+        "https://www.openstreetmap.org/way/916902476",
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-bellefontaine/"
+      ],
+      "lot": 524,
+      "checkedAt": "2026-11-24"
+    }
+  ]
+}
