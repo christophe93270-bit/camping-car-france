@@ -4,15 +4,15 @@
   "displayedCount": 49,
   "rawRegionalRows": 49,
   "deduplicatedRows": 0,
-  "currentLot": 524,
+  "currentLot": 525,
   "department": "39",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 49,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Premier lot du Jura terminé : fiches 1 à 10 sur 49. Aucun sourceId dupliqué dans le fichier. Point de correction tarifaire identifié : Val Suran, date de début du barème au 22/11/2026. Jeurre, Maisod et Nozeroy nécessitent une confirmation de période tarifaire; plusieurs autres fiches n’ont pas de tarif officiel publié. Aucune fiche source n’a été modifiée.",
+  "note": "Deuxième lot du Jura terminé : fiches 11 à 20 sur 49. Barèmes CCP à corriger : Beaufort-Orbagna démarre le 18/11/2026; Thoirette-Coisia démarre le 17/11/2026. Conliège : stationnement et services gratuits, borne fermée l’hiver. Tarif 2026 de Clairvaux à reconfirmer. Tarifs de nuitée non publiés ou non officiels pour les autres lieux concernés. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/3068775340",
@@ -134,6 +134,129 @@
         "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-bellefontaine/"
       ],
       "lot": 524,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/972189733",
+      "place": "Thoirette-Coisia — aire de services, Grande Rue",
+      "status": "Jura Tourisme confirme 12 emplacements et le forfait services à 7 € (eau, électricité, vidanges, WC), sans date de validité ni prix de nuitée.",
+      "nextCheck": "Garder 7 € comme tarif affiché sans millésime; distinguer du prix de nuitée de l’aire CCP de La Gouille.",
+      "sources": [
+        "https://www.openstreetmap.org/way/972189733",
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-service-camping-car-thoirette/"
+      ],
+      "lot": 525,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/983158095",
+      "place": "Domblans — rue du Vergerot",
+      "status": "La mairie confirme le stationnement de nuit, la gratuité eau/vidanges et la neutralisation hivernale prévue pour éviter le gel.",
+      "nextCheck": "Ne pas présenter le stationnement nocturne comme gratuit; signaler la coupure hivernale de l’eau.",
+      "sources": [
+        "https://www.openstreetmap.org/way/983158095",
+        "https://www.domblans.fr/decouvrir-domblans/aire-de-camping-car/"
+      ],
+      "lot": 525,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1052740620",
+      "place": "Beaufort-Orbagna — CCP La Caborde",
+      "status": "Tarif base 11,71 €/24 h du 18/11/2026 au 31/12/2027, taxe 0,66 €, total 12,37 €; parking 5 h + services 6 €.",
+      "nextCheck": "Corriger la date de début dans la fiche de 30/10/2026 à 18/11/2026; garder les composantes séparées.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1052740620",
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/beaufort-orbagna"
+      ],
+      "lot": 525,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1296418825",
+      "place": "Conliège — aire de services",
+      "status": "Jura Tourisme indique 6 emplacements et services; Flot Bleu (exploitant : mairie) affiche services et stationnement gratuits, aire de services fermée l’hiver.",
+      "nextCheck": "Distinguer stationnement et disponibilité hivernale de la borne; ne pas afficher la borne ouverte toute l’année.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1296418825",
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-camping-car-12/",
+        "https://flotbleu.com/jura/aire-de-service/217"
+      ],
+      "lot": 525,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1296422733",
+      "place": "Audelange — aire de stationnement",
+      "status": "Informations principalement communautaires; la capacité diverge entre 2 et 3 places, sans tarif, droit de nuit ni services confirmés par une source officielle.",
+      "nextCheck": "Vérifier la signalisation, le nombre d’emplacements et l’accueil auprès de la commune avant d’afficher ces éléments.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1296422733",
+        "https://park4night.com/fr/place/80"
+      ],
+      "lot": 525,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1296429078",
+      "place": "Clairvaux-les-Lacs — P1",
+      "status": "La mairie confirme 45 emplacements et le stationnement du 01/04 au 15/11 selon conditions climatiques. Page liée à la délibération tarifaire du 12/12/2024; grille 2026 actuelle non vérifiée.",
+      "nextCheck": "Conserver la saison; confirmer auprès de la mairie ou de la borne le tarif applicable en 2026.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1296429078",
+        "https://www.clairvaux-les-lacs.com/page/aire-de-camping-car",
+        "https://files.appli-intramuros.com/website/uploads/9234/2024/2024-060_tarifs_et_fonctionnement_aire_de_camping-cars.pdf"
+      ],
+      "lot": 525,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1312770954",
+      "place": "Les Crozets — place du Pré du Frêne",
+      "status": "Jura Tourisme confirme 3 places, tables de pique-nique et poubelles; pas de tarif ni de droit de nuit indiqué.",
+      "nextCheck": "Garder prix et nuitée non confirmés; ne pas reprendre les informations non officielles d’ouverture annuelle ou de gratuité.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1312770954",
+        "https://www.jura-tourism.com/aire-camping-car/aire-de-stationnement-camping-cars-les-crozets/"
+      ],
+      "lot": 525,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1316470124",
+      "place": "Plainoiseau — aire de camping-car",
+      "status": "Gratuité et nuitée rapportées par Park4night; le PLU communal ne confirme pas un emplacement camping-car ou la nuitée à ce point précis.",
+      "nextCheck": "Vérifier l’autorisation et le tarif auprès de la mairie avant confirmation.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1316470124",
+        "https://park4night.com/fr/place/109886",
+        "https://www.plainoiseau.fr/images/documents/pdf/urbanisme/PLU2018/1_Plainoiseau_rapport%20de%20pr%C3%A9sentation_approbation.pdf"
+      ],
+      "lot": 525,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1433927556",
+      "place": "Pont-de-Poitte — rue de la Saisse",
+      "status": "Sources secondaires rapportent stationnement gratuit, services 2 €, électricité 2 €/55 min et 5 places; le tarif communal et les conditions d’hiver ne sont pas confirmés officiellement.",
+      "nextCheck": "Demander confirmation à la mairie pour la tarification, la limite 24 h et la période de fermeture.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1433927556",
+        "https://www.i-campingcar.fr/aires.php?ville=PONT+DE+POITTE"
+      ],
+      "lot": 525,
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "sourceId": "way/1533974795",
+      "place": "Thoirette-Coisia — CCP, La Gouille",
+      "status": "Tarif base 12,73 €/24 h du 17/11/2026 au 31/12/2027, taxe 1,30 €, total 14,03 €; parking 5 h + services 6 €.",
+      "nextCheck": "Corriger la date de début dans la fiche de 11/11/2026 à 17/11/2026; afficher base, taxe et total séparément.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1533974795",
+        "https://www.campingcarpark.com/fr_FR/camping-car/bourgogne-franche-comte/jura/thoirette-coisia?areaType=aire-etape-camping-car"
+      ],
+      "lot": 525,
       "checkedAt": "2026-11-24"
     }
   ]
