@@ -4,15 +4,15 @@
   "displayedCount": 49,
   "rawRegionalRows": 49,
   "deduplicatedRows": 0,
-  "currentLot": 571,
+  "currentLot": 572,
   "department": "07",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 49,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 571 : fiches 1 à 10 contrôlées. Correction majeure aux Nonières : emplacement gratuit confirmé par l'office de tourisme, les 7 € précédemment saisis concernaient les Collanges. Prix/services officiels clarifiés à Saint-Félicien, Le Teil, Vinezac et autres fiches. Aucun lieu ajouté; 39 fiches restantes.",
+  "note": "Lots 571–572 : fiches 1 à 20 sur 49 contrôlées. Lot 572 : prix de la borne de Lachamp et Saint-Étienne, de Thueyts, et tarif CCP actualisé à Viviers; divergence de deux sources officielles au Lac-d’Issarlès à faire clarifier. Cornas et Saint-Jean-Roure confirmés gratuits. Ferme de Saule Lièvre et Truite d’Andaure restent à vérifier directement. Aucun lieu ajouté; 29 fiches restantes.",
   "entries": [
     {
       "sourceId": "node/5046531621",
@@ -136,6 +136,129 @@
         "https://www.openstreetmap.org/node/11940552460",
         "https://www.ardeche-guide.com/camping/aire-de-service-accueil-camping-car-6257067/",
         "https://www.cirkwi.com/it/point-interet/5416823-aire-de-service-accueil-camping-car"
+      ]
+    },
+    {
+      "sourceId": "node/11940589765",
+      "place": "Labatie-d’Andaure — Les Pêcheurs d’Andaure",
+      "lot": 572,
+      "checkedAt": "2026-11-25",
+      "status": "L’office de tourisme confirme l’accueil camping-cars sur le site piscicole, ouvert du 01/04 au 31/12/2026, nouvelle équipe après mars 2026; prix et règles de nuitée non publiés.",
+      "nextCheck": "Confirmer auprès de la nouvelle équipe le tarif et les conditions de stationnement nuit.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11940589765",
+        "https://www.ardeche-hautes-vallees.fr/producteur-local/les-pecheurs-dandaure/"
+      ]
+    },
+    {
+      "sourceId": "node/11940698891",
+      "place": "Saint-Victor — Ferme de Saule Lièvre",
+      "lot": 572,
+      "checkedAt": "2026-11-25",
+      "status": "Lieu identifié au 315 chemin de Lionneton. Les annuaires OSM signalent gratuit, 4 places/24h, mais la page du gestionnaire n’a pas pu être vérifiée; maintien du tarif non confirmé.",
+      "nextCheck": "Contacter le gestionnaire pour confirmer prix, services, durée et éventuelle condition de repas.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11940698891",
+        "https://fermedesautelievre.fr/camping-car/",
+        "https://caraplace.ch/fr/placeme/aire-de-camping-car-ferme-de-saule-lievre-13548"
+      ]
+    },
+    {
+      "sourceId": "node/11940771471",
+      "place": "Saint-Jean-Roure — Beauvert",
+      "lot": 572,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : 4 places, gratuit toute l’année, max 48 h; coordonnées officielles cohérentes avec le point OSM.",
+      "nextCheck": "Recontrôler en cas de changement municipal.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11940771471",
+        "https://www.ardeche-hautes-vallees.fr/camping/aire-de-stationnement-camping-cars-st-jean-roure/"
+      ]
+    },
+    {
+      "sourceId": "way/149144811",
+      "place": "Lachamp-Raphaël — Place du Couder",
+      "lot": 572,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : 6 places; borne eau, vidange et 220 V; service borne 5 €, ouverture publiée 15/04–31/10/2026. Nuitée/parking non tarifé dans la source.",
+      "nextCheck": "Confirmer les dates 2027 et le coût éventuel de la nuitée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/149144811",
+        "https://www.ardeche-guide.com/camping/aire-de-service-camping-cars-859276/"
+      ]
+    },
+    {
+      "sourceId": "way/170012592",
+      "place": "Le Lac-d’Issarlès — aire communale",
+      "lot": 572,
+      "checkedAt": "2026-11-25",
+      "status": "Fiche OT : 24 places, séjour max 24 h, saison 11/04–02/11, services complets; prix 11–13 €. Export OT daté 15/05/2026 : 8 € + taxe 0,59 €. Sources officielles contradictoires.",
+      "nextCheck": "Demander à la mairie le prix 2026/2027 et le bon tarif à publier.",
+      "sources": [
+        "https://www.openstreetmap.org/way/170012592",
+        "https://www.ardeche-guide.com/camping/aire-de-service-accueil-camping-cars-communale-81409/",
+        "https://www.montagnedardeche.com/wp-content/plugins/apidae/export.pdf?lang=fr&liste=MzA2ODR8MzA0OXwzMjgyN3wzNDM5fDY1NTN8MTUxNHw3MzkxfDg0NTc%3D&sort=user&title=QWlyZXMgZGUgY2FtcGluZyBjYXI%3D"
+      ]
+    },
+    {
+      "sourceId": "way/210629157",
+      "place": "Saint-Étienne-de-Lugdarès — Place du Jumelage",
+      "lot": 572,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : 6 places, borne eau 2 €/100 L, électricité 2 €/h, vidange; stationnement nocturne à la sortie du village, tarif non communiqué.",
+      "nextCheck": "Demander le tarif et les conditions du stationnement nocturne.",
+      "sources": [
+        "https://www.openstreetmap.org/way/210629157",
+        "https://www.montagnedardeche.com/camping/aire-de-service-camping-car-3049/",
+        "https://www.montagnedardeche.com/wp-content/plugins/apidae/export.pdf?lang=fr&liste=MzA2ODR8MzA0OXwzMjgyN3wzNDM5fDY1NTN8MTUxNHw3MzkxfDg0NTc%3D&sort=user&title=QWlyZXMgZGUgY2FtcGluZyBjYXI%3D"
+      ]
+    },
+    {
+      "sourceId": "way/303783613",
+      "place": "Viviers — Camping-Car Park",
+      "lot": 572,
+      "checkedAt": "2026-11-25",
+      "status": "15,57 €/24 h TTC, soit 14,25 € + 1,32 € de taxe, tarif saisonnier du 22/11/2026 au 31/12/2027; parking 5 h + services 6 €, 30 places, 6 A.",
+      "nextCheck": "Recontrôler après le 31/12/2027 ou toute évolution saisonnière.",
+      "sources": [
+        "https://www.openstreetmap.org/way/303783613",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/07-ardeche/viviers?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/330906921",
+      "place": "Thueyts — borne de ravitaillement camping-cars",
+      "lot": 572,
+      "checkedAt": "2026-11-25",
+      "status": "Mairie : eau + électricité à 2 €, sans volume ni durée publiée. Nuitée/gratuité et correspondance exacte avec le point OSM restent à confirmer.",
+      "nextCheck": "Demander à la mairie si le 2 € concerne un jeton, une durée ou un volume et si le stationnement de nuit est autorisé.",
+      "sources": [
+        "https://www.openstreetmap.org/way/330906921",
+        "https://www.thueyts.fr/vie-quotidienne/les-tarifs-des-services-communaux/"
+      ]
+    },
+    {
+      "sourceId": "way/475846333",
+      "place": "Boulieu-lès-Annonay — Chemin du Lavoir",
+      "lot": 572,
+      "checkedAt": "2026-11-25",
+      "status": "Office Ardèche Grand Air : 6 places, eau et vidange, sans électricité, libre participation, ouvert toute l’année.",
+      "nextCheck": "Aucune vérification tarifaire restante; participation libre confirmée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/475846333",
+        "https://www.ardechegrandair.com/activites/randonner-se-balader/week-end-randonnee/week-end-rando-sur-les-sentiers-ardechois/116639_aire-de-camping-car-de-boulieu-les-annonay/"
+      ]
+    },
+    {
+      "sourceId": "way/493632489",
+      "place": "Cornas — aire municipale chemin des Saveaux",
+      "lot": 572,
+      "checkedAt": "2026-11-25",
+      "status": "Mairie : parking gratuit, 5 places, max 48 h; eau, poubelles et vidanges eaux usées/WC chimiques. Carte officielle cohérente avec point OSM.",
+      "nextCheck": "Recontrôler en cas de changement municipal.",
+      "sources": [
+        "https://www.openstreetmap.org/way/493632489",
+        "https://www.cornas.fr/tourisme/camping-cars/"
       ]
     }
   ]
