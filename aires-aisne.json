@@ -302,10 +302,14 @@
     "department": "02",
     "name": "Aire de stationnement de Villers-Cotterêts",
     "city": "Villers-Cotterêts",
-    "type": "Aire de stationnement camping-car (borne de services hors service)",
-    "services": [],
-    "price": "Stationnement gratuit ; borne de services hors service depuis le 06/08/2026",
-    "status": "Stationnement gratuit ; borne de services hors service depuis le 6 août 2026 selon office de tourisme",
+    "type": "Aire municipale de stationnement camping-car",
+    "services": [
+      "6 emplacements dont 2 réservés PMR",
+      "Tables de pique-nique",
+      "Poubelles de tri"
+    ],
+    "price": "Stationnement gratuit limité à 72 h; aire de services voisine hors service depuis le 06/08/2026",
+    "status": "L'Office de tourisme distingue l'aire de stationnement (6 places, dont 2 PMR, gratuite 24 h/24 et limitée à 72 h) de l'aire de services située près de la piscine. La borne de cette dernière est hors service depuis le 06/08/2026.",
     "source": "https://www.openstreetmap.org/way/1089483319",
     "latitude": 49.2609419,
     "longitude": 3.0872656,
@@ -314,9 +318,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1089483319",
-    "verificationSource": "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC0020004R_aire-de-services-de-villers-cotterets/",
-    "verificationDate": "2026-10-17",
-    "verificationNote": "Office de tourisme distingue stationnement près de la piscine et borne de services actuellement hors service ; ne pas promettre eau, électricité ni vidange."
+    "verificationSource": "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC00200051_aire-de-stationnement-de-villers-cotterets/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Ne pas confondre les deux équipements voisins : le stationnement reste gratuit, la borne de services est signalée hors service depuis le 06/08/2026.",
+    "sourceOfficial": "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC00200051_aire-de-stationnement-de-villers-cotterets/",
+    "servicesSource": "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC00200051_aire-de-stationnement-de-villers-cotterets/",
+    "priceSource": "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC00200051_aire-de-stationnement-de-villers-cotterets/",
+    "verificationSourceSecondary": "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC0020004R_aire-de-services-de-villers-cotterets/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceValidUntil": "2026-12-31",
+    "priceNote": "Stationnement gratuit confirmé; la panne concerne la borne de services voisine, pas le droit de stationner. La fiche de la borne annonce 3 € le forfait services lorsqu'elle fonctionne."
   },
   {
     "department": "02",
@@ -331,8 +342,8 @@
       "Vidange WC",
       "Table de pique-nique"
     ],
-    "price": "Stationnement gratuit ; eau 3 € / 10 min ; électricité 2 € / 4 h ou 4 € / 8 h",
-    "status": "Quatre emplacements, stationnement gratuit et services confirmés par les offices de tourisme",
+    "price": "Nuitée/stationnement : tarif non précisé par l'OT. Eau : 3 € / 10 min; électricité : 2 € / 4 h ou 4 € / 8 h",
+    "status": "L'Office du tourisme du Vermandois confirme 4 emplacements, vidange et borne; eau à 3 €/10 min, électricité à 2 €/4 h ou 4 €/8 h. La fiche ne publie pas de tarif de stationnement/nuitée.",
     "source": "https://www.openstreetmap.org/way/1312459206",
     "latitude": 49.9515721,
     "longitude": 3.2352119,
@@ -341,11 +352,16 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1312459206",
-    "servicesSource": "https://www.openstreetmap.org/way/1312459206",
-    "verificationSource": "https://www.destination-saintquentin.fr/aire-daccueil-et-de-service-de-riqueval/",
-    "verificationDate": "2026-10-17",
-    "verificationNote": "Office de tourisme du Saint-Quentinois confirme explicitement parking gratuit ; office du Vermandois détaille les tarifs des services.",
-    "capacity": 4
+    "servicesSource": "https://ot-vermandois.com/laire-de-camping-cars-et-de-services-de-riqueval",
+    "verificationSource": "https://ot-vermandois.com/laire-de-camping-cars-et-de-services-de-riqueval",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Les 4 places et les prix unitaires des services sont confirmés par l'OT; le coût éventuel d'une nuitée reste non publié.",
+    "capacity": 4,
+    "sourceOfficial": "https://ot-vermandois.com/laire-de-camping-cars-et-de-services-de-riqueval",
+    "priceSource": "https://ot-vermandois.com/laire-de-camping-cars-et-de-services-de-riqueval",
+    "priceVerifiedOn": "2026-11-25",
+    "priceValidUntil": null,
+    "priceNote": "Montants publiés par l'OT pour les services à la borne. Aucun tarif spécifique de nuitée n'est affiché; ne pas convertir les tarifs de services en prix de séjour."
   },
   {
     "department": "02",
@@ -364,12 +380,20 @@
       "Vidange WC",
       "Tables de pique-nique"
     ],
-    "price": "Stationnement gratuit ; services annoncés gratuits par la communauté de communes depuis 2024",
+    "price": "Stationnement gratuit; utilisation de la borne de services gratuite (depuis 2024)",
     "sourceOfficial": "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-daccueil-et-de-services-de-maizy/",
     "gpsSource": "https://www.camping-car.com/aires/46359-aire-privee/",
-    "status": "Ouverte toute l'année selon l'office de tourisme",
+    "status": "L'Office du tourisme confirme 3 emplacements gratuits, ouverts toute l'année, avec eau, électricité et vidanges. La Communauté de communes confirme que l'utilisation des bornes de ses trois aires est gratuite depuis 2024.",
     "dataAttribution": "Office de tourisme du Pays de Laon / Camping-car.com",
-    "importReview": "Coordonnées GPS de la fiche Camping-car.com, corroborées par park4night ; pas d'identifiant OSM vérifié."
+    "importReview": "Coordonnées GPS de la fiche Camping-car.com, corroborées par park4night ; pas d'identifiant OSM vérifié.",
+    "verificationSource": "https://www.cc-champagnepicarde.fr/sortir-et-decouvrir/aires-de-camping-car",
+    "servicesSource": "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-daccueil-et-de-services-de-maizy/",
+    "priceSource": "https://www.cc-champagnepicarde.fr/sortir-et-decouvrir/aires-de-camping-car",
+    "priceVerifiedOn": "2026-11-25",
+    "priceValidUntil": null,
+    "priceNote": "La gratuité de la borne depuis 2024 est publiée par la Communauté de communes; stationnement gratuit confirmé par l'OT.",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "3 emplacements; eau, électricité, vidanges eaux grises/noires, tables et poubelles. Utilisation gratuite depuis 2024."
   },
   {
     "department": "02",
@@ -388,14 +412,20 @@
       "Vidange WC",
       "Tables de pique-nique"
     ],
-    "price": "Stationnement gratuit ; eau 2 € / 10 min ; électricité payante (tarif à confirmer)",
-    "sourceOfficial": "https://www.tourisme-thierache.fr/fiche/detail/4630/Sejourner~Hebergement/Aire-d-accueil-et-de-service-de-Montcornet",
+    "price": "Stationnement gratuit; eau 2 € / 10 min; prix de l'électricité à confirmer",
+    "sourceOfficial": "https://www.tourisme-thierache.fr/fiche/detail/4630/Sejourner~Hebergement~Aires-de-camping-car/Aire-d-accueil-et-de-service-de-Montcornet",
     "gpsSource": "https://tofromfrance.com/lieu/aire-d-accueil-et-de-service-de-montcornet",
-    "status": "Ouvert toute l'année en 2026 ; 3 places, stationnement gratuit selon office de tourisme",
+    "status": "Fiche OT 2026 : 3 places, stationnement gratuit sans limite de durée, eau et électricité accessibles. La page affiche l'eau à 2 €/10 min, mais le champ tarif électricité est incomplet/incohérent; ne pas le publier comme prix vérifié.",
     "dataAttribution": "Office de tourisme du Pays de Thiérache ; coordonnées To From France",
     "importReview": "Coordonnées précises issues d'un annuaire secondaire, non corroborées par source cartographique indépendante.",
-    "verificationSource": "https://www.tourisme-thierache.fr/fiche/detail/4630/Sejourner~Hebergement/Aire-d-accueil-et-de-service-de-Montcornet",
-    "verificationNote": "Office de tourisme confirme 3 emplacements, stationnement gratuit, eau 2 € / 10 min. Le tarif électrique apparaît incomplet sur la page consultée : non confirmé."
+    "verificationSource": "https://www.tourisme-thierache.fr/fiche/detail/4630/Sejourner~Hebergement~Aires-de-camping-car/Aire-d-accueil-et-de-service-de-Montcornet",
+    "verificationNote": "3 emplacements, eau/électricité, accès automatique et stationnement illimité selon la fiche OT valable 2026. Reconfirmer après le 31/12/2026.",
+    "servicesSource": "https://www.tourisme-thierache.fr/fiche/detail/4630/Sejourner~Hebergement~Aires-de-camping-car/Aire-d-accueil-et-de-service-de-Montcornet",
+    "priceSource": "https://www.tourisme-thierache.fr/fiche/detail/4630/Sejourner~Hebergement~Aires-de-camping-car/Aire-d-accueil-et-de-service-de-Montcornet",
+    "priceVerifiedOn": "2026-11-25",
+    "priceValidUntil": "2026-12-31",
+    "priceNote": "La fiche officielle 2026 indique le tarif d'eau à 2 €/10 min; son champ électricité apparaît tronqué (plage 10 € à 0 €); prix de l'électricité non confirmé.",
+    "verificationDate": "2026-11-25"
   },
   {
     "department": "02",
@@ -409,12 +439,19 @@
     "services": [
       "Tables de pique-nique"
     ],
-    "price": "Stationnement gratuit",
-    "status": "Ouvert toute l'année ; stationnement limité à 72 h",
+    "price": "Stationnement gratuit; durée maximale 72 h (fiche OT 2026)",
+    "status": "L'Office de tourisme confirme 3 emplacements gratuits, accès automatique, tables de pique-nique et stationnement limité à 72 h. Fiche d'ouverture valable du 01/01 au 31/12/2026; conditions 2027 à reconfirmer.",
     "sourceOfficial": "https://www.tourisme-thierache.fr/fiche/detail/1498/Sejourner~Hebergement~Aires-de-camping-car/Aire-camping-car-a-Noyales",
     "gpsSource": "https://park4night.com/fr/place/104177",
-    "verificationNote": "3 places selon office de tourisme ; plateforme contributive annonce 6. Eau évoquée dans avis mais non confirmée officiellement.",
-    "dataAttribution": "Office de tourisme du Pays de Thiérache ; coordonnées park4night"
+    "verificationNote": "L'OT indique trois emplacements et maximum 72 h; aucune borne d'eau, électricité ou vidange n'est annoncée.",
+    "dataAttribution": "Office de tourisme du Pays de Thiérache ; coordonnées park4night",
+    "verificationSource": "https://www.tourisme-thierache.fr/fiche/detail/1498/Sejourner~Hebergement~Aires-de-camping-car/Aire-camping-car-a-Noyales",
+    "priceSource": "https://www.tourisme-thierache.fr/fiche/detail/1498/Sejourner~Hebergement~Aires-de-camping-car/Aire-camping-car-a-Noyales",
+    "servicesSource": "https://www.tourisme-thierache.fr/fiche/detail/1498/Sejourner~Hebergement~Aires-de-camping-car/Aire-camping-car-a-Noyales",
+    "priceVerifiedOn": "2026-11-25",
+    "priceValidUntil": "2026-12-31",
+    "priceNote": "Tarif et durée de stationnement selon la fiche OT 2026; calendrier 2027 pas encore établi.",
+    "verificationDate": "2026-11-25"
   },
   {
     "department": "02",
@@ -430,12 +467,19 @@
       "Électricité",
       "Produits régionaux"
     ],
-    "price": "Gratuit pour abonnés France Passion ; autres tarifs à confirmer",
-    "status": "Ouvert toute l'année ; appeler avant arrivée, accueil jusqu'à 20 h",
+    "price": "Gratuit pour les abonnés France Passion; autre tarif non publié",
+    "status": "L'Office de tourisme confirme 5 emplacements pour camping-cars à la ferme, eau et électricité, produits régionaux et accueil jusqu'à 20 h sur appel préalable. Nuitée gratuite pour les abonnés France Passion; tarif pour les autres visiteurs non publié. Fiche de saison 2026.",
     "sourceOfficial": "https://www.tourisme-thierache.fr/fiche/detail/1611/Sejourner~Hebergement/Aire-Camping-car-Alpagas",
     "gpsSource": "https://tofromfrance.com/en/lieu/aire-camping-car-alpagas",
-    "verificationNote": "GPS fourni par annuaire secondaire, à contrôler ; réservation/contact préalable recommandé.",
-    "dataAttribution": "Office de tourisme du Pays de Thiérache ; coordonnées To From France"
+    "verificationNote": "5 places, prévenir de l'arrivée, accueil jusqu'à 20 h. Eau et branchements électriques répertoriés par l'OT.",
+    "dataAttribution": "Office de tourisme du Pays de Thiérache ; coordonnées To From France",
+    "verificationSource": "https://www.tourisme-thierache.fr/fiche/detail/1611/Sejourner~Hebergement/Aire-Camping-car-Alpagas",
+    "priceSource": "https://www.tourisme-thierache.fr/fiche/detail/1611/Sejourner~Hebergement/Aire-Camping-car-Alpagas",
+    "servicesSource": "https://www.tourisme-thierache.fr/fiche/detail/1611/Sejourner~Hebergement/Aire-Camping-car-Alpagas",
+    "priceVerifiedOn": "2026-11-25",
+    "priceValidUntil": "2026-12-31",
+    "priceNote": "Fiche OT : 0 € pour abonnés France Passion; elle ne donne pas de tarif applicable aux non-abonnés. Reconfirmer ouverture 2027.",
+    "verificationDate": "2026-11-25"
   },
   {
     "department": "02",
@@ -451,12 +495,19 @@
       "Toilettes",
       "Table de pique-nique"
     ],
-    "price": "Stationnement gratuit en échange de la participation à une activité (réservation préalable)",
-    "status": "Ouverture annoncée du 01/01/2026 au 31/12/2026 ; contacter le prestataire avant arrivée",
+    "price": "Halte gratuite contre participation à une activité ludique (réservation préalable requise); conditions 2027 à reconfirmer",
+    "status": "L'Office de tourisme confirme jusqu'à 3 emplacements, toilettes et électricité. L'accueil est gratuit en échange d'une participation à une activité de Badinage artistique, sur réservation (pas d'accès automatique). Fiche d'ouverture 2026.",
     "sourceOfficial": "https://www.tourisme-thierache.fr/fiche/detail/4484/Sejourner~Hebergement~Aires-de-camping-car/Aire-camping-car-des-Vergers-de-la-Cailleuse",
     "gpsSource": "https://tofromfrance.com/lieu/les-vergers-de-la-cailleuse",
-    "verificationNote": "Coordonnées issues d'un annuaire secondaire ; confirmer le point d'entrée sur place.",
-    "dataAttribution": "Office de tourisme du Pays de Thiérache ; coordonnées To From France"
+    "verificationNote": "Jusqu'à 3 places, toilettes, électricité et table de pique-nique selon l'OT. Accès non automatique; activité à réserver.",
+    "dataAttribution": "Office de tourisme du Pays de Thiérache ; coordonnées To From France",
+    "verificationSource": "https://www.tourisme-thierache.fr/fiche/detail/4484/Sejourner~Hebergement~Aires-de-camping-car/Aire-camping-car-des-Vergers-de-la-Cailleuse",
+    "priceSource": "https://www.tourisme-thierache.fr/fiche/detail/4484/Sejourner~Hebergement~Aires-de-camping-car/Aire-camping-car-des-Vergers-de-la-Cailleuse",
+    "servicesSource": "https://www.tourisme-thierache.fr/fiche/detail/4484/Sejourner~Hebergement~Aires-de-camping-car/Aire-camping-car-des-Vergers-de-la-Cailleuse",
+    "priceVerifiedOn": "2026-11-25",
+    "priceValidUntil": "2026-12-31",
+    "priceNote": "La gratuité est conditionnée à la participation à une activité; réservation nécessaire. Ne pas présenter la halte comme gratuite sans condition.",
+    "verificationDate": "2026-11-25"
   },
   {
     "department": "02",
@@ -466,17 +517,24 @@
     "latitude": 49.78744297,
     "longitude": 4.2099243,
     "capacity": 6,
-    "type": "Camping privé acceptant les camping-cars (sans borne de services complète)",
+    "type": "Camping privé accueillant les camping-cars",
     "services": [
       "Wi-Fi",
       "Électricité payante (un emplacement seulement)"
     ],
-    "price": "À partir de 25 € la nuit pour deux adultes ; électricité 5 € par jour ; taxe de séjour éventuelle",
-    "status": "Saison annoncée du 30/04/2026 au 20/09/2026 : fermé hors saison, vérifier avant déplacement",
-    "sourceOfficial": "https://www.tourisme-thierache.fr/fiche/detail/6650/Sejourner~Hebergement~Aires-de-camping-car/Jardin-Josette",
+    "price": "25 € / nuit pour 2 adultes + emplacement (taxe de séjour 0–0,22 € / personne; électricité 5 € / jour sur un seul emplacement)",
+    "status": "L'Office de tourisme décrit un camping privé avec 6 emplacements, ouvert du 30/04 au 20/09/2026. Tarif publié : 25 € la nuit pour 2 adultes et un emplacement; taxe 0–0,22 €/personne/nuit; électricité 5 €/jour (un seul emplacement équipé). Dates et prix 2027 non publiés.",
+    "sourceOfficial": "https://tourisme-thierache.fr/fiche/detail/6650/Sejourner~Hebergement/Jardin-Josette",
     "gpsSource": "https://www.campercontact.com/en/france/aisne/mont-saint-jean/114784/jardin-josette",
-    "verificationNote": "6 emplacements pour tentes et camping-cars, sans répartition connue ; coordonnées Campercontact corroborées à proximité par PiNCAMP.",
-    "dataAttribution": "Office de tourisme du Pays de Thiérache ; coordonnées Campercontact"
+    "verificationNote": "La fiche classe le lieu comme camping, pas comme aire avec services; Wi-Fi indiqué, électricité uniquement sur un emplacement.",
+    "dataAttribution": "Office de tourisme du Pays de Thiérache ; coordonnées Campercontact",
+    "verificationSource": "https://tourisme-thierache.fr/fiche/detail/6650/Sejourner~Hebergement/Jardin-Josette",
+    "priceSource": "https://tourisme-thierache.fr/fiche/detail/6650/Sejourner~Hebergement/Jardin-Josette",
+    "servicesSource": "https://tourisme-thierache.fr/fiche/detail/6650/Sejourner~Hebergement/Jardin-Josette",
+    "priceVerifiedOn": "2026-11-25",
+    "priceValidUntil": "2026-09-20",
+    "priceNote": "Barème et période d'ouverture explicitement publiés pour 2026; la saison 2026 est terminée et aucun tarif 2027 n'a été trouvé.",
+    "verificationDate": "2026-11-25"
   },
   {
     "department": "02",
@@ -493,12 +551,18 @@
       "Vidange eaux grises",
       "Stationnement payant"
     ],
-    "price": "Stationnement environ 3 à 3,55 € / 24 h selon annuaires et avis 2026 ; eau et électricité en supplément, tarif exact à confirmer à la borne",
+    "price": "Stationnement payant; tarif actuel non confirmé. Une source indépendante affiche 3–3,55 €/24 h; un répertoire 2024 publie 2,20 €/jour + eau/électricité en supplément",
     "sourceOfficial": "https://www.destination-saintquentin.fr/aire-daccueil-et-de-services-du-saint-quentinois/",
     "gpsSource": "https://www.caramaps.com/carte/aire-de-services-saint-quentin-aire-de-services-02100-a7f42c86-62c3-43d5-ac08-1cf0193c8138",
-    "verificationNote": "Office de tourisme confirme l'aire, les services et le stationnement payant. Annuaire spécialisé : 3 €/24h, services 1,20 €, électricité 5,80 €/24h. Avis du 02/10/2026 : 3,55 €/jour sans services. Le guide officiel plus ancien mentionnait 2,30 €/24h : ne pas retenir comme tarif actuel.",
-    "priceSource": "https://i-campingcar.fr/aires.php?ville=SAINT+QUENTIN",
-    "priceVerifiedOn": "2026-10-18"
+    "verificationNote": "L'OT confirme services et adresse; le prix exact et la tarification de l'eau/électricité restent à vérifier à la borne.",
+    "priceSource": "https://www.destination-saintquentin.fr/aire-daccueil-et-de-services-du-saint-quentinois/",
+    "priceVerifiedOn": "2026-11-25",
+    "status": "L'Office de tourisme confirme le parking payant, la borne, l'eau, l'électricité et les vidanges au 9B rue de Vicq, mais ne publie pas de tarif. Les montants trouvés dans les répertoires ne concordent pas et ne sont pas confirmés pour 2027.",
+    "verificationSource": "https://www.destination-saintquentin.fr/aire-daccueil-et-de-services-du-saint-quentinois/",
+    "servicesSource": "https://www.destination-saintquentin.fr/aire-daccueil-et-de-services-du-saint-quentinois/",
+    "priceValidUntil": null,
+    "priceNote": "OT : parking payant, sans grille. Des sources secondaires indiquent 3–3,55 €/24 h, contre 2,20 €/jour dans un répertoire daté 2024; tarif à obtenir auprès de la mairie/gestionnaire.",
+    "verificationDate": "2026-11-25"
   },
   {
     "department": "02",
@@ -517,11 +581,19 @@
       "Tables de pique-nique",
       "Poubelles"
     ],
-    "price": "Services gratuits depuis 2024, selon la commune",
-    "sourceOfficial": "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-de-services-de-berry-au-bac-les-terres-de-la-planchette/",
+    "price": "Borne de services gratuite depuis 2024; stationnement gratuit à proximité",
+    "sourceOfficial": "https://www.cc-champagnepicarde.fr/sortir-et-decouvrir/aires-de-camping-car",
     "gpsSource": "https://www.camping-car.com/aires/46358-aire-communale/",
-    "verificationNote": "Office de tourisme : 3 places, eau, électricité, vidanges et ouverture annuelle. Communauté de communes : services gratuits depuis 2024.",
-    "capacity": 3
+    "verificationNote": "3 places indiquées par l'OT. Distinguer l'aire de services du stationnement principal à proximité.",
+    "capacity": 3,
+    "status": "La Communauté de communes confirme que l'utilisation de la borne (eau et vidange) est gratuite depuis 2024 et que le stationnement est gratuit à proximité. L'Office de tourisme confirme 3 places et borne avec eau, électricité et vidanges; le tarif électrique propre à cette borne n'est pas détaillé.",
+    "verificationSource": "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-daccueil-et-de-services-de-maizy/",
+    "servicesSource": "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-daccueil-et-de-services-de-maizy/",
+    "priceSource": "https://www.cc-champagnepicarde.fr/sortir-et-decouvrir/aires-de-camping-car",
+    "priceVerifiedOn": "2026-11-25",
+    "priceValidUntil": null,
+    "priceNote": "La gratuité de l'utilisation depuis 2024 est publiée par la Communauté de communes; reconfirmer le statut de l'électricité au besoin.",
+    "verificationDate": "2026-11-25"
   },
   {
     "department": "02",

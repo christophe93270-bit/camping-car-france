@@ -1,7 +1,7 @@
 {
   "scope": "Aisne (02), vérification par lots de dix fiches existantes",
   "startedAt": "2026-11-25",
-  "note": "Lot 559 : fiches 1–10 contrôlées le 25/11/2026. Aucun lieu ajouté. Tarifs CCP distingués entre étape 24 h et forfait services; tarifs municipaux anciens ou non concordants clairement datés ou laissés à confirmer.",
+  "note": "Lots 559 (fiches 1–10) et 560 (fiches 11–20) de l'Aisne vérifiés; aucun lieu ajouté. Les tarifs services/borne sont séparés des prix de nuitée. Grilles ou conditions 2026 ne sont pas extrapolées à 2027; écarts entre annuaires et sources touristiques conservés comme vérifications.",
   "entries": [
     {
       "sourceId": "node/11978957643",
@@ -122,6 +122,131 @@
         "https://www.ot-blerancourt.com/votre-s%C3%A9jour/campings-et-aires-pour-camping-cars/"
       ],
       "lot": 559,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1089483319",
+      "name": "Aire de stationnement de Villers-Cotterêts",
+      "status": "stationnement gratuit confirmé; borne voisine hors service.",
+      "finding": "OT : aire stationnement 6 places dont 2 PMR, gratuite 24/7 limitée à 72 h. Borne de services voisine hors service depuis le 06/08/2026.",
+      "nextCheck": "Ne pas indiquer de services disponibles tant que la borne n'est pas réparée; parking et borne sont deux équipements distincts.",
+      "sources": [
+        "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC00200051_aire-de-stationnement-de-villers-cotterets/",
+        "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC0020004R_aire-de-services-de-villers-cotterets/"
+      ],
+      "lot": 560,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1312459206",
+      "name": "Aire de Riqueval (Bellicourt)",
+      "status": "tarifs des services confirmés; nuitée non tarifée.",
+      "finding": "OT Vermandois : 4 emplacements, eau 3 €/10 min, électricité 2 €/4 h ou 4 €/8 h; coût de stationnement/nuitée non affiché.",
+      "nextCheck": "Confirmer avec le gestionnaire si le stationnement de nuit est gratuit ou payant.",
+      "sources": [
+        "https://ot-vermandois.com/laire-de-camping-cars-et-de-services-de-riqueval"
+      ],
+      "lot": 560,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-daccueil-et-de-services-de-maizy/",
+      "name": "Aire de Maizy",
+      "status": "3 places gratuites; borne gratuite selon communauté depuis 2024.",
+      "finding": "OT : eau, électricité et vidanges; 3 emplacements gratuits ouverts toute l'année. CC Champagne Picarde : bornes gratuites depuis 2024.",
+      "nextCheck": "Reconfirmer le maintien de la gratuité en 2027 si le site doit porter une année de validité.",
+      "sources": [
+        "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-daccueil-et-de-services-de-maizy/",
+        "https://www.cc-champagnepicarde.fr/sortir-et-decouvrir/aires-de-camping-car"
+      ],
+      "lot": 560,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.tourisme-thierache.fr/fiche/detail/4630/Sejourner~Hebergement~Aires-de-camping-car/Aire-d-accueil-et-de-service-de-Montcornet",
+      "name": "Aire de Montcornet",
+      "status": "stationnement gratuit, eau 2 €/10 min; tarif électricité incohérent dans la fiche.",
+      "finding": "OT 2026 : 3 places, stationnement illimité, eau et électricité; eau 2 €/10 min. Champ électrique tronqué, montant non confirmé.",
+      "nextCheck": "Demander à la mairie le prix de l'électricité et les conditions 2027.",
+      "sources": [
+        "https://www.tourisme-thierache.fr/fiche/detail/4630/Sejourner~Hebergement~Aires-de-camping-car/Aire-d-accueil-et-de-service-de-Montcornet"
+      ],
+      "lot": 560,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.tourisme-thierache.fr/fiche/detail/1498/Sejourner~Hebergement~Aires-de-camping-car/Aire-camping-car-a-Noyales",
+      "name": "Aire camping-car à Noyales",
+      "status": "gratuite, 3 places, maximum 72 h selon fiche 2026.",
+      "finding": "Office de tourisme : parking gratuit, trois places, tables et limite 72 h; fiche d'ouverture 2026.",
+      "nextCheck": "Reconfirmer période d'ouverture et durée maximale 2027.",
+      "sources": [
+        "https://www.tourisme-thierache.fr/fiche/detail/1498/Sejourner~Hebergement~Aires-de-camping-car/Aire-camping-car-a-Noyales"
+      ],
+      "lot": 560,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.tourisme-thierache.fr/fiche/detail/1611/Sejourner~Hebergement/Aire-Camping-car-Alpagas",
+      "name": "Aire Camping-car Alpagas (Sommeron)",
+      "status": "gratuit pour abonnés France Passion; autres conditions à confirmer.",
+      "finding": "OT : 5 places, nuitée gratuite pour abonnés France Passion, eau et électricité, prévenir avant 20 h; calendrier 2026 uniquement.",
+      "nextCheck": "Confirmer ouverture et conditions tarifaires pour les non-abonnés en 2027.",
+      "sources": [
+        "https://www.tourisme-thierache.fr/fiche/detail/1611/Sejourner~Hebergement/Aire-Camping-car-Alpagas"
+      ],
+      "lot": 560,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.tourisme-thierache.fr/fiche/detail/4484/Sejourner~Hebergement~Aires-de-camping-car/Aire-camping-car-des-Vergers-de-la-Cailleuse",
+      "name": "Les Vergers de la Cailleuse",
+      "status": "halte gratuite conditionnée à une activité et une réservation.",
+      "finding": "OT : jusqu'à 3 places, toilettes et électricité; gratuité contre participation à une activité ludique réservée; accès non automatique.",
+      "nextCheck": "Confirmer calendrier et modalités de réservation 2027.",
+      "sources": [
+        "https://www.tourisme-thierache.fr/fiche/detail/4484/Sejourner~Hebergement~Aires-de-camping-car/Aire-camping-car-des-Vergers-de-la-Cailleuse"
+      ],
+      "lot": 560,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://tourisme-thierache.fr/fiche/detail/6650/Sejourner~Hebergement/Jardin-Josette",
+      "name": "Jardin Josette (Mont-Saint-Jean)",
+      "status": "camping privé; barème et ouverture publiés pour la saison 2026, saison terminée.",
+      "finding": "OT : 25 €/nuit pour 2 adultes et emplacement, taxe de séjour jusqu'à 0,22 €/personne/nuit; électricité 5 €/jour sur un seul emplacement. Ouverture 30/04–20/09/2026.",
+      "nextCheck": "Confirmer dates et grille 2027 avant tout affichage comme tarif en vigueur.",
+      "sources": [
+        "https://tourisme-thierache.fr/fiche/detail/6650/Sejourner~Hebergement/Jardin-Josette"
+      ],
+      "lot": 560,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.destination-saintquentin.fr/aire-daccueil-et-de-services-du-saint-quentinois/",
+      "name": "Aire du Saint-Quentinois (Saint-Quentin)",
+      "status": "parking payant; grille tarifaire officielle non publiée.",
+      "finding": "OT confirme l'adresse et équipements mais aucun montant. Sources secondaires affichent 3–3,55 €/24 h, contre 2,20 €/jour dans un répertoire 2024.",
+      "nextCheck": "Relever le prix à la borne ou demander le tarif à la mairie/gestionnaire; séparer eau et électricité.",
+      "sources": [
+        "https://www.destination-saintquentin.fr/aire-daccueil-et-de-services-du-saint-quentinois/",
+        "https://i-campingcar.fr/aires.php?ville=SAINT+QUENTIN",
+        "https://www.camping-car.com/aires/45686-aire-communale/"
+      ],
+      "lot": 560,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-de-services-de-berry-au-bac-les-terres-de-la-planchette/",
+      "name": "Aire de services Berry-au-Bac",
+      "status": "utilisation gratuite depuis 2024 selon communauté.",
+      "finding": "CC Champagne Picarde : eau/vidange gratuits depuis 2024; stationnement gratuit à proximité. OT : 3 places à la borne de services avec eau, électricité et vidanges.",
+      "nextCheck": "Clarifier auprès de la communauté si l'électricité est comprise dans la gratuité annoncée en 2024.",
+      "sources": [
+        "https://www.cc-champagnepicarde.fr/sortir-et-decouvrir/aires-de-camping-car",
+        "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-de-services-de-berry-au-bac-les-terres-de-la-planchette/"
+      ],
+      "lot": 560,
       "checkedAt": "2026-11-25"
     }
   ]
