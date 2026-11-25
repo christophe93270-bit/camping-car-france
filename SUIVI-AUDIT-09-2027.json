@@ -4,15 +4,15 @@
   "displayedCount": 15,
   "rawRegionalRows": 15,
   "deduplicatedRows": 0,
-  "currentLot": 579,
+  "currentLot": 580,
   "department": "09",
   "progress": {
-    "checked": 10,
+    "checked": 15,
     "total": 15,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 5,
+    "totalInLot": 5
   },
-  "note": "Lot 579 : fiches 1 à 10 sur 15 contrôlées. Mirepoix : ancienne aire limitée à l’eau/vidange, nuit interdite. Ax 3 Domaines : tarifs de services uniquement; Aulus : borne régulièrement HS. L’Hospitalet : stationnement gratuit et borne électrique signalée en panne. Le Fossat : grille 2026 confirmée. Parc d’Espagne : tarif publié pour 2027 seulement. Sainte-Croix-Volvestre et Castelnau-Durban gratuites; Les Cabannes et Val-de-Sos à 10 €/24 h. Aucun lieu ajouté; 5 fiches restantes.",
+  "note": "Lot 580 : fiches 11 à 15 contrôlées; audit de l’Ariège terminé (15/15). Camping l’Arize : 9 emplacements stabilisés et services confirmés, prix spécifique à demander à l’exploitant. Bonac-Irazein : 12 €/nuit + taxe adulte 0,60 €. Auzat : 8 € hors saison / 10 € haute saison pour la période publiée dès décembre 2026, haute saison non datée. Bélesta : 14,72 €/24 h; Lavelanet : 15,72 €/24 h, avec incident de bornes électriques signalé par CCP. Aucun lieu ajouté.",
   "entries": [
     {
       "sourceId": "node/6010970986",
@@ -132,6 +132,66 @@
         "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars/"
       ],
       "lot": 579,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1271768597",
+      "place": "La Bastide-de-Sérou — Camping l’Arize",
+      "status": "Exploitant : 9 emplacements stabilisés camping-car de 35 m², avec service, électricité et douches/eau chaude. Aucun prix spécifique publié sur la fiche consultée.",
+      "nextCheck": "Consulter le moteur de réservation ou appeler le camping pour le prix de l’emplacement et des services.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1271768597",
+        "https://www.camping-arize.com/hebergements/places-stabilisees-emplacement-35m2-avec-electricite/",
+        "https://www.camping-arize.com/"
+      ],
+      "lot": 580,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1311010488",
+      "place": "Bonac-Irazein — aire communale",
+      "status": "Mairie : 13 emplacements, ouverte depuis le 06/03/2026; 12 €/nuit/emplacement + 0,60 €/personne adulte/nuit; vidange, eau, électricité; paiement CB.",
+      "nextCheck": "Confirmer les tarifs et la disponibilité pour la saison 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1311010488",
+        "https://commune-bonac-irazein.fr/aire-de-camping-cars/"
+      ],
+      "lot": 580,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1374532950",
+      "place": "Auzat — aire près du camping La Vernière",
+      "status": "ADT : 19 places, eau, vidange, électricité; 8 € hors saison et 10 € haute saison sur la période publiée 01/12/2026–31/10/2027.",
+      "nextCheck": "Demander à la mairie les dates exactes de haute saison et les tarifs de la période suivante.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1374532950",
+        "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-5/"
+      ],
+      "lot": 580,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1432357680",
+      "place": "Bélesta — Camping-Car Park",
+      "status": "CCP : 6 places, 6 A; 14,72 €/24 h dont 1,72 € de taxe; base et taxe publiées jusqu’au 31/12/2027; parking 5 h + services 6 €.",
+      "nextCheck": "Revérifier le tarif après le 31/12/2027 ou changement de taxe.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1432357680",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/belesta?areaType=aire-etape-camping-car"
+      ],
+      "lot": 580,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "synthetic-lavelanet-ccp",
+      "place": "Lavelanet — Camping-Car Park",
+      "status": "CCP : 20 places, 6 A; 15,72 €/24 h dont 1,72 € de taxe; parking 5 h + services 6 €. Seules trois bornes électriques à gauche de l’entrée indiquées fonctionnelles après vandalisme.",
+      "nextCheck": "Vérifier la remise en état des bornes électriques et les tarifs au prochain changement.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/lavelanet"
+      ],
+      "lot": 580,
       "checkedAt": "2026-11-25"
     }
   ]

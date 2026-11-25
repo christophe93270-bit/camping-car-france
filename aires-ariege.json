@@ -314,15 +314,16 @@
     "department": "09",
     "name": "Aire de Stationnement de Camping Cars Arize",
     "city": "La Bastide-de-Sérou",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Emplacements camping-car en camping",
     "services": [
-      "Douches",
-      "Eau potable",
-      "Toilettes",
-      "Électricité"
+      "9 emplacements stabilisés de 35 m²",
+      "Électricité",
+      "Aire de services",
+      "Douches et eau chaude",
+      "Piscine du camping"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif non confirmé sur la fiche de l’emplacement camping-car; réservation et prix à vérifier directement auprès du camping.",
+    "status": "Camping l’Arize : 9 emplacements stabilisés de 35 m² pour camping-cars, avec aire de services, électricité et douches/eau chaude. La page officielle renvoie à la réservation pour les prix; ne pas reprendre comme tarif officiel les montants circulant sur des annuaires.",
     "source": "https://www.openstreetmap.org/way/1271768597",
     "latitude": 43.0017911,
     "longitude": 1.4462337,
@@ -331,7 +332,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1271768597",
-    "servicesSource": "https://www.openstreetmap.org/way/1271768597"
+    "servicesSource": "https://www.openstreetmap.org/way/1271768597",
+    "priceSource": "https://www.camping-arize.com/hebergements/places-stabilisees-emplacement-35m2-avec-electricite/",
+    "sourceOfficial": "https://www.camping-arize.com/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "La fiche officielle de l’emplacement indique les équipements, mais ne publie pas de montant; prix à obtenir dans le module de réservation ou auprès du camping.",
+    "verificationSource": "https://www.camping-arize.com/hebergements/places-stabilisees-emplacement-35m2-avec-electricite/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Camping l’Arize confirme 9 places stabilisées, service, électricité et douches; coordonnées du camping : route de Nescus. Tarif à confirmer auprès de l’exploitant."
   },
   {
     "department": "09",
@@ -339,10 +347,14 @@
     "city": "Bonac-Irazein",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "13 emplacements",
+      "Vidange",
+      "Point d’eau",
+      "Électricité",
+      "Paiement par carte bancaire"
     ],
-    "price": "12 € / nuit + 0,60 € de taxe de séjour par adulte (2026)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12 € / nuit par emplacement + 0,60 € de taxe de séjour par personne et par nuit à partir de 18 ans.",
+    "status": "Mairie de Bonac-Irazein : aire ouverte depuis le 6 mars 2026, 13 places sans réservation, vidange, eau et électricité; paiement CB à la borne.",
     "source": "https://www.openstreetmap.org/way/1311010488",
     "latitude": 42.8755405,
     "longitude": 0.9752431,
@@ -354,8 +366,12 @@
     "servicesSource": "https://www.openstreetmap.org/way/1311010488",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
     "priceSource": "https://commune-bonac-irazein.fr/aire-de-camping-cars/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif relevé auprès de l'office de tourisme, de la commune ou de l'exploitant; vérifier la saison et les suppléments."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Distinguer 12 € par emplacement/nuit et 0,60 €/adulte/nuit de taxe de séjour.",
+    "sourceOfficial": "https://commune-bonac-irazein.fr/aire-de-camping-cars/",
+    "verificationSource": "https://commune-bonac-irazein.fr/aire-de-camping-cars/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Mairie : ouverture 06/03/2026; 13 emplacements; tarif, taxe, services et paiement CB confirmés."
   },
   {
     "department": "09",
@@ -363,10 +379,14 @@
     "city": "Auzat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "19 emplacements",
+      "Borne de services",
+      "Eau potable",
+      "Vidange eaux grises et noires",
+      "Branchements électriques"
     ],
-    "price": "8 € hors saison ; 10 € haute saison (2026)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Forfait de stationnement : 8 € hors saison et 10 € en haute saison. Grille publiée pour la période du 1er décembre 2026 au 31 octobre 2027; dates exactes de haute saison non précisées.",
+    "status": "Ariège Pyrénées Tourisme : aire de 19 places près du camping La Vernière, avec eau, vidange et branchements électriques. La fiche indique 8 € hors saison et 10 € en haute saison; période affichée du 01/12/2026 au 31/10/2027.",
     "source": "https://www.openstreetmap.org/way/1374532950",
     "latitude": 42.7628613,
     "longitude": 1.4826861,
@@ -378,8 +398,12 @@
     "servicesSource": "https://www.openstreetmap.org/way/1374532950",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
     "priceSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-5/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif relevé auprès de l'office de tourisme, de la commune ou de l'exploitant; vérifier la saison et les suppléments."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Grille saisonnière publiée pour le cycle 01/12/2026–31/10/2027; la source ne précise pas les dates correspondant à la haute saison.",
+    "sourceOfficial": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-5/",
+    "verificationSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-5/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "ADT : 19 places et équipements/services; ouverture de décembre 2026 à octobre 2027; forfaits saisonniers 8/10 €."
   },
   {
     "department": "09",
@@ -387,10 +411,13 @@
     "city": "Bélesta",
     "type": "Aire d’étape Camping-Car Park",
     "services": [
-      "Électricité"
+      "6 emplacements",
+      "Électricité 6 A",
+      "Aire CCP ouverte",
+      "Parking 5 h + services : 6 €"
     ],
-    "price": "14,72 € / 24 h, dont 1,72 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Aire d’étape Camping-Car Park ouverte ; catégorie, adresse, coordonnées et tarif vérifiés sur la fiche officielle.",
+    "price": "14,72 € / 24 h au 25/11/2026, taxe de séjour de 1,72 € comprise; base 13 € / 24 h et taxe confirmées jusqu’au 31/12/2027.",
+    "status": "Camping-Car Park : aire ouverte de 6 places, raccordement 6 A. Tarif actuel 14,72 €/24 h (13 € + taxe 1,72 €); parking 5 h + services : 6 €.",
     "source": "https://www.openstreetmap.org/way/1432357680",
     "latitude": 42.907896,
     "longitude": 1.928001,
@@ -401,11 +428,14 @@
     "sourceId": "way/1432357680",
     "servicesSource": "https://www.openstreetmap.org/way/1432357680",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/belesta",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Grille officielle en cours : 13,00 € de stationnement / 24 h jusqu’au 31/12/2027 ; taxe de séjour 1,72 € / 24 h jusqu’au 31/12/2027.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/belesta?areaType=aire-etape-camping-car",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Tarif courant relevé le 25/11/2026 : base 13 €/24 h + taxe 1,72 €/24 h = 14,72 €. Les deux composantes sont publiées jusqu’au 31/12/2027.",
     "address": "47 ter avenue de Lavelanet, 09300 Bélesta",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/belesta"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/belesta?areaType=aire-etape-camping-car",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/belesta?areaType=aire-etape-camping-car",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche CCP : 6 places, raccordement 6 A, aire ouverte; prix et formule parking 5 h + services vérifiés."
   },
   {
     "department": "09",
@@ -417,11 +447,14 @@
     "longitude": 1.8436418,
     "services": [
       "20 emplacements",
-      "Borne de services, eau et vidange",
-      "Électricité 6 A"
+      "Électricité 6 A",
+      "Vidange",
+      "Point d’eau",
+      "Borne de services",
+      "Seulement 3 bornes électriques à gauche de l’entrée fonctionnelles"
     ],
-    "price": "15,72 € / 24 h, dont 1,72 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Aire d’étape Camping-Car Park ouverte toute l’année.",
+    "price": "15,72 € / 24 h au 25/11/2026, taxe de séjour de 1,72 € comprise; base 14 € / 24 h jusqu’au 31/12/2027. Parking 5 h + services : 6 €.",
+    "status": "Camping-Car Park : aire d’étape ouverte toute l’année, 20 places et services. Tarif 15,72 €/24 h (14 € + taxe 1,72 €). La fiche signale qu’après vandalisme seules les trois bornes électriques à gauche de l’entrée fonctionnent.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/lavelanet",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/lavelanet",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/lavelanet",
@@ -429,7 +462,10 @@
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/lavelanet",
     "dataAttribution": "Camping-Car Park",
     "importReview": "17/11/2026 : catégorie, adresse, coordonnées GPS, capacité, services et tarif vérifiés sur la fiche officielle Camping-Car Park.",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Grille officielle : stationnement 14,00 € / 24 h jusqu’au 31/12/2027 ; taxe de séjour affichée à 1,72 € / 24 h en 2026."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Tarif actuel CCP : 14 €/24 h + taxe de séjour 1,72 €/24 h = 15,72 €, grille en cours jusqu’au 31/12/2027. Parking 5 h + services : 6 €.",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/ariege/lavelanet",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche CCP consultée le 25/11/2026 : 20 places, 6 A, tarif actuel, parking 5 h + services à 6 €; incident de vandalisme affectant la majorité des bornes électriques."
   }
 ]
