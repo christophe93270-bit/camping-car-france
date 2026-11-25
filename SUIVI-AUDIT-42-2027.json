@@ -4,15 +4,15 @@
   "displayedCount": 84,
   "rawRegionalRows": 84,
   "deduplicatedRows": 0,
-  "currentLot": 540,
+  "currentLot": 541,
   "department": "42",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 84,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit engagé par lots de dix. Lot 540 (fiches 1–10) : tarifs confirmés à Noailly, Montrond-les-Bains, Panissières, Belmont-de-la-Loire, Les Salles et Le Bessat; pour Montrond, corriger la période tarifaire inscrite à tort au 03/10 et la remplacer par le 07/06/2026. Les prix de nuitée restent à confirmer à Saint-Denis-de-Cabanne et Pouilly-sous-Charlieu; tarifs de services à relever à Saint-Cyr-de-Valorges. Aucune fiche source n’a été modifiée.",
+  "note": "Audit en cours, par lots de dix. Lot 540 (fiches 1–10) : confirmé notamment gratuité à Noailly et aux Salles, grille de Panissières et du Bessat; correction de période à Montrond-les-Bains. Lot 541 (fiches 11–20) : Villerest gratuit; services des aires Loire Forez à jeton de 5 €; tarifs saisonniers confirmés à Roanne; services gratuits à Saint-Victor, Charlieu et Marols; divergence de capacité à Saint-Victor (10/12 places) et de durée à Marols (24/48 h, retenir 24 h selon le gestionnaire). Corrections de dates tarifaires à Saint-Étienne (début au 02/11/2026) et Saint-Martin-la-Plaine (13/11/2026). Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/7916862763",
@@ -73,6 +73,66 @@
       "place": "Le Bessat — Croix de Chaubouret",
       "status": "Tarif officiel confirmé : stationnement gratuit, eau/vidange 2,50 €, électricité 3 € / 4 h, carte bancaire.",
       "nextCheck": "Vérifier la disponibilité de l’eau en période de gel."
+    },
+    {
+      "sourceId": "way/289465198",
+      "place": "Villerest — Aire de Loisirs du Barrage",
+      "status": "Roannais Tourisme confirme 25 places, stationnement et services gratuits, eau, vidange des eaux grises et WC publics; ouverte toute l’année 2026, mise hors gel du 1er novembre au 31 mars.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/340766757",
+      "place": "Verrières-en-Forez — Aubert",
+      "status": "Loire Forez Agglomération confirme 5 places, stationnement gratuit et jeton de 5 € : 4 h d’électricité, 20 min d’eau et vidange.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant; confirmer fonctionnement de la borne sur place."
+    },
+    {
+      "sourceId": "node/12094252761",
+      "place": "Pouilly-sous-Charlieu — Place du Marché",
+      "status": "La borne d’eau et de vidange est gratuite; nuitée non confirmée sur cette place. Distincte du parking des Bords de Loire à 1 km.",
+      "nextCheck": "Vérifier auprès de la mairie si la nuitée est autorisée sur la place."
+    },
+    {
+      "sourceId": "way/440947820",
+      "place": "Chambles — aire intercommunale",
+      "status": "Loire Forez Agglomération confirme 3 places, stationnement gratuit et jeton de 5 € : 4 h d’électricité, 20 min d’eau et de vidange.",
+      "nextCheck": "Contrôler l’état et la disponibilité locale de la borne."
+    },
+    {
+      "sourceId": "way/449088766",
+      "place": "Roanne — Port de plaisance",
+      "status": "Roannais Tourisme : 10 places; 9 € la nuit du 1er mars au 30 novembre 2026, puis 7 € du 1er décembre au 28 février 2027; eau/vidange cassette 2,50 € par jeton, électricité 2,50 € / 4 h; taxe de séjour non incluse.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/672455895",
+      "place": "Saint-Victor-sur-Loire — base nautique",
+      "status": "Stationnement, eau et vidange gratuits; électricité 3 € / 4 h; ouverture du 25 juin au 31 décembre 2026. Ville : 12 places et limite de 72 h; tourisme : 10 places.",
+      "nextCheck": "Harmoniser la capacité après confirmation municipale; garder la limite de 72 h."
+    },
+    {
+      "sourceId": "way/677444483",
+      "place": "Charlieu — Place d’Eningen",
+      "status": "Charlieu-Belmont confirme 3 places réservées et une aire de services gratuite toute l’année.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/965430705",
+      "place": "Marols — Le Plat du Guet",
+      "status": "8 places et services gratuits confirmés. La source Loire Tourisme affiche 48 h; Loire Forez Agglomération gestionnaire affiche 24 h. Retenir 24 h jusqu’à vérification locale.",
+      "nextCheck": "Vérifier sur place la signalisation de durée; ne pas annoncer plus de 24 h avant résolution."
+    },
+    {
+      "sourceId": "way/1205983983",
+      "place": "Saint-Étienne — Chantegrillet, CAMPING-CAR PARK",
+      "status": "Opérateur : 14,70 € / 24 h + 1 € taxe (15,70 € total), 6 € pour 5 h + services. La grille actuellement affichée commence le 02/11/2026, et non le 01/10. 42 places.",
+      "nextCheck": "Corriger la date de début de période et revérifier le tarif dynamique à la réservation."
+    },
+    {
+      "sourceId": "way/1284377777",
+      "place": "Saint-Martin-la-Plaine, CAMPING-CAR PARK",
+      "status": "Opérateur : 12,70 € / 24 h + 1 € taxe (13,70 € total), 6 € pour 5 h + services. La grille actuellement affichée commence le 13/11/2026, et non le 15/10. 20 places.",
+      "nextCheck": "Corriger la date de début de période et revérifier le tarif dynamique à la réservation."
     }
   ]
 }
