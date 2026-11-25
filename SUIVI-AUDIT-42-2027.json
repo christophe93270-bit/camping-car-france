@@ -4,15 +4,15 @@
   "displayedCount": 84,
   "rawRegionalRows": 84,
   "deduplicatedRows": 0,
-  "currentLot": 544,
+  "currentLot": 545,
   "department": "42",
   "progress": {
-    "checked": 50,
+    "checked": 60,
     "total": 84,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit en cours par lots de dix. Lot 540 (fiches 1–10) : tarifs confirmés et période à corriger à Montrond. Lot 541 (11–20) : Roanne confirmé; dates CCP à corriger à Saint-Étienne et Saint-Martin-la-Plaine; divergences de durée/capacité à Marols et Saint-Victor. Lot 542 (21–30) : prix des aires à jetons vérifiés; limite à Chalmazel à corriger en 7 jours; eau coupée à Saint-Rirand. Lot 543 (31–40) : gratuits confirmés; Violay, période tarifaire actuelle débutant le 17/11/2026; capacité Les Noës 3/5 à confirmer. Lot 544 (41–50) : Civens 5 €/nuit + 3 € vidange; Néronde gratuit mais saisonnière; Perreux gratuit 72 h; Pacotière eau 2 € le jeton. Cordelle comporte des divergences entre fiches sur capacité et période; tarifs distincts à faire préciser. Aucune fiche source n’a été modifiée.",
+  "note": "Audit en cours, lots de dix. Lot 540 (1–10) : tarifs confirmés et période à corriger à Montrond. Lot 541 (11–20) : tarifs du réseau Loire Forez et port de Roanne confirmés; corrections de dates à Saint-Étienne et Saint-Martin-la-Plaine; divergences à Marols et Saint-Victor. Lot 542 (21–30) : prix d’aires et services vérifiés; 7 jours à Chalmazel; eau coupée à Saint-Rirand. Lot 543 (31–40) : tarifs gratuits confirmés; période Violay à corriger, capacité Les Noës contradictoire. Lot 544 (41–50) : Civens 5 €/nuit + 3 € vidange; Néronde saisonnier; Cordelle a des fiches contradictoires sur capacités, ouvertures et formules. Lot 545 (51–60) : tarif CCP Pouilly 13 € + 0,44 €, page dynamique période courante depuis le 17/11 vs barème municipal basse saison dès le 1/10; Saint-Galmier tarif de l’eau divergent (1/2 € pour 10 min); campings saisonniers fermés au 25/11. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/7916862763",
@@ -301,6 +301,56 @@
       "place": "Cordelle — Camping de Mars",
       "status": "Divergences : fiche de l’aire 5 places, 01/04–16/10; fiche camping 10 places, 18/04–30/09; site exploitant 10 places, 15/04–15/10. Tarif camping-car 20–30 € et ligne services 17–25 € sans détail de formule finale. Saison terminée.",
       "nextCheck": "Confirmer avec l’exploitant la capacité de l’aire dédiée et les formules de tarifs nuitée/services."
+    },
+    {
+      "place": "Arcon — Le Bourg",
+      "status": "Roannais Tourisme confirme 3 places, services gratuits, eau/vidange/WC; équipements mis hors gel 1er nov.–31 mars.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "place": "Pouilly-sous-Charlieu — CAMPING-CAR PARK des Îlots",
+      "status": "Opérateur actuellement : 13 €/24 h + 0,44 € taxe, soit 13,44 € total; 6 € pour 5 h + services, 47 places. Page active du 17/11/2026; la fiche tarifaire commence le 1/10, comme la grille basse saison municipale.",
+      "nextCheck": "Éclaircir l’écart de date et vérifier le prix final sur la borne ou réservation."
+    },
+    {
+      "place": "Amions — Place des Halles",
+      "status": "Roannais Tourisme confirme vidange, eau/électricité, gratuité et ouverture 2026; capacité non indiquée dans sa fiche.",
+      "nextCheck": "Confirmer la capacité et le fonctionnement des bornes."
+    },
+    {
+      "place": "Saint-Martin-la-Sauveté — ZI de la Conche / Belvédère",
+      "status": "Borne de services à la ZI; parking distinct au Belvédère, gratuit et ouvert en 2026. Le tarif de la borne et l’autorisation de nuitée près d’elle ne sont pas publiés.",
+      "nextCheck": "Confirmer prix/services auprès de la mairie; garder les sites distincts."
+    },
+    {
+      "place": "La Bénisson-Dieu — parking de l’école",
+      "status": "Charlieu-Belmont confirme deux places; aucun tarif officiel de nuitée publié en 2026.",
+      "nextCheck": "Confirmer gratuité et localisation du stationnement autorisé auprès de la mairie."
+    },
+    {
+      "place": "Saint-Galmier — borne du Val de Coise",
+      "status": "Mairie : eau à 1 € / 10 min, espèces sans rendu de monnaie, borne fermée mi-octobre à mars; fiche tourisme du camping voisin : 2 € / 10 min.",
+      "nextCheck": "Faire confirmer le tarif courant par la mairie ou à la borne."
+    },
+    {
+      "place": "Balbigny — Camping de la Route Bleue",
+      "status": "Forfait 2026 emplacement pour 1 ou 2 personnes et tente/caravane/camping-car : 19–21 €/jour, saison 1 avril–15 octobre; 48 places globales, pas spécifiquement camping-car. Fermé au 25/11.",
+      "nextCheck": "Aucun contrôle externe tarifaire restant pour la saison 2026."
+    },
+    {
+      "place": "Bourg-Argental — Camping l’Astrée",
+      "status": "Forfait 2026 1 équipement/2 adultes : 15 € hors été, 24 € en juillet-août; électricité 6 € en plus; ouvert 20 mars–1er novembre, 15 places camping globales.",
+      "nextCheck": "Aucun contrôle externe restant pour la saison 2026."
+    },
+    {
+      "place": "Chazelles-sur-Lyon — Camping du Moulin Brûlé",
+      "status": "5 emplacements camping-car, ouvert 4 avril–26 septembre 2026. Hors juillet-août : adulte 9,50 €/jour, enfant 7 €, électricité 7 €/jour, taxe de séjour 0,50 €.",
+      "nextCheck": "Aucun contrôle externe restant pour la saison 2026."
+    },
+    {
+      "place": "Usson-en-Forez — Camping municipal Les Tilleuls",
+      "status": "Tarif camping-car 12 €, électricité 2,70–3,50 €/jour, capacité 50 emplacements tout type confondu; ouvert 1 avril–31 octobre 2026.",
+      "nextCheck": "Aucun contrôle externe restant pour la saison 2026."
     }
   ]
 }
