@@ -1,7 +1,7 @@
 {
   "scope": "Aisne (02), vérification par lots de dix fiches existantes",
   "startedAt": "2026-11-25",
-  "note": "Lots 559 (fiches 1–10), 560 (11–20) et 561 (21–30) de l'Aisne vérifiés; aucun lieu ajouté. Séparer stationnement, nuitée, services, taxe et options électriques. Les tarifs non publiés ou datés de 2026 ne sont pas extrapolés à 2027.",
+  "note": "Lots 559–562 : 33 fiches existantes de l'Aisne (02) contrôlées. Lot 562 termine les fiches 31–33. Aucun lieu ajouté. Tarifs sans barème officiel ou en désaccord entre annuaires signalés comme à confirmer; aucun prix 2027 inventé.",
   "entries": [
     {
       "sourceId": "node/11978957643",
@@ -369,6 +369,47 @@
         "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC00200043_aire-daccueil-et-de-services-du-domaine-de-zaza/"
       ],
       "lot": 561,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC00200050_aire-de-stationnement-de-longpont/",
+      "name": "Aire de stationnement de Longpont",
+      "status": "stationnement gratuit OT; 3 places/72 h selon annuaire.",
+      "finding": "OT : gratuite, toute l'année, tables et poubelles. Annuaire spécialisé : 3 places et stationnement autorisé 72 h; cette durée n'est pas reprise par l'OT.",
+      "nextCheck": "Confirmer la durée maximale de 72 h en mairie; ne pas annoncer de borne de services.",
+      "sources": [
+        "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC00200050_aire-de-stationnement-de-longpont/",
+        "https://www.camping-car.com/aires/43868-aire-de-stationnement/"
+      ],
+      "lot": 562,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://camping-domainedelanature.fr/Campingcar.html",
+      "name": "Camping Domaine de la Nature (Presles-et-Boves)",
+      "status": "équipements confirmés par l'exploitant; tarif et capacité divergent.",
+      "finding": "Exploitant : emplacements stabilisés avec électricité 10 A, vidange/remplissage d'eau, ouverture toute l'année annoncée; cinq places dédiées. OT annonce six places. Park4night affiche 25 €/nuit pour 2 personnes + véhicule et 6 € de services, mais avis 2026 donnent d'autres montants.",
+      "nextCheck": "Obtenir directement le tarif actuel (base, occupants, électricité, vidange) et la capacité exacte; ne pas traiter l'annuaire comme barème officiel.",
+      "sources": [
+        "https://camping-domainedelanature.fr/Campingcar.html",
+        "https://camping-domainedelanature.fr/",
+        "https://www.soissons-villerscotterets-tourisme.com/hebergements/campings/HPAPIC002FS00014_camping-du-domaine-de-la-nature/",
+        "https://park4night.com/en/place/11999"
+      ],
+      "lot": 562,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.lecampeur.fr/aire/aire-de-camping-car-gravier-pres-etang-corbeny-ph5trc",
+      "name": "Aire municipale de Corbeny",
+      "status": "gratuité et 3 places selon annuaires, conditions à confirmer en mairie.",
+      "finding": "Annuaires cartographiques : parking gravier gratuit, 3 emplacements près de l'étang. La page municipale des tarifs ne publie pas de barème camping-car; toilettes et autres services ne sont pas confirmés.",
+      "nextCheck": "Vérifier auprès de la mairie la durée, la règle de nuitée, la capacité et la présence de toilettes.",
+      "sources": [
+        "https://www.lecampeur.fr/aire/aire-de-camping-car-gravier-pres-etang-corbeny-ph5trc",
+        "https://corbeny.fr/index.php/mairie-58/tarifs-communaux"
+      ],
+      "lot": 562,
       "checkedAt": "2026-11-25"
     }
   ]
