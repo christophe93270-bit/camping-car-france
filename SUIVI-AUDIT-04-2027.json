@@ -1,7 +1,7 @@
 {
   "scope": "Alpes-de-Haute-Provence (04), vérification des fiches existantes par lots de dix",
   "startedAt": "2026-11-25",
-  "note": "Lots 566–568 : les fiches 1–29 de la liste d'origine ont été contrôlées; le lot 568 a consolidé un doublon à Jausiers et corrigé les coordonnées de l'aire conservée. Le fichier contient désormais 31 lieux uniques; aucun lieu ajouté. Lot 569 : contrôler les 2 dernières fiches (indices actuels 30–31).",
+  "note": "Lots 566–569 terminés : les 32 fiches de la liste d'origine contrôlées, dont un doublon à Jausiers consolidé; le fichier contient 31 lieux uniques. Aucun lieu ajouté. Les vérifications de terrain/prix à poursuivre sont listées dans le rapport de clôture.",
   "entries": [
     {
       "sourceId": "node/2284800314",
@@ -372,6 +372,33 @@
         "https://www.tourisme-alpes-haute-provence.com/ou-dormir/927954_aire-de-service-accueil-camping-cars-selonnet-aire-de-service-et-de-stationnement-pour-camping-car-de-selonnet/"
       ],
       "lot": 568,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1308276091",
+      "name": "Aire camping-cars La Halte Napoléon",
+      "status": "Aire annuelle confirmée; prix 2026 à confirmer car les guides OT affichent 10 € avec électricité ou 6,50 €/9,50 € selon la brochure.",
+      "finding": "RD 4085/route de Digne, emplacements d'environ 50 m², eau, vidange, électricité selon emplacement, Wi-Fi et toilettes. OT indique que le détail n'est plus disponible.",
+      "nextCheck": "Contacter la Halte Napoléon pour le barème 2026, la capacité et le détail des services inclus.",
+      "sources": [
+        "https://www.verdontourisme.com/informations/hotellerie-plein-air/aire-camping-cars-la-halte-napoleon-749380id/",
+        "https://preprod.wp.tourisme-alpes-haute-provence.com/wp-content/uploads/2025/05/road-trip-camping-car.pdf",
+        "https://www.tourisme-alpes-haute-provence.com/wp-content/uploads/2025/05/aire-camping-car-alpes-haute-provence.pdf",
+        "https://www.camping-car.com/aires/45702-la-halte-napoleon/"
+      ],
+      "lot": 569,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "ccp-allos-le-val-d-allos",
+      "name": "Aire de camping-car de Allos — Le Val d’Allos",
+      "status": "CCP 15,32 €/24 h TTC, tarif applicable jusqu'au 31/12/2027.",
+      "finding": "Base de 14 € + 1,32 € de taxe; parking 5 h à 6 €; 32 places et électricité 6 A.",
+      "nextCheck": "Recontrôler après évolution du tarif saisonnier ou au 01/01/2028.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-de-haute-provence/allos?areaType=aire-etape-camping-car"
+      ],
+      "lot": 569,
       "checkedAt": "2026-11-25"
     }
   ]
