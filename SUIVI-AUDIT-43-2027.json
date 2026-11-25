@@ -4,15 +4,15 @@
   "displayedCount": 79,
   "rawRegionalRows": 79,
   "deduplicatedRows": 0,
-  "currentLot": 549,
+  "currentLot": 550,
   "department": "43",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 79,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit commencé après achèvement des 84 fiches du département 42. Lot 549 (1–10) : Auzon 12,70 €/24 h confirmé par tourisme et opérateur, taxe incluse au tarif observé; Saint-Romain-Lachalm et Raucoules jeton 2 € confirmé; Saint-Bonnet-le-Froid 10 €/nuit + caution clé 10 €, fermeture saisonnière vérifiée; Chanteuges services gratuits mais nuitée payante avec divergence tarifaire 2022/2024; Ally, Le Vernet, Solignac, Aiguilhe et Tiranges ont des prix ou conditions à confirmer. Aucune fiche source n’a été modifiée.",
+  "note": "Audit commencé après achèvement des 84 fiches du département 42. Lot 549 (1–10) : Auzon 12,70 €/24 h confirmé par tourisme et opérateur, taxe incluse au tarif observé; Saint-Romain-Lachalm et Raucoules jeton 2 € confirmé; Saint-Bonnet-le-Froid 10 €/nuit + caution clé 10 €, fermeture saisonnière vérifiée; Chanteuges services gratuits mais nuitée payante avec divergence tarifaire 2022/2024; Ally, Le Vernet, Solignac, Aiguilhe et Tiranges ont des prix ou conditions à confirmer. Aucune fiche source n’a été modifiée. Lot 550 (11–20) : Saint-Julien-Molhesabate, Dunières, Beauzac et Montregard gratuits, eau hors gel; Le Puy 14,90 € + 1,22 € taxe (16,12 € total) et 6 € / 5 h; Polignac 3 € pour l’eau et 3 € pour l’électricité; Beaulieu gratuit 48 h, capacité structurée 5 contre 6 dans le descriptif; Brioude services payants par jetons sans prix publié; La Chaise-Dieu jeton 2,50 €; Saint-Christophe jeton 2 €; Chanteuges reste à confirmer. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/8898564107",
@@ -73,6 +73,66 @@
       "place": "Tiranges — La Nerceyre",
       "status": "Gorges de la Loire confirme stationnement et vidanges, eau disponible d’avril à novembre; aire annoncée ouverte toute l’année. Aucun montant de tarif 2026 publié.",
       "nextCheck": "Relever le tarif à la borne et confirmer les conditions exactes de nuitée auprès de la commune."
+    },
+    {
+      "sourceId": "way/860164327",
+      "place": "Saint-Julien-Molhesabate — aire communale",
+      "status": "My Haute-Loire : 3 places, stationnement et vidanges gratuits, eau potable fermée en hiver; aire ouverte toute l’année.",
+      "nextCheck": "Aucun tarif restant à vérifier; vérifier localement l’état de l’eau en hiver."
+    },
+    {
+      "sourceId": "way/897507616",
+      "place": "Le Puy-en-Velay — CAMPING-CAR PARK, place Maréchal-Leclerc",
+      "status": "Opérateur : 14,90 €/24 h + taxe de séjour 1,22 € en 2026, soit 16,12 € au total; 6 € pour 5 h + services. Tarif de saison en vigueur depuis novembre 2026; 27 places (dont 3 XXL) selon fiche source.",
+      "nextCheck": "Revérifier le tarif dynamique final à la réservation et conserver taxe de séjour séparée du prix de base."
+    },
+    {
+      "sourceId": "way/1027466978",
+      "place": "Dunières — rue de la Mutualité",
+      "status": "My Haute-Loire : 3 places, stationnement et services gratuits toute l’année; eau potable fermée en hiver.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant; vérifier le fonctionnement local de la borne."
+    },
+    {
+      "sourceId": "way/1030211641",
+      "place": "Polignac — rue du Midi",
+      "status": "10 places, ouverte toute l’année. Recharge d’eau 3 € et électricité 3 € chacune, paiement CB; tarif affiché par My Haute-Loire depuis le 1er mars 2025. Vidange et stationnement sans tarif publié.",
+      "nextCheck": "Ne pas confondre les deux tarifs de 3 €; confirmer si vidange/stationnement demeurent gratuits."
+    },
+    {
+      "sourceId": "way/1192816586",
+      "place": "Beauzac — espace La Dorlière",
+      "status": "My Haute-Loire : stationnement et borne de services gratuits toute l’année; eau potable coupée de mi-octobre à avril.",
+      "nextCheck": "Aucun contrôle tarifaire restant; vérifier sur place les périodes de remise en eau."
+    },
+    {
+      "sourceId": "way/1211253525",
+      "place": "Beaulieu — sentier de la Galoche",
+      "status": "Stationnement gratuit limité à 48 h du 1er avril au 31 octobre; la fiche indique 6 places dans le descriptif, mais capacité structurée de 5. Eau/vidange annoncées sans prix séparé.",
+      "nextCheck": "Retenir 5 places selon la capacité structurée et vérifier la signalisation/les services sur place."
+    },
+    {
+      "sourceId": "way/1278080749",
+      "place": "Brioude — parking du Centre Historique",
+      "status": "Stationnement gratuit limité à 24 h, aire ouverte toute l’année. Eau, électricité et vidanges payantes par jetons vendus à l’Office de tourisme; montant non publié.",
+      "nextCheck": "Demander à l’Office de tourisme le prix et les services couverts par chaque jeton."
+    },
+    {
+      "sourceId": "way/1306931496",
+      "place": "La Chaise-Dieu — esplanade de la Gare",
+      "status": "Stationnement gratuit; borne eau/vidange à jeton 2,50 €, vendue aux commerces et à l’Office de tourisme; fonctionnement du 1er avril au 31 octobre 2026.",
+      "nextCheck": "Aucun tarif restant à vérifier pour 2026; confirmer le fonctionnement saisonnier avant utilisation."
+    },
+    {
+      "sourceId": "way/1307051056",
+      "place": "Saint-Christophe-sur-Dolaison — place des Jardins / place de la Mairie",
+      "status": "My Haute-Loire : jeton à 2 € pour eau et vidange; jetons en mairie ou au Café du Soleil, aire ouverte toute l’année. Tarif stationnement non précisé pour les places communales.",
+      "nextCheck": "Ne pas qualifier le stationnement de gratuit ou payant sans confirmation; confirmer que le jeton couvre eau et vidange."
+    },
+    {
+      "sourceId": "way/1307066493",
+      "place": "Montregard — aire du Bourg",
+      "status": "3 places; stationnement, vidange et eau potable gratuits, aire ouverte toute l’année; eau potable coupée en hiver. Distincte de la ferme de Vovady à 3 km.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant; vérifier remise en eau au printemps."
     }
   ]
 }
