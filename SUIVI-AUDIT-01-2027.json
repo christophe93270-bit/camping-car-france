@@ -1,0 +1,128 @@
+{
+  "scope": "Ain (01), contrôle par lots de dix fiches existantes",
+  "startedAt": "2026-11-25",
+  "note": "Lot 557 : fiches 1–10 sur 20 contrôlées le 25/11/2026. Trois tarifs CCP 2027 identifiés; le tarif de Châtillon a une contradiction entre grille saisonnière et encart dynamique. Gratuités de service ou stationnement gardées distinctes de l'autorisation de nuitée. Aucun lieu ajouté.",
+  "entries": [
+    {
+      "sourceId": "node/6791949714",
+      "name": "Aire de Camping-cars Belley",
+      "status": "aire camping-cars répertoriée dans une brochure touristique de 2024; tarif actuel, services et conditions 2027 non établis.",
+      "finding": "La brochure touristique 2024 nomme une aire d'accueil et de service pour camping-cars à Belley; une limite véhicule de 10 m y est indiquée. Pas de tarif 2027 ni de conditions de nuitée établis.",
+      "nextCheck": "Obtenir une page opérateur ou mairie à jour avec tarif, services et règles nocturnes.",
+      "sources": [
+        "https://www.bugeysud-tourisme.fr/app/uploads/bugeysud/2024/12/Brochure-Bugey-Sud-2024.pdf"
+      ],
+      "lot": 557,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/11883621927",
+      "name": "Aire camping-car Chavannes-sur-Suran",
+      "status": "localisation et tarif de la fiche OSM à confirmer.",
+      "finding": "L'Office de tourisme référence le Camping municipal de Nivigne-et-Suran et un tarif d'emplacement de camping, mais la correspondance avec le point OSM près de Chavannes-sur-Suran n'est pas démontrée. Ne pas transférer le prix du camping à ce parking.",
+      "nextCheck": "Confirmer avec la mairie l'emplacement exact, son caractère distinct du camping et ses règles/tarifs 2027.",
+      "sources": [
+        "https://www.bourgenbressedestinations.fr/offres/camping-municipal-de-nivigne-et-suran-chavannes-sur-suran-fr-3049141/",
+        "https://www.cirkwi.com/fr/point-interet/2175505-camping-municipal-de-nivigne-et-suran"
+      ],
+      "lot": 557,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12151253946",
+      "name": "Aire Municipale Lélex",
+      "status": "services confirmés; tarif/nuitée non établis.",
+      "finding": "L'Office de tourisme confirme deux bornes hors gel avec eau, huit prises 16 A et vidanges. Aucun montant ni permission/durée de nuitée publiée dans la fiche consultée.",
+      "nextCheck": "Demander à la mairie le prix des services et les règles de stationnement nocturne.",
+      "sources": [
+        "https://www.paysdegex-montsjura.com/camping/aire-de-service-municipale-pour-camping-cars-a-lelex/"
+      ],
+      "lot": 557,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12151427169",
+      "name": "Aire Camping-car Le Grand Ronjon – Cormoz",
+      "status": "gratuité et 6 emplacements confirmés; services absents.",
+      "finding": "L'Office de tourisme confirme six emplacements gratuits en autonomie autour de l'auberge, sans eau ni électricité; ouverture annoncée du 13/02/2026 au 03/01/2027.",
+      "nextCheck": "Reconfirmer ouverture et gratuité après le 03/01/2027; ne pas annoncer de services.",
+      "sources": [
+        "https://www.bourgenbressedestinations.fr/offres/accueil-camping-cars-auberge-du-grand-ronjon-cormoz-fr-3049016/"
+      ],
+      "lot": 557,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12238638357",
+      "name": "Aire de stationnement de Ceyzérieu",
+      "status": "stationnement de jour documenté; nuitée/tarif non confirmés.",
+      "finding": "L'Office de tourisme indique des places pour camping-cars à la Maison du Marais de Lavours. Le tarif « Gratuit » affiché pour le site n'établit pas les conditions d'une nuitée camping-car.",
+      "nextCheck": "Confirmer auprès du gestionnaire si le stationnement nocturne est autorisé et s'il a un tarif distinct.",
+      "sources": [
+        "https://www.bugeysud-tourisme.fr/offres/maison-du-marais-de-lavours-ceyzerieu-fr-3971442/"
+      ],
+      "lot": 557,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/257419593",
+      "name": "CCP Châtillon-sur-Chalaronne",
+      "status": "tarif 2027 selon grille, mais encart dynamique discordant.",
+      "finding": "CCP affiche 12,22 €/24 h + taxe 1,02 € du 01/11/2026 au 31/12/2027, soit 13,24 €. Parking 5 h + services : 6 € séparés. L'encart « En ce moment » montre 14,86 €, montant contradictoire avec la grille datée.",
+      "nextCheck": "Conserver le prix selon la grille saisonnière et vérifier le panier avant publication définitive; ne pas confondre le forfait 5 h.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/chatillon-sur-chalaronne?areaType=aire-etape-camping-car"
+      ],
+      "lot": 557,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/317501670",
+      "name": "CCP Brégnier-Cordon",
+      "status": "tarif 2027 confirmé.",
+      "finding": "CCP affiche 12,35 €/24 h du 18/11/2026 au 31/12/2027, taxe 2027 de 1,32 €, total 13,67 €. Parking 5 h + services à 6 € séparé.",
+      "nextCheck": "Garder base/taxe/forfait 5 h séparés; recontrôler après le 31/12/2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/bregnier-cordon?areaType=stopover-site-motorhome"
+      ],
+      "lot": 557,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/363088050",
+      "name": "Aire de service Izernore",
+      "status": "services gratuits, eau saisonnière; nuitée non établie.",
+      "finding": "Haut-Bugey Tourisme confirme vidange des eaux noires et grises, point d'eau et gratuité. L'eau est disponible du 15/04 au 31/10; aucune nuitée/tarification de séjour n'est documentée.",
+      "nextCheck": "Maintenir services gratuits séparés de la nuitée; vérifier la remise en eau saisonnière avant trajet.",
+      "sources": [
+        "https://www.hautbugey-tourisme.com/camping/aire-de-service-dizernore/"
+      ],
+      "lot": 557,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/916895574",
+      "name": "Aire municipale de Chanay",
+      "status": "gratuite selon OT; électricité OSM contredite.",
+      "finding": "L'Office de tourisme indique stationnement gratuit, eau et vidange; sa fiche (19/02/2026) dit que le paiement par carte est en panne, l'eau est en accès libre, et qu'il n'y a pas d'électricité. Le tag OSM d'électricité ne doit pas être repris comme vérifié.",
+      "nextCheck": "Demander à la mairie si la borne est réparée et si l'électricité est disponible; reconfirmer les services/prix 2027.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/1690131-aire-de-camping-cars-de-chanay"
+      ],
+      "lot": 557,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1232713865",
+      "name": "CCP Saint-Vulbas",
+      "status": "tarif 2027 confirmé.",
+      "finding": "CCP affiche 13,44 €/24 h du 25/11/2026 au 31/12/2027 et taxe 2027 à 1,22 €, total 14,66 €. Parking 5 h + services à 6 € distinct.",
+      "nextCheck": "Garder tarif d'étape, taxe et parking 5 h séparés; recontrôler après le 31/12/2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/st-vulbas?areaType=area-de-etapa-autocaravanas"
+      ],
+      "lot": 557,
+      "checkedAt": "2026-11-25"
+    }
+  ]
+}

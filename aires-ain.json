@@ -36,56 +36,60 @@
   {
     "department": "01",
     "name": "Aire Municipale Lélex",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Lélex",
+    "type": "Aire de service municipale pour camping-cars",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité 16 A",
+      "Vidange eaux grises et noires"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Office de tourisme confirme deux bornes hors gel, eau, 8 prises 16 A et vidanges. Tarif et règles de nuitée non publiés dans la source consultée.",
     "source": "https://www.openstreetmap.org/node/12151253946",
     "latitude": 46.3004843,
     "longitude": 5.9335533,
     "gpsSource": "https://www.openstreetmap.org/node/12151253946",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Services vérifiés par source touristique; prix et nuitée à confirmer.",
     "sourceId": "node/12151253946",
-    "servicesSource": "https://www.openstreetmap.org/node/12151253946"
+    "servicesSource": "https://www.paysdegex-montsjura.com/camping/aire-de-service-municipale-pour-camping-cars-a-lelex/"
   },
   {
     "department": "01",
     "name": "Aire Camping-car Le Grand Ronjon",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Cormoz",
+    "type": "Aire d'accueil camping-cars",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit (6 emplacements autonomes)",
+    "status": "L'Office de tourisme confirme 6 emplacements gratuits autour de l'Auberge du Grand Ronjon, sans eau ni électricité. Ouverture publiée jusqu'au 03/01/2027; reconfirmer après cette date.",
     "source": "https://www.openstreetmap.org/node/12151427169",
     "latitude": 46.4308694,
     "longitude": 5.2216668,
     "gpsSource": "https://www.openstreetmap.org/node/12151427169",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12151427169"
+    "importReview": "Accueil gratuit confirmé pour les places autonomes; aucun service technique inclus.",
+    "sourceId": "node/12151427169",
+    "officialSource": "https://www.bourgenbressedestinations.fr/offres/accueil-camping-cars-auberge-du-grand-ronjon-cormoz-fr-3049016/"
   },
   {
     "department": "01",
     "name": "Aire de stationnement de Ceyzérieu",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "city": "Ceyzérieu",
+    "type": "Aire de stationnement camping-cars",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "L'Office de tourisme indique des places de stationnement pour camping-cars à la Maison du Marais de Lavours. La gratuité de la visite ne confirme pas la gratuité ou l'autorisation d'une nuitée; tarif nocturne non publié.",
     "source": "https://www.openstreetmap.org/node/12238638357",
     "latitude": 45.8344394,
     "longitude": 5.7420266,
     "gpsSource": "https://www.openstreetmap.org/node/12238638357",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12238638357"
+    "importReview": "Accueil de jour camping-car documenté; nuitée et tarif séparés à confirmer.",
+    "sourceId": "node/12238638357",
+    "officialSource": "https://www.bugeysud-tourisme.fr/offres/maison-du-marais-de-lavours-ceyzerieu-fr-3971442/"
   },
   {
     "department": "01",
@@ -95,15 +99,15 @@
     "services": [
       "Électricité"
     ],
-    "price": "13,24 € / 24 h (tarif affiché par CAMPING-CAR PARK au 17/11/2026)",
-    "status": "Aire CAMPING-CAR PARK ouverte selon la fiche exploitant ; tarif affiché le 2026-11-17, susceptible d'évoluer.",
+    "price": "13,24 € / 24 h (12,22 € + 1,02 € taxe; tarif saisonnier du 01/11/2026 au 31/12/2027)",
+    "status": "Grille CCP : base 12,22 €/24 h et taxe 1,02 €/24 h jusqu'au 31/12/2027; parking 5 h + services à 6 € séparé. L'encart dynamique de la page affiche aussi 14,86 €, en contradiction avec la grille saisonnière; vérifier le montant au paiement.",
     "source": "https://www.openstreetmap.org/way/257419593",
     "latitude": 46.11535,
     "longitude": 4.961012,
     "gpsSource": "https://www.openstreetmap.org/way/257419593",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Montant publié selon grille saisonnière 2027; signaler la contradiction de l'encart dynamique.",
     "sourceId": "way/257419593",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/chatillon-sur-chalaronne",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain",
@@ -111,7 +115,8 @@
     "priceValidUntil": "2026-10-31",
     "priceNote": "Tarif de stationnement 24 h et taxe de séjour selon la grille publiée par l'exploitant; vérifier avant déplacement.",
     "address": "91 rue des Peupliers, 01400 Châtillon-sur-Chalaronne",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/chatillon-sur-chalaronne"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/chatillon-sur-chalaronne",
+    "tariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/chatillon-sur-chalaronne?areaType=aire-etape-camping-car"
   },
   {
     "department": "01",
@@ -121,15 +126,15 @@
     "services": [
       "Électricité"
     ],
-    "price": "13,67 € / 24 h (tarif affiché par CAMPING-CAR PARK au 17/11/2026)",
-    "status": "Aire CAMPING-CAR PARK ouverte selon la fiche exploitant ; tarif affiché le 2026-11-17, susceptible d'évoluer.",
+    "price": "13,67 € / 24 h (12,35 € + 1,32 € taxe; tarif du 18/11/2026 au 31/12/2027)",
+    "status": "CCP confirme 12,35 €/24 h et taxe de séjour 1,32 €/24 h du 18/11/2026 au 31/12/2027, total 13,67 €. Parking 5 h + services à 6 € séparé.",
     "source": "https://www.openstreetmap.org/way/317501670",
     "latitude": 45.64094,
     "longitude": 5.628229,
     "gpsSource": "https://www.openstreetmap.org/way/317501670",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Base, taxe et période 2027 confirmées par l'exploitant.",
     "sourceId": "way/317501670",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/bregnier-cordon",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain",
@@ -137,45 +142,52 @@
     "priceValidUntil": "2026-10-31",
     "priceNote": "14,40 € stationnement + 1,32 € taxe de séjour; changement de tarif annoncé au 01/11/2026. Vérifier avant déplacement.",
     "address": "Place de la Flamme Olympique, 01300 Brégnier-Cordon",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/bregnier-cordon"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/bregnier-cordon",
+    "tariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/bregnier-cordon?areaType=stopover-site-motorhome"
   },
   {
     "department": "01",
     "name": "Aire camping-car Izernore",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "city": "Izernore",
+    "type": "Aire de service camping-car",
+    "services": [
+      "Point d'eau",
+      "Vidange eaux grises et noires"
+    ],
+    "price": "Services gratuits; eau accessible du 15/04 au 31/10. Tarif de nuitée non confirmé.",
+    "status": "Haut-Bugey Tourisme confirme l'aire gratuite, vidange des eaux noires/grises et point d'eau; aire ouverte toute l'année, eau disponible du 15/04 au 31/10. Aucun tarif de nuitée ou droit de nuitée publié.",
     "source": "https://www.openstreetmap.org/way/363088050",
     "latitude": 46.2186824,
     "longitude": 5.5498947,
     "gpsSource": "https://www.openstreetmap.org/way/363088050",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/363088050"
+    "importReview": "Services et gratuité vérifiés; ne pas assimiler au prix d'une nuitée.",
+    "sourceId": "way/363088050",
+    "officialSource": "https://www.hautbugey-tourisme.com/camping/aire-de-service-dizernore/"
   },
   {
     "department": "01",
     "name": "Aire de camping-car municipale de Chanay",
     "city": "Chanay",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire municipale de stationnement et de services",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Eau potable",
+      "Vidange eaux usées",
+      "Toilettes"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit selon l'Office de tourisme (fiche mise à jour le 19/02/2026); prix 2027 à reconfirmer.",
+    "status": "La fiche de l'Office de tourisme publiée via Cirkwi indique stationnement gratuit, eau accessible et vidange possible; paiement par carte signalé en panne et pas d'électricité. Ces équipements contredisent le tag OSM « Électricité »; ne pas annoncer l'électricité sans confirmation municipale.",
     "source": "https://www.openstreetmap.org/way/916895574",
     "latitude": 46.0049268,
     "longitude": 5.7828907,
     "gpsSource": "https://www.openstreetmap.org/way/916895574",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Gratuité et services d'après l'Office de tourisme; électricité non confirmée et contredite.",
     "sourceId": "way/916895574",
-    "servicesSource": "https://www.openstreetmap.org/way/916895574"
+    "servicesSource": "https://www.openstreetmap.org/way/916895574",
+    "officialSource": "https://www.cirkwi.com/fr/point-interet/1690131-aire-de-camping-cars-de-chanay"
   },
   {
     "department": "01",
@@ -185,15 +197,15 @@
     "services": [
       "Électricité"
     ],
-    "price": "14,66 € / 24 h (tarif affiché par CAMPING-CAR PARK au 17/11/2026)",
-    "status": "Aire CAMPING-CAR PARK ouverte selon la fiche exploitant ; tarif affiché le 2026-11-17, susceptible d'évoluer.",
+    "price": "14,66 € / 24 h (13,44 € + 1,22 € taxe; tarif du 25/11/2026 au 31/12/2027)",
+    "status": "CCP confirme une base de 13,44 €/24 h du 25/11/2026 au 31/12/2027 et taxe de séjour de 1,22 €/24 h pour 2027, total 14,66 €. Parking 5 h + services à 6 € séparé.",
     "source": "https://www.openstreetmap.org/way/1232713865",
     "latitude": 45.83272,
     "longitude": 5.291751,
     "gpsSource": "https://www.openstreetmap.org/way/1232713865",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Base, taxe et période 2027 confirmées par l'exploitant.",
     "sourceId": "way/1232713865",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/01-ain/st-vulbas?areaType=aire-etape-camping-car",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain",
@@ -201,7 +213,8 @@
     "priceValidUntil": "2026-12-31",
     "priceNote": "13,44 € / 24 h de stationnement + 1,22 € de taxe de séjour, selon les grilles en vigueur au 17/10/2026.",
     "address": "275 rue du Lavoir, 01150 Saint-Vulbas",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/01-ain/st-vulbas?areaType=aire-etape-camping-car"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/01-ain/st-vulbas?areaType=aire-etape-camping-car",
+    "tariffSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/st-vulbas?areaType=area-de-etapa-autocaravanas"
   },
   {
     "department": "01",
