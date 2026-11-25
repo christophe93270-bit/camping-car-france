@@ -1,0 +1,138 @@
+{
+  "scope": "Aube (10) : audit des tarifs et services des fiches existantes de aires-aube.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-25",
+  "displayedCount": 20,
+  "rawRegionalRows": 20,
+  "deduplicatedRows": 0,
+  "currentLot": 581,
+  "department": "10",
+  "progress": {
+    "checked": 10,
+    "total": 20,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 581 : fiches 1 à 10 sur 20 contrôlées. Les Riceys : parking gratuit et jeton 2 € d’après une fiche OT mise à jour en 2025, à reconfirmer; Champagne Walczak gratuit selon fiche OT 2026. Chavanges : 12,01 €/24 h; Bar-sur-Aube : 13,10 €/24 h; taxes comprises au 25/11/2026. Villemaur : tarif non publié. Buxeuil : réouverture actuelle incertaine. Troyes : tarifs saisonniers 2026. Mesnil-Saint-Père : parking gratuit, eau/vidange. Dienville fermé pour travaux. Chaource : parking gratuit, jeton 2 €. Aucun lieu ajouté; 10 fiches restantes.",
+  "entries": [
+    {
+      "sourceId": "node/1482767965",
+      "place": "Les Riceys — aire communale rue du Parc Saint-Vincent",
+      "status": "Parking gratuit; jeton à 2 € selon fiche OT (mise à jour 12/02/2025), pour 100 L d’eau ou 1 h d’électricité. Tarif 2026 à reconfirmer.",
+      "nextCheck": "Demander à la mairie si le prix du jeton et les services sont inchangés.",
+      "sources": [
+        "https://www.openstreetmap.org/node/1482767965",
+        "https://www.aube-champagne.com/fr/poi/aire-de-camping-car/"
+      ],
+      "lot": 581,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/1894682588",
+      "place": "Chavanges — Camping-Car Park",
+      "status": "CCP : 11 places, 6 A; 12,01 €/24 h dont taxe 2026 de 1,32 €; base 10,69 € jusqu’au 31/12/2027; parking 5 h + services 6 €.",
+      "nextCheck": "Confirmer la taxe applicable en 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/node/1894682588",
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/chavanges?areaType=aire-etape-camping-car"
+      ],
+      "lot": 581,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/2372372163",
+      "place": "Villemaur-sur-Vanne — aire près de l’église",
+      "status": "OT : accueil jour/nuit, 5 à 10 places, vidange WC, ouverture toute l’année; tarif non indiqué.",
+      "nextCheck": "Demander à la mairie si le stationnement est gratuit et s’il y a des frais de services.",
+      "sources": [
+        "https://www.openstreetmap.org/node/2372372163",
+        "https://tourisme-chaource-othe-armance.com/fiche/aire-de-camping-cars-de-villemaur-sur-vanne/"
+      ],
+      "lot": 581,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/9177595568",
+      "place": "Les Riceys — Champagne Walczak Pascal",
+      "status": "OT, fiche mise à jour 20/03/2026 : stationnement, eau, électricité et vidange gratuits; toilettes aux heures de bureau.",
+      "nextCheck": "Confirmer les horaires d’accès aux toilettes et la disponibilité des services avant séjour.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9177595568",
+        "https://www.aube-champagne.com/fr/poi/aire-de-camping-car-au-champagne-walczak-pascal/"
+      ],
+      "lot": 581,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12215050433",
+      "place": "Buxeuil — aire place de l’Église Saint-Loup",
+      "status": "OT : 4 places gratuites, services payants, tarifs inconnus. Page encore marquée fermée avec réouverture annoncée fin septembre, mais datée de 2025; ouverture actuelle à confirmer.",
+      "nextCheck": "Appeler la mairie pour confirmer la réouverture et les tarifs des services.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12215050433",
+        "https://www.aube-champagne.com/fr/poi/aire-de-camping-car-4/"
+      ],
+      "lot": 581,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/169476100",
+      "place": "Pont-Sainte-Marie — aire de Troyes Jacky-Bruhammer",
+      "status": "Exploitant : 37 places, annuelle, séjour max 7 nuits. 2026 : 14 €/24 h en basse saison ou 16 €/24 h en haute saison, taxe 0,55 €/personne/nuit en plus.",
+      "nextCheck": "Confirmer la grille et la taxe en 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/169476100",
+        "https://www.campingcar-troyes.com/informations/"
+      ],
+      "lot": 581,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/183214981",
+      "place": "Mesnil-Saint-Père — parking camping-car",
+      "status": "Stationnement gratuit; eau et vidange des eaux usées. Fiche touristique actualisée le 14/10/2026.",
+      "nextCheck": "Confirmer que la borne de services est opérationnelle.",
+      "sources": [
+        "https://www.openstreetmap.org/way/183214981",
+        "https://www.aube-champagne.com/fr/poi/parking-pour-camping-car-de-mesnil-saint-pere/"
+      ],
+      "lot": 581,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/204019909",
+      "place": "Bar-sur-Aube — Camping-Car Park",
+      "status": "CCP : 15 places, 6 A; 13,10 €/24 h dont taxe 2026 de 0,88 €; base 12,22 € jusqu’au 31/12/2027; parking 5 h + services 6 €.",
+      "nextCheck": "Reconfirmer la taxe 2027 et le tarif après le 31/12/2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/204019909",
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/bar-sur-aube?areaType=aire-etape-camping-car"
+      ],
+      "lot": 581,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/344532714",
+      "place": "Dienville — Port Dienville",
+      "status": "PNR : fermé pour travaux depuis le 12/10/2026 jusqu’à nouvel ordre; deviendra payant à la réouverture, sans tarif annoncé.",
+      "nextCheck": "Vérifier l’annonce de réouverture et le nouveau prix auprès du PNR.",
+      "sources": [
+        "https://www.openstreetmap.org/way/344532714",
+        "https://www.pnr-foret-orient.fr/camping/ferme-pour-travaux-stationnement-de-camping-car-de-port-dienville/"
+      ],
+      "lot": 581,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/666320474",
+      "place": "Chaource — aire rue des Roises",
+      "status": "Commune : stationnement gratuit sans limite toute l’année; jeton 2 € pour 100 L d’eau ou 1 h d’électricité.",
+      "nextCheck": "Confirmer le prix actuel du jeton et les points de vente.",
+      "sources": [
+        "https://www.openstreetmap.org/way/666320474",
+        "https://www.chaource.fr/aire-de-camping-cars/"
+      ],
+      "lot": 581,
+      "checkedAt": "2026-11-25"
+    }
+  ]
+}

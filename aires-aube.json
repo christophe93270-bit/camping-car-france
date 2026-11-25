@@ -5,10 +5,13 @@
     "city": "Les Riceys",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit",
+      "Borne Euro-Relais",
+      "Eau : 2 € / 100 L",
+      "Électricité : 2 € / heure"
     ],
-    "price": "Stationnement gratuit ; jeton Euro-Relais 2 € donnant 100 L d'eau ou 1 h d'électricité (office de tourisme, fiche 12/02/2025)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit; jeton Euro-Relais 2 € pour environ 100 L d’eau ou 1 h d’électricité. Tarif de service figurant sur la fiche touristique (mise à jour 12/02/2025), à reconfirmer.",
+    "status": "Office de tourisme : parking communal gratuit près de la mairie; borne eau/électricité par jetons, vendus à la mairie. La fiche publiée indique 2 € par jeton (100 L d’eau ou 1 h d’électricité), mais sa dernière mise à jour date de février 2025.",
     "source": "https://www.openstreetmap.org/node/1482767965",
     "latitude": 47.9928409,
     "longitude": 4.3649517,
@@ -19,10 +22,13 @@
     "sourceId": "node/1482767965",
     "servicesSource": "https://www.openstreetmap.org/node/1482767965",
     "priceSource": "https://www.aube-champagne.com/fr/poi/aire-de-camping-car/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif ou gratuité mentionné par l'exploitant ou le tourisme local ; à recontrôler avant déplacement.",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Dernière grille touristique trouvée : 2 € le jeton; une fiche datée du 12/02/2025, tarif 2026 non reconfirmé auprès de la commune.",
     "sourceOfficial": "https://www.aube-champagne.com/fr/poi/aire-de-camping-car/",
-    "address": "Rue du Parc Saint-Vincent, 10340 Les Riceys"
+    "address": "Rue du Parc Saint-Vincent, 10340 Les Riceys",
+    "verificationSource": "https://www.aube-champagne.com/fr/poi/aire-de-camping-car/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche de l’office de tourisme : stationnement gratuit et borne Euro-Relais, mais dernière mise à jour du tarif 12/02/2025."
   },
   {
     "department": "10",
@@ -30,10 +36,13 @@
     "city": "Chavanges",
     "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
-      "Électricité"
+      "11 emplacements",
+      "Électricité 6 A",
+      "Aire ouverte",
+      "Parking 5 h + services : 6 €"
     ],
-    "price": "10,69 € / 24 h hors taxe de séjour (1,32 € / 24 h en 2026) ; total actuel 12,01 €",
-    "status": "Ouverte ; aire d'étape CAMPING-CAR PARK confirmée par l'exploitant",
+    "price": "12,01 € / 24 h au 25/11/2026, dont 1,32 € de taxe de séjour. Base 10,69 € / 24 h publiée du 16/10/2026 au 31/12/2027; taxe 2027 à reconfirmer.",
+    "status": "Camping-Car Park : aire ouverte, 11 places, 6 A. Tarif courant 12,01 €/24 h (base 10,69 € + taxe 2026 de 1,32 €); parking 5 h + services : 6 €.",
     "source": "https://www.openstreetmap.org/node/1894682588",
     "latitude": 48.50681,
     "longitude": 4.57698,
@@ -45,19 +54,27 @@
     "servicesSource": "https://www.openstreetmap.org/node/1894682588",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/chavanges?areaType=aire-etape-camping-car",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK ; la taxe de séjour s'ajoute au prix de l'étape.",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Tarif constaté 25/11/2026 : 10,69 € + taxe 2026 1,32 € = 12,01 €/24 h. La base de 10,69 € est publiée jusqu’au 31/12/2027; taxe 2027 à vérifier.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/chavanges?areaType=aire-etape-camping-car",
-    "address": "3 bis rue de la Fontaine d'Arrigny, 10330 Chavanges"
+    "address": "3 bis rue de la Fontaine d'Arrigny, 10330 Chavanges",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/chavanges?areaType=aire-etape-camping-car",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche CCP : aire ouverte, 11 places, 6 A, tarif courant et formule parking 5 h + services vérifiés."
   },
   {
     "department": "10",
     "name": "Aire de camping-cars de Villemaur-sur-Vanne",
     "city": "Aix-Villemaur-Pâlis",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement : tarif non précisé ; vidange des cassettes WC signalée par l'office de tourisme",
-    "status": "Ouvert toute l'année selon l'office de tourisme ; tarif du stationnement non publié",
+    "services": [
+      "5 à 10 emplacements",
+      "Accueil de nuit",
+      "Vidange des cassettes WC",
+      "Ouvert toute l’année"
+    ],
+    "price": "Tarif de stationnement non publié sur la fiche touristique consultée.",
+    "status": "Office de tourisme Othe-Armance : halte de jour et de nuit près de l’église, 5 à 10 emplacements et vidange des cassettes WC; ouverte toute l’année. Aucun montant n’est affiché.",
     "source": "https://www.openstreetmap.org/node/2372372163",
     "latitude": 48.2573157,
     "longitude": 3.7271589,
@@ -68,8 +85,13 @@
     "sourceId": "node/2372372163",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier.",
     "sourceOfficial": "https://tourisme-chaource-othe-armance.com/fiche/aire-de-camping-cars-de-villemaur-sur-vanne/",
-    "priceSource": "https://www.aube-champagne.com/fr/aires-de-camping-car-de-l-aube-en-champagne/2/",
-    "address": "1 rue de l'Église, 10190 Aix-Villemaur-Pâlis (Villemaur-sur-Vanne)"
+    "priceSource": "https://tourisme-chaource-othe-armance.com/fiche/aire-de-camping-cars-de-villemaur-sur-vanne/",
+    "address": "1 rue de l'Église, 10190 Aix-Villemaur-Pâlis (Villemaur-sur-Vanne)",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Aucun tarif renseigné dans la fiche consultée; ne pas afficher la gratuité sans confirmation communale.",
+    "verificationSource": "https://tourisme-chaource-othe-armance.com/fiche/aire-de-camping-cars-de-villemaur-sur-vanne/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche OT actuelle : stationnement jour/nuit, 5 à 10 places, vidange WC; champ tarif présent mais sans montant."
   },
   {
     "department": "10",
@@ -77,10 +99,14 @@
     "city": "Les Riceys",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Stationnement gratuit",
+      "Eau et électricité gratuites",
+      "Vidange",
+      "Toilettes aux heures de bureau",
+      "Accueil chez le producteur"
     ],
-    "price": "Stationnement et services gratuits (eau, électricité et vidange), selon l'office de tourisme, fiche 20/03/2026",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement et services gratuits (eau, électricité et vidange); toilettes accessibles aux heures de bureau.",
+    "status": "Office de tourisme, fiche mise à jour le 20/03/2026 : aire gratuite sur le domaine Champagne Walczak, eau, électricité et vidange offertes; toilettes pendant les heures de bureau. Le producteur invite à s’installer même en son absence.",
     "source": "https://www.openstreetmap.org/node/9177595568",
     "latitude": 47.9944667,
     "longitude": 4.3626932,
@@ -91,10 +117,13 @@
     "sourceId": "node/9177595568",
     "servicesSource": "https://www.openstreetmap.org/node/9177595568",
     "priceSource": "https://www.aube-champagne.com/fr/poi/aire-de-camping-car-au-champagne-walczak-pascal/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif ou gratuité mentionné par l'exploitant ou le tourisme local ; à recontrôler avant déplacement.",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Gratuité explicitement indiquée par le propriétaire et l’office de tourisme, mise à jour en mars 2026.",
     "sourceOfficial": "https://www.aube-champagne.com/fr/poi/aire-de-camping-car-au-champagne-walczak-pascal/",
-    "address": "7 rue de la Presle, 10340 Les Riceys"
+    "address": "7 rue de la Presle, 10340 Les Riceys",
+    "verificationSource": "https://www.aube-champagne.com/fr/poi/aire-de-camping-car-au-champagne-walczak-pascal/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Office de tourisme : stationnement/service gratuits, eau, électricité et vidange; sanitaires selon horaires de bureau."
   },
   {
     "department": "10",
@@ -102,10 +131,15 @@
     "city": "Buxeuil",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "4 emplacements ombragés",
+      "Stationnement gratuit",
+      "Eau payante",
+      "Électricité payante",
+      "Vidange payante",
+      "Ouverture après vendanges à reconfirmer"
     ],
-    "price": "4 emplacements de stationnement gratuits selon l'office de tourisme ; eau et électricité payantes, tarif non communiqué",
-    "status": "Fermeture saisonnière signalée pendant les vendanges (mi-août à fin septembre) ; réouverture effective à confirmer auprès de la mairie",
+    "price": "Stationnement gratuit; eau, électricité et vidange payantes, montants non publiés.",
+    "status": "Office de tourisme : 4 places gratuites et ombragées; eau, électricité et vidange sont payantes. La page consultée affiche encore un avis « actuellement fermée / réouverture fin septembre » et est datée du 12/02/2025; réouverture actuelle non confirmée.",
     "source": "https://www.openstreetmap.org/node/12215050433",
     "latitude": 48.0548113,
     "longitude": 4.3926014,
@@ -116,11 +150,14 @@
     "sourceId": "node/12215050433",
     "servicesSource": "https://www.openstreetmap.org/node/12215050433",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier.",
-    "verificationNote": "L'office de tourisme signale une fermeture temporaire de l'aire ; vérifier la réouverture avant déplacement.",
-    "verificationSource": "https://www.aube-champagne.com/fr/aires-de-camping-car-de-l-aube-en-champagne/",
-    "sourceOfficial": "https://extranet.aube-champagne.com/poi/aire-de-camping-car-4/",
+    "verificationNote": "Dernière fiche OT du 12/02/2025 : fermeture pendant les vendanges, réouverture annoncée fin septembre; aucun tarif des services publié. Appeler la mairie avant déplacement.",
+    "verificationSource": "https://www.aube-champagne.com/fr/poi/aire-de-camping-car-4/",
+    "sourceOfficial": "https://www.aube-champagne.com/fr/poi/aire-de-camping-car-4/",
     "address": "Place de l’Église Saint-Loup, 10110 Buxeuil",
-    "priceSource": "https://extranet.aube-champagne.com/poi/aire-de-camping-car-4/"
+    "priceSource": "https://www.aube-champagne.com/fr/poi/aire-de-camping-car-4/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Le stationnement est annoncé gratuit; prix des services non indiqué. La fiche touristique est ancienne et son avis de fermeture n’établit pas si l’aire a rouvert depuis.",
+    "verificationDate": "2026-11-25"
   },
   {
     "department": "10",
@@ -128,10 +165,16 @@
     "city": "Pont-Sainte-Marie",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "37 emplacements",
+      "Stationnement 24 h",
+      "Électricité",
+      "Eau",
+      "Vidange eaux grises et noires",
+      "Séjour limité à 7 nuits",
+      "Ouvert toute l’année"
     ],
-    "price": "14 € / 24 h d'octobre à mars, 16 € / 24 h d'avril à septembre ; taxe de séjour 0,55 € par adulte et par nuit en supplément (2026)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarifs 2026 : 14 € / 24 h d’octobre à mars ou 16 € / 24 h d’avril à septembre; taxe de séjour supplémentaire de 0,55 € / personne / nuit.",
+    "status": "Aire Jacky-Bruhammer, ouverte toute l’année, 37 places et séjour limité à 7 nuits. Forfaits 2026 incluent stationnement, électricité, eau et vidange; taxe de séjour en sus.",
     "source": "https://www.openstreetmap.org/way/169476100",
     "latitude": 48.3111763,
     "longitude": 4.097211,
@@ -142,18 +185,25 @@
     "sourceId": "way/169476100",
     "servicesSource": "https://www.openstreetmap.org/way/169476100",
     "priceSource": "https://www.campingcar-troyes.com/informations/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif ou gratuité mentionné par l'exploitant ou le tourisme local ; à recontrôler avant déplacement.",
-    "sourceOfficial": "https://www.campingcar-troyes.com/informations/"
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Grille en vigueur depuis le 01/01/2026 : basse saison octobre–mars 14 €/24 h; haute saison avril–septembre 16 €/24 h; taxe 0,55 €/personne/nuit séparée.",
+    "sourceOfficial": "https://www.campingcar-troyes.com/informations/",
+    "verificationSource": "https://www.campingcar-troyes.com/informations/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Exploitant : 37 places, accès 24/7, ouverture annuelle, séjour max 7 nuits; tarifs saisonniers 2026 et services inclus."
   },
   {
     "department": "10",
     "name": "Aire aménagée camping car de Mesnil Saint-Père",
     "city": "Mesnil-Saint-Père",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement gratuit ; eau potable et vidange disponibles",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Parking gratuit",
+      "Eau potable",
+      "Vidange des eaux usées"
+    ],
+    "price": "Stationnement gratuit; eau potable et vidange des eaux usées indiquées sans prix distinct.",
+    "status": "Aube Champagne / Troyes La Champagne Tourisme, fiche mise à jour le 14/10/2026 : parking gratuit pour camping-cars, eau potable et vidange des eaux usées; 70 places de parking au total (pas nécessairement réservées aux camping-cars).",
     "source": "https://www.openstreetmap.org/way/183214981",
     "latitude": 48.2556802,
     "longitude": 4.340492,
@@ -164,9 +214,12 @@
     "sourceId": "way/183214981",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier.",
     "priceSource": "https://www.aube-champagne.com/fr/poi/parking-pour-camping-car-de-mesnil-saint-pere/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif ou gratuité mentionné par l'exploitant ou le tourisme local ; à recontrôler avant déplacement.",
-    "sourceOfficial": "https://www.aube-champagne.com/fr/poi/parking-pour-camping-car-de-mesnil-saint-pere/"
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Gratuité confirmée pour le stationnement; aucun prix de service indiqué.",
+    "sourceOfficial": "https://www.aube-champagne.com/fr/poi/parking-pour-camping-car-de-mesnil-saint-pere/",
+    "verificationSource": "https://www.aube-champagne.com/fr/poi/parking-pour-camping-car-de-mesnil-saint-pere/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche touristique actualisée le 14/10/2026 : parking camping-car gratuit, eau et vidange; indication de 70 places de parking général."
   },
   {
     "department": "10",
@@ -174,10 +227,13 @@
     "city": "Bar-sur-Aube",
     "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
-      "Électricité"
+      "15 emplacements",
+      "Électricité 6 A",
+      "Aire ouverte",
+      "Parking 5 h + services : 6 €"
     ],
-    "price": "12,22 € / 24 h hors taxe de séjour (0,88 € / 24 h en 2026) ; total actuel 13,10 €",
-    "status": "Ouverte ; aire d'étape CAMPING-CAR PARK confirmée par l'exploitant",
+    "price": "13,10 € / 24 h au 25/11/2026, dont 0,88 € de taxe de séjour. Base 12,22 € / 24 h publiée du 19/11/2026 au 31/12/2027; taxe 2027 à revérifier.",
+    "status": "Camping-Car Park : aire ouverte, 15 places, 6 A. Tarif courant 13,10 €/24 h (base 12,22 € + taxe 2026 de 0,88 €); parking 5 h + services : 6 €.",
     "source": "https://www.openstreetmap.org/way/204019909",
     "latitude": 48.22853,
     "longitude": 4.708232,
@@ -188,11 +244,14 @@
     "sourceId": "way/204019909",
     "servicesSource": "https://www.openstreetmap.org/way/204019909",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier.",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK ; la taxe de séjour s'ajoute au prix de l'étape.",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/bar-sur-aube",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/bar-sur-aube",
+    "priceNote": "Tarif constaté 25/11/2026 : 12,22 € + taxe 2026 0,88 € = 13,10 €/24 h. Base publiée jusqu’au 31/12/2027; montant 2027 de la taxe à confirmer.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/bar-sur-aube?areaType=aire-etape-camping-car",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/bar-sur-aube?areaType=aire-etape-camping-car",
     "address": "Chemin de Mathaut, 10200 Bar-sur-Aube",
-    "priceVerifiedOn": "2026-11-17"
+    "priceVerifiedOn": "2026-11-25",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/bar-sur-aube?areaType=aire-etape-camping-car",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche CCP : aire ouverte, 15 places, 6 A, adresse chemin de Mathaut et tarif courant vérifiés."
   },
   {
     "department": "10",
@@ -200,10 +259,12 @@
     "city": "Dienville",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Fermée pour travaux depuis le 12/10/2026",
+      "Réouverture à date inconnue",
+      "Devrait devenir payante après réouverture"
     ],
-    "price": "Fermé pour travaux ; futur tarif payant non communiqué",
-    "status": "FERMÉ TEMPORAIREMENT POUR TRAVAUX depuis le 12 octobre 2026, jusqu'à nouvel ordre ; deviendra payant à la réouverture",
+    "price": "Aire fermée pour travaux jusqu’à nouvel ordre; futur tarif payant non communiqué.",
+    "status": "PNR Forêt d’Orient : fermeture temporaire depuis le 12 octobre 2026, jusqu’à nouvel ordre. Des travaux sont en cours; l’aire deviendra payante à sa réouverture, sans tarif ni date annoncés.",
     "source": "https://www.openstreetmap.org/way/344532714",
     "latitude": 48.3470519,
     "longitude": 4.5274778,
@@ -216,16 +277,27 @@
     "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier.",
     "sourceOfficial": "https://www.pnr-foret-orient.fr/camping/ferme-pour-travaux-stationnement-de-camping-car-de-port-dienville/",
     "priceSource": "https://www.pnr-foret-orient.fr/camping/ferme-pour-travaux-stationnement-de-camping-car-de-port-dienville/",
-    "address": "D443, Port de Dienville, 10500 Dienville"
+    "address": "D443, Port de Dienville, 10500 Dienville",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Aucun tarif opérationnel pendant la fermeture; futur tarif non encore publié.",
+    "verificationSource": "https://www.pnr-foret-orient.fr/camping/ferme-pour-travaux-stationnement-de-camping-car-de-port-dienville/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Avis officiel PNR consulté : fermeture depuis le 12/10/2026 jusqu’à nouvel ordre et passage au payant annoncé à la réouverture."
   },
   {
     "department": "10",
     "name": "Aire de camping-cars de Chaource",
     "city": "Chaource",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement gratuit ; jeton eau 2 €",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Stationnement gratuit sans limite de durée",
+      "Borne à jetons",
+      "Eau : 2 € / 100 L",
+      "Électricité : 2 € / heure",
+      "Vidange"
+    ],
+    "price": "Stationnement gratuit sans limite de durée; jeton de service à 2 € pour environ 100 L d’eau ou 1 h d’électricité.",
+    "status": "Commune de Chaource : aire ouverte toute l’année, stationnement gratuit sans limite de durée; borne eau/électricité/vidange à jetons. Un jeton à 2 € donne environ 100 L d’eau ou 1 h d’électricité.",
     "source": "https://www.openstreetmap.org/way/666320474",
     "latitude": 48.0597853,
     "longitude": 4.1386646,
@@ -235,10 +307,13 @@
     "importReview": "À contrôler avant déplacement | Source directe ou touristique déjà présente dans priceSource, reprise dans sourceOfficial le 18/10/2026 ; tarif à revérifier selon la date.",
     "sourceId": "way/666320474",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; localisation à vérifier.",
-    "priceSource": "https://tourisme-chaource-othe-armance.com/fiche/aire-de-camping-cars-de-chaource/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif ou gratuité mentionné par l'exploitant ou le tourisme local ; à recontrôler avant déplacement.",
-    "sourceOfficial": "https://tourisme-chaource-othe-armance.com/fiche/aire-de-camping-cars-de-chaource/"
+    "priceSource": "https://www.chaource.fr/aire-de-camping-cars/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "La mairie confirme la gratuité et l’ouverture annuelle; la fiche municipale indique un jeton à 2 € pour 100 L d’eau ou 1 h d’électricité.",
+    "sourceOfficial": "https://www.chaource.fr/aire-de-camping-cars/",
+    "verificationSource": "https://www.chaource.fr/aire-de-camping-cars/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Commune de Chaource : stationnement gratuit toute l’année et sans limite; borne de services payante par jetons et points de vente locaux."
   },
   {
     "department": "10",
