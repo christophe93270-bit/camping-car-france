@@ -1,0 +1,131 @@
+{
+  "scope": "Allier (03), contrôle des fiches existantes par lots de dix",
+  "startedAt": "2026-11-25",
+  "note": "Lot 563 : fiches 1–10 sur 28 contrôlées. Aucun lieu ajouté. Les tarifs non officiels, anciens ou sans unité claire restent signalés comme à confirmer.",
+  "entries": [
+    {
+      "sourceId": "node/11479095183",
+      "name": "Aire de Camping-Cars de Billy",
+      "status": "tarif et services actuels non confirmés.",
+      "finding": "Un annuaire secondaire signale stationnement/services gratuits mais décrit une borne peu pratique; aucune confirmation municipale récente trouvée.",
+      "nextCheck": "Demander à la mairie si l'aire et la borne restent accessibles et fonctionnelles; vérifier prix, eau, vidange, électricité et conditions de stationnement.",
+      "sources": [
+        "https://www.i-campingcar.fr/aires.php?ville=BILLY",
+        "https://www.openstreetmap.org/node/11479095183"
+      ],
+      "lot": 563,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/11903236719",
+      "name": "Highland Park (Saint-Pourçain-sur-Besbre)",
+      "status": "tarifs de l'exploitant et capacité confirmés.",
+      "finding": "Exploitant : 8 € la demi-journée, 12 €/jour, 10 €/jour dès 2 jours; jeton 2,50 € pour 4h d'électricité ou une vidange; 48 places, ouvert 24h/24 toute l'année.",
+      "nextCheck": "Recontrôler le barème si le site annonce une nouvelle saison; préciser séparément services et prix de séjour.",
+      "sources": [
+        "https://highlandpark.fr/"
+      ],
+      "lot": 563,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12088845350",
+      "name": "Aire communale du Montet",
+      "status": "tarif référencé en 2024, non reconfirmé pour 2026–2027.",
+      "finding": "Place du Champ de Foire, 5 places, borne Euro-Relais; grille 2024 indique eau et électricité à 2 € chacune; stationnement gratuit mentionné par une page secondaire plus ancienne. Tout reste à reconfirmer.",
+      "nextCheck": "Confirmer en mairie le tarif actuel, la disponibilité de la borne, les sanitaires et les conditions de nuitée.",
+      "sources": [
+        "https://www.camping-car.com/aires/46425-aire-communale/",
+        "https://www.campingcar76.fr/Site%20P08%2003%20Aires%20services%20Allier%20%28Auvergne%29.htm"
+      ],
+      "lot": 563,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12089262587",
+      "name": "Aire de stationnement de Charroux",
+      "status": "gratuité 2026 et 40 places confirmées par OT.",
+      "finding": "Terrain réservé camping-cars près du cimetière; stationnement jour/nuit, libre et gratuit, sans électricité ni vidange; ouvert toute l'année 2026.",
+      "nextCheck": "Reconfirmer après le 31/12/2026 si la fiche affiche des tarifs 2027.",
+      "sources": [
+        "https://www.valdesioule.com/campings/aire-de-stationnement/"
+      ],
+      "lot": 563,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12089619493",
+      "name": "Aire de Saint-Marcel-en-Murat",
+      "status": "stationnement gratuit; services facturés 2 € le jeton.",
+      "finding": "Fiche municipale : 2 € pour 100 L d'eau ou 1h d'électricité; table de pique-nique et stationnement gratuit. Période de service 1er mars–30 novembre à reconfirmer.",
+      "nextCheck": "Demander à la mairie les dates d'ouverture de la borne et si la vidange et les toilettes sont disponibles.",
+      "sources": [
+        "https://www.intramuros.org/saint-marcel-en-murat/annuaire/3528/commune",
+        "https://www.camping-car.com/aires/43219-aire-communale/"
+      ],
+      "lot": 563,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12228089385",
+      "name": "Aire centre-bourg de Varennes-sur-Allier",
+      "status": "20 places gratuites et tarif services de 2 € confirmés par mairie.",
+      "finding": "Place Charles-de-Gaulle : 20 places sur parking mixte; stationnement gratuit, eau, vidange, prises 10A; 2 € pour 10 minutes d'eau et 1h d'électricité. Distinguer de la seconde aire rue Mauregard (6 places).",
+      "nextCheck": "Vérifier si l'ancienne borne a été remplacée et si les deux sites sont correctement séparés dans la base.",
+      "sources": [
+        "https://www.varennes-sur-allier.fr/decouvrir-varennes-sur-allier/que-faire-a-varennes/aires-de-camping-car/"
+      ],
+      "lot": 563,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/46848947",
+      "name": "Aire de Villefranche-d'Allier",
+      "status": "existence et vente de jetons confirmées par mairie; tarif à confirmer.",
+      "finding": "La mairie liste les points de vente des jetons. Un annuaire ancien indique stationnement gratuit et services à 2 €, sans confirmation municipale.",
+      "nextCheck": "Confirmer en mairie la durée/unité par jeton, les services et le tarif actuel.",
+      "sources": [
+        "https://villefranchedallier.fr/vie-economique/tourisme/",
+        "https://www.i-campingcar.fr/aires.php?ville=VILLEFRANCHE+D%27ALLIER"
+      ],
+      "lot": 563,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/91744134",
+      "name": "Aire de camping-cars de Moulins",
+      "status": "tarif municipal et 130 places confirmés.",
+      "finding": "Entrée 4 € + 0,10 €/h, taxe de séjour 0,51 €/jour, soit 6,40 €/24h avant taxe; jeton 2 € pour 20 minutes de vidange ou 2h d'électricité; 130 places toute l'année.",
+      "nextCheck": "Recontrôler le barème lors d'une mise à jour de la ville; conserver entrée, taxe et services dans des champs distincts.",
+      "sources": [
+        "https://www.ville-moulins.fr/fr/patrimoine/votre-sejour-a-moulins.html"
+      ],
+      "lot": 563,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/193164851",
+      "name": "Aire de Saint-Pourçain-sur-Sioule",
+      "status": "73 places gratuites; recharge à 4 € affichée par OT jusqu'à fin 2027.",
+      "finding": "Nuitée possible; eau, électricité, vidanges; emplacement gratuit; recharge en eau et en électricité affichée à 4 €, avec modalités du forfait non détaillées.",
+      "nextCheck": "Clarifier si 4 € est par service ou pour la recharge combinée et conserver une validité jusqu'au 31/12/2027.",
+      "sources": [
+        "https://www.valdesioule.com/campings/aire-daccueil-et-de-services-camping-car/"
+      ],
+      "lot": 563,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/761366446",
+      "name": "Aire de Montmarault, rue de Turenne",
+      "status": "stationnement gratuit et jetons 2 € documentés par OT en septembre 2026.",
+      "finding": "Nuit possible, eau/électricité/vidanges; 2 € le jeton. Distinguer cette aire de celle rue du Batardeau.",
+      "nextCheck": "Confirmer l'unité de service couverte par le jeton et vérifier la capacité sur place.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/3794400-aire-d-accueil-et-de-services-de-montmarault"
+      ],
+      "lot": 563,
+      "checkedAt": "2026-11-25"
+    }
+  ]
+}
