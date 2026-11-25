@@ -884,11 +884,9 @@
     "name": "Aire Camping-cars Saint-Romain-de-Lerps",
     "city": "Saint-Romain-de-Lerps",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [
-      "Électricité"
-    ],
+    "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Contrôle du 25/11/2026 : aucun tarif ni détail de service confirmé par une source communale ou touristique officielle. Une source spécialisée non officielle annonce le stationnement gratuit mais signale aussi une borne en mauvais état et l’absence d’eau; l’électricité déclarée dans OSM n’est pas confirmée.",
     "source": "https://www.openstreetmap.org/way/1282245422",
     "latitude": 44.9798534,
     "longitude": 4.7962573,
@@ -898,7 +896,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1282245422",
     "servicesSource": "https://www.openstreetmap.org/way/1282245422",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée."
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
+    "verificationSource": "https://www.i-campingcar.fr/aires.php?ville=SAINT+ROMAIN+DE+LERPS",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "L’emplacement D287 à l’entrée du village correspond au point annoncé, mais les données de service divergent et aucune page officielle tarifaire actuelle n’a été trouvée. Ne pas afficher l’électricité comme service vérifié.",
+    "priceNote": "Prix de stationnement et de services non confirmé par une source officielle. Stationnement gratuit rapporté par une source tierce; à revalider auprès de la mairie."
   },
   {
     "department": "07",
@@ -906,10 +908,13 @@
     "city": "Sampzon",
     "type": "Aire d’étape Camping-Car Park",
     "services": [
-      "Électricité"
+      "32 emplacements",
+      "Électricité 6 A",
+      "Eau potable",
+      "Vidange"
     ],
-    "price": "14,37 € / 24 h, dont 1,32 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Aire d’étape Camping-Car Park ouverte ; catégorie, adresse, coordonnées et tarif vérifiés sur la fiche officielle.",
+    "price": "14,37 € / 24 h au 25/11/2026, dont 1,32 € de taxe; base de 13,05 € publiée du 30/10/2026 au 31/12/2027.",
+    "status": "Fiche officielle Camping-Car Park : aire d’étape ouverte au 69 chemin du Poux, 32 places et branchements 6 A. Tarif courant 14,37 €/24 h (13,05 € + 1,32 € de taxe 2026); parking 5 h + services : 6 €.",
     "source": "https://www.openstreetmap.org/way/1285646440",
     "latitude": 44.42649,
     "longitude": 4.345677,
@@ -920,11 +925,14 @@
     "sourceId": "way/1285646440",
     "servicesSource": "https://www.openstreetmap.org/way/1285646440",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/sampzon",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif total affiché sur la fiche officielle Camping-Car Park lors du contrôle du 17/11/2026.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/sampzon?areaType=area-de-etapa-autocaravanas",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Tarif courant de 14,37 €/24 h, dont 1,32 € de taxe de séjour jusqu’au 31/12/2026. Base affichée à 13,05 € jusqu’au 31/12/2027; taxe 2027 à vérifier.",
     "address": "69 chemin du Poux, 07120 Sampzon",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/sampzon"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/sampzon",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/sampzon?areaType=area-de-etapa-autocaravanas",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Adresse 69 chemin du Poux, statut ouvert, capacité de 32 places et branchements confirmés sur la fiche officielle."
   },
   {
     "department": "07",
@@ -932,10 +940,15 @@
     "city": "Saint-Romain-d'Ay",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange",
+      "Tables de pique-nique",
+      "Toilettes publiques",
+      "Aire de jeux"
     ],
-    "price": "Stationnement gratuit ; jeton de services : 2 €",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif du stationnement non publié; jeton de services : 2 € pour 20 minutes.",
+    "status": "Office de tourisme Ardèche Grand Air : borne Flot Bleu avec eau et électricité, jeton à 2 € pour 20 minutes, jetons vendus à l’épicerie ou en mairie; borne hors service en période hivernale, ouverture publiée du 29/04 au 29/10/2026. Le tarif du stationnement n’est pas précisé.",
     "source": "https://www.openstreetmap.org/way/1287325879",
     "latitude": 45.1642962,
     "longitude": 4.6633268,
@@ -947,8 +960,11 @@
     "servicesSource": "https://www.openstreetmap.org/way/1287325879",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
     "priceSource": "https://www.ardechegrandair.com/dormir/aires-de-camping-cars/116188_aire-de-service-accueil-camping-car-communale/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif publié par l'exploitant ou l'office de tourisme, susceptible de changer; vérifier avant séjour."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Jeton de service 2 €; aucune information officielle trouvée sur la gratuité ou le tarif du stationnement.",
+    "verificationSource": "https://www.ardechegrandair.com/dormir/aires-de-camping-cars/116188_aire-de-service-accueil-camping-car-communale/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "La page officielle indique une borne Flot Bleu à jeton pour 20 minutes et une fermeture de la borne en période hivernale. Période d’ouverture publiée : 29/04–29/10/2026."
   },
   {
     "department": "07",
@@ -956,10 +972,15 @@
     "city": "Empurany",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Borne de services",
+      "Eau potable",
+      "Électricité",
+      "Vidange des eaux usées",
+      "Aire de jeux",
+      "Boulodrome"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Participation libre; taxe de séjour non incluse.",
+    "status": "Office de tourisme du Pays de Lamastre : participation libre, taxe de séjour non incluse, aire ouverte toute l’année; borne de services, eau, branchements électriques et évacuation des eaux usées via la borne.",
     "source": "https://www.openstreetmap.org/way/1287477850",
     "latitude": 45.0231034,
     "longitude": 4.6111646,
@@ -969,7 +990,13 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1287477850",
     "servicesSource": "https://www.openstreetmap.org/way/1287477850",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée."
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
+    "verificationSource": "https://www.pays-lamastre-tourisme.com/fr/catalogue/activite/tous/aire-de-service-camping-cars-empurany-5865317/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche touristique officielle : adresse 90 route de Lamastre, ouverture toute l’année; eaux usées uniquement via la borne automatique.",
+    "priceSource": "https://www.pays-lamastre-tourisme.com/fr/catalogue/activite/tous/aire-de-service-camping-cars-empurany-5865317/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Participation libre, taxe de séjour non incluse; paiements annoncés en espèces ou chèque."
   },
   {
     "department": "07",
@@ -977,10 +1004,15 @@
     "city": "Ardoix",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "4 emplacements",
+      "Électricité",
+      "Eau potable (coupée l’hiver)",
+      "Vidange",
+      "Tables et bancs",
+      "WC publics"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Emplacement gratuit.",
+    "status": "Office de tourisme Ardèche Grand Air : 4 emplacements gratuits face à la caserne des pompiers, borne de courant, eau et vidange; eau coupée en période hivernale. Ouvert 24 h/24 toute l’année selon la fiche 2026.",
     "source": "https://www.openstreetmap.org/way/1287493626",
     "latitude": 45.1889805,
     "longitude": 4.7367704,
@@ -990,16 +1022,29 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1287493626",
     "servicesSource": "https://www.openstreetmap.org/way/1287493626",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée."
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
+    "verificationSource": "https://www.ardechegrandair.com/dormir/aires-de-camping-cars/90964_aire-de-camping-car-dardoix/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche officielle : 4 emplacements, rue de l’École Publique, face à la caserne; borne de courant, eau et vidange.",
+    "priceSource": "https://www.ardechegrandair.com/dormir/aires-de-camping-cars/90964_aire-de-camping-car-dardoix/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Emplacement gratuit; l’eau est coupée en période hivernale."
   },
   {
     "department": "07",
     "name": "Aire de stationnement camping-cars du Chambon",
-    "city": "Commune à confirmer",
+    "city": "Le Chambon",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "2 emplacements",
+      "Tables de pique-nique ombragées",
+      "Terrain de pétanque",
+      "Point d’eau dans le village",
+      "WC publics dans le village",
+      "Durée maximale 24 h"
+    ],
+    "price": "Stationnement gratuit; durée maximale 24 h.",
+    "status": "Office de tourisme Ardèche Hautes Vallées : aire du village, 2 emplacements, stationnement gratuit limité à 24 h; tables de pique-nique ombragées et terrain de pétanque. Point d’eau et WC publics dans le village.",
     "source": "https://www.openstreetmap.org/way/1287513597",
     "latitude": 44.8353341,
     "longitude": 4.3010764,
@@ -1007,18 +1052,28 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1287513597"
+    "sourceId": "way/1287513597",
+    "verificationSource": "https://www.ardeche-hautes-vallees.fr/camping/aire-de-stationnement-camping-cars-du-chambon/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Commune confirmée : Le Chambon, adresse Le Village, 07160; 2 emplacements, stationnement gratuit toute l’année.",
+    "priceSource": "https://www.ardeche-hautes-vallees.fr/camping/aire-de-stationnement-camping-cars-du-chambon/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Stationnement gratuit, limité à 24 h; l’eau et les sanitaires sont indiqués dans le village, pas sur la zone de stationnement."
   },
   {
     "department": "07",
     "name": "Aire de camping-car du lac de la Palisse",
-    "city": "Commune à confirmer",
+    "city": "Cros-de-Géorand",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "6 emplacements",
+      "Électricité 6 A",
+      "Eau potable",
+      "Vidange",
+      "Wi-Fi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif CCP affiché : 13,36 € / 24 h, dont 1,18 € de taxe 2026 (base 12,18 €); aire signalée temporairement fermée.",
+    "status": "Fiche Camping-Car Park : aire La Palisse, D160, 6 places, signalée temporairement fermée lors du contrôle. Tarif affiché 13,36 €/24 h, dont 1,18 € de taxe 2026; parking 5 h + services : 6 €.",
     "source": "https://www.openstreetmap.org/way/1287521464",
     "latitude": 44.7779921,
     "longitude": 4.1034619,
@@ -1027,7 +1082,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1287521464",
-    "servicesSource": "https://www.openstreetmap.org/way/1287521464"
+    "servicesSource": "https://www.openstreetmap.org/way/1287521464",
+    "verificationSource": "https://www.campingcarpark.com/de_DE/wohnmobilaufenthalt/auvergne-rhone-alpes/ardeche/le-cros-du-georand-lac-de-la-palisse",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "La fiche officielle CCP indique l’aire temporairement fermée; le tarif 24 h reste publié. L’office de tourisme précise 6 places au bord du lac.",
+    "priceSource": "https://www.campingcarpark.com/de_DE/wohnmobilaufenthalt/auvergne-rhone-alpes/ardeche/le-cros-du-georand-lac-de-la-palisse",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Montant affiché de 13,36 €/24 h (12,18 € + taxe 2026 de 1,18 €); cette mention tarifaire ne signifie pas que l’aire temporairement fermée est accessible."
   },
   {
     "department": "07",
@@ -1035,10 +1096,14 @@
     "city": "Saint-Martial",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Emplacement + eau potable",
+      "Vidange cassette",
+      "Vidange eaux usées",
+      "Sanitaires",
+      "Réservation sur place"
     ],
-    "price": "8 € emplacement avec services + 0,59 € taxe de séjour",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "8 € / 24 h par camping-car; taxe de séjour municipale : 0,22 € / jour / adulte. Une fiche touristique indique encore 0,59 € : écart à clarifier.",
+    "status": "Mairie de Saint-Martial : aire avec sanitaires, eau propre et vidanges; tarif 2026 de 8 €/24 h par camping-car, plus taxe de séjour de 0,22 €/jour/adulte. La fiche touristique de Montagne d’Ardèche affiche 0,59 € de taxe, en divergence avec le tarif municipal.",
     "source": "https://www.openstreetmap.org/way/1287526239",
     "latitude": 44.8700453,
     "longitude": 4.2807344,
@@ -1049,18 +1114,24 @@
     "sourceId": "way/1287526239",
     "servicesSource": "https://www.openstreetmap.org/way/1287526239",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
-    "priceSource": "https://www.ardeche-guide.com/camping/aire-de-service-camping-cars-859258/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif issu d'un office de tourisme ou organisme territorial; vérifier conditions et correspondance exacte de l'aire."
+    "priceSource": "https://www.st-martial.com/locations-de-vacances/camping/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Mairie : 8 €/24 h par camping-car et taxe de séjour de 0,22 €/jour/adulte. L’export touristique daté du 15/05/2026 donne 0,59 €; montant et mode de calcul à clarifier.",
+    "verificationSource": "https://www.st-martial.com/locations-de-vacances/camping/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Mairie : aire à 30 m avant l’entrée du camping; tarif 2026 et services affichés sur le site communal.",
+    "priceSourceSecondary": "https://www.montagnedardeche.com/camping/aire-de-service-camping-car-2-32827/"
   },
   {
     "department": "07",
     "name": "Aire de stationnement camping-cars de Saint-Clément",
     "city": "Saint-Clément",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "4 emplacements"
+    ],
+    "price": "Stationnement gratuit.",
+    "status": "Office de tourisme Ardèche Hautes Vallées : aire de stationnement au Village, 4 emplacements, ouverte toute l’année; stationnement gratuit. Aucun service de borne n’est décrit sur la fiche.",
     "source": "https://www.openstreetmap.org/way/1287529330",
     "latitude": 44.9508941,
     "longitude": 4.2684419,
@@ -1069,16 +1140,28 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1287529330",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée."
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
+    "verificationSource": "https://www.ardeche-hautes-vallees.fr/camping/aire-de-stationnement-camping-cars-de-saint-clement/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "La fiche officielle confirme 4 emplacements, Le Village, 07310 Saint-Clément, ouverts toute l’année.",
+    "priceSource": "https://www.ardeche-hautes-vallees.fr/camping/aire-de-stationnement-camping-cars-de-saint-clement/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Stationnement gratuit selon l’office de tourisme; pas de tarif de services publié."
   },
   {
     "department": "07",
     "name": "Aire de camping-car Colombier-le-Jeune",
     "city": "Colombier-le-Jeune",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "3 emplacements près du tennis",
+      "Eau potable",
+      "Vidange des eaux ménagères",
+      "Vidange des WC chimiques",
+      "Containers et tri sélectif"
+    ],
+    "price": "Tarifs de stationnement et de services non publiés.",
+    "status": "Mairie de Colombier-le-Jeune : borne derrière la mairie pour eau potable et vidanges des eaux ménagères et WC chimiques; trois emplacements de stationnement à côté du tennis. Aucun tarif n’est publié.",
     "source": "https://www.openstreetmap.org/way/1287633508",
     "latitude": 45.0110346,
     "longitude": 4.7018635,
@@ -1087,7 +1170,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1287633508",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée."
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
+    "verificationSource": "https://colombierlejeune.fr/tourisme-et-activites/aires-de-camping-car/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Site municipal : borne de services derrière la mairie et zone de stationnement de trois places à côté du tennis; la page ne précise pas de tarif.",
+    "priceSource": "https://colombierlejeune.fr/tourisme-et-activites/aires-de-camping-car/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Aucun tarif de stationnement ou de services n’est publié par la mairie; ne pas déduire la gratuité."
   },
   {
     "department": "07",

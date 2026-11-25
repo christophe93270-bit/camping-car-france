@@ -4,15 +4,15 @@
   "displayedCount": 49,
   "rawRegionalRows": 49,
   "deduplicatedRows": 0,
-  "currentLot": 573,
+  "currentLot": 574,
   "department": "07",
   "progress": {
-    "checked": 30,
+    "checked": 40,
     "total": 49,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lots 571–573 : fiches 1 à 30 sur 49 contrôlées. Lot 573 : tarifs et services vérifiés à Vanosc, Alba-la-Romaine, Coucouron, Vernosc-lès-Annonay et Larnas; tarifs CCP actualisés à La Voulte-sur-Rhône et Privas; Villeneuve-de-Berg confirmé gratuit 72 h. Aubignas affiche un écart entre 3 € sur la fiche OT et 4 € votés en conseil pour le Parking Sainte-Reine. Saint-Alban-Auriolles reste un projet sans tarif. Aucun lieu ajouté; 19 fiches restantes.",
+  "note": "Lots 571–574 : fiches 1 à 40 sur 49 contrôlées. Lot 574 : participation libre confirmée à Empurany; stationnement gratuit confirmé à Ardoix, Le Chambon et Saint-Clément; jeton de services à 2 € à Saint-Romain-d’Ay; CCP Sampzon actualisé à 14,37 €/24 h. Le CCP du lac de La Palisse est signalé temporairement fermé et affiche 13,36 €/24 h; Saint-Martial : 8 €/24 h mais taxe de séjour divergente entre la mairie et la fiche touristique. Saint-Romain-de-Lerps et Colombier-le-Jeune restent sans tarif officiel publié. Aucun lieu ajouté; 9 fiches restantes.",
   "entries": [
     {
       "sourceId": "node/5046531621",
@@ -383,6 +383,129 @@
       "sources": [
         "https://www.openstreetmap.org/way/1123542660",
         "https://www.villeneuvedeberg.fr/uploads/documents/arrete-general-permanent-de-la-circulation-routiere-maj-9-fevrier-2022-FR-844.pdf?1766938618="
+      ]
+    },
+    {
+      "sourceId": "way/1282245422",
+      "place": "Saint-Romain-de-Lerps — aire D287, entrée du village",
+      "lot": 574,
+      "checkedAt": "2026-11-25",
+      "status": "Pas de fiche tarifaire officielle retrouvée. Une source spécialisée non officielle rapporte le stationnement gratuit, mais signale une borne en mauvais état et l’absence d’eau; l’électricité OSM n’est pas confirmée.",
+      "nextCheck": "Demander à la mairie l’état actuel de la borne, les services disponibles et tout tarif éventuel.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1282245422",
+        "https://www.i-campingcar.fr/aires.php?ville=SAINT+ROMAIN+DE+LERPS"
+      ]
+    },
+    {
+      "sourceId": "way/1285646440",
+      "place": "Sampzon — Camping-Car Park",
+      "lot": 574,
+      "checkedAt": "2026-11-25",
+      "status": "CCP officiel : aire ouverte, 32 places, 6 A; tarif courant 14,37 €/24 h dont 1,32 € de taxe 2026; base 13,05 € affichée jusqu’au 31/12/2027. 5 h + services : 6 €.",
+      "nextCheck": "Recontrôler le montant de la taxe et le total 2027 à l’entrée en vigueur des tarifs.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1285646440",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/sampzon?areaType=area-de-etapa-autocaravanas"
+      ]
+    },
+    {
+      "sourceId": "way/1287325879",
+      "place": "Saint-Romain-d’Ay — aire communale",
+      "lot": 574,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : borne Flot Bleu eau/électricité et vidange; jeton 2 € pour 20 minutes; hors service en hiver. Période publiée 29/04–29/10/2026; tarif du stationnement non renseigné.",
+      "nextCheck": "Confirmer le tarif du stationnement et la remise en service de la borne pour 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287325879",
+        "https://www.ardechegrandair.com/dormir/aires-de-camping-cars/116188_aire-de-service-accueil-camping-car-communale/"
+      ]
+    },
+    {
+      "sourceId": "way/1287477850",
+      "place": "Empurany — aire de service camping-cars",
+      "lot": 574,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme du Pays de Lamastre : participation libre, taxe de séjour non incluse; borne, eau, électricité et évacuation des eaux usées via la borne; ouverte toute l’année.",
+      "nextCheck": "Aucune vérification tarifaire restante; la participation est libre et les modalités sont publiées par l’office.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287477850",
+        "https://www.pays-lamastre-tourisme.com/fr/catalogue/activite/tous/aire-de-service-camping-cars-empurany-5865317/"
+      ]
+    },
+    {
+      "sourceId": "way/1287493626",
+      "place": "Ardoix — aire face à la caserne",
+      "lot": 574,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme Ardèche Grand Air : 4 places, emplacement gratuit, eau, électricité et vidange; eau coupée en hiver; ouverte toute l’année.",
+      "nextCheck": "Recontrôler la période de coupure et remise en service de l’eau en 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287493626",
+        "https://www.ardechegrandair.com/dormir/aires-de-camping-cars/90964_aire-de-camping-car-dardoix/"
+      ]
+    },
+    {
+      "sourceId": "way/1287513597",
+      "place": "Le Chambon — aire au village",
+      "lot": 574,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme Ardèche Hautes Vallées : stationnement gratuit, 2 places, maximum 24 h; tables de pique-nique et pétanque. Point d’eau et WC publics dans le village.",
+      "nextCheck": "Recontrôler en cas de changement municipal; ne pas présenter l’eau ou les WC comme équipements sur la zone même.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287513597",
+        "https://www.ardeche-hautes-vallees.fr/camping/aire-de-stationnement-camping-cars-du-chambon/"
+      ]
+    },
+    {
+      "sourceId": "way/1287521464",
+      "place": "Cros-de-Géorand — Camping-Car Park du lac de La Palisse",
+      "lot": 574,
+      "checkedAt": "2026-11-25",
+      "status": "Fiche officielle CCP : temporairement fermé au contrôle, 6 places; 13,36 €/24 h affichés (12,18 € + taxe 2026 de 1,18 €); parking 5 h + services : 6 €.",
+      "nextCheck": "Recontrôler l’état d’ouverture avant d’orienter les usagers vers l’aire.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287521464",
+        "https://www.campingcarpark.com/de_DE/wohnmobilaufenthalt/auvergne-rhone-alpes/ardeche/le-cros-du-georand-lac-de-la-palisse",
+        "https://montgerbierdejonc.la-montagne-ardechoise.com/FR/prestataire--aire-camping-car-park-la-palisse--553233.html"
+      ]
+    },
+    {
+      "sourceId": "way/1287526239",
+      "place": "Saint-Martial — aire près du camping municipal",
+      "lot": 574,
+      "checkedAt": "2026-11-25",
+      "status": "Mairie : 8 €/24 h par camping-car, services compris (eau, sanitaires, vidanges) et taxe séjour de 0,22 €/jour/adulte. Fiche touristique concurrente : taxe 0,59 €; montant à clarifier.",
+      "nextCheck": "Demander à la mairie/office de tourisme à quoi correspond le montant de taxe 0,59 € affiché sur l’export touristique.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287526239",
+        "https://www.st-martial.com/locations-de-vacances/camping/",
+        "https://www.montagnedardeche.com/camping/aire-de-service-camping-car-2-32827/",
+        "https://www.ardeche-guide.com/camping/aire-de-service-camping-cars-859258/"
+      ]
+    },
+    {
+      "sourceId": "way/1287529330",
+      "place": "Saint-Clément — aire de stationnement",
+      "lot": 574,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme Ardèche Hautes Vallées : 4 places au village, ouvertes toute l’année; stationnement gratuit; aucun service de borne publié.",
+      "nextCheck": "Aucune vérification tarifaire restante; recontrôler si la commune publie des services ou de nouvelles règles.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287529330",
+        "https://www.ardeche-hautes-vallees.fr/camping/aire-de-stationnement-camping-cars-de-saint-clement/"
+      ]
+    },
+    {
+      "sourceId": "way/1287633508",
+      "place": "Colombier-le-Jeune — aire communale",
+      "lot": 574,
+      "checkedAt": "2026-11-25",
+      "status": "Mairie : borne derrière la mairie pour eau et vidanges, trois emplacements près du tennis; tarifs non publiés, gratuité non déduite.",
+      "nextCheck": "Demander à la mairie le tarif éventuel des services et du stationnement.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287633508",
+        "https://colombierlejeune.fr/tourisme-et-activites/aires-de-camping-car/"
       ]
     }
   ]
