@@ -1,0 +1,139 @@
+{
+  "scope": "Aude (11), vérification des tarifs, services et conditions d'accès des fiches existantes, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-25",
+  "displayedCount": 41,
+  "rawRegionalRows": 41,
+  "deduplicatedRows": 0,
+  "currentLot": 583,
+  "department": "11",
+  "progress": {
+    "checked": 10,
+    "total": 41,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 583 : fiches 1 à 10 sur 41 contrôlées. Aucun lieu ajouté. Stationnement gratuit confirmé par source touristique pour le Cellier des Demoiselles; tarifs non publiés ou non confirmés laissés comme tels. Peyriac-Minervois : 15,60 €/24 h au 25/11/2026, taxe 2027 à confirmer. Aragon : ouverture saisonnière affichée close depuis le 30/09/2026.",
+  "entries": [
+    {
+      "sourceId": "node/5687734315",
+      "place": "Félines-Termenès — aire municipale",
+      "status": "Source secondaire reprenant les données OSM : stationnement présenté comme gratuit, 3 places et point d’eau. Aucun tarif officiel trouvé; à confirmer auprès de la mairie.",
+      "nextCheck": "Demander à la mairie de confirmer l’accès, la gratuité, les places et le fonctionnement du point d’eau.",
+      "sources": [
+        "https://www.openstreetmap.org/node/5687734315",
+        "https://spot2play.com/spot/aire-municipale-felines-termenes/"
+      ],
+      "lot": 583,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12214162818",
+      "place": "Badens — aire du Foyer",
+      "status": "Aude Tourisme : 3 places au foyer de Badens; aucun prix ni service de camping-car tarifé n’est publié (seule une poubelle est listée).",
+      "nextCheck": "Demander à la mairie si le stationnement est gratuit et si des services sont disponibles.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12214162818",
+        "https://www.audetourisme.com/fr/fiche/badens/aire-de-stationnement-pour-camping-cars_TFOACCAMLAR01100025/"
+      ],
+      "lot": 583,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12214262035",
+      "place": "Douzens — aire chemin de la Croze",
+      "status": "Aude Tourisme (fiche mise à jour le 04/01/2022) : 2 places, point d’eau potable et poubelle; aucun tarif publié. La page touristique est ancienne.",
+      "nextCheck": "Confirmer auprès de la mairie les tarifs et le fonctionnement actuel de l’eau.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12214262035",
+        "https://www.audetourisme.com/fr/fiche/douzens/aire-de-stationnement-pour-camping-cars_TFOACCAMLAR01100028/"
+      ],
+      "lot": 583,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12214791813",
+      "place": "Saint-Laurent-de-la-Cabrerisse — Cellier des Demoiselles",
+      "status": "Aude Tourisme (fiche mise à jour le 23/12/2025) : stationnement gratuit, 5 places, eau potable et poubelle; fiche donnant des horaires quotidiens 2026.",
+      "nextCheck": "Confirmer auprès du Cellier les horaires d’accès et la disponibilité de l’eau avant déplacement.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12214791813",
+        "https://www.audetourisme.com/fr/fiche/saint-laurent-de-la-cabrerisse/aire-de-stationnement-pour-camping-cars-cellier-des-demoiselles_TFOACCAMLAR011V50A2P7/"
+      ],
+      "lot": 583,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12214810738",
+      "place": "Cucugnan — Domaine Peter Sichel",
+      "status": "Aude Tourisme (fiche mise à jour le 16/12/2025) : 2 places France Passion au domaine, aire de pique-nique et caveau de dégustation; tarif non publié.",
+      "nextCheck": "Confirmer les conditions d’accueil France Passion et les services disponibles auprès du domaine.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12214810738",
+        "https://www.audetourisme.com/fr/fiche/cucugnan/aire-de-stationnement-pour-camping-cars-domaine-peter-sichel_TFOACCAMLAR011V50KYZG/"
+      ],
+      "lot": 583,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12214888140",
+      "place": "Rieux-Minervois — Domaine des Homs",
+      "status": "Le site du domaine indique 3 places et réservation téléphonique obligatoire, arrivée avant 19 h 30. Aude Tourisme indique 2 places et mentionne eau potable et électricité : capacité incohérente entre les deux sources; tarif non publié.",
+      "nextCheck": "Demander au domaine le nombre de places, le prix de nuitée et d’électricité, et les services inclus.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12214888140",
+        "https://www.domainedeshoms.com/oenotourisme/accueil-camping-car/",
+        "https://www.audetourisme.com/fr/fiche/rieux-minervois/aire-de-stationnement-pour-camping-cars-domaine-des-homs_TFOACCAMLAR011V50WUD3/"
+      ],
+      "lot": 583,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12214995014",
+      "place": "Aragon — Espace Collin’",
+      "status": "Aude Tourisme (fiche du 10/03/2026) : parking de 40 places, sans services, ouvert du 01/04 au 30/09/2026; période terminée au 25/11/2026. Grand Carcassonne Tourisme décrit l’accès comme libre; aucun prix chiffré publié.",
+      "nextCheck": "Vérifier auprès de Collin’ les dates et conditions d’ouverture 2027 ainsi que le prix éventuel.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12214995014",
+        "https://www.audetourisme.com/fr/fiche/aragon/aire-de-stationnement-pour-camping-cars-espace-collin_TFOACCAMLAR011V512KMT/",
+        "https://www.grand-carcassonne-tourisme.fr/restaurant/collin/"
+      ],
+      "lot": 583,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12763039477",
+      "place": "Gardie — aire de stationnement",
+      "status": "Seule la présence du point est confirmée par la donnée cartographique; aucune source municipale ou touristique fiable trouvée pour le tarif, les services ou les conditions de nuitée.",
+      "nextCheck": "Confirmer auprès de la mairie de Gardie l’existence de l’aire, l’accès de nuit, les services et les tarifs.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12763039477"
+      ],
+      "lot": 583,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/14276755473",
+      "place": "Peyriac-Minervois — Camping-Car Park",
+      "status": "CCP : aire ouverte, 6 places, 6 A; tarif de base 14 € / 24 h du 20/10/2026 au 31/12/2027. Taxe de séjour actuelle 1,60 € / 24 h jusqu’au 31/12/2026, soit 15,60 € actuellement; taxe 2027 non publiée. Parking 5 h + services : 6 €; sanitaires annoncés ouverts toute l’année.",
+      "nextCheck": "Confirmer la taxe de séjour 2027 et le prochain barème après le 31/12/2027.",
+      "sources": [
+        "https://www.openstreetmap.org/node/14276755473",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/peyriac-minervois"
+      ],
+      "lot": 583,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/135195869",
+      "place": "Fleury — aire des Cabanes de Fleury",
+      "status": "Aude Tourisme : aire de 50 places, carte bancaire, eau, électricité, vidanges eaux usées et chimiques, wifi; fiche ouverte pour 2026. Aucun tarif publié sur la fiche consultée.",
+      "nextCheck": "Demander à la commune les tarifs en vigueur et confirmer le fonctionnement en 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/135195869",
+        "https://www.audetourisme.com/fr/fiche/fleury/aire-de-services-pour-camping-cars-cabanes-de-fleury_TFOACCAMLAR011V500QFH/"
+      ],
+      "lot": 583,
+      "checkedAt": "2026-11-25"
+    }
+  ]
+}
