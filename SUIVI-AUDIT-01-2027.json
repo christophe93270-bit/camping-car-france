@@ -1,7 +1,7 @@
 {
   "scope": "Ain (01), contrôle par lots de dix fiches existantes",
   "startedAt": "2026-11-25",
-  "note": "Lot 557 : fiches 1–10 sur 20 contrôlées le 25/11/2026. Trois tarifs CCP 2027 identifiés; le tarif de Châtillon a une contradiction entre grille saisonnière et encart dynamique. Gratuités de service ou stationnement gardées distinctes de l'autorisation de nuitée. Aucun lieu ajouté.",
+  "note": "Lots 557 (fiches 1–10) et 558 (fiches 11–20) du département Ain contrôlés le 25/11/2026; 20 fiches existantes examinées, aucun lieu ajouté. CCP : tarifs 2027 mis à jour à partir des grilles saisonnières, avec écarts entre grilles détaillées et liste départementale signalés. Les tarifs communaux 2026 ne sont pas présentés comme confirmés pour 2027.",
   "entries": [
     {
       "sourceId": "node/6791949714",
@@ -122,6 +122,129 @@
         "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/st-vulbas?areaType=area-de-etapa-autocaravanas"
       ],
       "lot": 557,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1233269576",
+      "name": "CCP Port de Virignin",
+      "status": "grille 2027 trouvée; base variable en décembre.",
+      "finding": "CCP publie 14,40 €/24 h du 01/01 au 14/12/2027 et 14,39 € du 15 au 31/12/2027; taxe de séjour 1,32 €, soit 15,72 € puis 15,71 €. Forfait 5 h + services séparé.",
+      "nextCheck": "Contrôler que le panier applique bien les deux périodes saisonnières 2027 et garder les 5 h à part.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/virignin?areaType=aire-etape-camping-car"
+      ],
+      "lot": 558,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1263812019",
+      "name": "CCP Mézériat",
+      "status": "grille 2027 détaillée différente de la liste départementale.",
+      "finding": "Grille : 12,22 €/24 h jusqu'au 31/12/2027 + taxe 2027 de 1,22 €, total 13,44 €. Liste départementale indexée affiche 13,32 €.",
+      "nextCheck": "Vérifier le total au panier et faire remonter l'écart entre fiche détaillée et liste CCP.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/mezeriat?areaType=aire-etape-camping-car",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/ain"
+      ],
+      "lot": 558,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1270225382",
+      "name": "CCP Saint-Trivier-de-Courtes",
+      "status": "grille 2027 confirmée.",
+      "finding": "11,20 €/24 h du 18/11/2026 au 31/12/2027 + taxe 2027 de 1,32 €, total 12,52 €. Parking 5 h + services à 6 € séparé.",
+      "nextCheck": "Recontrôler après le 31/12/2027; conserver l'offre 5 h distincte.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/st-trivier-de-courtes"
+      ],
+      "lot": 558,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1304922726",
+      "name": "CCP Pont-de-Vaux",
+      "status": "grille 2027 confirmée.",
+      "finding": "12,22 €/24 h à compter du 25/11/2026 jusqu'au 31/12/2027 + taxe 1,32 €, total 13,54 €. Parking 5 h + services à 6 € séparé.",
+      "nextCheck": "Recontrôler le tarif après le 31/12/2027 et garder le forfait 5 h séparé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/pont-de-vaux?areaType=aire-etape-camping-car"
+      ],
+      "lot": 558,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1322636381",
+      "name": "Aire municipale d'Illiat",
+      "status": "stationnement/services gratuits confirmés par la Mairie.",
+      "finding": "Quatre places à l'étang Rivériat, eau, vidange eaux grises/noires, WC publics, ouverture annuelle, gratuit sans taxe de séjour. Nuitée n'est pas précisée séparément.",
+      "nextCheck": "Si une règle de nuitée particulière doit être affichée, demander confirmation à la Mairie.",
+      "sources": [
+        "https://www.illiat.fr/articles/aire-de-camping-car/"
+      ],
+      "lot": 558,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1330931484",
+      "name": "Aire d'accueil camping-cars Le Caveau Bugiste (Vongnes)",
+      "status": "2 emplacements sans vidange; gratuité 24 h via France Passion.",
+      "finding": "Office de tourisme : aire pour deux camping-cars sans vidange. Caveau Bugiste : 24 h de stationnement gratuit dans le cadre du partenariat France Passion; les conditions d'accès et services ne sont pas tous détaillés.",
+      "nextCheck": "Vérifier les conditions France Passion et ne pas afficher l'électricité OSM comme service confirmé.",
+      "sources": [
+        "https://www.bugeysud-tourisme.fr/offres/aire-daccueil-pour-camping-cars-le-caveau-bugiste-vongnes-fr-3971360/",
+        "https://www.caveau-bugiste.fr/pratique/faq/"
+      ],
+      "lot": 558,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1380956649",
+      "name": "Aire communale de Saint-André-sur-Vieux-Jonc",
+      "status": "tarif publié pour 2026; 2027 à confirmer.",
+      "finding": "Mairie/Office de tourisme : 5 emplacements, eau, vidange, WC publics; 6 €/nuit + taxe 0,55 €/adulte/nuit, saison d'ouverture 01/04–31/10/2026 hors gel. Aucune grille 2027 trouvée.",
+      "nextCheck": "Demander à la mairie le tarif et la période d'ouverture 2027.",
+      "sources": [
+        "https://www.standresurvieuxjonc.fr/4055-camping-car-et-caravanes.htm",
+        "https://www.bourgenbressedestinations.fr/offres/aire-de-camping-cars-saint-andre-sur-vieux-jonc-fr-3048226/"
+      ],
+      "lot": 558,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1567683627",
+      "name": "CCP Saint-Nizier-le-Désert",
+      "status": "plusieurs saisons 2026–2027 publiées.",
+      "finding": "Tarif 24 h tout compris : 14,02 € jusqu'au 30/11/2026; 13,02 € du 01/12/2026 au 28/02/2027; 14,02 € du 01/03 au 30/04/2027. Base/taxe 1,02 € distinguées et parking 5 h séparé.",
+      "nextCheck": "Réexaminer le barème après le 30/04/2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/saint%20nizier%20le%20desert?areaType=aire-etape-camping-car"
+      ],
+      "lot": 558,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/seyssel",
+      "name": "CCP Seyssel",
+      "status": "grille 2027 confirmée; zone soumise au PPRI.",
+      "finding": "12,40 €/24 h du 14/11/2026 au 31/12/2027 + taxe 1,10 €, total 13,50 €. Parking 5 h + services à 6 € distinct.",
+      "nextCheck": "Recontrôler après le 31/12/2027 et tenir compte du risque d'inondation signalé sur la fiche CCP.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/seyssel?areaType=aire-etape-camping-car"
+      ],
+      "lot": 558,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/mantenay-montlin",
+      "name": "Camping du Coq (Mantenay-Montlin), CCP",
+      "status": "grille 2027 confirmée; sanitaires saisonniers.",
+      "finding": "12,50 €/24 h du 19/11/2026 au 31/12/2027 + taxe 0,44 €, total 12,94 €. Sanitaires saisonniers; dates 2027 non établies.",
+      "nextCheck": "Confirmer les dates d'ouverture sanitaires 2027 et recontrôler le prix après le 31/12/2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ain/mantenay-montlin?areaType=campingplatzen"
+      ],
+      "lot": 558,
       "checkedAt": "2026-11-25"
     }
   ]
