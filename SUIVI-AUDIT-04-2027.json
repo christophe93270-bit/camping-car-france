@@ -1,7 +1,7 @@
 {
   "scope": "Alpes-de-Haute-Provence (04), vérification des fiches existantes par lots de dix",
   "startedAt": "2026-11-25",
-  "note": "Lot 566 : fiches 1–10 sur 32 contrôlées. Aucun lieu ajouté. Tarifs saisonniers, anciens, non datés ou contradictoires signalés comme à confirmer; ne pas confondre aires de stationnement et points de services distincts.",
+  "note": "Lots 566–567 : fiches 1–20 sur 32 contrôlées. Aucun lieu ajouté. Tarifs saisonniers, anciens ou contradictoires signalés; distinguer les aires distinctes de Castellane. Fiches 21–32 à traiter au lot 568.",
   "entries": [
     {
       "sourceId": "node/2284800314",
@@ -124,6 +124,129 @@
         "https://www.dignelesbains-tourisme.com/camping-aire-camping-car/aire-de-service-et-de-stationnement-camping-cars/"
       ],
       "lot": 566,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/342018545",
+      "name": "Aire de camping-car de Sainte-Tulle, Porte de Haute Provence",
+      "status": "CCP affiche 14,15 €/24 h dont 1,22 € de taxe; ancien extrait à 16,12 € écarté.",
+      "finding": "23 places, 6 A; adresse Avenue Léo Lagrange. Tarif actuel selon fiche CCP consultée le 25/11/2026.",
+      "nextCheck": "Recontrôler au prochain changement tarifaire CCP.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-de-haute-provence/sainte-tulle?areaType=aire-etape-camping-car"
+      ],
+      "lot": 567,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/458350433",
+      "name": "Aire Camping-car municipale Gréoux-les-Bains",
+      "status": "tarif municipal confirmé : 13 €/jour, taxe comprise.",
+      "finding": "72 places, eau, électricité 6 A, vaisselle eau chaude, vidange, WC, Wi-Fi; accueil toute l'année.",
+      "nextCheck": "Recontrôler le barème municipal.",
+      "sources": [
+        "https://www.mairie-greouxlesbains.fr/aire-camping-cars/"
+      ],
+      "lot": 567,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/458455481",
+      "name": "Aire de camping-car de Puimoisson — Les Lavandins",
+      "status": "CCP affiche 14,56 €/24 h TTC; divergence avec grille saisonnière OT.",
+      "finding": "CCP : 14,56 € dont taxe 1,22. OT Pays de Manosque : 14,20 € mai-septembre ou 13,10 € octobre-avril, hors taxe. 40 places.",
+      "nextCheck": "Faire clarifier par CCP/OT le tarif saisonnier applicable et la taxe avant prochain lot tarifaire.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-de-haute-provence/puimoisson",
+        "https://www.paysdemanosque.com/aire-d-accueil-camping-cars-les-lavandins.html"
+      ],
+      "lot": 567,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/516117531",
+      "name": "Aire de stationnement Castellane",
+      "status": "électricité à 3 €/jour en saison 2026; prix de base de l'emplacement absent.",
+      "finding": "Aire distincte de La Boudousque, située au Cheiron/CD 402; ouverte du 01/03 au 31/10/2026.",
+      "nextCheck": "Demander au gestionnaire le tarif de stationnement de base pour 2027.",
+      "sources": [
+        "https://www.castellane-verdon.com/commerce-service/aire-de-stationnement-castellane-camping-cars/"
+      ],
+      "lot": 567,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/583947711",
+      "name": "Aire de Camping-Car Riez",
+      "status": "tarif non publié par la mairie; ne pas déduire la gratuité.",
+      "finding": "48 places, eau, vidanges et déchets; Parking de l'Auvestre, ouverture publiée du 15/03 au 30/10/2026.",
+      "nextCheck": "Demander à la mairie de Riez le prix du stationnement et les tarifs eau/vidange.",
+      "sources": [
+        "https://www.ville-riez.fr/hotellerie-plein-air/aire-accueil-camping-cars-riez"
+      ],
+      "lot": 567,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/605889505",
+      "name": "Aire Camping Car d'Annot",
+      "status": "emplacement et services gratuits confirmés par l'OT.",
+      "finding": "25 places, 7 nuits maximum, eau et vidange; saison jusqu'au 30/11/2026 sauf neige.",
+      "nextCheck": "Recontrôler à la prochaine réouverture saisonnière.",
+      "sources": [
+        "https://www.tourisme-alpes-haute-provence.com/ou-dormir/586668_aire-de-service-accueil-camping-cars-annot-aire-camping-cars-dannot/"
+      ],
+      "lot": 567,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/626142648",
+      "name": "Aire de camping-car de Moustiers-Sainte-Marie",
+      "status": "13,60 €/24 h TTC; tarif de saison CCP publié jusqu'au 31/12/2027.",
+      "finding": "12,28 € + taxe séjour 1,32 €/24 h; parking 5 h + services 5,50 €. Bandeau dynamique CCP différent de la grille saisonnière.",
+      "nextCheck": "Faire confirmer quelle valeur CCP applique effectivement à la borne, car le bandeau du site renvoie 16,60 €.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-de-haute-provence/moustiers-sainte-marie?areaType=stopover-site-motorhome"
+      ],
+      "lot": 567,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/708189347",
+      "name": "Aire municipale de Saint Etienne Les Orgues",
+      "status": "tarif 2026 à confirmer; seul barème retrouvé est explicitement daté 2024.",
+      "finding": "OT: route de Fontienne, eau, vidange, 72h max, ouvert à l'année. Source 2024: eau 3 €, électricité 8 €, services de vidange gratuits.",
+      "nextCheck": "Demander à la mairie le barème 2026 et confirmer si le branchement électrique est toujours disponible.",
+      "sources": [
+        "https://www.tourisme-alpes-haute-provence.com/ou-dormir/4766556_aire-de-service-accueil-camping-cars-saint-etienne-les-orgues-aire-de-camping-car/",
+        "https://www.camping-car.com/aires/45073-aire-communale/"
+      ],
+      "lot": 567,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/821886036",
+      "name": "Aire de service et de stationnement camping-car de Banon",
+      "status": "tarif municipal publié : 8 €/jour.",
+      "finding": "Stationnement limité à 7 nuits; eau, vidange, électricité aux heures de l'éclairage public; hors gel l'hiver.",
+      "nextCheck": "Recontrôler si la mairie met à jour sa page tarifaire.",
+      "sources": [
+        "https://banon.fr/infos-pratiques-banon/"
+      ],
+      "lot": 567,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/914089391",
+      "name": "La Bréole Aire de camping-car",
+      "status": "gratuité officielle confirmée; site fermé hors saison (mi-avril–fin octobre).",
+      "finding": "8 places, 2 nuits max, eau, lavage et vidanges au lieu-dit Boneisse/La Bréole.",
+      "nextCheck": "Vérifier l'ouverture et l'état de la borne à la prochaine saison.",
+      "sources": [
+        "https://www.tourisme-alpes-haute-provence.com/ou-dormir/928042_aire-de-service-accueil-camping-cars-ubaye-serre-poncon-aire-de-service-et-de-stationnement-camping-car-de-la-breole/",
+        "https://www.ubaye-serre-poncon.fr/guide-pratique/aire-camping"
+      ],
+      "lot": 567,
       "checkedAt": "2026-11-25"
     }
   ]
