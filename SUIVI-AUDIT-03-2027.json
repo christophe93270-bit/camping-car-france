@@ -1,7 +1,7 @@
 {
   "scope": "Allier (03), contrôle des fiches existantes par lots de dix",
   "startedAt": "2026-11-25",
-  "note": "Lot 563 : fiches 1–10 sur 28 contrôlées. Aucun lieu ajouté. Les tarifs non officiels, anciens ou sans unité claire restent signalés comme à confirmer.",
+  "note": "Lots 563–564 : 20 premières fiches existantes de l'Allier (03) contrôlées. Lot 564 traite les fiches 11–20. Aucun lieu ajouté. Les tarifs non officiels, anciens, contradictoires ou aux unités imprécises restent signalés comme à confirmer.",
   "entries": [
     {
       "sourceId": "node/11479095183",
@@ -125,6 +125,130 @@
         "https://www.cirkwi.com/fr/point-interet/3794400-aire-d-accueil-et-de-services-de-montmarault"
       ],
       "lot": 563,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/912176429",
+      "name": "Aire de camping-cars Vichy-Bellerive",
+      "status": "tarifs et services affichés par l'exploitant.",
+      "finding": "Aire indépendante du camping Beau Rivage, ouverte toute l'année 24h/24; vidange/eau/électricité/Wi-Fi inclus; à partir de 13,50 €/24h ou 5 €/30min.",
+      "nextCheck": "Confirmer seulement si le barème change; conserver « à partir de » car l'exploitant affiche des prix planchers.",
+      "sources": [
+        "https://www.aire-campingcars-vichy.com/tarifs/",
+        "https://www.ville-bellerive-sur-allier.fr/fiche/camping-des-isles/"
+      ],
+      "lot": 564,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1170388002",
+      "name": "Aire Pierre Tantot, Creuzier-le-Vieux",
+      "status": "tarif municipal du jeton d'eau confirmé.",
+      "finding": "33–35 rue de la Mairie; stationnement, vidange eaux grises; jeton d'eau 4 €. Aucune électricité publiée.",
+      "nextCheck": "Conserver l'unité « eau » associée au jeton et ne pas le compter comme prix de nuitée.",
+      "sources": [
+        "https://www.creuzier-le-vieux.com/services/borne-pour-camping-car/"
+      ],
+      "lot": 564,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1232524033",
+      "name": "Aire intercommunale de Prémilhat",
+      "status": "8 places et 72h documentées; ancien tarif 2019 à reconfirmer.",
+      "finding": "Étang de Sault; une source spécialisée indique 8 places et limite 72h. Article de 2019 : parking gratuit, 2,50€ électricité/10h, eau 5€/150L, combiné 7,50€.",
+      "nextCheck": "Demander le barème actuel et l'état de la borne; ne pas afficher les prix 2019 comme actuels.",
+      "sources": [
+        "https://www.camping-car.com/aires/27527-aire-intercommunale/",
+        "https://www.camping-car.com/tourisme/actus-des-aires/25075-premilhat-une-aire-de-camping-car-au-bord-dun-etang/"
+      ],
+      "lot": 564,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1274451313",
+      "name": "Aire intercommunale de Diou",
+      "status": "gestion municipale et adresse officielles; prix secondaires contradictoires.",
+      "finding": "Mairie : 2 chemin de la Procession. Annuaire indique 2€/h d'électricité; un avis 2025 cite 5€/24h; stationnement gratuit annoncé, mais conditions nocturnes anciennes à reconfirmer.",
+      "nextCheck": "Appeler le gestionnaire (04 70 42 90 44) pour tarifs, service en saison et nuitée.",
+      "sources": [
+        "https://www.diou03.fr/camping-chambres-hotes-diou-allier",
+        "https://www.i-campingcar.fr/aires.php?ville=DIOU"
+      ],
+      "lot": 564,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1284739794",
+      "name": "Aire Camping-Car Park de Néris-les-Bains",
+      "status": "tarif officiel 14,85€/24h et taxe de séjour confirmés jusqu'à fin 2027.",
+      "finding": "14,85€/24h dont 1,10€ de taxe; page CCP affiche 35 places ouvertes sur 37. Route de Clermont.",
+      "nextCheck": "Recontrôler après le 31/12/2027; conserver la taxe distincte du prix de base.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/allier/neris-les-bains"
+      ],
+      "lot": 564,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1284740575",
+      "name": "Aire Camping-Car Park de Reugny",
+      "status": "tarif officiel 14,10€/24h confirmé; sanitaires ouverts en 2026.",
+      "finding": "14,10€/24h dont 1,10€ de taxe; page CCP affiche 40 places ouvertes sur 48; sanitaires jusqu'au 31/12/2026.",
+      "nextCheck": "Recontrôler les sanitaires et tarif à la prochaine saison.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/allier/reugny"
+      ],
+      "lot": 564,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1293070726",
+      "name": "Aire communale de Beaulon",
+      "status": "aire et stationnement documentés; borne de services signalée en panne en septembre 2026.",
+      "finding": "Mairie : une dizaine de places, ouverte toute l'année, nuitée possible et regards eaux noires/eaux usées. Un usager signale une panne de la borne le 21/09/2026.",
+      "nextCheck": "Confirmer auprès de la mairie la remise en service avant d'annoncer eau ou électricité; tarif non publié officiellement.",
+      "sources": [
+        "https://www.beaulon.com/decouvrir-beaulon/camping/",
+        "https://www.i-campingcar.fr/aires.php?ville=BEAULON"
+      ],
+      "lot": 564,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1305271008",
+      "name": "Aire communale de Sorbier",
+      "status": "accès gratuit et services confirmés par mairie.",
+      "finding": "Route de Varennes-sur-Têche; eau, vidanges eaux usées/WC et électricité; accès gratuit.",
+      "nextCheck": "Aucune vérification tarifaire restante; garder capacité non renseignée faute de chiffre municipal.",
+      "sources": [
+        "https://www.intramuros.org/sorbier/decouvrir/11366"
+      ],
+      "lot": 564,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1305271758",
+      "name": "Aire d'accueil de Souvigny",
+      "status": "stationnement gratuit; vidange payante sans montant publié.",
+      "finding": "OT : 9 emplacements, eau, vidanges, déchets, toute l'année 24/24; stationnement gratuit et vidange payable en espèces, prix non affiché.",
+      "nextCheck": "Demander le montant de vidange à l'exploitant; ne pas assimiler à une nuitée payante.",
+      "sources": [
+        "https://www.moulins-tourisme.com/camping/aire-daccueil-et-de-services-7/"
+      ],
+      "lot": 564,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1305276407",
+      "name": "Aire Les Vergers, Mazerier",
+      "status": "localisation corrigée; tarifs et capacité variable publiés par OT/gestionnaire.",
+      "finding": "Mazerier, 32 route de Gannat; stationnement à contribution libre, électricité ~1,50€, eau/vidange 1€/100L; 24/24 toute l'année; emplacements adaptés selon gabarit.",
+      "nextCheck": "Confirmer au propriétaire la disponibilité et le tarif approximatif d'électricité avant séjour.",
+      "sources": [
+        "https://valdesioule.resalocal.com/fr/hebergements/aire-daccueil-et-de-services-chez-lhabitant-les-vergers"
+      ],
+      "lot": 564,
       "checkedAt": "2026-11-25"
     }
   ]
