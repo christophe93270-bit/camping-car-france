@@ -5,12 +5,12 @@
     "city": "Signy-l'Abbaye",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
+      "2 emplacements",
       "Électricité",
-      "Wi-Fi",
-      "Salle de bain"
+      "Wi-Fi"
     ],
     "price": "15 € / nuit pour un emplacement ; réservation auprès de l'exploitant",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "ADT des Ardennes : La Fosse Bleue propose 2 emplacements à 15 € la nuit sur réservation. Électricité et Wi-Fi indiqués; la salle de bain présente dans les données initiales n’est pas confirmée par la fiche touristique consultée.",
     "source": "https://www.openstreetmap.org/node/12582695770",
     "latitude": 49.7134125,
     "longitude": 4.4134584,
@@ -25,7 +25,12 @@
     "addressSource": "https://www.campercontact.com/fr/france/grand-est/signy-labbaye/104758/la-fosse-bleue-librecy",
     "priceSource": "https://www.ardennes.com/camping/camperplaats-aire-de-camping-car-la-fosse-bleue/",
     "sourceOfficial": "https://www.ardennes.com/camping/camperplaats-aire-de-camping-car-la-fosse-bleue/",
-    "capacity": 2
+    "capacity": 2,
+    "verificationSource": "https://www.ardennes.com/camping/camperplaats-aire-de-camping-car-la-fosse-bleue/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche ADT : chemin de la Fosse Bleue, Signy-l’Abbaye; 2 emplacements, réservation par courriel. La fiche ne confirme pas la salle de bain mentionnée en données initiales.",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "15 € par nuit et par emplacement selon l’ADT; réservation requise."
   },
   {
     "department": "08",
@@ -33,10 +38,13 @@
     "city": "Sedan",
     "type": "Aire d’étape Camping-Car Park",
     "services": [
-      "Électricité"
+      "20 emplacements",
+      "Électricité",
+      "Eau potable",
+      "Vidange"
     ],
-    "price": "13,61 € / 24 h, dont 0,88 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Aire d’étape Camping-Car Park ouverte ; catégorie, adresse, coordonnées et tarif vérifiés sur la fiche officielle.",
+    "price": "13,61 € / 24 h au 25/11/2026, dont 0,88 € de taxe; base 12,73 € publiée du 15/10/2026 au 31/12/2027.",
+    "status": "Fiche officielle CCP : aire d’étape ouverte à Sedan, 20 emplacements. Tarif courant 13,61 €/24 h (12,73 € + taxe 2026 de 0,88 €); parking 5 h + services : 6 €.",
     "source": "https://www.openstreetmap.org/way/176871599",
     "latitude": 49.6987,
     "longitude": 4.938069,
@@ -47,12 +55,15 @@
     "sourceId": "way/176871599",
     "servicesSource": "https://www.openstreetmap.org/way/176871599",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/sedan",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Grille officielle : 12,73 € de stationnement / 24 h et 0,88 € de taxe de séjour, tarif en cours jusqu’au 31/12/2027.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/sedan?areaType=aire-etape-camping-car",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Tarif en cours 13,61 €/24 h, taxe 2026 de 0,88 € comprise; base 12,73 € jusqu’au 31/12/2027. Taxe applicable en 2027 à vérifier.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/sedan",
     "address": "Boulevard Fabert, 08200 Sedan",
-    "capacity": 20
+    "capacity": 20,
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/sedan?areaType=aire-etape-camping-car",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche CCP : aire ouverte; 20 emplacements au bord de la Meuse."
   },
   {
     "department": "08",
@@ -63,10 +74,12 @@
       "Eau",
       "Électricité",
       "Douches et sanitaires",
-      "Lave-linge et sèche-linge"
+      "Lave-linge et sèche-linge",
+      "Bac à vaisselle",
+      "Stationnement hors saison sans services"
     ],
-    "price": "5 € / emplacement ; électricité 3,50 € / 24 h ; taxe de séjour 0,55 € par adulte",
-    "status": "Services d'avril à octobre ; stationnement possible hors saison sans services",
+    "price": "5 € / emplacement / nuit; électricité 3,50 € / jour; taxe de séjour 0,55 € / adulte / jour.",
+    "status": "ADT des Ardennes : aire quai Aristide Briand; services eau, électricité, douches et sanitaires, laverie et bac à vaisselle. Tarifs affichés : emplacement 5 €, électricité 3,50 €/jour, taxe 0,55 €/adulte/jour. Services d’avril à octobre; stationnement possible hors saison sans services.",
     "source": "https://www.openstreetmap.org/way/353211068",
     "latitude": 49.8860926,
     "longitude": 4.7360326,
@@ -78,9 +91,13 @@
     "servicesSource": "https://www.openstreetmap.org/way/353211068",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
     "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car-de-montherme/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons.",
-    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-de-montherme/"
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "L’ADT affiche 5 € pour l’emplacement, 3,50 € par jour d’électricité et 0,55 € de taxe par adulte/jour.",
+    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-de-montherme/",
+    "address": "Quai Aristide Briand, 08800 Monthermé",
+    "verificationSource": "https://www.ardennes.com/camping/aire-de-camping-car-de-montherme/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche ADT : aire quai Aristide Briand; services sur place et tarifs publiés."
   },
   {
     "department": "08",
@@ -88,11 +105,13 @@
     "city": "Charleville-Mézières",
     "type": "Aire d’étape Camping-Car Park",
     "services": [
+      "22 emplacements",
+      "Électricité 6 A",
       "Eau potable",
-      "Électricité"
+      "Vidange"
     ],
-    "price": "13,61 € / 24 h, dont 0,88 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Aire d’étape Camping-Car Park ouverte ; catégorie, adresse, coordonnées et tarif vérifiés sur la fiche officielle.",
+    "price": "13,61 € / 24 h au 25/11/2026, dont 0,88 € de taxe; base 12,73 € publiée du 14/10/2026 au 31/12/2027.",
+    "status": "Fiche officielle CCP : aire d’étape ouverte au 108 rue des Pâquis, 22 places et raccordement 6 A. Tarif courant 13,61 €/24 h (12,73 € + taxe 2026 de 0,88 €); parking 5 h + services : 6 €.",
     "source": "https://www.openstreetmap.org/way/388098184",
     "latitude": 49.7790246,
     "longitude": 4.7200655,
@@ -103,12 +122,15 @@
     "sourceId": "way/388098184",
     "servicesSource": "https://www.openstreetmap.org/way/388098184",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/charleville-mezieres",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Grille officielle : 12,73 € de stationnement / 24 h et 0,88 € de taxe de séjour.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/charleville-mezieres?areaType=aire-etape-camping-car",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Tarif courant 13,61 €/24 h, taxe 2026 de 0,88 € incluse; base 12,73 € jusqu’au 31/12/2027. Taxe 2027 à revérifier.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/charleville-mezieres",
     "capacity": 22,
-    "address": "108 rue des Pâquis, 08000 Charleville-Mézières"
+    "address": "108 rue des Pâquis, 08000 Charleville-Mézières",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/charleville-mezieres?areaType=aire-etape-camping-car",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Adresse, GPS, aire ouverte, 22 places et 6 A vérifiés sur la fiche officielle CCP."
   },
   {
     "department": "08",
@@ -116,8 +138,8 @@
     "city": "Haybes",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Camping municipal : emplacement 4 €, adulte 3 €/jour, véhicule 1 €, électricité 5 €/jour, taxe 0,22 €/personne/nuit ; vidange camping-car 3 € ; tarifs à combiner selon séjour",
-    "status": "Camping municipal ouvert du 1er mai au 25 octobre 2026 ; vérifier que le point GPS correspond bien à l'aire du camping",
+    "price": "Camping municipal 2026 : emplacement 5 €/nuit, campeur 4 €/jour, véhicule 2 €/jour, électricité 6 €/jour, taxe 0,22 €/personne/nuit. Forfait camping-car de 4 € pour eaux usées, eau potable et électricité. Correspondance exacte du point OSM à confirmer.",
+    "status": "Ville de Haybes : camping municipal ouvert du 01/05 au 25/10/2026. Le tarif publié distingue les frais de séjour (emplacement, personne, véhicule, électricité et taxe) d’un forfait camping-car de 4 € pour services. Le point OSM au 23 rue du 24 Août doit encore être confirmé comme l’aire du camping.",
     "source": "https://www.openstreetmap.org/way/497622295",
     "latitude": 50.0110011,
     "longitude": 4.7083234,
@@ -127,10 +149,14 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/497622295",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
-    "priceNote": "La mairie de Haybes publie des tarifs pour le camping municipal et des services camping-car ; il faut confirmer qu'ils concernent cette aire précise.",
-    "priceSource": "https://www.ardennes.com/camping/camping-municipal-de-haybes/",
+    "priceNote": "Tarifs municipaux affichés pour 2026 : 5 € emplacement, 4 € campeur, 2 € véhicule, 6 € électricité/jour, taxe 0,22 €/personne/nuit; forfait camping-car 4 € pour eaux usées, eau potable, électricité. Faire confirmer si le forfait service s’ajoute au séjour.",
+    "priceSource": "https://www.haybes.fr/tourisme/camping",
     "sourceOfficial": "https://www.ardennes.com/camping/camping-municipal-de-haybes/",
-    "address": "23 rue du 24 Août, 08170 Haybes"
+    "address": "23 rue du 24 Août, 08170 Haybes",
+    "verificationSource": "https://www.haybes.fr/tourisme/camping",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "La page municipale affiche les tarifs 2026 et l’ouverture du camping; elle ne confirme pas que le point OSM du 23 rue du 24 Août corresponde précisément à l’aire ou à l’emplacement de camping-car.",
+    "priceVerifiedOn": "2026-11-25"
   },
   {
     "department": "08",
@@ -138,13 +164,15 @@
     "city": "Revin",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Stationnement gratuit",
+      "17 emplacements gratuits",
       "Vidange gratuite",
-      "Eau payante",
-      "Électricité payante"
+      "Eau : tarif historique 3 € / 100 L",
+      "Électricité : tarif historique 3 € / heure, 16 A",
+      "Eau hors gel novembre–mars",
+      "Durée maximale 7 jours"
     ],
-    "price": "Stationnement gratuit ; eau 3 € / 100 L ; électricité 3 € / heure",
-    "status": "Aire annexe ouverte du 1er avril au 31 octobre selon météo ; eau susceptible d'être coupée de novembre à mars ; tarifs affichés historiquement, à reconfirmer",
+    "price": "Stationnement et vidange gratuits; tarifs de borne affichés (eau 3 € / 100 L; électricité 3 € / heure) correspondent à 2024 et ne sont pas confirmés pour 2025/2026.",
+    "status": "ADT des Ardennes : 17 places gratuites, vidanges gratuites, eau 3 €/100 L et électricité 3 €/h dans la grille 2024. La source indique expressément que le tarif 2025 n’était pas voté; tarifs 2026 non confirmés. Eau hors gel de novembre à mars; limite de longueur 5 m et séjour maximal 7 jours.",
     "source": "https://www.openstreetmap.org/way/523063721",
     "latitude": 49.9396278,
     "longitude": 4.6383038,
@@ -156,10 +184,13 @@
     "servicesSource": "https://www.openstreetmap.org/way/523063721",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
     "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car-revin/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons.",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Montants historiques 2024 uniquement; tarif 2025 signalé non voté par la source, aucun tarif 2026 confirmé.",
     "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-revin/",
-    "capacity": 17
+    "capacity": 17,
+    "verificationSource": "https://www.ardennes.com/camping/aire-de-camping-car-revin/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "La fiche ADT indique 17 places, stationnement gratuit et une aire annexe saisonnière sans borne. Elle précise que les montants affichés sont ceux de 2024 et que ceux de 2025 n’étaient pas encore votés."
   },
   {
     "department": "08",
@@ -167,12 +198,13 @@
     "city": "Vireux-Molhain",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
+      "23 emplacements",
       "Eau potable",
-      "Vidange eaux usées",
-      "Électricité"
+      "Vidange des eaux usées",
+      "Accès 24 h/24 par carte bancaire"
     ],
-    "price": "11 € / jour + 0,22 € de taxe de séjour",
-    "status": "Accès 24 h/24 par carte bancaire selon ADT ; horaires publiés jusqu'au 31 décembre 2027",
+    "price": "11 € / jour + 0,22 € de taxe de séjour par jour.",
+    "status": "ADT des Ardennes : nouvelle aire de 23 emplacements rue des Hayettes, ouverte du 08/10/2026 au 31/12/2027, accès par carte bancaire 24 h/24; eau et vidange des eaux usées. Tarif 11 €/jour + taxe 0,22 €.",
     "source": "https://www.openstreetmap.org/way/567561685",
     "latitude": 50.0791299,
     "longitude": 4.7267332,
@@ -183,12 +215,15 @@
     "sourceId": "way/567561685",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
     "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car-vireux-molhain/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons.",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Emplacement 11 €/jour, taxe de séjour 0,22 € en sus.",
     "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-vireux-molhain/",
     "capacity": 23,
     "address": "Rue des Hayettes, 08320 Vireux-Molhain",
-    "sourceVerificationNote": "ADT Ardennes confirme eau et vidange ; Camping-Car Magazine signale également l'électricité (octobre 2026)."
+    "sourceVerificationNote": "ADT Ardennes confirme eau et vidange ; Camping-Car Magazine signale également l'électricité (octobre 2026).",
+    "verificationSource": "https://www.ardennes.com/camping/aire-de-camping-car-vireux-molhain/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche ADT : nouvelle aire ouverte à compter du 8 octobre 2026, rue des Hayettes; services publiés : eau et vidange. Aucune électricité citée dans la fiche."
   },
   {
     "department": "08",
@@ -196,10 +231,12 @@
     "city": "Bogny-sur-Meuse",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Deux sites distincts dans la commune",
+      "6 places gratuites toute l’année sur le site de Château-Regnault",
+      "20 places saisonnières sur le site des anciens Ateliers des Janves"
     ],
-    "price": "Deux sites distincts signalés : 6 emplacements gratuits toute l'année ; 20 emplacements aux anciens Ateliers des Janves, saisonniers et payants selon les sources. Le point GPS actuel doit être associé au bon site avant d'attribuer un tarif.",
-    "status": "Attention : deux aires distinctes dans la commune, ne pas confondre les tarifs",
+    "price": "Tarif non attribué au point OSM : deux aires existent à Bogny-sur-Meuse (6 places gratuites toute l’année et aire saisonnière des anciens Ateliers des Janves). Correspondance exacte à confirmer.",
+    "status": "ADT et office de tourisme confirment deux sites distincts rue de la Meuse : aire de Château-Regnault (6 places gratuites, sans durée limite) et aire des anciens Ateliers des Janves (20 places, saisonnière, avec borne électrique). Le point OSM doit être rattaché au bon site avant de publier un prix.",
     "source": "https://www.openstreetmap.org/way/620303180",
     "latitude": 49.8588613,
     "longitude": 4.7442216,
@@ -210,10 +247,13 @@
     "sourceId": "way/620303180",
     "servicesSource": "https://www.openstreetmap.org/way/620303180",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
-    "priceNote": "Bogny-sur-Meuse possède une aire gratuite de 6 places et une autre payante de 20 places (5 € + suppléments). Correspondance exacte de cette fiche avec l'une des deux aires à vérifier.",
+    "priceNote": "Aucun prix attribué à ce point tant que l’identification parmi les deux aires n’est pas certaine.",
     "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car-de-bogny-sur-meuse/",
     "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car-de-bogny-sur-meuse/",
-    "address": "Rue de la Meuse, 08120 Bogny-sur-Meuse"
+    "address": "Rue de la Meuse, 08120 Bogny-sur-Meuse",
+    "verificationSource": "https://www.ardennes.com/camping/aire-de-camping-car-de-bogny-sur-meuse/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Les fiches touristiques décrivent deux aires distinctes dans le quartier/rue de la Meuse; la commune confirme l’aire intercommunale face aux Quatre Fils Aymon. Les prix ne sont pas fusionnés faute de géolocalisation fiable du point OSM entre les deux."
   },
   {
     "department": "08",
@@ -221,8 +261,8 @@
     "city": "Bairon et ses environs",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Stationnement gratuit, sans services, ouvert toute l'année 24 h/24 selon Ardennes Tourisme",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit, sans services, ouvert toute l’année 24 h/24.",
+    "status": "ADT des Ardennes : aire rue du Pasquy au Chesne, 6 emplacements réservés aux camping-cars, gratuite, sans services, ouverte toute l’année 24 h/24.",
     "source": "https://www.openstreetmap.org/way/720024989",
     "latitude": 49.51544,
     "longitude": 4.7612818,
@@ -235,16 +275,25 @@
     "address": "Rue du Pasquy, 08390 Le Chesne (Bairon et ses environs)",
     "capacity": 6,
     "sourceOfficial": "https://www.ardennes.com/camping/aire-de-repos/",
-    "priceSource": "https://www.ardennes.com/camping/aire-de-repos/"
+    "priceSource": "https://www.ardennes.com/camping/aire-de-repos/",
+    "verificationSource": "https://www.ardennes.com/camping/aire-de-repos/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Commune/lieu-dit confirmé : Le Chesne (Bairon et ses environs), rue du Pasquy; 6 places, pas de service sur aire.",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Stationnement gratuit toute l’année; pas de services. Ne pas confondre avec la halte fluviale proche où eau/électricité sont proposés."
   },
   {
     "department": "08",
     "name": "Aire de camping-cars Rocroi",
     "city": "Rocroi",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement gratuit ; eau 2 € / 100 L ; électricité 2 € / heure",
-    "status": "Informations tarifaires documentées par une source publique ; autres données à vérifier.",
+    "services": [
+      "Eau potable : 2 € / 100 L",
+      "Électricité : 2 € / heure",
+      "Aire de services ouverte 24 h/24"
+    ],
+    "price": "Tarif de stationnement non publié; eau 2 € / 100 L et électricité 2 € / heure. Les services sont payants.",
+    "status": "ADT des Ardennes : aire à la rue du Tour de Ville, ouverte 24 h/24; eau 2 €/100 L et électricité 2 €/heure. La source précise que les services sont payants mais ne publie pas de tarif de stationnement.",
     "source": "https://www.openstreetmap.org/way/825939877",
     "latitude": 49.9248078,
     "longitude": 4.5160198,
@@ -255,10 +304,13 @@
     "sourceId": "way/825939877",
     "cityVerificationNote": "Commune proposée d'après le nom de l'aire; à vérifier géographiquement.",
     "priceSource": "https://www.ardennes.com/camping/aire-de-camping-car/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Prix publié par l'exploitant, la commune ou l'organisme touristique ; vérifier avant le séjour, notamment les suppléments et saisons.",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Tarif de l’eau et de l’électricité confirmé; aucun prix de stationnement distinct indiqué sur la page touristique.",
     "address": "Rue du Tour de Ville, 08230 Rocroi",
-    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car/"
+    "sourceOfficial": "https://www.ardennes.com/camping/aire-de-camping-car/",
+    "verificationSource": "https://www.ardennes.com/camping/aire-de-camping-car/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche ADT : aire à l’entrée de la ville par la Porte de France, rue du Tour de Ville."
   },
   {
     "department": "08",

@@ -1,0 +1,139 @@
+{
+  "scope": "Ardennes (08) : audit des tarifs et services des fiches existantes de aires-ardennes.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-25",
+  "displayedCount": 29,
+  "rawRegionalRows": 29,
+  "deduplicatedRows": 0,
+  "currentLot": 576,
+  "department": "08",
+  "progress": {
+    "checked": 10,
+    "total": 29,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 576 : fiches 1 à 10 sur 29 contrôlées. Prix rafraîchis pour La Fosse Bleue, Monthermé, Sedan, Charleville-Mézières, Haybes et Vireux-Molhain. Revin : tarifs affichés par l’ADT issus de 2024, non confirmés pour 2025/2026. Bogny-sur-Meuse : deux aires à ne pas confondre, prix non attribué avant identification du point OSM. Le Chesne gratuit et sans services; Rocroi, eau 2 €/100 L et électricité 2 €/h, stationnement non tarifé. Aucun lieu ajouté; 19 fiches restantes.",
+  "entries": [
+    {
+      "sourceId": "node/12582695770",
+      "place": "Signy-l’Abbaye — La Fosse Bleue",
+      "lot": 576,
+      "checkedAt": "2026-11-25",
+      "status": "ADT des Ardennes : deux emplacements à 15 € la nuit, sur réservation; électricité et Wi-Fi. La salle de bain déclarée dans les données antérieures n’est pas mentionnée sur la fiche ADT.",
+      "nextCheck": "Confirmer directement auprès de l’exploitant les équipements de salle de bain et les services compris dans les 15 €.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12582695770",
+        "https://www.ardennes.com/camping/camperplaats-aire-de-camping-car-la-fosse-bleue/"
+      ]
+    },
+    {
+      "sourceId": "way/176871599",
+      "place": "Sedan — aire CCP",
+      "lot": 576,
+      "checkedAt": "2026-11-25",
+      "status": "CCP : aire d’étape ouverte, 20 places; 13,61 €/24 h dont taxe 2026 de 0,88 €; base 12,73 € du 15/10/2026 au 31/12/2027. Parking 5 h + services 6 €.",
+      "nextCheck": "Recontrôler la taxe applicable en 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/176871599",
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/sedan?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/353211068",
+      "place": "Monthermé — aire de camping-car quai Aristide Briand",
+      "lot": 576,
+      "checkedAt": "2026-11-25",
+      "status": "ADT : emplacement 5 €/nuit, électricité 3,50 €/jour et taxe 0,55 €/adulte/jour; eau, sanitaires et laverie. Services d’avril à octobre; stationnement possible hors saison sans services.",
+      "nextCheck": "Confirmer la période et les tarifs lors de la saison 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/353211068",
+        "https://www.ardennes.com/camping/aire-de-camping-car-de-montherme/"
+      ]
+    },
+    {
+      "sourceId": "way/388098184",
+      "place": "Charleville-Mézières — Mont Olympe, CCP",
+      "lot": 576,
+      "checkedAt": "2026-11-25",
+      "status": "CCP : aire d’étape ouverte, 22 places, 6 A; 13,61 €/24 h dont taxe 2026 de 0,88 €, base 12,73 € du 14/10/2026 au 31/12/2027. Parking 5 h + services 6 €.",
+      "nextCheck": "Recontrôler la taxe applicable en 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/388098184",
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/charleville-mezieres?areaType=aire-etape-camping-car"
+      ]
+    },
+    {
+      "sourceId": "way/497622295",
+      "place": "Haybes — camping municipal / point à confirmer",
+      "lot": 576,
+      "checkedAt": "2026-11-25",
+      "status": "Ville de Haybes : camping saisonnier jusqu’au 25/10/2026; tarifs 2026 5 € emplacement, 4 € campeur, 2 € véhicule, 6 € électricité/jour, taxe 0,22 €/personne/nuit; forfait camping-car de 4 € pour eaux usées, eau potable et électricité. Rattachement du point OSM au camping à confirmer.",
+      "nextCheck": "Demander à la mairie si le point GPS correspond à l’aire ou au camping et si le forfait service de 4 € s’ajoute au séjour.",
+      "sources": [
+        "https://www.openstreetmap.org/way/497622295",
+        "https://www.haybes.fr/tourisme/camping"
+      ]
+    },
+    {
+      "sourceId": "way/523063721",
+      "place": "Revin — aire camping-car",
+      "lot": 576,
+      "checkedAt": "2026-11-25",
+      "status": "ADT : 17 places gratuites, vidange gratuite; eau 3 €/100 L et électricité 3 €/h selon les montants 2024. La page précise que les tarifs 2025 n’étaient pas votés; tarifs 2026 inconnus.",
+      "nextCheck": "Demander à la mairie/ADT la grille de tarifs en vigueur pour 2026 ou 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/523063721",
+        "https://www.ardennes.com/camping/aire-de-camping-car-revin/"
+      ]
+    },
+    {
+      "sourceId": "way/567561685",
+      "place": "Vireux-Molhain — nouvelle aire",
+      "lot": 576,
+      "checkedAt": "2026-11-25",
+      "status": "ADT : nouvelle aire de 23 places, ouverte depuis le 08/10/2026; accès CB 24 h/24; 11 €/jour + 0,22 € de taxe; eau et vidange. Pas d’électricité indiquée.",
+      "nextCheck": "Aucune vérification tarifaire immédiate; vérifier les services lors d’un prochain contrôle.",
+      "sources": [
+        "https://www.openstreetmap.org/way/567561685",
+        "https://www.ardennes.com/camping/aire-de-camping-car-vireux-molhain/"
+      ]
+    },
+    {
+      "sourceId": "way/620303180",
+      "place": "Bogny-sur-Meuse — aire rue de la Meuse (site exact à confirmer)",
+      "lot": 576,
+      "checkedAt": "2026-11-25",
+      "status": "Deux aires distinctes : 6 places gratuites à Château-Regnault; 20 places saisonnières avec bornes sur l’ancien site des Ateliers des Janves. Le point OSM doit être identifié avant d’assigner un tarif.",
+      "nextCheck": "Comparer le point OSM au plan communal et demander à la mairie quel site correspond au way 620303180.",
+      "sources": [
+        "https://www.openstreetmap.org/way/620303180",
+        "https://www.ardennes.com/camping/aire-de-camping-car-de-bogny-sur-meuse/",
+        "https://www.bognysurmeuse.fr/aire-pour-campings-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/720024989",
+      "place": "Le Chesne — aire rue du Pasquy",
+      "lot": 576,
+      "checkedAt": "2026-11-25",
+      "status": "ADT : six places gratuites, toute l’année 24 h/24, sans services; commune Bairon et ses environs confirmée.",
+      "nextCheck": "Aucune vérification tarifaire restante; éviter la confusion avec la halte fluviale voisine.",
+      "sources": [
+        "https://www.openstreetmap.org/way/720024989",
+        "https://www.ardennes.com/camping/aire-de-repos/"
+      ]
+    },
+    {
+      "sourceId": "way/825939877",
+      "place": "Rocroi — aire rue du Tour de Ville",
+      "lot": 576,
+      "checkedAt": "2026-11-25",
+      "status": "ADT : eau 2 €/100 L et électricité 2 €/h; services payants, ouverture 24 h/24. Tarif de stationnement non précisé.",
+      "nextCheck": "Demander à la mairie si le stationnement est gratuit ou s’il existe un tarif distinct.",
+      "sources": [
+        "https://www.openstreetmap.org/way/825939877",
+        "https://www.ardennes.com/camping/aire-de-camping-car/"
+      ]
+    }
+  ]
+}
