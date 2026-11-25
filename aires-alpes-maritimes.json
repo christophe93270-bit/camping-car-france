@@ -5,10 +5,12 @@
     "city": "Caille",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange eaux usées"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Office de tourisme : borne avec eau, électricité et vidange; fiche touristique indique services payants sans publier le montant. Adresse exacte et correspondance avec le point OSM à confirmer.",
     "source": "https://www.openstreetmap.org/way/108220686",
     "latitude": 43.7788791,
     "longitude": 6.7335372,
@@ -17,7 +19,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/108220686",
-    "servicesSource": "https://www.openstreetmap.org/way/108220686"
+    "servicesSource": "https://www.openstreetmap.org/way/108220686",
+    "verificationSource": "https://www.paysdegrassetourisme.fr/infos-pratiques/faq/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "La FAQ du Pays de Grasse indique la borne rue des Écuries; la fiche touristique la situe rue de Saint-Pons. Services confirmés, mais tarif et correspondance GPS avec way/108220686 à vérifier.",
+    "priceNote": "Aucun montant actuel publié par la source touristique officielle; l'aire est signalée avec services payants."
   },
   {
     "department": "06",
@@ -35,26 +41,31 @@
     "gpsSource": "https://www.campingcarpark.com/en_GB/motor-home/provence-alpes-cote-dazur/alpes-maritimes/saint-laurent-du-var",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "17/11/2026 : catégorie, adresse, coordonnées et tarifs recoupés avec la fiche officielle Camping-Car Park. Les services issus d’OpenStreetMap ne sont pas vérifiés indépendamment.",
+    "importReview": "25/11/2026 : tarifs saisonniers, taxe, capacité de 63 places et adresse vérifiés sur la fiche officielle Camping-Car Park.",
     "sourceId": "way/718107172",
     "servicesSource": "https://www.openstreetmap.org/way/718107172",
     "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-maritimes",
-    "verificationDate": "2026-10-17",
-    "verificationNote": "Exploitant identifié comme Camping-Car Park, tarif départemental indicatif 22,60 €/24h ; vérifier la grille saisonnière détaillée avant publication.",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche CCP : 1814 route de la Baronne, GPS 43.714575, 7.177108, 63 places, 6 A; saisons tarifaires et taxe confirmées.",
     "address": "1814 route de la Baronne, 06700 Saint-Laurent-du-Var",
     "sourceOfficial": "https://www.campingcarpark.com/en_GB/motor-home/provence-alpes-cote-dazur/alpes-maritimes/saint-laurent-du-var",
     "priceSource": "https://www.campingcarpark.com/en_GB/motor-home/provence-alpes-cote-dazur/alpes-maritimes/saint-laurent-du-var",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarifs saisonniers officiels : stationnement 15 €, 18 € puis 21 € / 24 h selon la période, auxquels s’ajoute 1,60 € de taxe de séjour."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Grille CCP : stationnement 15 €/24 h du 24/11/2026 au 31/01/2027, 18 € du 01/02 au 31/05/2027, 21 € du 01/06 au 30/09/2027; taxe de séjour 1,60 €/24 h. Totaux TTC : 16,60 €, 19,60 € et 22,60 €. Parking 5 h + services : 6 €.",
+    "priceValidUntil": "2027-09-30"
   },
   {
     "department": "06",
     "name": "Aire d'accueil de camping car de Roubion",
     "city": "Roubion",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "type": "Aire municipale de camping-car",
+    "services": [
+      "12 emplacements",
+      "Eau potable",
+      "Vidange eaux grises"
+    ],
     "price": "Stationnement gratuit (12 véhicules)",
-    "status": "Gratuité et services confirmés par la mairie.",
+    "status": "Mairie/office de tourisme : accès et stationnement gratuits, 12 véhicules; borne d'eau et vidange des eaux grises aux Buisses. Tarif éventuel des services non précisé.",
     "source": "https://www.openstreetmap.org/way/971968830",
     "latitude": 44.0839803,
     "longitude": 7.0425269,
@@ -65,16 +76,27 @@
     "sourceId": "way/971968830",
     "priceSource": "https://www.roubion.com/les-services/camping-car/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Mairie de Roubion : accès gratuit, eau et vidange des eaux grises disponibles à la station des Buisses."
+    "priceNote": "Stationnement gratuit confirmé par la commune; coût éventuel des services non précisé.",
+    "verificationSource": "https://www.roubion.com/les-services/camping-car/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "La commune confirme 12 véhicules, l'accès gratuit, une borne d'eau et la vidange des eaux grises; elle ne détaille pas un éventuel coût de l'eau."
   },
   {
     "department": "06",
     "name": "Aire camping-cars le Lagopède Valberg",
     "city": "Péone",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "16 emplacements",
+      "Électricité",
+      "Eau potable",
+      "Borne de services",
+      "Douches",
+      "Toilettes",
+      "Lave-linge et sèche-linge à pièces"
+    ],
     "price": "Tarif 2026 non confirmé",
-    "status": "Localisation et services documentés; tarif actuel à confirmer.",
+    "status": "Office de tourisme de Valberg : aire ouverte toute l'année, 16 emplacements, électricité, eau, borne de services, douches et toilettes. Tarif actuel non publié.",
     "source": "https://www.openstreetmap.org/way/1190500862",
     "latitude": 44.0963406,
     "longitude": 6.9372681,
@@ -84,8 +106,9 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1190500862",
     "verificationSource": "https://www.valberg.com/camping/aire-daccueil-de-camping-cars-de-valberg/",
-    "verificationDate": "2026-10-17",
-    "verificationNote": "Aire Le Lagopède à Valberg (commune de Péone), 16 emplacements selon l'office de tourisme. Une ancienne brochure 2023-2024 indiquait 10 €/24 h, tarif non retenu pour 2026."
+    "verificationDate": "2026-11-25",
+    "verificationNote": "La fiche officielle confirme capacité, ouverture et équipements; aucune grille tarifaire actuelle n'est affichée. Une brochure 2023–2024 indiquait 10 €, montant ancien à ne pas présenter comme tarif actuel.",
+    "priceNote": "Tarif 2026/2027 non publié par la source officielle consultée; ancienne brochure 2023–2024 non retenue."
   },
   {
     "department": "06",
@@ -98,22 +121,24 @@
       "Électricité"
     ],
     "price": "16,38 € / 24 h, dont 1,34 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Site Camping-Car Park ouvert ; catégorie, adresse, coordonnées et tarifs vérifiés sur la fiche officielle.",
+    "status": "Aire CCP ouverte, 32 places, 6 A; sanitaires ouverts en 2026. Tarif actuel 16,38 €/24 h. Accès sur réservation uniquement du 12/02/2027 au 01/03/2027.",
     "source": "https://www.openstreetmap.org/way/1194856576",
     "latitude": 43.87874,
     "longitude": 7.443348,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-maritimes/sospel",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "17/11/2026 : catégorie, adresse, coordonnées et tarifs recoupés avec la fiche officielle Camping-Car Park. Les services issus d’OpenStreetMap ne sont pas vérifiés indépendamment.",
+    "importReview": "25/11/2026 : catégorie, adresse, GPS, capacité, services CCP et grille tarifaire consultés sur la fiche officielle.",
     "sourceId": "way/1194856576",
     "servicesSource": "https://www.openstreetmap.org/way/1194856576",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-maritimes/sospel",
-    "priceVerifiedOn": "2026-11-17",
-    "priceValidUntil": "2026-12-31",
-    "priceNote": "Tarif de stationnement 15,04 € / 24 h et taxe de séjour 1,34 € / 24 h sur la grille officielle en cours jusqu’au 31/12/2027.",
+    "priceVerifiedOn": "2026-11-25",
+    "priceValidUntil": "2027-12-31",
+    "priceNote": "Grille CCP : stationnement 15,04 €/24 h du 22/11/2026 au 31/12/2027, taxe de séjour 1,34 €/24 h en 2026 et 2027; total actuel 16,38 €. Parking 5 h + services : 6 €.",
     "address": "Emmanuel Donato, rue du Stade, 06380 Sospel",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-maritimes/sospel"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-maritimes/sospel",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche CCP : 32 places, 6 A, sanitaires ouverts toute l'année 2026. Accès uniquement sur réservation du 12/02/2027 au 01/03/2027 pour la Fête du Citron de Menton."
   },
   {
     "department": "06",
@@ -125,6 +150,7 @@
     "longitude": 7.037208,
     "services": [
       "52 emplacements",
+      "Électricité 6 A",
       "Sanitaires ouverts du 13/04 au 15/10/2026"
     ],
     "price": "16,40 € / 24 h, dont 0,54 € de taxe de séjour (tarif affiché le 17/11/2026).",
@@ -136,8 +162,11 @@
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-maritimes/isola",
     "sourceId": "ccp-isola",
     "dataAttribution": "Camping-Car Park",
-    "importReview": "17/11/2026 : catégorie, adresse, GPS, capacité, période d’ouverture des sanitaires et tarif vérifiés sur la fiche officielle Camping-Car Park.",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Grille officielle : stationnement 15,86 € / 24 h du 13/09/2026 au 31/12/2027, taxe de séjour 0,54 € / 24 h."
+    "importReview": "25/11/2026 : catégorie, adresse, GPS, capacité, électricité, période des sanitaires et tarif vérifiés sur la fiche officielle Camping-Car Park.",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Grille CCP : stationnement 15,86 €/24 h du 10/07/2026 au 31/12/2027, taxe de séjour 0,54 €/24 h; total TTC 16,40 €. Parking 5 h + services : 6 €.",
+    "priceValidUntil": "2027-12-31",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche CCP : 52 places, 6 A; sanitaires du 13/04 au 15/10/2026. La période d'ouverture des sanitaires est saisonnière."
   }
 ]
