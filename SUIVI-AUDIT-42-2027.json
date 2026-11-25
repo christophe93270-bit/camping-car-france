@@ -4,15 +4,15 @@
   "displayedCount": 84,
   "rawRegionalRows": 84,
   "deduplicatedRows": 0,
-  "currentLot": 545,
+  "currentLot": 546,
   "department": "42",
   "progress": {
-    "checked": 60,
+    "checked": 70,
     "total": 84,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit en cours, lots de dix. Lot 540 (1–10) : tarifs confirmés et période à corriger à Montrond. Lot 541 (11–20) : tarifs du réseau Loire Forez et port de Roanne confirmés; corrections de dates à Saint-Étienne et Saint-Martin-la-Plaine; divergences à Marols et Saint-Victor. Lot 542 (21–30) : prix d’aires et services vérifiés; 7 jours à Chalmazel; eau coupée à Saint-Rirand. Lot 543 (31–40) : tarifs gratuits confirmés; période Violay à corriger, capacité Les Noës contradictoire. Lot 544 (41–50) : Civens 5 €/nuit + 3 € vidange; Néronde saisonnier; Cordelle a des fiches contradictoires sur capacités, ouvertures et formules. Lot 545 (51–60) : tarif CCP Pouilly 13 € + 0,44 €, page dynamique période courante depuis le 17/11 vs barème municipal basse saison dès le 1/10; Saint-Galmier tarif de l’eau divergent (1/2 € pour 10 min); campings saisonniers fermés au 25/11. Aucune fiche source n’a été modifiée.",
+  "note": "Audit en cours par lots de dix. Lot 540 (1–10) : tarifs confirmés; période Montrond à corriger. Lot 541 (11–20) : tarifs réseau Loire Forez/Roanne confirmés, dates CCP corrigées à Saint-Étienne et Saint-Martin-la-Plaine; divergences à Marols et Saint-Victor. Lot 542 (21–30) : prix à jetons vérifiés, Chalmazel = 7 jours, eau coupée Saint-Rirand. Lot 543 (31–40) : Violay grille actuelle depuis 17/11/2026, capacité Les Noës 3/5 à confirmer. Lot 544 (41–50) : tarifs Civens, Néronde, Perreux, Pacotière confirmés; Cordelle divergences capacité/ouverture/tarifs. Lot 545 (51–60) : Pouilly CCP 13 € + 0,44 €; date tarifaire page actuelle 17/11 vs calendrier municipal 1/10; Saint-Galmier eau 1/2 €. Lot 546 (61–70) : tarifs de campings saisonniers vérifiés et saison 2026 terminée; correction dates La Croix de Garry selon commune; tarif des Régnières non publié; opérateur du Val du Ternay radié mai 2026, tarif 2024 obsolète à ne pas utiliser sans confirmation de reprise. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/7916862763",
@@ -351,6 +351,56 @@
       "place": "Usson-en-Forez — Camping municipal Les Tilleuls",
       "status": "Tarif camping-car 12 €, électricité 2,70–3,50 €/jour, capacité 50 emplacements tout type confondu; ouvert 1 avril–31 octobre 2026.",
       "nextCheck": "Aucun contrôle externe restant pour la saison 2026."
+    },
+    {
+      "place": "Maclas — Aire naturelle Les Cerisiers",
+      "status": "Loire Tourisme 2026 : 22,50 € / jour à partir de pour emplacement caravane/camping-car/van, taxe de séjour 0,20 € / personne; ouvert du 1er avril au 31 octobre.",
+      "nextCheck": "Aucun tarif restant à vérifier pour 2026; tarif exact « à partir de » à confirmer avant reprise."
+    },
+    {
+      "place": "Pélussin — Camping Bel’Époque du Pilat",
+      "status": "Loire Tourisme : forfait 2026 17–26 €, électricité 4 €/jour; ouvert du 20 avril au 30 septembre.",
+      "nextCheck": "Confirmer formule exacte camping-car pour la prochaine saison."
+    },
+    {
+      "place": "Saint-Appolinard — Camping Le Cottet",
+      "status": "Loire Tourisme : 16–20 € forfait 1 personne + emplacement + véhicule; électricité dès 6 €, adulte supp. 6 €, taxe séjour dès 0,55 €; saison 4 avril–1er novembre.",
+      "nextCheck": "Aucun contrôle externe restant pour la grille 2026."
+    },
+    {
+      "place": "Gumières — Place de l’Église",
+      "status": "Loire Forez Agglomération confirme une place, eau hors gel, WC et gratuité; ne mentionne pas de vidange.",
+      "nextCheck": "Vérifier vidange et stationnement nocturne sur les panneaux locaux."
+    },
+    {
+      "place": "Boën-sur-Lignon — parking rue du Moulin",
+      "status": "Parking gratuit/environ 5 places selon sources non officielles; aire de services et nuitée non garanties.",
+      "nextCheck": "Demander à la mairie les restrictions, capacité et autorisation de nuitée; ne pas annoncer les anciens services."
+    },
+    {
+      "place": "Chevrières — aire de loisirs du Brochet",
+      "status": "Une borne est signalée dans un annuaire 2019; la fiche officielle loisirs 2026 ne confirme pas sa présence, son fonctionnement ou son prix.",
+      "nextCheck": "Contacter la mairie avant d’indiquer la borne comme active."
+    },
+    {
+      "place": "Saint-Genest-Malifaux — camping municipal La Croix de Garry",
+      "status": "Tarifs mairie 2026 : emplacement 7,50 €, personne 6,40 €, électricité 6 €, taxe séjour 0,22 €/personne/jour. Calendrier municipal 11 avril–11 octobre; fiche touristique 1er avril–31 octobre.",
+      "nextCheck": "Corriger les dates d’ouverture selon le calendrier municipal."
+    },
+    {
+      "place": "Saint-Sauveur-en-Rue — camping municipal Les Régnières",
+      "status": "Capacité totale 20; camping-cars admis. Commune : ouvert 15 avril–30 septembre; Loire Tourisme : 1er avril–30 septembre. Pas de tarif 2026 publié.",
+      "nextCheck": "Confirmer dates et forfait 2026 à la commune."
+    },
+    {
+      "place": "Pommiers — Camping de l’Aix",
+      "status": "Loire Tourisme 2026 : forfait 2 personnes + camping-car 19,50–25 €/nuit, électricité 6 €/jour, saison du 1er avril au 31 octobre; 72 emplacements totaux tous types.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant pour 2026."
+    },
+    {
+      "place": "Saint-Julien-Molin-Molette — Camping Val du Ternay",
+      "status": "Tarif historique 2024 non confirmé en 2026; société exploitante CAMPING VAL DU TERNAY (SIREN 848 134 763) liquidée/radiée en mai 2026; reprise possible non établie.",
+      "nextCheck": "Confirmer avec la mairie si le camping a fermé ou repris; ne pas publier le tarif 2024 comme actuel."
     }
   ]
 }
