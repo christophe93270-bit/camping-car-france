@@ -1,7 +1,7 @@
 {
   "scope": "Allier (03), contrôle des fiches existantes par lots de dix",
   "startedAt": "2026-11-25",
-  "note": "Lots 563–564 : 20 premières fiches existantes de l'Allier (03) contrôlées. Lot 564 traite les fiches 11–20. Aucun lieu ajouté. Les tarifs non officiels, anciens, contradictoires ou aux unités imprécises restent signalés comme à confirmer.",
+  "note": "Lots 563–565 : 28 fiches existantes de l'Allier (03) contrôlées, département terminé. Lot 565 traite les fiches 21–28. Aucun lieu ajouté. Tarifs anciens, secondaires ou sans montant/unité complète laissés à confirmer.",
   "entries": [
     {
       "sourceId": "node/11479095183",
@@ -249,6 +249,105 @@
         "https://valdesioule.resalocal.com/fr/hebergements/aire-daccueil-et-de-services-chez-lhabitant-les-vergers"
       ],
       "lot": 564,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1305277041",
+      "name": "Aire de stationnement de Verneuil-en-Bourbonnais",
+      "status": "gratuité, 10 places et toilettes confirmées par OT pour 2026.",
+      "finding": "Chemin de Chillot; stationnement gratuit toute l'année 2026, 10 places, toilettes.",
+      "nextCheck": "Reconfirmer la gratuité après le 31/12/2026.",
+      "sources": [
+        "https://www.valdesioule.com/campings/aire-de-stationnement-2/"
+      ],
+      "lot": 565,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1305278905",
+      "name": "Aire de Paray-le-Frésil",
+      "status": "stationnement et services gratuits, 3 places confirmés par OT.",
+      "finding": "Nuitée possible; 3 places et 3 bornes; eau, électricité, vidanges, WC; gratuit toute l'année 2026.",
+      "nextCheck": "Recontrôler la reconduction de la gratuité pour 2027.",
+      "sources": [
+        "https://www.moulins-tourisme.com/camping/aire-daccueil-et-de-services-5/"
+      ],
+      "lot": 565,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1305282973",
+      "name": "Aire de Château-sur-Allier",
+      "status": "stationnement gratuit et services documentés par OT; coût des services non précisé.",
+      "finding": "4 places, eau, vidange, électricité, WC; stationnement 24/24 gratuit toute l'année 2026. La page n'indique pas le coût des services.",
+      "nextCheck": "Demander le montant des services à la mairie ou vérifier affichage de borne.",
+      "sources": [
+        "https://www.moulins-tourisme.com/camping/aire-daccueil-et-de-services-4/"
+      ],
+      "lot": 565,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1305296297",
+      "name": "Aire de Tréteau",
+      "status": "prix secondaire à reconfirmer; tarif de nuit ancien contradictoire.",
+      "finding": "Annuaire : parking gratuit, services 2 €, électricité 2 €/55 min; avis 2014 mentionne 3,50 € la nuit; avis mars 2026 signale sol fragile sous la pluie.",
+      "nextCheck": "Confirmer à la mairie le prix de nuitée, l'unité des services et l'état de l'aire.",
+      "sources": [
+        "https://www.i-campingcar.fr/aires.php?ville=TRETEAU"
+      ],
+      "lot": 565,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1305317436",
+      "name": "Aire de Saint-Gérand-de-Vaux",
+      "status": "50 places et tarifs de jetons référencés, mais tarifs 2024 non reconfirmés.",
+      "finding": "Étang du Moulin; 50 places, stationnement gratuit selon annuaire; jeton/service annoncé à 2 € dans des sources secondaires.",
+      "nextCheck": "Confirmer auprès de la mairie le montant actuel et la prestation/quantité par jeton.",
+      "sources": [
+        "https://www.camping-car.com/aires/45547-aire-communale/",
+        "https://www.i-campingcar.fr/aires.php?ville=SAINT+GERAND+DE+VAUX",
+        "https://www.intramuros.org/treteau/decouvrir/10951"
+      ],
+      "lot": 565,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1320133867",
+      "name": "Aire de Lapalisse, Place Jean Moulin",
+      "status": "stationnement gratuit et services à 2 € confirmés par OT en octobre 2026.",
+      "finding": "20 places, nuitée possible, toute l'année; 2 € pour douche ou 100 L d'eau ou 1 h d'électricité.",
+      "nextCheck": "Pas de vérification tarifaire immédiate; recontrôler à la prochaine mise à jour de l'OT.",
+      "sources": [
+        "https://www.cirkwi.com/fr/point-interet/2146434-aire-de-services-camping-cars",
+        "https://ville-lapalisse.fr/au-quotidien/lieux-de-stationnement.html"
+      ],
+      "lot": 565,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1425589197",
+      "name": "Aire de stationnement de Saint-Bonnet-Tronçais",
+      "status": "50 places, stationnement gratuit; eau à 2 € hors saison hivernale.",
+      "finding": "Parking en herbe face au centre de secours; eau coupée novembre-mars. Distinct de l'aire de services 20 places derrière la micro-crèche.",
+      "nextCheck": "Ne pas annoncer l'eau disponible de novembre à mars; maintenir les deux lieux séparés.",
+      "sources": [
+        "https://www.montlucon-tourisme.fr/offres/aire-de-stationnement-camping-car-saint-bonnet-troncais-fr-2701003/"
+      ],
+      "lot": 565,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "ccp-louroux-de-bouble",
+      "name": "Camping de mon Village de Louroux-de-Bouble",
+      "status": "tarif de base CCP 12,22 € jusqu'au 31/12/2027; taxe actuelle 0,66 € seulement publiée jusqu'au 31/12/2026.",
+      "finding": "Total en cours 12,88 €/24h; base 12,22 € + taxe 0,66 €. 26 places, 6 A; sanitaires saisonniers (01/04–30/09/2026).",
+      "nextCheck": "Reconfirmer la taxe et le total à partir du 01/01/2027; ne pas annoncer sanitaires ouverts en hiver.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/allier/louroux-de-bouble"
+      ],
+      "lot": 565,
       "checkedAt": "2026-11-25"
     }
   ]
