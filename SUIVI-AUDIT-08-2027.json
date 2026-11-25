@@ -4,15 +4,15 @@
   "displayedCount": 29,
   "rawRegionalRows": 29,
   "deduplicatedRows": 0,
-  "currentLot": 577,
+  "currentLot": 578,
   "department": "08",
   "progress": {
-    "checked": 20,
+    "checked": 29,
     "total": 29,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 9,
+    "totalInLot": 9
   },
-  "note": "Lot 577 : fiches 11 à 20 sur 29 contrôlées. Fromelennes, Givet et Vouziers : capacités/services vérifiés, tarifs des services absents ou non publiés. Raucourt : tarifs gratuits seulement sourcés par une fiche 2024; Girondelle reste non confirmée. Rethel, Fumay, Mouzon et Bergnicourt : tarifs actualisés depuis sources officielles; Launois : jeton de service à 2 €, stationnement non tarifé. Aucun lieu ajouté; 9 fiches restantes.",
+  "note": "Lot 578 : fiches 21 à 29 sur 29 contrôlées; audit des Ardennes terminé. GAEC de Villers : tarif non publié; Il était 1 foie : à partir de 4 €/emplacement. Attigny : jeton 2 €; Lalobbe : parking gratuit sur réservation. Novion-Porcien : borne à jetons, prix non communiqué, distincte du parking du musée dont le prix n’est pas publié. Grandpré et Tremblois-lès-Rocroi restent « à venir » sans tarif confirmé; La Cassine : projet documenté mais ouverture actuelle à confirmer. Aucun lieu ajouté.",
   "entries": [
     {
       "sourceId": "node/12582695770",
@@ -250,6 +250,106 @@
         "https://www.ardennes.com/camping/halte-camping-car/"
       ],
       "lot": 577,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "synthetic-gaec-villers",
+      "place": "Maisoncelle-et-Villers — GAEC de Villers",
+      "status": "ADT : ouvert toute l’année, branchements d’eau et d’électricité, accueil et petite restauration; tarif d’emplacement non publié.",
+      "nextCheck": "Demander le prix par nuit et si l’eau/électricité sont incluses.",
+      "sources": [
+        "https://www.ardennes.com/camping/camping-car-a-la-ferme-gaec-de-villers/"
+      ],
+      "lot": 578,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "synthetic-il-etait-1-foie",
+      "place": "Artaise-le-Vivier — Il était 1 foie",
+      "status": "ADT : ouvert toute l’année; emplacement à partir de 4 €, eau et électricité.",
+      "nextCheck": "Confirmer le tarif actuel, les suppléments éventuels et le prix maximal.",
+      "sources": [
+        "https://www.ardennes.com/camping/camping-car-a-la-ferme-il-etait-1-foie/"
+      ],
+      "lot": 578,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "synthetic-attigny",
+      "place": "Attigny — aire de services",
+      "status": "Jeton Euro-Relais 2 € pour services; ouvert 24/7. Ce prix n’est pas une nuitée.",
+      "nextCheck": "Confirmer le détail des services inclus dans le jeton et les lieux de vente.",
+      "sources": [
+        "https://www.ardennes.com/camping/aire-de-services-pour-camping-car-attigny/"
+      ],
+      "lot": 578,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "synthetic-lalobbe",
+      "place": "Lalobbe — cidrerie Les Bulles Ardennaises",
+      "status": "3 emplacements gratuits sur réservation au 03 24 52 80 82.",
+      "nextCheck": "Confirmer la disponibilité et les conditions de réservation auprès de la cidrerie.",
+      "sources": [
+        "https://www.ardennes.com/camping/aire-de-camping-cars-a-lalobbe-cidrerie-les-bulles-ardennaises/"
+      ],
+      "lot": 578,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "synthetic-novion-services",
+      "place": "Novion-Porcien — borne rue du Stade",
+      "status": "Borne Euro-Relais accessible 24/7; jetons requis, tarif du jeton non publié. Borne distincte du parking du musée.",
+      "nextCheck": "Demander le prix du jeton à la mairie ou à l’exploitant.",
+      "sources": [
+        "https://www.ardennes.com/camping/aire-de-services-pour-camping-car-novion-porcien/"
+      ],
+      "lot": 578,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "synthetic-novion-museum",
+      "place": "Novion-Porcien — parking du Musée Guerre et Paix",
+      "status": "Parking camping-car référencé par l’ADT; tarif non publié. La borne de services est séparée rue du Stade.",
+      "nextCheck": "Confirmer si le stationnement de nuit est autorisé et s’il est payant auprès du musée.",
+      "sources": [
+        "https://www.ardennes.com/camping/stationnements-camping-cars-musee-guerre-et-paix/"
+      ],
+      "lot": 578,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "campingcarpark/grandpre",
+      "place": "Grandpré — projet Camping-Car Park",
+      "status": "Fiche CCP encore indiquée « à venir »; aucun prix opérationnel confirmé.",
+      "nextCheck": "Réexaminer quand la fiche annonce une date d’ouverture ou un tarif normalisé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/grandpre"
+      ],
+      "lot": 578,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "campingcarpark/tremblois-les-rocroi",
+      "place": "Tremblois-lès-Rocroi — projet Camping-Car Park",
+      "status": "Fiche CCP encore indiquée « à venir »; aucun prix opérationnel confirmé.",
+      "nextCheck": "Réexaminer quand la fiche annonce une date d’ouverture ou un tarif normalisé.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/tremblois-l%C3%A8s-rocroi"
+      ],
+      "lot": 578,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "synthetic-cassine",
+      "place": "Vendresse — projet d’aire à La Cassine",
+      "status": "DREAL : dossier d’aménagement d’une aire de stationnement camping-car publié en 2023; statut d’ouverture et rattachement CCP non confirmés.",
+      "nextCheck": "Vérifier auprès de l’association de La Cassine ou de la mairie si le projet a été réalisé et si l’accès camping-car est opérationnel.",
+      "sources": [
+        "https://www.grand-est.developpement-durable.gouv.fr/vendresse-asso-culturelle-chateau-de-la-cassine-a22190.html",
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/rethel"
+      ],
+      "lot": 578,
       "checkedAt": "2026-11-25"
     }
   ]
