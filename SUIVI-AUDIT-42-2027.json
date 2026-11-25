@@ -4,15 +4,15 @@
   "displayedCount": 84,
   "rawRegionalRows": 84,
   "deduplicatedRows": 0,
-  "currentLot": 541,
+  "currentLot": 542,
   "department": "42",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 84,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit en cours, par lots de dix. Lot 540 (fiches 1–10) : confirmé notamment gratuité à Noailly et aux Salles, grille de Panissières et du Bessat; correction de période à Montrond-les-Bains. Lot 541 (fiches 11–20) : Villerest gratuit; services des aires Loire Forez à jeton de 5 €; tarifs saisonniers confirmés à Roanne; services gratuits à Saint-Victor, Charlieu et Marols; divergence de capacité à Saint-Victor (10/12 places) et de durée à Marols (24/48 h, retenir 24 h selon le gestionnaire). Corrections de dates tarifaires à Saint-Étienne (début au 02/11/2026) et Saint-Martin-la-Plaine (13/11/2026). Aucune fiche source n’a été modifiée.",
+  "note": "Audit en cours, par lots de dix. Lot 540 (fiches 1–10) : tarifs confirmés notamment à Noailly, Panissières, Les Salles et Le Bessat; correction de période à Montrond. Lot 541 (fiches 11–20) : Villerest gratuit; Loire Forez à jeton de 5 €; tarif saisonnier du port de Roanne; divergences de durée à Marols et de capacité à Saint-Victor; dates à corriger aux CCP de Saint-Étienne et Saint-Martin-la-Plaine. Lot 542 (fiches 21–30) : tarifs Planfoy, Noirétable, Soleymieux et Montbrison vérifiés; correction de durée à Chalmazel-Jeansagnière (« 7 jours » au lieu de « 7 nuits »); eau indisponible à Saint-Rirand; statut tarifaire des branchements au Crozet à confirmer. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/7916862763",
@@ -133,6 +133,66 @@
       "place": "Saint-Martin-la-Plaine, CAMPING-CAR PARK",
       "status": "Opérateur : 12,70 € / 24 h + 1 € taxe (13,70 € total), 6 € pour 5 h + services. La grille actuellement affichée commence le 13/11/2026, et non le 15/10. 20 places.",
       "nextCheck": "Corriger la date de début de période et revérifier le tarif dynamique à la réservation."
+    },
+    {
+      "sourceId": "way/1306042629",
+      "place": "Planfoy — Le Vignolet",
+      "status": "Loire Tourisme confirme 10 places, emplacement gratuit, borne services 2,50 €, électricité 3 € / 4 h par carte; difficultés de fonctionnement signalées, une borne électrique sur deux fonctionne.",
+      "nextCheck": "Vérifier localement disponibilité des bornes."
+    },
+    {
+      "sourceId": "way/1306138212",
+      "place": "Saint-Just-Saint-Rambert — chemin des Danses",
+      "status": "Loire Forez confirme 5 places, stationnement gratuit, services à jeton 5 € (4 h électricité, 20 min eau/vidange), paiement CB à la borne possible et wifi gratuit.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/1306144007",
+      "place": "Saint-Bonnet-le-Château — ancien quai de gare",
+      "status": "Loire Tourisme confirme 30 places et gratuité des services, toute l’année hors gel.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/1306148909",
+      "place": "Chalmazel-Jeansagnière — Le Bourg / Pont Ouest",
+      "status": "8 places, stationnement gratuit, jeton 5 € pour 4 h d’électricité et 20 min eau/vidange. Règlement intercommunal : maximum 7 jours consécutifs; la fiche dit à tort 7 nuits.",
+      "nextCheck": "Corriger la limite de durée en 7 jours consécutifs."
+    },
+    {
+      "sourceId": "way/1306254865",
+      "place": "Noirétable — La Roche",
+      "status": "Loire Tourisme 2026 : 6 places, stationnement gratuit limité à 24 h; services à 4 € soit vidange cassette + 140 l d’eau OU jeton électricité 4 h. Eau à la CB, jeton électrique au camping; Loire Forez affiche encore 3,30 €.",
+      "nextCheck": "Privilégier 4 € selon la fiche tarifaire détaillée de 2026; garder les modes de paiement et services distingués."
+    },
+    {
+      "sourceId": "way/1306258860",
+      "place": "Soleymieux — route de Saint-Jean",
+      "status": "Loire Tourisme confirme 2 places, emplacement + services 2 € par jeton, du 1er mars au 31 octobre 2026.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/1306261837",
+      "place": "Montbrison — rue du Surizet",
+      "status": "Loire Tourisme confirme 5 places, stationnement gratuit, jeton 5 €, eau/vidange par CB à la borne, wifi gratuit; ouverture du 16 avril au 31 décembre 2026.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/1307202797",
+      "place": "Saint-Haon-le-Châtel — centre-bourg",
+      "status": "3 places et services gratuits, toute l’année; bornes hors gel du 1er novembre au 31 mars.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/1307208573",
+      "place": "Saint-Rirand — Le Bourg",
+      "status": "3 places gratuites; Roannais Tourisme indique l’eau fermée à la demande de Roannaise de l’Eau; hors gel du 1er novembre au 31 mars.",
+      "nextCheck": "Vérifier si l’eau a été remise en service."
+    },
+    {
+      "sourceId": "way/1307208935",
+      "place": "Le Crozet — route de la Gare",
+      "status": "Roannais Tourisme confirme deux places, vidange, eau et électricité; tarif indiqué généralement gratuit. Les anciens 2 € issus d’une fiche 2022 ne sont pas confirmés pour 2026.",
+      "nextCheck": "Vérifier directement à la borne si eau et électricité sont gratuites ou payantes."
     }
   ]
 }
