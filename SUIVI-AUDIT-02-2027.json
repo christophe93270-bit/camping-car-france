@@ -1,7 +1,7 @@
 {
   "scope": "Aisne (02), vérification par lots de dix fiches existantes",
   "startedAt": "2026-11-25",
-  "note": "Lots 559 (fiches 1–10) et 560 (fiches 11–20) de l'Aisne vérifiés; aucun lieu ajouté. Les tarifs services/borne sont séparés des prix de nuitée. Grilles ou conditions 2026 ne sont pas extrapolées à 2027; écarts entre annuaires et sources touristiques conservés comme vérifications.",
+  "note": "Lots 559 (fiches 1–10), 560 (11–20) et 561 (21–30) de l'Aisne vérifiés; aucun lieu ajouté. Séparer stationnement, nuitée, services, taxe et options électriques. Les tarifs non publiés ou datés de 2026 ne sont pas extrapolés à 2027.",
   "entries": [
     {
       "sourceId": "node/11978957643",
@@ -247,6 +247,128 @@
         "https://www.tourisme-paysdelaon.com/fiche-tourisme/aire-de-services-de-berry-au-bac-les-terres-de-la-planchette/"
       ],
       "lot": 560,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.cc-champagnepicarde.fr/sortir-et-decouvrir/aires-de-camping-car",
+      "name": "Aire de Sissonne",
+      "status": "bornes gratuites depuis 2024; stationnement gratuit à proximité.",
+      "finding": "Communauté de communes : eau, vidange, parking gratuit à proximité; utilisation gratuite des bornes depuis 2024.",
+      "nextCheck": "Reconfirmer la gratuité en 2027 et la disponibilité locale des équipements.",
+      "sources": [
+        "https://www.cc-champagnepicarde.fr/sortir-et-decouvrir/aires-de-camping-car"
+      ],
+      "lot": 561,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/aisne/ciry-salsogne",
+      "name": "CCP Ciry-Salsogne",
+      "status": "13,82 €/24 h total, grille publiée jusqu'à fin 2027.",
+      "finding": "Base 12,50 € + taxe 1,32 € = 13,82 €/24 h; forfait 5 h + services 6 € distinct.",
+      "nextCheck": "Recontrôler après le 31/12/2027; ne pas confondre étape et forfait 5 h.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/aisne/ciry-salsogne?areaType=aire-etape-camping-car"
+      ],
+      "lot": 561,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://ville-saint-gobain.fr/aire-de-camping-car/",
+      "name": "Le Port en Forêt, Saint-Gobain",
+      "status": "7 €/24 h + taxe adulte; eau/vidange seules 4 €/10 min.",
+      "finding": "Mairie : 5 places; forfait 7 € inclut eau, vidange, électricité et sanitaire; taxe 0,55 €/adulte/nuit; offre eau/vidange seules à 4 € les 10 min.",
+      "nextCheck": "Reconfirmer les montants en 2027.",
+      "sources": [
+        "https://ville-saint-gobain.fr/aire-de-camping-car/"
+      ],
+      "lot": 561,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.conde-en-brie.fr/tourisme/aire-de-camping-car.php",
+      "name": "Aire de Condé-en-Brie",
+      "status": "prix stationnement 7,50 €/24 h non officiel; services tarifs mairie.",
+      "finding": "Mairie : 4 places; eau 2 €/2 h, électricité 2 €/12 h. Nuitée 7,50 € vient d'un annuaire secondaire.",
+      "nextCheck": "Confirmer auprès de la mairie le prix de stationnement/nuitée.",
+      "sources": [
+        "https://www.conde-en-brie.fr/tourisme/aire-de-camping-car.php"
+      ],
+      "lot": 561,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://i-campingcar.fr/aires.php?ville=NEUILLY+SAINT+FRONT",
+      "name": "Aire de Neuilly-Saint-Front",
+      "status": "annuaire indépendant : parking gratuit, services 2 €, électricité indisponible.",
+      "finding": "Relevé du 02/09/2026; limite 48 h par annuaire; aucun tarif municipal consulté.",
+      "nextCheck": "Vérifier la borne et ses tarifs auprès de la commune.",
+      "sources": [
+        "https://i-campingcar.fr/aires.php?ville=NEUILLY+SAINT+FRONT"
+      ],
+      "lot": 561,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://campinglafrette.tergnier.fr/tarifs/",
+      "name": "Aire de la Frette, Tergnier",
+      "status": "11 €/24 h + 4,50 € forfait services; toute l'année.",
+      "finding": "Exploitant : forfait service inclut vidange, 100 L d'eau et 30 min d'électricité. Distinct des tarifs saisonniers du camping.",
+      "nextCheck": "Recontrôler le tarif aire et forfait à la prochaine actualisation.",
+      "sources": [
+        "https://campinglafrette.tergnier.fr/tarifs/"
+      ],
+      "lot": 561,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.soissons.fr/camping-municipal-de-soissons/",
+      "name": "Camping municipal de Soissons",
+      "status": "18,94 €/nuit pour emplacement camping-car selon OT 2026; 2,50 € pour services extérieurs selon mairie.",
+      "finding": "Office de tourisme : tarif 2026 emplacement camping-car services inclus. Mairie : 2,50 € pour plein/vidange des camping-cars extérieurs; camping ouvert 01/04–31/10/2026.",
+      "nextCheck": "Demander le barème 2027 et le total avec occupants/électricité/taxes.",
+      "sources": [
+        "https://www.soissons.fr/camping-municipal-de-soissons/",
+        "https://www.soissons-villerscotterets-tourisme.com/hebergements/campings/HPAPIC0020010586_camping-municipal-de-soissons/"
+      ],
+      "lot": 561,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://campingguise.wixsite.com/camping-vallee-oise/tarifs",
+      "name": "Camping de la Vallée de l'Oise, Guise",
+      "status": "tarif 2026 seulement; 16 € pour 1–2 personnes + taxe, électricité et eau/vidange en supplément.",
+      "finding": "16 €/nuit, taxe 0,66 €/personne, électricité 4/6 €, eau/vidange 5 €; ouverture jusqu'au 30/11/2026.",
+      "nextCheck": "Reconfirmer prix et ouverture 2027.",
+      "sources": [
+        "https://campingguise.wixsite.com/camping-vallee-oise/tarifs"
+      ],
+      "lot": 561,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.camping-car.com/aires/34405-aire-de-stationnement/",
+      "name": "Parking place Sohier, Vervins",
+      "status": "tolérance/gratuité uniquement selon annuaire; mairie non explicite.",
+      "finding": "Site mairie mentionne place Sohier sans règle dédiée aux camping-cars; pas de services.",
+      "nextCheck": "Confirmer auprès de la mairie les conditions de stationnement nocturne.",
+      "sources": [
+        "https://www.vervins.fr/articles/les-equipements-municipaux/",
+        "https://www.camping-car.com/aires/34405-aire-de-stationnement/"
+      ],
+      "lot": 561,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC00200043_aire-daccueil-et-de-services-du-domaine-de-zaza/",
+      "name": "Domaine de Zaza, Chavignon",
+      "status": "forfait services dès 8 €; prix nuitée non publié.",
+      "finding": "OT : enceinte fermée, eau/vidange, électricité 2A, WC; Wi-Fi payant 3 €; ouverture toute l'année annoncée.",
+      "nextCheck": "Demander si le forfait 8 € s'ajoute au stationnement et obtenir le tarif de nuitée.",
+      "sources": [
+        "https://www.soissons-villerscotterets-tourisme.com/hebergements/accueil-de-camping-cars/AIRCCPIC00200043_aire-daccueil-et-de-services-du-domaine-de-zaza/"
+      ],
+      "lot": 561,
       "checkedAt": "2026-11-25"
     }
   ]
