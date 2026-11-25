@@ -4,15 +4,15 @@
   "displayedCount": 29,
   "rawRegionalRows": 29,
   "deduplicatedRows": 0,
-  "currentLot": 576,
+  "currentLot": 577,
   "department": "08",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 29,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 576 : fiches 1 à 10 sur 29 contrôlées. Prix rafraîchis pour La Fosse Bleue, Monthermé, Sedan, Charleville-Mézières, Haybes et Vireux-Molhain. Revin : tarifs affichés par l’ADT issus de 2024, non confirmés pour 2025/2026. Bogny-sur-Meuse : deux aires à ne pas confondre, prix non attribué avant identification du point OSM. Le Chesne gratuit et sans services; Rocroi, eau 2 €/100 L et électricité 2 €/h, stationnement non tarifé. Aucun lieu ajouté; 19 fiches restantes.",
+  "note": "Lot 577 : fiches 11 à 20 sur 29 contrôlées. Fromelennes, Givet et Vouziers : capacités/services vérifiés, tarifs des services absents ou non publiés. Raucourt : tarifs gratuits seulement sourcés par une fiche 2024; Girondelle reste non confirmée. Rethel, Fumay, Mouzon et Bergnicourt : tarifs actualisés depuis sources officielles; Launois : jeton de service à 2 €, stationnement non tarifé. Aucun lieu ajouté; 9 fiches restantes.",
   "entries": [
     {
       "sourceId": "node/12582695770",
@@ -134,6 +134,123 @@
         "https://www.openstreetmap.org/way/825939877",
         "https://www.ardennes.com/camping/aire-de-camping-car/"
       ]
+    },
+    {
+      "sourceId": "way/885675880",
+      "place": "Fromelennes — aire de camping-car",
+      "status": "ADT : 6 places ouvertes toute l’année, eau et vidange; adresse 23 rue Nichet. Aucun tarif publié.",
+      "nextCheck": "Demander à la commune si le stationnement et les services sont gratuits ou payants.",
+      "sources": [
+        "https://www.openstreetmap.org/way/885675880",
+        "https://www.ardennes.com/camping/aire-de-camping-car-fromelennes/"
+      ],
+      "lot": 577,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/885675882",
+      "place": "Givet — aire de camping-car",
+      "status": "ADT : environ 20 places, stationnement gratuit toute l’année, eau et vidange; tarifs des services non publiés.",
+      "nextCheck": "Demander à la commune le prix actuel de l’eau et de la vidange.",
+      "sources": [
+        "https://www.openstreetmap.org/way/885675882",
+        "https://www.ardennes.com/camping/aire-de-camping-car-givet/"
+      ],
+      "lot": 577,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/908633309",
+      "place": "Vouziers — aire du Champ de Foire",
+      "status": "ADT : 9 places, stationnement gratuit limité à 48 h; vidanges gratuites, eau et électricité payantes par carte, montants non publiés.",
+      "nextCheck": "Confirmer auprès de la mairie le montant des services payants.",
+      "sources": [
+        "https://www.openstreetmap.org/way/908633309",
+        "https://www.ardennes.com/camping/aire-de-services-pour-camping-cars-de-vouziers/"
+      ],
+      "lot": 577,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1298171665",
+      "place": "Raucourt-et-Flaba — aire communale",
+      "status": "Fiche annuaire datée de 2024 : stationnement/services gratuits, 5 places, 72 h maximum, saison mai-octobre. Conditions 2026 non confirmées.",
+      "nextCheck": "Demander à la mairie les tarifs et la période d’ouverture en vigueur.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1298171665",
+        "https://www.camping-car.com/aires/46277-aire-communale/"
+      ],
+      "lot": 577,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1314653074",
+      "place": "Girondelle — aire camping-car",
+      "status": "Aucune source officielle récente trouvée pour confirmer tarifs, services ou ouverture; gratuité rapportée uniquement par un agrégateur.",
+      "nextCheck": "Confirmer l’existence, l’accès et les tarifs auprès de la mairie.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1314653074",
+        "https://www.oujemegare.fr/aire-camping-car/08-ardennes/"
+      ],
+      "lot": 577,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1482210991",
+      "place": "Rethel — Camping-Car Park",
+      "status": "CCP : 24 places, 6 A; 12,66 €/24 h taxe 2026 de 0,44 € comprise; formule parking 5 h + services : 6 €.",
+      "nextCheck": "Recontrôler le montant de la taxe applicable en 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1482210991",
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/rethel?areaType=aire-etape-camping-car"
+      ],
+      "lot": 577,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "synthetic-fumay",
+      "place": "Fumay — Camping-Car Park",
+      "status": "CCP : 32 places; 13,17 €/24 h, dont 0,44 € de taxe comprise.",
+      "nextCheck": "Vérifier le tarif et la taxe lors de la prochaine actualisation CCP.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/ardennes/fumay?areaType=aire-etape-camping-car"
+      ],
+      "lot": 577,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "synthetic-mouzon",
+      "place": "Mouzon — halte fluviale",
+      "status": "ADT : 9 €/nuit + 0,22 €/personne/nuit; services du 1er avril au 31 octobre, emplacements accessibles hors saison sans services.",
+      "nextCheck": "Confirmer les tarifs et la période de service pour la saison 2027.",
+      "sources": [
+        "https://www.ardennes.com/camping/aire-de-stationnement-pour-camping-cars/"
+      ],
+      "lot": 577,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "synthetic-launois",
+      "place": "Launois-sur-Vence — aire de stationnement/services",
+      "status": "Stationnement sans prix publié. Le jeton des services coûte 2 € pour 100 L d’eau ou 2 h d’électricité.",
+      "nextCheck": "Demander si le stationnement est gratuit et où acheter les jetons en dehors des horaires touristiques.",
+      "sources": [
+        "https://www.ardennes.com/camping/aire-de-camping-car-de-launois-sur-vence/",
+        "https://www.ardennes.com/camping/aire-de-services-pour-camping-car-launois-sur-vence/"
+      ],
+      "lot": 577,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "synthetic-bergnicourt",
+      "place": "Bergnicourt — halte camping-car",
+      "status": "ADT : 10 €/nuit, jeton de rechargement 5 €, 4 places, ouverture toute l’année de 8 h à 22 h.",
+      "nextCheck": "Confirmer les modes de paiement et services actuellement disponibles.",
+      "sources": [
+        "https://www.ardennes.com/camping/halte-camping-car/"
+      ],
+      "lot": 577,
+      "checkedAt": "2026-11-25"
     }
   ]
 }
