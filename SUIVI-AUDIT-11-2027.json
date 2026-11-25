@@ -4,15 +4,15 @@
   "displayedCount": 41,
   "rawRegionalRows": 41,
   "deduplicatedRows": 0,
-  "currentLot": 583,
+  "currentLot": 584,
   "department": "11",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 41,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 583 : fiches 1 à 10 sur 41 contrôlées. Aucun lieu ajouté. Stationnement gratuit confirmé par source touristique pour le Cellier des Demoiselles; tarifs non publiés ou non confirmés laissés comme tels. Peyriac-Minervois : 15,60 €/24 h au 25/11/2026, taxe 2027 à confirmer. Aragon : ouverture saisonnière affichée close depuis le 30/09/2026.",
+  "note": "Lots 583–584 : fiches 1 à 20 sur 41 contrôlées. Lot 584 : fiches 11 à 20. Aucun lieu ajouté. Les aires de Port-la-Nouvelle, Cazilhac et Villasavary ont des tarifs CCP vérifiés; Leucate Dali et Goulet ont des tarifs saisonniers TTC confirmés par l’office de tourisme; Lagrasse 9 €/nuit; Duilhac et Fanjeaux gratuits. Prix de Saint-Pierre-la-Mer non publié; tarif du Garage Méric à confirmer (annuaire secondaire : 8 €/nuit).",
   "entries": [
     {
       "sourceId": "node/5687734315",
@@ -133,6 +133,127 @@
         "https://www.audetourisme.com/fr/fiche/fleury/aire-de-services-pour-camping-cars-cabanes-de-fleury_TFOACCAMLAR011V500QFH/"
       ],
       "lot": 583,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/180608774",
+      "place": "Port-la-Nouvelle — Camping-Car Park",
+      "status": "CCP : aire ouverte. Au 25/11/2026, tarif 13,54 € + taxe de séjour 1,72 € = 15,26 €/24 h. Base 13,54 € affichée du 17/11/2026 au 31/12/2027; taxe 2027 à confirmer. Parking 5 h + services : 6 €.",
+      "nextCheck": "Vérifier la taxe de séjour 2027 et le barème après le 31/12/2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/180608774",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/port-la-nouvelle?areaType=aire-etape-camping-car"
+      ],
+      "lot": 584,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/183857993",
+      "place": "Port-Leucate — aire rue Dali",
+      "status": "Office de tourisme de Leucate : 19 places, eau, électricité et vidanges; paiement par carte, sans réservation. Tarif 2026 TTC : 13,32 € / 24 h du 01/10 au 31/05; 16,42 € du 01/06 au 30/09. Fiche d’ouverture indique période toute l’année 2026 et jusqu’au 05/03/2027.",
+      "nextCheck": "Confirmer les tarifs et dates d’ouverture à partir du 06/03/2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/183857993",
+        "https://www.tourisme-leucate.com/offres/aire-camping-car-rue-dali-port-leucate-port-leucate-leucate-fr-2945105/"
+      ],
+      "lot": 584,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/187696954",
+      "place": "Cazilhac — Camping-Car Park, cité de Carcassonne",
+      "status": "CCP : aire ouverte, 52 places, 6 A. Base 16,29 €/24 h et taxe de séjour 1,60 € publiées jusqu’au 31/12/2027, total 17,89 €. Parking 5 h + services : 6 €.",
+      "nextCheck": "Recontrôler le tarif et la taxe après le 31/12/2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/187696954",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/11-aude/cazilhac-cite-de-carcassonne?areaType=aire-etape-camping-car"
+      ],
+      "lot": 584,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/198926898",
+      "place": "Saint-Pierre-la-Mer — aire de services",
+      "status": "Aude Tourisme (fiche mise à jour le 01/01/2026) : 150 places, borne à jetons, paiement par carte; eau, électricité, vidanges et wifi. Aucun prix de nuitée ou jeton affiché sur la fiche.",
+      "nextCheck": "Demander à la commune le prix de la nuitée et des jetons de services.",
+      "sources": [
+        "https://www.openstreetmap.org/way/198926898",
+        "https://www.audetourisme.com/fr/fiche/fleury/aire-de-services-pour-camping-cars-saint-pierre-la-mer_TFOACCAMLAR0110000K/"
+      ],
+      "lot": 584,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/215452317",
+      "place": "Leucate Village — aire du Goulet",
+      "status": "Office de tourisme de Leucate : 120 places, eau et vidanges, sans électricité; ouverte toute l’année, sans réservation, paiement Easy Pay. Tarif TTC : 12,22 € / 24 h du 01/10 au 31/05; 15,22 € du 01/06 au 30/09.",
+      "nextCheck": "Reconfirmer la grille saisonnière après le 05/03/2027, début de la prochaine période publiée.",
+      "sources": [
+        "https://www.openstreetmap.org/way/215452317",
+        "https://www.tourisme-leucate.com/offres/aire-camping-car-le-goulet-leucate-village-leucate-village-leucate-fr-2945357/"
+      ],
+      "lot": 584,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/234927918",
+      "place": "Lagrasse — aire communale, parking des Pins P2",
+      "status": "Aude Tourisme, fiche mise à jour le 22/10/2026 : forfait de 9 € pour stationner et dormir sur le parking P2; eau et vidange disponibles; 30 places, ouvert toute l’année, paiement carte ou espèces. La fiche annonce également une ouverture pour 2027.",
+      "nextCheck": "Confirmer la grille et les services auprès de la mairie pour 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/234927918",
+        "https://www.audetourisme.com/fr/fiche/lagrasse/aire-de-services-pour-camping-cars_TFOACCAMLAR01100005/"
+      ],
+      "lot": 584,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/298077736",
+      "place": "Villasavary — Camping-Car Park, Les Collines de Lauragais",
+      "status": "CCP : base 12,18 €/24 h du 01/11/2026 au 31/12/2027; taxe 2026 de 1,68 €, total actuel 13,86 €. Taxe 2027 non affichée. Parking 5 h + services : 6 €.",
+      "nextCheck": "Confirmer la taxe de séjour 2027 et le barème après le 31/12/2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/298077736",
+        "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/villasavary-colline-du-laurageais"
+      ],
+      "lot": 584,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/323974560",
+      "place": "Duilhac-sous-Peyrepertuse — aire P1 route du château",
+      "status": "Aude Tourisme (fiche mise à jour le 05/12/2025) : aire de services gratuite, 19 places, stationnement limité à 48 h, sans réservation; eau, sanitaires et vidanges. Fiche annoncée ouverte toute l’année 2026.",
+      "nextCheck": "Confirmer auprès de la mairie les services et conditions pour 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/323974560",
+        "https://www.audetourisme.com/fr/fiche/duilhac-sous-peyrepertuse/aire-de-services-pour-camping-cars_TFOACCAMLAR0110000I/"
+      ],
+      "lot": 584,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/366542863",
+      "place": "Cuxac-Cabardès — aire Garage Méric",
+      "status": "Aude Tourisme (fiche mise à jour le 14/11/2025) : 50 places, eau, électricité et vidanges, paiement CB/chèque/espèces/en ligne; tarif absent de la fiche. Un annuaire secondaire signale 8 €/nuit, à confirmer directement auprès du garage.",
+      "nextCheck": "Demander au garage le prix de la nuitée, de l’électricité et des autres services; résoudre l’écart de capacité avec certains annuaires (50 contre 40).",
+      "sources": [
+        "https://www.openstreetmap.org/way/366542863",
+        "https://www.audetourisme.com/fr/fiche/cuxac-cabardes/aire-de-services-pour-camping-cars-garage-meric_TFOACCAMLAR011V503C67/",
+        "https://www.lecampeur.fr/aire/cuxac-cabardes-ph5szh"
+      ],
+      "lot": 584,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/551071974",
+      "place": "Fanjeaux — aire municipale chemin des Fontanelles",
+      "status": "Aude Tourisme (fiche mise à jour le 22/08/2025) : aire municipale gratuite, 8 places, eau potable et vidanges eaux usées/cassettes.",
+      "nextCheck": "Confirmer auprès de la mairie que le stationnement et les bornes restent accessibles et gratuits.",
+      "sources": [
+        "https://www.openstreetmap.org/way/551071974",
+        "https://www.audetourisme.com/fr/fiche/fanjeaux/aire-de-services-pour-camping-cars_TFOACCAMLAR0110000J/"
+      ],
+      "lot": 584,
       "checkedAt": "2026-11-25"
     }
   ]
