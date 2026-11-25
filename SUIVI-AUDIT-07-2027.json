@@ -1,0 +1,142 @@
+{
+  "scope": "Ardèche (07) : audit des tarifs et services des fiches existantes de aires-ardeche.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-25",
+  "displayedCount": 49,
+  "rawRegionalRows": 49,
+  "deduplicatedRows": 0,
+  "currentLot": 571,
+  "department": "07",
+  "progress": {
+    "checked": 10,
+    "total": 49,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 571 : fiches 1 à 10 contrôlées. Correction majeure aux Nonières : emplacement gratuit confirmé par l'office de tourisme, les 7 € précédemment saisis concernaient les Collanges. Prix/services officiels clarifiés à Saint-Félicien, Le Teil, Vinezac et autres fiches. Aucun lieu ajouté; 39 fiches restantes.",
+  "entries": [
+    {
+      "sourceId": "node/5046531621",
+      "place": "Vinezac — aire communale de services",
+      "lot": 571,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : eau, vidange eaux grises, 2 emplacements; service du 15/03 au 31/10/2026. Tarif non publié; électricité OSM non corroborée.",
+      "nextCheck": "Demander tarif actuel et calendrier 2027; vérifier la fermeture hivernale.",
+      "sources": [
+        "https://www.openstreetmap.org/node/5046531621",
+        "https://www.aubenas-vals.com/camping-ardeche/aire-de-service-accueil-camping-car-communale/"
+      ]
+    },
+    {
+      "sourceId": "node/11938227294",
+      "place": "Le Teil — aire communale",
+      "lot": 571,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : gratuite à l’allée Paul Avon; eau, vidange eaux grises/noires.",
+      "nextCheck": "Recontrôler en cas d’évolution municipale.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11938227294",
+        "https://www.sud-ardeche-tourisme.com/sejourner/ou-dormir/aires-camping-cars/5961735_aire-de-service-aires-de-camping-car-communal/"
+      ]
+    },
+    {
+      "sourceId": "node/11938418948",
+      "place": "Saint-Félicien — Place de Québec",
+      "lot": 571,
+      "checkedAt": "2026-11-25",
+      "status": "Mairie : stationnement gratuit, 4 emplacements, max 48h; borne de services 2 €/55 min, pièce de 2 € uniquement.",
+      "nextCheck": "Recontrôler le tarif à la prochaine mise à jour municipale.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11938418948",
+        "https://www.saint-felicien.fr/aire-de-camping-cars/",
+        "https://www.ardeche-hermitage.com/fr/ou-dormir/tous-les-hebergements/detail/verzorgingsplaatsen/aire-de-service-accueil-camping-car-communale-111230/"
+      ]
+    },
+    {
+      "sourceId": "node/11938434346",
+      "place": "Chanéac — aire de stationnement",
+      "lot": 571,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : stationnement gratuit, 2 places, toute l’année; aucun service de borne confirmé.",
+      "nextCheck": "Confirmer les équipements uniquement si la fiche locale est actualisée.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11938434346",
+        "https://www.ardeche-hautes-vallees.fr/camping/aire-de-stationnement-camping-cars-de-chaneac/"
+      ]
+    },
+    {
+      "sourceId": "node/11938472339",
+      "place": "Saint-Julien-d’Intres — aire de la Dolce Via",
+      "lot": 571,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : gratuite, 5 places, eau et sanitaires, vidange interdite, max 24 h; sanitaires fermés l’hiver.",
+      "nextCheck": "Recontrôler le calendrier saisonnier des sanitaires en 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11938472339",
+        "https://www.ardeche-hautes-vallees.fr/camping/aire-de-stationnement-camping-cars-de-saint-julien-dintres/"
+      ]
+    },
+    {
+      "sourceId": "node/11938500869",
+      "place": "Saint-Remèze — Maison de la Lavande",
+      "lot": 571,
+      "checkedAt": "2026-11-25",
+      "status": "Parking gratuit pour camping-cars autonomes, sans eau ni électricité ni sanitaires; badge à l’accueil. Fiche aire 2027 et réouverture générale du domaine indiquent des dates de début différentes.",
+      "nextCheck": "Confirmer avec le gestionnaire si les camping-cars sont admis dès le 26/03/2027 ou à partir du 03/04/2027.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11938500869",
+        "https://www.ardeche-guide.com/camping/aire-de-camping-car-maison-de-la-lavande-874774/",
+        "https://www.lamaisondelalavande.com/"
+      ]
+    },
+    {
+      "sourceId": "node/11940277249",
+      "place": "Saint-André-en-Vivarais — aire de stationnement",
+      "lot": 571,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : gratuite, 5 places, max 48 h; WC publics à proximité; aucun service de borne confirmé.",
+      "nextCheck": "Recontrôler les équipements si la mairie publie une mise à jour.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11940277249",
+        "https://www.ardeche-hautes-vallees.fr/camping/aire-de-stationnement-camping-cars-de-saint-andre-en-vivarais/"
+      ]
+    },
+    {
+      "sourceId": "node/11940314182",
+      "place": "Belsentes — Les Nonières",
+      "lot": 571,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : 2 places, stationnement gratuit, maximum 48 h. Le tarif 7 € des Collanges ne correspond pas à ce point OSM.",
+      "nextCheck": "Aucune correction supplémentaire requise; garder Les Collanges distincte.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11940314182",
+        "https://www.ardeche-hautes-vallees.fr/camping/aire-de-stationnement-camping-cars-des-nonieres/",
+        "https://www.dolce-via.com/fr/catalogue/activite/aire-de-stationnement-camping-cars-des-nonieres-6222754/"
+      ]
+    },
+    {
+      "sourceId": "node/11940361458",
+      "place": "Valvignères — Mas d’Intras",
+      "lot": 571,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : parking gratuit uniquement, lavabo et toilettes; aucune vidange ni branchement. Commune confirmée Valvignères.",
+      "nextCheck": "Reconfirmer les modalités d’accès au domaine et les heures d’accueil si elles sont affichées.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11940361458",
+        "https://www.sud-ardeche-tourisme.com/sejourner/ou-dormir/aires-camping-cars/94832_aire-de-service-accueil-camping-car-mas-dintras/"
+      ]
+    },
+    {
+      "sourceId": "node/11940552460",
+      "place": "Arlebosc — Place du marché",
+      "lot": 571,
+      "checkedAt": "2026-11-25",
+      "status": "Ardèche Hermitage Tourisme : parking gratuit, eau et vidange, 10 places, fermé en période de gel; coût des services non précisé.",
+      "nextCheck": "Demander si eau/vidange sont gratuites ou payantes.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11940552460",
+        "https://www.ardeche-guide.com/camping/aire-de-service-accueil-camping-car-6257067/",
+        "https://www.cirkwi.com/it/point-interet/5416823-aire-de-service-accueil-camping-car"
+      ]
+    }
+  ]
+}
