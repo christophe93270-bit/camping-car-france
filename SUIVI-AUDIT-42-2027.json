@@ -4,15 +4,15 @@
   "displayedCount": 84,
   "rawRegionalRows": 84,
   "deduplicatedRows": 0,
-  "currentLot": 543,
+  "currentLot": 544,
   "department": "42",
   "progress": {
-    "checked": 40,
+    "checked": 50,
     "total": 84,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit en cours, par lots de dix. Lot 540 (fiches 1–10) : corrections période tarifaire à Montrond; tarifs officiels confirmés à Panissières, Le Bessat, etc. Lot 541 (11–20) : Roanne confirmé, périodes CCP corrigées à Saint-Étienne et Saint-Martin-la-Plaine; divergences de durée à Marols et de capacité à Saint-Victor. Lot 542 (21–30) : tarifs Planfoy, Noirétable, Soleymieux et Montbrison vérifiés; correction de durée à Chalmazel (7 jours, non 7 nuits); eau coupée à Saint-Rirand. Lot 543 (31–40) : gratuités et services officiels confirmés sur les fiches tourisme; divergence de capacité à Les Noës (3/5); à Violay, CCP affiche maintenant 12,70 € + 1 € et période débutant le 17/11/2026; Fontanès garde des détails 2026 à confirmer. Aucune fiche source n’a été modifiée.",
+  "note": "Audit en cours par lots de dix. Lot 540 (fiches 1–10) : tarifs confirmés et période à corriger à Montrond. Lot 541 (11–20) : Roanne confirmé; dates CCP à corriger à Saint-Étienne et Saint-Martin-la-Plaine; divergences de durée/capacité à Marols et Saint-Victor. Lot 542 (21–30) : prix des aires à jetons vérifiés; limite à Chalmazel à corriger en 7 jours; eau coupée à Saint-Rirand. Lot 543 (31–40) : gratuits confirmés; Violay, période tarifaire actuelle débutant le 17/11/2026; capacité Les Noës 3/5 à confirmer. Lot 544 (41–50) : Civens 5 €/nuit + 3 € vidange; Néronde gratuit mais saisonnière; Perreux gratuit 72 h; Pacotière eau 2 € le jeton. Cordelle comporte des divergences entre fiches sur capacité et période; tarifs distincts à faire préciser. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/7916862763",
@@ -251,6 +251,56 @@
       "place": "Ambierle — La Grye",
       "status": "Roannais Tourisme confirme 3 places et gratuité avec eau/vidange; mise hors gel du 1er novembre au 31 mars.",
       "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "place": "Saint-André-d’Apchon — La Prébande",
+      "status": "Loire Tourisme confirme trois places, stationnement et services gratuits (eau/vidange), hors gel du 1er novembre au 31 mars. L’électricité n’est pas répertoriée.",
+      "nextCheck": "Confirmer si branchement électrique absent ou simplement non listé."
+    },
+    {
+      "place": "Bully — rue de la Mine",
+      "status": "Loire Tourisme confirme la gratuité, la borne de services et l’ouverture toute l’année 2026; capacité et fonctionnement effectif de l’eau non précisés.",
+      "nextCheck": "Confirmer sur place le fonctionnement de l’eau et la capacité."
+    },
+    {
+      "place": "Civens — Le Hall du Camping-Car",
+      "status": "Tarifs 2026 : 5 € / nuit, 3 € vidange; 15 places. Eau et électricité disponibles, prix non précisés; fermeture durant vacances de Noël.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "place": "Néronde — Les Chassagnes",
+      "status": "Trois places et services gratuits confirmés; eau, électricité, vidanges, toilettes; ouvert du 1er avril au 1er novembre 2026.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant; aire fermée hors saison."
+    },
+    {
+      "place": "Saint-Just-en-Chevalet — boulevard de l’Astrée",
+      "status": "Un emplacement de service gratuit avec WC; eau fermée en hiver; ouverture toute l’année sauf jeudi matin de marché. Nuitée prolongée non confirmée.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant pour le prix des services."
+    },
+    {
+      "place": "Saint-Germain-Laval — Camping La Pra",
+      "status": "Tarif 2026 emplacement camping-car 10–15 € / jour, électricité option 4–5 € / jour; aire 10 places, ouverte du 10/04 au 15/10. Ligne séparée services camping-car 17–25 € non explicitée.",
+      "nextCheck": "Faire préciser par le camping ce qui est inclus et si le service à 17–25 € s’ajoute à l’emplacement."
+    },
+    {
+      "place": "Saint-Hilaire-sous-Charlieu — Grand Couvert",
+      "status": "Charlieu-Belmont indique 2 places et WC publics; aucun tarif officiel publié pour ce parking.",
+      "nextCheck": "Confirmer à la mairie la gratuité de nuitée et l’accès actuel aux WC."
+    },
+    {
+      "place": "Perreux — Place des Franchises",
+      "status": "Loire Tourisme : deux places, gratuit, 24 h/24 toute l’année, durée maximale 72 h.",
+      "nextCheck": "Vérifier les équipements de services disponibles sur place."
+    },
+    {
+      "place": "Saint-Jean-Bonnefonds — La Pacotière",
+      "status": "Eau à 2 € le jeton et borne de vidange; eau fermée du 1er novembre au 31 mars. Parking proche, nuitée non attestée.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant; ne pas présenter le site comme aire de nuitée."
+    },
+    {
+      "place": "Cordelle — Camping de Mars",
+      "status": "Divergences : fiche de l’aire 5 places, 01/04–16/10; fiche camping 10 places, 18/04–30/09; site exploitant 10 places, 15/04–15/10. Tarif camping-car 20–30 € et ligne services 17–25 € sans détail de formule finale. Saison terminée.",
+      "nextCheck": "Confirmer avec l’exploitant la capacité de l’aire dédiée et les formules de tarifs nuitée/services."
     }
   ]
 }
