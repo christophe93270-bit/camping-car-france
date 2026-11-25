@@ -4,15 +4,15 @@
   "displayedCount": 84,
   "rawRegionalRows": 84,
   "deduplicatedRows": 0,
-  "currentLot": 542,
+  "currentLot": 543,
   "department": "42",
   "progress": {
-    "checked": 30,
+    "checked": 40,
     "total": 84,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit en cours, par lots de dix. Lot 540 (fiches 1–10) : tarifs confirmés notamment à Noailly, Panissières, Les Salles et Le Bessat; correction de période à Montrond. Lot 541 (fiches 11–20) : Villerest gratuit; Loire Forez à jeton de 5 €; tarif saisonnier du port de Roanne; divergences de durée à Marols et de capacité à Saint-Victor; dates à corriger aux CCP de Saint-Étienne et Saint-Martin-la-Plaine. Lot 542 (fiches 21–30) : tarifs Planfoy, Noirétable, Soleymieux et Montbrison vérifiés; correction de durée à Chalmazel-Jeansagnière (« 7 jours » au lieu de « 7 nuits »); eau indisponible à Saint-Rirand; statut tarifaire des branchements au Crozet à confirmer. Aucune fiche source n’a été modifiée.",
+  "note": "Audit en cours, par lots de dix. Lot 540 (fiches 1–10) : corrections période tarifaire à Montrond; tarifs officiels confirmés à Panissières, Le Bessat, etc. Lot 541 (11–20) : Roanne confirmé, périodes CCP corrigées à Saint-Étienne et Saint-Martin-la-Plaine; divergences de durée à Marols et de capacité à Saint-Victor. Lot 542 (21–30) : tarifs Planfoy, Noirétable, Soleymieux et Montbrison vérifiés; correction de durée à Chalmazel (7 jours, non 7 nuits); eau coupée à Saint-Rirand. Lot 543 (31–40) : gratuités et services officiels confirmés sur les fiches tourisme; divergence de capacité à Les Noës (3/5); à Violay, CCP affiche maintenant 12,70 € + 1 € et période débutant le 17/11/2026; Fontanès garde des détails 2026 à confirmer. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/7916862763",
@@ -193,6 +193,66 @@
       "place": "Le Crozet — route de la Gare",
       "status": "Roannais Tourisme confirme deux places, vidange, eau et électricité; tarif indiqué généralement gratuit. Les anciens 2 € issus d’une fiche 2022 ne sont pas confirmés pour 2026.",
       "nextCheck": "Vérifier directement à la borne si eau et électricité sont gratuites ou payantes."
+    },
+    {
+      "sourceId": "way/1307209732",
+      "place": "Saint-Martin-d’Estréaux — Place des Gouttes",
+      "status": "Roannais Tourisme confirme 3 places, WC publics, gratuité et ouverture toute l’année 2026.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/1307211215",
+      "place": "Champoly — La Péniche",
+      "status": "Roannais Tourisme confirme 2 places, eau, électricité et vidanges gratuits, toute l’année 2026; Wifi au bourg.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/1307216963",
+      "place": "Saint-Marcel-d’Urfé — route de l’Aix",
+      "status": "Roannais Tourisme confirme 2 places, eau, WC et vidanges gratuits toute l’année 2026.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/1307227015",
+      "place": "Parigny — rue des Remparts / rue des Écureuils",
+      "status": "Roannais Tourisme confirme 3 places, eau, électricité et stationnement gratuits, toute l’année 2026.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/1320146269",
+      "place": "Fontanès — zone de loisirs du Rio",
+      "status": "Saint-Étienne Hors-Cadre confirme parking extérieur et borne de vidange gratuite; le nombre de places, 48 h et la saisonnalité viennent d’un guide 2024.",
+      "nextCheck": "Confirmer capacité, limite et période de fonctionnement en mairie pour 2026."
+    },
+    {
+      "sourceId": "way/1431738534",
+      "place": "Saint-Jean-Saint-Maurice-sur-Loire — route de Charizet",
+      "status": "Roannais Tourisme confirme 4 places gratuites, toute l’année 2026; aucun service technique annoncé.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "node/1190639938",
+      "place": "Renaison — La Rivière, Place Commune",
+      "status": "Mairie et Roannais Tourisme confirment gratuité, 11 places, eau et vidanges eaux grises/noires, toute l’année.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "sourceId": "way/1307204435",
+      "place": "Les Noës — Place Centrale",
+      "status": "Gratuité et fermeture de l’eau confirmées; fiche Loire Tourisme contradictoire sur capacité : 3 emplacements dans description, 5 dans capacité.",
+      "nextCheck": "Confirmer le nombre réel de places auprès de la commune."
+    },
+    {
+      "sourceId": "way/1307202797",
+      "place": "Violay — CAMPING-CAR PARK",
+      "status": "Tarif opérateur actuel : 12,70 € / 24 h + 1 € de taxe, total 13,70 €; 6 € pour 5 h + services. Période tarifaire affichée depuis le 17/11/2026, non le 15/10. 20 places; sanitaires 01/04–15/11/2026.",
+      "nextCheck": "Corriger la période; retirer le total à 15,80 € non observé actuellement et revérifier le tarif dynamique au paiement."
+    },
+    {
+      "sourceId": "way/1431738534",
+      "place": "Ambierle — La Grye",
+      "status": "Roannais Tourisme confirme 3 places et gratuité avec eau/vidange; mise hors gel du 1er novembre au 31 mars.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
     }
   ]
 }
