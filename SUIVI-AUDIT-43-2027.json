@@ -1,0 +1,78 @@
+{
+  "scope": "Haute-Loire (43) : audit des tarifs, services, capacités et périodes d’ouverture des fiches de aires-haute-loire.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-25",
+  "displayedCount": 79,
+  "rawRegionalRows": 79,
+  "deduplicatedRows": 0,
+  "currentLot": 549,
+  "department": "43",
+  "progress": {
+    "checked": 10,
+    "total": 79,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Audit commencé après achèvement des 84 fiches du département 42. Lot 549 (1–10) : Auzon 12,70 €/24 h confirmé par tourisme et opérateur, taxe incluse au tarif observé; Saint-Romain-Lachalm et Raucoules jeton 2 € confirmé; Saint-Bonnet-le-Froid 10 €/nuit + caution clé 10 €, fermeture saisonnière vérifiée; Chanteuges services gratuits mais nuitée payante avec divergence tarifaire 2022/2024; Ally, Le Vernet, Solignac, Aiguilhe et Tiranges ont des prix ou conditions à confirmer. Aucune fiche source n’a été modifiée.",
+  "entries": [
+    {
+      "sourceId": "node/8898564107",
+      "place": "Ally — Champ Petiot",
+      "status": "Stationnement gratuit et borne Euro-Relais; 3 places selon répertoire spécialisé. Tarif de service de 2 € rapporté en 2026, tandis qu’un ancien relevé indique 3 €; saisonnalité d’eau/borne non certaine.",
+      "nextCheck": "Vérifier le prix affiché à la borne, les services couverts par le jeton et l’ouverture hivernale."
+    },
+    {
+      "sourceId": "node/12104383322",
+      "place": "Le Vernet — aire au bord de l’étang",
+      "status": "My Haute-Loire confirme eau, vidange et électricité payantes, fonctionnement du 1er mai au 30 octobre; stationnement hors saison possible sans eau. Aucun montant publié.",
+      "nextCheck": "Demander à la commune le prix par service et confirmer si l’aire est actuellement accessible hors saison."
+    },
+    {
+      "sourceId": "way/138183546",
+      "place": "Auzon — aire CAMPING-CAR PARK",
+      "status": "25 emplacements, ouverte 24 h/24 toute l’année 2026. My Haute-Loire et opérateur indiquent 12,70 €/24 h, taxe de séjour de 1,30 € comprise à la date consultée; le tarif peut varier selon date/réservation. Adresse correcte : 43390, malgré la ligne erronée 44390.",
+      "nextCheck": "Revérifier le prix final dans l’application/à l’entrée au moment d’une mise à jour; conserver 43390."
+    },
+    {
+      "sourceId": "way/302425377",
+      "place": "Chanteuges — esplanade de l’ancienne gare",
+      "status": "Eau, vidanges et wifi gratuits; nuitée payante. Page communale fondée sur délibération 2022 : 2 €/adulte et 1,50 €/enfant; message attribué à un élu en 2024 cite 1,50 €/adulte et 1 €/enfant. Aucun barème 2026 explicite.",
+      "nextCheck": "Confirmer le tarif de nuitée 2026 auprès de la mairie; ne pas étendre la gratuité des services à la nuitée."
+    },
+    {
+      "sourceId": "way/360568385",
+      "place": "Saint-Romain-Lachalm — aire du Bourg",
+      "status": "4 places et stationnement/vidange gratuits; jeton 2 € pour 20 min d’eau OU 4 h d’électricité, selon My Haute-Loire 2026. Jetons vendus en mairie et commerces.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant; contrôler sur place le fonctionnement de la borne."
+    },
+    {
+      "sourceId": "way/362349719",
+      "place": "Raucoules — 4 rue du Marché",
+      "status": "4 places, stationnement et vidange gratuits; jeton Flot Bleu 2 € donnant 20 min d’eau OU 4 h d’électricité, tarif annoncé 2026. Ouverte toute l’année.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant; confirmer disponibilité locale de la borne et des jetons."
+    },
+    {
+      "sourceId": "way/366950128",
+      "place": "Saint-Bonnet-le-Froid — aire chemin de Brard",
+      "status": "Mairie et My Haute-Loire : 6 places, 10 €/nuit incluant eau, vidange et électricité; caution remboursable de 10 € pour la clé. Ouverture 15 avril–15 novembre, sauf fermeture de la Foire aux Champignons début novembre; fermée à la date du contrôle.",
+      "nextCheck": "Aucun tarif 2026 restant à vérifier; recontrôler les dates et la fermeture exceptionnelle avant la saison 2027."
+    },
+    {
+      "sourceId": "way/386949774",
+      "place": "Solignac-sur-Loire — 18 rue de l’Iris",
+      "status": "Ouverture publiée du 15 avril au 31 octobre; eau, électricité et vidanges payantes mais comprises dans le prix de 24 h. Montant total 2026 non publié.",
+      "nextCheck": "Demander le prix des 24 h au gestionnaire ou relever le tarif sur place; ne pas présenter les services comme achetables séparément."
+    },
+    {
+      "sourceId": "way/488338295",
+      "place": "Aiguilhe — avenue de Bonneville",
+      "status": "Tourisme local confirme 6 places, services et limite de 24 h, ouverte toute l’année. Un annuaire mis à jour en octobre 2026 mentionne 4 € par jeton, non confirmé par la fiche touristique.",
+      "nextCheck": "Vérifier le prix et le contenu du jeton sur la borne; garder la limite de 24 h."
+    },
+    {
+      "sourceId": "way/590793144",
+      "place": "Tiranges — La Nerceyre",
+      "status": "Gorges de la Loire confirme stationnement et vidanges, eau disponible d’avril à novembre; aire annoncée ouverte toute l’année. Aucun montant de tarif 2026 publié.",
+      "nextCheck": "Relever le tarif à la borne et confirmer les conditions exactes de nuitée auprès de la commune."
+    }
+  ]
+}
