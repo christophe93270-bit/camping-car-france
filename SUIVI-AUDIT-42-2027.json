@@ -4,15 +4,15 @@
   "displayedCount": 84,
   "rawRegionalRows": 84,
   "deduplicatedRows": 0,
-  "currentLot": 546,
+  "currentLot": 547,
   "department": "42",
   "progress": {
-    "checked": 70,
+    "checked": 80,
     "total": 84,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit en cours par lots de dix. Lot 540 (1–10) : tarifs confirmés; période Montrond à corriger. Lot 541 (11–20) : tarifs réseau Loire Forez/Roanne confirmés, dates CCP corrigées à Saint-Étienne et Saint-Martin-la-Plaine; divergences à Marols et Saint-Victor. Lot 542 (21–30) : prix à jetons vérifiés, Chalmazel = 7 jours, eau coupée Saint-Rirand. Lot 543 (31–40) : Violay grille actuelle depuis 17/11/2026, capacité Les Noës 3/5 à confirmer. Lot 544 (41–50) : tarifs Civens, Néronde, Perreux, Pacotière confirmés; Cordelle divergences capacité/ouverture/tarifs. Lot 545 (51–60) : Pouilly CCP 13 € + 0,44 €; date tarifaire page actuelle 17/11 vs calendrier municipal 1/10; Saint-Galmier eau 1/2 €. Lot 546 (61–70) : tarifs de campings saisonniers vérifiés et saison 2026 terminée; correction dates La Croix de Garry selon commune; tarif des Régnières non publié; opérateur du Val du Ternay radié mai 2026, tarif 2024 obsolète à ne pas utiliser sans confirmation de reprise. Aucune fiche source n’a été modifiée.",
+  "note": "Audit en cours par lots de dix. Lot 540 (1–10) : tarifs confirmés; période Montrond à corriger. Lot 541 (11–20) : tarifs réseau Loire Forez/Roanne confirmés, dates CCP corrigées à Saint-Étienne et Saint-Martin-la-Plaine; divergences à Marols et Saint-Victor. Lot 542 (21–30) : prix à jetons vérifiés, Chalmazel = 7 jours, eau coupée Saint-Rirand. Lot 543 (31–40) : Violay grille actuelle depuis 17/11/2026, capacité Les Noës 3/5 à confirmer. Lot 544 (41–50) : tarifs Civens, Néronde, Perreux, Pacotière confirmés; Cordelle divergences capacité/ouverture/tarifs. Lot 545 (51–60) : Pouilly CCP 13 € + 0,44 €; date tarifaire page actuelle 17/11 vs calendrier municipal 1/10; Saint-Galmier eau 1/2 €. Lot 546 (61–70) : tarifs de campings saisonniers vérifiés et saison 2026 terminée; correction dates La Croix de Garry selon commune; tarif des Régnières non publié; opérateur du Val du Ternay radié mai 2026, tarif 2024 obsolète à ne pas utiliser sans confirmation de reprise. Aucune fiche source n’a été modifiée. Lot 547 (71–80) : Le Verdillé 12/16 € + électricité confirmé; Charlieu 21,50 € à distinguer de l’emplacement nu; ligne 14,80 € du point de jour Montrond ambiguë; dates/formules divergentes au Soleillant; Granges 3 € services seuls selon Loire Tourisme contre 2 € selon l’agglomération; Les Vernières à re-confirmer; Ratarieux sans prix officiel 2026; Bébieux sans total camping-car. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/7916862763",
@@ -401,6 +401,56 @@
       "place": "Saint-Julien-Molin-Molette — Camping Val du Ternay",
       "status": "Tarif historique 2024 non confirmé en 2026; société exploitante CAMPING VAL DU TERNAY (SIREN 848 134 763) liquidée/radiée en mai 2026; reprise possible non établie.",
       "nextCheck": "Confirmer avec la mairie si le camping a fermé ou repris; ne pas publier le tarif 2024 comme actuel."
+    },
+    {
+      "place": "Saint-Pierre-de-Bœuf — Camping de la Lône",
+      "status": "Accueil camping-cars et ouverture 1er avril–30 septembre 2026 confirmés; tarif non publié.",
+      "nextCheck": "Demander le forfait camping-car 2026 et les services inclus."
+    },
+    {
+      "place": "Camping Le Verdillé",
+      "status": "Grille 2026 : 12 €/jour pour 1–2 personnes basse saison, 16 € en juillet-août; électricité 4 €/jour; ouverture 28 avril–28 septembre.",
+      "nextCheck": "Aucun tarif restant à vérifier pour 2026."
+    },
+    {
+      "place": "Charlieu — Camping de Charlieu",
+      "status": "Office de tourisme : 20 places camping-car, forfait 21,50 € et taxe 0,30 €/personne/nuit. Une autre page affiche un emplacement nu dès 12 €, formule distincte.",
+      "nextCheck": "Confirmer au camping la formule exacte du forfait camping-car."
+    },
+    {
+      "place": "Montrond-les-Bains — point de services promenade Marguerite d’Albon",
+      "status": "Point de jour, sans nuitée ni électricité; ligne « emplacement 14,80 € » dans les tarifs 2026 non expliquée, à ne pas classer comme prix de nuitée/service.",
+      "nextCheck": "Demander à la commune ce que couvre le montant de 14,80 €."
+    },
+    {
+      "place": "Verrières-en-Forez — Camping Le Soleillant",
+      "status": "Fiche camping-car : 10–12 €/personne/nuit, ouverture 1er avril–31 octobre; page générale : 10 €/adulte/jour et ouverture 1er mars–30 novembre. 5 emplacements camping-car dédiés, 25 globaux.",
+      "nextCheck": "Faire confirmer auprès de l’exploitant les dates et le tarif camping-car."
+    },
+    {
+      "place": "Chalmazel — Aire des Granges",
+      "status": "Loire Tourisme : 14 €/24 h avec services, ou 3 € services seuls; réservation obligatoire. Loire Forez Agglomération affiche 2 € pour le service seul.",
+      "nextCheck": "Confirmer le tarif service seul (2 € ou 3 €) auprès du gestionnaire."
+    },
+    {
+      "place": "Vêtre-sur-Anzon — Camping municipal Les Vernières",
+      "status": "Grille enregistrée : emplacement 1,50 €/jour, camping-car 2,50 €/jour, adulte 2 €/jour, électricité 2,50 €/jour, douche 1,50 €, taxe 0,20 €/adulte; saison 1er mai–30 septembre. 2,50 € n’est pas le forfait complet.",
+      "nextCheck": "Reconfirmer la grille 2026 auprès de la commune."
+    },
+    {
+      "place": "Saint-Priest-en-Jarez — services Ratarieux",
+      "status": "Service technique/vidange, sans nuitée attestée; prix historique de 2 € non confirmé officiellement pour 2026.",
+      "nextCheck": "Relever le prix à la borne ou demander au gestionnaire."
+    },
+    {
+      "place": "Lentigny — Parc du Cèdre",
+      "status": "Roannais Tourisme confirme stationnement gratuit toute l’année, toilettes et aire de pique-nique; pas de services eau/vidange annoncés.",
+      "nextCheck": "Aucun contrôle tarifaire externe restant."
+    },
+    {
+      "place": "Saint-Just-Saint-Rambert — Camping de Bébieux",
+      "status": "Loire Tourisme : ouverture 11 avril–12 octobre 2026, adulte 2,50 €/jour, électricité 3 €/jour, véhicule 3,50 €/jour. 25 emplacements mixtes; total camping-car non publié.",
+      "nextCheck": "Demander le total de nuitée camping-car et les composantes incluses."
     }
   ]
 }
