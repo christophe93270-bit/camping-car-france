@@ -4,15 +4,15 @@
   "displayedCount": 49,
   "rawRegionalRows": 49,
   "deduplicatedRows": 0,
-  "currentLot": 574,
+  "currentLot": 575,
   "department": "07",
   "progress": {
-    "checked": 40,
+    "checked": 49,
     "total": 49,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 9,
+    "totalInLot": 9
   },
-  "note": "Lots 571–574 : fiches 1 à 40 sur 49 contrôlées. Lot 574 : participation libre confirmée à Empurany; stationnement gratuit confirmé à Ardoix, Le Chambon et Saint-Clément; jeton de services à 2 € à Saint-Romain-d’Ay; CCP Sampzon actualisé à 14,37 €/24 h. Le CCP du lac de La Palisse est signalé temporairement fermé et affiche 13,36 €/24 h; Saint-Martial : 8 €/24 h mais taxe de séjour divergente entre la mairie et la fiche touristique. Saint-Romain-de-Lerps et Colombier-le-Jeune restent sans tarif officiel publié. Aucun lieu ajouté; 9 fiches restantes.",
+  "note": "Lots 571–575 : les 49 fiches de l’Ardèche contrôlées. Lot 575 : Colombier-le-Vieux est gratuit mais temporairement fermé; Tournon-sur-Rhône : 7 € pour une nuit, localisation à confirmer; Chomérac gratuit sauf recharge électrique; Vernoux : stationnement gratuit 48 h et jetons de services à 2 €. Tarifs CCP rafraîchis pour Ruoms, Saint-Martin-d’Ardèche, Lagorce, Orgnac-l’Aven et Soyons. Aucun lieu ajouté. Audit du département 07 terminé.",
   "entries": [
     {
       "sourceId": "node/5046531621",
@@ -506,6 +506,111 @@
       "sources": [
         "https://www.openstreetmap.org/way/1287633508",
         "https://colombierlejeune.fr/tourisme-et-activites/aires-de-camping-car/"
+      ]
+    },
+    {
+      "sourceId": "way/1287668927",
+      "place": "Colombier-le-Vieux — aire communale",
+      "lot": 575,
+      "checkedAt": "2026-11-25",
+      "status": "Ardèche Guide : aire gratuite avec eau et vidanges, mais fermée temporairement; ne pas orienter les voyageurs avant confirmation de réouverture.",
+      "nextCheck": "Confirmer auprès de la commune la réouverture et le fonctionnement des services.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287668927",
+        "https://www.ardeche-guide.com/camping/aire-de-service-accueil-camping-car-6257178/"
+      ]
+    },
+    {
+      "sourceId": "way/1287684776",
+      "place": "Tournon-sur-Rhône — parking de l’Octroi",
+      "lot": 575,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme Ardèche Hermitage : chemin de Labeaume, 10 places, eau et vidange, une nuit maximum, 7 €. Une fiche signale un possible déplacement de l’aire.",
+      "nextCheck": "Contacter les services techniques de la mairie pour confirmer emplacement et tarif avant déplacement.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1287684776",
+        "https://www.ardeche-hermitage.com/fr/ou-dormir/tous-les-hebergements/detail/rastplatze/aire-de-service-accueil-camping-car-communale-119256/",
+        "https://www.drome-tourism.com/fiches/aire-de-service-accueil-camping-car-communale-3/"
+      ]
+    },
+    {
+      "sourceId": "way/1294598571",
+      "place": "Chomérac — aire communale allée René Cassin",
+      "lot": 575,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme Cœur d’Ardèche : aire gratuite toute l’année, 10 places, eau et vidanges gratuites; borne de recharge électrique payante.",
+      "nextCheck": "Aucune vérification tarifaire restante; recontrôler seulement en cas de mise à jour municipale.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1294598571",
+        "https://www.coeur-ardeche.fr/camping/aire-de-service-camping-cars-489107/"
+      ]
+    },
+    {
+      "sourceId": "way/1296620721",
+      "place": "Vernoux-en-Vivarais — aire près du camping municipal",
+      "lot": 575,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : stationnement gratuit, 4 places, 48 h maximum; vidange gratuite, eau 2 € le jeton/10 min, électricité 2 € le jeton/60 min; borne ouverte du 15/03 au 15/11.",
+      "nextCheck": "Recontrôler les dates saisonnières et les modalités des jetons lors de la saison 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1296620721",
+        "https://www.auvergnerhonealpes-tourisme.com/fiches/aire-daccueil-et-de-services-pour-camping-cars/",
+        "https://www.ardeche-guide.com/camping/aire-daccueil-et-de-services-pour-camping-cars-90958/"
+      ]
+    },
+    {
+      "sourceId": "ccp-ruoms",
+      "place": "Ruoms — Camping de mon Village CCP",
+      "lot": 575,
+      "checkedAt": "2026-11-25",
+      "status": "CCP officiel : ouvert, 100 emplacements, sanitaires saisonniers; 14,40 €/24 h, taxe 2026 de 0,44 € incluse.",
+      "nextCheck": "Recontrôler le tarif après la prochaine grille annuelle CCP.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/ruoms?areaType=campingplatzen"
+      ]
+    },
+    {
+      "sourceId": "ccp-saint-martin-d-ard-che",
+      "place": "Saint-Martin-d’Ardèche — Camping de mon Village CCP",
+      "lot": 575,
+      "checkedAt": "2026-11-25",
+      "status": "CCP officiel : 15,44 €/24 h dont 0,44 € de taxe; sanitaires ouverts du 10/04 au 20/09/2026.",
+      "nextCheck": "Recontrôler la période d’ouverture des sanitaires et les tarifs avant 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/saint-martin-d-ardeche?areaType=campingplatzen"
+      ]
+    },
+    {
+      "sourceId": "ccp-lagorce",
+      "place": "Lagorce — aire CCP",
+      "lot": 575,
+      "checkedAt": "2026-11-25",
+      "status": "CCP officiel : aire ouverte; 14,32 €/24 h dont 1,32 € de taxe 2026, base 13 € jusqu’au 31/12/2027; parking 5 h + services : 6 €.",
+      "nextCheck": "Recontrôler les changements de tarifs à l’approche de 2028.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/lagorce?areaType=area-de-etapa-autocaravanas"
+      ]
+    },
+    {
+      "sourceId": "ccp-orgnac-l-aven",
+      "place": "Orgnac-l’Aven — aire CCP",
+      "lot": 575,
+      "checkedAt": "2026-11-25",
+      "status": "CCP officiel : aire ouverte, 26 places, 6 A; 15,02 €/24 h dont 1,32 € de taxe 2026; base 13,70 € jusqu’au 31/12/2027.",
+      "nextCheck": "Recontrôler les tarifs à l’approche de 2028.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/orgnac-l-aven"
+      ]
+    },
+    {
+      "sourceId": "ccp-soyons",
+      "place": "Soyons — aire CCP",
+      "lot": 575,
+      "checkedAt": "2026-11-25",
+      "status": "CCP officiel : aire ouverte, 14 places; eau, électricité, vidange; 14,90 €/24 h dont 0,90 € de taxe 2026; base 14 € jusqu’au 31/12/2027.",
+      "nextCheck": "Recontrôler les tarifs à l’approche de 2028.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/soyons?areaType=area-de-etapa-autocaravanas"
       ]
     }
   ]

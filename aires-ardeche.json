@@ -1183,9 +1183,12 @@
     "name": "Aire de camping-car Colombier le Vieux.",
     "city": "Colombier-le-Vieux",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau potable",
+      "Vidange"
+    ],
+    "price": "Gratuit, mais aire temporairement fermée selon la fiche touristique.",
+    "status": "Ardèche Guide : aire gratuite à Colombier-le-Vieux avec eau potable et vidanges, mais indiquée fermée temporairement au contrôle du 25/11/2026. Ne pas la présenter comme accessible avant confirmation de réouverture.",
     "source": "https://www.openstreetmap.org/way/1287668927",
     "latitude": 45.0660223,
     "longitude": 4.6938309,
@@ -1194,16 +1197,27 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1287668927",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée."
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
+    "verificationSource": "https://www.ardeche-guide.com/camping/aire-de-service-accueil-camping-car-6257178/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche touristique : aire communale au Village, équipements eau/vidanges, statut « fermé temporairement ».",
+    "priceSource": "https://www.ardeche-guide.com/camping/aire-de-service-accueil-camping-car-6257178/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Forfait affiché à 0 €, aire de camping-car annoncée gratuite; disponibilité temporairement suspendue selon la même source."
   },
   {
     "department": "07",
     "name": "Aire communale de camping-cars Tournon-sur-Rhône",
     "city": "Tournon-sur-Rhône",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "7 € pour une nuit (10 emplacements, stationnement limité à une nuit)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "10 emplacements",
+      "Point d’eau",
+      "Vidange",
+      "Stationnement limité à une nuit"
+    ],
+    "price": "7 € pour une nuit; stationnement limité à une nuit.",
+    "status": "Office de tourisme Ardèche Hermitage : aire communale au parking de l’Octroi, chemin de Labeaume, 10 emplacements; point d’eau et vidanges, une nuit maximum, 7 €. Une autre fiche touristique signale que le site pourrait être déplacé : confirmer l’emplacement avant déplacement.",
     "source": "https://www.openstreetmap.org/way/1287684776",
     "latitude": 45.0635737,
     "longitude": 4.843643,
@@ -1213,18 +1227,27 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1287684776",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
-    "priceSource": "https://www.ardeche-hermitage.com/fr/ou-dormir/tous-les-hebergements/detail/aires-de-service/aire-de-service-accueil-camping-car-communale-119256/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif publié par l'exploitant ou l'office de tourisme, susceptible de changer; vérifier avant séjour."
+    "priceSource": "https://www.ardeche-hermitage.com/fr/ou-dormir/tous-les-hebergements/detail/rastplatze/aire-de-service-accueil-camping-car-communale-119256/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "7 € pour une nuit d’après la fiche touristique; une nuit maximum. La localisation est à confirmer en raison d’un avis de déplacement possible.",
+    "verificationSource": "https://www.ardeche-hermitage.com/fr/ou-dormir/tous-les-hebergements/detail/rastplatze/aire-de-service-accueil-camping-car-communale-119256/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche officielle tourisme : Parking de l’Octroi, chemin de Labeaume; 10 places, eau et vidange."
   },
   {
     "department": "07",
     "name": "Aire de camping-car de Chomérac",
     "city": "Chomérac",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "10 emplacements",
+      "Eau potable gratuite",
+      "Vidange des eaux usées",
+      "Dépôt des déchets",
+      "Borne de recharge électrique payante"
+    ],
+    "price": "Stationnement et eau potable gratuits; recharge électrique payante.",
+    "status": "Office de tourisme Cœur d’Ardèche : aire communale gratuite toute l’année, 10 emplacements, vidange des eaux usées, eau potable gratuite et dépôt de déchets; borne de recharge électrique payante.",
     "source": "https://www.openstreetmap.org/way/1294598571",
     "latitude": 44.7079968,
     "longitude": 4.6586818,
@@ -1233,7 +1256,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1294598571",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée."
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
+    "verificationSource": "https://www.coeur-ardeche.fr/camping/aire-de-service-camping-cars-489107/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche OT Cœur d’Ardèche : Allée René Cassin, près de la Maison de Santé; ouverture publiée toute l’année.",
+    "priceSource": "https://www.coeur-ardeche.fr/camping/aire-de-service-camping-cars-489107/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Aire gratuite; eau potable et vidanges gratuites. Seule la borne de recharge électrique est payante."
   },
   {
     "department": "07",
@@ -1241,10 +1270,14 @@
     "city": "Vernoux-en-Vivarais",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "4 emplacements",
+      "Stationnement maximum 48 h",
+      "Vidange gratuite",
+      "Eau potable : 2 € / 10 min",
+      "Électricité 220 V : 2 € / 60 min"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit, 4 places, 48 h maximum; vidange gratuite; eau 2 € / jeton (environ 100 L), électricité 2 € / jeton (60 min).",
+    "status": "Office de tourisme et Ardèche Guide : 4 emplacements gratuits, maximum 48 h; borne Euro-Relais ouverte du 15/03 au 15/11. Vidange gratuite, eau potable 2 €/jeton pour 10 min (environ 100 L), électricité 220 V 2 €/jeton pour 60 min.",
     "source": "https://www.openstreetmap.org/way/1296620721",
     "latitude": 44.9032302,
     "longitude": 4.6498245,
@@ -1254,7 +1287,13 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1296620721",
     "servicesSource": "https://www.openstreetmap.org/way/1296620721",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée."
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
+    "verificationSource": "https://www.auvergnerhonealpes-tourisme.com/fiches/aire-daccueil-et-de-services-pour-camping-cars/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche touristique : 438 allée de Prat, à l’entrée du camping municipal; borne Euro-Relais et dates 15/03–15/11.",
+    "priceSource": "https://www.auvergnerhonealpes-tourisme.com/fiches/aire-daccueil-et-de-services-pour-camping-cars/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Stationnement gratuit 48 h max; vidange gratuite; jeton 2 € pour eau (10 min) et 2 € pour électricité (60 min)."
   },
   {
     "department": "07",
@@ -1269,18 +1308,21 @@
       "Électricité",
       "Sanitaires saisonniers"
     ],
-    "price": "14,40 € / 24 h, dont 0,44 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Site Camping-Car Park ouvert ; informations et tarif vérifiés sur la fiche officielle.",
+    "price": "14,40 € / 24 h au 25/11/2026, dont 0,44 € de taxe de séjour.",
+    "status": "Fiche officielle Camping-Car Park : Camping de mon Village ouvert au 9 allée du Stade, 100 emplacements. Tarif courant 14,40 €/24 h, taxe de séjour de 0,44 € incluse; sanitaires saisonniers.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/ruoms",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/ruoms",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/ruoms",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/ruoms?areaType=campingplatzen",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/ruoms",
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/ruoms",
     "sourceId": "ccp-ruoms",
     "dataAttribution": "Camping-Car Park",
     "importReview": "17/11/2026 : catégorie, adresse, GPS, capacité, services indiqués et tarif vérifiés sur la fiche officielle Camping-Car Park.",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif total affiché sur la fiche officielle Camping-Car Park lors du contrôle du 17/11/2026."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "14,40 €/24 h actuellement; la taxe de séjour de 0,44 € est incluse.",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/ruoms?areaType=campingplatzen",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Adresse et statut Camping de mon Village confirmés par la fiche CCP; capacité 100 places; sanitaires accessibles en saison."
   },
   {
     "department": "07",
@@ -1293,18 +1335,21 @@
     "services": [
       "51 emplacements"
     ],
-    "price": "15,44 € / 24 h, dont 0,44 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Site Camping-Car Park ouvert ; informations et tarif vérifiés sur la fiche officielle.",
+    "price": "15,44 € / 24 h au 25/11/2026, dont 0,44 € de taxe de séjour.",
+    "status": "Fiche officielle Camping-Car Park : Camping de mon Village ouvert au 2 chemin de La Joyeuse. Tarif courant 15,44 €/24 h, taxe de séjour de 0,44 € incluse; sanitaires ouverts en saison du 10/04 au 20/09/2026.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/saint-martin-d-ardeche",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/saint-martin-d-ardeche",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/saint-martin-d-ardeche",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/saint-martin-d-ardeche?areaType=campingplatzen",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/saint-martin-d-ardeche",
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/saint-martin-d-ardeche",
     "sourceId": "ccp-saint-martin-d-ard-che",
     "dataAttribution": "Camping-Car Park",
     "importReview": "17/11/2026 : catégorie, adresse, GPS, capacité, services indiqués et tarif vérifiés sur la fiche officielle Camping-Car Park.",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif total affiché sur la fiche officielle Camping-Car Park lors du contrôle du 17/11/2026."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Tarif courant 15,44 €/24 h, dont 0,44 € de taxe de séjour.",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/saint-martin-d-ardeche?areaType=campingplatzen",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche CCP : adresse, statut Camping de mon Village et période d’ouverture des sanitaires vérifiés."
   },
   {
     "department": "07",
@@ -1317,18 +1362,21 @@
     "services": [
       "20 emplacements"
     ],
-    "price": "14,32 € / 24 h, dont 1,32 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Site Camping-Car Park ouvert ; informations et tarif vérifiés sur la fiche officielle.",
+    "price": "14,32 € / 24 h au 25/11/2026, dont 1,32 € de taxe; base de 13 € affichée jusqu’au 31/12/2027.",
+    "status": "Fiche officielle Camping-Car Park : aire d’étape ouverte, chemin du Rieuret. Tarif courant 14,32 €/24 h (13 € + taxe 2026 de 1,32 €); parking 5 h + services : 6 €.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/lagorce",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/lagorce",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/lagorce",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/lagorce?areaType=area-de-etapa-autocaravanas",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/lagorce",
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/lagorce",
     "sourceId": "ccp-lagorce",
     "dataAttribution": "Camping-Car Park",
     "importReview": "17/11/2026 : catégorie, adresse, GPS, capacité, services indiqués et tarif vérifiés sur la fiche officielle Camping-Car Park.",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif total affiché sur la fiche officielle Camping-Car Park lors du contrôle du 17/11/2026."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "14,32 €/24 h actuellement (13 € + 1,32 € de taxe); base de 13 € affichée du 18/11/2026 au 31/12/2027. Parking 5 h + services : 6 €.",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/lagorce?areaType=area-de-etapa-autocaravanas",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche officielle : aire ouverte chemin du Rieuret; capacité reportée à 20 places sur la fiche départementale CCP."
   },
   {
     "department": "07",
@@ -1342,8 +1390,8 @@
       "26 emplacements",
       "Électricité 6 A"
     ],
-    "price": "15,02 € / 24 h, dont 1,32 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Site Camping-Car Park ouvert ; informations et tarif vérifiés sur la fiche officielle.",
+    "price": "15,02 € / 24 h au 25/11/2026, dont 1,32 € de taxe; base de 13,70 € affichée jusqu’au 31/12/2027.",
+    "status": "Fiche officielle Camping-Car Park : aire d’étape ouverte route du Prat, 26 emplacements, électricité 6 A. Tarif courant 15,02 €/24 h (13,70 € + taxe 2026 de 1,32 €); parking 5 h + services : 6 €.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/orgnac-l-aven",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/orgnac-l-aven",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/orgnac-l-aven",
@@ -1352,8 +1400,11 @@
     "sourceId": "ccp-orgnac-l-aven",
     "dataAttribution": "Camping-Car Park",
     "importReview": "17/11/2026 : catégorie, adresse, GPS, capacité, services indiqués et tarif vérifiés sur la fiche officielle Camping-Car Park.",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif total affiché sur la fiche officielle Camping-Car Park lors du contrôle du 17/11/2026."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "15,02 €/24 h actuellement (13,70 € + 1,32 € de taxe); nouvelle base de 13,70 € du 19/11/2026 au 31/12/2027. Parking 5 h + services : 6 €.",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/orgnac-l-aven",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche officielle : aire ouverte route du Prat, 26 emplacements et branchement 6 A."
   },
   {
     "department": "07",
@@ -1369,17 +1420,20 @@
       "Électricité",
       "Vidange"
     ],
-    "price": "14,90 € / 24 h, dont 0,90 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Site Camping-Car Park ouvert ; informations et tarif vérifiés sur la fiche officielle.",
+    "price": "14,90 € / 24 h au 25/11/2026, dont 0,90 € de taxe; base de 14 € affichée jusqu’au 31/12/2027.",
+    "status": "Fiche officielle Camping-Car Park : aire d’étape ouverte au 70 allée de la Gare, 14 places; eau, électricité et vidange. Tarif courant 14,90 €/24 h (14 € + taxe 2026 de 0,90 €); parking 5 h + services : 6 €.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/soyons",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/soyons",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/soyons",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/soyons?areaType=area-de-etapa-autocaravanas",
     "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/soyons",
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/soyons",
     "sourceId": "ccp-soyons",
     "dataAttribution": "Camping-Car Park",
     "importReview": "17/11/2026 : catégorie, adresse, GPS, capacité, services indiqués et tarif vérifiés sur la fiche officielle Camping-Car Park.",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif total affiché sur la fiche officielle Camping-Car Park lors du contrôle du 17/11/2026."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "14,90 €/24 h actuellement (14 € + 0,90 € de taxe); nouvelle base de 14 € du 21/11/2026 au 31/12/2027. Parking 5 h + services : 6 €.",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/soyons?areaType=area-de-etapa-autocaravanas",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche officielle : aire ouverte, 14 emplacements, adresse 70 allée de la Gare; eau, électricité et vidange."
   }
 ]
