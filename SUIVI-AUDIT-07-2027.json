@@ -4,15 +4,15 @@
   "displayedCount": 49,
   "rawRegionalRows": 49,
   "deduplicatedRows": 0,
-  "currentLot": 572,
+  "currentLot": 573,
   "department": "07",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 49,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lots 571–572 : fiches 1 à 20 sur 49 contrôlées. Lot 572 : prix de la borne de Lachamp et Saint-Étienne, de Thueyts, et tarif CCP actualisé à Viviers; divergence de deux sources officielles au Lac-d’Issarlès à faire clarifier. Cornas et Saint-Jean-Roure confirmés gratuits. Ferme de Saule Lièvre et Truite d’Andaure restent à vérifier directement. Aucun lieu ajouté; 29 fiches restantes.",
+  "note": "Lots 571–573 : fiches 1 à 30 sur 49 contrôlées. Lot 573 : tarifs et services vérifiés à Vanosc, Alba-la-Romaine, Coucouron, Vernosc-lès-Annonay et Larnas; tarifs CCP actualisés à La Voulte-sur-Rhône et Privas; Villeneuve-de-Berg confirmé gratuit 72 h. Aubignas affiche un écart entre 3 € sur la fiche OT et 4 € votés en conseil pour le Parking Sainte-Reine. Saint-Alban-Auriolles reste un projet sans tarif. Aucun lieu ajouté; 19 fiches restantes.",
   "entries": [
     {
       "sourceId": "node/5046531621",
@@ -259,6 +259,130 @@
       "sources": [
         "https://www.openstreetmap.org/way/493632489",
         "https://www.cornas.fr/tourisme/camping-cars/"
+      ]
+    },
+    {
+      "sourceId": "way/518035093",
+      "place": "Vanosc — aire du Monteillet",
+      "lot": 573,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : stationnement gratuit, jusqu’à 7 véhicules, eau (borne fermée en hiver), vidange; participation libre pour branchements d’eau et d’électricité.",
+      "nextCheck": "Recontrôler la période de fermeture de la borne lors de la mise à jour saisonnière.",
+      "sources": [
+        "https://www.openstreetmap.org/way/518035093",
+        "https://www.ardechegrandair.com/activites/randonner-se-balader/week-end-randonnee/week-end-rando-sur-les-sentiers-ardechois/605104_aire-de-service-camping-car-de-vanosc/"
+      ]
+    },
+    {
+      "sourceId": "way/577567487",
+      "place": "Alba-la-Romaine — aire du Pinard",
+      "lot": 573,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : stationnement gratuit, 21 places, eau potable 3 € pour environ 100 L, vidanges grises/noires; pas d’électricité; fermé en période de gel.",
+      "nextCheck": "Aucune correction tarifaire urgente; recontrôler en cas de mise à jour communale.",
+      "sources": [
+        "https://www.openstreetmap.org/way/577567487",
+        "https://www.sud-ardeche-tourisme.com/sejourner/ou-dormir/aires-camping-cars/108010_aire-de-camping-car-du-pinard/"
+      ]
+    },
+    {
+      "sourceId": "way/595811360",
+      "place": "Coucouron — aire du plan d’eau",
+      "lot": 573,
+      "checkedAt": "2026-11-25",
+      "status": "Tarif saison 2026 : forfait 10 €, eau, électricité et vidange incluses; taxe de séjour en sus; 35 places; ouverture du 01/05 au 30/10.",
+      "nextCheck": "Recontrôler le calendrier et le tarif avant la saison 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/595811360",
+        "https://www.ardeche-guide.com/camping/aire-de-service-camping-cars-85354/"
+      ]
+    },
+    {
+      "sourceId": "way/778711478",
+      "place": "Aubignas — Parking Sainte-Reine",
+      "lot": 573,
+      "checkedAt": "2026-11-25",
+      "status": "Compte rendu municipal du 16/01/2026 : passage approuvé de 3 € à 4 € par nuitée sous forme de don spontané; la fiche touristique actuelle affiche encore 3 €. Valeur appliquée à confirmer.",
+      "nextCheck": "Demander à la mairie si la participation de 4 € est effectivement affichée/appliquée et confirmer les équipements de ce point précis.",
+      "sources": [
+        "https://www.openstreetmap.org/way/778711478",
+        "https://www.aubignas.fr/IMG/pdf/CR_CM_16_01_26_V3.pdf",
+        "https://www.sud-ardeche-tourisme.com/sejourner/ou-dormir/aires-camping-cars/108340_aire-de-service-accueil-camping-car-communale/",
+        "https://www.sud-ardeche-tourisme.com/vallee-vignobles/uploads/2020/07/OTISARV_Brochure-Hebergements-2020_compressed1.pdf"
+      ]
+    },
+    {
+      "sourceId": "way/889356513",
+      "place": "Vernosc-lès-Annonay — aire derrière la mairie",
+      "lot": 573,
+      "checkedAt": "2026-11-25",
+      "status": "Office de tourisme : gratuit, 6 places, eau, électricité et vidange; eau coupée du 01/11 au 01/04.",
+      "nextCheck": "Recontrôler la date de remise en service de l’eau au printemps 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/889356513",
+        "https://www.ardechegrandair.com/dormir/aires-de-camping-cars/733396_aire-de-camping-car-de-vernosc-les-annonay/"
+      ]
+    },
+    {
+      "sourceId": "way/906842032",
+      "place": "Larnas — aire communale derrière la mairie",
+      "lot": 573,
+      "checkedAt": "2026-11-25",
+      "status": "Commune et office de tourisme : gratuit toute l’année, 5 places, eau, vidange, WC publics et Wi-Fi; deux nuits maximum; pas d’électricité.",
+      "nextCheck": "Aucune vérification tarifaire restante; tenir compte de l’accès recommandé par Bourg-Saint-Andéol et Saint-Remèze.",
+      "sources": [
+        "https://www.openstreetmap.org/way/906842032",
+        "https://www.larnas.fr/Aire-de-camping-cars",
+        "https://www.ardeche-guide.com/camping/aire-de-service-accueil-camping-car-communale-109601/"
+      ]
+    },
+    {
+      "sourceId": "way/935876127",
+      "place": "La Voulte-sur-Rhône — Camping-Car Park",
+      "lot": 573,
+      "checkedAt": "2026-11-25",
+      "status": "CCP officiel : 15,75 €/24 h actuellement, dont 1,22 € de taxe 2026; base de 14,53 € affichée jusqu’au 31/12/2027. Parking 5 h + services : 6 €.",
+      "nextCheck": "Recontrôler la taxe applicable pour 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/935876127",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/voulte-sur-rhone"
+      ]
+    },
+    {
+      "sourceId": "way/968442266",
+      "place": "Privas — Camping-Car Park",
+      "lot": 573,
+      "checkedAt": "2026-11-25",
+      "status": "CCP officiel : 15,87 €/24 h actuellement, dont 1,22 € de taxe; base 14,65 € jusqu’au 31/12/2026 puis 14,66 € en 2027. Parking 5 h + services : 6 €.",
+      "nextCheck": "Recontrôler la taxe et le total 2027 avant la nouvelle année tarifaire.",
+      "sources": [
+        "https://www.openstreetmap.org/way/968442266",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/privas"
+      ]
+    },
+    {
+      "sourceId": "way/1090854656",
+      "place": "Saint-Alban-Auriolles — projet Camping-Car Park",
+      "lot": 573,
+      "checkedAt": "2026-11-25",
+      "status": "Commune : aménagement d’un CCP en cours; CCP affiche « à venir » et 0,00 €, sans tarif réel ni date d’ouverture publiés.",
+      "nextCheck": "Reprendre le tarif et l’ouverture quand l’aire sera officiellement ouverte.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1090854656",
+        "https://www.saintalbanauriolles.com/index.php/projets-en-cours/",
+        "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/saint-alban-auriolles"
+      ]
+    },
+    {
+      "sourceId": "way/1123542660",
+      "place": "Villeneuve-de-Berg — aire rue Lazare Durif",
+      "lot": 573,
+      "checkedAt": "2026-11-25",
+      "status": "Arrêté municipal : stationnement gratuit, 12 places, maximum 72 h; eau potable gratuite; vidange autorisée, tarif non publié; pas de camping.",
+      "nextCheck": "Recontrôler les règles seulement si l’arrêté municipal est modifié.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1123542660",
+        "https://www.villeneuvedeberg.fr/uploads/documents/arrete-general-permanent-de-la-circulation-routiere-maj-9-fevrier-2022-FR-844.pdf?1766938618="
       ]
     }
   ]

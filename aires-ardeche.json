@@ -595,9 +595,14 @@
     "name": "Aire Camping-car Vanosc",
     "city": "Vanosc",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement gratuit ; participation libre pour eau et électricité",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Jusqu’à 7 camping-cars",
+      "Eau potable (borne fermée en hiver)",
+      "Vidange des eaux grises",
+      "Branchements d’eau et d’électricité à participation libre"
+    ],
+    "price": "Stationnement gratuit ; participation libre pour les branchements d’eau et d’électricité",
+    "status": "Office de tourisme Ardèche Grand Air : parking gratuit pour jusqu’à 7 véhicules; borne d’eau fermée en hiver, vidange des eaux grises; participation libre pour les branchements d’eau et d’électricité.",
     "source": "https://www.openstreetmap.org/way/518035093",
     "latitude": 45.2281488,
     "longitude": 4.5601778,
@@ -607,18 +612,26 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/518035093",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
-    "priceSource": "https://www.ardechegrandair.com/activites/visiter-decouvrir/chateaux-et-demeures/605104_aire-de-service-camping-car-de-vanosc/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif issu d'un office de tourisme ou organisme territorial; vérifier conditions et correspondance exacte de l'aire."
+    "priceSource": "https://www.ardechegrandair.com/activites/randonner-se-balader/week-end-randonnee/week-end-rando-sur-les-sentiers-ardechois/605104_aire-de-service-camping-car-de-vanosc/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Stationnement gratuit; participation libre demandée pour les branchements d’eau et d’électricité.",
+    "verificationSource": "https://www.ardechegrandair.com/activites/randonner-se-balader/week-end-randonnee/week-end-rando-sur-les-sentiers-ardechois/605104_aire-de-service-camping-car-de-vanosc/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche officielle : aire au Monteillet, à 1,5 km en aval de Vanosc, capacité 7 véhicules; borne d’eau fermée l’hiver et zone de vidange."
   },
   {
     "department": "07",
     "name": "Aire Camping-cars Alba-la-Romaine",
     "city": "Alba-la-Romaine",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Stationnement gratuit ; eau potable 3 € / environ 100 L ; vidange gratuite",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "21 emplacements",
+      "Eau potable : 3 € / environ 100 L",
+      "Vidange des eaux grises et noires",
+      "Pas d’électricité"
+    ],
+    "price": "Emplacement gratuit ; eau potable : 3 € pour environ 100 L ; vidange gratuite",
+    "status": "Office de tourisme Porte Sud Ardèche : aire gratuite de 21 places, eau potable à 3 € pour environ 100 L, vidanges grises et noires; pas d’électricité; fermeture possible en période de gel.",
     "source": "https://www.openstreetmap.org/way/577567487",
     "latitude": 44.5530627,
     "longitude": 4.5959799,
@@ -628,9 +641,12 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/577567487",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
-    "priceSource": "https://www.sud-ardeche-tourisme.com/sejourner/ou-dormir/aires-camping-cars/108010_aire-de-service-accueil-camping-car-communale/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif issu d'un office de tourisme ou organisme territorial; vérifier conditions et correspondance exacte de l'aire."
+    "priceSource": "https://www.sud-ardeche-tourisme.com/sejourner/ou-dormir/aires-camping-cars/108010_aire-de-camping-car-du-pinard/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Emplacement gratuit; eau potable payante, 3 € pour environ 10 minutes/100 litres; taxe de séjour non incluse et aucun branchement électrique.",
+    "verificationSource": "https://www.sud-ardeche-tourisme.com/sejourner/ou-dormir/aires-camping-cars/108010_aire-de-camping-car-du-pinard/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "La fiche situe l’aire du Pinard au 104 Pinard, ouverte toute l’année sauf périodes de gel; 21 emplacements."
   },
   {
     "department": "07",
@@ -638,10 +654,13 @@
     "city": "Coucouron",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "35 emplacements",
+      "Électricité",
+      "Eau potable",
+      "Vidange"
     ],
     "price": "10 € le forfait, électricité, eau et vidange comprises ; taxe de séjour en supplément",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Ardèche Guide, fiche de l’aire du plan d’eau : forfait saisonnier de 10 € comprenant électricité, eau et vidange; taxe de séjour en supplément; ouvert du 01/05 au 30/10/2026.",
     "source": "https://www.openstreetmap.org/way/595811360",
     "latitude": 44.8022194,
     "longitude": 3.9606893,
@@ -653,8 +672,11 @@
     "servicesSource": "https://www.openstreetmap.org/way/595811360",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
     "priceSource": "https://www.ardeche-guide.com/camping/aire-de-service-camping-cars-85354/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif publié par l'exploitant ou l'office de tourisme, susceptible de changer; vérifier avant séjour."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Forfait 10 € (électricité, eau et vidange comprises), taxe de séjour non incluse; tarif affiché pour la saison 2026.",
+    "verificationSource": "https://www.ardeche-guide.com/camping/aire-de-service-camping-cars-85354/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche touristique illustrée par la mairie : aire au plan d’eau, 35 emplacements; fermeture publiée après le 30 octobre 2026."
   },
   {
     "department": "07",
@@ -664,8 +686,8 @@
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Participation de 4 € par nuitée approuvée par le conseil municipal en janvier 2026; l’office de tourisme affiche encore 3 €.",
+    "status": "Parking communal Sainte-Reine, Aubignas. Le compte rendu municipal du 16/01/2026 approuve le passage de 3 € à 4 € par nuitée, sous forme de don spontané en mairie; la fiche actuelle de l’office de tourisme affiche toujours 3 €. Montant effectivement appliqué à reconfirmer.",
     "source": "https://www.openstreetmap.org/way/778711478",
     "latitude": 44.5876864,
     "longitude": 4.6316448,
@@ -674,7 +696,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/778711478",
-    "servicesSource": "https://www.openstreetmap.org/way/778711478"
+    "servicesSource": "https://www.openstreetmap.org/way/778711478",
+    "verificationSource": "https://www.sud-ardeche-tourisme.com/vallee-vignobles/uploads/2020/07/OTISARV_Brochure-Hebergements-2020_compressed1.pdf",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "La brochure de l’office confirme l’identité du Parking Sainte-Reine à Aubignas. La fiche touristique actuelle à 65 rue des Écoles peut désigner une aire distincte; le point Sainte-Reine est suivi séparément.",
+    "priceSource": "https://www.aubignas.fr/IMG/pdf/CR_CM_16_01_26_V3.pdf",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Compte rendu du conseil municipal du 16 janvier 2026 : passage proposé et approuvé de la participation spontanée de 3 € à 4 € par nuitée. La page OT actuelle annonce 3 €, d’où divergence à clarifier.",
+    "priceSourceSecondary": "https://www.sud-ardeche-tourisme.com/sejourner/ou-dormir/aires-camping-cars/108340_aire-de-service-accueil-camping-car-communale/"
   },
   {
     "department": "07",
@@ -682,10 +711,13 @@
     "city": "Vernosc-lès-Annonay",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "6 emplacements",
+      "Eau potable",
+      "Électricité",
+      "Vidange"
     ],
     "price": "Stationnement et services gratuits ; eau coupée du 1er novembre au 1er avril",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Office de tourisme Ardèche Grand Air : aire gratuite derrière la mairie, six camping-cars, eau, électricité et vidange; eau coupée du 1er novembre au 1er avril.",
     "source": "https://www.openstreetmap.org/way/889356513",
     "latitude": 45.2191235,
     "longitude": 4.7141258,
@@ -697,8 +729,11 @@
     "servicesSource": "https://www.openstreetmap.org/way/889356513",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
     "priceSource": "https://www.ardechegrandair.com/dormir/aires-de-camping-cars/733396_aire-de-camping-car-de-vernosc-les-annonay/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif issu d'un office de tourisme ou organisme territorial; vérifier conditions et correspondance exacte de l'aire."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Stationnement et services indiqués gratuits par l’office de tourisme; borne d’eau fermée du 1er novembre au 1er avril.",
+    "verificationSource": "https://www.ardechegrandair.com/dormir/aires-de-camping-cars/733396_aire-de-camping-car-de-vernosc-les-annonay/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche officielle ouverte toute l’année; la borne d’eau est saisonnière et annoncée coupée du 1er novembre au 1er avril."
   },
   {
     "department": "07",
@@ -706,10 +741,14 @@
     "city": "Larnas",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "5 emplacements",
+      "Eau potable",
+      "Vidange eaux usées et WC chimiques",
+      "WC publics",
+      "Wi-Fi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "Mairie de Larnas et Ardèche Guide : stationnement et services gratuits toute l’année, cinq emplacements derrière la mairie; deux nuitées maximum; pas d’électricité. Accès camping-car à privilégier par Bourg-Saint-Andéol puis Saint-Remèze.",
     "source": "https://www.openstreetmap.org/way/906842032",
     "latitude": 44.4489195,
     "longitude": 4.5980466,
@@ -718,8 +757,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/906842032",
-    "servicesSource": "https://www.openstreetmap.org/way/906842032",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée."
+    "servicesSource": "https://www.ardeche-guide.com/camping/aire-de-service-accueil-camping-car-communale-109601/",
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
+    "verificationSource": "https://www.larnas.fr/Aire-de-camping-cars",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "La commune confirme aire gratuite derrière la mairie avec dalle de vidange, eau potable et WC public; éviter l’accès par Saint-Montan, trop étroit.",
+    "priceSource": "https://www.ardeche-guide.com/camping/aire-de-service-accueil-camping-car-communale-109601/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Stationnement et services gratuits; stationnement autorisé deux nuits, sans électricité."
   },
   {
     "department": "07",
@@ -729,8 +774,8 @@
     "services": [
       "Électricité"
     ],
-    "price": "15,75 € / 24 h, dont 1,22 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Aire d’étape Camping-Car Park ouverte ; catégorie, adresse, coordonnées et tarif vérifiés sur la fiche officielle.",
+    "price": "15,75 € / 24 h au 25/11/2026, dont 1,22 € de taxe de séjour; tarif de base 14,53 € affiché du 30/10/2026 au 31/12/2027.",
+    "status": "Fiche officielle Camping-Car Park : aire d’étape ouverte au 21 chemin de Ten Te Be. Tarif courant 15,75 €/24 h, comprenant 14,53 € + 1,22 € de taxe de séjour pour 2026; base affichée jusqu’au 31/12/2027.",
     "source": "https://www.openstreetmap.org/way/935876127",
     "latitude": 44.798539,
     "longitude": 4.786713,
@@ -742,10 +787,13 @@
     "servicesSource": "https://www.openstreetmap.org/way/935876127",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/voulte-sur-rhone",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif total affiché sur la fiche officielle Camping-Car Park lors du contrôle du 17/11/2026.",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "En ce moment : 15,75 €/24 h, dont 1,22 € de taxe de séjour. La grille affiche une base de 14,53 €/24 h du 30/10/2026 au 31/12/2027; taxe 2027 à revérifier.",
     "address": "21 chemin de Ten Te Be, 07800 La Voulte-sur-Rhône",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/voulte-sur-rhone"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/voulte-sur-rhone",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/voulte-sur-rhone",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Adresse, type aire d’étape, ouverture et tarif vérifiés sur la page officielle."
   },
   {
     "department": "07",
@@ -755,8 +803,8 @@
     "services": [
       "Électricité"
     ],
-    "price": "15,87 € / 24 h, dont 1,22 € de taxe de séjour (tarif affiché le 17/11/2026).",
-    "status": "Aire d’étape Camping-Car Park ouverte ; catégorie, adresse, coordonnées et tarif vérifiés sur la fiche officielle.",
+    "price": "15,87 € / 24 h au 25/11/2026, dont 1,22 € de taxe de séjour; base 14,65 € jusqu’au 31/12/2026 puis 14,66 € en 2027.",
+    "status": "Fiche officielle Camping-Car Park : aire d’étape ouverte à Cap Azur, avenue de la Gare. Tarif courant 15,87 €/24 h, dont 1,22 € de taxe; grille annuelle : base 14,65 € jusqu’au 31/12/2026, puis 14,66 € en 2027.",
     "source": "https://www.openstreetmap.org/way/968442266",
     "latitude": 44.7293,
     "longitude": 4.591549,
@@ -768,10 +816,13 @@
     "servicesSource": "https://www.openstreetmap.org/way/968442266",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/privas",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif total affiché sur la fiche officielle Camping-Car Park lors du contrôle du 17/11/2026.",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Tarif courant 15,87 €/24 h (14,65 € + 1,22 € de taxe de séjour); le tarif de base 2027 annoncé est 14,66 €/24 h, hors taxe 2027 à vérifier.",
     "address": "Cap Azur, avenue de la Gare, 07000 Privas",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/privas"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/privas",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/privas",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche officielle : aire ouverte, 21 places à Cap Azur, avenue de la Gare."
   },
   {
     "department": "07",
@@ -779,8 +830,8 @@
     "city": "Saint-Alban-Auriolles",
     "type": "Aire d’étape Camping-Car Park (à venir)",
     "services": [],
-    "price": "Tarif non publié — la fiche officielle affiche 0,00 € / 24 h car l’aire est à venir ; cela ne signifie pas que le stationnement est gratuit.",
-    "status": "Projet annoncé « à venir » par Camping-Car Park ; pas encore ouvert, tarif à confirmer.",
+    "price": "Tarif non publié; le 0,00 € affiché par Camping-Car Park correspond à une aire « à venir », pas à une gratuité.",
+    "status": "Camping-Car Park et la commune signalent un projet d’aire à venir / en cours d’aménagement; aucune date d’ouverture ni tarif n’est publié.",
     "source": "https://www.openstreetmap.org/way/1090854656",
     "latitude": 44.42792,
     "longitude": 4.299821,
@@ -791,16 +842,27 @@
     "sourceId": "way/1090854656",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
     "address": "225 rue Marius Perbost, 07120 Saint-Alban-Auriolles",
-    "sourceOfficial": "https://www.campingcarpark.com/de_DE/wohnmobilaufenthalt/auvergne-rhone-alpes/ardeche/saint-alban-auriolles"
+    "sourceOfficial": "https://www.campingcarpark.com/de_DE/wohnmobilaufenthalt/auvergne-rhone-alpes/ardeche/saint-alban-auriolles",
+    "verificationSource": "https://www.saintalbanauriolles.com/index.php/projets-en-cours/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "La commune liste l’aménagement d’un Camping-Car Park parmi les projets en cours; la page CCP affiche l’aire comme « à venir » avec 0,00 €, valeur non interprétable comme un tarif gratuit.",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/ardeche/saint-alban-auriolles",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Aucun prix réel affiché avant ouverture; le 0,00 € de la fiche « à venir » n’établit pas la gratuité."
   },
   {
     "department": "07",
     "name": "Aire de camping-cars Villeneuve-de-Berg",
     "city": "Villeneuve-de-Berg",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "12 emplacements",
+      "Eau potable gratuite",
+      "Vidange des eaux grises et WC chimiques",
+      "Séjour limité à 72 h"
+    ],
+    "price": "Stationnement gratuit, limité à 72 h; eau potable gratuite. Tarif éventuel des vidanges non précisé.",
+    "status": "Arrêté municipal : aire rue Lazare Durif / impasse du nouveau cimetière, 12 places réservées aux camping-cars, stationnement gratuit limité à 72 h; eau potable gratuite, vidange disponible, camping interdit (store, tables, chaises).",
     "source": "https://www.openstreetmap.org/way/1123542660",
     "latitude": 44.562502,
     "longitude": 4.5036476,
@@ -809,7 +871,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1123542660",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée."
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou d'un rattachement administratif connu ; localisation géographique non vérifiée.",
+    "verificationSource": "https://www.villeneuvedeberg.fr/uploads/documents/arrete-general-permanent-de-la-circulation-routiere-maj-9-fevrier-2022-FR-844.pdf?1766938618=",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "L’arrêté municipal conseille le stationnement sur l’aire rue Lazare Durif/impasse du nouveau cimetière; accès libre, 12 emplacements, séjour max 72 h.",
+    "priceSource": "https://www.villeneuvedeberg.fr/uploads/documents/arrete-general-permanent-de-la-circulation-routiere-maj-9-fevrier-2022-FR-844.pdf?1766938618=",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Arrêté municipal : stationnement gratuit 72 h maximum et eau gratuite; vidange présente mais tarif non mentionné."
   },
   {
     "department": "07",
