@@ -4,15 +4,15 @@
   "displayedCount": 20,
   "rawRegionalRows": 20,
   "deduplicatedRows": 0,
-  "currentLot": 581,
+  "currentLot": 582,
   "department": "10",
   "progress": {
-    "checked": 10,
+    "checked": 20,
     "total": 20,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Lot 581 : fiches 1 à 10 sur 20 contrôlées. Les Riceys : parking gratuit et jeton 2 € d’après une fiche OT mise à jour en 2025, à reconfirmer; Champagne Walczak gratuit selon fiche OT 2026. Chavanges : 12,01 €/24 h; Bar-sur-Aube : 13,10 €/24 h; taxes comprises au 25/11/2026. Villemaur : tarif non publié. Buxeuil : réouverture actuelle incertaine. Troyes : tarifs saisonniers 2026. Mesnil-Saint-Père : parking gratuit, eau/vidange. Dienville fermé pour travaux. Chaource : parking gratuit, jeton 2 €. Aucun lieu ajouté; 10 fiches restantes.",
+  "note": "Lot 582 : fiches 11 à 20 contrôlées. Aucun lieu ajouté. Tarifs des services confirmés par les communes à Mailly-le-Camp, Ervy-le-Châtel, Piney et Vendeuvre-sur-Barse; tarifs CCP et Moulin à Tan revérifiés. Les prix non publiés restent indiqués comme inconnus; le projet des Riceys reste à venir sans tarif ni date ferme. Audit documentaire de l’Aube : 20/20 fiches.",
   "entries": [
     {
       "sourceId": "node/1482767965",
@@ -132,6 +132,123 @@
         "https://www.chaource.fr/aire-de-camping-cars/"
       ],
       "lot": 581,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/760723188",
+      "place": "Marcilly-le-Hayer — Camping-Car Park",
+      "status": "CCP : aire ouverte, 25 emplacements, 6 A; tarif actuel 11,20 € + 0,44 € de taxe = 11,64 €/24 h (barème du 30/10 au 31/12/2026). Prix de base 11,20 € publié jusqu’au 31/12/2027; taxe 2027 à confirmer. Parking 5 h + services : 6,50 €.",
+      "nextCheck": "Vérifier la taxe 2027 et les tarifs après le 31/12/2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/760723188",
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/marcilly-le-hayer?areaType=camping"
+      ],
+      "lot": 582,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1189530740",
+      "place": "Mailly-le-Camp — aire municipale",
+      "status": "Commune : 8 places, stationnement gratuit, aire ouverte 7 j/7; vidanges eaux grises et cassette gratuites. Jeton à 3 € pour 120 L d’eau + 1 h d’électricité; électricité seule : 3 € / 3 h, 6 € / 6 h ou 9 € / 9 h.",
+      "nextCheck": "Confirmer les tarifs des jetons et les points de vente avant déplacement.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1189530740",
+        "https://www.maillylecamp.fr/pages/vivre-a-mailly/air-de-camping-car.html"
+      ],
+      "lot": 582,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1274491378",
+      "place": "Ervy-le-Châtel — aire place du Tré",
+      "status": "Commune : services à 2 € (100 L d’eau ou 1 h d’électricité, avec vidange) ou 3 € (eau + électricité + vidange). Aucun tarif de stationnement indiqué sur la page municipale.",
+      "nextCheck": "Demander à la mairie si le stationnement de nuit est gratuit et reconfirmer les tarifs de services.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1274491378",
+        "https://ervy-le-chatel.fr/fr/rb/526073/aire-de-camping-cars-4"
+      ],
+      "lot": 582,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1274571131",
+      "place": "Piney — aire place des Anciens-Combattants",
+      "status": "Commune : jeton à 2,50 € pour 100 L d’eau et 1 h d’électricité. Tarif de stationnement non publié.",
+      "nextCheck": "Demander à la mairie le tarif ou la gratuité du stationnement et la disponibilité actuelle des services.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1274571131",
+        "https://www.piney.fr/informations-pratiques/"
+      ],
+      "lot": 582,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1274573629",
+      "place": "Vendeuvre-sur-Barse — aire place du 8 mai 1945",
+      "status": "Mairie : stationnement gratuit. Office de tourisme, fiche actualisée le 27/01/2026 : jeton de service à 3 €; eau, électricité, toilettes et vidange indiqués.",
+      "nextCheck": "Confirmer le fonctionnement de la borne et le prix du jeton auprès de la mairie.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1274573629",
+        "https://grandslacsdechampagne.fr/fr/fiches-ts/stationnement-de-camping-car-de-vendeuvre-sur-barse/",
+        "https://vendeuvre-sur-barse.fr/vie-quotidienne/bien-vivre.html"
+      ],
+      "lot": 582,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/mery-sur-seine",
+      "place": "Méry-sur-Seine — Camping de mon Village CAMPING-CAR PARK",
+      "status": "CCP : jusqu’au 30/11/2026, 15,20 € + taxe 0,44 € = 15,64 €/24 h. Dès le 01/12/2026 : 12,70 € + taxe 0,44 € = 13,14 €/24 h; taxe publiée jusqu’au 31/12/2027. Parking 5 h + services : 6 €; 6 A. Sanitaires saisonniers.",
+      "nextCheck": "Vérifier tarif/taxe après le 31/12/2027 et la période des sanitaires en 2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/mery-sur-seine?areaType=camping"
+      ],
+      "lot": 582,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/nogent-sur-seine",
+      "place": "Nogent-sur-Seine — Camping de mon Village CAMPING-CAR PARK",
+      "status": "CCP : 12,50 € + taxe 0,44 € = 12,94 €/24 h jusqu’au 31/12/2026. Base de 12,22 € publiée pour 2027; taxe 2027 à confirmer. Parking 5 h + services : 6 €; 78 emplacements, 6 A. Sanitaires ouverts jusqu’au 30/12/2026.",
+      "nextCheck": "Confirmer la taxe 2027 et l’ouverture des sanitaires.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/nogent-sur-seine?areaType=campingplatzen"
+      ],
+      "lot": 582,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/le-chene-la-halte-ste-balseme",
+      "place": "Le Chêne — Camping-Car Park, halte Saint-Balsème",
+      "status": "CCP : 12,73 € + taxe 0,88 € = 13,61 €/24 h; tarif et taxe publiés du 23/11/2026 au 31/12/2027. Parking 5 h + services : 6 €; 21 emplacements, 6 A.",
+      "nextCheck": "Reconfirmer tarif et taxe après le 31/12/2027.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/10-aube/le-chene-la-halte-ste-balseme?areaType=aire-etape-camping-car"
+      ],
+      "lot": 582,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.aube-champagne.com/fr/poi/aire-du-moulin-a-tan/",
+      "place": "Aix-Villemaur-Pâlis — aire du Moulin à Tan",
+      "status": "Office de tourisme, fiche mise à jour le 13/02/2026 : 6 emplacements, ouverte toute l’année; 10 €/nuit pour 2 personnes avec vidange, eau, douche et nuitée; électricité 4 € été / 5 € hiver; passage sans nuitée : 3,50 € pour vidange et plein d’eau.",
+      "nextCheck": "Reconfirmer auprès de l’exploitant la grille et la disponibilité des services avant déplacement.",
+      "sources": [
+        "https://www.aube-champagne.com/fr/poi/aire-du-moulin-a-tan/"
+      ],
+      "lot": 582,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/les-riceys",
+      "place": "Les Riceys — projet d’aire CAMPING-CAR PARK",
+      "status": "CCP affiche toujours l’aire « à venir »; 0,00 € est provisoire, aucun tarif publié. Commune (12/11/2026) : projet d’environ 30 emplacements derrière le château Saint-Louis, géré par CCP; étude complémentaire relancée après 300 000 € de surcoût annoncé, subventions à demander. Aucune date ferme d’ouverture.",
+      "nextCheck": "Suivre les annonces de la commune et de CCP sur financement, chantier, ouverture et tarifs.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/grand-est/aube/les-riceys",
+        "https://www.les-riceys.fr/des-amenagements-pour-ameliorer-le-cadre-de-vie-et-attirer-les-touristes/"
+      ],
+      "lot": 582,
       "checkedAt": "2026-11-25"
     }
   ]
