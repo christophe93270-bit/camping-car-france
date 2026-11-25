@@ -1,7 +1,7 @@
 {
   "scope": "Alpes-de-Haute-Provence (04), vérification des fiches existantes par lots de dix",
   "startedAt": "2026-11-25",
-  "note": "Lots 566–567 : fiches 1–20 sur 32 contrôlées. Aucun lieu ajouté. Tarifs saisonniers, anciens ou contradictoires signalés; distinguer les aires distinctes de Castellane. Lot 568 : fiches 21–30; lot 569 : fiches 31–32.",
+  "note": "Lots 566–568 : les fiches 1–29 de la liste d'origine ont été contrôlées; le lot 568 a consolidé un doublon à Jausiers et corrigé les coordonnées de l'aire conservée. Le fichier contient désormais 31 lieux uniques; aucun lieu ajouté. Lot 569 : contrôler les 2 dernières fiches (indices actuels 30–31).",
   "entries": [
     {
       "sourceId": "node/2284800314",
@@ -247,6 +247,131 @@
         "https://www.ubaye-serre-poncon.fr/guide-pratique/aire-camping"
       ],
       "lot": 567,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1081228583",
+      "name": "Aire camping-cars de Méailles",
+      "status": "2 places et borne confirmées par l'OT; tarif non publié.",
+      "finding": "La Ferrage, ouverture annoncée 15/03–11/11/2026; période terminée au contrôle.",
+      "nextCheck": "Demander à la mairie si l'emplacement est gratuit et préciser le coût/les fonctions de la borne.",
+      "sources": [
+        "https://www.tourisme-alpes-haute-provence.com/ou-dormir/5729357_aire-de-service-accueil-camping-cars-meailles-aire-camping-cars-de-meailles/"
+      ],
+      "lot": 568,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1127431953",
+      "name": "Aire de camping-car de Sainte-Croix-du-Verdon — Panoramique",
+      "status": "CCP 13,92 €/24 h jusqu'au 31/12/2026; 14,00 €/24 h en 2027, taxes comprises.",
+      "finding": "56 places, 6 A; base de 12,60 € en 2026 et 12,68 € en 2027, plus taxe de séjour 1,32 €. Parking 5 h : 6 €.",
+      "nextCheck": "Recontrôler le barème à l'approche du 01/01/2028.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-de-haute-provence/sainte-croix-du-verdon-castellas"
+      ],
+      "lot": 568,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1267715382",
+      "name": "Aire de camping-car de Sisteron",
+      "status": "CCP 16,32 €/24 h TTC; tarif OT concordant : 15 € HT/24 h + taxe.",
+      "finding": "20 places, 6 A, eau, électricité, Wi-Fi, vidange; tarif court OT 6 €/6 h hors taxe.",
+      "nextCheck": "Recontrôler le tarif dynamique CCP en cas de changement de saison.",
+      "sources": [
+        "https://www.campingcarpark.com/fr_FR/camping-car/provence-alpes-cote-dazur/alpes-de-haute-provence/sisteron",
+        "https://www.tourisme-alpes-haute-provence.com/ou-dormir/866423_aire-de-service-accueil-camping-cars-sisteron-aire-camping-car-park/"
+      ],
+      "lot": 568,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1278827415",
+      "name": "Aire de camping-car de Malijai",
+      "status": "Aire et équipements confirmés par l'OT; tarif non publié.",
+      "finding": "Espace Multi-Activités, Chemin des Pescadous; eau, vidanges, WC à proximité, jeux et pique-nique; ouverte tous les jours.",
+      "nextCheck": "Demander le tarif à la mairie de Malijai.",
+      "sources": [
+        "https://www.tourisme-alpes-haute-provence.com/ou-dormir/4918377_aire-de-service-accueil-camping-cars-malijai-aire-de-service-et-de-stationnement-de-camping-car-de-malijai/"
+      ],
+      "lot": 568,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1286936852",
+      "name": "Aire pour camping-car de Mison",
+      "status": "Stationnement et services gratuits confirmés par la mairie/OT.",
+      "finding": "Square du 19 Mars 1962, eau et vidanges, pas d'électricité; 72 h maximum; fermeture possible au gel.",
+      "nextCheck": "Recontrôler les fermetures hivernales et la durée autorisée.",
+      "sources": [
+        "https://www.sisteron-alpesprovencales.fr/camping/aire-de-services-camping-cars-de-mison/",
+        "https://www.mairiedemison.fr/pages/decouvrir-mison/aire-de-camping-car-de-mison.html"
+      ],
+      "lot": 568,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1288005640",
+      "name": "Aire de camping-car de Jausier (doublon supprimé)",
+      "status": "Doublon de l'aire officielle de Jausiers consolidé dans la fiche 1; géolocalisation de la fiche conservée corrigée.",
+      "finding": "La géométrie OSM way/1288005640 et l'adresse officielle 150 route de Mazagrand identifient le même point. Tarifs associés à la fiche unique : emplacement gratuit, électricité 5 €/24 h, eau 2,50 €.",
+      "nextCheck": "Aucune; vérifier à l'avenir le maintien d'une seule fiche pour l'aire de Jausiers.",
+      "sources": [
+        "https://www.ville-jausiers.fr/hebergements/aire-service-stationnement-camping-jausiers",
+        "https://www.ffaccc.info/post/inauguration-de-l-aire-de-services-de-jausiers-04850",
+        "https://www.openstreetmap.org/way/1288005640"
+      ],
+      "lot": 568,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1308146762",
+      "name": "Aire camping-car du Sauze 1700",
+      "status": "Emplacement gratuit; eau/vidange 3 €/20 min et électricité 3 €/4 h; ouverte toute l'année.",
+      "finding": "Capacité communale annoncée 3–4 places, route du front de neige.",
+      "nextCheck": "Recontrôler les prix et la capacité à la prochaine saison.",
+      "sources": [
+        "https://www.sauze.com/camping/aire-de-service-et-de-stationnement-camping-car-du-sauze-1700/"
+      ],
+      "lot": 568,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1308149764",
+      "name": "Aire pour camping-car Reillanne",
+      "status": "Gratuité officielle publiée, mais fiches tarifaires anciennes; confirmation 2026 à demander.",
+      "finding": "3 places, limite 72 h, eau/électricité/vidange. Guide municipal ancien : services du 01/04 au 30/10.",
+      "nextCheck": "Demander à la mairie le barème actuel et la période de fonctionnement des bornes.",
+      "sources": [
+        "https://www.tourisme-alpes-haute-provence.com/ou-dormir/5579834_aire-de-service-accueil-camping-cars-reillanne-aire-de-camping-cars/",
+        "https://mairiereillanne.com/wp-content/uploads/sites/52/2021/08/Venir-a-Reillanne.pdf"
+      ],
+      "lot": 568,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1308151475",
+      "name": "Aire de camping-car du Lauzet-Ubaye",
+      "status": "Emplacement gratuit et ouvert toute l'année confirmés par Ubaye Tourisme.",
+      "finding": "Parking au bord du lac; WC publics et eau à proximité; pas de borne de vidange/électricité confirmée.",
+      "nextCheck": "Recontrôler la fiche OT en cas de changement de statut.",
+      "sources": [
+        "https://www.tourisme-alpes-haute-provence.com/ou-dormir/4866095_aire-de-service-accueil-camping-cars-le-lauzet-ubaye-aire-de-stationnement-camping-car-du-lauzet-ubaye/"
+      ],
+      "lot": 568,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1308256546",
+      "name": "Aire Camping-car de Selonnet",
+      "status": "Tarif OT 2026 : 2 € emplacement + services; durée correspondant au jeton non précisée.",
+      "finding": "6 places, eau, électricité, vidanges, sanitaires publics et loisirs; barème publié du 01/07 au 31/12/2026.",
+      "nextCheck": "Demander à la mairie la durée couverte par le jeton à 2 €.",
+      "sources": [
+        "https://www.tourisme-alpes-haute-provence.com/ou-dormir/927954_aire-de-service-accueil-camping-cars-selonnet-aire-de-service-et-de-stationnement-pour-camping-car-de-selonnet/"
+      ],
+      "lot": 568,
       "checkedAt": "2026-11-25"
     }
   ]
