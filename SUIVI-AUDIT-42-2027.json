@@ -4,15 +4,15 @@
   "displayedCount": 84,
   "rawRegionalRows": 84,
   "deduplicatedRows": 0,
-  "currentLot": 547,
+  "currentLot": 548,
   "department": "42",
   "progress": {
-    "checked": 80,
+    "checked": 84,
     "total": 84,
-    "checkedInLot": 10,
-    "totalInLot": 10
+    "checkedInLot": 4,
+    "totalInLot": 4
   },
-  "note": "Audit en cours par lots de dix. Lot 540 (1–10) : tarifs confirmés; période Montrond à corriger. Lot 541 (11–20) : tarifs réseau Loire Forez/Roanne confirmés, dates CCP corrigées à Saint-Étienne et Saint-Martin-la-Plaine; divergences à Marols et Saint-Victor. Lot 542 (21–30) : prix à jetons vérifiés, Chalmazel = 7 jours, eau coupée Saint-Rirand. Lot 543 (31–40) : Violay grille actuelle depuis 17/11/2026, capacité Les Noës 3/5 à confirmer. Lot 544 (41–50) : tarifs Civens, Néronde, Perreux, Pacotière confirmés; Cordelle divergences capacité/ouverture/tarifs. Lot 545 (51–60) : Pouilly CCP 13 € + 0,44 €; date tarifaire page actuelle 17/11 vs calendrier municipal 1/10; Saint-Galmier eau 1/2 €. Lot 546 (61–70) : tarifs de campings saisonniers vérifiés et saison 2026 terminée; correction dates La Croix de Garry selon commune; tarif des Régnières non publié; opérateur du Val du Ternay radié mai 2026, tarif 2024 obsolète à ne pas utiliser sans confirmation de reprise. Aucune fiche source n’a été modifiée. Lot 547 (71–80) : Le Verdillé 12/16 € + électricité confirmé; Charlieu 21,50 € à distinguer de l’emplacement nu; ligne 14,80 € du point de jour Montrond ambiguë; dates/formules divergentes au Soleillant; Granges 3 € services seuls selon Loire Tourisme contre 2 € selon l’agglomération; Les Vernières à re-confirmer; Ratarieux sans prix officiel 2026; Bébieux sans total camping-car. Aucune fiche source n’a été modifiée.",
+  "note": "Audit en cours par lots de dix. Lot 540 (1–10) : tarifs confirmés; période Montrond à corriger. Lot 541 (11–20) : tarifs réseau Loire Forez/Roanne confirmés, dates CCP corrigées à Saint-Étienne et Saint-Martin-la-Plaine; divergences à Marols et Saint-Victor. Lot 542 (21–30) : prix à jetons vérifiés, Chalmazel = 7 jours, eau coupée Saint-Rirand. Lot 543 (31–40) : Violay grille actuelle depuis 17/11/2026, capacité Les Noës 3/5 à confirmer. Lot 544 (41–50) : tarifs Civens, Néronde, Perreux, Pacotière confirmés; Cordelle divergences capacité/ouverture/tarifs. Lot 545 (51–60) : Pouilly CCP 13 € + 0,44 €; date tarifaire page actuelle 17/11 vs calendrier municipal 1/10; Saint-Galmier eau 1/2 €. Lot 546 (61–70) : tarifs de campings saisonniers vérifiés et saison 2026 terminée; correction dates La Croix de Garry selon commune; tarif des Régnières non publié; opérateur du Val du Ternay radié mai 2026, tarif 2024 obsolète à ne pas utiliser sans confirmation de reprise. Aucune fiche source n’a été modifiée. Lot 547 (71–80) : Le Verdillé 12/16 € + électricité confirmé; Charlieu 21,50 € à distinguer de l’emplacement nu; ligne 14,80 € du point de jour Montrond ambiguë; dates/formules divergentes au Soleillant; Granges 3 € services seuls selon Loire Tourisme contre 2 € selon l’agglomération; Les Vernières à re-confirmer; Ratarieux sans prix officiel 2026; Bébieux sans total camping-car. Aucune fiche source n’a été modifiée. Lot 548 (81–84) : audit terminé. Val de Coise : nuitée non publiée, capacité et tarif de la borne divergents; Beausoleil : forfait touristique 16–17 € mais grille communale détaillée, écart de dates/capacité; Surizet : 14,35 € confirmé, écarts de dates et de capacité entre mairie et tourisme; Usson-en-Forez : service listé à partir de 2 €, fonctionnement incertain. Les 84 fiches du fichier ont été examinées; aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/7916862763",
@@ -451,6 +451,26 @@
       "place": "Saint-Just-Saint-Rambert — Camping de Bébieux",
       "status": "Loire Tourisme : ouverture 11 avril–12 octobre 2026, adulte 2,50 €/jour, électricité 3 €/jour, véhicule 3,50 €/jour. 25 emplacements mixtes; total camping-car non publié.",
       "nextCheck": "Demander le total de nuitée camping-car et les composantes incluses."
+    },
+    {
+      "place": "Saint-Galmier — Camping Seasonova Val de Coise (séjour camping-car)",
+      "status": "Loire Tourisme et la commune indiquent une ouverture du 8 mai au 30 septembre 2026; le tarif de nuitée camping-car n’est pas publié dans la fiche touristique. Capacité divergente : 34 places décrites dans les données de fiche contre 43 emplacements (et 26 locations) sur la page actuelle. La borne est une fiche distincte : 2 €/10 min sur la page du camping/Loire Tourisme, 1 €/10 min sur la fiche municipale de la borne.",
+      "nextCheck": "Confirmer directement le tarif et la capacité dédiés aux camping-cars; harmoniser le prix de la borne après vérification locale."
+    },
+    {
+      "place": "La Pacaudière — Camping municipal Beausoleil",
+      "status": "Tarifs municipaux 2026 détaillés par personne et véhicule; Loire Tourisme affiche un forfait camping-car 16–17 € pour deux personnes avec électricité. La commune annonce l’ouverture au 11 mai, Loire Tourisme du 1er mai au 30 septembre. Capacité totale 28 selon mairie contre 29 selon Loire Tourisme; aucune de ces capacités n’est réservée aux camping-cars.",
+      "nextCheck": "Demander le total appliqué à l’accueil et harmoniser date d’ouverture/capacité avec l’exploitant."
+    },
+    {
+      "place": "Montbrison — Camping municipal Le Surizet",
+      "status": "Loire Tourisme : forfait 2026 de 14,35 €/nuit pour un camping-car et deux personnes, électricité comprise; 86 emplacements et ouverture 14 avril–13 octobre. La mairie annonce 88 emplacements et ouverture 15 avril–15 octobre. Camping fermé à la date de vérification; ne pas le confondre avec l’aire gratuite de Loire Forez située au 30 rue du Surizet.",
+      "nextCheck": "Aucun tarif 2026 à confirmer; demander à la mairie de clarifier dates et capacité avant la prochaine saison."
+    },
+    {
+      "place": "Usson-en-Forez — point de services Intermarché",
+      "status": "Loire Forez Agglomération liste un emplacement de passage limité à 24 h, eau/vidange et tarif à partir de 2 €. Une ancienne observation de 2022 signalait la borne fermée définitivement; fonctionnement actuel et électricité non confirmés. Nuitée payante non établie.",
+      "nextCheck": "Appeler le magasin/gestionnaire ou vérifier sur place que la borne fonctionne et relever les prix affichés avant de publier un tarif comme actuel."
     }
   ]
 }
