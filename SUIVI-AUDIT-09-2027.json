@@ -1,0 +1,138 @@
+{
+  "scope": "Ariège (09) : audit des tarifs et services des fiches existantes de aires-ariege.json, par lots de dix dans l’ordre du fichier.",
+  "startedAt": "2026-11-25",
+  "displayedCount": 15,
+  "rawRegionalRows": 15,
+  "deduplicatedRows": 0,
+  "currentLot": 579,
+  "department": "09",
+  "progress": {
+    "checked": 10,
+    "total": 15,
+    "checkedInLot": 10,
+    "totalInLot": 10
+  },
+  "note": "Lot 579 : fiches 1 à 10 sur 15 contrôlées. Mirepoix : ancienne aire limitée à l’eau/vidange, nuit interdite. Ax 3 Domaines : tarifs de services uniquement; Aulus : borne régulièrement HS. L’Hospitalet : stationnement gratuit et borne électrique signalée en panne. Le Fossat : grille 2026 confirmée. Parc d’Espagne : tarif publié pour 2027 seulement. Sainte-Croix-Volvestre et Castelnau-Durban gratuites; Les Cabannes et Val-de-Sos à 10 €/24 h. Aucun lieu ajouté; 5 fiches restantes.",
+  "entries": [
+    {
+      "sourceId": "node/6010970986",
+      "place": "Mirepoix — ancienne aire municipale",
+      "status": "Ancienne aire réservée à l’eau et à la vidange; stationnement de nuit interdit. Tarifs des services non publiés.",
+      "nextCheck": "Demander à la mairie le prix des services et vérifier les parkings autorisés avant d’orienter les camping-caristes.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6010970986",
+        "https://www.ariegepyrenees.com/agenda/le-grand-marche-de-mirepoix/"
+      ],
+      "lot": 579,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "node/12157489119",
+      "place": "Ax-les-Thermes — station Ax 3 Domaines",
+      "status": "Environ 30 places, ouverte toute l’année; eau 2 €/100 L et électricité 6 €/12 h. Pas de tarif de stationnement publié.",
+      "nextCheck": "Confirmer auprès de la mairie si une redevance de nuitée existe en plus des services.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12157489119",
+        "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-station-ax-3-domaines/"
+      ],
+      "lot": 579,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/361038462",
+      "place": "Aulus-les-Bains — aire d’accueil/services",
+      "status": "Borne de service à l’entrée du village; ADT avertit qu’elle tombe régulièrement en panne. Pas de tarif publié.",
+      "nextCheck": "Appeler la mairie avant déplacement pour confirmer l’état et les tarifs.",
+      "sources": [
+        "https://www.openstreetmap.org/way/361038462",
+        "https://www.ariegepyrenees.com/camping/aire-daccueil-services-camping-cars-daulus-les-bains/"
+      ],
+      "lot": 579,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/487041265",
+      "place": "L’Hospitalet-près-l’Andorre — aire de la gare",
+      "status": "7 places, stationnement 24 h gratuit; eau 2 €/100 L; électricité 6 €/12 h mais borne signalée en panne. Saison 2026 : 1er avril–31 octobre.",
+      "nextCheck": "Confirmer la remise en service de la borne électrique et les dates d’ouverture de la saison 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/487041265",
+        "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-2/"
+      ],
+      "lot": 579,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/624248297",
+      "place": "Le Fossat — camping et aire",
+      "status": "10 emplacements camping-car; grille 2026 : 13–15 € pour 1 ou 2 personnes, électricité comprise; sanitaires, eau et vidanges.",
+      "nextCheck": "Vérifier les éventuels suppléments et la grille de la saison 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/624248297",
+        "https://www.ariegepyrenees.com/camping/camping-et-aire-de-camping-car-du-fossat/"
+      ],
+      "lot": 579,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/680216140",
+      "place": "Ax-les-Thermes — Parc d’Espagne",
+      "status": "Aire sans services, environ 20 places. Tarifs publiés pour l’été 2027 : 9 €/jour, 55 €/semaine ou 150 €/3 semaines; prix 2026 non confirmé.",
+      "nextCheck": "Confirmer la grille 2027 et les dates d’ouverture avec la mairie avant publication comme tarif actuel.",
+      "sources": [
+        "https://www.openstreetmap.org/way/680216140",
+        "https://www.pyrenees-ariegeoises.com/preparer-mon-sejour/dormir/campings-et-aires-de-camping-cars/aire-de-stationnement-pour-camping-cars-ax-les-thermes-fr-4240146/"
+      ],
+      "lot": 579,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/891447174",
+      "place": "Sainte-Croix-Volvestre — aire d’accueil",
+      "status": "10 places, gratuite selon l’ADT, ouverte toute l’année 2026; toilettes et borne de services.",
+      "nextCheck": "Demander si l’eau/les autres services à la borne sont payants.",
+      "sources": [
+        "https://www.openstreetmap.org/way/891447174",
+        "https://www.ariegepyrenees.com/camping/aire-daccueil-services-camping-cars-de-sainte-croix-volvestre/"
+      ],
+      "lot": 579,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/891450634",
+      "place": "Castelnau-Durban — aire d’accueil",
+      "status": "Aire ombragée et gratuite selon l’ADT; borne de services présente, prix des services non publié.",
+      "nextCheck": "Confirmer les tarifs de la borne et les règles de stationnement nocturne auprès de la mairie.",
+      "sources": [
+        "https://www.openstreetmap.org/way/891450634",
+        "https://www.ariegepyrenees.com/camping/aire-daccueil-camping-cars-de-castelnau-durban/"
+      ],
+      "lot": 579,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1225530897",
+      "place": "Les Cabannes — aire La Bexanne",
+      "status": "Environ 30 places; 10 €/24 h et eau 2 € par plein; sans branchement électrique.",
+      "nextCheck": "Confirmer la grille pour 2027 et l’accès à la borne en période hivernale.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1225530897",
+        "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-4/"
+      ],
+      "lot": 579,
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "sourceId": "way/1233056173",
+      "place": "Val-de-Sos — aire de Vicdessos",
+      "status": "31 places; 10 €/24 h, eau, vidanges et électricité 16 A; ouverte du 15 mars au 31 octobre 2026.",
+      "nextCheck": "Vérifier la période d’ouverture et les éventuels prix des services pour 2027.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1233056173",
+        "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars/"
+      ],
+      "lot": 579,
+      "checkedAt": "2026-11-25"
+    }
+  ]
+}

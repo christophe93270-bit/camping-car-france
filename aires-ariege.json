@@ -3,10 +3,14 @@
     "department": "09",
     "name": "Mirepoix Aire Municipale",
     "city": "Mirepoix",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire de services pour camping-car (sans nuitée)",
+    "services": [
+      "Vidange",
+      "Remplissage d’eau",
+      "Stationnement de nuit interdit sur l’ancienne aire"
+    ],
+    "price": "Vidange et plein d’eau possibles; aucun tarif de service publié. Stationnement de nuit interdit sur l’ancienne aire.",
+    "status": "Ariège Pyrénées Tourisme : l’ancienne aire permet uniquement la vidange et le plein d’eau; le stationnement de nuit y est interdit. Les camping-cars doivent utiliser les parkings autorisés indiqués par l’office de tourisme.",
     "source": "https://www.openstreetmap.org/node/6010970986",
     "latitude": 43.0847875,
     "longitude": 1.8741995,
@@ -16,19 +20,28 @@
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/6010970986",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
-    "verificationNote": "Attention : l'office de tourisme indique en 2026 que l'ancienne aire de Mirepoix est réservée aux services, sans stationnement nocturne autorisé. Vérifier la correspondance exacte avant de proposer une nuitée.",
-    "verificationSource": "https://www.ariegepyrenees.com/agenda/le-grand-marche-de-mirepoix/"
+    "verificationNote": "Consigne touristique 2026 : ancienne aire réservée aux services, nuit interdite; parkings autorisés distincts.",
+    "verificationSource": "https://www.ariegepyrenees.com/agenda/le-grand-marche-de-mirepoix/",
+    "priceSource": "https://www.ariegepyrenees.com/agenda/le-grand-marche-de-mirepoix/",
+    "sourceOfficial": "https://www.ariegepyrenees.com/agenda/le-grand-marche-de-mirepoix/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Aucun prix affiché pour l’eau ou la vidange; surtout, ne pas présenter ce point comme un hébergement de nuit.",
+    "verificationDate": "2026-11-25"
   },
   {
     "department": "09",
     "name": "Aire pour camping-cars station Ax 3 Domaines",
     "city": "Ax-les-Thermes",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Aire de services et d’accueil camping-cars",
     "services": [
-      "Électricité"
+      "Environ 30 emplacements",
+      "Borne de services",
+      "Eau : environ 2 € / 100 L",
+      "Électricité : 6 € / 12 h",
+      "Parking éclairé"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Eau environ 2 € / 100 L; électricité 6 € / 12 h. Aucun tarif de stationnement distinct indiqué.",
+    "status": "Ariège Pyrénées Tourisme : aire au pied des pistes d’Ax 3 Domaines, environ 30 places, ouverte toute l’année 2026 et 2027. Stationner uniquement sur l’aire; eau et électricité sont payantes.",
     "source": "https://www.openstreetmap.org/node/12157489119",
     "latitude": 42.7032398,
     "longitude": 1.8157965,
@@ -38,16 +51,29 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12157489119",
     "servicesSource": "https://www.openstreetmap.org/node/12157489119",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
+    "priceSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-station-ax-3-domaines/",
+    "sourceOfficial": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-station-ax-3-domaines/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Le tarif indiqué concerne les services (eau et électricité); la page ne publie pas de prix de nuitée ou de stationnement.",
+    "verificationSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-station-ax-3-domaines/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "ADT : environ 30 places, parking éclairé, accès toute l’année; stationnement interdit en dehors de l’aire."
   },
   {
     "department": "09",
     "name": "Commune d'Aulus Aire POUR camping-cars",
     "city": "Aulus-les-Bains",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire d’accueil et de services camping-cars",
+    "services": [
+      "Borne de services",
+      "Eau potable",
+      "Vidange des eaux grises",
+      "Dépôt des déchets",
+      "Fonctionnement à confirmer"
+    ],
+    "price": "Tarif non publié. La borne de services est signalée comme régulièrement hors service.",
+    "status": "Ariège Pyrénées Tourisme : aire à l’entrée d’Aulus, avant le camping; eau, vidange et déchets. La borne est régulièrement hors service à cause de dégradations : appeler la mairie avant de compter sur les services.",
     "source": "https://www.openstreetmap.org/way/361038462",
     "latitude": 42.7893286,
     "longitude": 1.3358876,
@@ -56,7 +82,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/361038462",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
+    "priceSource": "https://www.ariegepyrenees.com/camping/aire-daccueil-services-camping-cars-daulus-les-bains/",
+    "sourceOfficial": "https://www.ariegepyrenees.com/camping/aire-daccueil-services-camping-cars-daulus-les-bains/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Aucun tarif publié; état de fonctionnement incertain.",
+    "verificationSource": "https://www.ariegepyrenees.com/camping/aire-daccueil-services-camping-cars-daulus-les-bains/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche ADT avertit que l’aire de services est régulièrement HS et recommande de se renseigner en mairie."
   },
   {
     "department": "09",
@@ -64,11 +97,15 @@
     "city": "L'Hospitalet-près-l'Andorre",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "7 emplacements",
+      "Stationnement gratuit 24 h",
+      "Eau : 2 € / 100 L",
+      "Électricité : 6 € / 12 h (borne signalée en panne)",
+      "Borne de vidange",
+      "Ouverture saisonnière du 1er avril au 31 octobre"
     ],
-    "price": "Stationnement gratuit / 24 h ; eau 2 € / 100 L ; électricité 6 € / 12 h",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement 24 h gratuit; eau environ 2 € / 100 L; électricité 6 € / 12 h, mais borne signalée en panne.",
+    "status": "Ariège Pyrénées Tourisme : 7 places près de la gare, ouvertes du 1er avril au 31 octobre 2026. Stationnement et vidange gratuits; eau environ 2 €/100 L; électricité 6 €/12 h, borne signalée en panne.",
     "source": "https://www.openstreetmap.org/way/487041265",
     "latitude": 42.5885958,
     "longitude": 1.7995016,
@@ -80,21 +117,27 @@
     "servicesSource": "https://www.openstreetmap.org/way/487041265",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
     "priceSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-2/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif relevé auprès de l'office de tourisme, de la commune ou de l'exploitant; vérifier la saison et les suppléments."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Le prix de 6 € concerne 12 h d’électricité, mais la fiche indique que la borne est actuellement en panne; stationnement gratuit pour 24 h.",
+    "sourceOfficial": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-2/",
+    "verificationSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-2/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "ADT : 7 places, période saisonnière 2026, stationnement gratuit; borne électrique signalée hors service."
   },
   {
     "department": "09",
     "name": "Aire de camping-car du Fossat",
     "city": "Le Fossat",
-    "type": "Aire de camping-car (à vérifier)",
+    "type": "Camping et aire de camping-car",
     "services": [
-      "Douches",
-      "Toilettes",
-      "Électricité"
+      "10 emplacements camping-cars",
+      "Électricité comprise dans le tarif indiqué",
+      "Vidange eaux grises et noires",
+      "Borne de services",
+      "Sanitaires et douches"
     ],
-    "price": "13 à 15 € / emplacement camping-car pour 1 ou 2 personnes, électricité comprise (2026)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Tarif 2026 : 13 à 15 € par emplacement camping-car pour 1 ou 2 personnes, électricité comprise.",
+    "status": "Ariège Pyrénées Tourisme : camping ouvert toute l’année en 2026, 10 emplacements camping-car. Tarif pour 1 ou 2 personnes avec électricité : 13 à 15 €; sanitaires, douches, eau et vidanges.",
     "source": "https://www.openstreetmap.org/way/624248297",
     "latitude": 43.1726092,
     "longitude": 1.4115018,
@@ -106,17 +149,25 @@
     "servicesSource": "https://www.openstreetmap.org/way/624248297",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
     "priceSource": "https://www.ariegepyrenees.com/camping/camping-et-aire-de-camping-car-du-fossat/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif relevé auprès de l'office de tourisme, de la commune ou de l'exploitant; vérifier la saison et les suppléments."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Grille 2026 en vigueur du 01/01 au 31/12/2026 : forfait camping-car 13–15 € pour 1–2 personnes avec électricité. Suppléments éventuels à vérifier.",
+    "sourceOfficial": "https://www.ariegepyrenees.com/camping/camping-et-aire-de-camping-car-du-fossat/",
+    "verificationSource": "https://www.ariegepyrenees.com/camping/camping-et-aire-de-camping-car-du-fossat/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "ADT : capacité de 10 emplacements camping-car; grille tarifaire 2026, ouverture toute l’année et équipements de camping."
   },
   {
     "department": "09",
     "name": "Aire Camping-cars Parc d'Espagne - Ax-les-Thermes",
     "city": "Ax-les-Thermes",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "9 € / jour (tarif affiché pour la saison 2027 ; tarif 2026 non confirmé)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "type": "Aire municipale de stationnement camping-cars",
+    "services": [
+      "Environ 20 emplacements",
+      "Sans services",
+      "Arceaux de sécurité"
+    ],
+    "price": "Tarif 2027 : 9 € / jour, 55 € / semaine ou 150 € / 3 semaines par véhicule. Applicable du 1er juin au 31 août 2027; tarif 2026 non confirmé.",
+    "status": "Ariège Pyrénées Tourisme : aire de stationnement sans services au Parc d’Espagne, environ 20 places. Grille publiée pour l’été 2027; ne pas appliquer ces montants à la saison 2026.",
     "source": "https://www.openstreetmap.org/way/680216140",
     "latitude": 42.7148294,
     "longitude": 1.8411799,
@@ -127,17 +178,27 @@
     "sourceId": "way/680216140",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
     "priceSource": "https://www.pyrenees-ariegeoises.com/preparer-mon-sejour/dormir/campings-et-aires-de-camping-cars/aire-de-stationnement-pour-camping-cars-ax-les-thermes-fr-4240146/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Le tarif de 9 € provient de la saison 2027 et ne doit pas être présenté comme un prix confirmé pour 2026."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Montants publiés pour le 1er juin–31 août 2027 uniquement : 9 €/jour, 55 €/semaine, 150 €/3 semaines; tarif 2026 non confirmé.",
+    "sourceOfficial": "https://www.pyrenees-ariegeoises.com/preparer-mon-sejour/dormir/campings-et-aires-de-camping-cars/aire-de-stationnement-pour-camping-cars-ax-les-thermes-fr-4240146/",
+    "verificationSource": "https://www.pyrenees-ariegeoises.com/preparer-mon-sejour/dormir/campings-et-aires-de-camping-cars/aire-de-stationnement-pour-camping-cars-ax-les-thermes-fr-4240146/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche OT mise à jour le 21/10/2026; stationnement sans services, paiement à la caisse de la piscine."
   },
   {
     "department": "09",
     "name": "Aire d’accueil camping-cars de Sainte-Croix-Volvestre",
     "city": "Sainte-Croix-Volvestre",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "10 emplacements",
+      "Toilettes publiques",
+      "Borne de services camping-cars",
+      "Parking",
+      "Bornes de recharge pour véhicules électriques"
+    ],
+    "price": "Stationnement gratuit selon l’ADT; les tarifs éventuels des services ne sont pas détaillés.",
+    "status": "Ariège Pyrénées Tourisme : aire calme de 10 places, gratuite et ouverte toute l’année 2026; toilettes publiques, borne de services et bornes de recharge électrique.",
     "source": "https://www.openstreetmap.org/way/891447174",
     "latitude": 43.1267071,
     "longitude": 1.1708996,
@@ -146,16 +207,27 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/891447174",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
+    "priceSource": "https://www.ariegepyrenees.com/camping/aire-daccueil-services-camping-cars-de-sainte-croix-volvestre/",
+    "sourceOfficial": "https://www.ariegepyrenees.com/camping/aire-daccueil-services-camping-cars-de-sainte-croix-volvestre/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "La gratuité est indiquée pour l’aire; aucun détail de prix séparé pour les services n’est publié.",
+    "verificationSource": "https://www.ariegepyrenees.com/camping/aire-daccueil-services-camping-cars-de-sainte-croix-volvestre/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche ADT : 10 emplacements, gratuite, année 2026; toilettes et borne de services."
   },
   {
     "department": "09",
     "name": "Aire d’accueil camping-cars de Castelnau-Durban",
     "city": "Castelnau-Durban",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Aire ombragée",
+      "Borne de services camping-cars",
+      "Camping-cars autorisés"
+    ],
+    "price": "Stationnement gratuit selon l’ADT; prix de la borne de services non publié.",
+    "status": "Ariège Pyrénées Tourisme : aire d’accueil ombragée et gratuite. Une borne de services est signalée; aucun prix de service ni capacité n’est précisé sur la fiche consultée.",
     "source": "https://www.openstreetmap.org/way/891450634",
     "latitude": 42.9999805,
     "longitude": 1.337969,
@@ -164,7 +236,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/891450634",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
+    "priceSource": "https://www.ariegepyrenees.com/camping/aire-daccueil-camping-cars-de-castelnau-durban/",
+    "sourceOfficial": "https://www.ariegepyrenees.com/camping/aire-daccueil-camping-cars-de-castelnau-durban/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "La gratuité concerne le stationnement selon l’ADT; la fiche ne donne pas de tarif pour la borne.",
+    "verificationSource": "https://www.ariegepyrenees.com/camping/aire-daccueil-camping-cars-de-castelnau-durban/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "Fiche ADT consultée : stationnement gratuit et ombragé; borne de services signalée, détails tarifaires absents."
   },
   {
     "department": "09",
@@ -172,10 +251,15 @@
     "city": "Les Cabannes",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Environ 30 emplacements",
+      "Stationnement 10 € / 24 h",
+      "Eau : 2 € le plein",
+      "Borne de services",
+      "Pas de branchement électrique",
+      "Toilettes publiques à proximité"
     ],
-    "price": "10 € / 24 h ; eau 2 € / plein (2026)",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "10 € / 24 h de stationnement; 2 € le plein d’eau. Paiement par carte bancaire.",
+    "status": "Ariège Pyrénées Tourisme : aire clôturée et éclairée d’environ 30 places à La Bexanne; stationnement 10 €/24 h et plein d’eau 2 €. Pas de branchement électrique.",
     "source": "https://www.openstreetmap.org/way/1225530897",
     "latitude": 42.7844283,
     "longitude": 1.6830206,
@@ -186,8 +270,12 @@
     "sourceId": "way/1225530897",
     "servicesSource": "https://www.openstreetmap.org/way/1225530897",
     "priceSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-4/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif relevé auprès de l'office de tourisme, de la commune ou de l'exploitant; vérifier la saison et les suppléments."
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "Distinguer le stationnement à 10 €/24 h de l’eau à 2 € par plein.",
+    "sourceOfficial": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-4/",
+    "verificationSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars-4/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "ADT : environ 30 places, accès toute l’année, eau 2 €, stationnement 10 €/24 h, sans électricité."
   },
   {
     "department": "09",
@@ -195,10 +283,15 @@
     "city": "Val-de-Sos",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Eau potable"
+      "31 emplacements",
+      "Stationnement 10 € / 24 h",
+      "Eau potable",
+      "Vidange eaux grises et noires",
+      "Électricité 16 A",
+      "Ouverture saisonnière du 15 mars au 31 octobre 2026"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "10 € / 24 h de stationnement. La fiche ne publie pas de tarif distinct pour l’eau, l’électricité ou la vidange.",
+    "status": "Ariège Pyrénées Tourisme : aire d’environ 31 places à 289 Bertie, avec eau, vidange et électricité 16 A. Tarif de stationnement 10 €/24 h; ouverture du 15 mars au 31 octobre 2026.",
     "source": "https://www.openstreetmap.org/way/1233056173",
     "latitude": 42.7685245,
     "longitude": 1.5021685,
@@ -208,7 +301,14 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1233056173",
     "servicesSource": "https://www.openstreetmap.org/way/1233056173",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localité ; rattachement précis à contrôler.",
+    "priceSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars/",
+    "sourceOfficial": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars/",
+    "priceVerifiedOn": "2026-11-25",
+    "priceNote": "10 € correspond au stationnement 24 h; aucun supplément de service n’est détaillé sur la fiche consultée.",
+    "verificationSource": "https://www.ariegepyrenees.com/camping/aire-pour-camping-cars/",
+    "verificationDate": "2026-11-25",
+    "verificationNote": "ADT : 31 places et services publiés; période 2026 du 15/03 au 31/10."
   },
   {
     "department": "09",
