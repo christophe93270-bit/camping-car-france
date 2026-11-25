@@ -4,15 +4,15 @@
   "displayedCount": 79,
   "rawRegionalRows": 79,
   "deduplicatedRows": 0,
-  "currentLot": 550,
+  "currentLot": 551,
   "department": "43",
   "progress": {
-    "checked": 20,
+    "checked": 30,
     "total": 79,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit commencé après achèvement des 84 fiches du département 42. Lot 549 (1–10) : Auzon 12,70 €/24 h confirmé par tourisme et opérateur, taxe incluse au tarif observé; Saint-Romain-Lachalm et Raucoules jeton 2 € confirmé; Saint-Bonnet-le-Froid 10 €/nuit + caution clé 10 €, fermeture saisonnière vérifiée; Chanteuges services gratuits mais nuitée payante avec divergence tarifaire 2022/2024; Ally, Le Vernet, Solignac, Aiguilhe et Tiranges ont des prix ou conditions à confirmer. Aucune fiche source n’a été modifiée. Lot 550 (11–20) : Saint-Julien-Molhesabate, Dunières, Beauzac et Montregard gratuits, eau hors gel; Le Puy 14,90 € + 1,22 € taxe (16,12 € total) et 6 € / 5 h; Polignac 3 € pour l’eau et 3 € pour l’électricité; Beaulieu gratuit 48 h, capacité structurée 5 contre 6 dans le descriptif; Brioude services payants par jetons sans prix publié; La Chaise-Dieu jeton 2,50 €; Saint-Christophe jeton 2 €; Chanteuges reste à confirmer. Aucune fiche source n’a été modifiée.",
+  "note": "Audit commencé après achèvement des 84 fiches du département 42. Lot 549 (1–10) : Auzon 12,70 €/24 h confirmé par tourisme et opérateur, taxe incluse au tarif observé; Saint-Romain-Lachalm et Raucoules jeton 2 € confirmé; Saint-Bonnet-le-Froid 10 €/nuit + caution clé 10 €, fermeture saisonnière vérifiée; Chanteuges services gratuits mais nuitée payante avec divergence tarifaire 2022/2024; Ally, Le Vernet, Solignac, Aiguilhe et Tiranges ont des prix ou conditions à confirmer. Aucune fiche source n’a été modifiée. Lot 550 (11–20) : Saint-Julien-Molhesabate, Dunières, Beauzac et Montregard gratuits, eau hors gel; Le Puy 14,90 € + 1,22 € taxe (16,12 € total) et 6 € / 5 h; Polignac 3 € pour l’eau et 3 € pour l’électricité; Beaulieu gratuit 48 h, capacité structurée 5 contre 6 dans le descriptif; Brioude services payants par jetons sans prix publié; La Chaise-Dieu jeton 2,50 €; Saint-Christophe jeton 2 €; Chanteuges reste à confirmer. Aucune fiche source n’a été modifiée. Lot 551 (21–30) : Basbory gratuit 6 places, distinct de CCP La Bessière; Les Estables vidange 2 € et stationnement gratuit; Riotord 6 places gratuites jusqu’au 30/11; Vieille-Brioude forfait 2 € avec détail à préciser, vidange gratuite; Surnette 17 €/jour pour 2 avec période tarifaire et dates d’ouverture divergentes; Saint-Paulien service 3 € hors séjour; Blesle CCP 12,70 € + 1,30 € = 14 €; Allègre et Saint-Préjet présentent un écart entre encart dynamique et grille saisonnière, prix final à confirmer. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/8898564107",
@@ -133,6 +133,66 @@
       "place": "Montregard — aire du Bourg",
       "status": "3 places; stationnement, vidange et eau potable gratuits, aire ouverte toute l’année; eau potable coupée en hiver. Distincte de la ferme de Vovady à 3 km.",
       "nextCheck": "Aucun contrôle tarifaire externe restant; vérifier remise en eau au printemps."
+    },
+    {
+      "sourceId": "way/1307539468",
+      "place": "Blesle — parking gratuit Route du Basbory",
+      "status": "My Haute-Loire : 6 emplacements gratuits, sans borne de services indiquée; site distinct de l’aire CAMPING-CAR PARK La Bessière, à environ 560 m.",
+      "nextCheck": "Contrôler le point GPS de la fiche pour qu’il pointe bien vers le parking gratuit, pas vers La Bessière."
+    },
+    {
+      "sourceId": "way/1420275690",
+      "place": "Les Estables — stationnement du bourg et borne de vidange",
+      "status": "Stationnement gratuit aux parkings de la Maison Forestière et place du Foirail; borne de vidange distincte route du Gerbier, 2 pièces de 1 €. Fontaine potable au bourg.",
+      "nextCheck": "Aucun tarif restant à vérifier; contrôler l’emplacement précis de chaque parking et de la borne."
+    },
+    {
+      "sourceId": "way/1429969889",
+      "place": "Riotord — rue du Stade",
+      "status": "6 places et services gratuits; ouverture du 1er mars au 30 novembre 2026. Au 25 novembre, aire encore dans sa période d’ouverture.",
+      "nextCheck": "Vérifier les conditions d’accès après la fermeture saisonnière du 30 novembre."
+    },
+    {
+      "sourceId": "way/1469931758",
+      "place": "Vieille-Brioude — place de la Croix des Prés",
+      "status": "Stationnement gratuit 24 h; tarif de forfait affiché à 2 € sur la fiche touristique 2026; évacuation des eaux usées explicitement indiquée gratuite. Le détail des autres services inclus dans les 2 € n’est pas clair.",
+      "nextCheck": "Demander à la mairie si le forfait 2 € concerne l’eau ou l’électricité; conserver la vidange comme gratuite."
+    },
+    {
+      "sourceId": "way/1482138990",
+      "place": "Saint-Julien-Chapteuil — borne La Croix Blanche",
+      "status": "Vidange gratuite toute l’année; eau gratuite d’avril à octobre si la météo le permet. Borne distincte du camping La Croix Blanche; aucune autorisation de nuitée publiée.",
+      "nextCheck": "Aucun tarif restant à vérifier; ne pas présenter le point technique comme aire de nuitée."
+    },
+    {
+      "sourceId": "way/1491167061",
+      "place": "Mazet-Saint-Voy — camping de Surnette",
+      "status": "Office du Haut-Lignon : forfait 17 €/jour pour 2 personnes avec douches, WC, vidange et eau; eau seule 2 €, vidange seule gratuite. Grille du 11 avril au 25 octobre 2026; période d’ouverture affichée du 16 avril au 22 octobre. Saison terminée.",
+      "nextCheck": "Clarifier les dates d’ouverture avec le camping pour la prochaine saison; garder le forfait et les services seuls distincts."
+    },
+    {
+      "sourceId": "way/1500554112",
+      "place": "Saint-Paulien — point services La Rochelambert",
+      "status": "Borne à l’entrée du camping : services à 3 € pour les visiteurs, gratuits pour les campeurs. Ce montant ne comprend pas la nuitée; aucun stationnement nocturne gratuit n’est annoncé.",
+      "nextCheck": "Aucun tarif restant à vérifier; conserver le point comme borne de services, distincte du séjour au camping."
+    },
+    {
+      "sourceId": "way/1508112794",
+      "place": "Blesle — CAMPING-CAR PARK La Bessière",
+      "status": "44 places, prix en vigueur au 25 novembre : 12,70 €/24 h + 1,30 € de taxe de séjour = 14,00 €; 6 € pour 5 h + services. Tarif variable selon la période; distinct du parking gratuit Basbory.",
+      "nextCheck": "Revérifier le prix final à la réservation; maintenir les deux emplacements de Blesle distincts."
+    },
+    {
+      "sourceId": "way/1508570719",
+      "place": "Allègre — CAMPING-CAR PARK La Pinède",
+      "status": "35 places. Grille saisonnière à partir du 17 novembre : 13,76 €/24 h + taxe de 0,44 € = 14,20 €; formule 5 h + services à 6 €. Toutefois, l’encart « en ce moment » sur la même page affiche 15,45 € dont taxe; prix final divergent. Eau et vidange coupées en hiver; sanitaires fermés après le 31 octobre.",
+      "nextCheck": "Vérifier le montant final dans l’application/à la borne et faire corriger l’écart entre encart et grille tarifaire."
+    },
+    {
+      "sourceId": "way/1508572582",
+      "place": "Saint-Préjet-d’Allier — CAMPING-CAR PARK",
+      "status": "15 places. Grille en vigueur du 12 novembre 2026 au 31 mars 2027 : 12,70 €/24 h + taxe de séjour de 1,22 € = 13,92 €; forfait 5 h + services à 6 €. La page affiche aussi un encart à 15,92 €, incohérent avec la grille saisonnière. Sanitaires saisonniers; aire reste ouverte.",
+      "nextCheck": "Confirmer le montant final à la réservation et signaler l’écart entre l’encart à 15,92 € et la grille (13,92 € taxe comprise)."
     }
   ]
 }
