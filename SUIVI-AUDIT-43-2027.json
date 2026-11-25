@@ -4,15 +4,15 @@
   "displayedCount": 79,
   "rawRegionalRows": 79,
   "deduplicatedRows": 0,
-  "currentLot": 551,
+  "currentLot": 552,
   "department": "43",
   "progress": {
-    "checked": 30,
+    "checked": 40,
     "total": 79,
     "checkedInLot": 10,
     "totalInLot": 10
   },
-  "note": "Audit commencé après achèvement des 84 fiches du département 42. Lot 549 (1–10) : Auzon 12,70 €/24 h confirmé par tourisme et opérateur, taxe incluse au tarif observé; Saint-Romain-Lachalm et Raucoules jeton 2 € confirmé; Saint-Bonnet-le-Froid 10 €/nuit + caution clé 10 €, fermeture saisonnière vérifiée; Chanteuges services gratuits mais nuitée payante avec divergence tarifaire 2022/2024; Ally, Le Vernet, Solignac, Aiguilhe et Tiranges ont des prix ou conditions à confirmer. Aucune fiche source n’a été modifiée. Lot 550 (11–20) : Saint-Julien-Molhesabate, Dunières, Beauzac et Montregard gratuits, eau hors gel; Le Puy 14,90 € + 1,22 € taxe (16,12 € total) et 6 € / 5 h; Polignac 3 € pour l’eau et 3 € pour l’électricité; Beaulieu gratuit 48 h, capacité structurée 5 contre 6 dans le descriptif; Brioude services payants par jetons sans prix publié; La Chaise-Dieu jeton 2,50 €; Saint-Christophe jeton 2 €; Chanteuges reste à confirmer. Aucune fiche source n’a été modifiée. Lot 551 (21–30) : Basbory gratuit 6 places, distinct de CCP La Bessière; Les Estables vidange 2 € et stationnement gratuit; Riotord 6 places gratuites jusqu’au 30/11; Vieille-Brioude forfait 2 € avec détail à préciser, vidange gratuite; Surnette 17 €/jour pour 2 avec période tarifaire et dates d’ouverture divergentes; Saint-Paulien service 3 € hors séjour; Blesle CCP 12,70 € + 1,30 € = 14 €; Allègre et Saint-Préjet présentent un écart entre encart dynamique et grille saisonnière, prix final à confirmer. Aucune fiche source n’a été modifiée.",
+  "note": "Audit commencé après achèvement des 84 fiches du département 42. Lot 549 (1–10) : Auzon 12,70 €/24 h confirmé par tourisme et opérateur, taxe incluse au tarif observé; Saint-Romain-Lachalm et Raucoules jeton 2 € confirmé; Saint-Bonnet-le-Froid 10 €/nuit + caution clé 10 €, fermeture saisonnière vérifiée; Chanteuges services gratuits mais nuitée payante avec divergence tarifaire 2022/2024; Ally, Le Vernet, Solignac, Aiguilhe et Tiranges ont des prix ou conditions à confirmer. Aucune fiche source n’a été modifiée. Lot 550 (11–20) : Saint-Julien-Molhesabate, Dunières, Beauzac et Montregard gratuits, eau hors gel; Le Puy 14,90 € + 1,22 € taxe (16,12 € total) et 6 € / 5 h; Polignac 3 € pour l’eau et 3 € pour l’électricité; Beaulieu gratuit 48 h, capacité structurée 5 contre 6 dans le descriptif; Brioude services payants par jetons sans prix publié; La Chaise-Dieu jeton 2,50 €; Saint-Christophe jeton 2 €; Chanteuges reste à confirmer. Aucune fiche source n’a été modifiée. Lot 551 (21–30) : Basbory gratuit 6 places, distinct de CCP La Bessière; Les Estables vidange 2 € et stationnement gratuit; Riotord 6 places gratuites jusqu’au 30/11; Vieille-Brioude forfait 2 € avec détail à préciser, vidange gratuite; Surnette 17 €/jour pour 2 avec période tarifaire et dates d’ouverture divergentes; Saint-Paulien service 3 € hors séjour; Blesle CCP 12,70 € + 1,30 € = 14 €; Allègre et Saint-Préjet présentent un écart entre encart dynamique et grille saisonnière, prix final à confirmer. Aucune fiche source n’a été modifiée. Lot 552 (31–40) : Aurec 3 places mais tarif de borne non publié; Arlempdes stationnement gratuit sans services confirmés; Bas-en-Basset eau 2 €/100 l et électricité 2 €/h; La Fressange vidange 5 € aux visiteurs mais gratuite aux campeurs, dates divergent; Vovady tarifs à la ligne (emplacement 4 €, électricité 4 €/jour) sans forfait complet; Bòria des Gotas sous accord préalable sans prix affiché; Saint-Pal-de-Chalencon services gratuits; Tence gratuit et saison terminée; Salaisons gratuit selon exploitant mais document tourisme ancien indique électricité 2 €; Le Bouchet services 2 €, hors saison. Aucune fiche source n’a été modifiée.",
   "entries": [
     {
       "sourceId": "node/8898564107",
@@ -193,6 +193,66 @@
       "place": "Saint-Préjet-d’Allier — CAMPING-CAR PARK",
       "status": "15 places. Grille en vigueur du 12 novembre 2026 au 31 mars 2027 : 12,70 €/24 h + taxe de séjour de 1,22 € = 13,92 €; forfait 5 h + services à 6 €. La page affiche aussi un encart à 15,92 €, incohérent avec la grille saisonnière. Sanitaires saisonniers; aire reste ouverte.",
       "nextCheck": "Confirmer le montant final à la réservation et signaler l’écart entre l’encart à 15,92 € et la grille (13,92 € taxe comprise)."
+    },
+    {
+      "sourceId": "way/1535086158",
+      "place": "Aurec-sur-Loire — gare / pôle multimodal",
+      "status": "My Haute-Loire confirme 3 places et présence d’une borne; aucun tarif actuel publié. Un répertoire secondaire donne 2,50 € pour les services, non confirmé par l’office.",
+      "nextCheck": "Vérifier le tarif sur la borne et le point GPS exact; ne pas reprendre 2,50 € comme prix officiel."
+    },
+    {
+      "sourceId": "way/1535137168",
+      "place": "Arlempdes — parking camping-car",
+      "status": "Stationnement gratuit avec WC publics; aucune borne d’eau, d’électricité ou de vidange confirmée. Parking en pente, ouvert toute l’année selon les offices.",
+      "nextCheck": "Aucun tarif restant à vérifier; conserver la fiche comme parking sans services."
+    },
+    {
+      "sourceId": "way/1541291062",
+      "place": "Bas-en-Basset — borne à l’entrée du camping La Garenne",
+      "status": "My Haute-Loire et Gorges de la Loire : eau 2 €/100 litres, électricité 2 €/heure; vidanges proposées. Borne accessible hors nuitée; tarif de stationnement voisin distinct et non établi.",
+      "nextCheck": "Confirmer sur place le tarif de vidange et les modalités de stationnement; ne pas confondre avec le forfait du camping."
+    },
+    {
+      "sourceId": "way/1541302423",
+      "place": "Saint-Didier-en-Velay — borne La Fressange",
+      "status": "La fiche touristique facture 5 € la vidange aux visiteurs, sur accès pendant les horaires d’accueil. Camping La Fressange annonce une borne gratuite à ses campeurs; saison de la borne 14 avril–13 octobre, tandis que le camping est annoncé ouvert 11 avril–9 octobre.",
+      "nextCheck": "Faire confirmer par l’accueil le tarif public, la gratuité pour les résidents et les dates 2026 exactes."
+    },
+    {
+      "sourceId": "way/1543354696",
+      "place": "Montregard — camping à la ferme Vovady",
+      "status": "4 emplacements; tarif 2026 à partir de 4 € l’emplacement et électricité à partir de 4 €/jour. Vidange à l’aire communale à 3 km. Le total dépend des personnes et options; ce n’est pas un forfait tout compris confirmé.",
+      "nextCheck": "Demander le total camping-car selon nombre de personnes et options avant de publier un forfait."
+    },
+    {
+      "sourceId": "way/1544029726",
+      "place": "Saint-Didier-en-Velay — La Bòria des Gotas (France Passion)",
+      "status": "2 emplacements ombragés, accueil lié à France Passion et uniquement avec accord préalable; arrivée avant 20 h sauf arrangement. Aucun tarif propre publié et aucun service eau/électricité/vidange confirmé.",
+      "nextCheck": "Demander les conditions d’accueil et d’éventuels frais aux exploitants; conserver la mention d’accord préalable."
+    },
+    {
+      "sourceId": "way/1547968863",
+      "place": "Saint-Pal-de-Chalencon — borne chemin des Sources",
+      "status": "Gorges de la Loire et mairie : services gratuits, eau et vidanges, ouverts toute l’année; eau coupée en hiver. Nuitée au camping municipal Sainte-Reine payante et distincte.",
+      "nextCheck": "Vérifier la position GPS exacte de la borne; ne pas attribuer le tarif du camping à la borne."
+    },
+    {
+      "sourceId": "way/1552596357",
+      "place": "Tence — place du Fieu",
+      "status": "Stationnement et services gratuits selon My Haute-Loire, ouverture du 4 avril au 18 octobre 2026; saison terminée au 25 novembre.",
+      "nextCheck": "Vérifier si le stationnement est toléré hors saison; ne pas annoncer les services comme actifs après le 18 octobre."
+    },
+    {
+      "sourceId": "way/1552729179",
+      "place": "Pradelles — aire des Salaisons",
+      "status": "Exploitant : 70 places, stationnement, eau et vidange gratuits 24 h/24 toute l’année. Une fiche touristique PDF indique cependant 2 € pour l’électricité, vidange gratuite; cette divergence concerne le service électrique, non les services gratuits annoncés par l’exploitant.",
+      "nextCheck": "Demander à l’exploitant si l’électricité est gratuite ou à 2 €; maintenir la gratuité du stationnement, de l’eau et de la vidange."
+    },
+    {
+      "sourceId": "way/1552853980",
+      "place": "Le Bouchet-Saint-Nicolas — borne du camping municipal",
+      "status": "Vidange et remplissage d’eau à 2 €; services annoncés du 1er avril au 1er novembre. Tarif de borne, distinct du prix d’une nuit au camping municipal; saison terminée au 25 novembre.",
+      "nextCheck": "Confirmer le prix de la nuitée auprès du camping si nécessaire; ne pas confondre avec les 2 € des services."
     }
   ]
 }
