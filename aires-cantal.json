@@ -2,10 +2,10 @@
   {
     "department": "15",
     "name": "Aire camping-car Marchal",
-    "city": "Marchal",
+    "city": "Champs-sur-Tarentaine-Marchal",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit toute l’année",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12115926366",
     "latitude": 45.4084178,
@@ -15,7 +15,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/12115926366",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
+    "address": "Place du 15 Août, Marchal, 15270 Champs-sur-Tarentaine-Marchal",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.cirkwi.com/fr/point-interet/4105501-emplacement-place-du-village-de-marchal",
+    "verificationNote": "Emplacement gratuit toute l’année, place du 15 Août à Marchal, selon l’office de tourisme.",
+    "priceSource": "https://www.cirkwi.com/fr/point-interet/4105501-emplacement-place-du-village-de-marchal",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Emplacement gratuit toute l’année, place du 15 Août à Marchal, selon l’office de tourisme."
   },
   {
     "department": "15",
@@ -23,7 +30,7 @@
     "city": "Montmurat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; borne de services 2 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12171164357",
     "latitude": 44.6282504,
@@ -33,7 +40,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/12171164357",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://chataigneraie-cantal.com/ou-dormir/aire-pour-camping-cars-de-montmurat/",
+    "verificationNote": "Parking gratuit. Borne de services à 2 €, payable avec deux pièces de 1 €.",
+    "priceSource": "https://chataigneraie-cantal.com/ou-dormir/aire-pour-camping-cars-de-montmurat/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Parking gratuit. Borne de services à 2 €, payable avec deux pièces de 1 €."
   },
   {
     "department": "15",
@@ -50,7 +63,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12176023401"
+    "sourceId": "node/12176023401",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campercation.com/place/27450/aire-de-camping-cars-le-jardin-aux-escargots",
+    "verificationNote": "Un annuaire situe le lieu au 2 chemin de Sion Bas, au Vigean. Adresse et tarif à confirmer auprès du gestionnaire."
   },
   {
     "department": "15",
@@ -60,7 +76,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "14,32 € / 24 h",
+    "price": "14,32 € / 24 h, dont 1,32 € de taxe de séjour",
     "status": "Ouverte selon CAMPING-CAR PARK",
     "source": "https://www.openstreetmap.org/node/13165323114",
     "latitude": 45.0506,
@@ -72,10 +88,13 @@
     "sourceId": "node/13165323114",
     "servicesSource": "https://www.openstreetmap.org/node/13165323114",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/saint-flour-la-roche-murat",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par l'exploitant ; susceptible de varier selon les dates.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Tarif publié de 14,32 € par 24 h, dont 1,32 € de taxe de séjour. Parking 5 h avec services : 6 €.",
     "address": "La Roche Murat, 15100 Saint-Flour",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/saint-flour-la-roche-murat"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/saint-flour-la-roche-murat",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/saint-flour-la-roche-murat",
+    "verificationNote": "Tarif publié de 14,32 € par 24 h, dont 1,32 € de taxe de séjour. Parking 5 h avec services : 6 €."
   },
   {
     "department": "15",
@@ -95,8 +114,11 @@
     "sourceId": "way/125496876",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
     "priceSource": "https://www.salers.fr/stationnement-camping-cars-salers",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "La mairie distingue le camping municipal du parking Charles-Maigne. Au camping : 14 € la nuit, taxe de 0,22 € par personne et électricité en option à 6 €. Parking : 4 € pour 24 h, réservé au stationnement de jour entre Pâques et la Toussaint.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.salers.fr/stationnement-camping-cars-salers",
+    "verificationNote": "La mairie distingue le camping municipal du parking Charles-Maigne. Au camping : 14 € la nuit, taxe de 0,22 € par personne et électricité en option à 6 €. Parking : 4 € pour 24 h, réservé au stationnement de jour entre Pâques et la Toussaint."
   },
   {
     "department": "15",
@@ -114,7 +136,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/143748191",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.pays-saint-flour.fr/camping/borne-camping-car-de-chaudes-aigues/",
+    "verificationNote": "L’office de tourisme confirme la borne de vidange du parking Beauredon. Tarif du stationnement à confirmer."
   },
   {
     "department": "15",
@@ -122,7 +147,7 @@
     "city": "Velzic",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit d’avril à octobre ; tarif des jetons à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/358259003",
     "latitude": 45.0019427,
@@ -132,7 +157,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/358259003",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://camping.aurillacagglo.fr/fr/autres-aires/",
+    "verificationNote": "L’agglomération confirme cinq places gratuites à Lavernière, ouvertes d’avril à octobre. Prix des jetons à confirmer.",
+    "priceSource": "https://camping.aurillacagglo.fr/fr/autres-aires/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’agglomération confirme cinq places gratuites à Lavernière, ouvertes d’avril à octobre. Prix des jetons à confirmer."
   },
   {
     "department": "15",
@@ -140,7 +171,7 @@
     "city": "Pierrefort",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; jeton eau ou électricité de 2 € à 3,50 € selon la période",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/703143465",
     "latitude": 44.9220492,
@@ -150,7 +181,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/703143465",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.cantal-destination.com/fiche/aire-de-stationnement-pour-camping-cars/",
+    "verificationNote": "Cantal Destination indique le parking gratuit et distingue des jetons à 2 € ou 3,50 € selon la période. Prix à vérifier selon la date du séjour.",
+    "priceSource": "https://www.cantal-destination.com/fiche/aire-de-stationnement-pour-camping-cars/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Cantal Destination indique le parking gratuit et distingue des jetons à 2 € ou 3,50 € selon la période. Prix à vérifier selon la date du séjour."
   },
   {
     "department": "15",
@@ -174,8 +211,11 @@
     "servicesSource": "https://www.openstreetmap.org/way/802445715",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
     "priceSource": "https://allanche.fr/aire-de-camping-car/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "La mairie confirme 10 € pour 24 h, électricité à 3 € et taxe de séjour à 0,77 € par personne.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://allanche.fr/aire-de-camping-car/",
+    "verificationNote": "La mairie confirme 10 € pour 24 h, électricité à 3 € et taxe de séjour à 0,77 € par personne."
   },
   {
     "department": "15",
@@ -199,8 +239,11 @@
     "servicesSource": "https://www.openstreetmap.org/way/802813219",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
     "priceSource": "https://www.cantal-destination.com/fiche/aire-pour-camping-cars-de-montsalvy/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Parking gratuit. Services de la borne à partir de 2 € ; douche à 1 €.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.cantal-destination.com/fiche/aire-pour-camping-cars-de-montsalvy/",
+    "verificationNote": "Parking gratuit. Services de la borne à partir de 2 € ; douche à 1 €."
   },
   {
     "department": "15",
