@@ -237,14 +237,16 @@
   {
     "department": "22",
     "name": "Aire de Camping-Car Yves Bodin",
-    "city": "Commune à confirmer",
+    "city": "Beaussais-sur-Mer",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Eau",
+      "Vidange",
+      "Électricité",
+      "Wi-Fi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12 € / 24 h",
+    "status": "70 emplacements, paiement par carte sur place",
     "source": "https://www.openstreetmap.org/way/240189949",
     "latitude": 48.5770154,
     "longitude": -2.1425746,
@@ -253,16 +255,25 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/240189949",
-    "servicesSource": "https://www.openstreetmap.org/way/240189949"
+    "servicesSource": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-camping-car-yves-bodin-beaussais-sur-mer_TFOB0018BRE0220000P/",
+    "address": "1 bis rue du Chaffaud",
+    "priceNote": "Services inclus. Arrivée sans réservation.",
+    "sourceOfficial": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-camping-car-yves-bodin-beaussais-sur-mer_TFOB0018BRE0220000P/",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-camping-car-yves-bodin-beaussais-sur-mer_TFOB0018BRE0220000P/",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "22",
     "name": "Aire de Camping Car de Tregastel",
     "city": "Trégastel",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Vidange"
+    ],
+    "price": "15 € / 24 h",
+    "status": "Aire de Poul Palud, ouverte toute l’année selon l’office de tourisme",
     "source": "https://www.openstreetmap.org/way/245115354",
     "latitude": 48.8242956,
     "longitude": -3.4989566,
@@ -270,16 +281,25 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/245115354"
+    "sourceId": "way/245115354",
+    "priceNote": "Tarif municipal de 15 € les 24 h ou 4,50 € les 2 h, eau et vidange comprises. Le tarif publié par l’office de tourisme diffère.",
+    "servicesSource": "https://www.bretagne-cotedegranitrose.com/mon-sejour/dormir/campings/aire-daccueil-de-poul-palud-tregastel-fr-2714535/",
+    "sourceOfficial": "https://www.tregastel.fr/Domaine-public",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.tregastel.fr/Domaine-public",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "22",
     "name": "Aire d'accueil municipale Plage du Moulin",
-    "city": "Commune à confirmer",
+    "city": "Binic-Étables-sur-Mer",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Vidange"
+    ],
+    "price": "10,50 € / nuit",
+    "status": "Aire municipale, eau coupée en hiver",
     "source": "https://www.openstreetmap.org/way/293243665",
     "latitude": 48.6363167,
     "longitude": -2.8283211,
@@ -287,7 +307,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/293243665"
+    "sourceId": "way/293243665",
+    "address": "Plage du Moulin, 22680 Binic-Étables-sur-Mer",
+    "sourceOfficial": "https://www.binicetablessurmer.com/fr/fiche/aires/aire-d-accueil-municipale-plage-du-moulin-binic-etables-sur-mer_TFOB0018BRE022V53L769/",
+    "verificationDate": "2026-11-27",
+    "servicesSource": "https://www.binicetablessurmer.com/fr/fiche/aires/aire-d-accueil-municipale-plage-du-moulin-binic-etables-sur-mer_TFOB0018BRE022V53L769/",
+    "priceSource": "https://www.binicetablessurmer.com/fr/fiche/aires/aire-d-accueil-municipale-plage-du-moulin-binic-etables-sur-mer_TFOB0018BRE022V53L769/",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "22",
@@ -295,8 +321,10 @@
     "city": "Trévou-Tréguignec",
     "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Eau",
+      "Vidange",
+      "Électricité",
+      "Wi-Fi"
     ],
     "price": "13,54 € / 24 h",
     "status": "Ouverte",
@@ -308,13 +336,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/436270552",
-    "servicesSource": "https://www.openstreetmap.org/way/436270552",
+    "servicesSource": "https://trevou-treguignec.bzh/aire-de-camping-cars/",
     "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/trevou-treguignec",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK en vigueur du 15/10/2026 au 31/12/2026 (taxe de séjour incluse).",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "12,22 € les 24 h + 1,32 € de taxe de séjour jusqu’au 31 décembre 2027. Forfait 5 h et services à 6 €.",
     "address": "20 Vieille Côte de Trestel, 22660 Trévou-Tréguignec",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/trevou-treguignec"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/trevou-treguignec",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "22",
@@ -323,7 +352,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Stationnement payant en journée : 30 min gratuites puis tarifs progressifs (1h30 1,80 €, 4h 8 €, 6h 15,50 €) ; gratuit 19h–9h. Pas de forfait 24 h indiqué.",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "30 places dédiées aux camping-cars",
     "source": "https://www.openstreetmap.org/way/438511314",
     "latitude": 48.4543571,
     "longitude": -2.0386378,
@@ -334,8 +363,11 @@
     "sourceId": "way/438511314",
     "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
     "priceSource": "https://www.dinan.fr/point-d-interet/aire-de-stationnement-camping-car-du-viaduc/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif officiel ou exploitant, susceptible de modification."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "30 minutes gratuites avec saisie de l’immatriculation. Gratuit de 19 h à 9 h. La page municipale détaille les horaires payants de janvier à août.",
+    "address": "Rue Général de Gaulle, 22100 Dinan",
+    "sourceOfficial": "https://www.dinan.fr/point-d-interet/aire-de-stationnement-camping-car-du-viaduc/",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "22",
@@ -348,8 +380,8 @@
       "Toilettes",
       "Électricité"
     ],
-    "price": "Hors saison 9,20 € / nuit ; juillet-août 12,20 € / nuit, taxe de séjour incluse. Électricité indisponible selon la mairie.",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "9,20 € / nuit hors juillet-août ; 12,20 € / nuit en juillet-août, taxe de séjour incluse",
+    "status": "Eau et électricité indisponibles pour une durée indéterminée",
     "source": "https://www.openstreetmap.org/way/472239968",
     "latitude": 48.639665,
     "longitude": -2.4578535,
@@ -359,9 +391,12 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/472239968",
     "servicesSource": "https://www.openstreetmap.org/way/472239968",
-    "priceSource": "https://www.ville-erquy.com/economie/campings-municipaux/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif officiel ou exploitant, susceptible de modification."
+    "priceSource": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-camping-car-le-guen-erquy_TFOB0018BRE022V53FA5L/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Tarif officiel ou exploitant, susceptible de modification.",
+    "address": "23 avenue Léon Hamonet, 22430 Erquy",
+    "sourceOfficial": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-camping-car-le-guen-erquy_TFOB0018BRE022V53FA5L/",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "22",
@@ -371,8 +406,8 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12 € / nuit",
+    "status": "Aire communale de stationnement",
     "source": "https://www.openstreetmap.org/way/478657954",
     "latitude": 48.5482325,
     "longitude": -2.5979484,
@@ -382,7 +417,13 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/478657954",
     "servicesSource": "https://www.openstreetmap.org/way/478657954",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "priceNote": "Tarif municipal applicable au 1er janvier 2026, délibération 2025-110.",
+    "address": "Rue des Bassières, Planguenoual",
+    "sourceOfficial": "https://politique.pappers.fr/commune/document/a066b49809fad972f7117884d951b105",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://politique.pappers.fr/commune/document/a066b49809fad972f7117884d951b105",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "22",
@@ -408,8 +449,9 @@
     "address": "Base de loisirs de Bétineuc, 22630 Saint-André-des-Eaux",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/as-st-andre-des-eaux",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/as-st-andre-des-eaux",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif de 6,00 € par service affiché par CAMPING-CAR PARK le 17/11/2026. Il s'agit d'une aire de services sans stationnement."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "6 € affichés par l’exploitant pour l’aire de services de Bétineuc. Une seule place de service indiquée.",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "22",
@@ -417,10 +459,13 @@
     "city": "Pléneuf-Val-André",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Vidange",
+      "Électricité",
+      "Wi-Fi"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "30 places, séjour limité à 5 nuitées",
     "source": "https://www.openstreetmap.org/way/965316721",
     "latitude": 48.5835702,
     "longitude": -2.5574715,
@@ -429,17 +474,24 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/965316721",
-    "servicesSource": "https://www.openstreetmap.org/way/965316721",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "servicesSource": "https://www.capderquy-valandre.com/je-prepare-mon-sejour/dormir/aires-de-camping-car/aire-d-accueil-du-guemadeuc-1609032",
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "address": "Avenue du Général Leclerc, 22370 Pléneuf-Val-André",
+    "priceNote": "Paiement par carte à l’automate. Montant à confirmer auprès du gestionnaire.",
+    "sourceOfficial": "https://www.capderquy-valandre.com/je-prepare-mon-sejour/dormir/aires-de-camping-car/aire-d-accueil-du-guemadeuc-1609032",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "22",
     "name": "Aire de stationnement Landroannec",
     "city": "Guerlédan",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "WC",
+      "Aire de pique-nique"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Parking de Landroannec référencé par l’office de tourisme",
     "source": "https://www.openstreetmap.org/way/1089910217",
     "latitude": 48.2107504,
     "longitude": -3.011122,
@@ -448,7 +500,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1089910217",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "address": "Landroannec, Mûr-de-Bretagne, 22530 Guerlédan",
+    "priceNote": "Tarif et conditions de stationnement de nuit à confirmer.",
+    "sourceOfficial": "https://www.lacdeguerledan.com/aire-camping-car/aire-de-stationnement-landroannec/",
+    "verificationDate": "2026-11-27",
+    "servicesSource": "https://www.lacdeguerledan.com/aire-camping-car/aire-de-stationnement-landroannec/"
   },
   {
     "department": "22",
