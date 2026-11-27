@@ -529,8 +529,11 @@
     "servicesSource": "https://www.openstreetmap.org/way/839049341",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
     "priceSource": "https://villedejonzac.fr/wp-content/uploads/2026/04/Proces-verbal-CM-16122025.pdf",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif publié par exploitant, collectivité ou office de tourisme. Vérifier les variations saisonnières avant départ."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Le procès-verbal municipal confirme le forfait 2026 de 14 € pour 24 h, avec deux heures d’électricité et dix minutes d’eau.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://villedejonzac.fr/wp-content/uploads/2026/04/Proces-verbal-CM-16122025.pdf",
+    "verificationNote": "Le procès-verbal municipal confirme le forfait 2026 de 14 € pour 24 h, avec deux heures d’électricité et dix minutes d’eau."
   },
   {
     "department": "17",
@@ -540,7 +543,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "12,15 € / 24 h",
+    "price": "12,15 € / 24 h, dont 0,44 € de taxe de séjour, jusqu’au 31/12/2027",
     "status": "Ouverte",
     "source": "https://www.openstreetmap.org/way/902363718",
     "latitude": 45.55737,
@@ -553,10 +556,13 @@
     "servicesSource": "https://www.openstreetmap.org/way/902363718",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/jarnac-champagne",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK le 17/11/2026 ; le prix peut varier selon la période.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "11,71 € hors taxe, plus 0,44 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/jarnac-champagne",
-    "address": "Rue de la Jeunesse, 17520 Jarnac-Champagne"
+    "address": "Rue de la Jeunesse, 17520 Jarnac-Champagne",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/jarnac-champagne",
+    "verificationNote": "11,71 € hors taxe, plus 0,44 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €."
   },
   {
     "department": "17",
@@ -573,7 +579,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/908723934"
+    "sourceId": "way/908723934",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.montils.fr/page/aire-de-camping-car",
+    "verificationNote": "La commune recense l’aire du Vignolet ; l’office de tourisme la situe derrière la salle des fêtes. Tarif à confirmer."
   },
   {
     "department": "17",
@@ -590,17 +599,20 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/908800194"
+    "sourceId": "way/908800194",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.prix-carburants.gouv.fr/station/17530001",
+    "verificationNote": "La fiche officielle de la station Super U confirme une aire de camping-cars. La gratuité signalée par un annuaire reste à confirmer."
   },
   {
     "department": "17",
     "name": "Aire de camping-car Super U Marans",
-    "city": "La Ronde",
+    "city": "Marans",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; services 2 € (2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/908996617",
     "latitude": 46.3130513,
@@ -610,7 +622,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/908996617",
-    "servicesSource": "https://www.openstreetmap.org/way/908996617"
+    "servicesSource": "https://www.openstreetmap.org/way/908996617",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.aunis-maraispoitevin.com/hebergements/5699917_aire-de-camping-car-de-super-u/",
+    "verificationNote": "L’office de tourisme situe l’aire au Super U de Marans et indique le parking gratuit et les services à 2 € en 2026.",
+    "priceSource": "https://www.aunis-maraispoitevin.com/hebergements/5699917_aire-de-camping-car-de-super-u/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’office de tourisme situe l’aire au Super U de Marans et indique le parking gratuit et les services à 2 € en 2026."
   },
   {
     "department": "17",
@@ -620,7 +638,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; borne eau et électricité 2 € pour 20 min",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/908998514",
     "latitude": 46.3051481,
@@ -630,7 +648,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/908998514",
-    "servicesSource": "https://www.openstreetmap.org/way/908998514"
+    "servicesSource": "https://www.openstreetmap.org/way/908998514",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.aunis-maraispoitevin.com/hebergements/5699790_aire-de-camping-car-de-la-ronde/",
+    "verificationNote": "L’office de tourisme indique quinze places gratuites et une borne d’eau et d’électricité à 2 € pour vingt minutes. Jetons à la mairie ou à la boulangerie.",
+    "priceSource": "https://www.aunis-maraispoitevin.com/hebergements/5699790_aire-de-camping-car-de-la-ronde/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’office de tourisme indique quinze places gratuites et une borne d’eau et d’électricité à 2 € pour vingt minutes. Jetons à la mairie ou à la boulangerie."
   },
   {
     "department": "17",
@@ -640,7 +664,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "12,97 € / 24 h",
+    "price": "12,97 € / 24 h, dont 1,32 € de taxe de séjour, jusqu’au 31/12/2027",
     "status": "Ouverte",
     "source": "https://www.openstreetmap.org/way/985106204",
     "latitude": 45.48347,
@@ -653,10 +677,13 @@
     "servicesSource": "https://www.openstreetmap.org/way/985106204",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/saint-genis-de-saintonge",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK le 17/11/2026 ; le prix peut varier selon la période.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "11,65 € hors taxe, plus 1,32 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/saint-genis-de-saintonge",
-    "address": "8 rue Fanny, 17240 Saint-Genis-de-Saintonge"
+    "address": "8 rue Fanny, 17240 Saint-Genis-de-Saintonge",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/saint-genis-de-saintonge",
+    "verificationNote": "11,65 € hors taxe, plus 1,32 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €."
   },
   {
     "department": "17",
@@ -666,7 +693,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "14,55 € / 24 h",
+    "price": "14,55 € / 24 h, dont 1,32 € de taxe de séjour, jusqu’au 31/12/2027",
     "status": "Temporairement fermée ; réouverture annoncée le 23 novembre 2026, accès modifié pendant les travaux",
     "source": "https://www.openstreetmap.org/way/1173090938",
     "latitude": 45.64543,
@@ -679,10 +706,13 @@
     "servicesSource": "https://www.openstreetmap.org/way/1173090938",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/st-palais-les-roseaux",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK le 17/11/2026 ; le prix peut varier selon la période.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "13,23 € hors taxe, plus 1,32 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/st-palais-les-roseaux",
-    "address": "65 rue des Roseaux, 17420 Saint-Palais-sur-Mer"
+    "address": "65 rue des Roseaux, 17420 Saint-Palais-sur-Mer",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/st-palais-les-roseaux",
+    "verificationNote": "13,23 € hors taxe, plus 1,32 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €."
   },
   {
     "department": "17",
@@ -690,7 +720,7 @@
     "city": "Saint-Martin-de-Ré",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "10 € / nuit du 1er avril au 30 septembre ; 5 € / nuit du 1er octobre au 31 mars ; services 2 €",
+    "price": "5 € / nuit du 01/10/2026 au 31/03/2027 ; 10 € / nuit en saison (dates à confirmer) ; services 2 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1194481393",
     "latitude": 46.1992379,
@@ -702,8 +732,11 @@
     "sourceId": "way/1194481393",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
     "priceSource": "https://www.infiniment-charentes.com/fiche-sit/aire-de-stationnement-camping-cars-a-saint-martin-de-re-715206099",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif publié par exploitant, collectivité ou office de tourisme. Vérifier les variations saisonnières avant départ."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Tarif de 5 € la nuit confirmé du 1er octobre 2026 au 31 mars 2027. Le descriptif affiche aussi 10 € la nuit d’avril à octobre ; la période se chevauche en octobre et doit être clarifiée. Eau 100 L ou électricité 1 h : 2 €.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.infiniment-charentes.com/fiche-sit/aire-de-stationnement-camping-cars-a-saint-martin-de-re-715206099",
+    "verificationNote": "Tarif de 5 € la nuit confirmé du 1er octobre 2026 au 31 mars 2027. Le descriptif affiche aussi 10 € la nuit d’avril à octobre ; la période se chevauche en octobre et doit être clarifiée. Eau 100 L ou électricité 1 h : 2 €."
   },
   {
     "department": "17",
@@ -713,7 +746,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "13,54 € / 24 h",
+    "price": "13,54 € / 24 h, dont 1,32 € de taxe de séjour, jusqu’au 31/12/2027",
     "status": "Ouverte",
     "source": "https://www.openstreetmap.org/way/1232214305",
     "latitude": 45.92839,
@@ -726,9 +759,12 @@
     "servicesSource": "https://www.openstreetmap.org/way/1232214305",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/soubise",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK le 17/11/2026 ; le prix peut varier selon la période.",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/soubise"
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "12,22 € hors taxe, plus 1,32 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/soubise",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/soubise",
+    "verificationNote": "12,22 € hors taxe, plus 1,32 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €."
   },
   {
     "department": "17",
