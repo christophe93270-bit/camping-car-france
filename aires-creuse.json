@@ -295,19 +295,23 @@
     "servicesSource": "https://www.openstreetmap.org/way/900798274",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/creuse/noth",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif applicable du 15/11/2026 au 31/12/2027 : 13,74 € + 0,44 € de taxe de séjour.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "13,74 € les 24 h + 0,44 € de taxe de séjour du 15 novembre 2026 au 31 décembre 2027. Forfait 5 h et services à 6 €.",
     "address": "2 bis La Grande Cazine, 23300 Noth",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/creuse/noth"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/creuse/noth",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "23",
     "name": "Aire d'accueil Camping-Cars Cressat",
     "city": "Cressat",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Vidange",
+      "Électricité"
+    ],
+    "price": "Stationnement gratuit",
+    "status": "Aire de stationnement et de services près du plan d’eau",
     "source": "https://www.openstreetmap.org/way/1232491034",
     "latitude": 46.1395777,
     "longitude": 2.1102702,
@@ -316,7 +320,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1232491034",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "D990, près du plan d’eau",
+    "priceNote": "Stationnement gratuit selon l’annuaire spécialisé. Il indique 2 € pour les services et 2 € pour l’électricité, à vérifier sur place.",
+    "verificationSource": "https://www.i-campingcar.fr/aires.php?ville=CRESSAT",
+    "verificationDate": "2026-11-27",
+    "servicesSource": "https://www.i-campingcar.fr/aires.php?ville=CRESSAT",
+    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=CRESSAT",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "23",
@@ -324,10 +335,12 @@
     "city": "Saint-Laurent",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Stationnement nocturne, 4 emplacements selon la mairie",
     "source": "https://www.openstreetmap.org/way/1236135890",
     "latitude": 46.1665395,
     "longitude": 1.9611669,
@@ -336,17 +349,24 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1236135890",
-    "servicesSource": "https://www.openstreetmap.org/way/1236135890",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "servicesSource": "https://saint-laurent-creuse.fr/aire-camping-cars/",
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "Rue des Cerisiers, près de l’église",
+    "priceNote": "Borne gratuite pour le plein d’eau et les vidanges selon la mairie. Tarif du stationnement à confirmer.",
+    "sourceOfficial": "https://saint-laurent-creuse.fr/aire-camping-cars/",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "23",
     "name": "Aire d'accueil Camping-Cars Crocq",
     "city": "Crocq",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Vidange"
+    ],
+    "price": "Stationnement gratuit",
+    "status": "Aire près du stade municipal",
     "source": "https://www.openstreetmap.org/way/1293063181",
     "latitude": 45.8636023,
     "longitude": 2.3688156,
@@ -355,7 +375,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1293063181",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "Route de la Bourboule, près du stade municipal",
+    "priceSource": "https://i-campingcar.fr/aires.php?ville=CROCQ",
+    "priceNote": "L’annuaire spécialisé indique un stationnement gratuit et un jeton de services à 2 €, disponible en mairie. Tarif du jeton à vérifier.",
+    "servicesSource": "https://i-campingcar.fr/aires.php?ville=CROCQ",
+    "sourceOfficial": "https://www.crocq23.fr/userfile/fichier-telechargement/1711609696-bulletin-municipal-2023.pdf",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "23",
@@ -366,7 +393,7 @@
       "Électricité"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Borne signalée hors service le 21 août 2026. Remise en service à confirmer.",
     "source": "https://www.openstreetmap.org/way/1307610035",
     "latitude": 46.1868231,
     "longitude": 2.42962,
@@ -376,7 +403,11 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1307610035",
     "servicesSource": "https://www.openstreetmap.org/way/1307610035",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "D915, centre commercial Intermarché",
+    "priceNote": "Tarifs actuels à confirmer pour l’aire de l’Intermarché. L’aire du camping, rue du Stade, est à une autre adresse.",
+    "verificationSource": "https://i-campingcar.fr/aires.php?ville=CHAMBON+SUR+VOUEIZE+%5B2%5D",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "23",
@@ -384,10 +415,12 @@
     "city": "Fursac",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange"
     ],
-    "price": "10 € / 24 h (3 nuits consécutives maximum) ; eau 2 € / 10 minutes ; électricité gratuite ; ouverture du 01/04 au 31/10/2026",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "10 € / 24 h (tarif 2026)",
+    "status": "45 places. Saison 2026 du 1er avril au 31 octobre.",
     "source": "https://www.openstreetmap.org/way/1307617848",
     "latitude": 46.1518443,
     "longitude": 1.5107596,
@@ -396,11 +429,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1307617848",
-    "servicesSource": "https://www.openstreetmap.org/way/1307617848",
+    "servicesSource": "https://www.commune-fursac.fr/article257.html",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
-    "priceSource": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-fursac-fr-3027386/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif de l'exploitant ou information publiée ; vérifier avant déplacement."
+    "priceSource": "https://www.commune-fursac.fr/article257.html",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "3 nuits consécutives maximum. Eau à 2 € pour 10 minutes, électricité gratuite. Saison 2027 à confirmer.",
+    "address": "Route du Stade, 23290 Fursac",
+    "sourceOfficial": "https://www.commune-fursac.fr/article257.html",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "23",
@@ -408,11 +444,11 @@
     "city": "Aubusson",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes",
-      "Électricité"
+      "Eau",
+      "Vidange"
     ],
-    "price": "Stationnement gratuit (accès libre), ouvert toute l'année ; prix des services non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit",
+    "status": "Ouverte à l’année, 70 places en accès libre selon la mairie",
     "source": "https://www.openstreetmap.org/way/1307619375",
     "latitude": 45.9570176,
     "longitude": 2.1754935,
@@ -421,11 +457,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1307619375",
-    "servicesSource": "https://www.openstreetmap.org/way/1307619375",
+    "servicesSource": "https://www.aubusson.fr/aire-daccueil-camping-car/",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
-    "priceSource": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-aubusson-fr-2647842/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif de l'exploitant ou information publiée ; vérifier avant déplacement."
+    "priceSource": "https://www.aubusson.fr/aire-daccueil-camping-car/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Accès gratuit confirmé, gratuité des services signalée par l’annuaire spécialisé.",
+    "address": "Parking du Champ de Foire, 23200 Aubusson",
+    "sourceOfficial": "https://www.aubusson.fr/aire-daccueil-camping-car/",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "23",
@@ -433,10 +472,11 @@
     "city": "Royère-de-Vassivière",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Eau",
+      "Vidange"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Stationnement nocturne. Parking et borne inaccessibles le mardi de 6 h à 14 h (marché).",
     "source": "https://www.openstreetmap.org/way/1307619864",
     "latitude": 45.8401718,
     "longitude": 1.9107302,
@@ -445,17 +485,24 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1307619864",
-    "servicesSource": "https://www.openstreetmap.org/way/1307619864",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "servicesSource": "https://www.cirkwi.com/fr/point-interet/1419242-aire-d-accueil-camping-cars",
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "Place P. Ferrand, au bord de la RD3",
+    "priceNote": "Borne gratuite selon l’agence touristique. Tarif du stationnement à confirmer.",
+    "sourceOfficial": "https://www.cirkwi.com/fr/point-interet/1419242-aire-d-accueil-camping-cars",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "23",
     "name": "Aire d'accueil Camping-Cars de la Martinèche",
     "city": "Soubrebost",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Vidange"
+    ],
+    "price": "Gratuit",
+    "status": "Stationnement nocturne et borne référencés à l’année en 2026",
     "source": "https://www.openstreetmap.org/way/1307622028",
     "latitude": 45.9842948,
     "longitude": 1.8531147,
@@ -464,7 +511,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1307622028",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "Parking de la Maison Martin Nadaud, La Martinèche",
+    "priceNote": "Gratuité indiquée par l’office de tourisme pour l’aire et sa borne.",
+    "sourceOfficial": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-de-la-martineche-soubrebost-fr-2647904/",
+    "verificationDate": "2026-11-27",
+    "servicesSource": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-de-la-martineche-soubrebost-fr-2647904/",
+    "priceSource": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-de-la-martineche-soubrebost-fr-2647904/",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "23",
@@ -472,10 +526,11 @@
     "city": "Châtelus-le-Marcheix",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Vidange"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Deux emplacements nocturnes près du camping municipal",
     "source": "https://www.openstreetmap.org/way/1307622694",
     "latitude": 45.9990308,
     "longitude": 1.6036405,
@@ -484,8 +539,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1307622694",
-    "servicesSource": "https://www.openstreetmap.org/way/1307622694",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "servicesSource": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-chatelus-le-marcheix-chatelus-le-marcheix-fr-2647890/",
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "Chemin du Brouillat, 23430 Châtelus-le-Marcheix",
+    "priceNote": "Forfait de services à 2 € selon un relevé de 2023. Tarif actuel de la borne et du stationnement à confirmer.",
+    "sourceOfficial": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-chatelus-le-marcheix-chatelus-le-marcheix-fr-2647890/",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "23",
