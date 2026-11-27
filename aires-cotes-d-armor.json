@@ -514,10 +514,11 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Eau potable",
-      "Électricité"
+      "Électricité",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "Fermée du 1er octobre au 31 mars",
     "source": "https://www.openstreetmap.org/way/1187881456",
     "latitude": 48.2856888,
     "longitude": -3.4216571,
@@ -526,8 +527,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1187881456",
-    "servicesSource": "https://www.openstreetmap.org/way/1187881456",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "servicesSource": "https://www.cotesdarmor.com/fr/fiche/aires/aire-d-accueil-mael-carhaix_TFOB0018BRE0220000E/",
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "address": "Rue du 19 Mars 1962, esplanade de la Gare",
+    "priceNote": "Stationnement, eau, électricité et vidange gratuits selon l’agence touristique.",
+    "sourceOfficial": "https://www.cotesdarmor.com/fr/fiche/aires/aire-d-accueil-mael-carhaix_TFOB0018BRE0220000E/",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.cotesdarmor.com/fr/fiche/aires/aire-d-accueil-mael-carhaix_TFOB0018BRE0220000E/",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "22",
@@ -536,7 +543,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Environ 22 places avant la pointe du Roselier",
     "source": "https://www.openstreetmap.org/way/1193568927",
     "latitude": 48.5465403,
     "longitude": -2.7355498,
@@ -545,28 +552,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1193568927",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
-  },
-  {
-    "department": "22",
-    "name": "Aire de camping-car de Toulinet",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
-    "services": [
-      "Douches",
-      "Toilettes"
-    ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
-    "source": "https://www.openstreetmap.org/way/1233162174",
-    "latitude": 48.6715591,
-    "longitude": -3.6164291,
-    "gpsSource": "https://www.openstreetmap.org/way/1233162174",
-    "dataLicense": "ODbL",
-    "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
-    "sourceId": "way/1233162174",
-    "servicesSource": "https://www.openstreetmap.org/way/1233162174"
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "address": "11 rue du Roselier, 22190 Plérin",
+    "priceNote": "Gratuité indiquée dans les données OpenStreetMap, à confirmer sur place.",
+    "sourceOfficial": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-stationnement-du-roselier-plerin_TFOB0018BRE022V53YR65/",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "22",
@@ -576,18 +566,24 @@
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "18 € / 24 h",
+    "status": "20 places à l’année selon le guide touristique 2026",
     "source": "https://www.openstreetmap.org/way/1318355758",
-    "latitude": 48.8196945,
-    "longitude": -3.0207614,
-    "gpsSource": "https://www.openstreetmap.org/way/1318355758",
+    "latitude": 48.820683,
+    "longitude": -3.019953,
+    "gpsSource": "https://cdt22.media.tourinsoft.eu/upload/Document-accueil-campings-cars-2026-NORD.pdf",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1318355758",
     "servicesSource": "https://www.openstreetmap.org/way/1318355758",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "address": "Pointe de l’Arcouest, 22620 Ploubazlanec",
+    "priceNote": "Tarif du parking camping-cars de la Pointe dans le guide 2026.",
+    "sourceOfficial": "https://cdt22.media.tourinsoft.eu/upload/Document-accueil-campings-cars-2026-NORD.pdf",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://cdt22.media.tourinsoft.eu/upload/Document-accueil-campings-cars-2026-NORD.pdf",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "22",
@@ -595,10 +591,11 @@
     "city": "Saint-Carreuc",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
+      "Eau",
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "Aire de stationnement de l’étang du Plessis",
     "source": "https://www.openstreetmap.org/way/1327609993",
     "latitude": 48.4022638,
     "longitude": -2.7391134,
@@ -607,8 +604,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1327609993",
-    "servicesSource": "https://www.openstreetmap.org/way/1327609993",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "servicesSource": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-pique-nique-et-de-stationnement-de-l-etang-du-plessis-saint-carreuc_TFOB0018BRE0220000U/",
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "address": "Rue de l’Étang, 22150 Saint-Carreuc",
+    "priceNote": "Stationnement et eau gratuits. Une heure d’électricité gratuite selon l’agence touristique.",
+    "sourceOfficial": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-pique-nique-et-de-stationnement-de-l-etang-du-plessis-saint-carreuc_TFOB0018BRE0220000U/",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-pique-nique-et-de-stationnement-de-l-etang-du-plessis-saint-carreuc_TFOB0018BRE0220000U/",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "22",
@@ -616,10 +619,12 @@
     "city": "Plérin",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Toilettes",
+      "Eau",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "7 places de stationnement",
     "source": "https://www.openstreetmap.org/way/1328219295",
     "latitude": 48.5398313,
     "longitude": -2.726626,
@@ -628,8 +633,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1328219295",
-    "servicesSource": "https://www.openstreetmap.org/way/1328219295",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "servicesSource": "https://www.aireparkreservation.com/aires-camping-car/recherche/15298",
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "address": "Place François Guégo, 22190 Plérin",
+    "priceNote": "Gratuité du stationnement. Le tarif de la borne de services reste à confirmer.",
+    "sourceOfficial": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-stationnement-de-st-laurent-de-la-mer-plerin_TFOB0018BRE022V515SFR/",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-stationnement-de-st-laurent-de-la-mer-plerin_TFOB0018BRE022V515SFR/",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "22",
@@ -638,7 +649,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "6 places signalées dans les annuaires",
     "source": "https://www.openstreetmap.org/way/1341418975",
     "latitude": 48.5725157,
     "longitude": -2.8186477,
@@ -647,16 +658,26 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1341418975",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "priceNote": "Stationnement gratuit selon les données cartographiques reprises dans les annuaires. Confirmation municipale à obtenir.",
+    "verificationSource": "https://spot2play.com/spot/aire-de-stationnement-de-pordic-centre/",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "22",
     "name": "Aire de Camping Car de Toulinet",
     "city": "Plestin-les-Grèves",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Vidange",
+      "Électricité",
+      "Douches",
+      "Toilettes",
+      "Lave-linge"
+    ],
+    "price": "11 à 15 € / jour selon la période",
+    "status": "80 emplacements, accueil et paiement 24 h/24",
     "source": "https://www.openstreetmap.org/way/1457614982",
     "latitude": 48.6731333,
     "longitude": -3.6169176,
@@ -664,7 +685,17 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1457614982"
+    "sourceId": "way/1457614982",
+    "address": "Corniche de Kerallic, 22310 Plestin-les-Grèves",
+    "priceNote": "La mairie affiche 11 € en janvier, février, mars, novembre et décembre, 13 € en avril et mai, 14 € en juin et septembre, et 12 € en octobre. Réservation en ligne possible.",
+    "duplicateSourceIds": [
+      "way/1233162174"
+    ],
+    "sourceOfficial": "https://www.plestinlesgreves.bzh/services/aire-camping-car-toulinet",
+    "verificationDate": "2026-11-27",
+    "servicesSource": "https://www.plestinlesgreves.bzh/services/aire-camping-car-toulinet",
+    "priceSource": "https://www.plestinlesgreves.bzh/services/aire-camping-car-toulinet",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "22",
@@ -687,10 +718,11 @@
     "servicesSource": "https://www.openstreetmap.org/way/1568095511",
     "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
     "address": "Rue du Ranolien, 22700 Perros-Guirec",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/perros-%20guirec",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/perros-%20guirec",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif publié dans le répertoire CAMPING-CAR PARK le 17/11/2026 ; variable selon la période."
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/perros-guirec",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/perros-guirec",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "16 € les 24 h + 1,32 € de taxe de séjour jusqu’au 31 décembre 2027. Forfait 5 h et services à 6 €.",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "22",
@@ -709,8 +741,9 @@
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/frehel-la-ville-oie",
     "address": "La Ville Oie, 22240 Fréhel",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/frehel-la-ville-oie",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif actuellement affiché par CAMPING-CAR PARK le 17/11/2026 ; taxe de séjour incluse."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "14,15 € les 24 h, dont 1,22 € de taxe de séjour, jusqu’au 30 décembre 2026. Dès le 31 décembre 2026, tarif de base de 12,70 € les 24 h. Taxe 2027 à confirmer. Forfait 5 h et services à 6 €.",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "22",
