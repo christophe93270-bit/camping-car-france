@@ -266,8 +266,11 @@
     "servicesSource": "https://www.openstreetmap.org/way/816348013",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
     "priceSource": "https://www.cantal-destination.com/fiche/aire-de-service-de-riom-es-montagnes/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Cantal Destination confirme le jeton de recharge à 3 €. Tarif du stationnement à confirmer.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.cantal-destination.com/fiche/aire-de-service-de-riom-es-montagnes/",
+    "verificationNote": "Cantal Destination confirme le jeton de recharge à 3 €. Tarif du stationnement à confirmer."
   },
   {
     "department": "15",
@@ -277,7 +280,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; services à partir de 2 €",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/904382539",
     "latitude": 44.6441995,
@@ -287,7 +290,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/904382539",
-    "servicesSource": "https://www.openstreetmap.org/way/904382539"
+    "servicesSource": "https://www.openstreetmap.org/way/904382539",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.cantal-destination.com/fiche/aire-pour-camping-cars-de-vieillevie/",
+    "verificationNote": "Stationnement gratuit. Borne à partir de 2 € pour l’eau ou une heure d’électricité ; prévoir une pièce de 2 €.",
+    "priceSource": "https://www.cantal-destination.com/fiche/aire-pour-camping-cars-de-vieillevie/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Stationnement gratuit. Borne à partir de 2 € pour l’eau ou une heure d’électricité ; prévoir une pièce de 2 €."
   },
   {
     "department": "15",
@@ -297,7 +306,7 @@
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
+    "price": "Participation libre (boîte sur l’aire)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1002726140",
     "latitude": 45.1807806,
@@ -308,7 +317,13 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1002726140",
     "servicesSource": "https://www.openstreetmap.org/way/1002726140",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.cantal-destination.com/fiche/aire-daccueil-camping-car-municipale-de-la-chapelle-laurent/",
+    "verificationNote": "L’office de tourisme indique une boîte de participation libre sur l’aire, près du terrain de football.",
+    "priceSource": "https://www.cantal-destination.com/fiche/aire-daccueil-camping-car-municipale-de-la-chapelle-laurent/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’office de tourisme indique une boîte de participation libre sur l’aire, près du terrain de football."
   },
   {
     "department": "15",
@@ -318,7 +333,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "16,14 € / 24 h, dont 1,32 € de taxe de séjour",
+    "price": "14,02 € / 24 h, taxe comprise, jusqu’au 31/12/2027",
     "status": "Ouverte ; aire d'étape CAMPING-CAR PARK confirmée par l'exploitant",
     "source": "https://www.openstreetmap.org/way/1219043548",
     "latitude": 45.15676,
@@ -330,10 +345,13 @@
     "sourceId": "way/1219043548",
     "servicesSource": "https://www.openstreetmap.org/way/1219043548",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/dienne",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK le 17/11/2026 ; susceptible de varier selon les dates.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "12,70 € hors taxe, plus 1,32 € de taxe, jusqu’au 31 décembre 2027. Parking 5 h avec services : 6 €.",
     "address": "D680, 15300 Dienne",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/dienne"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/dienne",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/dienne",
+    "verificationNote": "12,70 € hors taxe, plus 1,32 € de taxe, jusqu’au 31 décembre 2027. Parking 5 h avec services : 6 €."
   },
   {
     "department": "15",
@@ -343,7 +361,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "14,02 € / 24 h, dont 1,32 € de taxe de séjour",
+    "price": "12,92 € / 24 h, taxe comprise, jusqu’au 31/12/2027",
     "status": "Ouverte ; aire d'étape CAMPING-CAR PARK confirmée par l'exploitant",
     "source": "https://www.openstreetmap.org/way/1219074698",
     "latitude": 45.21112,
@@ -355,10 +373,13 @@
     "sourceId": "way/1219074698",
     "servicesSource": "https://www.openstreetmap.org/way/1219074698",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/mauriac",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK le 17/11/2026 ; susceptible de varier selon les dates.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "11,60 € hors taxe, plus 1,32 € de taxe, jusqu’au 31 décembre 2027. Parking 5 h avec services : 6 €.",
     "address": "La Roussilhe, 15200 Mauriac",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/mauriac"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/mauriac",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/mauriac",
+    "verificationNote": "11,60 € hors taxe, plus 1,32 € de taxe, jusqu’au 31 décembre 2027. Parking 5 h avec services : 6 €."
   },
   {
     "department": "15",
@@ -368,7 +389,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "15,52 € / 24 h, dont 1,32 € de taxe de séjour",
+    "price": "13,52 € / 24 h, taxe comprise, jusqu’au 31/12/2027",
     "status": "Ouverte ; aire d'étape CAMPING-CAR PARK confirmée par l'exploitant",
     "source": "https://www.openstreetmap.org/way/1219078720",
     "latitude": 44.93255,
@@ -383,8 +404,11 @@
     "address": "Plage d'Espinet, 15150 Saint-Gérons",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/st-gerons",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/st-gerons",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK le 17/11/2026 ; susceptible de varier selon les dates."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "12,20 € hors taxe, plus 1,32 € de taxe, jusqu’au 31 décembre 2027. Parking 5 h avec services : 6,50 €.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/st-gerons",
+    "verificationNote": "12,20 € hors taxe, plus 1,32 € de taxe, jusqu’au 31 décembre 2027. Parking 5 h avec services : 6,50 €."
   },
   {
     "department": "15",
@@ -394,7 +418,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "17,18 € / 24 h, dont 1,32 € de taxe de séjour",
+    "price": "15,06 € / 24 h jusqu’à fin 2026 ; 17,10 € / 24 h en 2027 (taxe comprise)",
     "status": "Ouverte ; aire d'étape CAMPING-CAR PARK confirmée par l'exploitant",
     "source": "https://www.openstreetmap.org/way/1284208593",
     "latitude": 44.93658,
@@ -406,10 +430,13 @@
     "sourceId": "way/1284208593",
     "servicesSource": "https://www.openstreetmap.org/way/1284208593",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/aurillac",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK le 17/11/2026 ; susceptible de varier selon les dates.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "13,74 € hors taxe jusqu’à fin 2026 puis 15,78 € hors taxe en 2027. Taxe de 1,32 €. Parking 5 h avec services : 6 €.",
     "address": "Rue de la Moissetie, 15000 Aurillac",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/aurillac"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/aurillac",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/aurillac",
+    "verificationNote": "13,74 € hors taxe jusqu’à fin 2026 puis 15,78 € hors taxe en 2027. Taxe de 1,32 €. Parking 5 h avec services : 6 €."
   },
   {
     "department": "15",
@@ -432,8 +459,11 @@
     "servicesSource": "https://www.openstreetmap.org/way/1306922736",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
     "priceSource": "https://www.cantal-destination.com/fiche/aire-de-camping-car-de-coltines/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Source mairie, office de tourisme ou exploitant ; tarifs susceptibles de changer."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Cinq emplacements gratuits ; eau et électricité par jeton dont le montant reste à confirmer.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.cantal-destination.com/fiche/aire-de-camping-car-de-coltines/",
+    "verificationNote": "Cinq emplacements gratuits ; eau et électricité par jeton dont le montant reste à confirmer."
   },
   {
     "department": "15",
@@ -441,7 +471,7 @@
     "city": "Ségur-les-Villas",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit, limité à 24 h ; borne 3 € (mai à octobre 2026)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/1306933223",
     "latitude": 45.223016,
@@ -451,30 +481,44 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1306933223",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.cantal-destination.com/fiche/aire-daccueil-camping-car-municipale-de-segur-les-villas/",
+    "verificationNote": "Stationnement gratuit limité à 24 h et borne à 3 € pour la période publiée du 1er mai au 31 octobre 2026.",
+    "priceSource": "https://www.cantal-destination.com/fiche/aire-daccueil-camping-car-municipale-de-segur-les-villas/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Stationnement gratuit limité à 24 h et borne à 3 € pour la période publiée du 1er mai au 31 octobre 2026."
   },
   {
     "department": "15",
-    "name": "Aire camping-car communale de Neussargues en Pinatelle",
-    "city": "Neussargues en Pinatelle",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Aire CAMPING-CAR PARK de Neussargues-Moissac",
+    "city": "Neussargues-Moissac",
+    "type": "Aire d'étape CAMPING-CAR PARK",
     "services": [
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "12,76 € / 24 h jusqu’au 31/03/2027 puis d’octobre à décembre 2027 ; 15 € / 24 h d’avril à septembre 2027 (taxe non précisée)",
+    "status": "Aire répertoriée et tarifée par CAMPING-CAR PARK",
     "source": "https://www.openstreetmap.org/way/1307547319",
-    "latitude": 45.1344568,
-    "longitude": 2.9812726,
-    "gpsSource": "https://www.openstreetmap.org/way/1307547319",
+    "latitude": 45.134771,
+    "longitude": 2.98188,
+    "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/neussargues-moissac",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1307547319",
     "servicesSource": "https://www.openstreetmap.org/way/1307547319",
     "cityVerificationNote": "Commune déduite du nom de l'aire ; contrôle cartographique à effectuer.",
-    "verificationNote": "À distinguer du décompte départemental CCP : une fiche individuelle CAMPING-CAR PARK existe à l'adresse voisine (22 route de Massiac) et affiche le statut « à venir », mais ce site n'apparaît pas dans le listing départemental CCP consulté le 17/11/2026. Vérifier s'il s'agit du même emplacement avant de le compter comme une aire CCP."
+    "verificationNote": "Le conseil municipal a validé la requalification de l’aire communale par CAMPING-CAR PARK. L’exploitant publie 12,76 € par 24 h jusqu’au 31 mars 2027 et d’octobre à décembre 2027, 15 € d’avril à septembre 2027, et 6 € pour 5 h avec services. Taxe de séjour non précisée dans la grille.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/neussargues-moissac",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/neussargues-moissac",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Le conseil municipal a validé la requalification de l’aire communale par CAMPING-CAR PARK. L’exploitant publie 12,76 € par 24 h jusqu’au 31 mars 2027 et d’octobre à décembre 2027, 15 € d’avril à septembre 2027, et 6 € pour 5 h avec services. Taxe de séjour non précisée dans la grille.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/cantal/neussargues-moissac",
+    "address": "22 route de Massiac, 15170 Neussargues-Moissac",
+    "capacity": 16
   },
   {
     "department": "15",
