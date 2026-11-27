@@ -5,26 +5,32 @@
     "city": "Yvias",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "Stationnement référencé à l’année, 2 places",
     "source": "https://www.openstreetmap.org/node/3827143317",
-    "latitude": 48.7150917,
-    "longitude": -3.0514832,
-    "gpsSource": "https://www.openstreetmap.org/node/3827143317",
+    "latitude": 48.715075,
+    "longitude": -3.052615,
+    "gpsSource": "https://cdt22.media.tourinsoft.eu/upload/Document-accueil-campings-cars-2026-NORD.pdf",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/3827143317",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "address": "Bourg, parking de l’ancienne école",
+    "priceNote": "Stationnement gratuit selon le guide touristique 2026. Coordonnées du parking reprises du guide.",
+    "verificationDate": "2026-11-27",
+    "sourceOfficial": "https://cdt22.media.tourinsoft.eu/upload/Document-accueil-campings-cars-2026-NORD.pdf",
+    "priceSource": "https://cdt22.media.tourinsoft.eu/upload/Document-accueil-campings-cars-2026-NORD.pdf",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "22",
     "name": "Aire de stationnement de Beau Rivage",
-    "city": "Commune à confirmer",
+    "city": "Caurel",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Stationnement limité à 24 h, d’avril à octobre",
     "source": "https://www.openstreetmap.org/node/5773852906",
     "latitude": 48.2077603,
     "longitude": -3.0511359,
@@ -32,7 +38,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/5773852906"
+    "sourceId": "node/5773852906",
+    "address": "Beau Rivage, 22530 Caurel",
+    "verificationDate": "2026-11-27",
+    "sourceOfficial": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-stationnement-de-beau-rivage-caurel_TFOB0018BRE022V51TE1I/"
   },
   {
     "department": "22",
@@ -42,8 +51,8 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "7 € par personne + taxe de séjour",
+    "status": "Aire de l’étang référencée par l’agence touristique",
     "source": "https://www.openstreetmap.org/node/6262413904",
     "latitude": 48.1336128,
     "longitude": -2.657928,
@@ -53,7 +62,12 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/6262413904",
     "servicesSource": "https://www.openstreetmap.org/node/6262413904",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "priceNote": "Montant affiché par l’agence touristique. Durée couverte non précisée. Borne de services payante, tarif non indiqué.",
+    "verificationDate": "2026-11-27",
+    "sourceOfficial": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-l-etang-pres-de-la-cascade-la-cheze_TFOB0018BRE02200007/",
+    "priceSource": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-l-etang-pres-de-la-cascade-la-cheze_TFOB0018BRE02200007/",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "22",
@@ -62,7 +76,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "12 places au parking de la salle des fêtes",
     "source": "https://www.openstreetmap.org/node/11125973259",
     "latitude": 48.4004603,
     "longitude": -2.9048785,
@@ -71,16 +85,23 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/11125973259",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "address": "Parking de la salle des fêtes",
+    "verificationDate": "2026-11-27",
+    "sourceOfficial": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-stationnement-de-quintin-quintin_TFOB0018BRE0220000R/"
   },
   {
     "department": "22",
     "name": "Aire Camping Car Super U, Binic",
     "city": "Binic-Étables-sur-Mer",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de services référencée par l’agence touristique",
     "source": "https://www.openstreetmap.org/node/11150984423",
     "latitude": 48.6131351,
     "longitude": -2.8306126,
@@ -89,7 +110,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/11150984423",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "servicesSource": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-service-super-u-binic-etables-sur-mer_TFOB0018BRE0220001Q/",
+    "verificationDate": "2026-11-27",
+    "sourceOfficial": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-service-super-u-binic-etables-sur-mer_TFOB0018BRE0220001Q/"
   },
   {
     "department": "22",
@@ -100,7 +124,7 @@
       "Électricité"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Camping municipal et borne de services référencés par la mairie",
     "source": "https://www.openstreetmap.org/node/11157711634",
     "latitude": 48.3524226,
     "longitude": -2.0450479,
@@ -110,7 +134,10 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/11157711634",
     "servicesSource": "https://www.openstreetmap.org/node/11157711634",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "priceNote": "Le camping affiche 8 € par emplacement et par nuit, branchement électrique à 4 € et taxe de séjour à 0,22 €. La borne distincte, place des Grandes Eves, fonctionne avec un jeton ou 2 €. Tarif de stationnement au point cartographié à confirmer.",
+    "verificationDate": "2026-11-27",
+    "sourceOfficial": "https://saint-juvat.fr/ma-commune/sample-page/camping/"
   },
   {
     "department": "22",
@@ -133,10 +160,11 @@
     "servicesSource": "https://www.openstreetmap.org/node/12085786095",
     "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/guerledan",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK le 17/11/2026 : 12,50 € + 1,32 € de taxe de séjour.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "13,82 € jusqu’au 30 décembre 2026, puis 14,01 € du 31 décembre 2026 au 31 décembre 2027, taxe de séjour incluse. Forfait 5 h et services à 6 €.",
     "address": "79 Rue du Lac, Mûr-de-Bretagne, 22530 Guerlédan",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/guerledan"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/bretagne/cotes-darmor/guerledan",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "22",
@@ -145,7 +173,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire référencée sur le parking du stade",
     "source": "https://www.openstreetmap.org/node/12202393460",
     "latitude": 48.343831,
     "longitude": -2.7566631,
@@ -154,7 +182,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/12202393460",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "address": "Rue du Stade, 22150 Plœuc-L’Hermitage",
+    "verificationDate": "2026-11-27",
+    "sourceOfficial": "https://www.cotesdarmor.com/fr/fiche/aires/aire-de-stationnement-de-ploeuc-l-hermitage-ploeuc-l-hermitage_TFOB0018BRE022V5380TY/"
   },
   {
     "department": "22",
@@ -163,7 +194,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Parking du Verger référencé dans un annuaire spécialisé",
     "source": "https://www.openstreetmap.org/node/12300121778",
     "latitude": 48.4470387,
     "longitude": -1.9870714,
@@ -172,16 +203,23 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/12300121778",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "address": "22 bis, rue de Combourg, Saint-Solen, 22100 Lanvallay",
+    "priceNote": "L’annuaire indique 48 h maximum et un forfait services gratuit en 2025. Tarif de stationnement actuel à confirmer.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.camping-car.com/aires/30200-aire-communale/"
   },
   {
     "department": "22",
     "name": "Aire camping-cars de Pleslin-Trigavou",
     "city": "Pleslin-Trigavou",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau",
+      "Vidange"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire municipale de 10 places",
     "source": "https://www.openstreetmap.org/way/228756983",
     "latitude": 48.5365457,
     "longitude": -2.0502987,
@@ -190,7 +228,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/228756983",
-    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler."
+    "cityVerificationNote": "Commune déduite du nom ou du lieu-dit de l'aire ; localisation exacte à contrôler.",
+    "address": "Parking de l’ancienne gare, 22490 Pleslin-Trigavou",
+    "servicesSource": "https://www.dinan-capfrehel.com/aires-camping-cars/aire-daccueil-municipale-2/",
+    "verificationDate": "2026-11-27",
+    "sourceOfficial": "https://www.dinan-capfrehel.com/aires-camping-cars/aire-daccueil-municipale-2/"
   },
   {
     "department": "22",
