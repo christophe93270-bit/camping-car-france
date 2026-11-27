@@ -551,9 +551,12 @@
     "name": "Aire de Camping-Cars de St Junien la Bregère",
     "city": "Saint-Junien-la-Bregère",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Vidange"
+    ],
+    "price": "Stationnement gratuit",
+    "status": "4 places de stationnement nocturne. Eau coupée de novembre à avril.",
     "source": "https://www.openstreetmap.org/way/1307679525",
     "latitude": 45.8816565,
     "longitude": 1.7519733,
@@ -562,16 +565,25 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1307679525",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "address": "Bord de la RD13, près du bourg",
+    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=SAINT+JUNIEN+LA+BREGERE",
+    "priceNote": "Gratuité du stationnement signalée par un annuaire spécialisé.",
+    "sourceOfficial": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-de-st-junien-la-bregere-saint-junien-la-bregere-saint-junien-la-bregere-fr-2647926/",
+    "servicesSource": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-de-st-junien-la-bregere-saint-junien-la-bregere-saint-junien-la-bregere-fr-2647926/",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "23",
     "name": "Aire d'accueil Camping-Cars de Bosmoreau-les-Mines",
     "city": "Bosmoreau-les-Mines",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Vidange"
+    ],
+    "price": "Stationnement gratuit",
+    "status": "3 places de stationnement nocturne. Disponibilité de la borne à vérifier selon la saison.",
     "source": "https://www.openstreetmap.org/way/1307694652",
     "latitude": 45.9994659,
     "longitude": 1.7519183,
@@ -580,16 +592,25 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1307694652",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "address": "Site du Vélorail, dans le bourg",
+    "priceSource": "https://www.i-campingcar.fr/dept.php?dpt=23",
+    "priceNote": "Stationnement gratuit selon l’annuaire spécialisé. L’office de tourisme indique également la gratuité du service.",
+    "sourceOfficial": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-de-bosmoreau-les-mines-bosmoreau-les-mines-fr-2647881/",
+    "servicesSource": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-de-bosmoreau-les-mines-bosmoreau-les-mines-fr-2647881/",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "23",
     "name": "Aire d'accueil Camping-Cars de Montboucher",
     "city": "Montboucher",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau",
+      "Vidange"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "3 places aménagées pour le stationnement nocturne",
     "source": "https://www.openstreetmap.org/way/1312170795",
     "latitude": 45.9516318,
     "longitude": 1.6806346,
@@ -598,7 +619,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1312170795",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "address": "Derrière les locaux municipaux, près du tennis",
+    "priceNote": "Service gratuit selon l’office de tourisme. Tarif du stationnement à confirmer.",
+    "sourceOfficial": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-de-montboucher-montboucher-fr-2647913/",
+    "servicesSource": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-de-montboucher-montboucher-fr-2647913/",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "23",
@@ -606,10 +631,12 @@
     "city": "Felletin",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Toilettes"
+      "Toilettes",
+      "Eau potable",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit",
+    "status": "Stationnement nocturne autorisé. Eau disponible hors gel.",
     "source": "https://www.openstreetmap.org/way/1312189420",
     "latitude": 45.8817856,
     "longitude": 2.1763363,
@@ -618,15 +645,22 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1312189420",
-    "servicesSource": "https://www.openstreetmap.org/way/1312189420",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "servicesSource": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-felletin-fr-2647894/",
+    "address": "Rue Reby Lagrange, accès par l’avenue Joffre",
+    "priceNote": "Stationnement et eau potable gratuits selon l’office de tourisme.",
+    "sourceOfficial": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-felletin-fr-2647894/",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-felletin-fr-2647894/",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "23",
     "name": "Aire d'étape CAMPING-CAR PARK d'Évaux-les-Bains",
     "city": "Évaux-les-Bains",
     "type": "Aire d'étape CAMPING-CAR PARK",
-    "services": [],
+    "services": [
+      "Électricité"
+    ],
     "price": "13,66 € / 24 h",
     "status": "Ouverte",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/creuse/evaux-les-bains",
@@ -636,7 +670,9 @@
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/creuse/evaux-les-bains",
     "address": "5 Avenue de la République, 23110 Évaux-les-Bains",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/creuse/evaux-les-bains",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif applicable du 24/09/2026 au 31/12/2027 : 13,00 € + 0,66 € de taxe de séjour."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "13 € les 24 h + 0,66 € de taxe de séjour jusqu’au 31 décembre 2027. Forfait 5 h et services à 6 €.",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/creuse/evaux-les-bains",
+    "verificationDate": "2026-11-27"
   }
 ]
