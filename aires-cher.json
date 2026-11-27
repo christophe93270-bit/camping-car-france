@@ -15,7 +15,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/5555895416",
-    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement."
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.bivouaquer.com/cher/le-pondy/aire-de-camping-car-a-le-pondy",
+    "verificationNote": "Une source secondaire identifie les coordonnées et indique la gratuité. Tarif et conditions à confirmer auprès de la commune."
   },
   {
     "department": "18",
@@ -33,15 +36,18 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/6684080597",
-    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement."
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://mapcarta.com/fr/N6684080597",
+    "verificationNote": "Les coordonnées de l’aire de Beffes sont retrouvées. Tarif et modalités d’accès à confirmer."
   },
   {
     "department": "18",
-    "name": "Aire de Camping-car Aubigny-sur-Nère",
+    "name": "Aire du Parc des Sports de La Chapelotte",
     "city": "Aubigny-sur-Nère",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Gratuit",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/286938260",
     "latitude": 47.4822086,
@@ -50,17 +56,24 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/286938260"
+    "sourceId": "way/286938260",
+    "address": "Route de la Chapelotte, 18700 Aubigny-sur-Nère",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.aubigny-sologne.com/aires-camping-cars/aire-du-parc-des-sports-de-la-chapelotte/",
+    "verificationNote": "L’office de tourisme confirme la gratuité de l’aire du parc des sports, route de la Chapelotte.",
+    "priceSource": "https://www.aubigny-sologne.com/aires-camping-cars/aire-du-parc-des-sports-de-la-chapelotte/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’office de tourisme confirme la gratuité de l’aire du parc des sports, route de la Chapelotte."
   },
   {
     "department": "18",
-    "name": "Aire de Camping-car d'Aubigny-sur-Nère",
+    "name": "Aire de service du parking du Pré qui Danse",
     "city": "Aubigny-sur-Nère",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Gratuit",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/288198803",
     "latitude": 47.4927292,
@@ -71,7 +84,14 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/288198803",
     "servicesSource": "https://www.openstreetmap.org/way/288198803",
-    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement."
+    "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
+    "address": "8 le Mail Guichard, 18700 Aubigny-sur-Nère",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.aubigny-sologne.com/aires-camping-cars/aire-de-service-parking-du-pre-qui-danse/",
+    "verificationNote": "L’office de tourisme confirme la gratuité de l’aire du parking du Pré qui Danse.",
+    "priceSource": "https://www.aubigny-sologne.com/aires-camping-cars/aire-de-service-parking-du-pre-qui-danse/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’office de tourisme confirme la gratuité de l’aire du parking du Pré qui Danse."
   },
   {
     "department": "18",
@@ -81,7 +101,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "14,45 € / 24 h",
+    "price": "14,45 € / 24 h jusqu’au 31/12/2026 ; 14,55 € / 24 h en 2027 (taxe comprise)",
     "status": "Ouverte",
     "source": "https://www.openstreetmap.org/way/671375775",
     "latitude": 47.0844,
@@ -94,9 +114,12 @@
     "servicesSource": "https://www.openstreetmap.org/way/671375775",
     "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/cher/bourges",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif actuellement affiché par CAMPING-CAR PARK le 17/11/2026 ; il peut varier selon la période.",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/cher/bourges"
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Base de 13,23 € pour 24 h jusqu’à fin 2027. Taxe de 1,22 € en 2026 et 1,32 € en 2027. Parking 5 h avec services : 6 €.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/cher/bourges",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/cher/bourges",
+    "verificationNote": "Base de 13,23 € pour 24 h jusqu’à fin 2027. Taxe de 1,22 € en 2026 et 1,32 € en 2027. Parking 5 h avec services : 6 €."
   },
   {
     "department": "18",
@@ -108,7 +131,7 @@
       "Toilettes",
       "Électricité"
     ],
-    "price": "14,28 € / 24 h",
+    "price": "13,17 € / 24 h, dont 0,44 € de taxe de séjour, jusqu’au 31/12/2027",
     "status": "Ouverte",
     "source": "https://www.openstreetmap.org/way/834311205",
     "latitude": 46.93643,
@@ -121,9 +144,12 @@
     "servicesSource": "https://www.openstreetmap.org/way/834311205",
     "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/cher/lunery",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif actuellement affiché par CAMPING-CAR PARK le 17/11/2026 ; il peut varier selon la période.",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/cher/lunery"
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Base de 12,73 € plus 0,44 € de taxe de séjour jusqu’à fin 2027. Parking 5 h avec services : 6 €.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/cher/lunery",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/cher/lunery",
+    "verificationNote": "Base de 12,73 € plus 0,44 € de taxe de séjour jusqu’à fin 2027. Parking 5 h avec services : 6 €."
   },
   {
     "department": "18",
@@ -143,8 +169,11 @@
     "sourceId": "way/907760911",
     "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
     "priceSource": "https://www.ville-mehun-sur-yevre.fr/tourisme/preparer-sa-visite/sejourner",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Source mairie, office de tourisme ou exploitant ; prix de services distingués du stationnement."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "La commune publie 2,50 € par paiement par carte dans la rubrique de l’aire, sans préciser si le stationnement est inclus.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.ville-mehun-sur-yevre.fr/tourisme/preparer-sa-visite/sejourner",
+    "verificationNote": "La commune publie 2,50 € par paiement par carte dans la rubrique de l’aire, sans préciser si le stationnement est inclus."
   },
   {
     "department": "18",
@@ -161,7 +190,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/907766112"
+    "sourceId": "way/907766112",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.bourgesberrytourisme.com/aires-camping-cars/aire-de-service-de-saint-george-sur-moulon/",
+    "verificationNote": "L’office de tourisme recense deux emplacements près de l’étang communal. Tarif à confirmer."
   },
   {
     "department": "18",
@@ -172,7 +204,7 @@
       "Douches",
       "Toilettes"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit et toléré, sans services",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/964240090",
     "latitude": 46.8856296,
@@ -184,8 +216,12 @@
     "sourceId": "way/964240090",
     "servicesSource": "https://www.openstreetmap.org/way/964240090",
     "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
-    "priceNote": "Deux lieux distincts à Dun-sur-Auron : camping Camping-Car Park payant quai du Canal (12,44 €/24 h) et parking gratuit rue du Bief. Correspondance avec ce point OSM à vérifier avant attribution d'un tarif.",
-    "verificationSource": "https://www.destination-sud-berry.com/aires-camping-cars/aire-de-service-dun-sur-auron/"
+    "priceNote": "L’office de tourisme indique un stationnement gratuit et toléré rue du Bief, sous les remparts, sans services. L’aire CAMPING-CAR PARK est à un autre emplacement.",
+    "verificationSource": "https://www.destination-sud-berry.com/aires-camping-cars/aire-de-service-dun-sur-auron/",
+    "verificationDate": "2026-11-27",
+    "verificationNote": "L’office de tourisme indique un stationnement gratuit et toléré rue du Bief, sous les remparts, sans services. L’aire CAMPING-CAR PARK est à un autre emplacement.",
+    "priceSource": "https://www.destination-sud-berry.com/aires-camping-cars/aire-de-service-dun-sur-auron/",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "18",
@@ -208,8 +244,11 @@
     "servicesSource": "https://www.openstreetmap.org/way/1189615582",
     "cityVerificationNote": "Commune indiquée par le nom de l'aire, à contrôler cartographiquement.",
     "priceSource": "https://www.berryprovince.com/aires-camping-cars/aire-de-service-de-menetou-salon/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Source mairie, office de tourisme ou exploitant ; prix de services distingués du stationnement."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Berry Province confirme la gratuité de l’aire de stationnement et de services.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.berryprovince.com/aires-camping-cars/aire-de-service-de-menetou-salon/",
+    "verificationNote": "Berry Province confirme la gratuité de l’aire de stationnement et de services."
   },
   {
     "department": "18",
