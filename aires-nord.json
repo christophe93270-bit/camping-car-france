@@ -261,11 +261,11 @@
   {
     "department": "59",
     "name": "Aire de Camping-Car de Grand-Fort-Philippe",
-    "city": "Commune à confirmer",
+    "city": "Grand-Fort-Philippe",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit",
+    "status": "15 places selon l’office de tourisme",
     "source": "https://www.openstreetmap.org/way/1081614136",
     "latitude": 51.0025717,
     "longitude": 2.0974145,
@@ -273,19 +273,27 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1081614136"
+    "sourceId": "way/1081614136",
+    "address": "169 rue du Maréchal Foch, 59153 Grand-Fort-Philippe",
+    "priceSource": "https://park4night.com/fr/place/38567",
+    "priceNote": "Gratuité signalée par park4night. Services au camping municipal voisin selon ses horaires.",
+    "sourceOfficial": "https://www.dunkerque-tourisme.fr/preparer-son-sejour/pratique/transports/se-deplacer-en-ville/camping-car/",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "59",
     "name": "Aire de Camping-car - Caudry",
-    "city": "Commune à confirmer",
+    "city": "Caudry",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Eau potable",
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange",
+      "Wi-Fi"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "5,50 € / 24 h du 15 mars au 14 octobre ; 7 € / 24 h du 15 octobre au 14 mars",
+    "status": "6 places, dont une accessible aux personnes à mobilité réduite",
     "source": "https://www.openstreetmap.org/way/1169520062",
     "latitude": 50.1263407,
     "longitude": 3.3988367,
@@ -294,18 +302,26 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1169520062",
-    "servicesSource": "https://www.openstreetmap.org/way/1169520062"
+    "servicesSource": "https://www.caudry.fr/fr/mobilite/aire-de-camping-cars.html",
+    "address": "Rue de Cambrai, entrée de la base du Val du Riot",
+    "priceNote": "Eau et électricité comprises. Taxe de séjour de 0,50 € par personne et par 24 h en supplément.",
+    "sourceOfficial": "https://www.caudry.fr/fr/mobilite/aire-de-camping-cars.html",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27",
+    "priceSource": "https://www.caudry.fr/fr/mobilite/aire-de-camping-cars.html"
   },
   {
     "department": "59",
     "name": "Aire de camping-cars de Marcoing",
-    "city": "Commune à confirmer",
+    "city": "Marcoing",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit",
+    "status": "6 places disponibles toute l’année",
     "source": "https://www.openstreetmap.org/way/1170051605",
     "latitude": 50.1214864,
     "longitude": 3.1818693,
@@ -314,18 +330,26 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1170051605",
-    "servicesSource": "https://www.openstreetmap.org/way/1170051605"
+    "servicesSource": "https://www.marcoing.fr/decouverte/aire-de-camping-cars/",
+    "address": "Place de la Gare, ancienne gare",
+    "priceNote": "Services hors période hivernale. Électricité le soir et la nuit en fonction de l’éclairage public.",
+    "sourceOfficial": "https://www.marcoing.fr/decouverte/aire-de-camping-cars/",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27",
+    "priceSource": "https://www.marcoing.fr/decouverte/aire-de-camping-cars/"
   },
   {
     "department": "59",
     "name": "Aire de services pour camping-car Estrun",
-    "city": "Commune à confirmer",
+    "city": "Estrun",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement signalé gratuit",
+    "status": "4 places répertoriées dans l’annuaire spécialisé",
     "source": "https://www.openstreetmap.org/way/1188470014",
     "latitude": 50.2509554,
     "longitude": 3.2927859,
@@ -334,16 +358,24 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1188470014",
-    "servicesSource": "https://www.openstreetmap.org/way/1188470014"
+    "servicesSource": "https://caraplace.ch/fr/placeme/aire-de-services-pour-camping-car-estrun-20349",
+    "address": "Rue du Port, 59295 Estrun",
+    "priceNote": "Gratuité indiquée par un annuaire spécialisé. Conditions municipales à confirmer.",
+    "verificationSource": "https://caraplace.ch/fr/placeme/aire-de-services-pour-camping-car-estrun-20349",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27",
+    "priceSource": "https://caraplace.ch/fr/placeme/aire-de-services-pour-camping-car-estrun-20349"
   },
   {
     "department": "59",
     "name": "Aire de camping-car de Bavay",
-    "city": "Commune à confirmer",
+    "city": "Bavay",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Vidange"
+    ],
+    "price": "Stationnement gratuit",
+    "status": "Parking mixte, durée maximale de 72 h selon Campercontact",
     "source": "https://www.openstreetmap.org/way/1312111334",
     "latitude": 50.300094,
     "longitude": 3.7955464,
@@ -351,34 +383,63 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/1312111334"
+    "sourceId": "way/1312111334",
+    "address": "Chemin de Ronde, près du stade",
+    "priceNote": "Stationnement et vidange signalés gratuits par les annuaires spécialisés.",
+    "verificationSource": "https://www.campercontact.com/fr/france/hauts-de-france/bavay/1330/aire-municipale",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27",
+    "priceSource": "https://www.campercontact.com/fr/france/hauts-de-france/bavay/1330/aire-municipale",
+    "servicesSource": "https://www.campercontact.com/fr/france/hauts-de-france/bavay/1330/aire-municipale"
   },
   {
     "department": "59",
     "name": "Camping de mon Village CAMPING-CAR PARK de Felleries",
     "city": "Felleries",
     "type": "Camping de mon Village CAMPING-CAR PARK",
-    "services": [],
+    "services": [
+      "Eau potable",
+      "Électricité",
+      "Vidange",
+      "Wi-Fi"
+    ],
     "price": "14,29 € / 24 h (taxe de séjour incluse)",
     "status": "Camping de mon Village CAMPING-CAR PARK de Felleries, 60 places, ouvert. Tarif affiché par l’annuaire régional le 13/11/2026 : 13,85 € + 0,44 € de taxe de séjour. Les sanitaires sont saisonniers (01/04–30/09 selon la fiche opérateur).",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/felleries?areaType=camping",
     "latitude": 50.14276,
     "longitude": 4.028031,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/felleries?areaType=camping",
-    "importReview": "Fiche opérateur vérifiée le 13/11/2026"
+    "importReview": "Fiche opérateur vérifiée le 13/11/2026",
+    "priceNote": "13,85 € + 0,44 € de taxe de séjour jusqu’au 31 décembre 2027. Forfait 5 h et services à 6 €.",
+    "servicesSource": "https://www.stellplatzfuehrer.de/fr/parcs-de-vr/listes/all/36356-ccp-625-camping-car-park-felleries",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/felleries",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/felleries"
   },
   {
     "department": "59",
     "name": "Camping de mon Village CAMPING-CAR PARK d’Arleux",
     "city": "Arleux",
     "type": "Camping de mon Village CAMPING-CAR PARK",
-    "services": [],
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange",
+      "Laverie"
+    ],
     "price": "12,14 € / 24 h (taxe de séjour incluse)",
     "status": "Camping de mon Village CAMPING-CAR PARK d’Arleux, 60 places, ouvert. Tarif affiché le 13/11/2026 : 11,70 € + 0,44 € de taxe de séjour. L’ouverture des sanitaires est saisonnière ; l’aire reste ouverte toute l’année.",
     "source": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/arleux",
     "latitude": 50.27377,
     "longitude": 3.105601,
     "gpsSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/arleux",
-    "importReview": "Fiche opérateur vérifiée le 13/11/2026"
+    "importReview": "Fiche opérateur vérifiée le 13/11/2026",
+    "priceNote": "11,70 € + 0,44 € de taxe de séjour jusqu’au 31 décembre 2027. Forfait 5 h et services à 6 €.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/arleux",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/arleux",
+    "servicesSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/nord/arleux"
   }
 ]
