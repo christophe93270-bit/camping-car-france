@@ -2,13 +2,13 @@
   {
     "department": "23",
     "name": "Aire de Camping-car de la Ferme de Lavaurette",
-    "city": "Commune à confirmer",
+    "city": "Moutier-d’Ahun",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit pour les adhérents France Passion",
+    "status": "5 places annoncées, réservées aux adhérents France Passion",
     "source": "https://www.openstreetmap.org/node/12100997341",
     "latitude": 46.0998822,
     "longitude": 2.070023,
@@ -17,16 +17,25 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12100997341",
-    "servicesSource": "https://www.openstreetmap.org/node/12100997341"
+    "servicesSource": "https://www.openstreetmap.org/node/12100997341",
+    "address": "La Vaurette, 23150 Moutier-d’Ahun",
+    "priceNote": "Gratuité annoncée par l’annuaire pour les adhérents. Conditions à vérifier auprès de la ferme.",
+    "verificationSource": "https://ville-data.com/camping/Aire-de-Camping-car-France-Passion-de-la-Ferme-de-Lavaurette-23150/Moutier-d-Ahun/23-160819-23138",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://ville-data.com/camping/Aire-de-Camping-car-France-Passion-de-la-Ferme-de-Lavaurette-23150/Moutier-d-Ahun/23-160819-23138",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "23",
     "name": "Aire de camping car Boussac",
     "city": "Boussac",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
+    "services": [
+      "Eau potable",
+      "Vidange"
+    ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire de services près de la salle polyvalente",
     "source": "https://www.openstreetmap.org/node/12101491570",
     "latitude": 46.3471251,
     "longitude": 2.220136,
@@ -35,7 +44,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/12101491570",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "Esplanade du Hall de l’Agriculture, avenue d’Auvergne",
+    "priceNote": "Borne gratuite toute l’année selon l’office de tourisme. Tarif du stationnement à confirmer.",
+    "sourceOfficial": "https://www.tourisme-creuse.com/offres/aire-de-camping-car-boussac-fr-2312479/",
+    "verificationDate": "2026-11-27",
+    "servicesSource": "https://www.tourisme-creuse.com/offres/aire-de-camping-car-boussac-fr-2312479/"
   },
   {
     "department": "23",
@@ -43,10 +57,12 @@
     "city": "Clugnat",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "Aire communale référencée par l’office de tourisme",
     "source": "https://www.openstreetmap.org/node/12101508547",
     "latitude": 46.3067075,
     "longitude": 2.118929,
@@ -55,8 +71,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12101508547",
-    "servicesSource": "https://www.openstreetmap.org/node/12101508547",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "servicesSource": "https://www.cirkwi.com/fr/point-interet/1278966-aire-d-accueil-camping-car",
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "Rue du Docteur Turquet, 23270 Clugnat",
+    "priceSource": "https://www.lecampeur.fr/aire/aire-de-camping-car-gratuite-avec-vidange-clugnat-ph3u4j",
+    "priceNote": "Stationnement gratuit signalé par un annuaire spécialisé. Jeton de la borne signalé comme gratuit au commerce de proximité.",
+    "sourceOfficial": "https://www.cirkwi.com/fr/point-interet/1278966-aire-d-accueil-camping-car",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "23",
@@ -64,10 +86,12 @@
     "city": "Gouzon",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
+      "Eau",
+      "Vidange",
       "Toilettes"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "Aire communale de stationnement et de services",
     "source": "https://www.openstreetmap.org/node/12180978873",
     "latitude": 46.1907587,
     "longitude": 2.240303,
@@ -76,17 +100,27 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/12180978873",
-    "servicesSource": "https://www.openstreetmap.org/node/12180978873",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "servicesSource": "https://www.lecampeur.fr/aire/aire-de-service-et-stationnement-camping-cars-gouzon-ph60ev",
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "Rue d’Alcantera, 23230 Gouzon",
+    "priceSource": "https://www.lecampeur.fr/aire/aire-de-service-et-stationnement-camping-cars-gouzon-ph60ev",
+    "priceNote": "Stationnement gratuit selon l’annuaire spécialisé.",
+    "sourceOfficial": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-gouzon-fr-2647851/",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "23",
     "name": "Aire d'accueil camping-car de St-Georges-Nigremont",
     "city": "Saint-Georges-Nigremont",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Électricité",
+      "Vidange"
+    ],
+    "price": "Gratuit",
+    "status": "Aire d’accueil référencée pour 2026",
     "source": "https://www.openstreetmap.org/node/13992554049",
     "latitude": 45.8371271,
     "longitude": 2.2653344,
@@ -95,7 +129,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/13992554049",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "Entrée du bourg, 23500 Saint-Georges-Nigremont",
+    "priceNote": "Stationnement gratuit selon la fiche 2026 de l’office de tourisme.",
+    "sourceOfficial": "https://www.cirkwi.com/fr/point-interet/1510090-aire-d-accueil-camping-cars",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.cirkwi.com/fr/point-interet/1510090-aire-d-accueil-camping-cars",
+    "priceVerifiedOn": "2026-11-27",
+    "servicesSource": "https://www.cirkwi.com/fr/point-interet/1510090-aire-d-accueil-camping-cars"
   },
   {
     "department": "23",
@@ -106,8 +147,8 @@
       "Eau potable",
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit",
+    "status": "Aire de services au bord de l’étang communal",
     "source": "https://www.openstreetmap.org/way/154297180",
     "latitude": 46.1840467,
     "longitude": 2.0808221,
@@ -117,7 +158,13 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/154297180",
     "servicesSource": "https://www.openstreetmap.org/way/154297180",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "Près de l’étang communal, 23140 Jarnages",
+    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=JARNAGES",
+    "priceNote": "Stationnement gratuit selon l’annuaire. Forfait de services à 2 € indiqué par Camping-car Magazine, montant à vérifier à la borne.",
+    "sourceOfficial": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-jarnages-fr-2647831/",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "23",
@@ -125,8 +172,8 @@
     "city": "La Courtine",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Gratuit",
+    "status": "Aire de camping-cars référencée à l’année",
     "source": "https://www.openstreetmap.org/way/168651463",
     "latitude": 45.7058366,
     "longitude": 2.2593774,
@@ -135,7 +182,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/168651463",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "Rue Jacques Bayle, 23100 La Courtine",
+    "priceNote": "Stationnement gratuit selon le guide touristique 2024–2025. Conditions actuelles à vérifier sur place.",
+    "sourceOfficial": "https://www.tourisme-hautecorreze.fr/wp-content/uploads/2024/04/GUIDE-HEBERGEMENT-HAUTE-CORREZE.pdf",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.tourisme-hautecorreze.fr/wp-content/uploads/2024/04/GUIDE-HEBERGEMENT-HAUTE-CORREZE.pdf",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "23",
@@ -143,10 +196,11 @@
     "city": "Bénévent-l'Abbaye",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
+      "Eau potable",
       "Électricité"
     ],
-    "price": "Stationnement gratuit, constat publié le 17/08/2026 ; services à confirmer",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement gratuit",
+    "status": "Aire ouverte d’avril à octobre selon la mairie",
     "source": "https://www.openstreetmap.org/way/261660657",
     "latitude": 46.1145236,
     "longitude": 1.6329643,
@@ -155,11 +209,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/261660657",
-    "servicesSource": "https://www.openstreetmap.org/way/261660657",
+    "servicesSource": "https://beneventlabbaye.fr/decouvrir-benevent/accueil-tourisme/aire-de-camping-car/",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
-    "priceSource": "https://www.camping-car.com/tourisme/actus-des-aires/une-des-plus-belles-etapes-de-france-bienvenue-sur-l-aire-de-camping-car-de-benevent-l-abbaye-23/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif de l'exploitant ou information publiée ; vérifier avant déplacement."
+    "priceSource": "https://www.tourisme-creuse.com/offres/le-puy-de-goth-benevent-labbaye-benevent-labbaye-fr-4073844/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Stationnement gratuit selon l’office de tourisme. Tarif des branchements à confirmer.",
+    "address": "Puy de Gaud, 23210 Bénévent-l’Abbaye",
+    "sourceOfficial": "https://beneventlabbaye.fr/decouvrir-benevent/accueil-tourisme/aire-de-camping-car/",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "23",
@@ -182,19 +239,23 @@
     "servicesSource": "https://www.openstreetmap.org/way/617701205",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/creuse/bussiere-dunoise",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif applicable à partir du 17/11/2026 : 12,00 € + 0,44 € de taxe de séjour.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "12 € les 24 h + 0,44 € de taxe de séjour jusqu’au 31 décembre 2027. Forfait 5 h et services à 6 €.",
     "address": "1 Plan d'eau de la Vergne, 23320 Bussière-Dunoise",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/creuse/bussiere-dunoise"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/creuse/bussiere-dunoise",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "23",
     "name": "Aire d'accueil Camping-Cars d'Auriat",
     "city": "Auriat",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Vidange"
+    ],
+    "price": "Gratuit",
+    "status": "Stationnement nocturne attenant à la borne",
     "source": "https://www.openstreetmap.org/way/858802711",
     "latitude": 45.8787104,
     "longitude": 1.6430264,
@@ -203,7 +264,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/858802711",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire ; emplacement précis à vérifier.",
+    "address": "À proximité de l’étang d’Auriat",
+    "priceSource": "https://www.cirkwi.com/fr/point-interet/1298317-aire-d-accueil-camping-cars-d-auriat",
+    "priceNote": "Stationnement nocturne et borne de services signalés gratuits par l’office de tourisme.",
+    "servicesSource": "https://www.cirkwi.com/fr/point-interet/1298317-aire-d-accueil-camping-cars-d-auriat",
+    "sourceOfficial": "https://www.tourisme-creuse.com/offres/aire-daccueil-camping-cars-dauriat-auriat-fr-2647929/",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "23",
