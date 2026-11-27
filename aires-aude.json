@@ -635,8 +635,8 @@
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "5 € / 24 h hors taxe de séjour",
+    "status": "Aire de passage municipale de 20 emplacements avec eau potable et vidanges.",
     "source": "https://www.openstreetmap.org/way/580433541",
     "latitude": 42.9338352,
     "longitude": 2.2157146,
@@ -646,7 +646,14 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/580433541",
     "servicesSource": "https://www.openstreetmap.org/way/580433541",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou du lieu-dit ; rattachement géographique à vérifier."
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou du lieu-dit ; rattachement géographique à vérifier.",
+    "verificationSource": "https://www.esperaza.fr/fr/loisir/hebergement-et-restauration/",
+    "verificationDate": "2026-11-27",
+    "verificationNote": "Aire de passage municipale de 20 emplacements avec eau potable et vidanges.",
+    "priceNote": "Aire de passage municipale de 20 emplacements avec eau potable et vidanges.",
+    "priceSource": "https://www.esperaza.fr/fr/loisir/hebergement-et-restauration/",
+    "priceVerifiedOn": "2026-11-27",
+    "capacity": 20
   },
   {
     "department": "11",
@@ -656,8 +663,8 @@
     "services": [
       "Électricité"
     ],
-    "price": "15,69 € / 24 h, taxe de séjour de 1,44 € comprise (tarif affiché le 17/11/2026)",
-    "status": "Ouvert ; aire d'étape CAMPING-CAR PARK confirmé par l'exploitant",
+    "price": "15,69 € / 24 h, dont 1,44 € de taxe de séjour",
+    "status": "L’exploitant affiche 15,69 € par 24 h, dont 1,44 € de taxe de séjour.",
     "source": "https://www.openstreetmap.org/way/617799933",
     "latitude": 43.05736,
     "longitude": 2.214915,
@@ -669,10 +676,13 @@
     "servicesSource": "https://www.openstreetmap.org/way/617799933",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou du lieu-dit ; rattachement géographique à vérifier.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/limoux",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK ; le prix peut varier selon les dates.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’exploitant affiche 15,69 € par 24 h, dont 1,44 € de taxe de séjour.",
     "address": "Rue Louis Braille, 11300 Limoux",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/limoux"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/limoux",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/limoux",
+    "verificationDate": "2026-11-27",
+    "verificationNote": "L’exploitant affiche 15,69 € par 24 h, dont 1,44 € de taxe de séjour."
   },
   {
     "department": "11",
@@ -681,7 +691,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "12 à 25 € / nuit selon période (2026) ; sans électricité",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aude Tourisme indique 38 places et un stationnement de nuit de 12 à 25 €.",
     "source": "https://www.openstreetmap.org/way/823365903",
     "latitude": 43.1998805,
     "longitude": 2.3533427,
@@ -692,8 +702,12 @@
     "sourceId": "way/823365903",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou du lieu-dit ; rattachement géographique à vérifier.",
     "priceSource": "https://www.audetourisme.com/fr/fiche/carcassonne/aire-de-services-pour-camping-cars_TFOACCAMLAR011V50AM3I/",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Prix 2026 documenté par l'exploitant ou l'office de tourisme ; tarifs variables selon la saison, à revérifier avant séjour."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Aude Tourisme indique 38 places et un stationnement de nuit de 12 à 25 €.",
+    "verificationSource": "https://www.audetourisme.com/fr/fiche/carcassonne/aire-de-services-pour-camping-cars_TFOACCAMLAR011V50AM3I/",
+    "verificationDate": "2026-11-27",
+    "verificationNote": "Aude Tourisme indique 38 places et un stationnement de nuit de 12 à 25 €.",
+    "capacity": 38
   },
   {
     "department": "11",
@@ -702,7 +716,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aude Tourisme recense 10 places. Tarif officiel à confirmer.",
     "source": "https://www.openstreetmap.org/way/890083059",
     "latitude": 43.2334548,
     "longitude": 3.072432,
@@ -710,7 +724,11 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/890083059"
+    "sourceId": "way/890083059",
+    "verificationSource": "https://www.audetourisme.com/fr/fiche/coursan/aire-de-stationnement-pour-camping-cars_TFOACCAMLAR011V50JSRZ/",
+    "verificationDate": "2026-11-27",
+    "verificationNote": "Aude Tourisme recense 10 places. Tarif officiel à confirmer.",
+    "capacity": 10
   },
   {
     "department": "11",
@@ -728,7 +746,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/893623027",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou du lieu-dit ; rattachement géographique à vérifier."
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou du lieu-dit ; rattachement géographique à vérifier.",
+    "verificationSource": "https://spot2play.com/spot/aire-municipale-sainte-colombe-sur-lhers/",
+    "verificationDate": "2026-11-27",
+    "verificationNote": "Gratuité signalée par Spot2Play, à confirmer auprès de la commune."
   },
   {
     "department": "11",
@@ -737,7 +758,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aude Tourisme recense 25 places route de Bages, près du stade de rugby. Tarif officiel à confirmer.",
     "source": "https://www.openstreetmap.org/way/930784685",
     "latitude": 43.0926416,
     "longitude": 2.9622641,
@@ -745,7 +766,11 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/930784685"
+    "sourceId": "way/930784685",
+    "verificationSource": "https://www.audetourisme.com/fr/fiche/peyriac-de-mer/aire-de-services-pour-camping-cars-ancienne-saline_TFOACCAMLAR01100002/",
+    "verificationDate": "2026-11-27",
+    "verificationNote": "Aude Tourisme recense 25 places route de Bages, près du stade de rugby. Tarif officiel à confirmer.",
+    "capacity": 25
   },
   {
     "department": "11",
@@ -756,7 +781,7 @@
       "Électricité"
     ],
     "price": "14,25 € / 24 h hors taxe de séjour de 0,90 € (total 15,15 € à partir du 01/11/2026)",
-    "status": "Ouvert ; aire d'étape CAMPING-CAR PARK confirmé par l'exploitant",
+    "status": "L’exploitant affiche 15,15 € par 24 h, dont 0,90 € de taxe de séjour.",
     "source": "https://www.openstreetmap.org/way/964585345",
     "latitude": 43.31409,
     "longitude": 1.94909,
@@ -768,10 +793,13 @@
     "servicesSource": "https://www.openstreetmap.org/way/964585345",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou du lieu-dit ; rattachement géographique à vérifier.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/castelnaudary-city",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK ; le prix peut varier selon les dates.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’exploitant affiche 15,15 € par 24 h, dont 0,90 € de taxe de séjour.",
     "address": "180 rue Arnaut-Vidal, 11400 Castelnaudary",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/castelnaudary-city"
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/castelnaudary-city",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/castelnaudary-city",
+    "verificationDate": "2026-11-27",
+    "verificationNote": "L’exploitant affiche 15,15 € par 24 h, dont 0,90 € de taxe de séjour."
   },
   {
     "department": "11",
@@ -781,8 +809,8 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "14,68 € / 24 h",
+    "status": "Qipéo affiche 14,68 € par 24 h pour l’aire du Lac.",
     "source": "https://www.openstreetmap.org/way/1010934593",
     "latitude": 43.2465391,
     "longitude": 2.1393849,
@@ -792,7 +820,14 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/1010934593",
     "servicesSource": "https://www.openstreetmap.org/way/1010934593",
-    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou du lieu-dit ; rattachement géographique à vérifier."
+    "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou du lieu-dit ; rattachement géographique à vérifier.",
+    "verificationSource": "https://www.qipeo.com/detail/5ccc9f33-ef9d-4cd4-9fe9-b04525b56a87?lang=en",
+    "verificationDate": "2026-11-27",
+    "verificationNote": "Qipéo affiche 14,68 € par 24 h pour l’aire du Lac.",
+    "priceNote": "Qipéo affiche 14,68 € par 24 h pour l’aire du Lac.",
+    "priceSource": "https://www.qipeo.com/detail/5ccc9f33-ef9d-4cd4-9fe9-b04525b56a87?lang=en",
+    "priceVerifiedOn": "2026-11-27",
+    "capacity": 20
   },
   {
     "department": "11",
@@ -802,8 +837,8 @@
     "services": [
       "Toilettes"
     ],
-    "price": "11 € / jour hors juillet-août ; 13 € / jour en juillet-août, taxes incluses ; aire fermée hors période d'ouverture",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "11 € hors saison pendant l’ouverture de l’aire, 13 € du 1er juillet au 31 août (taxe incluse), de midi à midi",
+    "status": "Stationnement de midi à midi pendant l’ouverture de l’aire des Chalets.",
     "source": "https://www.openstreetmap.org/way/1095387097",
     "latitude": 43.095278,
     "longitude": 3.1110381,
@@ -814,9 +849,12 @@
     "sourceId": "way/1095387097",
     "servicesSource": "https://www.openstreetmap.org/way/1095387097",
     "cityVerificationNote": "Commune proposée à partir du nom de l'aire ou du lieu-dit ; rattachement géographique à vérifier.",
-    "priceSource": "https://www.gruissan-mediterranee.com/wp-content/uploads/2021/01/mygruissan-2026.pdf",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Prix 2026 documenté par l'exploitant ou l'office de tourisme ; tarifs variables selon la saison, à revérifier avant séjour."
+    "priceSource": "https://ville-gruissan.fr/securite-mobilite/le-stationnement/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Stationnement de midi à midi pendant l’ouverture de l’aire des Chalets.",
+    "verificationSource": "https://ville-gruissan.fr/securite-mobilite/le-stationnement/",
+    "verificationDate": "2026-11-27",
+    "verificationNote": "Stationnement de midi à midi pendant l’ouverture de l’aire des Chalets."
   },
   {
     "department": "11",
@@ -825,7 +863,7 @@
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire recensée par Aude Tourisme. Tarif officiel à confirmer.",
     "source": "https://www.openstreetmap.org/way/1319865748",
     "latitude": 43.1082501,
     "longitude": 2.1233962,
@@ -834,7 +872,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/1319865748",
-    "cityVerificationNote": "Commune identifiée via le répertoire Aude Tourisme; rattachement exact à contrôler."
+    "cityVerificationNote": "Commune identifiée via le répertoire Aude Tourisme; rattachement exact à contrôler.",
+    "verificationSource": "https://www.audetourisme.com/fr/ou-dormir/aires-de-camping-car/",
+    "verificationDate": "2026-11-27",
+    "verificationNote": "Aire recensée par Aude Tourisme. Tarif officiel à confirmer."
   },
   {
     "department": "11",
