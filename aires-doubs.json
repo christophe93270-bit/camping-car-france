@@ -237,9 +237,11 @@
     "servicesSource": "https://www.doubs.travel/aire-camping-car/aire-de-camping-cars-du-hameau-du-fromage",
     "priceSource": "https://www.doubs.travel/aire-camping-car/aire-de-camping-cars-du-hameau-du-fromage",
     "priceVerification": "tarif_capacite_services_non_publies_clefs_au_hameau",
-    "priceEvidenceNote": "Doubs Tourisme : accès à l'aire tous les jours, clés à retirer au Hameau du Fromage. Aucun montant, capacité ou équipement détaillé dans la fiche.",
-    "priceCheckedAt": "2026-11-11",
-    "cityVerificationNote": "Commune et adresse vérifiées à partir des fiches officielles disponibles."
+    "priceEvidenceNote": "Les clés sont à retirer au Hameau du Fromage. Un annuaire indique huit places et 24 h maximum avec des données de 2021. Capacité actuelle et prix à confirmer.",
+    "priceCheckedAt": "2026-11-27",
+    "cityVerificationNote": "Commune et adresse vérifiées à partir des fiches officielles disponibles.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://explore.doubs.fr/service/867-Aire-de-camping-cars-du-Hameau-du-Fromage"
   },
   {
     "department": "25",
@@ -358,8 +360,10 @@
     "sourceOfficial": "https://www.doubs.travel/sit/aires-de-camping-cars-sancey",
     "priceSource": "https://www.doubs.travel/sit/aires-de-camping-cars-sancey",
     "priceVerification": "implantation_stationnement_distincte_services_tarif_non_publie_gps_a_confirmer",
-    "priceEvidenceNote": "La fiche touristique de Sancey décrit deux implantations. Le parking de sortie de village est séparé de l’aire de services au parking Maximarché ; l’emplacement GPS de la présente fiche n’est pas recoupé.",
-    "priceCheckedAt": "2026-11-11"
+    "priceEvidenceNote": "La fiche intercommunale mise à jour le 31 octobre 2026 confirme deux sites distincts. Tarif et position exacte du parking de sortie de village à confirmer.",
+    "priceCheckedAt": "2026-11-27",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.cirkwi.com/fr/point-interet/2762450-aires-de-camping-cars-sancey"
   },
   {
     "department": "25",
@@ -456,11 +460,12 @@
     "city": "Pont-de-Roide-Vermondans",
     "type": "Aire de stationnement et vidange camping-car",
     "services": [
-      "Stationnement (4 emplacements)",
+      "Eau",
+      "Électricité",
       "Vidange"
     ],
-    "price": "Tarif de stationnement et services non publié par la source officielle consultée.",
-    "status": "Explore Doubs confirme 4 emplacements arborés au bord du Doubs et une aire de vidange, au 42 rue du Général Herr. L’électricité n’est pas confirmée par cette source ; tarif et conditions de nuitée non publiés.",
+    "price": "Stationnement signalé gratuit",
+    "status": "Quatre places avec eau, électricité et vidange selon l’office de tourisme. Conditions de nuitée à confirmer.",
     "source": "https://www.openstreetmap.org/way/747430296",
     "latitude": 47.3854564,
     "longitude": 6.7728696,
@@ -469,14 +474,17 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Lot 360 (11/11/2026) : contrôle des fiches 11 à 20 déjà présentes dans le Doubs, avec vérification auprès des offices de tourisme et sources officielles. Aucun lieu ajouté.",
     "sourceId": "way/747430296",
-    "servicesSource": "https://explore.doubs.fr/service/799-Aire-de-Camping-cars-",
+    "servicesSource": "https://www.paysdemontbeliard-tourisme.com/aires-de-camping-car/decibelles/detail/hpabfc000v526x3v/aire-de-camping-cars",
     "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
     "address": "42 rue du Général Herr, 25150 Pont-de-Roide-Vermondans",
     "sourceOfficial": "https://explore.doubs.fr/service/799-Aire-de-Camping-cars-",
-    "priceSource": "https://explore.doubs.fr/service/799-Aire-de-Camping-cars-",
+    "priceSource": "https://www.lecampeur.fr/aire/aire-de-camping-car-pont-de-roide-ph9lmx",
     "priceVerification": "4_places_vidange_confirmees_electricite_et_tarif_non_confirmes",
-    "priceEvidenceNote": "Explore Doubs confirme 4 emplacements et aire de vidange, mais ne mentionne pas l’électricité ni de tarif.",
-    "priceCheckedAt": "2026-11-11"
+    "priceEvidenceNote": "L’office de tourisme indique quatre places, eau, électricité et vidange. Le Campeur indique un stationnement gratuit.",
+    "priceCheckedAt": "2026-11-27",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.paysdemontbeliard-tourisme.com/aires-de-camping-car/decibelles/detail/hpabfc000v526x3v/aire-de-camping-cars",
+    "priceNote": "L’office de tourisme indique quatre places, eau, électricité et vidange. Le Campeur indique un stationnement gratuit."
   },
   {
     "department": "25",
@@ -531,8 +539,10 @@
     "servicesSource": "https://www.payssancey-belleherbe.fr/sejour-et-activites/ou-dormir/tous-les-hebergements/aire-de-camping-cars-belvoir/",
     "priceSource": "https://www.payssancey-belleherbe.fr/sejour-et-activites/ou-dormir/tous-les-hebergements/aire-de-camping-cars-belvoir/",
     "priceVerification": "lieu_dit_de_la_vierge_tables_bancs_tarif_capacite_non_publies",
-    "priceEvidenceNote": "La communauté de communes confirme l’aire au lieu-dit de la Vierge, près du château, avec tables et bancs ; aucun tarif ni capacité publié.",
-    "priceCheckedAt": "2026-11-11"
+    "priceEvidenceNote": "Camping-car Magazine indique trois places au lieu-dit de la Vierge. Tarif et capacité actuelle à confirmer auprès de la commune.",
+    "priceCheckedAt": "2026-11-27",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.camping-car.com/aires/46280-aire-de-stationnement/"
   },
   {
     "department": "25",
@@ -544,8 +554,8 @@
       "Électricité",
       "Eau potable"
     ],
-    "price": "Tarif des jetons, stationnement et nuitée non publié ; jetons disponibles dans les commerces du village.",
-    "status": "Explore Doubs confirme une aire de services rue Foch, près de la salle des fêtes, avec vidange, électricité et ravitaillement en eau potable. Jetons en vente dans les commerces ; leur montant et le droit de stationner la nuit ne sont pas précisés.",
+    "price": "Jeton de services : 2,50 €. Stationnement et nuitée à confirmer.",
+    "status": "Borne de services rue Foch. Jetons vendus au Super U, à la boucherie Petit et à la fruitière selon la communauté de communes.",
     "source": "https://www.openstreetmap.org/way/1036346693",
     "latitude": 47.1620813,
     "longitude": 6.7229665,
@@ -558,10 +568,13 @@
     "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
     "address": "Rue Foch, 25210 Le Russey",
     "sourceOfficial": "https://explore.doubs.fr/service/789-Aire-de-camping-cars---Le-Russey",
-    "priceSource": "https://explore.doubs.fr/service/789-Aire-de-camping-cars---Le-Russey",
+    "priceSource": "https://cc-russey.fr/fr/rb/1494534/airs-de-camping-car",
     "priceVerification": "eau_electricite_vidange_jetons_confirmes_tarifs_et_nuitee_non_publies",
-    "priceEvidenceNote": "Explore Doubs confirme vidange, électricité et eau potable, avec jetons vendus dans les commerces. Pas de prix de jeton ou d’autorisation de nuitée indiqués.",
-    "priceCheckedAt": "2026-11-11"
+    "priceEvidenceNote": "La communauté de communes affiche 2,50 € par jeton pour la station technique. Tarif de stationnement et conditions de nuitée à confirmer.",
+    "priceCheckedAt": "2026-11-27",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://cc-russey.fr/fr/rb/1494534/airs-de-camping-car",
+    "priceNote": "La communauté de communes affiche 2,50 € par jeton pour la station technique. Tarif de stationnement et conditions de nuitée à confirmer."
   },
   {
     "department": "25",
@@ -603,7 +616,7 @@
       "Stationnement près de la mairie, rue de la Fontaine",
       "Capacité non indiquée par l’office de tourisme"
     ],
-    "price": "Tarif non publié par l’office de tourisme.",
+    "price": "Stationnement signalé gratuit",
     "status": "Destination Haut-Doubs confirme le stationnement près de la mairie, rue de la Fontaine. La capacité de trois places n’est pas indiquée par cette source et reste attribuée à un annuaire spécialisé. Aucun service d’eau, d’électricité ou de vidange annoncé.",
     "source": "https://www.openstreetmap.org/way/1193860871",
     "latitude": 47.0186664,
@@ -617,10 +630,13 @@
     "address": "Rue de la Fontaine, près de la mairie, 25520 Renédale",
     "sourceOfficial": "https://www.destination-haut-doubs.com/aire-de-stationnement-renedale.html",
     "servicesSource": "https://www.destination-haut-doubs.com/aire-de-stationnement-renedale.html",
-    "priceSource": "https://www.destination-haut-doubs.com/aire-de-stationnement-renedale.html",
+    "priceSource": "https://caraplace.ch/fr/placeme/aire-de-stationnement-renedale-16220",
     "priceVerification": "stationnement_mairie_confirme_capacite_annuaire_tarif_et_services_non_publies",
-    "priceEvidenceNote": "Destination Haut-Doubs confirme un stationnement rue de la Fontaine près de la mairie et ne publie ni tarif, ni capacité, ni équipements. Les trois places proviennent d'un annuaire secondaire.",
-    "priceCheckedAt": "2026-11-11"
+    "priceEvidenceNote": "Un annuaire cartographique signale trois places gratuites. Le tarif communal reste à confirmer.",
+    "priceCheckedAt": "2026-11-27",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://caraplace.ch/fr/placeme/aire-de-stationnement-renedale-16220",
+    "priceNote": "Un annuaire cartographique signale trois places gratuites. Le tarif communal reste à confirmer."
   },
   {
     "department": "25",
@@ -635,8 +651,8 @@
       "Stationnement payant par horodateur, forfaits 8 h ou 16 h",
       "Aire de services eau/vidange séparée à environ 300 m"
     ],
-    "price": "Stationnement à l’horodateur par forfait de 8 h ou 16 h ; montant non indiqué par l’office de tourisme. Aire eau/vidange séparée à 300 m.",
-    "status": "Pays de Montbéliard Tourisme confirme 14 emplacements avec électricité, WC, douches et laverie, ouverts toute l’année. Le stationnement se paie à l’horodateur en forfaits de 8 h ou 16 h. L’aire de vidange et de remplissage est distincte, à environ 300 m.",
+    "price": "Tarifs 2026 : 5 € / 8 h ou 8 € / 16 h.",
+    "status": "14 places au port selon l’office de tourisme. Paiement à l’horodateur. Borne de remplissage et de vidange distincte à environ 300 m.",
     "source": "https://www.openstreetmap.org/way/1259726625",
     "latitude": 47.5053535,
     "longitude": 6.79327,
@@ -649,10 +665,13 @@
     "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
     "address": "Impasse de la Presqu'île, 25200 Montbéliard",
     "sourceOfficial": "https://www.paysdemontbeliard-tourisme.com/aires-de-camping-car/decibelles/detail/hpabfc000v51bxrb/aire-de-camping-cars-port-de-plaisance",
-    "priceSource": "https://www.paysdemontbeliard-tourisme.com/aires-de-camping-car/decibelles/detail/hpabfc000v51bxrb/aire-de-camping-cars-port-de-plaisance",
+    "priceSource": "https://www.montbeliard.fr/content/uploads/2025/12/Tarification-Annee-2026-1.pdf",
     "priceVerification": "14_places_services_horodateur_8h_16h_tarif_non_publie_aire_services_separee",
-    "priceEvidenceNote": "L’office de tourisme confirme les 14 places, électricité, WC, douches, laverie, stationnement par horodateur en forfaits de 8 h ou 16 h, et services eau/vidange à 300 m. Le montant des forfaits n'est pas publié.",
-    "priceCheckedAt": "2026-11-11"
+    "priceEvidenceNote": "La grille municipale 2026 publie 5 € pour 8 h et 8 € pour 16 h à la rubrique stationnement diurne.",
+    "priceCheckedAt": "2026-11-27",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.montbeliard.fr/content/uploads/2025/12/Tarification-Annee-2026-1.pdf",
+    "priceNote": "La grille municipale 2026 publie 5 € pour 8 h et 8 € pour 16 h à la rubrique stationnement diurne."
   },
   {
     "department": "25",
@@ -680,8 +699,10 @@
     "sourceOfficial": "https://www.doubs.travel/sit/aires-de-camping-cars-sancey",
     "priceSource": "https://www.doubs.travel/sit/aires-de-camping-cars-sancey",
     "priceVerification": "borne_eurorelais_jetons_tarif_et_fonctionnement_a_confirmer_deux_sites_distincts",
-    "priceEvidenceNote": "La fiche touristique de Sancey identifie une borne Euro-Relais au parking Maximarché et un site séparé de stationnement en sortie de village. Le montant des jetons n’est pas publié ; les deux places sont une indication d’annuaire spécialisé.",
-    "priceCheckedAt": "2026-11-11"
+    "priceEvidenceNote": "La fiche intercommunale mise à jour le 31 octobre 2026 indique les supérettes et le Café de la Poste pour les jetons. Montant et disponibilité à confirmer.",
+    "priceCheckedAt": "2026-11-27",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.cirkwi.com/fr/point-interet/2762450-aires-de-camping-cars-sancey"
   },
   {
     "department": "25",
@@ -696,7 +717,7 @@
       "Stationnement courte durée, ouvert toute l’année 24 h/24",
       "Paiement à l’horodateur du parking par carte ou espèces"
     ],
-    "price": "Stationnement payant à l’horodateur ; montant non publié sur la fiche touristique.",
+    "price": "Stationnement payant à l’horodateur, montant non publié. Eau et vidange gratuites pour les usagers.",
     "status": "L’office de tourisme confirme 12 places réservées aux camping-cars, ouvertes toute l’année 24 h/24 pour une étape courte, avec vidange des eaux usées et borne d’eau potable, sans branchement électrique. Paiement à l’horodateur du parking par carte ou espèces. La fiche ne confirme pas une nuitée.",
     "source": "https://www.openstreetmap.org/way/1288024196",
     "latitude": 47.2371953,
@@ -707,15 +728,17 @@
     "importReview": "Lot 361 (11/11/2026) : contrôle des fiches 21 à 30 déjà présentes dans le Doubs à partir des offices de tourisme et sources institutionnelles. Aucun lieu ajouté.",
     "sourceId": "way/1288024196",
     "cityVerificationNote": "Commune renseignée d'après le nom de l'aire et les références territoriales ; vérifier la position exacte.",
-    "priceSource": "https://www.besancon-tourisme.com/fr/fiche-sit/f312012057_besancon-aire-de-camping-car-besancon/",
+    "priceSource": "https://www.grandbesancon.fr/infos-pratiques/sports-loisirs/les-aires-daccueil-camping-car/informations-aire-de-camping-car-canot/",
     "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Source exploitant ou institution touristique ; distinguer services et stationnement.",
+    "priceNote": "Grand Besançon confirme que l’eau et la vidange sont gratuites pour les usagers. Le montant de l’horodateur reste à confirmer.",
     "address": "Rue d'Arènes, 25000 Besançon",
     "sourceOfficial": "https://www.besancon-tourisme.com/fr/fiche-sit/f312012057_besancon-aire-de-camping-car-besancon/",
     "servicesSource": "https://www.besancon-tourisme.com/fr/fiche-sit/f312012057_besancon-aire-de-camping-car-besancon/",
     "priceVerification": "12_places_etape_courte_24h_eau_vidange_horodateur_tarif_non_publie",
-    "priceEvidenceNote": "Besançon Tourisme indique 12 places, une étape courte, eau et vidange, aucun branchement électrique, paiement à l’horodateur. Aucun montant n’est publié.",
-    "priceCheckedAt": "2026-11-11"
+    "priceEvidenceNote": "Grand Besançon confirme que l’eau et la vidange sont gratuites pour les usagers. Le montant de l’horodateur reste à confirmer.",
+    "priceCheckedAt": "2026-11-27",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.grandbesancon.fr/infos-pratiques/sports-loisirs/les-aires-daccueil-camping-car/informations-aire-de-camping-car-canot/"
   },
   {
     "department": "25",
@@ -864,8 +887,10 @@
     "servicesSource": "https://www.paysdemontbeliard-tourisme.com/aires-de-camping-car/decibelles/detail/hpabfc000v51d82c/aire-de-camping-cars-au-bord-du-doubs",
     "priceSource": "https://www.paysdemontbeliard-tourisme.com/aires-de-camping-car/decibelles/detail/hpabfc000v51d82c/aire-de-camping-cars-au-bord-du-doubs",
     "priceVerification": "5_places_tables_bancs_tarif_et_services_non_publies",
-    "priceEvidenceNote": "Pays de Montbéliard Tourisme confirme les 5 places, tables et bancs, mais n’indique ni tarif ni eau/vidange.",
-    "priceCheckedAt": "2026-11-11"
+    "priceEvidenceNote": "La mairie confirme cinq places près de la passerelle, avec deux tables et des bancs. Tarif et conditions de nuitée à confirmer.",
+    "priceCheckedAt": "2026-11-27",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.longevelle-sur-doubs.fr/vie-au-village/decouvrir/aire-de-camping-cars"
   },
   {
     "department": "25",
