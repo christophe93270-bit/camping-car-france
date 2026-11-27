@@ -34,7 +34,7 @@
       "Vidanges",
       "Eau propre"
     ],
-    "price": "Non confirmé ; paiement en espèces indiqué, montant non publié",
+    "price": "Stationnement signalé gratuit",
     "status": "Aire de service à Place des Amandiers. Source touristique confirme vidanges et eau propre ; aucun montant n’est publié.",
     "source": "https://www.ardeche-hermitage.com/fr/ou-dormir/tous-les-hebergements/detail/aires-de-service/aire-de-service-accueil-camping-car-6257191/",
     "latitude": 45.1089853,
@@ -46,7 +46,13 @@
     "sourceId": "node/7770846029",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des informations touristiques ; position à confirmer.",
     "address": "Place des Amandiers, 26600 Gervans",
-    "priceVerifiedOn": "2026-11-11"
+    "priceVerifiedOn": "2026-11-11",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.ardeche-hermitage.com/fr/ou-dormir/tous-les-hebergements/detail/aires-de-service/aire-de-service-accueil-camping-car-6257191/",
+    "priceCheckedAt": "2026-11-27",
+    "priceEvidenceNote": "i-Camping Car indique un stationnement gratuit. L’office de tourisme confirme l’eau et la vidange, sans montant publié.",
+    "priceNote": "i-Camping Car indique un stationnement gratuit. L’office de tourisme confirme l’eau et la vidange, sans montant publié.",
+    "priceSource": "https://www.i-campingcar.fr/aires.php?ville=GERVANS"
   },
   {
     "department": "26",
@@ -94,16 +100,21 @@
     "sourceId": "node/11823009998",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des informations touristiques ; position à confirmer.",
     "address": "2752 route des Oliviers, Domaine de la Taurelle, 26110 Mirabel-aux-Baronnies",
-    "priceVerifiedOn": "2026-11-11"
+    "priceVerifiedOn": "2026-11-11",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://taurelle.fr/agriculteur/domaine-de-la-taurelle/",
+    "priceCheckedAt": "2026-11-27",
+    "priceEvidenceNote": "Le domaine confirme l’accueil des camping-cars et des vans au 2752 route des Oliviers. Tarif et conditions de nuitée à demander à l’exploitant.",
+    "priceNote": "Le domaine confirme l’accueil des camping-cars et des vans au 2752 route des Oliviers. Tarif et conditions de nuitée à demander à l’exploitant."
   },
   {
     "department": "26",
-    "name": "Aire de camping-cars Domaine du Chêne Vert",
+    "name": "Aire de camping-cars du Domaine des Hautes Blâches",
     "city": "Mirabel-aux-Baronnies",
     "type": "Accueil camping-cars France Passion chez un exploitant",
     "services": [],
-    "price": "Non confirmé ; conditions, services et tarif non publiés",
-    "status": "L’exploitant présente le Domaine du Chêne Vert comme un accueil France Passion pour camping-cars. La page consultée ne précise ni services ni conditions tarifaires.",
+    "price": "Étape France Passion gratuite pour les adhérents, 24 h maximum",
+    "status": "Cinq places annoncées pour l’étape France Passion.",
     "source": "https://www.domaineduchenevert.fr/nos-g%C3%AEtes/france-passion-accueil-camping-cars/",
     "latitude": 44.3400247,
     "longitude": 5.1247975,
@@ -112,8 +123,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Lot 363 (11/11/2026) : fiche existante vérifiée à partir de la source indiquée ; aucun lieu ajouté.",
     "sourceId": "node/11823038978",
-    "address": "Domaine du Chêne Vert, Mirabel-aux-Baronnies",
-    "priceVerifiedOn": "2026-11-11"
+    "address": "2641 route des Oliviers, 26110 Mirabel-aux-Baronnies",
+    "priceVerifiedOn": "2026-11-11",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.drome-cestmanature.com/fiches/aire-de-camping-cars-privee-domaine-du-chene-vert/",
+    "priceCheckedAt": "2026-11-27",
+    "priceEvidenceNote": "Drôme Tourisme recense cinq places au domaine des Hautes Blâches. Gratuité applicable selon les conditions du réseau France Passion.",
+    "priceNote": "Drôme Tourisme recense cinq places au domaine des Hautes Blâches. Gratuité applicable selon les conditions du réseau France Passion.",
+    "priceSource": "https://www.france-passion.com/camping-caristes/faq-camping-cariste/"
   },
   {
     "department": "26",
@@ -132,7 +149,12 @@
     "importReview": "Lot 363 (11/11/2026) : fiche existante vérifiée à partir de la source indiquée ; aucun lieu ajouté.",
     "sourceId": "node/11823056763",
     "address": "Hameau des Sias, 26170 La Roche-sur-le-Buis",
-    "priceVerifiedOn": "2026-11-11"
+    "priceVerifiedOn": "2026-11-11",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.gitedulievre.com/",
+    "priceCheckedAt": "2026-11-27",
+    "priceEvidenceNote": "L’exploitant confirme un camping sur le site. La page d’accueil ne donne pas de montant pour l’emplacement camping-car.",
+    "priceNote": "L’exploitant confirme un camping sur le site. La page d’accueil ne donne pas de montant pour l’emplacement camping-car."
   },
   {
     "department": "26",
@@ -164,8 +186,7 @@
     "type": "Aire privée de camping-cars",
     "services": [
       "Eau",
-      "Toilettes sèches",
-      "Animaux acceptés"
+      "Toilettes"
     ],
     "price": "Non confirmé ; paiement en espèces ou chèque accepté, montant non publié",
     "status": "Aire privée à la Pisciculture l’Eau Claire ; une place camping-car est signalée. Le mode de paiement est indiqué, mais pas de tarif.",
@@ -179,7 +200,13 @@
     "sourceId": "node/11824852772",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des informations touristiques ; position à confirmer.",
     "address": "130 chemin de l’Eau Claire, La Condamine, 26110 Saint-Ferréol-Trente-Pas",
-    "priceVerifiedOn": "2026-11-11"
+    "priceVerifiedOn": "2026-11-11",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.drome-cestmanature.com/sit/aire-de-camping-cars-privee-de-la-pisciculture-leau-claire-2/",
+    "priceCheckedAt": "2026-11-27",
+    "priceEvidenceNote": "Fiche touristique mise à jour en janvier 2026. Eau et toilettes, paiement en espèces ou par chèque. Montant à demander à l’exploitant.",
+    "priceNote": "Fiche touristique mise à jour en janvier 2026. Eau et toilettes, paiement en espèces ou par chèque. Montant à demander à l’exploitant.",
+    "servicesSource": "https://www.drome-cestmanature.com/sit/aire-de-camping-cars-privee-de-la-pisciculture-leau-claire-2/"
   },
   {
     "department": "26",
@@ -187,7 +214,7 @@
     "city": "Cornillac",
     "type": "Aire de camping-cars chez un exploitant",
     "services": [],
-    "price": "Non confirmé ; l’index touristique affiche un prix « à partir de 22 € » sans préciser ici la prestation ou la période",
+    "price": "Non confirmé",
     "status": "Aire identifiée par Drôme Tourisme à Cornillac. L’index touristique affiche « à partir de 22 € », sans préciser suffisamment la prestation ou la période pour l’attribuer à la nuitée.",
     "source": "https://www.drome-cestmanature.com/preparez-votre-sejour/les-hebergements/aires-de-service-camping-car/",
     "latitude": 44.4345431,
@@ -197,9 +224,12 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Lot 363 (11/11/2026) : fiche existante vérifiée à partir de la source indiquée ; aucun lieu ajouté.",
     "sourceId": "node/11824860795",
-    "priceSource": "https://www.drome-cestmanature.com/preparez-votre-sejour/les-hebergements/aires-de-service-camping-car/",
     "address": "EARL de Montlahuc, 26510 Cornillac",
-    "priceVerifiedOn": "2026-11-11"
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.drome-cestmanature.com/fiches/aire-de-camping-cars-earl-de-montlahuc/",
+    "priceCheckedAt": "2026-11-27",
+    "priceEvidenceNote": "L’index de Drôme Tourisme rattache le montant « à partir de 22 € » au Camping Champ la Chèvre, à Lus-la-Croix-Haute. Aucun montant applicable à l’aire de Montlahuc n’a été confirmé.",
+    "priceNote": "L’index de Drôme Tourisme rattache le montant « à partir de 22 € » au Camping Champ la Chèvre, à Lus-la-Croix-Haute. Aucun montant applicable à l’aire de Montlahuc n’a été confirmé."
   },
   {
     "department": "26",
@@ -234,7 +264,7 @@
       "Eau",
       "Vidange"
     ],
-    "price": "Non confirmé ; aucun tarif publié sur la fiche touristique consultée",
+    "price": "Stationnement signalé gratuit",
     "status": "Parking des Combettes ; aire équipée en eau et vidange, stationnement dans le village. Tarif non indiqué par l’office de tourisme.",
     "source": "https://provencecoterhone-tourisme.com/apidae/aire-de-camping-car-de-saint-restitut/",
     "latitude": 44.3318472,
@@ -246,7 +276,13 @@
     "sourceId": "node/11837252553",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des informations touristiques ; position à confirmer.",
     "address": "Parking des Combettes, 26130 Saint-Restitut",
-    "priceVerifiedOn": "2026-11-11"
+    "priceVerifiedOn": "2026-11-11",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://provencecoterhone-tourisme.com/apidae/aire-de-camping-car-de-saint-restitut/",
+    "priceCheckedAt": "2026-11-27",
+    "priceEvidenceNote": "Gratuité signalée par Caraplace. Le tarif communal reste à confirmer.",
+    "priceNote": "Gratuité signalée par Caraplace. Le tarif communal reste à confirmer.",
+    "priceSource": "https://caraplace.ch/fr/placeme/aire-de-camping-car-de-saint-restitut-13506"
   },
   {
     "department": "26",
@@ -285,8 +321,8 @@
       "Vente de produits à la propriété",
       "Wi-Fi"
     ],
-    "price": "Non confirmé",
-    "status": "Adresse confirmée à Triors. Les fiches touristiques ne concordent pas sur l’accueil des camping-cars : Drôme Tourisme le référence parmi les accueils, tandis que Vins Rhône indique « accueil de camping-cars : non ». Vérifier auprès du domaine avant déplacement.",
+    "price": "Gratuit pour une nuit maximum",
+    "status": "Cinq places pour véhicules autonomes. Accueil du mardi au samedi en 2026.",
     "source": "https://www.drome-cestmanature.com/fiches/domaine-du-chateau-vieux/",
     "latitude": 45.0991373,
     "longitude": 5.1182368,
@@ -297,7 +333,13 @@
     "sourceId": "node/11941954715",
     "address": "210 route des Vignes, 26750 Triors",
     "sourceNote": "Source sur la contradiction : https://www.vins-rhone-tourisme.fr/fr/visiter-et-deguster/visite-des-domaines/domaine-du-chateau-vieux",
-    "priceVerifiedOn": "2026-11-11"
+    "priceVerifiedOn": "2026-11-27",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.drome-cestmanature.com/fiches/accueil-camping-car-au-domaine-chateau-vieux/",
+    "priceCheckedAt": "2026-11-27",
+    "priceEvidenceNote": "Cinq places pour véhicules autonomes. Accueil du mardi au samedi en 2026 selon Valence Romans Tourisme.",
+    "priceNote": "Cinq places pour véhicules autonomes. Accueil du mardi au samedi en 2026 selon Valence Romans Tourisme.",
+    "priceSource": "https://www.drome-cestmanature.com/fiches/accueil-camping-car-au-domaine-chateau-vieux/"
   },
   {
     "department": "26",
@@ -335,7 +377,7 @@
       "Électricité",
       "Vente à la propriété"
     ],
-    "price": "Tarif publié sur une fiche mise à jour en 2021 : emplacement + services 2 € ; tarif actuel à reconfirmer",
+    "price": "2 € pour l’emplacement et les services (montant indicatif)",
     "status": "6 emplacements indiqués. La fiche touristique, mise à jour le 24/11/2021, précise 2 € pour emplacement + services ; confirmer ce tarif ancien avant déplacement.",
     "source": "https://www.drome-cestmanature.com/fiches/aire-camping-cars-privee-du-domaine-saint-guery/",
     "latitude": 44.3319067,
@@ -345,9 +387,14 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Lot 364 (11/11/2026) : fiche existante vérifiée à partir de la source indiquée ; aucun lieu ajouté.",
     "sourceId": "node/11942123309",
-    "priceSource": "https://www.drome-cestmanature.com/fiches/aire-camping-cars-privee-du-domaine-saint-guery/",
+    "priceSource": "https://www.drome-cestmanature.com/fiches/aire-camping-cars-privee-2/",
     "address": "Domaine Saint-Guéry, route de Bouchet, 26790 La Baume-de-Transit",
-    "priceVerifiedOn": "2026-11-11"
+    "priceVerifiedOn": "2026-11-11",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.drome-cestmanature.com/fiches/aire-camping-cars-privee-2/",
+    "priceCheckedAt": "2026-11-27",
+    "priceEvidenceNote": "La fiche actualisée le 23 mai 2026 affiche 2 € et comporte également la mention « tarifs non communiqués ». Durée et montant à confirmer auprès du domaine.",
+    "priceNote": "La fiche actualisée le 23 mai 2026 affiche 2 € et comporte également la mention « tarifs non communiqués ». Durée et montant à confirmer auprès du domaine."
   },
   {
     "department": "26",
@@ -382,7 +429,7 @@
     "services": [
       "Wi-Fi"
     ],
-    "price": "Non confirmé ; aucun montant explicite sur la fiche touristique consultée",
+    "price": "Stationnement signalé gratuit",
     "status": "5 places camping-cars et 2 places de bus signalées par l’office de tourisme. Tarif et services supplémentaires non publiés.",
     "source": "https://www.drome-cestmanature.com/fiches/aire-de-camping-car-vercors-noix/",
     "latitude": 45.0308109,
@@ -394,7 +441,13 @@
     "sourceId": "node/11942379619",
     "cityVerificationNote": "Commune déduite du nom de l'aire et des informations touristiques ; position à confirmer.",
     "address": "640 chemin des Granges Buissières, 26190 Saint-Jean-en-Royans",
-    "priceVerifiedOn": "2026-11-11"
+    "priceVerifiedOn": "2026-11-11",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.vercors-drome.com/sejour-vacances-vercors/4836690_aire-de-camping-car-vercors-noix/",
+    "priceCheckedAt": "2026-11-27",
+    "priceEvidenceNote": "Gratuité signalée par un annuaire spécialisé. Montant à confirmer auprès de Vercors Noix.",
+    "priceNote": "Gratuité signalée par un annuaire spécialisé. Montant à confirmer auprès de Vercors Noix.",
+    "priceSource": "https://www.stellplatzfuehrer.de/fr/parcs-de-vr/listes/all/22270-aire-de-camping-car-vercors-noix"
   },
   {
     "department": "26",
