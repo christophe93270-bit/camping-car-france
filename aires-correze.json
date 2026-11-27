@@ -8,7 +8,7 @@
       "Toilettes",
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; eau, vidanges et électricité payantes (prix à confirmer)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/4321668195",
     "latitude": 45.4247366,
@@ -19,15 +19,21 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/4321668195",
     "servicesSource": "https://www.openstreetmap.org/node/4321668195",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://uzerche.fr/equipements-municipaux/autres-equipements-municipaux/camping-car/",
+    "verificationNote": "La mairie confirme le stationnement gratuit à la Petite Gare. Eau, vidanges et électricité payantes par jeton ; montant à confirmer.",
+    "priceSource": "https://uzerche.fr/equipements-municipaux/autres-equipements-municipaux/camping-car/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "La mairie confirme le stationnement gratuit à la Petite Gare. Eau, vidanges et électricité payantes par jeton ; montant à confirmer."
   },
   {
     "department": "19",
-    "name": "Air de Camping-Car de Pérols-sur-Vézère",
+    "name": "Aire de camping-cars de Pérols-sur-Vézère",
     "city": "Pérols-sur-Vézère",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit ; plein d’eau et vidange 3 € (borne d’avril à octobre)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/10223834149",
     "latitude": 45.5857863,
@@ -36,7 +42,13 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/10223834149"
+    "sourceId": "node/10223834149",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.tourisme-hautecorreze.fr/aires-camping-cars/aire-daccueil-de-camping-cars-de-perols-sur-vezere/",
+    "verificationNote": "L’office de tourisme confirme le stationnement gratuit. Borne du 1er avril au 31 octobre : 3 € le jeton pour le plein d’eau et la vidange.",
+    "priceSource": "https://www.tourisme-hautecorreze.fr/aires-camping-cars/aire-daccueil-de-camping-cars-de-perols-sur-vezere/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’office de tourisme confirme le stationnement gratuit. Borne du 1er avril au 31 octobre : 3 € le jeton pour le plein d’eau et la vidange."
   },
   {
     "department": "19",
@@ -46,7 +58,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "13,00 € / 24 h",
+    "price": "12 à 14 € / 24 h selon la saison (office de tourisme) ; forfait 5 h avec services : 6 €",
     "status": "Ouverte",
     "source": "https://www.openstreetmap.org/node/11222615847",
     "latitude": 45.553029,
@@ -58,11 +70,14 @@
     "sourceId": "node/11222615847",
     "servicesSource": "https://www.openstreetmap.org/node/11222615847",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique.",
-    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/correze/treignac",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif actuellement publié par CAMPING-CAR PARK le 17/11/2026 (12 € + 1 € de taxe de séjour) ; il peut varier selon la période.",
+    "priceSource": "https://www.terresdecorreze.com/aire-camping-car/aire-camping-car-park-de-treignac/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’office de tourisme indique 12 à 14 € par 24 h selon la saison, et 6 € pour 5 h avec services. Détail par date et taxe de séjour à confirmer.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/correze/treignac",
-    "address": "28 Route de Guéret, 19260 Treignac"
+    "address": "28 Route de Guéret, 19260 Treignac",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.terresdecorreze.com/aire-camping-car/aire-camping-car-park-de-treignac/",
+    "verificationNote": "L’office de tourisme indique 12 à 14 € par 24 h selon la saison, et 6 € pour 5 h avec services. Détail par date et taxe de séjour à confirmer."
   },
   {
     "department": "19",
@@ -80,7 +95,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/11881252382",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.terresdecorreze.com/aire-camping-car/aire-daccueil-de-camping-cars-de-lubersac/",
+    "verificationNote": "L’office de tourisme recense l’aire ; tarif et conditions de stationnement à confirmer."
   },
   {
     "department": "19",
@@ -98,7 +116,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/11883443845",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.meilhards.fr/aire-du-plan-d-eau-et-vidange-camping-car-meilhards",
+    "verificationNote": "La mairie confirme que la vidange et le remplissage gratuits se font près de l’église. Tarif du stationnement au plan d’eau à confirmer."
   },
   {
     "department": "19",
@@ -108,7 +129,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "12 € / 24 h",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/11896907171",
     "latitude": 45.1448598,
@@ -119,7 +140,13 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/11896907171",
     "servicesSource": "https://www.openstreetmap.org/node/11896907171",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.tourismecorreze.com/fr/tourisme_detail/aire_de_service_les_chanaux.html",
+    "verificationNote": "Tourisme Corrèze publie 12 € pour 24 h à l’aire Les Chanaux, accessible toute l’année.",
+    "priceSource": "https://www.tourismecorreze.com/fr/tourisme_detail/aire_de_service_les_chanaux.html",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Tourisme Corrèze publie 12 € pour 24 h à l’aire Les Chanaux, accessible toute l’année."
   },
   {
     "department": "19",
@@ -129,7 +156,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "13,42 € / 24 h",
+    "price": "13,42 € / 24 h en 2026, dont 1,20 € de taxe de séjour",
     "status": "Ouverte",
     "source": "https://www.openstreetmap.org/node/12182929067",
     "latitude": 45.03714,
@@ -142,10 +169,13 @@
     "servicesSource": "https://www.openstreetmap.org/node/12182929067",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/correze/goulles",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif actuellement publié par CAMPING-CAR PARK le 17/11/2026 (taxe de séjour incluse) ; il peut varier selon la période.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Base de 12,22 € plus 1,20 € de taxe de séjour en 2026. Base affichée jusqu’à fin 2027 ; taxe 2027 à confirmer. Parking 5 h avec services : 6 €.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/correze/goulles",
-    "address": "7 Route du Stade, 19430 Goulles"
+    "address": "7 Route du Stade, 19430 Goulles",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/correze/goulles",
+    "verificationNote": "Base de 12,22 € plus 1,20 € de taxe de séjour en 2026. Base affichée jusqu’à fin 2027 ; taxe 2027 à confirmer. Parking 5 h avec services : 6 €."
   },
   {
     "department": "19",
@@ -165,8 +195,11 @@
     "sourceId": "node/12632842246",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique.",
     "priceSource": "https://www.tourismecorreze.com/fr/tourisme_detail/aire_d_accueil_de_camping-cars_d_egletons.html",
-    "priceVerifiedOn": "2026-10-17",
-    "priceNote": "Tarif publié par exploitant, mairie ou Tourisme Corrèze ; vérifier avant séjour."
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’office de tourisme confirme le stationnement gratuit et le forfait plein d’eau et vidange à 2 €. Pas de branchement électrique.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.tourismecorreze.com/fr/tourisme_detail/aire_d_accueil_de_camping-cars_d_egletons.html",
+    "verificationNote": "L’office de tourisme confirme le stationnement gratuit et le forfait plein d’eau et vidange à 2 €. Pas de branchement électrique."
   },
   {
     "department": "19",
@@ -174,7 +207,7 @@
     "city": "Bort-les-Orgues",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement, eau et vidanges gratuits ; eau coupée en hiver",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/708032648",
     "latitude": 45.3988886,
@@ -184,7 +217,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "way/708032648",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.tourisme-hautecorreze.fr/aires-camping-cars/aire-daccueil-de-camping-cars-de-bort-les-orgues/",
+    "verificationNote": "Six places au parking de la Font Grande. Stationnement, eau et vidanges gratuits ; eau coupée en hiver.",
+    "priceSource": "https://www.tourisme-hautecorreze.fr/aires-camping-cars/aire-daccueil-de-camping-cars-de-bort-les-orgues/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "Six places au parking de la Font Grande. Stationnement, eau et vidanges gratuits ; eau coupée en hiver."
   },
   {
     "department": "19",
@@ -194,7 +233,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit de 9 h à 19 h ; nuit payante (montant à confirmer)",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/844178967",
     "latitude": 44.977282,
@@ -205,7 +244,13 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/844178967",
     "servicesSource": "https://www.openstreetmap.org/way/844178967",
-    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique."
+    "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de la liste de Tourisme Corrèze ; vérifier la position cartographique.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.vallee-dordogne.com/la-vallee-de-la-dordogne/villes-et-villages/beaulieu-sur-dordogne/infos-pratiques",
+    "verificationNote": "L’office de tourisme indique une gratuité de 9 h à 19 h et un stationnement payant la nuit. Montant de la nuitée à confirmer.",
+    "priceSource": "https://www.vallee-dordogne.com/la-vallee-de-la-dordogne/villes-et-villages/beaulieu-sur-dordogne/infos-pratiques",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’office de tourisme indique une gratuité de 9 h à 19 h et un stationnement payant la nuit. Montant de la nuitée à confirmer."
   },
   {
     "department": "19",
