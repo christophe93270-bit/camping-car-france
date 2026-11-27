@@ -19,18 +19,25 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Exploitant, commune, coordonnées et tarif confirmés par l’opérateur le 13/11/2026",
     "sourceId": "node/14276755486",
-    "servicesSource": "https://www.openstreetmap.org/node/14276755486"
+    "servicesSource": "https://www.openstreetmap.org/node/14276755486",
+    "priceNote": "11,50 € + 0,58 € de taxe de séjour par 24 h jusqu’au 31 décembre 2027. Forfait 5 h et services à 6 €.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/frevent",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/frevent",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "62",
-    "name": "Wissant Camping Car Aire",
-    "city": "Commune à confirmer",
+    "name": "Aire de camping-car de Wissant",
+    "city": "Wissant",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau",
+      "Électricité",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "11 € / jour (tarif indicatif 2026)",
+    "status": "40 places et quatre jours maximum selon Campingcar-Infos",
     "source": "https://www.openstreetmap.org/way/241542689",
     "latitude": 50.8871668,
     "longitude": 1.6712872,
@@ -39,7 +46,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/241542689",
-    "servicesSource": "https://www.openstreetmap.org/way/241542689"
+    "servicesSource": "https://www.campingcar-infos.com/aire-wissant/view.php?id=7222",
+    "address": "4 route de Calais, 62179 Wissant",
+    "priceNote": "Campingcar-Infos indique 11 € par jour, eau à 2 € et électricité à 3 €. Montants à confirmer auprès de l’exploitant.",
+    "verificationSource": "https://www.campingcar-infos.com/aire-wissant/view.php?id=7222",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.campingcar-infos.com/aire-wissant/view.php?id=7222",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "62",
@@ -61,16 +74,21 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Exploitant, adresse et tarif confirmés par la fiche officielle CCP le 13/11/2026 ; services OSM à vérifier",
     "sourceId": "way/266402998",
-    "servicesSource": "https://www.openstreetmap.org/way/266402998"
+    "servicesSource": "https://www.openstreetmap.org/way/266402998",
+    "priceNote": "14,05 € + 1,20 € de taxe de séjour par 24 h jusqu’au 31 décembre 2027. Forfait 5 h et services à 6 €.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/calais?areaType=aire-etape-camping-car",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/calais?areaType=aire-etape-camping-car",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "62",
     "name": "Aire de Camping-cars - Boulogne-sur-Mer",
-    "city": "Commune à confirmer",
+    "city": "Boulogne-sur-Mer",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "40 emplacements selon l’office de tourisme",
     "source": "https://www.openstreetmap.org/way/282095958",
     "latitude": 50.7440207,
     "longitude": 1.5967008,
@@ -78,18 +96,22 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/282095958"
+    "sourceId": "way/282095958",
+    "address": "Parking du Moulin Wibert, boulevard Sainte-Beuve",
+    "priceNote": "Le site du Boulonnais affiche 7 € par jour les deux premiers jours, puis 9 € par jour et 4 € pour l’eau. Un autre site touristique affiche des montants différents. Tarif actuel à confirmer.",
+    "sourceOfficial": "https://www.boulonnaisautop.com/pratique/se-deplacer/aires-de-camping-cars",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "62",
     "name": "Aire camping-car Berck - Chez Mireille",
-    "city": "Commune à confirmer",
+    "city": "Berck",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
       "Électricité"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Accueil des véhicules autonomes sans réservation, à la réception",
     "source": "https://www.openstreetmap.org/way/289034639",
     "latitude": 50.4174294,
     "longitude": 1.5754252,
@@ -98,7 +120,10 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/289034639",
-    "servicesSource": "https://www.openstreetmap.org/way/289034639"
+    "servicesSource": "https://www.openstreetmap.org/way/289034639",
+    "priceNote": "L’exploitant ne publie pas de montant sur la page de l’aire. Tarif à confirmer auprès de la réception.",
+    "sourceOfficial": "https://www.chezmireille.fr/aire-de-camping-car-a-berck-proche-de-la-mer/",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "62",
@@ -118,16 +143,24 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Exploitant, commune, coordonnées et tarif confirmés par l’opérateur le 13/11/2026",
     "sourceId": "way/367421529",
-    "servicesSource": "https://www.openstreetmap.org/way/367421529"
+    "servicesSource": "https://www.openstreetmap.org/way/367421529",
+    "priceNote": "13 € + 1,20 € de taxe de séjour par 24 h jusqu’au 31 décembre 2027. Forfait 5 h et services à 6 €.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/richebourg",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/richebourg",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "62",
     "name": "Aire Camping-Cars des Sternes",
-    "city": "Commune à confirmer",
+    "city": "Berck",
     "type": "Aire de camping-car (à vérifier)",
-    "services": [],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "services": [
+      "Eau",
+      "Vidange"
+    ],
+    "price": "Fermée pour travaux",
+    "status": "Fermée pour travaux selon l’office de tourisme. Date de réouverture non publiée.",
     "source": "https://www.openstreetmap.org/way/423103722",
     "latitude": 50.3969724,
     "longitude": 1.5637942,
@@ -135,7 +168,12 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "way/423103722"
+    "sourceId": "way/423103722",
+    "address": "Parking des Sternes, chemin aux Raisins",
+    "priceNote": "L’office de tourisme indique 12 € les 24 h du 1er mars au 30 novembre en période d’ouverture. Tarif à vérifier à la réouverture.",
+    "sourceOfficial": "https://www.berck-tourisme.com/fr/pratique/preparer-sa-venue/en-camping-car-1",
+    "verificationDate": "2026-11-27",
+    "servicesSource": "https://www.berck-tourisme.com/fr/pratique/preparer-sa-venue/en-camping-car-1"
   },
   {
     "department": "62",
@@ -155,18 +193,27 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Exploitant, commune, coordonnées et tarif confirmés par l’opérateur le 13/11/2026",
     "sourceId": "way/450195924",
-    "servicesSource": "https://www.openstreetmap.org/way/450195924"
+    "servicesSource": "https://www.openstreetmap.org/way/450195924",
+    "priceNote": "14 € + 0,40 € de taxe de séjour par 24 h jusqu’au 31 décembre 2027. Forfait 5 h et services à 6 €.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/brimeux?areaType=aire-etape-camping-car",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/brimeux?areaType=aire-etape-camping-car",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "62",
     "name": "Aire de camping-car du Patis",
-    "city": "Commune à confirmer",
+    "city": "Embry",
     "type": "Aire de camping-car (à vérifier)",
     "services": [
-      "Électricité"
+      "Eau potable",
+      "Électricité",
+      "Vidange",
+      "Douches",
+      "Toilettes"
     ],
     "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "status": "Aire privée de huit emplacements selon Pas-de-Calais Tourisme",
     "source": "https://www.openstreetmap.org/way/652040499",
     "latitude": 50.4937977,
     "longitude": 1.9647235,
@@ -175,7 +222,11 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/652040499",
-    "servicesSource": "https://www.openstreetmap.org/way/652040499"
+    "servicesSource": "https://www.cirkwi.com/fr/point-interet/1526256-aire-de-camping-cars-du-patis",
+    "address": "D108, 62990 Embry",
+    "priceNote": "Tarif non publié par Pas-de-Calais Tourisme. Point GPS exact à confirmer, les deux sources cartographiques divergent.",
+    "sourceOfficial": "https://www.cirkwi.com/fr/point-interet/1526256-aire-de-camping-cars-du-patis",
+    "verificationDate": "2026-11-27"
   },
   {
     "department": "62",
@@ -192,7 +243,12 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Exploitant, adresse et tarif confirmés par la fiche officielle CCP le 13/11/2026 ; services OSM à vérifier",
-    "sourceId": "way/719030034"
+    "sourceId": "way/719030034",
+    "priceNote": "14,50 € + 1 € de taxe de séjour par 24 h jusqu’au 31 décembre 2027. Forfait 5 h et services à 6 €.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/merlimont",
+    "verificationDate": "2026-11-27",
+    "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/hauts-de-france/pas-de-calais/merlimont",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "62",
