@@ -364,7 +364,10 @@
     "sourceId": "way/907668462",
     "cityVerificationNote": "Commune identifiée à partir du nom de l'aire et de sa position ; à vérifier sur place.",
     "verificationNote": "L’emplacement OSM (47.0732183, 1.8044959) est à proximité de la salle des fêtes, mais aucune source municipale ou touristique ne confirme un accueil camping-car à cet endroit. L’aire Camping-Car Park de Vatan est un site distinct au 12 rue du Collège ; elle est ouverte et ne doit pas être confondue avec ce point. Ne pas compter cette entrée OSM comme une aire CCP supplémentaire.",
-    "relatedSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre/vatan"
+    "relatedSource": "https://www.campingcarpark.com/fr_FR/camping-car/centre-val-de-loire/indre/vatan",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.vatan.fr/tourisme-hebergements/",
+    "priceNote": "La commune confirme le camping municipal Camping-Car Park. Le stationnement près de la salle des fêtes reste à confirmer séparément."
   },
   {
     "department": "36",
@@ -548,41 +551,56 @@
   },
   {
     "department": "36",
-    "name": "Aire de Camping-car",
-    "city": "Commune à confirmer",
-    "type": "Aire de camping-car (à vérifier)",
+    "name": "Aire de camping-car de Crevant",
+    "city": "Crevant",
+    "type": "Aire communale de camping-car",
     "services": [
       "Eau potable",
-      "Électricité"
+      "Électricité",
+      "Vidange"
     ],
-    "price": "Non confirmé",
-    "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
+    "price": "Stationnement signalé gratuit",
+    "status": "Aire du stade municipal ouverte toute l’année selon le guide 2026",
     "source": "https://www.openstreetmap.org/way/1502878916",
     "latitude": 46.4902246,
     "longitude": 1.9429602,
     "gpsSource": "https://www.openstreetmap.org/way/1502878916",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
+    "importReview": "Aire et services documentés par le guide touristique 2026.",
     "sourceId": "way/1502878916",
-    "servicesSource": "https://www.openstreetmap.org/way/1502878916"
+    "servicesSource": "https://www.pays-george-sand.com/wp-content/uploads/2026/03/Aires-et-bornes-pour-camping-cars_2026.pdf",
+    "address": "Stade municipal, 36140 Crevant",
+    "priceSource": "https://www.lecampeur.fr/aire/rue-des-alouettes-crevant-phexht",
+    "priceNote": "Stationnement signalé gratuit par un annuaire spécialisé. Le guide touristique 2026 indique 2 € les 10 minutes d’eau et 2 € les 12 h d’électricité.",
+    "sourceOfficial": "https://www.pays-george-sand.com/wp-content/uploads/2026/03/Aires-et-bornes-pour-camping-cars_2026.pdf",
+    "verificationDate": "2026-11-27",
+    "priceVerifiedOn": "2026-11-27"
   },
   {
     "department": "36",
-    "name": "Aire de Stationnement pour Camping-car",
-    "city": "Commune à confirmer",
-    "type": "Stationnement camping-car non confirmé",
-    "services": [],
+    "name": "Aire de stationnement camping-car de Saint-Denis-de-Jouhet",
+    "city": "Saint-Denis-de-Jouhet",
+    "type": "Aire de stationnement pour camping-cars",
+    "services": [
+      "Vidange"
+    ],
     "price": "Non confirmé",
-    "status": "Fiche OSM seule ; aucune source municipale, touristique ou d’exploitant trouvée pour confirmer l’accueil des camping-cars. Ne pas publier comme aire établie.",
+    "status": "Aire de stationnement répertoriée par l’office de tourisme",
     "source": "https://www.openstreetmap.org/way/1518103126",
     "latitude": 46.5302105,
     "longitude": 1.8659898,
     "gpsSource": "https://www.openstreetmap.org/way/1518103126",
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
-    "importReview": "À contrôler avant déplacement",
+    "importReview": "Aire identifiée à partir du guide touristique 2026.",
     "sourceId": "way/1518103126",
-    "verificationNote": "Le nom et les services de cette entrée proviennent uniquement d’OpenStreetMap. Les recherches par identifiant et coordonnées n’ont pas permis de retrouver une confirmation officielle ni d’identifier sûrement la commune. Fiche conservée comme point à vérifier, mais à exclure du décompte des aires confirmées jusqu’à validation."
+    "verificationNote": "Aire identifiée en croisant le guide touristique et les coordonnées de l’annuaire cartographique.",
+    "address": "Rue Flandre Dunkerque, 36230 Saint-Denis-de-Jouhet",
+    "priceNote": "Vidange gratuite selon le guide touristique 2026. Tarif de stationnement et conditions de nuitée à confirmer.",
+    "sourceOfficial": "https://www.pays-george-sand.com/wp-content/uploads/2026/03/Aires-et-bornes-pour-camping-cars_2026.pdf",
+    "servicesSource": "https://www.pays-george-sand.com/wp-content/uploads/2026/03/Aires-et-bornes-pour-camping-cars_2026.pdf",
+    "verificationSource": "https://onbouge.eu/france/centre-val-de-loire/saint-denis-de-jouhet/mobilite",
+    "verificationDate": "2026-11-27"
   }
 ]
