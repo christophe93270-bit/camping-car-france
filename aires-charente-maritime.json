@@ -18,7 +18,10 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/6406779367",
     "servicesSource": "https://www.openstreetmap.org/node/6406779367",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.infiniment-charentes.com/fiche-sit/aire-camping-cars-montguyon-5686895",
+    "verificationNote": "L’office de tourisme recense l’aire ; un annuaire indique le stationnement gratuit. Conditions et prix de l’eau à confirmer."
   },
   {
     "department": "17",
@@ -41,15 +44,18 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "node/8707017831",
     "servicesSource": "https://www.openstreetmap.org/node/8707017831",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.jonzac-haute-saintonge.com/fiche-sit/aire-camping-cars-camping-municipal-le-paradis-5687657/",
+    "verificationNote": "L’office de tourisme recense l’aire du camping municipal Le Paradis. Tarif du stationnement et des services à confirmer."
   },
   {
     "department": "17",
     "name": "Aire de Stationnement (Polygone)",
-    "city": "Commune à confirmer",
+    "city": "Rochefort",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement individuel gratuit",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/12171226325",
     "latitude": 45.9299811,
@@ -58,12 +64,18 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12171226325"
+    "sourceId": "node/12171226325",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.rochefort-ocean.com/organiser/informations-pratiques/aires-de-camping-car/aire-de-stationnement-polygone-112438",
+    "verificationNote": "L’office de tourisme confirme la gratuité du parking municipal du Polygone à Rochefort pour les camping-cars. Le livret municipal prévoit un droit de place spécifique aux groupes.",
+    "priceSource": "https://www.rochefort-ocean.com/organiser/informations-pratiques/aires-de-camping-car/aire-de-stationnement-polygone-112438",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’office de tourisme confirme la gratuité du parking municipal du Polygone à Rochefort pour les camping-cars. Le livret municipal prévoit un droit de place spécifique aux groupes."
   },
   {
     "department": "17",
     "name": "Aire de Stationnement (Place de l'Europe)",
-    "city": "Commune à confirmer",
+    "city": "Échillais",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
     "price": "Non confirmé",
@@ -75,7 +87,10 @@
     "dataLicense": "ODbL",
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
-    "sourceId": "node/12171244635"
+    "sourceId": "node/12171244635",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.ville-echillais.fr/cadre-de-vie/tourisme/aire-de-camping-cars/",
+    "verificationNote": "La mairie confirme un parking pour camping-cars place de l’Europe à Échillais ; tarif et conditions de nuitée à confirmer."
   },
   {
     "department": "17",
@@ -83,7 +98,7 @@
     "city": "Aulnay",
     "type": "Aire de camping-car (à vérifier)",
     "services": [],
-    "price": "Non confirmé",
+    "price": "Stationnement et vidange gratuits",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/node/13179109862",
     "latitude": 46.0223994,
@@ -93,7 +108,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "À contrôler avant déplacement",
     "sourceId": "node/13179109862",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.destinationvalsdesaintonge.com/fiche-sit/aire-de-camping-cars-aulnay-de-saintonge-5703410/",
+    "verificationNote": "L’office de tourisme confirme le parking et la vidange gratuits.",
+    "priceSource": "https://www.destinationvalsdesaintonge.com/fiche-sit/aire-de-camping-cars-aulnay-de-saintonge-5703410/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "L’office de tourisme confirme le parking et la vidange gratuits."
   },
   {
     "department": "17",
@@ -103,7 +124,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "14,02 € / 24 h",
+    "price": "14,02 € / 24 h, dont 1,32 € de taxe de séjour, jusqu’au 31/12/2027",
     "status": "Ouverte",
     "source": "https://www.openstreetmap.org/way/110379748",
     "latitude": 45.69139,
@@ -115,9 +136,12 @@
     "sourceId": "way/110379748",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/la-palmyre-corsaire",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK le 17/11/2026 ; le prix peut varier selon la période.",
-    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/la-palmyre-corsaire"
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "12,70 € hors taxe, plus 1,32 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €.",
+    "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/la-palmyre-corsaire",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/la-palmyre-corsaire",
+    "verificationNote": "12,70 € hors taxe, plus 1,32 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €."
   },
   {
     "department": "17",
@@ -127,7 +151,7 @@
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
+    "price": "Services gratuits ; tarif du stationnement à confirmer",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/132710285",
     "latitude": 45.8205774,
@@ -137,7 +161,13 @@
     "dataAttribution": "© OpenStreetMap contributors",
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/132710285",
-    "servicesSource": "https://www.openstreetmap.org/way/132710285"
+    "servicesSource": "https://www.openstreetmap.org/way/132710285",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.st-porchaire.fr/tourisme/camping-cars/",
+    "verificationNote": "La mairie confirme des services gratuits et un accès à l’aire du Champ de Foire toute l’année hors gel. Tarif du stationnement à confirmer.",
+    "priceSource": "https://www.st-porchaire.fr/tourisme/camping-cars/",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "La mairie confirme des services gratuits et un accès à l’aire du Champ de Foire toute l’année hors gel. Tarif du stationnement à confirmer."
   },
   {
     "department": "17",
@@ -147,7 +177,7 @@
     "services": [
       "Toilettes"
     ],
-    "price": "Non confirmé",
+    "price": "Stationnement gratuit",
     "status": "Donnée OpenStreetMap non vérifiée : accès, tarifs et services à confirmer",
     "source": "https://www.openstreetmap.org/way/172401280",
     "latitude": 45.1790551,
@@ -158,7 +188,13 @@
     "importReview": "Services déclarés dans les tags OSM, non vérifiés sur place",
     "sourceId": "way/172401280",
     "servicesSource": "https://www.openstreetmap.org/way/172401280",
-    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement."
+    "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.intramuros.org/clerac/decouvrir/5036",
+    "verificationNote": "La commune indique quatre places de stationnement gratuites à l’aire route des Vignes.",
+    "priceSource": "https://www.intramuros.org/clerac/decouvrir/5036",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "La commune indique quatre places de stationnement gratuites à l’aire route des Vignes."
   },
   {
     "department": "17",
@@ -168,7 +204,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "15,32 € / 24 h",
+    "price": "15,32 € / 24 h, dont 1,32 € de taxe de séjour, jusqu’au 31/12/2027",
     "status": "Ouverte",
     "source": "https://www.openstreetmap.org/way/180451380",
     "latitude": 45.6283,
@@ -181,10 +217,13 @@
     "servicesSource": "https://www.openstreetmap.org/way/180451380",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/royan",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK le 17/11/2026 ; le prix peut varier selon la période.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "14,00 € hors taxe, plus 1,32 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/royan",
-    "address": "18 rue Bel-Air, 17200 Royan"
+    "address": "18 rue Bel-Air, 17200 Royan",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/royan",
+    "verificationNote": "14,00 € hors taxe, plus 1,32 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €."
   },
   {
     "department": "17",
@@ -194,7 +233,7 @@
     "services": [
       "Électricité"
     ],
-    "price": "13,84 € / 24 h",
+    "price": "13,84 € / 24 h, dont 1,32 € de taxe de séjour, jusqu’au 31/12/2027",
     "status": "Ouverte",
     "source": "https://www.openstreetmap.org/way/224404666",
     "latitude": 46.07272,
@@ -207,10 +246,13 @@
     "servicesSource": "https://www.openstreetmap.org/way/224404666",
     "cityVerificationNote": "Commune déduite du nom de l'aire ou de sa localisation annoncée ; à confirmer cartographiquement.",
     "priceSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/chatelaillon-plage",
-    "priceVerifiedOn": "2026-11-17",
-    "priceNote": "Tarif affiché par CAMPING-CAR PARK le 17/11/2026 ; le prix peut varier selon la période.",
+    "priceVerifiedOn": "2026-11-27",
+    "priceNote": "12,52 € hors taxe, plus 1,32 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €.",
     "sourceOfficial": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/chatelaillon-plage",
-    "address": "19 rue des Éperons, 17340 Châtelaillon-Plage"
+    "address": "19 rue des Éperons, 17340 Châtelaillon-Plage",
+    "verificationDate": "2026-11-27",
+    "verificationSource": "https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/chatelaillon-plage",
+    "verificationNote": "12,52 € hors taxe, plus 1,32 € de taxe, jusqu’à fin 2027. Parking 5 h avec services : 6 €."
   },
   {
     "department": "17",
